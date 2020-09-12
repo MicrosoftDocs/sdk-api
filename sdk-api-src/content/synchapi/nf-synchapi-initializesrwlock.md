@@ -68,9 +68,9 @@ A pointer to the SRW lock.
 
 An SRW lock must be initialized before it is used. The InitializeSRWLock function is used to initialize a SRW lock dynamically. To initialize the structure statically, assign the constant <b>SRWLOCK_INIT</b> to the structure variable.
 
-An SRW lock cannot be moved or copied. The process must not modify the object, and must instead treat it as logically opaque. Only use the SRW functions to manage SRW locks. 
+An SRW lock cannot be moved or copied while in use. The process must not modify the object, and must instead treat it as logically opaque. Only use the SRW functions to manage SRW locks. 
 
-SRW locks do not need to be explicitly destroyed.
+An unlocked SRW lock with no waiting threads is in its initial state and can be copied, moved, and forgotten about with no need to be explicitly destroyed.
 
 ## -see-also
 
