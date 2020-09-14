@@ -142,7 +142,7 @@ This value is supported on Windows 7 and on Windows Server 2008 R2 with the W
 
 ### -field ONEX_PROFILE_EXPIRED_EXPLICIT_CREDENTIALS
 
-The saved user credentials have expired. This value can be returned if a profile was saved with credentials and the credentials subsequently expired (password expirarion after some period of time, for example).
+The saved user credentials have expired. This value can be returned if a profile was saved with credentials and the credentials subsequently expired (password expiration after some period of time, for example).
 
 This value is supported on Windows 7 and on Windows Server 2008 R2 with the Wireless LAN Service installed.
 
