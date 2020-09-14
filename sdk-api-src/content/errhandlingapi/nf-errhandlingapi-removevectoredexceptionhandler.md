@@ -53,7 +53,6 @@ api_name:
 
 # RemoveVectoredExceptionHandler function
 
-
 ## -description
 
 Unregisters a vectored exception handler.
@@ -62,15 +61,7 @@ Unregisters a vectored exception handler.
 
 ### -param Handle
 
-TBD
-
-
-
-
-#### - Handler [in]
-
-A handle to the vectored exception handler previously registered using the 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-addvectoredexceptionhandler">AddVectoredExceptionHandler</a> function.
+A handle to the vectored exception handler previously registered using the [AddVectoredExceptionHandler function](nf-errhandlingapi-addvectoredexceptionhandler.md).
 
 ## -returns
 
@@ -80,22 +71,12 @@ If the function fails, the return value is zero.
 
 ## -remarks
 
-To compile an application that uses this function, define the _WIN32_WINNT macro as 0x0500 or later. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/WinProg/using-the-windows-headers">Using the Windows Headers</a>.
+To compile an application that uses this function, define the _WIN32_WINNT macro as 0x0500 or later. For more information, see [/windows/desktop/WinProg/using-the-windows-headers](Using the Windows Headers).
 
+### Examples
 
-#### Examples
-
-For an example, see 
-<a href="https://docs.microsoft.com/windows/desktop/Debug/using-a-vectored-exception-handler">Using a Vectored Exception Handler</a>.
-
-<div class="code"></div>
+For an example, see [Using a Vectored Exception Handler](/windows/desktop/Debug/using-a-vectored-exception-handler).
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-addvectoredexceptionhandler">AddVectoredExceptionHandler</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/Debug/vectored-exception-handling">Vectored Exception Handling</a>
-
+[AddVectoredExceptionHandler function](nf-errhandlingapi-addvectoredexceptionhandler.md), [Vectored Exception Handling](/windows/desktop/Debug/vectored-exception-handling)

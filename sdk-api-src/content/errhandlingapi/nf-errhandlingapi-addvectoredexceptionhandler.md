@@ -53,7 +53,6 @@ api_name:
 
 # AddVectoredExceptionHandler function
 
-
 ## -description
 
 Registers a vectored exception handler.
@@ -62,65 +61,32 @@ Registers a vectored exception handler.
 
 ### -param First
 
-TBD
+The order in which the handler should be called. If the parameter is nonzero, the handler is the first handler to be called. If the parameter is zero, the handler is the last handler to be called.
 
 ### -param Handler
 
-TBD
-
-
-
-
-#### - FirstHandler [in]
-
-The order in which the handler should be called. If the parameter is nonzero, the handler is the first handler to be called. If the parameter is zero, the handler is the last handler to be called.
-
-
-#### - VectoredHandler [in]
-
-A pointer to the handler to be called. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/nc-winnt-pvectored_exception_handler">VectoredHandler</a>.
+A pointer to the handler to be called. For more information, see [VectoredHandler](/windows/desktop/api/winnt/nc-winnt-pvectored_exception_handler).
 
 ## -returns
 
 If the function succeeds, the return value is a handle to the exception handler.
 
-If the function fails, the return value is <b>NULL</b>.
+If the function fails, the return value is **NULL**.
 
 ## -remarks
 
-If the <i>FirstHandler</i> parameter is nonzero, the handler is the first handler to be called until a subsequent call to 
-<b>AddVectoredExceptionHandler</b> is used to specify a different handler as the first handler.
+If the *First* parameter is nonzero, the handler is the first handler to be called until a subsequent call to **AddVectoredExceptionHandler** is used to specify a different handler as the first handler.
 
-If the <i>VectoredHandler</i> parameter points to a function in a DLL and that DLL is unloaded, the handler is still registered. This can lead to application errors.
+If the *VectoredHandler* parameter points to a function in a DLL and that DLL is unloaded, the handler is still registered. This can lead to application errors.
 
-To unregister the handler, use the 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-removevectoredexceptionhandler">RemoveVectoredExceptionHandler</a> function.
+To unregister the handler, use the [RemoveVectoredExceptionHandler function](nf-errhandlingapi-removevectoredexceptionhandler.md) function.
 
-To compile an application that uses this function, define the _WIN32_WINNT macro as 0x0500 or later. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/WinProg/using-the-windows-headers">Using the Windows Headers</a>.
+To compile an application that uses this function, define the _WIN32_WINNT macro as 0x0500 or later. For more information, see [Using the Windows Headers](/windows/desktop/WinProg/using-the-windows-headers).
 
+### Examples
 
-#### Examples
-
-For an example, see 
-<a href="https://docs.microsoft.com/windows/desktop/Debug/using-a-vectored-exception-handler">Using a Vectored Exception Handler</a>.
-
-<div class="code"></div>
+For an example, see [Using a Vectored Exception Handler](/windows/desktop/Debug/using-a-vectored-exception-handler).
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-addvectoredcontinuehandler">AddVectoredContinueHandler</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-removevectoredexceptionhandler">RemoveVectoredExceptionHandler</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/Debug/vectored-exception-handling">Vectored Exception Handling</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/nc-winnt-pvectored_exception_handler">VectoredHandler</a>
-
+[AddVectoredContinueHandler function](nf-errhandlingapi-addvectoredcontinuehandler.md), [RemoveVectoredExceptionHandler function](nf-errhandlingapi-removevectoredexceptionhandler.md), [Vectored Exception Handling](/windows/desktop/Debug/vectored-exception-handling), [VectoredHandler](/windows/desktop/api/winnt/nc-winnt-pvectored_exception_handler)

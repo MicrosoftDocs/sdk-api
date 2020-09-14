@@ -53,7 +53,6 @@ api_name:
 
 # RemoveVectoredContinueHandler function
 
-
 ## -description
 
 Unregisters a vectored continue handler.
@@ -62,15 +61,7 @@ Unregisters a vectored continue handler.
 
 ### -param Handle
 
-TBD
-
-
-
-
-#### - Handler [in]
-
-A pointer to a vectored exception handler previously registered using the 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-addvectoredcontinuehandler">AddVectoredContinueHandler</a> function.
+A pointer to a vectored exception handler previously registered using the [AddVectoredContinueHandler function](nf-errhandlingapi-addvectoredcontinuehandler.md).
 
 ## -returns
 
@@ -80,14 +71,8 @@ If the function fails, the return value is zero.
 
 ## -remarks
 
-To compile an application that uses this function, define the _WIN32_WINNT macro as 0x0500 or later. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/WinProg/using-the-windows-headers">Using the Windows Headers</a>.
+To compile an application that uses this function, define the _WIN32_WINNT macro as 0x0500 or later. For more information, see [/windows/desktop/WinProg/using-the-windows-headers](Using the Windows Headers).
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-addvectoredcontinuehandler">AddVectoredContinueHandler</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/Debug/vectored-exception-handling">Vectored Exception Handling</a>
-
+[AddVectoredContinueHandler function](nf-errhandlingapi-addvectoredcontinuehandler.md), [Vectored Exception Handling](/windows/desktop/Debug/vectored-exception-handling)
