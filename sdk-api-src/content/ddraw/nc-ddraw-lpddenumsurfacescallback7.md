@@ -8,6 +8,10 @@ tech.root: directdraw
 ms.assetid: DA0FBED3-B61F-4CC3-9B6D-132A9F8ECFE0
 ms.date: 12/05/2018
 ms.keywords: EnumSurfacesCallback7, EnumSurfacesCallback7 callback function [DirectDraw], LPDDENUMSURFACESCALLBACK7, LPDDENUMSURFACESCALLBACK7 callback, ddraw/EnumSurfacesCallback7, directdraw.enumsurfacescallback7
+f1_keywords:
+- ddraw/EnumSurfacesCallback7
+dev_langs:
+- c++
 req.header: ddraw.h
 req.include-header: 
 req.target-type: Windows
@@ -25,28 +29,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topic_type:
+- APIRef
+- kbSyntax
+api_type:
+- UserDefined
+api_location:
+- Ddraw.h
+api_name:
+- EnumSurfacesCallback7
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
-f1_keywords:
- - LPDDENUMSURFACESCALLBACK7
- - ddraw/LPDDENUMSURFACESCALLBACK7
-dev_langs:
- - c++
-topic_type:
- - APIRef
- - kbSyntax
-api_type:
- - UserDefined
-api_location:
- - Ddraw.h
-api_name:
- - EnumSurfacesCallback7
 ---
-
-# LPDDENUMSURFACESCALLBACK7 callback function
-
 
 ## -description
 
@@ -54,25 +50,17 @@ The <i>EnumSurfacesCallback7</i> function is an application-defined callback fun
 
 ## -parameters
 
-### -param Arg1
-
-### -param Arg2
-
-### -param Arg3
-
-#### - lpContext [in]
-
-A pointer to an application-defined structure to be passed to the callback function each time that the function is called.
-
-
-#### - lpDDSurface [in]
+### -param Arg1 [in]
 
 A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nn-ddraw-idirectdrawsurface7">IDirectDrawSurface7</a> interface of the attached surface.
 
-
-#### - lpDDSurfaceDesc [in]
+### -param Arg2 [in]
 
 A pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff550340(v=vs.85)">DDSURFACEDESC2</a> structure that describes the attached surface.
+
+### -param Arg3 [in]
+
+A pointer to an application-defined structure to be passed to the callback function each time that the function is called.
 
 ## -returns
 
@@ -83,4 +71,3 @@ It returns DDENUMRET_CANCEL to stop the enumeration.
 ## -remarks
 
 You can use the LPDDENUMSURFACESCALLBACK7 data type to declare a variable that can contain a pointer to this callback function.
-

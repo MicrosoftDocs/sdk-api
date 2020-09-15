@@ -8,6 +8,10 @@ tech.root: Direct2D
 ms.assetid: E7161468-82F4-4DAC-B376-FFB96293F634
 ms.date: 12/05/2018
 ms.keywords: D2D_MATRIX_5X4_F, D2D_MATRIX_5X4_F structure [Direct2D], dcommon/D2D_MATRIX_5X4_F, direct2d.d2d_matrix_5x4_f
+f1_keywords:
+- dcommon/D2D_MATRIX_5X4_F
+dev_langs:
+- c++
 req.header: dcommon.h
 req.include-header: D2d1.h
 req.target-type: Windows
@@ -25,28 +29,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topic_type:
+- APIRef
+- kbSyntax
+api_type:
+- HeaderDef
+api_location:
+- dcommon.h
+api_name:
+- D2D_MATRIX_5X4_F
 targetos: Windows
 req.typenames: D2D_MATRIX_5X4_F
 req.redist: 
 ms.custom: 19H1
-f1_keywords:
- - D2D_MATRIX_5X4_F
- - dcommon/D2D_MATRIX_5X4_F
-dev_langs:
- - c++
-topic_type:
- - APIRef
- - kbSyntax
-api_type:
- - HeaderDef
-api_location:
- - dcommon.h
-api_name:
- - D2D_MATRIX_5X4_F
 ---
-
-# D2D_MATRIX_5X4_F structure
-
 
 ## -description
 
@@ -56,73 +52,132 @@ Describes a 5-by-4 floating point matrix.
 
 ### -field _11
 
+Type: <b>FLOAT</b>
+
+The value in the first row and first column of the matrix.
+
 ### -field _12
+
+Type: <b>FLOAT</b>
+
+The value in the first row and second column of the matrix.
 
 ### -field _13
 
+Type: <b>FLOAT</b>
+
+The value in the first row and third column of the matrix.
+
 ### -field _14
+
+Type: <b>FLOAT</b>
+
+The value in the first row and fourth column of the matrix.
+
+### -field _15
+
+Type: <b>FLOAT</b>
+
+The value in the first row and fifth column of the matrix.
 
 ### -field _21
 
+Type: <b>FLOAT</b>
+
+The value in the second row and first column of the matrix.
+
 ### -field _22
+
+Type: <b>FLOAT</b>
+
+The value in the second row and second column of the matrix.
 
 ### -field _23
 
+Type: <b>FLOAT</b>
+
+The value in the second row and third column of the matrix.
+
 ### -field _24
+
+Type: <b>FLOAT</b>
+
+The value in the second row and fourth column of the matrix.
+
+### -field _25
+
+Type: <b>FLOAT</b>
+
+The value in the second row and fifth column of the matrix.
 
 ### -field _31
 
+Type: <b>FLOAT</b>
+
+The value in the third row and first column of the matrix.
+
 ### -field _32
+
+Type: <b>FLOAT</b>
+
+The value in the third row and second column of the matrix.
 
 ### -field _33
 
+Type: <b>FLOAT</b>
+
+The value in the third row and third column of the matrix.
+
 ### -field _34
+
+Type: <b>FLOAT</b>
+
+The value in the third row and fourth column of the matrix.
+
+### -field _35
+
+Type: <b>FLOAT</b>
+
+The value in the third row and fifth column of the matrix.
 
 ### -field _41
 
+Type: <b>FLOAT</b>
+
+The value in the fourth row and first column of the matrix.
+
 ### -field _42
+
+Type: <b>FLOAT</b>
+
+The value in the fourth row and second column of the matrix.
 
 ### -field _43
 
+Type: <b>FLOAT</b>
+
+The value in the fourth row and third column of the matrix.
+
 ### -field _44
 
-### -field _51
+Type: <b>FLOAT</b>
 
-### -field _52
+The value in the fourth row and fourth column of the matrix.
 
-### -field _53
+### -field _45
 
-### -field _54
+Type: <b>FLOAT</b>
+
+The value in the fourth row and fifth column of the matrix.
 
 ### -field m
 
 A 5-by-4 floating point array that describes the matrix.
 
-### -field _11, _12, _13, _14
-
- The values in the first row and first, second, third, and fourth columns of the matrix.
-
-### -field _21, _22, _23, _24
-
-The values in the second row  and first, second, third, and fourth columns of the matrix.
-
-### -field _31, _32, _33, _34
-
-The values in the third row  and first, second, third, and fourth columns of the matrix.
-
-### -field _41, _42, _43, _44
-
-The value in the fourth row  and first, second, third, and fourth columns of the matrix.
-
-### -field _51, _52, _53, _54
-
-The value in the fifth row  and first, second, third, and fourth columns of the matrix.
-
 ## -remarks
 
 The <b>D2D1_MATRIX_5X4_F</b> structure is type defined from a <b>D2D_MATRIX_5X4_F</b> structure in D2d1_1.h.
 
-<pre class="syntax" xml:space="preserve"><code>
+```cpp
 typedef D2D_MATRIX_5X4_F D2D1_MATRIX_5X4_F;
-</code></pre>
-
+```

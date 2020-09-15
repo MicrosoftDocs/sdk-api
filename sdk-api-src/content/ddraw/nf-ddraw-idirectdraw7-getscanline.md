@@ -8,6 +8,10 @@ tech.root: directdraw
 ms.assetid: 0bccb384-2de3-49a5-962a-31ad2a751e28
 ms.date: 12/05/2018
 ms.keywords: GetScanLine, GetScanLine method [DirectDraw], GetScanLine method [DirectDraw],IDirectDraw7 interface, IDirectDraw7 interface [DirectDraw],GetScanLine method, IDirectDraw7.GetScanLine, IDirectDraw7::GetScanLine, ddraw/IDirectDraw7::GetScanLine, directdraw.idirectdraw7_getscanline
+f1_keywords:
+- ddraw/IDirectDraw7.GetScanLine
+dev_langs:
+- c++
 req.header: ddraw.h
 req.include-header: 
 req.target-type: Windows
@@ -25,28 +29,20 @@ req.type-library:
 req.lib: Ddraw.lib
 req.dll: Ddraw.dll
 req.irql: 
+topic_type:
+- APIRef
+- kbSyntax
+api_type:
+- COM
+api_location:
+- Ddraw.dll
+api_name:
+- IDirectDraw7.GetScanLine
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
-f1_keywords:
- - IDirectDraw7::GetScanLine
- - ddraw/IDirectDraw7::GetScanLine
-dev_langs:
- - c++
-topic_type:
- - APIRef
- - kbSyntax
-api_type:
- - COM
-api_location:
- - Ddraw.dll
-api_name:
- - IDirectDraw7.GetScanLine
 ---
-
-# IDirectDraw7::GetScanLine
-
 
 ## -description
 
@@ -54,15 +50,13 @@ Retrieves the scan line that is currently being drawn on the monitor.
 
 ## -parameters
 
-#### - lpdwScanLine [out]
+### -param arg1 [out]
 
 A pointer to a variable that receives the scan line that the display is currently drawing.
 
 ## -returns
 
 If the method succeeds, the return value is DD_OK.
-
-
 
 If it fails, the method can return one of the following error values:
 
@@ -82,4 +76,3 @@ You must use <a href="https://docs.microsoft.com/windows/desktop/api/libloaderap
 ## -see-also
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nn-ddraw-idirectdraw7">IDirectDraw7</a>
-

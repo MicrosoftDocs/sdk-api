@@ -8,6 +8,10 @@ tech.root: directdraw
 ms.assetid: D3D31978-D450-40B3-8C61-1F2662C1BA50
 ms.date: 12/05/2018
 ms.keywords: DDEnumCallbackEx, DDEnumCallbackEx callback function [DirectDraw], LPDDENUMCALLBACKEX, LPDDENUMCALLBACKEX callback, LPDDENUMCALLBACKEXA, LPDDENUMCALLBACKEXW, ddraw/DDEnumCallbackEx, directdraw.ddenumcallbackex
+f1_keywords:
+- ddraw/DDEnumCallbackEx
+dev_langs:
+- c++
 req.header: ddraw.h
 req.include-header: 
 req.target-type: Windows
@@ -25,29 +29,21 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topic_type:
+- APIRef
+- kbSyntax
+api_type:
+- UserDefined
+api_location:
+- Ddraw.h
+api_name:
+- DDEnumCallbackEx
+- lpddenumcallbackexw
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
-f1_keywords:
- - LPDDENUMCALLBACKEXW
- - ddraw/LPDDENUMCALLBACKEXW
-dev_langs:
- - c++
-topic_type:
- - APIRef
- - kbSyntax
-api_type:
- - UserDefined
-api_location:
- - Ddraw.h
-api_name:
- - DDEnumCallbackEx
- - lpddenumcallbackexw
 ---
-
-# LPDDENUMCALLBACKEXW callback function
-
 
 ## -description
 
@@ -55,39 +51,25 @@ The <i>DDEnumCallbackEx</i> function is an application-defined callback function
 
 ## -parameters
 
-### -param *
-
 ### -param Arg1
+
+A pointer to the unique identifier of the DirectDraw object.
 
 ### -param Arg2
 
+Address of a string that contains the driver name.
+
 ### -param Arg3
-
-### -param Arg4
-
-#### - hm [in]
-
-Handle of the monitor that is associated with the enumerated DirectDraw object. This parameter is NULL when the enumerated DirectDraw object is for the primary device, a nondisplay device (such as a 3-D accelerator with no 2-D capabilities), or devices not attached to the desktop.
-
-
-#### - lpContext [in]
-
-A pointer to an application-defined structure to be passed to the callback function each time that the function is called.
-
-
-#### - lpDriverDescription [in]
 
 Address of a string that contains the driver description.
 
+### -param Arg4
 
-#### - lpDriverName [in]
+A pointer to an application-defined structure to be passed to the callback function each time that the function is called.
 
-Address of a string that contains the driver name.
+### -param Arg5
 
-
-#### - lpGUID [in]
-
-A pointer to the unique identifier of the DirectDraw object.
+Handle of the monitor that is associated with the enumerated DirectDraw object. This parameter is NULL when the enumerated DirectDraw object is for the primary device, a nondisplay device (such as a 3-D accelerator with no 2-D capabilities), or devices not attached to the desktop.
 
 ## -returns
 
@@ -103,9 +85,5 @@ You can use the LPDDENUMCALLBACKEX data type to declare a variable that can cont
 
 If UNICODE is defined, the string values are returned as type LPWSTR, rather than LPSTR.
 
-
-
-
 > [!NOTE]
 > The ddraw.h header defines LPDDENUMCALLBACKEX as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-
