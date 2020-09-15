@@ -1,7 +1,7 @@
 ---
 UID: NS:dot1x._ONEX_VARIABLE_BLOB
 title: ONEX_VARIABLE_BLOB (dot1x.h)
-description: Is used as a member of other 802.1X authentication stuctures to contain variable-sized members.
+description: Is used as a member of other 802.1X authentication structures to contain variable-sized members.
 helpviewer_keywords: ["*PONEX_VARIABLE_BLOB","ONEX_VARIABLE_BLOB","ONEX_VARIABLE_BLOB structure [NativeWIFI]","PONEX_VARIABLE_BLOB","PONEX_VARIABLE_BLOB structure pointer [NativeWIFI]","dot1x/ONEX_VARIABLE_BLOB","dot1x/PONEX_VARIABLE_BLOB","nwifi.onex_variable_blob"]
 old-location: nwifi\onex_variable_blob.htm
 tech.root: nwifi
@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-The <b>ONEX_VARIABLE_BLOB</b> structure is used as a member of other 802.1X authentication stuctures to contain variable-sized members..
+The <b>ONEX_VARIABLE_BLOB</b> structure is used as a member of other 802.1X authentication structures to contain variable-sized members.
 
 ## -struct-fields
 
