@@ -66,9 +66,9 @@ The previous network state for a data peer on the wireless Hosted Network.
 
 The current network state for a data peer on the wireless Hosted Network.
 
-The reason for the network state change for the data peer.
-
 ### -field PeerStateChangeReason
+
+The reason for the network state change for the data peer.
 
 ## -remarks
 
