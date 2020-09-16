@@ -45,9 +45,6 @@ api_name:
  - DdBlt
 ---
 
-# PDD_SURFCB_BLT callback function
-
-
 ## -description
 
 The <i>DdBlt</i> callback function performs a bit-block transfer.
@@ -55,8 +52,6 @@ The <i>DdBlt</i> callback function performs a bit-block transfer.
 ## -parameters
 
 ### -param Arg1
-
-#### - lpBlt
 
 Points to the <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_bltdata">DD_BLTDATA</a> structure that contains the information required for the driver to perform the blit.
 

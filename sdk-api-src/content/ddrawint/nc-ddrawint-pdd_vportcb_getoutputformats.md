@@ -45,9 +45,6 @@ api_name:
  - DdVideoPortGetOutputFormats
 ---
 
-# PDD_VPORTCB_GETOUTPUTFORMATS callback function
-
-
 ## -description
 
 The <b>DdVideoPortGetOutputFormats</b> callback function determines the output formats that the VPE object supports.
@@ -55,8 +52,6 @@ The <b>DdVideoPortGetOutputFormats</b> callback function determines the output f
 ## -parameters
 
 ### -param Arg1
-
-#### - lpGetOutputFormats
 
 Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_getvportoutputformatdata">DD_GETVPORTOUTPUTFORMATDATA</a> structure that contains the information required for the driver to return the output formats the VPE object supports.
 

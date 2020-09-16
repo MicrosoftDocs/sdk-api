@@ -45,8 +45,6 @@ api_name:
  - DdFreeDriverMemory
 ---
 
-# PDD_FREEDRIVERMEMORY callback function
-
 
 ## -description
 
@@ -56,7 +54,6 @@ The <b>DdFreeDriverMemory</b> callback function frees offscreen or nonlocal disp
 
 ### -param Arg1
 
-#### - lpfdm
 
 Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_freedrivermemorydata">DD_FREEDRIVERMEMORYDATA</a> structure that contains the details of the free request.
 

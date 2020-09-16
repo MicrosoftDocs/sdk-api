@@ -45,9 +45,6 @@ api_name:
  - DdCreatePalette
 ---
 
-# PDD_CREATEPALETTE callback function
-
-
 ## -description
 
 The <b>DdCreatePalette</b> callback function creates a DirectDrawPalette object for the specified DirectDraw object.
@@ -55,8 +52,6 @@ The <b>DdCreatePalette</b> callback function creates a DirectDrawPalette object 
 ## -parameters
 
 ### -param Arg1
-
-#### - lpCreatePalette
 
 Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_createpalettedata">DD_CREATEPALETTEDATA</a> structure that contains the information necessary to create the DirectDrawPalette object.
 

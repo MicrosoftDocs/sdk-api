@@ -8,6 +8,10 @@ tech.root: directdraw
 ms.assetid: 4d0b827d-86f8-4d71-a193-9e330db0fbfd
 ms.date: 12/05/2018
 ms.keywords: GetGDISurface, GetGDISurface method [DirectDraw], GetGDISurface method [DirectDraw],IDirectDraw7 interface, IDirectDraw7 interface [DirectDraw],GetGDISurface method, IDirectDraw7.GetGDISurface, IDirectDraw7::GetGDISurface, ddraw/IDirectDraw7::GetGDISurface, directdraw.idirectdraw7_getgdisurface
+f1_keywords:
+- ddraw/IDirectDraw7.GetGDISurface
+dev_langs:
+- c++
 req.header: ddraw.h
 req.include-header: 
 req.target-type: Windows
@@ -25,28 +29,20 @@ req.type-library:
 req.lib: Ddraw.lib
 req.dll: Ddraw.dll
 req.irql: 
+topic_type:
+- APIRef
+- kbSyntax
+api_type:
+- COM
+api_location:
+- Ddraw.dll
+api_name:
+- IDirectDraw7.GetGDISurface
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
-f1_keywords:
- - IDirectDraw7::GetGDISurface
- - ddraw/IDirectDraw7::GetGDISurface
-dev_langs:
- - c++
-topic_type:
- - APIRef
- - kbSyntax
-api_type:
- - COM
-api_location:
- - Ddraw.dll
-api_name:
- - IDirectDraw7.GetGDISurface
 ---
-
-# IDirectDraw7::GetGDISurface
-
 
 ## -description
 
@@ -54,15 +50,13 @@ Retrieves the DirectDrawSurface object that currently represents the surface mem
 
 ## -parameters
 
-#### - lplpGDIDDSSurface [out]
+### -param arg1 [out]
 
 Address of a variable to be filled with a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nn-ddraw-idirectdrawsurface7">IDirectDrawSurface7</a> interface for the surface that currently controls the GDI's primary surface memory.
 
 ## -returns
 
 If the method succeeds, the return value is DD_OK.
-
-
 
 If it fails, the method can return one of the following error values:
 
@@ -79,4 +73,3 @@ You must use <a href="https://docs.microsoft.com/windows/desktop/api/libloaderap
 ## -see-also
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nn-ddraw-idirectdraw7">IDirectDraw7</a>
-

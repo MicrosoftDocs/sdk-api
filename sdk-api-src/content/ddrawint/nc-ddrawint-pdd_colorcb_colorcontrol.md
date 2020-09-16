@@ -45,9 +45,6 @@ api_name:
  - DdControlColor
 ---
 
-# PDD_COLORCB_COLORCONTROL callback function
-
-
 ## -description
 
 The <b>DdControlColor</b> callback function controls the luminance and brightness controls of an overlay surface.
@@ -56,13 +53,11 @@ The <b>DdControlColor</b> callback function controls the luminance and brightnes
 
 ### -param Arg1
 
-#### - lpColorControl
-
 Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_colorcontroldata">DD_COLORCONTROLDATA</a> structure that contains the color control information for a specified overlay surface.
 
 ## -returns
 
-<b>DdControlColor</b> returns one of the following callback codes:
+<b>DdControlColor</b> returns a callback code.
 
 ## -remarks
 

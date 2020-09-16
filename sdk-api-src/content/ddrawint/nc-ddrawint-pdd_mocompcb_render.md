@@ -45,9 +45,6 @@ api_name:
  - DdMoCompRender
 ---
 
-# PDD_MOCOMPCB_RENDER callback function
-
-
 ## -description
 
 The <b>DdMoCompRender</b> callback function tells the driver what macroblocks to render by specifying the surfaces containing the macroblocks, the offsets in each surface where the macroblocks exist, and the size of the macroblock data to be rendered.
@@ -55,8 +52,6 @@ The <b>DdMoCompRender</b> callback function tells the driver what macroblocks to
 ## -parameters
 
 ### -param Arg1
-
-#### - lpRenderData
 
 Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_rendermocompdata">DD_RENDERMOCOMPDATA</a> structure that contains the information needed to render a frame.
 

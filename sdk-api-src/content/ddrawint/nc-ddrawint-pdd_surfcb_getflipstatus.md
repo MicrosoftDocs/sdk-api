@@ -45,9 +45,6 @@ api_name:
  - DdGetFlipStatus
 ---
 
-# PDD_SURFCB_GETFLIPSTATUS callback function
-
-
 ## -description
 
 The <b>DdGetFlipStatus</b> callback function determines whether the most recently requested flip on a surface has occurred.
@@ -55,8 +52,6 @@ The <b>DdGetFlipStatus</b> callback function determines whether the most recentl
 ## -parameters
 
 ### -param Arg1
-
-#### - lpGetFlipStatus
 
 Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_getflipstatusdata">DD_GETFLIPSTATUSDATA</a> structure that contains the information required to perform the flip status query.
 

@@ -45,8 +45,6 @@ api_name:
  - CreateD3DBuffer
 ---
 
-# PDD_CREATESURFACE callback function
-
 
 ## -description
 
@@ -55,8 +53,6 @@ The <i>CreateD3DBuffer</i> callback function is used to create a driver-level co
 ## -parameters
 
 ### -param Arg1
-
-#### - lpCreateD3DBuffer
 
 Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_createsurfacedata">DD_CREATESURFACEDATA</a> structure that contains the information required to create the buffer.
 

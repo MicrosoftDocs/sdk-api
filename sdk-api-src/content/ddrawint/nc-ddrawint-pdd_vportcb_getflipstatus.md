@@ -45,9 +45,6 @@ api_name:
  - DdVideoPortGetFlipStatus
 ---
 
-# PDD_VPORTCB_GETFLIPSTATUS callback function
-
-
 ## -description
 
 The <i>DdVideoPortGetFlipStatus</i> callback function determines whether the most recently requested flip on a surface has occurred.
@@ -55,8 +52,6 @@ The <i>DdVideoPortGetFlipStatus</i> callback function determines whether the mos
 ## -parameters
 
 ### -param Arg1
-
-#### - lpGetFlipStatus
 
 Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_getvportflipstatusdata">DD_GETVPORTFLIPSTATUSDATA</a> structure that contains the information required for the driver to determine a surface's flip status.
 

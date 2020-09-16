@@ -45,9 +45,6 @@ api_name:
  - D3dCreateSurfaceEx
 ---
 
-# PDD_CREATESURFACEEX callback function
-
-
 ## -description
 
 The <b>D3dCreateSurfaceEx</b> function notifies about the association of a Microsoft DirectDraw surface and a Microsoft Direct3D handle value to enable setting up the surface for Direct3D rendering.
@@ -55,8 +52,6 @@ The <b>D3dCreateSurfaceEx</b> function notifies about the association of a Micro
 ## -parameters
 
 ### -param Arg1
-
-#### - pcsxd
 
 Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_createsurfaceexdata">DD_CREATESURFACEEXDATA</a> structure that contains the information required for the driver to create the surface.
 

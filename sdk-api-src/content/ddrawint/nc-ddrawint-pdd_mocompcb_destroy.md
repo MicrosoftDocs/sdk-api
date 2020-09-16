@@ -45,9 +45,6 @@ api_name:
  - DdMoCompDestroy
 ---
 
-# PDD_MOCOMPCB_DESTROY callback function
-
-
 ## -description
 
 The <b>DdMoCompDestroy</b> callback function notifies the driver that this motion compensation object will no longer be used. The driver now needs to perform any necessary cleanup.
@@ -55,8 +52,6 @@ The <b>DdMoCompDestroy</b> callback function notifies the driver that this motio
 ## -parameters
 
 ### -param Arg1
-
-#### - lpDestroyData
 
 Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_destroymocompdata">DD_DESTROYMOCOMPDATA</a> structure that contains the information needed to finish motion compensation.
 

@@ -45,9 +45,6 @@ api_name:
  - DdDestroySurface
 ---
 
-# PDD_SURFCB_DESTROYSURFACE callback function
-
-
 ## -description
 
 The <b>DdDestroySurface</b> callback function destroys a DirectDraw surface.
@@ -55,8 +52,6 @@ The <b>DdDestroySurface</b> callback function destroys a DirectDraw surface.
 ## -parameters
 
 ### -param Arg1
-
-#### - lpDestroySurface
 
 Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_destroysurfacedata">DD_DESTROYSURFACEDATA</a> structure that contains the information needed to destroy a surface.
 

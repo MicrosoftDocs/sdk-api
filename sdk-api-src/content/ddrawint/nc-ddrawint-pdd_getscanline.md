@@ -45,7 +45,7 @@ api_name:
  - DdGetScanLine
 ---
 
-# PDD_GETSCANLINE callback function
+
 
 
 ## -description
@@ -56,7 +56,6 @@ The <i>DdGetScanLine</i> callback function returns the number of the current phy
 
 ### -param Arg1
 
-#### - pGetScanLine
 
 Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_getscanlinedata">DD_GETSCANLINEDATA</a> structure in which the driver returns the number of the current scan line.
 

@@ -8,6 +8,10 @@ tech.root: directdraw
 ms.assetid: e641d8e7-ce29-454a-80fc-d404a27e9b63
 ms.date: 12/05/2018
 ms.keywords: IDirectDraw7 interface [DirectDraw],Initialize method, IDirectDraw7.Initialize, IDirectDraw7::Initialize, Initialize, Initialize method [DirectDraw], Initialize method [DirectDraw],IDirectDraw7 interface, ddraw/IDirectDraw7::Initialize, directdraw.idirectdraw7_initialize
+f1_keywords:
+- ddraw/IDirectDraw7.Initialize
+dev_langs:
+- c++
 req.header: ddraw.h
 req.include-header: 
 req.target-type: Windows
@@ -25,28 +29,20 @@ req.type-library:
 req.lib: Ddraw.lib
 req.dll: Ddraw.dll
 req.irql: 
+topic_type:
+- APIRef
+- kbSyntax
+api_type:
+- COM
+api_location:
+- Ddraw.dll
+api_name:
+- IDirectDraw7.Initialize
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
-f1_keywords:
- - IDirectDraw7::Initialize
- - ddraw/IDirectDraw7::Initialize
-dev_langs:
- - c++
-topic_type:
- - APIRef
- - kbSyntax
-api_type:
- - COM
-api_location:
- - Ddraw.dll
-api_name:
- - IDirectDraw7.Initialize
 ---
-
-# IDirectDraw7::Initialize
-
 
 ## -description
 
@@ -54,15 +50,13 @@ Initializes a DirectDraw object that was created by using the <a href="https://d
 
 ## -parameters
 
-#### - lpGUID [in]
+### -param arg1 [in]
 
-A pointer to the globally unique identifier (GUID) that this method uses as the DirectDraw interface identifier.
+A pointer to the globally unique identifier (GUID) that this method uses as the DirectDraw interface identifier. 
 
 ## -returns
 
 If the method succeeds, the return value is DD_OK.
-
-
 
 If it fails, the method can return one of the following error values:
 
@@ -85,4 +79,3 @@ You must use <a href="https://docs.microsoft.com/windows/desktop/api/libloaderap
 ## -see-also
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nn-ddraw-idirectdraw7">IDirectDraw7</a>
-

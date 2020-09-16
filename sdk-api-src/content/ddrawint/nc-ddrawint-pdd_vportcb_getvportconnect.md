@@ -45,9 +45,6 @@ api_name:
  - DdVideoPortGetConnectInfo
 ---
 
-# PDD_VPORTCB_GETVPORTCONNECT callback function
-
-
 ## -description
 
 The <i>DdVideoPortGetConnectInfo</i> callback function returns the connections supported by the specified VPE object.
@@ -55,8 +52,6 @@ The <i>DdVideoPortGetConnectInfo</i> callback function returns the connections s
 ## -parameters
 
 ### -param Arg1
-
-#### - lpGetConnect
 
 Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_getvportconnectdata">DD_GETVPORTCONNECTDATA</a> structure that contains the information required for the driver to return the VPE object connection data.
 

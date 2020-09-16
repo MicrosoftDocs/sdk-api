@@ -45,9 +45,6 @@ api_name:
  - DdVideoPortUpdate
 ---
 
-# PDD_VPORTCB_UPDATE callback function
-
-
 ## -description
 
 The <b>DdVideoPortUpdate</b> callback function starts and stops the VPE object, and modifies the VPE object data stream.
@@ -55,8 +52,6 @@ The <b>DdVideoPortUpdate</b> callback function starts and stops the VPE object, 
 ## -parameters
 
 ### -param Arg1
-
-#### - lpUpdate
 
 Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_updatevportdata">DD_UPDATEVPORTDATA</a> structure that contains the information required for the driver to update the VPE object.
 

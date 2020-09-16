@@ -45,9 +45,6 @@ api_name:
  - CanCreateD3DBuffer
 ---
 
-# PDD_CANCREATESURFACE callback function
-
-
 ## -description
 
 The <b>CanCreateD3DBuffer</b> callback function determines whether the driver can create a driver-level command or vertex buffer of the specified description.
@@ -56,13 +53,11 @@ The <b>CanCreateD3DBuffer</b> callback function determines whether the driver ca
 
 ### -param Arg1
 
-#### - lpCanCreateD3DBuffer
-
 Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_cancreatesurfacedata">DD_CANCREATESURFACEDATA</a> structure. This structure contains the information required for the driver to determine whether a command or vertex buffer can be created.
 
 ## -returns
 
-<b>CanCreateD3DBuffer</b> returns one of the following callback codes:
+<b>CanCreateD3DBuffer</b> returns a callback code.
 
 ## -remarks
 

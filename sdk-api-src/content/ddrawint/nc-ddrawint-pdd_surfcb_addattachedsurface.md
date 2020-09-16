@@ -45,9 +45,6 @@ api_name:
  - DdAddAttachedSurface
 ---
 
-# PDD_SURFCB_ADDATTACHEDSURFACE callback function
-
-
 ## -description
 
 The <b>DdAddAttachedSurface</b> callback function attaches a surface to another surface.
@@ -55,8 +52,6 @@ The <b>DdAddAttachedSurface</b> callback function attaches a surface to another 
 ## -parameters
 
 ### -param Arg1
-
-#### - lpAddAttachedSurface
 
 Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_addattachedsurfacedata">DD_ADDATTACHEDSURFACEDATA</a> structure that contains information required for the driver to perform the attachment.
 

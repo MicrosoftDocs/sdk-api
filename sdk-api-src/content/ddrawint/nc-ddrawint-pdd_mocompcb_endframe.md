@@ -45,9 +45,6 @@ api_name:
  - DdMoCompEndFrame
 ---
 
-# PDD_MOCOMPCB_ENDFRAME callback function
-
-
 ## -description
 
 The <b>DdMoCompEndFrame</b> callback function completes a decoded frame.
@@ -55,8 +52,6 @@ The <b>DdMoCompEndFrame</b> callback function completes a decoded frame.
 ## -parameters
 
 ### -param Arg1
-
-#### - lpFrameData
 
 Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_endmocompframedata">DD_ENDMOCOMPFRAMEDATA</a> structure that contains the information needed to complete the decoded frame.
 

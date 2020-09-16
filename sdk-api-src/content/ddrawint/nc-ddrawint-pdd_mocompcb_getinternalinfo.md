@@ -45,9 +45,6 @@ api_name:
  - DdMoCompGetInternalInfo
 ---
 
-# PDD_MOCOMPCB_GETINTERNALINFO callback function
-
-
 ## -description
 
 The <b>DdMoCompGetInternalInfo</b> callback function allows the driver to report that it internally allocates display memory to perform motion compensation.
@@ -55,8 +52,6 @@ The <b>DdMoCompGetInternalInfo</b> callback function allows the driver to report
 ## -parameters
 
 ### -param Arg1
-
-#### - lpInternalData
 
 Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_getinternalmocompdata">DD_GETINTERNALMOCOMPDATA</a> structure that contains the internal memory requirements.
 

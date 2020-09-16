@@ -45,9 +45,6 @@ api_name:
  - DdWaitForVerticalBlank
 ---
 
-# PDD_WAITFORVERTICALBLANK callback function
-
-
 ## -description
 
 The <b>DdWaitForVerticalBlank</b> callback function returns the vertical blank status of the device.
@@ -55,8 +52,6 @@ The <b>DdWaitForVerticalBlank</b> callback function returns the vertical blank s
 ## -parameters
 
 ### -param Arg1
-
-#### - lpWaitForVerticalBlank
 
 Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_waitforverticalblankdata">DD_WAITFORVERTICALBLANKDATA</a> structure that contains the information required to obtain the vertical blank status.
 

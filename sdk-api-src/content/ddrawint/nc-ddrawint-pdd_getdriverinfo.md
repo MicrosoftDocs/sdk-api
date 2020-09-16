@@ -45,9 +45,6 @@ api_name:
  - DdGetDriverInfo
 ---
 
-# PDD_GETDRIVERINFO callback function
-
-
 ## -description
 
 The <i>DdGetDriverInfo</i> function queries the driver for additional DirectDraw and Direct3D functionality that the driver supports.
@@ -55,8 +52,6 @@ The <i>DdGetDriverInfo</i> function queries the driver for additional DirectDraw
 ## -parameters
 
 ### -param Arg1
-
-#### - lpGetDriverInfo
 
 Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_getdriverinfodata">DD_GETDRIVERINFODATA</a> structure that contains the information required to perform the query.
 

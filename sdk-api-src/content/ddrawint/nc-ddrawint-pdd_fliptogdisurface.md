@@ -45,9 +45,6 @@ api_name:
  - DdFlipToGDISurface
 ---
 
-# PDD_FLIPTOGDISURFACE callback function
-
-
 ## -description
 
 The <i>DdFlipToGDISurface</i> callback function notifies the driver when DirectDraw is flipping to or from a GDI surface.
@@ -56,7 +53,6 @@ The <i>DdFlipToGDISurface</i> callback function notifies the driver when DirectD
 
 ### -param Arg1
 
-#### - lpFlipToGDISurface
 
 Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_fliptogdisurfacedata">DD_FLIPTOGDISURFACEDATA</a> structure that contains the notification information.
 

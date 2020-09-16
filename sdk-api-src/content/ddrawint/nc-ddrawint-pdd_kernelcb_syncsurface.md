@@ -45,9 +45,6 @@ api_name:
  - DdSyncSurfaceData
 ---
 
-# PDD_KERNELCB_SYNCSURFACE callback function
-
-
 ## -description
 
 The <i>DdSyncSurfaceData</i> callback function sets and modifies surface data before it is passed to the video miniport driver.
@@ -55,8 +52,6 @@ The <i>DdSyncSurfaceData</i> callback function sets and modifies surface data be
 ## -parameters
 
 ### -param Arg1
-
-#### - lpSyncSurface
 
 Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_syncsurfacedata">DD_SYNCSURFACEDATA</a> structure that contains the surface data.
 

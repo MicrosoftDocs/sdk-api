@@ -45,9 +45,6 @@ api_name:
  - D3dDestroyDDLocal
 ---
 
-# PDD_DESTROYDDLOCAL callback function
-
-
 ## -description
 
 The <b>D3dDestroyDDLocal</b> function destroys all the Microsoft Direct3D surfaces previously created by the <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/nc-ddrawint-pdd_createsurfaceex">D3dCreateSurfaceEx</a> function that belong to the same given local Microsoft DirectDraw object.
@@ -55,8 +52,6 @@ The <b>D3dDestroyDDLocal</b> function destroys all the Microsoft Direct3D surfac
 ## -parameters
 
 ### -param Arg1
-
-#### - pcdddd
 
 Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawi/ns-ddrawi-ddhal_destroyddlocaldata">DDHAL_DESTROYDDLOCALDATA</a> structure that contains the information required for the driver to destroy the surfaces.
 

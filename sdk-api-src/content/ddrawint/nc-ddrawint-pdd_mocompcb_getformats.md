@@ -45,9 +45,6 @@ api_name:
  - DdMoCompGetFormats
 ---
 
-# PDD_MOCOMPCB_GETFORMATS callback function
-
-
 ## -description
 
 The <b>DdMoCompGetFormats</b> callback function indicates the uncompressed formats to which the hardware can decode the data.
@@ -55,8 +52,6 @@ The <b>DdMoCompGetFormats</b> callback function indicates the uncompressed forma
 ## -parameters
 
 ### -param Arg1
-
-#### - lpGetFormatData
 
 Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_getmocompformatsdata">DD_GETMOCOMPFORMATSDATA</a> structure that contains the uncompressed format information for the hardware.
 

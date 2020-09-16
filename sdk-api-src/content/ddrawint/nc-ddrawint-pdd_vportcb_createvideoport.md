@@ -45,9 +45,6 @@ api_name:
  - DdVideoPortCreate
 ---
 
-# PDD_VPORTCB_CREATEVIDEOPORT callback function
-
-
 ## -description
 
 The <b>DdVideoPortCreate</b> callback function notifies the driver that DirectDraw has created a VPE object.
@@ -55,8 +52,6 @@ The <b>DdVideoPortCreate</b> callback function notifies the driver that DirectDr
 ## -parameters
 
 ### -param Arg1
-
-#### - lpCreateVideoPort
 
 Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_createvportdata">DD_CREATEVPORTDATA</a> structure that describes the created VPE object.
 

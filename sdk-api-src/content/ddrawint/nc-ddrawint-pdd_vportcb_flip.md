@@ -45,9 +45,6 @@ api_name:
  - DdVideoPortFlip
 ---
 
-# PDD_VPORTCB_FLIP callback function
-
-
 ## -description
 
 The <i>DdVideoPortFlip</i> callback function performs a physical flip, causing the VPE object to start writing data to the new surface.
@@ -55,8 +52,6 @@ The <i>DdVideoPortFlip</i> callback function performs a physical flip, causing t
 ## -parameters
 
 ### -param Arg1
-
-#### - lpFlipVideoPort
 
 Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_flipvportdata">DD_FLIPVPORTDATA</a> structure that contains the information required for the driver to perform the flip.
 

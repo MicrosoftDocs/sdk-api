@@ -45,9 +45,6 @@ api_name:
  - DdSetExclusiveMode
 ---
 
-# PDD_SETEXCLUSIVEMODE callback function
-
-
 ## -description
 
 The <i>DdSetExclusiveMode</i> callback function notifies the driver when a DirectDraw application is switching to or from exclusive mode.
@@ -55,8 +52,6 @@ The <i>DdSetExclusiveMode</i> callback function notifies the driver when a Direc
 ## -parameters
 
 ### -param Arg1
-
-#### - lpSetExclusiveMode
 
 Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_setexclusivemodedata">DD_SETEXCLUSIVEMODEDATA</a> structure that contains the notification information.
 

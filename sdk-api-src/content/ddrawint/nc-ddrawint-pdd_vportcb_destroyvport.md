@@ -45,9 +45,6 @@ api_name:
  - DdVideoPortDestroy
 ---
 
-# PDD_VPORTCB_DESTROYVPORT callback function
-
-
 ## -description
 
 The <b>DdVideoPortDestroy</b> callback function notifies the driver that DirectDraw has destroyed the specified VPE object.
@@ -55,8 +52,6 @@ The <b>DdVideoPortDestroy</b> callback function notifies the driver that DirectD
 ## -parameters
 
 ### -param Arg1
-
-#### - lpDestroyVideoPort
 
 Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_destroyvportdata">DD_DESTROYVPORTDATA</a> structure that contains the information required for the driver to clean up.
 

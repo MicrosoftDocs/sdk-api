@@ -45,9 +45,6 @@ api_name:
  - DdMoCompCreate
 ---
 
-# PDD_MOCOMPCB_CREATE callback function
-
-
 ## -description
 
 The <i>DdMoCompCreate</i> callback function notifies the driver that a software decoder will start using motion compensation with the specified GUID.
@@ -55,8 +52,6 @@ The <i>DdMoCompCreate</i> callback function notifies the driver that a software 
 ## -parameters
 
 ### -param Arg1
-
-#### - lpCreateData
 
 Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_createmocompdata">DD_CREATEMOCOMPDATA</a> structure that contains the information required to begin using motion compensation.
 
