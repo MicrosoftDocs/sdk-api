@@ -369,6 +369,8 @@ If <i>lpCompletionRoutine</i> is not <b>NULL</b>, the <i>hEvent</i> parameter is
 The completion routine follows the same rules as stipulated for Windows file I/O completion routines. The completion routine will not be invoked until the thread is in an alertable wait state such as can occur when the function 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsawaitformultipleevents">WSAWaitForMultipleEvents</a> with the <i>fAlertable</i> parameter set to <b>TRUE</b> is invoked.
 
+If an IO completion port is used and the <i>lpCompletionRoutine</i> parameter and the <i>hEvent</i> parameter are <b>NULL</b>, the result of the operation is schedule on the IO completion port. This happens for all successful operations, whether the operations completes immediately or not.
+
 The transport providers allow an application to invoke send and receive operations from within the context of the socket I/O completion routine, and guarantee that, for a given socket, I/O completion routines will not be nested. This permits time-sensitive data transmissions to occur entirely within a preemptive context.
 
 The prototype of the completion routine is as follows.
