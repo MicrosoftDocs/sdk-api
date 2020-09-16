@@ -45,9 +45,6 @@ api_name:
  - DdSetPalette
 ---
 
-# PDD_SURFCB_SETPALETTE callback function
-
-
 ## -description
 
 The <b>DdSetPalette</b> callback function attaches a palette to the specified surface.
@@ -55,8 +52,6 @@ The <b>DdSetPalette</b> callback function attaches a palette to the specified su
 ## -parameters
 
 ### -param Arg1
-
-#### - lpSetPalette
 
 Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_setpalettedata">DD_SETPALETTEDATA</a> structure that contains the information required to set a palette to the specified surface.
 

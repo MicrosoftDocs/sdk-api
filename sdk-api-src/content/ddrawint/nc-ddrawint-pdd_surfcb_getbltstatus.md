@@ -45,9 +45,6 @@ api_name:
  - DdGetBltStatus
 ---
 
-# PDD_SURFCB_GETBLTSTATUS callback function
-
-
 ## -description
 
 The <b>DdGetBltStatus</b> callback function queries the blit status of the specified surface.
@@ -55,8 +52,6 @@ The <b>DdGetBltStatus</b> callback function queries the blit status of the speci
 ## -parameters
 
 ### -param Arg1
-
-#### - lpGetBltStatus
 
 Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_getbltstatusdata">DD_GETBLTSTATUSDATA</a> structure that contains the information required to perform the blit status query.
 

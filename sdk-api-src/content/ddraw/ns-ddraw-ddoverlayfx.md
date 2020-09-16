@@ -47,9 +47,6 @@ api_name:
  - DDOVERLAYFX
 ---
 
-# DDOVERLAYFX structure
-
-
 ## -description
 
 The <b>DDOVERLAYFX</b> structure passes overlay information to the <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nf-ddraw-idirectdrawsurface7-updateoverlay">IDirectDrawSurface7::UpdateOverlay</a> method.
@@ -78,7 +75,11 @@ Bit depth used to specify the alpha constant for a destination.
 
 ### -field DUMMYUNIONNAMEN.dwAlphaDestConst
 
+Constant to use as the alpha channel for a destination.
+
 ### -field DUMMYUNIONNAMEN.lpDDSAlphaDest
+
+Address of a surface to use as the alpha channel for a destination.
 
 ### -field dwAlphaSrcConstBitDepth
 
@@ -86,9 +87,15 @@ Bit depth used to specify the alpha constant for a source.
 
 ### -field DUMMYUNIONNAMEN
 
+See **Remarks**.
+
 ### -field DUMMYUNIONNAMEN.dwAlphaSrcConst
 
+Constant to use as the alpha channel for a source.
+
 ### -field DUMMYUNIONNAMEN.lpDDSAlphaSrc
+
+Address of a surface to use as the alpha channel for a source.
 
 ### -field dckDestColorkey
 
@@ -100,21 +107,15 @@ Source color key for the overlay.
 
 ### -field dwDDFX
 
-The following flags that specify overlay effects:
-
-
+The following flags that specify overlay effects.
 
 #### DDOVERFX_ARITHSTRETCHY
 
 If stretching, use arithmetic stretching along the y-axis for this overlay.
 
-
-
 #### DDOVERFX_MIRRORLEFTRIGHT
 
 Mirror the overlay around the vertical axis.
-
-
 
 #### DDOVERFX_MIRRORUPDOWN
 
@@ -124,31 +125,6 @@ Mirror the overlay around the horizontal axis.
 
 Currently not used and must be set to 0.
 
-### -field DUMMYUNIONNAMEN(1)
-
-#### dwAlphaDestConst
-
-Constant to use as the alpha channel for a destination.
-
-
-
-#### lpDDSAlphaDest
-
-Address of a surface to use as the alpha channel for a destination.
-
-### -field DUMMYUNIONNAMEN(2)
-
-#### dwAlphaSrcConst
-
-Constant to use as the alpha channel for a source.
-
-
-
-#### lpDDSAlphaSrc
-
-Address of a surface to use as the alpha channel for a source.
-
 ## -remarks
 
 The unions in this structure have been updated to work with compilers that do not support nameless unions. If your compiler does not support nameless unions, define the NONAMELESSUNION token before including the Ddraw.h header file.
-

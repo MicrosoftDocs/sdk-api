@@ -45,9 +45,6 @@ api_name:
  - DdSetEntries
 ---
 
-# PDD_PALCB_SETENTRIES callback function
-
-
 ## -description
 
 The <i>DdSetEntries</i> callback function updates the palette entries in the specified palette.
@@ -55,8 +52,6 @@ The <i>DdSetEntries</i> callback function updates the palette entries in the spe
 ## -parameters
 
 ### -param Arg1
-
-#### - lpSetEntries
 
 Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_setentriesdata">DD_SETENTRIESDATA</a> structure that contains the information required to set the palette's entries.
 

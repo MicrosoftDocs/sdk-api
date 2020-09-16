@@ -45,9 +45,6 @@ api_name:
  - DdVideoPortWaitForSync
 ---
 
-# PDD_VPORTCB_WAITFORSYNC callback function
-
-
 ## -description
 
 The <i>DdVideoPortWaitForSync</i> callback function waits until the next vertical synch occurs.
@@ -55,8 +52,6 @@ The <i>DdVideoPortWaitForSync</i> callback function waits until the next vertica
 ## -parameters
 
 ### -param Arg1
-
-#### - lpWaitForSync
 
 Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_waitforvportsyncdata">DD_WAITFORVPORTSYNCDATA</a> structure that contains the information required for the driver to synchronize the VPE object.
 

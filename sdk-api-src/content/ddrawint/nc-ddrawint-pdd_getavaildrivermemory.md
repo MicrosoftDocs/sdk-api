@@ -45,7 +45,6 @@ api_name:
  - DdGetAvailDriverMemory
 ---
 
-# PDD_GETAVAILDRIVERMEMORY callback function
 
 
 ## -description
@@ -56,7 +55,6 @@ The <b>DdGetAvailDriverMemory</b> callback function queries the amount of free m
 
 ### -param Arg1
 
-#### - lpGetAvailDriverMemory
 
 Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_getavaildrivermemorydata">DD_GETAVAILDRIVERMEMORYDATA</a> structure that contains the information required to perform the query.
 

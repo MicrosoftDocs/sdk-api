@@ -45,9 +45,6 @@ api_name:
  - DdVideoPortGetSignalStatus
 ---
 
-# PDD_VPORTCB_GETSIGNALSTATUS callback function
-
-
 ## -description
 
 The <i>DdVideoPortGetSignalStatus</i> callback function retrieves the status of the video signal currently being presented to the hardware video port.
@@ -55,8 +52,6 @@ The <i>DdVideoPortGetSignalStatus</i> callback function retrieves the status of 
 ## -parameters
 
 ### -param Arg1
-
-#### - lpGetSignalStatus
 
 Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_getvportsignaldata">DD_GETVPORTSIGNALDATA</a> structure that contains the information required for the driver to retrieve the status of the video signal.
 

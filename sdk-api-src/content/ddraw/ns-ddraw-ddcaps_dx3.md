@@ -47,14 +47,9 @@ api_name:
  - DDCAPS
 ---
 
-# DDCAPS_DX3 structure
-
-
 ## -description
 
 The DDCAPS structure represents the capabilities of the hardware exposed through the DirectDraw object. This structure contains a <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff550292(v=vs.85)">DDSCAPS2</a> structure used in this context to describe what kinds of DirectDrawSurface objects can be created. It might not be possible to create all the surfaces described by these capabilities simultaneously. This structure is used with the <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nf-ddraw-idirectdraw7-getcaps">IDirectDraw7::GetCaps</a> method.
-
-
 
 The Ddraw.h header file contains multiple versions of this structure (for example, DDCAPS_DX7). For more information about how to determine which version to use, see Remarks.
 
@@ -66,191 +61,127 @@ Size of the structure, in bytes. This member must be initialized before the stru
 
 ### -field dwCaps
 
-This value consists of one or more of the following flags that specify hardware and driver capabilities:
-
-
-
-
+This value consists of one or more of the following flags that specify hardware and driver capabilities.
 
 #### DDCAPS_3D
 
 The display hardware has 3-D acceleration.
 
-
-
 #### DDCAPS_ALIGNBOUNDARYDEST
 
 DirectDraw supports only those overlay destination rectangles with the x-axis aligned to the <b>dwAlignBoundaryDest</b> boundaries of the surface.
-
-
 
 #### DDCAPS_ALIGNBOUNDARYSRC
 
 DirectDraw supports only those overlay source rectangles with the x-axis aligned to the <b>dwAlignBoundarySrc</b> boundaries of the surface.
 
-
-
 #### DDCAPS_ALIGNSIZEDEST
 
 DirectDraw supports only those overlay destination rectangles whose x-axis sizes, in pixels, are <b>dwAlignSizeDest</b> multiples.
-
-
 
 #### DDCAPS_ALIGNSIZESRC
 
 DirectDraw supports only those overlay source rectangles whose x-axis sizes, in pixels, are <b>dwAlignSizeSrc</b> multiples.
 
-
-
 #### DDCAPS_ALIGNSTRIDE
 
 DirectDraw creates display memory surfaces that have a stride alignment equal to the <b>dwAlignStrideAlign</b> value.
-
-
 
 #### DDCAPS_ALPHA
 
 The display hardware supports alpha-only surfaces.
 
-
-
 #### DDCAPS_BANKSWITCHED
 
 The display hardware is bank-switched and is potentially very slow at random access to display memory.
-
-
 
 #### DDCAPS_BLT
 
 Display hardware is capable of bit block transfer (bitblt) operations.
 
-
-
 #### DDCAPS_BLTCOLORFILL
 
 Display hardware is capable of color filling with a blitter.
-
-
 
 #### DDCAPS_BLTDEPTHFILL
 
 Display hardware is capable of depth filling z-buffers with a blitter.
 
-
-
 #### DDCAPS_BLTFOURCC
 
 Display hardware is capable of color-space conversions during bitblt operations.
-
-
 
 #### DDCAPS_BLTQUEUE
 
 Display hardware is capable of asynchronous bitblt operations.
 
-
-
 #### DDCAPS_BLTSTRETCH
 
 Display hardware is capable of stretching during bitblt operations.
-
-
 
 #### DDCAPS_CANBLTSYSMEM
 
 Display hardware is capable of blitting to or from system memory.
 
-
-
 #### DDCAPS_CANCLIP
 
 Display hardware is capable of clipping with blitting.
-
-
 
 #### DDCAPS_CANCLIPSTRETCHED
 
 Display hardware is capable of clipping while stretch blitting.
 
-
-
 #### DDCAPS_COLORKEY
 
 Supports some form of color key in either overlay or bitblt operations. More specific color-key capability information can be found in the <b>dwCKeyCaps</b> member.
-
-
 
 #### DDCAPS_COLORKEYHWASSIST
 
 The color key is partially hardware-assisted. This means that other resources (CPU or video memory) might be used. If this bit is not set, full hardware support is in place.
 
-
-
 #### DDCAPS_GDI
 
 Display hardware is shared with GDI.
-
-
 
 #### DDCAPS_NOHARDWARE
 
 There is no hardware support.
 
-
-
 #### DDCAPS_OVERLAY
 
 Display hardware supports overlays.
-
-
 
 #### DDCAPS_OVERLAYCANTCLIP
 
 Display hardware supports overlays but cannot clip them.
 
-
-
 #### DDCAPS_OVERLAYFOURCC
 
 Overlay hardware is capable of color-space conversions during overlay operations.
-
-
 
 #### DDCAPS_OVERLAYSTRETCH
 
 Overlay hardware is capable of stretching. The <b>dwMinOverlayStretch</b> and <b>dwMaxOverlayStretch</b> members contain valid data.
 
-
-
 #### DDCAPS_PALETTE
 
 DirectDraw is capable of creating and supporting DirectDrawPalette objects for surfaces other than the primary surface.
-
-
 
 #### DDCAPS_PALETTEVSYNC
 
 DirectDraw is capable of updating a palette synchronized with the vertical refresh.
 
-
-
 #### DDCAPS_READSCANLINE
 
 Display hardware is capable of returning the current scan line.
-
-
 
 #### DDCAPS_VBI
 
 Display hardware is capable of generating a vertical-blank interrupt.
 
-
-
 #### DDCAPS_ZBLTS
 
 Supports the use of z-buffers with bitblt operations.
-
-
 
 #### DDCAPS_ZOVERLAYS
 
@@ -258,148 +189,99 @@ Supports the use of the <a href="https://docs.microsoft.com/windows/desktop/api/
 
 ### -field dwCaps2
 
-This value consists of one or more of the following flags that specify more hardware and driver capabilities:
-
-
+This value consists of one or more of the following flags that specify more hardware and driver capabilities.
 
 #### DDCAPS2_AUTOFLIPOVERLAY
 
 The overlay can be automatically flipped to the next surface in the flipping chain each time that a video port VSYNC occurs, allowing the video port and the overlay to double-buffer the video without CPU overhead. This option is only valid when the surface is receiving data from a video port. If the video port data is noninterlaced or noninterleaved, it flips on every VSYNC. If the data is being interleaved in memory, it flips on every other VSYNC.
 
-
-
 #### DDCAPS2_CANBOBHARDWARE
 
 The overlay hardware can display each field of an interlaced video stream individually.
-
-
 
 #### DDCAPS2_CANBOBINTERLEAVED
 
 The overlay hardware can display each field of an interlaced video stream individually while it is interleaved in memory without causing any artifacts that might normally occur without special hardware support. This option is only valid when the surface is receiving data from a video port and the video is zoomed at least twice in the vertical direction.
 
-
-
 #### DDCAPS2_CANBOBNONINTERLEAVED
 
 The overlay hardware can display each field of an interlaced video stream individually while it is not interleaved in memory without causing any artifacts that might normally occur without special hardware support. This option is only valid when the surface is receiving data from a video port and the video is zoomed at least twice in the vertical direction.
-
-
 
 #### DDCAPS2_CANCALIBRATEGAMMA
 
 The system has a calibrator installed that can automatically adjust the gamma ramp so that the result is identical on all systems that have a calibrator. To invoke the calibrator when setting new gamma levels, use the DDSGR_CALIBRATE flag when calling the <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nf-ddraw-idirectdrawgammacontrol-setgammaramp">IDirectDrawGammaControl::SetGammaRamp</a> method. Calibrating gamma ramps incurs some processing overhead and should not be used frequently.
 
-
-
 #### DDCAPS2_CANDROPZ16BIT
 
 Sixteen-bit RGBZ values can be converted into 16-bit RGB values. (The system does not support 8-bit conversions.)
-
-
 
 #### DDCAPS2_CANFLIPODDEVEN
 
 The driver is capable of performing odd and even flip operations, as specified by the DDFLIP_ODD and DDFLIP_EVEN flags that are used with the <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nf-ddraw-idirectdrawsurface7-flip">IDirectDrawSurface7::Flip</a> method.
 
-
-
 #### DDCAPS2_CANMANAGETEXTURE
 
 The Direct3D texture manager uses this capability to decide whether to put managed surfaces in nonlocal video memory. If the capability is set, the texture manager puts managed surfaces in nonlocal video memory. Drivers that cannot texture from local video memory should not set this capability.
-
-
 
 #### DDCAPS2_CANRENDERWINDOWED
 
 The driver is capable of rendering in windowed mode.
 
-
-
 #### DDCAPS2_CERTIFIED
 
 Display hardware is certified.
-
-
 
 #### DDCAPS2_COLORCONTROLPRIMARY
 
 The primary surface contains color controls (for instance, gamma).
 
-
-
 #### DDCAPS2_COLORCONTROLOVERLAY
 
 The overlay surface contains color controls (such as brightness and sharpness).
-
-
 
 #### DDCAPS2_COPYFOURCC
 
 The driver supports blitting any FOURCC surface to another surface of the same FOURCC.
 
-
-
 #### DDCAPS2_FLIPINTERVAL
 
 The driver responds to the DDFLIP_INTERVAL* flags. (For more information about these flags, see <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nf-ddraw-idirectdrawsurface7-flip">IDirectDrawSurface7::Flip</a>). 
-
-
-
 
 #### DDCAPS2_FLIPNOVSYNC
 
 The driver responds to the DDFLIP_NOVSYNC flag (For more information about this flag, see <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nf-ddraw-idirectdrawsurface7-flip">IDirectDrawSurface7::Flip</a>).
 
-
-
 #### DDCAPS2_NO2DDURING3DSCENE
 
 Two-dimensional operations such as <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nf-ddraw-idirectdrawsurface7-blt">IDirectDrawSurface7::Blt</a> and <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nf-ddraw-idirectdrawsurface7-lock">IDirectDrawSurface7::Lock</a> cannot be performed on any surfaces that Direct3D is using between calls to the <a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-beginscene">BeginScene</a> and <a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-endscene">EndScene</a> methods.
-
-
 
 #### DDCAPS2_NONLOCALVIDMEM
 
 The display driver supports surfaces in nonlocal video memory.
 
-
-
 #### DDCAPS2_NONLOCALVIDMEMCAPS
 
 Bitblt capabilities for nonlocal video-memory surfaces differ from local video-memory surfaces. If this flag is present, the DDCAPS2_NONLOCALVIDMEM flag is also present.
-
-
 
 #### DDCAPS2_NOPAGELOCKREQUIRED
 
 DMA bitblt operations are supported on system-memory surfaces that are not page-locked.
 
-
-
 #### DDCAPS2_PRIMARYGAMMA
 
 Supports dynamic gamma ramps for the primary surface.
-
-
 
 #### DDCAPS2_STEREO
 
 New for DirectX 7.0. Turns on the <b>dwSVCaps</b> bit to support stereo mode. The driver can do stereo in at least one mode other than the current mode. The application can use <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nf-ddraw-idirectdraw7-getdisplaymode">IDirectDraw7::GetDisplayMode</a> or <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nf-ddraw-idirectdraw7-enumdisplaymodes">IDirectDraw7::EnumDisplayModes</a> to get per-mode stereo information.
 
-
-
 #### DDCAPS2_TEXMANINNONLOCALVIDMEM
 
 New for DirectX 7.0. The Direct3D texture manager uses this capability to decide whether to put managed surfaces in nonlocal video memory. If the capability is set, the texture manager puts managed surfaces in nonlocal video memory. Drivers that cannot texture from local video memory should not set this capability.
 
-
-
 #### DDCAPS2_VIDEOPORT
 
 Display hardware supports live video.
-
-
 
 #### DDCAPS2_WIDESURFACES
 
@@ -407,117 +289,79 @@ The display surface supports surfaces wider than the primary surface.
 
 ### -field dwCKeyCaps
 
-This value consists of one or more of the following flags that specify color-key capabilities:
-
-
+This value consists of one or more of the following flags that specify color-key capabilities.
 
 #### DDCKEYCAPS_DESTBLT
 
 Supports transparent blitting with a color key that identifies the replaceable bits of the destination surface for RGB colors.
 
-
-
 #### DDCKEYCAPS_DESTBLTCLRSPACE
 
 Supports transparent blitting with a color space that identifies the replaceable bits of the destination surface for RGB colors.
-
-
 
 #### DDCKEYCAPS_DESTBLTCLRSPACEYUV
 
 Supports transparent blitting with a color space that identifies the replaceable bits of the destination surface for YUV colors.
 
-
-
 #### DDCKEYCAPS_DESTBLTYUV
 
 Supports transparent blitting with a color key that identifies the replaceable bits of the destination surface for YUV colors.
-
-
 
 #### DDCKEYCAPS_DESTOVERLAY
 
 Supports overlaying with color keying of the replaceable bits of the destination surface to be overlaid for RGB colors.
 
-
-
 #### DDCKEYCAPS_DESTOVERLAYCLRSPACE
 
 Supports a color space as the color key for the destination of RGB colors.
-
-
 
 #### DDCKEYCAPS_DESTOVERLAYCLRSPACEYUV
 
 Supports a color space as the color key for the destination of YUV colors.
 
-
-
 #### DDCKEYCAPS_DESTOVERLAYONEACTIVE
 
 Supports only one active destination color key value for visible overlay surfaces.
-
-
 
 #### DDCKEYCAPS_DESTOVERLAYYUV
 
 Supports overlaying, using color keying of the replaceable bits of the destination surface to be overlaid for YUV colors.
 
-
-
 #### DDCKEYCAPS_NOCOSTOVERLAY
 
 Indicates that there are no bandwidth trade-offs for using the color key with an overlay.
-
-
 
 #### DDCKEYCAPS_SRCBLT
 
 Supports transparent blitting, using the color key for the source with this surface for RGB colors.
 
-
-
 #### DDCKEYCAPS_SRCBLTCLRSPACE
 
 Supports transparent blitting, using a color space for the source with this surface for RGB colors.
-
-
 
 #### DDCKEYCAPS_SRCBLTCLRSPACEYUV
 
 Supports transparent blitting, using a color space for the source with this surface for YUV colors.
 
-
-
 #### DDCKEYCAPS_SRCBLTYUV
 
 Supports transparent blitting, using the color key for the source with this surface for YUV colors.
-
-
 
 #### DDCKEYCAPS_SRCOVERLAY
 
 Supports overlaying, using the color key for the source with this overlay surface for RGB colors.
 
-
-
 #### DDCKEYCAPS_SRCOVERLAYCLRSPACE
 
 Supports overlaying, using a color space as the source color key for the overlay surface for RGB colors.
-
-
 
 #### DDCKEYCAPS_SRCOVERLAYCLRSPACEYUV
 
 Supports overlaying, using a color space as the source color key for the overlay surface for YUV colors.
 
-
-
 #### DDCKEYCAPS_SRCOVERLAYONEACTIVE
 
 Supports only one active source color key value for visible overlay surfaces.
-
-
 
 #### DDCKEYCAPS_SRCOVERLAYYUV
 
@@ -525,195 +369,131 @@ Supports overlaying, using the color key for the source with this overlay surfac
 
 ### -field dwFXCaps
 
-This value consists of one or more of the following flags that specify driver stretching and effects capabilities:
-
-
+This value consists of one or more of the following flags that specify driver stretching and effects capabilities.
 
 #### DDFXCAPS_BLTALPHA
 
 Supports alpha-blended bitblt operations.
 
-
-
 #### DDFXCAPS_BLTARITHSTRETCHY
 
 Uses arithmetic operations, rather than pixel-doubling techniques, to stretch and shrink surfaces during a bitblt operation. Occurs along the y-axis (vertically).
-
-
 
 #### DDFXCAPS_BLTARITHSTRETCHYN
 
 Uses arithmetic operations, rather than pixel-doubling techniques, to stretch and shrink surfaces during a bitblt operation. Occurs along the y-axis (vertically), and works only for integer stretching (×1, ×2, and so on).
 
-
-
 #### DDFXCAPS_BLTFILTER
 
 Driver can do surface-reconstruction filtering for warped bitblts.
-
-
 
 #### DDFXCAPS_BLTMIRRORLEFTRIGHT
 
 Supports mirroring left to right in a bitblt operation.
 
-
-
 #### DDFXCAPS_BLTMIRRORUPDOWN
 
 Supports mirroring top to bottom in a bitblt operation.
-
-
 
 #### DDFXCAPS_BLTROTATION
 
 Supports arbitrary rotation in a bitblt operation.
 
-
-
 #### DDFXCAPS_BLTROTATION90
 
 Supports 90-degree rotations in a bitblt operation.
-
-
 
 #### DDFXCAPS_BLTSHRINKX
 
 Supports arbitrary shrinking of a surface along the x-axis (horizontally). This flag is valid only for bitblt operations.
 
-
-
 #### DDFXCAPS_BLTSHRINKXN
 
 Supports integer shrinking (×1, ×2, and so on) of a surface along the x-axis (horizontally). This flag is valid only for bitblt operations.
-
-
 
 #### DDFXCAPS_BLTSHRINKY
 
 Supports arbitrary shrinking of a surface along the y-axis (vertically). This flag is valid only for bitblt operations.
 
-
-
 #### DDFXCAPS_BLTSHRINKYN
 
 Supports integer shrinking (×1, ×2, and so on) of a surface along the y-axis (vertically). This flag is valid only for bitblt operations.
-
-
 
 #### DDFXCAPS_BLTSTRETCHX
 
 Supports arbitrary stretching of a surface along the x-axis (horizontally). This flag is valid only for bitblt operations.
 
-
-
 #### DDFXCAPS_BLTSTRETCHXN
 
 Supports integer stretching (×1, ×2, and so on) of a surface along the x-axis (horizontally). This flag is valid only for bitblt operations.
-
-
 
 #### DDFXCAPS_BLTSTRETCHY
 
 Supports arbitrary stretching of a surface along the y-axis (vertically). This flag is valid only for bitblt operations.
 
-
-
 #### DDFXCAPS_BLTSTRETCHYN
 
 Supports integer stretching (×1, ×2, and so on) of a surface along the y-axis (vertically). This flag is valid only for bitblt operations.
-
-
 
 #### DDFXCAPS_BLTTRANSFORM
 
 Supports geometric transformations (or warps) for blitted sprites. Transformations are not currently supported for explicit bitblt operations.
 
-
-
 #### DDFXCAPS_OVERLAYALPHA
 
 Supports alpha blending for overlay surfaces.
-
-
 
 #### DDFXCAPS_OVERLAYARITHSTRETCHY
 
 Uses arithmetic operations, rather than pixel-doubling techniques, to stretch and shrink overlay surfaces. Occurs along the y-axis (vertically).
 
-
-
 #### DDFXCAPS_OVERLAYARITHSTRETCHYN
 
 Uses arithmetic operations, rather than pixel-doubling techniques, to stretch and shrink overlay surfaces. Occurs along the y-axis (vertically), and works only for integer stretching (×1, ×2, and so on).
-
-
 
 #### DDFXCAPS_OVERLAYFILTER
 
 Supports surface-reconstruction filtering for warped overlay sprites. Filtering is not currently supported for explicitly displayed overlay surfaces (those displayed with calls to <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nf-ddraw-idirectdrawsurface7-updateoverlay">IDirectDrawSurface7::UpdateOverlay</a>).
 
-
-
 #### DDFXCAPS_OVERLAYMIRRORLEFTRIGHT
 
 Supports mirroring of overlays across the vertical axis.
-
-
 
 #### DDFXCAPS_OVERLAYMIRRORUPDOWN
 
 Supports mirroring of overlays across the horizontal axis.
 
-
-
 #### DDFXCAPS_OVERLAYSHRINKX
 
 Supports arbitrary shrinking of a surface along the x-axis (horizontally). This flag is valid only for DDSCAPS_OVERLAY surfaces. This flag indicates only the capabilities of a surface; it does not indicate that shrinking is available.
-
-
 
 #### DDFXCAPS_OVERLAYSHRINKXN
 
 Supports integer shrinking (×1, ×2, and so on) of a surface along the x-axis (horizontally). This flag is valid only for DDSCAPS_OVERLAY surfaces. This flag indicates only the capabilities of a surface; it does not indicate that shrinking is available.
 
-
-
 #### DDFXCAPS_OVERLAYSHRINKY
 
 Supports arbitrary shrinking of a surface along the y-axis (vertically). This flag is valid only for DDSCAPS_OVERLAY surfaces. This flag indicates only the capabilities of a surface; it does not indicate that shrinking is available.
-
-
 
 #### DDFXCAPS_OVERLAYSHRINKYN
 
 Supports integer shrinking (×1, ×2, and so on) of a surface along the y-axis (vertically). This flag is valid only for DDSCAPS_OVERLAY surfaces. This flag indicates only the capabilities of a surface; it does not indicate that shrinking is available.
 
-
-
 #### DDFXCAPS_OVERLAYSTRETCHX
 
 Supports arbitrary stretching of a surface along the x-axis (horizontally). This flag is valid only for DDSCAPS_OVERLAY surfaces. This flag indicates only the capabilities of a surface; it does not indicate that stretching is available.
-
-
 
 #### DDFXCAPS_OVERLAYSTRETCHXN
 
 Supports integer stretching (×1, ×2, and so on) of a surface along the x-axis (horizontally). This flag is valid only for DDSCAPS_OVERLAY surfaces. This flag indicates only the capabilities of a surface; it does not indicate that stretching is available.
 
-
-
 #### DDFXCAPS_OVERLAYSTRETCHY
 
 Supports arbitrary stretching of a surface along the y-axis (vertically). This flag is valid only for DDSCAPS_OVERLAY surfaces. This flag indicates only the capabilities of a surface; it does not indicate that stretching is available.
 
-
-
 #### DDFXCAPS_OVERLAYSTRETCHYN
 
 Supports integer stretching (×1, ×2, and so on) of a surface along the y-axis (vertically). This flag is valid only for DDSCAPS_OVERLAY surfaces. This flag indicates only the capabilities of a surface; it does not indicate that stretching is available.
-
-
 
 #### DDFXCAPS_OVERLAYTRANSFORM
 
@@ -721,63 +501,43 @@ Supports geometric transformations (or warps) for overlay sprites. Transformatio
 
 ### -field dwFXAlphaCaps
 
-This value consists of one or more of the following flags that specify driver alpha capabilities:
-
-
+This value consists of one or more of the following flags that specify driver alpha capabilities.
 
 #### DDFXALPHACAPS_BLTALPHAEDGEBLEND
 
 Supports alpha blending around the edge of a source color-keyed surface. Used for bitblt operations.
 
-
-
 #### DDFXALPHACAPS_BLTALPHAPIXELS
 
 Supports alpha information in pixel format. The bit depth of alpha information in the pixel format can be 1, 2, 4, or 8. The alpha value becomes more opaque as the alpha value increases. Regardless of the depth of the alpha information, 0 is always the fully transparent value. Used for bitblt operations.
-
-
 
 #### DDFXALPHACAPS_BLTALPHAPIXELSNEG
 
 Supports alpha information in pixel format. The bit depth of alpha information in the pixel format can be 1, 2, 4, or 8. The alpha value becomes more transparent as the alpha value increases. Regardless of the depth of the alpha information, 0 is always the fully opaque value. This flag can be used only if DDCAPS_ALPHA is set. Used for bitblt operations.
 
-
-
 #### DDFXALPHACAPS_BLTALPHASURFACES
 
 Supports alpha-only surfaces. The bit depth of an alpha-only surface can be 1, 2, 4, or 8. The alpha value becomes more opaque as the alpha value increases. Regardless of the depth of the alpha information, 0 is always the fully transparent value. Used for bitblt operations.
-
-
 
 #### DDFXALPHACAPS_BLTALPHASURFACESNEG
 
 Indicates that the alpha channel becomes more transparent as the alpha value increases. The depth of the alpha channel-data can be 1, 2, 4, or 8. Regardless of the depth of the alpha information, 0 is always the fully opaque value. This flag can be set only if DDCAPS_ALPHA has been set. Used for bitblt operations.
 
-
-
 #### DDFXALPHACAPS_OVERLAYALPHAEDGEBLEND
 
 Supports alpha blending around the edge of a source color-keyed surface. Used for overlays.
-
-
 
 #### DDFXALPHACAPS_OVERLAYALPHAPIXELS
 
 Supports alpha information in pixel format. The bit depth of alpha information in pixel format can be 1, 2, 4, or 8. The alpha value becomes more opaque as the alpha value increases. Regardless of the depth of the alpha information, 0 is always the fully transparent value. Used for overlays.
 
-
-
 #### DDFXALPHACAPS_OVERLAYALPHAPIXELSNEG
 
 Supports alpha information in pixel format. The bit depth of alpha information in pixel format can be 1, 2, 4, or 8. The alpha value becomes more transparent as the alpha value increases. Regardless of the depth of the alpha information, 0 is always the fully opaque value. This flag can be used only if DDCAPS_ALPHA has been set. Used for overlays.
 
-
-
 #### DDFXALPHACAPS_OVERLAYALPHASURFACES
 
 Supports alpha-only surfaces. The bit depth of an alpha-only surface can be 1, 2, 4, or 8. The alpha value becomes more opaque as the alpha value increases. Regardless of the depth of the alpha information, 0 is always the fully transparent value. Used for overlays.
-
-
 
 #### DDFXALPHACAPS_OVERLAYALPHASURFACESNEG
 
@@ -785,63 +545,43 @@ Indicates that the alpha channel becomes more transparent as the alpha value inc
 
 ### -field dwPalCaps
 
-This value consists of one or more of the following flags that specify palette capabilities:
-
-
+This value consists of one or more of the following flags that specify palette capabilities.
 
 #### DDPCAPS_1BIT
 
 Supports palettes that contain 1-bit color entries (two colors).
 
-
-
 #### DDPCAPS_2BIT
 
 Supports palettes that contain 2-bit color entries (four colors).
-
-
 
 #### DDPCAPS_4BIT
 
 Supports palettes that contain 4-bit color entries (16 colors).
 
-
-
 #### DDPCAPS_8BIT
 
 Supports palettes that contain 8-bit color entries (256 colors).
-
-
 
 #### DDPCAPS_8BITENTRIES
 
 Specifies an index to an 8-bit color index. This field is valid only when used with the DDPCAPS_1BIT, DDPCAPS_2BIT, or DDPCAPS_4BIT capability and when the target surface is 8 bits per pixel (bpp). Each color entry is 1 byte long and is an index to an 8-bpp palette on the destination surface.
 
-
-
 #### DDPCAPS_ALPHA
 
 Supports palettes that include an alpha component. For alpha-capable palettes, the <b>peFlags</b> member of each <a href="https://docs.microsoft.com/previous-versions/dd162769(v=vs.85)">PALETTEENTRY</a> structure that the palette contains is to be interpreted as a single 8-bit alpha value (in addition to the color data in the <b>peRed</b>, <b>peGreen</b>, and <b>peBlue</b> members). A palette created with this flag can be attached only to a texture surface.
-
-
 
 #### DDPCAPS_ALLOW256
 
 Supports palettes that can have all 256 entries defined.
 
-
-
 #### DDPCAPS_PRIMARYSURFACE
 
 The palette is attached to the primary surface. Changing the palette has an immediate effect on the display unless the DDPCAPS_VSYNC capability is specified and supported.
 
-
-
 #### DDPCAPS_PRIMARYSURFACELEFT
 
 The palette is attached to the primary surface on the left. Changing the palette has an immediate effect on the display unless the DDPCAPS_VSYNC capability is specified and supported.
-
-
 
 #### DDPCAPS_VSYNC
 
@@ -849,15 +589,11 @@ The palette can be modified synchronously with the monitor's refresh rate.
 
 ### -field dwSVCaps
 
-This value consists of one or more of the following flags that specify stereo-vision capabilities:
-
-
+This value consists of one or more of the following flags that specify stereo-vision capabilities.
 
 #### DDSVCAPS_RESERVED1, DDSVCAPS_RESERVED2, DDSVCAPS_RESERVED3, DDSVCAPS_RESERVED4
 
 Reserved flags.
-
-
 
 #### DDSVCAPS_STEREOSEQUENTIAL
 
@@ -1025,60 +761,16 @@ Raster operations supported for bitblts from system memory to system memory.
 
 ### -field dwReserved4
 
+Reserved
+
 ### -field dwReserved5
+
+Reserved
 
 ### -field dwReserved6
 
- 
-
-
-
-
-#### - ddsOldCaps
-
-Obsolete. Prior to DirectX 6.0, this member contained general surface capabilities, which are now contained in the <b>ddsCaps</b> member (a <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff550292(v=vs.85)">DDSCAPS2</a> structure).
-
-
-#### - dwCurrVideoPorts
-
-Current number of live video ports.
-
-
-#### - dwMaxVideoPorts
-
-Maximum number of live video ports.
-
-
-#### - dwNLVBCKeyCaps
-
-Driver color-key capabilities for bitblts form nonlocal to local video memory. Valid flags are identical to the bitblt-related flags used with the <b>dwCKeyCaps</b> member.
-
-
-#### - dwNLVBCaps
-
-Driver-specific capabilities for bitblts from nonlocal to local video memory. Valid flags are identical to the bitblt-related flags used with the <b>dwCaps</b> member.
-
-
-#### - dwNLVBCaps2
-
-More driver-specific capabilities for bitblts from nonlocal to local video memory. Valid flags are identical to the bitblt-related flags used with the <b>dwCaps2</b> member.
-
-
-#### - dwNLVBFXCaps
-
-Driver FX capabilities for bitblts from nonlocal to local video memory. Valid flags are identical to the bitblt-related flags used with the <b>dwFXCaps</b> member.
-
-
-#### - dwNLVBRops
-
-Raster operations supported for bitblts from nonlocal to local video memory.
-
-
-#### - dwSVBCaps2
-
-More driver-specific capabilities for bitblts from system memory to video memory. Valid flags are identical to the bitblt-related flags used with the <b>dwCaps2</b> member.
+Reserved
 
 ## -remarks
 
 For backward compatibility, the Ddraw.h header file contains multiple definitions of the DDCAPS structure. The version that passes the preprocessor is determined by the value of the DIRECTDRAW_VERSION constant.
-

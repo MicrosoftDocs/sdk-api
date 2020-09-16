@@ -45,9 +45,6 @@ api_name:
  - DdVideoPortColorControl
 ---
 
-# PDD_VPORTCB_COLORCONTROL callback function
-
-
 ## -description
 
 The <b>DdVideoPortColorControl</b> callback function gets or sets the VPE object color controls.
@@ -55,8 +52,6 @@ The <b>DdVideoPortColorControl</b> callback function gets or sets the VPE object
 ## -parameters
 
 ### -param Arg1
-
-#### - lpColorControl
 
 Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_vportcolordata">DD_VPORTCOLORDATA</a> structure that contains the information required for the driver to get the current VPE object color controls or to set new values.
 

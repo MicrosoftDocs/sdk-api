@@ -45,9 +45,6 @@ api_name:
  - DdVideoPortGetBandwidth
 ---
 
-# PDD_VPORTCB_GETBANDWIDTH callback function
-
-
 ## -description
 
 The <b>DdVideoPortGetBandwidth</b> callback function reports the bandwidth limitations of the device's frame buffer memory based the specified VPE object output format.
@@ -55,8 +52,6 @@ The <b>DdVideoPortGetBandwidth</b> callback function reports the bandwidth limit
 ## -parameters
 
 ### -param Arg1
-
-#### - lpGetVideoPortBandwidth
 
 Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_getvportbandwidthdata">DD_GETVPORTBANDWIDTHDATA</a> structure that contains the information required for the driver to return the bandwidth data.
 

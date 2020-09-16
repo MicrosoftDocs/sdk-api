@@ -45,9 +45,6 @@ api_name:
  - DdVideoPortCanCreate
 ---
 
-# PDD_VPORTCB_CANCREATEVIDEOPORT callback function
-
-
 ## -description
 
 The <i>DdVideoPortCanCreate</i> callback function determines whether the driver can support a DirectDraw VPE object of the specified description.
@@ -55,8 +52,6 @@ The <i>DdVideoPortCanCreate</i> callback function determines whether the driver 
 ## -parameters
 
 ### -param Arg1
-
-#### - lpCanCreateVideoPort
 
 Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_cancreatevportdata">DD_CANCREATEVPORTDATA</a> structure that contains the information necessary for the driver to determine whether the specified DirectDraw VPE object can be supported.
 

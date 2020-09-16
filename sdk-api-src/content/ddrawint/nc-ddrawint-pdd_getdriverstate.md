@@ -45,7 +45,6 @@ api_name:
  - D3dGetDriverState
 ---
 
-# PDD_GETDRIVERSTATE callback function
 
 
 ## -description
@@ -56,7 +55,6 @@ The <i>D3dGetDriverState</i> function is used by both the Microsoft DirectDraw a
 
 ### -param Arg1
 
-#### - pgdsd
 
 Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_getdriverstatedata">DD_GETDRIVERSTATEDATA</a> structure that describes the state of the driver.
 

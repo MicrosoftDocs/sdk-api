@@ -45,9 +45,6 @@ api_name:
  - DdMapMemory
 ---
 
-# PDD_MAPMEMORY callback function
-
-
 ## -description
 
 The <b>DdMapMemory</b> callback function maps application-modifiable portions of the frame buffer into the user-mode address space of the specified process, or unmaps memory.
@@ -55,8 +52,6 @@ The <b>DdMapMemory</b> callback function maps application-modifiable portions of
 ## -parameters
 
 ### -param Arg1
-
-#### - lpMapMemory
 
 Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_mapmemorydata">DD_MAPMEMORYDATA</a> structure that contains details for the memory mapping or unmapping operation.
 

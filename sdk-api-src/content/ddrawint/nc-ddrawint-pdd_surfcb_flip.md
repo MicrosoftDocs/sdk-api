@@ -45,9 +45,6 @@ api_name:
  - DdFlip
 ---
 
-# PDD_SURFCB_FLIP callback function
-
-
 ## -description
 
 The <b>DdFlip</b> callback function causes the surface memory associated with the target surface to become the primary surface, and the current surface to become the nonprimary surface.
@@ -55,8 +52,6 @@ The <b>DdFlip</b> callback function causes the surface memory associated with th
 ## -parameters
 
 ### -param Arg1
-
-#### - lpFlip
 
 Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_flipdata">DD_FLIPDATA</a> structure that contains the information required to perform the flip.
 

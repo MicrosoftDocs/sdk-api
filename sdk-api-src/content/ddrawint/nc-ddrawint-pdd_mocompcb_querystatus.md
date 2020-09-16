@@ -45,9 +45,6 @@ api_name:
  - DdMoCompQueryStatus
 ---
 
-# PDD_MOCOMPCB_QUERYSTATUS callback function
-
-
 ## -description
 
 The <b>DdMoCompQueryStatus</b> callback function queries the status of the most recent rendering operation to the specified surface.
@@ -55,8 +52,6 @@ The <b>DdMoCompQueryStatus</b> callback function queries the status of the most 
 ## -parameters
 
 ### -param Arg1
-
-#### - lpStatusData
 
 Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_querymocompstatusdata">DD_QUERYMOCOMPSTATUSDATA</a> structure that contains the information needed to query the status.
 

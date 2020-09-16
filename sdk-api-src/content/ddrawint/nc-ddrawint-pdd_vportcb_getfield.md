@@ -45,9 +45,6 @@ api_name:
  - DdVideoPortGetField
 ---
 
-# PDD_VPORTCB_GETFIELD callback function
-
-
 ## -description
 
 The <b>DdVideoPortGetField</b> callback function determines whether the current field of an interlaced signal is even or odd.
@@ -55,8 +52,6 @@ The <b>DdVideoPortGetField</b> callback function determines whether the current 
 ## -parameters
 
 ### -param Arg1
-
-#### - lpGetField
 
 Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_getvportfielddata">DD_GETVPORTFIELDDATA</a> structure that contains the information required for the driver to determine whether the current field is even or odd.
 

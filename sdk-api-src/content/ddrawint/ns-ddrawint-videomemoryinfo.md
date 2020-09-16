@@ -47,9 +47,6 @@ api_name:
  - VIDEOMEMORYINFO
 ---
 
-# VIDEOMEMORYINFO structure
-
-
 ## -description
 
 The VIDEOMEMORYINFO structure describes the general format of the display's memory.
@@ -105,20 +102,6 @@ Specifies the byte alignment, in bytes, required when allocating this memory for
 (Microsoft Windows 2000 and later only) 
 
 Specifies a kernel-mode pointer to the beginning of the primary surface. 
-
-
-#### - dwNumHeaps
-
-(Windows 98/Me only)
-
-Specifies the number of memory heaps in <b>pvmList</b>. 
-
-
-#### - pvmList
-
-(Windows 98/Me only) 
-
-Points to the first heap in an array of heaps.
 
 ## -remarks
 

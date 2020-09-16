@@ -45,9 +45,6 @@ api_name:
  - DdUpdateOverlay
 ---
 
-# PDD_SURFCB_UPDATEOVERLAY callback function
-
-
 ## -description
 
 The <b>DdUpdateOverlay</b> callback function repositions or modifies the visual attributes of an overlay surface.
@@ -55,8 +52,6 @@ The <b>DdUpdateOverlay</b> callback function repositions or modifies the visual 
 ## -parameters
 
 ### -param Arg1
-
-#### - lpUpdateOverlay
 
 Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_updateoverlaydata">DD_UPDATEOVERLAYDATA</a> structure that contains the information required to update the overlay.
 

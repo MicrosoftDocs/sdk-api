@@ -45,9 +45,6 @@ api_name:
  - DdSyncVideoPortData
 ---
 
-# PDD_KERNELCB_SYNCVIDEOPORT callback function
-
-
 ## -description
 
 The <b>DdSyncVideoPortData</b> callback function sets and modifies VPE object data before it is passed to the video miniport driver.
@@ -55,8 +52,6 @@ The <b>DdSyncVideoPortData</b> callback function sets and modifies VPE object da
 ## -parameters
 
 ### -param Arg1
-
-#### - lpSyncVideoPort
 
 Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_syncvideoportdata">DD_SYNCVIDEOPORTDATA</a> structure that contains the VPE object data.
 

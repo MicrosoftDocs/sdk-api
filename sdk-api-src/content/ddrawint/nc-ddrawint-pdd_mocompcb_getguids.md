@@ -45,9 +45,6 @@ api_name:
  - DdMoCompGetGuids
 ---
 
-# PDD_MOCOMPCB_GETGUIDS callback function
-
-
 ## -description
 
 The <b>DdMoCompGetGuids</b> callback function retrieves the number of GUIDs the driver supports.
@@ -55,8 +52,6 @@ The <b>DdMoCompGetGuids</b> callback function retrieves the number of GUIDs the 
 ## -parameters
 
 ### -param Arg1
-
-#### - lpGetGuidData
 
 Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_getmocompguidsdata">DD_GETMOCOMPGUIDSDATA</a> structure that contains the GUID information.
 

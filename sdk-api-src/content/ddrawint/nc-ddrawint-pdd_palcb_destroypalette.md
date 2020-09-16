@@ -45,9 +45,6 @@ api_name:
  - DdDestroyPalette
 ---
 
-# PDD_PALCB_DESTROYPALETTE callback function
-
-
 ## -description
 
 The <b>DdDestroyPalette</b> callback function destroys the specified palette.
@@ -55,8 +52,6 @@ The <b>DdDestroyPalette</b> callback function destroys the specified palette.
 ## -parameters
 
 ### -param Arg1
-
-#### - lpDestroyPalette
 
 Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_destroypalettedata">DD_DESTROYPALETTEDATA</a> structure that contains the information needed to destroy a palette.
 

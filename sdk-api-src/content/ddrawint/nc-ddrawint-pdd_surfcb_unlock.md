@@ -45,9 +45,6 @@ api_name:
  - DdUnlock
 ---
 
-# PDD_SURFCB_UNLOCK callback function
-
-
 ## -description
 
 The <i>DdUnLock</i> callback function releases the lock held on the specified surface.
@@ -55,8 +52,6 @@ The <i>DdUnLock</i> callback function releases the lock held on the specified su
 ## -parameters
 
 ### -param Arg1
-
-#### - lpUnlock
 
 Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_unlockdata">DD_UNLOCKDATA</a> structure that contains the information required to perform the lock release.
 

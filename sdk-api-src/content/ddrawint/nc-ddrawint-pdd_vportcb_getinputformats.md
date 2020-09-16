@@ -45,9 +45,6 @@ api_name:
  - DdVideoPortGetInputFormats
 ---
 
-# PDD_VPORTCB_GETINPUTFORMATS callback function
-
-
 ## -description
 
 The <b>DdVideoPortGetInputFormats</b> callback function determines the input formats that the DirectDraw VPE object can accept.
@@ -55,8 +52,6 @@ The <b>DdVideoPortGetInputFormats</b> callback function determines the input for
 ## -parameters
 
 ### -param Arg1
-
-#### - lpGetInputFormats
 
 Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_getvportinputformatdata">DD_GETVPORTINPUTFORMATDATA</a> structure that contains the information required for the driver to return the input formats the VPE object can accept.
 

@@ -45,24 +45,19 @@ api_name:
  - IDirectDrawSurface7.Unlock
 ---
 
-# IDirectDrawSurface7::Unlock
-
-
 ## -description
 
 Notifies DirectDraw that the direct surface manipulations are complete.
 
 ## -parameters
 
-#### - lpRect [in]
+### -param arg1 [in]
 
 A pointer to a <b>RECT</b> structure that was used to lock the surface in the corresponding call to the <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nf-ddraw-idirectdrawsurface7-lock">IDirectDrawSurface7::Lock</a> method. This parameter can be NULL only if the entire surface was locked by passing NULL in the <i>lpDestRect</i> parameter of the corresponding call to the <b>IDirectDrawSurface7::Lock</b> method.
 
 ## -returns
 
 If the method succeeds, the return value is DD_OK.
-
-
 
 If it fails, the method can return one of the following error values:
 

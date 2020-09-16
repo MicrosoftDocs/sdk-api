@@ -47,9 +47,6 @@ api_name:
  - DDBLTFX
 ---
 
-# DDBLTFX structure
-
-
 ## -description
 
 The DDBLTFX structure passes raster operations (ROPs), effects, and override information to the <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nf-ddraw-idirectdrawsurface7-blt">IDirectDrawSurface7::Blt</a> method. This structure is also part of the <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/ns-ddraw-ddbltbatch">DDBLTBATCH</a> structure that is used with the <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nf-ddraw-idirectdrawsurface7-bltbatch">IDirectDrawSurface7::BltBatch</a> method.
@@ -62,57 +59,39 @@ Size of the structure, in bytes. This member must be initialized before the stru
 
 ### -field dwDDFX
 
-Type of FX operations. The following types are defined:
-
-
+Type of FX operations. The following types are defined.
 
 #### DDBLTFX_ARITHSTRETCHY
 
 Uses arithmetic stretching along the y-axis for this bit block transfer (bitblt).
 
-
-
 #### DDBLTFX_MIRRORLEFTRIGHT
 
 Turns the surface on its y-axis. This bitblt mirrors the surface from left to right.
-
-
 
 #### DDBLTFX_MIRRORUPDOWN
 
 Turns the surface on its x-axis. This bitblt mirrors the surface from top to bottom.
 
-
-
 #### DDBLTFX_NOTEARING
 
 Schedules this bitblt to avoid tearing.
-
-
 
 #### DDBLTFX_ROTATE180
 
 Rotates the surface 180 degrees clockwise during this bitblt.
 
-
-
 #### DDBLTFX_ROTATE270
 
 Rotates the surface 270 degrees clockwise during this bitblt.
-
-
 
 #### DDBLTFX_ROTATE90
 
 Rotates the surface 90 degrees clockwise during this bitblt.
 
-
-
 #### DDBLTFX_ZBUFFERBASEDEST
 
 Adds the <b>dwZBufferBaseDest</b> member to each of the source z-values before comparing them with the destination z-values during this z-bitblt.
-
-
 
 #### DDBLTFX_ZBUFFERRANGE
 
@@ -214,8 +193,6 @@ Source color key override.
 
 Constant used as the z-buffer destination.
 
-
-
 #### lpDDSZBufferDest
 
 Surface used as the z-buffer destination.
@@ -225,8 +202,6 @@ Surface used as the z-buffer destination.
 #### dwZSrcConst
 
 Constant used as the z-buffer destination.
-
-
 
 #### lpDDSZBufferSrc
 
@@ -238,8 +213,6 @@ Surface used as the z-buffer source.
 
 Constant used as the alpha channel destination.
 
-
-
 #### lpDDSAlphaDest
 
 Surface used as the alpha channel destination.
@@ -249,8 +222,6 @@ Surface used as the alpha channel destination.
 #### dwAlphaSrcConst
 
 Constant used as the alpha channel source.
-
-
 
 #### lpDDSAlphaSrc
 
@@ -262,19 +233,13 @@ Surface used as the alpha channel source.
 
 Color used to fill a surface when DDBLT_COLORFILL is specified. This value must be a pixel appropriate to the pixel format of the destination surface. For a palettized surface, it would be a palette index, and for a 16-bit RGB surface, it would be a 16-bit pixel value.
 
-
-
 #### dwFillDepth
 
 Depth value for the z-buffer.
 
-
-
 #### dwFillPixel
 
 Pixel value for RGBA or RGBZ fills. Applications that use RGBZ fills should use this member, not <b>dwFillColor</b> or <b>dwFillDepth</b>.
-
-
 
 #### lpDDSPattern
 
@@ -283,4 +248,3 @@ Surface to use as a pattern. The pattern can be used in certain blit operations 
 ## -remarks
 
 The unions in this structure have been updated to work with compilers that do not support nameless unions. If your compiler does not support nameless unions, define the NONAMELESSUNION token before including the Ddraw.h header file.
-

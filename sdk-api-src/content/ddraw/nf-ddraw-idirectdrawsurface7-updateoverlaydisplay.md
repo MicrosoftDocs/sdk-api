@@ -45,16 +45,13 @@ api_name:
  - IDirectDrawSurface7.UpdateOverlayDisplay
 ---
 
-# IDirectDrawSurface7::UpdateOverlayDisplay
-
-
 ## -description
 
 The <b>IDirectDrawSurface7::UpdateOverlayDisplay</b> method is not currently implemented.
 
 ## -parameters
 
-#### - dwFlags [in]
+### -param arg1 [in]
 
 The method is not currently implemented.
 
@@ -69,4 +66,3 @@ You must use <a href="https://docs.microsoft.com/windows/desktop/api/libloaderap
 ## -see-also
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nn-ddraw-idirectdrawsurface7">IDirectDrawSurface7</a>
-

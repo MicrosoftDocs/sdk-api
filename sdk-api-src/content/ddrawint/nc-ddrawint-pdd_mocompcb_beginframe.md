@@ -45,9 +45,6 @@ api_name:
  - DdMoCompBeginFrame
 ---
 
-# PDD_MOCOMPCB_BEGINFRAME callback function
-
-
 ## -description
 
 The <b>DdMoCompBeginFrame</b> callback function starts decoding a new frame.
@@ -55,8 +52,6 @@ The <b>DdMoCompBeginFrame</b> callback function starts decoding a new frame.
 ## -parameters
 
 ### -param Arg1
-
-#### - lpFrameData
 
 Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_beginmocompframedata">DD_BEGINMOCOMPFRAMEDATA</a> structure that contains the information needed to start decoding a new frame.
 

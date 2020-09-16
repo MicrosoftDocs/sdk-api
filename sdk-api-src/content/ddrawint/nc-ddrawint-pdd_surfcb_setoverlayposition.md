@@ -45,9 +45,6 @@ api_name:
  - DdSetOverlayPosition
 ---
 
-# PDD_SURFCB_SETOVERLAYPOSITION callback function
-
-
 ## -description
 
 The <b>DdSetOverlayPosition</b> callback function sets the position for an overlay.
@@ -55,8 +52,6 @@ The <b>DdSetOverlayPosition</b> callback function sets the position for an overl
 ## -parameters
 
 ### -param Arg1
-
-#### - lpSetOverlayPosition
 
 Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_setoverlaypositiondata">DD_SETOVERLAYPOSITIONDATA</a> structure that contains the information required to set the overlay position.
 

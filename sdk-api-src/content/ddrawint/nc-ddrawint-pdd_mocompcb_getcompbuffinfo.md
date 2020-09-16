@@ -45,9 +45,6 @@ api_name:
  - DdMoCompGetBuffInfo
 ---
 
-# PDD_MOCOMPCB_GETCOMPBUFFINFO callback function
-
-
 ## -description
 
 The <b>DDMoCompGetBuffInfo</b> callback function allows the driver to specify how many interim surfaces are required to support the specified GUID, and the size, location, and format of each of these surfaces.
@@ -55,8 +52,6 @@ The <b>DDMoCompGetBuffInfo</b> callback function allows the driver to specify ho
 ## -parameters
 
 ### -param Arg1
-
-#### - lpBufferData
 
 Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_getmocompcompbuffdata">DD_GETMOCOMPCOMPBUFFDATA</a> structure that contains the compressed buffer information.
 

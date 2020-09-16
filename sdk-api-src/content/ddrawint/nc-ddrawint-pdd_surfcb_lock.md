@@ -45,9 +45,6 @@ api_name:
  - DdLock
 ---
 
-# PDD_SURFCB_LOCK callback function
-
-
 ## -description
 
 The <i>DdLock</i> callback function locks a specified area of surface memory and provides a valid pointer to a block of memory associated with a surface.
@@ -55,8 +52,6 @@ The <i>DdLock</i> callback function locks a specified area of surface memory and
 ## -parameters
 
 ### -param Arg1
-
-#### - lpLock
 
 Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_lockdata">DD_LOCKDATA</a> structure that contains the information required to perform the lockdown.
 
