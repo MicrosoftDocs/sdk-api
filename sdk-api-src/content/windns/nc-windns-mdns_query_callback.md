@@ -55,7 +55,7 @@ Used to asynchronously return the results of an mDNS query.
 
 ### -param pQueryContext
 
-A pointer to the user context that was passed to [DnsServiceBrowse](nf-windns-dnsservicebrowse.md).
+A pointer to the user context that was passed to [DnsStartMulticastQuery](nf-windns-dnsstartmulticastquery.md).
 
 ### -param pQueryHandle
 
