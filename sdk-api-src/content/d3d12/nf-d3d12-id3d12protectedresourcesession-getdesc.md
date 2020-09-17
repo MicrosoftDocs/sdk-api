@@ -45,20 +45,14 @@ api_name:
  - ID3D12ProtectedResourceSession.GetDesc
 ---
 
-# ID3D12ProtectedResourceSession::GetDesc
-
-
 ## -description
 
 Retrieves a description of the protected resource session.
 
-## -parameters
-
 ## -returns
 
-A <b>D3D12_PROTECTED_RESOURCE_SESSION_DESC</b> that describes the protected resource session.
+A [D3D12_PROTECTED_RESOURCE_SESSION_DESC](/windows/win32/api/d3d12/ns-d3d12-d3d12_protected_resource_session_desc) that describes the protected resource session.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12protectedresourcesession">ID3D12ProtectedResourceSession</a>
-
+* [ID3D12ProtectedResourceSession](/windows/win32/api/d3d12/nn-d3d12-id3d12protectedresourcesession)

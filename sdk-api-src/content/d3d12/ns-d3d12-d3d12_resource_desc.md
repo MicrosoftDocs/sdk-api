@@ -47,11 +47,9 @@ api_name:
 
 # D3D12_RESOURCE_DESC structure
 
-
 ## -description
 
-Describes a resource, such as a texture.
-          This structure is used extensively.
+Describes a resource, such as a texture. This structure is used extensively.
 
 ## -struct-fields
 
@@ -119,7 +117,6 @@ Use this structure with:<ul>
 <li>A number of the helper functions, refer to <a href="https://docs.microsoft.com/windows/desktop/direct3d12/helper-structures-and-functions-for-d3d12">Helper Structures and Functions for D3D12</a>.</li>
 </ul>
 
-
 Two common resources are buffers and textures, which both use this structure, but with quite different uses of the fields.
 
 <h3><a id="Buffers"></a><a id="buffers"></a><a id="BUFFERS"></a>Buffers</h3>
@@ -137,7 +134,6 @@ Buffers are a contiguous memory region.
 <i>Layout</i> must be D3D12_TEXTURE_LAYOUT_ROW_MAJOR, as buffer memory layouts are understood by applications and row-major texture data is commonly marshaled through buffers.
 
 <i>Flags</i> must still be accurately filled out by applications for buffers, with minor exceptions. However, applications can use the most amount of capability support without concern about the efficiency impact on buffers. The flags field is meant to control properties related to textures.
-
 
 <h3><a id="Textures"></a><a id="textures"></a><a id="TEXTURES"></a>Textures</h3>
 Textures are a multi-dimensional arrangement of texels in a contiguous region of memory, heavily optimized to maximize bandwidth for rendering and sampling. Texture sizes are hard to predict and vary from adapter to adapter. Applications must use <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12device-getresourceallocationinfo">ID3D12Device::GetResourceAllocationInfo</a> to accurately understand their size.
@@ -207,11 +203,6 @@ See <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12
 
 <a href="https://docs.microsoft.com/windows/desktop/direct3d12/cd3dx12-resource-desc">CD3DX12_RESOURCE_DESC</a>
 
-
-
 <a href="https://docs.microsoft.com/windows/desktop/direct3d12/direct3d-12-structures">Core Structures</a>
 
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_heap_flags">D3D12_HEAP_FLAGS</a>
-
