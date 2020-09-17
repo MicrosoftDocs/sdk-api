@@ -386,7 +386,7 @@ Considerations for working with synchronous file handles:
        starts at the offset that is specified in the 
        <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> structure and 
        <b>WriteFile</b> does not return until the write operation is 
-       complete. The system updates the <b>OVERLAPPED</b> offset 
+       complete. The system updates the <b>OVERLAPPED</b> Internal and InternalHigh fields 
        before <b>WriteFile</b> returns.</li>
 </ul>
 For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> and 
