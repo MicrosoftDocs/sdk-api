@@ -51,4 +51,3 @@ This interface extends [ID3D12Device5](/windows/win32/api/d3d12/nn-d3d12-id3d12d
 ## -see-also
 
 [Core interfaces](/windows/win32/direct3d12/direct3d-12-interfaces)
-
