@@ -74,13 +74,11 @@ For an family <b>AF_INET6</b>: <b>Address </b> contains the IPV6 address of the 
 
 ## -remarks
 
-The client network address is reported by the RDP client itself when it connects to the server. This could be 
-    different than the address that actually connected to the server. For example, suppose there is a NAT between the 
-    client and the server. The client can report its own IP address, but the IP address that actually connects to the 
-    server is the NAT address. For VPN connections, the IP address might not be discoverable by the client. If it 
-    cannot be discovered, the client can report the only IP address it has, which may be the ISP assigned address. 
-    Because the address may not be the actual network address, it should not be used as a form of client 
-    authentication.
+The client network address is reported by the RDP client itself when it connects to the server. This could be different than the address that actually connected to the server. For example, suppose there is a NAT between the client and the server. The client can report its own IP address, but the IP address that actually connects to the server is the NAT address. For VPN connections, the IP address might not be discoverable by the client. If it cannot be discovered, the client can report the only IP address it has, which may be the ISP assigned address. Because the address may not be the actual network address, it should not be used as a form of client authentication.
+    
+The client network address is also not available in the following cases:
+- The connection is established through a Remote Desktop Gateway.
+- The connection is originated by the **Microsoft Remote Desktop** app that is available in the Store.
 
 ## -see-also
 
