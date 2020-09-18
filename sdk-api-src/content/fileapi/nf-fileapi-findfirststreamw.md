@@ -107,16 +107,26 @@ If the function succeeds, the return value is a search handle that can be used i
 If the function fails, the return value is <b>INVALID_HANDLE_VALUE</b>. To get extended 
        error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-If no  streams can be found, the function fails and 
+If no streams can be found, the function fails and 
        <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns 
        <b>ERROR_HANDLE_EOF</b> (38).
+       
+If the filesystem does not support streams, the function fails and
+       <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns 
+       <b>ERROR_INVALID_PARAMETER</b> (87).
+
 
 ## -remarks
 
 The <b>FindFirstStreamW</b> function opens a search 
-    handle and returns information about the first ::$DATA stream in the specified file or directory. For 
-    files, this is always the default data stream, "::$DATA". After the search handle has been 
-    established, use it in the <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-findnextstreamw">FindNextStreamW</a> function to 
+    handle and returns information about the first :$DATA stream in the specified file or directory. For 
+    files, this is always the default data stream, "::$DATA". Directories do not have :$DATA streams by default, but may
+    have them set after they have been created. If a queried directory does not have a :$DATA stream, the returned handle
+    is HANDLE_INVALID and GetLastError() returns ERROR_HANDLE_EOF.
+    If the filesystem does not support streams, the returned handle is HANDLE_INVALID and GetLastError() returns
+    ERROR_HANDLE_INVALID.
+    After the search handle has been established, use it in the
+    <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-findnextstreamw">FindNextStreamW</a> function to 
     search for other streams in the specified file or directory. When the search handle is no longer needed, it should 
     be closed using the <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-findclose">FindClose</a> function.
 
