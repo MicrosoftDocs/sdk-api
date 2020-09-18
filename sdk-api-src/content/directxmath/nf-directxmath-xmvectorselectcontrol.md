@@ -50,25 +50,25 @@ api_name:
 
 ## -description
 
-Defines a control vector for use in <a href="https://docs.microsoft.com/windows/desktop/api/directxmath/nf-directxmath-xmvectorselect">XMVectorSelect</a>.
+Defines a control vector for use in <a href="/windows/desktop/api/directxmath/nf-directxmath-xmvectorselect">XMVectorSelect</a>.
 
 ## -parameters
 
 ### -param VectorIndex0 [in]
 
-Index that determines which vector in <a href="https://docs.microsoft.com/windows/desktop/api/directxmath/nf-directxmath-xmvectorselect">XMVectorSelect</a> will be selected. If zero, the first vector's first component will be selected. Otherwise, the second vector's component will be selected.
+Index that determines which vector in <a href="/windows/desktop/api/directxmath/nf-directxmath-xmvectorselect">XMVectorSelect</a> will be selected. If zero, the first vector's first component will be selected. Otherwise, the second vector's component will be selected.
 
 ### -param VectorIndex1 [in]
 
-Index that determines which vector in <a href="https://docs.microsoft.com/windows/desktop/api/directxmath/nf-directxmath-xmvectorselect">XMVectorSelect</a> will be selected. If zero, the first vector's second component will be selected. Otherwise, the second vector's component will be selected.
+Index that determines which vector in <a href="/windows/desktop/api/directxmath/nf-directxmath-xmvectorselect">XMVectorSelect</a> will be selected. If zero, the first vector's second component will be selected. Otherwise, the second vector's component will be selected.
 
 ### -param VectorIndex2 [in]
 
-Index that determines which vector in <a href="https://docs.microsoft.com/windows/desktop/api/directxmath/nf-directxmath-xmvectorselect">XMVectorSelect</a> will be selected. If zero, the first vector's third component will be selected. Otherwise, the second vector's component will be selected.
+Index that determines which vector in <a href="/windows/desktop/api/directxmath/nf-directxmath-xmvectorselect">XMVectorSelect</a> will be selected. If zero, the first vector's third component will be selected. Otherwise, the second vector's component will be selected.
 
 ### -param VectorIndex3 [in]
 
-Index that determines which vector in <a href="https://docs.microsoft.com/windows/desktop/api/directxmath/nf-directxmath-xmvectorselect">XMVectorSelect</a> will be selected. If zero, the first vector's fourth component will be selected. Otherwise, the second vector's component will be selected.
+Index that determines which vector in <a href="/windows/desktop/api/directxmath/nf-directxmath-xmvectorselect">XMVectorSelect</a> will be selected. If zero, the first vector's fourth component will be selected. Otherwise, the second vector's component will be selected.
 
 ## -returns
 
@@ -124,9 +124,8 @@ XMVECTOR result = XMVectorSelect( three, five, control );
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/dxmath/ovw-xnamath-reference-functions-vector-component-wise">Component-Wise Vector Functions</a>
+<a href="/windows/desktop/dxmath/ovw-xnamath-reference-functions-vector-component-wise">Component-Wise Vector Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/directxmath/nf-directxmath-xmvectorselect">XMVectorSelect</a>
-
+<a href="/windows/desktop/api/directxmath/nf-directxmath-xmvectorselect">XMVectorSelect</a>

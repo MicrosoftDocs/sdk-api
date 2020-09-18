@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-Specifies the strokes to extract from an <a href="https://docs.microsoft.com/windows/desktop/tablet/inkdisp-class">InkDisp Class</a> and cut or copy into a new <b>InkDisp Class</b>, by using the known collection of strokes to determine which strokes to extract.
+Specifies the strokes to extract from an <a href="/windows/desktop/tablet/inkdisp-class">InkDisp Class</a> and cut or copy into a new <b>InkDisp Class</b>, by using the known collection of strokes to determine which strokes to extract.
 
 ## -parameters
 
@@ -61,11 +61,11 @@ Optional. Specifies the collection of strokes to extract. The default value is 0
 
 ### -param ExtractFlags [in, optional]
 
-Optional. Specifies the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/ne-msinkaut-inkextractflags">InkExtractFlags Enumeration</a> type, which specifies whether the ink is cut or copied into the new Ink object. The default value is IEF_DEFAULT, which cuts the strokes.
+Optional. Specifies the <a href="/windows/desktop/api/msinkaut/ne-msinkaut-inkextractflags">InkExtractFlags Enumeration</a> type, which specifies whether the ink is cut or copied into the new Ink object. The default value is IEF_DEFAULT, which cuts the strokes.
 
 ### -param ExtractedInk [out, retval]
 
-When this method returns, contains a pointer to a new <a href="https://docs.microsoft.com/windows/desktop/tablet/inkdisp-class">InkDisp Class</a> object that contains the extracted collection of cut or copied strokes.
+When this method returns, contains a pointer to a new <a href="/windows/desktop/tablet/inkdisp-class">InkDisp Class</a> object that contains the extracted collection of cut or copied strokes.
 
 ## -returns
 
@@ -106,7 +106,7 @@ A parameter contained an invalid pointer.
 </dl>
 </td>
 <td width="60%">
-The <a href="https://docs.microsoft.com/windows/desktop/tablet/inkdisp-class">InkDisp Class</a> object of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)">InkStrokes Collection</a> collection must match the known <b>InkDisp Class</b>.
+The <a href="/windows/desktop/tablet/inkdisp-class">InkDisp Class</a> object of the <a href="/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)">InkStrokes Collection</a> collection must match the known <b>InkDisp Class</b>.
 
 
 </td>
@@ -165,7 +165,7 @@ Invalid extraction flags.
 </td>
 <td width="60%">
 The 
-              <a href="https://docs.microsoft.com/windows/desktop/tablet/inkdisp-class">InkDisp Class</a> object class is not registered.
+              <a href="/windows/desktop/tablet/inkdisp-class">InkDisp Class</a> object class is not registered.
 
 </td>
 </tr>
@@ -173,7 +173,7 @@ The
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkdisp-extractwithrectangle">ExtractWithRectangle Method</a>
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkdisp-extractwithrectangle">ExtractWithRectangle Method</a>
 
 
 
@@ -181,5 +181,4 @@ The
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/tablet/inkdisp-class">InkDisp Class</a>
-
+<a href="/windows/desktop/tablet/inkdisp-class">InkDisp Class</a>

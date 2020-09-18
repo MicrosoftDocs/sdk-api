@@ -57,7 +57,7 @@ api_name:
 
 ## -description
 
-Determines if a language group is installed or supported on the operating system. For more information, see <a href="https://docs.microsoft.com/windows/desktop/Intl/nls-terminology">NLS Terminology</a>.
+Determines if a language group is installed or supported on the operating system. For more information, see <a href="/windows/desktop/Intl/nls-terminology">NLS Terminology</a>.
 
 ## -parameters
 
@@ -133,17 +133,16 @@ If the LGRPID_SUPPORTED flag is specified and this function returns <b>TRUE</b>,
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-enumlanguagegrouplocalesa">EnumLanguageGroupLocales</a>
+<a href="/windows/desktop/api/winnls/nf-winnls-enumlanguagegrouplocalesa">EnumLanguageGroupLocales</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-enumsystemlanguagegroupsa">EnumSystemLanguageGroups</a>
+<a href="/windows/desktop/api/winnls/nf-winnls-enumsystemlanguagegroupsa">EnumSystemLanguageGroups</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/national-language-support">National Language Support</a>
+<a href="/windows/desktop/Intl/national-language-support">National Language Support</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/national-language-support-functions">National Language Support Functions</a>
-
+<a href="/windows/desktop/Intl/national-language-support-functions">National Language Support Functions</a>

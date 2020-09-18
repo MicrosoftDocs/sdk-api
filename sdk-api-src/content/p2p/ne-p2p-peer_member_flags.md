@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-The <b>PEER_MEMBER_FLAGS</b> flag allows an application to specify whether all members or only present ones should be enumerated when the <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergroupenummembers">PeerGroupEnumMembers</a> function is called, or to indicate whether or not a member is present within the peer group.
+The <b>PEER_MEMBER_FLAGS</b> flag allows an application to specify whether all members or only present ones should be enumerated when the <a href="/windows/desktop/api/p2p/nf-p2p-peergroupenummembers">PeerGroupEnumMembers</a> function is called, or to indicate whether or not a member is present within the peer group.
 
 ## -enum-fields
 
@@ -62,5 +62,4 @@ The member is present in the peer group.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergroupenummembers">PeerGroupEnumMembers</a>
-
+<a href="/windows/desktop/api/p2p/nf-p2p-peergroupenummembers">PeerGroupEnumMembers</a>

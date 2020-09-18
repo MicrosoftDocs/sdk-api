@@ -62,7 +62,7 @@ The <b>BuyComplete</b> method notifies Windows Media Player that a purchase tran
 
 ### -param dwBuyCookie [in]
 
-The cookie that represents the purchase transaction. This value was provided when the Player called <a href="https://docs.microsoft.com/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentpartner-buy">IWMPContentPartner::Buy</a>.
+The cookie that represents the purchase transaction. This value was provided when the Player called <a href="/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentpartner-buy">IWMPContentPartner::Buy</a>.
 
 ## -returns
 
@@ -88,11 +88,10 @@ The method succeeded.
 
 ## -remarks
 
-You must call <b>BuyComplete</b> exactly once for each call to <a href="https://docs.microsoft.com/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentpartner-buy">IWMPContentPartner::Buy</a>. Call <b>BuyComplete</b> when the transaction is finished, even if it failed for some reason.
+You must call <b>BuyComplete</b> exactly once for each call to <a href="/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentpartner-buy">IWMPContentPartner::Buy</a>. Call <b>BuyComplete</b> when the transaction is finished, even if it failed for some reason.
 
 Return a success code only after all licenses related to the purchase have been delivered.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/contentpartner/nn-contentpartner-iwmpcontentpartnercallback">IWMPContentPartnerCallback Interface</a>
-
+<a href="/windows/desktop/api/contentpartner/nn-contentpartner-iwmpcontentpartnercallback">IWMPContentPartnerCallback Interface</a>

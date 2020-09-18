@@ -52,8 +52,8 @@ api_name:
 
 <p class="CCE_Message">[This method is no longer available for use as of Windows Server 2008 and Windows Vista.]
 
-The <b>enumContainersWStr</b> method retrieves the names of containers for the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">cryptographic service provider</a> (CSP) specified by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_providernamewstr">ProviderNameWStr</a> property. This method was first defined in the <a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nn-xenroll-ienroll">IEnroll</a> interface.
+The <b>enumContainersWStr</b> method retrieves the names of containers for the <a href="/windows/desktop/SecGloss/c-gly">cryptographic service provider</a> (CSP) specified by the 
+<a href="/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_providernamewstr">ProviderNameWStr</a> property. This method was first defined in the <a href="/windows/desktop/api/xenroll/nn-xenroll-ienroll">IEnroll</a> interface.
 
 ## -parameters
 
@@ -72,9 +72,8 @@ The return value is an <b>HRESULT</b>. A value of S_OK indicates success. The va
 ## -remarks
 
 If the 
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_providernamewstr">ProviderNameWStr</a> property value has not been set, the default value (usually Microsoft Base Cryptographic Provider) of <b>ProviderNameWStr</b> as set in the registry is used.
+<a href="/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_providernamewstr">ProviderNameWStr</a> property value has not been set, the default value (usually Microsoft Base Cryptographic Provider) of <b>ProviderNameWStr</b> as set in the registry is used.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nn-xenroll-ienroll4">IEnroll</a>
-
+<a href="/windows/desktop/api/xenroll/nn-xenroll-ienroll4">IEnroll</a>

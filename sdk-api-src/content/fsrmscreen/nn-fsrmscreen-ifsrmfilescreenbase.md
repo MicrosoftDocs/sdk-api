@@ -54,7 +54,7 @@ Base class for all file screen interfaces.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFsrmFileScreenBase</b> interface inherits from <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrm/nn-fsrm-ifsrmobject">IFsrmObject</a>. <b>IFsrmFileScreenBase</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFsrmFileScreenBase</b> interface inherits from <a href="/previous-versions/windows/desktop/api/fsrm/nn-fsrm-ifsrmobject">IFsrmObject</a>. <b>IFsrmFileScreenBase</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -70,7 +70,7 @@ The <b>IFsrmFileScreenBase</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmscreen/nf-fsrmscreen-ifsrmfilescreenbase-createaction">CreateAction</a>
+<a href="/previous-versions/windows/desktop/api/fsrmscreen/nf-fsrmscreen-ifsrmfilescreenbase-createaction">CreateAction</a>
 </td>
 <td align="left" width="63%">
 Creates an action for this file screen object.
@@ -79,7 +79,7 @@ Creates an action for this file screen object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmscreen/nf-fsrmscreen-ifsrmfilescreenbase-enumactions">EnumActions</a>
+<a href="/previous-versions/windows/desktop/api/fsrmscreen/nf-fsrmscreen-ifsrmfilescreenbase-enumactions">EnumActions</a>
 </td>
 <td align="left" width="63%">
 Enumerates all the actions for the file screen object.
@@ -97,7 +97,7 @@ Enumerates all the actions for the file screen object.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmscreen/nf-fsrmscreen-ifsrmfilescreenbase-get_blockedfilegroups">BlockedFileGroups</a>
+<a href="/previous-versions/windows/desktop/api/fsrmscreen/nf-fsrmscreen-ifsrmfilescreenbase-get_blockedfilegroups">BlockedFileGroups</a>
 
 
 </td>
@@ -114,7 +114,7 @@ Retrieves or sets the names of the file groups that contain the file name patter
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmscreen/nf-fsrmscreen-ifsrmfilescreenbase-get_filescreenflags">FileScreenFlags</a>
+<a href="/previous-versions/windows/desktop/api/fsrmscreen/nf-fsrmscreen-ifsrmfilescreenbase-get_filescreenflags">FileScreenFlags</a>
 
 
 </td>
@@ -130,7 +130,7 @@ Retrieves or sets the file screen flags.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb625567(v=vs.85)">UserAccount</a>
+<a href="/previous-versions/windows/desktop/legacy/bb625567(v=vs.85)">UserAccount</a>
 
 
 </td>
@@ -146,7 +146,7 @@ Retrieves the string form of the user account that is associated with the file s
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb625568(v=vs.85)">UserSid</a>
+<a href="/previous-versions/windows/desktop/legacy/bb625568(v=vs.85)">UserSid</a>
 
 
 </td>
@@ -164,5 +164,4 @@ Retrieves the string form of the user's security identifier (SID) that is associ
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrm/nn-fsrm-ifsrmobject">IFsrmObject</a>
-
+<a href="/previous-versions/windows/desktop/api/fsrm/nn-fsrm-ifsrmobject">IFsrmObject</a>

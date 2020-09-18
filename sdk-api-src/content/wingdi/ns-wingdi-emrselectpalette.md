@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-The <b>EMRSELECTPALETTE</b> structure contains members for the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-selectpalette">SelectPalette</a> enhanced metafile record. Note that the <i>bForceBackground</i> parameter in <b>SelectPalette</b> is always recorded as <b>TRUE</b>, which causes the palette to be realized as a background palette.
+The <b>EMRSELECTPALETTE</b> structure contains members for the <a href="/windows/desktop/api/wingdi/nf-wingdi-selectpalette">SelectPalette</a> enhanced metafile record. Note that the <i>bForceBackground</i> parameter in <b>SelectPalette</b> is always recorded as <b>TRUE</b>, which causes the palette to be realized as a background palette.
 
 ## -struct-fields
 
@@ -68,13 +68,12 @@ Index to logical palette in the handle table.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/metafile-structures">Metafile Structures</a>
+<a href="/windows/desktop/gdi/metafile-structures">Metafile Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/metafiles">Metafiles Overview</a>
+<a href="/windows/desktop/gdi/metafiles">Metafiles Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-selectpalette">SelectPalette</a>
-
+<a href="/windows/desktop/api/wingdi/nf-wingdi-selectpalette">SelectPalette</a>

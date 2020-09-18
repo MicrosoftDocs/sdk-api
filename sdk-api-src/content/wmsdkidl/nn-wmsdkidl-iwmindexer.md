@@ -52,15 +52,15 @@ api_name:
 
 The <b>IWMIndexer</b> interface is used to create an index for ASF files to enable seeking. An index is created only for a file that contains video, although the indexer can safely be used on files that do not contain any video.
 
-An index is an object in the ASF file that equates video samples with presentation times. This is important because the timing of video frames is not necessarily easily computed from the <a href="https://docs.microsoft.com/windows/desktop/wmformat/wmformat-glossary">frame rate</a>.
+An index is an object in the ASF file that equates video samples with presentation times. This is important because the timing of video frames is not necessarily easily computed from the <a href="/windows/desktop/wmformat/wmformat-glossary">frame rate</a>.
 
-In addition to the standard temporal index, the indexer object can create indexes based on video frame number and SMPTE time code. For more information about creating these indexes, see <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmindexer2-configure">IWMIndexer2::Configure</a>.
+In addition to the standard temporal index, the indexer object can create indexes based on video frame number and SMPTE time code. For more information about creating these indexes, see <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmindexer2-configure">IWMIndexer2::Configure</a>.
 
-This interface can be obtained by using the <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-wmcreateindexer">WMCreateIndexer</a> function.
+This interface can be obtained by using the <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-wmcreateindexer">WMCreateIndexer</a> function.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMIndexer</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWMIndexer</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMIndexer</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWMIndexer</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -75,7 +75,7 @@ The <b>IWMIndexer</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmindexer-cancel">Cancel</a>
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmindexer-cancel">Cancel</a>
 </td>
 <td align="left" width="63%">
 Cancels indexing.
@@ -84,7 +84,7 @@ Cancels indexing.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmindexer-startindexing">StartIndexing</a>
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmindexer-startindexing">StartIndexing</a>
 </td>
 <td align="left" width="63%">
 Initiates indexing.
@@ -102,7 +102,7 @@ The following interface can be obtained by using the QueryInterface method of th
 </tr>
 <tr>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmindexer2">IWMIndexer2</a>
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmindexer2">IWMIndexer2</a>
 </td>
 <td>IID_IWMIndexer2</td>
 </tr>
@@ -110,9 +110,8 @@ The following interface can be obtained by using the QueryInterface method of th
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/wmformat/indexer-object">Indexer Object</a>
+<a href="/windows/desktop/wmformat/indexer-object">Indexer Object</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/wmformat/interfaces">Interfaces</a>
-
+<a href="/windows/desktop/wmformat/interfaces">Interfaces</a>

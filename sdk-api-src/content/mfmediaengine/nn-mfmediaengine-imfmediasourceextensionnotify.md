@@ -50,11 +50,11 @@ api_name:
 
 ## -description
 
-Provides functionality for raising events associated with <a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfmediasourceextension">IMFMediaSourceExtension</a>.
+Provides functionality for raising events associated with <a href="/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfmediasourceextension">IMFMediaSourceExtension</a>.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFMediaSourceExtensionNotify</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFMediaSourceExtensionNotify</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFMediaSourceExtensionNotify</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFMediaSourceExtensionNotify</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IMFMediaSourceExtensionNotify</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediasourceextensionnotify-onsourceclose">OnSourceClose</a>
+<a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediasourceextensionnotify-onsourceclose">OnSourceClose</a>
 </td>
 <td align="left" width="63%">
 Used to indicate that the media source has closed.
@@ -78,7 +78,7 @@ Used to indicate that the media source has closed.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediasourceextensionnotify-onsourceended">OnSourceEnded</a>
+<a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediasourceextensionnotify-onsourceended">OnSourceEnded</a>
 </td>
 <td align="left" width="63%">
 Used to indicate that the media source has ended.
@@ -87,7 +87,7 @@ Used to indicate that the media source has ended.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediasourceextensionnotify-onsourceopen">OnSourceOpen</a>
+<a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediasourceextensionnotify-onsourceopen">OnSourceOpen</a>
 </td>
 <td align="left" width="63%">
 Used to indicate that the  media source has opened.
@@ -98,5 +98,4 @@ Used to indicate that the  media source has opened.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
-
+<a href="/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>

@@ -69,7 +69,7 @@ The <b>IAsyncAction</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/WinRT/iasyncaction-get-completed">get_Completed</a>
+<a href="/windows/desktop/WinRT/iasyncaction-get-completed">get_Completed</a>
 </td>
 <td align="left" width="63%">
 Gets the method that is called when the asynchronous action completes. 
@@ -78,7 +78,7 @@ Gets the method that is called when the asynchronous action completes.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/WinRT/iasyncaction-getresults">GetResults</a>
+<a href="/windows/desktop/WinRT/iasyncaction-getresults">GetResults</a>
 </td>
 <td align="left" width="63%">
 Gets the outcome of an asynchronous action.
@@ -87,7 +87,7 @@ Gets the outcome of an asynchronous action.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/WinRT/iasyncaction-put-completed">put_Completed</a>
+<a href="/windows/desktop/WinRT/iasyncaction-put-completed">put_Completed</a>
 </td>
 <td align="left" width="63%">
 Sets the method that is called when the asynchronous action completes. 
@@ -98,5 +98,4 @@ Sets the method that is called when the asynchronous action completes.
 
 ## -remarks
 
-The <b>IAsyncAction</b> interface represents an asynchronous action that does not return a result and does not have progress notifications.  When the action completes, the <a href="https://docs.microsoft.com/windows/desktop/WinRT/asyncactioncompletedhandler">AsyncActionCompletedHandler</a> specified by <a href="https://docs.microsoft.com/windows/desktop/WinRT/iasyncaction-get-completed">get_Completed</a>  is invoked, and this is the only result from the action.
-
+The <b>IAsyncAction</b> interface represents an asynchronous action that does not return a result and does not have progress notifications.  When the action completes, the <a href="/windows/desktop/WinRT/asyncactioncompletedhandler">AsyncActionCompletedHandler</a> specified by <a href="/windows/desktop/WinRT/iasyncaction-get-completed">get_Completed</a>  is invoked, and this is the only result from the action.

@@ -60,7 +60,7 @@ A <b>NULL</b>-terminated string containing the path and name of the dictionary f
 
 ### -param pshf [out]
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/msime/ns-msime-imeshf">IMESHF</a> header of the file. Can be <b>NULL</b>.
+The <a href="/windows/desktop/api/msime/ns-msime-imeshf">IMESHF</a> header of the file. Can be <b>NULL</b>.
 
 ### -param pjfmt [out]
 
@@ -321,9 +321,8 @@ One of the following:
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msime/nn-msime-ifedictionary">IFEDictionary</a>
+<a href="/windows/desktop/api/msime/nn-msime-ifedictionary">IFEDictionary</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msime/ns-msime-imeshf">IMESHF</a>
-
+<a href="/windows/desktop/api/msime/ns-msime-imeshf">IMESHF</a>

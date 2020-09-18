@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-Indicates ambient properties supplied by the container. It is used in the <b>dwAmbientFlags</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/ns-ocidl-qacontainer">QACONTAINER</a> structure.
+Indicates ambient properties supplied by the container. It is used in the <b>dwAmbientFlags</b> member of the <a href="/windows/desktop/api/ocidl/ns-ocidl-qacontainer">QACONTAINER</a> structure.
 
 ## -enum-fields
 
@@ -90,5 +90,4 @@ Specifies the SupportsMnemonics ambient property, which has a standard ambient D
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/ns-ocidl-qacontainer">QACONTAINER</a>
-
+<a href="/windows/desktop/api/ocidl/ns-ocidl-qacontainer">QACONTAINER</a>

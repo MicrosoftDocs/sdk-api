@@ -56,7 +56,7 @@ Describes compute shader and raw and structured buffer support in the current gr
 
 ### -field ComputeShaders_Plus_RawAndStructuredBuffers_Via_Shader_4_x
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
 
 <b>TRUE</b> if compute shaders and raw and structured buffers are supported; otherwise <b>FALSE</b>.
 
@@ -67,5 +67,4 @@ Direct3D 11 devices (D3D_FEATURE_LEVEL_11_0) are required to support Compute Sha
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d11-graphics-reference-d3d11-core-structures">Core Structures</a>
-
+<a href="/windows/desktop/direct3d11/d3d11-graphics-reference-d3d11-core-structures">Core Structures</a>

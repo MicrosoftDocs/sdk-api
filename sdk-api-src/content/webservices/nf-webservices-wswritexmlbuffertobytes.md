@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Uses a writer to convert a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-xml-buffer">WS_XML_BUFFER</a> to an encoded set of bytes.
+Uses a writer to convert a <a href="/windows/desktop/wsw/ws-xml-buffer">WS_XML_BUFFER</a> to an encoded set of bytes.
 
 ## -parameters
 
@@ -68,7 +68,7 @@ The encoding to use when generating the bytes.  If <b>NULL</b>, the bytes will b
 
 ### -param properties
 
-An array of optional properties of the writer.  See <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_xml_writer_property">WS_XML_WRITER_PROPERTY</a>.
+An array of optional properties of the writer.  See <a href="/windows/desktop/api/webservices/ns-webservices-ws_xml_writer_property">WS_XML_WRITER_PROPERTY</a>.
 
 ### -param propertyCount [in]
 
@@ -136,11 +136,10 @@ A quota was exceeded.
 
 ## -remarks
 
-The function will generate the entire contents of the <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-xml-buffer">WS_XML_BUFFER</a> as a linear set of bytes 
+The function will generate the entire contents of the <a href="/windows/desktop/wsw/ws-xml-buffer">WS_XML_BUFFER</a> as a linear set of bytes 
         allocated from the specified heap in the encoding specified.
       
 
 The writer will be left in an undefined state after calling this function.  However, <b>WsWriteXmlBufferToBytes</b> 
-        may be used again with such a writer.  Otherwise, <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wssetoutput">WsSetOutput</a> or <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wssetoutputtobuffer">WsSetOutputToBuffer</a> should be
-        used to bring the writer back to a known state, or the writer should be freed using <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsfreewriter">WsFreeWriter</a>.
-
+        may be used again with such a writer.  Otherwise, <a href="/windows/desktop/api/webservices/nf-webservices-wssetoutput">WsSetOutput</a> or <a href="/windows/desktop/api/webservices/nf-webservices-wssetoutputtobuffer">WsSetOutputToBuffer</a> should be
+        used to bring the writer back to a known state, or the writer should be freed using <a href="/windows/desktop/api/webservices/nf-webservices-wsfreewriter">WsFreeWriter</a>.

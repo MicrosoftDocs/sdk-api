@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-The <code>IAMBufferNegotiation</code> interface requests the number of buffers for a filter to create and size of each buffer. This interface can be exposed by any pin that connects using the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-imeminputpin">IMemInputPin</a> pin interface, but is typically exposed on the output pins of capture filters.
+The <code>IAMBufferNegotiation</code> interface requests the number of buffers for a filter to create and size of each buffer. This interface can be exposed by any pin that connects using the <a href="/windows/desktop/api/strmif/nn-strmif-imeminputpin">IMemInputPin</a> pin interface, but is typically exposed on the output pins of capture filters.
 
 When two pins connect through <b>IMemInputPin</b>, they agree on an allocator object that is responsible for creating buffers. Normally this process is transparent to the application, but in some situations the application needs more control. If a pin exposes <code>IAMBufferNegotiation</code>, the application can suggest how many buffers to create, the size of the buffers, and other properties. If your application performs preview of captured audio, you can specify a smaller buffer size to reduce latency. Teleconferencing applications should specify a minimal number of buffers.
 
@@ -61,7 +61,7 @@ To use this interface, call the <b>SuggestAllocatorProperties</b> method before 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAMBufferNegotiation</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAMBufferNegotiation</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAMBufferNegotiation</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAMBufferNegotiation</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -76,7 +76,7 @@ The <b>IAMBufferNegotiation</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iambuffernegotiation-getallocatorproperties">GetAllocatorProperties</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-iambuffernegotiation-getallocatorproperties">GetAllocatorProperties</a>
 </td>
 <td align="left" width="63%">
 Retrieves the allocator properties that the pin is using.
@@ -85,7 +85,7 @@ Retrieves the allocator properties that the pin is using.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iambuffernegotiation-suggestallocatorproperties">SuggestAllocatorProperties</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-iambuffernegotiation-suggestallocatorproperties">SuggestAllocatorProperties</a>
 </td>
 <td align="left" width="63%">
 Informs the pin of the application's preferred allocator properties
@@ -96,5 +96,4 @@ Informs the pin of the application's preferred allocator properties
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/interfaces">Interfaces</a>
-
+<a href="/windows/desktop/DirectShow/interfaces">Interfaces</a>

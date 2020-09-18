@@ -52,19 +52,19 @@ api_name:
 
 ## -description
 
-Contains information used with the <a href="https://docs.microsoft.com/windows/desktop/Controls/lvn-getemptymarkup">LVN_GETEMPTYMARKUP</a> notification code.
+Contains information used with the <a href="/windows/desktop/Controls/lvn-getemptymarkup">LVN_GETEMPTYMARKUP</a> notification code.
 
 ## -struct-fields
 
 ### -field hdr
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a></b>
+Type: <b><a href="/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a></b>
 
 Info on the notification message.
 
 ### -field dwFlags
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 One of the following values. If <b>NULL</b>, markup is rendered left-justified in the listview area.
 
@@ -87,7 +87,6 @@ Render markup centered in the listview area.
 
 ### -field szMarkup
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">WCHAR</a>[L_MAX_URL_LENGTH]</b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">WCHAR</a>[L_MAX_URL_LENGTH]</b>
 
 Markup to display.
-

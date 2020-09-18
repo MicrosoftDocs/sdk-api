@@ -72,9 +72,8 @@ Authentication failed.
 
 ## -remarks
 
-<b>EapPeerMethodResultReason</b> includes <a href="https://docs.microsoft.com/windows/desktop/NLA/portal">network awareness</a> information for wireless devices.
+<b>EapPeerMethodResultReason</b> includes <a href="/windows/desktop/NLA/portal">network awareness</a> information for wireless devices.
 
 ## -see-also
 
 [EAPHost Peer Method Enumerations](/windows/win32/eaphost/eap-host-peer-method-enumerations)
-

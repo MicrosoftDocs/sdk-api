@@ -71,6 +71,5 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 A valid call to <b>CfExecute</b> will reset the timers of all pending callback requests that belong to the same sync provider process. 
 
 
-<b>CfExecute</b> takes two variable-sized arguments, i.e., <a href="https://docs.microsoft.com/windows/desktop/api/cfapi/ns-cfapi-cf_operation_info">CF_OPERATION_INFO</a> and <a href="https://docs.microsoft.com/windows/desktop/api/cfapi/ns-cfapi-cf_operation_parameters">CF_OPERATION_PARAMETERS</a>, with one identifying the operation type and the other supplying detailed operation parameters.
+<b>CfExecute</b> takes two variable-sized arguments, i.e., <a href="/windows/desktop/api/cfapi/ns-cfapi-cf_operation_info">CF_OPERATION_INFO</a> and <a href="/windows/desktop/api/cfapi/ns-cfapi-cf_operation_parameters">CF_OPERATION_PARAMETERS</a>, with one identifying the operation type and the other supplying detailed operation parameters.
 Both arguments start with a <b>StructSize</b> field at the beginning of the corresponding structures. Callers of <b>CfExecute</b> are responsible for accurate accounting of the structure size.
-

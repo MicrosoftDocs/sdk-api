@@ -65,7 +65,7 @@ Number of elements requested.
 ### -param ppElements [out]
 
 Pointer to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/rend/nn-rend-itdirectory">ITDirectory</a> interface.
+<a href="/windows/desktop/api/rend/nn-rend-itdirectory">ITDirectory</a> interface.
 
 ### -param pcFetched [out]
 
@@ -118,10 +118,9 @@ The <i>ppElements</i> parameter is not a valid pointer.
 ## -remarks
 
 TAPI calls the <b>AddRef</b> method on the 
-<a href="https://docs.microsoft.com/windows/desktop/api/rend/nn-rend-itdirectory">ITDirectory</a> interface returned by <b>IEnumDirectory::Next</b>. The application must call <b>Release</b> on the 
+<a href="/windows/desktop/api/rend/nn-rend-itdirectory">ITDirectory</a> interface returned by <b>IEnumDirectory::Next</b>. The application must call <b>Release</b> on the 
 <b>ITDirectory</b> interface to free resources associated with it.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rend/nn-rend-ienumdirectory">IEnumDirectory</a>
-
+<a href="/windows/desktop/api/rend/nn-rend-ienumdirectory">IEnumDirectory</a>

@@ -103,5 +103,4 @@ Method failed.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/termmgr/nn-termmgr-itterminalmanager2">ITTerminalManager2</a>
-
+<a href="/windows/desktop/api/termmgr/nn-termmgr-itterminalmanager2">ITTerminalManager2</a>

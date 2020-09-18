@@ -57,25 +57,25 @@ Creates an image source object from a WIC bitmap source, while populating all pi
 
 ### -param wicBitmapSource [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapsource">IWICBitmapSource</a>*</b>
+Type: <b><a href="/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapsource">IWICBitmapSource</a>*</b>
 
 The WIC bitmap source to create the image source from.
 
 ### -param loadingOptions
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3/ne-d2d1_3-d2d1_image_source_loading_options">D2D1_IMAGE_SOURCE_LOADING_OPTIONS</a></b>
+Type: <b><a href="/windows/desktop/api/d2d1_3/ne-d2d1_3-d2d1_image_source_loading_options">D2D1_IMAGE_SOURCE_LOADING_OPTIONS</a></b>
 
 Options for creating the image source.  Default options are used if NULL.
 
 ### -param alphaMode
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dcommon/ne-dcommon-d2d1_alpha_mode">D2D1_ALPHA_MODE</a></b>
+Type: <b><a href="/windows/desktop/api/dcommon/ne-dcommon-d2d1_alpha_mode">D2D1_ALPHA_MODE</a></b>
 
 The alpha mode of the image; this is determined automatically from the source’s pixel format if D2D1_ALPHA_MODE_UNKNOWN is passed.
 
 ### -param imageSource [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3/nn-d2d1_3-id2d1imagesourcefromwic">ID2D1ImageSourceFromWic</a>**</b>
+Type: <b><a href="/windows/desktop/api/d2d1_3/nn-d2d1_3-id2d1imagesourcefromwic">ID2D1ImageSourceFromWic</a>**</b>
 
 Receives the new image source instance.
 
@@ -91,7 +91,7 @@ This method creates an image source which can be used to draw the image.
 
 This method supports images that exceed the maximum texture size.  Large images are internally stored within a sparse tile cache.   
 
-This API supports the same set of pixel formats and alpha modes supported by <a href="https://docs.microsoft.com/windows/desktop/Direct2D/id2d1devicecontext-createbitmapfromwicbitmap-overload">CreateBitmapFromWicBitmap</a>.  
+This API supports the same set of pixel formats and alpha modes supported by <a href="/windows/desktop/Direct2D/id2d1devicecontext-createbitmapfromwicbitmap-overload">CreateBitmapFromWicBitmap</a>.  
           If the GPU does not support a given pixel format,
           this method will return D2DERR_UNSUPPORTED_PIXEL_FORMAT.  This method does not apply adjustments such as gamma or 
           alpha premultiplication which affect the appearance of the image.
@@ -114,5 +114,4 @@ If the loadingOptions argument is NULL, D2D uses D2D1_IMAGE_SOURCE_LOADING_OPTIO
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3/nn-d2d1_3-id2d1devicecontext2">ID2D1DeviceContext2</a>
-
+<a href="/windows/desktop/api/d2d1_3/nn-d2d1_3-id2d1devicecontext2">ID2D1DeviceContext2</a>

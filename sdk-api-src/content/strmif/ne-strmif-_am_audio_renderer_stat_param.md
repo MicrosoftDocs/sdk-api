@@ -54,11 +54,11 @@ The <b>_AM_AUDIO_RENDERER_STAT_PARAM</b> enumeration specifies which performance
 
 
 
-This enumeration type is used in the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamaudiorendererstats-getstatparam">IAMAudioRendererStats::GetStatParam</a> method. Each enumeration member defines the meaning of the values that are returned in the <i>pdwParam1</i> and <i>pdwParam2</i> parameters of <b>GetStatParam</b>.
+This enumeration type is used in the <a href="/windows/desktop/api/strmif/nf-strmif-iamaudiorendererstats-getstatparam">IAMAudioRendererStats::GetStatParam</a> method. Each enumeration member defines the meaning of the values that are returned in the <i>pdwParam1</i> and <i>pdwParam2</i> parameters of <b>GetStatParam</b>.
 
 > [!NOTE]
 > Bias-free Communication
-Microsoft supports a diverse and inclusionary environment.  Within this document, there are references to the word 'slave.' Microsoft's [Style Guide for Bias-Free Communications](https://docs.microsoft.com/style-guide/bias-free-communication) recognizes this as an exclusionary word.  This wording is used as it is currently the wording used within the software. For consistency, this document contains this word. When this word is removed from the software, we will correct this document to be in alignment.
+Microsoft supports a diverse and inclusionary environment.  Within this document, there are references to the word 'slave.' Microsoft's [Style Guide for Bias-Free Communications](/style-guide/bias-free-communication) recognizes this as an exclusionary word.  This wording is used as it is currently the wording used within the software. For consistency, this document contains this word. When this word is removed from the software, we will correct this document to be in alignment.
 
 ## -enum-fields
 
@@ -105,7 +105,7 @@ Microsoft supports a diverse and inclusionary environment.  Within this document
 
 <i>Param2</i>: Not used.
 
-Valid only when the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/directsound-renderer-filter">DirectSound Renderer</a> is matching rates to another clock or a live source.
+Valid only when the <a href="/windows/desktop/DirectShow/directsound-renderer-filter">DirectSound Renderer</a> is matching rates to another clock or a live source.
 
 ### -field AM_AUDREND_STAT_PARAM_SLAVE_DROPWRITE_DUR
 
@@ -113,7 +113,7 @@ Valid only when the <a href="https://docs.microsoft.com/windows/desktop/DirectSh
 
 <i>Param2</i>: Not used.
 
-Applies only when the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/audio-renderer--waveout--filter">Audio Renderer (WaveOut)</a> filter is matching rates to a master clock.
+Applies only when the <a href="/windows/desktop/DirectShow/audio-renderer--waveout--filter">Audio Renderer (WaveOut)</a> filter is matching rates to a master clock.
 
 ### -field AM_AUDREND_STAT_PARAM_SLAVE_HIGHLOWERROR
 
@@ -151,9 +151,8 @@ Not implemented.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/directshow-enumerated-types">DirectShow Enumerated Types</a>
+<a href="/windows/desktop/DirectShow/directshow-enumerated-types">DirectShow Enumerated Types</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iamaudiorendererstats">IAMAudioRendererStats Interface</a>
-
+<a href="/windows/desktop/api/strmif/nn-strmif-iamaudiorendererstats">IAMAudioRendererStats Interface</a>

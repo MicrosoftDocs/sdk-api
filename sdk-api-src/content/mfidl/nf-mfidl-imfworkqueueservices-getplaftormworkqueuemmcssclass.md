@@ -57,7 +57,7 @@ Retrieves the Multimedia Class Scheduler Service (MMCSS) class for a specified p
 
 ### -param dwPlatformWorkQueueId [in]
 
-Platform work queue to query. See <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfworkqueueservices-beginregisterplatformworkqueuewithmmcss">IMFWorkQueueServices::BeginRegisterPlatformWorkQueueWithMMCSS</a>.
+Platform work queue to query. See <a href="/windows/desktop/api/mfidl/nf-mfidl-imfworkqueueservices-beginregisterplatformworkqueuewithmmcss">IMFWorkQueueServices::BeginRegisterPlatformWorkQueueWithMMCSS</a>.
 
 ### -param pwszClass [out]
 
@@ -102,5 +102,4 @@ The <i>pwszClass</i> buffer is too small to receive the class name.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfworkqueueservices">IMFWorkQueueServices</a>
-
+<a href="/windows/desktop/api/mfidl/nn-mfidl-imfworkqueueservices">IMFWorkQueueServices</a>

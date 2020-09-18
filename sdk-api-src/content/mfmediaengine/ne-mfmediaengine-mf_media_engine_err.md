@@ -86,9 +86,8 @@ The values greater than zero correspond to error codes defined for the <b>MediaE
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaerror-geterrorcode">IMFMediaError::GetErrorCode</a>
+<a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaerror-geterrorcode">IMFMediaError::GetErrorCode</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>
-
+<a href="/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>

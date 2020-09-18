@@ -51,11 +51,11 @@ api_name:
 
 ## -description
 
-Extends <a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_3/nn-dxgi1_3-idxgiswapchain2">IDXGISwapChain2</a> with methods to support getting the index of the swap chain's current back buffer and support for color space.
+Extends <a href="/windows/desktop/api/dxgi1_3/nn-dxgi1_3-idxgiswapchain2">IDXGISwapChain2</a> with methods to support getting the index of the swap chain's current back buffer and support for color space.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDXGISwapChain3</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_3/nn-dxgi1_3-idxgiswapchain2">IDXGISwapChain2</a>. <b>IDXGISwapChain3</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDXGISwapChain3</b> interface inherits from <a href="/windows/desktop/api/dxgi1_3/nn-dxgi1_3-idxgiswapchain2">IDXGISwapChain2</a>. <b>IDXGISwapChain3</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>IDXGISwapChain3</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_4/nf-dxgi1_4-idxgiswapchain3-checkcolorspacesupport">CheckColorSpaceSupport</a>
+<a href="/windows/desktop/api/dxgi1_4/nf-dxgi1_4-idxgiswapchain3-checkcolorspacesupport">CheckColorSpaceSupport</a>
 </td>
 <td align="left" width="63%">
 Checks the swap chain's support for color space.
@@ -79,7 +79,7 @@ Checks the swap chain's support for color space.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_4/nf-dxgi1_4-idxgiswapchain3-getcurrentbackbufferindex">GetCurrentBackBufferIndex</a>
+<a href="/windows/desktop/api/dxgi1_4/nf-dxgi1_4-idxgiswapchain3-getcurrentbackbufferindex">GetCurrentBackBufferIndex</a>
 </td>
 <td align="left" width="63%">
 Gets the index of the swap chain's current back buffer.
@@ -88,7 +88,7 @@ Gets the index of the swap chain's current back buffer.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_4/nf-dxgi1_4-idxgiswapchain3-resizebuffers1">ResizeBuffers1</a>
+<a href="/windows/desktop/api/dxgi1_4/nf-dxgi1_4-idxgiswapchain3-resizebuffers1">ResizeBuffers1</a>
 </td>
 <td align="left" width="63%">
 Changes the swap chain's back buffer size, format, and number of buffers, where the swap chain was created using a D3D12 command queue as an input device.
@@ -99,7 +99,7 @@ Changes the swap chain's back buffer size, format, and number of buffers, where 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_4/nf-dxgi1_4-idxgiswapchain3-setcolorspace1">SetColorSpace1</a>
+<a href="/windows/desktop/api/dxgi1_4/nf-dxgi1_4-idxgiswapchain3-setcolorspace1">SetColorSpace1</a>
 </td>
 <td align="left" width="63%">
 Sets the color space used by the swap chain.
@@ -110,9 +110,8 @@ Sets the color space used by the swap chain.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3ddxgi/d3d10-graphics-reference-dxgi-interfaces">DXGI Interfaces</a>
+<a href="/windows/desktop/direct3ddxgi/d3d10-graphics-reference-dxgi-interfaces">DXGI Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_3/nn-dxgi1_3-idxgiswapchain2">IDXGISwapChain2</a>
-
+<a href="/windows/desktop/api/dxgi1_3/nn-dxgi1_3-idxgiswapchain2">IDXGISwapChain2</a>

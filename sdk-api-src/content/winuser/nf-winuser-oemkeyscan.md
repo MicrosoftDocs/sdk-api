@@ -149,7 +149,7 @@ This function does not provide translations for characters that require CTRL+ALT
 
 This function does not provide translations for characters that cannot be typed with one keystroke using the current keyboard layout, such as characters with diacritics requiring dead keys. Characters not translated by this function may be simulated using the ALT+ keypad mechanism. The NUMLOCK key must be on. 
 
-This function is implemented using the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-vkkeyscana">VkKeyScan</a> function.
+This function is implemented using the <a href="/windows/desktop/api/winuser/nf-winuser-vkkeyscana">VkKeyScan</a> function.
 
 ## -see-also
 
@@ -157,7 +157,7 @@ This function is implemented using the <a href="https://docs.microsoft.com/windo
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/inputdev/keyboard-input">Keyboard Input</a>
+<a href="/windows/desktop/inputdev/keyboard-input">Keyboard Input</a>
 
 
 
@@ -165,5 +165,4 @@ This function is implemented using the <a href="https://docs.microsoft.com/windo
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-vkkeyscana">VkKeyScan</a>
-
+<a href="/windows/desktop/api/winuser/nf-winuser-vkkeyscana">VkKeyScan</a>

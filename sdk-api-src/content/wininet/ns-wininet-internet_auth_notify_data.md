@@ -63,7 +63,7 @@ Size of the structure, in bytes.
 ### -field pfnNotify
 
 Notification callback to retry 
-<a href="https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-interneterrordlg">InternetErrorDlg</a>.
+<a href="/windows/desktop/api/wininet/nf-wininet-interneterrordlg">InternetErrorDlg</a>.
 
 ### -field dwContext
 
@@ -71,10 +71,9 @@ Pointer to a variable that contains an application-defined value used to identif
 
 ## -remarks
 
-<div class="alert"><b>Note</b>  WinINet does not support server implementations. In addition, it should not be used from a service.  For server implementations or services use <a href="https://docs.microsoft.com/windows/desktop/WinHttp/winhttp-start-page">Microsoft Windows HTTP Services (WinHTTP)</a>.</div>
+<div class="alert"><b>Note</b>  WinINet does not support server implementations. In addition, it should not be used from a service.  For server implementations or services use <a href="/windows/desktop/WinHttp/winhttp-start-page">Microsoft Windows HTTP Services (WinHTTP)</a>.</div>
 <div> </div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-interneterrordlg">InternetErrorDlg</a>
-
+<a href="/windows/desktop/api/wininet/nf-wininet-interneterrordlg">InternetErrorDlg</a>

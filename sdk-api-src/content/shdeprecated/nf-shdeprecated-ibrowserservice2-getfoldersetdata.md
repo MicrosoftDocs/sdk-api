@@ -59,7 +59,7 @@ Deprecated. Gets a structure containing folder information.
 
 Type: <b>tagFolderSetData*</b>
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/shdeprecated/ns-shdeprecated-foldersetdata">FOLDERSETDATA</a> structure that receives the folder information.
+A pointer to a <a href="/windows/desktop/api/shdeprecated/ns-shdeprecated-foldersetdata">FOLDERSETDATA</a> structure that receives the folder information.
 
 ## -returns
 
@@ -70,4 +70,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -remarks
 
 This method is called by the derived class.
-

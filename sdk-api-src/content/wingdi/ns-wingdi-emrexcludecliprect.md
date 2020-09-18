@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-The <b>EMREXCLUDECLIPRECT</b> and <b>EMRINTERSECTCLIPRECT</b> structures contain members for the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-excludecliprect">ExcludeClipRect</a> and <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-intersectcliprect">IntersectClipRect</a> enhanced metafile records.
+The <b>EMREXCLUDECLIPRECT</b> and <b>EMRINTERSECTCLIPRECT</b> structures contain members for the <a href="/windows/desktop/api/wingdi/nf-wingdi-excludecliprect">ExcludeClipRect</a> and <a href="/windows/desktop/api/wingdi/nf-wingdi-intersectcliprect">IntersectClipRect</a> enhanced metafile records.
 
 ## -struct-fields
 
@@ -68,9 +68,8 @@ Clipping rectangle in logical units.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/metafile-structures">Metafile Structures</a>
+<a href="/windows/desktop/gdi/metafile-structures">Metafile Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/metafiles">Metafiles Overview</a>
-
+<a href="/windows/desktop/gdi/metafiles">Metafiles Overview</a>

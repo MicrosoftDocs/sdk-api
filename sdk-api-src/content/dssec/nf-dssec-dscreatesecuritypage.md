@@ -100,7 +100,7 @@ No access check is performed.
 </dl>
 </td>
 <td width="60%">
-The <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">system access control list</a> (SACL) property is read-only.
+The <a href="/windows/desktop/SecGloss/s-gly">system access control list</a> (SACL) property is read-only.
 
 </td>
 </tr>
@@ -156,7 +156,7 @@ A pointer to a <b>HPROPSHEETPAGE</b> that returns the created security property 
 
 ### -param pfnReadSD [in, optional]
 
-A pointer to a function used to read the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security descriptor</a> of the object. This value can be <b>NULL</b>. If <i>pfnReadSD</i> is not <b>NULL</b>, <b>DSCreateSecurityPage</b>  calls the function referenced by <i>pfnReadSD</i> to retrieve the security descriptor of the object.
+A pointer to a function used to read the <a href="/windows/desktop/SecGloss/s-gly">security descriptor</a> of the object. This value can be <b>NULL</b>. If <i>pfnReadSD</i> is not <b>NULL</b>, <b>DSCreateSecurityPage</b>  calls the function referenced by <i>pfnReadSD</i> to retrieve the security descriptor of the object.
 
 ### -param pfnWriteSD [in, optional]
 
@@ -170,7 +170,7 @@ Context to pass to the functions identified by <i>pfnReadSD</i> or <i>pfnWriteSD
 
 If the function succeeds, the function returns S_OK.
 
-If the function fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
+If the function fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 ## -remarks
 
@@ -190,7 +190,7 @@ typedef HRESULT (WINAPI *PFNREADOBJECTSECURITY)(
 ```
 
 
-The <b>DSCreateSecurityPage</b> function will free the security descriptor returned in the third parameter above by a  call to the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localfree">LocalFree</a> function.
+The <b>DSCreateSecurityPage</b> function will free the security descriptor returned in the third parameter above by a  call to the <a href="/windows/desktop/api/winbase/nf-winbase-localfree">LocalFree</a> function.
 
 The function pointed to by <i>pfnWriteSD</i> is defined as follows.
 
@@ -209,9 +209,8 @@ typedef HRESULT (WINAPI *PFNWRITEOBJECTSECURITY)(
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/basic-security-property-page">Basic Security Property Page</a>
+<a href="/windows/desktop/SecAuthZ/basic-security-property-page">Basic Security Property Page</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/aclui/nn-aclui-isecurityinformation">ISecurityInformation</a>
-
+<a href="/windows/desktop/api/aclui/nn-aclui-isecurityinformation">ISecurityInformation</a>

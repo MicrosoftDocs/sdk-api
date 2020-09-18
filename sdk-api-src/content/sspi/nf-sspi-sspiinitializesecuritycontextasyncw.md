@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The **SspiInitializeSecurityContextAsyncW** function initiates the client side, outbound <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security context</a> from a credential handle. The function is used to build a security context between the client application and a remote peer. **SspiInitializeSecurityContextAsyncW** returns a token that the client must pass to the remote peer, which the peer in turn submits to the local security implementation through the 
+The **SspiInitializeSecurityContextAsyncW** function initiates the client side, outbound <a href="/windows/desktop/SecGloss/s-gly">security context</a> from a credential handle. The function is used to build a security context between the client application and a remote peer. **SspiInitializeSecurityContextAsyncW** returns a token that the client must pass to the remote peer, which the peer in turn submits to the local security implementation through the 
 [SspiAcceptSecurityContextAsync](nf-sspi-sspiacceptsecuritycontextasync.md) call.
 
 > [!NOTE]
@@ -57,7 +57,7 @@ The async call context.
 ### -param phCredential
 
 A handle to the credentials returned by 
-[AcquireCredentialsHandle](nf-sspi-sspiacquirecredentialshandleasynca.md). This handle is used to build the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security context</a>.
+[AcquireCredentialsHandle](nf-sspi-sspiacquirecredentialshandleasynca.md). This handle is used to build the <a href="/windows/desktop/SecGloss/s-gly">security context</a>.
 
 ### -param phContext
 
@@ -65,7 +65,7 @@ A pointer to an existing [CtxtHandle](/windows/desktop/SecAuthN/sspi-handles) st
 
 ### -param pszTargetName
 
-A pointer to a null-terminated string that indicates the target of the context. The string contents are [*security package*](https://docs.microsoft.com/windows/win32/secgloss/s-gly) specific, as described in the following table. This list is not exhaustive. Additional system SSPs and third party SSPs can be added to a system.
+A pointer to a null-terminated string that indicates the target of the context. The string contents are [*security package*](/windows/win32/secgloss/s-gly) specific, as described in the following table. This list is not exhaustive. Additional system SSPs and third party SSPs can be added to a system.
 
 | SSP in use | Meaning |
 |---|---|
@@ -90,7 +90,7 @@ The data representation, such as byte ordering, on the target. This parameter ca
 
 ### -param pInput
 
-A pointer to a [SecBufferDesc](/windows/win32/api/sspi/ns-sspi-secbufferdesc) structure that contains pointers to the buffers supplied as input to the package.
+A pointer to a [SecBufferDesc](./ns-sspi-secbufferdesc.md) structure that contains pointers to the buffers supplied as input to the package.
 
 ### -param Reserved2
 
@@ -102,7 +102,7 @@ A pointer to a [CtxtHandle](/windows/win32/secauthn/sspi-handles) structure.
 
 ### -param pOutput
 
-A pointer to a [SecBufferDesc](/windows/win32/api/sspi/ns-sspi-secbufferdesc) structure that contains pointers to the SecBuffer structure that receives the output data.
+A pointer to a [SecBufferDesc](./ns-sspi-secbufferdesc.md) structure that contains pointers to the SecBuffer structure that receives the output data.
 
 ### -param pfContextAttr
 
@@ -151,4 +151,3 @@ See [InitializeSecurityContext](/windows/win32/secauthn/initializesecuritycontex
 [SspiAcceptSecurityContextAsync](nf-sspi-sspiacceptsecuritycontextasync.md)
 
 [SspiAcquireCredentialsHandleAsync](nf-sspi-sspiacquirecredentialshandleasynca.md)
-

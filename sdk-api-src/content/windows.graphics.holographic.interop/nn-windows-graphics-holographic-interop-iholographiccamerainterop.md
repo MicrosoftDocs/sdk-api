@@ -37,7 +37,7 @@ dev_langs:
 
 ## -description
 
-The **IHolographicCameraInterop** interface is a nano-COM interface, used to create Direct3D 12 back buffer resources for a [HolographicCamera](/uwp/api/windows.graphics.holographic.holographiccamera) Windows Runtime object. This is an initialization step for using Direct3D 12 with Windows Mixed Reality. This interface also allows your application to acquire ownership of content buffers for rendering, prior to committing them with the [HolographicCameraRenderingParametersInterop](/windows/win32/api/windows.graphics.holographic.interop/nn-windows-graphics-holographic-interop-iholographiccamerarenderingparametersinterop) interface.
+The **IHolographicCameraInterop** interface is a nano-COM interface, used to create Direct3D 12 back buffer resources for a [HolographicCamera](/uwp/api/windows.graphics.holographic.holographiccamera) Windows Runtime object. This is an initialization step for using Direct3D 12 with Windows Mixed Reality. This interface also allows your application to acquire ownership of content buffers for rendering, prior to committing them with the [HolographicCameraRenderingParametersInterop](./nn-windows-graphics-holographic-interop-iholographiccamerarenderingparametersinterop.md) interface.
 
 Your application can use this interface to initialize holographic rendering using Direct3D 12. Nano-COM allows pointers to Direct3D 12 objects to be passed directly as parameters for API calls, instead of using a Windows Runtime container object.
 
@@ -47,7 +47,7 @@ A buffer created by a [HolographicCamera](/uwp/api/windows.graphics.holographic.
 
 ## -inheritance
 
-The **IHolographicCameraInterop** interface inherits from the [IInspectable](/windows/win32/api/inspectable/nn-inspectable-iinspectable) interface.
+The **IHolographicCameraInterop** interface inherits from the [IInspectable](../inspectable/nn-inspectable-iinspectable.md) interface.
 
 ## -remarks
 
@@ -93,4 +93,3 @@ winrt::check_hresult(
 ```
 
 ## -see-also
-

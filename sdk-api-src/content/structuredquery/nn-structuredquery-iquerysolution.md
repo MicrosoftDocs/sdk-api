@@ -54,7 +54,7 @@ Provides methods that retrieve information about the interpretation of a parsed 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IQuerySolution</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/structuredquery/nn-structuredquery-iconditionfactory">IConditionFactory</a>. <b>IQuerySolution</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IQuerySolution</b> interface inherits from <a href="/windows/desktop/api/structuredquery/nn-structuredquery-iconditionfactory">IConditionFactory</a>. <b>IQuerySolution</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IQuerySolution</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/structuredquery/nf-structuredquery-iquerysolution-geterrors">GetErrors</a>
+<a href="/windows/desktop/api/structuredquery/nf-structuredquery-iquerysolution-geterrors">GetErrors</a>
 </td>
 <td align="left" width="63%">
 Identifies parts of the input string that the parser did not recognize or did not use when constructing the <b>IQuerySolution</b> condition tree.
@@ -79,7 +79,7 @@ Identifies parts of the input string that the parser did not recognize or did no
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/structuredquery/nf-structuredquery-iquerysolution-getlexicaldata">GetLexicalData</a>
+<a href="/windows/desktop/api/structuredquery/nf-structuredquery-iquerysolution-getlexicaldata">GetLexicalData</a>
 </td>
 <td align="left" width="63%">
 Reports the query string, how it was tokenized, and what LCID and word breaker were used to parse it.
@@ -89,7 +89,7 @@ Reports the query string, how it was tokenized, and what LCID and word breaker w
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/structuredquery/nf-structuredquery-iquerysolution-getquery">GetQuery</a>
+<a href="/windows/desktop/api/structuredquery/nf-structuredquery-iquerysolution-getquery">GetQuery</a>
 </td>
 <td align="left" width="63%">
 Retrieves the condition tree and the semantic type of the solution.
@@ -102,4 +102,3 @@ Retrieves the condition tree and the semantic type of the solution.
 ## -remarks
 
 The <a href="https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/winui/WindowsSearch/StructuredQuerySample">StructuredQuerySample</a> demonstrates how to read lines from the console, parse them using the system schema, and display the resulting condition trees.
-

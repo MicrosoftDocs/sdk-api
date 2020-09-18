@@ -56,22 +56,21 @@ Resizes an existing image list.
 
 ### -param uNewCount [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 A value that specifies the new size of the image list.
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
 ## -remarks
 
-If an application expands an image list using this method, it must add new images by using <a href="https://docs.microsoft.com/windows/desktop/api/commoncontrols/nf-commoncontrols-iimagelist-replace">IImageList::Replace</a>. If the application does not add valid images to the new indexes, draw operations that use the new indexes are unpredictable. 
+If an application expands an image list using this method, it must add new images by using <a href="/windows/desktop/api/commoncontrols/nf-commoncontrols-iimagelist-replace">IImageList::Replace</a>. If the application does not add valid images to the new indexes, draw operations that use the new indexes are unpredictable. 
 		
 
 If you decrease the size of an image list using this method, images at the end of the list for which there is no longer room are truncated from the list.  Images truncated in this manner are automatically deallocated. 
 
-To use <b>IImageList::SetImageCount</b>, specify Comctl32.dll version 6 in the manifest. For more information on manifests, see <a href="https://docs.microsoft.com/windows/desktop/Controls/cookbook-overview">Enabling Visual Styles</a>.
-
+To use <b>IImageList::SetImageCount</b>, specify Comctl32.dll version 6 in the manifest. For more information on manifests, see <a href="/windows/desktop/Controls/cookbook-overview">Enabling Visual Styles</a>.

@@ -64,7 +64,7 @@ Specifies  the ID of a node   that an application receives  information about. S
 
 ### -param ppNodeInfo [out]
 
-Receives a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_node_info">PEER_NODE_INFO</a> structure that contains the requested information. When the handle is not needed, free it by calling <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergraphfreedata">PeerGraphFreeData</a>.
+Receives a pointer to a <a href="/windows/desktop/api/p2p/ns-p2p-peer_node_info">PEER_NODE_INFO</a> structure that contains the requested information. When the handle is not needed, free it by calling <a href="/windows/desktop/api/p2p/nf-p2p-peergraphfreedata">PeerGraphFreeData</a>.
 
 ## -returns
 
@@ -115,7 +115,7 @@ The handle to a peer graph is invalid.
 </dl>
 </td>
 <td width="60%">
-A peer graph must be  initialized by using a call to <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergraphstartup">PeerGraphStartup</a> before using this function.
+A peer graph must be  initialized by using a call to <a href="/windows/desktop/api/p2p/nf-p2p-peergraphstartup">PeerGraphStartup</a> before using this function.
 
 </td>
 </tr>
@@ -138,9 +138,8 @@ There can be several nodes of a graph on a computer. For example, multiple users
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_node_info">PEER_NODE_INFO</a>
+<a href="/windows/desktop/api/p2p/ns-p2p-peer_node_info">PEER_NODE_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergraphfreedata">PeerGraphFreeData</a>
-
+<a href="/windows/desktop/api/p2p/nf-p2p-peergraphfreedata">PeerGraphFreeData</a>

@@ -77,13 +77,13 @@ Pointer to a DWORD value which receives the unread message count.
 
 Type: <b>FILETIME*</b>
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure.  The use of this parameter is determined by whether <i>pszMailAddress</i> is <b>NULL</b>. If <i>pszMailAddress</i> is <b>NULL</b>, then this parameter is treated as an [in] parameter, which specifies a filter, so that only unread mail newer than the specified time appears. If <i>pszMailAddress</i> is not <b>NULL</b>, then this parameter is treated as an [out] parameter, which points to a <b>FILETIME</b> structure into which the function places the <b>timestamp</b> of the last <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/nf-shellapi-shsetunreadmailcountw">SHSetUnreadMailCount</a> call for the specified user and email account.
+A pointer to a <a href="/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure.  The use of this parameter is determined by whether <i>pszMailAddress</i> is <b>NULL</b>. If <i>pszMailAddress</i> is <b>NULL</b>, then this parameter is treated as an [in] parameter, which specifies a filter, so that only unread mail newer than the specified time appears. If <i>pszMailAddress</i> is not <b>NULL</b>, then this parameter is treated as an [out] parameter, which points to a <b>FILETIME</b> structure into which the function places the <b>timestamp</b> of the last <a href="/windows/desktop/api/shellapi/nf-shellapi-shsetunreadmailcountw">SHSetUnreadMailCount</a> call for the specified user and email account.
 
 ### -param pszShellExecuteCommand [out, optional]
 
 Type: <b>LPCTSTR</b>
 
-A pointer to a string that returns the ShellExecute command statement passed into the last <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/nf-shellapi-shsetunreadmailcountw">SHSetUnreadMailCount</a> call for the specified user and email account. This command string starts the email application that owns the account referenced by <i>pszMailAddress</i>. If the ShellExecute command is not required, this parameter can be <b>NULL</b>. If <i>pszMailAddress</i> is <b>NULL</b>, this parameter is ignored and must be <b>NULL</b>.
+A pointer to a string that returns the ShellExecute command statement passed into the last <a href="/windows/desktop/api/shellapi/nf-shellapi-shsetunreadmailcountw">SHSetUnreadMailCount</a> call for the specified user and email account. This command string starts the email application that owns the account referenced by <i>pszMailAddress</i>. If the ShellExecute command is not required, this parameter can be <b>NULL</b>. If <i>pszMailAddress</i> is <b>NULL</b>, this parameter is ignored and must be <b>NULL</b>.
 
 ### -param cchShellExecuteCommand
 
@@ -96,4 +96,3 @@ The maximum size, in characters, of the ShellExecute command buffer pointed to b
 Type: <b>HRESULT</b>
 
 If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-

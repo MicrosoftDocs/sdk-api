@@ -69,7 +69,7 @@ The <b>IWPCGamesSettings</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wpcapi/nf-wpcapi-iwpcgamessettings-isblocked">IsBlocked</a>
+<a href="/windows/desktop/api/wpcapi/nf-wpcapi-iwpcgamessettings-isblocked">IsBlocked</a>
 </td>
 <td align="left" width="63%">
 Determines whether the specified game is blocked from execution.
@@ -77,4 +77,3 @@ Determines whether the specified game is blocked from execution.
 </td>
 </tr>
 </table>
-

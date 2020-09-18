@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-This structure is passed to the Control Panel Endpoint Extension property page through <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellpropsheetext-addpages">IShellPropSheetExt::AddPages</a> and is used to create endpoint PropertyPages.
+This structure is passed to the Control Panel Endpoint Extension property page through <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellpropsheetext-addpages">IShellPropSheetExt::AddPages</a> and is used to create endpoint PropertyPages.
 
 ## -struct-fields
 
@@ -74,9 +74,8 @@ Pointer to the Pnp devnode.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/CoreAudio/core-audio-structures">Core Audio Structures</a>
+<a href="/windows/desktop/CoreAudio/core-audio-structures">Core Audio Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellpropsheetext-addpages">IShellPropSheetExt::AddPages</a>
-
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellpropsheetext-addpages">IShellPropSheetExt::AddPages</a>

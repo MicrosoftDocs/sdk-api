@@ -68,25 +68,24 @@ User.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rend/nf-rend-itrendezvous-createdirectoryobject">CreateDirectoryObject</a>
+<a href="/windows/desktop/api/rend/nf-rend-itrendezvous-createdirectoryobject">CreateDirectoryObject</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rend/nf-rend-itdirectory-enumeratedirectoryobjects">EnumerateDirectoryObjects</a>
+<a href="/windows/desktop/api/rend/nf-rend-itdirectory-enumeratedirectoryobjects">EnumerateDirectoryObjects</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rend/nn-rend-itdirectory">ITDirectory</a>
+<a href="/windows/desktop/api/rend/nn-rend-itdirectory">ITDirectory</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rend/nn-rend-itdirectoryobject">ITDirectoryObject</a>
+<a href="/windows/desktop/api/rend/nn-rend-itdirectoryobject">ITDirectoryObject</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rend/nf-rend-itdirectory-get_directoryobjects">get_DirectoryObjects</a>
+<a href="/windows/desktop/api/rend/nf-rend-itdirectory-get_directoryobjects">get_DirectoryObjects</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rend/nf-rend-itdirectoryobject-get_objecttype">get_ObjectType</a>
-
+<a href="/windows/desktop/api/rend/nf-rend-itdirectoryobject-get_objecttype">get_ObjectType</a>

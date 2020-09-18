@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-Instructs the container to discard its undo state. The container should not call <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleinplaceobject-reactivateandundo">IOleInPlaceObject::ReActivateAndUndo</a>.
+Instructs the container to discard its undo state. The container should not call <a href="/windows/desktop/api/oleidl/nf-oleidl-ioleinplaceobject-reactivateandundo">IOleInPlaceObject::ReActivateAndUndo</a>.
 
 ## -parameters
 
@@ -87,9 +87,8 @@ If an object is activated in place and the object's associated object applicatio
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-ioleinplacesite">IOleInPlaceSite</a>
+<a href="/windows/desktop/api/oleidl/nn-oleidl-ioleinplacesite">IOleInPlaceSite</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleinplacesite-discardundostate">IOleInPlaceSite::DiscardUndoState</a>
-
+<a href="/windows/desktop/api/oleidl/nf-oleidl-ioleinplacesite-discardundostate">IOleInPlaceSite::DiscardUndoState</a>

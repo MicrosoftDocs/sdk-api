@@ -52,7 +52,7 @@ api_name:
 
 The 
 <b>StopSubStream</b> method stops the substream. For additional information, see 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itstream-stopstream">ITStream::StopStream</a>.
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itstream-stopstream">ITStream::StopStream</a>.
 
 ## -parameters
 
@@ -91,9 +91,8 @@ The provider does not support this operation.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itsubstream">ITSubStream</a>
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itsubstream">ITSubStream</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/media-service-provider-interface-mspi-">Media Service Provider Interface (MSPI)</a>
-
+<a href="/windows/desktop/Tapi/media-service-provider-interface-mspi-">Media Service Provider Interface (MSPI)</a>

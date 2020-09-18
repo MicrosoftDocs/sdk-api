@@ -55,13 +55,13 @@ api_name:
 ## -description
 
 The <b>CERT_GENERAL_SUBTREE</b> structure is used in 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_name_constraints_info">CERT_NAME_CONSTRAINTS_INFO</a> structure. This structure provides the identity of a certificate that can be included or excluded.
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_name_constraints_info">CERT_NAME_CONSTRAINTS_INFO</a> structure. This structure provides the identity of a certificate that can be included or excluded.
 
 ## -struct-fields
 
 ### -field Base
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_alt_name_entry">CERT_ALT_NAME_ENTRY</a> containing a base name identifier of a certificate.
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_alt_name_entry">CERT_ALT_NAME_ENTRY</a> containing a base name identifier of a certificate.
 
 ### -field dwMinimum
 
@@ -74,4 +74,3 @@ Currently not used.
 ### -field dwMaximum
 
 Currently not used.
-

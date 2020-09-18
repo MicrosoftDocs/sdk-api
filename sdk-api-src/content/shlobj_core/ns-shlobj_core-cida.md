@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-Used with the <a href="https://docs.microsoft.com/windows/desktop/shell/clipboard">CFSTR_SHELLIDLIST</a> clipboard format to transfer the pointer to an item identifier list (PIDL) of one or more Shell namespace objects.
+Used with the <a href="/windows/desktop/shell/clipboard">CFSTR_SHELLIDLIST</a> clipboard format to transfer the pointer to an item identifier list (PIDL) of one or more Shell namespace objects.
 
 ## -struct-fields
 
@@ -83,5 +83,4 @@ To use this structure to retrieve a particular PIDL, add the <b>aoffset</b> valu
 ```
 
 
-The value that is returned by these macros is a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> structure. Since these structures vary in length, you must determine the end of the structure by parsing it. See <a href="https://docs.microsoft.com/windows/desktop/shell/shell-namespace">NameSpace</a> for further discussion of PIDLs and the <b>ITEMIDLIST</b> structure.
-
+The value that is returned by these macros is a pointer to the <a href="/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> structure. Since these structures vary in length, you must determine the end of the structure by parsing it. See <a href="/windows/desktop/shell/shell-namespace">NameSpace</a> for further discussion of PIDLs and the <b>ITEMIDLIST</b> structure.

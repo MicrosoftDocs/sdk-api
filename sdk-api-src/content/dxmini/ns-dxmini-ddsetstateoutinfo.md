@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-The DDSETSTATEOUTINFO structure contains the state information for the <a href="https://docs.microsoft.com/windows-hardware/drivers/">video port extensions (VPE)</a> object.
+The DDSETSTATEOUTINFO structure contains the state information for the <a href="/windows-hardware/drivers/">video port extensions (VPE)</a> object.
 
 ## -struct-fields
 
@@ -68,19 +68,18 @@ Indicates the zero-based index in the autoflip chain of the surface currently re
 
 ### -field dwVBISurfaceIndex
 
-Indicates the zero-based index in the autoflip chain of the <a href="https://docs.microsoft.com/windows-hardware/drivers/">vertical blanking interval (VBI)</a> surface currently receiving the data from the VPE object. This field is ignored unless the video miniport driver is switching from hardware autoflipping to software autoflipping.
+Indicates the zero-based index in the autoflip chain of the <a href="/windows-hardware/drivers/">vertical blanking interval (VBI)</a> surface currently receiving the data from the VPE object. This field is ignored unless the video miniport driver is switching from hardware autoflipping to software autoflipping.
 
 ## -remarks
 
 When asked to switch from bob to weave, the video miniport driver might need to switch from hardware autoflipping to software autoflipping (no current hardware supports automatic field skipping, and so on). All the driver has to do is set the <b>bSoftwareAutoflip</b> member to a nonzero value and DirectDraw reverts to software autoflipping. 
 
-If the miniport driver switches from hardware to software autoflipping, DirectDraw must know which surface is currently receiving data from the VPE object so it can continue without causing a glitch. Therefore, the miniport driver must set the <b>dwSurfaceIndex</b> member to the index in the autoflip chain of the surface currently receiving the data from the VPE object. When <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/nc-ddrawint-pdd_vportcb_update">DdVideoPortUpdate</a> is called, it gives an array of surfaces that the driver can autoflip between. You can program the addresses of these surfaces that are used for software autoflipping into your hardware.
+If the miniport driver switches from hardware to software autoflipping, DirectDraw must know which surface is currently receiving data from the VPE object so it can continue without causing a glitch. Therefore, the miniport driver must set the <b>dwSurfaceIndex</b> member to the index in the autoflip chain of the surface currently receiving the data from the VPE object. When <a href="/windows/desktop/api/ddrawint/nc-ddrawint-pdd_vportcb_update">DdVideoPortUpdate</a> is called, it gives an array of surfaces that the driver can autoflip between. You can program the addresses of these surfaces that are used for software autoflipping into your hardware.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/nc-ddrawint-pdd_vportcb_update">DdVideoPortUpdate</a>
+<a href="/windows/desktop/api/ddrawint/nc-ddrawint-pdd_vportcb_update">DdVideoPortUpdate</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dxmini/nc-dxmini-pdx_setstate">DxSetState</a>
-
+<a href="/windows/desktop/api/dxmini/nc-dxmini-pdx_setstate">DxSetState</a>

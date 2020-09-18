@@ -56,9 +56,9 @@ Sets the <b>BSTR</b> value of a property in a property bag.
 
 ### -param propBag [in]
 
-Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa768196(v=vs.85)">IPropertyBag</a>*</b>
+Type: <b><a href="/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa768196(v=vs.85)">IPropertyBag</a>*</b>
 
-A pointer to an <a href="https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa768196(v=vs.85)">IPropertyBag</a> object that represents the property bag in which the property is stored.
+A pointer to an <a href="/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa768196(v=vs.85)">IPropertyBag</a> object that represents the property bag in which the property is stored.
 
 ### -param propName [in]
 
@@ -68,7 +68,7 @@ A null-terminated property name string.
 
 ### -param value [in]
 
-Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/automat/bstr">BSTR</a></b>
+Type: <b><a href="/previous-versions/windows/desktop/automat/bstr">BSTR</a></b>
 
 The <b>BSTR</b> value to which the named property should be set.
 
@@ -84,5 +84,4 @@ The property bag property function API converts between window types and the <b>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/propsys/nf-propsys-pspropertybag_readbstr">PSPropertyBag_ReadBSTR</a>
-
+<a href="/windows/desktop/api/propsys/nf-propsys-pspropertybag_readbstr">PSPropertyBag_ReadBSTR</a>

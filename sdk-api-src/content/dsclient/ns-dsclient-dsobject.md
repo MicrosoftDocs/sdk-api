@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-The <b>DSOBJECT</b> structure contains directory object data. An array of this structure is provided in the <b>aObjects</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/dsclient/ns-dsclient-dsobjectnames">DSOBJECTNAMES</a> structure.
+The <b>DSOBJECT</b> structure contains directory object data. An array of this structure is provided in the <b>aObjects</b> member of the <a href="/windows/desktop/api/dsclient/ns-dsclient-dsobjectnames">DSOBJECTNAMES</a> structure.
 
 ## -struct-fields
 
@@ -108,7 +108,7 @@ Not used.
 
 ### -field offsetName
 
-Contains the offset, in bytes, from the start of the <a href="https://docs.microsoft.com/windows/desktop/api/dsclient/ns-dsclient-dsobjectnames">DSOBJECTNAMES</a> structure to a NULL-terminated, Unicode string that contains the ADSPath of the object.
+Contains the offset, in bytes, from the start of the <a href="/windows/desktop/api/dsclient/ns-dsclient-dsobjectnames">DSOBJECTNAMES</a> structure to a NULL-terminated, Unicode string that contains the ADSPath of the object.
 
 The following code example shows how to use this member.
 
@@ -121,7 +121,7 @@ pwszName = (LPWSTR)((LPBYTE)pdsObjNames +
 
 ### -field offsetClass
 
-Contains the offset, in bytes, from the start of the <a href="https://docs.microsoft.com/windows/desktop/api/dsclient/ns-dsclient-dsobjectnames">DSOBJECTNAMES</a> structure to a NULL-terminated, Unicode string that contains the class name of the object. Contains zero if the class name is unknown.
+Contains the offset, in bytes, from the start of the <a href="/windows/desktop/api/dsclient/ns-dsclient-dsobjectnames">DSOBJECTNAMES</a> structure to a NULL-terminated, Unicode string that contains the class name of the object. Contains zero if the class name is unknown.
 
 The following code example shows how to use this member.
 
@@ -134,9 +134,8 @@ pwszClass = (LPWSTR)((LPBYTE)pdsObjNames +
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dsclient/ns-dsclient-dsobjectnames">DSOBJECTNAMES</a>
+<a href="/windows/desktop/api/dsclient/ns-dsclient-dsobjectnames">DSOBJECTNAMES</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/AD/display-structures-in-active-directory-domain-services">Display Structures in Active Directory Domain Services</a>
-
+<a href="/windows/desktop/AD/display-structures-in-active-directory-domain-services">Display Structures in Active Directory Domain Services</a>

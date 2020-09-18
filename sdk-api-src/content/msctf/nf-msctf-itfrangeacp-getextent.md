@@ -112,10 +112,9 @@ This method should only be called by the owner of the ACP-based context because 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfrangeacp">ITfRangeACP</a>
+<a href="/windows/desktop/api/msctf/nn-msctf-itfrangeacp">ITfRangeACP</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfrangeacp-setextent">ITfRangeACP::SetExtent
+<a href="/windows/desktop/api/msctf/nf-msctf-itfrangeacp-setextent">ITfRangeACP::SetExtent
       </a>
-

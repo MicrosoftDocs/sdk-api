@@ -57,7 +57,7 @@ Retrieves the option flags that are set on the ASF splitter.
 
 ### -param pdwFlags [out]
 
-Receives the option flags. This value is a bitwise <b>OR</b> of zero or more members of the <a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/ne-wmcontainer-mfasf_splitterflags">MFASF_SPLITTERFLAGS</a> enumeration.
+Receives the option flags. This value is a bitwise <b>OR</b> of zero or more members of the <a href="/windows/desktop/api/wmcontainer/ne-wmcontainer-mfasf_splitterflags">MFASF_SPLITTERFLAGS</a> enumeration.
 
 ## -returns
 
@@ -94,9 +94,8 @@ The method succeeded.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nn-wmcontainer-imfasfsplitter">IMFASFSplitter</a>
+<a href="/windows/desktop/api/wmcontainer/nn-wmcontainer-imfasfsplitter">IMFASFSplitter</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfsplitter-setflags">IMFASFSplitter::SetFlags</a>
-
+<a href="/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfsplitter-setflags">IMFASFSplitter::SetFlags</a>

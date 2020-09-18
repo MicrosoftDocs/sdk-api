@@ -52,11 +52,11 @@ api_name:
 ## -description
 
 The 
-<b>IMofCompiler</b> interface, implemented by Mofd.dll, provides a COM interface that is used by the <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/gloss-m">Managed Object Format</a> (MOF) compiler and any other applications that compile MOF files. Objects defined as classes in the MOF files can be obtained using the <b>CLSID_MofCompiler</b> CLSID value.
+<b>IMofCompiler</b> interface, implemented by Mofd.dll, provides a COM interface that is used by the <a href="/windows/desktop/WmiSdk/gloss-m">Managed Object Format</a> (MOF) compiler and any other applications that compile MOF files. Objects defined as classes in the MOF files can be obtained using the <b>CLSID_MofCompiler</b> CLSID value.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMofCompiler</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMofCompiler</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMofCompiler</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMofCompiler</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Structures</a></li>
@@ -72,7 +72,7 @@ The <b>IMofCompiler</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-imofcompiler-compilebuffer">CompileBuffer</a>
+<a href="/windows/desktop/api/wbemcli/nf-wbemcli-imofcompiler-compilebuffer">CompileBuffer</a>
 </td>
 <td align="left" width="63%">
 Takes the information in a buffer and stores it in Windows Management. The buffer must contain binary MOF data.
@@ -81,7 +81,7 @@ Takes the information in a buffer and stores it in Windows Management. The buffe
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-imofcompiler-compilefile">CompileFile</a>
+<a href="/windows/desktop/api/wbemcli/nf-wbemcli-imofcompiler-compilefile">CompileFile</a>
 </td>
 <td align="left" width="63%">
 Compiles a particular MOF file.
@@ -90,7 +90,7 @@ Compiles a particular MOF file.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-imofcompiler-createbmof">CreateBMOF</a>
+<a href="/windows/desktop/api/wbemcli/nf-wbemcli-imofcompiler-createbmof">CreateBMOF</a>
 </td>
 <td align="left" width="63%">
 Reads a MOF file and outputs binary MOF data to another file.
@@ -137,18 +137,17 @@ CoCreateInstance(
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/com-api-for-wmi">COM API for
+<a href="/windows/desktop/WmiSdk/com-api-for-wmi">COM API for
     WMI</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/mof-data-types">MOF Data Types</a>
+<a href="/windows/desktop/WmiSdk/mof-data-types">MOF Data Types</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/running-the-mof-compiler-on-a-file">Running the MOF Compiler on a File</a>
+<a href="/windows/desktop/WmiSdk/running-the-mof-compiler-on-a-file">Running the MOF Compiler on a File</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/mofcomp">mofcomp</a>
-
+<a href="/windows/desktop/WmiSdk/mofcomp">mofcomp</a>

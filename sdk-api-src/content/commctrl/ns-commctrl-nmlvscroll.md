@@ -60,10 +60,10 @@ Provides information about a scrolling operation.
 
 ### -field hdr
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a></b>
+Type: <b><a href="/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a></b>
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a> structure that contains information about a <a href="https://docs.microsoft.com/windows/desktop/Controls/lvn-endscroll">LVN_ENDSCROLL</a> or a <a href="https://docs.microsoft.com/windows/desktop/Controls/lvn-beginscroll">LVN_BEGINSCROLL</a> notification code.
+<a href="/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a> structure that contains information about a <a href="/windows/desktop/Controls/lvn-endscroll">LVN_ENDSCROLL</a> or a <a href="/windows/desktop/Controls/lvn-beginscroll">LVN_BEGINSCROLL</a> notification code.
 
 ### -field dx
 
@@ -76,4 +76,3 @@ Value of type <b>int</b> that specifies in pixels the horizontal position where 
 Type: <b>int</b>
 
 Value of type <b>int</b> that specifies in pixels the vertical position where a scrolling operation should begin or end.
-

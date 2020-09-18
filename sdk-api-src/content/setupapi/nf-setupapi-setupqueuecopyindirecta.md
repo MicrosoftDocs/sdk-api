@@ -56,21 +56,21 @@ api_name:
 
 The 
 <b>SetupQueueCopyIndirect</b> function is an extended form of 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupqueuecopya">SetupQueueCopy</a> passing additional parameters as a structure (<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-sp_file_copy_params_a">SP_FILE_COPY_PARAMS</a>). Other than this, the behavior is identical.
+<a href="/windows/desktop/api/setupapi/nf-setupapi-setupqueuecopya">SetupQueueCopy</a> passing additional parameters as a structure (<a href="/windows/desktop/api/setupapi/ns-setupapi-sp_file_copy_params_a">SP_FILE_COPY_PARAMS</a>). Other than this, the behavior is identical.
 
 ## -parameters
 
 ### -param CopyParams [in]
 
 Pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-sp_file_copy_params_a">SP_FILE_COPY_PARAMS</a> structure that describes the file copy operation.
+<a href="/windows/desktop/api/setupapi/ns-setupapi-sp_file_copy_params_a">SP_FILE_COPY_PARAMS</a> structure that describes the file copy operation.
 
 ## -returns
 
 If the function succeeds, the return value is an nonzero value.
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
@@ -81,4 +81,3 @@ If a UNC directory is specified as the target directory of a file copy operation
 
 > [!NOTE]
 > The setupapi.h header defines SetupQueueCopyIndirect as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

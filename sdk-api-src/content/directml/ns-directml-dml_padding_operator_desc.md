@@ -74,7 +74,7 @@ The padding mode to use.
 
 ### -field PaddingValue
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">FLOAT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">FLOAT</a></b>
 
 The value with which to pad.
 
@@ -95,4 +95,3 @@ A pointer to a constant array of [UINT](/windows/desktop/winprog/windows-data-ty
 Type: <b>const [UINT](/windows/desktop/winprog/windows-data-types)*</b>
 
 A pointer to a constant array of [UINT](/windows/desktop/winprog/windows-data-types) containing the padding (number of pixels added) to the end of the corresponding axis. Padding defaults to 0 along the start and end of each axis.
-

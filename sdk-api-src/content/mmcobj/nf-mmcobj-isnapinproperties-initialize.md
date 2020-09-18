@@ -57,9 +57,8 @@ The
 
 ### -param pProperties [in]
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/properties-collection">Properties</a> collection that can be used by the snap-in for initialization.
+<a href="/previous-versions/windows/desktop/mmc/properties-collection">Properties</a> collection that can be used by the snap-in for initialization.
 
 ## -returns
 
 If successful, the return value is S_OK; otherwise, the return value is E_FAIL.
-

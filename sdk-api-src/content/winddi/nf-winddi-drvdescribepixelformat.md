@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>DrvDescribePixelFormat</b> function describes the pixel format for a device-specified <a href="https://docs.microsoft.com/windows-hardware/drivers/">PDEV</a> by writing a pixel format description to a PIXELFORMATDESCRIPTOR structure.
+The <b>DrvDescribePixelFormat</b> function describes the pixel format for a device-specified <a href="/windows-hardware/drivers/">PDEV</a> by writing a pixel format description to a PIXELFORMATDESCRIPTOR structure.
 
 ## -parameters
 
@@ -83,4 +83,3 @@ A display driver that supports 3D graphics hardware can support windows with dif
 The returned maximum pixel format index can be used by applications that need to obtain a device context's maximum pixel format index. The pixel formats that a device supports are identified by positive one-based integer indices.
 
 The pixel format functions are used in conjunction with the window object services functions to track and update pixel formats of windows on a display surface.
-

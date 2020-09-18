@@ -51,31 +51,30 @@ api_name:
 
 ## -description
 
-Bind an array of <a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d10-graphics-programming-guide-rasterizer-stage-getting-started">scissor rectangles</a> to the <a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d10-graphics-programming-guide-rasterizer-stage">rasterizer stage</a>.
+Bind an array of <a href="/windows/desktop/direct3d11/d3d10-graphics-programming-guide-rasterizer-stage-getting-started">scissor rectangles</a> to the <a href="/windows/desktop/direct3d11/d3d10-graphics-programming-guide-rasterizer-stage">rasterizer stage</a>.
 
 ## -parameters
 
 ### -param NumRects [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 Number of scissor rectangles to bind.
 
 ### -param pRects [in]
 
-Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-rect">D3D10_RECT</a>*</b>
+Type: <b>const <a href="/windows/desktop/direct3d10/d3d10-rect">D3D10_RECT</a>*</b>
 
-An array of scissor rectangles (see <a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-rect">D3D10_RECT</a>).
+An array of scissor rectangles (see <a href="/windows/desktop/direct3d10/d3d10-rect">D3D10_RECT</a>).
 
 ## -remarks
 
-The scissor rectangles will only be used if ScissorEnable is set to true in the rasterizer state (see <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/ns-d3d10-d3d10_rasterizer_desc">D3D10_RASTERIZER_DESC</a>).
+The scissor rectangles will only be used if ScissorEnable is set to true in the rasterizer state (see <a href="/windows/desktop/api/d3d10/ns-d3d10-d3d10_rasterizer_desc">D3D10_RASTERIZER_DESC</a>).
 
-Which scissor rectangle to use is determined by the SV_ViewportArrayIndex semantic output by a geometry shader (see <a href="https://docs.microsoft.com/windows/desktop/direct3dhlsl/dx-graphics-hlsl-semantics">shader semantic syntax</a>). If a geometry shader does not make use of the SV_ViewportArrayIndex semantic then Direct3D will use the first scissor rectangle in the array.
+Which scissor rectangle to use is determined by the SV_ViewportArrayIndex semantic output by a geometry shader (see <a href="/windows/desktop/direct3dhlsl/dx-graphics-hlsl-semantics">shader semantic syntax</a>). If a geometry shader does not make use of the SV_ViewportArrayIndex semantic then Direct3D will use the first scissor rectangle in the array.
 
-Each scissor rectangle in the array corresponds to a viewport in an array of viewports (see <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nf-d3d10-id3d10device-rssetviewports">ID3D10Device::RSSetViewports</a>).
+Each scissor rectangle in the array corresponds to a viewport in an array of viewports (see <a href="/windows/desktop/api/d3d10/nf-d3d10-id3d10device-rssetviewports">ID3D10Device::RSSetViewports</a>).
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nn-d3d10-id3d10device">ID3D10Device Interface</a>
-
+<a href="/windows/desktop/api/d3d10/nn-d3d10-id3d10device">ID3D10Device Interface</a>

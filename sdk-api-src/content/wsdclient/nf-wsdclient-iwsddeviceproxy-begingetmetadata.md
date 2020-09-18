@@ -56,7 +56,7 @@ Sends an asynchronous request for metadata.
 
 ### -param ppResult [out]
 
-Returns an <a href="https://docs.microsoft.com/windows/desktop/api/wsdclient/nn-wsdclient-iwsdasyncresult">IWSDAsyncResult</a> object that can be used to determine whether an operation has completed.
+Returns an <a href="/windows/desktop/api/wsdclient/nn-wsdclient-iwsdasyncresult">IWSDAsyncResult</a> object that can be used to determine whether an operation has completed.
 
 ## -returns
 
@@ -120,9 +120,8 @@ Insufficient memory to complete the operation.
 
 ## -remarks
 
-BeginGetMetadata will force the device proxy to send a metadata request to the host.  Once <a href="https://docs.microsoft.com/windows/desktop/api/wsdclient/nf-wsdclient-iwsddeviceproxy-endgetmetadata">EndGetMetadata</a> has been called, the results of the latest metadata retrieval are accessible through the <a href="https://docs.microsoft.com/windows/desktop/api/wsdclient/nf-wsdclient-iwsddeviceproxy-getallmetadata">GetAllMetadata</a>, <a href="https://docs.microsoft.com/windows/desktop/api/wsdclient/nf-wsdclient-iwsddeviceproxy-gethostmetadata">GetHostMetadata</a>, <a href="https://docs.microsoft.com/windows/desktop/api/wsdclient/nf-wsdclient-iwsddeviceproxy-getthisdevicemetadata">GetThisDeviceMetadata</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/wsdclient/nf-wsdclient-iwsddeviceproxy-getthismodelmetadata">GetThisModelMetadata</a> methods.
+BeginGetMetadata will force the device proxy to send a metadata request to the host.  Once <a href="/windows/desktop/api/wsdclient/nf-wsdclient-iwsddeviceproxy-endgetmetadata">EndGetMetadata</a> has been called, the results of the latest metadata retrieval are accessible through the <a href="/windows/desktop/api/wsdclient/nf-wsdclient-iwsddeviceproxy-getallmetadata">GetAllMetadata</a>, <a href="/windows/desktop/api/wsdclient/nf-wsdclient-iwsddeviceproxy-gethostmetadata">GetHostMetadata</a>, <a href="/windows/desktop/api/wsdclient/nf-wsdclient-iwsddeviceproxy-getthisdevicemetadata">GetThisDeviceMetadata</a>, and <a href="/windows/desktop/api/wsdclient/nf-wsdclient-iwsddeviceproxy-getthismodelmetadata">GetThisModelMetadata</a> methods.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wsdclient/nn-wsdclient-iwsddeviceproxy">IWSDDeviceProxy</a>
-
+<a href="/windows/desktop/api/wsdclient/nn-wsdclient-iwsddeviceproxy">IWSDDeviceProxy</a>

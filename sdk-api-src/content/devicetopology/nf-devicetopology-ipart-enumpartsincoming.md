@@ -56,7 +56,7 @@ The <b>EnumPartsIncoming</b> method gets a list of all the incoming parts—that
 
 ### -param ppParts [out]
 
-Pointer to a pointer variable into which the method writes the address of an <a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nn-devicetopology-ipartslist">IPartsList</a> interface that encapsulates the list of parts that are immediately upstream from this part. Through this method, the caller obtains a counted reference to the interface. The caller is responsible for releasing the interface, when it is no longer needed, by calling the interface's <b>Release</b> method. If the <b>EnumPartsIncoming</b> call fails,  <i>*ppParts</i> is <b>NULL</b>.
+Pointer to a pointer variable into which the method writes the address of an <a href="/windows/desktop/api/devicetopology/nn-devicetopology-ipartslist">IPartsList</a> interface that encapsulates the list of parts that are immediately upstream from this part. Through this method, the caller obtains a counted reference to the interface. The caller is responsible for releasing the interface, when it is no longer needed, by calling the interface's <b>Release</b> method. If the <b>EnumPartsIncoming</b> call fails,  <i>*ppParts</i> is <b>NULL</b>.
 
 ## -returns
 
@@ -110,9 +110,8 @@ If this part has no links to upstream parts, the method returns error code E_NOT
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nn-devicetopology-ipart">IPart Interface</a>
+<a href="/windows/desktop/api/devicetopology/nn-devicetopology-ipart">IPart Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nn-devicetopology-ipartslist">IPartsList Interface</a>
-
+<a href="/windows/desktop/api/devicetopology/nn-devicetopology-ipartslist">IPartsList Interface</a>

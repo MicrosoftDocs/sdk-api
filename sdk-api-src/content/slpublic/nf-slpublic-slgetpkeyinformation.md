@@ -136,7 +136,7 @@ Channel ID
 
 ### -param peDataType [out, optional]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/slpublic/ne-slpublic-sldatatype">SLDATATYPE</a>*</b>
+Type: <b><a href="/windows/desktop/api/slpublic/ne-slpublic-sldatatype">SLDATATYPE</a>*</b>
 
 The data type.
 
@@ -191,7 +191,7 @@ A pointer to the size, in bytes, of the <i>ppbValue</i> buffer.
 Type: <b>PBYTE*</b>
 
 A pointer to the data returned by SLC.          
-		When finished using the memory, free it by calling the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localfree">LocalFree</a> function.
+		When finished using the memory, free it by calling the <a href="/windows/desktop/api/winbase/nf-winbase-localfree">LocalFree</a> function.
 
 ## -returns
 
@@ -241,4 +241,3 @@ The request is not supported.
 </td>
 </tr>
 </table>
-

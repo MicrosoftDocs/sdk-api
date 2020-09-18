@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Fired when an SBE2 source filter receives a <b>STREAMBUFFER_EC_PRIMARY_AUDIO</b> event, which is fired through the <a href="https://docs.microsoft.com/windows/desktop/api/segment/nn-segment-imsvidstreambuffersourceevent3">IMSVidStreamBufferSourceEvent3</a> interface, and indicates that SBE is processing primarily audio data.
+Fired when an SBE2 source filter receives a <b>STREAMBUFFER_EC_PRIMARY_AUDIO</b> event, which is fired through the <a href="/windows/desktop/api/segment/nn-segment-imsvidstreambuffersourceevent3">IMSVidStreamBufferSourceEvent3</a> interface, and indicates that SBE is processing primarily audio data.
 
 ## -parameters
 
@@ -66,9 +66,8 @@ This event applies to Update Rollup 2 for Microsoft Windows XP Media Center Edit
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/segment/nn-segment-imsvidstreambufferv2sourceevent">IMSVidStreamBufferV2SourceEvent</a>
+<a href="/windows/desktop/api/segment/nn-segment-imsvidstreambufferv2sourceevent">IMSVidStreamBufferV2SourceEvent</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/stream-buffer-engine-codes">Stream Buffer Engine Event Codes</a>
-
+<a href="/previous-versions/windows/desktop/mstv/stream-buffer-engine-codes">Stream Buffer Engine Event Codes</a>

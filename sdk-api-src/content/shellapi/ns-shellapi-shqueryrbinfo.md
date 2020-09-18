@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-Contains the size and item count information retrieved by the <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/nf-shellapi-shqueryrecyclebina">SHQueryRecycleBin</a> function.
+Contains the size and item count information retrieved by the <a href="/windows/desktop/api/shellapi/nf-shellapi-shqueryrecyclebina">SHQueryRecycleBin</a> function.
 
 ## -struct-fields
 
@@ -75,4 +75,3 @@ The total size of all the objects in the specified Recycle Bin, in bytes.
 Type: <b>__int64</b>
 
 The total number of items in the specified Recycle Bin.
-

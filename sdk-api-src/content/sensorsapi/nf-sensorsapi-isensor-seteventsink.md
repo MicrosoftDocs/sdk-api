@@ -56,7 +56,7 @@ Specifies the interface through which to receive sensor event notifications.
 
 ### -param pEvents [in]
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/sensorsapi/nn-sensorsapi-isensorevents">ISensorEvents</a> callback interface that receives the event notifications. Set to <b>NULL</b> to cancel event notifications.
+Pointer to the <a href="/windows/desktop/api/sensorsapi/nn-sensorsapi-isensorevents">ISensorEvents</a> callback interface that receives the event notifications. Set to <b>NULL</b> to cancel event notifications.
 
 ## -returns
 
@@ -82,16 +82,15 @@ The method succeeded.
 
 ## -remarks
 
-Specify the events to receive by calling <a href="https://docs.microsoft.com/windows/desktop/api/sensorsapi/nf-sensorsapi-isensor-seteventinterest">SetEventInterest</a>. You can retrieve the current event interest list by calling <a href="https://docs.microsoft.com/windows/desktop/api/sensorsapi/nf-sensorsapi-isensor-geteventinterest">GetEventInterest</a>.
+Specify the events to receive by calling <a href="/windows/desktop/api/sensorsapi/nf-sensorsapi-isensor-seteventinterest">SetEventInterest</a>. You can retrieve the current event interest list by calling <a href="/windows/desktop/api/sensorsapi/nf-sensorsapi-isensor-geteventinterest">GetEventInterest</a>.
 
 
 #### Examples
 
-For an example of how to set the event sink, see <a href="https://docs.microsoft.com/windows/desktop/SensorsAPI/using-sensor-api-events">Using Sensor API Events</a>.
+For an example of how to set the event sink, see <a href="/windows/desktop/SensorsAPI/using-sensor-api-events">Using Sensor API Events</a>.
 
 <div class="code"></div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sensorsapi/nn-sensorsapi-isensor">ISensor</a>
-
+<a href="/windows/desktop/api/sensorsapi/nn-sensorsapi-isensor">ISensor</a>

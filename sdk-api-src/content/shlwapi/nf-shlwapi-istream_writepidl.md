@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-Writes a pointer to an item identifier list (PIDL) from a PCUIDLIST_RELATIVE object into an <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a> object.
+Writes a pointer to an item identifier list (PIDL) from a PCUIDLIST_RELATIVE object into an <a href="/windows/desktop/api/objidl/nn-objidl-istream">IStream</a> object.
 
 ## -parameters
 
@@ -60,7 +60,7 @@ Writes a pointer to an item identifier list (PIDL) from a PCUIDLIST_RELATIVE obj
 
 Type: <b>IStream*</b>
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a> object in which to write.
+A pointer to the <a href="/windows/desktop/api/objidl/nn-objidl-istream">IStream</a> object in which to write.
 
 ### -param pidlWrite [in]
 
@@ -73,4 +73,3 @@ The source PIDL.
 Type: <b>HRESULT</b>
 
 If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-

@@ -102,7 +102,7 @@ The number of WINS Servers listed in <b>WinsServers</b>.
 
 ### -field WinsServers
 
-An array of <a href="https://docs.microsoft.com/windows/desktop/api/windns/ns-windns-ip4_array">IP4_ARRAY</a> structures that contain the IPv4 address of the WINS lookup Servers.
+An array of <a href="/windows/desktop/api/windns/ns-windns-ip4_array">IP4_ARRAY</a> structures that contain the IPv4 address of the WINS lookup Servers.
 
 ## -remarks
 
@@ -113,4 +113,3 @@ The
 ## -see-also
 
 <a href="/windows/win32/api/windns/ns-windns-dns_recorda">DNS_RECORD</a>
-

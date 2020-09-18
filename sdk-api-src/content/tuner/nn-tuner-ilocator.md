@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-The <b>ILocator</b> interface is implemented (through derived interfaces such as <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-iatsclocator">IATSCLocator</a>) on Locator objects that contain tuning information about the tuning space. This base interface is never used directly, but only through the derived interfaces that are specific for a given network type.
+The <b>ILocator</b> interface is implemented (through derived interfaces such as <a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-iatsclocator">IATSCLocator</a>) on Locator objects that contain tuning information about the tuning space. This base interface is never used directly, but only through the derived interfaces that are specific for a given network type.
 
  Locator objects can be created dynamically by Guide Store Loaders that have the necessary information about the tuning space, or a default locator for a tuning space can be installed by the third party who installs the tuning space. In any case, applications never create or examine locators except in certain testing or debugging scenarios. All Locator objects also support <b>IPersistPropertyBag</b>.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ILocator</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ILocator</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ILocator</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ILocator</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>ILocator</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-ilocator-clone">Clone</a>
+<a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-ilocator-clone">Clone</a>
 </td>
 <td align="left" width="63%">
 Creates a copy of the Locator.
@@ -80,7 +80,7 @@ Creates a copy of the Locator.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-ilocator-get_carrierfrequency">get_CarrierFrequency</a>
+<a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-ilocator-get_carrierfrequency">get_CarrierFrequency</a>
 </td>
 <td align="left" width="63%">
 Gets the frequency of the RF signal.
@@ -89,7 +89,7 @@ Gets the frequency of the RF signal.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-ilocator-get_innerfec">get_InnerFEC</a>
+<a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-ilocator-get_innerfec">get_InnerFEC</a>
 </td>
 <td align="left" width="63%">
 Gets the type of inner forward error correction (FEC) that is used.
@@ -98,7 +98,7 @@ Gets the type of inner forward error correction (FEC) that is used.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-ilocator-get_innerfecrate">get_InnerFECRate</a>
+<a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-ilocator-get_innerfecrate">get_InnerFECRate</a>
 </td>
 <td align="left" width="63%">
 Gets the inner FEC rate.
@@ -107,7 +107,7 @@ Gets the inner FEC rate.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-ilocator-get_modulation">get_Modulation</a>
+<a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-ilocator-get_modulation">get_Modulation</a>
 </td>
 <td align="left" width="63%">
 Gets the modulation type.
@@ -116,7 +116,7 @@ Gets the modulation type.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-ilocator-get_outerfec">get_OuterFEC</a>
+<a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-ilocator-get_outerfec">get_OuterFEC</a>
 </td>
 <td align="left" width="63%">
 Gets the type of outer FEC that is used.
@@ -125,7 +125,7 @@ Gets the type of outer FEC that is used.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-ilocator-get_outerfecrate">get_OuterFECRate</a>
+<a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-ilocator-get_outerfecrate">get_OuterFECRate</a>
 </td>
 <td align="left" width="63%">
 Gets the outer FEC rate.
@@ -134,7 +134,7 @@ Gets the outer FEC rate.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-ilocator-get_symbolrate">get_SymbolRate</a>
+<a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-ilocator-get_symbolrate">get_SymbolRate</a>
 </td>
 <td align="left" width="63%">
 Gets the quadrature phase-shift keying (QPSK) symbol rate.
@@ -143,7 +143,7 @@ Gets the quadrature phase-shift keying (QPSK) symbol rate.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-ilocator-put_carrierfrequency">put_CarrierFrequency</a>
+<a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-ilocator-put_carrierfrequency">put_CarrierFrequency</a>
 </td>
 <td align="left" width="63%">
 Sets the frequency of the RF signal.
@@ -152,7 +152,7 @@ Sets the frequency of the RF signal.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-ilocator-put_innerfec">put_InnerFEC</a>
+<a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-ilocator-put_innerfec">put_InnerFEC</a>
 </td>
 <td align="left" width="63%">
 Sets the type of inner FEC to use.
@@ -161,7 +161,7 @@ Sets the type of inner FEC to use.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-ilocator-put_innerfecrate">put_InnerFECRate</a>
+<a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-ilocator-put_innerfecrate">put_InnerFECRate</a>
 </td>
 <td align="left" width="63%">
 Sets the inner FEC rate.
@@ -170,7 +170,7 @@ Sets the inner FEC rate.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-ilocator-put_modulation">put_Modulation</a>
+<a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-ilocator-put_modulation">put_Modulation</a>
 </td>
 <td align="left" width="63%">
 Sets the modulation type.
@@ -179,7 +179,7 @@ Sets the modulation type.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-ilocator-put_outerfec">put_OuterFEC</a>
+<a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-ilocator-put_outerfec">put_OuterFEC</a>
 </td>
 <td align="left" width="63%">
 Sets the type of outer FEC to use.
@@ -188,7 +188,7 @@ Sets the type of outer FEC to use.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-ilocator-put_outerfecrate">put_OuterFECRate</a>
+<a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-ilocator-put_outerfecrate">put_OuterFECRate</a>
 </td>
 <td align="left" width="63%">
 Sets the outer FEC rate.
@@ -197,7 +197,7 @@ Sets the outer FEC rate.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-ilocator-put_symbolrate">put_SymbolRate</a>
+<a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-ilocator-put_symbolrate">put_SymbolRate</a>
 </td>
 <td align="left" width="63%">
 Sets the QPSK symbol rate.
@@ -212,9 +212,8 @@ To declare the interface identifier (IID) for this interface, use the <b>__uuido
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/tuning-model-interfaces">Tuning Model Interfaces</a>
-
+<a href="/previous-versions/windows/desktop/mstv/tuning-model-interfaces">Tuning Model Interfaces</a>

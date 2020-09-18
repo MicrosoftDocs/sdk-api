@@ -56,7 +56,7 @@ Locates the source line for the specified inline context.
 ### -param hProcess [in]
 
 A handle to the process that was originally passed to the 
-      <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-syminitialize">SymInitialize</a> function.
+      <a href="/windows/desktop/api/dbghelp/nf-dbghelp-syminitialize">SymInitialize</a> function.
 
 ### -param qwAddr [in]
 
@@ -78,7 +78,7 @@ The displacement in bytes from the beginning of the line, or zero.
 
 ### -param Line64 [out]
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-imagehlp_line">IMAGEHLP_LINE64</a> 
+A pointer to an <a href="/windows/desktop/api/dbghelp/ns-dbghelp-imagehlp_line">IMAGEHLP_LINE64</a> 
       structure.
 
 ## -returns
@@ -86,12 +86,12 @@ A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/
 If the function succeeds, the return value is <b>TRUE</b>.
 
 If the function fails, the return value is <b>FALSE</b>. To retrieve extended error 
-       information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+       information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
 The caller must allocate the <i>Line</i> buffer properly and fill in the required members 
-    of the <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-imagehlp_line">IMAGEHLP_LINE64</a> structure before 
+    of the <a href="/windows/desktop/api/dbghelp/ns-dbghelp-imagehlp_line">IMAGEHLP_LINE64</a> structure before 
     calling <b>SymGetLineFromInlineContext</b>.
 
 This function returns a pointer to a buffer that may be reused by another function. Therefore, be sure to copy 
@@ -120,4 +120,3 @@ SymGetLineFromInlineContextW(
 #ifdef DBGHELP_TRANSLATE_TCHAR
  #define SymGetLineFromInlineContext SymGetLineFromInlineContextW
 #endif</code></pre>
-

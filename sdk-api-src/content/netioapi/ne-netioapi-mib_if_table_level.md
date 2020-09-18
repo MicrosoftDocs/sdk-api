@@ -62,19 +62,19 @@ The MIB_IF_TABLE_LEVEL enumeration type defines the level of interface informati
 ### -field MibIfTableNormal
 
 The values of statistics and state that are returned in members of the 
-     <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff559214(v=vs.85)">MIB_IF_ROW2</a> structure in the 
-     <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff559224(v=vs.85)">MIB_IF_TABLE2</a> structure that the 
+     <a href="/previous-versions/windows/hardware/drivers/ff559214(v=vs.85)">MIB_IF_ROW2</a> structure in the 
+     <a href="/previous-versions/windows/hardware/drivers/ff559224(v=vs.85)">MIB_IF_TABLE2</a> structure that the 
      <i>Table</i> parameter points to in the 
-     <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff552528(v=vs.85)">GetIfTable2Ex</a> function are returned from
+     <a href="/previous-versions/windows/hardware/drivers/ff552528(v=vs.85)">GetIfTable2Ex</a> function are returned from
      the top of the filter stack.
 
 ### -field MibIfTableRaw
 
 The values of statistics and state that are returned in members of the 
-     <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff559214(v=vs.85)">MIB_IF_ROW2</a> structure in the 
-     <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff559224(v=vs.85)">MIB_IF_TABLE2</a> structure that the 
+     <a href="/previous-versions/windows/hardware/drivers/ff559214(v=vs.85)">MIB_IF_ROW2</a> structure in the 
+     <a href="/previous-versions/windows/hardware/drivers/ff559224(v=vs.85)">MIB_IF_TABLE2</a> structure that the 
      <i>Table</i> parameter points to in the 
-     <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff552528(v=vs.85)">GetIfTable2Ex</a> function are returned
+     <a href="/previous-versions/windows/hardware/drivers/ff552528(v=vs.85)">GetIfTable2Ex</a> function are returned
      directly for the interface that is being queried.
 
 ### -field MibIfTableNormalWithoutStatistics
@@ -86,18 +86,17 @@ The values returned are the same as for the <b>MibIfTableNormal </b> value, but 
 ## -remarks
 
 The MIB_IF_TABLE_LEVEL enumeration type is used with the 
-    <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff552528(v=vs.85)">GetIfTable2Ex</a> function to specify the level
+    <a href="/previous-versions/windows/hardware/drivers/ff552528(v=vs.85)">GetIfTable2Ex</a> function to specify the level
     of interface information to retrieve.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff552528(v=vs.85)">GetIfTable2Ex</a>
+<a href="/previous-versions/windows/hardware/drivers/ff552528(v=vs.85)">GetIfTable2Ex</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff559214(v=vs.85)">MIB_IF_ROW2</a>
+<a href="/previous-versions/windows/hardware/drivers/ff559214(v=vs.85)">MIB_IF_ROW2</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff559224(v=vs.85)">MIB_IF_TABLE2</a>
-
+<a href="/previous-versions/windows/hardware/drivers/ff559224(v=vs.85)">MIB_IF_TABLE2</a>

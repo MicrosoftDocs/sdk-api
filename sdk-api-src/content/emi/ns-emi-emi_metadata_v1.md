@@ -56,7 +56,7 @@ The <b>EMI_METADATA</b> structure provides metadata about a device that supports
 
 ### -field MeasurementUnit
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/emi/ne-emi-emi_measurement_unit">EMI_MEASUREMENT_UNIT</a> that specifies the unit of energy measurements that can be obtained from the device by calling <a href="https://docs.microsoft.com/windows/desktop/api/emi/ni-emi-ioctl_emi_get_measurement">IOCTL_EMI_GET_MEASUREMENT</a>. In devices that support <b>EMI_VERSION_V1</b>, the only supported unit is <b>EmiMeasurementUnitPicowattHours</b>.
+An <a href="/windows/desktop/api/emi/ne-emi-emi_measurement_unit">EMI_MEASUREMENT_UNIT</a> that specifies the unit of energy measurements that can be obtained from the device by calling <a href="/windows/desktop/api/emi/ni-emi-ioctl_emi_get_measurement">IOCTL_EMI_GET_MEASUREMENT</a>. In devices that support <b>EMI_VERSION_V1</b>, the only supported unit is <b>EmiMeasurementUnitPicowattHours</b>.
 
 ### -field HardwareOEM
 
@@ -80,13 +80,12 @@ A null-terminated, Unicode string that specifies the metered hardware name.
 
 ## -remarks
 
-This structure is returned through a successful completion of an <a href="https://docs.microsoft.com/windows/desktop/api/emi/ni-emi-ioctl_emi_get_metadata">IOCTL_EMI_GET_METADATA</a> IOCTL request.
+This structure is returned through a successful completion of an <a href="/windows/desktop/api/emi/ni-emi-ioctl_emi_get_metadata">IOCTL_EMI_GET_METADATA</a> IOCTL request.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/powermeter/energy-meter-interface">Energy Metering Interface</a>
+<a href="/windows-hardware/drivers/powermeter/energy-meter-interface">Energy Metering Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/emi/ni-emi-ioctl_emi_get_metadata">IOCTL_EMI_GET_METADATA</a>
-
+<a href="/windows/desktop/api/emi/ni-emi-ioctl_emi_get_metadata">IOCTL_EMI_GET_METADATA</a>

@@ -54,16 +54,16 @@ api_name:
 
 ## -description
 
-Contains information used with the <a href="https://docs.microsoft.com/windows/desktop/Controls/tbn-hotitemchange">TBN_HOTITEMCHANGE</a> notification code.
+Contains information used with the <a href="/windows/desktop/Controls/tbn-hotitemchange">TBN_HOTITEMCHANGE</a> notification code.
 
 ## -struct-fields
 
 ### -field hdr
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a></b>
+Type: <b><a href="/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a></b>
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a> structure that contains additional information about the notification.
+<a href="/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a> structure that contains additional information about the notification.
 
 ### -field idOld
 
@@ -79,7 +79,7 @@ Command identifier of the item about to be highlighted.
 
 ### -field dwFlags
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 Flags that indicate why the hot item has changed. This can be one or more of the following values: 
 
@@ -166,7 +166,7 @@ The change in the hot item resulted from a mouse event.
 </dl>
 </td>
 <td width="60%">
-The change in the hot item resulted from an event that could not be determined. This will most often be due to a change in focus or the <a href="https://docs.microsoft.com/windows/desktop/Controls/tb-sethotitem">TB_SETHOTITEM</a> message. 
+The change in the hot item resulted from an event that could not be determined. This will most often be due to a change in focus or the <a href="/windows/desktop/Controls/tb-sethotitem">TB_SETHOTITEM</a> message. 
 
 </td>
 </tr>
@@ -187,9 +187,8 @@ The change in the hot item resulted from the user entering the shortcut key for 
 </td>
 <td width="60%">
 
-<a href="https://docs.microsoft.com/windows/desktop/Controls/common-control-versions">Version 5.80.</a> Causes the button to switch states. 
+<a href="/windows/desktop/Controls/common-control-versions">Version 5.80.</a> Causes the button to switch states. 
 
 </td>
 </tr>
 </table>
-

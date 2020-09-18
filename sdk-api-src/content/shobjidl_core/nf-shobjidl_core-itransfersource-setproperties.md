@@ -56,7 +56,7 @@ Sets properties that should be applied to an item.
 
 ### -param pproparray [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/propsys/nn-propsys-ipropertychangearray">IPropertyChangeArray</a>*</b>
+Type: <b><a href="/windows/desktop/api/propsys/nn-propsys-ipropertychangearray">IPropertyChangeArray</a>*</b>
 
 An array of properties and their changed values.
 
@@ -65,4 +65,3 @@ An array of properties and their changed values.
 Type: <b>HRESULT</b>
 
 Any return value other than S_OK indicates a failure.
-

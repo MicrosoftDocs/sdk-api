@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Gets a  COM server that has been registered  for Protected Media Process (PMP) usage with previous call to <a href="https://docs.microsoft.com/windows/desktop/api/comppkgsup/nf-comppkgsup-registerserverforpmp">RegisterServerForPMP</a>.
+Gets a  COM server that has been registered  for Protected Media Process (PMP) usage with previous call to <a href="/windows/desktop/api/comppkgsup/nf-comppkgsup-registerserverforpmp">RegisterServerForPMP</a>.
 
 ## -parameters
 
@@ -65,4 +65,3 @@ Receives a pointer to the requested COM server interface.
 ## -returns
 
 If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-

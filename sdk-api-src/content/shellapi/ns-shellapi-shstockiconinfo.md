@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-Receives information used to retrieve a stock Shell icon. This structure is used in a call <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/nf-shellapi-shgetstockiconinfo">SHGetStockIconInfo</a>.
+Receives information used to retrieve a stock Shell icon. This structure is used in a call <a href="/windows/desktop/api/shellapi/nf-shellapi-shgetstockiconinfo">SHGetStockIconInfo</a>.
 
 ## -struct-fields
 
@@ -66,27 +66,26 @@ The size of this structure, in bytes.
 
 Type: <b>HICON</b>
 
-When <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/nf-shellapi-shgetstockiconinfo">SHGetStockIconInfo</a> is called with the SHGSI_ICON flag, this member receives a handle to the icon.
+When <a href="/windows/desktop/api/shellapi/nf-shellapi-shgetstockiconinfo">SHGetStockIconInfo</a> is called with the SHGSI_ICON flag, this member receives a handle to the icon.
 
 ### -field iSysImageIndex
 
 Type: <b>int</b>
 
-When <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/nf-shellapi-shgetstockiconinfo">SHGetStockIconInfo</a> is called with the SHGSI_SYSICONINDEX flag, this member receives the index of the image in the system icon cache.
+When <a href="/windows/desktop/api/shellapi/nf-shellapi-shgetstockiconinfo">SHGetStockIconInfo</a> is called with the SHGSI_SYSICONINDEX flag, this member receives the index of the image in the system icon cache.
 
 ### -field iIcon
 
 Type: <b>int</b>
 
-When <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/nf-shellapi-shgetstockiconinfo">SHGetStockIconInfo</a> is called with the SHGSI_ICONLOCATION flag, this member receives the index of the icon in the resource whose path is received in <b>szPath</b>.
+When <a href="/windows/desktop/api/shellapi/nf-shellapi-shgetstockiconinfo">SHGetStockIconInfo</a> is called with the SHGSI_ICONLOCATION flag, this member receives the index of the icon in the resource whose path is received in <b>szPath</b>.
 
 ### -field szPath
 
 Type: <b>WCHAR[MAX_PATH]</b>
 
-When <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/nf-shellapi-shgetstockiconinfo">SHGetStockIconInfo</a> is called with the SHGSI_ICONLOCATION flag, this member receives the path of the resource that contains the icon. The index of the icon within the resource is received in <b>iIcon</b>.
+When <a href="/windows/desktop/api/shellapi/nf-shellapi-shgetstockiconinfo">SHGetStockIconInfo</a> is called with the SHGSI_ICONLOCATION flag, this member receives the path of the resource that contains the icon. The index of the icon within the resource is received in <b>iIcon</b>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shellapi/nf-shellapi-shgetstockiconinfo">SHGetStockIconInfo</a>
-
+<a href="/windows/desktop/api/shellapi/nf-shellapi-shgetstockiconinfo">SHGetStockIconInfo</a>

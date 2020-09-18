@@ -62,19 +62,18 @@ A handle to the image list that will be resized.
 
 ### -param uNewCount [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 A value specifying the new size of the image list.
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
 
 Returns nonzero if successful, or zero otherwise.
 
 ## -remarks
 
-If an application expands an image list with this function, it must add new images by using the <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-imagelist_replace">ImageList_Replace</a> function. If your application does not add valid images at the new indexes, draw operations that use the new indexes will be unpredictable. 
+If an application expands an image list with this function, it must add new images by using the <a href="/windows/desktop/api/commctrl/nf-commctrl-imagelist_replace">ImageList_Replace</a> function. If your application does not add valid images at the new indexes, draw operations that use the new indexes will be unpredictable. 
 
 If you decrease the size of an image list by using this function, the truncated images are freed.
-

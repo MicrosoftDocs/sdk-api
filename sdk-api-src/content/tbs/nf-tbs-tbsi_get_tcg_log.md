@@ -56,7 +56,7 @@ Retrieves the most recent Windows Boot Configuration Log (WBCL), also referred t
 
 ### -param hContext [in]
 
-The TBS handle of the context that is retrieving the log. You get this parameter from a previous call to the <a href="https://docs.microsoft.com/windows/desktop/api/tbs/nf-tbs-tbsi_context_create">Tbsi_Context_Create</a> function.
+The TBS handle of the context that is retrieving the log. You get this parameter from a previous call to the <a href="/windows/desktop/api/tbs/nf-tbs-tbsi_context_create">Tbsi_Context_Create</a> function.
 
 ### -param pOutputBuf [out]
 
@@ -324,4 +324,3 @@ void main()
 }
 
 ```
-

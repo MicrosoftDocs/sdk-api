@@ -51,15 +51,15 @@ api_name:
 
 ## -description
 
-Causes the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkrecognizer">IInkRecognizer</a> object to recognize the associated strokes collection and fire a <a href="https://docs.microsoft.com/windows/desktop/tablet/inkrecognizercontext-recognition">Recognition</a> event when recognition is complete.
+Causes the <a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinkrecognizer">IInkRecognizer</a> object to recognize the associated strokes collection and fire a <a href="/windows/desktop/tablet/inkrecognizercontext-recognition">Recognition</a> event when recognition is complete.
 
 ## -parameters
 
 ### -param CustomData [in, optional]
 
-Specifies any application-defined data that is available to the application in the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkrecognizercontext-recognition">Recognition</a> event. This parameter may be a VARIANT of type VT_EMPTY or VT_NULL if no data needs to be passed. The default value is <b>NULL</b>.
+Specifies any application-defined data that is available to the application in the <a href="/windows/desktop/tablet/inkrecognizercontext-recognition">Recognition</a> event. This parameter may be a VARIANT of type VT_EMPTY or VT_NULL if no data needs to be passed. The default value is <b>NULL</b>.
 
-For more information about the VARIANT structure, see <a href="https://docs.microsoft.com/windows/desktop/tablet/using-the-com-library">Using the COM Library</a>.
+For more information about the VARIANT structure, see <a href="/windows/desktop/tablet/using-the-com-library">Using the COM Library</a>.
 
 ## -returns
 
@@ -118,23 +118,23 @@ An exception occurred inside the method.
 
 ## -remarks
 
-This method specifies that ink recognition is performed asynchronously. To recognize ink synchronously, call the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizercontext-recognize">Recognize</a> method.
+This method specifies that ink recognition is performed asynchronously. To recognize ink synchronously, call the <a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizercontext-recognize">Recognize</a> method.
 
-This method recognizes only the best result string. Alternates are not created. To perform recognition that creates a list of available alternates, call the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizercontext-backgroundrecognizewithalternates">BackgroundRecognizeWithAlternates</a> method.
+This method recognizes only the best result string. Alternates are not created. To perform recognition that creates a list of available alternates, call the <a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizercontext-backgroundrecognizewithalternates">BackgroundRecognizeWithAlternates</a> method.
 
-The <a href="https://docs.microsoft.com/windows/desktop/tablet/inkrecognizercontext-recognition">Recognition</a> event is not raised if the recognizer does not recognize anything.
+The <a href="/windows/desktop/tablet/inkrecognizercontext-recognition">Recognition</a> event is not raised if the recognizer does not recognize anything.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizercontext-backgroundrecognizewithalternates">BackgroundRecognizeWithAlternates Method</a>
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizercontext-backgroundrecognizewithalternates">BackgroundRecognizeWithAlternates Method</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkextendedproperty-get_data">Data Property</a>
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkextendedproperty-get_data">Data Property</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkrecognitionalternate">IInkRecognitionAlternate Interface</a>
+<a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinkrecognitionalternate">IInkRecognitionAlternate Interface</a>
 
 
 
@@ -142,5 +142,4 @@ The <a href="https://docs.microsoft.com/windows/desktop/tablet/inkrecognizercont
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/tablet/inkrecognizercontext-class">InkRecognizerContext Class</a>
-
+<a href="/windows/desktop/tablet/inkrecognizercontext-class">InkRecognizerContext Class</a>

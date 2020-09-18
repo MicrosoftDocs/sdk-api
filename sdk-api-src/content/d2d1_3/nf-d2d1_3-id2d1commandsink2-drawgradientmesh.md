@@ -56,7 +56,7 @@ Renders a given gradient mesh to the target.
 
 ### -param gradientMesh [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3/nn-d2d1_3-id2d1gradientmesh">ID2D1GradientMesh</a>*</b>
+Type: <b><a href="/windows/desktop/api/d2d1_3/nn-d2d1_3-id2d1gradientmesh">ID2D1GradientMesh</a>*</b>
 
 The gradient mesh to be rendered.
 
@@ -66,5 +66,4 @@ This method does not return a value.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3/nn-d2d1_3-id2d1commandsink2">ID2D1CommandSink2</a>
-
+<a href="/windows/desktop/api/d2d1_3/nn-d2d1_3-id2d1commandsink2">ID2D1CommandSink2</a>

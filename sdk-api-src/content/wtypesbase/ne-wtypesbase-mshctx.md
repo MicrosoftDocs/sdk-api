@@ -80,25 +80,24 @@ Create a new context in the current apartment.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cogetmarshalsizemax">CoGetMarshalSizeMax</a>
+<a href="/windows/desktop/api/combaseapi/nf-combaseapi-cogetmarshalsizemax">CoGetMarshalSizeMax</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cogetstandardmarshal">CoGetStandardMarshal</a>
+<a href="/windows/desktop/api/combaseapi/nf-combaseapi-cogetstandardmarshal">CoGetStandardMarshal</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-comarshalinterface">CoMarshalInterface</a>
+<a href="/windows/desktop/api/combaseapi/nf-combaseapi-comarshalinterface">CoMarshalInterface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imarshal">IMarshal</a>
+<a href="/windows/desktop/api/objidl/nn-objidl-imarshal">IMarshal</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-irpcchannelbuffer">IRpcChannelBuffer</a>
+<a href="/windows/desktop/api/objidl/nn-objidl-irpcchannelbuffer">IRpcChannelBuffer</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istdmarshalinfo">IStdMarshalInfo</a>
-
+<a href="/windows/desktop/api/objidl/nn-objidl-istdmarshalinfo">IStdMarshalInfo</a>

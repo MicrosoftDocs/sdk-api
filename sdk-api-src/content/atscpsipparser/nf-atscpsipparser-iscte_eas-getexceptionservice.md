@@ -56,7 +56,7 @@ The <b>GetExceptionService</b> method returns information about an exception ser
 
 ### -param bIndex [in]
 
-Zero-based index of the exception service to retrieve. Call <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/atscpsipparser/nf-atscpsipparser-iscte_eas-getexceptioncount">ISCTE_EAS::GetExceptionCount</a> to get the number of exception services.
+Zero-based index of the exception service to retrieve. Call <a href="/previous-versions/windows/desktop/api/atscpsipparser/nf-atscpsipparser-iscte_eas-getexceptioncount">ISCTE_EAS::GetExceptionCount</a> to get the number of exception services.
 
 ### -param pbIBRef [out]
 
@@ -98,7 +98,7 @@ Index out of range.
 </dl>
 </td>
 <td width="60%">
-The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/atscpsipparser/nf-atscpsipparser-iscte_eas-initialize">ISCTE_EAS::Initialize</a> method was not called.
+The <a href="/previous-versions/windows/desktop/api/atscpsipparser/nf-atscpsipparser-iscte_eas-initialize">ISCTE_EAS::Initialize</a> method was not called.
 
 </td>
 </tr>
@@ -117,5 +117,4 @@ The method succeeded.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/atscpsipparser/nn-atscpsipparser-iscte_eas">ISCTE_EAS Interface</a>
-
+<a href="/previous-versions/windows/desktop/api/atscpsipparser/nn-atscpsipparser-iscte_eas">ISCTE_EAS Interface</a>

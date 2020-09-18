@@ -56,22 +56,22 @@ Output devices include video and audio renderers, and the Stream Buffer Sink obj
 
 <ul>
 <li>
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msvidctl/nf-msvidctl-imsvidctl-get_audiorendereractive">IMSVidCtl::get_AudioRendererActive</a>
+<a href="/previous-versions/windows/desktop/api/msvidctl/nf-msvidctl-imsvidctl-get_audiorendereractive">IMSVidCtl::get_AudioRendererActive</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msvidctl/nf-msvidctl-imsvidctl-get_audiorenderersavailable">IMSVidCtl::get_AudioRenderersAvailable</a>
+<a href="/previous-versions/windows/desktop/api/msvidctl/nf-msvidctl-imsvidctl-get_audiorenderersavailable">IMSVidCtl::get_AudioRenderersAvailable</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msvidctl/nf-msvidctl-imsvidctl-get_videorendereractive">IMSVidCtl::get_VideoRendererActive</a>
+<a href="/previous-versions/windows/desktop/api/msvidctl/nf-msvidctl-imsvidctl-get_videorendereractive">IMSVidCtl::get_VideoRendererActive</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msvidctl/nf-msvidctl-imsvidctl-get_videorenderersavailable">IMSVidCtl::get_VideoRenderersAvailable</a>
+<a href="/previous-versions/windows/desktop/api/msvidctl/nf-msvidctl-imsvidctl-get_videorenderersavailable">IMSVidCtl::get_VideoRenderersAvailable</a>
 </li>
 </ul>
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMSVidOutputDevices</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IMSVidOutputDevices</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMSVidOutputDevices</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IMSVidOutputDevices</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -86,7 +86,7 @@ The <b>IMSVidOutputDevices</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidoutputdevices-add">Add</a>
+<a href="/windows/desktop/api/segment/nf-segment-imsvidoutputdevices-add">Add</a>
 </td>
 <td align="left" width="63%">
 Adds an output device to the collection.
@@ -95,7 +95,7 @@ Adds an output device to the collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidoutputdevices-get__newenum">get__NewEnum</a>
+<a href="/windows/desktop/api/segment/nf-segment-imsvidoutputdevices-get__newenum">get__NewEnum</a>
 </td>
 <td align="left" width="63%">
 Retrieves an enumerator for the collection.
@@ -104,7 +104,7 @@ Retrieves an enumerator for the collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidoutputdevices-get_count">get_Count</a>
+<a href="/windows/desktop/api/segment/nf-segment-imsvidoutputdevices-get_count">get_Count</a>
 </td>
 <td align="left" width="63%">
 Retrieves the number of items in the collection.
@@ -113,7 +113,7 @@ Retrieves the number of items in the collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidoutputdevices-get_item">get_Item</a>
+<a href="/windows/desktop/api/segment/nf-segment-imsvidoutputdevices-get_item">get_Item</a>
 </td>
 <td align="left" width="63%">
 Retrieves the specified item from the collection.
@@ -122,7 +122,7 @@ Retrieves the specified item from the collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidoutputdevices-remove">Remove</a>
+<a href="/windows/desktop/api/segment/nf-segment-imsvidoutputdevices-remove">Remove</a>
 </td>
 <td align="left" width="63%">
 Removes an item from the collection.
@@ -137,9 +137,8 @@ To declare the interface identifier (IID) for this interface, use the <b>__uuido
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/video-control-interfaces">Video Control Interfaces</a>
-
+<a href="/previous-versions/windows/desktop/mstv/video-control-interfaces">Video Control Interfaces</a>

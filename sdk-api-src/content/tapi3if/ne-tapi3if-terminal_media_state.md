@@ -73,9 +73,8 @@ Last item in this enum.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itfileterminalevent-get_state">ITFileTerminalEvent::get_State</a>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itfileterminalevent-get_state">ITFileTerminalEvent::get_State</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itmediacontrol-get_mediastate">ITMediaControl::get_MediaState</a>
-
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itmediacontrol-get_mediastate">ITMediaControl::get_MediaState</a>

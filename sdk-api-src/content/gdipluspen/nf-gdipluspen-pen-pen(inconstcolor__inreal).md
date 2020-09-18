@@ -51,15 +51,15 @@ api_name:
 
 ## -description
 
-Creates a <a href="https://docs.microsoft.com/windows/desktop/api/gdipluspen/nl-gdipluspen-pen">Pen</a> object that uses a specified color and width.
+Creates a <a href="/windows/desktop/api/gdipluspen/nl-gdipluspen-pen">Pen</a> object that uses a specified color and width.
 
 ## -parameters
 
 ### -param color [in, ref]
 
-Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/gdipluscolor/nl-gdipluscolor-color">Color</a></b>
+Type: <b>const <a href="/windows/desktop/api/gdipluscolor/nl-gdipluscolor-color">Color</a></b>
 
-Reference to a <a href="https://docs.microsoft.com/windows/desktop/api/gdipluscolor/nl-gdipluscolor-color">Color</a> object that specifies the color for this <a href="https://docs.microsoft.com/windows/desktop/api/gdipluspen/nl-gdipluspen-pen">Pen</a> object.
+Reference to a <a href="/windows/desktop/api/gdipluscolor/nl-gdipluscolor-color">Color</a> object that specifies the color for this <a href="/windows/desktop/api/gdipluspen/nl-gdipluspen-pen">Pen</a> object.
 
 ### -param width [in]
 
@@ -70,16 +70,16 @@ Optional. Real number that specifies the width of this pen's stroke. The default
 ## -remarks
 
 If you pass the address of a pen to one of the draw methods of a 
-				<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics">Graphics</a> object, the width of the pen's stroke is dependent on the unit of measure specified in the 
+				<a href="/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics">Graphics</a> object, the width of the pen's stroke is dependent on the unit of measure specified in the 
 				<b>Graphics</b> object. The default unit of measure is <b>UnitPixel</b>, which is an element of the 
-				<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusenums/ne-gdiplusenums-unit">Unit</a> enumeration.
+				<a href="/windows/desktop/api/gdiplusenums/ne-gdiplusenums-unit">Unit</a> enumeration.
 
 
 #### Examples
 
 
 
-The following example creates a <a href="https://docs.microsoft.com/windows/desktop/api/gdipluspen/nl-gdipluspen-pen">Pen</a> object with the color red and a width of 4.0.
+The following example creates a <a href="/windows/desktop/api/gdipluspen/nl-gdipluspen-pen">Pen</a> object with the color red and a width of 4.0.
 
 
 ```cpp
@@ -88,21 +88,20 @@ Pen pen(Color(255,255,0,0), 4.0f);
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdipluscolor/nl-gdipluscolor-color">Color</a>
+<a href="/windows/desktop/api/gdipluscolor/nl-gdipluscolor-color">Color</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdipluspen/nf-gdipluspen-pen-pen(constpen_)">Pen</a>
+<a href="/windows/desktop/api/gdipluspen/nf-gdipluspen-pen-pen(constpen_)">Pen</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdipluspen/nf-gdipluspen-pen-setwidth">Pen::SetWidth</a>
+<a href="/windows/desktop/api/gdipluspen/nf-gdipluspen-pen-setwidth">Pen::SetWidth</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-pens-lines-and-rectangles-about">Pens, Lines, and Rectangles</a>
+<a href="/windows/desktop/gdiplus/-gdiplus-pens-lines-and-rectangles-about">Pens, Lines, and Rectangles</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-setting-pen-width-and-alignment-use">Setting Pen Width and Alignment</a>
-
+<a href="/windows/desktop/gdiplus/-gdiplus-setting-pen-width-and-alignment-use">Setting Pen Width and Alignment</a>

@@ -50,21 +50,21 @@ api_name:
 
 ## -description
 
-Sends a fault matching a given request context.  This method should be called only from <a href="https://docs.microsoft.com/windows/desktop/WsdApi/web-services-for-devices-code-generator">generated code</a>.
+Sends a fault matching a given request context.  This method should be called only from <a href="/windows/desktop/WsdApi/web-services-for-devices-code-generator">generated code</a>.
 
 ## -parameters
 
 ### -param pRequestHeader [in]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-wsd_soap_header">WSD_SOAP_HEADER</a> structure that contains the SOAP header of the original request that caused the fault.
+Pointer to a <a href="/windows/desktop/api/wsdtypes/ns-wsdtypes-wsd_soap_header">WSD_SOAP_HEADER</a> structure that contains the SOAP header of the original request that caused the fault.
 
 ### -param pMessageParameters [in]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/wsdbase/nn-wsdbase-iwsdmessageparameters">IWSDMessageParameters</a> object that contains the message parameters for the original request that caused the fault.
+Pointer to an <a href="/windows/desktop/api/wsdbase/nn-wsdbase-iwsdmessageparameters">IWSDMessageParameters</a> object that contains the message parameters for the original request that caused the fault.
 
 ### -param pFault [in, optional]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-wsd_soap_fault">WSD_SOAP_FAULT</a> structure that describes the fault to serialize and send. If this parameter is omitted, a fault of type <b>wsa:EndpointUnavailable</b> will be sent.
+Pointer to a <a href="/windows/desktop/api/wsdtypes/ns-wsdtypes-wsd_soap_fault">WSD_SOAP_FAULT</a> structure that describes the fault to serialize and send. If this parameter is omitted, a fault of type <b>wsa:EndpointUnavailable</b> will be sent.
 
 ## -returns
 
@@ -134,5 +134,4 @@ The method failed.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wsdhost/nn-wsdhost-iwsdservicemessaging">IWSDServiceMessaging</a>
-
+<a href="/windows/desktop/api/wsdhost/nn-wsdhost-iwsdservicemessaging">IWSDServiceMessaging</a>

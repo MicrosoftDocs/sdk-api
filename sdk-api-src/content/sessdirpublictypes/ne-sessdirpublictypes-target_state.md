@@ -94,13 +94,12 @@ The target is stopped.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/TermServ/terminal-services-virtualization-api-reference">Remote Desktop Virtualization API reference</a>
+<a href="/windows/desktop/TermServ/terminal-services-virtualization-api-reference">Remote Desktop Virtualization API reference</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sbtsv/nf-sbtsv-itssbresourcepluginstore-settargetstate">SetTargetState</a>
+<a href="/windows/desktop/api/sbtsv/nf-sbtsv-itssbresourcepluginstore-settargetstate">SetTargetState</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sbtsv/nf-sbtsv-itssbtarget-get_targetstate">TargetState</a>
-
+<a href="/windows/desktop/api/sbtsv/nf-sbtsv-itssbtarget-get_targetstate">TargetState</a>

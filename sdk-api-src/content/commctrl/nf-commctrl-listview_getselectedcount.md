@@ -50,13 +50,12 @@ api_name:
 
 ## -description
 
-Determines the number of selected items in a list-view control. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/lvm-getselectedcount">LVM_GETSELECTEDCOUNT</a> message explicitly.
+Determines the number of selected items in a list-view control. You can use this macro or send the <a href="/windows/desktop/Controls/lvm-getselectedcount">LVM_GETSELECTEDCOUNT</a> message explicitly.
 
 ## -parameters
 
 ### -param hwndLV
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the list-view control.
-

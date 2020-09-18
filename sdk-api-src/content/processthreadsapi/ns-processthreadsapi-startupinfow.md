@@ -86,7 +86,7 @@ If <b>dwFlags</b> specifies STARTF_USEPOSITION, this member is the x offset of t
 
 
 
-The offset is from the upper left corner of the screen. For GUI processes, the specified position is used the first time the new process calls <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createwindowa">CreateWindow</a> to create an overlapped window if the <i>x</i> parameter of <b>CreateWindow</b> is CW_USEDEFAULT.
+The offset is from the upper left corner of the screen. For GUI processes, the specified position is used the first time the new process calls <a href="/windows/desktop/api/winuser/nf-winuser-createwindowa">CreateWindow</a> to create an overlapped window if the <i>x</i> parameter of <b>CreateWindow</b> is CW_USEDEFAULT.
 
 ### -field dwY
 
@@ -95,7 +95,7 @@ If <b>dwFlags</b> specifies STARTF_USEPOSITION, this member is the y offset of t
 
 
 
-The offset is from the upper left corner of the screen. For GUI processes, the specified position is used the first time the new process calls <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createwindowa">CreateWindow</a> to create an overlapped window if the <i>y</i> parameter of <b>CreateWindow</b> is CW_USEDEFAULT.
+The offset is from the upper left corner of the screen. For GUI processes, the specified position is used the first time the new process calls <a href="/windows/desktop/api/winuser/nf-winuser-createwindowa">CreateWindow</a> to create an overlapped window if the <i>y</i> parameter of <b>CreateWindow</b> is CW_USEDEFAULT.
 
 ### -field dwXSize
 
@@ -104,7 +104,7 @@ If <b>dwFlags</b> specifies STARTF_USESIZE, this member is the width of the wind
 
 
 
-For GUI processes, this is used only the first time the new process calls <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createwindowa">CreateWindow</a> to create an overlapped window if the <i>nWidth</i> parameter of <b>CreateWindow</b> is CW_USEDEFAULT.
+For GUI processes, this is used only the first time the new process calls <a href="/windows/desktop/api/winuser/nf-winuser-createwindowa">CreateWindow</a> to create an overlapped window if the <i>nWidth</i> parameter of <b>CreateWindow</b> is CW_USEDEFAULT.
 
 ### -field dwYSize
 
@@ -113,7 +113,7 @@ If <b>dwFlags</b> specifies STARTF_USESIZE, this member is the height of the win
 
 
 
-For GUI processes, this is used only the first time the new process calls <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createwindowa">CreateWindow</a> to create an overlapped window if the <i>nHeight</i> parameter of <b>CreateWindow</b> is CW_USEDEFAULT.
+For GUI processes, this is used only the first time the new process calls <a href="/windows/desktop/api/winuser/nf-winuser-createwindowa">CreateWindow</a> to create an overlapped window if the <i>nHeight</i> parameter of <b>CreateWindow</b> is CW_USEDEFAULT.
 
 ### -field dwXCountChars
 
@@ -152,7 +152,7 @@ A bitfield that determines whether certain
 </td>
 <td width="60%">
 Indicates that the cursor is in feedback mode for two seconds after 
-<a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessa">CreateProcess</a> is called. The Working in Background cursor is displayed (see the Pointers tab in the Mouse control panel utility). 
+<a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessa">CreateProcess</a> is called. The Working in Background cursor is displayed (see the Pointers tab in the Mouse control panel utility). 
 
 
 
@@ -160,7 +160,7 @@ Indicates that the cursor is in feedback mode for two seconds after
 If during those two seconds the process makes the first GUI call, the system gives five more seconds to the process. If during those five seconds the process shows a window, the system gives five more seconds to the process to finish drawing the window.
 
 The system turns the feedback cursor off after the first call to 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxaccountincomingarchive-getmessage-vb">GetMessage</a>, regardless of whether the process is drawing.
+<a href="/previous-versions/windows/desktop/fax/-mfax-faxaccountincomingarchive-getmessage-vb">GetMessage</a>, regardless of whether the process is drawing.
 
 </td>
 </tr>
@@ -211,7 +211,7 @@ This flag is only valid for console applications running on an x86 computer.
 </dl>
 </td>
 <td width="60%">
-The <b>lpTitle</b> member contains an AppUserModelID. This identifier controls how the taskbar and <b>Start</b> menu present the application, and enables it to be associated with the correct shortcuts and Jump Lists. Generally, applications will use the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-getcurrentprocessexplicitappusermodelid">SetCurrentProcessExplicitAppUserModelID</a> and <b>GetCurrentProcessExplicitAppUserModelID</b> functions instead of setting this flag. For more information, see <a href="https://docs.microsoft.com/windows/desktop/shell/appids">Application User Model IDs</a>.
+The <b>lpTitle</b> member contains an AppUserModelID. This identifier controls how the taskbar and <b>Start</b> menu present the application, and enables it to be associated with the correct shortcuts and Jump Lists. Generally, applications will use the <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-getcurrentprocessexplicitappusermodelid">SetCurrentProcessExplicitAppUserModelID</a> and <b>GetCurrentProcessExplicitAppUserModelID</b> functions instead of setting this flag. For more information, see <a href="/windows/desktop/shell/appids">Application User Model IDs</a>.
 
 If STARTF_PREVENTPINNING is used, application windows cannot be pinned on the taskbar. The use of any AppUserModelID-related window properties by the application overrides this setting for that window only.
 
@@ -334,12 +334,12 @@ The <b>hStdInput</b>, <b>hStdOutput</b>, and <b>hStdError</b> members contain ad
 
 If this flag is specified when calling one of the process creation functions, the handles must be inheritable and the 
 function's <i>bInheritHandles</i> parameter must be set to TRUE. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/SysInfo/handle-inheritance">Handle Inheritance</a>.
+<a href="/windows/desktop/SysInfo/handle-inheritance">Handle Inheritance</a>.
 
-If this flag is specified when calling the [GetStartupInfo](/windows/win32/api/processthreadsapi/nf-processthreadsapi-getstartupinfow) function, these members are either the handle value specified during process creation or INVALID_HANDLE_VALUE.
+If this flag is specified when calling the [GetStartupInfo](./nf-processthreadsapi-getstartupinfow.md) function, these members are either the handle value specified during process creation or INVALID_HANDLE_VALUE.
 
 Handles must be closed with 
-<a href="https://docs.microsoft.com/windows/desktop/api/handleapi/nf-handleapi-closehandle">CloseHandle</a> when they are no longer needed.
+<a href="/windows/desktop/api/handleapi/nf-handleapi-closehandle">CloseHandle</a> when they are no longer needed.
 
 This flag cannot be used with <b>STARTF_USEHOTKEY</b>.
 
@@ -349,13 +349,13 @@ This flag cannot be used with <b>STARTF_USEHOTKEY</b>.
 
 ### -field wShowWindow
 
-If <b>dwFlags</b> specifies STARTF_USESHOWWINDOW, this member can be any of the values that can be specified in the <i>nCmdShow</i> parameter for the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-showwindow">ShowWindow</a> function, except for SW_SHOWDEFAULT. Otherwise, this member is ignored. 
+If <b>dwFlags</b> specifies STARTF_USESHOWWINDOW, this member can be any of the values that can be specified in the <i>nCmdShow</i> parameter for the <a href="/windows/desktop/api/winuser/nf-winuser-showwindow">ShowWindow</a> function, except for SW_SHOWDEFAULT. Otherwise, this member is ignored. 
 
 
 
 
 For GUI processes, the first time 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-showwindow">ShowWindow</a> is called, its <i>nCmdShow</i> parameter is ignored <b>wShowWindow</b> specifies the default value. In subsequent calls to <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-showwindow">ShowWindow</a>, the <b>wShowWindow</b> member is used if the <i>nCmdShow</i> parameter of <b>ShowWindow</b> is set to SW_SHOWDEFAULT.
+<a href="/windows/desktop/api/winuser/nf-winuser-showwindow">ShowWindow</a> is called, its <i>nCmdShow</i> parameter is ignored <b>wShowWindow</b> specifies the default value. In subsequent calls to <a href="/windows/desktop/api/winuser/nf-winuser-showwindow">ShowWindow</a>, the <b>wShowWindow</b> member is used if the <i>nCmdShow</i> parameter of <b>ShowWindow</b> is set to SW_SHOWDEFAULT.
 
 ### -field cbReserved2
 
@@ -369,7 +369,7 @@ Reserved for use by the C Run-time; must be NULL.
 
 If <b>dwFlags</b> specifies STARTF_USESTDHANDLES, this member is the standard input handle for the process. If STARTF_USESTDHANDLES is not specified, the default for standard input is the keyboard buffer.
 
-If <b>dwFlags</b> specifies STARTF_USEHOTKEY, this member specifies a hotkey value that is sent as the <i>wParam</i> parameter of a <a href="https://msdn.microsoft.com/library/ms646284(VS.85).aspx">WM_SETHOTKEY</a> message to the first  eligible top-level window created by the application that owns the process. If the window is created with the WS_POPUP window style, it is not eligible unless the WS_EX_APPWINDOW extended window style is also set. For more information, see <a href="https://msdn.microsoft.com/library/ms632680(VS.85).aspx">CreateWindowEx</a>.  
+If <b>dwFlags</b> specifies STARTF_USEHOTKEY, this member specifies a hotkey value that is sent as the <i>wParam</i> parameter of a <a href="/windows/win32/inputdev/wm-sethotkey">WM_SETHOTKEY</a> message to the first  eligible top-level window created by the application that owns the process. If the window is created with the WS_POPUP window style, it is not eligible unless the WS_EX_APPWINDOW extended window style is also set. For more information, see <a href="/windows/win32/api/winuser/nf-winuser-createwindowexa">CreateWindowEx</a>.  
 
 Otherwise, this member is ignored.
 
@@ -386,16 +386,16 @@ If <b>dwFlags</b> specifies STARTF_USESTDHANDLES, this member is the standard er
 ## -remarks
 
 For graphical user interface (GUI) processes, this information affects the first window created by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createwindowa">CreateWindow</a> function and shown by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-showwindow">ShowWindow</a> function. For console processes, this information affects the console window if a new console is created for the process. A process can use the 
-[GetStartupInfo](/windows/win32/api/processthreadsapi/nf-processthreadsapi-getstartupinfow) function to retrieve the 
+<a href="/windows/desktop/api/winuser/nf-winuser-createwindowa">CreateWindow</a> function and shown by the 
+<a href="/windows/desktop/api/winuser/nf-winuser-showwindow">ShowWindow</a> function. For console processes, this information affects the console window if a new console is created for the process. A process can use the 
+[GetStartupInfo](./nf-processthreadsapi-getstartupinfow.md) function to retrieve the 
 <b>STARTUPINFO</b> structure specified when the process was created.
 
 If a GUI process is being started and neither STARTF_FORCEONFEEDBACK or STARTF_FORCEOFFFEEDBACK is specified, the process feedback cursor is used. A GUI process is one whose subsystem is specified as "windows."
 
-If a process is launched from the taskbar or jump list, the system sets [GetStartupInfo](/windows/win32/api/processthreadsapi/nf-processthreadsapi-getstartupinfow) to retrieve the <b>STARTUPINFO</b> structure and check that <b>hStdOutput</b> is set. If so, use <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getmonitorinfoa">GetMonitorInfo</a> to check whether <b>hStdOutput</b> is a valid monitor handle (HMONITOR). The process can then use the handle to position its windows.
+If a process is launched from the taskbar or jump list, the system sets [GetStartupInfo](./nf-processthreadsapi-getstartupinfow.md) to retrieve the <b>STARTUPINFO</b> structure and check that <b>hStdOutput</b> is set. If so, use <a href="/windows/desktop/api/winuser/nf-winuser-getmonitorinfoa">GetMonitorInfo</a> to check whether <b>hStdOutput</b> is a valid monitor handle (HMONITOR). The process can then use the handle to position its windows.
 
-If the [GetStartupInfo](/windows/win32/api/processthreadsapi/nf-processthreadsapi-getstartupinfow) function, then applications should be aware that the command line is untrusted. If this flag is set, applications should disable potentially dangerous features such as macros, downloaded content, and automatic printing. This flag is optional. Applications that call <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessa">CreateProcess</a> are encouraged to set this flag when launching a program with a untrusted command line so that the created process can apply appropriate policy.
+If the [GetStartupInfo](./nf-processthreadsapi-getstartupinfow.md) function, then applications should be aware that the command line is untrusted. If this flag is set, applications should disable potentially dangerous features such as macros, downloaded content, and automatic printing. This flag is optional. Applications that call <a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessa">CreateProcess</a> are encouraged to set this flag when launching a program with a untrusted command line so that the created process can apply appropriate policy.
 
 The <b>STARTF_UNTRUSTEDSOURCE</b> flag is supported starting in Windows Vista, but it is not defined in the SDK header files prior to the Windows 10 SDK. To use the flag in versions prior to Windows 10, you can define it manually in your program.
 
@@ -403,7 +403,7 @@ The <b>STARTF_UNTRUSTEDSOURCE</b> flag is supported starting in Windows Vista, b
 #### Examples
 
 For an example, see 
-<a href="https://docs.microsoft.com/windows/desktop/ProcThread/creating-processes">Creating Processes</a>.
+<a href="/windows/desktop/ProcThread/creating-processes">Creating Processes</a>.
 
 <div class="code"></div>
 
@@ -415,21 +415,20 @@ For an example, see
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessa">CreateProcess</a>
+<a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessa">CreateProcess</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessasusera">CreateProcessAsUser</a>
+<a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessasusera">CreateProcessAsUser</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-createprocesswithlogonw">CreateProcessWithLogonW</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-createprocesswithlogonw">CreateProcessWithLogonW</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-createprocesswithtokenw">CreateProcessWithTokenW</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-createprocesswithtokenw">CreateProcessWithTokenW</a>
 
 
 
-[GetStartupInfo](/windows/win32/api/processthreadsapi/nf-processthreadsapi-getstartupinfow)
-
+[GetStartupInfo](./nf-processthreadsapi-getstartupinfow.md)

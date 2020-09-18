@@ -83,7 +83,7 @@ If the buffer specified by the <i>pbCustomAuthData</i> parameter is not large en
 
 If the function succeeds, the return value is <b>ERROR_SUCCESS</b>.
 
-If the function fails, the return value is one of the following error codes or a value from <a href="https://docs.microsoft.com/windows/desktop/RRAS/routing-and-remote-access-error-codes">Routing and Remote Access Error Codes</a> or Winerror.h.
+If the function fails, the return value is one of the following error codes or a value from <a href="/windows/desktop/RRAS/routing-and-remote-access-error-codes">Routing and Remote Access Error Codes</a> or Winerror.h.
 
 <table>
 <tr>
@@ -120,7 +120,7 @@ The buffer pointed to by <i>pbCustomAuthData</i> is too small to receive the dat
 </td>
 <td width="60%">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ras/nf-ras-rasgeteapuserdataa">RasGetEapUserData</a> was unable to open the specified phone-book file.
+<a href="/windows/desktop/api/ras/nf-ras-rasgeteapuserdataa">RasGetEapUserData</a> was unable to open the specified phone-book file.
 
 </td>
 </tr>
@@ -132,7 +132,7 @@ The buffer pointed to by <i>pbCustomAuthData</i> is too small to receive the dat
 </td>
 <td width="60%">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ras/nf-ras-rasgeteapuserdataa">RasGetEapUserData</a> was unable to find the specified entry in the phone book.
+<a href="/windows/desktop/api/ras/nf-ras-rasgeteapuserdataa">RasGetEapUserData</a> was unable to find the specified entry in the phone book.
 
 </td>
 </tr>
@@ -144,7 +144,7 @@ The buffer pointed to by <i>pbCustomAuthData</i> is too small to receive the dat
 </td>
 <td width="60%">
 Use 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a> to retrieve the system error message that corresponds to the error code returned.
+<a href="/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a> to retrieve the system error message that corresponds to the error code returned.
 
 </td>
 </tr>
@@ -152,14 +152,13 @@ Use
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ras/nf-ras-rasgeteapuserdataa">RasGetEapUserData</a>
+<a href="/windows/desktop/api/ras/nf-ras-rasgeteapuserdataa">RasGetEapUserData</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ras/nf-ras-rassetcustomauthdataa">RasSetCustomAuthData</a>
+<a href="/windows/desktop/api/ras/nf-ras-rassetcustomauthdataa">RasSetCustomAuthData</a>
 
 ## -remarks
 
 > [!NOTE]
 > The ras.h header defines RasGetCustomAuthData as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

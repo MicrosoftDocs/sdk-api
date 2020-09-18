@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-Cancels the operation started by <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfsavejob-beginsave">IMFSaveJob::BeginSave</a>.
+Cancels the operation started by <a href="/windows/desktop/api/mfidl/nf-mfidl-imfsavejob-beginsave">IMFSaveJob::BeginSave</a>.
 
 ## -parameters
 
@@ -79,5 +79,4 @@ The method succeeded.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfsavejob">IMFSaveJob</a>
-
+<a href="/windows/desktop/api/mfidl/nn-mfidl-imfsavejob">IMFSaveJob</a>

@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Retrieves a line of text from an edit or rich edit control. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/em-getline">EM_GETLINE</a> message explicitly.
+Retrieves a line of text from an edit or rich edit control. You can use this macro or send the <a href="/windows/desktop/Controls/em-getline">EM_GETLINE</a> message explicitly.
 
 ## -parameters
 
 ### -param hwndCtl
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the control.
 
@@ -68,7 +68,7 @@ The zero-based index of the line. This parameter is ignored by a single-line edi
 
 ### -param lpch
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPTSTR</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">LPTSTR</a></b>
 
 A pointer to a buffer that receives the string.
 
@@ -80,5 +80,4 @@ The maximum number of characters to be copied to the buffer.
 
 ## -remarks
 
-For more information, see <a href="https://docs.microsoft.com/windows/desktop/Controls/em-getline">EM_GETLINE</a>
-
+For more information, see <a href="/windows/desktop/Controls/em-getline">EM_GETLINE</a>

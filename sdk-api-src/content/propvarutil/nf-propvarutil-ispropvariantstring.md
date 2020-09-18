@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Specifies whether a specified <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structure is a string type.
+Specifies whether a specified <a href="/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structure is a string type.
 
 ## -parameters
 
@@ -58,21 +58,20 @@ Specifies whether a specified <a href="https://docs.microsoft.com/windows/deskto
 
 Type: <b>REFPROPVARIANT</b>
 
-Reference to the <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structure.
+Reference to the <a href="/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structure.
 
 ## -returns
 
 Type: <b>BOOL</b>
 
-Returns <b>TRUE</b> if <i>propvar</i> is a VT_LPWSTR or VT_BSTR <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a>; otherwise, <b>FALSE</b>.
+Returns <b>TRUE</b> if <i>propvar</i> is a VT_LPWSTR or VT_BSTR <a href="/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a>; otherwise, <b>FALSE</b>.
 
 ## -remarks
 
-If this function returns <b>TRUE</b>, the <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structure referenced in <i>propvar</i> contains a Unicode string. To retrieve it, call <a href="https://docs.microsoft.com/windows/desktop/api/propvarutil/nf-propvarutil-propvarianttostringwithdefault">PropVariantToStringWithDefault</a> as shown here:
+If this function returns <b>TRUE</b>, the <a href="/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structure referenced in <i>propvar</i> contains a Unicode string. To retrieve it, call <a href="/windows/desktop/api/propvarutil/nf-propvarutil-propvarianttostringwithdefault">PropVariantToStringWithDefault</a> as shown here:
 
                 
 
 <code>PropVariantToStringWithDefault(propvar, NULL);</code>
 
 This is an inline function, with its source code provided in the header. It is not included in any .dll or .lib file.
-

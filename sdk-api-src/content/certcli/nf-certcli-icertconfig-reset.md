@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-The <b>Reset</b> method resets the configuration query <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">state</a> to point at the Certificate Services server configuration indexed on the specified configuration point. This method was first defined in the <a href="https://docs.microsoft.com/windows/desktop/api/certcli/nn-certcli-icertconfig">ICertConfig</a> interface.
+The <b>Reset</b> method resets the configuration query <a href="/windows/desktop/SecGloss/s-gly">state</a> to point at the Certificate Services server configuration indexed on the specified configuration point. This method was first defined in the <a href="/windows/desktop/api/certcli/nn-certcli-icertconfig">ICertConfig</a> interface.
 
 Each individual configuration indicates a specific Certificate Services server. Some Certificate Services servers may have multiple valid configurations in the configuration database.
 
@@ -71,20 +71,19 @@ A pointer to the number of configurations in the enterprise.
 <h3>C++</h3>
  If the method succeeds, the method returns S_OK, and the <i>pCount</i> parameter points to a <b>Long</b> that contains the number of configurations in the enterprise.
 
-If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
+If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 <h3>VB</h3>
  The return value is the number of configurations in the enterprise.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certcli/nn-certcli-icertconfig">ICertConfig</a>
+<a href="/windows/desktop/api/certcli/nn-certcli-icertconfig">ICertConfig</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certcli/nn-certcli-icertconfig2">ICertConfig2</a>
+<a href="/windows/desktop/api/certcli/nn-certcli-icertconfig2">ICertConfig2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certcli/nf-certcli-icertconfig-next">Next</a>
-
+<a href="/windows/desktop/api/certcli/nf-certcli-icertconfig-next">Next</a>

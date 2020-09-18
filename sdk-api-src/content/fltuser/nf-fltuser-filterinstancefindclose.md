@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-The <b>FilterInstanceFindClose</b> function closes the specified minifilter instance search handle. The <a href="https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filterinstancefindfirst">FilterInstanceFindFirst</a> and <a href="https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filterinstancefindnext">FilterInstanceFindNext</a> functions use this search handle to locate instances of a minifilter.
+The <b>FilterInstanceFindClose</b> function closes the specified minifilter instance search handle. The <a href="/windows/desktop/api/fltuser/nf-fltuser-filterinstancefindfirst">FilterInstanceFindFirst</a> and <a href="/windows/desktop/api/fltuser/nf-fltuser-filterinstancefindnext">FilterInstanceFindNext</a> functions use this search handle to locate instances of a minifilter.
 
 ## -parameters
 
 ### -param hFilterInstanceFind [in]
 
-Minifilter instance search handle to close. This handle must have been opened by a previous call to <a href="https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filterinstancefindfirst">FilterInstanceFindFirst</a>.
+Minifilter instance search handle to close. This handle must have been opened by a previous call to <a href="/windows/desktop/api/fltuser/nf-fltuser-filterinstancefindfirst">FilterInstanceFindFirst</a>.
 
 ## -returns
 
@@ -64,23 +64,22 @@ Minifilter instance search handle to close. This handle must have been opened by
 
 ## -remarks
 
-After the <b>FilterInstanceFindClose</b> function is called, the minifilter instance search handle specified by the <i>hFilterInstanceFind</i> parameter cannot be used in subsequent calls to <a href="https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filterinstancefindfirst">FilterInstanceFindFirst</a> or <b>FilterInstanceFindClose</b>. 
+After the <b>FilterInstanceFindClose</b> function is called, the minifilter instance search handle specified by the <i>hFilterInstanceFind</i> parameter cannot be used in subsequent calls to <a href="/windows/desktop/api/fltuser/nf-fltuser-filterinstancefindfirst">FilterInstanceFindFirst</a> or <b>FilterInstanceFindClose</b>. 
 
-Use <b>FilterInstanceFindClose</b> to close handles returned by calls to <a href="https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filterinstancefindfirst">FilterInstanceFindFirst</a>. Use <a href="https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filterinstanceclose">FilterInstanceClose</a> to close handles returned by calls to <a href="https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filterinstancecreate">FilterInstanceCreate</a>.
+Use <b>FilterInstanceFindClose</b> to close handles returned by calls to <a href="/windows/desktop/api/fltuser/nf-fltuser-filterinstancefindfirst">FilterInstanceFindFirst</a>. Use <a href="/windows/desktop/api/fltuser/nf-fltuser-filterinstanceclose">FilterInstanceClose</a> to close handles returned by calls to <a href="/windows/desktop/api/fltuser/nf-fltuser-filterinstancecreate">FilterInstanceCreate</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filterinstanceclose">FilterInstanceClose</a>
+<a href="/windows/desktop/api/fltuser/nf-fltuser-filterinstanceclose">FilterInstanceClose</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filterinstancecreate">FilterInstanceCreate</a>
+<a href="/windows/desktop/api/fltuser/nf-fltuser-filterinstancecreate">FilterInstanceCreate</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filterinstancefindfirst">FilterInstanceFindFirst</a>
+<a href="/windows/desktop/api/fltuser/nf-fltuser-filterinstancefindfirst">FilterInstanceFindFirst</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filterinstancefindnext">FilterInstanceFindNext</a>
-
+<a href="/windows/desktop/api/fltuser/nf-fltuser-filterinstancefindnext">FilterInstanceFindNext</a>

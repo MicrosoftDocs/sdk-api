@@ -55,7 +55,7 @@ Encapsulates the functionality of one or more output protection systems that a t
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFOutputTrustAuthority</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFOutputTrustAuthority</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFOutputTrustAuthority</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFOutputTrustAuthority</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>IMFOutputTrustAuthority</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfoutputtrustauthority-getaction">GetAction</a>
+<a href="/windows/desktop/api/mfidl/nf-mfidl-imfoutputtrustauthority-getaction">GetAction</a>
 </td>
 <td align="left" width="63%">
 Retrieves the action that is performed by this OTA.
@@ -79,7 +79,7 @@ Retrieves the action that is performed by this OTA.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfoutputtrustauthority-setpolicy">SetPolicy</a>
+<a href="/windows/desktop/api/mfidl/nf-mfidl-imfoutputtrustauthority-setpolicy">SetPolicy</a>
 </td>
 <td align="left" width="63%">
 Sets one or more policy objects on the OTA.
@@ -90,5 +90,4 @@ Sets one or more policy objects on the OTA.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
-
+<a href="/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>

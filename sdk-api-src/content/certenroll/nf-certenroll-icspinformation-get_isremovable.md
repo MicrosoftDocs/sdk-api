@@ -65,9 +65,8 @@ Operator cards and  smart cards are examples of removable tokens that can contai
 </ul>
 
 
-The Certificate Enrollment service assumes that a provider is a smart card provider if both the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-icspinformation-get_ishardwaredevice">IsHardwareDevice</a> and <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-icspinformation-get_issoftwaredevice">IsSoftwareDevice</a> properties are set, or if the <b>IsRemovable</b> property is set.
+The Certificate Enrollment service assumes that a provider is a smart card provider if both the <a href="/windows/desktop/api/certenroll/nf-certenroll-icspinformation-get_ishardwaredevice">IsHardwareDevice</a> and <a href="/windows/desktop/api/certenroll/nf-certenroll-icspinformation-get_issoftwaredevice">IsSoftwareDevice</a> properties are set, or if the <b>IsRemovable</b> property is set.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icspinformation">ICspInformation</a>
-
+<a href="/windows/desktop/api/certenroll/nn-certenroll-icspinformation">ICspInformation</a>

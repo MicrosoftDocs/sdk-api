@@ -60,8 +60,8 @@ or encryption.  So, it is used in conjunction with another transport
 security or message security binding that provides message protection.
             
 
-Only one instance of this binding may be present in a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_security_description">security description</a>.
-          This security binding is not supported with the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_channel_binding">WS_NAMEDPIPE_CHANNEL_BINDING</a>.
+Only one instance of this binding may be present in a <a href="/windows/desktop/api/webservices/ns-webservices-ws_security_description">security description</a>.
+          This security binding is not supported with the <a href="/windows/desktop/api/webservices/ne-webservices-ws_channel_binding">WS_NAMEDPIPE_CHANNEL_BINDING</a>.
 
 With this security binding, no security binding properties may be specified.
 
@@ -76,11 +76,11 @@ The base type from which this security binding subtype and all other security bi
 How the security token corresponding to this security binding should be bound to a message.
                 
 
-Only <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_message_security_usage">WS_SUPPORTING_MESSAGE_SECURITY_USAGE</a> is
+Only <a href="/windows/desktop/api/webservices/ne-webservices-ws_message_security_usage">WS_SUPPORTING_MESSAGE_SECURITY_USAGE</a> is
 supported.  With this usage, this security binding provides client
 authentication, but not message protection (such as signing, encryption,
 replay detection).  Thus, this binding must be used together with
-                        another security binding such as the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_ssl_transport_security_binding">WS_SSL_TRANSPORT_SECURITY_BINDING</a> 
+                        another security binding such as the <a href="/windows/desktop/api/webservices/ns-webservices-ws_ssl_transport_security_binding">WS_SSL_TRANSPORT_SECURITY_BINDING</a> 
                         that provides a protected channel.
 
 
@@ -101,4 +101,3 @@ service.
 ### -field passwordValidatorCallbackState
 
 The optional state to be passed in as an argument when the username validator is invoked.
-

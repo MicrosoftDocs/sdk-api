@@ -62,11 +62,11 @@ Handle to the MIDI input device.
 
 ### -param pmh
 
-Pointer to a <a href="https://docs.microsoft.com/previous-versions/dd798449(v=vs.85)">MIDIHDR</a> structure that identifies the buffer.
+Pointer to a <a href="/previous-versions/dd798449(v=vs.85)">MIDIHDR</a> structure that identifies the buffer.
 
 ### -param cbmh
 
-Size, in bytes, of the <a href="https://docs.microsoft.com/previous-versions/dd798449(v=vs.85)">MIDIHDR</a> structure.
+Size, in bytes, of the <a href="/previous-versions/dd798449(v=vs.85)">MIDIHDR</a> structure.
 
 ## -returns
 
@@ -138,9 +138,8 @@ The system is unable to allocate or lock memory.
 
 When the buffer is filled, it is sent back to the application.
 
-The buffer must be prepared by using the <a href="https://docs.microsoft.com/previous-versions/dd798459(v=vs.85)">midiInPrepareHeader</a> function before it is passed to the <b>midiInAddBuffer</b> function.
+The buffer must be prepared by using the <a href="/previous-versions/dd798459(v=vs.85)">midiInPrepareHeader</a> function before it is passed to the <b>midiInAddBuffer</b> function.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/midi-functions">MIDI Functions</a>
-
+<a href="/windows/desktop/Multimedia/midi-functions">MIDI Functions</a>

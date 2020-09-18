@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Gets the <a href="https://docs.microsoft.com/windows/desktop/api/inspectable/nn-inspectable-iinspectable">IInspectable</a> from the XAML Diagnostics
+Gets the <a href="/windows/desktop/api/inspectable/nn-inspectable-iinspectable">IInspectable</a> from the XAML Diagnostics
     cache.
 
 ## -parameters
@@ -61,7 +61,7 @@ A handle to the object.
 
 ### -param ppInstance [out, retval]
 
-The object as an <a href="https://docs.microsoft.com/windows/desktop/api/inspectable/nn-inspectable-iinspectable">IInspectable</a>.
+The object as an <a href="/windows/desktop/api/inspectable/nn-inspectable-iinspectable">IInspectable</a>.
 
 ## -returns
 
@@ -74,5 +74,4 @@ This method will fail if XAML Diagnostics no longer has a reference to
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/xamlom/nn-xamlom-ixamldiagnostics">IXamlDiagnostics</a>
-
+<a href="/previous-versions/windows/desktop/api/xamlom/nn-xamlom-ixamldiagnostics">IXamlDiagnostics</a>

@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Provides the methods for creating and managing the component or file that contains type information. Derives from <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-icreatetypelib">ICreateTypeLib</a>. The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-icreatetypeinfo">ICreateTypeInfo</a> instance returned from <b>ICreateTypeLib</b> can be accessed through a <b>QueryInterface</b> call to <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-icreatetypeinfo2">ICreateTypeInfo2</a>.
+Provides the methods for creating and managing the component or file that contains type information. Derives from <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-icreatetypelib">ICreateTypeLib</a>. The <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-icreatetypeinfo">ICreateTypeInfo</a> instance returned from <b>ICreateTypeLib</b> can be accessed through a <b>QueryInterface</b> call to <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-icreatetypeinfo2">ICreateTypeInfo2</a>.
 
 ## -inheritance
 
@@ -69,7 +69,7 @@ The <b>ICreateTypeLib2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-icreatetypelib2-deletetypeinfo">DeleteTypeInfo</a>
+<a href="/previous-versions/windows/desktop/api/oaidl/nf-oaidl-icreatetypelib2-deletetypeinfo">DeleteTypeInfo</a>
 </td>
 <td align="left" width="63%">
 Deletes a specified type information from the type library.
@@ -78,7 +78,7 @@ Deletes a specified type information from the type library.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-icreatetypelib2-setcustdata">SetCustData</a>
+<a href="/previous-versions/windows/desktop/api/oaidl/nf-oaidl-icreatetypelib2-setcustdata">SetCustData</a>
 </td>
 <td align="left" width="63%">
 Sets a value to custom data.
@@ -87,7 +87,7 @@ Sets a value to custom data.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-icreatetypelib2-sethelpstringcontext">SetHelpStringContext</a>
+<a href="/previous-versions/windows/desktop/api/oaidl/nf-oaidl-icreatetypelib2-sethelpstringcontext">SetHelpStringContext</a>
 </td>
 <td align="left" width="63%">
 Sets the Help string context number.
@@ -96,7 +96,7 @@ Sets the Help string context number.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-icreatetypelib2-sethelpstringdll">SetHelpStringDll</a>
+<a href="/previous-versions/windows/desktop/api/oaidl/nf-oaidl-icreatetypelib2-sethelpstringdll">SetHelpStringDll</a>
 </td>
 <td align="left" width="63%">
 Sets the DLL name to be used for Help string lookup (for localization purposes).
@@ -107,5 +107,4 @@ Sets the DLL name to be used for Help string lookup (for localization purposes).
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/automat/using-type-building-interfaces-and-functions">Type Building Interfaces and Functions </a>
-
+<a href="/previous-versions/windows/desktop/automat/using-type-building-interfaces-and-functions">Type Building Interfaces and Functions </a>

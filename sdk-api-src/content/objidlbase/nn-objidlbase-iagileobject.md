@@ -60,5 +60,4 @@ Unlike what happens when aggregating the Free Threaded Marshaler (FTM), implemen
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
-
+<a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>

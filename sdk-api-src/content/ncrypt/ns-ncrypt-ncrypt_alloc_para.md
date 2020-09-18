@@ -53,13 +53,13 @@ api_name:
 The <b>NCRYPT_ALLOC_PARA</b> structure enables you to specify custom functions that can be used to allocate and free data. This structure is used in the following functions:
 <ul>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/ncryptprotect/nf-ncryptprotect-ncryptgetprotectiondescriptorinfo">NCryptGetProtectionDescriptorInfo</a>
+<a href="/windows/desktop/api/ncryptprotect/nf-ncryptprotect-ncryptgetprotectiondescriptorinfo">NCryptGetProtectionDescriptorInfo</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/ncryptprotect/nf-ncryptprotect-ncryptprotectsecret">NCryptProtectSecret</a>
+<a href="/windows/desktop/api/ncryptprotect/nf-ncryptprotect-ncryptprotectsecret">NCryptProtectSecret</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/ncryptprotect/nf-ncryptprotect-ncryptunprotectsecret">NCryptUnprotectSecret</a>
+<a href="/windows/desktop/api/ncryptprotect/nf-ncryptprotect-ncryptunprotectsecret">NCryptUnprotectSecret</a>
 </li>
 </ul>
 
@@ -79,13 +79,12 @@ Address of a function that can free memory allocated by the function specified b
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ncryptprotect/nf-ncryptprotect-ncryptgetprotectiondescriptorinfo">NCryptGetProtectionDescriptorInfo</a>
+<a href="/windows/desktop/api/ncryptprotect/nf-ncryptprotect-ncryptgetprotectiondescriptorinfo">NCryptGetProtectionDescriptorInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ncryptprotect/nf-ncryptprotect-ncryptprotectsecret">NCryptProtectSecret</a>
+<a href="/windows/desktop/api/ncryptprotect/nf-ncryptprotect-ncryptprotectsecret">NCryptProtectSecret</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ncryptprotect/nf-ncryptprotect-ncryptunprotectsecret">NCryptUnprotectSecret</a>
-
+<a href="/windows/desktop/api/ncryptprotect/nf-ncryptprotect-ncryptunprotectsecret">NCryptUnprotectSecret</a>

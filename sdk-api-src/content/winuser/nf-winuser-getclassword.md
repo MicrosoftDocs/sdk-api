@@ -53,7 +53,7 @@ api_name:
 
 Retrieves the 16-bit (<b>WORD</b>) value at the specified offset into the extra class memory for the window class to which the specified window belongs. 
 		
-<div class="alert"><b>Note</b>  This function is deprecated for any use other than <i>nIndex</i> set to <b>GCW_ATOM</b>. The function is provided only for compatibility with 16-bit versions of Windows. Applications should use the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getclasslonga">GetClassLongPtr</a> or <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getclasslongptra">GetClassLongPtr</a> function.</div><div> </div>
+<div class="alert"><b>Note</b>  This function is deprecated for any use other than <i>nIndex</i> set to <b>GCW_ATOM</b>. The function is provided only for compatibility with 16-bit versions of Windows. Applications should use the <a href="/windows/desktop/api/winuser/nf-winuser-getclasslonga">GetClassLongPtr</a> or <a href="/windows/desktop/api/winuser/nf-winuser-getclasslongptra">GetClassLongPtr</a> function.</div><div> </div>
 
 ## -parameters
 
@@ -81,7 +81,7 @@ The zero-based byte offset of the value to be retrieved. Valid values are in the
 </dl>
 </td>
 <td width="60%">
-Retrieves an <b>ATOM</b> value that uniquely identifies the window class. This is the same atom that the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-registerclassa">RegisterClass</a> or <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-registerclassexa">RegisterClassEx</a> function returns.
+Retrieves an <b>ATOM</b> value that uniquely identifies the window class. This is the same atom that the <a href="/windows/desktop/api/winuser/nf-winuser-registerclassa">RegisterClass</a> or <a href="/windows/desktop/api/winuser/nf-winuser-registerclassexa">RegisterClassEx</a> function returns.
 
 </td>
 </tr>
@@ -93,12 +93,12 @@ Type: <b>WORD</b>
 
 If the function succeeds, the return value is the requested 16-bit value.
 
-If the function fails, the return value is zero. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+If the function fails, the return value is zero. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
 Reserve extra class memory by specifying a nonzero value in the 
-				<b>cbClsExtra</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-wndclassa">WNDCLASS</a> structure used with the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-registerclassa">RegisterClass</a> function.
+				<b>cbClsExtra</b> member of the <a href="/windows/desktop/api/winuser/ns-winuser-wndclassa">WNDCLASS</a> structure used with the <a href="/windows/desktop/api/winuser/nf-winuser-registerclassa">RegisterClass</a> function.
 
 ## -see-also
 
@@ -106,7 +106,7 @@ Reserve extra class memory by specifying a nonzero value in the
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getclasslonga">GetClassLong</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-getclasslonga">GetClassLong</a>
 
 
 
@@ -114,21 +114,20 @@ Reserve extra class memory by specifying a nonzero value in the
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-registerclassa">RegisterClass</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-registerclassa">RegisterClass</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-registerclassexa">RegisterClassEx</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-registerclassexa">RegisterClassEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setclassword">SetClassWord</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-setclassword">SetClassWord</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-wndclassa">WNDCLASS</a>
+<a href="/windows/desktop/api/winuser/ns-winuser-wndclassa">WNDCLASS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/winmsg/window-classes">Window Classes</a>
-
+<a href="/windows/desktop/winmsg/window-classes">Window Classes</a>

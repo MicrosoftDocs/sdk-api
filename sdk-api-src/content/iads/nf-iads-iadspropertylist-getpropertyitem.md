@@ -64,23 +64,23 @@ Contains one of the <a href="/windows/win32/api/iads/ne-iads-adstypeenum">ADSTYP
 
 ### -param pVariant [in, out]
 
-Address of a caller-allocated <b>VARIANT</b> variable. On return, the <b>VARIANT</b> contains the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface pointer of the object which implements the  <a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadspropertyentry">IADsPropertyEntry</a> interface for the retrieved attribute.
+Address of a caller-allocated <b>VARIANT</b> variable. On return, the <b>VARIANT</b> contains the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface pointer of the object which implements the  <a href="/windows/desktop/api/iads/nn-iads-iadspropertyentry">IADsPropertyEntry</a> interface for the retrieved attribute.
 
-Any memory allocated for this parameter must be released with the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-variantclear">VariantClear</a> function when the data is no longer required.
+Any memory allocated for this parameter must be released with the <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-variantclear">VariantClear</a> function when the data is no longer required.
 
 ## -returns
 
-This method supports the standard <b>HRESULT</b> return values, including <b>S_OK</b>. If the requested property item is not found, the method returns <b>ADS_PROPERTY_NOT_FOUND</b>. For more information and other return values, see  <a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-error-codes">ADSI Error Codes</a>.
+This method supports the standard <b>HRESULT</b> return values, including <b>S_OK</b>. If the requested property item is not found, the method returns <b>ADS_PROPERTY_NOT_FOUND</b>. For more information and other return values, see  <a href="/windows/desktop/ADSI/adsi-error-codes">ADSI Error Codes</a>.
 
 ## -remarks
 
-The property of the <a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadspropertyvalue">IADsPropertyValue</a> object returned by this method that can be used will depend on the type specified in <i>lnADsType</i>. The following table maps the data type to the appropriate <a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadspropertyentry">IADsPropertyEntry</a> property.
+The property of the <a href="/windows/desktop/api/iads/nn-iads-iadspropertyvalue">IADsPropertyValue</a> object returned by this method that can be used will depend on the type specified in <i>lnADsType</i>. The following table maps the data type to the appropriate <a href="/windows/desktop/api/iads/nn-iads-iadspropertyentry">IADsPropertyEntry</a> property.
 
 <table>
 <tr>
 <th><i>lnADsType</i> value</th>
 <th>
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadspropertyvalue">IADsPropertyValue</a> property to use</th>
+<a href="/windows/desktop/api/iads/nn-iads-iadspropertyvalue">IADsPropertyValue</a> property to use</th>
 </tr>
 <tr>
 <td><b>ADSTYPE_INVALID</b></td>
@@ -89,66 +89,66 @@ The property of the <a href="https://docs.microsoft.com/windows/desktop/api/iads
 <tr>
 <td><b>ADSTYPE_DN_STRING</b></td>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/iadspropertyvalue-property-methods">DNString</a>
+<a href="/windows/desktop/ADSI/iadspropertyvalue-property-methods">DNString</a>
 </td>
 </tr>
 <tr>
 <td><b>ADSTYPE_CASE_EXACT_STRING</b></td>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/iadspropertyvalue-property-methods">CaseExactString</a>
+<a href="/windows/desktop/ADSI/iadspropertyvalue-property-methods">CaseExactString</a>
 </td>
 </tr>
 <tr>
 <td><b>ADSTYPE_CASE_IGNORE_STRING</b></td>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/iadspropertyvalue-property-methods">CaseIgnoreString</a>
+<a href="/windows/desktop/ADSI/iadspropertyvalue-property-methods">CaseIgnoreString</a>
 </td>
 </tr>
 <tr>
 <td><b>ADSTYPE_PRINTABLE_STRING</b></td>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/iadspropertyvalue-property-methods">PrintableString</a>
+<a href="/windows/desktop/ADSI/iadspropertyvalue-property-methods">PrintableString</a>
 </td>
 </tr>
 <tr>
 <td><b>ADSTYPE_NUMERIC_STRING</b></td>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/iadspropertyvalue-property-methods">NumericString</a>
+<a href="/windows/desktop/ADSI/iadspropertyvalue-property-methods">NumericString</a>
 </td>
 </tr>
 <tr>
 <td><b>ADSTYPE_BOOLEAN</b></td>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/iadspropertyvalue-property-methods">Boolean</a>
+<a href="/windows/desktop/ADSI/iadspropertyvalue-property-methods">Boolean</a>
 </td>
 </tr>
 <tr>
 <td><b>ADSTYPE_INTEGER</b></td>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/iadspropertyvalue-property-methods">Integer</a>
+<a href="/windows/desktop/ADSI/iadspropertyvalue-property-methods">Integer</a>
 </td>
 </tr>
 <tr>
 <td><b>ADSTYPE_OCTET_STRING</b></td>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/iadspropertyvalue-property-methods">OctetString</a>
+<a href="/windows/desktop/ADSI/iadspropertyvalue-property-methods">OctetString</a>
 </td>
 </tr>
 <tr>
 <td><b>ADSTYPE_UTC_TIME</b></td>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/iadspropertyvalue-property-methods">UTCTime</a>
+<a href="/windows/desktop/ADSI/iadspropertyvalue-property-methods">UTCTime</a>
 </td>
 </tr>
 <tr>
 <td><b>ADSTYPE_LARGE_INTEGER</b></td>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/iadspropertyvalue-property-methods">LargeInteger</a>
+<a href="/windows/desktop/ADSI/iadspropertyvalue-property-methods">LargeInteger</a>
 </td>
 </tr>
 <tr>
 <td><b>ADSTYPE_PROV_SPECIFIC</b></td>
-<td>Use <a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadspropertyvalue2-getobjectproperty">IADsPropertyValue2::GetObjectProperty</a> (VT_ARRAY | VT_UI1).</td>
+<td>Use <a href="/windows/desktop/api/iads/nf-iads-iadspropertyvalue2-getobjectproperty">IADsPropertyValue2::GetObjectProperty</a> (VT_ARRAY | VT_UI1).</td>
 </tr>
 <tr>
 <td><b>ADSTYPE_OBJECT_CLASS</b></td>
@@ -156,56 +156,56 @@ The property of the <a href="https://docs.microsoft.com/windows/desktop/api/iads
 </tr>
 <tr>
 <td><b>ADSTYPE_CASEIGNORE_LIST</b></td>
-<td>Use <a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadspropertyvalue2-getobjectproperty">IADsPropertyValue2::GetObjectProperty</a> (IADsCaseIgnoreList).</td>
+<td>Use <a href="/windows/desktop/api/iads/nf-iads-iadspropertyvalue2-getobjectproperty">IADsPropertyValue2::GetObjectProperty</a> (IADsCaseIgnoreList).</td>
 </tr>
 <tr>
 <td><b>ADSTYPE_OCTET_LIST</b></td>
-<td>Use <a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadspropertyvalue2-getobjectproperty">IADsPropertyValue2::GetObjectProperty</a> (IADsOctetList).</td>
+<td>Use <a href="/windows/desktop/api/iads/nf-iads-iadspropertyvalue2-getobjectproperty">IADsPropertyValue2::GetObjectProperty</a> (IADsOctetList).</td>
 </tr>
 <tr>
 <td><b>ADSTYPE_PATH</b></td>
-<td>Use <a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadspropertyvalue2-getobjectproperty">IADsPropertyValue2::GetObjectProperty</a> (IADsPath).</td>
+<td>Use <a href="/windows/desktop/api/iads/nf-iads-iadspropertyvalue2-getobjectproperty">IADsPropertyValue2::GetObjectProperty</a> (IADsPath).</td>
 </tr>
 <tr>
 <td><b>ADSTYPE_POSTALADDRESS</b></td>
-<td>Use <a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadspropertyvalue2-getobjectproperty">IADsPropertyValue2::GetObjectProperty</a> (IADsPostalAddress).</td>
+<td>Use <a href="/windows/desktop/api/iads/nf-iads-iadspropertyvalue2-getobjectproperty">IADsPropertyValue2::GetObjectProperty</a> (IADsPostalAddress).</td>
 </tr>
 <tr>
 <td><b>ADSTYPE_TIMESTAMP</b></td>
-<td>Use <a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadspropertyvalue2-getobjectproperty">IADsPropertyValue2::GetObjectProperty</a> (IADsTimestamp).</td>
+<td>Use <a href="/windows/desktop/api/iads/nf-iads-iadspropertyvalue2-getobjectproperty">IADsPropertyValue2::GetObjectProperty</a> (IADsTimestamp).</td>
 </tr>
 <tr>
 <td><b>ADSTYPE_BACKLINK</b></td>
-<td>Use <a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadspropertyvalue2-getobjectproperty">IADsPropertyValue2::GetObjectProperty</a> (IADsBackLink).</td>
+<td>Use <a href="/windows/desktop/api/iads/nf-iads-iadspropertyvalue2-getobjectproperty">IADsPropertyValue2::GetObjectProperty</a> (IADsBackLink).</td>
 </tr>
 <tr>
 <td><b>ADSTYPE_TYPEDNAME</b></td>
-<td>Use <a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadspropertyvalue2-getobjectproperty">IADsPropertyValue2::GetObjectProperty</a> (IADsTypedName).</td>
+<td>Use <a href="/windows/desktop/api/iads/nf-iads-iadspropertyvalue2-getobjectproperty">IADsPropertyValue2::GetObjectProperty</a> (IADsTypedName).</td>
 </tr>
 <tr>
 <td><b>ADSTYPE_HOLD</b></td>
-<td>Use <a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadspropertyvalue2-getobjectproperty">IADsPropertyValue2::GetObjectProperty</a> (IADsHold).</td>
+<td>Use <a href="/windows/desktop/api/iads/nf-iads-iadspropertyvalue2-getobjectproperty">IADsPropertyValue2::GetObjectProperty</a> (IADsHold).</td>
 </tr>
 <tr>
 <td><b>ADSTYPE_NETADDRESS</b></td>
-<td>Use <a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadspropertyvalue2-getobjectproperty">IADsPropertyValue2::GetObjectProperty</a> (IADsNetAddress).</td>
+<td>Use <a href="/windows/desktop/api/iads/nf-iads-iadspropertyvalue2-getobjectproperty">IADsPropertyValue2::GetObjectProperty</a> (IADsNetAddress).</td>
 </tr>
 <tr>
 <td><b>ADSTYPE_REPLICAPOINTER</b></td>
-<td>Use <a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadspropertyvalue2-getobjectproperty">IADsPropertyValue2::GetObjectProperty</a> (IADsReplicaPointer).</td>
+<td>Use <a href="/windows/desktop/api/iads/nf-iads-iadspropertyvalue2-getobjectproperty">IADsPropertyValue2::GetObjectProperty</a> (IADsReplicaPointer).</td>
 </tr>
 <tr>
 <td><b>ADSTYPE_FAXNUMBER</b></td>
-<td>Use <a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadspropertyvalue2-getobjectproperty">IADsPropertyValue2::GetObjectProperty</a> (IADsFaxNumber).</td>
+<td>Use <a href="/windows/desktop/api/iads/nf-iads-iadspropertyvalue2-getobjectproperty">IADsPropertyValue2::GetObjectProperty</a> (IADsFaxNumber).</td>
 </tr>
 <tr>
 <td><b>ADSTYPE_EMAIL</b></td>
-<td>Use <a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadspropertyvalue2-getobjectproperty">IADsPropertyValue2::GetObjectProperty</a> (IADsEmail).</td>
+<td>Use <a href="/windows/desktop/api/iads/nf-iads-iadspropertyvalue2-getobjectproperty">IADsPropertyValue2::GetObjectProperty</a> (IADsEmail).</td>
 </tr>
 <tr>
 <td><b>ADSTYPE_NT_SECURITY_DESCRIPTOR</b></td>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/iadspropertyvalue-property-methods">SecurityDescriptor</a>
+<a href="/windows/desktop/ADSI/iadspropertyvalue-property-methods">SecurityDescriptor</a>
 </td>
 </tr>
 <tr>
@@ -214,11 +214,11 @@ The property of the <a href="https://docs.microsoft.com/windows/desktop/api/iads
 </tr>
 <tr>
 <td><b>ADSTYPE_DN_WITH_BINARY</b></td>
-<td>Use <a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadspropertyvalue2-getobjectproperty">IADsPropertyValue2::GetObjectProperty</a> (IADsDNWithBinary).</td>
+<td>Use <a href="/windows/desktop/api/iads/nf-iads-iadspropertyvalue2-getobjectproperty">IADsPropertyValue2::GetObjectProperty</a> (IADsDNWithBinary).</td>
 </tr>
 <tr>
 <td><b>ADSTYPE_DN_WITH_STRING</b></td>
-<td>Use <a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadspropertyvalue2-getobjectproperty">IADsPropertyValue2::GetObjectProperty</a> (IADsDNWithString).</td>
+<td>Use <a href="/windows/desktop/api/iads/nf-iads-iadspropertyvalue2-getobjectproperty">IADsPropertyValue2::GetObjectProperty</a> (IADsDNWithString).</td>
 </tr>
 </table>
  
@@ -255,7 +255,7 @@ Set propVal = Nothing
 ```
 
 
-The following code example shows how to retrieve a property entry using the <b>GetPropertyItem</b> method. It assumes that the <a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadspropertylist">IADsPropertyList</a> interface has been properly retrieved. For more information about how to load the property cache, see the <a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadspropertylist">GetPropertyCache</a> example function  in  <b>IADsPropertyList</b>.
+The following code example shows how to retrieve a property entry using the <b>GetPropertyItem</b> method. It assumes that the <a href="/windows/desktop/api/iads/nn-iads-iadspropertylist">IADsPropertyList</a> interface has been properly retrieved. For more information about how to load the property cache, see the <a href="/windows/desktop/api/iads/nn-iads-iadspropertylist">GetPropertyCache</a> example function  in  <b>IADsPropertyList</b>.
 
 
 ```cpp
@@ -322,7 +322,7 @@ if(pEntry)
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-error-codes">ADSI Error Codes</a>
+<a href="/windows/desktop/ADSI/adsi-error-codes">ADSI Error Codes</a>
 
 
 
@@ -330,17 +330,16 @@ if(pEntry)
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadspropertylist">IADsPropertyList</a>
+<a href="/windows/desktop/api/iads/nn-iads-iadspropertylist">IADsPropertyList</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/iadspropertylist-property-methods">IADsPropertyList Property Methods</a>
+<a href="/windows/desktop/ADSI/iadspropertylist-property-methods">IADsPropertyList Property Methods</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-variantclear">VariantClear</a>
-
+<a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-variantclear">VariantClear</a>

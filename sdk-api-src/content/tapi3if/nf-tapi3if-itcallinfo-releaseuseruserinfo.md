@@ -52,8 +52,8 @@ api_name:
 
 The 
 <b>ReleaseUserUserInfo</b> method informs the service provider that the application has processed the user-user information obtained from the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itcallinfo-getcallinfobuffer">ITCallInfo::GetCallInfoBuffer</a> method, called with the CIB_USERUSERINFO member of 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/ne-tapi3if-callinfo_buffer">CALLINFO_BUFFER</a>, and subsequently received user-user information can now be written.
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itcallinfo-getcallinfobuffer">ITCallInfo::GetCallInfoBuffer</a> method, called with the CIB_USERUSERINFO member of 
+<a href="/windows/desktop/api/tapi3if/ne-tapi3if-callinfo_buffer">CALLINFO_BUFFER</a>, and subsequently received user-user information can now be written.
 
 ## -parameters
 
@@ -103,9 +103,8 @@ The operation failed because the TAPI 3 DLL timed it out. The timeout interval i
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/call-object">Call Object</a>
+<a href="/windows/desktop/Tapi/call-object">Call Object</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itcallinfo">ITCallInfo</a>
-
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itcallinfo">ITCallInfo</a>

@@ -87,13 +87,12 @@ This method returns an <b>ARGB</b> value that holds the specified alpha, red, gr
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdipluscolor/nl-gdipluscolor-color">Color</a>
+<a href="/windows/desktop/api/gdipluscolor/nl-gdipluscolor-color">Color</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdipluscolor/nf-gdipluscolor-color-getvalue">Color::GetValue</a>
+<a href="/windows/desktop/api/gdipluscolor/nf-gdipluscolor-color-getvalue">Color::GetValue</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdipluscolor/nf-gdipluscolor-color-setfromcolorref">Color::SetFromCOLORREF</a>
-
+<a href="/windows/desktop/api/gdipluscolor/nf-gdipluscolor-color-setfromcolorref">Color::SetFromCOLORREF</a>

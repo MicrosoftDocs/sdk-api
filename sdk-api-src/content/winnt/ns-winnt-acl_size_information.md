@@ -52,17 +52,17 @@ api_name:
 
 ## -description
 
-The <b>ACL_SIZE_INFORMATION</b> structure contains information about the size of an <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-acl">ACL</a> structure.
+The <b>ACL_SIZE_INFORMATION</b> structure contains information about the size of an <a href="/windows/desktop/api/winnt/ns-winnt-acl">ACL</a> structure.
 
 ## -struct-fields
 
 ### -field AceCount
 
-The number of <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">access control entries</a> (ACEs) in the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">access control list</a> (ACL).
+The number of <a href="/windows/desktop/SecGloss/a-gly">access control entries</a> (ACEs) in the <a href="/windows/desktop/SecGloss/a-gly">access control list</a> (ACL).
 
 ### -field AclBytesInUse
 
-The number of bytes in the ACL actually used to store the ACEs and <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-acl">ACL</a> structure. This may be less than the total number of bytes allocated to the ACL.
+The number of bytes in the ACL actually used to store the ACEs and <a href="/windows/desktop/api/winnt/ns-winnt-acl">ACL</a> structure. This may be less than the total number of bytes allocated to the ACL.
 
 ### -field AclBytesFree
 
@@ -70,21 +70,20 @@ The number of unused bytes in the ACL.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-acl">ACL</a>
+<a href="/windows/desktop/api/winnt/ns-winnt-acl">ACL</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ne-winnt-acl_information_class">ACL_INFORMATION_CLASS</a>
+<a href="/windows/desktop/api/winnt/ne-winnt-acl_information_class">ACL_INFORMATION_CLASS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-acl_revision_information">ACL_REVISION_INFORMATION</a>
+<a href="/windows/desktop/api/winnt/ns-winnt-acl_revision_information">ACL_REVISION_INFORMATION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-getaclinformation">GetAclInformation</a>
+<a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-getaclinformation">GetAclInformation</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-setaclinformation">SetAclInformation</a>
-
+<a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-setaclinformation">SetAclInformation</a>

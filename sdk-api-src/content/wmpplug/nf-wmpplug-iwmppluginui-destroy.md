@@ -66,5 +66,4 @@ This method is called by Windows Media Player for all user interface plug-in typ
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmpplug/nn-wmpplug-iwmppluginui">IWMPPluginUI Interface</a>
-
+<a href="/windows/desktop/api/wmpplug/nn-wmpplug-iwmppluginui">IWMPPluginUI Interface</a>

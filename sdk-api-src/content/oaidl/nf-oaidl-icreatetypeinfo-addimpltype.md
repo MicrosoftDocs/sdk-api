@@ -60,7 +60,7 @@ The index of the implementation class to be added. Specifies the order of the ty
 
 ### -param hRefType [in]
 
-A handle to the referenced type description obtained from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-icreatetypeinfo-addreftypeinfo">AddRefType</a> description.
+A handle to the referenced type description obtained from the <a href="/previous-versions/windows/desktop/api/oaidl/nf-oaidl-icreatetypeinfo-addreftypeinfo">AddRefType</a> description.
 
 ## -returns
 
@@ -146,9 +146,8 @@ Type mismatch.
 
 ## -remarks
 
-To specify an inherited interface, use index = 0. For a dispinterface with Syntax 2, call <b>ICreateTypeInfo::AddImplType</b> twice, once with <i>index</i> = 0 for the inherited <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> and once with <i>index</i> = 1 for the interface that is being wrapped. For a dual interface, call <b>ICreateTypeInfo::AddImplType</b> with <i>index</i> = -1 for the TKIND_INTERFACE type information component of the dual interface.
+To specify an inherited interface, use index = 0. For a dispinterface with Syntax 2, call <b>ICreateTypeInfo::AddImplType</b> twice, once with <i>index</i> = 0 for the inherited <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> and once with <i>index</i> = 1 for the interface that is being wrapped. For a dual interface, call <b>ICreateTypeInfo::AddImplType</b> with <i>index</i> = -1 for the TKIND_INTERFACE type information component of the dual interface.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-icreatetypeinfo">ICreateTypeInfo</a>
-
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-icreatetypeinfo">ICreateTypeInfo</a>

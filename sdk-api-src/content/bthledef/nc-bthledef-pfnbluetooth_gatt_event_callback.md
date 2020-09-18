@@ -65,7 +65,7 @@ Pointer to a <a href="/windows/win32/api/bthledef/ns-bthledef-bluetooth_gatt_val
 ### -param Context [in, optional]
 
 The context specified by the profile driver in the <i>CallbackContext</i> parameter of 
-      the <a href="https://docs.microsoft.com/windows/desktop/api/bluetoothleapis/nf-bluetoothleapis-bluetoothgattregisterevent">BluetoothGATTRegisterEvent</a> function 
+      the <a href="/windows/desktop/api/bluetoothleapis/nf-bluetoothleapis-bluetoothgattregisterevent">BluetoothGATTRegisterEvent</a> function 
       when the profile driver registered the GATT callback function.
 
 ## -see-also
@@ -74,9 +74,8 @@ The context specified by the profile driver in the <i>CallbackContext</i> parame
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bthledef/ne-bthledef-bth_le_gatt_event_type">BTH_LE_GATT_EVENT_TYPE</a>
+<a href="/windows/desktop/api/bthledef/ne-bthledef-bth_le_gatt_event_type">BTH_LE_GATT_EVENT_TYPE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bluetoothleapis/nf-bluetoothleapis-bluetoothgattregisterevent">BluetoothGATTRegisterEvent</a>
-
+<a href="/windows/desktop/api/bluetoothleapis/nf-bluetoothleapis-bluetoothgattregisterevent">BluetoothGATTRegisterEvent</a>

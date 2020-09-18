@@ -51,13 +51,13 @@ api_name:
 ## -description
 
 Retrieves the tree-view item that bears the specified relationship to a specified item. You can use this macro, use one of the 
-			<b>TreeView_Get</b> macros described below, or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/tvm-getnextitem">TVM_GETNEXTITEM</a> message explicitly.
+			<b>TreeView_Get</b> macros described below, or send the <a href="/windows/desktop/Controls/tvm-getnextitem">TVM_GETNEXTITEM</a> message explicitly.
 
 ## -parameters
 
 ### -param hwnd
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 Handle to the tree-view control.
 
@@ -69,7 +69,7 @@ Handle to an item.
 
 ### -param code
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 Flag specifying the item to retrieve. This parameter can be one of the following values: 
 
@@ -84,7 +84,7 @@ Flag specifying the item to retrieve. This parameter can be one of the following
 </dl>
 </td>
 <td width="60%">
-Retrieves the currently selected item. You can use the <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-treeview_getselection">TreeView_GetSelection</a> macro to send this message.
+Retrieves the currently selected item. You can use the <a href="/windows/desktop/api/commctrl/nf-commctrl-treeview_getselection">TreeView_GetSelection</a> macro to send this message.
 
 </td>
 </tr>
@@ -95,7 +95,7 @@ Retrieves the currently selected item. You can use the <a href="https://docs.mic
 </td>
 <td width="60%">
 Retrieves the first child item of the item specified by the 
-						<i>hitem</i> parameter. You can use the <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-treeview_getchild">TreeView_GetChild</a> macro to send this message.
+						<i>hitem</i> parameter. You can use the <a href="/windows/desktop/api/commctrl/nf-commctrl-treeview_getchild">TreeView_GetChild</a> macro to send this message.
 
 </td>
 </tr>
@@ -105,7 +105,7 @@ Retrieves the first child item of the item specified by the
 </dl>
 </td>
 <td width="60%">
-Retrieves the item that is the target of a drag-and-drop operation. You can use the <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-treeview_getdrophilight">TreeView_GetDropHilight</a> macro to send this message.
+Retrieves the item that is the target of a drag-and-drop operation. You can use the <a href="/windows/desktop/api/commctrl/nf-commctrl-treeview_getdrophilight">TreeView_GetDropHilight</a> macro to send this message.
 
 </td>
 </tr>
@@ -115,7 +115,7 @@ Retrieves the item that is the target of a drag-and-drop operation. You can use 
 </dl>
 </td>
 <td width="60%">
-Retrieves the first visible item. You can use the <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-treeview_getfirstvisible">TreeView_GetFirstVisible</a> macro to send this message.
+Retrieves the first visible item. You can use the <a href="/windows/desktop/api/commctrl/nf-commctrl-treeview_getfirstvisible">TreeView_GetFirstVisible</a> macro to send this message.
 
 </td>
 </tr>
@@ -125,7 +125,7 @@ Retrieves the first visible item. You can use the <a href="https://docs.microsof
 </dl>
 </td>
 <td width="60%">
-Retrieves the next sibling item. You can use the <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-treeview_getnextsibling">TreeView_GetNextSibling</a> macro to send this message.
+Retrieves the next sibling item. You can use the <a href="/windows/desktop/api/commctrl/nf-commctrl-treeview_getnextsibling">TreeView_GetNextSibling</a> macro to send this message.
 
 </td>
 </tr>
@@ -135,7 +135,7 @@ Retrieves the next sibling item. You can use the <a href="https://docs.microsoft
 </dl>
 </td>
 <td width="60%">
-<b>Windows Vista and later.</b> Retrieves the next selected item. You can use the <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-treeview_getnextselected">TreeView_GetNextSelected</a> macro to send this message.
+<b>Windows Vista and later.</b> Retrieves the next selected item. You can use the <a href="/windows/desktop/api/commctrl/nf-commctrl-treeview_getnextselected">TreeView_GetNextSelected</a> macro to send this message.
 
 </td>
 </tr>
@@ -145,7 +145,7 @@ Retrieves the next sibling item. You can use the <a href="https://docs.microsoft
 </dl>
 </td>
 <td width="60%">
-Retrieves the next visible item that follows the specified item. The specified item must be visible. Use the <a href="https://docs.microsoft.com/windows/desktop/Controls/tvm-getitemrect">TVM_GETITEMRECT</a> message to determine whether an item is visible. You can use the <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-treeview_getnextvisible">TreeView_GetNextVisible</a> macro to send this message.
+Retrieves the next visible item that follows the specified item. The specified item must be visible. Use the <a href="/windows/desktop/Controls/tvm-getitemrect">TVM_GETITEMRECT</a> message to determine whether an item is visible. You can use the <a href="/windows/desktop/api/commctrl/nf-commctrl-treeview_getnextvisible">TreeView_GetNextVisible</a> macro to send this message.
 
 </td>
 </tr>
@@ -155,7 +155,7 @@ Retrieves the next visible item that follows the specified item. The specified i
 </dl>
 </td>
 <td width="60%">
-Retrieves the parent of the specified item. You can use the <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-treeview_getparent">TreeView_GetParent</a> macro to send this message.
+Retrieves the parent of the specified item. You can use the <a href="/windows/desktop/api/commctrl/nf-commctrl-treeview_getparent">TreeView_GetParent</a> macro to send this message.
 
 </td>
 </tr>
@@ -165,7 +165,7 @@ Retrieves the parent of the specified item. You can use the <a href="https://doc
 </dl>
 </td>
 <td width="60%">
-Retrieves the previous sibling item. You can use the <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-treeview_getprevsibling">TreeView_GetPrevSibling</a> macro to send this message.
+Retrieves the previous sibling item. You can use the <a href="/windows/desktop/api/commctrl/nf-commctrl-treeview_getprevsibling">TreeView_GetPrevSibling</a> macro to send this message.
 
 </td>
 </tr>
@@ -175,7 +175,7 @@ Retrieves the previous sibling item. You can use the <a href="https://docs.micro
 </dl>
 </td>
 <td width="60%">
-Retrieves the first visible item that precedes the specified item. The specified item must be visible. Use the <a href="https://docs.microsoft.com/windows/desktop/Controls/tvm-getitemrect">TVM_GETITEMRECT</a> message to determine whether an item is visible. You can use the <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-treeview_getprevvisible">TreeView_GetPrevVisible</a> macro to send this message.
+Retrieves the first visible item that precedes the specified item. The specified item must be visible. Use the <a href="/windows/desktop/Controls/tvm-getitemrect">TVM_GETITEMRECT</a> message to determine whether an item is visible. You can use the <a href="/windows/desktop/api/commctrl/nf-commctrl-treeview_getprevvisible">TreeView_GetPrevVisible</a> macro to send this message.
 
 </td>
 </tr>
@@ -185,7 +185,7 @@ Retrieves the first visible item that precedes the specified item. The specified
 </dl>
 </td>
 <td width="60%">
-Retrieves the topmost or very first item of the tree-view control. You can use the <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-treeview_getroot">TreeView_GetRoot</a> macro to send this message. 
+Retrieves the topmost or very first item of the tree-view control. You can use the <a href="/windows/desktop/api/commctrl/nf-commctrl-treeview_getroot">TreeView_GetRoot</a> macro to send this message. 
 
 </td>
 </tr>
@@ -194,4 +194,3 @@ Retrieves the topmost or very first item of the tree-view control. You can use t
 ## -remarks
 
 This macro will return <b>NULL</b> if the item being retrieved is the root node of the tree. For example, if you use this macro with the TVGN_PARENT flag on a first-level child of the tree view's root node, the macro will return <b>NULL</b>.
-

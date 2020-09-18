@@ -73,25 +73,25 @@ Type: <b>BOOL</b>
 
 If the function succeeds, the return value is nonzero.
 
-If the function fails, the return value is zero. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+If the function fails, the return value is zero. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
-It is only necessary to call <b>DestroyIcon</b> for icons and cursors created with the following functions: <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createiconfromresourceex">CreateIconFromResourceEx</a> (if called without the <b>LR_SHARED</b> flag), <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createiconindirect">CreateIconIndirect</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-copyicon">CopyIcon</a>. Do not use this function to destroy a shared icon. A shared icon is valid as long as the module from which it was loaded remains in memory. The following functions obtain a shared icon. 
+It is only necessary to call <b>DestroyIcon</b> for icons and cursors created with the following functions: <a href="/windows/desktop/api/winuser/nf-winuser-createiconfromresourceex">CreateIconFromResourceEx</a> (if called without the <b>LR_SHARED</b> flag), <a href="/windows/desktop/api/winuser/nf-winuser-createiconindirect">CreateIconIndirect</a>, and <a href="/windows/desktop/api/winuser/nf-winuser-copyicon">CopyIcon</a>. Do not use this function to destroy a shared icon. A shared icon is valid as long as the module from which it was loaded remains in memory. The following functions obtain a shared icon. 
 
 <ul>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-loadicona">LoadIcon</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-loadicona">LoadIcon</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-loadimagea">LoadImage</a> (if you use the <b>LR_SHARED</b> flag) </li>
+<a href="/windows/desktop/api/winuser/nf-winuser-loadimagea">LoadImage</a> (if you use the <b>LR_SHARED</b> flag) </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-copyimage">CopyImage</a> (if you use the <b>LR_COPYRETURNORG</b> flag and the <i>hImage</i> parameter is a shared icon) </li>
+<a href="/windows/desktop/api/winuser/nf-winuser-copyimage">CopyImage</a> (if you use the <b>LR_COPYRETURNORG</b> flag and the <i>hImage</i> parameter is a shared icon) </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createiconfromresource">CreateIconFromResource</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-createiconfromresource">CreateIconFromResource</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createiconfromresourceex">CreateIconFromResourceEx</a> (if you use the <b>LR_SHARED</b> flag)
+<a href="/windows/desktop/api/winuser/nf-winuser-createiconfromresourceex">CreateIconFromResourceEx</a> (if you use the <b>LR_SHARED</b> flag)
 					</li>
 </ul>
 
@@ -101,25 +101,24 @@ It is only necessary to call <b>DestroyIcon</b> for icons and cursors created wi
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-copyicon">CopyIcon</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-copyicon">CopyIcon</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createiconfromresource">CreateIconFromResource</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-createiconfromresource">CreateIconFromResource</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createiconfromresourceex">CreateIconFromResourceEx</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-createiconfromresourceex">CreateIconFromResourceEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createiconindirect">CreateIconIndirect</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-createiconindirect">CreateIconIndirect</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/menurc/icons">Icons</a>
+<a href="/windows/desktop/menurc/icons">Icons</a>
 
 
 
 <b>Reference</b>
-

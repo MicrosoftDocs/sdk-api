@@ -183,7 +183,7 @@ The default and only allowable size, 512 bytes.
 
 ### -field Version1.ParentPath
 
-Optional <a href="https://docs.microsoft.com/windows/desktop/FileIO/naming-a-file">fully qualified</a> path to a parent 
+Optional <a href="/windows/desktop/FileIO/naming-a-file">fully qualified</a> path to a parent 
          virtual disk object. Associates the new virtual disk with an existing virtual disk.
 
 If this parameter is not <b>NULL</b>, <b>SourcePath</b> must be 
@@ -191,7 +191,7 @@ If this parameter is not <b>NULL</b>, <b>SourcePath</b> must be
 
 ### -field Version1.SourcePath
 
-Optional <a href="https://docs.microsoft.com/windows/desktop/FileIO/naming-a-file">fully qualified</a> path to 
+Optional <a href="/windows/desktop/FileIO/naming-a-file">fully qualified</a> path to 
           pre-populate the new virtual disk object with block data from an existing disk. This path may refer to a 
           virtual disk or a physical disk.
 
@@ -276,7 +276,7 @@ Internal size of the virtual disk object sectors. For VHDX  must be set to 512 (
 
 ### -field Version2.ParentPath
 
-Optional <a href="https://docs.microsoft.com/windows/desktop/FileIO/naming-a-file">fully qualified</a> path to a parent 
+Optional <a href="/windows/desktop/FileIO/naming-a-file">fully qualified</a> path to a parent 
          virtual disk object. Associates the new virtual disk with an existing virtual disk.
 
 If this parameter is not <b>NULL</b>, <b>SourcePath</b> must be 
@@ -284,7 +284,7 @@ If this parameter is not <b>NULL</b>, <b>SourcePath</b> must be
 
 ### -field Version2.SourcePath
 
-Optional <a href="https://docs.microsoft.com/windows/desktop/FileIO/naming-a-file">fully qualified</a> path to 
+Optional <a href="/windows/desktop/FileIO/naming-a-file">fully qualified</a> path to 
           pre-populate the new virtual disk object with block data from an existing disk. This path may refer to a 
           virtual disk or a physical disk.
 
@@ -347,7 +347,7 @@ typedef struct _CREATE_VIRTUAL_DISK_PARAMETERS {
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd323654(v=vs.85)">About VHD</a>
+<a href="/previous-versions/windows/desktop/legacy/dd323654(v=vs.85)">About VHD</a>
 
 
 
@@ -355,13 +355,12 @@ typedef struct _CREATE_VIRTUAL_DISK_PARAMETERS {
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/naming-a-file">Naming Files, Paths, and Namespaces</a>
+<a href="/windows/desktop/FileIO/naming-a-file">Naming Files, Paths, and Namespaces</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd323700(v=vs.85)">VHD Reference</a>
+<a href="/previous-versions/windows/desktop/legacy/dd323700(v=vs.85)">VHD Reference</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd323701(v=vs.85)">VHD Structures</a>
-
+<a href="/previous-versions/windows/desktop/legacy/dd323701(v=vs.85)">VHD Structures</a>

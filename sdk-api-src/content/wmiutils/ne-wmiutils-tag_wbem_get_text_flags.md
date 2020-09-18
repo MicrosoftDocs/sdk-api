@@ -77,5 +77,4 @@ Returns only the namespace portion of the path.
 ### -field WBEMPATH_GET_ORIGINAL
 
 Returns whatever was passed in using 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmiutils/nf-wmiutils-iwbempath-settext">SetText</a> method.
-
+<a href="/windows/desktop/api/wmiutils/nf-wmiutils-iwbempath-settext">SetText</a> method.

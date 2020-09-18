@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>SetDeviceGammaRamp</b> function sets the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/wcs/g">gamma ramp</a> on direct color display boards having drivers that support downloadable gamma ramps in hardware.
+The <b>SetDeviceGammaRamp</b> function sets the <a href="/previous-versions/windows/desktop/wcs/g">gamma ramp</a> on direct color display boards having drivers that support downloadable gamma ramps in hardware.
 
 > [!IMPORTANT]
 > We strongly recommend that you don't use this API. Use of this API is subject to major limitations:
@@ -95,7 +95,6 @@ Direct color display modes do not use color lookup tables and are usually 16, 24
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/wcs/basic-color-management-concepts">Basic Color Management Concepts</a>
+<a href="/previous-versions/windows/desktop/wcs/basic-color-management-concepts">Basic Color Management Concepts</a>
 
-<a href="https://docs.microsoft.com/previous-versions/dd316902(v=vs.85)">Functions</a>
-
+<a href="/previous-versions/dd316902(v=vs.85)">Functions</a>

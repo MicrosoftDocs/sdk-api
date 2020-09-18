@@ -50,5 +50,4 @@ api_name:
 
 ## -description
 
-The <b>IAzApplicationGroup2</b> interface extends the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazapplicationgroup">IAzApplicationGroup</a> interface by adding support for the <b>BizRule</b> group type. This interface also adds a method that gets the role assignments associated with the application group.
-
+The <b>IAzApplicationGroup2</b> interface extends the <a href="/windows/desktop/api/azroles/nn-azroles-iazapplicationgroup">IAzApplicationGroup</a> interface by adding support for the <b>BizRule</b> group type. This interface also adds a method that gets the role assignments associated with the application group.

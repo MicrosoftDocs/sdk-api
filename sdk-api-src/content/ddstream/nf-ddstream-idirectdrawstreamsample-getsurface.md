@@ -74,5 +74,4 @@ Both parameters are optional. All implementations of this interface must support
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ddstream/nn-ddstream-idirectdrawstreamsample">IDirectDrawStreamSample Interface</a>
-
+<a href="/windows/desktop/api/ddstream/nn-ddstream-idirectdrawstreamsample">IDirectDrawStreamSample Interface</a>

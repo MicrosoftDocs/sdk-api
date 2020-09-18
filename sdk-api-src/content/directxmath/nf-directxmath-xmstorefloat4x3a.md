@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Stores an <a href="https://docs.microsoft.com/windows/desktop/dxmath/xmvector-data-type">XMVECTOR</a> in an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ee419612(v=vs.85)">XMFLOAT4X3A</a>.
+Stores an <a href="/windows/desktop/dxmath/xmvector-data-type">XMVECTOR</a> in an <a href="/previous-versions/windows/desktop/legacy/ee419612(v=vs.85)">XMFLOAT4X3A</a>.
 
 ## -parameters
 
@@ -68,7 +68,7 @@ None.
 
 ## -remarks
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ee419612(v=vs.85)">XMFLOAT4X3A</a> is a row-major matrix form. This function cannot be used 
+<a href="/previous-versions/windows/desktop/legacy/ee419612(v=vs.85)">XMFLOAT4X3A</a> is a row-major matrix form. This function cannot be used 
    to write out column-major data since it assumes the last column is 
 
 
@@ -104,5 +104,4 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/dxmath/ovw-xnamath-reference-functions-storage">DirectXMath Library Vector Store Functions</a>
-
+<a href="/windows/desktop/dxmath/ovw-xnamath-reference-functions-storage">DirectXMath Library Vector Store Functions</a>

@@ -64,9 +64,8 @@ This method returns <b>S_OK</b> on success or one of the standard COM <b>HRESULT
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-getnoprogresstimeout">IBackgroundCopyJob::GetNoProgressTimeout</a>
+<a href="/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-getnoprogresstimeout">IBackgroundCopyJob::GetNoProgressTimeout</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-setminimumretrydelay">IBackgroundCopyJob::SetMinimumRetryDelay</a>
-
+<a href="/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-setminimumretrydelay">IBackgroundCopyJob::SetMinimumRetryDelay</a>

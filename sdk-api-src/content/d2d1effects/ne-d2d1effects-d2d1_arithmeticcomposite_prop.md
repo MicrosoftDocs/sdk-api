@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Identifiers for the properties of the <a href="https://docs.microsoft.com/windows/desktop/Direct2D/arithmetic-composite">Arithmetic composite effect</a>.
+Identifiers for the properties of the <a href="/windows/desktop/Direct2D/arithmetic-composite">Arithmetic composite effect</a>.
 
 ## -enum-fields
 
@@ -75,4 +75,3 @@ Type is BOOL.
 Default value is FALSE.
 
 ### -field D2D1_ARITHMETICCOMPOSITE_PROP_FORCE_DWORD
-

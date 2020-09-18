@@ -58,7 +58,7 @@ RRAS service is not running so that it is picked up next time the system restart
 
 ### -param hMprServer [in]
 
-Handle to the router configuration. Obtain this handle by calling <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mprconfigserverconnect">MprConfigServerConnect</a>.
+Handle to the router configuration. Obtain this handle by calling <a href="/windows/desktop/api/mprapi/nf-mprapi-mprconfigserverconnect">MprConfigServerConnect</a>.
 
 ### -param dwLevel [in]
 
@@ -71,12 +71,12 @@ A DWORD value that describes the format in which the information is structured i
 </tr>
 <tr>
 <td>1</td>
-<td>Windows Server 2003 or later: <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-mpr_server_1">MPR_SERVER_1</a>
+<td>Windows Server 2003 or later: <a href="/windows/desktop/api/mprapi/ns-mprapi-mpr_server_1">MPR_SERVER_1</a>
 </td>
 </tr>
 <tr>
 <td>2</td>
-<td>Windows Server 2008 or later: <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-mpr_server_2">MPR_SERVER_2</a>
+<td>Windows Server 2008 or later: <a href="/windows/desktop/api/mprapi/ns-mprapi-mpr_server_2">MPR_SERVER_2</a>
 </td>
 </tr>
 </table>
@@ -84,8 +84,8 @@ A DWORD value that describes the format in which the information is structured i
 ### -param lpbBuffer [in]
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-mpr_server_1">MPR_SERVER_1</a>  
-or   <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-mpr_server_2">MPR_SERVER_2</a> structure. The <i>dwLevel</i> parameter indicates the type of structure.
+<a href="/windows/desktop/api/mprapi/ns-mprapi-mpr_server_1">MPR_SERVER_1</a>  
+or   <a href="/windows/desktop/api/mprapi/ns-mprapi-mpr_server_2">MPR_SERVER_2</a> structure. The <i>dwLevel</i> parameter indicates the type of structure.
 
 ## -returns
 
@@ -116,7 +116,7 @@ The calling application does not have sufficient privileges.
 </dl>
 </td>
 <td width="60%">
-A system reboot is required for such a change to take affect. Change the port count using the <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mprconfigserversetinfo">MprConfigServerSetInfo</a> call and reboot.
+A system reboot is required for such a change to take affect. Change the port count using the <a href="/windows/desktop/api/mprapi/nf-mprapi-mprconfigserversetinfo">MprConfigServerSetInfo</a> call and reboot.
 
 </td>
 </tr>
@@ -127,7 +127,7 @@ A system reboot is required for such a change to take affect. Change the port co
 </dl>
 </td>
 <td width="60%">
-If you try to set the number of ports to more than the system supported limits as defined on the <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-mpr_server_1">MPR_SERVER_1</a> and <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-mpr_server_2">MPR_SERVER_2</a> topics.
+If you try to set the number of ports to more than the system supported limits as defined on the <a href="/windows/desktop/api/mprapi/ns-mprapi-mpr_server_1">MPR_SERVER_1</a> and <a href="/windows/desktop/api/mprapi/ns-mprapi-mpr_server_2">MPR_SERVER_2</a> topics.
 
 Returns this error if you try to set the number of PPTP ports to 0.
 
@@ -166,7 +166,7 @@ The value of dwLevel is not valid.
 </td>
 <td width="60%">
 Use 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a> to retrieve the system error message that corresponds to the error code returned.
+<a href="/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a> to retrieve the system error message that corresponds to the error code returned.
 
 </td>
 </tr>
@@ -179,43 +179,42 @@ These changes to a server configuration are persistent, but have no affect on a 
 
 #### Examples
 
-The topic <a href="https://docs.microsoft.com/windows/desktop/RRAS/setting-l2tp-and-pptp-ports">Setting L2TP and PPTP ports of a local RRAS service</a> shows this function in use.
+The topic <a href="/windows/desktop/RRAS/setting-l2tp-and-pptp-ports">Setting L2TP and PPTP ports of a local RRAS service</a> shows this function in use.
 
 <div class="code"></div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-mpr_server_0">MPR_SERVER_0</a>
+<a href="/windows/desktop/api/mprapi/ns-mprapi-mpr_server_0">MPR_SERVER_0</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-mpr_server_1">MPR_SERVER_1</a>
+<a href="/windows/desktop/api/mprapi/ns-mprapi-mpr_server_1">MPR_SERVER_1</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-mpr_server_2">MPR_SERVER_2</a>
+<a href="/windows/desktop/api/mprapi/ns-mprapi-mpr_server_2">MPR_SERVER_2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mprconfigbufferfree">MprConfigBufferFree</a>
+<a href="/windows/desktop/api/mprapi/nf-mprapi-mprconfigbufferfree">MprConfigBufferFree</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mprconfigserverconnect">MprConfigServerConnect</a>
+<a href="/windows/desktop/api/mprapi/nf-mprapi-mprconfigserverconnect">MprConfigServerConnect</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mprconfigservergetinfo">MprConfigServerGetInfo</a>
+<a href="/windows/desktop/api/mprapi/nf-mprapi-mprconfigservergetinfo">MprConfigServerGetInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/router-configuration-functions">Router Configuration Functions</a>
+<a href="/windows/desktop/RRAS/router-configuration-functions">Router Configuration Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/router-management-reference">Router Management Reference</a>
-
+<a href="/windows/desktop/RRAS/router-management-reference">Router Management Reference</a>

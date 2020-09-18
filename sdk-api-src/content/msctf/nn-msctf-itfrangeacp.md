@@ -50,11 +50,11 @@ api_name:
 
 ## -description
 
-The <b>ITfRangeACP</b> interface is implemented by the TSF manager and is used by an application character position (ACP)-based application to access and manipulate range objects. This interface is derived from the <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfrange">ITfRange</a> interface. Obtain an instance of this interface by querying an <b>ITfRange</b> object for IID_ITfRangeACP.
+The <b>ITfRangeACP</b> interface is implemented by the TSF manager and is used by an application character position (ACP)-based application to access and manipulate range objects. This interface is derived from the <a href="/windows/desktop/api/msctf/nn-msctf-itfrange">ITfRange</a> interface. Obtain an instance of this interface by querying an <b>ITfRange</b> object for IID_ITfRangeACP.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfRangeACP</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfRangeACP</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfRangeACP</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfRangeACP</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ITfRangeACP</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfrangeacp-getextent">GetExtent</a>
+<a href="/windows/desktop/api/msctf/nf-msctf-itfrangeacp-getextent">GetExtent</a>
 </td>
 <td align="left" width="63%">
 Obtains the application character position and length of the range object.
@@ -78,7 +78,7 @@ Obtains the application character position and length of the range object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfrangeacp-setextent">SetExtent</a>
+<a href="/windows/desktop/api/msctf/nf-msctf-itfrangeacp-setextent">SetExtent</a>
 </td>
 <td align="left" width="63%">
 Sets the application character position and length of the range object.
@@ -89,10 +89,9 @@ Sets the application character position and length of the range object.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfrange">ITfRange
+<a href="/windows/desktop/api/msctf/nn-msctf-itfrange">ITfRange
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
-
+<a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>

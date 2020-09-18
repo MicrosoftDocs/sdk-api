@@ -58,11 +58,10 @@ Sets a group column, as specified. If no group column is specified, no grouping 
 
 Type: <b>REFPROPERTYKEY</b>
 
-A reference to a group column <a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ns-wtypes-propertykey">PROPERTYKEY</a>.
+A reference to a group column <a href="/windows/desktop/api/wtypes/ns-wtypes-propertykey">PROPERTYKEY</a>.
 
 ## -returns
 
 Type: <b>HRESULT</b>
 
 Returns a success value if successful, or an error value otherwise.
-

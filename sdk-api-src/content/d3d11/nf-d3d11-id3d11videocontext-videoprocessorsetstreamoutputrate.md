@@ -56,15 +56,15 @@ Sets the rate at which the video processor produces output frames for an input s
 
 ### -param pVideoProcessor [in]
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11videoprocessor">ID3D11VideoProcessor</a> interface. To get this pointer, call <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11videodevice-createvideoprocessor">ID3D11VideoDevice::CreateVideoProcessor</a>.
+A pointer to the <a href="/windows/desktop/api/d3d11/nn-d3d11-id3d11videoprocessor">ID3D11VideoProcessor</a> interface. To get this pointer, call <a href="/windows/desktop/api/d3d11/nf-d3d11-id3d11videodevice-createvideoprocessor">ID3D11VideoDevice::CreateVideoProcessor</a>.
 
 ### -param StreamIndex [in]
 
-The zero-based index of the input stream. To get the maximum number of streams, call <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11videoprocessorenumerator-getvideoprocessorcaps">ID3D11VideoProcessorEnumerator::GetVideoProcessorCaps</a> and check the <b>MaxStreamStates</b> structure member.
+The zero-based index of the input stream. To get the maximum number of streams, call <a href="/windows/desktop/api/d3d11/nf-d3d11-id3d11videoprocessorenumerator-getvideoprocessorcaps">ID3D11VideoProcessorEnumerator::GetVideoProcessorCaps</a> and check the <b>MaxStreamStates</b> structure member.
 
 ### -param OutputRate [in]
 
-The output rate, specified as a <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ne-d3d11-d3d11_video_processor_output_rate">D3D11_VIDEO_PROCESSOR_OUTPUT_RATE</a> value.
+The output rate, specified as a <a href="/windows/desktop/api/d3d11/ne-d3d11-d3d11_video_processor_output_rate">D3D11_VIDEO_PROCESSOR_OUTPUT_RATE</a> value.
 
 ### -param RepeatFrame [in]
 
@@ -99,15 +99,14 @@ Interpolate frames.
 
 ### -param pCustomRate [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/dxgicommon/ns-dxgicommon-dxgi_rational">DXGI_RATIONAL</a> structure. If <i>OutputRate</i> is <b>D3D11_VIDEO_PROCESSOR_OUTPUT_RATE_CUSTOM</b>,  this parameter specifies the exact output rate. Otherwise, this parameter is ignored and can be <b>NULL</b>.
+A pointer to a <a href="/windows/desktop/api/dxgicommon/ns-dxgicommon-dxgi_rational">DXGI_RATIONAL</a> structure. If <i>OutputRate</i> is <b>D3D11_VIDEO_PROCESSOR_OUTPUT_RATE_CUSTOM</b>,  this parameter specifies the exact output rate. Otherwise, this parameter is ignored and can be <b>NULL</b>.
 
 ## -remarks
 
-The standard output rates are normal frame-rate (<b>D3D11_VIDEO_PROCESSOR_OUTPUT_RATE_NORMAL</b>) and half frame-rate (<b>D3D11_VIDEO_PROCESSOR_OUTPUT_RATE_HALF</b>). In addition, the driver might support custom rates  for rate conversion or inverse telecine. To get the list of custom rates, call <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11videoprocessorenumerator-getvideoprocessorcustomrate">ID3D11VideoProcessorEnumerator::GetVideoProcessorCustomRate</a>.
+The standard output rates are normal frame-rate (<b>D3D11_VIDEO_PROCESSOR_OUTPUT_RATE_NORMAL</b>) and half frame-rate (<b>D3D11_VIDEO_PROCESSOR_OUTPUT_RATE_HALF</b>). In addition, the driver might support custom rates  for rate conversion or inverse telecine. To get the list of custom rates, call <a href="/windows/desktop/api/d3d11/nf-d3d11-id3d11videoprocessorenumerator-getvideoprocessorcustomrate">ID3D11VideoProcessorEnumerator::GetVideoProcessorCustomRate</a>.
 
 Depending on the output rate, the driver might need to convert the frame rate. If so, the value of <i>RepeatFrame</i> controls whether the driver creates interpolated frames or simply repeats input frames.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11videocontext">ID3D11VideoContext</a>
-
+<a href="/windows/desktop/api/d3d11/nn-d3d11-id3d11videocontext">ID3D11VideoContext</a>

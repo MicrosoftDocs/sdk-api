@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-The <b>IMSVidFeatures</b> interface represents a collection of Video Control features. The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd695126(v=vs.85)">MSVidFeatures</a> collection object exposes this interface.
+The <b>IMSVidFeatures</b> interface represents a collection of Video Control features. The <a href="/previous-versions/windows/desktop/legacy/dd695126(v=vs.85)">MSVidFeatures</a> collection object exposes this interface.
 
 This interface is used for two purposes: to retrieve a read-only collection of the features available on the current system (the <i>available</i> features collection), and to create a read/write list of activated features (the <i>active</i> features collection).
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMSVidFeatures</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IMSVidFeatures</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMSVidFeatures</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IMSVidFeatures</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>IMSVidFeatures</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidfeatures-add">Add</a>
+<a href="/windows/desktop/api/segment/nf-segment-imsvidfeatures-add">Add</a>
 </td>
 <td align="left" width="63%">
 Adds a feature to the collection.
@@ -80,7 +80,7 @@ Adds a feature to the collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidfeatures-get__newenum">get__NewEnum</a>
+<a href="/windows/desktop/api/segment/nf-segment-imsvidfeatures-get__newenum">get__NewEnum</a>
 </td>
 <td align="left" width="63%">
 Retrieves an enumerator for the collection.
@@ -89,7 +89,7 @@ Retrieves an enumerator for the collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidfeatures-get_count">get_Count</a>
+<a href="/windows/desktop/api/segment/nf-segment-imsvidfeatures-get_count">get_Count</a>
 </td>
 <td align="left" width="63%">
 Retrieves the number of items in the collection.
@@ -98,7 +98,7 @@ Retrieves the number of items in the collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidfeatures-get_item">get_Item</a>
+<a href="/windows/desktop/api/segment/nf-segment-imsvidfeatures-get_item">get_Item</a>
 </td>
 <td align="left" width="63%">
 Retrieves the specified item from the collection.
@@ -107,7 +107,7 @@ Retrieves the specified item from the collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidfeatures-remove">Remove</a>
+<a href="/windows/desktop/api/segment/nf-segment-imsvidfeatures-remove">Remove</a>
 </td>
 <td align="left" width="63%">
 Removes an item from the collection.
@@ -122,9 +122,8 @@ To declare the interface identifier (IID) for this interface, use the <b>__uuido
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/video-control-interfaces">Video Control Interfaces</a>
-
+<a href="/previous-versions/windows/desktop/mstv/video-control-interfaces">Video Control Interfaces</a>

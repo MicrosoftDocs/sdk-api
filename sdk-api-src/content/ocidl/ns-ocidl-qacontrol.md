@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-Specifies control information for  <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-iquickactivate-quickactivate">IQuickActivate::QuickActivate</a>.
+Specifies control information for  <a href="/windows/desktop/api/ocidl/nf-ocidl-iquickactivate-quickactivate">IQuickActivate::QuickActivate</a>.
 
 ## -struct-fields
 
@@ -62,11 +62,11 @@ The size of the structure, in bytes.
 
 ### -field dwMiscStatus
 
-The control's miscellaneous status bits that can also be returned by <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleobject-getmiscstatus">IOleObject::GetMiscStatus</a>. See <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/ne-oleidl-olemisc">OLEMISC</a> for more information.
+The control's miscellaneous status bits that can also be returned by <a href="/windows/desktop/api/oleidl/nf-oleidl-ioleobject-getmiscstatus">IOleObject::GetMiscStatus</a>. See <a href="/windows/desktop/api/oleidl/ne-oleidl-olemisc">OLEMISC</a> for more information.
 
 ### -field dwViewStatus
 
-The control's view status that can also be returned by <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-iviewobjectex-getviewstatus">IViewObjectEx::GetViewStatus</a>. See <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/ne-ocidl-viewstatus">VIEWSTATUS</a> for more information.
+The control's view status that can also be returned by <a href="/windows/desktop/api/ocidl/nf-ocidl-iviewobjectex-getviewstatus">IViewObjectEx::GetViewStatus</a>. See <a href="/windows/desktop/api/ocidl/ne-ocidl-viewstatus">VIEWSTATUS</a> for more information.
 
 ### -field dwEventCookie
 
@@ -78,9 +78,8 @@ A unique identifier for control-defined properties.
 
 ### -field dwPointerActivationPolicy
 
-The control's activation policy that can also be returned by <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-ipointerinactive-getactivationpolicy">IPointerInactive::GetActivationPolicy</a>. If all the bits of <b>dwPointerActivationPolicy</b> are set, then the IPointerInactive interface may not be supported. The container should <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> to obtain the interface pointer in the standard manner.
+The control's activation policy that can also be returned by <a href="/windows/desktop/api/ocidl/nf-ocidl-ipointerinactive-getactivationpolicy">IPointerInactive::GetActivationPolicy</a>. If all the bits of <b>dwPointerActivationPolicy</b> are set, then the IPointerInactive interface may not be supported. The container should <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> to obtain the interface pointer in the standard manner.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-iquickactivate-quickactivate">IQuickActivate::QuickActivate</a>
-
+<a href="/windows/desktop/api/ocidl/nf-ocidl-iquickactivate-quickactivate">IQuickActivate::QuickActivate</a>

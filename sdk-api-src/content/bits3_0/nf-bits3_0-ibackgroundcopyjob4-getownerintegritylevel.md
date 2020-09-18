@@ -83,11 +83,10 @@ Success
 
 ## -remarks
 
-For details on how the integrity level of the user's token affects a job, see <a href="https://docs.microsoft.com/windows/desktop/Bits/user-account-control-and-bits">User Account Control and BITS</a>.
+For details on how the integrity level of the user's token affects a job, see <a href="/windows/desktop/Bits/user-account-control-and-bits">User Account Control and BITS</a>.
 
-This method returns the value from the <a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-getsidsubauthority">GetSidSubAuthority</a> function. For possible mandatory integrity RID values, see <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/well-known-sids">Well-known SIDs</a> in the Security documentation.
+This method returns the value from the <a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-getsidsubauthority">GetSidSubAuthority</a> function. For possible mandatory integrity RID values, see <a href="/windows/desktop/SecAuthZ/well-known-sids">Well-known SIDs</a> in the Security documentation.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits3_0/nn-bits3_0-ibackgroundcopyjob4">IBackgroundCopyJob4</a>
-
+<a href="/windows/desktop/api/bits3_0/nn-bits3_0-ibackgroundcopyjob4">IBackgroundCopyJob4</a>

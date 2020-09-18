@@ -97,5 +97,4 @@ FNFCIDELETE(fnFileDelete)
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fci/nf-fci-fcicreate">FCICreate</a>
-
+<a href="/windows/desktop/api/fci/nf-fci-fcicreate">FCICreate</a>

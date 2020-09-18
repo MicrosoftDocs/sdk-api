@@ -57,12 +57,12 @@ Closes an operation handle.
 ### -param operation [in, out]
 
 A pointer to an operation handle that was returned from a call to one of the 
-      <a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_session">MI_Session</a> operation functions. For asynchronous 
+      <a href="/windows/desktop/api/mi/ns-mi-mi_session">MI_Session</a> operation functions. For asynchronous 
       callbacks, it can also be the operation handle that is passed into the callback.
 
 ## -returns
 
-A value of the <a href="https://docs.microsoft.com/windows/desktop/api/mi/ne-mi-mi_result">MI_Result</a> enumeration that specifies the 
+A value of the <a href="/windows/desktop/api/mi/ne-mi-mi_result">MI_Result</a> enumeration that specifies the 
       function return code. This can be one of the following codes.
 
 ## -remarks
@@ -73,4 +73,3 @@ For synchronous operations, the close function is synchronous on retrieving the 
 
 A closing operation, such as <b>MI_Operations_Close</b>, should be called in same security 
      context as the starting operation.
-

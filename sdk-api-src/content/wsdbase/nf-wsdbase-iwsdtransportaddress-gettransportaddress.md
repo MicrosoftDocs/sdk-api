@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Gets a pointer to a string representation of the address object.  The format of the string varies, and is determined by the implementing interface (either <a href="https://docs.microsoft.com/windows/desktop/api/wsdbase/nn-wsdbase-iwsdhttpaddress">IWSDHttpAddress</a> or <a href="https://docs.microsoft.com/windows/desktop/api/wsdbase/nn-wsdbase-iwsdudpaddress">IWSDUdpAddress</a>).
+Gets a pointer to a string representation of the address object.  The format of the string varies, and is determined by the implementing interface (either <a href="/windows/desktop/api/wsdbase/nn-wsdbase-iwsdhttpaddress">IWSDHttpAddress</a> or <a href="/windows/desktop/api/wsdbase/nn-wsdbase-iwsdudpaddress">IWSDUdpAddress</a>).
 
 ## -parameters
 
@@ -101,7 +101,7 @@ Method completed successfully.
 </dl>
 </td>
 <td width="60%">
-The transport address has not yet been set. To set the transport address, call <a href="https://docs.microsoft.com/windows/desktop/api/wsdbase/nf-wsdbase-iwsdtransportaddress-settransportaddress">SetTransportAddress</a> with a non-<b>NULL</b> address.
+The transport address has not yet been set. To set the transport address, call <a href="/windows/desktop/api/wsdbase/nf-wsdbase-iwsdtransportaddress-settransportaddress">SetTransportAddress</a> with a non-<b>NULL</b> address.
 
 </td>
 </tr>
@@ -113,5 +113,4 @@ The string returned by this method may contain an IPv4 or unbracketed IPv6 addre
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wsdbase/nn-wsdbase-iwsdtransportaddress">IWSDTransportAddress</a>
-
+<a href="/windows/desktop/api/wsdbase/nn-wsdbase-iwsdtransportaddress">IWSDTransportAddress</a>

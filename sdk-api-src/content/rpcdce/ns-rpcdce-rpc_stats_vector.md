@@ -115,14 +115,13 @@ The number of network packets sent by the server.
 ## -remarks
 
 The statistics vector contains a count member (<b>Count</b>), followed by an array of statistics. To obtain run-time statistics, an application calls 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcmgmtinqstats">RpcMgmtInqStats</a>. The RPC run-time library allocates memory for the statistics vector. The application calls 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcmgmtstatsvectorfree">RpcMgmtStatsVectorFree</a> to free the statistics vector.
+<a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcmgmtinqstats">RpcMgmtInqStats</a>. The RPC run-time library allocates memory for the statistics vector. The application calls 
+<a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcmgmtstatsvectorfree">RpcMgmtStatsVectorFree</a> to free the statistics vector.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcmgmtinqstats">RpcMgmtInqStats</a>
+<a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcmgmtinqstats">RpcMgmtInqStats</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcmgmtstatsvectorfree">RpcMgmtStatsVectorFree</a>
-
+<a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcmgmtstatsvectorfree">RpcMgmtStatsVectorFree</a>

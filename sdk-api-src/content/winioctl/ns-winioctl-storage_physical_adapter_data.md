@@ -63,15 +63,15 @@ Specifies the adapter ID.
 
 ### -field HealthStatus
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ne-winioctl-storage_component_health_status">STORAGE_COMPONENT_HEALTH_STATUS</a>-typed value.
+A <a href="/windows/desktop/api/winioctl/ne-winioctl-storage_component_health_status">STORAGE_COMPONENT_HEALTH_STATUS</a>-typed value.
 
 ### -field CommandProtocol
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ne-winioctl-storage_protocol_type">STORAGE_PROTOCOL_TYPE</a>-typed value.
+A <a href="/windows/desktop/api/winioctl/ne-winioctl-storage_protocol_type">STORAGE_PROTOCOL_TYPE</a>-typed value.
 
 ### -field SpecVersion
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-storage_spec_version">STORAGE_SPEC_VERSION</a>-typed value that specifies the supported storage spec version (for example, AHCI 1.3.1).
+A <a href="/windows/desktop/api/winioctl/ns-winioctl-storage_spec_version">STORAGE_SPEC_VERSION</a>-typed value that specifies the supported storage spec version (for example, AHCI 1.3.1).
 
 ### -field ExpanderConnected
 
@@ -100,4 +100,3 @@ Reserved.
 ### -field Vendor [8]
 
 Specifies the adapter vendor.
-

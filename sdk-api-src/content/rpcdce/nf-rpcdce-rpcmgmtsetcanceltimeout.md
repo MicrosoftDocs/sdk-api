@@ -92,7 +92,7 @@ Called from an MS-DOS or Windows 3.<i>x</i> client.
  
 
 <div class="alert"><b>Note</b>  For a list of valid error codes, see 
-<a href="https://docs.microsoft.com/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
+<a href="/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
 <div> </div>
 
 ## -remarks
@@ -101,4 +101,3 @@ An application calls the
 <b>RpcMgmtSetCancelTimeout</b> function to reset the amount of time the run-time library waits for a server to acknowledge a cancel. The application specifies either to wait forever or to wait a specified length of time in seconds. If the value of <i>Seconds</i> is 0 (zero), the call is immediately abandoned upon a cancel command and control returns to the client application. The default value is RPC_C_CANCEL_INFINITE_TIMEOUT, which specifies waiting indefinitely for the call to complete.
 
 The value for the cancel command time-out applies to all remote procedure calls made in the current thread. To change the time-out value, a multithreaded client must call this function in each thread of execution.
-

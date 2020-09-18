@@ -126,7 +126,7 @@ in the QueryString after the ampersand (&amp;). Use this flag to evaluate only t
 
 ### -field pfnCreateTransform
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/nc-cryptxml-pfn_crypt_xml_create_transform">PFN_CRYPT_XML_CREATE_TRANSFORM</a> callback function used to create the transform.
+A pointer to a <a href="/windows/desktop/api/cryptxml/nc-cryptxml-pfn_crypt_xml_create_transform">PFN_CRYPT_XML_CREATE_TRANSFORM</a> callback function used to create the transform.
 
 ## -remarks
 
@@ -138,5 +138,4 @@ For XML canonicalization transforms, the buffer size specified by the <b>cbBuffe
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/xml-digital-signature-cryptographic-algorithms">Digital Signature Cryptographic Algorithms</a>
-
+<a href="/windows/desktop/SecCrypto/xml-digital-signature-cryptographic-algorithms">Digital Signature Cryptographic Algorithms</a>

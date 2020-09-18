@@ -64,7 +64,7 @@ The text to use as a URL for the selected friendly name.
 
 Type: <b>HRESULT</b>
 
-If the method succeeds, it returns <b>S_OK</b>. If the method fails, it returns one of the following COM error codes. For more information about COM error codes, see <a href="https://docs.microsoft.com/windows/desktop/com/error-handling-in-com">Error Handling in COM</a>.
+If the method succeeds, it returns <b>S_OK</b>. If the method fails, it returns one of the following COM error codes. For more information about COM error codes, see <a href="/windows/desktop/com/error-handling-in-com">Error Handling in COM</a>.
 
 <table>
 <tr>
@@ -124,9 +124,8 @@ The following actions are possible:
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextrange2">ITextRange2</a>
+<a href="/windows/desktop/api/tom/nn-tom-itextrange2">ITextRange2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange2-geturl">ITextRange2::GetURL</a>
-
+<a href="/windows/desktop/api/tom/nf-tom-itextrange2-geturl">ITextRange2::GetURL</a>

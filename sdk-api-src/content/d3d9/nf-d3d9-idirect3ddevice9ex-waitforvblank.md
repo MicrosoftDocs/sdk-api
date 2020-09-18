@@ -57,7 +57,7 @@ Suspend execution of the calling thread until the next vertical blank signal.
 
 ### -param iSwapChain [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 Swap chain index. This is an optional, zero-based index used to specify a swap chain on a multihead card.
 
@@ -75,5 +75,4 @@ In some scenarios the hardware may stop generating vertical blank signals when n
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nn-d3d9-idirect3ddevice9ex">IDirect3DDevice9Ex</a>
-
+<a href="/windows/desktop/api/d3d9/nn-d3d9-idirect3ddevice9ex">IDirect3DDevice9Ex</a>

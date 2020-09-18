@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-Used with the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsasyncexecute">WsAsyncExecute</a> to specify the next function 
+Used with the <a href="/windows/desktop/api/webservices/nf-webservices-wsasyncexecute">WsAsyncExecute</a> to specify the next function 
                 to invoke in a series of async operations.
 
 ## -struct-fields
@@ -60,4 +60,3 @@ Used with the <a href="https://docs.microsoft.com/windows/desktop/api/webservice
 ### -field function
 
 The asynchronous function to invoke.
-

@@ -56,7 +56,7 @@ api_name:
 
 Defines the initial cluster configuration. This structure is passed in the 
     <i>pConfig</i> parameter to the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-createcluster">CreateCluster</a> function.
+    <a href="/windows/desktop/api/clusapi/nf-clusapi-createcluster">CreateCluster</a> function.
 
 ## -struct-fields
 
@@ -79,17 +79,17 @@ Address of array of pointers to strings, each naming a node to be added to the n
 ### -field cIpEntries
 
 Count of nodes in the array pointed to by the <b>pIpEntries</b> member. If zero (0), no 
-       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/ip-address">IP Address</a> or 
-       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/network-name">Network Name</a> resources will be created.
+       <a href="/previous-versions/windows/desktop/mscs/ip-address">IP Address</a> or 
+       <a href="/previous-versions/windows/desktop/mscs/network-name">Network Name</a> resources will be created.
 
 ### -field pIpEntries
 
-Address of array of pointers to <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/ns-clusapi-cluster_ip_entry">CLUSTER_IP_ENTRY</a> 
+Address of array of pointers to <a href="/windows/desktop/api/clusapi/ns-clusapi-cluster_ip_entry">CLUSTER_IP_ENTRY</a> 
        structures, each naming a node to be added to the new cluster. Each entry will be used to configure a separate 
-       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/ip-address">IP Address</a> resource, and a 
-       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/network-name">Network Name</a> resource will be created which 
-       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resource-dependencies">depends</a> on all of these 
-       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/ip-address">IP Address</a> resources in a logical 
+       <a href="/previous-versions/windows/desktop/mscs/ip-address">IP Address</a> resource, and a 
+       <a href="/previous-versions/windows/desktop/mscs/network-name">Network Name</a> resource will be created which 
+       <a href="/previous-versions/windows/desktop/mscs/resource-dependencies">depends</a> on all of these 
+       <a href="/previous-versions/windows/desktop/mscs/ip-address">IP Address</a> resources in a logical 
        <b>OR</b> manner.
 
 ### -field fEmptyCluster
@@ -107,7 +107,7 @@ If <b>FALSE</b>, then the cluster is to be created with at least one node and th
 
 ### -field managementPointType
 
-A <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ne-clusapi-cluster_mgmt_point_type">CLUSTER_MGMT_POINT_TYPE</a> value that specifies the management point type. If the value of the <b>fEmptyCluster</b> member of this structure is TRUE, this member is ignored and the structure is treated as if this member were set to <b>CLUSTER_MGMT_POINT_TYPE_NONE</b>. If the <b>dwVersion</b> member of this structure is set to a value less than <b>CLUSAPI_VERSION_WINDOWSBLUE</b>, the value of this member is ignored and the structure is treated as if this member were set to <b>CLUSTER_MGMT_POINT_TYPE_CNO</b>.
+A <a href="/previous-versions/windows/desktop/api/clusapi/ne-clusapi-cluster_mgmt_point_type">CLUSTER_MGMT_POINT_TYPE</a> value that specifies the management point type. If the value of the <b>fEmptyCluster</b> member of this structure is TRUE, this member is ignored and the structure is treated as if this member were set to <b>CLUSTER_MGMT_POINT_TYPE_NONE</b>. If the <b>dwVersion</b> member of this structure is set to a value less than <b>CLUSAPI_VERSION_WINDOWSBLUE</b>, the value of this member is ignored and the structure is treated as if this member were set to <b>CLUSTER_MGMT_POINT_TYPE_CNO</b>.
 
 <b>Windows Server 2012, Windows Server 2008 R2 and Windows Server 2008:  </b>This member is not supported before Windows Server 2012 R2.
 
@@ -115,13 +115,12 @@ A <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clus
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clusapi/ns-clusapi-cluster_ip_entry">CLUSTER_IP_ENTRY</a>
+<a href="/windows/desktop/api/clusapi/ns-clusapi-cluster_ip_entry">CLUSTER_IP_ENTRY</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-createcluster">CreateCluster</a>
+<a href="/windows/desktop/api/clusapi/nf-clusapi-createcluster">CreateCluster</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/utility-structures">Utility structures</a>
-
+<a href="/previous-versions/windows/desktop/mscs/utility-structures">Utility structures</a>

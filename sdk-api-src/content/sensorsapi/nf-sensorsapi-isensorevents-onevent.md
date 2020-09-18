@@ -56,7 +56,7 @@ Provides custom event notifications.
 
 ### -param pSensor [in]
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/sensorsapi/nn-sensorsapi-isensor">ISensor</a> interface that represents the sensor that raised the event.
+Pointer to the <a href="/windows/desktop/api/sensorsapi/nn-sensorsapi-isensor">ISensor</a> interface that represents the sensor that raised the event.
 
 ### -param eventID [in]
 
@@ -64,7 +64,7 @@ Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/sensorsap
 
 ### -param pEventData [in]
 
-Pointer to the <a href="https://msdn.microsoft.com/library/ms740012(VS.85).aspx">IPortableDeviceValues</a> interface that contains the event data.
+Pointer to the <a href="/previous-versions//ms740012(v=vs.85)">IPortableDeviceValues</a> interface that contains the event data.
 
 ## -returns
 
@@ -74,16 +74,15 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 This callback method receives custom event notifications. Custom events are defined by sensor providers. Platform-defined event IDs are defined in Sensors.h.
 
-To receive new data from a sensor, use the <a href="https://docs.microsoft.com/windows/desktop/api/sensorsapi/nf-sensorsapi-isensorevents-ondataupdated">OnDataUpdated Method</a>.
+To receive new data from a sensor, use the <a href="/windows/desktop/api/sensorsapi/nf-sensorsapi-isensorevents-ondataupdated">OnDataUpdated Method</a>.
 
 
 #### Examples
 
-For an example of how to receive sensor events, see <a href="https://docs.microsoft.com/windows/desktop/SensorsAPI/using-sensor-api-events">Using Sensor API Events</a>.
+For an example of how to receive sensor events, see <a href="/windows/desktop/SensorsAPI/using-sensor-api-events">Using Sensor API Events</a>.
 
 <div class="code"></div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sensorsapi/nn-sensorsapi-isensorevents">ISensorEvents</a>
-
+<a href="/windows/desktop/api/sensorsapi/nn-sensorsapi-isensorevents">ISensorEvents</a>

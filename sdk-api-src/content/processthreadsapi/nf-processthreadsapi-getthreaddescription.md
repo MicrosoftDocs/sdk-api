@@ -77,7 +77,7 @@ The description for a thread can change at any time. For example, a different th
 
 Thread descriptions do not need to be unique.
 
-To free the memory for the thread description, call the [LocalFree](/windows/win32/api/winbase/nf-winbase-localfree) method.
+To free the memory for the thread description, call the [LocalFree](../winbase/nf-winbase-localfree.md) method.
 
 
 
@@ -96,5 +96,4 @@ if (SUCCEEDED(hr))
 
 ## -see-also
 
-[LocalFree](/windows/win32/api/winbase/nf-winbase-localfree), [SetThreadDescription](/windows/win32/api/processthreadsapi/nf-processthreadsapi-setthreaddescription)
-
+[LocalFree](../winbase/nf-winbase-localfree.md), [SetThreadDescription](./nf-processthreadsapi-setthreaddescription.md)

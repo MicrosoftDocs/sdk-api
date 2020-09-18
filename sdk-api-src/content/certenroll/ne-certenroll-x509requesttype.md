@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>X509RequestType</b> enumeration specifies the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate request</a> type. This enumeration is returned by the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509certificaterequest-get_type">Type</a> property on the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509certificaterequest">IX509CertificateRequest</a> interface.
+The <b>X509RequestType</b> enumeration specifies the <a href="/windows/desktop/SecGloss/c-gly">certificate request</a> type. This enumeration is returned by the <a href="/windows/desktop/api/certenroll/nf-certenroll-ix509certificaterequest-get_type">Type</a> property on the <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509certificaterequest">IX509CertificateRequest</a> interface.
 
 ## -enum-fields
 
@@ -60,25 +60,24 @@ The type is not defined.
 
 ### -field TypePkcs10
 
-A PKCS #10 request. For more information, see the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509certificaterequestpkcs10">IX509CertificateRequestPkcs10</a> interface.
+A PKCS #10 request. For more information, see the <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509certificaterequestpkcs10">IX509CertificateRequestPkcs10</a> interface.
 
 ### -field TypePkcs7
 
-A PKCS #7 request represented by an <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509certificaterequestpkcs7">IX509CertificateRequestPkcs7</a> interface.
+A PKCS #7 request represented by an <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509certificaterequestpkcs7">IX509CertificateRequestPkcs7</a> interface.
 
 ### -field TypeCmc
 
-A <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">Certificate Management over CMS</a> (CMC) request. For more information, see the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509certificaterequestcmc">IX509CertificateRequestCmc</a> interface.
+A <a href="/windows/desktop/SecGloss/c-gly">Certificate Management over CMS</a> (CMC) request. For more information, see the <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509certificaterequestcmc">IX509CertificateRequestCmc</a> interface.
 
 ### -field TypeCertificate
 
-A self-signed <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate</a>. For more information, see the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509certificaterequestcertificate">IX509CertificateRequestCertificate</a> interface.
+A self-signed <a href="/windows/desktop/SecGloss/c-gly">certificate</a>. For more information, see the <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509certificaterequestcertificate">IX509CertificateRequestCertificate</a> interface.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/SecCertEnroll/certenroll-enumerations">CertEnroll Enumerations</a>
+<a href="/windows/desktop/SecCertEnroll/certenroll-enumerations">CertEnroll Enumerations</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SecCertEnroll/certenroll-interfaces">CertEnroll Interfaces</a>
-
+<a href="/windows/desktop/SecCertEnroll/certenroll-interfaces">CertEnroll Interfaces</a>

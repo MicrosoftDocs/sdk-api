@@ -54,7 +54,7 @@ The <b>ITfReadOnlyProperty</b> interface is implemented by the TSF manager and u
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfReadOnlyProperty</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfReadOnlyProperty</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfReadOnlyProperty</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfReadOnlyProperty</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ITfReadOnlyProperty</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfreadonlyproperty-enumranges">EnumRanges</a>
+<a href="/windows/desktop/api/msctf/nf-msctf-itfreadonlyproperty-enumranges">EnumRanges</a>
 </td>
 <td align="left" width="63%">
 Obtains an enumeration of ranges that contain unique values of the property within the given range.
@@ -78,7 +78,7 @@ Obtains an enumeration of ranges that contain unique values of the property with
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfreadonlyproperty-getcontext">GetContext</a>
+<a href="/windows/desktop/api/msctf/nf-msctf-itfreadonlyproperty-getcontext">GetContext</a>
 </td>
 <td align="left" width="63%">
 Obtains the context object for the property.
@@ -87,7 +87,7 @@ Obtains the context object for the property.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfreadonlyproperty-gettype">GetType</a>
+<a href="/windows/desktop/api/msctf/nf-msctf-itfreadonlyproperty-gettype">GetType</a>
 </td>
 <td align="left" width="63%">
 Obtains the property identifier.
@@ -96,7 +96,7 @@ Obtains the property identifier.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfreadonlyproperty-getvalue">GetValue</a>
+<a href="/windows/desktop/api/msctf/nf-msctf-itfreadonlyproperty-getvalue">GetValue</a>
 </td>
 <td align="left" width="63%">
 Obtains the value of the property for a range of text.
@@ -107,19 +107,18 @@ Obtains the value of the property for a range of text.
 
 ## -remarks
 
-An instance of this interface is obtained by using <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcontext-getappproperty">ITfContext::GetAppProperty</a> or <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcontext-trackproperties">ITfContext::TrackProperties</a>.
+An instance of this interface is obtained by using <a href="/windows/desktop/api/msctf/nf-msctf-itfcontext-getappproperty">ITfContext::GetAppProperty</a> or <a href="/windows/desktop/api/msctf/nf-msctf-itfcontext-trackproperties">ITfContext::TrackProperties</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcontext-getappproperty">ITfContext::GetAppProperty
+<a href="/windows/desktop/api/msctf/nf-msctf-itfcontext-getappproperty">ITfContext::GetAppProperty
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcontext-trackproperties">ITfContext::TrackProperties
+<a href="/windows/desktop/api/msctf/nf-msctf-itfcontext-trackproperties">ITfContext::TrackProperties
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
-
+<a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>

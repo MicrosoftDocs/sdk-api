@@ -50,21 +50,21 @@ api_name:
 
 ## -description
 
-Creates an instance of the <a href="https://docs.microsoft.com/windows/desktop/api/shimgdata/nn-shimgdata-ishellimagedata">IShellImageData</a> interface based on a given file stream.
+Creates an instance of the <a href="/windows/desktop/api/shimgdata/nn-shimgdata-ishellimagedata">IShellImageData</a> interface based on a given file stream.
 
 ## -parameters
 
 ### -param pStream [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a>*</b>
+Type: <b><a href="/windows/desktop/api/objidl/nn-objidl-istream">IStream</a>*</b>
 
 A pointer to the image stream.
 
 ### -param ppshimg [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shimgdata/nn-shimgdata-ishellimagedata">IShellImageData</a>**</b>
+Type: <b><a href="/windows/desktop/api/shimgdata/nn-shimgdata-ishellimagedata">IShellImageData</a>**</b>
 
-The address of a pointer to an instance of <a href="https://docs.microsoft.com/windows/desktop/api/shimgdata/nn-shimgdata-ishellimagedata">IShellImageData</a>.
+The address of a pointer to an instance of <a href="/windows/desktop/api/shimgdata/nn-shimgdata-ishellimagedata">IShellImageData</a>.
 
 ## -returns
 
@@ -95,7 +95,7 @@ The internal object cannot be instantiated.
 </dl>
 </td>
 <td width="60%">
-The internal object does not support the <a href="https://docs.microsoft.com/windows/desktop/api/shimgdata/nn-shimgdata-ishellimagedata">IShellImageData</a> or <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ipersistfile">IPersistFile</a> interfaces.
+The internal object does not support the <a href="/windows/desktop/api/shimgdata/nn-shimgdata-ishellimagedata">IShellImageData</a> or <a href="/windows/desktop/api/objidl/nn-objidl-ipersistfile">IPersistFile</a> interfaces.
 
 </td>
 </tr>
@@ -114,5 +114,4 @@ The <i>ppshimg</i> parameter is <b>NULL</b>.
 
 ## -remarks
 
-If <i>pStream</i> is <b>NULL</b> or an invalid pointer, later calls to <a href="https://docs.microsoft.com/windows/desktop/api/shimgdata/nf-shimgdata-ishellimagedata-decode">Decode</a> will cause an access violation.
-
+If <i>pStream</i> is <b>NULL</b> or an invalid pointer, later calls to <a href="/windows/desktop/api/shimgdata/nf-shimgdata-ishellimagedata-decode">Decode</a> will cause an access violation.

@@ -64,5 +64,4 @@ The current playback position of the DMR.
 
 ### -field trackInformation
 
-A <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh829004(v=vs.85)">TrackInformation</a> structure that contains the current track number and duration.
-
+A <a href="/previous-versions/windows/desktop/legacy/hh829004(v=vs.85)">TrackInformation</a> structure that contains the current track number and duration.

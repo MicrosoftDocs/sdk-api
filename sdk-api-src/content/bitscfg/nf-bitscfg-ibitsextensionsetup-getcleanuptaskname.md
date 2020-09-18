@@ -66,17 +66,16 @@ This method returns <b>S_OK</b> for success. Otherwise, the method returns <b>S_
 ## -remarks
 
 When you create a virtual directory and 
-<a href="https://docs.microsoft.com/windows/desktop/api/bitscfg/nf-bitscfg-ibitsextensionsetup-enablebitsuploads">enable</a> it for BITS uploads, BITS adds a work item in the 
-<a href="https://docs.microsoft.com/windows/desktop/TaskSchd/task-scheduler-start-page">Task Scheduler</a>. The work item cleans up the virtual directory once every 12 hours by deleting jobs that have not been modified within the time-out period. To specify the time-out period, set the 
-<a href="https://docs.microsoft.com/windows/desktop/Bits/bits-iis-extension-properties">BITSSessionTimeout</a> IIS extension property.
+<a href="/windows/desktop/api/bitscfg/nf-bitscfg-ibitsextensionsetup-enablebitsuploads">enable</a> it for BITS uploads, BITS adds a work item in the 
+<a href="/windows/desktop/TaskSchd/task-scheduler-start-page">Task Scheduler</a>. The work item cleans up the virtual directory once every 12 hours by deleting jobs that have not been modified within the time-out period. To specify the time-out period, set the 
+<a href="/windows/desktop/Bits/bits-iis-extension-properties">BITSSessionTimeout</a> IIS extension property.
 
 Use the <i>pTaskName</i> name as an input parameter to the Schtasks.exe executable file, which you can use to change the properties of the cleanup task from a script.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bitscfg/nf-bitscfg-ibitsextensionsetup-enablebitsuploads">IBITSExtensionSetup::EnableBITSUploads</a>
+<a href="/windows/desktop/api/bitscfg/nf-bitscfg-ibitsextensionsetup-enablebitsuploads">IBITSExtensionSetup::EnableBITSUploads</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bitscfg/nf-bitscfg-ibitsextensionsetup-getcleanuptask">IBITSExtensionSetup::GetCleanupTask</a>
-
+<a href="/windows/desktop/api/bitscfg/nf-bitscfg-ibitsextensionsetup-getcleanuptask">IBITSExtensionSetup::GetCleanupTask</a>

@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-The <b>CspInformation</b> property retrieves an <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icspinformation">ICspInformation</a> object that contains general information about the provider. This property is web enabled.
+The <b>CspInformation</b> property retrieves an <a href="/windows/desktop/api/certenroll/nn-certenroll-icspinformation">ICspInformation</a> object that contains general information about the provider. This property is web enabled.
 
 This property is read-only.
 
@@ -59,7 +59,7 @@ This property is read-only.
 
 ## -remarks
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icspinformation">ICspInformation</a> object includes the following information about a CSP:
+The <a href="/windows/desktop/api/certenroll/nn-certenroll-icspinformation">ICspInformation</a> object includes the following information about a CSP:
 
 <ul>
 <li>A collection of supported algorithms and their intended uses.</li>
@@ -71,9 +71,8 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certen
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icspstatus">ICspStatus</a>
+<a href="/windows/desktop/api/certenroll/nn-certenroll-icspstatus">ICspStatus</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icspstatuses">ICspStatuses</a>
-
+<a href="/windows/desktop/api/certenroll/nn-certenroll-icspstatuses">ICspStatuses</a>

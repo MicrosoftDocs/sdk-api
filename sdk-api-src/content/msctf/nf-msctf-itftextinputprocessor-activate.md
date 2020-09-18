@@ -56,7 +56,7 @@ Activates a text service when a user session starts.
 
 ### -param ptim [in]
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfthreadmgr">ITfThreadMgr</a> interface for the thread manager that owns the text service.
+Pointer to the <a href="/windows/desktop/api/msctf/nn-msctf-itfthreadmgr">ITfThreadMgr</a> interface for the thread manager that owns the text service.
 
 ### -param tid [in]
 
@@ -68,24 +68,23 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -remarks
 
-TSF calls this method after creating an instance of a text service with a call to <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance">CoCreateInstance</a>. This enables operations necessary to start the text service.
+TSF calls this method after creating an instance of a text service with a call to <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance">CoCreateInstance</a>. This enables operations necessary to start the text service.
 
 This method usually adds a reference to the thread manager for the session and advise sinks for events that involve the text service, such as change of focus, keystrokes, and window events. It also customizes the language bar for the text service.
 
-The corresponding <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itftextinputprocessor-deactivate">ITfTextInputProcessor::Deactivate</a> method that shuts down the text service must release all references to the <i>ptim</i> parameter.
+The corresponding <a href="/windows/desktop/api/msctf/nf-msctf-itftextinputprocessor-deactivate">ITfTextInputProcessor::Deactivate</a> method that shuts down the text service must release all references to the <i>ptim</i> parameter.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itftextinputprocessor">ITfTextInputProcessor
+<a href="/windows/desktop/api/msctf/nn-msctf-itftextinputprocessor">ITfTextInputProcessor
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itftextinputprocessor-deactivate">ITfTextInputProcessor::Deactivate
+<a href="/windows/desktop/api/msctf/nf-msctf-itftextinputprocessor-deactivate">ITfTextInputProcessor::Deactivate
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfthreadmgr">ITfThreadMgr
+<a href="/windows/desktop/api/msctf/nn-msctf-itfthreadmgr">ITfThreadMgr
       </a>
-

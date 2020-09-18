@@ -56,7 +56,7 @@ Called when a composition is started.
 
 ### -param pComposition [in]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfcompositionview">ITfCompositionView</a> object that represents the new composition.
+Pointer to an <a href="/windows/desktop/api/msctf/nn-msctf-itfcompositionview">ITfCompositionView</a> object that represents the new composition.
 
 ### -param pfOk [out]
 
@@ -87,4 +87,3 @@ The method was successful.
 ## -see-also
 
 [ITfCompositionView interface](nn-msctf-itfcompositionview.md), [ITfContextOwnerCompositionSink interface](nn-msctf-itfcontextownercompositionsink.md)
-

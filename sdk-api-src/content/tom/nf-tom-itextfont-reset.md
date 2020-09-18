@@ -179,9 +179,9 @@ Use twips for floating-point measurements.
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
-If the method succeeds, it returns <b>S_OK</b>. If the method fails, it returns one of the following COM error codes. For more information about COM error codes, see <a href="https://docs.microsoft.com/windows/desktop/com/error-handling-in-com">Error Handling in COM</a>.
+If the method succeeds, it returns <b>S_OK</b>. If the method fails, it returns one of the following COM error codes. For more information about COM error codes, see <a href="/windows/desktop/com/error-handling-in-com">Error Handling in COM</a>.
 
 <table>
 <tr>
@@ -227,7 +227,7 @@ The font object is attached to a range that has been deleted.
 
 Calling 
 				<b>ITextFont::Reset</b> with <b>tomUndefined</b> sets all properties to undefined values. Thus, applying the font object to a range changes nothing. This applies to a font object that is obtained by the 
-				<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextfont-getduplicate">ITextFont::GetDuplicate</a> method.
+				<a href="/windows/desktop/api/tom/nf-tom-itextfont-getduplicate">ITextFont::GetDuplicate</a> method.
 
 ## -see-also
 
@@ -235,11 +235,11 @@ Calling
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextfont-getduplicate">GetDuplicate</a>
+<a href="/windows/desktop/api/tom/nf-tom-itextfont-getduplicate">GetDuplicate</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextfont">ITextFont</a>
+<a href="/windows/desktop/api/tom/nn-tom-itextfont">ITextFont</a>
 
 
 
@@ -247,5 +247,4 @@ Calling
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Controls/text-object-model">Text Object Model</a>
-
+<a href="/windows/desktop/Controls/text-object-model">Text Object Model</a>

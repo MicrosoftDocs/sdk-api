@@ -59,7 +59,7 @@ The
 ### -param bstrComputerName [in]
 
 Specifies a 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/automat/bstr">BSTR</a> variable that contains the name of the computer to which to attach. If this parameter specifies a <b>NULL</b> string, the local computer is attached.
+<a href="/previous-versions/windows/desktop/automat/bstr">BSTR</a> variable that contains the name of the computer to which to attach. If this parameter specifies a <b>NULL</b> string, the local computer is attached.
 
 ## -returns
 
@@ -72,13 +72,12 @@ The method may also return one of the following error codes.
 ## -remarks
 
 Use the 
-<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/nf-sdoias-isdomachine-getattachedcomputer">ISdoMachine::GetAttachedComputer</a> method to determine if a computer is already attached.
+<a href="/windows/desktop/api/sdoias/nf-sdoias-isdomachine-getattachedcomputer">ISdoMachine::GetAttachedComputer</a> method to determine if a computer is already attached.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/nn-sdoias-isdomachine">ISdoMachine</a>
+<a href="/windows/desktop/api/sdoias/nn-sdoias-isdomachine">ISdoMachine</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/nf-sdoias-isdomachine-getattachedcomputer">ISdoMachine::GetAttachedComputer</a>
-
+<a href="/windows/desktop/api/sdoias/nf-sdoias-isdomachine-getattachedcomputer">ISdoMachine::GetAttachedComputer</a>

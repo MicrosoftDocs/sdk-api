@@ -60,91 +60,91 @@ The type of command is not known.
 
 ### -field UI_COMMANDTYPE_GROUP
 
-<a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-controls-group">Group</a>
+<a href="/windows/desktop/windowsribbon/windowsribbon-controls-group">Group</a>
 
 ### -field UI_COMMANDTYPE_ACTION
 
-<a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-controls-button">Button</a>
+<a href="/windows/desktop/windowsribbon/windowsribbon-controls-button">Button</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-controls-helpbutton">Help Button</a>
+<a href="/windows/desktop/windowsribbon/windowsribbon-controls-helpbutton">Help Button</a>
 
 ### -field UI_COMMANDTYPE_ANCHOR
 
-<a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-controls-applicationmenu">Application Menu</a>
+<a href="/windows/desktop/windowsribbon/windowsribbon-controls-applicationmenu">Application Menu</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-controls-dropdownbutton">Drop-Down Button</a>
+<a href="/windows/desktop/windowsribbon/windowsribbon-controls-dropdownbutton">Drop-Down Button</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-controls-splitbutton">Split Button</a>
+<a href="/windows/desktop/windowsribbon/windowsribbon-controls-splitbutton">Split Button</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-controls-tab">Tab</a>
+<a href="/windows/desktop/windowsribbon/windowsribbon-controls-tab">Tab</a>
 
 ### -field UI_COMMANDTYPE_CONTEXT
 
-<a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-controls-tabgroup">Tab Group</a>
+<a href="/windows/desktop/windowsribbon/windowsribbon-controls-tabgroup">Tab Group</a>
 
 ### -field UI_COMMANDTYPE_COLLECTION
 
-<a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-controls-combobox">Combo Box</a>
+<a href="/windows/desktop/windowsribbon/windowsribbon-controls-combobox">Combo Box</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-controls-dropdowngallery">Drop-Down Gallery</a>
+<a href="/windows/desktop/windowsribbon/windowsribbon-controls-dropdowngallery">Drop-Down Gallery</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-controls-inribbongallery">In-Ribbon Gallery</a>
+<a href="/windows/desktop/windowsribbon/windowsribbon-controls-inribbongallery">In-Ribbon Gallery</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-controls-splitbuttongallery">Split Button Gallery</a>
+<a href="/windows/desktop/windowsribbon/windowsribbon-controls-splitbuttongallery">Split Button Gallery</a>
 
 ### -field UI_COMMANDTYPE_COMMANDCOLLECTION
 
-<a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-controls-dropdowngallery">Drop-Down Gallery</a>
+<a href="/windows/desktop/windowsribbon/windowsribbon-controls-dropdowngallery">Drop-Down Gallery</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-controls-inribbongallery">In-Ribbon Gallery</a>
+<a href="/windows/desktop/windowsribbon/windowsribbon-controls-inribbongallery">In-Ribbon Gallery</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-controls-quickaccesstoolbar">Quick Access Toolbar</a>
+<a href="/windows/desktop/windowsribbon/windowsribbon-controls-quickaccesstoolbar">Quick Access Toolbar</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-controls-splitbuttongallery">Split Button Gallery</a>
+<a href="/windows/desktop/windowsribbon/windowsribbon-controls-splitbuttongallery">Split Button Gallery</a>
 
 ### -field UI_COMMANDTYPE_DECIMAL
 
-<a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-controls-spinner">Spinner</a>
+<a href="/windows/desktop/windowsribbon/windowsribbon-controls-spinner">Spinner</a>
 
 ### -field UI_COMMANDTYPE_BOOLEAN
 
-<a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-controls-togglebutton">Toggle Button</a>
+<a href="/windows/desktop/windowsribbon/windowsribbon-controls-togglebutton">Toggle Button</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-controls-checkbox">Check Box</a>
+<a href="/windows/desktop/windowsribbon/windowsribbon-controls-checkbox">Check Box</a>
 
 ### -field UI_COMMANDTYPE_FONT
 
-<a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-controls-fontcontrol">Font Control</a>
+<a href="/windows/desktop/windowsribbon/windowsribbon-controls-fontcontrol">Font Control</a>
 
 ### -field UI_COMMANDTYPE_RECENTITEMS
 
-<a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-controls-recentitems">Recent Items</a>
+<a href="/windows/desktop/windowsribbon/windowsribbon-controls-recentitems">Recent Items</a>
 
 ### -field UI_COMMANDTYPE_COLORANCHOR
 
-<a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-controls-dropdowncolorpicker">Drop-Down Color Picker</a>
+<a href="/windows/desktop/windowsribbon/windowsribbon-controls-dropdowncolorpicker">Drop-Down Color Picker</a>
 
 ### -field UI_COMMANDTYPE_COLORCOLLECTION
 
@@ -152,5 +152,4 @@ This Command type is not supported by any framework controls.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-reference-enumerations">Constants and Enumerations</a>
-
+<a href="/windows/desktop/windowsribbon/windowsribbon-reference-enumerations">Constants and Enumerations</a>

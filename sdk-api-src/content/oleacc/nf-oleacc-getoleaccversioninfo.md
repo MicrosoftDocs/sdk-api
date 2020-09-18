@@ -56,17 +56,16 @@ Retrieves the version number and build number of the Microsoft Active Accessibil
 
 ### -param pVer [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a>*</b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">DWORD</a>*</b>
 
 Address of a <b>DWORD</b> that receives the version number. The major version number is placed in the high word, and the minor version number is placed in the low word.
 
 ### -param pBuild [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a>*</b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">DWORD</a>*</b>
 
 Address of a <b>DWORD</b> that receives the build number. The major build number is placed in the high word, and the minor build number is placed in the low word.
 
 ## -remarks
 
-This function provides an easy way to get the version and build numbers for Oleacc.dll. The <a href="https://msdn.microsoft.com/library/ms647005(VS.85).aspx">GetFileVersionInfoSize</a>, <a href="https://msdn.microsoft.com/library/ms647003(VS.85).aspx">GetFileVersionInfo</a>, and <a href="https://msdn.microsoft.com/library/ms647464(VS.85).aspx">VerQueryValue</a> functions can be used to retrieve the same information.
-
+This function provides an easy way to get the version and build numbers for Oleacc.dll. The <a href="/windows/win32/api/winver/nf-winver-getfileversioninfosizea">GetFileVersionInfoSize</a>, <a href="/windows/win32/api/winver/nf-winver-getfileversioninfoa">GetFileVersionInfo</a>, and <a href="/windows/win32/api/winver/nf-winver-verqueryvaluea">VerQueryValue</a> functions can be used to retrieve the same information.

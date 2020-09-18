@@ -64,9 +64,8 @@ Number of elements in the array <b>rgExtension</b>.
 
 ### -field rgExtension
 
-Array of structures, each holding information of type <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_extension">CERT_EXTENSION</a> about a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate</a> or <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">CRL</a>.
+Array of structures, each holding information of type <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_extension">CERT_EXTENSION</a> about a <a href="/windows/desktop/SecGloss/c-gly">certificate</a> or <a href="/windows/desktop/SecGloss/c-gly">CRL</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_extension">CERT_EXTENSION</a>
-
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_extension">CERT_EXTENSION</a>

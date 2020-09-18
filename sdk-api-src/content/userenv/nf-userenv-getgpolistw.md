@@ -60,12 +60,12 @@ The
 ### -param hToken [in]
 
 A token for the user or computer, returned from the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-logonusera">LogonUser</a>, 
-<a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-createrestrictedtoken">CreateRestrictedToken</a>, 
-<a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-duplicatetoken">DuplicateToken</a>, 
-<a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-openprocesstoken">OpenProcessToken</a>, or 
-<a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-openthreadtoken">OpenThreadToken</a> function. This token must have <b>TOKEN_IMPERSONATE</b> and <b>TOKEN_QUERY</b> access. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/access-rights-for-access-token-objects">Access Rights for Access-Token Objects</a> and the following Remarks section.
+<a href="/windows/desktop/api/winbase/nf-winbase-logonusera">LogonUser</a>, 
+<a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-createrestrictedtoken">CreateRestrictedToken</a>, 
+<a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-duplicatetoken">DuplicateToken</a>, 
+<a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-openprocesstoken">OpenProcessToken</a>, or 
+<a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-openthreadtoken">OpenThreadToken</a> function. This token must have <b>TOKEN_IMPERSONATE</b> and <b>TOKEN_QUERY</b> access. For more information, see 
+<a href="/windows/desktop/SecAuthZ/access-rights-for-access-token-objects">Access Rights for Access-Token Objects</a> and the following Remarks section.
 
 If this parameter is <b>NULL</b>, you must supply values for the <i>lpName</i> and <i>lpHostName</i> parameters.
 
@@ -78,7 +78,7 @@ If the <i>hToken</i> parameter is not <b>NULL</b>, this parameter must be <b>NUL
 ### -param lpHostName [in]
 
 A DNS domain name or domain controller name. Domain controller name can be retrieved using the 
-<a href="https://docs.microsoft.com/windows/desktop/api/dsgetdc/nf-dsgetdc-dsgetdcnamea">DsGetDcName</a> function, specifying <b>DS_DIRECTORY_SERVICE_REQUIRED</b> in the <i>flags</i> parameter.
+<a href="/windows/desktop/api/dsgetdc/nf-dsgetdc-dsgetdcnamea">DsGetDcName</a> function, specifying <b>DS_DIRECTORY_SERVICE_REQUIRED</b> in the <i>flags</i> parameter.
 
 If the <i>hToken</i> parameter is not <b>NULL</b>, this parameter must be <b>NULL</b>.
 
@@ -95,14 +95,14 @@ If you specify <b>GPO_LIST_FLAG_SITEONLY</b> the function returns only site info
 ### -param pGPOList [out]
 
 A pointer that receives the list of GPO structures. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/api/userenv/ns-userenv-group_policy_objecta">GROUP_POLICY_OBJECT</a>.
+<a href="/windows/desktop/api/userenv/ns-userenv-group_policy_objecta">GROUP_POLICY_OBJECT</a>.
 
 ## -returns
 
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
@@ -111,10 +111,10 @@ The
 
 Calling this function with a token provides the most accurate list. The system can perform access checking for the user or computer. Calling this function with the user or computer name and the domain controller name is faster than calling it with a token. However, if the token is not specified, the system uses the security access of the caller, which means that the list may not be completely correct for the intended user or computer.
 
-To obtain the most accurate list of GPOs for a computer when calling <b>GetGPOList</b>, the caller must have read access to each OU and site in the computer domain, and also read and apply Group Policy access to all GPOs that are linked to the sites, domain or OUs of that domain. An example of a caller would be a service running on the computer whose name is specified in the <i>lpName</i> parameter. An alternate method of obtaining a list of GPOs would be to call the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/Policy/rsopplanningmodeprovider-rsopcreatesession">RsopCreateSession</a> method of the <b>RsopPlanningModeProvider</b> WMI class. The method can generate resultant policy data for a computer or user account in a hypothetical scenario.
+To obtain the most accurate list of GPOs for a computer when calling <b>GetGPOList</b>, the caller must have read access to each OU and site in the computer domain, and also read and apply Group Policy access to all GPOs that are linked to the sites, domain or OUs of that domain. An example of a caller would be a service running on the computer whose name is specified in the <i>lpName</i> parameter. An alternate method of obtaining a list of GPOs would be to call the <a href="/previous-versions/windows/desktop/Policy/rsopplanningmodeprovider-rsopcreatesession">RsopCreateSession</a> method of the <b>RsopPlanningModeProvider</b> WMI class. The method can generate resultant policy data for a computer or user account in a hypothetical scenario.
 
 Call the 
-<a href="https://docs.microsoft.com/windows/desktop/api/userenv/nf-userenv-freegpolista">FreeGPOList</a> function to free the GPO list when you have finished processing it.
+<a href="/windows/desktop/api/userenv/nf-userenv-freegpolista">FreeGPOList</a> function to free the GPO list when you have finished processing it.
 
 Generally, you should call 
 <b>GetGPOList</b> with a token when retrieving a list of GPOs for a user as shown in the following code example.
@@ -149,7 +149,7 @@ LPGROUP_POLICY_OBJECT  pGPOList;
 
 
 To retrieve the list of GPOs applied for a specific user or computer and extension, call the 
-<a href="https://docs.microsoft.com/windows/desktop/api/userenv/nf-userenv-getappliedgpolista">GetAppliedGPOList</a> function.
+<a href="/windows/desktop/api/userenv/nf-userenv-getappliedgpolista">GetAppliedGPOList</a> function.
 
 
 
@@ -160,23 +160,22 @@ To retrieve the list of GPOs applied for a specific user or computer and extensi
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dsgetdc/nf-dsgetdc-dsgetdcnamea">DsGetDcName</a>
+<a href="/windows/desktop/api/dsgetdc/nf-dsgetdc-dsgetdcnamea">DsGetDcName</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/userenv/nf-userenv-freegpolista">FreeGPOList</a>
+<a href="/windows/desktop/api/userenv/nf-userenv-freegpolista">FreeGPOList</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/userenv/ns-userenv-group_policy_objecta">GROUP_POLICY_OBJECT</a>
+<a href="/windows/desktop/api/userenv/ns-userenv-group_policy_objecta">GROUP_POLICY_OBJECT</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/Policy/group-policy-functions">Group Policy
+<a href="/previous-versions/windows/desktop/Policy/group-policy-functions">Group Policy
     Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/Policy/about-group-policy">Group Policy
+<a href="/previous-versions/windows/desktop/Policy/about-group-policy">Group Policy
     Overview</a>
-

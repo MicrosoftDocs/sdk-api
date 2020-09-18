@@ -50,19 +50,18 @@ api_name:
 
 ## -description
 
-Creates a copy of a <a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_destinationoptions">MI_DestinationOptions</a> structure.
+Creates a copy of a <a href="/windows/desktop/api/mi/ns-mi-mi_destinationoptions">MI_DestinationOptions</a> structure.
 
 ## -parameters
 
 ### -param self [in]
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_destinationoptions">MI_DestinationOptions</a> structure to be cloned.
+<a href="/windows/desktop/api/mi/ns-mi-mi_destinationoptions">MI_DestinationOptions</a> structure to be cloned.
 
 ### -param newDestinationOptions [out]
 
-A pointer to the returned <a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_destinationoptions">MI_DestinationOptions</a> clone. The cloned copy must be closed with the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_destinationoptions_delete">MI_DestinationOptions_Delete</a> function.
+A pointer to the returned <a href="/windows/desktop/api/mi/ns-mi-mi_destinationoptions">MI_DestinationOptions</a> clone. The cloned copy must be closed with the <a href="/previous-versions/windows/desktop/api/mi/nf-mi-mi_destinationoptions_delete">MI_DestinationOptions_Delete</a> function.
 
 ## -returns
 
 This function returns MI_INLINE MI_Result MI_INLINE_CALL.
-

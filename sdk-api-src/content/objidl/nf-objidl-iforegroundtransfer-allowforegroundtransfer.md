@@ -93,9 +93,8 @@ The <i>lpvReserved</i> parameter is not <b>NULL</b>, or this interface is on a p
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objbase/nf-objbase-coallowsetforegroundwindow">CoAllowSetForegroundWindow</a>
+<a href="/windows/desktop/api/objbase/nf-objbase-coallowsetforegroundwindow">CoAllowSetForegroundWindow</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-iforegroundtransfer">IForegroundTransfer</a>
-
+<a href="/windows/desktop/api/objidl/nn-objidl-iforegroundtransfer">IForegroundTransfer</a>

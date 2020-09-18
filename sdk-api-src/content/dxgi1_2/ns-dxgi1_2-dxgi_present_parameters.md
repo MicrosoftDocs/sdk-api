@@ -74,7 +74,7 @@ A pointer to the offset of the scrolled area that goes from the source rectangle
 
 ## -remarks
 
-This structure is used by the <a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_2/nf-dxgi1_2-idxgiswapchain1-present1">Present1</a> method.
+This structure is used by the <a href="/windows/desktop/api/dxgi1_2/nf-dxgi1_2-idxgiswapchain1-present1">Present1</a> method.
 
 The scroll rectangle and the list of dirty rectangles could overlap.  In this situation, the dirty rectangles take priority. Applications can then have pieces of dynamic content on top of a scrolled area. For example, an application could scroll a page and play video at the same time.
 
@@ -93,13 +93,12 @@ The dashed rectangle shows the scroll rectangle in the current frame. The scroll
 The arrow shows the scroll offset. The scroll offset is specified by the <b>pScrollOffset</b> member.
 Filled rectangles show dirty rectangles that the application updated with new content. The filled rectangles are specified by the <b>DirtyRectsCount</b> and <b>pDirtyRects</b> members.
 
-The scroll rectangle and offset are not supported for the <a href="https://docs.microsoft.com/windows/desktop/api/dxgi/ne-dxgi-dxgi_swap_effect">DXGI_SWAP_EFFECT_DISCARD</a> or <a href="https://docs.microsoft.com/windows/desktop/api/dxgi/ne-dxgi-dxgi_swap_effect">DXGI_SWAP_EFFECT_SEQUENTIAL</a> present option. Dirty rectangles and scroll rectangle are not supported for multisampled swap chains.
+The scroll rectangle and offset are not supported for the <a href="/windows/desktop/api/dxgi/ne-dxgi-dxgi_swap_effect">DXGI_SWAP_EFFECT_DISCARD</a> or <a href="/windows/desktop/api/dxgi/ne-dxgi-dxgi_swap_effect">DXGI_SWAP_EFFECT_SEQUENTIAL</a> present option. Dirty rectangles and scroll rectangle are not supported for multisampled swap chains.
 
-The actual implementation of composition and necessary bitblts is different for the bitblt model and the flip model. For more info about these models, see <a href="https://docs.microsoft.com/windows/desktop/direct3ddxgi/dxgi-flip-model">DXGI Flip Model</a>.
+The actual implementation of composition and necessary bitblts is different for the bitblt model and the flip model. For more info about these models, see <a href="/windows/desktop/direct3ddxgi/dxgi-flip-model">DXGI Flip Model</a>.
 
-For more info about the flip-model swap chain and optimizing presentation, see <a href="https://docs.microsoft.com/windows/desktop/direct3ddxgi/dxgi-1-2-presentation-improvements">Enhancing presentation with the flip model, dirty rectangles, and scrolled areas</a>.
+For more info about the flip-model swap chain and optimizing presentation, see <a href="/windows/desktop/direct3ddxgi/dxgi-1-2-presentation-improvements">Enhancing presentation with the flip model, dirty rectangles, and scrolled areas</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3ddxgi/d3d10-graphics-reference-dxgi-structures">DXGI Structures</a>
-
+<a href="/windows/desktop/direct3ddxgi/d3d10-graphics-reference-dxgi-structures">DXGI Structures</a>

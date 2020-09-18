@@ -50,17 +50,17 @@ api_name:
 
 ## -description
 
-Returns the name of a cluster's  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/quorum-resource">quorum resource</a>. The <b>PCLUSAPI_GET_CLUSTER_QUORUM_RESOURCE</b> type defines a pointer to this function.
+Returns the name of a cluster's  <a href="/previous-versions/windows/desktop/mscs/quorum-resource">quorum resource</a>. The <b>PCLUSAPI_GET_CLUSTER_QUORUM_RESOURCE</b> type defines a pointer to this function.
 
 ## -parameters
 
 ### -param hCluster [in]
 
-Handle to an existing <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/c-gly">cluster</a>.
+Handle to an existing <a href="/previous-versions/windows/desktop/mscs/c-gly">cluster</a>.
 
 ### -param lpszResourceName [out]
 
-Pointer to a null-terminated Unicode string containing the name of the cluster's quorum resource. The name is read from the quorum resource's  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resources-name">Name</a> common property. Do not pass <b>NULL</b> for this parameter.
+Pointer to a null-terminated Unicode string containing the name of the cluster's quorum resource. The name is read from the quorum resource's  <a href="/previous-versions/windows/desktop/mscs/resources-name">Name</a> common property. Do not pass <b>NULL</b> for this parameter.
 
 ### -param lpcchResourceName [in, out]
 
@@ -68,7 +68,7 @@ Pointer to the size of the <i>lpszResourceName</i> buffer as a count of characte
 
 ### -param lpszDeviceName [out]
 
-Pointer to a null-terminated Unicode string containing the path to the location of the quorum log files maintained by the  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-service">Cluster service</a>. Do not pass <b>NULL</b> for this parameter.
+Pointer to a null-terminated Unicode string containing the path to the location of the quorum log files maintained by the  <a href="/previous-versions/windows/desktop/mscs/cluster-service">Cluster service</a>. Do not pass <b>NULL</b> for this parameter.
 
 ### -param lpcchDeviceName [in, out]
 
@@ -83,7 +83,7 @@ Pointer to the maximum size (in bytes) of the log being maintained by the quorum
 If the operation succeeds, the function returns <b>ERROR_SUCCESS</b>.
 
 If the operation fails, 
-the function returns a <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a>. The following is one of the possible values.
+the function returns a <a href="/windows/desktop/Debug/system-error-codes">system error code</a>. The following is one of the possible values.
 
 <table>
 <tr>
@@ -105,13 +105,12 @@ The <i>lpszResourceName</i> or the <i>lpszDeviceName</i> buffer is not big enoug
 
 ## -remarks
 
-Note that <i>lpcchName</i> refers to a count of characters and not a count of bytes, and that the returned size does not include the terminating <b>NULL</b> in the count. For more information on sizing buffers, see  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/data-size-conventions">Data Size Conventions</a>.
+Note that <i>lpcchName</i> refers to a count of characters and not a count of bytes, and that the returned size does not include the terminating <b>NULL</b> in the count. For more information on sizing buffers, see  <a href="/previous-versions/windows/desktop/mscs/data-size-conventions">Data Size Conventions</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resources-name">Name</a>
+<a href="/previous-versions/windows/desktop/mscs/resources-name">Name</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-setclusterquorumresource">SetClusterQuorumResource</a>
-
+<a href="/windows/desktop/api/clusapi/nf-clusapi-setclusterquorumresource">SetClusterQuorumResource</a>

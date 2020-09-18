@@ -52,15 +52,15 @@ api_name:
 
 The 
 <b>get_AgentSessions</b> method creates a collection of current agent sessions. This method is provided for Automation client applications, such as those written in Visual Basic. C and C++ applications must use the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nf-tapi3-itagent-enumerateagentsessions">EnumerateAgentSessions</a> method.
+<a href="/windows/desktop/api/tapi3/nf-tapi3-itagent-enumerateagentsessions">EnumerateAgentSessions</a> method.
 
 ## -parameters
 
 ### -param pVariant [out]
 
 Pointer to <b>VARIANT</b> containing an 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itcollection">ITCollection</a> of 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nn-tapi3-itagentsession">ITAgentSession</a> interface pointers (agent session objects).
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itcollection">ITCollection</a> of 
+<a href="/windows/desktop/api/tapi3/nn-tapi3-itagentsession">ITAgentSession</a> interface pointers (agent session objects).
 
 ## -returns
 
@@ -109,16 +109,16 @@ Insufficient memory exists to perform the operation.
 ## -remarks
 
 TAPI calls the <b>AddRef</b> method on the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nn-tapi3-itagentsession">ITAgentSession</a> interface returned by <b>ITAgent::get_AgentSessions</b>. The application must call <b>Release</b> on the 
+<a href="/windows/desktop/api/tapi3/nn-tapi3-itagentsession">ITAgentSession</a> interface returned by <b>ITAgent::get_AgentSessions</b>. The application must call <b>Release</b> on the 
 <b>ITAgentSession</b> interface to free resources associated with it.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nf-tapi3-itagent-enumerateagentsessions">EnumerateAgentSessions</a>
+<a href="/windows/desktop/api/tapi3/nf-tapi3-itagent-enumerateagentsessions">EnumerateAgentSessions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nn-tapi3-itagent">ITAgent</a>
+<a href="/windows/desktop/api/tapi3/nn-tapi3-itagent">ITAgent</a>
 
 
 
@@ -126,5 +126,4 @@ TAPI calls the <b>AddRef</b> method on the
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itcollection">ITCollection</a>
-
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itcollection">ITCollection</a>

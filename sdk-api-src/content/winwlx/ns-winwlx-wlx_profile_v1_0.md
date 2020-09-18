@@ -71,15 +71,14 @@ Pointer to the profile path (for example, "%SystemRoot%\system32\config\AprilM00
 
 
 
-The string pointed to by <b>pszProfile</b> must be separately allocated by your <a href="https://docs.microsoft.com/windows/desktop/SecGloss/g-gly">GINA</a> DLL. It will be deallocated by <a href="https://docs.microsoft.com/windows/desktop/SecGloss/w-gly">Winlogon</a>.
+The string pointed to by <b>pszProfile</b> must be separately allocated by your <a href="/windows/desktop/SecGloss/g-gly">GINA</a> DLL. It will be deallocated by <a href="/windows/desktop/SecGloss/w-gly">Winlogon</a>.
 
 ## -remarks
 
 The <b>WLX_PROFILE_V1_0</b> structure is returned to Winlogon by your GINA DLL following authentication. Winlogon uses the path specified by <b>pszProfile</b> to load the profile of the newly logged-on user.
 
-GINA uses two structures to provide profile information: <a href="https://docs.microsoft.com/windows/desktop/api/winwlx/ns-winwlx-wlx_profile_v2_0">WLX_PROFILE_V2_0</a> and <b>WLX_PROFILE_V1_0</b>.
+GINA uses two structures to provide profile information: <a href="/windows/desktop/api/winwlx/ns-winwlx-wlx_profile_v2_0">WLX_PROFILE_V2_0</a> and <b>WLX_PROFILE_V1_0</b>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winwlx/ns-winwlx-wlx_profile_v2_0">WLX_PROFILE_V2_0</a>
-
+<a href="/windows/desktop/api/winwlx/ns-winwlx-wlx_profile_v2_0">WLX_PROFILE_V2_0</a>

@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Gets the address of a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/propsys/nn-propsys-ipropertydescriptionlist">IPropertyDescriptionList</a> interface, which contains additional sort column values.
+Gets the address of a pointer to the <a href="/windows/desktop/api/propsys/nn-propsys-ipropertydescriptionlist">IPropertyDescriptionList</a> interface, which contains additional sort column values.
 
 ## -parameters
 
@@ -58,13 +58,13 @@ Gets the address of a pointer to the <a href="https://docs.microsoft.com/windows
 
 Type: <b>REFIID</b>
 
-A reference to the identifier of the requested <a href="https://docs.microsoft.com/windows/desktop/api/propsys/nn-propsys-ipropertydescriptionlist">IPropertyDescriptionList</a> interface.
+A reference to the identifier of the requested <a href="/windows/desktop/api/propsys/nn-propsys-ipropertydescriptionlist">IPropertyDescriptionList</a> interface.
 
 ### -param ppv [out]
 
 Type: <b>void**</b>
 
-When this method returns successfully, contains the address of a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/propsys/nn-propsys-ipropertydescriptionlist">IPropertyDescriptionList</a> interface.
+When this method returns successfully, contains the address of a pointer to an <a href="/windows/desktop/api/propsys/nn-propsys-ipropertydescriptionlist">IPropertyDescriptionList</a> interface.
 
 ## -returns
 
@@ -81,9 +81,8 @@ The following is an example usage for this method. When sorting by System.Author
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/propsys/nn-propsys-ipropertydescriptionaliasinfo">IPropertyDescriptionAliasInfo</a>
+<a href="/windows/desktop/api/propsys/nn-propsys-ipropertydescriptionaliasinfo">IPropertyDescriptionAliasInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/propsys/nf-propsys-ipropertydescriptionaliasinfo-getsortbyalias">IPropertyDescriptionAliasInfo::GetSortByAlias</a>
-
+<a href="/windows/desktop/api/propsys/nf-propsys-ipropertydescriptionaliasinfo-getsortbyalias">IPropertyDescriptionAliasInfo::GetSortByAlias</a>

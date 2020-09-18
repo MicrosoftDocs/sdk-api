@@ -56,7 +56,7 @@ Invokes the Microsoft IME's Dictionary Tool from the app.
 
 ### -param pimedlg [in]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/msime/ns-msime-imedlg">IMEDLG</a> structure.
+Pointer to an <a href="/windows/desktop/api/msime/ns-msime-imedlg">IMEDLG</a> structure.
 
 ## -returns
 
@@ -65,9 +65,8 @@ otherwise <b>E_FAIL</b>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msime/nn-msime-ifecommon">IFECommon</a>
+<a href="/windows/desktop/api/msime/nn-msime-ifecommon">IFECommon</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msime/ns-msime-imedlg">IMEDLG</a>
-
+<a href="/windows/desktop/api/msime/ns-msime-imedlg">IMEDLG</a>

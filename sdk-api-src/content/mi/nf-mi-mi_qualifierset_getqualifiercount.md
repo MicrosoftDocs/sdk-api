@@ -56,7 +56,7 @@ Gets the number of qualifiers in a qualifier set.
 
 ### -param self [in]
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_qualifierset">MI_QualifierSet</a> structure.
+<a href="/windows/desktop/api/mi/ns-mi-mi_qualifierset">MI_QualifierSet</a> structure.
 
 ### -param count [out]
 
@@ -64,5 +64,4 @@ Returned number of qualifiers.
 
 ## -returns
 
-A value of the <a href="https://docs.microsoft.com/windows/desktop/api/mi/ne-mi-mi_result">MI_Result</a> enumeration that specifies the function return code. This can be one of the following codes.
-
+A value of the <a href="/windows/desktop/api/mi/ne-mi-mi_result">MI_Result</a> enumeration that specifies the function return code. This can be one of the following codes.

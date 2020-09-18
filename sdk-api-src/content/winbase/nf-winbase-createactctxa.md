@@ -64,24 +64,24 @@ The
 ### -param pActCtx [in, out]
 
 Pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-actctxa">ACTCTX</a> structure that contains information about the activation context to be created.
+<a href="/windows/desktop/api/winbase/ns-winbase-actctxa">ACTCTX</a> structure that contains information about the activation context to be created.
 
 ## -returns
 
 If the function succeeds, it returns a handle to the returned activation context. Otherwise, it returns INVALID_HANDLE_VALUE.
 
 This function sets errors that can be retrieved by calling 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. For an example, see 
-<a href="https://docs.microsoft.com/windows/desktop/Debug/retrieving-the-last-error-code">Retrieving the Last-Error Code</a>. For a complete list of error codes, see 
-<a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">System Error Codes</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. For an example, see 
+<a href="/windows/desktop/Debug/retrieving-the-last-error-code">Retrieving the Last-Error Code</a>. For a complete list of error codes, see 
+<a href="/windows/desktop/Debug/system-error-codes">System Error Codes</a>.
 
 ## -remarks
 
 Set any undefined bits in <b>dwFlags</b> of 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-actctxa">ACTCTX</a> to 0. If any undefined bits are not set to 0, the call to 
+<a href="/windows/desktop/api/winbase/ns-winbase-actctxa">ACTCTX</a> to 0. If any undefined bits are not set to 0, the call to 
 <b>CreateActCtx</b> that creates the activation context fails and returns an invalid parameter error code. The handle returned from 
 <b>CreateActCtx</b> is passed in a call to 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-activateactctx">ActivateActCtx</a> to activate the context for the current thread.
+<a href="/windows/desktop/api/winbase/nf-winbase-activateactctx">ActivateActCtx</a> to activate the context for the current thread.
 
 
 
@@ -92,5 +92,4 @@ Set any undefined bits in <b>dwFlags</b> of
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-actctxa">ACTCTX</a>
-
+<a href="/windows/desktop/api/winbase/ns-winbase-actctxa">ACTCTX</a>

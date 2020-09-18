@@ -56,7 +56,7 @@ Gets a stream that provides read/write access to  part content.
 
 ### -param stream [out, retval]
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a> interface of a stream that provides read and write access to part content.
+A pointer to the <a href="/windows/desktop/api/objidl/nn-objidl-istream">IStream</a> interface of a stream that provides read and write access to part content.
 
 ## -returns
 
@@ -96,7 +96,7 @@ The <i>stream</i> parameter is <b>NULL</b>.
 </dl>
 </td>
 <td width="60%">
-An <b>HRESULT</b> error code from the <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> function, which is returned as a result of attempting to allocate disk space for part data if the 
+An <b>HRESULT</b> error code from the <a href="/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> function, which is returned as a result of attempting to allocate disk space for part data if the 
     package was opened using the <b>OPC_CACHE_ON_ACCESS</b> read flag.
 
 </td>
@@ -108,7 +108,7 @@ An <b>HRESULT</b> error code from the <a href="https://docs.microsoft.com/window
 </dl>
 </td>
 <td width="60%">
-An <b>HRESULT</b> error code from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/package-consumption-error-group">Package Consumption Error Group</a>. 
+An <b>HRESULT</b> error code from the <a href="/previous-versions/windows/desktop/opc/package-consumption-error-group">Package Consumption Error Group</a>. 
 
 </td>
 </tr>
@@ -119,7 +119,7 @@ An <b>HRESULT</b> error code from the <a href="https://docs.microsoft.com/previo
 </dl>
 </td>
 <td width="60%">
-An <b>HRESULT</b> error code from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/part-uri-error-group">Part URI Error Group</a>. 
+An <b>HRESULT</b> error code from the <a href="/previous-versions/windows/desktop/opc/part-uri-error-group">Part URI Error Group</a>. 
 
 </td>
 </tr>
@@ -127,14 +127,14 @@ An <b>HRESULT</b> error code from the <a href="https://docs.microsoft.com/previo
 
 ## -remarks
 
-For more information about parts, see the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/open-packaging-conventions-overview">Open Packaging Conventions Fundamentals</a> and the <i>ECMA-376 OpenXML, 1st Edition, Part 2: Open Packaging Conventions (OPC)</i>.
+For more information about parts, see the <a href="/previous-versions/windows/desktop/opc/open-packaging-conventions-overview">Open Packaging Conventions Fundamentals</a> and the <i>ECMA-376 OpenXML, 1st Edition, Part 2: Open Packaging Conventions (OPC)</i>.
 
 
 #### Thread Safety
 
 Packaging objects are not thread-safe.
 
-For more information, see the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/packaging-api-overview">Getting Started with the Packaging API</a>.
+For more information, see the <a href="/previous-versions/windows/desktop/opc/packaging-api-overview">Getting Started with the Packaging API</a>.
 
 ## -see-also
 
@@ -146,19 +146,19 @@ For more information, see the <a href="https://docs.microsoft.com/previous-versi
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/packaging-api-overview">Getting Started with the Packaging API</a>
+<a href="/previous-versions/windows/desktop/opc/packaging-api-overview">Getting Started with the Packaging API</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/nn-msopc-iopcpart">IOpcPart</a>
+<a href="/previous-versions/windows/desktop/api/msopc/nn-msopc-iopcpart">IOpcPart</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/nn-msopc-iopcpartset">IOpcPartSet</a>
+<a href="/previous-versions/windows/desktop/api/msopc/nn-msopc-iopcpartset">IOpcPartSet</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/open-packaging-conventions-overview">Open Packaging Conventions Fundamentals</a>
+<a href="/previous-versions/windows/desktop/opc/open-packaging-conventions-overview">Open Packaging Conventions Fundamentals</a>
 
 
 
@@ -166,21 +166,20 @@ For more information, see the <a href="https://docs.microsoft.com/previous-versi
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/packaging-programming-reference">Packaging API Reference</a>
+<a href="/previous-versions/windows/desktop/opc/packaging-programming-reference">Packaging API Reference</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/packaging-programming-samples">Packaging API Samples</a>
+<a href="/previous-versions/windows/desktop/opc/packaging-programming-samples">Packaging API Samples</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/packaging-errors">Packaging Errors</a>
+<a href="/previous-versions/windows/desktop/opc/packaging-errors">Packaging Errors</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/parts-overview">Parts Overview</a>
+<a href="/previous-versions/windows/desktop/opc/parts-overview">Parts Overview</a>
 
 
 
 <b>Reference</b>
-

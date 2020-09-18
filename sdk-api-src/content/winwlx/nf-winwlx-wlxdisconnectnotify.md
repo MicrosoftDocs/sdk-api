@@ -49,9 +49,8 @@ Winlogon calls this function when a Terminal Services network session is disconn
 
 ### -param pWlxContext
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/g-gly">GINA</a> context associated with this window station.
+A pointer to the <a href="/windows/desktop/SecGloss/g-gly">GINA</a> context associated with this window station.
 
 ## -remarks
 
 ## -see-also
-

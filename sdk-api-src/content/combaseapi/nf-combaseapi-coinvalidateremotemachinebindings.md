@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-Tells the <a href="https://docs.microsoft.com/windows/desktop/Services/service-control-manager">service control manager</a> to flush any cached RPC binding handles for the specified computer.
+Tells the <a href="/windows/desktop/Services/service-control-manager">service control manager</a> to flush any cached RPC binding handles for the specified computer.
 
 Only administrators may call this function.
 
@@ -125,4 +125,3 @@ Indicates that a <b>NULL</b> value was passed for <i>pszMachineName</i>.
 The OLE Service Control Manager is used by COM to send component activation requests to other machines. To do this, the OLE Service Control Manager maintains a cache of RPC binding handles to send activation requests to computer, keyed by computer name. Under normal circumstances, this works well, but in some scenarios, such as Web farms and load-balancing situations, the ability to purge this cache of specific handles might be needed in order to facilitate rebinding to a different physical server by the same name. <b>CoInvalidateRemoteMachineBindings</b> is used for this purpose.
 
 The OLE Service Control Manager will flush unused binding handles over time. It is not necessary to call <b>CoInvalidateRemoteMachineBindings</b> to do this.
-

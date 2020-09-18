@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-A <b>MapiFileDesc</b> structure contains information about a file containing a message attachment stored as a temporary file. That file can contain a static OLE object, an embedded OLE object, an embedded message, and other types of files. For Unicode support, use the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mapi/ns-mapi-mapifiledescw">MapiFileDescW</a> structure.
+A <b>MapiFileDesc</b> structure contains information about a file containing a message attachment stored as a temporary file. That file can contain a static OLE object, an embedded OLE object, an embedded message, and other types of files. For Unicode support, use the <a href="/previous-versions/windows/desktop/api/mapi/ns-mapi-mapifiledescw">MapiFileDescW</a> structure.
 
 ## -struct-fields
 
@@ -96,7 +96,7 @@ If neither flag is set, the attachment is treated as a data file.
 
 ### -field nPosition
 
-An integer used to indicate where in the message text to render the attachment. Attachments replace the character found at a certain position in the message text. That is, attachments replace the character in the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mapi/ns-mapi-mapimessage">MapiMessage</a> structure field <b>NoteText</b>[<b>nPosition</b>]. A value of   -1 (0xFFFFFFFF) means the attachment position is not indicated; the client application will have to provide a way for the user to access the attachment.
+An integer used to indicate where in the message text to render the attachment. Attachments replace the character found at a certain position in the message text. That is, attachments replace the character in the <a href="/previous-versions/windows/desktop/api/mapi/ns-mapi-mapimessage">MapiMessage</a> structure field <b>NoteText</b>[<b>nPosition</b>]. A value of   -1 (0xFFFFFFFF) means the attachment position is not indicated; the client application will have to provide a way for the user to access the attachment.
 
 ### -field lpszPathName
 
@@ -108,7 +108,7 @@ Pointer to the attachment filename seen by the recipient, which may differ from 
 
 ### -field lpFileType
 
-Pointer to the attachment file type, which can be represented with a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mapi/ns-mapi-mapifiletagext">MapiFileTagExt</a> structure. A value of <b>NULL</b> indicates an unknown file type or a file type determined by the operating system.
+Pointer to the attachment file type, which can be represented with a <a href="/previous-versions/windows/desktop/api/mapi/ns-mapi-mapifiletagext">MapiFileTagExt</a> structure. A value of <b>NULL</b> indicates an unknown file type or a file type determined by the operating system.
 
 ## -remarks
 
@@ -130,19 +130,18 @@ Static OLE object file attachments
 </ul>
 Data file attachments are simply data files. OLE object file attachments are OLE objects that are displayed in the message text. If the OLE attachment is editable, the recipient can double-click it and its source application will be started to handle the edit session. If the OLE attachment is static, the object cannot be edited. The flag set in the <b>flFlags</b> member of the <b>MapiFileDesc</b> structure determines the kind of a particular attachment. Embedded messages can be identified by a .MSG extension in the <b>lpszFileName</b> member.
 
-OLE object files are file representations of OLE object streams. The client application can re-create an OLE object from the file by calling the OLE function <a href="https://docs.microsoft.com/windows/desktop/api/ole/nf-ole-oleloadfromstream">OleLoadFromStream</a> with an OLESTREAM object that reads the file contents. If an OLE file attachment is included in an outbound message, the OLE object stream should be written directly to the file used as the attachment. 
+OLE object files are file representations of OLE object streams. The client application can re-create an OLE object from the file by calling the OLE function <a href="/windows/desktop/api/ole/nf-ole-oleloadfromstream">OleLoadFromStream</a> with an OLESTREAM object that reads the file contents. If an OLE file attachment is included in an outbound message, the OLE object stream should be written directly to the file used as the attachment. 
 
 When using the <b>MapiFileDesc</b> member <b>nPosition</b>, the client application should not place two attachments in the same location. Client applications might not display file attachments at positions beyond the end of the message text.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mapi/ns-mapi-mapifiledescw">MapiFileDescW</a>
+<a href="/previous-versions/windows/desktop/api/mapi/ns-mapi-mapifiledescw">MapiFileDescW</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mapi/ns-mapi-mapimessage">MapiMessage</a>
+<a href="/previous-versions/windows/desktop/api/mapi/ns-mapi-mapimessage">MapiMessage</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mapi/ns-mapi-mapimessagew">MapiMessageW</a>
-
+<a href="/previous-versions/windows/desktop/api/mapi/ns-mapi-mapimessagew">MapiMessageW</a>

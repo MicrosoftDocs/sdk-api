@@ -51,9 +51,8 @@ api_name:
 
 ## -description
 
-The <b>Scope</b> property retrieves the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazscope">IAzScope</a> object that represents the scope in which this <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazroleassignment">IAzRoleAssignment</a> object is defined.
+The <b>Scope</b> property retrieves the <a href="/windows/desktop/api/azroles/nn-azroles-iazscope">IAzScope</a> object that represents the scope in which this <a href="/windows/desktop/api/azroles/nn-azroles-iazroleassignment">IAzRoleAssignment</a> object is defined.
 
 This property is read-only.
 
 ## -parameters
-

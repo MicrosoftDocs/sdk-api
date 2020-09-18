@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-Removes an event hook function created by a previous call to <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setwineventhook">SetWinEventHook</a>.
+Removes an event hook function created by a previous call to <a href="/windows/desktop/api/winuser/nf-winuser-setwineventhook">SetWinEventHook</a>.
 
 ## -parameters
 
@@ -60,11 +60,11 @@ Removes an event hook function created by a previous call to <a href="https://do
 
 Type: <b>HWINEVENTHOOK</b>
 
-Handle to the event hook returned in the previous call to <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setwineventhook">SetWinEventHook</a>.
+Handle to the event hook returned in the previous call to <a href="/windows/desktop/api/winuser/nf-winuser-setwineventhook">SetWinEventHook</a>.
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
 
 If successful, returns <b>TRUE</b>; otherwise, returns <b>FALSE</b>.
 
@@ -73,14 +73,13 @@ Three common errors cause this function to fail:
 <ul>
 <li>The <i>hWinEventHook</i> parameter is <b>NULL</b> or not valid.</li>
 <li>The event hook specified by <i>hWinEventHook</i> was already removed.</li>
-<li><b>UnhookWinEvent</b> is called from a thread that is different from the original call to <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setwineventhook">SetWinEventHook</a>.</li>
+<li><b>UnhookWinEvent</b> is called from a thread that is different from the original call to <a href="/windows/desktop/api/winuser/nf-winuser-setwineventhook">SetWinEventHook</a>.</li>
 </ul>
 
 ## -remarks
 
 This function removes the event hook specified by <i>hWinEventHook</i> that prevents the corresponding callback function from receiving further event notifications. If the client's thread ends, the system automatically calls this function.
 
-Call this function from the same thread that installed the event hook. <b>UnhookWinEvent</b> fails if called from a thread different from the call that corresponds to <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setwineventhook">SetWinEventHook</a>.
+Call this function from the same thread that installed the event hook. <b>UnhookWinEvent</b> fails if called from a thread different from the call that corresponds to <a href="/windows/desktop/api/winuser/nf-winuser-setwineventhook">SetWinEventHook</a>.
 
-If WINEVENT_INCONTEXT was specified when this event hook was installed, the system attempts to unload the corresponding DLL from all processes that loaded it. Although unloading does not occur immediately, the hook function is not called after <b>UnhookWinEvent</b> returns. For more information on WINEVENT_INCONTEXT, see <a href="https://docs.microsoft.com/windows/desktop/WinAuto/in-context-hook-functions">In-Context Hook Functions</a>.
-
+If WINEVENT_INCONTEXT was specified when this event hook was installed, the system attempts to unload the corresponding DLL from all processes that loaded it. Although unloading does not occur immediately, the hook function is not called after <b>UnhookWinEvent</b> returns. For more information on WINEVENT_INCONTEXT, see <a href="/windows/desktop/WinAuto/in-context-hook-functions">In-Context Hook Functions</a>.

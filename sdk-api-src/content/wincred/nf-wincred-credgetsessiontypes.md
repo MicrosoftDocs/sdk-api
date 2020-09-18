@@ -138,9 +138,8 @@ Any credential can be stored.
 
 ## -returns
 
-This function returns <b>TRUE</b> on success and <b>FALSE</b> on failure. The <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function can be called to get a more specific status code. The following status code can be returned:
+This function returns <b>TRUE</b> on success and <b>FALSE</b> on failure. The <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function can be called to get a more specific status code. The following status code can be returned:
 
 ERROR_NO_SUCH_LOGON_SESSION
 
 The logon session does not exist or there is no credential set associated with this logon session. Network logon sessions do not have an associated credential set.
-

@@ -53,13 +53,13 @@ api_name:
 This function initializes the QOS subsystem and the <i>QOSHandle</i> parameter.  The  <i>QOSHandle</i> parameter is used when calling other QOS functions.  <b>QOSCreateHandle</b> must be called before any other functions.
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qos2/nf-qos2-qosclosehandle">QOSCloseHandle</a> closes handles created by this function.
+<a href="/previous-versions/windows/desktop/api/qos2/nf-qos2-qosclosehandle">QOSCloseHandle</a> closes handles created by this function.
 
 ## -parameters
 
 ### -param Version [in]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/qos2/ns-qos2-qos_version">QOS_VERSION</a> structure that indicates the version of QOS being used.  The <b>MajorVersion</b> member must be set to 1, and the <b>MinorVersion</b> member must be set to 0.
+Pointer to a <a href="/windows/desktop/api/qos2/ns-qos2-qos_version">QOS_VERSION</a> structure that indicates the version of QOS being used.  The <b>MajorVersion</b> member must be set to 1, and the <b>MinorVersion</b> member must be set to 0.
 
 ### -param QOSHandle [out]
 
@@ -148,14 +148,14 @@ One of the dependencies of this service is unavailable.  The qWAVE service could
 
 Every process intending to use qWAVE must first call <b>QOSCreateHandle</b>. The handle returned can be used for performing overlapped I/O. For example, this handle can be associated with an I/O completion port (IOCP) to receive overlapped completion notifications. This function can be  called multiple times to obtain multiple handles although a single handle is sufficient for most applications.
 
-If a machine enters a power save mode that interrupts connectivity such as sleep or standby, existing and active network experiments such as <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qos2/nf-qos2-qosstarttrackingclient">QOSStartTrackingClient</a> must be reinitiated.  This recreation of the flow mirrors the cleanup and creation activities also necessary for existing sockets. A new handle must be created, and the flow must be recreated and readmitted.
+If a machine enters a power save mode that interrupts connectivity such as sleep or standby, existing and active network experiments such as <a href="/previous-versions/windows/desktop/api/qos2/nf-qos2-qosstarttrackingclient">QOSStartTrackingClient</a> must be reinitiated.  This recreation of the flow mirrors the cleanup and creation activities also necessary for existing sockets. A new handle must be created, and the flow must be recreated and readmitted.
 
 
 #### Examples
 
 The following code illustrates function use and required parameter initializations. Actual values will vary depending on QoS version.
 
-Winsock.h must be included to use the <a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-wsagetlasterror">WSAGetLastError</a> function.
+Winsock.h must be included to use the <a href="/windows/desktop/api/winsock/nf-winsock-wsagetlasterror">WSAGetLastError</a> function.
 
 See the Windows SDK for a complete sample code listing. SDK folder: Samples\NetDs\GQos\Qos2
 
@@ -186,5 +186,4 @@ if (QoSResult != TRUE)
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/qos/quality-windows-audio-video-experience--qwave-">Quality Windows Audio/Video Experience (qWAVE)</a>
-
+<a href="/previous-versions/windows/desktop/qos/quality-windows-audio-video-experience--qwave-">Quality Windows Audio/Video Experience (qWAVE)</a>

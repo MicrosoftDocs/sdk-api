@@ -56,9 +56,9 @@ Retrieves the conditions that make up this "and" condition, as an ordinary array
 
 ### -param childArray [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationcondition">IUIAutomationCondition</a>***</b>
+Type: <b><a href="/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationcondition">IUIAutomationCondition</a>***</b>
 
-Receives a pointer to an  array of <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationcondition">IUIAutomationCondition</a> interface pointers.
+Receives a pointer to an  array of <a href="/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationcondition">IUIAutomationCondition</a> interface pointers.
 
 ### -param childArrayCount [out]
 
@@ -68,15 +68,14 @@ Receives the number of elements in the array.
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationandcondition">IUIAutomationAndCondition</a>
+<a href="/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationandcondition">IUIAutomationAndCondition</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationandcondition-getchildren">IUIAutomationAndCondition::GetChildren</a>
-
+<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationandcondition-getchildren">IUIAutomationAndCondition::GetChildren</a>

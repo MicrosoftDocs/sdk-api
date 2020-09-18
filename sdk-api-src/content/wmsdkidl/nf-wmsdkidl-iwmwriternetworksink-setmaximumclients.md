@@ -96,9 +96,8 @@ Streaming has already begun, or the value of <i>dwMaxClients</i> is invalid.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwriternetworksink">IWMWriterNetworkSink Interface</a>
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwriternetworksink">IWMWriterNetworkSink Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriternetworksink-getmaximumclients">IWMWriterNetworkSink::GetMaximumClients</a>
-
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriternetworksink-getmaximumclients">IWMWriterNetworkSink::GetMaximumClients</a>

@@ -74,7 +74,7 @@ If the function succeeds, the return value is <b>TRUE</b>.
 						
 
 If the function fails, the return value is <b>FALSE</b>. To retrieve extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
@@ -82,5 +82,4 @@ All DbgHelp functions, such as this one, are single threaded. Therefore, calls f
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Debug/dbghelp-functions">DbgHelp Functions</a>
-
+<a href="/windows/desktop/Debug/dbghelp-functions">DbgHelp Functions</a>

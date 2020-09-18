@@ -123,9 +123,8 @@ If the <i>pwcRecogWord</i> buffer is not large enough to contain the recognition
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinklineinfo">IInkLineInfo</a>
+<a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinklineinfo">IInkLineInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinklineinfo-setcandidate">SetCandidate Method</a>
-
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinklineinfo-setcandidate">SetCandidate Method</a>

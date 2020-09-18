@@ -51,9 +51,9 @@ api_name:
 ## -description
 
 Checks whether an 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi/nf-imapi-ijolietdiscmaster-adddata">AddData</a>, 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi/nf-imapi-iredbookdiscmaster-addaudiotrackblocks">AddAudioTrackBlocks</a>, or 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi/nf-imapi-idiscmaster-recorddisc">RecordDisc</a> operation should be canceled.
+<a href="/windows/desktop/api/imapi/nf-imapi-ijolietdiscmaster-adddata">AddData</a>, 
+<a href="/windows/desktop/api/imapi/nf-imapi-iredbookdiscmaster-addaudiotrackblocks">AddAudioTrackBlocks</a>, or 
+<a href="/windows/desktop/api/imapi/nf-imapi-idiscmaster-recorddisc">RecordDisc</a> operation should be canceled.
 
 ## -parameters
 
@@ -67,5 +67,4 @@ S_OK is returned on success, but other success codes may be returned as a result
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi/nn-imapi-idiscmasterprogressevents">IDiscMasterProgressEvents</a>
-
+<a href="/windows/desktop/api/imapi/nn-imapi-idiscmasterprogressevents">IDiscMasterProgressEvents</a>

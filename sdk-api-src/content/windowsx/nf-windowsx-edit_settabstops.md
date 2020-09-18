@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Sets the tab stops in a multiline edit or rich edit control. When text is copied to the control, any tab character in the text causes space to be generated up to the next tab stop. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/em-settabstops">EM_SETTABSTOPS</a> message explicitly.
+Sets the tab stops in a multiline edit or rich edit control. When text is copied to the control, any tab character in the text causes space to be generated up to the next tab stop. You can use this macro or send the <a href="/windows/desktop/Controls/em-settabstops">EM_SETTABSTOPS</a> message explicitly.
 
 ## -parameters
 
 ### -param hwndCtl
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the control.
 
@@ -74,5 +74,4 @@ A pointer to an array of unsigned integers specifying the tab stops, in dialog t
 
 ## -remarks
 
-For more information, see <a href="https://docs.microsoft.com/windows/desktop/Controls/em-settabstops">EM_SETTABSTOPS</a>.
-
+For more information, see <a href="/windows/desktop/Controls/em-settabstops">EM_SETTABSTOPS</a>.

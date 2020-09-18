@@ -59,7 +59,7 @@ Notification method called by the Mobile Broadband service to indicate that the 
 
 ### -param newInterface [in]
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbnconnectioncontext">IMbnConnectionContext</a> interface that represents the device for which the context has been set.
+An <a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbnconnectioncontext">IMbnConnectionContext</a> interface that represents the device for which the context has been set.
 
 ### -param requestID [in]
 
@@ -144,12 +144,11 @@ This method must return <b>S_OK</b>.
 
 ## -remarks
 
-A calling application can pass an <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbnconnectioncontext">IMbnConnectionContext</a> interface to <i>newInterface</i> to get the updated list of provisioned contexts in the device.
- However, since this operation is asynchronous, the application must wait for the <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nf-mbnapi-imbnconnectioncontextevents-onprovisionedcontextlistchange">OnProvisionedContextListChange</a> notification before using this interface to get the contexts.
+A calling application can pass an <a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbnconnectioncontext">IMbnConnectionContext</a> interface to <i>newInterface</i> to get the updated list of provisioned contexts in the device.
+ However, since this operation is asynchronous, the application must wait for the <a href="/windows/desktop/api/mbnapi/nf-mbnapi-imbnconnectioncontextevents-onprovisionedcontextlistchange">OnProvisionedContextListChange</a> notification before using this interface to get the contexts.
 
 If there are multiple applications registered to receive notifications then all of them will receive this notification even though only one of them could have initiated this operation.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbnconnectioncontextevents">IMbnConnectionContextEvents</a>
-
+<a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbnconnectioncontextevents">IMbnConnectionContextEvents</a>

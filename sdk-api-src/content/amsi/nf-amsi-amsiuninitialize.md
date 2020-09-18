@@ -50,15 +50,14 @@ api_name:
 
 ## -description
 
-Remove the instance of the AMSI API that was originally opened by <a href="https://docs.microsoft.com/windows/desktop/api/amsi/nf-amsi-amsiinitialize">AmsiInitialize</a>.
+Remove the instance of the AMSI API that was originally opened by <a href="/windows/desktop/api/amsi/nf-amsi-amsiinitialize">AmsiInitialize</a>.
 
 ## -parameters
 
 ### -param amsiContext [in]
 
-The handle of type HAMSICONTEXT that was initially received from <a href="https://docs.microsoft.com/windows/desktop/api/amsi/nf-amsi-amsiinitialize">AmsiInitialize</a>.
+The handle of type HAMSICONTEXT that was initially received from <a href="/windows/desktop/api/amsi/nf-amsi-amsiinitialize">AmsiInitialize</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/amsi/nf-amsi-amsiinitialize">AmsiInitialize</a>
-
+<a href="/windows/desktop/api/amsi/nf-amsi-amsiinitialize">AmsiInitialize</a>

@@ -56,7 +56,7 @@ api_name:
 
 The 
 <b>IPX_SPXCONNSTATUS_DATA</b> structure provides information about a connected SPX socket. Used in conjunction with 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-getsockopt">getsockopt</a> function calls that specify IPX_SPXGETCONNECTIONSTATUS in the <i>optname</i> parameter. All numbers in 
+<a href="/windows/desktop/api/winsock/nf-winsock-getsockopt">getsockopt</a> function calls that specify IPX_SPXGETCONNECTIONSTATUS in the <i>optname</i> parameter. All numbers in 
 <b>IPX_SPXCONNSTATUS_DATA</b> are in Novell (high-low) order.
 
 ## -struct-fields
@@ -135,5 +135,4 @@ Specifies the number of suppressed packets on the socket.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-getsockopt">getsockopt</a>
-
+<a href="/windows/desktop/api/winsock/nf-winsock-getsockopt">getsockopt</a>

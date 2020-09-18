@@ -56,7 +56,7 @@ Decrements the count of an object's strong external connections.
 
 ### -param extconn [in]
 
-The type of external connection to the object. The only type of external connection currently supported by this interface is strong, which means that the object must remain alive as long as this external connection exists. Strong external connections are represented by the value EXTCONN_STRONG, which is defined in the enumeration <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ne-objidl-extconn">EXTCONN</a>.
+The type of external connection to the object. The only type of external connection currently supported by this interface is strong, which means that the object must remain alive as long as this external connection exists. Strong external connections are represented by the value EXTCONN_STRONG, which is defined in the enumeration <a href="/windows/desktop/api/objidl/ne-objidl-extconn">EXTCONN</a>.
 
 ### -param reserved [in]
 
@@ -76,5 +76,4 @@ If <i>fLastReleaseCloses</i> equals <b>TRUE</b>, calling <b>ReleaseConnection</b
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-iexternalconnection">IExternalConnection</a>
-
+<a href="/windows/desktop/api/objidl/nn-objidl-iexternalconnection">IExternalConnection</a>

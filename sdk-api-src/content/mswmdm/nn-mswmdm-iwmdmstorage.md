@@ -52,11 +52,11 @@ api_name:
 
 An instance of the <b>IWMDMStorage</b> interface provides methods to examine and explore a storage (a generic name for a data or collection object, such as a file, folder, or playlist) on a <i>device</i>. Note that storages cannot be used to refer to objects on the computer, only on the device. <b>IWMDMStorage</b> can contain nested objects, and can represent the root object (the entire storage medium) or any child object, such as a folder or file, on that medium. The <b>IWMDMStorage2</b> interface extends this interface by making it possible to get a storage pointer from a storage name and to get and set extended attributes. <b>IWMDMStorage3</b> extends this interface by supporting metadata.
 
-To obtain a root storage object which can be queried for all other objects on a device, you must call <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmdevice-enumstorage">IWMDMDevice::EnumStorage</a>, as described in <a href="https://docs.microsoft.com/windows/desktop/WMDM/exploring-a-device">Exploring a Device</a>.
+To obtain a root storage object which can be queried for all other objects on a device, you must call <a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmdevice-enumstorage">IWMDMDevice::EnumStorage</a>, as described in <a href="/windows/desktop/WMDM/exploring-a-device">Exploring a Device</a>.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMDMStorage</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWMDMStorage</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMDMStorage</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWMDMStorage</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>IWMDMStorage</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmstorage-enumstorage">EnumStorage</a>
+<a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmstorage-enumstorage">EnumStorage</a>
 </td>
 <td align="left" width="63%">
 Retrieves an <b>IWMDMEnumStorage</b> interface to enumerate the immediate child storages of the current storage.
@@ -80,7 +80,7 @@ Retrieves an <b>IWMDMEnumStorage</b> interface to enumerate the immediate child 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmstorage-getattributes">GetAttributes</a>
+<a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmstorage-getattributes">GetAttributes</a>
 </td>
 <td align="left" width="63%">
 Retrieves the attributes of the storage.
@@ -89,7 +89,7 @@ Retrieves the attributes of the storage.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmstorage-getdate">GetDate</a>
+<a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmstorage-getdate">GetDate</a>
 </td>
 <td align="left" width="63%">
 Retrieves the date on which the storage was most recently modified.
@@ -98,7 +98,7 @@ Retrieves the date on which the storage was most recently modified.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmstorage-getname">GetName</a>
+<a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmstorage-getname">GetName</a>
 </td>
 <td align="left" width="63%">
 Retrieves the display name of the storage.
@@ -107,7 +107,7 @@ Retrieves the display name of the storage.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmstorage-getrights">GetRights</a>
+<a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmstorage-getrights">GetRights</a>
 </td>
 <td align="left" width="63%">
 Retrieves the rights information for a licensed storage.
@@ -116,7 +116,7 @@ Retrieves the rights information for a licensed storage.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmstorage-getsize">GetSize</a>
+<a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmstorage-getsize">GetSize</a>
 </td>
 <td align="left" width="63%">
 Retrieves the size of the storage, in bytes.
@@ -125,7 +125,7 @@ Retrieves the size of the storage, in bytes.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmstorage-getstorageglobals">GetStorageGlobals</a>
+<a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmstorage-getstorageglobals">GetStorageGlobals</a>
 </td>
 <td align="left" width="63%">
 Retrieves the <b>IWMDMStorageGlobals</b> interface to provide access to global information about a storage medium.
@@ -134,7 +134,7 @@ Retrieves the <b>IWMDMStorageGlobals</b> interface to provide access to global i
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmstorage-sendopaquecommand">SendOpaqueCommand</a>
+<a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmstorage-sendopaquecommand">SendOpaqueCommand</a>
 </td>
 <td align="left" width="63%">
 Sends a command to the storage through Windows Media Device Manager.
@@ -143,7 +143,7 @@ Sends a command to the storage through Windows Media Device Manager.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmstorage-setattributes">SetAttributes</a>
+<a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmstorage-setattributes">SetAttributes</a>
 </td>
 <td align="left" width="63%">
 Sets the attributes of the storage.
@@ -154,25 +154,24 @@ Sets the attributes of the storage.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmenumstorage">IWMDMEnumStorage Interface</a>
+<a href="/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmenumstorage">IWMDMEnumStorage Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmstorage2">IWMDMStorage2 Interface</a>
+<a href="/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmstorage2">IWMDMStorage2 Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmstorage3">IWMDMStorage3 Interface</a>
+<a href="/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmstorage3">IWMDMStorage3 Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmstorage4">IWMDMStorage4 Interface</a>
+<a href="/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmstorage4">IWMDMStorage4 Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmstorageglobals">IWMDMStorageGlobals Interface</a>
+<a href="/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmstorageglobals">IWMDMStorageGlobals Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WMDM/interfaces-for-applications">Interfaces for Applications</a>
-
+<a href="/windows/desktop/WMDM/interfaces-for-applications">Interfaces for Applications</a>

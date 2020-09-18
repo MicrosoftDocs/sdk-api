@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Returns the name of a  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/nodes">node's</a> interface to a  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/networks">network</a> in a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/c-gly">cluster</a>. The <b>PCLUSAPI_GET_CLUSTER_NET_INTERFACE</b> type defines a pointer to this function.
+Returns the name of a  <a href="/previous-versions/windows/desktop/mscs/nodes">node's</a> interface to a  <a href="/previous-versions/windows/desktop/mscs/networks">network</a> in a <a href="/previous-versions/windows/desktop/mscs/c-gly">cluster</a>. The <b>PCLUSAPI_GET_CLUSTER_NET_INTERFACE</b> type defines a pointer to this function.
 
 ## -parameters
 
@@ -68,7 +68,7 @@ Pointer to a null-terminated Unicode string containing the name of the network.
 
 ### -param lpszInterfaceName [out]
 
-Pointer to an output buffer holding the name of the  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/network-interfaces">network interface</a>.
+Pointer to an output buffer holding the name of the  <a href="/previous-versions/windows/desktop/mscs/network-interfaces">network interface</a>.
 
 ### -param lpcchInterfaceName [in, out]
 
@@ -79,7 +79,7 @@ Pointer to the size of the <i>lpszInterfaceName</i> buffer as a count of charact
 If the operation succeeds, the function returns <b>ERROR_SUCCESS</b>.
 
 If the operation fails, 
-the function returns a <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a>. The following is one of the possible values.
+the function returns a <a href="/windows/desktop/Debug/system-error-codes">system error code</a>. The following is one of the possible values.
 
 <table>
 <tr>
@@ -101,9 +101,8 @@ The buffer pointed to by <i>lpszInterfaceName</i> is not big enough to hold the 
 
 ## -remarks
 
-Note that <i>lpcchInterfaceName</i> refers to a count of characters and not a count of bytes, and that the returned size does not include the terminating <b>NULL</b> in the count. For more information on sizing buffers, see  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/data-size-conventions">Data Size Conventions</a>.
+Note that <i>lpcchInterfaceName</i> refers to a count of characters and not a count of bytes, and that the returned size does not include the terminating <b>NULL</b> in the count. For more information on sizing buffers, see  <a href="/previous-versions/windows/desktop/mscs/data-size-conventions">Data Size Conventions</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-opencluster">OpenCluster</a>
-
+<a href="/windows/desktop/api/clusapi/nf-clusapi-opencluster">OpenCluster</a>

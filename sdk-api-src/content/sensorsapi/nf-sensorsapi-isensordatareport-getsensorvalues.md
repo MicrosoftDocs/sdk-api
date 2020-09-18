@@ -56,11 +56,11 @@ Retrieves a collection of data field values.
 
 ### -param pKeys [in]
 
-Pointer to the <a href="https://msdn.microsoft.com/library/ms739549(VS.85).aspx">IPortableDeviceKeyCollection</a> interface that contains the data fields for which to retrieve values. Set to <b>NULL</b> to retrieve values for all supported data fields.
+Pointer to the <a href="/previous-versions//ms739549(v=vs.85)">IPortableDeviceKeyCollection</a> interface that contains the data fields for which to retrieve values. Set to <b>NULL</b> to retrieve values for all supported data fields.
 
 ### -param ppValues [out]
 
-Address of an <a href="https://msdn.microsoft.com/library/ms740012(VS.85).aspx">IPortableDeviceValues</a> interface pointer that receives the pointer to the retrieved values.
+Address of an <a href="/previous-versions//ms740012(v=vs.85)">IPortableDeviceValues</a> interface pointer that receives the pointer to the retrieved values.
 
 ## -returns
 
@@ -111,9 +111,8 @@ NULL was passed in for ppValues.
 
 The <b>IPortableDeviceKeyCollection</b> and <b>IPortableDeviceValues</b> interfaces are defined by the Windows Portable Devices API.
 
-When this method returns <b>HRESULT_FROM_WIN32(ERROR_NOT_FOUND)</b>, one or more of the results contained by the <a href="https://msdn.microsoft.com/library/ms740012(VS.85).aspx">IPortableDeviceValues</a> interface will be set to an <b>HRESULT</b> error value.
+When this method returns <b>HRESULT_FROM_WIN32(ERROR_NOT_FOUND)</b>, one or more of the results contained by the <a href="/previous-versions//ms740012(v=vs.85)">IPortableDeviceValues</a> interface will be set to an <b>HRESULT</b> error value.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sensorsapi/nn-sensorsapi-isensordatareport">ISensorDataReport</a>
-
+<a href="/windows/desktop/api/sensorsapi/nn-sensorsapi-isensordatareport">ISensorDataReport</a>

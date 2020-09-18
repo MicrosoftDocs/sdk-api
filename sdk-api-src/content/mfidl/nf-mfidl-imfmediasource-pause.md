@@ -93,7 +93,7 @@ Invalid state transition. The media source must be in the started state.
 </dl>
 </td>
 <td width="60%">
-The media source's <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfmediasource-shutdown">Shutdown</a> method has been called.
+The media source's <a href="/windows/desktop/api/mfidl/nf-mfidl-imfmediasource-shutdown">Shutdown</a> method has been called.
 
 </td>
 </tr>
@@ -101,19 +101,18 @@ The media source's <a href="https://docs.microsoft.com/windows/desktop/api/mfidl
 
 ## -remarks
 
-This method is asynchronous. When the operation completes, the media source sends and <a href="https://docs.microsoft.com/windows/desktop/medfound/mesourcepaused">MESourcePaused</a> event, and every active stream sends an <a href="https://docs.microsoft.com/windows/desktop/medfound/mestreampaused">MEStreamPaused</a> event. If the method returns a failure code, no events are raised.
+This method is asynchronous. When the operation completes, the media source sends and <a href="/windows/desktop/medfound/mesourcepaused">MESourcePaused</a> event, and every active stream sends an <a href="/windows/desktop/medfound/mestreampaused">MEStreamPaused</a> event. If the method returns a failure code, no events are raised.
 
 The media source must be in the started state. The method fails if the media source is paused or stopped.
 
-While the source is paused, calls to <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfmediastream-requestsample">IMFMediaStream::RequestSample</a> succeed, but the streams will not deliver any samples until after the source is started again. Note that the source's event queue is not serialized with the stream event queues, so the client might receive some samples after the <a href="https://docs.microsoft.com/windows/desktop/medfound/mesourcepaused">MESourcePaused</a> event, due to multi-threading issues. But the client will not receive any samples from a stream after the <a href="https://docs.microsoft.com/windows/desktop/medfound/mestreampaused">MEStreamPaused</a> event.
+While the source is paused, calls to <a href="/windows/desktop/api/mfidl/nf-mfidl-imfmediastream-requestsample">IMFMediaStream::RequestSample</a> succeed, but the streams will not deliver any samples until after the source is started again. Note that the source's event queue is not serialized with the stream event queues, so the client might receive some samples after the <a href="/windows/desktop/medfound/mesourcepaused">MESourcePaused</a> event, due to multi-threading issues. But the client will not receive any samples from a stream after the <a href="/windows/desktop/medfound/mestreampaused">MEStreamPaused</a> event.
 
-Not every media source can pause. If a media source can pause, the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfmediasource-getcharacteristics">IMFMediaSource::GetCharacteristics</a> method returns the MFMEDIASOURCE_CAN_PAUSE flag.
+Not every media source can pause. If a media source can pause, the <a href="/windows/desktop/api/mfidl/nf-mfidl-imfmediasource-getcharacteristics">IMFMediaSource::GetCharacteristics</a> method returns the MFMEDIASOURCE_CAN_PAUSE flag.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfmediasource">IMFMediaSource</a>
+<a href="/windows/desktop/api/mfidl/nn-mfidl-imfmediasource">IMFMediaSource</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-sources">Media Sources</a>
-
+<a href="/windows/desktop/medfound/media-sources">Media Sources</a>

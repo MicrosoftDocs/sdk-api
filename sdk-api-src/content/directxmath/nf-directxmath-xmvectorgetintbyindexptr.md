@@ -51,18 +51,18 @@ api_name:
 ## -description
 
 Retrieve, into an instance of an integer referenced by pointer, the value of one of the four components of an
-  <a href="https://docs.microsoft.com/windows/desktop/dxmath/xmvector-data-type">XMVECTOR Data Type</a> containing integer data by index.
+  <a href="/windows/desktop/dxmath/xmvector-data-type">XMVECTOR Data Type</a> containing integer data by index.
 
 ## -parameters
 
 ### -param x [out]
 
 Pointer to an instance of an integer object that will receive the value of the <i>i</i> component of the
-        <a href="https://docs.microsoft.com/windows/desktop/dxmath/xmvector-data-type">XMVECTOR Data Type</a> object <code>V</code>.
+        <a href="/windows/desktop/dxmath/xmvector-data-type">XMVECTOR Data Type</a> object <code>V</code>.
 
 ### -param V
 
-A <a href="https://docs.microsoft.com/windows/desktop/dxmath/xmvector-data-type">XMVECTOR Data Type</a> containing integer data.
+A <a href="/windows/desktop/dxmath/xmvector-data-type">XMVECTOR Data Type</a> containing integer data.
 
 ### -param i
 
@@ -77,7 +77,7 @@ None.
 The value of <i>i</i> must be positive and less than or equal to three ( <i>0 </i> &lt;= <i> i </i> &lt;=
    <i> 3</i> ).
 
-The indexes have the following correspondence with <a href="https://docs.microsoft.com/windows/desktop/dxmath/xmvector-data-type">XMVECTOR Data Type</a> vector components:
+The indexes have the following correspondence with <a href="/windows/desktop/dxmath/xmvector-data-type">XMVECTOR Data Type</a> vector components:
 
 <table>
 <tr>
@@ -132,13 +132,12 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/dxmath/ovw-xnamath-reference-functions-accessors">DirectXMath Library Vector Accessor Functions</a>
+<a href="/windows/desktop/dxmath/ovw-xnamath-reference-functions-accessors">DirectXMath Library Vector Accessor Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh404788(v=vs.85)">XMVectorGetIntByIndex</a>
+<a href="/previous-versions/windows/desktop/legacy/hh404788(v=vs.85)">XMVectorGetIntByIndex</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/directxmath/nf-directxmath-xmvectorsetintbyindexptr">XMVectorSetIntByIndexPtr</a>
-
+<a href="/windows/desktop/api/directxmath/nf-directxmath-xmvectorsetintbyindexptr">XMVectorSetIntByIndexPtr</a>

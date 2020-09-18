@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-The <b>GetPlayOffset</b> method retrieves the play offset of the object, in units pertinent to the object. This is the starting point for the next invocation of <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-imdspdevicecontrol-play">IMDSPDeviceControl::Play</a>.
+The <b>GetPlayOffset</b> method retrieves the play offset of the object, in units pertinent to the object. This is the starting point for the next invocation of <a href="/windows/desktop/api/mswmdm/nf-mswmdm-imdspdevicecontrol-play">IMDSPDeviceControl::Play</a>.
 
 ## -parameters
 
@@ -68,11 +68,11 @@ The method returns an <b>HRESULT</b>. All the interface methods in Windows Media
 <li>Windows error codes converted to HRESULT values </li>
 <li>Windows Media Device Manager error codes </li>
 </ul>
-For an extensive list of possible error codes, see <a href="https://docs.microsoft.com/windows/desktop/WMDM/error-codes">Error Codes</a>.
+For an extensive list of possible error codes, see <a href="/windows/desktop/WMDM/error-codes">Error Codes</a>.
 
 ## -remarks
 
-The value retrieved is either zero (if the <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-imdspobjectinfo-setplayoffset">SetPlayOffset</a> method has not been called) or the value set by <b>SetPlayOffset</b> clipped to be no greater than the total play length of the object minus one unit.
+The value retrieved is either zero (if the <a href="/windows/desktop/api/mswmdm/nf-mswmdm-imdspobjectinfo-setplayoffset">SetPlayOffset</a> method has not been called) or the value set by <b>SetPlayOffset</b> clipped to be no greater than the total play length of the object minus one unit.
 
 For playable files, the value returned is specified in milliseconds. The play offset value does not change when the user starts playing a file on the media device or when an application invokes the <b>IMDSPDeviceControl::Play</b> method.
 
@@ -80,9 +80,8 @@ For folders or file systems containing playable files, the value returned indica
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-imdspobjectinfo">IMDSPObjectInfo Interface</a>
+<a href="/windows/desktop/api/mswmdm/nn-mswmdm-imdspobjectinfo">IMDSPObjectInfo Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-imdspobjectinfo-setplayoffset">IMDSPObjectInfo::SetPlayOffset</a>
-
+<a href="/windows/desktop/api/mswmdm/nf-mswmdm-imdspobjectinfo-setplayoffset">IMDSPObjectInfo::SetPlayOffset</a>

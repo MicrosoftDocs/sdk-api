@@ -55,7 +55,7 @@ api_name:
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IProtectionPolicyManagerInterop2</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IProtectionPolicyManagerInterop2 interface</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IProtectionPolicyManagerInterop2</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IProtectionPolicyManagerInterop2 interface</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>IProtectionPolicyManagerInterop2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/efswrtinterop/nf-efswrtinterop-iprotectionpolicymanagerinterop2-requestaccessforappwithwindowasync">IProtectionPolicyManagerInterop2::RequestAccessForAppWithWindowAsync</a>
+<a href="/previous-versions/windows/desktop/api/efswrtinterop/nf-efswrtinterop-iprotectionpolicymanagerinterop2-requestaccessforappwithwindowasync">IProtectionPolicyManagerInterop2::RequestAccessForAppWithWindowAsync</a>
 </td>
 <td align="left" width="63%">
 Request access to enterprise-protected content for a specific target app.
@@ -80,7 +80,7 @@ Request access to enterprise-protected content for a specific target app.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/efswrtinterop/nf-efswrtinterop-iprotectionpolicymanagerinterop2-requestaccesswithauditinginfoforwindowasync">IProtectionPolicyManagerInterop2::RequestAccessWithAuditingInfoForWindowAsync</a>
+<a href="/previous-versions/windows/desktop/api/efswrtinterop/nf-efswrtinterop-iprotectionpolicymanagerinterop2-requestaccesswithauditinginfoforwindowasync">IProtectionPolicyManagerInterop2::RequestAccessWithAuditingInfoForWindowAsync</a>
 </td>
 <td align="left" width="63%">
 Request access to enterprise protected content for an identity.
@@ -89,7 +89,7 @@ Request access to enterprise protected content for an identity.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/efswrtinterop/nf-efswrtinterop-iprotectionpolicymanagerinterop2-requestaccesswithmessageforwindowasync">IProtectionPolicyManagerInterop2::RequestAccessWithMessageForWindowAsync</a>
+<a href="/previous-versions/windows/desktop/api/efswrtinterop/nf-efswrtinterop-iprotectionpolicymanagerinterop2-requestaccesswithmessageforwindowasync">IProtectionPolicyManagerInterop2::RequestAccessWithMessageForWindowAsync</a>
 </td>
 <td align="left" width="63%">
 Request access to enterprise protected content for an identity.
@@ -98,7 +98,7 @@ Request access to enterprise protected content for an identity.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/efswrtinterop/nf-efswrtinterop-iprotectionpolicymanagerinterop2-requestaccessforappwithauditinginfoforwindowasync">IProtectionPolicyManagerInterop2:RequestAccessForAppWithAuditingInfoForWindowAsync</a>
+<a href="/previous-versions/windows/desktop/api/efswrtinterop/nf-efswrtinterop-iprotectionpolicymanagerinterop2-requestaccessforappwithauditinginfoforwindowasync">IProtectionPolicyManagerInterop2:RequestAccessForAppWithAuditingInfoForWindowAsync</a>
 </td>
 <td align="left" width="63%">
 Request access to enterprise-protected content for a specific target app.
@@ -107,7 +107,7 @@ Request access to enterprise-protected content for a specific target app.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/efswrtinterop/nf-efswrtinterop-iprotectionpolicymanagerinterop2-requestaccessforappwithmessageforwindowasync">IProtectionPolicyManagerInterop2:RequestAccessForAppWithMessageForWindowAsync</a>
+<a href="/previous-versions/windows/desktop/api/efswrtinterop/nf-efswrtinterop-iprotectionpolicymanagerinterop2-requestaccessforappwithmessageforwindowasync">IProtectionPolicyManagerInterop2:RequestAccessForAppWithMessageForWindowAsync</a>
 </td>
 <td align="left" width="63%">
 Request access to enterprise-protected content for a specific target app.
@@ -115,4 +115,3 @@ Request access to enterprise-protected content for a specific target app.
 </td>
 </tr>
 </table>
-

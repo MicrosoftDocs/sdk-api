@@ -53,7 +53,7 @@ api_name:
 ## -description
 
 The <b>IPSEC_SA_CONTEXT0</b> structure encapsulates an inbound and outbound SA pair.
-[IPSEC_SA_CONTEXT1](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_context1) is available.</div><div> </div>
+[IPSEC_SA_CONTEXT1](/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_context1) is available.</div><div> </div>
 
 ## -struct-fields
 
@@ -63,13 +63,12 @@ Identifies the SA context.
 
 ### -field inboundSa
 
-An [IPSEC_SA_DETAILS0](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_details0) structure that contains information about the inbound SA.
+An [IPSEC_SA_DETAILS0](/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_details0) structure that contains information about the inbound SA.
 
 ### -field outboundSa
 
-An [IPSEC_SA_DETAILS0](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_details0) structure that contains information about the outbound SA.
+An [IPSEC_SA_DETAILS0](/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_details0) structure that contains information about the outbound SA.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>
-
+<a href="/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>

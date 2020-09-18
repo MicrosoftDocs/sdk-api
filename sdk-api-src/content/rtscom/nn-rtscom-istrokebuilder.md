@@ -54,7 +54,7 @@ Use interface to programmatically create strokes from packet data.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IStrokeBuilder</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IStrokeBuilder</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IStrokeBuilder</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IStrokeBuilder</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -70,7 +70,7 @@ The <b>IStrokeBuilder</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nf-rtscom-istrokebuilder-appendpackets">AppendPackets</a>
+<a href="/windows/desktop/api/rtscom/nf-rtscom-istrokebuilder-appendpackets">AppendPackets</a>
 </td>
 <td align="left" width="63%">
 Adds a packet to the end of the packet list.
@@ -79,25 +79,25 @@ Adds a packet to the end of the packet list.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nf-rtscom-istrokebuilder-beginstroke">BeginStroke</a>
+<a href="/windows/desktop/api/rtscom/nf-rtscom-istrokebuilder-beginstroke">BeginStroke</a>
 </td>
 <td align="left" width="63%">
-Begins a stroke on an ink object by using packet data from a <a href="https://docs.microsoft.com/windows/desktop/tablet/realtimestylus-class">RealTimeStylus Class</a> object.
+Begins a stroke on an ink object by using packet data from a <a href="/windows/desktop/tablet/realtimestylus-class">RealTimeStylus Class</a> object.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nf-rtscom-istrokebuilder-createstroke">CreateStroke</a>
+<a href="/windows/desktop/api/rtscom/nf-rtscom-istrokebuilder-createstroke">CreateStroke</a>
 </td>
 <td align="left" width="63%">
-Creates strokes on an ink object by using packet data from the <a href="https://docs.microsoft.com/windows/desktop/tablet/realtimestylus-class">RealTimeStylus Class</a> object.
+Creates strokes on an ink object by using packet data from the <a href="/windows/desktop/tablet/realtimestylus-class">RealTimeStylus Class</a> object.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nf-rtscom-istrokebuilder-endstroke">EndStroke</a>
+<a href="/windows/desktop/api/rtscom/nf-rtscom-istrokebuilder-endstroke">EndStroke</a>
 </td>
 <td align="left" width="63%">
 Ends a stroke and returns the stroke object.
@@ -115,7 +115,7 @@ Ends a stroke and returns the stroke object.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nf-rtscom-istrokebuilder-get_ink">Ink</a>
+<a href="/windows/desktop/api/rtscom/nf-rtscom-istrokebuilder-get_ink">Ink</a>
 
 
 </td>
@@ -124,7 +124,7 @@ Read/write
 
 </td>
 <td align="left" width="63%">
-Gets or sets the ink object that is associated with the <a href="https://docs.microsoft.com/windows/desktop/tablet/strokebuilder-class">StrokeBuilder</a> object.
+Gets or sets the ink object that is associated with the <a href="/windows/desktop/tablet/strokebuilder-class">StrokeBuilder</a> object.
 
 </td>
 </tr>
@@ -132,20 +132,20 @@ Gets or sets the ink object that is associated with the <a href="https://docs.mi
 
 ## -remarks
 
-This interface is implemented by the <a href="https://docs.microsoft.com/windows/desktop/tablet/strokebuilder-class">StrokeBuilder Class</a>.
+This interface is implemented by the <a href="/windows/desktop/tablet/strokebuilder-class">StrokeBuilder Class</a>.
 
-The <a href="https://docs.microsoft.com/windows/desktop/tablet/strokebuilder-class">StrokeBuilder Class</a> provides an alternative method of creating a stroke for applications that manage the data. It has methods that can be called from <a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nf-rtscom-istylusplugin-stylusdown">StylusDown</a>, <a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nf-rtscom-istylusplugin-packets">Packets</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nf-rtscom-istylusplugin-stylusup">StylusUp</a> notifications.
+The <a href="/windows/desktop/tablet/strokebuilder-class">StrokeBuilder Class</a> provides an alternative method of creating a stroke for applications that manage the data. It has methods that can be called from <a href="/windows/desktop/api/rtscom/nf-rtscom-istylusplugin-stylusdown">StylusDown</a>, <a href="/windows/desktop/api/rtscom/nf-rtscom-istylusplugin-packets">Packets</a>, and <a href="/windows/desktop/api/rtscom/nf-rtscom-istylusplugin-stylusup">StylusUp</a> notifications.
 
 The following two models are supported.
 
 <ul>
-<li>Converting custom stroke information to a stroke in an atomic fashion by using the <a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nf-rtscom-istrokebuilder-createstroke">IStrokeBuilder::CreateStroke Method</a> method.</li>
-<li>Building the stroke by using the <a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nf-rtscom-istrokebuilder-beginstroke">IStrokeBuilder::BeginStroke Method</a>, <a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nf-rtscom-istrokebuilder-appendpackets">IStrokeBuilder::AppendPackets Method</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nf-rtscom-istrokebuilder-endstroke">IStrokeBuilder::EndStroke Method</a> methods, which mirror the <a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nf-rtscom-istylusplugin-stylusdown">StylusDown</a>, <a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nf-rtscom-istylusplugin-packets">Packets</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nf-rtscom-istylusplugin-stylusup">StylusUp</a> notifications.</li>
+<li>Converting custom stroke information to a stroke in an atomic fashion by using the <a href="/windows/desktop/api/rtscom/nf-rtscom-istrokebuilder-createstroke">IStrokeBuilder::CreateStroke Method</a> method.</li>
+<li>Building the stroke by using the <a href="/windows/desktop/api/rtscom/nf-rtscom-istrokebuilder-beginstroke">IStrokeBuilder::BeginStroke Method</a>, <a href="/windows/desktop/api/rtscom/nf-rtscom-istrokebuilder-appendpackets">IStrokeBuilder::AppendPackets Method</a>, and <a href="/windows/desktop/api/rtscom/nf-rtscom-istrokebuilder-endstroke">IStrokeBuilder::EndStroke Method</a> methods, which mirror the <a href="/windows/desktop/api/rtscom/nf-rtscom-istylusplugin-stylusdown">StylusDown</a>, <a href="/windows/desktop/api/rtscom/nf-rtscom-istylusplugin-packets">Packets</a>, and <a href="/windows/desktop/api/rtscom/nf-rtscom-istylusplugin-stylusup">StylusUp</a> notifications.</li>
 </ul>
 
 #### Examples
 
-The following C++ example shows a partial implementation of an <a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nn-rtscom-istylusplugin">IStylusPlugin Interface</a> class. The plug-in uses a <a href="https://docs.microsoft.com/windows/desktop/tablet/strokebuilder-class">StrokeBuilder</a> object to create a new ink stroke.
+The following C++ example shows a partial implementation of an <a href="/windows/desktop/api/rtscom/nn-rtscom-istylusplugin">IStylusPlugin Interface</a> class. The plug-in uses a <a href="/windows/desktop/tablet/strokebuilder-class">StrokeBuilder</a> object to create a new ink stroke.
 
 
 ```cpp
@@ -246,17 +246,16 @@ STDMETHODIMP CStrokeBuilderPlugin::Error(
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms701168(v=vs.85)">DynamicRenderer Class</a>
+<a href="/previous-versions/windows/desktop/legacy/ms701168(v=vs.85)">DynamicRenderer Class</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nn-rtscom-istrokebuilder">IStrokeBuilder Interface</a>
+<a href="/windows/desktop/api/rtscom/nn-rtscom-istrokebuilder">IStrokeBuilder Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/tablet/realtimestylus-class">RealTimeStylus Class</a>
+<a href="/windows/desktop/tablet/realtimestylus-class">RealTimeStylus Class</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/tablet/realtimestylus-classes-and-interfaces">RealTimeStylus Classes and Interfaces</a>
-
+<a href="/windows/desktop/tablet/realtimestylus-classes-and-interfaces">RealTimeStylus Classes and Interfaces</a>

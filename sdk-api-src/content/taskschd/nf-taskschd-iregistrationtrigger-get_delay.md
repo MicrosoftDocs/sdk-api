@@ -60,15 +60,14 @@ This property is read/write.
 
 ## -remarks
 
-When reading or writing XML for a task, the boot delay is specified using the <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/taskschedulerschema-delay-registrationtriggertype-element">Delay</a> element of the Task Scheduler schema.
+When reading or writing XML for a task, the boot delay is specified using the <a href="/windows/desktop/TaskSchd/taskschedulerschema-delay-registrationtriggertype-element">Delay</a> element of the Task Scheduler schema.
 
 If a task with a delayed registration trigger is registered, and the computer that the task is registered on is shutdown or restarted during  the delay (before the task runs), then the task will not run and the delay will be lost.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nn-taskschd-iregistrationtrigger">IRegistrationTrigger</a>
+<a href="/windows/desktop/api/taskschd/nn-taskschd-iregistrationtrigger">IRegistrationTrigger</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/TaskSchd/task-scheduler-start-page">Task Scheduler</a>
-
+<a href="/windows/desktop/TaskSchd/task-scheduler-start-page">Task Scheduler</a>

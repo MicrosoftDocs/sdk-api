@@ -60,7 +60,7 @@ A pointer to a variable that receives the current redraw status. The status is <
 
 ### -param dwFlags [in]
 
-Indicates whether the object is activated as a windowless object. This parameter takes values from the <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/ne-ocidl-activateflags">ACTIVATEFLAGS</a> enumeration. See <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-ioleinplacesitewindowless">IOleInPlaceSiteWindowless</a> for more information on windowless objects.
+Indicates whether the object is activated as a windowless object. This parameter takes values from the <a href="/windows/desktop/api/ocidl/ne-ocidl-activateflags">ACTIVATEFLAGS</a> enumeration. See <a href="/windows/desktop/api/ocidl/nn-ocidl-ioleinplacesitewindowless">IOleInPlaceSiteWindowless</a> for more information on windowless objects.
 
 ## -returns
 
@@ -87,32 +87,31 @@ An unexpected error has occurred.
 
 ## -remarks
 
-This method replaces <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleinplacesite-oninplaceactivate">IOleInPlaceSite::OnInPlaceActivate</a>. If the older method is used, the object must always redraw itself on activation.
+This method replaces <a href="/windows/desktop/api/oleidl/nf-oleidl-ioleinplacesite-oninplaceactivate">IOleInPlaceSite::OnInPlaceActivate</a>. If the older method is used, the object must always redraw itself on activation.
 
-Windowless objects are required to use this method instead of <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleinplacesite-oninplaceactivate">IOleInPlaceSite::OnInPlaceActivate</a> to notify the container of whether they are activating windowless or not.
+Windowless objects are required to use this method instead of <a href="/windows/desktop/api/oleidl/nf-oleidl-ioleinplacesite-oninplaceactivate">IOleInPlaceSite::OnInPlaceActivate</a> to notify the container of whether they are activating windowless or not.
 
 <h3><a id="Notes_to_Implementers"></a><a id="notes_to_implementers"></a><a id="NOTES_TO_IMPLEMENTERS"></a>Notes to Implementers</h3>
 The container should carefully check the invalidation status of the object, its z-order, clipping and any other relevant parameters to determine the appropriate value to return in <i>pfNoRedraw</i>.
 
-A container can cache the value of the <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/ne-ocidl-activateflags">ACTIVATEFLAGS</a> enumeration instead of calling the <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-iolewindow-getwindow">GetWindow</a> method in the <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-ioleinplaceobjectwindowless">IOleInPlaceObjectWindowless</a> interface repeatedly.
+A container can cache the value of the <a href="/windows/desktop/api/ocidl/ne-ocidl-activateflags">ACTIVATEFLAGS</a> enumeration instead of calling the <a href="/windows/desktop/api/oleidl/nf-oleidl-iolewindow-getwindow">GetWindow</a> method in the <a href="/windows/desktop/api/ocidl/nn-ocidl-ioleinplaceobjectwindowless">IOleInPlaceObjectWindowless</a> interface repeatedly.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/ne-ocidl-activateflags">ACTIVATEFLAGS</a>
+<a href="/windows/desktop/api/ocidl/ne-ocidl-activateflags">ACTIVATEFLAGS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-ioleinplaceobjectwindowless">IOleInPlaceObjectWindowless</a>
+<a href="/windows/desktop/api/ocidl/nn-ocidl-ioleinplaceobjectwindowless">IOleInPlaceObjectWindowless</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleinplacesite-oninplaceactivate">IOleInPlaceSite::OnInPlaceActivate</a>
+<a href="/windows/desktop/api/oleidl/nf-oleidl-ioleinplacesite-oninplaceactivate">IOleInPlaceSite::OnInPlaceActivate</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-ioleinplacesiteex">IOleInPlaceSiteEx</a>
+<a href="/windows/desktop/api/ocidl/nn-ocidl-ioleinplacesiteex">IOleInPlaceSiteEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-ioleinplacesitewindowless">IOleInPlaceSiteWindowless</a>
-
+<a href="/windows/desktop/api/ocidl/nn-ocidl-ioleinplacesitewindowless">IOleInPlaceSiteWindowless</a>

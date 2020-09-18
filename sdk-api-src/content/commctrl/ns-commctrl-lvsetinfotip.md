@@ -60,19 +60,19 @@ Provides information about tooltip text that is to be set.
 
 ### -field cbSize
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 Size of the <b>LVSETINFOTIP</b> structure.
 
 ### -field dwFlags
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 Flag that specifies how the text should be set. Set to zero.
 
 ### -field pszText
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPWSTR</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">LPWSTR</a></b>
 
 Pointer to a Unicode string that contains the tooltip text.
 
@@ -88,4 +88,3 @@ zero-based index of the item to which this structure refers.
 Type: <b>int</b>
 
 Value of type <b>int</b> that contains the one-based index of the subitem to which this structure refers.
-

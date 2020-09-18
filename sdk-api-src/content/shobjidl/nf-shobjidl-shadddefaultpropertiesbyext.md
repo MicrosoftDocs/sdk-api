@@ -62,9 +62,9 @@ A pointer to a null-terminated, Unicode string that specifies the extension.
 
 ### -param pPropStore [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/propsys/nn-propsys-ipropertystore">IPropertyStore</a>*</b>
+Type: <b><a href="/windows/desktop/api/propsys/nn-propsys-ipropertystore">IPropertyStore</a>*</b>
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/propsys/nn-propsys-ipropertystore">IPropertyStore</a> interface that defines the default properties to add.
+A pointer to the <a href="/windows/desktop/api/propsys/nn-propsys-ipropertystore">IPropertyStore</a> interface that defines the default properties to add.
 
 ## -returns
 
@@ -88,4 +88,3 @@ Note that there are several types of properties:
 <li>Properties that are placed in the file (such as, author and tags)</li>
 </ol>
 When creating a new file, types one and two are provided just by creating the file. But properties of type three must be set explicitly by a program. The system provides <b>SHAddDefaultPropertiesByExt</b> to provide values for up to three specific properties of type three. Sometimes Windows Explorer uses this API when saving a file for the first time, or when creating a new file after the menu choice <b>New</b> is selected from a shortcut menu.
-

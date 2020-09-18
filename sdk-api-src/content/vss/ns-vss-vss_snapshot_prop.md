@@ -61,12 +61,12 @@ The <b>VSS_SNAPSHOT_PROP</b> structure contains the
 
 ### -field m_SnapshotId
 
-A <a href="https://docs.microsoft.com/windows/desktop/VSS/volume-shadow-copy-api-data-types">VSS_ID</a> (GUID) uniquely 
+A <a href="/windows/desktop/VSS/volume-shadow-copy-api-data-types">VSS_ID</a> (GUID) uniquely 
       identifying the shadow copy identifier.
 
 ### -field m_SnapshotSetId
 
-A <a href="https://docs.microsoft.com/windows/desktop/VSS/volume-shadow-copy-api-data-types">VSS_ID</a> (GUID) 
+A <a href="/windows/desktop/VSS/volume-shadow-copy-api-data-types">VSS_ID</a> (GUID) 
       uniquely identifying the shadow copy set containing the shadow copy.
 
 ### -field m_lSnapshotsCount
@@ -107,41 +107,41 @@ Null-terminated wide character string containing the name of the machine running
 Null-terminated wide character string containing the name of the shadow copy when it is exposed. This is a 
       drive letter or mounted folder (if the shadow copy is exposed as a local volume), or a share name. Corresponds to 
       the <i>wszExpose</i> parameter of the 
-      <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-exposesnapshot">IVssBackupComponents::ExposeSnapshot</a> 
+      <a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-exposesnapshot">IVssBackupComponents::ExposeSnapshot</a> 
       method.
 
 ### -field m_pwszExposedPath
 
 Null-terminated wide character string indicating the portion of the shadow copy of a volume made available 
       if it is exposed as a share. Corresponds to the <i>wszPathFromRoot</i> parameter of the 
-      <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-exposesnapshot">IVssBackupComponents::ExposeSnapshot</a> 
+      <a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-exposesnapshot">IVssBackupComponents::ExposeSnapshot</a> 
       method.
 
 ### -field m_ProviderId
 
-A <a href="https://docs.microsoft.com/windows/desktop/VSS/volume-shadow-copy-api-data-types">VSS_ID</a> (GUID) 
+A <a href="/windows/desktop/VSS/volume-shadow-copy-api-data-types">VSS_ID</a> (GUID) 
       uniquely identifying the provider used to create this shadow copy.
 
 ### -field m_lSnapshotAttributes
 
 The attributes of the shadow copy expressed as a bit mask (or bitwise OR) of members of the 
-      <a href="https://docs.microsoft.com/windows/desktop/api/vss/ne-vss-vss_volume_snapshot_attributes">_VSS_VOLUME_SNAPSHOT_ATTRIBUTES</a> 
+      <a href="/windows/desktop/api/vss/ne-vss-vss_volume_snapshot_attributes">_VSS_VOLUME_SNAPSHOT_ATTRIBUTES</a> 
       enumeration.
 
 ### -field m_tsCreationTimestamp
 
 Time stamp indicating when the shadow copy was created. The exact time is determined by the provider. See 
-      <a href="https://docs.microsoft.com/windows/desktop/VSS/volume-shadow-copy-api-data-types">VSS_TIMESTAMP</a> for 
+      <a href="/windows/desktop/VSS/volume-shadow-copy-api-data-types">VSS_TIMESTAMP</a> for 
       information about the time-stamp format.
 
 ### -field m_eStatus
 
 Current shadow copy creation status. See 
-      <a href="https://docs.microsoft.com/windows/desktop/api/vss/ne-vss-vss_snapshot_state">VSS_SNAPSHOT_STATE</a>.
+      <a href="/windows/desktop/api/vss/ne-vss-vss_snapshot_state">VSS_SNAPSHOT_STATE</a>.
 
 ## -remarks
 
-Requesters typically obtain a pointer to a <b>VSS_SNAPSHOT_PROP</b> structure by using the <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-getsnapshotproperties">IVssBackupComponents::GetSnapshotProperties</a> method or the <a href="https://docs.microsoft.com/windows/desktop/api/vsprov/nf-vsprov-ivsssoftwaresnapshotprovider-getsnapshotproperties">IVssSoftwareSnapshotProvider::GetSnapshotProperties</a> method. When this structure is no longer needed, the caller is responsible for freeing it by using the <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-vssfreesnapshotproperties">VssFreeSnapshotProperties</a> function.
+Requesters typically obtain a pointer to a <b>VSS_SNAPSHOT_PROP</b> structure by using the <a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-getsnapshotproperties">IVssBackupComponents::GetSnapshotProperties</a> method or the <a href="/windows/desktop/api/vsprov/nf-vsprov-ivsssoftwaresnapshotprovider-getsnapshotproperties">IVssSoftwareSnapshotProvider::GetSnapshotProperties</a> method. When this structure is no longer needed, the caller is responsible for freeing it by using the <a href="/windows/desktop/api/vsbackup/nf-vsbackup-vssfreesnapshotproperties">VssFreeSnapshotProperties</a> function.
 
 The shadow copy device object contained in <b>m_pwszSnapshotDeviceObject</b> is used to 
     address files on the shadow copy of the volume. For instance, if the original volume has a file with a path of 
@@ -162,33 +162,32 @@ If the shadow copy is exposed as a share, the value of
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-exposesnapshot">IVssBackupComponents::ExposeSnapshot</a>
+<a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-exposesnapshot">IVssBackupComponents::ExposeSnapshot</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-getsnapshotproperties">IVssBackupComponents::GetSnapshotProperties</a>
+<a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-getsnapshotproperties">IVssBackupComponents::GetSnapshotProperties</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vsprov/nf-vsprov-ivsssoftwaresnapshotprovider-getsnapshotproperties">IVssSoftwareSnapshotProvider::GetSnapshotProperties</a>
+<a href="/windows/desktop/api/vsprov/nf-vsprov-ivsssoftwaresnapshotprovider-getsnapshotproperties">IVssSoftwareSnapshotProvider::GetSnapshotProperties</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vss/ne-vss-vss_snapshot_state">VSS_SNAPSHOT_STATE</a>
+<a href="/windows/desktop/api/vss/ne-vss-vss_snapshot_state">VSS_SNAPSHOT_STATE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/VSS/volume-shadow-copy-api-data-types">VSS_TIMESTAMP</a>
+<a href="/windows/desktop/VSS/volume-shadow-copy-api-data-types">VSS_TIMESTAMP</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-vssfreesnapshotproperties">VssFreeSnapshotProperties</a>
+<a href="/windows/desktop/api/vsbackup/nf-vsbackup-vssfreesnapshotproperties">VssFreeSnapshotProperties</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vss/ne-vss-vss_snapshot_context">_VSS_SNAPSHOT_CONTEXT</a>
+<a href="/windows/desktop/api/vss/ne-vss-vss_snapshot_context">_VSS_SNAPSHOT_CONTEXT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vss/ne-vss-vss_volume_snapshot_attributes">_VSS_VOLUME_SNAPSHOT_ATTRIBUTES</a>
-
+<a href="/windows/desktop/api/vss/ne-vss-vss_volume_snapshot_attributes">_VSS_VOLUME_SNAPSHOT_ATTRIBUTES</a>

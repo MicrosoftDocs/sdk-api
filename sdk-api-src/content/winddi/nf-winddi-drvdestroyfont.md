@@ -56,7 +56,7 @@ The <b>DrvDestroyFont</b> function notifies the driver that a font realization i
 
 ### -param pfo
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-fontobj">FONTOBJ</a> structure that identifies the font instance.
+Pointer to the <a href="/windows/desktop/api/winddi/ns-winddi-fontobj">FONTOBJ</a> structure that identifies the font instance.
 
 ## -remarks
 
@@ -68,15 +68,14 @@ The driver must reset the <b>pvConsumer</b> and <b>pvProducer</b> members to <b>
 
 GDI calls <b>DrvDestroyFont</b> once for the font producer and once again for the font consumer.
 
-GDI guarantees that <b>DrvDestroyFont</b> and <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvtextout">DrvTextOut</a> never overlap; consequently, the driver can rely on cached information while processing a <b>DrvTextOut</b> call.
+GDI guarantees that <b>DrvDestroyFont</b> and <a href="/windows/desktop/api/winddi/nf-winddi-drvtextout">DrvTextOut</a> never overlap; consequently, the driver can rely on cached information while processing a <b>DrvTextOut</b> call.
 
 This function must be implemented if the font driver or kernel-mode printer driver allocates resources when it realizes fonts.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvtextout">DrvTextOut</a>
+<a href="/windows/desktop/api/winddi/nf-winddi-drvtextout">DrvTextOut</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-fontobj">FONTOBJ</a>
-
+<a href="/windows/desktop/api/winddi/ns-winddi-fontobj">FONTOBJ</a>

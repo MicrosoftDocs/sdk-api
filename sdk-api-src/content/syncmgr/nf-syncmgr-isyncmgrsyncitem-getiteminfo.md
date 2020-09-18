@@ -56,9 +56,9 @@ Gets the properties of a sync item.
 
 ### -param ppItemInfo [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nn-syncmgr-isyncmgrsynciteminfo">ISyncMgrSyncItemInfo</a>*</b>
+Type: <b><a href="/windows/desktop/api/syncmgr/nn-syncmgr-isyncmgrsynciteminfo">ISyncMgrSyncItemInfo</a>*</b>
 
-When this method returns, contains the address of a pointer to an instance of the <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nn-syncmgr-isyncmgrsynciteminfo">ISyncMgrSyncItemInfo</a> interface, representing the item.
+When this method returns, contains the address of a pointer to an instance of the <a href="/windows/desktop/api/syncmgr/nn-syncmgr-isyncmgrsynciteminfo">ISyncMgrSyncItemInfo</a> interface, representing the item.
 
 ## -returns
 
@@ -89,4 +89,3 @@ STDMETHODIMP CMyDeviceSyncItem::GetItemInfo(
 }
 
 ```
-

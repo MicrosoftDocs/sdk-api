@@ -68,7 +68,7 @@ Binding handle property to inquire about.
 Memory location to place the value for the specified <i>Option</i>
 
 <div class="alert"><b>Note</b>  For a list of binding options and their possible values, see 
-<a href="https://docs.microsoft.com/windows/desktop/Rpc/binding-option-constants">Binding Option Constants</a>.</div>
+<a href="/windows/desktop/Rpc/binding-option-constants">Binding Option Constants</a>.</div>
 <div> </div>
 
 ## -returns
@@ -104,33 +104,32 @@ The function is not supported for either the operating system or the transport.
  
 
 <div class="alert"><b>Note</b>  For a list of valid error codes, see 
-<a href="https://docs.microsoft.com/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
+<a href="/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
 <div> </div>
 
 ## -remarks
 
 Client processes call 
 <b>RpcBindingInqOption</b> to determine the current settings of the binding handle options. To inquire about authentication settings clients call the 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcbindinginqauthclient">RpcBindingInqAuthClient</a> function. .
+<a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcbindinginqauthclient">RpcBindingInqAuthClient</a> function. .
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Rpc/rpc-message-queuing">RPC Message
+<a href="/windows/desktop/Rpc/rpc-message-queuing">RPC Message
 		  Queuing</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcbindinginqauthclient">RpcBindingInqAuthClient</a>
+<a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcbindinginqauthclient">RpcBindingInqAuthClient</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcbindingsetauthinfo">RpcBindingSetAuthInfo</a>
+<a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcbindingsetauthinfo">RpcBindingSetAuthInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcbindingsetoption">RpcBindingSetOption</a>
+<a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcbindingsetoption">RpcBindingSetOption</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Midl/message">message</a>
-
+<a href="/windows/desktop/Midl/message">message</a>

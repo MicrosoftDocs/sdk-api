@@ -62,7 +62,7 @@ Specifies the UDN for which to search. This value is case sensitive, and should 
 ### -param pDevice [out]
 
 Receives a reference to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/upnp/nn-upnp-iupnpdevice">IUPnPDevice</a> object that contains the requested device. Receives <b>NULL</b> if the specified device is not found.
+<a href="/windows/desktop/api/upnp/nn-upnp-iupnpdevice">IUPnPDevice</a> object that contains the requested device. Receives <b>NULL</b> if the specified device is not found.
 
 ## -returns
 
@@ -74,13 +74,12 @@ This method returns as soon as a device that matches the specified UDN is found.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/upnp/nn-upnp-iupnpdevicefinder">IUPnPDeviceFinder</a>
+<a href="/windows/desktop/api/upnp/nn-upnp-iupnpdevicefinder">IUPnPDeviceFinder</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/upnp/nf-upnp-iupnpdevicefinder-findbytype">IUPnPDeviceFinder::FindByType</a>
+<a href="/windows/desktop/api/upnp/nf-upnp-iupnpdevicefinder-findbytype">IUPnPDeviceFinder::FindByType</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/upnp/nn-upnp-iupnpdevices">IUPnPDevices</a>
-
+<a href="/windows/desktop/api/upnp/nn-upnp-iupnpdevices">IUPnPDevices</a>

@@ -50,23 +50,22 @@ api_name:
 
 ## -description
 
-Sets the Unicode character format flag for the control. This message allows you to change the character set used by the control at run time rather than having to re-create the control. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/tvm-setunicodeformat">TVM_SETUNICODEFORMAT</a> message explicitly.
+Sets the Unicode character format flag for the control. This message allows you to change the character set used by the control at run time rather than having to re-create the control. You can use this macro or send the <a href="/windows/desktop/Controls/tvm-setunicodeformat">TVM_SETUNICODEFORMAT</a> message explicitly.
 
 ## -parameters
 
 ### -param hwnd
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 Handle to the control.
 
 ### -param fUnicode
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
 
 Determines the character set that is used by the control. If this value is nonzero, the control will use Unicode characters. If this value is zero, the control will use ANSI characters.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-treeview_getunicodeformat">TreeView_GetUnicodeFormat</a>
-
+<a href="/windows/desktop/api/commctrl/nf-commctrl-treeview_getunicodeformat">TreeView_GetUnicodeFormat</a>

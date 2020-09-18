@@ -58,7 +58,7 @@ Specifies that the source of the xml input is a buffer.
 
 ### -field input
 
-The base type for all types that derive from <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_xml_reader_input">WS_XML_READER_INPUT</a>.
+The base type for all types that derive from <a href="/windows/desktop/api/webservices/ns-webservices-ws_xml_reader_input">WS_XML_READER_INPUT</a>.
 
 ### -field encodedData
 
@@ -67,4 +67,3 @@ A pointer to the bytes of data that comprise the encoded form of the xml.  The r
 ### -field encodedDataSize
 
 The length of the encodedData.
-

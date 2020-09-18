@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-Retrieves the dots per inch (dpi) occupied by a <a href="https://docs.microsoft.com/windows/desktop/api/shellscalingapi/ne-shellscalingapi-shell_ui_component">SHELL_UI_COMPONENT</a> based on the current scale factor and <a href="https://docs.microsoft.com/windows/desktop/api/shellscalingapi/ne-shellscalingapi-process_dpi_awareness">PROCESS_DPI_AWARENESS</a>.
+Retrieves the dots per inch (dpi) occupied by a <a href="/windows/desktop/api/shellscalingapi/ne-shellscalingapi-shell_ui_component">SHELL_UI_COMPONENT</a> based on the current scale factor and <a href="/windows/desktop/api/shellscalingapi/ne-shellscalingapi-process_dpi_awareness">PROCESS_DPI_AWARENESS</a>.
 
 ## -parameters
 
@@ -62,4 +62,3 @@ The type of shell component.
 ## -returns
 
 The DPI required for an icon of this type.
-

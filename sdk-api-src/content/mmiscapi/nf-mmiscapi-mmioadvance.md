@@ -53,17 +53,17 @@ api_name:
 
 ## -description
 
-The <b>mmioAdvance</b> function advances the I/O buffer of a file set up for direct I/O buffer access with the <a href="https://docs.microsoft.com/previous-versions/dd757321(v=vs.85)">mmioGetInfo</a> function.
+The <b>mmioAdvance</b> function advances the I/O buffer of a file set up for direct I/O buffer access with the <a href="/previous-versions/dd757321(v=vs.85)">mmioGetInfo</a> function.
 
 ## -parameters
 
 ### -param hmmio
 
-File handle of a file opened by using the <a href="https://docs.microsoft.com/previous-versions/dd757331(v=vs.85)">mmioOpen</a> function.
+File handle of a file opened by using the <a href="/previous-versions/dd757331(v=vs.85)">mmioOpen</a> function.
 
 ### -param pmmioinfo
 
-Pointer to the <a href="https://docs.microsoft.com/previous-versions/dd757322(v=vs.85)">MMIOINFO</a> structure obtained by using the <a href="https://docs.microsoft.com/previous-versions/dd757321(v=vs.85)">mmioGetInfo</a> function. This structure is used to set the current file information, and then it is updated after the buffer is advanced. This parameter is optional.
+Pointer to the <a href="/previous-versions/dd757322(v=vs.85)">MMIOINFO</a> structure obtained by using the <a href="/previous-versions/dd757321(v=vs.85)">mmioGetInfo</a> function. This structure is used to set the current file information, and then it is updated after the buffer is advanced. This parameter is optional.
 
 ### -param fuAdvance
 
@@ -102,7 +102,7 @@ Returns MMSYSERR_NOERROR if successful or an error otherwise. Possible error val
 </dl>
 </td>
 <td width="60%">
-The specified memory file cannot be expanded, probably because the <b>adwInfo</b> member of the <a href="https://docs.microsoft.com/previous-versions/dd757322(v=vs.85)">MMIOINFO</a> structure was set to zero in the initial call to the <a href="https://docs.microsoft.com/previous-versions/dd757331(v=vs.85)">mmioOpen</a> function.
+The specified memory file cannot be expanded, probably because the <b>adwInfo</b> member of the <a href="/previous-versions/dd757322(v=vs.85)">MMIOINFO</a> structure was set to zero in the initial call to the <a href="/previous-versions/dd757331(v=vs.85)">mmioOpen</a> function.
 
 </td>
 </tr>
@@ -154,7 +154,7 @@ The specified file is not opened for buffered I/O.
 
 ## -remarks
 
-If the file is opened for reading, the I/O buffer is filled from the disk. If the file is opened for writing and the MMIO_DIRTY flag is set in the <b>dwFlags</b> member of the <a href="https://docs.microsoft.com/previous-versions/dd757322(v=vs.85)">MMIOINFO</a> structure, the buffer is written to disk. The <b>pchNext,</b><b>pchEndRead</b>, and <b>pchEndWrite</b> members of the <b>MMIOINFO</b> structure are updated to reflect the new state of the I/O buffer.
+If the file is opened for reading, the I/O buffer is filled from the disk. If the file is opened for writing and the MMIO_DIRTY flag is set in the <b>dwFlags</b> member of the <a href="/previous-versions/dd757322(v=vs.85)">MMIOINFO</a> structure, the buffer is written to disk. The <b>pchNext,</b><b>pchEndRead</b>, and <b>pchEndWrite</b> members of the <b>MMIOINFO</b> structure are updated to reflect the new state of the I/O buffer.
 
 If the specified file is opened for writing or for both reading and writing, the I/O buffer is flushed to disk before the next buffer is read. If the I/O buffer cannot be written to disk because the disk is full, <b>mmioAdvance</b> returns MMIOERR_CANNOTWRITE.
 
@@ -163,4 +163,3 @@ If the specified file is open only for writing, the MMIO_WRITE flag must be spec
 If you have written to the I/O buffer, you must set the MMIO_DIRTY flag in the <b>dwFlags</b> member of the <b>MMIOINFO</b> structure before calling <b>mmioAdvance</b>. Otherwise, the buffer will not be written to disk.
 
 If the end of file is reached, <b>mmioAdvance</b> still returns successfully even though no more data can be read. To check for the end of the file, check if the <b>pchNext</b> and <b>pchEndRead</b> members of the <b>MMIOINFO</b> structure are equal after calling <b>mmioAdvance</b>.
-

@@ -136,14 +136,14 @@ The server does not have permission to impersonate the client.
  
 
 <div class="alert"><b>Note</b>  For a list of valid error codes, see 
-<a href="https://docs.microsoft.com/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
+<a href="/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
 <div> </div>
 
 ## -remarks
 
 In a multithreaded application, if the call to 
 <b>RpcImpersonateClient</b> is with a handle to another client thread, you must call 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcreverttoselfex">RpcRevertToSelfEx</a> with the handle to that thread to end impersonation.
+<a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcreverttoselfex">RpcRevertToSelfEx</a> with the handle to that thread to end impersonation.
 
 All  functions that impersonate check to determine whether the caller of this function (the RPC Server) has the SeImpersonatePrivilege privilege. If the caller has the SeImpersonatePrivilege, or if the authenticated identity is the same as the identity of the caller of this function, the requested impersonation is allowed. Otherwise, the impersonation succeeds at Identify level only.
 
@@ -155,10 +155,9 @@ If the call to
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Rpc/client-impersonation">Client
+<a href="/windows/desktop/Rpc/client-impersonation">Client
 		  Impersonation</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcreverttoself">RpcRevertToSelf</a>
-
+<a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcreverttoself">RpcRevertToSelf</a>

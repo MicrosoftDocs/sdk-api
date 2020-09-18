@@ -61,11 +61,10 @@ S_OK is returned on success, but other success codes may be returned as a result
 ## -remarks
 
 Content not committed to media through a call to 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi/nf-imapi-idiscmaster-recorddisc">RecordDisc</a> is lost.
+<a href="/windows/desktop/api/imapi/nf-imapi-idiscmaster-recorddisc">RecordDisc</a> is lost.
 
 Closing an already closed interface returns S_OK.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi/nn-imapi-idiscmaster">IDiscMaster</a>
-
+<a href="/windows/desktop/api/imapi/nn-imapi-idiscmaster">IDiscMaster</a>

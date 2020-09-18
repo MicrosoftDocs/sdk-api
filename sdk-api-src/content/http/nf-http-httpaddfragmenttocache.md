@@ -58,38 +58,38 @@ The
 ### -param RequestQueueHandle [in]
 
 Handle to the request queue with which this cache is associated. A request queue is created and its handle returned by a call to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpcreaterequestqueue">HttpCreateRequestQueue</a> function.
+<a href="/windows/desktop/api/http/nf-http-httpcreaterequestqueue">HttpCreateRequestQueue</a> function.
 
-<b>Windows Server 2003 with SP1 and Windows XP with SP2:  </b>The handle to the request queue is created by the <a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpcreatehttphandle">HttpCreateHttpHandle</a> function.
+<b>Windows Server 2003 with SP1 and Windows XP with SP2:  </b>The handle to the request queue is created by the <a href="/windows/desktop/api/http/nf-http-httpcreatehttphandle">HttpCreateHttpHandle</a> function.
 
 ### -param UrlPrefix [in]
 
-Pointer to a  <a href="https://docs.microsoft.com/windows/desktop/Http/urlprefix-strings">UrlPrefix string</a> that the application uses in subsequent calls to 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpsendhttpresponse">HttpSendHttpResponse</a> to identify this cache entry. The application must have called <b>HttpAddUrl</b> previously with the same handle as in the <i>ReqQueueHandle</i> parameter, and with  either  this identical UrlPrefix string or a valid prefix of it.
+Pointer to a  <a href="/windows/desktop/Http/urlprefix-strings">UrlPrefix string</a> that the application uses in subsequent calls to 
+<a href="/windows/desktop/api/http/nf-http-httpsendhttpresponse">HttpSendHttpResponse</a> to identify this cache entry. The application must have called <b>HttpAddUrl</b> previously with the same handle as in the <i>ReqQueueHandle</i> parameter, and with  either  this identical UrlPrefix string or a valid prefix of it.
 
 Like any UrlPrefix, this string must take the form "scheme://host:port/relativeURI"; for example, http://www.mysite.com:80/image1.gif.
 
 ### -param DataChunk [in]
 
 Pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_data_chunk">HTTP_DATA_CHUNK</a> structure that specifies an entity body data block to cache under the name pointed to by <i>pUrlPrefix</i>.
+<a href="/windows/desktop/api/http/ns-http-http_data_chunk">HTTP_DATA_CHUNK</a> structure that specifies an entity body data block to cache under the name pointed to by <i>pUrlPrefix</i>.
 
 ### -param CachePolicy [in]
 
 Pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_cache_policy">HTTP_CACHE_POLICY</a> structure that specifies how this data fragment should be cached.
+<a href="/windows/desktop/api/http/ns-http-http_cache_policy">HTTP_CACHE_POLICY</a> structure that specifies how this data fragment should be cached.
 
 ### -param Overlapped [in, optional]
 
 For asynchronous calls, set <i>pOverlapped</i> to point to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> structure, or for synchronous calls, set it to <b>NULL</b>. 
+<a href="/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> structure, or for synchronous calls, set it to <b>NULL</b>. 
 
 
 
 
 A synchronous call blocks the calling thread until the cache operation is complete, whereas an asynchronous call immediately returns ERROR_IO_PENDING and the calling application then uses 
-<a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-getoverlappedresult">GetOverlappedResult</a> or I/O completion ports to determine when the operation is completed. For more information about using 
-<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> structures for synchronization, see <a href="https://docs.microsoft.com/windows/desktop/Sync/synchronization-and-overlapped-input-and-output">Synchronization and Overlapped Input and Output</a>.
+<a href="/windows/desktop/api/ioapiset/nf-ioapiset-getoverlappedresult">GetOverlappedResult</a> or I/O completion ports to determine when the operation is completed. For more information about using 
+<a href="/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> structures for synchronization, see <a href="/windows/desktop/Sync/synchronization-and-overlapped-input-and-output">Synchronization and Overlapped Input and Output</a>.
 
 ## -returns
 
@@ -122,7 +122,7 @@ One or more of the supplied parameters is in an unusable form.
 </dl>
 </td>
 <td width="60%">
-A <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a> defined in WinError.h.
+A <a href="/windows/desktop/Debug/system-error-codes">system error code</a> defined in WinError.h.
 
 </td>
 </tr>
@@ -130,13 +130,12 @@ A <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Http/http-server-api-version-1-0-functions">HTTP Server API Version 1.0 Functions</a>
+<a href="/windows/desktop/Http/http-server-api-version-1-0-functions">HTTP Server API Version 1.0 Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpflushresponsecache">HttpFlushResponseCache</a>
+<a href="/windows/desktop/api/http/nf-http-httpflushresponsecache">HttpFlushResponseCache</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpreadfragmentfromcache">HttpReadFragmentFromCache</a>
-
+<a href="/windows/desktop/api/http/nf-http-httpreadfragmentfromcache">HttpReadFragmentFromCache</a>

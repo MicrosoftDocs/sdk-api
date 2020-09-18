@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-The <b>RASTERIZER_STATUS</b> structure contains information about whether TrueType is installed. This structure is filled when an application calls the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getrasterizercaps">GetRasterizerCaps</a> function.
+The <b>RASTERIZER_STATUS</b> structure contains information about whether TrueType is installed. This structure is filled when an application calls the <a href="/windows/desktop/api/wingdi/nf-wingdi-getrasterizercaps">GetRasterizerCaps</a> function.
 
 ## -struct-fields
 
@@ -72,13 +72,12 @@ The language in the system's Setup.inf file.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/font-and-text-structures">Font and Text Structures</a>
+<a href="/windows/desktop/gdi/font-and-text-structures">Font and Text Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/fonts-and-text">Fonts and Text Overview</a>
+<a href="/windows/desktop/gdi/fonts-and-text">Fonts and Text Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getrasterizercaps">GetRasterizerCaps</a>
-
+<a href="/windows/desktop/api/wingdi/nf-wingdi-getrasterizercaps">GetRasterizerCaps</a>

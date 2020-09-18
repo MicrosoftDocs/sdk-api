@@ -55,7 +55,7 @@ Extends the input rectangle to infinity using the specified extend modes.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID2D1BorderTransform</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/d2d1effectauthor/nn-d2d1effectauthor-id2d1concretetransform">ID2D1ConcreteTransform</a>. <b>ID2D1BorderTransform</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID2D1BorderTransform</b> interface inherits from <a href="/windows/desktop/api/d2d1effectauthor/nn-d2d1effectauthor-id2d1concretetransform">ID2D1ConcreteTransform</a>. <b>ID2D1BorderTransform</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>ID2D1BorderTransform</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1effectauthor/nf-d2d1effectauthor-id2d1bordertransform-getextendmodex">GetExtendModeX</a>
+<a href="/windows/desktop/api/d2d1effectauthor/nf-d2d1effectauthor-id2d1bordertransform-getextendmodex">GetExtendModeX</a>
 </td>
 <td align="left" width="63%">
 Gets the extend mode in the x direction.
@@ -79,7 +79,7 @@ Gets the extend mode in the x direction.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1effectauthor/nf-d2d1effectauthor-id2d1bordertransform-getextendmodey">GetExtendModeY</a>
+<a href="/windows/desktop/api/d2d1effectauthor/nf-d2d1effectauthor-id2d1bordertransform-getextendmodey">GetExtendModeY</a>
 </td>
 <td align="left" width="63%">
 Gets the extend mode in the y direction.
@@ -88,7 +88,7 @@ Gets the extend mode in the y direction.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1effectauthor/nf-d2d1effectauthor-id2d1bordertransform-setextendmodex">SetExtendModeX</a>
+<a href="/windows/desktop/api/d2d1effectauthor/nf-d2d1effectauthor-id2d1bordertransform-setextendmodex">SetExtendModeX</a>
 </td>
 <td align="left" width="63%">
 Sets the extend mode in the x direction.
@@ -97,7 +97,7 @@ Sets the extend mode in the x direction.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1effectauthor/nf-d2d1effectauthor-id2d1bordertransform-setextendmodey">SetExtendModeY</a>
+<a href="/windows/desktop/api/d2d1effectauthor/nf-d2d1effectauthor-id2d1bordertransform-setextendmodey">SetExtendModeY</a>
 </td>
 <td align="left" width="63%">
 Sets the extend mode in the y direction.
@@ -108,5 +108,4 @@ Sets the extend mode in the y direction.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1effectauthor/nn-d2d1effectauthor-id2d1concretetransform">ID2D1ConcreteTransform</a>
-
+<a href="/windows/desktop/api/d2d1effectauthor/nn-d2d1effectauthor-id2d1concretetransform">ID2D1ConcreteTransform</a>

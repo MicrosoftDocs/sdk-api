@@ -56,15 +56,15 @@ Requests a property-value set.
 
 ### -param pSpec [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propspec">PROPSPEC</a>*</b>
+Type: <b><a href="/windows/desktop/api/propidl/ns-propidl-propspec">PROPSPEC</a>*</b>
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propspec">PROPSPEC</a> structure containing the requested property.
+Pointer to a <a href="/windows/desktop/api/propidl/ns-propidl-propspec">PROPSPEC</a> structure containing the requested property.
 
 ### -param pVar [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a>*</b>
+Type: <b><a href="/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a>*</b>
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structure containing the value for the property specified by <i>pSpec</i>.
+Pointer to a <a href="/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structure containing the value for the property specified by <i>pSpec</i>.
 
 ## -returns
 
@@ -75,4 +75,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -remarks
 
 Implement this method to obtain additional information from the content source (for instance, the If-Modified-Since header in an HTTP request).
-

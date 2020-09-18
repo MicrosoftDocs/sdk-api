@@ -68,21 +68,20 @@ The identifier of the process to stop debugging.
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/debugapi/nf-debugapi-debugactiveprocess">DebugActiveProcess</a>
+<a href="/windows/desktop/api/debugapi/nf-debugapi-debugactiveprocess">DebugActiveProcess</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Debug/debugging-functions">Debugging Functions</a>
+<a href="/windows/desktop/Debug/debugging-functions">Debugging Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Debug/debugging-a-running-process">Debugging a Running Process</a>
+<a href="/windows/desktop/Debug/debugging-a-running-process">Debugging a Running Process</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Debug/process-functions-for-debugging">Process Functions for Debugging</a>
-
+<a href="/windows/desktop/Debug/process-functions-for-debugging">Process Functions for Debugging</a>

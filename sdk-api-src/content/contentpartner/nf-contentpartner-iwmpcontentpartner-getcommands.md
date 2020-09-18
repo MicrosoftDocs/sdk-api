@@ -58,7 +58,7 @@ The <b>GetCommands</b> method retrieves context menu commands.
 
 ### -param location [in]
 
-A <a href="https://docs.microsoft.com/windows/desktop/WMP/library-location-constants">library location constant</a> that specifies the type of library view where the user right-clicked. For example, the constant g_szCPGenreID indicates that the user right-clicked in the view of a particular genre
+A <a href="/windows/desktop/WMP/library-location-constants">library location constant</a> that specifies the type of library view where the user right-clicked. For example, the constant g_szCPGenreID indicates that the user right-clicked in the view of a particular genre
 
 ### -param pLocationContext [in]
 
@@ -82,7 +82,7 @@ The number of elements in the <i>pprgItems</i> array.
 
 ### -param pprgItems [out]
 
-Address of a variable that receives a pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/contentpartner/ns-contentpartner-wmpcontextmenuinfo">WMPContextMenuInfo</a> structures.
+Address of a variable that receives a pointer to an array of <a href="/windows/desktop/api/contentpartner/ns-contentpartner-wmpcontextmenuinfo">WMPContextMenuInfo</a> structures.
 
 ## -returns
 
@@ -112,5 +112,4 @@ This method must call <b>CoTaskMemAlloc</b> to allocate the array that it return
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/contentpartner/nn-contentpartner-iwmpcontentpartner">IWMPContentPartner Interface</a>
-
+<a href="/windows/desktop/api/contentpartner/nn-contentpartner-iwmpcontentpartner">IWMPContentPartner Interface</a>

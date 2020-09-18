@@ -57,9 +57,9 @@ Retrieves a wide string containing the HTTP method name for the BITS transfer. B
 
 ### -param method [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPWSTR</a>*</b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">LPWSTR</a>*</b>
 
-The address of a pointer to a null-terminated string of wide characters. If successful, the method updates the pointer to point to a string containing the HTTP method name. When you're done with this string, free it with a call to <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a>.
+The address of a pointer to a null-terminated string of wide characters. If successful, the method updates the pointer to point to a string containing the HTTP method name. When you're done with this string, free it with a call to <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a>.
 
 ## -returns
 
@@ -70,4 +70,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -see-also
 
 <a href="https://msdn.microsoft.com/6E8A32CF-99F6-4C4D-A6EE-A05A1E601793">IBackgroundCopyJobHttpOptions2</a>
-

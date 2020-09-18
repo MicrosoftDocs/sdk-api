@@ -80,5 +80,4 @@ If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRE
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/indexsrv/nn-indexsrv-icolumnmapper">IColumnMapper</a>
-
+<a href="/windows/desktop/api/indexsrv/nn-indexsrv-icolumnmapper">IColumnMapper</a>

@@ -52,17 +52,16 @@ For each x in InputTensor
 
 ### -field InputTensor
 
-Type: **const [DML_TENSOR_DESC](/windows/win32/api/directml/ns-directml-dml_tensor_desc)\***
+Type: **const [DML_TENSOR_DESC](./ns-directml-dml_tensor_desc.md)\***
 
-A pointer to a constant [DML_TENSOR_DESC](/windows/win32/api/directml/ns-directml-dml_tensor_desc) containing the description of the tensor to read from.
+A pointer to a constant [DML_TENSOR_DESC](./ns-directml-dml_tensor_desc.md) containing the description of the tensor to read from.
 
 ### -field OutputTensor
 
-Type: **const [DML_TENSOR_DESC](/windows/win32/api/directml/ns-directml-dml_tensor_desc)\***
+Type: **const [DML_TENSOR_DESC](./ns-directml-dml_tensor_desc.md)\***
 
-A pointer to a constant [DML_TENSOR_DESC](/windows/win32/api/directml/ns-directml-dml_tensor_desc) containing the description of the tensor to write the results to.
+A pointer to a constant [DML_TENSOR_DESC](./ns-directml-dml_tensor_desc.md) containing the description of the tensor to write the results to.
 
 ## -remarks
 
 ## -see-also
-

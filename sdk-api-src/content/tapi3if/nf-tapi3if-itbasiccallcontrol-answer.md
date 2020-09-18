@@ -52,7 +52,7 @@ api_name:
 
 The 
 <b>Answer</b> method answers an incoming call. This method can succeed only if the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/ne-tapi3if-call_state">call state</a> is CS_OFFERING.
+<a href="/windows/desktop/api/tapi3if/ne-tapi3if-call_state">call state</a> is CS_OFFERING.
 
 ## -parameters
 
@@ -113,17 +113,16 @@ The operation failed because the TAPI 3 DLL timed it out. The timeout interval i
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/answer-ovr">Answer Overview</a>
+<a href="/windows/desktop/Tapi/answer-ovr">Answer Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/call-object">Call Object</a>
+<a href="/windows/desktop/Tapi/call-object">Call Object</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itbasiccallcontrol">ITBasicCallControl</a>
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itbasiccallcontrol">ITBasicCallControl</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-lineanswer">lineAnswer</a>
-
+<a href="/windows/desktop/api/tapi/nf-tapi-lineanswer">lineAnswer</a>

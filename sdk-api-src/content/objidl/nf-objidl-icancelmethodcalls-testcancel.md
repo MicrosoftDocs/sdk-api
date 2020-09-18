@@ -66,9 +66,8 @@ This method can be called from both the client and the server.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotestcancel">CoTestCancel</a>
+<a href="/windows/desktop/api/combaseapi/nf-combaseapi-cotestcancel">CoTestCancel</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-icancelmethodcalls">ICancelMethodCalls</a>
-
+<a href="/windows/desktop/api/objidl/nn-objidl-icancelmethodcalls">ICancelMethodCalls</a>

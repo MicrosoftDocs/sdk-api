@@ -50,21 +50,21 @@ api_name:
 
 ## -description
 
-Closes down communication with the specified <a href="https://docs.microsoft.com/windows/desktop/wsw/service-proxy">service proxy</a>.
+Closes down communication with the specified <a href="/windows/desktop/wsw/service-proxy">service proxy</a>.
 
 ## -parameters
 
 ### -param serviceProxy [in]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-service-proxy">WS_SERVICE_PROXY</a> structure representing he service proxy to be closed.
+Pointer to a <a href="/windows/desktop/wsw/ws-service-proxy">WS_SERVICE_PROXY</a> structure representing he service proxy to be closed.
 
 ### -param asyncContext [in, optional]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_async_context">WS_ASYNC_CONTEXT</a> structure containing information for invoking the function asynchronously. Pass <b>NULL</b> to invoke the function synchronously.
+Pointer to a <a href="/windows/desktop/api/webservices/ns-webservices-ws_async_context">WS_ASYNC_CONTEXT</a> structure containing information for invoking the function asynchronously. Pass <b>NULL</b> to invoke the function synchronously.
 
 ### -param error [in, optional]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-error">WS_ERROR</a> structure  that receives additional error information if the function fails.
+Pointer to a <a href="/windows/desktop/wsw/ws-error">WS_ERROR</a> structure  that receives additional error information if the function fails.
 
 ## -returns
 
@@ -106,7 +106,7 @@ The current state of the service proxy is not valid for this operation. This is 
 </dl>
 </td>
 <td width="60%">
-The underlying <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-channel">WS_CHANNEL</a> was disconnected during the close operation. This error occurs only in cases where the underlying channel is session based.
+The underlying <a href="/windows/desktop/wsw/ws-channel">WS_CHANNEL</a> was disconnected during the close operation. This error occurs only in cases where the underlying channel is session based.
                 
 
 </td>
@@ -209,4 +209,3 @@ If a service operation call is pending on the service proxy, <b>WsCloseServicePr
 
 Note that WS_E_INVALID_OPERATION is the only  
                    error code that indicates that  closure has failed. Other error codes indicate that the operation succeeded, and the error code is for informational purposes only.
-

@@ -117,9 +117,8 @@ The sensor device has not been initialized.
 
 ## -remarks
 
-Depending on the type of device, which is defined by a member of the <a href="/windows/win32/api/mfidl/ne-mfidl-mfsensordevicetype">MFSensorDeviceType</a> enumeration and can be obtained by calling <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfsensordevice-getdevicetype">GetDeviceType</a>, the resulting symbolic name may be a valid device symbolic name or a provider URL.  The caller should not attempt to parse the name and should treat it as opaque data.
+Depending on the type of device, which is defined by a member of the <a href="/windows/win32/api/mfidl/ne-mfidl-mfsensordevicetype">MFSensorDeviceType</a> enumeration and can be obtained by calling <a href="/windows/desktop/api/mfidl/nf-mfidl-imfsensordevice-getdevicetype">GetDeviceType</a>, the resulting symbolic name may be a valid device symbolic name or a provider URL.  The caller should not attempt to parse the name and should treat it as opaque data.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfsensordevice">IMFSensorDevice</a>
-
+<a href="/windows/desktop/api/mfidl/nn-mfidl-imfsensordevice">IMFSensorDevice</a>

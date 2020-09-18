@@ -56,5 +56,4 @@ Occurs when startup for the camera UI control has completed.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/camerauicontrol/nn-camerauicontrol-icamerauicontroleventcallback">ICameraUIControlEventCallback</a>
-
+<a href="/windows/desktop/api/camerauicontrol/nn-camerauicontrol-icamerauicontroleventcallback">ICameraUIControlEventCallback</a>

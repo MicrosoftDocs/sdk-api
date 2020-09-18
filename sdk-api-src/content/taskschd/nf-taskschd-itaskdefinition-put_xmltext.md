@@ -60,9 +60,8 @@ This property is read/write.
 
 ## -remarks
 
-The XML for a task is defined by the <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/task-scheduler-schema">Task Scheduler Schema</a>. For an example of task XML, see <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/daily-trigger-example--xml-">Daily Trigger Example (XML)</a>.
+The XML for a task is defined by the <a href="/windows/desktop/TaskSchd/task-scheduler-schema">Task Scheduler Schema</a>. For an example of task XML, see <a href="/windows/desktop/TaskSchd/daily-trigger-example--xml-">Daily Trigger Example (XML)</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nn-taskschd-itaskdefinition">ITaskDefinition</a>
-
+<a href="/windows/desktop/api/taskschd/nn-taskschd-itaskdefinition">ITaskDefinition</a>

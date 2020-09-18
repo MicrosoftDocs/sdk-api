@@ -51,13 +51,13 @@ api_name:
 
 ## -description
 
-Deletes an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)">InkStrokes</a> collection from the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut15/nf-msinkaut15-iinkdivisionresult-get_strokes">Strokes</a> collection of the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkdisp-class">InkDisp</a> object.
+Deletes an <a href="/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)">InkStrokes</a> collection from the <a href="/windows/desktop/api/msinkaut15/nf-msinkaut15-iinkdivisionresult-get_strokes">Strokes</a> collection of the <a href="/windows/desktop/tablet/inkdisp-class">InkDisp</a> object.
 
 ## -parameters
 
 ### -param Strokes [in, optional]
 
-Optional. Specifies the collection of strokes to delete from the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkdisp-class">InkDisp</a> object. The default value is <b>NULL</b>.
+Optional. Specifies the collection of strokes to delete from the <a href="/windows/desktop/tablet/inkdisp-class">InkDisp</a> object. The default value is <b>NULL</b>.
 
 ## -returns
 
@@ -119,7 +119,7 @@ An unspecified error occurred.
 </dl>
 </td>
 <td width="60%">
-The <a href="https://docs.microsoft.com/windows/desktop/tablet/inkdisp-class">InkDisp</a> object of the strokes must match the known <b>InkDisp</b> object.
+The <a href="/windows/desktop/tablet/inkdisp-class">InkDisp</a> object of the strokes must match the known <b>InkDisp</b> object.
 
 </td>
 </tr>
@@ -149,17 +149,17 @@ Unexpected parameter or property type.
 
 ## -remarks
 
-This method deletes all of the strokes in the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkdisp-class">InkDisp</a> object if no <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)">InkStrokes</a> collection is passed in. To delete only one stroke at a time, call the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkdisp-deletestroke">DeleteStroke</a> method.
+This method deletes all of the strokes in the <a href="/windows/desktop/tablet/inkdisp-class">InkDisp</a> object if no <a href="/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)">InkStrokes</a> collection is passed in. To delete only one stroke at a time, call the <a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkdisp-deletestroke">DeleteStroke</a> method.
 
-The <a href="https://docs.microsoft.com/windows/desktop/tablet/inkdisp-class">InkDisp</a> object renumbers the indices of the remaining strokes in the <b>InkDisp</b> object if the strokes that were deleted do not fall at the end of the <b>InkDisp</b> object's collection of strokes.
+The <a href="/windows/desktop/tablet/inkdisp-class">InkDisp</a> object renumbers the indices of the remaining strokes in the <b>InkDisp</b> object if the strokes that were deleted do not fall at the end of the <b>InkDisp</b> object's collection of strokes.
 
-<div class="alert"><b>Note</b>  The contents of a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)">InkStrokes</a> collection become invalid when strokes that are contained in the collection are deleted from the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkdisp-class">InkDisp</a> object.</div>
+<div class="alert"><b>Note</b>  The contents of a <a href="/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)">InkStrokes</a> collection become invalid when strokes that are contained in the collection are deleted from the <a href="/windows/desktop/tablet/inkdisp-class">InkDisp</a> object.</div>
 <div> </div>
 <b>DeleteStrokes</b> can result in an error if called while the user is actively laying down ink.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkdisp-deletestroke">DeleteStroke Method</a>
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkdisp-deletestroke">DeleteStroke Method</a>
 
 
 
@@ -167,9 +167,8 @@ The <a href="https://docs.microsoft.com/windows/desktop/tablet/inkdisp-class">In
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/tablet/inkdisp-class">InkDisp Class</a>
+<a href="/windows/desktop/tablet/inkdisp-class">InkDisp Class</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)">InkStrokes Collection</a>
-
+<a href="/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)">InkStrokes Collection</a>

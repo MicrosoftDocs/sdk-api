@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The CryptXmlImportPublicKey function imports the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">public key</a> specified by the supplied handle.
+The CryptXmlImportPublicKey function imports the <a href="/windows/desktop/SecGloss/p-gly">public key</a> specified by the supplied handle.
 
 ## -parameters
 
@@ -80,7 +80,7 @@ digest  are used.  When this flag is set, no other registered extensions are loa
 
 ### -param pKeyValue [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/ns-cryptxml-crypt_xml_key_value">CRYPT_XML_KEY_VALUE</a> structure to receive the imported key.
+A pointer to a <a href="/windows/desktop/api/cryptxml/ns-cryptxml-crypt_xml_key_value">CRYPT_XML_KEY_VALUE</a> structure to receive the imported key.
 
 ### -param phKey [out]
 
@@ -91,4 +91,3 @@ A pointer to the handle of the key to import.
 If the function succeeds, the function returns zero.
 
 If the function fails, it returns an <b>HRESULT</b> value that indicates the error.
-

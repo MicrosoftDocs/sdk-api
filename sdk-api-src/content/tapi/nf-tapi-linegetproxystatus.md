@@ -70,14 +70,14 @@ Version number of TAPI to be used.
 ### -param lpLineProxyReqestList
 
 Pointer to a variably sized structure of type 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineproxyrequestlist">LINEPROXYREQUESTLIST</a>. Upon successful completion of the request, this structure is filled with a list of the currently supported proxy requests. Prior to calling 
+<a href="/windows/desktop/api/tapi/ns-tapi-lineproxyrequestlist">LINEPROXYREQUESTLIST</a>. Upon successful completion of the request, this structure is filled with a list of the currently supported proxy requests. Prior to calling 
 <b>lineGetProxyStatus</b>, the application must set the <b>dwTotalSize</b> member of this structure to indicate the amount of memory available to TAPI for returning information. 
 
 
 
 
 <div class="alert"><b>Note</b>  If the size parameters in the structure are not correct, there is a possibility that data could get overwritten. For more information on setting structure sizes, see the 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/memory-allocation">memory allocation</a> topic.</div>
+<a href="/windows/desktop/Tapi/memory-allocation">memory allocation</a> topic.</div>
 <div> </div>
 
 ## -returns
@@ -88,9 +88,8 @@ LINEERR_BADDEVICEID, LINEERR_INCOMPATIBLEAPIVERSION, LINEERR_INVALPARAM, LINEERR
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/about-call-center-controls">About Call Center Controls</a>
+<a href="/windows/desktop/Tapi/about-call-center-controls">About Call Center Controls</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineproxyrequestlist">LINEPROXYREQUESTLIST</a>
-
+<a href="/windows/desktop/api/tapi/ns-tapi-lineproxyrequestlist">LINEPROXYREQUESTLIST</a>

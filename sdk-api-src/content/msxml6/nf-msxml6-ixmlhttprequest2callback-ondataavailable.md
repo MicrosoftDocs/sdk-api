@@ -60,7 +60,7 @@ The initial HTTP request.
 
 ### -param pResponseStream [in, optional]
 
-The response stream being received. The client can call <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-isequentialstream-read">ISequentialStream::Read</a> to begin processing the data, or it can wait until it has received the complete response. This response stream is wrapped in a stream synchronization object that prevents concurrent read and write operations, so the application does not need to implement custom synchronization.
+The response stream being received. The client can call <a href="/windows/desktop/api/objidl/nf-objidl-isequentialstream-read">ISequentialStream::Read</a> to begin processing the data, or it can wait until it has received the complete response. This response stream is wrapped in a stream synchronization object that prevents concurrent read and write operations, so the application does not need to implement custom synchronization.
 
 ## -returns
 
@@ -75,13 +75,12 @@ When this callback function returns  the application can begin processing data f
 
 This callback function must not block and should not be made to perform resource intensive operations such as UI updates.
 
-Custom streams receive a call to <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-isequentialstream-write">ISequentialStream::Write</a> before <b>OnDataAvailable</b> is fired. The client can process data directly from the Write call instead of calling <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-isequentialstream-read">ISequentialStream::Read</a> on the custom stream, and it can rely on the Write call to indicate that new data is available.
+Custom streams receive a call to <a href="/windows/desktop/api/objidl/nf-objidl-isequentialstream-write">ISequentialStream::Write</a> before <b>OnDataAvailable</b> is fired. The client can process data directly from the Write call instead of calling <a href="/windows/desktop/api/objidl/nf-objidl-isequentialstream-read">ISequentialStream::Read</a> on the custom stream, and it can rely on the Write call to indicate that new data is available.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-isequentialstream">ISequentialStream Interface</a>
+<a href="/windows/desktop/api/objidl/nn-objidl-isequentialstream">ISequentialStream Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msxml6/nn-msxml6-ixmlhttprequest2callback">IXMLHTTPRequest2Callback</a>
-
+<a href="/previous-versions/windows/desktop/api/msxml6/nn-msxml6-ixmlhttprequest2callback">IXMLHTTPRequest2Callback</a>

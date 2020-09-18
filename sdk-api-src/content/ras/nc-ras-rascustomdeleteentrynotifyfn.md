@@ -95,33 +95,32 @@ This function should return value <b>ERROR_SUCCESS</b> if successful.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/custom-dialers">Custom Dialers</a>
+<a href="/windows/desktop/RRAS/custom-dialers">Custom Dialers</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ras/nc-ras-rascustomdialfn">RasCustomDial</a>
+<a href="/windows/desktop/api/ras/nc-ras-rascustomdialfn">RasCustomDial</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rasdlg/nc-rasdlg-rascustomdialdlgfn">RasCustomDialDlg</a>
+<a href="/windows/desktop/api/rasdlg/nc-rasdlg-rascustomdialdlgfn">RasCustomDialDlg</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rasdlg/nc-rasdlg-rascustomentrydlgfn">RasCustomEntryDlg</a>
+<a href="/windows/desktop/api/rasdlg/nc-rasdlg-rascustomentrydlgfn">RasCustomEntryDlg</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ras/nc-ras-rascustomhangupfn">RasCustomHangUp</a>
+<a href="/windows/desktop/api/ras/nc-ras-rascustomhangupfn">RasCustomHangUp</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ras/nf-ras-rasdiala">RasDial</a>
+<a href="/windows/desktop/api/ras/nf-ras-rasdiala">RasDial</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/about-remote-access-service">Remote Access Service (RAS) Overview</a>
+<a href="/windows/desktop/RRAS/about-remote-access-service">Remote Access Service (RAS) Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/remote-access-service-functions">Remote Access Service Functions</a>
-
+<a href="/windows/desktop/RRAS/remote-access-service-functions">Remote Access Service Functions</a>

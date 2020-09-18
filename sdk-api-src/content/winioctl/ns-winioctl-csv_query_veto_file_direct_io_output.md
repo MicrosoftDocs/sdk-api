@@ -76,5 +76,4 @@ CSV writes the troubleshooting strings to a diagnostic log that, when filtered, 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/volume-management-structures">Volume Management Structures</a>
-
+<a href="/windows/desktop/FileIO/volume-management-structures">Volume Management Structures</a>

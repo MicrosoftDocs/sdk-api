@@ -107,7 +107,7 @@ For broadcast interfaces (such as Ethernet interfaces) or point-to-point interfa
 ### -param bMemberDelete [in]
 
 Specifies whether the callback was invoked because the 
-<a href="https://docs.microsoft.com/windows/desktop/api/mgm/nf-mgm-mgmaddgroupmembershipentry">MgmAddGroupMembershipEntry</a> was called by a client (the multicast group manager sets this parameter to <b>TRUE</b>), or because an MFE was created or updated (the multicast group manager sets this parameter to <b>FALSE</b>).
+<a href="/windows/desktop/api/mgm/nf-mgm-mgmaddgroupmembershipentry">MgmAddGroupMembershipEntry</a> was called by a client (the multicast group manager sets this parameter to <b>TRUE</b>), or because an MFE was created or updated (the multicast group manager sets this parameter to <b>FALSE</b>).
 
 ### -param pdwTimeout [in, out]
 
@@ -127,7 +127,7 @@ RRAS does not expect the application to return any specific value; any value ret
 ## -remarks
 
 The multicast group manager sets the <i>bMemberDelete</i> parameter to <b>TRUE</b> and invokes this callback if a client calls the 
-<a href="https://docs.microsoft.com/windows/desktop/api/mgm/nf-mgm-mgmdeletegroupmembershipentry">MgmDeleteGroupMembershipEntry</a> function for a (s, g), (*, g), or (*, *) entry (that is, the group membership changes).
+<a href="/windows/desktop/api/mgm/nf-mgm-mgmdeletegroupmembershipentry">MgmDeleteGroupMembershipEntry</a> function for a (s, g), (*, g), or (*, *) entry (that is, the group membership changes).
 
 The multicast group manager sets the <i>bMemberDelete</i> parameter to <b>FALSE</b> if the outgoing interface list for an MFE changes. This change typically occurs for a change in membership for the group corresponding to the MFE.
 
@@ -136,7 +136,7 @@ A multicast routing protocol can use the <i>bMemberDelete</i> parameter to disti
 The action taken by the routing protocol when this callback is received is protocol-specific. The protocol may ignore the callback if the <i>bMemberDelete</i> parameter is set to <b>FALSE</b>, if the protocol specification indicates that this is the correct behavior.
 
 When 
-<a href="https://docs.microsoft.com/windows/desktop/api/mgm/nf-mgm-mgmdeletegroupmembershipentry">MgmDeleteGroupMembershipEntry</a> is called, the multicast group manager uses this callback to notify other multicast group manager clients that there are no more receivers for the specified source and group.
+<a href="/windows/desktop/api/mgm/nf-mgm-mgmdeletegroupmembershipentry">MgmDeleteGroupMembershipEntry</a> is called, the multicast group manager uses this callback to notify other multicast group manager clients that there are no more receivers for the specified source and group.
 
 The multicast group manager uses the following rules to determine when to invoke this callback for wildcard (*, g) joins:
 
@@ -155,5 +155,4 @@ This version of the Multicast Group Manager API supports only wildcard sources (
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mgm/nc-mgm-pmgm_creation_alert_callback">PMGM_CREATION_ALERT_CALLBACK</a>
-
+<a href="/windows/desktop/api/mgm/nc-mgm-pmgm_creation_alert_callback">PMGM_CREATION_ALERT_CALLBACK</a>

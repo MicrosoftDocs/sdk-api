@@ -54,7 +54,7 @@ api_name:
 
 For each product listed by the patch package as eligible to receive the patch, the 
 <b>MsiApplyPatch</b> function invokes an installation and sets the 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/patch">PATCH</a> property to the path of the patch package.
+<a href="/windows/desktop/Msi/patch">PATCH</a> property to the path of the patch package.
 
 ## -parameters
 
@@ -103,7 +103,7 @@ Searches system for products to patch. In this case, <i>szInstallPackage</i> mus
 </dl>
 </td>
 <td width="60%">
-Patch the product specified by <i>szInstallPackage</i>. <i>szInstallPackage</i> is the product code of the instance to patch. This type of installation requires the installer running Windows Server 2003 or Windows XP with SP1. For more information see, <a href="https://docs.microsoft.com/windows/desktop/Msi/installing-multiple-instances-of-products-and-patches">Installing Multiple Instances of Products and Patches</a>.
+Patch the product specified by <i>szInstallPackage</i>. <i>szInstallPackage</i> is the product code of the instance to patch. This type of installation requires the installer running Windows Server 2003 or Windows XP with SP1. For more information see, <a href="/windows/desktop/Msi/installing-multiple-instances-of-products-and-patches">Installing Multiple Instances of Products and Patches</a>.
 
 </td>
 </tr>
@@ -112,8 +112,8 @@ Patch the product specified by <i>szInstallPackage</i>. <i>szInstallPackage</i> 
 ### -param szCommandLine [in]
 
 A null-terminated string that specifies command line property settings. See About 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/about-properties">Properties</a> and 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/setting-public-property-values-on-the-command-line">Setting Public Property Values on the Command Line</a>. See the Remarks section.
+<a href="/windows/desktop/Msi/about-properties">Properties</a> and 
+<a href="/windows/desktop/Msi/setting-public-property-values-on-the-command-line">Setting Public Property Values on the Command Line</a>. See the Remarks section.
 
 ## -returns
 
@@ -174,14 +174,14 @@ The patch package is unsupported.
 </td>
 <td width="60%">
 See 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/error-codes">Error Codes</a>.
+<a href="/windows/desktop/Msi/error-codes">Error Codes</a>.
 
 </td>
 </tr>
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/Msi/initialization-errors">Initialization Error</a></b></dt>
+<dt><b><a href="/windows/desktop/Msi/initialization-errors">Initialization Error</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -195,7 +195,7 @@ An initialization error occurred.
 
 Because the list delimiter for transforms, sources, and patches is a semicolon, this character should not be used for file names or paths.
 
-<div class="alert"><b>Note</b>  <p class="note">You must set the <a href="https://docs.microsoft.com/windows/desktop/Msi/reinstall">REINSTALL</a> property on the command line when applying a <a href="https://docs.microsoft.com/windows/desktop/Msi/small-updates">small update</a> or <a href="https://docs.microsoft.com/windows/desktop/Msi/minor-upgrades">minor upgrade</a> patch. Without this property, the patch is registered on the system but cannot update files.  For patches that do not use a <a href="https://docs.microsoft.com/windows/desktop/Msi/custom-action-type-51">Custom Action Type 51</a> to automatically set the <b>REINSTALL</b> and <a href="https://docs.microsoft.com/windows/desktop/Msi/reinstallmode">REINSTALLMODE</a> properties, the <b>REINSTALL</b> property must be explicitly set with the <i>szCommandLine</i> parameter. Set the <b>REINSTALL</b> property to list the features affected by the patch, or use a practical default setting of "REINSTALL=ALL". The default value of the <b>REINSTALLMODE</b> property is "omus". Beginning with Windows Installer version 3.0, the <b>REINSTALL</b> property is configured by the installer and does not need to be set on the command line.
+<div class="alert"><b>Note</b>  <p class="note">You must set the <a href="/windows/desktop/Msi/reinstall">REINSTALL</a> property on the command line when applying a <a href="/windows/desktop/Msi/small-updates">small update</a> or <a href="/windows/desktop/Msi/minor-upgrades">minor upgrade</a> patch. Without this property, the patch is registered on the system but cannot update files.  For patches that do not use a <a href="/windows/desktop/Msi/custom-action-type-51">Custom Action Type 51</a> to automatically set the <b>REINSTALL</b> and <a href="/windows/desktop/Msi/reinstallmode">REINSTALLMODE</a> properties, the <b>REINSTALL</b> property must be explicitly set with the <i>szCommandLine</i> parameter. Set the <b>REINSTALL</b> property to list the features affected by the patch, or use a practical default setting of "REINSTALL=ALL". The default value of the <b>REINSTALLMODE</b> property is "omus". Beginning with Windows Installer version 3.0, the <b>REINSTALL</b> property is configured by the installer and does not need to be set on the command line.
 
 </div>
 <div> </div>
@@ -208,17 +208,16 @@ Because the list delimiter for transforms, sources, and patches is a semicolon, 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/error-codes">Error Codes</a>
+<a href="/windows/desktop/Msi/error-codes">Error Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/initialization-errors">Initialization Error</a>
+<a href="/windows/desktop/Msi/initialization-errors">Initialization Error</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/multiple-package-installations">Multiple-Package Installations</a>
+<a href="/windows/desktop/Msi/multiple-package-installations">Multiple-Package Installations</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/not-supported-in-windows-installer-version-2-0">Not Supported in Windows Installer 2.0 and earlier</a>
-
+<a href="/windows/desktop/Msi/not-supported-in-windows-installer-version-2-0">Not Supported in Windows Installer 2.0 and earlier</a>

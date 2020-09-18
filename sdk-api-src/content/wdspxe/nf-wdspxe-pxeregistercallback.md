@@ -57,7 +57,7 @@ Registers callback functions for different notification events.
 ### -param hProvider [in]
 
 <b>HANDLE</b> passed to the 
-      <a href="https://docs.microsoft.com/windows/desktop/Wds/pxeproviderinitialize">PxeProviderInitialize</a> function.
+      <a href="/windows/desktop/Wds/pxeproviderinitialize">PxeProviderInitialize</a> function.
 
 ### -param CallbackType [in]
 
@@ -75,9 +75,9 @@ Specifies the callback that is being registered.
 </dl>
 </td>
 <td width="60%">
-Register the <a href="https://docs.microsoft.com/windows/desktop/Wds/pxeproviderrecvrequest">PxeProviderRecvRequest</a> 
+Register the <a href="/windows/desktop/Wds/pxeproviderrecvrequest">PxeProviderRecvRequest</a> 
         callback. This callback must be registered while the provider is processing the 
-        <a href="https://docs.microsoft.com/windows/desktop/Wds/pxeproviderinitialize">PxeProviderInitialize</a> function or the 
+        <a href="/windows/desktop/Wds/pxeproviderinitialize">PxeProviderInitialize</a> function or the 
         provider will be shut down.
 
 </td>
@@ -89,9 +89,9 @@ Register the <a href="https://docs.microsoft.com/windows/desktop/Wds/pxeprovider
 </dl>
 </td>
 <td width="60%">
-Register the <a href="https://docs.microsoft.com/windows/desktop/Wds/pxeprovidershutdown">PxeProviderShutdown</a> 
+Register the <a href="/windows/desktop/Wds/pxeprovidershutdown">PxeProviderShutdown</a> 
         callback. This callback must be registered while the provider is processing the 
-        <a href="https://docs.microsoft.com/windows/desktop/Wds/pxeproviderinitialize">PxeProviderInitialize</a> function or the 
+        <a href="/windows/desktop/Wds/pxeproviderinitialize">PxeProviderInitialize</a> function or the 
         provider will be shut down.
 
 </td>
@@ -104,7 +104,7 @@ Register the <a href="https://docs.microsoft.com/windows/desktop/Wds/pxeprovider
 </td>
 <td width="60%">
 Register the 
-        <a href="https://docs.microsoft.com/windows/desktop/Wds/pxeproviderservicecontrol">PxeProviderServiceControl</a> callback.
+        <a href="/windows/desktop/Wds/pxeproviderservicecontrol">PxeProviderServiceControl</a> callback.
 
 </td>
 </tr>
@@ -137,21 +137,20 @@ If the function succeeds, the return value is <b>ERROR_SUCCESS</b>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Wds/pxeproviderinitialize">PxeProviderInitialize</a>
+<a href="/windows/desktop/Wds/pxeproviderinitialize">PxeProviderInitialize</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Wds/pxeproviderrecvrequest">PxeProviderRecvRequest</a>
+<a href="/windows/desktop/Wds/pxeproviderrecvrequest">PxeProviderRecvRequest</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Wds/pxeproviderservicecontrol">PxeProviderServiceControl</a>
+<a href="/windows/desktop/Wds/pxeproviderservicecontrol">PxeProviderServiceControl</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Wds/pxeprovidershutdown">PxeProviderShutdown</a>
+<a href="/windows/desktop/Wds/pxeprovidershutdown">PxeProviderShutdown</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Wds/windows-deployment-services-server-functions">Windows Deployment Services Server Functions</a>
-
+<a href="/windows/desktop/Wds/windows-deployment-services-server-functions">Windows Deployment Services Server Functions</a>

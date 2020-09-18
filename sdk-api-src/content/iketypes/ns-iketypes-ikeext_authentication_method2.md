@@ -53,7 +53,7 @@ api_name:
 ## -description
 
 The <b>IKEEXT_AUTHENTICATION_METHOD2</b> structure specifies various parameters for IKE/Authip authentication.
-[IKEEXT_AUTHENTICATION_METHOD0](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_authentication_method0)  is available.</div><div> </div>
+[IKEEXT_AUTHENTICATION_METHOD0](/windows/desktop/api/iketypes/ns-iketypes-ikeext_authentication_method0)  is available.</div><div> </div>
 
 ## -struct-fields
 
@@ -77,19 +77,19 @@ Type: <b><a href="/windows/win32/api/iketypes/ns-iketypes-ikeext_certificate_aut
 
 ### -field kerberosAuthentication
 
-Type: [IKEEXT_KERBEROS_AUTHENTICATION1](/windows/win32/api/iketypes/ns-iketypes-ikeext_certificate_authentication1)</b>
+Type: [IKEEXT_KERBEROS_AUTHENTICATION1](./ns-iketypes-ikeext_certificate_authentication1.md)</b>
 
  Available when <b>authenticationMethodType</b> is <b>IKEEXT_KERBEROS</b>.
 
 ### -field reservedAuthentication
 
-Type: [IKEEXT_RESERVED_AUTHENTICATION0](/windows/win32/api/iketypes/ns-iketypes-ikeext_eap_authentication0)</b>
+Type: [IKEEXT_RESERVED_AUTHENTICATION0](./ns-iketypes-ikeext_eap_authentication0.md)</b>
 
 Available when <b>authenticationMethodType</b> is <b>IKEEXT_RESERVED</b>.
 
 ### -field ntlmV2Authentication
 
-Type: [IKEEXT_NTLM_V2_AUTHENTICATION0](/windows/win32/api/iketypes/ns-iketypes-ikeext_eap_authentication0)</b>
+Type: [IKEEXT_NTLM_V2_AUTHENTICATION0](./ns-iketypes-ikeext_eap_authentication0.md)</b>
 
 Available when <b>authenticationMethodType</b> is <b>IKEEXT_NTLM_V2</b>.
 
@@ -101,17 +101,16 @@ Available when <b>authenticationMethodType</b> is <b>IKEEXT_SSL</b>, <b>IKEEXT_S
 
 ### -field cgaAuthentication
 
-Type: [IKEEXT_IPV6_CGA_AUTHENTICATION0](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_ipv6_cga_authentication0)</b>
+Type: [IKEEXT_IPV6_CGA_AUTHENTICATION0](/windows/desktop/api/iketypes/ns-iketypes-ikeext_ipv6_cga_authentication0)</b>
 
 Available when <b>authenticationMethodType</b> is <b>IKEEXT_IPV6_CGA</b>.
 
 ### -field eapAuthentication
 
-Type: [IKEEXT_EAP_AUTHENTICATION0](/windows/win32/api/iketypes/ns-iketypes-ikeext_eap_authentication0)</b>
+Type: [IKEEXT_EAP_AUTHENTICATION0](./ns-iketypes-ikeext_eap_authentication0.md)</b>
 
 Available when <b>authenticationMethodType</b> is <b>IKEEXT_EAP</b>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>
-
+<a href="/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>

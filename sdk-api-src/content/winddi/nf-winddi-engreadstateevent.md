@@ -56,7 +56,7 @@ The <b>EngReadStateEvent</b> function returns the current state of the specified
 
 ### -param pEvent [in]
 
-Pointer to the event object returned by a previous call to <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engcreateevent">EngCreateEvent</a> or <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engmapevent">EngMapEvent</a>.
+Pointer to the event object returned by a previous call to <a href="/windows/desktop/api/winddi/nf-winddi-engcreateevent">EngCreateEvent</a> or <a href="/windows/desktop/api/winddi/nf-winddi-engmapevent">EngMapEvent</a>.
 
 ## -returns
 
@@ -64,9 +64,8 @@ Pointer to the event object returned by a previous call to <a href="https://docs
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engcreateevent">EngCreateEvent</a>
+<a href="/windows/desktop/api/winddi/nf-winddi-engcreateevent">EngCreateEvent</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engmapevent">EngMapEvent</a>
-
+<a href="/windows/desktop/api/winddi/nf-winddi-engmapevent">EngMapEvent</a>

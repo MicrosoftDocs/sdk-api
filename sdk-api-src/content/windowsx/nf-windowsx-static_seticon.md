@@ -50,19 +50,18 @@ api_name:
 
 ## -description
 
-Sets the icon for a static control. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/stm-seticon">STM_SETICON</a> message explicitly.
+Sets the icon for a static control. You can use this macro or send the <a href="/windows/desktop/Controls/stm-seticon">STM_SETICON</a> message explicitly.
 
 ## -parameters
 
 ### -param hwndCtl
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the control.
 
 ### -param hIcon
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HICON</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HICON</a></b>
 
 a handle to the icon.
-

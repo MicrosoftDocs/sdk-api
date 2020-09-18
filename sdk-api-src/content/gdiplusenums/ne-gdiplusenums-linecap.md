@@ -94,7 +94,6 @@ Specifies that the line ends are anchored with arrowheads. The arrowhead point i
 ### -field LineCapCustom
 
 Specifies that the line ends are made from a 
-				<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-customlinecap">CustomLineCap</a>.
+				<a href="/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-customlinecap">CustomLineCap</a>.
 
 ### -field LineCapAnchorMask
-

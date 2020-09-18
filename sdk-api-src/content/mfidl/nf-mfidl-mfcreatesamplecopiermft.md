@@ -56,7 +56,7 @@ Creates an instance of the sample copier transform.
 
 ### -param ppCopierMFT [out]
 
-Receives a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mftransform/nn-mftransform-imftransform">IMFTransform</a> interface. The caller must release the interface.
+Receives a pointer to the <a href="/windows/desktop/api/mftransform/nn-mftransform-imftransform">IMFTransform</a> interface. The caller must release the interface.
 
 ## -returns
 
@@ -67,9 +67,9 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 The sample copier is a Media Foundation transform (MFT) that copies data from input samples to output samples without modifying the data. The following data is copied from the sample:
 
 <ul>
-<li>All <a href="https://docs.microsoft.com/windows/desktop/medfound/sample-attributes">Sample Attributes</a>.</li>
+<li>All <a href="/windows/desktop/medfound/sample-attributes">Sample Attributes</a>.</li>
 <li>The time stamp and duration.</li>
-<li>Sample flags (see <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfsample-setsampleflags">IMFSample::SetSampleFlags</a>).</li>
+<li>Sample flags (see <a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfsample-setsampleflags">IMFSample::SetSampleFlags</a>).</li>
 <li>The data in the media buffers. If the input sample contains multiple buffers, the data is copied into a single buffer on the output sample.</li>
 </ul>
 This MFT is useful in the following situation:
@@ -84,9 +84,8 @@ The following diagram shows this situation with a media source and a media sink.
 
 In order for the media sink to receive data from the media source, the data must be copied into the media samples owned by the media sink. The sample copier can be used for this purpose.
 
-A specific example of such a media sink is the  <a href="https://docs.microsoft.com/windows/desktop/medfound/enhanced-video-renderer">Enhanced Video Renderer</a> (EVR). The EVR allocates samples that contain Direct3D surface buffers, so it cannot receive video samples directly from a media source. Starting in Windows 7, the topology loader automatically handles this case by inserting the sample copier between the media source and the EVR.
+A specific example of such a media sink is the  <a href="/windows/desktop/medfound/enhanced-video-renderer">Enhanced Video Renderer</a> (EVR). The EVR allocates samples that contain Direct3D surface buffers, so it cannot receive video samples directly from a media source. Starting in Windows 7, the topology loader automatically handles this case by inserting the sample copier between the media source and the EVR.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>
-
+<a href="/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>

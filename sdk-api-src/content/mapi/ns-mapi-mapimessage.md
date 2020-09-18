@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-A <b>MapiMessage</b> structure contains information about a message. For Unicode support, use the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mapi/ns-mapi-mapimessagew">MapiMessageW</a> structure.
+A <b>MapiMessage</b> structure contains information about a message. For Unicode support, use the <a href="/previous-versions/windows/desktop/api/mapi/ns-mapi-mapimessagew">MapiMessageW</a> structure.
 
 ## -struct-fields
 
@@ -123,7 +123,7 @@ The message has not been read.
 
 ### -field lpOriginator
 
-Pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mapi/ns-mapi-mapirecipdesc">MapiRecipDesc</a> structure containing information about the sender of the message.
+Pointer to a <a href="/previous-versions/windows/desktop/api/mapi/ns-mapi-mapirecipdesc">MapiRecipDesc</a> structure containing information about the sender of the message.
 
 ### -field nRecipCount
 
@@ -131,7 +131,7 @@ The number of message recipient structures in the array pointed to by the <b>lpR
 
 ### -field lpRecips
 
-Pointer to an array of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mapi/ns-mapi-mapirecipdesc">MapiRecipDesc</a> structures, each containing information about a message recipient.
+Pointer to an array of <a href="/previous-versions/windows/desktop/api/mapi/ns-mapi-mapirecipdesc">MapiRecipDesc</a> structures, each containing information about a message recipient.
 
 ### -field nFileCount
 
@@ -139,25 +139,24 @@ The number of structures describing file attachments in the array pointed to by 
 
 ### -field lpFiles
 
-Pointer to an array of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mapi/ns-mapi-mapifiledesc">MapiFileDesc</a> structures, each containing information about a file attachment.
+Pointer to an array of <a href="/previous-versions/windows/desktop/api/mapi/ns-mapi-mapifiledesc">MapiFileDesc</a> structures, each containing information about a file attachment.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mapi/nc-mapi-mapireadmail">MAPIReadMail</a>
+<a href="/previous-versions/windows/desktop/api/mapi/nc-mapi-mapireadmail">MAPIReadMail</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mapi/nc-mapi-mapisavemail">MAPISaveMail</a>
+<a href="/previous-versions/windows/desktop/api/mapi/nc-mapi-mapisavemail">MAPISaveMail</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mapi/nc-mapi-mapisendmail">MAPISendMail</a>
+<a href="/previous-versions/windows/desktop/api/mapi/nc-mapi-mapisendmail">MAPISendMail</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mapi/nc-mapi-mapisendmailw">MAPISendMailW</a>
+<a href="/previous-versions/windows/desktop/api/mapi/nc-mapi-mapisendmailw">MAPISendMailW</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mapi/ns-mapi-mapimessagew">MapiMessageW</a>
-
+<a href="/previous-versions/windows/desktop/api/mapi/ns-mapi-mapimessagew">MapiMessageW</a>

@@ -58,10 +58,10 @@ api_name:
 
 Restores file system redirection for the calling thread.
 
-This function should not be called without a previous call to the <a href="https://docs.microsoft.com/windows/desktop/api/wow64apiset/nf-wow64apiset-wow64disablewow64fsredirection">Wow64DisableWow64FsRedirection</a>function.
+This function should not be called without a previous call to the <a href="/windows/desktop/api/wow64apiset/nf-wow64apiset-wow64disablewow64fsredirection">Wow64DisableWow64FsRedirection</a>function.
 
 Any data allocation on behalf of the 
-      <a href="https://docs.microsoft.com/windows/desktop/api/wow64apiset/nf-wow64apiset-wow64disablewow64fsredirection">Wow64DisableWow64FsRedirection</a> 
+      <a href="/windows/desktop/api/wow64apiset/nf-wow64apiset-wow64disablewow64fsredirection">Wow64DisableWow64FsRedirection</a> 
       function is cleaned up by this function.
 
 ## -parameters
@@ -76,7 +76,7 @@ TBD
 #### - OldValue [in]
 
 The WOW64 file system redirection value. This value is obtained from the 
-      <a href="https://docs.microsoft.com/windows/desktop/api/wow64apiset/nf-wow64apiset-wow64disablewow64fsredirection">Wow64DisableWow64FsRedirection</a> 
+      <a href="/windows/desktop/api/wow64apiset/nf-wow64apiset-wow64disablewow64fsredirection">Wow64DisableWow64FsRedirection</a> 
       function.
 
 ## -returns
@@ -84,13 +84,13 @@ The WOW64 file system redirection value. This value is obtained from the
 If the function succeeds, the return value is a nonzero value.
 
 If the function fails, the return value is <b>FALSE</b> (zero). To get extended error 
-       information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+       information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/wow64apiset/nf-wow64apiset-wow64disablewow64fsredirection">Wow64DisableWow64FsRedirection</a>/<b>Wow64RevertWow64FsRedirection</b> function pair is a replacement for the functionality of the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-wow64enablewow64fsredirection">Wow64EnableWow64FsRedirection</a> function.
+The <a href="/windows/desktop/api/wow64apiset/nf-wow64apiset-wow64disablewow64fsredirection">Wow64DisableWow64FsRedirection</a>/<b>Wow64RevertWow64FsRedirection</b> function pair is a replacement for the functionality of the <a href="/windows/desktop/api/winbase/nf-winbase-wow64enablewow64fsredirection">Wow64EnableWow64FsRedirection</a> function.
 
-To disable file system redirection, call the [Wow64DisableWow64FsRedirection](https://docs.microsoft.com/windows/desktop/api/wow64apiset/nf-wow64apiset-wow64disablewow64fsredirection) function. Every call to the **Wow64DisableWow64FsRedirection** function must have a matching call to the  **Wow64RevertWow64FsRedirection** function. This will ensure redirection is re-enabled and frees associated system resources.
+To disable file system redirection, call the [Wow64DisableWow64FsRedirection](/windows/desktop/api/wow64apiset/nf-wow64apiset-wow64disablewow64fsredirection) function. Every call to the **Wow64DisableWow64FsRedirection** function must have a matching call to the  **Wow64RevertWow64FsRedirection** function. This will ensure redirection is re-enabled and frees associated system resources.
 
 In Windows 8 and Windows Server 2012, this function is supported by the following technologies.
 
@@ -156,24 +156,23 @@ No
 #### Examples
 
 For an example, see the 
-     <a href="https://docs.microsoft.com/windows/desktop/api/wow64apiset/nf-wow64apiset-wow64disablewow64fsredirection">Wow64DisableWow64FsRedirection</a> 
+     <a href="/windows/desktop/api/wow64apiset/nf-wow64apiset-wow64disablewow64fsredirection">Wow64DisableWow64FsRedirection</a> 
      function.
 
 <div class="code"></div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/file-management-functions">File Management Functions</a>
+<a href="/windows/desktop/FileIO/file-management-functions">File Management Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WinProg64/file-system-redirector">File System Redirector</a>
+<a href="/windows/desktop/WinProg64/file-system-redirector">File System Redirector</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wow64apiset/nf-wow64apiset-wow64disablewow64fsredirection">Wow64DisableWow64FsRedirection</a>
+<a href="/windows/desktop/api/wow64apiset/nf-wow64apiset-wow64disablewow64fsredirection">Wow64DisableWow64FsRedirection</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-wow64enablewow64fsredirection">Wow64EnableWow64FsRedirection</a>
-
+<a href="/windows/desktop/api/winbase/nf-winbase-wow64enablewow64fsredirection">Wow64EnableWow64FsRedirection</a>

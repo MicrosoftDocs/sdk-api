@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>ICQueryConfigure</b> macro queries a video compression driver to determine if it has a configuration dialog box. You can use this macro or explicitly send the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/icm-configure">ICM_CONFIGURE</a> message.
+The <b>ICQueryConfigure</b> macro queries a video compression driver to determine if it has a configuration dialog box. You can use this macro or explicitly send the <a href="/windows/desktop/Multimedia/icm-configure">ICM_CONFIGURE</a> message.
 
 ## -parameters
 
@@ -60,13 +60,12 @@ Handle of the compressor.
 
 ## -remarks
 
-This message is different from the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/drv-configure">DRV_CONFIGURE</a> message used for hardware configuration. The dialog box for this message should let the user set and edit the internal state referenced by the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/icm-getstate">ICM_GETSTATE</a> and <a href="https://docs.microsoft.com/windows/desktop/Multimedia/icm-setstate">ICM_SETSTATE</a> messages. For example, this dialog box can let the user change parameters affecting the quality level and other similar compression options.
+This message is different from the <a href="/windows/desktop/Multimedia/drv-configure">DRV_CONFIGURE</a> message used for hardware configuration. The dialog box for this message should let the user set and edit the internal state referenced by the <a href="/windows/desktop/Multimedia/icm-getstate">ICM_GETSTATE</a> and <a href="/windows/desktop/Multimedia/icm-setstate">ICM_SETSTATE</a> messages. For example, this dialog box can let the user change parameters affecting the quality level and other similar compression options.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-compression-macros">Video Compression Macros</a>
+<a href="/windows/desktop/Multimedia/video-compression-macros">Video Compression Macros</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-compression-manager">Video Compression Manager</a>
-
+<a href="/windows/desktop/Multimedia/video-compression-manager">Video Compression Manager</a>

@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Creates an  <a href="https://docs.microsoft.com/windows/desktop/api/wsmandisp/nn-wsmandisp-iwsmanconnectionoptions">IWSManConnectionOptions</a> object that specifies the user name and password used when  creating a session.
+Creates an  <a href="/windows/desktop/api/wsmandisp/nn-wsmandisp-iwsmanconnectionoptions">IWSManConnectionOptions</a> object that specifies the user name and password used when  creating a session.
 
 ## -parameters
 
 ### -param connectionOptions [out]
 
-A pointer to a new <a href="https://docs.microsoft.com/windows/desktop/api/wsmandisp/nn-wsmandisp-iwsmanconnectionoptions">IWSManConnectionOptions</a> object.
+A pointer to a new <a href="/windows/desktop/api/wsmandisp/nn-wsmandisp-iwsmanconnectionoptions">IWSManConnectionOptions</a> object.
 
 ## -returns
 
@@ -64,9 +64,8 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wsmandisp/nn-wsmandisp-iwsman">IWSMan</a>
+<a href="/windows/desktop/api/wsmandisp/nn-wsmandisp-iwsman">IWSMan</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WinRM/wsman-createconnectionoptions">WSMan.CreateConnectionOptions</a>
-
+<a href="/windows/desktop/WinRM/wsman-createconnectionoptions">WSMan.CreateConnectionOptions</a>

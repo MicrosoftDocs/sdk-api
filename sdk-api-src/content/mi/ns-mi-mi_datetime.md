@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-Represents a union of <a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_timestamp">MI_Timestamp</a> and <a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_interval">MI_Interval</a>.
+Represents a union of <a href="/windows/desktop/api/mi/ns-mi-mi_timestamp">MI_Timestamp</a> and <a href="/windows/desktop/api/mi/ns-mi-mi_interval">MI_Interval</a>.
 
 ## -struct-fields
 
@@ -69,4 +69,3 @@ If <b>isTimestamp</b> is nonzero, <b>MI_Datetime</b> is used to represent an abs
 ### -field u.interval
 
 If <b>isTimestamp</b> is nonzero,  <b>MI_Datetime</b> is used to represent a relative date/time from when it is needed.
-

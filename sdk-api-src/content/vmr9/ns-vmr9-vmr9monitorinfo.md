@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-The <code>VMR9MonitorInfo</code> structure is used with the VMR-9 in the <a href="https://docs.microsoft.com/windows/desktop/api/vmr9/nf-vmr9-ivmrmonitorconfig9-getavailablemonitors">IVMRMonitorConfig9::GetAvailableMonitors</a> method to set and retrieve information about monitors on the system.
+The <code>VMR9MonitorInfo</code> structure is used with the VMR-9 in the <a href="/windows/desktop/api/vmr9/nf-vmr9-ivmrmonitorconfig9-getavailablemonitors">IVMRMonitorConfig9::GetAvailableMonitors</a> method to set and retrieve information about monitors on the system.
 
 ## -struct-fields
 
@@ -70,7 +70,7 @@ Handle to the monitor.
 
 ### -field dwFlags
 
-Flags as defined for the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-monitorinfoexa">MONITORINFOEX</a> structure. Currently the only valid flag is <b>MONITORINFOF_PRIMARY</b>, which indicates the primary display monitor.
+Flags as defined for the <a href="/windows/desktop/api/winuser/ns-winuser-monitorinfoexa">MONITORINFOEX</a> structure. Currently the only valid flag is <b>MONITORINFOF_PRIMARY</b>, which indicates the primary display monitor.
 
 ### -field szDevice
 
@@ -106,5 +106,4 @@ This structure is used to configure monitors on multi-monitor systems.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/directshow-structures">DirectShow Structures</a>
-
+<a href="/windows/desktop/DirectShow/directshow-structures">DirectShow Structures</a>

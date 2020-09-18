@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-The <b>DRT_MATCH_TYPE</b> enumeration defines the exactness of a search result returned by <a href="https://docs.microsoft.com/windows/desktop/api/drt/nf-drt-drtgetsearchresult">DrtGetSearchResult</a> after initiating  a search with the <a href="https://docs.microsoft.com/windows/desktop/api/drt/nf-drt-drtstartsearch">DrtStartSearch</a> API.
+The <b>DRT_MATCH_TYPE</b> enumeration defines the exactness of a search result returned by <a href="/windows/desktop/api/drt/nf-drt-drtgetsearchresult">DrtGetSearchResult</a> after initiating  a search with the <a href="/windows/desktop/api/drt/nf-drt-drtstartsearch">DrtStartSearch</a> API.
 
 ## -enum-fields
 
@@ -70,9 +70,8 @@ The node returned is  an intermediate node. An application will  receive this no
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/drt/nf-drt-drtgetsearchresult">DrtGetSearchResult</a>
+<a href="/windows/desktop/api/drt/nf-drt-drtgetsearchresult">DrtGetSearchResult</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/drt/nf-drt-drtstartsearch">DrtStartSearch</a>
-
+<a href="/windows/desktop/api/drt/nf-drt-drtstartsearch">DrtStartSearch</a>

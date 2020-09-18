@@ -56,8 +56,8 @@ The <b>SharpenParams</b> structure contains members that specify the nature of a
 You can adjust the sharpness of a bitmap by following these steps. 
 <ol>
 <li>Create and initialize a <b>SharpenParams</b> structure.</li>
-<li>Pass the address of the <b>SharpenParams</b> structure to the <a href="https://docs.microsoft.com/windows/desktop/api/gdipluseffects/nf-gdipluseffects-sharpen-setparameters">Sharpen::SetParameters</a> method of a <a href="https://docs.microsoft.com/windows/desktop/api/gdipluseffects/nl-gdipluseffects-sharpen">Sharpen</a> object.</li>
-<li>Pass the address of the <a href="https://docs.microsoft.com/windows/desktop/api/gdipluseffects/nl-gdipluseffects-sharpen">Sharpen</a> object to the <a href="https://docs.microsoft.com/previous-versions/ms536058(v=vs.85)">Graphics::DrawImage</a> method or to the <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-bitmap-applyeffect(inbitmap_inint_ineffect_inrect_outrect_outbitmap)">Bitmap::ApplyEffect</a> method.</li>
+<li>Pass the address of the <b>SharpenParams</b> structure to the <a href="/windows/desktop/api/gdipluseffects/nf-gdipluseffects-sharpen-setparameters">Sharpen::SetParameters</a> method of a <a href="/windows/desktop/api/gdipluseffects/nl-gdipluseffects-sharpen">Sharpen</a> object.</li>
+<li>Pass the address of the <a href="/windows/desktop/api/gdipluseffects/nl-gdipluseffects-sharpen">Sharpen</a> object to the <a href="/previous-versions/ms536058(v=vs.85)">Graphics::DrawImage</a> method or to the <a href="/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-bitmap-applyeffect(inbitmap_inint_ineffect_inrect_outrect_outbitmap)">Bitmap::ApplyEffect</a> method.</li>
 </ol>
 
 ## -struct-fields
@@ -73,4 +73,3 @@ Real number that specifies the sharpening radius (the radius of the convolution 
 Type: <b>REAL</b>
 
 Real number in the range 0 through 100 that specifies the amount of sharpening to be applied. A value of 0 specifies no sharpening. As the value of <b>amount</b> increases, the sharpness increases.
-

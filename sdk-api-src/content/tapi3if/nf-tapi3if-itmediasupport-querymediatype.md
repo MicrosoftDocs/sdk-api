@@ -52,13 +52,13 @@ api_name:
 
 The 
 <b>QueryMediaType</b> method indicates whether the service provider associated with the current address supports the 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/tapimediatype--constants">media type</a> or types indicated by <i>lMediaType</i>.
+<a href="/windows/desktop/Tapi/tapimediatype--constants">media type</a> or types indicated by <i>lMediaType</i>.
 
 ## -parameters
 
 ### -param lMediaType [in]
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/tapimediatype--constants">Media type</a> or types being queried.
+<a href="/windows/desktop/Tapi/tapimediatype--constants">Media type</a> or types being queried.
 
 ### -param pfSupport [out]
 
@@ -110,9 +110,8 @@ Insufficient memory exists to perform the operation.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/address-object">Address Object</a>
+<a href="/windows/desktop/Tapi/address-object">Address Object</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itmediasupport">ITMediaSupport</a>
-
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itmediasupport">ITMediaSupport</a>

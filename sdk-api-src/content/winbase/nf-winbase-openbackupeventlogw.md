@@ -53,7 +53,7 @@ api_name:
 
 ## -description
 
-Opens a handle to a backup event log created by the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-backupeventloga">BackupEventLog</a> function.
+Opens a handle to a backup event log created by the <a href="/windows/desktop/api/winbase/nf-winbase-backupeventloga">BackupEventLog</a> function.
 
 ## -parameters
 
@@ -71,7 +71,7 @@ If the function succeeds, the return value is a handle to the backup event log.
 						
 
 If the function fails, the return value is <b>NULL</b>. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
@@ -88,9 +88,8 @@ When this function is used on Windows Vista and later computers, only backup ev
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-backupeventloga">BackupEventLog</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-backupeventloga">BackupEventLog</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/EventLog/event-logging-functions">Event Logging Functions</a>
-
+<a href="/windows/desktop/EventLog/event-logging-functions">Event Logging Functions</a>

@@ -84,9 +84,8 @@ A pointer to a NULL-terminated, wide-character string that identifies the sensor
 
 ## -remarks
 
- Drivers use the <b>THERMAL_EVENT</b> structure to specify a thermal event. By calling the <a href="https://docs.microsoft.com/windows/desktop/api/powrprof/nf-powrprof-powerreportthermalevent">PowerReportThermalEvent</a> routine, the operating system can record the thermal event in the system event log.
+ Drivers use the <b>THERMAL_EVENT</b> structure to specify a thermal event. By calling the <a href="/windows/desktop/api/powrprof/nf-powrprof-powerreportthermalevent">PowerReportThermalEvent</a> routine, the operating system can record the thermal event in the system event log.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/dn915117(v=vs.85)">Thermal management in Windows</a>
-
+<a href="/previous-versions/dn915117(v=vs.85)">Thermal management in Windows</a>

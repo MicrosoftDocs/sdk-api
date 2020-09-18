@@ -87,9 +87,8 @@ The value is the maximum elapsed time that the job can spend in the CONNECTING o
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits3_0/nn-bits3_0-ibackgroundcopyjob4">IBackgroundCopyJob4</a>
+<a href="/windows/desktop/api/bits3_0/nn-bits3_0-ibackgroundcopyjob4">IBackgroundCopyJob4</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits3_0/nf-bits3_0-ibackgroundcopyjob4-setmaximumdownloadtime">IBackgroundCopyJob4::SetMaximumDownloadTime</a>
-
+<a href="/windows/desktop/api/bits3_0/nf-bits3_0-ibackgroundcopyjob4-setmaximumdownloadtime">IBackgroundCopyJob4::SetMaximumDownloadTime</a>

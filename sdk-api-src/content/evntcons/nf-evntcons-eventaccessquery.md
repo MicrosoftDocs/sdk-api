@@ -96,15 +96,14 @@ The buffer is too small to receive the security descriptor. Reallocate the buffe
 
 ## -remarks
 
-If the GUID does not exist in the registry, ETW returns the default permissions for a provider or controller. For details on specifying the GUID in the registry, see <a href="https://docs.microsoft.com/windows/desktop/api/evntcons/nf-evntcons-eventaccesscontrol">EventAccessControl</a>.
+If the GUID does not exist in the registry, ETW returns the default permissions for a provider or controller. For details on specifying the GUID in the registry, see <a href="/windows/desktop/api/evntcons/nf-evntcons-eventaccesscontrol">EventAccessControl</a>.
 
-For information on accessing the components of the security descriptor, see <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/getting-information-from-an-acl">Getting Information from an ACL</a>, the <a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-getsecuritydescriptordacl">GetSecurityDescriptorDacl</a>, <a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-getsecuritydescriptorsacl">GetSecurityDescriptorSacl</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-getace">GetAce</a> functions, and the <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/ace">ACE</a> structure.
+For information on accessing the components of the security descriptor, see <a href="/windows/desktop/SecAuthZ/getting-information-from-an-acl">Getting Information from an ACL</a>, the <a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-getsecuritydescriptordacl">GetSecurityDescriptorDacl</a>, <a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-getsecuritydescriptorsacl">GetSecurityDescriptorSacl</a>, and <a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-getace">GetAce</a> functions, and the <a href="/windows/desktop/SecAuthZ/ace">ACE</a> structure.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/evntcons/nf-evntcons-eventaccesscontrol">EventAccessControl</a>
+<a href="/windows/desktop/api/evntcons/nf-evntcons-eventaccesscontrol">EventAccessControl</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/evntcons/nf-evntcons-eventaccessremove">EventAccessRemove</a>
-
+<a href="/windows/desktop/api/evntcons/nf-evntcons-eventaccessremove">EventAccessRemove</a>

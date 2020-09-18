@@ -64,17 +64,16 @@ The number of 100-nanosecond intervals that have elapsed since 12:00:00 midnight
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/windows.foundation/nf-windows-foundation-ipropertyvaluestatics-createdatetime">CreateDateTime</a>
+<a href="/windows/desktop/api/windows.foundation/nf-windows-foundation-ipropertyvaluestatics-createdatetime">CreateDateTime</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/windows.foundation/nf-windows-foundation-ipropertyvaluestatics-createdatetimearray">CreateDateTimeArray</a>
+<a href="/windows/desktop/api/windows.foundation/nf-windows-foundation-ipropertyvaluestatics-createdatetimearray">CreateDateTimeArray</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/windows.foundation/nf-windows-foundation-ipropertyvalue-getdatetime">IPropertyValue::GetDateTime</a>
+<a href="/windows/desktop/api/windows.foundation/nf-windows-foundation-ipropertyvalue-getdatetime">IPropertyValue::GetDateTime</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/windows.foundation/nf-windows-foundation-ipropertyvalue-getdatetimearray">IPropertyValue::GetDateTimeArray</a>
-
+<a href="/windows/desktop/api/windows.foundation/nf-windows-foundation-ipropertyvalue-getdatetimearray">IPropertyValue::GetDateTimeArray</a>

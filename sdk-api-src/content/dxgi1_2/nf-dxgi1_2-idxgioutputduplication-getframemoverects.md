@@ -62,7 +62,7 @@ The size in bytes of the buffer that the caller passed to the  <i>pMoveRectBuffe
 ### -param pMoveRectBuffer [out]
 
 A pointer to an array of 
-       <a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_2/ns-dxgi1_2-dxgi_outdupl_move_rect">DXGI_OUTDUPL_MOVE_RECT</a> structures 
+       <a href="/windows/desktop/api/dxgi1_2/ns-dxgi1_2-dxgi_outdupl_move_rect">DXGI_OUTDUPL_MOVE_RECT</a> structures 
        that identifies the moved rectangle regions for the desktop frame.
 
 ### -param pMoveRectsBufferSizeRequired [out]
@@ -85,7 +85,7 @@ For more information about returning the required buffer size, see Remarks.
 <li>Mode change</li>
 <li>Switch from DWM on, DWM off, or other full-screen application</li>
 </ul>In this situation, the application must release the 
-          <a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_2/nn-dxgi1_2-idxgioutputduplication">IDXGIOutputDuplication</a> interface and 
+          <a href="/windows/desktop/api/dxgi1_2/nn-dxgi1_2-idxgioutputduplication">IDXGIOutputDuplication</a> interface and 
           create a new <b>IDXGIOutputDuplication</b> 
           for the new content.</li>
 <li>DXGI_ERROR_MORE_DATA if the buffer that the calling application provided 
@@ -98,7 +98,7 @@ For more information about returning the required buffer size, see Remarks.
           is incorrect; for example, if 
           <i>pMoveRectBuffer</i> is NULL.</li>
 <li>Possibly other error codes that are described in the 
-          <a href="https://docs.microsoft.com/windows/desktop/direct3ddxgi/dxgi-error">DXGI_ERROR</a> topic.</li>
+          <a href="/windows/desktop/direct3ddxgi/dxgi-error">DXGI_ERROR</a> topic.</li>
 </ul>
 
 ## -remarks
@@ -111,7 +111,7 @@ For more information about returning the required buffer size, see Remarks.
 <li><b>GetFrameMoveRects</b> fails with DXGI_ERROR_MORE_DATA because the buffer is not big enough.</li>
 <li><b>GetFrameMoveRects</b> supplies a buffer that is bigger than necessary. The size value returned at <i>pMoveRectsBufferSizeRequired</i> informs the caller how much buffer space was actually used compared to how much buffer space the caller allocated and specified in the  <i>MoveRectsBufferSize</i> parameter.</li>
 </ul>
-The caller can also use the value returned at <i>pMoveRectsBufferSizeRequired</i> to determine the number of <a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_2/ns-dxgi1_2-dxgi_outdupl_move_rect">DXGI_OUTDUPL_MOVE_RECT</a> structures returned.
+The caller can also use the value returned at <i>pMoveRectsBufferSizeRequired</i> to determine the number of <a href="/windows/desktop/api/dxgi1_2/ns-dxgi1_2-dxgi_outdupl_move_rect">DXGI_OUTDUPL_MOVE_RECT</a> structures returned.
 
 The buffer contains the list of move RECTs for the current frame.
 
@@ -120,5 +120,4 @@ The buffer contains the list of move RECTs for the current frame.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_2/nn-dxgi1_2-idxgioutputduplication">IDXGIOutputDuplication</a>
-
+<a href="/windows/desktop/api/dxgi1_2/nn-dxgi1_2-idxgioutputduplication">IDXGIOutputDuplication</a>

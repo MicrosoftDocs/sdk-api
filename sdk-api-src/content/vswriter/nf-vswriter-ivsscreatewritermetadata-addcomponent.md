@@ -58,7 +58,7 @@ The <b>AddComponent</b> method adds a
 
 ### -param ct [in]
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/ne-vswriter-vss_component_type">VSS_COMPONENT_TYPE</a> enumeration value specifying 
+A <a href="/windows/desktop/api/vswriter/ne-vswriter-vss_component_type">VSS_COMPONENT_TYPE</a> enumeration value specifying 
       the type of the component.
 
 <b>Windows Server 2003 and Windows XP:  </b>Before Windows Server 2003 with SP1, this parameter is reserved for system use, and the caller should not override the default value.
@@ -66,7 +66,7 @@ A <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/ne-vswriter-v
 ### -param wszLogicalPath [in]
 
 A pointer to a <b>null</b>-terminated wide character string containing the logical path of the database or file group. 
-      For more information, see <a href="https://docs.microsoft.com/windows/desktop/VSS/logical-pathing-of-components">Logical Pathing of Components</a>.
+      For more information, see <a href="/windows/desktop/VSS/logical-pathing-of-components">Logical Pathing of Components</a>.
 
 A logical path is optional and can be <b>NULL</b>.
 
@@ -116,15 +116,15 @@ A Boolean that indicates whether the component can be optionally backed up (whic
 ### -param bSelectableForRestore [in]
 
 A Boolean that determines whether a component can be individually restored when it has not been 
-      <a href="https://docs.microsoft.com/windows/desktop/VSS/vssgloss-e">explicitly included</a> in 
+      <a href="/windows/desktop/VSS/vssgloss-e">explicitly included</a> in 
       the backup document. If the component was explicitly added to the backup document, it can always be 
       individually selected for restore; in this case, this flag has no meaning. 
       
 
 When <b>true</b>, the component can be restored by itself; when <b>false</b>, the component can be restored only if 
        the entire component set is being restored. (See 
-       <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/ns-vsbackup-vss_componentinfo">VSS_COMPONENTINFO</a> and 
-       <a href="https://docs.microsoft.com/windows/desktop/VSS/working-with-selectability-and-logical-paths">Working with Selectability 
+       <a href="/windows/desktop/api/vsbackup/ns-vsbackup-vss_componentinfo">VSS_COMPONENTINFO</a> and 
+       <a href="/windows/desktop/VSS/working-with-selectability-and-logical-paths">Working with Selectability 
        and Logical Paths</a> for more information).
       
 
@@ -133,7 +133,7 @@ The default value for this parameter is <b>false</b>.
 ### -param dwComponentFlags [in]
 
 A bit mask (or bitwise OR) of members of the 
-      <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/ne-vswriter-vss_component_flags">VSS_COMPONENT_FLAGS</a> enumeration indicating the features that this component supports. 
+      <a href="/windows/desktop/api/vswriter/ne-vswriter-vss_component_flags">VSS_COMPONENT_FLAGS</a> enumeration indicating the features that this component supports. 
       
 
 The default value for this argument is zero.
@@ -189,7 +189,7 @@ The caller is out of memory or other system resources.
 <td width="60%">
 The XML document is not valid. Check the event log for details. 
         For more information, see 
-        <a href="https://docs.microsoft.com/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
+        <a href="/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
 
 </td>
 </tr>
@@ -212,7 +212,7 @@ The object is a duplicate. A component with the same logical path and component 
 </td>
 <td width="60%">
 Unexpected error. The error code is logged in the error log file. For more information, see 
-        <a href="https://docs.microsoft.com/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
+        <a href="/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
 
 <b>Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:  </b>This value is not supported until Windows Server 2008 R2 and Windows 7. E_UNEXPECTED is used instead.
 
@@ -233,10 +233,9 @@ The combination of logical path and name for each component of a given instance 
 <b>AddComponent</b> can be used to 
     add subcomponents—components in which all member files are backed up as a group, but which contain 
     files that can be restored individually. See 
-    <a href="https://docs.microsoft.com/windows/desktop/VSS/working-with-selectability-for-restore-and-subcomponents">Working with 
+    <a href="/windows/desktop/VSS/working-with-selectability-for-restore-and-subcomponents">Working with 
     Selectability for Restore and Subcomponents</a> for more information.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-ivsscreatewritermetadata">IVssCreateWriterMetadata</a>
-
+<a href="/windows/desktop/api/vswriter/nl-vswriter-ivsscreatewritermetadata">IVssCreateWriterMetadata</a>

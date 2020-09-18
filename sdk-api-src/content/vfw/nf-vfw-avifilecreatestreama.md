@@ -76,7 +76,7 @@ Returns zero if successful or an error otherwise. Unless the file has been opene
 
 This function starts a reference count for the new stream.
 
-The argument <i>pfile</i> is a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/vfw/nn-vfw-iavifile">IAVIFile</a> interface. The argument <i>ppavi</i> is a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/vfw/nn-vfw-iavistream">IAVIStream</a> interface.
+The argument <i>pfile</i> is a pointer to an <a href="/windows/desktop/api/vfw/nn-vfw-iavifile">IAVIFile</a> interface. The argument <i>ppavi</i> is a pointer to an <a href="/windows/desktop/api/vfw/nn-vfw-iavistream">IAVIStream</a> interface.
 
 
 
@@ -87,13 +87,12 @@ The argument <i>pfile</i> is a pointer to an <a href="https://docs.microsoft.com
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/avifile-functions">AVIFile Functions</a>
+<a href="/windows/desktop/Multimedia/avifile-functions">AVIFile Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/avifile-functions-and-macros">AVIFile Functions and Macros</a>
+<a href="/windows/desktop/Multimedia/avifile-functions-and-macros">AVIFile Functions and Macros</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vfw/nf-vfw-avistreaminfoa">AVIStreamInfo</a>
-
+<a href="/windows/desktop/api/vfw/nf-vfw-avistreaminfoa">AVIStreamInfo</a>

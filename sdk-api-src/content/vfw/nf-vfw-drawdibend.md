@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>DrawDibEnd</b> function clears the flags and other settings of a DrawDib DC that are set by the <a href="https://docs.microsoft.com/windows/desktop/api/vfw/nf-vfw-drawdibbegin">DrawDibBegin</a> or <a href="https://docs.microsoft.com/windows/desktop/api/vfw/nf-vfw-drawdibdraw">DrawDibDraw</a> functions.
+The <b>DrawDibEnd</b> function clears the flags and other settings of a DrawDib DC that are set by the <a href="/windows/desktop/api/vfw/nf-vfw-drawdibbegin">DrawDibBegin</a> or <a href="/windows/desktop/api/vfw/nf-vfw-drawdibdraw">DrawDibDraw</a> functions.
 
 ## -parameters
 
@@ -64,5 +64,4 @@ Returns <b>TRUE</b> if successful or <b>FALSE</b> otherwise.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/drawdib-functions">DrawDib Functions</a>
-
+<a href="/windows/desktop/Multimedia/drawdib-functions">DrawDib Functions</a>

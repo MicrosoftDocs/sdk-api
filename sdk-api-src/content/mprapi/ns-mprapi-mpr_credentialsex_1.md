@@ -70,13 +70,12 @@ Pointer to the pre-shared key.
 ## -remarks
 
 To a delete a pre-shared key, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradmininterfacesetcredentials">MprAdminInterfaceSetCredentials</a> with the <b>MPR_CREDENTIALSEX_1.dwSize</b> member set to zero.
+<a href="/windows/desktop/api/mprapi/nf-mprapi-mpradmininterfacesetcredentials">MprAdminInterfaceSetCredentials</a> with the <b>MPR_CREDENTIALSEX_1.dwSize</b> member set to zero.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradmininterfacegetcredentialsex">MprAdminInterfaceGetCredentialsEx</a>
+<a href="/windows/desktop/api/mprapi/nf-mprapi-mpradmininterfacegetcredentialsex">MprAdminInterfaceGetCredentialsEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradmininterfacesetcredentialsex">MprAdminInterfaceSetCredentialsEx</a>
-
+<a href="/windows/desktop/api/mprapi/nf-mprapi-mpradmininterfacesetcredentialsex">MprAdminInterfaceSetCredentialsEx</a>

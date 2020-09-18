@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-Used by the <a href="https://docs.microsoft.com/windows/desktop/api/clfsw32/nf-clfsw32-getnextlogarchiveextent">GetNextLogArchiveExtent</a> function to return information about log archive extents.
+Used by the <a href="/windows/desktop/api/clfsw32/nf-clfsw32-getnextlogarchiveextent">GetNextLogArchiveExtent</a> function to return information about log archive extents.
 
 ## -struct-fields
 
@@ -68,13 +68,12 @@ The offset in the container to the last byte of the archive extent.
 
 ### -field infoContainer
 
-The container information structure  that describes the container associated with the archive extent. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/clfs/ns-clfs-cls_container_information">CLFS_CONTAINER_INFORMATION</a>.
+The container information structure  that describes the container associated with the archive extent. For more information, see <a href="/windows/desktop/api/clfs/ns-clfs-cls_container_information">CLFS_CONTAINER_INFORMATION</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clfs/ns-clfs-cls_container_information">CLFS_CONTAINER_INFORMATION</a>
+<a href="/windows/desktop/api/clfs/ns-clfs-cls_container_information">CLFS_CONTAINER_INFORMATION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clfsw32/nf-clfsw32-getnextlogarchiveextent">GetNextLogArchiveExtent</a>
-
+<a href="/windows/desktop/api/clfsw32/nf-clfsw32-getnextlogarchiveextent">GetNextLogArchiveExtent</a>

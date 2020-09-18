@@ -86,27 +86,26 @@ If <b>LineTo</b> succeeds, the current position is set to the specified ending p
 
 #### Examples
 
-For an example, see <a href="https://docs.microsoft.com/windows/desktop/gdi/drawing-markers">Drawing Markers</a>.
+For an example, see <a href="/windows/desktop/gdi/drawing-markers">Drawing Markers</a>.
 
 <div class="code"></div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/line-and-curve-functions">Line and Curve Functions</a>
+<a href="/windows/desktop/gdi/line-and-curve-functions">Line and Curve Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/lines-and-curves">Lines and Curves Overview</a>
+<a href="/windows/desktop/gdi/lines-and-curves">Lines and Curves Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-movetoex">MoveToEx</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-movetoex">MoveToEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-polyline">Polyline</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-polyline">Polyline</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-polylineto">PolylineTo</a>
-
+<a href="/windows/desktop/api/wingdi/nf-wingdi-polylineto">PolylineTo</a>

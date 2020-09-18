@@ -50,17 +50,17 @@ api_name:
 
 ## -description
 
-Copies the content from a Windows runtime property value to a <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structure.
+Copies the content from a Windows runtime property value to a <a href="/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structure.
 
 ## -parameters
 
 ### -param punkPropertyValue [in, optional]
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface from which this function can access the contents of a Windows runtime property value by retrieving and using the <a href="https://docs.microsoft.com/windows/desktop/api/windows.foundation/nn-windows-foundation-ipropertyvalue">Windows::Foundation::IPropertyValue</a> interface.
+A pointer to the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface from which this function can access the contents of a Windows runtime property value by retrieving and using the <a href="/windows/desktop/api/windows.foundation/nn-windows-foundation-ipropertyvalue">Windows::Foundation::IPropertyValue</a> interface.
 
 ### -param ppropvar [out]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structure. When this function returns, the <b>PROPVARIANT</b> contains the converted info.
+Pointer to a <a href="/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structure. When this function returns, the <b>PROPVARIANT</b> contains the converted info.
 
 ## -returns
 
@@ -68,5 +68,4 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/propsys/nf-propsys-propvarianttowinrtpropertyvalue">PropVariantToWinRTPropertyValue</a>
-
+<a href="/windows/desktop/api/propsys/nf-propsys-propvarianttowinrtpropertyvalue">PropVariantToWinRTPropertyValue</a>

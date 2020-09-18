@@ -56,7 +56,7 @@ Sets a deadline by which the work in a work queue must be completed.
 
 ### -param workQueueId [in]
 
-The identifier for the work queue. The identifier is returned by the <a href="https://docs.microsoft.com/windows/desktop/api/rtworkq/nf-rtworkq-rtwqallocateworkqueue">RtwqAllocateWorkQueue</a> function.
+The identifier for the work queue. The identifier is returned by the <a href="/windows/desktop/api/rtworkq/nf-rtworkq-rtwqallocateworkqueue">RtwqAllocateWorkQueue</a> function.
 
 ### -param deadlineInHNS [in]
 
@@ -64,7 +64,7 @@ The identifier for the work queue. The identifier is returned by the <a href="ht
 
 ### -param pRequest [in, out]
 
-Receives a handle to the request that can be used to cancel the request by calling <a href="https://docs.microsoft.com/windows/desktop/api/rtworkq/nf-rtworkq-rtwqcanceldeadline">RtwqCancelDeadline</a>.
+Receives a handle to the request that can be used to cancel the request by calling <a href="/windows/desktop/api/rtworkq/nf-rtworkq-rtwqcanceldeadline">RtwqCancelDeadline</a>.
 
 ## -returns
 
@@ -74,9 +74,8 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 Update a deadline by creating a new deadline and releasing the old one.
 
-Cancel a deadline by calling <a href="https://docs.microsoft.com/windows/desktop/api/rtworkq/nf-rtworkq-rtwqcanceldeadline">RtwqCancelDeadline</a>.
+Cancel a deadline by calling <a href="/windows/desktop/api/rtworkq/nf-rtworkq-rtwqcanceldeadline">RtwqCancelDeadline</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rtworkq/nf-rtworkq-rtwqcanceldeadline">RtwqCancelDeadline</a>
-
+<a href="/windows/desktop/api/rtworkq/nf-rtworkq-rtwqcanceldeadline">RtwqCancelDeadline</a>

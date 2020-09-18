@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-Deprecated. Calls the derived class from the base class on receipt of a <a href="https://docs.microsoft.com/windows/desktop/menurc/wm-command">WM_COMMAND</a> message. The derived class handles the message.
+Deprecated. Calls the derived class from the base class on receipt of a <a href="/windows/desktop/menurc/wm-command">WM_COMMAND</a> message. The derived class handles the message.
 
 ## -parameters
 
@@ -59,7 +59,7 @@ Deprecated. Calls the derived class from the base class on receipt of a <a href=
 
 Type: <b>WPARAM</b>
 
-Additional information taken from the <a href="https://docs.microsoft.com/windows/desktop/menurc/wm-command">WM_COMMAND</a> message. The high-order word specifies the notification code if the message is from a control. If the message is from an accelerator, this value is 1. If the message is from a menu, this value is zero. 
+Additional information taken from the <a href="/windows/desktop/menurc/wm-command">WM_COMMAND</a> message. The high-order word specifies the notification code if the message is from a control. If the message is from an accelerator, this value is 1. If the message is from a menu, this value is zero. 
                     
 
 The low-order word specifies the identifier of the menu item, control, or accelerator.
@@ -68,11 +68,10 @@ The low-order word specifies the identifier of the menu item, control, or accele
 
 Type: <b>LPARAM</b>
 
-Additional information taken from the <a href="https://docs.microsoft.com/windows/desktop/menurc/wm-command">WM_COMMAND</a> message. Handle to the control sending the message if the message is from a control. Otherwise, this parameter is <b>NULL</b>.
+Additional information taken from the <a href="/windows/desktop/menurc/wm-command">WM_COMMAND</a> message. Handle to the control sending the message if the message is from a control. Otherwise, this parameter is <b>NULL</b>.
 
 ## -returns
 
 Type: <b>LRESULT</b>
 
 The return value specifies the result of the command processing; it depends on the command sent.
-

@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-The <b>RM_SENDER_STATS</b> structure provides statistical information for a Reliable Multicast sender session. This structure is used with the <a href="https://docs.microsoft.com/windows/desktop/WinSock/socket-options">RM_SENDER_STATISTICS</a> socket option.
+The <b>RM_SENDER_STATS</b> structure provides statistical information for a Reliable Multicast sender session. This structure is used with the <a href="/windows/desktop/WinSock/socket-options">RM_SENDER_STATISTICS</a> socket option.
 
 ## -struct-fields
 
@@ -136,14 +136,13 @@ Total original data (ODATA) packets sent.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wsrm/ns-wsrm-rm_receiver_stats">RM_RECEIVER_STATS</a>
+<a href="/windows/desktop/api/wsrm/ns-wsrm-rm_receiver_stats">RM_RECEIVER_STATS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WinSock/reliable-multicast-programming--pgm-">Reliable Multicast Programming</a>
+<a href="/windows/desktop/WinSock/reliable-multicast-programming--pgm-">Reliable Multicast Programming</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WinSock/socket-options">Socket
+<a href="/windows/desktop/WinSock/socket-options">Socket
   Options</a>
-

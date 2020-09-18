@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-Deprecated. Used when translating accelerators through <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellbrowser-translateacceleratorsb">TranslateAcceleratorSB</a> and in checking the cycle of focus between the view and the browser's toolbars.
+Deprecated. Used when translating accelerators through <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellbrowser-translateacceleratorsb">TranslateAcceleratorSB</a> and in checking the cycle of focus between the view and the browser's toolbars.
 
 ## -parameters
 
@@ -59,7 +59,7 @@ Deprecated. Used when translating accelerators through <a href="https://docs.mic
 
 Type: <b>LPMSG</b>
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-msg">MSG</a> that contains the keystroke message.
+A pointer to a <a href="/windows/desktop/api/winuser/ns-winuser-msg">MSG</a> that contains the keystroke message.
 
 ### -param itbNext [in]
 
@@ -77,7 +77,7 @@ The ID of the current toolbar with focus, or ITB_VIEW if the view has focus.
 
 Type: <b>LPTOOLBARITEM*</b>
 
-A pointer to a [TOOLBARITEM](/windows/win32/api/shdeprecated/ns-shdeprecated-toolbaritem) structure that represents the toolbar receiving the focus.
+A pointer to a [TOOLBARITEM](./ns-shdeprecated-toolbaritem.md) structure that represents the toolbar receiving the focus.
 
 ### -param phwnd [out]
 
@@ -90,4 +90,3 @@ A pointer to the handle of the window that contains the toolbar.
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-

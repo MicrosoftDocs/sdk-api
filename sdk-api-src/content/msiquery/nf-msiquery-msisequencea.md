@@ -59,7 +59,7 @@ The
 
 ### -param hInstall [in]
 
-Handle to the installation provided to a DLL custom action or obtained through <a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msiopenpackagea">MsiOpenPackage</a>, <a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msiopenpackageexa">MsiOpenPackageEx</a>, or <a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msiopenproducta">MsiOpenProduct</a>.
+Handle to the installation provided to a DLL custom action or obtained through <a href="/windows/desktop/api/msi/nf-msi-msiopenpackagea">MsiOpenPackage</a>, <a href="/windows/desktop/api/msi/nf-msi-msiopenpackageexa">MsiOpenPackageEx</a>, or <a href="/windows/desktop/api/msi/nf-msi-msiopenproducta">MsiOpenProduct</a>.
 
 ### -param szTable [in]
 
@@ -79,15 +79,15 @@ The
 <b>MsiSequence</b> function queries the specified table, ordering the actions by the numbers in the Sequence column. For each row retrieved, an action is executed, provided that any supplied condition expression does not evaluate to FALSE.
 
 An action sequence containing any actions that update the system, such as the 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/installfiles-action">InstallFiles</a> and 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/writeregistryvalues-action">WriteRegistryValues</a> actions, cannot be run by calling 
+<a href="/windows/desktop/Msi/installfiles-action">InstallFiles</a> and 
+<a href="/windows/desktop/Msi/writeregistryvalues-action">WriteRegistryValues</a> actions, cannot be run by calling 
 <b>MsiSequence</b>. The exception to this rule is if 
 <b>MsiSequence</b> is called from a custom action that is scheduled in the 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/installexecutesequence-table">InstallExecuteSequence table</a> between the 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/installinitialize-action">InstallInitialize</a> and 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/installfinalize-action">InstallFinalize actions</a>. Actions that do not update the system, such as 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/appsearch-action">AppSearch</a> or 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/costinitialize-action">CostInitialize</a>, can be called.
+<a href="/windows/desktop/Msi/installexecutesequence-table">InstallExecuteSequence table</a> between the 
+<a href="/windows/desktop/Msi/installinitialize-action">InstallInitialize</a> and 
+<a href="/windows/desktop/Msi/installfinalize-action">InstallFinalize actions</a>. Actions that do not update the system, such as 
+<a href="/windows/desktop/Msi/appsearch-action">AppSearch</a> or 
+<a href="/windows/desktop/Msi/costinitialize-action">CostInitialize</a>, can be called.
 
 
 
@@ -98,5 +98,4 @@ An action sequence containing any actions that update the system, such as the
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/database-functions">Installer Action Functions</a>
-
+<a href="/windows/desktop/Msi/database-functions">Installer Action Functions</a>

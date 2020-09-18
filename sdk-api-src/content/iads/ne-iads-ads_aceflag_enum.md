@@ -54,7 +54,7 @@ api_name:
 
 The <b>ADS_ACEFLAG_ENUM</b> enumeration is used to specify the behavior of an Access Control Entry (ACE) for an Active Directory object.
 
-For more information and possible values for file, file share and registry objects, see the <b>AceFlags</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-ace_header">ACE_HEADER</a> structure.
+For more information and possible values for file, file share and registry objects, see the <b>AceFlags</b> member of the <a href="/windows/desktop/api/winnt/ns-winnt-ace_header">ACE_HEADER</a> structure.
 
 ## -enum-fields
 
@@ -92,13 +92,12 @@ Because VBScript cannot read data from a type library, VBScript applications do 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-enumerations">ADSI Enumerations</a>
+<a href="/windows/desktop/ADSI/adsi-enumerations">ADSI Enumerations</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsobjectoptions">IADsObjectOptions</a>
+<a href="/windows/desktop/api/iads/nn-iads-iadsobjectoptions">IADsObjectOptions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadspathname-set">IADsPathname::Set</a>
-
+<a href="/windows/desktop/api/iads/nf-iads-iadspathname-set">IADsPathname::Set</a>

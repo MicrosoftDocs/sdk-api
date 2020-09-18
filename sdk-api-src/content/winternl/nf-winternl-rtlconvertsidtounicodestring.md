@@ -50,9 +50,9 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[The <b>RtlConvertSidToUnicodeString</b> function is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use the <a href="https://docs.microsoft.com/windows/desktop/api/sddl/nf-sddl-convertsidtostringsida">ConvertSidToStringSid</a> function.]
+<p class="CCE_Message">[The <b>RtlConvertSidToUnicodeString</b> function is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use the <a href="/windows/desktop/api/sddl/nf-sddl-convertsidtostringsida">ConvertSidToStringSid</a> function.]
 
-The <b>RtlConvertSidToUnicodeString</b> function converts a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security identifier</a> (SID) to its Unicode character representation. This function has no associated import library. You must use the <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> and <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> functions to dynamically link to Ntdll.dll.
+The <b>RtlConvertSidToUnicodeString</b> function converts a <a href="/windows/desktop/SecGloss/s-gly">security identifier</a> (SID) to its Unicode character representation. This function has no associated import library. You must use the <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> and <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> functions to dynamically link to Ntdll.dll.
 
 ## -parameters
 
@@ -62,7 +62,7 @@ A pointer to the Unicode character representation of the security identifier.
 
 ### -param Sid [in]
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-sid">SID</a> structure that represents the security identifier.
+A pointer to the <a href="/windows/desktop/api/winnt/ns-winnt-sid">SID</a> structure that represents the security identifier.
 
 ### -param AllocateDestinationString [in]
 
@@ -71,4 +71,3 @@ If <b>TRUE</b>, then  <i>UnicodeString</i> is allocated on behalf of the caller,
 ## -returns
 
 The return value is an  NTSTATUS code. A value of STATUS_SUCCESS (0x00000000L) is returned if the function succeeds.
-

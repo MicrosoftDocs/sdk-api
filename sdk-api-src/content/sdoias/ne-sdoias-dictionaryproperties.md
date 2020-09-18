@@ -71,13 +71,12 @@ The dictionary is the collection of all possible attributes. It includes some at
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-attributeproperties">ATTRIBUTEPROPERTIES</a>
+<a href="/windows/desktop/api/sdoias/ne-sdoias-attributeproperties">ATTRIBUTEPROPERTIES</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/nn-sdoias-isdo">ISdo</a>
+<a href="/windows/desktop/api/sdoias/nn-sdoias-isdo">ISdo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/nf-sdoias-isdomachine-getdictionarysdo">ISdoMachine::GetDictionarySDO</a>
-
+<a href="/windows/desktop/api/sdoias/nf-sdoias-isdomachine-getdictionarysdo">ISdoMachine::GetDictionarySDO</a>

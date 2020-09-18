@@ -56,7 +56,7 @@ This macro is not implemented.
 
 ### -param hwnd
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the list-view control.
 
@@ -71,4 +71,3 @@ Type: <b>int</b>
 Type: <b>int</b>
 
 <b>int</b>
-

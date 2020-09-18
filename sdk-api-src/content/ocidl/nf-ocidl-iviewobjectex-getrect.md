@@ -99,7 +99,7 @@ DVASPECT_CONTENT
 
 </td>
 <td>
-Objects should return the bounding rectangle of the whole object. The top-left corner is at the object's origin and the size is equal to the extent returned by <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-iviewobject2-getextent">IViewObject2::GetExtent</a>.
+Objects should return the bounding rectangle of the whole object. The top-left corner is at the object's origin and the size is equal to the extent returned by <a href="/windows/desktop/api/oleidl/nf-oleidl-iviewobject2-getextent">IViewObject2::GetExtent</a>.
 
 </td>
 </tr>
@@ -111,7 +111,7 @@ DVASPECT_OPAQUE
 <td>
 Objects with a rectangular opaque region should return that rectangle. Others should fail and return error code DV_E_DVASPECT.
 
-If a rectangle is returned, it is guaranteed to be completely obscured by calling <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-iviewobject-draw">IViewObject::Draw</a> for that aspect. The container should use that rectangle to clip out the object's opaque parts before drawing any object behind it during the back to front pass. If this method fails on an object with a non-rectangular opaque region, the container should draw the entire object in the back to front part using the DVASPECT_CONTENT aspect.
+If a rectangle is returned, it is guaranteed to be completely obscured by calling <a href="/windows/desktop/api/oleidl/nf-oleidl-iviewobject-draw">IViewObject::Draw</a> for that aspect. The container should use that rectangle to clip out the object's opaque parts before drawing any object behind it during the back to front pass. If this method fails on an object with a non-rectangular opaque region, the container should draw the entire object in the back to front part using the DVASPECT_CONTENT aspect.
 
 </td>
 </tr>
@@ -129,5 +129,4 @@ Objects should return the rectangle covering all transparent or irregular parts.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-iviewobjectex">IViewObjectEx</a>
-
+<a href="/windows/desktop/api/ocidl/nn-ocidl-iviewobjectex">IViewObjectEx</a>

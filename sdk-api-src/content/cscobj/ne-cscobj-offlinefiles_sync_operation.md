@@ -90,5 +90,4 @@ Operation was preparing for the synchronization.  Preparation involves obtaining
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilessyncerrorinfo-getsyncoperation">IOfflineFilesSyncErrorInfo::GetSyncOperation</a>
-
+<a href="/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilessyncerrorinfo-getsyncoperation">IOfflineFilesSyncErrorInfo::GetSyncOperation</a>

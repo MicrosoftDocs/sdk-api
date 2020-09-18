@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-The <b>Effect::UseAuxData</b> method sets or clears a flag that specifies whether the <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-bitmap-applyeffect(inbitmap_inint_ineffect_inrect_outrect_outbitmap)">Bitmap::ApplyEffect</a> method should return a pointer to the auxiliary data that it creates.
+The <b>Effect::UseAuxData</b> method sets or clears a flag that specifies whether the <a href="/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-bitmap-applyeffect(inbitmap_inint_ineffect_inrect_outrect_outbitmap)">Bitmap::ApplyEffect</a> method should return a pointer to the auxiliary data that it creates.
 
 ## -parameters
 
@@ -59,17 +59,16 @@ The <b>Effect::UseAuxData</b> method sets or clears a flag that specifies whethe
 
 Type: <b>const BOOL</b>
 
-Set to <b>TRUE</b> to specify that <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-bitmap-applyeffect(inbitmap_inint_ineffect_inrect_outrect_outbitmap)">ApplyEffect</a> should return a pointer to its auxiliary data; <b>FALSE</b> otherwise.
+Set to <b>TRUE</b> to specify that <a href="/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-bitmap-applyeffect(inbitmap_inint_ineffect_inrect_outrect_outbitmap)">ApplyEffect</a> should return a pointer to its auxiliary data; <b>FALSE</b> otherwise.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdipluseffects/nl-gdipluseffects-effect">Effect</a>
+<a href="/windows/desktop/api/gdipluseffects/nl-gdipluseffects-effect">Effect</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdipluseffects/nf-gdipluseffects-effect-getauxdata">Effect::GetAuxData</a>
+<a href="/windows/desktop/api/gdipluseffects/nf-gdipluseffects-effect-getauxdata">Effect::GetAuxData</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdipluseffects/nf-gdipluseffects-effect-getauxdatasize">Effect::GetAuxDataSize</a>
-
+<a href="/windows/desktop/api/gdipluseffects/nf-gdipluseffects-effect-getauxdatasize">Effect::GetAuxDataSize</a>

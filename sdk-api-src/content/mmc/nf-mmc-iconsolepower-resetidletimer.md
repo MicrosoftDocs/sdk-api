@@ -58,7 +58,7 @@ ResetIdleTimer method resets the specified power management idle timers.
 ### -param dwFlags [in]
 
 The flags used to reset idle timers. One or more of the following flags can be used. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-setthreadexecutionstate">SetThreadExecutionState</a>.
+<a href="/windows/desktop/api/winbase/nf-winbase-setthreadexecutionstate">SetThreadExecutionState</a>.
 
 
 
@@ -79,8 +79,8 @@ If successful, the return value is S_OK. This method will return S_FALSE when in
 ## -remarks
 
 Call <b>IConsolePower::ResetIdleTimer</b> instead of calling 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-setthreadexecutionstate">SetThreadExecutionState</a>. Snap-ins must not call the <b>SetThreadExecutionState</b> function directly, doing so causes conflicts if multiple snap-ins are running on the same thread. Instead, snap-ins should call 
-SetExecutionState. Resetting an idle timer causes it to start over in tracking the idle period. If a snap-in does not specify a continuous execution state by calling <a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-iconsolepower-setexecutionstate">IConsolePower::SetExecutionState</a>, it can periodically call 
+<a href="/windows/desktop/api/winbase/nf-winbase-setthreadexecutionstate">SetThreadExecutionState</a>. Snap-ins must not call the <b>SetThreadExecutionState</b> function directly, doing so causes conflicts if multiple snap-ins are running on the same thread. Instead, snap-ins should call 
+SetExecutionState. Resetting an idle timer causes it to start over in tracking the idle period. If a snap-in does not specify a continuous execution state by calling <a href="/windows/desktop/api/mmc/nf-mmc-iconsolepower-setexecutionstate">IConsolePower::SetExecutionState</a>, it can periodically call 
 ResetIdleTimer to prolong the time before the system or display power-management routines are invoked.
 
 
@@ -115,9 +115,8 @@ switch (hr)
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-iconsolepower-setexecutionstate">IConsolePower::SetExecutionState</a>
+<a href="/windows/desktop/api/mmc/nf-mmc-iconsolepower-setexecutionstate">IConsolePower::SetExecutionState</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-setthreadexecutionstate">SetThreadExecutionState</a>
-
+<a href="/windows/desktop/api/winbase/nf-winbase-setthreadexecutionstate">SetThreadExecutionState</a>

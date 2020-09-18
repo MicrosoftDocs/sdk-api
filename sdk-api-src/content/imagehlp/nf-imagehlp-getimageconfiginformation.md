@@ -57,41 +57,40 @@ Locates and returns the load configuration data of an image.
 ### -param LoadedImage [in]
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-loaded_image">LOADED_IMAGE</a> structure that is returned from a call to 
-<a href="https://docs.microsoft.com/windows/desktop/api/imagehlp/nf-imagehlp-mapandload">MapAndLoad</a> or <a href="https://docs.microsoft.com/windows/desktop/api/imagehlp/nf-imagehlp-imageload">ImageLoad</a>.
+<a href="/windows/desktop/api/dbghelp/ns-dbghelp-loaded_image">LOADED_IMAGE</a> structure that is returned from a call to 
+<a href="/windows/desktop/api/imagehlp/nf-imagehlp-mapandload">MapAndLoad</a> or <a href="/windows/desktop/api/imagehlp/nf-imagehlp-imageload">ImageLoad</a>.
 
 ### -param ImageConfigInformation [out]
 
 A pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-image_load_config_directory32">IMAGE_LOAD_CONFIG_DIRECTORY64</a> structure that receives the configuration information.
+<a href="/windows/desktop/api/winnt/ns-winnt-image_load_config_directory32">IMAGE_LOAD_CONFIG_DIRECTORY64</a> structure that receives the configuration information.
 
 ## -returns
 
 If the function succeeds, the return value is <b>TRUE</b>.
 
 If the function fails, the return value is <b>FALSE</b>. To retrieve extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
 The 
-<a href="https://docs.microsoft.com/windows/desktop/api/imagehlp/nf-imagehlp-setimageconfiginformation">SetImageConfigInformation</a> function locates and changes the load configuration data of an image.
+<a href="/windows/desktop/api/imagehlp/nf-imagehlp-setimageconfiginformation">SetImageConfigInformation</a> function locates and changes the load configuration data of an image.
 
 All ImageHlp functions, such as this one, are single threaded. Therefore, calls from more than one thread to this function will likely result in unexpected behavior or memory corruption. To avoid this, you must synchronize all concurrent calls from more than one thread to this function.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-image_load_config_directory32">IMAGE_LOAD_CONFIG_DIRECTORY64</a>
+<a href="/windows/desktop/api/winnt/ns-winnt-image_load_config_directory32">IMAGE_LOAD_CONFIG_DIRECTORY64</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Debug/imagehlp-functions">ImageHlp Functions</a>
+<a href="/windows/desktop/Debug/imagehlp-functions">ImageHlp Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-loaded_image">LOADED_IMAGE</a>
+<a href="/windows/desktop/api/dbghelp/ns-dbghelp-loaded_image">LOADED_IMAGE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imagehlp/nf-imagehlp-setimageconfiginformation">SetImageConfigInformation</a>
-
+<a href="/windows/desktop/api/imagehlp/nf-imagehlp-setimageconfiginformation">SetImageConfigInformation</a>

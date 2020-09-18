@@ -54,7 +54,7 @@ The
 <b>get_TotalACDTalkTime</b> gets the number of seconds spent talking in ACD calls by this agent (across all sessions).
 
 The measurement period over which this information is calculated is switch- and/or implementation-specific. (See 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nf-tapi3-itagent-get_measurementperiod">get_MeasurementPeriod</a>.)
+<a href="/windows/desktop/api/tapi3/nf-tapi3-itagent-get_measurementperiod">get_MeasurementPeriod</a>.)
 
 ## -parameters
 
@@ -119,5 +119,4 @@ The operation failed because the TAPI 3 DLL timed it out. The timeout interval i
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nn-tapi3-itagent">ITAgent</a>
-
+<a href="/windows/desktop/api/tapi3/nn-tapi3-itagent">ITAgent</a>

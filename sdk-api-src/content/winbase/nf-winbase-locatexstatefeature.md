@@ -53,7 +53,7 @@ api_name:
 ## -description
 
 Retrieves a pointer to the processor state for an XState feature within a 
-    <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-arm64_nt_context">CONTEXT</a> structure.
+    <a href="/windows/desktop/api/winnt/ns-winnt-arm64_nt_context">CONTEXT</a> structure.
 
 The definition of XState feature bits are processor vendor specific. Please refer to the relevant processor 
     reference manuals for additional information on a particular feature.
@@ -62,16 +62,16 @@ The definition of XState feature bits are processor vendor specific. Please refe
 
 ### -param Context [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-arm64_nt_context">CONTEXT</a> structure containing the state 
+A pointer to a <a href="/windows/desktop/api/winnt/ns-winnt-arm64_nt_context">CONTEXT</a> structure containing the state 
       to retrieve or set. This <b>CONTEXT</b> should have been 
-      initialized with <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-initializecontext">InitializeContext</a> with the 
+      initialized with <a href="/windows/desktop/api/winbase/nf-winbase-initializecontext">InitializeContext</a> with the 
       <b>CONTEXT_XSTATE</b> flag set in the <i>ContextFlags</i> 
       parameter.
 
 ### -param FeatureId [in]
 
 The number of the feature to locate within the 
-      <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-arm64_nt_context">CONTEXT</a> structure.
+      <a href="/windows/desktop/api/winnt/ns-winnt-arm64_nt_context">CONTEXT</a> structure.
 
 ### -param Length [out, optional]
 
@@ -81,12 +81,12 @@ A pointer to a variable which receives the length of the feature area in bytes. 
 ## -returns
 
 If the specified feature is supported by the system and the specified 
-       <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-arm64_nt_context">CONTEXT</a> structure has been initialized with the 
+       <a href="/windows/desktop/api/winnt/ns-winnt-arm64_nt_context">CONTEXT</a> structure has been initialized with the 
        <b>CONTEXT_XSTATE</b> flag, this function returns a pointer to the feature area for the 
        specified feature.  The contents and layout of this area is processor-specific.
 
 If the <b>CONTEXT_XSTATE</b> flag is not set in the 
-       <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-arm64_nt_context">CONTEXT</a> structure or the 
+       <a href="/windows/desktop/api/winnt/ns-winnt-arm64_nt_context">CONTEXT</a> structure or the 
        <i>FeatureID</i> is not supported by the system, the return value is 
        <b>NULL</b>. No additional error information is available.
 
@@ -94,56 +94,55 @@ If the <b>CONTEXT_XSTATE</b> flag is not set in the
 
 The <b>LocateXStateFeature</b> function must be used 
     to find an individual XState feature within an extensible 
-    <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-arm64_nt_context">CONTEXT</a> structure. Features are not necessarily contiguous 
+    <a href="/windows/desktop/api/winnt/ns-winnt-arm64_nt_context">CONTEXT</a> structure. Features are not necessarily contiguous 
     in memory and applications should not assume the offset between two consecutive features will remain constant in 
     the future.
 
 The <i>FeatureID</i> parameter of the function corresponds to a bit within the feature 
     mask. For example, <i>FeatureId</i> 2 corresponds to a <i>FeatureMask</i> of 
-    4 in <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-setxstatefeaturesmask">SetXStateFeaturesMask</a>. 
+    4 in <a href="/windows/desktop/api/winbase/nf-winbase-setxstatefeaturesmask">SetXStateFeaturesMask</a>. 
     <i>FeatureID</i> values of 0 and 1 correspond to X87 FPU state and SSE state, 
     respectively.
 
 If you are setting XState on a thread via the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-setthreadcontext">SetThreadContext</a> or 
-    <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-wow64setthreadcontext">Wow64SetThreadContext</a> 
+    <a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-setthreadcontext">SetThreadContext</a> or 
+    <a href="/windows/desktop/api/winbase/nf-winbase-wow64setthreadcontext">Wow64SetThreadContext</a> 
     APIs, you must also call 
-    <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-setxstatefeaturesmask">SetXStateFeaturesMask</a> on the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-arm64_nt_context">CONTEXT</a> structure with the mask value of the filled-in 
+    <a href="/windows/desktop/api/winbase/nf-winbase-setxstatefeaturesmask">SetXStateFeaturesMask</a> on the 
+    <a href="/windows/desktop/api/winnt/ns-winnt-arm64_nt_context">CONTEXT</a> structure with the mask value of the filled-in 
     feature to mark the feature as active.
 
 
-<b>Windows 7 with SP1 and Windows Server 2008 R2 with SP1:  </b>The <a href="https://docs.microsoft.com/windows/desktop/Debug/avx-support-portal">AVX API</a> is first implemented on 
+<b>Windows 7 with SP1 and Windows Server 2008 R2 with SP1:  </b>The <a href="/windows/desktop/Debug/avx-support-portal">AVX API</a> is first implemented on 
        Windows 7 with SP1 and Windows Server 2008 R2 with SP1 . Since there is no SDK for SP1, that means there are 
        no available headers and library files to work with. In this situation, a caller must declare the needed 
        functions from this documentation and get pointers to them using 
-       <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getmodulehandlea">GetModuleHandle</a> on 
+       <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-getmodulehandlea">GetModuleHandle</a> on 
        "Kernel32.dll", followed by calls to 
-       <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a>. See 
-       <a href="https://docs.microsoft.com/windows/desktop/Debug/working-with-xstate-context">Working with XState Context</a> for 
+       <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a>. See 
+       <a href="/windows/desktop/Debug/working-with-xstate-context">Working with XState Context</a> for 
        details.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-arm64_nt_context">CONTEXT</a>
+<a href="/windows/desktop/api/winnt/ns-winnt-arm64_nt_context">CONTEXT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Debug/avx-support-portal">Intel AVX</a>
+<a href="/windows/desktop/Debug/avx-support-portal">Intel AVX</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-setthreadcontext">SetThreadContext</a>
+<a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-setthreadcontext">SetThreadContext</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-setxstatefeaturesmask">SetXStateFeaturesMask</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-setxstatefeaturesmask">SetXStateFeaturesMask</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Debug/working-with-xstate-context">Working with XState Context</a>
+<a href="/windows/desktop/Debug/working-with-xstate-context">Working with XState Context</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-wow64setthreadcontext">Wow64SetThreadContext</a>
-
+<a href="/windows/desktop/api/winbase/nf-winbase-wow64setthreadcontext">Wow64SetThreadContext</a>

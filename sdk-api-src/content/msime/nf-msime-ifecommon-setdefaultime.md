@@ -66,5 +66,4 @@ This method only applies when Microsoft IME uses the Input Method Manager (IMM) 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msime/nn-msime-ifecommon">IFECommon</a>
-
+<a href="/windows/desktop/api/msime/nn-msime-ifecommon">IFECommon</a>

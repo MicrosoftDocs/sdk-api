@@ -100,13 +100,12 @@ The value you specify using <b>put_SAMILang</b> must match the <b>Name</b> attri
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/WMP/adding-closed-captions-to-digital-media">Adding Closed Captions to Digital Media</a>
+<a href="/windows/desktop/WMP/adding-closed-captions-to-digital-media">Adding Closed Captions to Digital Media</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpclosedcaption">IWMPClosedCaption Interface</a>
+<a href="/windows/desktop/api/wmp/nn-wmp-iwmpclosedcaption">IWMPClosedCaption Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpclosedcaption-put_samilang">IWMPClosedCaption::put_SAMILang</a>
-
+<a href="/windows/desktop/api/wmp/nf-wmp-iwmpclosedcaption-put_samilang">IWMPClosedCaption::put_SAMILang</a>

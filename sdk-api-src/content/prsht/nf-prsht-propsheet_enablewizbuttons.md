@@ -50,19 +50,19 @@ api_name:
 
 ## -description
 
-Enables or disables buttons in an Aero wizard. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/psm-enablewizbuttons">PSM_ENABLEWIZBUTTONS</a> message explicitly.
+Enables or disables buttons in an Aero wizard. You can use this macro or send the <a href="/windows/desktop/Controls/psm-enablewizbuttons">PSM_ENABLEWIZBUTTONS</a> message explicitly.
 
 ## -parameters
 
 ### -param hDlg
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 Handle to the wizard.
 
 ### -param dwState
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 One or more of the following values that specify which property sheet buttons are to be enabled. If a button value is included in both this parameter and <i>dwMask</i>, it is enabled.
 
@@ -115,7 +115,7 @@ One or more of the following values that specify which property sheet buttons ar
 
 ### -param dwMask
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 One or more of the same values used in <i>dwState</i>, specifying which buttons are affected by this call. If a button value appears in this parameter but not in <i>dwState</i>, the button is disabled.
 
@@ -129,4 +129,3 @@ PropSheet_EnableWizButtons(hwnd,
                          PSWIZB_NEXT,
                          PSWIZB_BACK | PSWIZB_NEXT);
 ```
-

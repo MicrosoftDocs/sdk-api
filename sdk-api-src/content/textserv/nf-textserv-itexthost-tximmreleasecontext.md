@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Releases an input context returned by the <a href="https://docs.microsoft.com/windows/desktop/api/textserv/nf-textserv-itexthost-tximmgetcontext">ITextHost::TxImmGetContext</a> method and unlocks the memory associated with the context. 
+Releases an input context returned by the <a href="/windows/desktop/api/textserv/nf-textserv-itexthost-tximmgetcontext">ITextHost::TxImmGetContext</a> method and unlocks the memory associated with the context. 
 
 This method is used only in Asian-language versions of the operating system.
 
@@ -68,7 +68,7 @@ The input context.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/textserv/nl-textserv-itexthost">ITextHost</a>
+<a href="/windows/desktop/api/textserv/nl-textserv-itexthost">ITextHost</a>
 
 
 
@@ -76,9 +76,8 @@ The input context.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/textserv/nf-textserv-itexthost-tximmgetcontext">TxImmGetContext</a>
+<a href="/windows/desktop/api/textserv/nf-textserv-itexthost-tximmgetcontext">TxImmGetContext</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Controls/windowless-rich-edit-controls">Windowless Rich Edit Controls</a>
-
+<a href="/windows/desktop/Controls/windowless-rich-edit-controls">Windowless Rich Edit Controls</a>

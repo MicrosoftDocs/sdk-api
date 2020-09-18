@@ -57,7 +57,7 @@ api_name:
 
 The 
 <b>SOURCE_MEDIA</b> structure is used with the 
-<a href="https://docs.microsoft.com/windows/desktop/SetupApi/spfilenotify-needmedia">SPFILENOTIFY_NEEDMEDIA</a> notification to pass source media information.
+<a href="/windows/desktop/SetupApi/spfilenotify-needmedia">SPFILENOTIFY_NEEDMEDIA</a> notification to pass source media information.
 
 ## -struct-fields
 
@@ -135,18 +135,17 @@ The current source file is continued in another cabinet file.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/SetupApi/overview">Overview</a>
+<a href="/windows/desktop/SetupApi/overview">Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SetupApi/spfilenotify-needmedia">SPFILENOTIFY_NEEDMEDIA</a>
+<a href="/windows/desktop/SetupApi/spfilenotify-needmedia">SPFILENOTIFY_NEEDMEDIA</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SetupApi/structures--setup-api-">Structures</a>
+<a href="/windows/desktop/SetupApi/structures--setup-api-">Structures</a>
 
 ## -remarks
 
 > [!NOTE]
 > The setupapi.h header defines SOURCE_MEDIA as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

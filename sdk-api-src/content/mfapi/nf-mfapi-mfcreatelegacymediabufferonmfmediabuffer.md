@@ -56,11 +56,11 @@ Converts a Media Foundation media buffer into a buffer that is compatible with D
 
 ### -param pSample
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfsample">IMFSample</a> interface of the sample that contains the Media Foundation buffer. This parameter can be <b>NULL</b>.
+Pointer to the <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfsample">IMFSample</a> interface of the sample that contains the Media Foundation buffer. This parameter can be <b>NULL</b>.
 
 ### -param pMFMediaBuffer
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfmediabuffer">IMFMediaBuffer</a> interface of the Media Foundation buffer.
+Pointer to the <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfmediabuffer">IMFMediaBuffer</a> interface of the Media Foundation buffer.
 
 ### -param cbOffset
 
@@ -105,27 +105,26 @@ Invalid argument. The <i>pIMFMediaBuffer</i> parameter must not be <b>NULL</b>.
 
 ## -remarks
 
-The DMO buffer created by this function also exposes the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfsample">IMFSample</a> interface. If <i>pIMFSample</i> is <b>NULL</b>, all of the <b>IMFSample</b> methods return MF_E_NOT_INITIALIZED. Otherwise, they call through to the <i>pIMFSample</i> pointer.
+The DMO buffer created by this function also exposes the <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfsample">IMFSample</a> interface. If <i>pIMFSample</i> is <b>NULL</b>, all of the <b>IMFSample</b> methods return MF_E_NOT_INITIALIZED. Otherwise, they call through to the <i>pIMFSample</i> pointer.
 
-If the Media Foundation buffer specified by <i>pIMFMediaBuffer</i> exposes the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imf2dbuffer">IMF2DBuffer</a> interface, the DMO buffer also exposes <b>IMF2DBuffer</b>.
+If the Media Foundation buffer specified by <i>pIMFMediaBuffer</i> exposes the <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imf2dbuffer">IMF2DBuffer</a> interface, the DMO buffer also exposes <b>IMF2DBuffer</b>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imf2dbuffer">IMF2DBuffer</a>
+<a href="/windows/desktop/api/mfobjects/nn-mfobjects-imf2dbuffer">IMF2DBuffer</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfmediabuffer">IMFMediaBuffer</a>
+<a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfmediabuffer">IMFMediaBuffer</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfsample">IMFSample</a>
+<a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfsample">IMFSample</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-buffers">Media Buffers</a>
+<a href="/windows/desktop/medfound/media-buffers">Media Buffers</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>
-
+<a href="/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>

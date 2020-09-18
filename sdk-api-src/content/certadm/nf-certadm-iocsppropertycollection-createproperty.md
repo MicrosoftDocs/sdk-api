@@ -73,7 +73,7 @@ A string that contains the name of the new property object.
 
 ### -param ppVal [out]
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/certadm/nn-certadm-iocspproperty">IOCSPProperty</a> interface for the newly created object.
+A pointer to an <a href="/windows/desktop/api/certadm/nn-certadm-iocspproperty">IOCSPProperty</a> interface for the newly created object.
 
 ## -returns
 
@@ -81,16 +81,15 @@ A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/certadm/
 If the method succeeds, it returns <b>S_OK</b>.
 
 
-If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
+If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 
 
 <h3>VB</h3>
 An 
-<a href="https://docs.microsoft.com/windows/desktop/api/certadm/nn-certadm-iocspproperty">IOCSPProperty</a>
+<a href="/windows/desktop/api/certadm/nn-certadm-iocspproperty">IOCSPProperty</a>
  interface for the newly created object.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certadm/nn-certadm-iocsppropertycollection">IOCSPPropertyCollection</a>
-
+<a href="/windows/desktop/api/certadm/nn-certadm-iocsppropertycollection">IOCSPPropertyCollection</a>

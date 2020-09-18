@@ -56,9 +56,9 @@ Determines whether this range's story is the same as a specified range's story.
 
 ### -param pRange
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextrange">ITextRange</a>*</b>
+Type: <b><a href="/windows/desktop/api/tom/nn-tom-itextrange">ITextRange</a>*</b>
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextrange">ITextRange</a> object whose story is compared to this range's story.
+The <a href="/windows/desktop/api/tom/nn-tom-itextrange">ITextRange</a> object whose story is compared to this range's story.
 
 ### -param pValue
 
@@ -78,7 +78,7 @@ The method returns an <b>HRESULT</b> value. If the two stories are the same, the
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextrange">ITextRange</a>
+<a href="/windows/desktop/api/tom/nn-tom-itextrange">ITextRange</a>
 
 
 
@@ -86,5 +86,4 @@ The method returns an <b>HRESULT</b> value. If the two stories are the same, the
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Controls/text-object-model">Text Object Model</a>
-
+<a href="/windows/desktop/Controls/text-object-model">Text Object Model</a>

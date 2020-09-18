@@ -84,40 +84,39 @@ Pointer <i>pnId</i> is <b>NULL</b>.
 
 When you have a pointer to a part object, you can call this method to get the local ID of the part. A local ID is a number that uniquely identifies a part among all parts in a device topology.
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nf-devicetopology-iaudioinputselector-getselection">IAudioInputSelector::GetSelection</a> and <a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nf-devicetopology-iaudiooutputselector-getselection">IAudioOutputSelector::GetSelection</a> methods retrieve the local ID of a connected part. The <a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nf-devicetopology-iaudioinputselector-setselection">IAudioInputSelector::SetSelection</a> and <a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nf-devicetopology-iaudiooutputselector-setselection">IAudioOutputSelector::SetSelection</a> methods select the input or output that is connected to a part that is identified by its local ID. The <a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nf-devicetopology-idevicetopology-getpartbyid">IDeviceTopology::GetPartById</a> method gets a part that is identified by its local ID.
+The <a href="/windows/desktop/api/devicetopology/nf-devicetopology-iaudioinputselector-getselection">IAudioInputSelector::GetSelection</a> and <a href="/windows/desktop/api/devicetopology/nf-devicetopology-iaudiooutputselector-getselection">IAudioOutputSelector::GetSelection</a> methods retrieve the local ID of a connected part. The <a href="/windows/desktop/api/devicetopology/nf-devicetopology-iaudioinputselector-setselection">IAudioInputSelector::SetSelection</a> and <a href="/windows/desktop/api/devicetopology/nf-devicetopology-iaudiooutputselector-setselection">IAudioOutputSelector::SetSelection</a> methods select the input or output that is connected to a part that is identified by its local ID. The <a href="/windows/desktop/api/devicetopology/nf-devicetopology-idevicetopology-getpartbyid">IDeviceTopology::GetPartById</a> method gets a part that is identified by its local ID.
 
 For code examples that use the <b>GetLocalId</b> method, see the following topics:
 
 <ul>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/CoreAudio/device-topologies">Device Topologies</a>
+<a href="/windows/desktop/CoreAudio/device-topologies">Device Topologies</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/CoreAudio/using-the-ikscontrol-interface-to-access-audio-properties">Using the IKsControl Interface to Access Audio Properties</a>
+<a href="/windows/desktop/CoreAudio/using-the-ikscontrol-interface-to-access-audio-properties">Using the IKsControl Interface to Access Audio Properties</a>
 </li>
 </ul>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nf-devicetopology-iaudioinputselector-getselection">IAudioInputSelector::GetSelection</a>
+<a href="/windows/desktop/api/devicetopology/nf-devicetopology-iaudioinputselector-getselection">IAudioInputSelector::GetSelection</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nf-devicetopology-iaudioinputselector-setselection">IAudioInputSelector::SetSelection</a>
+<a href="/windows/desktop/api/devicetopology/nf-devicetopology-iaudioinputselector-setselection">IAudioInputSelector::SetSelection</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nf-devicetopology-iaudiooutputselector-getselection">IAudioOutputSelector::GetSelection</a>
+<a href="/windows/desktop/api/devicetopology/nf-devicetopology-iaudiooutputselector-getselection">IAudioOutputSelector::GetSelection</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nf-devicetopology-iaudiooutputselector-setselection">IAudioOutputSelector::SetSelection</a>
+<a href="/windows/desktop/api/devicetopology/nf-devicetopology-iaudiooutputselector-setselection">IAudioOutputSelector::SetSelection</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nf-devicetopology-idevicetopology-getpartbyid">IDeviceTopology::GetPartById</a>
+<a href="/windows/desktop/api/devicetopology/nf-devicetopology-idevicetopology-getpartbyid">IDeviceTopology::GetPartById</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nn-devicetopology-ipart">IPart Interface</a>
-
+<a href="/windows/desktop/api/devicetopology/nn-devicetopology-ipart">IPart Interface</a>

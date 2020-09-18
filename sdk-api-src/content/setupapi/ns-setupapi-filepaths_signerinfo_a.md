@@ -56,7 +56,7 @@ api_name:
 
 The <b>FILEPATHS_SINGNERINFO</b> structure stores source and target path information, and also file signature information. The setup functions send 
 <b>FILEPATHS_SIGNERINFO</b> as a parameter in several of the notifications sent to callback routines. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/SetupApi/notifications">Notifications</a>.
+<a href="/windows/desktop/SetupApi/notifications">Notifications</a>.
 
 ## -struct-fields
 
@@ -67,11 +67,11 @@ Path to the target file.
 ### -field Source
 
 Path to the source file. This member is not used when the 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-filepaths_a">FILEPATHS</a> structure is used with a file delete operation.
+<a href="/windows/desktop/api/setupapi/ns-setupapi-filepaths_a">FILEPATHS</a> structure is used with a file delete operation.
 
 ### -field Win32Error
 
-If an error occurs, this member is the <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a>. If no error has occurred, it is  NO_ERROR.
+If an error occurs, this member is the <a href="/windows/desktop/Debug/system-error-codes">system error code</a>. If no error has occurred, it is  NO_ERROR.
 
 ### -field Flags
 
@@ -82,7 +82,7 @@ Additional information that depends on the notification sent with the
 
 
 For 
-<a href="https://docs.microsoft.com/windows/desktop/SetupApi/spfilenotify-copyerror">SPFILENOTIFY_COPYERROR</a> notifications, <b>Flags</b> specifies dialog box behavior and can be one of the following values.
+<a href="/windows/desktop/SetupApi/spfilenotify-copyerror">SPFILENOTIFY_COPYERROR</a> notifications, <b>Flags</b> specifies dialog box behavior and can be one of the following values.
 
 <table>
 <tr>
@@ -123,7 +123,7 @@ Inform the user that skipping the file may affect the installation.
  
 
 For 
-<a href="https://docs.microsoft.com/windows/desktop/SetupApi/spfilenotify-fileopdelayed">SPFILENOTIFY_FILEOPDELAYED</a> notifications, <b>Flags</b> specifies the type of file operation delayed and can be one of the following values.
+<a href="/windows/desktop/SetupApi/spfilenotify-fileopdelayed">SPFILENOTIFY_FILEOPDELAYED</a> notifications, <b>Flags</b> specifies the type of file operation delayed and can be one of the following values.
 
 <table>
 <tr>
@@ -166,14 +166,13 @@ Catalog file.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/SetupApi/overview">Overview</a>
+<a href="/windows/desktop/SetupApi/overview">Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SetupApi/structures--setup-api-">Structures</a>
+<a href="/windows/desktop/SetupApi/structures--setup-api-">Structures</a>
 
 ## -remarks
 
 > [!NOTE]
 > The setupapi.h header defines FILEPATHS_SIGNERINFO as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

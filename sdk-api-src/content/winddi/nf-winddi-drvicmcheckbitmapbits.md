@@ -56,15 +56,15 @@ The <b>DrvIcmCheckBitmapBits</b> function checks whether the pixels in the speci
 
 ### -param dhpdev
 
-Handle to the physical device's <a href="https://docs.microsoft.com/windows-hardware/drivers/">PDEV</a>.
+Handle to the physical device's <a href="/windows-hardware/drivers/">PDEV</a>.
 
 ### -param hColorTransform
 
-Handle to the color transform against which the bitmap is to be checked. This transform was created by the driver through a prior call to its <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvicmcreatecolortransform">DrvIcmCreateColorTransform</a> routine.
+Handle to the color transform against which the bitmap is to be checked. This transform was created by the driver through a prior call to its <a href="/windows/desktop/api/winddi/nf-winddi-drvicmcreatecolortransform">DrvIcmCreateColorTransform</a> routine.
 
 ### -param pso
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-surfobj">SURFOBJ</a> that contains the bitmap surface to be checked.
+Pointer to the <a href="/windows/desktop/api/winddi/ns-winddi-surfobj">SURFOBJ</a> that contains the bitmap surface to be checked.
 
 ### -param paResults
 
@@ -106,9 +106,8 @@ The color is outside of the gamut. A value of <i>n+1</i> indicates that the colo
 </table>
  
 
-<b>DrvIcmCheckBitmapBits</b> can be optionally implemented in drivers that support ICM. A driver indicates support for ICM by setting the GCAPS_ICM flag in the <b>flGraphicsCaps</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-devinfo">DEVINFO</a> structure.
+<b>DrvIcmCheckBitmapBits</b> can be optionally implemented in drivers that support ICM. A driver indicates support for ICM by setting the GCAPS_ICM flag in the <b>flGraphicsCaps</b> member of the <a href="/windows/desktop/api/winddi/ns-winddi-devinfo">DEVINFO</a> structure.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvicmcreatecolortransform">DrvIcmCreateColorTransform</a>
-
+<a href="/windows/desktop/api/winddi/nf-winddi-drvicmcreatecolortransform">DrvIcmCreateColorTransform</a>

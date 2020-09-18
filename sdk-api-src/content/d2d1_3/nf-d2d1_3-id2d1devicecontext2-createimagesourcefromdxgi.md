@@ -53,7 +53,7 @@ Creates an image source from a set of DXGI surface(s).  The YCbCr surface(s) are
 
 ### -param surfaces
 
-Type: [in] <b><a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nn-dxgi-idxgisurface">IDXGISurface</a>**</b>
+Type: [in] <b><a href="/windows/desktop/api/dxgi/nn-dxgi-idxgisurface">IDXGISurface</a>**</b>
 
 The DXGI surfaces to create the image source from.
 
@@ -65,19 +65,19 @@ The number of surfaces provided; must be between one and three.
 
 ### -param colorSpace
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dxgicommon/ne-dxgicommon-dxgi_color_space_type">DXGI_COLOR_SPACE_TYPE</a></b>
+Type: <b><a href="/windows/desktop/api/dxgicommon/ne-dxgicommon-dxgi_color_space_type">DXGI_COLOR_SPACE_TYPE</a></b>
 
 The color space of the input.
 
 ### -param options
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3/ne-d2d1_3-d2d1_image_source_from_dxgi_options">D2D1_IMAGE_SOURCE_FROM_DXGI_OPTIONS</a></b>
+Type: <b><a href="/windows/desktop/api/d2d1_3/ne-d2d1_3-d2d1_image_source_from_dxgi_options">D2D1_IMAGE_SOURCE_FROM_DXGI_OPTIONS</a></b>
 
 Options controlling color space conversions.
 
 ### -param imageSource
 
-Type: [out] <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3/nn-d2d1_3-id2d1imagesource">ID2D1ImageSource</a>**</b>
+Type: [out] <b><a href="/windows/desktop/api/d2d1_3/nn-d2d1_3-id2d1imagesource">ID2D1ImageSource</a>**</b>
 
 Receives the new image source instance.
 
@@ -197,5 +197,4 @@ If provided, the source rectangles must be within the bounds of the correspondin
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3/nn-d2d1_3-id2d1devicecontext2">ID2D1DeviceContext2</a>
-
+<a href="/windows/desktop/api/d2d1_3/nn-d2d1_3-id2d1devicecontext2">ID2D1DeviceContext2</a>

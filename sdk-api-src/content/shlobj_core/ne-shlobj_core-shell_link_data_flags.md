@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Specifies option settings. Used with <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelllinkdatalist-getflags">IShellLinkDataList::GetFlags</a> and <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelllinkdatalist-setflags">IShellLinkDataList::SetFlags</a>.
+Specifies option settings. Used with <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelllinkdatalist-getflags">IShellLinkDataList::GetFlags</a> and <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelllinkdatalist-setflags">IShellLinkDataList::SetFlags</a>.
 
 ## -enum-fields
 
@@ -172,7 +172,7 @@ Specifies option settings. Used with <a href="https://docs.microsoft.com/windows
 
 ### -field SLDF_VALID
 
-<b>Introduced in Windows Vista</b>. A mask for valid <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/ne-shlobj_core-shell_link_data_flags">SHELL_LINK_DATA_FLAGS</a> bits.
+<b>Introduced in Windows Vista</b>. A mask for valid <a href="/windows/desktop/api/shlobj_core/ne-shlobj_core-shell_link_data_flags">SHELL_LINK_DATA_FLAGS</a> bits.
 
                         
 
@@ -198,4 +198,3 @@ Specifies option settings. Used with <a href="https://docs.microsoft.com/windows
 ### -field SLDF_RESERVED
 
 Reserved; do not use.
-

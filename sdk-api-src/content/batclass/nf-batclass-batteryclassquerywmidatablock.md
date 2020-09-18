@@ -51,37 +51,37 @@ api_name:
 
 ## -description
 
-The <b>BatteryClassQueryWmiDataBlock</b> routine is used by battery miniclass drivers inside their <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wmilib/nc-wmilib-wmi_query_datablock_callback">DpWmiQueryDataBlock</a> routines to allow the battery class driver to process the WMI data block query requests it handles on behalf of the driver.
+The <b>BatteryClassQueryWmiDataBlock</b> routine is used by battery miniclass drivers inside their <a href="/windows-hardware/drivers/ddi/content/wmilib/nc-wmilib-wmi_query_datablock_callback">DpWmiQueryDataBlock</a> routines to allow the battery class driver to process the WMI data block query requests it handles on behalf of the driver.
 
 ## -parameters
 
 ### -param ClassData [in]
 
-Pointer to a battery class handle that was previously received from <a href="https://docs.microsoft.com/windows/desktop/api/batclass/nf-batclass-batteryclassinitializedevice">BatteryClassInitializeDevice</a>.
+Pointer to a battery class handle that was previously received from <a href="/windows/desktop/api/batclass/nf-batclass-batteryclassinitializedevice">BatteryClassInitializeDevice</a>.
 
 ### -param DeviceObject [in, out]
 
-Pointer to the driver's device object.  The battery miniclass driver should pass the matching parameter it receives as input to its <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wmilib/nc-wmilib-wmi_query_datablock_callback">DpWmiQueryDataBlock</a> routine.
+Pointer to the driver's device object.  The battery miniclass driver should pass the matching parameter it receives as input to its <a href="/windows-hardware/drivers/ddi/content/wmilib/nc-wmilib-wmi_query_datablock_callback">DpWmiQueryDataBlock</a> routine.
 
 ### -param Irp [in, out]
 
-Pointer to the WMI query data block request.  The battery miniclass driver should pass the matching parameter it receives as input to its <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wmilib/nc-wmilib-wmi_query_datablock_callback">DpWmiQueryDataBlock</a> routine.
+Pointer to the WMI query data block request.  The battery miniclass driver should pass the matching parameter it receives as input to its <a href="/windows-hardware/drivers/ddi/content/wmilib/nc-wmilib-wmi_query_datablock_callback">DpWmiQueryDataBlock</a> routine.
 
 ### -param GuidIndex [in]
 
-Specifies the WMI class by its index.  The battery miniclass driver should pass the matching parameter it receives as input to its <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wmilib/nc-wmilib-wmi_query_datablock_callback">DpWmiQueryDataBlock</a> routine.
+Specifies the WMI class by its index.  The battery miniclass driver should pass the matching parameter it receives as input to its <a href="/windows-hardware/drivers/ddi/content/wmilib/nc-wmilib-wmi_query_datablock_callback">DpWmiQueryDataBlock</a> routine.
 
 ### -param InstanceLengthArray [out]
 
-Pointer to an array of ULONG values that indicate the length of each instance to be returned.  The battery miniclass driver should pass the matching parameter it receives as input to its <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wmilib/nc-wmilib-wmi_query_datablock_callback">DpWmiQueryDataBlock</a> routine.
+Pointer to an array of ULONG values that indicate the length of each instance to be returned.  The battery miniclass driver should pass the matching parameter it receives as input to its <a href="/windows-hardware/drivers/ddi/content/wmilib/nc-wmilib-wmi_query_datablock_callback">DpWmiQueryDataBlock</a> routine.
 
 ### -param OutBufferSize [in]
 
-Specifies the maximum number of bytes available to receive data in the buffer specified by the <i>Buffer</i> parameter.  The battery miniclass driver should pass the value of the <i>BufferAvail</i> parameter it receives as input to its <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wmilib/nc-wmilib-wmi_query_datablock_callback">DpWmiQueryDataBlock</a> routine.
+Specifies the maximum number of bytes available to receive data in the buffer specified by the <i>Buffer</i> parameter.  The battery miniclass driver should pass the value of the <i>BufferAvail</i> parameter it receives as input to its <a href="/windows-hardware/drivers/ddi/content/wmilib/nc-wmilib-wmi_query_datablock_callback">DpWmiQueryDataBlock</a> routine.
 
 ### -param Buffer [out, optional]
 
-Pointer to the buffer to receive the instance data.  If the buffer is too small to hold the data, <b>BatteryClassQueryWmiDataBlock</b> returns a status value of STATUS_BUFFER_TOO_SMALL.  The battery miniclass driver should pass the matching parameter it receives as input to its <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wmilib/nc-wmilib-wmi_query_datablock_callback">DpWmiQueryDataBlock</a> routine.
+Pointer to the buffer to receive the instance data.  If the buffer is too small to hold the data, <b>BatteryClassQueryWmiDataBlock</b> returns a status value of STATUS_BUFFER_TOO_SMALL.  The battery miniclass driver should pass the matching parameter it receives as input to its <a href="/windows-hardware/drivers/ddi/content/wmilib/nc-wmilib-wmi_query_datablock_callback">DpWmiQueryDataBlock</a> routine.
 
 ## -returns
 
@@ -129,17 +129,16 @@ The battery class driver does not handle this WMI class.
 
 ## -remarks
 
-By design, a battery miniclass driver should call <b>BatteryClassQueryWmiDataBlock</b> inside its <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wmilib/nc-wmilib-wmi_query_datablock_callback">DpWmiQueryDataBlock</a> routine before processing the request.  The miniclass driver should pass the parameters it receives as input to its <b>DpWmiQueryDataBlock</b> routine.  If the battery class driver returns any status other than STATUS_WMI_GUID_NOT_FOUND, the routine has handled the request on behalf of the miniclass driver.  In that case, the class driver has already called <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wmilib/nf-wmilib-wmicompleterequest">WmiCompleteRequest</a>, and miniclass driver must not call it again.
+By design, a battery miniclass driver should call <b>BatteryClassQueryWmiDataBlock</b> inside its <a href="/windows-hardware/drivers/ddi/content/wmilib/nc-wmilib-wmi_query_datablock_callback">DpWmiQueryDataBlock</a> routine before processing the request.  The miniclass driver should pass the parameters it receives as input to its <b>DpWmiQueryDataBlock</b> routine.  If the battery class driver returns any status other than STATUS_WMI_GUID_NOT_FOUND, the routine has handled the request on behalf of the miniclass driver.  In that case, the class driver has already called <a href="/windows-hardware/drivers/ddi/content/wmilib/nf-wmilib-wmicompleterequest">WmiCompleteRequest</a>, and miniclass driver must not call it again.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/batclass/nf-batclass-batteryclasssystemcontrol">BatteryClassSystemControl</a>
+<a href="/windows/desktop/api/batclass/nf-batclass-batteryclasssystemcontrol">BatteryClassSystemControl</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wmilib/nc-wmilib-wmi_query_datablock_callback">DpWmiQueryDataBlock</a>
+<a href="/windows-hardware/drivers/ddi/content/wmilib/nc-wmilib-wmi_query_datablock_callback">DpWmiQueryDataBlock</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wmilib/nf-wmilib-wmicompleterequest">WmiCompleteRequest</a>
-
+<a href="/windows-hardware/drivers/ddi/content/wmilib/nf-wmilib-wmicompleterequest">WmiCompleteRequest</a>

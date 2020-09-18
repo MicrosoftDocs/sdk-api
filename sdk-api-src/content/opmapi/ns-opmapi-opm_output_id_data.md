@@ -52,17 +52,17 @@ api_name:
 
 ## -description
 
-Contains the result from an <a href="https://docs.microsoft.com/windows/desktop/medfound/opm-get-output-id">OPM_GET_OUTPUT_ID</a> status request.
+Contains the result from an <a href="/windows/desktop/medfound/opm-get-output-id">OPM_GET_OUTPUT_ID</a> status request.
 
 ## -struct-fields
 
 ### -field rnRandomNumber
 
-An <a href="/windows/win32/api/opmapi/ns-opmapi-opm_copp_compatible_get_info_parameters">OPM_RANDOM_NUMBER</a> structure. This structure contains the same 128-bit random number that the application sent to the driver in the <a href="https://docs.microsoft.com/windows/desktop/api/ksopmapi/ns-ksopmapi-opm_get_info_parameters">OPM_GET_INFO_PARAMETERS</a> or <a href="https://docs.microsoft.com/windows/desktop/api/opmapi/ns-opmapi-opm_copp_compatible_get_info_parameters">OPM_COPP_COMPATIBLE_GET_INFO_PARAMETERS</a> structure.
+An <a href="/windows/win32/api/opmapi/ns-opmapi-opm_copp_compatible_get_info_parameters">OPM_RANDOM_NUMBER</a> structure. This structure contains the same 128-bit random number that the application sent to the driver in the <a href="/windows/desktop/api/ksopmapi/ns-ksopmapi-opm_get_info_parameters">OPM_GET_INFO_PARAMETERS</a> or <a href="/windows/desktop/api/opmapi/ns-opmapi-opm_copp_compatible_get_info_parameters">OPM_COPP_COMPATIBLE_GET_INFO_PARAMETERS</a> structure.
 
 ### -field ulStatusFlags
 
-A bitwise <b>OR</b> of <a href="https://docs.microsoft.com/windows/desktop/medfound/opm-status-flags">OPM Status Flags</a>.
+A bitwise <b>OR</b> of <a href="/windows/desktop/medfound/opm-status-flags">OPM Status Flags</a>.
 
 ### -field OutputId
 
@@ -70,9 +70,8 @@ The unique identifier of the monitor associated with this video output.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/opm-structures">OPM Structures</a>
+<a href="/windows/desktop/medfound/opm-structures">OPM Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/output-protection-manager">Output Protection Manager</a>
-
+<a href="/windows/desktop/medfound/output-protection-manager">Output Protection Manager</a>

@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Returns an <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdateinstallationresult">IUpdateInstallationResult</a> interface that contains the installation results  for a specified update.
+Returns an <a href="/windows/desktop/api/wuapi/nn-wuapi-iupdateinstallationresult">IUpdateInstallationResult</a> interface that contains the installation results  for a specified update.
 
 ## -parameters
 
@@ -70,5 +70,4 @@ error code.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iinstallationresult">IInstallationResult</a>
-
+<a href="/windows/desktop/api/wuapi/nn-wuapi-iinstallationresult">IInstallationResult</a>

@@ -51,11 +51,11 @@ api_name:
 
 ## -description
 
-A <a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-programming-guide-resources-access-views">depth-stencil-view</a> interface accesses a texture resource during  <a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d10-graphics-programming-guide-output-merger-stage">depth-stencil testing</a>.
+A <a href="/windows/desktop/direct3d10/d3d10-graphics-programming-guide-resources-access-views">depth-stencil-view</a> interface accesses a texture resource during  <a href="/windows/desktop/direct3d11/d3d10-graphics-programming-guide-output-merger-stage">depth-stencil testing</a>.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D10DepthStencilView</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nn-d3d10-id3d10view">ID3D10View</a>. <b>ID3D10DepthStencilView</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D10DepthStencilView</b> interface inherits from <a href="/windows/desktop/api/d3d10/nn-d3d10-id3d10view">ID3D10View</a>. <b>ID3D10DepthStencilView</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,10 +70,10 @@ The <b>ID3D10DepthStencilView</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nf-d3d10-id3d10depthstencilview-getdesc">GetDesc</a>
+<a href="/windows/desktop/api/d3d10/nf-d3d10-id3d10depthstencilview-getdesc">GetDesc</a>
 </td>
 <td align="left" width="63%">
-Get the depth-stencil <a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-programming-guide-resources-access-views">view</a>.
+Get the depth-stencil <a href="/windows/desktop/direct3d10/d3d10-graphics-programming-guide-resources-access-views">view</a>.
 
 </td>
 </tr>
@@ -81,15 +81,14 @@ Get the depth-stencil <a href="https://docs.microsoft.com/windows/desktop/direct
 
 ## -remarks
 
-To create a depth-stencil view, call <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nf-d3d10-id3d10device-createdepthstencilview">ID3D10Device::CreateDepthStencilView</a>.
+To create a depth-stencil view, call <a href="/windows/desktop/api/d3d10/nf-d3d10-id3d10device-createdepthstencilview">ID3D10Device::CreateDepthStencilView</a>.
 
-To bind a depth-stencil view to the pipeline, call <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nf-d3d10-id3d10device-omsetrendertargets">ID3D10Device::OMSetRenderTargets</a>.
+To bind a depth-stencil view to the pipeline, call <a href="/windows/desktop/api/d3d10/nf-d3d10-id3d10device-omsetrendertargets">ID3D10Device::OMSetRenderTargets</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nn-d3d10-id3d10view">ID3D10View</a>
+<a href="/windows/desktop/api/d3d10/nn-d3d10-id3d10view">ID3D10View</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-reference-resource-interfaces">Resource Interfaces</a>
-
+<a href="/windows/desktop/direct3d10/d3d10-graphics-reference-resource-interfaces">Resource Interfaces</a>

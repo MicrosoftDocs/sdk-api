@@ -52,23 +52,23 @@ api_name:
 
 The 
 <b>ITCallInfo</b> interface gets and sets a variety of information concerning a 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/call-object">Call object</a>. The 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itaddress-get_calls">ITAddress::get_Calls</a> and 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-ienumcall-next">IEnumCall::Next</a> methods create the 
+<a href="/windows/desktop/Tapi/call-object">Call object</a>. The 
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itaddress-get_calls">ITAddress::get_Calls</a> and 
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-ienumcall-next">IEnumCall::Next</a> methods create the 
 <b>ITCallInfo</b> interface.
 
 The 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itcallinfo2">ITCallInfo2</a> interface is an extension of the 
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itcallinfo2">ITCallInfo2</a> interface is an extension of the 
 <b>ITCallInfo</b> interface. 
 <b>ITCallInfo2</b> provides additional methods that allow an application to set event filtering on a per-call basis.
 
 For a table showing the relationships between TAPI 2 functions and  
 <b>ITCallInfo</b> methods, see 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/tapi-2-x-to-tapi-3-x-cross-reference">TAPI 2.x to TAPI 3.x Cross-Reference</a>.
+<a href="/windows/desktop/Tapi/tapi-2-x-to-tapi-3-x-cross-reference">TAPI 2.x to TAPI 3.x Cross-Reference</a>.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITCallInfo</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ITCallInfo</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITCallInfo</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ITCallInfo</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -83,39 +83,39 @@ The <b>ITCallInfo</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itcallinfo-get_address">get_Address</a>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itcallinfo-get_address">get_Address</a>
 </td>
 <td align="left" width="63%">
 Gets a pointer to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itaddress">ITAddress</a> interface of the 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/address-object">Address object</a>.
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itaddress">ITAddress</a> interface of the 
+<a href="/windows/desktop/Tapi/address-object">Address object</a>.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itcallinfo-get_callhub">get_CallHub</a>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itcallinfo-get_callhub">get_CallHub</a>
 </td>
 <td align="left" width="63%">
 Gets a pointer to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itcallhub">ITCallHub</a> interface of the 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/callhub-object">CallHub object</a>.
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itcallhub">ITCallHub</a> interface of the 
+<a href="/windows/desktop/Tapi/callhub-object">CallHub object</a>.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itcallinfo-get_callinfobuffer">get_CallInfoBuffer</a>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itcallinfo-get_callinfobuffer">get_CallInfoBuffer</a>
 </td>
 <td align="left" width="63%">
 Gets call information items that require a buffer, such as user-user information. This method is provided for Automation client applications, such as those written in Visual Basic. C and C++ applications must use the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itcallinfo-getcallinfobuffer">ITCallInfo::GetCallInfoBuffer</a> method.
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itcallinfo-getcallinfobuffer">ITCallInfo::GetCallInfoBuffer</a> method.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itcallinfo-get_callinfolong">get_CallInfoLong</a>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itcallinfo-get_callinfolong">get_CallInfoLong</a>
 </td>
 <td align="left" width="63%">
 Gets call information items described by a long, such as the bearer mode.
@@ -124,7 +124,7 @@ Gets call information items described by a long, such as the bearer mode.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itcallinfo-get_callinfostring">get_CallInfoString</a>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itcallinfo-get_callinfostring">get_CallInfoString</a>
 </td>
 <td align="left" width="63%">
 Gets call information items described by a string, such as the displayable address.
@@ -133,27 +133,27 @@ Gets call information items described by a string, such as the displayable addre
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itcallinfo-get_callstate">get_CallState</a>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itcallinfo-get_callstate">get_CallState</a>
 </td>
 <td align="left" width="63%">
 Gets a pointer to the current 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/ne-tapi3if-call_state">call state</a>, such as CS_IDLE.
+<a href="/windows/desktop/api/tapi3if/ne-tapi3if-call_state">call state</a>, such as CS_IDLE.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itcallinfo-get_privilege">get_Privilege</a>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itcallinfo-get_privilege">get_Privilege</a>
 </td>
 <td align="left" width="63%">
 Gets the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/ne-tapi3if-call_privilege">call privilege</a> of the application for the current call, such as CP_MONITOR.
+<a href="/windows/desktop/api/tapi3if/ne-tapi3if-call_privilege">call privilege</a> of the application for the current call, such as CP_MONITOR.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itcallinfo-getcallinfobuffer">GetCallInfoBuffer</a>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itcallinfo-getcallinfobuffer">GetCallInfoBuffer</a>
 </td>
 <td align="left" width="63%">
 Gets call information items that require a buffer, such as user-user information.
@@ -162,17 +162,17 @@ Gets call information items that require a buffer, such as user-user information
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itcallinfo-put_callinfobuffer">put_CallInfoBuffer</a>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itcallinfo-put_callinfobuffer">put_CallInfoBuffer</a>
 </td>
 <td align="left" width="63%">
 Sets call information items that require a buffer, such as user-user information. This method is provided for Automation client applications, such as those written in Visual Basic. C and C++ applications must use the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itcallinfo-setcallinfobuffer">ITCallInfo::SetCallInfoBuffer</a> method.
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itcallinfo-setcallinfobuffer">ITCallInfo::SetCallInfoBuffer</a> method.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itcallinfo-put_callinfolong">put_CallInfoLong</a>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itcallinfo-put_callinfolong">put_CallInfoLong</a>
 </td>
 <td align="left" width="63%">
 Sets call information items described by a long, such as the bearer mode.
@@ -181,7 +181,7 @@ Sets call information items described by a long, such as the bearer mode.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itcallinfo-put_callinfostring">put_CallInfoString</a>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itcallinfo-put_callinfostring">put_CallInfoString</a>
 </td>
 <td align="left" width="63%">
 Sets call information items described by a string, such as the displayable address.
@@ -190,7 +190,7 @@ Sets call information items described by a string, such as the displayable addre
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itcallinfo-releaseuseruserinfo">ReleaseUserUserInfo</a>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itcallinfo-releaseuseruserinfo">ReleaseUserUserInfo</a>
 </td>
 <td align="left" width="63%">
 Releases the UUI buffer for this call.
@@ -199,7 +199,7 @@ Releases the UUI buffer for this call.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itcallinfo-setcallinfobuffer">SetCallInfoBuffer</a>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itcallinfo-setcallinfobuffer">SetCallInfoBuffer</a>
 </td>
 <td align="left" width="63%">
 Sets call information items that require a buffer, such as user-user information.
@@ -210,29 +210,28 @@ Sets call information items that require a buffer, such as user-user information
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/call-object">Call Object</a>
+<a href="/windows/desktop/Tapi/call-object">Call Object</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itcallinfo2">ITCallInfo2</a>
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itcallinfo2">ITCallInfo2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linecallinfo">LINECALLINFO</a>
+<a href="/windows/desktop/api/tapi/ns-tapi-linecallinfo">LINECALLINFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linecallstatus">LINECALLSTATUS</a>
+<a href="/windows/desktop/api/tapi/ns-tapi-linecallstatus">LINECALLSTATUS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linegetcallinfo">lineGetCallInfo</a>
+<a href="/windows/desktop/api/tapi/nf-tapi-linegetcallinfo">lineGetCallInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linegetcallstatus">lineGetCallStatus</a>
-
+<a href="/windows/desktop/api/tapi/nf-tapi-linegetcallstatus">lineGetCallStatus</a>

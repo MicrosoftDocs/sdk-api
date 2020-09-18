@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-Retrieves a list of the authentication services registered when the process called <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-coinitializesecurity">CoInitializeSecurity</a>.
+Retrieves a list of the authentication services registered when the process called <a href="/windows/desktop/api/combaseapi/nf-combaseapi-coinitializesecurity">CoInitializeSecurity</a>.
 
 ## -parameters
 
@@ -64,7 +64,7 @@ A pointer to a variable that receives the number of entries returned in the <i>a
 
 ### -param asAuthSvc [out]
 
-A pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-sole_authentication_service">SOLE_AUTHENTICATION_SERVICE</a> structures. The list is allocated through a call to the <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemalloc">CoTaskMemAlloc</a> function. The caller must free the list when finished with it by calling the <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a> function.
+A pointer to an array of <a href="/windows/desktop/api/objidl/ns-objidl-sole_authentication_service">SOLE_AUTHENTICATION_SERVICE</a> structures. The list is allocated through a call to the <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemalloc">CoTaskMemAlloc</a> function. The caller must free the list when finished with it by calling the <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a> function.
 
 ## -returns
 
@@ -72,21 +72,20 @@ This function can return the standard return values E_INVALIDARG, E_OUTOFMEMORY,
 
 ## -remarks
 
-<b>CoQueryAuthenticationServices</b> retrieves a list of the authentication services currently registered. If the process calls <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-coinitializesecurity">CoInitializeSecurity</a>, these are the services registered through that call. If the application does not call it, <b>CoInitializeSecurity</b> is called automatically by COM, registering the default security package, the first time an interface is marshaled or unmarshaled. 
+<b>CoQueryAuthenticationServices</b> retrieves a list of the authentication services currently registered. If the process calls <a href="/windows/desktop/api/combaseapi/nf-combaseapi-coinitializesecurity">CoInitializeSecurity</a>, these are the services registered through that call. If the application does not call it, <b>CoInitializeSecurity</b> is called automatically by COM, registering the default security package, the first time an interface is marshaled or unmarshaled. 
 
-This function returns only the authentication services registered with <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-coinitializesecurity">CoInitializeSecurity</a>. It does not return all of the authentication services installed on the computer, but <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-enumeratesecuritypackagesa">EnumerateSecurityPackages</a> does. <b>CoQueryAuthenticationServices</b> is primarily useful for custom marshalers, to determine which principal names an application can use.
+This function returns only the authentication services registered with <a href="/windows/desktop/api/combaseapi/nf-combaseapi-coinitializesecurity">CoInitializeSecurity</a>. It does not return all of the authentication services installed on the computer, but <a href="/windows/desktop/api/sspi/nf-sspi-enumeratesecuritypackagesa">EnumerateSecurityPackages</a> does. <b>CoQueryAuthenticationServices</b> is primarily useful for custom marshalers, to determine which principal names an application can use.
 
-Different authentication services support different levels of security. For example, NTLMSSP does not support delegation or mutual authentication while Kerberos does. The application is responsible only for registering authentication services that provide the features the application needs. This function provides a way to find out which services have been registered with <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-coinitializesecurity">CoInitializeSecurity</a>.
+Different authentication services support different levels of security. For example, NTLMSSP does not support delegation or mutual authentication while Kerberos does. The application is responsible only for registering authentication services that provide the features the application needs. This function provides a way to find out which services have been registered with <a href="/windows/desktop/api/combaseapi/nf-combaseapi-coinitializesecurity">CoInitializeSecurity</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-coinitializesecurity">CoInitializeSecurity</a>
+<a href="/windows/desktop/api/combaseapi/nf-combaseapi-coinitializesecurity">CoInitializeSecurity</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-sole_authentication_service">SOLE_AUTHENTICATION_SERVICE</a>
+<a href="/windows/desktop/api/objidl/ns-objidl-sole_authentication_service">SOLE_AUTHENTICATION_SERVICE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/com/security-in-com">Security in COM</a>
-
+<a href="/windows/desktop/com/security-in-com">Security in COM</a>

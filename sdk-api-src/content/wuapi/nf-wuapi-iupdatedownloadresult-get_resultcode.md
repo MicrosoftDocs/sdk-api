@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-Gets an <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/ne-wuapi-operationresultcode">OperationResultCode</a> enumeration value that specifies the result of an operation on the update.
+Gets an <a href="/windows/desktop/api/wuapi/ne-wuapi-operationresultcode">OperationResultCode</a> enumeration value that specifies the result of an operation on the update.
 
 This property is read-only.
 
@@ -59,5 +59,4 @@ This property is read-only.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdatedownloadresult">IUpdateDownloadResult</a>
-
+<a href="/windows/desktop/api/wuapi/nn-wuapi-iupdatedownloadresult">IUpdateDownloadResult</a>

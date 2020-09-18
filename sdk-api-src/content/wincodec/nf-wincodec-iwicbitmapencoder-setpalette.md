@@ -56,9 +56,9 @@ Sets the global palette for the image.
 
 ### -param pIPalette [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicpalette">IWICPalette</a>*</b>
+Type: <b><a href="/windows/desktop/api/wincodec/nn-wincodec-iwicpalette">IWICPalette</a>*</b>
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicpalette">IWICPalette</a> to use as the global palette.
+The <a href="/windows/desktop/api/wincodec/nn-wincodec-iwicpalette">IWICPalette</a> to use as the global palette.
 
 ## -returns
 
@@ -72,4 +72,3 @@ Returns WINCODEC_ERR_UNSUPPORTEDOPERATION if the feature is not supported by the
 ## -remarks
 
 Only GIF images support an optional global palette, and you must set the global palette before adding any frames to the image. You only need to set the palette for indexed pixel formats.
-

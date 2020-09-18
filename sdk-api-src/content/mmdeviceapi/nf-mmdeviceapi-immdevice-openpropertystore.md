@@ -122,14 +122,13 @@ For code examples that call the <b>OpenPropertyStore</b> method, see the followi
 
 <ul>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/CoreAudio/device-properties">Device Properties</a>
+<a href="/windows/desktop/CoreAudio/device-properties">Device Properties</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/CoreAudio/device-roles-for-directsound-applications">Device Roles for DirectSound Applications</a>
+<a href="/windows/desktop/CoreAudio/device-roles-for-directsound-applications">Device Roles for DirectSound Applications</a>
 </li>
 </ul>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmdeviceapi/nn-mmdeviceapi-immdevice">IMMDevice Interface</a>
-
+<a href="/windows/desktop/api/mmdeviceapi/nn-mmdeviceapi-immdevice">IMMDevice Interface</a>

@@ -56,13 +56,13 @@ The <b>IADsClass::Qualifiers</b> method is an optional method that returns a col
 
 ### -param ppQualifiers [out]
 
-Address of an <a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadscollection">IADsCollection</a> pointer variable that receives the interface pointer to the ADSI collection object that represents additional limits for this schema class.
+Address of an <a href="/windows/desktop/api/iads/nn-iads-iadscollection">IADsCollection</a> pointer variable that receives the interface pointer to the ADSI collection object that represents additional limits for this schema class.
 
 ## -returns
 
 This method supports the standard return values, as well as the following.
 
-For more information and other return values, see  <a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-error-codes">ADSI Error Codes</a>.
+For more information and other return values, see  <a href="/windows/desktop/ADSI/adsi-error-codes">ADSI Error Codes</a>.
 
 ## -remarks
 
@@ -101,9 +101,8 @@ Cleanup:
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsclass">IADsClass</a>
+<a href="/windows/desktop/api/iads/nn-iads-iadsclass">IADsClass</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadsproperty-qualifiers">IADsProperty::Qualifiers</a>
-
+<a href="/windows/desktop/api/iads/nf-iads-iadsproperty-qualifiers">IADsProperty::Qualifiers</a>

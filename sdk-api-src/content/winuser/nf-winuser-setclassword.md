@@ -51,7 +51,7 @@ api_name:
 ## -description
 
 Replaces the 16-bit (<b>WORD</b>) value at the specified offset into the extra class memory for the window class to which the specified window belongs.
-<div class="alert"><b>Note</b>  This function is provided only for compatibility with 16-bit versions of Windows. Applications should use the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setclasslonga">SetClassLong</a> function.</div><div> </div>
+<div class="alert"><b>Note</b>  This function is provided only for compatibility with 16-bit versions of Windows. Applications should use the <a href="/windows/desktop/api/winuser/nf-winuser-setclasslonga">SetClassLong</a> function.</div><div> </div>
 
 ## -parameters
 
@@ -79,12 +79,12 @@ Type: <b>WORD</b>
 
 If the function succeeds, the return value is the previous value of the specified 16-bit integer. If the value was not previously set, the return value is zero. 
 
-If the function fails, the return value is zero. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+If the function fails, the return value is zero. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
 Reserve extra class memory by specifying a nonzero value in the 
-				<b>cbClsExtra</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-wndclassa">WNDCLASS</a> structure used with the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-registerclassa">RegisterClass</a> function.
+				<b>cbClsExtra</b> member of the <a href="/windows/desktop/api/winuser/ns-winuser-wndclassa">WNDCLASS</a> structure used with the <a href="/windows/desktop/api/winuser/nf-winuser-registerclassa">RegisterClass</a> function.
 
 ## -see-also
 
@@ -92,7 +92,7 @@ Reserve extra class memory by specifying a nonzero value in the
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getclassword">GetClassWord</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-getclassword">GetClassWord</a>
 
 
 
@@ -100,17 +100,16 @@ Reserve extra class memory by specifying a nonzero value in the
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-registerclassa">RegisterClass</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-registerclassa">RegisterClass</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setclasslonga">SetClassLong</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-setclasslonga">SetClassLong</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-wndclassa">WNDCLASS</a>
+<a href="/windows/desktop/api/winuser/ns-winuser-wndclassa">WNDCLASS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/winmsg/window-classes">Window Classes</a>
-
+<a href="/windows/desktop/winmsg/window-classes">Window Classes</a>

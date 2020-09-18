@@ -57,7 +57,7 @@ Cancels a registration to receive notification when a power setting changes.
 
 ### -param RegistrationHandle [in, out]
 
-A handle to a registration obtained by calling the <a href="https://docs.microsoft.com/windows/desktop/api/powersetting/nf-powersetting-powersettingregisternotification">PowerSettingRegisterNotification</a> function.
+A handle to a registration obtained by calling the <a href="/windows/desktop/api/powersetting/nf-powersetting-powersettingregisternotification">PowerSettingRegisterNotification</a> function.
 
 ## -returns
 
@@ -65,5 +65,4 @@ Returns ERROR_SUCCESS (zero) if the call was successful, and a nonzero value if 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/powersetting/nf-powersetting-powersettingregisternotification">PowerSettingRegisterNotification</a>
-
+<a href="/windows/desktop/api/powersetting/nf-powersetting-powersettingregisternotification">PowerSettingRegisterNotification</a>

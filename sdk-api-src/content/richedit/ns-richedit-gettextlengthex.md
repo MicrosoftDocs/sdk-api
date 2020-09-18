@@ -58,7 +58,7 @@ Contains information about how the text length of a rich edit control should be 
 
 ### -field flags
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 Value specifying the method to be used in determining the text length. This member can be one or more of the following values (some values are mutually exclusive). 
 
@@ -131,11 +131,10 @@ Returns the number of bytes. This flag cannot be used with the GTL_NUMCHARS flag
 
 ### -field codepage
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 Code page used in the translation. It is CP_ACP for ANSI Code Page and 1200 for Unicode.
 
 ## -see-also
 
 <a href="https://msdn.microsoft.com/42c89b7b-e48d-4517-9993-ce58ff9e4e40">EM_GETTEXTLENGTHEX</a>
-

@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-Tests whether an <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> structure is the parent of another <b>ITEMIDLIST</b> structure.
+Tests whether an <a href="/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> structure is the parent of another <b>ITEMIDLIST</b> structure.
 
 ## -parameters
 
@@ -62,13 +62,13 @@ Tests whether an <a href="https://docs.microsoft.com/windows/desktop/api/shtypes
 
 Type: <b>PCIDLIST_ABSOLUTE</b>
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> (PIDL) structure that specifies the parent. This must be an absolute PIDL.
+A pointer to an <a href="/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> (PIDL) structure that specifies the parent. This must be an absolute PIDL.
 
 ### -param pidl2 [in]
 
 Type: <b>PCIDLIST_ABSOLUTE</b>
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> (PIDL) structure that specifies the child. This must be an absolute PIDL.
+A pointer to an <a href="/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> (PIDL) structure that specifies the child. This must be an absolute PIDL.
 
 ### -param fImmediate [in]
 
@@ -81,4 +81,3 @@ A Boolean value that is set to <b>TRUE</b> to test for immediate parents of <i>p
 Type: <b>BOOL</b>
 
 Returns <b>TRUE</b> if <i>pidl1</i> is a parent of <i>pidl2</i>. If <i>fImmediate</i> is set to <b>TRUE</b>, the function only returns <b>TRUE</b> if <i>pidl1</i> is the immediate parent of <i>pidl2</i>. Otherwise, the function returns <b>FALSE</b>.
-

@@ -85,7 +85,7 @@ The method was successful.
 </dl>
 </td>
 <td width="60%">
-An <a href="https://docs.microsoft.com/windows/desktop/api/textstor/nn-textstor-ianchor">IAnchor</a> interface pointer to the <i>paSite</i> anchor could not be obtained, or memory is too low to safely complete the operation.
+An <a href="/windows/desktop/api/textstor/nn-textstor-ianchor">IAnchor</a> interface pointer to the <i>paSite</i> anchor could not be obtained, or memory is too low to safely complete the operation.
 
 </td>
 </tr>
@@ -104,14 +104,13 @@ An <a href="https://docs.microsoft.com/windows/desktop/api/textstor/nn-textstor-
 
 ## -remarks
 
-Implementing this method is usually more efficient than an equivalent <a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-ianchor-shift">IAnchor::Shift</a> operation.
+Implementing this method is usually more efficient than an equivalent <a href="/windows/desktop/api/textstor/nf-textstor-ianchor-shift">IAnchor::Shift</a> operation.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nn-textstor-ianchor">IAnchor</a>
+<a href="/windows/desktop/api/textstor/nn-textstor-ianchor">IAnchor</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-ianchor-shift">IAnchor::Shift
+<a href="/windows/desktop/api/textstor/nf-textstor-ianchor-shift">IAnchor::Shift
       </a>
-

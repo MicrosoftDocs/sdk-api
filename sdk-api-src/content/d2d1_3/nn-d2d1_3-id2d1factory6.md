@@ -54,7 +54,7 @@ Creates Direct2D resources. This interface also enables the creation of ID2D1Dev
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID2D1Factory6</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3/nn-d2d1_3-id2d1factory5">ID2D1Factory5</a>. <b>ID2D1Factory6</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID2D1Factory6</b> interface inherits from <a href="/windows/desktop/api/d2d1_3/nn-d2d1_3-id2d1factory5">ID2D1Factory5</a>. <b>ID2D1Factory6</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ID2D1Factory6</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3/nf-d2d1_3-id2d1factory6-createdevice">CreateDevice</a>
+<a href="/windows/desktop/api/d2d1_3/nf-d2d1_3-id2d1factory6-createdevice">CreateDevice</a>
 </td>
 <td align="left" width="63%">
 Creates a new Direct2D device from the given IDXGIDevice.
@@ -77,4 +77,3 @@ Creates a new Direct2D device from the given IDXGIDevice.
 </td>
 </tr>
 </table>
-

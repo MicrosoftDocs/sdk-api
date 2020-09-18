@@ -60,11 +60,11 @@ CLSID of the class whose formats are being requested.
 
 ### -param dwDirection [in]
 
-Indicates whether to enumerate formats that can be passed to <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-idataobject-getdata">IDataObject::GetData</a> or formats that can be passed to <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-idataobject-setdata">IDataObject::SetData</a>. Possible values are taken from the enumeration <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ne-objidl-datadir">DATADIR</a>.
+Indicates whether to enumerate formats that can be passed to <a href="/windows/desktop/api/objidl/nf-objidl-idataobject-getdata">IDataObject::GetData</a> or formats that can be passed to <a href="/windows/desktop/api/objidl/nf-objidl-idataobject-setdata">IDataObject::SetData</a>. Possible values are taken from the enumeration <a href="/windows/desktop/api/objidl/ne-objidl-datadir">DATADIR</a>.
 
 ### -param ppenum [out]
 
-Address of <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ienumformatetc">IEnumFORMATETC</a> pointer variable that receives the interface pointer to the enumeration object.
+Address of <a href="/windows/desktop/api/objidl/nn-objidl-ienumformatetc">IEnumFORMATETC</a> pointer variable that receives the interface pointer to the enumeration object.
 
 ## -returns
 
@@ -124,17 +124,16 @@ The DataFormats/GetSet key is missing from the registry.
 
 ## -remarks
 
-Object applications can ask OLE to create an enumeration object for <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-formatetc">FORMATETC</a> structures to enumerate supported data formats in one of two ways. One way is to call <b>OleRegEnumFormatEtc</b>. The other is to return OLE_S_USEREG in response to calls by the default object handler to <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-idataobject-enumformatetc">IDataObject::EnumFormatEtc</a>. OLE_S_USEREG instructs the default handler to call <b>OleRegEnumFormatEtc</b>. Because DLL object applications cannot return OLE_S_USEREG, they must call <b>OleRegEnumFormatEtc</b> rather than delegating the job to the object handler. With the supplied <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ienumformatetc">IEnumFORMATETC</a> pointer to the object, you can call the standard enumeration object methods to do the enumeration.
+Object applications can ask OLE to create an enumeration object for <a href="/windows/desktop/api/objidl/ns-objidl-formatetc">FORMATETC</a> structures to enumerate supported data formats in one of two ways. One way is to call <b>OleRegEnumFormatEtc</b>. The other is to return OLE_S_USEREG in response to calls by the default object handler to <a href="/windows/desktop/api/objidl/nf-objidl-idataobject-enumformatetc">IDataObject::EnumFormatEtc</a>. OLE_S_USEREG instructs the default handler to call <b>OleRegEnumFormatEtc</b>. Because DLL object applications cannot return OLE_S_USEREG, they must call <b>OleRegEnumFormatEtc</b> rather than delegating the job to the object handler. With the supplied <a href="/windows/desktop/api/objidl/nn-objidl-ienumformatetc">IEnumFORMATETC</a> pointer to the object, you can call the standard enumeration object methods to do the enumeration.
 
 
 
-The <b>OleRegEnumFormatEtc</b> function and its sibling functions, <a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-olereggetusertype">OleRegGetUserType</a>, <a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-olereggetmiscstatus">OleRegGetMiscStatus</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-oleregenumverbs">OleRegEnumVerbs</a>, provide a way for developers of custom DLL object applications to emulate the behavior of OLE's default object handler in getting information about objects from the registry. By using these functions, you avoid the considerable work of writing your own, and the pitfalls inherent in working directly in the registry. In addition, you get future enhancements and optimizations of these functions without having to code them yourself.
+The <b>OleRegEnumFormatEtc</b> function and its sibling functions, <a href="/windows/desktop/api/ole2/nf-ole2-olereggetusertype">OleRegGetUserType</a>, <a href="/windows/desktop/api/ole2/nf-ole2-olereggetmiscstatus">OleRegGetMiscStatus</a>, and <a href="/windows/desktop/api/ole2/nf-ole2-oleregenumverbs">OleRegEnumVerbs</a>, provide a way for developers of custom DLL object applications to emulate the behavior of OLE's default object handler in getting information about objects from the registry. By using these functions, you avoid the considerable work of writing your own, and the pitfalls inherent in working directly in the registry. In addition, you get future enhancements and optimizations of these functions without having to code them yourself.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-idataobject-enumformatetc">IDataObject::EnumFormatEtc</a>
+<a href="/windows/desktop/api/objidl/nf-objidl-idataobject-enumformatetc">IDataObject::EnumFormatEtc</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ienumformatetc">IEnumFORMATETC</a>
-
+<a href="/windows/desktop/api/objidl/nn-objidl-ienumformatetc">IEnumFORMATETC</a>

@@ -82,7 +82,7 @@ This function returns standard Windows error codes.
 
 When using this function, supply the service class and part of a DNS host name.
 
-This function is a simplified version of the <a href="https://docs.microsoft.com/windows/desktop/api/dsparse/nf-dsparse-dsmakespna">DsMakeSpn</a> function. The <i>ServiceName</i> is made canonical by resolving through DNS.
+This function is a simplified version of the <a href="/windows/desktop/api/dsparse/nf-dsparse-dsmakespna">DsMakeSpn</a> function. The <i>ServiceName</i> is made canonical by resolving through DNS.
 
 GUID-based DNS names are not supported. When constructed, the simplified SPN is as follows:
 
@@ -98,9 +98,8 @@ The instance name portion (second position) is always set to default. The port a
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/AD/dc-and-replication-management-functions">Domain Controller and Replication Management Functions</a>
+<a href="/windows/desktop/AD/dc-and-replication-management-functions">Domain Controller and Replication Management Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dsparse/nf-dsparse-dsmakespna">DsMakeSpn</a>
-
+<a href="/windows/desktop/api/dsparse/nf-dsparse-dsmakespna">DsMakeSpn</a>

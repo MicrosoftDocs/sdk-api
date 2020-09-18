@@ -74,11 +74,10 @@ Returns S_OK if successful; otherwise, returns one of the following values:
 <ul>
 <li>E_INVALIDARG if one of the input parameters is invalid.</li>
 <li>E_OUTOFMEMORY if sufficient memory is not available to create the handle.</li>
-<li>Possibly other error codes that are described in the <a href="https://docs.microsoft.com/windows/desktop/direct3d12/d3d12-graphics-reference-returnvalues">Direct3D 12 Return Codes</a> topic.
+<li>Possibly other error codes that are described in the <a href="/windows/desktop/direct3d12/d3d12-graphics-reference-returnvalues">Direct3D 12 Return Codes</a> topic.
               </li>
 </ul>
 
 ## -see-also
 
 <a href="https://msdn.microsoft.com/en-us/library/Mt847457(v=VS.85).aspx">ID3D12Device5</a>
-

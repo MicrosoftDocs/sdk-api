@@ -54,7 +54,7 @@ api_name:
 ## -description
 
 Contains output of a repair copies operation returned from the 
-     <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_repair_copies">FSCTL_REPAIR_COPIES</a> control code.
+     <a href="/windows/desktop/api/winioctl/ni-winioctl-fsctl_repair_copies">FSCTL_REPAIR_COPIES</a> control code.
 
 ## -struct-fields
 
@@ -66,11 +66,10 @@ Set to <code>sizeof(REPAIR_COPIES_OUTPUT)</code>.
 
 Indicates the status of the repair operation. The value is a <b>NTSTATUS</b> value. 
       See 
-      <a href="https://docs.microsoft.com/openspecs/windows_protocols/ms-erref/596a1078-e883-4972-9bbc-49e60bebca55">http://msdn.microsoft.com/en-us/library/cc704588(PROT.10).aspx</a> 
+      <a href="/openspecs/windows_protocols/ms-erref/596a1078-e883-4972-9bbc-49e60bebca55">http://msdn.microsoft.com/en-us/library/cc704588(PROT.10).aspx</a> 
       for a list of <b>NTSTATUS</b> values.
 
 ### -field ResumeFileOffset
 
 If the <b>Status</b> member indicates the operation was not successful, this is the 
       file offset to use to resume repair operations, skipping the range where errors were found.
-

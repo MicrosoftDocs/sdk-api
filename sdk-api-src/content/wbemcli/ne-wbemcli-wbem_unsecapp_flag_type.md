@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-Used to control access checks on callbacks when using the <a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemunsecuredapartment-createsinkstub">IWbemUnsecuredApartment::CreateSinkStub</a> method.
+Used to control access checks on callbacks when using the <a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemunsecuredapartment-createsinkstub">IWbemUnsecuredApartment::CreateSinkStub</a> method.
 
 ## -enum-fields
 
@@ -67,4 +67,3 @@ Unsecapp.exe authenticates callbacks regardless of the setting of the registry k
 ### -field WBEM_FLAG_UNSECAPP_DONT_CHECK_ACCESS
 
 Unsecapp.exe does not authenticate callbacks regardless of the setting of the registry key UnsecAppAccessControlDefault.
-

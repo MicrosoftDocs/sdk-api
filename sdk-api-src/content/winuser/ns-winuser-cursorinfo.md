@@ -118,7 +118,7 @@ A handle to the cursor.
 
 ### -field ptScreenPos
 
-Type: <b><a href="https://docs.microsoft.com/previous-versions/dd162805(v=vs.85)">POINT</a></b>
+Type: <b><a href="/previous-versions/dd162805(v=vs.85)">POINT</a></b>
 
 A   structure that receives the screen coordinates of the cursor.
 
@@ -128,17 +128,16 @@ A   structure that receives the screen coordinates of the cursor.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/menurc/cursors">Cursors</a>
+<a href="/windows/desktop/menurc/cursors">Cursors</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getcursorinfo">GetCursorInfo</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-getcursorinfo">GetCursorInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/dd162805(v=vs.85)">POINT</a>
+<a href="/previous-versions/dd162805(v=vs.85)">POINT</a>
 
 
 
 <b>Reference</b>
-

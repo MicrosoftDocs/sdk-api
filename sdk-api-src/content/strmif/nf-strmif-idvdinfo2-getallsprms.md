@@ -57,7 +57,7 @@ The <b>GetAllSPRMs</b> method retrieves the current contents of all system param
 
 ### -param pRegisterArray [out]
 
-Pointer to an array of type <a href="https://docs.microsoft.com/windows/desktop/DirectShow/sprmarray">SPRMARRAY</a> that receives the address of an array of SPRMs.
+Pointer to an array of type <a href="/windows/desktop/DirectShow/sprmarray">SPRMARRAY</a> that receives the address of an array of SPRMs.
 
 ## -returns
 
@@ -193,13 +193,12 @@ The 24 SPRMs are used to hold information on current language, subpicture, and o
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/dvd-applications">DVD Applications</a>
+<a href="/windows/desktop/DirectShow/dvd-applications">DVD Applications</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-idvdinfo2">IDvdInfo2 Interface</a>
-
+<a href="/windows/desktop/api/strmif/nn-strmif-idvdinfo2">IDvdInfo2 Interface</a>

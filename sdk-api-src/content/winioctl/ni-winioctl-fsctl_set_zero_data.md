@@ -86,7 +86,7 @@ Irp->IoStatus.Status is set to STATUS_SUCCESS if the request is successful.
 
 Otherwise, Status to the appropriate error condition as a NTSTATUS code. 
 
-For more information, see [NTSTATUS Values](https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values).
+For more information, see [NTSTATUS Values](/windows-hardware/drivers/kernel/ntstatus-values).
 
 ## -remarks
 
@@ -114,6 +114,5 @@ Resilient File System (ReFS) | Yes
 * [FILE_ZERO_DATA_INFORMATION](ns-winioctl-file_zero_data_information.md)
 * [FSCTL_QUERY_ALLOCATED_RANGES](ni-winioctl-fsctl_query_allocated_ranges.md)
 * [FSCTL_SET_SPARSE](ni-winioctl-fsctl_set_sparse.md)
-* [File Management Control Codes](https://docs.microsoft.com/windows/desktop/FileIO/file-management-control-codes)
-* [Sparse Files](https://docs.microsoft.com/windows/desktop/FileIO/sparse-files)
-
+* [File Management Control Codes](/windows/desktop/FileIO/file-management-control-codes)
+* [Sparse Files](/windows/desktop/FileIO/sparse-files)

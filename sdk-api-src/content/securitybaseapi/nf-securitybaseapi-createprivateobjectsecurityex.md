@@ -57,13 +57,13 @@ api_name:
 
 ## -description
 
-The <b>CreatePrivateObjectSecurityEx</b> function allocates and initializes a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">self-relative security descriptor</a> for a new private object created by the resource manager calling this function.
+The <b>CreatePrivateObjectSecurityEx</b> function allocates and initializes a <a href="/windows/desktop/SecGloss/s-gly">self-relative security descriptor</a> for a new private object created by the resource manager calling this function.
 
 ## -parameters
 
 ### -param ParentDescriptor [in, optional]
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security descriptor</a> for the parent container of the object. If there is no parent container, this parameter is <b>NULL</b>.
+A pointer to the <a href="/windows/desktop/SecGloss/s-gly">security descriptor</a> for the parent container of the object. If there is no parent container, this parameter is <b>NULL</b>.
 
 ### -param CreatorDescriptor [in, optional]
 
@@ -72,7 +72,7 @@ A pointer to a security descriptor provided by the creator of the object. If the
 ### -param NewDescriptor [out]
 
 A pointer to a variable that receives a pointer to the newly allocated self-relative security descriptor. When you have finished using the security descriptor, free it by calling the  
-<a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-destroyprivateobjectsecurity">DestroyPrivateObjectSecurity</a> function.
+<a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-destroyprivateobjectsecurity">DestroyPrivateObjectSecurity</a> function.
 
 ### -param ObjectType [in, optional]
 
@@ -85,7 +85,7 @@ Specifies whether the new object can contain other objects. A value of <b>TRUE</
 
 ### -param AutoInheritFlags [in]
 
-A set of bit flags that control how <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">access control entries</a> (ACEs) are inherited from <i>ParentDescriptor</i>. This parameter can be a combination of the following values.
+A set of bit flags that control how <a href="/windows/desktop/SecGloss/a-gly">access control entries</a> (ACEs) are inherited from <i>ParentDescriptor</i>. This parameter can be a combination of the following values.
 
 <table>
 <tr>
@@ -134,7 +134,7 @@ The function does not perform privilege checking. If the SEF_AVOID_OWNER_CHECK f
 </dl>
 </td>
 <td width="60%">
-The new <a href="https://docs.microsoft.com/windows/desktop/SecGloss/d-gly">discretionary access control list</a> (DACL) contains ACEs inherited from the DACL of 
+The new <a href="/windows/desktop/SecGloss/d-gly">discretionary access control list</a> (DACL) contains ACEs inherited from the DACL of 
         <i>ParentDescriptor</i>, as well as any explicit ACEs specified in the DACL of 
         <i>CreatorDescriptor</i>. If this flag is not set, the new DACL does not inherit ACEs.
 
@@ -183,7 +183,7 @@ The owner of <i>NewDescriptor</i> defaults to the owner from <i>ParentDescriptor
 </dl>
 </td>
 <td width="60%">
-When this flag is set, the mandatory label ACE in <i>CreatorDescriptor</i> is not used to create a mandatory label ACE in <i>NewDescriptor</i>. Instead, a new <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-system_mandatory_label_ace">SYSTEM_MANDATORY_LABEL_ACE</a> with an access mask of <b>SYSTEM_MANDATORY_LABEL_NO_EXECUTE_UP</b> and the SID from the token's integrity SID is added to <i>NewDescriptor</i>.
+When this flag is set, the mandatory label ACE in <i>CreatorDescriptor</i> is not used to create a mandatory label ACE in <i>NewDescriptor</i>. Instead, a new <a href="/windows/desktop/api/winnt/ns-winnt-system_mandatory_label_ace">SYSTEM_MANDATORY_LABEL_ACE</a> with an access mask of <b>SYSTEM_MANDATORY_LABEL_NO_EXECUTE_UP</b> and the SID from the token's integrity SID is added to <i>NewDescriptor</i>.
 
 </td>
 </tr>
@@ -194,7 +194,7 @@ When this flag is set, the mandatory label ACE in <i>CreatorDescriptor</i> is no
 </dl>
 </td>
 <td width="60%">
-When this flag is set, the mandatory label ACE in <i>CreatorDescriptor</i> is not used to create a mandatory label ACE in <i>NewDescriptor</i>. Instead, a new <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-system_mandatory_label_ace">SYSTEM_MANDATORY_LABEL_ACE</a> with an access mask of <b>SYSTEM_MANDATORY_LABEL_NO_READ_UP</b> and the SID from the token's integrity SID is added to <i>NewDescriptor</i>.
+When this flag is set, the mandatory label ACE in <i>CreatorDescriptor</i> is not used to create a mandatory label ACE in <i>NewDescriptor</i>. Instead, a new <a href="/windows/desktop/api/winnt/ns-winnt-system_mandatory_label_ace">SYSTEM_MANDATORY_LABEL_ACE</a> with an access mask of <b>SYSTEM_MANDATORY_LABEL_NO_READ_UP</b> and the SID from the token's integrity SID is added to <i>NewDescriptor</i>.
 
 </td>
 </tr>
@@ -205,7 +205,7 @@ When this flag is set, the mandatory label ACE in <i>CreatorDescriptor</i> is no
 </dl>
 </td>
 <td width="60%">
-When this flag is set, the mandatory label ACE in <i>CreatorDescriptor</i> is not used to create a mandatory label ACE in <i>NewDescriptor</i>. Instead, a new <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-system_mandatory_label_ace">SYSTEM_MANDATORY_LABEL_ACE</a> with an access mask of <b>SYSTEM_MANDATORY_LABEL_NO_WRITE_UP</b> and the SID from the token's integrity SID is added to <i>NewDescriptor</i>.
+When this flag is set, the mandatory label ACE in <i>CreatorDescriptor</i> is not used to create a mandatory label ACE in <i>NewDescriptor</i>. Instead, a new <a href="/windows/desktop/api/winnt/ns-winnt-system_mandatory_label_ace">SYSTEM_MANDATORY_LABEL_ACE</a> with an access mask of <b>SYSTEM_MANDATORY_LABEL_NO_WRITE_UP</b> and the SID from the token's integrity SID is added to <i>NewDescriptor</i>.
 
 </td>
 </tr>
@@ -216,7 +216,7 @@ When this flag is set, the mandatory label ACE in <i>CreatorDescriptor</i> is no
 </dl>
 </td>
 <td width="60%">
-The new <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">system access control list</a> (SACL) contains ACEs inherited from the SACL of 
+The new <a href="/windows/desktop/SecGloss/s-gly">system access control list</a> (SACL) contains ACEs inherited from the SACL of 
         <i>ParentDescriptor</i>, as well as any explicit ACEs specified in the SACL of 
         <i>CreatorDescriptor</i>. If this flag is not set, the new SACL does not inherit ACEs.
 
@@ -226,8 +226,8 @@ The new <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">syst
 
 ### -param Token [in, optional]
 
-A handle to the access token for the client process on whose behalf the object is being created. If this is an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/i-gly">impersonation token</a>, it must be at SecurityIdentification level or higher. For a full description of the SecurityIdentification impersonation level, see the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ne-winnt-security_impersonation_level">SECURITY_IMPERSONATION_LEVEL</a> enumerated type. 
+A handle to the access token for the client process on whose behalf the object is being created. If this is an <a href="/windows/desktop/SecGloss/i-gly">impersonation token</a>, it must be at SecurityIdentification level or higher. For a full description of the SecurityIdentification impersonation level, see the 
+<a href="/windows/desktop/api/winnt/ne-winnt-security_impersonation_level">SECURITY_IMPERSONATION_LEVEL</a> enumerated type. 
 
 
 
@@ -246,14 +246,14 @@ If all of the following conditions are true, then the handle must be opened for 
 ### -param GenericMapping [in]
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-generic_mapping">GENERIC_MAPPING</a> structure that specifies the mapping from each generic right to specific rights for the object.
+<a href="/windows/desktop/api/winnt/ns-winnt-generic_mapping">GENERIC_MAPPING</a> structure that specifies the mapping from each generic right to specific rights for the object.
 
 ## -returns
 
 If the function succeeds, the function returns nonzero.
 
 If the function fails, it returns zero. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. Some of the extended error codes and their meanings are listed in the following table.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. Some of the extended error codes and their meanings are listed in the following table.
 
 <table>
 <tr>
@@ -309,11 +309,11 @@ A SACL is being set, SEF_AVOID_PRIVILEGE_CHECK was not passed in, and the token 
 ## -remarks
 
 The 
-<a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-createprivateobjectsecurity">CreatePrivateObjectSecurity</a> function is identical to calling the <b>CreatePrivateObjectSecurityEx</b> function with <i>ObjectType</i> set to <b>NULL</b> and <i>AutoInheritFlags</i> set to zero.
+<a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-createprivateobjectsecurity">CreatePrivateObjectSecurity</a> function is identical to calling the <b>CreatePrivateObjectSecurityEx</b> function with <i>ObjectType</i> set to <b>NULL</b> and <i>AutoInheritFlags</i> set to zero.
 
 The <i>AutoInheritFlags</i> parameter is distinct from the similarly named bits in the <b>Control</b> member of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-security_descriptor">SECURITY_DESCRIPTOR</a> structure. For an explanation of the control bits, see 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/security-descriptor-control">SECURITY_DESCRIPTOR_CONTROL</a>.
+<a href="/windows/desktop/api/winnt/ns-winnt-security_descriptor">SECURITY_DESCRIPTOR</a> structure. For an explanation of the control bits, see 
+<a href="/windows/desktop/SecAuthZ/security-descriptor-control">SECURITY_DESCRIPTOR_CONTROL</a>.
 
 If <i>AutoInheritFlags</i> specifies the SEF_DACL_AUTO_INHERIT bit, the function applies the following rules to the DACL in the new security descriptor:
 
@@ -359,19 +359,19 @@ If the <i>CreatorDescriptor</i> security descriptor contains a SACL, <i>Token</i
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/client-server-access-control">Client/Server Access Control Overview</a>
+<a href="/windows/desktop/SecAuthZ/client-server-access-control">Client/Server Access Control Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-createprivateobjectsecurity">CreatePrivateObjectSecurity</a>
+<a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-createprivateobjectsecurity">CreatePrivateObjectSecurity</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-destroyprivateobjectsecurity">DestroyPrivateObjectSecurity</a>
+<a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-destroyprivateobjectsecurity">DestroyPrivateObjectSecurity</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-generic_mapping">GENERIC_MAPPING</a>
+<a href="/windows/desktop/api/winnt/ns-winnt-generic_mapping">GENERIC_MAPPING</a>
 
 
 
@@ -379,25 +379,24 @@ If the <i>CreatorDescriptor</i> security descriptor contains a SACL, <i>Token</i
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-gettokeninformation">GetTokenInformation</a>
+<a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-gettokeninformation">GetTokenInformation</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-openprocesstoken">OpenProcessToken</a>
+<a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-openprocesstoken">OpenProcessToken</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-security_descriptor">SECURITY_DESCRIPTOR</a>
+<a href="/windows/desktop/api/winnt/ns-winnt-security_descriptor">SECURITY_DESCRIPTOR</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/security-descriptor-control">SECURITY_DESCRIPTOR_CONTROL</a>
+<a href="/windows/desktop/SecAuthZ/security-descriptor-control">SECURITY_DESCRIPTOR_CONTROL</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ne-winnt-security_impersonation_level">SECURITY_IMPERSONATION_LEVEL</a>
+<a href="/windows/desktop/api/winnt/ne-winnt-security_impersonation_level">SECURITY_IMPERSONATION_LEVEL</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-setprivateobjectsecurityex">SetPrivateObjectSecurityEx</a>
-
+<a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-setprivateobjectsecurityex">SetPrivateObjectSecurityEx</a>

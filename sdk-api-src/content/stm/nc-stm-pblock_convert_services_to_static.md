@@ -100,13 +100,12 @@ The parameter is invalid.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/stm/nc-stm-pblock_delete_static_services">BlockDeleteStaticServices</a>
+<a href="/windows/desktop/api/stm/nc-stm-pblock_delete_static_services">BlockDeleteStaticServices</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/ipx-service-table-management">IPX Service Table Management</a>
+<a href="/windows/desktop/RRAS/ipx-service-table-management">IPX Service Table Management</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/service-table-management-functions">Service Table Management Functions</a>
-
+<a href="/windows/desktop/RRAS/service-table-management-functions">Service Table Management Functions</a>

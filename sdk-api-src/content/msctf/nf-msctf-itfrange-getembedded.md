@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-The <b>ITfRange::GetEmbedded</b> method obtains content that corresponds to a <a href="https://docs.microsoft.com/windows/desktop/TSF/ts-char--constants">TS_CHAR_EMBEDDED</a> character in the text stream. The start anchor of the range of text is positioned just before the character of interest.
+The <b>ITfRange::GetEmbedded</b> method obtains content that corresponds to a <a href="/windows/desktop/TSF/ts-char--constants">TS_CHAR_EMBEDDED</a> character in the text stream. The start anchor of the range of text is positioned just before the character of interest.
 
 ## -parameters
 
 ### -param ec [in]
 
-Edit cookie obtained from <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfdocumentmgr-createcontext">ITfDocumentMgr::CreateContext</a> or <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfeditsession-doeditsession">ITfEditSession::DoEditSession</a>.
+Edit cookie obtained from <a href="/windows/desktop/api/msctf/nf-msctf-itfdocumentmgr-createcontext">ITfDocumentMgr::CreateContext</a> or <a href="/windows/desktop/api/msctf/nf-msctf-itfeditsession-doeditsession">ITfEditSession::DoEditSession</a>.
 
 ### -param rguidService [in]
 
@@ -73,7 +73,7 @@ Identifier that specifies how the embedded content is obtained.
 </dl>
 </td>
 <td width="60%">
-Output should be an <a href="https://docs.microsoft.com/windows/desktop/WinAuto/accessible-objects">Accessible object</a>.
+Output should be an <a href="/windows/desktop/WinAuto/accessible-objects">Accessible object</a>.
 
 </td>
 </tr>
@@ -93,7 +93,7 @@ Caller requires a direct pointer to the object that supports the interface speci
 </dl>
 </td>
 <td width="60%">
-Content should be obtained as an <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a> data transfer object, with <i>riid</i> being IID_IDataObject. Clients should specify this option when a copy of the content is required.
+Content should be obtained as an <a href="/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a> data transfer object, with <i>riid</i> being IID_IDataObject. Clients should specify this option when a copy of the content is required.
 
 </td>
 </tr>
@@ -211,36 +211,35 @@ While the obtained object might not support certain interfaces, it is likely tha
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/WinAuto/accessible-objects">Accessible Objects</a>
+<a href="/windows/desktop/WinAuto/accessible-objects">Accessible Objects</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a>
+<a href="/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfdocumentmgr-createcontext">ITfDocumentMgr::CreateContext
+<a href="/windows/desktop/api/msctf/nf-msctf-itfdocumentmgr-createcontext">ITfDocumentMgr::CreateContext
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfeditsession-doeditsession">ITfEditSession::DoEditSession
+<a href="/windows/desktop/api/msctf/nf-msctf-itfeditsession-doeditsession">ITfEditSession::DoEditSession
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfrange">ITfRange</a>
+<a href="/windows/desktop/api/msctf/nn-msctf-itfrange">ITfRange</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfrange-insertembedded">ITfRange::InsertEmbedded
+<a href="/windows/desktop/api/msctf/nf-msctf-itfrange-insertembedded">ITfRange::InsertEmbedded
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/TSF/miscellaneous-framework-constants">Miscellaneous Framework Constants</a>
+<a href="/windows/desktop/TSF/miscellaneous-framework-constants">Miscellaneous Framework Constants</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/TSF/text-stores">Text Stores</a>
-
+<a href="/windows/desktop/TSF/text-stores">Text Stores</a>

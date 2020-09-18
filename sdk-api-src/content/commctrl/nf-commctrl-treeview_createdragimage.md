@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Creates a dragging bitmap for the specified item in a tree-view control. The macro also creates an image list for the bitmap and adds the bitmap to the image list. An application can display the image when dragging the item by using the image list functions. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/tvm-createdragimage">TVM_CREATEDRAGIMAGE</a> message explicitly.
+Creates a dragging bitmap for the specified item in a tree-view control. The macro also creates an image list for the bitmap and adds the bitmap to the image list. An application can display the image when dragging the item by using the image list functions. You can use this macro or send the <a href="/windows/desktop/Controls/tvm-createdragimage">TVM_CREATEDRAGIMAGE</a> message explicitly.
 
 ## -parameters
 
 ### -param hwnd
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 Handle to the tree-view control.
 
@@ -71,4 +71,3 @@ Handle to the item that receives the new dragging bitmap.
 If you create a tree-view control without an associated image list, you cannot use the <b>TreeView_CreateDragImage</b> macro to create the image to display during a drag operation. You must implement your own method of creating a drag cursor.
 
 Your application is responsible for destroying the image list when it is no longer needed.
-

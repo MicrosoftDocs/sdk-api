@@ -56,7 +56,7 @@ Retrieves the list of multi-session interfaces for the optical media.
 
 ### -param pVal [out]
 
-List of multi-session interfaces for the optical media. Each element of the list is a <b>VARIANT</b> of type <b>VT_Dispatch</b>. Query the <b>pdispVal</b> member of the variant for the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-imultisession">IMultisession</a> interface.
+List of multi-session interfaces for the optical media. Each element of the list is a <b>VARIANT</b> of type <b>VT_Dispatch</b>. Query the <b>pdispVal</b> member of the variant for the <a href="/windows/desktop/api/imapi2/nn-imapi2-imultisession">IMultisession</a> interface.
 
 ## -returns
 
@@ -97,13 +97,12 @@ Value: 0x8007000E
 
 ## -remarks
 
-Query the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-imultisession">IMultisession</a> interface for a derived <b>IMultisession</b> interface, for example, the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-imultisessionsequential">IMultisessionSequential</a> interface.
+Query the <a href="/windows/desktop/api/imapi2/nn-imapi2-imultisession">IMultisession</a> interface for a derived <b>IMultisession</b> interface, for example, the <a href="/windows/desktop/api/imapi2/nn-imapi2-imultisessionsequential">IMultisessionSequential</a> interface.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nn-imapi2fs-ifilesystemimage">IFileSystemImage</a>
+<a href="/windows/desktop/api/imapi2fs/nn-imapi2fs-ifilesystemimage">IFileSystemImage</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-put_multisessioninterfaces">IFileSystemImage::put_MultisessionInterfaces</a>
-
+<a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-put_multisessioninterfaces">IFileSystemImage::put_MultisessionInterfaces</a>

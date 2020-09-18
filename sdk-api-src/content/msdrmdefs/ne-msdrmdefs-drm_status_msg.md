@@ -57,7 +57,7 @@ api_name:
 
 the client in Msdrm.dll is available for use in Windows Server 2008, Windows Vista, Windows Server 2008 R2, Windows 7, Windows Server 2012, and Windows 8. It may be altered or 
 
-unavailable in subsequent versions. Instead, use <a href="https://docs.microsoft.com/previous-versions/windows/desktop/msipc/microsoft-information-protection-and-control-client-portal">Active Directory Rights Management Services SDK 2.1</a>, 
+unavailable in subsequent versions. Instead, use <a href="/previous-versions/windows/desktop/msipc/microsoft-information-protection-and-control-client-portal">Active Directory Rights Management Services SDK 2.1</a>, 
 
 which leverages functionality exposed by the client in Msipc.dll.]
 
@@ -67,31 +67,31 @@ The <b>DRM_STATUS_MSG</b> enumeration is used by the custom callback function to
 
 ### -field DRM_MSG_ACTIVATE_MACHINE
 
-AD RMS is attempting to activate the machine. For more information, see the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/adrms_sdk/drm-msg-activate-machine">DRM_MSG_ACTIVATE_MACHINE</a> message.
+AD RMS is attempting to activate the machine. For more information, see the <a href="/previous-versions/windows/desktop/adrms_sdk/drm-msg-activate-machine">DRM_MSG_ACTIVATE_MACHINE</a> message.
 
 ### -field DRM_MSG_ACTIVATE_GROUPIDENTITY
 
-AD RMS is attempting to activate a user. For more information, see the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/adrms_sdk/drm-msg-activate-groupidentity">DRM_MSG_ACTIVATE_GROUPIDENTITY</a> message.
+AD RMS is attempting to activate a user. For more information, see the <a href="/previous-versions/windows/desktop/adrms_sdk/drm-msg-activate-groupidentity">DRM_MSG_ACTIVATE_GROUPIDENTITY</a> message.
 
 ### -field DRM_MSG_ACQUIRE_LICENSE
 
-AD RMS is attempting to acquire a license. For more information, see the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/adrms_sdk/drm-msg-acquire-license">DRM_MSG_ACQUIRE_LICENSE</a> message.
+AD RMS is attempting to acquire a license. For more information, see the <a href="/previous-versions/windows/desktop/adrms_sdk/drm-msg-acquire-license">DRM_MSG_ACQUIRE_LICENSE</a> message.
 
 ### -field DRM_MSG_ACQUIRE_ADVISORY
 
-AD RMS is attempting to acquire a revocation list. For more information, see the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/adrms_sdk/drm-msg-acquire-advisory">DRM_MSG_ACQUIRE_ADVISORY</a> message.
+AD RMS is attempting to acquire a revocation list. For more information, see the <a href="/previous-versions/windows/desktop/adrms_sdk/drm-msg-acquire-advisory">DRM_MSG_ACQUIRE_ADVISORY</a> message.
 
 ### -field DRM_MSG_SIGN_ISSUANCE_LICENSE
 
-AD RMS is attempting to acquire a signed issuance license. For more information, see the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/adrms_sdk/drm-msg-sign-issuance-license">DRM_MSG_SIGN_ISSUANCE_LICENSE</a> message.
+AD RMS is attempting to acquire a signed issuance license. For more information, see the <a href="/previous-versions/windows/desktop/adrms_sdk/drm-msg-sign-issuance-license">DRM_MSG_SIGN_ISSUANCE_LICENSE</a> message.
 
 ### -field DRM_MSG_ACQUIRE_CLIENTLICENSOR
 
-AD RMS is attempting to acquire a client licensor certificate. For more information, see the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/adrms_sdk/drm-msg-acquire-clientlicensor">DRM_MSG_ACQUIRE_CLIENTLICENSOR</a> message.
+AD RMS is attempting to acquire a client licensor certificate. For more information, see the <a href="/previous-versions/windows/desktop/adrms_sdk/drm-msg-acquire-clientlicensor">DRM_MSG_ACQUIRE_CLIENTLICENSOR</a> message.
 
 ### -field DRM_MSG_ACQUIRE_ISSUANCE_LICENSE_TEMPLATE
 
-AD RMS is attempting to acquire a template collection. For more information, see the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/adrms_sdk/drm-msg-acquire-issuance-license-template">DRM_MSG_ACQUIRE_ISSUANCE_LICENSE_TEMPLATE</a> message.
+AD RMS is attempting to acquire a template collection. For more information, see the <a href="/previous-versions/windows/desktop/adrms_sdk/drm-msg-acquire-issuance-license-template">DRM_MSG_ACQUIRE_ISSUANCE_LICENSE_TEMPLATE</a> message.
 
 ## -remarks
 
@@ -99,21 +99,20 @@ The callback function can use this message, together with the <i>hr</i> paramete
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/adrms_sdk/ad-rms-enumerations">AD RMS Enumerations</a>
+<a href="/previous-versions/windows/desktop/adrms_sdk/ad-rms-enumerations">AD RMS Enumerations</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/adrms_sdk/creating-a-callback-function">Creating a Callback Function</a>
+<a href="/previous-versions/windows/desktop/adrms_sdk/creating-a-callback-function">Creating a Callback Function</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmacquireadvisories">DRMAcquireAdvisories</a>
+<a href="/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmacquireadvisories">DRMAcquireAdvisories</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmacquirelicense">DRMAcquireLicense</a>
+<a href="/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmacquirelicense">DRMAcquireLicense</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmactivate">DRMActivate</a>
-
+<a href="/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmactivate">DRMActivate</a>

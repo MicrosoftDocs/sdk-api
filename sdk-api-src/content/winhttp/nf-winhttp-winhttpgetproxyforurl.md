@@ -56,7 +56,7 @@ The <b>WinHttpGetProxyForUrl</b> function retrieves the proxy data for the speci
 
 ### -param hSession [in]
 
-The WinHTTP session handle returned by the <a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpopen">WinHttpOpen</a> function.
+The WinHTTP session handle returned by the <a href="/windows/desktop/api/winhttp/nf-winhttp-winhttpopen">WinHttpOpen</a> function.
 
 ### -param lpcwszUrl [in]
 
@@ -68,7 +68,7 @@ A pointer to a <a href="/windows/win32/api/winhttp/ns-winhttp-winhttp_autoproxy_
 
 ### -param pProxyInfo [out]
 
-A pointer to a <a href="/windows/win32/api/winhttp/ns-winhttp-winhttp_proxy_info">WINHTTP_PROXY_INFO</a> structure that receives the proxy setting. This structure is then applied to the request handle using the WINHTTP_OPTION_PROXY option. Free the <b>lpszProxy</b> and <b>lpszProxyBypass</b> strings contained in this structure (if they are non-NULL) using the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-globalfree">GlobalFree</a> function.
+A pointer to a <a href="/windows/win32/api/winhttp/ns-winhttp-winhttp_proxy_info">WINHTTP_PROXY_INFO</a> structure that receives the proxy setting. This structure is then applied to the request handle using the WINHTTP_OPTION_PROXY option. Free the <b>lpszProxy</b> and <b>lpszProxyBypass</b> strings contained in this structure (if they are non-NULL) using the <a href="/windows/desktop/api/winbase/nf-winbase-globalfree">GlobalFree</a> function.
 
 ## -returns
 
@@ -76,7 +76,7 @@ If the function succeeds, the function returns <b>TRUE</b>.
 
 
 If the function fails, it returns <b>FALSE</b>. For extended error data, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
   Possible error codes include the folllowing.
 
@@ -92,7 +92,7 @@ If the function fails, it returns <b>FALSE</b>. For extended error data, call
 </dl>
 </td>
 <td width="60%">
-Returned by <a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpgetproxyforurl">WinHttpGetProxyForUrl</a> when a proxy for the specified URL cannot be located.
+Returned by <a href="/windows/desktop/api/winhttp/nf-winhttp-winhttpgetproxyforurl">WinHttpGetProxyForUrl</a> when a proxy for the specified URL cannot be located.
 
 </td>
 </tr>
@@ -148,7 +148,7 @@ The URL is invalid.
 </td>
 <td width="60%">
 The login attempt failed.  When this error is encountered, close the request handle with 
-<a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpclosehandle">WinHttpCloseHandle</a>.  A new request handle must be created before retrying the function that originally produced this error.
+<a href="/windows/desktop/api/winhttp/nf-winhttp-winhttpclosehandle">WinHttpCloseHandle</a>.  A new request handle must be created before retrying the function that originally produced this error.
 
 </td>
 </tr>
@@ -206,9 +206,8 @@ This function implements the Web Proxy Auto-Discovery (WPAD) protocol for automa
 
 <b>WinHttpGetProxyForUrl</b> must be called on a per-URL basis, because the PAC file can return a different proxy server for different URLs. This is useful because the PAC file enables an IT department to implement proxy server load balancing by mapping (hashing) the target URL (specified by the <i>lpcwszUrl</i> parameter) to a certain proxy in a proxy server array.
 
-<b>WinHttpGetProxyForUrl</b> caches the autoproxy URL and the autoproxy script when auto-discovery is specified in the <b>dwFlags</b> member of the <i>pAutoProxyOptions</i> structure. For more information, see <a href="https://docs.microsoft.com/windows/desktop/WinHttp/autoproxy-cache">Autoproxy Cache</a>.
+<b>WinHttpGetProxyForUrl</b> caches the autoproxy URL and the autoproxy script when auto-discovery is specified in the <b>dwFlags</b> member of the <i>pAutoProxyOptions</i> structure. For more information, see <a href="/windows/desktop/WinHttp/autoproxy-cache">Autoproxy Cache</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/WinHttp/winhttp-versions">WinHTTP Versions</a>
-
+<a href="/windows/desktop/WinHttp/winhttp-versions">WinHTTP Versions</a>

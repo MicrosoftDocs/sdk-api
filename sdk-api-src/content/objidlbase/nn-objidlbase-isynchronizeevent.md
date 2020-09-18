@@ -52,7 +52,7 @@ api_name:
 
 Assigns an event handle to a synchronization object.
 
-The synchronization object can use a handle to manage its activities. For example, the <a href="https://docs.microsoft.com/windows/desktop/Sync/wait-functions">wait functions</a> use handles to identify the event they control. Thus, the logic of the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-isynchronize-signal">ISynchronize::Signal</a> method on an event synchronization object can pass its handle to the <a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-setevent">SetEvent</a> function.
+The synchronization object can use a handle to manage its activities. For example, the <a href="/windows/desktop/Sync/wait-functions">wait functions</a> use handles to identify the event they control. Thus, the logic of the <a href="/windows/desktop/api/objidl/nf-objidl-isynchronize-signal">ISynchronize::Signal</a> method on an event synchronization object can pass its handle to the <a href="/windows/desktop/api/synchapi/nf-synchapi-setevent">SetEvent</a> function.
 
 ## -inheritance
 
@@ -71,7 +71,7 @@ The <b>ISynchronizeEvent</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-isynchronizeevent-seteventhandle">SetEventHandle</a>
+<a href="/windows/desktop/api/objidl/nf-objidl-isynchronizeevent-seteventhandle">SetEventHandle</a>
 </td>
 <td align="left" width="63%">
 Assigns an event handle to a synchronization object.
@@ -82,5 +82,4 @@ Assigns an event handle to a synchronization object.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-isynchronizehandle">ISynchronizeHandle</a>
-
+<a href="/windows/desktop/api/objidl/nn-objidl-isynchronizehandle">ISynchronizeHandle</a>

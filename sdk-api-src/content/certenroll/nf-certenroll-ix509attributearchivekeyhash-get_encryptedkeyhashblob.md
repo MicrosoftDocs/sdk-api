@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-The <b>EncryptedKeyHashBlob</b> property retrieves a string that contains a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/h-gly">hash</a> of the encrypted <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">private key</a>.
+The <b>EncryptedKeyHashBlob</b> property retrieves a string that contains a <a href="/windows/desktop/SecGloss/h-gly">hash</a> of the encrypted <a href="/windows/desktop/SecGloss/p-gly">private key</a>.
 
 This property is read-only.
 
@@ -59,9 +59,8 @@ This property is read-only.
 
 ## -remarks
 
-Call the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509attributearchivekeyhash-initializeencodefromencryptedkeyblob">InitializeEncodeFromEncryptedKeyBlob</a> method or the  <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509attributearchivekeyhash-initializedecode">InitializeDecode</a> method to initialize the <b>EncryptedKeyHashBlob</b> property.
+Call the <a href="/windows/desktop/api/certenroll/nf-certenroll-ix509attributearchivekeyhash-initializeencodefromencryptedkeyblob">InitializeEncodeFromEncryptedKeyBlob</a> method or the  <a href="/windows/desktop/api/certenroll/nf-certenroll-ix509attributearchivekeyhash-initializedecode">InitializeDecode</a> method to initialize the <b>EncryptedKeyHashBlob</b> property.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509attributearchivekeyhash">IX509AttributeArchiveKeyHash</a>
-
+<a href="/windows/desktop/api/certenroll/nn-certenroll-ix509attributearchivekeyhash">IX509AttributeArchiveKeyHash</a>

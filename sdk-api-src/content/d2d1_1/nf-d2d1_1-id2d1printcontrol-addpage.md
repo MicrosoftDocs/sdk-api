@@ -57,31 +57,31 @@ Converts Direct2D primitives in the passed-in command list into a fixed page rep
 
 ### -param commandList [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1commandlist">ID2D1CommandList</a>*</b>
+Type: <b><a href="/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1commandlist">ID2D1CommandList</a>*</b>
 
 The command list that contains the rendering operations.
 
 ### -param pageSize
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dcommon/ns-dcommon-d2d_size_f">D2D_SIZE_F</a></b>
+Type: <b><a href="/windows/desktop/api/dcommon/ns-dcommon-d2d_size_f">D2D_SIZE_F</a></b>
 
 The size of the page to add.
 
 ### -param pagePrintTicketStream [in, out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a>*</b>
+Type: <b><a href="/windows/desktop/api/objidl/nn-objidl-istream">IStream</a>*</b>
 
 The print ticket stream.
 
 ### -param tag1 [out, optional]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/Direct2D/d2d1-tag">D2D1_TAG</a>*</b>
+Type: <b><a href="/windows/desktop/Direct2D/d2d1-tag">D2D1_TAG</a>*</b>
 
 Contains the first label for subsequent drawing operations. This parameter is passed uninitialized. If NULL is specified, no value is retrieved for this parameter.
 
 ### -param tag2 [out, optional]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/Direct2D/d2d1-tag">D2D1_TAG</a>*</b>
+Type: <b><a href="/windows/desktop/Direct2D/d2d1-tag">D2D1_TAG</a>*</b>
 
 Contains the second label for subsequent drawing operations. This parameter is passed uninitialized. If NULL is specified, no value is retrieved for this parameter.
 
@@ -116,5 +116,4 @@ The method returns an <b>HRESULT</b>. Possible values include, but are not limit
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1printcontrol">ID2D1PrintControl</a>
-
+<a href="/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1printcontrol">ID2D1PrintControl</a>

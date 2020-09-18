@@ -153,7 +153,7 @@ This member is not used for displays.
 
 ### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME2.dmPosition
 
-For displays, specifies a <a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-pointl">POINTL</a> structure containing the x- and y-coordinates of upper-left corner of the display, in desktop coordinates. This member is used to determine the relative position of monitors in a multiple monitor environment.
+For displays, specifies a <a href="/windows/desktop/api/windef/ns-windef-pointl">POINTL</a> structure containing the x- and y-coordinates of upper-left corner of the display, in desktop coordinates. This member is used to determine the relative position of monitors in a multiple monitor environment.
 
 This member is not used for printers.
 
@@ -213,7 +213,7 @@ The display device orientation is 270 degrees (measured clockwise) from that of 
 
 This member is not used for printers.
 
-For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/display/returning-display-modes--drvgetmodes">Returning Display Modes: DrvGetModes</a>.
+For more information, see <a href="/windows-hardware/drivers/display/returning-display-modes--drvgetmodes">Returning Display Modes: DrvGetModes</a>.
 
 ### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME2.dmDisplayFixedOutput
 
@@ -253,7 +253,7 @@ The display device presents a lower-resolution mode image by stretching it to fi
 
 This member is not used for printers.
 
-For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/display/returning-display-modes--drvgetmodes">Returning Display Modes: DrvGetModes</a>.
+For more information, see <a href="/windows-hardware/drivers/display/returning-display-modes--drvgetmodes">Returning Display Modes: DrvGetModes</a>.
 
 ### -field dmColor
 
@@ -327,7 +327,7 @@ This member is not used for displays.
 
 ### -field dmLogPixels
 
-For displays, specifies the number of logical pixels per inch of a display device and should be equal to the <b>ulLogPixels</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-gdiinfo">GDIINFO</a> structure.
+For displays, specifies the number of logical pixels per inch of a display device and should be equal to the <b>ulLogPixels</b> member of the <a href="/windows/desktop/api/winddi/ns-winddi-gdiinfo">GDIINFO</a> structure.
 
 This member is not used for printers.
 
@@ -443,7 +443,7 @@ Specifies that the display mode is interlaced. If the flag is not set, noninterl
 
 ## -remarks
 
-The <a href="https://docs.microsoft.com/windows-hardware/drivers/display/the-devmodew-structure">DEVMODEW structure</a> is the Unicode version of the <a href="https://msdn2.microsoft.com/library/ms535771.aspx">DEVMODE </a> structure (described in the Microsoft Windows SDK documentation). While applications can use either the ANSI or Unicode version of the structure, drivers are required to use the Unicode version.
+The <a href="/windows-hardware/drivers/display/the-devmodew-structure">DEVMODEW structure</a> is the Unicode version of the <a href="/previous-versions//ms535771(v=vs.85)">DEVMODE </a> structure (described in the Microsoft Windows SDK documentation). While applications can use either the ANSI or Unicode version of the structure, drivers are required to use the Unicode version.
 
 For printer drivers, the DEVMODEW structure is used for specifying printer characteristics required by a print document. It is also used for specifying a printer's default characteristics.
 
@@ -476,17 +476,16 @@ Also for Windows XP, several members of the DEVMODEW structure were moved to dif
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/winddiui/ns-winddiui-_documentpropertyheader">DOCUMENTPROPERTYHEADER</a>
+<a href="/windows-hardware/drivers/ddi/content/winddiui/ns-winddiui-_documentpropertyheader">DOCUMENTPROPERTYHEADER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/winddiui/nf-winddiui-drvconvertdevmode">DrvConvertDevMode</a>
+<a href="/windows-hardware/drivers/ddi/content/winddiui/nf-winddiui-drvconvertdevmode">DrvConvertDevMode</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/winddiui/nf-winddiui-drvdevicecapabilities">DrvDeviceCapabilities</a>
+<a href="/windows-hardware/drivers/ddi/content/winddiui/nf-winddiui-drvdevicecapabilities">DrvDeviceCapabilities</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvgetmodes">DrvGetModes</a>
-
+<a href="/windows/desktop/api/winddi/nf-winddi-drvgetmodes">DrvGetModes</a>

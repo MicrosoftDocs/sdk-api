@@ -86,17 +86,16 @@ Value: 0x80004003
 
 ## -remarks
 
-The enumeration is a snapshot of the devices on the computer at the time of the call and will not reflect devices that are added and removed. To receive notification when a device is added or removed from the computer, implement the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-ddiscmaster2events">DDiscMaster2Events</a> interface.
+The enumeration is a snapshot of the devices on the computer at the time of the call and will not reflect devices that are added and removed. To receive notification when a device is added or removed from the computer, implement the <a href="/windows/desktop/api/imapi2/nn-imapi2-ddiscmaster2events">DDiscMaster2Events</a> interface.
 
-To retrieve a single identifier, see the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscmaster2-get_item">IDiscMaster2::get_Item</a> property.
+To retrieve a single identifier, see the <a href="/windows/desktop/api/imapi2/nf-imapi2-idiscmaster2-get_item">IDiscMaster2::get_Item</a> property.
 
 The device identifier is guaranteed to be unique and static for a given device as recognized by Windows Plug and Play.  You can use the identifier as a key value for saving the user's default burner, and can also be used to cache other device-specific static information (for example, VendorID and ProductID) by an advanced application.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-idiscmaster2">IDiscMaster2</a>
+<a href="/windows/desktop/api/imapi2/nn-imapi2-idiscmaster2">IDiscMaster2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscmaster2-get_count">IDiscMaster2::get_Count</a>
-
+<a href="/windows/desktop/api/imapi2/nf-imapi2-idiscmaster2-get_count">IDiscMaster2::get_Count</a>

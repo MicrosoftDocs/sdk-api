@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Retrieves an <a href="https://docs.microsoft.com/windows/desktop/shell/appids">AppUserModelId</a> from the source application.
+Retrieves an <a href="/windows/desktop/shell/appids">AppUserModelId</a> from the source application.
 
 ## -parameters
 
@@ -58,7 +58,7 @@ Retrieves an <a href="https://docs.microsoft.com/windows/desktop/shell/appids">A
 
 Type: <b>LPWSTR*</b>
 
-Contains a  pointer to a string that contains the <a href="https://docs.microsoft.com/windows/desktop/shell/appids">AppUserModelId</a>.
+Contains a  pointer to a string that contains the <a href="/windows/desktop/shell/appids">AppUserModelId</a>.
 
 ## -returns
 
@@ -68,9 +68,8 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/shell/appids">AppUserModelId</a>
+<a href="/windows/desktop/shell/appids">AppUserModelId</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ilaunchsourceappusermodelid">ILaunchSourceAppUserModelId</a>
-
+<a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ilaunchsourceappusermodelid">ILaunchSourceAppUserModelId</a>

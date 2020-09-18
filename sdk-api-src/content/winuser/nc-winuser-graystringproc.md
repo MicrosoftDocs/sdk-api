@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-The <b>OutputProc</b> function is an application-defined callback function used with the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-graystringa">GrayString</a> function. It is used to draw a string. The <b>GRAYSTRINGPROC</b> type defines a pointer to this callback function. <b>OutputProc</b> is a placeholder for the application-defined or library-defined function name.
+The <b>OutputProc</b> function is an application-defined callback function used with the <a href="/windows/desktop/api/winuser/nf-winuser-graystringa">GrayString</a> function. It is used to draw a string. The <b>GRAYSTRINGPROC</b> type defines a pointer to this callback function. <b>OutputProc</b> is a placeholder for the application-defined or library-defined function name.
 
 ## -parameters
 
 ### -param Arg1
 
-A handle to a device context with a bitmap of at least the width and height specified by the <i>nWidth</i> and <i>nHeight</i> parameters passed to <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-graystringa">GrayString</a>.
+A handle to a device context with a bitmap of at least the width and height specified by the <i>nWidth</i> and <i>nHeight</i> parameters passed to <a href="/windows/desktop/api/winuser/nf-winuser-graystringa">GrayString</a>.
 
 ### -param Arg2
 
@@ -78,13 +78,12 @@ The callback function must draw an image relative to the coordinates (0,0).
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-graystringa">GrayString</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-graystringa">GrayString</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/painting-and-drawing-functions">Painting and Drawing Functions</a>
+<a href="/windows/desktop/gdi/painting-and-drawing-functions">Painting and Drawing Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/painting-and-drawing">Painting and Drawing Overview</a>
-
+<a href="/windows/desktop/gdi/painting-and-drawing">Painting and Drawing Overview</a>

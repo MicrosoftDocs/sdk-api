@@ -71,7 +71,7 @@ Loads a string resource from the executable file associated with a specified mod
 
 Type: <b>HINSTANCE</b>
 
-A handle to an instance of the module whose executable file contains the string resource. To get the handle to the application itself, call the <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getmodulehandlea">GetModuleHandle</a> function with <b>NULL</b>.
+A handle to an instance of the module whose executable file contains the string resource. To get the handle to the application itself, call the <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-getmodulehandlea">GetModuleHandle</a> function with <b>NULL</b>.
 
 ### -param uID [in]
 
@@ -101,7 +101,7 @@ If the function succeeds, the return value is one of the following:
 - The number of characters in the string resource that *lpBuffer* points to (if *cchBufferMax* is zero). The string resource is not guaranteed to be null-terminated in the module's resource table, and you can use this value to determine where the string resource ends.
 - Zero if the string resource does not exist. 
  
-To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
@@ -113,7 +113,7 @@ Using this function incorrectly can compromise the security of your application.
 
 #### Examples
 
-For an example, see <a href="https://docs.microsoft.com/windows/desktop/winmsg/using-the-multiple-document-interface">Creating a Child Window</a>
+For an example, see <a href="/windows/desktop/winmsg/using-the-multiple-document-interface">Creating a Child Window</a>
 
 <div class="code"></div>
 
@@ -129,31 +129,31 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/winmsg/u
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-loadacceleratorsa">LoadAccelerators</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-loadacceleratorsa">LoadAccelerators</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-loadbitmapa">LoadBitmap</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-loadbitmapa">LoadBitmap</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-loadcursora">LoadCursor</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-loadcursora">LoadCursor</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-loadicona">LoadIcon</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-loadicona">LoadIcon</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-loadmenua">LoadMenu</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-loadmenua">LoadMenu</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-loadmenuindirecta">LoadMenuIndirect</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-loadmenuindirecta">LoadMenuIndirect</a>
 
 
 
@@ -165,5 +165,4 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/winmsg/u
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/menurc/strings">Strings</a>
-
+<a href="/windows/desktop/menurc/strings">Strings</a>

@@ -54,20 +54,20 @@ api_name:
 
 ## -description
 
-The <b>MSV1_0_SUBAUTH_REQUEST</b> structure contains information to pass to an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">subauthentication package</a>.
+The <b>MSV1_0_SUBAUTH_REQUEST</b> structure contains information to pass to an <a href="/windows/desktop/SecGloss/s-gly">subauthentication package</a>.
 
 It is used by 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsacallauthenticationpackage">LsaCallAuthenticationPackage</a>.
+<a href="/windows/desktop/api/ntsecapi/nf-ntsecapi-lsacallauthenticationpackage">LsaCallAuthenticationPackage</a>.
 
 ## -struct-fields
 
 ### -field MessageType
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ne-ntsecapi-msv1_0_protocol_message_type">MSV1_0_PROTOCOL_MESSAGE_TYPE</a> value identifying the type of request being made. This member should be set to <b>MsV1_0SubAuth</b> for local subauthentication and <b>MsV1_0GenericPassthrough</b> for subauthentication on the domain controller.
+<a href="/windows/desktop/api/ntsecapi/ne-ntsecapi-msv1_0_protocol_message_type">MSV1_0_PROTOCOL_MESSAGE_TYPE</a> value identifying the type of request being made. This member should be set to <b>MsV1_0SubAuth</b> for local subauthentication and <b>MsV1_0GenericPassthrough</b> for subauthentication on the domain controller.
 
 ### -field SubAuthPackageId
 
-Contains a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">subauthentication package</a> identifier. The value of subauthentication package identifiers is established by the creator of the subauthentication package.
+Contains a <a href="/windows/desktop/SecGloss/s-gly">subauthentication package</a> identifier. The value of subauthentication package identifiers is established by the creator of the subauthentication package.
 
 ### -field SubAuthInfoLength
 
@@ -76,4 +76,3 @@ Indicates the length, in bytes, of the buffer passed to the subauthentication pa
 ### -field SubAuthSubmitBuffer
 
 Containing the data to pass to the subauthentication package. The format and content of this data is specific to the subauthentication package. For more information, see the documentation for specific subauthentication packages.
-

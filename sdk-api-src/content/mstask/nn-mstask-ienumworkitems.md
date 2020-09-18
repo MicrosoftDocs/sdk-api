@@ -50,16 +50,16 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[[This API may be altered or unavailable in subsequent versions of the operating system or product. Please use the <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/task-scheduler-2-0-interfaces">Task Scheduler 2.0 Interfaces</a> instead.] ]
+<p class="CCE_Message">[[This API may be altered or unavailable in subsequent versions of the operating system or product. Please use the <a href="/windows/desktop/TaskSchd/task-scheduler-2-0-interfaces">Task Scheduler 2.0 Interfaces</a> instead.] ]
 
-Provides the methods for enumerating the tasks in the <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/s">Scheduled Tasks folder</a>.
+Provides the methods for enumerating the tasks in the <a href="/windows/desktop/TaskSchd/s">Scheduled Tasks folder</a>.
 
-<b>IEnumWorkItems</b> is the primary interface of the <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/e">enumeration object</a>. To create the enumeration, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/mstask/nf-mstask-itaskscheduler-enum">ITaskScheduler::Enum</a>.
+<b>IEnumWorkItems</b> is the primary interface of the <a href="/windows/desktop/TaskSchd/e">enumeration object</a>. To create the enumeration, call 
+<a href="/windows/desktop/api/mstask/nf-mstask-itaskscheduler-enum">ITaskScheduler::Enum</a>.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumWorkItems</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEnumWorkItems</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumWorkItems</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEnumWorkItems</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -74,7 +74,7 @@ The <b>IEnumWorkItems</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mstask/nf-mstask-ienumworkitems-clone">Clone</a>
+<a href="/windows/desktop/api/mstask/nf-mstask-ienumworkitems-clone">Clone</a>
 </td>
 <td align="left" width="63%">
 Creates a new enumeration object in the same state as the current enumeration object: the new object points to the same place in the enumeration sequence.
@@ -83,7 +83,7 @@ Creates a new enumeration object in the same state as the current enumeration ob
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mstask/nf-mstask-ienumworkitems-next">Next</a>
+<a href="/windows/desktop/api/mstask/nf-mstask-ienumworkitems-next">Next</a>
 </td>
 <td align="left" width="63%">
 Retrieves the next set of tasks in the enumeration sequence.
@@ -92,7 +92,7 @@ Retrieves the next set of tasks in the enumeration sequence.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mstask/nf-mstask-ienumworkitems-reset">Reset</a>
+<a href="/windows/desktop/api/mstask/nf-mstask-ienumworkitems-reset">Reset</a>
 </td>
 <td align="left" width="63%">
 Resets the enumeration sequence to the beginning.
@@ -101,7 +101,7 @@ Resets the enumeration sequence to the beginning.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mstask/nf-mstask-ienumworkitems-skip">Skip</a>
+<a href="/windows/desktop/api/mstask/nf-mstask-ienumworkitems-skip">Skip</a>
 </td>
 <td align="left" width="63%">
 Skips the next set of tasks in the enumeration sequence.
@@ -109,4 +109,3 @@ Skips the next set of tasks in the enumeration sequence.
 </td>
 </tr>
 </table>
-

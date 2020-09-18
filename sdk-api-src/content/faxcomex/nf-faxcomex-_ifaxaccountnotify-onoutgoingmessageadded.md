@@ -57,9 +57,9 @@ The fax service calls the <b>IFaxAccountNotify::OnOutgoingMessageAdded</b> metho
 
 ### -param pFaxAccount [in]
 
-Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxaccount">IFaxAccount</a>*</b>
+Type: <b><a href="/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxaccount">IFaxAccount</a>*</b>
 
-A <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxaccount">IFaxAccount</a> object.
+A <a href="/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxaccount">IFaxAccount</a> object.
 
 ### -param bstrMessageId [in]
 
@@ -80,4 +80,3 @@ To implement this functionality in Visual Basic, select and implement the approp
 ## -see-also
 
 <a href="/windows/win32/api/faxcomex/nn-faxcomex-_ifaxaccountnotify">IFaxAccountNotify</a>
-

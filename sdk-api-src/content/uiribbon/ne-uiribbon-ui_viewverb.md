@@ -72,13 +72,12 @@ Unable to complete the action.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-reference-enumerations">Constants and Enumerations</a>
+<a href="/windows/desktop/windowsribbon/windowsribbon-reference-enumerations">Constants and Enumerations</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-element-contextpopup">ContextPopup</a>
+<a href="/windows/desktop/windowsribbon/windowsribbon-element-contextpopup">ContextPopup</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-element-ribbon">Ribbon</a>
-
+<a href="/windows/desktop/windowsribbon/windowsribbon-element-ribbon">Ribbon</a>

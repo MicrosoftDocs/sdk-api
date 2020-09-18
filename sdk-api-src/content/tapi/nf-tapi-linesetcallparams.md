@@ -62,7 +62,7 @@ Handle to the call whose parameters are to be changed. The application must be a
 ### -param dwBearerMode
 
 New bearer mode for the call. This parameter uses one and only one of the 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/linebearermode--constants">LINEBEARERMODE_ Constants</a>.
+<a href="/windows/desktop/Tapi/linebearermode--constants">LINEBEARERMODE_ Constants</a>.
 
 ### -param dwMinRate
 
@@ -75,12 +75,12 @@ Upper bound for the call's new data rate. This is the maximum data rate the appl
 ### -param lpDialParams
 
 Pointer to the new dial parameters for the call, of type 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linedialparams">LINEDIALPARAMS</a>. This parameter can be left <b>NULL</b> if the call's current dialing parameters are to be used.
+<a href="/windows/desktop/api/tapi/ns-tapi-linedialparams">LINEDIALPARAMS</a>. This parameter can be left <b>NULL</b> if the call's current dialing parameters are to be used.
 
 ## -returns
 
 Returns a positive request identifier if the function is completed asynchronously, or a negative error number if an error occurs. The <i>dwParam2</i> parameter of the corresponding 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/line-reply">LINE_REPLY</a> message is zero if the function succeeds or it is a negative error number if an error occurs. Possible return values are:
+<a href="/windows/desktop/Tapi/line-reply">LINE_REPLY</a> message is zero if the function succeeds or it is a negative error number if an error occurs. Possible return values are:
 
 LINEERR_BEARERMODEUNAVAIL, LINEERR_NOTOWNER, LINEERR_INVALBEARERMODE, LINEERR_OPERATIONUNAVAIL, LINEERR_INVALCALLHANDLE, LINEERR_OPERATIONFAILED, LINEERR_INVALCALLSTATE, LINEERR_RATEUNAVAIL, LINEERR_INVALPOINTER, LINEERR_RESOURCEUNAVAIL, LINEERR_INVALRATE, LINEERR_UNINITIALIZED, LINEERR_NOMEM.
 
@@ -90,17 +90,16 @@ This operation is used to change the parameters of an existing call. Examples of
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linedialparams">LINEDIALPARAMS</a>
+<a href="/windows/desktop/api/tapi/ns-tapi-linedialparams">LINEDIALPARAMS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/line-reply">LINE_REPLY</a>
+<a href="/windows/desktop/Tapi/line-reply">LINE_REPLY</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/supplementary-line-service-functions">Supplementary Line Service Functions</a>
+<a href="/windows/desktop/Tapi/supplementary-line-service-functions">Supplementary Line Service Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/tapi-2-2-reference">TAPI 2.2 Reference Overview</a>
-
+<a href="/windows/desktop/Tapi/tapi-2-2-reference">TAPI 2.2 Reference Overview</a>

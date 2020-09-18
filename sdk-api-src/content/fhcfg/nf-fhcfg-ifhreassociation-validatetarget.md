@@ -64,7 +64,7 @@ Specifies the storage device or network share to be validated.
 
 ### -param ValidationResult [out]
 
-On return, contains a value specifying the result of the device validation. See  the <a href="https://docs.microsoft.com/windows/desktop/api/fhcfg/ne-fhcfg-fh_device_validation_result">FH_DEVICE_VALIDATION_RESULT</a> enumeration for a detailed description of supported device validation results.
+On return, contains a value specifying the result of the device validation. See  the <a href="/windows/desktop/api/fhcfg/ne-fhcfg-fh_device_validation_result">FH_DEVICE_VALIDATION_RESULT</a> enumeration for a detailed description of supported device validation results.
 
 ## -returns
 
@@ -78,13 +78,12 @@ For network shares, the <i>TargetUrl</i> parameter contains the full path of the
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fhcfg/ne-fhcfg-fh_device_validation_result">FH_DEVICE_VALIDATION_RESULT</a>
+<a href="/windows/desktop/api/fhcfg/ne-fhcfg-fh_device_validation_result">FH_DEVICE_VALIDATION_RESULT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DevNotes/fhreassociation">FhReassociation</a>
+<a href="/windows/desktop/DevNotes/fhreassociation">FhReassociation</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fhcfg/nn-fhcfg-ifhreassociation">IFhReassociation</a>
-
+<a href="/windows/desktop/api/fhcfg/nn-fhcfg-ifhreassociation">IFhReassociation</a>

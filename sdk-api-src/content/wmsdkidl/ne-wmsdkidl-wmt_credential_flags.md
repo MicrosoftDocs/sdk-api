@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>WMT_CREDENTIAL_FLAGS</b> enumeration type contains values used in the <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmcredentialcallback-acquirecredentials">IWMCredentialCallback::AcquireCredentials</a> method.
+The <b>WMT_CREDENTIAL_FLAGS</b> enumeration type contains values used in the <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmcredentialcallback-acquirecredentials">IWMCredentialCallback::AcquireCredentials</a> method.
 
 ## -enum-fields
 
@@ -78,5 +78,4 @@ If the application encrypts the credentials, it must set the WMT_CREDENTIAL_ENCR
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/wmformat/enumeration-types">Enumeration Types</a>
-
+<a href="/windows/desktop/wmformat/enumeration-types">Enumeration Types</a>

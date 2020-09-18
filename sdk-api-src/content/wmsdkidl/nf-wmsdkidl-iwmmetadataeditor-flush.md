@@ -125,9 +125,8 @@ There is not enough available memory.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmmetadataeditor">IWMMetadataEditor Interface</a>
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmmetadataeditor">IWMMetadataEditor Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmmetadataeditor-close">IWMMetadataEditor::Close</a>
-
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmmetadataeditor-close">IWMMetadataEditor::Close</a>

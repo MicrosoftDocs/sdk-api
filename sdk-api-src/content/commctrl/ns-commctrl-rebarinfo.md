@@ -60,13 +60,13 @@ Contains information that describes rebar control characteristics.
 
 ### -field cbSize
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 Size of this structure, in bytes. Your application must fill this member before sending any messages that use the address of this structure as a parameter.
 
 ### -field fMask
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 Flag values that describe characteristics of the rebar control. Currently, rebar controls support only one value: 
 
@@ -93,4 +93,3 @@ The
 Type: <b>HIMAGELIST</b>
 
 Handle to an image list. The rebar control will use the specified image list to obtain images.
-

@@ -58,7 +58,7 @@ The <b>IConsoleNameSpace2::GetItem</b> method enables the snap-in to retrieve so
 ### -param item [in, out]
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ns-mmc-scopedataitem">SCOPEDATAITEM</a> structure that specifies the information to retrieve and receives information about the item. When the message is sent, the 
+<a href="/windows/desktop/api/mmc/ns-mmc-scopedataitem">SCOPEDATAITEM</a> structure that specifies the information to retrieve and receives information about the item. When the message is sent, the 
 ID member of the structure identifies the item and the mask member specifies the attributes to retrieve.
 
 If mask specifies the <b>SDI_STATE</b> value, the <b>nState</b> member contains the item's state information.
@@ -69,9 +69,8 @@ This method can return one of these values.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-iconsolenamespace">IConsoleNameSpace</a>
+<a href="/windows/desktop/api/mmc/nn-mmc-iconsolenamespace">IConsoleNameSpace</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-iconsolenamespace2">IConsoleNameSpace2</a>
-
+<a href="/windows/desktop/api/mmc/nn-mmc-iconsolenamespace2">IConsoleNameSpace2</a>

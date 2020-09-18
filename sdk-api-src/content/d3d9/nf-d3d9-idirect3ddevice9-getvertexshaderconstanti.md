@@ -57,19 +57,19 @@ Gets an integer vertex shader constant.
 
 ### -param StartRegister [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 Register number that will contain the first constant value.
 
 ### -param pConstantData [in, out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">int</a>*</b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">int</a>*</b>
 
 Pointer to an array of constants.
 
 ### -param Vector4iCount [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 Number of four integer vectors in the array of constants.
 
@@ -82,5 +82,4 @@ If the method succeeds, the return value is D3D_OK. If the method fails, the ret
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3ddevice9">IDirect3DDevice9</a>
-
+<a href="/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3ddevice9">IDirect3DDevice9</a>

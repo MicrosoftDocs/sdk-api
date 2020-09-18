@@ -52,9 +52,9 @@ api_name:
 
 ## -description
 
-The <b>HTTP_RESPONSE_INFO_TYPE</b> enumeration defines the type of information contained in the <a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_response_info">HTTP_RESPONSE_INFO</a> structure.
+The <b>HTTP_RESPONSE_INFO_TYPE</b> enumeration defines the type of information contained in the <a href="/windows/desktop/api/http/ns-http-http_response_info">HTTP_RESPONSE_INFO</a> structure.
 
-This enumeration is used  in the <a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_response_info">HTTP_RESPONSE_INFO</a> structure.
+This enumeration is used  in the <a href="/windows/desktop/api/http/ns-http-http_response_info">HTTP_RESPONSE_INFO</a> structure.
 
 ## -enum-fields
 
@@ -62,7 +62,7 @@ This enumeration is used  in the <a href="https://docs.microsoft.com/windows/des
 
 The response information type is authentication.
 
-The <b>pInfo</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_response_info">HTTP_RESPONSE_INFO</a> structure points to a <a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_multiple_known_headers">HTTP_MULTIPLE_KNOWN_HEADERS</a> structure.
+The <b>pInfo</b> member of the <a href="/windows/desktop/api/http/ns-http-http_response_info">HTTP_RESPONSE_INFO</a> structure points to a <a href="/windows/desktop/api/http/ns-http-http_multiple_known_headers">HTTP_MULTIPLE_KNOWN_HEADERS</a> structure.
 
 ### -field HttpResponseInfoTypeAuthenticationProperty
 
@@ -72,17 +72,16 @@ Reserved for future use.
 
 ### -field HttpResponseInfoTypeChannelBind
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_channel_bind_info">HTTP_CHANNEL_BIND_INFO</a> structure that contains information on the channel binding token.
+Pointer to an <a href="/windows/desktop/api/http/ns-http-http_channel_bind_info">HTTP_CHANNEL_BIND_INFO</a> structure that contains information on the channel binding token.
 
 ### -field HttpResponseInfoTypeQosProperty
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_qos_setting_info">HTTP_QOS_SETTING_INFO</a> structure that contains information about a QOS setting.
+Pointer to an <a href="/windows/desktop/api/http/ns-http-http_qos_setting_info">HTTP_QOS_SETTING_INFO</a> structure that contains information about a QOS setting.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Http/http-server-api-version-2-0-enumeration-types">HTTP Server API Version 2.0 Enumeration Types</a>
+<a href="/windows/desktop/Http/http-server-api-version-2-0-enumeration-types">HTTP Server API Version 2.0 Enumeration Types</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_response_info">HTTP_RESPONSE_INFO</a>
-
+<a href="/windows/desktop/api/http/ns-http-http_response_info">HTTP_RESPONSE_INFO</a>

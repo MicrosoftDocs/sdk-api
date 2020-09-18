@@ -108,35 +108,34 @@ The DirectMusic synthesizer "port" can be opened only once. A second attempt to 
 
 However, DirectMusic does support multiple instances of a synthesizer port. It does this by calling <b>CoCreateInstance</b> (described in the Windows SDK documentation) to create multiple <b>IDirectMusicSynth</b> objects.
 
-The port is valid until it is closed by the <a href="https://docs.microsoft.com/windows/desktop/api/dmusics/nf-dmusics-idirectmusicsynth-close">IDirectMusicSynth::Close</a> method.
+The port is valid until it is closed by the <a href="/windows/desktop/api/dmusics/nf-dmusics-idirectmusicsynth-close">IDirectMusicSynth::Close</a> method.
 
 When opening the port, some of the parameters asked for in DMUS_PORTPARAMS might not be supported or the port might "upgrade" a parameter request (that is, return the maximum number of voices supported instead of just what was asked for). In either of these cases, the Microsoft Software Synthesizer will return S_FALSE and modify DMUS_PORTPARAMS accordingly, to show what is actually supported. Custom synths should emulate this behavior to ensure compatibility with existing code.
 
-Opening a port is not enough to enable the synthesizer. The synthesizer is enabled by opening the port and enabling audio output through <a href="https://docs.microsoft.com/windows/desktop/api/dmusics/nf-dmusics-idirectmusicsynth-activate">IDirectMusicSynth::Activate</a>.
+Opening a port is not enough to enable the synthesizer. The synthesizer is enabled by opening the port and enabling audio output through <a href="/windows/desktop/api/dmusics/nf-dmusics-idirectmusicsynth-activate">IDirectMusicSynth::Activate</a>.
 
 Avoid confusing the term DirectMusic "port" with a DMus port driver. A DirectMusic port corresponds to a render or capture pin on a DirectMusic filter. For more information about DirectMusic ports, see the description of the <b>IDirectMusicPort</b> interface in the Windows SDK documentation.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dmusics/nf-dmusics-idirectmusicsynth-activate">IDirectMusicSynth::Activate</a>
+<a href="/windows/desktop/api/dmusics/nf-dmusics-idirectmusicsynth-activate">IDirectMusicSynth::Activate</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dmusics/nf-dmusics-idirectmusicsynth-close">IDirectMusicSynth::Close</a>
+<a href="/windows/desktop/api/dmusics/nf-dmusics-idirectmusicsynth-close">IDirectMusicSynth::Close</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dmusics/nf-dmusics-idirectmusicsynth-download">IDirectMusicSynth::Download</a>
+<a href="/windows/desktop/api/dmusics/nf-dmusics-idirectmusicsynth-download">IDirectMusicSynth::Download</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dmusics/nf-dmusics-idirectmusicsynth-playbuffer">IDirectMusicSynth::PlayBuffer</a>
+<a href="/windows/desktop/api/dmusics/nf-dmusics-idirectmusicsynth-playbuffer">IDirectMusicSynth::PlayBuffer</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dmusics/nf-dmusics-idirectmusicsynth-unload">IDirectMusicSynth::Unload</a>
+<a href="/windows/desktop/api/dmusics/nf-dmusics-idirectmusicsynth-unload">IDirectMusicSynth::Unload</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dmusics/nn-dmusics-idirectmusicsynthsink">IDirectMusicSynthSink</a>
-
+<a href="/windows/desktop/api/dmusics/nn-dmusics-idirectmusicsynthsink">IDirectMusicSynthSink</a>

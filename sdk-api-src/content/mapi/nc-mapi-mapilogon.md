@@ -212,9 +212,8 @@ The client application tests for an existing session by calling <b>MAPILogon</b>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mapi/nc-mapi-mapilogoff">MAPILogoff</a>
+<a href="/previous-versions/windows/desktop/api/mapi/nc-mapi-mapilogoff">MAPILogoff</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/dd296734(v=vs.85)">Simple MAPI</a>
-
+<a href="/previous-versions/dd296734(v=vs.85)">Simple MAPI</a>

@@ -52,17 +52,17 @@ api_name:
 
 The 
 <b>TcDeleteFlow</b> function deletes a flow that has been added with the 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/traffic/nf-traffic-tcaddflow">TcAddFlow</a> function. Clients should delete all filters associated with a flow before deleting it, otherwise, an error will be returned and the function will not delete the flow.
+<a href="/previous-versions/windows/desktop/api/traffic/nf-traffic-tcaddflow">TcAddFlow</a> function. Clients should delete all filters associated with a flow before deleting it, otherwise, an error will be returned and the function will not delete the flow.
 
 Traffic control clients that have registered a <b>DeleteFlowComplete</b> handler (a mechanism for allowing traffic control to call the 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/traffic/nc-traffic-tci_del_flow_complete_handler">ClDeleteFlowComplete</a> callback function to alert clients of completed flow deletions) can expect a return value of ERROR_SIGNAL_PENDING.
+<a href="/previous-versions/windows/desktop/api/traffic/nc-traffic-tci_del_flow_complete_handler">ClDeleteFlowComplete</a> callback function to alert clients of completed flow deletions) can expect a return value of ERROR_SIGNAL_PENDING.
 
 ## -parameters
 
 ### -param FlowHandle [in]
 
 Handle for the flow, as received from a previous call to the 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/traffic/nf-traffic-tcaddflow">TcAddFlow</a> function.
+<a href="/previous-versions/windows/desktop/api/traffic/nf-traffic-tcaddflow">TcAddFlow</a> function.
 
 ## -returns
 
@@ -90,7 +90,7 @@ The function executed without errors.
 </td>
 <td width="60%">
 The function is being executed asynchronously; the client will be called back through the client-exposed 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/traffic/nc-traffic-tci_del_flow_complete_handler">ClDeleteFlowComplete</a> function when the flow has been added, or when the process has been completed.
+<a href="/previous-versions/windows/desktop/api/traffic/nc-traffic-tci_del_flow_complete_handler">ClDeleteFlowComplete</a> function when the flow has been added, or when the process has been completed.
 
 </td>
 </tr>
@@ -113,9 +113,9 @@ The flow handle is invalid or <b>NULL</b>.
 </td>
 <td width="60%">
 Action performed on the flow by a previous function call to 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/traffic/nf-traffic-tcmodifyflow">TcModifyFlow</a>, 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/traffic/nf-traffic-tcdeleteflow">TcDeleteFlow</a>, or 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/traffic/nf-traffic-tcaddflow">TcAddFlow</a> has not yet completed.
+<a href="/previous-versions/windows/desktop/api/traffic/nf-traffic-tcmodifyflow">TcModifyFlow</a>, 
+<a href="/previous-versions/windows/desktop/api/traffic/nf-traffic-tcdeleteflow">TcDeleteFlow</a>, or 
+<a href="/previous-versions/windows/desktop/api/traffic/nf-traffic-tcaddflow">TcAddFlow</a> has not yet completed.
 
 </td>
 </tr>
@@ -136,7 +136,7 @@ At least one filter associated with this flow exists.
 
 If the 
 <b>TcDeleteFlow</b> function returns ERROR_SIGNAL_PENDING, the 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/traffic/nc-traffic-tci_del_flow_complete_handler">ClDeleteFlowComplete</a> function will be called on a different thread than the thread that called the 
+<a href="/previous-versions/windows/desktop/api/traffic/nc-traffic-tci_del_flow_complete_handler">ClDeleteFlowComplete</a> function will be called on a different thread than the thread that called the 
 <b>TcDeleteFlow</b> function.
 
 <div class="alert"><b>Note</b>  Use of the 
@@ -145,13 +145,12 @@ If the
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/traffic/nc-traffic-tci_del_flow_complete_handler">ClDeleteFlowComplete</a>
+<a href="/previous-versions/windows/desktop/api/traffic/nc-traffic-tci_del_flow_complete_handler">ClDeleteFlowComplete</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/traffic/nf-traffic-tcaddflow">TcAddFlow</a>
+<a href="/previous-versions/windows/desktop/api/traffic/nf-traffic-tcaddflow">TcAddFlow</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/traffic/nf-traffic-tcenumerateflows">TcEnumerateFlows</a>
-
+<a href="/previous-versions/windows/desktop/api/traffic/nf-traffic-tcenumerateflows">TcEnumerateFlows</a>

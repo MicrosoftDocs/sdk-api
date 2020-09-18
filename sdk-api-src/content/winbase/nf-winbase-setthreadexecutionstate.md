@@ -173,17 +173,16 @@ SetThreadExecutionState(ES_CONTINUOUS);
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Power/power-management-functions">Power Management Functions</a>
+<a href="/windows/desktop/Power/power-management-functions">Power Management Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/powrprof/nf-powrprof-setsuspendstate">SetSuspendState</a>
+<a href="/windows/desktop/api/powrprof/nf-powrprof-setsuspendstate">SetSuspendState</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-setsystempowerstate">SetSystemPowerState</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-setsystempowerstate">SetSystemPowerState</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Power/wm-powerbroadcast">WM_POWERBROADCAST</a>
-
+<a href="/windows/desktop/Power/wm-powerbroadcast">WM_POWERBROADCAST</a>

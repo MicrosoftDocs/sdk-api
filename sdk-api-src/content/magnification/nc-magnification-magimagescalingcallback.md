@@ -56,7 +56,7 @@ api_name:
 
 ### -param hwnd [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 The magnification window.
 
@@ -68,7 +68,7 @@ The input data.
 
 ### -param srcheader [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/magnification/ns-magnification-magimageheader">MAGIMAGEHEADER</a></b>
+Type: <b><a href="/windows/desktop/api/magnification/ns-magnification-magimageheader">MAGIMAGEHEADER</a></b>
 
 The description of the input format.
 
@@ -80,7 +80,7 @@ The output data.
 
 ### -param destheader [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/magnification/ns-magnification-magimageheader">MAGIMAGEHEADER</a></b>
+Type: <b><a href="/windows/desktop/api/magnification/ns-magnification-magimageheader">MAGIMAGEHEADER</a></b>
 
 The description of the output format.
 
@@ -98,21 +98,20 @@ The coordinates of the window to which the scaled bitmap is clipped.
 
 ### -param dirty [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRGN</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRGN</a></b>
 
 The region that needs to be refreshed.
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
 
 Returns <b>TRUE</b> if successful, or <b>FALSE</b> otherwise.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/magnification/ns-magnification-magimageheader">MAGIMAGEHEADER</a>
+<a href="/windows/desktop/api/magnification/ns-magnification-magimageheader">MAGIMAGEHEADER</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/magnification/nf-magnification-maggetimagescalingcallback">MagGetImageScalingCallback</a>
-
+<a href="/previous-versions/windows/desktop/api/magnification/nf-magnification-maggetimagescalingcallback">MagGetImageScalingCallback</a>

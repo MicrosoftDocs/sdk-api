@@ -56,13 +56,13 @@ Maps  the given bitmap into memory.
 
 ### -param options
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/ne-d2d1_1-d2d1_map_options">D2D1_MAP_OPTIONS</a></b>
+Type: <b><a href="/windows/desktop/api/d2d1_1/ne-d2d1_1-d2d1_map_options">D2D1_MAP_OPTIONS</a></b>
 
 The options used in mapping the bitmap into memory.
 
 ### -param mappedRect [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/ns-d2d1_1-d2d1_mapped_rect">D2D1_MAPPED_RECT</a>*</b>
+Type: <b><a href="/windows/desktop/api/d2d1_1/ns-d2d1_1-d2d1_mapped_rect">D2D1_MAPPED_RECT</a>*</b>
 
 When this method returns, contains a reference to the rectangle that is mapped into memory.
 
@@ -93,23 +93,22 @@ The method returns an <b>HRESULT</b>. Possible values include, but are not limit
 
 ## -remarks
 
-<div class="alert"><b>Note</b>  You can't use bitmaps for some purposes while mapped. Particularly, the <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1bitmap-copyfrombitmap">ID2D1Bitmap::CopyFromBitmap</a> method doesn't work if either the source or destination bitmap is mapped.</div>
+<div class="alert"><b>Note</b>  You can't use bitmaps for some purposes while mapped. Particularly, the <a href="/windows/desktop/api/d2d1/nf-d2d1-id2d1bitmap-copyfrombitmap">ID2D1Bitmap::CopyFromBitmap</a> method doesn't work if either the source or destination bitmap is mapped.</div>
 <div> </div>
 The bitmap must have been created with the <b>D2D1_BITMAP_OPTIONS_CPU_READ</b> flag specified.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1bitmap1">ID2D1Bitmap1</a>
+<a href="/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1bitmap1">ID2D1Bitmap1</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1devicecontext-createbitmap(d2d1_size_u_constvoid_uint32_constd2d1_bitmap_properties1_id2d1bitmap1)">ID2D1DeviceContext::CreateBitmap</a>
+<a href="/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1devicecontext-createbitmap(d2d1_size_u_constvoid_uint32_constd2d1_bitmap_properties1_id2d1bitmap1)">ID2D1DeviceContext::CreateBitmap</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1devicecontext-createbitmapfromdxgisurface(idxgisurface_constd2d1_bitmap_properties1__id2d1bitmap1)">ID2D1DeviceContext::CreateBitmapFromDxgiSurface</a>
+<a href="/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1devicecontext-createbitmapfromdxgisurface(idxgisurface_constd2d1_bitmap_properties1__id2d1bitmap1)">ID2D1DeviceContext::CreateBitmapFromDxgiSurface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-createsharedbitmap">ID2D1RenderTarget::CreateSharedBitmap</a>
-
+<a href="/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-createsharedbitmap">ID2D1RenderTarget::CreateSharedBitmap</a>

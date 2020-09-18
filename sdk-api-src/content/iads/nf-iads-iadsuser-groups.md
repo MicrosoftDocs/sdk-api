@@ -50,36 +50,35 @@ api_name:
 
 ## -description
 
-The <b>IADsUser::Groups</b> method obtains a collection of the ADSI group objects to which this user belongs. The method returns an  <a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsmembers">IADsMembers</a> interface pointer through which you can enumerate all the groups in the collection.
+The <b>IADsUser::Groups</b> method obtains a collection of the ADSI group objects to which this user belongs. The method returns an  <a href="/windows/desktop/api/iads/nn-iads-iadsmembers">IADsMembers</a> interface pointer through which you can enumerate all the groups in the collection.
 
 ## -parameters
 
 ### -param ppGroups [out]
 
-Pointer to a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsmembers">IADsMembers</a> interface on a members object that can be enumerated using  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-ienumvariant">IEnumVARIANT</a> to determine the groups to which this end-user belongs.
+Pointer to a pointer to the <a href="/windows/desktop/api/iads/nn-iads-iadsmembers">IADsMembers</a> interface on a members object that can be enumerated using  <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-ienumvariant">IEnumVARIANT</a> to determine the groups to which this end-user belongs.
 
 ## -returns
 
-This method supports the standard return values, including S_OK. For other return values, see  <a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-error-codes">ADSI Error Codes</a>.
+This method supports the standard return values, including S_OK. For other return values, see  <a href="/windows/desktop/ADSI/adsi-error-codes">ADSI Error Codes</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-error-codes">ADSI Error Codes</a>
+<a href="/windows/desktop/ADSI/adsi-error-codes">ADSI Error Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsmembers">IADsMembers</a>
+<a href="/windows/desktop/api/iads/nn-iads-iadsmembers">IADsMembers</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsuser">IADsUser</a>
+<a href="/windows/desktop/api/iads/nn-iads-iadsuser">IADsUser</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/iadsuser-property-methods">IADsUser
+<a href="/windows/desktop/ADSI/iadsuser-property-methods">IADsUser
   Property Methods</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-ienumvariant">IEnumVARIANT</a>
-
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-ienumvariant">IEnumVARIANT</a>

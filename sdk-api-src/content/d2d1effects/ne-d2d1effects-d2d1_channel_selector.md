@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Specifies the color channel the <a href="https://docs.microsoft.com/windows/desktop/Direct2D/displacement-map">Displacement map effect</a>extracts the intensity from and uses it to spatially displace the image in the X or Y direction.
+Specifies the color channel the <a href="/windows/desktop/Direct2D/displacement-map">Displacement map effect</a>extracts the intensity from and uses it to spatially displace the image in the X or Y direction.
 
 ## -enum-fields
 
@@ -71,4 +71,3 @@ The effect extracts the intensity output from the blue channel.
 The effect extracts the intensity output from the alpha channel.
 
 ### -field D2D1_CHANNEL_SELECTOR_FORCE_DWORD
-

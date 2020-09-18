@@ -70,13 +70,12 @@ Mask of the color channel for the histogram data.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfapi/ns-mfapi-histogramblobheader">HistogramBlobHeader</a>
+<a href="/windows/desktop/api/mfapi/ns-mfapi-histogramblobheader">HistogramBlobHeader</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfapi/ns-mfapi-histogramgrid">HistogramGrid</a>
+<a href="/windows/desktop/api/mfapi/ns-mfapi-histogramgrid">HistogramGrid</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfapi/ns-mfapi-histogramheader">HistogramHeader</a>
-
+<a href="/windows/desktop/api/mfapi/ns-mfapi-histogramheader">HistogramHeader</a>

@@ -55,7 +55,7 @@ api_name:
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IOfflineFilesEvents</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IOfflineFilesEvents</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IOfflineFilesEvents</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IOfflineFilesEvents</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>IOfflineFilesEvents</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilesevents-cacheiscorrupted">CacheIsCorrupted</a>
+<a href="/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilesevents-cacheiscorrupted">CacheIsCorrupted</a>
 </td>
 <td align="left" width="63%">
 This method is reserved for future use.
@@ -79,7 +79,7 @@ This method is reserved for future use.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilesevents-cacheisfull">CacheIsFull</a>
+<a href="/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilesevents-cacheisfull">CacheIsFull</a>
 </td>
 <td align="left" width="63%">
 This method is reserved for future use.
@@ -88,7 +88,7 @@ This method is reserved for future use.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilesevents-cachemoved">CacheMoved</a>
+<a href="/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilesevents-cachemoved">CacheMoved</a>
 </td>
 <td align="left" width="63%">
 This method is reserved for future use.
@@ -97,7 +97,7 @@ This method is reserved for future use.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilesevents-datalost">DataLost</a>
+<a href="/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilesevents-datalost">DataLost</a>
 </td>
 <td align="left" width="63%">
 Reports that one or more events destined for this event sink have been lost and will not be delivered.
@@ -106,7 +106,7 @@ Reports that one or more events destined for this event sink have been lost and 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilesevents-enabled">Enabled</a>
+<a href="/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilesevents-enabled">Enabled</a>
 </td>
 <td align="left" width="63%">
 This method is reserved for future use.
@@ -115,7 +115,7 @@ This method is reserved for future use.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilesevents-encryptionchanged">EncryptionChanged</a>
+<a href="/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilesevents-encryptionchanged">EncryptionChanged</a>
 </td>
 <td align="left" width="63%">
 This method is reserved for future use.
@@ -124,7 +124,7 @@ This method is reserved for future use.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilesevents-itemaddedtocache">ItemAddedToCache</a>
+<a href="/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilesevents-itemaddedtocache">ItemAddedToCache</a>
 </td>
 <td align="left" width="63%">
 Reports that an item has been added to the Offline Files cache.
@@ -133,7 +133,7 @@ Reports that an item has been added to the Offline Files cache.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilesevents-itemavailableoffline">ItemAvailableOffline</a>
+<a href="/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilesevents-itemavailableoffline">ItemAvailableOffline</a>
 </td>
 <td align="left" width="63%">
 Reports that an item in the Offline Files cache is now available for offline use should the remote copy become unavailable.
@@ -142,7 +142,7 @@ Reports that an item in the Offline Files cache is now available for offline use
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilesevents-itemdeletedfromcache">ItemDeletedFromCache</a>
+<a href="/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilesevents-itemdeletedfromcache">ItemDeletedFromCache</a>
 </td>
 <td align="left" width="63%">
 Reports that an item has been removed from the Offline Files cache.
@@ -151,7 +151,7 @@ Reports that an item has been removed from the Offline Files cache.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilesevents-itemdisconnected">ItemDisconnected</a>
+<a href="/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilesevents-itemdisconnected">ItemDisconnected</a>
 </td>
 <td align="left" width="63%">
 Reports that an item in the Offline Files cache has transitioned from online to offline.
@@ -160,7 +160,7 @@ Reports that an item in the Offline Files cache has transitioned from online to 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilesevents-itemmodified">ItemModified</a>
+<a href="/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilesevents-itemmodified">ItemModified</a>
 </td>
 <td align="left" width="63%">
 Reports that an item in the Offline Files cache has been modified.
@@ -169,7 +169,7 @@ Reports that an item in the Offline Files cache has been modified.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilesevents-itemnotavailableoffline">ItemNotAvailableOffline</a>
+<a href="/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilesevents-itemnotavailableoffline">ItemNotAvailableOffline</a>
 </td>
 <td align="left" width="63%">
 Reports that an item in the Offline Files cache is no longer available for offline use should the remote copy become unavailable.
@@ -178,7 +178,7 @@ Reports that an item in the Offline Files cache is no longer available for offli
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilesevents-itemnotpinned">ItemNotPinned</a>
+<a href="/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilesevents-itemnotpinned">ItemNotPinned</a>
 </td>
 <td align="left" width="63%">
 Reports that an item in the Offline Files cache is no longer pinned.
@@ -187,7 +187,7 @@ Reports that an item in the Offline Files cache is no longer pinned.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilesevents-itempinned">ItemPinned</a>
+<a href="/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilesevents-itempinned">ItemPinned</a>
 </td>
 <td align="left" width="63%">
 Reports that an item in the Offline Files cache is now pinned and guaranteed to be available offline should the remote copy become unavailable.
@@ -196,7 +196,7 @@ Reports that an item in the Offline Files cache is now pinned and guaranteed to 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilesevents-itemreconnected">ItemReconnected</a>
+<a href="/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilesevents-itemreconnected">ItemReconnected</a>
 </td>
 <td align="left" width="63%">
 Reports that an item in the Offline Files cache has transitioned from offline to online.
@@ -205,7 +205,7 @@ Reports that an item in the Offline Files cache has transitioned from offline to
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilesevents-itemrenamed">ItemRenamed</a>
+<a href="/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilesevents-itemrenamed">ItemRenamed</a>
 </td>
 <td align="left" width="63%">
 Reports that an item in the Offline Files cache has been renamed.
@@ -214,7 +214,7 @@ Reports that an item in the Offline Files cache has been renamed.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilesevents-nettransportarrived">NetTransportArrived</a>
+<a href="/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilesevents-nettransportarrived">NetTransportArrived</a>
 </td>
 <td align="left" width="63%">
 Reports that the Offline Files feature has detected the arrival of a network transport.
@@ -223,7 +223,7 @@ Reports that the Offline Files feature has detected the arrival of a network tra
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilesevents-nonettransports">NoNetTransports</a>
+<a href="/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilesevents-nonettransports">NoNetTransports</a>
 </td>
 <td align="left" width="63%">
 Reports that the Offline Files feature has detected that no network transports are available.
@@ -232,7 +232,7 @@ Reports that the Offline Files feature has detected that no network transports a
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilesevents-ping">Ping</a>
+<a href="/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilesevents-ping">Ping</a>
 </td>
 <td align="left" width="63%">
 This event is delivered to all registered event subscribers on a periodic basis.
@@ -241,7 +241,7 @@ This event is delivered to all registered event subscribers on a periodic basis.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilesevents-syncbegin">SyncBegin</a>
+<a href="/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilesevents-syncbegin">SyncBegin</a>
 </td>
 <td align="left" width="63%">
 Reports that the Offline Files cache has begun a synchronize operation.
@@ -250,7 +250,7 @@ Reports that the Offline Files cache has begun a synchronize operation.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilesevents-syncconflictrecadded">SyncConflictRecAdded</a>
+<a href="/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilesevents-syncconflictrecadded">SyncConflictRecAdded</a>
 </td>
 <td align="left" width="63%">
 Reports that a sync conflict has been detected and recorded in the sync conflict log.
@@ -259,7 +259,7 @@ Reports that a sync conflict has been detected and recorded in the sync conflict
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilesevents-syncconflictrecremoved">SyncConflictRecRemoved</a>
+<a href="/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilesevents-syncconflictrecremoved">SyncConflictRecRemoved</a>
 </td>
 <td align="left" width="63%">
 Reports that a sync conflict no longer exists and that its record has been removed from the sync conflict log.
@@ -268,7 +268,7 @@ Reports that a sync conflict no longer exists and that its record has been remov
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilesevents-syncconflictrecupdated">SyncConflictRecUpdated</a>
+<a href="/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilesevents-syncconflictrecupdated">SyncConflictRecUpdated</a>
 </td>
 <td align="left" width="63%">
 Reports that a sync conflict has been detected and that a record of the conflict was already present in the sync conflict log, and that the existing record has been updated.
@@ -277,7 +277,7 @@ Reports that a sync conflict has been detected and that a record of the conflict
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilesevents-syncend">SyncEnd</a>
+<a href="/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilesevents-syncend">SyncEnd</a>
 </td>
 <td align="left" width="63%">
 Reports that the Offline Files cache has ended a synchronize operation.
@@ -286,7 +286,7 @@ Reports that the Offline Files cache has ended a synchronize operation.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilesevents-syncfileresult">SyncFileResult</a>
+<a href="/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilesevents-syncfileresult">SyncFileResult</a>
 </td>
 <td align="left" width="63%">
 Reports the result of synchronizing a particular file.
@@ -297,5 +297,4 @@ Reports the result of synchronizing a particular file.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/offlinefiles/offline-files-api-interfaces">Offline Files API Interfaces</a>
-
+<a href="/previous-versions/windows/desktop/offlinefiles/offline-files-api-interfaces">Offline Files API Interfaces</a>

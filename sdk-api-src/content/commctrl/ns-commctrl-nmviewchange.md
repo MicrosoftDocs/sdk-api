@@ -54,20 +54,20 @@ api_name:
 
 ## -description
 
-Stores information required to process the <a href="https://docs.microsoft.com/windows/desktop/Controls/mcn-viewchange">MCN_VIEWCHANGE</a> notification code.
+Stores information required to process the <a href="/windows/desktop/Controls/mcn-viewchange">MCN_VIEWCHANGE</a> notification code.
 
 ## -struct-fields
 
 ### -field nmhdr
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a></b>
+Type: <b><a href="/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a></b>
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a> structure that contains information about this notification code.
+<a href="/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a> structure that contains information about this notification code.
 
 ### -field dwOldView
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 Old view. One of the following constants.
 
@@ -120,7 +120,6 @@ Century view.
 
 ### -field dwNewView
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 New view. One of the constants listed at <b>dwOldView</b>.
-

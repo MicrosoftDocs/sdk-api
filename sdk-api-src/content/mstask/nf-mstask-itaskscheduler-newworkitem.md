@@ -50,10 +50,10 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[[This API may be altered or unavailable in subsequent versions of the operating system or product. Please use the <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/task-scheduler-2-0-interfaces">Task Scheduler 2.0 Interfaces</a> instead.] ]
+<p class="CCE_Message">[[This API may be altered or unavailable in subsequent versions of the operating system or product. Please use the <a href="/windows/desktop/TaskSchd/task-scheduler-2-0-interfaces">Task Scheduler 2.0 Interfaces</a> instead.] ]
 
 The 
-<b>NewWorkItem</b> method creates a new <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/w">work item</a>, allocating space for the work item and retrieving its address.
+<b>NewWorkItem</b> method creates a new <a href="/windows/desktop/TaskSchd/w">work item</a>, allocating space for the work item and retrieving its address.
 
 ## -parameters
 
@@ -68,7 +68,7 @@ The class identifier of the work item to be created. The only class supported at
 ### -param riid [in]
 
 The reference identifier of the interface being requested. The only interface supported at this time, 
-<a href="https://docs.microsoft.com/windows/desktop/api/mstask/nn-mstask-itask">ITask</a>, has the identifier IID_ITask.
+<a href="/windows/desktop/api/mstask/nn-mstask-itask">ITask</a>, has the identifier IID_ITask.
 
 ### -param ppUnk [out]
 
@@ -135,7 +135,7 @@ Not enough memory is available to complete the operation.
 </dl>
 </td>
 <td width="60%">
-The caller does not have permission to perform the operation. For more information, see <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/scheduled-work-items">Scheduled Work Items</a>.
+The caller does not have permission to perform the operation. For more information, see <a href="/windows/desktop/TaskSchd/scheduled-work-items">Scheduled Work Items</a>.
 
 </td>
 </tr>
@@ -146,20 +146,20 @@ The caller does not have permission to perform the operation. For more informati
 This method handles memory allocation automatically when creating the new work item.
 
 To save the work item to disk, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ipersistfile-save">IPersistFile::Save</a> . This COM interface is supported by all work item interfaces (currently 
-<a href="https://docs.microsoft.com/windows/desktop/api/mstask/nn-mstask-itask">ITask</a> is the only supported work item interface).
+<a href="/windows/desktop/api/objidl/nf-objidl-ipersistfile-save">IPersistFile::Save</a> . This COM interface is supported by all work item interfaces (currently 
+<a href="/windows/desktop/api/mstask/nn-mstask-itask">ITask</a> is the only supported work item interface).
 
 Task scheduler provides two methods for adding work items: 
 <b>NewWorkItem</b> and 
-<a href="https://docs.microsoft.com/windows/desktop/api/mstask/nf-mstask-itaskscheduler-addworkitem">AddWorkItem</a>. Of these methods, each has its specific advantage. 
+<a href="/windows/desktop/api/mstask/nf-mstask-itaskscheduler-addworkitem">AddWorkItem</a>. Of these methods, each has its specific advantage. 
 <b>AddWorkItem</b> prevents naming collisions, but also requires two disk write operations per call. One write operation is performed when the call to 
-<b>AddWorkItem</b> creates an empty work item object on the disk, followed by another write operation when <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ipersistfile-save">IPersistFile::Save</a> is called.
+<b>AddWorkItem</b> creates an empty work item object on the disk, followed by another write operation when <a href="/windows/desktop/api/objidl/nf-objidl-ipersistfile-save">IPersistFile::Save</a> is called.
 
-You can create a task by calling <a href="https://docs.microsoft.com/windows/desktop/api/mstask/nf-mstask-itaskscheduler-addworkitem">AddWorkItem</a> or <b>NewWorkItem</b>. When use <b>AddWorkItem</b>, it is your responsibility to create an instance of the Task object (which supports the <a href="https://docs.microsoft.com/windows/desktop/api/mstask/nn-mstask-itask">ITask</a> interface) and then add the task with the name you supply.
+You can create a task by calling <a href="/windows/desktop/api/mstask/nf-mstask-itaskscheduler-addworkitem">AddWorkItem</a> or <b>NewWorkItem</b>. When use <b>AddWorkItem</b>, it is your responsibility to create an instance of the Task object (which supports the <a href="/windows/desktop/api/mstask/nn-mstask-itask">ITask</a> interface) and then add the task with the name you supply.
 
 
 
-<b>NewWorkItem</b> does not prevent naming collisions, but requires only one disk write operation when <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ipersistfile-save">IPersistFile::Save</a> is called. Although 
+<b>NewWorkItem</b> does not prevent naming collisions, but requires only one disk write operation when <a href="/windows/desktop/api/objidl/nf-objidl-ipersistfile-save">IPersistFile::Save</a> is called. Although 
 <b>NewWorkItem</b> is more efficient with respect to disk write operations, the application runs the risk of having another application create a work item with the same name before the call to <b>IPersistFile::Save</b> is made.
 
 
@@ -171,24 +171,23 @@ You can create a task by calling <a href="https://docs.microsoft.com/windows/des
 <tr>
 <td>Creating a new task</td>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/TaskSchd/creating-a-task-using-newworkitem-example">Creating a Task Using NewWorkItem Example</a>
+<a href="/windows/desktop/TaskSchd/creating-a-task-using-newworkitem-example">Creating a Task Using NewWorkItem Example</a>
 </td>
 </tr>
 </table>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ipersistfile-save">IPersistFile::Save</a>
+<a href="/windows/desktop/api/objidl/nf-objidl-ipersistfile-save">IPersistFile::Save</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mstask/nn-mstask-itask">ITask</a>
+<a href="/windows/desktop/api/mstask/nn-mstask-itask">ITask</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mstask/nn-mstask-itaskscheduler">ITaskScheduler</a>
+<a href="/windows/desktop/api/mstask/nn-mstask-itaskscheduler">ITaskScheduler</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mstask/nf-mstask-itaskscheduler-addworkitem">ITaskScheduler::AddWorkItem</a>
-
+<a href="/windows/desktop/api/mstask/nf-mstask-itaskscheduler-addworkitem">ITaskScheduler::AddWorkItem</a>

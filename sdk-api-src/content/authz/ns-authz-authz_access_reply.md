@@ -65,11 +65,11 @@ The number of elements in the <b>GrantedAccessMask</b>, <b>SaclEvaluationResults
 
 ### -field GrantedAccessMask
 
-An array of granted access masks. Memory for this array is allocated by the application before calling <a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-accesscheck">AccessCheck</a>.
+An array of granted access masks. Memory for this array is allocated by the application before calling <a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-accesscheck">AccessCheck</a>.
 
 ### -field SaclEvaluationResults
 
-An array of <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">system access control list</a> (SACL) evaluation results. Memory for this array is allocated by the application before calling <a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-accesscheck">AccessCheck</a>. SACL evaluation will only be performed if auditing is requested. Each element of this member can be one of the following values.
+An array of <a href="/windows/desktop/SecGloss/s-gly">system access control list</a> (SACL) evaluation results. Memory for this array is allocated by the application before calling <a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-accesscheck">AccessCheck</a>. SACL evaluation will only be performed if auditing is requested. Each element of this member can be one of the following values.
 
 <table>
 <tr>
@@ -102,7 +102,7 @@ An audit message that indicates failure was generated.
 
 ### -field Error
 
-An array of results for each element of the array. Memory for this array is allocated by the application before calling <a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-accesscheck">AccessCheck</a>. 
+An array of results for each element of the array. Memory for this array is allocated by the application before calling <a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-accesscheck">AccessCheck</a>. 
 
 
 
@@ -156,5 +156,4 @@ Includes each of the following:
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-accesscheck">AccessCheck</a>
-
+<a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-accesscheck">AccessCheck</a>

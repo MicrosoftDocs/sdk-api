@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Gets the maximum size value from the property schema's <a href="https://docs.microsoft.com/windows/desktop/properties/propdesc-schema-searchinfo">searchInfo</a> element.
+Gets the maximum size value from the property schema's <a href="/windows/desktop/properties/propdesc-schema-searchinfo">searchInfo</a> element.
 
 ## -parameters
 
@@ -58,7 +58,7 @@ Gets the maximum size value from the property schema's <a href="https://docs.mic
 
 Type: <b>UINT*</b>
 
-Pointer to a value that, when this method returns successfully, receives the value of the maxSize attribute of the <a href="https://docs.microsoft.com/windows/desktop/properties/propdesc-schema-searchinfo">searchInfo</a> element. The default is:
+Pointer to a value that, when this method returns successfully, receives the value of the maxSize attribute of the <a href="/windows/desktop/properties/propdesc-schema-searchinfo">searchInfo</a> element. The default is:
 
                     
 
@@ -72,4 +72,3 @@ Pointer to a value that, when this method returns successfully, receives the val
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-

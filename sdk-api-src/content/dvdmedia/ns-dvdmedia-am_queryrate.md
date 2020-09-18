@@ -68,9 +68,8 @@ Rate is the inverse of speed. For example, if the playback speed is 2x, the rate
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/am-rate-queryfullframerate-property">AM_RATE_QueryFullFrameRate Property</a>
+<a href="/windows/desktop/DirectShow/am-rate-queryfullframerate-property">AM_RATE_QueryFullFrameRate Property</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/rate-change-property-set">Rate Change Property Set</a>
-
+<a href="/windows/desktop/DirectShow/rate-change-property-set">Rate Change Property Set</a>

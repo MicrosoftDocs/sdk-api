@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-The <b>SecPkgContext_TargetInformation</b> structure returns information about the credential used for the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security context</a>.  This structure is returned by the <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-querycontextattributesa">QueryContextAttributes (General)</a> function.
+The <b>SecPkgContext_TargetInformation</b> structure returns information about the credential used for the <a href="/windows/desktop/SecGloss/s-gly">security context</a>.  This structure is returned by the <a href="/windows/desktop/api/sspi/nf-sspi-querycontextattributesa">QueryContextAttributes (General)</a> function.
 
 ## -struct-fields
 
@@ -65,4 +65,3 @@ Size, in bytes, of <b>MarshalledTargetInfo</b>.
 ### -field MarshalledTargetInfo
 
 Array of bytes that represent the credential, if a credential is provided by a credential manager.
-

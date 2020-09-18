@@ -67,7 +67,7 @@ Number of objects delivered in the array that follows.
 ### -param apObjects [in]
 
 Pointer to an array of 
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nn-wbemcli-iwbemclassobject">IWbemClassObject</a> instances which represent the events delivered. Because each object in the array corresponds to a separate event, an implementation of 
+<a href="/windows/desktop/api/wbemcli/nn-wbemcli-iwbemclassobject">IWbemClassObject</a> instances which represent the events delivered. Because each object in the array corresponds to a separate event, an implementation of 
 <b>IndicateToConsumer</b> must treat each object separately.
 
 ## -returns
@@ -77,13 +77,13 @@ This method returns <b>WBEM_S_NO_ERROR</b> if successful. Otherwise, the impleme
 ## -remarks
 
 WMI typically obtains the 
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemprov/nn-wbemprov-iwbemunboundobjectsink">IWbemUnboundObjectSink</a> pointer for a particular logical consumer from a event consumer provider which implements the 
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemprov/nn-wbemprov-iwbemeventconsumerprovider">IWbemEventConsumerProvider</a> interface. Then, Windows Management calls 
+<a href="/windows/desktop/api/wbemprov/nn-wbemprov-iwbemunboundobjectsink">IWbemUnboundObjectSink</a> pointer for a particular logical consumer from a event consumer provider which implements the 
+<a href="/windows/desktop/api/wbemprov/nn-wbemprov-iwbemeventconsumerprovider">IWbemEventConsumerProvider</a> interface. Then, Windows Management calls 
 <b>IndicateToConsumer</b> to deliver the actual event objects.
 
 Most implementations of 
 <b>IndicateToConsumer</b> assume that the notification is asynchronous. To support synchronous notification, a sink must complete event processing in less than 20 milliseconds. Extremely fast event consumer providers that support synchronous notification must not hold the pointer to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nn-wbemcli-iwbemclassobject">IWbemClassObject</a> interface or increment the pointer reference count in 
+<a href="/windows/desktop/api/wbemcli/nn-wbemcli-iwbemclassobject">IWbemClassObject</a> interface or increment the pointer reference count in 
 <b>IndicateToConsumer</b>. If 
 <b>IndicateToConsumer</b> requires the class object defined by 
 <b>IWbemClassObject</b> beyond the lifetime of the 
@@ -92,9 +92,8 @@ Most implementations of
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemprov/nn-wbemprov-iwbemeventconsumerprovider">IWbemEventConsumerProvider</a>
+<a href="/windows/desktop/api/wbemprov/nn-wbemprov-iwbemeventconsumerprovider">IWbemEventConsumerProvider</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemprov/nn-wbemprov-iwbemunboundobjectsink">IWbemUnboundObjectSink</a>
-
+<a href="/windows/desktop/api/wbemprov/nn-wbemprov-iwbemunboundobjectsink">IWbemUnboundObjectSink</a>

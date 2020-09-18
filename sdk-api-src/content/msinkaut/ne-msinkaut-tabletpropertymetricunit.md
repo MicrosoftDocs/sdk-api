@@ -88,13 +88,12 @@ The property value is in grams (force, or mass, units).
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-getpacketdescriptionpropertymetrics">GetPacketDescriptionPropertyMetrics Method [IInkStrokeDisp Interface]</a>
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-getpacketdescriptionpropertymetrics">GetPacketDescriptionPropertyMetrics Method [IInkStrokeDisp Interface]</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinktablet-getpropertymetrics">GetPropertyMetrics Method [IInkTablet Interface]</a>
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinktablet-getpropertymetrics">GetPropertyMetrics Method [IInkTablet Interface]</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinktablet">IInkTablet Interface</a>
-
+<a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinktablet">IInkTablet Interface</a>

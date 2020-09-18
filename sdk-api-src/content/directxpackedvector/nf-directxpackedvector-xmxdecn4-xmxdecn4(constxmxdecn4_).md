@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-A constructor for <a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmxdecn4">XMXDECN4 </a>.
+A constructor for <a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmxdecn4">XMXDECN4 </a>.
 
 A constructor for **XMXDECN4**.
 
@@ -66,7 +66,6 @@ A value.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmxdecn4">XMXDECN4</a>
+<a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmxdecn4">XMXDECN4</a>
 
-<a href="https://docs.microsoft.com/windows/desktop/dxmath/xmxdecn4-ctor">XMXDECN4 Constructors</a>
-
+<a href="/windows/desktop/dxmath/xmxdecn4-ctor">XMXDECN4 Constructors</a>

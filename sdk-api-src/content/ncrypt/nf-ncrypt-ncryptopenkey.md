@@ -60,7 +60,7 @@ The handle of the key storage provider to open the key from.
 
 ### -param phKey [out]
 
-A pointer to a <b>NCRYPT_KEY_HANDLE</b> variable that receives the key handle. When you have finished using this handle, release it by passing it to the <a href="https://docs.microsoft.com/windows/desktop/api/ncrypt/nf-ncrypt-ncryptfreeobject">NCryptFreeObject</a> function.
+A pointer to a <b>NCRYPT_KEY_HANDLE</b> variable that receives the key handle. When you have finished using this handle, release it by passing it to the <a href="/windows/desktop/api/ncrypt/nf-ncrypt-ncryptfreeobject">NCryptFreeObject</a> function.
 
 ### -param pszKeyName [in]
 
@@ -223,7 +223,6 @@ A memory allocation failure occurred.
 
 ## -remarks
 
-A service must not call this function from its <a href="https://msdn.microsoft.com/library/ms686321.aspx">StartService Function</a>. If a service calls this function from its StartService function, a deadlock can occur, and the service may stop responding.
+A service must not call this function from its <a href="/windows/win32/api/winsvc/nf-winsvc-startservicea">StartService Function</a>. If a service calls this function from its StartService function, a deadlock can occur, and the service may stop responding.
 
 For performance reasons, Microsoft software-based KSPs cache private key material in the Local Security Authority (LSA) for as long as a handle to the key is open. The LSA is a privilidged system process. Therefore, other users cannot access this cached copy of the key unless the user possesses administrator privileges on the system. This behavior cannot be altered through configuration.
-

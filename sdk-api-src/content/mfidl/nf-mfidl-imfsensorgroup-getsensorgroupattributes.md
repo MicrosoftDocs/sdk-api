@@ -53,13 +53,13 @@ api_name:
 
 ## -description
 
-Gets the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes">IMFAttributes</a> for the sensor group. The returned object is a live reference to the internal attribute store.
+Gets the <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes">IMFAttributes</a> for the sensor group. The returned object is a live reference to the internal attribute store.
 
 ## -parameters
 
 ### -param ppAttributes [out]
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes">IMFAttributes</a> interface representing the internal attribute store of the sensor group.
+The <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes">IMFAttributes</a> interface representing the internal attribute store of the sensor group.
 
 ## -returns
 
@@ -109,12 +109,11 @@ The sensor group has not been initialized.
 
 ## -remarks
 
-The caller may optionally use this attribute store to query for attributes set on the sensor group or modify/add attributes to the sensor group.  Modification of this attribute set is not persisted and will only be valid for the instance of the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfsensorgroup">IMFSensorGroup</a>.
+The caller may optionally use this attribute store to query for attributes set on the sensor group or modify/add attributes to the sensor group.  Modification of this attribute set is not persisted and will only be valid for the instance of the <a href="/windows/desktop/api/mfidl/nn-mfidl-imfsensorgroup">IMFSensorGroup</a>.
 
 
-This attribute store can be used to add runtime attributes for the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfmediasource">IMFMediaSource</a> that can be created using the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfsensorgroup-createmediasource">IMFSensorGroup::CreateMediaSource</a> method.
+This attribute store can be used to add runtime attributes for the <a href="/windows/desktop/api/mfidl/nn-mfidl-imfmediasource">IMFMediaSource</a> that can be created using the <a href="/windows/desktop/api/mfidl/nf-mfidl-imfsensorgroup-createmediasource">IMFSensorGroup::CreateMediaSource</a> method.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfsensorgroup">IMFSensorGroup</a>
-
+<a href="/windows/desktop/api/mfidl/nn-mfidl-imfsensorgroup">IMFSensorGroup</a>

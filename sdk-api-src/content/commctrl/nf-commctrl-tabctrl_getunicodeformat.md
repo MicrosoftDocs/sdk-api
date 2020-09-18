@@ -50,17 +50,16 @@ api_name:
 
 ## -description
 
-Retrieves the UNICODE character format flag for the control. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/tcm-getunicodeformat">TCM_GETUNICODEFORMAT</a> message explicitly.
+Retrieves the UNICODE character format flag for the control. You can use this macro or send the <a href="/windows/desktop/Controls/tcm-getunicodeformat">TCM_GETUNICODEFORMAT</a> message explicitly.
 
 ## -parameters
 
 ### -param hwnd
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 Handle to the control.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-tabctrl_setunicodeformat">TabCtrl_SetUnicodeFormat</a>
-
+<a href="/windows/desktop/api/commctrl/nf-commctrl-tabctrl_setunicodeformat">TabCtrl_SetUnicodeFormat</a>

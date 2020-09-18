@@ -57,11 +57,11 @@ The <b>NdrPointerUnmarshall</b> function unmarshalls a top level pointer to anyt
 
 ### -param pStubMsg [in, out]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/rpcndr/ns-rpcndr-midl_stub_message">MIDL_STUB_MESSAGE</a> structure that maintains the current status of the RPC stub. Structure is for internal use only; do not modify.
+Pointer to a <a href="/windows/desktop/api/rpcndr/ns-rpcndr-midl_stub_message">MIDL_STUB_MESSAGE</a> structure that maintains the current status of the RPC stub. Structure is for internal use only; do not modify.
 
 ### -param ppMemory [in]
 
-Pointer to memory where pointer will be unmarshalled. Please see MCCP Buffer Protection for information on buffer overrun protections in RPC: <a href="https://docs.microsoft.com/windows/desktop/Rpc/mccp-buffer-protection">http://msdn.microsoft.com/en-us/library/ff621497(VS.85).aspx</a>
+Pointer to memory where pointer will be unmarshalled. Please see MCCP Buffer Protection for information on buffer overrun protections in RPC: <a href="/windows/desktop/Rpc/mccp-buffer-protection">http://msdn.microsoft.com/en-us/library/ff621497(VS.85).aspx</a>
 
 ### -param pFormat [in]
 
@@ -101,4 +101,3 @@ Returns <b>NULL</b> upon success. If an error occurs, the function throws one of
 ## -remarks
 
 This function is used for FC_RP, FC_UP, FC_FP, FC_OP format strings.
-

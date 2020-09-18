@@ -66,7 +66,7 @@ A pointer to the value associated with the name specified by the <i>pwszValueNam
 
  If the method succeeds, it returns <b>S_OK</b>.
 
-If the method fails, it returns an error code. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
+If the method fails, it returns an error code. For a list of common error codes, see <a href="/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 This function can return the following values defined in Slerror.h.
 
@@ -100,4 +100,3 @@ The value portion of the name-value pair is not a <b>DWORD</b>.
 </td>
 </tr>
 </table>
-

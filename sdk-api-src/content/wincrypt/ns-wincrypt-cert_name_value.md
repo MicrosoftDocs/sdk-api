@@ -54,19 +54,19 @@ api_name:
 
 ## -description
 
-The <b>CERT_NAME_VALUE</b> structure contains a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/r-gly">relative distinguished name</a> (RDN) attribute value. It is like the 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_rdn_attr">CERT_RDN_ATTR</a> structure, except that it does not include the object identifier member that is a member of <b>CERT_RDN_ATTR</b>. As in <b>CERT_RDN_ATTR</b>, the interpretation of the <b>Value</b> member depends on <b>dwValueType</b>.
+The <b>CERT_NAME_VALUE</b> structure contains a <a href="/windows/desktop/SecGloss/r-gly">relative distinguished name</a> (RDN) attribute value. It is like the 
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_rdn_attr">CERT_RDN_ATTR</a> structure, except that it does not include the object identifier member that is a member of <b>CERT_RDN_ATTR</b>. As in <b>CERT_RDN_ATTR</b>, the interpretation of the <b>Value</b> member depends on <b>dwValueType</b>.
 
 ## -struct-fields
 
 ### -field dwValueType
 
 Indicates the interpretation of the <b>Value</b> member. For documentation on possible values of <b>dwValueType</b>, see 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_rdn_attr">CERT_RDN_ATTR</a>.
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_rdn_attr">CERT_RDN_ATTR</a>.
 
 ### -field Value
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_INTEGER_BLOB</a> structure that contains the RDN attribute. The <b>cbData</b> member of <b>Value</b> is the length, in bytes, of the <b>pbData</b> member. It is not the number of elements in the <b>pbData</b> string. 
+<a href="/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_INTEGER_BLOB</a> structure that contains the RDN attribute. The <b>cbData</b> member of <b>Value</b> is the length, in bytes, of the <b>pbData</b> member. It is not the number of elements in the <b>pbData</b> string. 
 
 
 
@@ -77,17 +77,16 @@ The <b>pbData</b> member of <b>Value</b> can be a null-terminated array of 8-bit
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_rdn">CERT_RDN</a>
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_rdn">CERT_RDN</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_rdn_attr">CERT_RDN_ATTR</a>
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_rdn_attr">CERT_RDN_ATTR</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_INTEGER_BLOB</a>
+<a href="/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_INTEGER_BLOB</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certrdnvaluetostra">CertRDNValueToStr</a>
-
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-certrdnvaluetostra">CertRDNValueToStr</a>

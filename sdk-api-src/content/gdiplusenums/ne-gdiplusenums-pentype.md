@@ -62,22 +62,22 @@ Indicates that the pen draws with a solid color.
 ### -field PenTypeHatchFill
 
 Indicates that the pen draws with a hatch pattern that is specified by a 
-				<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusbrush/nl-gdiplusbrush-hatchbrush">HatchBrush</a> object.
+				<a href="/windows/desktop/api/gdiplusbrush/nl-gdiplusbrush-hatchbrush">HatchBrush</a> object.
 
 ### -field PenTypeTextureFill
 
 Indicates that the pen draws with a texture that is specified by a 
-				<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusbrush/nl-gdiplusbrush-texturebrush">TextureBrush</a> object.
+				<a href="/windows/desktop/api/gdiplusbrush/nl-gdiplusbrush-texturebrush">TextureBrush</a> object.
 
 ### -field PenTypePathGradient
 
 Indicates that the pen draws with a color gradient that is specified by a 
-				<a href="https://docs.microsoft.com/windows/desktop/api/gdipluspath/nl-gdipluspath-pathgradientbrush">PathGradientBrush</a> object.
+				<a href="/windows/desktop/api/gdipluspath/nl-gdipluspath-pathgradientbrush">PathGradientBrush</a> object.
 
 ### -field PenTypeLinearGradient
 
 Indicates that the pen draws with a color gradient that is specified by a 
-				<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusbrush/nl-gdiplusbrush-lineargradientbrush">LinearGradientBrush</a> object.
+				<a href="/windows/desktop/api/gdiplusbrush/nl-gdiplusbrush-lineargradientbrush">LinearGradientBrush</a> object.
 
 ### -field PenTypeUnknown
 
@@ -86,9 +86,8 @@ Indicates that the pen type is unknown.
 ## -remarks
 
 A pen's type is determined when the pen is constructed. For example, if you pass a 
-				<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusbrush/nl-gdiplusbrush-hatchbrush">HatchBrush</a> object to a 
-				<a href="https://docs.microsoft.com/windows/desktop/api/gdipluspen/nl-gdipluspen-pen">Pen</a> constructor, then the pen that is constructed has a pen type of <b><b>PenTypeHatchFill</b></b>. If you pass a 
-				<a href="https://docs.microsoft.com/windows/desktop/api/gdipluscolor/nl-gdipluscolor-color">Color</a> object or a 
-				<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusbrush/nl-gdiplusbrush-solidbrush">SolidBrush</a> object to a 
+				<a href="/windows/desktop/api/gdiplusbrush/nl-gdiplusbrush-hatchbrush">HatchBrush</a> object to a 
+				<a href="/windows/desktop/api/gdipluspen/nl-gdipluspen-pen">Pen</a> constructor, then the pen that is constructed has a pen type of <b><b>PenTypeHatchFill</b></b>. If you pass a 
+				<a href="/windows/desktop/api/gdipluscolor/nl-gdipluscolor-color">Color</a> object or a 
+				<a href="/windows/desktop/api/gdiplusbrush/nl-gdiplusbrush-solidbrush">SolidBrush</a> object to a 
 				<b>Pen</b> constructor, then the pen that is constructed has a pen type of <b><b>PenTypeSolidColor</b></b>.
-

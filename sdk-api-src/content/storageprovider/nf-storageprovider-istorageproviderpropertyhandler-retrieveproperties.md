@@ -78,5 +78,4 @@ Any properties that are not managed by the sync engine should return <b>VT_EMPTY
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/storageprovider/nn-storageprovider-istorageproviderpropertyhandler">IStorageProviderPropertyHandler</a>
-
+<a href="/windows/desktop/api/storageprovider/nn-storageprovider-istorageproviderpropertyhandler">IStorageProviderPropertyHandler</a>

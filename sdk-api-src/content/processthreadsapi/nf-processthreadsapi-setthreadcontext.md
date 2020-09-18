@@ -59,7 +59,7 @@ api_name:
 Sets the context for the specified thread.
 
 A 64-bit application can set the context of a WOW64 thread using the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-wow64setthreadcontext">Wow64SetThreadContext</a> function.
+    <a href="/windows/desktop/api/winbase/nf-winbase-wow64setthreadcontext">Wow64SetThreadContext</a> function.
 
 ## -parameters
 
@@ -67,11 +67,11 @@ A 64-bit application can set the context of a WOW64 thread using the
 
 A handle to the thread whose context is to be set. The handle must have the 
       <b>THREAD_SET_CONTEXT</b> access right to the thread. For more information, see 
-      <a href="https://docs.microsoft.com/windows/desktop/ProcThread/thread-security-and-access-rights">Thread Security and Access Rights</a>.
+      <a href="/windows/desktop/ProcThread/thread-security-and-access-rights">Thread Security and Access Rights</a>.
 
 ### -param lpContext [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-arm64_nt_context">CONTEXT</a> structure that contains the 
+A pointer to a <a href="/windows/desktop/api/winnt/ns-winnt-arm64_nt_context">CONTEXT</a> structure that contains the 
       context to be set in the specified thread. The value of the <b>ContextFlags</b> member of 
       this structure specifies which portions of a thread's context to set. Some values in the 
       <b>CONTEXT</b> structure that cannot be specified are silently 
@@ -84,7 +84,7 @@ A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-
 If the context was set, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-       <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+       <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
@@ -93,30 +93,29 @@ The function sets the thread context based on the value of the <b>ContextFlags</
     being debugged, but the function can also operate even when the thread is not being debugged.
 
 Do not try to set the context for a running thread; the results are unpredictable. Use the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-suspendthread">SuspendThread</a> function to suspend the thread before 
+    <a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-suspendthread">SuspendThread</a> function to suspend the thread before 
     calling <b>SetThreadContext</b>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-arm64_nt_context">CONTEXT</a>
+<a href="/windows/desktop/api/winnt/ns-winnt-arm64_nt_context">CONTEXT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Debug/debugging-functions">Debugging Functions</a>
+<a href="/windows/desktop/Debug/debugging-functions">Debugging Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-getthreadcontext">GetThreadContext</a>
+<a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-getthreadcontext">GetThreadContext</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getxstatefeaturesmask">GetXStateFeaturesMask</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-getxstatefeaturesmask">GetXStateFeaturesMask</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-setxstatefeaturesmask">SetXStateFeaturesMask</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-setxstatefeaturesmask">SetXStateFeaturesMask</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-suspendthread">SuspendThread</a>
-
+<a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-suspendthread">SuspendThread</a>

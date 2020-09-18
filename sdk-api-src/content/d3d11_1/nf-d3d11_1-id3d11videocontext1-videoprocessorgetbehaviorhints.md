@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Returns driver hints that indicate which of the video processor operations are best performed using multi-plane overlay hardware rather than <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11videocontext-videoprocessorblt">ID3D11VideoContext::VideoProcessorBlt</a> method.
+Returns driver hints that indicate which of the video processor operations are best performed using multi-plane overlay hardware rather than <a href="/windows/desktop/api/d3d11/nf-d3d11-id3d11videocontext-videoprocessorblt">ID3D11VideoContext::VideoProcessorBlt</a> method.
 
 ## -parameters
 
@@ -58,7 +58,7 @@ Returns driver hints that indicate which of the video processor operations are b
 
 Type: <b>ID3D11VideoProcessor*</b>
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11videoprocessor">ID3D11VideoProcessor</a> interface.
+A pointer to the <a href="/windows/desktop/api/d3d11/nn-d3d11-id3d11videoprocessor">ID3D11VideoProcessor</a> interface.
 
 ### -param OutputWidth [in]
 
@@ -74,7 +74,7 @@ The height of the output stream.
 
 ### -param OutputFormat [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format">DXGI_FORMAT</a></b>
+Type: <b><a href="/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format">DXGI_FORMAT</a></b>
 
 The format of the output stream.
 
@@ -86,7 +86,7 @@ The number of input streams to process.
 
 ### -param pStreams [in]
 
-Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/d3d11_1/ns-d3d11_1-d3d11_video_processor_stream_behavior_hint">D3D11_VIDEO_PROCESSOR_STREAM_BEHAVIOR_HINT</a>*</b>
+Type: <b>const <a href="/windows/desktop/api/d3d11_1/ns-d3d11_1-d3d11_video_processor_stream_behavior_hint">D3D11_VIDEO_PROCESSOR_STREAM_BEHAVIOR_HINT</a>*</b>
 
 An array of structures that specifies the format of each input stream and whether each stream should be used when computing behavior hints.
 
@@ -94,7 +94,7 @@ An array of structures that specifies the format of each input stream and whethe
 
 Type: <b>UINT*</b>
 
-A pointer to a bitwise OR combination of <a href="https://docs.microsoft.com/windows/desktop/api/d3d11_1/ne-d3d11_1-d3d11_video_processor_behavior_hints">D3D11_VIDEO_PROCESSOR_BEHAVIOR_HINTS</a> values indicating which video processor operations would best be performed using multi-plane overlay hardware rather than the <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11videocontext-videoprocessorblt">ID3D11VideoContext::VideoProcessorBlt</a> method.
+A pointer to a bitwise OR combination of <a href="/windows/desktop/api/d3d11_1/ne-d3d11_1-d3d11_video_processor_behavior_hints">D3D11_VIDEO_PROCESSOR_BEHAVIOR_HINTS</a> values indicating which video processor operations would best be performed using multi-plane overlay hardware rather than the <a href="/windows/desktop/api/d3d11/nf-d3d11-id3d11videocontext-videoprocessorblt">ID3D11VideoContext::VideoProcessorBlt</a> method.
 
 ## -returns
 
@@ -119,9 +119,8 @@ This method returns one of the following error codes.
 
 ## -remarks
 
-This method computes the behavior hints using the current state of the video processor as set by the "SetOutput" and "SetStream" methods of <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11videocontext">ID3D11VideoContext</a> and <a href="https://docs.microsoft.com/windows/desktop/api/d3d11_1/nn-d3d11_1-id3d11videocontext1">ID3D11VideoContext1</a>. You must set the proper state before calling this method to ensure that the returned hints contain useful data.
+This method computes the behavior hints using the current state of the video processor as set by the "SetOutput" and "SetStream" methods of <a href="/windows/desktop/api/d3d11/nn-d3d11-id3d11videocontext">ID3D11VideoContext</a> and <a href="/windows/desktop/api/d3d11_1/nn-d3d11_1-id3d11videocontext1">ID3D11VideoContext1</a>. You must set the proper state before calling this method to ensure that the returned hints contain useful data.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11_1/nn-d3d11_1-id3d11videocontext1">ID3D11VideoContext1</a>
-
+<a href="/windows/desktop/api/d3d11_1/nn-d3d11_1-id3d11videocontext1">ID3D11VideoContext1</a>

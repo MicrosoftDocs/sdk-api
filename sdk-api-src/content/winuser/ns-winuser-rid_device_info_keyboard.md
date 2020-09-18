@@ -96,7 +96,7 @@ The total number of keys on the keyboard.
 
 ## -remarks
 
-For information about keyboard types, subtypes, scan code modes, and related keyboard layouts, see the documentation in *kbd.h*, *ntdd8042.h* and *ntddkbd.h* headers in Windows SDK, and the [Keyboard Layout Samples](https://docs.microsoft.com/samples/microsoft/windows-driver-samples/keyboard-layout-samples/).
+For information about keyboard types, subtypes, scan code modes, and related keyboard layouts, see the documentation in *kbd.h*, *ntdd8042.h* and *ntddkbd.h* headers in Windows SDK, and the [Keyboard Layout Samples](/samples/microsoft/windows-driver-samples/keyboard-layout-samples/).
 
 ## -see-also
 
@@ -104,9 +104,8 @@ For information about keyboard types, subtypes, scan code modes, and related key
 
 [RID_DEVICE_INFO](ns-winuser-rid_device_info.md)
 
-[Raw Input](https://docs.microsoft.com/windows/desktop/inputdev/raw-input)
+[Raw Input](/windows/desktop/inputdev/raw-input)
 
 **Reference**
 
-[KEYBOARD_ATTRIBUTES structure](https://docs.microsoft.com/windows/win32/api/ntddkbd/ns-ntddkbd-keyboard_attributes)
-
+[KEYBOARD_ATTRIBUTES structure](../ntddkbd/ns-ntddkbd-keyboard_attributes.md)

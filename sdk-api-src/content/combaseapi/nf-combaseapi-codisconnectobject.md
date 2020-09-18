@@ -63,7 +63,7 @@ Only the process that actually manages the object should call <b>CoDisconnectObj
 
 ### -param pUnk [in]
 
-A pointer to any interface derived from <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> on the object to be disconnected.
+A pointer to any interface derived from <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> on the object to be disconnected.
 
 ### -param dwReserved [in]
 
@@ -80,12 +80,12 @@ The <b>CoDisconnectObject</b> function enables a server to correctly disconnect 
 It performs the following tasks:
 
 <ol>
-<li>Checks to see whether the object to be disconnected implements the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imarshal">IMarshal</a> interface. If so, it gets the pointer to that interface; if not, it gets a pointer to the standard marshaler's (i.e., COM's) <b>IMarshal</b> implementation.</li>
-<li>Using whichever <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imarshal">IMarshal</a> interface pointer it has acquired, the function then calls <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-imarshal-disconnectobject">IMarshal::DisconnectObject</a> to disconnect all out-of-process clients.</li>
+<li>Checks to see whether the object to be disconnected implements the <a href="/windows/desktop/api/objidl/nn-objidl-imarshal">IMarshal</a> interface. If so, it gets the pointer to that interface; if not, it gets a pointer to the standard marshaler's (i.e., COM's) <b>IMarshal</b> implementation.</li>
+<li>Using whichever <a href="/windows/desktop/api/objidl/nn-objidl-imarshal">IMarshal</a> interface pointer it has acquired, the function then calls <a href="/windows/desktop/api/objidl/nf-objidl-imarshal-disconnectobject">IMarshal::DisconnectObject</a> to disconnect all out-of-process clients.</li>
 </ol>
-An object's client does not call <b>CoDisconnectObject</b> to disconnect itself from the server (clients should use <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">IUnknown::Release</a> for this purpose). Rather, an OLE server calls <b>CoDisconnectObject</b> to forcibly disconnect an object's clients, usually in response to a user closing the server application.
+An object's client does not call <b>CoDisconnectObject</b> to disconnect itself from the server (clients should use <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">IUnknown::Release</a> for this purpose). Rather, an OLE server calls <b>CoDisconnectObject</b> to forcibly disconnect an object's clients, usually in response to a user closing the server application.
 
-Similarly, an OLE container that supports external links to its embedded objects can call <b>CoDisconnectObject</b> to destroy those links. Again, this call is normally made in response to a user closing the application. The container should first call <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleobject-close">IOleObject::Close</a> for all its OLE objects, each of which should send <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-iadvisesink-onclose">IAdviseSink::OnClose</a> notifications to their various clients. Then the container can call <b>CoDisconnectObject</b> to close any existing connections.
+Similarly, an OLE container that supports external links to its embedded objects can call <b>CoDisconnectObject</b> to destroy those links. Again, this call is normally made in response to a user closing the application. The container should first call <a href="/windows/desktop/api/oleidl/nf-oleidl-ioleobject-close">IOleObject::Close</a> for all its OLE objects, each of which should send <a href="/windows/desktop/api/objidl/nf-objidl-iadvisesink-onclose">IAdviseSink::OnClose</a> notifications to their various clients. Then the container can call <b>CoDisconnectObject</b> to close any existing connections.
 
 
 
@@ -93,13 +93,12 @@ Similarly, an OLE container that supports external links to its embedded objects
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-iadvisesink-onclose">IAdviseSink::OnClose</a>
+<a href="/windows/desktop/api/objidl/nf-objidl-iadvisesink-onclose">IAdviseSink::OnClose</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-imarshal-disconnectobject">IMarshal::DisconnectObject</a>
+<a href="/windows/desktop/api/objidl/nf-objidl-imarshal-disconnectobject">IMarshal::DisconnectObject</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleobject-close">IOleObject::Close</a>
-
+<a href="/windows/desktop/api/oleidl/nf-oleidl-ioleobject-close">IOleObject::Close</a>

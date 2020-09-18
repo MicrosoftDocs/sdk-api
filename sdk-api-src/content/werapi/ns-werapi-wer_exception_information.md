@@ -54,13 +54,13 @@ api_name:
 
 ## -description
 
-Contains exception information for the <a href="https://docs.microsoft.com/windows/desktop/api/werapi/nf-werapi-werreportadddump">WerReportAddDump</a> function.
+Contains exception information for the <a href="/windows/desktop/api/werapi/nf-werapi-werreportadddump">WerReportAddDump</a> function.
 
 ## -struct-fields
 
 ### -field pExceptionPointers
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-exception_pointers">EXCEPTION_POINTERS</a> structure.
+A pointer to an <a href="/windows/desktop/api/winnt/ns-winnt-exception_pointers">EXCEPTION_POINTERS</a> structure.
 
 ### -field bClientPointers
 
@@ -68,5 +68,4 @@ A process (calling process) can provide error reporting functionality for anothe
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/werapi/nf-werapi-werreportadddump">WerReportAddDump</a>
-
+<a href="/windows/desktop/api/werapi/nf-werapi-werreportadddump">WerReportAddDump</a>

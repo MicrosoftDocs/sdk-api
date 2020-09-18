@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Defines policy settings for the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfplugincontrol2-setpolicy">IMFPluginControl2::SetPolicy</a> method.
+Defines policy settings for the <a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfplugincontrol2-setpolicy">IMFPluginControl2::SetPolicy</a> method.
 
 ## -enum-fields
 
@@ -70,9 +70,8 @@ Restrict enumeration to components intended for use in a web browser.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfplugincontrol2">IMFPluginControl2</a>
+<a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfplugincontrol2">IMFPluginControl2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>
-
+<a href="/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>

@@ -56,7 +56,7 @@ Gets an enumerator that iterates through the qualified resources that are define
 
 ### -param resources [out, retval]
 
-Type: <b><a href="https://docs.microsoft.com/previous-versions/dn280306(v=vs.85)">IAppxManifestQualifiedResourcesEnumerator</a>**</b>
+Type: <b><a href="/previous-versions/dn280306(v=vs.85)">IAppxManifestQualifiedResourcesEnumerator</a>**</b>
 
 The enumerator that iterates through the qualified resources.
 
@@ -68,11 +68,10 @@ If the method succeeds, it returns <b>S_OK</b>.
 
 ## -remarks
 
-Resources are specified using the <a href="https://docs.microsoft.com/uwp/schemas/appxpackage/appxmanifestschema/element-resources">Resources</a> element in the manifest.
+Resources are specified using the <a href="/uwp/schemas/appxpackage/appxmanifestschema/element-resources">Resources</a> element in the manifest.
 
-Call the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">IUnknown::Release</a> method when you have finished using the <i>resources</i> object.
+Call the <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">IUnknown::Release</a> method when you have finished using the <i>resources</i> object.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxmanifestreader2">IAppxManifestReader2</a>
-
+<a href="/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxmanifestreader2">IAppxManifestReader2</a>

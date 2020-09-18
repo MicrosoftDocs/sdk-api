@@ -84,7 +84,7 @@ The quorum resource was successfully released and is no longer being defended.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/msipc/error-codes">Error code</a></b></dt>
+<dt><b><a href="/previous-versions/windows/desktop/msipc/error-codes">Error code</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -96,5 +96,4 @@ The operation was not successfully canceled.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resource-dll-entry-point-functions">Resource DLL Entry-Point Functions</a>
-
+<a href="/previous-versions/windows/desktop/mscs/resource-dll-entry-point-functions">Resource DLL Entry-Point Functions</a>

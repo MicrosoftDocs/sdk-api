@@ -53,7 +53,7 @@ api_name:
 ## -description
 
 The <b>IKEEXT_CREDENTIAL2</b> structure is  used to store credential information used for the authentication.
-[IKEEXT_CREDENTIAL1](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_credential1) is available. For Windows Vista, [IKEEXT_CREDENTIAL0](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_credential0)  is available.</div><div> </div>
+[IKEEXT_CREDENTIAL1](/windows/desktop/api/iketypes/ns-iketypes-ikeext_credential1) is available. For Windows Vista, [IKEEXT_CREDENTIAL0](/windows/desktop/api/iketypes/ns-iketypes-ikeext_credential0)  is available.</div><div> </div>
 
 ## -struct-fields
 
@@ -77,7 +77,7 @@ Available when <b>authenticationMethodType</b> is <b>IKEEXT_PRESHARED_KEY</b>.
 
 ### -field certificate
 
-Type: [IKEEXT_CERTIFICATE_CREDENTIAL1](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_certificate_credential1)*</b>
+Type: [IKEEXT_CERTIFICATE_CREDENTIAL1](/windows/desktop/api/iketypes/ns-iketypes-ikeext_certificate_credential1)*</b>
 
 Available when <b>authenticationMethodType</b> is one of the following values.
 
@@ -91,7 +91,7 @@ Available when <b>authenticationMethodType</b> is one of the following values.
 
 ### -field name
 
-Type: [IKEEXT_NAME_CREDENTIAL0](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_name_credential0)*</b>
+Type: [IKEEXT_NAME_CREDENTIAL0](/windows/desktop/api/iketypes/ns-iketypes-ikeext_name_credential0)*</b>
 
 Available when <b>authenticationMethodType</b> is one of the following values.
 
@@ -109,11 +109,11 @@ Available when <b>authenticationMethodType</b> is one of the following values.
 
 
 
-[IKEEXT_CERTIFICATE_CREDENTIAL1](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_certificate_credential1)
+[IKEEXT_CERTIFICATE_CREDENTIAL1](/windows/desktop/api/iketypes/ns-iketypes-ikeext_certificate_credential1)
 
 
 
-[IKEEXT_NAME_CREDENTIAL0](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_name_credential0)
+[IKEEXT_NAME_CREDENTIAL0](/windows/desktop/api/iketypes/ns-iketypes-ikeext_name_credential0)
 
 
 
@@ -121,5 +121,4 @@ Available when <b>authenticationMethodType</b> is one of the following values.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>
-
+<a href="/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>

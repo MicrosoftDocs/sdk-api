@@ -54,7 +54,7 @@ Enables a client application to retrieve information about an item (cell) in a s
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUIAutomationSpreadsheetItemPattern</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IUIAutomationSpreadsheetItemPattern</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUIAutomationSpreadsheetItemPattern</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IUIAutomationSpreadsheetItemPattern</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -70,7 +70,7 @@ The <b>IUIAutomationSpreadsheetItemPattern</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationspreadsheetitempattern-getcachedannotationobjects">GetCachedAnnotationObjects</a>
+<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationspreadsheetitempattern-getcachedannotationobjects">GetCachedAnnotationObjects</a>
 </td>
 <td align="left" width="63%">
 Retrieves a cached array of elements representing the annotations associated with this spreadsheet cell. 
@@ -79,7 +79,7 @@ Retrieves a cached array of elements representing the annotations associated wit
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationspreadsheetitempattern-getcachedannotationtypes">GetCachedAnnotationTypes</a>
+<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationspreadsheetitempattern-getcachedannotationtypes">GetCachedAnnotationTypes</a>
 </td>
 <td align="left" width="63%">
 Retrieves a cached array of annotation type identifiers indicating the types of annotations that are associated with this spreadsheet cell. 
@@ -88,7 +88,7 @@ Retrieves a cached array of annotation type identifiers indicating the types of 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationspreadsheetitempattern-getcurrentannotationobjects">GetCurrentAnnotationObjects</a>
+<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationspreadsheetitempattern-getcurrentannotationobjects">GetCurrentAnnotationObjects</a>
 </td>
 <td align="left" width="63%">
 Retrieves an array of elements representing the annotations associated with this spreadsheet cell. 
@@ -97,7 +97,7 @@ Retrieves an array of elements representing the annotations associated with this
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationspreadsheetitempattern-getcurrentannotationtypes">GetCurrentAnnotationTypes</a>
+<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationspreadsheetitempattern-getcurrentannotationtypes">GetCurrentAnnotationTypes</a>
 </td>
 <td align="left" width="63%">
 Retrieves an array of annotation type identifiers indicating the types of annotations that are associated with this spreadsheet cell.
@@ -115,7 +115,7 @@ Retrieves an array of annotation type identifiers indicating the types of annota
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationspreadsheetitempattern-get_cachedformula">CachedFormula</a>
+<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationspreadsheetitempattern-get_cachedformula">CachedFormula</a>
 
 
 </td>
@@ -131,7 +131,7 @@ Retrieves the cached formula for this cell.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationspreadsheetitempattern-get_currentformula">CurrentFormula</a>
+<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationspreadsheetitempattern-get_currentformula">CurrentFormula</a>
 
 
 </td>
@@ -148,5 +148,4 @@ Retrieves the formula for this cell.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-client-controlpatterninterfaces">Control Pattern Interfaces for Clients</a>
-
+<a href="/windows/desktop/WinAuto/uiauto-client-controlpatterninterfaces">Control Pattern Interfaces for Clients</a>

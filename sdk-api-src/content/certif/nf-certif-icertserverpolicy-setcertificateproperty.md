@@ -58,7 +58,7 @@ Use the <b>SetCertificateProperty</b> method to set a property associated with a
 ### -param strPropertyName [in]
 
 Specifies the property to set. You can set any of the 
-<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/name-properties">Name Properties</a> associated with the certificate. 
+<a href="/windows/desktop/SecCrypto/name-properties">Name Properties</a> associated with the certificate. 
 
 
  In addition, you can set the following certificate properties.
@@ -99,7 +99,7 @@ The certificate is not valid after the given date.
 <td width="60%">
  Set this property to 0x00000400 to prevent the request from being persisted in the CA database.
 
-<div class="alert"><b>Caution</b>  Do not overwrite any mask values returned by <a href="https://docs.microsoft.com/windows/desktop/api/certif/nf-certif-icertserverpolicy-getcertificateproperty">GetCertificateProperty</a>when setting this property. Set the value by performing a bitwise <b>OR</b> with the existing values.</div>
+<div class="alert"><b>Caution</b>  Do not overwrite any mask values returned by <a href="/windows/desktop/api/certif/nf-certif-icertserverpolicy-getcertificateproperty">GetCertificateProperty</a>when setting this property. Set the value by performing a bitwise <b>OR</b> with the existing values.</div>
 <div> </div>
 <b>Windows Storage Server 2003:  </b>This field is not supported.
 
@@ -136,7 +136,7 @@ Tells the CA to set the requester account name ("RequesterName") and distinguish
 </dl>
 </td>
 <td width="60%">
-Tells the CA to convert the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/u-gly">user principal name</a> (UPN) of the requester to the requester 								name ("RequesterName")  and to set the requester name and the requester distinguished 								name.
+Tells the CA to convert the <a href="/windows/desktop/SecGloss/u-gly">user principal name</a> (UPN) of the requester to the requester 								name ("RequesterName")  and to set the requester name and the requester distinguished 								name.
 
 </td>
 </tr>
@@ -198,7 +198,7 @@ Binary data.
 </dl>
 </td>
 <td width="60%">
-<a href="https://docs.microsoft.com/windows/desktop/SecGloss/u-gly">Unicode</a> string data
+<a href="/windows/desktop/SecGloss/u-gly">Unicode</a> string data
 
 </td>
 </tr>
@@ -213,19 +213,19 @@ Specifies the value to set the property to.
 <h3>VB</h3>
  If the method succeeds, the method returns S_OK.
 
-If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
+If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 ## -remarks
 
 You must call 
-<a href="https://docs.microsoft.com/windows/desktop/api/certif/nf-certif-icertserverpolicy-setcontext">ICertServerPolicy::SetContext</a> prior to using this method.
+<a href="/windows/desktop/api/certif/nf-certif-icertserverpolicy-setcontext">ICertServerPolicy::SetContext</a> prior to using this method.
 
 The NotBefore and NotAfter certificate properties constrain the lifetime during which a certificate is valid. The data type for these properties is a floating-point <b>VARIANT</b> date derived from COleDateTime in Automation.
 
 The following restrictions apply when setting the NotBefore and NotAfter certificate properties with <b>SetCertificateProperty</b>:
 
 <ul>
-<li>The NotBefore date cannot be set to a date earlier than the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certification authority</a> (CA) certificate's NotBefore date.</li>
+<li>The NotBefore date cannot be set to a date earlier than the <a href="/windows/desktop/SecGloss/c-gly">certification authority</a> (CA) certificate's NotBefore date.</li>
 <li>The NotAfter date cannot be set to a date later than the CA certificate's NotAfter date.</li>
 <li>The NotBefore date cannot be set to a date earlier than it already is set, even if the new date is later than the CA certificate's NotBefore date.</li>
 <li>The NotAfter date cannot be set to a date later than it already is set, even if the new date is before the CA certificate's NotAfter date.</li>
@@ -233,7 +233,7 @@ The following restrictions apply when setting the NotBefore and NotAfter certifi
 
 #### Examples
 
-The following example calls the <b>SetCertificateProperty</b> method to set the NotBefore certificate property. The example assumes pServer is valid and the <a href="https://docs.microsoft.com/windows/desktop/api/certif/nf-certif-icertserverpolicy-setcontext">ICertServerPolicy::SetContext</a> method has been called.
+The following example calls the <b>SetCertificateProperty</b> method to set the NotBefore certificate property. The example assumes pServer is valid and the <a href="/windows/desktop/api/certif/nf-certif-icertserverpolicy-setcontext">ICertServerPolicy::SetContext</a> method has been called.
 
 
 ```cpp
@@ -282,17 +282,16 @@ if (FAILED(hr))
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certif/nf-certif-icertserverexit-getcertificateproperty">ICertServerExit::GetCertificateProperty</a>
+<a href="/windows/desktop/api/certif/nf-certif-icertserverexit-getcertificateproperty">ICertServerExit::GetCertificateProperty</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certif/nn-certif-icertserverpolicy">ICertServerPolicy</a>
+<a href="/windows/desktop/api/certif/nn-certif-icertserverpolicy">ICertServerPolicy</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certif/nf-certif-icertserverpolicy-setcontext">ICertServerPolicy::SetContext</a>
+<a href="/windows/desktop/api/certif/nf-certif-icertserverpolicy-setcontext">ICertServerPolicy::SetContext</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/name-properties">Name Properties</a>
-
+<a href="/windows/desktop/SecCrypto/name-properties">Name Properties</a>

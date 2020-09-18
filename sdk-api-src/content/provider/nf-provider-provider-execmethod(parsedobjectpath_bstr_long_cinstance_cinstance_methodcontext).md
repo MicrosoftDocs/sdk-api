@@ -51,10 +51,10 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[The <a href="https://docs.microsoft.com/windows/desktop/api/provider/nl-provider-provider">Provider</a> class 
+<p class="CCE_Message">[The <a href="/windows/desktop/api/provider/nl-provider-provider">Provider</a> class 
     is part of the WMI Provider Framework which is now considered in final state, and no further development, 
     enhancements, or updates will be available for non-security related issues affecting these libraries. The 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/wmi_v2/windows-management-infrastructure">MI APIs</a> should be used for all new 
+    <a href="/previous-versions/windows/desktop/wmi_v2/windows-management-infrastructure">MI APIs</a> should be used for all new 
     development.]
 
 The <b>ExecMethod</b> method is called by WMI to invoke a method on a class or instance.
@@ -71,7 +71,7 @@ Name of the method that is invoked.
 
 ### -param lFlags
 
-Bitmask of flags with information about the execute method operation. This is the value specified by the client in the <a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemservices-execmethod">IWbemServices::ExecMethod</a> method. Few clients use the <i>lFlags</i> parameters. You can safely ignore <i>lFlags</i> in most provider implementations.
+Bitmask of flags with information about the execute method operation. This is the value specified by the client in the <a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemservices-execmethod">IWbemServices::ExecMethod</a> method. Few clients use the <i>lFlags</i> parameters. You can safely ignore <i>lFlags</i> in most provider implementations.
 
 The following flag is handled by (and filtered out) by WMI:
 
@@ -100,7 +100,7 @@ Key properties of the instance in question if the client called an instance meth
 
 ## -returns
 
-The default framework provider implementation of this method returns <b>WBEM_E_PROVIDER_NOT_CAPABLE</b> to the calling method. The <a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemservices-execmethod">IWbemServices::ExecMethod</a> method lists the most common return values, although you can choose to return any COM return code.
+The default framework provider implementation of this method returns <b>WBEM_E_PROVIDER_NOT_CAPABLE</b> to the calling method. The <a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemservices-execmethod">IWbemServices::ExecMethod</a> method lists the most common return values, although you can choose to return any COM return code.
 
 Return values for methods may be one of two types:
 
@@ -111,22 +111,21 @@ Return values for methods may be one of two types:
 
 ## -remarks
 
-WMI calls <b>ExecMethod</b> when a client calls <a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemservices-execmethod">IWbemServices::ExecMethod</a> against your class. Therefore, you must implement <b>ExecMethod</b> if your provider supports one or more methods. The following list describes a common implementation of <b>ExecMethod</b>:
+WMI calls <b>ExecMethod</b> when a client calls <a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemservices-execmethod">IWbemServices::ExecMethod</a> against your class. Therefore, you must implement <b>ExecMethod</b> if your provider supports one or more methods. The following list describes a common implementation of <b>ExecMethod</b>:
 
 <ol>
 <li>Determine which method the client called by examining the <i>bstrMethodName</i> parameter.</li>
 <li>
-Retrieve the input parameters from the <i>pInParams</i> parameter, using the <b>Get</b> methods from the <a href="https://docs.microsoft.com/windows/desktop/api/instance/nl-instance-cinstance">CInstance</a> class, such as <a href="https://docs.microsoft.com/windows/desktop/api/instance/nf-instance-cinstance-getchstring">CInstance::GetCHString</a>.
+Retrieve the input parameters from the <i>pInParams</i> parameter, using the <b>Get</b> methods from the <a href="/windows/desktop/api/instance/nl-instance-cinstance">CInstance</a> class, such as <a href="/windows/desktop/api/instance/nf-instance-cinstance-getchstring">CInstance::GetCHString</a>.
 
 A method may have input parameters, output parameters, both input and output parameters, or no input or output parameters.
 
 </li>
 <li>
-Set the output parameters in the <i>pOutParams</i> parameter, using the Set methods of the <a href="https://docs.microsoft.com/windows/desktop/api/instance/nl-instance-cinstance">CInstance</a> class, such as <a href="https://docs.microsoft.com/windows/desktop/api/instance/nf-instance-cinstance-setbyte">CInstance::SetByte</a> or <a href="https://docs.microsoft.com/windows/desktop/api/instance/nf-instance-cinstance-setstringarray">CInstance::SetStringArray</a>.
+Set the output parameters in the <i>pOutParams</i> parameter, using the Set methods of the <a href="/windows/desktop/api/instance/nl-instance-cinstance">CInstance</a> class, such as <a href="/windows/desktop/api/instance/nf-instance-cinstance-setbyte">CInstance::SetByte</a> or <a href="/windows/desktop/api/instance/nf-instance-cinstance-setstringarray">CInstance::SetStringArray</a>.
 
 In addition to declaring the [out] properties as specified in the return declaration, you must also declare the return value for the method, as defined in the <b>ReturnValue</b> property. You do not have to declare a return value if if the return value is <b>void</b>.
 
 </li>
 </ol>
-For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemservices-execmethod">IWbemServices::ExecMethod</a>.
-
+For more information, see <a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemservices-execmethod">IWbemServices::ExecMethod</a>.

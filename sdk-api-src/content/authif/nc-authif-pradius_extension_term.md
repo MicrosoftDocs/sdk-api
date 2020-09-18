@@ -65,17 +65,16 @@ api_name:
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Nps/ias-about-internet-authentication-service">About NPS Extensions</a>
+<a href="/windows/desktop/Nps/ias-about-internet-authentication-service">About NPS Extensions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Nps/ias-internet-authentication-service-functions">NPS Extensions Functions</a>
+<a href="/windows/desktop/Nps/ias-internet-authentication-service-functions">NPS Extensions Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Nps/ias-internet-authentication-service-reference">NPS Extensions Reference</a>
+<a href="/windows/desktop/Nps/ias-internet-authentication-service-reference">NPS Extensions Reference</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/authif/nc-authif-pradius_extension_init">RadiusExtensionInit</a>
-
+<a href="/windows/desktop/api/authif/nc-authif-pradius_extension_init">RadiusExtensionInit</a>

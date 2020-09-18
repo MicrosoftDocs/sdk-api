@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-Compares two <a href="https://docs.microsoft.com/windows/desktop/Intl/unicode">Unicode</a> strings to test binary equivalence.
+Compares two <a href="/windows/desktop/Intl/unicode">Unicode</a> strings to test binary equivalence.
 
 ## -parameters
 
@@ -87,45 +87,44 @@ Returns one of the following values if successful. To maintain the C runtime con
 <li>CSTR_EQUAL. The value indicated by <i>lpString1</i> equals the value indicated by <i>lpString2</i>.</li>
 <li>CSTR_GREATER_THAN. The value indicated by <i>lpString1</i> is greater than the value indicated by <i>lpString2</i>.</li>
 </ul>
-The function returns 0 if it does not succeed. To get extended error information, the application can call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>, which can return one of the following error codes:
+The function returns 0 if it does not succeed. To get extended error information, the application can call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>, which can return one of the following error codes:
 <ul>
 <li>ERROR_INVALID_PARAMETER. Any of the parameter values was invalid.</li>
 </ul>
 
 ## -remarks
 
-This function tests for binary equality, not linguistic equality. For information about the use of the function for ordinal sorting, see <a href="https://docs.microsoft.com/windows/desktop/Intl/handling-sorting-in-your-applications">Handling Sorting in Your Applications</a>.
+This function tests for binary equality, not linguistic equality. For information about the use of the function for ordinal sorting, see <a href="/windows/desktop/Intl/handling-sorting-in-your-applications">Handling Sorting in Your Applications</a>.
 
-Applications that are concerned with linguistic equality should use <a href="https://docs.microsoft.com/windows/desktop/api/stringapiset/nf-stringapiset-comparestringw">CompareString</a>, <a href="https://docs.microsoft.com/windows/desktop/api/stringapiset/nf-stringapiset-comparestringex">CompareStringEx</a>, <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-lstrcmpa">lstrcmp</a>, or <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-lstrcmpia">lstrcmpi</a>. For more information about linguistic sorting, see <a href="https://docs.microsoft.com/windows/desktop/Intl/handling-sorting-in-your-applications">Handling Sorting in Your Applications</a>
+Applications that are concerned with linguistic equality should use <a href="/windows/desktop/api/stringapiset/nf-stringapiset-comparestringw">CompareString</a>, <a href="/windows/desktop/api/stringapiset/nf-stringapiset-comparestringex">CompareStringEx</a>, <a href="/windows/desktop/api/winbase/nf-winbase-lstrcmpa">lstrcmp</a>, or <a href="/windows/desktop/api/winbase/nf-winbase-lstrcmpia">lstrcmpi</a>. For more information about linguistic sorting, see <a href="/windows/desktop/Intl/handling-sorting-in-your-applications">Handling Sorting in Your Applications</a>
 
 
 <b>Starting with Windows 8: </b><b>CompareStringOrdinal</b>  is declared in Stringapiset.h. Before Windows 8, it was declared in Winnls.h.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/stringapiset/nf-stringapiset-comparestringw">CompareString</a>
+<a href="/windows/desktop/api/stringapiset/nf-stringapiset-comparestringw">CompareString</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/stringapiset/nf-stringapiset-comparestringex">CompareStringEx</a>
+<a href="/windows/desktop/api/stringapiset/nf-stringapiset-comparestringex">CompareStringEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/handling-sorting-in-your-applications">Handling Sorting in Your Applications</a>
+<a href="/windows/desktop/Intl/handling-sorting-in-your-applications">Handling Sorting in Your Applications</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/national-language-support">National Language Support</a>
+<a href="/windows/desktop/Intl/national-language-support">National Language Support</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/national-language-support-functions">National Language Support Functions</a>
+<a href="/windows/desktop/Intl/national-language-support-functions">National Language Support Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/security-considerations--international-features">Security Considerations: International Features</a>
+<a href="/windows/desktop/Intl/security-considerations--international-features">Security Considerations: International Features</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/using-unicode-normalization-to-represent-strings">Using Unicode Normalization to Represent Strings</a>
-
+<a href="/windows/desktop/Intl/using-unicode-normalization-to-represent-strings">Using Unicode Normalization to Represent Strings</a>

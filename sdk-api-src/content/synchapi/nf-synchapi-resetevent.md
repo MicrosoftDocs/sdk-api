@@ -63,28 +63,28 @@ Sets the specified event object to the nonsignaled state.
 ### -param hEvent [in]
 
 A handle to the event object. The 
-<a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-createeventa">CreateEvent</a> or 
-<a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-openeventa">OpenEvent</a> function returns this handle. 
+<a href="/windows/desktop/api/synchapi/nf-synchapi-createeventa">CreateEvent</a> or 
+<a href="/windows/desktop/api/synchapi/nf-synchapi-openeventa">OpenEvent</a> function returns this handle. 
 
 
 
 
 The handle must have the EVENT_MODIFY_STATE access right. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/Sync/synchronization-object-security-and-access-rights">Synchronization Object Security and Access Rights</a>.
+<a href="/windows/desktop/Sync/synchronization-object-security-and-access-rights">Synchronization Object Security and Access Rights</a>.
 
 ## -returns
 
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
 The state of an event object remains nonsignaled until it is explicitly set to signaled by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-setevent">SetEvent</a> or 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-pulseevent">PulseEvent</a> function. This nonsignaled state blocks the execution of any threads that have specified the event object in a call to one of the 
-<a href="https://docs.microsoft.com/windows/desktop/Sync/wait-functions">wait functions</a>.
+<a href="/windows/desktop/api/synchapi/nf-synchapi-setevent">SetEvent</a> or 
+<a href="/windows/desktop/api/winbase/nf-winbase-pulseevent">PulseEvent</a> function. This nonsignaled state blocks the execution of any threads that have specified the event object in a call to one of the 
+<a href="/windows/desktop/Sync/wait-functions">wait functions</a>.
 
 The 
 <b>ResetEvent</b> function is used primarily for manual-reset event objects, which must be set explicitly to the nonsignaled state. Auto-reset event objects automatically change from signaled to nonsignaled after a single waiting thread is released.
@@ -93,25 +93,24 @@ Resetting an event that is already reset has no effect.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-createeventa">CreateEvent</a>
+<a href="/windows/desktop/api/synchapi/nf-synchapi-createeventa">CreateEvent</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Sync/event-objects">Event Objects</a>
+<a href="/windows/desktop/Sync/event-objects">Event Objects</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-openeventa">OpenEvent</a>
+<a href="/windows/desktop/api/synchapi/nf-synchapi-openeventa">OpenEvent</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-pulseevent">PulseEvent</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-pulseevent">PulseEvent</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-setevent">SetEvent</a>
+<a href="/windows/desktop/api/synchapi/nf-synchapi-setevent">SetEvent</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Sync/synchronization-functions">Synchronization Functions</a>
-
+<a href="/windows/desktop/Sync/synchronization-functions">Synchronization Functions</a>

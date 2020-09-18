@@ -58,13 +58,13 @@ Contains information about hyphenation in a Microsoft Rich Edit control.
 
 ### -field cbSize
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">SHORT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">SHORT</a></b>
 
 Size of the <b>HYPHENATEINFO</b> structure, in bytes.
 
 ### -field dxHyphenateZone
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">SHORT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">SHORT</a></b>
 
 Size, in TWIPS (one TWIP is 1/1440 inch), of the area near the margin that excludes hyphenation. If a space character is closer to the margin than this value, do not hyphenate the following word.
 
@@ -93,4 +93,3 @@ This structure is used with the <a href="https://msdn.microsoft.com/70ccb698-e44
 
 
 <b>Reference</b>
-

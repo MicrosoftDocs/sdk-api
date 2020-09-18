@@ -64,17 +64,16 @@ Contains the DirectDraw handle that was passed down from user mode.
 
 ### -field pfnDirectDrawClose
 
-Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddkmapi/nc-ddkmapi-lpdd_notifycallback">pfnDirectDrawClose</a> callback function that is called if the DirectDraw object goes away.
+Points to a <a href="/windows/desktop/api/ddkmapi/nc-ddkmapi-lpdd_notifycallback">pfnDirectDrawClose</a> callback function that is called if the DirectDraw object goes away.
 
 ### -field pContext
 
-Contains a value that is passed if the <a href="https://docs.microsoft.com/windows/desktop/api/ddkmapi/nc-ddkmapi-lpdd_notifycallback">pfnDirectDrawClose</a> callback is ever called.
+Contains a value that is passed if the <a href="/windows/desktop/api/ddkmapi/nc-ddkmapi-lpdd_notifycallback">pfnDirectDrawClose</a> callback is ever called.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff550702(v=vs.85)">DD_DXAPI_OPENDIRECTDRAW</a>
+<a href="/previous-versions/windows/hardware/drivers/ff550702(v=vs.85)">DD_DXAPI_OPENDIRECTDRAW</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dxapi/nf-dxapi-dxapi">DxApi</a>
-
+<a href="/windows-hardware/drivers/ddi/content/dxapi/nf-dxapi-dxapi">DxApi</a>

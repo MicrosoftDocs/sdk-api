@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Instantiates a <a href="https://docs.microsoft.com/uwp/api/windows.ui.input.radialcontroller">RadialController</a> object and binds it to the active application.
+Instantiates a <a href="/uwp/api/windows.ui.input.radialcontroller">RadialController</a> object and binds it to the active application.
 
 ## -parameters
 
@@ -66,7 +66,7 @@ The REFIID, or GUID, of the interface to the resource can be obtained by using t
 
 ### -param ppv [out]
 
-Address of a pointer to a <a href="https://docs.microsoft.com/uwp/api/windows.ui.input.radialcontroller">RadialController</a> object.
+Address of a pointer to a <a href="/uwp/api/windows.ui.input.radialcontroller">RadialController</a> object.
 
 ## -returns
 
@@ -78,7 +78,7 @@ If this function succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>H
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/radialcontrollerinterop/nn-radialcontrollerinterop-iradialcontrollerinterop">IRadialControllerInterop</a>
+<a href="/previous-versions/windows/desktop/api/radialcontrollerinterop/nn-radialcontrollerinterop-iradialcontrollerinterop">IRadialControllerInterop</a>
 
 
 
@@ -86,7 +86,7 @@ If this function succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>H
 
 
 
-<a href="https://docs.microsoft.com/windows/uwp/design/input/windows-wheel-interactions?redirectedfrom=MSDN">Surface Dial interactions</a>
+<a href="/windows/uwp/design/input/windows-wheel-interactions">Surface Dial interactions</a>
 
 
 
@@ -95,4 +95,3 @@ If this function succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>H
 
 
 <a href="https://github.com/Microsoft/Windows-classic-samples/tree/master/Samples/RadialController">Windows classic desktop sample</a>
-

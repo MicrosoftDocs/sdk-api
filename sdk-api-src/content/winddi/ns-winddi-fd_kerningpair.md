@@ -66,7 +66,7 @@ Specifies the code point of the second character in the kerning pair.
 
 ### -field fwdKern
 
-Specifies the kerning value, in font (notional) units, for the kerning pair. If this value is greater than zero, the characters will be moved apart; otherwise, the characters will be moved together. For information about the FWORD data type, see <a href="https://docs.microsoft.com/windows-hardware/drivers/display/gdi-data-types">GDI Data Types</a>.
+Specifies the kerning value, in font (notional) units, for the kerning pair. If this value is greater than zero, the characters will be moved apart; otherwise, the characters will be moved together. For information about the FWORD data type, see <a href="/windows-hardware/drivers/display/gdi-data-types">GDI Data Types</a>.
 
 ## -remarks
 
@@ -79,5 +79,4 @@ An array of FD_KERNINGPAIR structures must be null-terminated, which means the l
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvqueryfonttree">DrvQueryFontTree</a>
-
+<a href="/windows/desktop/api/winddi/nf-winddi-drvqueryfonttree">DrvQueryFontTree</a>

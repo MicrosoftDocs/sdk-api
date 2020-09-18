@@ -66,13 +66,12 @@ Returns <b>S_OK</b> if successful; otherwise, returns one of the following value
               </li>
 </ul>
 
-See <a href="https://msdn.microsoft.com/5F6CC962-7DB7-489F-82A4-9388313014D3">Direct3D 12 Return Codes</a> for other possible return values.
+See <a href="/windows/win32/direct3d12/d3d12-graphics-reference-returnvalues">Direct3D 12 Return Codes</a> for other possible return values.
 
 ## -remarks
 
 The runtime will validate that the command list has not previously been closed.  If an error was encountered during recording, the error code is returned here.  The runtime won't call the close device driver interface (DDI) in this case.
 
-For an example of creating a command list, see [ID3D12GraphicsCommandList::Close method](https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-close)
+For an example of creating a command list, see [ID3D12GraphicsCommandList::Close method](/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-close)
 
 ## -see-also
-

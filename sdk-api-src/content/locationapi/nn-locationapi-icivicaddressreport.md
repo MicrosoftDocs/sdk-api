@@ -50,14 +50,14 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[The Win32 Location API is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use the <a href="https://docs.microsoft.com/uwp/api/windows.devices.geolocation">Windows.Devices.Geolocation</a>API.
+<p class="CCE_Message">[The Win32 Location API is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use the <a href="/uwp/api/windows.devices.geolocation">Windows.Devices.Geolocation</a>API.
 ]
 
 <b>ICivicAddressReport</b> represents a location report that contains information in the form of a street address.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICivicAddressReport</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/locationapi/nn-locationapi-ilocationreport">ILocationReport</a>. <b>ICivicAddressReport</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICivicAddressReport</b> interface inherits from <a href="/windows/desktop/api/locationapi/nn-locationapi-ilocationreport">ILocationReport</a>. <b>ICivicAddressReport</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,7 +72,7 @@ The <b>ICivicAddressReport</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/locationapi/nf-locationapi-icivicaddressreport-getaddressline1">GetAddressLine1</a>
+<a href="/windows/desktop/api/locationapi/nf-locationapi-icivicaddressreport-getaddressline1">GetAddressLine1</a>
 </td>
 <td align="left" width="63%">
 Retrieves the first line of a street address.
@@ -81,7 +81,7 @@ Retrieves the first line of a street address.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/locationapi/nf-locationapi-icivicaddressreport-getaddressline2">GetAddressLine2</a>
+<a href="/windows/desktop/api/locationapi/nf-locationapi-icivicaddressreport-getaddressline2">GetAddressLine2</a>
 </td>
 <td align="left" width="63%">
 Retrieves the second line of a street address.
@@ -90,7 +90,7 @@ Retrieves the second line of a street address.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/locationapi/nf-locationapi-icivicaddressreport-getcity">GetCity</a>
+<a href="/windows/desktop/api/locationapi/nf-locationapi-icivicaddressreport-getcity">GetCity</a>
 </td>
 <td align="left" width="63%">
 Retrieves the city name.
@@ -99,7 +99,7 @@ Retrieves the city name.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/locationapi/nf-locationapi-icivicaddressreport-getcountryregion">GetCountryRegion</a>
+<a href="/windows/desktop/api/locationapi/nf-locationapi-icivicaddressreport-getcountryregion">GetCountryRegion</a>
 </td>
 <td align="left" width="63%">
 Retrieves the country or region name.
@@ -108,7 +108,7 @@ Retrieves the country or region name.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/locationapi/nf-locationapi-icivicaddressreport-getdetaillevel">GetDetailLevel</a>
+<a href="/windows/desktop/api/locationapi/nf-locationapi-icivicaddressreport-getdetaillevel">GetDetailLevel</a>
 </td>
 <td align="left" width="63%">
 Retrieves a value that indicates the level of detail provided by the civic address report.
@@ -117,7 +117,7 @@ Retrieves a value that indicates the level of detail provided by the civic addre
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/locationapi/nf-locationapi-icivicaddressreport-getpostalcode">GetPostalCode</a>
+<a href="/windows/desktop/api/locationapi/nf-locationapi-icivicaddressreport-getpostalcode">GetPostalCode</a>
 </td>
 <td align="left" width="63%">
 Retrieves the postal code.
@@ -126,7 +126,7 @@ Retrieves the postal code.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/locationapi/nf-locationapi-icivicaddressreport-getstateprovince">GetStateProvince</a>
+<a href="/windows/desktop/api/locationapi/nf-locationapi-icivicaddressreport-getstateprovince">GetStateProvince</a>
 </td>
 <td align="left" width="63%">
 Retrieves the state or province name.
@@ -138,4 +138,3 @@ Retrieves the state or province name.
 ## -remarks
 
 Note that any property value can be <b>NULL</b> if the value is not available.
-

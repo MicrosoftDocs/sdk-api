@@ -56,7 +56,7 @@ Receives a notification when one of the dynamic flags of the TF_STATUS structure
 
 ### -param pic [in]
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfcontext">ITfContext</a> interface whose status has changed.
+Pointer to the <a href="/windows/desktop/api/msctf/nn-msctf-itfcontext">ITfContext</a> interface whose status has changed.
 
 ### -param dwFlags [in]
 
@@ -68,24 +68,23 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -remarks
 
-This method receives a callback when one of the flags of the <b>dwDynamicFlags</b> member of the <b>TF_STATUS</b> structure changes value. To obtain the changed flag(s), use the <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcontext-getstatus">ITfContext::GetStatus</a> method.
+This method receives a callback when one of the flags of the <b>dwDynamicFlags</b> member of the <b>TF_STATUS</b> structure changes value. To obtain the changed flag(s), use the <a href="/windows/desktop/api/msctf/nf-msctf-itfcontext-getstatus">ITfContext::GetStatus</a> method.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfcontext">ITfContext
+<a href="/windows/desktop/api/msctf/nn-msctf-itfcontext">ITfContext
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcontext-getstatus">ITfContext::GetStatus
+<a href="/windows/desktop/api/msctf/nf-msctf-itfcontext-getstatus">ITfContext::GetStatus
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfstatussink">ITfStatusSink</a>
+<a href="/windows/desktop/api/msctf/nn-msctf-itfstatussink">ITfStatusSink</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms629192(v=vs.85)">TF_STATUS
+<a href="/previous-versions/windows/desktop/legacy/ms629192(v=vs.85)">TF_STATUS
       </a>
-

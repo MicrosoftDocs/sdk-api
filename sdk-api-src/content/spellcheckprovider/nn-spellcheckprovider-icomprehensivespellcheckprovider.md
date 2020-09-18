@@ -54,7 +54,7 @@ Allows the provider to optionally support a more comprehensive spell checking fu
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IComprehensiveSpellCheckProvider</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IComprehensiveSpellCheckProvider</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IComprehensiveSpellCheckProvider</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IComprehensiveSpellCheckProvider</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,12 +69,11 @@ The <b>IComprehensiveSpellCheckProvider</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/Intl/icomprehensivespellcheckprovider-comprehensivecheck">ComprehensiveCheck</a>
+<a href="/windows/desktop/Intl/icomprehensivespellcheckprovider-comprehensivecheck">ComprehensiveCheck</a>
 </td>
 <td align="left" width="63%">
-Spell-check the provider text in a more thorough manner than <a href="https://docs.microsoft.com/windows/desktop/api/spellcheckprovider/nf-spellcheckprovider-ispellcheckprovider-check">ISpellCheckProvider::Check</a>.
+Spell-check the provider text in a more thorough manner than <a href="/windows/desktop/api/spellcheckprovider/nf-spellcheckprovider-ispellcheckprovider-check">ISpellCheckProvider::Check</a>.
 
 </td>
 </tr>
 </table>
-

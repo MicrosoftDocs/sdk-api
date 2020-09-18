@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Describes what choice a user makes about a sync manager conflict resolution. Used by <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nn-syncmgr-isyncmgrconflictpresenter">ISyncMgrConflictPresenter</a>.
+Describes what choice a user makes about a sync manager conflict resolution. Used by <a href="/windows/desktop/api/syncmgr/nn-syncmgr-isyncmgrconflictpresenter">ISyncMgrConflictPresenter</a>.
 
 ## -enum-fields
 
@@ -80,9 +80,8 @@ The item is not being resolved now but is instead being skipped so that it can b
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrconflictresolveinfo-getpresenterchoice">ISyncMgrConflictResolveInfo::GetPresenterChoice</a>
+<a href="/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrconflictresolveinfo-getpresenterchoice">ISyncMgrConflictResolveInfo::GetPresenterChoice</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrconflictresolveinfo-setpresenterchoice">ISyncMgrConflictResolveInfo::SetPresenterChoice</a>
-
+<a href="/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrconflictresolveinfo-setpresenterchoice">ISyncMgrConflictResolveInfo::SetPresenterChoice</a>

@@ -53,7 +53,7 @@ The <b>DdMoCompGetGuids</b> callback function retrieves the number of GUIDs the 
 
 ### -param Arg1
 
-Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_getmocompguidsdata">DD_GETMOCOMPGUIDSDATA</a> structure that contains the GUID information.
+Points to a <a href="/windows/desktop/api/ddrawint/ns-ddrawint-dd_getmocompguidsdata">DD_GETMOCOMPGUIDSDATA</a> structure that contains the GUID information.
 
 ## -returns
 
@@ -65,5 +65,4 @@ DirectDraw drivers that support motion compensation must implement <b>DdMoCompGe
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_getmocompguidsdata">DD_GETMOCOMPGUIDSDATA</a>
-
+<a href="/windows/desktop/api/ddrawint/ns-ddrawint-dd_getmocompguidsdata">DD_GETMOCOMPGUIDSDATA</a>

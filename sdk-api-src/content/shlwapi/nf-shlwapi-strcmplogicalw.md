@@ -84,7 +84,7 @@ Type: <b>int</b>
 
 ## -remarks
 
-This function's ordering schema differs somewhat from <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-strcmpiw">StrCmpI</a>, which also compares strings without regard to case sensitivity. Considering digits by their numerical value—as <b>StrCmpLogicalW</b> does—strings are ordered as follows:
+This function's ordering schema differs somewhat from <a href="/windows/desktop/api/shlwapi/nf-shlwapi-strcmpiw">StrCmpI</a>, which also compares strings without regard to case sensitivity. Considering digits by their numerical value—as <b>StrCmpLogicalW</b> does—strings are ordered as follows:
 		
                 
 
@@ -122,4 +122,3 @@ string3
 
 <div class="alert"><b>Note</b>  Behavior of this function, and therefore the results it returns, can change from release to release. It should not be used for canonical sorting applications.</div>
 <div> </div>
-

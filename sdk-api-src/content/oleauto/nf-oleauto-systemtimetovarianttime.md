@@ -75,7 +75,7 @@ The variant time resolves to one second. Any milliseconds in the input date are 
 > [!NOTE]
 > When working with variant time, be mindful of the additional day added in leap years, which might produce unexpected results if unhandled. For more information, see [leap year readiness](https://techcommunity.microsoft.com/t5/azure-developer-community-blog/it-s-2020-is-your-code-ready-for-leap-day/ba-p/1157279).
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-systemtime">SYSTEMTIME</a> structure is useful for the following reasons:  
+The <a href="/windows/desktop/api/minwinbase/ns-minwinbase-systemtime">SYSTEMTIME</a> structure is useful for the following reasons:  
 
 <ul>
 <li>
@@ -87,7 +87,7 @@ The date/time elements are all easily accessible without needing to do any bit d
 
 </li>
 <li>
-The National Data Support data and time formatting functions <a href="https://docs.microsoft.com/windows/desktop/api/datetimeapi/nf-datetimeapi-getdateformata">GetDateFormat</a> and <a href="https://docs.microsoft.com/windows/desktop/api/datetimeapi/nf-datetimeapi-gettimeformata">GetTimeFormat</a> take an <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-systemtime">LPSYSTEMTIME</a> value as input.
+The National Data Support data and time formatting functions <a href="/windows/desktop/api/datetimeapi/nf-datetimeapi-getdateformata">GetDateFormat</a> and <a href="/windows/desktop/api/datetimeapi/nf-datetimeapi-gettimeformata">GetTimeFormat</a> take an <a href="/windows/desktop/api/minwinbase/ns-minwinbase-systemtime">LPSYSTEMTIME</a> value as input.
 
 </li>
 <li>
@@ -96,4 +96,3 @@ It is the default time/date data format supported by Windows.
 </li>
 </ul>
 The <b>SystemTimeToVariantTime</b> function will accept invalid dates and try to fix them when resolving to a VARIANT time. For example, an invalid date such as 2/29/2001 will resolve to 3/1/2001. Only days are fixed, so invalid month values result in an error being returned. Days are checked to be between 1 and 31. Negative days and days greater than 31 results in an error. A day less than 31 but greater than the maximum day in that month has the day promoted to the appropriate day of the next month. A day equal to zero resolves as the last day of the previous month. For example, an invalid dates such as 2/0/2001 will resolve to 1/31/2001.
-

@@ -54,7 +54,7 @@ api_name:
 ## -description
 
 Contains information that the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_disk_create_disk">IOCTL_DISK_CREATE_DISK</a> control code uses to initialize GUID partition table (GPT), master boot record (MBR), or raw disks.
+<a href="/windows/desktop/api/winioctl/ni-winioctl-ioctl_disk_create_disk">IOCTL_DISK_CREATE_DISK</a> control code uses to initialize GUID partition table (GPT), master boot record (MBR), or raw disks.
 
 ## -struct-fields
 
@@ -63,33 +63,32 @@ Contains information that the
 The format of a partition. 
 
 For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ne-winioctl-partition_style">PARTITION_STYLE</a>.
+<a href="/windows/desktop/api/winioctl/ne-winioctl-partition_style">PARTITION_STYLE</a>.
 
 ### -field DUMMYUNIONNAME
 
 ### -field DUMMYUNIONNAME.Mbr
 
 A 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-create_disk_mbr">CREATE_DISK_MBR</a> structure that contains disk information when an MBR disk is to be initialized.
+<a href="/windows/desktop/api/winioctl/ns-winioctl-create_disk_mbr">CREATE_DISK_MBR</a> structure that contains disk information when an MBR disk is to be initialized.
 
 ### -field DUMMYUNIONNAME.Gpt
 
 A 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-create_disk_gpt">CREATE_DISK_GPT</a> structure that contains disk information when a GPT disk is to be initialized.
+<a href="/windows/desktop/api/winioctl/ns-winioctl-create_disk_gpt">CREATE_DISK_GPT</a> structure that contains disk information when a GPT disk is to be initialized.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-create_disk_gpt">CREATE_DISK_GPT</a>
+<a href="/windows/desktop/api/winioctl/ns-winioctl-create_disk_gpt">CREATE_DISK_GPT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-create_disk_mbr">CREATE_DISK_MBR</a>
+<a href="/windows/desktop/api/winioctl/ns-winioctl-create_disk_mbr">CREATE_DISK_MBR</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_disk_create_disk">IOCTL_DISK_CREATE_DISK</a>
+<a href="/windows/desktop/api/winioctl/ni-winioctl-ioctl_disk_create_disk">IOCTL_DISK_CREATE_DISK</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ne-winioctl-partition_style">PARTITION_STYLE</a>
-
+<a href="/windows/desktop/api/winioctl/ne-winioctl-partition_style">PARTITION_STYLE</a>

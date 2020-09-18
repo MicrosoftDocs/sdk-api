@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Gets information concerning an <a href="https://docs.microsoft.com/windows/desktop/api/shlobj/nn-shlobj-ishellfolderband">IShellFolderBand</a> object and places it in a <a href="https://docs.microsoft.com/windows/desktop/api/shlobj/ns-shlobj-bandinfosfb">BANDINFOSFB</a> structure.
+Gets information concerning an <a href="/windows/desktop/api/shlobj/nn-shlobj-ishellfolderband">IShellFolderBand</a> object and places it in a <a href="/windows/desktop/api/shlobj/ns-shlobj-bandinfosfb">BANDINFOSFB</a> structure.
 
 ## -parameters
 
@@ -58,7 +58,7 @@ Gets information concerning an <a href="https://docs.microsoft.com/windows/deskt
 
 Type: <b>PBANDINFOSFB</b>
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/shlobj/ns-shlobj-bandinfosfb">BANDINFOSFB</a> structure.
+A pointer to a <a href="/windows/desktop/api/shlobj/ns-shlobj-bandinfosfb">BANDINFOSFB</a> structure.
 
 ## -returns
 
@@ -68,9 +68,8 @@ Returns S_OK if successful, or an error code otherwise.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellfolder">IShellFolder</a>
+<a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellfolder">IShellFolder</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shlobj/nn-shlobj-ishellfolderband">IShellFolderBand</a>
-
+<a href="/windows/desktop/api/shlobj/nn-shlobj-ishellfolderband">IShellFolderBand</a>

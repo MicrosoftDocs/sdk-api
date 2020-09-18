@@ -50,11 +50,11 @@ api_name:
 
 ## -description
 
-Is implemented by the client program to receive callback notifications from <a href="https://docs.microsoft.com/windows/desktop/api/wsddisco/nn-wsddisco-iwsdiscoveryprovider">IWSDiscoveryProvider</a>.
+Is implemented by the client program to receive callback notifications from <a href="/windows/desktop/api/wsddisco/nn-wsddisco-iwsdiscoveryprovider">IWSDiscoveryProvider</a>.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWSDiscoveryProviderNotify</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWSDiscoveryProviderNotify</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWSDiscoveryProviderNotify</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWSDiscoveryProviderNotify</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IWSDiscoveryProviderNotify</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wsddisco/nf-wsddisco-iwsdiscoveryprovidernotify-add">Add</a>
+<a href="/windows/desktop/api/wsddisco/nf-wsddisco-iwsdiscoveryprovidernotify-add">Add</a>
 </td>
 <td align="left" width="63%">
 Called to provide information on either a newly announced discovery host (from a Hello message), or a match to a user initiated query.
@@ -78,7 +78,7 @@ Called to provide information on either a newly announced discovery host (from a
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wsddisco/nf-wsddisco-iwsdiscoveryprovidernotify-remove">Remove</a>
+<a href="/windows/desktop/api/wsddisco/nf-wsddisco-iwsdiscoveryprovidernotify-remove">Remove</a>
 </td>
 <td align="left" width="63%">
 Called to provide information on a recently departed discovery host (from a Bye message).
@@ -87,7 +87,7 @@ Called to provide information on a recently departed discovery host (from a Bye 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wsddisco/nf-wsddisco-iwsdiscoveryprovidernotify-searchcomplete">SearchComplete</a>
+<a href="/windows/desktop/api/wsddisco/nf-wsddisco-iwsdiscoveryprovidernotify-searchcomplete">SearchComplete</a>
 </td>
 <td align="left" width="63%">
 Called to indicate a user initiated search has successfully completed and no more matches for the search will be accepted.
@@ -96,7 +96,7 @@ Called to indicate a user initiated search has successfully completed and no mor
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wsddisco/nf-wsddisco-iwsdiscoveryprovidernotify-searchfailed">SearchFailed</a>
+<a href="/windows/desktop/api/wsddisco/nf-wsddisco-iwsdiscoveryprovidernotify-searchfailed">SearchFailed</a>
 </td>
 <td align="left" width="63%">
 Called to indicate a user initiated search has failed.
@@ -104,4 +104,3 @@ Called to indicate a user initiated search has failed.
 </td>
 </tr>
 </table>
-

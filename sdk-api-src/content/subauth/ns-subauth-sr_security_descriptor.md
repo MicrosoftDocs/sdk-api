@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-The <b>SR_SECURITY_DESCRIPTOR</b> structure contains information about the security <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">privileges</a> of the user.
+The <b>SR_SECURITY_DESCRIPTOR</b> structure contains information about the security <a href="/windows/desktop/SecGloss/p-gly">privileges</a> of the user.
 
 ## -struct-fields
 
@@ -65,4 +65,3 @@ Indicates the size in bytes of the structure.
 ### -field SecurityDescriptor
 
 Indicates the user's security privileges.
-

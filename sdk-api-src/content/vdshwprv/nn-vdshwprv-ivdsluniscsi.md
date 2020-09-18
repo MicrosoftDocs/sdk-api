@@ -51,14 +51,14 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="https://docs.microsoft.com/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Provides 
    methods for performing query and configuration operations on an iSCSI LUN.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVdsLunIscsi</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVdsLunIscsi</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVdsLunIscsi</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVdsLunIscsi</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -73,14 +73,14 @@ The <b>IVdsLunIscsi</b> interface has these methods.
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdsluniscsi-associatetargets">AssociateTargets</a>
+<a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdsluniscsi-associatetargets">AssociateTargets</a>
 </td>
 <td align="left" width="63%">
 Associates LUNs with subsystem iSCSI targets.</p> (Inherited from <b>IVdsLunIscsi</b>)</td>
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdsluniscsi-queryassociatedtargets">QueryAssociatedTargets</a>
+<a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdsluniscsi-queryassociatedtargets">QueryAssociatedTargets</a>
 </td>
 <td align="left" width="63%">
 Returns an enumeration of currently associated iSCSI targets—the targets 
@@ -90,5 +90,4 @@ Returns an enumeration of currently associated iSCSI targets—the targets
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/VDS/vds-interfaces">VDS Interfaces</a>
-
+<a href="/windows/desktop/VDS/vds-interfaces">VDS Interfaces</a>

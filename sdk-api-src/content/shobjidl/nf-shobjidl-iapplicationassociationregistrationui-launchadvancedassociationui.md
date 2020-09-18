@@ -72,9 +72,8 @@ Starting in Windows 10, this does not launch the association dialog box. It dis
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/shell/default-programs">Default Programs</a>
+<a href="/windows/desktop/shell/default-programs">Default Programs</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nn-shobjidl-iapplicationassociationregistrationui">IApplicationAssociationRegistrationUI</a>
-
+<a href="/windows/desktop/api/shobjidl/nn-shobjidl-iapplicationassociationregistrationui">IApplicationAssociationRegistrationUI</a>

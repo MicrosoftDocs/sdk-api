@@ -58,7 +58,7 @@ Sets the local directory path where reports are stored.
 ### -param context [in]
 
 The report context (for example, if the report is scheduled or runs on demand). For possible values, see 
-      the <a href="https://docs.microsoft.com/windows/desktop/api/fsrmenums/ne-fsrmenums-fsrmreportgenerationcontext">FsrmReportGenerationContext</a> 
+      the <a href="/windows/desktop/api/fsrmenums/ne-fsrmenums-fsrmreportgenerationcontext">FsrmReportGenerationContext</a> 
       enumeration.
 
 ### -param path [in]
@@ -109,9 +109,8 @@ The default output directories are:
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/fsrmreportmanager">FsrmReportManager</a>
+<a href="/previous-versions/windows/desktop/fsrm/fsrmreportmanager">FsrmReportManager</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmreports/nn-fsrmreports-ifsrmreportmanager">IFsrmReportManager</a>
-
+<a href="/previous-versions/windows/desktop/api/fsrmreports/nn-fsrmreports-ifsrmreportmanager">IFsrmReportManager</a>

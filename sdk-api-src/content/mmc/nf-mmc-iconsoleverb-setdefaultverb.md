@@ -66,22 +66,21 @@ This method can return one of these values.
 ## -remarks
 
 The 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ne-mmc-mmc_console_verb">MMC_CONSOLE_VERB</a> enumeration defines the set of default verbs. The snap-in can set any verb as the default verb. Setting a default verb causes MMC to:
+<a href="/windows/desktop/api/mmc/ne-mmc-mmc_console_verb">MMC_CONSOLE_VERB</a> enumeration defines the set of default verbs. The snap-in can set any verb as the default verb. Setting a default verb causes MMC to:
 
 <ul>
 <li>Show the context menu item for the verb in bold.</li>
-<li>Perform a default action (only for properties and open verbs) if the snap-in returns S_FALSE in its <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/mmcn-dblclick">MMCN_DBLCLICK</a> notification handler.</li>
+<li>Perform a default action (only for properties and open verbs) if the snap-in returns S_FALSE in its <a href="/previous-versions/windows/desktop/mmc/mmcn-dblclick">MMCN_DBLCLICK</a> notification handler.</li>
 </ul>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-iconsoleverb">IConsoleVerb</a>
+<a href="/windows/desktop/api/mmc/nn-mmc-iconsoleverb">IConsoleVerb</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-iconsoleverb-getdefaultverb">IConsoleVerb::GetDefaultVerb</a>
+<a href="/windows/desktop/api/mmc/nf-mmc-iconsoleverb-getdefaultverb">IConsoleVerb::GetDefaultVerb</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ne-mmc-mmc_console_verb">MMC_CONSOLE_VERB</a>
-
+<a href="/windows/desktop/api/mmc/ne-mmc-mmc_console_verb">MMC_CONSOLE_VERB</a>

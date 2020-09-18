@@ -56,9 +56,9 @@ Enables the callback function for a context menu.
 
 ### -param psf [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellfolder">IShellFolder</a>*</b>
+Type: <b><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellfolder">IShellFolder</a>*</b>
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellfolder">IShellFolder</a> interface of the object that supports the <b>IContextMenuCB::CallBack</b> interface. The context menu interface is returned on a call to <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder-getuiobjectof">GetUIObjectOf</a>.
+A pointer to the <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellfolder">IShellFolder</a> interface of the object that supports the <b>IContextMenuCB::CallBack</b> interface. The context menu interface is returned on a call to <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder-getuiobjectof">GetUIObjectOf</a>.
 
 ### -param hwndOwner [in, optional]
 
@@ -68,15 +68,15 @@ A handle to the owner of the context menu. This value can be <b>NULL</b>.
 
 ### -param pdtobj [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a>*</b>
+Type: <b><a href="/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a>*</b>
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a> that contains information about a menu selection. Implement interface <b>IDataObject</b>, or call <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-shcreatedataobject">SHCreateDataObject</a> for the default implementation.
+A pointer to an <a href="/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a> that contains information about a menu selection. Implement interface <b>IDataObject</b>, or call <a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shcreatedataobject">SHCreateDataObject</a> for the default implementation.
 
 ### -param uMsg [in]
 
 Type: <b>UINT</b>
 
-A notification from the Shell's default menu implementation. For example, the default menu implementation calls <a href="https://docs.microsoft.com/windows/desktop/shell/registering-control-panel-items">DFM_MERGECONTEXTMENU</a> to allow the implementer of <b>IContextMenuCB::CallBack</b> to remove, add, or disable context menu items in this callback. Use one of the following notifications.
+A notification from the Shell's default menu implementation. For example, the default menu implementation calls <a href="/windows/desktop/shell/registering-control-panel-items">DFM_MERGECONTEXTMENU</a> to allow the implementer of <b>IContextMenuCB::CallBack</b> to remove, add, or disable context menu items in this callback. Use one of the following notifications.
 
                     
 
@@ -84,67 +84,67 @@ A notification from the Shell's default menu implementation. For example, the de
 <table class="clsStd">
 <tr>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/shell/registering-control-panel-items">DFM_MERGECONTEXTMENU</a>
+<a href="/windows/desktop/shell/registering-control-panel-items">DFM_MERGECONTEXTMENU</a>
 </td>
 </tr>
 <tr>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/shell/preview-handler-guidelines">DFM_INVOKECOMMAND</a>
+<a href="/windows/desktop/shell/preview-handler-guidelines">DFM_INVOKECOMMAND</a>
 </td>
 </tr>
 <tr>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/shell/miscellaneous-topics-bumper">DFM_GETHELPTEXT</a>
+<a href="/windows/desktop/shell/miscellaneous-topics-bumper">DFM_GETHELPTEXT</a>
 </td>
 </tr>
 <tr>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/shell/navigating-the-shell-namespace-bumper">DFM_GETHELPTEXTW</a>
+<a href="/windows/desktop/shell/navigating-the-shell-namespace-bumper">DFM_GETHELPTEXTW</a>
 </td>
 </tr>
 <tr>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/shell/dfm-wm-measureitem">DFM_WM_MEASUREITEM</a>
+<a href="/windows/desktop/shell/dfm-wm-measureitem">DFM_WM_MEASUREITEM</a>
 </td>
 </tr>
 <tr>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/shell/dfm-wm-drawitem">DFM_WM_DRAWITEM</a>
+<a href="/windows/desktop/shell/dfm-wm-drawitem">DFM_WM_DRAWITEM</a>
 </td>
 </tr>
 <tr>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/shell/samples-automaticjumplist">DFM_WM_INITMENUPOPUP</a>
+<a href="/windows/desktop/shell/samples-automaticjumplist">DFM_WM_INITMENUPOPUP</a>
 </td>
 </tr>
 <tr>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/shell/samples-appusermodelidwindowproperty">DFM_VALIDATECMD</a>
+<a href="/windows/desktop/shell/samples-appusermodelidwindowproperty">DFM_VALIDATECMD</a>
 </td>
 </tr>
 <tr>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/shell/prophand-content-view">DFM_INVOKECOMMANDEX</a>
+<a href="/windows/desktop/shell/prophand-content-view">DFM_INVOKECOMMANDEX</a>
 </td>
 </tr>
 <tr>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/shell/propsheet-handlers">DFM_MAPCOMMANDNAME</a>
+<a href="/windows/desktop/shell/propsheet-handlers">DFM_MAPCOMMANDNAME</a>
 </td>
 </tr>
 <tr>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/shell/library-ovw">DFM_GETDEFSTATICID</a>
+<a href="/windows/desktop/shell/library-ovw">DFM_GETDEFSTATICID</a>
 </td>
 </tr>
 <tr>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/shell/nse-junction">DFM_GETVERB</a>
+<a href="/windows/desktop/shell/nse-junction">DFM_GETVERB</a>
 </td>
 </tr>
 <tr>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/shell/reg-middleware-apps">DFM_MERGECONTEXTMENU_BOTTOM</a>
+<a href="/windows/desktop/shell/reg-middleware-apps">DFM_MERGECONTEXTMENU_BOTTOM</a>
 </td>
 </tr>
 </table>
@@ -169,9 +169,8 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/shell/context-menu-handlers">Creating Context Menu Handlers</a>
+<a href="/windows/desktop/shell/context-menu-handlers">Creating Context Menu Handlers</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-icontextmenucb">IContextMenuCB</a>
-
+<a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-icontextmenucb">IContextMenuCB</a>

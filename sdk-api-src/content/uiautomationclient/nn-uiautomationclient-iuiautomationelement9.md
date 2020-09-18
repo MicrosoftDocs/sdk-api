@@ -56,5 +56,4 @@ api_name:
 
 [IUIAutomationElement8](nn-uiautomationclient-iuiautomationelement8.md)
 
-<a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-entry-uiautoclientinterfaces">UI Automation Element Interfaces for Clients</a>
-
+<a href="/windows/desktop/WinAuto/uiauto-entry-uiautoclientinterfaces">UI Automation Element Interfaces for Clients</a>

@@ -78,9 +78,8 @@ The alpha channel contains custom data that is not alpha.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicddsdecoder-getparameters">IWICDdsDecoder::GetParameters</a>
+<a href="/windows/desktop/api/wincodec/nf-wincodec-iwicddsdecoder-getparameters">IWICDdsDecoder::GetParameters</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/ns-wincodec-wicddsparameters">WICDdsParameters</a>
-
+<a href="/windows/desktop/api/wincodec/ns-wincodec-wicddsparameters">WICDdsParameters</a>

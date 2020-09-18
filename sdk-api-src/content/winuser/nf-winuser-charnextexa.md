@@ -63,7 +63,7 @@ Retrieves the pointer to the next character in a string. This function can handl
 
 Type: <b>WORD</b>
 
-The identifier of the code page to use to check lead-byte ranges. Can be one of the code-page values provided in <a href="https://docs.microsoft.com/windows/desktop/Intl/code-page-identifiers">Code Page Identifiers</a>, or one of the following predefined values. 
+The identifier of the code page to use to check lead-byte ranges. Can be one of the code-page values provided in <a href="/windows/desktop/Intl/code-page-identifiers">Code Page Identifiers</a>, or one of the following predefined values. 
 
 <table>
 <tr>
@@ -129,15 +129,15 @@ If
 
 ## -remarks
 
-<b>CharNextExA</b> specifies a code-page to use, whereas <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-charnexta">CharNext</a> (if called as an ANSI function) uses the system default code-page.
+<b>CharNextExA</b> specifies a code-page to use, whereas <a href="/windows/desktop/api/winuser/nf-winuser-charnexta">CharNext</a> (if called as an ANSI function) uses the system default code-page.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-charnexta">CharNext</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-charnexta">CharNext</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-charprevexa">CharPrevExA</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-charprevexa">CharPrevExA</a>
 
 
 
@@ -149,5 +149,4 @@ If
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/menurc/strings">Strings</a>
-
+<a href="/windows/desktop/menurc/strings">Strings</a>

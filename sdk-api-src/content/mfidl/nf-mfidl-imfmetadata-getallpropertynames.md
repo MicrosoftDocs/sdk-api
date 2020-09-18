@@ -57,7 +57,7 @@ Gets a list of all the metadata property names on this object.
 
 ### -param ppvNames [out]
 
-Pointer to a <b>PROPVARIANT</b> that receives an array of null-terminated wide-character strings. If no properties are available, the <b>PROPVARIANT</b> type is VT_EMPTY. Otherwise, the <b>PROPVARIANT</b> type is VT_VECTOR | VT_LPWSTR. The caller must free the <b>PROPVARIANT</b> by calling <a href="https://docs.microsoft.com/windows/desktop/api/propidl/nf-propidl-propvariantclear">PropVariantClear</a>.
+Pointer to a <b>PROPVARIANT</b> that receives an array of null-terminated wide-character strings. If no properties are available, the <b>PROPVARIANT</b> type is VT_EMPTY. Otherwise, the <b>PROPVARIANT</b> type is VT_VECTOR | VT_LPWSTR. The caller must free the <b>PROPVARIANT</b> by calling <a href="/windows/desktop/api/propidl/nf-propidl-propvariantclear">PropVariantClear</a>.
 
 ## -returns
 
@@ -65,9 +65,8 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfmetadata">IMFMetadata</a>
+<a href="/windows/desktop/api/mfidl/nn-mfidl-imfmetadata">IMFMetadata</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-metadata">Media Metadata</a>
-
+<a href="/windows/desktop/medfound/media-metadata">Media Metadata</a>

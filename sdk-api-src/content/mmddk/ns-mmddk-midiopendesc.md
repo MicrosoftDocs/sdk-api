@@ -58,11 +58,11 @@ The <code>MIDIOPENDESC</code> structure is a client-filled structure that provid
 
 ### -field hMidi
 
-Specifies the handle that the client uses to reference the device. This handle is assigned by WINMM. Use this handle when you notify the client with the <a href="https://msdn.microsoft.com/library/ms708182(VS.85).aspx">DriverCallback</a> function.
+Specifies the handle that the client uses to reference the device. This handle is assigned by WINMM. Use this handle when you notify the client with the <a href="/previous-versions//ms708182(v=vs.85)">DriverCallback</a> function.
 
 ### -field dwCallback
 
-Specifies either the address of a callback function, a window handle, or a task handle, depending on the flags that are specified in the dwParam2 parameter of the <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff537541(v=vs.85)">MODM_OPEN</a> message. If this field contains a handle, it is contained in the low-order word.
+Specifies either the address of a callback function, a window handle, or a task handle, depending on the flags that are specified in the dwParam2 parameter of the <a href="/previous-versions/windows/hardware/drivers/ff537541(v=vs.85)">MODM_OPEN</a> message. If this field contains a handle, it is contained in the low-order word.
 
 ### -field dwInstance
 
@@ -82,5 +82,4 @@ Specifies an array of device identifiers. The number of identifiers is given by 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/ms708182(VS.85).aspx">DriverCallback</a>
-
+<a href="/previous-versions//ms708182(v=vs.85)">DriverCallback</a>

@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-Returns a reference, similar to a handle, to the specified object. Servers return this reference when handling <a href="https://docs.microsoft.com/windows/desktop/WinAuto/wm-getobject">WM_GETOBJECT</a>.
+Returns a reference, similar to a handle, to the specified object. Servers return this reference when handling <a href="/windows/desktop/WinAuto/wm-getobject">WM_GETOBJECT</a>.
 
 ## -parameters
 
@@ -63,23 +63,23 @@ Reference identifier of the interface provided to the client. This parameter is 
 
 ### -param wParam [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">WPARAM</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">WPARAM</a></b>
 
-Value sent by the associated <a href="https://docs.microsoft.com/windows/desktop/WinAuto/wm-getobject">WM_GETOBJECT</a> message in its <i>wParam</i> parameter.
+Value sent by the associated <a href="/windows/desktop/WinAuto/wm-getobject">WM_GETOBJECT</a> message in its <i>wParam</i> parameter.
 
 ### -param punk [in]
 
 Type: <b>LPUNKNOWN</b>
 
-Address of the <a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nn-oleacc-iaccessible">IAccessible</a> interface to the object that corresponds to the <a href="https://docs.microsoft.com/windows/desktop/WinAuto/wm-getobject">WM_GETOBJECT</a> message.
+Address of the <a href="/windows/desktop/api/oleacc/nn-oleacc-iaccessible">IAccessible</a> interface to the object that corresponds to the <a href="/windows/desktop/WinAuto/wm-getobject">WM_GETOBJECT</a> message.
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LRESULT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">LRESULT</a></b>
 
 If successful, returns a positive value that is a reference to the object.
 
-If not successful, returns one of the values in the table that follows, or another standard <a href="https://docs.microsoft.com/windows/desktop/WinAuto/return-values">COM error code</a>.
+If not successful, returns one of the values in the table that follows, or another standard <a href="/windows/desktop/WinAuto/return-values">COM error code</a>.
 
 <table>
 <tr>
@@ -134,25 +134,24 @@ An unexpected error occurred.
 
 ## -remarks
 
-Servers call this function only when handling the <a href="https://docs.microsoft.com/windows/desktop/WinAuto/wm-getobject">WM_GETOBJECT</a> message. For an overview of how <b>LresultFromObject</b> is related to <b>WM_GETOBJECT</b>, see <a href="https://docs.microsoft.com/windows/desktop/WinAuto/how-wm-getobject-works">How WM_GETOBJECT Works</a>.
+Servers call this function only when handling the <a href="/windows/desktop/WinAuto/wm-getobject">WM_GETOBJECT</a> message. For an overview of how <b>LresultFromObject</b> is related to <b>WM_GETOBJECT</b>, see <a href="/windows/desktop/WinAuto/how-wm-getobject-works">How WM_GETOBJECT Works</a>.
 
-<b>LresultFromObject</b> increments the object's reference count. If you are not storing the interface pointer passed to the function (that is, you create a new interface pointer for the object each time <a href="https://docs.microsoft.com/windows/desktop/WinAuto/wm-getobject">WM_GETOBJECT</a> is received), call the object's <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">Release</a> method to decrement the reference count back to one. Then the client calls <b>Release</b> and the object is destroyed. For more information, see <a href="https://docs.microsoft.com/windows/desktop/WinAuto/how-to-handle-wm-getobject">How to Handle WM_GETOBJECT</a>.
+<b>LresultFromObject</b> increments the object's reference count. If you are not storing the interface pointer passed to the function (that is, you create a new interface pointer for the object each time <a href="/windows/desktop/WinAuto/wm-getobject">WM_GETOBJECT</a> is received), call the object's <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">Release</a> method to decrement the reference count back to one. Then the client calls <b>Release</b> and the object is destroyed. For more information, see <a href="/windows/desktop/WinAuto/how-to-handle-wm-getobject">How to Handle WM_GETOBJECT</a>.
 
-Each time a server processes <a href="https://docs.microsoft.com/windows/desktop/WinAuto/wm-getobject">WM_GETOBJECT</a> for a specific object, it calls <b>LresultFromObject</b> to obtain a new reference to the object. Servers do not save the reference returned from <b>LresultFromObject</b> from one instance of processing <b>WM_GETOBJECT</b> to use as the message's return value when processing subsequent <b>WM_GETOBJECT</b> messages for the same object. This causes the client to receive an error.
+Each time a server processes <a href="/windows/desktop/WinAuto/wm-getobject">WM_GETOBJECT</a> for a specific object, it calls <b>LresultFromObject</b> to obtain a new reference to the object. Servers do not save the reference returned from <b>LresultFromObject</b> from one instance of processing <b>WM_GETOBJECT</b> to use as the message's return value when processing subsequent <b>WM_GETOBJECT</b> messages for the same object. This causes the client to receive an error.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/WinAuto/creating-proxy-objects">Creating Proxy Objects</a>
+<a href="/windows/desktop/WinAuto/creating-proxy-objects">Creating Proxy Objects</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WinAuto/how-wm-getobject-works">How WM_GETOBJECT Works</a>
+<a href="/windows/desktop/WinAuto/how-wm-getobject-works">How WM_GETOBJECT Works</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WinAuto/how-to-handle-wm-getobject">How to Handle WM_GETOBJECT</a>
+<a href="/windows/desktop/WinAuto/how-to-handle-wm-getobject">How to Handle WM_GETOBJECT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WinAuto/wm-getobject">WM_GETOBJECT</a>
-
+<a href="/windows/desktop/WinAuto/wm-getobject">WM_GETOBJECT</a>

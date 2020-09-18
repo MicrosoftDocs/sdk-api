@@ -51,7 +51,7 @@ api_name:
 ## -description
 
 Closes a file that was opened by using the 
-<a href="https://docs.microsoft.com/windows/desktop/api/lzexpand/nf-lzexpand-lzopenfilea">LZOpenFile</a> function.
+<a href="/windows/desktop/api/lzexpand/nf-lzexpand-lzopenfilea">LZOpenFile</a> function.
 
 ## -parameters
 
@@ -62,12 +62,12 @@ A handle to the file to be closed.
 ## -remarks
 
 The handle identifying the file must be retrieved by calling the 
-<a href="https://docs.microsoft.com/windows/desktop/api/lzexpand/nf-lzexpand-lzopenfilea">LZOpenFile</a> function. If the handle is retrieved by calling the 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> or 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-openfile">OpenFile</a> function, an error occurs.
+<a href="/windows/desktop/api/lzexpand/nf-lzexpand-lzopenfilea">LZOpenFile</a> function. If the handle is retrieved by calling the 
+<a href="/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> or 
+<a href="/windows/desktop/api/winbase/nf-winbase-openfile">OpenFile</a> function, an error occurs.
 
 If the file has been compressed by the Lempel-Ziv algorithm and opened by using 
-<a href="https://docs.microsoft.com/windows/desktop/api/lzexpand/nf-lzexpand-lzopenfilea">LZOpenFile</a>, 
+<a href="/windows/desktop/api/lzexpand/nf-lzexpand-lzopenfilea">LZOpenFile</a>, 
 <b>LZClose</b> frees any global heap space that was allocated to expand the file.
 
 In Windows 8 and Windows Server 2012, this function is supported by the following technologies.
@@ -134,21 +134,20 @@ CsvFs will do redirected IO for compressed files.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a>
+<a href="/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/file-compression-and-decompression">File Compression and Decompression</a>
+<a href="/windows/desktop/FileIO/file-compression-and-decompression">File Compression and Decompression</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/file-management-functions">File Management Functions</a>
+<a href="/windows/desktop/FileIO/file-management-functions">File Management Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lzexpand/nf-lzexpand-lzopenfilea">LZOpenFile</a>
+<a href="/windows/desktop/api/lzexpand/nf-lzexpand-lzopenfilea">LZOpenFile</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-openfile">OpenFile</a>
-
+<a href="/windows/desktop/api/winbase/nf-winbase-openfile">OpenFile</a>

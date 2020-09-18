@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-Opens a failover cluster <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/groups">group</a> and returns a handle to 
+Opens a failover cluster <a href="/previous-versions/windows/desktop/mscs/groups">group</a> and returns a handle to 
     it.
 
 ## -parameters
@@ -82,7 +82,7 @@ Name of the group to open.
 </td>
 <td width="60%">
 The operation was not successful. For information about the error, call the function 
-        <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+        <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 </td>
 </tr>
@@ -94,13 +94,12 @@ If the operation was successful,
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-closeclustergroup">CloseClusterGroup</a>
+<a href="/windows/desktop/api/clusapi/nf-clusapi-closeclustergroup">CloseClusterGroup</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/group-management-functions">Group Management Functions</a>
+<a href="/previous-versions/windows/desktop/mscs/group-management-functions">Group Management Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-openclustergroupex">OpenClusterGroupEx</a>
-
+<a href="/windows/desktop/api/clusapi/nf-clusapi-openclustergroupex">OpenClusterGroupEx</a>

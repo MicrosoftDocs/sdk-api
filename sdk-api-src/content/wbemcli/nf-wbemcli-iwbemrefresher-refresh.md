@@ -72,7 +72,7 @@ This method returns an <b>HRESULT</b> indicating the status of the method call. 
 ## -remarks
 
 When refreshing enumerators and objects, providers should take as little time as possible. Using the 
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nn-wbemcli-iwbemobjectaccess">IWbemObjectAccess</a> methods and caching property handles for reuse can dramatically improve performance. When updating enumerators, a provider can either remove and re-instantiate all objects, or simply remove and add the changed instances. It is up to you to choose the best approach. In either case, caching instances can improve performance.
+<a href="/windows/desktop/api/wbemcli/nn-wbemcli-iwbemobjectaccess">IWbemObjectAccess</a> methods and caching property handles for reuse can dramatically improve performance. When updating enumerators, a provider can either remove and re-instantiate all objects, or simply remove and add the changed instances. It is up to you to choose the best approach. In either case, caching instances can improve performance.
 
 The provider should only access the objects and enumerators in a refresher in response to a call to 
 <b>IWbemRefresher::Refresh</b>. It would, however, be perfectly valid to have a background thread polling for data with which to fill these objects, to prepare for when 
@@ -103,15 +103,15 @@ HRESULT CMyHiPerfProviderRefresher::Refresh(
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/developing-a-wmi-provider">Developing a WMI Provider</a>
+<a href="/windows/desktop/WmiSdk/developing-a-wmi-provider">Developing a WMI Provider</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemprov/nn-wbemprov-iwbemhiperfprovider">IWbemHiPerfProvider</a>
+<a href="/windows/desktop/api/wbemprov/nn-wbemprov-iwbemhiperfprovider">IWbemHiPerfProvider</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nn-wbemcli-iwbemrefresher">IWbemRefresher</a>
+<a href="/windows/desktop/api/wbemcli/nn-wbemcli-iwbemrefresher">IWbemRefresher</a>
 
 
 
@@ -119,9 +119,8 @@ Making an Instance Provider into a High-Performance Provider
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/performance-counter-provider">Performance Counter Provider</a>
+<a href="/windows/desktop/WmiSdk/performance-counter-provider">Performance Counter Provider</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/making-an-instance-provider-into-a-high-performance-provider">Writing an Instance Provider</a>
-
+<a href="/windows/desktop/WmiSdk/making-an-instance-provider-into-a-high-performance-provider">Writing an Instance Provider</a>

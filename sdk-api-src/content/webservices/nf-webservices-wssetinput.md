@@ -59,7 +59,7 @@ Sets the encoding and input sources for an XML  Reader.
 
 ### -param reader [in]
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-xml-reader">WS_XML_READER</a> object for which the input will be set.
+A pointer to the <a href="/windows/desktop/wsw/ws-xml-reader">WS_XML_READER</a> object for which the input will be set.
 
 ### -param encoding [in, optional]
 
@@ -77,7 +77,7 @@ A to an encoding value that describes the format of the input bytes.  This value
 
 ### -param input [in, optional]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_xml_reader_input">WS_XML_READER_INPUT</a> structure that indicates the reader type.
+A pointer to a <a href="/windows/desktop/api/webservices/ns-webservices-ws_xml_reader_input">WS_XML_READER_INPUT</a> structure that indicates the reader type.
 
 ### -param properties
 
@@ -89,7 +89,7 @@ The number of properties.
 
 ### -param error [in, optional]
 
-A  pointer to a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-error">WS_ERROR</a> object where additional information about the error should be stored if the function fails.
+A  pointer to a <a href="/windows/desktop/wsw/ws-error">WS_ERROR</a> object where additional information about the error should be stored if the function fails.
 
 ## -returns
 
@@ -98,5 +98,4 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 ## -remarks
 
 When <b>WsSetInput</b> is used on the XML Reader, the reader will function in a forward only manner and
-        the functions <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsgetreaderposition">WsGetReaderPosition</a>, <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wssetreaderposition">WsSetReaderPosition</a> and <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsmovereader">WsMoveReader</a> cannot be used.
-
+        the functions <a href="/windows/desktop/api/webservices/nf-webservices-wsgetreaderposition">WsGetReaderPosition</a>, <a href="/windows/desktop/api/webservices/nf-webservices-wssetreaderposition">WsSetReaderPosition</a> and <a href="/windows/desktop/api/webservices/nf-webservices-wsmovereader">WsMoveReader</a> cannot be used.

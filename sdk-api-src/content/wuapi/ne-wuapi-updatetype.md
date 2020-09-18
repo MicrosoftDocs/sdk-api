@@ -66,5 +66,4 @@ Indicates that the update is a driver update.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iupdate-get_type">IUpdate.Type</a>
-
+<a href="/windows/desktop/api/wuapi/nf-wuapi-iupdate-get_type">IUpdate.Type</a>

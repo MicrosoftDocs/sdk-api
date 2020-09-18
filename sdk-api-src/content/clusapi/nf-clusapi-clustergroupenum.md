@@ -50,8 +50,8 @@ api_name:
 
 ## -description
 
-Enumerates the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resources">resources</a> in a 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/groups">group</a> or the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/nodes">nodes</a> that 
+Enumerates the <a href="/previous-versions/windows/desktop/mscs/resources">resources</a> in a 
+    <a href="/previous-versions/windows/desktop/mscs/groups">group</a> or the <a href="/previous-versions/windows/desktop/mscs/nodes">nodes</a> that 
     are the preferred owners of a group, returning the name of the resource or node with each call. The <b>PCLUSAPI_CLUSTER_GROUP_ENUM</b> type defines a pointer to this function.
 
 ## -parameters
@@ -71,7 +71,7 @@ The index of the resource or node to return. This parameter should be zero for t
 
 A pointer to the type of object returned by 
        <b>ClusterGroupEnum</b>. The following are valid values 
-       of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ne-clusapi-cluster_group_enum">CLUSTER_GROUP_ENUM</a> enumeration.
+       of the <a href="/previous-versions/windows/desktop/api/clusapi/ne-clusapi-cluster_group_enum">CLUSTER_GROUP_ENUM</a> enumeration.
 
 
 
@@ -151,30 +151,30 @@ No more data is available. This value is returned if there are no more resources
 If the operation was not successful due to a problem other than those described with the 
        <b>ERROR_NO_MORE_ITEMS</b> or <b>ERROR_MORE_DATA</b> values, 
        <b>ClusterGroupEnum</b> returns a 
-       <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a>.
+       <a href="/windows/desktop/Debug/system-error-codes">system error code</a>.
 
 ## -remarks
 
 Note that <i>lpcchName</i> refers to a count of characters and not a count of bytes, and 
      that the returned size does not include the terminating <b>NULL</b> in the count. For more 
      information on sizing buffers, see 
-     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/data-size-conventions">Data Size Conventions</a>.
+     <a href="/previous-versions/windows/desktop/mscs/data-size-conventions">Data Size Conventions</a>.
 
 Do not call <b>ClusterGroupEnum</b> from any resource DLL 
      entry point function. <b>ClusterGroupEnum</b> can safely be 
      called from a worker thread. For more information, see 
-     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/function-calls-to-avoid-in-resource-dlls">Function Calls to Avoid in Resource DLLs</a>.
+     <a href="/previous-versions/windows/desktop/mscs/function-calls-to-avoid-in-resource-dlls">Function Calls to Avoid in Resource DLLs</a>.
 
 
 #### Examples
 
-See <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/enumerating-objects">Enumerating Objects</a>.
+See <a href="/previous-versions/windows/desktop/mscs/enumerating-objects">Enumerating Objects</a>.
 
 <div class="code"></div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-clustergroupcloseenum">ClusterGroupCloseEnum</a>
+<a href="/windows/desktop/api/clusapi/nf-clusapi-clustergroupcloseenum">ClusterGroupCloseEnum</a>
 
 
 
@@ -182,5 +182,4 @@ See <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/e
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/group-management-functions">Group Management Functions</a>
-
+<a href="/previous-versions/windows/desktop/mscs/group-management-functions">Group Management Functions</a>

@@ -84,7 +84,7 @@ Returns zero if the two strings are equal. The function will also return zero if
 
 ## -remarks
 
-For best results, you should first canonicalize the URLs with <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-urlcanonicalizea">UrlCanonicalize</a>. Then, compare the canonicalized URLs with <b>UrlCompare</b>.
+For best results, you should first canonicalize the URLs with <a href="/windows/desktop/api/shlwapi/nf-shlwapi-urlcanonicalizea">UrlCanonicalize</a>. Then, compare the canonicalized URLs with <b>UrlCompare</b>.
 
 
 
@@ -95,5 +95,4 @@ For best results, you should first canonicalize the URLs with <a href="https://d
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-strcmpw">StrCmp</a>
-
+<a href="/windows/desktop/api/shlwapi/nf-shlwapi-strcmpw">StrCmp</a>

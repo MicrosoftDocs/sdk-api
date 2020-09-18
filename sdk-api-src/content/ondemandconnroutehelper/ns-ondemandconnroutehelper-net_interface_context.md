@@ -66,9 +66,8 @@ The configuration name.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ondemandconnroutehelper/nf-ondemandconnroutehelper-getinterfacecontexttableforhostname">GetInterfaceContextTableForHostName</a>
+<a href="/windows/desktop/api/ondemandconnroutehelper/nf-ondemandconnroutehelper-getinterfacecontexttableforhostname">GetInterfaceContextTableForHostName</a>
 
 
 
 <a href="/windows/win32/api/ondemandconnroutehelper/ns-ondemandconnroutehelper-net_interface_context_table">NET_INTERFACE_CONTEXT_TABLE</a>
-

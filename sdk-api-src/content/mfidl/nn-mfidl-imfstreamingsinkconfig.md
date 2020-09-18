@@ -54,7 +54,7 @@ Passes configuration information to the media sinks that are used for streaming 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFStreamingSinkConfig</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFStreamingSinkConfig</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFStreamingSinkConfig</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFStreamingSinkConfig</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IMFStreamingSinkConfig</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfstreamingsinkconfig-startstreaming">StartStreaming</a>
+<a href="/windows/desktop/api/mfidl/nf-mfidl-imfstreamingsinkconfig-startstreaming">StartStreaming</a>
 </td>
 <td align="left" width="63%">
 Called by the streaming media client before the Media Session starts streaming to specify the byte offset or the time offset.
@@ -80,5 +80,4 @@ Called by the streaming media client before the Media Session starts streaming t
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
-
+<a href="/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>

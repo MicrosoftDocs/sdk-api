@@ -61,7 +61,7 @@ Sets the wait object, replacing the previous wait object, if any. A worker threa
 
 ### -param pwa [in, out]
 
-A pointer to a <b>TP_WAIT</b> structure that defines the wait object. The <a href="https://docs.microsoft.com/windows/desktop/api/threadpoolapiset/nf-threadpoolapiset-createthreadpoolwait">CreateThreadpoolWait</a> function returns this pointer.
+A pointer to a <b>TP_WAIT</b> structure that defines the wait object. The <a href="/windows/desktop/api/threadpoolapiset/nf-threadpoolapiset-createthreadpoolwait">CreateThreadpoolWait</a> function returns this pointer.
 
 ### -param h [in, optional]
 
@@ -71,13 +71,13 @@ If this parameter is NULL, the wait object will cease to queue new callbacks (bu
 
 If this parameter is not NULL, it must refer to a valid waitable object.
 
-If this handle is closed while the wait is still pending, the function's behavior is undefined. If the wait is still pending and the handle must be closed, use <a href="https://docs.microsoft.com/windows/desktop/api/threadpoolapiset/nf-threadpoolapiset-closethreadpoolwait">CloseThreadpoolWait</a> to cancel the wait and then close the handle.
+If this handle is closed while the wait is still pending, the function's behavior is undefined. If the wait is still pending and the handle must be closed, use <a href="/windows/desktop/api/threadpoolapiset/nf-threadpoolapiset-closethreadpoolwait">CloseThreadpoolWait</a> to cancel the wait and then close the handle.
 
 The wait is considered set if this parameter is non-NULL.
 
 ### -param pftTimeout [in, optional]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure that specifies the absolute or relative time at which the wait operation should time out.  If this parameter points to a positive value, it indicates the absolute time since January 1, 1601 (UTC), in 100-nanosecond intervals. If this parameter points to a negative value, it indicates the amount of time to wait relative to the current time. If this parameter points to zero, then the wait times out immediately. For more information about time values, see <a href="https://docs.microsoft.com/windows/desktop/SysInfo/file-times">File Times</a>.
+A pointer to a <a href="/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure that specifies the absolute or relative time at which the wait operation should time out.  If this parameter points to a positive value, it indicates the absolute time since January 1, 1601 (UTC), in 100-nanosecond intervals. If this parameter points to a negative value, it indicates the amount of time to wait relative to the current time. If this parameter points to zero, then the wait times out immediately. For more information about time values, see <a href="/windows/desktop/SysInfo/file-times">File Times</a>.
 
 If this parameter is NULL, then the wait does not time out.
 
@@ -98,23 +98,22 @@ See the remarks for further discussion.
 
 A wait object can wait for only one handle. Setting the handle for a wait object replaces the previous wait handle, if any.
 
-In some cases, callback functions might run after an application closes the threadpool timer. To prevent this behavior, an application should follow the steps described in <a href="https://docs.microsoft.com/windows/desktop/api/threadpoolapiset/nf-threadpoolapiset-closethreadpoolwait">CloseThreadpoolWait</a>.
+In some cases, callback functions might run after an application closes the threadpool timer. To prevent this behavior, an application should follow the steps described in <a href="/windows/desktop/api/threadpoolapiset/nf-threadpoolapiset-closethreadpoolwait">CloseThreadpoolWait</a>.
 
 If the timeout specified by <i>pftTimeout</i> is relative, the time that the system spends in sleep or hibernation does not count toward the expiration of the wait. The wait is signaled when the cumulative amount of elapsed time the system spends in the waking state equals the wait's relative timeout. If the timeout specified by <i>pftTimeout</i> is absolute, the time that the system spends in sleep or hibernation does count toward the expiration of the wait. If the wait expires while the system is sleeping, the wait is signaled immediately when the system wakes.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/threadpoolapiset/nf-threadpoolapiset-closethreadpoolwait">CloseThreadpoolWait</a>
+<a href="/windows/desktop/api/threadpoolapiset/nf-threadpoolapiset-closethreadpoolwait">CloseThreadpoolWait</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/threadpoolapiset/nf-threadpoolapiset-createthreadpoolwait">CreateThreadpoolWait</a>
+<a href="/windows/desktop/api/threadpoolapiset/nf-threadpoolapiset-createthreadpoolwait">CreateThreadpoolWait</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/ProcThread/thread-pools">Thread Pools</a>
+<a href="/windows/desktop/ProcThread/thread-pools">Thread Pools</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/threadpoolapiset/nf-threadpoolapiset-waitforthreadpoolwaitcallbacks">WaitForThreadpoolWaitCallbacks</a>
-
+<a href="/windows/desktop/api/threadpoolapiset/nf-threadpoolapiset-waitforthreadpoolwaitcallbacks">WaitForThreadpoolWaitCallbacks</a>

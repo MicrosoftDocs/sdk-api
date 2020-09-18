@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Verifies whether a constant <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> is aligned on a pointer boundary, which is a <b>DWORD</b> on 32-bit architectures and a <b>QWORD</b> on 64-bit architectures.
+Verifies whether a constant <a href="/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> is aligned on a pointer boundary, which is a <b>DWORD</b> on 32-bit architectures and a <b>QWORD</b> on 64-bit architectures.
 
 ## -parameters
 
@@ -69,4 +69,3 @@ Returns <b>TRUE</b> if aligned; otherwise, <b>FALSE</b>.
 ## -remarks
 
 For use where STRICT_TYPED_ITEMIDS is defined.
-

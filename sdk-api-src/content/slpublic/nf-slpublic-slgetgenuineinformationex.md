@@ -68,9 +68,9 @@ The name associated with the value of the property to set.
 
 ### -param peDataType [out, optional]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/slpublic/ne-slpublic-sldatatype">SLDATATYPE</a>*</b>
+Type: <b><a href="/windows/desktop/api/slpublic/ne-slpublic-sldatatype">SLDATATYPE</a>*</b>
 
-A pointer to a value of the <a href="https://docs.microsoft.com/windows/desktop/api/slpublic/ne-slpublic-sldatatype">SLDATATYPE</a> enumeration that specifies the data type in the <i>ppbValue</i> buffer.
+A pointer to a value of the <a href="/windows/desktop/api/slpublic/ne-slpublic-sldatatype">SLDATATYPE</a> enumeration that specifies the data type in the <i>ppbValue</i> buffer.
 
 ### -param pcbValue [out]
 
@@ -82,7 +82,7 @@ A pointer to the size, in bytes, of the <i>ppbValue</i> buffer.
 
 Type: <b>BYTE**</b>
 
-A pointer to the genuine status retrieved.  When finished using the memory, free it by calling the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localfree">LocalFree</a> function.
+A pointer to the genuine status retrieved.  When finished using the memory, free it by calling the <a href="/windows/desktop/api/winbase/nf-winbase-localfree">LocalFree</a> function.
 
 ## -returns
 
@@ -132,4 +132,3 @@ The application licensing state is non-genuine.
 </td>
 </tr>
 </table>
-

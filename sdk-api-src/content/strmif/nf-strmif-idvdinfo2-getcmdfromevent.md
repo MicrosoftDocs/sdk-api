@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-The <code>GetCmdFromEvent</code> method retrieves an <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-idvdcmd">IDvdCmd</a> object from an <a href="https://docs.microsoft.com/windows/desktop/DirectShow/ec-dvd-cmd-start">EC_DVD_CMD_START</a> or <a href="https://docs.microsoft.com/windows/desktop/DirectShow/ec-dvd-cmd-end">EC_DVD_CMD_END</a> event.
+The <code>GetCmdFromEvent</code> method retrieves an <a href="/windows/desktop/api/strmif/nn-strmif-idvdcmd">IDvdCmd</a> object from an <a href="/windows/desktop/DirectShow/ec-dvd-cmd-start">EC_DVD_CMD_START</a> or <a href="/windows/desktop/DirectShow/ec-dvd-cmd-end">EC_DVD_CMD_END</a> event.
 
 ## -parameters
 
@@ -61,7 +61,7 @@ Event notification's <i>lParam1</i> parameter.
 
 ### -param pCmdObj [out]
 
-Receives a pointer to the  <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-idvdcmd">IDvdCmd</a> interface that is associated with the command that fired the event.
+Receives a pointer to the  <a href="/windows/desktop/api/strmif/nn-strmif-idvdcmd">IDvdCmd</a> interface that is associated with the command that fired the event.
 
 ## -returns
 
@@ -109,21 +109,20 @@ Invalid argument.
 
 ## -remarks
 
-This method maps the <i>lParam1</i> parameter of an EC_DVD_CMD_START or EC_DVD_CMD_END event into an <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-idvdcmd">IDvdCmd</a> object that is associated with the command that fired the event. You can then call <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdcmd-waitforstart">WaitForStart</a> or <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdcmd-waitforend">WaitForEnd</a> to control the blocking behavior of the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/dvd-navigator-filter">DVD Navigator</a> with respect to that command. The IDvdCmd object is created by the DVD Navigator and the returned pointer has already had its reference count incremented, so you must release it after <b>WaitForStart</b> or <b>WaitForEnd</b> returns.
+This method maps the <i>lParam1</i> parameter of an EC_DVD_CMD_START or EC_DVD_CMD_END event into an <a href="/windows/desktop/api/strmif/nn-strmif-idvdcmd">IDvdCmd</a> object that is associated with the command that fired the event. You can then call <a href="/windows/desktop/api/strmif/nf-strmif-idvdcmd-waitforstart">WaitForStart</a> or <a href="/windows/desktop/api/strmif/nf-strmif-idvdcmd-waitforend">WaitForEnd</a> to control the blocking behavior of the <a href="/windows/desktop/DirectShow/dvd-navigator-filter">DVD Navigator</a> with respect to that command. The IDvdCmd object is created by the DVD Navigator and the returned pointer has already had its reference count incremented, so you must release it after <b>WaitForStart</b> or <b>WaitForEnd</b> returns.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/dvd-applications">DVD Applications</a>
+<a href="/windows/desktop/DirectShow/dvd-applications">DVD Applications</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-idvdinfo2">IDvdInfo2 Interface</a>
+<a href="/windows/desktop/api/strmif/nn-strmif-idvdinfo2">IDvdInfo2 Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/synchronizing-dvd-commands">Synchronizing DVD Commands</a>
-
+<a href="/windows/desktop/DirectShow/synchronizing-dvd-commands">Synchronizing DVD Commands</a>

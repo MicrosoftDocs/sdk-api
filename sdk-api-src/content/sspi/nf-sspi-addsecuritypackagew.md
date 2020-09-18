@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-Adds a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security support provider</a> to the list of providers supported by <a href="https://docs.microsoft.com/windows/desktop/SecAuthN/microsoft-negotiate">Microsoft Negotiate</a>.
+Adds a <a href="/windows/desktop/SecGloss/s-gly">security support provider</a> to the list of providers supported by <a href="/windows/desktop/SecAuthN/microsoft-negotiate">Microsoft Negotiate</a>.
 
 ## -parameters
 
@@ -62,7 +62,7 @@ The name of the package to add.
 
 ### -param pOptions [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-security_package_options">SECURITY_PACKAGE_OPTIONS</a> structure that specifies additional information about the security package.
+A pointer to a <a href="/windows/desktop/api/sspi/ns-sspi-security_package_options">SECURITY_PACKAGE_OPTIONS</a> structure that specifies additional information about the security package.
 
 ## -returns
 
@@ -72,10 +72,9 @@ If the function fails, it returns a nonzero error code.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-deletesecuritypackagea">DeleteSecurityPackage</a>
+<a href="/windows/desktop/api/sspi/nf-sspi-deletesecuritypackagea">DeleteSecurityPackage</a>
 
 ## -remarks
 
 > [!NOTE]
 > The sspi.h header defines AddSecurityPackage as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

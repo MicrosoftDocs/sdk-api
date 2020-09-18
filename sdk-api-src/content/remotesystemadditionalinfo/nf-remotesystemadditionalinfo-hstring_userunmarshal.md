@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-Unmarshals an <a href="https://docs.microsoft.com/windows/desktop/WinRT/hstring">HSTRING</a> object from the RPC buffer.
+Unmarshals an <a href="/windows/desktop/WinRT/hstring">HSTRING</a> object from the RPC buffer.
 
 ## -parameters
 
@@ -120,5 +120,4 @@ Insufficient memory for this function to perform.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/WinRT/hstring">HSTRING</a>
-
+<a href="/windows/desktop/WinRT/hstring">HSTRING</a>

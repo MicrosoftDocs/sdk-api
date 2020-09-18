@@ -52,13 +52,13 @@ api_name:
 
 <p class="CCE_Message">[The <b>CryptCATClose</b> function is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions.]
 
-The <b>CryptCATClose</b> function closes a catalog handle opened previously by the <a href="https://docs.microsoft.com/windows/desktop/api/mscat/nf-mscat-cryptcatopen">CryptCATOpen</a> function. This function has no associated import library. You must use the <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> and <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> functions to dynamically link to Wintrust.dll.
+The <b>CryptCATClose</b> function closes a catalog handle opened previously by the <a href="/windows/desktop/api/mscat/nf-mscat-cryptcatopen">CryptCATOpen</a> function. This function has no associated import library. You must use the <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> and <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> functions to dynamically link to Wintrust.dll.
 
 ## -parameters
 
 ### -param hCatalog [in]
 
-Handle opened previously by a call to the  <a href="https://docs.microsoft.com/windows/desktop/api/mscat/nf-mscat-cryptcatopen">CryptCATOpen</a> function.
+Handle opened previously by a call to the  <a href="/windows/desktop/api/mscat/nf-mscat-cryptcatopen">CryptCATOpen</a> function.
 
 ## -returns
 
@@ -66,5 +66,4 @@ The return value is <b>TRUE</b> if the function succeeds; <b>FALSE</b> if the fu
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mscat/nf-mscat-cryptcatopen">CryptCATOpen</a>
-
+<a href="/windows/desktop/api/mscat/nf-mscat-cryptcatopen">CryptCATOpen</a>

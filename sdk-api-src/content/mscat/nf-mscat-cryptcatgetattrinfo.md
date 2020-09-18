@@ -58,11 +58,11 @@ The <b>CryptCATGetAttrInfo</b> function retrieves information about an attribute
 
 ### -param hCatalog [in]
 
-The handle of the catalog that contains the member to retrieve the attribute information for. This handle is obtained by calling the <a href="https://docs.microsoft.com/windows/desktop/api/mscat/nf-mscat-cryptcatopen">CryptCATOpen</a> function. This parameter is required and cannot be <b>NULL</b>.
+The handle of the catalog that contains the member to retrieve the attribute information for. This handle is obtained by calling the <a href="/windows/desktop/api/mscat/nf-mscat-cryptcatopen">CryptCATOpen</a> function. This parameter is required and cannot be <b>NULL</b>.
 
 ### -param pCatMember [in]
 
-A pointer to a [CRYPTCATMEMBER](https://docs.microsoft.com/windows/desktop/api/mscat/ns-mscat-cryptcatmember) structure that represents the member to retrieve the attribute information for. This can be obtained by calling the <a href="https://docs.microsoft.com/windows/desktop/api/mscat/nf-mscat-cryptcatgetmemberinfo">CryptCATGetMemberInfo</a> function. This parameter is required and cannot be <b>NULL</b>.
+A pointer to a [CRYPTCATMEMBER](/windows/desktop/api/mscat/ns-mscat-cryptcatmember) structure that represents the member to retrieve the attribute information for. This can be obtained by calling the <a href="/windows/desktop/api/mscat/nf-mscat-cryptcatgetmemberinfo">CryptCATGetMemberInfo</a> function. This parameter is required and cannot be <b>NULL</b>.
 
 ### -param pwszReferenceTag [in]
 
@@ -70,7 +70,7 @@ A pointer to a null-terminated Unicode string that contains the name of the attr
 
 ## -returns
 
-This function returns a pointer to a [CRYPTCATATTRIBUTE](https://docs.microsoft.com/windows/desktop/api/mscat/ns-mscat-cryptcatattribute) structure that contains the attribute information. If the function fails, it returns <b>NULL</b>.
+This function returns a pointer to a [CRYPTCATATTRIBUTE](/windows/desktop/api/mscat/ns-mscat-cryptcatattribute) structure that contains the attribute information. If the function fails, it returns <b>NULL</b>.
 
 
 <div class="alert"><b>Important</b>  Do not free the returned pointer nor any of the members pointed to by the returned pointer.</div>
@@ -78,7 +78,7 @@ This function returns a pointer to a [CRYPTCATATTRIBUTE](https://docs.microsoft.
 
 
 
-If this function returns <b>NULL</b>, additional error information can be obtained by calling the <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function. <b>GetLastError</b> will return one of the following error codes.
+If this function returns <b>NULL</b>, additional error information can be obtained by calling the <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function. <b>GetLastError</b> will return one of the following error codes.
 
 
 
@@ -113,17 +113,16 @@ One or more of the parameters are not valid.
 
 ## -see-also
 
-[CRYPTCATATTRIBUTE](https://docs.microsoft.com/windows/desktop/api/mscat/ns-mscat-cryptcatattribute)
+[CRYPTCATATTRIBUTE](/windows/desktop/api/mscat/ns-mscat-cryptcatattribute)
 
 
 
-[CRYPTCATMEMBER](https://docs.microsoft.com/windows/desktop/api/mscat/ns-mscat-cryptcatmember)
+[CRYPTCATMEMBER](/windows/desktop/api/mscat/ns-mscat-cryptcatmember)
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mscat/nf-mscat-cryptcatgetmemberinfo">CryptCATGetMemberInfo</a>
+<a href="/windows/desktop/api/mscat/nf-mscat-cryptcatgetmemberinfo">CryptCATGetMemberInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mscat/nf-mscat-cryptcatopen">CryptCATOpen</a>
-
+<a href="/windows/desktop/api/mscat/nf-mscat-cryptcatopen">CryptCATOpen</a>

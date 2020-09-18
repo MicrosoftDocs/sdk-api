@@ -64,7 +64,7 @@ Enables predication if at least one of the 64-bits are not zero.
 
 ## -remarks
 
-This enum is used by <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-setpredication">SetPredication</a>.
+This enum is used by <a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-setpredication">SetPredication</a>.
         
 
 Predication is decoupled from queries.
@@ -72,9 +72,8 @@ Predication is decoupled from queries.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3d12/direct3d-12-enumerations">Core Enumerations</a>
+<a href="/windows/desktop/direct3d12/direct3d-12-enumerations">Core Enumerations</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3d12/predication">Predication</a>
-
+<a href="/windows/desktop/direct3d12/predication">Predication</a>

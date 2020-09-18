@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Specifies watermark flags. Used by <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nf-shobjidl-ivisualproperties-setwatermark">IVisualProperties::SetWatermark</a>.
+Specifies watermark flags. Used by <a href="/windows/desktop/api/shobjidl/nf-shobjidl-ivisualproperties-setwatermark">IVisualProperties::SetWatermark</a>.
 
 ## -enum-fields
 
@@ -61,4 +61,3 @@ Default Windows XP behavior.
 ### -field VPWF_ALPHABLEND
 
 Alpha blend the respective bitmap; assumed 24-bit color + 8-bit alpha.
-

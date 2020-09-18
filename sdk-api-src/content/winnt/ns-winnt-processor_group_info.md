@@ -76,5 +76,4 @@ A bitmap that specifies the affinity for zero or more active processors within t
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-group_relationship">GROUP_RELATIONSHIP</a>
-
+<a href="/windows/desktop/api/winnt/ns-winnt-group_relationship">GROUP_RELATIONSHIP</a>

@@ -78,7 +78,7 @@ Button swapping is provided as a convenience to people who use the mouse with th
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/inputdev/mouse-input">Mouse Input</a>
+<a href="/windows/desktop/inputdev/mouse-input">Mouse Input</a>
 
 
 
@@ -86,5 +86,4 @@ Button swapping is provided as a convenience to people who use the mouse with th
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setdoubleclicktime">SetDoubleClickTime</a>
-
+<a href="/windows/desktop/api/winuser/nf-winuser-setdoubleclicktime">SetDoubleClickTime</a>

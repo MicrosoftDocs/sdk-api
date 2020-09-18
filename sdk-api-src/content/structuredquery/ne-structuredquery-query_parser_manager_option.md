@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-Used by <a href="https://docs.microsoft.com/windows/desktop/api/structuredquery/nf-structuredquery-iqueryparsermanager-setoption">IQueryParserManager::SetOption</a> to set parsing options. This can be used to specify schemas and localization options.
+Used by <a href="/windows/desktop/api/structuredquery/nf-structuredquery-iqueryparsermanager-setoption">IQueryParserManager::SetOption</a> to set parsing options. This can be used to specify schemas and localization options.
 
 ## -enum-fields
 
@@ -62,7 +62,7 @@ A <b>VT_LPWSTR</b> containing the name of the file that contains the schema bina
 
 ### -field QPMO_PRELOCALIZED_SCHEMA_BINARY_PATH
 
-Either a <b>VT_BOOL</b> or a <b>VT_LPWSTR</b>. If the value is a <b>VT_BOOL</b> and is <b>FALSE</b>, a pre-localized schema will not be used. If the value is a <b>VT_BOOL</b> and is <b>TRUE</b>, <a href="https://docs.microsoft.com/windows/desktop/api/structuredquery/nn-structuredquery-iqueryparsermanager">IQueryParserManager</a> will use the pre-localized schema binary in "<code>%ALLUSERSPROFILE%\Microsoft\Windows</code>". If the value is a <b>VT_LPWSTR</b>, the value should contain the full path of the folder in which the pre-localized schema binary can be found. The default value is <b>VT_BOOL</b> with <b>TRUE</b>.
+Either a <b>VT_BOOL</b> or a <b>VT_LPWSTR</b>. If the value is a <b>VT_BOOL</b> and is <b>FALSE</b>, a pre-localized schema will not be used. If the value is a <b>VT_BOOL</b> and is <b>TRUE</b>, <a href="/windows/desktop/api/structuredquery/nn-structuredquery-iqueryparsermanager">IQueryParserManager</a> will use the pre-localized schema binary in "<code>%ALLUSERSPROFILE%\Microsoft\Windows</code>". If the value is a <b>VT_LPWSTR</b>, the value should contain the full path of the folder in which the pre-localized schema binary can be found. The default value is <b>VT_BOOL</b> with <b>TRUE</b>.
 
 ### -field QPMO_UNLOCALIZED_SCHEMA_BINARY_PATH
 
@@ -78,5 +78,4 @@ A <b>VT_BOOL</b>.  If <b>TRUE</b>, then the paths for pre-localized and localize
 
 ### -field QPMO_LOCALIZER_SUPPORT
 
-A <b>VT_UNKNOWN</b> with an object supporting <a href="https://docs.microsoft.com/windows/desktop/api/structuredquery/nn-structuredquery-ischemalocalizersupport">ISchemaLocalizerSupport</a>. This object will be used instead of the default localizer support object.
-
+A <b>VT_UNKNOWN</b> with an object supporting <a href="/windows/desktop/api/structuredquery/nn-structuredquery-ischemalocalizersupport">ISchemaLocalizerSupport</a>. This object will be used instead of the default localizer support object.

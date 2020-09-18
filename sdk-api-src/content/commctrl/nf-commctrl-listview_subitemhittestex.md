@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Determines which list-view item or subitem is located at a given position. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/lvm-subitemhittest">LVM_SUBITEMHITTEST</a> message explicitly.
+Determines which list-view item or subitem is located at a given position. You can use this macro or send the <a href="/windows/desktop/Controls/lvm-subitemhittest">LVM_SUBITEMHITTEST</a> message explicitly.
 
 ## -parameters
 
 ### -param hwnd
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the list-view control that will be hit-tested.
 
@@ -64,9 +64,8 @@ A handle to the list-view control that will be hit-tested.
 
 Type: <b>LPLVHITTESTINFO</b>
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-lvhittestinfo">LVHITTESTINFO</a> structure. The <a href="https://docs.microsoft.com/previous-versions/dd162805(v=vs.85)">POINT</a> structure within <b>LVHITTESTINFO</b> must be set to the client coordinates to be hit-tested.
+A pointer to an <a href="/windows/desktop/api/commctrl/ns-commctrl-lvhittestinfo">LVHITTESTINFO</a> structure. The <a href="/previous-versions/dd162805(v=vs.85)">POINT</a> structure within <b>LVHITTESTINFO</b> must be set to the client coordinates to be hit-tested.
 
 ## -remarks
 
 This macro passes -1 as the <i>wparam</i> of the message, specifying that the <b>iGroup</b> member of <i>plvhti</i> is retrieved.
-

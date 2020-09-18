@@ -52,25 +52,25 @@ api_name:
 
 ## -description
 
-Carries information specific to hit-testing points for a month calendar control. This structure is used with the <a href="https://docs.microsoft.com/windows/desktop/Controls/mcm-hittest">MCM_HITTEST</a> message and the corresponding <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-monthcal_hittest">MonthCal_HitTest</a> macro.
+Carries information specific to hit-testing points for a month calendar control. This structure is used with the <a href="/windows/desktop/Controls/mcm-hittest">MCM_HITTEST</a> message and the corresponding <a href="/windows/desktop/api/commctrl/nf-commctrl-monthcal_hittest">MonthCal_HitTest</a> macro.
 
 ## -struct-fields
 
 ### -field cbSize
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 The size of this structure, in bytes.
 
 ### -field pt
 
-Type: <b><a href="https://docs.microsoft.com/previous-versions/dd162805(v=vs.85)">POINT</a></b>
+Type: <b><a href="/previous-versions/dd162805(v=vs.85)">POINT</a></b>
 
 Point to be hit-tested.
 
 ### -field uHit
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 Output member that receives a bit flag representing the result of the hit-test operation. This value will be one of the following: 
 
@@ -105,7 +105,7 @@ The given point is outside of any calendar but within the calendar controls <a h
 </dl>
 </td>
 <td width="60%">
-The given point was on a particular date within the calendar. The <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-systemtime">SYSTEMTIME</a> structure at <i>lpMCHitTest</i>&gt;st is set to the date at the given point.
+The given point was on a particular date within the calendar. The <a href="/windows/desktop/api/minwinbase/ns-minwinbase-systemtime">SYSTEMTIME</a> structure at <i>lpMCHitTest</i>&gt;st is set to the date at the given point.
 
 </td>
 </tr>
@@ -155,7 +155,7 @@ The given point was over a date from the previous month (partially displayed at 
 </dl>
 </td>
 <td width="60%">
-The given point was over a day abbreviation ("Fri", for example). The <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-systemtime">SYSTEMTIME</a> structure at 
+The given point was over a day abbreviation ("Fri", for example). The <a href="/windows/desktop/api/minwinbase/ns-minwinbase-systemtime">SYSTEMTIME</a> structure at 
 						<i>lpMCHitTest</i>&gt;st is set to the corresponding date in the top row.
 
 </td>
@@ -166,7 +166,7 @@ The given point was over a day abbreviation ("Fri", for example). The <a href="h
 </dl>
 </td>
 <td width="60%">
-The given point was over a week number (<a href="https://docs.microsoft.com/windows/desktop/Controls/month-calendar-control-styles">MCS_WEEKNUMBERS</a> style only). The <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-systemtime">SYSTEMTIME</a> structure at 
+The given point was over a week number (<a href="/windows/desktop/Controls/month-calendar-control-styles">MCS_WEEKNUMBERS</a> style only). The <a href="/windows/desktop/api/minwinbase/ns-minwinbase-systemtime">SYSTEMTIME</a> structure at 
 						<i>lpMCHitTest</i>&gt;st is set to the corresponding date in the leftmost column.
 
 </td>
@@ -235,7 +235,7 @@ The given point was in a month's title bar, over the year value.
 
 ### -field st
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-systemtime">SYSTEMTIME</a></b>
+Type: <b><a href="/windows/desktop/api/minwinbase/ns-minwinbase-systemtime">SYSTEMTIME</a></b>
 
 Receives date and time information specific to the location that was hit-tested.
 
@@ -266,4 +266,3 @@ The column number for the calendar grid that the given point was over. For examp
 ## -remarks
 
 Columns and rows in this control use a zero-based index system, that is, the first column or row has an index of zero.
-

@@ -66,9 +66,8 @@ The event handle to be signaled when the response is ready.
 
 ### -field messageParameters
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/wsdbase/nn-wsdbase-iwsdmessageparameters">IWSDMessageParameters</a> object that contains transport information associated with the response.
+A pointer to an <a href="/windows/desktop/api/wsdbase/nn-wsdbase-iwsdmessageparameters">IWSDMessageParameters</a> object that contains transport information associated with the response.
 
 ### -field results
 
 The body of the response message.
-

@@ -50,15 +50,14 @@ api_name:
 
 ## -description
 
-Initializes a  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/ns-resapi-resource_status">RESOURCE_STATUS</a> structure.
+Initializes a  <a href="/previous-versions/windows/desktop/api/resapi/ns-resapi-resource_status">RESOURCE_STATUS</a> structure.
 
 ## -parameters
 
 ### -param _resource_status_ [in]
 
-Pointer to the  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/ns-resapi-resource_status">RESOURCE_STATUS</a> structure to initialize.
+Pointer to the  <a href="/previous-versions/windows/desktop/api/resapi/ns-resapi-resource_status">RESOURCE_STATUS</a> structure to initialize.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/ns-resapi-resource_status">RESOURCE_STATUS</a>
-
+<a href="/previous-versions/windows/desktop/api/resapi/ns-resapi-resource_status">RESOURCE_STATUS</a>

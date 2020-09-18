@@ -96,13 +96,13 @@ The <i>Reserved</i> parameter is non-zero.
 
 ## -remarks
 
-URL Groups are configuration containers for a set of URLs. They are created under the server session and inherit the configuration settings of the server session. When a configuration parameter is set on the URL Group, it overrides the configuration set on the server session. For more information about the setting configurations for the URL Group, see <a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpseturlgroupproperty">HttpSetUrlGroupProperty</a>.
+URL Groups are configuration containers for a set of URLs. They are created under the server session and inherit the configuration settings of the server session. When a configuration parameter is set on the URL Group, it overrides the configuration set on the server session. For more information about the setting configurations for the URL Group, see <a href="/windows/desktop/api/http/nf-http-httpseturlgroupproperty">HttpSetUrlGroupProperty</a>.
 
-After the URL group is created it must be associated with a request queue to receive requests. To associate the URL Group with a request queue, the application calls <a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpseturlgroupproperty">HttpSetUrlGroupProperty</a> with the <b>HttpServerBindingProperty</b> property. If this property is not set, matching requests for the URL Group are not delivered to a request queue and the  HTTP Server API generates a 503 response.
+After the URL group is created it must be associated with a request queue to receive requests. To associate the URL Group with a request queue, the application calls <a href="/windows/desktop/api/http/nf-http-httpseturlgroupproperty">HttpSetUrlGroupProperty</a> with the <b>HttpServerBindingProperty</b> property. If this property is not set, matching requests for the URL Group are not delivered to a request queue and the  HTTP Server API generates a 503 response.
 
 The URL Group association with a request queue is dynamic. The association with the servers session cannot be changed until either the server session or the URL Group is deleted. When a server session is deleted all of the associated URL Groups are also automatically closed. 
 
-The URL Group is initially created as an empty group. URLs must be added to the group by calling <a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpaddurltourlgroup">HttpAddUrlToUrlGroup</a>.
+The URL Group is initially created as an empty group. URLs must be added to the group by calling <a href="/windows/desktop/api/http/nf-http-httpaddurltourlgroup">HttpAddUrlToUrlGroup</a>.
 
 Application may create multiple URL Groups for the following reasons:<ul>
 <li>To set distinct configurations for different portions of URL name space on which it is listening.</li>
@@ -114,31 +114,30 @@ Applications should combine URLs into groups as much  as possible; otherwise per
 
 The HTTP Server API does not support asynchronous I/O on URL Groups.
 
-When the URL group is no longer needed or before the application terminates it must delete the URL Group by calling <a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpcloseurlgroup">HttpCloseUrlGroup</a>.
+When the URL group is no longer needed or before the application terminates it must delete the URL Group by calling <a href="/windows/desktop/api/http/nf-http-httpcloseurlgroup">HttpCloseUrlGroup</a>.
 
 The URL Group is created with the same version as the server session under which it is created.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Http/http-server-api-version-2-0-functions">HTTP Server API Version 2.0 Functions</a>
+<a href="/windows/desktop/Http/http-server-api-version-2-0-functions">HTTP Server API Version 2.0 Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpaddurltourlgroup">HttpAddUrlToUrlGroup</a>
+<a href="/windows/desktop/api/http/nf-http-httpaddurltourlgroup">HttpAddUrlToUrlGroup</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpcloseurlgroup">HttpCloseUrlGroup</a>
+<a href="/windows/desktop/api/http/nf-http-httpcloseurlgroup">HttpCloseUrlGroup</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpqueryurlgroupproperty">HttpQueryUrlGroupProperty</a>
+<a href="/windows/desktop/api/http/nf-http-httpqueryurlgroupproperty">HttpQueryUrlGroupProperty</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpremoveurlfromurlgroup">HttpRemoveUrlFromUrlGroup</a>
+<a href="/windows/desktop/api/http/nf-http-httpremoveurlfromurlgroup">HttpRemoveUrlFromUrlGroup</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpseturlgroupproperty">HttpSetUrlGroupProperty</a>
-
+<a href="/windows/desktop/api/http/nf-http-httpseturlgroupproperty">HttpSetUrlGroupProperty</a>

@@ -103,13 +103,12 @@ Insufficient memory exists to perform the operation.
 
 One reason why 
 <b>Shutdown</b> might fail is if 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-ittapi-initialize">Initialize</a> was not previously called successfully.
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-ittapi-initialize">Initialize</a> was not previously called successfully.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-ittapi">ITTAPI</a>
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-ittapi">ITTAPI</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/tapi-object">TAPI Object</a>
-
+<a href="/windows/desktop/Tapi/tapi-object">TAPI Object</a>

@@ -71,7 +71,7 @@ A handle to the window whose information is to be retrieved.
 
 Type: <b>PWINDOWINFO</b>
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-windowinfo">WINDOWINFO</a> structure to receive the information. Note that you must set the <b>cbSize</b> member to <code>sizeof(WINDOWINFO)</code> before calling this function.
+A pointer to a <a href="/windows/desktop/api/winuser/ns-winuser-windowinfo">WINDOWINFO</a> structure to receive the information. Note that you must set the <b>cbSize</b> member to <code>sizeof(WINDOWINFO)</code> before calling this function.
 
 ## -returns
 
@@ -81,7 +81,7 @@ If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. 
 
-To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -see-also
 
@@ -93,9 +93,8 @@ To get extended error information, call <a href="https://docs.microsoft.com/wind
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-windowinfo">WINDOWINFO</a>
+<a href="/windows/desktop/api/winuser/ns-winuser-windowinfo">WINDOWINFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/winmsg/windows">Windows</a>
-
+<a href="/windows/desktop/winmsg/windows">Windows</a>

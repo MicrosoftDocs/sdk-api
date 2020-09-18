@@ -56,7 +56,7 @@ api_name:
 
 ### -param UniqueSessionId [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/iscsidsc/ns-iscsidsc-iscsi_unique_session_id">ISCSI_UNIQUE_SESSION_ID</a> structure that contains the session identifier for the login session of the target to query with the SCSI REPORT LUNS command.
+A pointer to a <a href="/windows/desktop/api/iscsidsc/ns-iscsidsc-iscsi_unique_session_id">ISCSI_UNIQUE_SESSION_ID</a> structure that contains the session identifier for the login session of the target to query with the SCSI REPORT LUNS command.
 
 ### -param ScsiStatus [out]
 
@@ -92,5 +92,4 @@ Otherwise, this function returns the appropriate Win32 or iSCSI error code on fa
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iscsidsc/ns-iscsidsc-iscsi_unique_session_id">ISCSI_UNIQUE_SESSION_ID</a>
-
+<a href="/windows/desktop/api/iscsidsc/ns-iscsidsc-iscsi_unique_session_id">ISCSI_UNIQUE_SESSION_ID</a>

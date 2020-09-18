@@ -52,7 +52,7 @@ api_name:
 
 The 
 <b>HandleTSPData</b> method may be called by the derived call object to let the stream handle the TSP commands. The default implementation returns S_OK. Override this method to implement the stream-specific portion of your MSP-TSP communication. Note that the base call object classes do not call this method; if you want to use it, you must also override the 
-<a href="https://docs.microsoft.com/windows/desktop/api/mspcall/nf-mspcall-cmspcallbase-receivetspcalldata">ReceiveTSPCallData</a> method to dispatch the TSP data to your streams. The stream dispatch information, if any, will be contained in the opaque buffer.
+<a href="/windows/desktop/api/mspcall/nf-mspcall-cmspcallbase-receivetspcalldata">ReceiveTSPCallData</a> method to dispatch the TSP data to your streams. The stream dispatch information, if any, will be contained in the opaque buffer.
 
 ## -parameters
 
@@ -66,5 +66,4 @@ Size in bytes of opaque buffer.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mspstrm/nl-mspstrm-cmspstream">CMSPStream</a>
-
+<a href="/windows/desktop/api/mspstrm/nl-mspstrm-cmspstream">CMSPStream</a>

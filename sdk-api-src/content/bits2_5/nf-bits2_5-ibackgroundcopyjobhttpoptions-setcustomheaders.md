@@ -113,7 +113,7 @@ Only the job owner can specify custom headers. If the job changes ownership, BIT
 
 Note that if multiple HTTP requests are sent, the headers are sent with each request.
 
-An ISAPI that processes the custom header can return an HTTP error if the header is not valid. For details on how BITS handles the error, see <a href="https://docs.microsoft.com/windows/desktop/Bits/handling-server-application-errors">Handling Server Application Errors</a>.
+An ISAPI that processes the custom header can return an HTTP error if the header is not valid. For details on how BITS handles the error, see <a href="/windows/desktop/Bits/handling-server-application-errors">Handling Server Application Errors</a>.
 
 
 #### Examples
@@ -159,9 +159,8 @@ cleanup:
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits2_5/nn-bits2_5-ibackgroundcopyjobhttpoptions">IBackgroundCopyJobHttpOptions</a>
+<a href="/windows/desktop/api/bits2_5/nn-bits2_5-ibackgroundcopyjobhttpoptions">IBackgroundCopyJobHttpOptions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits2_5/nf-bits2_5-ibackgroundcopyjobhttpoptions-getcustomheaders">IBackgroundCopyJobHttpOptions::GetCustomHeaders</a>
-
+<a href="/windows/desktop/api/bits2_5/nf-bits2_5-ibackgroundcopyjobhttpoptions-getcustomheaders">IBackgroundCopyJobHttpOptions::GetCustomHeaders</a>

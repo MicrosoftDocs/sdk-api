@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Notifies a client of [ShellExecuteEx](/windows/win32/api/shellapi/nf-shellapi-shellexecuteexw) that a handler is about to be created, giving that client the opportunity to display UI confirming the use of that handler or reject it by returning a specific error code.
+Notifies a client of [ShellExecuteEx](../shellapi/nf-shellapi-shellexecuteexw.md) that a handler is about to be created, giving that client the opportunity to display UI confirming the use of that handler or reject it by returning a specific error code.
 
 ## -parameters
 
@@ -73,5 +73,4 @@ Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT<
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ihandleractivationhost">IHandlerActivationHost</a>
-
+<a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ihandleractivationhost">IHandlerActivationHost</a>

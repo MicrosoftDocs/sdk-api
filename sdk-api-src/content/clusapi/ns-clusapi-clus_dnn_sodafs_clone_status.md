@@ -62,13 +62,12 @@ The node ID of the clone.
 
 ### -field Status
 
-A <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ne-clusapi-cluster_resource_state">CLUSTER_RESOURCE_STATE</a> enumeration value that specifies the status of the clone.
+A <a href="/previous-versions/windows/desktop/api/clusapi/ne-clusapi-cluster_resource_state">CLUSTER_RESOURCE_STATE</a> enumeration value that specifies the status of the clone.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clus_dnn_leader_status">CLUS_DNN_LEADER_STATUS</a>
+<a href="/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clus_dnn_leader_status">CLUS_DNN_LEADER_STATUS</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/data-structures">Data structures</a>
-
+<a href="/previous-versions/windows/desktop/mscs/data-structures">Data structures</a>

@@ -56,7 +56,7 @@ The <b>get_Authorization</b> method retrieves a value that indicates whether the
 
 ### -param authorization [out]
 
-A pointer to a variable that receives an element of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wmlss/ne-wmlss-windowsmedialibrarysharingdeviceauthorizationstatus">WindowsMediaLibrarySharingDeviceAuthorizationStatus</a> enumeration.
+A pointer to a variable that receives an element of the <a href="/previous-versions/windows/desktop/api/wmlss/ne-wmlss-windowsmedialibrarysharingdeviceauthorizationstatus">WindowsMediaLibrarySharingDeviceAuthorizationStatus</a> enumeration.
 
 ## -returns
 
@@ -79,4 +79,3 @@ The method succeeded.
 </td>
 </tr>
 </table>
-

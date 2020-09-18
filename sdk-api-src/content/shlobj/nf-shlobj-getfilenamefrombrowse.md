@@ -106,5 +106,4 @@ If the user specifies a file name and clicks <b>OK</b>, the return value is <b>T
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/commdlg/nf-commdlg-getopenfilenamea">GetOpenFileName</a>
-
+<a href="/windows/desktop/api/commdlg/nf-commdlg-getopenfilenamea">GetOpenFileName</a>

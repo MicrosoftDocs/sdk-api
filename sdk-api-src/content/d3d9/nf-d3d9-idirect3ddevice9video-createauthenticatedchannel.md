@@ -56,11 +56,11 @@ Creates a channel to communicate with the Direct3D device or the graphics driver
 
 ### -param ChannelType
 
-Specifies the type of channel, as a member of the <a href="https://docs.microsoft.com/windows/desktop/medfound/d3dauthenticatedchanneltype">D3DAUTHENTICATEDCHANNELTYPE</a> enumeration.
+Specifies the type of channel, as a member of the <a href="/windows/desktop/medfound/d3dauthenticatedchanneltype">D3DAUTHENTICATEDCHANNELTYPE</a> enumeration.
 
 ### -param ppAuthenticatedChannel
 
-Receives a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nn-d3d9-idirect3dauthenticatedchannel9">IDirect3DAuthenticatedChannel9</a> interface. The caller must release the interface.
+Receives a pointer to the <a href="/windows/desktop/api/d3d9/nn-d3d9-idirect3dauthenticatedchannel9">IDirect3DAuthenticatedChannel9</a> interface. The caller must release the interface.
 
 ### -param pChannelHandle
 
@@ -78,9 +78,8 @@ If <i>ChannelType</i> is <b>D3DAUTHENTICATEDCHANNEL_DRIVER_SOFTWARE</b> or <b>D3
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/gpu-based-content-protection">GPU-Based Content Protection</a>
+<a href="/windows/desktop/medfound/gpu-based-content-protection">GPU-Based Content Protection</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nn-d3d9-idirect3ddevice9video">IDirect3DDevice9Video</a>
-
+<a href="/windows/desktop/api/d3d9/nn-d3d9-idirect3ddevice9video">IDirect3DDevice9Video</a>

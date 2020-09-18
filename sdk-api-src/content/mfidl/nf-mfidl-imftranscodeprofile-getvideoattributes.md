@@ -56,7 +56,7 @@ Gets the video stream settings that are currently set in the transcode profile.
 
 ### -param ppAttrs [out]
 
-Receives a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes">IMFAttributes</a> interface of the attribute store containing the current video stream settings. Caller must release the interface pointer.
+Receives a pointer to the <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes">IMFAttributes</a> interface of the attribute store containing the current video stream settings. Caller must release the interface pointer.
 
 ## -returns
 
@@ -66,32 +66,31 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 If there are no container attributes set in the transcode profile, the <b>GetVideoAttributes</b> method  succeeds and  <i>ppAttrs</i> receives <b>NULL</b>.
 
-To get a specific attribute value, the caller must call the appropriate <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes">IMFAttributes</a> method depending on the data type of the attribute, and specify the attribute name. The following list shows the video attributes:
+To get a specific attribute value, the caller must call the appropriate <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes">IMFAttributes</a> method depending on the data type of the attribute, and specify the attribute name. The following list shows the video attributes:
 
 <ul>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/medfound/video-media-types">Video Media Types</a>
+<a href="/windows/desktop/medfound/video-media-types">Video Media Types</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/medfound/mf-transcode-encodingprofile">MF_TRANSCODE_ENCODINGPROFILE</a>
+<a href="/windows/desktop/medfound/mf-transcode-encodingprofile">MF_TRANSCODE_ENCODINGPROFILE</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/medfound/mf-transcode-qualityvsspeed">MF_TRANSCODE_QUALITYVSSPEED</a>
+<a href="/windows/desktop/medfound/mf-transcode-qualityvsspeed">MF_TRANSCODE_QUALITYVSSPEED</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/medfound/mf-transcode-donot-insert-encoder">MF_TRANSCODE_DONOT_INSERT_ENCODER</a>
+<a href="/windows/desktop/medfound/mf-transcode-donot-insert-encoder">MF_TRANSCODE_DONOT_INSERT_ENCODER</a>
 </li>
 </ul>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/attributes-and-properties">Attributes in Media Foundation</a>
+<a href="/windows/desktop/medfound/attributes-and-properties">Attributes in Media Foundation</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imftranscodeprofile">IMFTranscodeProfile</a>
+<a href="/windows/desktop/api/mfidl/nn-mfidl-imftranscodeprofile">IMFTranscodeProfile</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/transcode-api">Transcode API</a>
-
+<a href="/windows/desktop/medfound/transcode-api">Transcode API</a>

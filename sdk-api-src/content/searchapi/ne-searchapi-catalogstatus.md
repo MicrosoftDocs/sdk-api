@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-Used by <a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nf-searchapi-isearchcatalogmanager-getcatalogstatus">ISearchCatalogManager::GetCatalogStatus</a> to determine the current state of the catalog.
+Used by <a href="/windows/desktop/api/searchapi/nf-searchapi-isearchcatalogmanager-getcatalogstatus">ISearchCatalogManager::GetCatalogStatus</a> to determine the current state of the catalog.
 
 ## -enum-fields
 
@@ -83,4 +83,3 @@ Indexer is processing the notification queue. This is done before resuming any c
 ### -field CATALOG_STATUS_SHUTTING_DOWN
 
 Indexer is shutting down and is not indexing.  Indexer can't be queried.
-

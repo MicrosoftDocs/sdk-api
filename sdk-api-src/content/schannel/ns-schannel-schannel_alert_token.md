@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-Generates a <a href="https://docs.microsoft.com/windows/desktop/SecAuthN/secure-sockets-layer-protocol">Secure Sockets Layer Protocol</a> (SSL) or Transport Layer Security Protocol (TLS) alert to be sent to the target of a call to either the <a href="https://docs.microsoft.com/windows/desktop/api/rrascfg/nn-rrascfg-ieapproviderconfig">InitializeSecurityContext (Schannel)</a> function or the <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-acceptsecuritycontext">AcceptSecurityContext (Schannel)</a>  function.
+Generates a <a href="/windows/desktop/SecAuthN/secure-sockets-layer-protocol">Secure Sockets Layer Protocol</a> (SSL) or Transport Layer Security Protocol (TLS) alert to be sent to the target of a call to either the <a href="/windows/desktop/api/rrascfg/nn-rrascfg-ieapproviderconfig">InitializeSecurityContext (Schannel)</a> function or the <a href="/windows/desktop/api/sspi/nf-sspi-acceptsecuritycontext">AcceptSecurityContext (Schannel)</a>  function.
 
 ## -struct-fields
 
@@ -195,5 +195,4 @@ One of the alert messages defined by the TLS protocol specification. For descrip
 
 ## -remarks
 
-Add an alert message to a client context by using this structure as the value of the <i>pInput</i> parameter in a call to the <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-applycontroltoken">ApplyControlToken</a> function.
-
+Add an alert message to a client context by using this structure as the value of the <i>pInput</i> parameter in a call to the <a href="/windows/desktop/api/sspi/nf-sspi-applycontroltoken">ApplyControlToken</a> function.

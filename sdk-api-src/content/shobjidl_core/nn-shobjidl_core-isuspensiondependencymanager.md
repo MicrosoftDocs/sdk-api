@@ -54,7 +54,7 @@ Exposes methods to manage dependencies in process suspension scenarios. This int
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISuspensionDependencyManager</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISuspensionDependencyManager</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISuspensionDependencyManager</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISuspensionDependencyManager</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,21 +69,20 @@ The <b>ISuspensionDependencyManager</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-isuspensiondependencymanager-groupchildwithparent">GroupChildWithParent</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-isuspensiondependencymanager-groupchildwithparent">GroupChildWithParent</a>
 </td>
 <td align="left" width="63%">Groups the specified child process with the parent process.</td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-isuspensiondependencymanager-registeraschild">RegisterAsChild</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-isuspensiondependencymanager-registeraschild">RegisterAsChild</a>
 </td>
 <td align="left" width="63%">Registers the specified process as a child.</td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-isuspensiondependencymanager-ungroupchildfromparent">UngroupChildFromParent</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-isuspensiondependencymanager-ungroupchildfromparent">UngroupChildFromParent</a>
 </td>
 <td align="left" width="63%">Ungroups the specified child process from the parent process.</td>
 </tr>
 </table>
-

@@ -57,19 +57,19 @@ Puts a new event in the object's queue.
 
 ### -param met [in]
 
-Specifies the event type. The event type is returned by the event's <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfmediaevent-gettype">IMFMediaEvent::GetType</a> method. For a list of event types, see <a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-events">Media Foundation Events</a>.
+Specifies the event type. The event type is returned by the event's <a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfmediaevent-gettype">IMFMediaEvent::GetType</a> method. For a list of event types, see <a href="/windows/desktop/medfound/media-foundation-events">Media Foundation Events</a>.
 
 ### -param guidExtendedType [in]
 
-The extended type. If the event does not have an extended type, use the value GUID_NULL. The extended type is returned by the event's <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfmediaevent-getextendedtype">IMFMediaEvent::GetExtendedType</a> method.
+The extended type. If the event does not have an extended type, use the value GUID_NULL. The extended type is returned by the event's <a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfmediaevent-getextendedtype">IMFMediaEvent::GetExtendedType</a> method.
 
 ### -param hrStatus [in]
 
-A success or failure code indicating the status of the event. This value is returned by the event's <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfmediaevent-getstatus">IMFMediaEvent::GetStatus</a> method.
+A success or failure code indicating the status of the event. This value is returned by the event's <a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfmediaevent-getstatus">IMFMediaEvent::GetStatus</a> method.
 
 ### -param pvValue [in]
 
-Pointer to a <b>PROPVARIANT</b> that contains the event value. This parameter can be <b>NULL</b>. This value is returned by the event's <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfmediaevent-getvalue">IMFMediaEvent::GetValue</a> method.
+Pointer to a <b>PROPVARIANT</b> that contains the event value. This parameter can be <b>NULL</b>. This value is returned by the event's <a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfmediaevent-getvalue">IMFMediaEvent::GetValue</a> method.
 
 ## -returns
 
@@ -106,9 +106,8 @@ The object was shut down.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfmediaeventgenerator">IMFMediaEventGenerator</a>
+<a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfmediaeventgenerator">IMFMediaEventGenerator</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-event-generators">Media Event Generators</a>
-
+<a href="/windows/desktop/medfound/media-event-generators">Media Event Generators</a>

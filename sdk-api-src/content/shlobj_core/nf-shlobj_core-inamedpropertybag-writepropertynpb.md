@@ -68,7 +68,7 @@ A pointer to a string that contains the name of the property to write.
 
 ### -param pVar [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a>*</b>
+Type: <b><a href="/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a>*</b>
 
 A pointer to a <b>VARIANT</b> that holds the new property value.
 
@@ -77,4 +77,3 @@ A pointer to a <b>VARIANT</b> that holds the new property value.
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-

@@ -56,7 +56,7 @@ The
 <b>MsiSummaryInfoSetProperty</b> function sets a single summary information property.
 
 
-<div class="alert"><b>Note</b>  The meaning of the property value depends on whether the summary information stream is for an installation database (.msi file), transform (.mst file) or patch (.msp file). See <a href="https://docs.microsoft.com/windows/desktop/Msi/summary-property-descriptions">Summary Property Descriptions</a> and <a href="https://docs.microsoft.com/windows/desktop/Msi/summary-information-stream-property-set">Summary Information Stream Property Set</a> for more information about summary information properties.</div>
+<div class="alert"><b>Note</b>  The meaning of the property value depends on whether the summary information stream is for an installation database (.msi file), transform (.mst file) or patch (.msp file). See <a href="/windows/desktop/Msi/summary-property-descriptions">Summary Property Descriptions</a> and <a href="/windows/desktop/Msi/summary-information-stream-property-set">Summary Information Stream Property Set</a> for more information about summary information properties.</div>
 <div> </div>
 
 ## -parameters
@@ -67,12 +67,12 @@ Handle to summary information.
 
 ### -param uiProperty [in]
 
-Specifies the property ID of the summary property being set. This parameter can be a property ID  listed in the <a href="https://docs.microsoft.com/windows/desktop/Msi/summary-information-stream-property-set">Summary Information Stream Property Set</a>.  This function does not set values for PID_DICTIONARY OR PID_THUMBNAIL property.
+Specifies the property ID of the summary property being set. This parameter can be a property ID  listed in the <a href="/windows/desktop/Msi/summary-information-stream-property-set">Summary Information Stream Property Set</a>.  This function does not set values for PID_DICTIONARY OR PID_THUMBNAIL property.
 
 ### -param uiDataType [in]
 
 Specifies the type of property to set. This parameter can be a type listed in the 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/summary-information-stream-property-set">Summary Information Stream Property Set</a>.
+<a href="/windows/desktop/Msi/summary-information-stream-property-set">Summary Information Stream Property Set</a>.
 
 ### -param iValue [in]
 
@@ -93,18 +93,17 @@ The
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/database-functions">Summary Information Property Functions</a>
+<a href="/windows/desktop/Msi/database-functions">Summary Information Property Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/summary-information-stream-property-set">Summary Information Stream Property Set</a>
+<a href="/windows/desktop/Msi/summary-information-stream-property-set">Summary Information Stream Property Set</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/summaryinfo-summaryinfo">Summaryinfo.Property</a>
+<a href="/windows/desktop/Msi/summaryinfo-summaryinfo">Summaryinfo.Property</a>
 
 ## -remarks
 
 > [!NOTE]
 > The msiquery.h header defines MsiSummaryInfoSetProperty as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

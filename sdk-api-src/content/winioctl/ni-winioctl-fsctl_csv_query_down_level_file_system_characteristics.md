@@ -86,12 +86,11 @@ Irp->IoStatus.Status is set to STATUS_SUCCESS if the request is successful.
 
 Otherwise, Status to the appropriate error condition as a NTSTATUS code. 
 
-For more information, see [NTSTATUS Values](https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values).
+For more information, see [NTSTATUS Values](/windows-hardware/drivers/kernel/ntstatus-values).
 
 ## -see-also
 
 * [CreateFile](../fileapi/nf-fileapi-createfilea.md)
 * [DeviceIoControl](../ioapiset/nf-ioapiset-deviceiocontrol.md)
-* [FILE_FS_ATTRIBUTE_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/ns-ntifs-_file_fs_attribute_information)
-* [Volume Management Control Codes](https://docs.microsoft.com/windows/desktop/FileIO/volume-management-control-codes)
-
+* [FILE_FS_ATTRIBUTE_INFORMATION](/windows-hardware/drivers/ddi/content/ntifs/ns-ntifs-_file_fs_attribute_information)
+* [Volume Management Control Codes](/windows/desktop/FileIO/volume-management-control-codes)

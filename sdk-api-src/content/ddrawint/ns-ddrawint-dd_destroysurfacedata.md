@@ -54,21 +54,21 @@ api_name:
 
 ## -description
 
-The DD_DESTROYSURFACEDATA structure contains information necessary to destroy the specified surface--in the case of <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff552754(v=vs.85)">DestroyD3DBuffer</a>, a command or vertex buffer.
+The DD_DESTROYSURFACEDATA structure contains information necessary to destroy the specified surface--in the case of <a href="/previous-versions/windows/hardware/drivers/ff552754(v=vs.85)">DestroyD3DBuffer</a>, a command or vertex buffer.
 
 ## -struct-fields
 
 ### -field lpDD
 
-Points to the <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_directdraw_global">DD_DIRECTDRAW_GLOBAL</a> structure that describes the driver's device.
+Points to the <a href="/windows/desktop/api/ddrawint/ns-ddrawint-dd_directdraw_global">DD_DIRECTDRAW_GLOBAL</a> structure that describes the driver's device.
 
 ### -field lpDDSurface
 
-Points to the <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_surface_local">DD_SURFACE_LOCAL</a> structure representing the surface or buffer object to be destroyed.
+Points to the <a href="/windows/desktop/api/ddrawint/ns-ddrawint-dd_surface_local">DD_SURFACE_LOCAL</a> structure representing the surface or buffer object to be destroyed.
 
 ### -field ddRVal
 
-Specifies the location in which the driver writes the return value of either the <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/nc-ddrawint-pdd_surfcb_destroysurface">DdDestroySurface</a> or <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff552754(v=vs.85)">DestroyD3DBuffer</a> callback. A return code of DD_OK indicates success. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/display/return-values-for-directdraw">Return Values for DirectDraw</a>.
+Specifies the location in which the driver writes the return value of either the <a href="/windows/desktop/api/ddrawint/nc-ddrawint-pdd_surfcb_destroysurface">DdDestroySurface</a> or <a href="/previous-versions/windows/hardware/drivers/ff552754(v=vs.85)">DestroyD3DBuffer</a> callback. A return code of DD_OK indicates success. For more information, see <a href="/windows-hardware/drivers/display/return-values-for-directdraw">Return Values for DirectDraw</a>.
 
 ### -field DestroySurface
 
@@ -76,9 +76,8 @@ Used by the Microsoft DirectDraw API and should not be filled in by the driver.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/nc-ddrawint-pdd_surfcb_destroysurface">DdDestroySurface</a>
+<a href="/windows/desktop/api/ddrawint/nc-ddrawint-pdd_surfcb_destroysurface">DdDestroySurface</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff552754(v=vs.85)">DestroyD3DBuffer</a>
-
+<a href="/previous-versions/windows/hardware/drivers/ff552754(v=vs.85)">DestroyD3DBuffer</a>

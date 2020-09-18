@@ -52,7 +52,7 @@ api_name:
 
 The <i>DllCallbackProc</i> 
 function is called by the UI DLL to send a private parameter block to the service provider. Each invocation of the callback results in a call to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_providergenericdialogdata">TSPI_providerGenericDialogData</a> function in the service provider associated with the specified object. The contents of the parameter block are defined by the service provider and UI DLL. The service provider can modify the contents of the parameter block; when this function returns, TAPI copies the modified data back into the original UI DLL parameter block.
+<a href="/windows/desktop/api/tspi/nf-tspi-tspi_providergenericdialogdata">TSPI_providerGenericDialogData</a> function in the service provider associated with the specified object. The contents of the parameter block are defined by the service provider and UI DLL. The service provider can modify the contents of the parameter block; when this function returns, TAPI copies the modified data back into the original UI DLL parameter block.
 
 The <b>TUISPIDLLCALLBACK</b> type defines a pointer to this callback function. <i>DllCallbackProc</i> is a placeholder for the application-defined function name.
 
@@ -65,7 +65,7 @@ An object identifier of the type specified by <i>dwObjectType</i>.
 ### -param dwObjectType
 
 One of the 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/tuispidll-object-">TUISPIDLL_OBJECT_</a> constants, specifying the type of object identified by <i>dwObjectID</i>
+<a href="/windows/desktop/Tapi/tuispidll-object-">TUISPIDLL_OBJECT_</a> constants, specifying the type of object identified by <i>dwObjectID</i>
 
 
 
@@ -74,32 +74,32 @@ One of the
 #### TUISPIDLL_OBJECT_LINEID
 
 The <i>dwObjectID</i> parameter is a line device identifier (<i>dwDeviceID</i>). This is used when the callback is invoked during the processing of 
-<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tuispi_lineconfigdialog">TUISPI_lineConfigDialog</a> or 
-<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tuispi_lineconfigdialogedit">TUISPI_lineConfigDialogEdit</a>.
+<a href="/windows/desktop/api/tspi/nf-tspi-tuispi_lineconfigdialog">TUISPI_lineConfigDialog</a> or 
+<a href="/windows/desktop/api/tspi/nf-tspi-tuispi_lineconfigdialogedit">TUISPI_lineConfigDialogEdit</a>.
 
 
 
 #### TUISPIDLL_OBJECT_PHONEID
 
 The <i>dwObjectID</i> parameter is a phone device identifier (<i>dwDeviceID</i>). This is used when the callback is invoked during the processing of 
-<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tuispi_phoneconfigdialog">TUISPI_phoneConfigDialog</a>.
+<a href="/windows/desktop/api/tspi/nf-tspi-tuispi_phoneconfigdialog">TUISPI_phoneConfigDialog</a>.
 
 
 
 #### TUISPIDLL_OBJECT_PROVIDERID
 
 The <i>dwObjectID</i> parameter is a permanent provider identifier. This is used when the callback is invoked during the processing of 
-<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tuispi_providerconfig">TUISPI_providerConfig</a>, 
-<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tuispi_providerinstall">TUISPI_providerInstall</a>, or 
-<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tuispi_providerremove">TUISPI_providerRemove</a>.
+<a href="/windows/desktop/api/tspi/nf-tspi-tuispi_providerconfig">TUISPI_providerConfig</a>, 
+<a href="/windows/desktop/api/tspi/nf-tspi-tuispi_providerinstall">TUISPI_providerInstall</a>, or 
+<a href="/windows/desktop/api/tspi/nf-tspi-tuispi_providerremove">TUISPI_providerRemove</a>.
 
 
 
 #### TUISPIDLL_OBJECT_DIALOGINSTANCE
 
 The <i>dwObjectID</i> parameter is an HDRVDIALOGINSTANCE, as returned to the service provider when it sent a 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/line-createdialoginstance">LINE_CREATEDIALOGINSTANCE</a> message. This is used when the callback is invoked during the processing of 
-<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tuispi_providergenericdialog">TUISPI_providerGenericDialog</a>.
+<a href="/windows/desktop/Tapi/line-createdialoginstance">LINE_CREATEDIALOGINSTANCE</a> message. This is used when the callback is invoked during the processing of 
+<a href="/windows/desktop/api/tspi/nf-tspi-tuispi_providergenericdialog">TUISPI_providerGenericDialog</a>.
 
 ### -param lpParams
 
@@ -113,7 +113,7 @@ The size in bytes of the parameter block.
 
 
 <div class="alert"><b>Note</b>  If the size parameters in the structure are not correct, there is a possibility that data could get overwritten. For more information on setting structure sizes, see the 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/memory-allocation">memory allocation</a> topic. </div>
+<a href="/windows/desktop/Tapi/memory-allocation">memory allocation</a> topic. </div>
 <div> </div>
 
 ## -returns
@@ -124,41 +124,40 @@ LINEERR_INVALPARAM, LINEERR_INVALPOINTER, LINEERR_NOMEM, LINEERR_OPERATIONFAILED
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/line-createdialoginstance">LINE_CREATEDIALOGINSTANCE</a>
+<a href="/windows/desktop/Tapi/line-createdialoginstance">LINE_CREATEDIALOGINSTANCE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_providergenericdialogdata">TSPI_providerGenericDialogData</a>
+<a href="/windows/desktop/api/tspi/nf-tspi-tspi_providergenericdialogdata">TSPI_providerGenericDialogData</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/tuispidll-object-">TUISPIDLL_OBJECT_</a>
+<a href="/windows/desktop/Tapi/tuispidll-object-">TUISPIDLL_OBJECT_</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tuispi_lineconfigdialog">TUISPI_lineConfigDialog</a>
+<a href="/windows/desktop/api/tspi/nf-tspi-tuispi_lineconfigdialog">TUISPI_lineConfigDialog</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tuispi_lineconfigdialogedit">TUISPI_lineConfigDialogEdit</a>
+<a href="/windows/desktop/api/tspi/nf-tspi-tuispi_lineconfigdialogedit">TUISPI_lineConfigDialogEdit</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tuispi_phoneconfigdialog">TUISPI_phoneConfigDialog</a>
+<a href="/windows/desktop/api/tspi/nf-tspi-tuispi_phoneconfigdialog">TUISPI_phoneConfigDialog</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tuispi_providerconfig">TUISPI_providerConfig</a>
+<a href="/windows/desktop/api/tspi/nf-tspi-tuispi_providerconfig">TUISPI_providerConfig</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tuispi_providergenericdialog">TUISPI_providerGenericDialog</a>
+<a href="/windows/desktop/api/tspi/nf-tspi-tuispi_providergenericdialog">TUISPI_providerGenericDialog</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tuispi_providerinstall">TUISPI_providerInstall</a>
+<a href="/windows/desktop/api/tspi/nf-tspi-tuispi_providerinstall">TUISPI_providerInstall</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tuispi_providerremove">TUISPI_providerRemove</a>
-
+<a href="/windows/desktop/api/tspi/nf-tspi-tuispi_providerremove">TUISPI_providerRemove</a>

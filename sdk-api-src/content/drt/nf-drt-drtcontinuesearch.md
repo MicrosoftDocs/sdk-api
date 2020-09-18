@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-The <b>DrtContinueSearch</b> function continues an iterative search for a key.This function is used only when the <b>fIterative</b> flag is set to 'true' in the associated <a href="https://docs.microsoft.com/windows/desktop/api/drt/ns-drt-drt_search_info">DRT_SEARCH_INFO</a> structure. Call this after getting a <b>DRT_MATCH_INTERMEDIATE</b> search result.
+The <b>DrtContinueSearch</b> function continues an iterative search for a key.This function is used only when the <b>fIterative</b> flag is set to 'true' in the associated <a href="/windows/desktop/api/drt/ns-drt-drt_search_info">DRT_SEARCH_INFO</a> structure. Call this after getting a <b>DRT_MATCH_INTERMEDIATE</b> search result.
 
 ## -parameters
 
 ### -param hSearchContext [in]
 
-Handle to the search context  to close. This parameter is returned by the <a href="https://docs.microsoft.com/windows/desktop/api/drt/nf-drt-drtstartsearch">DrtStartSearch</a> API.
+Handle to the search context  to close. This parameter is returned by the <a href="/windows/desktop/api/drt/nf-drt-drtstartsearch">DrtStartSearch</a> API.
 
 ## -returns
 
@@ -93,13 +93,12 @@ This search is not an iterative search.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/drt/ns-drt-drt_search_info">DRT_SEARCH_INFO</a>
+<a href="/windows/desktop/api/drt/ns-drt-drt_search_info">DRT_SEARCH_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/drt/nf-drt-drtendsearch">DrtEndSearch</a>
+<a href="/windows/desktop/api/drt/nf-drt-drtendsearch">DrtEndSearch</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/drt/nf-drt-drtstartsearch">DrtStartSearch</a>
-
+<a href="/windows/desktop/api/drt/nf-drt-drtstartsearch">DrtStartSearch</a>

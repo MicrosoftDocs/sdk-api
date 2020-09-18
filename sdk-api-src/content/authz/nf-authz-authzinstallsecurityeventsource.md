@@ -60,9 +60,9 @@ This parameter is reserved for future use and must be set to zero.
 
 ### -param pRegistration [in]
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/authz/ns-authz-authz_source_schema_registration">AUTHZ_SOURCE_SCHEMA_REGISTRATION</a> structure that contains information about the security event source to be added.
+A pointer to an <a href="/windows/desktop/api/authz/ns-authz-authz_source_schema_registration">AUTHZ_SOURCE_SCHEMA_REGISTRATION</a> structure that contains information about the security event source to be added.
 
-The members of the <a href="https://docs.microsoft.com/windows/desktop/api/authz/ns-authz-authz_source_schema_registration">AUTHZ_SOURCE_SCHEMA_REGISTRATION</a> structure are used as follows to install the security event source in the security log key:
+The members of the <a href="/windows/desktop/api/authz/ns-authz-authz_source_schema_registration">AUTHZ_SOURCE_SCHEMA_REGISTRATION</a> structure are used as follows to install the security event source in the security log key:
 
 <ul>
 <li>The <b>szEventSourceName</b> member is added as a registry key under <pre xml:space="preserve"><b>HKEY_LOCAL_MACHINE</b>
@@ -85,13 +85,12 @@ The members of the <a href="https://docs.microsoft.com/windows/desktop/api/authz
 
 If the function succeeds, the function returns <b>TRUE</b>.
 
-If the function fails, it returns <b>FALSE</b>. For extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+If the function fails, it returns <b>FALSE</b>. For extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/authz/ns-authz-authz_source_schema_registration">AUTHZ_SOURCE_SCHEMA_REGISTRATION</a>
+<a href="/windows/desktop/api/authz/ns-authz-authz_source_schema_registration">AUTHZ_SOURCE_SCHEMA_REGISTRATION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/authz/nf-authz-authzuninstallsecurityeventsource">AuthzUninstallSecurityEventSource</a>
-
+<a href="/windows/desktop/api/authz/nf-authz-authzuninstallsecurityeventsource">AuthzUninstallSecurityEventSource</a>

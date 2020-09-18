@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-The <b>AVIBuildFilter</b> function builds a filter specification that is subsequently used by the <a href="https://msdn.microsoft.com/library/ms646927.aspx">GetOpenFileName</a> or <a href="https://msdn.microsoft.com/library/ms646928.aspx">GetSaveFileName</a> function.
+The <b>AVIBuildFilter</b> function builds a filter specification that is subsequently used by the <a href="/windows/win32/api/commdlg/nf-commdlg-getopenfilenamea">GetOpenFileName</a> or <a href="/windows/win32/api/commdlg/nf-commdlg-getsavefilenamea">GetSaveFileName</a> function.
 
 ## -parameters
 
@@ -114,9 +114,8 @@ This function accesses the registry for all filter types that the AVIFile librar
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/avifile-functions">AVIFile Functions</a>
+<a href="/windows/desktop/Multimedia/avifile-functions">AVIFile Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/avifile-functions-and-macros">AVIFile Functions and Macros</a>
-
+<a href="/windows/desktop/Multimedia/avifile-functions-and-macros">AVIFile Functions and Macros</a>

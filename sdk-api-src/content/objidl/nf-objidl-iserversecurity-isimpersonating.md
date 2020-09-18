@@ -60,5 +60,4 @@ If the thread is currently impersonating, the return value is <b>TRUE</b>. Other
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-iserversecurity">IServerSecurity</a>
-
+<a href="/windows/desktop/api/objidl/nn-objidl-iserversecurity">IServerSecurity</a>

@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>SetCADistinguishedName</b> method sets a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certification authority</a> (CA) common name and an optional distinguished name suffix.
+The <b>SetCADistinguishedName</b> method sets a <a href="/windows/desktop/SecGloss/c-gly">certification authority</a> (CA) common name and an optional distinguished name suffix.
 
 ## -parameters
 
@@ -109,7 +109,7 @@ A value that indicates whether to allow Unicode encoding of the name information
 
 ### -param bOverwriteExistingKey [in]
 
-A value that indicates whether to allow the name in <i>bstrCADN</i>, even though a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">private key</a> with the same name exists on the computer. A value of <b>VARIANT_TRUE</b> enables the method to overwrite the existing key.
+A value that indicates whether to allow the name in <i>bstrCADN</i>, even though a <a href="/windows/desktop/SecGloss/p-gly">private key</a> with the same name exists on the computer. A value of <b>VARIANT_TRUE</b> enables the method to overwrite the existing key.
 
 ### -param bOverwriteExistingCAInDS [in]
 
@@ -119,13 +119,12 @@ A value that indicates whether to allow the name in <i>bstrCADN</i>, even though
 
 Upon success, the <b>SetCADistinguishedName</b> method changes the <b>ENUM_SETUPPROP_CANAME</b> and <b>ENUM_SETUPPROP_CADSSUFFIX</b> property values to reflect the <i>bstrCADN</i> name. For more information about setup properties, see <a href="/windows/win32/api/casetup/ne-casetup-casetupproperty">CASetupProperty</a>.
 
-Upon failure, the <b>SetCADistinguishedName</b> method might set additional error information in the <a href="https://docs.microsoft.com/windows/desktop/api/casetup/nf-casetup-icertsrvsetup-get_caerrorid">CAErrorId</a> and <a href="https://docs.microsoft.com/windows/desktop/api/casetup/nf-casetup-icertsrvsetup-get_caerrorstring">CAErrorString</a> properties.
+Upon failure, the <b>SetCADistinguishedName</b> method might set additional error information in the <a href="/windows/desktop/api/casetup/nf-casetup-icertsrvsetup-get_caerrorid">CAErrorId</a> and <a href="/windows/desktop/api/casetup/nf-casetup-icertsrvsetup-get_caerrorstring">CAErrorString</a> properties.
 
-If an existing key and its associated certificate are being used to configure the CA, this method must not be called. If an existing key is being used  to configure the CA, without using the associated certificate, the common name in <i>bstrCADN</i> must match the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">sanitized</a> <b>ContainerName</b> of the key. 
+If an existing key and its associated certificate are being used to configure the CA, this method must not be called. If an existing key is being used  to configure the CA, without using the associated certificate, the common name in <i>bstrCADN</i> must match the <a href="/windows/desktop/SecGloss/s-gly">sanitized</a> <b>ContainerName</b> of the key. 
 
 If <i>bstrCADN</i> includes UTF8 encoding, set the appropriate flag in CAPolicy.inf and place it in the  %windir%.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/casetup/nn-casetup-icertsrvsetup">ICertSrvSetup</a>
-
+<a href="/windows/desktop/api/casetup/nn-casetup-icertsrvsetup">ICertSrvSetup</a>

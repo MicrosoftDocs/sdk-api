@@ -66,9 +66,9 @@ Handle to the activation context that is to be deactivated.
 If the function succeeds, it returns <b>TRUE</b>. If a <b>null</b> handle is passed in the <i>hActCtx</i> parameter, NULL_INVALID_PARAMETER will be returned. Otherwise, it returns <b>FALSE</b>.
 
 This function sets errors that can be retrieved by calling 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. For an example, see 
-<a href="https://docs.microsoft.com/windows/desktop/Debug/retrieving-the-last-error-code">Retrieving the Last-Error Code</a>. For a complete list of error codes, see 
-<a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">System Error Codes</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. For an example, see 
+<a href="/windows/desktop/Debug/retrieving-the-last-error-code">Retrieving the Last-Error Code</a>. For a complete list of error codes, see 
+<a href="/windows/desktop/Debug/system-error-codes">System Error Codes</a>.
 
 ## -remarks
 
@@ -76,5 +76,4 @@ This function is intended for use in debugging threads using activation contexts
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-actctxa">ACTCTX</a>
-
+<a href="/windows/desktop/api/winbase/ns-winbase-actctxa">ACTCTX</a>

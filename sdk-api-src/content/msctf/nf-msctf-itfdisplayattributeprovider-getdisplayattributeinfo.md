@@ -60,7 +60,7 @@ Contains a GUID value that identifies the display attribute to obtain the displa
 
 ### -param ppInfo [out]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfdisplayattributeinfo">ITfDisplayAttributeInfo</a> interface pointer that receives the display attribute information object.
+Pointer to an <a href="/windows/desktop/api/msctf/nn-msctf-itfdisplayattributeinfo">ITfDisplayAttributeInfo</a> interface pointer that receives the display attribute information object.
 
 ## -returns
 
@@ -119,19 +119,18 @@ A memory allocation failure occurred.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcategorymgr-registercategory">ITfCategoryMgr::RegisterCategory
+<a href="/windows/desktop/api/msctf/nf-msctf-itfcategorymgr-registercategory">ITfCategoryMgr::RegisterCategory
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfdisplayattributeinfo">ITfDisplayAttributeInfo
+<a href="/windows/desktop/api/msctf/nn-msctf-itfdisplayattributeinfo">ITfDisplayAttributeInfo
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfdisplayattributeprovider">ITfDisplayAttributeProvider</a>
+<a href="/windows/desktop/api/msctf/nn-msctf-itfdisplayattributeprovider">ITfDisplayAttributeProvider</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/TSF/providing-display-attributes">Providing Display Attributes</a>
-
+<a href="/windows/desktop/TSF/providing-display-attributes">Providing Display Attributes</a>

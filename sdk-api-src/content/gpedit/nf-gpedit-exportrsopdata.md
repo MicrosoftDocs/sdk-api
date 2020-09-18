@@ -52,7 +52,7 @@ api_name:
 
 The
     <b>ExportRSoPData</b> function exports a WMI namespace that contains RSoP information to a data file. The function writes the information to a data file that can be imported to a WMI namespace with a call to the 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpedit/nf-gpedit-importrsopdata">ImportRSoPData</a> function.
+<a href="/previous-versions/windows/desktop/api/gpedit/nf-gpedit-importrsopdata">ImportRSoPData</a> function.
 
 ## -parameters
 
@@ -75,15 +75,14 @@ It is recommended that you call the
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/Policy/group-policy-functions">Group Policy
+<a href="/previous-versions/windows/desktop/Policy/group-policy-functions">Group Policy
     Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/Policy/about-group-policy">Group Policy
+<a href="/previous-versions/windows/desktop/Policy/about-group-policy">Group Policy
     Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpedit/nf-gpedit-importrsopdata">ImportRSoPData</a>
-
+<a href="/previous-versions/windows/desktop/api/gpedit/nf-gpedit-importrsopdata">ImportRSoPData</a>

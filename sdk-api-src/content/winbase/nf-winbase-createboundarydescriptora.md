@@ -74,27 +74,26 @@ This parameter is reserved for future use.
 If the function succeeds, the return value is a handle to the boundary descriptor.
 
 If the function fails, the return value is <b>NULL</b>. To get extended error information, call 
-       <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+       <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
-A new boundary descriptor must have at least one security identifier (SID). To add a SID to a boundary descriptor, use the <a href="https://docs.microsoft.com/windows/desktop/api/namespaceapi/nf-namespaceapi-addsidtoboundarydescriptor">AddSIDToBoundaryDescriptor</a> function.
+A new boundary descriptor must have at least one security identifier (SID). To add a SID to a boundary descriptor, use the <a href="/windows/desktop/api/namespaceapi/nf-namespaceapi-addsidtoboundarydescriptor">AddSIDToBoundaryDescriptor</a> function.
 
 To compile an application that uses this function, define <b>_WIN32_WINNT</b> as 0x0600 or later.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/namespaceapi/nf-namespaceapi-addsidtoboundarydescriptor">AddSIDToBoundaryDescriptor</a>
+<a href="/windows/desktop/api/namespaceapi/nf-namespaceapi-addsidtoboundarydescriptor">AddSIDToBoundaryDescriptor</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-createprivatenamespacea">CreatePrivateNamespace</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-createprivatenamespacea">CreatePrivateNamespace</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/namespaceapi/nf-namespaceapi-deleteboundarydescriptor">DeleteBoundaryDescriptor</a>
+<a href="/windows/desktop/api/namespaceapi/nf-namespaceapi-deleteboundarydescriptor">DeleteBoundaryDescriptor</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Sync/object-namespaces">Object Namespaces</a>
-
+<a href="/windows/desktop/Sync/object-namespaces">Object Namespaces</a>

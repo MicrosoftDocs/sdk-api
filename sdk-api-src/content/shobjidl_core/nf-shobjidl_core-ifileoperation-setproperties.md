@@ -56,9 +56,9 @@ Declares a set of properties and values to be set on an item or items.
 
 ### -param pproparray [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/propsys/nn-propsys-ipropertychangearray">IPropertyChangeArray</a>*</b>
+Type: <b><a href="/windows/desktop/api/propsys/nn-propsys-ipropertychangearray">IPropertyChangeArray</a>*</b>
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/propsys/nn-propsys-ipropertychangearray">IPropertyChangeArray</a>, which accesses a collection of <a href="https://docs.microsoft.com/windows/desktop/api/propsys/nn-propsys-ipropertychange">IPropertyChange</a> objects that specify the properties to be set and their new values.
+Pointer to an <a href="/windows/desktop/api/propsys/nn-propsys-ipropertychangearray">IPropertyChangeArray</a>, which accesses a collection of <a href="/windows/desktop/api/propsys/nn-propsys-ipropertychange">IPropertyChange</a> objects that specify the properties to be set and their new values.
 
 ## -returns
 
@@ -74,7 +74,6 @@ This method does not set the new property values, it merely declares them. To se
 
 <ol>
 <li>Call <b>IFileOperation::SetProperties</b> to declare the specific properties to be set and their new values.</li>
-<li>Call <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifileoperation-applypropertiestoitem">IFileOperation::ApplyPropertiesToItem</a> or <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifileoperation-applypropertiestoitems">IFileOperation::ApplyPropertiesToItems</a> to declare the item or items whose properties are to be set.</li>
-<li>Call <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifileoperation-performoperations">IFileOperation::PerformOperations</a> to apply the properties to the item or items.</li>
+<li>Call <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifileoperation-applypropertiestoitem">IFileOperation::ApplyPropertiesToItem</a> or <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifileoperation-applypropertiestoitems">IFileOperation::ApplyPropertiesToItems</a> to declare the item or items whose properties are to be set.</li>
+<li>Call <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifileoperation-performoperations">IFileOperation::PerformOperations</a> to apply the properties to the item or items.</li>
 </ol>
-

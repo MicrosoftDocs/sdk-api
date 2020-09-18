@@ -51,7 +51,7 @@ api_name:
 ## -description
 
 Returns the "Endpoints" defined within the metadata object documents.
-            Calling this function with <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_metadata_state">WS_METADATA_STATE</a>set to <b>WS_METADATA_STATE_CREATED</b> will cause the metadata object to resolve
+            Calling this function with <a href="/windows/desktop/api/webservices/ne-webservices-ws_metadata_state">WS_METADATA_STATE</a>set to <b>WS_METADATA_STATE_CREATED</b> will cause the metadata object to resolve
                 all references in the metadata documents. Any
                 additional document validation will also be done.  If this process is
                 successful  the metadata object will be set to <b>WS_METADATA_STATE_RESOLVED</b> and  subsequent document additions to the metadata object are not permitted.   If there is an error the metadata object 
@@ -66,7 +66,7 @@ Returns the "Endpoints" defined within the metadata object documents.
 
 ### -param metadata [in]
 
-A pointer to a <b>Metadata</b> object containing the desired Endpoints.  This parameter must be a valid <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-metadata">WS_METADATA</a> object.
+A pointer to a <b>Metadata</b> object containing the desired Endpoints.  This parameter must be a valid <a href="/windows/desktop/wsw/ws-metadata">WS_METADATA</a> object.
 
 ### -param endpoints [out]
 
@@ -76,7 +76,7 @@ On success this pointer parameter
 
 ### -param error [in, optional]
 
-A  pointer to a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-error">WS_ERROR</a> object where additional information about the error should be stored if the function fails.
+A  pointer to a <a href="/windows/desktop/wsw/ws-error">WS_ERROR</a> object where additional information about the error should be stored if the function fails.
 
 ## -returns
 
@@ -128,6 +128,5 @@ This property may be used in <b>WS_METADATA_STATE_CREATED</b>or <b>WS_METADATA_S
             
 
 This function will fail if there are missing metadata documents.
-                Use <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsgetmissingmetadatadocumentaddress">WsGetMissingMetadataDocumentAddress</a> to determine
+                Use <a href="/windows/desktop/api/webservices/nf-webservices-wsgetmissingmetadatadocumentaddress">WsGetMissingMetadataDocumentAddress</a> to determine
                 the address of any missing documents.
-

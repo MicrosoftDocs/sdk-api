@@ -56,11 +56,11 @@ Retrieves a specified user from the array.
 
 ### -param userIndex [in]
 
-The 0-based array index of the user. The size of the array can be obtained through the <a href="https://docs.microsoft.com/windows/desktop/api/credentialprovider/nf-credentialprovider-icredentialprovideruserarray-getcount">GetCount</a> method.
+The 0-based array index of the user. The size of the array can be obtained through the <a href="/windows/desktop/api/credentialprovider/nf-credentialprovider-icredentialprovideruserarray-getcount">GetCount</a> method.
 
 ### -param user [out]
 
-The address of a pointer to an object that, when this method returns successfully, represents the specified user. It is the responsibility of the caller to free this object when it is no longer needed by calling its <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">Release</a> method.
+The address of a pointer to an object that, when this method returns successfully, represents the specified user. It is the responsibility of the caller to free this object when it is no longer needed by calling its <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">Release</a> method.
 
 ## -returns
 
@@ -86,5 +86,4 @@ The index specified in <i>userIndex</i> is out of range.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/credentialprovider/nn-credentialprovider-icredentialprovideruserarray">ICredentialProviderUserArray</a>
-
+<a href="/windows/desktop/api/credentialprovider/nn-credentialprovider-icredentialprovideruserarray">ICredentialProviderUserArray</a>

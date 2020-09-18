@@ -50,23 +50,22 @@ api_name:
 
 ## -description
 
-Adds a string to a list box. If the list box does not have the <a href="https://docs.microsoft.com/windows/desktop/Controls/list-box-styles">LBS_SORT</a> style, the string is added to the end of the list. Otherwise, the string is inserted into the list and the list is sorted. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/lb-addstring">LB_ADDSTRING</a> message explicitly.
+Adds a string to a list box. If the list box does not have the <a href="/windows/desktop/Controls/list-box-styles">LBS_SORT</a> style, the string is added to the end of the list. Otherwise, the string is inserted into the list and the list is sorted. You can use this macro or send the <a href="/windows/desktop/Controls/lb-addstring">LB_ADDSTRING</a> message explicitly.
 
 ## -parameters
 
 ### -param hwndCtl
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the control.
 
 ### -param lpsz
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPCSTR</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">LPCSTR</a></b>
 
 The string to add.
 
 ## -remarks
 
-For more information, see <a href="https://docs.microsoft.com/windows/desktop/Controls/lb-addstring">LB_ADDSTRING</a>.
-
+For more information, see <a href="/windows/desktop/Controls/lb-addstring">LB_ADDSTRING</a>.

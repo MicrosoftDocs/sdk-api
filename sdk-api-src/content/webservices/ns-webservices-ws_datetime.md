@@ -60,7 +60,7 @@ Represents dates and times with values ranging from 12:00:00 midnight,
         December 31, 9999 A.D. (C.E.) to an accuracy of 100 nanoseconds.
       
 
-The functions <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsdatetimetofiletime">WsDateTimeToFileTime</a> and <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsfiletimetodatetime">WsFileTimeToDateTime</a> 
+The functions <a href="/windows/desktop/api/webservices/nf-webservices-wsdatetimetofiletime">WsDateTimeToFileTime</a> and <a href="/windows/desktop/api/webservices/nf-webservices-wsfiletimetodatetime">WsFileTimeToDateTime</a> 
         can be used to convert a <b>WS_DATETIME</b> to and from a FILETIME.
 
 ## -struct-fields
@@ -74,4 +74,3 @@ The time in 100 nanosecond units, with 0 representing 12:00:00 midnight January 
 ### -field format
 
 The format that is used when representing this time as text.
-

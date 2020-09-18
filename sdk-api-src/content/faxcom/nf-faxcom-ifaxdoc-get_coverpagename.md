@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-Sets or retrieves the <b>CoverpageName</b> property for a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxdoc">FaxDoc</a> object. The <b>CoverpageName</b> property is a null-terminated string that contains the name of the cover page template file (.cov) associated with the object.
+Sets or retrieves the <b>CoverpageName</b> property for a <a href="/previous-versions/windows/desktop/fax/-mfax-faxdoc">FaxDoc</a> object. The <b>CoverpageName</b> property is a null-terminated string that contains the name of the cover page template file (.cov) associated with the object.
 
 This property is read/write.
 
@@ -67,35 +67,34 @@ To send a cover page with a fax document, the following are required:
 <li>The <b>SendCoverpage</b> property must be equal to <b>TRUE</b>.</li>
 <li>The <b>CoverpageName</b> property must specify a valid cover page file.</li>
 </ul>
-In addition, the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-ifaxdoc-get-servercoverpage-vb">ServerCoverpage</a> property must be equal to <b>TRUE</b> if the cover page file is a common cover page file. 
+In addition, the <a href="/previous-versions/windows/desktop/fax/-mfax-ifaxdoc-get-servercoverpage-vb">ServerCoverpage</a> property must be equal to <b>TRUE</b> if the cover page file is a common cover page file. 
 
-You can call the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-ifaxserver-get-servercoverpage-vb">ServerCoverpage</a> method to determine whether the fax server is configured to permit personal cover pages.
+You can call the <a href="/previous-versions/windows/desktop/fax/-mfax-ifaxserver-get-servercoverpage-vb">ServerCoverpage</a> method to determine whether the fax server is configured to permit personal cover pages.
 
-The <b>IFaxDoc::get_CoverpageName</b> method allocates the memory required for the buffer pointed to by the <i>pVal</i> parameter. The client application must call the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a> function to deallocate the resources associated with this parameter. For more information, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-freeing-fax-resources">Freeing Fax Resources</a>.
+The <b>IFaxDoc::get_CoverpageName</b> method allocates the memory required for the buffer pointed to by the <i>pVal</i> parameter. The client application must call the <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a> function to deallocate the resources associated with this parameter. For more information, see <a href="/previous-versions/windows/desktop/fax/-mfax-freeing-fax-resources">Freeing Fax Resources</a>.
 
-For more information, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-cover-pages">Cover Pages</a> and <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-sending-a-cover-page">Sending a Cover Page</a>.
+For more information, see <a href="/previous-versions/windows/desktop/fax/-mfax-cover-pages">Cover Pages</a> and <a href="/previous-versions/windows/desktop/fax/-mfax-sending-a-cover-page">Sending a Cover Page</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-fax-service-client-api-interfaces">Fax Service Client API Interfaces</a>
+<a href="/previous-versions/windows/desktop/fax/-mfax-fax-service-client-api-interfaces">Fax Service Client API Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-fax-service-client-api-for-windows-2000">Fax Service Client API for Windows 2000</a>
+<a href="/previous-versions/windows/desktop/fax/-mfax-fax-service-client-api-for-windows-2000">Fax Service Client API for Windows 2000</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcom/nn-faxcom-ifaxdoc">IFaxDoc</a>
+<a href="/previous-versions/windows/desktop/api/faxcom/nn-faxcom-ifaxdoc">IFaxDoc</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-ifaxdoc-get-filename-vb">IFaxDoc::get_FileName</a>
+<a href="/previous-versions/windows/desktop/fax/-mfax-ifaxdoc-get-filename-vb">IFaxDoc::get_FileName</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-ifaxdoc-get-servercoverpage-vb">IFaxDoc::get_ServerCoverpage</a>
+<a href="/previous-versions/windows/desktop/fax/-mfax-ifaxdoc-get-servercoverpage-vb">IFaxDoc::get_ServerCoverpage</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a>
-
+<a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a>

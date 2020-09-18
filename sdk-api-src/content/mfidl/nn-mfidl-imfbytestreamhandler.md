@@ -55,7 +55,7 @@ Creates a media source from a byte stream.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFByteStreamHandler</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFByteStreamHandler</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFByteStreamHandler</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFByteStreamHandler</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>IMFByteStreamHandler</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfbytestreamhandler-begincreateobject">BeginCreateObject</a>
+<a href="/windows/desktop/api/mfidl/nf-mfidl-imfbytestreamhandler-begincreateobject">BeginCreateObject</a>
 </td>
 <td align="left" width="63%">
 Begins an asynchronous request to create a media source from a byte stream.
@@ -79,7 +79,7 @@ Begins an asynchronous request to create a media source from a byte stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfbytestreamhandler-cancelobjectcreation">CancelObjectCreation</a>
+<a href="/windows/desktop/api/mfidl/nf-mfidl-imfbytestreamhandler-cancelobjectcreation">CancelObjectCreation</a>
 </td>
 <td align="left" width="63%">
 Cancels the current request to create a media source.
@@ -88,7 +88,7 @@ Cancels the current request to create a media source.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfbytestreamhandler-endcreateobject">EndCreateObject</a>
+<a href="/windows/desktop/api/mfidl/nf-mfidl-imfbytestreamhandler-endcreateobject">EndCreateObject</a>
 </td>
 <td align="left" width="63%">
 Completes an asynchronous request to create a media source.
@@ -97,7 +97,7 @@ Completes an asynchronous request to create a media source.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfbytestreamhandler-getmaxnumberofbytesrequiredforresolution">GetMaxNumberOfBytesRequiredForResolution</a>
+<a href="/windows/desktop/api/mfidl/nf-mfidl-imfbytestreamhandler-getmaxnumberofbytesrequiredforresolution">GetMaxNumberOfBytesRequiredForResolution</a>
 </td>
 <td align="left" width="63%">
 Retrieves the maximum number of bytes needed to create the media source or determine that the byte stream handler cannot parse this stream.
@@ -112,9 +112,8 @@ Applications do not use this interface directly. This interface is exposed by by
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
+<a href="/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/scheme-handlers-and-byte-stream-handlers">Scheme Handlers and Byte-Stream Handlers</a>
-
+<a href="/windows/desktop/medfound/scheme-handlers-and-byte-stream-handlers">Scheme Handlers and Byte-Stream Handlers</a>

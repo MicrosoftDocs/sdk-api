@@ -77,7 +77,7 @@ Type: <b>DWORD</b>
 
 A set of user account flags. This member can be one or more of the following values. 
 
-Note that setting  user account control flags may require certain <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/privileges">privileges</a> and <a href="https://docs.microsoft.com/windows/desktop/AD/control-access-rights">control access rights</a>. For more information, see the Remarks section of the <a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/nf-lmaccess-netusersetinfo">NetUserSetInfo</a> function.
+Note that setting  user account control flags may require certain <a href="/windows/desktop/SecAuthZ/privileges">privileges</a> and <a href="/windows/desktop/AD/control-access-rights">control access rights</a>. For more information, see the Remarks section of the <a href="/windows/desktop/api/lmaccess/nf-lmaccess-netusersetinfo">NetUserSetInfo</a> function.
 
 <table>
 <tr>
@@ -131,7 +131,7 @@ The user cannot change the password.
 </td>
 <td width="60%">
 The account is currently locked out (blocked). For the 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/nf-lmaccess-netusersetinfo">NetUserSetInfo</a> function, this value can be cleared to unlock a previously locked account. This value cannot be used to lock a previously unlocked account.
+<a href="/windows/desktop/api/lmaccess/nf-lmaccess-netusersetinfo">NetUserSetInfo</a> function, this value can be cleared to unlock a previously locked account. This value cannot be used to lock a previously unlocked account.
 
 </td>
 </tr>
@@ -233,7 +233,7 @@ The password will never expire on the account.
  
 
 The following values describe the account type. Only one value can be set. You cannot change the account type using the 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/nf-lmaccess-netusersetinfo">NetUserSetInfo</a> function.
+<a href="/windows/desktop/api/lmaccess/nf-lmaccess-netusersetinfo">NetUserSetInfo</a> function.
 
 <table>
 <tr>
@@ -303,38 +303,37 @@ A pointer to a Unicode string that contains the full name of the user. This stri
 Type: <b>DWORD</b>
 
 The relative identifier (RID) of the user. The relative identifier is determined by the accounts database when the user is created. It uniquely defines this user account to the account manager within the domain. For more information about relative identifiers, see 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/sid-components">SID Components</a>.
+<a href="/windows/desktop/SecAuthZ/sid-components">SID Components</a>.
 
 ### -field usri1_next_index
 
 Type: <b>DWORD</b>
 
 The index of the last entry returned by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/nf-lmaccess-netquerydisplayinformation">NetQueryDisplayInformation</a> function. Pass this value as the <i>Index</i> parameter to 
+<a href="/windows/desktop/api/lmaccess/nf-lmaccess-netquerydisplayinformation">NetQueryDisplayInformation</a> function. Pass this value as the <i>Index</i> parameter to 
 <b>NetQueryDisplayInformation</b> to return the next logical entry. Note that you should not use the value of this member for any purpose except to retrieve more data with additional calls to 
 <b>NetQueryDisplayInformation</b>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/get-functions">Get Functions</a>
+<a href="/windows/desktop/NetMgmt/get-functions">Get Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/nf-lmaccess-netquerydisplayinformation">NetQueryDisplayInformation</a>
+<a href="/windows/desktop/api/lmaccess/nf-lmaccess-netquerydisplayinformation">NetQueryDisplayInformation</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/nf-lmaccess-netuseradd">NetUserAdd</a>
+<a href="/windows/desktop/api/lmaccess/nf-lmaccess-netuseradd">NetUserAdd</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/nf-lmaccess-netusersetinfo">NetUserSetInfo</a>
+<a href="/windows/desktop/api/lmaccess/nf-lmaccess-netusersetinfo">NetUserSetInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management">Network Management Overview</a>
+<a href="/windows/desktop/NetMgmt/network-management">Network Management Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management-structures">Network Management Structures</a>
-
+<a href="/windows/desktop/NetMgmt/network-management-structures">Network Management Structures</a>

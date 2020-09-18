@@ -51,13 +51,13 @@ api_name:
 
 ## -description
 
-The <code>GetOutputFormat</code> method retrieves the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/line-21-decoder-filter">Line 21 Decoder</a> filter's output format.
+The <code>GetOutputFormat</code> method retrieves the <a href="/windows/desktop/DirectShow/line-21-decoder-filter">Line 21 Decoder</a> filter's output format.
 
 ## -parameters
 
 ### -param lpbmih
 
-Pointer to a caller-allocated <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-bitmapinfoheader">BITMAPINFOHEADER</a> structure.
+Pointer to a caller-allocated <a href="/windows/desktop/api/wingdi/ns-wingdi-bitmapinfoheader">BITMAPINFOHEADER</a> structure.
 
 ## -returns
 
@@ -105,9 +105,8 @@ The output format has not been set.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/il21dec/nn-il21dec-iamline21decoder">IAMLine21Decoder Interface</a>
-
+<a href="/windows/desktop/api/il21dec/nn-il21dec-iamline21decoder">IAMLine21Decoder Interface</a>

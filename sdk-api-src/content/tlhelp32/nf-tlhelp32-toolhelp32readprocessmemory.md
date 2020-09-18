@@ -80,13 +80,12 @@ Returns <b>TRUE</b> if successful.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tlhelp32/nf-tlhelp32-process32first">Process32First</a>
+<a href="/windows/desktop/api/tlhelp32/nf-tlhelp32-process32first">Process32First</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tlhelp32/nf-tlhelp32-process32next">Process32Next</a>
+<a href="/windows/desktop/api/tlhelp32/nf-tlhelp32-process32next">Process32Next</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/ToolHelp/tool-help-functions">Tool Help Functions</a>
-
+<a href="/windows/desktop/ToolHelp/tool-help-functions">Tool Help Functions</a>

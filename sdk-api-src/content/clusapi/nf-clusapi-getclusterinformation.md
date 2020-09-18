@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-Retrieves a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/c-gly">cluster's</a> name and version. The <b>PCLUSAPI_GET_CLUSTER_INFORMATION</b> type defines a pointer to this function.
+Retrieves a <a href="/previous-versions/windows/desktop/mscs/c-gly">cluster's</a> name and version. The <b>PCLUSAPI_GET_CLUSTER_INFORMATION</b> type defines a pointer to this function.
 
 ## -parameters
 
@@ -77,8 +77,8 @@ Pointer to the size of the <i>lpszClusterName</i> buffer as a count of character
 ### -param lpClusterInfo [out, optional]
 
 Either <b>NULL</b> or a pointer to a 
-      <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clusterversioninfo">CLUSTERVERSIONINFO</a> structure describing the version 
-      of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-service">Cluster service</a>. When 
+      <a href="/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clusterversioninfo">CLUSTERVERSIONINFO</a> structure describing the version 
+      of the <a href="/previous-versions/windows/desktop/mscs/cluster-service">Cluster service</a>. When 
       <i>lpClusterInfo</i> is not <b>NULL</b>, the 
       <b>dwVersionInfoSize</b> member of this structure should be set as follows: 
       <code>lpClusterInfo-&gt;dwVersionInfoSize = sizeof(CLUSTERVERSIONINFO);</code>
@@ -88,7 +88,7 @@ Either <b>NULL</b> or a pointer to a
 If the operation succeeds, the function returns <b>ERROR_SUCCESS</b> (0).
 
 If the operation fails, the function returns a 
-       <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a>. The following is one of the 
+       <a href="/windows/desktop/Debug/system-error-codes">system error code</a>. The following is one of the 
        possible values.
 
 <table>
@@ -116,9 +116,8 @@ The buffer pointed to by <i>lpszClusterName</i> is not big enough to hold the re
 Note that <i>lpcchClusterName</i> refers to a count of characters and not a count of bytes, 
     and that the returned size does not include the terminating <b>NULL</b> in the count. For more 
     information on sizing buffers, see 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/data-size-conventions">Data Size Conventions</a>.
+    <a href="/previous-versions/windows/desktop/mscs/data-size-conventions">Data Size Conventions</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clusterversioninfo">CLUSTERVERSIONINFO</a>
-
+<a href="/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clusterversioninfo">CLUSTERVERSIONINFO</a>

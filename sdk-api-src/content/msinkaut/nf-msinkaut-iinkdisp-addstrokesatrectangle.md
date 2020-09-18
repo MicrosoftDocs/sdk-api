@@ -51,17 +51,17 @@ api_name:
 
 ## -description
 
-Adds a specified <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)">Strokes</a> collection into this <a href="https://docs.microsoft.com/windows/desktop/tablet/inkdisp-class">InkDisp</a> object at a specified rectangle.
+Adds a specified <a href="/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)">Strokes</a> collection into this <a href="/windows/desktop/tablet/inkdisp-class">InkDisp</a> object at a specified rectangle.
 
 ## -parameters
 
 ### -param SourceStrokes [in]
 
- The strokes to add to the ink. These source strokes are appended to this <a href="https://docs.microsoft.com/windows/desktop/tablet/inkdisp-class">InkDisp</a> object.
+ The strokes to add to the ink. These source strokes are appended to this <a href="/windows/desktop/tablet/inkdisp-class">InkDisp</a> object.
 
 ### -param TargetRectangle [in]
 
- The <a href="https://docs.microsoft.com/windows/desktop/tablet/inkrectangle-class">InkRectangle</a> in ink space coordinates where the strokes are added. A run-time error occurs if the coordinates of the rectangle are {0,0,0,0}.
+ The <a href="/windows/desktop/tablet/inkrectangle-class">InkRectangle</a> in ink space coordinates where the strokes are added. A run-time error occurs if the coordinates of the rectangle are {0,0,0,0}.
 
 ## -returns
 
@@ -144,7 +144,7 @@ The rectangle's top and bottom are equal.
 
 When inserted, the strokes are scaled from the bounding box of the strokes to the rectangle.
 
-This method can be used to copy strokes within a single <a href="https://docs.microsoft.com/windows/desktop/tablet/inkdisp-class">InkDisp</a> object. The source ink strokes do not have to come from another <b>InkDisp</b> object.
+This method can be used to copy strokes within a single <a href="/windows/desktop/tablet/inkdisp-class">InkDisp</a> object. The source ink strokes do not have to come from another <b>InkDisp</b> object.
 
 ## -see-also
 
@@ -152,9 +152,8 @@ This method can be used to copy strokes within a single <a href="https://docs.mi
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/tablet/inkdisp-class">InkDisp Class</a>
+<a href="/windows/desktop/tablet/inkdisp-class">InkDisp Class</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)">InkStrokes Collection</a>
-
+<a href="/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)">InkStrokes Collection</a>

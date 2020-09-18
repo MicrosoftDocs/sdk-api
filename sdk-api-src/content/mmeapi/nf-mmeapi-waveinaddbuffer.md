@@ -62,7 +62,7 @@ Handle to the waveform-audio input device.
 
 ### -param pwh
 
-Pointer to a <a href="https://docs.microsoft.com/previous-versions/dd743837(v=vs.85)">WAVEHDR</a> structure that identifies the buffer.
+Pointer to a <a href="/previous-versions/dd743837(v=vs.85)">WAVEHDR</a> structure that identifies the buffer.
 
 ### -param cbwh
 
@@ -131,9 +131,8 @@ The buffer must be prepared with the <b>waveInPrepareHeader</b> function before 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/waveform-audio">Waveform Audio</a>
+<a href="/windows/desktop/Multimedia/waveform-audio">Waveform Audio</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/waveform-functions">Waveform Functions</a>
-
+<a href="/windows/desktop/Multimedia/waveform-functions">Waveform Functions</a>

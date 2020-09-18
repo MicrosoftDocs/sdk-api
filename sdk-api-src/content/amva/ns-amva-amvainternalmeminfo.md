@@ -64,9 +64,8 @@ Amount of scratch memory the HAL will allocate for its private use.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/directshow-structures">DirectShow Structures</a>
+<a href="/windows/desktop/DirectShow/directshow-structures">DirectShow Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/videoacc/nf-videoacc-iamvideoaccelerator-getinternalmeminfo">IAMVideoAccelerator::GetInternalMemInfo</a>
-
+<a href="/windows/desktop/api/videoacc/nf-videoacc-iamvideoaccelerator-getinternalmeminfo">IAMVideoAccelerator::GetInternalMemInfo</a>

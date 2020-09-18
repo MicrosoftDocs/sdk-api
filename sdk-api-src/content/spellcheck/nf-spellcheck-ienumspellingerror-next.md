@@ -56,7 +56,7 @@ Gets the next spelling error.
 
 ### -param value [out, retval]
 
-The spelling error (<a href="https://docs.microsoft.com/windows/desktop/api/spellcheck/nn-spellcheck-ispellingerror">ISpellingError</a>) returned.
+The spelling error (<a href="/windows/desktop/api/spellcheck/nn-spellcheck-ispellingerror">ISpellingError</a>) returned.
 
 ## -returns
 
@@ -85,7 +85,7 @@ Successful.
 </dl>
 </td>
 <td width="60%">
-There is no spelling error left to return.  <i>value</i> does not point at a valid <a href="https://docs.microsoft.com/windows/desktop/api/spellcheck/nn-spellcheck-ispellingerror">ISpellingError</a>.
+There is no spelling error left to return.  <i>value</i> does not point at a valid <a href="/windows/desktop/api/spellcheck/nn-spellcheck-ispellingerror">ISpellingError</a>.
 
 </td>
 </tr>
@@ -94,13 +94,12 @@ There is no spelling error left to return.  <i>value</i> does not point at a val
 ## -remarks
 
 If there are no spelling errors, this will return <b>S_FALSE</b>.
-This provides a way for a provider to implement spell checking lazily if desired—instead of doing the spell checking work on <a href="https://docs.microsoft.com/windows/desktop/api/spellcheck/nf-spellcheck-ispellchecker-check">ISpellCheckProvider::Check</a> and getting all the errors at once, you can do it only as needed when this method is called, getting one error per call.
+This provides a way for a provider to implement spell checking lazily if desired—instead of doing the spell checking work on <a href="/windows/desktop/api/spellcheck/nf-spellcheck-ispellchecker-check">ISpellCheckProvider::Check</a> and getting all the errors at once, you can do it only as needed when this method is called, getting one error per call.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/spellcheck/nn-spellcheck-ienumspellingerror">IEnumSpellingError</a>
+<a href="/windows/desktop/api/spellcheck/nn-spellcheck-ienumspellingerror">IEnumSpellingError</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/spellcheck/nn-spellcheck-ispellingerror">ISpellingError</a>
-
+<a href="/windows/desktop/api/spellcheck/nn-spellcheck-ispellingerror">ISpellingError</a>

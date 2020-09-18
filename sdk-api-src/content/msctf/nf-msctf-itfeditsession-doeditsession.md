@@ -56,7 +56,7 @@ Called to enable a text service to read and/or modify the contents of a context.
 
 ### -param ec [in]
 
-Contains a <a href="https://docs.microsoft.com/windows/desktop/TSF/tfeditcookie">TfEditCookie</a> value that uniquely identifies the edit session. This cookie is used to access the context with methods such as <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfrange-gettext">ITfRange::GetText</a>.
+Contains a <a href="/windows/desktop/TSF/tfeditcookie">TfEditCookie</a> value that uniquely identifies the edit session. This cookie is used to access the context with methods such as <a href="/windows/desktop/api/msctf/nf-msctf-itfrange-gettext">ITfRange::GetText</a>.
 
 ## -returns
 
@@ -93,20 +93,19 @@ An unspecified error occurred.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcontext-requesteditsession">ITfContext::RequestEditSession
+<a href="/windows/desktop/api/msctf/nf-msctf-itfcontext-requesteditsession">ITfContext::RequestEditSession
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfeditsession">ITfEditSession
+<a href="/windows/desktop/api/msctf/nn-msctf-itfeditsession">ITfEditSession
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfrange-gettext">ITfRange::GetText</a>
+<a href="/windows/desktop/api/msctf/nf-msctf-itfrange-gettext">ITfRange::GetText</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/TSF/tfeditcookie">TfEditCookie
+<a href="/windows/desktop/TSF/tfeditcookie">TfEditCookie
       </a>
-

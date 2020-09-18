@@ -70,9 +70,8 @@ Default constructor for <a href="https://msdn.microsoft.com/552002c1-0000-44a6-9
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmubyten4">XMUBYTEN4</a>
+<a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmubyten4">XMUBYTEN4</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/dxmath/xmubyten4-ctor">XMUBYTEN4 Constructors</a>
-
+<a href="/windows/desktop/dxmath/xmubyten4-ctor">XMUBYTEN4 Constructors</a>

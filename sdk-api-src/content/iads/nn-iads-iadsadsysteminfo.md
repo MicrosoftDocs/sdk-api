@@ -53,7 +53,7 @@ api_name:
 
 The <b>IADsADSystemInfo</b> interface retrieves data about the local computer if it is running a Windows operating system in a Windows domain. For example, you can get the domain, site, and distinguished name of the local computer.
 
-The <b>IADsADSystemInfo</b> interface is implemented on the <b>ADSystemInfo</b> object residing in adsldp.dll, which is included with the standard installation of ADSI on Windows 2000. You must explicitly create an instance of the <b>ADSystemInfo</b> object in order to call the methods on the <b>IADsADSystemInfo</b> interface. This requirement amounts to creating an <b>ADSystemInfo</b> instance with the  <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance">CoCreateInstance</a> function in C/C++.
+The <b>IADsADSystemInfo</b> interface is implemented on the <b>ADSystemInfo</b> object residing in adsldp.dll, which is included with the standard installation of ADSI on Windows 2000. You must explicitly create an instance of the <b>ADSystemInfo</b> object in order to call the methods on the <b>IADsADSystemInfo</b> interface. This requirement amounts to creating an <b>ADSystemInfo</b> instance with the  <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance">CoCreateInstance</a> function in C/C++.
 
 ```cpp
 IADsADSystemInfo *pADsys;
@@ -79,7 +79,7 @@ Set adSys = CreateObject("ADSystemInfo")
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IADsADSystemInfo</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IADsADSystemInfo</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IADsADSystemInfo</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IADsADSystemInfo</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -95,7 +95,7 @@ The <b>IADsADSystemInfo</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadsadsysteminfo-getanydcname">GetAnyDCName</a>
+<a href="/windows/desktop/api/iads/nf-iads-iadsadsysteminfo-getanydcname">GetAnyDCName</a>
 </td>
 <td align="left" width="63%">
 Retrieves the DNS name of a domain controller in the local computer domain.
@@ -104,7 +104,7 @@ Retrieves the DNS name of a domain controller in the local computer domain.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadsadsysteminfo-getdcsitename">GetDCSiteName</a>
+<a href="/windows/desktop/api/iads/nf-iads-iadsadsysteminfo-getdcsitename">GetDCSiteName</a>
 </td>
 <td align="left" width="63%">
 Retrieves the name of the local computer site.
@@ -113,7 +113,7 @@ Retrieves the name of the local computer site.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadsadsysteminfo-gettrees">GetTrees</a>
+<a href="/windows/desktop/api/iads/nf-iads-iadsadsysteminfo-gettrees">GetTrees</a>
 </td>
 <td align="left" width="63%">
 Retrieves the DNS names of all the directory trees in the local computer forest.
@@ -122,7 +122,7 @@ Retrieves the DNS names of all the directory trees in the local computer forest.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadsadsysteminfo-refreshschemacache">RefreshSchemaCache</a>
+<a href="/windows/desktop/api/iads/nf-iads-iadsadsysteminfo-refreshschemacache">RefreshSchemaCache</a>
 </td>
 <td align="left" width="63%">
 Refreshes the ADSI Active Directory schema cache on the local computer.
@@ -140,7 +140,7 @@ Refreshes the ADSI Active Directory schema cache on the local computer.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/iadsadsysteminfo-property-methods">ComputerName</a>
+<a href="/windows/desktop/ADSI/iadsadsysteminfo-property-methods">ComputerName</a>
 
 
 </td>
@@ -156,7 +156,7 @@ Retrieves the distinguished name of the local computer.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/iadsadsysteminfo-property-methods">DomainDNSName</a>
+<a href="/windows/desktop/ADSI/iadsadsysteminfo-property-methods">DomainDNSName</a>
 
 
 </td>
@@ -172,7 +172,7 @@ Retrieves the DNS name of the local computer domain, for example "example.fabrik
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/iadsadsysteminfo-property-methods">DomainShortName</a>
+<a href="/windows/desktop/ADSI/iadsadsysteminfo-property-methods">DomainShortName</a>
 
 
 </td>
@@ -188,7 +188,7 @@ Retrieves the short name of the local computer domain, for example "myDom".
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/iadsadsysteminfo-property-methods">ForestDNSName</a>
+<a href="/windows/desktop/ADSI/iadsadsysteminfo-property-methods">ForestDNSName</a>
 
 
 </td>
@@ -204,7 +204,7 @@ Retrieves the DNS name of the local computer forest.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/iadsadsysteminfo-property-methods">IsNativeMode</a>
+<a href="/windows/desktop/ADSI/iadsadsysteminfo-property-methods">IsNativeMode</a>
 
 
 </td>
@@ -220,7 +220,7 @@ Determines whether the local computer domain is in native or mixed mode.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/iadsadsysteminfo-property-methods">PDCRoleOwner</a>
+<a href="/windows/desktop/ADSI/iadsadsysteminfo-property-methods">PDCRoleOwner</a>
 
 
 </td>
@@ -236,7 +236,7 @@ Retrieves the distinguished name of the NTDS-DSA object for the DC that owns the
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/iadsadsysteminfo-property-methods">SchemaRoleOwner</a>
+<a href="/windows/desktop/ADSI/iadsadsysteminfo-property-methods">SchemaRoleOwner</a>
 
 
 </td>
@@ -252,7 +252,7 @@ Retrieves the distinguished name of the NTDS-DSA object for the DC that owns the
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/iadsadsysteminfo-property-methods">SiteName</a>
+<a href="/windows/desktop/ADSI/iadsadsysteminfo-property-methods">SiteName</a>
 
 
 </td>
@@ -268,7 +268,7 @@ Retrieves the site name of the local computer.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/iadsadsysteminfo-property-methods">UserName</a>
+<a href="/windows/desktop/ADSI/iadsadsysteminfo-property-methods">UserName</a>
 
 
 </td>
@@ -285,13 +285,12 @@ Retrieves the Active Directory distinguished name of the current user, which is 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance">CoCreateInstance</a>
+<a href="/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance">CoCreateInstance</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/iadsadsysteminfo-property-methods">IADsADSystemInfo Property Methods</a>
+<a href="/windows/desktop/ADSI/iadsadsysteminfo-property-methods">IADsADSystemInfo Property Methods</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
-
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>

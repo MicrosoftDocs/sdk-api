@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-Describes the color type used by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd372939(v=vs.85)">XPS_COLOR</a> structure.
+Describes the color type used by the <a href="/previous-versions/windows/desktop/dd372939(v=vs.85)">XPS_COLOR</a> structure.
 
 ## -enum-fields
 
@@ -71,4 +71,3 @@ The color value is specified using context color syntax.
 ## -see-also
 
 <a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
-

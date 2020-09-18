@@ -68,9 +68,8 @@ The high 64 bits of the virtual machine generation identifier.
 
 ## -remarks
 
-For info about the virtual machine generation identifier, see <a href="https://docs.microsoft.com/windows/desktop/HyperV_v2/virtual-machine-generation-identifier">Virtual machine generation identifier</a>.
+For info about the virtual machine generation identifier, see <a href="/windows/desktop/HyperV_v2/virtual-machine-generation-identifier">Virtual machine generation identifier</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vmgenerationcounter/ni-vmgenerationcounter-ioctl_vmgencounter_read">IOCTL_VMGENCOUNTER_READ</a>
-
+<a href="/windows/desktop/api/vmgenerationcounter/ni-vmgenerationcounter-ioctl_vmgencounter_read">IOCTL_VMGENCOUNTER_READ</a>

@@ -55,7 +55,7 @@ api_name:
 ## -description
 
 Contains identification information for a file. This structure is returned from the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getfileinformationbyhandleex">GetFileInformationByHandleEx</a> function when 
+    <a href="/windows/desktop/api/winbase/nf-winbase-getfileinformationbyhandleex">GetFileInformationByHandleEx</a> function when 
     <b>FileIdExtdDirectoryInfo</b> (0x13) or <b>FileIdExtdDirectoryRestartInfo</b> (0x14) 
     is passed in the <i>FileInformationClass</i> parameter.
 
@@ -302,7 +302,7 @@ If the <b>FileAttributes</b> member includes the
 
 Otherwise, this value is undefined and should not be used.
 
-For more information see <a href="https://docs.microsoft.com/windows/desktop/FileIO/reparse-point-tags">Reparse Point Tags</a>.
+For more information see <a href="/windows/desktop/FileIO/reparse-point-tags">Reparse Point Tags</a>.
 
 
 
@@ -359,17 +359,16 @@ The first character of the file name string. This is followed in memory by the r
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-file_id_128">FILE_ID_128</a>
+<a href="/windows/desktop/api/winnt/ns-winnt-file_id_128">FILE_ID_128</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ne-minwinbase-file_info_by_handle_class">FILE_INFO_BY_HANDLE_CLASS</a>
+<a href="/windows/desktop/api/minwinbase/ne-minwinbase-file_info_by_handle_class">FILE_INFO_BY_HANDLE_CLASS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/file-management-structures">File Management Structures</a>
+<a href="/windows/desktop/FileIO/file-management-structures">File Management Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getfileinformationbyhandleex">GetFileInformationByHandleEx</a>
-
+<a href="/windows/desktop/api/winbase/nf-winbase-getfileinformationbyhandleex">GetFileInformationByHandleEx</a>

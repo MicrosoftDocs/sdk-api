@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-The <code>IConfigAsfWriter</code> interface configures the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/wm-asf-writer-filter">WM ASF Writer</a> filter. It provides methods for getting and setting the profiles and indexing mode.
+The <code>IConfigAsfWriter</code> interface configures the <a href="/windows/desktop/DirectShow/wm-asf-writer-filter">WM ASF Writer</a> filter. It provides methods for getting and setting the profiles and indexing mode.
 
 When the WM ASF Writer filter is created, it is configured automatically with a default ASF audio-visual profile based on the incoming streams. A profile describes various attributes of an ASF file such as bit rate, number and type of streams, compression quality, and so on. The filter uses the profile to determine what kind of ASF file to write, how many input pins to create, and what media types to accept. When the WM ASF Writer filter is first created, it is configured automatically with the following default profile: WMProfile_V80_256Video. However, using this profile is not recommended because it does not use the Windows Media Audio and Video 9 Series codecs.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IConfigAsfWriter</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IConfigAsfWriter</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IConfigAsfWriter</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IConfigAsfWriter</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>IConfigAsfWriter</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dshowasf/nf-dshowasf-iconfigasfwriter-configurefilterusingprofile">ConfigureFilterUsingProfile</a>
+<a href="/windows/desktop/api/dshowasf/nf-dshowasf-iconfigasfwriter-configurefilterusingprofile">ConfigureFilterUsingProfile</a>
 </td>
 <td align="left" width="63%">
 Sets an ASF profile on the WM ASF Writer filter.
@@ -80,7 +80,7 @@ Sets an ASF profile on the WM ASF Writer filter.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dshowasf/nf-dshowasf-iconfigasfwriter-configurefilterusingprofileguid">ConfigureFilterUsingProfileGuid</a>
+<a href="/windows/desktop/api/dshowasf/nf-dshowasf-iconfigasfwriter-configurefilterusingprofileguid">ConfigureFilterUsingProfileGuid</a>
 </td>
 <td align="left" width="63%">
 Sets a predefined system profile on the filter. (Deprecated.)
@@ -89,7 +89,7 @@ Sets a predefined system profile on the filter. (Deprecated.)
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dshowasf/nf-dshowasf-iconfigasfwriter-configurefilterusingprofileid">ConfigureFilterUsingProfileId</a>
+<a href="/windows/desktop/api/dshowasf/nf-dshowasf-iconfigasfwriter-configurefilterusingprofileid">ConfigureFilterUsingProfileId</a>
 </td>
 <td align="left" width="63%">
 Sets a Windows Media Format 4.0 profile on the filter. (Deprecated.)
@@ -98,7 +98,7 @@ Sets a Windows Media Format 4.0 profile on the filter. (Deprecated.)
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dshowasf/nf-dshowasf-iconfigasfwriter-getcurrentprofile">GetCurrentProfile</a>
+<a href="/windows/desktop/api/dshowasf/nf-dshowasf-iconfigasfwriter-getcurrentprofile">GetCurrentProfile</a>
 </td>
 <td align="left" width="63%">
 Retrieves the application-defined ASF profile.
@@ -107,7 +107,7 @@ Retrieves the application-defined ASF profile.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dshowasf/nf-dshowasf-iconfigasfwriter-getcurrentprofileguid">GetCurrentProfileGuid</a>
+<a href="/windows/desktop/api/dshowasf/nf-dshowasf-iconfigasfwriter-getcurrentprofileguid">GetCurrentProfileGuid</a>
 </td>
 <td align="left" width="63%">
 Retrieves the GUID of the filter's current system profile, if any. (Deprecated.)
@@ -116,7 +116,7 @@ Retrieves the GUID of the filter's current system profile, if any. (Deprecated.)
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dshowasf/nf-dshowasf-iconfigasfwriter-getcurrentprofileid">GetCurrentProfileId</a>
+<a href="/windows/desktop/api/dshowasf/nf-dshowasf-iconfigasfwriter-getcurrentprofileid">GetCurrentProfileId</a>
 </td>
 <td align="left" width="63%">
 Retrieves the identifier of the filter's profile, only when the filter is using a Windows Media Format 4.0 profile. (Deprecated.)
@@ -125,7 +125,7 @@ Retrieves the identifier of the filter's profile, only when the filter is using 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dshowasf/nf-dshowasf-iconfigasfwriter-getindexmode">GetIndexMode</a>
+<a href="/windows/desktop/api/dshowasf/nf-dshowasf-iconfigasfwriter-getindexmode">GetIndexMode</a>
 </td>
 <td align="left" width="63%">
 Retrieves the current index mode.
@@ -134,7 +134,7 @@ Retrieves the current index mode.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dshowasf/nf-dshowasf-iconfigasfwriter-setindexmode">SetIndexMode</a>
+<a href="/windows/desktop/api/dshowasf/nf-dshowasf-iconfigasfwriter-setindexmode">SetIndexMode</a>
 </td>
 <td align="left" width="63%">
 Enables the application to control whether the file will be indexed and therefore seekable.
@@ -145,5 +145,4 @@ Enables the application to control whether the file will be indexed and therefor
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/creating-asf-files-in-directshow">Creating ASF Files in DirectShow</a>
-
+<a href="/windows/desktop/DirectShow/creating-asf-files-in-directshow">Creating ASF Files in DirectShow</a>

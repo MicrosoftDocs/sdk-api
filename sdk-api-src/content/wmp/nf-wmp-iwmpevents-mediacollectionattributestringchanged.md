@@ -56,7 +56,7 @@ The <b>MediaCollectionAttributeStringChanged</b> event occurs when an attribute 
 
 ### -param bstrAttribName [in]
 
-Specifies the name of the attribute. For information about the attributes supported by Windows Media Player, see the Windows Media Player <a href="https://docs.microsoft.com/windows/desktop/WMP/attribute-reference">Attribute Reference</a>.
+Specifies the name of the attribute. For information about the attributes supported by Windows Media Player, see the Windows Media Player <a href="/windows/desktop/WMP/attribute-reference">Attribute Reference</a>.
 
 ### -param bstrOldAttribVal [in]
 
@@ -74,5 +74,4 @@ When a user modifies library metadata, the <b>MediaCollection</b> object is upda
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpevents">IWMPEvents Interface</a>
-
+<a href="/windows/desktop/api/wmp/nn-wmp-iwmpevents">IWMPEvents Interface</a>

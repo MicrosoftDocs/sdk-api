@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Instructs the enumerator to skip the next <i>celt</i> elements in the enumeration so that the next call to <a href="https://docs.microsoft.com/windows/desktop/api/mobsync/nf-mobsync-isyncmgrenumitems-next">ISyncMgrEnumItems::Next</a> does not return those elements.
+Instructs the enumerator to skip the next <i>celt</i> elements in the enumeration so that the next call to <a href="/windows/desktop/api/mobsync/nf-mobsync-isyncmgrenumitems-next">ISyncMgrEnumItems::Next</a> does not return those elements.
 
 ## -parameters
 
@@ -65,4 +65,3 @@ The number of items to skip.
 Type: <b>HRESULT</b>
 
 Return S_OK if the method succeeds.
-

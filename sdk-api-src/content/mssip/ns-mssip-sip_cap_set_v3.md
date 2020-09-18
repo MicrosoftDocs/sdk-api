@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-The <b>SIP_CAP_SET</b> structure defines the capabilities of a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">subject interface package</a> (SIP).
+The <b>SIP_CAP_SET</b> structure defines the capabilities of a <a href="/windows/desktop/SecGloss/s-gly">subject interface package</a> (SIP).
 
 ## -struct-fields
 
@@ -75,4 +75,3 @@ A value of one (1) indicates that the SIP supports multiple embedded signatures.
 ### -field dwReserved
 
 Reserved for future use. Set this value to zero (0).
-

@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Gets a value indicating whether <a href="https://docs.microsoft.com/windows/desktop/api/spatialaudioclient/nn-spatialaudioclient-ispatialaudioobjectrenderstream">ISpatialAudioObjectRenderStream</a> supports a the specified format.
+Gets a value indicating whether <a href="/windows/desktop/api/spatialaudioclient/nn-spatialaudioclient-ispatialaudioobjectrenderstream">ISpatialAudioObjectRenderStream</a> supports a the specified format.
 
 ## -parameters
 
@@ -64,5 +64,4 @@ If the specified format is supported, it returns S_OK. If specified format is un
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/spatialaudioclient/nn-spatialaudioclient-ispatialaudioclient">ISpatialAudioClient</a>
-
+<a href="/windows/desktop/api/spatialaudioclient/nn-spatialaudioclient-ispatialaudioclient">ISpatialAudioClient</a>

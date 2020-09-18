@@ -54,7 +54,7 @@ Obtains information about the categories implemented or required by a certain cl
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICatInformation</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ICatInformation</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICatInformation</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ICatInformation</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ICatInformation</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/comcat/nf-comcat-icatinformation-enumcategories">EnumCategories</a>
+<a href="/windows/desktop/api/comcat/nf-comcat-icatinformation-enumcategories">EnumCategories</a>
 </td>
 <td align="left" width="63%">
 Retrieves an enumerator for the component categories registered on the system.
@@ -78,7 +78,7 @@ Retrieves an enumerator for the component categories registered on the system.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/comcat/nf-comcat-icatinformation-enumclassesofcategories">EnumClassesOfCategories</a>
+<a href="/windows/desktop/api/comcat/nf-comcat-icatinformation-enumclassesofcategories">EnumClassesOfCategories</a>
 </td>
 <td align="left" width="63%">
 Retrieves an enumerator for the classes that implement one or more specified category identifiers.
@@ -87,7 +87,7 @@ Retrieves an enumerator for the classes that implement one or more specified cat
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/comcat/nf-comcat-icatinformation-enumimplcategoriesofclass">EnumImplCategoriesOfClass</a>
+<a href="/windows/desktop/api/comcat/nf-comcat-icatinformation-enumimplcategoriesofclass">EnumImplCategoriesOfClass</a>
 </td>
 <td align="left" width="63%">
 Retrieves an enumerator for the CATIDs implemented by the specified class.
@@ -96,7 +96,7 @@ Retrieves an enumerator for the CATIDs implemented by the specified class.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/comcat/nf-comcat-icatinformation-enumreqcategoriesofclass">EnumReqCategoriesOfClass</a>
+<a href="/windows/desktop/api/comcat/nf-comcat-icatinformation-enumreqcategoriesofclass">EnumReqCategoriesOfClass</a>
 </td>
 <td align="left" width="63%">
 Retrieves an enumerator for the CATIDs required by the specified class.
@@ -105,7 +105,7 @@ Retrieves an enumerator for the CATIDs required by the specified class.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/comcat/nf-comcat-icatinformation-getcategorydesc">GetCategoryDesc</a>
+<a href="/windows/desktop/api/comcat/nf-comcat-icatinformation-getcategorydesc">GetCategoryDesc</a>
 </td>
 <td align="left" width="63%">
 Retrieves the localized description string for a specific category ID.
@@ -114,7 +114,7 @@ Retrieves the localized description string for a specific category ID.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/comcat/nf-comcat-icatinformation-isclassofcategories">IsClassOfCategories</a>
+<a href="/windows/desktop/api/comcat/nf-comcat-icatinformation-isclassofcategories">IsClassOfCategories</a>
 </td>
 <td align="left" width="63%">
 Determines whether a class implements one or more categories.
@@ -125,5 +125,4 @@ Determines whether a class implements one or more categories.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/comcat/nn-comcat-icatregister">ICatRegister</a>
-
+<a href="/windows/desktop/api/comcat/nn-comcat-icatregister">ICatRegister</a>

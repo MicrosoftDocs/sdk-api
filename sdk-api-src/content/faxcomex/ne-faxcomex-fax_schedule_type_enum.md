@@ -68,17 +68,16 @@ Send the fax during the discount rate period.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxdocument-scheduletime-vb">IFaxDocument::get_ScheduleTime</a>
+<a href="/previous-versions/windows/desktop/fax/-mfax-faxdocument-scheduletime-vb">IFaxDocument::get_ScheduleTime</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxdocument-scheduletype-vb">IFaxDocument::get_ScheduleType</a>
+<a href="/previous-versions/windows/desktop/fax/-mfax-faxdocument-scheduletype-vb">IFaxDocument::get_ScheduleType</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxoutgoingqueue-discountrateend-vb">IFaxOutgoingQueue::get_DiscountRateEnd</a>
+<a href="/previous-versions/windows/desktop/fax/-mfax-faxoutgoingqueue-discountrateend-vb">IFaxOutgoingQueue::get_DiscountRateEnd</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxoutgoingqueue-discountratestart-vb">IFaxOutgoingQueue::get_DiscountRateStart</a>
-
+<a href="/previous-versions/windows/desktop/fax/-mfax-faxoutgoingqueue-discountratestart-vb">IFaxOutgoingQueue::get_DiscountRateStart</a>

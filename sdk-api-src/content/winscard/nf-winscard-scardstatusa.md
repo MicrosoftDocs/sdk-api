@@ -52,14 +52,14 @@ api_name:
 
 ## -description
 
-The <b>SCardStatus</b> function provides the current status of a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">smart card</a> in a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/r-gly">reader</a>. You can call it any time after a successful call to <a href="https://docs.microsoft.com/windows/desktop/api/winscard/nf-winscard-scardconnecta">SCardConnect</a> and before a successful call to <a href="https://docs.microsoft.com/windows/desktop/api/winscard/nf-winscard-scarddisconnect">SCardDisconnect</a>. It does not affect the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">state</a> of the reader or <a href="https://docs.microsoft.com/windows/desktop/SecGloss/r-gly">reader driver</a>.
+The <b>SCardStatus</b> function provides the current status of a <a href="/windows/desktop/SecGloss/s-gly">smart card</a> in a <a href="/windows/desktop/SecGloss/r-gly">reader</a>. You can call it any time after a successful call to <a href="/windows/desktop/api/winscard/nf-winscard-scardconnecta">SCardConnect</a> and before a successful call to <a href="/windows/desktop/api/winscard/nf-winscard-scarddisconnect">SCardDisconnect</a>. It does not affect the <a href="/windows/desktop/SecGloss/s-gly">state</a> of the reader or <a href="/windows/desktop/SecGloss/r-gly">reader driver</a>.
 
 ## -parameters
 
 ### -param hCard [in]
 
 Reference value returned from 
-<a href="https://docs.microsoft.com/windows/desktop/api/winscard/nf-winscard-scardconnecta">SCardConnect</a>.
+<a href="/windows/desktop/api/winscard/nf-winscard-scardconnecta">SCardConnect</a>.
 
 ### -param mszReaderNames [out]
 
@@ -76,7 +76,7 @@ On output, receives the actual length (in characters) of the reader name list, i
 
 ### -param pdwState [out, optional]
 
-Current <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">state</a> of the smart card in the reader. Upon success, it receives one of the following state indicators. 
+Current <a href="/windows/desktop/SecGloss/s-gly">state</a> of the smart card in the reader. Upon success, it receives one of the following state indicators. 
 
 
 
@@ -144,7 +144,7 @@ The card has been reset and is awaiting PTS negotiation.
 </dl>
 </td>
 <td width="60%">
-The card has been reset and specific <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">communication protocols</a> have been established.
+The card has been reset and specific <a href="/windows/desktop/SecGloss/c-gly">communication protocols</a> have been established.
 
 </td>
 </tr>
@@ -175,7 +175,7 @@ The Raw Transfer protocol is in use.
 </dl>
 </td>
 <td width="60%">
-The ISO 7816/3 <a href="https://docs.microsoft.com/windows/desktop/SecGloss/t-gly">T=0</a> protocol is in use.
+The ISO 7816/3 <a href="/windows/desktop/SecGloss/t-gly">T=0</a> protocol is in use.
 
 </td>
 </tr>
@@ -185,7 +185,7 @@ The ISO 7816/3 <a href="https://docs.microsoft.com/windows/desktop/SecGloss/t-gl
 </dl>
 </td>
 <td width="60%">
-The ISO 7816/3 <a href="https://docs.microsoft.com/windows/desktop/SecGloss/t-gly">T=1</a> protocol is in use.
+The ISO 7816/3 <a href="/windows/desktop/SecGloss/t-gly">T=1</a> protocol is in use.
 
 </td>
 </tr>
@@ -193,7 +193,7 @@ The ISO 7816/3 <a href="https://docs.microsoft.com/windows/desktop/SecGloss/t-gl
 
 ### -param pbAtr [out]
 
-Pointer to a 32-byte buffer that receives the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">ATR string</a> from the currently inserted card, if available.
+Pointer to a 32-byte buffer that receives the <a href="/windows/desktop/SecGloss/a-gly">ATR string</a> from the currently inserted card, if available.
 
 ### -param pcbAtrLen [in, out, optional]
 
@@ -201,15 +201,15 @@ On input, supplies the length of the <i>pbAtr</i> buffer. On output, receives th
 
 ## -returns
 
-If the function successfully provides the current status of a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">smart card</a> in a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/r-gly">reader</a>, the return value is SCARD_S_SUCCESS.
+If the function successfully provides the current status of a <a href="/windows/desktop/SecGloss/s-gly">smart card</a> in a <a href="/windows/desktop/SecGloss/r-gly">reader</a>, the return value is SCARD_S_SUCCESS.
 
 If the function fails, it returns an error code. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthN/authentication-return-values">Smart Card Return Values</a>.
+<a href="/windows/desktop/SecAuthN/authentication-return-values">Smart Card Return Values</a>.
 
 ## -remarks
 
-The <b>SCardStatus</b> function is a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">smart card</a> and <a href="https://docs.microsoft.com/windows/desktop/SecGloss/r-gly">reader</a> access function. For information about other access functions, see 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthN/smart-card-and-reader-access-functions">Smart Card and Reader Access Functions</a>.
+The <b>SCardStatus</b> function is a <a href="/windows/desktop/SecGloss/s-gly">smart card</a> and <a href="/windows/desktop/SecGloss/r-gly">reader</a> access function. For information about other access functions, see 
+<a href="/windows/desktop/SecAuthN/smart-card-and-reader-access-functions">Smart Card and Reader Access Functions</a>.
 
 
 #### Examples
@@ -281,9 +281,8 @@ switch ( dwState )
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winscard/nf-winscard-scardconnecta">SCardConnect</a>
+<a href="/windows/desktop/api/winscard/nf-winscard-scardconnecta">SCardConnect</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winscard/nf-winscard-scarddisconnect">SCardDisconnect</a>
-
+<a href="/windows/desktop/api/winscard/nf-winscard-scarddisconnect">SCardDisconnect</a>

@@ -50,11 +50,11 @@ api_name:
 
 ## -description
 
-Defines a method for handling updates to an <a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nn-uianimation-iuianimationmanager2">animation manager</a>.
+Defines a method for handling updates to an <a href="/windows/desktop/api/uianimation/nn-uianimation-iuianimationmanager2">animation manager</a>.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUIAnimationManagerEventHandler2</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IUIAnimationManagerEventHandler2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUIAnimationManagerEventHandler2</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IUIAnimationManagerEventHandler2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,10 +69,10 @@ The <b>IUIAnimationManagerEventHandler2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationmanagereventhandler2-onmanagerstatuschanged">IUIAnimationManager2::OnManagerStatusChanged</a>
+<a href="/windows/desktop/api/uianimation/nf-uianimation-iuianimationmanagereventhandler2-onmanagerstatuschanged">IUIAnimationManager2::OnManagerStatusChanged</a>
 </td>
 <td align="left" width="63%">
-Handles status changes to an <a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nn-uianimation-iuianimationmanager2">animation manager</a>.
+Handles status changes to an <a href="/windows/desktop/api/uianimation/nn-uianimation-iuianimationmanager2">animation manager</a>.
 
 </td>
 </tr>
@@ -80,5 +80,4 @@ Handles status changes to an <a href="https://docs.microsoft.com/windows/desktop
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
-
+<a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>

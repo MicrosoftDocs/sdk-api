@@ -54,7 +54,7 @@ Defines methods and properties that expose simple UI elements.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IRawElementProviderSimple</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IRawElementProviderSimple</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IRawElementProviderSimple</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IRawElementProviderSimple</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -70,7 +70,7 @@ The <b>IRawElementProviderSimple</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nf-uiautomationcore-irawelementprovidersimple-getpatternprovider">GetPatternProvider</a>
+<a href="/windows/desktop/api/uiautomationcore/nf-uiautomationcore-irawelementprovidersimple-getpatternprovider">GetPatternProvider</a>
 </td>
 <td align="left" width="63%">
 Retrieves a pointer to an object that provides support for a control pattern on a UI Automation element.
@@ -79,7 +79,7 @@ Retrieves a pointer to an object that provides support for a control pattern on 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nf-uiautomationcore-irawelementprovidersimple-getpropertyvalue">GetPropertyValue</a>
+<a href="/windows/desktop/api/uiautomationcore/nf-uiautomationcore-irawelementprovidersimple-getpropertyvalue">GetPropertyValue</a>
 </td>
 <td align="left" width="63%">
 Retrieves the value of a property supported by the UI Automation provider.
@@ -97,7 +97,7 @@ Retrieves the value of a property supported by the UI Automation provider.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nf-uiautomationcore-irawelementprovidersimple-get_hostrawelementprovider">HostRawElementProvider</a>
+<a href="/windows/desktop/api/uiautomationcore/nf-uiautomationcore-irawelementprovidersimple-get_hostrawelementprovider">HostRawElementProvider</a>
 
 
 </td>
@@ -113,7 +113,7 @@ Specifies the host provider for this element.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nf-uiautomationcore-irawelementprovidersimple-get_provideroptions">ProviderOptions</a>
+<a href="/windows/desktop/api/uiautomationcore/nf-uiautomationcore-irawelementprovidersimple-get_provideroptions">ProviderOptions</a>
 
 
 </td>
@@ -137,18 +137,17 @@ This interface can be implemented on:
 <li>UI Automation provider for simple UI elements, such as buttons.</li>
 <li>Providers that add or override properties or control patterns on a UI element that already has a provider.</li>
 </ul>
-Providers for complex elements must also implement <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nn-uiautomationcore-irawelementproviderfragment">IRawElementProviderFragment</a> and, if they 
-			are root elements, <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nn-uiautomationcore-irawelementproviderfragmentroot">IRawElementProviderFragmentRoot</a>.
+Providers for complex elements must also implement <a href="/windows/desktop/api/uiautomationcore/nn-uiautomationcore-irawelementproviderfragment">IRawElementProviderFragment</a> and, if they 
+			are root elements, <a href="/windows/desktop/api/uiautomationcore/nn-uiautomationcore-irawelementproviderfragmentroot">IRawElementProviderFragmentRoot</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nn-uiautomationcore-irawelementproviderfragment">IRawElementProviderFragment</a>
+<a href="/windows/desktop/api/uiautomationcore/nn-uiautomationcore-irawelementproviderfragment">IRawElementProviderFragment</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nn-uiautomationcore-irawelementproviderfragmentroot">IRawElementProviderFragmentRoot</a>
+<a href="/windows/desktop/api/uiautomationcore/nn-uiautomationcore-irawelementproviderfragmentroot">IRawElementProviderFragmentRoot</a>
 
 
 
 <b>Reference</b>
-

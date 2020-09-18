@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <code>Unload</code> method unloads a DLS resource (waveform or articulation data for a MIDI instrument) that was previously downloaded by a call to <a href="https://docs.microsoft.com/windows/desktop/api/dmusics/nf-dmusics-idirectmusicsynth-download">IDirectMusicSynth::Download</a>.
+The <code>Unload</code> method unloads a DLS resource (waveform or articulation data for a MIDI instrument) that was previously downloaded by a call to <a href="/windows/desktop/api/dmusics/nf-dmusics-idirectmusicsynth-download">IDirectMusicSynth::Download</a>.
 
 ## -parameters
 
@@ -119,5 +119,4 @@ For more information, see the descriptions of the <b>IDirectMusic</b> and <b>IDi
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dmusics/nf-dmusics-idirectmusicsynth-download">IDirectMusicSynth::Download</a>
-
+<a href="/windows/desktop/api/dmusics/nf-dmusics-idirectmusicsynth-download">IDirectMusicSynth::Download</a>

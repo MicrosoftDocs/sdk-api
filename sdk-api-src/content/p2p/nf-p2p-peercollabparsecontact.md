@@ -50,17 +50,17 @@ api_name:
 
 ## -description
 
-The <b>PeerCollabParseContact</b> function parses a Unicode string buffer containing contact XML data into a <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_contact">PEER_CONTACT</a> data structure.
+The <b>PeerCollabParseContact</b> function parses a Unicode string buffer containing contact XML data into a <a href="/windows/desktop/api/p2p/ns-p2p-peer_contact">PEER_CONTACT</a> data structure.
 
 ## -parameters
 
 ### -param pwzContactData [in]
 
-Pointer to zero-terminated Unicode string buffer that contains XML contact data as returned by functions like <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peercollabquerycontactdata">PeerCollabQueryContactData</a> or <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peercollabexportcontact">PeerCollabExportContact</a>.
+Pointer to zero-terminated Unicode string buffer that contains XML contact data as returned by functions like <a href="/windows/desktop/api/p2p/nf-p2p-peercollabquerycontactdata">PeerCollabQueryContactData</a> or <a href="/windows/desktop/api/p2p/nf-p2p-peercollabexportcontact">PeerCollabExportContact</a>.
 
 ### -param ppContact [out]
 
-Pointer to the address of a <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_contact">PEER_CONTACT</a> structure that contain the peer contact information parsed from <i>pwzContactData</i>. Free the memory allocated by calling <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peerfreedata">PeerFreeData</a>.
+Pointer to the address of a <a href="/windows/desktop/api/p2p/ns-p2p-peer_contact">PEER_CONTACT</a> structure that contain the peer contact information parsed from <i>pwzContactData</i>. Free the memory allocated by calling <a href="/windows/desktop/api/p2p/nf-p2p-peerfreedata">PeerFreeData</a>.
 
 ## -returns
 
@@ -108,9 +108,8 @@ The Windows Peer infrastructure is not initialized. Calling the relevant initial
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_contact">PEER_CONTACT</a>
+<a href="/windows/desktop/api/p2p/ns-p2p-peer_contact">PEER_CONTACT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/P2PSdk/collaboration-api-functions">Peer Collaboration API Functions</a>
-
+<a href="/windows/desktop/P2PSdk/collaboration-api-functions">Peer Collaboration API Functions</a>

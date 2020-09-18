@@ -125,21 +125,20 @@ Auto-convert is not active or there was no registry entry for the <i>clsidOld</i
 
 ## -remarks
 
-<b>OleGetAutoConvert</b> returns the <b><a href="https://docs.microsoft.com/windows/desktop/com/autoconvertto">AutoConvertTo</a></b> entry in the registry for the specified object. The <b>AutoConvertTo</b> subkey specifies whether objects of a given CLSID are to be automatically converted to a new CLSID. This is usually used to convert files created by older versions of an application to the current version. If there is no <b>AutoConvertTo</b> entry, this function returns the value of <i>clsidOld</i>.
+<b>OleGetAutoConvert</b> returns the <b><a href="/windows/desktop/com/autoconvertto">AutoConvertTo</a></b> entry in the registry for the specified object. The <b>AutoConvertTo</b> subkey specifies whether objects of a given CLSID are to be automatically converted to a new CLSID. This is usually used to convert files created by older versions of an application to the current version. If there is no <b>AutoConvertTo</b> entry, this function returns the value of <i>clsidOld</i>.
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-oledoautoconvert">OleDoAutoConvert</a> function calls <b>OleGetAutoConvert</b> to determine whether the object specified is to be converted. A container application that supports object conversion should call <b>OleDoAutoConvert</b> each time it loads an object. If the container uses the <a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-oleload">OleLoad</a> helper function, it need not call <b>OleDoAutoConvert</b> explicitly because <b>OleLoad</b> calls it internally.
+The <a href="/windows/desktop/api/ole2/nf-ole2-oledoautoconvert">OleDoAutoConvert</a> function calls <b>OleGetAutoConvert</b> to determine whether the object specified is to be converted. A container application that supports object conversion should call <b>OleDoAutoConvert</b> each time it loads an object. If the container uses the <a href="/windows/desktop/api/ole2/nf-ole2-oleload">OleLoad</a> helper function, it need not call <b>OleDoAutoConvert</b> explicitly because <b>OleLoad</b> calls it internally.
 
-To set up automatic conversion of a given class, you can call the <a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-olesetautoconvert">OleSetAutoConvert</a> function (typically in the setup program of an application installation). This function uses the <b>AutoConvertTo</b> subkey to tag a class of objects for automatic conversion to a different class of objects. This is a subkey of the CLSID key.
+To set up automatic conversion of a given class, you can call the <a href="/windows/desktop/api/ole2/nf-ole2-olesetautoconvert">OleSetAutoConvert</a> function (typically in the setup program of an application installation). This function uses the <b>AutoConvertTo</b> subkey to tag a class of objects for automatic conversion to a different class of objects. This is a subkey of the CLSID key.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/com/autoconvertto">AutoConvertTo</a>
+<a href="/windows/desktop/com/autoconvertto">AutoConvertTo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-oledoautoconvert">OleDoAutoConvert</a>
+<a href="/windows/desktop/api/ole2/nf-ole2-oledoautoconvert">OleDoAutoConvert</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-olesetautoconvert">OleSetAutoConvert</a>
-
+<a href="/windows/desktop/api/ole2/nf-ole2-olesetautoconvert">OleSetAutoConvert</a>

@@ -55,11 +55,11 @@ The <code>IEnumDMO</code> interface provides methods for enumerating Microsoft D
 
 
 
-To enumerate registered DMOs, call the <a href="https://docs.microsoft.com/windows/desktop/api/dmoreg/nf-dmoreg-dmoenum">DMOEnum</a> function.
+To enumerate registered DMOs, call the <a href="/windows/desktop/api/dmoreg/nf-dmoreg-dmoenum">DMOEnum</a> function.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumDMO</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEnumDMO</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumDMO</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEnumDMO</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -74,7 +74,7 @@ The <b>IEnumDMO</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mediaobj/nf-mediaobj-ienumdmo-clone">Clone</a>
+<a href="/windows/desktop/api/mediaobj/nf-mediaobj-ienumdmo-clone">Clone</a>
 </td>
 <td align="left" width="63%">
 Not implemented.
@@ -83,7 +83,7 @@ Not implemented.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mediaobj/nf-mediaobj-ienumdmo-next">Next</a>
+<a href="/windows/desktop/api/mediaobj/nf-mediaobj-ienumdmo-next">Next</a>
 </td>
 <td align="left" width="63%">
 Retrieves a specified number of items in the enumeration sequence.
@@ -92,7 +92,7 @@ Retrieves a specified number of items in the enumeration sequence.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mediaobj/nf-mediaobj-ienumdmo-reset">Reset</a>
+<a href="/windows/desktop/api/mediaobj/nf-mediaobj-ienumdmo-reset">Reset</a>
 </td>
 <td align="left" width="63%">
 Resets the enumeration sequence to the beginning.
@@ -101,7 +101,7 @@ Resets the enumeration sequence to the beginning.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mediaobj/nf-mediaobj-ienumdmo-skip">Skip</a>
+<a href="/windows/desktop/api/mediaobj/nf-mediaobj-ienumdmo-skip">Skip</a>
 </td>
 <td align="left" width="63%">
 Skips over a specified number of items in the enumeration sequence.
@@ -109,4 +109,3 @@ Skips over a specified number of items in the enumeration sequence.
 </td>
 </tr>
 </table>
-

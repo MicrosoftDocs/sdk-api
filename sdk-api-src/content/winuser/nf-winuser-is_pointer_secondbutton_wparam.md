@@ -60,5 +60,4 @@ The value to be converted.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/inputmsg/macros">Macros</a>
-
+<a href="/previous-versions/windows/desktop/inputmsg/macros">Macros</a>

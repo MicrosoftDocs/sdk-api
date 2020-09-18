@@ -66,7 +66,7 @@ A pointer to a fully qualified item ID list that specifies the folder.
 
 Type: <b>UINT</b>
 
-A count of items in the selection array, <i>apidl</i>. If <i>cidl</i> is zero, then <i>pidlFolder</i> must point to a fully specified <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> describing a single item to select. This function opens the parent folder and selects that item.
+A count of items in the selection array, <i>apidl</i>. If <i>cidl</i> is zero, then <i>pidlFolder</i> must point to a fully specified <a href="/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> describing a single item to select. This function opens the parent folder and selects that item.
 
 ### -param apidl [in, optional]
 
@@ -100,5 +100,4 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 ## -remarks
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objbase/nf-objbase-coinitialize">CoInitialize</a> or <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-coinitializeex">CoInitializeEx</a> must be called before using <b>SHOpenFolderAndSelectItems</b>. Not doing so causes <b>SHOpenFolderAndSelectItems</b> to fail.
-
+<a href="/windows/desktop/api/objbase/nf-objbase-coinitialize">CoInitialize</a> or <a href="/windows/desktop/api/combaseapi/nf-combaseapi-coinitializeex">CoInitializeEx</a> must be called before using <b>SHOpenFolderAndSelectItems</b>. Not doing so causes <b>SHOpenFolderAndSelectItems</b> to fail.

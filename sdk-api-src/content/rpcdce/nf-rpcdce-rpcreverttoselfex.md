@@ -59,7 +59,7 @@ The
 
 Binding handle on the server that represents a binding to the client that the server impersonated. A value of zero specifies the client handle of the current thread; in this case, the functionality of 
 <b>RpcRevertToSelfEx</b> is identical to that of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcreverttoself">RpcRevertToSelf</a> function.
+<a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcreverttoself">RpcRevertToSelf</a> function.
 
 ## -returns
 
@@ -127,27 +127,26 @@ The call is not supported for this operating system, this transport, or this sec
  
 
 <div class="alert"><b>Note</b>  For a list of valid error codes, see 
-<a href="https://docs.microsoft.com/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
+<a href="/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
 <div> </div>
 
 ## -remarks
 
 After calling 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcimpersonateclient">RpcImpersonateClient</a> and completing any tasks that require client impersonation, the server calls 
+<a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcimpersonateclient">RpcImpersonateClient</a> and completing any tasks that require client impersonation, the server calls 
 <b>RpcRevertToSelfEx</b> to end impersonation and to reestablish its own security identity. For example, consider a primary thread, called thread1, which is dispatched from a remote client and wakes up a worker thread, called thread2. If thread2 requires that the server impersonate the client, the server calls 
 <b>RpcImpersonateClient</b>(THREAD1_CALL_HANDLE), performs the required task, calls 
 <b>RpcRevertToSelfEx</b>(THREAD1_CALL_HANDLE) to end the impersonation, and then wakes up thread1.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Rpc/client-impersonation">Client
+<a href="/windows/desktop/Rpc/client-impersonation">Client
 		  Impersonation</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcimpersonateclient">RpcImpersonateClient</a>
+<a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcimpersonateclient">RpcImpersonateClient</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcreverttoself">RpcRevertToSelf</a>
-
+<a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcreverttoself">RpcRevertToSelf</a>

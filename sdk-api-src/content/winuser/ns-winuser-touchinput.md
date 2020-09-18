@@ -232,7 +232,7 @@ return DefWindowProc(hWnd, message, wParam, lParam);
 ```
 
 
-The following example shows how to get the device information from the <b>hSource</b> member.  This example uses <a href="https://msdn.microsoft.com/library/ms645597.aspx">GetRawInputDevice</a> to retrieve information about the device.
+The following example shows how to get the device information from the <b>hSource</b> member.  This example uses <a href="/windows/win32/api/winuser/nf-winuser-getrawinputdeviceinfoa">GetRawInputDevice</a> to retrieve information about the device.
 
 
 ```cpp
@@ -252,9 +252,8 @@ for (UINT i = 0; i < cInputs; i++){
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-gettouchinputinfo">GetTouchInputInfo</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-gettouchinputinfo">GetTouchInputInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/wintouch/structures">Structures</a>
-
+<a href="/windows/desktop/wintouch/structures">Structures</a>

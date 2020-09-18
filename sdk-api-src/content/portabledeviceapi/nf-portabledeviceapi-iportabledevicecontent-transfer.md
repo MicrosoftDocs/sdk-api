@@ -51,13 +51,13 @@ api_name:
 
 ## -description
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledevicecontent-move">Transfer</a> method retrieves an interface that is used to read from or write to the content data of an existing object resource.
+The <a href="/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledevicecontent-move">Transfer</a> method retrieves an interface that is used to read from or write to the content data of an existing object resource.
 
 ## -parameters
 
 ### -param ppResources [out]
 
-Address of a variable that receives a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nn-portabledeviceapi-iportabledeviceresources">IPortableDeviceResources</a> interface that is used to modify an object's resources. The caller must release this interface when it is done with it.
+Address of a variable that receives a pointer to an <a href="/windows/desktop/api/portabledeviceapi/nn-portabledeviceapi-iportabledeviceresources">IPortableDeviceResources</a> interface that is used to modify an object's resources. The caller must release this interface when it is done with it.
 
 ## -returns
 
@@ -101,15 +101,14 @@ This method is typically used to read from an existing object.
 
 #### Examples
 
-For an example of how to use this method, see <a href="https://docs.microsoft.com/windows/desktop/wpd_sdk/adding-a-resource-to-an-object">Adding a Resource to an Object</a>.
+For an example of how to use this method, see <a href="/windows/desktop/wpd_sdk/adding-a-resource-to-an-object">Adding a Resource to an Object</a>.
 
 <div class="code"></div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/wpd_sdk/adding-a-resource-to-an-object">Adding a Resource to an Object</a>
+<a href="/windows/desktop/wpd_sdk/adding-a-resource-to-an-object">Adding a Resource to an Object</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nn-portabledeviceapi-iportabledevicecontent">IPortableDeviceContent Interface</a>
-
+<a href="/windows/desktop/api/portabledeviceapi/nn-portabledeviceapi-iportabledevicecontent">IPortableDeviceContent Interface</a>

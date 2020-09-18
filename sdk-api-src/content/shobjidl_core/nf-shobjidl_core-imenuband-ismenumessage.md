@@ -56,9 +56,9 @@ A message pump calls this method to see if any messages should be redirected to 
 
 ### -param pmsg [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-msg">MSG</a>*</b>
+Type: <b><a href="/windows/desktop/api/winuser/ns-winuser-msg">MSG</a>*</b>
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-msg">MSG</a> structure.
+A pointer to an <a href="/windows/desktop/api/winuser/ns-winuser-msg">MSG</a> structure.
 
 ## -returns
 
@@ -78,7 +78,7 @@ This method can return one of these values.
 </dl>
 </td>
 <td width="60%">
-A message should be redirected to the COM object. The application should call <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-imenuband-translatemenumessage">IMenuBand::TranslateMenuMessage</a> with this message.
+A message should be redirected to the COM object. The application should call <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-imenuband-translatemenumessage">IMenuBand::TranslateMenuMessage</a> with this message.
 
 </td>
 </tr>
@@ -97,5 +97,4 @@ The menu has exited the menu mode and can be destroyed.
 
 ## -remarks
 
-If this method returns <b>S_OK</b>, the message loop should not call <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-translatemessage">TranslateMessage</a> or <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-dispatchmessage">DispatchMessage</a>.
-
+If this method returns <b>S_OK</b>, the message loop should not call <a href="/windows/desktop/api/winuser/nf-winuser-translatemessage">TranslateMessage</a> or <a href="/windows/desktop/api/winuser/nf-winuser-dispatchmessage">DispatchMessage</a>.

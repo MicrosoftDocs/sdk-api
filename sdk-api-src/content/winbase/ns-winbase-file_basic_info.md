@@ -61,45 +61,44 @@ Contains the basic information for a file. Used for file handles.
 
 ### -field CreationTime
 
-The time the file was created in <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> format, 
+The time the file was created in <a href="/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> format, 
       which is a 64-bit value representing the number of 100-nanosecond intervals since January 1, 1601 (UTC).
 
 ### -field LastAccessTime
 
-The time the file was last accessed in <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> 
+The time the file was last accessed in <a href="/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> 
       format.
 
 ### -field LastWriteTime
 
-The time the file was last written to in <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> 
+The time the file was last written to in <a href="/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> 
       format.
 
 ### -field ChangeTime
 
-The time the file was changed in <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> 
+The time the file was changed in <a href="/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> 
       format.
 
 ### -field FileAttributes
 
 The file attributes. For a list of attributes, see 
-      <a href="https://docs.microsoft.com/windows/desktop/FileIO/file-attribute-constants">File Attribute Constants</a>. If this is set 
+      <a href="/windows/desktop/FileIO/file-attribute-constants">File Attribute Constants</a>. If this is set 
       to 0 in a <b>FILE_BASIC_INFO</b> structure passed to 
-      <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-setfileinformationbyhandle">SetFileInformationByHandle</a> then none of the 
+      <a href="/windows/desktop/api/fileapi/nf-fileapi-setfileinformationbyhandle">SetFileInformationByHandle</a> then none of the 
       attributes are changed.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ne-minwinbase-file_info_by_handle_class">FILE_INFO_BY_HANDLE_CLASS</a>
+<a href="/windows/desktop/api/minwinbase/ne-minwinbase-file_info_by_handle_class">FILE_INFO_BY_HANDLE_CLASS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-getfileattributesa">GetFileAttributes</a>
+<a href="/windows/desktop/api/fileapi/nf-fileapi-getfileattributesa">GetFileAttributes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getfileinformationbyhandleex">GetFileInformationByHandleEx</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-getfileinformationbyhandleex">GetFileInformationByHandleEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-setfileinformationbyhandle">SetFileInformationByHandle</a>
-
+<a href="/windows/desktop/api/fileapi/nf-fileapi-setfileinformationbyhandle">SetFileInformationByHandle</a>

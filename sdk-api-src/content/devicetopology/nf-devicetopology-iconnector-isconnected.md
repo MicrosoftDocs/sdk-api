@@ -82,9 +82,8 @@ Pointer <i>pbConnected</i> is <b>NULL</b>.
 
 ## -remarks
 
-For a code example that calls the <b>IsConnected</b> method, see the implementation of the SelectCaptureDevice function in <a href="https://docs.microsoft.com/windows/desktop/CoreAudio/device-topologies">Device Topologies</a>.
+For a code example that calls the <b>IsConnected</b> method, see the implementation of the SelectCaptureDevice function in <a href="/windows/desktop/CoreAudio/device-topologies">Device Topologies</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nn-devicetopology-iconnector">IConnector Interface</a>
-
+<a href="/windows/desktop/api/devicetopology/nn-devicetopology-iconnector">IConnector Interface</a>

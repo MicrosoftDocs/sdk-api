@@ -116,17 +116,16 @@ The
 
 For a full listing of the information returned by 
 <b>NdrGetUserMarshalInfo</b>, see 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcndr/ns-rpcndr-ndr_user_marshal_info">NDR_USER_MARSHAL_INFO</a>.
+<a href="/windows/desktop/api/rpcndr/ns-rpcndr-ndr_user_marshal_info">NDR_USER_MARSHAL_INFO</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcndr/ns-rpcndr-ndr_user_marshal_info">NDR_USER_MARSHAL_INFO</a>
+<a href="/windows/desktop/api/rpcndr/ns-rpcndr-ndr_user_marshal_info">NDR_USER_MARSHAL_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Midl/user-marshal">user_marshal</a>
+<a href="/windows/desktop/Midl/user-marshal">user_marshal</a>
 
 
 
 <a href="https://msdn.microsoft.com/">wire_marshal</a>
-

@@ -77,5 +77,4 @@ Ignored Words &gt; AutoCorrected Words &gt; Excluded Words &gt; Added Words &gt;
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/spellcheckprovider/nf-spellcheckprovider-ispellcheckprovider-initializewordlist">ISpellCheckProvider::InitializeWordlist</a>
-
+<a href="/windows/desktop/api/spellcheckprovider/nf-spellcheckprovider-ispellcheckprovider-initializewordlist">ISpellCheckProvider::InitializeWordlist</a>

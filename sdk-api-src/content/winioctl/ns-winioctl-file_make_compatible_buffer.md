@@ -53,7 +53,7 @@ api_name:
 
 ## -description
 
-Specifies the disc to close the current session for. This control code is used for UDF file systems. This structure is used for input when calling <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_make_media_compatible">FSCTL_MAKE_MEDIA_COMPATIBLE</a>.
+Specifies the disc to close the current session for. This control code is used for UDF file systems. This structure is used for input when calling <a href="/windows/desktop/api/winioctl/ni-winioctl-fsctl_make_media_compatible">FSCTL_MAKE_MEDIA_COMPATIBLE</a>.
 
 ## -struct-fields
 
@@ -63,9 +63,8 @@ If <b>TRUE</b>, indicates the media should be finalized. No new data can be appe
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a>
+<a href="/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_make_media_compatible">FSCTL_MAKE_MEDIA_COMPATIBLE</a>
-
+<a href="/windows/desktop/api/winioctl/ni-winioctl-fsctl_make_media_compatible">FSCTL_MAKE_MEDIA_COMPATIBLE</a>

@@ -56,7 +56,7 @@ Provides access
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMultipleViewProvider</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMultipleViewProvider</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMultipleViewProvider</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMultipleViewProvider</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -72,7 +72,7 @@ The <b>IMultipleViewProvider</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nf-uiautomationcore-imultipleviewprovider-getsupportedviews">GetSupportedViews</a>
+<a href="/windows/desktop/api/uiautomationcore/nf-uiautomationcore-imultipleviewprovider-getsupportedviews">GetSupportedViews</a>
 </td>
 <td align="left" width="63%">
 Retrieves a collection of control-specific view identifiers.
@@ -81,7 +81,7 @@ Retrieves a collection of control-specific view identifiers.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nf-uiautomationcore-imultipleviewprovider-getviewname">GetViewName</a>
+<a href="/windows/desktop/api/uiautomationcore/nf-uiautomationcore-imultipleviewprovider-getviewname">GetViewName</a>
 </td>
 <td align="left" width="63%">
 Retrieves the name of a control-specific view.
@@ -90,7 +90,7 @@ Retrieves the name of a control-specific view.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nf-uiautomationcore-imultipleviewprovider-setcurrentview">SetCurrentView</a>
+<a href="/windows/desktop/api/uiautomationcore/nf-uiautomationcore-imultipleviewprovider-setcurrentview">SetCurrentView</a>
 </td>
 <td align="left" width="63%">
 Sets the current control-specific view. 
@@ -108,7 +108,7 @@ Sets the current control-specific view.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nf-uiautomationcore-imultipleviewprovider-get_currentview">CurrentView</a>
+<a href="/windows/desktop/api/uiautomationcore/nf-uiautomationcore-imultipleviewprovider-get_currentview">CurrentView</a>
 
 
 </td>
@@ -126,9 +126,8 @@ Identifies the current view that the control is using to display information or 
 ## -remarks
 
 Implemented on a Microsoft UI Automation provider that must support the 
-            <a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-implementingmultipleview">MultipleView</a> control pattern.
+            <a href="/windows/desktop/WinAuto/uiauto-implementingmultipleview">MultipleView</a> control pattern.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-providersoverview">UI Automation Providers Overview</a>
-
+<a href="/windows/desktop/WinAuto/uiauto-providersoverview">UI Automation Providers Overview</a>

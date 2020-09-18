@@ -50,15 +50,15 @@ api_name:
 
 ## -description
 
-Sends or posts the <a href="https://docs.microsoft.com/windows/desktop/Controls/wm-notify">WM_NOTIFY</a> message.
+Sends or posts the <a href="/windows/desktop/Controls/wm-notify">WM_NOTIFY</a> message.
 
 ## -parameters
 
 ### -param hwnd
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
-A handle to the window that receives the <a href="https://docs.microsoft.com/windows/desktop/Controls/wm-notify">WM_NOTIFY</a> message.
+A handle to the window that receives the <a href="/windows/desktop/Controls/wm-notify">WM_NOTIFY</a> message.
 
 ### -param idFrom
 
@@ -68,15 +68,15 @@ The identifier of the control sending the message.
 
 ### -param pnmhdr
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a>*</b>
+Type: <b><a href="/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a>*</b>
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a> structure that contains the notification code and additional information. For some notification codes, this parameter points to a larger structure that has the <b>NMHDR</b> structure as its first member.
+A pointer to an <a href="/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a> structure that contains the notification code and additional information. For some notification codes, this parameter points to a larger structure that has the <b>NMHDR</b> structure as its first member.
 
 ### -param fn
 
 Type: <b>function</b>
 
-The function that sends or posts the <a href="https://docs.microsoft.com/windows/desktop/Controls/wm-notify">WM_NOTIFY</a> message. This parameter can be either the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-sendmessage">SendMessage</a> or <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-postmessagea">PostMessage</a> function.
+The function that sends or posts the <a href="/windows/desktop/Controls/wm-notify">WM_NOTIFY</a> message. This parameter can be either the <a href="/windows/desktop/api/winuser/nf-winuser-sendmessage">SendMessage</a> or <a href="/windows/desktop/api/winuser/nf-winuser-postmessagea">PostMessage</a> function.
 
 ## -remarks
 
@@ -86,4 +86,3 @@ The <b>FORWARD_WM_NOTIFY</b> macro is defined as follows.
 
     (void)(fn)((hwnd), WM_NOTIFY, (WPARAM)(int)(id), \ 
     (LPARAM)(NMHDR*)(pnmhdr)) </code></pre>
-

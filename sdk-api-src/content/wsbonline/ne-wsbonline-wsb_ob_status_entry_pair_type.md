@@ -86,5 +86,4 @@ The maximum enumeration value for this enumeration.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/wsb/windows-server-backup-api-enumerations">Cloud Backup Provider API Enumerations</a>
-
+<a href="/previous-versions/windows/desktop/wsb/windows-server-backup-api-enumerations">Cloud Backup Provider API Enumerations</a>

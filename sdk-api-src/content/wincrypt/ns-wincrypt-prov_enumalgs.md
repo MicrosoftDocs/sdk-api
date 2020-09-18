@@ -52,17 +52,17 @@ api_name:
 
 ## -description
 
-The <b>PROV_ENUMALGS</b> structure is used with the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptgetprovparam">CryptGetProvParam</a> function when the <b>PP_ENUMALGS</b> parameter is retrieved to contain information about an algorithm supported by a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">cryptographic service provider</a> (CSP).
+The <b>PROV_ENUMALGS</b> structure is used with the <a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptgetprovparam">CryptGetProvParam</a> function when the <b>PP_ENUMALGS</b> parameter is retrieved to contain information about an algorithm supported by a <a href="/windows/desktop/SecGloss/c-gly">cryptographic service provider</a> (CSP).
 
 ## -struct-fields
 
 ### -field aiAlgid
 
-One of the <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/alg-id">ALG_ID</a> values that identifies the algorithm.
+One of the <a href="/windows/desktop/SecCrypto/alg-id">ALG_ID</a> values that identifies the algorithm.
 
 ### -field dwBitLen
 
-The default <a href="https://docs.microsoft.com/windows/desktop/SecGloss/k-gly">key length</a>, in bits, of the algorithm.
+The default <a href="/windows/desktop/SecGloss/k-gly">key length</a>, in bits, of the algorithm.
 
 ### -field dwNameLen
 
@@ -71,4 +71,3 @@ The length, in <b>CHAR</b>s, of the <b>szName</b> string. This length includes t
 ### -field szName
 
 A null-terminated ANSI string that contains the name of the algorithm.
-

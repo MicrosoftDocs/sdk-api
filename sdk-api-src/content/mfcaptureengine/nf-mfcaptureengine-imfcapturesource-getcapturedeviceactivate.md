@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
- Gets the current capture device's <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfactivate">IMFActivate</a> object pointer.
+ Gets the current capture device's <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfactivate">IMFActivate</a> object pointer.
 
 ## -parameters
 
@@ -60,7 +60,7 @@ The capture engine device type.
 
 ### -param ppActivate [out]
 
-Receives the pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfactivate">IMFActivate</a> that represents a device.
+Receives the pointer to a <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfactivate">IMFActivate</a> that represents a device.
 
 ## -returns
 
@@ -68,5 +68,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfcaptureengine/nn-mfcaptureengine-imfcapturesource">IMFCaptureSource</a>
-
+<a href="/windows/desktop/api/mfcaptureengine/nn-mfcaptureengine-imfcapturesource">IMFCaptureSource</a>

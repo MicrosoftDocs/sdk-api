@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-Deletes a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security support provider</a> from the list of providers supported by <a href="https://docs.microsoft.com/windows/desktop/SecAuthN/microsoft-negotiate">Microsoft Negotiate</a>.
+Deletes a <a href="/windows/desktop/SecGloss/s-gly">security support provider</a> from the list of providers supported by <a href="/windows/desktop/SecAuthN/microsoft-negotiate">Microsoft Negotiate</a>.
 
 ## -parameters
 
@@ -68,10 +68,9 @@ If the function fails, it returns a nonzero error code.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-addsecuritypackagea">AddSecurityPackage</a>
+<a href="/windows/desktop/api/sspi/nf-sspi-addsecuritypackagea">AddSecurityPackage</a>
 
 ## -remarks
 
 > [!NOTE]
 > The sspi.h header defines DeleteSecurityPackage as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

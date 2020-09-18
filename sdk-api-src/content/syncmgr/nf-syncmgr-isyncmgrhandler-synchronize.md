@@ -74,15 +74,15 @@ A handle to the window that the item uses to display any necessary UI. This valu
 
 ### -param pSessionCreator [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nn-syncmgr-isyncmgrsessioncreator">ISyncMgrSessionCreator</a>*</b>
+Type: <b><a href="/windows/desktop/api/syncmgr/nn-syncmgr-isyncmgrsessioncreator">ISyncMgrSessionCreator</a>*</b>
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nn-syncmgr-isyncmgrsessioncreator">ISyncMgrSessionCreator</a> interface. This interface enables the handler itself to report progress and events, or to signal a background process to report progress and events.
+A pointer to an <a href="/windows/desktop/api/syncmgr/nn-syncmgr-isyncmgrsessioncreator">ISyncMgrSessionCreator</a> interface. This interface enables the handler itself to report progress and events, or to signal a background process to report progress and events.
 
 ### -param punk [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>*</b>
+Type: <b><a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>*</b>
 
-A pointer to an interface to be passed to <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nn-syncmgr-isyncmgrcontrol">ISyncMgrControl</a>. <b>ISyncMgrHandler::Synchronize</b> is called either when a user requests a synchronization from the Sync Center folder or when one of the <b>ISyncMgrControl</b> synchronize methods is called, such as <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrcontrol-startsyncall">StartSyncAll</a>.
+A pointer to an interface to be passed to <a href="/windows/desktop/api/syncmgr/nn-syncmgr-isyncmgrcontrol">ISyncMgrControl</a>. <b>ISyncMgrHandler::Synchronize</b> is called either when a user requests a synchronization from the Sync Center folder or when one of the <b>ISyncMgrControl</b> synchronize methods is called, such as <a href="/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrcontrol-startsyncall">StartSyncAll</a>.
 
 ## -returns
 
@@ -96,27 +96,27 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
                 
 
-The handler can create the session itself by calling the <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrsessioncreator-createsession">CreateSession</a> method or it can signal an external process to perform the synchronization. If the handler creates the session, it should not return from the <b>ISyncMgrHandler::Synchronize</b> method until synchronization is complete. If the handler delegates synchronization to an external process, the external process should use <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance">CoCreateInstance</a> to create the CLSID_SyncMgrClient object, specifying the <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nn-syncmgr-isyncmgrsessioncreator">ISyncMgrSessionCreator</a> interface. The process then creates the session so that it can report progress.
+The handler can create the session itself by calling the <a href="/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrsessioncreator-createsession">CreateSession</a> method or it can signal an external process to perform the synchronization. If the handler creates the session, it should not return from the <b>ISyncMgrHandler::Synchronize</b> method until synchronization is complete. If the handler delegates synchronization to an external process, the external process should use <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance">CoCreateInstance</a> to create the CLSID_SyncMgrClient object, specifying the <a href="/windows/desktop/api/syncmgr/nn-syncmgr-isyncmgrsessioncreator">ISyncMgrSessionCreator</a> interface. The process then creates the session so that it can report progress.
 
-A user may elect to stop synchronization on an item or handler. An application can also stop synchronization by calling one of the stop methods on the <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nn-syncmgr-isyncmgrcontrol">ISyncMgrControl</a> interface, such as <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrcontrol-stopitemsync">StopItemSync</a>. The following mechanisms are provided to support these scenarios.
+A user may elect to stop synchronization on an item or handler. An application can also stop synchronization by calling one of the stop methods on the <a href="/windows/desktop/api/syncmgr/nn-syncmgr-isyncmgrcontrol">ISyncMgrControl</a> interface, such as <a href="/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrcontrol-stopitemsync">StopItemSync</a>. The following mechanisms are provided to support these scenarios.
 
 
 <ul>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrsynccallback-reportprogress">ReportProgress</a> returns a parameter indicating whether cancellation has been requested.</li>
-<li>The handler can call <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrsynccallback-cancontinue">CanContinue</a>.</li>
+<a href="/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrsynccallback-reportprogress">ReportProgress</a> returns a parameter indicating whether cancellation has been requested.</li>
+<li>The handler can call <a href="/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrsynccallback-cancontinue">CanContinue</a>.</li>
 </ul>
 
 
-If the user asks to sync additional items after the <b>ISyncMgrHandler::Synchronize</b> method has been called, the handler can sync the new items in the same session by querying for them through the <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrsynccallback-queryforadditionalitems">QueryForAdditionalItems</a> method on the callback. If they choose to sync an item they queried for, they can then call <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrsynccallback-additemtosession">AddItemToSession</a>.
+If the user asks to sync additional items after the <b>ISyncMgrHandler::Synchronize</b> method has been called, the handler can sync the new items in the same session by querying for them through the <a href="/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrsynccallback-queryforadditionalitems">QueryForAdditionalItems</a> method on the callback. If they choose to sync an item they queried for, they can then call <a href="/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrsynccallback-additemtosession">AddItemToSession</a>.
 
-Some handlers will not enumerate an item until it has been synchronized. If the handler discovers such items during a synchronization, it can inform Sync Center about them through the session. For example, if the handler discovers an item to add to the sync set, it calls <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrsynccallback-proposeitem">ProposeItem</a>. Once the item has been successfully created, the handler calls <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrsynccallback-commititem">CommitItem</a>. At that point, Sync Center adds it to the list of items that it is tracking for the handler.
+Some handlers will not enumerate an item until it has been synchronized. If the handler discovers such items during a synchronization, it can inform Sync Center about them through the session. For example, if the handler discovers an item to add to the sync set, it calls <a href="/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrsynccallback-proposeitem">ProposeItem</a>. Once the item has been successfully created, the handler calls <a href="/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrsynccallback-commititem">CommitItem</a>. At that point, Sync Center adds it to the list of items that it is tracking for the handler.
 
-The <b>ISyncMgrHandler::Synchronize</b> method is analogous to a combination of the older <a href="https://docs.microsoft.com/windows/desktop/api/mobsync/nf-mobsync-isyncmgrsynchronize-prepareforsync">PrepareForSync</a> and <a href="https://docs.microsoft.com/windows/desktop/api/mobsync/nf-mobsync-isyncmgrsynchronize-synchronize">Synchronize</a> methods. In the case of the older interface, Sync Center called <b>PrepareForSync</b> immediately followed by <b>Synchronize</b>. The <b>ISyncMgrHandler::Synchronize</b> method provides the functionality of these two methods into a single call.
+The <b>ISyncMgrHandler::Synchronize</b> method is analogous to a combination of the older <a href="/windows/desktop/api/mobsync/nf-mobsync-isyncmgrsynchronize-prepareforsync">PrepareForSync</a> and <a href="/windows/desktop/api/mobsync/nf-mobsync-isyncmgrsynchronize-synchronize">Synchronize</a> methods. In the case of the older interface, Sync Center called <b>PrepareForSync</b> immediately followed by <b>Synchronize</b>. The <b>ISyncMgrHandler::Synchronize</b> method provides the functionality of these two methods into a single call.
 
                 
 
-Another difference between <b>ISyncMgrHandler::Synchronize</b> and <a href="https://docs.microsoft.com/windows/desktop/api/mobsync/nf-mobsync-isyncmgrsynchronize-synchronize">Synchronize</a> is that the older method was expected to perform the synchronization asynchronously. <b>Synchronize</b> queued the request in one or more external threads and then returned. It then called <a href="https://docs.microsoft.com/windows/desktop/api/mobsync/nf-mobsync-isyncmgrsynchronizecallback-synchronizecompleted">SynchronizeCompleted</a> once it had finished synchronizing all items. <b>ISyncMgrHandler::Synchronize</b> supports a synchronous model for in-proc (foreground) synchronization or an asynchronous model for out-of-proc (background) synchronization.
+Another difference between <b>ISyncMgrHandler::Synchronize</b> and <a href="/windows/desktop/api/mobsync/nf-mobsync-isyncmgrsynchronize-synchronize">Synchronize</a> is that the older method was expected to perform the synchronization asynchronously. <b>Synchronize</b> queued the request in one or more external threads and then returned. It then called <a href="/windows/desktop/api/mobsync/nf-mobsync-isyncmgrsynchronizecallback-synchronizecompleted">SynchronizeCompleted</a> once it had finished synchronizing all items. <b>ISyncMgrHandler::Synchronize</b> supports a synchronous model for in-proc (foreground) synchronization or an asynchronous model for out-of-proc (background) synchronization.
 
 
 #### Examples
@@ -246,4 +246,3 @@ STDMETHODIMP CMyDeviceHandler::Synchronize(__in_ecount(cItems) LPCWSTR *ppszItem
 }
 
 ```
-

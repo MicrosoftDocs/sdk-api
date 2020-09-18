@@ -59,11 +59,11 @@ Gets the specified channel configuration property.
 
 ### -param ChannelConfig [in]
 
-A handle to the channel's configuration properties that the  <a href="https://docs.microsoft.com/windows/desktop/api/winevt/nf-winevt-evtopenchannelconfig">EvtOpenChannelConfig</a> function returns.
+A handle to the channel's configuration properties that the  <a href="/windows/desktop/api/winevt/nf-winevt-evtopenchannelconfig">EvtOpenChannelConfig</a> function returns.
 
 ### -param PropertyId [in]
 
-The identifier of the channel property to retrieve. For a list of property identifiers, see the <a href="https://docs.microsoft.com/windows/desktop/api/winevt/ne-winevt-evt_channel_config_property_id">EVT_CHANNEL_CONFIG_PROPERTY_ID</a> enumeration.
+The identifier of the channel property to retrieve. For a list of property identifiers, see the <a href="/windows/desktop/api/winevt/ne-winevt-evt_channel_config_property_id">EVT_CHANNEL_CONFIG_PROPERTY_ID</a> enumeration.
 
 ### -param Flags [in]
 
@@ -75,7 +75,7 @@ The size of the <i>PropertyValueBuffer</i> buffer, in bytes.
 
 ### -param PropertyValueBuffer [in]
 
-A caller-allocated buffer that will receive the configuration property. The buffer contains an <a href="https://docs.microsoft.com/windows/desktop/api/winevt/ns-winevt-evt_variant">EVT_VARIANT</a> object. You can set this parameter to <b>NULL</b> to determine the required buffer size.
+A caller-allocated buffer that will receive the configuration property. The buffer contains an <a href="/windows/desktop/api/winevt/ns-winevt-evt_variant">EVT_VARIANT</a> object. You can set this parameter to <b>NULL</b> to determine the required buffer size.
 
 ### -param PropertyValueBufferUsed [out]
 
@@ -108,7 +108,7 @@ The function succeeded.
 </dl>
 </td>
 <td width="60%">
-The function failed. To get the error code, call the <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function.
+The function failed. To get the error code, call the <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function.
 
 </td>
 </tr>
@@ -116,5 +116,4 @@ The function failed. To get the error code, call the <a href="https://docs.micro
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winevt/nf-winevt-evtopenchannelconfig">EvtOpenChannelConfig</a>
-
+<a href="/windows/desktop/api/winevt/nf-winevt-evtopenchannelconfig">EvtOpenChannelConfig</a>

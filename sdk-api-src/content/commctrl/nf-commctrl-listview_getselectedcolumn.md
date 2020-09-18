@@ -50,17 +50,16 @@ api_name:
 
 ## -description
 
-Gets an integer that specifies the selected column. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/lvm-getselectedcolumn">LVM_GETSELECTEDCOLUMN</a> message explicitly.
+Gets an integer that specifies the selected column. You can use this macro or send the <a href="/windows/desktop/Controls/lvm-getselectedcolumn">LVM_GETSELECTEDCOLUMN</a> message explicitly.
 
 ## -parameters
 
 ### -param hwnd
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the list-view control.
 
 ## -remarks
 
-To use <b>ListView_GetSelectedColumn</b>, specify Comctl32.dll version 6 in the manifest. For more information on manifests, see <a href="https://docs.microsoft.com/windows/desktop/Controls/cookbook-overview">Enabling Visual Styles</a>.
-
+To use <b>ListView_GetSelectedColumn</b>, specify Comctl32.dll version 6 in the manifest. For more information on manifests, see <a href="/windows/desktop/Controls/cookbook-overview">Enabling Visual Styles</a>.

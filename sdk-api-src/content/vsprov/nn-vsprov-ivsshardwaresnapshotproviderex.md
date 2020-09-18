@@ -56,7 +56,7 @@ Provides an additional method used by VSS to notify hardware providers of LUN st
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVssHardwareSnapshotProviderEx</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/vsprov/nn-vsprov-ivsshardwaresnapshotprovider">IVssHardwareSnapshotProvider</a>. <b>IVssHardwareSnapshotProviderEx</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVssHardwareSnapshotProviderEx</b> interface inherits from <a href="/windows/desktop/api/vsprov/nn-vsprov-ivsshardwaresnapshotprovider">IVssHardwareSnapshotProvider</a>. <b>IVssHardwareSnapshotProviderEx</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>IVssHardwareSnapshotProviderEx</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vsprov/nf-vsprov-ivsshardwaresnapshotproviderex-getprovidercapabilities">GetProviderCapabilities</a>
+<a href="/windows/desktop/api/vsprov/nf-vsprov-ivsshardwaresnapshotproviderex-getprovidercapabilities">GetProviderCapabilities</a>
 </td>
 <td align="left" width="63%">
 This method is reserved for future use.
@@ -80,7 +80,7 @@ This method is reserved for future use.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vsprov/nf-vsprov-ivsshardwaresnapshotproviderex-onlunstatechange">OnLunStateChange</a>
+<a href="/windows/desktop/api/vsprov/nf-vsprov-ivsshardwaresnapshotproviderex-onlunstatechange">OnLunStateChange</a>
 </td>
 <td align="left" width="63%">
 The VSS service calls this method to notify hardware providers of a LUN state change.
@@ -89,7 +89,7 @@ The VSS service calls this method to notify hardware providers of a LUN state ch
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vsprov/nf-vsprov-ivsshardwaresnapshotproviderex-onreuseluns">OnReuseLuns</a>
+<a href="/windows/desktop/api/vsprov/nf-vsprov-ivsshardwaresnapshotproviderex-onreuseluns">OnReuseLuns</a>
 </td>
 <td align="left" width="63%">
 This method is reserved for future use.
@@ -98,7 +98,7 @@ This method is reserved for future use.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vsprov/nf-vsprov-ivsshardwaresnapshotproviderex-resyncluns">ResyncLuns</a>
+<a href="/windows/desktop/api/vsprov/nf-vsprov-ivsshardwaresnapshotproviderex-resyncluns">ResyncLuns</a>
 </td>
 <td align="left" width="63%">
 The VSS service calls this method to notify hardware providers that a LUN resynchronization is needed.
@@ -109,9 +109,8 @@ The VSS service calls this method to notify hardware providers that a LUN resync
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vsprov/nn-vsprov-ivsshardwaresnapshotprovider">IVssHardwareSnapshotProvider</a>
+<a href="/windows/desktop/api/vsprov/nn-vsprov-ivsshardwaresnapshotprovider">IVssHardwareSnapshotProvider</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/VSS/volume-shadow-copy-api-interfaces">Volume Shadow Copy API Interfaces</a>
-
+<a href="/windows/desktop/VSS/volume-shadow-copy-api-interfaces">Volume Shadow Copy API Interfaces</a>

@@ -53,11 +53,11 @@ api_name:
 
 The <code>IAMFilterMiscFlags</code> interface queries whether a filter is a source filter or a renderer. Source and renderer filters should implement this interface.
 
-Applications do not use this interface. The Filter Graph Manager uses this interface to determine how many <a href="https://docs.microsoft.com/windows/desktop/DirectShow/ec-complete">EC_COMPLETE</a> events it will receive when playback completes.
+Applications do not use this interface. The Filter Graph Manager uses this interface to determine how many <a href="/windows/desktop/DirectShow/ec-complete">EC_COMPLETE</a> events it will receive when playback completes.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAMFilterMiscFlags</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAMFilterMiscFlags</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAMFilterMiscFlags</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAMFilterMiscFlags</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,7 +72,7 @@ The <b>IAMFilterMiscFlags</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamfiltermiscflags-getmiscflags">GetMiscFlags</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-iamfiltermiscflags-getmiscflags">GetMiscFlags</a>
 </td>
 <td align="left" width="63%">
 Returns the filter's type, either source or renderer.
@@ -83,5 +83,4 @@ Returns the filter's type, either source or renderer.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/interfaces">Interfaces</a>
-
+<a href="/windows/desktop/DirectShow/interfaces">Interfaces</a>

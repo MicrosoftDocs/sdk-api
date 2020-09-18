@@ -52,23 +52,22 @@ api_name:
 
 ## -description
 
-Contains initialization parameters for an <a href="https://docs.microsoft.com/windows/desktop/medfound/output-protection-manager">Output Protection Manager</a> (OPM) session.
+Contains initialization parameters for an <a href="/windows/desktop/medfound/output-protection-manager">Output Protection Manager</a> (OPM) session.
 
 ## -struct-fields
 
 ### -field abEncryptedInitializationParameters
 
-Pointer to a buffer that contains encrypted initialization parameters for the session. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/opmapi/nf-opmapi-iopmvideooutput-finishinitialization">IOPMVideoOutput::FinishInitialization</a>.
+Pointer to a buffer that contains encrypted initialization parameters for the session. For more information, see <a href="/windows/desktop/api/opmapi/nf-opmapi-iopmvideooutput-finishinitialization">IOPMVideoOutput::FinishInitialization</a>.
 
 ## -remarks
 
-The layout of this structure is identical to the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-amcoppsignature">AMCOPPSignature</a> structure used in Certified Output Protection Protocol (COPP).
+The layout of this structure is identical to the <a href="/windows/desktop/api/strmif/ns-strmif-amcoppsignature">AMCOPPSignature</a> structure used in Certified Output Protection Protocol (COPP).
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/opm-structures">OPM Structures</a>
+<a href="/windows/desktop/medfound/opm-structures">OPM Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/output-protection-manager">Output Protection Manager</a>
-
+<a href="/windows/desktop/medfound/output-protection-manager">Output Protection Manager</a>

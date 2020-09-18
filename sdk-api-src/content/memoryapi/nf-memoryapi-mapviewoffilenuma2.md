@@ -106,13 +106,12 @@ The preferred NUMA node for this memory.
 ## -returns
 
 Returns the base address of the mapped view, if successful. Otherwise, returns <b>NULL</b> and extended error status is available
-           using <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+           using <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-mapviewoffile">MapViewOfFile</a>
+<a href="/windows/desktop/api/memoryapi/nf-memoryapi-mapviewoffile">MapViewOfFile</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-mapviewoffilenuma2">MapViewOfFileNuma</a>
-
+<a href="/windows/desktop/api/memoryapi/nf-memoryapi-mapviewoffilenuma2">MapViewOfFileNuma</a>

@@ -53,7 +53,7 @@ api_name:
 
 ## -description
 
-The <b>UpdateWindow</b> function updates the client area of the specified window by sending a <a href="https://docs.microsoft.com/windows/desktop/gdi/wm-paint">WM_PAINT</a> message to the window if the window's update region is not empty. The function sends a <b>WM_PAINT</b> message directly to the window procedure of the specified window, bypassing the application queue. If the update region is empty, no message is sent.
+The <b>UpdateWindow</b> function updates the client area of the specified window by sending a <a href="/windows/desktop/gdi/wm-paint">WM_PAINT</a> message to the window if the window's update region is not empty. The function sends a <b>WM_PAINT</b> message directly to the window procedure of the specified window, bypassing the application queue. If the update region is empty, no message is sent.
 
 ## -parameters
 
@@ -69,33 +69,32 @@ If the function fails, the return value is zero.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-excludeupdatergn">ExcludeUpdateRgn</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-excludeupdatergn">ExcludeUpdateRgn</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getupdaterect">GetUpdateRect</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-getupdaterect">GetUpdateRect</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getupdatergn">GetUpdateRgn</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-getupdatergn">GetUpdateRgn</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-invalidaterect">InvalidateRect</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-invalidaterect">InvalidateRect</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-invalidatergn">InvalidateRgn</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-invalidatergn">InvalidateRgn</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/painting-and-drawing-functions">Painting and Drawing Functions</a>
+<a href="/windows/desktop/gdi/painting-and-drawing-functions">Painting and Drawing Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/painting-and-drawing">Painting and Drawing Overview</a>
+<a href="/windows/desktop/gdi/painting-and-drawing">Painting and Drawing Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/wm-paint">WM_PAINT</a>
-
+<a href="/windows/desktop/gdi/wm-paint">WM_PAINT</a>

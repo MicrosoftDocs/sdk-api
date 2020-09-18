@@ -67,7 +67,7 @@ Size of the structure, including the appended strings, in bytes.
 
 ### -field dwType
 
-Counter type. For a list of counter types, see the Counter Types section of the <a href="https://technet.microsoft.com/library/3fb01419-b1ab-4f52-a9f8-09d5ebeb9ef2">Windows Server 2003 Deployment Kit</a>. The counter type constants are defined in Winperf.h.
+Counter type. For a list of counter types, see the Counter Types section of the <a href="/previous-versions/windows/it-pro/windows-server-2003/cc776490(v=ws.10)">Windows Server 2003 Deployment Kit</a>. The counter type constants are defined in Winperf.h.
 
 ### -field CVersion
 
@@ -77,7 +77,7 @@ Counter version information.
 ### -field CStatus
 
 Counter status that indicates if the counter value is valid. For a list of possible values, see 
-<a href="https://docs.microsoft.com/windows/desktop/PerfCtrs/checking-pdh-interface-return-values">Checking PDH Interface Return Values</a>.
+<a href="/windows/desktop/PerfCtrs/checking-pdh-interface-return-values">Checking PDH Interface Return Values</a>.
 
 ### -field lScale
 
@@ -90,11 +90,11 @@ Default scale factor as suggested by the counter's provider.
 
 ### -field dwUserData
 
-The value passed in the <i>dwUserData</i> parameter when calling <a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhaddcountera">PdhAddCounter</a>.
+The value passed in the <i>dwUserData</i> parameter when calling <a href="/windows/desktop/api/pdh/nf-pdh-pdhaddcountera">PdhAddCounter</a>.
 
 ### -field dwQueryUserData
 
-The value passed in the <i>dwUserData</i> parameter when calling <a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhopenquerya">PdhOpenQuery</a>.
+The value passed in the <i>dwUserData</i> parameter when calling <a href="/windows/desktop/api/pdh/nf-pdh-pdhopenquerya">PdhOpenQuery</a>.
 
 ### -field szFullPath
 
@@ -103,12 +103,12 @@ The value passed in the <i>dwUserData</i> parameter when calling <a href="https:
 ### -field DataItemPath
 
 A 
-<a href="https://docs.microsoft.com/windows/desktop/api/pdh/ns-pdh-pdh_data_item_path_elements_a">PDH_DATA_ITEM_PATH_ELEMENTS</a> structure. Not used.
+<a href="/windows/desktop/api/pdh/ns-pdh-pdh_data_item_path_elements_a">PDH_DATA_ITEM_PATH_ELEMENTS</a> structure. Not used.
 
 ### -field CounterPath
 
 A 
-<a href="https://docs.microsoft.com/windows/desktop/api/pdh/ns-pdh-pdh_counter_path_elements_a">PDH_COUNTER_PATH_ELEMENTS</a> structure.
+<a href="/windows/desktop/api/pdh/ns-pdh-pdh_counter_path_elements_a">PDH_COUNTER_PATH_ELEMENTS</a> structure.
 
 ### -field szMachineName
 
@@ -148,13 +148,12 @@ When you allocate memory for this structure, allocate enough memory for the memb
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/pdh/ns-pdh-pdh_counter_path_elements_a">PDH_COUNTER_PATH_ELEMENTS</a>
+<a href="/windows/desktop/api/pdh/ns-pdh-pdh_counter_path_elements_a">PDH_COUNTER_PATH_ELEMENTS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/pdh/ns-pdh-pdh_data_item_path_elements_a">PDH_DATA_ITEM_PATH_ELEMENTS</a>
+<a href="/windows/desktop/api/pdh/ns-pdh-pdh_data_item_path_elements_a">PDH_DATA_ITEM_PATH_ELEMENTS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhgetcounterinfoa">PdhGetCounterInfo</a>
-
+<a href="/windows/desktop/api/pdh/nf-pdh-pdhgetcounterinfoa">PdhGetCounterInfo</a>

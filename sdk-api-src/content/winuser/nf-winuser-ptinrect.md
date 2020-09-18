@@ -63,7 +63,7 @@ A pointer to a <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> str
 
 ### -param pt [in]
 
-A <a href="https://docs.microsoft.com/previous-versions/dd162805(v=vs.85)">POINT</a> structure that contains the specified point.
+A <a href="/previous-versions/dd162805(v=vs.85)">POINT</a> structure that contains the specified point.
 
 ## -returns
 
@@ -80,21 +80,21 @@ Because applications can use rectangles for different purposes, the rectangle fu
 
 #### Examples
 
-For an example, see <a href="https://docs.microsoft.com/windows/desktop/gdi/using-rectangles">Using Rectangles</a>.
+For an example, see <a href="/windows/desktop/gdi/using-rectangles">Using Rectangles</a>.
 
 <div class="code"></div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-equalrect">EqualRect</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-equalrect">EqualRect</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-isrectempty">IsRectEmpty</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-isrectempty">IsRectEmpty</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/dd162805(v=vs.85)">POINT</a>
+<a href="/previous-versions/dd162805(v=vs.85)">POINT</a>
 
 
 
@@ -102,9 +102,8 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/gdi/usin
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/rectangle-functions">Rectangle Functions</a>
+<a href="/windows/desktop/gdi/rectangle-functions">Rectangle Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/rectangles">Rectangles Overview</a>
-
+<a href="/windows/desktop/gdi/rectangles">Rectangles Overview</a>

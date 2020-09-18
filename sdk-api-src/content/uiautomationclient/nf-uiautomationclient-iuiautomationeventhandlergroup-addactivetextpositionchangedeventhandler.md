@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Registers a method (in an event handler group) that handles when the active text position changes.<div class="alert"><b>Important</b>  Microsoft UI Automation clients should use the handler group methods to register event listeners instead of individual event registration methods defined in the various <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomation">IUIAutomation</a> namespaces.</div>
+Registers a method (in an event handler group) that handles when the active text position changes.<div class="alert"><b>Important</b>  Microsoft UI Automation clients should use the handler group methods to register event listeners instead of individual event registration methods defined in the various <a href="/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomation">IUIAutomation</a> namespaces.</div>
 <div> </div>
 
 ## -parameters
@@ -73,7 +73,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -remarks
 
-Before implementing an event handler, you should be familiar with the threading issues described in <a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-threading">Understanding Threading Issues</a>.
+Before implementing an event handler, you should be familiar with the threading issues described in <a href="/windows/desktop/WinAuto/uiauto-threading">Understanding Threading Issues</a>.
 
 Active text position is indicated by a navigation event within or between read-only text elements (such as web browsers, Portable Document Format (PDF) documents, or <a href="https://en.wikipedia.org/wiki/EPUB">EPUB</a> documents) using  bookmarks (or fragment identifiers to refer to a location within a resource). Examples include:
 
@@ -90,9 +90,8 @@ is invoked, the visual location is updated, but the UI Automation client remains
 
 Similarly, activating a new page URI (with a fragment identifier: (<code>&lt;a href=”www.blah.com#C4”&gt;Jump to Chapter 4&lt;/a&gt;</code>)) loads the new page and jumps to the specified bookmark, but leaves the UI Automation clients   at the top of the page.
 
-For editable text elements, such as <a href="https://docs.microsoft.com/windows/desktop/controls/edit-controls">Edit</a> and <a href="https://docs.microsoft.com/windows/desktop/controls/rich-edit-controls">Rich Edit</a> controls,  you can listen for a SelectionChanged event.
+For editable text elements, such as <a href="/windows/desktop/controls/edit-controls">Edit</a> and <a href="/windows/desktop/controls/rich-edit-controls">Rich Edit</a> controls,  you can listen for a SelectionChanged event.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationeventhandlergroup">IUIAutomationEventHandlerGroup</a>
-
+<a href="/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationeventhandlergroup">IUIAutomationEventHandlerGroup</a>

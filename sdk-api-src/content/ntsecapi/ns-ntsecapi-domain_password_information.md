@@ -56,7 +56,7 @@ api_name:
 
 The <b>DOMAIN_PASSWORD_INFORMATION</b> structure contains information about a domain's password policy, such as the minimum length for passwords and how unique passwords must be.
 
-It is used in the <a href="https://docs.microsoft.com/windows/desktop/SecAuthN/msv1-0-changepassword-response">MSV1_0_CHANGEPASSWORD_RESPONSE</a> structure.
+It is used in the <a href="/windows/desktop/SecAuthN/msv1-0-changepassword-response">MSV1_0_CHANGEPASSWORD_RESPONSE</a> structure.
 
 ## -struct-fields
 
@@ -159,13 +159,12 @@ This value should not be used as it can weaken security.
 
 ### -field MaxPasswordAge
 
-Specifies the maximum length of time that a password can remain the same. Passwords older than this must be changed. Because SAM stores relative times as negative values and absolute times as positive numbers, the time is stored as a <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure with negative values.
+Specifies the maximum length of time that a password can remain the same. Passwords older than this must be changed. Because SAM stores relative times as negative values and absolute times as positive numbers, the time is stored as a <a href="/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure with negative values.
 
 The data type for this member is OLD_LARGE_INTEGER if MIDL_PASS is defined.
 
 ### -field MinPasswordAge
 
-Specifies the minimum length of time before a password can be changed. Because SAM stores relative times as negative values and absolute times as positive numbers, the time is stored as a <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure with negative values.
+Specifies the minimum length of time before a password can be changed. Because SAM stores relative times as negative values and absolute times as positive numbers, the time is stored as a <a href="/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure with negative values.
 
 The data type for this member is OLD_LARGE_INTEGER if MIDL_PASS is defined.
-

@@ -64,7 +64,7 @@ The SKU ID.
 
 ### -field eStatus
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/slpublic/ne-slpublic-sllicensingstatus">SLLICENSINGSTATUS</a></b>
+Type: <b><a href="/windows/desktop/api/slpublic/ne-slpublic-sllicensingstatus">SLLICENSINGSTATUS</a></b>
 
 The licensing status.
 
@@ -91,4 +91,3 @@ The error of unlicensed status.
 Type: <b>UINT64</b>
 
 The validity expiration day.
-

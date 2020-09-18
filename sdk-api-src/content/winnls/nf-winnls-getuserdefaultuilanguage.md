@@ -56,19 +56,19 @@ api_name:
 
 ## -description
 
-Returns the language identifier for the user UI language for the current user. If the current user has not set a language, <b>GetUserDefaultUILanguage</b> returns the preferred language set for the system. If there is no preferred language set for the system, then the system default UI language (also known as "install language") is returned. For more information about the user UI language, see <a href="https://docs.microsoft.com/windows/desktop/Intl/user-interface-language-management">User Interface Language Management</a>.
+Returns the language identifier for the user UI language for the current user. If the current user has not set a language, <b>GetUserDefaultUILanguage</b> returns the preferred language set for the system. If there is no preferred language set for the system, then the system default UI language (also known as "install language") is returned. For more information about the user UI language, see <a href="/windows/desktop/Intl/user-interface-language-management">User Interface Language Management</a>.
 
 ## -parameters
 
 ## -returns
 
-Returns the <a href="https://docs.microsoft.com/windows/desktop/Intl/language-identifiers">language identifier</a> for the user UI language for the current user.
+Returns the <a href="/windows/desktop/Intl/language-identifiers">language identifier</a> for the user UI language for the current user.
 
 ## -remarks
 
-This function returns only a language identifier. An application can retrieve the language name using the <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-getuserpreferreduilanguages">GetUserPreferredUILanguages</a> function.
+This function returns only a language identifier. An application can retrieve the language name using the <a href="/windows/desktop/api/winnls/nf-winnls-getuserpreferreduilanguages">GetUserPreferredUILanguages</a> function.
 
-If the user UI language is part of a Language Interface Pack (LIP) and corresponds to a <a href="https://docs.microsoft.com/windows/desktop/Intl/custom-locales">supplemental locale</a>, this function returns <a href="https://docs.microsoft.com/windows/desktop/Intl/locale-custom-constants">LOCALE_CUSTOM_UI_DEFAULT</a>.
+If the user UI language is part of a Language Interface Pack (LIP) and corresponds to a <a href="/windows/desktop/Intl/custom-locales">supplemental locale</a>, this function returns <a href="/windows/desktop/Intl/locale-custom-constants">LOCALE_CUSTOM_UI_DEFAULT</a>.
 
 <b>Windows Me, Windows 2000, Windows XP, Windows Server 2003:</b> The <b>GetUserDefaultUILanguage</b> function retrieves the language identifier for the current user language. If MUI is not installed on the operating system, the function retrieves the default computer user interface language.
 
@@ -82,17 +82,16 @@ If the user UI language is part of a Language Interface Pack (LIP) and correspon
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-enumuilanguagesa">EnumUILanguages</a>
+<a href="/windows/desktop/api/winnls/nf-winnls-enumuilanguagesa">EnumUILanguages</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-getsystemdefaultuilanguage">GetSystemDefaultUILanguage</a>
+<a href="/windows/desktop/api/winnls/nf-winnls-getsystemdefaultuilanguage">GetSystemDefaultUILanguage</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/multilingual-user-interface">Multilingual User Interface</a>
+<a href="/windows/desktop/Intl/multilingual-user-interface">Multilingual User Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/multilingual-user-interface-functions">Multilingual User Interface Functions</a>
-
+<a href="/windows/desktop/Intl/multilingual-user-interface-functions">Multilingual User Interface Functions</a>

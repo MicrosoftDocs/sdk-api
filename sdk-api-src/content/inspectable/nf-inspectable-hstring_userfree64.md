@@ -66,5 +66,4 @@ The string.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/WinRT/hstring">HSTRING</a>
-
+<a href="/windows/desktop/WinRT/hstring">HSTRING</a>

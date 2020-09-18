@@ -73,22 +73,21 @@ This function supports the standard return value E_INVALIDARG as well as the fol
 <b>FmtIdToPropStgName</b> maps a property set FMTID to its stream name for a simple property set or to its storage name for a nonsimple property set.
 
 This function is useful in creating or opening a property set using the PROPSETFLAG_UNBUFFERED value with the 
-<a href="https://docs.microsoft.com/windows/desktop/api/coml2api/nf-coml2api-stgcreatepropstg">StgCreatePropStg</a> and 
-<a href="https://docs.microsoft.com/windows/desktop/api/coml2api/nf-coml2api-stgopenpropstg">StgOpenPropStg</a> functions. For more information about PROPSETFLAG_UNBUFFERED, see <a href="https://docs.microsoft.com/windows/desktop/Stg/propsetflag-constants">PROPSETFLAG Constants</a>.
+<a href="/windows/desktop/api/coml2api/nf-coml2api-stgcreatepropstg">StgCreatePropStg</a> and 
+<a href="/windows/desktop/api/coml2api/nf-coml2api-stgopenpropstg">StgOpenPropStg</a> functions. For more information about PROPSETFLAG_UNBUFFERED, see <a href="/windows/desktop/Stg/propsetflag-constants">PROPSETFLAG Constants</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Stg/propsetflag-constants">PROPSETFLAG Constants</a>
+<a href="/windows/desktop/Stg/propsetflag-constants">PROPSETFLAG Constants</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/coml2api/nf-coml2api-propstgnametofmtid">PropStgNameToFmtId</a>
+<a href="/windows/desktop/api/coml2api/nf-coml2api-propstgnametofmtid">PropStgNameToFmtId</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/coml2api/nf-coml2api-stgcreatepropstg">StgCreatePropStg</a>
+<a href="/windows/desktop/api/coml2api/nf-coml2api-stgcreatepropstg">StgCreatePropStg</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/coml2api/nf-coml2api-stgopenpropstg">StgOpenPropStg</a>
-
+<a href="/windows/desktop/api/coml2api/nf-coml2api-stgopenpropstg">StgOpenPropStg</a>

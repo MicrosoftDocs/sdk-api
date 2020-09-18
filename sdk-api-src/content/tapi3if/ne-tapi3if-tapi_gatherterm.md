@@ -76,5 +76,4 @@ The request was canceled by this application, by another application, or because
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itdigitsgatheredevent-get_gathertermination">ITDigitsGatheredEvent::get_GatherTermination</a>
-
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itdigitsgatheredevent-get_gathertermination">ITDigitsGatheredEvent::get_GatherTermination</a>

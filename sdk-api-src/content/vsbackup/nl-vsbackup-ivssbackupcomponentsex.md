@@ -54,13 +54,13 @@ api_name:
 The <b>IVssBackupComponentsEx</b> interface provides methods for requesters to run backup and restore operations using multiple writer instances.
 
 To obtain an instance of the <b>IVssBackupComponentsEx</b> 
-   interface, call the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> method of the 
-   <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nl-vsbackup-ivssbackupcomponents">IVssBackupComponents</a> interface, passing 
+   interface, call the <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> method of the 
+   <a href="/windows/desktop/api/vsbackup/nl-vsbackup-ivssbackupcomponents">IVssBackupComponents</a> interface, passing 
    <b>IID_IVssBackupComponentsEx</b> as the interface identifier (IID) parameter.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVssBackupComponentsEx</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nl-vsbackup-ivssbackupcomponents">IVssBackupComponents</a>. <b>IVssBackupComponentsEx</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVssBackupComponentsEx</b> interface inherits from <a href="/windows/desktop/api/vsbackup/nl-vsbackup-ivssbackupcomponents">IVssBackupComponents</a>. <b>IVssBackupComponentsEx</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -75,7 +75,7 @@ The <b>IVssBackupComponentsEx</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponentsex-getwritermetadataex">GetWriterMetadataEx</a>
+<a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponentsex-getwritermetadataex">GetWriterMetadataEx</a>
 </td>
 <td align="left" width="63%">
 Returns writer metadata for a specific writer instance.
@@ -84,7 +84,7 @@ Returns writer metadata for a specific writer instance.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponentsex-setselectedforrestoreex">SetSelectedForRestoreEx</a>
+<a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponentsex-setselectedforrestoreex">SetSelectedForRestoreEx</a>
 </td>
 <td align="left" width="63%">
 Indicates whether the specified component has been selected for restoration to a specified writer instance.
@@ -95,5 +95,4 @@ Indicates whether the specified component has been selected for restoration to a
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nl-vsbackup-ivssbackupcomponents">IVssBackupComponents</a>
-
+<a href="/windows/desktop/api/vsbackup/nl-vsbackup-ivssbackupcomponents">IVssBackupComponents</a>

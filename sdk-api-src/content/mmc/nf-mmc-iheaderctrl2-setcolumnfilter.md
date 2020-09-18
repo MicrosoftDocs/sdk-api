@@ -61,12 +61,12 @@ A zero-based index that identifies the column for which the filter value and its
 ### -param dwType [in]
 
 Filter type to apply to the specified column, taken from the 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ne-mmc-mmc_filter_type">MMC_FILTER_TYPE</a> enumeration.
+<a href="/windows/desktop/api/mmc/ne-mmc-mmc_filter_type">MMC_FILTER_TYPE</a> enumeration.
 
 ### -param pFilterData [in]
 
 A pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ns-mmc-mmc_filterdata">MMC_FILTERDATA</a> structure that holds the actual filter data.
+<a href="/windows/desktop/api/mmc/ns-mmc-mmc_filterdata">MMC_FILTERDATA</a> structure that holds the actual filter data.
 
 ## -returns
 
@@ -75,11 +75,10 @@ This method can return one of these values.
 ## -remarks
 
 For both setting and reading filter values, the snap-in owns the 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ns-mmc-mmc_filterdata">MMC_FILTERDATA</a> structure and any text buffer.
+<a href="/windows/desktop/api/mmc/ns-mmc-mmc_filterdata">MMC_FILTERDATA</a> structure and any text buffer.
 
 If the snap-in does not explicitly set the filter data for a column in a filtered list by calling <b>IHeaderCtrl2::SetColumnFilter</b>, the filter type defaults to MMC_STRING_FILTER with no default value for the filter (MMC_FILTER_NOVALUE). The default length of the filter is not documented by the Win32 header control, but it is of sufficient length for most likely user inputs. If the snap-in requires a specific length, it should call <b>IHeaderCtrl2::SetColumnFilter</b>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-iheaderctrl2">IHeaderCtrl2</a>
-
+<a href="/windows/desktop/api/mmc/nn-mmc-iheaderctrl2">IHeaderCtrl2</a>

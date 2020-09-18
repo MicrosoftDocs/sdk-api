@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-Applies a rotation to a <a href="https://docs.microsoft.com/windows/desktop/tablet/inkrenderer-class">InkRenderer</a>'s view transform.
+Applies a rotation to a <a href="/windows/desktop/tablet/inkrenderer-class">InkRenderer</a>'s view transform.
 
 ## -parameters
 
@@ -110,5 +110,4 @@ If no point is specified, the rotation is centered around the origin.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/tablet/inkrenderer-class">InkRenderer Class</a>
-
+<a href="/windows/desktop/tablet/inkrenderer-class">InkRenderer Class</a>

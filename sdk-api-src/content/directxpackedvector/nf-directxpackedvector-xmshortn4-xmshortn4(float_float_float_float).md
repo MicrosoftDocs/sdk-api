@@ -53,7 +53,7 @@ api_name:
 Initializes a new instance of <code>XMSHORTN4</code> from four normalized <code>float</code>arguments.
     
 
-This constructor initializes a new instance of <a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmshortn4">XMSHORTN4</a> from a
+This constructor initializes a new instance of <a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmshortn4">XMSHORTN4</a> from a
 	four normalized <code>float</code> arguments.
 <div class="alert"><b>Note</b>  This constructor is only available under C++.
     </div><div> </div>
@@ -133,9 +133,8 @@ The following pseudocode demonstrates the operation of this constructor:
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmshortn4">XMSHORTN4</a>
+<a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmshortn4">XMSHORTN4</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/dxmath/xmshortn4-ctor">XMSHORTN4 Constructors</a>
-
+<a href="/windows/desktop/dxmath/xmshortn4-ctor">XMSHORTN4 Constructors</a>

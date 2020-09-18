@@ -56,7 +56,7 @@ api_name:
 
 <p class="CCE_Message">[This function is subject to change with each operating system revision. Instead, use the Microsoft DirectDraw and Microsoft Direct3DAPIs; these APIs insulate applications from such operating system changes, and hide many other difficulties involved in interacting directly with display drivers.]
 
-The <b>DdUnattachSurface</b> function removes an attachment, created with <a href="https://docs.microsoft.com/windows/desktop/api/ddrawgdi/nf-ddrawgdi-ddattachsurface">DdAttachSurface</a>, between two kernel-mode surface objects.
+The <b>DdUnattachSurface</b> function removes an attachment, created with <a href="/windows/desktop/api/ddrawgdi/nf-ddrawgdi-ddattachsurface">DdAttachSurface</a>, between two kernel-mode surface objects.
 
 <b>GdiEntry12</b> is defined as an alias for this function.
 
@@ -64,20 +64,19 @@ The <b>DdUnattachSurface</b> function removes an attachment, created with <a hre
 
 ### -param pSurface [in]
 
-Pointer to the kernel-mode surface object that was passed as the <i>pSurfaceFrom</i> parameter to <a href="https://docs.microsoft.com/windows/desktop/api/ddrawgdi/nf-ddrawgdi-ddattachsurface">DdAttachSurface</a>.
+Pointer to the kernel-mode surface object that was passed as the <i>pSurfaceFrom</i> parameter to <a href="/windows/desktop/api/ddrawgdi/nf-ddrawgdi-ddattachsurface">DdAttachSurface</a>.
 
 ### -param pSurfaceAttached [in]
 
-Pointer to the kernel-mode surface object that was passed as the <i>pSurfaceTo</i> parameter to <a href="https://docs.microsoft.com/windows/desktop/api/ddrawgdi/nf-ddrawgdi-ddattachsurface">DdAttachSurface</a>
+Pointer to the kernel-mode surface object that was passed as the <i>pSurfaceTo</i> parameter to <a href="/windows/desktop/api/ddrawgdi/nf-ddrawgdi-ddattachsurface">DdAttachSurface</a>
 
 ## -remarks
 
 It is recommended that applications use the DirectDraw 
     API which handles surface attachments in a higher-level manner.
 
-It is not necessary to call this function since the kernel will automatically destroy all attachments when <a href="https://docs.microsoft.com/windows/desktop/DevNotes/-dxgkernel-ntgdidddestroysurface">DdDestroySurface</a> is called.
+It is not necessary to call this function since the kernel will automatically destroy all attachments when <a href="/windows/desktop/DevNotes/-dxgkernel-ntgdidddestroysurface">DdDestroySurface</a> is called.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DevNotes/-dxgkernel-low-level-client-support">Graphics Low Level Client Support</a>
-
+<a href="/windows/desktop/DevNotes/-dxgkernel-low-level-client-support">Graphics Low Level Client Support</a>

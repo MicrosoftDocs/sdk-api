@@ -56,17 +56,17 @@ Gets the target x position, that is, the current horizontal position of the care
 
 #### - px
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LONG</a>*</b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">LONG</a>*</b>
 
 The target x location in client coordinates.
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 If the x position of the caret is returned, the return value is <b>S_OK</b>.
 
-If the method fails, the return value is the following <b>HRESULT</b> code. For more information on COM error codes, see <a href="https://docs.microsoft.com/windows/desktop/com/error-handling-in-com">Error Handling in COM</a>.
+If the method fails, the return value is the following <b>HRESULT</b> code. For more information on COM error codes, see <a href="/windows/desktop/com/error-handling-in-com">Error Handling in COM</a>.
 
 <table>
 <tr>
@@ -99,7 +99,7 @@ The input argument is invalid.
 
 ## -remarks
 
-Together with <a href="https://docs.microsoft.com/windows/desktop/api/textserv/nf-textserv-itextservices-ontxsetcursor">ITextServices::OnTxSetCursor</a>, this method allows you to maintain the horizontal caret position when moving the caret up and down. This capability is useful when moving the caret through forms.
+Together with <a href="/windows/desktop/api/textserv/nf-textserv-itextservices-ontxsetcursor">ITextServices::OnTxSetCursor</a>, this method allows you to maintain the horizontal caret position when moving the caret up and down. This capability is useful when moving the caret through forms.
 
 The target caret position is expressed as an x-coordinate on the display because other controls do not necessarily share the same attributes for column position.
 
@@ -109,11 +109,11 @@ The target caret position is expressed as an x-coordinate on the display because
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/textserv/nl-textserv-itextservices">ITextServices</a>
+<a href="/windows/desktop/api/textserv/nl-textserv-itextservices">ITextServices</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/textserv/nf-textserv-itextservices-ontxsetcursor">OnTxSetCursor</a>
+<a href="/windows/desktop/api/textserv/nf-textserv-itextservices-ontxsetcursor">OnTxSetCursor</a>
 
 
 
@@ -121,5 +121,4 @@ The target caret position is expressed as an x-coordinate on the display because
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Controls/windowless-rich-edit-controls">Windowless Rich Edit Controls</a>
-
+<a href="/windows/desktop/Controls/windowless-rich-edit-controls">Windowless Rich Edit Controls</a>

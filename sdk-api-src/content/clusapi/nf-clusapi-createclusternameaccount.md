@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Creates a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/network-name">cluster name</a> resource and then uses it add a cluster to a domain, even if the machines that host the cluster aren't members of the domain.The <b>PCLUSAPI_CREATE_CLUSTER_NAME_ACCOUNT</b> type defines a pointer to this function.
+Creates a <a href="/previous-versions/windows/desktop/mscs/network-name">cluster name</a> resource and then uses it add a cluster to a domain, even if the machines that host the cluster aren't members of the domain.The <b>PCLUSAPI_CREATE_CLUSTER_NAME_ACCOUNT</b> type defines a pointer to this function.
 
 ## -parameters
 
@@ -60,11 +60,11 @@ A handle to the cluster to add the cluster name resource to.
 
 ### -param pConfig [in]
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/ns-clusapi-create_cluster_name_account">CREATE_CLUSTER_NAME_ACCOUNT</a> structure that contains the information about the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/network-name">cluster name</a> resource to create, and the domain credentials to use.
+A pointer to the <a href="/windows/desktop/api/clusapi/ns-clusapi-create_cluster_name_account">CREATE_CLUSTER_NAME_ACCOUNT</a> structure that contains the information about the <a href="/previous-versions/windows/desktop/mscs/network-name">cluster name</a> resource to create, and the domain credentials to use.
 
 ### -param pfnProgressCallback [in, optional]
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nc-clusapi-pcluster_setup_progress_callback">ClusterSetupProgressCallback</a> callback function that receives the status of updates to the cluster.
+A pointer to the <a href="/windows/desktop/api/clusapi/nc-clusapi-pcluster_setup_progress_callback">ClusterSetupProgressCallback</a> callback function that receives the status of updates to the cluster.
 
 ### -param pvCallbackArg [in, optional]
 
@@ -76,5 +76,4 @@ If the operation succeeds, the function returns <b>ERROR_SUCCESS</b>. If the ope
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-management-functions">Failover Cluster Management Functions</a>
-
+<a href="/previous-versions/windows/desktop/mscs/cluster-management-functions">Failover Cluster Management Functions</a>

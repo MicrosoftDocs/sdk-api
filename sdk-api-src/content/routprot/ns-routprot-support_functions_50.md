@@ -80,7 +80,7 @@ The routing protocol calls
 <b>DemandDialRequest</b> to initiate a demand-dial connection.
 
 Pointer to the 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa373924(v=vs.85)">DemandDialRequest</a> function provided by the router manager for the routing protocol.
+<a href="/previous-versions/windows/desktop/legacy/aa373924(v=vs.85)">DemandDialRequest</a> function provided by the router manager for the routing protocol.
 
 
 
@@ -101,7 +101,7 @@ The routing protocol calls
 <b>MIBEntryCreate</b> to execute a Create request of the router manager or a peer protocol DLL. Implement this function to handle SNMP-style requests.
 
 Pointer to the 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa374538(v=vs.85)">MIBEntryCreate</a> function provided by the router manager for the routing protocol.
+<a href="/previous-versions/windows/desktop/legacy/aa374538(v=vs.85)">MIBEntryCreate</a> function provided by the router manager for the routing protocol.
 
 
 
@@ -125,7 +125,7 @@ Pointer to the data to pass with the Create request.
 #### - MIBEntryDelete
 
 Pointer to the 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa374539(v=vs.85)">MIBEntryDelete</a> function provided by the router manager for the routing protocol.
+<a href="/previous-versions/windows/desktop/legacy/aa374539(v=vs.85)">MIBEntryDelete</a> function provided by the router manager for the routing protocol.
 
 
 #### - MIBEntryGet
@@ -134,7 +134,7 @@ The routing protocol calls
 <b>MIBEntryGet</b> to execute a Get request of the router manager or a peer protocol DLL. Implement this function to handle SNMP-style requests.
 
 Pointer to the 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa374540(v=vs.85)">MIBEntryGet</a> function provided by the router manager for the routing protocol.
+<a href="/previous-versions/windows/desktop/legacy/aa374540(v=vs.85)">MIBEntryGet</a> function provided by the router manager for the routing protocol.
 
 
 
@@ -180,7 +180,7 @@ The routing protocol calls
 <b>MIBEntryGetFirst</b> to execute a Get First request of the router manager or a peer protocol DLL. Implement this function to handle SNMP-style requests.
 
 Pointer to the 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa374541(v=vs.85)">MIBEntryGetFirst</a> function provided by the router manager for the routing protocol.
+<a href="/previous-versions/windows/desktop/legacy/aa374541(v=vs.85)">MIBEntryGetFirst</a> function provided by the router manager for the routing protocol.
 
 
 
@@ -226,7 +226,7 @@ The routing protocol calls
 <b>MIBEntryGetNext</b> to execute a Get Next request of the router manager or a peer protocol DLL. Implement this function to handle SNMP-style requests.
 
 Pointer to the 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa374542(v=vs.85)">MIBEntryGetNext</a> function provided by the router manager for the routing protocol.
+<a href="/previous-versions/windows/desktop/legacy/aa374542(v=vs.85)">MIBEntryGetNext</a> function provided by the router manager for the routing protocol.
 
 
 
@@ -272,7 +272,7 @@ The routing protocol calls
 <b>MIBEntrySet</b> to execute an SNMP MIB-style Set request of the router manager or a peer protocol DLL.
 
 Pointer to the 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa374543(v=vs.85)">MIBEntrySet</a> function provided by the router manager for the routing protocol.
+<a href="/previous-versions/windows/desktop/legacy/aa374543(v=vs.85)">MIBEntrySet</a> function provided by the router manager for the routing protocol.
 
 
 
@@ -299,7 +299,7 @@ The routing protocol calls the
 <b>SetInterfaceReceiveType</b> function to set the receive capability of the specified interface.
 
 Pointer to the 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa382181(v=vs.85)">SetInterfaceReceiveType</a> function provided by the router manager for the routing protocol.
+<a href="/previous-versions/windows/desktop/legacy/aa382181(v=vs.85)">SetInterfaceReceiveType</a> function provided by the router manager for the routing protocol.
 
 
 
@@ -339,7 +339,7 @@ The routing protocol calls the
 <b>ValidateRoute</b> function to set the route preference and perform other route validation.
 
 Pointer to the 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa382342(v=vs.85)">ValidateRoute</a> function provided by the router manager for the routing protocol.
+<a href="/previous-versions/windows/desktop/legacy/aa382342(v=vs.85)">ValidateRoute</a> function provided by the router manager for the routing protocol.
 
 
 
@@ -361,5 +361,4 @@ Pointer to information that describes the destination address. This parameter is
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/routprot/nc-routprot-pstart_protocol">StartProtocol</a>
-
+<a href="/windows/desktop/api/routprot/nc-routprot-pstart_protocol">StartProtocol</a>

@@ -56,11 +56,10 @@ Creates and initializes  the magnifier run-time objects.
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
 
 Returns <b>TRUE</b> if initialization was successful; otherwise <b>FALSE</b>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/magnification/nf-magnification-maguninitialize">MagUninitialize</a>
-
+<a href="/previous-versions/windows/desktop/api/magnification/nf-magnification-maguninitialize">MagUninitialize</a>

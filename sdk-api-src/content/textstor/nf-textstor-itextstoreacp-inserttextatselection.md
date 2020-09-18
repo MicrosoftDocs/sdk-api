@@ -56,9 +56,9 @@ The <b>ITextStoreACP::InsertTextAtSelection</b> method inserts text at the inser
 
 ### -param dwFlags [in]
 
-Specifies whether the <i>pacpStart</i> and <i>pacpEnd</i> parameters and the <a href="https://docs.microsoft.com/windows/desktop/api/textstor/ns-textstor-ts_textchange">TS_TEXTCHANGE</a> structure contain the results of the text insertion.
+Specifies whether the <i>pacpStart</i> and <i>pacpEnd</i> parameters and the <a href="/windows/desktop/api/textstor/ns-textstor-ts_textchange">TS_TEXTCHANGE</a> structure contain the results of the text insertion.
 
-The <a href="https://docs.microsoft.com/windows/desktop/TSF/tf-ias--constants">TF_IAS_NOQUERY</a> and TF_IAS_QUERYONLY flags cannot be combined.
+The <a href="/windows/desktop/TSF/tf-ias--constants">TF_IAS_NOQUERY</a> and TF_IAS_QUERYONLY flags cannot be combined.
 
 <table>
 <tr>
@@ -202,28 +202,27 @@ The <i>pchText</i> parameter is invalid.
 
 The values of the <i>pacpStart</i> and the <i>pacpEnd</i> parameters depend upon how the client application inserts text into a document. For example, if the application sets the cursor at the start of the inserted text after text insertion, then the value for the <i>pacpStart</i> and <i>pacpEnd</i> parameters is the same as the <b>acpStart</b> member of the <b>TS_TEXTCHANGE</b> structure.
 
-Applications should not call the <a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-itextstoreacpsink-ontextchange">ITextStoreACPSink::OnTextChange</a> method in response to this method.
+Applications should not call the <a href="/windows/desktop/api/textstor/nf-textstor-itextstoreacpsink-ontextchange">ITextStoreACPSink::OnTextChange</a> method in response to this method.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/TSF/compositions">Compositions</a>
+<a href="/windows/desktop/TSF/compositions">Compositions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nn-textstor-itextstoreacp">ITextStoreACP</a>
+<a href="/windows/desktop/api/textstor/nn-textstor-itextstoreacp">ITextStoreACP</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-itextstoreacpsink-ontextchange">ITextStoreACPSink::OnTextChange
+<a href="/windows/desktop/api/textstor/nf-textstor-itextstoreacpsink-ontextchange">ITextStoreACPSink::OnTextChange
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/TSF/tf-ias--constants">TF_IAS_* Constants
+<a href="/windows/desktop/TSF/tf-ias--constants">TF_IAS_* Constants
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/textstor/ns-textstor-ts_textchange">TS_TEXTCHANGE
+<a href="/windows/desktop/api/textstor/ns-textstor-ts_textchange">TS_TEXTCHANGE
       </a>
-

@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Called when an asynchronous error occurs with the <a href="https://docs.microsoft.com/windows/desktop/api/mfreadwrite/nn-mfreadwrite-imfsinkwriter">IMFSinkWriter</a>.
+Called when an asynchronous error occurs with the <a href="/windows/desktop/api/mfreadwrite/nn-mfreadwrite-imfsinkwriter">IMFSinkWriter</a>.
 
 ## -parameters
 
@@ -68,5 +68,4 @@ Returns an <b>HRESULT</b> value. Currently, the sink writer ignores the return v
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfreadwrite/nn-mfreadwrite-imfsinkwritercallback2">IMFSinkWriterCallback2</a>
-
+<a href="/windows/desktop/api/mfreadwrite/nn-mfreadwrite-imfsinkwritercallback2">IMFSinkWriterCallback2</a>

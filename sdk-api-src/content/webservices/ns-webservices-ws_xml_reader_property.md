@@ -58,7 +58,7 @@ Specifies a reader specific setting.
 
 ### -field id
 
-Identifies the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_xml_reader_property_id">WS_XML_READER_PROPERTY_ID</a>.
+Identifies the <a href="/windows/desktop/api/webservices/ne-webservices-ws_xml_reader_property_id">WS_XML_READER_PROPERTY_ID</a>.
 
 ### -field value
 
@@ -69,4 +69,3 @@ A pointer to the value to set.
 ### -field valueSize
 
 The size in bytes of the memory pointed to by value.
-

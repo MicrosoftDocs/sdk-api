@@ -54,7 +54,7 @@ Exposes methods that enable Microsoft UI Automation client applications to disco
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUIAutomation</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IUIAutomation</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUIAutomation</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IUIAutomation</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -70,71 +70,71 @@ The <b>IUIAutomation</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomation-addautomationeventhandler">AddAutomationEventHandler</a>
+<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomation-addautomationeventhandler">AddAutomationEventHandler</a>
 </td>
 <td align="left" width="63%">
 Registers a method that handles UI Automation events.
 
-<div class="alert"><b>Note</b>  Before implementing an event handler, you should be familiar with the threading issues described in <a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-threading">Understanding Threading Issues</a>.</div>
+<div class="alert"><b>Note</b>  Before implementing an event handler, you should be familiar with the threading issues described in <a href="/windows/desktop/WinAuto/uiauto-threading">Understanding Threading Issues</a>.</div>
 <div> </div>
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomation-addfocuschangedeventhandler">AddFocusChangedEventHandler</a>
+<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomation-addfocuschangedeventhandler">AddFocusChangedEventHandler</a>
 </td>
 <td align="left" width="63%">
 Registers a method that handles focus-changed events.
 
-<div class="alert"><b>Note</b>  Before implementing an event handler, you should be familiar with the threading issues described in <a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-threading">Understanding Threading Issues</a>.</div>
+<div class="alert"><b>Note</b>  Before implementing an event handler, you should be familiar with the threading issues described in <a href="/windows/desktop/WinAuto/uiauto-threading">Understanding Threading Issues</a>.</div>
 <div> </div>
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomation-addpropertychangedeventhandler">AddPropertyChangedEventHandler</a>
+<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomation-addpropertychangedeventhandler">AddPropertyChangedEventHandler</a>
 </td>
 <td align="left" width="63%">
 Registers a method that handles and array of property-changed events. 
 
-<div class="alert"><b>Note</b>  Before implementing an event handler, you should be familiar with the threading issues described in <a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-threading">Understanding Threading Issues</a>.</div>
+<div class="alert"><b>Note</b>  Before implementing an event handler, you should be familiar with the threading issues described in <a href="/windows/desktop/WinAuto/uiauto-threading">Understanding Threading Issues</a>.</div>
 <div> </div>
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomation-addpropertychangedeventhandlernativearray">AddPropertyChangedEventHandlerNativeArray</a>
+<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomation-addpropertychangedeventhandlernativearray">AddPropertyChangedEventHandlerNativeArray</a>
 </td>
 <td align="left" width="63%">
 Registers a method that handles a native array of property-changed events. 
 
-<div class="alert"><b>Note</b>  Before implementing an event handler, you should be familiar with the threading issues described in <a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-threading">Understanding Threading Issues</a>.</div>
+<div class="alert"><b>Note</b>  Before implementing an event handler, you should be familiar with the threading issues described in <a href="/windows/desktop/WinAuto/uiauto-threading">Understanding Threading Issues</a>.</div>
 <div> </div>
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomation-addstructurechangedeventhandler">AddStructureChangedEventHandler</a>
+<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomation-addstructurechangedeventhandler">AddStructureChangedEventHandler</a>
 </td>
 <td align="left" width="63%">
 Registers a method that handles structure-changed events.
 
-<div class="alert"><b>Note</b>  Before implementing an event handler, you should be familiar with the threading issues described in <a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-threading">Understanding Threading Issues</a>.</div>
+<div class="alert"><b>Note</b>  Before implementing an event handler, you should be familiar with the threading issues described in <a href="/windows/desktop/WinAuto/uiauto-threading">Understanding Threading Issues</a>.</div>
 <div> </div>
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomation-checknotsupported">CheckNotSupported</a>
+<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomation-checknotsupported">CheckNotSupported</a>
 </td>
 <td align="left" width="63%">
-Checks a provided <a href="https://docs.microsoft.com/windows/desktop/api/oaidl/ns-oaidl-variant">VARIANT</a> to see if it contains the Not Supported identifier.
+Checks a provided <a href="/windows/desktop/api/oaidl/ns-oaidl-variant">VARIANT</a> to see if it contains the Not Supported identifier.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomation-compareelements">CompareElements</a>
+<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomation-compareelements">CompareElements</a>
 </td>
 <td align="left" width="63%">
 Compares two UI Automation elements to determine whether they represent the same underlying UI element.
@@ -143,7 +143,7 @@ Compares two UI Automation elements to determine whether they represent the same
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomation-compareruntimeids">CompareRuntimeIds</a>
+<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomation-compareruntimeids">CompareRuntimeIds</a>
 </td>
 <td align="left" width="63%">
 Compares two integer arrays containing run-time identifiers (IDs) to determine whether their content is the same and they belong to the same UI element.
@@ -152,7 +152,7 @@ Compares two integer arrays containing run-time identifiers (IDs) to determine w
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomation-createandcondition">CreateAndCondition</a>
+<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomation-createandcondition">CreateAndCondition</a>
 </td>
 <td align="left" width="63%">
 Creates a condition that selects elements that match both of two conditions.
@@ -161,7 +161,7 @@ Creates a condition that selects elements that match both of two conditions.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomation-createandconditionfromarray">CreateAndConditionFromArray</a>
+<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomation-createandconditionfromarray">CreateAndConditionFromArray</a>
 </td>
 <td align="left" width="63%">
 Creates a condition that selects elements based on multiple conditions, all of which must be true.
@@ -170,7 +170,7 @@ Creates a condition that selects elements based on multiple conditions, all of w
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomation-createandconditionfromnativearray">CreateAndConditionFromNativeArray</a>
+<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomation-createandconditionfromnativearray">CreateAndConditionFromNativeArray</a>
 </td>
 <td align="left" width="63%">
 Creates a condition that selects elements from a native array, based on multiple conditions that  must all be true.
@@ -179,7 +179,7 @@ Creates a condition that selects elements from a native array, based on multiple
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomation-createcacherequest">CreateCacheRequest</a>
+<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomation-createcacherequest">CreateCacheRequest</a>
 </td>
 <td align="left" width="63%">
 Creates a cache request.
@@ -188,7 +188,7 @@ Creates a cache request.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomation-createfalsecondition">CreateFalseCondition</a>
+<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomation-createfalsecondition">CreateFalseCondition</a>
 </td>
 <td align="left" width="63%">
 Creates a condition that is always false.
@@ -197,7 +197,7 @@ Creates a condition that is always false.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomation-createnotcondition">CreateNotCondition</a>
+<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomation-createnotcondition">CreateNotCondition</a>
 </td>
 <td align="left" width="63%">
 Creates a condition that is the negative of a specified condition.
@@ -206,7 +206,7 @@ Creates a condition that is the negative of a specified condition.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomation-createorcondition">CreateOrCondition</a>
+<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomation-createorcondition">CreateOrCondition</a>
 </td>
 <td align="left" width="63%">
 Creates a combination of two conditions where a match exists if either of the conditions is true. 
@@ -215,7 +215,7 @@ Creates a combination of two conditions where a match exists if either of the co
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomation-createorconditionfromarray">CreateOrConditionFromArray</a>
+<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomation-createorconditionfromarray">CreateOrConditionFromArray</a>
 </td>
 <td align="left" width="63%">
 Creates a combination of two or more conditions where a match exists if any of the conditions is true. 
@@ -224,7 +224,7 @@ Creates a combination of two or more conditions where a match exists if any of t
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomation-createorconditionfromnativearray">CreateOrConditionFromNativeArray</a>
+<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomation-createorconditionfromnativearray">CreateOrConditionFromNativeArray</a>
 </td>
 <td align="left" width="63%">
 Creates a combination of two or more conditions where a match exists if any one of the conditions is true.
@@ -233,7 +233,7 @@ Creates a combination of two or more conditions where a match exists if any one 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomation-createpropertycondition">CreatePropertyCondition</a>
+<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomation-createpropertycondition">CreatePropertyCondition</a>
 </td>
 <td align="left" width="63%">
 Creates a condition that selects elements that have a property with the specified value.
@@ -242,7 +242,7 @@ Creates a condition that selects elements that have a property with the specifie
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomation-createpropertyconditionex">CreatePropertyConditionEx</a>
+<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomation-createpropertyconditionex">CreatePropertyConditionEx</a>
 </td>
 <td align="left" width="63%">
 Creates a condition that selects elements that have a property with the specified value, using optional flags.
@@ -251,7 +251,7 @@ Creates a condition that selects elements that have a property with the specifie
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomation-createproxyfactoryentry">CreateProxyFactoryEntry</a>
+<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomation-createproxyfactoryentry">CreateProxyFactoryEntry</a>
 </td>
 <td align="left" width="63%">
 Creates a new instance of a proxy factory object.
@@ -260,7 +260,7 @@ Creates a new instance of a proxy factory object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomation-createtreewalker">CreateTreeWalker</a>
+<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomation-createtreewalker">CreateTreeWalker</a>
 </td>
 <td align="left" width="63%">
 Retrieves a tree walker object that can be used to traverse the UI Automation tree.
@@ -269,7 +269,7 @@ Retrieves a tree walker object that can be used to traverse the UI Automation tr
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomation-createtruecondition">CreateTrueCondition</a>
+<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomation-createtruecondition">CreateTrueCondition</a>
 </td>
 <td align="left" width="63%">
 Retrieves a predefined condition that selects all elements.
@@ -278,7 +278,7 @@ Retrieves a predefined condition that selects all elements.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomation-elementfromhandle">ElementFromHandle</a>
+<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomation-elementfromhandle">ElementFromHandle</a>
 </td>
 <td align="left" width="63%">
 Retrieves a UI Automation element for the specified window.
@@ -287,7 +287,7 @@ Retrieves a UI Automation element for the specified window.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomation-elementfromhandlebuildcache">ElementFromHandleBuildCache</a>
+<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomation-elementfromhandlebuildcache">ElementFromHandleBuildCache</a>
 </td>
 <td align="left" width="63%">
 Retrieves a UI Automation element for the specified window, prefetches the requested properties and control patterns, and stores the prefetched items in the cache.
@@ -296,7 +296,7 @@ Retrieves a UI Automation element for the specified window, prefetches the reque
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomation-elementfromiaccessible">ElementFromIAccessible</a>
+<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomation-elementfromiaccessible">ElementFromIAccessible</a>
 </td>
 <td align="left" width="63%">
 Retrieves a UI Automation element for the specified accessible object from a Microsoft Active Accessibility server.
@@ -305,7 +305,7 @@ Retrieves a UI Automation element for the specified accessible object from a Mic
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomation-elementfromiaccessiblebuildcache">ElementFromIAccessibleBuildCache</a>
+<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomation-elementfromiaccessiblebuildcache">ElementFromIAccessibleBuildCache</a>
 </td>
 <td align="left" width="63%">
 Retrieves a UI Automation element for the specified accessible object from a Microsoft Active Accessibility server, prefetches the requested properties and control patterns, and stores the prefetched items in the cache.
@@ -314,7 +314,7 @@ Retrieves a UI Automation element for the specified accessible object from a Mic
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomation-elementfrompoint">ElementFromPoint</a>
+<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomation-elementfrompoint">ElementFromPoint</a>
 </td>
 <td align="left" width="63%">
 Retrieves the UI Automation element at the specified point on the desktop.
@@ -323,7 +323,7 @@ Retrieves the UI Automation element at the specified point on the desktop.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomation-elementfrompointbuildcache">ElementFromPointBuildCache</a>
+<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomation-elementfrompointbuildcache">ElementFromPointBuildCache</a>
 </td>
 <td align="left" width="63%">
 Retrieves the UI Automation element at the specified point on the desktop, prefetches the requested properties and control patterns, and stores the prefetched items in the cache.
@@ -332,7 +332,7 @@ Retrieves the UI Automation element at the specified point on the desktop, prefe
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomation-getfocusedelement">GetFocusedElement</a>
+<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomation-getfocusedelement">GetFocusedElement</a>
 </td>
 <td align="left" width="63%">
 Retrieves the UI Automation element that has the input focus.
@@ -341,7 +341,7 @@ Retrieves the UI Automation element that has the input focus.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomation-getfocusedelementbuildcache">GetFocusedElementBuildCache</a>
+<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomation-getfocusedelementbuildcache">GetFocusedElementBuildCache</a>
 </td>
 <td align="left" width="63%">
 Retrieves the UI Automation element that has the input focus, prefetches the requested properties and control patterns, and stores the prefetched items in the cache.
@@ -350,7 +350,7 @@ Retrieves the UI Automation element that has the input focus, prefetches the req
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomation-getpatternprogrammaticname">GetPatternProgrammaticName</a>
+<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomation-getpatternprogrammaticname">GetPatternProgrammaticName</a>
 </td>
 <td align="left" width="63%">
 Retrieves the registered programmatic name of a control pattern.
@@ -359,7 +359,7 @@ Retrieves the registered programmatic name of a control pattern.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomation-getpropertyprogrammaticname">GetPropertyProgrammaticName</a>
+<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomation-getpropertyprogrammaticname">GetPropertyProgrammaticName</a>
 </td>
 <td align="left" width="63%">
 Retrieves the registered programmatic name of a property.
@@ -368,7 +368,7 @@ Retrieves the registered programmatic name of a property.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomation-getrootelement">GetRootElement</a>
+<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomation-getrootelement">GetRootElement</a>
 </td>
 <td align="left" width="63%">
 Retrieves the UI Automation element that represents the desktop.
@@ -377,7 +377,7 @@ Retrieves the UI Automation element that represents the desktop.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomation-getrootelementbuildcache">GetRootElementBuildCache</a>
+<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomation-getrootelementbuildcache">GetRootElementBuildCache</a>
 </td>
 <td align="left" width="63%">
 Retrieves the UI Automation element that represents the desktop, prefetches the requested properties and control patterns, and stores the prefetched items in the cache.
@@ -386,7 +386,7 @@ Retrieves the UI Automation element that represents the desktop, prefetches the 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomation-intnativearraytosafearray">IntNativeArrayToSafeArray</a>
+<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomation-intnativearraytosafearray">IntNativeArrayToSafeArray</a>
 </td>
 <td align="left" width="63%">
 Converts an array of integers to a <a href="/windows/win32/api/oaidl/ns-oaidl-safearray">SAFEARRAY</a>.
@@ -395,7 +395,7 @@ Converts an array of integers to a <a href="/windows/win32/api/oaidl/ns-oaidl-sa
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomation-intsafearraytonativearray">IntSafeArrayToNativeArray</a>
+<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomation-intsafearraytonativearray">IntSafeArrayToNativeArray</a>
 </td>
 <td align="left" width="63%">
 Converts a <a href="/windows/win32/api/oaidl/ns-oaidl-safearray">SAFEARRAY</a> of integers to an array.
@@ -404,7 +404,7 @@ Converts a <a href="/windows/win32/api/oaidl/ns-oaidl-safearray">SAFEARRAY</a> o
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomation-pollforpotentialsupportedpatterns">PollForPotentialSupportedPatterns</a>
+<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomation-pollforpotentialsupportedpatterns">PollForPotentialSupportedPatterns</a>
 </td>
 <td align="left" width="63%">
 Retrieves the control patterns that might be supported on a UI Automation element.
@@ -413,7 +413,7 @@ Retrieves the control patterns that might be supported on a UI Automation elemen
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomation-pollforpotentialsupportedproperties">PollForPotentialSupportedProperties</a>
+<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomation-pollforpotentialsupportedproperties">PollForPotentialSupportedProperties</a>
 </td>
 <td align="left" width="63%">
 Retrieves the properties that might be supported on a UI Automation element.
@@ -422,16 +422,16 @@ Retrieves the properties that might be supported on a UI Automation element.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomation-recttovariant">RectToVariant</a>
+<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomation-recttovariant">RectToVariant</a>
 </td>
 <td align="left" width="63%">
-Creates a <a href="https://docs.microsoft.com/windows/desktop/WinAuto/variant-structure">VARIANT</a> that contains the coordinates of a rectangle.
+Creates a <a href="/windows/desktop/WinAuto/variant-structure">VARIANT</a> that contains the coordinates of a rectangle.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomation-removealleventhandlers">RemoveAllEventHandlers</a>
+<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomation-removealleventhandlers">RemoveAllEventHandlers</a>
 </td>
 <td align="left" width="63%">
 Removes all registered UI Automation event handlers.
@@ -440,7 +440,7 @@ Removes all registered UI Automation event handlers.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomation-removeautomationeventhandler">RemoveAutomationEventHandler</a>
+<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomation-removeautomationeventhandler">RemoveAutomationEventHandler</a>
 </td>
 <td align="left" width="63%">
 Removes the specified UI Automation event handler.
@@ -449,7 +449,7 @@ Removes the specified UI Automation event handler.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomation-removefocuschangedeventhandler">RemoveFocusChangedEventHandler</a>
+<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomation-removefocuschangedeventhandler">RemoveFocusChangedEventHandler</a>
 </td>
 <td align="left" width="63%">
 Removes a focus-changed event handler. 
@@ -458,7 +458,7 @@ Removes a focus-changed event handler.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomation-removepropertychangedeventhandler">RemovePropertyChangedEventHandler</a>
+<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomation-removepropertychangedeventhandler">RemovePropertyChangedEventHandler</a>
 </td>
 <td align="left" width="63%">
 Removes a property-changed event handler.
@@ -467,7 +467,7 @@ Removes a property-changed event handler.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomation-removestructurechangedeventhandler">RemoveStructureChangedEventHandler</a>
+<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomation-removestructurechangedeventhandler">RemoveStructureChangedEventHandler</a>
 </td>
 <td align="left" width="63%">
 Removes a structure-changed event handler.
@@ -476,7 +476,7 @@ Removes a structure-changed event handler.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomation-safearraytorectnativearray">SafeArrayToRectNativeArray</a>
+<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomation-safearraytorectnativearray">SafeArrayToRectNativeArray</a>
 </td>
 <td align="left" width="63%">
 Converts a <a href="/windows/win32/api/oaidl/ns-oaidl-safearray">SAFEARRAY</a> containing rectangle coordinates to an array of type <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a>. 
@@ -485,10 +485,10 @@ Converts a <a href="/windows/win32/api/oaidl/ns-oaidl-safearray">SAFEARRAY</a> c
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomation-varianttorect">VariantToRect</a>
+<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomation-varianttorect">VariantToRect</a>
 </td>
 <td align="left" width="63%">
-Converts a <a href="https://docs.microsoft.com/windows/desktop/api/oaidl/ns-oaidl-variant">VARIANT</a> containing rectangle coordinates to a <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a>.
+Converts a <a href="/windows/desktop/api/oaidl/ns-oaidl-variant">VARIANT</a> containing rectangle coordinates to a <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a>.
 
 </td>
 </tr>
@@ -503,7 +503,7 @@ Converts a <a href="https://docs.microsoft.com/windows/desktop/api/oaidl/ns-oaid
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomation-get_contentviewcondition">ContentViewCondition</a>
+<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomation-get_contentviewcondition">ContentViewCondition</a>
 
 
 </td>
@@ -512,14 +512,14 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-Retrieves a predefined <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationcondition">IUIAutomationCondition</a> interface that selects content elements.
+Retrieves a predefined <a href="/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationcondition">IUIAutomationCondition</a> interface that selects content elements.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomation-get_contentviewwalker">ContentViewWalker</a>
+<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomation-get_contentviewwalker">ContentViewWalker</a>
 
 
 </td>
@@ -528,14 +528,14 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-Retrieves an <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationtreewalker">IUIAutomationTreeWalker</a> interface used to discover content elements.
+Retrieves an <a href="/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationtreewalker">IUIAutomationTreeWalker</a> interface used to discover content elements.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomation-get_controlviewcondition">ControlViewCondition</a>
+<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomation-get_controlviewcondition">ControlViewCondition</a>
 
 
 </td>
@@ -544,14 +544,14 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-Retrieves a predefined <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationcondition">IUIAutomationCondition</a> interface that selects control elements.
+Retrieves a predefined <a href="/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationcondition">IUIAutomationCondition</a> interface that selects control elements.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomation-get_controlviewwalker">ControlViewWalker</a>
+<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomation-get_controlviewwalker">ControlViewWalker</a>
 
 
 </td>
@@ -560,14 +560,14 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-Retrieves an <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationtreewalker">IUIAutomationTreeWalker</a> interface used to discover control elements.
+Retrieves an <a href="/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationtreewalker">IUIAutomationTreeWalker</a> interface used to discover control elements.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomation-get_proxyfactorymapping">ProxyFactoryMapping</a>
+<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomation-get_proxyfactorymapping">ProxyFactoryMapping</a>
 
 
 </td>
@@ -583,7 +583,7 @@ Retrieves an object that represents the mapping of Window classnames and associa
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomation-get_rawviewcondition">RawViewCondition</a>
+<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomation-get_rawviewcondition">RawViewCondition</a>
 
 
 </td>
@@ -592,14 +592,14 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-Retrieves a predefined <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationcondition">IUIAutomationCondition</a> interface that selects all UI elements in an unfiltered view.
+Retrieves a predefined <a href="/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationcondition">IUIAutomationCondition</a> interface that selects all UI elements in an unfiltered view.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomation-get_rawviewwalker">RawViewWalker</a>
+<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomation-get_rawviewwalker">RawViewWalker</a>
 
 
 </td>
@@ -615,7 +615,7 @@ Retrieves a tree walker object used to traverse an unfiltered view of the UI Aut
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomation-get_reservedmixedattributevalue">ReservedMixedAttributeValue</a>
+<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomation-get_reservedmixedattributevalue">ReservedMixedAttributeValue</a>
 
 
 </td>
@@ -631,7 +631,7 @@ Retrieves a static token object representing a text attribute that is a mixed at
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomation-get_reservednotsupportedvalue">ReservedNotSupportedValue</a>
+<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomation-get_reservednotsupportedvalue">ReservedNotSupportedValue</a>
 
 
 </td>
@@ -648,10 +648,10 @@ Retrieves a static token object representing a property or text attribute that i
 
 ## -remarks
 
-Every UI Automation client application must obtain this interface to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ff384838(v=vs.85)">CUIAutomation</a> object in order to gain access to the functionality of UI Automation.
+Every UI Automation client application must obtain this interface to a <a href="/previous-versions/windows/desktop/legacy/ff384838(v=vs.85)">CUIAutomation</a> object in order to gain access to the functionality of UI Automation.
 	        
 
-The following example function creates a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ff384838(v=vs.85)">CUIAutomation</a> object and obtains the <b>IUIAutomation</b> interface.
+The following example function creates a <a href="/previous-versions/windows/desktop/legacy/ff384838(v=vs.85)">CUIAutomation</a> object and obtains the <b>IUIAutomation</b> interface.
 
 
 
@@ -669,5 +669,4 @@ BOOL InitializeUIAutomation()
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-entry-uiautoclientinterfaces">UI Automation Element Interfaces for Clients</a>
-
+<a href="/windows/desktop/WinAuto/uiauto-entry-uiautoclientinterfaces">UI Automation Element Interfaces for Clients</a>

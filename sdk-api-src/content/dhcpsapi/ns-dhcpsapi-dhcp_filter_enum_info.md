@@ -64,7 +64,7 @@ Integer value that specifies the number of link-layer filter records contained i
 
 ### -field pEnumRecords
 
-Pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_filter_record">DHCP_FILTER_RECORD</a> structures that contain link-layer filter records.
+Pointer to an array of <a href="/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_filter_record">DHCP_FILTER_RECORD</a> structures that contain link-layer filter records.
 
 ### -field pEnumRecords.size_is
 
@@ -72,5 +72,4 @@ Pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/d
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_filter_record">DHCP_FILTER_RECORD</a>
-
+<a href="/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_filter_record">DHCP_FILTER_RECORD</a>

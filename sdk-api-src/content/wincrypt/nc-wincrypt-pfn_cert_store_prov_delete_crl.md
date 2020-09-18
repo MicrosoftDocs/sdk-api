@@ -51,15 +51,15 @@ api_name:
 ## -description
 
 An application-defined callback function that is called by 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certdeletecrlfromstore">CertDeleteCRLFromStore</a> before deleting the CRL from the store.
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-certdeletecrlfromstore">CertDeleteCRLFromStore</a> before deleting the CRL from the store.
 
 ## -parameters
 
 ### -param hStoreProv [in]
 
 Provider-specific value returned in 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_store_prov_info">CERT_STORE_PROV_INFO</a> by 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nc-wincrypt-pfn_cert_dll_open_store_prov_func">CertDllOpenStoreProv</a>.
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_store_prov_info">CERT_STORE_PROV_INFO</a> by 
+<a href="/windows/desktop/api/wincrypt/nc-wincrypt-pfn_cert_dll_open_store_prov_func">CertDllOpenStoreProv</a>.
 
 ### -param pCrlContext [in]
 
@@ -75,5 +75,4 @@ Returns <b>TRUE</b> if it is okay to delete from the store. Otherwise, returns <
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">Callback Functions</a>
-
+<a href="/windows/desktop/SecCrypto/cryptography-functions">Callback Functions</a>

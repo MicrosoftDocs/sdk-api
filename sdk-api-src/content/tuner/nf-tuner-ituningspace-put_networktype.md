@@ -54,7 +54,7 @@ The <b>put_NetworkType</b> method specifies the network type of the tuning space
 
 
 
-This method is intended for Automation clients, because it specifies the CLSID as a <b>BSTR</b>. C++ applications can use the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-ituningspace-put__networktype">ITuningSpace::put__NetworkType</a> method instead, which takes a GUID value.
+This method is intended for Automation clients, because it specifies the CLSID as a <b>BSTR</b>. C++ applications can use the <a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-ituningspace-put__networktype">ITuningSpace::put__NetworkType</a> method instead, which takes a GUID value.
 
 ## -parameters
 
@@ -68,5 +68,4 @@ Returns S_OK if successful. If the method fails, error information can be retrie
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-ituningspace">ITuningSpace Interface</a>
-
+<a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-ituningspace">ITuningSpace Interface</a>

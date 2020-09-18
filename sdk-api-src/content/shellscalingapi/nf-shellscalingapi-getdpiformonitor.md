@@ -62,7 +62,7 @@ Handle of the monitor being queried.
 
 ### -param dpiType [in]
 
-The type of DPI being queried. Possible values are from the <a href="https://docs.microsoft.com/windows/desktop/api/shellscalingapi/ne-shellscalingapi-monitor_dpi_type">MONITOR_DPI_TYPE</a> enumeration.
+The type of DPI being queried. Possible values are from the <a href="/windows/desktop/api/shellscalingapi/ne-shellscalingapi-monitor_dpi_type">MONITOR_DPI_TYPE</a> enumeration.
 
 ### -param dpiX [out]
 
@@ -107,9 +107,9 @@ The handle, DPI type, or pointers passed in are not valid.
 
 ## -remarks
 
-This API is not DPI aware and should not be used if the calling thread is per-monitor DPI aware. For the DPI-aware version of this API, see <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getdpiforwindow">GetDpiForWindow</a>.
+This API is not DPI aware and should not be used if the calling thread is per-monitor DPI aware. For the DPI-aware version of this API, see <a href="/windows/desktop/api/winuser/nf-winuser-getdpiforwindow">GetDpiForWindow</a>.
 
-When you call <b>GetDpiForMonitor</b>, you will receive different DPI values depending on the DPI awareness of the calling application. DPI awareness is an application-level property usually defined in the application manifest. For more information about DPI awareness values, see <a href="https://docs.microsoft.com/windows/desktop/api/shellscalingapi/ne-shellscalingapi-process_dpi_awareness">PROCESS_DPI_AWARENESS</a>. The following table indicates how the results will differ based on the <b>PROCESS_DPI_AWARENESS</b> value of your application.
+When you call <b>GetDpiForMonitor</b>, you will receive different DPI values depending on the DPI awareness of the calling application. DPI awareness is an application-level property usually defined in the application manifest. For more information about DPI awareness values, see <a href="/windows/desktop/api/shellscalingapi/ne-shellscalingapi-process_dpi_awareness">PROCESS_DPI_AWARENESS</a>. The following table indicates how the results will differ based on the <b>PROCESS_DPI_AWARENESS</b> value of your application.
 
 <table>
 <tr>
@@ -129,11 +129,10 @@ When you call <b>GetDpiForMonitor</b>, you will receive different DPI values dep
 
 The values of <i>*dpiX</i> and <i>*dpiY</i> are identical. You only need to record one of the values to determine the DPI and respond appropriately.
 
-When <a href="https://docs.microsoft.com/windows/desktop/api/shellscalingapi/ne-shellscalingapi-monitor_dpi_type">MONITOR_DPI_TYPE</a> is <b>MDT_ANGULAR_DPI</b> or <b>MDT_RAW_DPI</b>, the returned DPI value does not include any changes that the user made to the DPI by using the desktop scaling override slider control in Control Panel.
+When <a href="/windows/desktop/api/shellscalingapi/ne-shellscalingapi-monitor_dpi_type">MONITOR_DPI_TYPE</a> is <b>MDT_ANGULAR_DPI</b> or <b>MDT_RAW_DPI</b>, the returned DPI value does not include any changes that the user made to the DPI by using the desktop scaling override slider control in Control Panel.
 
-For more information about DPI settings in Control Panel, see the <a href="https://msdn.microsoft.com/library/windows/desktop/dn469266.aspx">Writing DPI-Aware Desktop Applications in Windows 8.1 Preview</a> white paper.
+For more information about DPI settings in Control Panel, see the <a href="/windows/win32/hidpi/high-dpi-desktop-application-development-on-windows">Writing DPI-Aware Desktop Applications in Windows 8.1 Preview</a> white paper.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shellscalingapi/ne-shellscalingapi-process_dpi_awareness">PROCESS_DPI_AWARENESS</a>
-
+<a href="/windows/desktop/api/shellscalingapi/ne-shellscalingapi-process_dpi_awareness">PROCESS_DPI_AWARENESS</a>

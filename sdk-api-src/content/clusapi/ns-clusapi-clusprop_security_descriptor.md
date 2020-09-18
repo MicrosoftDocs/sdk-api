@@ -53,12 +53,12 @@ api_name:
 ## -description
 
 Describes a security descriptor. It is used as an entry in a 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/value-lists">value list</a> and consists of:
+    <a href="/previous-versions/windows/desktop/mscs/value-lists">value list</a> and consists of:
 <ul>
-<li>A <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clusprop_value">CLUSPROP_VALUE</a> structure indicating the format 
+<li>A <a href="/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clusprop_value">CLUSPROP_VALUE</a> structure indicating the format 
      and type of the resource class information.</li>
 <li>A security descriptor in 
-     <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">self-relative</a> 
+     <a href="/windows/desktop/SecGloss/s-gly">self-relative</a> 
      format.</li>
 </ul>
 
@@ -69,9 +69,9 @@ Describes a security descriptor. It is used as an entry in a
 ### -field DUMMYUNIONNAME.sd
 
 Security descriptor in 
-       <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">self-relative</a> format. 
+       <a href="/windows/desktop/SecGloss/s-gly">self-relative</a> format. 
        For more information about self-relative security descriptors, see 
-       <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/absolute-and-self-relative-security-descriptors">Absolute and Self-Relative Security Descriptors</a>.
+       <a href="/windows/desktop/SecAuthZ/absolute-and-self-relative-security-descriptors">Absolute and Self-Relative Security Descriptors</a>.
 
 ### -field DUMMYUNIONNAME.rgbSecurityDescriptor
 
@@ -80,11 +80,10 @@ Byte array to address the entire security descriptor including the owner, group,
 
 ### -field CLUSPROP_VALUE
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clusprop_value">CLUSPROP_VALUE</a> structure with a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clusprop_syntax">CLUSPROP_SYNTAX</a>  with a value 
+<a href="/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clusprop_value">CLUSPROP_VALUE</a> structure with a <a href="/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clusprop_syntax">CLUSPROP_SYNTAX</a>  with a value 
        of <b>CLUSPROP_SYNTAX_LIST_VALUE_SECURITY_DESCRIPTOR</b> (0x00010009) and a <b>cbLength</b> field indicating 
        the count of bytes in the <b>DUMMYUNIONNAME</b> member. Padding bytes are not included in the count.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/data-structures">Data Structures</a>
-
+<a href="/previous-versions/windows/desktop/mscs/data-structures">Data Structures</a>

@@ -42,7 +42,7 @@ api_name:
 
 ## -description
 
-Gets the [ID3D12ProtectedResourceSession](/windows/win32/api/d3d12/nn-d3d12-id3d12protectedresourcesession) that was passed into [ID3D12VideoDevice2::CreateVideoProcessor1](nf-d3d12video-id3d12videodevice2-createvideoprocessor1.md) when the [ID3D12VideoProcessor1](nn-d3d12video-id3d12videoprocessor1.md) was created.
+Gets the [ID3D12ProtectedResourceSession](../d3d12/nn-d3d12-id3d12protectedresourcesession.md) that was passed into [ID3D12VideoDevice2::CreateVideoProcessor1](nf-d3d12video-id3d12videodevice2-createvideoprocessor1.md) when the [ID3D12VideoProcessor1](nn-d3d12video-id3d12videoprocessor1.md) was created.
 
 ## -parameters
 
@@ -61,4 +61,3 @@ This method returns HRESULT.
 ## -remarks
 
 ## -see-also
-

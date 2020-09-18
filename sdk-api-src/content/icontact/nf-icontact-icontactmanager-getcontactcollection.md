@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Returns an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/icontact/nn-icontact-icontactcollection">IContactCollection</a> object that contains all known contacts.
+Returns an <a href="/previous-versions/windows/desktop/api/icontact/nn-icontact-icontactcollection">IContactCollection</a> object that contains all known contacts.
 
 ## -parameters
 
 ### -param ppContactCollection [out]
 
-Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/icontact/nn-icontact-icontactcollection">IContactCollection</a>**</b>
+Type: <b><a href="/previous-versions/windows/desktop/api/icontact/nn-icontact-icontactcollection">IContactCollection</a>**</b>
 
 On success, contains an enumeration of the contact collection.
 
@@ -86,5 +86,4 @@ Success. <i>ppContactCollection</i> contains the collection.
 
 ## -remarks
 
-The enumerator of the new collection is set before the first contact. You must first call <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/icontact/nf-icontact-icontactcollection-next">Next</a> before querying the collection with <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/icontact/nf-icontact-icontactcollection-getcurrent">GetCurrent</a>.
-
+The enumerator of the new collection is set before the first contact. You must first call <a href="/previous-versions/windows/desktop/api/icontact/nf-icontact-icontactcollection-next">Next</a> before querying the collection with <a href="/previous-versions/windows/desktop/api/icontact/nf-icontact-icontactcollection-getcurrent">GetCurrent</a>.

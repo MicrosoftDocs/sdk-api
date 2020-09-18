@@ -50,11 +50,11 @@ api_name:
 
 ## -description
 
-The <b>ITuningSpaceContainer</b> interface is implemented on the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/systemtuningspaces-object">SystemTuningSpaces</a> object. It provides access to all tuning spaces installed on the host system.
+The <b>ITuningSpaceContainer</b> interface is implemented on the <a href="/previous-versions/windows/desktop/mstv/systemtuningspaces-object">SystemTuningSpaces</a> object. It provides access to all tuning spaces installed on the host system.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITuningSpaceContainer</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ITuningSpaceContainer</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITuningSpaceContainer</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ITuningSpaceContainer</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ITuningSpaceContainer</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-ituningspacecontainer-tuningspacesforclsid">_TuningSpacesForCLSID</a>
+<a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-ituningspacecontainer-tuningspacesforclsid">_TuningSpacesForCLSID</a>
 </td>
 <td align="left" width="63%">
 Retrieves a collection of tuning spaces that match the specified CLSID. (For use by C++ clients.)
@@ -78,7 +78,7 @@ Retrieves a collection of tuning spaces that match the specified CLSID. (For use
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-ituningspacecontainer-add">Add</a>
+<a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-ituningspacecontainer-add">Add</a>
 </td>
 <td align="left" width="63%">
 Adds a new persistent tuning space to the system.
@@ -87,7 +87,7 @@ Adds a new persistent tuning space to the system.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-ituningspacecontainer-findid">FindID</a>
+<a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-ituningspacecontainer-findid">FindID</a>
 </td>
 <td align="left" width="63%">
 Retrieves the ID of a specified tuning space within the collection.
@@ -96,7 +96,7 @@ Retrieves the ID of a specified tuning space within the collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-ituningspacecontainer-get__newenum">get__NewEnum</a>
+<a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-ituningspacecontainer-get__newenum">get__NewEnum</a>
 </td>
 <td align="left" width="63%">
 Enumeration method to support For...Each loops in Automation clients.
@@ -105,7 +105,7 @@ Enumeration method to support For...Each loops in Automation clients.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-ituningspacecontainer-get_count">get_Count</a>
+<a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-ituningspacecontainer-get_count">get_Count</a>
 </td>
 <td align="left" width="63%">
 Retrieves the number of tuning spaces currently available on the local system.
@@ -114,7 +114,7 @@ Retrieves the number of tuning spaces currently available on the local system.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-ituningspacecontainer-get_enumtuningspaces">get_EnumTuningSpaces</a>
+<a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-ituningspacecontainer-get_enumtuningspaces">get_EnumTuningSpaces</a>
 </td>
 <td align="left" width="63%">
 Retrieves a collection of all tuning spaces available on the local system.
@@ -123,7 +123,7 @@ Retrieves a collection of all tuning spaces available on the local system.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-ituningspacecontainer-get_item">get_Item</a>
+<a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-ituningspacecontainer-get_item">get_Item</a>
 </td>
 <td align="left" width="63%">
 Retrieves a tuning space with the specified ID.
@@ -132,7 +132,7 @@ Retrieves a tuning space with the specified ID.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-ituningspacecontainer-get_maxcount">get_MaxCount</a>
+<a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-ituningspacecontainer-get_maxcount">get_MaxCount</a>
 </td>
 <td align="left" width="63%">
 Retrieves the maximum number of tuning spaces allowed on the system.
@@ -141,7 +141,7 @@ Retrieves the maximum number of tuning spaces allowed on the system.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-ituningspacecontainer-put_item">put_Item</a>
+<a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-ituningspacecontainer-put_item">put_Item</a>
 </td>
 <td align="left" width="63%">
 Saves changes to an existing tuning space in the collection.
@@ -150,7 +150,7 @@ Saves changes to an existing tuning space in the collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-ituningspacecontainer-put_maxcount">put_MaxCount</a>
+<a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-ituningspacecontainer-put_maxcount">put_MaxCount</a>
 </td>
 <td align="left" width="63%">
 Sets the maximum number of tuning spaces allowed on the system.
@@ -159,7 +159,7 @@ Sets the maximum number of tuning spaces allowed on the system.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-ituningspacecontainer-remove">Remove</a>
+<a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-ituningspacecontainer-remove">Remove</a>
 </td>
 <td align="left" width="63%">
 Permanently removes a tuning space from the system.
@@ -168,7 +168,7 @@ Permanently removes a tuning space from the system.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-ituningspacecontainer-tuningspacesforclsid">TuningSpacesForCLSID</a>
+<a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-ituningspacecontainer-tuningspacesforclsid">TuningSpacesForCLSID</a>
 </td>
 <td align="left" width="63%">
 Retrieves a collection of tuning spaces that match the specified CLSID string. (For use by Automation clients.)
@@ -177,7 +177,7 @@ Retrieves a collection of tuning spaces that match the specified CLSID string. (
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-ituningspacecontainer-tuningspacesforname">TuningSpacesForName</a>
+<a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-ituningspacecontainer-tuningspacesforname">TuningSpacesForName</a>
 </td>
 <td align="left" width="63%">
 Retrieves a collection of tuning spaces that match the specified name.
@@ -192,9 +192,8 @@ To declare the interface identifier (IID) for this interface, use the <b>__uuido
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/tuning-model-interfaces">Tuning Model Interfaces</a>
-
+<a href="/previous-versions/windows/desktop/mstv/tuning-model-interfaces">Tuning Model Interfaces</a>

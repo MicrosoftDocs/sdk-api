@@ -54,7 +54,7 @@ api_name:
 
 Specifies the output frame rates for an input stream, when using Microsoft DirectX Video Acceleration High Definition (DXVA-HD).
 
-This enumeration type is used in the <a href="https://docs.microsoft.com/windows/desktop/api/dxvahd/ns-dxvahd-dxvahd_stream_state_output_rate_data">DXVAHD_STREAM_STATE_OUTPUT_RATE_DATA</a> structure.
+This enumeration type is used in the <a href="/windows/desktop/api/dxvahd/ns-dxvahd-dxvahd_stream_state_output_rate_data">DXVAHD_STREAM_STATE_OUTPUT_RATE_DATA</a> structure.
 
 ## -enum-fields
 
@@ -74,21 +74,20 @@ For progressive input, every frame produces one output frame, just as with  <b>D
 
 Frame output is at a custom rate.
 
- Use this value for frame-rate conversion or inverse telecine. The exact rate is given in the <b>OutputRate</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/dxvahd/ns-dxvahd-dxvahd_stream_state_output_rate_data">DXVAHD_STREAM_STATE_OUTPUT_RATE_DATA</a> structure. To get the list of custom rates supported by the video processor, call the <a href="https://docs.microsoft.com/windows/desktop/api/dxvahd/nf-dxvahd-idxvahd_device-getvideoprocessorcustomrates">IDXVAHD_Device::GetVideoProcessorCustomRates</a> method.
+ Use this value for frame-rate conversion or inverse telecine. The exact rate is given in the <b>OutputRate</b> member of the <a href="/windows/desktop/api/dxvahd/ns-dxvahd-dxvahd_stream_state_output_rate_data">DXVAHD_STREAM_STATE_OUTPUT_RATE_DATA</a> structure. To get the list of custom rates supported by the video processor, call the <a href="/windows/desktop/api/dxvahd/nf-dxvahd-idxvahd_device-getvideoprocessorcustomrates">IDXVAHD_Device::GetVideoProcessorCustomRates</a> method.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/dxva-hd">DXVA-HD</a>
+<a href="/windows/desktop/medfound/dxva-hd">DXVA-HD</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dxvahd/ns-dxvahd-dxvahd_stream_state_output_rate_data">DXVAHD_STREAM_STATE_OUTPUT_RATE_DATA</a>
+<a href="/windows/desktop/api/dxvahd/ns-dxvahd-dxvahd_stream_state_output_rate_data">DXVAHD_STREAM_STATE_OUTPUT_RATE_DATA</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/direct3d-video-enumerations">Direct3D Video Enumerations</a>
+<a href="/windows/desktop/medfound/direct3d-video-enumerations">Direct3D Video Enumerations</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>
-
+<a href="/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>

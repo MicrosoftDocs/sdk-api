@@ -204,17 +204,16 @@ Specifies the number of current requests that have not been completed.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmstats/nf-lmstats-netstatisticsget">NetStatisticsGet</a>
+<a href="/windows/desktop/api/lmstats/nf-lmstats-netstatisticsget">NetStatisticsGet</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management">Network Management Overview</a>
+<a href="/windows/desktop/NetMgmt/network-management">Network Management Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management-structures">Network Management Structures</a>
+<a href="/windows/desktop/NetMgmt/network-management-structures">Network Management Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/NetShare/statistics-functions">Statistics Functions</a>
-
+<a href="/windows/desktop/NetShare/statistics-functions">Statistics Functions</a>

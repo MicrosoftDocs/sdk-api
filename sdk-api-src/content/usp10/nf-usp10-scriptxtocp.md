@@ -99,7 +99,7 @@ Returns 0 if successful. The function returns a nonzero HRESULT value if it does
 
 ## -remarks
 
-The values passed to this function normally are the results of earlier calls to other Uniscribe functions. See <a href="https://docs.microsoft.com/windows/desktop/Intl/managing-caret-placement-and-hit-testing">Managing Caret Placement and Hit Testing</a> for details.
+The values passed to this function normally are the results of earlier calls to other Uniscribe functions. See <a href="/windows/desktop/Intl/managing-caret-placement-and-hit-testing">Managing Caret Placement and Hit Testing</a> for details.
 
 The leading and trailing edges of the logical character are determined by the direction of text in the run (left-to-right or right-to-left). For the left-to-right direction, the leading edge is the same as the left edge. For the right-to-left direction, the leading edge is the right edge.
 
@@ -140,9 +140,8 @@ When <i>iX</i> indicates a position outside the run, <b>ScriptXtoCP</b> acts as 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/uniscribe">Uniscribe</a>
+<a href="/windows/desktop/Intl/uniscribe">Uniscribe</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/uniscribe-functions">Uniscribe Functions</a>
-
+<a href="/windows/desktop/Intl/uniscribe-functions">Uniscribe Functions</a>

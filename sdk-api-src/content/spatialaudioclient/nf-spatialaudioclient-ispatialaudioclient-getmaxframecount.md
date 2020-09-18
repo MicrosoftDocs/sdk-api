@@ -56,7 +56,7 @@ Gets the maximum possible frame count per processing pass. This method can be us
 
 ### -param objectFormat [in]
 
-The audio format used to calculate the maximum frame count. This should be the same format specified in the <b>ObjectFormat</b> field of the <a href="https://docs.microsoft.com/windows/desktop/api/spatialaudioclient/ns-spatialaudioclient-spatialaudioobjectrenderstreamactivationparams">SpatialAudioObjectRenderStreamActivationParams</a> passed to  <a href="https://docs.microsoft.com/windows/desktop/api/spatialaudioclient/nf-spatialaudioclient-ispatialaudioclient-activatespatialaudiostream">ActivateSpatialAudioStream</a>.
+The audio format used to calculate the maximum frame count. This should be the same format specified in the <b>ObjectFormat</b> field of the <a href="/windows/desktop/api/spatialaudioclient/ns-spatialaudioclient-spatialaudioobjectrenderstreamactivationparams">SpatialAudioObjectRenderStreamActivationParams</a> passed to  <a href="/windows/desktop/api/spatialaudioclient/nf-spatialaudioclient-ispatialaudioclient-activatespatialaudiostream">ActivateSpatialAudioStream</a>.
 
 ### -param frameCountPerBuffer [out]
 
@@ -68,5 +68,4 @@ If the method succeeds, it returns S_OK.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/spatialaudioclient/nn-spatialaudioclient-ispatialaudioclient">ISpatialAudioClient</a>
-
+<a href="/windows/desktop/api/spatialaudioclient/nn-spatialaudioclient-ispatialaudioclient">ISpatialAudioClient</a>

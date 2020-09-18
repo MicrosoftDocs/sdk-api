@@ -79,5 +79,4 @@ Network address list descriptor.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/qos/ns-qos-flowspec">FLOWSPEC</a>
-
+<a href="/windows/desktop/api/qos/ns-qos-flowspec">FLOWSPEC</a>

@@ -50,11 +50,11 @@ api_name:
 
 ## -description
 
-Extends <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-inamespacewalkcb">INamespaceWalkCB</a> with a method that is required in order to complete a namespace walk. This method removes data collected during the walk.
+Extends <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-inamespacewalkcb">INamespaceWalkCB</a> with a method that is required in order to complete a namespace walk. This method removes data collected during the walk.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">INamespaceWalkCB2</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-inamespacewalkcb">INamespaceWalkCB</a>. <b>INamespaceWalkCB2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">INamespaceWalkCB2</b> interface inherits from <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-inamespacewalkcb">INamespaceWalkCB</a>. <b>INamespaceWalkCB2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>INamespaceWalkCB2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-inamespacewalkcb2-walkcomplete">WalkComplete</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-inamespacewalkcb2-walkcomplete">WalkComplete</a>
 </td>
 <td align="left" width="63%">
 Removes data collected during a namespace walk.
@@ -80,13 +80,12 @@ Removes data collected during a namespace walk.
 
 ## -remarks
 
-This interface also provides the methods of the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-inamespacewalkcb">INamespaceWalkCB</a> interface, from which it inherits.
+This interface also provides the methods of the <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-inamespacewalkcb">INamespaceWalkCB</a> interface, from which it inherits.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-inamespacewalk">INamespaceWalk</a>
+<a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-inamespacewalk">INamespaceWalk</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-inamespacewalkcb">INamespaceWalkCB</a>
-
+<a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-inamespacewalkcb">INamespaceWalkCB</a>

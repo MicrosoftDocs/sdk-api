@@ -48,7 +48,7 @@ api_name:
 ## -description
 
 > [!IMPORTANT]
-> Use of **WinHttpSetDefaultProxyConfiguration** is deprecated on Windows 8.1 and newer. Most proxy configurations are not supported by **WinHttpSetDefaultProxyConfiguration**, nor does it support proxy authentication. Instead, use **WINHTTP_ACCESS_TYPE_AUTOMATIC_PROXY** with [WinHttpOpen](/windows/win32/api/winhttp/nf-winhttp-winhttpopen).
+> Use of **WinHttpSetDefaultProxyConfiguration** is deprecated on Windows 8.1 and newer. Most proxy configurations are not supported by **WinHttpSetDefaultProxyConfiguration**, nor does it support proxy authentication. Instead, use **WINHTTP_ACCESS_TYPE_AUTOMATIC_PROXY** with [WinHttpOpen](./nf-winhttp-winhttpopen.md).
 
 The <b>WinHttpSetDefaultProxyConfiguration</b> function sets the default WinHTTP proxy configuration in the registry.
 
@@ -143,4 +143,3 @@ delete [] proxyInfo.lpszProxyBypass;
 [WinHTTP versions](/windows/desktop/winhttp/winhttp-versions)
 
 [WinHttpGetDefaultProxyConfiguration](/windows/desktop/api/winhttp/nf-winhttp-winhttpgetdefaultproxyconfiguration)
-

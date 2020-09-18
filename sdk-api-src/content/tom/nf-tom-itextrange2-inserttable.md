@@ -76,7 +76,7 @@ Specifies how the cells fit the target space.
 
 Type: <b>HRESULT</b>
 
-If the method succeeds, it returns <b>S_OK</b>. If the method fails, it returns one of the following COM error codes. For more information about COM error codes, see <a href="https://docs.microsoft.com/windows/desktop/com/error-handling-in-com">Error Handling in COM</a>.
+If the method succeeds, it returns <b>S_OK</b>. If the method fails, it returns one of the following COM error codes. For more information about COM error codes, see <a href="/windows/desktop/com/error-handling-in-com">Error Handling in COM</a>.
 
 <table>
 <tr>
@@ -109,9 +109,8 @@ Insufficient memory.
 
 ## -remarks
 
-If the range is nondegenerate, the table replaces the text in the range. The column widths are calculated according to the <i>AutoFit</i> parameter, and the borders are solid black with 0.5 point widths. To change these defaults, use the <a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange2-getrow">ITextRange2::GetRow</a> method to obtain an <a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextrow">ITextRow</a> interface.
+If the range is nondegenerate, the table replaces the text in the range. The column widths are calculated according to the <i>AutoFit</i> parameter, and the borders are solid black with 0.5 point widths. To change these defaults, use the <a href="/windows/desktop/api/tom/nf-tom-itextrange2-getrow">ITextRange2::GetRow</a> method to obtain an <a href="/windows/desktop/api/tom/nn-tom-itextrow">ITextRow</a> interface.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextrange2">ITextRange2</a>
-
+<a href="/windows/desktop/api/tom/nn-tom-itextrange2">ITextRange2</a>

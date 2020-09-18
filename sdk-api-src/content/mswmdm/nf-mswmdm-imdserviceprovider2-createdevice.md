@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-The <b>CreateDevice</b> method is called by the Windows Media Device Manager to get the <b>IMDSPDevice</b> object(s) corresponding to the canonical device obtained from the PnP subsystem. This method must be implemented for PnP and Windows Explorer support, but otherwise it is optional. For more information, see <a href="https://docs.microsoft.com/windows/desktop/WMDM/mandatory-and-optional-interfaces">Mandatory and Optional Interfaces</a>.
+The <b>CreateDevice</b> method is called by the Windows Media Device Manager to get the <b>IMDSPDevice</b> object(s) corresponding to the canonical device obtained from the PnP subsystem. This method must be implemented for PnP and Windows Explorer support, but otherwise it is optional. For more information, see <a href="/windows/desktop/WMDM/mandatory-and-optional-interfaces">Mandatory and Optional Interfaces</a>.
 
 ## -parameters
 
@@ -65,7 +65,7 @@ Pointer to a <b>DWORD</b> containing the number of <b>IMDSPDevice</b> objects th
 
 ### -param pppDeviceArray [out]
 
-An array of <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-imdspdevice">IMDSPDevice</a> interfaces representing the devices. Typically, there is only one array element, but a service provider can create more than one <b>IMDSPDevice</b> object corresponding to a device path name if it creates an <b>IMDSPDevice</b> object for each top-level storage. This is subject to change in the future, and the count may be restricted to 1.
+An array of <a href="/windows/desktop/api/mswmdm/nn-mswmdm-imdspdevice">IMDSPDevice</a> interfaces representing the devices. Typically, there is only one array element, but a service provider can create more than one <b>IMDSPDevice</b> object corresponding to a device path name if it creates an <b>IMDSPDevice</b> object for each top-level storage. This is subject to change in the future, and the count may be restricted to 1.
 
 ## -returns
 
@@ -77,9 +77,8 @@ Windows Media Device Manager calls this method when an application starts, or wh
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/WMDM/enumerating-devices-service-provider">Enumerating Devices</a>
+<a href="/windows/desktop/WMDM/enumerating-devices-service-provider">Enumerating Devices</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-imdserviceprovider2">IMDServiceProvider2 Interface</a>
-
+<a href="/windows/desktop/api/mswmdm/nn-mswmdm-imdserviceprovider2">IMDServiceProvider2 Interface</a>

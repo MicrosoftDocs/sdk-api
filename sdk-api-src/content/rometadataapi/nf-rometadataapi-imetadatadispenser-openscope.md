@@ -61,7 +61,7 @@ The name of the file to be opened. The file must contain common language runtime
 
 `[in]`
 
-Specifies the mode (read, and so on) for opening. This is a value of the <a href="https://docs.microsoft.com/dotnet/framework/unmanaged-api/metadata/coropenflags-enumeration">CorOpenFlags</a> enumeration. You can only import (read) from the file, not emit (write) to it.
+Specifies the mode (read, and so on) for opening. This is a value of the <a href="/dotnet/framework/unmanaged-api/metadata/coropenflags-enumeration">CorOpenFlags</a> enumeration. You can only import (read) from the file, not emit (write) to it.
 
 ### -param riid
 
@@ -87,5 +87,4 @@ The in-memory copy of the metadata can be queried using methods from one of the 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rometadataapi/nn-rometadataapi-imetadatadispenser">IMetaDataDispenser</a>
-
+<a href="/windows/desktop/api/rometadataapi/nn-rometadataapi-imetadatadispenser">IMetaDataDispenser</a>

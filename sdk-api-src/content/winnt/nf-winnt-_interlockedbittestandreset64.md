@@ -70,13 +70,13 @@ The value of the specified bit.
 
 The interlocked functions provide a simple mechanism for synchronizing access to a variable that is shared by multiple threads. This function is atomic with respect to calls to other interlocked functions.
 
-This function is implemented using a compiler intrinsic where possible. For more information, see the WinBase.h header file and <a href="https://docs.microsoft.com/previous-versions/h1haebfw(v=vs.85)">_interlockedbittestandreset64</a>.
+This function is implemented using a compiler intrinsic where possible. For more information, see the WinBase.h header file and <a href="/previous-versions/h1haebfw(v=vs.85)">_interlockedbittestandreset64</a>.
 
 This function  generates a full memory barrier (or fence) to ensure that memory operations are completed in order.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Sync/interlocked-variable-access">Interlocked Variable Access</a>
+<a href="/windows/desktop/Sync/interlocked-variable-access">Interlocked Variable Access</a>
 
 
 
@@ -84,11 +84,11 @@ This function  generates a full memory barrier (or fence) to ensure that memory 
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh972636(v=vs.85)">InterlockedBitTestAndResetAcquire</a>
+<a href="/previous-versions/windows/desktop/legacy/hh972636(v=vs.85)">InterlockedBitTestAndResetAcquire</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh972637(v=vs.85)">InterlockedBitTestAndResetRelease</a>
+<a href="/previous-versions/windows/desktop/legacy/hh972637(v=vs.85)">InterlockedBitTestAndResetRelease</a>
 
 
 
@@ -100,13 +100,12 @@ This function  generates a full memory barrier (or fence) to ensure that memory 
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh972638(v=vs.85)">InterlockedBitTestAndSetAcquire</a>
+<a href="/previous-versions/windows/desktop/legacy/hh972638(v=vs.85)">InterlockedBitTestAndSetAcquire</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh972639(v=vs.85)">InterlockedBitTestAndSetRelease</a>
+<a href="/previous-versions/windows/desktop/legacy/hh972639(v=vs.85)">InterlockedBitTestAndSetRelease</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Sync/synchronization-functions">Synchronization Functions</a>
-
+<a href="/windows/desktop/Sync/synchronization-functions">Synchronization Functions</a>

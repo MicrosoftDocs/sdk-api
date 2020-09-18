@@ -50,11 +50,11 @@ api_name:
 
 ## -description
 
-This interface represents a remotely discovered host.  WSDAPI returns this interface when calling  <a href="https://docs.microsoft.com/windows/desktop/api/wsddisco/nf-wsddisco-iwsdiscoveryprovidernotify-add">IWSDiscoveryProviderNotify::Add</a> and <a href="https://docs.microsoft.com/windows/desktop/api/wsddisco/nf-wsddisco-iwsdiscoveryprovidernotify-remove">IWSDiscoveryProviderNotify::Remove</a>. The interface is populated when a match for an outstanding query issued using <a href="https://docs.microsoft.com/windows/desktop/api/wsddisco/nf-wsddisco-iwsdiscoveryprovider-searchbytype">IWSDiscoveryProvider::SearchByType</a>, <a href="https://docs.microsoft.com/windows/desktop/api/wsddisco/nf-wsddisco-iwsdiscoveryprovider-searchbyaddress">IWSDiscoveryProvider::SearchByAddress</a>, or <a href="https://docs.microsoft.com/windows/desktop/api/wsddisco/nf-wsddisco-iwsdiscoveryprovider-searchbyid">IWSDiscoveryProvider::SearchById</a> is received, or if a device on the network announces itself with a Hello message.
+This interface represents a remotely discovered host.  WSDAPI returns this interface when calling  <a href="/windows/desktop/api/wsddisco/nf-wsddisco-iwsdiscoveryprovidernotify-add">IWSDiscoveryProviderNotify::Add</a> and <a href="/windows/desktop/api/wsddisco/nf-wsddisco-iwsdiscoveryprovidernotify-remove">IWSDiscoveryProviderNotify::Remove</a>. The interface is populated when a match for an outstanding query issued using <a href="/windows/desktop/api/wsddisco/nf-wsddisco-iwsdiscoveryprovider-searchbytype">IWSDiscoveryProvider::SearchByType</a>, <a href="/windows/desktop/api/wsddisco/nf-wsddisco-iwsdiscoveryprovider-searchbyaddress">IWSDiscoveryProvider::SearchByAddress</a>, or <a href="/windows/desktop/api/wsddisco/nf-wsddisco-iwsdiscoveryprovider-searchbyid">IWSDiscoveryProvider::SearchById</a> is received, or if a device on the network announces itself with a Hello message.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWSDiscoveredService</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWSDiscoveredService</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWSDiscoveredService</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWSDiscoveredService</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IWSDiscoveredService</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wsddisco/nf-wsddisco-iwsdiscoveredservice-getendpointreference">GetEndpointReference</a>
+<a href="/windows/desktop/api/wsddisco/nf-wsddisco-iwsdiscoveredservice-getendpointreference">GetEndpointReference</a>
 </td>
 <td align="left" width="63%">
 Retrieves a WS-Addressing address referencing an endpoint of the remote device.
@@ -78,7 +78,7 @@ Retrieves a WS-Addressing address referencing an endpoint of the remote device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wsddisco/nf-wsddisco-iwsdiscoveredservice-getextendeddiscoxml">GetExtendedDiscoXML</a>
+<a href="/windows/desktop/api/wsddisco/nf-wsddisco-iwsdiscoveredservice-getextendeddiscoxml">GetExtendedDiscoXML</a>
 </td>
 <td align="left" width="63%">
 Retrieves custom or extensible data provided in the header or body of the SOAP message.
@@ -87,7 +87,7 @@ Retrieves custom or extensible data provided in the header or body of the SOAP m
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wsddisco/nf-wsddisco-iwsdiscoveredservice-getinstanceid">GetInstanceId</a>
+<a href="/windows/desktop/api/wsddisco/nf-wsddisco-iwsdiscoveredservice-getinstanceid">GetInstanceId</a>
 </td>
 <td align="left" width="63%">
 Retrieves the instance identifier of this message.
@@ -96,7 +96,7 @@ Retrieves the instance identifier of this message.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wsddisco/nf-wsddisco-iwsdiscoveredservice-getlocalinterfaceguid">GetLocalInterfaceGUID</a>
+<a href="/windows/desktop/api/wsddisco/nf-wsddisco-iwsdiscoveredservice-getlocalinterfaceguid">GetLocalInterfaceGUID</a>
 </td>
 <td align="left" width="63%">
 Retrieves the GUID of the local network interface over which the message was received.
@@ -105,7 +105,7 @@ Retrieves the GUID of the local network interface over which the message was rec
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wsddisco/nf-wsddisco-iwsdiscoveredservice-getlocaltransportaddress">GetLocalTransportAddress</a>
+<a href="/windows/desktop/api/wsddisco/nf-wsddisco-iwsdiscoveredservice-getlocaltransportaddress">GetLocalTransportAddress</a>
 </td>
 <td align="left" width="63%">
 Retrieves the string representation of the local transport (IP) address.
@@ -115,7 +115,7 @@ Retrieves the string representation of the local transport (IP) address.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wsddisco/nf-wsddisco-iwsdiscoveredservice-getmetadataversion">GetMetadataVersion</a>
+<a href="/windows/desktop/api/wsddisco/nf-wsddisco-iwsdiscoveredservice-getmetadataversion">GetMetadataVersion</a>
 </td>
 <td align="left" width="63%">
 Retrieves the metadata version of this message.
@@ -124,7 +124,7 @@ Retrieves the metadata version of this message.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wsddisco/nf-wsddisco-iwsdiscoveredservice-getproberesolvetag">GetProbeResolveTag</a>
+<a href="/windows/desktop/api/wsddisco/nf-wsddisco-iwsdiscoveredservice-getproberesolvetag">GetProbeResolveTag</a>
 </td>
 <td align="left" width="63%">
 Retrieves the search tag corresponding to this discovered service object.
@@ -133,7 +133,7 @@ Retrieves the search tag corresponding to this discovered service object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wsddisco/nf-wsddisco-iwsdiscoveredservice-getremotetransportaddress">GetRemoteTransportAddress</a>
+<a href="/windows/desktop/api/wsddisco/nf-wsddisco-iwsdiscoveredservice-getremotetransportaddress">GetRemoteTransportAddress</a>
 </td>
 <td align="left" width="63%">
 Retrieves the string representation of the remote transport (IP) address.
@@ -143,7 +143,7 @@ Retrieves the string representation of the remote transport (IP) address.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wsddisco/nf-wsddisco-iwsdiscoveredservice-getscopes">GetScopes</a>
+<a href="/windows/desktop/api/wsddisco/nf-wsddisco-iwsdiscoveredservice-getscopes">GetScopes</a>
 </td>
 <td align="left" width="63%">
 Retrieves a list of WS-Discovery Scopes provided in the Hello, ProbeMatch, or ResolveMatch message sent by the remote device.
@@ -152,7 +152,7 @@ Retrieves a list of WS-Discovery Scopes provided in the Hello, ProbeMatch, or Re
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wsddisco/nf-wsddisco-iwsdiscoveredservice-gettypes">GetTypes</a>
+<a href="/windows/desktop/api/wsddisco/nf-wsddisco-iwsdiscoveredservice-gettypes">GetTypes</a>
 </td>
 <td align="left" width="63%">
 Retrieves a list of WS-Discovery Types provided in the Hello, ProbeMatch, or ResolveMatch message sent by the remote device.
@@ -161,7 +161,7 @@ Retrieves a list of WS-Discovery Types provided in the Hello, ProbeMatch, or Res
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wsddisco/nf-wsddisco-iwsdiscoveredservice-getxaddrs">GetXAddrs</a>
+<a href="/windows/desktop/api/wsddisco/nf-wsddisco-iwsdiscoveredservice-getxaddrs">GetXAddrs</a>
 </td>
 <td align="left" width="63%">
 Retrieves a list of WS-Discovery XAddrs provided in the Hello, ProbeMatch, or ResolveMatch message sent by the remote device.
@@ -169,4 +169,3 @@ Retrieves a list of WS-Discovery XAddrs provided in the Hello, ProbeMatch, or Re
 </td>
 </tr>
 </table>
-

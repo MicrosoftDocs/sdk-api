@@ -56,7 +56,6 @@ An event handle, if called on the system font set, or `nullptr` if called on a c
 
 ## -remarks
 
-You mustn't call **CloseHandle** on the returned event handle. The handle is owned by the font set object, and it remains valid as long as you hold a reference to the font set. You can wait on the returned event, or use [RegisterWaitForSingleObject](/windows/win32/api/winbase/nf-winbase-registerwaitforsingleobject) to request a callback when the event is set.
+You mustn't call **CloseHandle** on the returned event handle. The handle is owned by the font set object, and it remains valid as long as you hold a reference to the font set. You can wait on the returned event, or use [RegisterWaitForSingleObject](../winbase/nf-winbase-registerwaitforsingleobject.md) to request a callback when the event is set.
 
 ## -see-also
-

@@ -66,9 +66,8 @@ This method can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, E
 
 This method should be implemented to gracefully handle errors that occur when your batch work is running asynchronously. Because the process terminates (FailFast) on any unrecoverable error, without this method you have no way of knowing when errors occur in your asynchronous batch work. The process also terminates when this method returns an error as its return value.
 
-The batch work itself is implemented in <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-iservicecall-oncall">IServiceCall::OnCall</a>, and it is run asynchronously by calling <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-iserviceactivity-asynchronouscall">IServiceActivity::AsynchronousCall</a> using the <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-iserviceactivity">IServiceActivity</a> pointer that was returned from the call to <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-cocreateactivity">CoCreateActivity</a>.
+The batch work itself is implemented in <a href="/windows/desktop/api/comsvcs/nf-comsvcs-iservicecall-oncall">IServiceCall::OnCall</a>, and it is run asynchronously by calling <a href="/windows/desktop/api/comsvcs/nf-comsvcs-iserviceactivity-asynchronouscall">IServiceActivity::AsynchronousCall</a> using the <a href="/windows/desktop/api/comsvcs/nn-comsvcs-iserviceactivity">IServiceActivity</a> pointer that was returned from the call to <a href="/windows/desktop/api/comsvcs/nf-comsvcs-cocreateactivity">CoCreateActivity</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-iasyncerrornotify">IAsyncErrorNotify</a>
-
+<a href="/windows/desktop/api/comsvcs/nn-comsvcs-iasyncerrornotify">IAsyncErrorNotify</a>

@@ -59,45 +59,44 @@ api_name:
 ## -description
 
 Cancels a registered wait operation issued by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-registerwaitforsingleobject">RegisterWaitForSingleObject</a> function.
+<a href="/windows/desktop/api/winbase/nf-winbase-registerwaitforsingleobject">RegisterWaitForSingleObject</a> function.
 
 To use a completion event, call the 
-<a href="https://docs.microsoft.com/windows/desktop/Sync/unregisterwaitex">UnregisterWaitEx</a> function.
+<a href="/windows/desktop/Sync/unregisterwaitex">UnregisterWaitEx</a> function.
 
 ## -parameters
 
 ### -param WaitHandle [in]
 
 The wait handle. This handle is returned by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-registerwaitforsingleobject">RegisterWaitForSingleObject</a> function.
+<a href="/windows/desktop/api/winbase/nf-winbase-registerwaitforsingleobject">RegisterWaitForSingleObject</a> function.
 
 ## -returns
 
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
-If any callback functions associated with the timer have not completed when <b>UnregisterWait</b> is called, <b>UnregisterWait</b> unregisters the wait on the callback functions and fails with the <b>ERROR_IO_PENDING</b> error code. The error code does not indicate that the function has failed, and the function does not need to be called again. If your code requires an error code to set only when the unregister operation has failed, call <a href="https://docs.microsoft.com/windows/desktop/Sync/unregisterwaitex">UnregisterWaitEx</a> instead.
+If any callback functions associated with the timer have not completed when <b>UnregisterWait</b> is called, <b>UnregisterWait</b> unregisters the wait on the callback functions and fails with the <b>ERROR_IO_PENDING</b> error code. The error code does not indicate that the function has failed, and the function does not need to be called again. If your code requires an error code to set only when the unregister operation has failed, call <a href="/windows/desktop/Sync/unregisterwaitex">UnregisterWaitEx</a> instead.
 
 To compile an application that uses this function, define <b>_WIN32_WINNT</b> as 0x0500 or later. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/WinProg/using-the-windows-headers">Using the Windows Headers</a>.
+<a href="/windows/desktop/WinProg/using-the-windows-headers">Using the Windows Headers</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-registerwaitforsingleobject">RegisterWaitForSingleObject</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-registerwaitforsingleobject">RegisterWaitForSingleObject</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Sync/synchronization-functions">Synchronization Functions</a>
+<a href="/windows/desktop/Sync/synchronization-functions">Synchronization Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/ProcThread/thread-pooling">Thread Pooling</a>
+<a href="/windows/desktop/ProcThread/thread-pooling">Thread Pooling</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Sync/unregisterwaitex">UnregisterWaitEx</a>
-
+<a href="/windows/desktop/Sync/unregisterwaitex">UnregisterWaitEx</a>

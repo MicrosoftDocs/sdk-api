@@ -99,13 +99,12 @@ Indicates that this entry in the enterprise-wide configuration table should take
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/nf-bcrypt-bcryptconfigurecontext">BCryptConfigureContext</a>
+<a href="/windows/desktop/api/bcrypt/nf-bcrypt-bcryptconfigurecontext">BCryptConfigureContext</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/nf-bcrypt-bcryptcreatecontext">BCryptCreateContext</a>
+<a href="/windows/desktop/api/bcrypt/nf-bcrypt-bcryptcreatecontext">BCryptCreateContext</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/nf-bcrypt-bcryptquerycontextconfiguration">BCryptQueryContextConfiguration</a>
-
+<a href="/windows/desktop/api/bcrypt/nf-bcrypt-bcryptquerycontextconfiguration">BCryptQueryContextConfiguration</a>

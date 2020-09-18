@@ -52,7 +52,7 @@ api_name:
 
 <div class="alert"><b>Note</b>  The <b>IAMDevMemoryControl</b> interface is deprecated.</div>
 <div> </div>
-Checks if the memory supported by the allocator requires the use of the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamdevmemorycontrol-writesync">IAMDevMemoryControl::WriteSync</a> method.
+Checks if the memory supported by the allocator requires the use of the <a href="/windows/desktop/api/strmif/nf-strmif-iamdevmemorycontrol-writesync">IAMDevMemoryControl::WriteSync</a> method.
 
 ## -parameters
 
@@ -62,13 +62,12 @@ Returns S_OK if the method is required, or S_FALSE otherwise.
 
 ## -remarks
 
-Not all on-board memory needs to have <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamdevmemorycontrol-writesync">WriteSync</a> called to synchronize with the completed write. This method is used to check if the call is necessary.
+Not all on-board memory needs to have <a href="/windows/desktop/api/strmif/nf-strmif-iamdevmemorycontrol-writesync">WriteSync</a> called to synchronize with the completed write. This method is used to check if the call is necessary.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iamdevmemorycontrol">IAMDevMemoryControl Interface</a>
-
+<a href="/windows/desktop/api/strmif/nn-strmif-iamdevmemorycontrol">IAMDevMemoryControl Interface</a>

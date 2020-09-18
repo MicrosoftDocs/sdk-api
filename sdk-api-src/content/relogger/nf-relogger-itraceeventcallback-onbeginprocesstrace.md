@@ -56,13 +56,13 @@ The <b>OnBeginProcessTrace</b> trace method indicates that a trace is about to b
 
 ### -param HeaderEvent [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/relogger/nn-relogger-itraceevent">ITraceEvent</a>*</b>
+Type: <b><a href="/windows/desktop/api/relogger/nn-relogger-itraceevent">ITraceEvent</a>*</b>
 
 Supplies a pointer to the header event.
 
 ### -param Relogger [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/relogger/nn-relogger-itracerelogger">ITraceRelogger</a>*</b>
+Type: <b><a href="/windows/desktop/api/relogger/nn-relogger-itracerelogger">ITraceRelogger</a>*</b>
 
 Supplies a pointer to the <b>ITraceRelogger</b> interface, which exposes
         APIs for actual event injection, synthesizing new events, and cloning
@@ -76,5 +76,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/relogger/nn-relogger-itraceeventcallback">ITraceEventCallback</a>
-
+<a href="/windows/desktop/api/relogger/nn-relogger-itraceeventcallback">ITraceEventCallback</a>

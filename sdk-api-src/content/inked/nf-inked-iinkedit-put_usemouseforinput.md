@@ -65,7 +65,7 @@ This property is read/write.
 
 ## -remarks
 
-This property should only be changed if the <a href="https://docs.microsoft.com/windows/desktop/api/inked/nf-inked-iinkedit-get_status">Status</a> property returns IES_Idle.
+This property should only be changed if the <a href="/windows/desktop/api/inked/nf-inked-iinkedit-get_status">Status</a> property returns IES_Idle.
 
 ## -see-also
 
@@ -73,5 +73,4 @@ This property should only be changed if the <a href="https://docs.microsoft.com/
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/tablet/inkedit-control-reference">InkEdit</a>
-
+<a href="/windows/desktop/tablet/inkedit-control-reference">InkEdit</a>

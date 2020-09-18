@@ -56,7 +56,7 @@ Obtains information about the device driver. This method can be used, with cauti
 
 ### -param arg1 [out]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/ns-ddraw-dddeviceidentifier2">DDDEVICEIDENTIFIER2</a> structure that receives information about the driver.
+A pointer to a <a href="/windows/desktop/api/ddraw/ns-ddraw-dddeviceidentifier2">DDDEVICEIDENTIFIER2</a> structure that receives information about the driver.
 
 ### -param arg2 [in]
 
@@ -78,9 +78,8 @@ If it fails, the method can return DDERR_INVALIDPARAMS.
 
 ## -remarks
 
-You must use <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> to explicitly link to Ddraw.dll and then use <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> to access the  <b>GetDeviceIdentifier</b> method.
+You must use <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> to explicitly link to Ddraw.dll and then use <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> to access the  <b>GetDeviceIdentifier</b> method.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nn-ddraw-idirectdraw7">IDirectDraw7</a>
-
+<a href="/windows/desktop/api/ddraw/nn-ddraw-idirectdraw7">IDirectDraw7</a>

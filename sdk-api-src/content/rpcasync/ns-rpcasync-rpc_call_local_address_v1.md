@@ -74,9 +74,8 @@ On input, this member contains the size of the buffer pointed to by the <b>Buffe
 
 ### -field AddressFormat
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcasync/ne-rpcasync-rpclocaladdressformat">RpcLocalAddressFormat</a> enumeration values that specifies the format of the local address written to <b>Buffer</b>. For this version of the structure, only IPv4 and IPv6 addresses  are supported; if another is specified, RPC_S_CANNOT_SUPPORT is returned.
+<a href="/windows/desktop/api/rpcasync/ne-rpcasync-rpclocaladdressformat">RpcLocalAddressFormat</a> enumeration values that specifies the format of the local address written to <b>Buffer</b>. For this version of the structure, only IPv4 and IPv6 addresses  are supported; if another is specified, RPC_S_CANNOT_SUPPORT is returned.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcasync/ns-rpcasync-rpc_call_attributes_v2_a">RPC_CALL_ATTRIBUTES_V2</a>
-
+<a href="/windows/desktop/api/rpcasync/ns-rpcasync-rpc_call_attributes_v2_a">RPC_CALL_ATTRIBUTES_V2</a>

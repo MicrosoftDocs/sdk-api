@@ -57,7 +57,7 @@ The
 
 ### -field hop_ipaddr
 
-The next or previous hop IP address, in the form of an <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-in_addr">in_addr</a> structure.
+The next or previous hop IP address, in the form of an <a href="/windows/desktop/api/winsock2/ns-winsock2-in_addr">in_addr</a> structure.
 
 ### -field hop_LIH
 
@@ -65,5 +65,4 @@ Logical Interface Handle.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-in_addr">in_addr</a>
-
+<a href="/windows/desktop/api/winsock2/ns-winsock2-in_addr">in_addr</a>

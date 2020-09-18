@@ -64,9 +64,8 @@ Returns an <b>XMVECTOR</b> describing the converted sRGBA color vector. The x el
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/dxmath/ovw-xnamath-reference-functions-color">DirectXMath Library Color Functions</a>
+<a href="/windows/desktop/dxmath/ovw-xnamath-reference-functions-color">DirectXMath Library Color Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/directxmath/nf-directxmath-xmcolorsrgbtorgb">XMColorSRGBToRGB</a>
-
+<a href="/windows/desktop/api/directxmath/nf-directxmath-xmcolorsrgbtorgb">XMColorSRGBToRGB</a>

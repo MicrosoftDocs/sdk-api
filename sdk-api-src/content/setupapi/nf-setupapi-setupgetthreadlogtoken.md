@@ -53,7 +53,7 @@ api_name:
 
 ## -description
 
-The <b>SetupGetThreadLogToken</b> function retrieves the <a href="https://docs.microsoft.com/windows-hardware/drivers/install/log-tokens">log token</a> for the thread from which this function was called.
+The <b>SetupGetThreadLogToken</b> function retrieves the <a href="/windows-hardware/drivers/install/log-tokens">log token</a> for the thread from which this function was called.
 
 ## -parameters
 
@@ -63,21 +63,20 @@ The <b>SetupGetThreadLogToken</b> function retrieves the <a href="https://docs.m
 
 ## -remarks
 
-To set a log token for a thread, call <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupsetthreadlogtoken">SetupSetThreadLogToken</a>. 
+To set a log token for a thread, call <a href="/windows/desktop/api/setupapi/nf-setupapi-setupsetthreadlogtoken">SetupSetThreadLogToken</a>. 
 
-For more information about log tokens, see <a href="https://docs.microsoft.com/windows-hardware/drivers/install/log-tokens">Log Tokens</a>.
+For more information about log tokens, see <a href="/windows-hardware/drivers/install/log-tokens">Log Tokens</a>.
 
-For more information about using log tokens, see <a href="https://docs.microsoft.com/windows-hardware/drivers/install/setting-and-getting-a-log-token-for-a-thread">Setting and Getting a Log Token for a Thread</a>.
+For more information about using log tokens, see <a href="/windows-hardware/drivers/install/setting-and-getting-a-log-token-for-a-thread">Setting and Getting a Log Token for a Thread</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/install/log-tokens">Log Tokens</a>
+<a href="/windows-hardware/drivers/install/log-tokens">Log Tokens</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/install/setting-and-getting-a-log-token-for-a-thread">Setting and Getting a Log Token for a Thread</a>
+<a href="/windows-hardware/drivers/install/setting-and-getting-a-log-token-for-a-thread">Setting and Getting a Log Token for a Thread</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupsetthreadlogtoken">SetupSetThreadLogToken</a>
-
+<a href="/windows/desktop/api/setupapi/nf-setupapi-setupsetthreadlogtoken">SetupSetThreadLogToken</a>

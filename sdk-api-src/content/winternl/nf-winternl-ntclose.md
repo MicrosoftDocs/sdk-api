@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-Deprecated. Closes the specified handle. <b>NtClose</b> is superseded by <a href="https://docs.microsoft.com/windows/desktop/api/handleapi/nf-handleapi-closehandle">CloseHandle</a>.
+Deprecated. Closes the specified handle. <b>NtClose</b> is superseded by <a href="/windows/desktop/api/handleapi/nf-handleapi-closehandle">CloseHandle</a>.
 
 ## -parameters
 
@@ -104,5 +104,4 @@ The <b>NtClose</b> function closes handles to the following objects.
 <li>Socket </li>
 <li>Thread </li>
 </ul>
-Because there is no import library for this function, you must use <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a>.
-
+Because there is no import library for this function, you must use <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a>.

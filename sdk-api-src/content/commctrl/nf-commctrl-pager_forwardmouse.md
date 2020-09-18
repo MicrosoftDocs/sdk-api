@@ -50,19 +50,18 @@ api_name:
 
 ## -description
 
-Enables or disables mouse forwarding for the pager control. When mouse forwarding is enabled, the pager control forwards <a href="https://docs.microsoft.com/windows/desktop/inputdev/wm-mousemove">WM_MOUSEMOVE</a> messages to the contained window. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/pgm-forwardmouse">PGM_FORWARDMOUSE</a> message explicitly.
+Enables or disables mouse forwarding for the pager control. When mouse forwarding is enabled, the pager control forwards <a href="/windows/desktop/inputdev/wm-mousemove">WM_MOUSEMOVE</a> messages to the contained window. You can use this macro or send the <a href="/windows/desktop/Controls/pgm-forwardmouse">PGM_FORWARDMOUSE</a> message explicitly.
 
 ## -parameters
 
 ### -param hwnd
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 Handle to the pager control.
 
 ### -param bForward
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
 
 <b>BOOL</b> value that determines if mouse forwarding is enabled or disabled. If this value is nonzero, mouse forwarding is enabled. If this value is zero, mouse forwarding is disabled.
-

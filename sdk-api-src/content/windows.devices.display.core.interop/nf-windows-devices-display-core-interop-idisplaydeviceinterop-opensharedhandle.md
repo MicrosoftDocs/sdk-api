@@ -57,7 +57,7 @@ An NT handle for a shared primary surface, shared fence, or source presentation 
 
 Type: **REFIID**
 
-A reference to the interface identifier (IID) for the default interface of one of the following Windows Runtime classes. An IID is a **[GUID](/windows/win32/api/guiddef/ns-guiddef-guid)**.
+A reference to the interface identifier (IID) for the default interface of one of the following Windows Runtime classes. An IID is a **[GUID](../guiddef/ns-guiddef-guid.md)**.
 
 * [IDisplaySurface](/uwp/api/windows.devices.display.core.displaysurface)
 * [IDisplayFence](/uwp/api/windows.devices.display.core.displayfence)
@@ -84,4 +84,3 @@ Opening a source presentation handle is similar to calling [CreateScanoutSource]
 ## -see-also
 
 * [CreateSharedHandle](nf-windows-devices-display-core-interop-idisplaydeviceinterop-createsharedhandle.md)
-

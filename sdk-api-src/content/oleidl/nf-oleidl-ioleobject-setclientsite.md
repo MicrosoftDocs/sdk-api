@@ -56,7 +56,7 @@ Informs an embedded object of its display location, called a "client site," with
 
 ### -param pClientSite [in]
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-ioleclientsite">IOleClientSite</a> interface on the container application's client-site.
+Pointer to the <a href="/windows/desktop/api/oleidl/nn-oleidl-ioleclientsite">IOleClientSite</a> interface on the container application's client-site.
 
 ## -returns
 
@@ -87,7 +87,7 @@ Within a compound document, each embedded object has its own client site - the p
 <h3><a id="Notes_to_Callers"></a><a id="notes_to_callers"></a><a id="NOTES_TO_CALLERS"></a>Notes to Callers</h3>
 A container can notify an object of its client site either at the time the object is created or, subsequently, when the object is initialized.
 
-When creating or loading an object, a container may pass a client-site pointer (along with other arguments) to one of the following helper functions: <a href="https://docs.microsoft.com/windows/desktop/api/ole/nf-ole-olecreate">OleCreate</a>, <a href="https://docs.microsoft.com/windows/desktop/api/ole/nf-ole-olecreatefromfile">OleCreateFromFile</a>, <a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-olecreatefromdata">OleCreateFromData</a> or <a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-oleload">OleLoad</a>. These helper functions load an object handler for the new object and call <b>IOleObject::SetClientSite</b> on the container's behalf before returning a pointer to the new object.
+When creating or loading an object, a container may pass a client-site pointer (along with other arguments) to one of the following helper functions: <a href="/windows/desktop/api/ole/nf-ole-olecreate">OleCreate</a>, <a href="/windows/desktop/api/ole/nf-ole-olecreatefromfile">OleCreateFromFile</a>, <a href="/windows/desktop/api/ole2/nf-ole2-olecreatefromdata">OleCreateFromData</a> or <a href="/windows/desktop/api/ole2/nf-ole2-oleload">OleLoad</a>. These helper functions load an object handler for the new object and call <b>IOleObject::SetClientSite</b> on the container's behalf before returning a pointer to the new object.
 
 Passing a client-site pointer informs the object handler that the client site is ready to process requests. If the client site is unlikely to be ready immediately after the handler is loaded, you may want your container to pass a <b>NULL</b> client-site pointer to the helper function. The <b>NULL</b> pointer says that no client site is available and thereby defers notifying the object handler of the client site until the object is initialized. In response, the helper function returns a pointer to the object, but upon receiving that pointer the container must call <b>IOleObject::SetClientSite</b> as part of initializing the new object.
 
@@ -96,29 +96,28 @@ Implementation consists simply of incrementing the reference count on, and stori
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-ioleclientsite">IOleClientSite</a>
+<a href="/windows/desktop/api/oleidl/nn-oleidl-ioleclientsite">IOleClientSite</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-ioleobject">IOleObject</a>
+<a href="/windows/desktop/api/oleidl/nn-oleidl-ioleobject">IOleObject</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleobject-getclientsite">IOleObject::GetClientSite</a>
+<a href="/windows/desktop/api/oleidl/nf-oleidl-ioleobject-getclientsite">IOleObject::GetClientSite</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ole/nf-ole-olecreate">OleCreate</a>
+<a href="/windows/desktop/api/ole/nf-ole-olecreate">OleCreate</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-olecreatefromdata">OleCreateFromData</a>
+<a href="/windows/desktop/api/ole2/nf-ole2-olecreatefromdata">OleCreateFromData</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ole/nf-ole-olecreatefromfile">OleCreateFromFile</a>
+<a href="/windows/desktop/api/ole/nf-ole-olecreatefromfile">OleCreateFromFile</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-oleload">OleLoad</a>
-
+<a href="/windows/desktop/api/ole2/nf-ole2-oleload">OleLoad</a>

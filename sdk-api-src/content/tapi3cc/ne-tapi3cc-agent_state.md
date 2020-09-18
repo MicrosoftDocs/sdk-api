@@ -52,8 +52,8 @@ api_name:
 
 The 
 <b>AGENT_STATE</b> enum is used by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nf-tapi3-itagent-put_state">ITAgent::put_State</a> and 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nf-tapi3-itagent-get_state">ITAgent::get_State</a> methods to describe the agent state.
+<a href="/windows/desktop/api/tapi3/nf-tapi3-itagent-put_state">ITAgent::put_State</a> and 
+<a href="/windows/desktop/api/tapi3/nf-tapi3-itagent-get_state">ITAgent::get_State</a> methods to describe the agent state.
 
 ## -enum-fields
 
@@ -83,9 +83,8 @@ Agent state unknown.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nf-tapi3-itagent-get_state">ITAgent::get_State</a>
+<a href="/windows/desktop/api/tapi3/nf-tapi3-itagent-get_state">ITAgent::get_State</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nf-tapi3-itagent-put_state">ITAgent::put_State</a>
-
+<a href="/windows/desktop/api/tapi3/nf-tapi3-itagent-put_state">ITAgent::put_State</a>

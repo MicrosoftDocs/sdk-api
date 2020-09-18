@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="https://docs.microsoft.com/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Launches VDS on the specified computer and returns a pointer to the service object.
 
@@ -65,11 +65,11 @@ This parameter must be set to <b>NULL</b>.
 
 ### -param ppService [out]
 
-The address of an <a href="https://docs.microsoft.com/windows/desktop/api/vds/nn-vds-ivdsservice">IVdsService</a>interface pointer. Callers must release the interface when it is no longer needed by calling the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">IUnknown::Release</a> method.
+The address of an <a href="/windows/desktop/api/vds/nn-vds-ivdsservice">IVdsService</a>interface pointer. Callers must release the interface when it is no longer needed by calling the <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">IUnknown::Release</a> method.
 
 ## -returns
 
-This method can return standard HRESULT values, such as E_INVALIDARG or E_OUTOFMEMORY, and <a href="https://docs.microsoft.com/windows/desktop/VDS/virtual-disk-service-common-return-codes">VDS-specific return values</a>. It can also return converted <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error codes</a>  using the <a href="https://docs.microsoft.com/windows/desktop/api/winerror/nf-winerror-hresult_from_win32">HRESULT_FROM_WIN32</a> macro. Errors can originate from VDS itself or from the underlying <a href="https://docs.microsoft.com/windows/desktop/VDS/about-vds">VDS provider</a> that is being used. Possible return values include the following.
+This method can return standard HRESULT values, such as E_INVALIDARG or E_OUTOFMEMORY, and <a href="/windows/desktop/VDS/virtual-disk-service-common-return-codes">VDS-specific return values</a>. It can also return converted <a href="/windows/desktop/Debug/system-error-codes">system error codes</a>  using the <a href="/windows/desktop/api/winerror/nf-winerror-hresult_from_win32">HRESULT_FROM_WIN32</a> macro. Errors can originate from VDS itself or from the underlying <a href="/windows/desktop/VDS/about-vds">VDS provider</a> that is being used. Possible return values include the following.
 
 <table>
 <tr>
@@ -91,19 +91,18 @@ The service has launched successfully.
 
 ## -remarks
 
-Although <b>S_OK</b> indicates that VDS has launched successfully, the service initialization can be incomplete when the method returns. For this reason, after calling this method, you must call the <a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsservice-waitforserviceready">IVdsService::WaitForServiceReady</a> method to wait for VDS initialization to complete.
+Although <b>S_OK</b> indicates that VDS has launched successfully, the service initialization can be incomplete when the method returns. For this reason, after calling this method, you must call the <a href="/windows/desktop/api/vds/nf-vds-ivdsservice-waitforserviceready">IVdsService::WaitForServiceReady</a> method to wait for VDS initialization to complete.
 
-For a code example, see <a href="https://docs.microsoft.com/windows/desktop/VDS/loading-vds">Loading VDS</a>.
+For a code example, see <a href="/windows/desktop/VDS/loading-vds">Loading VDS</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vds/nn-vds-ivdsservice">IVdsService</a>
+<a href="/windows/desktop/api/vds/nn-vds-ivdsservice">IVdsService</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsservice-waitforserviceready">IVdsService::WaitForServiceReady</a>
+<a href="/windows/desktop/api/vds/nf-vds-ivdsservice-waitforserviceready">IVdsService::WaitForServiceReady</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vds/nn-vds-ivdsserviceloader">IVdsServiceLoader</a>
-
+<a href="/windows/desktop/api/vds/nn-vds-ivdsserviceloader">IVdsServiceLoader</a>

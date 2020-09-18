@@ -74,47 +74,46 @@ The size of the region to be locked, in bytes. The region of affected pages incl
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
 All pages in the specified region must be committed. Memory protected with <b>PAGE_NOACCESS</b> cannot be locked.
 
 Locking pages into memory may degrade the performance of the system by reducing the available RAM and forcing the system to swap out other critical pages to the paging file. Each version of Windows has a limit on the maximum number of pages a process can lock. This limit is intentionally small to avoid severe performance degradation. Applications that need to lock larger numbers of pages must first call the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-setprocessworkingsetsize">SetProcessWorkingSetSize</a> function to increase their minimum and maximum working set sizes. The maximum number of pages that a process can lock is equal to the number of pages in its minimum working set minus a small overhead.
+<a href="/windows/desktop/api/winbase/nf-winbase-setprocessworkingsetsize">SetProcessWorkingSetSize</a> function to increase their minimum and maximum working set sizes. The maximum number of pages that a process can lock is equal to the number of pages in its minimum working set minus a small overhead.
 
 Pages that a process has locked remain in physical memory until the process unlocks them or terminates. These pages are guaranteed not to be written to the pagefile while they are locked.
 
 To unlock a region of locked pages, use the 
-<a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-virtualunlock">VirtualUnlock</a> function. Locked pages are automatically unlocked when the process terminates.
+<a href="/windows/desktop/api/memoryapi/nf-memoryapi-virtualunlock">VirtualUnlock</a> function. Locked pages are automatically unlocked when the process terminates.
 
 This function is not like the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-globallock">GlobalLock</a> or 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-locallock">LocalLock</a> function in that it does not increment a lock count and translate a handle into a pointer. There is no lock count for virtual pages, so multiple calls to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-virtualunlock">VirtualUnlock</a> function are never required to unlock a region of pages.
+<a href="/windows/desktop/api/winbase/nf-winbase-globallock">GlobalLock</a> or 
+<a href="/windows/desktop/api/winbase/nf-winbase-locallock">LocalLock</a> function in that it does not increment a lock count and translate a handle into a pointer. There is no lock count for virtual pages, so multiple calls to the 
+<a href="/windows/desktop/api/memoryapi/nf-memoryapi-virtualunlock">VirtualUnlock</a> function are never required to unlock a region of pages.
 
 
 #### Examples
 
 For an example, see 
-<a href="https://docs.microsoft.com/windows/desktop/Memory/creating-guard-pages">Creating Guard Pages</a>.
+<a href="/windows/desktop/Memory/creating-guard-pages">Creating Guard Pages</a>.
 
 <div class="code"></div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Memory/memory-management-functions">Memory
+<a href="/windows/desktop/Memory/memory-management-functions">Memory
     Management Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-setprocessworkingsetsize">SetProcessWorkingSetSize</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-setprocessworkingsetsize">SetProcessWorkingSetSize</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Memory/virtual-memory-functions">Virtual Memory Functions</a>
+<a href="/windows/desktop/Memory/virtual-memory-functions">Virtual Memory Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-virtualunlock">VirtualUnlock</a>
-
+<a href="/windows/desktop/api/memoryapi/nf-memoryapi-virtualunlock">VirtualUnlock</a>

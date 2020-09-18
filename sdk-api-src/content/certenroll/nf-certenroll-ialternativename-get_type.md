@@ -59,7 +59,7 @@ This property is read-only.
 
 ## -remarks
 
-The following values from the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/ne-certenroll-alternativenametype">AlternativeNameType</a> enumeration can be returned. The  <b>XCN_CERT_ALT_NAME_UNKNOWN</b> value is never returned.
+The following values from the <a href="/windows/desktop/api/certenroll/ne-certenroll-alternativenametype">AlternativeNameType</a> enumeration can be returned. The  <b>XCN_CERT_ALT_NAME_UNKNOWN</b> value is never returned.
 
 <table>
 <tr>
@@ -68,7 +68,7 @@ The following values from the <a href="https://docs.microsoft.com/windows/deskto
 </tr>
 <tr>
 <td><b>XCN_CERT_ALT_NAME_OTHER_NAME</b></td>
-<td>The name consists of an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly">object identifier</a> (OID) and a byte array.</td>
+<td>The name consists of an <a href="/windows/desktop/SecGloss/o-gly">object identifier</a> (OID) and a byte array.</td>
 </tr>
 <tr>
 <td><b>XCN_CERT_ALT_NAME_RFC822_NAME</b></td>
@@ -80,7 +80,7 @@ The following values from the <a href="https://docs.microsoft.com/windows/deskto
 </tr>
 <tr>
 <td><b>XCN_CERT_ALT_NAME_DIRECTORY_NAME</b></td>
-<td>The name is an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/x-gly">X.500</a> directory name.</td>
+<td>The name is an <a href="/windows/desktop/SecGloss/x-gly">X.500</a> directory name.</td>
 </tr>
 <tr>
 <td><b>XCN_CERT_ALT_NAME_URL</b></td>
@@ -100,11 +100,10 @@ The following values from the <a href="https://docs.microsoft.com/windows/deskto
 </tr>
 <tr>
 <td><b>XCN_CERT_ALT_NAME_USER_PRINCIPLE_NAME</b></td>
-<td>The name is a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/u-gly">user principal name</a> (UPN).</td>
+<td>The name is a <a href="/windows/desktop/SecGloss/u-gly">user principal name</a> (UPN).</td>
 </tr>
 </table>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ialternativename">IAlternativeName</a>
-
+<a href="/windows/desktop/api/certenroll/nn-certenroll-ialternativename">IAlternativeName</a>

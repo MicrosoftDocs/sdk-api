@@ -60,7 +60,7 @@ The number of points that are returned.
 
 ### -param pXYZColors [out]
 
-A pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/wcsplugin/ns-wcsplugin-xyzcolorf">XYZColorF</a> structures.
+A pointer to an array of <a href="/windows/desktop/api/wcsplugin/ns-wcsplugin-xyzcolorf">XYZColorF</a> structures.
 
 ## -returns
 
@@ -76,13 +76,12 @@ There is no requirement that the samples be uniformly spaced in any color space.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/wcs/basic-color-management-concepts">Basic Color Management Concepts</a>
+<a href="/previous-versions/windows/desktop/wcs/basic-color-management-concepts">Basic Color Management Concepts</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/dd316902(v=vs.85)">Functions</a>
+<a href="/previous-versions/dd316902(v=vs.85)">Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wcsplugin/nn-wcsplugin-idevicemodelplugin">IDeviceModelPlugIn</a>
-
+<a href="/previous-versions/windows/desktop/api/wcsplugin/nn-wcsplugin-idevicemodelplugin">IDeviceModelPlugIn</a>

@@ -56,7 +56,7 @@ Executes a decoding operation on the current frame.
 
 ### -param pExecuteParams [in]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/ns-dxva2api-dxva2_decodeexecuteparams">DXVA2_DecodeExecuteParams</a> structure that contains the information needed for the decoding operation.
+Pointer to a <a href="/windows/desktop/api/dxva2api/ns-dxva2api-dxva2_decodeexecuteparams">DXVA2_DecodeExecuteParams</a> structure that contains the information needed for the decoding operation.
 
 ## -returns
 
@@ -82,13 +82,12 @@ The method succeeded.
 
 ## -remarks
 
-You must call <a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/nf-dxva2api-idirectxvideodecoder-beginframe">IDirectXVideoDecoder::BeginFrame</a> before calling this method.
+You must call <a href="/windows/desktop/api/dxva2api/nf-dxva2api-idirectxvideodecoder-beginframe">IDirectXVideoDecoder::BeginFrame</a> before calling this method.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/directx-video-acceleration-2-0">DirectX Video Acceleration 2.0</a>
+<a href="/windows/desktop/medfound/directx-video-acceleration-2-0">DirectX Video Acceleration 2.0</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/nn-dxva2api-idirectxvideodecoder">IDirectXVideoDecoder</a>
-
+<a href="/windows/desktop/api/dxva2api/nn-dxva2api-idirectxvideodecoder">IDirectXVideoDecoder</a>

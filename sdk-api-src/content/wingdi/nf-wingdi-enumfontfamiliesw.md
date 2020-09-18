@@ -59,7 +59,7 @@ api_name:
 ## -description
 
 The <b>EnumFontFamilies</b> function enumerates the fonts in a specified font family that are available on a specified device.
-<div class="alert"><b>Note</b>  This function is provided only for compatibility with 16-bit versions of Windows. Applications should use the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-enumfontfamiliesexa">EnumFontFamiliesEx</a> function.</div><div> </div>
+<div class="alert"><b>Note</b>  This function is provided only for compatibility with 16-bit versions of Windows. Applications should use the <a href="/windows/desktop/api/wingdi/nf-wingdi-enumfontfamiliesexa">EnumFontFamiliesEx</a> function.</div><div> </div>
 
 ## -parameters
 
@@ -73,7 +73,7 @@ A pointer to a null-terminated string that specifies the family name of the desi
 
 ### -param lpProc [in]
 
-A pointer to the application defined callback function. For information, see <a href="https://docs.microsoft.com/previous-versions/dd162621(v=vs.85)">EnumFontFamProc</a>.
+A pointer to the application defined callback function. For information, see <a href="/previous-versions/dd162621(v=vs.85)">EnumFontFamProc</a>.
 
 ### -param lParam [in]
 
@@ -89,12 +89,12 @@ For each font having the typeface name specified by the <i>lpszFamily</i> parame
 
 When the graphics mode on the device context is set to GM_ADVANCED using the SetGraphicsMode function and the DEVICE_FONTTYPE flag is passed to the FontType parameter, this function returns a list of type 1 and OpenType fonts on the system. When the graphics mode is not set to GM_ADVANCED, this function returns a list of type 1, OpenType, and TrueType fonts on the system.
 
-The fonts for many East Asian languages have two typeface names: an English name and a localized name. <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-enumfontsa">EnumFonts</a>, <b>EnumFontFamilies</b>, and <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-enumfontfamiliesexa">EnumFontFamiliesEx</a> return the English typeface name if the system locale does not match the language of the font.
+The fonts for many East Asian languages have two typeface names: an English name and a localized name. <a href="/windows/desktop/api/wingdi/nf-wingdi-enumfontsa">EnumFonts</a>, <b>EnumFontFamilies</b>, and <a href="/windows/desktop/api/wingdi/nf-wingdi-enumfontfamiliesexa">EnumFontFamiliesEx</a> return the English typeface name if the system locale does not match the language of the font.
 
 
 #### Examples
 
-For examples, see <a href="https://docs.microsoft.com/windows/desktop/gdi/enumerating-the-installed-fonts">Enumerating the Installed Fonts</a>.
+For examples, see <a href="/windows/desktop/gdi/enumerating-the-installed-fonts">Enumerating the Installed Fonts</a>.
 
 <div class="code"></div>
 
@@ -106,21 +106,20 @@ For examples, see <a href="https://docs.microsoft.com/windows/desktop/gdi/enumer
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/dd162621(v=vs.85)">EnumFontFamProc</a>
+<a href="/previous-versions/dd162621(v=vs.85)">EnumFontFamProc</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-enumfontfamiliesexa">EnumFontFamiliesEx</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-enumfontfamiliesexa">EnumFontFamiliesEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-enumfontsa">EnumFonts</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-enumfontsa">EnumFonts</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/font-and-text-functions">Font and Text Functions</a>
+<a href="/windows/desktop/gdi/font-and-text-functions">Font and Text Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/fonts-and-text">Fonts and Text Overview</a>
-
+<a href="/windows/desktop/gdi/fonts-and-text">Fonts and Text Overview</a>

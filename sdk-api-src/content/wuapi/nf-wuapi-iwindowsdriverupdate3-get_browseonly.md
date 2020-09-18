@@ -59,5 +59,4 @@ This property is read-only.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iwindowsdriverupdate3">IWindowsDriverUpdate3</a>
-
+<a href="/windows/desktop/api/wuapi/nn-wuapi-iwindowsdriverupdate3">IWindowsDriverUpdate3</a>

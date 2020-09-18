@@ -92,9 +92,8 @@ Notify when the machine account password changes.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsaregisterpolicychangenotification">LsaRegisterPolicyChangeNotification</a>
+<a href="/windows/desktop/api/ntsecapi/nf-ntsecapi-lsaregisterpolicychangenotification">LsaRegisterPolicyChangeNotification</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsaunregisterpolicychangenotification">LsaUnregisterPolicyChangeNotification</a>
-
+<a href="/windows/desktop/api/ntsecapi/nf-ntsecapi-lsaunregisterpolicychangenotification">LsaUnregisterPolicyChangeNotification</a>

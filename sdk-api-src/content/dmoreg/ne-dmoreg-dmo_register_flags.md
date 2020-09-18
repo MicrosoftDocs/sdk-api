@@ -64,9 +64,8 @@ A software key enables the developer of a DMO to control who uses the DMO. If a 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/dmo-enumerated-types">DMO Enumerated Types</a>
+<a href="/windows/desktop/DirectShow/dmo-enumerated-types">DMO Enumerated Types</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dmoreg/nf-dmoreg-dmoregister">DMORegister</a>
-
+<a href="/windows/desktop/api/dmoreg/nf-dmoreg-dmoregister">DMORegister</a>

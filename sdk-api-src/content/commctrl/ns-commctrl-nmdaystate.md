@@ -54,24 +54,24 @@ api_name:
 
 ## -description
 
-Carries information required to process the <a href="https://docs.microsoft.com/windows/desktop/Controls/mcn-getdaystate">MCN_GETDAYSTATE</a> notification code. All members of this structure are for input, except 
+Carries information required to process the <a href="/windows/desktop/Controls/mcn-getdaystate">MCN_GETDAYSTATE</a> notification code. All members of this structure are for input, except 
 			<b>prgDayState</b>, which the receiving application must set when processing MCN_GETDAYSTATE.
 
 ## -struct-fields
 
 ### -field nmhdr
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a></b>
+Type: <b><a href="/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a></b>
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a> structure that contains information about this notification code.
+<a href="/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a> structure that contains information about this notification code.
 
 ### -field stStart
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-systemtime">SYSTEMTIME</a></b>
+Type: <b><a href="/windows/desktop/api/minwinbase/ns-minwinbase-systemtime">SYSTEMTIME</a></b>
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-systemtime">SYSTEMTIME</a> structure that contains the starting date.
+<a href="/windows/desktop/api/minwinbase/ns-minwinbase-systemtime">SYSTEMTIME</a> structure that contains the starting date.
 
 ### -field cDayState
 
@@ -84,7 +84,6 @@ INT value specifying the total number of elements that must be in the array at
 
 Type: <b>LPMONTHDAYSTATE</b>
 
-Address of an array of <a href="https://docs.microsoft.com/windows/desktop/Controls/monthdaystate">MONTHDAYSTATE</a> values. The buffer at this address must be large enough to contain at least 
+Address of an array of <a href="/windows/desktop/Controls/monthdaystate">MONTHDAYSTATE</a> values. The buffer at this address must be large enough to contain at least 
 					<b>cDayState</b> elements. The first element in the array corresponds to the date in 
 					<b>stStart</b>.
-

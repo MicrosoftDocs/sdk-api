@@ -53,7 +53,7 @@ api_name:
 Locates an executable file.
 
 To specify a callback function, use the 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-findexecutableimageex">FindExecutableImageEx</a> function.
+<a href="/windows/desktop/api/dbghelp/nf-dbghelp-findexecutableimageex">FindExecutableImageEx</a> function.
 
 ## -parameters
 
@@ -64,7 +64,7 @@ The name of the symbol file to be located. This parameter can be a partial path.
 ### -param SymbolPath [in]
 
 The path where symbol files are located. This can be multiple paths separated by semicolons. To retrieve the symbol path, use the 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-symgetsearchpath">SymGetSearchPath</a> function.
+<a href="/windows/desktop/api/dbghelp/nf-dbghelp-symgetsearchpath">SymGetSearchPath</a> function.
 
 ### -param ImageFilePath [out]
 
@@ -75,7 +75,7 @@ A pointer to a buffer that receives the full path of the executable file.
 If the function succeeds, the return value is an open handle to the executable file.
 
 If the function fails, the return value is <b>NULL</b>. To retrieve extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
@@ -86,13 +86,12 @@ All DbgHelp functions, such as this one, are single threaded. Therefore, calls f
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Debug/dbghelp-functions">DbgHelp Functions</a>
+<a href="/windows/desktop/Debug/dbghelp-functions">DbgHelp Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-findexecutableimageex">FindExecutableImageEx</a>
+<a href="/windows/desktop/api/dbghelp/nf-dbghelp-findexecutableimageex">FindExecutableImageEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-symgetsearchpath">SymGetSearchPath</a>
-
+<a href="/windows/desktop/api/dbghelp/nf-dbghelp-symgetsearchpath">SymGetSearchPath</a>

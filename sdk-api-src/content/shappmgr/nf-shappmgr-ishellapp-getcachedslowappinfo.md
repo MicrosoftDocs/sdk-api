@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Returns information to the application that originates from a slow source. Unlike <a href="https://docs.microsoft.com/windows/desktop/api/shappmgr/nf-shappmgr-ishellapp-getslowappinfo">IShellApp::GetSlowAppInfo</a>, this method can return information that has been cached. This method is not applicable to published applications.
+Returns information to the application that originates from a slow source. Unlike <a href="/windows/desktop/api/shappmgr/nf-shappmgr-ishellapp-getslowappinfo">IShellApp::GetSlowAppInfo</a>, this method can return information that has been cached. This method is not applicable to published applications.
 
 ## -parameters
 
@@ -58,7 +58,7 @@ Returns information to the application that originates from a slow source. Unlik
 
 Type: <b>PSLOWAPPINFO</b>
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/shappmgr/ns-shappmgr-slowappinfo">SLOWAPPINFO</a> structure in which to return application information.
+A pointer to a <a href="/windows/desktop/api/shappmgr/ns-shappmgr-slowappinfo">SLOWAPPINFO</a> structure in which to return application information.
 
 ## -returns
 
@@ -68,17 +68,16 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -remarks
 
-Implementations of <a href="https://docs.microsoft.com/windows/desktop/api/shappmgr/nn-shappmgr-ipublishedapp">IPublishedApp</a> return E_NOTIMPL. This method is used internally by Add/Remove Programs for installed applications.
+Implementations of <a href="/windows/desktop/api/shappmgr/nn-shappmgr-ipublishedapp">IPublishedApp</a> return E_NOTIMPL. This method is used internally by Add/Remove Programs for installed applications.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shappmgr/nn-shappmgr-iapppublisher">IAppPublisher</a>
+<a href="/windows/desktop/api/shappmgr/nn-shappmgr-iapppublisher">IAppPublisher</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shappmgr/nn-shappmgr-ipublishedapp">IPublishedApp</a>
+<a href="/windows/desktop/api/shappmgr/nn-shappmgr-ipublishedapp">IPublishedApp</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shappmgr/nn-shappmgr-ishellapp">IShellApp</a>
-
+<a href="/windows/desktop/api/shappmgr/nn-shappmgr-ishellapp">IShellApp</a>

@@ -58,7 +58,7 @@ Invokes the <b>Change Source</b> dialog box, allowing the user to change the sou
 
 ### -param Arg1 [in]
 
-Pointer to the in-out <a href="https://docs.microsoft.com/windows/desktop/api/oledlg/ns-oledlg-oleuichangesourcea">OLEUICHANGESOURCE</a> structure for this dialog box.
+Pointer to the in-out <a href="/windows/desktop/api/oledlg/ns-oledlg-oleuichangesourcea">OLEUICHANGESOURCE</a> structure for this dialog box.
 
 ## -returns
 
@@ -291,7 +291,7 @@ Dialog box initialization failed.
 </dl>
 </td>
 <td width="60%">
-A call to <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localalloc">LocalAlloc</a> or the standard <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imalloc">IMalloc</a> allocator failed.
+A call to <a href="/windows/desktop/api/winbase/nf-winbase-localalloc">LocalAlloc</a> or the standard <a href="/windows/desktop/api/objidl/nn-objidl-imalloc">IMalloc</a> allocator failed.
 
 </td>
 </tr>
@@ -302,7 +302,7 @@ A call to <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-win
 </dl>
 </td>
 <td width="60%">
-A call to <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-globalalloc">GlobalAlloc</a> or the standard <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imalloc">IMalloc</a> allocator failed.
+A call to <a href="/windows/desktop/api/winbase/nf-winbase-globalalloc">GlobalAlloc</a> or the standard <a href="/windows/desktop/api/objidl/nn-objidl-imalloc">IMalloc</a> allocator failed.
 
 </td>
 </tr>
@@ -324,7 +324,7 @@ Unable to call LoadString for localized resources from the library.
 </dl>
 </td>
 <td width="60%">
-A call to the standard <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imalloc">IMalloc</a> allocator failed.
+A call to the standard <a href="/windows/desktop/api/objidl/nn-objidl-imalloc">IMalloc</a> allocator failed.
 
 </td>
 </tr>
@@ -434,13 +434,12 @@ The link source is not changed by the <b>Change Source</b> dialog box itself. In
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/oledlg/nn-oledlg-ioleuilinkcontainera">IOleUILinkContainer</a>
+<a href="/windows/desktop/api/oledlg/nn-oledlg-ioleuilinkcontainera">IOleUILinkContainer</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/oledlg/ns-oledlg-oleuichangesourcea">OLEUICHANGESOURCE</a>
+<a href="/windows/desktop/api/oledlg/ns-oledlg-oleuichangesourcea">OLEUICHANGESOURCE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/oledlg/nf-oledlg-oleuieditlinksa">OleUIEditLinks</a>
-
+<a href="/windows/desktop/api/oledlg/nf-oledlg-oleuieditlinksa">OleUIEditLinks</a>

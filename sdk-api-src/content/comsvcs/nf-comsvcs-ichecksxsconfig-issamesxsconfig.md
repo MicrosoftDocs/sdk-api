@@ -102,5 +102,4 @@ The current side-by-side assembly does not have the specified configuration.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-ichecksxsconfig">ICheckSxsConfig</a>
-
+<a href="/windows/desktop/api/comsvcs/nn-comsvcs-ichecksxsconfig">ICheckSxsConfig</a>

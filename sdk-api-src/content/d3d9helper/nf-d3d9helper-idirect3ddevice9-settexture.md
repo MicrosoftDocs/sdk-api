@@ -57,28 +57,28 @@ Assigns a texture to a stage for a device.
 
 ### -param Stage [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 Zero based sampler number.  Textures are bound to samplers; samplers define sampling state such as the filtering mode and the address wrapping mode. Textures are referenced differently by the programmable and the fixed function pipeline:
     
 
 
 <ul>
-<li>Programmable shaders reference textures using the sampler number. The number of samplers available to a programmable shader is dependent on the shader version. For vertex shaders, see <a href="https://docs.microsoft.com/windows/desktop/direct3dhlsl/dx9-graphics-reference-asm-vs-registers-sampler">Sampler (Direct3D 9 asm-vs)</a>. For pixel shaders see <a href="https://docs.microsoft.com/windows/desktop/direct3dhlsl/dx9-graphics-reference-asm-ps-registers-sampler">Sampler (Direct3D 9 asm-ps)</a>.</li>
-<li>The fixed function pipeline on the other hand, references textures by texture stage number. The maximum number of samplers is determined from two caps: MaxSimultaneousTextures and MaxTextureBlendStages of the <a href="https://docs.microsoft.com/windows/desktop/api/d3d9caps/ns-d3d9caps-d3dcaps9">D3DCAPS9</a> structure.</li>
+<li>Programmable shaders reference textures using the sampler number. The number of samplers available to a programmable shader is dependent on the shader version. For vertex shaders, see <a href="/windows/desktop/direct3dhlsl/dx9-graphics-reference-asm-vs-registers-sampler">Sampler (Direct3D 9 asm-vs)</a>. For pixel shaders see <a href="/windows/desktop/direct3dhlsl/dx9-graphics-reference-asm-ps-registers-sampler">Sampler (Direct3D 9 asm-ps)</a>.</li>
+<li>The fixed function pipeline on the other hand, references textures by texture stage number. The maximum number of samplers is determined from two caps: MaxSimultaneousTextures and MaxTextureBlendStages of the <a href="/windows/desktop/api/d3d9caps/ns-d3d9caps-d3dcaps9">D3DCAPS9</a> structure.</li>
 </ul>
 There are two other special cases for stage/sampler numbers.
 
 <ul>
-<li>A special number called D3DDMAPSAMPLER is used for <a href="https://docs.microsoft.com/windows/desktop/direct3d9/displacement-mapping">Displacement Mapping (Direct3D 9)</a>.</li>
-<li>A programmable vertex shader uses a special number defined by a <a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3dvertextexturesampler">D3DVERTEXTEXTURESAMPLER</a> when accessing <a href="https://docs.microsoft.com/windows/desktop/direct3d9/vertex-textures-in-vs-3-0">Vertex Textures in vs_3_0 (DirectX HLSL)</a>.</li>
+<li>A special number called D3DDMAPSAMPLER is used for <a href="/windows/desktop/direct3d9/displacement-mapping">Displacement Mapping (Direct3D 9)</a>.</li>
+<li>A programmable vertex shader uses a special number defined by a <a href="/windows/desktop/direct3d9/d3dvertextexturesampler">D3DVERTEXTEXTURESAMPLER</a> when accessing <a href="/windows/desktop/direct3d9/vertex-textures-in-vs-3-0">Vertex Textures in vs_3_0 (DirectX HLSL)</a>.</li>
 </ul>
 
 ### -param pTexture [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3dbasetexture9">IDirect3DBaseTexture9</a>*</b>
+Type: <b><a href="/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3dbasetexture9">IDirect3DBaseTexture9</a>*</b>
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3dbasetexture9">IDirect3DBaseTexture9</a> interface, representing the texture being set.
+Pointer to an <a href="/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3dbasetexture9">IDirect3DBaseTexture9</a> interface, representing the texture being set.
 
 ## -returns
 
@@ -92,17 +92,16 @@ If the method succeeds, the return value is D3D_OK. If the method fails, the ret
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-gettexture">GetTexture</a>
+<a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-gettexture">GetTexture</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-gettexturestagestate">GetTextureStageState</a>
+<a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-gettexturestagestate">GetTextureStageState</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3ddevice9">IDirect3DDevice9</a>
+<a href="/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3ddevice9">IDirect3DDevice9</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-settexturestagestate">SetTextureStageState</a>
-
+<a href="/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-settexturestagestate">SetTextureStageState</a>

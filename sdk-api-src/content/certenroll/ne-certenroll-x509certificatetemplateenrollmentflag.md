@@ -60,7 +60,7 @@ Instructs the client and server to include a Secure/Multipurpose Internet Mail E
 
 ### -field EnrollmentPendAllRequests
 
-Instructs the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certification authority</a> (CA) to place all certificate requests in a pending state.
+Instructs the <a href="/windows/desktop/SecGloss/c-gly">certification authority</a> (CA) to place all certificate requests in a pending state.
 
 ### -field EnrollmentPublishToKRAContainer
 
@@ -123,4 +123,3 @@ Instructs the server to include the Basic Constraints extension in the issued ce
 ### -field EnrollmentCertificateIssuancePoliciesFromRequest
 
 ### -field EnrollmentSkipAutoRenewal
-

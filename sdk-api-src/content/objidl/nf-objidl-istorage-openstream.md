@@ -65,7 +65,7 @@ Reserved for future use; must be <b>NULL</b>.
 
 ### -param grfMode [in]
 
-Specifies the access mode to be assigned to the open stream. For more information and descriptions of possible values, see <a href="https://docs.microsoft.com/windows/desktop/Stg/stgm-constants">STGM Constants</a>.  Other modes you choose must at least specify STGM_SHARE_EXCLUSIVE when calling this method in the compound file implementation.
+Specifies the access mode to be assigned to the open stream. For more information and descriptions of possible values, see <a href="/windows/desktop/Stg/stgm-constants">STGM Constants</a>.  Other modes you choose must at least specify STGM_SHARE_EXCLUSIVE when calling this method in the compound file implementation.
 
 ### -param reserved2 [in]
 
@@ -74,7 +74,7 @@ Reserved for future use; must be zero.
 ### -param ppstm [out]
 
 A pointer to 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a> pointer variable that receives the interface pointer to the newly opened stream object. If an error occurs, *<i>ppstm</i> must be set to <b>NULL</b>.
+<a href="/windows/desktop/api/objidl/nn-objidl-istream">IStream</a> pointer variable that receives the interface pointer to the newly opened stream object. If an error occurs, *<i>ppstm</i> must be set to <b>NULL</b>.
 
 ## -returns
 
@@ -86,13 +86,12 @@ This method can return one of these values.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Stg/istorage-compound-file-implementation">IStorage - Compound File Implementation</a>
+<a href="/windows/desktop/Stg/istorage-compound-file-implementation">IStorage - Compound File Implementation</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-istorage-createstream">IStorage::CreateStream</a>
+<a href="/windows/desktop/api/objidl/nf-objidl-istorage-createstream">IStorage::CreateStream</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a>
-
+<a href="/windows/desktop/api/objidl/nn-objidl-istream">IStream</a>

@@ -58,7 +58,7 @@ The
 ### -param hDevice [in]
 
 Handle to the device where the new partition is to be created. This handle is created by using the 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> function.
+<a href="/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> function.
 
 ### -param dwPartitionMethod [in]
 
@@ -109,7 +109,7 @@ Partitions the tape into the number of partitions specified by <i>dwCount</i>. T
 ### -param dwCount [in]
 
 Number of partitions to create. The 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-gettapeparameters">GetTapeParameters</a> function provides the maximum number of partitions a tape can support.
+<a href="/windows/desktop/api/winbase/nf-winbase-gettapeparameters">GetTapeParameters</a> function provides the maximum number of partitions a tape can support.
 
 ### -param dwSize [in]
 
@@ -314,9 +314,8 @@ Creating partitions reformats the tape. All previous information recorded on the
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a>
+<a href="/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-gettapeparameters">GetTapeParameters</a>
-
+<a href="/windows/desktop/api/winbase/nf-winbase-gettapeparameters">GetTapeParameters</a>

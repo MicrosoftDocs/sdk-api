@@ -63,7 +63,7 @@ The provider can access this buffer only while the callback is running. If it wi
 
 ### -param enumerationId [in]
 
-An identifier for this enumeration session. See the Remarks section of <a href="https://docs.microsoft.com/windows/desktop/api/projectedfslib/nc-projectedfslib-prj_start_directory_enumeration_cb">PRJ_START_DIRECTORY_ENUMERATION_CB</a> for more information.
+An identifier for this enumeration session. See the Remarks section of <a href="/windows/desktop/api/projectedfslib/nc-projectedfslib-prj_start_directory_enumeration_cb">PRJ_START_DIRECTORY_ENUMERATION_CB</a> for more information.
 
 ## -returns
 
@@ -102,4 +102,3 @@ The provider should not return any other value from this callback.
 ## -remarks
 
 For a user-initiated enumeration ProjFS invokes this callback when the file handle used to enumerate the directory is closed. For a ProjFS-initiated enumeration, this callback is invoked when ProjFS completes the enumeration.
-

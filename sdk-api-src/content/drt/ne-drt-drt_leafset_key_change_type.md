@@ -66,13 +66,12 @@ A node was deleted from the  DRT leaf set of the local node.
 
 ## -remarks
 
-This enumeration is used to determine the event type returned by <a href="https://docs.microsoft.com/windows/desktop/api/drt/nf-drt-drtgeteventdata">DrtGetEventData</a>, which is called with the event handle passed to <a href="https://docs.microsoft.com/windows/desktop/api/drt/nf-drt-drtopen">DrtOpen</a>.
+This enumeration is used to determine the event type returned by <a href="/windows/desktop/api/drt/nf-drt-drtgeteventdata">DrtGetEventData</a>, which is called with the event handle passed to <a href="/windows/desktop/api/drt/nf-drt-drtopen">DrtOpen</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/drt/nf-drt-drtgeteventdata">DrtGetEventData</a>
+<a href="/windows/desktop/api/drt/nf-drt-drtgeteventdata">DrtGetEventData</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/drt/nf-drt-drtopen">DrtOpen</a>
-
+<a href="/windows/desktop/api/drt/nf-drt-drtopen">DrtOpen</a>

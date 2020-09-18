@@ -50,11 +50,11 @@ api_name:
 
 ## -description
 
-Determines whether to construct a new context based on the current context or to create a new context based solely on the information in <a href="https://docs.microsoft.com/windows/desktop/cossdk/cserviceconfig">CServiceConfig</a>. A new context that is based on the current context can be modified by calls to the other interfaces of <a href="https://docs.microsoft.com/windows/desktop/cossdk/cserviceconfig">CServiceConfig</a>.
+Determines whether to construct a new context based on the current context or to create a new context based solely on the information in <a href="/windows/desktop/cossdk/cserviceconfig">CServiceConfig</a>. A new context that is based on the current context can be modified by calls to the other interfaces of <a href="/windows/desktop/cossdk/cserviceconfig">CServiceConfig</a>.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IServiceInheritanceConfig</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IServiceInheritanceConfig</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IServiceInheritanceConfig</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IServiceInheritanceConfig</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IServiceInheritanceConfig</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-iserviceinheritanceconfig-containingcontexttreatment">ContainingContextTreatment</a>
+<a href="/windows/desktop/api/comsvcs/nf-comsvcs-iserviceinheritanceconfig-containingcontexttreatment">ContainingContextTreatment</a>
 </td>
 <td align="left" width="63%">
 Determines whether the containing context is based on the current context.
@@ -81,5 +81,4 @@ Determines whether the containing context is based on the current context.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/cossdk/cserviceconfig">CServiceConfig</a>
-
+<a href="/windows/desktop/cossdk/cserviceconfig">CServiceConfig</a>

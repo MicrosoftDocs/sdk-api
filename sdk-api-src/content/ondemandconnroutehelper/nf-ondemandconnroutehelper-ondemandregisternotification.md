@@ -78,5 +78,4 @@ The <b>ONDEMAND_NOTIFICATION_CALLBACK</b> function is defined as:
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ondemandconnroutehelper/nf-ondemandconnroutehelper-ondemandunregisternotification">OnDemandUnregisterNotification</a>
-
+<a href="/windows/desktop/api/ondemandconnroutehelper/nf-ondemandconnroutehelper-ondemandunregisternotification">OnDemandUnregisterNotification</a>

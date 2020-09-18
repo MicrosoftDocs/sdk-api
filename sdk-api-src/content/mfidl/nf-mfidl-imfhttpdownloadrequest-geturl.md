@@ -59,7 +59,7 @@ Returns the URL that is used for sending the request.
 
 ### -param ppszURL [out]
 
-The URL that is used for sending the request to the server. Note that this URL may be different if the server has issued a HTTP protocol “redirect”. The memory for <i>pszURL</i> must be allocated with <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemalloc">CoTaskMemAlloc</a>, and will be freed by Media Foundation with <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a>.
+The URL that is used for sending the request to the server. Note that this URL may be different if the server has issued a HTTP protocol “redirect”. The memory for <i>pszURL</i> must be allocated with <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemalloc">CoTaskMemAlloc</a>, and will be freed by Media Foundation with <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a>.
 
 ## -returns
 
@@ -108,9 +108,8 @@ The <i>ppszURL</i> parameter is an invalid pointer.
 
 ## -remarks
 
-By default, <b>GetURL</b> returns an URL which is synthesized from the parameters provided by Media Foundation in the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfhttpdownloadsession-setserver">IMFHttpDownloadSession::SetServer</a> and <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfhttpdownloadsession-createrequest">IMFHttpDownloadSession::CreateRequest</a> methods. However, if the HTTP server has redirected the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfhttpdownloadrequest">IMFHttpDownloadRequest</a> to a different server (i.e., through a “302 See Other” HTTP response) then the <b>GetURL</b> method returns the URL that the HTTP server specified.
+By default, <b>GetURL</b> returns an URL which is synthesized from the parameters provided by Media Foundation in the <a href="/windows/desktop/api/mfidl/nf-mfidl-imfhttpdownloadsession-setserver">IMFHttpDownloadSession::SetServer</a> and <a href="/windows/desktop/api/mfidl/nf-mfidl-imfhttpdownloadsession-createrequest">IMFHttpDownloadSession::CreateRequest</a> methods. However, if the HTTP server has redirected the <a href="/windows/desktop/api/mfidl/nn-mfidl-imfhttpdownloadrequest">IMFHttpDownloadRequest</a> to a different server (i.e., through a “302 See Other” HTTP response) then the <b>GetURL</b> method returns the URL that the HTTP server specified.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfhttpdownloadrequest">IMFHttpDownloadRequest</a>
-
+<a href="/windows/desktop/api/mfidl/nn-mfidl-imfhttpdownloadrequest">IMFHttpDownloadRequest</a>

@@ -57,7 +57,7 @@ Provides access to network registration data.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMbnRegistration</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMbnRegistration</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMbnRegistration</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMbnRegistration</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,7 +72,7 @@ The <b>IMbnRegistration</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nf-mbnapi-imbnregistration-getavailabledataclasses">GetAvailableDataClasses</a>
+<a href="/windows/desktop/api/mbnapi/nf-mbnapi-imbnregistration-getavailabledataclasses">GetAvailableDataClasses</a>
 </td>
 <td align="left" width="63%">
 Gets the available data classes in the current network.
@@ -81,7 +81,7 @@ Gets the available data classes in the current network.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nf-mbnapi-imbnregistration-getcurrentdataclass">GetCurrentDataClass</a>
+<a href="/windows/desktop/api/mbnapi/nf-mbnapi-imbnregistration-getcurrentdataclass">GetCurrentDataClass</a>
 </td>
 <td align="left" width="63%">
 Gets the current data class in the current network.
@@ -90,7 +90,7 @@ Gets the current data class in the current network.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nf-mbnapi-imbnregistration-getpacketattachnetworkerror">GetPacketAttachNetworkError</a>
+<a href="/windows/desktop/api/mbnapi/nf-mbnapi-imbnregistration-getpacketattachnetworkerror">GetPacketAttachNetworkError</a>
 </td>
 <td align="left" width="63%">
 Gets the network error from a packet attach operation.
@@ -99,7 +99,7 @@ Gets the network error from a packet attach operation.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nf-mbnapi-imbnregistration-getproviderid">GetProviderID</a>
+<a href="/windows/desktop/api/mbnapi/nf-mbnapi-imbnregistration-getproviderid">GetProviderID</a>
 </td>
 <td align="left" width="63%">
 Gets the provider ID for the currently registered network.
@@ -108,7 +108,7 @@ Gets the provider ID for the currently registered network.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nf-mbnapi-imbnregistration-getprovidername">GetProviderName</a>
+<a href="/windows/desktop/api/mbnapi/nf-mbnapi-imbnregistration-getprovidername">GetProviderName</a>
 </td>
 <td align="left" width="63%">
 Gets the provider name for the currently registered network.
@@ -117,7 +117,7 @@ Gets the provider name for the currently registered network.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nf-mbnapi-imbnregistration-getregistermode">GetRegisterMode</a>
+<a href="/windows/desktop/api/mbnapi/nf-mbnapi-imbnregistration-getregistermode">GetRegisterMode</a>
 </td>
 <td align="left" width="63%">
 Gets the network registration mode of an Mobile Broadband device.
@@ -126,7 +126,7 @@ Gets the network registration mode of an Mobile Broadband device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nf-mbnapi-imbnregistration-getregisterstate">GetRegisterState</a>
+<a href="/windows/desktop/api/mbnapi/nf-mbnapi-imbnregistration-getregisterstate">GetRegisterState</a>
 </td>
 <td align="left" width="63%">
 Gets the registration state.
@@ -135,7 +135,7 @@ Gets the registration state.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nf-mbnapi-imbnregistration-getregistrationnetworkerror">GetRegistrationNetworkError</a>
+<a href="/windows/desktop/api/mbnapi/nf-mbnapi-imbnregistration-getregistrationnetworkerror">GetRegistrationNetworkError</a>
 </td>
 <td align="left" width="63%">
 Gets the network error from a registration operation.
@@ -144,7 +144,7 @@ Gets the network error from a registration operation.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nf-mbnapi-imbnregistration-getroamingtext">GetRoamingText</a>
+<a href="/windows/desktop/api/mbnapi/nf-mbnapi-imbnregistration-getroamingtext">GetRoamingText</a>
 </td>
 <td align="left" width="63%">
 Gets the roaming text describing the roaming provider.
@@ -153,7 +153,7 @@ Gets the roaming text describing the roaming provider.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nf-mbnapi-imbnregistration-setregistermode">SetRegisterMode</a>
+<a href="/windows/desktop/api/mbnapi/nf-mbnapi-imbnregistration-setregistermode">SetRegisterMode</a>
 </td>
 <td align="left" width="63%">
 Sets the registration mode for the device.
@@ -164,5 +164,4 @@ Sets the registration mode for the device.
 
 ## -remarks
 
-An application can acquire this interface by calling the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> method of <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbninterface">IMbnInterface</a>.
-
+An application can acquire this interface by calling the <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> method of <a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbninterface">IMbnInterface</a>.

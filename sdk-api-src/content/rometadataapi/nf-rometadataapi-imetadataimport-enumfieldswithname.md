@@ -100,9 +100,8 @@ The actual number of FieldDef tokens returned in <i>rFields</i>.
 
 ## -remarks
 
-Unlike <a href="https://docs.microsoft.com/windows/desktop/api/rometadataapi/nf-rometadataapi-imetadataimport-enumfields">EnumFields</a>, <b>EnumFieldsWithName</b> discards all field tokens that do not have the specified name.
+Unlike <a href="/windows/desktop/api/rometadataapi/nf-rometadataapi-imetadataimport-enumfields">EnumFields</a>, <b>EnumFieldsWithName</b> discards all field tokens that do not have the specified name.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rometadataapi/nn-rometadataapi-imetadataimport">IMetaDataImport</a>
-
+<a href="/windows/desktop/api/rometadataapi/nn-rometadataapi-imetadataimport">IMetaDataImport</a>

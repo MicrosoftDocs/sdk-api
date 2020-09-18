@@ -65,11 +65,11 @@ The window you want to get information about.
 
 ## -returns
 
-The DPI for the window which depends on the <a href="https://docs.microsoft.com/windows/desktop/api/windef/ne-windef-dpi_awareness">DPI_AWARENESS</a> of the window. See the Remarks for more information. An invalid <i>hwnd</i> value will result in a return value of 0.
+The DPI for the window which depends on the <a href="/windows/desktop/api/windef/ne-windef-dpi_awareness">DPI_AWARENESS</a> of the window. See the Remarks for more information. An invalid <i>hwnd</i> value will result in a return value of 0.
 
 ## -remarks
 
-The following table indicates the return value of <b>GetDpiForWindow</b> based on the <a href="https://docs.microsoft.com/windows/desktop/api/windef/ne-windef-dpi_awareness">DPI_AWARENESS</a> of the provided <i>hwnd</i>.
+The following table indicates the return value of <b>GetDpiForWindow</b> based on the <a href="/windows/desktop/api/windef/ne-windef-dpi_awareness">DPI_AWARENESS</a> of the provided <i>hwnd</i>.
 
 <table>
 <tr>
@@ -92,5 +92,4 @@ The following table indicates the return value of <b>GetDpiForWindow</b> based o
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/windef/ne-windef-dpi_awareness">DPI_AWARENESS</a>
-
+<a href="/windows/desktop/api/windef/ne-windef-dpi_awareness">DPI_AWARENESS</a>

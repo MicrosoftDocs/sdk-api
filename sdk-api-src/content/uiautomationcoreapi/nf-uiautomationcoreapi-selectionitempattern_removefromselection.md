@@ -62,7 +62,7 @@ The control pattern object.
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 Returns S_OK if successful or an error value otherwise.
 
@@ -70,4 +70,3 @@ Returns S_OK if successful or an error value otherwise.
 
 The function has no effect if an attempt is made to remove the last selected element in a control that requires at
 least one element to be selected.
-

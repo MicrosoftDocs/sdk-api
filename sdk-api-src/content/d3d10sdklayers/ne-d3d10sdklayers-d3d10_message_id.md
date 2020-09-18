@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Debug messages for setting up an info-queue filter (see <a href="https://docs.microsoft.com/windows/desktop/api/d3d10sdklayers/ns-d3d10sdklayers-d3d10_info_queue_filter">D3D10_INFO_QUEUE_FILTER</a>); use these messages to allow or deny message categories to pass through the storage and retrieval filters. These IDs are used by methods such as <a href="https://docs.microsoft.com/windows/desktop/api/d3d10sdklayers/nf-d3d10sdklayers-id3d10infoqueue-getmessage">ID3D10InfoQueue::GetMessage</a> or <a href="https://docs.microsoft.com/windows/desktop/api/d3d10sdklayers/nf-d3d10sdklayers-id3d10infoqueue-addmessage">ID3D10InfoQueue::AddMessage</a>.
+Debug messages for setting up an info-queue filter (see <a href="/windows/desktop/api/d3d10sdklayers/ns-d3d10sdklayers-d3d10_info_queue_filter">D3D10_INFO_QUEUE_FILTER</a>); use these messages to allow or deny message categories to pass through the storage and retrieval filters. These IDs are used by methods such as <a href="/windows/desktop/api/d3d10sdklayers/nf-d3d10sdklayers-id3d10infoqueue-getmessage">ID3D10InfoQueue::GetMessage</a> or <a href="/windows/desktop/api/d3d10sdklayers/nf-d3d10sdklayers-id3d10infoqueue-addmessage">ID3D10InfoQueue::AddMessage</a>.
 
 ## -enum-fields
 
@@ -1070,5 +1070,4 @@ Debug messages for setting up an info-queue filter (see <a href="https://docs.mi
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-reference-d3d10-core-enums">Core Enumerations</a>
-
+<a href="/windows/desktop/direct3d10/d3d10-graphics-reference-d3d10-core-enums">Core Enumerations</a>

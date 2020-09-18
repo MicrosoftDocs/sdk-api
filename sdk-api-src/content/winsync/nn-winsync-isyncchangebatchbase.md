@@ -54,7 +54,7 @@ Represents metadata for a set of changes.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISyncChangeBatchBase</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISyncChangeBatchBase</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISyncChangeBatchBase</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISyncChangeBatchBase</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ISyncChangeBatchBase</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nf-winsync-isyncchangebatchbase-additemmetadatatogroup">AddItemMetadataToGroup</a>
+<a href="/previous-versions/windows/desktop/api/winsync/nf-winsync-isyncchangebatchbase-additemmetadatatogroup">AddItemMetadataToGroup</a>
 </td>
 <td align="left" width="63%">
 Adds a specified item change to the group that is currently open.
@@ -79,7 +79,7 @@ Adds a specified item change to the group that is currently open.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nf-winsync-isyncchangebatchbase-beginorderedgroup">BeginOrderedGroup</a>
+<a href="/previous-versions/windows/desktop/api/winsync/nf-winsync-isyncchangebatchbase-beginorderedgroup">BeginOrderedGroup</a>
 </td>
 <td align="left" width="63%">
 Opens an ordered group in the change batch. This group is ordered by item ID.
@@ -89,7 +89,7 @@ Opens an ordered group in the change batch. This group is ordered by item ID.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nf-winsync-isyncchangebatchbase-endorderedgroup">EndOrderedGroup</a>
+<a href="/previous-versions/windows/desktop/api/winsync/nf-winsync-isyncchangebatchbase-endorderedgroup">EndOrderedGroup</a>
 </td>
 <td align="left" width="63%">
 Closes a previously opened ordered group in the change batch.
@@ -99,17 +99,17 @@ Closes a previously opened ordered group in the change batch.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nf-winsync-isyncchangebatchbase-getchangeenumerator">GetChangeEnumerator</a>
+<a href="/previous-versions/windows/desktop/api/winsync/nf-winsync-isyncchangebatchbase-getchangeenumerator">GetChangeEnumerator</a>
 </td>
 <td align="left" width="63%">
-Gets an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-ienumsyncchanges">IEnumSyncChanges</a> object that enumerates the item changes in this change batch.
+Gets an <a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-ienumsyncchanges">IEnumSyncChanges</a> object that enumerates the item changes in this change batch.
 
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nf-winsync-isyncchangebatchbase-getislastbatch">GetIsLastBatch</a>
+<a href="/previous-versions/windows/desktop/api/winsync/nf-winsync-isyncchangebatchbase-getislastbatch">GetIsLastBatch</a>
 </td>
 <td align="left" width="63%">
 Gets a flag that indicates whether the changes in this change batch are the last batch of a synchronization session.
@@ -119,7 +119,7 @@ Gets a flag that indicates whether the changes in this change batch are the last
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nf-winsync-isyncchangebatchbase-getlearnedknowledge">GetLearnedKnowledge</a>
+<a href="/previous-versions/windows/desktop/api/winsync/nf-winsync-isyncchangebatchbase-getlearnedknowledge">GetLearnedKnowledge</a>
 </td>
 <td align="left" width="63%">
 Gets the knowledge that the destination replica learns when the destination provider applies the changes in this change batch.
@@ -129,7 +129,7 @@ Gets the knowledge that the destination replica learns when the destination prov
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nf-winsync-isyncchangebatchbase-getprerequisiteknowledge">GetPrerequisiteKnowledge</a>
+<a href="/previous-versions/windows/desktop/api/winsync/nf-winsync-isyncchangebatchbase-getprerequisiteknowledge">GetPrerequisiteKnowledge</a>
 </td>
 <td align="left" width="63%">
 Gets the minimum knowledge that a destination provider is required to have to process this change batch.
@@ -139,7 +139,7 @@ Gets the minimum knowledge that a destination provider is required to have to pr
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nf-winsync-isyncchangebatchbase-getremainingworkestimateforsession">GetRemainingWorkEstimateForSession</a>
+<a href="/previous-versions/windows/desktop/api/winsync/nf-winsync-isyncchangebatchbase-getremainingworkestimateforsession">GetRemainingWorkEstimateForSession</a>
 </td>
 <td align="left" width="63%">
 Gets the estimate of the remaining work for the session.
@@ -149,7 +149,7 @@ Gets the estimate of the remaining work for the session.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nf-winsync-isyncchangebatchbase-getsourceforgottenknowledge">GetSourceForgottenKnowledge</a>
+<a href="/previous-versions/windows/desktop/api/winsync/nf-winsync-isyncchangebatchbase-getsourceforgottenknowledge">GetSourceForgottenKnowledge</a>
 </td>
 <td align="left" width="63%">
 Gets the forgotten knowledge of the source replica.
@@ -159,7 +159,7 @@ Gets the forgotten knowledge of the source replica.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nf-winsync-isyncchangebatchbase-getworkestimateforbatch">GetWorkEstimateForBatch</a>
+<a href="/previous-versions/windows/desktop/api/winsync/nf-winsync-isyncchangebatchbase-getworkestimateforbatch">GetWorkEstimateForBatch</a>
 </td>
 <td align="left" width="63%">
 Gets the work estimate for the batch.
@@ -169,7 +169,7 @@ Gets the work estimate for the batch.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nf-winsync-isyncchangebatchbase-serialize">Serialize</a>
+<a href="/previous-versions/windows/desktop/api/winsync/nf-winsync-isyncchangebatchbase-serialize">Serialize</a>
 </td>
 <td align="left" width="63%">
 Serializes the change batch to an array of bytes.
@@ -179,7 +179,7 @@ Serializes the change batch to an array of bytes.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nf-winsync-isyncchangebatchbase-setlastbatch">SetLastBatch</a>
+<a href="/previous-versions/windows/desktop/api/winsync/nf-winsync-isyncchangebatchbase-setlastbatch">SetLastBatch</a>
 </td>
 <td align="left" width="63%">
 Sets a flag that indicates there are no more changes to be enumerated in the synchronization session.
@@ -189,7 +189,7 @@ Sets a flag that indicates there are no more changes to be enumerated in the syn
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nf-winsync-isyncchangebatchbase-setremainingworkestimateforsession">SetRemainingWorkEstimateForSession</a>
+<a href="/previous-versions/windows/desktop/api/winsync/nf-winsync-isyncchangebatchbase-setremainingworkestimateforsession">SetRemainingWorkEstimateForSession</a>
 </td>
 <td align="left" width="63%">
 Sets the estimate of the remaining work for the batch.
@@ -199,7 +199,7 @@ Sets the estimate of the remaining work for the batch.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nf-winsync-isyncchangebatchbase-setworkestimateforbatch">SetWorkEstimateForBatch</a>
+<a href="/previous-versions/windows/desktop/api/winsync/nf-winsync-isyncchangebatchbase-setworkestimateforbatch">SetWorkEstimateForBatch</a>
 </td>
 <td align="left" width="63%">
 Sets the work estimate for the session.
@@ -211,33 +211,32 @@ Sets the work estimate for the session.
 
 ## -remarks
 
-<b>ISyncChangeBatchBase</b> is the base interface for change batches. Typically, it is overridden by a derived interface, such as <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncchangebatch">ISyncChangeBatch</a> for a knowledge synchronization, and <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncfullenumerationchangebatch">ISyncFullEnumerationChangeBatch</a> for a full enumeration synchronization.
+<b>ISyncChangeBatchBase</b> is the base interface for change batches. Typically, it is overridden by a derived interface, such as <a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncchangebatch">ISyncChangeBatch</a> for a knowledge synchronization, and <a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncfullenumerationchangebatch">ISyncFullEnumerationChangeBatch</a> for a full enumeration synchronization.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-ienumsyncchanges">IEnumSyncChanges Interface</a>
+<a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-ienumsyncchanges">IEnumSyncChanges Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncchangebatch">ISyncChangeBatch Interface</a>
+<a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncchangebatch">ISyncChangeBatch Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncchangebatchadvanced">ISyncChangeBatchAdvanced Interface</a>
+<a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncchangebatchadvanced">ISyncChangeBatchAdvanced Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncchangebatchbase2">ISyncChangeBatchBase2 Interface</a>
+<a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncchangebatchbase2">ISyncChangeBatchBase2 Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncchangebatchwithprerequisite">ISyncChangeBatchWithPrerequisite Interface</a>
+<a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncchangebatchwithprerequisite">ISyncChangeBatchWithPrerequisite Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncfullenumerationchangebatch">ISyncFullEnumerationChangeBatch Interface</a>
+<a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncfullenumerationchangebatch">ISyncFullEnumerationChangeBatch Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/winsync/windows-sync-interfaces">Windows Sync Interfaces</a>
-
+<a href="/previous-versions/windows/desktop/winsync/windows-sync-interfaces">Windows Sync Interfaces</a>

@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-Calculates the wire size of the <a href="https://docs.microsoft.com/windows/desktop/WinRT/hstring">HSTRING</a> object, and gets its handle and data.
+Calculates the wire size of the <a href="/windows/desktop/WinRT/hstring">HSTRING</a> object, and gets its handle and data.
 
 ## -parameters
 
@@ -62,7 +62,7 @@ The data used by RPC.
 
 ### -param arg2 [in]
 
-The current buffer offset where the object will be marshaled. The method has to account for any padding needed for the <a href="https://docs.microsoft.com/windows/desktop/WinRT/hstring">HSTRING</a> object to be properly aligned when it will be marshaled to the buffer.
+The current buffer offset where the object will be marshaled. The method has to account for any padding needed for the <a href="/windows/desktop/WinRT/hstring">HSTRING</a> object to be properly aligned when it will be marshaled to the buffer.
 
 ### -param arg3 [in]
 
@@ -74,5 +74,4 @@ The value obtained from the returned <b>HRESULT</b> value is <b>S_OK</b>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/WinRT/hstring">HSTRING</a>
-
+<a href="/windows/desktop/WinRT/hstring">HSTRING</a>

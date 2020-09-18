@@ -154,9 +154,8 @@ Predication state.
 
 ## -remarks
 
-This enumeration is used by <a href="https://docs.microsoft.com/windows/desktop/api/d3d10effect/nf-d3d10effect-d3d10stateblockmaskdisablecapture">D3D10StateBlockMaskDisableCapture</a>, <a href="https://docs.microsoft.com/windows/desktop/api/d3d10effect/nf-d3d10effect-d3d10stateblockmaskenablecapture">D3D10StateBlockMaskEnableCapture</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/d3d10effect/nf-d3d10effect-d3d10stateblockmaskgetsetting">D3D10StateBlockMaskGetSetting</a>.
+This enumeration is used by <a href="/windows/desktop/api/d3d10effect/nf-d3d10effect-d3d10stateblockmaskdisablecapture">D3D10StateBlockMaskDisableCapture</a>, <a href="/windows/desktop/api/d3d10effect/nf-d3d10effect-d3d10stateblockmaskenablecapture">D3D10StateBlockMaskEnableCapture</a>, and <a href="/windows/desktop/api/d3d10effect/nf-d3d10effect-d3d10stateblockmaskgetsetting">D3D10StateBlockMaskGetSetting</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-reference-d3d10-core-enums">Core Enumerations</a>
-
+<a href="/windows/desktop/direct3d10/d3d10-graphics-reference-d3d10-core-enums">Core Enumerations</a>

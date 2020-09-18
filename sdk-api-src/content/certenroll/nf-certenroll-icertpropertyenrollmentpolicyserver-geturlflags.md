@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-The <b>GetUrlFlags</b> method retrieves a set of flags that contain miscellaneous policy information about the certificate enrollment policy (CEP) server. These flags are set by the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-icertpropertyenrollmentpolicyserver-initialize">Initialize</a> method.
+The <b>GetUrlFlags</b> method retrieves a set of flags that contain miscellaneous policy information about the certificate enrollment policy (CEP) server. These flags are set by the <a href="/windows/desktop/api/certenroll/nf-certenroll-icertpropertyenrollmentpolicyserver-initialize">Initialize</a> method.
 
 ## -parameters
 
 ### -param pValue [out, retval]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/ne-certenroll-policyserverurlflags">PolicyServerUrlFlags</a> enumeration value that specifies the  policy server flags. This can be a bitwise <b>OR</b> of the following values.
+Pointer to a <a href="/windows/desktop/api/certenroll/ne-certenroll-policyserverurlflags">PolicyServerUrlFlags</a> enumeration value that specifies the  policy server flags. This can be a bitwise <b>OR</b> of the following values.
 
 <table>
 <tr>
@@ -129,7 +129,7 @@ Specifies that the certificate of the issuing CA need not be trusted by the clie
 
 If the function succeeds, the function returns <b>S_OK</b>.
 
-If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following table.  For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
+If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following table.  For a list of common error codes, see <a href="/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 <table>
 <tr>
@@ -152,5 +152,4 @@ The <i>pValue</i> parameter cannot be <b>NULL</b>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icertpropertyenrollmentpolicyserver">ICertPropertyEnrollmentPolicyServer</a>
-
+<a href="/windows/desktop/api/certenroll/nn-certenroll-icertpropertyenrollmentpolicyserver">ICertPropertyEnrollmentPolicyServer</a>

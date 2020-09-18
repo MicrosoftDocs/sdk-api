@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Adds a DLNA DMR or DMS Device, identified by its UPnP Unique Device Name (UDN), to the list of devices that is returned by the <a href="https://docs.microsoft.com/windows/desktop/mediastreaming/idevicecontroller-cacheddevices">CachedDevices</a> method.
+Adds a DLNA DMR or DMS Device, identified by its UPnP Unique Device Name (UDN), to the list of devices that is returned by the <a href="/windows/desktop/mediastreaming/idevicecontroller-cacheddevices">CachedDevices</a> method.
 
 ## -parameters
 
@@ -82,5 +82,4 @@ The method succeeded.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh828901(v=vs.85)">IDeviceController</a>
-
+<a href="/previous-versions/windows/desktop/legacy/hh828901(v=vs.85)">IDeviceController</a>

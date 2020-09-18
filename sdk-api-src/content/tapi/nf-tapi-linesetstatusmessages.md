@@ -62,12 +62,12 @@ Handle to the line device.
 ### -param dwLineStates
 
 Bit array that identifies for which line-device status changes a message is to be sent to the application. This parameter uses one or more of the 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/linedevstate--constants">LINEDEVSTATE_ Constants</a>.
+<a href="/windows/desktop/Tapi/linedevstate--constants">LINEDEVSTATE_ Constants</a>.
 
 ### -param dwAddressStates
 
 Bit array that identifies for which address status changes a message is to be sent to the application. This parameter uses one or more of the 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/lineaddressstate--constants">LINEADDRESSSTATE_ Constants</a>.
+<a href="/windows/desktop/Tapi/lineaddressstate--constants">LINEADDRESSSTATE_ Constants</a>.
 
 ## -returns
 
@@ -82,29 +82,28 @@ TAPI defines a number of messages that notify applications about events occurrin
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/basic-telephony-services-reference">Basic Telephony Services Reference</a>
+<a href="/windows/desktop/Tapi/basic-telephony-services-reference">Basic Telephony Services Reference</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/line-close">LINE_CLOSE</a>
+<a href="/windows/desktop/Tapi/line-close">LINE_CLOSE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/line-linedevstate">LINE_LINEDEVSTATE</a>
+<a href="/windows/desktop/Tapi/line-linedevstate">LINE_LINEDEVSTATE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/tapi-2-2-reference">TAPI 2.2 Reference Overview</a>
+<a href="/windows/desktop/Tapi/tapi-2-2-reference">TAPI 2.2 Reference Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-lineinitialize">lineInitialize</a>
+<a href="/windows/desktop/api/tapi/nf-tapi-lineinitialize">lineInitialize</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-lineinitializeexa">lineInitializeEx</a>
+<a href="/windows/desktop/api/tapi/nf-tapi-lineinitializeexa">lineInitializeEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-lineopen">lineOpen</a>
-
+<a href="/windows/desktop/api/tapi/nf-tapi-lineopen">lineOpen</a>

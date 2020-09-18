@@ -60,7 +60,7 @@ Flag that indicates whether gamma calibration is required. Set this parameter to
 
 ### -param arg2 [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/ns-ddraw-ddgammaramp">DDGAMMARAMP</a> structure that contains the new red, green, and blue gamma ramp entries. Each array maps color values in the frame buffer to the color values to be passed to the digital-to-analog converter (DAC).
+A pointer to a <a href="/windows/desktop/api/ddraw/ns-ddraw-ddgammaramp">DDGAMMARAMP</a> structure that contains the new red, green, and blue gamma ramp entries. Each array maps color values in the frame buffer to the color values to be passed to the digital-to-analog converter (DAC).
 
 ## -returns
 
@@ -79,7 +79,7 @@ If it fails, the method can return one of the following error values:
 
 ## -remarks
 
-Not all systems support gamma calibration. To determine whether gamma calibration is supported, call <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nf-ddraw-idirectdraw7-getcaps">IDirectDraw7::GetCaps</a> and examine the <b>dwCaps2</b> member of the associated <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/ns-ddraw-ddcaps_dx3">DDCAPS</a> structure after the method returns. If the DDCAPS2_CANCALIBRATEGAMMA capability flag is present, gamma calibration is supported.
+Not all systems support gamma calibration. To determine whether gamma calibration is supported, call <a href="/windows/desktop/api/ddraw/nf-ddraw-idirectdraw7-getcaps">IDirectDraw7::GetCaps</a> and examine the <b>dwCaps2</b> member of the associated <a href="/windows/desktop/api/ddraw/ns-ddraw-ddcaps_dx3">DDCAPS</a> structure after the method returns. If the DDCAPS2_CANCALIBRATEGAMMA capability flag is present, gamma calibration is supported.
 
 
 
@@ -89,9 +89,8 @@ Including the DDSGR_CALIBRATE flag in the <i>dwFlags</i> parameter when running 
 
 
 
-You must use <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> to explicitly link to Ddraw.dll and then use <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> to access the  <b>SetGammaRamp</b> method.
+You must use <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> to explicitly link to Ddraw.dll and then use <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> to access the  <b>SetGammaRamp</b> method.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nn-ddraw-idirectdrawgammacontrol">IDirectDrawGammaControl</a>
-
+<a href="/windows/desktop/api/ddraw/nn-ddraw-idirectdrawgammacontrol">IDirectDrawGammaControl</a>

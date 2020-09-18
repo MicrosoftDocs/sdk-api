@@ -58,7 +58,7 @@ This structure is not implemented.
 
 ### -field Value
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a></b>
+Type: <b><a href="/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a></b>
 
 The name of the column referenced in the ISearchQueryHelper::WriteProperties methods pColumns property array.
 
@@ -67,4 +67,3 @@ The name of the column referenced in the ISearchQueryHelper::WriteProperties met
 Type: <b>LCID</b>
 
 The LCID of the column.
-

@@ -124,5 +124,4 @@ The following macros are defined in Traffic.h to make it easier to reference the
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/qos/ns-qos-flowspec">FLOWSPEC</a>
-
+<a href="/windows/desktop/api/qos/ns-qos-flowspec">FLOWSPEC</a>

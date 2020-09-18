@@ -50,9 +50,9 @@ api_name:
 
 ## -description
 
-The <b>ICertSrvSetup</b> interface defines functionality to install and uninstall Certification Authority (CA) and Certification Authority Web Enrollment roles on a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">Certificate Services</a> computer.
+The <b>ICertSrvSetup</b> interface defines functionality to install and uninstall Certification Authority (CA) and Certification Authority Web Enrollment roles on a <a href="/windows/desktop/SecGloss/c-gly">Certificate Services</a> computer.
 
-Microsoft provides an implementation of this interface in the <b>CCertSrvSetup</b> class. For installation, you must call the <a href="https://docs.microsoft.com/windows/desktop/api/casetup/nf-casetup-icertsrvsetup-initializedefaults">InitializeDefaults</a> method before accessing any properties or calling any other methods on the <b>CCertSrvSetup</b> object.
+Microsoft provides an implementation of this interface in the <b>CCertSrvSetup</b> class. For installation, you must call the <a href="/windows/desktop/api/casetup/nf-casetup-icertsrvsetup-initializedefaults">InitializeDefaults</a> method before accessing any properties or calling any other methods on the <b>CCertSrvSetup</b> object.
 
 In C++, you create an instance of this interface by calling the <b>CoCreateInstance</b> function with the <b>CLSID_CCertSrvSetup</b> class identifier.
 
@@ -60,7 +60,7 @@ In C++, you create an instance of this interface by calling the <b>CoCreateInsta
 <li>Online Responder Service</li>
 <li>Network Device Enrollment Service</li>
 </ul>
-In addition, the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certification authority</a> (CA) service has limited functionality:
+In addition, the <a href="/windows/desktop/SecGloss/c-gly">certification authority</a> (CA) service has limited functionality:
 
 <ul>
 <li>V2 templates are not supported; therefore, autoenrollment is not supported.</li>
@@ -70,7 +70,7 @@ In addition, the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICertSrvSetup</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ICertSrvSetup</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICertSrvSetup</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ICertSrvSetup</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -86,16 +86,16 @@ The <b>ICertSrvSetup</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/casetup/nf-casetup-icertsrvsetup-caimportpfx">CAImportPFX</a>
+<a href="/windows/desktop/api/casetup/nf-casetup-icertsrvsetup-caimportpfx">CAImportPFX</a>
 </td>
 <td align="left" width="63%">
-Imports a CA certificate and its associated <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">private key</a> into the "LocalMachine" store.
+Imports a CA certificate and its associated <a href="/windows/desktop/SecGloss/p-gly">private key</a> into the "LocalMachine" store.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/casetup/nf-casetup-icertsrvsetup-getcasetupproperty">GetCASetupProperty</a>
+<a href="/windows/desktop/api/casetup/nf-casetup-icertsrvsetup-getcasetupproperty">GetCASetupProperty</a>
 </td>
 <td align="left" width="63%">
 Gets a property value for a CA configuration.
@@ -104,7 +104,7 @@ Gets a property value for a CA configuration.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/casetup/nf-casetup-icertsrvsetup-getexistingcacertificates">GetExistingCACertificates</a>
+<a href="/windows/desktop/api/casetup/nf-casetup-icertsrvsetup-getexistingcacertificates">GetExistingCACertificates</a>
 </td>
 <td align="left" width="63%">
 Gets the collection of <b>CCertSrvSetupKeyInformation</b>  objects that represent valid CA certificates currently installed on the computer.
@@ -113,34 +113,34 @@ Gets the collection of <b>CCertSrvSetupKeyInformation</b>  objects that represen
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/casetup/nf-casetup-icertsrvsetup-gethashalgorithmlist">GetHashAlgorithmList</a>
+<a href="/windows/desktop/api/casetup/nf-casetup-icertsrvsetup-gethashalgorithmlist">GetHashAlgorithmList</a>
 </td>
 <td align="left" width="63%">
-Gets the list of <a href="https://docs.microsoft.com/windows/desktop/SecGloss/h-gly">hashing algorithms</a> supported by the specified <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">cryptographic service provider</a> (CSP) for an asymmetric key signature algorithm.
+Gets the list of <a href="/windows/desktop/SecGloss/h-gly">hashing algorithms</a> supported by the specified <a href="/windows/desktop/SecGloss/c-gly">cryptographic service provider</a> (CSP) for an asymmetric key signature algorithm.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/casetup/nf-casetup-icertsrvsetup-getkeylengthlist">GetKeyLengthList</a>
+<a href="/windows/desktop/api/casetup/nf-casetup-icertsrvsetup-getkeylengthlist">GetKeyLengthList</a>
 </td>
 <td align="left" width="63%">
-Gets the list of <a href="https://docs.microsoft.com/windows/desktop/SecGloss/k-gly">key lengths</a> supported by the specified CSP.
+Gets the list of <a href="/windows/desktop/SecGloss/k-gly">key lengths</a> supported by the specified CSP.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/casetup/nf-casetup-icertsrvsetup-getprivatekeycontainerlist">GetPrivateKeyContainerList</a>
+<a href="/windows/desktop/api/casetup/nf-casetup-icertsrvsetup-getprivatekeycontainerlist">GetPrivateKeyContainerList</a>
 </td>
 <td align="left" width="63%">
-Gets the list of <a href="https://docs.microsoft.com/windows/desktop/SecGloss/k-gly">key container</a> names stored by the specified CSP for asymmetric key signature algorithms.
+Gets the list of <a href="/windows/desktop/SecGloss/k-gly">key container</a> names stored by the specified CSP for asymmetric key signature algorithms.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/casetup/nf-casetup-icertsrvsetup-getprovidernamelist">GetProviderNameList</a>
+<a href="/windows/desktop/api/casetup/nf-casetup-icertsrvsetup-getprovidernamelist">GetProviderNameList</a>
 </td>
 <td align="left" width="63%">
 Gets the list of CSPs that provide asymmetric key signature algorithms on the computer.
@@ -149,7 +149,7 @@ Gets the list of CSPs that provide asymmetric key signature algorithms on the co
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/casetup/nf-casetup-icertsrvsetup-getsupportedcatypes">GetSupportedCATypes</a>
+<a href="/windows/desktop/api/casetup/nf-casetup-icertsrvsetup-getsupportedcatypes">GetSupportedCATypes</a>
 </td>
 <td align="left" width="63%">
 Gets the types of CAs that can be installed on a computer under the caller context.
@@ -158,7 +158,7 @@ Gets the types of CAs that can be installed on a computer under the caller conte
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/casetup/nf-casetup-icertsrvsetup-initializedefaults">InitializeDefaults</a>
+<a href="/windows/desktop/api/casetup/nf-casetup-icertsrvsetup-initializedefaults">InitializeDefaults</a>
 </td>
 <td align="left" width="63%">
 Initializes a <b>CCertSrvSetup</b> object with default values to enable installation of a CA role.
@@ -167,7 +167,7 @@ Initializes a <b>CCertSrvSetup</b> object with default values to enable installa
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/casetup/nf-casetup-icertsrvsetup-install">Install</a>
+<a href="/windows/desktop/api/casetup/nf-casetup-icertsrvsetup-install">Install</a>
 </td>
 <td align="left" width="63%">
 Installs a CA role as configured in the <b>CCertSrvSetup</b> object.
@@ -176,7 +176,7 @@ Installs a CA role as configured in the <b>CCertSrvSetup</b> object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/casetup/nf-casetup-icertsrvsetup-ispropertyeditable">IsPropertyEditable</a>
+<a href="/windows/desktop/api/casetup/nf-casetup-icertsrvsetup-ispropertyeditable">IsPropertyEditable</a>
 </td>
 <td align="left" width="63%">
 Indicates to the caller whether a specified property can be edited.
@@ -185,7 +185,7 @@ Indicates to the caller whether a specified property can be edited.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/casetup/nf-casetup-icertsrvsetup-postuninstall">PostUnInstall</a>
+<a href="/windows/desktop/api/casetup/nf-casetup-icertsrvsetup-postuninstall">PostUnInstall</a>
 </td>
 <td align="left" width="63%">
 This method is not implemented and is reserved for future use.
@@ -194,7 +194,7 @@ This method is not implemented and is reserved for future use.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/casetup/nf-casetup-icertsrvsetup-preuninstall">PreUnInstall</a>
+<a href="/windows/desktop/api/casetup/nf-casetup-icertsrvsetup-preuninstall">PreUnInstall</a>
 </td>
 <td align="left" width="63%">
 Temporarily saves role-specific state information.
@@ -203,7 +203,7 @@ Temporarily saves role-specific state information.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/casetup/nf-casetup-icertsrvsetup-setcadistinguishedname">SetCADistinguishedName</a>
+<a href="/windows/desktop/api/casetup/nf-casetup-icertsrvsetup-setcadistinguishedname">SetCADistinguishedName</a>
 </td>
 <td align="left" width="63%">
 Sets a CA common name and an optional distinguished name suffix.
@@ -212,7 +212,7 @@ Sets a CA common name and an optional distinguished name suffix.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/casetup/nf-casetup-icertsrvsetup-setcasetupproperty">SetCASetupProperty</a>
+<a href="/windows/desktop/api/casetup/nf-casetup-icertsrvsetup-setcasetupproperty">SetCASetupProperty</a>
 </td>
 <td align="left" width="63%">
 Sets a property value for a CA configuration.
@@ -221,7 +221,7 @@ Sets a property value for a CA configuration.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/casetup/nf-casetup-icertsrvsetup-setdatabaseinformation">SetDatabaseInformation</a>
+<a href="/windows/desktop/api/casetup/nf-casetup-icertsrvsetup-setdatabaseinformation">SetDatabaseInformation</a>
 </td>
 <td align="left" width="63%">
 Sets the database related information for the CA role.
@@ -230,7 +230,7 @@ Sets the database related information for the CA role.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/casetup/nf-casetup-icertsrvsetup-setparentcainformation">SetParentCAInformation</a>
+<a href="/windows/desktop/api/casetup/nf-casetup-icertsrvsetup-setparentcainformation">SetParentCAInformation</a>
 </td>
 <td align="left" width="63%">
 Sets the parent CA information for a subordinate CA configuration.
@@ -239,7 +239,7 @@ Sets the parent CA information for a subordinate CA configuration.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/casetup/nf-casetup-icertsrvsetup-setwebcainformation">SetWebCAInformation</a>
+<a href="/windows/desktop/api/casetup/nf-casetup-icertsrvsetup-setwebcainformation">SetWebCAInformation</a>
 </td>
 <td align="left" width="63%">
 Sets the CA information for the Certification Authority Web Enrollment role.
@@ -257,7 +257,7 @@ Sets the CA information for the Certification Authority Web Enrollment role.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/casetup/nf-casetup-icertsrvsetup-get_caerrorid">CAErrorId</a>
+<a href="/windows/desktop/api/casetup/nf-casetup-icertsrvsetup-get_caerrorid">CAErrorId</a>
 
 
 </td>
@@ -273,7 +273,7 @@ Gets the ID for additional error information related to a failed CA specificatio
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/casetup/nf-casetup-icertsrvsetup-get_caerrorstring">CAErrorString</a>
+<a href="/windows/desktop/api/casetup/nf-casetup-icertsrvsetup-get_caerrorstring">CAErrorString</a>
 
 
 </td>
@@ -290,5 +290,4 @@ Gets the string data for additional error information related to a failed CA spe
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
-
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>

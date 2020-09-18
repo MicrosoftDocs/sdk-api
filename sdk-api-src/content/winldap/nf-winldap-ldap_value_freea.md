@@ -53,7 +53,7 @@ api_name:
 ## -description
 
 The <b>ldap_value_free</b> function frees a structure returned by 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_get_values">ldap_get_values</a>.
+<a href="/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_get_values">ldap_get_values</a>.
 
 ## -parameters
 
@@ -65,21 +65,20 @@ The structure to free.
 
 If the function succeeds, the return value is <b>LDAP_SUCCESS</b>.
 
-If the function fails, it returns an error code. For more information, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/ldap/return-values">Return Values</a>.
+If the function fails, it returns an error code. For more information, see <a href="/previous-versions/windows/desktop/ldap/return-values">Return Values</a>.
 
 ## -remarks
 
-Call <b>ldap_value_free</b> to free a structure returned by <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_get_values">ldap_get_values</a>.
+Call <b>ldap_value_free</b> to free a structure returned by <a href="/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_get_values">ldap_get_values</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/ldap/functions">Functions</a>
+<a href="/previous-versions/windows/desktop/ldap/functions">Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/ldap/searching-a-directory">Searching a Directory</a>
+<a href="/previous-versions/windows/desktop/ldap/searching-a-directory">Searching a Directory</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_get_values">ldap_get_values</a>
-
+<a href="/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_get_values">ldap_get_values</a>

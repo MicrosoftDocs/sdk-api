@@ -51,11 +51,11 @@ api_name:
 
 ## -description
 
-Enables two instances of the <a href="https://docs.microsoft.com/windows/desktop/medfound/media-session">Media Session</a> to share the same protected media path (PMP) process.
+Enables two instances of the <a href="/windows/desktop/medfound/media-session">Media Session</a> to share the same protected media path (PMP) process.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFPMPServer</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFPMPServer</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFPMPServer</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFPMPServer</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>IMFPMPServer</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfpmpserver-createobjectbyclsid">CreateObjectByCLSID</a>
+<a href="/windows/desktop/api/mfidl/nf-mfidl-imfpmpserver-createobjectbyclsid">CreateObjectByCLSID</a>
 </td>
 <td align="left" width="63%">
 Creates an object in the PMP process.
@@ -79,7 +79,7 @@ Creates an object in the PMP process.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfpmpserver-lockprocess">LockProcess</a>
+<a href="/windows/desktop/api/mfidl/nf-mfidl-imfpmpserver-lockprocess">LockProcess</a>
 </td>
 <td align="left" width="63%">
 Blocks the PMP process from ending.
@@ -88,7 +88,7 @@ Blocks the PMP process from ending.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfpmpserver-unlockprocess">UnlockProcess</a>
+<a href="/windows/desktop/api/mfidl/nf-mfidl-imfpmpserver-unlockprocess">UnlockProcess</a>
 </td>
 <td align="left" width="63%">
 Decrements the lock count on the PMP process.
@@ -104,19 +104,18 @@ If your application creates more than one instance of the Media Session, you can
 Use this interface as follows:
 
 <ol>
-<li>Create the first instance of the PMP Media Session by calling <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-mfcreatepmpmediasession">MFCreatePMPMediaSession</a>.
+<li>Create the first instance of the PMP Media Session by calling <a href="/windows/desktop/api/mfidl/nf-mfidl-mfcreatepmpmediasession">MFCreatePMPMediaSession</a>.
           </li>
-<li>Retrieve an <b>IMFPMPServer</b> pointer from the first Media Session by calling <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfgetservice-getservice">IMFGetService::GetService</a> with the service identifier <b>MF_PMP_SERVER_CONTEXT</b>.
+<li>Retrieve an <b>IMFPMPServer</b> pointer from the first Media Session by calling <a href="/windows/desktop/api/mfidl/nf-mfidl-imfgetservice-getservice">IMFGetService::GetService</a> with the service identifier <b>MF_PMP_SERVER_CONTEXT</b>.
           </li>
-<li>Create the second instance of the PMP Media Session. Set the <a href="https://docs.microsoft.com/windows/desktop/medfound/mf-session-server-context-attribute">MF_SESSION_SERVER_CONTEXT</a> attribute on the <i>pConfiguration</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-mfcreatepmpmediasession">MFCreatePMPMediaSession</a> function. The attribute value is the <b>IMFPMPServer</b> pointer retrieved in step 2.
+<li>Create the second instance of the PMP Media Session. Set the <a href="/windows/desktop/medfound/mf-session-server-context-attribute">MF_SESSION_SERVER_CONTEXT</a> attribute on the <i>pConfiguration</i> parameter of the <a href="/windows/desktop/api/mfidl/nf-mfidl-mfcreatepmpmediasession">MFCreatePMPMediaSession</a> function. The attribute value is the <b>IMFPMPServer</b> pointer retrieved in step 2.
           </li>
 </ol>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
+<a href="/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/pmp-media-session">PMP Media Session</a>
-
+<a href="/windows/desktop/medfound/pmp-media-session">PMP Media Session</a>

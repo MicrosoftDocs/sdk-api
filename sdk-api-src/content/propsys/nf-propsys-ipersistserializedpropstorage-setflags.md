@@ -76,7 +76,7 @@ The property store object is read-only.
 
 #### FPSPS_TREAT_NEW_VALUES_AS_DIRTY (0x00000002)
 
-<b>Introduced in Windows 8</b>. New property values that are added to the property store through the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb761475(v=vs.85)">IPropertyStore::SetValue</a> method will cause the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ipersiststream-isdirty">IPersistStream::IsDirty</a> method to return S_OK. If this flag is not set, the addition of new property values to the property store does not affect the value returned by <b>IPersistStream::IsDirty</b>.
+<b>Introduced in Windows 8</b>. New property values that are added to the property store through the <a href="/previous-versions/windows/desktop/legacy/bb761475(v=vs.85)">IPropertyStore::SetValue</a> method will cause the <a href="/windows/desktop/api/objidl/nf-objidl-ipersiststream-isdirty">IPersistStream::IsDirty</a> method to return S_OK. If this flag is not set, the addition of new property values to the property store does not affect the value returned by <b>IPersistStream::IsDirty</b>.
 
 ## -returns
 
@@ -89,4 +89,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 Read/write is the default setting. <b>IPersistSerializedPropStorage::SetFlags</b> can be called at any time to toggle the read-only and read/write state of the property store.
 
 In versions of Windows before Windows 7, callers can assign a literal zero value directly into the <i>flags</i> parameter to set the read/write state. As of Windows 7, the FPSPS_DEFAULT flag value should be used instead.
-

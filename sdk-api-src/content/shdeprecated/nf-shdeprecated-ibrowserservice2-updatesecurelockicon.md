@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-Deprecated. Updates the value of the <b>_eSecureLockIcon</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/shdeprecated/ns-shdeprecated-basebrowserdatalh">BASEBROWSERDATA</a> structure, which tracks the icon indicating a secure site, as well as updating the icon itself in the UI.
+Deprecated. Updates the value of the <b>_eSecureLockIcon</b> member of the <a href="/windows/desktop/api/shdeprecated/ns-shdeprecated-basebrowserdatalh">BASEBROWSERDATA</a> structure, which tracks the icon indicating a secure site, as well as updating the icon itself in the UI.
 
 ## -parameters
 
@@ -59,7 +59,7 @@ Deprecated. Updates the value of the <b>_eSecureLockIcon</b> member of the <a hr
 
 Type: <b>int</b>
 
-One of the following values indicating the secure lock status. Note that each value is provided in a SET and SUGGEST form. For more details, see <a href="https://docs.microsoft.com/windows/desktop/api/shdeprecated/ns-shdeprecated-basebrowserdatalh">BASEBROWSERDATA</a>.
+One of the following values indicating the secure lock status. Note that each value is provided in a SET and SUGGEST form. For more details, see <a href="/windows/desktop/api/shdeprecated/ns-shdeprecated-basebrowserdatalh">BASEBROWSERDATA</a>.
 
 
 
@@ -136,4 +136,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -remarks
 
 SECURELOCK_SUGGEST_UNSECURE is equivalent to SECURELOCK_FIRSTSUGGEST.
-

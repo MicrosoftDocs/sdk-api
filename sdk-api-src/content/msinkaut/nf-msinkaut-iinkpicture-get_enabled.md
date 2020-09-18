@@ -55,7 +55,7 @@ api_name:
 
 ## -description
 
-Gets or sets a value that determines whether the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkpicture-control-reference">InkPicture</a> control can respond to user-generated events.
+Gets or sets a value that determines whether the <a href="/windows/desktop/tablet/inkpicture-control-reference">InkPicture</a> control can respond to user-generated events.
 
 
 
@@ -65,7 +65,7 @@ This property is read/write.
 
 ## -remarks
 
-<div class="alert"><b>Note</b>  This property is not the same as the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkcollector-get_enabled">Enabled</a> property for the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkoverlay-class">InkOverlay</a> and <a href="https://docs.microsoft.com/windows/desktop/tablet/inkcollector-class">InkCollector</a> objects. This property is equivalent to the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_inkenabled">InkEnabled</a> property.</div>
+<div class="alert"><b>Note</b>  This property is not the same as the <a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkcollector-get_enabled">Enabled</a> property for the <a href="/windows/desktop/tablet/inkoverlay-class">InkOverlay</a> and <a href="/windows/desktop/tablet/inkcollector-class">InkCollector</a> objects. This property is equivalent to the <a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_inkenabled">InkEnabled</a> property.</div>
 <div> </div>
 
 ## -see-also
@@ -74,9 +74,8 @@ This property is read/write.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_inkenabled">InkEnabled Property</a>
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_inkenabled">InkEnabled Property</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/tablet/inkpicture-control">InkPicture Control</a>
-
+<a href="/windows/desktop/tablet/inkpicture-control">InkPicture Control</a>

@@ -109,13 +109,12 @@ This method checks for the WS_VISIBLE style bit, by calling the Windows <b>IsWin
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/control/nn-control-ivideowindow">IVideoWindow Interface</a>
+<a href="/windows/desktop/api/control/nn-control-ivideowindow">IVideoWindow Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/control/nf-control-ivideowindow-put_visible">IVideoWindow::put_Visible</a>
-
+<a href="/windows/desktop/api/control/nf-control-ivideowindow-put_visible">IVideoWindow::put_Visible</a>

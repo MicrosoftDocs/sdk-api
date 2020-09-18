@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-Gets  the setting that indicates whether the call to <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iupdatedownloader-begindownload">IUpdateDownloader.BeginDownload</a> was processed completely.
+Gets  the setting that indicates whether the call to <a href="/windows/desktop/api/wuapi/nf-wuapi-iupdatedownloader-begindownload">IUpdateDownloader.BeginDownload</a> was processed completely.
 
 This property is read-only.
 
@@ -59,5 +59,4 @@ This property is read-only.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-idownloadjob">IDownloadJob</a>
-
+<a href="/windows/desktop/api/wuapi/nn-wuapi-idownloadjob">IDownloadJob</a>

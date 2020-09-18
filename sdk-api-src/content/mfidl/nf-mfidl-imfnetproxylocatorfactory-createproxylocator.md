@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-Creates an <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfnetproxylocator">IMFNetProxyLocator</a> interface proxy locator object based on the protocol name.
+Creates an <a href="/windows/desktop/api/mfidl/nn-mfidl-imfnetproxylocator">IMFNetProxyLocator</a> interface proxy locator object based on the protocol name.
 
 ## -parameters
 
@@ -61,7 +61,7 @@ Null-terminated wide-character string containing the protocol name (for example,
 
 ### -param ppProxyLocator [out]
 
-Receives a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfnetproxylocator">IMFNetProxyLocator</a> interface. The caller must release the interface.
+Receives a pointer to the <a href="/windows/desktop/api/mfidl/nn-mfidl-imfnetproxylocator">IMFNetProxyLocator</a> interface. The caller must release the interface.
 
 ## -returns
 
@@ -87,5 +87,4 @@ The method succeeded.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfnetproxylocatorfactory">IMFNetProxyLocatorFactory</a>
-
+<a href="/windows/desktop/api/mfidl/nn-mfidl-imfnetproxylocatorfactory">IMFNetProxyLocatorFactory</a>

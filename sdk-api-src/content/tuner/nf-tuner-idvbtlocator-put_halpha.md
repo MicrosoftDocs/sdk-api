@@ -56,7 +56,7 @@ The <b>put_HAlpha</b> method sets the hierarchy alpha.
 
 ### -param Alpha [in]
 
-Variable of type <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/hierarchyalpha">HierarchyAlpha</a> that specifies the hierarchy alpha.
+Variable of type <a href="/previous-versions/windows/desktop/mstv/hierarchyalpha">HierarchyAlpha</a> that specifies the hierarchy alpha.
 
 ## -returns
 
@@ -64,5 +64,4 @@ Returns S_OK if successful. If the method fails, error information can be retrie
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-idvbtlocator">IDVBTLocator Interface</a>
-
+<a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-idvbtlocator">IDVBTLocator Interface</a>

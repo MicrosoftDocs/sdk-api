@@ -56,7 +56,7 @@ Specifies access to a content stream based on a user's token.
 
 ### -param hContent [in]
 
-Handle to an open content stream to be read. This is the handle return by the <a href="https://docs.microsoft.com/windows/desktop/api/wdstpdi/nf-wdstpdi-wdstransportprovideropencontent">WdsTransportProviderOpenContent</a> callback.
+Handle to an open content stream to be read. This is the handle return by the <a href="/windows/desktop/api/wdstpdi/nf-wdstpdi-wdstransportprovideropencontent">WdsTransportProviderOpenContent</a> callback.
 
 ### -param hUserToken [in]
 
@@ -73,4 +73,3 @@ If the function succeeds, the return is <b>S_OK</b>.
 ## -remarks
 
 This callback is required.
-

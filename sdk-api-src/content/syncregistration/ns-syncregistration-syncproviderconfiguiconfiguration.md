@@ -109,5 +109,4 @@ Reserved for future use. At this time, the value should always be <b>FALSE</b>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/winsync/windows-sync-registration-structures">Windows Sync Registration Structures</a>
-
+<a href="/previous-versions/windows/desktop/winsync/windows-sync-registration-structures">Windows Sync Registration Structures</a>

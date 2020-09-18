@@ -57,7 +57,7 @@ Gets the major media type of the object.
 
 ### -param pguidMajorType [out]
 
-Receives a GUID that identifies the major type. For a list of possible values, see <a href="https://docs.microsoft.com/windows/desktop/medfound/media-type-guids">Major Media Types</a>.
+Receives a GUID that identifies the major type. For a list of possible values, see <a href="/windows/desktop/medfound/media-type-guids">Major Media Types</a>.
 
 ## -returns
 
@@ -65,7 +65,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -remarks
 
-The major type identifies what kind of data is in the stream, such as audio or video. To get the specific details of the format, call <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfmediatypehandler-getcurrentmediatype">IMFMediaTypeHandler::GetCurrentMediaType</a>.
+The major type identifies what kind of data is in the stream, such as audio or video. To get the specific details of the format, call <a href="/windows/desktop/api/mfidl/nf-mfidl-imfmediatypehandler-getcurrentmediatype">IMFMediaTypeHandler::GetCurrentMediaType</a>.
 
 This interface is available on the following platforms if the Windows Media Format 11 SDK redistributable components are installed:
 
@@ -76,5 +76,4 @@ This interface is available on the following platforms if the Windows Media Form
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfmediatypehandler">IMFMediaTypeHandler</a>
-
+<a href="/windows/desktop/api/mfidl/nn-mfidl-imfmediatypehandler">IMFMediaTypeHandler</a>

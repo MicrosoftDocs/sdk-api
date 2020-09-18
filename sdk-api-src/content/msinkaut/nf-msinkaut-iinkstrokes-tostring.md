@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[<b>ToString</b> is no longer available for use as of Windows Vista. Instead, see the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognitionalternate-get_string">String</a> property for the equivalent of this method for the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkrecognitionalternate">IInkRecognitionAlternate</a> object.
+<p class="CCE_Message">[<b>ToString</b> is no longer available for use as of Windows Vista. Instead, see the <a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognitionalternate-get_string">String</a> property for the equivalent of this method for the <a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinkrecognitionalternate">IInkRecognitionAlternate</a> object.
 ]
 
 Has the default recognizer perform recognition on the collection of strokes and returns the top string of the top alternate of the recognition result.
@@ -60,9 +60,9 @@ Has the default recognizer perform recognition on the collection of strokes and 
 
 ### -param ToString [out, retval]
 
-The top string of the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognitionresult-get_topalternate">TopAlternate</a> property of the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkrecognitionresult">IInkRecognitionResult</a> object, after the default recognizer performs recognition on the collection of strokes.
+The top string of the <a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognitionresult-get_topalternate">TopAlternate</a> property of the <a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinkrecognitionresult">IInkRecognitionResult</a> object, after the default recognizer performs recognition on the collection of strokes.
 
-For more information about the <b>BSTR</b> data type, see <a href="https://docs.microsoft.com/windows/desktop/tablet/using-the-com-library">Using the COM Library</a>.
+For more information about the <b>BSTR</b> data type, see <a href="/windows/desktop/tablet/using-the-com-library">Using the COM Library</a>.
 
 ## -returns
 
@@ -154,14 +154,14 @@ No recognizers are installed, the recognizers registry key is corrupted, or your
 <b>ToString</b> returns <b>NULL</b> if:
 
 <ul>
-<li>The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)">InkStrokes</a> collection is empty.</li>
+<li>The <a href="/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)">InkStrokes</a> collection is empty.</li>
 <li>A default recognizer cannot be created.</li>
 <li>The default recognizer does not support free input.</li>
 </ul>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkrecognizer">IInkRecognizer Interface</a>
+<a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinkrecognizer">IInkRecognizer Interface</a>
 
 
 
@@ -169,5 +169,4 @@ No recognizers are installed, the recognizers registry key is corrupted, or your
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)">InkStrokes Collection</a>
-
+<a href="/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)">InkStrokes Collection</a>

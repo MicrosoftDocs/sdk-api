@@ -108,13 +108,13 @@ When the type of filter that is specified by <i>pFilter</i> is not supported.
 Filter negotiation is achieved by using the following steps:
 
 <ol>
-<li>Before the source provider begins enumerating changes, a synchronization session typically starts filter negotiation by calling <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nf-winsync-ifilterrequestcallback-requestfilter">IRequestFilteredSync::SpecifyFilter</a> on the destination provider.</li>
-<li>During processing of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nf-winsync-ifilterrequestcallback-requestfilter">IRequestFilteredSync::SpecifyFilter</a>, the destination provider passes filters to <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nf-winsync-ifilterrequestcallback-requestfilter">IFilterRequestCallback::RequestFilter</a>.</li>
-<li>During processing of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nf-winsync-ifilterrequestcallback-requestfilter">IFilterRequestCallback::RequestFilter</a>, a synchronization session typically calls <b>ISupportFilteredSync::AddFilter</b> on the source provider. If the source provider does not support the requested filter, the destination provider can continue to request filters until it finds one that is supported.</li>
+<li>Before the source provider begins enumerating changes, a synchronization session typically starts filter negotiation by calling <a href="/previous-versions/windows/desktop/api/winsync/nf-winsync-ifilterrequestcallback-requestfilter">IRequestFilteredSync::SpecifyFilter</a> on the destination provider.</li>
+<li>During processing of <a href="/previous-versions/windows/desktop/api/winsync/nf-winsync-ifilterrequestcallback-requestfilter">IRequestFilteredSync::SpecifyFilter</a>, the destination provider passes filters to <a href="/previous-versions/windows/desktop/api/winsync/nf-winsync-ifilterrequestcallback-requestfilter">IFilterRequestCallback::RequestFilter</a>.</li>
+<li>During processing of <a href="/previous-versions/windows/desktop/api/winsync/nf-winsync-ifilterrequestcallback-requestfilter">IFilterRequestCallback::RequestFilter</a>, a synchronization session typically calls <b>ISupportFilteredSync::AddFilter</b> on the source provider. If the source provider does not support the requested filter, the destination provider can continue to request filters until it finds one that is supported.</li>
 </ol>
 When a filter has been successfully negotiated, the source provider uses it to determine which items to include during change enumeration.
 
-<div class="alert"><b>Note</b>  An implementation of this method can examine the filter specified by <i>pFilter</i> and <i>filteringType</i>, and return <a href="https://docs.microsoft.com/previous-versions/windows/desktop/winsync/windows-sync-error-codes">SYNC_E_FILTER_NOT_SUPPORTED</a> to indicate that the filter is not supported. The destination provider can then request different filters until one is found that is supported.<p class="note">Typically the destination provider will end the synchronization session when an error other than <a href="https://docs.microsoft.com/previous-versions/windows/desktop/winsync/windows-sync-error-codes">SYNC_E_FILTER_NOT_SUPPORTED</a> is returned from <b>ISupportFilteredSync::AddFilter</b>.
+<div class="alert"><b>Note</b>  An implementation of this method can examine the filter specified by <i>pFilter</i> and <i>filteringType</i>, and return <a href="/previous-versions/windows/desktop/winsync/windows-sync-error-codes">SYNC_E_FILTER_NOT_SUPPORTED</a> to indicate that the filter is not supported. The destination provider can then request different filters until one is found that is supported.<p class="note">Typically the destination provider will end the synchronization session when an error other than <a href="/previous-versions/windows/desktop/winsync/windows-sync-error-codes">SYNC_E_FILTER_NOT_SUPPORTED</a> is returned from <b>ISupportFilteredSync::AddFilter</b>.
 
 </div>
 <div> </div>
@@ -125,13 +125,12 @@ When a filter has been successfully negotiated, the source provider uses it to d
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-ifilterrequestcallback">IFilterRequestCallback Interface</a>
+<a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-ifilterrequestcallback">IFilterRequestCallback Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-irequestfilteredsync">IRequestFilteredSync Interface</a>
+<a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-irequestfilteredsync">IRequestFilteredSync Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-isupportfilteredsync">ISupportFilteredSync Interface</a>
-
+<a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-isupportfilteredsync">ISupportFilteredSync Interface</a>

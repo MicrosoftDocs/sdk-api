@@ -56,10 +56,10 @@ api_name:
 
 The 
 <b>LINETRANSLATECAPS</b> structure describes the address translation capabilities. This structure can contain an array of 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linelocationentry">LINELOCATIONENTRY</a> structures and an array of 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linecardentry">LINECARDENTRY</a> structures. The 
+<a href="/windows/desktop/api/tapi/ns-tapi-linelocationentry">LINELOCATIONENTRY</a> structures and an array of 
+<a href="/windows/desktop/api/tapi/ns-tapi-linecardentry">LINECARDENTRY</a> structures. The 
 <b>LINETRANSLATECAPS</b> structure is returned by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linegettranslatecaps">lineGetTranslateCaps</a> function.
+<a href="/windows/desktop/api/tapi/nf-tapi-linegettranslatecaps">lineGetTranslateCaps</a> function.
 
 ## -struct-fields
 
@@ -86,12 +86,12 @@ Size of the list of locations known to the address translation, in bytes.
 ### -field dwLocationListOffset
 
 Offset from the beginning of this structure to the list of locations known to the address translation. The list consists of a sequence of 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linelocationentry">LINELOCATIONENTRY</a> structures. The <b>dwLocationListOffset</b> member points to the first byte of the first structure, and the <b>dwLocationListSize</b> member indicates the total number of bytes in the list.
+<a href="/windows/desktop/api/tapi/ns-tapi-linelocationentry">LINELOCATIONENTRY</a> structures. The <b>dwLocationListOffset</b> member points to the first byte of the first structure, and the <b>dwLocationListSize</b> member indicates the total number of bytes in the list.
 
 ### -field dwCurrentLocationID
 
 Permanent identifier for the <b>CurrentLocation</b> entry in the [Locations] section of the registry. See the <b>dwPermanentLocationID</b> member of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linelocationentry">LINELOCATIONENTRY</a> structure.
+<a href="/windows/desktop/api/tapi/ns-tapi-linelocationentry">LINELOCATIONENTRY</a> structure.
 
 ### -field dwNumCards
 
@@ -104,12 +104,12 @@ Size of the list of calling cards known to the address translation, in bytes.
 ### -field dwCardListOffset
 
 Offset from the beginning of this structure to the list of calling cards known to the address translation. It includes only non-hidden card entries and always includes card 0 (direct dial). The list consists of a sequence of 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linecardentry">LINECARDENTRY</a> structures. The <b>dwCardListOffset</b> member points to the first byte of the first structure, and the <b>dwCardListSize</b> member indicates the total number of bytes in the list.
+<a href="/windows/desktop/api/tapi/ns-tapi-linecardentry">LINECARDENTRY</a> structures. The <b>dwCardListOffset</b> member points to the first byte of the first structure, and the <b>dwCardListSize</b> member indicates the total number of bytes in the list.
 
 ### -field dwCurrentPreferredCardID
 
 Preferred calling card for the <b>CurrentLocation</b> entry in the [Locations] section of the registry. See the <b>dwPreferredCardID</b> member of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linelocationentry">LINELOCATIONENTRY</a> structure.
+<a href="/windows/desktop/api/tapi/ns-tapi-linelocationentry">LINELOCATIONENTRY</a> structure.
 
 ## -remarks
 
@@ -117,13 +117,12 @@ This structure may not be extended.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linecardentry">LINECARDENTRY</a>
+<a href="/windows/desktop/api/tapi/ns-tapi-linecardentry">LINECARDENTRY</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linelocationentry">LINELOCATIONENTRY</a>
+<a href="/windows/desktop/api/tapi/ns-tapi-linelocationentry">LINELOCATIONENTRY</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linegettranslatecaps">lineGetTranslateCaps</a>
-
+<a href="/windows/desktop/api/tapi/nf-tapi-linegettranslatecaps">lineGetTranslateCaps</a>

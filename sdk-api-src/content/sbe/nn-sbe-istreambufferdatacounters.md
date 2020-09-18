@@ -50,11 +50,11 @@ api_name:
 
 ## -description
 
-The <b>IStreamBufferDataCounters</b> interface returns performance statistics for the Stream Buffer filters. This interface is exposed by the pins on the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/stream-buffer-sink-filter">Stream Buffer Sink</a> filter and the Stream Buffer Source filter.
+The <b>IStreamBufferDataCounters</b> interface returns performance statistics for the Stream Buffer filters. This interface is exposed by the pins on the <a href="/previous-versions/windows/desktop/mstv/stream-buffer-sink-filter">Stream Buffer Sink</a> filter and the Stream Buffer Source filter.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IStreamBufferDataCounters</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IStreamBufferDataCounters</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IStreamBufferDataCounters</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IStreamBufferDataCounters</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IStreamBufferDataCounters</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/sbe/nf-sbe-istreambufferdatacounters-getdata">GetData</a>
+<a href="/previous-versions/windows/desktop/api/sbe/nf-sbe-istreambufferdatacounters-getdata">GetData</a>
 </td>
 <td align="left" width="63%">
 Returns performance data.
@@ -78,7 +78,7 @@ Returns performance data.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/sbe/nf-sbe-istreambufferdatacounters-resetdata">ResetData</a>
+<a href="/previous-versions/windows/desktop/api/sbe/nf-sbe-istreambufferdatacounters-resetdata">ResetData</a>
 </td>
 <td align="left" width="63%">
 Resets the performance counters.
@@ -93,5 +93,4 @@ To declare the interface identifier (IID) for this interface, use the <b>__uuido
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/stream-buffer-engine-interfaces">Stream Buffer Engine Interfaces</a>
-
+<a href="/previous-versions/windows/desktop/mstv/stream-buffer-engine-interfaces">Stream Buffer Engine Interfaces</a>

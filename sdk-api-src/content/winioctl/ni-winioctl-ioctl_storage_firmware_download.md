@@ -86,7 +86,7 @@ Irp->IoStatus.Status is set to STATUS_SUCCESS if the request is successful.
 
 Otherwise, Status to the appropriate error condition as a NTSTATUS code. 
 
-For more information, see [NTSTATUS Values](https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values).
+For more information, see [NTSTATUS Values](/windows-hardware/drivers/kernel/ntstatus-values).
 
 ## -see-also
 
@@ -95,7 +95,6 @@ For more information, see [NTSTATUS Values](https://docs.microsoft.com/windows-h
 * [IOCTL_STORAGE_FIRMWARE_GET_INFO](ni-winioctl-ioctl_storage_firmware_get_info.md)
 * [STORAGE_HW_FIRMWARE_ACTIVATE](ns-winioctl-storage_hw_firmware_activate.md)
 * [STORAGE_HW_FIRMWARE_DOWNLOAD](ns-winioctl-storage_hw_firmware_download.md)
-* [STORAGE_HW_FIRMWARE_INFO](https://docs.microsoft.com/windows/desktop/FileIO/storage-hw-firmware-info)
-* [STORAGE_HW_FIRMWARE_INFO_QUERY](https://docs.microsoft.com/windows/desktop/FileIO/storage-hw-firmware-info-query)
-* [STORAGE_HW_FIRMWARE_SLOT_INFO](https://docs.microsoft.com/windows/desktop/FileIO/storage-hw-firmware-slot-info)
-
+* [STORAGE_HW_FIRMWARE_INFO](/windows/desktop/FileIO/storage-hw-firmware-info)
+* [STORAGE_HW_FIRMWARE_INFO_QUERY](/windows/desktop/FileIO/storage-hw-firmware-info-query)
+* [STORAGE_HW_FIRMWARE_SLOT_INFO](/windows/desktop/FileIO/storage-hw-firmware-slot-info)

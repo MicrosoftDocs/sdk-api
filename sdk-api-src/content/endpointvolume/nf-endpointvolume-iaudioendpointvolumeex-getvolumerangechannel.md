@@ -56,7 +56,7 @@ The <b>GetVolumeRangeChannel</b> method gets the volume range for a specified ch
 
 ### -param iChannel [in]
 
-The channel number for which to get the volume range. If the audio stream has <i>n</i> channels, the channels are numbered from 0 to <i>n</i>– 1. To obtain the number of channels in the stream, call the <a href="https://docs.microsoft.com/windows/desktop/api/endpointvolume/nf-endpointvolume-iaudioendpointvolume-getchannelcount">IAudioEndpointVolume::GetChannelCount</a> method.
+The channel number for which to get the volume range. If the audio stream has <i>n</i> channels, the channels are numbered from 0 to <i>n</i>– 1. To obtain the number of channels in the stream, call the <a href="/windows/desktop/api/endpointvolume/nf-endpointvolume-iaudioendpointvolume-getchannelcount">IAudioEndpointVolume::GetChannelCount</a> method.
 
 ### -param pflVolumeMindB [out]
 
@@ -94,5 +94,4 @@ Parameter <i>pfLevelMinDB</i>, <i>pfLevelMaxDB</i>, or <i>pfVolumeIncrementDB</i
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/endpointvolume/nn-endpointvolume-iaudioendpointvolumeex">IAudioEndpointVolumeEx</a>
-
+<a href="/windows/desktop/api/endpointvolume/nn-endpointvolume-iaudioendpointvolumeex">IAudioEndpointVolumeEx</a>

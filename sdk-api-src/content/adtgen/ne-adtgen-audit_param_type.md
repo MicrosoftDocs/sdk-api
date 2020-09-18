@@ -74,7 +74,7 @@ A pointer that is used to specify handles and pointers. These are 32-bit on 32-b
 
 ### -field APT_Sid
 
-The <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security identifier</a> (SID).
+The <a href="/windows/desktop/SecGloss/s-gly">security identifier</a> (SID).
 
 ### -field APT_LogonId
 
@@ -120,4 +120,3 @@ Logon ID with SID that results in four output parameters:
 <li>Authority name</li>
 <li>LogonID</li>
 </ul>
-

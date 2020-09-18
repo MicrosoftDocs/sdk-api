@@ -113,13 +113,13 @@ This method blocks until the time-out expires, or one of the following events oc
 
 <ul>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/ec-complete">EC_COMPLETE</a>
+<a href="/windows/desktop/DirectShow/ec-complete">EC_COMPLETE</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/ec-errorabort">EC_ERRORABORT</a>
+<a href="/windows/desktop/DirectShow/ec-errorabort">EC_ERRORABORT</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/ec-userabort">EC_USERABORT</a>
+<a href="/windows/desktop/DirectShow/ec-userabort">EC_USERABORT</a>
 </li>
 </ul>
 During the wait, the method discards all other event notifications.
@@ -128,9 +128,8 @@ If the return value is S_OK, the <i>pEvCode</i> parameter receives the event cod
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/control/nn-control-imediaevent">IMediaEvent Interface</a>
-
+<a href="/windows/desktop/api/control/nn-control-imediaevent">IMediaEvent Interface</a>

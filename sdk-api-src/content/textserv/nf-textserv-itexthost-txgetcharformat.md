@@ -62,11 +62,11 @@ The default character format.
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 Return S_OK if the method succeeds. 
 
-Return the following COM error code if the method fails. For more information on COM error codes, see <a href="https://docs.microsoft.com/windows/desktop/com/error-handling-in-com">Error Handling in COM</a>.
+Return the following COM error code if the method fails. For more information on COM error codes, see <a href="/windows/desktop/com/error-handling-in-com">Error Handling in COM</a>.
 
 <table>
 <tr>
@@ -88,7 +88,7 @@ Not implemented.
 
 ## -remarks
 
-The text host retains ownership of the <a href="/windows/win32/api/richedit/ns-richedit-charformata">CHARFORMAT</a> returned. However, the pointer returned must remain valid until the text host notifies the text services object through <a href="https://docs.microsoft.com/windows/desktop/api/textserv/nf-textserv-itextservices-ontxpropertybitschange">OnTxPropertyBitsChange</a> that the default character format has changed.
+The text host retains ownership of the <a href="/windows/win32/api/richedit/ns-richedit-charformata">CHARFORMAT</a> returned. However, the pointer returned must remain valid until the text host notifies the text services object through <a href="/windows/desktop/api/textserv/nf-textserv-itextservices-ontxpropertybitschange">OnTxPropertyBitsChange</a> that the default character format has changed.
 
 ## -see-also
 
@@ -100,11 +100,11 @@ The text host retains ownership of the <a href="/windows/win32/api/richedit/ns-r
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/textserv/nl-textserv-itexthost">ITextHost</a>
+<a href="/windows/desktop/api/textserv/nl-textserv-itexthost">ITextHost</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/textserv/nf-textserv-itextservices-ontxpropertybitschange">OnTxPropertyBitsChange</a>
+<a href="/windows/desktop/api/textserv/nf-textserv-itextservices-ontxpropertybitschange">OnTxPropertyBitsChange</a>
 
 
 
@@ -112,5 +112,4 @@ The text host retains ownership of the <a href="/windows/win32/api/richedit/ns-r
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Controls/windowless-rich-edit-controls">Windowless Rich Edit Controls</a>
-
+<a href="/windows/desktop/Controls/windowless-rich-edit-controls">Windowless Rich Edit Controls</a>

@@ -66,7 +66,7 @@ A handle to an enhanced metafile.
 
 ### -param proc [in]
 
-A pointer to the application-supplied callback function. For more information, see the <a href="https://docs.microsoft.com/previous-versions/dd162606(v=vs.85)">EnhMetaFileProc</a> function.
+A pointer to the application-supplied callback function. For more information, see the <a href="/previous-versions/dd162606(v=vs.85)">EnhMetaFileProc</a> function.
 
 ### -param param [in]
 
@@ -86,31 +86,30 @@ If the callback function does not successfully enumerate all the records in the 
 
 Points along the edge of the rectangle pointed to by the <i>lpRect</i> parameter are included in the picture. If the <i>hdc</i> parameter is <b>NULL</b>, the system ignores <i>lpRect</i>.
 
-If the callback function calls the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-playenhmetafilerecord">PlayEnhMetaFileRecord</a> function, <i>hdc</i> must identify a valid device context. The system uses the device context's transformation and mapping mode to transform the picture displayed by the <b>PlayEnhMetaFileRecord</b> function.
+If the callback function calls the <a href="/windows/desktop/api/wingdi/nf-wingdi-playenhmetafilerecord">PlayEnhMetaFileRecord</a> function, <i>hdc</i> must identify a valid device context. The system uses the device context's transformation and mapping mode to transform the picture displayed by the <b>PlayEnhMetaFileRecord</b> function.
 
 You can use the <b>EnumEnhMetaFile</b> function to embed one enhanced-metafile within another.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/dd162606(v=vs.85)">EnhMetaFileProc</a>
+<a href="/previous-versions/dd162606(v=vs.85)">EnhMetaFileProc</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/metafile-functions">Metafile Functions</a>
+<a href="/windows/desktop/gdi/metafile-functions">Metafile Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/metafiles">Metafiles Overview</a>
+<a href="/windows/desktop/gdi/metafiles">Metafiles Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-playenhmetafile">PlayEnhMetaFile</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-playenhmetafile">PlayEnhMetaFile</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-playenhmetafilerecord">PlayEnhMetaFileRecord</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-playenhmetafilerecord">PlayEnhMetaFileRecord</a>
 
 
 
 <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a>
-

@@ -56,11 +56,11 @@ Sets the values of an event data descriptor.
 
 ### -param EventDataDescriptor [out]
 
-The data descriptor whose member values are set to those of the remaining parameters. For details, see <a href="https://docs.microsoft.com/windows/desktop/api/evntprov/ns-evntprov-event_data_descriptor">EVENT_DATA_DESCRIPTOR</a>.
+The data descriptor whose member values are set to those of the remaining parameters. For details, see <a href="/windows/desktop/api/evntprov/ns-evntprov-event_data_descriptor">EVENT_DATA_DESCRIPTOR</a>.
 
 ### -param DataPtr [in]
 
-A pointer to the event data used to set the <b>Ptr</b> member of <a href="https://docs.microsoft.com/windows/desktop/api/evntprov/ns-evntprov-event_data_descriptor">EVENT_DATA_DESCRIPTOR</a>.
+A pointer to the event data used to set the <b>Ptr</b> member of <a href="/windows/desktop/api/evntprov/ns-evntprov-event_data_descriptor">EVENT_DATA_DESCRIPTOR</a>.
 
 If the event data's type is a <b>NULL</b>-terminated string, the <i>DataPtr</i> parameter must not be <b>NULL</b>.
 
@@ -68,7 +68,7 @@ If the event data's type is a <b>NULL</b>-terminated string, the <i>DataPtr</i> 
 
 ### -param DataSize [in]
 
-The size of the event data. The value is used to set the <b>Size</b> member of <a href="https://docs.microsoft.com/windows/desktop/api/evntprov/ns-evntprov-event_data_descriptor">EVENT_DATA_DESCRIPTOR</a>.
+The size of the event data. The value is used to set the <b>Size</b> member of <a href="/windows/desktop/api/evntprov/ns-evntprov-event_data_descriptor">EVENT_DATA_DESCRIPTOR</a>.
 
 ## -returns
 
@@ -76,5 +76,4 @@ This function does not return a value.
 
 ## -remarks
 
-This is a convenience macro for setting the members of the <a href="https://docs.microsoft.com/windows/desktop/api/evntprov/ns-evntprov-event_data_descriptor">EVENT_DATA_DESCRIPTOR</a> structure.
-
+This is a convenience macro for setting the members of the <a href="/windows/desktop/api/evntprov/ns-evntprov-event_data_descriptor">EVENT_DATA_DESCRIPTOR</a> structure.

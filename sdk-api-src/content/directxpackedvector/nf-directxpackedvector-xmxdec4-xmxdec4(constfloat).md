@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Initializes a new instance of <a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmxdec4">XMXDEC4</a> from a four element <code>float</code> array argument.
+Initializes a new instance of <a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmxdec4">XMXDEC4</a> from a four element <code>float</code> array argument.
 
 This constructor initializes a new instance of **XMXDEC4** from a four element <code>float</code> array argument.
 
@@ -94,7 +94,6 @@ instance.v =  ( (int32_t)_w1 << 30) |
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmxdec4">XMXDEC4</a>
+<a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmxdec4">XMXDEC4</a>
 
-<a href="https://docs.microsoft.com/windows/desktop/dxmath/xmxdec4-ctor">XMXDEC4 Constructors</a>
-
+<a href="/windows/desktop/dxmath/xmxdec4-ctor">XMXDEC4 Constructors</a>

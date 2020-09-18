@@ -54,7 +54,7 @@ Exposes methods that provide general information about an application to the Add
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IShellApp</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IShellApp</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IShellApp</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IShellApp</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IShellApp</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shappmgr/nf-shappmgr-ishellapp-getappinfo">GetAppInfo</a>
+<a href="/windows/desktop/api/shappmgr/nf-shappmgr-ishellapp-getappinfo">GetAppInfo</a>
 </td>
 <td align="left" width="63%">
 Gets general information about an application.
@@ -79,16 +79,16 @@ Gets general information about an application.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shappmgr/nf-shappmgr-ishellapp-getcachedslowappinfo">GetCachedSlowAppInfo</a>
+<a href="/windows/desktop/api/shappmgr/nf-shappmgr-ishellapp-getcachedslowappinfo">GetCachedSlowAppInfo</a>
 </td>
 <td align="left" width="63%">
-Returns information to the application that originates from a slow source. Unlike <a href="https://docs.microsoft.com/windows/desktop/api/shappmgr/nf-shappmgr-ishellapp-getslowappinfo">IShellApp::GetSlowAppInfo</a>, this method can return information that has been cached. This method is not applicable to published applications.
+Returns information to the application that originates from a slow source. Unlike <a href="/windows/desktop/api/shappmgr/nf-shappmgr-ishellapp-getslowappinfo">IShellApp::GetSlowAppInfo</a>, this method can return information that has been cached. This method is not applicable to published applications.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shappmgr/nf-shappmgr-ishellapp-getpossibleactions">GetPossibleActions</a>
+<a href="/windows/desktop/api/shappmgr/nf-shappmgr-ishellapp-getpossibleactions">GetPossibleActions</a>
 </td>
 <td align="left" width="63%">
 Gets a bitmask of management actions allowed for an application.
@@ -97,7 +97,7 @@ Gets a bitmask of management actions allowed for an application.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shappmgr/nf-shappmgr-ishellapp-getslowappinfo">GetSlowAppInfo</a>
+<a href="/windows/desktop/api/shappmgr/nf-shappmgr-ishellapp-getslowappinfo">GetSlowAppInfo</a>
 </td>
 <td align="left" width="63%">
 Returns information to the application that originates from a slow source. This method is not applicable to published applications.
@@ -106,7 +106,7 @@ Returns information to the application that originates from a slow source. This 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shappmgr/nf-shappmgr-ishellapp-isinstalled">IsInstalled</a>
+<a href="/windows/desktop/api/shappmgr/nf-shappmgr-ishellapp-isinstalled">IsInstalled</a>
 </td>
 <td align="left" width="63%">
 Gets a value indicating whether a specified application is currently installed.
@@ -118,5 +118,4 @@ Gets a value indicating whether a specified application is currently installed.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shappmgr/nn-shappmgr-ipublishedapp">IPublishedApp</a>
-
+<a href="/windows/desktop/api/shappmgr/nn-shappmgr-ipublishedapp">IPublishedApp</a>

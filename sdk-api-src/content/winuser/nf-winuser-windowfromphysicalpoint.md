@@ -62,7 +62,7 @@ Retrieves a handle to the window that contains the specified physical point.
 
 ### -param Point [in]
 
-Type: <b><a href="https://docs.microsoft.com/previous-versions/dd162805(v=vs.85)">POINT</a></b>
+Type: <b><a href="/previous-versions/dd162805(v=vs.85)">POINT</a></b>
 
 The physical coordinates of the point.
 
@@ -78,7 +78,7 @@ The <b>WindowFromPhysicalPoint</b> function does not retrieve a handle to a hidd
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-childwindowfrompoint">ChildWindowFromPoint</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-childwindowfrompoint">ChildWindowFromPoint</a>
 
 
 
@@ -90,7 +90,7 @@ The <b>WindowFromPhysicalPoint</b> function does not retrieve a handle to a hidd
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/dd162805(v=vs.85)">POINT</a>
+<a href="/previous-versions/dd162805(v=vs.85)">POINT</a>
 
 
 
@@ -98,13 +98,12 @@ The <b>WindowFromPhysicalPoint</b> function does not retrieve a handle to a hidd
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-windowfromdc">WindowFromDC</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-windowfromdc">WindowFromDC</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-windowfrompoint">WindowFromPoint</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-windowfrompoint">WindowFromPoint</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/winmsg/windows">Windows</a>
-
+<a href="/windows/desktop/winmsg/windows">Windows</a>

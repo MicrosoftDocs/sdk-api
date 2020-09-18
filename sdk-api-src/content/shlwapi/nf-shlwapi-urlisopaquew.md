@@ -86,5 +86,4 @@ A URL that has a scheme that is not followed by two slashes (//) is opaque. For 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-urlisa">UrlIs</a>
-
+<a href="/windows/desktop/api/shlwapi/nf-shlwapi-urlisa">UrlIs</a>

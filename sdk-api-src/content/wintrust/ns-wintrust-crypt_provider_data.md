@@ -56,7 +56,7 @@ api_name:
 
 <p class="CCE_Message">[The  <b>CRYPT_PROVIDER_DATA</b> structure is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions.]
 
-The <b>CRYPT_PROVIDER_DATA</b> structure is used to pass data between <a href="https://docs.microsoft.com/windows/desktop/api/wintrust/nf-wintrust-winverifytrust">WinVerifyTrust</a> and trust providers.
+The <b>CRYPT_PROVIDER_DATA</b> structure is used to pass data between <a href="/windows/desktop/api/wintrust/nf-wintrust-winverifytrust">WinVerifyTrust</a> and trust providers.
 
 ## -struct-fields
 
@@ -66,7 +66,7 @@ The size, in bytes, of this structure.
 
 ### -field pWintrustData
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wintrust/ns-wintrust-wintrust_data">WINTRUST_DATA</a> structure that contains the information to verify.
+A pointer to a <a href="/windows/desktop/api/wintrust/ns-wintrust-wintrust_data">WINTRUST_DATA</a> structure that contains the information to verify.
 
 ### -field fOpenedFile
 
@@ -82,7 +82,7 @@ A pointer to a <b>GUID</b> structure that identifies an action and the trust pro
 
 ### -field hProv
 
-A handle to the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">cryptographic service provider</a> (CSP). If this parameter is <b>NULL</b>, then the operating system will provide a default CSP.
+A handle to the <a href="/windows/desktop/SecGloss/c-gly">cryptographic service provider</a> (CSP). If this parameter is <b>NULL</b>, then the operating system will provide a default CSP.
 
 ### -field dwError
 
@@ -98,7 +98,7 @@ The registry policy settings.
 
 ### -field psPfns
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wintrust/ns-wintrust-crypt_provider_functions">CRYPT_PROVIDER_FUNCTIONS</a> structure.
+A pointer to a <a href="/windows/desktop/api/wintrust/ns-wintrust-crypt_provider_functions">CRYPT_PROVIDER_FUNCTIONS</a> structure.
 
 ### -field cdwTrustStepErrors
 
@@ -130,7 +130,7 @@ The number of elements in the <b>pasSigners</b> array.
 
 ### -field pasSigners
 
-A pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/wintrust/ns-wintrust-crypt_provider_sgnr">CRYPT_PROVIDER_SGNR</a> structures.
+A pointer to an array of <a href="/windows/desktop/api/wintrust/ns-wintrust-crypt_provider_sgnr">CRYPT_PROVIDER_SGNR</a> structures.
 
 ### -field csProvPrivData
 
@@ -138,7 +138,7 @@ The number of elements in the <b>pasProvPrivData</b> array.
 
 ### -field pasProvPrivData
 
-A pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/wintrust/ns-wintrust-crypt_provider_privdata">CRYPT_PROVIDER_PRIVDATA</a> structures.
+A pointer to an array of <a href="/windows/desktop/api/wintrust/ns-wintrust-crypt_provider_privdata">CRYPT_PROVIDER_PRIVDATA</a> structures.
 
 ### -field dwSubjectChoice
 
@@ -150,7 +150,7 @@ A pointer to a <b>_PROVDATA_SIP</b> structure.
 
 ### -field pszUsageOID
 
-A pointer to a null-terminated string that contains the usage <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly">object identifier</a> (OID).
+A pointer to a null-terminated string that contains the usage <a href="/windows/desktop/SecGloss/o-gly">object identifier</a> (OID).
 
 ### -field fRecallWithState
 
@@ -162,7 +162,7 @@ The system time.
 
 ### -field pszCTLSignerUsageOID
 
-A pointer to a null-terminated string that represents the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate trust list</a> (CTL) signer usage OID.
+A pointer to a null-terminated string that represents the <a href="/windows/desktop/SecGloss/c-gly">certificate trust list</a> (CTL) signer usage OID.
 
 ### -field dwProvFlags
 
@@ -238,7 +238,7 @@ A value for the final error.
 
 ### -field pRequestUsage
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_usage_match">CERT_USAGE_MATCH</a> structure.
+A pointer to a <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_usage_match">CERT_USAGE_MATCH</a> structure.
 
 ### -field dwTrustPubSettings
 
@@ -253,4 +253,3 @@ A <b>DWORD</b> value that specifies state data that is passed between a trust pr
 ### -field pSigState
 
 ### -field pSigSettings
-

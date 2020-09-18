@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>ENUM_CATYPES</b> enumeration specifies a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certification authority</a> (CA) type.
+The <b>ENUM_CATYPES</b> enumeration specifies a <a href="/windows/desktop/SecGloss/c-gly">certification authority</a> (CA) type.
 
 ## -enum-fields
 
@@ -73,4 +73,3 @@ A CA that does not use Directory Service to issue or manage certificates and is 
 ### -field ENUM_UNKNOWN_CA
 
 An unknown CA type.
-

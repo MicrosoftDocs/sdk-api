@@ -56,11 +56,10 @@ Creates a rectangle that has its upper-left corner set to (negative infinity, ne
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/Direct2D/d2d1-rect-f">D2D1_RECT_F</a></b>
+Type: <b><a href="/windows/desktop/Direct2D/d2d1-rect-f">D2D1_RECT_F</a></b>
 
 A rectangle that has its upper-left corner set to (negative infinity, negative infinity) and its lower-right corner set to (infinity, infinity).
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Direct2D/d2d1-rect-f">D2D1_RECT_F</a>
-
+<a href="/windows/desktop/Direct2D/d2d1-rect-f">D2D1_RECT_F</a>

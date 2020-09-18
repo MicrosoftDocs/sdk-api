@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-Specifies the throttling policies and how to apply them to a target thread when that thread is subject to power management. This structure is used by the [SetThreadInformation function](/windows/win32/api/processthreadsapi/nf-processthreadsapi-setthreadinformation).
+Specifies the throttling policies and how to apply them to a target thread when that thread is subject to power management. This structure is used by the [SetThreadInformation function](./nf-processthreadsapi-setthreadinformation.md).
 
 ## -struct-fields
 
@@ -79,4 +79,3 @@ Manages the power throttling mechanism on/off state.
 | Value | Meaning |
 | ---   | ---     |
 | THREAD_POWER_THROTTLING_EXECUTION_SPEED | Manages the execution speed of the thread. |
-

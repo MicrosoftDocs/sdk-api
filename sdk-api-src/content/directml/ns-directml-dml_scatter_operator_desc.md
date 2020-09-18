@@ -44,7 +44,7 @@ f1_keywords:
 
 Describes a DirectML operator that copies the whole input tensor to the output, then overwrites selected indices with corresponding values from the updates tensor.
 
-**DML_SCATTER_OPERATOR_DESC** is the inverse of [DML_GATHER_OPERATOR_DESC](/windows/win32/api/directml/ns-directml-dml_gather_operator_desc).
+**DML_SCATTER_OPERATOR_DESC** is the inverse of [DML_GATHER_OPERATOR_DESC](./ns-directml-dml_gather_operator_desc.md).
 
 If two output element indices overlap (which is invalid), then only the last write takes effect.
 
@@ -83,4 +83,3 @@ The axis dimension to add to *OutputTensor*.
 ## -remarks
 
 ## -see-also
-

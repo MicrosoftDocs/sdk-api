@@ -57,13 +57,13 @@ Sets a new color buffer for the device.
 
 ### -param RenderTargetIndex [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 Index of the render target. See Remarks.
 
 ### -param pRenderTarget [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3dsurface9">IDirect3DSurface9</a>*</b>
+Type: <b><a href="/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3dsurface9">IDirect3DSurface9</a>*</b>
 
 Pointer to a new color buffer. If <b>NULL</b>, the color buffer for the corresponding RenderTargetIndex is disabled. Devices always must be associated with a color buffer.
  The new render-target surface must have at least D3DUSAGE_RENDERTARGET specified.
@@ -83,9 +83,9 @@ If the method succeeds, the return value is D3D_OK.
 
 ## -remarks
 
-The device can support multiple render targets. The number of render targets supported by a device is contained in the NumSimultaneousRTs member of <a href="https://docs.microsoft.com/windows/desktop/api/d3d9caps/ns-d3d9caps-d3dcaps9">D3DCAPS9</a>. See <a href="https://docs.microsoft.com/windows/desktop/direct3d9/multiple-render-targets">Multiple Render Targets (Direct3D 9)</a>.
+The device can support multiple render targets. The number of render targets supported by a device is contained in the NumSimultaneousRTs member of <a href="/windows/desktop/api/d3d9caps/ns-d3d9caps-d3dcaps9">D3DCAPS9</a>. See <a href="/windows/desktop/direct3d9/multiple-render-targets">Multiple Render Targets (Direct3D 9)</a>.
 
-Setting a new render target will cause the viewport (see <a href="https://docs.microsoft.com/windows/desktop/direct3d9/viewports-and-clipping">Viewports and Clipping (Direct3D 9)</a>) to be set to the full size of the new render target.
+Setting a new render target will cause the viewport (see <a href="/windows/desktop/direct3d9/viewports-and-clipping">Viewports and Clipping (Direct3D 9)</a>) to be set to the full size of the new render target.
 
 Some hardware tests the compatibility of the depth stencil buffer with the color buffer. If this is done, it is only done in a debug build.
 
@@ -93,14 +93,13 @@ Restrictions for using this method include the following:
 
 <ul>
 <li>The multisample type must be the same for the render target and the depth stencil surface.</li>
-<li>The formats must be compatible for the render target and the depth stencil surface. See <a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3d9-checkdepthstencilmatch">IDirect3D9::CheckDepthStencilMatch</a>.</li>
+<li>The formats must be compatible for the render target and the depth stencil surface. See <a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3d9-checkdepthstencilmatch">IDirect3D9::CheckDepthStencilMatch</a>.</li>
 <li>The size of the depth stencil surface must be greater than or equal to the size of the render target.</li>
 </ul>
-These restrictions are validated only when using the debug runtime when any of the <a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3ddevice9">IDirect3DDevice9</a>Draw methods are called.
+These restrictions are validated only when using the debug runtime when any of the <a href="/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3ddevice9">IDirect3DDevice9</a>Draw methods are called.
 
-Cube textures differ from other surfaces in that they are collections of surfaces. To call <b>IDirect3DDevice9::SetRenderTarget</b> with a cube texture, you must select an individual face using <a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3dcubetexture9-getcubemapsurface">IDirect3DCubeTexture9::GetCubeMapSurface</a> and pass the resulting surface to <b>IDirect3DDevice9::SetRenderTarget</b>.
+Cube textures differ from other surfaces in that they are collections of surfaces. To call <b>IDirect3DDevice9::SetRenderTarget</b> with a cube texture, you must select an individual face using <a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3dcubetexture9-getcubemapsurface">IDirect3DCubeTexture9::GetCubeMapSurface</a> and pass the resulting surface to <b>IDirect3DDevice9::SetRenderTarget</b>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3ddevice9">IDirect3DDevice9</a>
-
+<a href="/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3ddevice9">IDirect3DDevice9</a>

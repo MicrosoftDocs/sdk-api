@@ -56,7 +56,7 @@ Opens an existing resource manager (RM).
 
 ### -param dwDesiredAccess [in]
 
-The access requested for the RM. See <a href="https://docs.microsoft.com/windows/desktop/Ktm/resource-manager-access-masks">Resource Manager Access Masks</a> for a list of valid values.
+The access requested for the RM. See <a href="/windows/desktop/Ktm/resource-manager-access-masks">Resource Manager Access Masks</a> for a list of valid values.
 
 ### -param TmHandle [in]
 
@@ -70,23 +70,22 @@ The identifier  for this resource manager.
 
 If the function succeeds, the return value is a handle to the resource manager.
 
-If the function fails, the return value is INVALID_HANDLE_VALUE. To get extended error information, call the <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function.
+If the function fails, the return value is INVALID_HANDLE_VALUE. To get extended error information, call the <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function.
 
 The following list identifies the  possible error codes:
 
 ## -remarks
 
-Immediately after calling this function, you must call <a href="https://docs.microsoft.com/windows/desktop/api/ktmw32/nf-ktmw32-recoverresourcemanager">RecoverResourceManager</a>.
+Immediately after calling this function, you must call <a href="/windows/desktop/api/ktmw32/nf-ktmw32-recoverresourcemanager">RecoverResourceManager</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ktmw32/nf-ktmw32-createresourcemanager">CreateResourceManager</a>
+<a href="/windows/desktop/api/ktmw32/nf-ktmw32-createresourcemanager">CreateResourceManager</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Ktm/kernel-transaction-manager-functions">Kernel Transaction Manager Functions</a>
+<a href="/windows/desktop/Ktm/kernel-transaction-manager-functions">Kernel Transaction Manager Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Ktm/resource-manager-access-masks">Resource Manager Access Masks</a>
-
+<a href="/windows/desktop/Ktm/resource-manager-access-masks">Resource Manager Access Masks</a>

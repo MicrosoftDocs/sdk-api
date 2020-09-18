@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Specifies chroma resolution. This enumeration is used with the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/avencvideoinputchromaresolution-property">AVEncVideoInputChromaResolution</a> and <a href="https://docs.microsoft.com/windows/desktop/DirectShow/avencvideooutputchromaresolution-property">AVEncVideoOutputChromaResolution</a> properties.
+Specifies chroma resolution. This enumeration is used with the <a href="/windows/desktop/DirectShow/avencvideoinputchromaresolution-property">AVEncVideoInputChromaResolution</a> and <a href="/windows/desktop/DirectShow/avencvideooutputchromaresolution-property">AVEncVideoOutputChromaResolution</a> properties.
 
 ## -enum-fields
 
@@ -76,9 +76,8 @@ Use the same chroma resolution as the input video. This flag applies to the <b>A
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/codec-api-enumerations">Codec API Enumerations</a>
+<a href="/windows/desktop/DirectShow/codec-api-enumerations">Codec API Enumerations</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-icodecapi">ICodecAPI Interface</a>
-
+<a href="/windows/desktop/api/strmif/nn-strmif-icodecapi">ICodecAPI Interface</a>

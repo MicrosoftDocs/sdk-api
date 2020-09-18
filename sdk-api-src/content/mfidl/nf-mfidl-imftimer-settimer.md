@@ -57,7 +57,7 @@ Sets a timer that invokes a callback at the specified time.
 
 ### -param dwFlags [in]
 
-Bitwise OR of zero or more flags from the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/ne-mfidl-mftimer_flags">MFTIMER_FLAGS</a> enumeration.
+Bitwise OR of zero or more flags from the <a href="/windows/desktop/api/mfidl/ne-mfidl-mftimer_flags">MFTIMER_FLAGS</a> enumeration.
 
 ### -param llClockTime [in]
 
@@ -65,7 +65,7 @@ The time at which the timer should fire, in units of the clock's frequency. The 
 
 ### -param pCallback [in]
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfasynccallback">IMFAsyncCallback</a> interface of a callback object. The caller must implement this interface. The callback's <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfasynccallback-invoke">Invoke</a> method is called at the time specified in the <i>llClockTime</i> parameter.
+Pointer to the <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfasynccallback">IMFAsyncCallback</a> interface of a callback object. The caller must implement this interface. The callback's <a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfasynccallback-invoke">Invoke</a> method is called at the time specified in the <i>llClockTime</i> parameter.
 
 ### -param punkState [in]
 
@@ -73,7 +73,7 @@ Pointer to the <b>IUnknown</b> interface of a state object, defined by the calle
 
 ### -param ppunkKey [out]
 
-Receives a pointer to the <b>IUnknown</b> interface of a cancellation object. The caller must release the interface. To cancel the timer, pass this pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imftimer-canceltimer">IMFTimer::CancelTimer</a> method. This parameter can be <b>NULL</b>.
+Receives a pointer to the <b>IUnknown</b> interface of a cancellation object. The caller must release the interface. To cancel the timer, pass this pointer to the <a href="/windows/desktop/api/mfidl/nf-mfidl-imftimer-canceltimer">IMFTimer::CancelTimer</a> method. This parameter can be <b>NULL</b>.
 
 ## -returns
 
@@ -125,5 +125,4 @@ If the clock is stopped, the method returns MF_S_CLOCK_STOPPED. The callback wil
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imftimer">IMFTimer</a>
-
+<a href="/windows/desktop/api/mfidl/nn-mfidl-imftimer">IMFTimer</a>

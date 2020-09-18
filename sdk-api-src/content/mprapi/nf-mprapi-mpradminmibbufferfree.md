@@ -54,13 +54,13 @@ The
 <b>MprAdminMIBBufferFree</b> function frees buffers returned by the following functions:
 <ul>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradminmibentryget">MprAdminMIBEntryGet</a>
+<a href="/windows/desktop/api/mprapi/nf-mprapi-mpradminmibentryget">MprAdminMIBEntryGet</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradminmibentrygetfirst">MprAdminMIBEntryGetFirst</a>
+<a href="/windows/desktop/api/mprapi/nf-mprapi-mpradminmibentrygetfirst">MprAdminMIBEntryGetFirst</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradminmibentrygetnext">MprAdminMIBEntryGetNext</a>
+<a href="/windows/desktop/api/mprapi/nf-mprapi-mpradminmibentrygetnext">MprAdminMIBEntryGetNext</a>
 </li>
 </ul>
 
@@ -100,21 +100,20 @@ The <i>pBuffer</i> parameter is <b>NULL</b>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradminmibentryget">MprAdminMIBEntryGet</a>
+<a href="/windows/desktop/api/mprapi/nf-mprapi-mpradminmibentryget">MprAdminMIBEntryGet</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradminmibentrygetfirst">MprAdminMIBEntryGetFirst</a>
+<a href="/windows/desktop/api/mprapi/nf-mprapi-mpradminmibentrygetfirst">MprAdminMIBEntryGetFirst</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradminmibentrygetnext">MprAdminMIBEntryGetNext</a>
+<a href="/windows/desktop/api/mprapi/nf-mprapi-mpradminmibentrygetnext">MprAdminMIBEntryGetNext</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/mib-functions">Router Management MIB Functions</a>
+<a href="/windows/desktop/RRAS/mib-functions">Router Management MIB Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/router-management-mib-reference">Router Management MIB Reference</a>
-
+<a href="/windows/desktop/RRAS/router-management-mib-reference">Router Management MIB Reference</a>

@@ -56,13 +56,13 @@ Indicates the geometry to be drawn to the command sink.
 
 ### -param geometry [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1geometry">ID2D1Geometry </a>*</b>
+Type: <b><a href="/windows/desktop/api/d2d1/nn-d2d1-id2d1geometry">ID2D1Geometry </a>*</b>
 
 The geometry to be stroked.
 
 ### -param brush [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1brush">ID2D1Brush</a>*</b>
+Type: <b><a href="/windows/desktop/api/d2d1/nn-d2d1-id2d1brush">ID2D1Brush</a>*</b>
 
 The brush that will be used to fill the stroked geometry.
 
@@ -74,7 +74,7 @@ The width of the stroke.
 
 ### -param strokeStyle [in, optional]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1strokestyle">ID2D1StrokeStyle</a>*</b>
+Type: <b><a href="/windows/desktop/api/d2d1/nn-d2d1-id2d1strokestyle">ID2D1StrokeStyle</a>*</b>
 
 The style of the stroke.
 
@@ -86,17 +86,16 @@ An HRESULT.
 
 ## -remarks
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1ellipsegeometry">Ellipses</a> and <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1roundedrectanglegeometry">rounded rectangles</a> are converted to the corresponding ellipse and rounded rectangle geometries before calling into the <b>DrawGeometry</b> method.
+<a href="/windows/desktop/api/d2d1/nn-d2d1-id2d1ellipsegeometry">Ellipses</a> and <a href="/windows/desktop/api/d2d1/nn-d2d1-id2d1roundedrectanglegeometry">rounded rectangles</a> are converted to the corresponding ellipse and rounded rectangle geometries before calling into the <b>DrawGeometry</b> method.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1commandlist-stream">ID2D1CommandList::Stream</a>
+<a href="/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1commandlist-stream">ID2D1CommandList::Stream</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1commandsink">ID2D1CommandSink</a>
+<a href="/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1commandsink">ID2D1CommandSink</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-drawgeometry">ID2D1RenderTarget::DrawGeometry</a>
-
+<a href="/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-drawgeometry">ID2D1RenderTarget::DrawGeometry</a>

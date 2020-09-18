@@ -52,13 +52,13 @@ api_name:
 
 ## -description
 
-Gets current <a href="https://docs.microsoft.com/previous-versions/windows/desktop/input_intcontext/interaction-context-portal">Interaction Context</a> state and the time when the context will return to idle state.
+Gets current <a href="/previous-versions/windows/desktop/input_intcontext/interaction-context-portal">Interaction Context</a> state and the time when the context will return to idle state.
 
 ## -parameters
 
 ### -param interactionContext [in]
 
-Pointer to a handle for the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/input_intcontext/interaction-context-portal">Interaction Context</a>.
+Pointer to a handle for the <a href="/previous-versions/windows/desktop/input_intcontext/interaction-context-portal">Interaction Context</a>.
 
 ### -param pointerInfo [in]
 
@@ -66,7 +66,7 @@ Basic pointer information common to all pointer types.
 
 ### -param state [out]
 
-One of the constants from <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/interactioncontext/ne-interactioncontext-interaction_state">INTERACTION_STATE</a>.
+One of the constants from <a href="/previous-versions/windows/desktop/api/interactioncontext/ne-interactioncontext-interaction_state">INTERACTION_STATE</a>.
 
 ## -returns
 
@@ -80,9 +80,8 @@ After interaction ends, the interaction context might still be busy reporting in
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/input_intcontext/hinteractioncontext">HINTERACTIONCONTEXT</a>
+<a href="/previous-versions/windows/desktop/input_intcontext/hinteractioncontext">HINTERACTIONCONTEXT</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/input_intcontext/functions">Interaction Context Functions</a>
-
+<a href="/previous-versions/windows/desktop/input_intcontext/functions">Interaction Context Functions</a>

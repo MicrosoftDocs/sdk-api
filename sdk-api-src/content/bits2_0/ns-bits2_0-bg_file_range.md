@@ -70,9 +70,8 @@ The range must exist in the file or BITS generates an <b>BG_E_INVALID_RANGE</b> 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits2_0/nf-bits2_0-ibackgroundcopyfile2-getfileranges">IBackgroundCopyFile2::GetFileRanges</a>
+<a href="/windows/desktop/api/bits2_0/nf-bits2_0-ibackgroundcopyfile2-getfileranges">IBackgroundCopyFile2::GetFileRanges</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits2_0/nf-bits2_0-ibackgroundcopyjob3-addfilewithranges">IBackgroundCopyJob3::AddFileWithRanges</a>
-
+<a href="/windows/desktop/api/bits2_0/nf-bits2_0-ibackgroundcopyjob3-addfilewithranges">IBackgroundCopyJob3::AddFileWithRanges</a>

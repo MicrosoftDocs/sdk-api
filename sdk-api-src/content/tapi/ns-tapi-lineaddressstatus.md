@@ -56,8 +56,8 @@ api_name:
 
 The 
 <b>LINEADDRESSSTATUS</b> structure describes the current status of an address. The 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linegetaddressstatus">lineGetAddressStatus</a> function and the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_linegetaddressstatus">TSPI_lineGetAddressStatus</a> function return the 
+<a href="/windows/desktop/api/tapi/nf-tapi-linegetaddressstatus">lineGetAddressStatus</a> function and the 
+<a href="/windows/desktop/api/tspi/nf-tspi-tspi_linegetaddressstatus">TSPI_lineGetAddressStatus</a> function return the 
 <b>LINEADDRESSSTATUS</b> structure.
 
 ## -struct-fields
@@ -93,7 +93,7 @@ Number of calls on the address in the <i>onholdpendingtransfer</i> or <i>onholdp
 ### -field dwAddressFeatures
 
 Address-related functions that can be invoked on the address in its current state. This member uses one or more of the 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/lineaddrfeature--constants">LINEADDRFEATURE_ constants</a>.
+<a href="/windows/desktop/Tapi/lineaddrfeature--constants">LINEADDRFEATURE_ constants</a>.
 
 ### -field dwNumRingsNoAnswer
 
@@ -110,7 +110,7 @@ Size of the forwarding information array, in bytes.
 ### -field dwForwardOffset
 
 Offset from the beginning of the structure to the variably sized field that describes the address's forwarding information. This information is an array of <b>dwForwardNumEntries</b> elements, of type 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineforward">LINEFORWARD</a>. The offsets of the addresses in the array are relative to the beginning of the 
+<a href="/windows/desktop/api/tapi/ns-tapi-lineforward">LINEFORWARD</a>. The offsets of the addresses in the array are relative to the beginning of the 
 <b>LINEADDRESSSTATUS</b> structure. The offsets <b>dwCallerAddressOffset</b> and <b>dwDestAddressOffset</b> in the variably sized field of type 
 <b>LINEFORWARD</b> pointed to by <i>dwForwardOffset</i> are relative to the beginning of the 
 <b>LINEADDRESSSTATUS</b> data structure (the "root" container). The size of the array is specified by <b>dwForwardSize</b>.
@@ -122,8 +122,8 @@ Size of the terminal modes array, in bytes.
 ### -field dwTerminalModesOffset
 
 Offset from the beginning of the structure to the variably sized device field containing an array with <b>DWORD</b>-sized entries, that use one or more of the 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/linetermmode--constants">LINETERMMODE_ constants</a>. This array is indexed by terminal identifiers, in the range from zero to one less than <b>dwNumTerminals</b>. Each entry in the array specifies the current terminal modes for the corresponding terminal set with the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linesetterminal">lineSetTerminal</a> function for this address. The size of the array is specified by <b>dwTerminalModesSize</b>.
+<a href="/windows/desktop/Tapi/linetermmode--constants">LINETERMMODE_ constants</a>. This array is indexed by terminal identifiers, in the range from zero to one less than <b>dwNumTerminals</b>. Each entry in the array specifies the current terminal modes for the corresponding terminal set with the 
+<a href="/windows/desktop/api/tapi/nf-tapi-linesetterminal">lineSetTerminal</a> function for this address. The size of the array is specified by <b>dwTerminalModesSize</b>.
 
 ### -field dwDevSpecificSize
 
@@ -138,27 +138,26 @@ Offset from the beginning of this structure to the variably sized device-specifi
 Device-specific extensions should use the DevSpecific (<b>dwDevSpecificSize</b> and <b>dwDevSpecificOffset</b>) variably sized area of this data structure.
 
 This data structure is returned by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linegetaddressstatus">lineGetAddressStatus</a> function. When items in this data structure change as a consequence of activities on the address, a 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/line-addressstate">LINE_ADDRESSSTATE</a> message is sent to the application. A parameter to this message is the address state, one of the 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/lineaddressstate--constants">LINEADDRESSSTATE_ constants</a>, which indicates that the status item in this record changed.
+<a href="/windows/desktop/api/tapi/nf-tapi-linegetaddressstatus">lineGetAddressStatus</a> function. When items in this data structure change as a consequence of activities on the address, a 
+<a href="/windows/desktop/Tapi/line-addressstate">LINE_ADDRESSSTATE</a> message is sent to the application. A parameter to this message is the address state, one of the 
+<a href="/windows/desktop/Tapi/lineaddressstate--constants">LINEADDRESSSTATE_ constants</a>, which indicates that the status item in this record changed.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineforward">LINEFORWARD</a>
+<a href="/windows/desktop/api/tapi/ns-tapi-lineforward">LINEFORWARD</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/line-addressstate">LINE_ADDRESSSTATE</a>
+<a href="/windows/desktop/Tapi/line-addressstate">LINE_ADDRESSSTATE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_linegetaddressstatus">TSPI_lineGetAddressStatus</a>
+<a href="/windows/desktop/api/tspi/nf-tspi-tspi_linegetaddressstatus">TSPI_lineGetAddressStatus</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linegetaddressstatus">lineGetAddressStatus</a>
+<a href="/windows/desktop/api/tapi/nf-tapi-linegetaddressstatus">lineGetAddressStatus</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linesetterminal">lineSetTerminal</a>
-
+<a href="/windows/desktop/api/tapi/nf-tapi-linesetterminal">lineSetTerminal</a>

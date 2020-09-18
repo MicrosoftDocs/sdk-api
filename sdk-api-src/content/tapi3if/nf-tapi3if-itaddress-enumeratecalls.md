@@ -52,14 +52,14 @@ api_name:
 
 The 
 <b>EnumerateCalls</b> method enumerates calls on the current address. This method is provided for C and C++ applications. Automation client applications, such as those written in Visual Basic, must use the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itaddress-get_calls">get_Calls</a> method.
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itaddress-get_calls">get_Calls</a> method.
 
 ## -parameters
 
 ### -param ppCallEnum [out]
 
 Pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-ienumcall">IEnumCall</a> interface.
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-ienumcall">IEnumCall</a> interface.
 
 ## -returns
 
@@ -108,22 +108,21 @@ Insufficient memory exists to perform the operation.
 ## -remarks
 
 TAPI calls the <b>AddRef</b> method on the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-ienumcall">IEnumCall</a> interface returned by <b>ITAddress::EnumerateCalls</b>. The application must call <b>Release</b> on the 
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-ienumcall">IEnumCall</a> interface returned by <b>ITAddress::EnumerateCalls</b>. The application must call <b>Release</b> on the 
 <b>IEnumCall</b> interface to free resources associated with it.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/address-object">Address Object</a>
+<a href="/windows/desktop/Tapi/address-object">Address Object</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-ienumcall">IEnumCall</a>
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-ienumcall">IEnumCall</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itaddress">ITAddress</a>
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itaddress">ITAddress</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itaddress-get_calls">ITAddress::get_Calls</a>
-
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itaddress-get_calls">ITAddress::get_Calls</a>

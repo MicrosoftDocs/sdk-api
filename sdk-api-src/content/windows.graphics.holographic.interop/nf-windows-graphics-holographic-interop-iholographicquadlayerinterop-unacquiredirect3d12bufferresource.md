@@ -50,7 +50,7 @@ A resource that has been acquired, but not submitted, can be un-acquired to retu
 
 ### -param pResourceToUnacquire
 
-Type: **[ID3D12Resource](/windows/win32/api/d3d12/nn-d3d12-id3d12resource)\***
+Type: **[ID3D12Resource](../d3d12/nn-d3d12-id3d12resource.md)\***
 
 The Direct3D 12 resource to relinquish control of.
 
@@ -59,4 +59,3 @@ The Direct3D 12 resource to relinquish control of.
 **S_OK** if successful, otherwise returns an [HRESULT](/windows/win32/com/structure-of-com-error-codes) error code indicating the reason for failure. Also see [COM Error Codes (UI, Audio, DirectX, Codec)](/windows/win32/com/com-error-codes-10).
 
 ## -see-also
-

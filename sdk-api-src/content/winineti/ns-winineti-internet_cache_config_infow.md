@@ -108,7 +108,7 @@ The number of kilobytes for this container exempt from scavenging.
 
 ## -remarks
 
-<div class="alert"><b>Note</b>  WinINet does not support server implementations. In addition, it should not be used from a service.  For server implementations or services use <a href="https://docs.microsoft.com/windows/desktop/WinHttp/winhttp-start-page">Microsoft Windows HTTP Services (WinHTTP)</a>.</div>
+<div class="alert"><b>Note</b>  WinINet does not support server implementations. In addition, it should not be used from a service.  For server implementations or services use <a href="/windows/desktop/WinHttp/winhttp-start-page">Microsoft Windows HTTP Services (WinHTTP)</a>.</div>
 <div> </div>
 
 
@@ -119,5 +119,4 @@ The number of kilobytes for this container exempt from scavenging.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winineti/nf-winineti-geturlcacheconfiginfoa">GetUrlCacheConfigInfo</a>
-
+<a href="/windows/desktop/api/winineti/nf-winineti-geturlcacheconfiginfoa">GetUrlCacheConfigInfo</a>

@@ -54,7 +54,7 @@ The <b>IAssemblyCacheItem</b> interface can be used to install side-by-side asse
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAssemblyCacheItem</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAssemblyCacheItem</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAssemblyCacheItem</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAssemblyCacheItem</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IAssemblyCacheItem</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/winsxs/nf-winsxs-iassemblycacheitem-commit">Commit</a>
+<a href="/windows/desktop/api/winsxs/nf-winsxs-iassemblycacheitem-commit">Commit</a>
 </td>
 <td align="left" width="63%">
 Copies information into the side-by-side store.
@@ -78,7 +78,7 @@ Copies information into the side-by-side store.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/winsxs/nf-winsxs-iassemblycacheitem-createstream">CreateStream</a>
+<a href="/windows/desktop/api/winsxs/nf-winsxs-iassemblycacheitem-createstream">CreateStream</a>
 </td>
 <td align="left" width="63%">
 Copies the source of a manifest or module into a stream.
@@ -86,4 +86,3 @@ Copies the source of a manifest or module into a stream.
 </td>
 </tr>
 </table>
-

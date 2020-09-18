@@ -72,5 +72,4 @@ This is an inline function, with the source code included in the header file. It
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/jj152005(v=vs.85)">GetContractDelegateWindow</a>
-
+<a href="/previous-versions/windows/desktop/legacy/jj152005(v=vs.85)">GetContractDelegateWindow</a>

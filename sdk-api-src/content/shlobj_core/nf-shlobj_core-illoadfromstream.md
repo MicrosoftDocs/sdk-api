@@ -53,21 +53,21 @@ api_name:
 
 <p class="CCE_Message">[This function is available through Windows XP Service Pack 2 (SP2) and Windows Server 2003. It might be altered or unavailable in subsequent versions of Windows.]
 
-Deprecated. Loads an <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> structure from a stream.
+Deprecated. Loads an <a href="/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> structure from a stream.
 
 ## -parameters
 
 ### -param pstm [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a>*</b>
+Type: <b><a href="/windows/desktop/api/objidl/nn-objidl-istream">IStream</a>*</b>
 
-A pointer that indicates the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a> interface that the <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> loads from.
+A pointer that indicates the <a href="/windows/desktop/api/objidl/nn-objidl-istream">IStream</a> interface that the <a href="/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> loads from.
 
 ### -param pidl [out]
 
 Type: <b>PIDLIST_RELATIVE*</b>
 
-Address of a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> structure. <b>ILLoadFromStream</b> allocates the necessary memory for the structure, and assigns the address to this parameter.
+Address of a pointer to an <a href="/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> structure. <b>ILLoadFromStream</b> allocates the necessary memory for the structure, and assigns the address to this parameter.
 
 ## -returns
 
@@ -77,9 +77,8 @@ Returns S_OK if successful, or a COM error-code otherwise.
 
 ## -remarks
 
-When you are finished with the <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> structure, you must free it by calling <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-ilfree">ILFree</a>.
+When you are finished with the <a href="/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> structure, you must free it by calling <a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-ilfree">ILFree</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-ilsavetostream">ILSaveToStream</a>
-
+<a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-ilsavetostream">ILSaveToStream</a>

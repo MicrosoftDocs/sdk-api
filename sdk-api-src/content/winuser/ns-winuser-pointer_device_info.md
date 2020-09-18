@@ -52,15 +52,15 @@ api_name:
 
 ## -description
 
-Contains information about a pointer device. An array of these structures is returned  from the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getpointerdevices">GetPointerDevices</a> function. A single structure is returned from a call to the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getpointerdevice">GetPointerDevice</a> function.
+Contains information about a pointer device. An array of these structures is returned  from the <a href="/windows/desktop/api/winuser/nf-winuser-getpointerdevices">GetPointerDevices</a> function. A single structure is returned from a call to the <a href="/windows/desktop/api/winuser/nf-winuser-getpointerdevice">GetPointerDevice</a> function.
 
 ## -struct-fields
 
 ### -field displayOrientation
 
- One of the values from <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ne-wingdi-displayconfig_rotation">DISPLAYCONFIG_ROTATION</a>, which identifies the orientation of the input digitizer.
+ One of the values from <a href="/windows/desktop/api/wingdi/ne-wingdi-displayconfig_rotation">DISPLAYCONFIG_ROTATION</a>, which identifies the orientation of the input digitizer.
 
-<div class="alert"><b>Note</b>  This value is 0 when the source of input is <a href="https://docs.microsoft.com/previous-versions/windows/desktop/input_touchinjection/touch-injection-portal">Touch Injection</a>.</div>
+<div class="alert"><b>Note</b>  This value is 0 when the source of input is <a href="/previous-versions/windows/desktop/input_touchinjection/touch-injection-portal">Touch Injection</a>.</div>
 <div> </div>
 
 ### -field device
@@ -89,5 +89,4 @@ The string that identifies the product.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/input_pointerdevice/structures">Structures</a>
-
+<a href="/previous-versions/windows/desktop/input_pointerdevice/structures">Structures</a>

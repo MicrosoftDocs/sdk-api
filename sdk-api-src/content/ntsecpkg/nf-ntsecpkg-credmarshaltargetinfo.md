@@ -56,7 +56,7 @@ Serializes the specified target into an array of byte values.
 
 ### -param InTargetInfo [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/u-gly">Unicode</a> version of the <a href="https://docs.microsoft.com/windows/desktop/api/wincred/ns-wincred-credential_target_informationa">CREDENTIAL_TARGET_INFORMATION</a> structure that specifies the target to serialize.
+A pointer to a <a href="/windows/desktop/SecGloss/u-gly">Unicode</a> version of the <a href="/windows/desktop/api/wincred/ns-wincred-credential_target_informationa">CREDENTIAL_TARGET_INFORMATION</a> structure that specifies the target to serialize.
 
 ### -param Buffer [out]
 
@@ -71,4 +71,3 @@ The size, in bytes, of the <i>Buffer</i> array.
 If the function succeeds, it returns <b>STATUS_SUCCESS</b>.
 
 If the function fails, it returns an error code that indicates the reason it failed.
-

@@ -52,18 +52,18 @@ api_name:
 ## -description
 
 Describes the operational condition of a resource. These values are used by the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-getclusterresourcestate">GetClusterResourceState</a> function, the 
+    <a href="/windows/desktop/api/clusapi/nf-clusapi-getclusterresourcestate">GetClusterResourceState</a> function, the 
     <b>State</b> property of the 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/cluswmi/mscluster-resource">MSCluster_Resource</a> class, and the 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusresource-state">State</a> property of the 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusresource-object">ClusResource</a> object.
+    <a href="/previous-versions/windows/desktop/cluswmi/mscluster-resource">MSCluster_Resource</a> class, and the 
+    <a href="/previous-versions/windows/desktop/mscs/clusresource-state">State</a> property of the 
+    <a href="/previous-versions/windows/desktop/mscs/clusresource-object">ClusResource</a> object.
 
 ## -enum-fields
 
 ### -field ClusterResourceStateUnknown
 
 The operation was not successful. For more information about the error, call the function 
-       <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+       <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ### -field ClusterResourceInherited
 
@@ -83,12 +83,12 @@ The resource is not operational.
 
 ### -field ClusterResourceFailed
 
-The resource has <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/f-gly">failed</a>.
+The resource has <a href="/previous-versions/windows/desktop/mscs/f-gly">failed</a>.
 
 ### -field ClusterResourcePending
 
 The resource is in the process of coming online or going 
-       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/o-gly">offline</a>.
+       <a href="/previous-versions/windows/desktop/mscs/o-gly">offline</a>.
 
 ### -field ClusterResourceOnlinePending
 
@@ -100,25 +100,24 @@ The resource is in the process of going offline.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clusapi/ns-clusapi-clus_maintenance_mode_infoex">CLUS_MAINTENANCE_MODE_INFOEX</a>
+<a href="/windows/desktop/api/clusapi/ns-clusapi-clus_maintenance_mode_infoex">CLUS_MAINTENANCE_MODE_INFOEX</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clusapi/ns-clusapi-clus_provider_state_change_info">CLUS_PROVIDER_STATE_CHANGE_INFO</a>
+<a href="/windows/desktop/api/clusapi/ns-clusapi-clus_provider_state_change_info">CLUS_PROVIDER_STATE_CHANGE_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-enumerations">Failover Cluster Enumerations</a>
+<a href="/previous-versions/windows/desktop/mscs/cluster-enumerations">Failover Cluster Enumerations</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-getclusterresourcestate">GetClusterResourceState</a>
+<a href="/windows/desktop/api/clusapi/nf-clusapi-getclusterresourcestate">GetClusterResourceState</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/cluswmi/mscluster-resource">MSCluster_Resource</a>
+<a href="/previous-versions/windows/desktop/cluswmi/mscluster-resource">MSCluster_Resource</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusresource-state">State Property of the ClusResource Object</a>
-
+<a href="/previous-versions/windows/desktop/mscs/clusresource-state">State Property of the ClusResource Object</a>

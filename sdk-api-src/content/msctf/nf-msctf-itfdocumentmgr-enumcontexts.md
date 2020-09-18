@@ -56,7 +56,7 @@ Obtains a context enumerator.
 
 ### -param ppEnum [out]
 
-Address of an <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-ienumtfcontexts">IEnumTfContexts</a> pointer that receives the enumerator.
+Address of an <a href="/windows/desktop/api/msctf/nn-msctf-ienumtfcontexts">IEnumTfContexts</a> pointer that receives the enumerator.
 
 ## -returns
 
@@ -104,10 +104,9 @@ The enumerator cannot be initialized.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-ienumtfcontexts">IEnumTfContexts
+<a href="/windows/desktop/api/msctf/nn-msctf-ienumtfcontexts">IEnumTfContexts
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfdocumentmgr">ITfDocumentMgr</a>
-
+<a href="/windows/desktop/api/msctf/nn-msctf-itfdocumentmgr">ITfDocumentMgr</a>

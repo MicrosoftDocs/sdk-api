@@ -76,5 +76,4 @@ This method can return the following values:
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-icreatewithtransactionex">ICreateWithTransactionEx</a>
-
+<a href="/windows/desktop/api/comsvcs/nn-comsvcs-icreatewithtransactionex">ICreateWithTransactionEx</a>

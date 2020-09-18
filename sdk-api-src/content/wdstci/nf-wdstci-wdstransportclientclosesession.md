@@ -56,7 +56,7 @@ Releases the resources associated with a session in the client.
 
 ### -param hSessionKey [in]
 
-Unique handle returned by the call to <a href="https://docs.microsoft.com/windows/desktop/api/wdstci/nf-wdstci-wdstransportclientinitializesession">WdsTransportClientInitializeSession</a>. After this handle has been used with the <b>WdsTransportClientCloseSession</b>, it cannot be used again with the <a href="https://docs.microsoft.com/windows/desktop/api/wdstci/nf-wdstci-wdstransportclientcancelsession">WdsTransportClientCancelSession</a> function.
+Unique handle returned by the call to <a href="/windows/desktop/api/wdstci/nf-wdstci-wdstransportclientinitializesession">WdsTransportClientInitializeSession</a>. After this handle has been used with the <b>WdsTransportClientCloseSession</b>, it cannot be used again with the <a href="/windows/desktop/api/wdstci/nf-wdstci-wdstransportclientcancelsession">WdsTransportClientCancelSession</a> function.
 
 ## -returns
 
@@ -65,4 +65,3 @@ If the function succeeds, the return value is <b>ERROR_SUCCESS</b>.
 ## -remarks
 
 This function does not cancel the session and callbacks  can be received until session completes.
-

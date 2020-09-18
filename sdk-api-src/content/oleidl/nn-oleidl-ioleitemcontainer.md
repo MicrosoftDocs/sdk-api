@@ -76,7 +76,7 @@ The <b>IOleItemContainer</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleitemcontainer-getobject">GetObject</a>
+<a href="/windows/desktop/api/oleidl/nf-oleidl-ioleitemcontainer-getobject">GetObject</a>
 </td>
 <td align="left" width="63%">
 Retrieves a pointer to the specified object.
@@ -85,7 +85,7 @@ Retrieves a pointer to the specified object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleitemcontainer-getobjectstorage">GetObjectStorage</a>
+<a href="/windows/desktop/api/oleidl/nf-oleidl-ioleitemcontainer-getobjectstorage">GetObjectStorage</a>
 </td>
 <td align="left" width="63%">
 Retrieves a pointer to the storage for the specified object.
@@ -94,7 +94,7 @@ Retrieves a pointer to the storage for the specified object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleitemcontainer-isrunning">IsRunning</a>
+<a href="/windows/desktop/api/oleidl/nf-oleidl-ioleitemcontainer-isrunning">IsRunning</a>
 </td>
 <td align="left" width="63%">
 Determines whether the specified object is running.
@@ -105,9 +105,8 @@ Determines whether the specified object is running.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objbase/nf-objbase-createitemmoniker">CreateItemMoniker</a>
+<a href="/windows/desktop/api/objbase/nf-objbase-createitemmoniker">CreateItemMoniker</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imoniker">IMoniker</a>
-
+<a href="/windows/desktop/api/objidl/nn-objidl-imoniker">IMoniker</a>

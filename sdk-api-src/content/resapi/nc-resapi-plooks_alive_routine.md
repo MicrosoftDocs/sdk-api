@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Determines whether a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resources">resource</a> appears to be available 
+Determines whether a <a href="/previous-versions/windows/desktop/mscs/resources">resource</a> appears to be available 
     for use. The <b>PLOOKS_ALIVE_ROUTINE</b> type defines a pointer to this 
     function.
 
@@ -97,16 +97,15 @@ The resource may not be functioning properly.
 
 For effective implementation strategies of the 
      <i>LooksAlive</i> entry-point function, see 
-     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/implementing-looksalive">Implementing LooksAlive</a>.
+     <a href="/previous-versions/windows/desktop/mscs/implementing-looksalive">Implementing LooksAlive</a>.
 
 
 #### Examples
 
-See <a href="https://docs.microsoft.com/previous-versions/aa372246(v=vs.85)">Resource DLL Examples</a>.
+See <a href="/previous-versions/aa372246(v=vs.85)">Resource DLL Examples</a>.
 
 <div class="code"></div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resource-dll-entry-point-functions">Resource DLL Entry-Point Functions</a>
-
+<a href="/previous-versions/windows/desktop/mscs/resource-dll-entry-point-functions">Resource DLL Entry-Point Functions</a>

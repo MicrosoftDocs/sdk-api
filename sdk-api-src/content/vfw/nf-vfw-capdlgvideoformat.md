@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>capDlgVideoFormat</b> macro displays a dialog box in which the user can select the video format. The Video Format dialog box might be used to select image dimensions, bit depth, and hardware compression options. You can use this macro or explicitly send the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/wm-cap-dlg-videoformat">WM_CAP_DLG_VIDEOFORMAT</a> message.
+The <b>capDlgVideoFormat</b> macro displays a dialog box in which the user can select the video format. The Video Format dialog box might be used to select image dimensions, bit depth, and hardware compression options. You can use this macro or explicitly send the <a href="/windows/desktop/Multimedia/wm-cap-dlg-videoformat">WM_CAP_DLG_VIDEOFORMAT</a> message.
 
 ## -parameters
 
@@ -60,15 +60,14 @@ Handle to a capture window.
 
 ## -remarks
 
-After this message returns, applications might need to update the <a href="https://docs.microsoft.com/windows/desktop/api/vfw/ns-vfw-capstatus">CAPSTATUS</a> structure because the user might have changed the image dimensions.
+After this message returns, applications might need to update the <a href="/windows/desktop/api/vfw/ns-vfw-capstatus">CAPSTATUS</a> structure because the user might have changed the image dimensions.
 
-The Video Format dialog box is unique for each capture driver. Some capture drivers might not support a Video Format dialog box. Applications can determine if the capture driver supports this message by checking the <b>fHasDlgVideoFormat</b> member of <a href="https://docs.microsoft.com/windows/desktop/api/vfw/ns-vfw-capdrivercaps">CAPDRIVERCAPS</a>.
+The Video Format dialog box is unique for each capture driver. Some capture drivers might not support a Video Format dialog box. Applications can determine if the capture driver supports this message by checking the <b>fHasDlgVideoFormat</b> member of <a href="/windows/desktop/api/vfw/ns-vfw-capdrivercaps">CAPDRIVERCAPS</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-capture">Video Capture</a>
+<a href="/windows/desktop/Multimedia/video-capture">Video Capture</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-capture-macros">Video Capture Macros</a>
-
+<a href="/windows/desktop/Multimedia/video-capture-macros">Video Capture Macros</a>

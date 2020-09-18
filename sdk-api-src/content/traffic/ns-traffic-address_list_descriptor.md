@@ -70,5 +70,4 @@ Pointer to the address list for the interface. The <b>NETWORK_ADDRESS_LIST</b> s
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/qos/ns-qos-flowspec">FLOWSPEC</a>
-
+<a href="/windows/desktop/api/qos/ns-qos-flowspec">FLOWSPEC</a>

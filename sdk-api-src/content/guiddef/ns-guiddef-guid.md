@@ -71,5 +71,4 @@ GUIDs are the Microsoft implementation of the distributed computing environment 
 **ACE**  
 **ACL**  
 [UUID](/windows/win32/rpc/rpcdce/ns-rpcdce-uuid)  
-[UUID\_VECTOR](/windows/win32/api/rpcdce/ns-rpcdce-uuid_vector)
-
+[UUID\_VECTOR](../rpcdce/ns-rpcdce-uuid_vector.md)

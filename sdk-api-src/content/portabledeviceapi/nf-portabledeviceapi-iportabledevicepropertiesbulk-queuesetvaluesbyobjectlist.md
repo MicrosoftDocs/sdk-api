@@ -57,11 +57,11 @@ The <b>QueueSetValuesByObjectList</b> method queues a request to set one or more
 
 ### -param pObjectValues [in]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/wpd_sdk/iportabledevicevaluescollection">IPortableDeviceValuesCollection</a> interface that contains the properties and values to set on specified objects. This interface holds one or more <a href="https://docs.microsoft.com/windows/desktop/wpd_sdk/iportabledevicevalues">IPortableDeviceValues</a> interfaces, each representing a single object. Each <b>IPortableDeviceValues</b> interface holds a collection of key/value pairs, where the key is the <b>PROPERTYKEY</b> identifying the property, and the value is a data type that varies by property. Each <b>IPortableDeviceValues</b> interface also holds one WPD_OBJECT_ID property that identifies the object to which this interface refers.
+Pointer to an <a href="/windows/desktop/wpd_sdk/iportabledevicevaluescollection">IPortableDeviceValuesCollection</a> interface that contains the properties and values to set on specified objects. This interface holds one or more <a href="/windows/desktop/wpd_sdk/iportabledevicevalues">IPortableDeviceValues</a> interfaces, each representing a single object. Each <b>IPortableDeviceValues</b> interface holds a collection of key/value pairs, where the key is the <b>PROPERTYKEY</b> identifying the property, and the value is a data type that varies by property. Each <b>IPortableDeviceValues</b> interface also holds one WPD_OBJECT_ID property that identifies the object to which this interface refers.
 
 ### -param pCallback [in]
 
-Pointer to an application-implemented <a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nn-portabledeviceapi-iportabledevicepropertiesbulkcallback">IPortableDevicePropertiesBulkCallback</a> interface that will receive the information as it is retrieved.
+Pointer to an application-implemented <a href="/windows/desktop/api/portabledeviceapi/nn-portabledeviceapi-iportabledevicepropertiesbulkcallback">IPortableDevicePropertiesBulkCallback</a> interface that will receive the information as it is retrieved.
 
 ### -param pContext [out]
 
@@ -91,13 +91,12 @@ The operation was queued successfully.
 
 ## -remarks
 
-The queued request is not started until the application calls <a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledevicepropertiesbulk-start">Start</a>. For more information on how to use this method, see <a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nn-portabledeviceapi-iportabledevicepropertiesbulk">IPortableDevicePropertiesBulk Interface</a>.
+The queued request is not started until the application calls <a href="/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledevicepropertiesbulk-start">Start</a>. For more information on how to use this method, see <a href="/windows/desktop/api/portabledeviceapi/nn-portabledeviceapi-iportabledevicepropertiesbulk">IPortableDevicePropertiesBulk Interface</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nn-portabledeviceapi-iportabledevicepropertiesbulk">IPortableDevicePropertiesBulk Interface</a>
+<a href="/windows/desktop/api/portabledeviceapi/nn-portabledeviceapi-iportabledevicepropertiesbulk">IPortableDevicePropertiesBulk Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledevicepropertiesbulk-queuegetvaluesbyobjectlist">IPortableDevicePropertiesBulk::QueueGetValuesByObjectList</a>
-
+<a href="/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledevicepropertiesbulk-queuegetvaluesbyobjectlist">IPortableDevicePropertiesBulk::QueueGetValuesByObjectList</a>

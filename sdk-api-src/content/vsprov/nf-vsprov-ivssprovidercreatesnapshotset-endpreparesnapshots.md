@@ -52,12 +52,12 @@ api_name:
 
 The <b>EndPrepareSnapshots</b> 
    method is called once for the complete shadow copy set, after the last 
-   <a href="https://docs.microsoft.com/windows/desktop/api/vsprov/nf-vsprov-ivsshardwaresnapshotprovider-beginpreparesnapshot">IVssHardwareSnapshotProvider::BeginPrepareSnapshot</a> 
+   <a href="/windows/desktop/api/vsprov/nf-vsprov-ivsshardwaresnapshotprovider-beginpreparesnapshot">IVssHardwareSnapshotProvider::BeginPrepareSnapshot</a> 
    call. This method is intended as a point where the provider can wait for any shadow copy preparation 
    work to complete. Because 
    <b>EndPrepareSnapshots</b> may 
    take a long time to complete, a provider should be prepared to accept an 
-   <a href="https://docs.microsoft.com/windows/desktop/api/vsprov/nf-vsprov-ivssprovidercreatesnapshotset-abortsnapshots">AbortSnapshots</a> method call 
+   <a href="/windows/desktop/api/vsprov/nf-vsprov-ivssprovidercreatesnapshotset-abortsnapshots">AbortSnapshots</a> method call 
    at any time and immediately end the preparation work.
 
 ## -parameters
@@ -156,13 +156,12 @@ If any other value is returned, VSS will write an event to the event log and con
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vsprov/nf-vsprov-ivssprovidercreatesnapshotset-abortsnapshots">AbortSnapshots</a>
+<a href="/windows/desktop/api/vsprov/nf-vsprov-ivssprovidercreatesnapshotset-abortsnapshots">AbortSnapshots</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vsprov/nf-vsprov-ivsshardwaresnapshotprovider-beginpreparesnapshot">IVssHardwareSnapshotProvider::BeginPrepareSnapshot</a>
+<a href="/windows/desktop/api/vsprov/nf-vsprov-ivsshardwaresnapshotprovider-beginpreparesnapshot">IVssHardwareSnapshotProvider::BeginPrepareSnapshot</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vsprov/nn-vsprov-ivssprovidercreatesnapshotset">IVssProviderCreateSnapshotSet</a>
-
+<a href="/windows/desktop/api/vsprov/nn-vsprov-ivssprovidercreatesnapshotset">IVssProviderCreateSnapshotSet</a>

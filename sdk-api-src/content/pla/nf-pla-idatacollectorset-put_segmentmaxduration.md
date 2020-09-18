@@ -60,23 +60,22 @@ This property is read/write.
 
 ## -remarks
 
-You must enable the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorset-get_segment">IDataCollectorSet::Segment</a> property for this property to take effect.
+You must enable the <a href="/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorset-get_segment">IDataCollectorSet::Segment</a> property for this property to take effect.
 
-This duration needs to be less than the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorset-get_duration">IDataCollectorSet::Duration</a> or <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-ischedule-get_enddate">ISchedule::EndDate</a> property.
+This duration needs to be less than the <a href="/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorset-get_duration">IDataCollectorSet::Duration</a> or <a href="/previous-versions/windows/desktop/api/pla/nf-pla-ischedule-get_enddate">ISchedule::EndDate</a> property.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nn-pla-idatacollectorset">IDataCollectorSet</a>
+<a href="/previous-versions/windows/desktop/api/pla/nn-pla-idatacollectorset">IDataCollectorSet</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorset-get_duration">IDataCollectorSet::Duration</a>
+<a href="/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorset-get_duration">IDataCollectorSet::Duration</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorset-get_segment">IDataCollectorSet::Segment</a>
+<a href="/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorset-get_segment">IDataCollectorSet::Segment</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorset-get_segmentmaxsize">IDataCollectorSet::SegmentMaxSize</a>
-
+<a href="/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorset-get_segmentmaxsize">IDataCollectorSet::SegmentMaxSize</a>

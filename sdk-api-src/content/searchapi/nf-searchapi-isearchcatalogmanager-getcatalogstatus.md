@@ -56,19 +56,18 @@ Gets the status of the catalog.
 
 ### -param pStatus [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/searchapi/ne-searchapi-catalogstatus">CatalogStatus</a>*</b>
+Type: <b><a href="/windows/desktop/api/searchapi/ne-searchapi-catalogstatus">CatalogStatus</a>*</b>
 
-Receives a pointer to a value from the <a href="https://docs.microsoft.com/windows/desktop/api/searchapi/ne-searchapi-catalogstatus">CatalogStatus</a> enumeration. If <i>pStatus</i> is <i>CATALOG_STATUS_PAUSED</i>, further information can be obtained from the <i>pPausedReason</i> parameter.
+Receives a pointer to a value from the <a href="/windows/desktop/api/searchapi/ne-searchapi-catalogstatus">CatalogStatus</a> enumeration. If <i>pStatus</i> is <i>CATALOG_STATUS_PAUSED</i>, further information can be obtained from the <i>pPausedReason</i> parameter.
 
 ### -param pPausedReason [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/searchapi/ne-searchapi-catalogpausedreason">CatalogPausedReason</a>*</b>
+Type: <b><a href="/windows/desktop/api/searchapi/ne-searchapi-catalogpausedreason">CatalogPausedReason</a>*</b>
 
-Receives a pointer to a value from the <a href="https://docs.microsoft.com/windows/desktop/api/searchapi/ne-searchapi-catalogpausedreason">CatalogPausedReason</a> enumeration describing why the catalog is paused. If the catalog status is not <i>CATALOG_STATUS_PAUSED</i>, this parameter receives the value <i>CATALOG_PAUSED_REASON_NONE</i>.
+Receives a pointer to a value from the <a href="/windows/desktop/api/searchapi/ne-searchapi-catalogpausedreason">CatalogPausedReason</a> enumeration describing why the catalog is paused. If the catalog status is not <i>CATALOG_STATUS_PAUSED</i>, this parameter receives the value <i>CATALOG_PAUSED_REASON_NONE</i>.
 
 ## -returns
 
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-

@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Retrieves the screen coordinates of a combo box in its dropped-down state. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/cb-getdroppedcontrolrect">CB_GETDROPPEDCONTROLRECT</a> message explicitly.
+Retrieves the screen coordinates of a combo box in its dropped-down state. You can use this macro or send the <a href="/windows/desktop/Controls/cb-getdroppedcontrolrect">CB_GETDROPPEDCONTROLRECT</a> message explicitly.
 
 ## -parameters
 
 ### -param hwndCtl
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the control.
 
@@ -65,4 +65,3 @@ A handle to the control.
 Type: <b><a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a>*</b>
 
 A pointer to a <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> structure that receives the coordinates of the combo box in its dropped-down state.
-

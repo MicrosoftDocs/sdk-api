@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-Gets or sets the window input rectangle for the <a href="https://docs.microsoft.com/windows/desktop/tablet/realtimestylus-class">RealTimeStylus Class</a> object.
+Gets or sets the window input rectangle for the <a href="/windows/desktop/tablet/realtimestylus-class">RealTimeStylus Class</a> object.
 
 
 
@@ -64,25 +64,24 @@ This property is read/write.
 
 ## -remarks
 
-Each <a href="https://docs.microsoft.com/windows/desktop/tablet/realtimestylus-class">RealTimeStylus Class</a> object receives tablet pen data for specific section of a window based on the defined window input rectangle for that <b>RealTimeStylus Class</b> object.
+Each <a href="/windows/desktop/tablet/realtimestylus-class">RealTimeStylus Class</a> object receives tablet pen data for specific section of a window based on the defined window input rectangle for that <b>RealTimeStylus Class</b> object.
 
-The default value is an empty window input rectangle, <b>IRealTimeStylus::WindowInputRectangle Property</b>, value. When the <b>IRealTimeStylus::WindowInputRectangle Property</b> value is empty, {0, 0, 0, 0}, the <a href="https://docs.microsoft.com/windows/desktop/tablet/realtimestylus-class">RealTimeStylus Class</a> object collects pen input over the entire window, even after the window is resized.
+The default value is an empty window input rectangle, <b>IRealTimeStylus::WindowInputRectangle Property</b>, value. When the <b>IRealTimeStylus::WindowInputRectangle Property</b> value is empty, {0, 0, 0, 0}, the <a href="/windows/desktop/tablet/realtimestylus-class">RealTimeStylus Class</a> object collects pen input over the entire window, even after the window is resized.
 
-After the <a href="https://docs.microsoft.com/windows/desktop/tablet/realtimestylus-class">RealTimeStylus Class</a> object starts collecting pen data, it continues to collect the data until the pen is raised, even if the pen is moved outside of the input region.
+After the <a href="/windows/desktop/tablet/realtimestylus-class">RealTimeStylus Class</a> object starts collecting pen data, it continues to collect the data until the pen is raised, even if the pen is moved outside of the input region.
 
-Use either an attached <a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nn-rtscom-istylussyncplugin">IStylusSyncPlugin</a> object or the attached <a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nn-rtscom-istylusasyncplugin">IStylusAsyncPlugin</a> object to uniquely handle pen data that is collected outside of the input region.
+Use either an attached <a href="/windows/desktop/api/rtscom/nn-rtscom-istylussyncplugin">IStylusSyncPlugin</a> object or the attached <a href="/windows/desktop/api/rtscom/nn-rtscom-istylusasyncplugin">IStylusAsyncPlugin</a> object to uniquely handle pen data that is collected outside of the input region.
 
-The E_INVALIDOPERATION HRESULT is returned when you attempt to set this property on a child <a href="https://docs.microsoft.com/windows/desktop/tablet/realtimestylus-class">RealTimeStylus Class</a> object.
+The E_INVALIDOPERATION HRESULT is returned when you attempt to set this property on a child <a href="/windows/desktop/tablet/realtimestylus-class">RealTimeStylus Class</a> object.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nn-rtscom-irealtimestylus">IRealTimeStylus</a>
+<a href="/windows/desktop/api/rtscom/nn-rtscom-irealtimestylus">IRealTimeStylus</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/tablet/realtimestylus-class">RealTimeStylus Class</a>
+<a href="/windows/desktop/tablet/realtimestylus-class">RealTimeStylus Class</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/tablet/realtimestylus-reference">RealTimeStylus Reference</a>
-
+<a href="/windows/desktop/tablet/realtimestylus-reference">RealTimeStylus Reference</a>

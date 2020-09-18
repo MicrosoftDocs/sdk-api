@@ -82,5 +82,4 @@ If the class ID is of one of the specified categories, the return value is S_OK.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/comcat/nn-comcat-icatinformation">ICatInformation</a>
-
+<a href="/windows/desktop/api/comcat/nn-comcat-icatinformation">ICatInformation</a>

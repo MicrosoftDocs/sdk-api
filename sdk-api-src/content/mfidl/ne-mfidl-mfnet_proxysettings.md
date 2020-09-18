@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-Specifies how the default proxy locator will specify the connection settings to a proxy server. The application must set these values in the <a href="https://docs.microsoft.com/windows/desktop/medfound/mfnetsource-proxysettings-property">MFNETSOURCE_PROXYSETTINGS</a> property.
+Specifies how the default proxy locator will specify the connection settings to a proxy server. The application must set these values in the <a href="/windows/desktop/medfound/mfnetsource-proxysettings-property">MFNETSOURCE_PROXYSETTINGS</a> property.
 
 ## -enum-fields
 
@@ -66,16 +66,16 @@ The proxy locator uses manual settings. The application must set the following p
 
 <ul>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/medfound/mfnetsource-proxyhostname-property">MFNETSOURCE_PROXYHOSTNAME</a>
+<a href="/windows/desktop/medfound/mfnetsource-proxyhostname-property">MFNETSOURCE_PROXYHOSTNAME</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/medfound/mfnetsource-proxyport-property">MFNETSOURCE_PROXYPORT</a>
+<a href="/windows/desktop/medfound/mfnetsource-proxyport-property">MFNETSOURCE_PROXYPORT</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/medfound/mfnetsource-proxybypassforlocal-property">MFNETSOURCE_PROXYBYPASSFORLOCAL</a>
+<a href="/windows/desktop/medfound/mfnetsource-proxybypassforlocal-property">MFNETSOURCE_PROXYBYPASSFORLOCAL</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/medfound/mfnetsource-proxyexceptionlist-property">MFNETSOURCE_PROXYEXCEPTIONLIST</a>
+<a href="/windows/desktop/medfound/mfnetsource-proxyexceptionlist-property">MFNETSOURCE_PROXYEXCEPTIONLIST</a>
 </li>
 </ul>
 
@@ -89,13 +89,12 @@ The proxy locator uses the proxy settings of the browser. By default, the proxy 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-mfcreateproxylocator">MFCreateProxyLocator</a>
+<a href="/windows/desktop/api/mfidl/nf-mfidl-mfcreateproxylocator">MFCreateProxyLocator</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>
+<a href="/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/proxy-support-for-network-sources">Proxy Support for Network Sources</a>
-
+<a href="/windows/desktop/medfound/proxy-support-for-network-sources">Proxy Support for Network Sources</a>

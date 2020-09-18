@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-Specifies the certificate credentials. The <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-querycredentialsattributesa">QueryCredentialsAttributes</a> function uses this structure.
+Specifies the certificate credentials. The <a href="/windows/desktop/api/sspi/nf-sspi-querycredentialsattributesa">QueryCredentialsAttributes</a> function uses this structure.
 
 ## -struct-fields
 
@@ -65,4 +65,3 @@ Size of the encoded certificate.
 ### -field EncodedCert
 
 The encoded certificate.
-

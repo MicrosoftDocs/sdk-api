@@ -71,13 +71,12 @@ Returns an <b>HRESULT</b> value.
 
 This method initializates the interface. It is not designed to load multiple files, and any calls to this method after the first call will fail.
 
-For the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/file-source--async--filter">File Source (Async)</a> filter, <i>pszFileName</i> specifies the absolute path name of a local file. For the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/file-source--url--filter">File Source (URL)</a> filter, <i>pszFileName</i> specifies the URL of a file to download. For other filter implementations, <i>pszFileName</i> might require a file name or a URL, depending on the filter.
+For the <a href="/windows/desktop/DirectShow/file-source--async--filter">File Source (Async)</a> filter, <i>pszFileName</i> specifies the absolute path name of a local file. For the <a href="/windows/desktop/DirectShow/file-source--url--filter">File Source (URL)</a> filter, <i>pszFileName</i> specifies the URL of a file to download. For other filter implementations, <i>pszFileName</i> might require a file name or a URL, depending on the filter.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ifilesourcefilter">IFileSourceFilter Interface</a>
-
+<a href="/windows/desktop/api/strmif/nn-strmif-ifilesourcefilter">IFileSourceFilter Interface</a>

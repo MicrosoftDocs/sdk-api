@@ -115,17 +115,16 @@ If the window is currently minimized, <b>MonitorFromWindow</b> uses the rectangl
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-monitorfrompoint">MonitorFromPoint</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-monitorfrompoint">MonitorFromPoint</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-monitorfromrect">MonitorFromRect</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-monitorfromrect">MonitorFromRect</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/multiple-display-monitors-functions">Multiple Display Monitors Functions</a>
+<a href="/windows/desktop/gdi/multiple-display-monitors-functions">Multiple Display Monitors Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/multiple-display-monitors">Multiple Display Monitors Overview</a>
-
+<a href="/windows/desktop/gdi/multiple-display-monitors">Multiple Display Monitors Overview</a>

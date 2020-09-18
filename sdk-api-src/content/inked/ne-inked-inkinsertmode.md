@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Specifies how ink is inserted onto the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkedit-control-reference">InkEdit</a> control.
+Specifies how ink is inserted onto the <a href="/windows/desktop/tablet/inkedit-control-reference">InkEdit</a> control.
 
 ## -enum-fields
 
@@ -69,13 +69,12 @@ Default. Drawn ink is inserted as text.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/tablet/inkedit-control-reference">InkEdit Control Reference</a>
+<a href="/windows/desktop/tablet/inkedit-control-reference">InkEdit Control Reference</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/tablet/inkedit-messages--win32-only-">InkEdit Messages (Win32 Only)</a>
+<a href="/windows/desktop/tablet/inkedit-messages--win32-only-">InkEdit Messages (Win32 Only)</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/inked/nf-inked-iinkedit-get_inkinsertmode">InkInsertMode Property</a>
-
+<a href="/windows/desktop/api/inked/nf-inked-iinkedit-get_inkinsertmode">InkInsertMode Property</a>

@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Checks if a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/s-gly">service</a> identified by a handle is starting or currently running. The <b>PRESUTIL_VERIFY_SERVICE</b> type defines a pointer to this function.
+Checks if a <a href="/previous-versions/windows/desktop/mscs/s-gly">service</a> identified by a handle is starting or currently running. The <b>PRESUTIL_VERIFY_SERVICE</b> type defines a pointer to this function.
 
 ## -parameters
 
@@ -63,7 +63,7 @@ Handle of the service to verify.
 If the operation succeeds, the function returns <b>ERROR_SUCCESS</b>.
 
 If the operation fails, 
-the function returns a <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a>. The following is a possible error code.
+the function returns a <a href="/windows/desktop/Debug/system-error-codes">system error code</a>. The following is a possible error code.
 
 <table>
 <tr>
@@ -82,4 +82,3 @@ The service is not operational.
 </td>
 </tr>
 </table>
-

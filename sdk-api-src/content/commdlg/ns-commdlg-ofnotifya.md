@@ -56,15 +56,15 @@ api_name:
 
 ## -description
 
-Contains information about a <a href="https://docs.microsoft.com/windows/desktop/Controls/wm-notify">WM_NOTIFY</a> message sent to an <a href="https://docs.microsoft.com/windows/desktop/api/commdlg/nc-commdlg-lpofnhookproc">OFNHookProc</a> hook procedure for an <b>Open</b> or <b>Save As</b> dialog box. The <i>lParam</i> parameter of the <b>WM_NOTIFY</b> message is a pointer to an <b>OFNOTIFY</b> structure.
+Contains information about a <a href="/windows/desktop/Controls/wm-notify">WM_NOTIFY</a> message sent to an <a href="/windows/desktop/api/commdlg/nc-commdlg-lpofnhookproc">OFNHookProc</a> hook procedure for an <b>Open</b> or <b>Save As</b> dialog box. The <i>lParam</i> parameter of the <b>WM_NOTIFY</b> message is a pointer to an <b>OFNOTIFY</b> structure.
 
 ## -struct-fields
 
 ### -field hdr
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a></b>
+Type: <b><a href="/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a></b>
 
-The <b>code</b> member of this structure can be one of the following notification messages that identify the message being sent: <a href="https://docs.microsoft.com/windows/desktop/dlgbox/cdn-fileok">CDN_FILEOK</a>, <a href="https://docs.microsoft.com/windows/desktop/dlgbox/cdn-folderchange">CDN_FOLDERCHANGE</a>, <a href="https://docs.microsoft.com/windows/desktop/dlgbox/cdn-help">CDN_HELP</a>, <a href="https://docs.microsoft.com/windows/desktop/dlgbox/cdn-initdone">CDN_INITDONE</a>, <a href="https://docs.microsoft.com/windows/desktop/dlgbox/cdn-selchange">CDN_SELCHANGE</a>, <a href="https://docs.microsoft.com/windows/desktop/dlgbox/cdn-shareviolation">CDN_SHAREVIOLATION</a>, <a href="https://docs.microsoft.com/windows/desktop/dlgbox/cdn-typechange">CDN_TYPECHANGE</a>.
+The <b>code</b> member of this structure can be one of the following notification messages that identify the message being sent: <a href="/windows/desktop/dlgbox/cdn-fileok">CDN_FILEOK</a>, <a href="/windows/desktop/dlgbox/cdn-folderchange">CDN_FOLDERCHANGE</a>, <a href="/windows/desktop/dlgbox/cdn-help">CDN_HELP</a>, <a href="/windows/desktop/dlgbox/cdn-initdone">CDN_INITDONE</a>, <a href="/windows/desktop/dlgbox/cdn-selchange">CDN_SELCHANGE</a>, <a href="/windows/desktop/dlgbox/cdn-shareviolation">CDN_SHAREVIOLATION</a>, <a href="/windows/desktop/dlgbox/cdn-typechange">CDN_TYPECHANGE</a>.
 
 ### -field lpOFN
 
@@ -76,11 +76,11 @@ A pointer to the <a href="/windows/win32/api/commdlg/ns-commdlg-openfilenamea">O
 
 Type: <b>LPTSTR</b>
 
-The file name for which a network sharing violation has occurred. This member is valid only with the <a href="https://docs.microsoft.com/windows/desktop/dlgbox/cdn-shareviolation">CDN_SHAREVIOLATION</a> notification message.
+The file name for which a network sharing violation has occurred. This member is valid only with the <a href="/windows/desktop/dlgbox/cdn-shareviolation">CDN_SHAREVIOLATION</a> notification message.
 
 ## -remarks
 
-Not all of the <b>Open</b> and <b>Save As</b> notification messages use the <b>OFNOTIFY</b> structure. The <a href="https://docs.microsoft.com/windows/desktop/dlgbox/cdn-includeitem">CDN_INCLUDEITEM</a> notification message uses the <a href="https://docs.microsoft.com/windows/desktop/api/commdlg/ns-commdlg-ofnotifyexa">OFNOTIFYEX</a> structure. 
+Not all of the <b>Open</b> and <b>Save As</b> notification messages use the <b>OFNOTIFY</b> structure. The <a href="/windows/desktop/dlgbox/cdn-includeitem">CDN_INCLUDEITEM</a> notification message uses the <a href="/windows/desktop/api/commdlg/ns-commdlg-ofnotifyexa">OFNOTIFYEX</a> structure. 
 
 
 
@@ -91,35 +91,35 @@ Not all of the <b>Open</b> and <b>Save As</b> notification messages use the <b>O
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/dlgbox/cdn-fileok">CDN_FILEOK</a>
+<a href="/windows/desktop/dlgbox/cdn-fileok">CDN_FILEOK</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/dlgbox/cdn-folderchange">CDN_FOLDERCHANGE</a>
+<a href="/windows/desktop/dlgbox/cdn-folderchange">CDN_FOLDERCHANGE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/dlgbox/cdn-help">CDN_HELP</a>
+<a href="/windows/desktop/dlgbox/cdn-help">CDN_HELP</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/dlgbox/cdn-initdone">CDN_INITDONE</a>
+<a href="/windows/desktop/dlgbox/cdn-initdone">CDN_INITDONE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/dlgbox/cdn-selchange">CDN_SELCHANGE</a>
+<a href="/windows/desktop/dlgbox/cdn-selchange">CDN_SELCHANGE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/dlgbox/cdn-shareviolation">CDN_SHAREVIOLATION</a>
+<a href="/windows/desktop/dlgbox/cdn-shareviolation">CDN_SHAREVIOLATION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/dlgbox/cdn-typechange">CDN_TYPECHANGE</a>
+<a href="/windows/desktop/dlgbox/cdn-typechange">CDN_TYPECHANGE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/dlgbox/common-dialog-box-library">Common Dialog Box Library</a>
+<a href="/windows/desktop/dlgbox/common-dialog-box-library">Common Dialog Box Library</a>
 
 
 
@@ -127,7 +127,7 @@ Not all of the <b>Open</b> and <b>Save As</b> notification messages use the <b>O
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/commdlg/ns-commdlg-ofnotifyexa">OFNOTIFYEX</a>
+<a href="/windows/desktop/api/commdlg/ns-commdlg-ofnotifyexa">OFNOTIFYEX</a>
 
 
 
@@ -136,4 +136,3 @@ Not all of the <b>Open</b> and <b>Save As</b> notification messages use the <b>O
 
 
 <b>Reference</b>
-

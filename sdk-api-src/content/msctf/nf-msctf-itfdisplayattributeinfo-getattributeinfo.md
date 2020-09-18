@@ -56,7 +56,7 @@ Obtains the display attribute data.
 
 ### -param pda [out]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/msctf/ns-msctf-tf_displayattribute">TF_DISPLAYATTRIBUTE</a> structure that receives display attribute data.
+Pointer to a <a href="/windows/desktop/api/msctf/ns-msctf-tf_displayattribute">TF_DISPLAYATTRIBUTE</a> structure that receives display attribute data.
 
 ## -returns
 
@@ -94,4 +94,3 @@ The method was successful.
 ## -see-also
 
 [ITfDisplayAttributeInfo interface](nn-msctf-itfdisplayattributeinfo.md), [ITfDisplayAttributeMgr::OnUpdateInfo](nf-msctf-itfdisplayattributemgr-onupdateinfo.md), [TF_DISPLAYATTRIBUTE structure](ns-msctf-tf_displayattribute.md), [ITfDisplayAttributeInfo::SetAttributeInfo](nf-msctf-itfdisplayattributeinfo-setattributeinfo.md)
-

@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Retrieves the metadata for the <a href="https://docs.microsoft.com/windows/desktop/api/wsdclient/nn-wsdclient-iwsdserviceproxy">IWSDServiceProxy</a> object.
+Retrieves the metadata for the <a href="/windows/desktop/api/wsdclient/nn-wsdclient-iwsdserviceproxy">IWSDServiceProxy</a> object.
 
 ## -parameters
 
 ### -param ppServiceMetadata [out]
 
-Reference to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-wsd_service_metadata">WSD_SERVICE_METADATA</a> structure that specifies service metadata. Do not release this object.
+Reference to a <a href="/windows/desktop/api/wsdtypes/ns-wsdtypes-wsd_service_metadata">WSD_SERVICE_METADATA</a> structure that specifies service metadata. Do not release this object.
 
 ## -returns
 
@@ -93,9 +93,8 @@ Method completed successfully.
 
 ## -remarks
 
-This metadata is also available as part of the metadata produced by <a href="https://docs.microsoft.com/windows/desktop/api/wsdclient/nf-wsdclient-iwsddeviceproxy-gethostmetadata">IWSDDeviceProxy::GetHostMetadata</a>.
+This metadata is also available as part of the metadata produced by <a href="/windows/desktop/api/wsdclient/nf-wsdclient-iwsddeviceproxy-gethostmetadata">IWSDDeviceProxy::GetHostMetadata</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wsdclient/nn-wsdclient-iwsdserviceproxy">IWSDServiceProxy</a>
-
+<a href="/windows/desktop/api/wsdclient/nn-wsdclient-iwsdserviceproxy">IWSDServiceProxy</a>

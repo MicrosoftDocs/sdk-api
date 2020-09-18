@@ -59,7 +59,7 @@ Adds a file to the specified  report.
 
 ### -param hReportHandle [in]
 
-A handle to the report. This handle is returned by the <a href="https://docs.microsoft.com/windows/desktop/api/werapi/nf-werapi-werreportcreate">WerReportCreate</a> function.
+A handle to the report. This handle is returned by the <a href="/windows/desktop/api/werapi/nf-werapi-werreportcreate">WerReportCreate</a> function.
 
 ### -param pwzPath [in]
 
@@ -192,17 +192,16 @@ The specified file is a user-document and is stored on an encrypted file-system;
 
 ## -remarks
 
-Although this function can also be used to add memory dumps (using specific flags) to the error report, the preferred function to use for adding memory dumps is <a href="https://docs.microsoft.com/windows/desktop/api/werapi/nf-werapi-werreportadddump">WerReportAddDump</a>. You should use this function only if you want to collect the dump yourself and then add it to the report.
+Although this function can also be used to add memory dumps (using specific flags) to the error report, the preferred function to use for adding memory dumps is <a href="/windows/desktop/api/werapi/nf-werapi-werreportadddump">WerReportAddDump</a>. You should use this function only if you want to collect the dump yourself and then add it to the report.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/wer/wer-functions">WER Functions</a>
+<a href="/windows/desktop/wer/wer-functions">WER Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/werapi/nf-werapi-werreportcreate">WerReportCreate</a>
+<a href="/windows/desktop/api/werapi/nf-werapi-werreportcreate">WerReportCreate</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/wer/windows-error-reporting">Windows Error Reporting</a>
-
+<a href="/windows/desktop/wer/windows-error-reporting">Windows Error Reporting</a>

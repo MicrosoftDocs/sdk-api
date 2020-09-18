@@ -116,11 +116,10 @@ Insufficient memory to complete the operation.
 
 ## -remarks
 
-The UDATE structure is used with <b>VarDateFromUdateEx</b>, <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-vardatefromudate">VarDateFromUdate</a>, and <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-varudatefromdate">VarUdateFromDate</a>.  It represents an unpacked date.
+The UDATE structure is used with <b>VarDateFromUdateEx</b>, <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-vardatefromudate">VarDateFromUdate</a>, and <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-varudatefromdate">VarUdateFromDate</a>.  It represents an unpacked date.
 
 <pre class="syntax" xml:space="preserve"><code>typedef struct {
     SYSTEMTIME st;
     USHORT  wDayOfYear;
 } UDATE;</code></pre>
-The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-vardatefromudate">VarDateFromUdate</a> function accepts invalid dates and tries to fix them when resolving to a VARIANT time. Only days are fixed, so invalid month values result in an error being returned. Days are checked to verify that they are in the range of 1 through 31. Negative days and days greater than 31 result in an error. A day less than 31 but greater than the maximum day in that month has the day promoted to the appropriate day of the next month. For example, an invalid date such as 2/29/2001 resolves to 3/1/2001. A day equal to zero resolves as the last day of the previous month. For example, an invalid date such as 2/0/2001 resolves to 1/31/2001.
-
+The <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-vardatefromudate">VarDateFromUdate</a> function accepts invalid dates and tries to fix them when resolving to a VARIANT time. Only days are fixed, so invalid month values result in an error being returned. Days are checked to verify that they are in the range of 1 through 31. Negative days and days greater than 31 result in an error. A day less than 31 but greater than the maximum day in that month has the day promoted to the appropriate day of the next month. For example, an invalid date such as 2/29/2001 resolves to 3/1/2001. A day equal to zero resolves as the last day of the previous month. For example, an invalid date such as 2/0/2001 resolves to 1/31/2001.

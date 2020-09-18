@@ -81,22 +81,22 @@ Handle to the I/O completion port.
 ### -field IOC.dwNumberOfBytesTransferred
 
 Set by the RPC client before the asynchronous call is started. When the notification is delivered to the completion port, this value is filled in the location pointed to by the <i>lpNumberOfBytesTransferred</i> parameter of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-getqueuedcompletionstatus">GetQueuedCompletionStatus</a> function.
+<a href="/windows/desktop/api/ioapiset/nf-ioapiset-getqueuedcompletionstatus">GetQueuedCompletionStatus</a> function.
 
 ### -field IOC.dwCompletionKey
 
 Set by the RPC client before the asynchronous call is started. When the notification is delivered to the completion port, this value is filled in the location pointed to by the <i>lpCompletionKey</i> parameter of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-getqueuedcompletionstatus">GetQueuedCompletionStatus</a> function.
+<a href="/windows/desktop/api/ioapiset/nf-ioapiset-getqueuedcompletionstatus">GetQueuedCompletionStatus</a> function.
 
 ### -field IOC.lpOverlapped
 
 Set by the RPC client before the asynchronous call is started. When the notification is delivered to the completion port, this value is filled in the location pointed to by the <i>lpOverlapped</i> parameter of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-getqueuedcompletionstatus">GetQueuedCompletionStatus</a> function.
+<a href="/windows/desktop/api/ioapiset/nf-ioapiset-getqueuedcompletionstatus">GetQueuedCompletionStatus</a> function.
 
 ### -field HWND
 
 Fields used for notification by a Windows message. When the RPC run time posts the message, <b>wParam</b> is zero, and <b>lParam</b> points to the asynchronous handle for the call (the 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcasync/ns-rpcasync-rpc_async_state">RPC_ASYNC_STATE</a>).
+<a href="/windows/desktop/api/rpcasync/ns-rpcasync-rpc_async_state">RPC_ASYNC_STATE</a>).
 
 <b>Windows Server 2003 or later:  </b>Notification via the HWND is deprecated. Do not use this member.
 
@@ -118,16 +118,15 @@ Handle used for notification by an event.
 
 Windows Vista or earlier versions of Windows: COM uses this internally for direct callbacks. Do not use this member.
 
-Windows 7 or later versions of Windows: An optional function pointer to a user-defined notification scheme built on top of RPC call completion. As an example, an application could call <a href="https://docs.microsoft.com/windows/desktop/api/threadpoolapiset/nf-threadpoolapiset-submitthreadpoolwork">SubmitThreadpoolWork</a> from the notification callback.
+Windows 7 or later versions of Windows: An optional function pointer to a user-defined notification scheme built on top of RPC call completion. As an example, an application could call <a href="/windows/desktop/api/threadpoolapiset/nf-threadpoolapiset-submitthreadpoolwork">SubmitThreadpoolWork</a> from the notification callback.
 
 <div class="alert"><b>Note</b>  Making additional RPC calls, blocking,  or performing long running work from notification callbacks is strongly discouraged.</div>
 <div> </div>
 
 ## -remarks
 
-Prior to Windows Vista and earlier versions of Windows, the <b>RPC_ASYNC_NOTIFICATION_INFO</b> union was part of the <a href="https://docs.microsoft.com/windows/desktop/api/rpcasync/ns-rpcasync-rpc_async_state">RPC_ASYNC_STATE</a> structure. Please see the <b>RPC_ASYNC_STATE</b> topic for additional information.
+Prior to Windows Vista and earlier versions of Windows, the <b>RPC_ASYNC_NOTIFICATION_INFO</b> union was part of the <a href="/windows/desktop/api/rpcasync/ns-rpcasync-rpc_async_state">RPC_ASYNC_STATE</a> structure. Please see the <b>RPC_ASYNC_STATE</b> topic for additional information.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcasync/ns-rpcasync-rpc_async_state">RPC_ASYNC_STATE</a>
-
+<a href="/windows/desktop/api/rpcasync/ns-rpcasync-rpc_async_state">RPC_ASYNC_STATE</a>

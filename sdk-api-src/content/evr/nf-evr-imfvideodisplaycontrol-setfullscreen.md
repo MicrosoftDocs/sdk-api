@@ -55,7 +55,7 @@ api_name:
 
 Sets or unsets full-screen rendering mode.
 
-To implement full-screen playback, an application should simply resize the video window to cover the entire area of the monitor. Also set the window to be a topmost window, so that the application receives all mouse-click messages. For more information about topmost windows, see the documentation for the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setwindowpos">SetWindowPos</a> function.
+To implement full-screen playback, an application should simply resize the video window to cover the entire area of the monitor. Also set the window to be a topmost window, so that the application receives all mouse-click messages. For more information about topmost windows, see the documentation for the <a href="/windows/desktop/api/winuser/nf-winuser-setwindowpos">SetWindowPos</a> function.
 
 ## -parameters
 
@@ -109,17 +109,16 @@ If you use this  method  to switch to full-screen mode, set the application wind
 By default, the cursor is still visible in full-screen mode. To hide the cursor, call <b>ShowCursor</b>.
       
 
-The transition to and from full-screen mode occurs asynchronously. To get the current mode, call <a href="https://docs.microsoft.com/windows/desktop/api/evr/nf-evr-imfvideodisplaycontrol-getfullscreen">IMFVideoDisplayControl::GetFullscreen</a>.
+The transition to and from full-screen mode occurs asynchronously. To get the current mode, call <a href="/windows/desktop/api/evr/nf-evr-imfvideodisplaycontrol-getfullscreen">IMFVideoDisplayControl::GetFullscreen</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/enhanced-video-renderer">Enhanced Video Renderer</a>
+<a href="/windows/desktop/medfound/enhanced-video-renderer">Enhanced Video Renderer</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/evr/nn-evr-imfvideodisplaycontrol">IMFVideoDisplayControl</a>
+<a href="/windows/desktop/api/evr/nn-evr-imfvideodisplaycontrol">IMFVideoDisplayControl</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/using-the-video-display-controls">Using the Video Display Controls</a>
-
+<a href="/windows/desktop/medfound/using-the-video-display-controls">Using the Video Display Controls</a>

@@ -87,25 +87,24 @@ If the function fails, the return value is GDI_ERROR.
 
 ## -remarks
 
-This function is intended to be used to retrieve TrueType font information directly from the font file by font-manipulation applications. For information about embedding fonts see the <a href="https://docs.microsoft.com/windows/desktop/gdi/font-embedding-reference">Font Embedding Reference</a>.
+This function is intended to be used to retrieve TrueType font information directly from the font file by font-manipulation applications. For information about embedding fonts see the <a href="/windows/desktop/gdi/font-embedding-reference">Font Embedding Reference</a>.
 
-An application can sometimes use the <b>GetFontData</b> function to save a TrueType font with a document. To do this, the application determines whether the font can be embedded by checking the <b>otmfsType</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-outlinetextmetrica">OUTLINETEXTMETRIC</a> structure. If bit 1 of <b>otmfsType</b> is set, embedding is not permitted for the font. If bit 1 is clear, the font can be embedded. If bit 2 is set, the embedding is read-only. If embedding is permitted, the application can retrieve the entire font file, specifying zero for the <i>dwTable</i>, <i>dwOffset</i>, and <i>cbData</i> parameters.
+An application can sometimes use the <b>GetFontData</b> function to save a TrueType font with a document. To do this, the application determines whether the font can be embedded by checking the <b>otmfsType</b> member of the <a href="/windows/desktop/api/wingdi/ns-wingdi-outlinetextmetrica">OUTLINETEXTMETRIC</a> structure. If bit 1 of <b>otmfsType</b> is set, embedding is not permitted for the font. If bit 1 is clear, the font can be embedded. If bit 2 is set, the embedding is read-only. If embedding is permitted, the application can retrieve the entire font file, specifying zero for the <i>dwTable</i>, <i>dwOffset</i>, and <i>cbData</i> parameters.
 
 If an application attempts to use this function to retrieve information for a non-TrueType font, an error occurs.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/font-and-text-functions">Font and Text Functions</a>
+<a href="/windows/desktop/gdi/font-and-text-functions">Font and Text Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/fonts-and-text">Fonts and Text Overview</a>
+<a href="/windows/desktop/gdi/fonts-and-text">Fonts and Text Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-gettextmetrics">GetTextMetrics</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-gettextmetrics">GetTextMetrics</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-outlinetextmetrica">OUTLINETEXTMETRIC</a>
-
+<a href="/windows/desktop/api/wingdi/ns-wingdi-outlinetextmetrica">OUTLINETEXTMETRIC</a>

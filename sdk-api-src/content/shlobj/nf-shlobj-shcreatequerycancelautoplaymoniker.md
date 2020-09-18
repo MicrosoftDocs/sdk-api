@@ -50,17 +50,17 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[This function is deprecated. Use <a href="https://docs.microsoft.com/windows/desktop/api/objbase/nf-objbase-createclassmoniker">CreateClassMoniker</a> instead. Note that the CLSID used in the call to <b>CreateClassMoniker</b> must be application-defined. Do not call <b>CreateClassMoniker</b> with a system-defined CLSID.]
+<p class="CCE_Message">[This function is deprecated. Use <a href="/windows/desktop/api/objbase/nf-objbase-createclassmoniker">CreateClassMoniker</a> instead. Note that the CLSID used in the call to <b>CreateClassMoniker</b> must be application-defined. Do not call <b>CreateClassMoniker</b> with a system-defined CLSID.]
 
-Deprecated. Creates a <b>QueryCancelAutoPlay</b> class moniker, which can then be used to register the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nn-shobjidl-iquerycancelautoplay">IQueryCancelAutoPlay</a> handler in the running object table (ROT).
+Deprecated. Creates a <b>QueryCancelAutoPlay</b> class moniker, which can then be used to register the <a href="/windows/desktop/api/shobjidl/nn-shobjidl-iquerycancelautoplay">IQueryCancelAutoPlay</a> handler in the running object table (ROT).
 
 ## -parameters
 
 ### -param ppmoniker [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imoniker">IMoniker</a>**</b>
+Type: <b><a href="/windows/desktop/api/objidl/nn-objidl-imoniker">IMoniker</a>**</b>
 
-The address of a <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imoniker">IMoniker</a> interface pointer that, when this function returns successfully, receives the <b>QueryCancelAutoPlay</b> class moniker. If this function call fails, this value is <b>NULL</b>.
+The address of a <a href="/windows/desktop/api/objidl/nn-objidl-imoniker">IMoniker</a> interface pointer that, when this function returns successfully, receives the <b>QueryCancelAutoPlay</b> class moniker. If this function call fails, this value is <b>NULL</b>.
 
 ## -returns
 
@@ -70,9 +70,8 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 ## -remarks
 
-If successful, <b>SHCreateQueryCancelAutoPlayMoniker</b> calls the interface's <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-addref">AddRef</a> method and increments the reference count. When you are finished, call the interface's <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">Release</a> method to release.
+If successful, <b>SHCreateQueryCancelAutoPlayMoniker</b> calls the interface's <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-addref">AddRef</a> method and increments the reference count. When you are finished, call the interface's <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">Release</a> method to release.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objbase/nf-objbase-createclassmoniker">CreateClassMoniker</a>
-
+<a href="/windows/desktop/api/objbase/nf-objbase-createclassmoniker">CreateClassMoniker</a>

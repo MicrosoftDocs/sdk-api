@@ -58,13 +58,13 @@ Contains information about an OLE or image object  in a rich edit control.
 
 ### -field cbStruct
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 Structure size, in bytes.
 
 ### -field cp
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LONG</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">LONG</a></b>
 
 Character position of the object.
 
@@ -78,35 +78,35 @@ Class identifier of the object.
 
 Type: <b>LPOLEOBJECT</b>
 
-An instance of the <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-ioleobject">IOleObject</a> interface for the object.
+An instance of the <a href="/windows/desktop/api/oleidl/nn-oleidl-ioleobject">IOleObject</a> interface for the object.
 
 ### -field pstg
 
 Type: <b>LPSTORAGE</b>
 
-An instance of the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istorage">IStorage</a> interface. This is the storage object associated with the object.
+An instance of the <a href="/windows/desktop/api/objidl/nn-objidl-istorage">IStorage</a> interface. This is the storage object associated with the object.
 
 ### -field polesite
 
 Type: <b>LPOLECLIENTSITE</b>
 
-An instance of the <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-ioleclientsite">IOleClientSite</a> interface. This is the object's client site in the rich edit control. This address must have been obtained from the <a href="https://docs.microsoft.com/windows/desktop/api/richole/nf-richole-iricheditole-getclientsite">GetClientSite</a> method.
+An instance of the <a href="/windows/desktop/api/oleidl/nn-oleidl-ioleclientsite">IOleClientSite</a> interface. This is the object's client site in the rich edit control. This address must have been obtained from the <a href="/windows/desktop/api/richole/nf-richole-iricheditole-getclientsite">GetClientSite</a> method.
 
 ### -field sizel
 
 Type: <b>SIZEL</b>
 
-The size of the object. The unit of measure is 0.01 millimeters, which is a HIMETRIC measurement. For more information, see function <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getmapmode">GetMapMode</a>. A 0, 0 on insertion indicates that an object is free to determine its size until the modify flag is turned off.
+The size of the object. The unit of measure is 0.01 millimeters, which is a HIMETRIC measurement. For more information, see function <a href="/windows/desktop/api/wingdi/nf-wingdi-getmapmode">GetMapMode</a>. A 0, 0 on insertion indicates that an object is free to determine its size until the modify flag is turned off.
 
 ### -field dvaspect
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
-Display aspect used. See <a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ne-wtypes-dvaspect">DVASPECT</a> for an explanation of possible values.
+Display aspect used. See <a href="/windows/desktop/api/wtypes/ne-wtypes-dvaspect">DVASPECT</a> for an explanation of possible values.
 
 ### -field dwFlags
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 Object status flag. It can be a combination of the following values. 
 
@@ -309,7 +309,7 @@ Wrap text around the object.
 
 ### -field dwUser
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 Reserved for user-defined values.
 
@@ -319,9 +319,8 @@ An OLE or image object  in a rich edit control occupies one character position i
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/richole/nf-richole-iricheditole-getclientsite">GetClientSite</a>
+<a href="/windows/desktop/api/richole/nf-richole-iricheditole-getclientsite">GetClientSite</a>
 
 
 
 <b>Reference</b>
-

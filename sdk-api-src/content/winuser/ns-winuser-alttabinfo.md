@@ -108,7 +108,7 @@ The height of each icon in the application-switching window.
 
 ### -field ptStart
 
-Type: <b><a href="https://docs.microsoft.com/previous-versions/dd162805(v=vs.85)">POINT</a></b>
+Type: <b><a href="/previous-versions/dd162805(v=vs.85)">POINT</a></b>
 
 The top-left corner of the first icon.
 
@@ -118,7 +118,7 @@ The top-left corner of the first icon.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getalttabinfoa">GetAltTabInfo</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-getalttabinfoa">GetAltTabInfo</a>
 
 
 
@@ -126,5 +126,4 @@ The top-left corner of the first icon.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/winmsg/windows">Windows</a>
-
+<a href="/windows/desktop/winmsg/windows">Windows</a>

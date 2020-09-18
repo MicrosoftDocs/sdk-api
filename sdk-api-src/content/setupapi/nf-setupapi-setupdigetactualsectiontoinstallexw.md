@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-The <b>SetupDiGetActualSectionToInstallEx</b> function retrieves the name of the <a href="https://docs.microsoft.com/windows-hardware/drivers/install/inf-ddinstall-section">INF DDInstall section</a> that installs a device for a specified operating system and processor architecture.
+The <b>SetupDiGetActualSectionToInstallEx</b> function retrieves the name of the <a href="/windows-hardware/drivers/install/inf-ddinstall-section">INF DDInstall section</a> that installs a device for a specified operating system and processor architecture.
 
 ## -parameters
 
@@ -62,11 +62,11 @@ A handle to the INF file that contains the <i>DDInstall</i> section.
 
 ### -param InfSectionName [in]
 
-A pointer to the <i>DDInstall</i> section name (as specified in an <a href="https://docs.microsoft.com/windows-hardware/drivers/install/inf-models-section">INF Models section</a>). The maximum length of the section name, in characters, is 254.
+A pointer to the <i>DDInstall</i> section name (as specified in an <a href="/windows-hardware/drivers/install/inf-models-section">INF Models section</a>). The maximum length of the section name, in characters, is 254.
 
 ### -param AlternatePlatformInfo [in, optional]
 
-A pointer, if non-<b>NULL</b>, to an <a href="https://docs.microsoft.com/previous-versions/windows/hardware/previsioning-framework/ff552338(v=vs.85)">SP_ALTPLATFORM_INFO</a> structure. This structure is used to specify an operating system and processor architecture that is different from that on the local computer. To return the <i>DDInstall </i>section name for the local computer, set this parameter to <b>NULL</b>. Otherwise, provide an SP_ALTPLATFORM structure and set its members as follows:
+A pointer, if non-<b>NULL</b>, to an <a href="/previous-versions/windows/hardware/previsioning-framework/ff552338(v=vs.85)">SP_ALTPLATFORM_INFO</a> structure. This structure is used to specify an operating system and processor architecture that is different from that on the local computer. To return the <i>DDInstall </i>section name for the local computer, set this parameter to <b>NULL</b>. Otherwise, provide an SP_ALTPLATFORM structure and set its members as follows:
 
 
 
@@ -234,11 +234,11 @@ Set to the size, in bytes, of an SP_ALTPLATFORM_INFO structure.
 
 ## -returns
 
-If the function is successful, it returns <b>TRUE</b>. Otherwise, it returns <b>FALSE</b>. To get extended error information, call <a href="https://msdn.microsoft.com/library/ms679360(VS.85).aspx">GetLastError</a>.
+If the function is successful, it returns <b>TRUE</b>. Otherwise, it returns <b>FALSE</b>. To get extended error information, call <a href="/windows/win32/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
-<b>SetupDiGetActualSectionToInstallEx</b> is an extended form of <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdigetactualsectiontoinstalla">SetupDiGetActualSectionToInstall</a>. These functions support the extensions to <i>DDInstall</i> section names that are used to specify OS-specific and architecture-specific installation actions for a device. For information about these extensions, see <a href="https://docs.microsoft.com/windows-hardware/drivers/install/creating-inf-files-for-multiple-platforms-and-operating-systems">Creating INF Files for Multiple Platforms and Operating Systems</a>.
+<b>SetupDiGetActualSectionToInstallEx</b> is an extended form of <a href="/windows/desktop/api/setupapi/nf-setupapi-setupdigetactualsectiontoinstalla">SetupDiGetActualSectionToInstall</a>. These functions support the extensions to <i>DDInstall</i> section names that are used to specify OS-specific and architecture-specific installation actions for a device. For information about these extensions, see <a href="/windows-hardware/drivers/install/creating-inf-files-for-multiple-platforms-and-operating-systems">Creating INF Files for Multiple Platforms and Operating Systems</a>.
 
 If you do not supply alternative platform information with a call to <b>SetupDiGetActualSectionToInstallEx</b>, the function performs the same operation as <b>SetupDiGetActualSectionToInstall</b>. The latter function searches for the specified install section name using the platform information for the local computer.
 
@@ -266,13 +266,12 @@ If the function finds a match for the name, operating system, and processor arch
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/install/inf-ddinstall-section">INF DDInstall Section</a>
+<a href="/windows-hardware/drivers/install/inf-ddinstall-section">INF DDInstall Section</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdigetactualsectiontoinstallexa">SetupDiGetActualSectionToInstallEx</a>
+<a href="/windows/desktop/api/setupapi/nf-setupapi-setupdigetactualsectiontoinstallexa">SetupDiGetActualSectionToInstallEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdiinstalldevice">SetupDiInstallDevice</a>
-
+<a href="/windows/desktop/api/setupapi/nf-setupapi-setupdiinstalldevice">SetupDiInstallDevice</a>

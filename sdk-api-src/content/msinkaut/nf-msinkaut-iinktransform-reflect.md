@@ -113,5 +113,4 @@ An exception occurred inside the method.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/tablet/inktransform-class">InkTransform Class</a>
-
+<a href="/windows/desktop/tablet/inktransform-class">InkTransform Class</a>

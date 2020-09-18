@@ -66,9 +66,8 @@ The number of channels that are specified by the <i>IpInfo</i> parameter.
 
 ### -field IpInfo
 
-An array of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clus_netname_ip_info_entry">CLUS_NETNAME_IP_INFO_ENTRY</a> structures that specify the IP info for each channel.
+An array of <a href="/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clus_netname_ip_info_entry">CLUS_NETNAME_IP_INFO_ENTRY</a> structures that specify the IP info for each channel.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/utility-structures">Utility structures</a>
-
+<a href="/previous-versions/windows/desktop/mscs/utility-structures">Utility structures</a>

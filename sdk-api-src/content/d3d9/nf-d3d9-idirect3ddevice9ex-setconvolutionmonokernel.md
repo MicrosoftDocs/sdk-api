@@ -57,15 +57,15 @@ Prepare the texture sampler for monochrome convolution filtering on a single-col
 
 ### -param width [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
-The width of the filter kernel; ranging from 1 - <a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3dconvolutionmono">D3DCONVOLUTIONMONO_MAXWIDTH</a>. The default value is 1.
+The width of the filter kernel; ranging from 1 - <a href="/windows/desktop/direct3d9/d3dconvolutionmono">D3DCONVOLUTIONMONO_MAXWIDTH</a>. The default value is 1.
 
 ### -param height [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
-The height of the filter kernel; ranging from 1 - <a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3dconvolutionmono">D3DCONVOLUTIONMONO_MAXHEIGHT</a>. The default value is 1.
+The height of the filter kernel; ranging from 1 - <a href="/windows/desktop/direct3d9/d3dconvolutionmono">D3DCONVOLUTIONMONO_MAXHEIGHT</a>. The default value is 1.
 
 ### -param rows [in]
 
@@ -92,13 +92,12 @@ This method is designed to filter a single color texture. A monochrome convoluti
 Restrictions include:
 
 <ul>
-<li>The filter specified by this method is recorded in state blocks as a part of <a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3dstateblocktype">D3DSBT_PIXELSTATE</a>.</li>
-<li>The only texture address mode supported is: <a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3dptfiltercaps">D3DPTADDRESSCAPS_BORDER</a>; the border color is always 0.</li>
+<li>The filter specified by this method is recorded in state blocks as a part of <a href="/windows/desktop/direct3d9/d3dstateblocktype">D3DSBT_PIXELSTATE</a>.</li>
+<li>The only texture address mode supported is: <a href="/windows/desktop/direct3d9/d3dptfiltercaps">D3DPTADDRESSCAPS_BORDER</a>; the border color is always 0.</li>
 <li>This method is not supported for mipmaps.</li>
 <li>Using a non-monochrome texture with convolution filtering will generate a driver error.</li>
 </ul>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nn-d3d9-idirect3ddevice9ex">IDirect3DDevice9Ex</a>
-
+<a href="/windows/desktop/api/d3d9/nn-d3d9-idirect3ddevice9ex">IDirect3DDevice9Ex</a>

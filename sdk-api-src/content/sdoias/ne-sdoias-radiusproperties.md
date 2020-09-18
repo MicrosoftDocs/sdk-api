@@ -75,9 +75,8 @@ The collection of vendors for this RADIUS server.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-clientproperties">CLIENTPROPERTIES</a>
+<a href="/windows/desktop/api/sdoias/ne-sdoias-clientproperties">CLIENTPROPERTIES</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-vendorproperties">VENDORPROPERTIES</a>
-
+<a href="/windows/desktop/api/sdoias/ne-sdoias-vendorproperties">VENDORPROPERTIES</a>

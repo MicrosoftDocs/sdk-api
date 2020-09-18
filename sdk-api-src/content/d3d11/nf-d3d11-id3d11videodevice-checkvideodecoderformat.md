@@ -56,11 +56,11 @@ Given aprofile, checks whether the driver supports a specified output format.
 
 ### -param pDecoderProfile [in]
 
-A pointer to a GUID that identifies the profile. To get the list of supported profiles, call <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11videodevice-getvideodecoderprofile">ID3D11VideoDevice::GetVideoDecoderProfile</a>.
+A pointer to a GUID that identifies the profile. To get the list of supported profiles, call <a href="/windows/desktop/api/d3d11/nf-d3d11-id3d11videodevice-getvideodecoderprofile">ID3D11VideoDevice::GetVideoDecoderProfile</a>.
 
 ### -param Format [in]
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format">DXGI_FORMAT</a> value that specifies the output format. Typical values include <b>DXGI_FORMAT_NV12</b> and <b>DXGI_FORMAT_420_OPAQUE</b>.
+A <a href="/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format">DXGI_FORMAT</a> value that specifies the output format. Typical values include <b>DXGI_FORMAT_NV12</b> and <b>DXGI_FORMAT_420_OPAQUE</b>.
 
 ### -param pSupported [out]
 
@@ -76,5 +76,4 @@ If the driver does not support the profile given in <i>pDecoderProfile</i>, the 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11videodevice">ID3D11VideoDevice</a>
-
+<a href="/windows/desktop/api/d3d11/nn-d3d11-id3d11videodevice">ID3D11VideoDevice</a>

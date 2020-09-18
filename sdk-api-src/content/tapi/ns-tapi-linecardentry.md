@@ -56,7 +56,7 @@ api_name:
 
 The 
 <b>LINECARDENTRY</b> structure describes a calling card. The 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linetranslatecaps">LINETRANSLATECAPS</a> structure can contain an array of 
+<a href="/windows/desktop/api/tapi/ns-tapi-linetranslatecaps">LINETRANSLATECAPS</a> structure can contain an array of 
 <b>LINECARDENTRY</b> structures.
 
 ## -struct-fields
@@ -84,7 +84,7 @@ Size of the same-area dialing rule including the <b>null</b> terminator, in byte
 ### -field dwSameAreaRuleOffset
 
 Offset from the beginning of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linetranslatecaps">LINETRANSLATECAPS</a> structure to the dialing rule defined for calls to numbers in the same area code. The rule is a <b>null</b>-terminated string. The size of the field is specified by <b>dwSameAreaRuleSize</b>.
+<a href="/windows/desktop/api/tapi/ns-tapi-linetranslatecaps">LINETRANSLATECAPS</a> structure to the dialing rule defined for calls to numbers in the same area code. The rule is a <b>null</b>-terminated string. The size of the field is specified by <b>dwSameAreaRuleSize</b>.
 
 ### -field dwLongDistanceRuleSize
 
@@ -105,25 +105,24 @@ Offset from the beginning of the structure to the dialing rule defined for calls
 ### -field dwOptions
 
 Indicates other settings associated with this calling card, using the 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/linecardoption--constants">LINECARDOPTION_ Constants</a>.
+<a href="/windows/desktop/Tapi/linecardoption--constants">LINECARDOPTION_ Constants</a>.
 
 ## -remarks
 
 Older applications are compiled without knowledge of these new fields, and using a SIZEOF(LINECARDENTRY) smaller than the new size. Because this is an array in the variable portion of a 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linetranslatecaps">LINETRANSLATECAPS</a> structure, it is imperative that older applications receive 
+<a href="/windows/desktop/api/tapi/ns-tapi-linetranslatecaps">LINETRANSLATECAPS</a> structure, it is imperative that older applications receive 
 <b>LINECARDENTRY</b> structures in the format they previously expected, or they are not able to index properly through the array. The application passes in a <i>dwAPIVersion</i> parameter with the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linegettranslatecaps">lineGetTranslateCaps</a> function, which can be used for guidance by TAPI in handling this situation. The 
+<a href="/windows/desktop/api/tapi/nf-tapi-linegettranslatecaps">lineGetTranslateCaps</a> function, which can be used for guidance by TAPI in handling this situation. The 
 <b>lineGetTranslateCaps</b> function should use the 
 <b>LINECARDENTRY</b> fields and size that match the indicated API version, when building the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linetranslatecaps">LINETRANSLATECAPS</a> structure to be returned to the application.
+<a href="/windows/desktop/api/tapi/ns-tapi-linetranslatecaps">LINETRANSLATECAPS</a> structure to be returned to the application.
 
 This structure may not be extended.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linetranslatecaps">LINETRANSLATECAPS</a>
+<a href="/windows/desktop/api/tapi/ns-tapi-linetranslatecaps">LINETRANSLATECAPS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linegettranslatecaps">lineGetTranslateCaps</a>
-
+<a href="/windows/desktop/api/tapi/nf-tapi-linegettranslatecaps">lineGetTranslateCaps</a>

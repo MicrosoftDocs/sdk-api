@@ -60,9 +60,8 @@ The value to be converted.
 
 ### -param flag
 
-The flag to be set. The value is one of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/inputmsg/pointer-flags-contants">Pointer_Flags</a> constants.
+The flag to be set. The value is one of the <a href="/previous-versions/windows/desktop/inputmsg/pointer-flags-contants">Pointer_Flags</a> constants.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/inputmsg/macros">Macros</a>
-
+<a href="/previous-versions/windows/desktop/inputmsg/macros">Macros</a>

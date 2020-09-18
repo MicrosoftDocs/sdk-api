@@ -50,9 +50,8 @@ api_name:
 
 ## -description
 
-Supports the methods to retrieve the TCP connection information on the viewer and on the sharer side. This interface is exposed through the  <a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapiattendee-get_connectivityinfo">IRDPSRAPIAttendee::get_ConnectivityInfo</a> method.
+Supports the methods to retrieve the TCP connection information on the viewer and on the sharer side. This interface is exposed through the  <a href="/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapiattendee-get_connectivityinfo">IRDPSRAPIAttendee::get_ConnectivityInfo</a> method.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
-
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>

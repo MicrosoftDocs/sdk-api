@@ -65,21 +65,20 @@ Do not clip the source video rectangle.
 
 ### -field sslClipByOverScan
 
-Clip the source video rectangle by the value specified in the last call to <a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidvideorenderer-put_overscan">IMSVidVideoRenderer::put_OverScan</a>.
+Clip the source video rectangle by the value specified in the last call to <a href="/windows/desktop/api/segment/nf-segment-imsvidvideorenderer-put_overscan">IMSVidVideoRenderer::put_OverScan</a>.
 
 ### -field sslClipByClipRect
 
-Clip the source video rectangle by the value specified in the last call to <a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidvideorenderer-put_clippedsourcerect">IMSVidVideoRenderer::put_ClippedSourceRect</a>
+Clip the source video rectangle by the value specified in the last call to <a href="/windows/desktop/api/segment/nf-segment-imsvidvideorenderer-put_clippedsourcerect">IMSVidVideoRenderer::put_ClippedSourceRect</a>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidvideorenderer-get_sourcesize">IMSVidVideoRenderer::get_SourceSize</a>
+<a href="/windows/desktop/api/segment/nf-segment-imsvidvideorenderer-get_sourcesize">IMSVidVideoRenderer::get_SourceSize</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidvideorenderer-put_sourcesize">IMSVidVideoRenderer::put_SourceSize</a>
+<a href="/windows/desktop/api/segment/nf-segment-imsvidvideorenderer-put_sourcesize">IMSVidVideoRenderer::put_SourceSize</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/video-control-enumerations">Video Control Enumerations</a>
-
+<a href="/previous-versions/windows/desktop/mstv/video-control-enumerations">Video Control Enumerations</a>

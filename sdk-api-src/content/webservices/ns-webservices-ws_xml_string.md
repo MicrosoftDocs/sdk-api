@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-Represents a string that optionally has <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_xml_dictionary">dictionary</a> 
+Represents a string that optionally has <a href="/windows/desktop/api/webservices/ns-webservices-ws_xml_dictionary">dictionary</a> 
         information associated with it.  The xml APIs use WS_XML_STRINGs to identify prefixes, 
         localNames and namespaces.
 
@@ -84,9 +84,8 @@ If the dictionary is <b>NULL</b>, then this value is unused.
 The string is represented as UTF-8 encoded bytes, not WCHARs.  It is not required to be zero terminated.
       
 
-The macros <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-ws_xml_string_value">WS_XML_STRING_VALUE</a>, <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd323562(v=vs.85)">WS_XML_STRING_NULL</a>  and
-        <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-ws_xml_string_dictionary_value">WS_XML_STRING_DICTIONARY_VALUE</a> can be used to initialize this structure.
+The macros <a href="/windows/desktop/api/webservices/nf-webservices-ws_xml_string_value">WS_XML_STRING_VALUE</a>, <a href="/previous-versions/windows/desktop/legacy/dd323562(v=vs.85)">WS_XML_STRING_NULL</a>  and
+        <a href="/windows/desktop/api/webservices/nf-webservices-ws_xml_string_dictionary_value">WS_XML_STRING_DICTIONARY_VALUE</a> can be used to initialize this structure.
       
 
 The dictionary information is used by the binary encoding to write a more compact xml document.
-

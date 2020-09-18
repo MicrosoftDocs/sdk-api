@@ -55,17 +55,17 @@ api_name:
 The <b>WIAVIDEO_STATE</b> enumeration is used to specify the current state of a video stream.
 
 
-<div class="alert"><b>Note</b>  Windows Image Acquisition (WIA) does not support video devices in Windows Server 2003, Windows Vista, and later. For those versions of the Windows, use <a href="https://docs.microsoft.com/previous-versions/ms783323(v=vs.85)">DirectShow</a> to acquire images from video.</div><div> </div>
+<div class="alert"><b>Note</b>  Windows Image Acquisition (WIA) does not support video devices in Windows Server 2003, Windows Vista, and later. For those versions of the Windows, use <a href="/previous-versions/ms783323(v=vs.85)">DirectShow</a> to acquire images from video.</div><div> </div>
 
 ## -enum-fields
 
 ### -field WIAVIDEO_NO_VIDEO
 
-No video stream exists. Call <a href="https://docs.microsoft.com/windows/desktop/api/wiavideo/nf-wiavideo-iwiavideo-createvideobywiadevid">IWiaVideo::CreateVideoByWiaDevID</a>, <a href="https://docs.microsoft.com/windows/desktop/api/wiavideo/nf-wiavideo-iwiavideo-createvideobydevnum">IWiaVideo::CreateVideoByDevNum</a>, or <a href="https://docs.microsoft.com/windows/desktop/api/wiavideo/nf-wiavideo-iwiavideo-createvideobyname">IWiaVideo::CreateVideoByName</a> to create a video.
+No video stream exists. Call <a href="/windows/desktop/api/wiavideo/nf-wiavideo-iwiavideo-createvideobywiadevid">IWiaVideo::CreateVideoByWiaDevID</a>, <a href="/windows/desktop/api/wiavideo/nf-wiavideo-iwiavideo-createvideobydevnum">IWiaVideo::CreateVideoByDevNum</a>, or <a href="/windows/desktop/api/wiavideo/nf-wiavideo-iwiavideo-createvideobyname">IWiaVideo::CreateVideoByName</a> to create a video.
 
 ### -field WIAVIDEO_CREATING_VIDEO
 
-One of the <a href="https://docs.microsoft.com/windows/desktop/api/wiavideo/nn-wiavideo-iwiavideo">IWiaVideo</a> CreateVideo methods was called and WIA is in the process of creating the video stream.
+One of the <a href="/windows/desktop/api/wiavideo/nn-wiavideo-iwiavideo">IWiaVideo</a> CreateVideo methods was called and WIA is in the process of creating the video stream.
 
 ### -field WIAVIDEO_VIDEO_CREATED
 
@@ -73,17 +73,16 @@ A video stream has been successfully created, but playback has not yet started.
 
 ### -field WIAVIDEO_VIDEO_PLAYING
 
-A video stream has been successfully created, and the video is playing. The application can now call the <a href="https://docs.microsoft.com/windows/desktop/api/wiavideo/nf-wiavideo-iwiavideo-takepicture">IWiaVideo::TakePicture</a> method.
+A video stream has been successfully created, and the video is playing. The application can now call the <a href="/windows/desktop/api/wiavideo/nf-wiavideo-iwiavideo-takepicture">IWiaVideo::TakePicture</a> method.
 
 ### -field WIAVIDEO_VIDEO_PAUSED
 
-A video stream has been successfully created, and the video is paused. The application can now call the <a href="https://docs.microsoft.com/windows/desktop/api/wiavideo/nf-wiavideo-iwiavideo-takepicture">IWiaVideo::TakePicture</a> method.
+A video stream has been successfully created, and the video is paused. The application can now call the <a href="/windows/desktop/api/wiavideo/nf-wiavideo-iwiavideo-takepicture">IWiaVideo::TakePicture</a> method.
 
 ### -field WIAVIDEO_DESTROYING_VIDEO
 
-The application called <a href="https://docs.microsoft.com/windows/desktop/api/wiavideo/nf-wiavideo-iwiavideo-destroyvideo">IWiaVideo::DestroyVideo</a> method, and WIA is in the process of destroying the video stream.
+The application called <a href="/windows/desktop/api/wiavideo/nf-wiavideo-iwiavideo-destroyvideo">IWiaVideo::DestroyVideo</a> method, and WIA is in the process of destroying the video stream.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wiavideo/nf-wiavideo-iwiavideo-getcurrentstate">IWiaVideo::GetCurrentState</a>
-
+<a href="/windows/desktop/api/wiavideo/nf-wiavideo-iwiavideo-getcurrentstate">IWiaVideo::GetCurrentState</a>

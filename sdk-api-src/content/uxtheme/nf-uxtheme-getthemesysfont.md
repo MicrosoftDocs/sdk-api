@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Retrieves the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-logfonta">LOGFONT</a> of a system font.
+Retrieves the <a href="/windows/desktop/api/wingdi/ns-wingdi-logfonta">LOGFONT</a> of a system font.
 
 ## -parameters
 
@@ -137,11 +137,11 @@ The font used for icons.
 
 Type: <b>LOGFONTW*</b>
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-logfonta">LOGFONT</a> structure that receives the font information from this function.
+Pointer to a <a href="/windows/desktop/api/wingdi/ns-wingdi-logfonta">LOGFONT</a> structure that receives the font information from this function.
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
@@ -149,7 +149,6 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 This function requires vssym32.h and uxtheme.h.
 
-If the theme data handle is not a <b>NULL</b> handle, this function returns the desired <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-logfonta">LOGFONT</a> from the SysMetrics section of the visual style. If the theme data handle is <b>NULL</b>, the function returns the value of the global system metric of the same type.
+If the theme data handle is not a <b>NULL</b> handle, this function returns the desired <a href="/windows/desktop/api/wingdi/ns-wingdi-logfonta">LOGFONT</a> from the SysMetrics section of the visual style. If the theme data handle is <b>NULL</b>, the function returns the value of the global system metric of the same type.
 
 The font is scaled in dots per inch for the current logical screen.
-

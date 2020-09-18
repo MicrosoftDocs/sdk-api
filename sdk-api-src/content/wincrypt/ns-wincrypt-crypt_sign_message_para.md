@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-The <b>CRYPT_SIGN_MESSAGE_PARA</b> structure contains information for signing messages using a specified signing <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate context</a>.
+The <b>CRYPT_SIGN_MESSAGE_PARA</b> structure contains information for signing messages using a specified signing <a href="/windows/desktop/SecGloss/c-gly">certificate context</a>.
 
 ## -struct-fields
 
@@ -64,7 +64,7 @@ Size of this structure in bytes.
 
 ### -field dwMsgEncodingType
 
-Type of encoding used. It is always acceptable to specify both the certificate and <a href="https://docs.microsoft.com/windows/desktop/SecGloss/m-gly">message encoding types</a> by combining them with a bitwise-<b>OR</b> operation as shown in the following example:
+Type of encoding used. It is always acceptable to specify both the certificate and <a href="/windows/desktop/SecGloss/m-gly">message encoding types</a> by combining them with a bitwise-<b>OR</b> operation as shown in the following example:
 
 X509_ASN_ENCODING | PKCS_7_ASN_ENCODING
 
@@ -78,9 +78,9 @@ Currently defined encoding types are:
 ### -field pSigningCert
 
 A pointer to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a> to be used in the signing.
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a> to be used in the signing.
 
-Either the CERT_KEY_PROV_INFO_PROP_ID, or CERT_KEY_CONTEXT_PROP_ID property must be set for the context to provide access to the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">private signature key</a>.
+Either the CERT_KEY_PROV_INFO_PROP_ID, or CERT_KEY_CONTEXT_PROP_ID property must be set for the context to provide access to the <a href="/windows/desktop/SecGloss/p-gly">private signature key</a>.
 
 ### -field HashAlgorithm
 
@@ -93,20 +93,20 @@ Not currently used, and must be set to <b>NULL</b>.
 ### -field cMsgCert
 
 Number of elements in the <b>rgpMsgCert</b> array of 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a> structures. If set to zero no certificates are included in the signed message.
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a> structures. If set to zero no certificates are included in the signed message.
 
 ### -field rgpMsgCert
 
-Array of pointers to <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a> structures to be included in the signed message. If the <b>pSigningCert</b> is to be included, a pointer to it must be in the <b>rgpMsgCert</b> array.
+Array of pointers to <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a> structures to be included in the signed message. If the <b>pSigningCert</b> is to be included, a pointer to it must be in the <b>rgpMsgCert</b> array.
 
 ### -field cMsgCrl
 
 Number of elements in the <b>rgpMsgCrl</b> array of pointers to 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crl_context">CRL_CONTEXT</a> structures. If set to zero, no <b>CRL_CONTEXT</b> structures are included in the signed message.
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-crl_context">CRL_CONTEXT</a> structures. If set to zero, no <b>CRL_CONTEXT</b> structures are included in the signed message.
 
 ### -field rgpMsgCrl
 
-Array of pointers to <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crl_context">CRL_CONTEXT</a> structures to be included in the signed message.
+Array of pointers to <a href="/windows/desktop/api/wincrypt/ns-wincrypt-crl_context">CRL_CONTEXT</a> structures to be included in the signed message.
 
 ### -field cAuthAttr
 
@@ -115,7 +115,7 @@ Number of elements in the <b>rgAuthAttr</b> array. If no authenticated attribute
 ### -field rgAuthAttr
 
 Array of pointers to 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_attribute">CRYPT_ATTRIBUTE</a> structures, each holding authenticated attribute information. If there are authenticated attributes present, the PKCS #9 standard dictates that there must be at least two attributes present, the content type <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly">object identifier</a> (OID), and the hash of the message itself. These attributes are automatically added by the system.
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-crypt_attribute">CRYPT_ATTRIBUTE</a> structures, each holding authenticated attribute information. If there are authenticated attributes present, the PKCS #9 standard dictates that there must be at least two attributes present, the content type <a href="/windows/desktop/SecGloss/o-gly">object identifier</a> (OID), and the hash of the message itself. These attributes are automatically added by the system.
 
 ### -field cUnauthAttr
 
@@ -124,19 +124,19 @@ Number of elements in the <b>rgUnauthAttr</b> array. If no unauthenticated attri
 ### -field rgUnauthAttr
 
 Array of pointers to 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_attribute">CRYPT_ATTRIBUTE</a> structures each holding an unauthenticated attribute information. Unauthenticated attributes can be used to contain <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">countersignatures</a>, among other uses.
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-crypt_attribute">CRYPT_ATTRIBUTE</a> structures each holding an unauthenticated attribute information. Unauthenticated attributes can be used to contain <a href="/windows/desktop/SecGloss/c-gly">countersignatures</a>, among other uses.
 
 ### -field dwFlags
 
-Normally zero. If the encoded output is to be a CMSG_SIGNED <a href="https://docs.microsoft.com/windows/desktop/SecGloss/i-gly">inner content</a> of an outer cryptographic message such as a CMSG_ENVELOPED message, the CRYPT_MESSAGE_BARE_CONTENT_OUT_FLAG must be set. If it is not set, the message will be encoded as an <i>inner content</i> type of CMSG_DATA. 
+Normally zero. If the encoded output is to be a CMSG_SIGNED <a href="/windows/desktop/SecGloss/i-gly">inner content</a> of an outer cryptographic message such as a CMSG_ENVELOPED message, the CRYPT_MESSAGE_BARE_CONTENT_OUT_FLAG must be set. If it is not set, the message will be encoded as an <i>inner content</i> type of CMSG_DATA. 
 
 
 
 
-CRYPT_MESSAGE_ENCAPSULATED_CONTENT_OUT_FLAG can be set to encapsulate non-data <a href="https://docs.microsoft.com/windows/desktop/SecGloss/i-gly">inner content</a> into an OCTET STRING. CRYPT_MESSAGE_KEYID_SIGNER_FLAG can be set to identify signers by their Key Identifier and not their Issuer and Serial Number.
+CRYPT_MESSAGE_ENCAPSULATED_CONTENT_OUT_FLAG can be set to encapsulate non-data <a href="/windows/desktop/SecGloss/i-gly">inner content</a> into an OCTET STRING. CRYPT_MESSAGE_KEYID_SIGNER_FLAG can be set to identify signers by their Key Identifier and not their Issuer and Serial Number.
 
 CRYPT_MESSAGE_SILENT_KEYSET_FLAG can be set to suppress any UI by the CSP. For more information about the CRYPT_SILENT flag, see 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptacquirecontexta">CryptAcquireContext</a>.
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptacquirecontexta">CryptAcquireContext</a>.
 
 ### -field dwInnerContentType
 
@@ -145,7 +145,7 @@ Normally zero. Set to the encoding type of the input message if that input to be
 ### -field HashEncryptionAlgorithm
 
 A 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_algorithm_identifier">CRYPT_ALGORITHM_IDENTIFIER</a>. If present and not <b>NULL</b>, it is used instead of the signer's certificate <b>PublicKeyInfo.Algorithm</b> member. Note that for RSA, the hash encryption algorithm is normally the same as the public key algorithm. For DSA, the hash encryption algorithm is normally a DSS signature algorithm. This member can only be used if CRYPT_SIGN_MESSAGE_PARA_HAS_CMS_FIELDS is defined.
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-crypt_algorithm_identifier">CRYPT_ALGORITHM_IDENTIFIER</a>. If present and not <b>NULL</b>, it is used instead of the signer's certificate <b>PublicKeyInfo.Algorithm</b> member. Note that for RSA, the hash encryption algorithm is normally the same as the public key algorithm. For DSA, the hash encryption algorithm is normally a DSS signature algorithm. This member can only be used if CRYPT_SIGN_MESSAGE_PARA_HAS_CMS_FIELDS is defined.
 
 ### -field pvHashEncryptionAuxInfo
 
@@ -157,25 +157,24 @@ The <b>HashEncryptionAlgorithm</b> and <b>pvHashEncryptionAuxInfo</b> members ca
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a>
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crl_context">CRL_CONTEXT</a>
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-crl_context">CRL_CONTEXT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_algorithm_identifier">CRYPT_ALGORITHM_IDENTIFIER</a>
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-crypt_algorithm_identifier">CRYPT_ALGORITHM_IDENTIFIER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_attribute">CRYPT_ATTRIBUTE</a>
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-crypt_attribute">CRYPT_ATTRIBUTE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptsignandencryptmessage">CryptSignAndEncryptMessage</a>
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptsignandencryptmessage">CryptSignAndEncryptMessage</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptsignmessage">CryptSignMessage</a>
-
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptsignmessage">CryptSignMessage</a>

@@ -60,18 +60,18 @@ The bitmask indicating the events for which the plug-in is to receive notificati
 
 ## -returns
 
-For a description of the return values, see <a href="https://docs.microsoft.com/windows/desktop/tablet/realtimestylus-classes-and-interfaces">RealTimeStylus Classes and Interfaces</a>.
+For a description of the return values, see <a href="/windows/desktop/tablet/realtimestylus-classes-and-interfaces">RealTimeStylus Classes and Interfaces</a>.
 
 ## -remarks
 
 The default is <b>RTSDI_None</b>.
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/rtscom/ne-rtscom-realtimestylusdatainterest">RealTimeStylusDataInterest Enumeration</a> enumeration bitmask is retrieved every time a plug-in is enabled or disabled. The <b>DataInterest</b> mask of a plug-in is queried by the <a href="https://docs.microsoft.com/windows/desktop/tablet/realtimestylus-class">RealTimeStylus Class</a> object when the plug-in has been added to the plug-in collections.
+The <a href="/windows/desktop/api/rtscom/ne-rtscom-realtimestylusdatainterest">RealTimeStylusDataInterest Enumeration</a> enumeration bitmask is retrieved every time a plug-in is enabled or disabled. The <b>DataInterest</b> mask of a plug-in is queried by the <a href="/windows/desktop/tablet/realtimestylus-class">RealTimeStylus Class</a> object when the plug-in has been added to the plug-in collections.
 
 
 #### Examples
 
-The following C++ example implements a <b>IStylusPlugin::DataInterest Method</b> method that sets up a plug-in to receive <a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nf-rtscom-istylusplugin-stylusdown">IStylusPlugin::StylusDown Method</a>, <a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nf-rtscom-istylusplugin-packets">IStylusPlugin::Packets Method</a>, <a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nf-rtscom-istylusplugin-stylusup">IStylusPlugin::StylusUp Method</a>, <a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nf-rtscom-istylusplugin-stylusinrange">IStylusPlugin::StylusInRange Method</a> and <a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nf-rtscom-istylusplugin-error">IStylusPlugin::Error Method</a> notifications.
+The following C++ example implements a <b>IStylusPlugin::DataInterest Method</b> method that sets up a plug-in to receive <a href="/windows/desktop/api/rtscom/nf-rtscom-istylusplugin-stylusdown">IStylusPlugin::StylusDown Method</a>, <a href="/windows/desktop/api/rtscom/nf-rtscom-istylusplugin-packets">IStylusPlugin::Packets Method</a>, <a href="/windows/desktop/api/rtscom/nf-rtscom-istylusplugin-stylusup">IStylusPlugin::StylusUp Method</a>, <a href="/windows/desktop/api/rtscom/nf-rtscom-istylusplugin-stylusinrange">IStylusPlugin::StylusInRange Method</a> and <a href="/windows/desktop/api/rtscom/nf-rtscom-istylusplugin-error">IStylusPlugin::Error Method</a> notifications.
 
 
 ```cpp
@@ -88,25 +88,24 @@ STDMETHODIMP CPacketModifier::DataInterest(
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms701168(v=vs.85)">DynamicRenderer Class</a>
+<a href="/previous-versions/windows/desktop/legacy/ms701168(v=vs.85)">DynamicRenderer Class</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nf-rtscom-irealtimestylus-setdesiredpacketdescription">IRealTimeStylus::SetDesiredPacketDescription Method</a>
+<a href="/windows/desktop/api/rtscom/nf-rtscom-irealtimestylus-setdesiredpacketdescription">IRealTimeStylus::SetDesiredPacketDescription Method</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nn-rtscom-istylusasyncplugin">IStylusAsyncPlugin</a>
+<a href="/windows/desktop/api/rtscom/nn-rtscom-istylusasyncplugin">IStylusAsyncPlugin</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nn-rtscom-istylusplugin">IStylusPlugin Interface</a>
+<a href="/windows/desktop/api/rtscom/nn-rtscom-istylusplugin">IStylusPlugin Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nn-rtscom-istylussyncplugin">IStylusSyncPlugin</a>
+<a href="/windows/desktop/api/rtscom/nn-rtscom-istylussyncplugin">IStylusSyncPlugin</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rtscom/ne-rtscom-realtimestylusdatainterest">RealTimeStylusDataInterest Enumeration</a>
-
+<a href="/windows/desktop/api/rtscom/ne-rtscom-realtimestylusdatainterest">RealTimeStylusDataInterest Enumeration</a>

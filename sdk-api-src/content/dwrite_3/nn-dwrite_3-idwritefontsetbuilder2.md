@@ -42,9 +42,8 @@ api_name:
 
 Contains methods for building a font set.
 
-This interface extends [IDWriteFontSetBuilder1](/windows/win32/api/dwrite_3/nn-dwrite_3-idwritefontsetbuilder1).
+This interface extends [IDWriteFontSetBuilder1](./nn-dwrite_3-idwritefontsetbuilder1.md).
 
 ## -see-also
 
-[IDWriteFontSetBuilder1](/windows/win32/api/dwrite_3/nn-dwrite_3-idwritefontsetbuilder1)
-
+[IDWriteFontSetBuilder1](./nn-dwrite_3-idwritefontsetbuilder1.md)

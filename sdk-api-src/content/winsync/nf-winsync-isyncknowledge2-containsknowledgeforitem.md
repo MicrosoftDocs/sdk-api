@@ -120,13 +120,12 @@ Invalid pointer.
 
 ## -remarks
 
-Another way to obtain the same result is to pass <i>pbItemId</i> to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nf-winsync-isyncknowledge-projectontoitem">ISyncKnowledge::ProjectOntoItem</a> method of <i>pKnowledge</i>, and then take the resulting projected knowledge and pass it to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nf-winsync-isyncknowledge-containsknowledge">ISyncKnowledge::ContainsKnowledge</a> method of this object.
+Another way to obtain the same result is to pass <i>pbItemId</i> to the <a href="/previous-versions/windows/desktop/api/winsync/nf-winsync-isyncknowledge-projectontoitem">ISyncKnowledge::ProjectOntoItem</a> method of <i>pKnowledge</i>, and then take the resulting projected knowledge and pass it to the <a href="/previous-versions/windows/desktop/api/winsync/nf-winsync-isyncknowledge-containsknowledge">ISyncKnowledge::ContainsKnowledge</a> method of this object.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncknowledge">ISyncKnowledge Interface</a>
+<a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncknowledge">ISyncKnowledge Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncknowledge2">ISyncKnowledge2 Interface</a>
-
+<a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncknowledge2">ISyncKnowledge2 Interface</a>

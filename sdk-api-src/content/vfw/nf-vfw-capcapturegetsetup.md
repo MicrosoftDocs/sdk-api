@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>capCaptureGetSetup</b> macro retrieves the current settings of the streaming capture parameters. You can use this macro or explictly send the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/wm-cap-get-sequence-setup">WM_CAP_GET_SEQUENCE_SETUP</a> message.
+The <b>capCaptureGetSetup</b> macro retrieves the current settings of the streaming capture parameters. You can use this macro or explictly send the <a href="/windows/desktop/Multimedia/wm-cap-get-sequence-setup">WM_CAP_GET_SEQUENCE_SETUP</a> message.
 
 ## -parameters
 
@@ -60,7 +60,7 @@ Handle to a capture window.
 
 ### -param s
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/vfw/ns-vfw-captureparms">CAPTUREPARMS</a> structure.
+Pointer to a <a href="/windows/desktop/api/vfw/ns-vfw-captureparms">CAPTUREPARMS</a> structure.
 
 ### -param wSize
 
@@ -68,13 +68,12 @@ Size, in bytes, of the structure referenced by s.
 
 ## -remarks
 
-For information about the parameters used to control streaming capture, see the <a href="https://docs.microsoft.com/windows/desktop/api/vfw/ns-vfw-captureparms">CAPTUREPARMS</a> structure.
+For information about the parameters used to control streaming capture, see the <a href="/windows/desktop/api/vfw/ns-vfw-captureparms">CAPTUREPARMS</a> structure.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-capture">Video Capture</a>
+<a href="/windows/desktop/Multimedia/video-capture">Video Capture</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-capture-macros">Video Capture Macros</a>
-
+<a href="/windows/desktop/Multimedia/video-capture-macros">Video Capture Macros</a>

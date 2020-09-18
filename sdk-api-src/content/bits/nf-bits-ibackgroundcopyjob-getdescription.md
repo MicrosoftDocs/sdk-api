@@ -57,7 +57,7 @@ Retrieves the description of the job.
 ### -param pVal [out]
 
 Null-terminated string that contains a short description of the job. Call the 
-<a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a> function to free <i>ppDescription</i> when done.
+<a href="/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a> function to free <i>ppDescription</i> when done.
 
 ## -returns
 
@@ -94,5 +94,4 @@ The parameter, <i>ppDescription</i>, cannot be <b>NULL</b>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-setdescription">IBackgroundCopyJob::SetDescription</a>
-
+<a href="/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-setdescription">IBackgroundCopyJob::SetDescription</a>

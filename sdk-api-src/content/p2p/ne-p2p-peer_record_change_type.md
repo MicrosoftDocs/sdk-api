@@ -74,13 +74,12 @@ Indicates that the specified record is expired and removed from the peer graph o
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_event_record_change_data">PEER_EVENT_RECORD_CHANGE_DATA</a>
+<a href="/windows/desktop/api/p2p/ns-p2p-peer_event_record_change_data">PEER_EVENT_RECORD_CHANGE_DATA</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nc-p2p-pfnpeer_secure_record">PFNPEER_SECURE_RECORD</a>
+<a href="/windows/desktop/api/p2p/nc-p2p-pfnpeer_secure_record">PFNPEER_SECURE_RECORD</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nc-p2p-pfnpeer_validate_record">PFNPEER_VALIDATE_RECORD</a>
-
+<a href="/windows/desktop/api/p2p/nc-p2p-pfnpeer_validate_record">PFNPEER_VALIDATE_RECORD</a>

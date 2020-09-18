@@ -50,37 +50,36 @@ api_name:
 
 ## -description
 
-Creates a <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/ns-d2d1_1-d2d1_image_brush_properties">D2D1_IMAGE_BRUSH_PROPERTIES</a> structure.
+Creates a <a href="/windows/desktop/api/d2d1_1/ns-d2d1_1-d2d1_image_brush_properties">D2D1_IMAGE_BRUSH_PROPERTIES</a> structure.
 
 ## -parameters
 
 ### -param sourceRectangle
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/Direct2D/d2d1-rect-f">D2D1_RECT_F</a></b>
+Type: <b><a href="/windows/desktop/Direct2D/d2d1-rect-f">D2D1_RECT_F</a></b>
 
 The source rectangle in the image space from which the image will be tiled or interpolated.
 
 ### -param extendModeX
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1/ne-d2d1-d2d1_extend_mode">D2D1_EXTEND_MODE</a></b>
+Type: <b><a href="/windows/desktop/api/d2d1/ne-d2d1-d2d1_extend_mode">D2D1_EXTEND_MODE</a></b>
 
 The extend mode in the image x-axis.
 
 ### -param extendModeY
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1/ne-d2d1-d2d1_extend_mode">D2D1_EXTEND_MODE</a></b>
+Type: <b><a href="/windows/desktop/api/d2d1/ne-d2d1-d2d1_extend_mode">D2D1_EXTEND_MODE</a></b>
 
 The extend mode in the image y-axis.
 
 ### -param interpolationMode
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/ne-d2d1_1-d2d1_interpolation_mode">D2D1_INTERPOLATION_MODE</a></b>
+Type: <b><a href="/windows/desktop/api/d2d1_1/ne-d2d1_1-d2d1_interpolation_mode">D2D1_INTERPOLATION_MODE</a></b>
 
 The interpolation mode to use when scaling the image brush.
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/ns-d2d1_1-d2d1_image_brush_properties">D2D1_IMAGE_BRUSH_PROPERTIES</a></b>
+Type: <b><a href="/windows/desktop/api/d2d1_1/ns-d2d1_1-d2d1_image_brush_properties">D2D1_IMAGE_BRUSH_PROPERTIES</a></b>
 
 The struct that describes the image brush.
-

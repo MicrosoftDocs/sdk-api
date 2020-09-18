@@ -64,23 +64,22 @@ The name of the server. If the caller is not the client, this parameter is <b>NU
 
 ### -param pRequestedIssuancePolicy [in, optional]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_usage_match">CERT_USAGE_MATCH</a> structure that specifies identifiers that the certificate must match to be validated.
+A pointer to a <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_usage_match">CERT_USAGE_MATCH</a> structure that specifies identifiers that the certificate must match to be validated.
 
 ### -param phAdditionalCertStore [in, optional]
 
-A handle to a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate store</a> that contains additional certificates used for the authentication.
+A handle to a <a href="/windows/desktop/SecGloss/c-gly">certificate store</a> that contains additional certificates used for the authentication.
 
 ### -param pCert [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a> structure that specifies the certificate to validate.
+A pointer to a <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a> structure that specifies the certificate to validate.
 
 ### -param pProvGUID [out, optional]
 
-A pointer to  a <b>GUID</b> structure that receives the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security support provider</a> (SSP) used for the authentication.
+A pointer to  a <b>GUID</b> structure that receives the <a href="/windows/desktop/SecGloss/s-gly">security support provider</a> (SSP) used for the authentication.
 
 ## -returns
 
 If the function succeeds, return <b>STATUS_SUCCESS</b>.
 
 If the function fails, return an <b>NTSTATUS</b> code that indicates the reason it failed.
-

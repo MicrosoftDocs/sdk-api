@@ -66,13 +66,12 @@ The closed upper bound of item IDs that are contained in the range.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nf-winsync-iknowledgesyncprovider-processfullenumerationchangebatch">IKnowledgeSyncProvider::ProcessFullEnumerationChangeBatch Method</a>
+<a href="/previous-versions/windows/desktop/api/winsync/nf-winsync-iknowledgesyncprovider-processfullenumerationchangebatch">IKnowledgeSyncProvider::ProcessFullEnumerationChangeBatch Method</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nf-winsync-isyncknowledge-projectontochangeunit">ISyncKnowledge::ProjectOntoRange Method</a>
+<a href="/previous-versions/windows/desktop/api/winsync/nf-winsync-isyncknowledge-projectontochangeunit">ISyncKnowledge::ProjectOntoRange Method</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/winsync/windows-sync-structures">Windows Sync Structures</a>
-
+<a href="/previous-versions/windows/desktop/winsync/windows-sync-structures">Windows Sync Structures</a>

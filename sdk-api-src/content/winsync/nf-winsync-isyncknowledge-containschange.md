@@ -109,9 +109,8 @@ The specified change is not contained in the knowledge.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncknowledge">ISyncKnowledge Interface</a>
+<a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncknowledge">ISyncKnowledge Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsync/ns-winsync-sync_version">SYNC_VERSION Structure</a>
-
+<a href="/windows/desktop/api/winsync/ns-winsync-sync_version">SYNC_VERSION Structure</a>

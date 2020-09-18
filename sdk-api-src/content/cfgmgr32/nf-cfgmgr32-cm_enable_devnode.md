@@ -70,13 +70,12 @@ If the operation succeeds, the function returns CR_SUCCESS. Otherwise, it return
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_open_class_keyw">CM_Disable_DevNode</a>
+<a href="/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_open_class_keyw">CM_Disable_DevNode</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/install/dif-propertychange">DIF_PROPERTYCHANGE</a>
+<a href="/windows-hardware/drivers/install/dif-propertychange">DIF_PROPERTYCHANGE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdicallclassinstaller">SetupDiCallClassInstaller</a>
-
+<a href="/windows/desktop/api/setupapi/nf-setupapi-setupdicallclassinstaller">SetupDiCallClassInstaller</a>

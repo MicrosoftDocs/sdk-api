@@ -54,7 +54,7 @@ The <b>IX509EnrollmentHelper</b> interface defines methods that enable a web app
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IX509EnrollmentHelper</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IX509EnrollmentHelper</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IX509EnrollmentHelper</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IX509EnrollmentHelper</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IX509EnrollmentHelper</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509enrollmenthelper-addenrollmentserver">AddEnrollmentServer</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-ix509enrollmenthelper-addenrollmentserver">AddEnrollmentServer</a>
 </td>
 <td align="left" width="63%">
 Saves certificate enrollment server (CES) access credentials in the credential cache.
@@ -80,7 +80,7 @@ Saves certificate enrollment server (CES) access credentials in the credential c
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509enrollmenthelper-addpolicyserver">AddPolicyServer</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-ix509enrollmenthelper-addpolicyserver">AddPolicyServer</a>
 </td>
 <td align="left" width="63%">
 Registers a certificate enrollment policy (CEP) server and saves CEP access credentials in the credential cache.
@@ -91,7 +91,7 @@ Registers a certificate enrollment policy (CEP) server and saves CEP access cred
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509enrollmenthelper-enroll">Enroll</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-ix509enrollmenthelper-enroll">Enroll</a>
 </td>
 <td align="left" width="63%">
 Enrolls a certificate request and retrieves the issued certificate.
@@ -102,7 +102,7 @@ Enrolls a certificate request and retrieves the issued certificate.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509enrollmenthelper-initialize">Initialize</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-ix509enrollmenthelper-initialize">Initialize</a>
 </td>
 <td align="left" width="63%">
 Initializes an <b>IX509EnrollmentHelper</b> object.
@@ -110,4 +110,3 @@ Initializes an <b>IX509EnrollmentHelper</b> object.
 </td>
 </tr>
 </table>
-

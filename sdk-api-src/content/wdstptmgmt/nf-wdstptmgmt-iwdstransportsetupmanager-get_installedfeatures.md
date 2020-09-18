@@ -60,9 +60,8 @@ This property is read/write.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wdstptmgmt/nn-wdstptmgmt-iwdstransportsetupmanager">IWdsTransportSetupManager</a>
+<a href="/windows/desktop/api/wdstptmgmt/nn-wdstptmgmt-iwdstransportsetupmanager">IWdsTransportSetupManager</a>
 
 
 
 <a href="/windows/win32/api/wdstptmgmt/ne-wdstptmgmt-wdstransport_feature_flags">WDSTRANSPORT_FEATURE_FLAGS</a>
-

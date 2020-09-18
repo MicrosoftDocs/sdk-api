@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Allocates memory for a safe array, based on a descriptor created with <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-safearrayallocdescriptor">SafeArrayAllocDescriptor</a>.
+Allocates memory for a safe array, based on a descriptor created with <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-safearrayallocdescriptor">SafeArrayAllocDescriptor</a>.
 
 ## -parameters
 
 ### -param psa [in]
 
-A safe array descriptor created by <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-safearrayallocdescriptor">SafeArrayAllocDescriptor</a>.
+A safe array descriptor created by <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-safearrayallocdescriptor">SafeArrayAllocDescriptor</a>.
 
 ## -returns
 
@@ -101,4 +101,3 @@ The array could not be locked.
 </td>
 </tr>
 </table>
-

@@ -60,9 +60,8 @@ A handle to the cluster containing the groupset.
 
 ## -returns
 
-If successful, returns a handle suitable for use with <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/nf-clusapi-clustergroupsetenum">ClusterGroupSetEnum</a>
+If successful, returns a handle suitable for use with <a href="/previous-versions/windows/desktop/api/clusapi/nf-clusapi-clustergroupsetenum">ClusterGroupSetEnum</a>
 
 
 If the operation fails, 
-the function returns <b>NULL</b>. For more information about the error, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
-
+the function returns <b>NULL</b>. For more information about the error, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.

@@ -62,7 +62,7 @@ The selection of a word entry can be performed by a combination of<ul>
 
 ### -param pwchFirst [in]
 
-A text string against which <a href="https://docs.microsoft.com/windows/desktop/api/msime/nn-msime-ifedictionary">IFEDictionary</a> entries are matched; the value must be one of the following:
+A text string against which <a href="/windows/desktop/api/msime/nn-msime-ifedictionary">IFEDictionary</a> entries are matched; the value must be one of the following:
 
 <table>
 <tr>
@@ -99,7 +99,7 @@ This can be an initial text string when a range of words is to be retrieved, in 
 
 ### -param pwchLast [in]
 
-A text string that is used to end a text string. This must contain the same value as <b>pwchReading</b> in the <a href="https://docs.microsoft.com/windows/desktop/api/msime/ns-msime-imewrd">IMEWRD</a> structure when a retrieval is performed by a single value; that is, not by a range value. The value must be one of the following:
+A text string that is used to end a text string. This must contain the same value as <b>pwchReading</b> in the <a href="/windows/desktop/api/msime/ns-msime-imewrd">IMEWRD</a> structure when a retrieval is performed by a single value; that is, not by a range value. The value must be one of the following:
 
 <table>
 <tr>
@@ -134,7 +134,7 @@ Hiragana string ending in "*" (specifying only leading characters of text).
 
 ### -param pwchDisplay [in]
 
-A display string against which <a href="https://docs.microsoft.com/windows/desktop/api/msime/nn-msime-ifedictionary">IFEDictionary</a> entries are matched; the value must be one of the following:
+A display string against which <a href="/windows/desktop/api/msime/nn-msime-ifedictionary">IFEDictionary</a> entries are matched; the value must be one of the following:
 
 <table>
 <tr>
@@ -345,7 +345,7 @@ Specifies the query output of a word. This is a combination of one or more of th
 
 ### -param ulWordSrc [in]
 
-Specifies the word source. When the <a href="https://docs.microsoft.com/windows/desktop/api/msime/nn-msime-ifedictionary">IFEDictionary</a> is a user dictionary, this is a combination of one or more of the following flags:
+Specifies the word source. When the <a href="/windows/desktop/api/msime/nn-msime-ifedictionary">IFEDictionary</a> is a user dictionary, this is a combination of one or more of the following flags:
 
 <a id="IFED_REG_NONE"></a>
 <a id="ifed_reg_none"></a>
@@ -387,7 +387,7 @@ The size of <i>pchBuffer</i>.
 
 ### -param pcWrd [out]
 
-The number of <a href="https://docs.microsoft.com/windows/desktop/api/msime/ns-msime-imewrd">IMEWRD</a> structures returned in <i>pchBuffer</i>. If more entries are found than <i>pchBuffer</i> can store, <b>IFED_S_MORE_ENTRIES</b> will be returned.
+The number of <a href="/windows/desktop/api/msime/ns-msime-imewrd">IMEWRD</a> structures returned in <i>pchBuffer</i>. If more entries are found than <i>pchBuffer</i> can store, <b>IFED_S_MORE_ENTRIES</b> will be returned.
 
 ## -returns
 
@@ -413,7 +413,7 @@ This method can return one of these values.
 </dl>
 </td>
 <td width="60%">
-The client must call <a href="https://docs.microsoft.com/windows/desktop/api/msime/nf-msime-ifedictionary-nextwords">NextWords</a> to get additional <a href="https://docs.microsoft.com/windows/desktop/api/msime/ns-msime-imewrd">IMEWRD</a> structures.
+The client must call <a href="/windows/desktop/api/msime/nf-msime-ifedictionary-nextwords">NextWords</a> to get additional <a href="/windows/desktop/api/msime/ns-msime-imewrd">IMEWRD</a> structures.
 
 </td>
 </tr>
@@ -445,13 +445,12 @@ The client must call <a href="https://docs.microsoft.com/windows/desktop/api/msi
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msime/nn-msime-ifedictionary">IFEDictionary</a>
+<a href="/windows/desktop/api/msime/nn-msime-ifedictionary">IFEDictionary</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msime/ns-msime-imewrd">IMEWRD</a>
+<a href="/windows/desktop/api/msime/ns-msime-imewrd">IMEWRD</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msime/nf-msime-ifedictionary-nextwords">NextWords</a>
-
+<a href="/windows/desktop/api/msime/nf-msime-ifedictionary-nextwords">NextWords</a>

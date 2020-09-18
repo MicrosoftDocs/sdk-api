@@ -59,7 +59,7 @@ The DLL entry point name must be
 
 ### -param *requestDetails [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wsman/ns-wsman-wsman_plugin_request">WSMAN_PLUGIN_REQUEST</a> 
+A pointer to a <a href="/windows/desktop/api/wsman/ns-wsman-wsman_plugin_request">WSMAN_PLUGIN_REQUEST</a> 
       structure that specifies the resource URI, options, locale, shutdown flag, and handle for the request.
 
 ### -param flags [in]
@@ -78,6 +78,5 @@ If this request is aimed at a command and not a shell, this is the context retur
 
 ### -param *inboundConnectInformation [in, optional]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wsman/ns-wsman-wsman_data">WSMAN_DATA</a> structure that specifies an 
+A pointer to a <a href="/windows/desktop/api/wsman/ns-wsman-wsman_data">WSMAN_DATA</a> structure that specifies an 
       optional inbound object that contains extra data for the connection.
-

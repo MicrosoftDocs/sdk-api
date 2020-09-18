@@ -60,9 +60,8 @@ This property is read/write.
 
 ## -remarks
 
-If you do not specify a name, one is created when the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509privatekey-create">Create</a> method is called.
+If you do not specify a name, one is created when the <a href="/windows/desktop/api/certenroll/nf-certenroll-ix509privatekey-create">Create</a> method is called.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509privatekey">IX509PrivateKey</a>
-
+<a href="/windows/desktop/api/certenroll/nn-certenroll-ix509privatekey">IX509PrivateKey</a>

@@ -60,11 +60,11 @@ Handle to the driver to use.
 
 ### -param lpbiIn
 
-Pointer to a structure containing the format of the compressed data. For bitmaps, this is a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-bitmapinfoheader">BITMAPINFOHEADER</a> structure.
+Pointer to a structure containing the format of the compressed data. For bitmaps, this is a <a href="/windows/desktop/api/wingdi/ns-wingdi-bitmapinfoheader">BITMAPINFOHEADER</a> structure.
 
 ### -param lpbiOut
 
-Pointer to a structure to return the suggested format. The drawing handler can receive and draw data from this format. For bitmaps, this is a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-bitmapinfoheader">BITMAPINFOHEADER</a> structure.
+Pointer to a structure to return the suggested format. The drawing handler can receive and draw data from this format. For bitmaps, this is a <a href="/windows/desktop/api/wingdi/ns-wingdi-bitmapinfoheader">BITMAPINFOHEADER</a> structure.
 
 ### -param dxSrc
 
@@ -94,25 +94,24 @@ Returns <b>ICERR_OK</b> if successful or an error otherwise.
 
 Applications can use this function to determine alternative input formats that a drawing handler can decompress and if the drawing handler can stretch data. If the drawing handler cannot stretch data as requested, the application might have to stretch the data.
 
-If the drawing handler cannot decompress a format provided by an application, use the <a href="https://docs.microsoft.com/windows/desktop/api/vfw/nf-vfw-icdecompress">ICDecompress</a>, <a href="https://docs.microsoft.com/windows/desktop/api/vfw/nf-vfw-icdecompressex">ICDecompressEx</a>, j, <a href="https://docs.microsoft.com/windows/desktop/api/vfw/nf-vfw-icdecompressexquery">ICDecompressExQuery</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/vfw/nf-vfw-icdecompressopen">ICDecompressOpen</a> functions to obtain alternate formats.
+If the drawing handler cannot decompress a format provided by an application, use the <a href="/windows/desktop/api/vfw/nf-vfw-icdecompress">ICDecompress</a>, <a href="/windows/desktop/api/vfw/nf-vfw-icdecompressex">ICDecompressEx</a>, j, <a href="/windows/desktop/api/vfw/nf-vfw-icdecompressexquery">ICDecompressExQuery</a>, and <a href="/windows/desktop/api/vfw/nf-vfw-icdecompressopen">ICDecompressOpen</a> functions to obtain alternate formats.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vfw/nf-vfw-icdecompressex">ICDecompressEx</a>
+<a href="/windows/desktop/api/vfw/nf-vfw-icdecompressex">ICDecompressEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vfw/nf-vfw-icdecompressexbegin">ICDecompressExBegin</a>
+<a href="/windows/desktop/api/vfw/nf-vfw-icdecompressexbegin">ICDecompressExBegin</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vfw/nf-vfw-icdecompressexquery">ICDecompressExQuery</a>
+<a href="/windows/desktop/api/vfw/nf-vfw-icdecompressexquery">ICDecompressExQuery</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-compression-functions">Video Compression Functions</a>
+<a href="/windows/desktop/Multimedia/video-compression-functions">Video Compression Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-compression-manager">Video Compression Manager</a>
-
+<a href="/windows/desktop/Multimedia/video-compression-manager">Video Compression Manager</a>

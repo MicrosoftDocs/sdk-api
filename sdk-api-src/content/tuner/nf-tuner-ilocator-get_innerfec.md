@@ -56,7 +56,7 @@ The <b>get_InnerFEC</b> method gets the type of inner FEC that is used.
 
 ### -param FEC [out]
 
-Pointer to a variable of type <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/fecmethod">FECMethod</a> that receives the type of inner FEC.
+Pointer to a variable of type <a href="/previous-versions/windows/desktop/mstv/fecmethod">FECMethod</a> that receives the type of inner FEC.
 
 ## -returns
 
@@ -64,17 +64,16 @@ Returns S_OK if successful. If the method fails, error information can be retrie
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-ilocator">ILocator</a>
+<a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-ilocator">ILocator</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/dd693581(v=vs.85)">get_InnerFECRate</a>
+<a href="/previous-versions/dd693581(v=vs.85)">get_InnerFECRate</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/dd693582(v=vs.85)">get_OuterFEC</a>
+<a href="/previous-versions/dd693582(v=vs.85)">get_OuterFEC</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/dd693585(v=vs.85)">put_InnerFEC</a>
-
+<a href="/previous-versions/dd693585(v=vs.85)">put_InnerFEC</a>

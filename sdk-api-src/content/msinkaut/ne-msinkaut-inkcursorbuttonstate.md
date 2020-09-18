@@ -75,9 +75,8 @@ The CursorButton state for the mouse is always <b>CursorUnavailable</b> when the
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/tablet/inkcollector-cursorinrange">CursorInRange Event</a>
+<a href="/windows/desktop/tablet/inkcollector-cursorinrange">CursorInRange Event</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkcursorbutton-get_state">State Property</a>
-
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkcursorbutton-get_state">State Property</a>

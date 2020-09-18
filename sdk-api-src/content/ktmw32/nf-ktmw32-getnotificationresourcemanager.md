@@ -61,7 +61,7 @@ A handle  to the resource manager.
 
 ### -param TransactionNotification [out]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/ktmtypes/ns-ktmtypes-transaction_notification">TRANSACTION_NOTIFICATION</a> 
+A pointer to a <a href="/windows/desktop/api/ktmtypes/ns-ktmtypes-transaction_notification">TRANSACTION_NOTIFICATION</a> 
       structure that receives the first available notification.
 
 ### -param NotificationLength [in]
@@ -85,7 +85,7 @@ If the function succeeds, the return value is nonzero.
       
 
 If the function fails, the return value is zero (0). To get extended error information, call the 
-       <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function.
+       <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function.
 
  The following list identifies the possible error codes:
 
@@ -94,37 +94,36 @@ If the function fails, the return value is zero (0). To get extended error infor
 All resource managers must register to receive <b>TRANSACTION_NOTIFY_PREPREPARE</b>, 
      <b>TRANSACTION_NOTIFY_PREPARE</b>, and <b>TRANSACTION_NOTIFY_COMMIT</b> 
      notifications, even if they subsequently call 
-     <a href="https://docs.microsoft.com/windows/desktop/api/ktmw32/nf-ktmw32-readonlyenlistment">ReadOnlyEnlistment</a> to mark an enlistment as 
+     <a href="/windows/desktop/api/ktmw32/nf-ktmw32-readonlyenlistment">ReadOnlyEnlistment</a> to mark an enlistment as 
      read-only. Resource managers can support <b>TRANSACTION_NOTIFY_SINGLE_PHASE_COMMIT</b>, but 
      they must also support the multi-phase pre-prepare, prepare, and commit notifications. For the list of all 
      notifications that resource managers can receive, see 
-     <a href="https://docs.microsoft.com/windows/desktop/api/ktmtypes/ns-ktmtypes-transaction_notification">TRANSACTION_NOTIFICATION</a>.
+     <a href="/windows/desktop/api/ktmtypes/ns-ktmtypes-transaction_notification">TRANSACTION_NOTIFICATION</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ktmw32/nf-ktmw32-createenlistment">CreateEnlistment</a>
+<a href="/windows/desktop/api/ktmw32/nf-ktmw32-createenlistment">CreateEnlistment</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ktmw32/nf-ktmw32-getnotificationresourcemanagerasync">GetNotificationResourceManagerAsync</a>
+<a href="/windows/desktop/api/ktmw32/nf-ktmw32-getnotificationresourcemanagerasync">GetNotificationResourceManagerAsync</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Ktm/kernel-transaction-manager-functions">Kernel Transaction Manager Functions</a>
+<a href="/windows/desktop/Ktm/kernel-transaction-manager-functions">Kernel Transaction Manager Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Ktm/notification-mask">NOTIFICATION_MASK</a>
+<a href="/windows/desktop/Ktm/notification-mask">NOTIFICATION_MASK</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ktmw32/nf-ktmw32-setresourcemanagercompletionport">SetResourceManagerCompletionPort</a>
+<a href="/windows/desktop/api/ktmw32/nf-ktmw32-setresourcemanagercompletionport">SetResourceManagerCompletionPort</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ktmtypes/ns-ktmtypes-transaction_notification">TRANSACTION_NOTIFICATION</a>
+<a href="/windows/desktop/api/ktmtypes/ns-ktmtypes-transaction_notification">TRANSACTION_NOTIFICATION</a>
 
 
 
 <a href="/windows/win32/api/ktmtypes/ns-ktmtypes-transaction_notification_recovery_argument">TRANSACTION_NOTIFICATION_RECOVERY_ARGUMENT</a>
-

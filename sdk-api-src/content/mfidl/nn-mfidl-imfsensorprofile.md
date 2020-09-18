@@ -54,7 +54,7 @@ Describes a media foundation sensor profile.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFSensorProfile</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFSensorProfile</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFSensorProfile</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFSensorProfile</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IMFSensorProfile</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfsensorprofile-addblockedcontrol">AddBlockedControl</a>
+<a href="/windows/desktop/api/mfidl/nf-mfidl-imfsensorprofile-addblockedcontrol">AddBlockedControl</a>
 </td>
 <td align="left" width="63%">
     Adds the specified blocked control .
@@ -78,7 +78,7 @@ The <b>IMFSensorProfile</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfsensorprofile-addprofilefilter">AddProfileFilter</a>
+<a href="/windows/desktop/api/mfidl/nf-mfidl-imfsensorprofile-addprofilefilter">AddProfileFilter</a>
 </td>
 <td align="left" width="63%">
 Adds a profile filter to the specified media stream.
@@ -87,7 +87,7 @@ Adds a profile filter to the specified media stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfsensorprofile-getprofileid">GetProfileId</a>
+<a href="/windows/desktop/api/mfidl/nf-mfidl-imfsensorprofile-getprofileid">GetProfileId</a>
 </td>
 <td align="left" width="63%">
 Retrieves the sensor profile ID.
@@ -96,7 +96,7 @@ Retrieves the sensor profile ID.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfsensorprofile-ismediatypesupported">IsMediaTypeSupported</a>
+<a href="/windows/desktop/api/mfidl/nf-mfidl-imfsensorprofile-ismediatypesupported">IsMediaTypeSupported</a>
 </td>
 <td align="left" width="63%">
 Determines if a media stream supports the specified media type.
@@ -104,4 +104,3 @@ Determines if a media stream supports the specified media type.
 </td>
 </tr>
 </table>
-

@@ -168,7 +168,7 @@ Specifies the encryption level.
 
 ### -field ColorDepth
 
-Specifies the client monitor color depth. For possible values, see the <b>ColorDepth</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/ns-wtsapi32-wts_client_display">WTS_CLIENT_DISPLAY</a> structure.
+Specifies the client monitor color depth. For possible values, see the <b>ColorDepth</b> member of the <a href="/windows/desktop/api/wtsapi32/ns-wtsapi32-wts_client_display">WTS_CLIENT_DISPLAY</a> structure.
 
 ### -field ProtocolType
 
@@ -370,15 +370,15 @@ A string that contains a client product identifier.
 
 ### -field ClientSockAddress
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/wtsdefs/ns-wtsdefs-wts_sockaddr">WRDS_SOCKADDR</a> structure that contains socket address information.
+A <a href="/windows/desktop/api/wtsdefs/ns-wtsdefs-wts_sockaddr">WRDS_SOCKADDR</a> structure that contains socket address information.
 
 ### -field ClientTimeZone
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/wtsdefs/ns-wtsdefs-wts_time_zone_information">WRDS_TIME_ZONE_INFORMATION</a> structure that contains client time zone information.
+A <a href="/windows/desktop/api/wtsdefs/ns-wtsdefs-wts_time_zone_information">WRDS_TIME_ZONE_INFORMATION</a> structure that contains client time zone information.
 
 ### -field WRdsListenerSettings
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/wtsdefs/ns-wtsdefs-wrds_listener_settings">WRDS_LISTENER_SETTINGS</a> structure that contains listener settings.
+A <a href="/windows/desktop/api/wtsdefs/ns-wtsdefs-wrds_listener_settings">WRDS_LISTENER_SETTINGS</a> structure that contains listener settings.
 
 ### -field EventLogActivityId
 
@@ -399,4 +399,3 @@ The size, in bytes, of the <b>ContextData</b> array.
 ### -field ContextData
 
 An array of bytes that contains contextual data for the connection. The size of this array is specified in the <b>ContextSize</b> member.
-

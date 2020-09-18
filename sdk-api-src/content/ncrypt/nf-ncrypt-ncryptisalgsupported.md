@@ -56,11 +56,11 @@ The <b>NCryptIsAlgSupported</b> function determines if a CNG key storage provide
 
 ### -param hProvider [in]
 
-The handle of the key storage provider. This handle is obtained with the <a href="https://docs.microsoft.com/windows/desktop/api/ncrypt/nf-ncrypt-ncryptopenstorageprovider">NCryptOpenStorageProvider</a> function.
+The handle of the key storage provider. This handle is obtained with the <a href="/windows/desktop/api/ncrypt/nf-ncrypt-ncryptopenstorageprovider">NCryptOpenStorageProvider</a> function.
 
 ### -param pszAlgId [in]
 
-A pointer to a null-terminated Unicode string that identifies the cryptographic algorithm in question. This can be one of the standard <a href="https://docs.microsoft.com/windows/desktop/SecCNG/cng-algorithm-identifiers">CNG Algorithm Identifiers</a> or the identifier for another registered algorithm.
+A pointer to a null-terminated Unicode string that identifies the cryptographic algorithm in question. This can be one of the standard <a href="/windows/desktop/SecCNG/cng-algorithm-identifiers">CNG Algorithm Identifiers</a> or the identifier for another registered algorithm.
 
 ### -param dwFlags [in]
 
@@ -158,5 +158,4 @@ The provider does not support the specified algorithm.
 
 If the provider supports the algorithm, this function returns <b>ERROR_SUCCESS</b>. If the provider does not support the algorithm, and no other errors occurred, this function returns <b>NTE_NOT_SUPPORTED</b>.
 
-A service must not call this function from its <a href="https://msdn.microsoft.com/library/ms686321.aspx">StartService Function</a>. If a service calls this function from its StartService function, a deadlock can occur, and the service may stop responding.
-
+A service must not call this function from its <a href="/windows/win32/api/winsvc/nf-winsvc-startservicea">StartService Function</a>. If a service calls this function from its StartService function, a deadlock can occur, and the service may stop responding.

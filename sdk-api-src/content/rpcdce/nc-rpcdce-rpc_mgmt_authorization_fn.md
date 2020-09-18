@@ -139,9 +139,8 @@ When a client requests one of the server's remote management functions, the serv
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Rpc/authorization-functions">Authorization Functions</a>
+<a href="/windows/desktop/Rpc/authorization-functions">Authorization Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcmgmtsetauthorizationfn">RpcMgmtSetAuthorizationFn</a>
-
+<a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcmgmtsetauthorizationfn">RpcMgmtSetAuthorizationFn</a>

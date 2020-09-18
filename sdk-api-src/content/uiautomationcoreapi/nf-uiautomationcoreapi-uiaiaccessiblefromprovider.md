@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Retrieves an <a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nn-oleacc-iaccessible">IAccessible</a> implementation that provides Microsoft Active Accessibility data on behalf of a Microsoft UI Automation provider.
+Retrieves an <a href="/windows/desktop/api/oleacc/nn-oleacc-iaccessible">IAccessible</a> implementation that provides Microsoft Active Accessibility data on behalf of a Microsoft UI Automation provider.
 
 ## -parameters
 
 ### -param pProvider [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nn-uiautomationcore-irawelementprovidersimple">IRawElementProviderSimple</a>*</b>
+Type: <b><a href="/windows/desktop/api/uiautomationcore/nn-uiautomationcore-irawelementprovidersimple">IRawElementProviderSimple</a>*</b>
 
 A pointer to the UI Automation object.
 
@@ -83,31 +83,30 @@ One of the following values:
 
 ### -param ppAccessible [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nn-oleacc-iaccessible">IAccessible</a>**</b>
+Type: <b><a href="/windows/desktop/api/oleacc/nn-oleacc-iaccessible">IAccessible</a>**</b>
 
-Receives the pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nn-oleacc-iaccessible">IAccessible</a> implementation for the provider.
+Receives the pointer to the <a href="/windows/desktop/api/oleacc/nn-oleacc-iaccessible">IAccessible</a> implementation for the provider.
 
 ### -param pvarChild [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinAuto/variant-structure">VARIANT</a>*</b>
+Type: <b><a href="/windows/desktop/WinAuto/variant-structure">VARIANT</a>*</b>
 
 Receives the child identifier of the accessible element in the <b>lVal</b> member.
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
 ## -remarks
 
-In most cases, this function retrieves a wrapper object, provided by Windows, that implements <a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nn-oleacc-iaccessible">IAccessible</a> on behalf of the <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nn-uiautomationcore-irawelementprovidersimple">IRawElementProviderSimple</a> object.  If the provided <b>IRawElementProviderSimple</b> pointer is itself a wrapper object, this function retrieves the wrapped <b>IAccessible</b> pointer and returns that instead, to prevent the creation of multiple layers of wrappers.
+In most cases, this function retrieves a wrapper object, provided by Windows, that implements <a href="/windows/desktop/api/oleacc/nn-oleacc-iaccessible">IAccessible</a> on behalf of the <a href="/windows/desktop/api/uiautomationcore/nn-uiautomationcore-irawelementprovidersimple">IRawElementProviderSimple</a> object.  If the provided <b>IRawElementProviderSimple</b> pointer is itself a wrapper object, this function retrieves the wrapped <b>IAccessible</b> pointer and returns that instead, to prevent the creation of multiple layers of wrappers.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-functions">Functions for Providers</a>
+<a href="/windows/desktop/WinAuto/uiauto-functions">Functions for Providers</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcoreapi/nf-uiautomationcoreapi-uiaproviderfromiaccessible">UiaProviderFromIAccessible</a>
-
+<a href="/windows/desktop/api/uiautomationcoreapi/nf-uiautomationcoreapi-uiaproviderfromiaccessible">UiaProviderFromIAccessible</a>

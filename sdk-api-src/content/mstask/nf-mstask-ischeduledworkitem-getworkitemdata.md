@@ -50,9 +50,9 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[[This API may be altered or unavailable in subsequent versions of the operating system or product. Please use the <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/task-scheduler-2-0-interfaces">Task Scheduler 2.0 Interfaces</a> instead.] ]
+<p class="CCE_Message">[[This API may be altered or unavailable in subsequent versions of the operating system or product. Please use the <a href="/windows/desktop/TaskSchd/task-scheduler-2-0-interfaces">Task Scheduler 2.0 Interfaces</a> instead.] ]
 
-Retrieves application-defined data associated with the <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/w">work item</a>.
+Retrieves application-defined data associated with the <a href="/windows/desktop/TaskSchd/w">work item</a>.
 
 ## -parameters
 
@@ -63,7 +63,7 @@ A pointer to the number of bytes copied.
 ### -param prgbData [out]
 
 A pointer to a pointer to a BYTE that contains user-defined data for the current work item. The method that invokes 
-<b>GetWorkItemData</b> is responsible for freeing this memory by using <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a>.
+<b>GetWorkItemData</b> is responsible for freeing this memory by using <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a>.
 
 ## -returns
 
@@ -116,13 +116,12 @@ Retrieving the data of a work item does not affect the operation of the work ite
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a>
+<a href="/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mstask/nn-mstask-ischeduledworkitem">IScheduledWorkItem</a>
+<a href="/windows/desktop/api/mstask/nn-mstask-ischeduledworkitem">IScheduledWorkItem</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mstask/nf-mstask-ischeduledworkitem-setworkitemdata">SetWorkItemData</a>
-
+<a href="/windows/desktop/api/mstask/nf-mstask-ischeduledworkitem-setworkitemdata">SetWorkItemData</a>

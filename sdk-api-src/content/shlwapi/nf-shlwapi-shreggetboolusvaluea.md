@@ -76,7 +76,7 @@ A pointer to a null-terminated string that specifies the name of the value. This
 
 Type: <b>BOOL</b>
 
-A variable that specifies which key to look under. When set to <b>TRUE</b>, <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-shreggetusvaluea">SHRegGetUSValue</a> ignores <b>HKEY_CURRENT_USER</b> and returns a value from <b>HKEY_LOCAL_MACHINE</b>.
+A variable that specifies which key to look under. When set to <b>TRUE</b>, <a href="/windows/desktop/api/shlwapi/nf-shlwapi-shreggetusvaluea">SHRegGetUSValue</a> ignores <b>HKEY_CURRENT_USER</b> and returns a value from <b>HKEY_LOCAL_MACHINE</b>.
 
 ### -param fDefault [in]
 
@@ -94,4 +94,3 @@ Returns either the value from the registry, or <i>fDefault</i> if none is found.
 
 > [!NOTE]
 > The shlwapi.h header defines SHRegGetBoolUSValue as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Creates an instance of the <a href="https://docs.microsoft.com/windows/desktop/api/mfsharingengine/nn-mfsharingengine-imfimagesharingengine">IMFImageSharingEngine</a> from the provided unique device name.
+Creates an instance of the <a href="/windows/desktop/api/mfsharingengine/nn-mfsharingengine-imfimagesharingengine">IMFImageSharingEngine</a> from the provided unique device name.
 
 ## -parameters
 
@@ -60,7 +60,7 @@ The unique device name of the device with which the sharing engine is created.
 
 ### -param ppEngine [out]
 
-Receives a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfsharingengine/nn-mfsharingengine-imfimagesharingengine">IMFImageSharingEngine</a> interface. The caller must release the interface.
+Receives a pointer to the <a href="/windows/desktop/api/mfsharingengine/nn-mfsharingengine-imfimagesharingengine">IMFImageSharingEngine</a> interface. The caller must release the interface.
 
 ## -returns
 
@@ -68,5 +68,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfsharingengine/nn-mfsharingengine-imfimagesharingengineclassfactory">IMFImageSharingEngineClassFactory</a>
-
+<a href="/windows/desktop/api/mfsharingengine/nn-mfsharingengine-imfimagesharingengineclassfactory">IMFImageSharingEngineClassFactory</a>

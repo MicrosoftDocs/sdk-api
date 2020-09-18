@@ -66,7 +66,7 @@ Bank of patches that should be used. This parameter should be set to zero to cac
 
 ### -param pwpa
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/Multimedia/patcharray">PATCHARRAY</a> array indicating the patches to be cached or uncached.
+Pointer to a <a href="/windows/desktop/Multimedia/patcharray">PATCHARRAY</a> array indicating the patches to be cached or uncached.
 
 ### -param fuCache
 
@@ -81,7 +81,7 @@ Options for the cache operation. It can be one of the following flags.
 </tr>
 <tr>
 <td>MIDI_CACHE_ALL</td>
-<td>Caches all of the specified patches. If they cannot all be cached, it caches none, clears the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/patcharray">PATCHARRAY</a> array, and returns MMSYSERR_NOMEM.</td>
+<td>Caches all of the specified patches. If they cannot all be cached, it caches none, clears the <a href="/windows/desktop/Multimedia/patcharray">PATCHARRAY</a> array, and returns MMSYSERR_NOMEM.</td>
 </tr>
 <tr>
 <td>MIDI_CACHE_BESTFIT</td>
@@ -89,7 +89,7 @@ Options for the cache operation. It can be one of the following flags.
 </tr>
 <tr>
 <td>MIDI_CACHE_QUERY</td>
-<td>Changes the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/patcharray">PATCHARRAY</a> array to indicate which patches are currently cached.</td>
+<td>Changes the <a href="/windows/desktop/Multimedia/patcharray">PATCHARRAY</a> array to indicate which patches are currently cached.</td>
 </tr>
 <tr>
 <td>MIDI_UNCACHE</td>
@@ -167,11 +167,10 @@ The specified device does not support patch caching.
 
 Some synthesizers are not capable of keeping all patches loaded simultaneously and must load data from disk when they receive MIDI program change messages. Caching patches ensures that the specified patches are immediately available.
 
-Each element of the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/patcharray">PATCHARRAY</a> array represents one of the 128 patches and has bits set for each of the 16 MIDI channels that use the particular patch. The least-significant bit represents physical channel 0, and the most-significant bit represents physical channel 15 (0x0F). For example, if patch 0 is used by physical channels 0 and 8, element 0 would be set to 0x0101.
+Each element of the <a href="/windows/desktop/Multimedia/patcharray">PATCHARRAY</a> array represents one of the 128 patches and has bits set for each of the 16 MIDI channels that use the particular patch. The least-significant bit represents physical channel 0, and the most-significant bit represents physical channel 15 (0x0F). For example, if patch 0 is used by physical channels 0 and 8, element 0 would be set to 0x0101.
 
-This function applies only to internal MIDI synthesizer devices. Not all internal synthesizers support patch caching. To see if a device supports patch caching, use the MIDICAPS_CACHE flag to test the <b>dwSupport</b> member of the <a href="https://docs.microsoft.com/previous-versions/dd798467(v=vs.85)">MIDIOUTCAPS</a> structure filled by the <a href="https://docs.microsoft.com/previous-versions/dd798469(v=vs.85)">midiOutGetDevCaps</a> function.
+This function applies only to internal MIDI synthesizer devices. Not all internal synthesizers support patch caching. To see if a device supports patch caching, use the MIDICAPS_CACHE flag to test the <b>dwSupport</b> member of the <a href="/previous-versions/dd798467(v=vs.85)">MIDIOUTCAPS</a> structure filled by the <a href="/previous-versions/dd798469(v=vs.85)">midiOutGetDevCaps</a> function.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/midi-functions">MIDI Functions</a>
-
+<a href="/windows/desktop/Multimedia/midi-functions">MIDI Functions</a>

@@ -61,11 +61,11 @@ Contains the handle of the window to use as the parent to the query dialog box. 
 ### -param pQueryWnd [in]
 
 Address of an 
-<a href="https://docs.microsoft.com/windows/desktop/api/cmnquery/ns-cmnquery-openquerywindow">OPENQUERYWINDOW</a> structure that defines the query to perform and the characteristics of the query dialog.
+<a href="/windows/desktop/api/cmnquery/ns-cmnquery-openquerywindow">OPENQUERYWINDOW</a> structure that defines the query to perform and the characteristics of the query dialog.
 
 ### -param ppDataObject [out]
 
-Address of an <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a> interface pointer that receives the results of the query. This parameter only receives valid data if this method returns <b>S_OK</b>. This <b>IDataObject</b> supports the following clipboard formats.
+Address of an <a href="/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a> interface pointer that receives the results of the query. This parameter only receives valid data if this method returns <b>S_OK</b>. This <b>IDataObject</b> supports the following clipboard formats.
 
 
 
@@ -91,37 +91,36 @@ Returns a standard <b>HRESULT</b> value including the following.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/AD/cfstr-dsobjectnames">CFSTR_DSOBJECTNAMES</a>
+<a href="/windows/desktop/AD/cfstr-dsobjectnames">CFSTR_DSOBJECTNAMES</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/AD/cfstr-dsqueryparams">CFSTR_DSQUERYPARAMS</a>
+<a href="/windows/desktop/AD/cfstr-dsqueryparams">CFSTR_DSQUERYPARAMS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/AD/cfstr-dsqueryscope">CFSTR_DSQUERYSCOPE</a>
+<a href="/windows/desktop/AD/cfstr-dsqueryscope">CFSTR_DSQUERYSCOPE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dsquery/ns-dsquery-dsqueryinitparams">DSQUERYINITPARAMS</a>
+<a href="/windows/desktop/api/dsquery/ns-dsquery-dsqueryinitparams">DSQUERYINITPARAMS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dsquery/ns-dsquery-dsqueryparams">DSQUERYPARAMS</a>
+<a href="/windows/desktop/api/dsquery/ns-dsquery-dsqueryparams">DSQUERYPARAMS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/AD/display-interfaces-in-active-directory-domain-services">Display Interfaces in Active Directory Domain Services</a>
+<a href="/windows/desktop/AD/display-interfaces-in-active-directory-domain-services">Display Interfaces in Active Directory Domain Services</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/cmnquery/nn-cmnquery-icommonquery">ICommonQuery</a>
+<a href="/windows/desktop/api/cmnquery/nn-cmnquery-icommonquery">ICommonQuery</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a>
+<a href="/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/cmnquery/ns-cmnquery-openquerywindow">OPENQUERYWINDOW</a>
-
+<a href="/windows/desktop/api/cmnquery/ns-cmnquery-openquerywindow">OPENQUERYWINDOW</a>

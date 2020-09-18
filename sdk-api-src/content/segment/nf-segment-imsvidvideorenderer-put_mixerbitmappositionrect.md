@@ -56,7 +56,7 @@ The <b>put_MixerBitmapPositionRect</b> method specifies the position of the stat
 
 ### -param rDest [in]
 
-Pointer to an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/msvidrect">IMSVidRect</a> interface, specifying the rectangle.
+Pointer to an <a href="/previous-versions/windows/desktop/mstv/msvidrect">IMSVidRect</a> interface, specifying the rectangle.
 
 ## -returns
 
@@ -68,17 +68,16 @@ If the static bitmap image is set, the VMR alpha blends the bitmap onto the vide
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/msvidvideorenderer">IMSVidVideoRenderer Interface</a>
+<a href="/previous-versions/windows/desktop/mstv/msvidvideorenderer">IMSVidVideoRenderer Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidvideorenderer-setupmixerbitmap">IMSVidVideoRenderer::SetupMixerBitmap</a>
+<a href="/windows/desktop/api/segment/nf-segment-imsvidvideorenderer-setupmixerbitmap">IMSVidVideoRenderer::SetupMixerBitmap</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidvideorenderer-get_mixerbitmappositionrect">IMSVidVideoRenderer::get_MixerBitmapPositionRect</a>
+<a href="/windows/desktop/api/segment/nf-segment-imsvidvideorenderer-get_mixerbitmappositionrect">IMSVidVideoRenderer::get_MixerBitmapPositionRect</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidvideorenderer-put_mixerbitmap">IMSVidVideoRenderer::put_MixerBitmap</a>
-
+<a href="/windows/desktop/api/segment/nf-segment-imsvidvideorenderer-put_mixerbitmap">IMSVidVideoRenderer::put_MixerBitmap</a>

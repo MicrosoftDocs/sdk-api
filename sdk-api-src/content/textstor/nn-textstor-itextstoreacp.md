@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-The <b>ITextStoreACP</b> interface is implemented by the application and is used by the TSF manager to manipulate text streams or text stores in TSF. An application can obtain an instance of this interface with a call to the <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfdocumentmgr-createcontext">ITfDocumentMgr::CreateContext</a> method. The interface ID is IID_ITextStoreACP.
+The <b>ITextStoreACP</b> interface is implemented by the application and is used by the TSF manager to manipulate text streams or text stores in TSF. An application can obtain an instance of this interface with a call to the <a href="/windows/desktop/api/msctf/nf-msctf-itfdocumentmgr-createcontext">ITfDocumentMgr::CreateContext</a> method. The interface ID is IID_ITextStoreACP.
 
-This interface exposes text stores through an application character position (ACP) format. Applications that use an anchor-based format should use <a href="https://docs.microsoft.com/windows/desktop/api/textstor/nn-textstor-itextstoreanchor">ITextStoreAnchor</a>.
+This interface exposes text stores through an application character position (ACP) format. Applications that use an anchor-based format should use <a href="/windows/desktop/api/textstor/nn-textstor-itextstoreanchor">ITextStoreAnchor</a>.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITextStoreACP</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITextStoreACP</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITextStoreACP</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITextStoreACP</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>ITextStoreACP</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-itextstoreacp-advisesink">AdviseSink</a>
+<a href="/windows/desktop/api/textstor/nf-textstor-itextstoreacp-advisesink">AdviseSink</a>
 </td>
 <td align="left" width="63%">
 Identifies the sink interface of the TSF manager.
@@ -80,7 +80,7 @@ Identifies the sink interface of the TSF manager.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-itextstoreacp-findnextattrtransition">FindNextAttrTransition</a>
+<a href="/windows/desktop/api/textstor/nf-textstor-itextstoreacp-findnextattrtransition">FindNextAttrTransition</a>
 </td>
 <td align="left" width="63%">
 Determines the character position where an attribute transition occurs.
@@ -89,7 +89,7 @@ Determines the character position where an attribute transition occurs.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-itextstoreacp-getacpfrompoint">GetACPFromPoint</a>
+<a href="/windows/desktop/api/textstor/nf-textstor-itextstoreacp-getacpfrompoint">GetACPFromPoint</a>
 </td>
 <td align="left" width="63%">
 Converts a point in screen coordinates to an application character position.
@@ -98,7 +98,7 @@ Converts a point in screen coordinates to an application character position.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-itextstoreacp-getactiveview">GetActiveView</a>
+<a href="/windows/desktop/api/textstor/nf-textstor-itextstoreacp-getactiveview">GetActiveView</a>
 </td>
 <td align="left" width="63%">
 Returns a TsViewCookie data type that specifies the current active view.
@@ -107,7 +107,7 @@ Returns a TsViewCookie data type that specifies the current active view.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-itextstoreacp-getembedded">GetEmbedded</a>
+<a href="/windows/desktop/api/textstor/nf-textstor-itextstoreacp-getembedded">GetEmbedded</a>
 </td>
 <td align="left" width="63%">
 Obtains an embedded object from a document.
@@ -116,7 +116,7 @@ Obtains an embedded object from a document.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-itextstoreacp-getendacp">GetEndACP</a>
+<a href="/windows/desktop/api/textstor/nf-textstor-itextstoreacp-getendacp">GetEndACP</a>
 </td>
 <td align="left" width="63%">
 Returns the number of characters in a document.
@@ -125,7 +125,7 @@ Returns the number of characters in a document.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-itextstoreacp-getformattedtext">GetFormattedText</a>
+<a href="/windows/desktop/api/textstor/nf-textstor-itextstoreacp-getformattedtext">GetFormattedText</a>
 </td>
 <td align="left" width="63%">
 Returns formatted text information about a specified text string.
@@ -134,7 +134,7 @@ Returns formatted text information about a specified text string.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-itextstoreacp-getscreenext">GetScreenExt</a>
+<a href="/windows/desktop/api/textstor/nf-textstor-itextstoreacp-getscreenext">GetScreenExt</a>
 </td>
 <td align="left" width="63%">
 Returns the bounding box, in screen coordinates, of the display surface where the text stream is rendered.
@@ -143,7 +143,7 @@ Returns the bounding box, in screen coordinates, of the display surface where th
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-itextstoreacp-getselection">GetSelection</a>
+<a href="/windows/desktop/api/textstor/nf-textstor-itextstoreacp-getselection">GetSelection</a>
 </td>
 <td align="left" width="63%">
 Returns the character position of a text selection in a document.
@@ -152,7 +152,7 @@ Returns the character position of a text selection in a document.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-itextstoreacp-getstatus">GetStatus</a>
+<a href="/windows/desktop/api/textstor/nf-textstor-itextstoreacp-getstatus">GetStatus</a>
 </td>
 <td align="left" width="63%">
 Used by the application to obtain the document status.
@@ -161,7 +161,7 @@ Used by the application to obtain the document status.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-itextstoreacp-gettext">GetText</a>
+<a href="/windows/desktop/api/textstor/nf-textstor-itextstoreacp-gettext">GetText</a>
 </td>
 <td align="left" width="63%">
 Returns information about text at a specified character position.
@@ -170,7 +170,7 @@ Returns information about text at a specified character position.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-itextstoreacp-gettextext">GetTextExt</a>
+<a href="/windows/desktop/api/textstor/nf-textstor-itextstoreacp-gettextext">GetTextExt</a>
 </td>
 <td align="left" width="63%">
 Returns the bounding box, in screen coordinates, of the text at a specified character position.
@@ -179,7 +179,7 @@ Returns the bounding box, in screen coordinates, of the text at a specified char
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-itextstoreacp-getwnd">GetWnd</a>
+<a href="/windows/desktop/api/textstor/nf-textstor-itextstoreacp-getwnd">GetWnd</a>
 </td>
 <td align="left" width="63%">
 Returns the handle to a window that corresponds to the current document.
@@ -188,7 +188,7 @@ Returns the handle to a window that corresponds to the current document.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-itextstoreacp-insertembedded">InsertEmbedded</a>
+<a href="/windows/desktop/api/textstor/nf-textstor-itextstoreacp-insertembedded">InsertEmbedded</a>
 </td>
 <td align="left" width="63%">
 Inserts an object into a document.
@@ -197,7 +197,7 @@ Inserts an object into a document.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-itextstoreacp-insertembeddedatselection">InsertEmbeddedAtSelection</a>
+<a href="/windows/desktop/api/textstor/nf-textstor-itextstoreacp-insertembeddedatselection">InsertEmbeddedAtSelection</a>
 </td>
 <td align="left" width="63%">
 Inserts an IDataObject object at the insertion point or selection.
@@ -206,7 +206,7 @@ Inserts an IDataObject object at the insertion point or selection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-itextstoreacp-inserttextatselection">InsertTextAtSelection</a>
+<a href="/windows/desktop/api/textstor/nf-textstor-itextstoreacp-inserttextatselection">InsertTextAtSelection</a>
 </td>
 <td align="left" width="63%">
 Inserts text at the insertion point or selection.
@@ -215,7 +215,7 @@ Inserts text at the insertion point or selection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-itextstoreacp-queryinsert">QueryInsert</a>
+<a href="/windows/desktop/api/textstor/nf-textstor-itextstoreacp-queryinsert">QueryInsert</a>
 </td>
 <td align="left" width="63%">
 Called by an application to determine if the document can accept text at the selection or insertion point.
@@ -224,7 +224,7 @@ Called by an application to determine if the document can accept text at the sel
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-itextstoreacp-queryinsertembedded">QueryInsertEmbedded</a>
+<a href="/windows/desktop/api/textstor/nf-textstor-itextstoreacp-queryinsertembedded">QueryInsertEmbedded</a>
 </td>
 <td align="left" width="63%">
 Determines if the document can accept an embedded object through the ITextStoreACP::InsertEmbedded or the ITextStoreACP::InsertEmbeddedAtSelection methods.
@@ -233,7 +233,7 @@ Determines if the document can accept an embedded object through the ITextStoreA
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-itextstoreacp-requestattrsatposition">RequestAttrsAtPosition</a>
+<a href="/windows/desktop/api/textstor/nf-textstor-itextstoreacp-requestattrsatposition">RequestAttrsAtPosition</a>
 </td>
 <td align="left" width="63%">
 Obtains the attributes at the specified application character position.
@@ -242,7 +242,7 @@ Obtains the attributes at the specified application character position.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-itextstoreacp-requestattrstransitioningatposition">RequestAttrsTransitioningAtPosition</a>
+<a href="/windows/desktop/api/textstor/nf-textstor-itextstoreacp-requestattrstransitioningatposition">RequestAttrsTransitioningAtPosition</a>
 </td>
 <td align="left" width="63%">
 Obtains a list of attributes that begin or end at the specified application character position.
@@ -251,7 +251,7 @@ Obtains a list of attributes that begin or end at the specified application char
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-itextstoreacp-requestlock">RequestLock</a>
+<a href="/windows/desktop/api/textstor/nf-textstor-itextstoreacp-requestlock">RequestLock</a>
 </td>
 <td align="left" width="63%">
 Called by the TSF manager to provide a document lock so that the TSF manager can modify the document. This method calls the ITextStoreACPSink::OnLockGranted method to create the document lock.
@@ -260,7 +260,7 @@ Called by the TSF manager to provide a document lock so that the TSF manager can
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-itextstoreacp-requestsupportedattrs">RequestSupportedAttrs</a>
+<a href="/windows/desktop/api/textstor/nf-textstor-itextstoreacp-requestsupportedattrs">RequestSupportedAttrs</a>
 </td>
 <td align="left" width="63%">
 Obtains the supported attributes of a document.
@@ -269,7 +269,7 @@ Obtains the supported attributes of a document.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-itextstoreacp-retrieverequestedattrs">RetrieveRequestedAttrs</a>
+<a href="/windows/desktop/api/textstor/nf-textstor-itextstoreacp-retrieverequestedattrs">RetrieveRequestedAttrs</a>
 </td>
 <td align="left" width="63%">
 Returns the attributes obtained by the ITextStoreACP::RequestAttrsAtPosition, TextStoreACP::RequestAttrsTransitioningAtPosition, or the ITextStoreACP::RequestSupportedAttrs methods.
@@ -278,7 +278,7 @@ Returns the attributes obtained by the ITextStoreACP::RequestAttrsAtPosition, Te
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-itextstoreacp-setselection">SetSelection</a>
+<a href="/windows/desktop/api/textstor/nf-textstor-itextstoreacp-setselection">SetSelection</a>
 </td>
 <td align="left" width="63%">
 Selects text within the document.
@@ -287,7 +287,7 @@ Selects text within the document.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-itextstoreacp-settext">SetText</a>
+<a href="/windows/desktop/api/textstor/nf-textstor-itextstoreacp-settext">SetText</a>
 </td>
 <td align="left" width="63%">
 Sets the text selection to the supplied character positions.
@@ -296,7 +296,7 @@ Sets the text selection to the supplied character positions.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-itextstoreacp-unadvisesink">UnadviseSink</a>
+<a href="/windows/desktop/api/textstor/nf-textstor-itextstoreacp-unadvisesink">UnadviseSink</a>
 </td>
 <td align="left" width="63%">
 Called by the application to indicate that the application no longer requires notifications from the TSF manager.
@@ -307,9 +307,8 @@ Called by the application to indicate that the application no longer requires no
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
+<a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/TSF/text-stores">Text Stores</a>
-
+<a href="/windows/desktop/TSF/text-stores">Text Stores</a>

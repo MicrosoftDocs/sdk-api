@@ -54,7 +54,7 @@ The arithmetic composite effect is used to combine 2 images using a weighted sum
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDCompositionAffineTransform2DEffect</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nn-dcomp-idcompositionfiltereffect">IDCompositionFilterEffect</a>. <b>IDCompositionAffineTransform2DEffect</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDCompositionAffineTransform2DEffect</b> interface inherits from <a href="/windows/desktop/api/dcomp/nn-dcomp-idcompositionfiltereffect">IDCompositionFilterEffect</a>. <b>IDCompositionAffineTransform2DEffect</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IDCompositionAffineTransform2DEffect</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nf-dcomp-idcompositionaffinetransform2deffect-setbordermode">SetBorderMode</a>
+<a href="/windows/desktop/api/dcomp/nf-dcomp-idcompositionaffinetransform2deffect-setbordermode">SetBorderMode</a>
 </td>
 <td align="left" width="63%">
 Sets the border mode to use with the effect.
@@ -78,7 +78,7 @@ Sets the border mode to use with the effect.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nf-dcomp-idcompositionaffinetransform2deffect-setinterpolationmode">SetInterpolationMode</a>
+<a href="/windows/desktop/api/dcomp/nf-dcomp-idcompositionaffinetransform2deffect-setinterpolationmode">SetInterpolationMode</a>
 </td>
 <td align="left" width="63%">
 Sets the interpolation mode of the effect.
@@ -87,7 +87,7 @@ Sets the interpolation mode of the effect.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/directcomp/idcompositionaffinetransform2deffect-setsharpness-overloaded">SetSharpness</a>
+<a href="/windows/desktop/directcomp/idcompositionaffinetransform2deffect-setsharpness-overloaded">SetSharpness</a>
 </td>
 <td align="left" width="63%">Overloaded. Sets the sharpness of the effect.
 
@@ -95,7 +95,7 @@ Sets the interpolation mode of the effect.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nf-dcomp-idcompositionaffinetransform2deffect-settransformmatrix">SetTransformMatrix</a>
+<a href="/windows/desktop/api/dcomp/nf-dcomp-idcompositionaffinetransform2deffect-settransformmatrix">SetTransformMatrix</a>
 </td>
 <td align="left" width="63%">
 Sets the transform matrix of the effect.
@@ -104,7 +104,7 @@ Sets the transform matrix of the effect.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nf-dcomp-settransformmatrixelement">settransformmatrixelement</a>
+<a href="/windows/desktop/api/dcomp/nf-dcomp-settransformmatrixelement">settransformmatrixelement</a>
 </td>
 <td align="left" width="63%">Overloaded. Sets an element of the transform matrix of the effect.
 
@@ -114,5 +114,4 @@ Sets the transform matrix of the effect.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nn-dcomp-idcompositionfiltereffect">IDCompositionFilterEffect</a>
-
+<a href="/windows/desktop/api/dcomp/nn-dcomp-idcompositionfiltereffect">IDCompositionFilterEffect</a>

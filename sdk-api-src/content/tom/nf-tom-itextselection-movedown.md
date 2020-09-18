@@ -116,7 +116,7 @@ Pointer to a variable that receives the actual count of units the insertion poin
 Type: <b>HRESULT</b>
 
 The method returns an 
-						<b>HRESULT</b> value. If the method succeeds, it returns <b>S_OK</b>. If the method fails, it returns one of the following error codes. For more information about COM error codes, see <a href="https://docs.microsoft.com/windows/desktop/com/error-handling-in-com">Error Handling in COM</a>.
+						<b>HRESULT</b> value. If the method succeeds, it returns <b>S_OK</b>. If the method fails, it returns one of the following error codes. For more information about COM error codes, see <a href="/windows/desktop/com/error-handling-in-com">Error Handling in COM</a>.
 
 <table>
 <tr>
@@ -149,7 +149,7 @@ Failure for some other reason.
 
 ## -remarks
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextselection-moveup">ITextSelection::MoveUp</a> and <b>ITextSelection::MoveDown</b> methods are similar to the <a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextselection-moveleft">ITextSelection::MoveLeft</a> and <a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextselection-moveright">ITextSelection::MoveRight</a> methods, except that they reflect the behavior of the Up Arrow, Down Arrow, Page Up, and Page Down keys on the cursor-keypad.
+The <a href="/windows/desktop/api/tom/nf-tom-itextselection-moveup">ITextSelection::MoveUp</a> and <b>ITextSelection::MoveDown</b> methods are similar to the <a href="/windows/desktop/api/tom/nf-tom-itextselection-moveleft">ITextSelection::MoveLeft</a> and <a href="/windows/desktop/api/tom/nf-tom-itextselection-moveright">ITextSelection::MoveRight</a> methods, except that they reflect the behavior of the Up Arrow, Down Arrow, Page Up, and Page Down keys on the cursor-keypad.
 
 ## -see-also
 
@@ -157,19 +157,19 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextsele
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextselection">ITextSelection</a>
+<a href="/windows/desktop/api/tom/nn-tom-itextselection">ITextSelection</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextselection-moveleft">MoveLeft</a>
+<a href="/windows/desktop/api/tom/nf-tom-itextselection-moveleft">MoveLeft</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextselection-moveright">MoveRight</a>
+<a href="/windows/desktop/api/tom/nf-tom-itextselection-moveright">MoveRight</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextselection-moveup">MoveUp</a>
+<a href="/windows/desktop/api/tom/nf-tom-itextselection-moveup">MoveUp</a>
 
 
 
@@ -177,5 +177,4 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextsele
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Controls/text-object-model">Text Object Model</a>
-
+<a href="/windows/desktop/Controls/text-object-model">Text Object Model</a>

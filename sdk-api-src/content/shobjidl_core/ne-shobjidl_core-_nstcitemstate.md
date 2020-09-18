@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Specifies the state of a tree item. These values are used by methods of the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-inamespacetreecontrol">INameSpaceTreeControl</a> interface.
+Specifies the state of a tree item. These values are used by methods of the <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-inamespacetreecontrol">INameSpaceTreeControl</a> interface.
 
 ## -enum-fields
 
@@ -80,9 +80,8 @@ The item is disabled.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-inamespacetreecontrol-getitemstate">INameSpaceTreeControl::GetItemState</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-inamespacetreecontrol-getitemstate">INameSpaceTreeControl::GetItemState</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-inamespacetreecontrol-setitemstate">INameSpaceTreeControl::SetItemState</a>
-
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-inamespacetreecontrol-setitemstate">INameSpaceTreeControl::SetItemState</a>

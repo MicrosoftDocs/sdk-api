@@ -67,18 +67,17 @@ A call to <b>DllCanUnloadNow</b> determines whether the DLL from which it is exp
 
 
 <h3><a id="Notes_to_Callers"></a><a id="notes_to_callers"></a><a id="NOTES_TO_CALLERS"></a>Notes to Callers</h3>
-You should not have to call <b>DllCanUnloadNow</b> directly. OLE calls it only through a call to the <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cofreeunusedlibraries">CoFreeUnusedLibraries</a> function. When it returns S_OK, <b>CoFreeUnusedLibraries</b> frees the DLL.
+You should not have to call <b>DllCanUnloadNow</b> directly. OLE calls it only through a call to the <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cofreeunusedlibraries">CoFreeUnusedLibraries</a> function. When it returns S_OK, <b>CoFreeUnusedLibraries</b> frees the DLL.
 
 
 
 <h3><a id="Notes_to_Implementers"></a><a id="notes_to_implementers"></a><a id="NOTES_TO_IMPLEMENTERS"></a>Notes to Implementers</h3>
-You must implement <b>DllCanUnloadNow</b> in, and export it from, DLLs that are to be dynamically loaded through a call to the <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cogetclassobject">CoGetClassObject</a> function. (You also need to implement and export the <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-dllgetclassobject">DllGetClassObject</a> function in the same DLL).
+You must implement <b>DllCanUnloadNow</b> in, and export it from, DLLs that are to be dynamically loaded through a call to the <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cogetclassobject">CoGetClassObject</a> function. (You also need to implement and export the <a href="/windows/desktop/api/combaseapi/nf-combaseapi-dllgetclassobject">DllGetClassObject</a> function in the same DLL).
 
-If a DLL loaded through a call to <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cogetclassobject">CoGetClassObject</a> fails to export <b>DllCanUnloadNow</b>, the DLL will not be unloaded until the application calls the <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-couninitialize">CoUninitialize</a> function to release the OLE libraries.
+If a DLL loaded through a call to <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cogetclassobject">CoGetClassObject</a> fails to export <b>DllCanUnloadNow</b>, the DLL will not be unloaded until the application calls the <a href="/windows/desktop/api/combaseapi/nf-combaseapi-couninitialize">CoUninitialize</a> function to release the OLE libraries.
 
 <b>DllCanUnloadNow</b> should return S_FALSE if there are any existing references to objects that the DLL manages.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-dllgetclassobject">DllGetClassObject</a>
-
+<a href="/windows/desktop/api/combaseapi/nf-combaseapi-dllgetclassobject">DllGetClassObject</a>

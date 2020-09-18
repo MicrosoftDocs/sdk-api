@@ -68,15 +68,14 @@ Pointer to a caller-allocated variable that receives a handle for the minifilter
 
 ## -remarks
 
-A user-mode application calls <b>FilterCreate</b> to create a handle that can be used to communicate with a kernel-mode minifilter. The returned minifilter handle can be passed as a parameter to functions such as <a href="https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filtergetinformation">FilterGetInformation</a>. 
+A user-mode application calls <b>FilterCreate</b> to create a handle that can be used to communicate with a kernel-mode minifilter. The returned minifilter handle can be passed as a parameter to functions such as <a href="/windows/desktop/api/fltuser/nf-fltuser-filtergetinformation">FilterGetInformation</a>. 
 
-To close a filter handle returned by <b>FilterCreate</b>, call <a href="https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filterclose">FilterClose</a>.
+To close a filter handle returned by <b>FilterCreate</b>, call <a href="/windows/desktop/api/fltuser/nf-fltuser-filterclose">FilterClose</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filterclose">FilterClose</a>
+<a href="/windows/desktop/api/fltuser/nf-fltuser-filterclose">FilterClose</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filtergetinformation">FilterGetInformation</a>
-
+<a href="/windows/desktop/api/fltuser/nf-fltuser-filtergetinformation">FilterGetInformation</a>

@@ -54,10 +54,10 @@ api_name:
 
 The 
 <b>RemSNB</b> structure is used for marshaling the 
-<a href="https://docs.microsoft.com/windows/desktop/Stg/snb">SNB</a> data type.
+<a href="/windows/desktop/Stg/snb">SNB</a> data type.
 
 Defined in the 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istorage">IStorage</a> interface (Storag.idl).
+<a href="/windows/desktop/api/objidl/nn-objidl-istorage">IStorage</a> interface (Storag.idl).
 
 ## -struct-fields
 
@@ -75,5 +75,4 @@ Pointer to an array of bytes containing the stream name strings from the <b>SNB<
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istorage">IStorage</a>
-
+<a href="/windows/desktop/api/objidl/nn-objidl-istorage">IStorage</a>

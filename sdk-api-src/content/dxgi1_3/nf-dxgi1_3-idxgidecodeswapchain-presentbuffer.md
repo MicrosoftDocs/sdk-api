@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-Presents a frame on the output adapter. The frame is a subresource of the <a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nn-dxgi-idxgiresource">IDXGIResource</a> object that was used to create the decode swap chain.
+Presents a frame on the output adapter. The frame is a subresource of the <a href="/windows/desktop/api/dxgi/nn-dxgi-idxgiresource">IDXGIResource</a> object that was used to create the decode swap chain.
 
 ## -parameters
 
@@ -64,13 +64,13 @@ An index indicating which member of the subresource array to present.
 An integer that specifies how to synchronize presentation of a frame with the vertical blank.
 
 
-For the bit-block transfer (bitblt) model (<a href="https://docs.microsoft.com/windows/desktop/api/dxgi/ne-dxgi-dxgi_swap_effect">DXGI_SWAP_EFFECT_DISCARD</a>or <a href="https://docs.microsoft.com/windows/desktop/api/dxgi/ne-dxgi-dxgi_swap_effect">DXGI_SWAP_EFFECT_SEQUENTIAL</a>), values are:
+For the bit-block transfer (bitblt) model (<a href="/windows/desktop/api/dxgi/ne-dxgi-dxgi_swap_effect">DXGI_SWAP_EFFECT_DISCARD</a>or <a href="/windows/desktop/api/dxgi/ne-dxgi-dxgi_swap_effect">DXGI_SWAP_EFFECT_SEQUENTIAL</a>), values are:
 
 <ul>
 <li>0 - The presentation occurs immediately, there is no synchronization.</li>
 <li>1,2,3,4 - Synchronize presentation after the <i>n</i>th vertical blank.</li>
 </ul>
-For the flip model (<a href="https://docs.microsoft.com/windows/desktop/api/dxgi/ne-dxgi-dxgi_swap_effect">DXGI_SWAP_EFFECT_FLIP_SEQUENTIAL</a>), values are:
+For the flip model (<a href="/windows/desktop/api/dxgi/ne-dxgi-dxgi_swap_effect">DXGI_SWAP_EFFECT_FLIP_SEQUENTIAL</a>), values are:
 
 <ul>
 <li>0 - Cancel the remaining time on the previously presented frame and discard this frame if a newer frame is queued.
@@ -80,7 +80,7 @@ For the flip model (<a href="https://docs.microsoft.com/windows/desktop/api/dxgi
 
 ### -param Flags
 
-An integer value that contains swap-chain presentation options. These options are defined by the <a href="https://docs.microsoft.com/windows/desktop/direct3ddxgi/dxgi-present">DXGI_PRESENT</a> constants.
+An integer value that contains swap-chain presentation options. These options are defined by the <a href="/windows/desktop/direct3ddxgi/dxgi-present">DXGI_PRESENT</a> constants.
 
 The <b>DXGI_PRESENT_USE_DURATION</b> flag must be set if a custom present duration (custom refresh rate) is being used.
 
@@ -89,13 +89,12 @@ The <b>DXGI_PRESENT_USE_DURATION</b> flag must be set if a custom present durati
 This method returns <b>S_OK</b> on success, or it returns one of the following error codes:
 
 <ul>
-<li><a href="https://docs.microsoft.com/windows/desktop/direct3ddxgi/dxgi-error">DXGI_ERROR_DEVICE_REMOVED</a></li>
-<li><a href="https://docs.microsoft.com/windows/desktop/direct3ddxgi/dxgi-status">DXGI_STATUS_OCCLUDED</a></li>
-<li><a href="https://docs.microsoft.com/windows/desktop/direct3ddxgi/dxgi-error">DXGI_ERROR_INVALID_CALL</a></li>
+<li><a href="/windows/desktop/direct3ddxgi/dxgi-error">DXGI_ERROR_DEVICE_REMOVED</a></li>
+<li><a href="/windows/desktop/direct3ddxgi/dxgi-status">DXGI_STATUS_OCCLUDED</a></li>
+<li><a href="/windows/desktop/direct3ddxgi/dxgi-error">DXGI_ERROR_INVALID_CALL</a></li>
 <li><b>E_OUTOFMEMORY</b></li>
 </ul>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_3/nn-dxgi1_3-idxgidecodeswapchain">IDXGIDecodeSwapChain</a>
-
+<a href="/windows/desktop/api/dxgi1_3/nn-dxgi1_3-idxgidecodeswapchain">IDXGIDecodeSwapChain</a>

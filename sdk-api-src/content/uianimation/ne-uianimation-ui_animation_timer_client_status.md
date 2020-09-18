@@ -66,5 +66,4 @@ The client is busy.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationtimerclienteventhandler-ontimerclientstatuschanged">IUIAnimationTimerClientEventHandler::OnTimerClientStatusChanged</a>
-
+<a href="/windows/desktop/api/uianimation/nf-uianimation-iuianimationtimerclienteventhandler-ontimerclientstatuschanged">IUIAnimationTimerClientEventHandler::OnTimerClientStatusChanged</a>

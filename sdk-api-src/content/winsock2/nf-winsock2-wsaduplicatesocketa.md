@@ -54,7 +54,7 @@ api_name:
 
 The 
 <b>WSADuplicateSocket</b> function returns a 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsaprotocol_infoa">WSAPROTOCOL_INFO</a> structure that can be used to create a new socket descriptor for a shared socket. The 
+<a href="/windows/desktop/api/winsock2/ns-winsock2-wsaprotocol_infoa">WSAPROTOCOL_INFO</a> structure that can be used to create a new socket descriptor for a shared socket. The 
 <b>WSADuplicateSocket</b> function cannot be used on a QOS-enabled socket.
 
 ## -parameters
@@ -70,13 +70,13 @@ Process identifier of the target process in which the duplicated socket will be 
 ### -param lpProtocolInfo [out]
 
 Pointer to a buffer, allocated by the client, that is large enough to contain a 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsaprotocol_infoa">WSAPROTOCOL_INFO</a> structure. The service provider copies the protocol information structure contents to this buffer.
+<a href="/windows/desktop/api/winsock2/ns-winsock2-wsaprotocol_infoa">WSAPROTOCOL_INFO</a> structure. The service provider copies the protocol information structure contents to this buffer.
 
 ## -returns
 
 If no error occurs, 
 <b>WSADuplicateSocket</b> returns zero. Otherwise, a value of SOCKET_ERROR is returned, and a specific error code can be retrieved by calling 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-wsagetlasterror">WSAGetLastError</a>.
+<a href="/windows/desktop/api/winsock/nf-winsock-wsagetlasterror">WSAGetLastError</a>.
 
 <table>
 <tr>
@@ -86,19 +86,19 @@ If no error occurs,
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSANOTINITIALISED</a></b></dt>
+<dt><b><a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSANOTINITIALISED</a></b></dt>
 </dl>
 </td>
 <td width="60%">
 A successful 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-wsastartup">WSAStartup</a> call must occur before using this function.
+<a href="/windows/desktop/api/winsock/nf-winsock-wsastartup">WSAStartup</a> call must occur before using this function.
 
 </td>
 </tr>
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAENETDOWN</a></b></dt>
+<dt><b><a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAENETDOWN</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -109,7 +109,7 @@ The network subsystem has failed.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEINVAL</a></b></dt>
+<dt><b><a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEINVAL</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -120,7 +120,7 @@ Indicates that one of the specified parameters was invalid.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEINPROGRESS</a></b></dt>
+<dt><b><a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEINPROGRESS</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -131,7 +131,7 @@ A blocking Windows Sockets 1.1 call is in progress, or the service provider is s
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEMFILE</a></b></dt>
+<dt><b><a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEMFILE</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -142,7 +142,7 @@ No more socket descriptors are available.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAENOBUFS</a></b></dt>
+<dt><b><a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAENOBUFS</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -153,7 +153,7 @@ No buffer space is available. The socket cannot be created.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAENOTSOCK</a></b></dt>
+<dt><b><a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAENOTSOCK</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -164,7 +164,7 @@ The descriptor is not a socket.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEFAULT</a></b></dt>
+<dt><b><a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEFAULT</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -179,8 +179,8 @@ The <i>lpProtocolInfo</i> parameter is not a valid part of the user address spac
 The 
 <b>WSADuplicateSocket</b> function is used to enable socket sharing between processes. A source process calls 
 <b>WSADuplicateSocket</b> to obtain a special 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsaprotocol_infoa">WSAPROTOCOL_INFO</a> structure. It uses some interprocess communications (IPC) mechanism to pass the contents of this structure to a target process, which in turn uses it in a call to 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsasocketa">WSASocket</a> to obtain a descriptor for the duplicated socket. The special 
+<a href="/windows/desktop/api/winsock2/ns-winsock2-wsaprotocol_infoa">WSAPROTOCOL_INFO</a> structure. It uses some interprocess communications (IPC) mechanism to pass the contents of this structure to a target process, which in turn uses it in a call to 
+<a href="/windows/desktop/api/winsock2/nf-winsock2-wsasocketa">WSASocket</a> to obtain a descriptor for the duplicated socket. The special 
 <b>WSAPROTOCOL_INFO</b> structure can only be used once by the target process.
 
 Sockets can be shared among threads in a given process without using the 
@@ -196,8 +196,8 @@ One possible scenario for establishing and handing off a shared socket is illust
 </tr>
 <tr>
 <td>1) 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsasocketa">WSASocket</a>, 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsaconnect">WSAConnect</a>
+<a href="/windows/desktop/api/winsock2/nf-winsock2-wsasocketa">WSASocket</a>, 
+<a href="/windows/desktop/api/winsock2/nf-winsock2-wsaconnect">WSAConnect</a>
 </td>
 <td></td>
 <td></td>
@@ -220,13 +220,13 @@ One possible scenario for establishing and handing off a shared socket is illust
 <tr>
 <td>5) Call 
 <b>WSADuplicateSocket</b> to get a special 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsaprotocol_infoa">WSAPROTOCOL_INFO</a> structure</td>
+<a href="/windows/desktop/api/winsock2/ns-winsock2-wsaprotocol_infoa">WSAPROTOCOL_INFO</a> structure</td>
 <td></td>
 <td></td>
 </tr>
 <tr>
 <td>6) Send 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsaprotocol_infoa">WSAPROTOCOL_INFO</a> structure to target</td>
+<a href="/windows/desktop/api/winsock2/ns-winsock2-wsaprotocol_infoa">WSAPROTOCOL_INFO</a> structure to target</td>
 <td></td>
 <td></td>
 </tr>
@@ -234,13 +234,13 @@ One possible scenario for establishing and handing off a shared socket is illust
 <td></td>
 <td>==&gt;</td>
 <td>7) Receive 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsaprotocol_infoa">WSAPROTOCOL_INFO</a> structure</td>
+<a href="/windows/desktop/api/winsock2/ns-winsock2-wsaprotocol_infoa">WSAPROTOCOL_INFO</a> structure</td>
 </tr>
 <tr>
 <td></td>
 <td></td>
 <td>8) Call 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsasocketa">WSASocket</a> to create shared socket descriptor.</td>
+<a href="/windows/desktop/api/winsock2/nf-winsock2-wsasocketa">WSASocket</a> to create shared socket descriptor.</td>
 </tr>
 <tr>
 <td></td>
@@ -249,7 +249,7 @@ One possible scenario for establishing and handing off a shared socket is illust
 </tr>
 <tr>
 <td>10) 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-closesocket">closesocket</a>
+<a href="/windows/desktop/api/winsock/nf-winsock-closesocket">closesocket</a>
 </td>
 <td>&lt;==</td>
 <td></td>
@@ -260,14 +260,14 @@ One possible scenario for establishing and handing off a shared socket is illust
 The descriptors that reference a shared socket can be used independently for I/O. However, the Windows Sockets interface does not implement any type of access control, so it is up to the processes involved to coordinate their operations on a shared socket. Shared sockets are typically used to having one process that is responsible for creating sockets and establishing connections, and other processes that are responsible for information exchange.
 
 All of the state information associated with a socket is held in common across all the descriptors because the socket descriptors are duplicated and not the actual socket. For example, a 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-setsockopt">setsockopt</a> operation performed using one descriptor is subsequently visible using a 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-getsockopt">getsockopt</a> from any or all descriptors. Both the source process and the destination process should pass the same flags to their respective <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsasocketa">WSASocket</a> function calls. If the source process uses the <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-socket">socket</a> function to create the socket, the destination process must pass the <b>WSA_FLAG_OVERLAPPED</b> flag to its <b>WSASocket</b> function call. A process can call 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-closesocket">closesocket</a> on a duplicated socket and the descriptor will become deallocated. The underlying socket, however, will remain open until 
+<a href="/windows/desktop/api/winsock/nf-winsock-setsockopt">setsockopt</a> operation performed using one descriptor is subsequently visible using a 
+<a href="/windows/desktop/api/winsock/nf-winsock-getsockopt">getsockopt</a> from any or all descriptors. Both the source process and the destination process should pass the same flags to their respective <a href="/windows/desktop/api/winsock2/nf-winsock2-wsasocketa">WSASocket</a> function calls. If the source process uses the <a href="/windows/desktop/api/winsock2/nf-winsock2-socket">socket</a> function to create the socket, the destination process must pass the <b>WSA_FLAG_OVERLAPPED</b> flag to its <b>WSASocket</b> function call. A process can call 
+<a href="/windows/desktop/api/winsock/nf-winsock-closesocket">closesocket</a> on a duplicated socket and the descriptor will become deallocated. The underlying socket, however, will remain open until 
 <b>closesocket</b> is called by the last remaining descriptor.
 
 Notification on shared sockets is subject to the usual constraints of 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-wsaasyncselect">WSAAsyncSelect</a> and 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsaeventselect">WSAEventSelect</a>. Issuing either of these calls using any of the shared descriptors cancels any previous event registration for the socket, regardless of which descriptor was used to make that registration. Thus, a shared socket cannot deliver FD_READ events to process A and FD_WRITE events to process B. For situations when such tight coordination is required, developers would be advised to use threads instead of separate processes.
+<a href="/windows/desktop/api/winsock/nf-winsock-wsaasyncselect">WSAAsyncSelect</a> and 
+<a href="/windows/desktop/api/winsock2/nf-winsock2-wsaeventselect">WSAEventSelect</a>. Issuing either of these calls using any of the shared descriptors cancels any previous event registration for the socket, regardless of which descriptor was used to make that registration. Thus, a shared socket cannot deliver FD_READ events to process A and FD_WRITE events to process B. For situations when such tight coordination is required, developers would be advised to use threads instead of separate processes.
 
 <b>Windows 8.1</b> and <b>Windows Server 2012 R2</b>: The  <b>WSADuplicateSocketW</b> function is supported for Windows Store apps on Windows 8.1, Windows Server 2012 R2, and later.
 
@@ -280,13 +280,12 @@ Notification on shared sockets is subject to the usual constraints of
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsasocketa">WSASocket</a>
+<a href="/windows/desktop/api/winsock2/nf-winsock2-wsasocketa">WSASocket</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WinSock/winsock-functions">Winsock Functions</a>
+<a href="/windows/desktop/WinSock/winsock-functions">Winsock Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WinSock/winsock-reference">Winsock Reference</a>
-
+<a href="/windows/desktop/WinSock/winsock-reference">Winsock Reference</a>

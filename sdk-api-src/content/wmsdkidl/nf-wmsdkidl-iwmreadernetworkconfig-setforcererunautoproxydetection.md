@@ -98,13 +98,12 @@ NULL or invalid argument passed in.
 
 Forced rerun detection indicates that Web Proxy Auto-Detection mechanisms must be invoked before the next streaming connection is established.
 
-Setting <i>fForceRerunDetection</i> to True applies to all protocols when the auto setting has been specified by the <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreadernetworkconfig-setproxysettings">SetProxySettings</a> method.
+Setting <i>fForceRerunDetection</i> to True applies to all protocols when the auto setting has been specified by the <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreadernetworkconfig-setproxysettings">SetProxySettings</a> method.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreadernetworkconfig">IWMReaderNetworkConfig Interface</a>
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreadernetworkconfig">IWMReaderNetworkConfig Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreadernetworkconfig-getforcererunautoproxydetection">IWMReaderNetworkConfig::GetForceRerunAutoProxyDetection</a>
-
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreadernetworkconfig-getforcererunautoproxydetection">IWMReaderNetworkConfig::GetForceRerunAutoProxyDetection</a>

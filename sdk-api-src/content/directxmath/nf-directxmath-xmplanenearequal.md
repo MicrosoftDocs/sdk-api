@@ -72,12 +72,11 @@ Returns <b>true</b> if <i>P1</i> is nearly equal to <i>P2</i> and <b>false</b> o
 
 ## -remarks
 
-The <code>XMPlaneNearEqual</code> function normalizes the <i>P1</i> and <i>P2</i> parameters before passing them, and the <i>Epsilon</i> parameter, to the <a href="https://docs.microsoft.com/windows/desktop/api/directxmath/nf-directxmath-xmvector4nearequal">XMVector4NearEqual</a> function.  For more information about how the calculation is performed, see the <b>XMVector4NearEqual</b> function.
+The <code>XMPlaneNearEqual</code> function normalizes the <i>P1</i> and <i>P2</i> parameters before passing them, and the <i>Epsilon</i> parameter, to the <a href="/windows/desktop/api/directxmath/nf-directxmath-xmvector4nearequal">XMVector4NearEqual</a> function.  For more information about how the calculation is performed, see the <b>XMVector4NearEqual</b> function.
 
 <h3><a id="Platform_Requirements"></a><a id="platform_requirements"></a><a id="PLATFORM_REQUIREMENTS"></a>Platform Requirements</h3>
 Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows SDK for Windows 8. Supported for Win32 desktop apps, Windows Store apps, and Windows Phone 8 apps.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/dxmath/ovw-xnamath-reference-functions-plane">DirectXMath Library Plane Functions</a>
-
+<a href="/windows/desktop/dxmath/ovw-xnamath-reference-functions-plane">DirectXMath Library Plane Functions</a>

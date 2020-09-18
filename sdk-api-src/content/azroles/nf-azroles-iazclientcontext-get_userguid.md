@@ -60,7 +60,6 @@ This property is read-only.
 
 ## -remarks
 
-The GUID client name is retrieved by impersonating the client token and calling the <a href="https://docs.microsoft.com/windows/desktop/api/secext/nf-secext-getusernameexa">GetUserNameEx</a> function with <b>NameUniqueId</b> specified for the <i>NameFormat</i> parameter. 
+The GUID client name is retrieved by impersonating the client token and calling the <a href="/windows/desktop/api/secext/nf-secext-getusernameexa">GetUserNameEx</a> function with <b>NameUniqueId</b> specified for the <i>NameFormat</i> parameter. 
 
 An example of a  client name in GUID format is "{4fa050f0-f561-11cf-bdd9-00aa003a77b6}Ben Smith".
-

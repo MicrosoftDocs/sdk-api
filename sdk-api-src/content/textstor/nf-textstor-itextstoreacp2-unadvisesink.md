@@ -93,17 +93,16 @@ There is no active sink object.
 
 ## -remarks
 
-Every call to the <a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-itextstoreacp2-advisesink">AdviseSink</a> method, which registers a new sink object, should be matched by a call to this method. Calls to the <b>AdviseSink</b> method that only update the <i>dwMask</i> parameter of a sink which was previously registered, do not require a call to the <b>UnadviseSink</b> method.
+Every call to the <a href="/windows/desktop/api/textstor/nf-textstor-itextstoreacp2-advisesink">AdviseSink</a> method, which registers a new sink object, should be matched by a call to this method. Calls to the <b>AdviseSink</b> method that only update the <i>dwMask</i> parameter of a sink which was previously registered, do not require a call to the <b>UnadviseSink</b> method.
 
-For example, to register a sink object, an application calls the <a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-itextstoreacp2-advisesink">AdviseSink</a> method the first time. After registering the sink object, the application can call the <b>AdviseSink</b> method again with the same sink object to change the <i>dwMask</i> parameter. To unregister the sink object, an application calls the <b>UnadviseSink</b> method.
+For example, to register a sink object, an application calls the <a href="/windows/desktop/api/textstor/nf-textstor-itextstoreacp2-advisesink">AdviseSink</a> method the first time. After registering the sink object, the application can call the <b>AdviseSink</b> method again with the same sink object to change the <i>dwMask</i> parameter. To unregister the sink object, an application calls the <b>UnadviseSink</b> method.
 
-The <i>punk</i> parameter must have the same COM identity as the pointer originally passed in the <a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-itextstoreacp2-advisesink">AdviseSink</a> method.
+The <i>punk</i> parameter must have the same COM identity as the pointer originally passed in the <a href="/windows/desktop/api/textstor/nf-textstor-itextstoreacp2-advisesink">AdviseSink</a> method.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-itextstoreacp2-advisesink">AdviseSink</a>
+<a href="/windows/desktop/api/textstor/nf-textstor-itextstoreacp2-advisesink">AdviseSink</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nn-textstor-itextstoreacp2">ITextStoreACP2</a>
-
+<a href="/windows/desktop/api/textstor/nn-textstor-itextstoreacp2">ITextStoreACP2</a>

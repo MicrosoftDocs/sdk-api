@@ -56,11 +56,11 @@ Called to install a mouse event sink.
 
 ### -param range [in]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfrange">ITfRange</a> interface that specifies the range of text that the mouse sink is installed for.
+Pointer to an <a href="/windows/desktop/api/msctf/nn-msctf-itfrange">ITfRange</a> interface that specifies the range of text that the mouse sink is installed for.
 
 ### -param pSink [in]
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfmousesink">ITfMouseSink</a> interface. The application must increment this object reference count and save the interface.
+Pointer to the <a href="/windows/desktop/api/msctf/nn-msctf-itfmousesink">ITfMouseSink</a> interface. The application must increment this object reference count and save the interface.
 
 ### -param pdwCookie [out]
 
@@ -112,31 +112,30 @@ The application does not support mouse event sinks.
 
 ## -remarks
 
-When this advise sink is installed, a mouse event that occurs over the range specified by <i>range</i> will result in the mouse event sink <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfmousesink-onmouseevent">ITfMouseSink::OnMouseEvent</a> method being called.
+When this advise sink is installed, a mouse event that occurs over the range specified by <i>range</i> will result in the mouse event sink <a href="/windows/desktop/api/msctf/nf-msctf-itfmousesink-onmouseevent">ITfMouseSink::OnMouseEvent</a> method being called.
 
-The value placed in <i>pdwCookie</i> will be saved by the caller and passed to the <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfmousetrackeracp-unadvisemousesink">ITfMouseTrackerACP::UnadviseMouseSink</a> method to remove the mouse event sink.
+The value placed in <i>pdwCookie</i> will be saved by the caller and passed to the <a href="/windows/desktop/api/msctf/nf-msctf-itfmousetrackeracp-unadvisemousesink">ITfMouseTrackerACP::UnadviseMouseSink</a> method to remove the mouse event sink.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfmousesink">ITfMouseSink
+<a href="/windows/desktop/api/msctf/nn-msctf-itfmousesink">ITfMouseSink
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfmousesink-onmouseevent">ITfMouseSink::OnMouseEvent
+<a href="/windows/desktop/api/msctf/nf-msctf-itfmousesink-onmouseevent">ITfMouseSink::OnMouseEvent
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfmousetrackeracp">ITfMouseTrackerACP</a>
+<a href="/windows/desktop/api/msctf/nn-msctf-itfmousetrackeracp">ITfMouseTrackerACP</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfmousetrackeracp-unadvisemousesink">ITfMouseTrackerACP::UnadviseMouseSink
+<a href="/windows/desktop/api/msctf/nf-msctf-itfmousetrackeracp-unadvisemousesink">ITfMouseTrackerACP::UnadviseMouseSink
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfrange">ITfRange
+<a href="/windows/desktop/api/msctf/nn-msctf-itfrange">ITfRange
       </a>
-

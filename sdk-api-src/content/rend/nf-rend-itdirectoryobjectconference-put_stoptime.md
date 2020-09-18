@@ -134,9 +134,8 @@ This function may send data over the wire in unencrypted form; therefore, someon
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rend/nn-rend-itdirectoryobjectconference">ITDirectoryObjectConference</a>
+<a href="/windows/desktop/api/rend/nn-rend-itdirectoryobjectconference">ITDirectoryObjectConference</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rend/nf-rend-itdirectoryobjectconference-get_stoptime">ITDirectoryObjectConference::get_StopTime</a>
-
+<a href="/windows/desktop/api/rend/nf-rend-itdirectoryobjectconference-get_stoptime">ITDirectoryObjectConference::get_StopTime</a>

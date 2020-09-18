@@ -56,15 +56,15 @@ Get an effect-type description.
 
 ### -param pDesc [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d10effect/ns-d3d10effect-d3d10_effect_type_desc">D3D10_EFFECT_TYPE_DESC</a>*</b>
+Type: <b><a href="/windows/desktop/api/d3d10effect/ns-d3d10effect-d3d10_effect_type_desc">D3D10_EFFECT_TYPE_DESC</a>*</b>
 
-A pointer to an effect-type description. See <a href="https://docs.microsoft.com/windows/desktop/api/d3d10effect/ns-d3d10effect-d3d10_effect_type_desc">D3D10_EFFECT_TYPE_DESC</a>.
+A pointer to an effect-type description. See <a href="/windows/desktop/api/d3d10effect/ns-d3d10effect-d3d10_effect_type_desc">D3D10_EFFECT_TYPE_DESC</a>.
 
 ## -returns
 
 Type: <b><a href="/windows/win32/com/structure-of-com-error-codes">HRESULT</a></b>
 
-Returns one of the following <a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-reference-returnvalues">Direct3D 10 Return Codes</a>.
+Returns one of the following <a href="/windows/desktop/direct3d10/d3d10-graphics-reference-returnvalues">Direct3D 10 Return Codes</a>.
 
 ## -remarks
 
@@ -72,5 +72,4 @@ The effect-variable description contains data about the name, annotations, seman
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d10effect/nn-d3d10effect-id3d10effecttype">ID3D10EffectType Interface</a>
-
+<a href="/windows/desktop/api/d3d10effect/nn-d3d10effect-id3d10effecttype">ID3D10EffectType Interface</a>

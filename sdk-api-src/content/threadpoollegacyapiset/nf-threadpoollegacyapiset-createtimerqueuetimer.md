@@ -61,19 +61,19 @@ Creates a timer-queue timer. This timer expires at the specified due time, then 
 
 ### -param phNewTimer [out]
 
-A pointer to a buffer that receives a handle to the timer-queue timer on return. When this handle has expired and is no longer required, release it by calling <a href="https://docs.microsoft.com/windows/desktop/api/threadpoollegacyapiset/nf-threadpoollegacyapiset-deletetimerqueuetimer">DeleteTimerQueueTimer</a>.
+A pointer to a buffer that receives a handle to the timer-queue timer on return. When this handle has expired and is no longer required, release it by calling <a href="/windows/desktop/api/threadpoollegacyapiset/nf-threadpoollegacyapiset-deletetimerqueuetimer">DeleteTimerQueueTimer</a>.
 
 ### -param TimerQueue [in, optional]
 
 A handle to the timer queue. This handle is returned by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/threadpoollegacyapiset/nf-threadpoollegacyapiset-createtimerqueue">CreateTimerQueue</a> function.
+<a href="/windows/desktop/api/threadpoollegacyapiset/nf-threadpoollegacyapiset-createtimerqueue">CreateTimerQueue</a> function.
 
 If this parameter is <b>NULL</b>, the timer is associated with the default timer queue.
 
 ### -param Callback [in]
 
 A pointer to the application-defined function of type <b>WAITORTIMERCALLBACK</b> to be executed when the timer expires. For more information, see 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms687066(v=vs.85)">WaitOrTimerCallback</a>.
+<a href="/previous-versions/windows/desktop/legacy/ms687066(v=vs.85)">WaitOrTimerCallback</a>.
 
 ### -param Parameter [in, optional]
 
@@ -149,7 +149,7 @@ I/O worker threads were removed starting with Windows Vista and Windows Server�
 The callback function is queued to a thread that never terminates. It does not guarantee that the same thread is used each time. This flag should be used only for short tasks or it could affect other timer operations. 
 
 
-This flag must be set if the thread calls functions that use APCs. For more information, see <a href="https://docs.microsoft.com/windows/desktop/Sync/asynchronous-procedure-calls">Asynchronous Procedure Calls</a>.
+This flag must be set if the thread calls functions that use APCs. For more information, see <a href="/windows/desktop/Sync/asynchronous-procedure-calls">Asynchronous Procedure Calls</a>.
 
 Note that currently no worker thread is truly persistent, although no worker thread will terminate if there are any pending I/O requests.
 
@@ -197,7 +197,7 @@ Callback functions will use the current access token, whether it is a process or
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
@@ -208,8 +208,8 @@ The time that the system spends in sleep or hibernation does not count toward th
 <b>Windows Server 2003 and Windows XP:  </b>The time that the system spends in sleep or hibernation counts toward the expiration of the timer.  If the timer expires while the system is sleeping, the timer is signaled immediately when the system wakes.
 
 To cancel a timer, call the 
-<a href="https://docs.microsoft.com/windows/desktop/api/threadpoollegacyapiset/nf-threadpoollegacyapiset-deletetimerqueuetimer">DeleteTimerQueueTimer</a> function. To cancel all timers in a timer queue, call the 
-<a href="https://docs.microsoft.com/windows/desktop/api/threadpoollegacyapiset/nf-threadpoollegacyapiset-deletetimerqueueex">DeleteTimerQueueEx</a> function.
+<a href="/windows/desktop/api/threadpoollegacyapiset/nf-threadpoollegacyapiset-deletetimerqueuetimer">DeleteTimerQueueTimer</a> function. To cancel all timers in a timer queue, call the 
+<a href="/windows/desktop/api/threadpoollegacyapiset/nf-threadpoollegacyapiset-deletetimerqueueex">DeleteTimerQueueEx</a> function.
 
 By default, the thread pool has a maximum of 500 threads. To raise this limit, use the <b>WT_SET_MAX_THREADPOOL_THREAD</b> macro defined in WinNT.h.
 
@@ -218,38 +218,37 @@ By default, the thread pool has a maximum of 500 threads. To raise this limit, u
 Use this macro when specifying the <i>Flags</i> parameter. The macro parameters are the desired flags and the new limit (up to (2&lt;&lt;16)-1 threads). However, note that your application can improve its performance by keeping the number of worker threads low.
 
 To compile an application that uses this function, define <b>_WIN32_WINNT</b> as 0x0500 or later. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/WinProg/using-the-windows-headers">Using the Windows Headers</a>.
+<a href="/windows/desktop/WinProg/using-the-windows-headers">Using the Windows Headers</a>.
 
 
 #### Examples
 
 For an example that uses 
 <b>CreateTimerQueueTimer</b>, see 
-<a href="https://docs.microsoft.com/windows/desktop/Sync/using-timer-queues">Using Timer Queues</a>.
+<a href="/windows/desktop/Sync/using-timer-queues">Using Timer Queues</a>.
 
 <div class="code"></div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/threadpoollegacyapiset/nf-threadpoollegacyapiset-createtimerqueue">CreateTimerQueue</a>
+<a href="/windows/desktop/api/threadpoollegacyapiset/nf-threadpoollegacyapiset-createtimerqueue">CreateTimerQueue</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/threadpoollegacyapiset/nf-threadpoollegacyapiset-deletetimerqueueex">DeleteTimerQueueEx</a>
+<a href="/windows/desktop/api/threadpoollegacyapiset/nf-threadpoollegacyapiset-deletetimerqueueex">DeleteTimerQueueEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/threadpoollegacyapiset/nf-threadpoollegacyapiset-deletetimerqueuetimer">DeleteTimerQueueTimer</a>
+<a href="/windows/desktop/api/threadpoollegacyapiset/nf-threadpoollegacyapiset-deletetimerqueuetimer">DeleteTimerQueueTimer</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Sync/synchronization-functions">Synchronization Functions</a>
+<a href="/windows/desktop/Sync/synchronization-functions">Synchronization Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/ProcThread/thread-pooling">Thread Pooling</a>
+<a href="/windows/desktop/ProcThread/thread-pooling">Thread Pooling</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Sync/timer-queues">Timer Queues</a>
-
+<a href="/windows/desktop/Sync/timer-queues">Timer Queues</a>

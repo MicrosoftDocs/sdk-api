@@ -56,7 +56,7 @@ The <b>EngQueryDeviceAttribute</b> function allows the driver to query the syste
 
 ### -param hdev [in]
 
-Handle to the device. This parameter is the GDI handle received by the driver's <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvcompletepdev">DrvCompletePDEV</a> function.
+Handle to the device. This parameter is the GDI handle received by the driver's <a href="/windows/desktop/api/winddi/nf-winddi-drvcompletepdev">DrvCompletePDEV</a> function.
 
 ### -param devAttr [in]
 
@@ -72,7 +72,7 @@ Reserved for system use. This parameter is currently ignored by GDI.
 
 ### -param pvOut [out]
 
-Pointer to a buffer of <i>ulOutSize</i> bytes in which GDI writes information about the attribute being queried. When <i>devAttr</i> is QDA_ACCELERATION_LEVEL, GDI writes in the buffer a DWORD value from 0 through 5 that indicates the current acceleration level. See <a href="https://docs.microsoft.com/windows-hardware/drivers/display/display-driver-testing-tools">Display Driver Testing Tools</a> for a description of the acceleration levels.
+Pointer to a buffer of <i>ulOutSize</i> bytes in which GDI writes information about the attribute being queried. When <i>devAttr</i> is QDA_ACCELERATION_LEVEL, GDI writes in the buffer a DWORD value from 0 through 5 that indicates the current acceleration level. See <a href="/windows-hardware/drivers/display/display-driver-testing-tools">Display Driver Testing Tools</a> for a description of the acceleration levels.
 
 ### -param ulOutSize [out]
 
@@ -88,5 +88,4 @@ The video card's acceleration level can be dynamically set through the Display p
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvnotify">DrvNotify</a>
-
+<a href="/windows/desktop/api/winddi/nf-winddi-drvnotify">DrvNotify</a>

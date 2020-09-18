@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-Describes the relationship between the specified processor set. This structure is used with the <a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getlogicalprocessorinformation">GetLogicalProcessorInformation</a> function.
+Describes the relationship between the specified processor set. This structure is used with the <a href="/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getlogicalprocessorinformation">GetLogicalProcessorInformation</a> function.
 
 ## -struct-fields
 
@@ -62,11 +62,11 @@ Describes the relationship between the specified processor set. This structure i
 
 The processor mask  identifying the processors described by this structure. A processor mask is a bit vector in which each set bit represents an active processor in the relationship. At least one bit will be set.
 
-On a system with more than 64 processors, the processor mask identifies processors in a single <a href="https://docs.microsoft.com/windows/desktop/ProcThread/processor-groups">processor group</a>.
+On a system with more than 64 processors, the processor mask identifies processors in a single <a href="/windows/desktop/ProcThread/processor-groups">processor group</a>.
 
 ### -field Relationship
 
-The relationship between the processors identified by the value of the <b>ProcessorMask</b> member. This member can be one of the following <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ne-winnt-logical_processor_relationship">LOGICAL_PROCESSOR_RELATIONSHIP</a> values.
+The relationship between the processors identified by the value of the <b>ProcessorMask</b> member. This member can be one of the following <a href="/windows/desktop/api/winnt/ne-winnt-logical_processor_relationship">LOGICAL_PROCESSOR_RELATIONSHIP</a> values.
 
 <table>
 <tr>
@@ -145,11 +145,11 @@ This structure contains valid data only if the <b>Relationship</b> member is Rel
 
 ### -field DUMMYUNIONNAME.NumaNode.NodeNumber
 
-Identifies the <a href="https://docs.microsoft.com/windows/desktop/ProcThread/numa-support">NUMA</a> node. The valid values of this  parameter are 0 to the highest NUMA node number inclusive. A non-NUMA multiprocessor system will report that all processors belong to one NUMA node.
+Identifies the <a href="/windows/desktop/ProcThread/numa-support">NUMA</a> node. The valid values of this  parameter are 0 to the highest NUMA node number inclusive. A non-NUMA multiprocessor system will report that all processors belong to one NUMA node.
 
 ### -field DUMMYUNIONNAME.Cache
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-cache_descriptor">CACHE_DESCRIPTOR</a> structure that identifies the characteristics of a particular cache. There is one record returned for each cache reported. Some or all caches may not be reported, depending on the mechanism used by the processor to identify its caches. Therefore, do not assume the absence of any particular caches. Caches are not necessarily shared among logical processors.
+A <a href="/windows/desktop/api/winnt/ns-winnt-cache_descriptor">CACHE_DESCRIPTOR</a> structure that identifies the characteristics of a particular cache. There is one record returned for each cache reported. Some or all caches may not be reported, depending on the mechanism used by the processor to identify its caches. Therefore, do not assume the absence of any particular caches. Caches are not necessarily shared among logical processors.
 
 This structure contains valid data only if the <b>Relationship</b> member is RelationCache.
 
@@ -161,21 +161,20 @@ Reserved. Do not use.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-cache_descriptor">CACHE_DESCRIPTOR</a>
+<a href="/windows/desktop/api/winnt/ns-winnt-cache_descriptor">CACHE_DESCRIPTOR</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getlogicalprocessorinformation">GetLogicalProcessorInformation</a>
+<a href="/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getlogicalprocessorinformation">GetLogicalProcessorInformation</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getlogicalprocessorinformationex">GetLogicalProcessorInformationEx</a>
+<a href="/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getlogicalprocessorinformationex">GetLogicalProcessorInformationEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ne-winnt-logical_processor_relationship">LOGICAL_PROCESSOR_RELATIONSHIP</a>
+<a href="/windows/desktop/api/winnt/ne-winnt-logical_processor_relationship">LOGICAL_PROCESSOR_RELATIONSHIP</a>
 
 
 
 <a href="/windows/win32/api/winnt/ns-winnt-system_logical_processor_information_ex">SYSTEM_LOGICAL_PROCESSOR_INFORMATION_EX</a>
-

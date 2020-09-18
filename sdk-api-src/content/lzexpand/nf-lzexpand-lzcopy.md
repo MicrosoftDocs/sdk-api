@@ -68,8 +68,8 @@ If the function succeeds, the return value specifies the size, in bytes, of the 
 
 If the function fails, the return value is an LZERROR_* code. These codes have values less than zero. Note that 
 <b>LZCopy</b> calls neither 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-setlasterror">SetLastError</a> nor 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setlasterrorex">SetLastErrorEx</a>; thus, its failure does not affect a thread's last-error code.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-setlasterror">SetLastError</a> nor 
+<a href="/windows/desktop/api/winuser/nf-winuser-setlasterrorex">SetLastErrorEx</a>; thus, its failure does not affect a thread's last-error code.
 
 The following is a list of error codes that 
 <b>LZCopy</b> can return upon failure.
@@ -137,13 +137,13 @@ The source file format is not valid.
 </table>
  
 
-There is no extended error information for this function; do not call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+There is no extended error information for this function; do not call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
 The handles identifying the source and destination files must be retrieved by calling the 
-<a href="https://docs.microsoft.com/windows/desktop/api/lzexpand/nf-lzexpand-lzinit">LZInit</a> or 
-<a href="https://docs.microsoft.com/windows/desktop/api/lzexpand/nf-lzexpand-lzopenfilea">LZOpenFile</a> function. 
+<a href="/windows/desktop/api/lzexpand/nf-lzexpand-lzinit">LZInit</a> or 
+<a href="/windows/desktop/api/lzexpand/nf-lzexpand-lzopenfilea">LZOpenFile</a> function. 
 
 If the function succeeds, the file identified by the <i>hfDest</i> parameter is always uncompressed.
 
@@ -211,17 +211,16 @@ CsvFs will do redirected IO for compressed files.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/file-compression-and-decompression">File Compression and Decompression</a>
+<a href="/windows/desktop/FileIO/file-compression-and-decompression">File Compression and Decompression</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/file-management-functions">File Management Functions</a>
+<a href="/windows/desktop/FileIO/file-management-functions">File Management Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lzexpand/nf-lzexpand-lzinit">LZInit</a>
+<a href="/windows/desktop/api/lzexpand/nf-lzexpand-lzinit">LZInit</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lzexpand/nf-lzexpand-lzopenfilea">LZOpenFile</a>
-
+<a href="/windows/desktop/api/lzexpand/nf-lzexpand-lzopenfilea">LZOpenFile</a>

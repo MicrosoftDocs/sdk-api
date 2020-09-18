@@ -81,5 +81,4 @@ Both parameters cannot return non-<b>NULL</b> values, so <i>ppwszValidChars</i> 
 in <i>ppwszInvalidChars</i>. It is assumed that when there are specified invalid characters, everything else is valid. Only when <i>ppwszInvalidChars</i> is <b>NULL</b> does <i>ppwszValidChars</i> contain a list of all valid characters.
 			
 
-If the method returns a success code, the allocated string must be freed using <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a>.
-
+If the method returns a success code, the allocated string must be freed using <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a>.

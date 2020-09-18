@@ -64,7 +64,7 @@ OID of the content encryption algorithm.
 
 ### -field rgbCounter
 
-Array of BYTES of length <b>CRYPT_X942_COUNTER_BYTE_LENGTH</b>. The value is stored in <a href="https://docs.microsoft.com/windows/desktop/SecGloss/l-gly">little-endian</a> order.
+Array of BYTES of length <b>CRYPT_X942_COUNTER_BYTE_LENGTH</b>. The value is stored in <a href="/windows/desktop/SecGloss/l-gly">little-endian</a> order.
 
 ### -field rgbKeyLength
 
@@ -72,5 +72,4 @@ Array of BYTES of length <b>CRYPT_X942_KEY_LENGTH_BYTE_LENGTH</b>. The value is 
 
 ### -field PubInfo
 
-Optional <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_DATA_BLOB</a> for additional information.
-
+Optional <a href="/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_DATA_BLOB</a> for additional information.

@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-The <b>ber_first_element</b> function is used to begin the traversal of a SET, SET OF, SEQUENCE or SEQUENCE OF data value stored in the supplied <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/ns-winldap-berelement">BerElement</a> structure. It returns the tag and length of the first element.
+The <b>ber_first_element</b> function is used to begin the traversal of a SET, SET OF, SEQUENCE or SEQUENCE OF data value stored in the supplied <a href="/previous-versions/windows/desktop/api/winldap/ns-winldap-berelement">BerElement</a> structure. It returns the tag and length of the first element.
 
 ## -parameters
 
 ### -param pBerElement [in]
 
-Pointer to the source <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/ns-winldap-berelement">BerElement</a> structure.
+Pointer to the source <a href="/previous-versions/windows/desktop/api/winldap/ns-winldap-berelement">BerElement</a> structure.
 
 ### -param pLen [out]
 
@@ -65,25 +65,24 @@ Returns the length of the next element to be parsed.
 ### -param ppOpaque [out]
 
 Returns a pointer to a cookie that is passed to subsequent calls of the 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winber/nf-winber-ber_next_element">ber_next_element</a> function.
+<a href="/previous-versions/windows/desktop/api/winber/nf-winber-ber_next_element">ber_next_element</a> function.
 
 ## -returns
 
-Returns the tag of the next element to be read in the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/ns-winldap-berelement">BerElement</a> structure. LBER_DEFAULT is returned if there is no further data to be read.
+Returns the tag of the next element to be read in the <a href="/previous-versions/windows/desktop/api/winldap/ns-winldap-berelement">BerElement</a> structure. LBER_DEFAULT is returned if there is no further data to be read.
 
 ## -remarks
 
-The <i>pLen</i> and <i>ppOpaque</i> values returned by the function are internal parsing state values, and should not be used by applications other than as arguments to <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winber/nf-winber-ber_next_element">ber_next_element</a>.
+The <i>pLen</i> and <i>ppOpaque</i> values returned by the function are internal parsing state values, and should not be used by applications other than as arguments to <a href="/previous-versions/windows/desktop/api/winber/nf-winber-ber_next_element">ber_next_element</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winber/nf-winber-ber_next_element">ber_next_element</a>
+<a href="/previous-versions/windows/desktop/api/winber/nf-winber-ber_next_element">ber_next_element</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winber/nf-winber-ber_peek_tag">ber_peek_tag</a>
+<a href="/previous-versions/windows/desktop/api/winber/nf-winber-ber_peek_tag">ber_peek_tag</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winber/nf-winber-ber_skip_tag">ber_skip_tag</a>
-
+<a href="/previous-versions/windows/desktop/api/winber/nf-winber-ber_skip_tag">ber_skip_tag</a>

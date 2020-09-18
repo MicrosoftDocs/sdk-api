@@ -62,7 +62,7 @@ A handle to the open virtual disk, which must have been opened using the
 
 ### -param VirtualDiskInfo [in]
 
-A pointer to a valid [SET_VIRTUAL_DISK_INFO](/windows/win32/api/virtdisk/ns-virtdisk-set_virtual_disk_info) 
+A pointer to a valid [SET_VIRTUAL_DISK_INFO](./ns-virtdisk-set_virtual_disk_info.md) 
      structure.
 
 ## -returns
@@ -72,7 +72,7 @@ Status of the request.
 If the function succeeds, the return value is <b>ERROR_SUCCESS</b>.
 
 If the function fails, the return value is an error code. For more information, see 
-      <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">System Error Codes</a>.
+      <a href="/windows/desktop/Debug/system-error-codes">System Error Codes</a>.
 
 ## -remarks
 
@@ -89,9 +89,8 @@ The caller must have READ|WRITE access to the backing store for the virtual disk
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd323654(v=vs.85)">About VHD</a>
+<a href="/previous-versions/windows/desktop/legacy/dd323654(v=vs.85)">About VHD</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd323700(v=vs.85)">VHD Reference</a>
-
+<a href="/previous-versions/windows/desktop/legacy/dd323700(v=vs.85)">VHD Reference</a>

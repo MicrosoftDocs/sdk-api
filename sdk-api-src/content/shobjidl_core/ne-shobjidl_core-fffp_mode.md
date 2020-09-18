@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Describes match criteria. Used by methods of the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iknownfoldermanager">IKnownFolderManager</a> interface.
+Describes match criteria. Used by methods of the <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iknownfoldermanager">IKnownFolderManager</a> interface.
 
 ## -enum-fields
 
@@ -61,4 +61,3 @@ Exact match.
 ### -field FFFP_NEARESTPARENTMATCH
 
 Nearest parent match.
-

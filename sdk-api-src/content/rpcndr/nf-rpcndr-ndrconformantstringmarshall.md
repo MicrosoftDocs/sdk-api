@@ -56,7 +56,7 @@ The <b>NdrConformantStringMarshall</b> function marshals the conformant string i
 
 ### -param pStubMsg [in, out]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/rpcndr/ns-rpcndr-midl_stub_message">MIDL_STUB_MESSAGE</a> structure that maintains the current status of the RPC stub. This structure is for internal use only and should not be modified.
+Pointer to a <a href="/windows/desktop/api/rpcndr/ns-rpcndr-midl_stub_message">MIDL_STUB_MESSAGE</a> structure that maintains the current status of the RPC stub. This structure is for internal use only and should not be modified.
 
 ### -param pMemory [in]
 
@@ -84,4 +84,3 @@ Returns null upon success. If an error occurs, the function throws one of the fo
 <td>An error occurred in RPC.</td>
 </tr>
 </table>
-

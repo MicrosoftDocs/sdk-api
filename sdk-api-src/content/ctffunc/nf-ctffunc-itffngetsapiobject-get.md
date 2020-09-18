@@ -108,10 +108,9 @@ The requested object is not implemented.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ctffunc/nn-ctffunc-itffngetsapiobject">ITfFnGetSAPIObject</a>
+<a href="/windows/desktop/api/ctffunc/nn-ctffunc-itffngetsapiobject">ITfFnGetSAPIObject</a>
 
 
 
 <a href="/windows/win32/api/ctffunc/ne-ctffunc-tfsapiobject">TfSapiObject
       </a>
-

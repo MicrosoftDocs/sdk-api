@@ -72,5 +72,4 @@ Indicates that the server detects clients that are slowing the multicast transmi
 
 ### -field WdsTptSlowClientHandlingMultistream
 
-Indicates that the server detects clients that are slowing the multicast transmission below a specified percentage of available bandwidth. The server moves the slow clients to lower-speed streams of the same multicast transmission. The server cannot move legacy clients that do not support the multistream handling option, and in this case, the server disconnects the client or instructs the client to fallback depending upon the <a href="https://docs.microsoft.com/windows/desktop/api/wdstptmgmt/nf-wdstptmgmt-iwdstransportmulticastsessionpolicy-get_slowclientfallback">SlowClientFallback</a> property.
-
+Indicates that the server detects clients that are slowing the multicast transmission below a specified percentage of available bandwidth. The server moves the slow clients to lower-speed streams of the same multicast transmission. The server cannot move legacy clients that do not support the multistream handling option, and in this case, the server disconnects the client or instructs the client to fallback depending upon the <a href="/windows/desktop/api/wdstptmgmt/nf-wdstptmgmt-iwdstransportmulticastsessionpolicy-get_slowclientfallback">SlowClientFallback</a> property.

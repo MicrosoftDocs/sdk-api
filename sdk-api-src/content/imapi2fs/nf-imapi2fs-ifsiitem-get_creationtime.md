@@ -90,9 +90,8 @@ IMAPI does not support the extended attribute for <i>CreationTime</i>, and as a 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nn-imapi2fs-ifsiitem">IFsiItem</a>
+<a href="/windows/desktop/api/imapi2fs/nn-imapi2fs-ifsiitem">IFsiItem</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifsiitem-put_creationtime">IFsiItem::put_CreationTime</a>
-
+<a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ifsiitem-put_creationtime">IFsiItem::put_CreationTime</a>

@@ -51,7 +51,7 @@ api_name:
 ## -description
 
 Creates a cache container in the specified cache path to hold cache entries based on the specified name, cache prefix, and container type.
-<div class="alert"><b>Note</b>  Note: This API is deprecated. Please use the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/Gg269259(v=EXCHG.10)">Extensible Storage Engine</a> instead.</div><div> </div>
+<div class="alert"><b>Note</b>  Note: This API is deprecated. Please use the <a href="/previous-versions/windows/desktop/Gg269259(v=EXCHG.10)">Extensible Storage Engine</a> instead.</div><div> </div>
 
 ## -parameters
 
@@ -90,22 +90,21 @@ This parameter is reserved and must be <b>NULL</b>.
 ## -returns
 
 Returns <b>TRUE</b> if successful, or <b>FALSE</b> otherwise. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/WinInet/caching">Caching</a>
+<a href="/windows/desktop/WinInet/caching">Caching</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-commiturlcacheentryw">CommitUrlCacheEntry</a>
+<a href="/windows/desktop/api/wininet/nf-wininet-commiturlcacheentryw">CommitUrlCacheEntry</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WinInet/wininet-functions">WinINet Functions</a>
+<a href="/windows/desktop/WinInet/wininet-functions">WinINet Functions</a>
 
 ## -remarks
 
 > [!NOTE]
 > The winineti.h header defines CreateUrlCacheContainer as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

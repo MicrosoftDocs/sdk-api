@@ -50,11 +50,11 @@ api_name:
 
 ## -description
 
-Specifies how the picture behaves inside the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkpicture-control-reference">InkPicture</a> control.
+Specifies how the picture behaves inside the <a href="/windows/desktop/tablet/inkpicture-control-reference">InkPicture</a> control.
           
         
 
-The mode is set by using the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_sizemode">SizeMode</a> property and is applied to the picture set with the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_picture">Picture</a> property.
+The mode is set by using the <a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_sizemode">SizeMode</a> property and is applied to the picture set with the <a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_picture">Picture</a> property.
 
 ## -enum-fields
 
@@ -76,5 +76,4 @@ The picture appears at its regular size within the control.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/tablet/inkpicture-control-reference">InkPicture</a>
-
+<a href="/windows/desktop/tablet/inkpicture-control-reference">InkPicture</a>

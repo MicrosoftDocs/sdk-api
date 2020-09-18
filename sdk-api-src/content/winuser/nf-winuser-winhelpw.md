@@ -95,7 +95,7 @@ Additional data. The value used depends on the value of the <i>uCommand</i> para
 
 Type: <b>BOOL</b>
 
-Returns nonzero if successful, or zero otherwise. To retrieve extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+Returns nonzero if successful, or zero otherwise. To retrieve extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
@@ -164,7 +164,7 @@ The following table shows the possible values for the <i>uCommand</i> parameter 
 <tr>
 <td>HELP_MULTIKEY</td>
 <td>Displays the topic specified by a keyword in an alternative keyword table.</td>
-<td>Address of a <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-multikeyhelpa">MULTIKEYHELP</a> structure that specifies a table footnote character and a keyword.</td>
+<td>Address of a <a href="/windows/desktop/api/winuser/ns-winuser-multikeyhelpa">MULTIKEYHELP</a> structure that specifies a table footnote character and a keyword.</td>
 </tr>
 <tr>
 <td>HELP_PARTIALKEY</td>
@@ -184,12 +184,12 @@ The following table shows the possible values for the <i>uCommand</i> parameter 
 <tr>
 <td>HELP_SETPOPUP_POS</td>
 <td>Sets the position of the subsequent pop-up window.</td>
-<td>Contains the position data. Use <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms632660(v=vs.85)">MAKELONG</a> to concatenate the horizontal and vertical coordinates into a single value. The pop-up window is positioned as if the mouse cursor were at the specified point when the pop-up window was invoked.</td>
+<td>Contains the position data. Use <a href="/previous-versions/windows/desktop/legacy/ms632660(v=vs.85)">MAKELONG</a> to concatenate the horizontal and vertical coordinates into a single value. The pop-up window is positioned as if the mouse cursor were at the specified point when the pop-up window was invoked.</td>
 </tr>
 <tr>
 <td>HELP_SETWINPOS</td>
 <td>Displays the Windows Help window, if it is minimized or in memory, and sets its size and position as specified.</td>
-<td>Address of a <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-helpwininfoa">HELPWININFO</a> structure that specifies the size and position of either a primary or secondary Help window.</td>
+<td>Address of a <a href="/windows/desktop/api/winuser/ns-winuser-helpwininfoa">HELPWININFO</a> structure that specifies the size and position of either a primary or secondary Help window.</td>
 </tr>
 <tr>
 <td>HELP_TCARD</td>
@@ -213,9 +213,8 @@ The following table shows the possible values for the <i>uCommand</i> parameter 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-helpwininfoa">HELPWININFO</a>
+<a href="/windows/desktop/api/winuser/ns-winuser-helpwininfoa">HELPWININFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-multikeyhelpa">MULTIKEYHELP</a>
-
+<a href="/windows/desktop/api/winuser/ns-winuser-multikeyhelpa">MULTIKEYHELP</a>

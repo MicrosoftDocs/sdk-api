@@ -58,23 +58,23 @@ Specifies the capabilities of a Microsoft DirectX Video Acceleration High Defini
 
 ### -field DeviceType
 
-Specifies the device type, as a member of the <a href="https://docs.microsoft.com/windows/desktop/api/dxvahd/ne-dxvahd-dxvahd_device_type">DXVAHD_DEVICE_TYPE</a> enumeration.
+Specifies the device type, as a member of the <a href="/windows/desktop/api/dxvahd/ne-dxvahd-dxvahd_device_type">DXVAHD_DEVICE_TYPE</a> enumeration.
 
 ### -field DeviceCaps
 
-A bitwise <b>OR</b> of zero or more flags from the <a href="https://docs.microsoft.com/windows/desktop/api/dxvahd/ne-dxvahd-dxvahd_device_caps">DXVAHD_DEVICE_CAPS</a> enumeration.
+A bitwise <b>OR</b> of zero or more flags from the <a href="/windows/desktop/api/dxvahd/ne-dxvahd-dxvahd_device_caps">DXVAHD_DEVICE_CAPS</a> enumeration.
 
 ### -field FeatureCaps
 
-A bitwise <b>OR</b> of zero or more flags from the <a href="https://docs.microsoft.com/windows/desktop/api/dxvahd/ne-dxvahd-dxvahd_feature_caps">DXVAHD_FEATURE_CAPS</a> enumeration.
+A bitwise <b>OR</b> of zero or more flags from the <a href="/windows/desktop/api/dxvahd/ne-dxvahd-dxvahd_feature_caps">DXVAHD_FEATURE_CAPS</a> enumeration.
 
 ### -field FilterCaps
 
-A bitwise <b>OR</b> of zero or more flags from the <a href="https://docs.microsoft.com/windows/desktop/api/dxvahd/ne-dxvahd-dxvahd_filter_caps">DXVAHD_FILTER_CAPS</a> enumeration.
+A bitwise <b>OR</b> of zero or more flags from the <a href="/windows/desktop/api/dxvahd/ne-dxvahd-dxvahd_filter_caps">DXVAHD_FILTER_CAPS</a> enumeration.
 
 ### -field InputFormatCaps
 
-A bitwise <b>OR</b> of zero or more flags from the <a href="https://docs.microsoft.com/windows/desktop/api/dxvahd/ne-dxvahd-dxvahd_input_format_caps">DXVAHD_INPUT_FORMAT_CAPS</a> enumeration.
+A bitwise <b>OR</b> of zero or more flags from the <a href="/windows/desktop/api/dxvahd/ne-dxvahd-dxvahd_input_format_caps">DXVAHD_INPUT_FORMAT_CAPS</a> enumeration.
 
 ### -field InputPool
 
@@ -82,15 +82,15 @@ The memory pool that is required for the input video surfaces.
 
 ### -field OutputFormatCount
 
-The number of supported output formats. To get the list of output formats, call the <a href="https://docs.microsoft.com/windows/desktop/api/dxvahd/nf-dxvahd-idxvahd_device-getvideoprocessoroutputformats">IDXVAHD_Device::GetVideoProcessorOutputFormats</a> method.
+The number of supported output formats. To get the list of output formats, call the <a href="/windows/desktop/api/dxvahd/nf-dxvahd-idxvahd_device-getvideoprocessoroutputformats">IDXVAHD_Device::GetVideoProcessorOutputFormats</a> method.
 
 ### -field InputFormatCount
 
-The number of supported input formats. To get the list of input formats, call the <a href="https://docs.microsoft.com/windows/desktop/api/dxvahd/nf-dxvahd-idxvahd_device-getvideoprocessorinputformats">IDXVAHD_Device::GetVideoProcessorInputFormats</a> method.
+The number of supported input formats. To get the list of input formats, call the <a href="/windows/desktop/api/dxvahd/nf-dxvahd-idxvahd_device-getvideoprocessorinputformats">IDXVAHD_Device::GetVideoProcessorInputFormats</a> method.
 
 ### -field VideoProcessorCount
 
-The number of video processors. Each video processor represents a  distinct set of processing capabilities. To get the capabilities of each video processor, call the <a href="https://docs.microsoft.com/windows/desktop/api/dxvahd/nf-dxvahd-idxvahd_device-getvideoprocessorcaps">IDXVAHD_Device::GetVideoProcessorCaps</a> method. To create a video processor, call the <a href="https://docs.microsoft.com/windows/desktop/api/dxvahd/nf-dxvahd-idxvahd_device-createvideoprocessor">IDXVAHD_Device::CreateVideoProcessor</a> method.
+The number of video processors. Each video processor represents a  distinct set of processing capabilities. To get the capabilities of each video processor, call the <a href="/windows/desktop/api/dxvahd/nf-dxvahd-idxvahd_device-getvideoprocessorcaps">IDXVAHD_Device::GetVideoProcessorCaps</a> method. To create a video processor, call the <a href="/windows/desktop/api/dxvahd/nf-dxvahd-idxvahd_device-createvideoprocessor">IDXVAHD_Device::CreateVideoProcessor</a> method.
 
 ### -field MaxInputStreams
 
@@ -108,21 +108,20 @@ In DXVA-HD, the device stores state information for each input stream. These sta
 
 The <b>MaxStreamStates</b> member gives the maximum number of stream states that can be set by the application. The <b>MaxInputStreams</b> member gives the maximum number of streams that can be enabled during a blit. These two values can differ.
 
-To set the state data for a stream, call <a href="https://docs.microsoft.com/windows/desktop/api/dxvahd/nf-dxvahd-idxvahd_videoprocessor-setvideoprocessstreamstate">IDXVAHD_VideoProcessor::SetVideoProcessStreamState</a>.
+To set the state data for a stream, call <a href="/windows/desktop/api/dxvahd/nf-dxvahd-idxvahd_videoprocessor-setvideoprocessstreamstate">IDXVAHD_VideoProcessor::SetVideoProcessStreamState</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/dxva-hd">DXVA-HD</a>
+<a href="/windows/desktop/medfound/dxva-hd">DXVA-HD</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/direct3d-video-structures">Direct3D Video Structures</a>
+<a href="/windows/desktop/medfound/direct3d-video-structures">Direct3D Video Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dxvahd/nf-dxvahd-idxvahd_device-getvideoprocessordevicecaps">IDXVAHD_Device::GetVideoProcessorDeviceCaps</a>
+<a href="/windows/desktop/api/dxvahd/nf-dxvahd-idxvahd_device-getvideoprocessordevicecaps">IDXVAHD_Device::GetVideoProcessorDeviceCaps</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-structures">Media Foundation Structures</a>
-
+<a href="/windows/desktop/medfound/media-foundation-structures">Media Foundation Structures</a>

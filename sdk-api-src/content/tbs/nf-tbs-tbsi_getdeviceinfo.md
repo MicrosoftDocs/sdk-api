@@ -60,7 +60,7 @@ Size of the memory location.
 
 ### -param Info [out]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/tbs/ns-tbs-tpm_device_info">TPM_DEVICE_INFO</a> structure is returned containing the version information about the TPM. The location must be large enough to hold four 32-bit values.
+A pointer to a <a href="/windows/desktop/api/tbs/ns-tbs-tpm_device_info">TPM_DEVICE_INFO</a> structure is returned containing the version information about the TPM. The location must be large enough to hold four 32-bit values.
 
 ## -returns
 
@@ -110,4 +110,3 @@ A compatible Trusted Platform Module (TPM) Security Device cannot be found on th
 </td>
 </tr>
 </table>
-

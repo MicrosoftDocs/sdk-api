@@ -50,19 +50,18 @@ api_name:
 
 ## -description
 
-Determines the spacing between items in a list-view control. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/lvm-getitemspacing">LVM_GETITEMSPACING</a> message explicitly.
+Determines the spacing between items in a list-view control. You can use this macro or send the <a href="/windows/desktop/Controls/lvm-getitemspacing">LVM_GETITEMSPACING</a> message explicitly.
 
 ## -parameters
 
 ### -param hwndLV
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the list-view control.
 
 ### -param fSmall
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
 
 A view for which to retrieve the item spacing. This parameter is <b>TRUE</b> for small icon view, or <b>FALSE</b> for icon view.
-

@@ -53,7 +53,7 @@ api_name:
 
 <p class="CCE_Message">[This method is no longer available for use as of Windows Server 2008 and Windows Vista.]
 
-The <b>addNameValuePairToRequest</b> method adds an unauthenticated name-value string pair to the request. This method was first defined in the <a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nn-xenroll-icenroll4">ICEnroll4</a> interface.
+The <b>addNameValuePairToRequest</b> method adds an unauthenticated name-value string pair to the request. This method was first defined in the <a href="/windows/desktop/api/xenroll/nn-xenroll-icenroll4">ICEnroll4</a> interface.
 
 ## -parameters
 
@@ -75,5 +75,4 @@ The value portion of the name-value pair.
  If the method succeeds, the method returns <b>S_OK</b>.
 
 If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see 
-<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
-
+<a href="/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.

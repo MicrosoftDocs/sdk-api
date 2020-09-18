@@ -56,7 +56,7 @@ Called when the text within a context changes.
 
 ### -param pRange [in]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfrange">ITfRange</a> object that represents the range of text that has changed.
+Pointer to an <a href="/windows/desktop/api/msctf/nn-msctf-itfrange">ITfRange</a> object that represents the range of text that has changed.
 
 ### -param pchText [in]
 
@@ -101,10 +101,9 @@ One or more parameters are invalid.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ctffunc/nn-ctffunc-itffnadvisetext">ITfFnAdviseText</a>
+<a href="/windows/desktop/api/ctffunc/nn-ctffunc-itffnadvisetext">ITfFnAdviseText</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfrange">ITfRange
+<a href="/windows/desktop/api/msctf/nn-msctf-itfrange">ITfRange
       </a>
-

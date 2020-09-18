@@ -82,11 +82,11 @@ Any window that does not use the <b>GetSystemMenu</b> function to make its own c
 
 The window menu initially contains items with various identifier values, such as <b>SC_CLOSE</b>, <b>SC_MOVE</b>, and <b>SC_SIZE</b>. 
 
-Menu items on the window menu send <a href="https://docs.microsoft.com/windows/desktop/menurc/wm-syscommand">WM_SYSCOMMAND</a> messages. 
+Menu items on the window menu send <a href="/windows/desktop/menurc/wm-syscommand">WM_SYSCOMMAND</a> messages. 
 
 All predefined window menu items have identifier numbers greater than 0xF000. If an application adds commands to the window menu, it should use identifier numbers less than 0xF000. 
 
-The system automatically grays items on the standard window menu, depending on the situation. The application can perform its own checking or graying by responding to the <a href="https://docs.microsoft.com/windows/desktop/menurc/wm-initmenu">WM_INITMENU</a> message that is sent before any menu is displayed.
+The system automatically grays items on the standard window menu, depending on the situation. The application can perform its own checking or graying by responding to the <a href="/windows/desktop/menurc/wm-initmenu">WM_INITMENU</a> message that is sent before any menu is displayed.
 
 ## -see-also
 
@@ -94,15 +94,15 @@ The system automatically grays items on the standard window menu, depending on t
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getmenu">GetMenu</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-getmenu">GetMenu</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-insertmenuitema">InsertMenuItem</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-insertmenuitema">InsertMenuItem</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/menurc/menus">Menus</a>
+<a href="/windows/desktop/menurc/menus">Menus</a>
 
 
 
@@ -110,13 +110,12 @@ The system automatically grays items on the standard window menu, depending on t
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setmenuiteminfoa">SetMenuItemInfo</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-setmenuiteminfoa">SetMenuItemInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/menurc/wm-initmenu">WM_INITMENU</a>
+<a href="/windows/desktop/menurc/wm-initmenu">WM_INITMENU</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/menurc/wm-syscommand">WM_SYSCOMMAND</a>
-
+<a href="/windows/desktop/menurc/wm-syscommand">WM_SYSCOMMAND</a>

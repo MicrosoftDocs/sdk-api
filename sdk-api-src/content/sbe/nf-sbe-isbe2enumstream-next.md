@@ -60,7 +60,7 @@ The number of streams to retrieve.
 
 ### -param pStreamDesc [in, out]
 
-Pointer to an array of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/sbe/ns-sbe-sbe2_stream_desc">SBE2_STREAM_DESC</a> structures, with at least <i>cRequest</i> elements. The method copies up to <i>cRequest</i> elements into the array.
+Pointer to an array of <a href="/previous-versions/windows/desktop/api/sbe/ns-sbe-sbe2_stream_desc">SBE2_STREAM_DESC</a> structures, with at least <i>cRequest</i> elements. The method copies up to <i>cRequest</i> elements into the array.
 
 ### -param pcReceived [out]
 
@@ -112,5 +112,4 @@ The streams have changed, so the caller must enumerate them again.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/sbe/nn-sbe-isbe2enumstream">ISBE2EnumStream</a>
-
+<a href="/previous-versions/windows/desktop/api/sbe/nn-sbe-isbe2enumstream">ISBE2EnumStream</a>

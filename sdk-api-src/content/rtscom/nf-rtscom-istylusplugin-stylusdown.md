@@ -56,11 +56,11 @@ Notifies the implementing plug-in that the tablet pen has touched the digitizer 
 
 ### -param piRtsSrc [in]
 
-The <a href="https://docs.microsoft.com/windows/desktop/tablet/realtimestylus-class">RealTimeStylus Class</a> (RTS) object that sent the notification.
+The <a href="/windows/desktop/tablet/realtimestylus-class">RealTimeStylus Class</a> (RTS) object that sent the notification.
 
 ### -param pStylusInfo [in]
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/rtscom/ns-rtscom-stylusinfo">StylusInfo Structure</a> containing the information about the RTS that is associated with the stylus.
+A <a href="/windows/desktop/api/rtscom/ns-rtscom-stylusinfo">StylusInfo Structure</a> containing the information about the RTS that is associated with the stylus.
 
 ### -param cPropCountPerPkt [in]
 
@@ -76,24 +76,24 @@ A pointer to the modified stylus data packet. The plug-in can use this parameter
 
 ## -returns
 
-For a description of return values, <a href="https://docs.microsoft.com/windows/desktop/tablet/realtimestylus-classes-and-interfaces">RealTimeStylus Classes and Interfaces</a>.
+For a description of return values, <a href="/windows/desktop/tablet/realtimestylus-classes-and-interfaces">RealTimeStylus Classes and Interfaces</a>.
 
 ## -remarks
 
-You can return an array of modified packets in the buffer, <i>ppInOutPkt</i>. Packets used by the <a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nf-rtscom-istylusplugin-stylusup">IStylusPlugin::StylusUp Method</a> and <b>IStylusPlugin::StylusDown Method</b> methods can only be changed. Packets used by the <a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nf-rtscom-istylusplugin-packets">IStylusPlugin::Packets Method</a> and <a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nf-rtscom-istylusplugin-inairpackets">IStylusPlugin::InAirPackets Method</a> methods can be deleted.
+You can return an array of modified packets in the buffer, <i>ppInOutPkt</i>. Packets used by the <a href="/windows/desktop/api/rtscom/nf-rtscom-istylusplugin-stylusup">IStylusPlugin::StylusUp Method</a> and <b>IStylusPlugin::StylusDown Method</b> methods can only be changed. Packets used by the <a href="/windows/desktop/api/rtscom/nf-rtscom-istylusplugin-packets">IStylusPlugin::Packets Method</a> and <a href="/windows/desktop/api/rtscom/nf-rtscom-istylusplugin-inairpackets">IStylusPlugin::InAirPackets Method</a> methods can be deleted.
 
 If you modify packets, then <i>cPropCountPerPkt</i>, which is the number of LONGs in <i>ppInOutPkt</i>, must be divisible by the current desired packet properties (DPP) available on the current input device.
 
-You can modify packets by updating the <i>cPropCountPerPkt</i> and <i>ppInOutPkts</i> parameters. Change <i>cPropCountPerPkt</i> to a valid total packet property count and change <i>ppInOutPkts</i> to pointer to a valid data buffer accounting for values for each DPP in every packet. Only one packet can be present at that location for <a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nf-rtscom-istylusplugin-stylusup">IStylusPlugin::StylusUp Method</a> and <b>IStylusPlugin::StylusDown Method</b>.
+You can modify packets by updating the <i>cPropCountPerPkt</i> and <i>ppInOutPkts</i> parameters. Change <i>cPropCountPerPkt</i> to a valid total packet property count and change <i>ppInOutPkts</i> to pointer to a valid data buffer accounting for values for each DPP in every packet. Only one packet can be present at that location for <a href="/windows/desktop/api/rtscom/nf-rtscom-istylusplugin-stylusup">IStylusPlugin::StylusUp Method</a> and <b>IStylusPlugin::StylusDown Method</b>.
 
 For example, if you add three packets and your DPP is currently X,Y and Pressure, then you must have nine LONG values in this buffer and set <i>cPropCountPerPkt</i> to 9.
 
-The <i>cPropCountPerPkt</i> value is useful to help clarify the boundaries between packets in the flat array of integers that comes in for events such as the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkcollector-newpackets">NewPackets Event</a> event. Packets can be bundled in order to be more efficient with data transfer, such that it is not required that a plug-in is called once per packet.
+The <i>cPropCountPerPkt</i> value is useful to help clarify the boundaries between packets in the flat array of integers that comes in for events such as the <a href="/windows/desktop/tablet/inkcollector-newpackets">NewPackets Event</a> event. Packets can be bundled in order to be more efficient with data transfer, such that it is not required that a plug-in is called once per packet.
 
 
 #### Examples
 
-The following C++ code example implements a <b>StylusDown</b> method that calls a helper function, <b>ModifyPacket</b>, to change the value of the X,Y data to make it fall within a specified rectangle. This is the same functionality that is implemented in the C# sample, <a href="https://docs.microsoft.com/windows/desktop/tablet/realtimestylus-plug-in-sample">RealTimeStylus Plug-in Sample</a>. The second code snippet is the <b>ModifyPacket</b> function.
+The following C++ code example implements a <b>StylusDown</b> method that calls a helper function, <b>ModifyPacket</b>, to change the value of the X,Y data to make it fall within a specified rectangle. This is the same functionality that is implemented in the C# sample, <a href="/windows/desktop/tablet/realtimestylus-plug-in-sample">RealTimeStylus Plug-in Sample</a>. The second code snippet is the <b>ModifyPacket</b> function.
 
 
 ```cpp
@@ -173,7 +173,7 @@ HRESULT CPacketModifier::ModifyPacket(
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nn-rtscom-istylusasyncplugin">IStylusAsyncPlugin</a>
+<a href="/windows/desktop/api/rtscom/nn-rtscom-istylusasyncplugin">IStylusAsyncPlugin</a>
 
 
 
@@ -181,9 +181,8 @@ HRESULT CPacketModifier::ModifyPacket(
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nn-rtscom-istylussyncplugin">IStylusSyncPlugin</a>
+<a href="/windows/desktop/api/rtscom/nn-rtscom-istylussyncplugin">IStylusSyncPlugin</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/tablet/realtimestylus-reference">RealTimeStylus Reference</a>
-
+<a href="/windows/desktop/tablet/realtimestylus-reference">RealTimeStylus Reference</a>

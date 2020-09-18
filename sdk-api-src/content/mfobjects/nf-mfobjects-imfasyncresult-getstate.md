@@ -96,7 +96,7 @@ There is no state object associated with this asynchronous result.
 
 The caller of the asynchronous method specifies the state object, and can use it for any caller-defined purpose. The state object can be <b>NULL</b>. If the state object is <b>NULL</b>, <b>GetState</b> returns <b>E_POINTER</b>.
 
-If you are implementing an asynchronous method, set the state object on the through the <i>punkState</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/mfapi/nf-mfapi-mfcreateasyncresult">MFCreateAsyncResult</a> function.
+If you are implementing an asynchronous method, set the state object on the through the <i>punkState</i> parameter of the <a href="/windows/desktop/api/mfapi/nf-mfapi-mfcreateasyncresult">MFCreateAsyncResult</a> function.
 
 This interface is available on the following platforms if the Windows Media Format 11 SDK redistributable components are installed:
 
@@ -107,9 +107,8 @@ This interface is available on the following platforms if the Windows Media Form
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/asynchronous-callback-methods">Asynchronous Callback Methods</a>
+<a href="/windows/desktop/medfound/asynchronous-callback-methods">Asynchronous Callback Methods</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfasyncresult">IMFAsyncResult</a>
-
+<a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfasyncresult">IMFAsyncResult</a>

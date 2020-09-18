@@ -69,5 +69,4 @@ The index of the MIB object to query.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iprtrmib/ns-iprtrmib-mib_opaque_info">MIB_OPAQUE_INFO</a>
-
+<a href="/windows/desktop/api/iprtrmib/ns-iprtrmib-mib_opaque_info">MIB_OPAQUE_INFO</a>

@@ -96,7 +96,7 @@ The configuration preference has been saved successfully, but the preference wil
 
 This value is used only if the MaxCacheSize group policy is not set.
 
-If the maximum cache size is reached, BITS removes the least recently accessed files until the necessary disk space is freed. If you specify a value that is less than the current cache size, BITS removes files from the cache until the requested size is met. BITS removes the files based on <a href="https://docs.microsoft.com/windows/desktop/api/bits3_0/nf-bits3_0-ibitspeercacheadministration-setmaximumcontentage">age</a>. Files that are larger than the cache size are not cached.
+If the maximum cache size is reached, BITS removes the least recently accessed files until the necessary disk space is freed. If you specify a value that is less than the current cache size, BITS removes files from the cache until the requested size is met. BITS removes the files based on <a href="/windows/desktop/api/bits3_0/nf-bits3_0-ibitspeercacheadministration-setmaximumcontentage">age</a>. Files that are larger than the cache size are not cached.
 
 By default, the maximum cache size is 1% of the disk size.    BITS does not use the limit to reserve disk space for the cache. BITS will use up to the specified limit for the cache, if the disk space is available. The maximum value you can specify is 80% of the disk size.
 
@@ -104,13 +104,12 @@ If the request is to reduce the size of the cache and BITS is currently download
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits3_0/nn-bits3_0-ibitspeercacheadministration">IBitsPeerCacheAdministration</a>
+<a href="/windows/desktop/api/bits3_0/nn-bits3_0-ibitspeercacheadministration">IBitsPeerCacheAdministration</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits3_0/nf-bits3_0-ibitspeercacheadministration-getmaximumcachesize">IBitsPeerCacheAdministration::GetMaximumCacheSize</a>
+<a href="/windows/desktop/api/bits3_0/nf-bits3_0-ibitspeercacheadministration-getmaximumcachesize">IBitsPeerCacheAdministration::GetMaximumCacheSize</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits3_0/nf-bits3_0-ibitspeercacheadministration-setmaximumcontentage">IBitsPeerCacheAdministration::SetMaximumContentAge</a>
-
+<a href="/windows/desktop/api/bits3_0/nf-bits3_0-ibitspeercacheadministration-setmaximumcontentage">IBitsPeerCacheAdministration::SetMaximumContentAge</a>

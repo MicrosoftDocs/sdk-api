@@ -58,7 +58,7 @@ You must initialize a meta command at least once prior (on the GPU's timeline) t
 
 ### -param pMetaCommand [in]
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12metacommand">ID3D12MetaCommand</a> representing the meta command to initialize.
+A pointer to an <a href="/windows/desktop/api/d3d12/nn-d3d12-id3d12metacommand">ID3D12MetaCommand</a> representing the meta command to initialize.
 
 ### -param pInitializationParametersData [in, optional]
 
@@ -66,7 +66,7 @@ An optional pointer to a constant structure containing the values of the paramet
 
 ### -param InitializationParametersDataSizeInBytes [in]
 
-A <a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">SIZE_T</a> containing the size of the structure pointed to by <i>pInitializationParametersData</i>, if set, otherwise 0.
+A <a href="/windows/desktop/WinProg/windows-data-types">SIZE_T</a> containing the size of the structure pointed to by <i>pInitializationParametersData</i>, if set, otherwise 0.
 
 ## -returns
 
@@ -75,4 +75,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -see-also
 
 <a href="https://msdn.microsoft.com/en-us/library/Mt847460(v=VS.85).aspx">ID3D12GraphicsCommandList4</a>
-

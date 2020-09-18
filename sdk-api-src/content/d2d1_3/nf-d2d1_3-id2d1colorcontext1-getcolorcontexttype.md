@@ -56,11 +56,10 @@ Retrieves the color context type.
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3/ne-d2d1_3-d2d1_color_context_type">D2D1_COLOR_CONTEXT_TYPE</a></b>
+Type: <b><a href="/windows/desktop/api/d2d1_3/ne-d2d1_3-d2d1_color_context_type">D2D1_COLOR_CONTEXT_TYPE</a></b>
 
 This method returns color context type.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3/nn-d2d1_3-id2d1colorcontext1">ID2D1ColorContext1</a>
-
+<a href="/windows/desktop/api/d2d1_3/nn-d2d1_3-id2d1colorcontext1">ID2D1ColorContext1</a>

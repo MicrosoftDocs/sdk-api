@@ -57,7 +57,7 @@ A function-reflection interface accesses function info.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D12FunctionReflection</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ID3D12FunctionReflection</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D12FunctionReflection</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ID3D12FunctionReflection</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,7 +72,7 @@ The <b>ID3D12FunctionReflection</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d12shader/nf-d3d12shader-id3d12functionreflection-getconstantbufferbyindex">GetConstantBufferByIndex</a>
+<a href="/windows/desktop/api/d3d12shader/nf-d3d12shader-id3d12functionreflection-getconstantbufferbyindex">GetConstantBufferByIndex</a>
 </td>
 <td align="left" width="63%">
 Gets a constant buffer by index for a function.
@@ -81,7 +81,7 @@ Gets a constant buffer by index for a function.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d12shader/nf-d3d12shader-id3d12functionreflection-getconstantbufferbyname">GetConstantBufferByName</a>
+<a href="/windows/desktop/api/d3d12shader/nf-d3d12shader-id3d12functionreflection-getconstantbufferbyname">GetConstantBufferByName</a>
 </td>
 <td align="left" width="63%">
 Gets a constant buffer by name for a function.
@@ -91,7 +91,7 @@ Gets a constant buffer by name for a function.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d12shader/nf-d3d12shader-id3d12functionreflection-getdesc">GetDesc</a>
+<a href="/windows/desktop/api/d3d12shader/nf-d3d12shader-id3d12functionreflection-getdesc">GetDesc</a>
 </td>
 <td align="left" width="63%">
 Fills the function descriptor structure for the function.
@@ -101,7 +101,7 @@ Fills the function descriptor structure for the function.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d12shader/nf-d3d12shader-id3d12functionreflection-getfunctionparameter">GetFunctionParameter</a>
+<a href="/windows/desktop/api/d3d12shader/nf-d3d12shader-id3d12functionreflection-getfunctionparameter">GetFunctionParameter</a>
 </td>
 <td align="left" width="63%">
 Gets the function parameter reflector.
@@ -111,7 +111,7 @@ Gets the function parameter reflector.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d12shader/nf-d3d12shader-id3d12functionreflection-getresourcebindingdesc">GetResourceBindingDesc</a>
+<a href="/windows/desktop/api/d3d12shader/nf-d3d12shader-id3d12functionreflection-getresourcebindingdesc">GetResourceBindingDesc</a>
 </td>
 <td align="left" width="63%">
 Gets a description of how a resource is bound to a function.
@@ -121,7 +121,7 @@ Gets a description of how a resource is bound to a function.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d12shader/nf-d3d12shader-id3d12functionreflection-getresourcebindingdescbyname">GetResourceBindingDescByName</a>
+<a href="/windows/desktop/api/d3d12shader/nf-d3d12shader-id3d12functionreflection-getresourcebindingdescbyname">GetResourceBindingDescByName</a>
 </td>
 <td align="left" width="63%">
 Gets a description of how a resource is bound to a function.
@@ -131,7 +131,7 @@ Gets a description of how a resource is bound to a function.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d12shader/nf-d3d12shader-id3d12functionreflection-getvariablebyname">GetVariableByName</a>
+<a href="/windows/desktop/api/d3d12shader/nf-d3d12shader-id3d12functionreflection-getvariablebyname">GetVariableByName</a>
 </td>
 <td align="left" width="63%">
 Gets a variable by name.
@@ -143,7 +143,7 @@ Gets a variable by name.
 
 ## -remarks
 
-To get a function-reflection interface, call <a href="https://docs.microsoft.com/windows/desktop/api/d3d12shader/nf-d3d12shader-id3d12libraryreflection-getfunctionbyindex">ID3D12LibraryReflection::GetFunctionByIndex</a>. This isn't a COM interface, so you don't need to worry about reference counts or releasing the interface when you're done with it.
+To get a function-reflection interface, call <a href="/windows/desktop/api/d3d12shader/nf-d3d12shader-id3d12libraryreflection-getfunctionbyindex">ID3D12LibraryReflection::GetFunctionByIndex</a>. This isn't a COM interface, so you don't need to worry about reference counts or releasing the interface when you're done with it.
       
 
 <div class="alert"><b>Note</b>  <b>ID3D12FunctionReflection</b> requires the D3dcompiler_47.dll or a later version of the DLL.
@@ -152,5 +152,4 @@ To get a function-reflection interface, call <a href="https://docs.microsoft.com
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3d12/d3d12-graphics-reference-shader-interfaces">Shader Interfaces</a>
-
+<a href="/windows/desktop/direct3d12/d3d12-graphics-reference-shader-interfaces">Shader Interfaces</a>

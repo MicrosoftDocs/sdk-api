@@ -50,29 +50,29 @@ api_name:
 
 ## -description
 
-The [PEERDIST_CONTENT_TAG](/windows/win32/api/peerdist/ns-peerdist-peerdist_content_tag).
+The [PEERDIST_CONTENT_TAG](./ns-peerdist-peerdist_content_tag.md).
 
 ## -parameters
 
 ### -param hPeerDist [in]
 
-A <b>PEERDIST_INSTANCE_HANDLE</b> returned by <a href="https://docs.microsoft.com/windows/desktop/api/peerdist/nf-peerdist-peerdiststartup">PeerDistStartup</a>.
+A <b>PEERDIST_INSTANCE_HANDLE</b> returned by <a href="/windows/desktop/api/peerdist/nf-peerdist-peerdiststartup">PeerDistStartup</a>.
 
 ### -param pContentTag [in]
 
-Pointer to a [PEERDIST_CONTENT_TAG](/windows/win32/api/peerdist/ns-peerdist-peerdist_content_tag) structure that contains the tag supplied when <a href="https://docs.microsoft.com/windows/desktop/api/peerdist/nf-peerdist-peerdistclientopencontent">PeerDistClientOpenContent</a> is called.
+Pointer to a [PEERDIST_CONTENT_TAG](./ns-peerdist-peerdist_content_tag.md) structure that contains the tag supplied when <a href="/windows/desktop/api/peerdist/nf-peerdist-peerdistclientopencontent">PeerDistClientOpenContent</a> is called.
 
 ### -param hCompletionPort [in, optional]
 
-A handle to the completion port that can be used for retrieving the completion notification of the asynchronous function. To create a completion port, use the <a href="https://docs.microsoft.com/windows/desktop/FileIO/createiocompletionport">CreateIoCompletionPort</a> function. This parameter can be <b>NULL</b>.
+A handle to the completion port that can be used for retrieving the completion notification of the asynchronous function. To create a completion port, use the <a href="/windows/desktop/FileIO/createiocompletionport">CreateIoCompletionPort</a> function. This parameter can be <b>NULL</b>.
 
 ### -param ulCompletionKey [in, optional]
 
-Value to be returned through the <i>lpCompletionKey</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-getqueuedcompletionstatus">GetQueuedCompletionStatus</a> function. This parameter is ignored when <i>hCompletionPort</i> is <b>NULL</b>.
+Value to be returned through the <i>lpCompletionKey</i> parameter of the <a href="/windows/desktop/api/ioapiset/nf-ioapiset-getqueuedcompletionstatus">GetQueuedCompletionStatus</a> function. This parameter is ignored when <i>hCompletionPort</i> is <b>NULL</b>.
 
 ### -param lpOverlapped [in]
 
-Pointer to an <a href="https://msdn.microsoft.com/library/ms684342.aspx">OVERLAPPED</a> structure. <b>Offset</b> and <b>OffsetHigh</b> are reserved and must be zero.
+Pointer to an <a href="/windows/win32/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> structure. <b>Offset</b> and <b>OffsetHigh</b> are reserved and must be zero.
 
 ## -returns
 
@@ -131,17 +131,16 @@ The service is unavailable.
 
 ## -remarks
 
-The <i>pContentTag</i> is a client supplied tag passed to <a href="https://docs.microsoft.com/windows/desktop/api/peerdist/nf-peerdist-peerdistclientopencontent">PeerDistClientOpenContent</a>, which labels the content added by the client. This tag is used by the API to selectively flush content from the Peer Distribution cache.
+The <i>pContentTag</i> is a client supplied tag passed to <a href="/windows/desktop/api/peerdist/nf-peerdist-peerdistclientopencontent">PeerDistClientOpenContent</a>, which labels the content added by the client. This tag is used by the API to selectively flush content from the Peer Distribution cache.
 
 ## -see-also
 
-[PEERDIST_CONTENT_TAG](/windows/win32/api/peerdist/ns-peerdist-peerdist_content_tag)
+[PEERDIST_CONTENT_TAG](./ns-peerdist-peerdist_content_tag.md)
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/peerdist/nf-peerdist-peerdistclientopencontent">PeerDistClientOpenContent</a>
+<a href="/windows/desktop/api/peerdist/nf-peerdist-peerdistclientopencontent">PeerDistClientOpenContent</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/peerdist/nf-peerdist-peerdiststartup">PeerDistStartup</a>
-
+<a href="/windows/desktop/api/peerdist/nf-peerdist-peerdiststartup">PeerDistStartup</a>

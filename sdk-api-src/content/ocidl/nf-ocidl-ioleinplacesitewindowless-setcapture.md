@@ -85,21 +85,20 @@ Mouse capture was denied to the object.
 
 A windowless object captures the mouse input, by calling <b>IOleInPlaceSiteWindowless::SetCapture</b> with <b>TRUE</b> on its site object. The container can deny mouse capture, in which case this method returns S_FALSE. If the capture is granted, the container must set the Windows mouse capture to its own window and dispatch any subsequent mouse message to the object, regardless of whether the mouse cursor position is over this object or not.
 
-The object can later release mouse capture by calling <b>IOleInPlaceSiteWindowless::SetCapture</b> with <b>FALSE</b> on its site object. The capture can also be released because of an external event, such as the ESC key being pressed. In this case, the object is notified by a <a href="https://docs.microsoft.com/windows/desktop/winmsg/wm-cancelmode">WM_CANCELMODE</a> message that the container dispatches along with the keyboard focus.
+The object can later release mouse capture by calling <b>IOleInPlaceSiteWindowless::SetCapture</b> with <b>FALSE</b> on its site object. The capture can also be released because of an external event, such as the ESC key being pressed. In this case, the object is notified by a <a href="/windows/desktop/winmsg/wm-cancelmode">WM_CANCELMODE</a> message that the container dispatches along with the keyboard focus.
 
 
 
-Containers should dispatch all mouse messages, including <a href="https://docs.microsoft.com/windows/desktop/menurc/wm-setcursor">WM_SETCURSOR</a>, to the windowless OLE object that has captured the mouse. If no object has captured the mouse, the container should dispatch the mouse message to the object under the mouse cursor.
+Containers should dispatch all mouse messages, including <a href="/windows/desktop/menurc/wm-setcursor">WM_SETCURSOR</a>, to the windowless OLE object that has captured the mouse. If no object has captured the mouse, the container should dispatch the mouse message to the object under the mouse cursor.
 
-The container dispatches these window messages by calling <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-ioleinplaceobjectwindowless-onwindowmessage">IOleInPlaceObjectWindowless::OnWindowMessage</a> on the windowless object. The windowless object can return S_FALSE to this method to indicate that it did not process the mouse message. Then, the container should perform the default behavior for the message by calling the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-defwindowproca">DefWindowProc</a> function. For <a href="https://docs.microsoft.com/windows/desktop/menurc/wm-setcursor">WM_SETCURSOR</a>, the container can either set the cursor itself or do nothing.
+The container dispatches these window messages by calling <a href="/windows/desktop/api/ocidl/nf-ocidl-ioleinplaceobjectwindowless-onwindowmessage">IOleInPlaceObjectWindowless::OnWindowMessage</a> on the windowless object. The windowless object can return S_FALSE to this method to indicate that it did not process the mouse message. Then, the container should perform the default behavior for the message by calling the <a href="/windows/desktop/api/winuser/nf-winuser-defwindowproca">DefWindowProc</a> function. For <a href="/windows/desktop/menurc/wm-setcursor">WM_SETCURSOR</a>, the container can either set the cursor itself or do nothing.
 
-Objects can also use <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-ioleinplacesitewindowless-ondefwindowmessage">IOleInPlaceSiteWindowless::OnDefWindowMessage</a> to invoke the default message processing from the container. In the case of the <a href="https://docs.microsoft.com/windows/desktop/menurc/wm-setcursor">WM_SETCURSOR</a> message, this allows an object to take action if the container does not set the cursor.
+Objects can also use <a href="/windows/desktop/api/ocidl/nf-ocidl-ioleinplacesitewindowless-ondefwindowmessage">IOleInPlaceSiteWindowless::OnDefWindowMessage</a> to invoke the default message processing from the container. In the case of the <a href="/windows/desktop/menurc/wm-setcursor">WM_SETCURSOR</a> message, this allows an object to take action if the container does not set the cursor.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-ioleinplacesitewindowless">IOleInPlaceSiteWindowless</a>
+<a href="/windows/desktop/api/ocidl/nn-ocidl-ioleinplacesitewindowless">IOleInPlaceSiteWindowless</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-ioleinplacesitewindowless-ondefwindowmessage">IOleInPlaceSiteWindowless::OnDefWindowMessage</a>
-
+<a href="/windows/desktop/api/ocidl/nf-ocidl-ioleinplacesitewindowless-ondefwindowmessage">IOleInPlaceSiteWindowless::OnDefWindowMessage</a>

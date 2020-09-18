@@ -59,7 +59,7 @@ api_name:
 ## -description
 
 <p class="CCE_Message">[<b>GlobalMemoryStatus</b> can return incorrect information. Use the 
-<a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-globalmemorystatusex">GlobalMemoryStatusEx</a> function instead.]
+<a href="/windows/desktop/api/sysinfoapi/nf-sysinfoapi-globalmemorystatusex">GlobalMemoryStatusEx</a> function instead.]
 
 Retrieves information about the system's current usage of both physical and virtual memory.
 
@@ -68,18 +68,18 @@ Retrieves information about the system's current usage of both physical and virt
 ### -param lpBuffer [out]
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-memorystatus">MEMORYSTATUS</a> structure. The 
+<a href="/windows/desktop/api/winbase/ns-winbase-memorystatus">MEMORYSTATUS</a> structure. The 
 <b>GlobalMemoryStatus</b> function stores information about current memory availability into this structure.
 
 ## -remarks
 
 On computers with more than 4 GB of memory, the 
 <b>GlobalMemoryStatus</b> function can return incorrect information, reporting a value of –1 to indicate an overflow. For this reason, applications should use the 
-<a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-globalmemorystatusex">GlobalMemoryStatusEx</a> function instead.
+<a href="/windows/desktop/api/sysinfoapi/nf-sysinfoapi-globalmemorystatusex">GlobalMemoryStatusEx</a> function instead.
 
 On Intel x86 computers with more than 2 GB and less than 4 GB of memory, the 
 <b>GlobalMemoryStatus</b> function will always return 2 GB in the <b>dwTotalPhys</b> member of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-memorystatus">MEMORYSTATUS</a> structure. Similarly, if the total available memory is between 2 and 4 GB, the <b>dwAvailPhys</b> member of the 
+<a href="/windows/desktop/api/winbase/ns-winbase-memorystatus">MEMORYSTATUS</a> structure. Similarly, if the total available memory is between 2 and 4 GB, the <b>dwAvailPhys</b> member of the 
 <b>MEMORYSTATUS</b> structure will be rounded down to 2 GB. If the executable is linked using the <b>/LARGEADDRESSAWARE</b> linker option, then the 
 <b>GlobalMemoryStatus</b> function will return the correct amount of physical memory in both members.
 
@@ -88,21 +88,20 @@ The information returned by the
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-globalmemorystatusex">GlobalMemoryStatusEx</a>
+<a href="/windows/desktop/api/sysinfoapi/nf-sysinfoapi-globalmemorystatusex">GlobalMemoryStatusEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-memorystatus">MEMORYSTATUS</a>
+<a href="/windows/desktop/api/winbase/ns-winbase-memorystatus">MEMORYSTATUS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Memory/memory-management-functions">Memory Management Functions</a>
+<a href="/windows/desktop/Memory/memory-management-functions">Memory Management Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa965225(v=vs.85)">Memory Performance Information</a>
+<a href="/previous-versions/windows/desktop/legacy/aa965225(v=vs.85)">Memory Performance Information</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Memory/virtual-address-space-and-physical-storage">Virtual Address Space and Physical Storage</a>
-
+<a href="/windows/desktop/Memory/virtual-address-space-and-physical-storage">Virtual Address Space and Physical Storage</a>

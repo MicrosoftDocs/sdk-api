@@ -54,7 +54,7 @@ Represents an asynchronous operation.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWSDAsyncResult</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWSDAsyncResult</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWSDAsyncResult</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWSDAsyncResult</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IWSDAsyncResult</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wsdclient/nf-wsdclient-iwsdasyncresult-abort">Abort</a>
+<a href="/windows/desktop/api/wsdclient/nf-wsdclient-iwsdasyncresult-abort">Abort</a>
 </td>
 <td align="left" width="63%">
 Aborts the asynchronous operation.
@@ -78,7 +78,7 @@ Aborts the asynchronous operation.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wsdclient/nf-wsdclient-iwsdasyncresult-getasyncstate">GetAsyncState</a>
+<a href="/windows/desktop/api/wsdclient/nf-wsdclient-iwsdasyncresult-getasyncstate">GetAsyncState</a>
 </td>
 <td align="left" width="63%">
 Gets the state of the asynchronous operation.
@@ -87,7 +87,7 @@ Gets the state of the asynchronous operation.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wsdclient/nf-wsdclient-iwsdasyncresult-getendpointproxy">GetEndpointProxy</a>
+<a href="/windows/desktop/api/wsdclient/nf-wsdclient-iwsdasyncresult-getendpointproxy">GetEndpointProxy</a>
 </td>
 <td align="left" width="63%">
 Retrieves the endpoint proxy for the asynchronous operation.
@@ -96,16 +96,16 @@ Retrieves the endpoint proxy for the asynchronous operation.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wsdclient/nf-wsdclient-iwsdasyncresult-getevent">GetEvent</a>
+<a href="/windows/desktop/api/wsdclient/nf-wsdclient-iwsdasyncresult-getevent">GetEvent</a>
 </td>
 <td align="left" width="63%">
-Gets a <a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-wsd_event">WSD_EVENT</a> structure that contains the result of the event.
+Gets a <a href="/windows/desktop/api/wsdtypes/ns-wsdtypes-wsd_event">WSD_EVENT</a> structure that contains the result of the event.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wsdclient/nf-wsdclient-iwsdasyncresult-hascompleted">HasCompleted</a>
+<a href="/windows/desktop/api/wsdclient/nf-wsdclient-iwsdasyncresult-hascompleted">HasCompleted</a>
 </td>
 <td align="left" width="63%">
 Indicates whether the operation has completed.
@@ -114,7 +114,7 @@ Indicates whether the operation has completed.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wsdclient/nf-wsdclient-iwsdasyncresult-setcallback">SetCallback</a>
+<a href="/windows/desktop/api/wsdclient/nf-wsdclient-iwsdasyncresult-setcallback">SetCallback</a>
 </td>
 <td align="left" width="63%">
 Specifies a callback interface to call when the asynchronous operation has completed. 
@@ -123,7 +123,7 @@ Specifies a callback interface to call when the asynchronous operation has compl
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wsdclient/nf-wsdclient-iwsdasyncresult-setwaithandle">SetWaitHandle</a>
+<a href="/windows/desktop/api/wsdclient/nf-wsdclient-iwsdasyncresult-setwaithandle">SetWaitHandle</a>
 </td>
 <td align="left" width="63%">
 Specifies a wait handle to set when the operation completes.
@@ -136,9 +136,8 @@ Specifies a wait handle to set when the operation completes.
 
 The <b>IWSDAsyncResult</b> interface can be used to set a wait handle to receive event or message notification or poll for operation completion. It can also retrieve the state of an asynchronous operation and retrieve the results and response body of the event.
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/wsdclient/nn-wsdclient-iwsdasynccallback">IWSDAsyncCallback</a> interface can be used to provide an asynchronous calling pattern in support of WSDAPI messaging and eventing, allowing an application to receive callback notification based on the status of an operation.
+The <a href="/windows/desktop/api/wsdclient/nn-wsdclient-iwsdasynccallback">IWSDAsyncCallback</a> interface can be used to provide an asynchronous calling pattern in support of WSDAPI messaging and eventing, allowing an application to receive callback notification based on the status of an operation.
 
 
 
-A failed asynchronous operation is treated as a completed asynchronous operation. Error or fault information can be retrieved from the <a href="https://docs.microsoft.com/windows/desktop/api/wsdclient/nn-wsdclient-iwsdasynccallback">IWSDAsyncCallback</a> interface using the <a href="https://docs.microsoft.com/windows/desktop/api/wsdclient/nf-wsdclient-iwsdasynccallback-asyncoperationcomplete">IWSDAsyncCallback::AsyncOperationComplete</a> method.
-
+A failed asynchronous operation is treated as a completed asynchronous operation. Error or fault information can be retrieved from the <a href="/windows/desktop/api/wsdclient/nn-wsdclient-iwsdasynccallback">IWSDAsyncCallback</a> interface using the <a href="/windows/desktop/api/wsdclient/nf-wsdclient-iwsdasynccallback-asyncoperationcomplete">IWSDAsyncCallback::AsyncOperationComplete</a> method.

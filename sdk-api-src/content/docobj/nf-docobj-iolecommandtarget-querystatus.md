@@ -64,11 +64,11 @@ The number of commands in the <i>prgCmds</i> array.
 
 ### -param prgCmds [in, out]
 
-A caller-allocated array of <a href="https://docs.microsoft.com/windows/desktop/api/docobj/ns-docobj-olecmd">OLECMD</a> structures that indicate the commands for which the caller needs status information. This method fills the <b>cmdf</b> member of each structure with values taken from the <a href="https://docs.microsoft.com/windows/desktop/api/docobj/ne-docobj-olecmdf">OLECMDF</a> enumeration.
+A caller-allocated array of <a href="/windows/desktop/api/docobj/ns-docobj-olecmd">OLECMD</a> structures that indicate the commands for which the caller needs status information. This method fills the <b>cmdf</b> member of each structure with values taken from the <a href="/windows/desktop/api/docobj/ne-docobj-olecmdf">OLECMDF</a> enumeration.
 
 ### -param pCmdText [in, out]
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/docobj/ns-docobj-olecmdtext">OLECMDTEXT</a> structure in which to return name and/or status information of a single command. This parameter can be <b>NULL</b> to indicate that the caller does not need this information.
+A pointer to an <a href="/windows/desktop/api/docobj/ns-docobj-olecmdtext">OLECMDTEXT</a> structure in which to return name and/or status information of a single command. This parameter can be <b>NULL</b> to indicate that the caller does not need this information.
 
 ## -returns
 
@@ -131,17 +131,16 @@ Callers use <b>QueryStatus</b> to determine which commands are supported by a ta
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/docobj/nn-docobj-iolecommandtarget">IOleCommandTarget</a>
+<a href="/windows/desktop/api/docobj/nn-docobj-iolecommandtarget">IOleCommandTarget</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/docobj/ns-docobj-olecmd">OLECMD</a>
+<a href="/windows/desktop/api/docobj/ns-docobj-olecmd">OLECMD</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/docobj/ne-docobj-olecmdf">OLECMDF</a>
+<a href="/windows/desktop/api/docobj/ne-docobj-olecmdf">OLECMDF</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/docobj/ns-docobj-olecmdtext">OLECMDTEXT</a>
-
+<a href="/windows/desktop/api/docobj/ns-docobj-olecmdtext">OLECMDTEXT</a>

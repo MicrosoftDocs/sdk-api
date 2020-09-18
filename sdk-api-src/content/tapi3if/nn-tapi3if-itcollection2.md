@@ -52,12 +52,12 @@ api_name:
 
 The 
 <b>ITCollection2</b> interface is an extension of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itcollection">ITCollection</a> interface. 
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itcollection">ITCollection</a> interface. 
 <b>ITCollection2</b> exposes additional methods for modifying the collection.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITCollection2</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ITCollection2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITCollection2</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ITCollection2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,7 +72,7 @@ The <b>ITCollection2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itcollection2-add">Add</a>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itcollection2-add">Add</a>
 </td>
 <td align="left" width="63%">
 Adds an item to the collection at the specified index.
@@ -81,7 +81,7 @@ Adds an item to the collection at the specified index.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itcollection2-remove">Remove</a>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itcollection2-remove">Remove</a>
 </td>
 <td align="left" width="63%">
 Removes an item from the collection at the specified index.
@@ -92,9 +92,8 @@ Removes an item from the collection at the specified index.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itcollection">ITCollection</a>
-
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itcollection">ITCollection</a>

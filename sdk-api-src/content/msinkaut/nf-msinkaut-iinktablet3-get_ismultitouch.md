@@ -61,5 +61,4 @@ This property is read-only.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinktablet3">IInkTablet3</a>
-
+<a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinktablet3">IInkTablet3</a>

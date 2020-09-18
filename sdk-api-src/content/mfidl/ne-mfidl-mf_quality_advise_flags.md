@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-Contains flags for the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfqualityadvise2-notifyqualityevent">IMFQualityAdvise2::NotifyQualityEvent</a> method.
+Contains flags for the <a href="/windows/desktop/api/mfidl/nf-mfidl-imfqualityadvise2-notifyqualityevent">IMFQualityAdvise2::NotifyQualityEvent</a> method.
 
 ## -enum-fields
 
@@ -62,13 +62,12 @@ The decoder has done everything that it can to reduce sample latency, and sample
 
 ## -remarks
 
-If the decoder sets the <b>MF_QUALITY_CANNOT_KEEP_UP</b> flag, the quality manager tries to reduce latency through the media source and the media sink. For example, it might request the <a href="https://docs.microsoft.com/windows/desktop/medfound/enhanced-video-renderer">Enhanced Video Renderer</a> (EVR) to drop frames. During this period, the quality manager stops calling the decoder's <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfqualityadvise2-notifyqualityevent">IMFQualityAdvise2::NotifyQualityEvent</a> method, until samples are no longer arriving late at the sink. At that point, the quality manager resumes calling <b>NotifyQualityEvent</b> on the decoder.
+If the decoder sets the <b>MF_QUALITY_CANNOT_KEEP_UP</b> flag, the quality manager tries to reduce latency through the media source and the media sink. For example, it might request the <a href="/windows/desktop/medfound/enhanced-video-renderer">Enhanced Video Renderer</a> (EVR) to drop frames. During this period, the quality manager stops calling the decoder's <a href="/windows/desktop/api/mfidl/nf-mfidl-imfqualityadvise2-notifyqualityevent">IMFQualityAdvise2::NotifyQualityEvent</a> method, until samples are no longer arriving late at the sink. At that point, the quality manager resumes calling <b>NotifyQualityEvent</b> on the decoder.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfqualityadvise2">IMFQualityAdvise2</a>
+<a href="/windows/desktop/api/mfidl/nn-mfidl-imfqualityadvise2">IMFQualityAdvise2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>
-
+<a href="/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>

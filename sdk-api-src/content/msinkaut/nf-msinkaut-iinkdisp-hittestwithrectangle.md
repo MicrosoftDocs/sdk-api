@@ -57,7 +57,7 @@ Retrieves the strokes that are contained within a specified rectangle.
 
 ### -param SelectionRectangle [in]
 
-The selection rectangle, of type <a href="https://docs.microsoft.com/windows/desktop/tablet/inkrectangle-class">InkRectangle</a>, in ink space coordinates.
+The selection rectangle, of type <a href="/windows/desktop/tablet/inkrectangle-class">InkRectangle</a>, in ink space coordinates.
 
 ### -param IntersectPercent [in]
 
@@ -124,15 +124,15 @@ Invalid display handle.
 
 ## -remarks
 
-To determine which points of a known stroke intersect the test area, call the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-getrectangleintersections">GetRectangleIntersections</a> method of the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkstrokedisp">IInkStrokeDisp</a> object, which retrieves the points where a stroke intersects a known rectangle.
+To determine which points of a known stroke intersect the test area, call the <a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-getrectangleintersections">GetRectangleIntersections</a> method of the <a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinkstrokedisp">IInkStrokeDisp</a> object, which retrieves the points where a stroke intersects a known rectangle.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkdisp-hittestcircle">HitTest(Point, Single) Method</a>
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkdisp-hittestcircle">HitTest(Point, Single) Method</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkdisp-hittestwithlasso">HitTest(Point[], Single) Method</a>
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkdisp-hittestwithlasso">HitTest(Point[], Single) Method</a>
 
 
 
@@ -140,9 +140,8 @@ To determine which points of a known stroke intersect the test area, call the <a
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/tablet/inkdisp-class">InkDisp Class</a>
+<a href="/windows/desktop/tablet/inkdisp-class">InkDisp Class</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)">InkStrokes Collection</a>
-
+<a href="/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)">InkStrokes Collection</a>

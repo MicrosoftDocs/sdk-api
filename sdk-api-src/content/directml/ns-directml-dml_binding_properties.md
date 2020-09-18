@@ -62,14 +62,14 @@ The minimum size, in descriptors, of the binding table required for a particular
 
 ### -field TemporaryResourceSize
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT64</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT64</a></b>
 
 The minimum size in bytes of the temporary resource that must be bound to the binding table for a particular dispatchable
       object. A value of zero means that a temporary resource is not required.
 
 ### -field PersistentResourceSize
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT64</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT64</a></b>
 
 The minimum size in bytes of the persistent resource that must be bound to the binding table for a particular
       dispatchable object. Persistent resources must be supplied during initialization of a compiled operator (where it
@@ -80,4 +80,3 @@ The minimum size in bytes of the persistent resource that must be bound to the b
 ## -see-also
 
 <a href="/windows/desktop/direct3d12/dml-binding">Binding in DirectML</a>
-

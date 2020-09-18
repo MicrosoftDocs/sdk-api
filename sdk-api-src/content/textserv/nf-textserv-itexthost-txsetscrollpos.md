@@ -56,25 +56,25 @@ Sets the position of the scroll box (thumb) in the specified scroll bar and, if 
 
 ### -param fnBar [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">INT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">INT</a></b>
 
 Scroll bar flag. If this is SB_HORZ, horizontal scrolling is done. By default, vertical scrolling is done.
 
 ### -param nPos [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">INT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">INT</a></b>
 
-New position in scroll box. This must be within the range of scroll bar values set by <a href="https://docs.microsoft.com/windows/desktop/api/textserv/nf-textserv-itexthost-txsetscrollrange">ITextHost::TxSetScrollRange</a>.
+New position in scroll box. This must be within the range of scroll bar values set by <a href="/windows/desktop/api/textserv/nf-textserv-itexthost-txsetscrollrange">ITextHost::TxSetScrollRange</a>.
 
 ### -param fRedraw [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
 
 Redraw flag. If <b>TRUE</b>, the scroll bar is redrawn with the new position of the scroll box. If <b>FALSE</b>, the scroll bar is not redrawn.
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
 
 Return <b>TRUE</b> if the method succeeds. 
 
@@ -90,7 +90,7 @@ This method is only valid when the control is in-place active; calls while the c
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/textserv/nl-textserv-itexthost">ITextHost</a>
+<a href="/windows/desktop/api/textserv/nl-textserv-itexthost">ITextHost</a>
 
 
 
@@ -98,9 +98,8 @@ This method is only valid when the control is in-place active; calls while the c
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/textserv/nf-textserv-itexthost-txsetscrollrange">TxSetScrollRange</a>
+<a href="/windows/desktop/api/textserv/nf-textserv-itexthost-txsetscrollrange">TxSetScrollRange</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Controls/windowless-rich-edit-controls">Windowless Rich Edit Controls</a>
-
+<a href="/windows/desktop/Controls/windowless-rich-edit-controls">Windowless Rich Edit Controls</a>

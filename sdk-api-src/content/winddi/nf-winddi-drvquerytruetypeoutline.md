@@ -56,11 +56,11 @@ The <b>DrvQueryTrueTypeOutline</b> function retrieves glyph outlines in native T
 
 ### -param dhpdev
 
-Handle to a physical device's <a href="https://docs.microsoft.com/windows-hardware/drivers/">PDEV</a> structure returned from a call to <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvenablepdev">DrvEnablePDEV</a>.
+Handle to a physical device's <a href="/windows-hardware/drivers/">PDEV</a> structure returned from a call to <a href="/windows/desktop/api/winddi/nf-winddi-drvenablepdev">DrvEnablePDEV</a>.
 
 ### -param pfo
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-fontobj">FONTOBJ</a> structure. Details of the font realization can be queried from this structure.
+Pointer to a <a href="/windows/desktop/api/winddi/ns-winddi-fontobj">FONTOBJ</a> structure. Details of the font realization can be queried from this structure.
 
 ### -param hglyph
 
@@ -109,7 +109,7 @@ Outlines are to be returned unhinted.
 
 ### -param pgldt
 
-Pointer to the buffer where the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-glyphdata">GLYPHDATA</a> structure for this glyph should be written. If <i>pgldt</i> is <b>NULL</b>, no data is written to the GLYPHDATA structure.
+Pointer to the buffer where the <a href="/windows/desktop/api/winddi/ns-winddi-glyphdata">GLYPHDATA</a> structure for this glyph should be written. If <i>pgldt</i> is <b>NULL</b>, no data is written to the GLYPHDATA structure.
 
 ### -param cjBuf
 
@@ -129,9 +129,8 @@ The return value is the size, in bytes, required for the <i>ppoly</i> buffer if 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvenablepdev">DrvEnablePDEV</a>
+<a href="/windows/desktop/api/winddi/nf-winddi-drvenablepdev">DrvEnablePDEV</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-fontobj">FONTOBJ</a>
-
+<a href="/windows/desktop/api/winddi/ns-winddi-fontobj">FONTOBJ</a>

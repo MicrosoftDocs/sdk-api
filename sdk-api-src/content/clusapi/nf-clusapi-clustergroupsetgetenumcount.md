@@ -56,9 +56,8 @@ Gets the number of items contained  the enumerator's collection.
 
 ### -param hGroupSetEnum [in]
 
-A handle to an enumerator returned by <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/nf-clusapi-clustergroupsetopenenum">ClusterGroupSetOpenEnum</a>.
+A handle to an enumerator returned by <a href="/previous-versions/windows/desktop/api/clusapi/nf-clusapi-clustergroupsetopenenum">ClusterGroupSetOpenEnum</a>.
 
 ## -returns
 
 The number of items in the enumerator's collection. May be zero.
-

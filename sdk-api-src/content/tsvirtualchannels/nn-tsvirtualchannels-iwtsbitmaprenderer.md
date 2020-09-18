@@ -50,11 +50,11 @@ api_name:
 
 ## -description
 
-Used by a dynamic virtual channel plug-in to render bitmaps. This interface is implemented by the rendering service. The plug-in obtains a pointer to this interface by using the <a href="https://docs.microsoft.com/windows/desktop/api/tsvirtualchannels/nf-tsvirtualchannels-iwtsbitmaprenderservice-getmappedrenderer">IWTSBitmapRenderService::GetMappedRenderer</a> method.
+Used by a dynamic virtual channel plug-in to render bitmaps. This interface is implemented by the rendering service. The plug-in obtains a pointer to this interface by using the <a href="/windows/desktop/api/tsvirtualchannels/nf-tsvirtualchannels-iwtsbitmaprenderservice-getmappedrenderer">IWTSBitmapRenderService::GetMappedRenderer</a> method.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWTSBitmapRenderer</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWTSBitmapRenderer</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWTSBitmapRenderer</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWTSBitmapRenderer</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IWTSBitmapRenderer</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tsvirtualchannels/nf-tsvirtualchannels-iwtsbitmaprenderer-getrendererstatistics">GetRendererStatistics</a>
+<a href="/windows/desktop/api/tsvirtualchannels/nf-tsvirtualchannels-iwtsbitmaprenderer-getrendererstatistics">GetRendererStatistics</a>
 </td>
 <td align="left" width="63%">
 Retrieves statistics for the RemoteFX media redirection bitmap renderer.
@@ -78,7 +78,7 @@ Retrieves statistics for the RemoteFX media redirection bitmap renderer.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tsvirtualchannels/nf-tsvirtualchannels-iwtsbitmaprenderer-removemapping">RemoveMapping</a>
+<a href="/windows/desktop/api/tsvirtualchannels/nf-tsvirtualchannels-iwtsbitmaprenderer-removemapping">RemoveMapping</a>
 </td>
 <td align="left" width="63%">
 Called by a dynamic virtual channel plug-in to remove a render mapping.
@@ -87,7 +87,7 @@ Called by a dynamic virtual channel plug-in to remove a render mapping.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tsvirtualchannels/nf-tsvirtualchannels-iwtsbitmaprenderer-render">Render</a>
+<a href="/windows/desktop/api/tsvirtualchannels/nf-tsvirtualchannels-iwtsbitmaprenderer-render">Render</a>
 </td>
 <td align="left" width="63%">
 Called by a dynamic virtual channel plug-in to render bitmaps.
@@ -95,4 +95,3 @@ Called by a dynamic virtual channel plug-in to render bitmaps.
 </td>
 </tr>
 </table>
-

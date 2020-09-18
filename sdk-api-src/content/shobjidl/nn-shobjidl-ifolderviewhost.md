@@ -50,11 +50,11 @@ api_name:
 
 ## -description
 
-Exposes a method that hosts an <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifolderview">IFolderView</a> object in a window.
+Exposes a method that hosts an <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifolderview">IFolderView</a> object in a window.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFolderViewHost</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IFolderViewHost</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFolderViewHost</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IFolderViewHost</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,12 +69,11 @@ The <b>IFolderViewHost</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nf-shobjidl-ifolderviewhost-initialize">Initialize</a>
+<a href="/windows/desktop/api/shobjidl/nf-shobjidl-ifolderviewhost-initialize">Initialize</a>
 </td>
 <td align="left" width="63%">
-Initializes the object that hosts an <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifolderview">IFolderView</a> object.
+Initializes the object that hosts an <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifolderview">IFolderView</a> object.
 
 </td>
 </tr>
 </table>
-

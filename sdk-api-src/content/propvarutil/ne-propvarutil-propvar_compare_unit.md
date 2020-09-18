@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-These flags are associated with certain <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structure comparisons.
+These flags are associated with certain <a href="/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structure comparisons.
 
 ## -enum-fields
 
@@ -81,4 +81,3 @@ The month comparison unit.
 ### -field PVCU_YEAR
 
 The year comparison unit.
-

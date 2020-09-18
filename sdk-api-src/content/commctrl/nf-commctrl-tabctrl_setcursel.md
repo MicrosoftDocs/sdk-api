@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Selects a tab in a tab control. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/tcm-setcursel">TCM_SETCURSEL</a> message explicitly.
+Selects a tab in a tab control. You can use this macro or send the <a href="/windows/desktop/Controls/tcm-setcursel">TCM_SETCURSEL</a> message explicitly.
 
 ## -parameters
 
 ### -param hwnd
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 Handle to the tab control.
 
@@ -68,5 +68,4 @@ Index of the tab to select.
 
 ## -remarks
 
-A tab control does not send a <a href="https://docs.microsoft.com/windows/desktop/Controls/tcn-selchanging">TCN_SELCHANGING</a> or <a href="https://docs.microsoft.com/windows/desktop/Controls/tcn-selchange">TCN_SELCHANGE</a> notification code when a tab is selected using the <a href="https://docs.microsoft.com/windows/desktop/Controls/tcm-setcursel">TCM_SETCURSEL</a> message.
-
+A tab control does not send a <a href="/windows/desktop/Controls/tcn-selchanging">TCN_SELCHANGING</a> or <a href="/windows/desktop/Controls/tcn-selchange">TCN_SELCHANGE</a> notification code when a tab is selected using the <a href="/windows/desktop/Controls/tcm-setcursel">TCM_SETCURSEL</a> message.

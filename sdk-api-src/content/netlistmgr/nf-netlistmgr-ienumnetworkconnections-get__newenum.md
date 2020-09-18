@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>get_NewEnum</b> property returns an automation enumerator object that you can use to iterate through the <a href="https://docs.microsoft.com/windows/desktop/api/netlistmgr/nn-netlistmgr-ienumnetworkconnections">IEnumNetworkConnections</a> collection.
+The <b>get_NewEnum</b> property returns an automation enumerator object that you can use to iterate through the <a href="/windows/desktop/api/netlistmgr/nn-netlistmgr-ienumnetworkconnections">IEnumNetworkConnections</a> collection.
 
 ## -parameters
 
@@ -68,5 +68,4 @@ In Microsoft Visual Basic and Microsoft C#, you do not need to use the correspon
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/netlistmgr/nn-netlistmgr-ienumnetworkconnections">IEnumNetworkConnections</a>
-
+<a href="/windows/desktop/api/netlistmgr/nn-netlistmgr-ienumnetworkconnections">IEnumNetworkConnections</a>

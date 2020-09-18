@@ -85,35 +85,35 @@ For more information about canonicalization and packages, see the <i>ECMA-376 Op
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/packaging-api-overview">Getting Started with the Packaging API</a>
+<a href="/previous-versions/windows/desktop/opc/packaging-api-overview">Getting Started with the Packaging API</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/nf-msopc-iopcdigitalsignature-getcanonicalizationmethod">IOpcDigitalSignature::GetCanonicalizationMethod</a>
+<a href="/previous-versions/windows/desktop/api/msopc/nf-msopc-iopcdigitalsignature-getcanonicalizationmethod">IOpcDigitalSignature::GetCanonicalizationMethod</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/nf-msopc-iopcsignaturepartreference-gettransformmethod">IOpcSignaturePartReference::GetTransformMethod</a>
+<a href="/previous-versions/windows/desktop/api/msopc/nf-msopc-iopcsignaturepartreference-gettransformmethod">IOpcSignaturePartReference::GetTransformMethod</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/nf-msopc-iopcsignaturepartreferenceset-create">IOpcSignaturePartReferenceSet::Create</a>
+<a href="/previous-versions/windows/desktop/api/msopc/nf-msopc-iopcsignaturepartreferenceset-create">IOpcSignaturePartReferenceSet::Create</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/nf-msopc-iopcsignaturereference-gettransformmethod">IOpcSignatureReference::GetTransformMethod</a>
+<a href="/previous-versions/windows/desktop/api/msopc/nf-msopc-iopcsignaturereference-gettransformmethod">IOpcSignatureReference::GetTransformMethod</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/nf-msopc-iopcsignaturereferenceset-create">IOpcSignatureReferenceSet::Create</a>
+<a href="/previous-versions/windows/desktop/api/msopc/nf-msopc-iopcsignaturereferenceset-create">IOpcSignatureReferenceSet::Create</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/nf-msopc-iopcsignaturerelationshipreference-gettransformmethod">IOpcSignatureRelationshipReference::GetTransformMethod</a>
+<a href="/previous-versions/windows/desktop/api/msopc/nf-msopc-iopcsignaturerelationshipreference-gettransformmethod">IOpcSignatureRelationshipReference::GetTransformMethod</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/nf-msopc-iopcsignaturerelationshipreferenceset-create">IOpcSignatureRelationshipReferenceSet::Create</a>
+<a href="/previous-versions/windows/desktop/api/msopc/nf-msopc-iopcsignaturerelationshipreferenceset-create">IOpcSignatureRelationshipReferenceSet::Create</a>
 
 
 
@@ -121,19 +121,19 @@ For more information about canonicalization and packages, see the <i>ECMA-376 Op
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/packaging-programming-guide">Packaging API Programming Guide</a>
+<a href="/previous-versions/windows/desktop/opc/packaging-programming-guide">Packaging API Programming Guide</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/packaging-programming-samples">Packaging API Samples</a>
+<a href="/previous-versions/windows/desktop/opc/packaging-programming-samples">Packaging API Samples</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/packaging-enumerations">Packaging Enumerations</a>
+<a href="/previous-versions/windows/desktop/opc/packaging-enumerations">Packaging Enumerations</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd371635(v=vs.85)">Packaging Interfaces</a>
+<a href="/previous-versions/windows/desktop/legacy/dd371635(v=vs.85)">Packaging Interfaces</a>
 
 
 
@@ -143,4 +143,3 @@ For more information about canonicalization and packages, see the <i>ECMA-376 Op
 
 <a href="https://www.w3.org/TR/xml-c14n">W3C Recommendation, Canonical XML
 Version 1.0</a>
-

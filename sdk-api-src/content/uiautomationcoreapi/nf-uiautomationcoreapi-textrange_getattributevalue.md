@@ -64,11 +64,11 @@ A text range object.
 
 Type: <b>TEXTATTRIBUTEID</b>
 
-The text attribute whose value is wanted. For a list of text attribute IDs, see <a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-textattribute-ids">Text Attribute Identifiers</a>.
+The text attribute whose value is wanted. For a list of text attribute IDs, see <a href="/windows/desktop/WinAuto/uiauto-textattribute-ids">Text Attribute Identifiers</a>.
 
 ### -param pRetVal [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinAuto/variant-structure">VARIANT</a>*</b>
+Type: <b><a href="/windows/desktop/WinAuto/variant-structure">VARIANT</a>*</b>
 
 When this function returns, contains 
 				the value of the attribute for the text range.
@@ -76,7 +76,6 @@ When this function returns, contains
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 Returns S_OK if successful or an error value otherwise.
-

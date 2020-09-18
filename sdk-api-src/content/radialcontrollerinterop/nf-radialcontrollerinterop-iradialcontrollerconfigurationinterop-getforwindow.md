@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Retrieves a <a href="https://docs.microsoft.com/uwp/api/windows.ui.input.radialcontrollerconfiguration">RadialControllerConfiguration</a> object bound to the active application.
+Retrieves a <a href="/uwp/api/windows.ui.input.radialcontrollerconfiguration">RadialControllerConfiguration</a> object bound to the active application.
 
 ## -parameters
 
@@ -60,11 +60,11 @@ Handle to the window of the active application.
 
 ### -param riid [in]
 
-The GUID of the <a href="https://docs.microsoft.com/uwp/api/windows.ui.input.radialcontrollerconfiguration">RadialControllerConfiguration</a> object.
+The GUID of the <a href="/uwp/api/windows.ui.input.radialcontrollerconfiguration">RadialControllerConfiguration</a> object.
 
 ### -param ppv [out]
 
-Address of a pointer to a <a href="https://docs.microsoft.com/uwp/api/windows.ui.input.radialcontrollerconfiguration">RadialControllerConfiguration</a> object.
+Address of a pointer to a <a href="/uwp/api/windows.ui.input.radialcontrollerconfiguration">RadialControllerConfiguration</a> object.
 
 ## -returns
 
@@ -76,7 +76,7 @@ If this function succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>H
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/radialcontrollerinterop/nn-radialcontrollerinterop-iradialcontrollerconfigurationinterop">IRadialControllerConfigurationInterop</a>
+<a href="/previous-versions/windows/desktop/api/radialcontrollerinterop/nn-radialcontrollerinterop-iradialcontrollerconfigurationinterop">IRadialControllerConfigurationInterop</a>
 
 
 
@@ -84,7 +84,7 @@ If this function succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>H
 
 
 
-<a href="https://docs.microsoft.com/windows/uwp/design/input/windows-wheel-interactions?redirectedfrom=MSDN">Surface Dial interactions</a>
+<a href="/windows/uwp/design/input/windows-wheel-interactions">Surface Dial interactions</a>
 
 
 
@@ -93,4 +93,3 @@ If this function succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>H
 
 
 <a href="https://github.com/Microsoft/Windows-classic-samples/tree/master/Samples/RadialController">Windows classic desktop sample</a>
-

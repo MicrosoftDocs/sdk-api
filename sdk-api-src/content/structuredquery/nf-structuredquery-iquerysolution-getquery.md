@@ -56,19 +56,18 @@ Retrieves the condition tree and the semantic type of the solution.
 
 ### -param ppQueryNode [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/structuredquerycondition/nn-structuredquerycondition-icondition">ICondition</a>**</b>
+Type: <b><a href="/windows/desktop/api/structuredquerycondition/nn-structuredquerycondition-icondition">ICondition</a>**</b>
 
-Receives a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/structuredquerycondition/nn-structuredquerycondition-icondition">ICondition</a> condition tree that is the interpretation of the query string. This parameter can be <b>NULL</b>.
+Receives a pointer to an <a href="/windows/desktop/api/structuredquerycondition/nn-structuredquerycondition-icondition">ICondition</a> condition tree that is the interpretation of the query string. This parameter can be <b>NULL</b>.
 
 ### -param ppMainType [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/structuredquery/nn-structuredquery-ientity">IEntity</a>**</b>
+Type: <b><a href="/windows/desktop/api/structuredquery/nn-structuredquery-ientity">IEntity</a>**</b>
 
-Receives a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/structuredquery/nn-structuredquery-ientity">IEntity</a> object that identifies the semantic type of the interpretation. This parameter can be <b>NULL</b>.
+Receives a pointer to an <a href="/windows/desktop/api/structuredquery/nn-structuredquery-ientity">IEntity</a> object that identifies the semantic type of the interpretation. This parameter can be <b>NULL</b>.
 
 ## -returns
 
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-

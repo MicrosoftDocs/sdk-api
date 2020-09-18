@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>IDsAdminNewObjPrimarySite::Commit</b> method causes a single-page primary object creation extension's <a href="https://docs.microsoft.com/windows/desktop/api/dsadmin/nf-dsadmin-idsadminnewobjext-writedata">IDsAdminNewObjExt::WriteData</a> method to be called and writes the temporary object to persistent memory.
+The <b>IDsAdminNewObjPrimarySite::Commit</b> method causes a single-page primary object creation extension's <a href="/windows/desktop/api/dsadmin/nf-dsadmin-idsadminnewobjext-writedata">IDsAdminNewObjExt::WriteData</a> method to be called and writes the temporary object to persistent memory.
 
 ## -parameters
 
@@ -60,19 +60,18 @@ Returns <b>S_OK</b> if successful or an OLE-defined error code otherwise. This m
 
 ## -remarks
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/dsadmin/nf-dsadmin-idsadminnewobjprimarysite-createnew">IDsAdminNewObjPrimarySite::CreateNew</a> method must be called before <b>IDsAdminNewObjPrimarySite::Commit</b> is called.
+The <a href="/windows/desktop/api/dsadmin/nf-dsadmin-idsadminnewobjprimarysite-createnew">IDsAdminNewObjPrimarySite::CreateNew</a> method must be called before <b>IDsAdminNewObjPrimarySite::Commit</b> is called.
 
 When an object creation wizard contains more than one page, the system implements a "Finish" page that displays a summary of the object data to be saved. The system-implemented "Finish" page will perform the  <b>IDsAdminNewObjPrimarySite::Commit</b> operation. If, however, the object creation wizard only contains one page, the  page will have <b>OK</b> and <b>Cancel</b> command buttons instead of the  <b>Back</b>, <b>Next</b> and <b>Cancel</b> buttons normally found in a wizard and no "Finish" page is provided. Because of this, a single-page object creation extension wizard must call <b>Commit</b>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dsadmin/nf-dsadmin-idsadminnewobjext-writedata">IDsAdminNewObjExt::WriteData</a>
+<a href="/windows/desktop/api/dsadmin/nf-dsadmin-idsadminnewobjext-writedata">IDsAdminNewObjExt::WriteData</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dsadmin/nn-dsadmin-idsadminnewobjprimarysite">IDsAdminNewObjPrimarySite</a>
+<a href="/windows/desktop/api/dsadmin/nn-dsadmin-idsadminnewobjprimarysite">IDsAdminNewObjPrimarySite</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dsadmin/nf-dsadmin-idsadminnewobjprimarysite-createnew">IDsAdminNewObjPrimarySite::CreateNew</a>
-
+<a href="/windows/desktop/api/dsadmin/nf-dsadmin-idsadminnewobjprimarysite-createnew">IDsAdminNewObjPrimarySite::CreateNew</a>

@@ -60,13 +60,12 @@ Determines whether a specified administrator policy is in effect. In many cases,
 
 ### -param rest
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/ne-shlobj_core-restrictions">RESTRICTIONS</a></b>
+Type: <b><a href="/windows/desktop/api/shlobj_core/ne-shlobj_core-restrictions">RESTRICTIONS</a></b>
 
-Specifies one of the flags described in the <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/ne-shlobj_core-restrictions">RESTRICTIONS</a> enumerated type.
+Specifies one of the flags described in the <a href="/windows/desktop/api/shlobj_core/ne-shlobj_core-restrictions">RESTRICTIONS</a> enumerated type.
 
 ## -returns
 
 Type: <b>DWORD</b>
 
 Returns nonzero if the specified restriction is in effect, or zero otherwise.
-

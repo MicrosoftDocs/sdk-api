@@ -58,7 +58,7 @@ Specifies a new value for a property.
 
 Type: <b>long</b>
 
-The identifier of the property. For a list of possible property identifiers, see <a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextdocument2-getproperty"> GetProperty</a>.
+The identifier of the property. For a list of possible property identifiers, see <a href="/windows/desktop/api/tom/nf-tom-itextdocument2-getproperty"> GetProperty</a>.
 
 ### -param Value [in]
 
@@ -68,15 +68,14 @@ The new property value.
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 If the method succeeds, it returns <b>NOERROR</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextdocument2">ITextDocument2</a>
+<a href="/windows/desktop/api/tom/nn-tom-itextdocument2">ITextDocument2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextdocument2-getproperty">ITextDocument2:: GetProperty</a>
-
+<a href="/windows/desktop/api/tom/nf-tom-itextdocument2-getproperty">ITextDocument2:: GetProperty</a>

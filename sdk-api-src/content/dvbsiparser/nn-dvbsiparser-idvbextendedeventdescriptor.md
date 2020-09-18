@@ -57,7 +57,7 @@ item description field, and one that provides the item text, for example, to inc
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDvbExtendedEventDescriptor</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDvbExtendedEventDescriptor</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDvbExtendedEventDescriptor</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDvbExtendedEventDescriptor</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,7 +72,7 @@ The <b>IDvbExtendedEventDescriptor</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvbextendedeventdescriptor-getconcatenateditemw">GetConcatenatedItemW</a>
+<a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvbextendedeventdescriptor-getconcatenateditemw">GetConcatenatedItemW</a>
 </td>
 <td align="left" width="63%">
 Concatenates the bytes from the item in the current DVB extended event descriptor with the bytes from the item in the next DVB extended event descriptor and returns the concatenated data as a Unicode string.
@@ -81,7 +81,7 @@ Concatenates the bytes from the item in the current DVB extended event descripto
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvbextendedeventdescriptor-getconcatenatedtextw">GetConcatenatedTextW</a>
+<a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvbextendedeventdescriptor-getconcatenatedtextw">GetConcatenatedTextW</a>
 </td>
 <td align="left" width="63%">
 Gets the concatenation of the text description in the current item with the text description in the next item of a DVB extended event descriptor.
@@ -90,7 +90,7 @@ Gets the concatenation of the text description in the current item with the text
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvbextendedeventdescriptor-getcountofrecords">GetCountOfRecords</a>
+<a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvbextendedeventdescriptor-getcountofrecords">GetCountOfRecords</a>
 </td>
 <td align="left" width="63%">
 Gets the number of item descriptions  from a DVB extended event descriptor.
@@ -99,7 +99,7 @@ Gets the number of item descriptions  from a DVB extended event descriptor.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvbextendedeventdescriptor-getdescriptornumber">GetDescriptorNumber</a>
+<a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvbextendedeventdescriptor-getdescriptornumber">GetDescriptorNumber</a>
 </td>
 <td align="left" width="63%">
 Gets the descriptor number from a DVB extended event descriptor.
@@ -108,7 +108,7 @@ Gets the descriptor number from a DVB extended event descriptor.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvbextendedeventdescriptor-getlanguagecode">GetLanguageCode</a>
+<a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvbextendedeventdescriptor-getlanguagecode">GetLanguageCode</a>
 </td>
 <td align="left" width="63%">
 Gets the ISO 639 language identifier for the DVB extended event descriptor.
@@ -117,7 +117,7 @@ Gets the ISO 639 language identifier for the DVB extended event descriptor.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvbextendedeventdescriptor-getlastdescriptornumber">GetLastDescriptorNumber</a>
+<a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvbextendedeventdescriptor-getlastdescriptornumber">GetLastDescriptorNumber</a>
 </td>
 <td align="left" width="63%">
 Gets the number of the last descriptor associated with this descriptor from a DVB extended event descriptor.
@@ -126,7 +126,7 @@ Gets the number of the last descriptor associated with this descriptor from a DV
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvbextendedeventdescriptor-getlength">GetLength</a>
+<a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvbextendedeventdescriptor-getlength">GetLength</a>
 </td>
 <td align="left" width="63%">
 Gets the body length of a DVB extended event descriptor.
@@ -135,7 +135,7 @@ Gets the body length of a DVB extended event descriptor.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvbextendedeventdescriptor-getrecorditemrawbytes">GetRecordItemRawBytes</a>
+<a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvbextendedeventdescriptor-getrecorditemrawbytes">GetRecordItemRawBytes</a>
 </td>
 <td align="left" width="63%">
 Gets the raw data from the 
@@ -145,7 +145,7 @@ current item in a DVB extended event descriptor.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvbextendedeventdescriptor-getrecorditemw">GetRecordItemW</a>
+<a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvbextendedeventdescriptor-getrecorditemw">GetRecordItemW</a>
 </td>
 <td align="left" width="63%">
 Gets the item and descriptor in Unicode string format from a  DVB extended event descriptor.
@@ -154,7 +154,7 @@ Gets the item and descriptor in Unicode string format from a  DVB extended event
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvbextendedeventdescriptor-gettag">GetTag</a>
+<a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvbextendedeventdescriptor-gettag">GetTag</a>
 </td>
 <td align="left" width="63%">
 Gets the tag that identifies a Digital Video Broadcast (DVB) data broadcast descriptor.
@@ -163,7 +163,7 @@ Gets the tag that identifies a Digital Video Broadcast (DVB) data broadcast desc
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvbextendedeventdescriptor-gettextw">GetTextW</a>
+<a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvbextendedeventdescriptor-gettextw">GetTextW</a>
 </td>
 <td align="left" width="63%">
 Gets the text describing the event in Unicode string format from a DVB extended event descriptor.
@@ -171,4 +171,3 @@ Gets the text describing the event in Unicode string format from a DVB extended 
 </td>
 </tr>
 </table>
-

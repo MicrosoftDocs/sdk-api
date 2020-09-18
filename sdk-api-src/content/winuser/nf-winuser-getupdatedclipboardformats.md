@@ -58,7 +58,7 @@ Retrieves the currently supported clipboard formats.
 
 Type: <b>PUINT</b>
 
-An array of clipboard formats. For a description of the standard clipboard formats, see <a href="https://docs.microsoft.com/windows/desktop/dataxchg/standard-clipboard-formats">Standard Clipboard Formats</a>.
+An array of clipboard formats. For a description of the standard clipboard formats, see <a href="/windows/desktop/dataxchg/standard-clipboard-formats">Standard Clipboard Formats</a>.
 
 ### -param cFormats [in]
 
@@ -76,5 +76,4 @@ The actual number of clipboard formats in the array pointed to by <i>lpuiFormats
 
 Type: <b>BOOL</b>
 
-The function returns <b>TRUE</b> if successful; otherwise, <b>FALSE</b>. Call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> for additional details.
-
+The function returns <b>TRUE</b> if successful; otherwise, <b>FALSE</b>. Call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> for additional details.

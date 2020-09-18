@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Cancels the current  <a href="https://docs.microsoft.com/windows/desktop/api/restartmanager/nf-restartmanager-rmshutdown">RmShutdown</a> or  <a href="https://docs.microsoft.com/windows/desktop/api/restartmanager/nf-restartmanager-rmrestart">RmRestart</a> operation.  This function must be called from the application that has started the session by calling the <a href="https://docs.microsoft.com/windows/desktop/api/restartmanager/nf-restartmanager-rmstartsession">RmStartSession</a> function.
+Cancels the current  <a href="/windows/desktop/api/restartmanager/nf-restartmanager-rmshutdown">RmShutdown</a> or  <a href="/windows/desktop/api/restartmanager/nf-restartmanager-rmrestart">RmRestart</a> operation.  This function must be called from the application that has started the session by calling the <a href="/windows/desktop/api/restartmanager/nf-restartmanager-rmstartsession">RmStartSession</a> function.
 
 ## -parameters
 
@@ -60,7 +60,7 @@ A handle to an existing session.
 
 ## -returns
 
-This is the most recent error received. The function can return one of the <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error codes</a> that are defined in Winerror.h. 
+This is the most recent error received. The function can return one of the <a href="/windows/desktop/Debug/system-error-codes">system error codes</a> that are defined in Winerror.h. 
 
 <table>
 <tr>
@@ -119,9 +119,8 @@ No Restart Manager session exists for the handle supplied.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/restartmanager/nf-restartmanager-rmrestart">RmRestart</a>
+<a href="/windows/desktop/api/restartmanager/nf-restartmanager-rmrestart">RmRestart</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/restartmanager/nf-restartmanager-rmshutdown">RmShutdown</a>
-
+<a href="/windows/desktop/api/restartmanager/nf-restartmanager-rmshutdown">RmShutdown</a>

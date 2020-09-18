@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Specifies the type of a handler. Used by <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrhandlerinfo-gettype">ISyncMgrHandlerInfo::GetType</a>.
+Specifies the type of a handler. Used by <a href="/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrhandlerinfo-gettype">ISyncMgrHandlerInfo::GetType</a>.
 
 ## -enum-fields
 
 ### -field SYNCMGR_HT_UNSPECIFIED
 
-The handler type is unknown. This value is also used if <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrhandlerinfo-gettype">ISyncMgrHandlerInfo::GetType</a> fails.
+The handler type is unknown. This value is also used if <a href="/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrhandlerinfo-gettype">ISyncMgrHandlerInfo::GetType</a> fails.
 
 ### -field SYNCMGR_HT_APPLICATION
 
@@ -80,9 +80,8 @@ The handler syncs with a computer.
 
 ### -field SYNCMGR_HT_MIN
 
-Indicates the minimum <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/ne-syncmgr-syncmgr_handler_type">SYNCMGR_HANDLER_TYPE</a> value.
+Indicates the minimum <a href="/windows/desktop/api/syncmgr/ne-syncmgr-syncmgr_handler_type">SYNCMGR_HANDLER_TYPE</a> value.
 
 ### -field SYNCMGR_HT_MAX
 
-Indicates the maximum <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/ne-syncmgr-syncmgr_handler_type">SYNCMGR_HANDLER_TYPE</a> value.
-
+Indicates the maximum <a href="/windows/desktop/api/syncmgr/ne-syncmgr-syncmgr_handler_type">SYNCMGR_HANDLER_TYPE</a> value.

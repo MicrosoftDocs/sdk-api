@@ -56,7 +56,7 @@ Retrieves the time at which the data report was created.
 
 ### -param pTimeStamp [out]
 
-Address of a <a href="https://msdn.microsoft.com/library/ms724950(VS.85).aspx">SYSTEMTIME</a> variable that receives the time stamp.
+Address of a <a href="/windows/win32/api/minwinbase/ns-minwinbase-systemtime">SYSTEMTIME</a> variable that receives the time stamp.
 
 ## -returns
 
@@ -108,5 +108,4 @@ Time stamps use Universal Coordinated Time (UTC).
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sensorsapi/nn-sensorsapi-isensordatareport">ISensorDataReport</a>
-
+<a href="/windows/desktop/api/sensorsapi/nn-sensorsapi-isensordatareport">ISensorDataReport</a>

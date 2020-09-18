@@ -51,13 +51,13 @@ api_name:
 ## -description
 
 The <b>IDsBrowseDomainTree::GetDomains</b> method retrieves the trust domains of the current computer.
-  The current computer is set using the <a href="https://docs.microsoft.com/windows/desktop/api/dsclient/nf-dsclient-idsbrowsedomaintree-setcomputer">IDsBrowseDomainTree::SetComputer</a> method.
+  The current computer is set using the <a href="/windows/desktop/api/dsclient/nf-dsclient-idsbrowsedomaintree-setcomputer">IDsBrowseDomainTree::SetComputer</a> method.
 
 ## -parameters
 
 ### -param ppDomainTree [in]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/dsclient/ns-dsclient-domain_tree">DOMAINTREE</a> structure pointer that receives the trust domain data. The caller must free this memory when no longer required by calling <a href="https://docs.microsoft.com/windows/desktop/api/dsclient/nf-dsclient-idsbrowsedomaintree-freedomains">IDsBrowseDomainTree::FreeDomains</a>.
+Pointer to a <a href="/windows/desktop/api/dsclient/ns-dsclient-domain_tree">DOMAINTREE</a> structure pointer that receives the trust domain data. The caller must free this memory when no longer required by calling <a href="/windows/desktop/api/dsclient/nf-dsclient-idsbrowsedomaintree-freedomains">IDsBrowseDomainTree::FreeDomains</a>.
 
 ### -param dwFlags [in]
 
@@ -67,7 +67,7 @@ Contains a set of flags that modify the domain contents. This can be zero or a c
 
 #### DBDTF_RETURNFQDN
 
-The <b>pszNCName</b> members of the <a href="https://docs.microsoft.com/windows/desktop/api/dsclient/ns-dsclient-domaindesc">DOMAINDESC</a> structures will receive the fully qualified domain names. The fully qualified domain name takes the form "DC=myDom, DC=Fabrikam, DC=com" as opposed to "myDom.Fabrikam.com".
+The <b>pszNCName</b> members of the <a href="/windows/desktop/api/dsclient/ns-dsclient-domaindesc">DOMAINDESC</a> structures will receive the fully qualified domain names. The fully qualified domain name takes the form "DC=myDom, DC=Fabrikam, DC=com" as opposed to "myDom.Fabrikam.com".
 
 
 
@@ -99,25 +99,24 @@ Returns a standard <b>HRESULT</b> value including the following.
 
 ## -remarks
 
-For more information about how to access and use the data provided by this method, see <a href="https://docs.microsoft.com/windows/desktop/AD/domain-browser">Domain Browser</a>.
+For more information about how to access and use the data provided by this method, see <a href="/windows/desktop/AD/domain-browser">Domain Browser</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dsclient/ns-dsclient-domaindesc">DOMAINDESC</a>
+<a href="/windows/desktop/api/dsclient/ns-dsclient-domaindesc">DOMAINDESC</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dsclient/ns-dsclient-domain_tree">DOMAINTREE</a>
+<a href="/windows/desktop/api/dsclient/ns-dsclient-domain_tree">DOMAINTREE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/AD/domain-browser">Domain Browser</a>
+<a href="/windows/desktop/AD/domain-browser">Domain Browser</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dsclient/nn-dsclient-idsbrowsedomaintree">IDsBrowseDomainTree</a>
+<a href="/windows/desktop/api/dsclient/nn-dsclient-idsbrowsedomaintree">IDsBrowseDomainTree</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dsclient/nf-dsclient-idsbrowsedomaintree-freedomains">IDsBrowseDomainTree::FreeDomains</a>
-
+<a href="/windows/desktop/api/dsclient/nf-dsclient-idsbrowsedomaintree-freedomains">IDsBrowseDomainTree::FreeDomains</a>

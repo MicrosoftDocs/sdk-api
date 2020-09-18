@@ -98,5 +98,4 @@ The constants  of <b>RM_APP_STATUS</b> can be combined with OR operators. The co
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/restartmanager/ns-restartmanager-rm_process_info">RM_PROCESS_INFO</a>
-
+<a href="/windows/desktop/api/restartmanager/ns-restartmanager-rm_process_info">RM_PROCESS_INFO</a>

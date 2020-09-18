@@ -52,11 +52,11 @@ api_name:
 
 Provides access 
         to controls that act as scrollable containers for a collection of child objects. 
-        The children of this control must implement <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nn-uiautomationcore-iscrollitemprovider">IScrollItemProvider</a>.
+        The children of this control must implement <a href="/windows/desktop/api/uiautomationcore/nn-uiautomationcore-iscrollitemprovider">IScrollItemProvider</a>.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IScrollProvider</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IScrollProvider</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IScrollProvider</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IScrollProvider</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -72,7 +72,7 @@ The <b>IScrollProvider</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nf-uiautomationcore-iscrollprovider-scroll">Scroll</a>
+<a href="/windows/desktop/api/uiautomationcore/nf-uiautomationcore-iscrollprovider-scroll">Scroll</a>
 </td>
 <td align="left" width="63%">
 Scrolls the visible region of the content area horizontally and vertically.
@@ -82,7 +82,7 @@ Scrolls the visible region of the content area horizontally and vertically.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nf-uiautomationcore-iscrollprovider-setscrollpercent">SetScrollPercent</a>
+<a href="/windows/desktop/api/uiautomationcore/nf-uiautomationcore-iscrollprovider-setscrollpercent">SetScrollPercent</a>
 </td>
 <td align="left" width="63%">
 Sets the horizontal and vertical scroll position as a percentage of the total content area within the control.
@@ -101,7 +101,7 @@ Sets the horizontal and vertical scroll position as a percentage of the total co
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nf-uiautomationcore-iscrollprovider-get_horizontallyscrollable">HorizontallyScrollable</a>
+<a href="/windows/desktop/api/uiautomationcore/nf-uiautomationcore-iscrollprovider-get_horizontallyscrollable">HorizontallyScrollable</a>
 
 
 </td>
@@ -118,7 +118,7 @@ Indicates whether the control can scroll horizontally.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nf-uiautomationcore-iscrollprovider-get_horizontalscrollpercent">HorizontalScrollPercent</a>
+<a href="/windows/desktop/api/uiautomationcore/nf-uiautomationcore-iscrollprovider-get_horizontalscrollpercent">HorizontalScrollPercent</a>
 
 
 </td>
@@ -134,7 +134,7 @@ Specifies the horizontal scroll position.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nf-uiautomationcore-iscrollprovider-get_horizontalviewsize">HorizontalViewSize</a>
+<a href="/windows/desktop/api/uiautomationcore/nf-uiautomationcore-iscrollprovider-get_horizontalviewsize">HorizontalViewSize</a>
 
 
 </td>
@@ -151,7 +151,7 @@ Specifies the horizontal
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nf-uiautomationcore-iscrollprovider-get_verticallyscrollable">VerticallyScrollable</a>
+<a href="/windows/desktop/api/uiautomationcore/nf-uiautomationcore-iscrollprovider-get_verticallyscrollable">VerticallyScrollable</a>
 
 
 </td>
@@ -168,7 +168,7 @@ Indicates whether the control can scroll vertically.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nf-uiautomationcore-iscrollprovider-get_verticalscrollpercent">VerticalScrollPercent</a>
+<a href="/windows/desktop/api/uiautomationcore/nf-uiautomationcore-iscrollprovider-get_verticalscrollpercent">VerticalScrollPercent</a>
 
 
 </td>
@@ -184,7 +184,7 @@ Specifies the vertical scroll position.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nf-uiautomationcore-iscrollprovider-get_verticalviewsize">VerticalViewSize</a>
+<a href="/windows/desktop/api/uiautomationcore/nf-uiautomationcore-iscrollprovider-get_verticalviewsize">VerticalViewSize</a>
 
 
 </td>
@@ -203,9 +203,8 @@ Specifies the vertical
 ## -remarks
 
 Implemented on a Microsoft UI Automation provider that must 
-            support the <a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-implementingscroll">Scroll</a> control pattern.
+            support the <a href="/windows/desktop/WinAuto/uiauto-implementingscroll">Scroll</a> control pattern.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-providersoverview">UI Automation Providers Overview</a>
-
+<a href="/windows/desktop/WinAuto/uiauto-providersoverview">UI Automation Providers Overview</a>

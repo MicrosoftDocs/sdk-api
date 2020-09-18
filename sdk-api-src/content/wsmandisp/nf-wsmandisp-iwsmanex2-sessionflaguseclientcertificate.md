@@ -50,9 +50,9 @@ api_name:
 
 ## -description
 
-Returns the value of the authentication flag <b>WSManFlagUseClientCertificate</b> for use in the <i>flags</i> parameter of <a href="https://docs.microsoft.com/windows/desktop/api/wsmandisp/nf-wsmandisp-iwsman-createsession">IWSMan::CreateSession</a>.
+Returns the value of the authentication flag <b>WSManFlagUseClientCertificate</b> for use in the <i>flags</i> parameter of <a href="/windows/desktop/api/wsmandisp/nf-wsmandisp-iwsman-createsession">IWSMan::CreateSession</a>.
 
-<b>WSManFlagUseClientCertificate</b> is a constant in the <b>__WSManSessionFlags</b> enumeration. For more information, see <a href="https://docs.microsoft.com/windows/desktop/WinRM/authentication-constants">Authentication Constants</a>.
+<b>WSManFlagUseClientCertificate</b> is a constant in the <b>__WSManSessionFlags</b> enumeration. For more information, see <a href="/windows/desktop/WinRM/authentication-constants">Authentication Constants</a>.
 
 ## -parameters
 
@@ -62,5 +62,4 @@ The session flags to use.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wsmandisp/nn-wsmandisp-iwsmanex2">IWSManEx2</a>
-
+<a href="/windows/desktop/api/wsmandisp/nn-wsmandisp-iwsmanex2">IWSManEx2</a>

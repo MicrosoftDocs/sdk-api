@@ -51,7 +51,7 @@ api_name:
 ## -description
 
 The <b>OpenPersonalTrustDBDialog</b> function displays the <b>Certificates</b> dialog box.
-<div class="alert"><b>Note</b>  This function has no associated header file or import library. You must define the function yourself and use the <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> and <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> functions to dynamically link to Wintrust.dll.</div><div> </div>
+<div class="alert"><b>Note</b>  This function has no associated header file or import library. You must define the function yourself and use the <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> and <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> functions to dynamically link to Wintrust.dll.</div><div> </div>
 
 ## -parameters
 
@@ -62,4 +62,3 @@ The handle of the parent window for the dialog box. If this parameter is <b>NULL
 ## -returns
 
 Returns nonzero if the dialog box was opened successfully or zero otherwise.
-

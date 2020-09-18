@@ -50,17 +50,16 @@ api_name:
 
 ## -description
 
-Retrieves the address of an edit or rich edit control's Wordwrap function. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/em-getwordbreakproc">EM_GETWORDBREAKPROC</a> message explicitly.
+Retrieves the address of an edit or rich edit control's Wordwrap function. You can use this macro or send the <a href="/windows/desktop/Controls/em-getwordbreakproc">EM_GETWORDBREAKPROC</a> message explicitly.
 
 ## -parameters
 
 ### -param hwndCtl
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the control.
 
 ## -remarks
 
-For more information, see <a href="https://docs.microsoft.com/windows/desktop/Controls/em-getwordbreakproc">EM_GETWORDBREAKPROC</a>.
-
+For more information, see <a href="/windows/desktop/Controls/em-getwordbreakproc">EM_GETWORDBREAKPROC</a>.

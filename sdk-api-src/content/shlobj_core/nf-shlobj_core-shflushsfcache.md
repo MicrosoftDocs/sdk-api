@@ -66,5 +66,4 @@ Flushes the special folder cache.
     value.
 
 For more information on special folders, see the <i>Special Folders and CSIDLs</i> section 
-    of <a href="https://docs.microsoft.com/windows/desktop/shell/folder-id">Getting a Folder's ID</a>.
-
+    of <a href="/windows/desktop/shell/folder-id">Getting a Folder's ID</a>.

@@ -56,7 +56,7 @@ The <b>put_InnerFEC</b> method sets the type of inner FEC to use.
 
 ### -param FEC [in]
 
-Specifies the inner FEC. This parameter is a value of type <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/fecmethod">FECMethod</a>.
+Specifies the inner FEC. This parameter is a value of type <a href="/previous-versions/windows/desktop/mstv/fecmethod">FECMethod</a>.
 
 ## -returns
 
@@ -64,17 +64,16 @@ Returns S_OK if successful. If the method fails, error information can be retrie
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-ilocator">ILocator</a>
+<a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-ilocator">ILocator</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/dd693580(v=vs.85)">get_InnerFEC</a>
+<a href="/previous-versions/dd693580(v=vs.85)">get_InnerFEC</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/dd693586(v=vs.85)">put_InnerFECRate</a>
+<a href="/previous-versions/dd693586(v=vs.85)">put_InnerFECRate</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/dd693587(v=vs.85)">put_OuterFEC</a>
-
+<a href="/previous-versions/dd693587(v=vs.85)">put_OuterFEC</a>

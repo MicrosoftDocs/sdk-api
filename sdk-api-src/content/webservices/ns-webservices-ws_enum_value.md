@@ -53,7 +53,7 @@ api_name:
 ## -description
 
 Provides serialization information about a single value that
-                is part of an enumeration (<a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_enum_description">WS_ENUM_DESCRIPTION</a>).
+                is part of an enumeration (<a href="/windows/desktop/api/webservices/ns-webservices-ws_enum_description">WS_ENUM_DESCRIPTION</a>).
 
 ## -struct-fields
 
@@ -64,4 +64,3 @@ The numeric enum value.
 ### -field name
 
 The serialized form of the value.
-

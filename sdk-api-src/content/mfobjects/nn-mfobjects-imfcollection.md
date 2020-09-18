@@ -55,7 +55,7 @@ Represents a generic collection of <b>IUnknown</b> pointers.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFCollection</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFCollection</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFCollection</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFCollection</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>IMFCollection</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfcollection-addelement">AddElement</a>
+<a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfcollection-addelement">AddElement</a>
 </td>
 <td align="left" width="63%">
 Adds an object to the collection.
@@ -79,7 +79,7 @@ Adds an object to the collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfcollection-getelement">GetElement</a>
+<a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfcollection-getelement">GetElement</a>
 </td>
 <td align="left" width="63%">
 Retrieves an object in the collection.
@@ -88,7 +88,7 @@ Retrieves an object in the collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfcollection-getelementcount">GetElementCount</a>
+<a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfcollection-getelementcount">GetElementCount</a>
 </td>
 <td align="left" width="63%">
 Retrieves the number of objects in the collection.
@@ -97,7 +97,7 @@ Retrieves the number of objects in the collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfcollection-insertelementat">InsertElementAt</a>
+<a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfcollection-insertelementat">InsertElementAt</a>
 </td>
 <td align="left" width="63%">
 Adds an object at the specified index in the collection.
@@ -106,7 +106,7 @@ Adds an object at the specified index in the collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfcollection-removeallelements">RemoveAllElements</a>
+<a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfcollection-removeallelements">RemoveAllElements</a>
 </td>
 <td align="left" width="63%">
 Removes all items from the collection.
@@ -115,7 +115,7 @@ Removes all items from the collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfcollection-removeelement">RemoveElement</a>
+<a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfcollection-removeelement">RemoveElement</a>
 </td>
 <td align="left" width="63%">
 Removes an object from the collection.
@@ -126,9 +126,8 @@ Removes an object from the collection.
 
 ## -remarks
 
-To create an empty collection object, call <a href="https://docs.microsoft.com/windows/desktop/api/mfapi/nf-mfapi-mfcreatecollection">MFCreateCollection</a>.
+To create an empty collection object, call <a href="/windows/desktop/api/mfapi/nf-mfapi-mfcreatecollection">MFCreateCollection</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
-
+<a href="/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>

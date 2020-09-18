@@ -71,7 +71,7 @@ If the current directory should be part of the search path, the return value is 
 
 ## -remarks
 
-This function should only be called in instances where the caller must explicitly resolve a relative executable name to an absolute name.  If <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessa">CreateProcess</a> is called with a relative executable name, it will automatically search for the executable, calling  this function to determine the search path.
+This function should only be called in instances where the caller must explicitly resolve a relative executable name to an absolute name.  If <a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessa">CreateProcess</a> is called with a relative executable name, it will automatically search for the executable, calling  this function to determine the search path.
 
 Most system functions perform their own path resolution, therefore, this function should only be called if you are attempting to resolve a search path for the specified executable based on the current directory.
 
@@ -79,7 +79,7 @@ The value of the NoDefaultCurrentDirectoryInExePath environment variable determi
 
 If the value of the <i>ExeName</i> parameter contains a backslash (\), this function will always return TRUE. If it does not contain a backslash, the existence of the NoDefaultCurrentDirectoryInExePath environment variable is checked, and not its value.
 
-An example of an instance when this function should be called instead of relying on the default search path resolution algorithm in <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessa">CreateProcess</a> is the "cmd.exe" executable. It calls this function to determine the command search path because it does its own path resolution before calling <b>CreateProcess</b>.  If this function returns TRUE, cmd.exe uses the path ".;%PATH%" for the executable search. If it returns FALSE, cmd.exe uses the path "%PATH%" for the search.
+An example of an instance when this function should be called instead of relying on the default search path resolution algorithm in <a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessa">CreateProcess</a> is the "cmd.exe" executable. It calls this function to determine the command search path because it does its own path resolution before calling <b>CreateProcess</b>.  If this function returns TRUE, cmd.exe uses the path ".;%PATH%" for the executable search. If it returns FALSE, cmd.exe uses the path "%PATH%" for the search.
 
 
 
@@ -90,9 +90,8 @@ An example of an instance when this function should be called instead of relying
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessa">CreateProcess</a>
+<a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessa">CreateProcess</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/ProcThread/process-and-thread-functions">Process and Thread Functions</a>
-
+<a href="/windows/desktop/ProcThread/process-and-thread-functions">Process and Thread Functions</a>

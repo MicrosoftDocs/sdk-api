@@ -51,11 +51,11 @@ api_name:
 
 ## -description
 
-The <code>IAMOverlayFX</code> interface controls how the video overlay appears on the user's screen. The <a href="https://docs.microsoft.com/windows/desktop/DirectShow/overlay-mixer-filter">Overlay Mixer</a> filter implements this interface.
+The <code>IAMOverlayFX</code> interface controls how the video overlay appears on the user's screen. The <a href="/windows/desktop/DirectShow/overlay-mixer-filter">Overlay Mixer</a> filter implements this interface.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAMOverlayFX</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAMOverlayFX</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAMOverlayFX</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAMOverlayFX</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>IAMOverlayFX</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamoverlayfx-getoverlayfx">GetOverlayFX</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-iamoverlayfx-getoverlayfx">GetOverlayFX</a>
 </td>
 <td align="left" width="63%">
 Retrieves the effects currently applied to the overlay surface, if any.
@@ -79,7 +79,7 @@ Retrieves the effects currently applied to the overlay surface, if any.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamoverlayfx-queryoverlayfxcaps">QueryOverlayFXCaps</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-iamoverlayfx-queryoverlayfxcaps">QueryOverlayFXCaps</a>
 </td>
 <td align="left" width="63%">
 Retrieves information about which overlay effects are available to the Overlay Mixer filter.
@@ -88,7 +88,7 @@ Retrieves information about which overlay effects are available to the Overlay M
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamoverlayfx-setoverlayfx">SetOverlayFX</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-iamoverlayfx-setoverlayfx">SetOverlayFX</a>
 </td>
 <td align="left" width="63%">
 Applies the specified effects to the overlay surface.
@@ -96,4 +96,3 @@ Applies the specified effects to the overlay surface.
 </td>
 </tr>
 </table>
-

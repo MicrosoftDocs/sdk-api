@@ -68,5 +68,4 @@ More information about the use of these Token Binding types can be found in the 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tokenbinding/nf-tokenbinding-tokenbindinggeneratebinding">TokenBindingGenerateBinding</a>
-
+<a href="/windows/desktop/api/tokenbinding/nf-tokenbinding-tokenbindinggeneratebinding">TokenBindingGenerateBinding</a>

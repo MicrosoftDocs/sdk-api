@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Initializes an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msxml6/nn-msxml6-ixmlhttprequest2">IXMLHTTPRequest2</a> request and specifies the method, URL, and authentication information for the request.  After calling this method, you must call the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msxml6/nf-msxml6-ixmlhttprequest2-send">Send</a>  method to send the request and data, if any, to the server.
+Initializes an <a href="/previous-versions/windows/desktop/api/msxml6/nn-msxml6-ixmlhttprequest2">IXMLHTTPRequest2</a> request and specifies the method, URL, and authentication information for the request.  After calling this method, you must call the <a href="/previous-versions/windows/desktop/api/msxml6/nf-msxml6-ixmlhttprequest2-send">Send</a>  method to send the request and data, if any, to the server.
 
 ## -parameters
 
@@ -66,11 +66,11 @@ The requested URL. This must be an absolute URL, such as "http://Myserver/Mypath
 
 A callback interface implemented by the app that is to receive callback events. 
 
-When the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msxml6/nf-msxml6-ixmlhttprequest2-send">Send Method</a> is successful, the methods on this interface are called to process the response or other events.
+When the <a href="/previous-versions/windows/desktop/api/msxml6/nf-msxml6-ixmlhttprequest2-send">Send Method</a> is successful, the methods on this interface are called to process the response or other events.
 
 ### -param pwszUserName [in, optional]
 
-The name of the user for authentication. If this parameter is a Null and the site requires authentication, credentials will be managed by Windows, including displaying a logon UI, unless disabled by <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msxml6/nf-msxml6-ixmlhttprequest2-setproperty">SetProperty</a>.
+The name of the user for authentication. If this parameter is a Null and the site requires authentication, credentials will be managed by Windows, including displaying a logon UI, unless disabled by <a href="/previous-versions/windows/desktop/api/msxml6/nf-msxml6-ixmlhttprequest2-setproperty">SetProperty</a>.
 
 ### -param pwszPassword [in, optional]
 
@@ -78,7 +78,7 @@ The password for authentication. This parameter is ignored if the <i>pwszUserNam
 
 ### -param pwszProxyUserName [in, optional]
 
-The name of the user for authentication on the proxy server. If this parameter is a Null or empty string and the site requires authentication, credentials will be managed by Windows, including displaying a logon UI, unless disabled by <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msxml6/nf-msxml6-ixmlhttprequest2-setproperty">SetProperty</a>.
+The name of the user for authentication on the proxy server. If this parameter is a Null or empty string and the site requires authentication, credentials will be managed by Windows, including displaying a logon UI, unless disabled by <a href="/previous-versions/windows/desktop/api/msxml6/nf-msxml6-ixmlhttprequest2-setproperty">SetProperty</a>.
 
 ### -param pwszProxyPassword [in, optional]
 
@@ -126,13 +126,12 @@ For the complete examples, see the <a href="https://github.com/microsoft/Windows
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msxml6/nn-msxml6-ixmlhttprequest2">IXMLHTTPRequest2</a>
+<a href="/previous-versions/windows/desktop/api/msxml6/nn-msxml6-ixmlhttprequest2">IXMLHTTPRequest2</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msxml6/nn-msxml6-ixmlhttprequest2callback">IXMLHTTPRequest2Callback Interface</a>
+<a href="/previous-versions/windows/desktop/api/msxml6/nn-msxml6-ixmlhttprequest2callback">IXMLHTTPRequest2Callback Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msxml6/nf-msxml6-ixmlhttprequest2-send">Send Method</a>
-
+<a href="/previous-versions/windows/desktop/api/msxml6/nf-msxml6-ixmlhttprequest2-send">Send Method</a>

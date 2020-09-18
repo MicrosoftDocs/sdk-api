@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Sets up the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfsystemid">IMFSystemId</a>.
+Sets up the <a href="/windows/desktop/api/mfidl/nn-mfidl-imfsystemid">IMFSystemId</a>.
 
 ## -parameters
 
@@ -80,5 +80,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfsystemid">IMFSystemId</a>
-
+<a href="/windows/desktop/api/mfidl/nn-mfidl-imfsystemid">IMFSystemId</a>

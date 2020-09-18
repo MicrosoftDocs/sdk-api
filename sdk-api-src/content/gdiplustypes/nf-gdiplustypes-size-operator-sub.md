@@ -51,25 +51,25 @@ api_name:
 
 ## -description
 
-The <b>Size::operator-</b> method subtracts the <b>Width</b> and <b>Height</b> data members of two <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-size">Size</a> objects.
+The <b>Size::operator-</b> method subtracts the <b>Width</b> and <b>Height</b> data members of two <a href="/windows/desktop/api/gdiplustypes/nl-gdiplustypes-size">Size</a> objects.
 
 ## -parameters
 
 ### -param sz [in, ref]
 
-Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-size">Size</a></b>
+Type: <b>const <a href="/windows/desktop/api/gdiplustypes/nl-gdiplustypes-size">Size</a></b>
 
-Reference to a <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-size">Size</a> object whose <b>Width</b> and <b>Height</b> data members are subtracted from the <b>Width</b> and <b>Height</b> data members of this <b>Size</b> object.
+Reference to a <a href="/windows/desktop/api/gdiplustypes/nl-gdiplustypes-size">Size</a> object whose <b>Width</b> and <b>Height</b> data members are subtracted from the <b>Width</b> and <b>Height</b> data members of this <b>Size</b> object.
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-size">Size</a></b>
+Type: <b><a href="/windows/desktop/api/gdiplustypes/nl-gdiplustypes-size">Size</a></b>
 
-This method returns the difference of this <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-size">Size</a> object and another <b>Size</b> object.
+This method returns the difference of this <a href="/windows/desktop/api/gdiplustypes/nl-gdiplustypes-size">Size</a> object and another <b>Size</b> object.
 
 ## -remarks
 
-This method overloads the subtraction operator for <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-size">Size</a> objects. If A, B, and C are <b>Size</b> objects, the statement <b>C = A - B</b> is equivalent to <b>C = A.operator-(B)</b>.
+This method overloads the subtraction operator for <a href="/windows/desktop/api/gdiplustypes/nl-gdiplustypes-size">Size</a> objects. If A, B, and C are <b>Size</b> objects, the statement <b>C = A - B</b> is equivalent to <b>C = A.operator-(B)</b>.
 
 
 #### Examples
@@ -96,13 +96,12 @@ VOID Example_OperatorMinus(HWND hWnd)
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-size">Size</a>
+<a href="/windows/desktop/api/gdiplustypes/nl-gdiplustypes-size">Size</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/ms534751(v=vs.85)">Size::operator+</a>
+<a href="/previous-versions/ms534751(v=vs.85)">Size::operator+</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-sizef">SizeF</a>
-
+<a href="/windows/desktop/api/gdiplustypes/nl-gdiplustypes-sizef">SizeF</a>

@@ -69,17 +69,16 @@ Only container items, such as directories and shares, can be partly pinned. An i
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilescache-pin">IOfflineFilesCache::Pin</a>
+<a href="/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilescache-pin">IOfflineFilesCache::Pin</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilesghostinfo-isghosted">IOfflineFilesGhostInfo::IsGhosted</a>
+<a href="/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilesghostinfo-isghosted">IOfflineFilesGhostInfo::IsGhosted</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nn-cscobj-iofflinefilespininfo2">IOfflineFilesPinInfo2</a>
+<a href="/previous-versions/windows/desktop/api/cscobj/nn-cscobj-iofflinefilespininfo2">IOfflineFilesPinInfo2</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilestransparentcacheinfo-istransparentlycached">IOfflineFilesTransparentCacheInfo::IsTransparentlyCached</a>
-
+<a href="/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilestransparentcacheinfo-istransparentlycached">IOfflineFilesTransparentCacheInfo::IsTransparentlyCached</a>

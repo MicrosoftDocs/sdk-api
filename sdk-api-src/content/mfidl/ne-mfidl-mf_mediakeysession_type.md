@@ -34,7 +34,7 @@ dev_langs:
 
 ## -description
 
-Specifies the type of a Content Decryption Module (CDM) session, represented by an [IMFContentDecryptionModuleSession](/windows/win32/api/mfcontentdecryptionmodule/nn-mfcontentdecryptionmodule-imfcontentdecryptionmodulesession) object.
+Specifies the type of a Content Decryption Module (CDM) session, represented by an [IMFContentDecryptionModuleSession](../mfcontentdecryptionmodule/nn-mfcontentdecryptionmodule-imfcontentdecryptionmodulesession.md) object.
 
 ## -enum-fields
 
@@ -56,11 +56,10 @@ A record of license usage.
 
 ## -remarks
 
-Pass a member of this enumeration into [IMFContentDecryptionModule::CreateSession](/windows/win32/api/mfcontentdecryptionmodule/nf-mfcontentdecryptionmodule-imfcontentdecryptionmodule-createsession)
+Pass a member of this enumeration into [IMFContentDecryptionModule::CreateSession](../mfcontentdecryptionmodule/nf-mfcontentdecryptionmodule-imfcontentdecryptionmodule-createsession.md)
 
 ## -see-also
 
 - IMFContentDecryptionModuleSession](/windows/win32/api/mfcontentdecryptionmodule/nn-mfcontentdecryptionmodule-imfcontentdecryptionmodulesession)
 
-- [IMFContentDecryptionModule::CreateSession](/windows/win32/api/mfcontentdecryptionmodule/nf-mfcontentdecryptionmodule-imfcontentdecryptionmodule-createsession)
-
+- [IMFContentDecryptionModule::CreateSession](../mfcontentdecryptionmodule/nf-mfcontentdecryptionmodule-imfcontentdecryptionmodule-createsession.md)

@@ -54,13 +54,13 @@ api_name:
 
 The <b>DS_REPL_QUEUE_STATISTICSW</b> structure is used to contain replication queue statistics.
 
-Reserved. Obtain this data using the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms676274(v=vs.85)">DS_REPL_QUEUE_STATISTICSW_BLOB</a> structure with the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/ldap/lightweight-directory-access-protocol-ldap-api">Lightweight Directory Access Protocol API</a> functions to obtain binary data for the <b>msDS-ReplQueueStatistics</b> attribute.
+Reserved. Obtain this data using the <a href="/previous-versions/windows/desktop/legacy/ms676274(v=vs.85)">DS_REPL_QUEUE_STATISTICSW_BLOB</a> structure with the <a href="/previous-versions/windows/desktop/ldap/lightweight-directory-access-protocol-ldap-api">Lightweight Directory Access Protocol API</a> functions to obtain binary data for the <b>msDS-ReplQueueStatistics</b> attribute.
 
 ## -struct-fields
 
 ### -field ftimeCurrentOpStarted
 
-Contains a <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure that contains the date and time that the currently running operation started.
+Contains a <a href="/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure that contains the date and time that the currently running operation started.
 
 ### -field cNumPendingOps
 
@@ -68,33 +68,32 @@ Contains the number of currently pending operations.
 
 ### -field ftimeOldestSync
 
-Contains a <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure that contains the date and time of the oldest synchronization operation.
+Contains a <a href="/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure that contains the date and time of the oldest synchronization operation.
 
 ### -field ftimeOldestAdd
 
-Contains a <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure that contains the date and time of the oldest add operation.
+Contains a <a href="/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure that contains the date and time of the oldest add operation.
 
 ### -field ftimeOldestMod
 
-Contains a <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure that contains the date and time of the oldest modification operation.
+Contains a <a href="/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure that contains the date and time of the oldest modification operation.
 
 ### -field ftimeOldestDel
 
-Contains a <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure that contains the date and time of the oldest delete operation.
+Contains a <a href="/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure that contains the date and time of the oldest delete operation.
 
 ### -field ftimeOldestUpdRefs
 
-Contains a <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure that contains the date and time of the oldest reference update operation.
+Contains a <a href="/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure that contains the date and time of the oldest reference update operation.
 
 ## -remarks
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms676274(v=vs.85)">DS_REPL_QUEUE_STATISTICSW_BLOB</a> is an alias for this structure.
+<a href="/previous-versions/windows/desktop/legacy/ms676274(v=vs.85)">DS_REPL_QUEUE_STATISTICSW_BLOB</a> is an alias for this structure.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms676274(v=vs.85)">DS_REPL_QUEUE_STATISTICSW_BLOB</a>
+<a href="/previous-versions/windows/desktop/legacy/ms676274(v=vs.85)">DS_REPL_QUEUE_STATISTICSW_BLOB</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a>
-
+<a href="/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a>

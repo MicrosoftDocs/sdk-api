@@ -61,19 +61,18 @@ A pointer to the memory buffer to be freed.
 
 ## -remarks
 
-<b>BCryptFreeBuffer</b> must be called in the same processor mode as the BCrypt API function that allocated the buffer. In addition, if the buffer was allocated at <b>PASSIVE_LEVEL</b> <a href="https://docs.microsoft.com/windows/desktop/SecGloss/i-gly">IRQL</a>, it must be freed at that <i>IRQL</i>. If the buffer was allocated at <b>DISPATCH_LEVEL</b> <i>IRQL</i>, it can be freed at either <b>DISPATCH_LEVEL</b> <i>IRQL</i> or <b>PASSIVE_LEVEL</b> <i>IRQL</i>.
+<b>BCryptFreeBuffer</b> must be called in the same processor mode as the BCrypt API function that allocated the buffer. In addition, if the buffer was allocated at <b>PASSIVE_LEVEL</b> <a href="/windows/desktop/SecGloss/i-gly">IRQL</a>, it must be freed at that <i>IRQL</i>. If the buffer was allocated at <b>DISPATCH_LEVEL</b> <i>IRQL</i>, it can be freed at either <b>DISPATCH_LEVEL</b> <i>IRQL</i> or <b>PASSIVE_LEVEL</b> <i>IRQL</i>.
 
 To call this function in kernel mode, use Cng.lib, which is part of the Driver Development Kit (DDK). <b>Windows Server 2008 and Windows Vista:  </b>To call this function in kernel mode, use Ksecdd.lib.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/nf-bcrypt-bcryptenumcontexts">BCryptEnumContexts</a>
+<a href="/windows/desktop/api/bcrypt/nf-bcrypt-bcryptenumcontexts">BCryptEnumContexts</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/nf-bcrypt-bcryptenumregisteredproviders">BCryptEnumRegisteredProviders</a>
+<a href="/windows/desktop/api/bcrypt/nf-bcrypt-bcryptenumregisteredproviders">BCryptEnumRegisteredProviders</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/nf-bcrypt-bcryptqueryproviderregistration">BCryptQueryProviderRegistration</a>
-
+<a href="/windows/desktop/api/bcrypt/nf-bcrypt-bcryptqueryproviderregistration">BCryptQueryProviderRegistration</a>

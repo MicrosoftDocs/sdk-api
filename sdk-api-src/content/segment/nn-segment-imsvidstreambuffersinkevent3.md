@@ -53,13 +53,13 @@ api_name:
 This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005.
         
 
-The <b>IMSVidStreamBufferSinkEvent3</b> interface is used to receive events from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd695135(v=vs.85)">MSVidStreamBufferSink</a> object.
+The <b>IMSVidStreamBufferSinkEvent3</b> interface is used to receive events from the <a href="/previous-versions/windows/desktop/legacy/dd695135(v=vs.85)">MSVidStreamBufferSink</a> object.
 
 This interface is an outgoing connection-point interface. To receive events from a playback device, implement this interface and then call the <b>IConnectionPoint::Advise</b> method to establish a connection.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMSVidStreamBufferSinkEvent3</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/segment/nn-segment-imsvidstreambuffersinkevent2">IMSVidStreamBufferSinkEvent2</a>. <b>IMSVidStreamBufferSinkEvent3</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMSVidStreamBufferSinkEvent3</b> interface inherits from <a href="/windows/desktop/api/segment/nn-segment-imsvidstreambuffersinkevent2">IMSVidStreamBufferSinkEvent2</a>. <b>IMSVidStreamBufferSinkEvent3</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -74,7 +74,7 @@ The <b>IMSVidStreamBufferSinkEvent3</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidstreambuffersinkevent3-licensechange">LicenseChange</a>
+<a href="/windows/desktop/api/segment/nf-segment-imsvidstreambuffersinkevent3-licensechange">LicenseChange</a>
 </td>
 <td align="left" width="63%">
 The license for the content has changed.
@@ -89,9 +89,8 @@ To declare the interface identifier (IID) for this interface, use the <b>__uuido
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/segment/nn-segment-imsvidstreambuffersinkevent2">IMSVidStreamBufferSinkEvent2</a>
+<a href="/windows/desktop/api/segment/nn-segment-imsvidstreambuffersinkevent2">IMSVidStreamBufferSinkEvent2</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/video-control-interfaces">Video Control Event Interfaces</a>
-
+<a href="/previous-versions/windows/desktop/mstv/video-control-interfaces">Video Control Event Interfaces</a>

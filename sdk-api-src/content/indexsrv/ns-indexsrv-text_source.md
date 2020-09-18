@@ -82,7 +82,7 @@ Position of the first character in <b>awcBuffer</b>.
 
 ## -remarks
 
-Windows Search populates the members of this structure when the word breaker is invoked and initialized. <a href="https://docs.microsoft.com/windows/desktop/api/indexsrv/nf-indexsrv-iwordbreaker-breaktext">IWordBreaker::BreakText</a> gets a pointer to a <b>TEXT_SOURCE</b> structure and calls PFNFILLTEXTBUFFER, the function pointed to by the <b>pfnFillTextBuffer</b> member, to refill <b>awcBuffer</b> until all text from the source is processed. The <b>PFNFILLTEXTBUFFER</b> function returns an <b>HRESULT</b> that includes both filtering and word-breaking return values.
+Windows Search populates the members of this structure when the word breaker is invoked and initialized. <a href="/windows/desktop/api/indexsrv/nf-indexsrv-iwordbreaker-breaktext">IWordBreaker::BreakText</a> gets a pointer to a <b>TEXT_SOURCE</b> structure and calls PFNFILLTEXTBUFFER, the function pointed to by the <b>pfnFillTextBuffer</b> member, to refill <b>awcBuffer</b> until all text from the source is processed. The <b>PFNFILLTEXTBUFFER</b> function returns an <b>HRESULT</b> that includes both filtering and word-breaking return values.
 
  
                 The filtering return values are the following:
@@ -94,11 +94,10 @@ Windows Search populates the members of this structure when the word breaker is 
 <li>FILTER_E_NO_MORE_TEXT</li>
 <li>FILTER_E_END_OF_CHUNKS</li>
 </ul>
-For more information about these return values, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/indexsrv/filter-interface-values">Filter-Interface Values</a>.
+For more information about these return values, see <a href="/previous-versions/windows/desktop/indexsrv/filter-interface-values">Filter-Interface Values</a>.
 
-The word-breaking return value is WBREAK_E_END_OF_TEXT. For more information about word-breaking return values, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/indexsrv/word-breaking-values">Word-Breaking Values</a>.
+The word-breaking return value is WBREAK_E_END_OF_TEXT. For more information about word-breaking return values, see <a href="/previous-versions/windows/desktop/indexsrv/word-breaking-values">Word-Breaking Values</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/indexsrv/nf-indexsrv-iwordbreaker-breaktext">IWordBreaker::BreakText</a>
-
+<a href="/windows/desktop/api/indexsrv/nf-indexsrv-iwordbreaker-breaktext">IWordBreaker::BreakText</a>

@@ -56,7 +56,7 @@ The <code>PlayBuffer</code> method downloads a stream of MIDI messages to the sy
 
 ### -param rt
 
-Specifies the start time of the buffer. This value is specified in REFERENCE_TIME units, relative to the master clock, which was previously set with a call to <a href="https://docs.microsoft.com/windows/desktop/api/dmusics/nf-dmusics-idirectmusicsynth-setmasterclock">IDirectMusicSynth::SetMasterClock</a>. Also, this value should be after the time returned by the clock in <a href="https://docs.microsoft.com/windows/desktop/api/dmusics/nf-dmusics-idirectmusicsynth-getlatencyclock">IDirectMusicSynth::GetLatencyClock</a>.
+Specifies the start time of the buffer. This value is specified in REFERENCE_TIME units, relative to the master clock, which was previously set with a call to <a href="/windows/desktop/api/dmusics/nf-dmusics-idirectmusicsynth-setmasterclock">IDirectMusicSynth::SetMasterClock</a>. Also, this value should be after the time returned by the clock in <a href="/windows/desktop/api/dmusics/nf-dmusics-idirectmusicsynth-getlatencyclock">IDirectMusicSynth::GetLatencyClock</a>.
 
 ### -param pbBuffer
 
@@ -136,7 +136,7 @@ Indicates that the method is unable to queue the messages.
 
 This is the software synthesizer's implementation of the <b>IDirectMusicPort::PlayBuffer</b> method. For details on the buffer format, see the description of <b>IDirectMusicPort::PlayBuffer</b> in the Microsoft Windows SDK documentation.
 
-In order to properly associate the time stamp of each MIDI message in the buffer, the synth needs to convert from the REFERENCE_TIME format to its internal sample-based time. Because the wave-output stream is actually managed by <a href="https://docs.microsoft.com/windows/desktop/api/dmusics/nn-dmusics-idirectmusicsynthsink">IDirectMusicSynthSink</a>, the synth calls <a href="https://docs.microsoft.com/windows/desktop/api/dmusics/nf-dmusics-idirectmusicsynthsink-reftimetosample">IDirectMusicSynthSink::RefTimeToSample</a> for each MIDI message to convert its time stamp into sample time.
+In order to properly associate the time stamp of each MIDI message in the buffer, the synth needs to convert from the REFERENCE_TIME format to its internal sample-based time. Because the wave-output stream is actually managed by <a href="/windows/desktop/api/dmusics/nn-dmusics-idirectmusicsynthsink">IDirectMusicSynthSink</a>, the synth calls <a href="/windows/desktop/api/dmusics/nf-dmusics-idirectmusicsynthsink-reftimetosample">IDirectMusicSynthSink::RefTimeToSample</a> for each MIDI message to convert its time stamp into sample time.
 
 Typically, the synthesizer pulls each MIDI message from the buffer, stamps it in sample time, and places it in its own internal queue. The queue is emptied later by the rendering process, which is managed by <b>IDirectMusicPort::Render</b> and called by the <b>IDirectMusicSynthSink</b> object.
 
@@ -144,21 +144,20 @@ For more information, see the descriptions of the <b>IDirectMusic</b>, <b>IDirec
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dmusics/nf-dmusics-idirectmusicsynth-getlatencyclock">IDirectMusicSynth::GetLatencyClock</a>
+<a href="/windows/desktop/api/dmusics/nf-dmusics-idirectmusicsynth-getlatencyclock">IDirectMusicSynth::GetLatencyClock</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dmusics/nf-dmusics-idirectmusicsynth-render">IDirectMusicSynth::Render</a>
+<a href="/windows/desktop/api/dmusics/nf-dmusics-idirectmusicsynth-render">IDirectMusicSynth::Render</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dmusics/nf-dmusics-idirectmusicsynth-setmasterclock">IDirectMusicSynth::SetMasterClock</a>
+<a href="/windows/desktop/api/dmusics/nf-dmusics-idirectmusicsynth-setmasterclock">IDirectMusicSynth::SetMasterClock</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dmusics/nn-dmusics-idirectmusicsynthsink">IDirectMusicSynthSink</a>
+<a href="/windows/desktop/api/dmusics/nn-dmusics-idirectmusicsynthsink">IDirectMusicSynthSink</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dmusics/nf-dmusics-idirectmusicsynthsink-reftimetosample">IDirectMusicSynthSink::RefTimeToSample</a>
-
+<a href="/windows/desktop/api/dmusics/nf-dmusics-idirectmusicsynthsink-reftimetosample">IDirectMusicSynthSink::RefTimeToSample</a>

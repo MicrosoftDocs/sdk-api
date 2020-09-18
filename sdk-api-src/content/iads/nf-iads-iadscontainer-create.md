@@ -50,35 +50,34 @@ api_name:
 
 ## -description
 
-The <b>IADsContainer::Create</b> method sets up a request to create a directory object of the specified schema class and a given name in the container. The object is not made persistent until  <a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iads-setinfo">IADs::SetInfo</a> is called on the new object. This allows for setting mandatory properties on the new object.
+The <b>IADsContainer::Create</b> method sets up a request to create a directory object of the specified schema class and a given name in the container. The object is not made persistent until  <a href="/windows/desktop/api/iads/nf-iads-iads-setinfo">IADs::SetInfo</a> is called on the new object. This allows for setting mandatory properties on the new object.
 
 ## -parameters
 
 ### -param ClassName [in]
 
-Name of the schema class object to be created. The name is that returned from the  <a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iads">IADs::get_Schema</a> property method.
+Name of the schema class object to be created. The name is that returned from the  <a href="/windows/desktop/api/iads/nn-iads-iads">IADs::get_Schema</a> property method.
 
 ### -param RelativeName [in]
 
-Relative name of the object as it is known in the underlying directory and identical to the one retrieved through the  <a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iads">IADs::get_Name</a> property method.
+Relative name of the object as it is known in the underlying directory and identical to the one retrieved through the  <a href="/windows/desktop/api/iads/nn-iads-iads">IADs::get_Name</a> property method.
 
 ### -param ppObject [out]
 
-Indirect pointer to the  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface on the newly created object.
+Indirect pointer to the  <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface on the newly created object.
 
 ## -returns
 
-This method supports the standard return values, including S_OK for a successful operation. For more information about error codes, see  <a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-error-codes">ADSI Error Codes</a>.
+This method supports the standard return values, including S_OK for a successful operation. For more information about error codes, see  <a href="/windows/desktop/ADSI/adsi-error-codes">ADSI Error Codes</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadscontainer">IADsContainer</a>
+<a href="/windows/desktop/api/iads/nn-iads-iadscontainer">IADsContainer</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadscontainer-delete">IADsContainer::Delete</a>
+<a href="/windows/desktop/api/iads/nf-iads-iadscontainer-delete">IADsContainer::Delete</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
-
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>

@@ -69,7 +69,7 @@ Flag that specifies whether the string in <i>pwszDescriptorString</i> represents
 <li>To indicate that the string is a display name and that it is saved, along with its associated descriptor rule string, in the <b>HKEY_LOCAL_MACHINE</b> registry hive, bitwise-OR  the <b>NCRYPT_NAMED_DESCRIPTOR_FLAG</b> value and the <b>NCRYPT_MACHINE_KEY_FLAG</b> value.</li>
 <li>To indicate that the string is a display name and that it is saved, along with its associated descriptor string rule, in the <b>HKEY_CURRENT_USER</b> registry hive, set only the <b>NCRYPT_NAMED_DESCRIPTOR_FLAG</b> value. That is, there is no unique  flag to specify the current user registry hive.</li>
 </ul>
-<div class="alert"><b>Note</b>  To associate a descriptor rule with a display name and save both in the registry, call the <a href="https://docs.microsoft.com/windows/desktop/api/ncryptprotect/nf-ncryptprotect-ncryptregisterprotectiondescriptorname">NCryptRegisterProtectionDescriptorName</a> function.</div>
+<div class="alert"><b>Note</b>  To associate a descriptor rule with a display name and save both in the registry, call the <a href="/windows/desktop/api/ncryptprotect/nf-ncryptprotect-ncryptregisterprotectiondescriptorname">NCryptRegisterProtectionDescriptorName</a> function.</div>
 <div> </div>
 
 ### -param phDescriptor [out]
@@ -150,22 +150,22 @@ The protection descriptor object created by this function is an internal data st
 
 <ul>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/ncryptprotect/nf-ncryptprotect-ncryptcloseprotectiondescriptor">NCryptCloseProtectionDescriptor</a>
+<a href="/windows/desktop/api/ncryptprotect/nf-ncryptprotect-ncryptcloseprotectiondescriptor">NCryptCloseProtectionDescriptor</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/ncryptprotect/nf-ncryptprotect-ncryptgetprotectiondescriptorinfo">NCryptGetProtectionDescriptorInfo</a>
+<a href="/windows/desktop/api/ncryptprotect/nf-ncryptprotect-ncryptgetprotectiondescriptorinfo">NCryptGetProtectionDescriptorInfo</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/ncryptprotect/nf-ncryptprotect-ncryptprotectsecret">NCryptProtectSecret</a>
+<a href="/windows/desktop/api/ncryptprotect/nf-ncryptprotect-ncryptprotectsecret">NCryptProtectSecret</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/ncryptprotect/nf-ncryptprotect-ncryptprotectsecret">NCryptProtectSecret</a>
+<a href="/windows/desktop/api/ncryptprotect/nf-ncryptprotect-ncryptprotectsecret">NCryptProtectSecret</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/ncryptprotect/nf-ncryptprotect-ncryptunprotectsecret">NCryptUnprotectSecret</a>
+<a href="/windows/desktop/api/ncryptprotect/nf-ncryptprotect-ncryptunprotectsecret">NCryptUnprotectSecret</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/ncryptprotect/nf-ncryptprotect-ncryptstreamopentoprotect">NCryptStreamOpenToProtect</a>
+<a href="/windows/desktop/api/ncryptprotect/nf-ncryptprotect-ncryptstreamopentoprotect">NCryptStreamOpenToProtect</a>
 </li>
 </ul>
 The following examples show protection descriptor rule strings:
@@ -178,9 +178,8 @@ The following examples show protection descriptor rule strings:
 <li>"WEBCREDENTIALS=MyPasswordName"</li>
 <li>"WEBCREDENTIALS=MyPasswordName,myweb.com"</li>
 </ul>
-You can use the <a href="https://docs.microsoft.com/windows/desktop/api/ncryptprotect/nf-ncryptprotect-ncryptregisterprotectiondescriptorname">NCryptRegisterProtectionDescriptorName</a> function to associate a display name with a rule string and save both in the registry.
+You can use the <a href="/windows/desktop/api/ncryptprotect/nf-ncryptprotect-ncryptregisterprotectiondescriptorname">NCryptRegisterProtectionDescriptorName</a> function to associate a display name with a rule string and save both in the registry.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/SecCNG/cng-dpapi-functions">CNG DPAPI Functions</a>
-
+<a href="/windows/desktop/SecCNG/cng-dpapi-functions">CNG DPAPI Functions</a>

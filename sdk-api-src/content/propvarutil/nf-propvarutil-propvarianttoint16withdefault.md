@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Extracts the Int16 property value of a <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structure. If no value currently exists, then specified default value is returned.
+Extracts the Int16 property value of a <a href="/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structure. If no value currently exists, then specified default value is returned.
 
 ## -parameters
 
@@ -58,7 +58,7 @@ Extracts the Int16 property value of a <a href="https://docs.microsoft.com/windo
 
 Type: <b>REFPROPVARIANT</b>
 
-Reference to a source <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structure.
+Reference to a source <a href="/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structure.
 
 ### -param iDefault [in]
 
@@ -74,23 +74,22 @@ Returns the extracted <b>short</b> value, or default.
 
 ## -remarks
 
-This helper function is used in places where the calling application expects a <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> to hold an <b>Int16</b> value and would like to use a default value if it does not. For instance, an application obtaining values from a property store can use this to safely extract the <b>SHORT</b> value for <b>Int16</b> properties.
+This helper function is used in places where the calling application expects a <a href="/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> to hold an <b>Int16</b> value and would like to use a default value if it does not. For instance, an application obtaining values from a property store can use this to safely extract the <b>SHORT</b> value for <b>Int16</b> properties.
 
-If the source <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> has type <b>VT_I2</b>, this helper function extracts the <b>Int16</b> value. Otherwise, it attempts to convert the value in the <b>PROPVARIANT</b> structure into a <b>SHORT</b>. If the source <b>PROPVARIANT</b> has type <b>VT_EMPTY</b> or a conversion is not possible, then <a href="https://docs.microsoft.com/windows/desktop/api/propvarutil/nf-propvarutil-propvarianttoint16withdefault">PropVariantToInt16WithDefault</a> will return the default provided by <i>iDefault</i>. See <a href="https://docs.microsoft.com/windows/desktop/api/propvarutil/nf-propvarutil-propvariantchangetype">PropVariantChangeType</a> for a list of possible conversions.
+If the source <a href="/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> has type <b>VT_I2</b>, this helper function extracts the <b>Int16</b> value. Otherwise, it attempts to convert the value in the <b>PROPVARIANT</b> structure into a <b>SHORT</b>. If the source <b>PROPVARIANT</b> has type <b>VT_EMPTY</b> or a conversion is not possible, then <a href="/windows/desktop/api/propvarutil/nf-propvarutil-propvarianttoint16withdefault">PropVariantToInt16WithDefault</a> will return the default provided by <i>iDefault</i>. See <a href="/windows/desktop/api/propvarutil/nf-propvarutil-propvariantchangetype">PropVariantChangeType</a> for a list of possible conversions.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/propvarutil/nf-propvarutil-initpropvariantfromint16">InitPropVariantFromInt16</a>
+<a href="/windows/desktop/api/propvarutil/nf-propvarutil-initpropvariantfromint16">InitPropVariantFromInt16</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/propvarutil/nf-propvarutil-propvariantchangetype">PropVariantChangeType</a>
+<a href="/windows/desktop/api/propvarutil/nf-propvarutil-propvariantchangetype">PropVariantChangeType</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/propvarutil/nf-propvarutil-propvarianttoint16">PropVariantToInt16</a>
+<a href="/windows/desktop/api/propvarutil/nf-propvarutil-propvarianttoint16">PropVariantToInt16</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/propvarutil/nf-propvarutil-varianttoint16">VariantToInt16</a>
-
+<a href="/windows/desktop/api/propvarutil/nf-propvarutil-varianttoint16">VariantToInt16</a>

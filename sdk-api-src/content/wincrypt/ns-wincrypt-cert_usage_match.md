@@ -94,7 +94,7 @@ Default usage match logic is USAGE_MATCH_TYPE_AND.
 
 ### -field Usage
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-ctl_usage">CERT_ENHKEY_USAGE</a> structure (<b>CERT_ENHKEY_USAGE</b> is an alternate typedef name for the <b>CTL_USAGE</b> structure) that includes an array of certificate <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly">object identifiers</a> (OIDs) that a certificate must match in order to be valid.
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-ctl_usage">CERT_ENHKEY_USAGE</a> structure (<b>CERT_ENHKEY_USAGE</b> is an alternate typedef name for the <b>CTL_USAGE</b> structure) that includes an array of certificate <a href="/windows/desktop/SecGloss/o-gly">object identifiers</a> (OIDs) that a certificate must match in order to be valid.
 
 ## -remarks
 
@@ -115,4 +115,3 @@ If the caller specifies EKU A OR EKU B then the target certificate is valid if e
 Given the following path, the <b>OR</b> test is deemed valid:
 
  Although the intersection of the EKUs in the chain is an empty set, the use of the EE certificate is valid for EKU A because the request to the cryptography API specifies that the certificate is valid if each certificate of the path supports either EKU A OR EKU B.
-

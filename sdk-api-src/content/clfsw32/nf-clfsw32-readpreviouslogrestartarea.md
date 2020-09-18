@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Reads the previous log restart area that is relative to the current restart record specified in the read context, <i>pvReadContext</i>. This read context is the one previously created by  a call to <a href="https://docs.microsoft.com/windows/desktop/api/clfsw32/nf-clfsw32-readlogrestartarea">ReadLogRestartArea</a>.
+Reads the previous log restart area that is relative to the current restart record specified in the read context, <i>pvReadContext</i>. This read context is the one previously created by  a call to <a href="/windows/desktop/api/clfsw32/nf-clfsw32-readlogrestartarea">ReadLogRestartArea</a>.
 
 ## -parameters
 
 ### -param pvReadContext [in]
 
-A pointer to a system-allocated read context that <a href="https://docs.microsoft.com/windows/desktop/api/clfsw32/nf-clfsw32-readlogrestartarea">ReadLogRestartArea</a> returns.
+A pointer to a system-allocated read context that <a href="/windows/desktop/api/clfsw32/nf-clfsw32-readlogrestartarea">ReadLogRestartArea</a> returns.
 
   Even when those functions return <b>ERROR_IO_PENDING</b>, they still return a pointer to a valid read context. For information about  asynchronous completion, see the Remarks section of this topic.
 
@@ -70,11 +70,11 @@ A pointer to a variable that receives the size of the restart data at <i>*ppvRes
 
 ### -param plsnRestart [out]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/clfs/ns-clfs-cls_lsn">CLFS_LSN</a> structure that receives the log sequence number (LSN) of the restart area  that   this function returns.
+A pointer to a <a href="/windows/desktop/api/clfs/ns-clfs-cls_lsn">CLFS_LSN</a> structure that receives the log sequence number (LSN) of the restart area  that   this function returns.
 
 ### -param pOverlapped [in, out, optional]
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> structure that  is required for asynchronous operation. 
+A pointer to an <a href="/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> structure that  is required for asynchronous operation. 
 
 This parameter can be <b>NULL</b> if asynchronous operation is not used.
 
@@ -84,17 +84,17 @@ If the function succeeds, the return value is nonzero.
 						
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 The following list identifies the possible error codes:
 
 ## -remarks
 
-The error message ERROR_LOG_BLOCK_INCOMPLETE is returned if the log block size specified by <a href="https://docs.microsoft.com/windows/desktop/api/clfsw32/nf-clfsw32-createlogmarshallingarea">CreateLogMarshallingArea</a> is not large enough to hold a complete log block.
+The error message ERROR_LOG_BLOCK_INCOMPLETE is returned if the log block size specified by <a href="/windows/desktop/api/clfsw32/nf-clfsw32-createlogmarshallingarea">CreateLogMarshallingArea</a> is not large enough to hold a complete log block.
 
 If <b>ReadPreviousLogRestartArea</b>  fails with an error code of <b>ERROR_IO_PENDING</b>, a pointer to a valid read context  is placed in the variable that is pointed to by the <i>ppvReadContext</i> parameter.
 
-To complete the log-record copy, the client should first synchronize its execution with deferred completion of the overlapped I/O operation by using <a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-getoverlappedresult">GetOverlappedResult</a> or one of the synchronization <a href="https://docs.microsoft.com/windows/desktop/Sync/wait-functions">Wait Functions</a>. For more information, see <a href="https://docs.microsoft.com/windows/desktop/Sync/synchronization-and-overlapped-input-and-output">Synchronization and Overlapped Input and Output</a>.
+To complete the log-record copy, the client should first synchronize its execution with deferred completion of the overlapped I/O operation by using <a href="/windows/desktop/api/ioapiset/nf-ioapiset-getoverlappedresult">GetOverlappedResult</a> or one of the synchronization <a href="/windows/desktop/Sync/wait-functions">Wait Functions</a>. For more information, see <a href="/windows/desktop/Sync/synchronization-and-overlapped-input-and-output">Synchronization and Overlapped Input and Output</a>.
 
 After <b>ReadPreviousLogRestartArea</b> completes asynchronously, the requested restart area is read from the disk, but a valid pointer to it is not  placed in <i>*ppvRestartBuffer</i>.
 
@@ -107,25 +107,24 @@ To obtain a valid pointer,  the client must call <b>ReadPreviousLogRestartArea</
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clfs/ns-clfs-cls_lsn">CLFS_LSN</a>
+<a href="/windows/desktop/api/clfs/ns-clfs-cls_lsn">CLFS_LSN</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/clfs/common-log-file-system-functions">Common Log File System Functions</a>
+<a href="/previous-versions/windows/desktop/clfs/common-log-file-system-functions">Common Log File System Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clfsw32/nf-clfsw32-createlogfile">CreateLogFile</a>
+<a href="/windows/desktop/api/clfsw32/nf-clfsw32-createlogfile">CreateLogFile</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a>
+<a href="/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clfsw32/nf-clfsw32-readlogrestartarea">ReadLogRestartArea</a>
+<a href="/windows/desktop/api/clfsw32/nf-clfsw32-readlogrestartarea">ReadLogRestartArea</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Sync/synchronization-and-overlapped-input-and-output">Synchronization and Overlapped Input and Output</a>
-
+<a href="/windows/desktop/Sync/synchronization-and-overlapped-input-and-output">Synchronization and Overlapped Input and Output</a>

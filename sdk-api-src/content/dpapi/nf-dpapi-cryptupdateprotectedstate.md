@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-The <b>CryptUpdateProtectedState</b> function migrates the current user's master keys after the user's <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security identifier</a> (SID) has changed. This function can be used to preserve encrypted data after a user has been moved from one domain to another.
+The <b>CryptUpdateProtectedState</b> function migrates the current user's master keys after the user's <a href="/windows/desktop/SecGloss/s-gly">security identifier</a> (SID) has changed. This function can be used to preserve encrypted data after a user has been moved from one domain to another.
 
 ## -parameters
 
 ### -param pOldSid [in]
 
-The address of a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-sid">SID</a> structure that contains the user's previous SID. This SID is used to locate the old master keys. If this parameter is <b>NULL</b>, the master keys for the current user SID are migrated.
+The address of a <a href="/windows/desktop/api/winnt/ns-winnt-sid">SID</a> structure that contains the user's previous SID. This SID is used to locate the old master keys. If this parameter is <b>NULL</b>, the master keys for the current user SID are migrated.
 
 Either this parameter or the <i>pwszOldPassword</i> parameter may be <b>NULL</b>, but not both.
 
@@ -85,7 +85,7 @@ It is not necessarily an error if one or more master keys cannot be decrypted. S
 If the function succeeds, the return value is <b>TRUE</b>.
 
 If the function fails, the return value is <b>FALSE</b>. For extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. Some possible error codes include the following.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. Some possible error codes include the following.
 
 <table>
 <tr>
@@ -135,4 +135,3 @@ This function decrypts all of the user's master keys in the old master key direc
 
 If this function is able to successfully migrate an old master key, it will automatically delete the old master key. 
 Master keys that cannot be decrypted are not deleted.
-

@@ -56,15 +56,15 @@ Receives a notification upon completion of an ITfEditSession::DoEditSession meth
 
 ### -param pic [in]
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfcontext">ITfContext</a> interface for the edited context.
+Pointer to the <a href="/windows/desktop/api/msctf/nn-msctf-itfcontext">ITfContext</a> interface for the edited context.
 
 ### -param ecReadOnly [in]
 
-Specifies a <a href="https://docs.microsoft.com/windows/desktop/TSF/tfeditcookie">TfEditCookie</a> value for read-only access to the context.
+Specifies a <a href="/windows/desktop/TSF/tfeditcookie">TfEditCookie</a> value for read-only access to the context.
 
 ### -param pEditRecord [in]
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfeditrecord">ITfEditRecord</a> interface used to access the modifications to the context.
+Pointer to the <a href="/windows/desktop/api/msctf/nn-msctf-itfeditrecord">ITfEditRecord</a> interface used to access the modifications to the context.
 
 ## -returns
 
@@ -72,41 +72,40 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -remarks
 
-An edit session with read/write access is requested with a call to the <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcontext-requesteditsession">ITfContext::RequestEditSession</a> method using the TF_ES_READWRITE flag, which establishes an <b>ITfEditSession::DoEditSession</b> method to perform the session. When such a <b>ITfEditSession::DoEditSession</b> method completes, TSF calls this method.
+An edit session with read/write access is requested with a call to the <a href="/windows/desktop/api/msctf/nf-msctf-itfcontext-requesteditsession">ITfContext::RequestEditSession</a> method using the TF_ES_READWRITE flag, which establishes an <b>ITfEditSession::DoEditSession</b> method to perform the session. When such a <b>ITfEditSession::DoEditSession</b> method completes, TSF calls this method.
 
-A text service can use the <i>ecReadOnly</i> parameter only to view the context. If changes are required, the text service must use an asynchronous call to the <b>ITfContext::RequestEditSession</b> method. However, a text service should modify only text that it previously entered as part of a composition. Otherwise, two or more text services could repeatedly modify the same text. A text service can use the <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcontext-inwritesession">ITfContext::InWriteSession</a> method to determine if it performed the completed edit session.
+A text service can use the <i>ecReadOnly</i> parameter only to view the context. If changes are required, the text service must use an asynchronous call to the <b>ITfContext::RequestEditSession</b> method. However, a text service should modify only text that it previously entered as part of a composition. Otherwise, two or more text services could repeatedly modify the same text. A text service can use the <a href="/windows/desktop/api/msctf/nf-msctf-itfcontext-inwritesession">ITfContext::InWriteSession</a> method to determine if it performed the completed edit session.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfcontext">ITfContext
+<a href="/windows/desktop/api/msctf/nn-msctf-itfcontext">ITfContext
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcontext-inwritesession">ITfContext::InWriteSession
+<a href="/windows/desktop/api/msctf/nf-msctf-itfcontext-inwritesession">ITfContext::InWriteSession
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcontext-requesteditsession">ITfContext::RequestEditSession
+<a href="/windows/desktop/api/msctf/nf-msctf-itfcontext-requesteditsession">ITfContext::RequestEditSession
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfeditrecord">ITfEditRecord
+<a href="/windows/desktop/api/msctf/nn-msctf-itfeditrecord">ITfEditRecord
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfeditsession-doeditsession">ITfEditSession::DoEditSession
+<a href="/windows/desktop/api/msctf/nf-msctf-itfeditsession-doeditsession">ITfEditSession::DoEditSession
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itftexteditsink">ITfTextEditSink</a>
+<a href="/windows/desktop/api/msctf/nn-msctf-itftexteditsink">ITfTextEditSink</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/TSF/tfeditcookie">TfEditCookie
+<a href="/windows/desktop/TSF/tfeditcookie">TfEditCookie
       </a>
-

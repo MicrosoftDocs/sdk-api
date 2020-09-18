@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-The <b>GetDescriptor</b> method retrieves the descriptor, previously set by <a href="https://docs.microsoft.com/windows/desktop/api/wmcodecdsp/nf-wmcodecdsp-itoc-setdescriptor">SetDescriptor</a>, of the table of contents.
+The <b>GetDescriptor</b> method retrieves the descriptor, previously set by <a href="/windows/desktop/api/wmcodecdsp/nf-wmcodecdsp-itoc-setdescriptor">SetDescriptor</a>, of the table of contents.
 
 ## -parameters
 
 ### -param pDescriptor [out]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wmcodecdsp/ns-wmcodecdsp-toc_descriptor">TOC_DESCRIPTOR</a> structure that receives the descriptor.
+Pointer to a <a href="/windows/desktop/api/wmcodecdsp/ns-wmcodecdsp-toc_descriptor">TOC_DESCRIPTOR</a> structure that receives the descriptor.
 
 ## -returns
 
@@ -82,5 +82,4 @@ The method succeeded.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmcodecdsp/nn-wmcodecdsp-itoc">IToc</a>
-
+<a href="/windows/desktop/api/wmcodecdsp/nn-wmcodecdsp-itoc">IToc</a>

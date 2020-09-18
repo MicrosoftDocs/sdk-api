@@ -60,12 +60,12 @@ Indicates whether the server SSL certificate must be verified by the caller, Med
 
 ### -param pfOverrideAutomaticCheck [out]
 
-Pointer to a <b>BOOL</b> value. Set to <b>TRUE</b> if <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfsslcertificatemanager-onservercertificate">IMFSSLCertificateManager::OnServerCertificate</a> is used to verify the server certificate.
+Pointer to a <b>BOOL</b> value. Set to <b>TRUE</b> if <a href="/windows/desktop/api/mfidl/nf-mfidl-imfsslcertificatemanager-onservercertificate">IMFSSLCertificateManager::OnServerCertificate</a> is used to verify the server certificate.
 Set to <b>FALSE</b> if Media Foundation verifies the server certificate  by using the certificates in the Windows certificate store.
 
 ### -param pfClientCertificateAvailable [out]
 
-Pointer to a <b>BOOL</b> value. Set to <b>TRUE</b> if the SSL certificate for the client is available for immediate retrieval. Media Foundation  calls <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfsslcertificatemanager-begingetclientcertificate">IMFSSLCertificateManager::GetClientCertificate</a> to obtain the client certificate synchronously. If the value is set to <b>FALSE</b>, Media Foundation obtains the client SSL certificate with an asynchronous call to <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfsslcertificatemanager-begingetclientcertificate">IMFSSLCertificateManager::BeginGetClientCertificate</a>.
+Pointer to a <b>BOOL</b> value. Set to <b>TRUE</b> if the SSL certificate for the client is available for immediate retrieval. Media Foundation  calls <a href="/windows/desktop/api/mfidl/nf-mfidl-imfsslcertificatemanager-begingetclientcertificate">IMFSSLCertificateManager::GetClientCertificate</a> to obtain the client certificate synchronously. If the value is set to <b>FALSE</b>, Media Foundation obtains the client SSL certificate with an asynchronous call to <a href="/windows/desktop/api/mfidl/nf-mfidl-imfsslcertificatemanager-begingetclientcertificate">IMFSSLCertificateManager::BeginGetClientCertificate</a>.
 
 ## -returns
 
@@ -73,5 +73,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfsslcertificatemanager">IMFSSLCertificateManager</a>
-
+<a href="/windows/desktop/api/mfidl/nn-mfidl-imfsslcertificatemanager">IMFSSLCertificateManager</a>

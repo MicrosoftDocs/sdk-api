@@ -56,7 +56,7 @@ The <b>get_Service</b> method sets the closed captioning service.
 
 ### -param On [in]
 
-Specifies the closed captioning service, as a member of the <a href="https://docs.microsoft.com/windows/desktop/api/segment/ne-segment-msvidccservice">MSVidCCService</a> enumeration.
+Specifies the closed captioning service, as a member of the <a href="/windows/desktop/api/segment/ne-segment-msvidccservice">MSVidCCService</a> enumeration.
 
 ## -returns
 
@@ -82,5 +82,4 @@ Success.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/segment/nn-segment-imsvidclosedcaptioning2">IMSVidClosedCaptioning2 Interface</a>
-
+<a href="/windows/desktop/api/segment/nn-segment-imsvidclosedcaptioning2">IMSVidClosedCaptioning2 Interface</a>

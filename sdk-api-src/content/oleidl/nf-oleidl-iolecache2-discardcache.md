@@ -56,9 +56,9 @@ Discards the caches found in memory.
 
 ### -param dwDiscardOptions [in]
 
-A value from the <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/ne-oleidl-discardcache">DISCARDCACHE</a> enumeration that indicates whether data is to be saved prior to being discarded. Containers that have drawn a large object and need to free up memory can specify DISCARDCACHE_SAVEIFDIRTY so that the newest presentation is saved for the next time the object must be drawn.
+A value from the <a href="/windows/desktop/api/oleidl/ne-oleidl-discardcache">DISCARDCACHE</a> enumeration that indicates whether data is to be saved prior to being discarded. Containers that have drawn a large object and need to free up memory can specify DISCARDCACHE_SAVEIFDIRTY so that the newest presentation is saved for the next time the object must be drawn.
 
-Containers that have activated an embedded object, made some changes, and then called <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleobject-close">IOleObject::Close</a> with OLECLOSE_NOSAVE to roll back the changes can specify DISCARDCACHE_NOSAVE to ensure that the native and presentation data are not out of synchronization.
+Containers that have activated an embedded object, made some changes, and then called <a href="/windows/desktop/api/oleidl/nf-oleidl-ioleobject-close">IOleObject::Close</a> with OLECLOSE_NOSAVE to roll back the changes can specify DISCARDCACHE_NOSAVE to ensure that the native and presentation data are not out of synchronization.
 
 ## -returns
 
@@ -97,17 +97,16 @@ The storage medium is full.
 
 The <b>IOleCache2::DiscardCache</b> method is commonly used to handle low memory conditions by freeing memory currently being used by presentation caches.
 
-After it is discarded, a cache will satisfy subsequent <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-idataobject-getdata">IDataObject::GetData</a> calls by reverting to disk-based data.
+After it is discarded, a cache will satisfy subsequent <a href="/windows/desktop/api/objidl/nf-objidl-idataobject-getdata">IDataObject::GetData</a> calls by reverting to disk-based data.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-iolecache">IOleCache</a>
+<a href="/windows/desktop/api/oleidl/nn-oleidl-iolecache">IOleCache</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-iolecache2">IOleCache2</a>
+<a href="/windows/desktop/api/oleidl/nn-oleidl-iolecache2">IOleCache2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-iolecachecontrol">IOleCacheControl</a>
-
+<a href="/windows/desktop/api/oleidl/nn-oleidl-iolecachecontrol">IOleCacheControl</a>

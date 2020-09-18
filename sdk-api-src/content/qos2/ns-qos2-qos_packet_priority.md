@@ -64,7 +64,7 @@ Differential Services Code Point (DSCP) mark used for flow traffic that conforms
 
 ### -field NonConformantDSCPValue
 
-DSCP marking used for flow traffic that exceeds the specified flow rate.  Non-conformant DSCP values are only applicable only if <a href="https://docs.microsoft.com/windows/desktop/api/qos2/ne-qos2-qos_shaping">QOS_SHAPING</a> has a value of <b>QOSUseNonConformantMarkings</b>.
+DSCP marking used for flow traffic that exceeds the specified flow rate.  Non-conformant DSCP values are only applicable only if <a href="/windows/desktop/api/qos2/ne-qos2-qos_shaping">QOS_SHAPING</a> has a value of <b>QOSUseNonConformantMarkings</b>.
 
 ### -field ConformantL2Value
 
@@ -72,13 +72,12 @@ Layer-2 (L2) tag used for flow traffic that conforms to the specified flow rate.
 
 ### -field NonConformantL2Value
 
-L2 tag used for flow traffic that exceeds the specified flow rate.  Non-conformant L2 values are only applicable if <a href="https://docs.microsoft.com/windows/desktop/api/qos2/ne-qos2-qos_shaping">QOS_SHAPING</a> has a value of <b>QOSUseNonConformantMarkings</b>.
+L2 tag used for flow traffic that exceeds the specified flow rate.  Non-conformant L2 values are only applicable if <a href="/windows/desktop/api/qos2/ne-qos2-qos_shaping">QOS_SHAPING</a> has a value of <b>QOSUseNonConformantMarkings</b>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qos2/nf-qos2-qosqueryflow">QOSQueryFlow</a>
+<a href="/previous-versions/windows/desktop/api/qos2/nf-qos2-qosqueryflow">QOSQueryFlow</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/qos/quality-windows-audio-video-experience--qwave-">Quality Windows Audio/Video Experience (qWAVE)</a>
-
+<a href="/previous-versions/windows/desktop/qos/quality-windows-audio-video-experience--qwave-">Quality Windows Audio/Video Experience (qWAVE)</a>

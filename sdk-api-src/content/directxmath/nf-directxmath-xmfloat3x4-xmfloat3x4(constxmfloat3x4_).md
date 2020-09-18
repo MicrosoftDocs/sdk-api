@@ -57,5 +57,4 @@ An lvalue reference to a constant **XMFLOAT3X4**, of which the new matrix will b
 
 ## -see-also
 
-[XMFLOAT3X4 structure](/windows/win32/api/directxmath/ns-directxmath-xmfloat3x4)
-
+[XMFLOAT3X4 structure](./ns-directxmath-xmfloat3x4.md)

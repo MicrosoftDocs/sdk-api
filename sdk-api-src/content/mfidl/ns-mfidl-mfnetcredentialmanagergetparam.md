@@ -90,13 +90,12 @@ The number of times that the credential manager should retry after authenticatio
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfnetcredentialmanager-begingetcredentials">IMFNetCredentialManager::BeginGetCredentials</a>
+<a href="/windows/desktop/api/mfidl/nf-mfidl-imfnetcredentialmanager-begingetcredentials">IMFNetCredentialManager::BeginGetCredentials</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-structures">Media Foundation Structures</a>
+<a href="/windows/desktop/medfound/media-foundation-structures">Media Foundation Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/network-source-authentication">Network Source Authentication</a>
-
+<a href="/windows/desktop/medfound/network-source-authentication">Network Source Authentication</a>

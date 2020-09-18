@@ -52,7 +52,7 @@ api_name:
 
 The 
 <b>Init</b> method is called by the MSP address object (in the method 
-<a href="https://docs.microsoft.com/windows/desktop/api/msp/nf-msp-itmspaddress-createmspcall">CreateMSPCall</a>) to initialize the MSP call object. The derived class should initialize its members using the passed-in information.
+<a href="/windows/desktop/api/msp/nf-msp-itmspaddress-createmspcall">CreateMSPCall</a>) to initialize the MSP call object. The derived class should initialize its members using the passed-in information.
 
 ## -parameters
 
@@ -70,17 +70,16 @@ Reserved.
 
 ### -param dwMediaType
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/tapimediatype--constants">Media type</a> or types of call.
+<a href="/windows/desktop/Tapi/tapimediatype--constants">Media type</a> or types of call.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mspcall/nl-mspcall-cmspcallbase">CMSPCallBase</a>
+<a href="/windows/desktop/api/mspcall/nl-mspcall-cmspcallbase">CMSPCallBase</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mspcall/nf-mspcall-cmspcallmultigraph-init">CMSPCallMultiGraph::Init</a>
+<a href="/windows/desktop/api/mspcall/nf-mspcall-cmspcallmultigraph-init">CMSPCallMultiGraph::Init</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msp/nf-msp-itmspaddress-createmspcall">CreateMSPCall</a>
-
+<a href="/windows/desktop/api/msp/nf-msp-itmspaddress-createmspcall">CreateMSPCall</a>

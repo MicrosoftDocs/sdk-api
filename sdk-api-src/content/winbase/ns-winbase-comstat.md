@@ -55,7 +55,7 @@ api_name:
 ## -description
 
 Contains information about a communications device. This structure is filled by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-clearcommerror">ClearCommError</a> function.
+<a href="/windows/desktop/api/winbase/nf-winbase-clearcommerror">ClearCommError</a> function.
 
 ## -struct-fields
 
@@ -86,7 +86,7 @@ If this member is <b>TRUE</b>, the end-of-file (EOF) character has been received
 ### -field fTxim
 
 If this member is <b>TRUE</b>, there is a character queued for transmission that has come to the communications device by way of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-transmitcommchar">TransmitCommChar</a> function. The communications device transmits such a character ahead of other characters in the device's output buffer.
+<a href="/windows/desktop/api/winbase/nf-winbase-transmitcommchar">TransmitCommChar</a> function. The communications device transmits such a character ahead of other characters in the device's output buffer.
 
 ### -field fReserved
 
@@ -95,7 +95,7 @@ Reserved; do not use.
 ### -field cbInQue
 
 The number of bytes received by the serial provider but not yet read by a 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-readfile">ReadFile</a> operation.
+<a href="/windows/desktop/api/fileapi/nf-fileapi-readfile">ReadFile</a> operation.
 
 ### -field cbOutQue
 
@@ -103,13 +103,12 @@ The number of bytes of user data remaining to be transmitted for all write opera
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-clearcommerror">ClearCommError</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-clearcommerror">ClearCommError</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-readfile">ReadFile</a>
+<a href="/windows/desktop/api/fileapi/nf-fileapi-readfile">ReadFile</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-transmitcommchar">TransmitCommChar</a>
-
+<a href="/windows/desktop/api/winbase/nf-winbase-transmitcommchar">TransmitCommChar</a>

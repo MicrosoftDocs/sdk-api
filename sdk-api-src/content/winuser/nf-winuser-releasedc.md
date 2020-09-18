@@ -75,38 +75,37 @@ If the DC was not released, the return value is zero.
 
 ## -remarks
 
-The application must call the <b>ReleaseDC</b> function for each call to the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getwindowdc">GetWindowDC</a> function and for each call to the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getdc">GetDC</a> function that retrieves a common DC.
+The application must call the <b>ReleaseDC</b> function for each call to the <a href="/windows/desktop/api/winuser/nf-winuser-getwindowdc">GetWindowDC</a> function and for each call to the <a href="/windows/desktop/api/winuser/nf-winuser-getdc">GetDC</a> function that retrieves a common DC.
 
-An application cannot use the <b>ReleaseDC</b> function to release a DC that was created by calling the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createdca">CreateDC</a> function; instead, it must use the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-deletedc">DeleteDC</a> function. <b>ReleaseDC</b> must be called from the same thread that called <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getdc">GetDC</a>.
+An application cannot use the <b>ReleaseDC</b> function to release a DC that was created by calling the <a href="/windows/desktop/api/wingdi/nf-wingdi-createdca">CreateDC</a> function; instead, it must use the <a href="/windows/desktop/api/wingdi/nf-wingdi-deletedc">DeleteDC</a> function. <b>ReleaseDC</b> must be called from the same thread that called <a href="/windows/desktop/api/winuser/nf-winuser-getdc">GetDC</a>.
 
 
 #### Examples
 
-For an example, see <a href="https://docs.microsoft.com/windows/desktop/gdi/scaling-an-image">Scaling an Image</a>.
+For an example, see <a href="/windows/desktop/gdi/scaling-an-image">Scaling an Image</a>.
 
 <div class="code"></div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createdca">CreateDC</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-createdca">CreateDC</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-deletedc">DeleteDC</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-deletedc">DeleteDC</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/device-context-functions">Device Context Functions</a>
+<a href="/windows/desktop/gdi/device-context-functions">Device Context Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/device-contexts">Device Contexts Overview</a>
+<a href="/windows/desktop/gdi/device-contexts">Device Contexts Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getdc">GetDC</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-getdc">GetDC</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getwindowdc">GetWindowDC</a>
-
+<a href="/windows/desktop/api/winuser/nf-winuser-getwindowdc">GetWindowDC</a>

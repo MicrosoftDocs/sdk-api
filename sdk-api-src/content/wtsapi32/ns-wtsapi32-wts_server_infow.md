@@ -66,10 +66,9 @@ Name of the server.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/nf-wtsapi32-wtsenumerateserversa">WTSEnumerateServers</a>
+<a href="/windows/desktop/api/wtsapi32/nf-wtsapi32-wtsenumerateserversa">WTSEnumerateServers</a>
 
 ## -remarks
 
 > [!NOTE]
 > The wtsapi32.h header defines WTS_SERVER_INFO as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

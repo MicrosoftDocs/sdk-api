@@ -101,10 +101,9 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shellapi/nf-shellapi-shqueryrecyclebina">SHQueryRecycleBin</a>
+<a href="/windows/desktop/api/shellapi/nf-shellapi-shqueryrecyclebina">SHQueryRecycleBin</a>
 
 ## -remarks
 
 > [!NOTE]
 > The shellapi.h header defines SHEmptyRecycleBin as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

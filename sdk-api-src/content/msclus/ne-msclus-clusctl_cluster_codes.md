@@ -51,110 +51,110 @@ api_name:
 
 ## -description
 
-Enumerates cluster <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/about-control-codes">control codes</a> used by 
-    the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/nf-clusapi-clustercontrol">ClusterControl</a> function.
+Enumerates cluster <a href="/previous-versions/windows/desktop/mscs/about-control-codes">control codes</a> used by 
+    the <a href="/previous-versions/windows/desktop/api/clusapi/nf-clusapi-clustercontrol">ClusterControl</a> function.
 
 ## -enum-fields
 
 ### -field CLUSCTL_CLUSTER_UNKNOWN
 
-See <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-cluster-unknown">CLUSCTL_CLUSTER_UNKNOWN</a>.
+See <a href="/previous-versions/windows/desktop/mscs/clusctl-cluster-unknown">CLUSCTL_CLUSTER_UNKNOWN</a>.
 
 ### -field CLUSCTL_CLUSTER_GET_FQDN
 
-See <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-cluster-get-fqdn">CLUSCTL_CLUSTER_GET_FQDN</a>.
+See <a href="/previous-versions/windows/desktop/mscs/clusctl-cluster-get-fqdn">CLUSCTL_CLUSTER_GET_FQDN</a>.
 
 ### -field CLUSCTL_CLUSTER_SET_STORAGE_CONFIGURATION
 
-See <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-cluster-set-storage-configuration">CLUSCTL_CLUSTER_SET_STORAGE_CONFIGURATION</a>.
+See <a href="/previous-versions/windows/desktop/mscs/clusctl-cluster-set-storage-configuration">CLUSCTL_CLUSTER_SET_STORAGE_CONFIGURATION</a>.
 
 <b>Windows Server 2012 R2, Windows Server 2012, Windows Server 2008 R2 and Windows Server 2008:  </b>This operation code is not available before Windows Server 2016.
 
 ### -field CLUSCTL_CLUSTER_GET_STORAGE_CONFIGURATION
 
-See <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-cluster-get-storage-configuration">CLUSCTL_CLUSTER_GET_STORAGE_CONFIGURATION</a>.
+See <a href="/previous-versions/windows/desktop/mscs/clusctl-cluster-get-storage-configuration">CLUSCTL_CLUSTER_GET_STORAGE_CONFIGURATION</a>.
 
 <b>Windows Server 2012 R2, Windows Server 2012, Windows Server 2008 R2 and Windows Server 2008:  </b>This operation code is not available before Windows Server 2016.
 
 ### -field CLUSCTL_CLUSTER_GET_STORAGE_CONFIG_ATTRIBUTES
 
-See <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-cluster-get-storage-config-attributes">CLUSCTL_CLUSTER_GET_STORAGE_CONFIG_ATTRIBUTES</a>.
+See <a href="/previous-versions/windows/desktop/mscs/clusctl-cluster-get-storage-config-attributes">CLUSCTL_CLUSTER_GET_STORAGE_CONFIG_ATTRIBUTES</a>.
 
 <b>Windows Server 2012 R2, Windows Server 2012, Windows Server 2008 R2 and Windows Server 2008:  </b>This operation code is not available before Windows Server 2016.
 
 ### -field CLUSCTL_CLUSTER_ENUM_COMMON_PROPERTIES
 
 See 
-       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-cluster-enum-common-properties">CLUSCTL_CLUSTER_ENUM_COMMON_PROPERTIES</a>.
+       <a href="/previous-versions/windows/desktop/mscs/clusctl-cluster-enum-common-properties">CLUSCTL_CLUSTER_ENUM_COMMON_PROPERTIES</a>.
 
 ### -field CLUSCTL_CLUSTER_GET_RO_COMMON_PROPERTIES
 
 See 
-       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-cluster-get-ro-common-properties">CLUSCTL_CLUSTER_GET_RO_COMMON_PROPERTIES</a>.
+       <a href="/previous-versions/windows/desktop/mscs/clusctl-cluster-get-ro-common-properties">CLUSCTL_CLUSTER_GET_RO_COMMON_PROPERTIES</a>.
 
 ### -field CLUSCTL_CLUSTER_GET_COMMON_PROPERTIES
 
 See 
-       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-cluster-get-common-properties">CLUSCTL_CLUSTER_GET_COMMON_PROPERTIES</a>.
+       <a href="/previous-versions/windows/desktop/mscs/clusctl-cluster-get-common-properties">CLUSCTL_CLUSTER_GET_COMMON_PROPERTIES</a>.
 
 ### -field CLUSCTL_CLUSTER_SET_COMMON_PROPERTIES
 
 See 
-       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-cluster-set-common-properties">CLUSCTL_CLUSTER_SET_COMMON_PROPERTIES</a>.
+       <a href="/previous-versions/windows/desktop/mscs/clusctl-cluster-set-common-properties">CLUSCTL_CLUSTER_SET_COMMON_PROPERTIES</a>.
 
 ### -field CLUSCTL_CLUSTER_VALIDATE_COMMON_PROPERTIES
 
 See 
-       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-cluster-validate-common-properties">CLUSCTL_CLUSTER_VALIDATE_COMMON_PROPERTIES</a>.
+       <a href="/previous-versions/windows/desktop/mscs/clusctl-cluster-validate-common-properties">CLUSCTL_CLUSTER_VALIDATE_COMMON_PROPERTIES</a>.
 
 ### -field CLUSCTL_CLUSTER_ENUM_PRIVATE_PROPERTIES
 
 See 
-       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-cluster-enum-private-properties">CLUSCTL_CLUSTER_ENUM_PRIVATE_PROPERTIES</a>.
+       <a href="/previous-versions/windows/desktop/mscs/clusctl-cluster-enum-private-properties">CLUSCTL_CLUSTER_ENUM_PRIVATE_PROPERTIES</a>.
 
 ### -field CLUSCTL_CLUSTER_GET_RO_PRIVATE_PROPERTIES
 
 See 
-       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-cluster-get-ro-private-properties">CLUSCTL_CLUSTER_GET_RO_PRIVATE_PROPERTIES</a>.
+       <a href="/previous-versions/windows/desktop/mscs/clusctl-cluster-get-ro-private-properties">CLUSCTL_CLUSTER_GET_RO_PRIVATE_PROPERTIES</a>.
 
 ### -field CLUSCTL_CLUSTER_GET_PRIVATE_PROPERTIES
 
 See 
-       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-cluster-get-private-properties">CLUSCTL_CLUSTER_GET_PRIVATE_PROPERTIES</a>.
+       <a href="/previous-versions/windows/desktop/mscs/clusctl-cluster-get-private-properties">CLUSCTL_CLUSTER_GET_PRIVATE_PROPERTIES</a>.
 
 ### -field CLUSCTL_CLUSTER_SET_PRIVATE_PROPERTIES
 
 See 
-       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-cluster-set-private-properties">CLUSCTL_CLUSTER_SET_PRIVATE_PROPERTIES</a>.
+       <a href="/previous-versions/windows/desktop/mscs/clusctl-cluster-set-private-properties">CLUSCTL_CLUSTER_SET_PRIVATE_PROPERTIES</a>.
 
 ### -field CLUSCTL_CLUSTER_VALIDATE_PRIVATE_PROPERTIES
 
 See 
-       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-cluster-validate-private-properties">CLUSCTL_CLUSTER_VALIDATE_PRIVATE_PROPERTIES</a>.
+       <a href="/previous-versions/windows/desktop/mscs/clusctl-cluster-validate-private-properties">CLUSCTL_CLUSTER_VALIDATE_PRIVATE_PROPERTIES</a>.
 
 ### -field CLUSCTL_CLUSTER_GET_COMMON_PROPERTY_FMTS
 
 See 
-       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-cluster-get-common-property-fmts">CLUSCTL_CLUSTER_GET_COMMON_PROPERTY_FMTS</a>.
+       <a href="/previous-versions/windows/desktop/mscs/clusctl-cluster-get-common-property-fmts">CLUSCTL_CLUSTER_GET_COMMON_PROPERTY_FMTS</a>.
 
 ### -field CLUSCTL_CLUSTER_GET_PRIVATE_PROPERTY_FMTS
 
 See 
-       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-cluster-get-private-property-fmts">CLUSCTL_CLUSTER_GET_PRIVATE_PROPERTY_FMTS</a>.
+       <a href="/previous-versions/windows/desktop/mscs/clusctl-cluster-get-private-property-fmts">CLUSCTL_CLUSTER_GET_PRIVATE_PROPERTY_FMTS</a>.
 
 ### -field CLUSCTL_CLUSTER_CHECK_VOTER_EVICT
 
 See 
-       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-cluster-check-voter-evict">CLUSCTL_CLUSTER_CHECK_VOTER_EVICT</a>.
+       <a href="/previous-versions/windows/desktop/mscs/clusctl-cluster-check-voter-evict">CLUSCTL_CLUSTER_CHECK_VOTER_EVICT</a>.
 
 ### -field CLUSCTL_CLUSTER_CHECK_VOTER_DOWN
 
 See 
-       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-cluster-check-voter-down">CLUSCTL_CLUSTER_CHECK_VOTER_DOWN</a>.
+       <a href="/previous-versions/windows/desktop/mscs/clusctl-cluster-check-voter-down">CLUSCTL_CLUSTER_CHECK_VOTER_DOWN</a>.
 
 ### -field CLUSCTL_CLUSTER_SHUTDOWN
 
-See <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-cluster-shutdown">CLUSCTL_CLUSTER_SHUTDOWN</a>.
+See <a href="/previous-versions/windows/desktop/mscs/clusctl-cluster-shutdown">CLUSCTL_CLUSTER_SHUTDOWN</a>.
 
 ### -field CLUSCTL_CLUSTER_BATCH_BLOCK_KEY
 
@@ -167,35 +167,35 @@ Not supported.
 ### -field CLUSCTL_CLUSTER_GET_SHARED_VOLUME_ID
 
 See 
-       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-cluster-get-shared-volume-id">CLUSCTL_CLUSTER_GET_SHARED_VOLUME_ID</a>.
+       <a href="/previous-versions/windows/desktop/mscs/clusctl-cluster-get-shared-volume-id">CLUSCTL_CLUSTER_GET_SHARED_VOLUME_ID</a>.
 
 <b>Windows Server 2008:  </b>This control code is not supported before Windows Server 2008 R2.
 
 ### -field CLUSCTL_CLUSTER_GET_CLUSDB_TIMESTAMP
 
-See <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-cluster-get-clusdb-timestamp">CLUSCTL_CLUSTER_GET_CLUSDB_TIMESTAMP</a>.
+See <a href="/previous-versions/windows/desktop/mscs/clusctl-cluster-get-clusdb-timestamp">CLUSCTL_CLUSTER_GET_CLUSDB_TIMESTAMP</a>.
 
 ### -field CLUSCTL_CLUSTER_GET_GUM_LOCK_OWNER
 
-See <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-cluster-get-gum-lock-owner">CLUSCTL_CLUSTER_GET_GUM_LOCK_OWNER</a>.
+See <a href="/previous-versions/windows/desktop/mscs/clusctl-cluster-get-gum-lock-owner">CLUSCTL_CLUSTER_GET_GUM_LOCK_OWNER</a>.
 
 <b>Windows Server 2012 R2, Windows Server 2012, Windows Server 2008 R2 and Windows Server 2008:  </b>This operation code is not available before Windows Server 2016.
 
 ### -field CLUSCTL_CLUSTER_REMOVE_NODE
 
-See <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-cluster-remove-node">CLUSCTL_CLUSTER_REMOVE_NODE</a>.
+See <a href="/previous-versions/windows/desktop/mscs/clusctl-cluster-remove-node">CLUSCTL_CLUSTER_REMOVE_NODE</a>.
 
 <b>Windows Server 2012 R2, Windows Server 2012, Windows Server 2008 R2 and Windows Server 2008:  </b>This operation code is not available before Windows Server 2016.
 
 ### -field CLUSCTL_CLUSTER_SET_ACCOUNT_ACCESS
 
-See <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-cluster-set-account-access">CLUSCTL_CLUSTER_SET_ACCOUNT_ACCESS</a>.
+See <a href="/previous-versions/windows/desktop/mscs/clusctl-cluster-set-account-access">CLUSCTL_CLUSTER_SET_ACCOUNT_ACCESS</a>.
 
 <b>Windows Server 2012 R2, Windows Server 2012, Windows Server 2008 R2 and Windows Server 2008:  </b>This operation code is not available before Windows Server 2016.
 
 ### -field CLUSCTL_CLUSTER_CLEAR_NODE_CONNECTION_INFO
 
-See <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-cluster-clear-node-connection-info">CLUSCTL_CLUSTER_CLEAR_NODE_CONNECTION_INFO</a>.
+See <a href="/previous-versions/windows/desktop/mscs/clusctl-cluster-clear-node-connection-info">CLUSCTL_CLUSTER_CLEAR_NODE_CONNECTION_INFO</a>.
 
 <b>Windows Server 2012 R2, Windows Server 2012, Windows Server 2008 R2 and Windows Server 2008:  </b>This operation code is not available before Windows Server 2016.
 
@@ -207,13 +207,13 @@ See <a href="https://msdn.microsoft.com/C08360F8-4930-4BEA-B831-CD380EBCFF7D">CL
 
 ### -field CLUSCTL_CLUSTER_SET_CLUSTER_S2D_ENABLED
 
-See <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-cluster-set-cluster-das-mode-enabled">CLUSCTL_CLUSTER_SET_CLUSTER_S2D_ENABLED</a>.
+See <a href="/previous-versions/windows/desktop/mscs/clusctl-cluster-set-cluster-das-mode-enabled">CLUSCTL_CLUSTER_SET_CLUSTER_S2D_ENABLED</a>.
 
 <b>Windows Server 2012 R2, Windows Server 2012, Windows Server 2008 R2 and Windows Server 2008:  </b>This operation code is not available before Windows Server 2016.
 
 ### -field CLUSCTL_CLUSTER_SET_CLUSTER_S2D_CACHE_METADATA_RESERVE_BYTES
 
-See <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-cluster-set-cluster-s2d-cache-metadata-reserve-bytes">CLUSCTL_CLUSTER_SET_CLUSTER_S2D_CACHE_METADATA_RESERVE_BYTES</a>
+See <a href="/previous-versions/windows/desktop/mscs/clusctl-cluster-set-cluster-s2d-cache-metadata-reserve-bytes">CLUSCTL_CLUSTER_SET_CLUSTER_S2D_CACHE_METADATA_RESERVE_BYTES</a>
 
 
 <b>Windows Server 2012 R2, Windows Server 2012, Windows Server 2008 R2 and Windows Server 2008:  </b>This operation code is not available before Windows Server 2016.
@@ -222,13 +222,12 @@ See <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/c
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-control-codes">Cluster Control Codes</a>
+<a href="/previous-versions/windows/desktop/mscs/cluster-control-codes">Cluster Control Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/nf-clusapi-clustercontrol">ClusterControl</a>
+<a href="/previous-versions/windows/desktop/api/clusapi/nf-clusapi-clustercontrol">ClusterControl</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-enumerations">Failover Cluster Enumerations</a>
-
+<a href="/previous-versions/windows/desktop/mscs/cluster-enumerations">Failover Cluster Enumerations</a>

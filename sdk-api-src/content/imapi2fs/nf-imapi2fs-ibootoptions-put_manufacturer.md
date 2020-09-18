@@ -97,9 +97,8 @@ Value: 0xC0AAB101
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nn-imapi2fs-ibootoptions">IBootOptions</a>
+<a href="/windows/desktop/api/imapi2fs/nn-imapi2fs-ibootoptions">IBootOptions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ibootoptions-get_manufacturer">IBootOptions::get_Manufacturer</a>
-
+<a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ibootoptions-get_manufacturer">IBootOptions::get_Manufacturer</a>

@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-Contains information passed to a <b>WH_CBT</b> hook procedure, <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms644977(v=vs.85)">CBTProc</a>, before a window is activated.
+Contains information passed to a <b>WH_CBT</b> hook procedure, <a href="/previous-versions/windows/desktop/legacy/ms644977(v=vs.85)">CBTProc</a>, before a window is activated.
 
 ## -struct-fields
 
@@ -72,7 +72,7 @@ A handle to the active window.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms644977(v=vs.85)">CBTProc</a>
+<a href="/previous-versions/windows/desktop/legacy/ms644977(v=vs.85)">CBTProc</a>
 
 
 
@@ -80,7 +80,7 @@ A handle to the active window.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/winmsg/hooks">Hooks</a>
+<a href="/windows/desktop/winmsg/hooks">Hooks</a>
 
 
 
@@ -88,5 +88,4 @@ A handle to the active window.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setwindowshookexa">SetWindowsHookEx</a>
-
+<a href="/windows/desktop/api/winuser/nf-winuser-setwindowshookexa">SetWindowsHookEx</a>

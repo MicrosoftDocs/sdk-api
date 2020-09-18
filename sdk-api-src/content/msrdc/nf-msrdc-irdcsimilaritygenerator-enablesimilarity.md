@@ -52,7 +52,7 @@ api_name:
 
 Enables the signature generator to generate similarity data.
 
-The <b>EnableSimilarity</b> method must be called before the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/nf-msrdc-irdcgenerator-process">IRdcGenerator::Process</a> method is called to begin generating signatures. Otherwise, this method will return an error.
+The <b>EnableSimilarity</b> method must be called before the <a href="/previous-versions/windows/desktop/api/msrdc/nf-msrdc-irdcgenerator-process">IRdcGenerator::Process</a> method is called to begin generating signatures. Otherwise, this method will return an error.
 
 ## -parameters
 
@@ -62,5 +62,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/nn-msrdc-irdcsimilaritygenerator">IRdcSimilarityGenerator</a>
-
+<a href="/previous-versions/windows/desktop/api/msrdc/nn-msrdc-irdcsimilaritygenerator">IRdcSimilarityGenerator</a>

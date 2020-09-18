@@ -50,8 +50,8 @@ api_name:
 
 ## -description
 
-Provides a set of flags to be used with the following interfaces to indicate the type of condition tree node: <a href="https://docs.microsoft.com/windows/desktop/api/structuredquerycondition/nn-structuredquerycondition-icondition">ICondition</a>, 
-<a href="https://docs.microsoft.com/windows/desktop/api/structuredquerycondition/nn-structuredquerycondition-icondition2">ICondition2</a>, <a href="https://docs.microsoft.com/windows/desktop/api/structuredquery/nn-structuredquery-iconditionfactory">IConditionFactory</a>, <a href="https://docs.microsoft.com/windows/desktop/api/structuredquery/nn-structuredquery-iconditionfactory2">IConditionFactory2</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/structuredquery/nn-structuredquery-iconditiongenerator">IConditionGenerator</a>.
+Provides a set of flags to be used with the following interfaces to indicate the type of condition tree node: <a href="/windows/desktop/api/structuredquerycondition/nn-structuredquerycondition-icondition">ICondition</a>, 
+<a href="/windows/desktop/api/structuredquerycondition/nn-structuredquerycondition-icondition2">ICondition2</a>, <a href="/windows/desktop/api/structuredquery/nn-structuredquery-iconditionfactory">IConditionFactory</a>, <a href="/windows/desktop/api/structuredquery/nn-structuredquery-iconditionfactory2">IConditionFactory2</a>, and <a href="/windows/desktop/api/structuredquery/nn-structuredquery-iconditiongenerator">IConditionGenerator</a>.
 
 ## -enum-fields
 
@@ -81,7 +81,7 @@ Indicates that you should allow the creation of a leaf condition with VT_VECTOR 
 
 ### -field CONDITION_CREATION_USE_CONTENT_LOCALE
 
-Indicates that you should ignore any specified locale and use the currently selected content locale <a href="https://docs.microsoft.com/windows/desktop/api/structuredquery/nf-structuredquery-iconditionfactory2-createstringleaf">IConditionFactory2::CreateStringLeaf</a> and <a href="https://docs.microsoft.com/windows/desktop/api/structuredquery/nf-structuredquery-iconditionfactory2-createleaf">IConditionFactory2::CreateLeaf</a>.
+Indicates that you should ignore any specified locale and use the currently selected content locale <a href="/windows/desktop/api/structuredquery/nf-structuredquery-iconditionfactory2-createstringleaf">IConditionFactory2::CreateStringLeaf</a> and <a href="/windows/desktop/api/structuredquery/nf-structuredquery-iconditionfactory2-createleaf">IConditionFactory2::CreateLeaf</a>.
 
 ## -remarks
 
@@ -106,4 +106,3 @@ However, if none of these flags is set, then attempting to create a leaf conditi
 
 
 <b>Reference</b>
-

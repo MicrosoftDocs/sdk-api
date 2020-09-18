@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-The <b>CRYPT_TIMESTAMP_ACCURACY</b> structure is used by the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_timestamp_info">CRYPT_TIMESTAMP_INFO</a> structure to represent the accuracy of the time deviation around the UTC time at which the time stamp token was created by the Time Stamp Authority (TSA).
+The <b>CRYPT_TIMESTAMP_ACCURACY</b> structure is used by the <a href="/windows/desktop/api/wincrypt/ns-wincrypt-crypt_timestamp_info">CRYPT_TIMESTAMP_INFO</a> structure to represent the accuracy of the time deviation around the UTC time at which the time stamp token was created by the Time Stamp Authority (TSA).
 
 ## -struct-fields
 
@@ -69,4 +69,3 @@ Optional. Specifies, in milliseconds, the accuracy of the upper limit of the tim
 ### -field dwMicros
 
 Optional. Specifies, in microseconds, the accuracy of the upper limit of the time at which the time-stamp token was created by the TSA.
-

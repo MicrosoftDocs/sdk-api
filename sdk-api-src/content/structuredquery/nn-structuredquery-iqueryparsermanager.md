@@ -50,11 +50,11 @@ api_name:
 
 ## -description
 
-Provides methods to create, initialize, and change options for an <a href="https://docs.microsoft.com/windows/desktop/api/structuredquery/nn-structuredquery-iqueryparser">IQueryParser</a> object.
+Provides methods to create, initialize, and change options for an <a href="/windows/desktop/api/structuredquery/nn-structuredquery-iqueryparser">IQueryParser</a> object.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IQueryParserManager</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IQueryParserManager</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IQueryParserManager</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IQueryParserManager</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,16 +69,16 @@ The <b>IQueryParserManager</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/structuredquery/nf-structuredquery-iqueryparsermanager-createloadedparser">CreateLoadedParser</a>
+<a href="/windows/desktop/api/structuredquery/nf-structuredquery-iqueryparsermanager-createloadedparser">CreateLoadedParser</a>
 </td>
 <td align="left" width="63%">
-Creates a new instance of a <a href="https://docs.microsoft.com/windows/desktop/api/structuredquery/nn-structuredquery-iqueryparser">IQueryParser</a> interface implementation. This instance of the query parser is loaded with the schema for the specified catalog and is localized to a specified language. All other settings are initialized to default settings.
+Creates a new instance of a <a href="/windows/desktop/api/structuredquery/nn-structuredquery-iqueryparser">IQueryParser</a> interface implementation. This instance of the query parser is loaded with the schema for the specified catalog and is localized to a specified language. All other settings are initialized to default settings.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/structuredquery/nf-structuredquery-iqueryparsermanager-initializeoptions">InitializeOptions</a>
+<a href="/windows/desktop/api/structuredquery/nf-structuredquery-iqueryparsermanager-initializeoptions">InitializeOptions</a>
 </td>
 <td align="left" width="63%">
 Sets the flags for Natural Query Syntax (NQS) and automatic wildcard characters for the specified query parser. If the query parser was created for the <code>SystemIndex</code> catalog, this method also sets up standard condition generators to be used later by the query parser object for recognizing named entities.
@@ -88,7 +88,7 @@ Sets the flags for Natural Query Syntax (NQS) and automatic wildcard characters 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/structuredquery/nf-structuredquery-iqueryparsermanager-setoption">SetOption</a>
+<a href="/windows/desktop/api/structuredquery/nf-structuredquery-iqueryparsermanager-setoption">SetOption</a>
 </td>
 <td align="left" width="63%">
 Changes a single option in this <b>IQueryParserManager</b> object. For example, this method could change the name of the schema binary to load or the location of localized schema binaries.
@@ -103,5 +103,4 @@ The <a href="https://github.com/microsoft/Windows-classic-samples/tree/master/Sa
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/lwef/-search-2x-wds-aqsreference">Advanced Query Syntax</a>
-
+<a href="/windows/desktop/lwef/-search-2x-wds-aqsreference">Advanced Query Syntax</a>

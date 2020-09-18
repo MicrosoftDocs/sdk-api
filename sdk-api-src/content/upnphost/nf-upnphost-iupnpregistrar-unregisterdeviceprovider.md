@@ -52,14 +52,14 @@ api_name:
 
 The 
 <b>UnregisterDeviceProvider</b> method permanently unregisters and unloads the device provider from the device host. The 
-<a href="https://docs.microsoft.com/windows/desktop/api/upnphost/nf-upnphost-iupnpdeviceprovider-stop">IUPnPDeviceProvider::Stop</a> method is invoked.
+<a href="/windows/desktop/api/upnphost/nf-upnphost-iupnpdeviceprovider-stop">IUPnPDeviceProvider::Stop</a> method is invoked.
 
 ## -parameters
 
 ### -param bstrProviderName [in]
 
 Specifies the provider name. Use the same name that was used in the call to 
-<a href="https://docs.microsoft.com/windows/desktop/api/upnphost/nf-upnphost-iupnpregistrar-registerdeviceprovider">RegisterDeviceProvider</a>.
+<a href="/windows/desktop/api/upnphost/nf-upnphost-iupnpregistrar-registerdeviceprovider">RegisterDeviceProvider</a>.
 
 ## -returns
 
@@ -67,5 +67,4 @@ If the method succeeds, the return value is S_OK. Otherwise, the method returns 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/upnphost/nn-upnphost-iupnpregistrar">IUPnPRegistrar</a>
-
+<a href="/windows/desktop/api/upnphost/nn-upnphost-iupnpregistrar">IUPnPRegistrar</a>

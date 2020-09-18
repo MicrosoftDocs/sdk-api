@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Allows a sync provider to notify the platform of its status on a specified sync root without having to connect with a call to <a href="https://docs.microsoft.com/windows/desktop/api/cfapi/nf-cfapi-cfconnectsyncroot">CfConnectSyncRoot</a> first.
+Allows a sync provider to notify the platform of its status on a specified sync root without having to connect with a call to <a href="/windows/desktop/api/cfapi/nf-cfapi-cfconnectsyncroot">CfConnectSyncRoot</a> first.
 
 ## -parameters
 
@@ -68,7 +68,7 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 ## -remarks
 
-When a non-null <a href="https://docs.microsoft.com/windows/desktop/api/cfapi/ns-cfapi-cf_sync_status">CF_SYNC_STATUS</a> is provided in the <i>SyncStatus</i> parameter, the information will be remembered on the sync root until it is cleared explicitly by the sync provider or when the machine reboots. The platform will query this information upon any failed operations on a cloud file placeholder, using the following process:
+When a non-null <a href="/windows/desktop/api/cfapi/ns-cfapi-cf_sync_status">CF_SYNC_STATUS</a> is provided in the <i>SyncStatus</i> parameter, the information will be remembered on the sync root until it is cleared explicitly by the sync provider or when the machine reboots. The platform will query this information upon any failed operations on a cloud file placeholder, using the following process:
 
 1.  The platform will first search for sync status at the file level. 
 
@@ -78,4 +78,3 @@ When a non-null <a href="https://docs.microsoft.com/windows/desktop/api/cfapi/ns
 
 
 <b>CfReportSyncStatus</b> clears the previously-saved sync status when being called with a <b>null</b> sync status. No change will be made to the existing sync status if the function call fails.
-

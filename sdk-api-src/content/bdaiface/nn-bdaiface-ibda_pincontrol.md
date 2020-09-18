@@ -54,7 +54,7 @@ The <b>IBDA_PinControl</b> interface is exposed on a BDA device filter's pins. A
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBDA_PinControl</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IBDA_PinControl</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBDA_PinControl</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IBDA_PinControl</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IBDA_PinControl</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nf-bdaiface-ibda_pincontrol-getpinid">GetPinID</a>
+<a href="/windows/desktop/api/bdaiface/nf-bdaiface-ibda_pincontrol-getpinid">GetPinID</a>
 </td>
 <td align="left" width="63%">
 Retrieves the identifier of the pin.
@@ -78,7 +78,7 @@ Retrieves the identifier of the pin.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nf-bdaiface-ibda_pincontrol-getpintype">GetPinType</a>
+<a href="/windows/desktop/api/bdaiface/nf-bdaiface-ibda_pincontrol-getpintype">GetPinType</a>
 </td>
 <td align="left" width="63%">
 Retrieves the type of the pin.
@@ -87,7 +87,7 @@ Retrieves the type of the pin.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nf-bdaiface-ibda_pincontrol-registrationcontext">RegistrationContext</a>
+<a href="/windows/desktop/api/bdaiface/nf-bdaiface-ibda_pincontrol-registrationcontext">RegistrationContext</a>
 </td>
 <td align="left" width="63%">
 Retrieves the registration context of a particular pin.
@@ -102,5 +102,4 @@ To declare the interface identifier (IID) for this interface, use the <b>__uuido
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/bda-interfaces">BDA Interfaces</a>
-
+<a href="/previous-versions/windows/desktop/mstv/bda-interfaces">BDA Interfaces</a>

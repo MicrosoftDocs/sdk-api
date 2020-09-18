@@ -72,7 +72,7 @@ Returns one of the following:
 </dl>
 </td>
 <td width="60%">
-The image is a vector image, supporting the GDI+ flag <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusimaging/ne-gdiplusimaging-imageflags">ImageFlagsScalable</a>.
+The image is a vector image, supporting the GDI+ flag <a href="/windows/desktop/api/gdiplusimaging/ne-gdiplusimaging-imageflags">ImageFlagsScalable</a>.
 
 </td>
 </tr>
@@ -99,4 +99,3 @@ All other cases.
 </td>
 </tr>
 </table>
-

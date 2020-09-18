@@ -60,5 +60,4 @@ The <b>SecPkgContext_SubjectAttributes</b> structure returns the security attrib
 
 ### -field AttributeInfo
 
-Pointer to a <b>void</b> that receives the attribute information stored in a <a href="https://docs.microsoft.com/windows/desktop/api/authz/ns-authz-authz_security_attributes_information">AUTHZ_SECURITY_ATTRIBUTES_INFORMATION</a> structure.
-
+Pointer to a <b>void</b> that receives the attribute information stored in a <a href="/windows/desktop/api/authz/ns-authz-authz_security_attributes_information">AUTHZ_SECURITY_ATTRIBUTES_INFORMATION</a> structure.

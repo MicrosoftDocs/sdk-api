@@ -51,11 +51,11 @@ api_name:
 ## -description
 
 The 
-<b>IWbemEventProviderSecurity</b> interface is optionally implemented by event providers who want to restrict consumer access to their event. For more information about when to use this interface, see <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/securing-wmi-events">Securing WMI Events</a>.
+<b>IWbemEventProviderSecurity</b> interface is optionally implemented by event providers who want to restrict consumer access to their event. For more information about when to use this interface, see <a href="/windows/desktop/WmiSdk/securing-wmi-events">Securing WMI Events</a>.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWbemEventProviderSecurity</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWbemEventProviderSecurity</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWbemEventProviderSecurity</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWbemEventProviderSecurity</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>IWbemEventProviderSecurity</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemprov/nf-wbemprov-iwbemeventprovidersecurity-accesscheck">AccessCheck</a>
+<a href="/windows/desktop/api/wbemprov/nf-wbemprov-iwbemeventprovidersecurity-accesscheck">AccessCheck</a>
 </td>
 <td align="left" width="63%">
 Checks a consumer's access permission when the consumer attempts to subscribe to an event.
@@ -83,4 +83,3 @@ Checks a consumer's access permission when the consumer attempts to subscribe to
 
 This method is automatically called by Windows Management whenever a new consumer attempts to subscribe to an event where the event provider has implemented 
 <b>IWbemEventProviderSecurity</b>. If the consumer has access permission for the event the consumer is subscribed to the event; otherwise, the subscription is denied.
-

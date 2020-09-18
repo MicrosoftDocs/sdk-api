@@ -80,8 +80,8 @@ Indicates all manipulations are enabled.
 
 ## -remarks
 
-Use this enumeration with the <a href="https://docs.microsoft.com/windows/desktop/api/manipulations/nf-manipulations-imanipulationprocessor-get_supportedmanipulations">SupportedManipulations</a> property to get and 
-		  set the kind of manipulation data you want to receive from the <a href="https://docs.microsoft.com/windows/desktop/api/manipulations/nn-manipulations-imanipulationprocessor">IManipulationProcessor</a> interface. 
+Use this enumeration with the <a href="/windows/desktop/api/manipulations/nf-manipulations-imanipulationprocessor-get_supportedmanipulations">SupportedManipulations</a> property to get and 
+		  set the kind of manipulation data you want to receive from the <a href="/windows/desktop/api/manipulations/nn-manipulations-imanipulationprocessor">IManipulationProcessor</a> interface. 
 		  You can combine different kinds of manipulations by a bitwise OR.
 
 
@@ -101,5 +101,4 @@ Use this enumeration with the <a href="https://docs.microsoft.com/windows/deskto
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/wintouch/rts-functions">Enumerations</a>
-
+<a href="/windows/desktop/wintouch/rts-functions">Enumerations</a>

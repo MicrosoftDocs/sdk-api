@@ -62,7 +62,7 @@ Either a writer or a requester can call this method.
 
 Index number of the directed target. The value of this parameter is an integer from 0 
       to <i>n</i>–1 inclusive, where <i>n</i> is the total number of directed targets associated with a given component (and its subcomponents if it defines a component set). The value of <i>n</i> is returned by 
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-getdirectedtargetcount">IVssComponent::GetDirectedTargetCount</a>.
+<a href="/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-getdirectedtargetcount">IVssComponent::GetDirectedTargetCount</a>.
 
 ### -param pbstrSourcePath [out]
 
@@ -148,7 +148,7 @@ The caller is out of memory or other system resources.
 </td>
 <td width="60%">
 The XML document is not valid. Check the event log for details. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
+<a href="/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
 
 </td>
 </tr>
@@ -167,7 +167,7 @@ The specified item was not found.
 
 ## -remarks
 
-If the call to <b>GetDirectedTarget</b> is successful, the caller is responsible for freeing each returned string by calling the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a> function.
+If the call to <b>GetDirectedTarget</b> is successful, the caller is responsible for freeing each returned string by calling the <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a> function.
 
 A requester will use the directed target information stored in the Backup Components Document only if the restore target is VSS_RT_DIRECTED.
 
@@ -176,22 +176,21 @@ The syntax of the range listing (<i>wszSourceRanges</i> and <i>wszDestinationRan
 Files whose directed targets are returned by 
 <b>GetDirectedTarget</b> may be members of the files of the current component or any subcomponent it defines.
 
-The caller should free the memory held by the <i>pbstrSourcePath</i>, <i>pbstrSourceFileName</i>, <i>pbstrSourceRangeList</i>, <i>pbstrDestinationPath</i>, <i>pbstrDestinationFilename</i>, and <i>pbstrDestinationRangeList</i> parameters by calling <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a>.
+The caller should free the memory held by the <i>pbstrSourcePath</i>, <i>pbstrSourceFileName</i>, <i>pbstrSourceRangeList</i>, <i>pbstrDestinationPath</i>, <i>pbstrDestinationFilename</i>, and <i>pbstrDestinationRangeList</i> parameters by calling <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a>.
 
 Partial files may be added as directed targets, if the partial file ranges to be backed up match the directed target source ranges (see 
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-addpartialfile">IVssComponent::AddPartialFile</a>). This will allow you to remap partial files.
+<a href="/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-addpartialfile">IVssComponent::AddPartialFile</a>). This will allow you to remap partial files.
 
-The requester will need to check if the directed target source file was backed up as a partial file to correctly implement the restore. If this is the case, the requester uses the directed target information in conjunction with the partial file information (<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-getpartialfile">IVssComponent::GetPartialFile</a>) to implement the remapping of the backed-up data during restore.
+The requester will need to check if the directed target source file was backed up as a partial file to correctly implement the restore. If this is the case, the requester uses the directed target information in conjunction with the partial file information (<a href="/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-getpartialfile">IVssComponent::GetPartialFile</a>) to implement the remapping of the backed-up data during restore.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-ivsscomponent">IVssComponent</a>
+<a href="/windows/desktop/api/vswriter/nl-vswriter-ivsscomponent">IVssComponent</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-adddirectedtarget">IVssComponent::AddDirectedTarget</a>
+<a href="/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-adddirectedtarget">IVssComponent::AddDirectedTarget</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-getdirectedtargetcount">IVssComponent::GetDirectedTargetCount</a>
-
+<a href="/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-getdirectedtargetcount">IVssComponent::GetDirectedTargetCount</a>

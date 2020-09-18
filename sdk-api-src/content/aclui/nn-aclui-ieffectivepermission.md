@@ -54,7 +54,7 @@ The <b>IEffectivePermission</b> interface provides a means to determine effectiv
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEffectivePermission</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEffectivePermission</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEffectivePermission</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEffectivePermission</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IEffectivePermission</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/aclui/nf-aclui-ieffectivepermission-geteffectivepermission">GetEffectivePermission</a>
+<a href="/windows/desktop/api/aclui/nf-aclui-ieffectivepermission-geteffectivepermission">GetEffectivePermission</a>
 </td>
 <td align="left" width="63%">
 Returns the effective permission for an object type.
@@ -80,9 +80,8 @@ Returns the effective permission for an object type.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/aclui/nn-aclui-isecurityinformation2">ISecurityInformation2</a>
+<a href="/windows/desktop/api/aclui/nn-aclui-isecurityinformation2">ISecurityInformation2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/aclui/nn-aclui-isecurityobjecttypeinfo">ISecurityObjectTypeInfo</a>
-
+<a href="/windows/desktop/api/aclui/nn-aclui-isecurityobjecttypeinfo">ISecurityObjectTypeInfo</a>

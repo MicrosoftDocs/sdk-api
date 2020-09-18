@@ -57,7 +57,7 @@ Creates an enlistment, sets its initial state, and opens a handle to the enlistm
 
 ### -param lpEnlistmentAttributes [in, optional]
 
-A pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa379560(v=vs.85)">SECURITY_ATTRIBUTES</a> 
+A pointer to a <a href="/previous-versions/windows/desktop/legacy/aa379560(v=vs.85)">SECURITY_ATTRIBUTES</a> 
       structure that contains the security attributes for the enlistment manager.  Specify 
       <b>NULL</b> to obtain the default attributes.
 
@@ -72,7 +72,7 @@ A handle to the transaction in which the RM is enlisting.
 ### -param NotificationMask [in]
 
 The notifications this RM is requesting for the <i>TransactionHandle</i> parameter. For 
-      a list of valid values, see <a href="https://docs.microsoft.com/windows/desktop/Ktm/notification-mask">NOTIFICATION_MASK</a>.
+      a list of valid values, see <a href="/windows/desktop/Ktm/notification-mask">NOTIFICATION_MASK</a>.
 
 ### -param CreateOptions [in, optional]
 
@@ -99,7 +99,7 @@ Enlist as a superior transaction manager.
 ### -param EnlistmentKey [in, optional]
 
 A pointer to a user-defined structure used by the RM that is returned when a notification is sent in the 
-      <a href="https://docs.microsoft.com/windows/desktop/api/ktmtypes/ns-ktmtypes-transaction_notification">TRANSACTION_NOTIFICATION</a> structure. This is 
+      <a href="/windows/desktop/api/ktmtypes/ns-ktmtypes-transaction_notification">TRANSACTION_NOTIFICATION</a> structure. This is 
       typically used to associate a private structure  with this specific transaction.
 
 ## -returns
@@ -108,7 +108,7 @@ If the function succeeds, the return value is a handle to the enlistment.
       
 
 If the function fails, the return value is <b>INVALID_HANDLE_VALUE</b>. To get extended 
-       error information, call the <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function.
+       error information, call the <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function.
 
 The following list identifies the  possible error codes:
 
@@ -132,25 +132,24 @@ Keep the following notification rules in mind when enlisting in transactions:
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ktmw32/nf-ktmw32-commitcomplete">CommitComplete</a>
+<a href="/windows/desktop/api/ktmw32/nf-ktmw32-commitcomplete">CommitComplete</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ktmw32/nf-ktmw32-commitenlistment">CommitEnlistment</a>
+<a href="/windows/desktop/api/ktmw32/nf-ktmw32-commitenlistment">CommitEnlistment</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Ktm/kernel-transaction-manager-functions">Kernel Transaction Manager Functions</a>
+<a href="/windows/desktop/Ktm/kernel-transaction-manager-functions">Kernel Transaction Manager Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Ktm/notification-mask">NOTIFICATION_MASK</a>
+<a href="/windows/desktop/Ktm/notification-mask">NOTIFICATION_MASK</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ktmw32/nf-ktmw32-openenlistment">OpenEnlistment</a>
+<a href="/windows/desktop/api/ktmw32/nf-ktmw32-openenlistment">OpenEnlistment</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ktmtypes/ns-ktmtypes-transaction_notification">TRANSACTION_NOTIFICATION</a>
-
+<a href="/windows/desktop/api/ktmtypes/ns-ktmtypes-transaction_notification">TRANSACTION_NOTIFICATION</a>

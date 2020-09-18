@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Defines the values used with the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder-getdisplaynameof">IShellFolder::GetDisplayNameOf</a> and <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder-setnameof">IShellFolder::SetNameOf</a> methods to specify the type of file or folder names used by those methods.
+Defines the values used with the <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder-getdisplaynameof">IShellFolder::GetDisplayNameOf</a> and <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder-setnameof">IShellFolder::SetNameOf</a> methods to specify the type of file or folder names used by those methods.
 
             
 <div class="alert"><b>Note</b>  Prior to Windows 7, these values were packaged as the SHGNO enumeration.</div><div> </div>
@@ -59,7 +59,7 @@ Defines the values used with the <a href="https://docs.microsoft.com/windows/des
 
 ### -field SHGDN_NORMAL
 
-When not combined with another flag, return the parent-relative name that identifies the item, suitable for displaying to the user. This name often does not include extra information such as the file name extension and does not need to be unique. This name might include information that identifies the folder that contains the item. For instance, this flag could cause <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder-getdisplaynameof">IShellFolder::GetDisplayNameOf</a> to return the string "<b>username</b> (on <b>Machine</b>)" for a particular user's folder.
+When not combined with another flag, return the parent-relative name that identifies the item, suitable for displaying to the user. This name often does not include extra information such as the file name extension and does not need to be unique. This name might include information that identifies the folder that contains the item. For instance, this flag could cause <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder-getdisplaynameof">IShellFolder::GetDisplayNameOf</a> to return the string "<b>username</b> (on <b>Machine</b>)" for a particular user's folder.
 
 ### -field SHGDN_INFOLDER
 
@@ -77,7 +77,7 @@ The name is displayed in an address bar combo box.
 
 ### -field SHGDN_FORPARSING
 
-The name is used for parsing. That is, it can be passed to <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder-parsedisplayname">IShellFolder::ParseDisplayName</a> to recover the object's PIDL. The form this name takes depends on the particular object. When SHGDN_FORPARSING is used alone, the name is relative to the desktop. When combined with SHGDN_INFOLDER, the name is relative to the folder from which the request was made.
+The name is used for parsing. That is, it can be passed to <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder-parsedisplayname">IShellFolder::ParseDisplayName</a> to recover the object's PIDL. The form this name takes depends on the particular object. When SHGDN_FORPARSING is used alone, the name is relative to the desktop. When combined with SHGDN_INFOLDER, the name is relative to the folder from which the request was made.
 
 ## -remarks
 
@@ -93,9 +93,9 @@ typedef DWORD SHGDNF;
 
 This enumeration consists of two groups of values. The first group—SHGDN_NORMAL and SHGDN_INFOLDER—specifies the name's type. The second group—SHGDN_FOREDITING, SHGDN_FORADDRESSBAR, and SHGDN_FORPARSING—consists of modifiers to the first group that specify name retrieval options.
 
-If SHGDN_FORPARSING is set and SHGDN_INFOLDER is not set, <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder-getdisplaynameof">IShellFolder::GetDisplayNameOf</a> can accept a PIDL that contains more than an <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-shitemid">SHITEMID</a> structure. Otherwise, only a single-level PIDL can be passed.
+If SHGDN_FORPARSING is set and SHGDN_INFOLDER is not set, <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder-getdisplaynameof">IShellFolder::GetDisplayNameOf</a> can accept a PIDL that contains more than an <a href="/windows/desktop/api/shtypes/ns-shtypes-shitemid">SHITEMID</a> structure. Otherwise, only a single-level PIDL can be passed.
 
-<b>Note</b> While the parsing name returned by file system objects is the object's fully qualified path, virtual folders might use something quite different. For example, some virtual folders use a GUID as the parsing name and return a string of the form "::{GUID}". To check whether the object is part of the file system, call <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder-getattributesof">IShellFolder::GetAttributesOf</a> and see if the <b>SFGAO_FILESYSTEM</b> flag is set. Developers who implement <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder-getdisplaynameof">IShellFolder::GetDisplayNameOf</a> are encouraged to return parse names that are as close to the display names as possible, because the end user often needs to type or edit these names.
+<b>Note</b> While the parsing name returned by file system objects is the object's fully qualified path, virtual folders might use something quite different. For example, some virtual folders use a GUID as the parsing name and return a string of the form "::{GUID}". To check whether the object is part of the file system, call <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder-getattributesof">IShellFolder::GetAttributesOf</a> and see if the <b>SFGAO_FILESYSTEM</b> flag is set. Developers who implement <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder-getdisplaynameof">IShellFolder::GetDisplayNameOf</a> are encouraged to return parse names that are as close to the display names as possible, because the end user often needs to type or edit these names.
 
 The numeric value of SHGDN_NORMAL is zero, so you cannot test for the presence of this bit. Consider SHGDN_NORMAL a default setting that is used if no other flag in that group is set.
 
@@ -210,5 +210,4 @@ The following table describes the display names as they would be returned.
 <li>B1-B5: The display name of the remote printer changes depending on whether it is being shown relative to its parent. When shown relative to its parent, it needs only its printer name, but when shown outside its parent, it shows both its printer name and its computer name.</li>
 <li>C3: File.txt presents only its base name for editing instead of its full name.</li>
 </ul>
-For further discussion of the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellfolder">IShellFolder</a> interface, see <a href="https://docs.microsoft.com/windows/desktop/shell/folder-info">Getting Information About the Contents of a Folder</a>.
-
+For further discussion of the <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellfolder">IShellFolder</a> interface, see <a href="/windows/desktop/shell/folder-info">Getting Information About the Contents of a Folder</a>.

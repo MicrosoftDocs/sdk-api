@@ -72,7 +72,7 @@ If the array is large enough, this method copies the segment data points into th
 
 ## -returns
 
-The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the table that follows. For information about  XPS document API return values that are not listed in this table, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>.
+The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the table that follows. For information about  XPS document API return values that are not listed in this table, see <a href="/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>.
 
 <table>
 <tr>
@@ -116,11 +116,11 @@ The method succeeded.
 
 ## -remarks
 
-To determine the required size of the segment data array before calling this method, call <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomgeometryfigure-getsegmentdatacount">GetSegmentDataCount</a>. 
+To determine the required size of the segment data array before calling this method, call <a href="/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomgeometryfigure-getsegmentdatacount">GetSegmentDataCount</a>. 
 
-A geometry segment is described by the start point, the segment type, and additional parameters whose values are determined by the segment type. The coordinates for the start point of the first segment are a property of the geometry figure and  are set by calling <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomgeometryfigure-setstartpoint">SetStartPoint</a>. The start point of each subsequent segment is the end point of the preceding segment.
+A geometry segment is described by the start point, the segment type, and additional parameters whose values are determined by the segment type. The coordinates for the start point of the first segment are a property of the geometry figure and  are set by calling <a href="/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomgeometryfigure-setstartpoint">SetStartPoint</a>. The start point of each subsequent segment is the end point of the preceding segment.
 
-The values  in the array returned in the <i>segmentData</i>  parameter will  correspond with the <a href="/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_segment_type">XPS_SEGMENT_TYPE</a> values  in the array returned by the <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomgeometryfigure-getsegmenttypes">GetSegmentTypes</a> method in the <i>segmentTypes</i>  parameter. To read the segment data values correctly, you will need to know the type of each segment in the geometry figure. For example, if the first line segment has a segment type value of <b>XPS_SEGMENT_TYPE_LINE</b>, the first two data values in the <i>segmentData</i> array will be the x and y coordinates of the end point of  that segment; if the next segment has a segment type value of <b>XPS_SEGMENT_TYPE_BEZIER</b>, the next six values in the <i>segmentData</i> array will describe the characteristics of that segment; and so on for each line segment in the geometry figure.
+The values  in the array returned in the <i>segmentData</i>  parameter will  correspond with the <a href="/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_segment_type">XPS_SEGMENT_TYPE</a> values  in the array returned by the <a href="/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomgeometryfigure-getsegmenttypes">GetSegmentTypes</a> method in the <i>segmentTypes</i>  parameter. To read the segment data values correctly, you will need to know the type of each segment in the geometry figure. For example, if the first line segment has a segment type value of <b>XPS_SEGMENT_TYPE_LINE</b>, the first two data values in the <i>segmentData</i> array will be the x and y coordinates of the end point of  that segment; if the next segment has a segment type value of <b>XPS_SEGMENT_TYPE_BEZIER</b>, the next six values in the <i>segmentData</i> array will describe the characteristics of that segment; and so on for each line segment in the geometry figure.
 
 The table that follows describes the specific set of data values that are returned for each segment type. For an example of how to access this data in a program, see the code example that follows.
 
@@ -413,19 +413,19 @@ The following code example accesses the different data points of each segment ty
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomgeometryfigure-getsegmentcount">GetSegmentCount</a>
+<a href="/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomgeometryfigure-getsegmentcount">GetSegmentCount</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomgeometryfigure-getsegmentdatacount">GetSegmentDataCount</a>
+<a href="/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomgeometryfigure-getsegmentdatacount">GetSegmentDataCount</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomgeometryfigure-getsegmenttypes">GetSegmentTypes</a>
+<a href="/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomgeometryfigure-getsegmenttypes">GetSegmentTypes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomgeometryfigure">IXpsOMGeometryFigure</a>
+<a href="/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomgeometryfigure">IXpsOMGeometryFigure</a>
 
 
 
@@ -433,5 +433,4 @@ The following code example accesses the different data points of each segment ty
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>
-
+<a href="/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>

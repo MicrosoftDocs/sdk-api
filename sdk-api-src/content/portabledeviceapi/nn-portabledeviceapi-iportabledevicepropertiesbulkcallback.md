@@ -51,13 +51,13 @@ api_name:
 
 ## -description
 
-The <b>IPortableDevicePropertiesBulkCallback</b> interface is implemented by the application to track the progress of an asynchronous operation that was begun by using the <a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nn-portabledeviceapi-iportabledevicepropertiesbulk">IPortableDevicePropertiesBulk</a> interface.
+The <b>IPortableDevicePropertiesBulkCallback</b> interface is implemented by the application to track the progress of an asynchronous operation that was begun by using the <a href="/windows/desktop/api/portabledeviceapi/nn-portabledeviceapi-iportabledevicepropertiesbulk">IPortableDevicePropertiesBulk</a> interface.
 
-After the application calls <a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledevicepropertiesbulk-start">IPortableDevicePropertiesBulk::Start</a>, Windows Portable Devices calls <b>IPortableDevicePropertiesBulkCallback::OnStart</b> first, and then repeatedly calls <b>IPortableDevicePropertiesBulkCallback::OnProgress</b> with information until the operation is completed or the application calls <a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledevicepropertiesbulk-cancel">IPortableDevicePropertiesBulk::Cancel</a> or returns an error value for <b>OnProgress</b>. Finally, regardless of whether the operation completed successfully, Windows Portable Devices calls <b>IPortableDevicePropertiesBulkCallback::OnEnd</b>.
+After the application calls <a href="/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledevicepropertiesbulk-start">IPortableDevicePropertiesBulk::Start</a>, Windows Portable Devices calls <b>IPortableDevicePropertiesBulkCallback::OnStart</b> first, and then repeatedly calls <b>IPortableDevicePropertiesBulkCallback::OnProgress</b> with information until the operation is completed or the application calls <a href="/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledevicepropertiesbulk-cancel">IPortableDevicePropertiesBulk::Cancel</a> or returns an error value for <b>OnProgress</b>. Finally, regardless of whether the operation completed successfully, Windows Portable Devices calls <b>IPortableDevicePropertiesBulkCallback::OnEnd</b>.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPortableDevicePropertiesBulkCallback</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPortableDevicePropertiesBulkCallback</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPortableDevicePropertiesBulkCallback</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPortableDevicePropertiesBulkCallback</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,7 +72,7 @@ The <b>IPortableDevicePropertiesBulkCallback</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledevicepropertiesbulkcallback-onend">OnEnd</a>
+<a href="/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledevicepropertiesbulkcallback-onend">OnEnd</a>
 </td>
 <td align="left" width="63%">
 Called by the SDK when a bulk operation started by <b>IPortableDevicePropertiesBulk::Start</b> is completed.
@@ -81,7 +81,7 @@ Called by the SDK when a bulk operation started by <b>IPortableDevicePropertiesB
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledevicepropertiesbulkcallback-onprogress">OnProgress</a>
+<a href="/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledevicepropertiesbulkcallback-onprogress">OnProgress</a>
 </td>
 <td align="left" width="63%">
 Called by the SDK when a bulk operation started by <b>IPortableDevicePropertiesBulk::Start</b> has sent data to the device and received some information back.
@@ -90,7 +90,7 @@ Called by the SDK when a bulk operation started by <b>IPortableDevicePropertiesB
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledevicepropertiesbulkcallback-onstart">OnStart</a>
+<a href="/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledevicepropertiesbulkcallback-onstart">OnStart</a>
 </td>
 <td align="left" width="63%">
 Called by the SDK when a bulk operation started by <b>IPortableDevicePropertiesBulk::Start</b> is about to begin.
@@ -101,5 +101,4 @@ Called by the SDK when a bulk operation started by <b>IPortableDevicePropertiesB
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/wpd_sdk/client-interfaces">Client Interfaces</a>
-
+<a href="/windows/desktop/wpd_sdk/client-interfaces">Client Interfaces</a>

@@ -52,9 +52,9 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, this function has been deprecated.  Please use <a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_get_device_id_list_sizea">CM_Get_Device_ID_List_Size</a> instead.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, this function has been deprecated.  Please use <a href="/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_get_device_id_list_sizea">CM_Get_Device_ID_List_Size</a> instead.]
 
-The <b>CM_Get_Device_ID_List_Size_Ex</b> function retrieves the buffer size required to hold a list of <a href="https://docs.microsoft.com/windows-hardware/drivers/install/device-instance-ids">device instance IDs</a> for a local or a remote machine's <a href="https://docs.microsoft.com/windows-hardware/drivers/">device instances</a>.
+The <b>CM_Get_Device_ID_List_Size_Ex</b> function retrieves the buffer size required to hold a list of <a href="/windows-hardware/drivers/install/device-instance-ids">device instance IDs</a> for a local or a remote machine's <a href="/windows-hardware/drivers/">device instances</a>.
 
 ## -parameters
 
@@ -68,11 +68,11 @@ Caller-supplied pointer to a character string specifying a subset of the machine
 
 ### -param ulFlags [in]
 
-One of the optional, caller-supplied bit flags that specify search filters. If no flags are specified, the function supplies the buffer size required to hold all instance identifiers for all device instances. For a list of bit flags, see the <i>ulFlags</i> description for <a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_get_device_id_list_exw">CM_Get_Device_ID_List_Ex</a>.
+One of the optional, caller-supplied bit flags that specify search filters. If no flags are specified, the function supplies the buffer size required to hold all instance identifiers for all device instances. For a list of bit flags, see the <i>ulFlags</i> description for <a href="/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_get_device_id_list_exw">CM_Get_Device_ID_List_Ex</a>.
 
 ### -param hMachine [in, optional]
 
-Caller-supplied machine handle, obtained from a previous call to <a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_connect_machinew">CM_Connect_Machine</a>.
+Caller-supplied machine handle, obtained from a previous call to <a href="/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_connect_machinew">CM_Connect_Machine</a>.
 
 <div class="alert"><b>Note</b>  Using this function to access remote machines is not supported beginning with Windows 8 and Windows Server 2012, as this functionality has been removed.</div>
 <div> </div>
@@ -83,15 +83,14 @@ If the operation succeeds, the function returns CR_SUCCESS. Otherwise, it return
 
 ## -remarks
 
-The <b>CM_Get_Device_ID_List_Size_Ex</b> function should be called to determine the buffer size required by <a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_get_device_id_list_exw">CM_Get_Device_ID_List_Ex</a>.
+The <b>CM_Get_Device_ID_List_Size_Ex</b> function should be called to determine the buffer size required by <a href="/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_get_device_id_list_exw">CM_Get_Device_ID_List_Ex</a>.
 
-The size value supplied in the location pointed to by <i>pulLen</i> is guaranteed to represent a buffer size large enough to hold all device instance identifier strings and terminating NULLs. The supplied value might actually represent a buffer size that is larger than necessary, so don't assume the value represents the true length of the character strings that <a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_get_device_id_list_exw">CM_Get_Device_ID_List_Ex</a> will provide.
+The size value supplied in the location pointed to by <i>pulLen</i> is guaranteed to represent a buffer size large enough to hold all device instance identifier strings and terminating NULLs. The supplied value might actually represent a buffer size that is larger than necessary, so don't assume the value represents the true length of the character strings that <a href="/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_get_device_id_list_exw">CM_Get_Device_ID_List_Ex</a> will provide.
 
-For information about device instance IDs, see <a href="https://docs.microsoft.com/windows-hardware/drivers/install/device-identification-strings">Device Identification Strings</a>.
+For information about device instance IDs, see <a href="/windows-hardware/drivers/install/device-identification-strings">Device Identification Strings</a>.
 
  Functionality to access remote machines has been removed in Windows 8 and Windows Server 2012 and later operating systems thus you cannot access remote machines when running on these versions of Windows.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_get_device_id_list_sizea">CM_Get_Device_ID_List_Size</a>
-
+<a href="/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_get_device_id_list_sizea">CM_Get_Device_ID_List_Size</a>

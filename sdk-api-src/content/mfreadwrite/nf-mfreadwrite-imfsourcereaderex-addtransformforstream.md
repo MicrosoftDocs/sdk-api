@@ -103,8 +103,8 @@ The first audio stream.
 A pointer to one of the following:
 
 <ul>
-<li>A Media Foundation transform (MFT) that exposes the <a href="https://docs.microsoft.com/windows/desktop/api/mftransform/nn-mftransform-imftransform">IMFTransform</a> interface.</li>
-<li>An MFT activation object that exposes the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfactivate">IMFActivate</a> interface.</li>
+<li>A Media Foundation transform (MFT) that exposes the <a href="/windows/desktop/api/mftransform/nn-mftransform-imftransform">IMFTransform</a> interface.</li>
+<li>An MFT activation object that exposes the <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfactivate">IMFActivate</a> interface.</li>
 </ul>
 
 ## -returns
@@ -169,24 +169,23 @@ This method attempts to add the transform at the end of the current processing c
 To use this method, make the following sequence of calls:
 
 <ol>
-<li>Call <a href="https://docs.microsoft.com/windows/desktop/api/mfreadwrite/nf-mfreadwrite-imfsourcereader-setcurrentmediatype">IMFSourceReader::SetCurrentMediaType</a> to set the output type that you want for the stream. In this step, you can specify a media type that contains only the major type and subtype GUIDs. For example, to get 32-bit RGB output, set a major type of <b>MFMediaType_Video</b> and a subtype of <b>MFVideoFormat_RGB32</b>. (For more information, see <a href="https://docs.microsoft.com/windows/desktop/medfound/media-type-guids">Media Type GUIDs</a>.)</li>
+<li>Call <a href="/windows/desktop/api/mfreadwrite/nf-mfreadwrite-imfsourcereader-setcurrentmediatype">IMFSourceReader::SetCurrentMediaType</a> to set the output type that you want for the stream. In this step, you can specify a media type that contains only the major type and subtype GUIDs. For example, to get 32-bit RGB output, set a major type of <b>MFMediaType_Video</b> and a subtype of <b>MFVideoFormat_RGB32</b>. (For more information, see <a href="/windows/desktop/medfound/media-type-guids">Media Type GUIDs</a>.)</li>
 <li>Call <b>AddTransformForStream</b>. If the Source Reader successfully connects the transform, it sets the output type on the transform.</li>
-<li>Call <a href="https://docs.microsoft.com/windows/desktop/api/mfreadwrite/nf-mfreadwrite-imfsourcereader-getcurrentmediatype">IMFSourceReader::GetCurrentMediaType</a> to get the output type from the transform. This method returns a media type with a complete format description.</li>
-<li>Optionally, if you want to modify the output type, call <a href="https://docs.microsoft.com/windows/desktop/api/mfreadwrite/nf-mfreadwrite-imfsourcereader-setcurrentmediatype">IMFSourceReader::SetCurrentMediaType</a> again to set a complete media type on the transform.</li>
+<li>Call <a href="/windows/desktop/api/mfreadwrite/nf-mfreadwrite-imfsourcereader-getcurrentmediatype">IMFSourceReader::GetCurrentMediaType</a> to get the output type from the transform. This method returns a media type with a complete format description.</li>
+<li>Optionally, if you want to modify the output type, call <a href="/windows/desktop/api/mfreadwrite/nf-mfreadwrite-imfsourcereader-setcurrentmediatype">IMFSourceReader::SetCurrentMediaType</a> again to set a complete media type on the transform.</li>
 </ol>
-The <b>AddTransformForStream</b> method will not insert a decoder into the processing chain. If the native stream format is encoded, and the transform requires an uncompressed format, call <a href="https://docs.microsoft.com/windows/desktop/api/mfreadwrite/nf-mfreadwrite-imfsourcereader-setcurrentmediatype">SetCurrentMediaType</a> to set the uncompressed format (step 1 in the previous list). However, the method will insert a video processor to convert between RGB and YUV formats, if required.
+The <b>AddTransformForStream</b> method will not insert a decoder into the processing chain. If the native stream format is encoded, and the transform requires an uncompressed format, call <a href="/windows/desktop/api/mfreadwrite/nf-mfreadwrite-imfsourcereader-setcurrentmediatype">SetCurrentMediaType</a> to set the uncompressed format (step 1 in the previous list). However, the method will insert a video processor to convert between RGB and YUV formats, if required.
 
-The method fails if the source reader was configured with the <a href="https://docs.microsoft.com/windows/desktop/medfound/mf-readwrite-disable-converters">MF_READWRITE_DISABLE_CONVERTERS</a> or <a href="https://docs.microsoft.com/windows/desktop/medfound/mf-source-reader-enable-video-processing">MF_SOURCE_READER_ENABLE_VIDEO_PROCESSING</a> attributes. 
+The method fails if the source reader was configured with the <a href="/windows/desktop/medfound/mf-readwrite-disable-converters">MF_READWRITE_DISABLE_CONVERTERS</a> or <a href="/windows/desktop/medfound/mf-source-reader-enable-video-processing">MF_SOURCE_READER_ENABLE_VIDEO_PROCESSING</a> attributes. 
 
-In asynchronous mode, the method also fails if a sample request is pending. In that case, wait for the <a href="https://docs.microsoft.com/windows/desktop/api/mfreadwrite/nf-mfreadwrite-imfsourcereadercallback-onreadsample">OnReadSample</a> callback to be invoked before calling the method. For more information about using the Source Reader in asynchronous mode, see <a href="https://docs.microsoft.com/windows/desktop/api/mfreadwrite/nf-mfreadwrite-imfsourcereader-readsample">IMFSourceReader::ReadSample</a>.
+In asynchronous mode, the method also fails if a sample request is pending. In that case, wait for the <a href="/windows/desktop/api/mfreadwrite/nf-mfreadwrite-imfsourcereadercallback-onreadsample">OnReadSample</a> callback to be invoked before calling the method. For more information about using the Source Reader in asynchronous mode, see <a href="/windows/desktop/api/mfreadwrite/nf-mfreadwrite-imfsourcereader-readsample">IMFSourceReader::ReadSample</a>.
 
 You can add a transform at any time during streaming. However, the method does not flush or drain the pipeline before inserting the transform. Therefore, if data is already in the pipeline, the next sample is not guaranteed to have the transform applied.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfreadwrite/nn-mfreadwrite-imfsourcereaderex">IMFSourceReaderEx</a>
+<a href="/windows/desktop/api/mfreadwrite/nn-mfreadwrite-imfsourcereaderex">IMFSourceReaderEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/source-reader">Source Reader</a>
-
+<a href="/windows/desktop/medfound/source-reader">Source Reader</a>

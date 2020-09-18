@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-The <b>EngDeletePath</b> function deletes a path previously allocated by <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engcreatepath">EngCreatePath</a>.
+The <b>EngDeletePath</b> function deletes a path previously allocated by <a href="/windows/desktop/api/winddi/nf-winddi-engcreatepath">EngCreatePath</a>.
 
 ## -parameters
 
 ### -param ppo
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-pathobj">PATHOBJ</a> structure to be deleted.
+Pointer to the <a href="/windows/desktop/api/winddi/ns-winddi-pathobj">PATHOBJ</a> structure to be deleted.
 
 ## -returns
 
@@ -64,5 +64,4 @@ None
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engcreatepath">EngCreatePath</a>
-
+<a href="/windows/desktop/api/winddi/nf-winddi-engcreatepath">EngCreatePath</a>

@@ -55,7 +55,7 @@ api_name:
 
 the client in Msdrm.dll is available for use in Windows Server 2008, Windows Vista, Windows Server 2008 R2, Windows 7, Windows Server 2012, and Windows 8. It may be altered or 
 
-unavailable in subsequent versions. Instead, use <a href="https://docs.microsoft.com/previous-versions/windows/desktop/msipc/microsoft-information-protection-and-control-client-portal">Active Directory Rights Management Services SDK 2.1</a>, 
+unavailable in subsequent versions. Instead, use <a href="/previous-versions/windows/desktop/msipc/microsoft-information-protection-and-control-client-portal">Active Directory Rights Management Services SDK 2.1</a>, 
 
 which leverages functionality exposed by the client in Msipc.dll.]
 
@@ -95,13 +95,13 @@ A pointer to a null-terminated Unicode string that contains a display name for t
 
 If the function succeeds, the function returns S_OK.
 
-If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following list. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
+If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following list. For a list of common error codes, see <a href="/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 ## -remarks
 
-The <b>DRMSetMetaData</b> function is typically called after <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmcreateissuancelicense">DRMCreateIssuanceLicense</a> to set the content ID, name, and type in an issuance license for a specific item of content. The function is also called before <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmcreateboundlicense">DRMCreateBoundLicense</a> or <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmenumeratelicense">DRMEnumerateLicense</a>.
+The <b>DRMSetMetaData</b> function is typically called after <a href="/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmcreateissuancelicense">DRMCreateIssuanceLicense</a> to set the content ID, name, and type in an issuance license for a specific item of content. The function is also called before <a href="/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmcreateboundlicense">DRMCreateBoundLicense</a> or <a href="/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmenumeratelicense">DRMEnumerateLicense</a>.
 
-Content IDs are created and set in issuance licenses by a publishing application. For example, the application can call <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmcreateissuancelicense">DRMCreateIssuanceLicense</a> to create a new issuance license. It can then call <b>CoCreateGUID</b> to  create a unique ID and <b>DRMSetMetaData</b> to associate the ID with the license. The AD RMS client places the ID in the &lt;WORK&gt; node of the issuance license as shown by the following diagram. For more information, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/adrms_sdk/creating-an-issuance-license">Creating an Issuance License</a>.
+Content IDs are created and set in issuance licenses by a publishing application. For example, the application can call <a href="/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmcreateissuancelicense">DRMCreateIssuanceLicense</a> to create a new issuance license. It can then call <b>CoCreateGUID</b> to  create a unique ID and <b>DRMSetMetaData</b> to associate the ID with the license. The AD RMS client places the ID in the &lt;WORK&gt; node of the issuance license as shown by the following diagram. For more information, see <a href="/previous-versions/windows/desktop/adrms_sdk/creating-an-issuance-license">Creating an Issuance License</a>.
 
 <pre class="syntax" xml:space="preserve"><code>&lt;WORK&gt;
    &lt;OBJECT type="Microsoft Office Document"&gt;
@@ -112,17 +112,16 @@ Content IDs are created and set in issuance licenses by a publishing application
     .
     .
 &lt;/WORK&gt;</code></pre>
-After an issuance license has been created, a consuming application can use it to acquire an end–user license. For more information, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmacquirelicense">DRMAcquireLicense</a>. The appropriate &lt;WORK&gt; nodes and their respective content IDs are copied from the issuance license to the end–user license.
+After an issuance license has been created, a consuming application can use it to acquire an end–user license. For more information, see <a href="/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmacquirelicense">DRMAcquireLicense</a>. The appropriate &lt;WORK&gt; nodes and their respective content IDs are copied from the issuance license to the end–user license.
 
-Once an end–user license has been acquired, consuming applications internally use the content ID to bind to that license. For more information, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmcreateboundlicense">DRMCreateBoundLicense</a>. Binding verifies the license chain, principals, and environment, and removes all rights that do not apply to the specified user. The bound license can then be used to decrypt protected content.
+Once an end–user license has been acquired, consuming applications internally use the content ID to bind to that license. For more information, see <a href="/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmcreateboundlicense">DRMCreateBoundLicense</a>. Binding verifies the license chain, principals, and environment, and removes all rights that do not apply to the specified user. The bound license can then be used to decrypt protected content.
 
-Finally, the content ID can be used to enumerate end–user licenses. For more information, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmenumeratelicense">DRMEnumerateLicense</a> and <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmcreatelicensestoragesession">DRMCreateLicenseStorageSession</a>. The content ID is used to locate an end–user license in the license store.
+Finally, the content ID can be used to enumerate end–user licenses. For more information, see <a href="/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmenumeratelicense">DRMEnumerateLicense</a> and <a href="/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmcreatelicensestoragesession">DRMCreateLicenseStorageSession</a>. The content ID is used to locate an end–user license in the license store.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/adrms_sdk/ad-rms-functions">AD RMS Functions</a>
+<a href="/previous-versions/windows/desktop/adrms_sdk/ad-rms-functions">AD RMS Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmgetmetadata">DRMGetMetaData</a>
-
+<a href="/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmgetmetadata">DRMGetMetaData</a>

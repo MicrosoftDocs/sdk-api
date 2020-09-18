@@ -117,9 +117,8 @@ The settings of a bandwidth sharing object are purely informational. They are no
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmbandwidthsharing">IWMBandwidthSharing Interface</a>
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmbandwidthsharing">IWMBandwidthSharing Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmbandwidthsharing-gettype">IWMBandwidthSharing::GetType</a>
-
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmbandwidthsharing-gettype">IWMBandwidthSharing::GetType</a>

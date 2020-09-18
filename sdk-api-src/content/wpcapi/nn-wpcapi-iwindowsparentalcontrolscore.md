@@ -54,7 +54,7 @@ The **IWindowsParentalControlsCore** interface is used to retrieve pointers for 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWindowsParentalControlsCore</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWindowsParentalControlsCore</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWindowsParentalControlsCore</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWindowsParentalControlsCore</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IWindowsParentalControlsCore</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wpcapi/nf-wpcapi-iwindowsparentalcontrolscore-getusersettings">GetUserSettings</a>
+<a href="/windows/desktop/api/wpcapi/nf-wpcapi-iwindowsparentalcontrolscore-getusersettings">GetUserSettings</a>
 </td>
 <td align="left" width="63%">
 Retrieves a pointer to an interface for general settings for the specified user.
@@ -78,7 +78,7 @@ Retrieves a pointer to an interface for general settings for the specified user.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wpcapi/nf-wpcapi-iwindowsparentalcontrolscore-getvisibility">GetVisibility</a>
+<a href="/windows/desktop/api/wpcapi/nf-wpcapi-iwindowsparentalcontrolscore-getvisibility">GetVisibility</a>
 </td>
 <td align="left" width="63%">
 Indicates the visibility of the Parental Controls user interface.
@@ -87,7 +87,7 @@ Indicates the visibility of the Parental Controls user interface.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wpcapi/nf-wpcapi-iwindowsparentalcontrolscore-getwebfilterinfo">GetWebFilterInfo</a>
+<a href="/windows/desktop/api/wpcapi/nf-wpcapi-iwindowsparentalcontrolscore-getwebfilterinfo">GetWebFilterInfo</a>
 </td>
 <td align="left" width="63%">
 Retrieves the name and identifier of the currently active Web Content Filter.
@@ -96,7 +96,7 @@ Retrieves the name and identifier of the currently active Web Content Filter.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wpcapi/nf-wpcapi-iwindowsparentalcontrolscore-getwebsettings">GetWebSettings</a>
+<a href="/windows/desktop/api/wpcapi/nf-wpcapi-iwindowsparentalcontrolscore-getwebsettings">GetWebSettings</a>
 </td>
 <td align="left" width="63%">
 Retrieves a pointer to an interface for web restrictions settings for the specified user.
@@ -104,4 +104,3 @@ Retrieves a pointer to an interface for web restrictions settings for the specif
 </td>
 </tr>
 </table>
-

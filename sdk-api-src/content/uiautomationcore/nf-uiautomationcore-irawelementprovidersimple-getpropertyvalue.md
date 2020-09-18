@@ -58,26 +58,26 @@ Retrieves the value of a property supported by the Microsoft UI Automation provi
 
 Type: <b>PROPERTYID</b>
 
-The property identifier. For a list of property IDs, see <a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-entry-propids">Property Identifiers</a>.
+The property identifier. For a list of property IDs, see <a href="/windows/desktop/WinAuto/uiauto-entry-propids">Property Identifiers</a>.
 
 ### -param pRetVal [out, retval]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinAuto/variant-structure">VARIANT</a>*</b>
+Type: <b><a href="/windows/desktop/WinAuto/variant-structure">VARIANT</a>*</b>
 
 Receives the property value, or <b>VT_EMPTY</b> if the property is not supported by this
 				provider. This parameter is passed uninitialized. See Remarks.
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
-If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an  <a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an  <a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a> error code.
 
 If the provider does not support the <i>propertyId</i> property, the provider should set <i>pRetVal-&gt;vt</i> to <b>VT_EMPTY</b> and return <b>S_OK</b>.
 
 ## -remarks
 
-If a provider is explicitly hiding the property value (that is, the provider does not supply the property, and the request is not to be passed through to other providers), it should return a pointer obtained by using the             <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcoreapi/nf-uiautomationcoreapi-uiagetreservednotsupportedvalue">UiaGetReservedNotSupportedValue</a> function. For example: 
+If a provider is explicitly hiding the property value (that is, the provider does not supply the property, and the request is not to be passed through to other providers), it should return a pointer obtained by using the             <a href="/windows/desktop/api/uiautomationcoreapi/nf-uiautomationcoreapi-uiagetreservednotsupportedvalue">UiaGetReservedNotSupportedValue</a> function. For example: 
             
 
 
@@ -110,7 +110,7 @@ numeric_limits<double>::quiet_NaN( )
 #### Examples
 
 The following example returns various property values. The <b>UiaIds</b> structure contains
-            property identifiers; to see how it is initialized, see <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcoreapi/nf-uiautomationcoreapi-uialookupid">UiaLookupId</a>.
+            property identifiers; to see how it is initialized, see <a href="/windows/desktop/api/uiautomationcoreapi/nf-uiautomationcoreapi-uialookupid">UiaLookupId</a>.
 			
 
 
@@ -146,5 +146,4 @@ HRESULT STDMETHODCALLTYPE Provider::GetPropertyValue(PROPERTYID propertyId,
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nn-uiautomationcore-irawelementprovidersimple">IRawElementProviderSimple</a>
-
+<a href="/windows/desktop/api/uiautomationcore/nn-uiautomationcore-irawelementprovidersimple">IRawElementProviderSimple</a>

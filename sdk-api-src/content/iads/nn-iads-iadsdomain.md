@@ -50,11 +50,11 @@ api_name:
 
 ## -description
 
-The <b>IADsDomain</b> interface is a dual interface that inherits from  <a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iads">IADs</a>. It is designed to represent a network domain and manage domain accounts. Use this interface to determine whether the domain is actually a Workgroup, to specify how frequently a user must change a password, and to specify the maximum number of invalid password logins allowed before a lockout on the account is set. To change a password, call the <b>ChangePassword</b> method on an ADSI object that supports password controls. For example, to change the password of a user account, call  <a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadsuser-changepassword">IADsUser::ChangePassword</a> on the user object.
+The <b>IADsDomain</b> interface is a dual interface that inherits from  <a href="/windows/desktop/api/iads/nn-iads-iads">IADs</a>. It is designed to represent a network domain and manage domain accounts. Use this interface to determine whether the domain is actually a Workgroup, to specify how frequently a user must change a password, and to specify the maximum number of invalid password logins allowed before a lockout on the account is set. To change a password, call the <b>ChangePassword</b> method on an ADSI object that supports password controls. For example, to change the password of a user account, call  <a href="/windows/desktop/api/iads/nf-iads-iadsuser-changepassword">IADsUser::ChangePassword</a> on the user object.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IADsDomain</b> interface inherits from <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> and <a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iads">IADs</a>. <b>IADsDomain</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IADsDomain</b> interface inherits from <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> and <a href="/windows/desktop/api/iads/nn-iads-iads">IADs</a>. <b>IADsDomain</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -70,7 +70,7 @@ The <b>IADsDomain</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iads-get">Get</a>
+<a href="/windows/desktop/api/iads/nf-iads-iads-get">Get</a>
 </td>
 <td align="left" width="63%">
 Gets the value for a property by name.
@@ -79,7 +79,7 @@ Gets the value for a property by name.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iads-getex">GetEx</a>
+<a href="/windows/desktop/api/iads/nf-iads-iads-getex">GetEx</a>
 </td>
 <td align="left" width="63%">
 Gets the value for a single or multi-valued property by name.
@@ -88,7 +88,7 @@ Gets the value for a single or multi-valued property by name.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iads-getinfo">GetInfo</a>
+<a href="/windows/desktop/api/iads/nf-iads-iads-getinfo">GetInfo</a>
 </td>
 <td align="left" width="63%">
 Loads the property values of this object from the underlying directory store.
@@ -97,7 +97,7 @@ Loads the property values of this object from the underlying directory store.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iads-getinfoex">GetInfoEx</a>
+<a href="/windows/desktop/api/iads/nf-iads-iads-getinfoex">GetInfoEx</a>
 </td>
 <td align="left" width="63%">
 Loads specific property values of this object from the underlying directory store.
@@ -106,7 +106,7 @@ Loads specific property values of this object from the underlying directory stor
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iads-put">Put</a>
+<a href="/windows/desktop/api/iads/nf-iads-iads-put">Put</a>
 </td>
 <td align="left" width="63%">
 Sets the value for a property by name.
@@ -115,7 +115,7 @@ Sets the value for a property by name.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iads-putex">PutEx</a>
+<a href="/windows/desktop/api/iads/nf-iads-iads-putex">PutEx</a>
 </td>
 <td align="left" width="63%">
 Sets the value for a single or multi-valued property by name.
@@ -124,7 +124,7 @@ Sets the value for a single or multi-valued property by name.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iads-setinfo">SetInfo</a>
+<a href="/windows/desktop/api/iads/nf-iads-iads-setinfo">SetInfo</a>
 </td>
 <td align="left" width="63%">
 Persists the changes on this object to the underlying directory store.
@@ -142,7 +142,7 @@ Persists the changes on this object to the underlying directory store.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/iads-property-methods">AdsPath</a>
+<a href="/windows/desktop/ADSI/iads-property-methods">AdsPath</a>
 
 
 </td>
@@ -158,7 +158,7 @@ Retrieves the object ADsPath that uniquely identifies this object.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/iadsdomain-property-methods">AutoUnlockInterval</a>
+<a href="/windows/desktop/ADSI/iadsdomain-property-methods">AutoUnlockInterval</a>
 
 
 </td>
@@ -174,7 +174,7 @@ Gets and sets the minimum time that can elapse before an account is automaticall
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/iads-property-methods">Class</a>
+<a href="/windows/desktop/ADSI/iads-property-methods">Class</a>
 
 
 </td>
@@ -190,7 +190,7 @@ Retrieves the name of the object schema class.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/iads-property-methods">GUID</a>
+<a href="/windows/desktop/ADSI/iads-property-methods">GUID</a>
 
 
 </td>
@@ -206,7 +206,7 @@ Retrieves the GUID of the object as stored in the underlying directory store.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/iadsdomain-property-methods">IsWorkgroup</a>
+<a href="/windows/desktop/ADSI/iadsdomain-property-methods">IsWorkgroup</a>
 
 
 </td>
@@ -222,7 +222,7 @@ This property is no longer implemented.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/iadsdomain-property-methods">LockoutObservationInterval</a>
+<a href="/windows/desktop/ADSI/iadsdomain-property-methods">LockoutObservationInterval</a>
 
 
 </td>
@@ -238,7 +238,7 @@ Gets and sets the time window for monitoring the account.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/iadsdomain-property-methods">MaxBadPasswordsAllowed</a>
+<a href="/windows/desktop/ADSI/iadsdomain-property-methods">MaxBadPasswordsAllowed</a>
 
 
 </td>
@@ -254,7 +254,7 @@ Gets and sets the maximum number of bad password logins allowed before an accoun
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/iadsdomain-property-methods">MaxPasswordAge</a>
+<a href="/windows/desktop/ADSI/iadsdomain-property-methods">MaxPasswordAge</a>
 
 
 </td>
@@ -270,7 +270,7 @@ Gets and sets the age at which the password must be changed.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/iadsdomain-property-methods">MinPasswordAge</a>
+<a href="/windows/desktop/ADSI/iadsdomain-property-methods">MinPasswordAge</a>
 
 
 </td>
@@ -286,7 +286,7 @@ Gets and sets the minimum age that a password must have before it can be changed
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/iadsdomain-property-methods">MinPasswordLength</a>
+<a href="/windows/desktop/ADSI/iadsdomain-property-methods">MinPasswordLength</a>
 
 
 </td>
@@ -302,7 +302,7 @@ Gets and sets the minimum number of characters required in the password.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/iads-property-methods">Name</a>
+<a href="/windows/desktop/ADSI/iads-property-methods">Name</a>
 
 
 </td>
@@ -318,7 +318,7 @@ Retrieves the object relative name.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/iads-property-methods">Parent</a>
+<a href="/windows/desktop/ADSI/iads-property-methods">Parent</a>
 
 
 </td>
@@ -334,7 +334,7 @@ Retrieves the ADsPath string for the object parent.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/iadsdomain-property-methods">PasswordAttributes</a>
+<a href="/windows/desktop/ADSI/iadsdomain-property-methods">PasswordAttributes</a>
 
 
 </td>
@@ -350,7 +350,7 @@ Gets and sets password restrictions.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/iadsdomain-property-methods">PasswordHistoryLength</a>
+<a href="/windows/desktop/ADSI/iadsdomain-property-methods">PasswordHistoryLength</a>
 
 
 </td>
@@ -366,7 +366,7 @@ Gets and sets the number of passwords saved.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/iads-property-methods">Schema</a>
+<a href="/windows/desktop/ADSI/iads-property-methods">Schema</a>
 
 
 </td>
@@ -387,18 +387,17 @@ For the WinNT provider supplied by Microsoft, this interface is implemented on t
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iads">IADs</a>
+<a href="/windows/desktop/api/iads/nn-iads-iads">IADs</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/iadsdomain-property-methods">IADsDomain Property
+<a href="/windows/desktop/ADSI/iadsdomain-property-methods">IADsDomain Property
     Methods</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadsuser-setpassword">IADsUser::SetPassword</a>
+<a href="/windows/desktop/api/iads/nf-iads-iadsuser-setpassword">IADsUser::SetPassword</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
-
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>

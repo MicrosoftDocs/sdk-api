@@ -77,5 +77,4 @@ The name of the protocol to use when contacting the service.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-getservbyname">getservbyname</a>
-
+<a href="/windows/desktop/api/winsock/nf-winsock-getservbyname">getservbyname</a>

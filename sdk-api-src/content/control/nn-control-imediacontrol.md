@@ -51,11 +51,11 @@ api_name:
 
 ## -description
 
-The <code>IMediaControl</code> interface provides methods for controlling the flow of data through the filter graph. It includes methods for running, pausing, and stopping the graph. The Filter Graph Manager implements this interface. For more information on filter graph states, see <a href="https://docs.microsoft.com/windows/desktop/DirectShow/data-flow-in-the-filter-graph">Data Flow in the Filter Graph</a>.
+The <code>IMediaControl</code> interface provides methods for controlling the flow of data through the filter graph. It includes methods for running, pausing, and stopping the graph. The Filter Graph Manager implements this interface. For more information on filter graph states, see <a href="/windows/desktop/DirectShow/data-flow-in-the-filter-graph">Data Flow in the Filter Graph</a>.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMediaControl</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IMediaControl</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMediaControl</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IMediaControl</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>IMediaControl</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/control/nf-control-imediacontrol-addsourcefilter">AddSourceFilter</a>
+<a href="/windows/desktop/api/control/nf-control-imediacontrol-addsourcefilter">AddSourceFilter</a>
 </td>
 <td align="left" width="63%">
 Intended for Visual Basic 6.0; not documented here.
@@ -79,7 +79,7 @@ Intended for Visual Basic 6.0; not documented here.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/control/nf-control-imediacontrol-get_filtercollection">get_FilterCollection</a>
+<a href="/windows/desktop/api/control/nf-control-imediacontrol-get_filtercollection">get_FilterCollection</a>
 </td>
 <td align="left" width="63%">
 Intended for Visual Basic 6.0; not documented here.
@@ -88,7 +88,7 @@ Intended for Visual Basic 6.0; not documented here.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/control/nf-control-imediacontrol-get_regfiltercollection">get_RegFilterCollection</a>
+<a href="/windows/desktop/api/control/nf-control-imediacontrol-get_regfiltercollection">get_RegFilterCollection</a>
 </td>
 <td align="left" width="63%">
 Intended for Visual Basic 6.0; not documented here.
@@ -97,7 +97,7 @@ Intended for Visual Basic 6.0; not documented here.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/control/nf-control-imediacontrol-getstate">GetState</a>
+<a href="/windows/desktop/api/control/nf-control-imediacontrol-getstate">GetState</a>
 </td>
 <td align="left" width="63%">
 Retrieves the state of the filter graph.
@@ -106,7 +106,7 @@ Retrieves the state of the filter graph.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/control/nf-control-imediacontrol-pause">Pause</a>
+<a href="/windows/desktop/api/control/nf-control-imediacontrol-pause">Pause</a>
 </td>
 <td align="left" width="63%">
 Pauses all filters in the filter graph.
@@ -115,7 +115,7 @@ Pauses all filters in the filter graph.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/control/nf-control-imediacontrol-renderfile">RenderFile</a>
+<a href="/windows/desktop/api/control/nf-control-imediacontrol-renderfile">RenderFile</a>
 </td>
 <td align="left" width="63%">
 Intended for Visual Basic 6.0; not documented here.
@@ -124,7 +124,7 @@ Intended for Visual Basic 6.0; not documented here.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/control/nf-control-imediacontrol-run">Run</a>
+<a href="/windows/desktop/api/control/nf-control-imediacontrol-run">Run</a>
 </td>
 <td align="left" width="63%">
 Runs all the filters in the filter graph.
@@ -133,7 +133,7 @@ Runs all the filters in the filter graph.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/control/nf-control-imediacontrol-stop">Stop</a>
+<a href="/windows/desktop/api/control/nf-control-imediacontrol-stop">Stop</a>
 </td>
 <td align="left" width="63%">
 Stops all the filters in the filter graph.
@@ -142,7 +142,7 @@ Stops all the filters in the filter graph.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/control/nf-control-imediacontrol-stopwhenready">StopWhenReady</a>
+<a href="/windows/desktop/api/control/nf-control-imediacontrol-stopwhenready">StopWhenReady</a>
 </td>
 <td align="left" width="63%">
 Pauses the filter graph, allowing filters to queue data, and then stops the filter graph.
@@ -153,5 +153,4 @@ Pauses the filter graph, allowing filters to queue data, and then stops the filt
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
-
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>

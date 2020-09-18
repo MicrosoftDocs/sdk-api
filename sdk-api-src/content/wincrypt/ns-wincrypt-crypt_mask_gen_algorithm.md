@@ -60,7 +60,7 @@ The <b>CRYPT_MASK_GEN_ALGORITHM</b> structure identifies the algorithm used to g
 
 ### -field pszObjId
 
-The address of a null-terminated ANSI string that contains the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly">object identifier</a> (OID) of the mask generation algorithm. This can be the following value or any other mask generation function OID.
+The address of a null-terminated ANSI string that contains the <a href="/windows/desktop/SecGloss/o-gly">object identifier</a> (OID) of the mask generation algorithm. This can be the following value or any other mask generation function OID.
 
 <table>
 <tr>
@@ -82,13 +82,12 @@ The RSA MGF1 function.
 
 ### -field HashAlgorithm
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_algorithm_identifier">CRYPT_ALGORITHM_IDENTIFIER</a> structure that identifies the hash algorithm to use for the mask generation.
+A <a href="/windows/desktop/api/wincrypt/ns-wincrypt-crypt_algorithm_identifier">CRYPT_ALGORITHM_IDENTIFIER</a> structure that identifies the hash algorithm to use for the mask generation.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_rsaes_oaep_parameters">CRYPT_RSAES_OAEP_PARAMETERS</a>
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-crypt_rsaes_oaep_parameters">CRYPT_RSAES_OAEP_PARAMETERS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_rsa_ssa_pss_parameters">CRYPT_RSA_SSA_PSS_PARAMETERS</a>
-
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-crypt_rsa_ssa_pss_parameters">CRYPT_RSA_SSA_PSS_PARAMETERS</a>

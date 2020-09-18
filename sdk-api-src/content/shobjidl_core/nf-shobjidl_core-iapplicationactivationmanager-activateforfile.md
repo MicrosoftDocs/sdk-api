@@ -60,7 +60,7 @@ The application user model ID of the Windows Store app.
 
 ### -param itemArray [in]
 
-A pointer to an array of Shell items, each representing a file. This value is converted to a <a href="https://docs.microsoft.com/en-us/cpp/cppcx/platform-collections-vectorview-class?view=vs-2019">VectorView</a> of <a href="https://docs.microsoft.com/uwp/api/windows.storage.istorageitem">StorageItem</a> objects that is passed to the app through <a href="https://docs.microsoft.com/uwp/api/windows.applicationmodel.activation.fileactivatedeventargs">FileActivatedEventArgs</a>.
+A pointer to an array of Shell items, each representing a file. This value is converted to a <a href="/cpp/cppcx/platform-collections-vectorview-class?view=vs-2019">VectorView</a> of <a href="/uwp/api/windows.storage.istorageitem">StorageItem</a> objects that is passed to the app through <a href="/uwp/api/windows.applicationmodel.activation.fileactivatedeventargs">FileActivatedEventArgs</a>.
 
 ### -param verb [in]
 
@@ -76,5 +76,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iapplicationactivationmanager">IApplicationActivationManager</a>
-
+<a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iapplicationactivationmanager">IApplicationActivationManager</a>

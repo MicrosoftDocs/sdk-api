@@ -54,23 +54,23 @@ api_name:
 
 ## -description
 
-Specifies the parameters of an event  that causes the Windows Network Virtualization (WNV) driver to generate a <b>WnvObjectChangeType</b> type of notification. If there is a pending call to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wnvapi/nf-wnvapi-wnvrequestnotification">WnvRequestNotification</a> function of this type, the WNV driver fills the buffer that is passed in the <i>NotificationParam</i> argument's <a href="https://docs.microsoft.com/windows/desktop/api/wnvapi/ns-wnvapi-wnv_notification_param">WNV_NOTIFICATION_PARAM</a> structure with one or more instances of this structure and completes the <b>WnvRequestNotification</b> function call.
+Specifies the parameters of an event  that causes the Windows Network Virtualization (WNV) driver to generate a <b>WnvObjectChangeType</b> type of notification. If there is a pending call to the <a href="/previous-versions/windows/desktop/api/wnvapi/nf-wnvapi-wnvrequestnotification">WnvRequestNotification</a> function of this type, the WNV driver fills the buffer that is passed in the <i>NotificationParam</i> argument's <a href="/windows/desktop/api/wnvapi/ns-wnvapi-wnv_notification_param">WNV_NOTIFICATION_PARAM</a> structure with one or more instances of this structure and completes the <b>WnvRequestNotification</b> function call.
 
 ## -struct-fields
 
 ### -field ObjectType
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wnvapi/ne-wnvapi-wnv_object_type">WNV_OBJECT_TYPE</a></b>
+Type: <b><a href="/windows/desktop/api/wnvapi/ne-wnvapi-wnv_object_type">WNV_OBJECT_TYPE</a></b>
 
 The object type that causes the change notification.
 
 ### -field ObjectParam
 
-The parameters for the corresponding object type. If the object type is <b>WnvProviderAddressType</b>, this field points to the <a href="https://docs.microsoft.com/windows/desktop/api/wnvapi/ns-wnvapi-wnv_provider_address_change_param">WNV_PROVIDER_ADDRESS_CHANGE_PARAM</a> structure that describes the provider address object that generated an object change event.
+The parameters for the corresponding object type. If the object type is <b>WnvProviderAddressType</b>, this field points to the <a href="/windows/desktop/api/wnvapi/ns-wnvapi-wnv_provider_address_change_param">WNV_PROVIDER_ADDRESS_CHANGE_PARAM</a> structure that describes the provider address object that generated an object change event.
 
 ### -field ObjectParam.ProviderAddressChange
 
-<b>Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wnvapi/ns-wnvapi-wnv_provider_address_change_param">WNV_PROVIDER_ADDRESS_CHANGE_PARAM</a></b>
+<b>Type: <b><a href="/windows/desktop/api/wnvapi/ns-wnvapi-wnv_provider_address_change_param">WNV_PROVIDER_ADDRESS_CHANGE_PARAM</a></b>
 </b>
 The provider address change parameters for this object change event.
 
@@ -82,5 +82,4 @@ There is currently only one type of object defined and tracked in this structure
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wnvapi/ne-wnvapi-wnv_notification_type">WNV_NOTIFICATION_TYPE</a>
-
+<a href="/windows/desktop/api/wnvapi/ne-wnvapi-wnv_notification_type">WNV_NOTIFICATION_TYPE</a>

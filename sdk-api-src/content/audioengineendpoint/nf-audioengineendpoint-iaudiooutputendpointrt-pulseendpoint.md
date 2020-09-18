@@ -52,7 +52,7 @@ api_name:
 
 The <b>PulseEndpoint</b> method is  reserved.
 
-This method is called by the audio engine at the end of a processing pass. The event handle is set by calling the <a href="https://docs.microsoft.com/windows/desktop/api/audioengineendpoint/nf-audioengineendpoint-iaudioendpoint-seteventhandle">IAudioEndpoint::SetEventHandle</a> method.
+This method is called by the audio engine at the end of a processing pass. The event handle is set by calling the <a href="/windows/desktop/api/audioengineendpoint/nf-audioengineendpoint-iaudioendpoint-seteventhandle">IAudioEndpoint::SetEventHandle</a> method.
 
 ## -parameters
 
@@ -65,5 +65,4 @@ The Remote Desktop Services AudioEndpoint API is for use in Remote Desktop scena
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/audioengineendpoint/nn-audioengineendpoint-iaudiooutputendpointrt">IAudioOutputEndpointRT</a>
-
+<a href="/windows/desktop/api/audioengineendpoint/nn-audioengineendpoint-iaudiooutputendpointrt">IAudioOutputEndpointRT</a>

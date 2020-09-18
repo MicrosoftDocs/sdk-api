@@ -56,7 +56,7 @@ Notifies the client that a network interface card (NIC) has become inactive.
 
 ### -param Signature [in]
 
-A pointer to a signature that uniquely identifies the inactive NIC. For more information about signatures, see <a href="https://docs.microsoft.com/windows/desktop/api/adhoc/nf-adhoc-idot11adhocinterface-getdevicesignature">IDot11AdHocInterface::GetDeviceSignature</a>.
+A pointer to a signature that uniquely identifies the inactive NIC. For more information about signatures, see <a href="/windows/desktop/api/adhoc/nf-adhoc-idot11adhocinterface-getdevicesignature">IDot11AdHocInterface::GetDeviceSignature</a>.
 
 ## -returns
 
@@ -93,5 +93,4 @@ The method failed.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/adhoc/nn-adhoc-idot11adhocmanagernotificationsink">IDot11AdHocManagerNotificationSink</a>
-
+<a href="/windows/desktop/api/adhoc/nn-adhoc-idot11adhocmanagernotificationsink">IDot11AdHocManagerNotificationSink</a>

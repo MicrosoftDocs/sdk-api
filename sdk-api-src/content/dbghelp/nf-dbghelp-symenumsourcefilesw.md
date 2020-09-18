@@ -59,12 +59,12 @@ Enumerates all source files in a process.
 ### -param hProcess [in]
 
 A handle to a process. This handle must have been previously passed to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-syminitialize">SymInitialize</a> function.
+<a href="/windows/desktop/api/dbghelp/nf-dbghelp-syminitialize">SymInitialize</a> function.
 
 ### -param ModBase [in]
 
 The base address of the module. If this value is zero and <i>Mask</i> contains an exclamation point (!), the function looks across modules. If this value is zero and <i>Mask</i> does not contain an exclamation point, the function uses the scope established by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-symsetcontext">SymSetContext</a> function.
+<a href="/windows/desktop/api/dbghelp/nf-dbghelp-symsetcontext">SymSetContext</a> function.
 
 ### -param Mask [in, optional]
 
@@ -75,7 +75,7 @@ If this parameter is <b>NULL</b>, the function will enumerate all files.
 ### -param cbSrcFiles [in]
 
 Pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nc-dbghelp-psym_enumsourcefiles_callback">SymEnumSourceFilesProc</a> callback function that receives the source file information.
+<a href="/windows/desktop/api/dbghelp/nc-dbghelp-psym_enumsourcefiles_callback">SymEnumSourceFilesProc</a> callback function that receives the source file information.
 
 ### -param UserContext [in, optional]
 
@@ -87,7 +87,7 @@ If the function succeeds, the return value is <b>TRUE</b>.
 						
 
 If the function fails, the return value is <b>FALSE</b>. To retrieve extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
@@ -102,9 +102,8 @@ All DbgHelp functions, such as this one, are single threaded. Therefore, calls f
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Debug/dbghelp-functions">DbgHelp Functions</a>
+<a href="/windows/desktop/Debug/dbghelp-functions">DbgHelp Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nc-dbghelp-psym_enumsourcefiles_callback">SymEnumSourceFilesProc</a>
-
+<a href="/windows/desktop/api/dbghelp/nc-dbghelp-psym_enumsourcefiles_callback">SymEnumSourceFilesProc</a>

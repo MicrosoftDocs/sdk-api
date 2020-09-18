@@ -74,12 +74,11 @@ The following are the state transitions for a Listener.
 <img alt="" src="./images/ListenerStates.png"/>
 
 A listener will only move to <b>WS_LISTENER_STATE_FAULTED</b> 
-                state if <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsabortlistener">WsAbortListener</a> is called.
+                state if <a href="/windows/desktop/api/webservices/nf-webservices-wsabortlistener">WsAbortListener</a> is called.
             
 
 Note that only the valid state transitions are shown.  Using
                 a function not shown for a given state will result in an
                 <b>WS_E_INVALID_OPERATION</b> error being returned from
-                the function (or crash in the case of <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsfreelistener">WsFreeListener</a>).
-            See <a href="https://docs.microsoft.com/windows/desktop/wsw/windows-web-services-return-values">Windows Web Services Return Values</a>.
-
+                the function (or crash in the case of <a href="/windows/desktop/api/webservices/nf-webservices-wsfreelistener">WsFreeListener</a>).
+            See <a href="/windows/desktop/wsw/windows-web-services-return-values">Windows Web Services Return Values</a>.

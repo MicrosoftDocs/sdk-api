@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-The <b>Color::GetRed</b> method gets the red component of this <a href="https://docs.microsoft.com/windows/desktop/api/gdipluscolor/nl-gdipluscolor-color">Color</a> object.
+The <b>Color::GetRed</b> method gets the red component of this <a href="/windows/desktop/api/gdipluscolor/nl-gdipluscolor-color">Color</a> object.
 
 ## -parameters
 
@@ -63,13 +63,12 @@ This method returns the red component of this color.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdipluscolor/nl-gdipluscolor-color">Color</a>
+<a href="/windows/desktop/api/gdipluscolor/nl-gdipluscolor-color">Color</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdipluscolor/nf-gdipluscolor-color-getr">Color::GetR</a>
+<a href="/windows/desktop/api/gdipluscolor/nf-gdipluscolor-color-getr">Color::GetR</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdipluscolor/nf-gdipluscolor-color-getvalue">Color::GetValue</a>
-
+<a href="/windows/desktop/api/gdipluscolor/nf-gdipluscolor-color-getvalue">Color::GetValue</a>

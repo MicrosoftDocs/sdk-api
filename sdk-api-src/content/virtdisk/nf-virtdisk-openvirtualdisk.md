@@ -66,7 +66,7 @@ A pointer to a valid path to the virtual disk image to open.
 ### -param VirtualDiskAccessMask [in]
 
 A valid value of the 
-     <a href="https://docs.microsoft.com/windows/desktop/api/vdssys/ne-vdssys-_virtual_disk_access_mask">VIRTUAL_DISK_ACCESS_MASK</a> enumeration.
+     <a href="/windows/desktop/api/vdssys/ne-vdssys-_virtual_disk_access_mask">VIRTUAL_DISK_ACCESS_MASK</a> enumeration.
 
 ### -param Flags [in]
 
@@ -90,7 +90,7 @@ If the function succeeds, the return value is <b>ERROR_SUCCESS</b> (0) and the
 
 If the function fails, the return value is an error code and the value of the <i>Handle</i> 
       parameter is undefined. For more information, see 
-      <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">System Error Codes</a>.
+      <a href="/windows/desktop/Debug/system-error-codes">System Error Codes</a>.
 
 ## -remarks
 
@@ -130,7 +130,7 @@ The path pointed to by the <i>Path</i> parameter cannot be on a local network sh
     volume structure descriptor does not contain a known CDFS or UDFS volume identifier.
 
 When an application is finished using the object handle returned in the <i>Handle</i> 
-    parameter, use the <a href="https://docs.microsoft.com/windows/desktop/api/handleapi/nf-handleapi-closehandle">CloseHandle</a> function to close the 
+    parameter, use the <a href="/windows/desktop/api/handleapi/nf-handleapi-closehandle">CloseHandle</a> function to close the 
     handle.
 
 CD and DVD image files (ISO) are not supported before Windows 8 and 
@@ -138,7 +138,7 @@ CD and DVD image files (ISO) are not supported before Windows 8 and
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd323654(v=vs.85)">About VHD</a>
+<a href="/previous-versions/windows/desktop/legacy/dd323654(v=vs.85)">About VHD</a>
 
 
 
@@ -146,5 +146,4 @@ CD and DVD image files (ISO) are not supported before Windows 8 and
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd323700(v=vs.85)">VHD Reference</a>
-
+<a href="/previous-versions/windows/desktop/legacy/dd323700(v=vs.85)">VHD Reference</a>

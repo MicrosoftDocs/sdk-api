@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Releases a transfer key obtained by <a href="https://docs.microsoft.com/windows/desktop/api/cfapi/nf-cfapi-cfgettransferkey">CfGetTransferKey</a>.
+Releases a transfer key obtained by <a href="/windows/desktop/api/cfapi/nf-cfapi-cfgettransferkey">CfGetTransferKey</a>.
 
 ## -parameters
 
@@ -63,4 +63,3 @@ The file handle of the placeholder.
 An opaque handle to the placeholder.
 
 ## -returns
-

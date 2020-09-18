@@ -56,7 +56,7 @@ The <b>UnregisterTIF</b> method unregisters the TIF with the Network Provider.
 
 ### -param pvRegistrationContext [in]
 
-Identifier returned by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/bdatif/nf-bdatif-impeg2_tif_control-registertif">IMPEG2_TIF_CONTROL::RegisterTIF</a> method.
+Identifier returned by the <a href="/previous-versions/windows/desktop/api/bdatif/nf-bdatif-impeg2_tif_control-registertif">IMPEG2_TIF_CONTROL::RegisterTIF</a> method.
 
 ## -returns
 
@@ -97,9 +97,8 @@ Call this method after the TIF's intput pin has been disconnected from the Demux
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/bdatif/nn-bdatif-impeg2_tif_control">IMPEG2_TIF_CONTROL Interface</a>
-
+<a href="/previous-versions/windows/desktop/api/bdatif/nn-bdatif-impeg2_tif_control">IMPEG2_TIF_CONTROL Interface</a>

@@ -50,31 +50,30 @@ api_name:
 
 ## -description
 
-The <b>CryptSIPGetCaps</b> function retrieves the capabilities of a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">subject interface package</a> (SIP).
+The <b>CryptSIPGetCaps</b> function retrieves the capabilities of a <a href="/windows/desktop/SecGloss/s-gly">subject interface package</a> (SIP).
 
 ## -parameters
 
 ### -param pSubjInfo [in]
 
-Pointer to a [SIP_SUBJECTINFO](https://docs.microsoft.com/windows/desktop/api/mssip/ns-mssip-sip_subjectinfo) structure that specifies subject information data to the SIP APIs.
+Pointer to a [SIP_SUBJECTINFO](/windows/desktop/api/mssip/ns-mssip-sip_subjectinfo) structure that specifies subject information data to the SIP APIs.
 
 ### -param pCaps [in, out]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/mssip/ns-mssip-sip_cap_set_v2">SIP_CAP_SET</a> structure that defines the capabilities of an SIP.
+Pointer to a <a href="/windows/desktop/api/mssip/ns-mssip-sip_cap_set_v2">SIP_CAP_SET</a> structure that defines the capabilities of an SIP.
 
 ## -remarks
 
-Unlike other SIP functions, [SIP_DISPATCH_INFO](https://docs.microsoft.com/windows/desktop/api/mssip/ns-mssip-sip_dispatch_info) structure. Instead, callers must map the object identifier (OID) to the function entry point.
+Unlike other SIP functions, [SIP_DISPATCH_INFO](/windows/desktop/api/mssip/ns-mssip-sip_dispatch_info) structure. Instead, callers must map the object identifier (OID) to the function entry point.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mssip/ns-mssip-sip_cap_set_v2">SIP_CAP_SET</a>
+<a href="/windows/desktop/api/mssip/ns-mssip-sip_cap_set_v2">SIP_CAP_SET</a>
 
 
 
-[SIP_SUBJECTINFO](https://docs.microsoft.com/windows/desktop/api/mssip/ns-mssip-sip_subjectinfo)
+[SIP_SUBJECTINFO](/windows/desktop/api/mssip/ns-mssip-sip_subjectinfo)
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mssip/nc-mssip-pcryptsipgetcaps">pCryptSIPGetCaps</a>
-
+<a href="/windows/desktop/api/mssip/nc-mssip-pcryptsipgetcaps">pCryptSIPGetCaps</a>

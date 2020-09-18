@@ -60,13 +60,13 @@ Changes the value of a Component Object Model (COM) interface pointer and releas
 
 ### -param ppunk [in, out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>**</b>
+Type: <b><a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>**</b>
 
 The address of a COM interface pointer to receive the pointer assigned to <i>punk</i>. If the previous value of the pointer is non-<b>NULL</b>, the function releases that interface by calling its IUnkown::Release method.
 
 ### -param punk [in, optional]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>*</b>
+Type: <b><a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>*</b>
 
 The interface pointer to be copied to <i>ppunk</i>. If the value is non-<b>NULL</b>, the function increments the interface's reference count.
 
@@ -111,4 +111,3 @@ void sample()
   // at this point, punk == NULL
 }
 ```
-

@@ -56,7 +56,7 @@ The security binding template for specifying the use of HTP header authenticatio
         protocol based security.
       
 
-See also <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_http_header_auth_security_binding">WS_HTTP_HEADER_AUTH_SECURITY_BINDING</a>
+See also <a href="/windows/desktop/api/webservices/ns-webservices-ws_http_header_auth_security_binding">WS_HTTP_HEADER_AUTH_SECURITY_BINDING</a>
 
 ## -struct-fields
 
@@ -68,4 +68,3 @@ Application provided security binding properties that cannot be represented in p
 
 The Windows credential to be used to obtain this security token.  This
           is required on the client side and must be <b>NULL</b> on the server side.
-

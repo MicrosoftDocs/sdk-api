@@ -56,13 +56,13 @@ api_name:
 
 ## -description
 
-Contains configuration information for a user on a domain controller or Remote Desktop Session Host (RD Session Host) server. This structure is used by the <a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/nf-wtsapi32-wtsqueryuserconfiga">WTSQueryUserConfig</a> and <a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/nf-wtsapi32-wtssetuserconfiga">WTSSetUserConfig</a> functions.
+Contains configuration information for a user on a domain controller or Remote Desktop Session Host (RD Session Host) server. This structure is used by the <a href="/windows/desktop/api/wtsapi32/nf-wtsapi32-wtsqueryuserconfiga">WTSQueryUserConfig</a> and <a href="/windows/desktop/api/wtsapi32/nf-wtsapi32-wtssetuserconfiga">WTSSetUserConfig</a> functions.
 
 ## -struct-fields
 
 ### -field Source
 
-A value of the <a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/ne-wtsapi32-wts_config_source">WTS_CONFIG_SOURCE</a> enumeration type that specifies the  source of configuration information returned by the <a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/nf-wtsapi32-wtsqueryuserconfiga">WTSQueryUserConfig</a> function.
+A value of the <a href="/windows/desktop/api/wtsapi32/ne-wtsapi32-wts_config_source">WTS_CONFIG_SOURCE</a> enumeration type that specifies the  source of configuration information returned by the <a href="/windows/desktop/api/wtsapi32/nf-wtsapi32-wtsqueryuserconfiga">WTSQueryUserConfig</a> function.
 
 ### -field InheritInitialProgram
 
@@ -215,7 +215,7 @@ The user of remote control can view the session remotely but not actively contro
 
 ### -field TerminalServerRemoteHomeDir
 
-A value that indicates whether the <b>TerminalServerHomeDir</b> member contains a path to a local directory or a network share. You cannot set this member by using the <a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/nf-wtsapi32-wtssetuserconfiga">WTSSetUserConfig</a> function. This member can be one of the following values.
+A value that indicates whether the <b>TerminalServerHomeDir</b> member contains a path to a local directory or a network share. You cannot set this member by using the <a href="/windows/desktop/api/wtsapi32/nf-wtsapi32-wtssetuserconfiga">WTSSetUserConfig</a> function. This member can be one of the following values.
 
 
 
@@ -349,18 +349,17 @@ The <b>TerminalServerHomeDir</b> member contains a path to a network share, and 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/nf-wtsapi32-wtsqueryuserconfiga">WTSQueryUserConfig</a>
+<a href="/windows/desktop/api/wtsapi32/nf-wtsapi32-wtsqueryuserconfiga">WTSQueryUserConfig</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/nf-wtsapi32-wtssetuserconfiga">WTSSetUserConfig</a>
+<a href="/windows/desktop/api/wtsapi32/nf-wtsapi32-wtssetuserconfiga">WTSSetUserConfig</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/ne-wtsapi32-wts_config_source">WTS_CONFIG_SOURCE</a>
+<a href="/windows/desktop/api/wtsapi32/ne-wtsapi32-wts_config_source">WTS_CONFIG_SOURCE</a>
 
 ## -remarks
 
 > [!NOTE]
 > The wtsapi32.h header defines WTSUSERCONFIG as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

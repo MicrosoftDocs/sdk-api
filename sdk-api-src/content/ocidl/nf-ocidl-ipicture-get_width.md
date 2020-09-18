@@ -93,5 +93,4 @@ The value of <i>pWidth</i> is not valid. For example, it may be <b>NULL</b>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-ipicture">IPicture</a>
-
+<a href="/windows/desktop/api/ocidl/nn-ocidl-ipicture">IPicture</a>

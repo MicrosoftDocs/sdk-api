@@ -80,13 +80,12 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -remarks
 
-Events in the newly-added stream will generate callbacks to the <a href="https://docs.microsoft.com/windows/desktop/api/relogger/nn-relogger-itraceeventcallback">IEventCallback</a> object associated with this relogger.
+Events in the newly-added stream will generate callbacks to the <a href="/windows/desktop/api/relogger/nn-relogger-itraceeventcallback">IEventCallback</a> object associated with this relogger.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/ETW/consuming-events">Consuming Events</a>
+<a href="/windows/desktop/ETW/consuming-events">Consuming Events</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/relogger/nn-relogger-itracerelogger">ITraceRelogger</a>
-
+<a href="/windows/desktop/api/relogger/nn-relogger-itracerelogger">ITraceRelogger</a>

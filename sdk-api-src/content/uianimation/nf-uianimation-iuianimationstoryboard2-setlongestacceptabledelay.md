@@ -56,23 +56,22 @@ Sets the longest acceptable delay before the scheduled storyboard begins.
 
 ### -param delay [in]
 
-The longest acceptable delay. This parameter can be a positive value, or <a href="https://docs.microsoft.com/windows/desktop/UIAnimation/ui-animation-seconds-eventually">UI_ANIMATION_SECONDS_EVENTUALLY</a> (-1) to indicate that any finite delay is acceptable.
+The longest acceptable delay. This parameter can be a positive value, or <a href="/windows/desktop/UIAnimation/ui-animation-seconds-eventually">UI_ANIMATION_SECONDS_EVENTUALLY</a> (-1) to indicate that any finite delay is acceptable.
 
 ## -returns
 
-Returns <b>S_OK</b> if successful; otherwise an <b>HRESULT</b> error code. See <a href="https://docs.microsoft.com/windows/desktop/UIAnimation/uianimation-error-codes">Windows Animation Error Codes</a> for a list of error codes.
+Returns <b>S_OK</b> if successful; otherwise an <b>HRESULT</b> error code. See <a href="/windows/desktop/UIAnimation/uianimation-error-codes">Windows Animation Error Codes</a> for a list of error codes.
 
 ## -remarks
 
-For Windows Animation to schedule a storyboard successfully, the storyboard must begin before the longest acceptable delay has elapsed. Windows Animation determines this delay in the following order: the delay value set by calling this method, the delay value set by calling the <a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationmanager2-setdefaultlongestacceptabledelay">IUIAnimationManager2::SetDefaultLongestAcceptableDelay</a> method, or 0.0 if neither of these methods has been called.
+For Windows Animation to schedule a storyboard successfully, the storyboard must begin before the longest acceptable delay has elapsed. Windows Animation determines this delay in the following order: the delay value set by calling this method, the delay value set by calling the <a href="/windows/desktop/api/uianimation/nf-uianimation-iuianimationmanager2-setdefaultlongestacceptabledelay">IUIAnimationManager2::SetDefaultLongestAcceptableDelay</a> method, or 0.0 if neither of these methods has been called.
 
- Use <a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationstoryboard2-setskipduration">IUIAnimationStoryboard2::SetSkipDuration</a> to start a storyboard animation at a specified offset instead of delaying the start of a storyboard.
+ Use <a href="/windows/desktop/api/uianimation/nf-uianimation-iuianimationstoryboard2-setskipduration">IUIAnimationStoryboard2::SetSkipDuration</a> to start a storyboard animation at a specified offset instead of delaying the start of a storyboard.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nn-uianimation-iuianimationstoryboard2">IUIAnimationStoryboard2</a>
+<a href="/windows/desktop/api/uianimation/nn-uianimation-iuianimationstoryboard2">IUIAnimationStoryboard2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationstoryboard2-setskipduration">SetSkipDuration</a>
-
+<a href="/windows/desktop/api/uianimation/nf-uianimation-iuianimationstoryboard2-setskipduration">SetSkipDuration</a>

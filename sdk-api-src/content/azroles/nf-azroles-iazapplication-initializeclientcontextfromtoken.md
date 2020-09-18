@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-The <b>InitializeClientContextFromToken</b> method gets an <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazclientcontext">IAzClientContext</a> object pointer from the specified client token.
+The <b>InitializeClientContextFromToken</b> method gets an <a href="/windows/desktop/api/azroles/nn-azroles-iazclientcontext">IAzClientContext</a> object pointer from the specified client token.
 
 ## -parameters
 
@@ -65,11 +65,10 @@ Reserved for future use.
 
 ### -param ppClientContext [out]
 
-A pointer to a pointer to the returned <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazclientcontext">IAzClientContext</a> object.
+A pointer to a pointer to the returned <a href="/windows/desktop/api/azroles/nn-azroles-iazclientcontext">IAzClientContext</a> object.
 
 ## -returns
 
  If the method succeeds, the method returns S_OK.
 
 Any other <b>HRESULT</b> value indicates that the operation failed.
-

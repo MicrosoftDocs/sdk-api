@@ -66,27 +66,26 @@ The audio stream will run in exclusive mode. For more information, see Remarks.
 
 ## -remarks
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nf-audioclient-iaudioclient-initialize">IAudioClient::Initialize</a> and <a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nf-audioclient-iaudioclient-isformatsupported">IAudioClient::IsFormatSupported</a> methods use the constants defined in the <b>AUDCLNT_SHAREMODE</b> enumeration.
+The <a href="/windows/desktop/api/audioclient/nf-audioclient-iaudioclient-initialize">IAudioClient::Initialize</a> and <a href="/windows/desktop/api/audioclient/nf-audioclient-iaudioclient-isformatsupported">IAudioClient::IsFormatSupported</a> methods use the constants defined in the <b>AUDCLNT_SHAREMODE</b> enumeration.
 
 In shared mode, the client can share the audio endpoint device with clients that run in other user-mode processes. The audio engine always supports formats for client streams that match the engine's mix format. In addition, the audio engine might support another format if the Windows audio service can insert system effects into the client stream to convert the client format to the mix format.
 
 In exclusive mode, the Windows audio service attempts to establish a connection in which the client has exclusive access to the audio endpoint device. In this mode, the audio engine inserts no system effects into the local stream to aid in the creation of the connection point. Either the audio device can handle the specified format directly or the method fails.
 
-For more information about shared-mode and exclusive-mode streams, see <a href="https://docs.microsoft.com/windows/desktop/CoreAudio/user-mode-audio-components">User-Mode Audio Components</a>.
+For more information about shared-mode and exclusive-mode streams, see <a href="/windows/desktop/CoreAudio/user-mode-audio-components">User-Mode Audio Components</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/CoreAudio/core-audio-constants">Core Audio Constants</a>
+<a href="/windows/desktop/CoreAudio/core-audio-constants">Core Audio Constants</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/CoreAudio/core-audio-enumerations">Core Audio Enumerations</a>
+<a href="/windows/desktop/CoreAudio/core-audio-enumerations">Core Audio Enumerations</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nf-audioclient-iaudioclient-initialize">IAudioClient::Initialize</a>
+<a href="/windows/desktop/api/audioclient/nf-audioclient-iaudioclient-initialize">IAudioClient::Initialize</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nf-audioclient-iaudioclient-isformatsupported">IAudioClient::IsFormatSupported</a>
-
+<a href="/windows/desktop/api/audioclient/nf-audioclient-iaudioclient-isformatsupported">IAudioClient::IsFormatSupported</a>

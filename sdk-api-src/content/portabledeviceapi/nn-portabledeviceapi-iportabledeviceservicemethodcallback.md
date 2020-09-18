@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-The <b>IPortableDeviceServiceMethodCallback</b> interface contains a method that applications use to track the completion of a callback method.  Applications that call service methods asynchronously may implement this interface, and supply it as a parameter to <a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledeviceservicemethods-invokeasync">IPortableDeviceServiceMethods::InvokeAsync</a>. 
+The <b>IPortableDeviceServiceMethodCallback</b> interface contains a method that applications use to track the completion of a callback method.  Applications that call service methods asynchronously may implement this interface, and supply it as a parameter to <a href="/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledeviceservicemethods-invokeasync">IPortableDeviceServiceMethods::InvokeAsync</a>. 
 
 Each asynchronous method invocation uses the application-supplied callback object as its context. Therefore, an application that intends to simultaneously invoke multiple methods should avoid reusing the callback object. Instead, the application should provide a unique instance of the callback object for each call to <b>InvokeAsync</b>
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPortableDeviceServiceMethodCallback</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPortableDeviceServiceMethodCallback</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPortableDeviceServiceMethodCallback</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPortableDeviceServiceMethodCallback</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>IPortableDeviceServiceMethodCallback</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledeviceservicemethodcallback-oncomplete">OnComplete</a>
+<a href="/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledeviceservicemethodcallback-oncomplete">OnComplete</a>
 </td>
 <td align="left" width="63%">
 Indicates that a callback method has completed execution.
@@ -79,4 +79,3 @@ Indicates that a callback method has completed execution.
 </td>
 </tr>
 </table>
-

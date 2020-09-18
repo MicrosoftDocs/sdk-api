@@ -50,17 +50,16 @@ api_name:
 
 ## -description
 
-The <b>BizruleGroupSupported</b> method returns a Boolean value that specifies whether this <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazauthorizationstore3">IAzAuthorizationStore3</a> object supports application groups that use business rule (BizRule) scripts.
+The <b>BizruleGroupSupported</b> method returns a Boolean value that specifies whether this <a href="/windows/desktop/api/azroles/nn-azroles-iazauthorizationstore3">IAzAuthorizationStore3</a> object supports application groups that use business rule (BizRule) scripts.
 
 ## -parameters
 
 ### -param pbSupported [out]
 
-<b>VARIANT_TRUE</b> if the current <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazauthorizationstore3">IAzAuthorizationStore3</a> object supports scripts that use business logic to determine group membership; otherwise, <b>VARIANT_FALSE</b>.
+<b>VARIANT_TRUE</b> if the current <a href="/windows/desktop/api/azroles/nn-azroles-iazauthorizationstore3">IAzAuthorizationStore3</a> object supports scripts that use business logic to determine group membership; otherwise, <b>VARIANT_FALSE</b>.
 
 ## -returns
 
  If the method succeeds, it returns <b>S_OK</b>.
 
-If the method fails, it returns an error code. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
-
+If the method fails, it returns an error code. For a list of common error codes, see <a href="/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.

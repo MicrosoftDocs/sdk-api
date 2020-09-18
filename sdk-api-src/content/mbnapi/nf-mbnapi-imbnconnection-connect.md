@@ -59,7 +59,7 @@ Establishes a data connection.
 
 ### -param connectionMode [in]
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/ne-mbnapi-mbn_connection_mode">MBN_CONNECTION_MODE</a> value that specifies the mode of the connection.
+An <a href="/windows/desktop/api/mbnapi/ne-mbnapi-mbn_connection_mode">MBN_CONNECTION_MODE</a> value that specifies the mode of the connection.
 
 ### -param strProfile [in]
 
@@ -148,19 +148,18 @@ There is already an active Mobile Broadband context.  Multiple active contexts a
 
 ## -remarks
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbnconnection">Connect</a> method is used to activate a connection context for the device. The Mobile Broadband service currently supports at most one active context. Activation of the context will also result in L2 connection also being established. Similarly, deactivation of a context will result in disconnection of the physical data connection to the mobile network.
+The <a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbnconnection">Connect</a> method is used to activate a connection context for the device. The Mobile Broadband service currently supports at most one active context. Activation of the context will also result in L2 connection also being established. Similarly, deactivation of a context will result in disconnection of the physical data connection to the mobile network.
 
-If the device is not in the packet-attached state at the time of calling this operation then the Mobile Broadband service will implicitly packet attach the device before issuing the connect request to the device. If there is any packet service state change then application will be notified by a call to the <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nf-mbnapi-imbnregistrationevents-onpacketservicestatechange">OnPacketServiceStateChange</a> method of the <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbnregistrationevents">IMbnRegistrationEvents</a> interface.
+If the device is not in the packet-attached state at the time of calling this operation then the Mobile Broadband service will implicitly packet attach the device before issuing the connect request to the device. If there is any packet service state change then application will be notified by a call to the <a href="/windows/desktop/api/mbnapi/nf-mbnapi-imbnregistrationevents-onpacketservicestatechange">OnPacketServiceStateChange</a> method of the <a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbnregistrationevents">IMbnRegistrationEvents</a> interface.
 
-If <i>connectionMode</i> is set to <b>MBN_CONNECTION_MODE_PROFILE</b>, then <i>strProfile</i> represents the name of the profile for the device. If set to <b>MBN_CONNECTION_MODE_TMP_PROFILE</b>, then <i>strProfile</i> represents the XML representation of the profile. A calling application can use <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbnconnectionprofilemanager">IMbnConnectionProfileManager</a> to get a list of connection profiles stored in the device.
-
-
-This is an asynchronous operation that will return immediately. If this method returns successfully, then the Mobile Broadband service will call the <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nf-mbnapi-imbnconnectionevents-onconnectcomplete">OnConnectComplete</a> method of <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbnconnectionevents">IMbnConnectionEvents</a> when the operation is complete.
+If <i>connectionMode</i> is set to <b>MBN_CONNECTION_MODE_PROFILE</b>, then <i>strProfile</i> represents the name of the profile for the device. If set to <b>MBN_CONNECTION_MODE_TMP_PROFILE</b>, then <i>strProfile</i> represents the XML representation of the profile. A calling application can use <a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbnconnectionprofilemanager">IMbnConnectionProfileManager</a> to get a list of connection profiles stored in the device.
 
 
-Windows 8 and later versions of Windows: A Windows Store app may use <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbnconnection">Connect</a> with only the  <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/ne-mbnapi-mbn_connection_mode">MBN_CONNECTION_MODE_TMP_PROFILE</a><i>connectionMode</i> and the <i>strProfile</i> parameter set to an XML representation of the profile. This implies that the connection is of a temporary nature and not saved for future use by the system.
+This is an asynchronous operation that will return immediately. If this method returns successfully, then the Mobile Broadband service will call the <a href="/windows/desktop/api/mbnapi/nf-mbnapi-imbnconnectionevents-onconnectcomplete">OnConnectComplete</a> method of <a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbnconnectionevents">IMbnConnectionEvents</a> when the operation is complete.
+
+
+Windows 8 and later versions of Windows: A Windows Store app may use <a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbnconnection">Connect</a> with only the  <a href="/windows/desktop/api/mbnapi/ne-mbnapi-mbn_connection_mode">MBN_CONNECTION_MODE_TMP_PROFILE</a><i>connectionMode</i> and the <i>strProfile</i> parameter set to an XML representation of the profile. This implies that the connection is of a temporary nature and not saved for future use by the system.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbnconnection">IMbnConnection</a>
-
+<a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbnconnection">IMbnConnection</a>

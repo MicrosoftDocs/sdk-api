@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-The <b>Play</b> method begins playing at the current seek position. If the <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-imdspdevicecontrol-seek">Seek</a> method has not been called, then playing begins at the beginning of the first file, and the play length is not defined.
+The <b>Play</b> method begins playing at the current seek position. If the <a href="/windows/desktop/api/mswmdm/nf-mswmdm-imdspdevicecontrol-seek">Seek</a> method has not been called, then playing begins at the beginning of the first file, and the play length is not defined.
 
 ## -parameters
 
@@ -114,23 +114,22 @@ An unspecified error occurred.
 
 This method is used to invoke both device playback (playback of an audio track on a storage medium of the media device) and streaming audio playback (streaming audio data from the user's computer to the media device, where it is played). The <b>Seek</b> method determines the form of playback that occurs.
 
-Some devices do not support either device playback or streaming audio playback. Before attempting to start playback of a particular type, the <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-imdspdevicecontrol-getcapabilities">GetCapabilities</a> method must be called. If unsupported playback is attempted, this method returns WMDM_E_NOTSUPPORTED.
+Some devices do not support either device playback or streaming audio playback. Before attempting to start playback of a particular type, the <a href="/windows/desktop/api/mswmdm/nf-mswmdm-imdspdevicecontrol-getcapabilities">GetCapabilities</a> method must be called. If unsupported playback is attempted, this method returns WMDM_E_NOTSUPPORTED.
 
-To determine whether an audio format can be played by the media device before invoking the play operation, you can call the <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-imdspdevice-getformatsupport">IMDSPDevice::GetFormatSupport</a> method.
+To determine whether an audio format can be played by the media device before invoking the play operation, you can call the <a href="/windows/desktop/api/mswmdm/nf-mswmdm-imdspdevice-getformatsupport">IMDSPDevice::GetFormatSupport</a> method.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-imdspdevice-getformatsupport">IMDSPDevice::GetFormatSupport</a>
+<a href="/windows/desktop/api/mswmdm/nf-mswmdm-imdspdevice-getformatsupport">IMDSPDevice::GetFormatSupport</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-imdspdevicecontrol">IMDSPDeviceControl Interface</a>
+<a href="/windows/desktop/api/mswmdm/nn-mswmdm-imdspdevicecontrol">IMDSPDeviceControl Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-imdspdevicecontrol-getcapabilities">IMDSPDeviceControl::GetCapabilities</a>
+<a href="/windows/desktop/api/mswmdm/nf-mswmdm-imdspdevicecontrol-getcapabilities">IMDSPDeviceControl::GetCapabilities</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-imdspdevicecontrol-seek">IMDSPDeviceControl::Seek</a>
-
+<a href="/windows/desktop/api/mswmdm/nf-mswmdm-imdspdevicecontrol-seek">IMDSPDeviceControl::Seek</a>

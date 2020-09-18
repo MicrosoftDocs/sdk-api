@@ -53,7 +53,7 @@ api_name:
 The 
 <b>HttpTerminate</b> function cleans up resources used by the HTTP Server API to process calls by an application. An application should call 
 <b>HttpTerminate</b> once for every time it called 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpinitialize">HttpInitialize</a>, with matching flag settings.
+<a href="/windows/desktop/api/http/nf-http-httpinitialize">HttpInitialize</a>, with matching flag settings.
 
 ## -parameters
 
@@ -123,7 +123,7 @@ One or more of the supplied parameters is in an unusable form.
 </dl>
 </td>
 <td width="60%">
-A <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a> defined in WinError.h.
+A <a href="/windows/desktop/Debug/system-error-codes">system error code</a> defined in WinError.h.
 
 </td>
 </tr>
@@ -132,7 +132,7 @@ A <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">
 ## -remarks
 
 Every call to 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpinitialize">HttpInitialize</a> should be matched by a corresponding call to 
+<a href="/windows/desktop/api/http/nf-http-httpinitialize">HttpInitialize</a> should be matched by a corresponding call to 
 <b>HttpTerminate</b>. For example, if you call 
 <b>HttpInitialize</b> with HTTP_INITIALIZE_SERVER, you must call 
 <b>HttpTerminate</b> with HTTP_INITIALIZE_SERVER. If you call 
@@ -141,9 +141,8 @@ Every call to
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Http/http-server-api-version-1-0-functions">HTTP Server API Version 1.0 Functions</a>
+<a href="/windows/desktop/Http/http-server-api-version-1-0-functions">HTTP Server API Version 1.0 Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpinitialize">HttpInitialize</a>
-
+<a href="/windows/desktop/api/http/nf-http-httpinitialize">HttpInitialize</a>

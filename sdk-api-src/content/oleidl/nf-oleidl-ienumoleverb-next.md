@@ -74,9 +74,8 @@ If the method retrieves the number of items requested, the return value is S_OK.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-ienumoleverb">IEnumOLEVERB</a>
+<a href="/windows/desktop/api/oleidl/nn-oleidl-ienumoleverb">IEnumOLEVERB</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/ns-oleidl-oleverb">OLEVERB</a>
-
+<a href="/windows/desktop/api/oleidl/ns-oleidl-oleverb">OLEVERB</a>

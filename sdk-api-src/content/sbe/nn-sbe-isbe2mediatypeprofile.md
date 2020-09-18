@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Implements a media type profile. A <i>media type profile</i> describes a set of streams and their media types, which are used when output pins for a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/stream-buffer-source-filter">Stream Buffer Source</a> filter are created to specify the media types supported by those pins. The Stream Buffer Source filter implements the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/sbe/nn-sbe-isbe2crossbar">ISBE2Crossbar</a> interface, which you can use to set the media type profile for the filter. 
+Implements a media type profile. A <i>media type profile</i> describes a set of streams and their media types, which are used when output pins for a <a href="/previous-versions/windows/desktop/mstv/stream-buffer-source-filter">Stream Buffer Source</a> filter are created to specify the media types supported by those pins. The Stream Buffer Source filter implements the <a href="/previous-versions/windows/desktop/api/sbe/nn-sbe-isbe2crossbar">ISBE2Crossbar</a> interface, which you can use to set the media type profile for the filter. 
 
-To obtain a pointer to the <b>ISBE2MediaTypeProfile</b>  interface, call the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/sbe/nf-sbe-isbe2crossbar-getinitialprofile">ISBE2Crossbar::GetInitialProfile</a> method for the crossbar, and then use the value returned in the  <i>ppProfile</i> output parameter.
+To obtain a pointer to the <b>ISBE2MediaTypeProfile</b>  interface, call the <a href="/previous-versions/windows/desktop/api/sbe/nf-sbe-isbe2crossbar-getinitialprofile">ISBE2Crossbar::GetInitialProfile</a> method for the crossbar, and then use the value returned in the  <i>ppProfile</i> output parameter.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISBE2MediaTypeProfile</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISBE2MediaTypeProfile</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISBE2MediaTypeProfile</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISBE2MediaTypeProfile</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>ISBE2MediaTypeProfile</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/sbe/nf-sbe-isbe2mediatypeprofile-addstream">AddStream</a>
+<a href="/previous-versions/windows/desktop/api/sbe/nf-sbe-isbe2mediatypeprofile-addstream">AddStream</a>
 </td>
 <td align="left" width="63%">
 Adds a stream to the profile.
@@ -80,7 +80,7 @@ Adds a stream to the profile.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/sbe/nf-sbe-isbe2mediatypeprofile-deletestream">DeleteStream</a>
+<a href="/previous-versions/windows/desktop/api/sbe/nf-sbe-isbe2mediatypeprofile-deletestream">DeleteStream</a>
 </td>
 <td align="left" width="63%">
 Removes a stream from the profile.
@@ -89,7 +89,7 @@ Removes a stream from the profile.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/sbe/nf-sbe-isbe2mediatypeprofile-getstream">GetStream</a>
+<a href="/previous-versions/windows/desktop/api/sbe/nf-sbe-isbe2mediatypeprofile-getstream">GetStream</a>
 </td>
 <td align="left" width="63%">
 Gets the media type of a stream that is specified by its index in the profile.
@@ -98,7 +98,7 @@ Gets the media type of a stream that is specified by its index in the profile.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/sbe/nf-sbe-isbe2mediatypeprofile-getstreamcount">GetStreamCount</a>
+<a href="/previous-versions/windows/desktop/api/sbe/nf-sbe-isbe2mediatypeprofile-getstreamcount">GetStreamCount</a>
 </td>
 <td align="left" width="63%">
 Gets the number of streams in the profile.
@@ -110,4 +110,3 @@ Gets the number of streams in the profile.
 ## -remarks
 
 To declare the interface identifier (IID) for this interface, use the <b>__uuidof</b> operator: <code>__uuidof(ISBE2MediaTypeProfile)</code>.
-

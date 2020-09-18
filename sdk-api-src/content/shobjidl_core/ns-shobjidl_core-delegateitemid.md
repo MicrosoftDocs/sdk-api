@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Used by delegate folders in place of a standard <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> structure.
+Used by delegate folders in place of a standard <a href="/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> structure.
 
 ## -struct-fields
 
@@ -77,4 +77,3 @@ The size, in bytes, of the delegate's data. The first <b>cbInner</b> bytes of th
 Type: <b>BYTE[1]</b>
 
 An array holding the inner folder's data, which is opaque to the outer folder, followed by outer folder's data.
-

@@ -108,9 +108,8 @@ The qualifier is not required in the basic class definition and can be moved to 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemqualifierset-put">IWbemQualifierSet::Put</a>
+<a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemqualifierset-put">IWbemQualifierSet::Put</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/qualifier-flavors">Qualifier Flavors</a>
-
+<a href="/windows/desktop/WmiSdk/qualifier-flavors">Qualifier Flavors</a>

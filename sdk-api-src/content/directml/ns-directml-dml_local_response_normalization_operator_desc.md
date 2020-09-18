@@ -68,7 +68,7 @@ A pointer to a constant [DML_TENSOR_DESC](/windows/desktop/api/directml/ns-direc
 
 ### -field CrossChannel
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
 
 <b>TRUE</b> if the LRN layer is channel-wise (cross-channel). Otherwise, <b>FALSE</b>.
 
@@ -80,19 +80,19 @@ The number of channels to sum over.
 
 ### -field Alpha
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">FLOAT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">FLOAT</a></b>
 
 The value of the scaling parameter. You can use a default value of 0.0001.
 
 ### -field Beta
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">FLOAT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">FLOAT</a></b>
 
 The value of the exponent. You can use a default value of 0.75.
 
 ### -field Bias
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">FLOAT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">FLOAT</a></b>
 
 The value of bias. You can use a default value of 1.0.
 
@@ -103,4 +103,3 @@ The operator normalizes over local input regions. The local region is defined ac
 square_sum[n, c, d1, ..., dk] = sum(X[n, i, d1, ..., dk] ^ 2), where max(0, c - floor((size - 1) / 2)) &lt;= i &lt;= min(C - 1, c + ceil((size - 1) / 2)).
 
 Y[n, c, d1, ..., dk] = X[n, c, d1, ..., dk] / (bias + alpha / size * square_sum[n, c, d1, ..., dk] ) ^ beta.
-

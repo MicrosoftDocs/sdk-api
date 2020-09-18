@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Reports shell and command context back to the Windows Remote Management (WinRM) infrastructure so that further operations can be performed against the shell and/or command. This method is called only for <a href="https://docs.microsoft.com/windows/desktop/api/wsman/nc-wsman-wsman_plugin_shell">WSManPluginShell</a> and <a href="https://docs.microsoft.com/windows/desktop/api/wsman/nc-wsman-wsman_plugin_command">WSManPluginCommand</a> plug-in entry points.
+Reports shell and command context back to the Windows Remote Management (WinRM) infrastructure so that further operations can be performed against the shell and/or command. This method is called only for <a href="/windows/desktop/api/wsman/nc-wsman-wsman_plugin_shell">WSManPluginShell</a> and <a href="/windows/desktop/api/wsman/nc-wsman-wsman_plugin_command">WSManPluginCommand</a> plug-in entry points.
 
 ## -parameters
 
 ### -param requestDetails [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wsman/ns-wsman-wsman_plugin_request">WSMAN_PLUGIN_REQUEST</a> structure that specifies the resource URI, options, locale, shutdown flag, and handle for the request.
+A pointer to a <a href="/windows/desktop/api/wsman/ns-wsman-wsman_plugin_request">WSMAN_PLUGIN_REQUEST</a> structure that specifies the resource URI, options, locale, shutdown flag, and handle for the request.
 
 ### -param flags [in]
 
@@ -68,5 +68,4 @@ Defines the value to pass into all future shell and command operations. Represen
 
 ## -returns
 
-The method returns <b>NO_ERROR</b> if it succeeded; otherwise,  it returns an error code.  If this method returns an error, the plug-in should shut down the current operation and call the <a href="https://docs.microsoft.com/windows/desktop/api/wsman/nf-wsman-wsmanpluginoperationcomplete">WSManPluginOperationComplete</a> method.
-
+The method returns <b>NO_ERROR</b> if it succeeded; otherwise,  it returns an error code.  If this method returns an error, the plug-in should shut down the current operation and call the <a href="/windows/desktop/api/wsman/nf-wsman-wsmanpluginoperationcomplete">WSManPluginOperationComplete</a> method.

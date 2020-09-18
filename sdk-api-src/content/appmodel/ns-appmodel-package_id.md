@@ -56,13 +56,13 @@ Represents package identification information, such as name, version, and publis
 
 ### -field reserved
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT32</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT32</a></b>
 
 Reserved; do not use.
 
 ### -field processorArchitecture
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT32</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT32</a></b>
 
 The processor architecture of the package. This member must be one of the values of the <b>PROCESSOR_ARCHITECTURE_...</b> constants that matches the <b><a href="https://docs.microsoft.com/uwp/api/Windows.System.ProcessorArchitecture">ProcessorArchitecture</b> enumeration</a> values. This includes:
 
@@ -76,63 +76,62 @@ The processor architecture of the package. This member must be one of the values
 
 ### -field version
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/appmodel/ns-appmodel-package_version">PACKAGE_VERSION</a></b>
+Type: <b><a href="/windows/desktop/api/appmodel/ns-appmodel-package_version">PACKAGE_VERSION</a></b>
 
 The version of the package.
 
 ### -field name
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">PWSTR</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">PWSTR</a></b>
 
 The name of the package.
 
 ### -field publisher
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">PWSTR</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">PWSTR</a></b>
 
 The publisher of the package. If there is no publisher for the package, this member is <b>NULL</b>.
 
 ### -field resourceId
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">PWSTR</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">PWSTR</a></b>
 
 The resource identifier (ID) of the package. If there is no resource ID for the package, this member is <b>NULL</b>.
 
 ### -field publisherId
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">PWSTR</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">PWSTR</a></b>
 
 The publisher identifier (ID) of the package. If there is no publisher ID for the package, this member is <b>NULL</b>.
 
 ## -remarks
 
-For info about string size limits, see <a href="https://docs.microsoft.com/windows/desktop/appxpkg/identity-constants">Identity constants</a>.
+For info about string size limits, see <a href="/windows/desktop/appxpkg/identity-constants">Identity constants</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/appmodel/nf-appmodel-getcurrentpackageid">GetCurrentPackageId</a>
+<a href="/windows/desktop/api/appmodel/nf-appmodel-getcurrentpackageid">GetCurrentPackageId</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/appmodel/nf-appmodel-getpackageid">GetPackageId</a>
+<a href="/windows/desktop/api/appmodel/nf-appmodel-getpackageid">GetPackageId</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/appmodel/nf-appmodel-getpackagepath">GetPackagePath</a>
+<a href="/windows/desktop/api/appmodel/nf-appmodel-getpackagepath">GetPackagePath</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/appmodel/ns-appmodel-package_info">PACKAGE_INFO</a>
+<a href="/windows/desktop/api/appmodel/ns-appmodel-package_info">PACKAGE_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/appmodel/nf-appmodel-packagefamilynamefromid">PackageFamilyNameFromId</a>
+<a href="/windows/desktop/api/appmodel/nf-appmodel-packagefamilynamefromid">PackageFamilyNameFromId</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/appmodel/nf-appmodel-packagefullnamefromid">PackageFullNameFromId</a>
+<a href="/windows/desktop/api/appmodel/nf-appmodel-packagefullnamefromid">PackageFullNameFromId</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/appmodel/nf-appmodel-packageidfromfullname">PackageIdFromFullName</a>
-
+<a href="/windows/desktop/api/appmodel/nf-appmodel-packageidfromfullname">PackageIdFromFullName</a>

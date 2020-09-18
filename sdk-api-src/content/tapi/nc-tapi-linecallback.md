@@ -88,7 +88,6 @@ Line or call device message.
 ## -remarks
 
 For information about parameter values passed to this function, see 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/line-device-messages">Line Device Messages</a>.
+<a href="/windows/desktop/Tapi/line-device-messages">Line Device Messages</a>.
 
 All callbacks occur in the application's context. The callback function must reside in a DLL or application module.
-

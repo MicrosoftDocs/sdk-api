@@ -53,23 +53,23 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[The <a href="https://docs.microsoft.com/windows/desktop/api/wbemglue/nl-wbemglue-cwbemproviderglue">CWbemProviderGlue</a> class 
+<p class="CCE_Message">[The <a href="/windows/desktop/api/wbemglue/nl-wbemglue-cwbemproviderglue">CWbemProviderGlue</a> class 
     is part of the WMI Provider Framework which is now considered in final state, and no further development, 
     enhancements, or updates will be available for non-security related issues affecting these libraries. The 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/wmi_v2/windows-management-infrastructure">MI APIs</a> should be used for all new 
+    <a href="/previous-versions/windows/desktop/wmi_v2/windows-management-infrastructure">MI APIs</a> should be used for all new 
     development.]
 
-The <b>SetStatusObject</b> method sets the parameters of a status object used to supply more information when an error occurs. This status object is derived from the <a href="https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-privilegesstatus">Win32_PrivilegesStatus</a> class.
+The <b>SetStatusObject</b> method sets the parameters of a status object used to supply more information when an error occurs. This status object is derived from the <a href="/windows/desktop/CIMWin32Prov/win32-privilegesstatus">Win32_PrivilegesStatus</a> class.
 
 ## -parameters
 
 ### -param pContext
 
-Pointer to the current context. A context must be provided to prevent deadlocks. Either use the context passed into the provider by <a href="https://docs.microsoft.com/windows/desktop/api/provider/nf-provider-provider-enumerateinstances">Provider::EnumerateInstances</a> or <a href="https://docs.microsoft.com/windows/desktop/api/provider/nf-provider-provider-execquery">Provider::ExecQuery</a>, or else obtain it from the instance using <a href="https://docs.microsoft.com/windows/desktop/api/instance/nf-instance-cinstance-getmethodcontext">CInstance::GetMethodContext</a>. This parameter must not be <b>NULL</b>.
+Pointer to the current context. A context must be provided to prevent deadlocks. Either use the context passed into the provider by <a href="/windows/desktop/api/provider/nf-provider-provider-enumerateinstances">Provider::EnumerateInstances</a> or <a href="/windows/desktop/api/provider/nf-provider-provider-execquery">Provider::ExecQuery</a>, or else obtain it from the instance using <a href="/windows/desktop/api/instance/nf-instance-cinstance-getmethodcontext">CInstance::GetMethodContext</a>. This parameter must not be <b>NULL</b>.
 
 ### -param pNamespace
 
-Pointer to the namespace that contains the registration of the <a href="https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-privilegesstatus">Win32_PrivilegesStatus</a> class.
+Pointer to the namespace that contains the registration of the <a href="/windows/desktop/CIMWin32Prov/win32-privilegesstatus">Win32_PrivilegesStatus</a> class.
 
 ### -param pDescription
 
@@ -90,4 +90,3 @@ Pointer to the value to be put in the <b>PrivilegesRequired</b> property of the 
 ## -returns
 
 The method returns <b>TRUE</b> if successful, and <b>FALSE</b> otherwise.
-

@@ -50,9 +50,9 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[[This API may be altered or unavailable in subsequent versions of the operating system or product. Please use the <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/task-scheduler-2-0-interfaces">Task Scheduler 2.0 Interfaces</a> instead.] ]
+<p class="CCE_Message">[[This API may be altered or unavailable in subsequent versions of the operating system or product. Please use the <a href="/windows/desktop/TaskSchd/task-scheduler-2-0-interfaces">Task Scheduler 2.0 Interfaces</a> instead.] ]
 
-Sets the name of the <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/w">work item's</a> creator.
+Sets the name of the <a href="/windows/desktop/TaskSchd/w">work item's</a> creator.
 
 ## -parameters
 
@@ -111,9 +111,8 @@ Programs must call the <b>IPersistFile::Save</b> method after calling <b>SetCrea
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mstask/nn-mstask-ischeduledworkitem">IScheduledWorkItem</a>
+<a href="/windows/desktop/api/mstask/nn-mstask-ischeduledworkitem">IScheduledWorkItem</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mstask/nf-mstask-ischeduledworkitem-getcreator">IScheduledWorkItem::GetCreator</a>
-
+<a href="/windows/desktop/api/mstask/nf-mstask-ischeduledworkitem-getcreator">IScheduledWorkItem::GetCreator</a>

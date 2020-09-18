@@ -59,7 +59,7 @@ Sets the software radio state of  a Mobile Broadband device.
 
 ### -param radioState [in]
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/ne-mbnapi-mbn_radio">MBN_RADIO</a> value that specifies the new software radio state.
+A <a href="/windows/desktop/api/mbnapi/ne-mbnapi-mbn_radio">MBN_RADIO</a> value that specifies the new software radio state.
 
 ### -param requestID [out]
 
@@ -122,7 +122,7 @@ The Mobile Broadband service is not running on this system.
 
 ## -remarks
 
-<b>SetSoftwareRadioState</b> changes the software radio state of the device. This is an asynchronous operation and it will return immediately. On completion, the Mobile Broadband service will call the <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nf-mbnapi-imbnradioevents-onsetsoftwareradiostatecomplete">OnSetSoftwareRadioStateComplete</a> method of the  <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbnradioevents">IMbnRadioEvents</a> interface. 
+<b>SetSoftwareRadioState</b> changes the software radio state of the device. This is an asynchronous operation and it will return immediately. On completion, the Mobile Broadband service will call the <a href="/windows/desktop/api/mbnapi/nf-mbnapi-imbnradioevents-onsetsoftwareradiostatecomplete">OnSetSoftwareRadioStateComplete</a> method of the  <a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbnradioevents">IMbnRadioEvents</a> interface. 
 
 
 Disabling the radio for a Mobile Broadband device will result in deactivation of any active connection, network packet detach, and network deregistration. If the radio off operation results in a change in the connection state, packet attach state, or network registration state, then the application will receive a notification of the changes.
@@ -132,9 +132,8 @@ When both software and hardware radio are enabled for a Mobile Broadband device,
 
 
 
-A device's radio state can change without a change request from the application.  For instance, if a user turns on the system's hardware radio switch.  The Mobile Broadband service will notify the application about a change in radio state by calling the <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nf-mbnapi-imbnradioevents-onradiostatechange">OnRadioStateChange</a> method of the <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbnradioevents">IMbnRadioEvents</a> interface.
+A device's radio state can change without a change request from the application.  For instance, if a user turns on the system's hardware radio switch.  The Mobile Broadband service will notify the application about a change in radio state by calling the <a href="/windows/desktop/api/mbnapi/nf-mbnapi-imbnradioevents-onradiostatechange">OnRadioStateChange</a> method of the <a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbnradioevents">IMbnRadioEvents</a> interface.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbnradio">IMbnRadio</a>
-
+<a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbnradio">IMbnRadio</a>

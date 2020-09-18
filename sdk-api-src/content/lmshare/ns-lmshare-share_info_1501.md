@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-Contains the security descriptor associated with the specified share. For more information, see <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/security-descriptors">Security Descriptors</a>.
+Contains the security descriptor associated with the specified share. For more information, see <a href="/windows/desktop/SecAuthZ/security-descriptors">Security Descriptors</a>.
 
 ## -struct-fields
 
@@ -65,21 +65,20 @@ Reserved; must be zero.
 ### -field shi1501_security_descriptor
 
 Specifies the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-security_descriptor">SECURITY_DESCRIPTOR</a> associated with the share.
+<a href="/windows/desktop/api/winnt/ns-winnt-security_descriptor">SECURITY_DESCRIPTOR</a> associated with the share.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmshare/nf-lmshare-netsharesetinfo">NetShareSetInfo</a>
+<a href="/windows/desktop/api/lmshare/nf-lmshare-netsharesetinfo">NetShareSetInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management">Network Management Overview</a>
+<a href="/windows/desktop/NetMgmt/network-management">Network Management Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management-structures">Network Management Structures</a>
+<a href="/windows/desktop/NetMgmt/network-management-structures">Network Management Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/NetShare/network-share-functions">Network Share Functions</a>
-
+<a href="/windows/desktop/NetShare/network-share-functions">Network Share Functions</a>

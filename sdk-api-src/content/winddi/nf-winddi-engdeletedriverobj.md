@@ -56,15 +56,15 @@ The <b>EngDeleteDriverObj</b> function frees the handle used for tracking a devi
 
 ### -param hdo
 
-Handle to the driver object that is to be deleted. This GDI handle was obtained from <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engcreatedriverobj">EngCreateDriverObj</a>.
+Handle to the driver object that is to be deleted. This GDI handle was obtained from <a href="/windows/desktop/api/winddi/nf-winddi-engcreatedriverobj">EngCreateDriverObj</a>.
 
 ### -param bCallBack
 
-Specifies whether the cleanup callback should be called. If <b>TRUE</b>, GDI invokes the cleanup callback before removing the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-driverobj">DRIVEROBJ</a> from the handle manager. If <b>FALSE</b>, GDI does not do so. If the callback function returns failure, <b>EngDeleteDriverObj</b> will fail.
+Specifies whether the cleanup callback should be called. If <b>TRUE</b>, GDI invokes the cleanup callback before removing the <a href="/windows/desktop/api/winddi/ns-winddi-driverobj">DRIVEROBJ</a> from the handle manager. If <b>FALSE</b>, GDI does not do so. If the callback function returns failure, <b>EngDeleteDriverObj</b> will fail.
 
 ### -param bLocked
 
-Specifies whether the object was locked by the driver (through a call to <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-englockdriverobj">EngLockDriverObj</a>) before <b>EngDeleteDriverObj</b> was called. If <b>TRUE</b>, the object was locked; if <b>FALSE</b>, the object was not locked.
+Specifies whether the object was locked by the driver (through a call to <a href="/windows/desktop/api/winddi/nf-winddi-englockdriverobj">EngLockDriverObj</a>) before <b>EngDeleteDriverObj</b> was called. If <b>TRUE</b>, the object was locked; if <b>FALSE</b>, the object was not locked.
 
 ## -returns
 
@@ -72,7 +72,7 @@ The return value is <b>TRUE</b> if the function is successful and the handle is 
 
 ## -remarks
 
-After the handle is freed, the associated driver resource is no longer tracked by GDI and the function pointed to by the <i>pFreeObjProc</i> parameter of <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engcreatedriverobj">EngCreateDriverObj </a><i>will not</i> be called upon process termination. It is the responsibility of the driver to ensure that the resource is freed.
+After the handle is freed, the associated driver resource is no longer tracked by GDI and the function pointed to by the <i>pFreeObjProc</i> parameter of <a href="/windows/desktop/api/winddi/nf-winddi-engcreatedriverobj">EngCreateDriverObj </a><i>will not</i> be called upon process termination. It is the responsibility of the driver to ensure that the resource is freed.
 
 Most drivers should be consistent in how objects are cleaned up at termination time. Consequently, they will pass <b>TRUE</b> for <i>bCallback</i>, indicating to GDI that it should call the driver's cleanup function to free this driver resource.
 
@@ -82,9 +82,8 @@ The <i>bLocked</i> parameter indicates to GDI that the object has already been l
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-driverobj">DRIVEROBJ</a>
+<a href="/windows/desktop/api/winddi/ns-winddi-driverobj">DRIVEROBJ</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engcreatedriverobj">EngCreateDriverObj</a>
-
+<a href="/windows/desktop/api/winddi/nf-winddi-engcreatedriverobj">EngCreateDriverObj</a>

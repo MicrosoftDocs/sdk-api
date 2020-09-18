@@ -98,7 +98,7 @@ If the array has zero elements, the requestSecurityTokenPropertyConstraints fiel
 
 ### -field out
 
-When <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsmatchpolicyalternative">WsMatchPolicyAlternative</a> returns NOERROR, the
+When <a href="/windows/desktop/api/webservices/nf-webservices-wsmatchpolicyalternative">WsMatchPolicyAlternative</a> returns NOERROR, the
                     entire contents of this structure will be filled out.
 
 ### -field out.issuerAddress
@@ -108,11 +108,10 @@ When <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webs
 ## -remarks
 
 The information extracted using this binding constraint can be used
-                with <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsrequestsecuritytoken">WsRequestSecurityToken</a> to obtain an issued token.
+                with <a href="/windows/desktop/api/webservices/nf-webservices-wsrequestsecuritytoken">WsRequestSecurityToken</a> to obtain an issued token.
                 The issued token can then be used with the 
                 <a href="/windows/win32/api/webservices/ns-webservices-ws_xml_token_message_security_binding">WS_XML_TOKEN_MESSAGE_SECURITY_BINDING</a> security binding.
             
 
 This binding constraint is typically used in federated security
                 scenarios.
-

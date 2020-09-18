@@ -52,20 +52,20 @@ api_name:
 
 The 
 <b>lineGetMessage</b> function returns the next TAPI message that is queued for delivery to an application that is using the Event Handle notification mechanism (see 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-lineinitializeexa">lineInitializeEx</a> for further details).
+<a href="/windows/desktop/api/tapi/nf-tapi-lineinitializeexa">lineInitializeEx</a> for further details).
 
 ## -parameters
 
 ### -param hLineApp
 
 Handle returned by 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-lineinitializeexa">lineInitializeEx</a>. The application must have set the LINEINITIALIZEEXOPTION_USEEVENT option in the <b>dwOptions</b> member of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineinitializeexparams">LINEINITIALIZEEXPARAMS</a> structure.
+<a href="/windows/desktop/api/tapi/nf-tapi-lineinitializeexa">lineInitializeEx</a>. The application must have set the LINEINITIALIZEEXOPTION_USEEVENT option in the <b>dwOptions</b> member of the 
+<a href="/windows/desktop/api/tapi/ns-tapi-lineinitializeexparams">LINEINITIALIZEEXPARAMS</a> structure.
 
 ### -param lpMessage
 
 Pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linemessage">LINEMESSAGE</a> structure. Upon successful return from this function, the structure contains the next message that had been queued for delivery to the application.
+<a href="/windows/desktop/api/tapi/ns-tapi-linemessage">LINEMESSAGE</a> structure. Upon successful return from this function, the structure contains the next message that had been queued for delivery to the application.
 
 ### -param dwTimeout
 
@@ -81,23 +81,22 @@ LINEERR_INVALAPPHANDLE, LINEERR_OPERATIONFAILED, LINEERR_INVALPOINTER, LINEERR_N
 
 If the 
 <b>lineGetMessage</b> function has been called with a non-zero timeout and the application calls 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-lineshutdown">lineShutdown</a> on another thread, this function returns immediately with LINEERR_INVALAPPHANDLE.
+<a href="/windows/desktop/api/tapi/nf-tapi-lineshutdown">lineShutdown</a> on another thread, this function returns immediately with LINEERR_INVALAPPHANDLE.
 
 If the timeout expires (or was zero) and no message could be fetched from the queue, the function returns with the error LINEERR_OPERATIONFAILED.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineinitializeexparams">LINEINITIALIZEEXPARAMS</a>
+<a href="/windows/desktop/api/tapi/ns-tapi-lineinitializeexparams">LINEINITIALIZEEXPARAMS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linemessage">LINEMESSAGE</a>
+<a href="/windows/desktop/api/tapi/ns-tapi-linemessage">LINEMESSAGE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-lineinitializeexa">lineInitializeEx</a>
+<a href="/windows/desktop/api/tapi/nf-tapi-lineinitializeexa">lineInitializeEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-lineshutdown">lineShutdown</a>
-
+<a href="/windows/desktop/api/tapi/nf-tapi-lineshutdown">lineShutdown</a>

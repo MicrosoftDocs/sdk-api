@@ -137,11 +137,11 @@ The function successfully stored all of the information about the counter specif
  
 
 For other types of failures, the return value is a 
-<a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a>.
+<a href="/windows/desktop/Debug/system-error-codes">system error code</a>.
 
 ## -remarks
 
-The information about the counter specifications is written to the buffer that <i>pCounters</i> specifies as a sequence of <a href="https://docs.microsoft.com/windows/desktop/api/perflib/ns-perflib-perf_counter_identifier">PERF_COUNTER_IDENTIFIER</a> blocks. The size in bytes of  
+The information about the counter specifications is written to the buffer that <i>pCounters</i> specifies as a sequence of <a href="/windows/desktop/api/perflib/ns-perflib-perf_counter_identifier">PERF_COUNTER_IDENTIFIER</a> blocks. The size in bytes of  
 
 the sequence of blocks is written to  <i>pcbCountersActual</i>. Each <b>PERF_COUNTER_IDENTIFIER</b> block consists  
 
@@ -156,5 +156,4 @@ will be a multiple of 8 bytes.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/perflib/ns-perflib-perf_counter_identifier">PERF_COUNTER_IDENTIFIER</a>
-
+<a href="/windows/desktop/api/perflib/ns-perflib-perf_counter_identifier">PERF_COUNTER_IDENTIFIER</a>

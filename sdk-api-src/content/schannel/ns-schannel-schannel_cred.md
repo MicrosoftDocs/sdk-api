@@ -72,13 +72,13 @@ The number of structures in the <b>paCred</b> array.
 ### -field paCred
 
 An array of pointers to 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a> structures. Each pointer specifies a certificate that contains a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">private key</a> to be used in authenticating the application. Typically, this array contains one structure for each key exchange method supported by the application.
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a> structures. Each pointer specifies a certificate that contains a <a href="/windows/desktop/SecGloss/p-gly">private key</a> to be used in authenticating the application. Typically, this array contains one structure for each key exchange method supported by the application.
 
 Client applications often pass in an empty list and either depend on Schannel to find an appropriate certificate or create a certificate later if needed.
 
 ### -field hRootStore
 
-Optional. Valid for server applications only. Handle to a certificate store that contains self-signed <a href="https://docs.microsoft.com/windows/desktop/SecGloss/r-gly">root certificates</a> for <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certification authorities</a> (CAs) trusted by the application. This member is used only by server-side applications that require client authentication.
+Optional. Valid for server applications only. Handle to a certificate store that contains self-signed <a href="/windows/desktop/SecGloss/r-gly">root certificates</a> for <a href="/windows/desktop/SecGloss/c-gly">certification authorities</a> (CAs) trusted by the application. This member is used only by server-side applications that require client authentication.
 
 ### -field cMappers
 
@@ -97,7 +97,7 @@ Number of algorithms in the <b>palgSupportedAlgs</b> array.
 ### -field palgSupportedAlgs
 
 Optional. A pointer to an array of 
-<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/alg-id">ALG_ID</a> algorithm identifiers that represent the algorithms supported by connections made with credentials acquired using this structure. If <b>cSupportedAlgs</b> is zero or <b>palgSupportedAlgs</b> is <b>NULL</b>, Schannel uses the system defaults.
+<a href="/windows/desktop/SecCrypto/alg-id">ALG_ID</a> algorithm identifiers that represent the algorithms supported by connections made with credentials acquired using this structure. If <b>cSupportedAlgs</b> is zero or <b>palgSupportedAlgs</b> is <b>NULL</b>, Schannel uses the system defaults.
 
 Currently, the algorithm identifiers <b>CALG_AES</b>,
 <b>CALG_AES_128</b>, and
@@ -107,7 +107,7 @@ Currently, the algorithm identifiers <b>CALG_AES</b>,
 
 Optional. A <b>DWORD</b> that contains a bit string that represents the protocols supported by connections made with credentials acquired by using this structure. If this member is zero, Schannel selects the protocol. For new development, applications should set <b>grbitEnabledProtocols</b> to zero and use the protocol versions enabled on the system by default.
 
-This member is used only by the Microsoft Unified Security Protocol Provider <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security package</a>.
+This member is used only by the Microsoft Unified Security Protocol Provider <a href="/windows/desktop/SecGloss/s-gly">security package</a>.
 
 The global system registry settings take precedence over this value. For example, if SSL3 is disabled in the registry, it cannot be enabled using this member.
 
@@ -441,7 +441,7 @@ This flag is the opposite of SCH_CRED_MANUAL_CRED_VALIDATION and is part of the 
 </dl>
 </td>
 <td width="60%">
-Instruct Schannel to pass the CERT_CHAIN_CACHE_ONLY_URL_RETRIEVAL flag to the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certgetcertificatechain">CertGetCertificateChain</a> function when validating the specified credentials during a call to <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-acquirecredentialshandlea">AcquireCredentialsHandle (Schannel)</a>.
+Instruct Schannel to pass the CERT_CHAIN_CACHE_ONLY_URL_RETRIEVAL flag to the <a href="/windows/desktop/api/wincrypt/nf-wincrypt-certgetcertificatechain">CertGetCertificateChain</a> function when validating the specified credentials during a call to <a href="/windows/desktop/api/sspi/nf-sspi-acquirecredentialshandlea">AcquireCredentialsHandle (Schannel)</a>.
 
 <b>Windows Server 2003 and Windows XP/2000:  </b>This flag is not supported.
 
@@ -456,7 +456,7 @@ Instruct Schannel to pass the CERT_CHAIN_CACHE_ONLY_URL_RETRIEVAL flag to the <a
 <td width="60%">
 Server only.
 
-If this flag is set, then full handshakes performed with this credential will not allow reconnects. A cache entry is created, so the session can be made resumable later by using the <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-applycontroltoken">ApplyControlToken</a> function.
+If this flag is set, then full handshakes performed with this credential will not allow reconnects. A cache entry is created, so the session can be made resumable later by using the <a href="/windows/desktop/api/sspi/nf-sspi-applycontroltoken">ApplyControlToken</a> function.
 
 </td>
 </tr>
@@ -517,7 +517,7 @@ Prevent Schannel from attempting to automatically supply a certificate chain for
 <td width="60%">
 Client only.
 
-Prevent Schannel from comparing the supplied target name with the subject names in <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">server certificates</a>.
+Prevent Schannel from comparing the supplied target name with the subject names in <a href="/windows/desktop/SecGloss/s-gly">server certificates</a>.
 
 </td>
 </tr>
@@ -530,7 +530,7 @@ Prevent Schannel from comparing the supplied target name with the subject names 
 <td width="60%">
 Server only.
 
-Prevent Schannel from using the built-in system certificate mapping functions to map <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">client certificates</a> to a user account.
+Prevent Schannel from using the built-in system certificate mapping functions to map <a href="/windows/desktop/SecGloss/c-gly">client certificates</a> to a user account.
 
 </td>
 </tr>
@@ -659,7 +659,7 @@ The <b>paCred</b> member  of the <b>SCHANNEL_CRED</b> structure passed in must b
 </dl>
 </td>
 <td width="60%">
-The <b>paCred</b> member  of the <b>SCHANNEL_CRED</b> structure points to a <a href="https://docs.microsoft.com/windows/desktop/api/schannel/ns-schannel-schannel_cert_hash_store">SCHANNEL_CERT_HASH_STORE</a> structure.
+The <b>paCred</b> member  of the <b>SCHANNEL_CRED</b> structure points to a <a href="/windows/desktop/api/schannel/ns-schannel-schannel_cert_hash_store">SCHANNEL_CERT_HASH_STORE</a> structure.
 
 </td>
 </tr>
@@ -692,5 +692,4 @@ When Schannel checks the revocation status of a certificate chain, these flags i
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-querysecuritycontexttoken">QuerySecurityContextToken</a>
-
+<a href="/windows/desktop/api/sspi/nf-sspi-querysecuritycontexttoken">QuerySecurityContextToken</a>

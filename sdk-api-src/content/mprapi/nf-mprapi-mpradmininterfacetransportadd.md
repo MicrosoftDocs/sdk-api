@@ -58,12 +58,12 @@ The
 ### -param hMprServer [in]
 
 Handle to the router on which information is being added. Obtain this handle by calling 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradminserverconnect">MprAdminServerConnect</a>.
+<a href="/windows/desktop/api/mprapi/nf-mprapi-mpradminserverconnect">MprAdminServerConnect</a>.
 
 ### -param hInterface [in]
 
 Handle to the interface on which the transport is being added. This handle is obtained by a previous call to 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradmininterfacecreate">MprAdminInterfaceCreate</a>.
+<a href="/windows/desktop/api/mprapi/nf-mprapi-mpradmininterfacecreate">MprAdminInterfaceCreate</a>.
 
 ### -param dwTransportId [in]
 
@@ -99,7 +99,7 @@ A <b>DWORD</b> value that describes the transport type to add to the interface. 
 ### -param pInterfaceInfo [in]
 
 Pointer to an information header that specifies interface information for this transport. Use the 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/router-information-functions">Information Header Functions</a> to manipulate information headers.
+<a href="/windows/desktop/RRAS/router-information-functions">Information Header Functions</a> to manipulate information headers.
 
 ### -param dwInterfaceInfoSize [in]
 
@@ -168,21 +168,20 @@ The <i>dwTransportId</i> parameter also specifies the router manager because a r
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradmininterfacecreate">MprAdminInterfaceCreate</a>
+<a href="/windows/desktop/api/mprapi/nf-mprapi-mpradmininterfacecreate">MprAdminInterfaceCreate</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradmininterfacetransportremove">MprAdminInterfaceTransportRemove</a>
+<a href="/windows/desktop/api/mprapi/nf-mprapi-mpradmininterfacetransportremove">MprAdminInterfaceTransportRemove</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradminserverconnect">MprAdminServerConnect</a>
+<a href="/windows/desktop/api/mprapi/nf-mprapi-mpradminserverconnect">MprAdminServerConnect</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/router-administration-functions">Router Administration Functions</a>
+<a href="/windows/desktop/RRAS/router-administration-functions">Router Administration Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/router-management-reference">Router Management Reference</a>
-
+<a href="/windows/desktop/RRAS/router-management-reference">Router Management Reference</a>

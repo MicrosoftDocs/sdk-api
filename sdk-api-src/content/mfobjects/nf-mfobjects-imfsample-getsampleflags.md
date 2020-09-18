@@ -53,7 +53,7 @@ api_name:
 
 Retrieves flags associated with the sample.
 
-Currently no flags are defined. Instead, metadata for samples is defined using attributes. To get attibutes from a sample, use the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes">IMFAttributes</a> interface, which <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfsample">IMFSample</a> inherits. For a list of sample attributes, see <a href="https://docs.microsoft.com/windows/desktop/medfound/sample-attributes">Sample Attributes</a>.
+Currently no flags are defined. Instead, metadata for samples is defined using attributes. To get attibutes from a sample, use the <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes">IMFAttributes</a> interface, which <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfsample">IMFSample</a> inherits. For a list of sample attributes, see <a href="/windows/desktop/medfound/sample-attributes">Sample Attributes</a>.
 
 ## -parameters
 
@@ -94,9 +94,8 @@ This interface is available on the following platforms if the Windows Media Form
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfsample">IMFSample</a>
+<a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfsample">IMFSample</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-samples">Media Samples</a>
-
+<a href="/windows/desktop/medfound/media-samples">Media Samples</a>

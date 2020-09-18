@@ -53,11 +53,11 @@ api_name:
 Exposes methods that set notification information and then display that notification to the user in a balloon that appears in conjunction with the notification area of the taskbar.
 
             
-<div class="alert"><b>Note</b>  <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nn-shobjidl-iusernotification2">IUserNotification2</a> differs from <b>IUserNotification</b> only in its <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nf-shobjidl-iusernotification2-show">Show</a> method, which adds an additional parameter for a callback interface to communicate with the notification. Otherwise the two interfaces are identical in form and function. CLSID_UserNotification implements both versions of <b>Show</b> as an overload.</div><div> </div>
+<div class="alert"><b>Note</b>  <a href="/windows/desktop/api/shobjidl/nn-shobjidl-iusernotification2">IUserNotification2</a> differs from <b>IUserNotification</b> only in its <a href="/windows/desktop/api/shobjidl/nf-shobjidl-iusernotification2-show">Show</a> method, which adds an additional parameter for a callback interface to communicate with the notification. Otherwise the two interfaces are identical in form and function. CLSID_UserNotification implements both versions of <b>Show</b> as an overload.</div><div> </div>
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUserNotification</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IUserNotification</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUserNotification</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IUserNotification</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,7 +72,7 @@ The <b>IUserNotification</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iusernotification-playsound">PlaySound</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iusernotification-playsound">PlaySound</a>
 </td>
 <td align="left" width="63%">
 Plays a sound in conjunction with the notification.
@@ -81,7 +81,7 @@ Plays a sound in conjunction with the notification.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iusernotification-setballooninfo">SetBalloonInfo</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iusernotification-setballooninfo">SetBalloonInfo</a>
 </td>
 <td align="left" width="63%">
 Sets the information to be displayed in a balloon notification.
@@ -90,7 +90,7 @@ Sets the information to be displayed in a balloon notification.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iusernotification-setballoonretry">SetBalloonRetry</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iusernotification-setballoonretry">SetBalloonRetry</a>
 </td>
 <td align="left" width="63%">
 Specifies the conditions for trying to display user information when the first attempt fails.
@@ -99,7 +99,7 @@ Specifies the conditions for trying to display user information when the first a
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iusernotification-seticoninfo">SetIconInfo</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iusernotification-seticoninfo">SetIconInfo</a>
 </td>
 <td align="left" width="63%">
 Sets the notification area icon associated with specific user information.
@@ -108,7 +108,7 @@ Sets the notification area icon associated with specific user information.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iusernotification-show">Show</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iusernotification-show">Show</a>
 </td>
 <td align="left" width="63%">
 Displays the notification.
@@ -124,5 +124,4 @@ An implementation of this interface is provided in Windows as CLSID_UserNotifica
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nn-shobjidl-iusernotification2">IUserNotification2</a>
-
+<a href="/windows/desktop/api/shobjidl/nn-shobjidl-iusernotification2">IUserNotification2</a>

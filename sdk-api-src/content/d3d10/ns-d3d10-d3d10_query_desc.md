@@ -56,17 +56,16 @@ Describes a query.
 
 ### -field Query
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d10/ne-d3d10-d3d10_query">D3D10_QUERY</a></b>
+Type: <b><a href="/windows/desktop/api/d3d10/ne-d3d10-d3d10_query">D3D10_QUERY</a></b>
 
-Type of query (see <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/ne-d3d10-d3d10_query">D3D10_QUERY</a>).
+Type of query (see <a href="/windows/desktop/api/d3d10/ne-d3d10-d3d10_query">D3D10_QUERY</a>).
 
 ### -field MiscFlags
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
-Miscellaneous flags (see <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/ne-d3d10-d3d10_query_misc_flag">D3D10_QUERY_MISC_FLAG</a>).
+Miscellaneous flags (see <a href="/windows/desktop/api/d3d10/ne-d3d10-d3d10_query_misc_flag">D3D10_QUERY_MISC_FLAG</a>).
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-reference-d3d10-core-structures">Core Structures</a>
-
+<a href="/windows/desktop/direct3d10/d3d10-graphics-reference-d3d10-core-structures">Core Structures</a>

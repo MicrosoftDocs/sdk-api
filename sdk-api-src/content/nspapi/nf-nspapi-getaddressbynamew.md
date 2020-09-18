@@ -53,11 +53,11 @@ api_name:
 ## -description
 
 <p class="CCE_Message">[<b>GetAddressByName</b> is no longer available for use as of Windows Sockets 2. Instead, use the functions detailed in 
-<a href="https://docs.microsoft.com/windows/desktop/WinSock/protocol-independent-name-resolution-2">Protocol-Independent Name Resolution</a>.]
+<a href="/windows/desktop/WinSock/protocol-independent-name-resolution-2">Protocol-Independent Name Resolution</a>.]
 
 The 
 <b>GetAddressByName</b> function queries a namespace, or a set of default namespaces, to retrieve network address information for a specified network service. This process is known as service name resolution. A network service can also use the function to obtain local address information that it can use with the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-bind">bind</a> function.
+<a href="/windows/desktop/api/winsock/nf-winsock-bind">bind</a> function.
 
 ## -parameters
 
@@ -149,7 +149,7 @@ The Svcguid.h header file is not automatically included by the Winsock2.h header
 A pointer to a zero-terminated string that uniquely represents the service name. For example, "MY SNA SERVER".
 
 Setting <i>lpServiceName</i> to <b>NULL</b> is the equivalent of setting <i>dwResolution</i> to RES_SERVICE. The function operates in its second mode, obtaining the local address to which a service of the specified type should bind. The function stores the local address within the <b>LocalAddr</b> member of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-csaddr_info">CSADDR_INFO</a> structures stored into *<i>lpCsaddrBuffer</i>.
+<a href="/windows/desktop/api/nspapi/ns-nspapi-csaddr_info">CSADDR_INFO</a> structures stored into *<i>lpCsaddrBuffer</i>.
 
 If <i>dwResolution</i> is set to RES_SERVICE, the function ignores the <i>lpServiceName</i> parameter.
 
@@ -215,14 +215,14 @@ Reserved for future use; must be set to <b>NULL</b>.
 ### -param lpCsaddrBuffer [out]
 
 A pointer to a buffer to receive one or more 
-<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-csaddr_info">CSADDR_INFO</a> data structures. The number of structures written to the buffer depends on the amount of information found in the resolution attempt. You should assume that multiple structures will be written, although in many cases there will only be one.
+<a href="/windows/desktop/api/nspapi/ns-nspapi-csaddr_info">CSADDR_INFO</a> data structures. The number of structures written to the buffer depends on the amount of information found in the resolution attempt. You should assume that multiple structures will be written, although in many cases there will only be one.
 
 ### -param lpdwBufferLength [in, out]
 
 A pointer to a variable that, upon input, specifies the size, in bytes, of the buffer pointed to by <i>lpCsaddrBuffer</i>.
 
 Upon output, this variable contains the total number of bytes required to store the array of 
-<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-csaddr_info">CSADDR_INFO</a> structures. If this value is less than or equal to the input value of *<i>lpdwBufferLength</i>, and the function is successful, this is the number of bytes actually stored in the buffer. If this value is greater than the input value of *<i>lpdwBufferLength</i>, the buffer was too small, and the output value of *<i>lpdwBufferLength</i> is the minimal required buffer size.
+<a href="/windows/desktop/api/nspapi/ns-nspapi-csaddr_info">CSADDR_INFO</a> structures. If this value is less than or equal to the input value of *<i>lpdwBufferLength</i>, and the function is successful, this is the number of bytes actually stored in the buffer. If this value is greater than the input value of *<i>lpdwBufferLength</i>, the buffer was too small, and the output value of *<i>lpdwBufferLength</i> is the minimal required buffer size.
 
 ### -param lpAliasBuffer [in, out]
 
@@ -245,10 +245,10 @@ If <i>lpAliasBuffer</i> is <b>NULL</b>, <i>lpdwAliasBufferLength</i> is meaningl
 ## -returns
 
 If the function succeeds, the return value is the number of 
-<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-csaddr_info">CSADDR_INFO</a> data structures written to the buffer pointed to by <i>lpCsaddrBuffer</i>.
+<a href="/windows/desktop/api/nspapi/ns-nspapi-csaddr_info">CSADDR_INFO</a> data structures written to the buffer pointed to by <i>lpCsaddrBuffer</i>.
 
 If the function fails, the return value is SOCKET_ERROR( –1). To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>, which returns the following extended error value.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>, which returns the following extended error value.
 
 <table>
 <tr>
@@ -263,7 +263,7 @@ If the function fails, the return value is SOCKET_ERROR( –1). To get extended 
 </td>
 <td width="60%">
 The buffer pointed to by <i>lpCsaddrBuffer</i> was too small to receive all of the relevant 
-<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-csaddr_info">CSADDR_INFO</a> structures. Call the function with a buffer at least as large as the value returned in *<i>lpdwBufferLength</i>.
+<a href="/windows/desktop/api/nspapi/ns-nspapi-csaddr_info">CSADDR_INFO</a> structures. Call the function with a buffer at least as large as the value returned in *<i>lpdwBufferLength</i>.
 
 </td>
 </tr>
@@ -272,13 +272,13 @@ The buffer pointed to by <i>lpCsaddrBuffer</i> was too small to receive all of t
 ## -remarks
 
 This function is a more powerful version of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/wsipv6ok/nf-wsipv6ok-gethostbyname">gethostbyname</a> function. The 
+<a href="/windows/desktop/api/wsipv6ok/nf-wsipv6ok-gethostbyname">gethostbyname</a> function. The 
 <b>GetAddressByName</b> function works with multiple name services.
 
 
 <div class="alert"><b>Note</b>  The 
-<a href="https://docs.microsoft.com/windows/desktop/api/wsipv6ok/nf-wsipv6ok-gethostbyname">gethostbyname</a> function has been deprecated by the introduction of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ws2tcpip/nf-ws2tcpip-getaddrinfo">getaddrinfo</a> function. Developers creating Windows Sockets 2 applications are urged to use the 
+<a href="/windows/desktop/api/wsipv6ok/nf-wsipv6ok-gethostbyname">gethostbyname</a> function has been deprecated by the introduction of the 
+<a href="/windows/desktop/api/ws2tcpip/nf-ws2tcpip-getaddrinfo">getaddrinfo</a> function. Developers creating Windows Sockets 2 applications are urged to use the 
 <b>getaddrinfo</b> function instead of 
 <b>gethostbyname</b>.</div>
 <div> </div>
@@ -301,21 +301,20 @@ Note that the
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-csaddr_info">CSADDR_INFO</a>
+<a href="/windows/desktop/api/nspapi/ns-nspapi-csaddr_info">CSADDR_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WinSock/winsock-functions">Winsock Functions</a>
+<a href="/windows/desktop/WinSock/winsock-functions">Winsock Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WinSock/winsock-reference">Winsock Reference</a>
+<a href="/windows/desktop/WinSock/winsock-reference">Winsock Reference</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ws2tcpip/nf-ws2tcpip-getaddrinfo">getaddrinfo</a>
+<a href="/windows/desktop/api/ws2tcpip/nf-ws2tcpip-getaddrinfo">getaddrinfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wsipv6ok/nf-wsipv6ok-gethostbyname">gethostbyname</a>
-
+<a href="/windows/desktop/api/wsipv6ok/nf-wsipv6ok-gethostbyname">gethostbyname</a>

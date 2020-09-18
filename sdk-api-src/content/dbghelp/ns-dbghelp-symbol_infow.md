@@ -284,7 +284,7 @@ The <b>Value</b> member is used.
 </td>
 <td width="60%">
 The symbol is a virtual symbol created by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-symaddsymbol">SymAddSymbol</a> function.
+<a href="/windows/desktop/api/dbghelp/nf-dbghelp-symaddsymbol">SymAddSymbol</a> function.
 							
 
 </td>
@@ -311,7 +311,7 @@ and countries.)
 
 ### -field Tag
 
-The PDB classification. These values are defined in Dbghelp.h in the <a href="https://msdn.microsoft.com/library/bkedss5f(v=VS.100).aspx">SymTagEnum</a> enumeration type.
+The PDB classification. These values are defined in Dbghelp.h in the <a href="/previous-versions/visualstudio/visual-studio-2010/bkedss5f(v=vs.100)">SymTagEnum</a> enumeration type.
 
 ### -field NameLen
 
@@ -324,26 +324,25 @@ The size of the <b>Name</b> buffer, in characters. If this member is 0, the <b>N
 ### -field Name
 
 The name of the symbol. The name can be undecorated if the SYMOPT_UNDNAME option is used with the 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-symsetoptions">SymSetOptions</a> function.
+<a href="/windows/desktop/api/dbghelp/nf-dbghelp-symsetoptions">SymSetOptions</a> function.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nc-dbghelp-psym_enumeratesymbols_callback">SymEnumSymbolsProc</a>
+<a href="/windows/desktop/api/dbghelp/nc-dbghelp-psym_enumeratesymbols_callback">SymEnumSymbolsProc</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-symfromaddr">SymFromAddr</a>
+<a href="/windows/desktop/api/dbghelp/nf-dbghelp-symfromaddr">SymFromAddr</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-symfromname">SymFromName</a>
+<a href="/windows/desktop/api/dbghelp/nf-dbghelp-symfromname">SymFromName</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-symgettypefromname">SymGetTypeFromName</a>
+<a href="/windows/desktop/api/dbghelp/nf-dbghelp-symgettypefromname">SymGetTypeFromName</a>
 
 ## -remarks
 
 > [!NOTE]
 > The dbghelp.h header defines SYMBOL_INFO as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

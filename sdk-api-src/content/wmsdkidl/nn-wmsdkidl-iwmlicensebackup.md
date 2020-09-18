@@ -56,11 +56,11 @@ api_name:
 
 The <b>IWMLicenseBackup</b> interface manages the backing up of licenses, typically so that they can be restored onto another computer.
 
-This interface is obtained by using the <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-wmcreatebackuprestorer">WMCreateBackupRestorer</a> function.
+This interface is obtained by using the <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-wmcreatebackuprestorer">WMCreateBackupRestorer</a> function.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMLicenseBackup</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWMLicenseBackup</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMLicenseBackup</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWMLicenseBackup</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -75,7 +75,7 @@ The <b>IWMLicenseBackup</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmlicensebackup-backuplicenses">BackupLicenses</a>
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmlicensebackup-backuplicenses">BackupLicenses</a>
 </td>
 <td align="left" width="63%">
 Saves copies of the licenses.
@@ -84,7 +84,7 @@ Saves copies of the licenses.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmlicensebackup-cancellicensebackup">CancelLicenseBackup</a>
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmlicensebackup-cancellicensebackup">CancelLicenseBackup</a>
 </td>
 <td align="left" width="63%">
 Cancels a current backup operation.
@@ -102,13 +102,13 @@ The following interfaces can be obtained by using the QueryInterface method of t
 </tr>
 <tr>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmbackuprestoreprops">IWMBackupRestoreProps</a>
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmbackuprestoreprops">IWMBackupRestoreProps</a>
 </td>
 <td>IID_IWMBackupRestoreProps</td>
 </tr>
 <tr>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmlicenserestore">IWMLicenseRestore</a>
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmlicenserestore">IWMLicenseRestore</a>
 </td>
 <td>IID_IWMLicenseRestore</td>
 </tr>
@@ -116,13 +116,12 @@ The following interfaces can be obtained by using the QueryInterface method of t
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/wmformat/backing-up-and-restoring-licenses">Backing Up and Restoring Licenses</a>
+<a href="/windows/desktop/wmformat/backing-up-and-restoring-licenses">Backing Up and Restoring Licenses</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/wmformat/backup-restorer-object">Backup Restorer Object</a>
+<a href="/windows/desktop/wmformat/backup-restorer-object">Backup Restorer Object</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/wmformat/interfaces">Interfaces</a>
-
+<a href="/windows/desktop/wmformat/interfaces">Interfaces</a>

@@ -65,7 +65,7 @@ Path to a file on a CSV. If the path is not a CSV path,
 If the function succeeds, it returns <b>ERROR_SUCCESS</b> (0).
 
 If the function fails, it returns one of the 
-       <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error codes</a>.
+       <a href="/windows/desktop/Debug/system-error-codes">system error codes</a>.
 
 ## -remarks
 
@@ -74,7 +74,7 @@ The
     function must be called from a node of the cluster.
 
 Normally, when a backup job completes, the CSV "Backup in Progress" state (set by 
-    <a href="https://docs.microsoft.com/windows/desktop/api/resapi/nf-resapi-clusterpreparesharedvolumeforbackup">ClusterPrepareSharedVolumeForBackup</a>) 
+    <a href="/windows/desktop/api/resapi/nf-resapi-clusterpreparesharedvolumeforbackup">ClusterPrepareSharedVolumeForBackup</a>) 
     is automatically cleared—meaning that the CSV volume is unpinned from this Cluster node and 
     direct I/O is re-enabled. If the backup process is terminated after the call to 
     <b>ClusterPrepareSharedVolumeForBackup</b> 
@@ -95,17 +95,16 @@ Normally, when a backup job completes, the CSV "Backup in Progress" state (set b
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/backing-up-and-restoring-the-failover-cluster-configuration-using-vss">Backing Up and Restoring the Failover Cluster Configuration Using VSS</a>
+<a href="/previous-versions/windows/desktop/mscs/backing-up-and-restoring-the-failover-cluster-configuration-using-vss">Backing Up and Restoring the Failover Cluster Configuration Using VSS</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/backup-and-restore-functions">Backup and Restore Functions</a>
+<a href="/previous-versions/windows/desktop/mscs/backup-and-restore-functions">Backup and Restore Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-resource-set-shared-volume-backup-mode">CLUSCTL_RESOURCE_SET_SHARED_VOLUME_BACKUP_MODE</a>
+<a href="/previous-versions/windows/desktop/mscs/clusctl-resource-set-shared-volume-backup-mode">CLUSCTL_RESOURCE_SET_SHARED_VOLUME_BACKUP_MODE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-getvolumepathnamew">GetVolumePathName</a>
-
+<a href="/windows/desktop/api/fileapi/nf-fileapi-getvolumepathnamew">GetVolumePathName</a>

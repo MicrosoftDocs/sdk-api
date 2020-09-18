@@ -65,7 +65,7 @@ A handle to the device context.
 
 ### -param lpxf [out]
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-xform">XFORM</a> structure that receives the current world-space to page-space transformation.
+A pointer to an <a href="/windows/desktop/api/wingdi/ns-wingdi-xform">XFORM</a> structure that receives the current world-space to page-space transformation.
 
 ## -returns
 
@@ -75,21 +75,20 @@ If the function fails, the return value is zero.
 
 ## -remarks
 
-The precision of the transformation may be altered if an application calls the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-modifyworldtransform">ModifyWorldTransform</a> function prior to calling <b>GetWorldTransform</b>. (This is because the internal format for storing transformation values uses a higher precision than a <b>FLOAT</b> value.)
+The precision of the transformation may be altered if an application calls the <a href="/windows/desktop/api/wingdi/nf-wingdi-modifyworldtransform">ModifyWorldTransform</a> function prior to calling <b>GetWorldTransform</b>. (This is because the internal format for storing transformation values uses a higher precision than a <b>FLOAT</b> value.)
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/coordinate-space-and-transformation-functions">Coordinate Space and Transformation Functions</a>
+<a href="/windows/desktop/gdi/coordinate-space-and-transformation-functions">Coordinate Space and Transformation Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/coordinate-spaces-and-transformations">Coordinate Spaces and Transformations Overview</a>
+<a href="/windows/desktop/gdi/coordinate-spaces-and-transformations">Coordinate Spaces and Transformations Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-modifyworldtransform">ModifyWorldTransform</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-modifyworldtransform">ModifyWorldTransform</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-setworldtransform">SetWorldTransform</a>
-
+<a href="/windows/desktop/api/wingdi/nf-wingdi-setworldtransform">SetWorldTransform</a>

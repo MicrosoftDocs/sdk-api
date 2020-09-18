@@ -68,5 +68,4 @@ If the value specified for <i>Channel</i> is less than the minimum channel set f
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-ichanneltunerequest">IChannelTuneRequest Interface</a>
-
+<a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-ichanneltunerequest">IChannelTuneRequest Interface</a>

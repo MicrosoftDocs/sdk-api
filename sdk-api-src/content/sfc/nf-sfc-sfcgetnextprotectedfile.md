@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[This function is available for use in the operating systems specified in the Requirements section. Support for this function was removed in Windows Vista and Windows Server 2008. Use the supported functions listed in <a href="https://docs.microsoft.com/windows/desktop/Wfp/wfp-functions">WRP Functions</a> instead.]
+<p class="CCE_Message">[This function is available for use in the operating systems specified in the Requirements section. Support for this function was removed in Windows Vista and Windows Server 2008. Use the supported functions listed in <a href="/windows/desktop/Wfp/wfp-functions">WRP Functions</a> instead.]
 
 Retrieves the complete list of protected files. Applications should not replace these files.
 
@@ -78,9 +78,8 @@ Before calling this function the first time, set the <b>FileNumber</b> member to
 If the function succeeds, the return value is nonzero.
 
 If there are no more protected files to enumerate, the return value is zero and 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns ERROR_NO_MORE_FILES. If the function fails, <b>GetLastError</b> will return a different error code.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns ERROR_NO_MORE_FILES. If the function fails, <b>GetLastError</b> will return a different error code.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sfc/nf-sfc-sfcisfileprotected">SfcIsFileProtected</a>
-
+<a href="/windows/desktop/api/sfc/nf-sfc-sfcisfileprotected">SfcIsFileProtected</a>

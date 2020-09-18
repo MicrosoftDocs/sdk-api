@@ -62,7 +62,7 @@ The identifier of the function that you need to run. This value is defined by th
 
 ### -field PrivateDataByteCount
 
-The size of the private data that the implementation of  the security processor implementation reserved. You can determine this value by calling the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfcontentprotectiondevice-getprivatedatabytecount">IMFContentProtectionDevice::GetPrivateDataByteCount</a> method.
+The size of the private data that the implementation of  the security processor implementation reserved. You can determine this value by calling the <a href="/windows/desktop/api/mfidl/nf-mfidl-imfcontentprotectiondevice-getprivatedatabytecount">IMFContentProtectionDevice::GetPrivateDataByteCount</a> method.
 
 ### -field HWProtectionDataByteCount
 
@@ -82,17 +82,16 @@ The protection system specification defines the format and size of the DRM funct
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfcontentprotectiondevice-getprivatedatabytecount">IMFContentProtectionDevice::GetPrivateDataByteCount</a>
+<a href="/windows/desktop/api/mfidl/nf-mfidl-imfcontentprotectiondevice-getprivatedatabytecount">IMFContentProtectionDevice::GetPrivateDataByteCount</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfcontentprotectiondevice-invokefunction">IMFContentProtectionDevice::InvokeFunction</a>
+<a href="/windows/desktop/api/mfidl/nf-mfidl-imfcontentprotectiondevice-invokefunction">IMFContentProtectionDevice::InvokeFunction</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/ns-mfidl-mfcontentprotectiondevice_output_data">MFCONTENTPROTECTIONDEVICE_OUTPUT_DATA</a>
+<a href="/windows/desktop/api/mfidl/ns-mfidl-mfcontentprotectiondevice_output_data">MFCONTENTPROTECTIONDEVICE_OUTPUT_DATA</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-structures">Media Foundation Structures</a>
-
+<a href="/windows/desktop/medfound/media-foundation-structures">Media Foundation Structures</a>

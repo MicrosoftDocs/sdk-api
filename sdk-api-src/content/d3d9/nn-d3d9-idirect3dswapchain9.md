@@ -55,7 +55,7 @@ Applications use the methods of the IDirect3DSwapChain9 interface to manipulate 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDirect3DSwapChain9</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDirect3DSwapChain9</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDirect3DSwapChain9</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDirect3DSwapChain9</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>IDirect3DSwapChain9</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3dswapchain9-getbackbuffer">GetBackBuffer</a>
+<a href="/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3dswapchain9-getbackbuffer">GetBackBuffer</a>
 </td>
 <td align="left" width="63%">
 Retrieves a back buffer from the swap chain of the device.
@@ -79,7 +79,7 @@ Retrieves a back buffer from the swap chain of the device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3dswapchain9-getdevice">GetDevice</a>
+<a href="/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3dswapchain9-getdevice">GetDevice</a>
 </td>
 <td align="left" width="63%">
 Retrieves the device associated with the swap chain.
@@ -88,7 +88,7 @@ Retrieves the device associated with the swap chain.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3dswapchain9-getdisplaymode">GetDisplayMode</a>
+<a href="/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3dswapchain9-getdisplaymode">GetDisplayMode</a>
 </td>
 <td align="left" width="63%">
 Retrieves the display mode's spatial resolution, color resolution, and refresh frequency.
@@ -97,7 +97,7 @@ Retrieves the display mode's spatial resolution, color resolution, and refresh f
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3dswapchain9-getfrontbufferdata">GetFrontBufferData</a>
+<a href="/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3dswapchain9-getfrontbufferdata">GetFrontBufferData</a>
 </td>
 <td align="left" width="63%">
 Generates a copy of the swapchain's front buffer and places that copy in a system memory buffer provided by the application.
@@ -106,7 +106,7 @@ Generates a copy of the swapchain's front buffer and places that copy in a syste
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3dswapchain9-getpresentparameters">GetPresentParameters</a>
+<a href="/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3dswapchain9-getpresentparameters">GetPresentParameters</a>
 </td>
 <td align="left" width="63%">
 Retrieves the presentation parameters associated with a swap chain.
@@ -115,7 +115,7 @@ Retrieves the presentation parameters associated with a swap chain.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3dswapchain9-getrasterstatus">GetRasterStatus</a>
+<a href="/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3dswapchain9-getrasterstatus">GetRasterStatus</a>
 </td>
 <td align="left" width="63%">
 Returns information describing the raster of the monitor on which the swap chain is presented.
@@ -124,7 +124,7 @@ Returns information describing the raster of the monitor on which the swap chain
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3dswapchain9-present">Present</a>
+<a href="/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3dswapchain9-present">Present</a>
 </td>
 <td align="left" width="63%">
 Presents the contents of the next buffer in the sequence of back buffers owned by the swap chain.
@@ -135,9 +135,9 @@ Presents the contents of the next buffer in the sequence of back buffers owned b
 
 ## -remarks
 
-There is always at least one swap chain for each device, known as the implicit swap chain. However, an additional swap chain for rendering multiple views from the same device can be created by calling the <a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-createadditionalswapchain">IDirect3DDevice9::CreateAdditionalSwapChain</a> method.
+There is always at least one swap chain for each device, known as the implicit swap chain. However, an additional swap chain for rendering multiple views from the same device can be created by calling the <a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-createadditionalswapchain">IDirect3DDevice9::CreateAdditionalSwapChain</a> method.
 
-This interface, like all COM interfaces, inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface.
+This interface, like all COM interfaces, inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface.
 
 The LPDIRECT3DSWAPCHAIN9 and PDIRECT3DSWAPCHAIN9 types are defined as pointers to the <b>IDirect3DSwapChain9</b> interface. 
     
@@ -157,9 +157,8 @@ Note the application should ensure that its associated device window is visible 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3d9/dx9-graphics-reference-d3d-interfaces">Direct3D Interfaces</a>
+<a href="/windows/desktop/direct3d9/dx9-graphics-reference-d3d-interfaces">Direct3D Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-createadditionalswapchain">IDirect3DDevice9::CreateAdditionalSwapChain</a>
-
+<a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-createadditionalswapchain">IDirect3DDevice9::CreateAdditionalSwapChain</a>

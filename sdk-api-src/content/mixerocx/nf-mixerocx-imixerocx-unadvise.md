@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-The <code>UnAdvise</code> method instructs the Overlay Mixer to release its pointer to the client's <a href="https://docs.microsoft.com/windows/desktop/api/mixerocx/nn-mixerocx-imixerocxnotify">IMixerOCXNotify</a> interface.
+The <code>UnAdvise</code> method instructs the Overlay Mixer to release its pointer to the client's <a href="/windows/desktop/api/mixerocx/nn-mixerocx-imixerocxnotify">IMixerOCXNotify</a> interface.
 
 ## -parameters
 
@@ -61,9 +61,8 @@ If the method succeeds, it returns S_OK.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mixerocx/nn-mixerocx-imixerocx">IMixerOCX Interface</a>
+<a href="/windows/desktop/api/mixerocx/nn-mixerocx-imixerocx">IMixerOCX Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/overlay-mixer-filter">Overlay Mixer</a>
-
+<a href="/windows/desktop/DirectShow/overlay-mixer-filter">Overlay Mixer</a>

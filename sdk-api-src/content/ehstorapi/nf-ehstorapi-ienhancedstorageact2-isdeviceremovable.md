@@ -93,5 +93,4 @@ The information was successfully retrieved.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/ehstorapi/nn-ehstorapi-ienhancedstorageact2">IEnhancedStorageACT2</a>
-
+<a href="/previous-versions/windows/desktop/api/ehstorapi/nn-ehstorapi-ienhancedstorageact2">IEnhancedStorageACT2</a>

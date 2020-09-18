@@ -75,13 +75,13 @@ For out-only context handles, the
 Returns RPC_S_OK upon successful execution, indicating the thread now has access to the context handle in exclusive mode. Returns ERROR_MORE_WRITES when multiple threads attempt an exclusive lock on the context handle. See Remarks.
 
 <div class="alert"><b>Note</b>  For a list of valid error codes, see 
-<a href="https://docs.microsoft.com/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
+<a href="/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
 <div> </div>
 
 ## -remarks
 
 Modifying whether a context handle is serialized or nonserialized can be useful to applications that determine whether to close a context handle based on conditions detected upon execution. To change a context handle from serialized (exclusive) to nonserialized (shared), use the 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcasync/nf-rpcasync-rpcsscontextlockshared">RpcSsContextLockShared</a> function.
+<a href="/windows/desktop/api/rpcasync/nf-rpcasync-rpcsscontextlockshared">RpcSsContextLockShared</a> function.
 
 For the <i>UserContext</i> parameter, if the manager routine receives a pointer to a context handle, it must pass the 
 <b>RpcSsContextLockExclusive</b> function the same pointer it received from RPC. If the manager routine receives the context handle itself, which is typical for [in] only context handles, it must pass the context handle itself to the 
@@ -120,17 +120,16 @@ The
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcasync/nf-rpcasync-rpcsscontextlockshared">RpcSsContextLockShared</a>
+<a href="/windows/desktop/api/rpcasync/nf-rpcasync-rpcsscontextlockshared">RpcSsContextLockShared</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Midl/context-handle">context_handle</a>
+<a href="/windows/desktop/Midl/context-handle">context_handle</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Midl/context-handle-noserialize">context_handle_noserialize</a>
+<a href="/windows/desktop/Midl/context-handle-noserialize">context_handle_noserialize</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Midl/context-handle-serialize">context_handle_serialize</a>
-
+<a href="/windows/desktop/Midl/context-handle-serialize">context_handle_serialize</a>

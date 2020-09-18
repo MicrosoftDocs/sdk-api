@@ -60,13 +60,13 @@ The
 ### -param pFlowName [in]
 
 Name of the flow being set. The value for this parameter is obtained by a previous call to the 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/traffic/nf-traffic-tcenumerateflows">TcEnumerateFlows</a> function or the 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/traffic/nf-traffic-tcgetflownamea">TcGetFlowName</a> function.
+<a href="/previous-versions/windows/desktop/api/traffic/nf-traffic-tcenumerateflows">TcEnumerateFlows</a> function or the 
+<a href="/previous-versions/windows/desktop/api/traffic/nf-traffic-tcgetflownamea">TcGetFlowName</a> function.
 
 ### -param pGuidParam [in]
 
 Pointer to the globally unique identifier (GUID) that corresponds to the parameter to be set. A list of available GUIDs can be found in 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/qos/guid">GUID</a>.
+<a href="/previous-versions/windows/desktop/qos/guid">GUID</a>.
 
 ### -param BufferSize [in]
 
@@ -175,4 +175,3 @@ Use of the
 
 > [!NOTE]
 > The traffic.h header defines TcSetFlow as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

@@ -56,19 +56,19 @@ The <b>DrvEnableDirectDraw</b> function enables hardware for DirectDraw use.
 
 ### -param dhpdev
 
-Handle to the <a href="https://docs.microsoft.com/windows-hardware/drivers/">PDEV</a> returned by the driver's <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvenablepdev">DrvEnablePDEV</a> routine.
+Handle to the <a href="/windows-hardware/drivers/">PDEV</a> returned by the driver's <a href="/windows/desktop/api/winddi/nf-winddi-drvenablepdev">DrvEnablePDEV</a> routine.
 
 ### -param pCallBacks
 
-Points to the <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_callbacks">DD_CALLBACKS</a> structure to be initialized by the driver.
+Points to the <a href="/windows/desktop/api/ddrawint/ns-ddrawint-dd_callbacks">DD_CALLBACKS</a> structure to be initialized by the driver.
 
 ### -param pSurfaceCallBacks
 
-Points to the <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_surfacecallbacks">DD_SURFACECALLBACKS</a> structure to be initialized by the driver.
+Points to the <a href="/windows/desktop/api/ddrawint/ns-ddrawint-dd_surfacecallbacks">DD_SURFACECALLBACKS</a> structure to be initialized by the driver.
 
 ### -param pPaletteCallBacks
 
-Points to the <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_palettecallbacks">DD_PALETTECALLBACKS</a> structure to be initialized by the driver.
+Points to the <a href="/windows/desktop/api/ddrawint/ns-ddrawint-dd_palettecallbacks">DD_PALETTECALLBACKS</a> structure to be initialized by the driver.
 
 ## -returns
 
@@ -76,31 +76,30 @@ Points to the <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/n
 
 ## -remarks
 
-GDI calls the driver's <b>DrvEnableDirectDraw</b> function to obtain pointers to the DirectDraw callbacks that the driver supports. The driver should set the function pointer members of <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_callbacks">DD_CALLBACKS</a>, <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_surfacecallbacks">DD_SURFACECALLBACKS</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_palettecallbacks">DD_PALETTECALLBACKS</a> to point to those functions that it implements. A driver should also set the corresponding bitfields in the <b>dwFlags</b> members of these structures for all supported callbacks.
+GDI calls the driver's <b>DrvEnableDirectDraw</b> function to obtain pointers to the DirectDraw callbacks that the driver supports. The driver should set the function pointer members of <a href="/windows/desktop/api/ddrawint/ns-ddrawint-dd_callbacks">DD_CALLBACKS</a>, <a href="/windows/desktop/api/ddrawint/ns-ddrawint-dd_surfacecallbacks">DD_SURFACECALLBACKS</a>, and <a href="/windows/desktop/api/ddrawint/ns-ddrawint-dd_palettecallbacks">DD_PALETTECALLBACKS</a> to point to those functions that it implements. A driver should also set the corresponding bitfields in the <b>dwFlags</b> members of these structures for all supported callbacks.
 
 A driver's <b>DrvEnableDirectDraw</b> implementation can also dedicate hardware resources such as display memory for use by DirectDraw only.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_callbacks">DD_CALLBACKS</a>
+<a href="/windows/desktop/api/ddrawint/ns-ddrawint-dd_callbacks">DD_CALLBACKS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_palettecallbacks">DD_PALETTECALLBACKS</a>
+<a href="/windows/desktop/api/ddrawint/ns-ddrawint-dd_palettecallbacks">DD_PALETTECALLBACKS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_surfacecallbacks">DD_SURFACECALLBACKS</a>
+<a href="/windows/desktop/api/ddrawint/ns-ddrawint-dd_surfacecallbacks">DD_SURFACECALLBACKS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvdisabledirectdraw">DrvDisableDirectDraw</a>
+<a href="/windows/desktop/api/winddi/nf-winddi-drvdisabledirectdraw">DrvDisableDirectDraw</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvenablepdev">DrvEnablePDEV</a>
+<a href="/windows/desktop/api/winddi/nf-winddi-drvenablepdev">DrvEnablePDEV</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvgetdirectdrawinfo">DrvGetDirectDrawInfo</a>
-
+<a href="/windows/desktop/api/winddi/nf-winddi-drvgetdirectdrawinfo">DrvGetDirectDrawInfo</a>

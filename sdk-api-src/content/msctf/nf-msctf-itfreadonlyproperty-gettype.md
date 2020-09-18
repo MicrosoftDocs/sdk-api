@@ -56,7 +56,7 @@ Obtains the property identifier.
 
 ### -param pguid [out]
 
-Pointer to a <b>GUID</b> value that receives the property type identifier. This is the value that the property provider passed to <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcategorymgr-registercategory">ITfCategoryMgr::RegisterCategory</a> when the property was registered. This can be one of the following values.
+Pointer to a <b>GUID</b> value that receives the property type identifier. This is the value that the property provider passed to <a href="/windows/desktop/api/msctf/nf-msctf-itfcategorymgr-registercategory">ITfCategoryMgr::RegisterCategory</a> when the property was registered. This can be one of the following values.
 
 <table>
 <tr>
@@ -141,14 +141,13 @@ An unspecified error occurred.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcategorymgr-registercategory">ITfCategoryMgr::RegisterCategory
+<a href="/windows/desktop/api/msctf/nf-msctf-itfcategorymgr-registercategory">ITfCategoryMgr::RegisterCategory
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfreadonlyproperty">ITfReadOnlyProperty</a>
+<a href="/windows/desktop/api/msctf/nn-msctf-itfreadonlyproperty">ITfReadOnlyProperty</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/TSF/properties">Properties</a>
-
+<a href="/windows/desktop/TSF/properties">Properties</a>

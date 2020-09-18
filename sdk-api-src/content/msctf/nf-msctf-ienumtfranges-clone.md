@@ -56,7 +56,7 @@ Creates a copy of the enumerator object.
 
 ### -param ppEnum [out]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-ienumtfranges">IEnumTfRanges</a> interface pointer that receives the new enumerator.
+Pointer to an <a href="/windows/desktop/api/msctf/nn-msctf-ienumtfranges">IEnumTfRanges</a> interface pointer that receives the new enumerator.
 
 ## -returns
 
@@ -94,4 +94,3 @@ A memory allocation failure occurred.
 ## -see-also
 
 [IEnumTfRanges interface](nn-msctf-ienumtfranges.md), [ITfRange interface](nn-msctf-itfrange.md)
-

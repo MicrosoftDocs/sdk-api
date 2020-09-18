@@ -52,11 +52,11 @@ api_name:
 
 Represents a Microsoft DirectX Video Acceleration High Definition (DXVA-HD) video processor. 
 
-To get a pointer to this interface, call the <a href="https://docs.microsoft.com/windows/desktop/api/dxvahd/nf-dxvahd-idxvahd_device-createvideoprocessor">IDXVAHD_Device::CreateVideoProcessor</a> method.
+To get a pointer to this interface, call the <a href="/windows/desktop/api/dxvahd/nf-dxvahd-idxvahd_device-createvideoprocessor">IDXVAHD_Device::CreateVideoProcessor</a> method.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDXVAHD_VideoProcessor</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDXVAHD_VideoProcessor</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDXVAHD_VideoProcessor</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDXVAHD_VideoProcessor</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>IDXVAHD_VideoProcessor</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dxvahd/nf-dxvahd-idxvahd_videoprocessor-getvideoprocessbltstate">GetVideoProcessBltState</a>
+<a href="/windows/desktop/api/dxvahd/nf-dxvahd-idxvahd_videoprocessor-getvideoprocessbltstate">GetVideoProcessBltState</a>
 </td>
 <td align="left" width="63%">
 Gets the value of a state parameter for a DXVA-HD blit operation.
@@ -80,7 +80,7 @@ Gets the value of a state parameter for a DXVA-HD blit operation.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dxvahd/nf-dxvahd-idxvahd_videoprocessor-getvideoprocessstreamstate">GetVideoProcessStreamState</a>
+<a href="/windows/desktop/api/dxvahd/nf-dxvahd-idxvahd_videoprocessor-getvideoprocessstreamstate">GetVideoProcessStreamState</a>
 </td>
 <td align="left" width="63%">
 Gets the value of a state parameter for a DXVA-HD input stream.
@@ -89,7 +89,7 @@ Gets the value of a state parameter for a DXVA-HD input stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dxvahd/nf-dxvahd-idxvahd_videoprocessor-setvideoprocessbltstate">SetVideoProcessBltState</a>
+<a href="/windows/desktop/api/dxvahd/nf-dxvahd-idxvahd_videoprocessor-setvideoprocessbltstate">SetVideoProcessBltState</a>
 </td>
 <td align="left" width="63%">
 Sets a state parameter for a DXVA-HD blit operation.
@@ -98,7 +98,7 @@ Sets a state parameter for a DXVA-HD blit operation.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dxvahd/nf-dxvahd-idxvahd_videoprocessor-setvideoprocessstreamstate">SetVideoProcessStreamState</a>
+<a href="/windows/desktop/api/dxvahd/nf-dxvahd-idxvahd_videoprocessor-setvideoprocessstreamstate">SetVideoProcessStreamState</a>
 </td>
 <td align="left" width="63%">
 Sets a state parameter for a DXVA-HD input stream.
@@ -107,7 +107,7 @@ Sets a state parameter for a DXVA-HD input stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dxvahd/nf-dxvahd-idxvahd_videoprocessor-videoprocessblthd">VideoProcessBltHD</a>
+<a href="/windows/desktop/api/dxvahd/nf-dxvahd-idxvahd_videoprocessor-videoprocessblthd">VideoProcessBltHD</a>
 </td>
 <td align="left" width="63%">
 Performs a video processing blit on one or more input samples and writes the result to a Microsoft Direct3D surface.
@@ -118,13 +118,12 @@ Performs a video processing blit on one or more input samples and writes the res
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/dxva-hd">DXVA-HD</a>
+<a href="/windows/desktop/medfound/dxva-hd">DXVA-HD</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/direct3d-video-interfaces">Direct3D Video Interfaces</a>
+<a href="/windows/desktop/medfound/direct3d-video-interfaces">Direct3D Video Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
-
+<a href="/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>

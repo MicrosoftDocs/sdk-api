@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-The ENUMRECTS structure is used by the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-clipobj_cenumstart">CLIPOBJ_cEnumStart</a> function to provide information about rectangles in a clip region for the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-clipobj_benum">CLIPOBJ_bEnum</a> function.
+The ENUMRECTS structure is used by the <a href="/windows/desktop/api/winddi/nf-winddi-clipobj_cenumstart">CLIPOBJ_cEnumStart</a> function to provide information about rectangles in a clip region for the <a href="/windows/desktop/api/winddi/nf-winddi-clipobj_benum">CLIPOBJ_bEnum</a> function.
 
 ## -struct-fields
 
@@ -62,5 +62,4 @@ Specifies the number of RECTL structures in the <b>arcl</b> array.
 
 ### -field arcl
 
-Is an array of <a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-rectl">RECTL</a> structures that specify the coordinates of rectangles in the clip region.
-
+Is an array of <a href="/windows/desktop/api/windef/ns-windef-rectl">RECTL</a> structures that specify the coordinates of rectangles in the clip region.

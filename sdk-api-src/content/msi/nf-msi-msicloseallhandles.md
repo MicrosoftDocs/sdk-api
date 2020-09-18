@@ -64,10 +64,9 @@ This function returns 0 if all handles are closed. Otherwise, the function retur
 <b>MsiCloseAllHandles</b> only closes handles allocated by the calling thread, and does not affect handles allocated by other threads, such as the install handle passed to custom actions.
 
 The 
-<a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msiopenpackagea">MsiOpenPackage</a> function opens a handle to a package and the 
-<a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msiopenproducta">MsiOpenProduct</a> function opens a handle to a product. These function are for use with functions that access the product database.
+<a href="/windows/desktop/api/msi/nf-msi-msiopenpackagea">MsiOpenPackage</a> function opens a handle to a package and the 
+<a href="/windows/desktop/api/msi/nf-msi-msiopenproducta">MsiOpenProduct</a> function opens a handle to a product. These function are for use with functions that access the product database.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/installer-function-reference">Handle Management Functions</a>
-
+<a href="/windows/desktop/Msi/installer-function-reference">Handle Management Functions</a>

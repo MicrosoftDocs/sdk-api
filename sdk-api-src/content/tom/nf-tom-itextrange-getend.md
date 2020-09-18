@@ -74,7 +74,7 @@ Although a pointer to a range remains valid when the text is edited, this is not
 				character position. Be careful about using methods that return 
 				character position values, especially if the values are to be stored for any duration. 
 
-This method is similar to the <a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange-getstart">ITextRange::GetStart</a> method which gets the start character position of the range.
+This method is similar to the <a href="/windows/desktop/api/tom/nf-tom-itextrange-getstart">ITextRange::GetStart</a> method which gets the start character position of the range.
 
 ## -see-also
 
@@ -82,11 +82,11 @@ This method is similar to the <a href="https://docs.microsoft.com/windows/deskto
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange-getstart">GetStart</a>
+<a href="/windows/desktop/api/tom/nf-tom-itextrange-getstart">GetStart</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextrange">ITextRange</a>
+<a href="/windows/desktop/api/tom/nn-tom-itextrange">ITextRange</a>
 
 
 
@@ -94,9 +94,8 @@ This method is similar to the <a href="https://docs.microsoft.com/windows/deskto
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange-setend">SetEnd</a>
+<a href="/windows/desktop/api/tom/nf-tom-itextrange-setend">SetEnd</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Controls/text-object-model">Text Object Model</a>
-
+<a href="/windows/desktop/Controls/text-object-model">Text Object Model</a>

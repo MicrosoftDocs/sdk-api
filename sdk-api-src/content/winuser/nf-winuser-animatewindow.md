@@ -196,19 +196,19 @@ If the function fails, the return value is zero. The function will fail in the f
 <li>If the window is already hidden and you are trying to hide the window.</li>
 <li>If there is no direction specified for the slide or roll animation.</li>
 <li>When trying to animate a child window with <b>AW_BLEND</b>. </li>
-<li>If the thread does not own the window. Note that, in this case, <b>AnimateWindow</b> fails but <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns <b>ERROR_SUCCESS</b>.</li>
+<li>If the thread does not own the window. Note that, in this case, <b>AnimateWindow</b> fails but <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns <b>ERROR_SUCCESS</b>.</li>
 </ul>
-To get extended error information, call the <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function.
+To get extended error information, call the <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function.
 
 ## -remarks
 
-To show or hide a window without special effects, use <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-showwindow">ShowWindow</a>.
+To show or hide a window without special effects, use <a href="/windows/desktop/api/winuser/nf-winuser-showwindow">ShowWindow</a>.
 
 When using slide or roll animation, you must specify the direction. It can be either <b>AW_HOR_POSITIVE</b>, <b>AW_HOR_NEGATIVE</b>, AW_VER_POSITIVE, or AW_VER_NEGATIVE. 
 
 You can combine <b>AW_HOR_POSITIVE</b> or <b>AW_HOR_NEGATIVE</b> with <b>AW_VER_POSITIVE</b> or <b>AW_VER_NEGATIVE</b> to animate a window diagonally. 
 
-The window procedures for the window and its child windows should handle any <a href="https://docs.microsoft.com/windows/desktop/gdi/wm-print">WM_PRINT</a> or <a href="https://docs.microsoft.com/windows/desktop/gdi/wm-printclient">WM_PRINTCLIENT</a> messages. Dialog boxes, controls, and common controls already handle <b>WM_PRINTCLIENT</b>. The default window procedure already handles <b>WM_PRINT</b>. 
+The window procedures for the window and its child windows should handle any <a href="/windows/desktop/gdi/wm-print">WM_PRINT</a> or <a href="/windows/desktop/gdi/wm-printclient">WM_PRINTCLIENT</a> messages. Dialog boxes, controls, and common controls already handle <b>WM_PRINTCLIENT</b>. The default window procedure already handles <b>WM_PRINT</b>. 
 
 If a child window is displayed partially clipped, when it is animated it will have holes where it is clipped. 
 
@@ -230,17 +230,16 @@ Avoid animating a window that has a drop shadow because it produces visually dis
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-showwindow">ShowWindow</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-showwindow">ShowWindow</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/wm-print">WM_PRINT</a>
+<a href="/windows/desktop/gdi/wm-print">WM_PRINT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/wm-printclient">WM_PRINTCLIENT</a>
+<a href="/windows/desktop/gdi/wm-printclient">WM_PRINTCLIENT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/winmsg/windows">Windows</a>
-
+<a href="/windows/desktop/winmsg/windows">Windows</a>

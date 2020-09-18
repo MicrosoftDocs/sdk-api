@@ -66,20 +66,20 @@ api_name:
 
 The 
 <b>IWbemServices::OpenNamespace</b> method provides the caller with a new 
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nn-wbemcli-iwbemservices">IWbemServices</a> pointer that has the specified child namespace as its operating context. All operations through the new pointer, such as class or instance creation, only affect that namespace. The namespace must be a child namespace of the current object through which this method is called.
+<a href="/windows/desktop/api/wbemcli/nn-wbemcli-iwbemservices">IWbemServices</a> pointer that has the specified child namespace as its operating context. All operations through the new pointer, such as class or instance creation, only affect that namespace. The namespace must be a child namespace of the current object through which this method is called.
 
 ## -parameters
 
 ### -param strNamespace [in]
 
 Path to the target namespace. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/creating-hierarchies-within-wmi">Creating Hierarchies within WMI</a>. This namespace can only be relative to the current namespace associated with the 
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nn-wbemcli-iwbemservices">IWbemServices</a> interface pointer. This parameter cannot be an absolute path or <b>NULL</b>.
+<a href="/windows/desktop/WmiSdk/creating-hierarchies-within-wmi">Creating Hierarchies within WMI</a>. This namespace can only be relative to the current namespace associated with the 
+<a href="/windows/desktop/api/wbemcli/nn-wbemcli-iwbemservices">IWbemServices</a> interface pointer. This parameter cannot be an absolute path or <b>NULL</b>.
 
 ### -param lFlags [in]
 
 This parameter can be set to 0 to make this a synchronous call. To make this a semisynchronous call, set <i>lFlags</i> to <b>WBEM_FLAG_RETURN_IMMEDIATELY</b>, provide a valid pointer for the <i>ppResult</i> parameter, and this call will return immediately. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/calling-a-method">Calling a Method</a>.
+<a href="/windows/desktop/WmiSdk/calling-a-method">Calling a Method</a>.
 
 ### -param pCtx [in]
 
@@ -92,8 +92,8 @@ Receives the object that represents the new namespace context. The returned poin
 ### -param ppResult [out]
 
 Typically <b>NULL</b>. If not <b>NULL</b>, then <i>ppWorkingNamespace</i> must be <b>NULL</b>. In this case, the parameter receives a pointer to a new 
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nn-wbemcli-iwbemcallresult">IWbemCallResult</a> object. If the <i>lFlags</i> parameter is set to <b>WBEM_FLAG_RETURN_IMMEDIATELY</b> this call returns immediately. Then the caller can periodically poll the 
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemcallresult-getresultservices">IWbemCallResult::GetResultServices</a> method until the pointer for the requested namespace becomes available. This parameter is set to point to <b>NULL</b> when there is an error and a new object is not returned.
+<a href="/windows/desktop/api/wbemcli/nn-wbemcli-iwbemcallresult">IWbemCallResult</a> object. If the <i>lFlags</i> parameter is set to <b>WBEM_FLAG_RETURN_IMMEDIATELY</b> this call returns immediately. Then the caller can periodically poll the 
+<a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemcallresult-getresultservices">IWbemCallResult::GetResultServices</a> method until the pointer for the requested namespace becomes available. This parameter is set to point to <b>NULL</b> when there is an error and a new object is not returned.
 
 <div class="alert"><b>Note</b>  It is important to note that when you use this parameter, you must set <i>ppResult</i> to point to <b>NULL</b> before calling the method. This is a COM rule.</div>
 <div> </div>
@@ -102,36 +102,35 @@ Typically <b>NULL</b>. If not <b>NULL</b>, then <i>ppWorkingNamespace</i> must b
 
 This method returns an <b>HRESULT</b> indicating the status of the method call. The following list lists the value contained within an <b>HRESULT</b>.
 
-On failure, you can obtain any available information from the COM function <a href="https://docs.microsoft.com/windows/desktop/api/oleauto/nf-oleauto-geterrorinfo">GetErrorInfo</a>.
+On failure, you can obtain any available information from the COM function <a href="/windows/desktop/api/oleauto/nf-oleauto-geterrorinfo">GetErrorInfo</a>.
 
 COM-specific error codes may also be returned if network problems cause you to lose the remote connection to Windows Management.
 
 ## -remarks
 
 The 
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemlocator-connectserver">IWbemLocator::ConnectServer</a> method can also be used to open the same namespace. The only difference is that the 
+<a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemlocator-connectserver">IWbemLocator::ConnectServer</a> method can also be used to open the same namespace. The only difference is that the 
 <b>OpenNamespace</b> method allows you to place relative object paths in the <i>Namespace</i> parameter to open child namespaces recursively; 
 <b>IWbemLocator::ConnectServer</b> requires a full object path. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/describing-a-wmi-namespace-object-path">Describing a WMI Namespace Object Path</a>.
+<a href="/windows/desktop/WmiSdk/describing-a-wmi-namespace-object-path">Describing a WMI Namespace Object Path</a>.
 
 For example, if the current namespace associated with the 
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nn-wbemcli-iwbemservices">IWbemServices</a> interface pointer is root, then using Default in the <i>Namespace</i> parameter yields a new pointer bound to the root\default namespace.
+<a href="/windows/desktop/api/wbemcli/nn-wbemcli-iwbemservices">IWbemServices</a> interface pointer is root, then using Default in the <i>Namespace</i> parameter yields a new pointer bound to the root\default namespace.
 
 The namespace is closed when <b>Release</b> is called and the reference count reaches 0 (zero).
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/creating-hierarchies-within-wmi">Creating Hierarchies within WMI</a>
+<a href="/windows/desktop/WmiSdk/creating-hierarchies-within-wmi">Creating Hierarchies within WMI</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemlocator-connectserver">IWbemLocator::ConnectServer</a>
+<a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemlocator-connectserver">IWbemLocator::ConnectServer</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nn-wbemcli-iwbemservices">IWbemServices</a>
+<a href="/windows/desktop/api/wbemcli/nn-wbemcli-iwbemservices">IWbemServices</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/retrieving-an-error-code">Retrieving an Error Code</a>
-
+<a href="/windows/desktop/WmiSdk/retrieving-an-error-code">Retrieving an Error Code</a>

@@ -55,7 +55,7 @@ api_name:
 
 ## -description
 
-Returns a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-irunningobjecttable">IRunningObjectTable</a> interface on the local running object table (ROT).
+Returns a pointer to the <a href="/windows/desktop/api/objidl/nn-objidl-irunningobjecttable">IRunningObjectTable</a> interface on the local running object table (ROT).
 
 ## -parameters
 
@@ -65,7 +65,7 @@ This parameter is reserved and must be 0.
 
 ### -param pprot [out]
 
-The address of an <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-irunningobjecttable">IRunningObjectTable</a>* pointer variable that receives the interface pointer to the local ROT. When the function is successful, the caller is responsible for calling <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">Release</a> on the interface pointer. If an error occurs, *<i>pprot</i> is undefined.
+The address of an <a href="/windows/desktop/api/objidl/nn-objidl-irunningobjecttable">IRunningObjectTable</a>* pointer variable that receives the interface pointer to the local ROT. When the function is successful, the caller is responsible for calling <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">Release</a> on the interface pointer. If an error occurs, *<i>pprot</i> is undefined.
 
 ## -returns
 
@@ -73,25 +73,24 @@ This function can return the standard return values E_UNEXPECTED and S_OK.
 
 ## -remarks
 
-Each workstation has a local ROT that maintains a table of the objects that have been registered as running on that computer. This function returns an <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-irunningobjecttable">IRunningObjectTable</a> interface pointer, which provides access to that table.
+Each workstation has a local ROT that maintains a table of the objects that have been registered as running on that computer. This function returns an <a href="/windows/desktop/api/objidl/nn-objidl-irunningobjecttable">IRunningObjectTable</a> interface pointer, which provides access to that table.
 
-Moniker providers, which hand out monikers that identify objects so they are accessible to others, should call <b>GetRunningObjectTable</b>. Use the interface pointer returned by this function to register your objects when they begin running, to record the times that those objects are modified, and to revoke their registrations when they stop running. See the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-irunningobjecttable">IRunningObjectTable</a> interface for more information.
+Moniker providers, which hand out monikers that identify objects so they are accessible to others, should call <b>GetRunningObjectTable</b>. Use the interface pointer returned by this function to register your objects when they begin running, to record the times that those objects are modified, and to revoke their registrations when they stop running. See the <a href="/windows/desktop/api/objidl/nn-objidl-irunningobjecttable">IRunningObjectTable</a> interface for more information.
 
 
 
 Compound-document link sources are the most common example of moniker providers. These include server applications that support linking to their documents (or portions of a document) and container applications that support linking to embeddings within their documents. Server applications that do not support linking can also use the ROT to cooperate with container applications that support linking to embeddings.
 
-If you are implementing the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imoniker">IMoniker</a> interface to write a new moniker class, and you need an interface pointer to the ROT, call <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ibindctx-getrunningobjecttable">IBindCtx::GetRunningObjectTable</a> rather than the <b>GetRunningObjectTable</b> function. This allows future implementations of the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ibindctx">IBindCtx</a> interface to modify binding behavior.
+If you are implementing the <a href="/windows/desktop/api/objidl/nn-objidl-imoniker">IMoniker</a> interface to write a new moniker class, and you need an interface pointer to the ROT, call <a href="/windows/desktop/api/objidl/nf-objidl-ibindctx-getrunningobjecttable">IBindCtx::GetRunningObjectTable</a> rather than the <b>GetRunningObjectTable</b> function. This allows future implementations of the <a href="/windows/desktop/api/objidl/nn-objidl-ibindctx">IBindCtx</a> interface to modify binding behavior.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ibindctx-getrunningobjecttable">IBindCtx::GetRunningObjectTable</a>
+<a href="/windows/desktop/api/objidl/nf-objidl-ibindctx-getrunningobjecttable">IBindCtx::GetRunningObjectTable</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imoniker">IMoniker</a>
+<a href="/windows/desktop/api/objidl/nn-objidl-imoniker">IMoniker</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-irunningobjecttable">IRunningObjectTable</a>
-
+<a href="/windows/desktop/api/objidl/nn-objidl-irunningobjecttable">IRunningObjectTable</a>

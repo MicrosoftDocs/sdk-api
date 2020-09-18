@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-The <b>GetPropertyFlags</b> method retrieves a value that specifies the default policy server URL. This value is set by the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-icertpropertyenrollmentpolicyserver-initialize">Initialize</a> method.
+The <b>GetPropertyFlags</b> method retrieves a value that specifies the default policy server URL. This value is set by the <a href="/windows/desktop/api/certenroll/nf-certenroll-icertpropertyenrollmentpolicyserver-initialize">Initialize</a> method.
 
 ## -parameters
 
 ### -param pValue [out, retval]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/ne-certenroll-enrollmentpolicyserverpropertyflags">EnrollmentPolicyServerPropertyFlags</a> enumeration value that contains the flag. This can be one of the following values.
+Pointer to an <a href="/windows/desktop/api/certenroll/ne-certenroll-enrollmentpolicyserverpropertyflags">EnrollmentPolicyServerPropertyFlags</a> enumeration value that contains the flag. This can be one of the following values.
 
 <table>
 <tr>
@@ -79,7 +79,7 @@ No default policy server URL has been specified.
 </dl>
 </td>
 <td width="60%">
-The policy server URL returned by <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-icertpropertyenrollmentpolicyserver-getpolicyserverurl">GetPolicyServerUrl</a> is the default value when an URL has not been specified.
+The policy server URL returned by <a href="/windows/desktop/api/certenroll/nf-certenroll-icertpropertyenrollmentpolicyserver-getpolicyserverurl">GetPolicyServerUrl</a> is the default value when an URL has not been specified.
 
 </td>
 </tr>
@@ -89,7 +89,7 @@ The policy server URL returned by <a href="https://docs.microsoft.com/windows/de
 
 If the function succeeds, the function returns <b>S_OK</b>.
 
-If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following table.  For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
+If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following table.  For a list of common error codes, see <a href="/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 <table>
 <tr>
@@ -112,5 +112,4 @@ The <i>pValue</i> parameter cannot be <b>NULL</b>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icertpropertyenrollmentpolicyserver">ICertPropertyEnrollmentPolicyServer</a>
-
+<a href="/windows/desktop/api/certenroll/nn-certenroll-icertpropertyenrollmentpolicyserver">ICertPropertyEnrollmentPolicyServer</a>

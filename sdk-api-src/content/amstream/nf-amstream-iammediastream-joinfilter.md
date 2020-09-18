@@ -58,7 +58,7 @@ The <code>JoinFilter</code> method connects a media stream to the Media Stream f
 
 ### -param pMediaStreamFilter [in]
 
-Pointer to the filter's <a href="https://docs.microsoft.com/windows/desktop/api/amstream/nn-amstream-imediastreamfilter">IMediaStreamFilter</a> interface.
+Pointer to the filter's <a href="/windows/desktop/api/amstream/nn-amstream-imediastreamfilter">IMediaStreamFilter</a> interface.
 
 ## -returns
 
@@ -66,5 +66,4 @@ Returns S_OK if successful.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/amstream/nn-amstream-iammediastream">IAMMediaStream Interface</a>
-
+<a href="/windows/desktop/api/amstream/nn-amstream-iammediastream">IAMMediaStream Interface</a>

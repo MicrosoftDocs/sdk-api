@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-The <b>EMREXTSELECTCLIPRGN</b> structure contains members for the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-extselectcliprgn">ExtSelectClipRgn</a> enhanced metafile record.
+The <b>EMREXTSELECTCLIPRGN</b> structure contains members for the <a href="/windows/desktop/api/wingdi/nf-wingdi-extselectcliprgn">ExtSelectClipRgn</a> enhanced metafile record.
 
 ## -struct-fields
 
@@ -72,17 +72,16 @@ Operation to be performed. This member must be one of the following values: RGN_
 
 ### -field RgnData
 
-Buffer containing a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-rgndata">RGNDATA</a> structure.
+Buffer containing a <a href="/windows/desktop/api/wingdi/ns-wingdi-rgndata">RGNDATA</a> structure.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-extselectcliprgn">ExtSelectClipRgn</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-extselectcliprgn">ExtSelectClipRgn</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/metafile-structures">Metafile Structures</a>
+<a href="/windows/desktop/gdi/metafile-structures">Metafile Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/metafiles">Metafiles Overview</a>
-
+<a href="/windows/desktop/gdi/metafiles">Metafiles Overview</a>

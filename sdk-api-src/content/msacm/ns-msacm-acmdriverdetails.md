@@ -60,7 +60,7 @@ The <b>ACMDRIVERDETAILS</b> structure describes the features of an ACM driver.
 
 ### -field cbStruct
 
-Size, in bytes, of the valid information contained in the <b>ACMDRIVERDETAILS</b> structure. An application should initialize this member to the size, in bytes, of the desired information. The size specified in this member must be large enough to contain the <b>cbStruct</b> member of the <b>ACMDRIVERDETAILS</b> structure. When the <a href="https://docs.microsoft.com/windows/desktop/api/msacm/nf-msacm-acmdriverdetails">acmDriverDetails</a> function returns, this member contains the actual size of the information returned. The returned information will never exceed the requested size.
+Size, in bytes, of the valid information contained in the <b>ACMDRIVERDETAILS</b> structure. An application should initialize this member to the size, in bytes, of the desired information. The size specified in this member must be large enough to contain the <b>cbStruct</b> member of the <b>ACMDRIVERDETAILS</b> structure. When the <a href="/windows/desktop/api/msacm/nf-msacm-acmdriverdetails">acmDriverDetails</a> function returns, this member contains the actual size of the information returned. The returned information will never exceed the requested size.
 
 ### -field fccType
 
@@ -72,11 +72,11 @@ Subtype of the driver. This member is currently set to ACMDRIVERDETAILS_FCCCOMP_
 
 ### -field wMid
 
-Manufacturer identifier. Manufacturer identifiers are defined in <a href="https://docs.microsoft.com/windows/desktop/Multimedia/manufacturer-and-product-identifiers">Manufacturer and Product Identifiers</a>.
+Manufacturer identifier. Manufacturer identifiers are defined in <a href="/windows/desktop/Multimedia/manufacturer-and-product-identifiers">Manufacturer and Product Identifiers</a>.
 
 ### -field wPid
 
-Product identifier. Product identifiers are defined in <a href="https://docs.microsoft.com/windows/desktop/Multimedia/manufacturer-and-product-identifiers">Manufacturer and Product Identifiers</a>.
+Product identifier. Product identifiers are defined in <a href="/windows/desktop/Multimedia/manufacturer-and-product-identifiers">Manufacturer and Product Identifiers</a>.
 
 ### -field vdwACM
 
@@ -151,7 +151,7 @@ Driver supports a filter (modification of the data without changing any of the f
 </dl>
 </td>
 <td width="60%">
-Driver supports hardware input, output, or both through a waveform-audio device. An application should use the <a href="https://docs.microsoft.com/windows/desktop/api/msacm/nf-msacm-acmmetrics">acmMetrics</a> function with the ACM_METRIC_HARDWARE_WAVE_INPUT and ACM_METRIC_HARDWARE_WAVE_OUTPUT metric indexes to get the waveform-audio device identifiers associated with the supporting ACM driver.
+Driver supports hardware input, output, or both through a waveform-audio device. An application should use the <a href="/windows/desktop/api/msacm/nf-msacm-acmmetrics">acmMetrics</a> function with the ACM_METRIC_HARDWARE_WAVE_INPUT and ACM_METRIC_HARDWARE_WAVE_OUTPUT metric indexes to get the waveform-audio device identifiers associated with the supporting ACM driver.
 
 </td>
 </tr>
@@ -201,17 +201,16 @@ Null-terminated string that provides special feature information for the driver.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/audio-compression-manager">Audio Compression Manager</a>
+<a href="/windows/desktop/Multimedia/audio-compression-manager">Audio Compression Manager</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/audio-compression-structures">Audio Compression Structures</a>
+<a href="/windows/desktop/Multimedia/audio-compression-structures">Audio Compression Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msacm/nf-msacm-acmdriverdetails">acmDriverDetails</a>
+<a href="/windows/desktop/api/msacm/nf-msacm-acmdriverdetails">acmDriverDetails</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msacm/nf-msacm-acmmetrics">acmMetrics</a>
-
+<a href="/windows/desktop/api/msacm/nf-msacm-acmmetrics">acmMetrics</a>

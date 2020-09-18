@@ -62,7 +62,6 @@ A handle to an existing DPA.
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">ULONGLONG</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">ULONGLONG</a></b>
 
 Returns the size of the DPA, including the internal bookkeeping information. If <i>pdpa</i> is <b>NULL</b>, the function returns zero.
-

@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Identifiers for the properties of the <a href="https://docs.microsoft.com/windows/desktop/Direct2D/color-management">Color management effect</a>.
+Identifiers for the properties of the <a href="/windows/desktop/Direct2D/color-management">Color management effect</a>.
 
 ## -enum-fields
 
@@ -59,7 +59,7 @@ Identifiers for the properties of the <a href="https://docs.microsoft.com/window
 The source color space information. 
           
 
-The type is <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1colorcontext">ID2D1ColorContext</a>.
+The type is <a href="/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1colorcontext">ID2D1ColorContext</a>.
 
 The default value is NULL.
 
@@ -68,7 +68,7 @@ The default value is NULL.
 Which ICC rendering intent to use. 
           
 
-The type is <a href="https://docs.microsoft.com/windows/desktop/api/d2d1effects/ne-d2d1effects-d2d1_colormanagement_rendering_intent">D2D1_COLORMANAGEMENT_RENDERING_INTENT</a>.
+The type is <a href="/windows/desktop/api/d2d1effects/ne-d2d1effects-d2d1_colormanagement_rendering_intent">D2D1_COLORMANAGEMENT_RENDERING_INTENT</a>.
 
 The default value is D2D1_COLORMANAGEMENT_RENDERING_INTENT_PERCEPTUAL.
 
@@ -77,7 +77,7 @@ The default value is D2D1_COLORMANAGEMENT_RENDERING_INTENT_PERCEPTUAL.
 The destination color space information. 
           
 
-The type is <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1colorcontext">ID2D1ColorContext</a>.
+The type is <a href="/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1colorcontext">ID2D1ColorContext</a>.
 
 The default value is NULL.
 
@@ -86,7 +86,7 @@ The default value is NULL.
 Which ICC rendering intent to use. 
           
 
-The type is <a href="https://docs.microsoft.com/windows/desktop/api/d2d1effects/ne-d2d1effects-d2d1_colormanagement_rendering_intent">D2D1_COLORMANAGEMENT_RENDERING_INTENT</a>.
+The type is <a href="/windows/desktop/api/d2d1effects/ne-d2d1effects-d2d1_colormanagement_rendering_intent">D2D1_COLORMANAGEMENT_RENDERING_INTENT</a>.
 
 The default value is D2D1_COLORMANAGEMENT_RENDERING_INTENT_PERCEPTUAL.
 
@@ -95,7 +95,7 @@ The default value is D2D1_COLORMANAGEMENT_RENDERING_INTENT_PERCEPTUAL.
 How to interpret alpha data that is contained in the input image. 
           
 
-The type is <a href="https://docs.microsoft.com/windows/desktop/api/d2d1effects/ne-d2d1effects-d2d1_colormanagement_alpha_mode">D2D1_COLORMANAGEMENT_ALPHA_MODE</a>.
+The type is <a href="/windows/desktop/api/d2d1effects/ne-d2d1effects-d2d1_colormanagement_alpha_mode">D2D1_COLORMANAGEMENT_ALPHA_MODE</a>.
 
 The default value is D2D1_COLORMANAGEMENT_ALPHA_MODE_PREMULTIPLIED.
 
@@ -104,9 +104,8 @@ The default value is D2D1_COLORMANAGEMENT_ALPHA_MODE_PREMULTIPLIED.
 The quality level of the transform. 
           
 
-The type is <a href="https://docs.microsoft.com/windows/desktop/api/d2d1effects/ne-d2d1effects-d2d1_colormanagement_quality">D2D1_COLORMANAGEMENT_QUALITY</a>.
+The type is <a href="/windows/desktop/api/d2d1effects/ne-d2d1effects-d2d1_colormanagement_quality">D2D1_COLORMANAGEMENT_QUALITY</a>.
 
 The default value is D2D1_COLORMANAGEMENT_QUALITY_NORMAL.
 
 ### -field D2D1_COLORMANAGEMENT_PROP_FORCE_DWORD
-

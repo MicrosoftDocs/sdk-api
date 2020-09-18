@@ -60,7 +60,7 @@ String that contains the fully qualified path of the directory or file to check.
 
 ### -param itemType [out]
 
-Indicates if the item is a file, a directory, or does not exist. For possible values, see the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/ne-imapi2fs-fsiitemtype">FsiItemType</a> enumeration type.
+Indicates if the item is a file, a directory, or does not exist. For possible values, see the <a href="/windows/desktop/api/imapi2fs/ne-imapi2fs-fsiitemtype">FsiItemType</a> enumeration type.
 
 ## -returns
 
@@ -141,9 +141,8 @@ Value: 0x80004002
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/ne-imapi2fs-fsiitemtype">FsiItemType</a>
+<a href="/windows/desktop/api/imapi2fs/ne-imapi2fs-fsiitemtype">FsiItemType</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nn-imapi2fs-ifilesystemimage">IFileSystemImage</a>
-
+<a href="/windows/desktop/api/imapi2fs/nn-imapi2fs-ifilesystemimage">IFileSystemImage</a>

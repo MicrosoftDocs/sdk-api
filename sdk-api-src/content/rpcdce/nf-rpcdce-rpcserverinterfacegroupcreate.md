@@ -58,7 +58,7 @@ The <b>RpcServerInterfaceGroupCreate</b> function creates an RPC server interfac
 
 ### -param Interfaces [in]
 
-A pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/ns-rpcdce-rpc_interface_template">RPC_INTERFACE_TEMPLATE</a> structures that define the interfaces exposed by the interface group.
+A pointer to an array of <a href="/windows/desktop/api/rpcdce/ns-rpcdce-rpc_interface_template">RPC_INTERFACE_TEMPLATE</a> structures that define the interfaces exposed by the interface group.
 
 ### -param NumIfs [in]
 
@@ -66,7 +66,7 @@ The number of elements in <i>Interfaces</i>.
 
 ### -param Endpoints [in]
 
-A pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/ns-rpcdce-rpc_endpoint_template">RPC_ENDPOINT_TEMPLATE</a> structures that define the endpoints used by the interface group.
+A pointer to an array of <a href="/windows/desktop/api/rpcdce/ns-rpcdce-rpc_endpoint_template">RPC_ENDPOINT_TEMPLATE</a> structures that define the endpoints used by the interface group.
 
 ### -param NumEndpoints [in]
 
@@ -78,7 +78,7 @@ The length of time in seconds after the interface group becomes idle that the RP
 
 ### -param IdleCallbackFn [in]
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nc-rpcdce-rpc_interface_group_idle_callback_fn">RPC_INTERFACE_GROUP_IDLE_CALLBACK_FN</a> callback that the RPC runtime will invoke once the interface group is idle for the length of time given in <i>IdlePeriod</i>.  Can be <b>NULL</b> only if <i>IdlePeriod</i> is <b>INFINITE</b>.
+A <a href="/windows/desktop/api/rpcdce/nc-rpcdce-rpc_interface_group_idle_callback_fn">RPC_INTERFACE_GROUP_IDLE_CALLBACK_FN</a> callback that the RPC runtime will invoke once the interface group is idle for the length of time given in <i>IdlePeriod</i>.  Can be <b>NULL</b> only if <i>IdlePeriod</i> is <b>INFINITE</b>.
 
 ### -param IdleCallbackContext [in]
 
@@ -110,7 +110,7 @@ The call succeeded.
  
 
 <div class="alert"><b>Note</b>  For a list of valid error codes, see 
-<a href="https://docs.microsoft.com/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
+<a href="/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
 <div> </div>
 
 ## -remarks
@@ -125,17 +125,16 @@ RPC server activity is not always visible to the server application.  In some ca
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcserverinterfacegroupactivate">RpcServerInterfaceGroupActivate</a>
+<a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcserverinterfacegroupactivate">RpcServerInterfaceGroupActivate</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcserverinterfacegroupclose">RpcServerInterfaceGroupClose</a>
+<a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcserverinterfacegroupclose">RpcServerInterfaceGroupClose</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcserverinterfacegroupdeactivate">RpcServerInterfaceGroupDeactivate</a>
+<a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcserverinterfacegroupdeactivate">RpcServerInterfaceGroupDeactivate</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcserverinterfacegroupinqbindings">RpcServerInterfaceGroupInqBindings</a>
-
+<a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcserverinterfacegroupinqbindings">RpcServerInterfaceGroupInqBindings</a>

@@ -62,7 +62,7 @@ Enumerates the code pages that are either installed on or supported by an operat
 
 ### -param lpCodePageEnumProc [in]
 
-Pointer to an application-defined callback function. The <b>EnumSystemCodePages</b> function enumerates code pages by making repeated calls to this callback function. For more information, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd317809(v=vs.85)">EnumCodePagesProc</a>.
+Pointer to an application-defined callback function. The <b>EnumSystemCodePages</b> function enumerates code pages by making repeated calls to this callback function. For more information, see <a href="/previous-versions/windows/desktop/legacy/dd317809(v=vs.85)">EnumCodePagesProc</a>.
 
 ### -param dwFlags [in]
 
@@ -97,7 +97,7 @@ Enumerate all supported code pages.
 
 ## -returns
 
-Returns a nonzero value if successful, or 0 otherwise. To get extended error information, the application can call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>, which can return one of the following error codes:
+Returns a nonzero value if successful, or 0 otherwise. To get extended error information, the application can call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>, which can return one of the following error codes:
 
 <ul>
 <li>ERROR_BADDB. The function could not access the data. This situation should not normally occur, and typically indicates a bad installation, a disk problem, or the like.</li>
@@ -120,13 +120,12 @@ When an application is using this function to determine an appropriate code page
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd317809(v=vs.85)">EnumCodePagesProc</a>
+<a href="/previous-versions/windows/desktop/legacy/dd317809(v=vs.85)">EnumCodePagesProc</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/national-language-support">National Language Support</a>
+<a href="/windows/desktop/Intl/national-language-support">National Language Support</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/national-language-support-functions">National Language Support Functions</a>
-
+<a href="/windows/desktop/Intl/national-language-support-functions">National Language Support Functions</a>

@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Returns a string for the name of the action specified by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/ehstorapi/nn-ehstorapi-ienhancedstoragesiloaction">IEnhancedStorageSiloAction</a> object.
+Returns a string for the name of the action specified by the <a href="/previous-versions/windows/desktop/api/ehstorapi/nn-ehstorapi-ienhancedstoragesiloaction">IEnhancedStorageSiloAction</a> object.
 
 ## -parameters
 
@@ -95,9 +95,8 @@ The <i>ppwszActionName</i> parameter is <b>NULL</b>.
 
 A name string is short, consisting of one or two words, and is suitable for display in a UI element such as a menu item or button label.
 
-When the caller no longer requires access to the string, this buffer must be freed by passing this pointer to <a href="https://msdn.microsoft.com/library/ms680722.aspx">CoTaskMemFree</a>.
+When the caller no longer requires access to the string, this buffer must be freed by passing this pointer to <a href="/windows/win32/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/ehstorapi/nn-ehstorapi-ienhancedstoragesiloaction">IEnhancedStorageSiloAction</a>
-
+<a href="/previous-versions/windows/desktop/api/ehstorapi/nn-ehstorapi-ienhancedstoragesiloaction">IEnhancedStorageSiloAction</a>

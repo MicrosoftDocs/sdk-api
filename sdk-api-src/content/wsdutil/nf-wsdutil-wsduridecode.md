@@ -64,7 +64,7 @@ Specifies the length of <i>source</i> in characters.
 
 ### -param destOut [out]
 
-Pointer to a string that contains the decoded URI.  If <i>destOut</i> is not <b>NULL</b>, the calling application should free the allocated string by calling <a href="https://docs.microsoft.com/windows/desktop/api/wsdutil/nf-wsdutil-wsdfreelinkedmemory">WSDFreeLinkedMemory</a>.
+Pointer to a string that contains the decoded URI.  If <i>destOut</i> is not <b>NULL</b>, the calling application should free the allocated string by calling <a href="/windows/desktop/api/wsdutil/nf-wsdutil-wsdfreelinkedmemory">WSDFreeLinkedMemory</a>.
 
 ### -param cchDestOut [out, optional]
 
@@ -128,4 +128,3 @@ The length in characters of <i>source</i> exceeds <b>WSD_MAX_TEXT_LENGTH</b> (81
 ## -remarks
 
 <b>WSDUriDecode</b> decodes any encoded characters in <i>source</i>.  These characters are identified by a percent sign (%) followed by two hexadecimal digits.  <b>WSDUriDecode</b> decodes single-byte components of multi-byte characters and converts them back to wide character representation in <i>destOut</i>.
-

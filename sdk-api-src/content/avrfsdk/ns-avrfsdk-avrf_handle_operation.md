@@ -68,11 +68,11 @@ A unique identifier associated with the process in which the application is runn
 
 ### -field ThreadId
 
-A unique identifier of the thread (returned by the <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-getcurrentthreadid">GetCurrentThreadId</a> function) that has performed an operation on the given handle.
+A unique identifier of the thread (returned by the <a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-getcurrentthreadid">GetCurrentThreadId</a> function) that has performed an operation on the given handle.
 
 ### -field OperationType
 
-One of the constants in the <a href="https://docs.microsoft.com/windows/desktop/api/avrfsdk/ne-avrfsdk-ehandle_trace_operations">eHANDLE_TRACE_OPERATIONS</a> enum that indicate whether the handle operation is                  an open(create), close, or invalid.
+One of the constants in the <a href="/windows/desktop/api/avrfsdk/ne-avrfsdk-ehandle_trace_operations">eHANDLE_TRACE_OPERATIONS</a> enum that indicate whether the handle operation is                  an open(create), close, or invalid.
 
 ### -field Spare0
 
@@ -80,13 +80,12 @@ The alignment of the structure on a natural boundary even if the user has change
 
 ### -field BackTraceInformation
 
-Identifies the <a href="https://docs.microsoft.com/windows/desktop/api/avrfsdk/ns-avrfsdk-avrf_backtrace_information">AVRF_BACKTRACE_INFORMATION</a> structure containing information required for completing the enumeration of handles.
+Identifies the <a href="/windows/desktop/api/avrfsdk/ns-avrfsdk-avrf_backtrace_information">AVRF_BACKTRACE_INFORMATION</a> structure containing information required for completing the enumeration of handles.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DevNotes/resource-enumeration">Resource Enumeration</a>
+<a href="/windows/desktop/DevNotes/resource-enumeration">Resource Enumeration</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/avrfsdk/nf-avrfsdk-verifierenumerateresource">VerifierEnumerateResource</a>
-
+<a href="/windows/desktop/api/avrfsdk/nf-avrfsdk-verifierenumerateresource">VerifierEnumerateResource</a>

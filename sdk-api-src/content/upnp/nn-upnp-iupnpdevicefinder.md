@@ -55,7 +55,7 @@ The
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUPnPDeviceFinder</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IUPnPDeviceFinder</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUPnPDeviceFinder</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IUPnPDeviceFinder</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>IUPnPDeviceFinder</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/upnp/nf-upnp-iupnpdevicefinder-cancelasyncfind">CancelAsyncFind</a>
+<a href="/windows/desktop/api/upnp/nf-upnp-iupnpdevicefinder-cancelasyncfind">CancelAsyncFind</a>
 </td>
 <td align="left" width="63%">
 Cancels an asynchronous search.
@@ -79,7 +79,7 @@ Cancels an asynchronous search.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/upnp/nf-upnp-iupnpdevicefinder-createasyncfind">CreateAsyncFind</a>
+<a href="/windows/desktop/api/upnp/nf-upnp-iupnpdevicefinder-createasyncfind">CreateAsyncFind</a>
 </td>
 <td align="left" width="63%">
 Creates an asynchronous search operation.
@@ -88,7 +88,7 @@ Creates an asynchronous search operation.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/upnp/nf-upnp-iupnpdevicefinder-findbytype">FindByType</a>
+<a href="/windows/desktop/api/upnp/nf-upnp-iupnpdevicefinder-findbytype">FindByType</a>
 </td>
 <td align="left" width="63%">
 Searches synchronously for devices by device type or service type.
@@ -97,7 +97,7 @@ Searches synchronously for devices by device type or service type.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/upnp/nf-upnp-iupnpdevicefinder-findbyudn">FindByUDN</a>
+<a href="/windows/desktop/api/upnp/nf-upnp-iupnpdevicefinder-findbyudn">FindByUDN</a>
 </td>
 <td align="left" width="63%">
 Searches synchronously for a device by its unique device name (UDN).
@@ -106,7 +106,7 @@ Searches synchronously for a device by its unique device name (UDN).
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/upnp/nf-upnp-iupnpdevicefinder-startasyncfind">StartAsyncFind</a>
+<a href="/windows/desktop/api/upnp/nf-upnp-iupnpdevicefinder-startasyncfind">StartAsyncFind</a>
 </td>
 <td align="left" width="63%">
 Starts an asynchronous search.
@@ -114,4 +114,3 @@ Starts an asynchronous search.
 </td>
 </tr>
 </table>
-

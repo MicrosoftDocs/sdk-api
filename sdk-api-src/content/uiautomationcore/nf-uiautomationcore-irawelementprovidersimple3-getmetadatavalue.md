@@ -72,9 +72,8 @@ Returns <b>S_OK</b> if successful, otherwise an <b>HRESULT</b> error code.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nn-uiautomationcore-irawelementprovidersimple3">IRawElementProviderSimple3</a>
+<a href="/windows/desktop/api/uiautomationcore/nn-uiautomationcore-irawelementprovidersimple3">IRawElementProviderSimple3</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/ne-uiautomationcore-sayasinterpretas">SayAsInterpretAs</a>
-
+<a href="/windows/desktop/api/uiautomationcore/ne-uiautomationcore-sayasinterpretas">SayAsInterpretAs</a>

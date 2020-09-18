@@ -102,9 +102,9 @@ The <b>HRESULT</b> was unmarshaled successfully.
 
 ## -remarks
 
-You do not explicitly call this function unless you are performing custom marshaling (that is, writing your own implementation of <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imarshal">IMarshal</a>), and your implementation needs to unmarshal an <b>HRESULT</b>.
+You do not explicitly call this function unless you are performing custom marshaling (that is, writing your own implementation of <a href="/windows/desktop/api/objidl/nn-objidl-imarshal">IMarshal</a>), and your implementation needs to unmarshal an <b>HRESULT</b>.
 
-You must use <b>CoUnmarshalHresult</b> to unmarshal <b>HRESULT</b> values previously marshaled by a call to the <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-comarshalhresult">CoMarshalHresult</a> function.
+You must use <b>CoUnmarshalHresult</b> to unmarshal <b>HRESULT</b> values previously marshaled by a call to the <a href="/windows/desktop/api/combaseapi/nf-combaseapi-comarshalhresult">CoMarshalHresult</a> function.
 
 This function performs the following tasks:
 
@@ -118,9 +118,8 @@ This function performs the following tasks:
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-comarshalhresult">CoMarshalHresult</a>
+<a href="/windows/desktop/api/combaseapi/nf-combaseapi-comarshalhresult">CoMarshalHresult</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a>
-
+<a href="/windows/desktop/api/objidl/nn-objidl-istream">IStream</a>

@@ -51,17 +51,17 @@ api_name:
 
 ## -description
 
-Indicates whether the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a> can be converted to an <a href="https://docs.microsoft.com/windows/desktop/tablet/inkdisp-class">InkDisp</a> object.
+Indicates whether the <a href="/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a> can be converted to an <a href="/windows/desktop/tablet/inkdisp-class">InkDisp</a> object.
 
 ## -parameters
 
 ### -param DataObject [in, optional]
 
-Optional. Specifies the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a> to inspect. The default value is <b>NULL</b>, which means the data object on the Clipboard is used.
+Optional. Specifies the <a href="/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a> to inspect. The default value is <b>NULL</b>, which means the data object on the Clipboard is used.
 
 ### -param CanPaste [out, retval]
 
-<b>VARIANT_TRUE</b> if the data object can be converted to an <a href="https://docs.microsoft.com/windows/desktop/tablet/inkdisp-class">InkDisp</a> object; otherwise, <b>VARIANT_FALSE</b>.
+<b>VARIANT_TRUE</b> if the data object can be converted to an <a href="/windows/desktop/tablet/inkdisp-class">InkDisp</a> object; otherwise, <b>VARIANT_FALSE</b>.
 
 ## -returns
 
@@ -109,7 +109,7 @@ An exception occurred inside the method.
 
 ## -remarks
 
-If the supplied <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a> is <b>NULL</b>, then the data object on the Clipboard is used.
+If the supplied <a href="/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a> is <b>NULL</b>, then the data object on the Clipboard is used.
 
 ## -see-also
 
@@ -117,5 +117,4 @@ If the supplied <a href="https://docs.microsoft.com/windows/desktop/api/objidl/n
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/tablet/inkdisp-class">InkDisp Class</a>
-
+<a href="/windows/desktop/tablet/inkdisp-class">InkDisp Class</a>

@@ -53,7 +53,7 @@ api_name:
 
 ## -description
 
-The <b>StartIndexing</b> method initiates indexing. If you configure the indexer using the <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmindexer2-configure">IWMIndexer2::Configure</a> method, <b>StartIndexing</b> creates an index based upon your configuration. When you use <b>StartIndexing</b> without first calling <b>Configure</b>, the indexer creates a default temporal index.
+The <b>StartIndexing</b> method initiates indexing. If you configure the indexer using the <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmindexer2-configure">IWMIndexer2::Configure</a> method, <b>StartIndexing</b> creates an index based upon your configuration. When you use <b>StartIndexing</b> without first calling <b>Configure</b>, the indexer creates a default temporal index.
 
 ## -parameters
 
@@ -63,7 +63,7 @@ Pointer to a wide-character <b>null</b>-terminated string containing the URL or 
 
 ### -param pCallback [in]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmstatuscallback">IWMStatusCallback</a> interface.
+Pointer to an <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmstatuscallback">IWMStatusCallback</a> interface.
 
 ### -param pvContext [in]
 
@@ -152,9 +152,8 @@ g_wszWMStridable
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmindexer">IWMIndexer Interface</a>
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmindexer">IWMIndexer Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmstatuscallback-onstatus">IWMStatusCallback::OnStatus</a>
-
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmstatuscallback-onstatus">IWMStatusCallback::OnStatus</a>

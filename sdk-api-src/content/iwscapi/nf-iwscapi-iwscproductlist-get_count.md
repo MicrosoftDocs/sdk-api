@@ -66,5 +66,4 @@ If the method  fails, returns a Win32 error code.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iwscapi/nn-iwscapi-iwscproductlist">IWSCProductList</a>
-
+<a href="/windows/desktop/api/iwscapi/nn-iwscapi-iwscproductlist">IWSCProductList</a>

@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-The <b>ADS_NAME_INITTYPE_ENUM</b> enumeration specifies the types of initialization to perform on a <b>NameTranslate</b> object. It is used in the  <a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsnametranslate">IADsNameTranslate</a> interface.
+The <b>ADS_NAME_INITTYPE_ENUM</b> enumeration specifies the types of initialization to perform on a <b>NameTranslate</b> object. It is used in the  <a href="/windows/desktop/api/iads/nn-iads-iadsnametranslate">IADsNameTranslate</a> interface.
 
 ## -enum-fields
 
@@ -70,14 +70,14 @@ Initializes a <b>NameTranslate</b> object by locating the global catalog that th
 
 ## -remarks
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadsnametranslate-init">IADsNameTranslate::Init</a> method or <a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadsnametranslate-initex">IADsNameTranslate::InitEx</a> method uses these options to initialize the <b>NameTranslate</b> object. When <b>ADS_NAME_INITTYPE_SERVER</b> is used, specify the machine name of a directory server. When <b>ADS_NAME_INITTYPE_DOMAIN</b> is set, supply the domain name within a directory forest. When <b>ADS_NAME_INITTYPE_GC</b> is issued, the second parameter in <b>IADsNameTranslate::Init</b> or <b>IADsNameTranslate::InitEx</b> is ignored. The Global Catalog server of the domain of the current computer is used to perform the name translate operations. The initialization fails if the host computer is not part of a domain because no global catalog will be found.
+The <a href="/windows/desktop/api/iads/nf-iads-iadsnametranslate-init">IADsNameTranslate::Init</a> method or <a href="/windows/desktop/api/iads/nf-iads-iadsnametranslate-initex">IADsNameTranslate::InitEx</a> method uses these options to initialize the <b>NameTranslate</b> object. When <b>ADS_NAME_INITTYPE_SERVER</b> is used, specify the machine name of a directory server. When <b>ADS_NAME_INITTYPE_DOMAIN</b> is set, supply the domain name within a directory forest. When <b>ADS_NAME_INITTYPE_GC</b> is issued, the second parameter in <b>IADsNameTranslate::Init</b> or <b>IADsNameTranslate::InitEx</b> is ignored. The Global Catalog server of the domain of the current computer is used to perform the name translate operations. The initialization fails if the host computer is not part of a domain because no global catalog will be found.
 
 <div class="alert"><b>Note</b>  Because VBScript cannot read data from a type library, VBScript applications do not recognize the symbolic constants as defined above. Instead, use the numeric constants to set the appropriate flags in your VBScript applications. To use symbolic constants as a good programming practice, write explicit declarations of such constants, as done here, in your VBScript applications.</div>
 <div> </div>
 
 #### Examples
 
-The following C/C++ code example uses <a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadsnametranslate-init">IADsNameTranslate::Init</a> method to initialize a <b>NameTranslate</b> object through the global catalog, assuming the client running the application is within the directory forest. It then renders the distinguished name of a user object in the Windows format.
+The following C/C++ code example uses <a href="/windows/desktop/api/iads/nf-iads-iadsnametranslate-init">IADsNameTranslate::Init</a> method to initialize a <b>NameTranslate</b> object through the global catalog, assuming the client running the application is within the directory forest. It then renders the distinguished name of a user object in the Windows format.
 
 
 ```cpp
@@ -116,7 +116,7 @@ if(pNto)
 ```
 
 
-The following Visual Basic code example  uses the <a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadsnametranslate-init">IADsNameTranslate::Init</a> method to initialize a <b>NameTranslate</b> object through the global catalog, assuming the client running the application is within the directory forest. It then renders the distinguished name of a user object in the Windows format.
+The following Visual Basic code example  uses the <a href="/windows/desktop/api/iads/nf-iads-iadsnametranslate-init">IADsNameTranslate::Init</a> method to initialize a <b>NameTranslate</b> object through the global catalog, assuming the client running the application is within the directory forest. It then renders the distinguished name of a user object in the Windows format.
 
 
 ```vb
@@ -130,7 +130,7 @@ MsgBox "Translated name = " & trans
 ```
 
 
-The following VBScript/ASP code example uses <a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadsnametranslate-init">IADsNameTranslate::Init</a> method to initialize a <b>NameTranslate</b> object through the global catalog, assuming the client running the application is within the directory forest. It then renders the distinguished name of a user object in the Windows format.
+The following VBScript/ASP code example uses <a href="/windows/desktop/api/iads/nf-iads-iadsnametranslate-init">IADsNameTranslate::Init</a> method to initialize a <b>NameTranslate</b> object through the global catalog, assuming the client running the application is within the directory forest. It then renders the distinguished name of a user object in the Windows format.
 
 
 ```vb
@@ -159,10 +159,9 @@ The following VBScript/ASP code example uses <a href="https://docs.microsoft.com
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-enumerations">ADSI
+<a href="/windows/desktop/ADSI/adsi-enumerations">ADSI
   Enumerations</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsnametranslate">IADsNameTranslate</a>
-
+<a href="/windows/desktop/api/iads/nn-iads-iadsnametranslate">IADsNameTranslate</a>

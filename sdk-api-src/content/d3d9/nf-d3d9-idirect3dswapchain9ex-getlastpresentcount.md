@@ -57,9 +57,9 @@ Returns the number of times the swapchain has been processed.
 
 ### -param pLastPresentCount [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a>*</b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a>*</b>
 
-Pointer to a UINT to be filled with the number of times the <a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9ex-presentex">IDirect3DDevice9Ex::PresentEx</a> method has been called. The count will also be incremented by calling some other APIs such as <a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-setdialogboxmode">IDirect3DDevice9::SetDialogBoxMode</a>.
+Pointer to a UINT to be filled with the number of times the <a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9ex-presentex">IDirect3DDevice9Ex::PresentEx</a> method has been called. The count will also be incremented by calling some other APIs such as <a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-setdialogboxmode">IDirect3DDevice9::SetDialogBoxMode</a>.
 
 ## -returns
 
@@ -69,5 +69,4 @@ S_OK the method was successful.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nn-d3d9-idirect3dswapchain9ex">IDirect3DSwapChain9Ex</a>
-
+<a href="/windows/desktop/api/d3d9/nn-d3d9-idirect3dswapchain9ex">IDirect3DSwapChain9Ex</a>

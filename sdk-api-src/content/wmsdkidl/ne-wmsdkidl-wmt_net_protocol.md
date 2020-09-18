@@ -64,13 +64,12 @@ This enumeration is used in two methods, <b>GetNetworkProtocol</b> and <b>SetNet
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/wmformat/enumeration-types">Enumeration Types</a>
+<a href="/windows/desktop/wmformat/enumeration-types">Enumeration Types</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriternetworksink-getnetworkprotocol">IWMWriterNetworkSink::GetNetworkProtocol</a>
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriternetworksink-getnetworkprotocol">IWMWriterNetworkSink::GetNetworkProtocol</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriternetworksink-setnetworkprotocol">IWMWriterNetworkSink::SetNetworkProtocol</a>
-
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriternetworksink-setnetworkprotocol">IWMWriterNetworkSink::SetNetworkProtocol</a>

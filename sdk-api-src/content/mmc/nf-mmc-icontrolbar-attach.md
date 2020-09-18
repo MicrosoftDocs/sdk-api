@@ -57,7 +57,7 @@ The <b>IControlbar::Attach</b> method allows the snap-in to associate a control 
 ### -param nType [in]
 
 A value that specifies the type of control to be associated with the control bar, taken from the 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ne-mmc-mmc_control_type">MMC_CONTROL_TYPE</a> enumeration.
+<a href="/windows/desktop/api/mmc/ne-mmc-mmc_control_type">MMC_CONTROL_TYPE</a> enumeration.
 
 ### -param lpUnknown [in]
 
@@ -73,5 +73,4 @@ Although COMBOBOXBAR appears in Mmc.idl in connection with the nType parameter, 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-itoolbar">IToolbar</a>
-
+<a href="/windows/desktop/api/mmc/nn-mmc-itoolbar">IToolbar</a>

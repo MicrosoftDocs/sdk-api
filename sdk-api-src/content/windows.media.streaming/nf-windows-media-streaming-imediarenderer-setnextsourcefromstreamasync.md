@@ -56,11 +56,11 @@ Instructs the DMR asynchronously to prepare the specified media stream for playi
 
 ### -param stream [in]
 
-A reference to an <a href="https://docs.microsoft.com/windows/desktop/api/inspectable/nn-inspectable-iinspectable">IInspectable</a> interface implementing <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfactivate">IMFActivate</a>. The <b>IMFActivate</b> interface is used to query for an <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfbytestream">IMFByteStream</a> interface that represents the media stream.
+A reference to an <a href="/windows/desktop/api/inspectable/nn-inspectable-iinspectable">IInspectable</a> interface implementing <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfactivate">IMFActivate</a>. The <b>IMFActivate</b> interface is used to query for an <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfbytestream">IMFByteStream</a> interface that represents the media stream.
 
 ### -param value [out]
 
-Receives a reference to a <a href="https://docs.microsoft.com/windows/desktop/mediastreaming/playbackoperation">PlaybackOperation</a> object that is used to get results from the asynchronous operation.
+Receives a reference to a <a href="/windows/desktop/mediastreaming/playbackoperation">PlaybackOperation</a> object that is used to get results from the asynchronous operation.
 
 ## -returns
 
@@ -90,5 +90,4 @@ Once the DMR finishes playing the current content, it will automatically switch 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/mediastreaming/imediarenderer">IMediaRenderer</a>
-
+<a href="/windows/desktop/mediastreaming/imediarenderer">IMediaRenderer</a>

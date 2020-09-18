@@ -62,29 +62,28 @@ A handle to the DC whose brush color is to be returned.
 
 ## -returns
 
-If the function succeeds, the return value is a <a href="https://docs.microsoft.com/windows/desktop/gdi/colorref">COLORREF</a> value for the current DC pen color.
+If the function succeeds, the return value is a <a href="/windows/desktop/gdi/colorref">COLORREF</a> value for the current DC pen color.
 
 If the function fails, the return value is CLR_INVALID.
 
 ## -remarks
 
-For information on setting the pen color, see <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-setdcbrushcolor">SetDCPenColor</a>.
+For information on setting the pen color, see <a href="/windows/desktop/api/wingdi/nf-wingdi-setdcbrushcolor">SetDCPenColor</a>.
 
 <b>ICM:</b> Color management is performed if ICM is enabled.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/colorref">COLORREF</a>
+<a href="/windows/desktop/gdi/colorref">COLORREF</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/device-context-functions">Device Context Functions</a>
+<a href="/windows/desktop/gdi/device-context-functions">Device Context Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/device-contexts">Device Contexts Overview</a>
+<a href="/windows/desktop/gdi/device-contexts">Device Contexts Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-setdcpencolor">SetDCPenColor</a>
-
+<a href="/windows/desktop/api/wingdi/nf-wingdi-setdcpencolor">SetDCPenColor</a>

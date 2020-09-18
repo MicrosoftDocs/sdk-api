@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[<b>IWTSProtocolConnection::ConnectNotify</b> is no longer available for use as of Windows Server 2012. Instead, use <a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nf-wtsprotocol-iwrdsprotocolconnection-connectnotify">IWRdsProtocolConnection::ConnectNotify</a>.]
+<p class="CCE_Message">[<b>IWTSProtocolConnection::ConnectNotify</b> is no longer available for use as of Windows Server 2012. Instead, use <a href="/windows/desktop/api/wtsprotocol/nf-wtsprotocol-iwrdsprotocolconnection-connectnotify">IWRdsProtocolConnection::ConnectNotify</a>.]
 
 Signals that the session has been initialized.
 
@@ -66,5 +66,4 @@ This is an event notification and you should return immediately from this method
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nn-wtsprotocol-iwtsprotocolconnection">IWTSProtocolConnection</a>
-
+<a href="/windows/desktop/api/wtsprotocol/nn-wtsprotocol-iwtsprotocolconnection">IWTSProtocolConnection</a>

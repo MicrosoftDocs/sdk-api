@@ -51,13 +51,13 @@ api_name:
 
 ## -description
 
-Gets the type of the spatial audio object represented by the buffer. If <a href="https://docs.microsoft.com/windows/desktop/api/mfspatialaudio/nf-mfspatialaudio-imfspatialaudioobjectbuffer-settype">SetType</a> has not been called previously, this method returns the default value of <b>AudioObjectType_None</b>.
+Gets the type of the spatial audio object represented by the buffer. If <a href="/windows/desktop/api/mfspatialaudio/nf-mfspatialaudio-imfspatialaudioobjectbuffer-settype">SetType</a> has not been called previously, this method returns the default value of <b>AudioObjectType_None</b>.
 
 ## -parameters
 
 ### -param pType [out]
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/spatialaudioclient/ne-spatialaudioclient-audioobjecttype">AudioObjectType</a> variable where the audio object type will be stored.
+A pointer to an <a href="/windows/desktop/api/spatialaudioclient/ne-spatialaudioclient-audioobjecttype">AudioObjectType</a> variable where the audio object type will be stored.
 
 ## -returns
 
@@ -94,5 +94,4 @@ The supplied pointer is invalid.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfspatialaudio/nn-mfspatialaudio-imfspatialaudioobjectbuffer">IMFSpatialAudioObjectBuffer</a>
-
+<a href="/windows/desktop/api/mfspatialaudio/nn-mfspatialaudio-imfspatialaudioobjectbuffer">IMFSpatialAudioObjectBuffer</a>

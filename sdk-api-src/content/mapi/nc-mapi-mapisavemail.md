@@ -66,7 +66,7 @@ Parent window handle or zero, indicating that if a dialog box is displayed, it i
 
 ### -param lpMessage [in]
 
-Input parameter pointing to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mapi/ns-mapi-mapimessage">MapiMessage</a> structure containing the contents of the message to be saved. The <b>lpOriginator</b> member is ignored. Applications can either ignore the <b>flFlags</b> member, or if the message has never been saved, can set the MAPI_SENT and MAPI_UNREAD flags.
+Input parameter pointing to a <a href="/previous-versions/windows/desktop/api/mapi/ns-mapi-mapimessage">MapiMessage</a> structure containing the contents of the message to be saved. The <b>lpOriginator</b> member is ignored. Applications can either ignore the <b>flFlags</b> member, or if the message has never been saved, can set the MAPI_SENT and MAPI_UNREAD flags.
 
 ### -param flFlags [in]
 
@@ -251,7 +251,7 @@ The call succeeded and the message was saved.
 
 ## -remarks
 
-The <b>MAPISaveMail</b> function saves a message, optionally replacing an existing message. Before calling <b>MAPISaveMail</b>, use the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mapi/nc-mapi-mapifindnext">MAPIFindNext</a> function to verify that the message to be saved is the one you want saved. The elements of the message identified by the <i>lpszMessageID</i> parameter are replaced by the elements in the <i>lpMessage</i> parameter. If <i>lpszMessageID</i> is empty, a new message is created. All replaced messages are saved in their appropriate folders. New messages are saved in the folder appropriate for incoming messages of that class.
+The <b>MAPISaveMail</b> function saves a message, optionally replacing an existing message. Before calling <b>MAPISaveMail</b>, use the <a href="/previous-versions/windows/desktop/api/mapi/nc-mapi-mapifindnext">MAPIFindNext</a> function to verify that the message to be saved is the one you want saved. The elements of the message identified by the <i>lpszMessageID</i> parameter are replaced by the elements in the <i>lpMessage</i> parameter. If <i>lpszMessageID</i> is empty, a new message is created. All replaced messages are saved in their appropriate folders. New messages are saved in the folder appropriate for incoming messages of that class.
 
 Not all messaging systems support storing messages. If the underlying messaging system does not support message storage, <b>MAPISaveMail</b> returns the MAPI_E_NOT_SUPPORTED value. 
 
@@ -259,17 +259,16 @@ Because message identifiers are system-specific and opaque and can be invalidate
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mapi/nc-mapi-mapifindnext">MAPIFindNext</a>
+<a href="/previous-versions/windows/desktop/api/mapi/nc-mapi-mapifindnext">MAPIFindNext</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mapi/nc-mapi-mapilogon">MAPILogon</a>
+<a href="/previous-versions/windows/desktop/api/mapi/nc-mapi-mapilogon">MAPILogon</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mapi/ns-mapi-mapimessage">MapiMessage</a>
+<a href="/previous-versions/windows/desktop/api/mapi/ns-mapi-mapimessage">MapiMessage</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/dd296734(v=vs.85)">Simple MAPI</a>
-
+<a href="/previous-versions/dd296734(v=vs.85)">Simple MAPI</a>

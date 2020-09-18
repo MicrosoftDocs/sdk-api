@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-Specifies sort order. It is used as a parameter in the <a href="https://docs.microsoft.com/windows/desktop/api/sbtsv/nf-sbtsv-itssbresourcepluginstore-enumeratetargets">EnumerateTargets</a> method.
+Specifies sort order. It is used as a parameter in the <a href="/windows/desktop/api/sbtsv/nf-sbtsv-itssbresourcepluginstore-enumeratetargets">EnumerateTargets</a> method.
 
 ## -enum-fields
 
@@ -70,5 +70,4 @@ Sort by a specified property.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sbtsv/nf-sbtsv-itssbresourcepluginstore-enumeratetargets">EnumerateTargets</a>
-
+<a href="/windows/desktop/api/sbtsv/nf-sbtsv-itssbresourcepluginstore-enumeratetargets">EnumerateTargets</a>

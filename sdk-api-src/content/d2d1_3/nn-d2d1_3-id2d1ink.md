@@ -54,7 +54,7 @@ Represents a single continuous stroke of variable-width ink, as defined by a ser
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID2D1Ink</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1resource">ID2D1Resource</a>. <b>ID2D1Ink</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID2D1Ink</b> interface inherits from <a href="/windows/desktop/api/d2d1/nn-d2d1-id2d1resource">ID2D1Resource</a>. <b>ID2D1Ink</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ID2D1Ink</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3/nf-d2d1_3-id2d1ink-addsegments">AddSegments</a>
+<a href="/windows/desktop/api/d2d1_3/nf-d2d1_3-id2d1ink-addsegments">AddSegments</a>
 </td>
 <td align="left" width="63%">
 Adds the given segments to the end of this ink object.
@@ -78,7 +78,7 @@ Adds the given segments to the end of this ink object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3/nf-d2d1_3-id2d1ink-getbounds">GetBounds</a>
+<a href="/windows/desktop/api/d2d1_3/nf-d2d1_3-id2d1ink-getbounds">GetBounds</a>
 </td>
 <td align="left" width="63%">
 Retrieve the bounds of the geometry, with an optional applied transform.
@@ -87,7 +87,7 @@ Retrieve the bounds of the geometry, with an optional applied transform.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3/nf-d2d1_3-id2d1ink-getsegmentcount">GetSegmentCount</a>
+<a href="/windows/desktop/api/d2d1_3/nf-d2d1_3-id2d1ink-getsegmentcount">GetSegmentCount</a>
 </td>
 <td align="left" width="63%">
 Returns the number of segments in this ink object.
@@ -96,7 +96,7 @@ Returns the number of segments in this ink object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3/nf-d2d1_3-id2d1ink-getsegments">GetSegments</a>
+<a href="/windows/desktop/api/d2d1_3/nf-d2d1_3-id2d1ink-getsegments">GetSegments</a>
 </td>
 <td align="left" width="63%">
 Retrieves the specified subset of segments stored in this ink object.
@@ -105,7 +105,7 @@ Retrieves the specified subset of segments stored in this ink object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3/nf-d2d1_3-id2d1ink-getstartpoint">GetStartPoint</a>
+<a href="/windows/desktop/api/d2d1_3/nf-d2d1_3-id2d1ink-getstartpoint">GetStartPoint</a>
 </td>
 <td align="left" width="63%">
 Retrieves the starting point for this ink object.
@@ -114,7 +114,7 @@ Retrieves the starting point for this ink object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3/nf-d2d1_3-id2d1ink-removesegmentsatend">RemoveSegmentsAtEnd</a>
+<a href="/windows/desktop/api/d2d1_3/nf-d2d1_3-id2d1ink-removesegmentsatend">RemoveSegmentsAtEnd</a>
 </td>
 <td align="left" width="63%">
 Removes the given number of segments from the end of this ink object.
@@ -123,7 +123,7 @@ Removes the given number of segments from the end of this ink object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3/nf-d2d1_3-setsegmentatend">SetSegmentAtEnd</a>
+<a href="/windows/desktop/api/d2d1_3/nf-d2d1_3-setsegmentatend">SetSegmentAtEnd</a>
 </td>
 <td align="left" width="63%">Overloaded. Updates the last segment in this ink object with new control points.
 
@@ -131,7 +131,7 @@ Removes the given number of segments from the end of this ink object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3/nf-d2d1_3-id2d1ink-setsegments">SetSegments</a>
+<a href="/windows/desktop/api/d2d1_3/nf-d2d1_3-id2d1ink-setsegments">SetSegments</a>
 </td>
 <td align="left" width="63%">
 Updates the specified segments in this ink object with new control points.
@@ -140,7 +140,7 @@ Updates the specified segments in this ink object with new control points.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/Direct2D/id2d1ink-setstartpoint-overload">SetStartPoint</a>
+<a href="/windows/desktop/Direct2D/id2d1ink-setstartpoint-overload">SetStartPoint</a>
 </td>
 <td align="left" width="63%">Overloaded. Sets the starting point for this ink object. This determines where this ink object will start rendering.
 
@@ -148,11 +148,10 @@ Updates the specified segments in this ink object with new control points.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/Direct2D/id2d1ink-streamasgeometry-overload">StreamAsGeometry</a>
+<a href="/windows/desktop/Direct2D/id2d1ink-streamasgeometry-overload">StreamAsGeometry</a>
 </td>
 <td align="left" width="63%">Overloaded. Retrieves a geometric representation of this ink object.
 
 </td>
 </tr>
 </table>
-

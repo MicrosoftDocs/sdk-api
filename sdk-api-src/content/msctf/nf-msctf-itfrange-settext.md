@@ -56,11 +56,11 @@ The <b>ITfRange::SetText</b> method replaces the content covered by the range of
 
 ### -param ec [in]
 
-Identifies the edit context obtained from <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfdocumentmgr-createcontext">ITfDocumentMgr::CreateContext</a> or <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfeditsession-doeditsession">ITfEditSession::DoEditSession</a>.
+Identifies the edit context obtained from <a href="/windows/desktop/api/msctf/nf-msctf-itfdocumentmgr-createcontext">ITfDocumentMgr::CreateContext</a> or <a href="/windows/desktop/api/msctf/nf-msctf-itfeditsession-doeditsession">ITfEditSession::DoEditSession</a>.
 
 ### -param dwFlags [in]
 
-Specifies optional behavior for correction of content. If set to the value of <a href="https://docs.microsoft.com/windows/desktop/TSF/miscellaneous-framework-constants">TF_ST_CORRECTION</a>, then the operation is a correction of the existing content, not a creation of new content, and original text properties are preserved.
+Specifies optional behavior for correction of content. If set to the value of <a href="/windows/desktop/TSF/miscellaneous-framework-constants">TF_ST_CORRECTION</a>, then the operation is a correction of the existing content, not a creation of new content, and original text properties are preserved.
 
 ### -param pchText [in]
 
@@ -153,44 +153,43 @@ When a range covers multiple regions, call <b>ITfRange::SetText</b> on each regi
 
 By default, text services start and end a temporary composition that covers the range, to ensure that context owners consistently recognize compositions over edited text. If the composition owner rejects a default composition, then the method returns TF_E_COMPOSITION_REJECTED. Default compositions are only created if the caller has not already started one. If the caller has an active composition, the call fails.
 
-The <a href="https://docs.microsoft.com/windows/desktop/TSF/miscellaneous-framework-constants">TF_CHAR_EMBEDDED</a> object placeholder character might not be passed into this method. <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfrange-insertembedded">ITfRange::InsertEmbedded</a> should be used instead.
+The <a href="/windows/desktop/TSF/miscellaneous-framework-constants">TF_CHAR_EMBEDDED</a> object placeholder character might not be passed into this method. <a href="/windows/desktop/api/msctf/nf-msctf-itfrange-insertembedded">ITfRange::InsertEmbedded</a> should be used instead.
 
-For inserting text, the <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfinsertatselection-inserttextatselection">ITFInsertAtSelection:InsertTextAtSelection</a> method does not require a selection range to be allocated, and avoids the requirement that the range match the selection.
+For inserting text, the <a href="/windows/desktop/api/msctf/nf-msctf-itfinsertatselection-inserttextatselection">ITFInsertAtSelection:InsertTextAtSelection</a> method does not require a selection range to be allocated, and avoids the requirement that the range match the selection.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfinsertatselection-inserttextatselection">ITFInsertAtSelection:InsertTextAtSelection
+<a href="/windows/desktop/api/msctf/nf-msctf-itfinsertatselection-inserttextatselection">ITFInsertAtSelection:InsertTextAtSelection
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfdocumentmgr-createcontext">ITfDocumentMgr::CreateContext
+<a href="/windows/desktop/api/msctf/nf-msctf-itfdocumentmgr-createcontext">ITfDocumentMgr::CreateContext
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfeditsession-doeditsession">ITfEditSession::DoEditSession
+<a href="/windows/desktop/api/msctf/nf-msctf-itfeditsession-doeditsession">ITfEditSession::DoEditSession
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfrange">ITfRange</a>
+<a href="/windows/desktop/api/msctf/nn-msctf-itfrange">ITfRange</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfrange-gettext">ITfRange::GetText
+<a href="/windows/desktop/api/msctf/nf-msctf-itfrange-gettext">ITfRange::GetText
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfrange-insertembedded">ITfRange::InsertEmbedded
+<a href="/windows/desktop/api/msctf/nf-msctf-itfrange-insertembedded">ITfRange::InsertEmbedded
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/TSF/miscellaneous-framework-constants">Miscellaneous Framework Constants</a>
+<a href="/windows/desktop/TSF/miscellaneous-framework-constants">Miscellaneous Framework Constants</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/TSF/text-stores">Text Stores</a>
-
+<a href="/windows/desktop/TSF/text-stores">Text Stores</a>

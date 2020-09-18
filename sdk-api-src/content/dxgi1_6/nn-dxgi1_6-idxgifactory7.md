@@ -55,7 +55,7 @@ This interface enables registration for notifications to detect adapter enumerat
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDXGIFactory7</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_6/nn-dxgi1_6-idxgifactory6">IDXGIFactory6</a>. <b>IDXGIFactory7</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDXGIFactory7</b> interface inherits from <a href="/windows/desktop/api/dxgi1_6/nn-dxgi1_6-idxgifactory6">IDXGIFactory6</a>. <b>IDXGIFactory7</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -87,4 +87,3 @@ Unregisters  an event to stop receiving notifications when the adapter enumerati
 </td>
 </tr>
 </table>
-

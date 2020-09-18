@@ -62,7 +62,7 @@ The ID of the effect to retrieve properties from.
 
 ### -param properties [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1properties">ID2D1Properties</a>**</b>
+Type: <b><a href="/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1properties">ID2D1Properties</a>**</b>
 
 When this method returns, contains the address of a pointer to the property interface that can be used to query the metadata of the effect.
 
@@ -100,17 +100,16 @@ The returned effect properties will have all the mutable properties for the effe
 <li>Blob and string types will be zero-length.</li>
 <li>Array types will have length 1 and the element of the array will conform to the previous rules.</li>
 </ul>
-This method cannot be used to return the properties for any effect not visible to <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1devicecontext-createeffect">ID2D1DeviceContext::CreateEffect</a>.
+This method cannot be used to return the properties for any effect not visible to <a href="/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1devicecontext-createeffect">ID2D1DeviceContext::CreateEffect</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1factory1">ID2D1Factory1</a>
+<a href="/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1factory1">ID2D1Factory1</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1factory1-getregisteredeffects">ID2D1Factory1::GetRegisteredEffects</a>
+<a href="/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1factory1-getregisteredeffects">ID2D1Factory1::GetRegisteredEffects</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1factory1-registereffectfromstring">ID2D1Factory1::RegisterEffect</a>
-
+<a href="/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1factory1-registereffectfromstring">ID2D1Factory1::RegisterEffect</a>

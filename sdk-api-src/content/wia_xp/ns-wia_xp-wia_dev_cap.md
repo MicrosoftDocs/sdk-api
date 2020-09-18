@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-Applications use the <b>WIA_DEV_CAP</b> structure to enumerate device capabilities. A device capability is defined by an event or command that the device supports. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/wia_xp/nn-wia_xp-ienumwia_dev_caps">IEnumWIA_DEV_CAPS</a>.
+Applications use the <b>WIA_DEV_CAP</b> structure to enumerate device capabilities. A device capability is defined by an event or command that the device supports. For more information, see <a href="/windows/desktop/api/wia_xp/nn-wia_xp-ienumwia_dev_caps">IEnumWIA_DEV_CAPS</a>.
 
 ## -struct-fields
 
@@ -62,7 +62,7 @@ Applications use the <b>WIA_DEV_CAP</b> structure to enumerate device capabiliti
 
 Type: <b>GUID</b>
 
-Specifies a GUID that identifies the device capability. This member can be set to any of the values specified in <a href="https://docs.microsoft.com/windows/desktop/wia/-wia-wia-device-commands">WIA Device Commands</a> or <a href="https://docs.microsoft.com/windows/desktop/wia/-wia-wia-event-identifiers">WIA Event Identifiers</a>.
+Specifies a GUID that identifies the device capability. This member can be set to any of the values specified in <a href="/windows/desktop/wia/-wia-wia-device-commands">WIA Device Commands</a> or <a href="/windows/desktop/wia/-wia-wia-event-identifiers">WIA Event Identifiers</a>.
 
 ### -field ulFlags
 
@@ -82,11 +82,11 @@ Used when enumerating event handlers. The possible values are listed in this tab
 </tr>
 <tr>
 <td>WIA_ACTION_EVENT</td>
-<td>The event is of the action type, so programs that use persistent registration APIs, <a href="https://docs.microsoft.com/windows/desktop/api/wia_xp/nf-wia_xp-iwiadevmgr-registereventcallbackprogram">IWiaDevMgr::RegisterEventCallbackProgram</a> and <a href="https://docs.microsoft.com/windows/desktop/api/wia_xp/nf-wia_xp-iwiadevmgr-registereventcallbackclsid">IWiaDevMgr::RegisterEventCallbackCLSID</a>, can receive it. </td>
+<td>The event is of the action type, so programs that use persistent registration APIs, <a href="/windows/desktop/api/wia_xp/nf-wia_xp-iwiadevmgr-registereventcallbackprogram">IWiaDevMgr::RegisterEventCallbackProgram</a> and <a href="/windows/desktop/api/wia_xp/nf-wia_xp-iwiadevmgr-registereventcallbackclsid">IWiaDevMgr::RegisterEventCallbackCLSID</a>, can receive it. </td>
 </tr>
 <tr>
 <td>WIA_NOTIFICATION_EVENT</td>
-<td>The event is of the notification type, so programs that use the runtime registration function, <a href="https://docs.microsoft.com/windows/desktop/api/wia_xp/nf-wia_xp-iwiadevmgr-registereventcallbackinterface">IWiaDevMgr::RegisterEventCallbackInterface</a>, can receive it. </td>
+<td>The event is of the notification type, so programs that use the runtime registration function, <a href="/windows/desktop/api/wia_xp/nf-wia_xp-iwiadevmgr-registereventcallbackinterface">IWiaDevMgr::RegisterEventCallbackInterface</a>, can receive it. </td>
 </tr>
 </table>
 
@@ -113,4 +113,3 @@ Specifies a string that represents the location and resource ID of the icon that
 Type: <b>BSTR</b>
 
 Specifies a string that represents command line arguments.
-

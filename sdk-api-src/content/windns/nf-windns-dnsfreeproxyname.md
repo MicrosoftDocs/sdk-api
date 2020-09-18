@@ -51,8 +51,8 @@ api_name:
 ## -description
 
 The 
-<b>DnsFreeProxyName</b> function frees memory allocated for the <b>proxyName</b> member of a <a href="https://docs.microsoft.com/windows/desktop/api/windns/ns-windns-dns_proxy_information">DNS_PROXY_INFORMATION</a> structure obtained using the 
-<a href="https://docs.microsoft.com/windows/desktop/api/windns/nf-windns-dnsgetproxyinformation">DnsGetProxyInformation</a> function.
+<b>DnsFreeProxyName</b> function frees memory allocated for the <b>proxyName</b> member of a <a href="/windows/desktop/api/windns/ns-windns-dns_proxy_information">DNS_PROXY_INFORMATION</a> structure obtained using the 
+<a href="/windows/desktop/api/windns/nf-windns-dnsgetproxyinformation">DnsGetProxyInformation</a> function.
 
 ## -parameters
 
@@ -62,5 +62,4 @@ A pointer to the <b>proxyName</b> string to be freed.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DNS/dns-functions">DNS Functions</a>
-
+<a href="/windows/desktop/DNS/dns-functions">DNS Functions</a>

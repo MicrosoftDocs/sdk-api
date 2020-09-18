@@ -54,7 +54,7 @@ Initializes a new instance of <code>XMFLOAT4</code> from a four element <code>fl
 	argument.
     
 
-This constructor initializes a new instance of <a href="https://docs.microsoft.com/windows/desktop/api/directxmath/ns-directxmath-xmfloat4">XMFLOAT4</a> from a from
+This constructor initializes a new instance of <a href="/windows/desktop/api/directxmath/ns-directxmath-xmfloat4">XMFLOAT4</a> from a from
 	a four element <code>float</code> array argument.
 <div class="alert"><b>Note</b>  This constructor is only available under C++.
     </div><div> </div>
@@ -88,9 +88,8 @@ The following pseudocode demonstrates the operation of this constructor:
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/directxmath/ns-directxmath-xmfloat4">XMFLOAT4</a>
+<a href="/windows/desktop/api/directxmath/ns-directxmath-xmfloat4">XMFLOAT4</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/directxmath/nf-directxmath-xmfloat4-xmfloat4(constfloat)">XMFLOAT4 Constructors</a>
-
+<a href="/windows/desktop/api/directxmath/nf-directxmath-xmfloat4-xmfloat4(constfloat)">XMFLOAT4 Constructors</a>

@@ -56,13 +56,13 @@ api_name:
 
 Gets or sets tunnel specific custom configuration for a demand dial interfaces.
 
-Do not use the <b>MPR_IF_CUSTOMINFOEX0</b> structure directly in your code; using <a href="https://docs.microsoft.com/windows/desktop/RRAS/router-management-data-types">MPR_IF_CUSTOMINFOEX</a> instead ensures that the proper version, based on the operating system the code in compiled under, is used.
+Do not use the <b>MPR_IF_CUSTOMINFOEX0</b> structure directly in your code; using <a href="/windows/desktop/RRAS/router-management-data-types">MPR_IF_CUSTOMINFOEX</a> instead ensures that the proper version, based on the operating system the code in compiled under, is used.
 
 ## -struct-fields
 
 ### -field Header
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-mprapi_object_header">MPRAPI_OBJECT_HEADER</a> structure that specifies the version of the <b>MPR_IF_CUSTOMINFOEX0</b> structure.
+A <a href="/windows/desktop/api/mprapi/ns-mprapi-mprapi_object_header">MPRAPI_OBJECT_HEADER</a> structure that specifies the version of the <b>MPR_IF_CUSTOMINFOEX0</b> structure.
 
 ### -field dwFlags
 
@@ -99,21 +99,20 @@ IKEv2 tunnel specific configuration is available.
 
 ### -field customIkev2Config
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-router_ikev2_if_custom_config0">ROUTER_IKEv2_IF_CUSTOM_CONFIG0</a> structure that specifies the IKEv2 tunnel configuration parameters.
+A <a href="/windows/desktop/api/mprapi/ns-mprapi-router_ikev2_if_custom_config0">ROUTER_IKEv2_IF_CUSTOM_CONFIG0</a> structure that specifies the IKEv2 tunnel configuration parameters.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradmininterfacegetcustominfoex">MprAdminInterfaceGetCustomInfoEx</a>
+<a href="/windows/desktop/api/mprapi/nf-mprapi-mpradmininterfacegetcustominfoex">MprAdminInterfaceGetCustomInfoEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradmininterfacesetcustominfoex">MprAdminInterfaceSetCustomInfoEx</a>
+<a href="/windows/desktop/api/mprapi/nf-mprapi-mpradmininterfacesetcustominfoex">MprAdminInterfaceSetCustomInfoEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mprconfiginterfacegetcustominfoex">MprConfigInterfaceGetCustomInfoEx</a>
+<a href="/windows/desktop/api/mprapi/nf-mprapi-mprconfiginterfacegetcustominfoex">MprConfigInterfaceGetCustomInfoEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mprconfiginterfacesetcustominfoex">MprConfigInterfaceSetCustomInfoEx</a>
-
+<a href="/windows/desktop/api/mprapi/nf-mprapi-mprconfiginterfacesetcustominfoex">MprConfigInterfaceSetCustomInfoEx</a>

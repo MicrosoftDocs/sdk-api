@@ -58,7 +58,7 @@ Notifies the Microsoft UI Automation provider when a UI Automation client stops 
 
 Type: <b>EVENTID</b>
 
-The identifier of the event being removed. For a list of event IDs, see <a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-event-ids">Event Identifiers</a>.
+The identifier of the event being removed. For a list of event IDs, see <a href="/windows/desktop/WinAuto/uiauto-event-ids">Event Identifiers</a>.
 
 ### -param propertyIDs [in]
 
@@ -68,7 +68,7 @@ A pointer to the identifiers of the properties being removed, or <b>NULL</b>if t
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
@@ -76,11 +76,11 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 This method enables the provider to reduce overhead by raising only events that are being listened for.
 
-It is important for UI Automation providers to treat the <b>IRawElementProviderAdviseEvents::AdviseEventRemoved</b> like the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">Release</a> method of the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. As long as <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nf-uiautomationcore-irawelementprovideradviseevents-adviseeventadded">AdviseEventAdded</a> has been called more times than <b>AdviseEventRemoved</b> for a specific event or property, the provider should continue to raise corresponding events, because some clients are still listening. Alternatively, UI Automation providers can use the <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcoreapi/nf-uiautomationcoreapi-uiaclientsarelistening">UiaClientsAreListening</a> function to determine if at least one client is listening and, if so, raise all appropriate events.
+It is important for UI Automation providers to treat the <b>IRawElementProviderAdviseEvents::AdviseEventRemoved</b> like the <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">Release</a> method of the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. As long as <a href="/windows/desktop/api/uiautomationcore/nf-uiautomationcore-irawelementprovideradviseevents-adviseeventadded">AdviseEventAdded</a> has been called more times than <b>AdviseEventRemoved</b> for a specific event or property, the provider should continue to raise corresponding events, because some clients are still listening. Alternatively, UI Automation providers can use the <a href="/windows/desktop/api/uiautomationcoreapi/nf-uiautomationcoreapi-uiaclientsarelistening">UiaClientsAreListening</a> function to determine if at least one client is listening and, if so, raise all appropriate events.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-workingwithsafearrays">Best Practices for Using Safe Arrays</a>
+<a href="/windows/desktop/WinAuto/uiauto-workingwithsafearrays">Best Practices for Using Safe Arrays</a>
 
 
 
@@ -88,9 +88,8 @@ It is important for UI Automation providers to treat the <b>IRawElementProviderA
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nn-uiautomationcore-irawelementprovideradviseevents">IRawElementProviderAdviseEvents</a>
+<a href="/windows/desktop/api/uiautomationcore/nn-uiautomationcore-irawelementprovideradviseevents">IRawElementProviderAdviseEvents</a>
 
 
 
 <b>Reference</b>
-

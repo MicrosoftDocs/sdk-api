@@ -52,11 +52,10 @@ api_name:
 
 Represents a sensor.
 
-You will generally retrieve a pointer to <b>ISensor</b> by calling <a href="https://docs.microsoft.com/windows/desktop/api/sensorsapi/nf-sensorsapi-isensorcollection-getat">ISensorCollection::GetAt</a> or <a href="https://docs.microsoft.com/windows/desktop/api/sensorsapi/nf-sensorsapi-isensormanager-getsensorbyid">ISensorManager::GetSensorByID</a>, but other methods can retrieve this pointer, too. Various other Sensor API methods use a pointer to <b>ISensor</b> to provide information about a particular sensor or to enable you to specify which sensor to use for a particular action.
+You will generally retrieve a pointer to <b>ISensor</b> by calling <a href="/windows/desktop/api/sensorsapi/nf-sensorsapi-isensorcollection-getat">ISensorCollection::GetAt</a> or <a href="/windows/desktop/api/sensorsapi/nf-sensorsapi-isensormanager-getsensorbyid">ISensorManager::GetSensorByID</a>, but other methods can retrieve this pointer, too. Various other Sensor API methods use a pointer to <b>ISensor</b> to provide information about a particular sensor or to enable you to specify which sensor to use for a particular action.
 
 In addition to the methods inherited from <b>IUnknown</b>, the <b>ISensor</b> interface exposes the following methods.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/SensorsAPI/windows-sensors-com-interfaces">COM Interfaces</a>
-
+<a href="/windows/desktop/SensorsAPI/windows-sensors-com-interfaces">COM Interfaces</a>

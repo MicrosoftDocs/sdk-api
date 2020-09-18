@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>CertRemoveStoreFromCollection</b> function removes a sibling <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate store</a> from a collection store.
+The <b>CertRemoveStoreFromCollection</b> function removes a sibling <a href="/windows/desktop/SecGloss/c-gly">certificate store</a> from a collection store.
 
 ## -parameters
 
@@ -64,13 +64,12 @@ Handle of the sibling certificate store to be removed from the collection store.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certaddstoretocollection">CertAddStoreToCollection</a>
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-certaddstoretocollection">CertAddStoreToCollection</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certopenstore">CertOpenStore</a>
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-certopenstore">CertOpenStore</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">Certificate Store Functions</a>
-
+<a href="/windows/desktop/SecCrypto/cryptography-functions">Certificate Store Functions</a>

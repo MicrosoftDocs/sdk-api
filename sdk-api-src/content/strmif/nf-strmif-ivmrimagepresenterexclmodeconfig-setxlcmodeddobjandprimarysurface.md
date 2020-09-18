@@ -87,17 +87,16 @@ The method succeeded.
 
 ## -remarks
 
-The procedure for configuring and using an application-defined DirectDraw Exclusive Mode object is described in <a href="https://docs.microsoft.com/windows/desktop/DirectShow/directdraw-exclusive-mode">DirectDraw Exclusive Mode</a>.
+The procedure for configuring and using an application-defined DirectDraw Exclusive Mode object is described in <a href="/windows/desktop/DirectShow/directdraw-exclusive-mode">DirectDraw Exclusive Mode</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ivmrimagepresenterexclmodeconfig">IVMRImagePresenterExclModeConfig Interface</a>
+<a href="/windows/desktop/api/strmif/nn-strmif-ivmrimagepresenterexclmodeconfig">IVMRImagePresenterExclModeConfig Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ivmrimagepresenterexclmodeconfig-getxlcmodeddobjandprimarysurface">IVMRImagePresenterExclModeConfig::GetXlcModeDDObjAndPrimarySurface</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-ivmrimagepresenterexclmodeconfig-getxlcmodeddobjandprimarysurface">IVMRImagePresenterExclModeConfig::GetXlcModeDDObjAndPrimarySurface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/using-the-video-mixing-renderer">Using the Video Mixing Renderer</a>
-
+<a href="/windows/desktop/DirectShow/using-the-video-mixing-renderer">Using the Video Mixing Renderer</a>

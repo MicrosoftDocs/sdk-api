@@ -123,9 +123,8 @@ The native window size used is always the user's preferred size.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/directshow-enumerated-types">DirectShow Enumerated Types</a>
+<a href="/windows/desktop/DirectShow/directshow-enumerated-types">DirectShow Enumerated Types</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdcontrol-videomodepreferrence">IDvdControl::VideoModePreferrence</a>
-
+<a href="/windows/desktop/api/strmif/nf-strmif-idvdcontrol-videomodepreferrence">IDvdControl::VideoModePreferrence</a>

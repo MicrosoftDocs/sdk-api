@@ -78,5 +78,4 @@ The UDP, HTTP, and HTTPS protocols are supported.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-wsd_port_type">WSD_PORT_TYPE</a>
-
+<a href="/windows/desktop/api/wsdtypes/ns-wsdtypes-wsd_port_type">WSD_PORT_TYPE</a>

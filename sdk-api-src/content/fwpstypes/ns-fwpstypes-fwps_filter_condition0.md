@@ -53,7 +53,7 @@ api_name:
 ## -description
 
 The <b>FWPS_FILTER_CONDITION0</b> structure defines a run-time filtering condition for a filter.
-<div class="alert"><b>Note</b>  <b>FWPS_FILTER_CONDITION0</b> is a specific version of <b>FWPS_FILTER_CONDITION</b>. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information.</div><div> </div>
+<div class="alert"><b>Note</b>  <b>FWPS_FILTER_CONDITION0</b> is a specific version of <b>FWPS_FILTER_CONDITION</b>. See <a href="/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information.</div><div> </div>
 
 ## -struct-fields
 
@@ -62,7 +62,7 @@ The <b>FWPS_FILTER_CONDITION0</b> structure defines a run-time filtering conditi
 The data field identifier for the data field tested by this filtering condition. The meaning of
      the numeric value of this member is specific to the filtering layer specified by the 
      <b>layerId</b> member. For a description of the data field identifiers for each filtering layer, see 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/data-field-identifiers">Data Field Identifiers</a>.
+     <a href="/windows-hardware/drivers/network/data-field-identifiers">Data Field Identifiers</a>.
 
 ### -field reserved
 
@@ -71,32 +71,31 @@ Reserved for system use. Callout drivers should ignore this member.
 ### -field matchType
 
 An 
-     <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff552437(v=vs.85)">FWP_MATCH_TYPE</a> value that specifies the type
+     <a href="/previous-versions/windows/hardware/drivers/ff552437(v=vs.85)">FWP_MATCH_TYPE</a> value that specifies the type
      of match that the filter engine is to test on the data field to check whether the filtering condition is
      true.
 
 ### -field conditionValue
 
 An 
-     <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff552430(v=vs.85)">FWP_CONDITION_VALUE0</a> structure that
+     <a href="/previous-versions/windows/hardware/drivers/ff552430(v=vs.85)">FWP_CONDITION_VALUE0</a> structure that
      specifies the value against which the data field is tested.
 
 ## -remarks
 
 The 
     <b>filterCondition</b> member of the 
-    [FWPS_FILTER0](https://docs.microsoft.com/windows/desktop/api/fwpstypes/ns-fwpstypes-fwps_filter0) structure points to an array of
+    [FWPS_FILTER0](/windows/desktop/api/fwpstypes/ns-fwpstypes-fwps_filter0) structure points to an array of
     FWPS_FILTER_CONDITION0 structures that specify the run-time filtering conditions for a filter.
 
 ## -see-also
 
-[FWPS_FILTER0](https://docs.microsoft.com/windows/desktop/api/fwpstypes/ns-fwpstypes-fwps_filter0)
+[FWPS_FILTER0](/windows/desktop/api/fwpstypes/ns-fwpstypes-fwps_filter0)
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff552430(v=vs.85)">FWP_CONDITION_VALUE0</a>
+<a href="/previous-versions/windows/hardware/drivers/ff552430(v=vs.85)">FWP_CONDITION_VALUE0</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff552437(v=vs.85)">FWP_MATCH_TYPE</a>
-
+<a href="/previous-versions/windows/hardware/drivers/ff552437(v=vs.85)">FWP_MATCH_TYPE</a>

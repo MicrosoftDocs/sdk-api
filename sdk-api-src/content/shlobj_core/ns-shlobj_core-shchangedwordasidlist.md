@@ -56,7 +56,7 @@ api_name:
 
 <p class="CCE_Message">[<b>SHChangeDWORDAsIDList</b> is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions.]
 
-Stores two <b>DWORD</b> values in a form mimicking an <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> so that they can be used by <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-shchangenotify">SHChangeNotify</a>.
+Stores two <b>DWORD</b> values in a form mimicking an <a href="/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> so that they can be used by <a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shchangenotify">SHChangeNotify</a>.
 
 ## -struct-fields
 
@@ -84,7 +84,7 @@ Type: <b>USHORT</b>
 
 ## -remarks
 
-This example demonstrates the use of <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/ns-shlobj_core-shchangeupdateimageidlist">SHChangeUpdateImageIDList</a> and <b>SHChangeDWORDAsIDList</b> by <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-shchangenotify">SHChangeNotify</a> to mimic the <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-shupdateimagea">SHUpdateImage</a> function.
+This example demonstrates the use of <a href="/windows/desktop/api/shlobj_core/ns-shlobj_core-shchangeupdateimageidlist">SHChangeUpdateImageIDList</a> and <b>SHChangeDWORDAsIDList</b> by <a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shchangenotify">SHChangeNotify</a> to mimic the <a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shupdateimagea">SHUpdateImage</a> function.
 
                 
 
@@ -137,5 +137,4 @@ void MyUpdateImage(LPCWSTR pszHashItem, int iIndex, UINT uFlags, int iImageIndex
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/ns-shlobj_core-shchangeupdateimageidlist">SHChangeUpdateImageIDList</a>
-
+<a href="/windows/desktop/api/shlobj_core/ns-shlobj_core-shchangeupdateimageidlist">SHChangeUpdateImageIDList</a>

@@ -56,7 +56,7 @@ Loads into memory an object nested within a specified storage object.
 
 ### -param pStg [in]
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istorage">IStorage</a> interface on the storage object from which to load the specified object.
+Pointer to the <a href="/windows/desktop/api/objidl/nn-objidl-istorage">IStorage</a> interface on the storage object from which to load the specified object.
 
 ### -param riid [in]
 
@@ -64,7 +64,7 @@ Reference to the identifier of the interface that the caller wants to use to com
 
 ### -param pClientSite [in]
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-ioleclientsite">IOleClientSite</a> interface on the client site object being loaded.
+Pointer to the <a href="/windows/desktop/api/oleidl/nn-oleidl-ioleclientsite">IOleClientSite</a> interface on the client site object being loaded.
 
 ### -param ppvObj [out]
 
@@ -93,7 +93,7 @@ The object does not support the specified interface.
 </table>
  
 
-Additionally, this function can return any of the error values returned by the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ipersiststorage-load">IPersistStorage::Load</a> method.
+Additionally, this function can return any of the error values returned by the <a href="/windows/desktop/api/objidl/nf-objidl-ipersiststorage-load">IPersistStorage::Load</a> method.
 
 ## -remarks
 
@@ -104,11 +104,10 @@ Some applications load all of the object's native data. Containers often defer l
 The <b>OleLoad</b> function performs the following steps:
 
 <ul>
-<li>If necessary, performs an automatic conversion of the object (see the <a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-oledoautoconvert">OleDoAutoConvert</a> function).</li>
-<li>Gets the CLSID from the open storage object by calling the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-istorage-stat">IStorage::Stat</a> method.</li>
-<li> Calls the <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance">CoCreateInstance</a> function to create an instance of the handler. If the handler code is not available, the default handler is used (see the <a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-olecreatedefaulthandler">OleCreateDefaultHandler</a> function).</li>
-<li>Calls the <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleobject-setclientsite">IOleObject::SetClientSite</a> method with the <i>pClientSite</i> parameter to inform the object of its client site.</li>
-<li>Calls the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> method for the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ipersiststorage">IPersistStorage</a> interface. If successful, the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ipersiststorage-load">IPersistStorage::Load</a> method is invoked for the object.</li>
+<li>If necessary, performs an automatic conversion of the object (see the <a href="/windows/desktop/api/ole2/nf-ole2-oledoautoconvert">OleDoAutoConvert</a> function).</li>
+<li>Gets the CLSID from the open storage object by calling the <a href="/windows/desktop/api/objidl/nf-objidl-istorage-stat">IStorage::Stat</a> method.</li>
+<li> Calls the <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance">CoCreateInstance</a> function to create an instance of the handler. If the handler code is not available, the default handler is used (see the <a href="/windows/desktop/api/ole2/nf-ole2-olecreatedefaulthandler">OleCreateDefaultHandler</a> function).</li>
+<li>Calls the <a href="/windows/desktop/api/oleidl/nf-oleidl-ioleobject-setclientsite">IOleObject::SetClientSite</a> method with the <i>pClientSite</i> parameter to inform the object of its client site.</li>
+<li>Calls the <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> method for the <a href="/windows/desktop/api/objidl/nn-objidl-ipersiststorage">IPersistStorage</a> interface. If successful, the <a href="/windows/desktop/api/objidl/nf-objidl-ipersiststorage-load">IPersistStorage::Load</a> method is invoked for the object.</li>
 <li>Queries and returns the interface identified by the <i>riid</i> parameter.</li>
 </ul>
-

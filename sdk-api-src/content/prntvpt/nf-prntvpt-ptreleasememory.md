@@ -62,23 +62,22 @@ A pointer to a buffer allocated during a call to a print ticket API.
 
 If the operation succeeds, the return value is S_OK, otherwise the <b>HRESULT</b> contains an error code.
 
-For more information about COM error codes, see <a href="https://docs.microsoft.com/windows/desktop/SetupApi/error-handling">Error Handling</a>.
+For more information about COM error codes, see <a href="/windows/desktop/SetupApi/error-handling">Error Handling</a>.
 
 ## -remarks
 
 <div class="alert"><b>Note</b>  This is a blocking or synchronous function and might not return immediately. How quickly this function returns depends on run-time factors such as network status, print server configuration, and printer driver implementation—factors that are difficult to predict when writing an application. Calling this function from a thread that manages interaction with the user interface could make the application appear to be unresponsive.</div>
 <div> </div>
-Use this function to release the <a href="/windows/win32/api/wingdi/ns-wingdi-devmodea">DEVMODE</a> buffer returned by <a href="https://docs.microsoft.com/windows/desktop/api/prntvpt/nf-prntvpt-ptconvertprinttickettodevmode">PTConvertPrintTicketToDevMode</a>.
+Use this function to release the <a href="/windows/win32/api/wingdi/ns-wingdi-devmodea">DEVMODE</a> buffer returned by <a href="/windows/desktop/api/prntvpt/nf-prntvpt-ptconvertprinttickettodevmode">PTConvertPrintTicketToDevMode</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/printdocs/printschema">Print Schema</a>
+<a href="/windows/desktop/printdocs/printschema">Print Schema</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/printdocs/printing-and-print-spooler-functions">Print Spooler API Functions</a>
+<a href="/windows/desktop/printdocs/printing-and-print-spooler-functions">Print Spooler API Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/printdocs/printdocs-printing">Printing</a>
-
+<a href="/windows/desktop/printdocs/printdocs-printing">Printing</a>

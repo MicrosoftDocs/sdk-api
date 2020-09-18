@@ -56,7 +56,7 @@ Fires an event to a single subscriber.
 
 ### -param subscription [in]
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/eventsys/nn-eventsys-ieventsubscription">IEventSubscription</a> interface on a subscription object.
+A pointer to the <a href="/windows/desktop/api/eventsys/nn-eventsys-ieventsubscription">IEventSubscription</a> interface on a subscription object.
 
 ## -returns
 
@@ -79,5 +79,4 @@ The <b>FireSubscription</b> method fires an event to the subscriber associated w
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/eventsys/nn-eventsys-ifiringcontrol">IFiringControl</a>
-
+<a href="/windows/desktop/api/eventsys/nn-eventsys-ifiringcontrol">IFiringControl</a>

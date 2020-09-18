@@ -56,9 +56,9 @@ Specifies a top-level location from which to begin browsing a namespace, for ins
 
 ### -param psi [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a></b>
+Type: <b><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a></b>
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a> object that represents the navigation root.
+Pointer to an <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a> object that represents the navigation root.
 
 ## -returns
 
@@ -74,5 +74,4 @@ This method cannot be called while the dialog is being displayed.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nn-shobjidl-ifiledialog2">IFileDialog2</a>
-
+<a href="/windows/desktop/api/shobjidl/nn-shobjidl-ifiledialog2">IFileDialog2</a>

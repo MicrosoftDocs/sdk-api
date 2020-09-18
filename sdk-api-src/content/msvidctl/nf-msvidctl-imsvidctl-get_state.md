@@ -56,7 +56,7 @@ The <b>get_State</b> method retrieves the state of the filter graph.
 
 ### -param lState [out]
 
-Receives a member of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msvidctl/ne-msvidctl-msvidctlstatelist">MSVidCtlStateList</a> enumeration.
+Receives a member of the <a href="/previous-versions/windows/desktop/api/msvidctl/ne-msvidctl-msvidctlstatelist">MSVidCtlStateList</a> enumeration.
 
 ## -returns
 
@@ -93,5 +93,4 @@ NULL pointer argument.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/msvidctl">IMSVidCtl Interface</a>
-
+<a href="/previous-versions/windows/desktop/mstv/msvidctl">IMSVidCtl Interface</a>

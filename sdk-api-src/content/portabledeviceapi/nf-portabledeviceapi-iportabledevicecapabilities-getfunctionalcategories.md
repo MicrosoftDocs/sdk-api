@@ -57,7 +57,7 @@ The <b>GetFunctionalCategories</b> method retrieves all functional categories su
 
 ### -param ppCategories [out]
 
-Address of a variable that receives a pointer to an <a href="https://docs.microsoft.com/windows/desktop/wpd_sdk/iportabledevicepropvariantcollection">IPortableDevicePropVariantCollection</a> interface that holds all the functional categories for this device. The values will be <b>GUID</b>s  of type VT_CLSID in the retrieved <b>PROPVARIANT</b> values. The caller must release this interface when it is done with it.
+Address of a variable that receives a pointer to an <a href="/windows/desktop/wpd_sdk/iportabledevicepropvariantcollection">IPortableDevicePropVariantCollection</a> interface that holds all the functional categories for this device. The values will be <b>GUID</b>s  of type VT_CLSID in the retrieved <b>PROPVARIANT</b> values. The caller must release this interface when it is done with it.
 
 ## -returns
 
@@ -90,15 +90,14 @@ Functional categories describe the types of functions that a device can perform,
 
 #### Examples
 
-For an example of how to use this method see <a href="https://docs.microsoft.com/windows/desktop/wpd_sdk/retrieving-the-functional-categories-supported-by-a-device">Retrieving the Functional Categories Supported by a Device</a>.
+For an example of how to use this method see <a href="/windows/desktop/wpd_sdk/retrieving-the-functional-categories-supported-by-a-device">Retrieving the Functional Categories Supported by a Device</a>.
 
 <div class="code"></div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nn-portabledeviceapi-iportabledevicecapabilities">IPortableDeviceCapabilities Interface</a>
+<a href="/windows/desktop/api/portabledeviceapi/nn-portabledeviceapi-iportabledevicecapabilities">IPortableDeviceCapabilities Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/wpd_sdk/retrieving-the-functional-categories-supported-by-a-device">Retrieving the Functional Categories Supported by a Device</a>
-
+<a href="/windows/desktop/wpd_sdk/retrieving-the-functional-categories-supported-by-a-device">Retrieving the Functional Categories Supported by a Device</a>

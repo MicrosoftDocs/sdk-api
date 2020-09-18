@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Gets the color for a given portion of the month calendar within a date and time picker (DTP) control. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/dtm-getmccolor">DTM_GETMCCOLOR</a> message explicitly.
+Gets the color for a given portion of the month calendar within a date and time picker (DTP) control. You can use this macro or send the <a href="/windows/desktop/Controls/dtm-getmccolor">DTM_GETMCCOLOR</a> message explicitly.
 
 ## -parameters
 
 ### -param hdp
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to a DTP control.
 
@@ -132,4 +132,3 @@ Retrieve the color used to display header day and trailing day text. Header and 
 </td>
 </tr>
 </table>
-

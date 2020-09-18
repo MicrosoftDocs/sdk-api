@@ -66,11 +66,11 @@ The name of the INF file to be verified. This name may include a path.
 ### -param AltPlatformInfo [in]
 
 An optional pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-sp_altplatform_info_v2">SP_ALTPLATFORM_INFO_V2</a> structure that contains information about the alternate platform to use when validating the INF file. This parameter can be Null.
+<a href="/windows/desktop/api/setupapi/ns-setupapi-sp_altplatform_info_v2">SP_ALTPLATFORM_INFO_V2</a> structure that contains information about the alternate platform to use when validating the INF file. This parameter can be Null.
 
 ### -param InfSignerInfo [out]
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-sp_inf_signer_info_v1_a">SP_INF_SIGNER_INFO</a> structure that receives information about the INF digital signature, that is, if it is signed.
+A pointer to an <a href="/windows/desktop/api/setupapi/ns-setupapi-sp_inf_signer_info_v1_a">SP_INF_SIGNER_INFO</a> structure that receives information about the INF digital signature, that is, if it is signed.
 
 ## -returns
 
@@ -78,14 +78,13 @@ This function returns WINSETUPAPI BOOL.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/SetupApi/functions">Functions</a>
+<a href="/windows/desktop/SetupApi/functions">Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SetupApi/overview">Overview</a>
+<a href="/windows/desktop/SetupApi/overview">Overview</a>
 
 ## -remarks
 
 > [!NOTE]
 > The setupapi.h header defines SetupVerifyInfFile as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

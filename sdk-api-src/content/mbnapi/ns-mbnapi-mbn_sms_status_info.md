@@ -59,9 +59,8 @@ The <b>MBN_SMS_STATUS_INFO</b> structure contains the status of the SMS message 
 
 ### -field flag
 
-A bitwise OR combination of <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/ne-mbnapi-mbn_sms_status_flag">MBN_SMS_STATUS_FLAG</a> values that specify the state of the message store.
+A bitwise OR combination of <a href="/windows/desktop/api/mbnapi/ne-mbnapi-mbn_sms_status_flag">MBN_SMS_STATUS_FLAG</a> values that specify the state of the message store.
 
 ### -field messageIndex
 
 Contains the index of the last received message in the store.  This field is only meaningful when <b>flag</b> contains <b>MBN_SMS_FLAG_NEW_MESSAGE</b>.
-

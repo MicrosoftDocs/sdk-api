@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Gets the current minimum and maximum allowable system times for a date and time picker (DTP) control. You can use this macro, or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/dtm-getrange">DTM_GETRANGE</a> message explicitly.
+Gets the current minimum and maximum allowable system times for a date and time picker (DTP) control. You can use this macro, or send the <a href="/windows/desktop/Controls/dtm-getrange">DTM_GETRANGE</a> message explicitly.
 
 ## -parameters
 
 ### -param hdp
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to a DTP control.
 
@@ -64,9 +64,8 @@ A handle to a DTP control.
 
 Type: <b>LPSYSTEMTIME</b>
 
-A pointer to a two-element array of <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-systemtime">SYSTEMTIME</a> structures.
+A pointer to a two-element array of <a href="/windows/desktop/api/minwinbase/ns-minwinbase-systemtime">SYSTEMTIME</a> structures.
 
 ## -remarks
 
-The date and time picker displays only dates/times that fall within the specified range, preventing the user from selecting a date and time that falls outside the range. If the <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-datetime_setsystemtime">DateTime_SetSystemtime</a> message specifies a date and time that falls outside the range, it will fail.
-
+The date and time picker displays only dates/times that fall within the specified range, preventing the user from selecting a date and time that falls outside the range. If the <a href="/windows/desktop/api/commctrl/nf-commctrl-datetime_setsystemtime">DateTime_SetSystemtime</a> message specifies a date and time that falls outside the range, it will fail.

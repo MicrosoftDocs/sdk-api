@@ -90,9 +90,8 @@ White point y-coordinate.
 
 ## -remarks
 
-This structure is used with the <a href="https://docs.microsoft.com/windows/desktop/medfound/mf-mt-custom-video-primaries-attribute">MF_MT_CUSTOM_VIDEO_PRIMARIES</a> attribute.
+This structure is used with the <a href="/windows/desktop/medfound/mf-mt-custom-video-primaries-attribute">MF_MT_CUSTOM_VIDEO_PRIMARIES</a> attribute.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-structures">Media Foundation Structures</a>
-
+<a href="/windows/desktop/medfound/media-foundation-structures">Media Foundation Structures</a>

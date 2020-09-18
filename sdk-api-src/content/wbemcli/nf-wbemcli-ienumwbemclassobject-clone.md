@@ -59,7 +59,7 @@ The <b>IEnumWbemClassObject::Clone</b> method makes
      supported.
 
 <p class="note">Any pending asynchronous deliveries begun by 
-     <a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-ienumwbemclassobject-nextasync">NextAsync</a> are not cloned.
+     <a href="/windows/desktop/api/wbemcli/nf-wbemcli-ienumwbemclassobject-nextasync">NextAsync</a> are not cloned.
 
 </div><div> </div>
 
@@ -68,14 +68,14 @@ The <b>IEnumWbemClassObject::Clone</b> method makes
 ### -param ppEnum [out]
 
 Receives a pointer to a new 
-      <a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nn-wbemcli-ienumwbemclassobject">IEnumWbemClassObject</a> object. The caller must call 
-      <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">Release</a> when the interface pointer is no longer 
+      <a href="/windows/desktop/api/wbemcli/nn-wbemcli-ienumwbemclassobject">IEnumWbemClassObject</a> object. The caller must call 
+      <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">Release</a> when the interface pointer is no longer 
       required. On error, there will not be a return of a new object.
 
 ## -returns
 
 On error, you can call the COM function 
-       <a href="https://msdn.microsoft.com/library/ms221032.aspx">GetErrorInfo</a> to obtain more error 
+       <a href="/windows/win32/api/oleauto/nf-oleauto-geterrorinfo">GetErrorInfo</a> to obtain more error 
        information. COM-specific error codes may also be returned if network problems cause you to lose the remote 
        connection to Windows Management.
 
@@ -86,11 +86,11 @@ The following list lists the value contained within an <b>HRESULT</b>.
 Because the call-back to the sink might not be returned at the same authentication level as the client 
     requires, it is recommended that you use semisynchronous communication instead of asynchronous. If you require 
     asynchronous communication, see 
-    <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/calling-a-method">Calling a Method</a>.
+    <a href="/windows/desktop/WmiSdk/calling-a-method">Calling a Method</a>.
 
 For more information about using methods semisynchronously, see 
-    <a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nn-wbemcli-ienumwbemclassobject">IEnumWbemClassObject</a> and 
-    <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/calling-a-method">Calling a Method</a>.
+    <a href="/windows/desktop/api/wbemcli/nn-wbemcli-ienumwbemclassobject">IEnumWbemClassObject</a> and 
+    <a href="/windows/desktop/WmiSdk/calling-a-method">Calling a Method</a>.
 
 
 #### Examples
@@ -116,4 +116,3 @@ BOOL CloneEnum(IEnumWbemClassObject *pSrc)
     return TRUE;
 }
 ```
-

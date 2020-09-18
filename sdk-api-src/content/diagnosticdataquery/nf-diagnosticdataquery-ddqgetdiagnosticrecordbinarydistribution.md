@@ -69,7 +69,7 @@ The number of noisiest records to return
 
 ### -param binaryStats
 
-Type: **[DIAGNOSTIC_DATA_EVENT_BINARY_STATS](/windows/win32/api/diagnosticdataquerytypes/ns-diagnosticdataquerytypes-diagnostic_data_event_binary_stats)**
+Type: **[DIAGNOSTIC_DATA_EVENT_BINARY_STATS](../diagnosticdataquerytypes/ns-diagnosticdataquerytypes-diagnostic_data_event_binary_stats.md)**
 This output parameter is the pointer to the list of top N noisiest DIAGNOSTIC_DATA_EVENT_BINARY_STATS items.
 
 ### -param statCount
@@ -85,4 +85,3 @@ Returns S_OK on successful completion.
 ## -remarks
 
 ## -see-also
-

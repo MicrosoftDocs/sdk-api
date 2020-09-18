@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Passes <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/rendezvoussession/nn-rendezvoussession-irendezvoussession">IRendezvousSession</a> to the Windows Remote Assistance application. This method is used by the instant messaging application.
+Passes <a href="/previous-versions/windows/desktop/api/rendezvoussession/nn-rendezvoussession-irendezvoussession">IRendezvousSession</a> to the Windows Remote Assistance application. This method is used by the instant messaging application.
 
 ## -parameters
 
 ### -param pRendezvousSession [in]
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/rendezvoussession/nn-rendezvoussession-irendezvoussession">IRendezvousSession</a>
+<a href="/previous-versions/windows/desktop/api/rendezvoussession/nn-rendezvoussession-irendezvoussession">IRendezvousSession</a>
 
 ## -returns
 
@@ -74,7 +74,7 @@ This method can return one of these values.
 </dl>
 </td>
 <td width="60%">
-The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/rendezvoussession/nn-rendezvoussession-irendezvoussession">IRendezvousSession</a> was passed to the Windows Remote Assistance application successfully. 
+The <a href="/previous-versions/windows/desktop/api/rendezvoussession/nn-rendezvoussession-irendezvoussession">IRendezvousSession</a> was passed to the Windows Remote Assistance application successfully. 
 
 </td>
 </tr>
@@ -101,4 +101,3 @@ A catastrophic error occurred while trying to pass the session to the Windows Re
 </td>
 </tr>
 </table>
-

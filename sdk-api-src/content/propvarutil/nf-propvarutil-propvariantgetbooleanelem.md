@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Extracts a single Boolean element from a <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structure of type <code>VT_BOOL</code>, <code>VT_VECTOR | VT_BOOL</code>, or <code>VT_ARRAY | VT_BOOL</code>.
+Extracts a single Boolean element from a <a href="/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structure of type <code>VT_BOOL</code>, <code>VT_VECTOR | VT_BOOL</code>, or <code>VT_ARRAY | VT_BOOL</code>.
 
 ## -parameters
 
@@ -58,7 +58,7 @@ Extracts a single Boolean element from a <a href="https://docs.microsoft.com/win
 
 Type: <b>REFPROPVARIANT</b>
 
-A reference to the source <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structure.
+A reference to the source <a href="/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structure.
 
 ### -param iElem [in]
 
@@ -80,9 +80,9 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 ## -remarks
 
-If the source <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structure has type <code>VT_BOOL</code>, <i>iElem</i> must be 0. Otherwise <i>iElem</i> must be less than the number of elements in the vector or array. You can use <a href="https://docs.microsoft.com/windows/desktop/api/propvarutil/nf-propvarutil-propvariantgetelementcount">PropVariantGetElementCount</a> to obtain the number of elements in the vector or array.
+If the source <a href="/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structure has type <code>VT_BOOL</code>, <i>iElem</i> must be 0. Otherwise <i>iElem</i> must be less than the number of elements in the vector or array. You can use <a href="/windows/desktop/api/propvarutil/nf-propvarutil-propvariantgetelementcount">PropVariantGetElementCount</a> to obtain the number of elements in the vector or array.
 
-The following example uses this function to loop through the values in a <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structure.
+The following example uses this function to loop through the values in a <a href="/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structure.
 
 
 #### Examples
@@ -112,5 +112,4 @@ if ((propvar.vt & VT_TYPEMASK) == VT_BOOL)
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/propvarutil/nf-propvarutil-propvariantgetelem">PropVariantGetElem</a>
-
+<a href="/windows/desktop/api/propvarutil/nf-propvarutil-propvariantgetelem">PropVariantGetElem</a>

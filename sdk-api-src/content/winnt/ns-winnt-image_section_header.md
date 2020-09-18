@@ -590,21 +590,20 @@ The section can be written to.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-imagedirectoryentrytodataex">ImageDirectoryEntryToDataEx</a>
+<a href="/windows/desktop/api/dbghelp/nf-dbghelp-imagedirectoryentrytodataex">ImageDirectoryEntryToDataEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Debug/imagehlp-structures">ImageHlp Structures</a>
+<a href="/windows/desktop/Debug/imagehlp-structures">ImageHlp Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-imagervatosection">ImageRvaToSection</a>
+<a href="/windows/desktop/api/dbghelp/nf-dbghelp-imagervatosection">ImageRvaToSection</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-imagervatova">ImageRvaToVa</a>
+<a href="/windows/desktop/api/dbghelp/nf-dbghelp-imagervatova">ImageRvaToVa</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-loaded_image">LOADED_IMAGE</a>
-
+<a href="/windows/desktop/api/dbghelp/ns-dbghelp-loaded_image">LOADED_IMAGE</a>

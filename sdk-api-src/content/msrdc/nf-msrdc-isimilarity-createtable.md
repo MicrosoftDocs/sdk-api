@@ -56,7 +56,7 @@ Creates or opens a similarity traits table and a similarity file ID table.
 
 ### -param path [in]
 
-A pointer to a null-terminated string that specifies the name of the file that will contain the tables. The similarity traits table and the similarity file ID table will be created in two alternate file streams of this file. For more information, see the <i>path</i> parameter of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/nf-msrdc-isimilarityfileidtable-createtable">ISimilarityFileIdTable::CreateTable</a> and <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/nf-msrdc-isimilaritytraitstable-createtable">ISimilarityTraitsTable::CreateTable</a> methods.
+A pointer to a null-terminated string that specifies the name of the file that will contain the tables. The similarity traits table and the similarity file ID table will be created in two alternate file streams of this file. For more information, see the <i>path</i> parameter of the <a href="/previous-versions/windows/desktop/api/msrdc/nf-msrdc-isimilarityfileidtable-createtable">ISimilarityFileIdTable::CreateTable</a> and <a href="/previous-versions/windows/desktop/api/msrdc/nf-msrdc-isimilaritytraitstable-createtable">ISimilarityTraitsTable::CreateTable</a> methods.
 
 ### -param truncate [in]
 
@@ -64,7 +64,7 @@ A pointer to a null-terminated string that specifies the name of the file that w
 
 ### -param securityDescriptor [in]
 
-A pointer to a  security descriptor to use when opening the file. If this parameter is <b>NULL</b>, the file is assigned a default security descriptor. The access control lists (ACL) in the file's default security descriptor are inherited from the file's parent directory. For more information, see the <i>lpSecurityAttributes</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> function.
+A pointer to a  security descriptor to use when opening the file. If this parameter is <b>NULL</b>, the file is assigned a default security descriptor. The access control lists (ACL) in the file's default security descriptor are inherited from the file's parent directory. For more information, see the <i>lpSecurityAttributes</i> parameter of the <a href="/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> function.
 
 ### -param recordSize [in]
 
@@ -84,5 +84,4 @@ If one of the tables can be created or opened successfully, but the other one ca
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/nn-msrdc-isimilarity">ISimilarity</a>
-
+<a href="/previous-versions/windows/desktop/api/msrdc/nn-msrdc-isimilarity">ISimilarity</a>

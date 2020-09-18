@@ -56,7 +56,7 @@ Used to query the version of the driver used to support a particular provider.
 
 ### -param FileOrVolumeHandle [in]
 
-A handle to a file or volume opened with <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> or a similar API.
+A handle to a file or volume opened with <a href="/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> or a similar API.
 
 ### -param Provider [in]
 
@@ -78,5 +78,4 @@ QuickInfo
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/fsctl-get-wof-version">FSCTL_GET_WOF_VERSION</a>
-
+<a href="/windows-hardware/drivers/ifs/fsctl-get-wof-version">FSCTL_GET_WOF_VERSION</a>

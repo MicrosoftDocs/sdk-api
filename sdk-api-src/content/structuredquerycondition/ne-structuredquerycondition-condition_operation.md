@@ -53,20 +53,20 @@ api_name:
 ## -description
 
 Provides a set of flags to be used with following methods to indicate the operation in 
-    <a href="https://docs.microsoft.com/windows/desktop/api/structuredquerycondition/nf-structuredquerycondition-icondition-getcomparisoninfo">ICondition::GetComparisonInfo</a>, 
-    <a href="https://docs.microsoft.com/windows/desktop/api/structuredquerycondition/nf-structuredquerycondition-icondition2-getleafconditioninfo">ICondition2::GetLeafConditionInfo</a>, 
-    <a href="https://docs.microsoft.com/windows/desktop/api/structuredquery/nf-structuredquery-iconditionfactory-makeleaf">IConditionFactory::MakeLeaf</a>, 
-    <a href="https://docs.microsoft.com/windows/desktop/api/structuredquery/nf-structuredquery-iconditionfactory2-createbooleanleaf">IConditionFactory2::CreateBooleanLeaf</a>, 
-    <a href="https://docs.microsoft.com/windows/desktop/api/structuredquery/nf-structuredquery-iconditionfactory2-createintegerleaf">IConditionFactory2::CreateIntegerLeaf</a>, 
-    <a href="https://docs.microsoft.com/windows/desktop/api/structuredquery/nf-structuredquery-iconditionfactory2-createleaf">IConditionFactory2::MakeLeaf</a>, 
-    <a href="https://docs.microsoft.com/windows/desktop/api/structuredquery/nf-structuredquery-iconditionfactory2-createstringleaf">IConditionFactory2::CreateStringLeaf</a>, and 
-    <a href="https://docs.microsoft.com/windows/desktop/api/structuredquery/nf-structuredquery-iconditiongenerator-generateforleaf">IConditionGenerator::GenerateForLeaf</a>.
+    <a href="/windows/desktop/api/structuredquerycondition/nf-structuredquerycondition-icondition-getcomparisoninfo">ICondition::GetComparisonInfo</a>, 
+    <a href="/windows/desktop/api/structuredquerycondition/nf-structuredquerycondition-icondition2-getleafconditioninfo">ICondition2::GetLeafConditionInfo</a>, 
+    <a href="/windows/desktop/api/structuredquery/nf-structuredquery-iconditionfactory-makeleaf">IConditionFactory::MakeLeaf</a>, 
+    <a href="/windows/desktop/api/structuredquery/nf-structuredquery-iconditionfactory2-createbooleanleaf">IConditionFactory2::CreateBooleanLeaf</a>, 
+    <a href="/windows/desktop/api/structuredquery/nf-structuredquery-iconditionfactory2-createintegerleaf">IConditionFactory2::CreateIntegerLeaf</a>, 
+    <a href="/windows/desktop/api/structuredquery/nf-structuredquery-iconditionfactory2-createleaf">IConditionFactory2::MakeLeaf</a>, 
+    <a href="/windows/desktop/api/structuredquery/nf-structuredquery-iconditionfactory2-createstringleaf">IConditionFactory2::CreateStringLeaf</a>, and 
+    <a href="/windows/desktop/api/structuredquery/nf-structuredquery-iconditiongenerator-generateforleaf">IConditionGenerator::GenerateForLeaf</a>.
 
 ## -enum-fields
 
 ### -field COP_IMPLICIT
 
-An implicit comparison between the value of the property and the value of the constant. For an unresolved condition, <a href="https://docs.microsoft.com/windows/desktop/api/structuredquerycondition/ne-structuredquerycondition-condition_operation">COP_IMPLICIT</a> means that a user did not type an operation. In contrast, a resolved condition will always have a condition other than the <b>COP_IMPLICIT</b> operation.
+An implicit comparison between the value of the property and the value of the constant. For an unresolved condition, <a href="/windows/desktop/api/structuredquerycondition/ne-structuredquerycondition-condition_operation">COP_IMPLICIT</a> means that a user did not type an operation. In contrast, a resolved condition will always have a condition other than the <b>COP_IMPLICIT</b> operation.
 
 ### -field COP_EQUAL
 
@@ -126,13 +126,13 @@ The application is free to interpret this in any suitable way.
 
 ## -remarks
 
-Because a resolved condition never has a <b>COP_IMPLICIT</b> operation, applications that evaluate condition trees should not encounter it. However, <b>COP_IMPLICIT</b> could be used in comparing the output of either <a href="https://docs.microsoft.com/windows/desktop/api/structuredquerycondition/nf-structuredquerycondition-icondition-getcomparisoninfo">ICondition::GetComparisonInfo</a> or <a href="https://docs.microsoft.com/windows/desktop/api/structuredquerycondition/nf-structuredquerycondition-icondition2-getleafconditioninfo">ICondition2::GetLeafConditionInfo</a> for a parsed unresolved condition to the output for a resolved condition.
+Because a resolved condition never has a <b>COP_IMPLICIT</b> operation, applications that evaluate condition trees should not encounter it. However, <b>COP_IMPLICIT</b> could be used in comparing the output of either <a href="/windows/desktop/api/structuredquerycondition/nf-structuredquerycondition-icondition-getcomparisoninfo">ICondition::GetComparisonInfo</a> or <a href="/windows/desktop/api/structuredquerycondition/nf-structuredquerycondition-icondition2-getleafconditioninfo">ICondition2::GetLeafConditionInfo</a> for a parsed unresolved condition to the output for a resolved condition.
 
 In Windows 7, this enumeration is defined in structuredquerycondition.idl and structuredquerycondition.h. Prior to Windows 7 this enumeration was declared in structuredquery.h and structuredquery.idl.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/structuredquery/ne-structuredquery-condition_creation_options">CONDITION_CREATION_OPTIONS</a>
+<a href="/windows/desktop/api/structuredquery/ne-structuredquery-condition_creation_options">CONDITION_CREATION_OPTIONS</a>
 
 
 
@@ -140,25 +140,24 @@ In Windows 7, this enumeration is defined in structuredquerycondition.idl and s
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/structuredquerycondition/nn-structuredquerycondition-icondition">ICondition</a>
+<a href="/windows/desktop/api/structuredquerycondition/nn-structuredquerycondition-icondition">ICondition</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/structuredquerycondition/nn-structuredquerycondition-icondition2">ICondition2</a>
+<a href="/windows/desktop/api/structuredquerycondition/nn-structuredquerycondition-icondition2">ICondition2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/structuredquery/nn-structuredquery-iconditionfactory">IConditionFactory</a>
+<a href="/windows/desktop/api/structuredquery/nn-structuredquery-iconditionfactory">IConditionFactory</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/structuredquery/nn-structuredquery-iconditionfactory2">IConditionFactory2</a>
+<a href="/windows/desktop/api/structuredquery/nn-structuredquery-iconditionfactory2">IConditionFactory2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/structuredquery/nn-structuredquery-iconditiongenerator">IConditionGenerator</a>
+<a href="/windows/desktop/api/structuredquery/nn-structuredquery-iconditiongenerator">IConditionGenerator</a>
 
 
 
 <b>Reference</b>
-

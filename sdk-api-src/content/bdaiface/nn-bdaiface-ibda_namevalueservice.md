@@ -54,7 +54,7 @@ Retrieves name/value pairs from a media transform device (MTD) through the devic
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBDA_NameValueService</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IBDA_NameValueService</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBDA_NameValueService</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IBDA_NameValueService</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IBDA_NameValueService</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nf-bdaiface-ibda_namevalueservice-getvalue">GetValue</a>
+<a href="/windows/desktop/api/bdaiface/nf-bdaiface-ibda_namevalueservice-getvalue">GetValue</a>
 </td>
 <td align="left" width="63%">
 Gets a value by name.
@@ -78,7 +78,7 @@ Gets a value by name.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/dd376218(v=vs.85)">GetValueNameByIndex</a>
+<a href="/previous-versions/dd376218(v=vs.85)">GetValueNameByIndex</a>
 </td>
 <td align="left" width="63%">
 Gets a name, specified by index, from the device's list of name/value pairs.
@@ -87,7 +87,7 @@ Gets a name, specified by index, from the device's list of name/value pairs.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nf-bdaiface-ibda_namevalueservice-setvalue">SetValue</a>
+<a href="/windows/desktop/api/bdaiface/nf-bdaiface-ibda_namevalueservice-setvalue">SetValue</a>
 </td>
 <td align="left" width="63%">
 Sets a name/value pair in device memory.
@@ -99,4 +99,3 @@ Sets a name/value pair in device memory.
 ## -remarks
 
 To declare the interface identifier (IID) for this interface, use the <b>__uuidof</b> operator: <code>__uuidof(IBDA_NameValueService)</code>.
-

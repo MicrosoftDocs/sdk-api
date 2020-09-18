@@ -54,7 +54,7 @@ Sets properties on the color converter DSP.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMColorConvProps</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWMColorConvProps</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMColorConvProps</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWMColorConvProps</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IWMColorConvProps</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmcodecdsp/nf-wmcodecdsp-iwmcolorconvprops-setfullcroppingparam">SetFullCroppingParam</a>
+<a href="/windows/desktop/api/wmcodecdsp/nf-wmcodecdsp-iwmcolorconvprops-setfullcroppingparam">SetFullCroppingParam</a>
 </td>
 <td align="left" width="63%">
 Sets the source and destination rectangles.
@@ -78,7 +78,7 @@ Sets the source and destination rectangles.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmcodecdsp/nf-wmcodecdsp-iwmcolorconvprops-setmode">SetMode</a>
+<a href="/windows/desktop/api/wmcodecdsp/nf-wmcodecdsp-iwmcolorconvprops-setmode">SetMode</a>
 </td>
 <td align="left" width="63%">
 Specifies whether the input video stream is interlaced.
@@ -89,9 +89,8 @@ Specifies whether the input video stream is interlaced.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/colorconverter">Color Converter DSP</a>
+<a href="/windows/desktop/medfound/colorconverter">Color Converter DSP</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
-
+<a href="/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>

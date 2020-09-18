@@ -52,11 +52,11 @@ api_name:
 
 Manages configuration settings for each listener for the dynamic virtual channel (DVC) connection.
 
-This interface is implemented by the Remote Desktop Connection (RDC) client. A reference is kept typically by the Remote Desktop Connection (RDC) client plug-in. The methods can be executed in any thread that the plug-in chooses. An instance is retrieved by calling the <a href="https://docs.microsoft.com/windows/desktop/api/tsvirtualchannels/nf-tsvirtualchannels-iwtsvirtualchannelmanager-createlistener">IWTSVirtualChannelManager::CreateListener</a> method.
+This interface is implemented by the Remote Desktop Connection (RDC) client. A reference is kept typically by the Remote Desktop Connection (RDC) client plug-in. The methods can be executed in any thread that the plug-in chooses. An instance is retrieved by calling the <a href="/windows/desktop/api/tsvirtualchannels/nf-tsvirtualchannels-iwtsvirtualchannelmanager-createlistener">IWTSVirtualChannelManager::CreateListener</a> method.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWTSListener</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWTSListener</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWTSListener</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWTSListener</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>IWTSListener</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tsvirtualchannels/nf-tsvirtualchannels-iwtslistener-getconfiguration">GetConfiguration</a>
+<a href="/windows/desktop/api/tsvirtualchannels/nf-tsvirtualchannels-iwtslistener-getconfiguration">GetConfiguration</a>
 </td>
 <td align="left" width="63%">
 Retrieves the listener-specific configuration.
@@ -79,4 +79,3 @@ Retrieves the listener-specific configuration.
 </td>
 </tr>
 </table>
-

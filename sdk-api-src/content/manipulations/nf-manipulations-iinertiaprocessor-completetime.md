@@ -68,13 +68,12 @@ The <b>CompleteTime</b> method raises the <a href="/windows/win32/api/manipulati
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/manipulations/nf-manipulations-iinertiaprocessor-complete">Complete</a>
+<a href="/windows/desktop/api/manipulations/nf-manipulations-iinertiaprocessor-complete">Complete</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/manipulations/nn-manipulations-iinertiaprocessor">IInertiaProcessor</a>
+<a href="/windows/desktop/api/manipulations/nn-manipulations-iinertiaprocessor">IInertiaProcessor</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/wintouch/imanipulationprocessor-methods">Methods</a>
-
+<a href="/windows/desktop/wintouch/imanipulationprocessor-methods">Methods</a>

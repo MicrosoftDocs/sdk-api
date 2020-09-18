@@ -64,19 +64,19 @@ The code member of this structure identifies the notification code being sent.
 
 ### -field msg
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 Identifier of the message that caused the rich edit control to send the <a href="https://msdn.microsoft.com/67f02908-957e-4d91-8a70-70399ce9cf2e">EN_LINK</a> notification code.
 
 ### -field wParam
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">WPARAM</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">WPARAM</a></b>
 
 The <b>wParam</b> parameter of the message received by the rich edit control.
 
 ### -field lParam
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPARAM</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">LPARAM</a></b>
 
 The <b>lParam</b> parameter of the message received by the rich edit control.
 
@@ -101,4 +101,3 @@ The range of consecutive characters in the rich edit control that have the CFE_L
 
 
 <b>Reference</b>
-

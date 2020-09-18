@@ -267,9 +267,9 @@ A pointer to the value data.
 ## -remarks
 
 When you use the 
-<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/nf-nspapi-setservicea">SetService</a> function to add a network service type to a namespace, a 
-<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-service_type_info_absa">SERVICE_TYPE_INFO_ABS</a> structure is passed as the <b>ServiceSpecificInfo</b> BLOB member of a 
-<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-service_infoa">SERVICE_INFO</a> structure. Although the <b>ServiceSpecificInfo</b> member generally should not contain pointers, an exception is made in the case of the 
+<a href="/windows/desktop/api/nspapi/nf-nspapi-setservicea">SetService</a> function to add a network service type to a namespace, a 
+<a href="/windows/desktop/api/nspapi/ns-nspapi-service_type_info_absa">SERVICE_TYPE_INFO_ABS</a> structure is passed as the <b>ServiceSpecificInfo</b> BLOB member of a 
+<a href="/windows/desktop/api/nspapi/ns-nspapi-service_infoa">SERVICE_INFO</a> structure. Although the <b>ServiceSpecificInfo</b> member generally should not contain pointers, an exception is made in the case of the 
 <b>SERVICE_TYPE_INFO_ABS</b> and 
 <b>SERVICE_TYPE_VALUE_ABS</b> structures.
 
@@ -282,13 +282,12 @@ When you use the
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-service_infoa">SERVICE_INFO</a>
+<a href="/windows/desktop/api/nspapi/ns-nspapi-service_infoa">SERVICE_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-service_type_info_absa">SERVICE_TYPE_INFO_ABS</a>
+<a href="/windows/desktop/api/nspapi/ns-nspapi-service_type_info_absa">SERVICE_TYPE_INFO_ABS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/nf-nspapi-setservicea">SetService</a>
-
+<a href="/windows/desktop/api/nspapi/nf-nspapi-setservicea">SetService</a>

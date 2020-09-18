@@ -84,7 +84,7 @@ The action being performed on the string identified by the <b>hsz</b> member.
 </dl>
 </td>
 <td width="60%">
-An application is freeing its DDE resources, causing the system to delete string handles the application had created. (The application called the <a href="https://docs.microsoft.com/windows/desktop/api/ddeml/nf-ddeml-ddeuninitialize">DdeUninitialize</a> function.)
+An application is freeing its DDE resources, causing the system to delete string handles the application had created. (The application called the <a href="/windows/desktop/api/ddeml/nf-ddeml-ddeuninitialize">DdeUninitialize</a> function.)
 
 </td>
 </tr>
@@ -95,7 +95,7 @@ An application is freeing its DDE resources, causing the system to delete string
 </dl>
 </td>
 <td width="60%">
-An application is creating a string handle. (The application called the <a href="https://docs.microsoft.com/windows/desktop/api/ddeml/nf-ddeml-ddecreatestringhandlea">DdeCreateStringHandle</a> function.)
+An application is creating a string handle. (The application called the <a href="/windows/desktop/api/ddeml/nf-ddeml-ddecreatestringhandlea">DdeCreateStringHandle</a> function.)
 
 </td>
 </tr>
@@ -106,7 +106,7 @@ An application is creating a string handle. (The application called the <a href=
 </dl>
 </td>
 <td width="60%">
-An application is deleting a string handle. (The application called the <a href="https://docs.microsoft.com/windows/desktop/api/ddeml/nf-ddeml-ddefreestringhandle">DdeFreeStringHandle</a> function.)
+An application is deleting a string handle. (The application called the <a href="/windows/desktop/api/ddeml/nf-ddeml-ddefreestringhandle">DdeFreeStringHandle</a> function.)
 
 </td>
 </tr>
@@ -117,7 +117,7 @@ An application is deleting a string handle. (The application called the <a href=
 </dl>
 </td>
 <td width="60%">
-An application is increasing the usage count of a string handle. (The application called the <a href="https://docs.microsoft.com/windows/desktop/api/ddeml/nf-ddeml-ddekeepstringhandle">DdeKeepStringHandle</a> function.)
+An application is increasing the usage count of a string handle. (The application called the <a href="/windows/desktop/api/ddeml/nf-ddeml-ddekeepstringhandle">DdeKeepStringHandle</a> function.)
 
 </td>
 </tr>
@@ -153,27 +153,27 @@ Pointer to the string identified by the <b>hsz</b> member.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/dataxchg/dynamic-data-exchange-management-library">Dynamic Data Exchange Management Library</a>
+<a href="/windows/desktop/dataxchg/dynamic-data-exchange-management-library">Dynamic Data Exchange Management Library</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ddeml/ns-ddeml-moncbstruct">MONCBSTRUCT</a>
+<a href="/windows/desktop/api/ddeml/ns-ddeml-moncbstruct">MONCBSTRUCT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ddeml/ns-ddeml-monconvstruct">MONCONVSTRUCT</a>
+<a href="/windows/desktop/api/ddeml/ns-ddeml-monconvstruct">MONCONVSTRUCT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ddeml/ns-ddeml-monerrstruct">MONERRSTRUCT</a>
+<a href="/windows/desktop/api/ddeml/ns-ddeml-monerrstruct">MONERRSTRUCT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ddeml/ns-ddeml-monlinkstruct">MONLINKSTRUCT</a>
+<a href="/windows/desktop/api/ddeml/ns-ddeml-monlinkstruct">MONLINKSTRUCT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ddeml/ns-ddeml-monmsgstruct">MONMSGSTRUCT</a>
+<a href="/windows/desktop/api/ddeml/ns-ddeml-monmsgstruct">MONMSGSTRUCT</a>
 
 
 
@@ -183,4 +183,3 @@ Pointer to the string identified by the <b>hsz</b> member.
 
 > [!NOTE]
 > The ddeml.h header defines MONHSZSTRUCT as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

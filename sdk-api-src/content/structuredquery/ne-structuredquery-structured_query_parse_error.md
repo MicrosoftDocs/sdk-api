@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-A set of flags to be used with <a href="https://docs.microsoft.com/windows/desktop/api/structuredquery/nf-structuredquery-iquerysolution-geterrors">IQuerySolution::GetErrors</a> to indentify parsing error(s). Each parsing error indicates that one or more tokens were ignored when parsing a query string.
+A set of flags to be used with <a href="/windows/desktop/api/structuredquery/nf-structuredquery-iquerysolution-geterrors">IQuerySolution::GetErrors</a> to indentify parsing error(s). Each parsing error indicates that one or more tokens were ignored when parsing a query string.
 
 ## -enum-fields
 
@@ -86,5 +86,4 @@ Any other parse error.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/structuredquerycondition/nn-structuredquerycondition-irichchunk">IRichChunk</a>
-
+<a href="/windows/desktop/api/structuredquerycondition/nn-structuredquerycondition-irichchunk">IRichChunk</a>

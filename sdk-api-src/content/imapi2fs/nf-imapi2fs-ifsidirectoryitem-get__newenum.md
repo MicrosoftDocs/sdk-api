@@ -101,13 +101,12 @@ Value: 0x8007000E
 
 The enumeration is a snapshot of the children contained in the directory at the time of the call and will not reflect children that are added and removed. 
 
-To retrieve a single item, see the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifsidirectoryitem-get_item">IFsiDirectoryItem::get_Item</a> property.
+To retrieve a single item, see the <a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ifsidirectoryitem-get_item">IFsiDirectoryItem::get_Item</a> property.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nn-imapi2fs-ifsidirectoryitem">IFsiDirectoryItem</a>
+<a href="/windows/desktop/api/imapi2fs/nn-imapi2fs-ifsidirectoryitem">IFsiDirectoryItem</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifsidirectoryitem-get_enumfsiitems">IFsiDirectoryItem::get_EnumFsiItems</a>
-
+<a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ifsidirectoryitem-get_enumfsiitems">IFsiDirectoryItem::get_EnumFsiItems</a>

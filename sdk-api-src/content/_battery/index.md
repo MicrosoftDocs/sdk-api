@@ -18,5 +18,4 @@ To develop Battery Devices Reference, you need these headers:
  * [batclass.h](../batclass/index.md)
 
 For programming guidance for this technology, see:
-* [Battery Devices Reference](https://docs.microsoft.com/windows-hardware/drivers/battery/)
-
+* [Battery Devices Reference](/windows-hardware/drivers/battery/)

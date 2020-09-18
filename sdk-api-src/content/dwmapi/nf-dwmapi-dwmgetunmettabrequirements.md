@@ -60,8 +60,7 @@ The handle of the window to check.
 
 ### -param arg2 [out]
 
-On success, returns a pointer to a   <a href="https://docs.microsoft.com/windows/desktop/api/dwmapi/ne-dwmapi-dwm_tab_window_requirements">DWM_TAB_WINDOW_REQUIREMENTS</a> value describing the requirements for placing a tab.
+On success, returns a pointer to a   <a href="/windows/desktop/api/dwmapi/ne-dwmapi-dwm_tab_window_requirements">DWM_TAB_WINDOW_REQUIREMENTS</a> value describing the requirements for placing a tab.
 
 If <b>DWMTWR_NONE</b>, the window is capable of
 receiving tabs in its title bar.  Otherwise, indicates the reason why the application is ineligible.
-

@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-Unlocks a buffer that was previously locked. Call this method once for every call to <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfmediabuffer-lock">IMFMediaBuffer::Lock</a>.
+Unlocks a buffer that was previously locked. Call this method once for every call to <a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfmediabuffer-lock">IMFMediaBuffer::Lock</a>.
 
 ## -parameters
 
@@ -90,9 +90,9 @@ For Direct3D surface buffers, an error occurred when unlocking the surface.
 
 ## -remarks
 
-It is an error to call <b>Unlock</b> if you did not call <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfmediabuffer-lock">Lock</a> previously.
+It is an error to call <b>Unlock</b> if you did not call <a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfmediabuffer-lock">Lock</a> previously.
 
-After calling this method, do not use the pointer returned by the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfmediabuffer-lock">Lock</a> method. It is no longer guaranteed to be valid.
+After calling this method, do not use the pointer returned by the <a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfmediabuffer-lock">Lock</a> method. It is no longer guaranteed to be valid.
 
 This interface is available on the following platforms if the Windows Media Format 11 SDK redistributable components are installed:
 
@@ -103,9 +103,8 @@ This interface is available on the following platforms if the Windows Media Form
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfmediabuffer">IMFMediaBuffer</a>
+<a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfmediabuffer">IMFMediaBuffer</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-buffers">Media Buffers</a>
-
+<a href="/windows/desktop/medfound/media-buffers">Media Buffers</a>

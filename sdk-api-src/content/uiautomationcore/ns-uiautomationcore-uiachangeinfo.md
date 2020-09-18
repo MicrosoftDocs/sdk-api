@@ -56,7 +56,7 @@ Contains data about a UI Automation change that occurred.
 
 ### -field uiaId
 
-Identifies the type of change info. Possible values are all the values of <b>Change Indentifiers</b>, <a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-entry-propids">Property Identifiers</a>, <a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-textattribute-ids">Text Attribute Identifiers</a>, <a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-annotation-type-identifiers">Annotation Type Identifiers</a> and <a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-style-identifiers">Style Identifiers</a>.
+Identifies the type of change info. Possible values are all the values of <b>Change Indentifiers</b>, <a href="/windows/desktop/WinAuto/uiauto-entry-propids">Property Identifiers</a>, <a href="/windows/desktop/WinAuto/uiauto-textattribute-ids">Text Attribute Identifiers</a>, <a href="/windows/desktop/WinAuto/uiauto-annotation-type-identifiers">Annotation Type Identifiers</a> and <a href="/windows/desktop/WinAuto/uiauto-style-identifiers">Style Identifiers</a>.
 
 ### -field payload
 
@@ -68,7 +68,7 @@ Detailed information about the change that occurred.
 
 ## -remarks
 
-The provider can call <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcoreapi/nf-uiautomationcoreapi-uiaraisechangesevent">UiaRaiseChangesEvent</a> and pass in an array of <b>UiaChangeInfo</b> structs to notify clients of a related group of changes.  The <b>payload</b> and <b>extraInfo</b> will vary depending on the <b>uiaId</b> populated in the <b>UiaChangeInfo</b> struct.
+The provider can call <a href="/windows/desktop/api/uiautomationcoreapi/nf-uiautomationcoreapi-uiaraisechangesevent">UiaRaiseChangesEvent</a> and pass in an array of <b>UiaChangeInfo</b> structs to notify clients of a related group of changes.  The <b>payload</b> and <b>extraInfo</b> will vary depending on the <b>uiaId</b> populated in the <b>UiaChangeInfo</b> struct.
 
 If there are multiple of any of these event types multiple <b>UiaChangeInfo</b> structs would be created.  Below is a description of what these are for each pair of values.
 
@@ -96,7 +96,7 @@ A constant ID value from the provider indicating the meaning of this event.
 </tr>
 <tr>
 <td>
-For UIA property changes, identified in the <a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-entry-propids">Property Identifiers</a> section.
+For UIA property changes, identified in the <a href="/windows/desktop/WinAuto/uiauto-entry-propids">Property Identifiers</a> section.
 
 </td>
 <td>
@@ -110,7 +110,7 @@ Type is the type of the property and the value is the new value of the property.
 </tr>
 <tr>
 <td>
-For text attributes changes, identified in the <a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-textattribute-ids">Text Attribute Identifiers</a> section, <b>extraInfo</b> is not used.
+For text attributes changes, identified in the <a href="/windows/desktop/WinAuto/uiauto-textattribute-ids">Text Attribute Identifiers</a> section, <b>extraInfo</b> is not used.
 
 </td>
 <td>
@@ -124,7 +124,7 @@ Type is the type of the attribute and the value is the new value of the attribut
 </tr>
 <tr>
 <td>
-For annotation changes, identified in the <a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-annotation-type-identifiers">Annotation Type Identifiers</a> section, <b>extraInfo</b> is not used.
+For annotation changes, identified in the <a href="/windows/desktop/WinAuto/uiauto-annotation-type-identifiers">Annotation Type Identifiers</a> section, <b>extraInfo</b> is not used.
 
 </td>
 <td>
@@ -140,7 +140,7 @@ For text, the characters from the range to which the annotation  applies.
 </tr>
 <tr>
 <td>
-For style changes, identified in the <a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-style-identifiers">Style Identifiers</a> section, <b>extraInfo</b> is not used.
+For style changes, identified in the <a href="/windows/desktop/WinAuto/uiauto-style-identifiers">Style Identifiers</a> section, <b>extraInfo</b> is not used.
 
 </td>
 <td>
@@ -155,4 +155,3 @@ For text, the characters from the range to which the style applies.
 </td>
 </tr>
 </table>
-

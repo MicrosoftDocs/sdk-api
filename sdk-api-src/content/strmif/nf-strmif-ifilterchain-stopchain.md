@@ -57,7 +57,7 @@ The <code>StopChain</code> method switches all the filters in a filter chain int
 
 ### -param pStartFilter [in]
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ibasefilter">IBaseFilter</a> interface of the filter at the start of the chain.
+A pointer to the <a href="/windows/desktop/api/strmif/nn-strmif-ibasefilter">IBaseFilter</a> interface of the filter at the start of the chain.
 
 ### -param pEndFilter [in]
 
@@ -69,9 +69,8 @@ Returns S_OK if successful, or an <b>HRESULT</b> value indicating the cause of t
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ifilterchain">IFilterChain Interface</a>
-
+<a href="/windows/desktop/api/strmif/nn-strmif-ifilterchain">IFilterChain Interface</a>

@@ -54,7 +54,7 @@ Exposes methods that create and destroy bands and specifiy their availability.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBandHost</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IBandHost</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBandHost</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IBandHost</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IBandHost</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nf-shobjidl-ibandhost-createband">CreateBand</a>
+<a href="/windows/desktop/api/shobjidl/nf-shobjidl-ibandhost-createband">CreateBand</a>
 </td>
 <td align="left" width="63%">
 Creates a specified band.
@@ -78,7 +78,7 @@ Creates a specified band.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nf-shobjidl-ibandhost-destroyband">DestroyBand</a>
+<a href="/windows/desktop/api/shobjidl/nf-shobjidl-ibandhost-destroyband">DestroyBand</a>
 </td>
 <td align="left" width="63%">
 Destroys a specified band.
@@ -87,7 +87,7 @@ Destroys a specified band.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nf-shobjidl-ibandhost-setbandavailability">SetBandAvailability</a>
+<a href="/windows/desktop/api/shobjidl/nf-shobjidl-ibandhost-setbandavailability">SetBandAvailability</a>
 </td>
 <td align="left" width="63%">
 Sets the availability of a specified band.
@@ -95,4 +95,3 @@ Sets the availability of a specified band.
 </td>
 </tr>
 </table>
-

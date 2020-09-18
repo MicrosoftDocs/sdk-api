@@ -68,5 +68,4 @@ If the byte stream reads from a server, it might cache the seek request until th
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfbytestreamtimeseek">IMFByteStreamTimeSeek</a>
-
+<a href="/windows/desktop/api/mfidl/nn-mfidl-imfbytestreamtimeseek">IMFByteStreamTimeSeek</a>

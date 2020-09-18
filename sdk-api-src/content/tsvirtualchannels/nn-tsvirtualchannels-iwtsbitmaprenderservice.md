@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-This service is used to create a visual mapping on the client corresponding to a mapped window on the server. The server-side mapped window is set using the <a href="https://docs.microsoft.com/windows/desktop/api/wtshintapi/nf-wtshintapi-wtssetrenderhint">WTSSetRenderHint</a> API.
+This service is used to create a visual mapping on the client corresponding to a mapped window on the server. The server-side mapped window is set using the <a href="/windows/desktop/api/wtshintapi/nf-wtshintapi-wtssetrenderhint">WTSSetRenderHint</a> API.
 
-This interface is implemented by the Remote Desktop Connection (RDC) client. You obtain an instance of this interface by calling the <a href="https://docs.microsoft.com/windows/desktop/api/tsvirtualchannels/nf-tsvirtualchannels-iwtspluginserviceprovider-getservice">IWTSPluginServiceProvider::GetService</a> method, passing <b>RDCLIENT_BITMAP_RENDER_SERVICE</b>.
+This interface is implemented by the Remote Desktop Connection (RDC) client. You obtain an instance of this interface by calling the <a href="/windows/desktop/api/tsvirtualchannels/nf-tsvirtualchannels-iwtspluginserviceprovider-getservice">IWTSPluginServiceProvider::GetService</a> method, passing <b>RDCLIENT_BITMAP_RENDER_SERVICE</b>.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWTSBitmapRenderService</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWTSBitmapRenderService</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWTSBitmapRenderService</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWTSBitmapRenderService</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>IWTSBitmapRenderService</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tsvirtualchannels/nf-tsvirtualchannels-iwtsbitmaprenderservice-getmappedrenderer">GetMappedRenderer</a>
+<a href="/windows/desktop/api/tsvirtualchannels/nf-tsvirtualchannels-iwtsbitmaprenderservice-getmappedrenderer">GetMappedRenderer</a>
 </td>
 <td align="left" width="63%">
 Obtains the bitmap rendering object used to render media on the server.
@@ -82,9 +82,8 @@ Obtains the bitmap rendering object used to render media on the server.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tsvirtualchannels/nf-tsvirtualchannels-iwtspluginserviceprovider-getservice">IWTSPluginServiceProvider::GetService</a>
+<a href="/windows/desktop/api/tsvirtualchannels/nf-tsvirtualchannels-iwtspluginserviceprovider-getservice">IWTSPluginServiceProvider::GetService</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wtshintapi/nf-wtshintapi-wtssetrenderhint">WTSSetRenderHint</a>
-
+<a href="/windows/desktop/api/wtshintapi/nf-wtshintapi-wtssetrenderhint">WTSSetRenderHint</a>

@@ -74,7 +74,7 @@ Flags that control the behavior of the operation. The following table shows a po
 </dl>
 </td>
 <td width="60%">
-Allows registration of  multiple sources with the same name.  Use of this flag  means that   more than one source can call the <a href="https://docs.microsoft.com/windows/desktop/api/authz/nf-authz-authzregistersecurityeventsource">AuthzRegisterSecurityEventSource</a> function with the same <i>szEventSourceName</i> at runtime.
+Allows registration of  multiple sources with the same name.  Use of this flag  means that   more than one source can call the <a href="/windows/desktop/api/authz/nf-authz-authzregistersecurityeventsource">AuthzRegisterSecurityEventSource</a> function with the same <i>szEventSourceName</i> at runtime.
 
 </td>
 </tr>
@@ -131,9 +131,8 @@ An array of <a href="/windows/win32/api/authz/ns-authz-authz_registration_object
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/authz/nf-authz-authzenumeratesecurityeventsources">AuthzEnumerateSecurityEventSources</a>
+<a href="/windows/desktop/api/authz/nf-authz-authzenumeratesecurityeventsources">AuthzEnumerateSecurityEventSources</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/authz/nf-authz-authzinstallsecurityeventsource">AuthzInstallSecurityEventSource</a>
-
+<a href="/windows/desktop/api/authz/nf-authz-authzinstallsecurityeventsource">AuthzInstallSecurityEventSource</a>

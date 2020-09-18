@@ -56,13 +56,12 @@ api_name:
 
 ## -description
 
-The <b>SecPkgContext_EarlyStart</b> structure contains information about whether to attempt to use the False Start feature in a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security context</a>. 
+The <b>SecPkgContext_EarlyStart</b> structure contains information about whether to attempt to use the False Start feature in a <a href="/windows/desktop/SecGloss/s-gly">security context</a>. 
 
-See  the <a href="https://docs.microsoft.com/windows/desktop/winmsg/windows">Building a faster and more secure web</a> blog post for information on this feature.
+See  the <a href="/windows/desktop/winmsg/windows">Building a faster and more secure web</a> blog post for information on this feature.
 
 ## -struct-fields
 
 ### -field dwEarlyStartFlags
 
 Determines whether to attempt client-side False Start. Set the value to <b>ENABLE_TLS_CLIENT_EARLY_START</b> (1) to use False Start.
-

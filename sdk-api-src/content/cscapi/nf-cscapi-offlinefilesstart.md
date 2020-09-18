@@ -60,5 +60,4 @@ Returns <b>ERROR_SUCCESS</b> if successful or a Win32 error value otherwise.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscapi/nf-cscapi-offlinefilesquerystatusex">OfflineFilesQueryStatusEx</a>
-
+<a href="/previous-versions/windows/desktop/api/cscapi/nf-cscapi-offlinefilesquerystatusex">OfflineFilesQueryStatusEx</a>

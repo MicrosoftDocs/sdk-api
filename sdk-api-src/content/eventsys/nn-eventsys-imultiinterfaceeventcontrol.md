@@ -50,11 +50,11 @@ api_name:
 
 ## -description
 
-Controls the behavior of an event object, the object that fires an event to its subscribers. The <b>IMultiInterfaceEventControl</b> interface differs from the <a href="https://docs.microsoft.com/windows/desktop/api/eventsys/nn-eventsys-ieventcontrol">IEventControl</a> interface in that it supports multiple event interfaces for the event object.
+Controls the behavior of an event object, the object that fires an event to its subscribers. The <b>IMultiInterfaceEventControl</b> interface differs from the <a href="/windows/desktop/api/eventsys/nn-eventsys-ieventcontrol">IEventControl</a> interface in that it supports multiple event interfaces for the event object.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMultiInterfaceEventControl</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMultiInterfaceEventControl</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMultiInterfaceEventControl</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMultiInterfaceEventControl</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -70,7 +70,7 @@ The <b>IMultiInterfaceEventControl</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/eventsys/nf-eventsys-imultiinterfaceeventcontrol-getsubscriptions">GetSubscriptions</a>
+<a href="/windows/desktop/api/eventsys/nf-eventsys-imultiinterfaceeventcontrol-getsubscriptions">GetSubscriptions</a>
 </td>
 <td align="left" width="63%">
 Retrieves the collection of subscription objects associated with an event method.
@@ -79,7 +79,7 @@ Retrieves the collection of subscription objects associated with an event method
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/eventsys/nf-eventsys-imultiinterfaceeventcontrol-setdefaultquery">SetDefaultQuery</a>
+<a href="/windows/desktop/api/eventsys/nf-eventsys-imultiinterfaceeventcontrol-setdefaultquery">SetDefaultQuery</a>
 </td>
 <td align="left" width="63%">
 Establishes a default query to be used when a publisher filter is not associated with an event method.
@@ -89,7 +89,7 @@ Establishes a default query to be used when a publisher filter is not associated
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/eventsys/nf-eventsys-imultiinterfaceeventcontrol-setmultiinterfacepublisherfilter">SetMultiInterfacePublisherFilter</a>
+<a href="/windows/desktop/api/eventsys/nf-eventsys-imultiinterfaceeventcontrol-setmultiinterfacepublisherfilter">SetMultiInterfacePublisherFilter</a>
 </td>
 <td align="left" width="63%">
 Assigns a publisher filter to an event method at run time.
@@ -107,7 +107,7 @@ Assigns a publisher filter to an event method at run time.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/eventsys/nf-eventsys-imultiinterfaceeventcontrol-get_allowinprocactivation">AllowInprocActivation</a>
+<a href="/windows/desktop/api/eventsys/nf-eventsys-imultiinterfaceeventcontrol-get_allowinprocactivation">AllowInprocActivation</a>
 
 
 </td>
@@ -123,7 +123,7 @@ Indicates whether subscribers can be activated in the publisher's process.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/eventsys/nf-eventsys-imultiinterfaceeventcontrol-get_fireinparallel">FireInParallel</a>
+<a href="/windows/desktop/api/eventsys/nf-eventsys-imultiinterfaceeventcontrol-get_fireinparallel">FireInParallel</a>
 
 
 </td>
@@ -137,4 +137,3 @@ Indicates whether events can be delivered to two or more subscribers in parallel
 </td>
 </tr>
 </table>
-

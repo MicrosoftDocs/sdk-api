@@ -68,11 +68,11 @@ The partition number of the CSV.
 
 ### -field FaultState
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/ne-clusapi-cluster_csv_volume_fault_state">CLUSTER_CSV_VOLUME_FAULT_STATE</a> enumeration value that specifies the fault state of the CSV.
+A <a href="/windows/desktop/api/clusapi/ne-clusapi-cluster_csv_volume_fault_state">CLUSTER_CSV_VOLUME_FAULT_STATE</a> enumeration value that specifies the fault state of the CSV.
 
 ### -field BackupState
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/ne-clusapi-cluster_shared_volume_backup_state">CLUSTER_SHARED_VOLUME_BACKUP_STATE</a> enumeration value that specifies the state of the CSV backup.
+A <a href="/windows/desktop/api/clusapi/ne-clusapi-cluster_shared_volume_backup_state">CLUSTER_SHARED_VOLUME_BACKUP_STATE</a> enumeration value that specifies the state of the CSV backup.
 
 ### -field szVolumeFriendlyName
 
@@ -84,5 +84,4 @@ The volume <b>GUID</b> path of the CSV.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/data-structures">Data structures</a>
-
+<a href="/previous-versions/windows/desktop/mscs/data-structures">Data structures</a>

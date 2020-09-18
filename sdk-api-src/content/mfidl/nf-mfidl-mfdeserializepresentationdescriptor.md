@@ -64,7 +64,7 @@ Pointer to an array of bytes that contains the serialized presentation descripto
 
 ### -param ppPD
 
-Receives a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfpresentationdescriptor">IMFPresentationDescriptor</a> interface of the presentation descriptor. The caller must release the interface.
+Receives a pointer to the <a href="/windows/desktop/api/mfidl/nn-mfidl-imfpresentationdescriptor">IMFPresentationDescriptor</a> interface of the presentation descriptor. The caller must release the interface.
 
 ## -returns
 
@@ -90,9 +90,8 @@ The function succeeded.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-mfserializepresentationdescriptor">MFSerializePresentationDescriptor</a>
+<a href="/windows/desktop/api/mfidl/nf-mfidl-mfserializepresentationdescriptor">MFSerializePresentationDescriptor</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>
-
+<a href="/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>

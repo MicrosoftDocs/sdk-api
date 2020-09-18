@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-Unregisters the client's window process from receiving <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-shchangenotify">SHChangeNotify</a> messages.
+Unregisters the client's window process from receiving <a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shchangenotify">SHChangeNotify</a> messages.
 
 ## -parameters
 
@@ -62,7 +62,7 @@ Unregisters the client's window process from receiving <a href="https://docs.mic
 
 Type: <b>ULONG</b>
 
-A value of type <b>ULONG</b> that specifies the registration ID returned by <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-shchangenotifyregister">SHChangeNotifyRegister</a>.
+A value of type <b>ULONG</b> that specifies the registration ID returned by <a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shchangenotifyregister">SHChangeNotifyRegister</a>.
 
 ## -returns
 
@@ -72,7 +72,6 @@ Returns <b>TRUE</b> if the specified client was found and removed; otherwise <b>
 
 ## -remarks
 
-See the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd940348(v=vs.85)">Change Notify Watcher Sample</a> in the Windows Software Development Kit (SDK) for a full example that demonstrates the use of this function.
+See the <a href="/previous-versions/windows/desktop/legacy/dd940348(v=vs.85)">Change Notify Watcher Sample</a> in the Windows Software Development Kit (SDK) for a full example that demonstrates the use of this function.
 
 The <b>NTSHChangeNotifyDeregister</b> function, which is no longer available for use as of Windows Vista, was equivalent to <b>SHChangeNotifyDeregister</b>.
-

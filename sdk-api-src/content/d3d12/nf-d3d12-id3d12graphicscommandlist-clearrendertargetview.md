@@ -56,7 +56,7 @@ Sets all the elements in a render target to one value.
 
 ### -param RenderTargetView [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_cpu_descriptor_handle">D3D12_CPU_DESCRIPTOR_HANDLE</a></b>
+Type: <b><a href="/windows/desktop/api/d3d12/ns-d3d12-d3d12_cpu_descriptor_handle">D3D12_CPU_DESCRIPTOR_HANDLE</a></b>
 
 Specifies a D3D12_CPU_DESCRIPTOR_HANDLE structure that describes the CPU descriptor handle that represents the start of the heap for the render target to be cleared.
 
@@ -80,25 +80,25 @@ An array of <b>D3D12_RECT</b> structures for the rectangles in the resource view
 
 ## -remarks
 
-<b>ClearRenderTargetView</b> may be used to initialize resources which alias the same heap memory. See <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12device-createplacedresource">CreatePlacedResource</a> for more details.
+<b>ClearRenderTargetView</b> may be used to initialize resources which alias the same heap memory. See <a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12device-createplacedresource">CreatePlacedResource</a> for more details.
 
 <h3><a id="Runtime_validation"></a><a id="runtime_validation"></a><a id="RUNTIME_VALIDATION"></a>Runtime validation</h3>
 For floating-point inputs, the runtime will set denormalized values to 0 (while preserving NANs).  
 
-Validation failure will result in the call to <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-close">Close</a> returning <b>E_INVALIDARG</b>.
+Validation failure will result in the call to <a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-close">Close</a> returning <b>E_INVALIDARG</b>.
           
 
 <h3><a id="Debug_layer"></a><a id="debug_layer"></a><a id="DEBUG_LAYER"></a>Debug layer</h3>
 The debug layer will issue errors if the input colors are denormalized.
 
 The debug layer will issue an error if the subresources referenced by the view are not in the appropriate state.
-            For <b>ClearRenderTargetView</b>, the state must be <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_resource_states">D3D12_RESOURCE_STATE_RENDER_TARGET</a>.
+            For <b>ClearRenderTargetView</b>, the state must be <a href="/windows/desktop/api/d3d12/ne-d3d12-d3d12_resource_states">D3D12_RESOURCE_STATE_RENDER_TARGET</a>.
           
 
 
 #### Examples
 
-The <a href="https://docs.microsoft.com/windows/desktop/direct3d12/working-samples">D3D12HelloTriangle</a> sample uses <b>ID3D12GraphicsCommandList::ClearRenderTargetView</b> as follows:
+The <a href="/windows/desktop/direct3d12/working-samples">D3D12HelloTriangle</a> sample uses <b>ID3D12GraphicsCommandList::ClearRenderTargetView</b> as follows:
         
 
 
@@ -160,7 +160,7 @@ void D3D12HelloTriangle::PopulateCommandList()
 ```
 
 
-The <a href="https://docs.microsoft.com/windows/desktop/direct3d12/working-samples">D3D12Multithreading</a> sample uses <b>ID3D12GraphicsCommandList::ClearRenderTargetView</b> as follows:
+The <a href="/windows/desktop/direct3d12/working-samples">D3D12Multithreading</a> sample uses <b>ID3D12GraphicsCommandList::ClearRenderTargetView</b> as follows:
 
 
 ```cpp
@@ -203,12 +203,11 @@ void D3D12Multithreading::MidFrame()
 ```
 
 
-See <a href="https://docs.microsoft.com/windows/desktop/direct3d12/notes-on-example-code">Example Code in the D3D12 Reference</a>.
+See <a href="/windows/desktop/direct3d12/notes-on-example-code">Example Code in the D3D12 Reference</a>.
         
 
 <div class="code"></div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12graphicscommandlist">ID3D12GraphicsCommandList</a>
-
+<a href="/windows/desktop/api/d3d12/nn-d3d12-id3d12graphicscommandlist">ID3D12GraphicsCommandList</a>

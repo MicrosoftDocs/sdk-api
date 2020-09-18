@@ -60,7 +60,7 @@ Sets the show command for a Shell link object. The show command sets the initial
 
 Type: <b>int</b>
 
-Command. <b>SetShowCmd</b> accepts one of the following <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-showwindow">ShowWindow</a> commands.
+Command. <b>SetShowCmd</b> accepts one of the following <a href="/windows/desktop/api/winuser/nf-winuser-showwindow">ShowWindow</a> commands.
 
 
 
@@ -88,11 +88,11 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishelllinka">IShellLink</a>
+<a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishelllinka">IShellLink</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelllinka-getshowcmd">IShellLink::GetShowCmd</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelllinka-getshowcmd">IShellLink::GetShowCmd</a>
 
 
 
@@ -101,4 +101,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 <b>IShellLinkW</b>
-

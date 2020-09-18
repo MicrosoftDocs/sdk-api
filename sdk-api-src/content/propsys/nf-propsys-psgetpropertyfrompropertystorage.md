@@ -58,7 +58,7 @@ Gets the value of a property as stored in serialized property storage.
 
 Type: <b>PCUSERIALIZEDPROPSTORAGE</b>
 
-Pointer to an allocated buffer that contains the serialized properties. This buffer is obtained by a call to <a href="https://docs.microsoft.com/windows/desktop/api/propsys/nf-propsys-ipersistserializedpropstorage-getpropertystorage">IPersistSerializedPropStorage::GetPropertyStorage</a>.
+Pointer to an allocated buffer that contains the serialized properties. This buffer is obtained by a call to <a href="/windows/desktop/api/propsys/nf-propsys-ipersistserializedpropstorage-getpropertystorage">IPersistSerializedPropStorage::GetPropertyStorage</a>.
 
 ### -param cb [in]
 
@@ -70,11 +70,11 @@ The size, in bytes, of the <b>USERIALIZESPROPSTORAGE</b> buffer pointed to by <i
 
 Type: <b>REFPROPERTYKEY</b>
 
-Reference to the <a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ns-wtypes-propertykey">PROPERTYKEY</a> that identifies the property for which to get the value.
+Reference to the <a href="/windows/desktop/api/wtypes/ns-wtypes-propertykey">PROPERTYKEY</a> that identifies the property for which to get the value.
 
 ### -param ppropvar [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a>**</b>
+Type: <b><a href="/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a>**</b>
 
 When this function returns, contains the requested value.
 
@@ -86,16 +86,16 @@ Returns <b>S_OK</b> if successful, or an error value otherwise.
 
 ## -remarks
 
-This function is intended to be called if the calling application already has a serialized property storage and needs no more than a few properties from storage. If many properties need to be retrieved, performance can be enhanced by creating a memory property store through <a href="https://docs.microsoft.com/windows/desktop/api/propsys/nf-propsys-pscreatememorypropertystore">PSCreateMemoryPropertyStore</a>, initializing the property store by calling <a href="https://docs.microsoft.com/windows/desktop/api/propsys/nf-propsys-ipersistserializedpropstorage-setpropertystorage">IPersistSerializedPropStorage::SetPropertyStorage</a>, and by using <a href="https://docs.microsoft.com/windows/desktop/api/propsys/nn-propsys-ipropertystore">IPropertyStore</a> to retrieve the properties.
+This function is intended to be called if the calling application already has a serialized property storage and needs no more than a few properties from storage. If many properties need to be retrieved, performance can be enhanced by creating a memory property store through <a href="/windows/desktop/api/propsys/nf-propsys-pscreatememorypropertystore">PSCreateMemoryPropertyStore</a>, initializing the property store by calling <a href="/windows/desktop/api/propsys/nf-propsys-ipersistserializedpropstorage-setpropertystorage">IPersistSerializedPropStorage::SetPropertyStorage</a>, and by using <a href="/windows/desktop/api/propsys/nn-propsys-ipropertystore">IPropertyStore</a> to retrieve the properties.
 
-Note that <a href="https://docs.microsoft.com/windows/desktop/api/propsys/nf-propsys-psgetpropertyfrompropertystorage">PSGetPropertyFromPropertyStorage</a> works only on serialized buffers created by the system implementation of <a href="https://docs.microsoft.com/windows/desktop/api/propsys/nn-propsys-ipersistserializedpropstorage">IPersistSerializedPropStorage</a>. You must first obtain a memory property store by calling <a href="https://docs.microsoft.com/windows/desktop/api/propsys/nf-propsys-pscreatememorypropertystore">PSCreateMemoryPropertyStore</a>. That store can then create a serialized buffer using the <b>IPersistSerializedPropStorage</b> interface.
+Note that <a href="/windows/desktop/api/propsys/nf-propsys-psgetpropertyfrompropertystorage">PSGetPropertyFromPropertyStorage</a> works only on serialized buffers created by the system implementation of <a href="/windows/desktop/api/propsys/nn-propsys-ipersistserializedpropstorage">IPersistSerializedPropStorage</a>. You must first obtain a memory property store by calling <a href="/windows/desktop/api/propsys/nf-propsys-pscreatememorypropertystore">PSCreateMemoryPropertyStore</a>. That store can then create a serialized buffer using the <b>IPersistSerializedPropStorage</b> interface.
 
-Although SERIALIZEDPROPSTORAGE is an opaque serialized data structure whose format may change in the future, earlier formats will be supported on subsequent versions of Windows. Because the format is opaque, applications should use supported property storage APIs to access and manipulate the serialized buffer (see <a href="https://docs.microsoft.com/windows/desktop/api/propsys/nn-propsys-ipersistserializedpropstorage">IPersistSerializedPropStorage</a>).
+Although SERIALIZEDPROPSTORAGE is an opaque serialized data structure whose format may change in the future, earlier formats will be supported on subsequent versions of Windows. Because the format is opaque, applications should use supported property storage APIs to access and manipulate the serialized buffer (see <a href="/windows/desktop/api/propsys/nn-propsys-ipersistserializedpropstorage">IPersistSerializedPropStorage</a>).
 
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="https://docs.microsoft.com/windows/desktop/api/propsys/nf-propsys-psgetpropertyfrompropertystorage">PSGetPropertyFromPropertyStorage</a> to read a value from serialized property storage.
+The following example, to be included as part of a larger program, demonstrates how to use <a href="/windows/desktop/api/propsys/nf-propsys-psgetpropertyfrompropertystorage">PSGetPropertyFromPropertyStorage</a> to read a value from serialized property storage.
 
 
 ```cpp
@@ -116,5 +116,4 @@ if (SUCCEEDED(hr))
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/propsys/nf-propsys-psgetnamedpropertyfrompropertystorage">PSGetNamedPropertyFromPropertyStorage</a>
-
+<a href="/windows/desktop/api/propsys/nf-propsys-psgetnamedpropertyfrompropertystorage">PSGetNamedPropertyFromPropertyStorage</a>

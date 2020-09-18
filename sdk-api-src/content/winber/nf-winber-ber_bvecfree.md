@@ -66,15 +66,14 @@ None.
 ## -remarks
 
 Use this function only to free an array of 
-<a href="/windows/win32/api/winldap/ns-winldap-ldap_berval">berval</a> structures returned by <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winber/nf-winber-ber_scanf">ber_scanf</a> with the <b>V</b> character included in the format string.
+<a href="/windows/win32/api/winldap/ns-winldap-ldap_berval">berval</a> structures returned by <a href="/previous-versions/windows/desktop/api/winber/nf-winber-ber_scanf">ber_scanf</a> with the <b>V</b> character included in the format string.
 
 An application should not call this function to free a <a href="/windows/win32/api/winldap/ns-winldap-ldap_berval">berval</a> structures that it has allocated.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/ldap/functions">Functions</a>
+<a href="/previous-versions/windows/desktop/ldap/functions">Functions</a>
 
 
 
 <a href="/windows/win32/api/winldap/ns-winldap-ldap_berval">berval</a>
-

@@ -60,7 +60,7 @@ The <b>IEnumTfUIElements::Next</b> method obtains, from the current position, th
 
 ### -param ppElement [out]
 
-[out] Pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfuielement">ITfUIElement</a> interface pointer. This array must be at least <i>ulCount</i> elements in size.
+[out] Pointer to an array of <a href="/windows/desktop/api/msctf/nn-msctf-itfuielement">ITfUIElement</a> interface pointer. This array must be at least <i>ulCount</i> elements in size.
 
 ### -param pcFetched [out]
 
@@ -109,4 +109,3 @@ One or more parameters are invalid.
 </td>
 </tr>
 </table>
-

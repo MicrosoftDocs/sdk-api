@@ -56,7 +56,7 @@ api_name:
 
 The
     <b>GPOBROWSEINFO</b> structure contains information that the 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpedit/nf-gpedit-browseforgpo">BrowseForGPO</a> function uses to initialize a GPO browser dialog box. After the user closes the dialog box, the system returns information about the user's actions in this structure.
+<a href="/previous-versions/windows/desktop/api/gpedit/nf-gpedit-browseforgpo">BrowseForGPO</a> function uses to initialize a GPO browser dialog box. After the user closes the dialog box, the system returns information about the user's actions in this structure.
 
 ## -struct-fields
 
@@ -186,13 +186,12 @@ The object might be linked to an organizational unit.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpedit/nf-gpedit-browseforgpo">BrowseForGPO</a>
+<a href="/previous-versions/windows/desktop/api/gpedit/nf-gpedit-browseforgpo">BrowseForGPO</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/Policy/about-group-policy">Group Policy Overview</a>
+<a href="/previous-versions/windows/desktop/Policy/about-group-policy">Group Policy Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/Policy/group-policy-structures">Group Policy Structures</a>
-
+<a href="/previous-versions/windows/desktop/Policy/group-policy-structures">Group Policy Structures</a>

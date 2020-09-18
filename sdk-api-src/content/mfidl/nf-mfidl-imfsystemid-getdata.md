@@ -60,7 +60,7 @@ The size in bytes of the returned data.
 
 ### -param data
 
-Receives the returned data.  The caller must free this buffer by calling <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a>.
+Receives the returned data.  The caller must free this buffer by calling <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a>.
 
 ## -returns
 
@@ -86,5 +86,4 @@ The method succeeded.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfsystemid">IMFSystemId</a>
-
+<a href="/windows/desktop/api/mfidl/nn-mfidl-imfsystemid">IMFSystemId</a>

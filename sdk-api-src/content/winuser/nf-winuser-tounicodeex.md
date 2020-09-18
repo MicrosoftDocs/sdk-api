@@ -66,7 +66,7 @@ Translates the specified virtual-key code and keyboard state to the correspondin
 
 Type: <b>UINT</b>
 
-The virtual-key code to be translated. See <a href="https://docs.microsoft.com/windows/desktop/inputdev/virtual-key-codes">Virtual-Key Codes</a>.
+The virtual-key code to be translated. See <a href="/windows/desktop/inputdev/virtual-key-codes">Virtual-Key Codes</a>.
 
 ### -param wScanCode [in]
 
@@ -110,7 +110,7 @@ All other bits (through 31) are reserved.
 
 Type: <b>HKL</b>
 
-The input locale identifier used to translate the specified code. This parameter can be any input locale identifier previously returned by the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-loadkeyboardlayouta">LoadKeyboardLayout</a> function.
+The input locale identifier used to translate the specified code. This parameter can be any input locale identifier previously returned by the <a href="/windows/desktop/api/winuser/nf-winuser-loadkeyboardlayouta">LoadKeyboardLayout</a> function.
 
 ## -returns
 
@@ -177,7 +177,7 @@ The parameters supplied to the <b>ToUnicodeEx</b> function might not be sufficie
 
 Typically, <b>ToUnicodeEx</b> performs the translation based on the virtual-key code. In some cases, however, bit 15 of the <i>wScanCode</i> parameter can be used to distinguish between a key press and a key release.
 
-As <b>ToUnicodeEx</b> translates the virtual-key code, it also changes the state of the kernel-mode keyboard buffer. This state-change affects dead keys, ligatures, alt+numpad key entry, and so on. It might also cause undesired side-effects if used in conjunction with <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-translatemessage">TranslateMessage</a> (which also changes the state of the kernel-mode keyboard buffer).
+As <b>ToUnicodeEx</b> translates the virtual-key code, it also changes the state of the kernel-mode keyboard buffer. This state-change affects dead keys, ligatures, alt+numpad key entry, and so on. It might also cause undesired side-effects if used in conjunction with <a href="/windows/desktop/api/winuser/nf-winuser-translatemessage">TranslateMessage</a> (which also changes the state of the kernel-mode keyboard buffer).
 
 ## -see-also
 
@@ -185,11 +185,11 @@ As <b>ToUnicodeEx</b> translates the virtual-key code, it also changes the state
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/inputdev/keyboard-input">Keyboard Input</a>
+<a href="/windows/desktop/inputdev/keyboard-input">Keyboard Input</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-loadkeyboardlayouta">LoadKeyboardLayout</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-loadkeyboardlayouta">LoadKeyboardLayout</a>
 
 
 
@@ -197,9 +197,8 @@ As <b>ToUnicodeEx</b> translates the virtual-key code, it also changes the state
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-toasciiex">ToAsciiEx</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-toasciiex">ToAsciiEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-vkkeyscana">VkKeyScan</a>
-
+<a href="/windows/desktop/api/winuser/nf-winuser-vkkeyscana">VkKeyScan</a>

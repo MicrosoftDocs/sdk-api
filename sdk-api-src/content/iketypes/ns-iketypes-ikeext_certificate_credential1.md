@@ -52,22 +52,22 @@ api_name:
 
 ## -description
 
-The [IKEEXT_CERTIFICATE_CREDENTIAL0](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_certificate_credential0) is available.</div>
+The [IKEEXT_CERTIFICATE_CREDENTIAL0](/windows/desktop/api/iketypes/ns-iketypes-ikeext_certificate_credential0) is available.</div>
 <div> </div>
 
 ## -struct-fields
 
 ### -field subjectName
 
-Encoded subject name of the certificate used for authentication. Use <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certnametostra">CertNameToStr</a> to convert the encoded name to string.
+Encoded subject name of the certificate used for authentication. Use <a href="/windows/desktop/api/wincrypt/nf-wincrypt-certnametostra">CertNameToStr</a> to convert the encoded name to string.
 
-See [FWP_BYTE_BLOB](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_blob) for more information.
+See [FWP_BYTE_BLOB](/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_blob) for more information.
 
 ### -field certHash
 
 SHA thumbprint of the certificate.
 
-See [FWP_BYTE_BLOB](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_blob) for more information.
+See [FWP_BYTE_BLOB](/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_blob) for more information.
 
 ### -field flags
 
@@ -81,15 +81,14 @@ Possible values:
 
 ### -field certificate
 
-The encoded certificate. Use <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certcreatecertificatecontext">CertCreateCertificateContext</a> to create a certificate context from the encoded certificate.
+The encoded certificate. Use <a href="/windows/desktop/api/wincrypt/nf-wincrypt-certcreatecertificatecontext">CertCreateCertificateContext</a> to create a certificate context from the encoded certificate.
 
-See [FWP_BYTE_BLOB](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_blob) for more information.
+See [FWP_BYTE_BLOB](/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_blob) for more information.
 
 ## -see-also
 
-[FWP_BYTE_BLOB](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_blob)
+[FWP_BYTE_BLOB](/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_blob)
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>
-
+<a href="/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>

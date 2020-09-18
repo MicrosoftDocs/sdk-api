@@ -56,7 +56,7 @@ api_name:
 
 The
 				<b>AT_ENUM</b> structure contains information about a submitted job. The 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmat/nf-lmat-netschedulejobenum">NetScheduleJobEnum</a> function uses this structure to enumerate and return information about an entire queue of submitted jobs.
+<a href="/windows/desktop/api/lmat/nf-lmat-netschedulejobenum">NetScheduleJobEnum</a> function uses this structure to enumerate and return information about an entire queue of submitted jobs.
 
 ## -struct-fields
 
@@ -156,21 +156,20 @@ A pointer to a Unicode string that contains the name of the command, batch progr
 ## -remarks
 
 For more information about setting the bit flags to schedule jobs that execute once, jobs that execute multiple times, and jobs that execute periodically without deletion, see 
-the <a href="https://docs.microsoft.com/windows/desktop/api/lmat/nf-lmat-netschedulejobadd">NetScheduleJobAdd</a> function.
+the <a href="/windows/desktop/api/lmat/nf-lmat-netschedulejobadd">NetScheduleJobAdd</a> function.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmat/nf-lmat-netschedulejobenum">NetScheduleJobEnum</a>
+<a href="/windows/desktop/api/lmat/nf-lmat-netschedulejobenum">NetScheduleJobEnum</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management">Network Management Overview</a>
+<a href="/windows/desktop/NetMgmt/network-management">Network Management Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management-structures">Network Management Structures</a>
+<a href="/windows/desktop/NetMgmt/network-management-structures">Network Management Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/schedule-functions">Schedule Functions</a>
-
+<a href="/windows/desktop/NetMgmt/schedule-functions">Schedule Functions</a>

@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>ICCompressQuery</b> macro queries a video compression driver to determine if it supports a specific input format or if it can compress a specific input format to a specific output format. You can use this macro or explicitly call the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/icm-compress-query">ICM_COMPRESS_QUERY</a> message.
+The <b>ICCompressQuery</b> macro queries a video compression driver to determine if it supports a specific input format or if it can compress a specific input format to a specific output format. You can use this macro or explicitly call the <a href="/windows/desktop/Multimedia/icm-compress-query">ICM_COMPRESS_QUERY</a> message.
 
 ## -parameters
 
@@ -60,21 +60,20 @@ Handle to a compressor.
 
 ### -param lpbiInput
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-bitmapinfo">BITMAPINFO</a> structure containing the input format.
+Pointer to a <a href="/windows/desktop/api/wingdi/ns-wingdi-bitmapinfo">BITMAPINFO</a> structure containing the input format.
 
 ### -param lpbiOutput
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-bitmapinfo">BITMAPINFO</a> structure containing the output format. You can specify zero for this parameter to indicate any output format is acceptable.
+Pointer to a <a href="/windows/desktop/api/wingdi/ns-wingdi-bitmapinfo">BITMAPINFO</a> structure containing the output format. You can specify zero for this parameter to indicate any output format is acceptable.
 
 ## -remarks
 
-When a driver receives this message, it should examine the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-bitmapinfo">BITMAPINFO</a> structure associated with <i>lpbiInput</i> to determine if it can compress the input format.
+When a driver receives this message, it should examine the <a href="/windows/desktop/api/wingdi/ns-wingdi-bitmapinfo">BITMAPINFO</a> structure associated with <i>lpbiInput</i> to determine if it can compress the input format.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-compression-macros">Video Compression Macros</a>
+<a href="/windows/desktop/Multimedia/video-compression-macros">Video Compression Macros</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-compression-manager">Video Compression Manager</a>
-
+<a href="/windows/desktop/Multimedia/video-compression-manager">Video Compression Manager</a>

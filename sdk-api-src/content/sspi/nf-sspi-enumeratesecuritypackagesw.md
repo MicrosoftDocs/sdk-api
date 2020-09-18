@@ -53,7 +53,7 @@ api_name:
 ## -description
 
 The <b>EnumerateSecurityPackages</b> function returns an array of 
-<a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-secpkginfoa">SecPkgInfo</a> structures that provide information about the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security packages</a> available to the client.
+<a href="/windows/desktop/api/sspi/ns-sspi-secpkginfoa">SecPkgInfo</a> structures that provide information about the <a href="/windows/desktop/SecGloss/s-gly">security packages</a> available to the client.
 
 ## -parameters
 
@@ -64,9 +64,9 @@ A pointer to a <b>ULONG</b> variable that receives the number of packages availa
 ### -param ppPackageInfo [in]
 
 A pointer to a variable that receives a pointer to an array of 
-<a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-secpkginfoa">SecPkgInfo</a> structures. Each structure contains information from the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security support provider</a> (SSP) that describes the capabilities of the security package available within that SSP.
+<a href="/windows/desktop/api/sspi/ns-sspi-secpkginfoa">SecPkgInfo</a> structures. Each structure contains information from the <a href="/windows/desktop/SecGloss/s-gly">security support provider</a> (SSP) that describes the capabilities of the security package available within that SSP.
 
-When you have finished using the array, free the memory by calling the <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-freecontextbuffer">FreeContextBuffer</a> function.
+When you have finished using the array, free the memory by calling the <a href="/windows/desktop/api/sspi/nf-sspi-freecontextbuffer">FreeContextBuffer</a> function.
 
 ## -returns
 
@@ -119,8 +119,8 @@ The specified package was not found.
 
 ## -remarks
 
-The caller can use the <b>Name</b> member of a <a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-secpkginfoa">SecPkgInfo</a> structure to specify a security package in a call to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-acquirecredentialshandlea">AcquireCredentialsHandle (General)</a> function.
+The caller can use the <b>Name</b> member of a <a href="/windows/desktop/api/sspi/ns-sspi-secpkginfoa">SecPkgInfo</a> structure to specify a security package in a call to the 
+<a href="/windows/desktop/api/sspi/nf-sspi-acquirecredentialshandlea">AcquireCredentialsHandle (General)</a> function.
 
 
 
@@ -131,17 +131,16 @@ The caller can use the <b>Name</b> member of a <a href="https://docs.microsoft.c
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-acquirecredentialshandlea">AcquireCredentialsHandle (General)</a>
+<a href="/windows/desktop/api/sspi/nf-sspi-acquirecredentialshandlea">AcquireCredentialsHandle (General)</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-freecontextbuffer">FreeContextBuffer</a>
+<a href="/windows/desktop/api/sspi/nf-sspi-freecontextbuffer">FreeContextBuffer</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthN/authentication-functions">SSPI Functions</a>
+<a href="/windows/desktop/SecAuthN/authentication-functions">SSPI Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-secpkginfoa">SecPkgInfo</a>
-
+<a href="/windows/desktop/api/sspi/ns-sspi-secpkginfoa">SecPkgInfo</a>

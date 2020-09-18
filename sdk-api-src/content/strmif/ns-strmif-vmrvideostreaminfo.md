@@ -55,7 +55,7 @@ api_name:
 This topic applies to Windows XP or later.
           
 
-The <code>VMRVIDEOSTREAMINFO</code> structure is used in the VMR-7 filter's call to <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ivmrimagecompositor-compositeimage">IVMRImageCompositor::CompositeImage</a> on the image compositor.
+The <code>VMRVIDEOSTREAMINFO</code> structure is used in the VMR-7 filter's call to <a href="/windows/desktop/api/strmif/nf-strmif-ivmrimagecompositor-compositeimage">IVMRImageCompositor::CompositeImage</a> on the image compositor.
 
 ## -struct-fields
 
@@ -89,5 +89,4 @@ Specifies the position of the image in composition space.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/directshow-structures">DirectShow Structures</a>
-
+<a href="/windows/desktop/DirectShow/directshow-structures">DirectShow Structures</a>

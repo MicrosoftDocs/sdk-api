@@ -52,11 +52,11 @@ api_name:
 
 Performs operations to set, retrieve, and validate settings, and save changes for a namespace instance.
 
-To retrieve an <b>ISettingsNamespace</b> interface pointer, call the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wcmconfig/nf-wcmconfig-isettingsengine-getnamespace">ISettingsEngine::GetNamespace</a> method.
+To retrieve an <b>ISettingsNamespace</b> interface pointer, call the <a href="/previous-versions/windows/desktop/api/wcmconfig/nf-wcmconfig-isettingsengine-getnamespace">ISettingsEngine::GetNamespace</a> method.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISettingsNamespace</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISettingsNamespace</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISettingsNamespace</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISettingsNamespace</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>ISettingsNamespace</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wcmconfig/nf-wcmconfig-isettingsnamespace-createsettingbypath">CreateSettingByPath</a>
+<a href="/previous-versions/windows/desktop/api/wcmconfig/nf-wcmconfig-isettingsnamespace-createsettingbypath">CreateSettingByPath</a>
 </td>
 <td align="left" width="63%">
 Creates a setting object specified by its path.
@@ -80,7 +80,7 @@ Creates a setting object specified by its path.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wcmconfig/nf-wcmconfig-isettingsnamespace-getattribute">GetAttribute</a>
+<a href="/previous-versions/windows/desktop/api/wcmconfig/nf-wcmconfig-isettingsnamespace-getattribute">GetAttribute</a>
 </td>
 <td align="left" width="63%">
 Gets the value of an attribute of the namespace.
@@ -89,7 +89,7 @@ Gets the value of an attribute of the namespace.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wcmconfig/nf-wcmconfig-isettingsnamespace-getidentity">GetIdentity</a>
+<a href="/previous-versions/windows/desktop/api/wcmconfig/nf-wcmconfig-isettingsnamespace-getidentity">GetIdentity</a>
 </td>
 <td align="left" width="63%">
 Retrieves the identity of the namespace.
@@ -98,7 +98,7 @@ Retrieves the identity of the namespace.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wcmconfig/nf-wcmconfig-isettingsnamespace-getsettingbypath">GetSettingByPath</a>
+<a href="/previous-versions/windows/desktop/api/wcmconfig/nf-wcmconfig-isettingsnamespace-getsettingbypath">GetSettingByPath</a>
 </td>
 <td align="left" width="63%">
 Retrieves a  setting by specifying its path.
@@ -107,7 +107,7 @@ Retrieves a  setting by specifying its path.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wcmconfig/nf-wcmconfig-isettingsnamespace-removesettingbypath">RemoveSettingByPath</a>
+<a href="/previous-versions/windows/desktop/api/wcmconfig/nf-wcmconfig-isettingsnamespace-removesettingbypath">RemoveSettingByPath</a>
 </td>
 <td align="left" width="63%">
 Removes the setting object specified by a path.
@@ -116,7 +116,7 @@ Removes the setting object specified by a path.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wcmconfig/nf-wcmconfig-isettingsnamespace-save">Save</a>
+<a href="/previous-versions/windows/desktop/api/wcmconfig/nf-wcmconfig-isettingsnamespace-save">Save</a>
 </td>
 <td align="left" width="63%">
 Updates the settings namespace to persistent and visible.
@@ -125,7 +125,7 @@ Updates the settings namespace to persistent and visible.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wcmconfig/nf-wcmconfig-isettingsnamespace-settings">Settings</a>
+<a href="/previous-versions/windows/desktop/api/wcmconfig/nf-wcmconfig-isettingsnamespace-settings">Settings</a>
 </td>
 <td align="left" width="63%">
 Retrieves an enumerator for the top-level settings for the namespace.
@@ -133,4 +133,3 @@ Retrieves an enumerator for the top-level settings for the namespace.
 </td>
 </tr>
 </table>
-

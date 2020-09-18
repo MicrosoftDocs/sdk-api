@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-Specifies the color primaries of a video source. These flags are used in the <a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/ns-dxva2api-dxva2_extendedformat">DXVA2_ExtendedFormat</a> structure.
+Specifies the color primaries of a video source. These flags are used in the <a href="/windows/desktop/api/dxva2api/ns-dxva2api-dxva2_extendedformat">DXVA2_ExtendedFormat</a> structure.
 
 ## -enum-fields
 
@@ -165,13 +165,12 @@ For a derivation of these formulas, refer to Charles Poynton, Digital Video and 
 This enumeration is equivalent to the <b>DXVA_VideoPrimaries</b> enumeration used in DXVA 1.0.
       
 
-If you are using the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfmediatype">IMFMediaType</a> interface to describe the video format, the color primaries are specified in the <a href="https://docs.microsoft.com/windows/desktop/medfound/mf-mt-video-primaries-attribute">MF_MT_VIDEO_PRIMARIES</a> attribute.
+If you are using the <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfmediatype">IMFMediaType</a> interface to describe the video format, the color primaries are specified in the <a href="/windows/desktop/medfound/mf-mt-video-primaries-attribute">MF_MT_VIDEO_PRIMARIES</a> attribute.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/extended-color-information">Extended Color Information</a>
+<a href="/windows/desktop/medfound/extended-color-information">Extended Color Information</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>
-
+<a href="/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>

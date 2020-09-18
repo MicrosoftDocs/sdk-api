@@ -99,13 +99,12 @@ The device identifier is the serial number for the device. This value is not gua
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpsyncdevice">IWMPSyncDevice Interface</a>
+<a href="/windows/desktop/api/wmp/nn-wmp-iwmpsyncdevice">IWMPSyncDevice Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpsyncdevice-get_partnershipindex">IWMPSyncDevice::get_partnershipIndex</a>
+<a href="/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpsyncdevice-get_partnershipindex">IWMPSyncDevice::get_partnershipIndex</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WMP/retrieving-device-attributes">Retrieving Device Attributes</a>
-
+<a href="/windows/desktop/WMP/retrieving-device-attributes">Retrieving Device Attributes</a>

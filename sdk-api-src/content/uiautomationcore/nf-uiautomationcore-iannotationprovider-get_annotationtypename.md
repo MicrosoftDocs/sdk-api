@@ -59,9 +59,8 @@ This property is read-only.
 
 ## -remarks
 
-The name of the annotation type can correspond to one of the annotation type identifiers (for example, “Comment” for  <a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-annotation-type-identifiers">AnnotationType_Comment</a>), but it is not required to.
+The name of the annotation type can correspond to one of the annotation type identifiers (for example, “Comment” for  <a href="/windows/desktop/WinAuto/uiauto-annotation-type-identifiers">AnnotationType_Comment</a>), but it is not required to.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nn-uiautomationcore-iannotationprovider">IAnnotationProvider</a>
-
+<a href="/windows/desktop/api/uiautomationcore/nn-uiautomationcore-iannotationprovider">IAnnotationProvider</a>

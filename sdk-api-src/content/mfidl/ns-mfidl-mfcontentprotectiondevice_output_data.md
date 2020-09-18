@@ -58,7 +58,7 @@ Contains information about the data you received as output from a protection sys
 
 ### -field PrivateDataByteCount
 
-The size of the private data that the implementation of the security processor reserves, in bytes. You can determine this value  by calling the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfcontentprotectiondevice-getprivatedatabytecount">IMFContentProtectionDevice::GetPrivateDataByteCount</a> method.
+The size of the private data that the implementation of the security processor reserves, in bytes. You can determine this value  by calling the <a href="/windows/desktop/api/mfidl/nf-mfidl-imfcontentprotectiondevice-getprivatedatabytecount">IMFContentProtectionDevice::GetPrivateDataByteCount</a> method.
 
 ### -field MaxHWProtectionDataByteCount
 
@@ -93,17 +93,16 @@ The protection system specification defines the format and size of the
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfcontentprotectiondevice-getprivatedatabytecount">IMFContentProtectionDevice::GetPrivateDataByteCount</a>
+<a href="/windows/desktop/api/mfidl/nf-mfidl-imfcontentprotectiondevice-getprivatedatabytecount">IMFContentProtectionDevice::GetPrivateDataByteCount</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfcontentprotectiondevice-invokefunction">IMFContentProtectionDevice::InvokeFunction</a>
+<a href="/windows/desktop/api/mfidl/nf-mfidl-imfcontentprotectiondevice-invokefunction">IMFContentProtectionDevice::InvokeFunction</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/ns-mfidl-mfcontentprotectiondevice_input_data">MFCONTENTPROTECTIONDEVICE_INPUT_DATA</a>
+<a href="/windows/desktop/api/mfidl/ns-mfidl-mfcontentprotectiondevice_input_data">MFCONTENTPROTECTIONDEVICE_INPUT_DATA</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-structures">Media Foundation Structures</a>
-
+<a href="/windows/desktop/medfound/media-foundation-structures">Media Foundation Structures</a>

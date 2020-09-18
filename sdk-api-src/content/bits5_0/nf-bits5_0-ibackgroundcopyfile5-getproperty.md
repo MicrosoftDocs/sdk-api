@@ -69,9 +69,8 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits5_0/nn-bits5_0-ibackgroundcopyfile5">IBackgroundCopyFile5</a>
+<a href="/windows/desktop/api/bits5_0/nn-bits5_0-ibackgroundcopyfile5">IBackgroundCopyFile5</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits5_0/nf-bits5_0-ibackgroundcopyfile5-setproperty">IBackgroundCopyFile5.SetProperty</a>
-
+<a href="/windows/desktop/api/bits5_0/nf-bits5_0-ibackgroundcopyfile5-setproperty">IBackgroundCopyFile5.SetProperty</a>

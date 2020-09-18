@@ -54,7 +54,7 @@ Represents a high-performance API for  displaying a single page of a  Portable D
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPdfRendererNative</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPdfRendererNative</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPdfRendererNative</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPdfRendererNative</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IPdfRendererNative</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/windows.data.pdf.interop/nf-windows-data-pdf-interop-ipdfrenderernative-renderpagetodevicecontext">RenderPageToDeviceContext</a>
+<a href="/windows/desktop/api/windows.data.pdf.interop/nf-windows-data-pdf-interop-ipdfrenderernative-renderpagetodevicecontext">RenderPageToDeviceContext</a>
 </td>
 <td align="left" width="63%">
 Outputs a single page of a PDF file as a bitmap image.
@@ -78,7 +78,7 @@ Outputs a single page of a PDF file as a bitmap image.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/windows.data.pdf.interop/nf-windows-data-pdf-interop-ipdfrenderernative-renderpagetosurface">RenderPageToSurface</a>
+<a href="/windows/desktop/api/windows.data.pdf.interop/nf-windows-data-pdf-interop-ipdfrenderernative-renderpagetosurface">RenderPageToSurface</a>
 </td>
 <td align="left" width="63%">
 Outputs a single page of a PDF file to a DirectX image-data object.
@@ -91,5 +91,4 @@ Outputs a single page of a PDF file to a DirectX image-data object.
 
 This API is specifically designed for DirectX apps that use C++ and Extensible Application Markup Language (XAML).
 
-To get an instance of the <b>IPdfRendererNative</b> interface, call the <a href="https://docs.microsoft.com/windows/desktop/api/windows.data.pdf.interop/nf-windows-data-pdf-interop-pdfcreaterenderer">PdfCreateRenderer</a> function.
-
+To get an instance of the <b>IPdfRendererNative</b> interface, call the <a href="/windows/desktop/api/windows.data.pdf.interop/nf-windows-data-pdf-interop-pdfcreaterenderer">PdfCreateRenderer</a> function.

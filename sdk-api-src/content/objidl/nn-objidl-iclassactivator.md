@@ -54,7 +54,7 @@ Specifies a method that retrieves a class object.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IClassActivator</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IClassActivator</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IClassActivator</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IClassActivator</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IClassActivator</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-iclassactivator-getclassobject">GetClassObject</a>
+<a href="/windows/desktop/api/objidl/nf-objidl-iclassactivator-getclassobject">GetClassObject</a>
 </td>
 <td align="left" width="63%">
 Retrieves a class object.
@@ -77,4 +77,3 @@ Retrieves a class object.
 </td>
 </tr>
 </table>
-

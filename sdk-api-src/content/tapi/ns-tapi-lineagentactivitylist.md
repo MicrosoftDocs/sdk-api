@@ -56,8 +56,8 @@ api_name:
 
 The 
 <b>LINEAGENTACTIVITYLIST</b> structure describes a list of ACD agent activities. This structure can contain an array of 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineagentactivityentry">LINEAGENTACTIVITYENTRY</a> structures. The 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linegetagentactivitylista">lineGetAgentActivityList</a> function returns the 
+<a href="/windows/desktop/api/tapi/ns-tapi-lineagentactivityentry">LINEAGENTACTIVITYENTRY</a> structures. The 
+<a href="/windows/desktop/api/tapi/nf-tapi-linegetagentactivitylista">lineGetAgentActivityList</a> function returns the 
 <b>LINEAGENTACTIVITYLIST</b> structure.
 
 ## -struct-fields
@@ -77,7 +77,7 @@ Size of the portion of this data structure that contains useful information, in 
 ### -field dwNumEntries
 
 Number of 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineagentactivityentry">LINEAGENTACTIVITYENTRY</a> structures that appear in the <i>List</i> array. The value is 0 if no agent activity codes are available.
+<a href="/windows/desktop/api/tapi/ns-tapi-lineagentactivityentry">LINEAGENTACTIVITYENTRY</a> structures that appear in the <i>List</i> array. The value is 0 if no agent activity codes are available.
 
 ### -field dwListSize
 
@@ -86,17 +86,16 @@ Size of the activity list array, in bytes.
 ### -field dwListOffset
 
 Offset from the beginning of the structure to an array of 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineagentactivityentry">LINEAGENTACTIVITYENTRY</a> structures indicating information about activity that could be specified for the current logged-in agent. This is <b>dwNumEntries</b> times SIZEOF(LINEAGENTACTIVITYENTRY). The size of the array is specified by <b>dwListSize</b>.
+<a href="/windows/desktop/api/tapi/ns-tapi-lineagentactivityentry">LINEAGENTACTIVITYENTRY</a> structures indicating information about activity that could be specified for the current logged-in agent. This is <b>dwNumEntries</b> times SIZEOF(LINEAGENTACTIVITYENTRY). The size of the array is specified by <b>dwListSize</b>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineagentactivityentry">LINEAGENTACTIVITYENTRY</a>
+<a href="/windows/desktop/api/tapi/ns-tapi-lineagentactivityentry">LINEAGENTACTIVITYENTRY</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linegetagentactivitylista">lineGetAgentActivityList</a>
+<a href="/windows/desktop/api/tapi/nf-tapi-linegetagentactivitylista">lineGetAgentActivityList</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linesetagentactivity">lineSetAgentActivity</a>
-
+<a href="/windows/desktop/api/tapi/nf-tapi-linesetagentactivity">lineSetAgentActivity</a>

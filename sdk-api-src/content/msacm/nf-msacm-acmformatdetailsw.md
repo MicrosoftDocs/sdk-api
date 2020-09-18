@@ -63,7 +63,7 @@ Handle to the ACM driver to query for waveform-audio format details for a format
 
 ### -param pafd
 
-Pointer to an [ACMFORMATDETAILS](/windows/win32/api/msacm/nf-msacm-acmformatdetails) structure to contain the format details for the given format tag.
+Pointer to an [ACMFORMATDETAILS](./nf-msacm-acmformatdetails.md) structure to contain the format details for the given format tag.
 
 ### -param fdwDetails
 
@@ -78,7 +78,7 @@ Flags for getting the waveform-audio format tag details. The following values ar
 </tr>
 <tr>
 <td>ACM_FORMATDETAILSF_FORMAT</td>
-[ACMFORMATDETAILS](/windows/win32/api/msacm/nf-msacm-acmformatdetails) structure was given and the remaining details should be returned. The <b>dwFormatTag</b> member of the <b>ACMFORMATDETAILS</b> structure must be initialized to the same format tag as <b>pwfx</b> specifies. This query type can be used to get a string description of an arbitrary format structure. If an application specifies an ACM driver handle for <i>had</i>, details on the format will be returned for that driver. If an application specifies <b>NULL</b> for <i>had</i>, the ACM finds the first acceptable driver to return the details.</td>
+[ACMFORMATDETAILS](./nf-msacm-acmformatdetails.md) structure was given and the remaining details should be returned. The <b>dwFormatTag</b> member of the <b>ACMFORMATDETAILS</b> structure must be initialized to the same format tag as <b>pwfx</b> specifies. This query type can be used to get a string description of an arbitrary format structure. If an application specifies an ACM driver handle for <i>had</i>, details on the format will be returned for that driver. If an application specifies <b>NULL</b> for <i>had</i>, the ACM finds the first acceptable driver to return the details.</td>
 </tr>
 <tr>
 <td>ACM_FORMATDETAILSF_INDEX</td>
@@ -143,14 +143,13 @@ At least one parameter is invalid.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/audio-compression-functions">Audio Compression Functions</a>
+<a href="/windows/desktop/Multimedia/audio-compression-functions">Audio Compression Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/audio-compression-manager">Audio Compression Manager</a>
+<a href="/windows/desktop/Multimedia/audio-compression-manager">Audio Compression Manager</a>
 
 ## -remarks
 
 > [!NOTE]
 > The msacm.h header defines ACMFORMATDETAILS as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

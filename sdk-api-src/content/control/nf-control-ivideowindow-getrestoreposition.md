@@ -121,9 +121,8 @@ If the video window is minimized or maximized, you can use this method to get th
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/control/nn-control-ivideowindow">IVideoWindow Interface</a>
-
+<a href="/windows/desktop/api/control/nn-control-ivideowindow">IVideoWindow Interface</a>

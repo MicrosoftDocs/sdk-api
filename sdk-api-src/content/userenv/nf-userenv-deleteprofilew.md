@@ -61,7 +61,7 @@ Deletes the user profile and all user-related settings from the specified comput
 Type: <b>LPCTSTR</b>
 
 Pointer to a string that specifies the user 
-    <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/security-identifiers">SID</a>.
+    <a href="/windows/desktop/SecAuthZ/security-identifiers">SID</a>.
 
 ### -param lpProfilePath [in, optional]
 
@@ -84,7 +84,7 @@ Pointer to a string that specifies the name of the computer from which the profi
 
 Type: <b>BOOL</b>
 
-<b>TRUE</b> if successful; otherwise, <b>FALSE</b>. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<b>TRUE</b> if successful; otherwise, <b>FALSE</b>. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
@@ -99,9 +99,8 @@ Type: <b>BOOL</b>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb776900(v=vs.85)">User Profiles Overview</a>
+<a href="/previous-versions/windows/desktop/legacy/bb776900(v=vs.85)">User Profiles Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb776901(v=vs.85)">User Profiles Reference</a>
-
+<a href="/previous-versions/windows/desktop/legacy/bb776901(v=vs.85)">User Profiles Reference</a>

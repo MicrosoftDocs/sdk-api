@@ -60,163 +60,163 @@ api_name:
 ### -field ratMinimum
 
 This value is equal to zero, and used as the null-terminator in any array of 
-<a href="https://docs.microsoft.com/windows/desktop/api/authif/ns-authif-radius_attribute">RADIUS_ATTRIBUTE</a> structures.
+<a href="/windows/desktop/api/authif/ns-authif-radius_attribute">RADIUS_ATTRIBUTE</a> structures.
 
 ### -field ratUserName
 
 Specifies the name of the user to be authenticated. The value field in 
-<a href="https://docs.microsoft.com/windows/desktop/api/authif/ns-authif-radius_attribute">RADIUS_ATTRIBUTE</a> for this type is a pointer. See 
+<a href="/windows/desktop/api/authif/ns-authif-radius_attribute">RADIUS_ATTRIBUTE</a> for this type is a pointer. See 
 <a href="https://www.ietf.org/rfc/rfc2865.txt">RFC 2865</a> for more information. Also see 
-<a href="https://docs.microsoft.com/windows/desktop/Nps/ias-user-identification-attributes">User Identification Attributes</a>.
+<a href="/windows/desktop/Nps/ias-user-identification-attributes">User Identification Attributes</a>.
 
 ### -field ratUserPassword
 
 Specifies the password of the user to be authenticated. The value field in 
-<a href="https://docs.microsoft.com/windows/desktop/api/authif/ns-authif-radius_attribute">RADIUS_ATTRIBUTE</a> for this type is a pointer. See 
+<a href="/windows/desktop/api/authif/ns-authif-radius_attribute">RADIUS_ATTRIBUTE</a> for this type is a pointer. See 
 <a href="https://www.ietf.org/rfc/rfc2865.txt">RFC 2865</a> for more information.
 
 ### -field ratCHAPPassword
 
 Specifies the password provided by the user in response to an Challenge Handshake Authentication Protocol (CHAP) challenge. The value field in 
-<a href="https://docs.microsoft.com/windows/desktop/api/authif/ns-authif-radius_attribute">RADIUS_ATTRIBUTE</a> for this type is a pointer. See 
+<a href="/windows/desktop/api/authif/ns-authif-radius_attribute">RADIUS_ATTRIBUTE</a> for this type is a pointer. See 
 <a href="https://www.ietf.org/rfc/rfc2865.txt">RFC 2865</a> for more information.
 
 ### -field ratNASIPAddress
 
 Specifies the NAS IP address. An Access-Request should specify either an NAS IP address or an NAS identifier. The value field in 
-<a href="https://docs.microsoft.com/windows/desktop/api/authif/ns-authif-radius_attribute">RADIUS_ATTRIBUTE</a> for this type is a 32-bit integral value. See 
+<a href="/windows/desktop/api/authif/ns-authif-radius_attribute">RADIUS_ATTRIBUTE</a> for this type is a 32-bit integral value. See 
 <a href="https://www.ietf.org/rfc/rfc2865.txt">RFC 2865</a> for more information.
 
 ### -field ratNASPort
 
 Identifies the physical or virtual private network (VPN) through which the user is connecting to the NAS. Note that this value is not a port number in the sense of TCP or UDP. The value field in 
-<a href="https://docs.microsoft.com/windows/desktop/api/authif/ns-authif-radius_attribute">RADIUS_ATTRIBUTE</a> for this type is a 32-bit integral value. See 
+<a href="/windows/desktop/api/authif/ns-authif-radius_attribute">RADIUS_ATTRIBUTE</a> for this type is a 32-bit integral value. See 
 <a href="https://www.ietf.org/rfc/rfc2865.txt">RFC 2865</a> for more information.
 
 ### -field ratServiceType
 
 Specifies the type of service the user has requested or the type of service to be provided. The value field in 
-<a href="https://docs.microsoft.com/windows/desktop/api/authif/ns-authif-radius_attribute">RADIUS_ATTRIBUTE</a> for this type is a 32-bit integral value. See 
+<a href="/windows/desktop/api/authif/ns-authif-radius_attribute">RADIUS_ATTRIBUTE</a> for this type is a 32-bit integral value. See 
 <a href="https://www.ietf.org/rfc/rfc2865.txt">RFC 2865</a> for more information.
 
 ### -field ratFramedProtocol
 
 Specifies the type of framed protocol to use for framed access, for example SLIP, PPP, or ARAP (AppleTalk Remote Access Protocol). The value field in 
-<a href="https://docs.microsoft.com/windows/desktop/api/authif/ns-authif-radius_attribute">RADIUS_ATTRIBUTE</a> for this type is a 32-bit integral value. See 
+<a href="/windows/desktop/api/authif/ns-authif-radius_attribute">RADIUS_ATTRIBUTE</a> for this type is a 32-bit integral value. See 
 <a href="https://www.ietf.org/rfc/rfc2865.txt">RFC 2865</a> for more information.
 
 ### -field ratFramedIPAddress
 
 Specifies the IP address that will be configured for the user requesting authentication. This attribute is typically returned by the authentication provider. However, the NAS may use it in an authentication request to specify a preferred IP address. The value field in 
-<a href="https://docs.microsoft.com/windows/desktop/api/authif/ns-authif-radius_attribute">RADIUS_ATTRIBUTE</a> for this type is a 32-bit integral value. See 
+<a href="/windows/desktop/api/authif/ns-authif-radius_attribute">RADIUS_ATTRIBUTE</a> for this type is a 32-bit integral value. See 
 <a href="https://www.ietf.org/rfc/rfc2865.txt">RFC 2865</a> for more information.
 
 ### -field ratFramedIPNetmask
 
 Specifies the IP network mask for a user that is a router to a network. The value field in 
-<a href="https://docs.microsoft.com/windows/desktop/api/authif/ns-authif-radius_attribute">RADIUS_ATTRIBUTE</a> for this type is a 32-bit integral value. See 
+<a href="/windows/desktop/api/authif/ns-authif-radius_attribute">RADIUS_ATTRIBUTE</a> for this type is a 32-bit integral value. See 
 <a href="https://www.ietf.org/rfc/rfc2865.txt">RFC 2865</a> for more information.
 
 ### -field ratFramedRouting
 
 Specifies the routing method for a user that is a router to a network. The value field in 
-<a href="https://docs.microsoft.com/windows/desktop/api/authif/ns-authif-radius_attribute">RADIUS_ATTRIBUTE</a> for this type is a 32-bit integral value. See 
+<a href="/windows/desktop/api/authif/ns-authif-radius_attribute">RADIUS_ATTRIBUTE</a> for this type is a 32-bit integral value. See 
 <a href="https://www.ietf.org/rfc/rfc2865.txt">RFC 2865</a> for more information.
 
 ### -field ratFilterId
 
 Identifies the filter list for the user requesting authentication. The value field in 
-<a href="https://docs.microsoft.com/windows/desktop/api/authif/ns-authif-radius_attribute">RADIUS_ATTRIBUTE</a> for this type is a pointer. See 
+<a href="/windows/desktop/api/authif/ns-authif-radius_attribute">RADIUS_ATTRIBUTE</a> for this type is a pointer. See 
 <a href="https://www.ietf.org/rfc/rfc2865.txt">RFC 2865</a> for more information.
 
 ### -field ratFramedMTU
 
 Specifies the Maximum Transmission Unit (MTU) for the user. This attribute is used in cases where the MTU is not negotiated through some other means, such as PPP. The value field in 
-<a href="https://docs.microsoft.com/windows/desktop/api/authif/ns-authif-radius_attribute">RADIUS_ATTRIBUTE</a> for this type is a 32-bit integral value. See 
+<a href="/windows/desktop/api/authif/ns-authif-radius_attribute">RADIUS_ATTRIBUTE</a> for this type is a 32-bit integral value. See 
 <a href="https://www.ietf.org/rfc/rfc2865.txt">RFC 2865</a> for more information.
 
 ### -field ratFramedCompression
 
 Specifies a compression protocol to use for the connection. The value field in 
-<a href="https://docs.microsoft.com/windows/desktop/api/authif/ns-authif-radius_attribute">RADIUS_ATTRIBUTE</a> for this type is a 32-bit integral value. See 
+<a href="/windows/desktop/api/authif/ns-authif-radius_attribute">RADIUS_ATTRIBUTE</a> for this type is a 32-bit integral value. See 
 <a href="https://www.ietf.org/rfc/rfc2865.txt">RFC 2865</a> for more information
 
 ### -field ratLoginIPHost
 
 Specifies the system with which to connect the user. The value field in 
-<a href="https://docs.microsoft.com/windows/desktop/api/authif/ns-authif-radius_attribute">RADIUS_ATTRIBUTE</a> for this type is a 32-bit integral value. See 
+<a href="/windows/desktop/api/authif/ns-authif-radius_attribute">RADIUS_ATTRIBUTE</a> for this type is a 32-bit integral value. See 
 <a href="https://www.ietf.org/rfc/rfc2865.txt">RFC 2865</a> for more information.
 
 ### -field ratLoginService
 
 Specifies the service to use to connect the user to the host specified by <b>ratLoginIPHost</b>. The value field in 
-<a href="https://docs.microsoft.com/windows/desktop/api/authif/ns-authif-radius_attribute">RADIUS_ATTRIBUTE</a> for this type is a 32-bit integral value. See 
+<a href="/windows/desktop/api/authif/ns-authif-radius_attribute">RADIUS_ATTRIBUTE</a> for this type is a 32-bit integral value. See 
 <a href="https://www.ietf.org/rfc/rfc2865.txt">RFC 2865</a> for more information.
 
 ### -field ratLoginPort
 
 Specifies the port to which to connect the user. This attribute is present only if the <b>ratLoginService</b> attribute is present. The value field in 
-<a href="https://docs.microsoft.com/windows/desktop/api/authif/ns-authif-radius_attribute">RADIUS_ATTRIBUTE</a> for this type is a 32-bit integral value. See 
+<a href="/windows/desktop/api/authif/ns-authif-radius_attribute">RADIUS_ATTRIBUTE</a> for this type is a 32-bit integral value. See 
 <a href="https://www.ietf.org/rfc/rfc2865.txt">RFC 2865</a> for more information.
 
 ### -field ratReplyMessage
 
 Specifies a message to display to the user. The value field in 
-<a href="https://docs.microsoft.com/windows/desktop/api/authif/ns-authif-radius_attribute">RADIUS_ATTRIBUTE</a> for this type is a pointer. See 
+<a href="/windows/desktop/api/authif/ns-authif-radius_attribute">RADIUS_ATTRIBUTE</a> for this type is a pointer. See 
 <a href="https://www.ietf.org/rfc/rfc2865.txt">RFC 2865</a> for more information.
 
 ### -field ratCallbackNumber
 
 Specifies a callback number. The value field in 
-<a href="https://docs.microsoft.com/windows/desktop/api/authif/ns-authif-radius_attribute">RADIUS_ATTRIBUTE</a> for this type is a pointer. See 
+<a href="/windows/desktop/api/authif/ns-authif-radius_attribute">RADIUS_ATTRIBUTE</a> for this type is a pointer. See 
 <a href="https://www.ietf.org/rfc/rfc2865.txt">RFC 2865</a> for more information.
 
 ### -field ratCallbackId
 
 Identifies a location to callback. The value of this attribute is interpreted by the NAS. The value field in 
-<a href="https://docs.microsoft.com/windows/desktop/api/authif/ns-authif-radius_attribute">RADIUS_ATTRIBUTE</a> for this type is a pointer. See 
+<a href="/windows/desktop/api/authif/ns-authif-radius_attribute">RADIUS_ATTRIBUTE</a> for this type is a pointer. See 
 <a href="https://www.ietf.org/rfc/rfc2865.txt">RFC 2865</a> for more information.
 
 ### -field ratFramedRoute
 
 Provides routing information to configure on the NAS for the user. The value field in 
-<a href="https://docs.microsoft.com/windows/desktop/api/authif/ns-authif-radius_attribute">RADIUS_ATTRIBUTE</a> for this type is a pointer. See 
+<a href="/windows/desktop/api/authif/ns-authif-radius_attribute">RADIUS_ATTRIBUTE</a> for this type is a pointer. See 
 <a href="https://www.ietf.org/rfc/rfc2865.txt">RFC 2865</a> for more information.
 
 ### -field ratFramedIPXNetwork
 
 Specifies the IPX network number to configure for the user. The value field in 
-<a href="https://docs.microsoft.com/windows/desktop/api/authif/ns-authif-radius_attribute">RADIUS_ATTRIBUTE</a> for this type is a 32-bit integral value. See 
+<a href="/windows/desktop/api/authif/ns-authif-radius_attribute">RADIUS_ATTRIBUTE</a> for this type is a 32-bit integral value. See 
 <a href="https://www.ietf.org/rfc/rfc2865.txt">RFC 2865</a> for more information.
 
 ### -field ratState
 
 This attribute is included in Access-Challenge and Access-Accept communications between the server and the client. Please refer to 
 <a href="https://www.ietf.org/rfc/rfc2865.txt">RFC 2865</a> for detailed information about this value. The value field in 
-<a href="https://docs.microsoft.com/windows/desktop/api/authif/ns-authif-radius_attribute">RADIUS_ATTRIBUTE</a> for this type is a pointer.
+<a href="/windows/desktop/api/authif/ns-authif-radius_attribute">RADIUS_ATTRIBUTE</a> for this type is a pointer.
 
 ### -field ratClass
 
 Specifies a value that is provided to the NAS by the authentication provider. The NAS should use this value when communicating with the accounting provider. The value field in 
-<a href="https://docs.microsoft.com/windows/desktop/api/authif/ns-authif-radius_attribute">RADIUS_ATTRIBUTE</a> for this type is a pointer. See 
+<a href="/windows/desktop/api/authif/ns-authif-radius_attribute">RADIUS_ATTRIBUTE</a> for this type is a pointer. See 
 <a href="https://www.ietf.org/rfc/rfc2865.txt">RFC 2865</a> for more information.
 
 ### -field ratVendorSpecific
 
 Allows vendors to provide their own extended attributes. The value field in 
-<a href="https://docs.microsoft.com/windows/desktop/api/authif/ns-authif-radius_attribute">RADIUS_ATTRIBUTE</a> for this type is a pointer. See 
+<a href="/windows/desktop/api/authif/ns-authif-radius_attribute">RADIUS_ATTRIBUTE</a> for this type is a pointer. See 
 <a href="https://www.ietf.org/rfc/rfc2865.txt">RFC 2865</a> for more information.
 
 ### -field ratSessionTimeout
 
 Specifies the maximum number of seconds for which to provide service to the user. After this time, the session is terminated. The value field in 
-<a href="https://docs.microsoft.com/windows/desktop/api/authif/ns-authif-radius_attribute">RADIUS_ATTRIBUTE</a> for this type is a 32-bit integral value. See 
+<a href="/windows/desktop/api/authif/ns-authif-radius_attribute">RADIUS_ATTRIBUTE</a> for this type is a 32-bit integral value. See 
 <a href="https://www.ietf.org/rfc/rfc2865.txt">RFC 2865</a> for more information.
 
 ### -field ratIdleTimeout
 
 Specifies the maximum number of consecutive seconds the session can be idle. If the idle time exceeds this value, the session is terminated. The value field in 
-<a href="https://docs.microsoft.com/windows/desktop/api/authif/ns-authif-radius_attribute">RADIUS_ATTRIBUTE</a> for this type is a 32-bit integral value. See 
+<a href="/windows/desktop/api/authif/ns-authif-radius_attribute">RADIUS_ATTRIBUTE</a> for this type is a 32-bit integral value. See 
 <a href="https://www.ietf.org/rfc/rfc2865.txt">RFC 2865</a> for more information.
 
 ### -field ratTerminationAction
@@ -224,31 +224,31 @@ Specifies the maximum number of consecutive seconds the session can be idle. If 
 Indicates what action the NAS should take when the
       specified service is completed.  It is only used in Access-Accept
       packets. The value field in 
-<a href="https://docs.microsoft.com/windows/desktop/api/authif/ns-authif-radius_attribute">RADIUS_ATTRIBUTE</a> for this type is 32-bit integral value. See 
+<a href="/windows/desktop/api/authif/ns-authif-radius_attribute">RADIUS_ATTRIBUTE</a> for this type is 32-bit integral value. See 
 <a href="https://www.ietf.org/rfc/rfc2865.txt">RFC 2865</a> for more information.
 
 ### -field ratCalledStationId
 
 Specifies the number that the user dialed to connect to the NAS. The value field in 
-<a href="https://docs.microsoft.com/windows/desktop/api/authif/ns-authif-radius_attribute">RADIUS_ATTRIBUTE</a> for this type is a pointer. See 
+<a href="/windows/desktop/api/authif/ns-authif-radius_attribute">RADIUS_ATTRIBUTE</a> for this type is a pointer. See 
 <a href="https://www.ietf.org/rfc/rfc2865.txt">RFC 2865</a> for more information.
 
 ### -field ratCallingStationId
 
 Specifies the number from which the user is calling. The value field in 
-<a href="https://docs.microsoft.com/windows/desktop/api/authif/ns-authif-radius_attribute">RADIUS_ATTRIBUTE</a> for this type is a pointer. See 
+<a href="/windows/desktop/api/authif/ns-authif-radius_attribute">RADIUS_ATTRIBUTE</a> for this type is a pointer. See 
 <a href="https://www.ietf.org/rfc/rfc2865.txt">RFC 2865</a> for more information.
 
 ### -field ratNASIdentifier
 
 Specifies the NAS identifier. An Access-Request should specify either an NAS identifier or an NAS IP address. The value field in 
-<a href="https://docs.microsoft.com/windows/desktop/api/authif/ns-authif-radius_attribute">RADIUS_ATTRIBUTE</a> for this type is a pointer. See 
+<a href="/windows/desktop/api/authif/ns-authif-radius_attribute">RADIUS_ATTRIBUTE</a> for this type is a pointer. See 
 <a href="https://www.ietf.org/rfc/rfc2865.txt">RFC 2865</a> for more information.
 
 ### -field ratProxyState
 
 Specifies a value that a proxy server includes when forwarding an authentication request. The value field in 
-<a href="https://docs.microsoft.com/windows/desktop/api/authif/ns-authif-radius_attribute">RADIUS_ATTRIBUTE</a> for this type is a pointer. See 
+<a href="/windows/desktop/api/authif/ns-authif-radius_attribute">RADIUS_ATTRIBUTE</a> for this type is a pointer. See 
 <a href="https://www.ietf.org/rfc/rfc2865.txt">RFC 2865</a> for more information.
 
 ### -field ratLoginLATService
@@ -269,97 +269,97 @@ This attribute is not currently used for authentication on Windows. See
 ### -field ratFramedAppleTalkLink
 
 Specifies the AppleTalk network number for a user that is another router. The value field in 
-<a href="https://docs.microsoft.com/windows/desktop/api/authif/ns-authif-radius_attribute">RADIUS_ATTRIBUTE</a> for this type is 32-bit integral value. See 
+<a href="/windows/desktop/api/authif/ns-authif-radius_attribute">RADIUS_ATTRIBUTE</a> for this type is 32-bit integral value. See 
 <a href="https://www.ietf.org/rfc/rfc2865.txt">RFC 2865</a> for more information.
 
 ### -field ratFramedAppleTalkNetwork
 
 Specifies the AppleTalk network number that the NAS should use to allocate an AppleTalk node for the user. This attribute is used only when the user is not another router. The value field in 
-<a href="https://docs.microsoft.com/windows/desktop/api/authif/ns-authif-radius_attribute">RADIUS_ATTRIBUTE</a> for this type is a 32-bit integral value. See 
+<a href="/windows/desktop/api/authif/ns-authif-radius_attribute">RADIUS_ATTRIBUTE</a> for this type is a 32-bit integral value. See 
 <a href="https://www.ietf.org/rfc/rfc2865.txt">RFC 2865</a> for more information.
 
 ### -field ratFramedAppleTalkZone
 
 Specifies the AppleTalk default zone for the user. The value field in 
-<a href="https://docs.microsoft.com/windows/desktop/api/authif/ns-authif-radius_attribute">RADIUS_ATTRIBUTE</a> for this type is a pointer. See 
+<a href="/windows/desktop/api/authif/ns-authif-radius_attribute">RADIUS_ATTRIBUTE</a> for this type is a pointer. See 
 <a href="https://www.ietf.org/rfc/rfc2865.txt">RFC 2865</a> for more information.
 
 ### -field ratAcctStatusType
 
 Specifies whether the accounting provider should start or stop accounting for the user. The value field in 
-<a href="https://docs.microsoft.com/windows/desktop/api/authif/ns-authif-radius_attribute">RADIUS_ATTRIBUTE</a> for this type is a 32-bit integral value. See 
+<a href="/windows/desktop/api/authif/ns-authif-radius_attribute">RADIUS_ATTRIBUTE</a> for this type is a 32-bit integral value. See 
 <a href="https://www.ietf.org/rfc/rfc2866.txt">RFC 2866</a> for more information.
 
 ### -field ratAcctDelayTime
 
 Specifies the length of time that the client has been attempting to send the current request. The value field in 
-<a href="https://docs.microsoft.com/windows/desktop/api/authif/ns-authif-radius_attribute">RADIUS_ATTRIBUTE</a> for this type is a 32-bit integral value. See 
+<a href="/windows/desktop/api/authif/ns-authif-radius_attribute">RADIUS_ATTRIBUTE</a> for this type is a 32-bit integral value. See 
 <a href="https://www.ietf.org/rfc/rfc2866.txt">RFC 2866</a> for more information.
 
 ### -field ratAcctInputOctets
 
 Specifies the number of octets that have been received during the current accounting session. The value field in 
-<a href="https://docs.microsoft.com/windows/desktop/api/authif/ns-authif-radius_attribute">RADIUS_ATTRIBUTE</a> for this type is a 32-bit integral value. See 
+<a href="/windows/desktop/api/authif/ns-authif-radius_attribute">RADIUS_ATTRIBUTE</a> for this type is a 32-bit integral value. See 
 <a href="https://www.ietf.org/rfc/rfc2866.txt">RFC 2866</a> for more information.
 
 ### -field ratAcctOutputOctets
 
 Specifies the number of octets sent during the current accounting session. The value field in 
-<a href="https://docs.microsoft.com/windows/desktop/api/authif/ns-authif-radius_attribute">RADIUS_ATTRIBUTE</a> for this type is a 32-bit integral value. See 
+<a href="/windows/desktop/api/authif/ns-authif-radius_attribute">RADIUS_ATTRIBUTE</a> for this type is a 32-bit integral value. See 
 <a href="https://www.ietf.org/rfc/rfc2866.txt">RFC 2866</a> for more information.
 
 ### -field ratAcctSessionId
 
 Specifies a value to enable the identification of matching start and stop records within a log file. The start and stop records are sent in the <b>ratAcctStatusType</b> attribute. The value field in 
-<a href="https://docs.microsoft.com/windows/desktop/api/authif/ns-authif-radius_attribute">RADIUS_ATTRIBUTE</a> for this type is a pointer. See 
+<a href="/windows/desktop/api/authif/ns-authif-radius_attribute">RADIUS_ATTRIBUTE</a> for this type is a pointer. See 
 <a href="https://www.ietf.org/rfc/rfc2866.txt">RFC 2866</a> for more information.
 
 ### -field ratAcctAuthentic
 
 Specifies, to the accounting provider, how the user was authenticated. The value field in 
-<a href="https://docs.microsoft.com/windows/desktop/api/authif/ns-authif-radius_attribute">RADIUS_ATTRIBUTE</a> for this type is a 32-bit integral value. See 
+<a href="/windows/desktop/api/authif/ns-authif-radius_attribute">RADIUS_ATTRIBUTE</a> for this type is a 32-bit integral value. See 
 <a href="https://www.ietf.org/rfc/rfc2866.txt">RFC 2866</a> for more information.
 
 ### -field ratAcctSessionTime
 
 Specifies the number of seconds that have elapsed in the current accounting session. The value field in 
-<a href="https://docs.microsoft.com/windows/desktop/api/authif/ns-authif-radius_attribute">RADIUS_ATTRIBUTE</a> for this type is a 32-bit integral value. See 
+<a href="/windows/desktop/api/authif/ns-authif-radius_attribute">RADIUS_ATTRIBUTE</a> for this type is a 32-bit integral value. See 
 <a href="https://www.ietf.org/rfc/rfc2866.txt">RFC 2866</a> for more information.
 
 ### -field ratAcctInputPackets
 
 Specifies the number of packets that have been received during the current accounting session. The value field in 
-<a href="https://docs.microsoft.com/windows/desktop/api/authif/ns-authif-radius_attribute">RADIUS_ATTRIBUTE</a> for this type is a 32-bit integral value. See 
+<a href="/windows/desktop/api/authif/ns-authif-radius_attribute">RADIUS_ATTRIBUTE</a> for this type is a 32-bit integral value. See 
 <a href="https://www.ietf.org/rfc/rfc2866.txt">RFC 2866</a> for more information.
 
 ### -field ratAcctOutputPackets
 
 Specifies the number of packets that have been sent during the current accounting session. The value field in 
-<a href="https://docs.microsoft.com/windows/desktop/api/authif/ns-authif-radius_attribute">RADIUS_ATTRIBUTE</a> for this type is a 32-bit integral value. See 
+<a href="/windows/desktop/api/authif/ns-authif-radius_attribute">RADIUS_ATTRIBUTE</a> for this type is a 32-bit integral value. See 
 <a href="https://www.ietf.org/rfc/rfc2866.txt">RFC 2866</a> for more information.
 
 ### -field ratAcctTerminationCause
 
 Specifies how the current accounting session was terminated. The value field in 
-<a href="https://docs.microsoft.com/windows/desktop/api/authif/ns-authif-radius_attribute">RADIUS_ATTRIBUTE</a> for this type is a 32-bit integral value. See 
+<a href="/windows/desktop/api/authif/ns-authif-radius_attribute">RADIUS_ATTRIBUTE</a> for this type is a 32-bit integral value. See 
 <a href="https://www.ietf.org/rfc/rfc2866.txt">RFC 2866</a> for more information.
 
 ### -field ratCHAPChallenge
 
 Specifies the CHAP challenge sent by the NAS to a CHAP user. The value field in 
-<a href="https://docs.microsoft.com/windows/desktop/api/authif/ns-authif-radius_attribute">RADIUS_ATTRIBUTE</a> for this type is a pointer. See 
+<a href="/windows/desktop/api/authif/ns-authif-radius_attribute">RADIUS_ATTRIBUTE</a> for this type is a pointer. See 
 <a href="https://www.ietf.org/rfc/rfc2865.txt">RFC 2865</a> for more information.
 
 ### -field ratNASPortType
 
 Specifies the type of the port through which the user is connecting, for example, asynchronous, ISDN, virtual. The value field in 
-<a href="https://docs.microsoft.com/windows/desktop/api/authif/ns-authif-radius_attribute">RADIUS_ATTRIBUTE</a> for this type is a 32-bit integral value. See 
+<a href="/windows/desktop/api/authif/ns-authif-radius_attribute">RADIUS_ATTRIBUTE</a> for this type is a 32-bit integral value. See 
 <a href="https://www.ietf.org/rfc/rfc2865.txt">RFC 2865</a> for more information.
 
 ### -field ratPortLimit
 
 Specifies the number of ports the NAS should make available to the user for multilink sessions. The value field in 
-<a href="https://docs.microsoft.com/windows/desktop/api/authif/ns-authif-radius_attribute">RADIUS_ATTRIBUTE</a> for this type is a 32-bit integral value. See 
+<a href="/windows/desktop/api/authif/ns-authif-radius_attribute">RADIUS_ATTRIBUTE</a> for this type is a 32-bit integral value. See 
 <a href="https://www.ietf.org/rfc/rfc2865.txt">RFC 2865</a> for more information
 
 ### -field ratTunnelType
@@ -428,8 +428,8 @@ See the Framed-IPv6-Pool section in <a href="https://www.ietf.org/rfc/rfc3162.tx
 ### -field ratCode
 
 Specifies the request type code. This is an extended, read-only attribute, used only in the 
-<a href="https://docs.microsoft.com/windows/desktop/api/authif/nc-authif-pradius_extension_process">RadiusExtensionProcess</a> and 
-<a href="https://docs.microsoft.com/windows/desktop/api/authif/nc-authif-pradius_extension_process_ex">RadiusExtensionProcessEx</a> functions. Its contents can be interpreted by comparing it with <a href="https://docs.microsoft.com/windows/desktop/api/authif/ne-authif-radius_code">RADIUS_CODE</a> enumeration values.
+<a href="/windows/desktop/api/authif/nc-authif-pradius_extension_process">RadiusExtensionProcess</a> and 
+<a href="/windows/desktop/api/authif/nc-authif-pradius_extension_process_ex">RadiusExtensionProcessEx</a> functions. Its contents can be interpreted by comparing it with <a href="/windows/desktop/api/authif/ne-authif-radius_code">RADIUS_CODE</a> enumeration values.
 
 ### -field ratIdentifier
 
@@ -450,17 +450,17 @@ Specifies the source IP port. This is an extended, read-only attribute.
 ### -field ratProvider
 
 Specifies the authentication provider. The value for this attribute is taken from the 
-<a href="https://docs.microsoft.com/windows/desktop/api/authif/ne-authif-radius_authentication_provider">RADIUS_AUTHENTICATION_PROVIDER</a> enumerated type. This is an extended, read-only attribute.
+<a href="/windows/desktop/api/authif/ne-authif-radius_authentication_provider">RADIUS_AUTHENTICATION_PROVIDER</a> enumerated type. This is an extended, read-only attribute.
 
 ### -field ratStrippedUserName
 
 Specifies the user name with the realm removed. See 
-<a href="https://docs.microsoft.com/windows/desktop/Nps/ias-user-identification-attributes">User Identification Attributes</a> for more information. This is an extended attribute.
+<a href="/windows/desktop/Nps/ias-user-identification-attributes">User Identification Attributes</a> for more information. This is an extended attribute.
 
 ### -field ratFQUserName
 
 Specifies the fully qualified user name. See 
-<a href="https://docs.microsoft.com/windows/desktop/Nps/ias-user-identification-attributes">User Identification Attributes</a> for more information. This is an extended attribute.
+<a href="/windows/desktop/Nps/ias-user-identification-attributes">User Identification Attributes</a> for more information. This is an extended attribute.
 
 ### -field ratPolicyName
 
@@ -480,7 +480,7 @@ Specifies an EAP-TLV packet. For more information about the EAP-TLV packet forma
 
 ### -field ratRejectReasonCode
 
-Specifies the reason code for a RADIUS Reject. For more information, see  <a href="https://docs.microsoft.com/windows/desktop/api/authif/ne-authif-radius_reject_reason_code">RADIUS_REJECT_REASON_CODE</a>.
+Specifies the reason code for a RADIUS Reject. For more information, see  <a href="/windows/desktop/api/authif/ne-authif-radius_reject_reason_code">RADIUS_REJECT_REASON_CODE</a>.
 
 ### -field ratCRPPolicyName
 
@@ -500,13 +500,13 @@ To support authorization databases using PEAP-MSChapv2, the extension DLL retrie
 
 ### -field ratSrcIPv6Address
 
-Source IPv6 address. It is not a standard RADIUS attribute. It corresponds to the internal attribute <a href="https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-attributeid">IAS_ATTRIBUTE_CLIENT_IPv6_ADDRESS</a>. This is a read-only attribute.
+Source IPv6 address. It is not a standard RADIUS attribute. It corresponds to the internal attribute <a href="/windows/desktop/api/sdoias/ne-sdoias-attributeid">IAS_ATTRIBUTE_CLIENT_IPv6_ADDRESS</a>. This is a read-only attribute.
 
 ### -field ratCertificateThumbprint
 
 ## -remarks
 
-The following attributes are read-only. Extension DLLs that implement <a href="https://docs.microsoft.com/windows/desktop/api/authif/nc-authif-pradius_extension_process_2">RadiusExtensionProcess2</a> cannot add/remove/modify these attributes within a request or response contained in a <a href="https://docs.microsoft.com/windows/desktop/api/authif/ns-authif-radius_extension_control_block">RADIUS_EXTENSION_CONTROL_BLOCK</a>.
+The following attributes are read-only. Extension DLLs that implement <a href="/windows/desktop/api/authif/nc-authif-pradius_extension_process_2">RadiusExtensionProcess2</a> cannot add/remove/modify these attributes within a request or response contained in a <a href="/windows/desktop/api/authif/ns-authif-radius_extension_control_block">RADIUS_EXTENSION_CONTROL_BLOCK</a>.
 
 <ul>
 <li><b>ratCode</b></li>
@@ -521,21 +521,20 @@ The following attributes are read-only. Extension DLLs that implement <a href="h
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Nps/ias-about-internet-authentication-service">About NPS Extensions</a>
+<a href="/windows/desktop/Nps/ias-about-internet-authentication-service">About NPS Extensions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Nps/ias-internet-authentication-service-enumerations">NPS Extensions Enumerations</a>
+<a href="/windows/desktop/Nps/ias-internet-authentication-service-enumerations">NPS Extensions Enumerations</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Nps/ias-internet-authentication-service-reference">NPS Extensions Reference</a>
+<a href="/windows/desktop/Nps/ias-internet-authentication-service-reference">NPS Extensions Reference</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/authif/ns-authif-radius_attribute">RADIUS_ATTRIBUTE</a>
+<a href="/windows/desktop/api/authif/ns-authif-radius_attribute">RADIUS_ATTRIBUTE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/authif/ne-authif-radius_authentication_provider">RADIUS_AUTHENTICATION_PROVIDER</a>
-
+<a href="/windows/desktop/api/authif/ne-authif-radius_authentication_provider">RADIUS_AUTHENTICATION_PROVIDER</a>

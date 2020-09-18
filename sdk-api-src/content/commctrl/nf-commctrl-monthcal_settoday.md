@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Sets the "today" selection for a month calendar control. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/mcm-settoday">MCM_SETTODAY</a> message explicitly.
+Sets the "today" selection for a month calendar control. You can use this macro or send the <a href="/windows/desktop/Controls/mcm-settoday">MCM_SETTODAY</a> message explicitly.
 
 ## -parameters
 
 ### -param hmc
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 Handle to a month calendar control.
 
@@ -64,11 +64,10 @@ Handle to a month calendar control.
 
 Type: <b>LPSYSTEMTIME</b>
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-systemtime">SYSTEMTIME</a> structure that contains the date to be set as the "today" selection for the control. If this parameter is set to <b>NULL</b>, the control returns to the default setting. The time members of this structure are ignored. If the "today" selection is set to any date other than the default, the following conditions apply:
+Pointer to a <a href="/windows/desktop/api/minwinbase/ns-minwinbase-systemtime">SYSTEMTIME</a> structure that contains the date to be set as the "today" selection for the control. If this parameter is set to <b>NULL</b>, the control returns to the default setting. The time members of this structure are ignored. If the "today" selection is set to any date other than the default, the following conditions apply:
  
 
 <ul>
 <li>The control will not automatically update the "today" selection when the time passes midnight for the current day.</li>
 <li>The control will not automatically update its display based on locale changes.</li>
 </ul>
-

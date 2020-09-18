@@ -85,5 +85,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfworkqueueservicesex">IMFWorkQueueServicesEx</a>
-
+<a href="/windows/desktop/api/mfidl/nn-mfidl-imfworkqueueservicesex">IMFWorkQueueServicesEx</a>

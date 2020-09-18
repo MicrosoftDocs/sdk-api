@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Provides a set of flags to be used with <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iattachmentexecute-prompt">IAttachmentExecute::Prompt</a> to indicate the action to be performed upon user confirmation.
+Provides a set of flags to be used with <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iattachmentexecute-prompt">IAttachmentExecute::Prompt</a> to indicate the action to be performed upon user confirmation.
 
 ## -enum-fields
 
@@ -65,4 +65,3 @@ Save
 ### -field ATTACHMENT_ACTION_EXEC
 
 Execute
-

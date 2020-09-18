@@ -57,7 +57,7 @@ The <code>SetRenderingMode</code> method sets the rendering mode used by the VMR
 
 ### -param Mode [in]
 
-Specifies the rendering mode as a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/vmr9/ne-vmr9-vmr9mode">VMR9Mode</a> value.
+Specifies the rendering mode as a <a href="/previous-versions/windows/desktop/api/vmr9/ne-vmr9-vmr9mode">VMR9Mode</a> value.
 
 ## -returns
 
@@ -111,13 +111,12 @@ The mode cannot be changed after any pin has been connected. Also, the mode cann
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vmr9/nn-vmr9-ivmrfilterconfig9">IVMRFilterConfig9 Interface</a>
+<a href="/windows/desktop/api/vmr9/nn-vmr9-ivmrfilterconfig9">IVMRFilterConfig9 Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/using-the-video-mixing-renderer">Using the Video Mixing Renderer</a>
+<a href="/windows/desktop/DirectShow/using-the-video-mixing-renderer">Using the Video Mixing Renderer</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/vmr-modes-of-operation">VMR Modes of Operation</a>
-
+<a href="/windows/desktop/DirectShow/vmr-modes-of-operation">VMR Modes of Operation</a>

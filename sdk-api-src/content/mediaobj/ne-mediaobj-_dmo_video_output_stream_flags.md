@@ -60,9 +60,8 @@ Requests that every output buffer passed to the DMO contain the previous data th
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/dmo-enumerated-types">DMO Enumerated Types</a>
+<a href="/windows/desktop/DirectShow/dmo-enumerated-types">DMO Enumerated Types</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mediaobj/nn-mediaobj-idmovideooutputoptimizations">IDMOVideoOutputOptimizations</a>
-
+<a href="/windows/desktop/api/mediaobj/nn-mediaobj-idmovideooutputoptimizations">IDMOVideoOutputOptimizations</a>

@@ -59,7 +59,7 @@ This property is read-only.
 
 ## -remarks
 
-This property only specifies whether a provider is implemented in software. Because a provider can be implemented in both hardware and software, you cannot assume that a value of true for the <b>IsSoftwareDevice</b> property indicates that there is no hardware component. You must also examine the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-icspinformation-get_ishardwaredevice">IsHardwareDevice</a> property. The following Microsoft providers return true for the <b>IsSoftwareDevice</b> property:<ul>
+This property only specifies whether a provider is implemented in software. Because a provider can be implemented in both hardware and software, you cannot assume that a value of true for the <b>IsSoftwareDevice</b> property indicates that there is no hardware component. You must also examine the <a href="/windows/desktop/api/certenroll/nf-certenroll-icspinformation-get_ishardwaredevice">IsHardwareDevice</a> property. The following Microsoft providers return true for the <b>IsSoftwareDevice</b> property:<ul>
 <li>Microsoft Software Key Storage Provider</li>
 <li>Microsoft Smart Card Key Storage Provider</li>
 <li>Microsoft Base Cryptographic Provider v1.0</li>
@@ -75,9 +75,8 @@ This property only specifies whether a provider is implemented in software. Beca
 </ul>
 
 
-The Microsoft Smart Card Key Storage Provider and the Microsoft Base Smart Card Crypto Provider also return true for the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-icspinformation-get_ishardwaredevice">IsHardwareDevice</a> property. The Certificate Enrollment service assumes a smart card provider if both the <b>IsHardwareDevice</b> and <b>IsSoftwareDevice</b> properties are set, or if the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-icspinformation-get_isremovable">IsRemovable</a> property is set.
+The Microsoft Smart Card Key Storage Provider and the Microsoft Base Smart Card Crypto Provider also return true for the <a href="/windows/desktop/api/certenroll/nf-certenroll-icspinformation-get_ishardwaredevice">IsHardwareDevice</a> property. The Certificate Enrollment service assumes a smart card provider if both the <b>IsHardwareDevice</b> and <b>IsSoftwareDevice</b> properties are set, or if the <a href="/windows/desktop/api/certenroll/nf-certenroll-icspinformation-get_isremovable">IsRemovable</a> property is set.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icspinformation">ICspInformation</a>
-
+<a href="/windows/desktop/api/certenroll/nn-certenroll-icspinformation">ICspInformation</a>

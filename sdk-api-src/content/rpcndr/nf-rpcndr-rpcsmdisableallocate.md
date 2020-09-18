@@ -77,27 +77,26 @@ The call succeeded.
  
 
 <div class="alert"><b>Note</b>  For a list of valid error codes, see 
-<a href="https://docs.microsoft.com/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
+<a href="/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
 <div> </div>
 
 ## -remarks
 
 The 
 <b>RpcSmDisableAllocate</b> function frees all the resources used by a call to 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcndr/nf-rpcndr-rpcsmenableallocate">RpcSmEnableAllocate</a>. It also releases memory allocated by a call to 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcndr/nf-rpcndr-rpcsmallocate">RpcSmAllocate</a> after the call to 
+<a href="/windows/desktop/api/rpcndr/nf-rpcndr-rpcsmenableallocate">RpcSmEnableAllocate</a>. It also releases memory allocated by a call to 
+<a href="/windows/desktop/api/rpcndr/nf-rpcndr-rpcsmallocate">RpcSmAllocate</a> after the call to 
 <b>RpcSmEnableAllocate</b> and marked for deletion by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcndr/nf-rpcndr-rpcsmfree">RpcSmFree</a> function.
+<a href="/windows/desktop/api/rpcndr/nf-rpcndr-rpcsmfree">RpcSmFree</a> function.
 
 Note that 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcndr/nf-rpcndr-rpcsmenableallocate">RpcSmEnableAllocate</a> and 
+<a href="/windows/desktop/api/rpcndr/nf-rpcndr-rpcsmenableallocate">RpcSmEnableAllocate</a> and 
 <b>RpcSmDisableAllocate</b> must be used together as matching pairs.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcndr/nf-rpcndr-rpcsmallocate">RpcSmAllocate</a>
+<a href="/windows/desktop/api/rpcndr/nf-rpcndr-rpcsmallocate">RpcSmAllocate</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcndr/nf-rpcndr-rpcsmenableallocate">RpcSmEnableAllocate</a>
-
+<a href="/windows/desktop/api/rpcndr/nf-rpcndr-rpcsmenableallocate">RpcSmEnableAllocate</a>

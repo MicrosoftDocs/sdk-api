@@ -87,37 +87,36 @@ Specifies the make scan code that is generated when a key is pressed.
 
 #### IndicatorFlags
 
-Specifies the LED indicator that corresponds to the <b>MakeCode</b> scan code. For information about the flags, see the <b>LedFlags</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/ntddkbd/ns-ntddkbd-keyboard_indicator_parameters">KEYBOARD_INDICATOR_PARAMETERS</a> structure.
+Specifies the LED indicator that corresponds to the <b>MakeCode</b> scan code. For information about the flags, see the <b>LedFlags</b> member of the <a href="/windows/desktop/api/ntddkbd/ns-ntddkbd-keyboard_indicator_parameters">KEYBOARD_INDICATOR_PARAMETERS</a> structure.
 
 ## -remarks
 
-This structure is used with an <a href="https://docs.microsoft.com/windows/desktop/api/ntddkbd/ni-ntddkbd-ioctl_keyboard_query_indicator_translation">IOCTL_KEYBOARD_QUERY_INDICATOR_TRANSLATION</a> request to obtain indicator translation information.
+This structure is used with an <a href="/windows/desktop/api/ntddkbd/ni-ntddkbd-ioctl_keyboard_query_indicator_translation">IOCTL_KEYBOARD_QUERY_INDICATOR_TRANSLATION</a> request to obtain indicator translation information.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntddkbd/ni-ntddkbd-ioctl_keyboard_query_attributes">IOCTL_KEYBOARD_QUERY_ATTRIBUTES</a>
+<a href="/windows/desktop/api/ntddkbd/ni-ntddkbd-ioctl_keyboard_query_attributes">IOCTL_KEYBOARD_QUERY_ATTRIBUTES</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntddkbd/ni-ntddkbd-ioctl_keyboard_query_indicators">IOCTL_KEYBOARD_QUERY_INDICATORS</a>
+<a href="/windows/desktop/api/ntddkbd/ni-ntddkbd-ioctl_keyboard_query_indicators">IOCTL_KEYBOARD_QUERY_INDICATORS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntddkbd/ni-ntddkbd-ioctl_keyboard_query_indicator_translation">IOCTL_KEYBOARD_QUERY_INDICATOR_TRANSLATION</a>
+<a href="/windows/desktop/api/ntddkbd/ni-ntddkbd-ioctl_keyboard_query_indicator_translation">IOCTL_KEYBOARD_QUERY_INDICATOR_TRANSLATION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntddkbd/ni-ntddkbd-ioctl_keyboard_query_typematic">IOCTL_KEYBOARD_QUERY_TYPEMATIC</a>
+<a href="/windows/desktop/api/ntddkbd/ni-ntddkbd-ioctl_keyboard_query_typematic">IOCTL_KEYBOARD_QUERY_TYPEMATIC</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntddkbd/ni-ntddkbd-ioctl_keyboard_set_indicators">IOCTL_KEYBOARD_SET_INDICATORS</a>
+<a href="/windows/desktop/api/ntddkbd/ni-ntddkbd-ioctl_keyboard_set_indicators">IOCTL_KEYBOARD_SET_INDICATORS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntddkbd/ni-ntddkbd-ioctl_keyboard_set_typematic">IOCTL_KEYBOARD_SET_TYPEMATIC</a>
+<a href="/windows/desktop/api/ntddkbd/ni-ntddkbd-ioctl_keyboard_set_typematic">IOCTL_KEYBOARD_SET_TYPEMATIC</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntddkbd/ns-ntddkbd-keyboard_indicator_parameters">KEYBOARD_INDICATOR_PARAMETERS</a>
-
+<a href="/windows/desktop/api/ntddkbd/ns-ntddkbd-keyboard_indicator_parameters">KEYBOARD_INDICATOR_PARAMETERS</a>

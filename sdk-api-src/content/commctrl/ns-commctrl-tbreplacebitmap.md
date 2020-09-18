@@ -52,32 +52,32 @@ api_name:
 
 ## -description
 
-Used with the <a href="https://docs.microsoft.com/windows/desktop/Controls/tb-replacebitmap">TB_REPLACEBITMAP</a> message to replace one toolbar bitmap with another.
+Used with the <a href="/windows/desktop/Controls/tb-replacebitmap">TB_REPLACEBITMAP</a> message to replace one toolbar bitmap with another.
 
 ## -struct-fields
 
 ### -field hInstOld
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HINSTANCE</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HINSTANCE</a></b>
 
 Module instance handle to the bitmap resource being replaced. Set this member to <b>NULL</b> to instead use a bitmap handle.
 
 ### -field nIDOld
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT_PTR</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT_PTR</a></b>
 
 If 
 					<b>hInstOld</b> is <b>NULL</b>, set this member to the bitmap handle of the bitmap that is being replaced. Otherwise, set it to the resource identifier of the bitmap being replaced.
 
 ### -field hInstNew
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HINSTANCE</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HINSTANCE</a></b>
 
 Module instance handle that contains the new bitmap resource. Set this member to <b>NULL</b> to instead use a bitmap handle.
 
 ### -field nIDNew
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT_PTR</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT_PTR</a></b>
 
 If 
 					<b>hInstNew</b> is <b>NULL</b>, set this member to the bitmap handle of the bitmap with the new button images. Otherwise, set it to the resource identifier of the bitmap with the new button images.
@@ -91,5 +91,4 @@ Number of button images contained in the new bitmap. The number of new images sh
 ## -remarks
 
 If 
-				<b>nIDNew</b> holds a bitmap handle, rather than a resource ID, do not destroy the bitmap until it has been replaced with <a href="https://docs.microsoft.com/windows/desktop/Controls/tb-replacebitmap">TB_REPLACEBITMAP</a>, or the toolbar is destroyed.
-
+				<b>nIDNew</b> holds a bitmap handle, rather than a resource ID, do not destroy the bitmap until it has been replaced with <a href="/windows/desktop/Controls/tb-replacebitmap">TB_REPLACEBITMAP</a>, or the toolbar is destroyed.

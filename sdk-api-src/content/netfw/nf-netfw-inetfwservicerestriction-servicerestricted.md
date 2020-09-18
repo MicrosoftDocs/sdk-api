@@ -183,5 +183,4 @@ The method failed due to an invalid pointer.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/netfw/nn-netfw-inetfwservicerestriction">INetFwServiceRestriction</a>
-
+<a href="/windows/desktop/api/netfw/nn-netfw-inetfwservicerestriction">INetFwServiceRestriction</a>

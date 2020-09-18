@@ -77,5 +77,4 @@ There is no guarantee that this method will be invoked for all files.  Only file
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmpservices/nn-wmpservices-iwmpgraphcreation">IWMPGraphCreation Interface</a>
-
+<a href="/windows/desktop/api/wmpservices/nn-wmpservices-iwmpgraphcreation">IWMPGraphCreation Interface</a>

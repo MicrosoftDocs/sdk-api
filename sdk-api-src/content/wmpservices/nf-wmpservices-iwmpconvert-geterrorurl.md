@@ -70,5 +70,4 @@ This is a synchronous call. Your code must complete and return as quickly as pos
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmpservices/nn-wmpservices-iwmpconvert">IWMPConvert Interface</a>
-
+<a href="/windows/desktop/api/wmpservices/nn-wmpservices-iwmpconvert">IWMPConvert Interface</a>

@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>MCIWndOpen</b> macro opens an MCI device and associates it with an MCIWnd window. For MCI devices that use data files, this macro can also open a specified data file, name a new file to be created, or display a dialog box to let the user select a file to open. You can use this macro or explicitly send the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/mciwndm-open">MCIWNDM_OPEN</a> message.
+The <b>MCIWndOpen</b> macro opens an MCI device and associates it with an MCIWnd window. For MCI devices that use data files, this macro can also open a specified data file, name a new file to be created, or display a dialog box to let the user select a file to open. You can use this macro or explicitly send the <a href="/windows/desktop/Multimedia/mciwndm-open">MCIWNDM_OPEN</a> message.
 
 ## -parameters
 
@@ -65,4 +65,3 @@ Pointer to a null-terminated string identifying the filename or MCI Device Names
 ### -param f
 
 Flags associated with the device or file to open. The MCIWNDOPENF_NEW flag specifies a new file is to be created with the name specified in szFile.
-

@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Returns an initialized and instantiated  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/syncregistration/nn-syncregistration-iregisteredsyncprovider">IRegisteredSyncProvider</a> object for the specific unique instance ID.
+Returns an initialized and instantiated  <a href="/previous-versions/windows/desktop/api/syncregistration/nn-syncregistration-iregisteredsyncprovider">IRegisteredSyncProvider</a> object for the specific unique instance ID.
 
 ## -parameters
 
@@ -145,18 +145,17 @@ A synchronization provider with the specified instance ID was not registered.
 
 ## -remarks
 
-<div class="alert"><b>Note</b>  The caller of this method should not explicitly call <b>IRegisteredSyncProvider::Init</b>on the <b>IRegisteredSyncProvider</b> object that is returned, as this method will do this on the caller's behalf. The caller should call <b>QueryInterface</b> on the <b>IRegisteredSyncProvider</b> object that is returned to obtain an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncprovider">ISyncProvider</a> interface to pass to the synchronization session.</div>
+<div class="alert"><b>Note</b>  The caller of this method should not explicitly call <b>IRegisteredSyncProvider::Init</b>on the <b>IRegisteredSyncProvider</b> object that is returned, as this method will do this on the caller's behalf. The caller should call <b>QueryInterface</b> on the <b>IRegisteredSyncProvider</b> object that is returned to obtain an <a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncprovider">ISyncProvider</a> interface to pass to the synchronization session.</div>
 <div> </div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/syncregistration/nn-syncregistration-iregisteredsyncprovider">IRegisteredSyncProvider Interface</a>
+<a href="/previous-versions/windows/desktop/api/syncregistration/nn-syncregistration-iregisteredsyncprovider">IRegisteredSyncProvider Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncprovider">ISyncProvider Interface</a>
+<a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncprovider">ISyncProvider Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/syncregistration/nn-syncregistration-isyncproviderregistration">ISyncProviderRegistration Interface</a>
-
+<a href="/previous-versions/windows/desktop/api/syncregistration/nn-syncregistration-isyncproviderregistration">ISyncProviderRegistration Interface</a>

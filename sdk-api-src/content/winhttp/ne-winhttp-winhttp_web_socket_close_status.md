@@ -111,17 +111,16 @@ The
 
 ## -remarks
 
-<b>WINHTTP_WEB_SOCKET_CLOSE_STATUS</b> is used by <a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpwebsocketclose">WinHttpWebSocketClose</a>, <a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpwebsocketshutdown">WinHttpWebSocketShutdown</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpwebsocketqueryclosestatus">WinHttpWebSocketQueryCloseStatus</a>.
+<b>WINHTTP_WEB_SOCKET_CLOSE_STATUS</b> is used by <a href="/windows/desktop/api/winhttp/nf-winhttp-winhttpwebsocketclose">WinHttpWebSocketClose</a>, <a href="/windows/desktop/api/winhttp/nf-winhttp-winhttpwebsocketshutdown">WinHttpWebSocketShutdown</a>, and <a href="/windows/desktop/api/winhttp/nf-winhttp-winhttpwebsocketqueryclosestatus">WinHttpWebSocketQueryCloseStatus</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpwebsocketclose">WinHttpWebSocketClose</a>
+<a href="/windows/desktop/api/winhttp/nf-winhttp-winhttpwebsocketclose">WinHttpWebSocketClose</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpwebsocketqueryclosestatus">WinHttpWebSocketQueryCloseStatus</a>
+<a href="/windows/desktop/api/winhttp/nf-winhttp-winhttpwebsocketqueryclosestatus">WinHttpWebSocketQueryCloseStatus</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpwebsocketshutdown">WinHttpWebSocketShutdown</a>
-
+<a href="/windows/desktop/api/winhttp/nf-winhttp-winhttpwebsocketshutdown">WinHttpWebSocketShutdown</a>

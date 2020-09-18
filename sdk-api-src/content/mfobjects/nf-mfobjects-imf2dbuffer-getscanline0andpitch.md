@@ -61,7 +61,7 @@ Receives a pointer to the first byte of the top row of pixels in the image.
 
 ### -param plPitch [out]
 
-Receives the stride, in bytes. For more information, see <a href="https://docs.microsoft.com/windows/desktop/medfound/image-stride">Image Stride</a>.
+Receives the stride, in bytes. For more information, see <a href="/windows/desktop/medfound/image-stride">Image Stride</a>.
 
 ## -returns
 
@@ -98,17 +98,16 @@ You must lock the buffer before calling this method.
 
 ## -remarks
 
-Before calling this method, you must lock the buffer by calling <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imf2dbuffer-lock2d">IMF2DBuffer::Lock2D</a>. The pointer returned in <i>plPitch</i> is valid only while the buffer remains locked.
+Before calling this method, you must lock the buffer by calling <a href="/windows/desktop/api/mfobjects/nf-mfobjects-imf2dbuffer-lock2d">IMF2DBuffer::Lock2D</a>. The pointer returned in <i>plPitch</i> is valid only while the buffer remains locked.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imf2dbuffer">IMF2DBuffer</a>
+<a href="/windows/desktop/api/mfobjects/nn-mfobjects-imf2dbuffer">IMF2DBuffer</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-buffers">Media Buffers</a>
+<a href="/windows/desktop/medfound/media-buffers">Media Buffers</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/uncompressed-video-buffers">Uncompressed Video Buffers</a>
-
+<a href="/windows/desktop/medfound/uncompressed-video-buffers">Uncompressed Video Buffers</a>

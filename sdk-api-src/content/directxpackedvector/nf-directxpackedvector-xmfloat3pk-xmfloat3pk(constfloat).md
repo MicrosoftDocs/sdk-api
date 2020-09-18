@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Initializes a new instance of <a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmfloat3pk">XMFLOAT3PK</a> from a three element <code>float</code> array argument.
+Initializes a new instance of <a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmfloat3pk">XMFLOAT3PK</a> from a three element <code>float</code> array argument.
 
 This constructor initializes a new instance of **XMFLOAT3PK** from a three element <code>float</code>  array argument.
 
@@ -77,7 +77,6 @@ Because of the change in floating point format during the instantiation of an in
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmfloat3pk">XMFLOAT3PK</a>
+<a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmfloat3pk">XMFLOAT3PK</a>
 
-<a href="https://docs.microsoft.com/windows/desktop/dxmath/xmfloat3pk-ctor">XMFLOAT3PK Constructors</a>
-
+<a href="/windows/desktop/dxmath/xmfloat3pk-ctor">XMFLOAT3PK Constructors</a>

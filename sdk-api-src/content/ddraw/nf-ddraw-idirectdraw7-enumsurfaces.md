@@ -94,7 +94,7 @@ Searches for any surface that does not match the surface description.
 
 ### -param arg2 [in]
 
-Address of a <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff550340(v=vs.85)">DDSURFACEDESC2</a> structure that defines the surface of interest. This parameter can be NULL if <i>dwFlags</i> includes the DDENUMSURFACES_ALL flag.
+Address of a <a href="/previous-versions/windows/hardware/drivers/ff550340(v=vs.85)">DDSURFACEDESC2</a> structure that defines the surface of interest. This parameter can be NULL if <i>dwFlags</i> includes the DDENUMSURFACES_ALL flag.
 
 ### -param arg3 [in]
 
@@ -102,7 +102,7 @@ Address of an application-defined structure to be passed to each enumeration mem
 
 ### -param arg4 [in]
 
-Address of the <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nc-ddraw-lpddenumsurfacescallback7">EnumSurfacesCallback7</a> function that the enumeration procedure calls every time a match is found.
+Address of the <a href="/windows/desktop/api/ddraw/nc-ddraw-lpddenumsurfacescallback7">EnumSurfacesCallback7</a> function that the enumeration procedure calls every time a match is found.
 
 ## -returns
 
@@ -121,17 +121,16 @@ If it fails, the method can return one of the following error values:
 
 If the DDENUMSURFACES_CANBECREATED flag is set, this method attempts to temporarily create a surface that meets the search criterion.
 
-When you use the DDENUMSURFACES_DOESEXIST flag, an enumerated surface's reference count is incremented—if you are not going to use the surface, be sure to use <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">IDirectDrawSurface7::Release</a> to release it after each enumeration. If you will be using the surface, release it when it is no longer needed.
+When you use the DDENUMSURFACES_DOESEXIST flag, an enumerated surface's reference count is incremented—if you are not going to use the surface, be sure to use <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">IDirectDrawSurface7::Release</a> to release it after each enumeration. If you will be using the surface, release it when it is no longer needed.
 
 
 
-This method differs from its counterparts in previous interface versions in that it accepts a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nc-ddraw-lpddenumsurfacescallback7">EnumSurfacesCallback7</a> function, rather than an <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nc-ddraw-lpddenumsurfacescallback">EnumSurfacesCallback</a> or <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nc-ddraw-lpddenumsurfacescallback2">EnumSurfacesCallback2</a> function.
+This method differs from its counterparts in previous interface versions in that it accepts a pointer to an <a href="/windows/desktop/api/ddraw/nc-ddraw-lpddenumsurfacescallback7">EnumSurfacesCallback7</a> function, rather than an <a href="/windows/desktop/api/ddraw/nc-ddraw-lpddenumsurfacescallback">EnumSurfacesCallback</a> or <a href="/windows/desktop/api/ddraw/nc-ddraw-lpddenumsurfacescallback2">EnumSurfacesCallback2</a> function.
 
 
 
-You must use <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> to explicitly link to Ddraw.dll and then use <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> to access the  <b>IDirectDraw7::EnumSurfaces</b> method.
+You must use <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> to explicitly link to Ddraw.dll and then use <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> to access the  <b>IDirectDraw7::EnumSurfaces</b> method.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nn-ddraw-idirectdraw7">IDirectDraw7</a>
-
+<a href="/windows/desktop/api/ddraw/nn-ddraw-idirectdraw7">IDirectDraw7</a>

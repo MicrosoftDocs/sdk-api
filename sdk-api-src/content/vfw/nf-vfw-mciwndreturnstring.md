@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>MCIWndReturnString</b> macro retrieves the reply to the most recent MCI string command sent to an MCI device. Information in the reply is supplied as a null-terminated string. You can use this macro or explicitly send the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/mciwndm-returnstring">MCIWNDM_RETURNSTRING</a> message.
+The <b>MCIWndReturnString</b> macro retrieves the reply to the most recent MCI string command sent to an MCI device. Information in the reply is supplied as a null-terminated string. You can use this macro or explicitly send the <a href="/windows/desktop/Multimedia/mciwndm-returnstring">MCIWNDM_RETURNSTRING</a> message.
 
 ## -parameters
 
@@ -69,4 +69,3 @@ Size, in bytes, of the buffer.
 ## -remarks
 
 If the null-terminated string is longer than the buffer, the string is truncated.
-

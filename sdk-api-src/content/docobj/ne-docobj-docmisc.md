@@ -62,11 +62,11 @@ Object supports multiple views.
 
 ### -field DOCMISC_SUPPORTCOMPLEXRECTANGLES
 
-Object supports complex rectangles and therefore implements <a href="https://docs.microsoft.com/windows/desktop/api/docobj/nf-docobj-ioledocumentview-setrectcomplex">IOleDocumentView::SetRectComplex</a>.
+Object supports complex rectangles and therefore implements <a href="/windows/desktop/api/docobj/nf-docobj-ioledocumentview-setrectcomplex">IOleDocumentView::SetRectComplex</a>.
 
 ### -field DOCMISC_CANTOPENEDIT
 
-Object supports activation in a separate window and therefore implements <a href="https://docs.microsoft.com/windows/desktop/api/docobj/nf-docobj-ioledocumentview-open">IOleDocumentView::Open</a>.
+Object supports activation in a separate window and therefore implements <a href="/windows/desktop/api/docobj/nf-docobj-ioledocumentview-open">IOleDocumentView::Open</a>.
 
 ### -field DOCMISC_NOFILESUPPORT
 
@@ -74,29 +74,28 @@ Object does not support file read/write.
 
 ## -remarks
 
-Objects that have a limited user interface for activation purposes should set DOCMISC_CANTOPENEDIT. Those that support <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ipersiststorage">IPersistStorage</a> only as a persistence mechanism should specify DOCMISC_NOFILESUPPORT. Otherwise, an object must also implement <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ipersistfile">IPersistFile</a>.
+Objects that have a limited user interface for activation purposes should set DOCMISC_CANTOPENEDIT. Those that support <a href="/windows/desktop/api/objidl/nn-objidl-ipersiststorage">IPersistStorage</a> only as a persistence mechanism should specify DOCMISC_NOFILESUPPORT. Otherwise, an object must also implement <a href="/windows/desktop/api/objidl/nn-objidl-ipersistfile">IPersistFile</a>.
 
-A combination of values from <b>DOCMISC</b> is returned at the location specified by the <i>pdwStatus</i> parameter in <a href="https://docs.microsoft.com/windows/desktop/api/docobj/nf-docobj-ioledocument-getdocmiscstatus">IOleDocument::GetDocMiscStatus</a>.
+A combination of values from <b>DOCMISC</b> is returned at the location specified by the <i>pdwStatus</i> parameter in <a href="/windows/desktop/api/docobj/nf-docobj-ioledocument-getdocmiscstatus">IOleDocument::GetDocMiscStatus</a>.
 
 If an object requires none of these flags, it must write a zero to the <i>pdwStatus</i> parameter.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/docobj/nf-docobj-ioledocument-getdocmiscstatus">IOleDocument::GetDocMiscStatus</a>
+<a href="/windows/desktop/api/docobj/nf-docobj-ioledocument-getdocmiscstatus">IOleDocument::GetDocMiscStatus</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/docobj/nf-docobj-ioledocumentview-open">IOleDocumentView::Open</a>
+<a href="/windows/desktop/api/docobj/nf-docobj-ioledocumentview-open">IOleDocumentView::Open</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/docobj/nf-docobj-ioledocumentview-setrectcomplex">IOleDocumentView::SetRectComplex</a>
+<a href="/windows/desktop/api/docobj/nf-docobj-ioledocumentview-setrectcomplex">IOleDocumentView::SetRectComplex</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ipersistfile">IPersistFile</a>
+<a href="/windows/desktop/api/objidl/nn-objidl-ipersistfile">IPersistFile</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ipersiststorage">IPersistStorage</a>
-
+<a href="/windows/desktop/api/objidl/nn-objidl-ipersiststorage">IPersistStorage</a>

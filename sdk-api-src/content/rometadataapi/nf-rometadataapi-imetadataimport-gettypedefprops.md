@@ -72,7 +72,7 @@ The number of wide characters returned in <i>szTypeDef</i>.
 
 ### -param pdwTypeDefFlags [out]
 
-A pointer to any flags that modify the type definition. This value is a bitmask from the <a href="https://docs.microsoft.com/dotnet/framework/unmanaged-api/metadata/cortypeattr-enumeration">CorTypeAttr</a> enumeration.
+A pointer to any flags that modify the type definition. This value is a bitmask from the <a href="/dotnet/framework/unmanaged-api/metadata/cortypeattr-enumeration">CorTypeAttr</a> enumeration.
 
 ### -param ptkExtends [out]
 
@@ -84,5 +84,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rometadataapi/nn-rometadataapi-imetadataimport">IMetaDataImport</a>
-
+<a href="/windows/desktop/api/rometadataapi/nn-rometadataapi-imetadataimport">IMetaDataImport</a>

@@ -68,7 +68,7 @@ Specifies the number of attributes to check.
 
 ### -param paFilterAttrs [in]
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/TSF/ts-attrid">TS_ATTRID</a> data type that specifies the attribute to check. Pre-defined attributes are given in tsattrs.h.
+Pointer to the <a href="/windows/desktop/TSF/ts-attrid">TS_ATTRID</a> data type that specifies the attribute to check. Pre-defined attributes are given in tsattrs.h.
 
 ### -param dwFlags [in]
 
@@ -165,15 +165,14 @@ The character positions specified are beyond the text in the document.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nn-textstor-itextstoreanchor">ITextStoreAnchor</a>
+<a href="/windows/desktop/api/textstor/nn-textstor-itextstoreanchor">ITextStoreAnchor</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/TSF/ts-attrid">TS_ATTRID
+<a href="/windows/desktop/TSF/ts-attrid">TS_ATTRID
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/TSF/ts-attr--constants">TS_ATTR_* Constants
+<a href="/windows/desktop/TSF/ts-attr--constants">TS_ATTR_* Constants
       </a>
-

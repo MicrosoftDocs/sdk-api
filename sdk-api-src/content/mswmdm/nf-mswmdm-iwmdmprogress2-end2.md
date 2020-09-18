@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-The <b>End2</b> method extends <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmprogress-end">IWMDMProgress::End</a> by providing a completion status indicator.
+The <b>End2</b> method extends <a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmprogress-end">IWMDMProgress::End</a> by providing a completion status indicator.
 
 ## -parameters
 
@@ -68,7 +68,7 @@ The return value from the method is ignored by Windows Media Device Manager.
 <b>IWMDMProgress2</b> is a callback interface provided by the application to Windows Media Device Manager for a particular operation. <b>End2</b> is called when that operation is completed. The <i>hrCompletionCode</i> parameter is the completion status of the operation that was in progress. For example, an application can provide an <b>IWMDMProgress2</b> interface pointer to the <b>Insert2</b> method. When the file transfer done by <b>Insert2</b> is completed, <b>End2</b> is called on the <b>IWMDMProgress2</b> interface pointer with the completion status of the file transfer as the <i>hrCompletion</i> parameter.
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmprogress3-end3">IWMDMProgress3::End3</a> provides more information, and should be implemented instead of this method.
+<a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmprogress3-end3">IWMDMProgress3::End3</a> provides more information, and should be implemented instead of this method.
 
 
 #### Examples
@@ -89,13 +89,12 @@ HRESULT Progress(DWORD  dwTranspiredTicks)
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/WMDM/enabling-notifications">Enabling Notifications</a>
+<a href="/windows/desktop/WMDM/enabling-notifications">Enabling Notifications</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmprogress2">IWMDMProgress2 Interface</a>
+<a href="/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmprogress2">IWMDMProgress2 Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmprogress3-end3">IWMDMProgress3::End3</a>
-
+<a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmprogress3-end3">IWMDMProgress3::End3</a>

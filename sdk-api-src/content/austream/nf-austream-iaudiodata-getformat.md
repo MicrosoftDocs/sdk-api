@@ -58,7 +58,7 @@ The <code>GetFormat</code> method retrieves the current data format.
 
 ### -param pWaveFormatCurrent [out]
 
-Pointer to a <a href="https://docs.microsoft.com/previous-versions/dd757713(v=vs.85)">WAVEFORMATEX</a> structure that contains the current data format.
+Pointer to a <a href="/previous-versions/dd757713(v=vs.85)">WAVEFORMATEX</a> structure that contains the current data format.
 
 ## -returns
 
@@ -70,9 +70,8 @@ Currently, Microsoft DirectShow supports only PCM wave data.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/austream/nn-austream-iaudiodata">IAudioData Interface</a>
+<a href="/windows/desktop/api/austream/nn-austream-iaudiodata">IAudioData Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/austream/nf-austream-iaudiodata-setformat">IAudioData::SetFormat</a>
-
+<a href="/windows/desktop/api/austream/nf-austream-iaudiodata-setformat">IAudioData::SetFormat</a>

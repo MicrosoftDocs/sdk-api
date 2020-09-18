@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[<a href="https://docs.microsoft.com/previous-versions/windows/desktop/bb540725(v=vs.85)">Removable Storage Manager</a> is no longer available as of Windows 7 and  Windows Server 2008 R2.]
+<p class="CCE_Message">[<a href="/previous-versions/windows/desktop/bb540725(v=vs.85)">Removable Storage Manager</a> is no longer available as of Windows 7 and  Windows Server 2008 R2.]
 
 The 
 <b>SatisfyNtmsOperatorRequest</b> function completes the specified RSM operator request.
@@ -60,12 +60,12 @@ The
 ### -param hSession [in]
 
 Handle to the session returned by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/nf-ntmsapi-openntmssessiona">OpenNtmsSession</a> function.
+<a href="/windows/desktop/api/ntmsapi/nf-ntmsapi-openntmssessiona">OpenNtmsSession</a> function.
 
 ### -param lpRequestId [in]
 
 Operator request object ID. This value is returned by 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/nf-ntmsapi-submitntmsoperatorrequesta">SubmitNtmsOperatorRequest</a>.
+<a href="/windows/desktop/api/ntmsapi/nf-ntmsapi-submitntmsoperatorrequesta">SubmitNtmsOperatorRequest</a>.
 
 ## -returns
 
@@ -118,21 +118,20 @@ If an application detects that the operator did not acknowledge a satisfied oper
 
 For a list of the existing operator requests to cancel with the 
 <b>SatisfyNtmsOperatorRequest</b> function, see the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/nf-ntmsapi-enumeratentmsobject">EnumerateNtmsObject</a> function.
+<a href="/windows/desktop/api/ntmsapi/nf-ntmsapi-enumeratentmsobject">EnumerateNtmsObject</a> function.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/nf-ntmsapi-cancelntmsoperatorrequest">CancelNtmsOperatorRequest</a>
+<a href="/windows/desktop/api/ntmsapi/nf-ntmsapi-cancelntmsoperatorrequest">CancelNtmsOperatorRequest</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/rsm/removable-storage-manager-functions">Operator Request Functions</a>
+<a href="/previous-versions/windows/desktop/rsm/removable-storage-manager-functions">Operator Request Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/nf-ntmsapi-submitntmsoperatorrequesta">SubmitNtmsOperatorRequest</a>
+<a href="/windows/desktop/api/ntmsapi/nf-ntmsapi-submitntmsoperatorrequesta">SubmitNtmsOperatorRequest</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/nf-ntmsapi-waitforntmsoperatorrequest">WaitForNtmsOperatorRequest</a>
-
+<a href="/windows/desktop/api/ntmsapi/nf-ntmsapi-waitforntmsoperatorrequest">WaitForNtmsOperatorRequest</a>

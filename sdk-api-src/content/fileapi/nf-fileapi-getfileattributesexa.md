@@ -62,7 +62,7 @@ api_name:
 Retrieves attributes for a specified file or directory.
 
 To perform this operation as a transacted operation, use the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getfileattributestransacteda">GetFileAttributesTransacted</a> function.
+    <a href="/windows/desktop/api/winbase/nf-winbase-getfileattributestransacteda">GetFileAttributesTransacted</a> function.
 
 ## -parameters
 
@@ -73,9 +73,9 @@ The name of the file or directory.
 In the ANSI version of this function, the name is limited to <b>MAX_PATH</b> characters. 
        To extend this limit to 32,767 wide characters, call the Unicode version of the function (<b>GetFileAttributesExW</b>), and prepend 
        "\\\\?\\" to the path. For more information, see 
-       <a href="https://docs.microsoft.com/windows/desktop/FileIO/naming-a-file">Naming a File</a>.
+       <a href="/windows/desktop/FileIO/naming-a-file">Naming a File</a>.
 
-<div class="alert"><b>Tip</b>  Starting in Windows 10, version 1607, for the unicode version of this function (<b>GetFileAttributesExW</b>), you can opt-in to remove the <b>MAX_PATH</b> character limitation without prepending "\\?\". See the "Maximum Path Limitation" section of  <a href="https://docs.microsoft.com/windows/desktop/FileIO/naming-a-file">Naming Files, Paths, and Namespaces</a> for details. </div>
+<div class="alert"><b>Tip</b>  Starting in Windows 10, version 1607, for the unicode version of this function (<b>GetFileAttributesExW</b>), you can opt-in to remove the <b>MAX_PATH</b> character limitation without prepending "\\?\". See the "Maximum Path Limitation" section of  <a href="/windows/desktop/FileIO/naming-a-file">Naming Files, Paths, and Namespaces</a> for details. </div>
 <div> </div>
 
 ### -param fInfoLevelId [in]
@@ -83,7 +83,7 @@ In the ANSI version of this function, the name is limited to <b>MAX_PATH</b> cha
 A class of attribute information to retrieve.
 
 This parameter can be the following value from the 
-      <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ne-minwinbase-get_fileex_info_levels">GET_FILEEX_INFO_LEVELS</a> enumeration.
+      <a href="/windows/desktop/api/minwinbase/ne-minwinbase-get_fileex_info_levels">GET_FILEEX_INFO_LEVELS</a> enumeration.
 
 <table>
 <tr>
@@ -97,7 +97,7 @@ This parameter can be the following value from the
 </td>
 <td width="60%">
 The <i>lpFileInformation</i> parameter is a 
-        <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/ns-fileapi-win32_file_attribute_data">WIN32_FILE_ATTRIBUTE_DATA</a> 
+        <a href="/windows/desktop/api/fileapi/ns-fileapi-win32_file_attribute_data">WIN32_FILE_ATTRIBUTE_DATA</a> 
         structure.
 
 </td>
@@ -116,11 +116,11 @@ The type of attribute information that is stored into this buffer is determined 
 If the function succeeds, the return value is a nonzero value.
 
 If the function fails, the return value is zero (0). To get extended error information, call 
-       <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+       <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-getfileattributesa">GetFileAttributes</a> function retrieves file 
+The <a href="/windows/desktop/api/fileapi/nf-fileapi-getfileattributesa">GetFileAttributes</a> function retrieves file 
     system attribute information. <b>GetFileAttributesEx</b> 
     can obtain other sets of file or directory attribute information. Currently, 
     <b>GetFileAttributesEx</b> retrieves a set of standard 
@@ -130,7 +130,7 @@ When the <b>GetFileAttributesEx</b> function is
     called on a directory that is a mounted folder, it returns the attributes of the directory, not those of the root 
     directory in the volume that the mounted folder associates with the directory. To obtain the attributes of the 
     associated volume, call 
-    <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-getvolumenameforvolumemountpointw">GetVolumeNameForVolumeMountPoint</a> to 
+    <a href="/windows/desktop/api/fileapi/nf-fileapi-getvolumenameforvolumemountpointw">GetVolumeNameForVolumeMountPoint</a> to 
     obtain the name of the associated volume. Then use the resulting name in a call to 
     <b>GetFileAttributesEx</b>. The results are the attributes 
     of the root directory on the associated volume.
@@ -214,25 +214,24 @@ If a file is open for modification in a transaction, no other thread can open th
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/file-attribute-constants">File Attribute Constants</a>
+<a href="/windows/desktop/FileIO/file-attribute-constants">File Attribute Constants</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/file-management-functions">File Management Functions</a>
+<a href="/windows/desktop/FileIO/file-management-functions">File Management Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-getfileattributesa">GetFileAttributes</a>
+<a href="/windows/desktop/api/fileapi/nf-fileapi-getfileattributesa">GetFileAttributes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getfileattributestransacteda">GetFileAttributesTransacted</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-getfileattributestransacteda">GetFileAttributesTransacted</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-setfileattributesa">SetFileAttributes</a>
+<a href="/windows/desktop/api/fileapi/nf-fileapi-setfileattributesa">SetFileAttributes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/symbolic-links">Symbolic Links</a>
-
+<a href="/windows/desktop/FileIO/symbolic-links">Symbolic Links</a>

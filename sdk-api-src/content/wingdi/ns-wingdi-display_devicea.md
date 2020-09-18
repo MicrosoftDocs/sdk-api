@@ -56,13 +56,13 @@ api_name:
 
 ## -description
 
-The <b>DISPLAY_DEVICE</b> structure receives information about the display device specified by the <i>iDevNum</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-enumdisplaydevicesa">EnumDisplayDevices</a> function.
+The <b>DISPLAY_DEVICE</b> structure receives information about the display device specified by the <i>iDevNum</i> parameter of the <a href="/windows/desktop/api/winuser/nf-winuser-enumdisplaydevicesa">EnumDisplayDevices</a> function.
 
 ## -struct-fields
 
 ### -field cb
 
-Size, in bytes, of the <b>DISPLAY_DEVICE</b> structure. This must be initialized prior to calling <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-enumdisplaydevicesa">EnumDisplayDevices</a>.
+Size, in bytes, of the <b>DISPLAY_DEVICE</b> structure. This must be initialized prior to calling <a href="/windows/desktop/api/winuser/nf-winuser-enumdisplaydevicesa">EnumDisplayDevices</a>.
 
 ### -field DeviceName
 
@@ -89,7 +89,7 @@ Device state flags. It can be any reasonable combination of the following.
 </tr>
 <tr>
 <td>DISPLAY_DEVICE_MIRRORING_DRIVER</td>
-<td>Represents a pseudo device used to mirror application drawing for remoting or other purposes. An invisible pseudo monitor is associated with this device. For example, NetMeeting uses it. Note that <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getsystemmetrics">GetSystemMetrics</a> (SM_MONITORS) only accounts for visible display monitors.</td>
+<td>Represents a pseudo device used to mirror application drawing for remoting or other purposes. An invisible pseudo monitor is associated with this device. For example, NetMeeting uses it. Note that <a href="/windows/desktop/api/winuser/nf-winuser-getsystemmetrics">GetSystemMetrics</a> (SM_MONITORS) only accounts for visible display monitors.</td>
 </tr>
 <tr>
 <td>DISPLAY_DEVICE_MODESPRUNED</td>
@@ -119,7 +119,7 @@ Reserved.
 
 ## -remarks
 
-The four string members are set based on the parameters passed to <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-enumdisplaydevicesa">EnumDisplayDevices</a>. If the <i>lpDevice</i> param is <b>NULL</b>, then DISPLAY_DEVICE is filled in with information about the display adapter(s). If it is a valid device name, then it is filled in with information about the monitor(s) for that device.
+The four string members are set based on the parameters passed to <a href="/windows/desktop/api/winuser/nf-winuser-enumdisplaydevicesa">EnumDisplayDevices</a>. If the <i>lpDevice</i> param is <b>NULL</b>, then DISPLAY_DEVICE is filled in with information about the display adapter(s). If it is a valid device name, then it is filled in with information about the monitor(s) for that device.
 
 
 
@@ -130,18 +130,17 @@ The four string members are set based on the parameters passed to <a href="https
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/device-context-structures">Device Context Structures</a>
+<a href="/windows/desktop/gdi/device-context-structures">Device Context Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/device-contexts">Device Contexts Overview</a>
+<a href="/windows/desktop/gdi/device-contexts">Device Contexts Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-enumdisplaydevicesa">EnumDisplayDevices
+<a href="/windows/desktop/api/winuser/nf-winuser-enumdisplaydevicesa">EnumDisplayDevices
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getsystemmetrics">GetSystemMetrics</a>
-
+<a href="/windows/desktop/api/winuser/nf-winuser-getsystemmetrics">GetSystemMetrics</a>

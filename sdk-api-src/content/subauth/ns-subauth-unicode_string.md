@@ -55,7 +55,7 @@ api_name:
 
 ## -description
 
-The <b>UNICODE_STRING</b> structure is used by various <a href="https://docs.microsoft.com/windows/desktop/SecGloss/l-gly">Local Security Authority</a> (LSA) functions to specify a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/u-gly">Unicode</a> string.
+The <b>UNICODE_STRING</b> structure is used by various <a href="/windows/desktop/SecGloss/l-gly">Local Security Authority</a> (LSA) functions to specify a <a href="/windows/desktop/SecGloss/u-gly">Unicode</a> string.
 
 ## -struct-fields
 
@@ -76,4 +76,3 @@ Specifies the total size, in bytes, of memory allocated for <b>Buffer</b>. Up to
 Pointer to a wide-character string. Note that the strings returned by the various LSA functions might not be <b>null</b>-terminated.
 
 <b>Windows 7, Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:  </b>When the <b>Length</b> structure member is zero and the <b>MaximumLength</b> structure member is 1, the <b>Buffer</b> structure member can be an empty string or contain solely a null character. This behavior changed beginning with Windows Server 2008 R2 and Windows 7 with SP1.
-

@@ -56,11 +56,11 @@ The <b>PATHOBJ_bPolyBezierTo</b> function draws Bezier curves on a path.
 
 ### -param ppo
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-pathobj">PATHOBJ</a> structure created by the driver.
+Pointer to the <a href="/windows/desktop/api/winddi/ns-winddi-pathobj">PATHOBJ</a> structure created by the driver.
 
 ### -param pptfx
 
-Pointer to the array of POINTFIX structures that define control points. Each set of three control points, along with the preceding control point, or current position, determines a Bezier curve. For a description of this data type, see <a href="https://docs.microsoft.com/windows-hardware/drivers/display/gdi-data-types">GDI Data Types</a>.
+Pointer to the array of POINTFIX structures that define control points. Each set of three control points, along with the preceding control point, or current position, determines a Bezier curve. For a description of this data type, see <a href="/windows-hardware/drivers/display/gdi-data-types">GDI Data Types</a>.
 
 ### -param cptfx
 
@@ -72,17 +72,16 @@ The return value is <b>TRUE</b> if the function is successful. Otherwise, it is 
 
 ## -remarks
 
-<b>PATHOBJ_bPolyBezierTo</b> must be called only with a PATHOBJ structure created by <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engcreatepath">EngCreatePath</a>.
+<b>PATHOBJ_bPolyBezierTo</b> must be called only with a PATHOBJ structure created by <a href="/windows/desktop/api/winddi/nf-winddi-engcreatepath">EngCreatePath</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engcreatepath">EngCreatePath</a>
+<a href="/windows/desktop/api/winddi/nf-winddi-engcreatepath">EngCreatePath</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-pathobj">PATHOBJ</a>
+<a href="/windows/desktop/api/winddi/ns-winddi-pathobj">PATHOBJ</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-pathobj_bpolylineto">PATHOBJ_bPolyLineTo</a>
-
+<a href="/windows/desktop/api/winddi/nf-winddi-pathobj_bpolylineto">PATHOBJ_bPolyLineTo</a>

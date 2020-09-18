@@ -72,7 +72,7 @@ Type: <b>HRESULT</b>
 
 If all of the 
 						<i>Count</i> undo operations were performed, it returns <b>S_OK</b>. If the method fails, it returns <b>S_FALSE</b>, indicating that less than 
-						<i>Count</i> undo operations were performed. For more information on COM error codes, see <a href="https://docs.microsoft.com/windows/desktop/com/error-handling-in-com">Error Handling in COM</a>.
+						<i>Count</i> undo operations were performed. For more information on COM error codes, see <a href="/windows/desktop/com/error-handling-in-com">Error Handling in COM</a>.
 
 ## -see-also
 
@@ -80,11 +80,11 @@ If all of the
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextdocument">ITextDocument</a>
+<a href="/windows/desktop/api/tom/nn-tom-itextdocument">ITextDocument</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextdocument-redo">Redo</a>
+<a href="/windows/desktop/api/tom/nf-tom-itextdocument-redo">Redo</a>
 
 
 
@@ -92,5 +92,4 @@ If all of the
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Controls/text-object-model">Text Object Model</a>
-
+<a href="/windows/desktop/Controls/text-object-model">Text Object Model</a>

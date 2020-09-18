@@ -57,24 +57,24 @@ api_name:
 
 ## -description
 
-The <b>GetExplicitEntriesFromAcl</b> function retrieves an array of structures that describe the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">access control entries</a> (ACEs) in an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">access control list</a> (ACL).
+The <b>GetExplicitEntriesFromAcl</b> function retrieves an array of structures that describe the <a href="/windows/desktop/SecGloss/a-gly">access control entries</a> (ACEs) in an <a href="/windows/desktop/SecGloss/a-gly">access control list</a> (ACL).
 
 ## -parameters
 
 ### -param pacl [in]
 
 A pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-acl">ACL</a> structure from which to get 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/ace">ACE</a> information.
+<a href="/windows/desktop/api/winnt/ns-winnt-acl">ACL</a> structure from which to get 
+<a href="/windows/desktop/SecAuthZ/ace">ACE</a> information.
 
 ### -param pcCountOfExplicitEntries [out]
 
-A pointer to a variable that receives the number of <a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ns-accctrl-explicit_access_a">EXPLICIT_ACCESS</a> structures returned in the <i>pListOfExplicitEntries</i> array.
+A pointer to a variable that receives the number of <a href="/windows/desktop/api/accctrl/ns-accctrl-explicit_access_a">EXPLICIT_ACCESS</a> structures returned in the <i>pListOfExplicitEntries</i> array.
 
 ### -param pListOfExplicitEntries [out]
 
-A pointer to a variable that receives a pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ns-accctrl-explicit_access_a">EXPLICIT_ACCESS</a> structures that describe the ACEs in the ACL. If the function succeeds, you must call the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localfree">LocalFree</a> function to free the returned buffer.
+A pointer to a variable that receives a pointer to an array of <a href="/windows/desktop/api/accctrl/ns-accctrl-explicit_access_a">EXPLICIT_ACCESS</a> structures that describe the ACEs in the ACL. If the function succeeds, you must call the 
+<a href="/windows/desktop/api/winbase/nf-winbase-localfree">LocalFree</a> function to free the returned buffer.
 
 ## -returns
 
@@ -85,14 +85,14 @@ If the function fails, it returns a nonzero error code defined in WinError.h.
 ## -remarks
 
 Each entry in the array of 
-<a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ns-accctrl-explicit_access_a">EXPLICIT_ACCESS</a> structures describes access control information from an 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/ace">ACE</a> for a trustee. A trustee can be a user, group, or program (such as a Windows service).
+<a href="/windows/desktop/api/accctrl/ns-accctrl-explicit_access_a">EXPLICIT_ACCESS</a> structures describes access control information from an 
+<a href="/windows/desktop/SecAuthZ/ace">ACE</a> for a trustee. A trustee can be a user, group, or program (such as a Windows service).
 
-Each <a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ns-accctrl-explicit_access_a">EXPLICIT_ACCESS</a> structure specifies a set of access rights and an access mode flag that indicates whether the ACE allows, denies, or audits the specified rights.
+Each <a href="/windows/desktop/api/accctrl/ns-accctrl-explicit_access_a">EXPLICIT_ACCESS</a> structure specifies a set of access rights and an access mode flag that indicates whether the ACE allows, denies, or audits the specified rights.
 
-For a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/d-gly">discretionary access control list</a> (DACL), the access mode flag can be  either GRANT_ACCESS or DENY_ACCESS. For information about these values, see <a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ne-accctrl-access_mode">ACCESS_MODE</a>.
+For a <a href="/windows/desktop/SecGloss/d-gly">discretionary access control list</a> (DACL), the access mode flag can be  either GRANT_ACCESS or DENY_ACCESS. For information about these values, see <a href="/windows/desktop/api/accctrl/ne-accctrl-access_mode">ACCESS_MODE</a>.
 
-For a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">system access control list</a> (SACL), the access mode flag can be SET_AUDIT_ACCESS, SET_AUDIT_FAILURE, or both. For information about these values, see <a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ne-accctrl-access_mode">ACCESS_MODE</a>.
+For a <a href="/windows/desktop/SecGloss/s-gly">system access control list</a> (SACL), the access mode flag can be SET_AUDIT_ACCESS, SET_AUDIT_FAILURE, or both. For information about these values, see <a href="/windows/desktop/api/accctrl/ne-accctrl-access_mode">ACCESS_MODE</a>.
 
 
 
@@ -103,41 +103,40 @@ For a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">system
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-access_allowed_ace">ACCESS_ALLOWED_ACE</a>
+<a href="/windows/desktop/api/winnt/ns-winnt-access_allowed_ace">ACCESS_ALLOWED_ACE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-access_denied_ace">ACCESS_DENIED_ACE</a>
+<a href="/windows/desktop/api/winnt/ns-winnt-access_denied_ace">ACCESS_DENIED_ACE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ne-accctrl-access_mode">ACCESS_MODE</a>
+<a href="/windows/desktop/api/accctrl/ne-accctrl-access_mode">ACCESS_MODE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/ace">ACE</a>
+<a href="/windows/desktop/SecAuthZ/ace">ACE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-acl">ACL</a>
+<a href="/windows/desktop/api/winnt/ns-winnt-acl">ACL</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/access-control">Access Control</a>
+<a href="/windows/desktop/SecAuthZ/access-control">Access Control</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/authorization-functions">Basic Access Control Functions</a>
+<a href="/windows/desktop/SecAuthZ/authorization-functions">Basic Access Control Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ns-accctrl-explicit_access_a">EXPLICIT_ACCESS</a>
+<a href="/windows/desktop/api/accctrl/ns-accctrl-explicit_access_a">EXPLICIT_ACCESS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localfree">LocalFree</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-localfree">LocalFree</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-system_audit_ace">SYSTEM_AUDIT_ACE</a>
-
+<a href="/windows/desktop/api/winnt/ns-winnt-system_audit_ace">SYSTEM_AUDIT_ACE</a>

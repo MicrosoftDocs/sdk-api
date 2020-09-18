@@ -59,7 +59,7 @@ The index of the tag description to be fetched.
 
 ### -param tagDescription
 
-Type: **[DIAGNOSTIC_DATA_EVENT_TAG_DESCRIPTION\*](/windows/win32/api/diagnosticdataquerytypes/ns-diagnosticdataquerytypes-diagnostic_data_event_tag_description)**
+Type: **[DIAGNOSTIC_DATA_EVENT_TAG_DESCRIPTION\*](../diagnosticdataquerytypes/ns-diagnosticdataquerytypes-diagnostic_data_event_tag_description.md)**
 This outpoint parameter is a pointer to the tag description that was fetched.
 
 ## -returns
@@ -70,4 +70,3 @@ Returns S_OK on successful completion.
 ## -remarks
 
 ## -see-also
-

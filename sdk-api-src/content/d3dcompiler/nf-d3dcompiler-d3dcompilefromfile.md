@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-<div class="alert"><b>Note</b>  You can use this API to develop your Windows Store apps, but you can't use it in apps that you submit to the Windows Store. Refer to the section, "Compiling shaders for UWP", in the remarks for <a href="https://docs.microsoft.com/windows/desktop/direct3dhlsl/d3dcompile2">D3DCompile2</a>.</div><div> </div>Compiles Microsoft High Level Shader Language (HLSL) code into bytecode for a given target.
+<div class="alert"><b>Note</b>  You can use this API to develop your Windows Store apps, but you can't use it in apps that you submit to the Windows Store. Refer to the section, "Compiling shaders for UWP", in the remarks for <a href="/windows/desktop/direct3dhlsl/d3dcompile2">D3DCompile2</a>.</div><div> </div>Compiles Microsoft High Level Shader Language (HLSL) code into bytecode for a given target.
 
 ## -parameters
 
@@ -60,11 +60,11 @@ A pointer to a constant null-terminated string that contains  the name of the fi
 
 ### -param pDefines [in, optional]
 
-An optional array of <a href="https://docs.microsoft.com/windows/desktop/api/d3dcommon/ns-d3dcommon-d3d_shader_macro">D3D_SHADER_MACRO</a> structures that define shader macros. Each macro definition contains a name and a NULL-terminated definition. If not used, set to <b>NULL</b>.
+An optional array of <a href="/windows/desktop/api/d3dcommon/ns-d3dcommon-d3d_shader_macro">D3D_SHADER_MACRO</a> structures that define shader macros. Each macro definition contains a name and a NULL-terminated definition. If not used, set to <b>NULL</b>.
 
 ### -param pInclude [in, optional]
 
- An optional pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/d3dcommon/nn-d3dcommon-id3dinclude">ID3DInclude</a> interface that the compiler uses to handle include files. If you set this parameter to <b>NULL</b> and the shader contains a #include, a compile error occurs. You can pass the <b>D3D_COMPILE_STANDARD_FILE_INCLUDE</b> macro, which is a pointer to a default include handler. This default include handler includes files that are relative to the current directory.
+ An optional pointer to an <a href="/windows/desktop/api/d3dcommon/nn-d3dcommon-id3dinclude">ID3DInclude</a> interface that the compiler uses to handle include files. If you set this parameter to <b>NULL</b> and the shader contains a #include, a compile error occurs. You can pass the <b>D3D_COMPILE_STANDARD_FILE_INCLUDE</b> macro, which is a pointer to a default include handler. This default include handler includes files that are relative to the current directory.
 
 
 ```
@@ -78,27 +78,27 @@ A pointer to a constant null-terminated string that contains  the name of the sh
 
 ### -param pTarget [in]
 
-A pointer to a constant null-terminated string that specifies the shader target or set of shader features to compile against. The shader target can be a shader model (for example, shader model 2, shader model 3, shader model 4, or shader model 5 and later). The target can also be an effect type (for example, fx_4_1). For info about the targets that various profiles support, see <a href="https://docs.microsoft.com/windows/desktop/direct3dhlsl/specifying-compiler-targets">Specifying Compiler Targets</a>.
+A pointer to a constant null-terminated string that specifies the shader target or set of shader features to compile against. The shader target can be a shader model (for example, shader model 2, shader model 3, shader model 4, or shader model 5 and later). The target can also be an effect type (for example, fx_4_1). For info about the targets that various profiles support, see <a href="/windows/desktop/direct3dhlsl/specifying-compiler-targets">Specifying Compiler Targets</a>.
 
 ### -param Flags1 [in]
 
-A combination of shader <a href="https://docs.microsoft.com/windows/desktop/direct3dhlsl/d3dcompile-constants">compile options</a> that are combined by using a bitwise <b>OR</b> operation. The resulting value specifies how the compiler compiles the HLSL code.
+A combination of shader <a href="/windows/desktop/direct3dhlsl/d3dcompile-constants">compile options</a> that are combined by using a bitwise <b>OR</b> operation. The resulting value specifies how the compiler compiles the HLSL code.
 
 ### -param Flags2 [in]
 
-A combination of effect <a href="https://docs.microsoft.com/windows/desktop/direct3dhlsl/d3dcompile-effect-constants">compile options</a> that are combined by using a bitwise <b>OR</b> operation. The resulting value specifies how the compiler compiles the effect. When you compile a shader and not an effect file, <b>D3DCompileFromFile</b> ignores <i>Flags2</i>; we recommend that you set <i>Flags2</i> to zero because it is good programming practice to set a nonpointer parameter to zero if the called function will not use it.
+A combination of effect <a href="/windows/desktop/direct3dhlsl/d3dcompile-effect-constants">compile options</a> that are combined by using a bitwise <b>OR</b> operation. The resulting value specifies how the compiler compiles the effect. When you compile a shader and not an effect file, <b>D3DCompileFromFile</b> ignores <i>Flags2</i>; we recommend that you set <i>Flags2</i> to zero because it is good programming practice to set a nonpointer parameter to zero if the called function will not use it.
 
 ### -param ppCode [out]
 
-A pointer to a variable that receives a pointer to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ff728743(v=vs.85)">ID3DBlob</a> interface that you can use to access the compiled code.
+A pointer to a variable that receives a pointer to the <a href="/previous-versions/windows/desktop/legacy/ff728743(v=vs.85)">ID3DBlob</a> interface that you can use to access the compiled code.
 
 ### -param ppErrorMsgs [out, optional]
 
-An optional pointer to a variable that receives a pointer to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ff728743(v=vs.85)">ID3DBlob</a> interface that you can use to access compiler error messages, or <b>NULL</b> if there are no errors.
+An optional pointer to a variable that receives a pointer to the <a href="/previous-versions/windows/desktop/legacy/ff728743(v=vs.85)">ID3DBlob</a> interface that you can use to access compiler error messages, or <b>NULL</b> if there are no errors.
 
 ## -returns
 
-Returns one of the <a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d11-graphics-reference-returnvalues">Direct3D 11 return codes</a>.
+Returns one of the <a href="/windows/desktop/direct3d11/d3d11-graphics-reference-returnvalues">Direct3D 11 return codes</a>.
 
 ## -remarks
 
@@ -107,5 +107,4 @@ Returns one of the <a href="https://docs.microsoft.com/windows/desktop/direct3d1
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3dhlsl/dx-graphics-d3dcompiler-reference-functions">Functions</a>
-
+<a href="/windows/desktop/direct3dhlsl/dx-graphics-d3dcompiler-reference-functions">Functions</a>

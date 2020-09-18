@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Performs operations required before calling <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-imalloc-free">IMalloc::Free</a>. This method ensures that the pointer passed to <b>Free</b> points to the beginning of the actual allocation.
+Performs operations required before calling <a href="/windows/desktop/api/objidl/nf-objidl-imalloc-free">IMalloc::Free</a>. This method ensures that the pointer passed to <b>Free</b> points to the beginning of the actual allocation.
 
 ## -parameters
 
 ### -param pRequest [in]
 
-A pointer to the block of memory that the caller is passing to <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-imalloc-free">Free</a>.
+A pointer to the block of memory that the caller is passing to <a href="/windows/desktop/api/objidl/nf-objidl-imalloc-free">Free</a>.
 
 ### -param fSpyed [in]
 
@@ -64,21 +64,20 @@ Indicates whether the block of memory to be freed was allocated while the curren
 
 ## -returns
 
-The value to be passed  to <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-imalloc-free">IMalloc::Free</a>.
+The value to be passed  to <a href="/windows/desktop/api/objidl/nf-objidl-imalloc-free">IMalloc::Free</a>.
 
 ## -remarks
 
-If <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-imallocspy-prealloc">IMallocSpy::PreAlloc</a> modified the original allocation request passed to <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-imalloc-alloc">IMalloc::Alloc</a> (or <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-imalloc-realloc">IMalloc::Realloc</a>), <b>PreFree</b> must supply a pointer to the actual allocation, which COM will pass to <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-imalloc-free">IMalloc::Free</a>. For example, if the <b>PreAlloc</b>/<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-imallocspy-postalloc">PostAlloc</a> pair attached a header used to store debug information to the beginning of the caller's allocation, <b>PreFree</b> must return a pointer to the beginning of this header so that all of the block that was allocated can be freed.
+If <a href="/windows/desktop/api/objidl/nf-objidl-imallocspy-prealloc">IMallocSpy::PreAlloc</a> modified the original allocation request passed to <a href="/windows/desktop/api/objidl/nf-objidl-imalloc-alloc">IMalloc::Alloc</a> (or <a href="/windows/desktop/api/objidl/nf-objidl-imalloc-realloc">IMalloc::Realloc</a>), <b>PreFree</b> must supply a pointer to the actual allocation, which COM will pass to <a href="/windows/desktop/api/objidl/nf-objidl-imalloc-free">IMalloc::Free</a>. For example, if the <b>PreAlloc</b>/<a href="/windows/desktop/api/objidl/nf-objidl-imallocspy-postalloc">PostAlloc</a> pair attached a header used to store debug information to the beginning of the caller's allocation, <b>PreFree</b> must return a pointer to the beginning of this header so that all of the block that was allocated can be freed.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-imalloc-free">IMalloc::Free</a>
+<a href="/windows/desktop/api/objidl/nf-objidl-imalloc-free">IMalloc::Free</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imallocspy">IMallocSpy</a>
+<a href="/windows/desktop/api/objidl/nn-objidl-imallocspy">IMallocSpy</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-imallocspy-postfree">IMallocSpy::PostFree</a>
-
+<a href="/windows/desktop/api/objidl/nf-objidl-imallocspy-postfree">IMallocSpy::PostFree</a>

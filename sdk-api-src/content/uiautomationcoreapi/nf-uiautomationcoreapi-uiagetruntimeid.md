@@ -68,11 +68,10 @@ The address of a variable that receives a pointer to a <a href="/windows/win32/a
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 Returns S_OK if successful or an error value otherwise.
 
 ## -remarks
 
 The runtime identifier should be treated as an opaque value and used only for comparison.
-

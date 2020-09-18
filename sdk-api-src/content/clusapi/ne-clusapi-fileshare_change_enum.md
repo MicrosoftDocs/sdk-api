@@ -55,7 +55,7 @@ api_name:
 ## -description
 
 Contains the possible change events that are used by the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/ns-clusapi-fileshare_change">FILESHARE_CHANGE</a> structure to describe an entry in a 
+    <a href="/windows/desktop/api/clusapi/ns-clusapi-fileshare_change">FILESHARE_CHANGE</a> structure to describe an entry in a 
     file share event notification list.
 
 ## -enum-fields
@@ -86,9 +86,8 @@ One or more properties of an existing file share resource have been changed.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clusapi/ns-clusapi-fileshare_change">FILESHARE_CHANGE</a>
+<a href="/windows/desktop/api/clusapi/ns-clusapi-fileshare_change">FILESHARE_CHANGE</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-enumerations">Failover Cluster Enumerations</a>
-
+<a href="/previous-versions/windows/desktop/mscs/cluster-enumerations">Failover Cluster Enumerations</a>

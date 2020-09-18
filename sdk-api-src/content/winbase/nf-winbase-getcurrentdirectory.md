@@ -80,7 +80,7 @@ If the function succeeds, the return value specifies the number of characters th
        not including the terminating null character.
 
 If the function fails, the return value is zero. To get extended error information, call 
-       <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+       <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 If the buffer that is pointed to by <i>lpBuffer</i> is not large enough, the return value 
        specifies the required size of the buffer, in characters, including the null-terminating character.
@@ -95,10 +95,10 @@ Each process has a single current directory that consists of two parts:
 <li>A directory on the disk designator</li>
 </ul>
 To set the current directory, use the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-setcurrentdirectory">SetCurrentDirectory</a> function.
+    <a href="/windows/desktop/api/winbase/nf-winbase-setcurrentdirectory">SetCurrentDirectory</a> function.
 
 Multithreaded applications and shared library code should not use the   
-    <b>GetCurrentDirectory</b> function and should avoid using relative path names. The current directory state written by the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-setcurrentdirectory">SetCurrentDirectory</a> function is stored as a global variable in each process, therefore multithreaded applications cannot reliably use this value without possible data corruption from other threads that may also be reading or setting this value. This limitation also applies to the <b>SetCurrentDirectory</b> and <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-getfullpathnamea">GetFullPathName</a> functions. The exception being when the application is guaranteed to be running in a single thread, for example parsing file names from the command line argument string in the main thread prior to creating any additional threads. Using relative path names in multithreaded applications or shared library code can yield unpredictable results and is not supported.
+    <b>GetCurrentDirectory</b> function and should avoid using relative path names. The current directory state written by the <a href="/windows/desktop/api/winbase/nf-winbase-setcurrentdirectory">SetCurrentDirectory</a> function is stored as a global variable in each process, therefore multithreaded applications cannot reliably use this value without possible data corruption from other threads that may also be reading or setting this value. This limitation also applies to the <b>SetCurrentDirectory</b> and <a href="/windows/desktop/api/fileapi/nf-fileapi-getfullpathnamea">GetFullPathName</a> functions. The exception being when the application is guaranteed to be running in a single thread, for example parsing file names from the command line argument string in the main thread prior to creating any additional threads. Using relative path names in multithreaded applications or shared library code can yield unpredictable results and is not supported.
 
 In Windows 8 and Windows Server 2012, this function is supported by the following technologies.
 
@@ -164,31 +164,30 @@ Yes
 #### Examples
 
 For an example, see 
-     <a href="https://docs.microsoft.com/windows/desktop/FileIO/changing-the-current-directory">Changing the Current Directory</a>.
+     <a href="/windows/desktop/FileIO/changing-the-current-directory">Changing the Current Directory</a>.
 
 <div class="code"></div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createdirectorya">CreateDirectory</a>
+<a href="/windows/desktop/api/fileapi/nf-fileapi-createdirectorya">CreateDirectory</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/directory-management-functions">Directory Management Functions</a>
+<a href="/windows/desktop/FileIO/directory-management-functions">Directory Management Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getsystemdirectorya">GetSystemDirectory</a>
+<a href="/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getsystemdirectorya">GetSystemDirectory</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getwindowsdirectorya">GetWindowsDirectory</a>
+<a href="/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getwindowsdirectorya">GetWindowsDirectory</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-removedirectorya">RemoveDirectory</a>
+<a href="/windows/desktop/api/fileapi/nf-fileapi-removedirectorya">RemoveDirectory</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-setcurrentdirectory">SetCurrentDirectory</a>
-
+<a href="/windows/desktop/api/winbase/nf-winbase-setcurrentdirectory">SetCurrentDirectory</a>

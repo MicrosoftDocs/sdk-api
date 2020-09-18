@@ -62,7 +62,7 @@ Handle to an open stream.
 
 ### -param lpInfo
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/vfw/ns-vfw-avistreaminfoa">AVISTREAMINFO</a> structure containing new information.
+Pointer to an <a href="/windows/desktop/api/vfw/ns-vfw-avistreaminfoa">AVISTREAMINFO</a> structure containing new information.
 
 ### -param cbInfo
 
@@ -74,7 +74,7 @@ Returns zero if successful or an error otherwise.
 
 ## -remarks
 
-You must supply information for the entire <a href="https://docs.microsoft.com/windows/desktop/api/vfw/ns-vfw-avistreaminfoa">AVISTREAMINFO</a> structure, including the members you will not use. You can use the <a href="https://docs.microsoft.com/windows/desktop/api/vfw/nf-vfw-avistreaminfoa">AVIStreamInfo</a> function to initialize the structure and then update selected members with your data.
+You must supply information for the entire <a href="/windows/desktop/api/vfw/ns-vfw-avistreaminfoa">AVISTREAMINFO</a> structure, including the members you will not use. You can use the <a href="/windows/desktop/api/vfw/nf-vfw-avistreaminfoa">AVIStreamInfo</a> function to initialize the structure and then update selected members with your data.
 
 This function does not change the following members:
 
@@ -110,9 +110,8 @@ The function changes the following members:
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/avifile-functions">AVIFile Functions</a>
+<a href="/windows/desktop/Multimedia/avifile-functions">AVIFile Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/avifile-functions-and-macros">AVIFile Functions and Macros</a>
-
+<a href="/windows/desktop/Multimedia/avifile-functions-and-macros">AVIFile Functions and Macros</a>

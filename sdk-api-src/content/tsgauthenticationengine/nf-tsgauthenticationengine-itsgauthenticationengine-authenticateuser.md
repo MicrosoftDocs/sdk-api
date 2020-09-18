@@ -55,7 +55,7 @@ Authenticates a user.
 Remote Desktop Gateway (RD Gateway) calls this method when it receives a new connection request. The authentication plug-in 
     should authenticate the user based on the cookie  referenced by the <i>cookieData</i> 
     parameter. The authentication plug-in should then use the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/tsgauthenticationengine/nn-tsgauthenticationengine-itsgauthenticateusersink">ITSGAuthenticateUserSink</a> interface to notify 
+    <a href="/windows/desktop/api/tsgauthenticationengine/nn-tsgauthenticationengine-itsgauthenticateusersink">ITSGAuthenticateUserSink</a> interface to notify 
     RD Gateway about the result of authentication.
 
 ## -parameters
@@ -76,12 +76,12 @@ The number of bytes referenced by the <i>cookieData</i> parameter.
 
 A pointer to  a <b>ULONG</b> that contains  a value specific to this connection. This 
       value should be passed back to RD Gateway by using the methods of the 
-      <a href="https://docs.microsoft.com/windows/desktop/api/tsgauthenticationengine/nn-tsgauthenticationengine-itsgauthenticateusersink">ITSGAuthenticateUserSink</a> interface.
+      <a href="/windows/desktop/api/tsgauthenticationengine/nn-tsgauthenticationengine-itsgauthenticateusersink">ITSGAuthenticateUserSink</a> interface.
 
 ### -param pSink [in]
 
 A pointer to a 
-      <a href="https://docs.microsoft.com/windows/desktop/api/tsgauthenticationengine/nn-tsgauthenticationengine-itsgauthenticateusersink">ITSGAuthenticateUserSink</a> interface that 
+      <a href="/windows/desktop/api/tsgauthenticationengine/nn-tsgauthenticationengine-itsgauthenticateusersink">ITSGAuthenticateUserSink</a> interface that 
       the authentication plug-in must use to notify RD Gateway about the result of authentication.
 
 ## -returns
@@ -92,12 +92,11 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 If this method returns <b>S_OK</b>, RD Gateway waits for the authentication 
     plug-in to call a method of the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/tsgauthenticationengine/nn-tsgauthenticationengine-itsgauthenticateusersink">ITSGAuthenticateUserSink</a> interface. If any 
+    <a href="/windows/desktop/api/tsgauthenticationengine/nn-tsgauthenticationengine-itsgauthenticateusersink">ITSGAuthenticateUserSink</a> interface. If any 
     other value is returned, RD Gateway immediately denies the  connection request.
 
 For a sample that uses the <b>AuthenticateUser</b> method, see the [Remote Desktop Gateway Pluggable Authentication and Authorization](https://github.com/microsoftarchive/msdn-code-gallery-community-m-r/tree/master/Remote%20Desktop%20Gateway%20Pluggable%20Authentication%20and%20Authorization%20Sample) sample.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tsgauthenticationengine/nn-tsgauthenticationengine-itsgauthenticationengine">ITSGAuthenticationEngine</a>
-
+<a href="/windows/desktop/api/tsgauthenticationengine/nn-tsgauthenticationengine-itsgauthenticationengine">ITSGAuthenticationEngine</a>

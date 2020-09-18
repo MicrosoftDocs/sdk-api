@@ -56,9 +56,9 @@ Sets the background color of the preview handler.
 
 ### -param color [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/gdi/colorref">COLORREF</a></b>
+Type: <b><a href="/windows/desktop/gdi/colorref">COLORREF</a></b>
 
-A value of type <a href="https://docs.microsoft.com/windows/desktop/gdi/colorref">COLORREF</a> to use for the preview handler background.
+A value of type <a href="/windows/desktop/gdi/colorref">COLORREF</a> to use for the preview handler background.
 
 ## -returns
 
@@ -70,4 +70,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 <div class="alert"><b>Note</b>  These are suggestions. It is not compulsory for this method to be called. The preview handlers must be able to make their own decisions.</div>
 <div> </div>
-

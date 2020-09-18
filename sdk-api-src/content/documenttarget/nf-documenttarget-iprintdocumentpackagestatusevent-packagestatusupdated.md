@@ -64,9 +64,8 @@ If the <b>PackageStatusUpdated</b> method completes successfully, it returns an 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/documenttarget/nn-documenttarget-iprintdocumentpackagestatusevent">IPrintDocumentPackageStatusEvent</a>
+<a href="/windows/desktop/api/documenttarget/nn-documenttarget-iprintdocumentpackagestatusevent">IPrintDocumentPackageStatusEvent</a>
 
 
 
 <a href="/windows/win32/api/documenttarget/ns-documenttarget-printdocumentpackagestatus">PrintDocumentPackageStatus</a>
-

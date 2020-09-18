@@ -54,8 +54,8 @@ The
 				<b>NetServerComputerNameAdd</b> function enumerates the transports on which the specified server is active, and binds the emulated server name to each of the transports.
 
 <b>NetServerComputerNameAdd</b> is a utility function that combines the functionality of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmserver/nf-lmserver-netservertransportenum">NetServerTransportEnum</a> function and the 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmserver/nf-lmserver-netservertransportaddex">NetServerTransportAddEx</a> function.
+<a href="/windows/desktop/api/lmserver/nf-lmserver-netservertransportenum">NetServerTransportEnum</a> function and the 
+<a href="/windows/desktop/api/lmserver/nf-lmserver-netservertransportaddex">NetServerTransportAddEx</a> function.
 
 ## -parameters
 
@@ -151,7 +151,7 @@ The server specified by the <i>ServerName</i> parameter continues to support all
 Name emulation that results from a call to 
 <b>NetServerComputerNameAdd</b> ceases when the server reboots or restarts. To discontinue name emulation set by a previous call to 
 <b>NetServerComputerNameAdd</b> without restarting or rebooting, you can call the 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmserver/nf-lmserver-netservercomputernamedel">NetServerComputerNameDel</a> function.
+<a href="/windows/desktop/api/lmserver/nf-lmserver-netservercomputernamedel">NetServerComputerNameDel</a> function.
 
 The 
 <b>NetServerComputerNameAdd</b> function is typically used when a system administrator replaces a server, but wants to keep the conversion transparent to users. 
@@ -169,32 +169,31 @@ NetServerComputerNameAdd (Server1, NULL, Server2);
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmserver/nf-lmserver-netservercomputernamedel">NetServerComputerNameDel</a>
+<a href="/windows/desktop/api/lmserver/nf-lmserver-netservercomputernamedel">NetServerComputerNameDel</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmserver/nf-lmserver-netservertransportadd">NetServerTransportAdd</a>
+<a href="/windows/desktop/api/lmserver/nf-lmserver-netservertransportadd">NetServerTransportAdd</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmserver/nf-lmserver-netservertransportaddex">NetServerTransportAddEx</a>
+<a href="/windows/desktop/api/lmserver/nf-lmserver-netservertransportaddex">NetServerTransportAddEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmserver/nf-lmserver-netservertransportenum">NetServerTransportEnum</a>
+<a href="/windows/desktop/api/lmserver/nf-lmserver-netservertransportenum">NetServerTransportEnum</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management-functions">Network
+<a href="/windows/desktop/NetMgmt/network-management-functions">Network
 		  Management Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management">Network Management
+<a href="/windows/desktop/NetMgmt/network-management">Network Management
 		  Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/server-functions">Server
+<a href="/windows/desktop/NetMgmt/server-functions">Server
 		  Functions</a>
-

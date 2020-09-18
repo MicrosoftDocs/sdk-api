@@ -60,5 +60,4 @@ The APO connection property.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/audioengineendpoint/nn-audioengineendpoint-iaudioendpointlastbuffercontrol">IAudioEndpointLastBufferControl</a>
-
+<a href="/windows/desktop/api/audioengineendpoint/nn-audioengineendpoint-iaudioendpointlastbuffercontrol">IAudioEndpointLastBufferControl</a>

@@ -68,9 +68,8 @@ SHA1 hash of the certificate.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/eaptypes/ns-eaptypes-eapcredential">EapCredential</a>
+<a href="/windows/desktop/api/eaptypes/ns-eaptypes-eapcredential">EapCredential</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/eaptypes/ne-eaptypes-eapcredentialtype">EapCredentialType</a>
-
+<a href="/windows/desktop/api/eaptypes/ne-eaptypes-eapcredentialtype">EapCredentialType</a>

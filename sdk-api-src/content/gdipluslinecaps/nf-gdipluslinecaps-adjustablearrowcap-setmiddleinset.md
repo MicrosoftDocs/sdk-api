@@ -63,7 +63,7 @@ Real number that specifies the number of units that the midpoint of the base shi
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a></b>
+Type: <b><a href="/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a></b>
 
 If the method succeeds, it returns Ok, which is an element of the 
 						<b>Status</b> enumeration.
@@ -106,4 +106,3 @@ VOID Example_SetMiddleInset(HDC hdc)
    graphics.DrawLine(&arrowPen, Point(0, 0), Point(100, 100));
 }
 ```
-

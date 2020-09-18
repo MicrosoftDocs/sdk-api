@@ -64,7 +64,7 @@ The category identifier for the component.
 
 ### -field lcid
 
-The locale identifier. See <a href="https://docs.microsoft.com/windows/desktop/Intl/language-identifier-constants-and-strings">Language Identifier Constants and Strings</a>.
+The locale identifier. See <a href="/windows/desktop/Intl/language-identifier-constants-and-strings">Language Identifier Constants and Strings</a>.
 
 ### -field szDescription
 
@@ -72,5 +72,4 @@ The description of the category (cannot exceed 128 characters).
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/comcat/nn-comcat-icatregister">ICatRegister</a>
-
+<a href="/windows/desktop/api/comcat/nn-comcat-icatregister">ICatRegister</a>

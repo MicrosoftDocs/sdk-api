@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-The <b>EXTLOGPEN</b> structure defines the pen style, width, and brush attributes for an extended pen. This structure is used by the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getobject">GetObject</a> function when it retrieves a description of a pen that was created when an application called the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-extcreatepen">ExtCreatePen</a> function.
+The <b>EXTLOGPEN</b> structure defines the pen style, width, and brush attributes for an extended pen. This structure is used by the <a href="/windows/desktop/api/wingdi/nf-wingdi-getobject">GetObject</a> function when it retrieves a description of a pen that was created when an application called the <a href="/windows/desktop/api/wingdi/nf-wingdi-extcreatepen">ExtCreatePen</a> function.
 
 ## -struct-fields
 
@@ -157,7 +157,7 @@ The following category applies only to PS_GEOMETRIC pens. The <b>elpPenStyle</b>
 </tr>
 <tr>
 <td>PS_JOIN_MITER</td>
-<td>Line joins are mitered when they are within the current limit set by the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-setmiterlimit">SetMiterLimit</a> function. A join is beveled when it would exceed the limit.</td>
+<td>Line joins are mitered when they are within the current limit set by the <a href="/windows/desktop/api/wingdi/nf-wingdi-setmiterlimit">SetMiterLimit</a> function. A join is beveled when it would exceed the limit.</td>
 </tr>
 <tr>
 <td>PS_JOIN_ROUND</td>
@@ -206,11 +206,11 @@ The brush style of the pen. The <b>elpBrushStyle</b> member value can be one of 
 
 ### -field elpColor
 
-If <b>elpBrushStyle</b> is BS_SOLID or BS_HATCHED, <b>elpColor</b> specifies the color in which the pen is to be drawn. For BS_HATCHED, the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-setbkmode">SetBkMode</a> and <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-setbkcolor">SetBkColor</a> functions determine the background color.
+If <b>elpBrushStyle</b> is BS_SOLID or BS_HATCHED, <b>elpColor</b> specifies the color in which the pen is to be drawn. For BS_HATCHED, the <a href="/windows/desktop/api/wingdi/nf-wingdi-setbkmode">SetBkMode</a> and <a href="/windows/desktop/api/wingdi/nf-wingdi-setbkcolor">SetBkColor</a> functions determine the background color.
 
 If <b>elpBrushStyle</b> is BS_HOLLOW or BS_PATTERN, <b>elpColor</b> is ignored.
 
-If <b>elpBrushStyle</b> is BS_DIBPATTERN or BS_DIBPATTERNPT, the low-order word of <b>elpColor</b> specifies whether the <b>bmiColors</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-bitmapinfo">BITMAPINFO</a> structure contain explicit RGB values or indices into the currently realized logical palette. The <b>elpColor</b> value must be one of the following.
+If <b>elpBrushStyle</b> is BS_DIBPATTERN or BS_DIBPATTERNPT, the low-order word of <b>elpColor</b> specifies whether the <b>bmiColors</b> member of the <a href="/windows/desktop/api/wingdi/ns-wingdi-bitmapinfo">BITMAPINFO</a> structure contain explicit RGB values or indices into the currently realized logical palette. The <b>elpColor</b> value must be one of the following.
 
 <table>
 <tr>
@@ -228,7 +228,7 @@ If <b>elpBrushStyle</b> is BS_DIBPATTERN or BS_DIBPATTERNPT, the low-order word 
 </table>
  
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-rgb">RGB</a> macro is used to generate a <a href="https://docs.microsoft.com/windows/desktop/gdi/colorref">COLORREF</a> structure.
+The <a href="/windows/desktop/api/wingdi/nf-wingdi-rgb">RGB</a> macro is used to generate a <a href="/windows/desktop/gdi/colorref">COLORREF</a> structure.
 
 ### -field elpHatch
 
@@ -236,9 +236,9 @@ If <b>elpBrushStyle</b> is BS_PATTERN, <b>elpHatch</b> is a handle to the bitmap
 
 If <b>elpBrushStyle</b> is BS_SOLID or BS_HOLLOW, <b>elpHatch</b> is ignored.
 
-If <b>elpBrushStyle</b> is BS_DIBPATTERN, the <b>elpHatch</b> member is a handle to a packed DIB. To obtain this handle, an application calls the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-globalalloc">GlobalAlloc</a> function with GMEM_MOVEABLE (or <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localalloc">LocalAlloc</a> with LMEM_MOVEABLE) to allocate a block of memory and then fills the memory with the packed DIB. A packed DIB consists of a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-bitmapinfo">BITMAPINFO</a> structure immediately followed by the array of bytes that define the pixels of the bitmap.
+If <b>elpBrushStyle</b> is BS_DIBPATTERN, the <b>elpHatch</b> member is a handle to a packed DIB. To obtain this handle, an application calls the <a href="/windows/desktop/api/winbase/nf-winbase-globalalloc">GlobalAlloc</a> function with GMEM_MOVEABLE (or <a href="/windows/desktop/api/winbase/nf-winbase-localalloc">LocalAlloc</a> with LMEM_MOVEABLE) to allocate a block of memory and then fills the memory with the packed DIB. A packed DIB consists of a <a href="/windows/desktop/api/wingdi/ns-wingdi-bitmapinfo">BITMAPINFO</a> structure immediately followed by the array of bytes that define the pixels of the bitmap.
 
-If <b>elpBrushStyle</b> is BS_DIBPATTERNPT, the <b>elpHatch</b> member is a pointer to a packed DIB. The pointer derives from the memory block created by <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localalloc">LocalAlloc</a> with LMEM_FIXED set or by <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-globalalloc">GlobalAlloc</a> with GMEM_FIXED set, or it is the pointer returned by a call like <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-locallock">LocalLock</a> (handle_to_the_dib). A packed DIB consists of a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-bitmapinfo">BITMAPINFO</a> structure immediately followed by the array of bytes that define the pixels of the bitmap.
+If <b>elpBrushStyle</b> is BS_DIBPATTERNPT, the <b>elpHatch</b> member is a pointer to a packed DIB. The pointer derives from the memory block created by <a href="/windows/desktop/api/winbase/nf-winbase-localalloc">LocalAlloc</a> with LMEM_FIXED set or by <a href="/windows/desktop/api/winbase/nf-winbase-globalalloc">GlobalAlloc</a> with GMEM_FIXED set, or it is the pointer returned by a call like <a href="/windows/desktop/api/winbase/nf-winbase-locallock">LocalLock</a> (handle_to_the_dib). A packed DIB consists of a <a href="/windows/desktop/api/wingdi/ns-wingdi-bitmapinfo">BITMAPINFO</a> structure immediately followed by the array of bytes that define the pixels of the bitmap.
 
 If <b>elpBrushStyle</b> is BS_HATCHED, the <b>elpHatch</b> member specifies the orientation of the lines used to create the hatch. It can be one of the following values.
 
@@ -285,37 +285,36 @@ If <b>elpWidth</b> specifies geometric lines, the lengths are in logical units. 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-bitmapinfo">BITMAPINFO</a>
+<a href="/windows/desktop/api/wingdi/ns-wingdi-bitmapinfo">BITMAPINFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/colorref">COLORREF</a>
+<a href="/windows/desktop/gdi/colorref">COLORREF</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-extcreatepen">ExtCreatePen</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-extcreatepen">ExtCreatePen</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getobject">GetObject</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-getobject">GetObject</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/pen-structures">Pen Structures</a>
+<a href="/windows/desktop/gdi/pen-structures">Pen Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/pens">Pens Overview</a>
+<a href="/windows/desktop/gdi/pens">Pens Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-rgb">RGB</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-rgb">RGB</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-setbkcolor">SetBkColor</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-setbkcolor">SetBkColor</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-setbkmode">SetBkMode</a>
-
+<a href="/windows/desktop/api/wingdi/nf-wingdi-setbkmode">SetBkMode</a>

@@ -55,8 +55,8 @@ api_name:
 ## -description
 
 The <b>CMC_TAGGED_OTHER_MSG</b> structure is used in the 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cmc_data_info">CMC_DATA_INFO</a> and 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cmc_response_info">CMC_RESPONSE_INFO</a> structures.
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-cmc_data_info">CMC_DATA_INFO</a> and 
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-cmc_response_info">CMC_RESPONSE_INFO</a> structures.
 
 ## -struct-fields
 
@@ -70,5 +70,4 @@ Object identifier (OID) of the other message.
 
 ### -field Value
 
-A <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_OBJID_BLOB</a> structure that contains the encoded other message information.
-
+A <a href="/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_OBJID_BLOB</a> structure that contains the encoded other message information.

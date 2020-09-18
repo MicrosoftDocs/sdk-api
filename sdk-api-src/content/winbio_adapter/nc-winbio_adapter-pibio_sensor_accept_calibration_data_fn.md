@@ -56,7 +56,7 @@ Called by the Windows Biometric Framework to pass calibration data from the engi
 
 ### -param Pipeline [in, out]
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/winbio_adapter/ns-winbio_adapter-winbio_pipeline">WINBIO_PIPELINE</a> structure associated with the biometric unit performing the operation.
+Pointer to the <a href="/windows/desktop/api/winbio_adapter/ns-winbio_adapter-winbio_pipeline">WINBIO_PIPELINE</a> structure associated with the biometric unit performing the operation.
 
 ### -param CalibrationBuffer [in]
 
@@ -93,4 +93,3 @@ Any error code will cause the Biometric Service to discontinue the dynamic calib
 This method is called during a dynamic calibration loop.
 
 The memory holding the calibration buffer belongs to the Windows Biometric Framework, and the Sensor Adapter must not keep any pointers to this buffer once the <b>SensorAdapterAcceptCalibrationData</b> method returns.
-

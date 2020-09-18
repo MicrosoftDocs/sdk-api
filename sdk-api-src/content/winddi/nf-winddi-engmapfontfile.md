@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>EngMapFontFile</b> function is <b>obsolete</b>. Use <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engmapfontfilefd">EngMapFontFileFD</a> instead.
+The <b>EngMapFontFile</b> function is <b>obsolete</b>. Use <a href="/windows/desktop/api/winddi/nf-winddi-engmapfontfilefd">EngMapFontFileFD</a> instead.
 
 ## -parameters
 
@@ -59,4 +59,3 @@ The <b>EngMapFontFile</b> function is <b>obsolete</b>. Use <a href="https://docs
 ### -param ppjBuf
 
 ### -param pcjBuf
-

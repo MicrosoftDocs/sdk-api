@@ -65,7 +65,7 @@ Specifies a time-out value, in milliseconds. If the filter does not receive the 
 
 ### -param ppCAT [out]
 
-Receives an <a href="https://docs.microsoft.com/windows/desktop/api/mpeg2psiparser/nn-mpeg2psiparser-icat">ICAT</a> interface pointer. The caller must release the interface.
+Receives an <a href="/windows/desktop/api/mpeg2psiparser/nn-mpeg2psiparser-icat">ICAT</a> interface pointer. The caller must release the interface.
 
 ## -returns
 
@@ -139,5 +139,4 @@ The method returns the first CAT that is marked <i>current</i>; that is, one in 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/atscpsipparser/nn-atscpsipparser-iatscpsipparser">IAtscPsipParser Interface</a>
-
+<a href="/previous-versions/windows/desktop/api/atscpsipparser/nn-atscpsipparser-iatscpsipparser">IAtscPsipParser Interface</a>

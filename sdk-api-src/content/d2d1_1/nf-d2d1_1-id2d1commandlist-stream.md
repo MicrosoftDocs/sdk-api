@@ -56,7 +56,7 @@ Streams the contents of the command list  to the specified command sink.
 
 ### -param sink [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1commandsink">ID2D1CommandSink</a>*</b>
+Type: <b><a href="/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1commandsink">ID2D1CommandSink</a>*</b>
 
 The sink into which the command list will be streamed.
 
@@ -67,7 +67,7 @@ Type: <b>HRESULT</b>
 If the method succeeds, it returns <b>S_OK</b>. If it fails, it returns an <b>HRESULT</b> error code. 
 
 
-The return value indicates any failures the command sink implementation  returns through its <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1commandsink-enddraw">EndDraw</a> method.
+The return value indicates any failures the command sink implementation  returns through its <a href="/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1commandsink-enddraw">EndDraw</a> method.
 
 ## -remarks
 
@@ -110,5 +110,4 @@ StreamToMyCommandSink(
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1commandlist">ID2D1CommandList</a>
-
+<a href="/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1commandlist">ID2D1CommandList</a>

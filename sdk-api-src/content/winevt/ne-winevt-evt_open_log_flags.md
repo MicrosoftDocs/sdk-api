@@ -66,5 +66,4 @@ Open an exported log file.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winevt/nf-winevt-evtopenlog">EvtOpenLog</a>
-
+<a href="/windows/desktop/api/winevt/nf-winevt-evtopenlog">EvtOpenLog</a>

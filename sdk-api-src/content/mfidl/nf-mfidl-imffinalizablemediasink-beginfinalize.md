@@ -57,7 +57,7 @@ Notifies the media sink to asynchronously take any steps it needs to finish its 
 
 ### -param pCallback [in]
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfasynccallback">IMFAsyncCallback</a> interface of an asynchronous object. The caller must implement this interface.
+Pointer to the <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfasynccallback">IMFAsyncCallback</a> interface of an asynchronous object. The caller must implement this interface.
 
 ### -param punkState [in]
 
@@ -89,9 +89,8 @@ The method succeeded.
 
 Many archive media sinks have steps they need to do at the end of archiving to complete their file operations, such as updating the header (for some formats) or flushing all pending writes to disk. In some cases, this may include expensive operations such as indexing the content. <b>BeginFinalize</b> is an asynchronous way to initiate final tasks.
 
-When the finalize operation is complete, the callback object's <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfasynccallback-invoke">IMFAsyncCallback::Invoke</a> method is called. At that point, the application should call <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imffinalizablemediasink-endfinalize">IMFFinalizableMediaSink::EndFinalize</a> to complete the asynchronous request.
+When the finalize operation is complete, the callback object's <a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfasynccallback-invoke">IMFAsyncCallback::Invoke</a> method is called. At that point, the application should call <a href="/windows/desktop/api/mfidl/nf-mfidl-imffinalizablemediasink-endfinalize">IMFFinalizableMediaSink::EndFinalize</a> to complete the asynchronous request.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imffinalizablemediasink">IMFFinalizableMediaSink</a>
-
+<a href="/windows/desktop/api/mfidl/nn-mfidl-imffinalizablemediasink">IMFFinalizableMediaSink</a>

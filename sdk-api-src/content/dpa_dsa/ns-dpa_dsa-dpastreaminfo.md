@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-Contains a stream item used by the <a href="https://docs.microsoft.com/windows/desktop/api/dpa_dsa/nc-dpa_dsa-pfndpastream">PFNDPASTREAM</a> callback function.
+Contains a stream item used by the <a href="/windows/desktop/api/dpa_dsa/nc-dpa_dsa-pfndpastream">PFNDPASTREAM</a> callback function.
 
 ## -struct-fields
 
@@ -67,4 +67,3 @@ An index of the item in the DPA.
 Type: <b>void*</b>
 
 A void pointer to the item data.
-

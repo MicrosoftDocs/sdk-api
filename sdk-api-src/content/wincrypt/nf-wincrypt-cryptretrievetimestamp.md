@@ -88,7 +88,7 @@ Inhibit hash calculation on the array of bytes pointed to by the <i>pbData</i> p
 Enforce signature validation on the retrieved time stamp.
 
 
-<div class="alert"><b>Note</b>  The <b>TIMESTAMP_VERIFY_CONTEXT_SIGNATURE</b> flag is valid only      if the <b>fRequestCerts</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_timestamp_para">CRYPT_TIMESTAMP_PARA</a> pointed to by the <i>pPara</i> parameter is set to <b>TRUE</b>.</div>
+<div class="alert"><b>Note</b>  The <b>TIMESTAMP_VERIFY_CONTEXT_SIGNATURE</b> flag is valid only      if the <b>fRequestCerts</b> member of the <a href="/windows/desktop/api/wincrypt/ns-wincrypt-crypt_timestamp_para">CRYPT_TIMESTAMP_PARA</a> pointed to by the <i>pPara</i> parameter is set to <b>TRUE</b>.</div>
 <div> </div>
 
 
@@ -113,11 +113,11 @@ A <b>DWORD</b> value that specifies the maximum number of milliseconds to wait f
 
 ### -param pszHashId [in]
 
-A pointer to a null-terminated character string that contains the hash algorithm <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly">object identifier</a> (OID).
+A pointer to a null-terminated character string that contains the hash algorithm <a href="/windows/desktop/SecGloss/o-gly">object identifier</a> (OID).
 
 ### -param pPara [in, optional]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_timestamp_para">CRYPT_TIMESTAMP_PARA</a> structure that contains additional parameters for the request.
+A pointer to a <a href="/windows/desktop/api/wincrypt/ns-wincrypt-crypt_timestamp_para">CRYPT_TIMESTAMP_PARA</a> structure that contains additional parameters for the request.
 
 ### -param pbData [in]
 
@@ -129,14 +129,14 @@ The size, in bytes, of the array pointed to by the <i>pbData</i> parameter.
 
 ### -param ppTsContext [out]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_timestamp_context">PCRYPT_TIMESTAMP_CONTEXT</a> structure. When you have finished using the context, you must free it by calling the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptmemfree">CryptMemFree</a> function.
+A pointer to a <a href="/windows/desktop/api/wincrypt/ns-wincrypt-crypt_timestamp_context">PCRYPT_TIMESTAMP_CONTEXT</a> structure. When you have finished using the context, you must free it by calling the <a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptmemfree">CryptMemFree</a> function.
 
 ### -param ppTsSigner [out, optional]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">PCERT_CONTEXT</a> that
+A pointer to a <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">PCERT_CONTEXT</a> that
 receives the certificate of the signer.
      When you have finished using this structure, you must free it by passing this
-pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certfreecertificatecontext">CertFreeCertificateContext</a> function.
+pointer to the <a href="/windows/desktop/api/wincrypt/nf-wincrypt-certfreecertificatecontext">CertFreeCertificateContext</a> function.
 
 
 Set this parameter to <b>NULL</b> if the TSA signer's certificate is not needed.
@@ -145,13 +145,12 @@ Set this parameter to <b>NULL</b> if the TSA signer's certificate is not needed.
 
 The handle of a certificate store initialized with certificates from the time stamp response. This store can be used for validating the signer certificate of the time stamp response.
 
-This parameter can be <b>NULL</b> if the TSA supporting certificates are not needed. When you have finished using this handle,  release it by passing it to  the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certclosestore">CertCloseStore</a> function.
+This parameter can be <b>NULL</b> if the TSA supporting certificates are not needed. When you have finished using this handle,  release it by passing it to  the <a href="/windows/desktop/api/wincrypt/nf-wincrypt-certclosestore">CertCloseStore</a> function.
 
 ## -returns
 
-If the function is unable to retrieve, decode, and validate the time stamp context, it returns <b>FALSE</b>. For extended error information, call the <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function.
+If the function is unable to retrieve, decode, and validate the time stamp context, it returns <b>FALSE</b>. For extended error information, call the <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptverifytimestampsignature">CryptVerifyTimeStampSignature</a>
-
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptverifytimestampsignature">CryptVerifyTimeStampSignature</a>

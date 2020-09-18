@@ -55,7 +55,7 @@ api_name:
 
 Gets or sets the sharing property for a window.
 
-Whether a window is  shared or not also depends on the state of the parent application object and on the enabled state of the sharing filter. For more information about the enabled state of the sharing filter, see  <a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapiapplicationfilter-get_enabled">Enabled Property of IRDPSRAPIApplicationFilter</a>.
+Whether a window is  shared or not also depends on the state of the parent application object and on the enabled state of the sharing filter. For more information about the enabled state of the sharing filter, see  <a href="/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapiapplicationfilter-get_enabled">Enabled Property of IRDPSRAPIApplicationFilter</a>.
 
 This property is read/write.
 
@@ -63,5 +63,4 @@ This property is read/write.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapiwindow">IRDPSRAPIWindow</a>
-
+<a href="/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapiwindow">IRDPSRAPIWindow</a>

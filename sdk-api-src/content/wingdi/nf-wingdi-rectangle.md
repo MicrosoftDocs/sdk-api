@@ -95,20 +95,19 @@ If a PS_NULL pen is used, the dimensions of the rectangle are 1 pixel less in he
 
 #### Examples
 
-For an example, see <a href="https://docs.microsoft.com/windows/desktop/gdi/using-filled-shapes">Using Filled Shapes</a>.
+For an example, see <a href="/windows/desktop/gdi/using-filled-shapes">Using Filled Shapes</a>.
 
 <div class="code"></div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/filled-shape-functions">Filled Shape Functions</a>
+<a href="/windows/desktop/gdi/filled-shape-functions">Filled Shape Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/filled-shapes">Filled Shapes Overview</a>
+<a href="/windows/desktop/gdi/filled-shapes">Filled Shapes Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-roundrect">RoundRect
+<a href="/windows/desktop/api/wingdi/nf-wingdi-roundrect">RoundRect
       </a>
-

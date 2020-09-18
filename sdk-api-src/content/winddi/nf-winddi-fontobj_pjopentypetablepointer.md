@@ -56,7 +56,7 @@ The <b>FONTOBJ_pjOpenTypeTablePointer</b> function returns a pointer to a view o
 
 ### -param pfo
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-fontobj">FONTOBJ</a> that identifies the font whose OpenType table is being queried.
+Pointer to the <a href="/windows/desktop/api/winddi/ns-winddi-fontobj">FONTOBJ</a> that identifies the font whose OpenType table is being queried.
 
 ### -param ulTag
 
@@ -74,13 +74,12 @@ Pointer to the location in which GDI returns the size in bytes of the table bein
 
 <b>FONTOBJ_pjOpenTypeTablePointer</b> can be called by printer drivers that can download OpenType fonts or parts of OpenType fonts to the printer.
 
-The pointer to a table returned by <b>FONTOBJ_pjOpenTypeTablePointer</b> is guaranteed to be valid only during the scope of the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvtextout">DrvTextOut</a> call to which <i>pfo</i> is passed as a parameter.
+The pointer to a table returned by <b>FONTOBJ_pjOpenTypeTablePointer</b> is guaranteed to be valid only during the scope of the <a href="/windows/desktop/api/winddi/nf-winddi-drvtextout">DrvTextOut</a> call to which <i>pfo</i> is passed as a parameter.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvtextout">DrvTextOut</a>
+<a href="/windows/desktop/api/winddi/nf-winddi-drvtextout">DrvTextOut</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-fontobj">FONTOBJ</a>
-
+<a href="/windows/desktop/api/winddi/ns-winddi-fontobj">FONTOBJ</a>

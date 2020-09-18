@@ -75,20 +75,20 @@ Pointer to a <b>null</b>-terminated string that specifies an existing entry name
 ### -param arg3 [in, out]
 
 Pointer to a 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa377274(v=vs.85)">RASENTRY</a> structure followed by additional bytes for the alternate phone number list, if there is one. 
+<a href="/previous-versions/windows/desktop/legacy/aa377274(v=vs.85)">RASENTRY</a> structure followed by additional bytes for the alternate phone number list, if there is one. 
 
 
 
 
 On output, the structure receives the connection data associated with the phone-book entry specified by the <i>lpszEntry</i> parameter.
 
-On input, set the <b>dwSize</b> member of the structure to sizeof(<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa377274(v=vs.85)">RASENTRY</a>) to identify the version of the structure.
+On input, set the <b>dwSize</b> member of the structure to sizeof(<a href="/previous-versions/windows/desktop/legacy/aa377274(v=vs.85)">RASENTRY</a>) to identify the version of the structure.
 
 This parameter can be <b>NULL</b>.
 
 <b>Windows Me/98 and Windows 95 OSR2:  </b>The 
 Microsoft Layer for Unicode does not support <b>dwAlternateOffset</b> in 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa377274(v=vs.85)">RASENTRY</a>.
+<a href="/previous-versions/windows/desktop/legacy/aa377274(v=vs.85)">RASENTRY</a>.
 
 ### -param arg4 [in, out]
 
@@ -109,7 +109,7 @@ To determine the required buffer size, call
 This parameter is no longer used. The calling function should set this parameter to <b>NULL</b>.
 
 <b>Windows Me/98/95:  </b>Pointer to a buffer that receives device-specific configuration information. Do not directly manipulate this opaque TAPI device information. For more information about TAPI device configuration, see the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linegetdevconfig">lineGetDevConfig</a> function in the TAPI Programmer's Reference in the Platform SDK. 
+<a href="/windows/desktop/api/tapi/nf-tapi-linegetdevconfig">lineGetDevConfig</a> function in the TAPI Programmer's Reference in the Platform SDK. 
 
 
 This parameter can be <b>NULL</b>.
@@ -133,7 +133,7 @@ To determine the required buffer size, call
 
 If the function succeeds, the return value is <b>ERROR_SUCCESS</b>.
 
-If the function fails, the return value is one of the following error codes or a value from <a href="https://docs.microsoft.com/windows/desktop/RRAS/routing-and-remote-access-error-codes">Routing and Remote Access Error Codes</a> or Winerror.h.
+If the function fails, the return value is one of the following error codes or a value from <a href="/windows/desktop/RRAS/routing-and-remote-access-error-codes">Routing and Remote Access Error Codes</a> or Winerror.h.
 
 <table>
 <tr>
@@ -199,22 +199,21 @@ The phone-book entry does not exist, or the phone-book file is corrupted and/or 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa377274(v=vs.85)">RASENTRY</a>
+<a href="/previous-versions/windows/desktop/legacy/aa377274(v=vs.85)">RASENTRY</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ras/nf-ras-rassetentrypropertiesa">RasSetEntryProperties</a>
+<a href="/windows/desktop/api/ras/nf-ras-rassetentrypropertiesa">RasSetEntryProperties</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/about-remote-access-service">Remote Access Service (RAS) Overview</a>
+<a href="/windows/desktop/RRAS/about-remote-access-service">Remote Access Service (RAS) Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/remote-access-service-functions">Remote Access Service Functions</a>
+<a href="/windows/desktop/RRAS/remote-access-service-functions">Remote Access Service Functions</a>
 
 ## -remarks
 
 > [!NOTE]
 > The ras.h header defines RasGetEntryProperties as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

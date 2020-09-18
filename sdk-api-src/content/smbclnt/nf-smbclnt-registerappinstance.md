@@ -131,7 +131,7 @@ The CCF mini-filter is not found.
 <td width="60%">
 Another <i>AppInstance</i><b>GUID</b> is provided for the same 
         process, which means that the 
-        <a href="https://docs.microsoft.com/windows/desktop/api/smbclnt/nf-smbclnt-registerappinstance">RegisterAppInstance</a> function was called twice 
+        <a href="/windows/desktop/api/smbclnt/nf-smbclnt-registerappinstance">RegisterAppInstance</a> function was called twice 
         or the application was registered twice.
 
 </td>
@@ -151,5 +151,4 @@ The issued IOCTL for tagging another process checks if the current process has
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resource-management-functions">Failover Cluster Resource Management Functions</a>
-
+<a href="/previous-versions/windows/desktop/mscs/resource-management-functions">Failover Cluster Resource Management Functions</a>

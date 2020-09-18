@@ -56,13 +56,13 @@ The
 Note that you cannot use this interface to manage local GPOs (LGPOs).
 
 You can instantiate a <b>GPMStarterGPO</b> object by creating a new one with a call to 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nf-gpmgmt-igpmdomain2-createstartergpo">IGPMDomain2::CreateStarterGPO</a>, retrieving an existing one with a call to 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nf-gpmgmt-igpmdomain2-getstartergpo">IGPMDomain2::GetStarterGPO</a>, or by searching for one with a call to 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nf-gpmgmt-igpmdomain2-searchstartergpos">IGPMDomain2::SearchStarterGPOs</a>. After creating the object, you can query the GPO and set properties related to the GPO.
+<a href="/previous-versions/windows/desktop/api/gpmgmt/nf-gpmgmt-igpmdomain2-createstartergpo">IGPMDomain2::CreateStarterGPO</a>, retrieving an existing one with a call to 
+<a href="/previous-versions/windows/desktop/api/gpmgmt/nf-gpmgmt-igpmdomain2-getstartergpo">IGPMDomain2::GetStarterGPO</a>, or by searching for one with a call to 
+<a href="/previous-versions/windows/desktop/api/gpmgmt/nf-gpmgmt-igpmdomain2-searchstartergpos">IGPMDomain2::SearchStarterGPOs</a>. After creating the object, you can query the GPO and set properties related to the GPO.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IGPMStarterGPO</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IGPMStarterGPO</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IGPMStarterGPO</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IGPMStarterGPO</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -78,7 +78,7 @@ The <b>IGPMStarterGPO</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nf-gpmgmt-igpmstartergpo-backup">Backup</a>
+<a href="/previous-versions/windows/desktop/api/gpmgmt/nf-gpmgmt-igpmstartergpo-backup">Backup</a>
 </td>
 <td align="left" width="63%">
 Backs up the Starter GPO to the specified directory.
@@ -87,7 +87,7 @@ Backs up the Starter GPO to the specified directory.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nf-gpmgmt-igpmstartergpo-copyto">CopyTo</a>
+<a href="/previous-versions/windows/desktop/api/gpmgmt/nf-gpmgmt-igpmstartergpo-copyto">CopyTo</a>
 </td>
 <td align="left" width="63%">
 Copies the policy settings from the Starter GPO in the current domain to a new Starter GPO.
@@ -96,7 +96,7 @@ Copies the policy settings from the Starter GPO in the current domain to a new S
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nf-gpmgmt-igpmstartergpo-delete">Delete</a>
+<a href="/previous-versions/windows/desktop/api/gpmgmt/nf-gpmgmt-igpmstartergpo-delete">Delete</a>
 </td>
 <td align="left" width="63%">
 Deletes the Starter GPO from the directory service.
@@ -105,7 +105,7 @@ Deletes the Starter GPO from the directory service.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nf-gpmgmt-igpmstartergpo-generatereport">GenerateReport</a>
+<a href="/previous-versions/windows/desktop/api/gpmgmt/nf-gpmgmt-igpmstartergpo-generatereport">GenerateReport</a>
 </td>
 <td align="left" width="63%">
 Generates a report for a Starter GPO.
@@ -114,7 +114,7 @@ Generates a report for a Starter GPO.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nf-gpmgmt-igpmstartergpo-generatereporttofile">GenerateReportToFile</a>
+<a href="/previous-versions/windows/desktop/api/gpmgmt/nf-gpmgmt-igpmstartergpo-generatereporttofile">GenerateReportToFile</a>
 </td>
 <td align="left" width="63%">
 Generates a report for a Starter GPO and saves it to a file at a specified path.
@@ -123,7 +123,7 @@ Generates a report for a Starter GPO and saves it to a file at a specified path.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nf-gpmgmt-igpmstartergpo-getsecurityinfo">GetSecurityInfo</a>
+<a href="/previous-versions/windows/desktop/api/gpmgmt/nf-gpmgmt-igpmstartergpo-getsecurityinfo">GetSecurityInfo</a>
 </td>
 <td align="left" width="63%">
 Retrieves the set of permissions for the GPO, such as who is granted the rights to edit it.
@@ -132,7 +132,7 @@ Retrieves the set of permissions for the GPO, such as who is granted the rights 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nf-gpmgmt-igpmstartergpo-save">Save</a>
+<a href="/previous-versions/windows/desktop/api/gpmgmt/nf-gpmgmt-igpmstartergpo-save">Save</a>
 </td>
 <td align="left" width="63%">
 Saves all the Starter GPO settings in a single CAB file.
@@ -141,7 +141,7 @@ Saves all the Starter GPO settings in a single CAB file.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nf-gpmgmt-igpmstartergpo-setsecurityinfo">SetSecurityInfo</a>
+<a href="/previous-versions/windows/desktop/api/gpmgmt/nf-gpmgmt-igpmstartergpo-setsecurityinfo">SetSecurityInfo</a>
 </td>
 <td align="left" width="63%">
 Sets the list of permissions for the GPO.
@@ -159,7 +159,7 @@ Sets the list of permissions for the GPO.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/gpmc/igpmstartergpo-property-methods">Author</a>
+<a href="/previous-versions/windows/desktop/gpmc/igpmstartergpo-property-methods">Author</a>
 
 
 </td>
@@ -175,7 +175,7 @@ Name of the person who created the Starter GPO.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/gpmc/igpmstartergpo-property-methods">ComputerVersion</a>
+<a href="/previous-versions/windows/desktop/gpmc/igpmstartergpo-property-methods">ComputerVersion</a>
 
 
 </td>
@@ -191,7 +191,7 @@ Version number of the computer configuration portion of the Starter GPO.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/gpmc/igpmstartergpo-property-methods">CreationTime</a>
+<a href="/previous-versions/windows/desktop/gpmc/igpmstartergpo-property-methods">CreationTime</a>
 
 
 </td>
@@ -207,7 +207,7 @@ Time when the Starter GPO was created.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/gpmc/igpmstartergpo-property-methods">Description</a>
+<a href="/previous-versions/windows/desktop/gpmc/igpmstartergpo-property-methods">Description</a>
 
 
 </td>
@@ -223,7 +223,7 @@ Starter GPO comment or description.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/gpmc/igpmstartergpo-property-methods">DisplayName</a>
+<a href="/previous-versions/windows/desktop/gpmc/igpmstartergpo-property-methods">DisplayName</a>
 
 
 </td>
@@ -239,7 +239,7 @@ Friendly display name of the Starter GPO. Starter GPOs are identified in the Dir
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/gpmc/igpmstartergpo-property-methods">ID</a>
+<a href="/previous-versions/windows/desktop/gpmc/igpmstartergpo-property-methods">ID</a>
 
 
 </td>
@@ -255,7 +255,7 @@ ID of the Starter GPO.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/gpmc/igpmstartergpo-property-methods">ModifiedTime</a>
+<a href="/previous-versions/windows/desktop/gpmc/igpmstartergpo-property-methods">ModifiedTime</a>
 
 
 </td>
@@ -271,7 +271,7 @@ Time when the Starter GPO was last modified.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/gpmc/igpmstartergpo-property-methods">Product</a>
+<a href="/previous-versions/windows/desktop/gpmc/igpmstartergpo-property-methods">Product</a>
 
 
 </td>
@@ -287,7 +287,7 @@ Name of the product this Starter GPO is designed  to manage.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/gpmc/igpmstartergpo-property-methods">StarterGPOVersion</a>
+<a href="/previous-versions/windows/desktop/gpmc/igpmstartergpo-property-methods">StarterGPOVersion</a>
 
 
 </td>
@@ -303,7 +303,7 @@ Version number of the Starter GPO.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/gpmc/igpmstartergpo-property-methods">Type</a>
+<a href="/previous-versions/windows/desktop/gpmc/igpmstartergpo-property-methods">Type</a>
 
 
 </td>
@@ -319,7 +319,7 @@ Specifies the type of Starter GPO.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/gpmc/igpmstartergpo-property-methods">UserVersion</a>
+<a href="/previous-versions/windows/desktop/gpmc/igpmstartergpo-property-methods">UserVersion</a>
 
 
 </td>
@@ -336,36 +336,35 @@ Version number of the user configuration portion of the Starter GPO.
 
 ## -remarks
 
-The <b>GPMStarterGPO</b> object is analogous to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmgpo2">GPMGPO2</a> object. The <b>GPMStarterGPO</b> object represents a single instance of a Starter Group Policy object (GPO).
+The <b>GPMStarterGPO</b> object is analogous to the <a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmgpo2">GPMGPO2</a> object. The <b>GPMStarterGPO</b> object represents a single instance of a Starter Group Policy object (GPO).
 
-The <b>IGPMStarterGPO</b> interface has three properties that do not have a counterpart in the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmgpo2">IGPMGPO2</a> interface.
+The <b>IGPMStarterGPO</b> interface has three properties that do not have a counterpart in the <a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmgpo2">IGPMGPO2</a> interface.
 
 <ul>
-<li>The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/gpmc/igpmstartergpo-property-methods">Author</a> property contains the name of who created the Template.  This attribute is applicable to System Templates.  For custom Templates this attribute will be blank.  This attribute is read-only.</li>
-<li>The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/gpmc/igpmstartergpo-property-methods">Product</a> 
+<li>The <a href="/previous-versions/windows/desktop/gpmc/igpmstartergpo-property-methods">Author</a> property contains the name of who created the Template.  This attribute is applicable to System Templates.  For custom Templates this attribute will be blank.  This attribute is read-only.</li>
+<li>The <a href="/previous-versions/windows/desktop/gpmc/igpmstartergpo-property-methods">Product</a> 
      property contains the name of the product that the Template is designed to manage.  For example a Template might ship to configure MS Office.  This attribute is applicable to System Templates.  For custom Templates this attribute will be blank.  This attribute is read-only.</li>
-<li>The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/gpmc/igpmstartergpo-property-methods">Type</a> 
+<li>The <a href="/previous-versions/windows/desktop/gpmc/igpmstartergpo-property-methods">Type</a> 
      property is an enum value,  <a href="/windows/win32/api/gpmgmt/ne-gpmgmt-gpmstartergpotype">GPMStarterGPOType</a>, that specifies the type of the attribute.  The Type may be either a system  Starter Group Policy object or a custom Starter Group Policy object.</li>
 </ul>
-The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nf-gpmgmt-igpmstartergpo-save">Save</a> method has no corresponding method in the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmgpo2">IGPMGPO2</a> interface.  The <b>Save</b> method will generate a CAB file containing all the contents of a single Starter GPO.  The objective of this method is to allow a user to save a Starter GPO in a form that can be easily redistributed. There is no way to create a CAB file containing multiple Starter GPOs.
+The <a href="/previous-versions/windows/desktop/api/gpmgmt/nf-gpmgmt-igpmstartergpo-save">Save</a> method has no corresponding method in the <a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmgpo2">IGPMGPO2</a> interface.  The <b>Save</b> method will generate a CAB file containing all the contents of a single Starter GPO.  The objective of this method is to allow a user to save a Starter GPO in a form that can be easily redistributed. There is no way to create a CAB file containing multiple Starter GPOs.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpm2">IGPM2</a>
+<a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpm2">IGPM2</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmdomain2">IGPMDomain2</a>
+<a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmdomain2">IGPMDomain2</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmstartergpobackup">IGPMStarterGPOBackup</a>
+<a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmstartergpobackup">IGPMStarterGPOBackup</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmstartergpocollection">IGPMStarterGPOCollection</a>
-
+<a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmstartergpocollection">IGPMStarterGPOCollection</a>

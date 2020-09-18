@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>get_RecordingAttribute</b> method retrieves the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/stream-buffer-source-filter">Stream Buffer Source</a> filter that this object manages.
+The <b>get_RecordingAttribute</b> method retrieves the <a href="/previous-versions/windows/desktop/mstv/stream-buffer-source-filter">Stream Buffer Source</a> filter that this object manages.
 
 ## -parameters
 
@@ -86,5 +86,4 @@ The caller must release the returned <b>IUnknown</b> interface.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/msvidstreambuffersource">IMSVidStreamBufferSource Interface</a>
-
+<a href="/previous-versions/windows/desktop/mstv/msvidstreambuffersource">IMSVidStreamBufferSource Interface</a>

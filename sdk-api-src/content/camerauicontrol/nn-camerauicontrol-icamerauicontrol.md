@@ -54,7 +54,7 @@ Enables a user interface control for a camera device..
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICameraUIControl</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ICameraUIControl</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICameraUIControl</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ICameraUIControl</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ICameraUIControl</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/camerauicontrol/nf-camerauicontrol-icamerauicontrol-close">Close</a>
+<a href="/windows/desktop/api/camerauicontrol/nf-camerauicontrol-icamerauicontrol-close">Close</a>
 </td>
 <td align="left" width="63%">
 Closes the user interface control.
@@ -78,7 +78,7 @@ Closes the user interface control.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/camerauicontrol/nf-camerauicontrol-icamerauicontrol-getactiveitem">GetActiveItem</a>
+<a href="/windows/desktop/api/camerauicontrol/nf-camerauicontrol-icamerauicontrol-getactiveitem">GetActiveItem</a>
 </td>
 <td align="left" width="63%">
 Gets the active captured item.
@@ -87,7 +87,7 @@ Gets the active captured item.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/camerauicontrol/nf-camerauicontrol-icamerauicontrol-getcurrentviewtype">GetCurrentViewType</a>
+<a href="/windows/desktop/api/camerauicontrol/nf-camerauicontrol-icamerauicontrol-getcurrentviewtype">GetCurrentViewType</a>
 </td>
 <td align="left" width="63%">
 Gets the type of the current view.
@@ -96,7 +96,7 @@ Gets the type of the current view.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/camerauicontrol/nf-camerauicontrol-icamerauicontrol-getselecteditems">GetSelectedItems</a>
+<a href="/windows/desktop/api/camerauicontrol/nf-camerauicontrol-icamerauicontrol-getselecteditems">GetSelectedItems</a>
 </td>
 <td align="left" width="63%">
 Gets the selected items.
@@ -105,7 +105,7 @@ Gets the selected items.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/camerauicontrol/nf-camerauicontrol-icamerauicontrol-removecaptureditem">RemoveCapturedItem</a>
+<a href="/windows/desktop/api/camerauicontrol/nf-camerauicontrol-icamerauicontrol-removecaptureditem">RemoveCapturedItem</a>
 </td>
 <td align="left" width="63%">
 Removes  the captured item.
@@ -114,7 +114,7 @@ Removes  the captured item.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/camerauicontrol/nf-camerauicontrol-icamerauicontrol-resume">Resume</a>
+<a href="/windows/desktop/api/camerauicontrol/nf-camerauicontrol-icamerauicontrol-resume">Resume</a>
 </td>
 <td align="left" width="63%">
 Simulates resume of the user interface control.
@@ -123,7 +123,7 @@ Simulates resume of the user interface control.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/camerauicontrol/nf-camerauicontrol-icamerauicontrol-show">Show</a>
+<a href="/windows/desktop/api/camerauicontrol/nf-camerauicontrol-icamerauicontrol-show">Show</a>
 </td>
 <td align="left" width="63%">
 Displays the user interface control for the camera.
@@ -132,7 +132,7 @@ Displays the user interface control for the camera.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/camerauicontrol/nf-camerauicontrol-icamerauicontrol-suspend">Suspend</a>
+<a href="/windows/desktop/api/camerauicontrol/nf-camerauicontrol-icamerauicontrol-suspend">Suspend</a>
 </td>
 <td align="left" width="63%">
 Simulates suspend of the user interface control.
@@ -140,4 +140,3 @@ Simulates suspend of the user interface control.
 </td>
 </tr>
 </table>
-

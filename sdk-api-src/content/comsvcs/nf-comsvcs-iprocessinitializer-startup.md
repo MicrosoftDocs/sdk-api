@@ -56,7 +56,7 @@ Called when Dllhost.exe starts.
 
 ### -param punkProcessControl [in]
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface of the COM component starting up.
+A pointer to the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface of the COM component starting up.
 
 <b>Windows XP/2000:  </b>This parameter is always <b>NULL</b>.
 
@@ -66,9 +66,8 @@ This method can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, E
 
 ## -remarks
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface referenced by <i>punkProcessControl</i> must belong to a COM component that implements an <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-iprocessinitcontrol">IProcessInitControl</a> interface; this interface supports the single method <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-iprocessinitcontrol-resetinitializertimeout">ResetInitializerTimeout</a>. The initialization code in <b>Startup</b> can call the <b>ResetInitializerTimeout</b> method, with <i>dwSecondsRemaining</i> set equal to the number of seconds remaining before the startup of the component times out.
+The <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface referenced by <i>punkProcessControl</i> must belong to a COM component that implements an <a href="/windows/desktop/api/objidl/nn-objidl-iprocessinitcontrol">IProcessInitControl</a> interface; this interface supports the single method <a href="/windows/desktop/api/objidl/nf-objidl-iprocessinitcontrol-resetinitializertimeout">ResetInitializerTimeout</a>. The initialization code in <b>Startup</b> can call the <b>ResetInitializerTimeout</b> method, with <i>dwSecondsRemaining</i> set equal to the number of seconds remaining before the startup of the component times out.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-iprocessinitializer">IProcessInitializer</a>
-
+<a href="/windows/desktop/api/comsvcs/nn-comsvcs-iprocessinitializer">IProcessInitializer</a>

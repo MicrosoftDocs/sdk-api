@@ -58,7 +58,7 @@ This method is called prior to each method invocation originating outside the cu
 
 ### -param dwCallType [in]
 
-The type of incoming call that has been received. Possible values are from the enumeration <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ne-objidl-calltype">CALLTYPE</a>.
+The type of incoming call that has been received. Possible values are from the enumeration <a href="/windows/desktop/api/objidl/ne-objidl-calltype">CALLTYPE</a>.
 
 ### -param htaskCaller [in]
 
@@ -70,7 +70,7 @@ The elapsed tick count since the outgoing call was made, if <i>dwCallType</i> is
 
 ### -param lpInterfaceInfo [in]
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-interfaceinfo">INTERFACEINFO</a> structure that identifies the object, interface, and method being called. In the case of DDE calls, <i>lpInterfaceInfo</i> can be <b>NULL</b> because the DDE layer does not return interface information.
+A pointer to an <a href="/windows/desktop/api/objidl/ns-objidl-interfaceinfo">INTERFACEINFO</a> structure that identifies the object, interface, and method being called. In the case of DDE calls, <i>lpInterfaceInfo</i> can be <b>NULL</b> because the DDE layer does not return interface information.
 
 ## -returns
 
@@ -124,14 +124,13 @@ Depending on an application's current state, a call is either accepted and proce
 
 Input-synchronized and asynchronous calls are dispatched even if the application returns SERVERCALL_REJECTED or SERVERCALL_RETRYLATER.
 
-<b>HandleInComingCall</b> should not be used to hold off updates to objects during operations such as band printing. For that purpose, use <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-iviewobject-freeze">IViewObject::Freeze</a>.
+<b>HandleInComingCall</b> should not be used to hold off updates to objects during operations such as band printing. For that purpose, use <a href="/windows/desktop/api/oleidl/nf-oleidl-iviewobject-freeze">IViewObject::Freeze</a>.
 
 You can also use <b>HandleInComingCall</b> to set up the application's state so that the call can be processed in the future.
 
-<div class="alert"><b>Note</b>  Although the <i>htaskCaller</i> parameter is typed as an HTASK, it  contains the thread id of the calling thread. When you implement the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imessagefilter">IMessageFilter</a> interface, you can call the <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-openthread">OpenThread</a> function to get the thread handle from the <i>htaskCaller</i> parameter,  and you can call the <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-getprocessidofthread">GetProcessIdOfThread</a> function to get the process id.</div>
+<div class="alert"><b>Note</b>  Although the <i>htaskCaller</i> parameter is typed as an HTASK, it  contains the thread id of the calling thread. When you implement the <a href="/windows/desktop/api/objidl/nn-objidl-imessagefilter">IMessageFilter</a> interface, you can call the <a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-openthread">OpenThread</a> function to get the thread handle from the <i>htaskCaller</i> parameter,  and you can call the <a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-getprocessidofthread">GetProcessIdOfThread</a> function to get the process id.</div>
 <div> </div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imessagefilter">IMessageFilter</a>
-
+<a href="/windows/desktop/api/objidl/nn-objidl-imessagefilter">IMessageFilter</a>

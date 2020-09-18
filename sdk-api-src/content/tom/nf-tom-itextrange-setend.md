@@ -73,7 +73,7 @@ If the new end position is less than the start position, this method also sets t
 If this range is actually the selection, the end position becomes the active end and, if the display is not frozen, it is scrolled into view.
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange-setstart">ITextRange::SetStart</a> sets the range's start position and <a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange-setrange">ITextRange::SetRange</a> sets both range ends simultaneously. To convert a nondegenerate range, r, into a degenerate one (insertion point) at  the start position, use
+<a href="/windows/desktop/api/tom/nf-tom-itextrange-setstart">ITextRange::SetStart</a> sets the range's start position and <a href="/windows/desktop/api/tom/nf-tom-itextrange-setrange">ITextRange::SetRange</a> sets both range ends simultaneously. To convert a nondegenerate range, r, into a degenerate one (insertion point) at  the start position, use
 
 <code>r.End = r.Start</code>
 
@@ -91,11 +91,11 @@ This also makes end position the active end, and it can turn a degenerate range 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange-getend">GetEnd</a>
+<a href="/windows/desktop/api/tom/nf-tom-itextrange-getend">GetEnd</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextrange">ITextRange</a>
+<a href="/windows/desktop/api/tom/nn-tom-itextrange">ITextRange</a>
 
 
 
@@ -103,13 +103,12 @@ This also makes end position the active end, and it can turn a degenerate range 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange-setrange">SetRange</a>
+<a href="/windows/desktop/api/tom/nf-tom-itextrange-setrange">SetRange</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange-setstart">SetStart</a>
+<a href="/windows/desktop/api/tom/nf-tom-itextrange-setstart">SetStart</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Controls/text-object-model">Text Object Model</a>
-
+<a href="/windows/desktop/Controls/text-object-model">Text Object Model</a>

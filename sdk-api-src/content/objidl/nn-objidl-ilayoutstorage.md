@@ -53,11 +53,11 @@ api_name:
 The 
 <b>ILayoutStorage</b> interface enables an application to optimize the layout of its compound files for efficient downloading across a slow link. The goal is to enable a browser or other application to download data in the order in which it will actually be required.
 
-To optimize a compound file, an application  calls <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-istorage-copyto">CopyTo</a>  to layout a docfile, thus improving performance in most scenarios.
+To optimize a compound file, an application  calls <a href="/windows/desktop/api/objidl/nf-objidl-istorage-copyto">CopyTo</a>  to layout a docfile, thus improving performance in most scenarios.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ILayoutStorage</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ILayoutStorage</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ILayoutStorage</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ILayoutStorage</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,31 +72,30 @@ The <b>ILayoutStorage</b> interface has these methods.
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ilayoutstorage-beginmonitor">BeginMonitor</a>
+<a href="/windows/desktop/api/objidl/nf-objidl-ilayoutstorage-beginmonitor">BeginMonitor</a>
 </td>
 <td align="left" width="63%">
 Monitors data access to a file.</p> (Inherited from <b>ILayoutStorage</b>)</td>
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ilayoutstorage-endmonitor">EndMonitor</a>
+<a href="/windows/desktop/api/objidl/nf-objidl-ilayoutstorage-endmonitor">EndMonitor</a>
 </td>
 <td align="left" width="63%">
 Ends monitoring of data access.</p> (Inherited from <b>ILayoutStorage</b>)</td>
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ilayoutstorage-layoutscript">LayoutScript</a>
+<a href="/windows/desktop/api/objidl/nf-objidl-ilayoutstorage-layoutscript">LayoutScript</a>
 </td>
 <td align="left" width="63%">
 Provides explicit layout instructions.</p> (Inherited from <b>ILayoutStorage</b>)</td>
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ilayoutstorage-relayoutdocfile">ReLayoutDocfile</a>
+<a href="/windows/desktop/api/objidl/nf-objidl-ilayoutstorage-relayoutdocfile">ReLayoutDocfile</a>
 </td>
 <td align="left" width="63%">
 Rewrites file using layout information.</p> (Inherited from <b>ILayoutStorage</b>)</td>
 </tr>
 </table>
-

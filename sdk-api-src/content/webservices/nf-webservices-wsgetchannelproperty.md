@@ -56,7 +56,7 @@ Retrieves a property of the Channel referenced by the <i>channel</i> parameter.
 
 ### -param channel [in]
 
-A pointer to the  <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-channel">WS_CHANNEL</a> object with the property to retrieve.
+A pointer to the  <a href="/windows/desktop/wsw/ws-channel">WS_CHANNEL</a> object with the property to retrieve.
 
 ### -param id [in]
 
@@ -77,7 +77,7 @@ The number of bytes allocated by the caller to
 
 ### -param error [in, optional]
 
-A  pointer to a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-error">WS_ERROR</a> object where additional information about the error should be stored if the function fails.
+A  pointer to a <a href="/windows/desktop/wsw/ws-error">WS_ERROR</a> object where additional information about the error should be stored if the function fails.
 
 ## -returns
 
@@ -122,4 +122,3 @@ This function may return other errors not listed above.
 </td>
 </tr>
 </table>
-

@@ -53,23 +53,22 @@ api_name:
 
 ## -description
 
-Represents information about the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/failover">Failover</a> attempts for a resource. This structure is used by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ns-clusapi-resource_failure_info_buffer">RESOURCE_FAILURE_INFO_BUFFER</a> structure.
+Represents information about the <a href="/previous-versions/windows/desktop/mscs/failover">Failover</a> attempts for a resource. This structure is used by the <a href="/previous-versions/windows/desktop/api/clusapi/ns-clusapi-resource_failure_info_buffer">RESOURCE_FAILURE_INFO_BUFFER</a> structure.
 
 ## -struct-fields
 
 ### -field dwRestartAttemptsRemaining
 
-The number of remaining failover attempts that can be made on the resource during the current <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/groups-failoverperiod">FailoverPeriod</a> time interval.
+The number of remaining failover attempts that can be made on the resource during the current <a href="/previous-versions/windows/desktop/mscs/groups-failoverperiod">FailoverPeriod</a> time interval.
 
 ### -field dwRestartPeriodRemaining
 
-The amount of time remaining for the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/groups-failoverperiod">FailoverPeriod</a>, in seconds.
+The amount of time remaining for the <a href="/previous-versions/windows/desktop/mscs/groups-failoverperiod">FailoverPeriod</a>, in seconds.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ns-clusapi-resource_failure_info_buffer">RESOURCE_FAILURE_INFO_BUFFER</a>
+<a href="/previous-versions/windows/desktop/api/clusapi/ns-clusapi-resource_failure_info_buffer">RESOURCE_FAILURE_INFO_BUFFER</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/utility-structures">Utility Structures</a>
-
+<a href="/previous-versions/windows/desktop/mscs/utility-structures">Utility Structures</a>

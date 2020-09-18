@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Defines a set of extended options for the session. These options are used with the <a href="https://docs.microsoft.com/windows/desktop/api/wsman/nf-wsman-wsmansetsessionoption">WSManSetSessionOption</a> method.
+Defines a set of extended options for the session. These options are used with the <a href="/windows/desktop/api/wsman/nf-wsman-wsmansetsessionoption">WSManSetSessionOption</a> method.
 
 ## -enum-fields
 
@@ -62,27 +62,27 @@ Default time-out in milliseconds that applies to all operations on the client si
 
 ### -field WSMAN_OPTION_TIMEOUTMS_CREATE_SHELL
 
-Time-out in milliseconds for <a href="https://docs.microsoft.com/windows/desktop/api/wsman/nf-wsman-wsmancreateshell">WSManCreateShell</a> operations.
+Time-out in milliseconds for <a href="/windows/desktop/api/wsman/nf-wsman-wsmancreateshell">WSManCreateShell</a> operations.
 
 ### -field WSMAN_OPTION_TIMEOUTMS_RUN_SHELL_COMMAND
 
-Time-out in milliseconds for <a href="https://docs.microsoft.com/windows/desktop/api/wsman/nf-wsman-wsmanrunshellcommand">WSManRunShellCommand</a> operations.
+Time-out in milliseconds for <a href="/windows/desktop/api/wsman/nf-wsman-wsmanrunshellcommand">WSManRunShellCommand</a> operations.
 
 ### -field WSMAN_OPTION_TIMEOUTMS_RECEIVE_SHELL_OUTPUT
 
-Time-out in milliseconds for <a href="https://docs.microsoft.com/windows/desktop/api/wsman/nf-wsman-wsmanreceiveshelloutput">WSManReceiveShellOutput</a> operations.
+Time-out in milliseconds for <a href="/windows/desktop/api/wsman/nf-wsman-wsmanreceiveshelloutput">WSManReceiveShellOutput</a> operations.
 
 ### -field WSMAN_OPTION_TIMEOUTMS_SEND_SHELL_INPUT
 
-Time-out in milliseconds for <a href="https://docs.microsoft.com/windows/desktop/api/wsman/nf-wsman-wsmansendshellinput">WSManSendShellInput</a> operations.
+Time-out in milliseconds for <a href="/windows/desktop/api/wsman/nf-wsman-wsmansendshellinput">WSManSendShellInput</a> operations.
 
 ### -field WSMAN_OPTION_TIMEOUTMS_SIGNAL_SHELL
 
-Time-out in milliseconds for <a href="https://docs.microsoft.com/windows/desktop/api/wsman/nf-wsman-wsmansignalshell">WSManSignalShell</a> and <a href="https://docs.microsoft.com/windows/desktop/api/wsman/nf-wsman-wsmanclosecommand">WSManCloseCommand</a> operations.
+Time-out in milliseconds for <a href="/windows/desktop/api/wsman/nf-wsman-wsmansignalshell">WSManSignalShell</a> and <a href="/windows/desktop/api/wsman/nf-wsman-wsmanclosecommand">WSManCloseCommand</a> operations.
 
 ### -field WSMAN_OPTION_TIMEOUTMS_CLOSE_SHELL
 
-Time-out in milliseconds for <a href="https://docs.microsoft.com/windows/desktop/api/wsman/nf-wsman-wsmancloseshell">WSManCloseShell</a> operations connection options.
+Time-out in milliseconds for <a href="/windows/desktop/api/wsman/nf-wsman-wsmancloseshell">WSManCloseShell</a> operations connection options.
 
 ### -field WSMAN_OPTION_SKIP_CA_CHECK
 
@@ -142,4 +142,3 @@ Set to 1 to allow default credentials for Negotiate. The default is 0.
 ### -field WSMAN_OPTION_USE_SSL
 
 ### -field WSMAN_OPTION_USE_INTEARACTIVE_TOKEN
-

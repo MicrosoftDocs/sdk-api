@@ -54,7 +54,7 @@ api_name:
 
 The 
 <b>MsiEnumPatches</b> function enumerates all of the patches that have been applied to a product. The function returns the patch code GUID for each patch that has been applied to the product and returns a list of transforms from each patch that apply to the product. Note that patches may have many transforms only some of which are applicable to a particular product. The list of transforms are returned in the same format as the value of the 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/transforms">TRANSFORMS</a> property.
+<a href="/windows/desktop/Msi/transforms">TRANSFORMS</a> property.
 <div class="alert"><b>Note</b>  <i>pcchTransformsBuf</i> is not set to the number of characters copied to <i>lpTransformsBuf</i> upon a successful return of 
 <b>MsiEnumPatches</b>.</div><div> </div>
 
@@ -159,4 +159,3 @@ If the buffer is too small to hold the requested data,
 
 > [!NOTE]
 > The msi.h header defines MsiEnumPatches as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

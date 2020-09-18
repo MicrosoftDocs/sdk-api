@@ -57,5 +57,4 @@ An rvalue reference to an **XMFLOAT3X4A**, which will be moved to become the new
 
 ## -see-also
 
-[XMFLOAT3X4A structure](/windows/win32/api/directxmath/ns-directxmath-xmfloat3x4a)
-
+[XMFLOAT3X4A structure](./ns-directxmath-xmfloat3x4a.md)

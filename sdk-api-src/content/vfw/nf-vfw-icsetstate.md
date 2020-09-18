@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>ICSetState</b> macro notifies a video compression driver to set the state of the compressor. You can use this macro or explicitly call the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/icm-setstate">ICM_SETSTATE</a> message.
+The <b>ICSetState</b> macro notifies a video compression driver to set the state of the compressor. You can use this macro or explicitly call the <a href="/windows/desktop/Multimedia/icm-setstate">ICM_SETSTATE</a> message.
 
 ## -parameters
 
@@ -68,13 +68,12 @@ Size, in bytes, of the block of memory.
 
 ## -remarks
 
-The information used by this message is private and specific to a given compressor. Client applications should use this message only to restore information previously obtained with the <a href="https://docs.microsoft.com/windows/desktop/api/vfw/nf-vfw-icgetstate">ICGetState</a> and <a href="https://docs.microsoft.com/windows/desktop/api/vfw/nf-vfw-icconfigure">ICConfigure</a> macros and should use the <b>ICConfigure</b> macro to adjust the configuration of a video compression driver.
+The information used by this message is private and specific to a given compressor. Client applications should use this message only to restore information previously obtained with the <a href="/windows/desktop/api/vfw/nf-vfw-icgetstate">ICGetState</a> and <a href="/windows/desktop/api/vfw/nf-vfw-icconfigure">ICConfigure</a> macros and should use the <b>ICConfigure</b> macro to adjust the configuration of a video compression driver.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-compression-macros">Video Compression Macros</a>
+<a href="/windows/desktop/Multimedia/video-compression-macros">Video Compression Macros</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-compression-manager">Video Compression Manager</a>
-
+<a href="/windows/desktop/Multimedia/video-compression-manager">Video Compression Manager</a>

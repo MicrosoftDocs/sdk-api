@@ -56,7 +56,7 @@ The
 <b>SetService</b> function registers or removes from the registry a network service within one or more namespaces. The function can also add or remove a network service type within one or more namespaces.
 <div class="alert"><b>Note</b>  The 
 <b>SetService</b> function is obsolete. The functions detailed in 
-<a href="https://docs.microsoft.com/windows/desktop/WinSock/protocol-independent-name-resolution-2">Protocol-Independent Name Resolution</a> provide equivalent functionality in Windows Sockets 2. For the convenience of Windows Sockets 1.1 developers, the reference material is as follows.</div><div> </div>
+<a href="/windows/desktop/WinSock/protocol-independent-name-resolution-2">Protocol-Independent Name Resolution</a> provide equivalent functionality in Windows Sockets 2. For the convenience of Windows Sockets 1.1 developers, the reference material is as follows.</div><div> </div>
 
 ## -parameters
 
@@ -199,8 +199,8 @@ Add a service type to the namespace.
 
 
 For this operation, use the <b>ServiceSpecificInfo</b> member of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-service_infoa">SERVICE_INFO</a> structure pointed to by <i>lpServiceInfo</i> to pass a 
-<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-service_type_info_absa">SERVICE_TYPE_INFO_ABS</a> structure. You must also set the <b>ServiceType</b> member of the 
+<a href="/windows/desktop/api/nspapi/ns-nspapi-service_infoa">SERVICE_INFO</a> structure pointed to by <i>lpServiceInfo</i> to pass a 
+<a href="/windows/desktop/api/nspapi/ns-nspapi-service_type_info_absa">SERVICE_TYPE_INFO_ABS</a> structure. You must also set the <b>ServiceType</b> member of the 
 <b>SERVICE_INFO</b> structure. Other 
 <b>SERVICE_INFO</b> members are ignored.
 
@@ -266,7 +266,7 @@ For example: If the operation involves deregistration in a namespace that uses a
 ### -param lpServiceInfo [in]
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-service_infoa">SERVICE_INFO</a> structure that contains information about the network service or service type.
+<a href="/windows/desktop/api/nspapi/ns-nspapi-service_infoa">SERVICE_INFO</a> structure that contains information about the network service or service type.
 
 ### -param lpServiceAsyncInfo [in, optional]
 
@@ -299,7 +299,7 @@ One or more namespace providers were unable to successfully perform the requeste
 ## -returns
 
 If the function fails, the return value is SOCKET_ERROR. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. <b>GetLastError</b> can return the following extended error value.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. <b>GetLastError</b> can return the following extended error value.
 
 <table>
 <tr>
@@ -322,26 +322,25 @@ The function tried to register a service that was already registered.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/nf-nspapi-getservicea">GetService</a>
+<a href="/windows/desktop/api/nspapi/nf-nspapi-getservicea">GetService</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-service_infoa">SERVICE_INFO</a>
+<a href="/windows/desktop/api/nspapi/ns-nspapi-service_infoa">SERVICE_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-service_type_info_absa">SERVICE_TYPE_INFO_ABS</a>
+<a href="/windows/desktop/api/nspapi/ns-nspapi-service_type_info_absa">SERVICE_TYPE_INFO_ABS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WinSock/winsock-functions">Winsock Functions</a>
+<a href="/windows/desktop/WinSock/winsock-functions">Winsock Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WinSock/winsock-reference">Winsock Reference</a>
+<a href="/windows/desktop/WinSock/winsock-reference">Winsock Reference</a>
 
 ## -remarks
 
 > [!NOTE]
 > The nspapi.h header defines SetService as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

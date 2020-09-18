@@ -58,7 +58,7 @@ Gets the path of a specified Control Panel item.
 
 Type: <b>LPCWSTR</b>
 
-A pointer to the item's canonical name or its <b>GUID</b>. This value can be <b>NULL</b>. See Remarks for further details. For a complete list of Control Panel item canonical names, see <a href="https://docs.microsoft.com/windows/desktop/shell/controlpanel-canonical-names">Canonical Names of Control Panel Items</a>.
+A pointer to the item's canonical name or its <b>GUID</b>. This value can be <b>NULL</b>. See Remarks for further details. For a complete list of Control Panel item canonical names, see <a href="/windows/desktop/shell/controlpanel-canonical-names">Canonical Names of Control Panel Items</a>.
 
 ### -param pszPath [out]
 
@@ -109,5 +109,4 @@ If <i>pszName</i> is <b>NULL</b> then one of these two values is returned:
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iopencontrolpanel">IOpenControlPanel</a>
-
+<a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iopencontrolpanel">IOpenControlPanel</a>

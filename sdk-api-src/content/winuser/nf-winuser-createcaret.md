@@ -67,7 +67,7 @@ A handle to the window that owns the caret.
 
 Type: <b>HBITMAP</b>
 
-A handle to the bitmap that defines the caret shape. If this parameter is <b>NULL</b>, the caret is solid. If this parameter is <code>(HBITMAP) 1</code>, the caret is gray. If this parameter is a bitmap handle, the caret is the specified bitmap. The bitmap handle must have been created by the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createbitmap">CreateBitmap</a>, <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createdibitmap">CreateDIBitmap</a>, or <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-loadbitmapa">LoadBitmap</a> function.
+A handle to the bitmap that defines the caret shape. If this parameter is <b>NULL</b>, the caret is solid. If this parameter is <code>(HBITMAP) 1</code>, the caret is gray. If this parameter is a bitmap handle, the caret is the specified bitmap. The bitmap handle must have been created by the <a href="/windows/desktop/api/wingdi/nf-wingdi-createbitmap">CreateBitmap</a>, <a href="/windows/desktop/api/wingdi/nf-wingdi-createdibitmap">CreateDIBitmap</a>, or <a href="/windows/desktop/api/winuser/nf-winuser-loadbitmapa">LoadBitmap</a> function.
 
 If <i>hBitmap</i> is a bitmap handle, <b>CreateCaret</b> ignores the <i>nWidth</i> and <i>nHeight</i> parameters; the bitmap defines its own width and height.
 
@@ -90,13 +90,13 @@ Type: <b>BOOL</b>
 If the function succeeds, the return value is nonzero.
                     
 
-If the function fails, the return value is zero. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+If the function fails, the return value is zero. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
 The <i>nWidth</i> and <i>nHeight</i> parameters specify the caret's width and height, in logical units; the exact width and height, in pixels, depend on the window's mapping mode. 
 
-<b>CreateCaret</b> automatically destroys the previous caret shape, if any, regardless of the window that owns the caret. The caret is hidden until the application calls the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-showcaret">ShowCaret</a> function to make the caret visible. 
+<b>CreateCaret</b> automatically destroys the previous caret shape, if any, regardless of the window that owns the caret. The caret is hidden until the application calls the <a href="/windows/desktop/api/winuser/nf-winuser-showcaret">ShowCaret</a> function to make the caret visible. 
 
 The system provides one caret per queue. A window should create a caret only when it has the keyboard focus or is active. The window should destroy the caret before losing the keyboard focus or becoming inactive. 
 
@@ -105,7 +105,7 @@ This API does not participate in DPI virtualization. The width and height parame
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/menurc/carets">Carets</a>
+<a href="/windows/desktop/menurc/carets">Carets</a>
 
 
 
@@ -113,27 +113,27 @@ This API does not participate in DPI virtualization. The width and height parame
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createbitmap">CreateBitmap</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-createbitmap">CreateBitmap</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createdibitmap">CreateDIBitmap</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-createdibitmap">CreateDIBitmap</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-destroycaret">DestroyCaret</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-destroycaret">DestroyCaret</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getsystemmetrics">GetSystemMetrics</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-getsystemmetrics">GetSystemMetrics</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-hidecaret">HideCaret</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-hidecaret">HideCaret</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-loadbitmapa">LoadBitmap</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-loadbitmapa">LoadBitmap</a>
 
 
 
@@ -145,5 +145,4 @@ This API does not participate in DPI virtualization. The width and height parame
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-showcaret">ShowCaret</a>
-
+<a href="/windows/desktop/api/winuser/nf-winuser-showcaret">ShowCaret</a>

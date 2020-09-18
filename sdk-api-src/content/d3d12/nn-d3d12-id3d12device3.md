@@ -50,12 +50,12 @@ api_name:
 
 ## -description
 
-Represents a virtual adapter. This interface extends <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12device2">ID3D12Device2</a> to support the creation of special-purpose diagnostic heaps in system memory that persist even in the event of a GPU-fault or device-removed scenario.
-<div class="alert"><b>Note</b>  This interface, introduced in the Windows 10 Fall Creators Update, is the latest version of the <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12device">ID3D12Device</a> interface. Applications targeting the Windows 10 Fall Creators Update and later should use this interface instead of earlier versions.</div><div> </div>
+Represents a virtual adapter. This interface extends <a href="/windows/desktop/api/d3d12/nn-d3d12-id3d12device2">ID3D12Device2</a> to support the creation of special-purpose diagnostic heaps in system memory that persist even in the event of a GPU-fault or device-removed scenario.
+<div class="alert"><b>Note</b>  This interface, introduced in the Windows 10 Fall Creators Update, is the latest version of the <a href="/windows/desktop/api/d3d12/nn-d3d12-id3d12device">ID3D12Device</a> interface. Applications targeting the Windows 10 Fall Creators Update and later should use this interface instead of earlier versions.</div><div> </div>
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D12Device3</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12device2">ID3D12Device2</a>. <b>ID3D12Device3</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D12Device3</b> interface inherits from <a href="/windows/desktop/api/d3d12/nn-d3d12-id3d12device2">ID3D12Device2</a>. <b>ID3D12Device3</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>ID3D12Device3</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12device3-enqueuemakeresident">EnqueueMakeResident</a>
+<a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12device3-enqueuemakeresident">EnqueueMakeResident</a>
 </td>
 <td align="left" width="63%">
 Asynchronously makes objects resident for the device.
@@ -79,7 +79,7 @@ Asynchronously makes objects resident for the device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12device3-openexistingheapfromaddress">OpenExistingHeapFromAddress</a>
+<a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12device3-openexistingheapfromaddress">OpenExistingHeapFromAddress</a>
 </td>
 <td align="left" width="63%">
 Creates a special-purpose diagnostic heap in system memory from an address. The created heap can persist even in the event of a GPU-fault or device-removed scenario.
@@ -88,7 +88,7 @@ Creates a special-purpose diagnostic heap in system memory from an address. The 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/mt813613(v=vs.85)">OpenExistingHeapFromFileMapping</a>
+<a href="/previous-versions/windows/desktop/legacy/mt813613(v=vs.85)">OpenExistingHeapFromFileMapping</a>
 </td>
 <td align="left" width="63%">
 Creates a special-purpose diagnostic heap in system memory from a file mapping handle. The created heap can persist even in the event of a GPU-fault or device-removed scenario.
@@ -99,21 +99,20 @@ Creates a special-purpose diagnostic heap in system memory from a file mapping h
 
 ## -remarks
 
-Use <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-d3d12createdevice">D3D12CreateDevice</a> to create a device.
+Use <a href="/windows/desktop/api/d3d12/nf-d3d12-d3d12createdevice">D3D12CreateDevice</a> to create a device.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3d12/direct3d-12-interfaces">Core Interfaces</a>
+<a href="/windows/desktop/direct3d12/direct3d-12-interfaces">Core Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12device">ID3D12Device</a>
+<a href="/windows/desktop/api/d3d12/nn-d3d12-id3d12device">ID3D12Device</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12device1">ID3D12Device1</a>
+<a href="/windows/desktop/api/d3d12/nn-d3d12-id3d12device1">ID3D12Device1</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12device2">ID3D12Device2</a>
-
+<a href="/windows/desktop/api/d3d12/nn-d3d12-id3d12device2">ID3D12Device2</a>

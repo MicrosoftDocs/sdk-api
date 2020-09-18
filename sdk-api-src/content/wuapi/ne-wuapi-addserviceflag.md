@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-Defines the possible ways in which the <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdateservicemanager2">IUpdateServiceManager2</a> interface can process service registration requests.
+Defines the possible ways in which the <a href="/windows/desktop/api/wuapi/nn-wuapi-iupdateservicemanager2">IUpdateServiceManager2</a> interface can process service registration requests.
 
 ## -enum-fields
 
@@ -70,9 +70,8 @@ Registers the service with Automatic Updates when the service is added.
 
 ## -remarks
 
-For info about how  <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iupdateservicemanager2-addservice2">IUpdateServiceManager2::AddService2</a> behaves when you specify different combinations of <b>AddServiceFlag</b> values in the <i>flags</i> parameter, see the Remarks section of <b>IUpdateServiceManager2::AddService2</b>.
+For info about how  <a href="/windows/desktop/api/wuapi/nf-wuapi-iupdateservicemanager2-addservice2">IUpdateServiceManager2::AddService2</a> behaves when you specify different combinations of <b>AddServiceFlag</b> values in the <i>flags</i> parameter, see the Remarks section of <b>IUpdateServiceManager2::AddService2</b>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iupdateservicemanager2-addservice2">IUpdateServiceManager2::AddService2</a>
-
+<a href="/windows/desktop/api/wuapi/nf-wuapi-iupdateservicemanager2-addservice2">IUpdateServiceManager2::AddService2</a>

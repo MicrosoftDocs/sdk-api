@@ -62,7 +62,7 @@ The container format of the metadata item.
 
 ### -param pIStream [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a>*</b>
+Type: <b><a href="/windows/desktop/api/objidl/nn-objidl-istream">IStream</a>*</b>
 
 The stream to search for the metadata pattern.
 
@@ -77,4 +77,3 @@ Pointer that receives <code>TRUE</code> if the stream contains the pattern; othe
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-

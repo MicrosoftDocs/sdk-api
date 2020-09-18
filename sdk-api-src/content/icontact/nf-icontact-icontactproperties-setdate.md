@@ -51,7 +51,7 @@ api_name:
 ## -description
 
 Sets the date and time value at a specified property to a given 
-    <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a>. All times are stored and returned as Coordinated Universal Time (UTC).
+    <a href="/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a>. All times are stored and returned as Coordinated Universal Time (UTC).
 
 ## -parameters
 
@@ -69,10 +69,10 @@ CGD_DEFAULT can be used to create or overwrite value at <i>pszPropertyName</i>.
 
 ### -param ftDateTime [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a></b>
+Type: <b><a href="/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a></b>
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure to use for date.
+<a href="/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure to use for date.
 
 ## -returns
 
@@ -119,4 +119,3 @@ Unable to set the value for this property due to schema.
 </td>
 </tr>
 </table>
-

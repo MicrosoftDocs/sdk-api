@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-The <b>FONTOBJ_pfdg</b> function retrieves the pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-fd_glyphset">FD_GLYPHSET</a> structure associated with the specified font.
+The <b>FONTOBJ_pfdg</b> function retrieves the pointer to the <a href="/windows/desktop/api/winddi/ns-winddi-fd_glyphset">FD_GLYPHSET</a> structure associated with the specified font.
 
 ## -parameters
 
 ### -param pfo
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-fontobj">FONTOBJ</a> structure for which the associated FD_GLYPHSET structure is to be returned.
+Pointer to the <a href="/windows/desktop/api/winddi/ns-winddi-fontobj">FONTOBJ</a> structure for which the associated FD_GLYPHSET structure is to be returned.
 
 ## -returns
 
@@ -68,9 +68,8 @@ Printer drivers can call <b>FONTOBJ_pfdg</b> to determine which Unicode code poi
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-fd_glyphset">FD_GLYPHSET</a>
+<a href="/windows/desktop/api/winddi/ns-winddi-fd_glyphset">FD_GLYPHSET</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-fontobj">FONTOBJ</a>
-
+<a href="/windows/desktop/api/winddi/ns-winddi-fontobj">FONTOBJ</a>

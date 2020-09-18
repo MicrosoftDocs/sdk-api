@@ -57,11 +57,10 @@ Returns the output rectangle of the support transform.
 
 ### -param outputBounds [out]
 
-Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh847950(v=vs.85)">D2D1_RECT_L</a>*</b>
+Type: <b><a href="/previous-versions/windows/desktop/legacy/hh847950(v=vs.85)">D2D1_RECT_L</a>*</b>
 
 The output bounds.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1effectauthor/nn-d2d1effectauthor-id2d1boundsadjustmenttransform">ID2D1BoundsAdjustmentTransform</a>
-
+<a href="/windows/desktop/api/d2d1effectauthor/nn-d2d1effectauthor-id2d1boundsadjustmenttransform">ID2D1BoundsAdjustmentTransform</a>

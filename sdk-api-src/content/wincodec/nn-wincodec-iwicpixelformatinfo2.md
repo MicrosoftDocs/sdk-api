@@ -50,11 +50,11 @@ api_name:
 
 ## -description
 
-Extends <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicpixelformatinfo">IWICPixelFormatInfo</a> by providing additional information about a pixel format.
+Extends <a href="/windows/desktop/api/wincodec/nn-wincodec-iwicpixelformatinfo">IWICPixelFormatInfo</a> by providing additional information about a pixel format.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWICPixelFormatInfo2</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicpixelformatinfo">IWICPixelFormatInfo</a>. <b>IWICPixelFormatInfo2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWICPixelFormatInfo2</b> interface inherits from <a href="/windows/desktop/api/wincodec/nn-wincodec-iwicpixelformatinfo">IWICPixelFormatInfo</a>. <b>IWICPixelFormatInfo2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,13 +69,13 @@ The <b>IWICPixelFormatInfo2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicpixelformatinfo2-getnumericrepresentation">GetNumericRepresentation</a>
+<a href="/windows/desktop/api/wincodec/nf-wincodec-iwicpixelformatinfo2-getnumericrepresentation">GetNumericRepresentation</a>
 </td>
 <td align="left" width="63%"></td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicpixelformatinfo2-supportstransparency">SupportsTransparency</a>
+<a href="/windows/desktop/api/wincodec/nf-wincodec-iwicpixelformatinfo2-supportstransparency">SupportsTransparency</a>
 </td>
 <td align="left" width="63%">
 Returns whether the format supports transparent pixels.
@@ -83,4 +83,3 @@ Returns whether the format supports transparent pixels.
 </td>
 </tr>
 </table>
-

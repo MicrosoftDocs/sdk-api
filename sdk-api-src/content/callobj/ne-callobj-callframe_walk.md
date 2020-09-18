@@ -68,5 +68,4 @@ The [out] parameter values will be walked.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/callobj/nf-callobj-icallframe-walkframe">ICallFrame::WalkFrame</a>
-
+<a href="/windows/desktop/api/callobj/nf-callobj-icallframe-walkframe">ICallFrame::WalkFrame</a>

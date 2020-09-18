@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Creates an <a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_operationoptions">MI_OperationOptions</a> object that can be used with the operation functions on the <a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_session">MI_Session</a> object.
+Creates an <a href="/windows/desktop/api/mi/ns-mi-mi_operationoptions">MI_OperationOptions</a> object that can be used with the operation functions on the <a href="/windows/desktop/api/mi/ns-mi-mi_session">MI_Session</a> object.
 
 ## -parameters
 
 ### -param application [in]
 
-A pointer to a handle returned from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_application_initializev1">MI_Application_Initialize</a> function.
+A pointer to a handle returned from the <a href="/previous-versions/windows/desktop/api/mi/nf-mi-mi_application_initializev1">MI_Application_Initialize</a> function.
 
 ### -param mustUnderstand
 
@@ -72,5 +72,4 @@ This function returns MI_INLINE MI_Result.
 
 ## -remarks
 
-When you have finished using the object returned from this call, delete it by calling the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_operationoptions_delete">MI_OperationOptions_Delete</a> function.
-
+When you have finished using the object returned from this call, delete it by calling the <a href="/previous-versions/windows/desktop/api/mi/nf-mi-mi_operationoptions_delete">MI_OperationOptions_Delete</a> function.

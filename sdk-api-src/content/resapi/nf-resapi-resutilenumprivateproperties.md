@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Retrieves the names of a  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-objects">cluster object's</a> <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/private-properties">private properties</a>. The <b>PRESUTIL_ENUM_PRIVATE_PROPERTIES</b> type defines a pointer to this function.
+Retrieves the names of a  <a href="/previous-versions/windows/desktop/mscs/cluster-objects">cluster object's</a> <a href="/previous-versions/windows/desktop/mscs/private-properties">private properties</a>. The <b>PRESUTIL_ENUM_PRIVATE_PROPERTIES</b> type defines a pointer to this function.
 
 ## -parameters
 
 ### -param hkeyClusterKey [in]
 
-Key identifying the location of the private properties in the  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-database">cluster database</a>.
+Key identifying the location of the private properties in the  <a href="/previous-versions/windows/desktop/mscs/cluster-database">cluster database</a>.
 
 ### -param pszOutProperties [out]
 
@@ -79,7 +79,7 @@ Pointer to the required number of bytes if the output buffer is too small to hol
 If the operation succeeds, the function returns <b>ERROR_SUCCESS</b>.
 
 If the operation fails, 
-the function returns a <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a>. The following are possible error codes.
+the function returns a <a href="/windows/desktop/Debug/system-error-codes">system error code</a>. The following are possible error codes.
 
 <table>
 <tr>
@@ -123,5 +123,4 @@ The size of the output buffer is too small to hold the resulting data. The <i>pc
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/resapi/nf-resapi-resutilenumproperties">ResUtilEnumProperties</a>
-
+<a href="/windows/desktop/api/resapi/nf-resapi-resutilenumproperties">ResUtilEnumProperties</a>

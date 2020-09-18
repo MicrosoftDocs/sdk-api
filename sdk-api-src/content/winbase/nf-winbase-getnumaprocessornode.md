@@ -52,7 +52,7 @@ api_name:
 
 Retrieves the node number for the specified processor.
 
-Use the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getnumaprocessornodeex">GetNumaProcessorNodeEx</a> function to specify a processor group and retrieve the node number as a <b>USHORT</b> value.
+Use the <a href="/windows/desktop/api/winbase/nf-winbase-getnumaprocessornodeex">GetNumaProcessorNodeEx</a> function to specify a processor group and retrieve the node number as a <b>USHORT</b> value.
 
 ## -parameters
 
@@ -60,7 +60,7 @@ Use the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winba
 
 The processor number.
 
-On a system with more than 64 logical processors, the processor number is relative to the <a href="https://docs.microsoft.com/windows/desktop/ProcThread/processor-groups">processor group</a> that contains the processor on which the calling thread is running.
+On a system with more than 64 logical processors, the processor number is relative to the <a href="/windows/desktop/ProcThread/processor-groups">processor group</a> that contains the processor on which the calling thread is running.
 
 ### -param NodeNumber [out]
 
@@ -71,37 +71,36 @@ The node number. If the processor does not exist, this parameter is 0xFF.
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
 To retrieve the list of processors on the system, use the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getprocessaffinitymask">GetProcessAffinityMask</a> function.
+<a href="/windows/desktop/api/winbase/nf-winbase-getprocessaffinitymask">GetProcessAffinityMask</a> function.
 
 
 #### Examples
 
-For an example, see <a href="https://docs.microsoft.com/windows/desktop/Memory/allocating-memory-from-a-numa-node">Allocating Memory from a NUMA Node</a>.
+For an example, see <a href="/windows/desktop/Memory/allocating-memory-from-a-numa-node">Allocating Memory from a NUMA Node</a>.
 
 <div class="code"></div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getnumanodeprocessormask">GetNumaNodeProcessorMask</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-getnumanodeprocessormask">GetNumaNodeProcessorMask</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getnumaprocessornodeex">GetNumaProcessorNodeEx</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-getnumaprocessornodeex">GetNumaProcessorNodeEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getnumaproximitynode">GetNumaProximityNode</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-getnumaproximitynode">GetNumaProximityNode</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getprocessaffinitymask">GetProcessAffinityMask</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-getprocessaffinitymask">GetProcessAffinityMask</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/ProcThread/numa-support">NUMA Support</a>
-
+<a href="/windows/desktop/ProcThread/numa-support">NUMA Support</a>

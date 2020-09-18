@@ -42,9 +42,8 @@ api_name:
 
 Represents a font set.
 
-This interface extends [IDWriteFontSet1](/windows/win32/api/dwrite_3/nn-dwrite_3-idwritefontset1).
+This interface extends [IDWriteFontSet1](./nn-dwrite_3-idwritefontset1.md).
 
 ## -see-also
 
-[IDWriteFontSet1](/windows/win32/api/dwrite_3/nn-dwrite_3-idwritefontset1)
-
+[IDWriteFontSet1](./nn-dwrite_3-idwritefontset1.md)

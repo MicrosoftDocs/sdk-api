@@ -55,7 +55,7 @@ api_name:
 The 
 <b>MsiGetFileHash</b> function takes the path to a file and returns a 128-bit hash of that file. Authoring tools may use 
 <b>MsiGetFileHash</b> to obtain the file hash needed to populate the 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/msifilehash-table">MsiFileHash table</a>.
+<a href="/windows/desktop/Msi/msifilehash-table">MsiFileHash table</a>.
 
 Windows Installer uses file hashing as a means to detect and eliminate unnecessary file copying. A file hash stored in the MsiFileHash table may be compared to a hash of an existing file on the user's computer.
 
@@ -134,11 +134,11 @@ Unexpected error has occurred.
 
 The entire 128-bit file hash is returned as four 32-bit fields. The numbering of the four fields is zero-based. The values returned by 
 <b>MsiGetFileHash</b> correspond to the four fields of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/msi/ns-msi-msifilehashinfo">MSIFILEHASHINFO</a> structure. The first field corresponds to the HashPart1 column of the MsiFileHash table, the second field corresponds to the HashPart2 column, the third field corresponds to the HashPart3 column, and the fourth field corresponds to the HashPart4 column.
+<a href="/windows/desktop/api/msi/ns-msi-msifilehashinfo">MSIFILEHASHINFO</a> structure. The first field corresponds to the HashPart1 column of the MsiFileHash table, the second field corresponds to the HashPart2 column, the third field corresponds to the HashPart3 column, and the fourth field corresponds to the HashPart4 column.
 
 The hash information entered into the MsiFileHash table must be obtained by calling 
 <b>MsiGetFileHash</b> or the 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/installer-filehash">FileHash</a> method. Do not attempt to use other methods to generate the file hash.
+<a href="/windows/desktop/Msi/installer-filehash">FileHash</a> method. Do not attempt to use other methods to generate the file hash.
 
 
 
@@ -149,13 +149,12 @@ The hash information entered into the MsiFileHash table must be obtained by call
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/default-file-versioning">Default File Versioning</a>
+<a href="/windows/desktop/Msi/default-file-versioning">Default File Versioning</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msi/ns-msi-msifilehashinfo">MSIFILEHASHINFO</a>
+<a href="/windows/desktop/api/msi/ns-msi-msifilehashinfo">MSIFILEHASHINFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/msifilehash-table">MsiFileHash table</a>
-
+<a href="/windows/desktop/Msi/msifilehash-table">MsiFileHash table</a>

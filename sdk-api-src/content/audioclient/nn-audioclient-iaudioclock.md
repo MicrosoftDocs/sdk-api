@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-The <b>IAudioClock</b> interface enables a client to monitor a stream's data rate and the current position in the stream. The client obtains a reference to the <b>IAudioClock</b> interface of a stream object by calling the <a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nf-audioclient-iaudioclient-getservice">IAudioClient::GetService</a> method with parameter <i>riid</i> set to REFIID IID_IAudioClock.
+The <b>IAudioClock</b> interface enables a client to monitor a stream's data rate and the current position in the stream. The client obtains a reference to the <b>IAudioClock</b> interface of a stream object by calling the <a href="/windows/desktop/api/audioclient/nf-audioclient-iaudioclient-getservice">IAudioClient::GetService</a> method with parameter <i>riid</i> set to REFIID IID_IAudioClock.
 
 When releasing an <b>IAudioClock</b> interface instance, the client must call the interface's Release method from the same thread as the call to <b>IAudioClient::GetService</b> that created the object.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAudioClock</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAudioClock</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAudioClock</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAudioClock</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>IAudioClock</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nf-audioclient-iaudioclock-getcharacteristics">GetCharacteristics</a>
+<a href="/windows/desktop/api/audioclient/nf-audioclient-iaudioclock-getcharacteristics">GetCharacteristics</a>
 </td>
 <td align="left" width="63%">
 Reserved for future use.
@@ -80,7 +80,7 @@ Reserved for future use.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nf-audioclient-iaudioclock-getfrequency">GetFrequency</a>
+<a href="/windows/desktop/api/audioclient/nf-audioclient-iaudioclock-getfrequency">GetFrequency</a>
 </td>
 <td align="left" width="63%">
 Gets the device frequency.
@@ -89,7 +89,7 @@ Gets the device frequency.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nf-audioclient-iaudioclock-getposition">GetPosition</a>
+<a href="/windows/desktop/api/audioclient/nf-audioclient-iaudioclock-getposition">GetPosition</a>
 </td>
 <td align="left" width="63%">
 Gets the current position in the stream.
@@ -100,13 +100,12 @@ Gets the current position in the stream.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/CoreAudio/core-audio-interfaces">Core Audio Interfaces</a>
+<a href="/windows/desktop/CoreAudio/core-audio-interfaces">Core Audio Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nf-audioclient-iaudioclient-getservice">IAudioClient::GetService</a>
+<a href="/windows/desktop/api/audioclient/nf-audioclient-iaudioclient-getservice">IAudioClient::GetService</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/CoreAudio/wasapi">WASAPI</a>
-
+<a href="/windows/desktop/CoreAudio/wasapi">WASAPI</a>

@@ -77,17 +77,16 @@ If the object does not create worker threads, the method should simply return S_
 Otherwise, if the value of <code>*pdwTaskIndex</code> is zero on input, the object should perform the following steps:
 
 <ol>
-<li>A single worker thread calls <a href="https://docs.microsoft.com/windows/desktop/api/avrt/nf-avrt-avsetmmthreadcharacteristicsa">AvSetMmThreadCharacteristics</a> to create a new MMCSS task identifier. Store this value.</li>
-<li>Any additional worker threads call <a href="https://docs.microsoft.com/windows/desktop/api/avrt/nf-avrt-avsetmmthreadcharacteristicsa">AvSetMmThreadCharacteristics</a> using the new task identifier.</li>
+<li>A single worker thread calls <a href="/windows/desktop/api/avrt/nf-avrt-avsetmmthreadcharacteristicsa">AvSetMmThreadCharacteristics</a> to create a new MMCSS task identifier. Store this value.</li>
+<li>Any additional worker threads call <a href="/windows/desktop/api/avrt/nf-avrt-avsetmmthreadcharacteristicsa">AvSetMmThreadCharacteristics</a> using the new task identifier.</li>
 <li>Return the new task identifier to the caller, by setting <code>*pdwTaskIndex</code> equal to the task identifier.</li>
 </ol>
-If the value of <code>*pdwTaskIndex</code> is nonzero on input, the parameter contains an existing MMCSS task identifer. In that case, all worker threads of the object should register themselves for that task by calling <a href="https://docs.microsoft.com/windows/desktop/api/avrt/nf-avrt-avsetmmthreadcharacteristicsa">AvSetMmThreadCharacteristics</a>.
+If the value of <code>*pdwTaskIndex</code> is nonzero on input, the parameter contains an existing MMCSS task identifer. In that case, all worker threads of the object should register themselves for that task by calling <a href="/windows/desktop/api/avrt/nf-avrt-avsetmmthreadcharacteristicsa">AvSetMmThreadCharacteristics</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfrealtimeclientex">IMFRealTimeClientEx</a>
+<a href="/windows/desktop/api/mfidl/nn-mfidl-imfrealtimeclientex">IMFRealTimeClientEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-work-queue-and-threading-improvements">Work Queue and Threading Improvements</a>
-
+<a href="/windows/desktop/medfound/media-foundation-work-queue-and-threading-improvements">Work Queue and Threading Improvements</a>

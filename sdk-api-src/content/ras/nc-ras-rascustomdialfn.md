@@ -68,8 +68,8 @@ Handle to the instance of the custom-dial DLL that was loaded.
 ### -param lpRasDialExtensions
 
 Pointer to a 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa377029(v=vs.85)">RASDIALEXTENSIONS</a> structure that specifies a set of 
-<a href="https://docs.microsoft.com/windows/desktop/api/ras/nf-ras-rasdiala">RasDial</a> extended features to enable. Set this parameter to <b>NULL</b> if there is no need to enable the extensions.
+<a href="/previous-versions/windows/desktop/legacy/aa377029(v=vs.85)">RASDIALEXTENSIONS</a> structure that specifies a set of 
+<a href="/windows/desktop/api/ras/nf-ras-rasdiala">RasDial</a> extended features to enable. Set this parameter to <b>NULL</b> if there is no need to enable the extensions.
 
 ### -param lpszPhonebook
 
@@ -78,30 +78,30 @@ Pointer to a <b>null</b>-terminated string that specifies the full path and file
 ### -param lpRasDialParams
 
 Pointer to a 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa377238(v=vs.85)">RASDIALPARAMS</a> structure that specifies calling parameters for the RAS connection. 
+<a href="/previous-versions/windows/desktop/legacy/aa377238(v=vs.85)">RASDIALPARAMS</a> structure that specifies calling parameters for the RAS connection. 
 
 
 
 
 The caller must set the 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa377238(v=vs.85)">RASDIALPARAMS</a> structure's <b>dwSize</b> member to sizeof(<b>RASDIALPARAMS</b>) to identify the version of the structure being passed.
+<a href="/previous-versions/windows/desktop/legacy/aa377238(v=vs.85)">RASDIALPARAMS</a> structure's <b>dwSize</b> member to sizeof(<b>RASDIALPARAMS</b>) to identify the version of the structure being passed.
 
 ### -param dwNotifierType
 
 This parameter is the same as the <i>dwNotifierType</i> parameter for the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ras/nf-ras-rasdiala">RasDial</a> function. See the 
+<a href="/windows/desktop/api/ras/nf-ras-rasdiala">RasDial</a> function. See the 
 <b>RasDial</b> reference page for more information.
 
 ### -param lpvNotifier
 
 This parameter is the same as the <i>lpvNotifier</i> parameter for the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ras/nf-ras-rasdiala">RasDial</a> function. See the 
+<a href="/windows/desktop/api/ras/nf-ras-rasdiala">RasDial</a> function. See the 
 <b>RasDial</b> reference page for more information.
 
 ### -param lphRasConn
 
 Pointer to a variable of type <b>HRASCONN</b>. Set the <b>HRASCONN</b> variable to <b>NULL</b> before calling 
-<a href="https://docs.microsoft.com/windows/desktop/api/ras/nf-ras-rasdiala">RasDial</a>. If 
+<a href="/windows/desktop/api/ras/nf-ras-rasdiala">RasDial</a>. If 
 <b>RasDial</b> succeeds, it stores a handle to the RAS connection into <i>*lphRasConn</i>.
 
 ### -param dwFlags
@@ -112,7 +112,7 @@ This parameter reserved for future use.
 
 If the function succeeds, the return value is <b>ERROR_SUCCESS</b> and a handle to the RAS connection in the variable pointed to by the <i>lphRasConn</i> parameter is returned.
 
-If the function fails, the return value is one of the following error codes or a value from <a href="https://docs.microsoft.com/windows/desktop/RRAS/routing-and-remote-access-error-codes">Routing and Remote Access Error Codes</a> or Winerror.h.
+If the function fails, the return value is one of the following error codes or a value from <a href="/windows/desktop/RRAS/routing-and-remote-access-error-codes">Routing and Remote Access Error Codes</a> or Winerror.h.
 
 <table>
 <tr>
@@ -135,45 +135,44 @@ The function could not allocate sufficient memory to complete the operation.
 ## -remarks
 
 RAS calls this entry point from 
-<a href="https://docs.microsoft.com/windows/desktop/api/ras/nf-ras-rasdiala">RasDial</a>, if the <b>szCustomDialDll</b> member of the 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa377274(v=vs.85)">RASENTRY</a> structure for the entry being dialed specifies a custom-dialing DLL.
+<a href="/windows/desktop/api/ras/nf-ras-rasdiala">RasDial</a>, if the <b>szCustomDialDll</b> member of the 
+<a href="/previous-versions/windows/desktop/legacy/aa377274(v=vs.85)">RASENTRY</a> structure for the entry being dialed specifies a custom-dialing DLL.
 
 If this entry point calls 
-<a href="https://docs.microsoft.com/windows/desktop/api/ras/nf-ras-rasdiala">RasDial</a>, the <i>lpRasDialExtensions</i> parameter must not be <b>NULL</b>, and the <b>dwFlags</b> member of the 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa377029(v=vs.85)">RASDIALEXTENSIONS</a> structure must have the RDEOPT_CustomDial flag set.
+<a href="/windows/desktop/api/ras/nf-ras-rasdiala">RasDial</a>, the <i>lpRasDialExtensions</i> parameter must not be <b>NULL</b>, and the <b>dwFlags</b> member of the 
+<a href="/previous-versions/windows/desktop/legacy/aa377029(v=vs.85)">RASDIALEXTENSIONS</a> structure must have the RDEOPT_CustomDial flag set.
 
 If the custom-dial DLL does not support this entry point, RAS returns ERROR_CANNOT_DO_CUSTOMDIAL to the caller of 
-<a href="https://docs.microsoft.com/windows/desktop/api/ras/nf-ras-rasdiala">RasDial</a>.
+<a href="/windows/desktop/api/ras/nf-ras-rasdiala">RasDial</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/custom-dialers">Custom Dialers</a>
+<a href="/windows/desktop/RRAS/custom-dialers">Custom Dialers</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa377274(v=vs.85)">RASENTRY</a>
+<a href="/previous-versions/windows/desktop/legacy/aa377274(v=vs.85)">RASENTRY</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rasdlg/nc-rasdlg-rascustomdialdlgfn">RasCustomDialDlg</a>
+<a href="/windows/desktop/api/rasdlg/nc-rasdlg-rascustomdialdlgfn">RasCustomDialDlg</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rasdlg/nc-rasdlg-rascustomentrydlgfn">RasCustomEntryDlg</a>
+<a href="/windows/desktop/api/rasdlg/nc-rasdlg-rascustomentrydlgfn">RasCustomEntryDlg</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ras/nc-ras-rascustomhangupfn">RasCustomHangUp</a>
+<a href="/windows/desktop/api/ras/nc-ras-rascustomhangupfn">RasCustomHangUp</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ras/nf-ras-rasdiala">RasDial</a>
+<a href="/windows/desktop/api/ras/nf-ras-rasdiala">RasDial</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/about-remote-access-service">Remote Access Service (RAS) Overview</a>
+<a href="/windows/desktop/RRAS/about-remote-access-service">Remote Access Service (RAS) Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/remote-access-service-functions">Remote Access Service Functions</a>
-
+<a href="/windows/desktop/RRAS/remote-access-service-functions">Remote Access Service Functions</a>

@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-This operator returns the address of a <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_rasterizer_desc">D3D11_RASTERIZER_DESC</a> structure that contains  the data from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/jj151654(v=vs.85)">CD3D11_RASTERIZER_DESC</a> instance.
+This operator returns the address of a <a href="/windows/desktop/api/d3d11/ns-d3d11-d3d11_rasterizer_desc">D3D11_RASTERIZER_DESC</a> structure that contains  the data from the <a href="/previous-versions/windows/desktop/legacy/jj151654(v=vs.85)">CD3D11_RASTERIZER_DESC</a> instance.
 
 
 ## -parameters
@@ -66,8 +66,7 @@ This operator returns the address of a <a href="https://docs.microsoft.com/windo
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/jj151654(v=vs.85)">CD3D11_RASTERIZER_DESC</a>
+<a href="/previous-versions/windows/desktop/legacy/jj151654(v=vs.85)">CD3D11_RASTERIZER_DESC</a>
  
 
  
-

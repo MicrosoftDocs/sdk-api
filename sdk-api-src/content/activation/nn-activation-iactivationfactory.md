@@ -54,7 +54,7 @@ Enables classes to be activated by the Windows Runtime.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IActivationFactory</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/inspectable/nn-inspectable-iinspectable">IInspectable</a>. <b>IActivationFactory</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IActivationFactory</b> interface inherits from <a href="/windows/desktop/api/inspectable/nn-inspectable-iinspectable">IInspectable</a>. <b>IActivationFactory</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IActivationFactory</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/activation/nf-activation-iactivationfactory-activateinstance">ActivateInstance</a>
+<a href="/windows/desktop/api/activation/nf-activation-iactivationfactory-activateinstance">ActivateInstance</a>
 </td>
 <td align="left" width="63%">
 Creates a new instance of the Windows Runtime class that is associated with the current activation factory.
@@ -80,25 +80,24 @@ Creates a new instance of the Windows Runtime class that is associated with the 
 
 ## -remarks
 
-Implement the <b>IActivationFactory</b> interface when you create a class that you want Windows Runtime  applications to use. Clients call the <a href="https://docs.microsoft.com/windows/desktop/api/activation/nf-activation-iactivationfactory-activateinstance">ActivateInstance</a>method to use an instance of your class. 
+Implement the <b>IActivationFactory</b> interface when you create a class that you want Windows Runtime  applications to use. Clients call the <a href="/windows/desktop/api/activation/nf-activation-iactivationfactory-activateinstance">ActivateInstance</a>method to use an instance of your class. 
 
-You can get an <b>IActivationFactory</b> pointer by calling the <a href="https://docs.microsoft.com/windows/desktop/api/roapi/nf-roapi-rogetactivationfactory">RoGetActivationFactory</a> function.  
+You can get an <b>IActivationFactory</b> pointer by calling the <a href="/windows/desktop/api/roapi/nf-roapi-rogetactivationfactory">RoGetActivationFactory</a> function.  
 
-During activation of a class, the Windows Runtime calls the <a href="https://docs.microsoft.com/previous-versions/br205771(v=vs.85)">DllGetActivationFactory</a> function to get an <b>IActivationFactory</b> pointer that corresponds to the requested class.
+During activation of a class, the Windows Runtime calls the <a href="/previous-versions/br205771(v=vs.85)">DllGetActivationFactory</a> function to get an <b>IActivationFactory</b> pointer that corresponds to the requested class.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/br205771(v=vs.85)">DllGetActivationFactory</a>
+<a href="/previous-versions/br205771(v=vs.85)">DllGetActivationFactory</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/unknwnbase/nn-unknwnbase-iclassfactory">IClassFactory</a>
+<a href="/windows/desktop/api/unknwnbase/nn-unknwnbase-iclassfactory">IClassFactory</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/inspectable/nn-inspectable-iinspectable">IInspectable</a>
+<a href="/windows/desktop/api/inspectable/nn-inspectable-iinspectable">IInspectable</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/roapi/nf-roapi-rogetactivationfactory">RoGetActivationFactory</a>
-
+<a href="/windows/desktop/api/roapi/nf-roapi-rogetactivationfactory">RoGetActivationFactory</a>

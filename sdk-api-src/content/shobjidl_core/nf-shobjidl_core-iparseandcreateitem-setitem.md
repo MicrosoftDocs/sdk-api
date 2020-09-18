@@ -50,15 +50,15 @@ api_name:
 
 ## -description
 
-Sets a Shell item that [SHCreateItemFromParsingName](/windows/win32/api/shobjidl_core/nf-shobjidl_core-shcreateitemfromparsingname) created from a parsing name.
+Sets a Shell item that [SHCreateItemFromParsingName](./nf-shobjidl_core-shcreateitemfromparsingname.md) created from a parsing name.
 
 ## -parameters
 
 ### -param psi [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a>*</b>
+Type: <b><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a>*</b>
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a> object.
+Pointer to an <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a> object.
 
 ## -returns
 
@@ -68,5 +68,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iparseandcreateitem">IParseAndCreateItem</a>
-
+<a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iparseandcreateitem">IParseAndCreateItem</a>

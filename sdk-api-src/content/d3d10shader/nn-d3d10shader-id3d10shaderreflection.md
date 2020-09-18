@@ -55,7 +55,7 @@ A shader-reflection interface accesses shader information.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D10ShaderReflection</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ID3D10ShaderReflection</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D10ShaderReflection</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ID3D10ShaderReflection</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>ID3D10ShaderReflection</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d10shader/nf-d3d10shader-id3d10shaderreflection-getconstantbufferbyindex">GetConstantBufferByIndex</a>
+<a href="/windows/desktop/api/d3d10shader/nf-d3d10shader-id3d10shaderreflection-getconstantbufferbyindex">GetConstantBufferByIndex</a>
 </td>
 <td align="left" width="63%">
 Get a constant buffer by index.
@@ -79,7 +79,7 @@ Get a constant buffer by index.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d10shader/nf-d3d10shader-id3d10shaderreflection-getconstantbufferbyname">GetConstantBufferByName</a>
+<a href="/windows/desktop/api/d3d10shader/nf-d3d10shader-id3d10shaderreflection-getconstantbufferbyname">GetConstantBufferByName</a>
 </td>
 <td align="left" width="63%">
 Get a constant buffer by name.
@@ -88,7 +88,7 @@ Get a constant buffer by name.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d10shader/nf-d3d10shader-id3d10shaderreflection-getdesc">GetDesc</a>
+<a href="/windows/desktop/api/d3d10shader/nf-d3d10shader-id3d10shaderreflection-getdesc">GetDesc</a>
 </td>
 <td align="left" width="63%">
 Get a shader description.
@@ -97,7 +97,7 @@ Get a shader description.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d10shader/nf-d3d10shader-id3d10shaderreflection-getinputparameterdesc">GetInputParameterDesc</a>
+<a href="/windows/desktop/api/d3d10shader/nf-d3d10shader-id3d10shaderreflection-getinputparameterdesc">GetInputParameterDesc</a>
 </td>
 <td align="left" width="63%">
 Get an input-parameter description for a shader.
@@ -106,7 +106,7 @@ Get an input-parameter description for a shader.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d10shader/nf-d3d10shader-id3d10shaderreflection-getoutputparameterdesc">GetOutputParameterDesc</a>
+<a href="/windows/desktop/api/d3d10shader/nf-d3d10shader-id3d10shaderreflection-getoutputparameterdesc">GetOutputParameterDesc</a>
 </td>
 <td align="left" width="63%">
 Get an output-parameter description for a shader.
@@ -115,7 +115,7 @@ Get an output-parameter description for a shader.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d10shader/nf-d3d10shader-id3d10shaderreflection-getresourcebindingdesc">GetResourceBindingDesc</a>
+<a href="/windows/desktop/api/d3d10shader/nf-d3d10shader-id3d10shaderreflection-getresourcebindingdesc">GetResourceBindingDesc</a>
 </td>
 <td align="left" width="63%">
 Get a description of the resources bound to a shader.
@@ -126,9 +126,8 @@ Get a description of the resources bound to a shader.
 
 ## -remarks
 
-Create the interface by calling <a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3dx10reflectshader">D3DX10ReflectShader</a>. Since it is a COM interface, creating the interface increases a reference count and the interface must be released when it is no longer needed. The remaining shader-reflection interfaces are not COM interfaces.
+Create the interface by calling <a href="/windows/desktop/direct3d10/d3dx10reflectshader">D3DX10ReflectShader</a>. Since it is a COM interface, creating the interface increases a reference count and the interface must be released when it is no longer needed. The remaining shader-reflection interfaces are not COM interfaces.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-reference-d3d10-shader-interfaces">Shader Interfaces</a>
-
+<a href="/windows/desktop/direct3d10/d3d10-graphics-reference-d3d10-shader-interfaces">Shader Interfaces</a>

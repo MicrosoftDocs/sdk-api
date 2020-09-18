@@ -64,19 +64,19 @@ The process ID that identifies the process to select, or 0 if the <i>Application
 
 ### -param Flags [in]
 
-A combination of flags from the <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/ne-comsvcs-getapptrackerdataflags">GetAppTrackerDataFlags</a> enumeration that specify which data is to be returned. The following flags are supported: GATD_INCLUDE_PROCESS_EXE_NAME (if retrieving a summary).
+A combination of flags from the <a href="/windows/desktop/api/comsvcs/ne-comsvcs-getapptrackerdataflags">GetAppTrackerDataFlags</a> enumeration that specify which data is to be returned. The following flags are supported: GATD_INCLUDE_PROCESS_EXE_NAME (if retrieving a summary).
 
 ### -param Summary [out, optional]
 
-On return, a <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/ns-comsvcs-applicationprocesssummary">ApplicationProcessSummary</a> structure with summary information for the process. This parameter can be <b>NULL</b>.
+On return, a <a href="/windows/desktop/api/comsvcs/ns-comsvcs-applicationprocesssummary">ApplicationProcessSummary</a> structure with summary information for the process. This parameter can be <b>NULL</b>.
 
 ### -param Statistics [out, optional]
 
-On return, a <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/ns-comsvcs-applicationprocessstatistics">ApplicationProcessStatistics</a> structure with statistics for the process. This parameter can be <b>NULL</b>.
+On return, a <a href="/windows/desktop/api/comsvcs/ns-comsvcs-applicationprocessstatistics">ApplicationProcessStatistics</a> structure with statistics for the process. This parameter can be <b>NULL</b>.
 
 ### -param RecycleInfo [out, optional]
 
-On return, a <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/ns-comsvcs-applicationprocessrecycleinfo">ApplicationProcessRecycleInfo</a> structure with recycling details for the process. This parameter can be <b>NULL</b>.
+On return, a <a href="/windows/desktop/api/comsvcs/ns-comsvcs-applicationprocessrecycleinfo">ApplicationProcessRecycleInfo</a> structure with recycling details for the process. This parameter can be <b>NULL</b>.
 
 ### -param AnyComponentsHangMonitored [out, optional]
 
@@ -123,5 +123,4 @@ You may request any or all of the information available for the process by passi
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-igetapptrackerdata">IGetAppTrackerData</a>
-
+<a href="/windows/desktop/api/comsvcs/nn-comsvcs-igetapptrackerdata">IGetAppTrackerData</a>

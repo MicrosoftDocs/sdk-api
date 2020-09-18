@@ -54,7 +54,7 @@ Provides the methods for creating and managing the component or file that contai
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICreateTypeLib</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ICreateTypeLib</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICreateTypeLib</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ICreateTypeLib</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ICreateTypeLib</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-icreatetypelib-createtypeinfo">CreateTypeInfo</a>
+<a href="/previous-versions/windows/desktop/api/oaidl/nf-oaidl-icreatetypelib-createtypeinfo">CreateTypeInfo</a>
 </td>
 <td align="left" width="63%">
 Creates a new type description instance within the type library.
@@ -78,7 +78,7 @@ Creates a new type description instance within the type library.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-icreatetypelib-saveallchanges">SaveAllChanges</a>
+<a href="/previous-versions/windows/desktop/api/oaidl/nf-oaidl-icreatetypelib-saveallchanges">SaveAllChanges</a>
 </td>
 <td align="left" width="63%">
 Saves the <b>ICreateTypeLib</b> instance following the layout of type information.
@@ -87,7 +87,7 @@ Saves the <b>ICreateTypeLib</b> instance following the layout of type informatio
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-icreatetypelib-setdocstring">SetDocString</a>
+<a href="/previous-versions/windows/desktop/api/oaidl/nf-oaidl-icreatetypelib-setdocstring">SetDocString</a>
 </td>
 <td align="left" width="63%">
 Sets the documentation string associated with the library.
@@ -96,7 +96,7 @@ Sets the documentation string associated with the library.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-icreatetypelib-setguid">SetGuid</a>
+<a href="/previous-versions/windows/desktop/api/oaidl/nf-oaidl-icreatetypelib-setguid">SetGuid</a>
 </td>
 <td align="left" width="63%">
 Sets the universal unique identifier (UUID) associated with the type library
@@ -105,7 +105,7 @@ Sets the universal unique identifier (UUID) associated with the type library
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-icreatetypelib-sethelpcontext">SetHelpContext</a>
+<a href="/previous-versions/windows/desktop/api/oaidl/nf-oaidl-icreatetypelib-sethelpcontext">SetHelpContext</a>
 </td>
 <td align="left" width="63%">
 Sets the Help context ID for retrieving general Help information for the type library.
@@ -114,7 +114,7 @@ Sets the Help context ID for retrieving general Help information for the type li
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-icreatetypelib-sethelpfilename">SetHelpFileName</a>
+<a href="/previous-versions/windows/desktop/api/oaidl/nf-oaidl-icreatetypelib-sethelpfilename">SetHelpFileName</a>
 </td>
 <td align="left" width="63%">
 Sets the name of the Help file.
@@ -123,7 +123,7 @@ Sets the name of the Help file.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/automat/lcid">SetLcid</a>
+<a href="/previous-versions/windows/desktop/automat/lcid">SetLcid</a>
 </td>
 <td align="left" width="63%">
 Sets the binary Microsoft national language ID associated with the library.
@@ -132,7 +132,7 @@ Sets the binary Microsoft national language ID associated with the library.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/oaidl/nf-oaidl-icreatetypelib-setlibflags">SetLibFlags</a>
+<a href="/windows/desktop/api/oaidl/nf-oaidl-icreatetypelib-setlibflags">SetLibFlags</a>
 </td>
 <td align="left" width="63%">
 Sets library flags.
@@ -141,7 +141,7 @@ Sets library flags.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-icreatetypelib-setname">SetName</a>
+<a href="/previous-versions/windows/desktop/api/oaidl/nf-oaidl-icreatetypelib-setname">SetName</a>
 </td>
 <td align="left" width="63%">
 Sets the name of the type library.
@@ -150,7 +150,7 @@ Sets the name of the type library.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-icreatetypelib-setversion">SetVersion</a>
+<a href="/previous-versions/windows/desktop/api/oaidl/nf-oaidl-icreatetypelib-setversion">SetVersion</a>
 </td>
 <td align="left" width="63%">
 Sets the major and minor version numbers of the type library.
@@ -161,5 +161,4 @@ Sets the major and minor version numbers of the type library.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/automat/using-type-building-interfaces-and-functions">Type Building Interfaces and Functions </a>
-
+<a href="/previous-versions/windows/desktop/automat/using-type-building-interfaces-and-functions">Type Building Interfaces and Functions </a>

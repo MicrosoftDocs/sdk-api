@@ -55,7 +55,7 @@ A client must implement the
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDiskQuotaEvents</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDiskQuotaEvents</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDiskQuotaEvents</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDiskQuotaEvents</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>IDiskQuotaEvents</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dskquota/nf-dskquota-idiskquotaevents-onusernamechanged">OnUserNameChanged</a>
+<a href="/windows/desktop/api/dskquota/nf-dskquota-idiskquotaevents-onusernamechanged">OnUserNameChanged</a>
 </td>
 <td align="left" width="63%">
 Notifies the client's connection sink whenever a user's SID has been asynchronously resolved.
@@ -81,9 +81,8 @@ Notifies the client's connection sink whenever a user's SID has been asynchronou
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/disk-management-interfaces">Disk Management Interfaces</a>
+<a href="/windows/desktop/FileIO/disk-management-interfaces">Disk Management Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/managing-disk-quotas">Disk Quotas</a>
-
+<a href="/windows/desktop/FileIO/managing-disk-quotas">Disk Quotas</a>

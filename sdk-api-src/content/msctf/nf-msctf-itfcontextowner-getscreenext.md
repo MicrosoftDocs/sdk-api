@@ -86,20 +86,19 @@ If the text is not currently displayed, for example if the document window is mi
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-itextstoreacp-getscreenext">ITextStoreACP::GetScreenExt
+<a href="/windows/desktop/api/textstor/nf-textstor-itextstoreacp-getscreenext">ITextStoreACP::GetScreenExt
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfcontextowner">ITfContextOwner</a>
+<a href="/windows/desktop/api/msctf/nn-msctf-itfcontextowner">ITfContextOwner</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcontextview-getscreenext">ITfContextView::GetScreenExt
+<a href="/windows/desktop/api/msctf/nf-msctf-itfcontextview-getscreenext">ITfContextView::GetScreenExt
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/TSF/tsviewcookie">TsViewCookie
+<a href="/windows/desktop/TSF/tsviewcookie">TsViewCookie
       </a>
-

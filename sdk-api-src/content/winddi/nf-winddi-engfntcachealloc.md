@@ -70,17 +70,16 @@ On success, this function returns the address of the cache of font data. Otherwi
 
 When the font driver calls this function, the font engine allocates memory in which the font driver stores font data. 
 
-The font engine calls the font driver's <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvloadfontfile">DrvLoadFontFile</a> entry point when a font file is first loaded. It is in this call that the font driver receives a value for <i>FastCheckSum</i>, which it subsequently uses when it calls this function.
+The font engine calls the font driver's <a href="/windows/desktop/api/winddi/nf-winddi-drvloadfontfile">DrvLoadFontFile</a> entry point when a font file is first loaded. It is in this call that the font driver receives a value for <i>FastCheckSum</i>, which it subsequently uses when it calls this function.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvloadfontfile">DrvLoadFontFile</a>
+<a href="/windows/desktop/api/winddi/nf-winddi-drvloadfontfile">DrvLoadFontFile</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engfntcachefault">EngFntCacheFault</a>
+<a href="/windows/desktop/api/winddi/nf-winddi-engfntcachefault">EngFntCacheFault</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engfntcachelookup">EngFntCacheLookUp</a>
-
+<a href="/windows/desktop/api/winddi/nf-winddi-engfntcachelookup">EngFntCacheLookUp</a>

@@ -57,11 +57,10 @@ Gets the query type.
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3dquerytype">D3DQUERYTYPE</a></b>
+Type: <b><a href="/windows/desktop/direct3d9/d3dquerytype">D3DQUERYTYPE</a></b>
 
-Returns the query type. See <a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3dquerytype">D3DQUERYTYPE</a>.
+Returns the query type. See <a href="/windows/desktop/direct3d9/d3dquerytype">D3DQUERYTYPE</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3dquery9">IDirect3DQuery9</a>
-
+<a href="/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3dquery9">IDirect3DQuery9</a>

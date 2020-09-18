@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-The  <b>WFDCancelOpenSession</b> function indicates that the application wants to cancel a pending <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wfdstartopensession">WFDStartOpenSession</a> function that has not completed.
+The  <b>WFDCancelOpenSession</b> function indicates that the application wants to cancel a pending <a href="/windows/desktop/api/wlanapi/nf-wlanapi-wfdstartopensession">WFDStartOpenSession</a> function that has not completed.
 
 ## -parameters
 
 ### -param hSessionHandle [in]
 
-A session handle to a Wi-Fi Direct session to cancel. This is a session handle previously returned by the <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wfdstartopensession">WFDStartOpenSession</a> function.
+A session handle to a Wi-Fi Direct session to cancel. This is a session handle previously returned by the <a href="/windows/desktop/api/wlanapi/nf-wlanapi-wfdstartopensession">WFDStartOpenSession</a> function.
 
 ## -returns
 
@@ -114,35 +114,34 @@ The <b>WFDCancelOpenSession</b> function is part of Wi-Fi Direct, a new feature 
 
 
 
-A call to the <b>WFDCancelOpenSession</b> function notifies the Wi-Fi Direct service that the client requests a cancellation of this session. The <b>WFDCancelOpenSession</b> function does not modify the expected <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wfdstartopensession">WFDStartOpenSession</a> behavior. The  callback function specified to the <b>WFDStartOpenSession</b> function will still be called, and the <b>WFDStartOpenSession</b> function may not be completed immediately.
+A call to the <b>WFDCancelOpenSession</b> function notifies the Wi-Fi Direct service that the client requests a cancellation of this session. The <b>WFDCancelOpenSession</b> function does not modify the expected <a href="/windows/desktop/api/wlanapi/nf-wlanapi-wfdstartopensession">WFDStartOpenSession</a> behavior. The  callback function specified to the <b>WFDStartOpenSession</b> function will still be called, and the <b>WFDStartOpenSession</b> function may not be completed immediately.
 
-It is the responsibility of the caller to pass the <b>WFDCancelOpenSession</b> function a handle in the <i>hSessionHandle </i>parameter that was returned from call to the <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wfdstartopensession">WFDStartOpenSession</a> function.
+It is the responsibility of the caller to pass the <b>WFDCancelOpenSession</b> function a handle in the <i>hSessionHandle </i>parameter that was returned from call to the <a href="/windows/desktop/api/wlanapi/nf-wlanapi-wfdstartopensession">WFDStartOpenSession</a> function.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wfdclosehandle">WFDCloseHandle</a>
+<a href="/windows/desktop/api/wlanapi/nf-wlanapi-wfdclosehandle">WFDCloseHandle</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wfdclosesession">WFDCloseSession</a>
+<a href="/windows/desktop/api/wlanapi/nf-wlanapi-wfdclosesession">WFDCloseSession</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wfdopenhandle">WFDOpenHandle</a>
+<a href="/windows/desktop/api/wlanapi/nf-wlanapi-wfdopenhandle">WFDOpenHandle</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wfdopenlegacysession">WFDOpenLegacySession</a>
+<a href="/windows/desktop/api/wlanapi/nf-wlanapi-wfdopenlegacysession">WFDOpenLegacySession</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wfdstartopensession">WFDStartOpenSession</a>
+<a href="/windows/desktop/api/wlanapi/nf-wlanapi-wfdstartopensession">WFDStartOpenSession</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wfdupdatedevicevisibility">WFDUpdateDeviceVisibility</a>
+<a href="/windows/desktop/api/wlanapi/nf-wlanapi-wfdupdatedevicevisibility">WFDUpdateDeviceVisibility</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nc-wlanapi-wfd_open_session_complete_callback">WFD_OPEN_SESSION_COMPLETE_CALLBACK</a>
-
+<a href="/windows/desktop/api/wlanapi/nc-wlanapi-wfd_open_session_complete_callback">WFD_OPEN_SESSION_COMPLETE_CALLBACK</a>

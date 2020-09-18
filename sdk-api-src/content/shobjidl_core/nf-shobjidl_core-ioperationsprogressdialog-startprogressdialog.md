@@ -88,7 +88,7 @@ Update "Line3" text with the time remaining. This flag does not need to be impli
 
 #### PROGDLG_NOTIME (0x00000004)
 
-Do not show the time remaining. We do not recommend setting this flag through <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ioperationsprogressdialog">IOperationsProgressDialog</a> because it goes against the purpose of the dialog.
+Do not show the time remaining. We do not recommend setting this flag through <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ioperationsprogressdialog">IOperationsProgressDialog</a> because it goes against the purpose of the dialog.
 
 
 
@@ -106,7 +106,7 @@ Do not display the progress bar.
 
 #### PROGDLG_MARQUEEPROGRESS (0x00000020)
 
-This flag is invalid in this method. To set the progress bar to marquee mode, use the flags in <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ioperationsprogressdialog-setmode">IOperationsProgressDialog::SetMode</a>.
+This flag is invalid in this method. To set the progress bar to marquee mode, use the flags in <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ioperationsprogressdialog-setmode">IOperationsProgressDialog::SetMode</a>.
 
 
 
@@ -166,5 +166,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 The progress dialog should be created on a separate thread than the file operation on which the dialog is reporting. If the dialog is running in the same thread as the file operation, progress messages are, at best, only sent as resources allow. Progress messages on the same thread as the file operation might not be sent at all.
 
-Once <b>IOperationsProgressDialog::StartProgressDialog</b> is called, that instance of the <b>CLSID_ProgressDialog</b> object cannot be accessed by <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nn-shlobj_core-iprogressdialog">IProgressDialog</a>, <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iactionprogressdialog">IActionProgressDialog</a>, or <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iactionprogress">IActionProgress</a>. Although <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> can be used to access these interfaces, most of their methods cannot be invoked. <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ioperationsprogressdialog">IOperationsProgressDialog</a> is the interface used to display the new progress dialog for the Windows Vista and later operations engine.
-
+Once <b>IOperationsProgressDialog::StartProgressDialog</b> is called, that instance of the <b>CLSID_ProgressDialog</b> object cannot be accessed by <a href="/windows/desktop/api/shlobj_core/nn-shlobj_core-iprogressdialog">IProgressDialog</a>, <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iactionprogressdialog">IActionProgressDialog</a>, or <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iactionprogress">IActionProgress</a>. Although <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> can be used to access these interfaces, most of their methods cannot be invoked. <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ioperationsprogressdialog">IOperationsProgressDialog</a> is the interface used to display the new progress dialog for the Windows Vista and later operations engine.

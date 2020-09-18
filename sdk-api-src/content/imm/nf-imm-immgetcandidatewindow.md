@@ -66,7 +66,7 @@ Index of the candidates window.
 
 ### -param lpCandidate [out]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/imm/ns-imm-candidateform">CANDIDATEFORM</a> structure in which this function retrieves information about the candidates window.
+Pointer to a <a href="/windows/desktop/api/imm/ns-imm-candidateform">CANDIDATEFORM</a> structure in which this function retrieves information about the candidates window.
 
 ## -returns
 
@@ -74,13 +74,12 @@ Returns a nonzero value if successful, or 0 otherwise.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imm/ns-imm-candidateform">CANDIDATEFORM</a>
+<a href="/windows/desktop/api/imm/ns-imm-candidateform">CANDIDATEFORM</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/input-method-manager">Input Method Manager</a>
+<a href="/windows/desktop/Intl/input-method-manager">Input Method Manager</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/input-method-manager-functions">Input Method Manager Functions</a>
-
+<a href="/windows/desktop/Intl/input-method-manager-functions">Input Method Manager Functions</a>

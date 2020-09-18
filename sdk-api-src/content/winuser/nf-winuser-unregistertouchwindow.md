@@ -65,7 +65,7 @@ If the function succeeds, the return value is nonzero.
 
 
 
-If the function fails, the return value is zero. To get extended error information, use the <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function.
+If the function fails, the return value is zero. To get extended error information, use the <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function.
 
 ## -remarks
 
@@ -73,9 +73,8 @@ The <b>UnregisterTouchWindow</b>  function succeeds even if the specified window
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/wintouch/mtfunctions">Functions</a>
+<a href="/windows/desktop/wintouch/mtfunctions">Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-registertouchwindow">RegisterTouchWindow</a>
-
+<a href="/windows/desktop/api/winuser/nf-winuser-registertouchwindow">RegisterTouchWindow</a>

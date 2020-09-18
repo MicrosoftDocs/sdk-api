@@ -56,7 +56,7 @@ Creates and adds a new action to the collection.
 
 ### -param type [in]
 
-This parameter is set to one of the following  <a href="https://docs.microsoft.com/windows/desktop/api/taskschd/ne-taskschd-task_action_type">TASK_ACTION_TYPE</a> enumeration constants.
+This parameter is set to one of the following  <a href="/windows/desktop/api/taskschd/ne-taskschd-task_action_type">TASK_ACTION_TYPE</a> enumeration constants.
 
 <table>
 <tr>
@@ -111,9 +111,9 @@ This action shows a message box.
 
 ### -param ppAction [out]
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nn-taskschd-iaction">IAction</a> interface that represents the new action. 
+An <a href="/windows/desktop/api/taskschd/nn-taskschd-iaction">IAction</a> interface that represents the new action. 
 
-Pass in a reference to a <b>NULL</b> <a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nn-taskschd-iaction">IAction</a> interface pointer.  Referencing a non-<b>NULL</b> pointer can cause a memory leak because the pointer will be overwritten.
+Pass in a reference to a <b>NULL</b> <a href="/windows/desktop/api/taskschd/nn-taskschd-iaction">IAction</a> interface pointer.  Referencing a non-<b>NULL</b> pointer can cause a memory leak because the pointer will be overwritten.
 
 ## -returns
 
@@ -125,33 +125,32 @@ You cannot add more than 32 actions to the collection.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nn-taskschd-iaction">IAction</a>
+<a href="/windows/desktop/api/taskschd/nn-taskschd-iaction">IAction</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nn-taskschd-iactioncollection">IActionCollection</a>
+<a href="/windows/desktop/api/taskschd/nn-taskschd-iactioncollection">IActionCollection</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nn-taskschd-icomhandleraction">IComHandlerAction</a>
+<a href="/windows/desktop/api/taskschd/nn-taskschd-icomhandleraction">IComHandlerAction</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nn-taskschd-iemailaction">IEmailAction</a>
+<a href="/windows/desktop/api/taskschd/nn-taskschd-iemailaction">IEmailAction</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nn-taskschd-iexecaction">IExecAction</a>
+<a href="/windows/desktop/api/taskschd/nn-taskschd-iexecaction">IExecAction</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nn-taskschd-ishowmessageaction">IShowMessageAction</a>
+<a href="/windows/desktop/api/taskschd/nn-taskschd-ishowmessageaction">IShowMessageAction</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/ne-taskschd-task_action_type">TASK_ACTION_TYPE</a>
+<a href="/windows/desktop/api/taskschd/ne-taskschd-task_action_type">TASK_ACTION_TYPE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/TaskSchd/task-scheduler-start-page">Task Scheduler</a>
-
+<a href="/windows/desktop/TaskSchd/task-scheduler-start-page">Task Scheduler</a>

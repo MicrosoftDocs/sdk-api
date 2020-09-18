@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>DIBINDEX</b> macro takes an index to an entry in a DIB color table and returns a <a href="https://docs.microsoft.com/windows/desktop/gdi/colorref">COLORREF</a> value that specifies the color associated with the given index. An application using a device context with a DIB section selected into it can pass this specifier, instead of an explicit red, green, blue (RGB) value, to GDI functions that expect a color. This allows the function to use the color at the specified color table index.
+The <b>DIBINDEX</b> macro takes an index to an entry in a DIB color table and returns a <a href="/windows/desktop/gdi/colorref">COLORREF</a> value that specifies the color associated with the given index. An application using a device context with a DIB section selected into it can pass this specifier, instead of an explicit red, green, blue (RGB) value, to GDI functions that expect a color. This allows the function to use the color at the specified color table index.
 
 ## -parameters
 
@@ -60,27 +60,26 @@ Specifies an index to the color table entry containing the color to be used for 
 
 ## -remarks
 
-<b>DIBINDEX</b> indexes colors in a DIB color table in a manner similar to the way <a href="https://docs.microsoft.com/previous-versions/dd162770(v=vs.85)">PALETTEINDEX</a> indexes colors in a logical palette.
+<b>DIBINDEX</b> indexes colors in a DIB color table in a manner similar to the way <a href="/previous-versions/dd162770(v=vs.85)">PALETTEINDEX</a> indexes colors in a logical palette.
 
 <b>DIBINDEX</b> also works with 16-bit bitmaps and device contexts (DCs).
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/colorref">COLORREF</a>
+<a href="/windows/desktop/gdi/colorref">COLORREF</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/color-macros">Color Macros</a>
+<a href="/windows/desktop/gdi/color-macros">Color Macros</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/colors">Colors Overview</a>
+<a href="/windows/desktop/gdi/colors">Colors Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/dd162770(v=vs.85)">PALETTEINDEX</a>
+<a href="/previous-versions/dd162770(v=vs.85)">PALETTEINDEX</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-rgb">RGB</a>
-
+<a href="/windows/desktop/api/wingdi/nf-wingdi-rgb">RGB</a>

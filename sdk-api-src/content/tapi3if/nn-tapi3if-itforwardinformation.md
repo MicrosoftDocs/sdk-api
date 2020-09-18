@@ -52,12 +52,12 @@ api_name:
 
 The 
 <b>ITForwardInformation</b> interface provides methods for setup and implementation of call forwarding. The forward information object is created by 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itaddress-createforwardinfoobject">ITAddress::CreateForwardInfoObject</a>. A pointer to an existing forward information object can be retrieved using 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itaddress-get_currentforwardinfo">ITAddress::get_CurrentForwardInfo</a>.
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itaddress-createforwardinfoobject">ITAddress::CreateForwardInfoObject</a>. A pointer to an existing forward information object can be retrieved using 
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itaddress-get_currentforwardinfo">ITAddress::get_CurrentForwardInfo</a>.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITForwardInformation</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ITForwardInformation</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITForwardInformation</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ITForwardInformation</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,7 +72,7 @@ The <b>ITForwardInformation</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itforwardinformation-clear">Clear</a>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itforwardinformation-clear">Clear</a>
 </td>
 <td align="left" width="63%">
 Clears all forwarding information in this object.
@@ -81,7 +81,7 @@ Clears all forwarding information in this object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itforwardinformation-get_forwardtypecaller">get_ForwardTypeCaller</a>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itforwardinformation-get_forwardtypecaller">get_ForwardTypeCaller</a>
 </td>
 <td align="left" width="63%">
 Gets the type of caller for a forwarding mode.
@@ -90,7 +90,7 @@ Gets the type of caller for a forwarding mode.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itforwardinformation-get_forwardtypedestination">get_ForwardTypeDestination</a>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itforwardinformation-get_forwardtypedestination">get_ForwardTypeDestination</a>
 </td>
 <td align="left" width="63%">
 Gets the destination for a forwarding mode.
@@ -99,7 +99,7 @@ Gets the destination for a forwarding mode.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itforwardinformation-get_numringsnoanswer">get_NumRingsNoAnswer</a>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itforwardinformation-get_numringsnoanswer">get_NumRingsNoAnswer</a>
 </td>
 <td align="left" width="63%">
 Retrieves the number of rings after which a no answer condition is assumed.
@@ -108,7 +108,7 @@ Retrieves the number of rings after which a no answer condition is assumed.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itforwardinformation-getforwardtype">GetForwardType</a>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itforwardinformation-getforwardtype">GetForwardType</a>
 </td>
 <td align="left" width="63%">
 Gets the forwarding mode.
@@ -117,7 +117,7 @@ Gets the forwarding mode.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itforwardinformation-put_numringsnoanswer">put_NumRingsNoAnswer</a>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itforwardinformation-put_numringsnoanswer">put_NumRingsNoAnswer</a>
 </td>
 <td align="left" width="63%">
 Sets the number of rings after which a no answer condition is assumed.
@@ -126,7 +126,7 @@ Sets the number of rings after which a no answer condition is assumed.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itforwardinformation-setforwardtype">SetForwardType</a>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itforwardinformation-setforwardtype">SetForwardType</a>
 </td>
 <td align="left" width="63%">
 Sets the forwarding mode.
@@ -137,25 +137,24 @@ Sets the forwarding mode.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itaddress-createforwardinfoobject">ITAddress::CreateForwardInfoObject</a>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itaddress-createforwardinfoobject">ITAddress::CreateForwardInfoObject</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itaddress-forward">ITAddress::Forward</a>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itaddress-forward">ITAddress::Forward</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itaddress-get_currentforwardinfo">ITAddress::get_CurrentForwardInfo</a>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itaddress-get_currentforwardinfo">ITAddress::get_CurrentForwardInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itforwardinformation2">ITForwardInformation2</a>
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itforwardinformation2">ITForwardInformation2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/terminal-object">Terminal Object</a>
-
+<a href="/windows/desktop/Tapi/terminal-object">Terminal Object</a>

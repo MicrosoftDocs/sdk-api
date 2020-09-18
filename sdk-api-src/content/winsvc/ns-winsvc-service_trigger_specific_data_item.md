@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-Contains trigger-specific data for a service trigger event. This structure is used by the <a href="https://docs.microsoft.com/windows/desktop/api/winsvc/ns-winsvc-service_trigger">SERVICE_TRIGGER</a> structure for SERVICE_TRIGGER_TYPE_CUSTOM, SERVICE_TRIGGER_TYPE_DEVICE_ARRIVAL, SERVICE_TRIGGER_TYPE_FIREWALL_PORT_EVENT, or SERVICE_TRIGGER_TYPE_NETWORK_ENDPOINT trigger events.
+Contains trigger-specific data for a service trigger event. This structure is used by the <a href="/windows/desktop/api/winsvc/ns-winsvc-service_trigger">SERVICE_TRIGGER</a> structure for SERVICE_TRIGGER_TYPE_CUSTOM, SERVICE_TRIGGER_TYPE_DEVICE_ARRIVAL, SERVICE_TRIGGER_TYPE_FIREWALL_PORT_EVENT, or SERVICE_TRIGGER_TYPE_NETWORK_ENDPOINT trigger events.
 
 ## -struct-fields
 
@@ -159,7 +159,7 @@ The following table lists trigger-specific data by trigger event type.
 </tr>
 <tr>
 <td>SERVICE_TRIGGER_TYPE_CUSTOM</td>
-<td>Specified by the <a href="https://msdn.microsoft.com/library/bb968803.aspx">Event Tracing for Windows</a> (ETW) provider that defines the custom event.</td>
+<td>Specified by the <a href="/windows/win32/etw/event-tracing-portal">Event Tracing for Windows</a> (ETW) provider that defines the custom event.</td>
 </tr>
 <tr>
 <td>SERVICE_TRIGGER_TYPE_DEVICE_INTERFACE_ARRIVAL</td>
@@ -189,17 +189,16 @@ The following table lists trigger-specific data by trigger event type.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-changeserviceconfig2a">ChangeServiceConfig2</a>
+<a href="/windows/desktop/api/winsvc/nf-winsvc-changeserviceconfig2a">ChangeServiceConfig2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-queryserviceconfig2a">QueryServiceConfig2</a>
+<a href="/windows/desktop/api/winsvc/nf-winsvc-queryserviceconfig2a">QueryServiceConfig2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/ns-winsvc-service_trigger">SERVICE_TRIGGER</a>
+<a href="/windows/desktop/api/winsvc/ns-winsvc-service_trigger">SERVICE_TRIGGER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Services/service-trigger-events">Service Trigger Events</a>
-
+<a href="/windows/desktop/Services/service-trigger-events">Service Trigger Events</a>

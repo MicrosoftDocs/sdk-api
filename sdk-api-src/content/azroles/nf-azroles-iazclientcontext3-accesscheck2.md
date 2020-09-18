@@ -64,7 +64,7 @@ The name of the scope that contains the operation specified by the <i>lOperation
 
 ### -param lOperation [in]
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazoperation-get_operationid">OperationID</a> property of the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazoperation">IAzOperation</a> object for which to check access.
+The <a href="/windows/desktop/api/azroles/nf-azroles-iazoperation-get_operationid">OperationID</a> property of the <a href="/windows/desktop/api/azroles/nn-azroles-iazoperation">IAzOperation</a> object for which to check access.
 
 ### -param plResult [out]
 
@@ -76,5 +76,4 @@ A pointer to a value that indicates whether the principal represented by the cur
 
  If the method succeeds, it returns <b>S_OK</b>.
 
-If the method fails, it returns an error code. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
-
+If the method fails, it returns an error code. For a list of common error codes, see <a href="/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.

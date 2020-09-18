@@ -56,15 +56,15 @@ Sets the tunnel specific custom configuration for a specified demand dial interf
 
 ### -param hMprServer [in]
 
-The handle to the router to query. This handle is obtained by a previous call to the <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradminserverconnect">MprAdminServerConnect</a> function.
+The handle to the router to query. This handle is obtained by a previous call to the <a href="/windows/desktop/api/mprapi/nf-mprapi-mpradminserverconnect">MprAdminServerConnect</a> function.
 
 ### -param hInterface [in]
 
-The handle to the interface.  This handle is  obtained by a previous call to the <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradmininterfacecreate">MprAdminInterfaceCreate</a> function or the <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradmininterfacegethandle">MprAdminInterfaceGetHandle</a> function.
+The handle to the interface.  This handle is  obtained by a previous call to the <a href="/windows/desktop/api/mprapi/nf-mprapi-mpradmininterfacecreate">MprAdminInterfaceCreate</a> function or the <a href="/windows/desktop/api/mprapi/nf-mprapi-mpradmininterfacegethandle">MprAdminInterfaceGetHandle</a> function.
 
 ### -param pCustomInfo [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-mpr_if_custominfoex0">MPR_IF_CUSTOMINFOEX</a>  structure that contains tunnel specific custom configuration.
+A pointer to a <a href="/windows/desktop/api/mprapi/ns-mprapi-mpr_if_custominfoex0">MPR_IF_CUSTOMINFOEX</a>  structure that contains tunnel specific custom configuration.
 
 ## -returns
 
@@ -123,17 +123,16 @@ There were insufficient resources to complete the operation.
 
 ## -remarks
 
-If you need to delete the custom configuration for IKEv2 tunnel of an interface, call the  <b>MprAdminInterfaceSetCustomInfoEx</b> function with the <b>dwFlags</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-mpr_if_custominfoex0">MPR_IF_CUSTOMINFOEX</a>   structure set to zero.
+If you need to delete the custom configuration for IKEv2 tunnel of an interface, call the  <b>MprAdminInterfaceSetCustomInfoEx</b> function with the <b>dwFlags</b> member of the <a href="/windows/desktop/api/mprapi/ns-mprapi-mpr_if_custominfoex0">MPR_IF_CUSTOMINFOEX</a>   structure set to zero.
 
-If you need to delete the IKEv2 main mode and quick mode policy configuration for an interface, set the <b>customPolicy</b> parameter of the <b>customIkev2Config</b> member in <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-mpr_if_custominfoex0">MPR_IF_CUSTOMINFOEX</a>   structure to <b>NULL</b>.
+If you need to delete the IKEv2 main mode and quick mode policy configuration for an interface, set the <b>customPolicy</b> parameter of the <b>customIkev2Config</b> member in <a href="/windows/desktop/api/mprapi/ns-mprapi-mpr_if_custominfoex0">MPR_IF_CUSTOMINFOEX</a>   structure to <b>NULL</b>.
 
-If you need to delete the certificate configured to be used during IKEv2 main mode SA negotiation, set the <b>cbData</b> member of <b>certificateName</b> in <b>customIkev2Config</b> member of <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-mpr_if_custominfoex0">MPR_IF_CUSTOMINFOEX</a>   structure to 0.
+If you need to delete the certificate configured to be used during IKEv2 main mode SA negotiation, set the <b>cbData</b> member of <b>certificateName</b> in <b>customIkev2Config</b> member of <a href="/windows/desktop/api/mprapi/ns-mprapi-mpr_if_custominfoex0">MPR_IF_CUSTOMINFOEX</a>   structure to 0.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/router-administration-functions">Router Administration Functions</a>
+<a href="/windows/desktop/RRAS/router-administration-functions">Router Administration Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/router-management-reference">Router Management Reference</a>
-
+<a href="/windows/desktop/RRAS/router-management-reference">Router Management Reference</a>

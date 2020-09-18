@@ -56,7 +56,7 @@ The <b>Add</b> method adds an input device to the collection.
 
 ### -param pDB [in]
 
-Pointer to the device's <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/msvidinputdevice">IMSVidInputDevice</a> interface.
+Pointer to the device's <a href="/previous-versions/windows/desktop/mstv/msvidinputdevice">IMSVidInputDevice</a> interface.
 
 ## -returns
 
@@ -115,9 +115,8 @@ NULL pointer argument.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/msvidinputdevices">IMSVidInputDevices Interface</a>
+<a href="/previous-versions/windows/desktop/mstv/msvidinputdevices">IMSVidInputDevices Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidinputdevices-remove">IMSVidInputDevices::Remove</a>
-
+<a href="/windows/desktop/api/segment/nf-segment-imsvidinputdevices-remove">IMSVidInputDevices::Remove</a>

@@ -50,19 +50,18 @@ api_name:
 
 ## -description
 
-The <b>WebEnrollmentFlags</b> enumeration specifies web enrollment behavior. It is used by the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509enrollmenthelper-enroll">Enroll</a> method on the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509enrollmenthelper">IX509EnrollmentHelper</a> interface.
+The <b>WebEnrollmentFlags</b> enumeration specifies web enrollment behavior. It is used by the <a href="/windows/desktop/api/certenroll/nf-certenroll-ix509enrollmenthelper-enroll">Enroll</a> method on the <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509enrollmenthelper">IX509EnrollmentHelper</a> interface.
 
 ## -enum-fields
 
 ### -field EnrollPrompt
 
-If this flag is set and no authentication credential is available for the certificate enrollment server, the certificate service prompts for a credential. If there is no authentication credential and this flag is not set, the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509enrollmenthelper-enroll">Enroll</a> method fails.
+If this flag is set and no authentication credential is available for the certificate enrollment server, the certificate service prompts for a credential. If there is no authentication credential and this flag is not set, the <a href="/windows/desktop/api/certenroll/nf-certenroll-ix509enrollmenthelper-enroll">Enroll</a> method fails.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509enrollmenthelper-enroll">Enroll</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-ix509enrollmenthelper-enroll">Enroll</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509enrollmenthelper">IX509EnrollmentHelper</a>
-
+<a href="/windows/desktop/api/certenroll/nn-certenroll-ix509enrollmenthelper">IX509EnrollmentHelper</a>

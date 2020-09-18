@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-Holds an extra data block used by <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishelllinkdatalist">IShellLinkDataList</a>. It holds expandable environment strings for the icon or target.
+Holds an extra data block used by <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishelllinkdatalist">IShellLinkDataList</a>. It holds expandable environment strings for the icon or target.
 
 ## -struct-fields
 
@@ -91,4 +91,3 @@ The null-terminated ANSI string with the path of the target or icon.
 Type: <b>WCHAR[MAX_PATH]</b>
 
 The null-terminated Unicode string with the path of the target or icon.
-

@@ -66,7 +66,7 @@ Specifies the name of the event log.
 ### -param pszEventTime [in]
 
 Specifies the time the event was logged, in Windows Management Instrumentation (WMI) format. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/date-and-time-format">Date and Time Format</a> in the WMI documentation.
+<a href="/windows/desktop/WmiSdk/date-and-time-format">Date and Time Format</a> in the WMI documentation.
 
 ### -param dwEventID [in]
 
@@ -75,7 +75,7 @@ Specifies the event ID.
 ### -param ppszText [out]
 
 Receives the pointer to a buffer containing the text of the event log entry. The calling application must free the memory allocated for this buffer with a call to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a> function.
+<a href="/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a> function.
 
 ## -returns
 
@@ -83,15 +83,14 @@ If the method succeeds, the return value is <b>S_OK</b>. Otherwise, the method r
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/Policy/group-policy-interfaces">Group Policy
+<a href="/previous-versions/windows/desktop/Policy/group-policy-interfaces">Group Policy
     Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/Policy/about-group-policy">Group Policy
+<a href="/previous-versions/windows/desktop/Policy/about-group-policy">Group Policy
     Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpedit/nn-gpedit-irsopinformation">IRSOPInformation</a>
-
+<a href="/previous-versions/windows/desktop/api/gpedit/nn-gpedit-irsopinformation">IRSOPInformation</a>

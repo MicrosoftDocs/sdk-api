@@ -60,9 +60,8 @@ This property is read-only.
 
 ## -remarks
 
-The ticket string is set when calling the <a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapiinvitationmanager-createinvitation">IRDPSRAPIInvitationManager::CreateInvitation</a> method.
+The ticket string is set when calling the <a href="/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapiinvitationmanager-createinvitation">IRDPSRAPIInvitationManager::CreateInvitation</a> method.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapiinvitation">IRDPSRAPIInvitation</a>
-
+<a href="/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapiinvitation">IRDPSRAPIInvitation</a>

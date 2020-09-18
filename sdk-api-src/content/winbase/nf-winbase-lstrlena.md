@@ -85,34 +85,33 @@ The function returns the length of the string, in characters. If <i>lpString</i>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strsafe/nf-strsafe-stringcblengtha">StringCbLength</a>
+<a href="/windows/desktop/api/strsafe/nf-strsafe-stringcblengtha">StringCbLength</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strsafe/nf-strsafe-stringcchlengtha">StringCchLength</a>
+<a href="/windows/desktop/api/strsafe/nf-strsafe-stringcchlengtha">StringCchLength</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/menurc/strings">Strings</a>
+<a href="/windows/desktop/menurc/strings">Strings</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-lstrcata">lstrcat</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-lstrcata">lstrcat</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-lstrcmpa">lstrcmp</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-lstrcmpa">lstrcmp</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-lstrcmpia">lstrcmpi</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-lstrcmpia">lstrcmpi</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-lstrcpya">lstrcpy</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-lstrcpya">lstrcpy</a>
 
 ## -remarks
 
 > [!NOTE]
 > The winbase.h header defines lstrlen as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

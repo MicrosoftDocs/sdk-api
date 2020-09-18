@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The ICCompressBegin macro notifies a video compression driver to prepare to compress data. You can use this macro or explicitly call the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/icm-compress-begin">ICM_COMPRESS_BEGIN</a> message.
+The ICCompressBegin macro notifies a video compression driver to prepare to compress data. You can use this macro or explicitly call the <a href="/windows/desktop/Multimedia/icm-compress-begin">ICM_COMPRESS_BEGIN</a> message.
 
 ## -parameters
 
@@ -60,23 +60,22 @@ Handle to a compressor.
 
 ### -param lpbiInput
 
-Pointer to a <a href="https://docs.microsoft.com/previous-versions/dd183376(v=vs.85)">BITMAPINFO</a> structure containing the input format.
+Pointer to a <a href="/previous-versions/dd183376(v=vs.85)">BITMAPINFO</a> structure containing the input format.
 
 ### -param lpbiOutput
 
-Pointer to a <a href="https://docs.microsoft.com/previous-versions/dd183376(v=vs.85)">BITMAPINFO</a> structure containing the output format.
+Pointer to a <a href="/previous-versions/dd183376(v=vs.85)">BITMAPINFO</a> structure containing the output format.
 
 ## -remarks
 
-The driver should allocate and initialize any tables or memory that it needs for compressing the data formats when it receives the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/icm-compress">ICM_COMPRESS</a> message.
+The driver should allocate and initialize any tables or memory that it needs for compressing the data formats when it receives the <a href="/windows/desktop/Multimedia/icm-compress">ICM_COMPRESS</a> message.
 
 VCM saves the settings of the most recent <b>ICCompressBegin</b> macro. The <b>ICCompressBegin</b> and <b>ICCompressEnd</b> messages do not nest. If your driver receives <b>ICM_COMPRESS_BEGIN</b> before compression is stopped with <b>ICM_COMPRESS_END</b>, it should restart compression with new parameters.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-compression-macros">Video Compression Macros</a>
+<a href="/windows/desktop/Multimedia/video-compression-macros">Video Compression Macros</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-compression-manager">Video Compression Manager</a>
-
+<a href="/windows/desktop/Multimedia/video-compression-manager">Video Compression Manager</a>

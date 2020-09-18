@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-The <b>CAPINFOCHUNK</b> structure contains parameters that can be used to define an information chunk within an AVI capture file. The <a href="https://docs.microsoft.com/windows/desktop/Multimedia/wm-cap-file-set-infochunk">WM_CAP_FILE_SET_INFOCHUNK</a> message or <b>capSetInfoChunk</b> macro is used to send a <b>CAPINFOCHUNK</b> structure to a capture window.
+The <b>CAPINFOCHUNK</b> structure contains parameters that can be used to define an information chunk within an AVI capture file. The <a href="/windows/desktop/Multimedia/wm-cap-file-set-infochunk">WM_CAP_FILE_SET_INFOCHUNK</a> message or <b>capSetInfoChunk</b> macro is used to send a <b>CAPINFOCHUNK</b> structure to a capture window.
 
 ## -struct-fields
 
@@ -76,9 +76,8 @@ Video Capture
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-capture-structures">Video Capture Structures</a>
+<a href="/windows/desktop/Multimedia/video-capture-structures">Video Capture Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/wm-cap-file-set-infochunk">WM_CAP_FILE_SET_INFOCHUNK</a>
-
+<a href="/windows/desktop/Multimedia/wm-cap-file-set-infochunk">WM_CAP_FILE_SET_INFOCHUNK</a>

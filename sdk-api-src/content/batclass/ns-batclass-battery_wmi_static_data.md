@@ -61,11 +61,11 @@ A tag that identifies a specific battery.
 
 ### -field ManufactureDate
 
-A <a href="https://msdn.microsoft.com/1ab9caa3-344a-49c8-8f40-75d9c251be04">BATTERY_MANUFACTURE_DATE</a> structure that specifies the date that the battery was manufactured.
+A <a href="/previous-versions/ff536284(v=vs.85)">BATTERY_MANUFACTURE_DATE</a> structure that specifies the date that the battery was manufactured.
 
 ### -field Granularity
 
-Specifies the granularity as a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-battery_reporting_scale">BATTERY_REPORTING_SCALE</a> value.
+Specifies the granularity as a <a href="/windows-hardware/drivers/ddi/content/wdm/ns-wdm-battery_reporting_scale">BATTERY_REPORTING_SCALE</a> value.
 
 ### -field Capabilities
 
@@ -93,7 +93,7 @@ The capacity, in milliwatt-hours, at which a warning battery alert should occur.
 
 ### -field CriticalBias
 
-Specify the amount, in milliwatt-hours, of any small reserved charge that remains when the critical battery level shows zero. Miniclass drivers should subtract this value from the battery's <b>FullChargedCapacity</b> and remaining capacity, which is reported in <a href="https://msdn.microsoft.com/48df787b-f9f6-45d1-872c-ceeda3087af6">BATTERY_STATUS</a>, before reporting those values.
+Specify the amount, in milliwatt-hours, of any small reserved charge that remains when the critical battery level shows zero. Miniclass drivers should subtract this value from the battery's <b>FullChargedCapacity</b> and remaining capacity, which is reported in <a href="/previous-versions/ff536290(v=vs.85)">BATTERY_STATUS</a>, before reporting those values.
 
 ### -field Strings
 
@@ -101,5 +101,4 @@ Four variable length string values are stored with the first USHORT value contai
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/1ab9caa3-344a-49c8-8f40-75d9c251be04">BATTERY_MANUFACTURE_DATE</a>
-
+<a href="/previous-versions/ff536284(v=vs.85)">BATTERY_MANUFACTURE_DATE</a>

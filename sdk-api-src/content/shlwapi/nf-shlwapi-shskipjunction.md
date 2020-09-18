@@ -58,15 +58,15 @@ Checks a bind context to see if it is safe to bind to a particular component obj
 
 ### -param pbc [in, optional]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ibindctx">IBindCtx</a>*</b>
+Type: <b><a href="/windows/desktop/api/objidl/nn-objidl-ibindctx">IBindCtx</a>*</b>
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ibindctx">IBindCtx</a> interface that specifies the bind context you want to check. This value can be <b>NULL</b>.
+A pointer to an <a href="/windows/desktop/api/objidl/nn-objidl-ibindctx">IBindCtx</a> interface that specifies the bind context you want to check. This value can be <b>NULL</b>.
 
 ### -param pclsid [in]
 
 Type: <b>const CLSID*</b>
 
-A pointer to a variable that specifies the <b>CLSID</b> of the object being tested to see if it must be skipped. Typically, this is the CLSID of the object that <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder-bindtoobject">IShellFolder::BindToObject</a> is about to create.
+A pointer to a variable that specifies the <b>CLSID</b> of the object being tested to see if it must be skipped. Typically, this is the CLSID of the object that <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder-bindtoobject">IShellFolder::BindToObject</a> is about to create.
 
 ## -returns
 
@@ -77,4 +77,3 @@ Returns <b>TRUE</b> if the object specified by <i>pclsid</i> must be skipped, or
 ## -remarks
 
 This function can be used to avoid infinite cycles in namespace binding. For example, a folder shortcut that refers to a folder above it in the namespace tree can produce an infinitely recursive loop.
-

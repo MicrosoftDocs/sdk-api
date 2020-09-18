@@ -56,11 +56,11 @@ The <b>DrvSetPointerShape</b> function is used to request the driver to take the
 
 ### -param pso [in]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-surfobj">SURFOBJ</a> structure that describes the surface on which to draw.
+Pointer to a <a href="/windows/desktop/api/winddi/ns-winddi-surfobj">SURFOBJ</a> structure that describes the surface on which to draw.
 
 ### -param psoMask [in]
 
-Pointer to the SURFOBJ structure that defines the AND-XOR mask. (The AND-XOR mask is described in <a href="https://docs.microsoft.com/windows-hardware/drivers/display/drawing-monochrome-pointers">Drawing Monochrome Pointers</a>.) The dimensions of this bitmap determine the size of the pointer. There are no implicit constraints on pointer sizes, but optimal pointer sizes are 32 x 32, 48 x 48, and 64 x 64 pixels. If this parameter is <b>NULL</b>, the pointer is transparent.
+Pointer to the SURFOBJ structure that defines the AND-XOR mask. (The AND-XOR mask is described in <a href="/windows-hardware/drivers/display/drawing-monochrome-pointers">Drawing Monochrome Pointers</a>.) The dimensions of this bitmap determine the size of the pointer. There are no implicit constraints on pointer sizes, but optimal pointer sizes are 32 x 32, 48 x 48, and 64 x 64 pixels. If this parameter is <b>NULL</b>, the pointer is transparent.
 
 ### -param psoColor [in]
 
@@ -68,7 +68,7 @@ Pointer to the SURFOBJ structure that defines the colors for a color pointer. If
 
 ### -param pxlo [in]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-xlateobj">XLATEOBJ</a> structure that defines the colors in <i>psoColor</i>.
+Pointer to a <a href="/windows/desktop/api/winddi/ns-winddi-xlateobj">XLATEOBJ</a> structure that defines the colors in <i>psoColor</i>.
 
 ### -param xHot [in]
 
@@ -88,7 +88,7 @@ Specify the y-coordinate of the new pointer position.
 
 ### -param prcl [in]
 
-Specifies the <a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-rectl">RECTL</a> structure that indicates the location in which the driver should write a rectangle that specifies a tight bound for the visible portion of the pointer.
+Specifies the <a href="/windows/desktop/api/windef/ns-windef-rectl">RECTL</a> structure that indicates the location in which the driver should write a rectangle that specifies a tight bound for the visible portion of the pointer.
 
 ### -param fl [in]
 
@@ -135,7 +135,7 @@ SPS_ASYNCCHANGE
 
 </td>
 <td>
-This flag is obsolete. For legacy drivers, the driver should accept the change only if it is capable of changing the pointer shape in the hardware while other drawing is underway on the device. GDI uses this option only if the now obsolete GCAPS_ASYNCCHANGE flag is set in the <b>flGraphicsCaps</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-devinfo">DEVINFO</a> structure.
+This flag is obsolete. For legacy drivers, the driver should accept the change only if it is capable of changing the pointer shape in the hardware while other drawing is underway on the device. GDI uses this option only if the now obsolete GCAPS_ASYNCCHANGE flag is set in the <b>flGraphicsCaps</b> member of the <a href="/windows/desktop/api/winddi/ns-winddi-devinfo">DEVINFO</a> structure.
 
 </td>
 </tr>
@@ -155,7 +155,7 @@ SPS_FREQMASK
 
 </td>
 <td>
-The driver is requested to render a mouse trail, updating the image as many times per millisecond as indicated in the expression <i>fl</i> &amp; SPS_FREQMASK. A driver that is capable of rendering mouse trails must have the GCAPS2_MOUSETRAILS flag set in the <b>flGraphicsCaps2</b> member of its <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-devinfo">DEVINFO</a> structure.
+The driver is requested to render a mouse trail, updating the image as many times per millisecond as indicated in the expression <i>fl</i> &amp; SPS_FREQMASK. A driver that is capable of rendering mouse trails must have the GCAPS2_MOUSETRAILS flag set in the <b>flGraphicsCaps2</b> member of its <a href="/windows/desktop/api/winddi/ns-winddi-devinfo">DEVINFO</a> structure.
 
 </td>
 </tr>
@@ -165,7 +165,7 @@ SPS_LENGTHMASK
 
 </td>
 <td>
-The driver is requested to render a mouse trail of length indicated by the expression <i>fl</i> &amp; SPS_LENGTHMASK. (A mouse trail of length <i>N</i> is made up of <i>N</i> + 1 cursor images.) A driver that is capable of rendering mouse trails must have the GCAPS2_MOUSETRAILS flag set in the <b>flGraphicsCaps2</b> member of its <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-devinfo">DEVINFO</a> structure.
+The driver is requested to render a mouse trail of length indicated by the expression <i>fl</i> &amp; SPS_LENGTHMASK. (A mouse trail of length <i>N</i> is made up of <i>N</i> + 1 cursor images.) A driver that is capable of rendering mouse trails must have the GCAPS2_MOUSETRAILS flag set in the <b>flGraphicsCaps2</b> member of its <a href="/windows/desktop/api/winddi/ns-winddi-devinfo">DEVINFO</a> structure.
 
 </td>
 </tr>
@@ -228,7 +228,7 @@ The driver normally supports this shape, but failed for unusual reasons.
 
 ## -remarks
 
-<b>DrvSetPointerShape</b> is optional for display drivers. If this function is implemented, however, <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvmovepointer">DrvMovePointer</a> must also be implemented.
+<b>DrvSetPointerShape</b> is optional for display drivers. If this function is implemented, however, <a href="/windows/desktop/api/winddi/nf-winddi-drvmovepointer">DrvMovePointer</a> must also be implemented.
 
 The <b>iUniq</b> members of the SURFOBJ structures to which <i>psoMask</i> and <i>psoColor</i> point are unique for unique pointers. The driver can use this information in conjunction with these structures' unique <b>dhsurf</b> handles as cache keys for cursor caching.
 
@@ -236,21 +236,20 @@ When SPS_ALPHA is set in the <i>fl</i> parameter, <i>psoMask</i> is <b>NULL</b> 
 
 Default alpha cursors are largely black and white with a large range of alpha values; however, there is no color restriction since applications can specify arbitrary cursors themselves. Typical alpha pointer sizes are approximately 8 pixels larger in dimension than typical pointers without alpha. This accommodates the shadow effect, which is accomplished by a blurring filter that expands the resulting pointer bitmap shape. The vast majority of pointers will be 64x64 pixel bitmaps or smaller.
 
-The driver indicates its ability to handle pointers with per-pixel alpha values by setting the GCAPS2_ALPHACURSOR flag in the <b>flGraphicsCaps2</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-devinfo">DEVINFO</a> structure returned by <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvenablepdev">DrvEnablePDEV</a>.
+The driver indicates its ability to handle pointers with per-pixel alpha values by setting the GCAPS2_ALPHACURSOR flag in the <b>flGraphicsCaps2</b> member of the <a href="/windows/desktop/api/winddi/ns-winddi-devinfo">DEVINFO</a> structure returned by <a href="/windows/desktop/api/winddi/nf-winddi-drvenablepdev">DrvEnablePDEV</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvenablepdev">DrvEnablePDEV</a>
+<a href="/windows/desktop/api/winddi/nf-winddi-drvenablepdev">DrvEnablePDEV</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvmovepointer">DrvMovePointer</a>
+<a href="/windows/desktop/api/winddi/nf-winddi-drvmovepointer">DrvMovePointer</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-surfobj">SURFOBJ</a>
+<a href="/windows/desktop/api/winddi/ns-winddi-surfobj">SURFOBJ</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-xlateobj">XLATEOBJ</a>
-
+<a href="/windows/desktop/api/winddi/ns-winddi-xlateobj">XLATEOBJ</a>

@@ -52,7 +52,7 @@ api_name:
 
 The 
 <b>MsiViewGetColumnInfo</b> function returns a record containing column names or definitions. This function returns a handle that should be closed using 
-<a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msiclosehandle">MsiCloseHandle</a>.
+<a href="/windows/desktop/api/msi/nf-msi-msiclosehandle">MsiCloseHandle</a>.
 
 ## -parameters
 
@@ -105,8 +105,7 @@ Note that in low memory situations, this function can raise a STATUS_NO_MEMORY e
 
 The column description returned by 
 <b>MsiViewGetColumnInfo</b> is in the format described in the section: 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/column-definition-format">Column Definition Format</a>. Each column is described by a string in the corresponding record field. The definition string consists of a single letter representing the data type followed by the width of the column (in characters when applicable, bytes otherwise). A width of zero designates an unbounded width (for example, long text fields and streams). An uppercase letter indicates that null values are allowed in the column.
+<a href="/windows/desktop/Msi/column-definition-format">Column Definition Format</a>. Each column is described by a string in the corresponding record field. The definition string consists of a single letter representing the data type followed by the width of the column (in characters when applicable, bytes otherwise). A width of zero designates an unbounded width (for example, long text fields and streams). An uppercase letter indicates that null values are allowed in the column.
 
 Note that it is recommended to use variables of type PMSIHANDLE because the installer closes PMSIHANDLE objects as they go out of scope, whereas you must close MSIHANDLE objects by calling 
-<a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msiclosehandle">MsiCloseHandle</a>. For more information see <a href="https://docs.microsoft.com/windows/desktop/Msi/windows-installer-best-practices">Use PMSIHANDLE instead of HANDLE</a> section in the <a href="https://docs.microsoft.com/windows/desktop/Msi/windows-installer-best-practices">Windows Installer Best Practices</a>.
-
+<a href="/windows/desktop/api/msi/nf-msi-msiclosehandle">MsiCloseHandle</a>. For more information see <a href="/windows/desktop/Msi/windows-installer-best-practices">Use PMSIHANDLE instead of HANDLE</a> section in the <a href="/windows/desktop/Msi/windows-installer-best-practices">Windows Installer Best Practices</a>.

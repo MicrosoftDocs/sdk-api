@@ -73,7 +73,7 @@ The default value for this argument is INFINITE.
 
 All calls to 
 <b>Wait</b> for all 
-<a href="https://docs.microsoft.com/windows/desktop/api/vss/nn-vss-ivssasync">IVssAsync</a> objects support the following status codes.
+<a href="/windows/desktop/api/vss/nn-vss-ivssasync">IVssAsync</a> objects support the following status codes.
 
 <table>
 <tr>
@@ -88,7 +88,7 @@ All calls to
 </td>
 <td width="60%">
 The wait operation was successful. Call 
-<a href="https://docs.microsoft.com/windows/desktop/api/vss/nf-vss-ivssasync-querystatus">IVssAsync::QueryStatus</a> to determine the final status of the asynchronous operation.
+<a href="/windows/desktop/api/vss/nf-vss-ivssasync-querystatus">IVssAsync::QueryStatus</a> to determine the final status of the asynchronous operation.
 
 </td>
 </tr>
@@ -111,7 +111,7 @@ The wait operation failed because the user did not have the correct privileges.
 </td>
 <td width="60%">
 Unexpected error. The error code is logged in the error log file. For more information, see 
-        <a href="https://docs.microsoft.com/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
+        <a href="/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
 
 <b>Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:  </b>This value is not supported until Windows Server 2008 R2 and Windows 7. E_UNEXPECTED is used instead.
 
@@ -124,7 +124,7 @@ If an operation fails while being waited on,
 <b>Wait</b> returns the error that operation encountered.
 
 To obtain a complete list of return values for a specific <b>Wait</b>, see the error codes of the method that returned the 
-<a href="https://docs.microsoft.com/windows/desktop/api/vss/nn-vss-ivssasync">IVssAsync</a> object.
+<a href="/windows/desktop/api/vss/nn-vss-ivssasync">IVssAsync</a> object.
 
 ## -remarks
 
@@ -132,9 +132,8 @@ This method can succeed even if the method that returns it failed.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vss/nn-vss-ivssasync">IVssAsync</a>
+<a href="/windows/desktop/api/vss/nn-vss-ivssasync">IVssAsync</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vss/nf-vss-ivssasync-querystatus">IVssAsync::QueryStatus</a>
-
+<a href="/windows/desktop/api/vss/nf-vss-ivssasync-querystatus">IVssAsync::QueryStatus</a>

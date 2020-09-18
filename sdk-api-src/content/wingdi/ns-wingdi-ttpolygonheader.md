@@ -60,7 +60,7 @@ The <b>TTPOLYGONHEADER</b> structure specifies the starting position and type of
 
 ### -field cb
 
-The number of bytes required by the <b>TTPOLYGONHEADER</b> structure and <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-ttpolycurve">TTPOLYCURVE</a> structure or structures required to describe the contour of the character.
+The number of bytes required by the <b>TTPOLYGONHEADER</b> structure and <a href="/windows/desktop/api/wingdi/ns-wingdi-ttpolycurve">TTPOLYCURVE</a> structure or structures required to describe the contour of the character.
 
 ### -field dwType
 
@@ -72,21 +72,20 @@ The starting point of the contour in the character outline.
 
 ## -remarks
 
-Each <b>TTPOLYGONHEADER</b> structure is followed by one or more <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-ttpolycurve">TTPOLYCURVE</a> structures.
+Each <b>TTPOLYGONHEADER</b> structure is followed by one or more <a href="/windows/desktop/api/wingdi/ns-wingdi-ttpolycurve">TTPOLYCURVE</a> structures.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/font-and-text-structures">Font and Text Structures</a>
+<a href="/windows/desktop/gdi/font-and-text-structures">Font and Text Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/fonts-and-text">Fonts and Text Overview</a>
+<a href="/windows/desktop/gdi/fonts-and-text">Fonts and Text Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-pointfx">POINTFX</a>
+<a href="/windows/desktop/api/wingdi/ns-wingdi-pointfx">POINTFX</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-ttpolycurve">TTPOLYCURVE</a>
-
+<a href="/windows/desktop/api/wingdi/ns-wingdi-ttpolycurve">TTPOLYCURVE</a>

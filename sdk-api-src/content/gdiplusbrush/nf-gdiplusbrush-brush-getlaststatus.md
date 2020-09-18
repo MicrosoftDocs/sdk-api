@@ -52,29 +52,29 @@ api_name:
 ## -description
 
 The <b>Brush::GetLastStatus</b> method returns a value that indicates the nature of this 
-			<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusbrush/nl-gdiplusbrush-brush">Brush</a> object's most recent method failure.
+			<a href="/windows/desktop/api/gdiplusbrush/nl-gdiplusbrush-brush">Brush</a> object's most recent method failure.
 
 ## -parameters
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a></b>
+Type: <b><a href="/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a></b>
 
-The <b>Brush::GetLastStatus</b> method returns an element of the 	<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a> enumeration.
+The <b>Brush::GetLastStatus</b> method returns an element of the 	<a href="/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a> enumeration.
 
 If no methods invoked on this 
-						<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusbrush/nl-gdiplusbrush-brush">Brush</a> object have failed since the previous call to <b>Brush::GetLastStatus</b>, then <b>Brush::GetLastStatus</b> returns Ok.
+						<a href="/windows/desktop/api/gdiplusbrush/nl-gdiplusbrush-brush">Brush</a> object have failed since the previous call to <b>Brush::GetLastStatus</b>, then <b>Brush::GetLastStatus</b> returns Ok.
 
 If at least one method invoked on this 
-						<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusbrush/nl-gdiplusbrush-brush">Brush</a> object has failed since the previous call to <b>Brush::GetLastStatus</b>, then <b>Brush::GetLastStatus</b> returns a value that indicates the nature of the most recent failure.
+						<a href="/windows/desktop/api/gdiplusbrush/nl-gdiplusbrush-brush">Brush</a> object has failed since the previous call to <b>Brush::GetLastStatus</b>, then <b>Brush::GetLastStatus</b> returns a value that indicates the nature of the most recent failure.
 
 ## -remarks
 
 You can call <b>Brush::GetLastStatus</b> immediately after constructing a 
-				<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusbrush/nl-gdiplusbrush-brush">Brush</a> object to determine whether the constructor succeeded.
+				<a href="/windows/desktop/api/gdiplusbrush/nl-gdiplusbrush-brush">Brush</a> object to determine whether the constructor succeeded.
 
 The first time you call the <b>Brush::GetLastStatus</b> method of a 
-				<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusbrush/nl-gdiplusbrush-brush">Brush</a> object, it returns Ok if the constructor succeeded and all methods invoked so far on the 
+				<a href="/windows/desktop/api/gdiplusbrush/nl-gdiplusbrush-brush">Brush</a> object, it returns Ok if the constructor succeeded and all methods invoked so far on the 
 				<b>Brush</b> object succeeded. Otherwise, it returns a value that indicates the nature of the most recent failure.
 
 
@@ -82,7 +82,7 @@ The first time you call the <b>Brush::GetLastStatus</b> method of a
 
 
 
-The following example creates a <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusbrush/nl-gdiplusbrush-solidbrush">SolidBrush</a> object 
+The following example creates a <a href="/windows/desktop/api/gdiplusbrush/nl-gdiplusbrush-solidbrush">SolidBrush</a> object 
 						<b>solidBrush</b> and checks the status of the call used to create 
 						<b>solidBrush</b>. Then, if the call was successful, the code uses 
 						<b>solidBrush</b> to fill a rectangle.
@@ -104,33 +104,32 @@ VOID Example_GetLastStatus(HDC hdc)
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusbrush/nl-gdiplusbrush-brush">Brush</a>
+<a href="/windows/desktop/api/gdiplusbrush/nl-gdiplusbrush-brush">Brush</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-brushes-and-filled-shapes-about">Brushes and Filled Shapes</a>
+<a href="/windows/desktop/gdiplus/-gdiplus-brushes-and-filled-shapes-about">Brushes and Filled Shapes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusbrush/nl-gdiplusbrush-hatchbrush">HatchBrush</a>
+<a href="/windows/desktop/api/gdiplusbrush/nl-gdiplusbrush-hatchbrush">HatchBrush</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusbrush/nl-gdiplusbrush-lineargradientbrush">LinearGradientBrush</a>
+<a href="/windows/desktop/api/gdiplusbrush/nl-gdiplusbrush-lineargradientbrush">LinearGradientBrush</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdipluspath/nl-gdipluspath-pathgradientbrush">PathGradientBrush</a>
+<a href="/windows/desktop/api/gdipluspath/nl-gdipluspath-pathgradientbrush">PathGradientBrush</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusbrush/nl-gdiplusbrush-solidbrush">SolidBrush</a>
+<a href="/windows/desktop/api/gdiplusbrush/nl-gdiplusbrush-solidbrush">SolidBrush</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusbrush/nl-gdiplusbrush-texturebrush">TextureBrush</a>
+<a href="/windows/desktop/api/gdiplusbrush/nl-gdiplusbrush-texturebrush">TextureBrush</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-using-a-brush-to-fill-shapes-use">Using a Brush to Fill Shapes</a>
-
+<a href="/windows/desktop/gdiplus/-gdiplus-using-a-brush-to-fill-shapes-use">Using a Brush to Fill Shapes</a>

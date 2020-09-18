@@ -57,7 +57,6 @@ api_name:
 
 ### -param pCallback [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcoreapi/nc-uiautomationcoreapi-uiaprovidercallback">UiaProviderCallback</a>*</b>
+Type: <b><a href="/windows/desktop/api/uiautomationcoreapi/nc-uiautomationcoreapi-uiaprovidercallback">UiaProviderCallback</a>*</b>
 
-The address of the <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcoreapi/nc-uiautomationcoreapi-uiaprovidercallback">UiaProviderCallback</a> callback function that returns the provider.
-
+The address of the <a href="/windows/desktop/api/uiautomationcoreapi/nc-uiautomationcoreapi-uiaprovidercallback">UiaProviderCallback</a> callback function that returns the provider.

@@ -56,7 +56,7 @@ Called to remove a mouse event sink.
 
 ### -param dwCookie [in]
 
-Specifies the mouse advise sink identifier. This value is obtained by a call to <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfmousetrackeracp-advisemousesink">ITfMouseTrackerACP::AdviseMouseSink</a>.
+Specifies the mouse advise sink identifier. This value is obtained by a call to <a href="/windows/desktop/api/msctf/nf-msctf-itfmousetrackeracp-advisemousesink">ITfMouseTrackerACP::AdviseMouseSink</a>.
 
 ## -returns
 
@@ -93,19 +93,18 @@ The application does not support mouse event sinks.
 
 ## -remarks
 
-The application must release the <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfmousesink">ITfMouseSink</a> supplied in the <b>ITfMouseTrackerACP::AdviseMouseSink</b> call associated with <i>dwCookie</i>.
+The application must release the <a href="/windows/desktop/api/msctf/nn-msctf-itfmousesink">ITfMouseSink</a> supplied in the <b>ITfMouseTrackerACP::AdviseMouseSink</b> call associated with <i>dwCookie</i>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfmousesink">ITfMouseSink
+<a href="/windows/desktop/api/msctf/nn-msctf-itfmousesink">ITfMouseSink
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfmousetrackeracp">ITfMouseTrackerACP</a>
+<a href="/windows/desktop/api/msctf/nn-msctf-itfmousetrackeracp">ITfMouseTrackerACP</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfmousetrackeracp-advisemousesink">ITfMouseTrackerACP::AdviseMouseSink
+<a href="/windows/desktop/api/msctf/nf-msctf-itfmousetrackeracp-advisemousesink">ITfMouseTrackerACP::AdviseMouseSink
       </a>
-

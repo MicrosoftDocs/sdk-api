@@ -71,7 +71,7 @@ The <b>IStreamPseudoRandomBased</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-istreampseudorandombased-get_extendedseed">get_ExtendedSeed</a>
+<a href="/windows/desktop/api/imapi2/nf-imapi2-istreampseudorandombased-get_extendedseed">get_ExtendedSeed</a>
 </td>
 <td align="left" width="63%">
 Retrieves an array of seed values used by the random number generator.
@@ -80,7 +80,7 @@ Retrieves an array of seed values used by the random number generator.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-istreampseudorandombased-get_seed">get_Seed</a>
+<a href="/windows/desktop/api/imapi2/nf-imapi2-istreampseudorandombased-get_seed">get_Seed</a>
 </td>
 <td align="left" width="63%">
 Retrieves the seed value used by the random number generator.
@@ -89,7 +89,7 @@ Retrieves the seed value used by the random number generator.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-istreampseudorandombased-put_extendedseed">put_ExtendedSeed</a>
+<a href="/windows/desktop/api/imapi2/nf-imapi2-istreampseudorandombased-put_extendedseed">put_ExtendedSeed</a>
 </td>
 <td align="left" width="63%">
 Sets a list of seed values for the random number generator and seeks to the start of stream.
@@ -98,7 +98,7 @@ Sets a list of seed values for the random number generator and seeks to the star
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-istreampseudorandombased-put_seed">put_Seed</a>
+<a href="/windows/desktop/api/imapi2/nf-imapi2-istreampseudorandombased-put_seed">put_Seed</a>
 </td>
 <td align="left" width="63%">
 Sets the seed value used by the random number generator and seeks to the start of stream.
@@ -113,9 +113,8 @@ To create the <b>MsftStreamPrgn001</b> object in a script, use IMAPI2.MsftStream
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-istreamconcatenate">IStreamConcatenate</a>
+<a href="/windows/desktop/api/imapi2/nn-imapi2-istreamconcatenate">IStreamConcatenate</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-istreaminterleave">IStreamInterleave</a>
-
+<a href="/windows/desktop/api/imapi2/nn-imapi2-istreaminterleave">IStreamInterleave</a>

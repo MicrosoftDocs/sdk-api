@@ -72,17 +72,16 @@ Indicates that the relative distinguished name has been mangled due to a naming 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dsparse/nf-dsparse-dscrackunquotedmangledrdna">DsCrackUnquotedMangledRdn</a>
+<a href="/windows/desktop/api/dsparse/nf-dsparse-dscrackunquotedmangledrdna">DsCrackUnquotedMangledRdn</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dsparse/nf-dsparse-dsismangleddna">DsIsMangledDn</a>
+<a href="/windows/desktop/api/dsparse/nf-dsparse-dsismangleddna">DsIsMangledDn</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dsparse/nf-dsparse-dsismangledrdnvaluea">DsIsMangledRdnValue</a>
+<a href="/windows/desktop/api/dsparse/nf-dsparse-dsismangledrdnvaluea">DsIsMangledRdnValue</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/AD/enumerations-in-active-directory-domain-services">Enumerations in Active Directory Domain Services</a>
-
+<a href="/windows/desktop/AD/enumerations-in-active-directory-domain-services">Enumerations in Active Directory Domain Services</a>

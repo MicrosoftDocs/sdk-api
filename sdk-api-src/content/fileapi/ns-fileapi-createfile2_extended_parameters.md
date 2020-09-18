@@ -55,7 +55,7 @@ api_name:
 ## -description
 
 Contains optional extended parameters for 
-    <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfile2">CreateFile2</a>.
+    <a href="/windows/desktop/api/fileapi/nf-fileapi-createfile2">CreateFile2</a>.
 
 ## -struct-fields
 
@@ -73,21 +73,21 @@ This parameter can include any combination of the available file attributes
        (<b>FILE_ATTRIBUTE_*</b>). All other file attributes override 
        <b>FILE_ATTRIBUTE_NORMAL</b>.
 
-<div class="alert"><b>Note</b>  When <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfile2">CreateFile2</a> opens an existing file, it generally 
+<div class="alert"><b>Note</b>  When <a href="/windows/desktop/api/fileapi/nf-fileapi-createfile2">CreateFile2</a> opens an existing file, it generally 
        combines the file flags with the file attributes of the existing file, and ignores any file attributes supplied 
        as part of <i>dwFlagsAndAttributes</i>. Special cases are detailed in 
-       <a href="https://docs.microsoft.com/windows/desktop/FileIO/creating-and-opening-files">Creating and Opening Files</a>.</div>
+       <a href="/windows/desktop/FileIO/creating-and-opening-files">Creating and Opening Files</a>.</div>
 <div> </div>
 Some of the following file attributes and flags may only apply to files and not necessarily all other types 
-       of devices that <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfile2">CreateFile2</a> can open. For additional 
+       of devices that <a href="/windows/desktop/api/fileapi/nf-fileapi-createfile2">CreateFile2</a> can open. For additional 
        information, see the Remarks section of the 
-       <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfile2">CreateFile2</a> reference page and 
-       <a href="https://docs.microsoft.com/windows/desktop/FileIO/creating-and-opening-files">Creating and Opening Files</a>.
+       <a href="/windows/desktop/api/fileapi/nf-fileapi-createfile2">CreateFile2</a> reference page and 
+       <a href="/windows/desktop/FileIO/creating-and-opening-files">Creating and Opening Files</a>.
 
 For more advanced access to file attributes, see 
-       <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-setfileattributesa">SetFileAttributes</a>. For a complete list 
+       <a href="/windows/desktop/api/fileapi/nf-fileapi-setfileattributesa">SetFileAttributes</a>. For a complete list 
        of all file attributes with their values and descriptions, see 
-       <a href="https://docs.microsoft.com/windows/desktop/FileIO/file-attribute-constants">File Attribute Constants</a>.
+       <a href="/windows/desktop/FileIO/file-attribute-constants">File Attribute Constants</a>.
 
 <table>
 <tr>
@@ -114,7 +114,7 @@ The file should be archived. Applications use this attribute to mark files for b
 <td width="60%">
 The file or directory is encrypted. For a file, this means that all data in the file is encrypted. For a 
          directory, this means that encryption is the default for newly created files and subdirectories. For more 
-         information, see <a href="https://docs.microsoft.com/windows/desktop/FileIO/file-encryption">File Encryption</a>.
+         information, see <a href="/windows/desktop/FileIO/file-encryption">File Encryption</a>.
 
 This flag has no effect if <b>FILE_ATTRIBUTE_SYSTEM</b> is also specified.
 
@@ -232,7 +232,7 @@ This parameter can contain combinations of flags (<b>FILE_FLAG_*</b>) for contro
 The file is being opened or created for a backup or restore operation. The system ensures that the calling 
          process overrides file security checks when the process has <b>SE_BACKUP_NAME</b> and 
          <b>SE_RESTORE_NAME</b> privileges. For more information, see 
-         <a href="https://docs.microsoft.com/windows/desktop/SecBP/changing-privileges-in-a-token">Changing Privileges in a Token</a>.
+         <a href="/windows/desktop/SecBP/changing-privileges-in-a-token">Changing Privileges in a Token</a>.
 
 You must set this flag to obtain a handle to a directory. A directory handle can be passed to some 
          functions instead of a file handle. For more information, see the Remarks section.
@@ -268,9 +268,9 @@ The file or device is being opened with no system caching for data reads and wri
          affect hard disk caching or memory mapped files.
 
 There are strict requirements for successfully working with files opened with 
-         <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfile2">CreateFile2</a> using the 
+         <a href="/windows/desktop/api/fileapi/nf-fileapi-createfile2">CreateFile2</a> using the 
          <b>FILE_FLAG_NO_BUFFERING</b> flag, for details see 
-         <a href="https://docs.microsoft.com/windows/desktop/FileIO/file-buffering">File Buffering</a>.
+         <a href="/windows/desktop/FileIO/file-buffering">File Buffering</a>.
 
 </td>
 </tr>
@@ -293,8 +293,8 @@ The file data is requested, but it should continue to be located in remote stora
 </dl>
 </td>
 <td width="60%">
-Normal <a href="https://docs.microsoft.com/windows/desktop/FileIO/reparse-points">reparse point</a> processing will not 
-         occur; <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfile2">CreateFile2</a> will attempt to open the reparse 
+Normal <a href="/windows/desktop/FileIO/reparse-points">reparse point</a> processing will not 
+         occur; <a href="/windows/desktop/api/fileapi/nf-fileapi-createfile2">CreateFile2</a> will attempt to open the reparse 
          point. When a file is opened, a file handle is returned, whether or not the filter that controls the reparse 
          point is operational.
 
@@ -318,7 +318,7 @@ The file is being opened and an opportunistic lock (oplock) on the file is being
          the create with a last error code of <b>ERROR_CANNOT_BREAK_OPLOCK</b> if the result would 
          be to break an existing oplock.
 
-If you use this flag  and your call to the <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfile2">CreateFile2</a> function successfully returns, the first operation you should perform on the file handle is to request an oplock by calling the <a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIOControl</a> function and then pass in <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_request_oplock">FSCTL_REQUEST_OPLOCK</a> or one of the other <a href="https://docs.microsoft.com/windows/desktop/FileIO/opportunistic-lock-operations">Opportunistic Lock Operations</a>.  If you perform other file system operations with the file handle before requesting an oplock, a deadlock might occur.<div class="alert"><b>Note</b>  You can safely call the <a href="https://docs.microsoft.com/windows/desktop/api/handleapi/nf-handleapi-closehandle">CloseHandle</a> function on the file handle without first requesting an oplock.</div>
+If you use this flag  and your call to the <a href="/windows/desktop/api/fileapi/nf-fileapi-createfile2">CreateFile2</a> function successfully returns, the first operation you should perform on the file handle is to request an oplock by calling the <a href="/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIOControl</a> function and then pass in <a href="/windows/desktop/api/winioctl/ni-winioctl-fsctl_request_oplock">FSCTL_REQUEST_OPLOCK</a> or one of the other <a href="/windows/desktop/FileIO/opportunistic-lock-operations">Opportunistic Lock Operations</a>.  If you perform other file system operations with the file handle before requesting an oplock, a deadlock might occur.<div class="alert"><b>Note</b>  You can safely call the <a href="/windows/desktop/api/handleapi/nf-handleapi-closehandle">CloseHandle</a> function on the file handle without first requesting an oplock.</div>
 <div> </div>
 
 
@@ -334,13 +334,13 @@ If you use this flag  and your call to the <a href="https://docs.microsoft.com/w
 The file or device is being opened or created for asynchronous I/O.
 
 When subsequent I/O operations are completed on this handle, the event specified in the 
-         <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> structure will be set to the 
+         <a href="/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> structure will be set to the 
          signaled state.
 
 If this flag is specified, the file can be used for simultaneous read and write operations.
 
 If this flag is not specified, then I/O operations are serialized, even if the calls to the read and write 
-         functions specify an <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> structure.
+         functions specify an <a href="/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> structure.
 
 For information about considerations when using a file handle created with this flag, see the 
          <a href="https://docs.microsoft.com/">Synchronous and Asynchronous I/O Handles</a> 
@@ -435,7 +435,7 @@ For additional information, see the <a href="https://docs.microsoft.com/">Cachin
 
 The <i>dwSecurityQosFlags</i> parameter specifies SQOS information. For more 
        information, see 
-       <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/impersonation-levels">Impersonation Levels</a>.
+       <a href="/windows/desktop/SecAuthZ/impersonation-levels">Impersonation Levels</a>.
 
 <table>
 <tr>
@@ -512,24 +512,24 @@ Impersonate a client at the impersonation level. This is the default behavior if
 
 ### -field lpSecurityAttributes
 
-A pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa379560(v=vs.85)">SECURITY_ATTRIBUTES</a> 
+A pointer to a <a href="/previous-versions/windows/desktop/legacy/aa379560(v=vs.85)">SECURITY_ATTRIBUTES</a> 
        structure that contains two separate but related data members: an optional security descriptor, and a Boolean 
        value that determines whether the returned handle can be inherited by child processes.
 
 This parameter can be <b>NULL</b>.
 
 If this parameter is <b>NULL</b>, the handle returned by 
-       <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfile2">CreateFile2</a> cannot be inherited by any child processes the 
+       <a href="/windows/desktop/api/fileapi/nf-fileapi-createfile2">CreateFile2</a> cannot be inherited by any child processes the 
        application may create and the file or device associated with the returned handle gets a default security 
        descriptor.
 
 The <b>lpSecurityDescriptor</b> member of the structure specifies a 
-       <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-security_descriptor">SECURITY_DESCRIPTOR</a> for a file or device. If 
+       <a href="/windows/desktop/api/winnt/ns-winnt-security_descriptor">SECURITY_DESCRIPTOR</a> for a file or device. If 
        this member is <b>NULL</b>, the file or device associated with the returned handle is 
        assigned a default security descriptor.
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfile2">CreateFile2</a> ignores the 
+<a href="/windows/desktop/api/fileapi/nf-fileapi-createfile2">CreateFile2</a> ignores the 
        <b>lpSecurityDescriptor</b> member when opening an existing file or device, but continues 
        to use the <b>bInheritHandle</b> member.
 
@@ -537,7 +537,7 @@ The <b>bInheritHandle</b>member of the structure specifies whether the returned 
        can be inherited.
 
 For more information, see the Remarks section of the 
-       <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfile2">CreateFile2</a> topic.
+       <a href="/windows/desktop/api/fileapi/nf-fileapi-createfile2">CreateFile2</a> topic.
 
 ### -field hTemplateFile
 
@@ -546,19 +546,19 @@ A valid handle to a template file with the <b>GENERIC_READ</b> access right. The
 
 This parameter can be <b>NULL</b>.
 
-When opening an existing file, <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfile2">CreateFile2</a> ignores this 
+When opening an existing file, <a href="/windows/desktop/api/fileapi/nf-fileapi-createfile2">CreateFile2</a> ignores this 
        parameter.
 
 When opening a new encrypted file, the file inherits the discretionary access control list from its parent 
        directory. For additional information, see 
-       <a href="https://docs.microsoft.com/windows/desktop/FileIO/file-encryption">File Encryption</a>.
+       <a href="/windows/desktop/FileIO/file-encryption">File Encryption</a>.
 
 ## -remarks
 
 To compile an application that uses the 
     <b>CREATEFILE2_EXTENDED_PARAMETERS</b> structure, 
     define the <b>_WIN32_WINNT</b> macro as 0x0602 or later. For more information, see 
-    <a href="https://docs.microsoft.com/windows/desktop/WinProg/using-the-windows-headers">Using the Windows Headers</a>.
+    <a href="/windows/desktop/WinProg/using-the-windows-headers">Using the Windows Headers</a>.
 
 <h3><a id="caching_behavior"></a><a id="CACHING_BEHAVIOR"></a>Caching Behavior</h3>
 Several of the possible values for the <b>dwFileFlags</b> member are used to control or 
@@ -600,23 +600,23 @@ If <b>FILE_FLAG_WRITE_THROUGH</b> and <b>FILE_FLAG_NO_BUFFERING</b> are
 <div> </div>
 Proper use of the <b>FILE_FLAG_NO_BUFFERING</b> flag requires special application 
       considerations. For more information, see 
-      <a href="https://docs.microsoft.com/windows/desktop/FileIO/file-buffering">File Buffering</a>.
+      <a href="/windows/desktop/FileIO/file-buffering">File Buffering</a>.
 
 A write-through request via <b>FILE_FLAG_WRITE_THROUGH</b> also causes NTFS to flush any 
       metadata changes, such as a time stamp update or a rename operation, that result from processing the request. 
       For this reason, the <b>FILE_FLAG_WRITE_THROUGH</b> flag is often used with the 
       <b>FILE_FLAG_NO_BUFFERING</b> flag as a replacement for calling the 
-      <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-flushfilebuffers">FlushFileBuffers</a> function after each write, which can 
+      <a href="/windows/desktop/api/fileapi/nf-fileapi-flushfilebuffers">FlushFileBuffers</a> function after each write, which can 
       cause unnecessary performance penalties. Using these flags together avoids those penalties. For general 
       information about the caching of files and metadata, see 
-      <a href="https://docs.microsoft.com/windows/desktop/FileIO/file-caching">File Caching</a>.
+      <a href="/windows/desktop/FileIO/file-caching">File Caching</a>.
 
 When <b>FILE_FLAG_NO_BUFFERING</b> is combined with 
       <b>FILE_FLAG_OVERLAPPED</b>, the flags give maximum asynchronous performance, because the I/O 
       does not rely on the synchronous operations of the memory manager. However, some I/O operations take more time, 
       because data is not being held in the cache. Also, the file metadata may still be cached (for example, when 
       creating an empty file). To ensure that the metadata is flushed to disk, use the 
-      <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-flushfilebuffers">FlushFileBuffers</a> function.
+      <a href="/windows/desktop/api/fileapi/nf-fileapi-flushfilebuffers">FlushFileBuffers</a> function.
 
 Specifying the <b>FILE_ATTRIBUTE_TEMPORARY</b> attribute causes file systems to avoid 
       writing data back to mass storage if sufficient cache memory is available, because an application deletes a 
@@ -627,7 +627,7 @@ Specifying the <b>FILE_ATTRIBUTE_TEMPORARY</b> attribute causes file systems to 
 
 <h3><a id="synchronous_and_asynchronous_i_o_handles"></a><a id="SYNCHRONOUS_AND_ASYNCHRONOUS_I_O_HANDLES"></a>Synchronous and Asynchronous I/O Handles</h3>
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfile2">CreateFile2</a> provides for creating a file or device handle 
+<a href="/windows/desktop/api/fileapi/nf-fileapi-createfile2">CreateFile2</a> provides for creating a file or device handle 
       that is either synchronous or asynchronous. A synchronous handle behaves such that I/O function calls using that 
       handle are blocked until they complete, while an asynchronous file handle makes it possible for the system to 
       return immediately from I/O function calls, whether they completed the I/O operation or not. As stated 
@@ -636,13 +636,12 @@ Specifying the <b>FILE_ATTRIBUTE_TEMPORARY</b> attribute causes file systems to 
       <b>CREATEFILE2_EXTENDED_PARAMETERS</b> 
       structure passed in the <i>pCreateExParams</i> parameter. There are several complexities and 
       potential pitfalls when using asynchronous I/O; for more information, see 
-      <a href="https://docs.microsoft.com/windows/desktop/FileIO/synchronous-and-asynchronous-i-o">Synchronous and Asynchronous I/O</a>.
+      <a href="/windows/desktop/FileIO/synchronous-and-asynchronous-i-o">Synchronous and Asynchronous I/O</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfile2">CreateFile2</a>
+<a href="/windows/desktop/api/fileapi/nf-fileapi-createfile2">CreateFile2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/file-management-structures">File Management Structures</a>
-
+<a href="/windows/desktop/FileIO/file-management-structures">File Management Structures</a>

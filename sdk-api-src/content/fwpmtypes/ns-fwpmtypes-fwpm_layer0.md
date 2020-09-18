@@ -62,7 +62,7 @@ Uniquely identifies the layer.
 
 ### -field displayData
 
-Allows layers to be annotated in a human-readable form. The [FWPM_DISPLAY_DATA0](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwpm_display_data0) structure is not <b>NULL</b>.
+Allows layers to be annotated in a human-readable form. The [FWPM_DISPLAY_DATA0](/windows/desktop/api/fwptypes/ns-fwptypes-fwpm_display_data0) structure is not <b>NULL</b>.
 
 ### -field flags
 
@@ -123,7 +123,7 @@ Number of fields in the layer.
 
 Schema information for the layer's fields.
 
-See [FWPM_FIELD0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_field0) for more information.
+See [FWPM_FIELD0](/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_field0) for more information.
 
 ### -field defaultSubLayerKey
 
@@ -135,17 +135,16 @@ LUID that identifies this layer.
 
 ## -remarks
 
-<b>FWPM_LAYER0</b> is a specific implementation of FWPM_LAYER. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a>  for more information.
+<b>FWPM_LAYER0</b> is a specific implementation of FWPM_LAYER. See <a href="/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a>  for more information.
 
 ## -see-also
 
-[FWPM_DISPLAY_DATA0](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwpm_display_data0)
+[FWPM_DISPLAY_DATA0](/windows/desktop/api/fwptypes/ns-fwptypes-fwpm_display_data0)
 
 
 
-[FWPM_FIELD0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_field0)
+[FWPM_FIELD0](/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_field0)
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>
-
+<a href="/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>

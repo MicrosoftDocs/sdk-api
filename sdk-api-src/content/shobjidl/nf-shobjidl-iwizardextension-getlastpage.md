@@ -58,7 +58,7 @@ Gets a handle to the final page of the wizard extension pages.
 
 Type: <b>HPROPSHEETPAGE*</b>
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/prsht/ns-prsht-propsheetpagea_v2">PROPSHEETPAGE</a> handle representing the wizard extension's final page.
+A pointer to a <a href="/windows/desktop/api/prsht/ns-prsht-propsheetpagea_v2">PROPSHEETPAGE</a> handle representing the wizard extension's final page.
 
 ## -returns
 
@@ -71,13 +71,12 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 This value is used to navigate backward into the wizard extension pages when the user clicks the <b>Back</b> button.
       
 
-Although the wizard extension may host several sequential HTML pages, if it consists of only one page the handles returned by <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nf-shobjidl-iwizardextension-getfirstpage">IWizardExtension::GetFirstPage</a> and <b>IWizardExtension::GetLastPage</b> are the same.
+Although the wizard extension may host several sequential HTML pages, if it consists of only one page the handles returned by <a href="/windows/desktop/api/shobjidl/nf-shobjidl-iwizardextension-getfirstpage">IWizardExtension::GetFirstPage</a> and <b>IWizardExtension::GetLastPage</b> are the same.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nn-shobjidl-iwizardextension">IWizardExtension</a>
+<a href="/windows/desktop/api/shobjidl/nn-shobjidl-iwizardextension">IWizardExtension</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nf-shobjidl-iwizardextension-getfirstpage">IWizardExtension::GetFirstPage</a>
-
+<a href="/windows/desktop/api/shobjidl/nf-shobjidl-iwizardextension-getfirstpage">IWizardExtension::GetFirstPage</a>

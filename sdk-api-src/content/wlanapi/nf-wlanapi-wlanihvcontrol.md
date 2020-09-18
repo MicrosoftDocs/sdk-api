@@ -56,7 +56,7 @@ The <b>WlanIhvControl</b> function provides a mechanism for independent hardware
 
 ### -param hClientHandle [in]
 
-The client's session handle, obtained by a previous call to the <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlanopenhandle">WlanOpenHandle</a> function.
+The client's session handle, obtained by a previous call to the <a href="/windows/desktop/api/wlanapi/nf-wlanapi-wlanopenhandle">WlanOpenHandle</a> function.
 
 ### -param pInterfaceGuid [in]
 
@@ -104,7 +104,7 @@ If the function fails, the return value may be one of the following return codes
 </dl>
 </td>
 <td width="60%">
-The caller does not have sufficient permissions to perform this operation. When called, <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlanihvcontrol">WlanIhvControl</a>  retrieves the discretionary access control list (DACL) stored with the  <b>wlan_secure_ihv_control</b> object. If the DACL does not contain an access control entry (ACE) that grants WLAN_WRITE_ACCESS permission to the access token of the calling thread, then <b>WlanIhvControl</b>    returns <b>ERROR_ACCESS_DENIED</b>.
+The caller does not have sufficient permissions to perform this operation. When called, <a href="/windows/desktop/api/wlanapi/nf-wlanapi-wlanihvcontrol">WlanIhvControl</a>  retrieves the discretionary access control list (DACL) stored with the  <b>wlan_secure_ihv_control</b> object. If the DACL does not contain an access control entry (ACE) that grants WLAN_WRITE_ACCESS permission to the access token of the calling thread, then <b>WlanIhvControl</b>    returns <b>ERROR_ACCESS_DENIED</b>.
 
 </td>
 </tr>
@@ -157,4 +157,3 @@ Various error codes.
 ## -see-also
 
 <a href="/windows/win32/api/wlanapi/ne-wlanapi-wlan_ihv_control_type~r1">WLAN_IHV_CONTROL_TYPE</a>
-

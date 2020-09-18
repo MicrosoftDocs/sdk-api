@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Closes the endorsement key. You can only call the <b>Close</b> method after the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509endorsementkey-open">Open</a> method has been successfully called.
+Closes the endorsement key. You can only call the <b>Close</b> method after the <a href="/windows/desktop/api/certenroll/nf-certenroll-ix509endorsementkey-open">Open</a> method has been successfully called.
 
 ## -parameters
 
@@ -61,11 +61,10 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -remarks
 
 The <b>Close</b> method releases any resources held
-    by the object except for the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509endorsementkey-get_providername">ProviderName</a>.
+    by the object except for the <a href="/windows/desktop/api/certenroll/nf-certenroll-ix509endorsementkey-get_providername">ProviderName</a>.
     The <b>ProviderName</b> is released when it is re-assigned
     or when this object is destroyed.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509endorsementkey">IX509EndorsementKey</a>
-
+<a href="/windows/desktop/api/certenroll/nn-certenroll-ix509endorsementkey">IX509EndorsementKey</a>

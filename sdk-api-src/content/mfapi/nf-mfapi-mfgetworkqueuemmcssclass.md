@@ -56,7 +56,7 @@ Retrieves the Multimedia Class Scheduler Service (MMCSS) class currently associa
 
 ### -param dwWorkQueueId [in]
 
-Identifier for the work queue. The identifier is retrieved by the <a href="https://docs.microsoft.com/windows/desktop/api/mfapi/nf-mfapi-mfallocateworkqueue">MFAllocateWorkQueue</a> function.
+Identifier for the work queue. The identifier is retrieved by the <a href="/windows/desktop/api/mfapi/nf-mfapi-mfallocateworkqueue">MFAllocateWorkQueue</a> function.
 
 ### -param pwszClass [out]
 
@@ -103,13 +103,12 @@ The <i>pwszClass</i> buffer is too small to receive the task name.
 
 If the work queue is not associated with an MMCSS task, the function retrieves an empty string.
 
-To associate a work queue with an MMCSS task, call <a href="https://docs.microsoft.com/windows/desktop/api/mfapi/nf-mfapi-mfbeginregisterworkqueuewithmmcss">MFBeginRegisterWorkQueueWithMMCSS</a>.
+To associate a work queue with an MMCSS task, call <a href="/windows/desktop/api/mfapi/nf-mfapi-mfbeginregisterworkqueuewithmmcss">MFBeginRegisterWorkQueueWithMMCSS</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>
+<a href="/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/work-queues">Work Queues</a>
-
+<a href="/windows/desktop/medfound/work-queues">Work Queues</a>

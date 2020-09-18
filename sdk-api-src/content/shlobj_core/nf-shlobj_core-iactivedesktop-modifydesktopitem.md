@@ -58,7 +58,7 @@ Modifies the desktop item.
 
 Type: <b>LPCCOMPONENT</b>
 
-The address of the <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/ns-shlobj_core-component">COMPONENT</a> structure that contains the modifications. The desktop item associated with the <b>wszSource</b> member of the structure will be modified.
+The address of the <a href="/windows/desktop/api/shlobj_core/ns-shlobj_core-component">COMPONENT</a> structure that contains the modifications. The desktop item associated with the <b>wszSource</b> member of the structure will be modified.
 
 ### -param dwFlags
 
@@ -130,9 +130,8 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -remarks
 
-The client application must call <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-iactivedesktop-applychanges">IActiveDesktop::ApplyChanges</a> separately to update the registry. For example, to change the friendly name, first call this function with either <b>COMP_ELEM_FRIENDLYNAME</b> or <b>COMP_ELEM_ALL</b> in the <b>dwFlags</b> member of <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/ns-shlobj_core-component">COMPONENT</a>. Then call <b>IActiveDesktop::ApplyChanges</b>.
+The client application must call <a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-iactivedesktop-applychanges">IActiveDesktop::ApplyChanges</a> separately to update the registry. For example, to change the friendly name, first call this function with either <b>COMP_ELEM_FRIENDLYNAME</b> or <b>COMP_ELEM_ALL</b> in the <b>dwFlags</b> member of <a href="/windows/desktop/api/shlobj_core/ns-shlobj_core-component">COMPONENT</a>. Then call <b>IActiveDesktop::ApplyChanges</b>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nn-shlobj_core-iactivedesktop">IActiveDesktop</a>
-
+<a href="/windows/desktop/api/shlobj_core/nn-shlobj_core-iactivedesktop">IActiveDesktop</a>

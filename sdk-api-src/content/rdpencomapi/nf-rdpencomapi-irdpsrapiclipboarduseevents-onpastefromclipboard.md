@@ -56,11 +56,11 @@ This callback is issued when an attempt to copy data from the sharer computer is
 
 ### -param clipboardFormat [in]
 
-A clipboard format identifier. For more information about clipboard formats, see <a href="https://docs.microsoft.com/windows/desktop/dataxchg/clipboard-formats">Clipboard Formats</a>. For a list of clipboard format identifiers, see <a href="https://docs.microsoft.com/windows/desktop/dataxchg/standard-clipboard-formats">Standard Clipboard Formats</a>.
+A clipboard format identifier. For more information about clipboard formats, see <a href="/windows/desktop/dataxchg/clipboard-formats">Clipboard Formats</a>. For a list of clipboard format identifiers, see <a href="/windows/desktop/dataxchg/standard-clipboard-formats">Standard Clipboard Formats</a>.
 
 ### -param pAttendee [in]
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapiattendee">IRDPSRAPIAttendee</a> instance for the attendee who attempted the clipboard copy.
+A pointer to the <a href="/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapiattendee">IRDPSRAPIAttendee</a> instance for the attendee who attempted the clipboard copy.
 
 ### -param pRetVal [out, retval]
 
@@ -101,9 +101,8 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapiclipboarduseevents">IRDPSRAPIClipboardUseEvents</a>
+<a href="/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapiclipboarduseevents">IRDPSRAPIClipboardUseEvents</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapisessionproperties-get_property">Property</a>
-
+<a href="/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapisessionproperties-get_property">Property</a>

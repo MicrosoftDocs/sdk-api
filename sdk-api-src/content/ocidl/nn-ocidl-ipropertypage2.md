@@ -50,9 +50,9 @@ api_name:
 
 ## -description
 
-An extension to <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-ipropertypage">IPropertyPage</a> to support initial selection of a property on a page.
+An extension to <a href="/windows/desktop/api/ocidl/nn-ocidl-ipropertypage">IPropertyPage</a> to support initial selection of a property on a page.
 
-This method works in conjunction with the implementation of <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-iperpropertybrowsing-mappropertytopage">IPerPropertyBrowsing::MapPropertyToPage</a> on an object that supplies properties and specifies property pages through <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-ispecifypropertypages">ISpecifyPropertyPages</a>. This interface has only one extra method in addition to those in <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-ipropertypage">IPropertyPage</a>. That method, <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-ipropertypage2-editproperty">IPropertyPage2::EditProperty</a> tells the page which property to highlight.
+This method works in conjunction with the implementation of <a href="/windows/desktop/api/ocidl/nf-ocidl-iperpropertybrowsing-mappropertytopage">IPerPropertyBrowsing::MapPropertyToPage</a> on an object that supplies properties and specifies property pages through <a href="/windows/desktop/api/ocidl/nn-ocidl-ispecifypropertypages">ISpecifyPropertyPages</a>. This interface has only one extra method in addition to those in <a href="/windows/desktop/api/ocidl/nn-ocidl-ipropertypage">IPropertyPage</a>. That method, <a href="/windows/desktop/api/ocidl/nf-ocidl-ipropertypage2-editproperty">IPropertyPage2::EditProperty</a> tells the page which property to highlight.
 
 ## -inheritance
 
@@ -71,7 +71,7 @@ The <b>IPropertyPage2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-ipropertypage2-editproperty">EditProperty</a>
+<a href="/windows/desktop/api/ocidl/nf-ocidl-ipropertypage2-editproperty">EditProperty</a>
 </td>
 <td align="left" width="63%">
 Specifies which field is to receive the focus when the property page is activated.
@@ -83,17 +83,16 @@ Specifies which field is to receive the focus when the property page is activate
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-iperpropertybrowsing">IPerPropertyBrowsing</a>
+<a href="/windows/desktop/api/ocidl/nn-ocidl-iperpropertybrowsing">IPerPropertyBrowsing</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-ipropertypage">IPropertyPage</a>
+<a href="/windows/desktop/api/ocidl/nn-ocidl-ipropertypage">IPropertyPage</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-ipropertypagesite">IPropertyPageSite</a>
+<a href="/windows/desktop/api/ocidl/nn-ocidl-ipropertypagesite">IPropertyPageSite</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-ispecifypropertypages">ISpecifyPropertyPage</a>
-
+<a href="/windows/desktop/api/ocidl/nn-ocidl-ispecifypropertypages">ISpecifyPropertyPage</a>

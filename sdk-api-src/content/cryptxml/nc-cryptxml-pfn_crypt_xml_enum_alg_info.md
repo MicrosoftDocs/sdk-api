@@ -51,13 +51,13 @@ api_name:
 ## -description
 
 The <i>PFN_CRYPT_XML_ENUM_ALG_INFO</i> callback function enumerates predefined and registered 
- <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/ns-cryptxml-crypt_xml_algorithm_info">CRYPT_XML_ALGORITHM_INFO</a> entries.
+ <a href="/windows/desktop/api/cryptxml/ns-cryptxml-crypt_xml_algorithm_info">CRYPT_XML_ALGORITHM_INFO</a> entries.
 
 ## -parameters
 
 ### -param *pInfo [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/ns-cryptxml-crypt_xml_algorithm_info">CRYPT_XML_ALGORITHM_INFO</a> structure.
+A pointer to a <a href="/windows/desktop/api/cryptxml/ns-cryptxml-crypt_xml_algorithm_info">CRYPT_XML_ALGORITHM_INFO</a> structure.
 
 ### -param *pvArg [in, out, optional]
 
@@ -75,4 +75,3 @@ If the callback function returns <b>FALSE</b>, then stop the enumeration.
 
  This function enumerates  either the predefined and registered 
  entries or the structures identified by a selected URI group.
-

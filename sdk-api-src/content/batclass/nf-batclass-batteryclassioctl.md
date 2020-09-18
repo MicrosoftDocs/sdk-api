@@ -57,7 +57,7 @@ api_name:
 
 ### -param ClassData [in]
 
-Pointer to a battery class handle that was previously returned by <a href="https://docs.microsoft.com/windows/desktop/api/batclass/nf-batclass-batteryclassinitializedevice">BatteryClassInitializeDevice</a>.
+Pointer to a battery class handle that was previously returned by <a href="/windows/desktop/api/batclass/nf-batclass-batteryclassinitializedevice">BatteryClassInitializeDevice</a>.
 
 ### -param Irp [in, out]
 
@@ -89,27 +89,26 @@ IOCTL_BATTERY_SET_INFORMATION
 
 </li>
 </ul>
-The standard battery IOCTLs correspond to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/_battery/">battery miniclass driver routines</a> (BatteryMini<i>Xxx</i> routines). 
+The standard battery IOCTLs correspond to <a href="/windows-hardware/drivers/ddi/content/_battery/">battery miniclass driver routines</a> (BatteryMini<i>Xxx</i> routines). 
 
-When the miniclass driver is called with an <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mj-device-control">IRP_MJ_DEVICE_CONTROL</a> request, it should determine whether the IRP contains any private IOCTL defined by the miniclass driver. If so, the miniclass driver should satisfy the request, complete the IRP, and return.
+When the miniclass driver is called with an <a href="/windows-hardware/drivers/kernel/irp-mj-device-control">IRP_MJ_DEVICE_CONTROL</a> request, it should determine whether the IRP contains any private IOCTL defined by the miniclass driver. If so, the miniclass driver should satisfy the request, complete the IRP, and return.
 
-If the IRP contains a public IOCTL, the driver should pass the IRP to the class driver's <b>BatteryClassIoctl</b> routine. This routine examines the IRP, determines whether it applies to the caller's battery device, and if so, calls the appropriate <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/_battery/">BatteryMiniXxx</a> routine to perform the requested operation. 
+If the IRP contains a public IOCTL, the driver should pass the IRP to the class driver's <b>BatteryClassIoctl</b> routine. This routine examines the IRP, determines whether it applies to the caller's battery device, and if so, calls the appropriate <a href="/windows-hardware/drivers/ddi/content/_battery/">BatteryMiniXxx</a> routine to perform the requested operation. 
 
 If <b>BatteryClassIoctl</b> returns STATUS_NOT_SUPPORTED for the IRP, the miniclass driver must either complete the IRP or forward it to the next-lower driver.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/batclass/nc-batclass-bclass_query_information_callback">BatteryMiniQueryInformation</a>
+<a href="/windows/desktop/api/batclass/nc-batclass-bclass_query_information_callback">BatteryMiniQueryInformation</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/batclass/nc-batclass-bclass_query_status_callback">BatteryMiniQueryStatus</a>
+<a href="/windows/desktop/api/batclass/nc-batclass-bclass_query_status_callback">BatteryMiniQueryStatus</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/batclass/nc-batclass-bclass_query_tag_callback">BatteryMiniQueryTag</a>
+<a href="/windows/desktop/api/batclass/nc-batclass-bclass_query_tag_callback">BatteryMiniQueryTag</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/batclass/nc-batclass-bclass_set_information_callback">BatteryMiniSetInformation</a>
-
+<a href="/windows/desktop/api/batclass/nc-batclass-bclass_set_information_callback">BatteryMiniSetInformation</a>

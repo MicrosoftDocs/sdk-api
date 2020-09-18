@@ -66,7 +66,7 @@ Pointer to a variable to be filled with the current volume setting. The low-orde
 
 If a device does not support both left and right volume control, the low-order word of the specified location contains the volume level.
 
-The full 16-bit setting(s) set with the <a href="https://docs.microsoft.com/previous-versions/dd756717(v=vs.85)">auxSetVolume</a> function are returned, regardless of whether the device supports the full 16 bits of volume-level control.
+The full 16-bit setting(s) set with the <a href="/previous-versions/dd756717(v=vs.85)">auxSetVolume</a> function are returned, regardless of whether the device supports the full 16 bits of volume-level control.
 
 ## -returns
 
@@ -92,15 +92,14 @@ Specified device identifier is out of range.
 
 ## -remarks
 
-Not all devices support volume control. To determine whether a device supports volume control, use the AUXCAPS_VOLUME flag to test the <b>dwSupport</b> member of the <a href="https://docs.microsoft.com/previous-versions/dd756711(v=vs.85)">AUXCAPS</a> structure (filled by the <a href="https://docs.microsoft.com/previous-versions/dd756712(v=vs.85)">auxGetDevCaps</a> function).
+Not all devices support volume control. To determine whether a device supports volume control, use the AUXCAPS_VOLUME flag to test the <b>dwSupport</b> member of the <a href="/previous-versions/dd756711(v=vs.85)">AUXCAPS</a> structure (filled by the <a href="/previous-versions/dd756712(v=vs.85)">auxGetDevCaps</a> function).
 
-To determine whether a device supports volume control on both the left and right channels, use the AUXCAPS_LRVOLUME flag to test the <b>dwSupport</b> member of the <a href="https://docs.microsoft.com/previous-versions/dd756711(v=vs.85)">AUXCAPS</a> structure (filled by <a href="https://docs.microsoft.com/previous-versions/dd756712(v=vs.85)">auxGetDevCaps</a>).
+To determine whether a device supports volume control on both the left and right channels, use the AUXCAPS_LRVOLUME flag to test the <b>dwSupport</b> member of the <a href="/previous-versions/dd756711(v=vs.85)">AUXCAPS</a> structure (filled by <a href="/previous-versions/dd756712(v=vs.85)">auxGetDevCaps</a>).
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/waveform-audio">Waveform Audio</a>
+<a href="/windows/desktop/Multimedia/waveform-audio">Waveform Audio</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/waveform-functions">Waveform Functions</a>
-
+<a href="/windows/desktop/Multimedia/waveform-functions">Waveform Functions</a>

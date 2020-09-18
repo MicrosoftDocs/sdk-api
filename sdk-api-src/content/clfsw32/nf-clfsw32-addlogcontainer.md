@@ -52,7 +52,7 @@ api_name:
 
 Adds a container to the physical log  that is associated with the log handle—if the calling process has  write access to the .blf file and the ability to create files in the target directory of the container.
 
-This function is different from  <a href="https://docs.microsoft.com/windows/desktop/api/clfsw32/nf-clfsw32-addlogcontainerset">AddLogContainerSet</a>, because it  adds only one  container.  To add multiple containers,  it is  more efficient to use <b>AddLogContainerSet</b>, which allows you to add more than one container. Adding containers allows a client to increase the size of a log.
+This function is different from  <a href="/windows/desktop/api/clfsw32/nf-clfsw32-addlogcontainerset">AddLogContainerSet</a>, because it  adds only one  container.  To add multiple containers,  it is  more efficient to use <b>AddLogContainerSet</b>, which allows you to add more than one container. Adding containers allows a client to increase the size of a log.
 
 ## -parameters
 
@@ -60,7 +60,7 @@ This function is different from  <a href="https://docs.microsoft.com/windows/des
 
 The handle to an open log. 
 
-The handle must  be   obtained from <a href="https://docs.microsoft.com/windows/desktop/api/clfsw32/nf-clfsw32-createlogfile">CreateLogFile</a> with write access to the log. The client application must have  write access to the .blf file, and the ability to create files in the target directory of a container.
+The handle must  be   obtained from <a href="/windows/desktop/api/clfsw32/nf-clfsw32-createlogfile">CreateLogFile</a> with write access to the log. The client application must have  write access to the .blf file, and the ability to create files in the target directory of a container.
 
 ### -param pcbContainer [in, optional]
 
@@ -89,19 +89,18 @@ If the function succeeds, the return value is nonzero.
 						
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 The following list identifies the possible error codes:
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clfsw32/nf-clfsw32-addlogcontainerset">AddLogContainerSet</a>
+<a href="/windows/desktop/api/clfsw32/nf-clfsw32-addlogcontainerset">AddLogContainerSet</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/clfs/common-log-file-system-functions">Common Log File System Functions</a>
+<a href="/previous-versions/windows/desktop/clfs/common-log-file-system-functions">Common Log File System Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clfsw32/nf-clfsw32-createlogfile">CreateLogFile</a>
-
+<a href="/windows/desktop/api/clfsw32/nf-clfsw32-createlogfile">CreateLogFile</a>

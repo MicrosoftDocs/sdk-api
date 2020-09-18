@@ -55,7 +55,7 @@ Use the
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISdo</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ISdo</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISdo</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ISdo</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>ISdo</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/nf-sdoias-isdo-apply">Apply</a>
+<a href="/windows/desktop/api/sdoias/nf-sdoias-isdo-apply">Apply</a>
 </td>
 <td align="left" width="63%">
 Writes changes to the datastore for the object.
@@ -79,7 +79,7 @@ Writes changes to the datastore for the object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/nf-sdoias-isdo-get__newenum">get_NewEnum</a>
+<a href="/windows/desktop/api/sdoias/nf-sdoias-isdo-get__newenum">get_NewEnum</a>
 </td>
 <td align="left" width="63%">
 Retrieves an enumeration interface for the object's properties.
@@ -88,7 +88,7 @@ Retrieves an enumeration interface for the object's properties.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/nf-sdoias-isdo-getproperty">GetProperty</a>
+<a href="/windows/desktop/api/sdoias/nf-sdoias-isdo-getproperty">GetProperty</a>
 </td>
 <td align="left" width="63%">
 Retrieves the value of the specified property.
@@ -97,7 +97,7 @@ Retrieves the value of the specified property.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/nf-sdoias-isdo-getpropertyinfo">GetPropertyInfo</a>
+<a href="/windows/desktop/api/sdoias/nf-sdoias-isdo-getpropertyinfo">GetPropertyInfo</a>
 </td>
 <td align="left" width="63%">
 Retrieves an information interface for the specified property.
@@ -108,7 +108,7 @@ Retrieves an information interface for the specified property.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/nf-sdoias-isdo-putproperty">PutProperty</a>
+<a href="/windows/desktop/api/sdoias/nf-sdoias-isdo-putproperty">PutProperty</a>
 </td>
 <td align="left" width="63%">
 Sets the value of the specified property.
@@ -117,7 +117,7 @@ Sets the value of the specified property.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/nf-sdoias-isdo-resetproperty">ResetProperty</a>
+<a href="/windows/desktop/api/sdoias/nf-sdoias-isdo-resetproperty">ResetProperty</a>
 </td>
 <td align="left" width="63%">
 Resets the specified property to its default value.
@@ -126,7 +126,7 @@ Resets the specified property to its default value.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/nf-sdoias-isdo-restore">Restore</a>
+<a href="/windows/desktop/api/sdoias/nf-sdoias-isdo-restore">Restore</a>
 </td>
 <td align="left" width="63%">
 Restores the values of the object's properties from the datastore.
@@ -137,15 +137,14 @@ Restores the values of the object's properties from the datastore.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Nps/sdo-server-data-objects-interfaces">Server Data
+<a href="/windows/desktop/Nps/sdo-server-data-objects-interfaces">Server Data
     Objects Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Nps/sdo-server-data-objects-reference">Server Data
+<a href="/windows/desktop/Nps/sdo-server-data-objects-reference">Server Data
     Objects Reference</a>
-

@@ -51,13 +51,13 @@ api_name:
 
 ## -description
 
-The <code>IVMRMonitorConfig9</code> interface is implemented by the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/video-mixing-renderer-filter-9">Video Mixing Renderer Filter 9</a> (VMR-9). Applications use this interface to determine the capabilities of the display devices on the system and to control which device is used to display the output. For example, if the system contains a hardware DVD decoder and the VMR is rendering the output from that decoder, then on a multi-monitor system, an application must use this interface to specify the display device that is connected to the decoder.
+The <code>IVMRMonitorConfig9</code> interface is implemented by the <a href="/windows/desktop/DirectShow/video-mixing-renderer-filter-9">Video Mixing Renderer Filter 9</a> (VMR-9). Applications use this interface to determine the capabilities of the display devices on the system and to control which device is used to display the output. For example, if the system contains a hardware DVD decoder and the VMR is rendering the output from that decoder, then on a multi-monitor system, an application must use this interface to specify the display device that is connected to the decoder.
 
 The VMR-9 supports a maximum of 16 display devices.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVMRMonitorConfig9</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVMRMonitorConfig9</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVMRMonitorConfig9</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVMRMonitorConfig9</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,7 +72,7 @@ The <b>IVMRMonitorConfig9</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vmr9/nf-vmr9-ivmrmonitorconfig9-getavailablemonitors">GetAvailableMonitors</a>
+<a href="/windows/desktop/api/vmr9/nf-vmr9-ivmrmonitorconfig9-getavailablemonitors">GetAvailableMonitors</a>
 </td>
 <td align="left" width="63%">
 Retrieves information about the monitors currently available on the system.
@@ -81,7 +81,7 @@ Retrieves information about the monitors currently available on the system.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vmr9/nf-vmr9-ivmrmonitorconfig9-getdefaultmonitor">GetDefaultMonitor</a>
+<a href="/windows/desktop/api/vmr9/nf-vmr9-ivmrmonitorconfig9-getdefaultmonitor">GetDefaultMonitor</a>
 </td>
 <td align="left" width="63%">
 Retrieves the default monitor that all future instances of the VMR will use for video playback.
@@ -90,7 +90,7 @@ Retrieves the default monitor that all future instances of the VMR will use for 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vmr9/nf-vmr9-ivmrmonitorconfig9-getmonitor">GetMonitor</a>
+<a href="/windows/desktop/api/vmr9/nf-vmr9-ivmrmonitorconfig9-getmonitor">GetMonitor</a>
 </td>
 <td align="left" width="63%">
 Retrieves the monitor that this instance of the VMR is using for video playback.
@@ -99,7 +99,7 @@ Retrieves the monitor that this instance of the VMR is using for video playback.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vmr9/nf-vmr9-ivmrmonitorconfig9-setdefaultmonitor">SetDefaultMonitor</a>
+<a href="/windows/desktop/api/vmr9/nf-vmr9-ivmrmonitorconfig9-setdefaultmonitor">SetDefaultMonitor</a>
 </td>
 <td align="left" width="63%">
 Specifies the default monitor that all future instances of the VMR should use for video playback.
@@ -108,7 +108,7 @@ Specifies the default monitor that all future instances of the VMR should use fo
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vmr9/nf-vmr9-ivmrmonitorconfig9-setmonitor">SetMonitor</a>
+<a href="/windows/desktop/api/vmr9/nf-vmr9-ivmrmonitorconfig9-setmonitor">SetMonitor</a>
 </td>
 <td align="left" width="63%">
 On a multi-monitor system, specifies the monitor that this instance of the VMR should use for video playback.
@@ -123,5 +123,4 @@ Include DShow.h and D3d9.h before Vmr9.h.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/using-the-video-mixing-renderer">Using the Video Mixing Renderer</a>
-
+<a href="/windows/desktop/DirectShow/using-the-video-mixing-renderer">Using the Video Mixing Renderer</a>

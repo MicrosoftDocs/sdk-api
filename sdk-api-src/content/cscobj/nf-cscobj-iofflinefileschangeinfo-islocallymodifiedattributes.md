@@ -65,9 +65,8 @@ Returns <b>S_OK</b> if successful, or an error value otherwise.
 
 ## -remarks
 
-Use <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilesfilesysinfo-getattributes">IOfflineFilesFileSysInfo::GetAttributes</a> to examine the Win32 file attributes for an item.
+Use <a href="/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilesfilesysinfo-getattributes">IOfflineFilesFileSysInfo::GetAttributes</a> to examine the Win32 file attributes for an item.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nn-cscobj-iofflinefileschangeinfo">IOfflineFilesChangeInfo</a>
-
+<a href="/previous-versions/windows/desktop/api/cscobj/nn-cscobj-iofflinefileschangeinfo">IOfflineFilesChangeInfo</a>

@@ -58,7 +58,7 @@ Gets the profile name associated with the network.
 
 The name of the profile associated with the network. If the network has no profile, this parameter is <b>NULL</b>.
 
-You must free this string using <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a>.
+You must free this string using <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a>.
 
 ## -returns
 
@@ -128,13 +128,12 @@ A pointer passed as a parameter is not valid.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/adhoc/nn-adhoc-idot11adhocnetwork">IDot11AdHocNetwork</a>
+<a href="/windows/desktop/api/adhoc/nn-adhoc-idot11adhocnetwork">IDot11AdHocNetwork</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/adhoc/nf-adhoc-idot11adhocnetwork-deleteprofile">IDot11AdHocNetwork::DeleteProfile</a>
+<a href="/windows/desktop/api/adhoc/nf-adhoc-idot11adhocnetwork-deleteprofile">IDot11AdHocNetwork::DeleteProfile</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/adhoc/nf-adhoc-idot11adhocnetwork-hasprofile">IDot11AdHocNetwork::HasProfile</a>
-
+<a href="/windows/desktop/api/adhoc/nf-adhoc-idot11adhocnetwork-hasprofile">IDot11AdHocNetwork::HasProfile</a>

@@ -53,7 +53,7 @@ The <i>DdVideoPortGetConnectInfo</i> callback function returns the connections s
 
 ### -param Arg1
 
-Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_getvportconnectdata">DD_GETVPORTCONNECTDATA</a> structure that contains the information required for the driver to return the VPE object connection data.
+Points to a <a href="/windows/desktop/api/ddrawint/ns-ddrawint-dd_getvportconnectdata">DD_GETVPORTCONNECTDATA</a> structure that contains the information required for the driver to return the VPE object connection data.
 
 ## -returns
 
@@ -71,16 +71,15 @@ In the first call, the <b>lpConnect</b> member of the DD_GETVPORTCONNECTDATA str
 
 </li>
 <li>
-In the second call, <b>lpConnect</b> points to the array of allocated <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksmedia/ns-ksmedia-_ddvideoportconnect">DDVIDEOPORTCONNECT</a> structures. The driver should fill in each structure to describe each connection that the VPE object supports. The driver should also return the number of supported connections in <b>dwNumEntries</b>. Note that the driver is guaranteed that the buffer to which <b>lpConnect</b> points is large enough to hold the connection information being requested.
+In the second call, <b>lpConnect</b> points to the array of allocated <a href="/windows-hardware/drivers/ddi/content/ksmedia/ns-ksmedia-_ddvideoportconnect">DDVIDEOPORTCONNECT</a> structures. The driver should fill in each structure to describe each connection that the VPE object supports. The driver should also return the number of supported connections in <b>dwNumEntries</b>. Note that the driver is guaranteed that the buffer to which <b>lpConnect</b> points is large enough to hold the connection information being requested.
 
 </li>
 </ul>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksmedia/ns-ksmedia-_ddvideoportconnect">DDVIDEOPORTCONNECT</a>
+<a href="/windows-hardware/drivers/ddi/content/ksmedia/ns-ksmedia-_ddvideoportconnect">DDVIDEOPORTCONNECT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_getvportconnectdata">DD_GETVPORTCONNECTDATA</a>
-
+<a href="/windows/desktop/api/ddrawint/ns-ddrawint-dd_getvportconnectdata">DD_GETVPORTCONNECTDATA</a>

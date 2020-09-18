@@ -60,7 +60,7 @@ A pointer to a null-terminated Unicode string that contains the name of the key.
 
 ### -field pszAlgid
 
-A pointer to a null-terminated Unicode string that contains the identifier of the cryptographic algorithm that the key was created with. This can be one of the standard <a href="https://docs.microsoft.com/windows/desktop/SecCNG/cng-algorithm-identifiers">CNG Algorithm Identifiers</a> or the identifier for another registered algorithm.
+A pointer to a null-terminated Unicode string that contains the identifier of the cryptographic algorithm that the key was created with. This can be one of the standard <a href="/windows/desktop/SecCNG/cng-algorithm-identifiers">CNG Algorithm Identifiers</a> or the identifier for another registered algorithm.
 
 ### -field dwLegacyKeySpec
 
@@ -127,5 +127,4 @@ The key applies to the local computer. If this flag is not present, the key appl
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ncrypt/nf-ncrypt-ncryptenumkeys">NCryptEnumKeys</a>
-
+<a href="/windows/desktop/api/ncrypt/nf-ncrypt-ncryptenumkeys">NCryptEnumKeys</a>

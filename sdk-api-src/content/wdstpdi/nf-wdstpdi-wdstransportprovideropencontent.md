@@ -74,5 +74,4 @@ If the function succeeds, the return is <b>S_OK</b>.
 
 This callback is required.
 
-When the handle returned by this function is no longer needed it should be closed with using the <a href="https://docs.microsoft.com/windows/desktop/api/wdstpdi/nf-wdstpdi-wdstransportproviderclosecontent">WdsTransportProviderCloseContent</a> callback.
-
+When the handle returned by this function is no longer needed it should be closed with using the <a href="/windows/desktop/api/wdstpdi/nf-wdstpdi-wdstransportproviderclosecontent">WdsTransportProviderCloseContent</a> callback.

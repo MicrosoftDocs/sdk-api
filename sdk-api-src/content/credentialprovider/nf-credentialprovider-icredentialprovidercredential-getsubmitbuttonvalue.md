@@ -76,11 +76,10 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -remarks
 
-The submit button is not labeled as such; that is simply a generic way to refer to the button you click to submit the credentials. The button normally appears as a circular button that contains an arrow pointing to the right, although this appearance could change in later releases. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/credentialprovider/ne-credentialprovider-credential_provider_field_type">CPFT_SUBMIT_BUTTON</a>.
+The submit button is not labeled as such; that is simply a generic way to refer to the button you click to submit the credentials. The button normally appears as a circular button that contains an arrow pointing to the right, although this appearance could change in later releases. For more information, see <a href="/windows/desktop/api/credentialprovider/ne-credentialprovider-credential_provider_field_type">CPFT_SUBMIT_BUTTON</a>.
 
 You should not hide the submit button unless your credential provider always performs automatic submission. Otherwise it can be confusing to the users since they will not see a way to submit their credentials.
 
 Call this method when assembling the Logon UI. For example usage, see the Credential Providers samples included in the Windows Software Development Kit (SDK).
 
 .
-

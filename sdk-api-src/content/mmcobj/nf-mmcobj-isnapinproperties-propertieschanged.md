@@ -58,12 +58,12 @@ The
 ### -param cProperties [in]
 
 The number of 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmcobj/ns-mmcobj-mmc_snapin_property">MMC_SNAPIN_PROPERTY</a> structures provided by <i>pProperties</i>.
+<a href="/windows/desktop/api/mmcobj/ns-mmcobj-mmc_snapin_property">MMC_SNAPIN_PROPERTY</a> structures provided by <i>pProperties</i>.
 
 ### -param pProperties [in]
 
 An array of 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmcobj/ns-mmcobj-mmc_snapin_property">MMC_SNAPIN_PROPERTY</a> structures.
+<a href="/windows/desktop/api/mmcobj/ns-mmcobj-mmc_snapin_property">MMC_SNAPIN_PROPERTY</a> structures.
 
 ## -returns
 
@@ -71,9 +71,8 @@ If successful, the return value is <b>S_OK</b>; a snap-in can prevent a change o
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmcobj/ne-mmcobj-mmc_property_action">MMC_PROPERTY_ACTION</a>
+<a href="/windows/desktop/api/mmcobj/ne-mmcobj-mmc_property_action">MMC_PROPERTY_ACTION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmcobj/ns-mmcobj-mmc_snapin_property">MMC_SNAPIN_PROPERTY</a>
-
+<a href="/windows/desktop/api/mmcobj/ns-mmcobj-mmc_snapin_property">MMC_SNAPIN_PROPERTY</a>

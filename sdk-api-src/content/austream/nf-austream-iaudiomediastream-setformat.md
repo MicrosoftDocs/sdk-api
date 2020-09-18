@@ -58,7 +58,7 @@ Sets the format for the stream.
 
 ### -param lpWaveFormat [in]
 
-Pointer to a <a href="https://docs.microsoft.com/previous-versions/dd757713(v=vs.85)">WAVEFORMATEX</a> structure that contains stream format information.
+Pointer to a <a href="/previous-versions/dd757713(v=vs.85)">WAVEFORMATEX</a> structure that contains stream format information.
 
 ## -returns
 
@@ -76,7 +76,7 @@ Returns an <b>HRESULT</b> value, which can include the following values or other
 </dl>
 </td>
 <td width="60%">
-Format of the <a href="https://docs.microsoft.com/windows/desktop/api/austream/nn-austream-iaudiodata">IAudioData</a> object is not compatible with stream.
+Format of the <a href="/windows/desktop/api/austream/nn-austream-iaudiodata">IAudioData</a> object is not compatible with stream.
 
 </td>
 </tr>
@@ -117,5 +117,4 @@ Success.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/austream/nn-austream-iaudiomediastream">IAudioMediaStream Interface</a>
-
+<a href="/windows/desktop/api/austream/nn-austream-iaudiomediastream">IAudioMediaStream Interface</a>

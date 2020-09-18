@@ -58,17 +58,16 @@ The GLYPHDEF union identifies individual glyphs and provides either a pointer to
 
 ### -field pgb
 
-If <b>pgb</b> is defined, this member is a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-glyphbits">GLYPHBITS</a> structure. The driver can use the bitmap bits stored in this structure to form the associated glyph on its surface.
+If <b>pgb</b> is defined, this member is a pointer to a <a href="/windows/desktop/api/winddi/ns-winddi-glyphbits">GLYPHBITS</a> structure. The driver can use the bitmap bits stored in this structure to form the associated glyph on its surface.
 
 ### -field ppo
 
-If <b>ppo</b> is defined, this member is a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-pathobj">PATHOBJ</a> structure the driver can examine to extract the path describing the associated glyph.
+If <b>ppo</b> is defined, this member is a pointer to a <a href="/windows/desktop/api/winddi/ns-winddi-pathobj">PATHOBJ</a> structure the driver can examine to extract the path describing the associated glyph.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-glyphbits">GLYPHBITS</a>
+<a href="/windows/desktop/api/winddi/ns-winddi-glyphbits">GLYPHBITS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-pathobj">PATHOBJ</a>
-
+<a href="/windows/desktop/api/winddi/ns-winddi-pathobj">PATHOBJ</a>

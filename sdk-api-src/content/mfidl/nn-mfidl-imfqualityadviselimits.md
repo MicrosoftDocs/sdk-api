@@ -56,7 +56,7 @@ The default presenter for the <i>enhanced video renderer</i> (EVR) implements th
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFQualityAdviseLimits</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFQualityAdviseLimits</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFQualityAdviseLimits</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFQualityAdviseLimits</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>IMFQualityAdviseLimits</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfqualityadviselimits-getmaximumdropmode">GetMaximumDropMode</a>
+<a href="/windows/desktop/api/mfidl/nf-mfidl-imfqualityadviselimits-getmaximumdropmode">GetMaximumDropMode</a>
 </td>
 <td align="left" width="63%">
 Gets the maximum drop mode.
@@ -80,7 +80,7 @@ Gets the maximum drop mode.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfqualityadviselimits-getminimumqualitylevel">GetMinimumQualityLevel</a>
+<a href="/windows/desktop/api/mfidl/nf-mfidl-imfqualityadviselimits-getminimumqualitylevel">GetMinimumQualityLevel</a>
 </td>
 <td align="left" width="63%">
 Gets the minimum quality level that is  supported by the component.
@@ -91,9 +91,8 @@ Gets the minimum quality level that is  supported by the component.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfqualityadvise">IMFQualityAdvise</a>
+<a href="/windows/desktop/api/mfidl/nn-mfidl-imfqualityadvise">IMFQualityAdvise</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
-
+<a href="/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>

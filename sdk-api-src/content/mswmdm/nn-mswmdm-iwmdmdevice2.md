@@ -50,11 +50,11 @@ api_name:
 
 ## -description
 
-The <b>IWMDMDevice2</b> interface extends <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmdevice">IWMDMDevice</a> by making it possible to get the video formats supported by a device, find storage from its name, and use property pages.
+The <b>IWMDMDevice2</b> interface extends <a href="/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmdevice">IWMDMDevice</a> by making it possible to get the video formats supported by a device, find storage from its name, and use property pages.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMDMDevice2</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmdevice">IWMDMDevice</a>. <b>IWMDMDevice2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMDMDevice2</b> interface inherits from <a href="/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmdevice">IWMDMDevice</a>. <b>IWMDMDevice2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IWMDMDevice2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmdevice2-getcanonicalname">GetCanonicalName</a>
+<a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmdevice2-getcanonicalname">GetCanonicalName</a>
 </td>
 <td align="left" width="63%">
 Retrieves the canonical name of the device.
@@ -78,7 +78,7 @@ Retrieves the canonical name of the device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmdevice2-getformatsupport2">GetFormatSupport2</a>
+<a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmdevice2-getformatsupport2">GetFormatSupport2</a>
 </td>
 <td align="left" width="63%">
 Retrieves the formats supported by the device, including audio and video codecs, and MIME file formats
@@ -87,7 +87,7 @@ Retrieves the formats supported by the device, including audio and video codecs,
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmdevice2-getspecifypropertypages">GetSpecifyPropertyPages</a>
+<a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmdevice2-getspecifypropertypages">GetSpecifyPropertyPages</a>
 </td>
 <td align="left" width="63%">
 Retrieves the property page for the device.
@@ -96,7 +96,7 @@ Retrieves the property page for the device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmdevice2-getstorage">GetStorage</a>
+<a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmdevice2-getstorage">GetStorage</a>
 </td>
 <td align="left" width="63%">
 Searches the immediate children of the root storage for a storage with the given name.
@@ -107,13 +107,12 @@ Searches the immediate children of the root storage for a storage with the given
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmdevice">IWMDMDevice Interface</a>
+<a href="/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmdevice">IWMDMDevice Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmdevice3">IWMDMDevice3 Interface</a>
+<a href="/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmdevice3">IWMDMDevice3 Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WMDM/interfaces-for-applications">Interfaces for Applications</a>
-
+<a href="/windows/desktop/WMDM/interfaces-for-applications">Interfaces for Applications</a>

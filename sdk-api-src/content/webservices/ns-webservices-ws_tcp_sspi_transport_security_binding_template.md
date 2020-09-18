@@ -56,7 +56,7 @@ The security binding template for specifying the use of Windows SSPI
         protocol based transport security. 
       
 
-See also <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_tcp_sspi_transport_security_binding">WS_TCP_SSPI_TRANSPORT_SECURITY_BINDING</a>.
+See also <a href="/windows/desktop/api/webservices/ns-webservices-ws_tcp_sspi_transport_security_binding">WS_TCP_SSPI_TRANSPORT_SECURITY_BINDING</a>.
 
 ## -struct-fields
 
@@ -68,4 +68,3 @@ Application provided security binding properties that cannot be represented in p
 
 The Windows credential to be used to obtain this security token.  This
           is required on the client and must not be specified on the server.
-

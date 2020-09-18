@@ -60,7 +60,7 @@ Only one client can take ownership of a given interface at any time. The only ex
 ### -param hProtocol [in]
 
 Handle to the protocol obtained from a previous call to 
-<a href="https://docs.microsoft.com/windows/desktop/api/mgm/nf-mgm-mgmregistermprotocol">MgmRegisterMProtocol</a>.
+<a href="/windows/desktop/api/mgm/nf-mgm-mgmregistermprotocol">MgmRegisterMProtocol</a>.
 
 ### -param dwIfIndex [in]
 
@@ -142,13 +142,12 @@ A client must take ownership of an interface only after registering itself with 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mgm/nf-mgm-mgmgetprotocoloninterface">MgmGetProtocolOnInterface</a>
+<a href="/windows/desktop/api/mgm/nf-mgm-mgmgetprotocoloninterface">MgmGetProtocolOnInterface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mgm/nf-mgm-mgmregistermprotocol">MgmRegisterMProtocol</a>
+<a href="/windows/desktop/api/mgm/nf-mgm-mgmregistermprotocol">MgmRegisterMProtocol</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mgm/nf-mgm-mgmreleaseinterfaceownership">MgmReleaseInterfaceOwnership</a>
-
+<a href="/windows/desktop/api/mgm/nf-mgm-mgmreleaseinterfaceownership">MgmReleaseInterfaceOwnership</a>

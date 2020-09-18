@@ -53,7 +53,7 @@ api_name:
 
 ## -description
 
-Sets the name for a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resources">resource</a>. The 
+Sets the name for a <a href="/previous-versions/windows/desktop/mscs/resources">resource</a>. The 
     <b>PCLUSAPI_SET_CLUSTER_RESOURCE_NAME</b> type defines a pointer to this function.
 
 ## -parameters
@@ -72,24 +72,23 @@ Pointer to the new name for the resource identified by <i>hResource</i>. Resourc
 If the operation succeeds, the function returns <b>ERROR_SUCCESS</b>.
 
 If the operation fails, the function returns a 
-       <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a>.
+       <a href="/windows/desktop/Debug/system-error-codes">system error code</a>.
 
 ## -remarks
 
 <b>SetClusterResourceName</b> changes the 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resources-name">Name</a> common property of the resource identified by 
+    <a href="/previous-versions/windows/desktop/mscs/resources-name">Name</a> common property of the resource identified by 
     <i>hResource</i>. This is the only way that 
     <b>Name</b>, a read-only property, can be changed.
 
 Do not call <b>SetClusterResourceName</b> from a 
     resource DLL. For more information, see 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/function-calls-to-avoid-in-resource-dlls">Function Calls to Avoid in Resource DLLs</a>.
+    <a href="/previous-versions/windows/desktop/mscs/function-calls-to-avoid-in-resource-dlls">Function Calls to Avoid in Resource DLLs</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resources-name">Name</a>
+<a href="/previous-versions/windows/desktop/mscs/resources-name">Name</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-openclusterresource">OpenClusterResource</a>
-
+<a href="/windows/desktop/api/clusapi/nf-clusapi-openclusterresource">OpenClusterResource</a>

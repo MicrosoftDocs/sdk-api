@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Initialize using the full <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">Certificate Management over CMS</a> (CMC) response returned from the CA.
+Initialize using the full <a href="/windows/desktop/SecGloss/c-gly">Certificate Management over CMS</a> (CMC) response returned from the CA.
 
 ## -parameters
 
 ### -param Encoding [in]
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/ne-certenroll-encodingtype">EncodingType</a> enumeration value that specifies the type of Unicode-encoding applied to the  response. The default value is XCN_CRYPT_STRING_BASE64.
+An <a href="/windows/desktop/api/certenroll/ne-certenroll-encodingtype">EncodingType</a> enumeration value that specifies the type of Unicode-encoding applied to the  response. The default value is XCN_CRYPT_STRING_BASE64.
 
 ### -param strPendingFullCmcResponseWithChallenge [in]
 
@@ -72,5 +72,4 @@ The CA should have returned a pending CMC response. The content of the CMC respo
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icertificateattestationchallenge">ICertificateAttestationChallenge</a>
-
+<a href="/windows/desktop/api/certenroll/nn-certenroll-icertificateattestationchallenge">ICertificateAttestationChallenge</a>

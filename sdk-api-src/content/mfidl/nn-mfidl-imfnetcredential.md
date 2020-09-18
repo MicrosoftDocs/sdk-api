@@ -55,7 +55,7 @@ Sets and retrieves user-name and password information for authentication purpose
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFNetCredential</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFNetCredential</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFNetCredential</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFNetCredential</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>IMFNetCredential</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfnetcredential-getpassword">GetPassword</a>
+<a href="/windows/desktop/api/mfidl/nf-mfidl-imfnetcredential-getpassword">GetPassword</a>
 </td>
 <td align="left" width="63%">
 Retrieves the decrypted password.
@@ -79,7 +79,7 @@ Retrieves the decrypted password.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfnetcredential-getuser">GetUser</a>
+<a href="/windows/desktop/api/mfidl/nf-mfidl-imfnetcredential-getuser">GetUser</a>
 </td>
 <td align="left" width="63%">
 Retrieves the username.
@@ -88,7 +88,7 @@ Retrieves the username.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfnetcredential-loggedonuser">LoggedOnUser</a>
+<a href="/windows/desktop/api/mfidl/nf-mfidl-imfnetcredential-loggedonuser">LoggedOnUser</a>
 </td>
 <td align="left" width="63%">
 Queries whether logged on credentials should be used.
@@ -97,7 +97,7 @@ Queries whether logged on credentials should be used.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfnetcredential-setpassword">SetPassword</a>
+<a href="/windows/desktop/api/mfidl/nf-mfidl-imfnetcredential-setpassword">SetPassword</a>
 </td>
 <td align="left" width="63%">
 Sets the password.
@@ -106,7 +106,7 @@ Sets the password.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfnetcredential-setuser">SetUser</a>
+<a href="/windows/desktop/api/mfidl/nf-mfidl-imfnetcredential-setuser">SetUser</a>
 </td>
 <td align="left" width="63%">
 Sets the user name.
@@ -117,9 +117,8 @@ Sets the user name.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
+<a href="/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/network-source-authentication">Network Source Authentication</a>
-
+<a href="/windows/desktop/medfound/network-source-authentication">Network Source Authentication</a>

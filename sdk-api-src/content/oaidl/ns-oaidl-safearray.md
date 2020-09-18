@@ -124,7 +124,7 @@ An array that may not be resized or reallocated.
 </dl>
 </td>
 <td width="60%">
-An array that contains records. When set, there will be a pointer to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-irecordinfo">IRecordInfo</a> interface at negative offset 4 in the array descriptor.
+An array that contains records. When set, there will be a pointer to the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-irecordinfo">IRecordInfo</a> interface at negative offset 4 in the array descriptor.
 
 
 </td>
@@ -148,7 +148,7 @@ An array that has an IID identifying interface. When set, there will be a GUID a
 </dl>
 </td>
 <td width="60%">
-An array that has a variant type. The variant type can be retrieved with <a href="https://docs.microsoft.com/previous-versions/windows/desktop/automat/vartype">SafeArrayGetVartype</a>. 
+An array that has a variant type. The variant type can be retrieved with <a href="/previous-versions/windows/desktop/automat/vartype">SafeArrayGetVartype</a>. 
 
 
 </td>
@@ -246,5 +246,4 @@ All public static members of the <b>SAFEARRAY</b> data type are thread safe. Ins
 
 
 
-For example, consider an application that uses the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-safearraylock">SafeArrayLock</a> and <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-safearrayunlock">SafeArrayUnlock</a> functions. If these functions are called concurrently from different threads on the same <b>SAFEARRAY</b> data type instance, an inconsistent lock count may be created. This will eventually cause the <b>SafeArrayUnlock</b> function to return E_UNEXPECTED. You can prevent this by providing your own synchronization code.
-
+For example, consider an application that uses the <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-safearraylock">SafeArrayLock</a> and <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-safearrayunlock">SafeArrayUnlock</a> functions. If these functions are called concurrently from different threads on the same <b>SAFEARRAY</b> data type instance, an inconsistent lock count may be created. This will eventually cause the <b>SafeArrayUnlock</b> function to return E_UNEXPECTED. You can prevent this by providing your own synchronization code.

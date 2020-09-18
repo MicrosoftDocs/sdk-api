@@ -54,9 +54,9 @@ The <b>capVideoStreamCallback</b> function is the callback function used with st
 
 
 
-To set this callback for streaming capture, send the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/wm-cap-set-callback-videostream">WM_CAP_SET_CALLBACK_VIDEOSTREAM</a> message to the capture window or call the <a href="https://docs.microsoft.com/windows/desktop/api/vfw/nf-vfw-capsetcallbackonvideostream">capSetCallbackOnVideoStream</a> macro.
+To set this callback for streaming capture, send the <a href="/windows/desktop/Multimedia/wm-cap-set-callback-videostream">WM_CAP_SET_CALLBACK_VIDEOSTREAM</a> message to the capture window or call the <a href="/windows/desktop/api/vfw/nf-vfw-capsetcallbackonvideostream">capSetCallbackOnVideoStream</a> macro.
 
-To set this callback for preview frame capture, send the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/wm-cap-set-callback-frame">WM_CAP_SET_CALLBACK_FRAME</a> message to the capture window or call the <a href="https://docs.microsoft.com/windows/desktop/api/vfw/nf-vfw-capsetcallbackonframe">capSetCallbackOnFrame</a> macro.
+To set this callback for preview frame capture, send the <a href="/windows/desktop/Multimedia/wm-cap-set-callback-frame">WM_CAP_SET_CALLBACK_FRAME</a> message to the capture window or call the <a href="/windows/desktop/api/vfw/nf-vfw-capsetcallbackonframe">capSetCallbackOnFrame</a> macro.
 
 ## -parameters
 
@@ -66,7 +66,7 @@ Handle to the capture window associated with the callback function.
 
 ### -param lpVHdr
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/vfw/ns-vfw-videohdr">VIDEOHDR</a> structure containing information about the captured frame.
+Pointer to a <a href="/windows/desktop/api/vfw/ns-vfw-videohdr">VIDEOHDR</a> structure containing information about the captured frame.
 
 ## -remarks
 
@@ -74,9 +74,8 @@ The capture window calls a video stream callback function when a video buffer is
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-capture">Video Capture</a>
+<a href="/windows/desktop/Multimedia/video-capture">Video Capture</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-capture-functions">Video Capture Functions</a>
-
+<a href="/windows/desktop/Multimedia/video-capture-functions">Video Capture Functions</a>

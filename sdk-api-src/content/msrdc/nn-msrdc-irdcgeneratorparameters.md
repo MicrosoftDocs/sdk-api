@@ -56,7 +56,7 @@ The <b>IRdcGeneratorParameters</b> interface
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IRdcGeneratorParameters</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IRdcGeneratorParameters</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IRdcGeneratorParameters</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IRdcGeneratorParameters</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,28 +71,28 @@ The <b>IRdcGeneratorParameters</b> interface has these methods.
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/nf-msrdc-irdcgeneratorparameters-getgeneratorparameterstype">GetGeneratorParametersType</a>
+<a href="/previous-versions/windows/desktop/api/msrdc/nf-msrdc-irdcgeneratorparameters-getgeneratorparameterstype">GetGeneratorParametersType</a>
 </td>
 <td align="left" width="63%">
 Returns the specific type of the parameters.</p> (Inherited from <b>IRdcGeneratorParameters</b>)</td>
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/nf-msrdc-irdcgeneratorparameters-getparametersversion">GetParametersVersion</a>
+<a href="/previous-versions/windows/desktop/api/msrdc/nf-msrdc-irdcgeneratorparameters-getparametersversion">GetParametersVersion</a>
 </td>
 <td align="left" width="63%">
 Returns information about the version of RDC used to serialize the parameters.</p> (Inherited from <b>IRdcGeneratorParameters</b>)</td>
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/nf-msrdc-irdcgeneratorparameters-getserializesize">GetSerializeSize</a>
+<a href="/previous-versions/windows/desktop/api/msrdc/nf-msrdc-irdcgeneratorparameters-getserializesize">GetSerializeSize</a>
 </td>
 <td align="left" width="63%">
 Returns the size, in bytes, of the serialized parameter data.</p> (Inherited from <b>IRdcGeneratorParameters</b>)</td>
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/nf-msrdc-irdcgeneratorparameters-serialize">Serialize</a>
+<a href="/previous-versions/windows/desktop/api/msrdc/nf-msrdc-irdcgeneratorparameters-serialize">Serialize</a>
 </td>
 <td align="left" width="63%">
 Serializes the parameter data into a block of memory.</p> (Inherited from <b>IRdcGeneratorParameters</b>)</td>
@@ -101,9 +101,8 @@ Serializes the parameter data into a block of memory.</p> (Inherited from <b>IRd
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
+<a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/rdc/remote-differential-compression-interfaces">Remote Differential Compression Interfaces</a>
-
+<a href="/previous-versions/windows/desktop/rdc/remote-differential-compression-interfaces">Remote Differential Compression Interfaces</a>

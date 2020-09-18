@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Used by <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/nf-shellapi-shgetstockiconinfo">SHGetStockIconInfo</a> to identify which stock system icon to retrieve.
+Used by <a href="/windows/desktop/api/shellapi/nf-shellapi-shgetstockiconinfo">SHGetStockIconInfo</a> to identify which stock system icon to retrieve.
 
 ## -enum-fields
 
@@ -137,7 +137,7 @@ Used by <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/nf-shel
 ### -field SIID_MYNETWORK
 
 <img alt="" src="./images/SIID_MYNETWORK.jpg"/>
- The <b>Network</b> virtual folder (<a href="https://docs.microsoft.com/windows/desktop/shell/knownfolderid">FOLDERID_NetworkFolder</a>/<a href="https://docs.microsoft.com/windows/desktop/shell/csidl">CSIDL_NETWORK</a>).
+ The <b>Network</b> virtual folder (<a href="/windows/desktop/shell/knownfolderid">FOLDERID_NetworkFolder</a>/<a href="/windows/desktop/shell/csidl">CSIDL_NETWORK</a>).
 
 ### -field SIID_FIND
 
@@ -526,4 +526,3 @@ The highest valid value in the enumeration. Values over 160 are Windows 7-only 
 ## -remarks
 
 SIID_INVALID, with a value of -1, indicates an invalid <b>SHSTOCKICONID</b> value.
-

@@ -53,7 +53,7 @@ api_name:
 
 Sets the source region to be used for the swap chain.
 
-Use <b>SetSourceSize</b> to specify the portion of the swap chain from which the operating system presents. This allows an effective resize without calling the more-expensive <a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nf-dxgi-idxgiswapchain-resizebuffers">IDXGISwapChain::ResizeBuffers</a> method. Prior to Windows 8.1, calling <b>IDXGISwapChain::ResizeBuffers</b> was the only way to resize the swap chain. The source rectangle is always defined by the region [0, 0, Width, Height].
+Use <b>SetSourceSize</b> to specify the portion of the swap chain from which the operating system presents. This allows an effective resize without calling the more-expensive <a href="/windows/desktop/api/dxgi/nf-dxgi-idxgiswapchain-resizebuffers">IDXGISwapChain::ResizeBuffers</a> method. Prior to Windows 8.1, calling <b>IDXGISwapChain::ResizeBuffers</b> was the only way to resize the swap chain. The source rectangle is always defined by the region [0, 0, Width, Height].
 
 ## -parameters
 
@@ -71,14 +71,13 @@ This method can return:
 
 <ul>
 <li>E_INVALIDARG if one or more parameters exceed the size of the back buffer.</li>
-<li>Possibly other error codes that are described in the <a href="https://docs.microsoft.com/windows/desktop/direct3ddxgi/dxgi-error">DXGI_ERROR</a> topic.</li>
+<li>Possibly other error codes that are described in the <a href="/windows/desktop/direct3ddxgi/dxgi-error">DXGI_ERROR</a> topic.</li>
 </ul>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_3/nf-dxgi1_3-idxgiswapchain2-getsourcesize">GetSourceSize</a>
+<a href="/windows/desktop/api/dxgi1_3/nf-dxgi1_3-idxgiswapchain2-getsourcesize">GetSourceSize</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_3/nn-dxgi1_3-idxgiswapchain2">IDXGISwapChain2</a>
-
+<a href="/windows/desktop/api/dxgi1_3/nn-dxgi1_3-idxgiswapchain2">IDXGISwapChain2</a>

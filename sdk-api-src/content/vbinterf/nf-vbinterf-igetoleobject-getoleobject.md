@@ -73,5 +73,4 @@ This method supports the standard return values <b>E_INVALIDARG</b>,
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vbinterf/nn-vbinterf-igetoleobject">IGetOleObject</a>
-
+<a href="/windows/desktop/api/vbinterf/nn-vbinterf-igetoleobject">IGetOleObject</a>

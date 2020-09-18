@@ -59,13 +59,12 @@ This property is read-only.
 
 ## -remarks
 
- The object retrieved by <b>IUIAutomation::ReservedMixedAttributeValue</b> can be used for comparison with the results from <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationtextrange-getattributevalue">IUIAutomationTextRange::GetAttributeValue</a> to determine if a text range contains more than one value for a particular text attribute.
+ The object retrieved by <b>IUIAutomation::ReservedMixedAttributeValue</b> can be used for comparison with the results from <a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationtextrange-getattributevalue">IUIAutomationTextRange::GetAttributeValue</a> to determine if a text range contains more than one value for a particular text attribute.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomation">IUIAutomation</a>
+<a href="/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomation">IUIAutomation</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-textattributes">UI Automation Text Attributes</a>
-
+<a href="/windows/desktop/WinAuto/uiauto-textattributes">UI Automation Text Attributes</a>

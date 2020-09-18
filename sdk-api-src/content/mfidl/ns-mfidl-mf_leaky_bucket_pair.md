@@ -70,9 +70,8 @@ This structure describes the buffering requirements for content encoded at the b
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/ns-mfidl-mfbytestream_buffering_params">MFBYTESTREAM_BUFFERING_PARAMS</a>
+<a href="/windows/desktop/api/mfidl/ns-mfidl-mfbytestream_buffering_params">MFBYTESTREAM_BUFFERING_PARAMS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-structures">Media Foundation Structures</a>
-
+<a href="/windows/desktop/medfound/media-foundation-structures">Media Foundation Structures</a>

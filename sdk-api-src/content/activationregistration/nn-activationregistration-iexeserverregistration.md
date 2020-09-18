@@ -54,7 +54,7 @@ Represents a registered an out-of-process server.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IExeServerRegistration</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/inspectable/nn-inspectable-iinspectable">IInspectable</a>. <b>IExeServerRegistration</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IExeServerRegistration</b> interface inherits from <a href="/windows/desktop/api/inspectable/nn-inspectable-iinspectable">IInspectable</a>. <b>IExeServerRegistration</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IExeServerRegistration</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/activationregistration/nf-activationregistration-iexeserverregistration-get_appusermodelid">get_AppUserModelId</a>
+<a href="/windows/desktop/api/activationregistration/nf-activationregistration-iexeserverregistration-get_appusermodelid">get_AppUserModelId</a>
 </td>
 <td align="left" width="63%">
 Gets the identifier for the app's user model.
@@ -78,7 +78,7 @@ Gets the identifier for the app's user model.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/activationregistration/nf-activationregistration-iexeserverregistration-get_commandline">get_CommandLine</a>
+<a href="/windows/desktop/api/activationregistration/nf-activationregistration-iexeserverregistration-get_commandline">get_CommandLine</a>
 </td>
 <td align="left" width="63%">
 Gets the command line used to launch the out-of-process server.
@@ -87,7 +87,7 @@ Gets the command line used to launch the out-of-process server.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/activationregistration/nf-activationregistration-iexeserverregistration-get_exepath">get_ExePath</a>
+<a href="/windows/desktop/api/activationregistration/nf-activationregistration-iexeserverregistration-get_exepath">get_ExePath</a>
 </td>
 <td align="left" width="63%">
 Gets the file path to the out-of-process server.
@@ -96,7 +96,7 @@ Gets the file path to the out-of-process server.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/activationregistration/nf-activationregistration-iexeserverregistration-get_identity">get_Identity</a>
+<a href="/windows/desktop/api/activationregistration/nf-activationregistration-iexeserverregistration-get_identity">get_Identity</a>
 </td>
 <td align="left" width="63%">
 Gets the identity of the out-of-process server.
@@ -105,7 +105,7 @@ Gets the identity of the out-of-process server.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/activationregistration/nf-activationregistration-iexeserverregistration-get_identitytype">get_IdentityType</a>
+<a href="/windows/desktop/api/activationregistration/nf-activationregistration-iexeserverregistration-get_identitytype">get_IdentityType</a>
 </td>
 <td align="left" width="63%">
 Gets the activation type for the out-of-process server.
@@ -114,7 +114,7 @@ Gets the activation type for the out-of-process server.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/activationregistration/nf-activationregistration-iexeserverregistration-get_instancing">get_Instancing</a>
+<a href="/windows/desktop/api/activationregistration/nf-activationregistration-iexeserverregistration-get_instancing">get_Instancing</a>
 </td>
 <td align="left" width="63%">
 Gets the instancing behavior for the out-of-process server.
@@ -123,7 +123,7 @@ Gets the instancing behavior for the out-of-process server.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/activationregistration/nf-activationregistration-iexeserverregistration-get_permissions">get_Permissions</a>
+<a href="/windows/desktop/api/activationregistration/nf-activationregistration-iexeserverregistration-get_permissions">get_Permissions</a>
 </td>
 <td align="left" width="63%">
 Gets the permissions for the out-of-process server.
@@ -132,7 +132,7 @@ Gets the permissions for the out-of-process server.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/activationregistration/nf-activationregistration-iexeserverregistration-get_servername">get_ServerName</a>
+<a href="/windows/desktop/api/activationregistration/nf-activationregistration-iexeserverregistration-get_servername">get_ServerName</a>
 </td>
 <td align="left" width="63%">
 Gets the name of the current out-of-process server.
@@ -143,9 +143,8 @@ Gets the name of the current out-of-process server.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/activationregistration/nn-activationregistration-iexeserveractivatableclassregistration">IExeServerActivatableClassRegistration</a>
+<a href="/windows/desktop/api/activationregistration/nn-activationregistration-iexeserveractivatableclassregistration">IExeServerActivatableClassRegistration</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/inspectable/nn-inspectable-iinspectable">IInspectable</a>
-
+<a href="/windows/desktop/api/inspectable/nn-inspectable-iinspectable">IInspectable</a>

@@ -82,9 +82,8 @@ To reduce type conversions at run time, all parameters have 32-bit float values,
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/dmo-enumerated-types">DMO Enumerated Types</a>
+<a href="/windows/desktop/DirectShow/dmo-enumerated-types">DMO Enumerated Types</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/medparam/ns-medparam-mp_paraminfo">MP_PARAMINFO</a>
-
+<a href="/previous-versions/windows/desktop/api/medparam/ns-medparam-mp_paraminfo">MP_PARAMINFO</a>

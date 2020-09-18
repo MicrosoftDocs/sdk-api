@@ -64,7 +64,7 @@ Decimate output by 2 in the x and y directions.
 
 ### -field MixerPref_ARAdjustXorY
 
-Adjust the horizontal or vertical size of the video streams to match the target aspect ratio. If this flag is not present, the VMR adjusts the horizontal size only. For more information, see <a href="https://docs.microsoft.com/windows/desktop/DirectShow/aspect-ratio-correction">Aspect Ratio Correction</a>.
+Adjust the horizontal or vertical size of the video streams to match the target aspect ratio. If this flag is not present, the VMR adjusts the horizontal size only. For more information, see <a href="/windows/desktop/DirectShow/aspect-ratio-correction">Aspect Ratio Correction</a>.
 
 ### -field MixerPref_DecimationReserved
 
@@ -92,7 +92,7 @@ The render target is an RGB surface.
 
 ### -field MixerPref_RenderTargetYUV
 
-The render target is a YUV surface. Requires Windows XP Service Pack 2. For more information, see <a href="https://docs.microsoft.com/windows/desktop/DirectShow/yuv-mixing-mode">YUV Mixing Mode</a>.
+The render target is a YUV surface. Requires Windows XP Service Pack 2. For more information, see <a href="/windows/desktop/DirectShow/yuv-mixing-mode">YUV Mixing Mode</a>.
 
 ### -field MixerPref_RenderTargetYUV420
 
@@ -135,13 +135,12 @@ Bitmask to isolate the MixerPref_DynamicSwitchToBOB and MixerPref_DynamicDecimat
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/directshow-enumerated-types">DirectShow Enumerated Types</a>
+<a href="/windows/desktop/DirectShow/directshow-enumerated-types">DirectShow Enumerated Types</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ivmrmixercontrol-getmixingprefs">IVMRMixerControl::GetMixingPrefs</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-ivmrmixercontrol-getmixingprefs">IVMRMixerControl::GetMixingPrefs</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ivmrmixercontrol-setoutputrect">IVMRMixerControl::SetMixingPrefs</a>
-
+<a href="/windows/desktop/api/strmif/nf-strmif-ivmrmixercontrol-setoutputrect">IVMRMixerControl::SetMixingPrefs</a>

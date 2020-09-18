@@ -56,15 +56,15 @@ Gets the default accessibility action for a Shell item.
 
 ### -param psi [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a>*</b>
+Type: <b><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a>*</b>
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a>.
+Pointer to the <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a>.
 
 ### -param pbstrDefaultAction [out]
 
-Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/automat/bstr">BSTR</a>*</b>
+Type: <b><a href="/previous-versions/windows/desktop/automat/bstr">BSTR</a>*</b>
 
-When this method returns, contains a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/automat/bstr">BSTR</a> that specifies the default, accessibility action.
+When this method returns, contains a <a href="/previous-versions/windows/desktop/automat/bstr">BSTR</a> that specifies the default, accessibility action.
 
 ## -returns
 
@@ -75,4 +75,3 @@ Returns S_OK if successful, or E_OUTOFMEMORY otherwise.
 ## -remarks
 
 This method is called when the default accessibililty action for a Shell item is retrieved.
-

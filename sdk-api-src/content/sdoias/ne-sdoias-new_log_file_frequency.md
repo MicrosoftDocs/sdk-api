@@ -79,5 +79,4 @@ Creates a new log file when the log file reaches a particular size.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-accountingproperties">ACCOUNTINGPROPERTIES</a>
-
+<a href="/windows/desktop/api/sdoias/ne-sdoias-accountingproperties">ACCOUNTINGPROPERTIES</a>

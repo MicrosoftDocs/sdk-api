@@ -53,11 +53,11 @@ api_name:
 ## -description
 
 Serves as a standard header for information related to a device event reported through the 
-<a href="https://docs.microsoft.com/windows/desktop/DevIO/wm-devicechange">WM_DEVICECHANGE</a> message.
+<a href="/windows/desktop/DevIO/wm-devicechange">WM_DEVICECHANGE</a> message.
 
 The members of the 
 <b>DEV_BROADCAST_HDR</b> structure are contained in each device management structure. To determine which structure you have received through 
-<a href="https://docs.microsoft.com/windows/desktop/DevIO/wm-devicechange">WM_DEVICECHANGE</a>, treat the structure as a 
+<a href="/windows/desktop/DevIO/wm-devicechange">WM_DEVICECHANGE</a>, treat the structure as a 
 <b>DEV_BROADCAST_HDR</b> structure and check its <b>dbch_devicetype</b> member.
 
 ## -struct-fields
@@ -89,7 +89,7 @@ The device type, which determines the event-specific information that follows th
 </td>
 <td width="60%">
 Class of devices. This structure is a 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbt/ns-dbt-dev_broadcast_deviceinterface_a">DEV_BROADCAST_DEVICEINTERFACE</a> structure.
+<a href="/windows/desktop/api/dbt/ns-dbt-dev_broadcast_deviceinterface_a">DEV_BROADCAST_DEVICEINTERFACE</a> structure.
 
 </td>
 </tr>
@@ -101,7 +101,7 @@ Class of devices. This structure is a
 </td>
 <td width="60%">
 File system handle. This structure is a 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbt/ns-dbt-dev_broadcast_handle">DEV_BROADCAST_HANDLE</a> structure.
+<a href="/windows/desktop/api/dbt/ns-dbt-dev_broadcast_handle">DEV_BROADCAST_HANDLE</a> structure.
 
 </td>
 </tr>
@@ -113,7 +113,7 @@ File system handle. This structure is a
 </td>
 <td width="60%">
 OEM- or IHV-defined device type. This structure is a 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbt/ns-dbt-dev_broadcast_oem">DEV_BROADCAST_OEM</a> structure.
+<a href="/windows/desktop/api/dbt/ns-dbt-dev_broadcast_oem">DEV_BROADCAST_OEM</a> structure.
 
 </td>
 </tr>
@@ -125,7 +125,7 @@ OEM- or IHV-defined device type. This structure is a
 </td>
 <td width="60%">
 Port device (serial or parallel). This structure is a 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbt/ns-dbt-dev_broadcast_port_a">DEV_BROADCAST_PORT</a> structure.
+<a href="/windows/desktop/api/dbt/ns-dbt-dev_broadcast_port_a">DEV_BROADCAST_PORT</a> structure.
 
 </td>
 </tr>
@@ -137,7 +137,7 @@ Port device (serial or parallel). This structure is a
 </td>
 <td width="60%">
 Logical volume. This structure is a 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbt/ns-dbt-dev_broadcast_volume">DEV_BROADCAST_VOLUME</a> structure.
+<a href="/windows/desktop/api/dbt/ns-dbt-dev_broadcast_volume">DEV_BROADCAST_VOLUME</a> structure.
 
 </td>
 </tr>
@@ -149,25 +149,24 @@ Reserved; do not use.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbt/ns-dbt-dev_broadcast_deviceinterface_a">DEV_BROADCAST_DEVICEINTERFACE</a>
+<a href="/windows/desktop/api/dbt/ns-dbt-dev_broadcast_deviceinterface_a">DEV_BROADCAST_DEVICEINTERFACE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbt/ns-dbt-dev_broadcast_handle">DEV_BROADCAST_HANDLE</a>
+<a href="/windows/desktop/api/dbt/ns-dbt-dev_broadcast_handle">DEV_BROADCAST_HANDLE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbt/ns-dbt-dev_broadcast_oem">DEV_BROADCAST_OEM</a>
+<a href="/windows/desktop/api/dbt/ns-dbt-dev_broadcast_oem">DEV_BROADCAST_OEM</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbt/ns-dbt-dev_broadcast_port_a">DEV_BROADCAST_PORT</a>
+<a href="/windows/desktop/api/dbt/ns-dbt-dev_broadcast_port_a">DEV_BROADCAST_PORT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbt/ns-dbt-dev_broadcast_volume">DEV_BROADCAST_VOLUME</a>
+<a href="/windows/desktop/api/dbt/ns-dbt-dev_broadcast_volume">DEV_BROADCAST_VOLUME</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DevIO/wm-devicechange">WM_DEVICECHANGE</a>
-
+<a href="/windows/desktop/DevIO/wm-devicechange">WM_DEVICECHANGE</a>

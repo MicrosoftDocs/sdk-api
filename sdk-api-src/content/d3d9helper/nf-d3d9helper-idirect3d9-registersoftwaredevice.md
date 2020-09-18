@@ -75,11 +75,10 @@ If the user's computer provides no special hardware acceleration for 3D operatio
 
 Software devices communicate with Direct3D through an interface similar to the hardware device driver interface (DDI).
 
-Software devices are loaded by the application and registered with the <a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3d9">IDirect3D9</a> object. Direct3D uses the software device for rendering. 
+Software devices are loaded by the application and registered with the <a href="/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3d9">IDirect3D9</a> object. Direct3D uses the software device for rendering. 
 
 The Direct3D Driver Development Kit (DDK) provides the documentation and headers for developing pluggable software devices.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3d9">IDirect3D9</a>
-
+<a href="/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3d9">IDirect3D9</a>

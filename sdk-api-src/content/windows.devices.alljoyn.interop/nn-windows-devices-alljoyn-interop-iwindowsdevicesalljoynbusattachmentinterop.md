@@ -54,7 +54,7 @@ This interface allows for retrieval of the underlying <b>alljoyn_busattachment</
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWindowsDevicesAllJoynBusAttachmentInterop</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/inspectable/nn-inspectable-iinspectable">IInspectable </a>. <b>IWindowsDevicesAllJoynBusAttachmentInterop</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWindowsDevicesAllJoynBusAttachmentInterop</b> interface inherits from <a href="/windows/desktop/api/inspectable/nn-inspectable-iinspectable">IInspectable </a>. <b>IWindowsDevicesAllJoynBusAttachmentInterop</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IWindowsDevicesAllJoynBusAttachmentInterop</b> interface has these method
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/windows.devices.alljoyn.interop/nf-windows-devices-alljoyn-interop-iwindowsdevicesalljoynbusattachmentinterop-get_win32handle">get_Win32Handle</a>
+<a href="/previous-versions/windows/desktop/api/windows.devices.alljoyn.interop/nf-windows-devices-alljoyn-interop-iwindowsdevicesalljoynbusattachmentinterop-get_win32handle">get_Win32Handle</a>
 </td>
 <td align="left" width="63%">
 Classic COM interface that simply returns a pointer to the underlying <b>alljoyn_busattachment</b> instance, so the app can use it directly with the AllJoyn Core C API.
@@ -80,5 +80,4 @@ Classic COM interface that simply returns a pointer to the underlying <b>alljoyn
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/inspectable/nn-inspectable-iinspectable">IInspectable </a>
-
+<a href="/windows/desktop/api/inspectable/nn-inspectable-iinspectable">IInspectable </a>

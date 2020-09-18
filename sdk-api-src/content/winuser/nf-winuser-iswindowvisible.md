@@ -93,9 +93,8 @@ Any drawing to a window with the <b>WS_VISIBLE</b> style will not be displayed i
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-showwindow">ShowWindow</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-showwindow">ShowWindow</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/winmsg/windows">Windows</a>
-
+<a href="/windows/desktop/winmsg/windows">Windows</a>

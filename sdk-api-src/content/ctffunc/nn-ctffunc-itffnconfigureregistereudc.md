@@ -54,7 +54,7 @@ The <b>ITfFnConfigureRegisterEudc</b> interface is implemented by a text service
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfFnConfigureRegisterEudc</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfFnConfigureRegisterEudc</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfFnConfigureRegisterEudc</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfFnConfigureRegisterEudc</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ITfFnConfigureRegisterEudc</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/ctffunc/nf-ctffunc-itffnconfigureregistereudc-show">Show</a>
+<a href="/windows/desktop/api/ctffunc/nf-ctffunc-itffnconfigureregistereudc-show">Show</a>
 </td>
 <td align="left" width="63%">
 Show the EUDC key sequence register UI.
@@ -77,4 +77,3 @@ Show the EUDC key sequence register UI.
 </td>
 </tr>
 </table>
-

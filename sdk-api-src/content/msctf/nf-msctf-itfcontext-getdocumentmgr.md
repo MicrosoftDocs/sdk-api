@@ -56,7 +56,7 @@ Obtains the document manager that contains the context.
 
 ### -param ppDm [out]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfdocumentmgr">ITfDocumentMgr</a> interface pointer that receives the document manager.
+Pointer to an <a href="/windows/desktop/api/msctf/nn-msctf-itfdocumentmgr">ITfDocumentMgr</a> interface pointer that receives the document manager.
 
 ## -returns
 
@@ -104,9 +104,8 @@ The context is not contained in any document manager. <i>ppDm</i> is set to <b>N
 
 ## -remarks
 
-If the context is not contained within a document manager, this method returns S_FALSE and <i>ppDm</i> is set to <b>NULL</b>. This occurs when the context is removed from the context stack through a call to <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfdocumentmgr-pop">ITfDocumentMgr::Pop</a>.
+If the context is not contained within a document manager, this method returns S_FALSE and <i>ppDm</i> is set to <b>NULL</b>. This occurs when the context is removed from the context stack through a call to <a href="/windows/desktop/api/msctf/nf-msctf-itfdocumentmgr-pop">ITfDocumentMgr::Pop</a>.
 
 ## -see-also
 
 [ITfContext interface](nn-msctf-itfcontext.md), [ITfDocumentMgr interface](nn-msctf-itfdocumentmgr.md), [ITfDocumentMgr::Pop](nf-msctf-itfdocumentmgr-pop.md)
-

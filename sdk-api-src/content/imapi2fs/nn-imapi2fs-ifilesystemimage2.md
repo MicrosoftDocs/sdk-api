@@ -55,7 +55,7 @@ api_name:
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFileSystemImage2</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nn-imapi2fs-ifilesystemimage">IFileSystemImage</a>. <b>IFileSystemImage2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFileSystemImage2</b> interface inherits from <a href="/windows/desktop/api/imapi2fs/nn-imapi2fs-ifilesystemimage">IFileSystemImage</a>. <b>IFileSystemImage2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>IFileSystemImage2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage2-get_bootimageoptionsarray">get_BootImageOptionsArray</a>
+<a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage2-get_bootimageoptionsarray">get_BootImageOptionsArray</a>
 </td>
 <td align="left" width="63%">
 Retrieves the boot option array that will be utilized to generate the file system image.
@@ -79,7 +79,7 @@ Retrieves the boot option array that will be utilized to generate the file syste
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage2-put_bootimageoptionsarray">put_BootImageOptionsArray</a>
+<a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage2-put_bootimageoptionsarray">put_BootImageOptionsArray</a>
 </td>
 <td align="left" width="63%">
 Sets the boot option array that will be utilized to generate the file system image.
@@ -96,5 +96,4 @@ Section Entry Extension is not supported by IMAPIv2FS at this time.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nn-imapi2fs-ifilesystemimage">IFileSystemImage</a>
-
+<a href="/windows/desktop/api/imapi2fs/nn-imapi2fs-ifilesystemimage">IFileSystemImage</a>

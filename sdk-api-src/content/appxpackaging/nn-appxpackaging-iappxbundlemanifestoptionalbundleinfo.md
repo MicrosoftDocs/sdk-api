@@ -54,7 +54,7 @@ Provides a read-only object model for an &lt;OptionalBundle&gt; element in a bun
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAppxBundleManifestOptionalBundleInfo</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAppxBundleManifestOptionalBundleInfo</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAppxBundleManifestOptionalBundleInfo</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAppxBundleManifestOptionalBundleInfo</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IAppxBundleManifestOptionalBundleInfo</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxbundlemanifestoptionalbundleinfo-getfilename">GetFileName</a>
+<a href="/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxbundlemanifestoptionalbundleinfo-getfilename">GetFileName</a>
 </td>
 <td align="left" width="63%">
 Retrieves the file-name attribute of the &lt;OptionalBundle&gt;.
@@ -78,7 +78,7 @@ Retrieves the file-name attribute of the &lt;OptionalBundle&gt;.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxbundlemanifestoptionalbundleinfo-getpackageid">GetPackageId</a>
+<a href="/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxbundlemanifestoptionalbundleinfo-getpackageid">GetPackageId</a>
 </td>
 <td align="left" width="63%">
 Retrieves an object that represents the identity of the &lt;OptionalBundle&gt;.
@@ -87,7 +87,7 @@ Retrieves an object that represents the identity of the &lt;OptionalBundle&gt;.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxbundlemanifestoptionalbundleinfo-getpackageinfoitems">GetPackageInfoItems</a>
+<a href="/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxbundlemanifestoptionalbundleinfo-getpackageinfoitems">GetPackageInfoItems</a>
 </td>
 <td align="left" width="63%">
 Retrieves optional packages in the bundle.
@@ -95,4 +95,3 @@ Retrieves optional packages in the bundle.
 </td>
 </tr>
 </table>
-

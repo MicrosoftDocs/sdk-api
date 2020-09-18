@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Indentifiers for properties of the <a href="https://docs.microsoft.com/windows/desktop/Direct2D/rgb-to-hue-effect">RGB to Hue effect</a>.
+Indentifiers for properties of the <a href="/windows/desktop/Direct2D/rgb-to-hue-effect">RGB to Hue effect</a>.
 
 ## -enum-fields
 
@@ -58,19 +58,18 @@ Indentifiers for properties of the <a href="https://docs.microsoft.com/windows/d
 
 The D2D1_RGBTOHUE_PROP_OUTPUT_COLOR_SPACE property is an enumeration value which indicates the color space to convert to. 
           The default value for the property is D2D1_RGBTOHUE_OUTPUT_COLOR_SPACE_HUE_SATURATION_VALUE.
-          See the <a href="https://docs.microsoft.com/windows/desktop/api/d2d1effects_2/ne-d2d1effects_2-d2d1_rgbtohue_output_color_space">D2D1_RGBTOHUE_OUTPUT_COLOR_SPACE</a> enumeration for more information.
+          See the <a href="/windows/desktop/api/d2d1effects_2/ne-d2d1effects_2-d2d1_rgbtohue_output_color_space">D2D1_RGBTOHUE_OUTPUT_COLOR_SPACE</a> enumeration for more information.
 
 ### -field D2D1_RGBTOHUE_PROP_FORCE_DWORD
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Direct2D/built-in-effects">Built-in Effects</a>
+<a href="/windows/desktop/Direct2D/built-in-effects">Built-in Effects</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1devicecontext-createeffect">CreateEffect</a>
+<a href="/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1devicecontext-createeffect">CreateEffect</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Direct2D/rgb-to-hue-effect">RGB to Hue effect</a>
-
+<a href="/windows/desktop/Direct2D/rgb-to-hue-effect">RGB to Hue effect</a>

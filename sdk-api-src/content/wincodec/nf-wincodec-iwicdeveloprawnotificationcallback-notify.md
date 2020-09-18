@@ -59,11 +59,10 @@ An application-defined callback method used for raw image parameter change notif
 
 Type: <b>UINT</b>
 
-A set of <a href="https://docs.microsoft.com/windows/desktop/wic/-wic-codec-iwicdeveloprawnotification-constants">IWICDevelopRawNotificationCallback Constants</a> parameter notification flags.
+A set of <a href="/windows/desktop/wic/-wic-codec-iwicdeveloprawnotification-constants">IWICDevelopRawNotificationCallback Constants</a> parameter notification flags.
 
 ## -returns
 
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-

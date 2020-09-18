@@ -60,7 +60,7 @@ To unbind all input resources, supply a <i>rangeCount</i> of 0, and a value of <
 
 The writeable areas of two output tensors must not overlap with one another. The 'writeable area' of an output buffer being bound is defined as being the start offset of the buffer range, up to the <i>TotalTensorSizeInBytes</i> as specified in the tensors description.
 
-All buffers being bound as output must have heap type <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_heap_type">D3D12_HEAP_TYPE_DEFAULT</a>.
+All buffers being bound as output must have heap type <a href="/windows/desktop/api/d3d12/ne-d3d12-d3d12_heap_type">D3D12_HEAP_TYPE_DEFAULT</a>.
 
 ## -parameters
 
@@ -81,4 +81,3 @@ An optional pointer to a constant array of [DML_BINDING_DESC](/windows/desktop/a
 <a href="/windows/desktop/direct3d12/dml-binding">Binding in DirectML</a>
 
 [IDMLBindingTable](/windows/desktop/api/directml/nn-directml-idmlbindingtable)
-

@@ -52,8 +52,8 @@ api_name:
 
 The 
 <b>lineGetAgentSessionInfo</b> function returns a structure that holds the ACD information associated with a particular agent session handle. It generates a 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/line-proxyrequest">LINE_PROXYREQUEST</a> message to be sent to a registered proxy function handler, referencing a 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineproxyrequest">LINEPROXYREQUEST</a> structure of type LINEPROXYREQUEST_GETAGENTSESSIONINFO.
+<a href="/windows/desktop/Tapi/line-proxyrequest">LINE_PROXYREQUEST</a> message to be sent to a registered proxy function handler, referencing a 
+<a href="/windows/desktop/api/tapi/ns-tapi-lineproxyrequest">LINEPROXYREQUEST</a> structure of type LINEPROXYREQUEST_GETAGENTSESSIONINFO.
 
 ## -parameters
 
@@ -68,14 +68,14 @@ Identifier of the agent session whose information is to be retrieved.
 ### -param lpAgentSessionInfo
 
 Pointer to a structure of type 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineagentsessioninfo">LINEAGENTSESSIONINFO</a>. Upon successful completion of the request, this structure is filled with the agent session statistics. Prior to calling the 
+<a href="/windows/desktop/api/tapi/ns-tapi-lineagentsessioninfo">LINEAGENTSESSIONINFO</a>. Upon successful completion of the request, this structure is filled with the agent session statistics. Prior to calling the 
 <b>lineGetAgentSessionInfo</b> function, the application must set the <b>dwTotalSize</b> member of this structure to indicate the amount of memory available to TAPI for returning information. 
 
 
 
 
 <div class="alert"><b>Note</b>  If the size parameters in the structure are not correct, there is a possibility that memory could get overwritten. For more information on setting structure sizes, see the 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/memory-allocation">memory allocation</a> topic.</div>
+<a href="/windows/desktop/Tapi/memory-allocation">memory allocation</a> topic.</div>
 <div> </div>
 
 ## -returns
@@ -86,17 +86,16 @@ LINEERR_INVALLINEHANDLE, LINEERR_INVALPARAM, LINEERR_NOMEM, LINEERR_OPERATIONFAI
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/about-call-center-controls">About Call Center Controls</a>
+<a href="/windows/desktop/Tapi/about-call-center-controls">About Call Center Controls</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineagentsessioninfo">LINEAGENTSESSIONINFO</a>
+<a href="/windows/desktop/api/tapi/ns-tapi-lineagentsessioninfo">LINEAGENTSESSIONINFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineproxyrequest">LINEPROXYREQUEST</a>
+<a href="/windows/desktop/api/tapi/ns-tapi-lineproxyrequest">LINEPROXYREQUEST</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/line-proxyrequest">LINE_PROXYREQUEST</a>
-
+<a href="/windows/desktop/Tapi/line-proxyrequest">LINE_PROXYREQUEST</a>

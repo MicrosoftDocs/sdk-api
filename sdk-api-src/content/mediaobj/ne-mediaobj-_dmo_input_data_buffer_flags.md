@@ -72,9 +72,8 @@ The buffer's indicated time length is valid.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/dmo-enumerated-types">DMO Enumerated Types</a>
+<a href="/windows/desktop/DirectShow/dmo-enumerated-types">DMO Enumerated Types</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mediaobj/nf-mediaobj-imediaobject-processinput">IMediaObject::ProcessInput</a>
-
+<a href="/windows/desktop/api/mediaobj/nf-mediaobj-imediaobject-processinput">IMediaObject::ProcessInput</a>

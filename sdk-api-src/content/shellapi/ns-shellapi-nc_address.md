@@ -60,9 +60,9 @@ Contains information that describes a network address.
 
 ### -field pAddrInfo
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/shell/hkey-type">NET_ADDRESS_INFO</a>*</b>
+Type: <b><a href="/windows/desktop/shell/hkey-type">NET_ADDRESS_INFO</a>*</b>
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/shell/hkey-type">NET_ADDRESS_INFO</a>  structure that describes the network address, either a named address or an IP address.
+A pointer to a <a href="/windows/desktop/shell/hkey-type">NET_ADDRESS_INFO</a>  structure that describes the network address, either a named address or an IP address.
 
 ### -field PortNumber
 
@@ -78,5 +78,4 @@ The prefix length corresponding to the address, if the address described by <b>p
 
 ## -remarks
 
-This structure is sent with the <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/nf-shellapi-netaddr_getaddress">NetAddr_GetAddress</a> macro.
-
+This structure is sent with the <a href="/windows/desktop/api/shellapi/nf-shellapi-netaddr_getaddress">NetAddr_GetAddress</a> macro.

@@ -53,7 +53,7 @@ The <b>DdGetFlipStatus</b> callback function determines whether the most recentl
 
 ### -param Arg1
 
-Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_getflipstatusdata">DD_GETFLIPSTATUSDATA</a> structure that contains the information required to perform the flip status query.
+Points to a <a href="/windows/desktop/api/ddrawint/ns-ddrawint-dd_getflipstatusdata">DD_GETFLIPSTATUSDATA</a> structure that contains the information required to perform the flip status query.
 
 ## -returns
 
@@ -76,5 +76,4 @@ If the flag is DDGFS_ISFLIPDONE, the driver should set <b>ddRVal</b> to DDERR_WA
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_getflipstatusdata">DD_GETFLIPSTATUSDATA</a>
-
+<a href="/windows/desktop/api/ddrawint/ns-ddrawint-dd_getflipstatusdata">DD_GETFLIPSTATUSDATA</a>

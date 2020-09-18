@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Gets the metadata associated with the <a href="https://docs.microsoft.com/dotnet/api/system.security.permissionset?redirectedfrom=MSDN">System.Security.PermissionSet</a> represented by the specified Permission token.
+Gets the metadata associated with the <a href="/dotnet/api/system.security.permissionset">System.Security.PermissionSet</a> represented by the specified Permission token.
 
 ## -parameters
 
@@ -76,5 +76,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rometadataapi/nn-rometadataapi-imetadataimport">IMetaDataImport</a>
-
+<a href="/windows/desktop/api/rometadataapi/nn-rometadataapi-imetadataimport">IMetaDataImport</a>

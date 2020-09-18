@@ -52,9 +52,9 @@ api_name:
 
 ## -description
 
-The <b>ChangeAccountPassword</b> function changes the password for a Windows domain account by using the specified <a href="https://docs.microsoft.com/windows/desktop/SecAuthN/sspi">Security Support Provider</a>.
+The <b>ChangeAccountPassword</b> function changes the password for a Windows domain account by using the specified <a href="/windows/desktop/SecAuthN/sspi">Security Support Provider</a>.
 
-This function is supported only by the <a href="https://docs.microsoft.com/windows/desktop/SecAuthN/microsoft-kerberos">Microsoft Kerberos</a>, <a href="https://docs.microsoft.com/windows/desktop/SecAuthN/microsoft-negotiate">Microsoft Negotiate</a>, and <a href="https://docs.microsoft.com/windows/desktop/SecAuthN/microsoft-ntlm">Microsoft NTLM</a> providers.
+This function is supported only by the <a href="/windows/desktop/SecAuthN/microsoft-kerberos">Microsoft Kerberos</a>, <a href="/windows/desktop/SecAuthN/microsoft-negotiate">Microsoft Negotiate</a>, and <a href="/windows/desktop/SecAuthN/microsoft-ntlm">Microsoft NTLM</a> providers.
 
 ## -parameters
 
@@ -88,7 +88,7 @@ Reserved. Must be set to zero.
 
 ### -param pOutput [in, out]
 
-On input, a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-secbufferdesc">SecBufferDesc</a> structure. The <b>SecBufferDesc</b> structure must contain a single buffer of type <b>SECBUFFER_CHANGE_PASS_RESPONSE</b>. On output, the <b>pvBuffer</b> member of that structure points to a <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-domain_password_information">DOMAIN_PASSWORD_INFORMATION</a> structure.
+On input, a pointer to a <a href="/windows/desktop/api/sspi/ns-sspi-secbufferdesc">SecBufferDesc</a> structure. The <b>SecBufferDesc</b> structure must contain a single buffer of type <b>SECBUFFER_CHANGE_PASS_RESPONSE</b>. On output, the <b>pvBuffer</b> member of that structure points to a <a href="/windows/desktop/api/ntsecapi/ns-ntsecapi-domain_password_information">DOMAIN_PASSWORD_INFORMATION</a> structure.
 
 ## -returns
 
@@ -100,4 +100,3 @@ If the function fails, it returns an error code.
 
 > [!NOTE]
 > The sspi.h header defines ChangeAccountPassword as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

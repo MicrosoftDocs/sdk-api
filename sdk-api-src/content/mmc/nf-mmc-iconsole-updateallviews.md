@@ -51,8 +51,8 @@ api_name:
 ## -description
 
 Called by a snap-in when there is a content change in the result pane. This method can be called either by 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-icomponent">IComponent</a> or 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-icomponentdata">IComponentData</a>.
+<a href="/windows/desktop/api/mmc/nn-mmc-icomponent">IComponent</a> or 
+<a href="/windows/desktop/api/mmc/nn-mmc-icomponentdata">IComponentData</a>.
 
 ## -parameters
 
@@ -74,19 +74,18 @@ This method can return one of these values.
 
 ## -remarks
 
-This method sends an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/mmcn-view-change">MMCN_VIEW_CHANGE</a> notification to all instances of 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-icomponent">IComponent</a> associated with the snap-in instance calling this method. The <i>lpDataObject</i>, <i>data</i>, and <i>hint</i> parameters are passed as the <i>lpDataObject</i> arg, and param for the 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-icomponent-notify">IComponent::Notify</a> method.
+This method sends an <a href="/previous-versions/windows/desktop/mmc/mmcn-view-change">MMCN_VIEW_CHANGE</a> notification to all instances of 
+<a href="/windows/desktop/api/mmc/nn-mmc-icomponent">IComponent</a> associated with the snap-in instance calling this method. The <i>lpDataObject</i>, <i>data</i>, and <i>hint</i> parameters are passed as the <i>lpDataObject</i> arg, and param for the 
+<a href="/windows/desktop/api/mmc/nf-mmc-icomponent-notify">IComponent::Notify</a> method.
 
 This method should be called from the 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-iconsole">IConsole</a> interface pointer obtained through the snap-in 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-icomponentdata">IComponentData</a> implementation.
+<a href="/windows/desktop/api/mmc/nn-mmc-iconsole">IConsole</a> interface pointer obtained through the snap-in 
+<a href="/windows/desktop/api/mmc/nn-mmc-icomponentdata">IComponentData</a> implementation.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-iconsole">IConsole</a>
+<a href="/windows/desktop/api/mmc/nn-mmc-iconsole">IConsole</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-itoolbar">IToolbar</a>
-
+<a href="/windows/desktop/api/mmc/nn-mmc-itoolbar">IToolbar</a>

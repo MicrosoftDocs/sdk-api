@@ -58,7 +58,7 @@ The <b>CM_Get_Device_Interface_Alias</b> function returns the alias of the speci
 
 ### -param pszDeviceInterface [in]
 
-Pointer to the name of the device interface instance for which to retrieve an alias. The caller typically received this string from a call to <a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_get_device_interface_lista">CM_Get_Device_Interface_List</a>, or in a PnP notification structure.
+Pointer to the name of the device interface instance for which to retrieve an alias. The caller typically received this string from a call to <a href="/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_get_device_interface_lista">CM_Get_Device_Interface_List</a>, or in a PnP notification structure.
 
 ### -param AliasInterfaceGuid [in]
 
@@ -133,4 +133,3 @@ The <i>pszDeviceInterface</i> parameter specifies a device interface instance fo
 For example, the function driver for a fault-tolerant volume could register and set two device interfaces, one of the fault-tolerant-volume interface class and one of the volume interface class. Another driver could call <b>CM_Get_Device_Interface_Alias</b> with the symbolic link for one of the interfaces and ask whether the other interface exists by specifying its interface class.
 
 Two device interfaces with <b>NULL</b> reference strings are aliases if they are exposed by the same underlying device and have different interface class GUIDs.
-

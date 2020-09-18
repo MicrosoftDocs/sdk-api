@@ -57,11 +57,11 @@ Returns a topology for a media source that builds an internal topology.
 
 ### -param pPresentationDescriptor [in]
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfpresentationdescriptor">IMFPresentationDescriptor</a> interface of the media source's presentation descriptor. To get this pointer, either call <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfmediasource-createpresentationdescriptor">IMFMediaSource::CreatePresentationDescriptor</a> on the media source, or get the pointer from the <a href="https://docs.microsoft.com/windows/desktop/medfound/menewpresentation">MENewPresentation</a> event.
+A pointer to the <a href="/windows/desktop/api/mfidl/nn-mfidl-imfpresentationdescriptor">IMFPresentationDescriptor</a> interface of the media source's presentation descriptor. To get this pointer, either call <a href="/windows/desktop/api/mfidl/nf-mfidl-imfmediasource-createpresentationdescriptor">IMFMediaSource::CreatePresentationDescriptor</a> on the media source, or get the pointer from the <a href="/windows/desktop/medfound/menewpresentation">MENewPresentation</a> event.
 
 ### -param ppTopology [out]
 
-Receives a pointer to the topology's <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imftopology">IMFTopology</a> interface. The caller must release the interface.
+Receives a pointer to the topology's <a href="/windows/desktop/api/mfidl/nn-mfidl-imftopology">IMFTopology</a> interface. The caller must release the interface.
 
 ## -returns
 
@@ -98,9 +98,8 @@ Invalid argument. For example, a <b>NULL</b> input parameter, or the presentatio
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfmediasourcetopologyprovider">IMFMediaSourceTopologyProvider</a>
+<a href="/windows/desktop/api/mfidl/nn-mfidl-imfmediasourcetopologyprovider">IMFMediaSourceTopologyProvider</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/sequencer-source">Sequencer Source</a>
-
+<a href="/windows/desktop/medfound/sequencer-source">Sequencer Source</a>

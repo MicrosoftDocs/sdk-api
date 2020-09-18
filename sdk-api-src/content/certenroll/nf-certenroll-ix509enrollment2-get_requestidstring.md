@@ -63,5 +63,4 @@ The value of the <b>RequestIdString</b> property is set during the enrollment pr
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509enrollment2">IX509Enrollment2</a>
-
+<a href="/windows/desktop/api/certenroll/nn-certenroll-ix509enrollment2">IX509Enrollment2</a>

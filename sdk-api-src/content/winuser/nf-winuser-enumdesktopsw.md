@@ -59,17 +59,17 @@ Enumerates all desktops associated with the specified window station of the call
 ### -param hwinsta [in, optional]
 
 A handle to the window station whose desktops are to be enumerated. This handle is returned by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createwindowstationa">CreateWindowStation</a>, 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getprocesswindowstation">GetProcessWindowStation</a>, or 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-openwindowstationa">OpenWindowStation</a> function, and must have the WINSTA_ENUMDESKTOPS access right. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/winstation/window-station-security-and-access-rights">Window Station Security and Access Rights</a>.
+<a href="/windows/desktop/api/winuser/nf-winuser-createwindowstationa">CreateWindowStation</a>, 
+<a href="/windows/desktop/api/winuser/nf-winuser-getprocesswindowstation">GetProcessWindowStation</a>, or 
+<a href="/windows/desktop/api/winuser/nf-winuser-openwindowstationa">OpenWindowStation</a> function, and must have the WINSTA_ENUMDESKTOPS access right. For more information, see 
+<a href="/windows/desktop/winstation/window-station-security-and-access-rights">Window Station Security and Access Rights</a>.
 
 If this parameter is NULL, the current window station is used.
 
 ### -param lpEnumFunc [in]
 
 A pointer to an application-defined 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms682612(v=vs.85)">EnumDesktopProc</a> callback function.
+<a href="/previous-versions/windows/desktop/legacy/ms682612(v=vs.85)">EnumDesktopProc</a> callback function.
 
 ### -param lParam [in]
 
@@ -80,15 +80,15 @@ An application-defined value to be passed to the callback function.
 If the function succeeds, it returns the  nonzero value returned by the callback function that was pointed to by <i>lpEnumFunc</i>.
 
 If the function is unable to perform the enumeration, the return value is zero. Call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> to get extended error information.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> to get extended error information.
 
-If the callback function fails, the return value is zero. The callback function can  call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-setlasterror">SetLastError</a> to set an error code for the caller to retrieve by calling <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+If the callback function fails, the return value is zero. The callback function can  call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-setlasterror">SetLastError</a> to set an error code for the caller to retrieve by calling <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
 The 
 <b>EnumDesktops</b> function enumerates only those desktops for which the calling process has the DESKTOP_ENUMERATE access right. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/winstation/desktop-security-and-access-rights">Desktop Security and Access Rights</a>.
+<a href="/windows/desktop/winstation/desktop-security-and-access-rights">Desktop Security and Access Rights</a>.
 
 The 
 <b>EnumDesktops</b> function repeatedly invokes the <i>lpEnumFunc</i> callback function until the last desktop is enumerated or the callback function returns FALSE.
@@ -102,25 +102,24 @@ The
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createwindowstationa">CreateWindowStation</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-createwindowstationa">CreateWindowStation</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/winstation/desktops">Desktops</a>
+<a href="/windows/desktop/winstation/desktops">Desktops</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms682612(v=vs.85)">EnumDesktopProc</a>
+<a href="/previous-versions/windows/desktop/legacy/ms682612(v=vs.85)">EnumDesktopProc</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getprocesswindowstation">GetProcessWindowStation</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-getprocesswindowstation">GetProcessWindowStation</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-openwindowstationa">OpenWindowStation</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-openwindowstationa">OpenWindowStation</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/winstation/window-station-and-desktop-functions">Window Station and Desktop Functions</a>
-
+<a href="/windows/desktop/winstation/window-station-and-desktop-functions">Window Station and Desktop Functions</a>

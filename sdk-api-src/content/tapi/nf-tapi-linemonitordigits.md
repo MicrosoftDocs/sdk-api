@@ -62,7 +62,7 @@ Handle to the call on which digits are to be detected. The call state of <i>hCal
 ### -param dwDigitModes
 
 Digit mode or modes that are to be monitored. If <i>dwDigitModes</i> is zero, digit monitoring is canceled. This parameter uses one or more of the 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/linedigitmode--constants">LINEDIGITMODE_ Constants</a>.
+<a href="/windows/desktop/Tapi/linedigitmode--constants">LINEDIGITMODE_ Constants</a>.
 
 ## -returns
 
@@ -79,28 +79,27 @@ Each time a digit is detected, a LINE_MONITORDIGITS message is sent to the appli
 
 An application can use 
 <b>lineMonitorDigits</b> to enable or disable unbuffered digit detection. It can use 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linegatherdigits">lineGatherDigits</a> for buffered digit detection. After buffered digit gathering is complete, a 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/line-gatherdigits">LINE_GATHERDIGITS</a> message is sent to the application. Both buffered and unbuffered digit detection can be enabled on the same call simultaneously.
+<a href="/windows/desktop/api/tapi/nf-tapi-linegatherdigits">lineGatherDigits</a> for buffered digit detection. After buffered digit gathering is complete, a 
+<a href="/windows/desktop/Tapi/line-gatherdigits">LINE_GATHERDIGITS</a> message is sent to the application. Both buffered and unbuffered digit detection can be enabled on the same call simultaneously.
 
 Monitoring of digits on a conference call applies only to the <i>hConfCall</i>, not to the individual participating calls.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/line-gatherdigits">LINE_GATHERDIGITS</a>
+<a href="/windows/desktop/Tapi/line-gatherdigits">LINE_GATHERDIGITS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/line-monitordigits">LINE_MONITORDIGITS</a>
+<a href="/windows/desktop/Tapi/line-monitordigits">LINE_MONITORDIGITS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/supplementary-line-service-functions">Supplementary Line Service Functions</a>
+<a href="/windows/desktop/Tapi/supplementary-line-service-functions">Supplementary Line Service Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/tapi-2-2-reference">TAPI 2.2 Reference Overview</a>
+<a href="/windows/desktop/Tapi/tapi-2-2-reference">TAPI 2.2 Reference Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linegatherdigits">lineGatherDigits</a>
-
+<a href="/windows/desktop/api/tapi/nf-tapi-linegatherdigits">lineGatherDigits</a>

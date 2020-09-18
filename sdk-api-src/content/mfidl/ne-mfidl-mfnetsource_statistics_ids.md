@@ -52,11 +52,11 @@ api_name:
 
 ## -description
 
-Defines statistics collected by the network source. The values in this enumeration define property identifiers (PIDs) for the <a href="https://docs.microsoft.com/windows/desktop/medfound/mfnetsource-statistics-property">MFNETSOURCE_STATISTICS</a> property.
+Defines statistics collected by the network source. The values in this enumeration define property identifiers (PIDs) for the <a href="/windows/desktop/medfound/mfnetsource-statistics-property">MFNETSOURCE_STATISTICS</a> property.
 
-To retrieve statistics from the network source, call <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfgetservice-getservice">IMFGetService::GetService</a> with the service identifier <b>MFNETSOURCE_STATISTICS_SERVICE</b> and the interface identifier IID_IPropertyStore. The retrieved pointer is an <b>IPropertyStore</b> pointer. To get the value of a network statistic, construct a <b>PROPERTYKEY</b> with <b>fmtid</b> equal to <b>MFNETSOURCE_STATISTICS</b> and <b>pid</b> equal to a value from this enumeration. Then call <b>IPropertyStore::GetValue</b> with the property key to retrieve the value of the statistic as a <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a>. 
+To retrieve statistics from the network source, call <a href="/windows/desktop/api/mfidl/nf-mfidl-imfgetservice-getservice">IMFGetService::GetService</a> with the service identifier <b>MFNETSOURCE_STATISTICS_SERVICE</b> and the interface identifier IID_IPropertyStore. The retrieved pointer is an <b>IPropertyStore</b> pointer. To get the value of a network statistic, construct a <b>PROPERTYKEY</b> with <b>fmtid</b> equal to <b>MFNETSOURCE_STATISTICS</b> and <b>pid</b> equal to a value from this enumeration. Then call <b>IPropertyStore::GetValue</b> with the property key to retrieve the value of the statistic as a <a href="/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a>. 
 
-In the descriptions that follow, the data type and value-type tag for the <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> are listed in parentheses.
+In the descriptions that follow, the data type and value-type tag for the <a href="/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> are listed in parentheses.
 
 ## -enum-fields
 
@@ -102,15 +102,15 @@ The total number of bytes received (<b>ULONGLONG</b>, <b>VT_UI8</b>).
 
 ### -field MFNETSOURCE_PROTOCOL_ID
 
-The type of control protocol used to receive the data (<b>LONG</b>, <b>VT_I4</b>). The value is a member of the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/ne-mfidl-mfnetsource_protocol_type">MFNETSOURCE_PROTOCOL_TYPE</a> enumeration.
+The type of control protocol used to receive the data (<b>LONG</b>, <b>VT_I4</b>). The value is a member of the <a href="/windows/desktop/api/mfidl/ne-mfidl-mfnetsource_protocol_type">MFNETSOURCE_PROTOCOL_TYPE</a> enumeration.
 
 ### -field MFNETSOURCE_TRANSPORT_ID
 
-The type of control protocol used to receive the data (<b>LONG</b>, <b>VT_I4</b>). The value is a member of the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/ne-mfidl-mfnetsource_transport_type">MFNETSOURCE_TRANSPORT_TYPE</a> enumeration.
+The type of control protocol used to receive the data (<b>LONG</b>, <b>VT_I4</b>). The value is a member of the <a href="/windows/desktop/api/mfidl/ne-mfidl-mfnetsource_transport_type">MFNETSOURCE_TRANSPORT_TYPE</a> enumeration.
 
 ### -field MFNETSOURCE_CACHE_STATE_ID
 
-The status of cache for a media file or entry (<b>LONG</b>, <b>VT_I4</b>). The value is a member of the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/ne-mfidl-mfnetsource_cache_state">MFNETSOURCE_CACHE_STATE</a> enumeration.
+The status of cache for a media file or entry (<b>LONG</b>, <b>VT_I4</b>). The value is a member of the <a href="/windows/desktop/api/mfidl/ne-mfidl-mfnetsource_cache_state">MFNETSOURCE_CACHE_STATE</a> enumeration.
 
 ### -field MFNETSOURCE_LINKBANDWIDTH_ID
 
@@ -180,9 +180,8 @@ The percentage of the content that has been downloaded. The value is an integer 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/client-logging">Client Logging</a>
+<a href="/windows/desktop/medfound/client-logging">Client Logging</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>
-
+<a href="/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>

@@ -54,7 +54,7 @@ Configures codec support for sample extensions.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMSampleExtensionSupport</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWMSampleExtensionSupport</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMSampleExtensionSupport</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWMSampleExtensionSupport</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IWMSampleExtensionSupport</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmcodecdsp/nf-wmcodecdsp-iwmsampleextensionsupport-setusesampleextensions">SetUseSampleExtensions</a>
+<a href="/windows/desktop/api/wmcodecdsp/nf-wmcodecdsp-iwmsampleextensionsupport-setusesampleextensions">SetUseSampleExtensions</a>
 </td>
 <td align="left" width="63%">
 Configures whether the codec supports sample extensions.
@@ -80,5 +80,4 @@ Configures whether the codec supports sample extensions.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
-
+<a href="/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>

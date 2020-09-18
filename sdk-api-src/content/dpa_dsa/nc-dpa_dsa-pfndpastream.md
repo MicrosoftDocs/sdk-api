@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Defines the prototype for the callback function used by <a href="https://docs.microsoft.com/windows/desktop/api/dpa_dsa/nf-dpa_dsa-dpa_loadstream">DPA_LoadStream</a> and <a href="https://docs.microsoft.com/windows/desktop/api/dpa_dsa/nf-dpa_dsa-dpa_savestream">DPA_SaveStream</a>.
+Defines the prototype for the callback function used by <a href="/windows/desktop/api/dpa_dsa/nf-dpa_dsa-dpa_loadstream">DPA_LoadStream</a> and <a href="/windows/desktop/api/dpa_dsa/nf-dpa_dsa-dpa_savestream">DPA_SaveStream</a>.
 
 ## -parameters
 
@@ -58,23 +58,22 @@ Defines the prototype for the callback function used by <a href="https://docs.mi
 
 Type: <b>DPASTREAMINFO*</b>
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/dpa_dsa/ns-dpa_dsa-dpastreaminfo">DPASTREAMINFO</a> structure.
+A pointer to a <a href="/windows/desktop/api/dpa_dsa/ns-dpa_dsa-dpastreaminfo">DPASTREAMINFO</a> structure.
 
 ### -param *pstream [in]
 
 Type: <b>struct IStream*</b>
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a> object to read from or write to.
+An <a href="/windows/desktop/api/objidl/nn-objidl-istream">IStream</a> object to read from or write to.
 
 ### -param *pvInstData [in, optional]
 
 Type: <b>void*</b>
 
-A void pointer to callback data that the client passed to <a href="https://docs.microsoft.com/windows/desktop/api/dpa_dsa/nf-dpa_dsa-dpa_loadstream">DPA_LoadStream</a> or <a href="https://docs.microsoft.com/windows/desktop/api/dpa_dsa/nf-dpa_dsa-dpa_savestream">DPA_SaveStream</a>.
+A void pointer to callback data that the client passed to <a href="/windows/desktop/api/dpa_dsa/nf-dpa_dsa-dpa_loadstream">DPA_LoadStream</a> or <a href="/windows/desktop/api/dpa_dsa/nf-dpa_dsa-dpa_savestream">DPA_SaveStream</a>.
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 If this callback function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-

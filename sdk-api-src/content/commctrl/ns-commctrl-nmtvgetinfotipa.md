@@ -56,20 +56,20 @@ api_name:
 
 ## -description
 
-Contains and receives tree-view item information needed to display a tooltip for an item. This structure is used with the <a href="https://docs.microsoft.com/windows/desktop/Controls/tvn-getinfotip">TVN_GETINFOTIP</a> notification code.
+Contains and receives tree-view item information needed to display a tooltip for an item. This structure is used with the <a href="/windows/desktop/Controls/tvn-getinfotip">TVN_GETINFOTIP</a> notification code.
 
 ## -struct-fields
 
 ### -field hdr
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a></b>
+Type: <b><a href="/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a></b>
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a> structure that contains information about this notification.
+<a href="/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a> structure that contains information about this notification.
 
 ### -field pszText
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPTSTR</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">LPTSTR</a></b>
 
 Address of a character buffer that contains the text to be displayed. If you want to change the text displayed in the tooltip, you will need to modify the contents of this buffer. The size of this buffer is specified by the 
 					<b>cchTextMax</b> structure.
@@ -89,7 +89,7 @@ Tree handle to the item for which the tooltip is being displayed.
 
 ### -field lParam
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPARAM</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">LPARAM</a></b>
 
 Application-defined data associated with the item for which the tooltip is being displayed.
 
@@ -97,4 +97,3 @@ Application-defined data associated with the item for which the tooltip is being
 
 > [!NOTE]
 > The commctrl.h header defines NMTVGETINFOTIP as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

@@ -54,7 +54,7 @@ The <b>IUPnPDeviceDocumentAccessEx</b> interface provides a method to obtain the
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUPnPDeviceDocumentAccessEx</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IUPnPDeviceDocumentAccessEx</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUPnPDeviceDocumentAccessEx</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IUPnPDeviceDocumentAccessEx</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IUPnPDeviceDocumentAccessEx</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/upnp/nf-upnp-iupnpdevicedocumentaccessex-getdocument">GetDocument</a>
+<a href="/windows/desktop/api/upnp/nf-upnp-iupnpdevicedocumentaccessex-getdocument">GetDocument</a>
 </td>
 <td align="left" width="63%">
 Retrieves the XML device description document for a UPnP device.
@@ -80,13 +80,12 @@ Retrieves the XML device description document for a UPnP device.
 
 ## -remarks
 
-This interface is obtained by calling QueryInterface on the same object that provides an implementation of <a href="https://docs.microsoft.com/windows/desktop/api/upnp/nn-upnp-iupnpdevice">IUPnPDevice</a>, after which <a href="https://docs.microsoft.com/windows/desktop/api/upnp/nf-upnp-iupnpdevicedocumentaccessex-getdocument">GetDocument</a> can be called on it.
+This interface is obtained by calling QueryInterface on the same object that provides an implementation of <a href="/windows/desktop/api/upnp/nn-upnp-iupnpdevice">IUPnPDevice</a>, after which <a href="/windows/desktop/api/upnp/nf-upnp-iupnpdevicedocumentaccessex-getdocument">GetDocument</a> can be called on it.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/UPnP/control-point-api-with-upnp-technology-reference">Control Point API Reference</a>
+<a href="/windows/desktop/UPnP/control-point-api-with-upnp-technology-reference">Control Point API Reference</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/upnp/nn-upnp-iupnpdevicedocumentaccess">IUPnPDeviceDocumentAccess</a>
-
+<a href="/windows/desktop/api/upnp/nn-upnp-iupnpdevicedocumentaccess">IUPnPDeviceDocumentAccess</a>

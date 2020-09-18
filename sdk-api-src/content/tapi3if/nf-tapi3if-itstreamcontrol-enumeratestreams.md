@@ -51,14 +51,14 @@ api_name:
 ## -description
 
 The <b>EnumerateStreams</b> method enumerates currently available media streams. Provided for C and C++ applications. Automation client applications such as Visual Basic must use the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itstreamcontrol-get_streams">get_Streams</a> method.
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itstreamcontrol-get_streams">get_Streams</a> method.
 
 ## -parameters
 
 ### -param ppEnumStream [out]
 
 Pointer to pointer for 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-ienumstream">IEnumStream</a> enumerator.
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-ienumstream">IEnumStream</a> enumerator.
 
 ## -returns
 
@@ -106,15 +106,14 @@ The <i>ppEnumStream</i> parameter is not a valid pointer.
 
 ## -remarks
 
-TAPI calls the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-addref">AddRef</a> method on the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-ienumstream">IEnumStream</a> interface returned by <b>ITStreamControl::EnumerateStreams</b>. The application must call <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">Release</a> on the 
+TAPI calls the <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-addref">AddRef</a> method on the 
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-ienumstream">IEnumStream</a> interface returned by <b>ITStreamControl::EnumerateStreams</b>. The application must call <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">Release</a> on the 
 <b>IEnumStream</b> interface to free resources associated with it.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itstreamcontrol">ITStreamControl</a>
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itstreamcontrol">ITStreamControl</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/media-service-provider-interface-mspi-">Media Service Provider Interface (MSPI)</a>
-
+<a href="/windows/desktop/Tapi/media-service-provider-interface-mspi-">Media Service Provider Interface (MSPI)</a>

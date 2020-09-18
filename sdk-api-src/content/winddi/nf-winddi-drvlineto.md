@@ -56,15 +56,15 @@ The <b>DrvLineTo</b> function draws a single, solid, integer-only cosmetic line.
 
 ### -param pso
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-surfobj">SURFOBJ</a> structure that describes the surface on which to draw.
+Pointer to a <a href="/windows/desktop/api/winddi/ns-winddi-surfobj">SURFOBJ</a> structure that describes the surface on which to draw.
 
 ### -param pco
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-clipobj">CLIPOBJ</a> structure that defines the clip region in which the rendering must be done. No pixels can be affected outside this clip region.
+Pointer to a <a href="/windows/desktop/api/winddi/ns-winddi-clipobj">CLIPOBJ</a> structure that defines the clip region in which the rendering must be done. No pixels can be affected outside this clip region.
 
 ### -param pbo
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-brushobj">BRUSHOBJ</a> structure that specifies the brush to use when drawing the line.
+Pointer to a <a href="/windows/desktop/api/winddi/ns-winddi-brushobj">BRUSHOBJ</a> structure that specifies the brush to use when drawing the line.
 
 ### -param x1
 
@@ -84,7 +84,7 @@ Specify the integer y-coordinates of the line's end point.
 
 ### -param prclBounds
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-rectl">RECTL</a> structure that defines the integer rectangle that bounds the unclipped line. Drivers that support hardware line drawing can use this rectangle to quickly determine whether the line fits in a coordinate space small enough to be rendered by the hardware.
+Pointer to the <a href="/windows/desktop/api/windef/ns-windef-rectl">RECTL</a> structure that defines the integer rectangle that bounds the unclipped line. Drivers that support hardware line drawing can use this rectangle to quickly determine whether the line fits in a coordinate space small enough to be rendered by the hardware.
 
 ### -param mix
 
@@ -96,29 +96,28 @@ The mix mode that defines the foreground and background raster operations to use
 
 ## -remarks
 
-<b>DrvLineTo</b> is an optional entry point that a driver can supply as an optimization for application calls to the Win32 <b>LineTo</b> function. If the driver doesn't hook <b>DrvLineTo</b>, or if the driver returns <b>FALSE</b> from a call to this function, GDI will automatically call <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvstrokepath">DrvStrokePath</a> instead. A driver that has hooked <b>DrvLineTo</b> can call <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-englineto">EngLineTo</a> when the rendering surface is a <a href="https://docs.microsoft.com/windows-hardware/drivers/">DIB</a>.
+<b>DrvLineTo</b> is an optional entry point that a driver can supply as an optimization for application calls to the Win32 <b>LineTo</b> function. If the driver doesn't hook <b>DrvLineTo</b>, or if the driver returns <b>FALSE</b> from a call to this function, GDI will automatically call <a href="/windows/desktop/api/winddi/nf-winddi-drvstrokepath">DrvStrokePath</a> instead. A driver that has hooked <b>DrvLineTo</b> can call <a href="/windows/desktop/api/winddi/nf-winddi-englineto">EngLineTo</a> when the rendering surface is a <a href="/windows-hardware/drivers/">DIB</a>.
 
-This function is simpler than <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvstrokepath">DrvStrokePath</a> because it supports only integer end-points and solid cosmetic lines. GDI has less overhead when calling <b>DrvLineTo</b> instead of <b>DrvStrokePath</b>; consequently, <b>DrvLineTo</b> is intended to be used as a simple optimization by drivers that can accelerate nominal width lines in hardware.
+This function is simpler than <a href="/windows/desktop/api/winddi/nf-winddi-drvstrokepath">DrvStrokePath</a> because it supports only integer end-points and solid cosmetic lines. GDI has less overhead when calling <b>DrvLineTo</b> instead of <b>DrvStrokePath</b>; consequently, <b>DrvLineTo</b> is intended to be used as a simple optimization by drivers that can accelerate nominal width lines in hardware.
 
 The mix mode defines how the incoming pattern should be mixed with the data that is already on the device surface. The MIX data type consists of two binary raster operation (ROP2) values packed into a single ULONG. The lowest-order byte defines the foreground raster operation; the next byte defines the background raster operation. For more information about raster operation codes, see the Microsoft Windows SDK documentation.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-brushobj">BRUSHOBJ</a>
+<a href="/windows/desktop/api/winddi/ns-winddi-brushobj">BRUSHOBJ</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-clipobj">CLIPOBJ</a>
+<a href="/windows/desktop/api/winddi/ns-winddi-clipobj">CLIPOBJ</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvstrokepath">DrvStrokePath</a>
+<a href="/windows/desktop/api/winddi/nf-winddi-drvstrokepath">DrvStrokePath</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-englineto">EngLineTo</a>
+<a href="/windows/desktop/api/winddi/nf-winddi-englineto">EngLineTo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-surfobj">SURFOBJ</a>
-
+<a href="/windows/desktop/api/winddi/ns-winddi-surfobj">SURFOBJ</a>

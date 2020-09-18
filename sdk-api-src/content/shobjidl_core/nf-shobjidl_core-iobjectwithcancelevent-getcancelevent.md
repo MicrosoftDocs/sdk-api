@@ -72,5 +72,4 @@ Call this function to retrieve an event that will be signaled when the called ob
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iobjectwithcancelevent">IObjectWithCancelEvent</a>
-
+<a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iobjectwithcancelevent">IObjectWithCancelEvent</a>

@@ -66,7 +66,7 @@ Gets the package identifier (ID) for the specified process.
 
 Type: <b>HANDLE</b>
 
-A handle to the process that has the <b>PROCESS_QUERY_INFORMATION</b> or <b>PROCESS_QUERY_LIMITED_INFORMATION</b> access right. For more information, see <a href="https://docs.microsoft.com/windows/desktop/ProcThread/process-security-and-access-rights">Process Security and Access Rights</a>.
+A handle to the process that has the <b>PROCESS_QUERY_INFORMATION</b> or <b>PROCESS_QUERY_LIMITED_INFORMATION</b> access right. For more information, see <a href="/windows/desktop/ProcThread/process-security-and-access-rights">Process Security and Access Rights</a>.
 
 ### -param bufferLength [in, out]
 
@@ -78,7 +78,7 @@ On input, the size of <i>buffer</i>, in bytes. On output, the size of the struct
 
 Type: <b>BYTE*</b>
 
-The package ID, represented as a <a href="https://docs.microsoft.com/windows/desktop/api/appmodel/ns-appmodel-package_id">PACKAGE_ID</a> structure.
+The package ID, represented as a <a href="/windows/desktop/api/appmodel/ns-appmodel-package_id">PACKAGE_ID</a> structure.
 
 ## -returns
 
@@ -117,13 +117,12 @@ The buffer is not large enough to hold the data. The required size is specified 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/appmodel/nf-appmodel-getcurrentpackageid">GetCurrentPackageId</a>
+<a href="/windows/desktop/api/appmodel/nf-appmodel-getcurrentpackageid">GetCurrentPackageId</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/appmodel/nf-appmodel-getpackagefamilyname">GetPackageFamilyName</a>
+<a href="/windows/desktop/api/appmodel/nf-appmodel-getpackagefamilyname">GetPackageFamilyName</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/appmodel/nf-appmodel-getpackagefullname">GetPackageFullName</a>
-
+<a href="/windows/desktop/api/appmodel/nf-appmodel-getpackagefullname">GetPackageFullName</a>

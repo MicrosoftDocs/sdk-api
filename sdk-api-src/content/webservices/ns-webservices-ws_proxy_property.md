@@ -58,7 +58,7 @@ Specifies a proxy property.
 
 ### -field id
 
-Identifies the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_proxy_property_id">WS_PROXY_PROPERTY_ID</a>.
+Identifies the <a href="/windows/desktop/api/webservices/ne-webservices-ws_proxy_property_id">WS_PROXY_PROPERTY_ID</a>.
 
 ### -field value
 
@@ -67,4 +67,3 @@ The buffer for the property value.
 ### -field valueSize
 
 The size of buffer, in bytes.
-

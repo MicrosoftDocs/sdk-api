@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-The <b>SetupDiGetClassRegistryProperty</b> function retrieves a property for a specified <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-sp_devinfo_data">device setup class</a> from the registry.
+The <b>SetupDiGetClassRegistryProperty</b> function retrieves a property for a specified <a href="/windows/desktop/api/setupapi/ns-setupapi-sp_devinfo_data">device setup class</a> from the registry.
 
 ## -parameters
 
@@ -69,13 +69,13 @@ A value that identifies the property to be retrieved. This must be one of the fo
 
 #### SPCRP_CHARACTERISTICS
 
-The function returns flags indicating device characteristics for the class. For a list of characteristics flags, see the <i>DeviceCharacteristics</i> parameter to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-iocreatedevice">IoCreateDevice</a>.
+The function returns flags indicating device characteristics for the class. For a list of characteristics flags, see the <i>DeviceCharacteristics</i> parameter to <a href="/windows-hardware/drivers/ddi/content/wdm/nf-wdm-iocreatedevice">IoCreateDevice</a>.
 
 
 
 #### SPCRP_DEVTYPE
 
-The function returns a DWORD value that represents the device type for the class. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/specifying-device-types">Specifying Device Types</a>.
+The function returns a DWORD value that represents the device type for the class. For more information, see <a href="/windows-hardware/drivers/kernel/specifying-device-types">Specifying Device Types</a>.
 
 
 
@@ -99,7 +99,7 @@ The function returns the device's security descriptor as a SECURITY_DESCRIPTOR s
 
 #### SPCRP_SECURITY_SDS
 
-The function returns the device's security descriptor as a text string. For information about security descriptor strings, see <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/security-descriptor-definition-language">Security Descriptor Definition Language (Windows)</a>. For information about the format of security descriptor strings, see Security Descriptor Definition Language (Windows).
+The function returns the device's security descriptor as a text string. For information about security descriptor strings, see <a href="/windows/desktop/SecAuthZ/security-descriptor-definition-language">Security Descriptor Definition Language (Windows)</a>. For information about the format of security descriptor strings, see Security Descriptor Definition Language (Windows).
 
 
 
@@ -134,12 +134,12 @@ Reserved, must be <b>NULL</b>.
 
 ##### - Property.SPCRP_CHARACTERISTICS
 
-The function returns flags indicating device characteristics for the class. For a list of characteristics flags, see the <i>DeviceCharacteristics</i> parameter to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-iocreatedevice">IoCreateDevice</a>.
+The function returns flags indicating device characteristics for the class. For a list of characteristics flags, see the <i>DeviceCharacteristics</i> parameter to <a href="/windows-hardware/drivers/ddi/content/wdm/nf-wdm-iocreatedevice">IoCreateDevice</a>.
 
 
 ##### - Property.SPCRP_DEVTYPE
 
-The function returns a DWORD value that represents the device type for the class. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/specifying-device-types">Specifying Device Types</a>.
+The function returns a DWORD value that represents the device type for the class. For more information, see <a href="/windows-hardware/drivers/kernel/specifying-device-types">Specifying Device Types</a>.
 
 
 ##### - Property.SPCRP_EXCLUSIVE
@@ -159,7 +159,7 @@ The function returns the device's security descriptor as a SECURITY_DESCRIPTOR s
 
 ##### - Property.SPCRP_SECURITY_SDS
 
-The function returns the device's security descriptor as a text string. For information about security descriptor strings, see <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/security-descriptor-definition-language">Security Descriptor Definition Language (Windows)</a>. For information about the format of security descriptor strings, see Security Descriptor Definition Language (Windows).
+The function returns the device's security descriptor as a text string. For information about security descriptor strings, see <a href="/windows/desktop/SecAuthZ/security-descriptor-definition-language">Security Descriptor Definition Language (Windows)</a>. For information about the format of security descriptor strings, see Security Descriptor Definition Language (Windows).
 
 
 ##### - Property.SPCRP_UPPERFILTERS
@@ -168,22 +168,21 @@ The function returns the device's security descriptor as a text string. For info
 
 ## -returns
 
-The function returns <b>TRUE</b> if it is successful. Otherwise, it returns <b>FALSE</b> and the logged error can be retrieved with a call to <a href="https://msdn.microsoft.com/library/ms679360(VS.85).aspx">GetLastError</a>.
+The function returns <b>TRUE</b> if it is successful. Otherwise, it returns <b>FALSE</b> and the logged error can be retrieved with a call to <a href="/windows/win32/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdigetdeviceregistrypropertya">SetupDiGetDeviceRegistryProperty</a>
+<a href="/windows/desktop/api/setupapi/nf-setupapi-setupdigetdeviceregistrypropertya">SetupDiGetDeviceRegistryProperty</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdisetclassregistrypropertya">SetupDiSetClassRegistryProperty</a>
+<a href="/windows/desktop/api/setupapi/nf-setupapi-setupdisetclassregistrypropertya">SetupDiSetClassRegistryProperty</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdisetdeviceregistrypropertya">SetupDiSetDeviceRegistryProperty</a>
+<a href="/windows/desktop/api/setupapi/nf-setupapi-setupdisetdeviceregistrypropertya">SetupDiSetDeviceRegistryProperty</a>
 
 ## -remarks
 
 > [!NOTE]
 > The setupapi.h header defines SetupDiGetClassRegistryProperty as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

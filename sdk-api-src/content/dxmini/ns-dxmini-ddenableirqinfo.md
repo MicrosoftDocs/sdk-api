@@ -285,7 +285,7 @@ Indicates which line should generate the IRQ. If the hardware does not have the 
 
 ### -field IRQCallback
 
-Points to an <a href="https://docs.microsoft.com/windows/desktop/api/dxmini/nc-dxmini-pdx_irqcallback">IRQCallback</a> that the video miniport driver calls when the miniport driver is managing IRQs, and an IRQ occurs.
+Points to an <a href="/windows/desktop/api/dxmini/nc-dxmini-pdx_irqcallback">IRQCallback</a> that the video miniport driver calls when the miniport driver is managing IRQs, and an IRQ occurs.
 
 ### -field lpIRQData
 
@@ -293,17 +293,16 @@ Points to the data to be sent to <b>IRQCallback</b> when <b>IRQCallback</b> is c
 
 ## -remarks
 
-The <b>dwIRQSources</b> member of this structure does not use the DDIRQ_BUSMASTER flag. However, the DDIRQ_BUSMASTER flag can be set in the <b>dwIrqFlags</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/dxmini/ns-dxmini-dx_irqdata">DX_IRQDATA</a> structure. The driver passes this DX_IRQDATA to the <b>IRQCallback</b> function when an IRQ occurs.
+The <b>dwIRQSources</b> member of this structure does not use the DDIRQ_BUSMASTER flag. However, the DDIRQ_BUSMASTER flag can be set in the <b>dwIrqFlags</b> member of the <a href="/windows/desktop/api/dxmini/ns-dxmini-dx_irqdata">DX_IRQDATA</a> structure. The driver passes this DX_IRQDATA to the <b>IRQCallback</b> function when an IRQ occurs.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dxmini/ns-dxmini-dx_irqdata">DX_IRQDATA</a>
+<a href="/windows/desktop/api/dxmini/ns-dxmini-dx_irqdata">DX_IRQDATA</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dxmini/nc-dxmini-pdx_enableirq">DxEnableIRQ</a>
+<a href="/windows/desktop/api/dxmini/nc-dxmini-pdx_enableirq">DxEnableIRQ</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dxmini/nc-dxmini-pdx_irqcallback">IRQCallback</a>
-
+<a href="/windows/desktop/api/dxmini/nc-dxmini-pdx_irqcallback">IRQCallback</a>

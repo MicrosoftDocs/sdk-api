@@ -56,7 +56,7 @@ The <code>IsEqual</code> method compares two media types and determines whether 
 
 ### -param pIAudioType [in]
 
-Specifies a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/audiomediatype/nn-audiomediatype-iaudiomediatype">IAudioMediaType</a> interface of the media type to compare.
+Specifies a pointer to an <a href="/windows/desktop/api/audiomediatype/nn-audiomediatype-iaudiomediatype">IAudioMediaType</a> interface of the media type to compare.
 
 ### -param pdwFlags [out]
 
@@ -134,7 +134,7 @@ The media types are not equal. Examine the <i>pdwFlags</i> parameter to determin
 
 ## -remarks
 
-Both media types must have a major type, otherwise the method returns E_INVALIDARG. For more information about media types, see <a href="https://msdn.microsoft.com/library/aa390528(VS.85).aspx">Media Types</a>.
+Both media types must have a major type, otherwise the method returns E_INVALIDARG. For more information about media types, see <a href="/previous-versions//aa390528(v=vs.85)">Media Types</a>.
 
 The MF_MEDIATYPE_EQUAL_FORMAT_DATA flag indicates that both media types have compatible attributes, although one might be a superset of the other. This method of comparison means that you can compare a partially-specified media type against a complete media type. For example, you might have two video types that describe the same format, but one type includes attributes for extended color information (chroma siting, nominal range, and so forth).
 
@@ -142,13 +142,12 @@ If the method succeeds and all the comparison flags are set in <i>pdwFlags</i>, 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/audiomediatype/nn-audiomediatype-iaudiomediatype">IAudioMediaType</a>
+<a href="/windows/desktop/api/audiomediatype/nn-audiomediatype-iaudiomediatype">IAudioMediaType</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/aa390528(VS.85).aspx">Media Types</a>
+<a href="/previous-versions//aa390528(v=vs.85)">Media Types</a>
 
 
 
 <a href="/windows/win32/api/mmreg/ns-mmreg-waveformatex">WAVEFORMATEX</a>
-

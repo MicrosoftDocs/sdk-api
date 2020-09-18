@@ -54,7 +54,7 @@ Represents an ordered list of strings.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IStringCollection</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IStringCollection</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IStringCollection</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IStringCollection</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -70,7 +70,7 @@ The <b>IStringCollection</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-istringcollection-add">Add</a>
+<a href="/windows/desktop/api/wuapi/nf-wuapi-istringcollection-add">Add</a>
 </td>
 <td align="left" width="63%">
 Adds an item to the collection.
@@ -79,7 +79,7 @@ Adds an item to the collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-istringcollection-clear">Clear</a>
+<a href="/windows/desktop/api/wuapi/nf-wuapi-istringcollection-clear">Clear</a>
 </td>
 <td align="left" width="63%">
 Removes all the elements from the collection.
@@ -88,7 +88,7 @@ Removes all the elements from the collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-istringcollection-copy">Copy</a>
+<a href="/windows/desktop/api/wuapi/nf-wuapi-istringcollection-copy">Copy</a>
 </td>
 <td align="left" width="63%">
 Creates a deep read/write copy of the collection.
@@ -97,7 +97,7 @@ Creates a deep read/write copy of the collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-istringcollection-insert">Insert</a>
+<a href="/windows/desktop/api/wuapi/nf-wuapi-istringcollection-insert">Insert</a>
 </td>
 <td align="left" width="63%">
 Inserts an item into the collection at the specified position.
@@ -106,7 +106,7 @@ Inserts an item into the collection at the specified position.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-istringcollection-removeat">RemoveAt</a>
+<a href="/windows/desktop/api/wuapi/nf-wuapi-istringcollection-removeat">RemoveAt</a>
 </td>
 <td align="left" width="63%">
 Removes the item at the specified index from the collection.
@@ -124,7 +124,7 @@ Removes the item at the specified index from the collection.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-istringcollection-get__newenum">_NewEnum</a>
+<a href="/windows/desktop/api/wuapi/nf-wuapi-istringcollection-get__newenum">_NewEnum</a>
 
 
 </td>
@@ -140,7 +140,7 @@ Gets an <b>IEnumVARIANT</b> interface that can be used to enumerate the collecti
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-istringcollection-get_count">Count</a>
+<a href="/windows/desktop/api/wuapi/nf-wuapi-istringcollection-get_count">Count</a>
 
 
 </td>
@@ -156,7 +156,7 @@ Gets the number of elements in the collection.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-istringcollection-get_item">Item</a>
+<a href="/windows/desktop/api/wuapi/nf-wuapi-istringcollection-get_item">Item</a>
 
 
 </td>
@@ -172,7 +172,7 @@ Gets or sets a string in the collection.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-istringcollection-get_readonly">ReadOnly</a>
+<a href="/windows/desktop/api/wuapi/nf-wuapi-istringcollection-get_readonly">ReadOnly</a>
 
 
 </td>
@@ -190,4 +190,3 @@ Gets a Boolean value that indicates whether the collection is read-only.
 ## -remarks
 
 This interface can be instantiated by using the StringCollection coclass. Use the Microsoft.Update.StringColl program identifier to create the object.
-

@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Contains values that specify the location of a docking window represented by the <a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-implementingdock">Dock</a> <i>control pattern</i>.
+Contains values that specify the location of a docking window represented by the <a href="/windows/desktop/WinAuto/uiauto-implementingdock">Dock</a> <i>control pattern</i>.
 
 ## -enum-fields
 
@@ -80,5 +80,4 @@ The window is not docked.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nn-uiautomationcore-idockprovider">IDockProvider</a>
-
+<a href="/windows/desktop/api/uiautomationcore/nn-uiautomationcore-idockprovider">IDockProvider</a>

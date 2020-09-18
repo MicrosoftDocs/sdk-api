@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-The <b>get_SuppressEffects</b> method queries whether the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ee663618(v=vs.85)">Video Control</a> configures the system for optimal video playback
+The <b>get_SuppressEffects</b> method queries whether the <a href="/previous-versions/windows/desktop/legacy/ee663618(v=vs.85)">Video Control</a> configures the system for optimal video playback
 
 ## -parameters
 
 ### -param bSuppress [out]
 
-Receives a <b>VARIANT_BOOL</b>. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidevr-put_suppresseffects">IMSVidEVR::put_SuppressEffects</a>. The default value is VARIANT_TRUE.
+Receives a <b>VARIANT_BOOL</b>. For more information, see <a href="/windows/desktop/api/segment/nf-segment-imsvidevr-put_suppresseffects">IMSVidEVR::put_SuppressEffects</a>. The default value is VARIANT_TRUE.
 
 ## -returns
 
@@ -64,5 +64,4 @@ If the method succeeds, it returns S_OK. If it fails, it returns an error code.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/msvidevr">IMSVidEVR</a>
-
+<a href="/previous-versions/windows/desktop/mstv/msvidevr">IMSVidEVR</a>

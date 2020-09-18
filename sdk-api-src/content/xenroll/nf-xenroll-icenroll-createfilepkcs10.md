@@ -56,26 +56,26 @@ api_name:
 
 <p class="CCE_Message">[This method is no longer available for use as of Windows Server 2008 and Windows Vista.]
 
-The <b>createFilePKCS10</b> method creates a base64-encoded PKCS #10 <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate request</a> and saves it in a file. This method was first defined in the <a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nn-xenroll-icenroll">ICEnroll</a> interface.
+The <b>createFilePKCS10</b> method creates a base64-encoded PKCS #10 <a href="/windows/desktop/SecGloss/c-gly">certificate request</a> and saves it in a file. This method was first defined in the <a href="/windows/desktop/api/xenroll/nn-xenroll-icenroll">ICEnroll</a> interface.
 
 This method differs from 
-the <a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-icenroll-createpkcs10">createPKCS10</a> method only in saving the base64-encoded PKCS #10 <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate request</a> (in <b>BSTR</b> form) to the file specified by the <i>wszPKCS10FileName</i> parameter.
+the <a href="/windows/desktop/api/xenroll/nf-xenroll-icenroll-createpkcs10">createPKCS10</a> method only in saving the base64-encoded PKCS #10 <a href="/windows/desktop/SecGloss/c-gly">certificate request</a> (in <b>BSTR</b> form) to the file specified by the <i>wszPKCS10FileName</i> parameter.
 
 ## -parameters
 
 ### -param DNName [in]
 
-The distinguished name (DN) of the entity for which the request is being made. <i>DNName</i> must follow the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/x-gly">X.500</a> naming convention. For example "CN=User, O=Microsoft". If a two-letter prefix does not exist, an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly">object identifier</a> (OID) may be provided instead.
+The distinguished name (DN) of the entity for which the request is being made. <i>DNName</i> must follow the <a href="/windows/desktop/SecGloss/x-gly">X.500</a> naming convention. For example "CN=User, O=Microsoft". If a two-letter prefix does not exist, an <a href="/windows/desktop/SecGloss/o-gly">object identifier</a> (OID) may be provided instead.
 
 ### -param Usage [in]
 
-An <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly">OID</a> that describes the purpose of the certificate being generated, for example, individual or commercial Authenticode certificate, or client authentication. You can also specify multiple OIDs separated by a comma.
+An <a href="/windows/desktop/SecGloss/o-gly">OID</a> that describes the purpose of the certificate being generated, for example, individual or commercial Authenticode certificate, or client authentication. You can also specify multiple OIDs separated by a comma.
 
 The OID is passed through to the PKCS #10 request. The control does not examine the OID.
 
 ### -param wszPKCS10FileName [in]
 
-The name of the file in which the base64-encoded PKCS #10 (in <b>BSTR</b> form) is saved. The contents of this file may be submitted to a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certification authority</a> for processing.
+The name of the file in which the base64-encoded PKCS #10 (in <b>BSTR</b> form) is saved. The contents of this file may be submitted to a <a href="/windows/desktop/SecGloss/c-gly">certification authority</a> for processing.
 
 ## -returns
 
@@ -83,7 +83,7 @@ The name of the file in which the base64-encoded PKCS #10 (in <b>BSTR</b> form) 
 The return value is an <b>HRESULT</b>. A value of <b>S_OK</b> indicates success.
 
 If the method fails, the return value is an <b>HRESULT</b> indicating the error. For a list of common error codes, see 
-<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
+<a href="/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 ## -remarks
 
@@ -177,4 +177,3 @@ if ( pEnroll )
 CoUninitialize();
 
 ```
-

@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Ends the Restart Manager session. This function should be called by the primary installer that has previously started the session by calling the <a href="https://docs.microsoft.com/windows/desktop/api/restartmanager/nf-restartmanager-rmstartsession">RmStartSession</a> function. The <b>RmEndSession</b> function can be called by a secondary installer that is joined to the session once no more resources need to be registered by the secondary installer.
+Ends the Restart Manager session. This function should be called by the primary installer that has previously started the session by calling the <a href="/windows/desktop/api/restartmanager/nf-restartmanager-rmstartsession">RmStartSession</a> function. The <b>RmEndSession</b> function can be called by a secondary installer that is joined to the session once no more resources need to be registered by the secondary installer.
 
 ## -parameters
 
@@ -60,7 +60,7 @@ A handle to an existing Restart Manager session.
 
 ## -returns
 
-This is the most recent error received. The function can return one of the <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error codes</a> that are defined in Winerror.h.
+This is the most recent error received. The function can return one of the <a href="/windows/desktop/Debug/system-error-codes">system error codes</a> that are defined in Winerror.h.
 
 <table>
 <tr>
@@ -131,9 +131,8 @@ An invalid handle was passed to the function. No Restart Manager session exists 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/restartmanager/nf-restartmanager-rmjoinsession">RmJoinSession</a>
+<a href="/windows/desktop/api/restartmanager/nf-restartmanager-rmjoinsession">RmJoinSession</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/restartmanager/nf-restartmanager-rmstartsession">RmStartSession</a>
-
+<a href="/windows/desktop/api/restartmanager/nf-restartmanager-rmstartsession">RmStartSession</a>

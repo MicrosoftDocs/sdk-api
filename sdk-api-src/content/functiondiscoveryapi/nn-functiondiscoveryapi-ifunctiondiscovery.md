@@ -56,7 +56,7 @@ This interface is used by client programs to discover function instances, get th
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFunctionDiscovery</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IFunctionDiscovery</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFunctionDiscovery</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IFunctionDiscovery</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>IFunctionDiscovery</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryapi/nf-functiondiscoveryapi-ifunctiondiscovery-addinstance">AddInstance</a>
+<a href="/windows/desktop/api/functiondiscoveryapi/nf-functiondiscoveryapi-ifunctiondiscovery-addinstance">AddInstance</a>
 </td>
 <td align="left" width="63%">
 Creates or modifies a function instance.
@@ -80,7 +80,7 @@ Creates or modifies a function instance.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryapi/nf-functiondiscoveryapi-ifunctiondiscovery-createinstancecollectionquery">CreateInstanceCollectionQuery</a>
+<a href="/windows/desktop/api/functiondiscoveryapi/nf-functiondiscoveryapi-ifunctiondiscovery-createinstancecollectionquery">CreateInstanceCollectionQuery</a>
 </td>
 <td align="left" width="63%">
 Creates a query for a collection of specific function instances.
@@ -89,7 +89,7 @@ Creates a query for a collection of specific function instances.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryapi/nf-functiondiscoveryapi-ifunctiondiscovery-createinstancequery">CreateInstanceQuery</a>
+<a href="/windows/desktop/api/functiondiscoveryapi/nf-functiondiscoveryapi-ifunctiondiscovery-createinstancequery">CreateInstanceQuery</a>
 </td>
 <td align="left" width="63%">
 Creates a query for a specific function instance.
@@ -98,7 +98,7 @@ Creates a query for a specific function instance.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryapi/nf-functiondiscoveryapi-ifunctiondiscovery-getinstance">GetInstance</a>
+<a href="/windows/desktop/api/functiondiscoveryapi/nf-functiondiscoveryapi-ifunctiondiscovery-getinstance">GetInstance</a>
 </td>
 <td align="left" width="63%">
 Gets the specified function instance, based on identifier.
@@ -107,7 +107,7 @@ Gets the specified function instance, based on identifier.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryapi/nf-functiondiscoveryapi-ifunctiondiscovery-getinstancecollection">GetInstanceCollection</a>
+<a href="/windows/desktop/api/functiondiscoveryapi/nf-functiondiscoveryapi-ifunctiondiscovery-getinstancecollection">GetInstanceCollection</a>
 </td>
 <td align="left" width="63%">
 Gets the specified collection of function instances, based on category and subcategory.
@@ -116,7 +116,7 @@ Gets the specified collection of function instances, based on category and subca
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryapi/nf-functiondiscoveryapi-ifunctiondiscovery-removeinstance">RemoveInstance</a>
+<a href="/windows/desktop/api/functiondiscoveryapi/nf-functiondiscoveryapi-ifunctiondiscovery-removeinstance">RemoveInstance</a>
 </td>
 <td align="left" width="63%">
 Removes the specified function instance, based on category and subcategory.
@@ -124,4 +124,3 @@ Removes the specified function instance, based on category and subcategory.
 </td>
 </tr>
 </table>
-

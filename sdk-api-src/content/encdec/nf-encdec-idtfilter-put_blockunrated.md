@@ -93,9 +93,8 @@ Success.
 
 ## -remarks
 
-The filter passes this call through to the <b>EvalRat</b> object. For more information, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tvratings/nf-tvratings-ievalrat-put_blockunrated">IEvalRat::put_BlockUnRated</a>.
+The filter passes this call through to the <b>EvalRat</b> object. For more information, see <a href="/previous-versions/windows/desktop/api/tvratings/nf-tvratings-ievalrat-put_blockunrated">IEvalRat::put_BlockUnRated</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/encdec/nn-encdec-idtfilter">IDTFilter Interface</a>
-
+<a href="/previous-versions/windows/desktop/api/encdec/nn-encdec-idtfilter">IDTFilter Interface</a>

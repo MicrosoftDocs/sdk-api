@@ -66,7 +66,7 @@ A handle to the brush used to draw the image, if the state specified by the <i>f
 
 ### -param qfnCallBack [in]
 
-A pointer to an application-defined callback function used to render the image. This parameter is required if the image type in <i>fuFlags</i> is DST_COMPLEX. It is optional and can be <b>NULL</b> if the image type is DST_TEXT. For all other image types, this parameter is ignored. For more information about the callback function, see the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nc-winuser-drawstateproc">DrawStateProc</a> function.
+A pointer to an application-defined callback function used to render the image. This parameter is required if the image type in <i>fuFlags</i> is DST_COMPLEX. It is optional and can be <b>NULL</b> if the image type is DST_TEXT. For all other image types, this parameter is ignored. For more information about the callback function, see the <a href="/windows/desktop/api/winuser/nc-winuser-drawstateproc">DrawStateProc</a> function.
 
 ### -param lData [in]
 
@@ -74,7 +74,7 @@ Information about the image. The meaning of this parameter depends on the image 
 
 ### -param wData [in]
 
-Information about the image. The meaning of this parameter depends on the image type. It is, however, zero extended for use with the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nc-winuser-drawstateproc">DrawStateProc</a> function.
+Information about the image. The meaning of this parameter depends on the image type. It is, however, zero extended for use with the <a href="/windows/desktop/api/winuser/nc-winuser-drawstateproc">DrawStateProc</a> function.
 
 ### -param x [in]
 
@@ -244,18 +244,17 @@ If the function fails, the return value is zero.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nc-winuser-drawstateproc">DrawStateProc</a>
+<a href="/windows/desktop/api/winuser/nc-winuser-drawstateproc">DrawStateProc</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/painting-and-drawing-functions">Painting and Drawing Functions</a>
+<a href="/windows/desktop/gdi/painting-and-drawing-functions">Painting and Drawing Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/painting-and-drawing">Painting and Drawing Overview</a>
+<a href="/windows/desktop/gdi/painting-and-drawing">Painting and Drawing Overview</a>
 
 ## -remarks
 
 > [!NOTE]
 > The winuser.h header defines DrawState as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

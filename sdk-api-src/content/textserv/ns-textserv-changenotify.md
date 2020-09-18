@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Contains information that is associated with an <a href="https://docs.microsoft.com/windows/desktop/Controls/en-change--rich-edit-control-">EN_CHANGE</a> notification code. A windowless rich edit control sends this notification to its host window when the content of the control changes.
+Contains information that is associated with an <a href="/windows/desktop/Controls/en-change--rich-edit-control-">EN_CHANGE</a> notification code. A windowless rich edit control sends this notification to its host window when the content of the control changes.
 
 ## -struct-fields
 
@@ -112,5 +112,4 @@ Cookie for the undo action
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Controls/en-change--rich-edit-control-">EN_CHANGE</a>
-
+<a href="/windows/desktop/Controls/en-change--rich-edit-control-">EN_CHANGE</a>

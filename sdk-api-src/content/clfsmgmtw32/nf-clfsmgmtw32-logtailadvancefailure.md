@@ -63,7 +63,7 @@ A handle to the log on which to resolve the log full condition.
 ### -param dwReason [in]
 
 Win32 error code with the reason for the failure For a list of possible values, see 
-      <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">System Error Codes</a>.
+      <a href="/windows/desktop/Debug/system-error-codes">System Error Codes</a>.
 
 ## -returns
 
@@ -71,9 +71,8 @@ If the function succeeds, the return value is nonzero.
       
 
 If the function fails, the return value is zero. To get extended error information, call 
-       <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. Valid values include the following:
+       <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. Valid values include the following:
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/clfs/clfs-management-functions">CLFS Management Functions</a>
-
+<a href="/previous-versions/windows/desktop/clfs/clfs-management-functions">CLFS Management Functions</a>

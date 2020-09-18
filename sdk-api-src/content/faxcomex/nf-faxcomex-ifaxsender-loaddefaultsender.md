@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-The <b>IFaxSender::get_LoadDefaultSender</b> method fills the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxsender">FaxSender</a> object with the default sender information.
+The <b>IFaxSender::get_LoadDefaultSender</b> method fills the <a href="/previous-versions/windows/desktop/fax/-mfax-faxsender">FaxSender</a> object with the default sender information.
 
 ## -parameters
 
@@ -63,19 +63,18 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -remarks
 
-The default sender information is saved using the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxsender-savedefaultsender-vb">IFaxSender::SaveDefaultSender</a> method.
+The default sender information is saved using the <a href="/previous-versions/windows/desktop/fax/-mfax-faxsender-savedefaultsender-vb">IFaxSender::SaveDefaultSender</a> method.
 
-This method can return remote procedure call (RPC) return values. For more information, see <a href="https://docs.microsoft.com/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.
+This method can return remote procedure call (RPC) return values. For more information, see <a href="/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxsender">FaxSender</a>
+<a href="/previous-versions/windows/desktop/fax/-mfax-faxsender">FaxSender</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxsender">IFaxSender</a>
+<a href="/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxsender">IFaxSender</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-broadcasting-a-fax">Visual Basic Example</a>
-
+<a href="/previous-versions/windows/desktop/fax/-mfax-broadcasting-a-fax">Visual Basic Example</a>

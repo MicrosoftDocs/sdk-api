@@ -50,23 +50,22 @@ api_name:
 
 ## -description
 
-Sets the color of the insertion point. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/lvm-setinsertmarkcolor">LVM_SETINSERTMARKCOLOR</a> message explicitly.
+Sets the color of the insertion point. You can use this macro or send the <a href="/windows/desktop/Controls/lvm-setinsertmarkcolor">LVM_SETINSERTMARKCOLOR</a> message explicitly.
 
 ## -parameters
 
 ### -param hwnd
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the list-view control.
 
 ### -param color
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">COLORREF</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">COLORREF</a></b>
 
 <b>COLORREF</b>
 
 ## -remarks
 
-To use <b>ListView_SetInsertMarkColor</b>, specify Comctl32.dll version 6 in the manifest. For more information on manifests, see <a href="https://docs.microsoft.com/windows/desktop/Controls/cookbook-overview">Enabling Visual Styles</a>.
-
+To use <b>ListView_SetInsertMarkColor</b>, specify Comctl32.dll version 6 in the manifest. For more information on manifests, see <a href="/windows/desktop/Controls/cookbook-overview">Enabling Visual Styles</a>.

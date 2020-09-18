@@ -52,15 +52,15 @@ api_name:
 
 The 
 <b>get_CallHub</b> method gets a pointer to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itcallhub">ITCallHub</a> interface of the 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/callhub-object">CallHub object</a>.
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itcallhub">ITCallHub</a> interface of the 
+<a href="/windows/desktop/Tapi/callhub-object">CallHub object</a>.
 
 ## -parameters
 
 ### -param ppCallHub [out]
 
 Pointer to 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itcallhub">ITCallHub</a> interface of the CallHub object.
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itcallhub">ITCallHub</a> interface of the CallHub object.
 
 ## -returns
 
@@ -122,22 +122,21 @@ Insufficient memory exists to perform the operation.
 On some service providers, the call hub is not available until after the call is made.
 
 TAPI calls the <b>AddRef</b> method on the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itcallhub">ITCallHub</a> interface returned by <b>ITCallInfo::get_CallHub</b>. The application must call <b>Release</b> on the 
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itcallhub">ITCallHub</a> interface returned by <b>ITCallInfo::get_CallHub</b>. The application must call <b>Release</b> on the 
 <b>ITCallHub</b> interface to free resources associated with it.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/call-object">Call Object</a>
+<a href="/windows/desktop/Tapi/call-object">Call Object</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/callhub-object">CallHub object</a>
+<a href="/windows/desktop/Tapi/callhub-object">CallHub object</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itcallhub">ITCallHub</a>
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itcallhub">ITCallHub</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itcallinfo">ITCallInfo</a>
-
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itcallinfo">ITCallInfo</a>

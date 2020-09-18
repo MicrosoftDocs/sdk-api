@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-The <b>WINHTTP_PROXY_RESULT_ENTRY</b> structure contains a result entry from a call to <a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpgetproxyresult">WinHttpGetProxyResult</a>.
+The <b>WINHTTP_PROXY_RESULT_ENTRY</b> structure contains a result entry from a call to <a href="/windows/desktop/api/winhttp/nf-winhttp-winhttpgetproxyresult">WinHttpGetProxyResult</a>.
 
 ## -struct-fields
 
@@ -66,7 +66,7 @@ A BOOL that indicates if the result is bypassing a proxy (on an intranet). It is
 
 ### -field ProxyScheme
 
-An <a href="https://docs.microsoft.com/windows/desktop/WinHttp/internet-scheme">INTERNET_SCHEME</a> value that specifies the scheme of the proxy.
+An <a href="/windows/desktop/WinHttp/internet-scheme">INTERNET_SCHEME</a> value that specifies the scheme of the proxy.
 
 ### -field pwszProxy
 
@@ -74,21 +74,20 @@ A string that contains the hostname of the proxy.
 
 ### -field ProxyPort
 
-An <a href="https://docs.microsoft.com/windows/desktop/WinHttp/internet-port">INTERNET_PORT</a> value that specifies the port of the proxy.
+An <a href="/windows/desktop/WinHttp/internet-port">INTERNET_PORT</a> value that specifies the port of the proxy.
 
 ## -remarks
 
-This structure is stored in an array inside of a <a href="https://docs.microsoft.com/windows/desktop/api/winhttp/ns-winhttp-winhttp_proxy_result">WINHTTP_PROXY_RESULT</a> structure.
+This structure is stored in an array inside of a <a href="/windows/desktop/api/winhttp/ns-winhttp-winhttp_proxy_result">WINHTTP_PROXY_RESULT</a> structure.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winhttp/ns-winhttp-winhttp_proxy_result">WINHTTP_PROXY_RESULT</a>
+<a href="/windows/desktop/api/winhttp/ns-winhttp-winhttp_proxy_result">WINHTTP_PROXY_RESULT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpfreeproxyresult">WinHttpFreeProxyResult</a>
+<a href="/windows/desktop/api/winhttp/nf-winhttp-winhttpfreeproxyresult">WinHttpFreeProxyResult</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpgetproxyresult">WinHttpGetProxyResult</a>
-
+<a href="/windows/desktop/api/winhttp/nf-winhttp-winhttpgetproxyresult">WinHttpGetProxyResult</a>

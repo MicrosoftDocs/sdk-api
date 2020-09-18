@@ -58,7 +58,7 @@ The
 ### -param pItem [in]
 
 Pointer to an 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface that specifies the item to remove.
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface that specifies the item to remove.
 
 This parameter must not be <b>NULL</b>.
 
@@ -70,13 +70,12 @@ If the method fails, the return value is one of the following error codes.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/nn-sdoias-isdocollection">ISdoCollection</a>
+<a href="/windows/desktop/api/sdoias/nn-sdoias-isdocollection">ISdoCollection</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/nf-sdoias-isdocollection-add">ISdoCollection::Add</a>
+<a href="/windows/desktop/api/sdoias/nf-sdoias-isdocollection-add">ISdoCollection::Add</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/nf-sdoias-isdocollection-removeall">ISdoCollection::RemoveAll</a>
-
+<a href="/windows/desktop/api/sdoias/nf-sdoias-isdocollection-removeall">ISdoCollection::RemoveAll</a>

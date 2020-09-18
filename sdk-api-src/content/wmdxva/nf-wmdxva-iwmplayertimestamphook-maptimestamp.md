@@ -68,9 +68,8 @@ If the method succeeds, it returns S_OK. If it fails, it returns an <b>HRESULT</
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/wmformat/enabling-directx-video-acceleration">Enabling DirectX Video Acceleration</a>
+<a href="/windows/desktop/wmformat/enabling-directx-video-acceleration">Enabling DirectX Video Acceleration</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmdxva/nn-wmdxva-iwmplayertimestamphook">IWMPlayerTimestampHook Interface</a>
-
+<a href="/windows/desktop/api/wmdxva/nn-wmdxva-iwmplayertimestamphook">IWMPlayerTimestampHook Interface</a>

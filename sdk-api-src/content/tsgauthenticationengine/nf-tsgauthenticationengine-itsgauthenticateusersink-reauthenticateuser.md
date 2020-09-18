@@ -59,7 +59,7 @@ Notifies Remote Desktop Gateway (RD Gateway) that it should silently reauthenti
 
 A pointer to  a <b>ULONG</b> that contains  a value specific to this connection. Use 
        the value that was passed by the 
-       <a href="https://docs.microsoft.com/windows/desktop/api/tsgauthenticationengine/nf-tsgauthenticationengine-itsgauthenticationengine-authenticateuser">AuthenticateUser</a> 
+       <a href="/windows/desktop/api/tsgauthenticationengine/nf-tsgauthenticationengine-itsgauthenticationengine-authenticateuser">AuthenticateUser</a> 
        method.
 
 ## -returns
@@ -77,5 +77,4 @@ For a sample that uses the <b>ReauthenticateUser</b> method, see the [Remote Des
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tsgauthenticationengine/nn-tsgauthenticationengine-itsgauthenticateusersink">ITSGAuthenticateUserSink</a>
-
+<a href="/windows/desktop/api/tsgauthenticationengine/nn-tsgauthenticationengine-itsgauthenticateusersink">ITSGAuthenticateUserSink</a>

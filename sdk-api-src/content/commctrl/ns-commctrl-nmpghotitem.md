@@ -54,16 +54,16 @@ api_name:
 
 ## -description
 
-Contains information used with the <a href="https://docs.microsoft.com/windows/desktop/Controls/pgn-hotitemchange">PGN_HOTITEMCHANGE</a> notification code.
+Contains information used with the <a href="/windows/desktop/Controls/pgn-hotitemchange">PGN_HOTITEMCHANGE</a> notification code.
 
 ## -struct-fields
 
 ### -field hdr
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a></b>
+Type: <b><a href="/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a></b>
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a> structure that contains additional information about the notification.
+<a href="/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a> structure that contains additional information about the notification.
 
 ### -field idOld
 
@@ -79,7 +79,7 @@ Value of type <b>int</b> that specifies the command identifier of the highlighte
 
 ### -field dwFlags
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 <b>DWORD</b> that contains flags that indicate why the hot item has changed. This can be one or more of the following values.
 
@@ -111,4 +111,3 @@ If this flag is set, there is no new hot item and <b>idNew</b> does not contain 
 </td>
 </tr>
 </table>
-

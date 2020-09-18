@@ -56,13 +56,13 @@ Called when there is a failure that involves file properties and user interactio
 
 ### -param psi [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a>*</b>
+Type: <b><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a>*</b>
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a> that caused the failure.
+A pointer to the <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a> that caused the failure.
 
 ### -param pkey [in]
 
-Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ns-wtypes-propertykey">PROPERTYKEY</a>*</b>
+Type: <b>const <a href="/windows/desktop/api/wtypes/ns-wtypes-propertykey">PROPERTYKEY</a>*</b>
 
 A value that corresponds to the property that will be lost. A <b>NULL</b> value indicates that all properties were lost.
 
@@ -139,4 +139,3 @@ The user clicked <b>Cancel</b>. The entire copy job is being terminated. The han
 </td>
 </tr>
 </table>
-

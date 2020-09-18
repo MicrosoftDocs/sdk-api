@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-The <b>SecPkgContext_ClientCreds</b> structure specifies client credentials when calling the <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-querycontextattributesa">QueryContextAttributes (CredSSP)</a> function.
+The <b>SecPkgContext_ClientCreds</b> structure specifies client credentials when calling the <a href="/windows/desktop/api/sspi/nf-sspi-querycontextattributesa">QueryContextAttributes (CredSSP)</a> function.
 
 This structure is supported only on the server.
 
@@ -70,5 +70,4 @@ A pointer to a buffer that represents the client credentials.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-querycontextattributesa">QueryContextAttributes (CredSSP)</a>
-
+<a href="/windows/desktop/api/sspi/nf-sspi-querycontextattributesa">QueryContextAttributes (CredSSP)</a>

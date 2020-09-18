@@ -54,7 +54,7 @@ api_name:
     application’s needs. Many scenarios that TxF was developed for can be achieved through simpler and more readily 
     available techniques. Furthermore, TxF may not be available in future versions of Microsoft Windows. For more 
     information, and alternatives to TxF, please see 
-    <a href="https://docs.microsoft.com/windows/desktop/FileIO/deprecation-of-txf">Alternatives to using Transactional NTFS</a>.]
+    <a href="/windows/desktop/FileIO/deprecation-of-txf">Alternatives to using Transactional NTFS</a>.]
 
 Creates a context to be used to read replication records.
 
@@ -74,7 +74,7 @@ The last LSN in the range to be read.
 
 ### -param TxfFileId [in]
 
-The TxF identifier to search for in the LSN range. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/txfw32/ns-txfw32-txf_id">TXF_ID</a>.
+The TxF identifier to search for in the LSN range. For more information, see <a href="/windows/desktop/api/txfw32/ns-txfw32-txf_id">TXF_ID</a>.
 
 ### -param TxfLogContext [out]
 
@@ -85,13 +85,12 @@ A pointer to the context created.
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-       <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+       <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/txfw32/ns-txfw32-txf_id">TXF_ID</a>
+<a href="/windows/desktop/api/txfw32/ns-txfw32-txf_id">TXF_ID</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/txfw32/nf-txfw32-txflogdestroyreadcontext">TxfLogDestroyReadContext</a>
-
+<a href="/windows/desktop/api/txfw32/nf-txfw32-txflogdestroyreadcontext">TxfLogDestroyReadContext</a>

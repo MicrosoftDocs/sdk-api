@@ -53,7 +53,7 @@ api_name:
 The <b>ICertEncodeLongArray</b> interface provides methods for handling <b>Long</b> arrays used in certificate extensions.
 
  A certificate extension can be created by using a <b>Long</b> array stored in an 
-<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/writing-custom-extension-handlers">extension handler</a> COM object instantiated by the policy module. Each element in the array is a <b>Long</b> value.
+<a href="/windows/desktop/SecCrypto/writing-custom-extension-handlers">extension handler</a> COM object instantiated by the policy module. Each element in the array is a <b>Long</b> value.
 
 This interface is provided mainly as a demonstration for encoding custom extensions. The Certificate Services sample programs in the Platform Software Development Kit (SDK) contain source code for this interface.
 
@@ -63,7 +63,7 @@ Certificate Services interfaces support both apartment-threading and free-thread
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICertEncodeLongArray</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ICertEncodeLongArray</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICertEncodeLongArray</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ICertEncodeLongArray</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -78,16 +78,16 @@ The <b>ICertEncodeLongArray</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/certenc/nf-certenc-icertencodelongarray-decode">Decode</a>
+<a href="/windows/desktop/api/certenc/nf-certenc-icertencodelongarray-decode">Decode</a>
 </td>
 <td align="left" width="63%">
-Decodes an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">Abstract Syntax Notation One</a> (ASN.1)-encoded <b>Long</b> array and stores the resulting array of <b>Long</b> in the COM object.
+Decodes an <a href="/windows/desktop/SecGloss/a-gly">Abstract Syntax Notation One</a> (ASN.1)-encoded <b>Long</b> array and stores the resulting array of <b>Long</b> in the COM object.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/certenc/nf-certenc-icertencodelongarray-encode">Encode</a>
+<a href="/windows/desktop/api/certenc/nf-certenc-icertencodelongarray-encode">Encode</a>
 </td>
 <td align="left" width="63%">
 Performs ASN.1 encoding on a <b>Long</b> array stored in the COM object and returns the ASN.1-encoded <b>Long</b> array.
@@ -96,7 +96,7 @@ Performs ASN.1 encoding on a <b>Long</b> array stored in the COM object and retu
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/certenc/nf-certenc-icertencodelongarray-getcount">GetCount</a>
+<a href="/windows/desktop/api/certenc/nf-certenc-icertencodelongarray-getcount">GetCount</a>
 </td>
 <td align="left" width="63%">
 Returns the number of <b>Long</b> values in a <b>Long</b> array.
@@ -105,7 +105,7 @@ Returns the number of <b>Long</b> values in a <b>Long</b> array.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/certenc/nf-certenc-icertencodelongarray-getvalue">GetValue</a>
+<a href="/windows/desktop/api/certenc/nf-certenc-icertencodelongarray-getvalue">GetValue</a>
 </td>
 <td align="left" width="63%">
 Returns the <b>Long</b> value at a specified index of a <b>Long</b> array.
@@ -114,7 +114,7 @@ Returns the <b>Long</b> value at a specified index of a <b>Long</b> array.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/certenc/nf-certenc-icertencodelongarray-reset">Reset</a>
+<a href="/windows/desktop/api/certenc/nf-certenc-icertencodelongarray-reset">Reset</a>
 </td>
 <td align="left" width="63%">
 Resets a <b>Long</b> array to a specified number of elements.
@@ -123,7 +123,7 @@ Resets a <b>Long</b> array to a specified number of elements.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/certenc/nf-certenc-icertencodelongarray-setvalue">SetValue</a>
+<a href="/windows/desktop/api/certenc/nf-certenc-icertencodelongarray-setvalue">SetValue</a>
 </td>
 <td align="left" width="63%">
 Sets a <b>Long</b> value at a specified index of a <b>Long</b> array.
@@ -131,4 +131,3 @@ Sets a <b>Long</b> value at a specified index of a <b>Long</b> array.
 </td>
 </tr>
 </table>
-

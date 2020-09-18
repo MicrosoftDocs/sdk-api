@@ -56,11 +56,11 @@ Gets a pointer to one of the capture sink objects. You can use the capture sinks
 
 ### -param mfCaptureEngineSinkType [in]
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/mfcaptureengine/ne-mfcaptureengine-mf_capture_engine_sink_type">MF_CAPTURE_ENGINE_SINK_TYPE</a> value that specifies the capture sink to retrieve.
+An <a href="/windows/desktop/api/mfcaptureengine/ne-mfcaptureengine-mf_capture_engine_sink_type">MF_CAPTURE_ENGINE_SINK_TYPE</a> value that specifies the capture sink to retrieve.
 
 ### -param ppSink [out]
 
-Receives a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfcaptureengine/nn-mfcaptureengine-imfcapturesink">IMFCaptureSink</a> interface. The caller must release the interface.
+Receives a pointer to the <a href="/windows/desktop/api/mfcaptureengine/nn-mfcaptureengine-imfcapturesink">IMFCaptureSink</a> interface. The caller must release the interface.
 
 ## -returns
 
@@ -97,5 +97,4 @@ Invalid argument.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfcaptureengine/nn-mfcaptureengine-imfcaptureengine">IMFCaptureEngine</a>
-
+<a href="/windows/desktop/api/mfcaptureengine/nn-mfcaptureengine-imfcaptureengine">IMFCaptureEngine</a>

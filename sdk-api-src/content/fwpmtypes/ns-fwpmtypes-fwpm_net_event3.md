@@ -53,7 +53,7 @@ api_name:
 ## -description
 
 The <b>FWPM_NET_EVENT3</b> structure contains information about all event types.
-[FWPM_NET_EVENT2](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_net_event2) is available. For Windows 7, [FWPM_NET_EVENT1](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_net_event1) is available. For Windows Vista, [FWPM_NET_EVENT0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_net_event0) is available.</div><div> </div>
+[FWPM_NET_EVENT2](/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_net_event2) is available. For Windows 7, [FWPM_NET_EVENT1](/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_net_event1) is available. For Windows Vista, [FWPM_NET_EVENT0](/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_net_event0) is available.</div><div> </div>
 
 ## -struct-fields
 
@@ -119,5 +119,4 @@ Information about a MAC layer drop event.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>
-
+<a href="/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>

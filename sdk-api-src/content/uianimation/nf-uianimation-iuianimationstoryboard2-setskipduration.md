@@ -60,13 +60,13 @@ The offset, or amount of time, to skip at the beginning of the storyboard.
 
 ## -returns
 
-Returns S_OK if successful; otherwise an <b>HRESULT</b> error code. See <a href="https://docs.microsoft.com/windows/desktop/UIAnimation/uianimation-error-codes">Windows Animation Error Codes</a> for a list of error codes.
+Returns S_OK if successful; otherwise an <b>HRESULT</b> error code. See <a href="/windows/desktop/UIAnimation/uianimation-error-codes">Windows Animation Error Codes</a> for a list of error codes.
 
 ## -remarks
 
 Calls to <b>SetSkipDuration</b> fail if the storyboard has been scheduled.
 
-<b>SetSkipDuration</b> does not delay the start of a scheduled storyboard. See <a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationstoryboard2-setlongestacceptabledelay">IUIAnimationStoryboard2::SetLongestAcceptableDelay</a> for more info on how to set a delay for a scheduled storyboard.
+<b>SetSkipDuration</b> does not delay the start of a scheduled storyboard. See <a href="/windows/desktop/api/uianimation/nf-uianimation-iuianimationstoryboard2-setlongestacceptabledelay">IUIAnimationStoryboard2::SetLongestAcceptableDelay</a> for more info on how to set a delay for a scheduled storyboard.
 
 This diagram shows a skip duration, or offset, for a storyboard. 
 
@@ -74,9 +74,8 @@ This diagram shows a skip duration, or offset, for a storyboard.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nn-uianimation-iuianimationstoryboard2">IUIAnimationStoryboard2</a>
+<a href="/windows/desktop/api/uianimation/nn-uianimation-iuianimationstoryboard2">IUIAnimationStoryboard2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationstoryboard2-setlongestacceptabledelay">SetLongestAcceptableDelay</a>
-
+<a href="/windows/desktop/api/uianimation/nf-uianimation-iuianimationstoryboard2-setlongestacceptabledelay">SetLongestAcceptableDelay</a>

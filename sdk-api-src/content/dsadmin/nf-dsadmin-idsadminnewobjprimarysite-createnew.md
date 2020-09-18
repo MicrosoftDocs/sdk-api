@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>IDsAdminNewObjPrimarySite::CreateNew</b> method enables a primary object creation extension to create a temporary directory service object in Active Directory Domain Services. This object is then passed to each object creation extension in the extension's <a href="https://docs.microsoft.com/windows/desktop/api/dsadmin/nf-dsadmin-idsadminnewobjext-setobject">IDsAdminNewObjExt::SetObject</a> method.
+The <b>IDsAdminNewObjPrimarySite::CreateNew</b> method enables a primary object creation extension to create a temporary directory service object in Active Directory Domain Services. This object is then passed to each object creation extension in the extension's <a href="/windows/desktop/api/dsadmin/nf-dsadmin-idsadminnewobjext-setobject">IDsAdminNewObjExt::SetObject</a> method.
 
 ## -parameters
 
@@ -65,9 +65,8 @@ If the  method
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dsadmin/nf-dsadmin-idsadminnewobjext-setobject">IDsAdminNewObjExt::SetObject</a>
+<a href="/windows/desktop/api/dsadmin/nf-dsadmin-idsadminnewobjext-setobject">IDsAdminNewObjExt::SetObject</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dsadmin/nn-dsadmin-idsadminnewobjprimarysite">IDsAdminNewObjPrimarySite</a>
-
+<a href="/windows/desktop/api/dsadmin/nn-dsadmin-idsadminnewobjprimarysite">IDsAdminNewObjPrimarySite</a>

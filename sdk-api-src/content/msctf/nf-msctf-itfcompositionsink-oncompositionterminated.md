@@ -56,11 +56,11 @@ Called when a composition is terminated.
 
 ### -param ecWrite [in]
 
-Contains a <a href="https://docs.microsoft.com/windows/desktop/TSF/tfeditcookie">TfEditCookie</a> value that identifies the edit context. This is the same value passed for <i>ecWrite</i> in the call to <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcontextcomposition-startcomposition">ITfContextComposition::StartComposition</a>.
+Contains a <a href="/windows/desktop/TSF/tfeditcookie">TfEditCookie</a> value that identifies the edit context. This is the same value passed for <i>ecWrite</i> in the call to <a href="/windows/desktop/api/msctf/nf-msctf-itfcontextcomposition-startcomposition">ITfContextComposition::StartComposition</a>.
 
 ### -param pComposition [in]
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfcomposition">ITfComposition</a> object terminated.
+Pointer to the <a href="/windows/desktop/api/msctf/nn-msctf-itfcomposition">ITfComposition</a> object terminated.
 
 ## -returns
 
@@ -73,4 +73,3 @@ There is no required action for the TSF text service when this method is called.
 ## -see-also
 
 [ITfComposition interface](nn-msctf-itfcomposition.md), [ITfCompositionSink interface](nn-msctf-itfcompositionsink.md), [ITfContextComposition::StartComposition](nf-msctf-itfcontextcomposition-startcomposition.md), [TfEditCookie](/windows/desktop/TSF/tfeditcookie)
-

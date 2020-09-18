@@ -54,7 +54,7 @@ Exposes methods that represent applications to Add/Remove Programs in Control Pa
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPublishedApp</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/shappmgr/nn-shappmgr-ishellapp">IShellApp</a>. <b>IPublishedApp</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPublishedApp</b> interface inherits from <a href="/windows/desktop/api/shappmgr/nn-shappmgr-ishellapp">IShellApp</a>. <b>IPublishedApp</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IPublishedApp</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shappmgr/nf-shappmgr-ipublishedapp-getpublishedappinfo">GetPublishedAppInfo</a>
+<a href="/windows/desktop/api/shappmgr/nf-shappmgr-ipublishedapp-getpublishedappinfo">GetPublishedAppInfo</a>
 </td>
 <td align="left" width="63%">
 Gets publishing-related information about an application published by an application publisher.
@@ -79,7 +79,7 @@ Gets publishing-related information about an application published by an applica
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shappmgr/nf-shappmgr-ipublishedapp-install">Install</a>
+<a href="/windows/desktop/api/shappmgr/nf-shappmgr-ipublishedapp-install">Install</a>
 </td>
 <td align="left" width="63%">
 Installs an application published by an application publisher. This method is invoked when the user selects <b>Add</b> or <b>Add Later</b> in Add/Remove Programs in Control Panel.
@@ -88,7 +88,7 @@ Installs an application published by an application publisher. This method is in
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shappmgr/nf-shappmgr-ipublishedapp-unschedule">Unschedule</a>
+<a href="/windows/desktop/api/shappmgr/nf-shappmgr-ipublishedapp-unschedule">Unschedule</a>
 </td>
 <td align="left" width="63%">
 Cancels the installation of an application published by an application publisher.
@@ -99,17 +99,16 @@ Cancels the installation of an application published by an application publisher
 
 ## -remarks
 
-To publish applications to Add/Remove Programs in Control Panel, you must support <a href="https://docs.microsoft.com/windows/desktop/api/shappmgr/nn-shappmgr-ienumpublishedapps">IEnumPublishedApps</a>, <a href="https://docs.microsoft.com/windows/desktop/api/shappmgr/nn-shappmgr-iapppublisher">IAppPublisher</a> and <b>IPublishedApp</b>.
+To publish applications to Add/Remove Programs in Control Panel, you must support <a href="/windows/desktop/api/shappmgr/nn-shappmgr-ienumpublishedapps">IEnumPublishedApps</a>, <a href="/windows/desktop/api/shappmgr/nn-shappmgr-iapppublisher">IAppPublisher</a> and <b>IPublishedApp</b>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shappmgr/nn-shappmgr-iapppublisher">IAppPublisher</a>
+<a href="/windows/desktop/api/shappmgr/nn-shappmgr-iapppublisher">IAppPublisher</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shappmgr/nn-shappmgr-ienumpublishedapps">IEnumPublishedApps</a>
+<a href="/windows/desktop/api/shappmgr/nn-shappmgr-ienumpublishedapps">IEnumPublishedApps</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shappmgr/nn-shappmgr-ishellapp">IShellApp</a>
-
+<a href="/windows/desktop/api/shappmgr/nn-shappmgr-ishellapp">IShellApp</a>

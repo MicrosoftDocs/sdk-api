@@ -18,5 +18,4 @@ To develop Distributed Transaction Coordinator WMI Provider, you need these head
  * [wbemcli.h](../wbemcli/index.md)
 
 For programming guidance for this technology, see:
-* [Distributed Transaction Coordinator WMI Provider](https://docs.microsoft.com/previous-versions/windows/desktop/msdtcwmi)
-
+* [Distributed Transaction Coordinator WMI Provider](/previous-versions/windows/desktop/msdtcwmi)

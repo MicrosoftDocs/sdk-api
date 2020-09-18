@@ -76,5 +76,4 @@ RSVP transports the data contained in an <b>RSVP_POLICY</b> structure on behalf 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/qossp/ns-qossp-rsvp_policy_info">RSVP_POLICY_INFO</a>
-
+<a href="/windows/desktop/api/qossp/ns-qossp-rsvp_policy_info">RSVP_POLICY_INFO</a>

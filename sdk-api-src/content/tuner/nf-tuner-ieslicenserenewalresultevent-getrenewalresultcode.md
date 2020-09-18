@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Gets a constant from a Protected Broadcast Driver Architecture (PBDA) <b>LicenseRenewalResult</b> event that indicates which step in the renewal process caused the renewal to succeed or fail. A client can call the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-ieslicenserenewalresultevent-isrenewalsuccessful">IsRenewalSuccessful</a> method to determine if the renewal was successful, and then call this method to get information about the reason for any failure.
+Gets a constant from a Protected Broadcast Driver Architecture (PBDA) <b>LicenseRenewalResult</b> event that indicates which step in the renewal process caused the renewal to succeed or fail. A client can call the <a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-ieslicenserenewalresultevent-isrenewalsuccessful">IsRenewalSuccessful</a> method to determine if the renewal was successful, and then call this method to get information about the reason for any failure.
 
 ## -parameters
 
@@ -137,5 +137,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-ieslicenserenewalresultevent">IESLicenseRenewalResultEvent</a>
-
+<a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-ieslicenserenewalresultevent">IESLicenseRenewalResultEvent</a>

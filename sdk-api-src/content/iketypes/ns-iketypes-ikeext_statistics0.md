@@ -53,7 +53,7 @@ api_name:
 ## -description
 
 The <b>IKEEXT_STATISTICS0</b> structure stores various IKE/AuthIP statistics.
-[IKEEXT_STATISTICS1](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_statistics1) is available.</div><div> </div>
+[IKEEXT_STATISTICS1](/windows/desktop/api/iketypes/ns-iketypes-ikeext_statistics1) is available.</div><div> </div>
 
 ## -struct-fields
 
@@ -61,25 +61,24 @@ The <b>IKEEXT_STATISTICS0</b> structure stores various IKE/AuthIP statistics.
 
 Statistics specific to IKE.
 
-See [IKEEXT_KEYMODULE_STATISTICS0](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_keymodule_statistics0) for more information.
+See [IKEEXT_KEYMODULE_STATISTICS0](/windows/desktop/api/iketypes/ns-iketypes-ikeext_keymodule_statistics0) for more information.
 
 ### -field authipStatistics
 
 Statistics specific to AuthIP.
 
-See [IKEEXT_KEYMODULE_STATISTICS0](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_keymodule_statistics0) for more information.
+See [IKEEXT_KEYMODULE_STATISTICS0](/windows/desktop/api/iketypes/ns-iketypes-ikeext_keymodule_statistics0) for more information.
 
 ### -field commonStatistics
 
 Statistics common to IKE and AuthIP.
 
-See [IKEEXT_COMMON_STATISTICS0](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_common_statistics0) for more information.
+See [IKEEXT_COMMON_STATISTICS0](/windows/desktop/api/iketypes/ns-iketypes-ikeext_common_statistics0) for more information.
 
 ## -see-also
 
-[IKEEXT_KEYMODULE_STATISTICS0](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_keymodule_statistics0)
+[IKEEXT_KEYMODULE_STATISTICS0](/windows/desktop/api/iketypes/ns-iketypes-ikeext_keymodule_statistics0)
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>
-
+<a href="/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>

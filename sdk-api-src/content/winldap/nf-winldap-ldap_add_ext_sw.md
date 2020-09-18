@@ -67,7 +67,7 @@ A pointer to a null-terminated string that contains the distinguished name of th
 ### -param attrs [in]
 
 An array of pointers to 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/ns-winldap-ldapmoda">LDAPMod</a> structures. Each structure specifies a single attribute. For more information, see the  Remarks section.
+<a href="/previous-versions/windows/desktop/api/winldap/ns-winldap-ldapmoda">LDAPMod</a> structures. Each structure specifies a single attribute. For more information, see the  Remarks section.
 
 ### -param ServerControls [in]
 
@@ -81,24 +81,24 @@ A list of client controls.
 
 If the function succeeds, <b>LDAP_SUCCESS</b> is returned.
 
-If the function fails, an error code is returned. For more information, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/ldap/return-values">Return Values</a>.
+If the function fails, an error code is returned. For more information, see <a href="/previous-versions/windows/desktop/ldap/return-values">Return Values</a>.
 
 ## -remarks
 
 The parameters and effects of <b>ldap_add_ext_s</b> include those of 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_add_s">ldap_add_s</a>. The extended routine includes additional parameters to support client and server controls.
+<a href="/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_add_s">ldap_add_s</a>. The extended routine includes additional parameters to support client and server controls.
 
 Before calling <b>ldap_add_ext_s</b>, create an entry by specifying its attributes in 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/ns-winldap-ldapmoda">LDAPMod</a> structures. Set the <b>mod_op</b> member of the each structure to <b>LDAP_MOD_ADD</b>, and set the <b>mod_type</b> and <b>mod_vals</b> members as appropriate for your entry.
+<a href="/previous-versions/windows/desktop/api/winldap/ns-winldap-ldapmoda">LDAPMod</a> structures. Set the <b>mod_op</b> member of the each structure to <b>LDAP_MOD_ADD</b>, and set the <b>mod_type</b> and <b>mod_vals</b> members as appropriate for your entry.
 
 Upon completion of the add operation, <b>ldap_add_ext_s</b> returns to the caller. Use 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_add_ext">ldap_add_ext</a> if you prefer to have the operation completed asynchronously.
+<a href="/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_add_ext">ldap_add_ext</a> if you prefer to have the operation completed asynchronously.
 
 Multithreading: Calls to <b>ldap_add_ext_s</b> are thread-safe.
 
 <div class="alert"><b>Note</b>  When connecting to an LDAP 2 server, the application must perform a bind operation, by calling one of the 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_bind">ldap_bind</a> or 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_simple_bind">ldap_simple_bind</a> routines, before attempting other operations.</div>
+<a href="/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_bind">ldap_bind</a> or 
+<a href="/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_simple_bind">ldap_simple_bind</a> routines, before attempting other operations.</div>
 <div> </div>
 <i>ServerControls</i> and <i>ClientControls</i> are optional and should be set to <b>NULL</b> if not used.
 
@@ -111,37 +111,36 @@ Multithreading: Calls to <b>ldap_add_ext_s</b> are thread-safe.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/ldap/extended-controls">Extended Controls</a>
+<a href="/previous-versions/windows/desktop/ldap/extended-controls">Extended Controls</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/ldap/functions">Functions</a>
+<a href="/previous-versions/windows/desktop/ldap/functions">Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/ns-winldap-ldapmoda">LDAPMod</a>
+<a href="/previous-versions/windows/desktop/api/winldap/ns-winldap-ldapmoda">LDAPMod</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/ldap/return-values">Return Values</a>
+<a href="/previous-versions/windows/desktop/ldap/return-values">Return Values</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/ldap/using-controls">Using Controls</a>
+<a href="/previous-versions/windows/desktop/ldap/using-controls">Using Controls</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_add_ext">ldap_add_ext</a>
+<a href="/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_add_ext">ldap_add_ext</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_add_s">ldap_add_s</a>
+<a href="/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_add_s">ldap_add_s</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_bind">ldap_bind</a>
+<a href="/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_bind">ldap_bind</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_simple_bind">ldap_simple_bind</a>
-
+<a href="/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_simple_bind">ldap_simple_bind</a>

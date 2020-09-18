@@ -53,13 +53,13 @@ api_name:
 This topic applies to Windows XP Service Pack 1 or later.
         
 
-The <b>IMSVidStreamBufferSourceEvent</b> interface is used to receive events from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd695136(v=vs.85)">MSVidStreamBufferSource</a> object.
+The <b>IMSVidStreamBufferSourceEvent</b> interface is used to receive events from the <a href="/previous-versions/windows/desktop/legacy/dd695136(v=vs.85)">MSVidStreamBufferSource</a> object.
 
 This interface is an outgoing connection-point interface. To receive events from a playback device, implement this interface and then call the <b>IConnectionPoint::Advise</b> method to establish a connection.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMSVidStreamBufferSourceEvent</b> interface inherits from <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/segment/nn-segment-imsvidfileplaybackevent">IMSVidFilePlaybackEvent</a>. <b>IMSVidStreamBufferSourceEvent</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMSVidStreamBufferSourceEvent</b> interface inherits from <a href="/previous-versions/windows/desktop/api/segment/nn-segment-imsvidfileplaybackevent">IMSVidFilePlaybackEvent</a>. <b>IMSVidStreamBufferSourceEvent</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -74,7 +74,7 @@ The <b>IMSVidStreamBufferSourceEvent</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidstreambuffersourceevent-certificatefailure">CertificateFailure</a>
+<a href="/windows/desktop/api/segment/nf-segment-imsvidstreambuffersourceevent-certificatefailure">CertificateFailure</a>
 </td>
 <td align="left" width="63%">
 The object failed to get an encryption/decryption license.
@@ -83,7 +83,7 @@ The object failed to get an encryption/decryption license.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidstreambuffersourceevent-certificatesuccess">CertificateSuccess</a>
+<a href="/windows/desktop/api/segment/nf-segment-imsvidstreambuffersourceevent-certificatesuccess">CertificateSuccess</a>
 </td>
 <td align="left" width="63%">
 The object succeeded in getting an encryption/decryption license.
@@ -92,7 +92,7 @@ The object succeeded in getting an encryption/decryption license.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidstreambuffersourceevent-contentbecomingstale">ContentBecomingStale</a>
+<a href="/windows/desktop/api/segment/nf-segment-imsvidstreambuffersourceevent-contentbecomingstale">ContentBecomingStale</a>
 </td>
 <td align="left" width="63%">
 Called when the stream buffer source lags behind the stream buffer sink.
@@ -101,7 +101,7 @@ Called when the stream buffer source lags behind the stream buffer sink.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidstreambuffersourceevent-ratingsblocked">RatingsBlocked</a>
+<a href="/windows/desktop/api/segment/nf-segment-imsvidstreambuffersourceevent-ratingsblocked">RatingsBlocked</a>
 </td>
 <td align="left" width="63%">
 The object has blocked the stream, because the rating is not allowed under the current permissions.
@@ -110,7 +110,7 @@ The object has blocked the stream, because the rating is not allowed under the c
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidstreambuffersourceevent-ratingschanged">RatingsChanged</a>
+<a href="/windows/desktop/api/segment/nf-segment-imsvidstreambuffersourceevent-ratingschanged">RatingsChanged</a>
 </td>
 <td align="left" width="63%">
 The current rating has changed.
@@ -119,7 +119,7 @@ The current rating has changed.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidstreambuffersourceevent-ratingsunblocked">RatingsUnblocked</a>
+<a href="/windows/desktop/api/segment/nf-segment-imsvidstreambuffersourceevent-ratingsunblocked">RatingsUnblocked</a>
 </td>
 <td align="left" width="63%">
 The object has unblocked the stream.
@@ -128,7 +128,7 @@ The object has unblocked the stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidstreambuffersourceevent-staledataread">StaleDataRead</a>
+<a href="/windows/desktop/api/segment/nf-segment-imsvidstreambuffersourceevent-staledataread">StaleDataRead</a>
 </td>
 <td align="left" width="63%">
 Called when the <b>MSVidStreamBufferSource</b> object reads from a temporary recording file that has been marked for deletion.
@@ -137,7 +137,7 @@ Called when the <b>MSVidStreamBufferSource</b> object reads from a temporary rec
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidstreambuffersourceevent-stalefiledeleted">StaleFileDeleted</a>
+<a href="/windows/desktop/api/segment/nf-segment-imsvidstreambuffersourceevent-stalefiledeleted">StaleFileDeleted</a>
 </td>
 <td align="left" width="63%">
 Called when a temporary recording file is deleted.
@@ -146,7 +146,7 @@ Called when a temporary recording file is deleted.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidstreambuffersourceevent-timehole">TimeHole</a>
+<a href="/windows/desktop/api/segment/nf-segment-imsvidstreambuffersourceevent-timehole">TimeHole</a>
 </td>
 <td align="left" width="63%">
 Called when playback reaches a gap in the recorded content.
@@ -161,9 +161,8 @@ To declare the interface identifier (IID) for this interface, use the <b>__uuido
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/segment/nn-segment-imsvidfileplaybackevent">IMSVidFilePlaybackEvent</a>
+<a href="/previous-versions/windows/desktop/api/segment/nn-segment-imsvidfileplaybackevent">IMSVidFilePlaybackEvent</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/video-control-interfaces">Video Control Event Interfaces</a>
-
+<a href="/previous-versions/windows/desktop/mstv/video-control-interfaces">Video Control Event Interfaces</a>

@@ -58,9 +58,8 @@ Indicates that the reader should emit bytes as textual xml.
 
 ### -field encoding
 
-The base type for all types that derive from <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_xml_writer_encoding">WS_XML_WRITER_ENCODING</a>.
+The base type for all types that derive from <a href="/windows/desktop/api/webservices/ns-webservices-ws_xml_writer_encoding">WS_XML_WRITER_ENCODING</a>.
 
 ### -field charSet
 
-Indicates the text encoding of the bytes.  This may not be <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_charset">WS_CHARSET_AUTO</a>.
-
+Indicates the text encoding of the bytes.  This may not be <a href="/windows/desktop/api/webservices/ne-webservices-ws_charset">WS_CHARSET_AUTO</a>.

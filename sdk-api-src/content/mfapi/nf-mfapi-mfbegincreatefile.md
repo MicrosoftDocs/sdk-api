@@ -72,7 +72,7 @@ Pointer to a null-terminated string containing the file name.
 
 ### -param pCallback [in]
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfasynccallback">IMFAsyncCallback</a> interface of a callback object. The caller must implement this interface
+Pointer to the <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfasynccallback">IMFAsyncCallback</a> interface of a callback object. The caller must implement this interface
 
 ### -param pState [in]
 
@@ -80,7 +80,7 @@ Pointer to the <b>IUnknown</b> interface of a state object, defined by the calle
 
 ### -param ppCancelCookie [out]
 
-Receives an <b>IUnknown</b> pointer or the value <b>NULL</b>. If the value is not <b>NULL</b>, you can cancel the asynchronous operation by passing this pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfapi/nf-mfapi-mfcancelcreatefile">MFCancelCreateFile</a> function. The caller must release the interface. This parameter is optional and can be <b>NULL</b>.
+Receives an <b>IUnknown</b> pointer or the value <b>NULL</b>. If the value is not <b>NULL</b>, you can cancel the asynchronous operation by passing this pointer to the <a href="/windows/desktop/api/mfapi/nf-mfapi-mfcancelcreatefile">MFCancelCreateFile</a> function. The caller must release the interface. This parameter is optional and can be <b>NULL</b>.
 
 ## -returns
 
@@ -106,9 +106,8 @@ The function succeeded.
 
 ## -remarks
 
-When the request is completed, the callback object's <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfasynccallback-invoke">IMFAsyncCallback::Invoke</a> method is called. The callback object should then call the <a href="https://docs.microsoft.com/windows/desktop/api/mfapi/nf-mfapi-mfendcreatefile">MFEndCreateFile</a> function to get a pointer to the byte stream.
+When the request is completed, the callback object's <a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfasynccallback-invoke">IMFAsyncCallback::Invoke</a> method is called. The callback object should then call the <a href="/windows/desktop/api/mfapi/nf-mfapi-mfendcreatefile">MFEndCreateFile</a> function to get a pointer to the byte stream.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>
-
+<a href="/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>

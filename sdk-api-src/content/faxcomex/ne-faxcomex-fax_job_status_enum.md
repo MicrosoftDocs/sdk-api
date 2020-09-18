@@ -101,13 +101,12 @@ The fax job is being routed.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxjobstatus-status-vb">IFaxJobStatus::get_Status</a>
+<a href="/previous-versions/windows/desktop/fax/-mfax-faxjobstatus-status-vb">IFaxJobStatus::get_Status</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxoutgoingjob-status-vb">IFaxOutgoingJob::get_Status</a>
+<a href="/previous-versions/windows/desktop/fax/-mfax-faxoutgoingjob-status-vb">IFaxOutgoingJob::get_Status</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxincomingjob-status">Status</a>
-
+<a href="/previous-versions/windows/desktop/fax/-mfax-faxincomingjob-status">Status</a>

@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-Describes the fields in common between the  <a href="https://docs.microsoft.com/windows/desktop/api/wdspxe/ns-wdspxe-pxe_dhcpv6_message">PXE_DHCPV6_MESSAGE</a> and <a href="https://docs.microsoft.com/windows/desktop/api/wdspxe/ns-wdspxe-pxe_dhcpv6_relay_message">PXE_DHCPV6_RELAY_MESSAGE</a> structures.
+Describes the fields in common between the  <a href="/windows/desktop/api/wdspxe/ns-wdspxe-pxe_dhcpv6_message">PXE_DHCPV6_MESSAGE</a> and <a href="/windows/desktop/api/wdspxe/ns-wdspxe-pxe_dhcpv6_relay_message">PXE_DHCPV6_RELAY_MESSAGE</a> structures.
 
 For more information about the DHCPv6 messages, developers should refer to the Dynamic Host Configuration Protocol for IPv6 (<a href="https://www.ietf.org/rfc/rfc3315.txt">RFC 3315</a>) maintained by The Internet Engineering Task Force (IETF).
 
@@ -67,4 +67,3 @@ The DHCPv6 Message Type.
 ### -field Message
 
 The remainder of the packet which must be interpreted differently based on the <b>MessageType</b>.
-

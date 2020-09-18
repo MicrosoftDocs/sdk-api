@@ -54,7 +54,7 @@ This interface controls the debug information queue, and can only be used if the
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDXGIInfoQueue</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDXGIInfoQueue</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDXGIInfoQueue</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDXGIInfoQueue</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IDXGIInfoQueue</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dxgidebug/nf-dxgidebug-idxgiinfoqueue-addapplicationmessage">AddApplicationMessage</a>
+<a href="/windows/desktop/api/dxgidebug/nf-dxgidebug-idxgiinfoqueue-addapplicationmessage">AddApplicationMessage</a>
 </td>
 <td align="left" width="63%">
 Adds a user-defined message to the message queue and sends that message to the debug output.
@@ -78,7 +78,7 @@ Adds a user-defined message to the message queue and sends that message to the d
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dxgidebug/nf-dxgidebug-idxgiinfoqueue-addmessage">AddMessage</a>
+<a href="/windows/desktop/api/dxgidebug/nf-dxgidebug-idxgiinfoqueue-addmessage">AddMessage</a>
 </td>
 <td align="left" width="63%">
 Adds a debug message to the message queue and sends that message to the debug output.
@@ -87,7 +87,7 @@ Adds a debug message to the message queue and sends that message to the debug ou
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dxgidebug/nf-dxgidebug-idxgiinfoqueue-addretrievalfilterentries">AddRetrievalFilterEntries</a>
+<a href="/windows/desktop/api/dxgidebug/nf-dxgidebug-idxgiinfoqueue-addretrievalfilterentries">AddRetrievalFilterEntries</a>
 </td>
 <td align="left" width="63%">
 Adds retrieval filters to the top of the retrieval-filter stack.
@@ -96,7 +96,7 @@ Adds retrieval filters to the top of the retrieval-filter stack.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dxgidebug/nf-dxgidebug-idxgiinfoqueue-addstoragefilterentries">AddStorageFilterEntries</a>
+<a href="/windows/desktop/api/dxgidebug/nf-dxgidebug-idxgiinfoqueue-addstoragefilterentries">AddStorageFilterEntries</a>
 </td>
 <td align="left" width="63%">
 Adds storage filters to the top of the storage-filter stack.
@@ -105,7 +105,7 @@ Adds storage filters to the top of the storage-filter stack.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dxgidebug/nf-dxgidebug-idxgiinfoqueue-clearretrievalfilter">ClearRetrievalFilter</a>
+<a href="/windows/desktop/api/dxgidebug/nf-dxgidebug-idxgiinfoqueue-clearretrievalfilter">ClearRetrievalFilter</a>
 </td>
 <td align="left" width="63%">
 Removes a retrieval filter from the top of the retrieval-filter stack.
@@ -114,7 +114,7 @@ Removes a retrieval filter from the top of the retrieval-filter stack.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dxgidebug/nf-dxgidebug-idxgiinfoqueue-clearstoragefilter">ClearStorageFilter</a>
+<a href="/windows/desktop/api/dxgidebug/nf-dxgidebug-idxgiinfoqueue-clearstoragefilter">ClearStorageFilter</a>
 </td>
 <td align="left" width="63%">
 Removes a storage filter from the top of the storage-filter stack.
@@ -123,7 +123,7 @@ Removes a storage filter from the top of the storage-filter stack.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dxgidebug/nf-dxgidebug-idxgiinfoqueue-clearstoredmessages">ClearStoredMessages</a>
+<a href="/windows/desktop/api/dxgidebug/nf-dxgidebug-idxgiinfoqueue-clearstoredmessages">ClearStoredMessages</a>
 </td>
 <td align="left" width="63%">
 Clears all messages from the message queue.
@@ -132,7 +132,7 @@ Clears all messages from the message queue.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dxgidebug/nf-dxgidebug-idxgiinfoqueue-getbreakoncategory">GetBreakOnCategory</a>
+<a href="/windows/desktop/api/dxgidebug/nf-dxgidebug-idxgiinfoqueue-getbreakoncategory">GetBreakOnCategory</a>
 </td>
 <td align="left" width="63%">
 Determines whether the break on a message category is turned on or off.
@@ -141,7 +141,7 @@ Determines whether the break on a message category is turned on or off.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dxgidebug/nf-dxgidebug-idxgiinfoqueue-getbreakonid">GetBreakOnID</a>
+<a href="/windows/desktop/api/dxgidebug/nf-dxgidebug-idxgiinfoqueue-getbreakonid">GetBreakOnID</a>
 </td>
 <td align="left" width="63%">
 Determines whether the break on a message identifier is turned on or off.
@@ -150,7 +150,7 @@ Determines whether the break on a message identifier is turned on or off.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dxgidebug/nf-dxgidebug-idxgiinfoqueue-getbreakonseverity">GetBreakOnSeverity</a>
+<a href="/windows/desktop/api/dxgidebug/nf-dxgidebug-idxgiinfoqueue-getbreakonseverity">GetBreakOnSeverity</a>
 </td>
 <td align="left" width="63%">
 Determines whether the break on a message severity level is turned on or off.
@@ -159,7 +159,7 @@ Determines whether the break on a message severity level is turned on or off.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dxgidebug/nf-dxgidebug-idxgiinfoqueue-getmessage">GetMessage</a>
+<a href="/windows/desktop/api/dxgidebug/nf-dxgidebug-idxgiinfoqueue-getmessage">GetMessage</a>
 </td>
 <td align="left" width="63%">
 Gets a message from the message queue.
@@ -168,7 +168,7 @@ Gets a message from the message queue.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dxgidebug/nf-dxgidebug-idxgiinfoqueue-getmessagecountlimit">GetMessageCountLimit</a>
+<a href="/windows/desktop/api/dxgidebug/nf-dxgidebug-idxgiinfoqueue-getmessagecountlimit">GetMessageCountLimit</a>
 </td>
 <td align="left" width="63%">
 Gets the maximum number of messages that can be added to the message queue.
@@ -177,7 +177,7 @@ Gets the maximum number of messages that can be added to the message queue.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dxgidebug/nf-dxgidebug-idxgiinfoqueue-getmutedebugoutput">GetMuteDebugOutput</a>
+<a href="/windows/desktop/api/dxgidebug/nf-dxgidebug-idxgiinfoqueue-getmutedebugoutput">GetMuteDebugOutput</a>
 </td>
 <td align="left" width="63%">
 Determines whether the debug output is turned on or off.
@@ -186,7 +186,7 @@ Determines whether the debug output is turned on or off.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dxgidebug/nf-dxgidebug-idxgiinfoqueue-getnummessagesallowedbystoragefilter">GetNumMessagesAllowedByStorageFilter</a>
+<a href="/windows/desktop/api/dxgidebug/nf-dxgidebug-idxgiinfoqueue-getnummessagesallowedbystoragefilter">GetNumMessagesAllowedByStorageFilter</a>
 </td>
 <td align="left" width="63%">
 Gets the number of messages that a storage filter allowed to pass through.
@@ -195,7 +195,7 @@ Gets the number of messages that a storage filter allowed to pass through.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dxgidebug/nf-dxgidebug-idxgiinfoqueue-getnummessagesdeniedbystoragefilter">GetNumMessagesDeniedByStorageFilter</a>
+<a href="/windows/desktop/api/dxgidebug/nf-dxgidebug-idxgiinfoqueue-getnummessagesdeniedbystoragefilter">GetNumMessagesDeniedByStorageFilter</a>
 </td>
 <td align="left" width="63%">
 Gets the number of messages that were denied passage through a storage filter.
@@ -204,7 +204,7 @@ Gets the number of messages that were denied passage through a storage filter.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dxgidebug/nf-dxgidebug-idxgiinfoqueue-getnummessagesdiscardedbymessagecountlimit">GetNumMessagesDiscardedByMessageCountLimit</a>
+<a href="/windows/desktop/api/dxgidebug/nf-dxgidebug-idxgiinfoqueue-getnummessagesdiscardedbymessagecountlimit">GetNumMessagesDiscardedByMessageCountLimit</a>
 </td>
 <td align="left" width="63%">
 Gets the number of messages that were discarded due to the message count limit.
@@ -213,7 +213,7 @@ Gets the number of messages that were discarded due to the message count limit.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dxgidebug/nf-dxgidebug-idxgiinfoqueue-getnumstoredmessages">GetNumStoredMessages</a>
+<a href="/windows/desktop/api/dxgidebug/nf-dxgidebug-idxgiinfoqueue-getnumstoredmessages">GetNumStoredMessages</a>
 </td>
 <td align="left" width="63%">
 Gets the number of messages currently stored in the message queue.
@@ -222,7 +222,7 @@ Gets the number of messages currently stored in the message queue.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dxgidebug/nf-dxgidebug-idxgiinfoqueue-getnumstoredmessagesallowedbyretrievalfilters">GetNumStoredMessagesAllowedByRetrievalFilters</a>
+<a href="/windows/desktop/api/dxgidebug/nf-dxgidebug-idxgiinfoqueue-getnumstoredmessagesallowedbyretrievalfilters">GetNumStoredMessagesAllowedByRetrievalFilters</a>
 </td>
 <td align="left" width="63%">
 Gets the number of messages that can pass through a retrieval filter.
@@ -231,7 +231,7 @@ Gets the number of messages that can pass through a retrieval filter.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dxgidebug/nf-dxgidebug-idxgiinfoqueue-getretrievalfilter">GetRetrievalFilter</a>
+<a href="/windows/desktop/api/dxgidebug/nf-dxgidebug-idxgiinfoqueue-getretrievalfilter">GetRetrievalFilter</a>
 </td>
 <td align="left" width="63%">
 Gets the retrieval filter at the top of the retrieval-filter stack.
@@ -240,7 +240,7 @@ Gets the retrieval filter at the top of the retrieval-filter stack.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dxgidebug/nf-dxgidebug-idxgiinfoqueue-getretrievalfilterstacksize">GetRetrievalFilterStackSize</a>
+<a href="/windows/desktop/api/dxgidebug/nf-dxgidebug-idxgiinfoqueue-getretrievalfilterstacksize">GetRetrievalFilterStackSize</a>
 </td>
 <td align="left" width="63%">
 Gets the size of the retrieval-filter stack in bytes.
@@ -249,7 +249,7 @@ Gets the size of the retrieval-filter stack in bytes.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dxgidebug/nf-dxgidebug-idxgiinfoqueue-getstoragefilter">GetStorageFilter</a>
+<a href="/windows/desktop/api/dxgidebug/nf-dxgidebug-idxgiinfoqueue-getstoragefilter">GetStorageFilter</a>
 </td>
 <td align="left" width="63%">
 Gets the storage filter at the top of the storage-filter stack.
@@ -258,7 +258,7 @@ Gets the storage filter at the top of the storage-filter stack.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dxgidebug/nf-dxgidebug-idxgiinfoqueue-getstoragefilterstacksize">GetStorageFilterStackSize</a>
+<a href="/windows/desktop/api/dxgidebug/nf-dxgidebug-idxgiinfoqueue-getstoragefilterstacksize">GetStorageFilterStackSize</a>
 </td>
 <td align="left" width="63%">
 Gets the size of the storage-filter stack in bytes.
@@ -267,7 +267,7 @@ Gets the size of the storage-filter stack in bytes.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dxgidebug/nf-dxgidebug-idxgiinfoqueue-popretrievalfilter">PopRetrievalFilter</a>
+<a href="/windows/desktop/api/dxgidebug/nf-dxgidebug-idxgiinfoqueue-popretrievalfilter">PopRetrievalFilter</a>
 </td>
 <td align="left" width="63%">
 Pops a retrieval filter from the top of the retrieval-filter stack.
@@ -276,7 +276,7 @@ Pops a retrieval filter from the top of the retrieval-filter stack.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dxgidebug/nf-dxgidebug-idxgiinfoqueue-popstoragefilter">PopStorageFilter</a>
+<a href="/windows/desktop/api/dxgidebug/nf-dxgidebug-idxgiinfoqueue-popstoragefilter">PopStorageFilter</a>
 </td>
 <td align="left" width="63%">
 Pops a storage filter from the top of the storage-filter stack.
@@ -285,7 +285,7 @@ Pops a storage filter from the top of the storage-filter stack.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dxgidebug/nf-dxgidebug-idxgiinfoqueue-pushcopyofretrievalfilter">PushCopyOfRetrievalFilter</a>
+<a href="/windows/desktop/api/dxgidebug/nf-dxgidebug-idxgiinfoqueue-pushcopyofretrievalfilter">PushCopyOfRetrievalFilter</a>
 </td>
 <td align="left" width="63%">
 Pushes a copy of the retrieval filter that is currently on the top of the retrieval-filter stack onto the retrieval-filter stack.
@@ -294,7 +294,7 @@ Pushes a copy of the retrieval filter that is currently on the top of the retrie
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dxgidebug/nf-dxgidebug-idxgiinfoqueue-pushcopyofstoragefilter">PushCopyOfStorageFilter</a>
+<a href="/windows/desktop/api/dxgidebug/nf-dxgidebug-idxgiinfoqueue-pushcopyofstoragefilter">PushCopyOfStorageFilter</a>
 </td>
 <td align="left" width="63%">
 Pushes a copy of the storage filter that is currently on the top of the storage-filter stack onto the storage-filter stack.
@@ -303,7 +303,7 @@ Pushes a copy of the storage filter that is currently on the top of the storage-
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dxgidebug/nf-dxgidebug-idxgiinfoqueue-pushdenyallretrievalfilter">PushDenyAllRetrievalFilter</a>
+<a href="/windows/desktop/api/dxgidebug/nf-dxgidebug-idxgiinfoqueue-pushdenyallretrievalfilter">PushDenyAllRetrievalFilter</a>
 </td>
 <td align="left" width="63%">
 Pushes a deny-all retrieval filter onto the retrieval-filter stack.
@@ -312,7 +312,7 @@ Pushes a deny-all retrieval filter onto the retrieval-filter stack.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dxgidebug/nf-dxgidebug-idxgiinfoqueue-pushdenyallstoragefilter">PushDenyAllStorageFilter</a>
+<a href="/windows/desktop/api/dxgidebug/nf-dxgidebug-idxgiinfoqueue-pushdenyallstoragefilter">PushDenyAllStorageFilter</a>
 </td>
 <td align="left" width="63%">
 Pushes a deny-all storage filter onto the storage-filter stack.
@@ -321,7 +321,7 @@ Pushes a deny-all storage filter onto the storage-filter stack.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dxgidebug/nf-dxgidebug-idxgiinfoqueue-pushemptyretrievalfilter">PushEmptyRetrievalFilter</a>
+<a href="/windows/desktop/api/dxgidebug/nf-dxgidebug-idxgiinfoqueue-pushemptyretrievalfilter">PushEmptyRetrievalFilter</a>
 </td>
 <td align="left" width="63%">
 Pushes an empty retrieval filter onto the retrieval-filter stack.
@@ -330,7 +330,7 @@ Pushes an empty retrieval filter onto the retrieval-filter stack.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dxgidebug/nf-dxgidebug-idxgiinfoqueue-pushemptystoragefilter">PushEmptyStorageFilter</a>
+<a href="/windows/desktop/api/dxgidebug/nf-dxgidebug-idxgiinfoqueue-pushemptystoragefilter">PushEmptyStorageFilter</a>
 </td>
 <td align="left" width="63%">
 Pushes an empty storage filter onto the storage-filter stack.
@@ -339,7 +339,7 @@ Pushes an empty storage filter onto the storage-filter stack.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dxgidebug/nf-dxgidebug-idxgiinfoqueue-pushretrievalfilter">PushRetrievalFilter</a>
+<a href="/windows/desktop/api/dxgidebug/nf-dxgidebug-idxgiinfoqueue-pushretrievalfilter">PushRetrievalFilter</a>
 </td>
 <td align="left" width="63%">
 Pushes a retrieval filter onto the retrieval-filter stack.
@@ -348,7 +348,7 @@ Pushes a retrieval filter onto the retrieval-filter stack.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dxgidebug/nf-dxgidebug-idxgiinfoqueue-pushstoragefilter">PushStorageFilter</a>
+<a href="/windows/desktop/api/dxgidebug/nf-dxgidebug-idxgiinfoqueue-pushstoragefilter">PushStorageFilter</a>
 </td>
 <td align="left" width="63%">
 Pushes a storage filter onto the storage-filter stack.
@@ -357,7 +357,7 @@ Pushes a storage filter onto the storage-filter stack.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dxgidebug/nf-dxgidebug-idxgiinfoqueue-setbreakoncategory">SetBreakOnCategory</a>
+<a href="/windows/desktop/api/dxgidebug/nf-dxgidebug-idxgiinfoqueue-setbreakoncategory">SetBreakOnCategory</a>
 </td>
 <td align="left" width="63%">
 Sets a message category to break on when a message with that category passes through the storage filter.
@@ -366,7 +366,7 @@ Sets a message category to break on when a message with that category passes thr
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dxgidebug/nf-dxgidebug-idxgiinfoqueue-setbreakonid">SetBreakOnID</a>
+<a href="/windows/desktop/api/dxgidebug/nf-dxgidebug-idxgiinfoqueue-setbreakonid">SetBreakOnID</a>
 </td>
 <td align="left" width="63%">
 Sets a message identifier to break on when a message with that identifier passes through the storage filter.
@@ -375,7 +375,7 @@ Sets a message identifier to break on when a message with that identifier passes
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dxgidebug/nf-dxgidebug-idxgiinfoqueue-setbreakonseverity">SetBreakOnSeverity</a>
+<a href="/windows/desktop/api/dxgidebug/nf-dxgidebug-idxgiinfoqueue-setbreakonseverity">SetBreakOnSeverity</a>
 </td>
 <td align="left" width="63%">
 Sets a message severity level to break on when a message with that severity level passes through the storage filter.
@@ -384,7 +384,7 @@ Sets a message severity level to break on when a message with that severity leve
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dxgidebug/nf-dxgidebug-idxgiinfoqueue-setmessagecountlimit">SetMessageCountLimit</a>
+<a href="/windows/desktop/api/dxgidebug/nf-dxgidebug-idxgiinfoqueue-setmessagecountlimit">SetMessageCountLimit</a>
 </td>
 <td align="left" width="63%">
 Sets the maximum number of messages that can be added to the message queue.
@@ -393,7 +393,7 @@ Sets the maximum number of messages that can be added to the message queue.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dxgidebug/nf-dxgidebug-idxgiinfoqueue-setmutedebugoutput">SetMuteDebugOutput</a>
+<a href="/windows/desktop/api/dxgidebug/nf-dxgidebug-idxgiinfoqueue-setmutedebugoutput">SetMuteDebugOutput</a>
 </td>
 <td align="left" width="63%">
 Turns the debug output on or off.
@@ -404,18 +404,17 @@ Turns the debug output on or off.
 
 ## -remarks
 
-This interface is obtained by calling the <a href="https://docs.microsoft.com/windows/desktop/api/dxgidebug/nf-dxgidebug-dxgigetdebuginterface">DXGIGetDebugInterface</a> function.
+This interface is obtained by calling the <a href="/windows/desktop/api/dxgidebug/nf-dxgidebug-dxgigetdebuginterface">DXGIGetDebugInterface</a> function.
 
-For more info about the debug layer, see <a href="https://docs.microsoft.com/windows/desktop/direct3d11/overviews-direct3d-11-devices-layers">Debug Layer</a>.
+For more info about the debug layer, see <a href="/windows/desktop/direct3d11/overviews-direct3d-11-devices-layers">Debug Layer</a>.
 
 <div class="alert"><b>Note</b>  This API requires the Windows Software Development Kit (SDK) for Windows 8.</div>
 <div> </div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3ddxgi/d3d10-graphics-reference-dxgi-interfaces">DXGI Interfaces</a>
+<a href="/windows/desktop/direct3ddxgi/d3d10-graphics-reference-dxgi-interfaces">DXGI Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
-
+<a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>

@@ -57,13 +57,13 @@ Set application-defined data to a device child and associate that data with an a
 
 ### -param guid [in]
 
-Type: <b><a href="https://docs.microsoft.com/openspecs/windows_protocols/ms-oaut/6e7d7108-c213-40bc-8294-ac13fe68fd50">REFGUID</a></b>
+Type: <b><a href="/openspecs/windows_protocols/ms-oaut/6e7d7108-c213-40bc-8294-ac13fe68fd50">REFGUID</a></b>
 
 Guid associated with the data.
 
 ### -param DataSize [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 Size of the data.
 
@@ -77,13 +77,12 @@ Pointer to the data to be stored with this device child. If pData is <b>NULL</b>
 
 Type: <b><a href="/windows/win32/com/structure-of-com-error-codes">HRESULT</a></b>
 
-This method returns one of the following <a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-reference-returnvalues">Direct3D 10 Return Codes</a>.
+This method returns one of the following <a href="/windows/desktop/direct3d10/d3d10-graphics-reference-returnvalues">Direct3D 10 Return Codes</a>.
 
 ## -remarks
 
-The data stored in the device child with this method can be retrieved with <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nf-d3d10-id3d10devicechild-getprivatedata">ID3D10DeviceChild::GetPrivateData</a>.
+The data stored in the device child with this method can be retrieved with <a href="/windows/desktop/api/d3d10/nf-d3d10-id3d10devicechild-getprivatedata">ID3D10DeviceChild::GetPrivateData</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nn-d3d10-id3d10devicechild">ID3D10DeviceChild Interface</a>
-
+<a href="/windows/desktop/api/d3d10/nn-d3d10-id3d10devicechild">ID3D10DeviceChild Interface</a>

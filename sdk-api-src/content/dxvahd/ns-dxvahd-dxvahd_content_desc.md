@@ -60,11 +60,11 @@ The display driver can use the information in this structure to optimize the cap
 
 ### -field InputFrameFormat
 
-A member of the <a href="https://docs.microsoft.com/windows/desktop/api/dxvahd/ne-dxvahd-dxvahd_frame_format">DXVAHD_FRAME_FORMAT</a> enumeration that describes how the video stream is interlaced.
+A member of the <a href="/windows/desktop/api/dxvahd/ne-dxvahd-dxvahd_frame_format">DXVAHD_FRAME_FORMAT</a> enumeration that describes how the video stream is interlaced.
 
 ### -field InputFrameRate
 
-The frame rate of the input video stream, specified as a <a href="https://docs.microsoft.com/windows/desktop/api/dxvahd/ns-dxvahd-dxvahd_rational">DXVAHD_RATIONAL</a> structure.
+The frame rate of the input video stream, specified as a <a href="/windows/desktop/api/dxvahd/ns-dxvahd-dxvahd_rational">DXVAHD_RATIONAL</a> structure.
 
 ### -field InputWidth
 
@@ -76,7 +76,7 @@ The height of the input frames, in pixels.
 
 ### -field OutputFrameRate
 
-The frame rate of the output video stream, specified as a <a href="https://docs.microsoft.com/windows/desktop/api/dxvahd/ns-dxvahd-dxvahd_rational">DXVAHD_RATIONAL</a> structure.
+The frame rate of the output video stream, specified as a <a href="/windows/desktop/api/dxvahd/ns-dxvahd-dxvahd_rational">DXVAHD_RATIONAL</a> structure.
 
 ### -field OutputWidth
 
@@ -95,13 +95,12 @@ Frame rates are expressed as ratios. For example, 30 frames per second (fps) is 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/dxva-hd">DXVA-HD</a>
+<a href="/windows/desktop/medfound/dxva-hd">DXVA-HD</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/direct3d-video-structures">Direct3D Video Structures</a>
+<a href="/windows/desktop/medfound/direct3d-video-structures">Direct3D Video Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-structures">Media Foundation Structures</a>
-
+<a href="/windows/desktop/medfound/media-foundation-structures">Media Foundation Structures</a>

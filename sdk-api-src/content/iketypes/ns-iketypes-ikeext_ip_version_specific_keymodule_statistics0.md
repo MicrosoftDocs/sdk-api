@@ -53,7 +53,7 @@ api_name:
 ## -description
 
 The <b>IKEEXT_IP_VERSION_SPECIFIC_KEYMODULE_STATISTICS0</b> structure contains various statistics specific to the keying module and IP version.
-[IKEEXT_IP_VERSION_SPECIFIC_KEYMODULE_STATISTICS1](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_ip_version_specific_keymodule_statistics1) is available.</div><div> </div>
+[IKEEXT_IP_VERSION_SPECIFIC_KEYMODULE_STATISTICS1](/windows/desktop/api/iketypes/ns-iketypes-ikeext_ip_version_specific_keymodule_statistics1) is available.</div><div> </div>
 
 ## -struct-fields
 
@@ -128,4 +128,3 @@ Total number of successful extended mode negotiations that used impersonation.
 ### -field totalImpersonationMainModes
 
 Total number of successful Main Mode mode negotiations that used impersonation.
-

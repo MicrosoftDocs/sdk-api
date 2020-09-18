@@ -205,17 +205,16 @@ Reserved. Set to zero.
 ### -field pvPVPState
 
 Pointer to a byte array that contains an initialization vector (IV) for encrypted data. If the decode buffer does not contain encrypted data, set this member to <b>NULL</b>.
-          If the decode buffer contains encrypted data, the contents of <b>pvPVPState</b> depends on the type of encryption. For <b>D3DCRYPTOTYPE_AES128_CTR</b>, the <b>pvPVPState</b> member points to a <a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/ns-dxva2api-dxva2_aes_ctr_iv">DXVA2_AES_CTR_IV</a> structure.
+          If the decode buffer contains encrypted data, the contents of <b>pvPVPState</b> depends on the type of encryption. For <b>D3DCRYPTOTYPE_AES128_CTR</b>, the <b>pvPVPState</b> member points to a <a href="/windows/desktop/api/dxva2api/ns-dxva2api-dxva2_aes_ctr_iv">DXVA2_AES_CTR_IV</a> structure.
 
 ## -remarks
 
-This structure corresponds closely to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dxva/ns-dxva-_dxva_bufferdescription">DXVA_BufferDescription</a> structure in DXVA 1, but some of the fields are no longer used in DXVA 2.
+This structure corresponds closely to the <a href="/windows-hardware/drivers/ddi/content/dxva/ns-dxva-_dxva_bufferdescription">DXVA_BufferDescription</a> structure in DXVA 1, but some of the fields are no longer used in DXVA 2.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/directx-video-acceleration-2-0">DirectX Video Acceleration 2.0</a>
+<a href="/windows/desktop/medfound/directx-video-acceleration-2-0">DirectX Video Acceleration 2.0</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-structures">Media Foundation Structures</a>
-
+<a href="/windows/desktop/medfound/media-foundation-structures">Media Foundation Structures</a>

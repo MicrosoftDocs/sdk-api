@@ -66,15 +66,15 @@ The address family (<b>AF_INET</b> or <b>AF_INET6</b>) for the provider address.
 
 ### -field PA
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wnvapi/ns-wnvapi-wnv_ip_address">WNV_IP_ADDRESS</a></b>
+Type: <b><a href="/windows/desktop/api/wnvapi/ns-wnvapi-wnv_ip_address">WNV_IP_ADDRESS</a></b>
 
 The IP address object for the provider address, which is the matching IP address used on the physical network for the customer address.
 
 ### -field AddressState
 
-Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff568758(v=vs.85)">NL_DAD_STATE</a></b>
+Type: <b><a href="/previous-versions/windows/hardware/drivers/ff568758(v=vs.85)">NL_DAD_STATE</a></b>
 
-A value of the <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff568758(v=vs.85)">NL_DAD_STATE</a> enumeration that represents the new DAD state. Duplicate address detection is applicable to both IPv4 and IPv6 addresses.
+A value of the <a href="/previous-versions/windows/hardware/drivers/ff568758(v=vs.85)">NL_DAD_STATE</a> enumeration that represents the new DAD state. Duplicate address detection is applicable to both IPv4 and IPv6 addresses.
 
 <table>
 <tr>
@@ -140,17 +140,16 @@ The IP address is the preferred address.
 
 ## -remarks
 
-For a detailed description of network virtualization concepts and terminology, refer to <a href="https://technet.microsoft.com/library/jj134230(l=en-us,v=WS.11).aspx">Hyper-V Network Virtualization Overview</a>.
+For a detailed description of network virtualization concepts and terminology, refer to <a href="/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/jj134230(v=ws.11)">Hyper-V Network Virtualization Overview</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wnvapi/ne-wnvapi-wnv_notification_type">WNV_NOTIFICATION_TYPE</a>
+<a href="/windows/desktop/api/wnvapi/ne-wnvapi-wnv_notification_type">WNV_NOTIFICATION_TYPE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wnvapi/ns-wnvapi-wnv_object_change_param">WNV_OBJECT_CHANGE_PARAM</a>
+<a href="/windows/desktop/api/wnvapi/ns-wnvapi-wnv_object_change_param">WNV_OBJECT_CHANGE_PARAM</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wnvapi/ne-wnvapi-wnv_object_type">WNV_OBJECT_TYPE</a>
-
+<a href="/windows/desktop/api/wnvapi/ne-wnvapi-wnv_object_type">WNV_OBJECT_TYPE</a>

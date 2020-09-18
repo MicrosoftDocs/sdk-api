@@ -50,19 +50,18 @@ api_name:
 
 ## -description
 
-Indicates whether an item in the list-view control is visible. Use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/lvm-isitemvisible">LVM_ISITEMVISIBLE</a> message explicitly.
+Indicates whether an item in the list-view control is visible. Use this macro or send the <a href="/windows/desktop/Controls/lvm-isitemvisible">LVM_ISITEMVISIBLE</a> message explicitly.
 
 ## -parameters
 
 ### -param hwnd [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the list-view control.
 
 ### -param index [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 The index of item in list-view control.
-

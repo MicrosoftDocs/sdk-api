@@ -54,13 +54,13 @@ api_name:
 
 ## -description
 
-Specifies Desktop Window Manager (DWM) thumbnail properties. Used by the <a href="https://docs.microsoft.com/windows/desktop/api/dwmapi/nf-dwmapi-dwmupdatethumbnailproperties">DwmUpdateThumbnailProperties</a> function.
+Specifies Desktop Window Manager (DWM) thumbnail properties. Used by the <a href="/windows/desktop/api/dwmapi/nf-dwmapi-dwmupdatethumbnailproperties">DwmUpdateThumbnailProperties</a> function.
 
 ## -struct-fields
 
 ### -field dwFlags
 
-A bitwise combination of <a href="https://docs.microsoft.com/windows/desktop/dwm/dwm-tnp-constants">DWM thumbnail constant</a> values that indicates which members of this structure are set.
+A bitwise combination of <a href="/windows/desktop/dwm/dwm-tnp-constants">DWM thumbnail constant</a> values that indicates which members of this structure are set.
 
 ### -field rcDestination
 
@@ -81,4 +81,3 @@ The opacity with which to render the thumbnail. 0 is fully transparent while 255
 ### -field fSourceClientAreaOnly
 
 <b>TRUE</b> to use only the thumbnail source's client area; otherwise, <b>FALSE</b>. The default is <b>FALSE</b>.
-

@@ -69,7 +69,7 @@ This method succeeds if the duration is negative, although negative durations ar
 
 The duration can also be zero. This might be valid for some types of data. For example, the sample might contain stream metadata with no buffers.
 
-Until this method is called, the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfsample-getsampleduration">IMFSample::GetSampleDuration</a> method returns <b>MF_E_NO_SAMPLE_DURATION</b>.
+Until this method is called, the <a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfsample-getsampleduration">IMFSample::GetSampleDuration</a> method returns <b>MF_E_NO_SAMPLE_DURATION</b>.
 
 This interface is available on the following platforms if the Windows Media Format 11 SDK redistributable components are installed:
 
@@ -80,13 +80,12 @@ This interface is available on the following platforms if the Windows Media Form
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfsample">IMFSample</a>
+<a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfsample">IMFSample</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-samples">Media Samples</a>
+<a href="/windows/desktop/medfound/media-samples">Media Samples</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/time-stamps-and-durations">Time Stamps and Durations</a>
-
+<a href="/windows/desktop/medfound/time-stamps-and-durations">Time Stamps and Durations</a>

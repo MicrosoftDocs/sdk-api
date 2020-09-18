@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>IDsBrowseDomainTree::SetComputer</b> method specifies the computer and credentials to be used by this instance of the <a href="https://docs.microsoft.com/windows/desktop/api/dsclient/nn-dsclient-idsbrowsedomaintree">IDsBrowseDomainTree</a> interface.
+The <b>IDsBrowseDomainTree::SetComputer</b> method specifies the computer and credentials to be used by this instance of the <a href="/windows/desktop/api/dsclient/nn-dsclient-idsbrowsedomaintree">IDsBrowseDomainTree</a> interface.
 
 ## -parameters
 
@@ -74,13 +74,12 @@ Returns a standard <b>HRESULT</b> value including the following.
 
 If this method is not called, the local host is assumed as the default computer.
 
-When <b>SetComputer</b> is called on a particular <a href="https://docs.microsoft.com/windows/desktop/api/dsclient/nn-dsclient-idsbrowsedomaintree">IDsBrowseDomainTree</a> instance, <a href="https://docs.microsoft.com/windows/desktop/api/dsclient/nf-dsclient-idsbrowsedomaintree-flushcacheddomains">IDsBrowseDomainTree::FlushCachedDomains</a> must be called before <b>SetComputer</b> is called again.
+When <b>SetComputer</b> is called on a particular <a href="/windows/desktop/api/dsclient/nn-dsclient-idsbrowsedomaintree">IDsBrowseDomainTree</a> instance, <a href="/windows/desktop/api/dsclient/nf-dsclient-idsbrowsedomaintree-flushcacheddomains">IDsBrowseDomainTree::FlushCachedDomains</a> must be called before <b>SetComputer</b> is called again.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dsclient/nn-dsclient-idsbrowsedomaintree">IDsBrowseDomainTree</a>
+<a href="/windows/desktop/api/dsclient/nn-dsclient-idsbrowsedomaintree">IDsBrowseDomainTree</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dsclient/nf-dsclient-idsbrowsedomaintree-flushcacheddomains">IDsBrowseDomainTree::FlushCachedDomains</a>
-
+<a href="/windows/desktop/api/dsclient/nf-dsclient-idsbrowsedomaintree-flushcacheddomains">IDsBrowseDomainTree::FlushCachedDomains</a>

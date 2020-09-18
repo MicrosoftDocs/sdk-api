@@ -50,11 +50,11 @@ api_name:
 
 ## -description
 
-Extends the  <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationelement2">IUIAutomationElement2</a> interface.
+Extends the  <a href="/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationelement2">IUIAutomationElement2</a> interface.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUIAutomationElement3</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationelement3">IUIAutomationElement2</a>. <b>IUIAutomationElement3</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUIAutomationElement3</b> interface inherits from <a href="/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationelement3">IUIAutomationElement2</a>. <b>IUIAutomationElement3</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -70,7 +70,7 @@ The <b>IUIAutomationElement3</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement3-showcontextmenu">ShowContextMenu</a>
+<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement3-showcontextmenu">ShowContextMenu</a>
 </td>
 <td align="left" width="63%">
 Programmatically invokes a context menu on the target element.
@@ -88,7 +88,7 @@ Programmatically invokes a context menu on the target element.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement3-get_cachedisperipheral">CachedIsPeripheral</a>
+<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement3-get_cachedisperipheral">CachedIsPeripheral</a>
 
 
 </td>
@@ -104,7 +104,7 @@ Retrieves the cached peripheral UI indicator for the element. Peripheral UI appe
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement3-get_currentisperipheral">CurrentIsPeripheral</a>
+<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement3-get_currentisperipheral">CurrentIsPeripheral</a>
 
 
 </td>
@@ -121,9 +121,8 @@ Retrieves the current peripheral UI indicator for the element.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationelement3">IUIAutomationElement2</a>
+<a href="/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationelement3">IUIAutomationElement2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-entry-uiautoclientinterfaces">UI Automation Element Interfaces for Clients</a>
-
+<a href="/windows/desktop/WinAuto/uiauto-entry-uiautoclientinterfaces">UI Automation Element Interfaces for Clients</a>

@@ -71,7 +71,7 @@ The level of interface information to retrieve. This parameter can be one of the
 </dl>
 </td>
 <td width="60%">
-The values of statistics and state returned in members of the <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-mib_if_row2">MIB_IF_ROW2</a> structure pointed to by the <i>Row</i> parameter are returned from the top of the filter stack.
+The values of statistics and state returned in members of the <a href="/windows/desktop/api/netioapi/ns-netioapi-mib_if_row2">MIB_IF_ROW2</a> structure pointed to by the <i>Row</i> parameter are returned from the top of the filter stack.
 
 </td>
 </tr>
@@ -82,7 +82,7 @@ The values of statistics and state returned in members of the <a href="https://d
 </dl>
 </td>
 <td width="60%">
-The values of state (without statistics) returned in members of the <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-mib_if_row2">MIB_IF_ROW2</a> structure  pointed to by the <i>Row</i> parameter are returned from the top of the filter stack.
+The values of state (without statistics) returned in members of the <a href="/windows/desktop/api/netioapi/ns-netioapi-mib_if_row2">MIB_IF_ROW2</a> structure  pointed to by the <i>Row</i> parameter are returned from the top of the filter stack.
 
 </td>
 </tr>
@@ -91,7 +91,7 @@ The values of state (without statistics) returned in members of the <a href="htt
 ### -param Row [in, out]
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-mib_if_row2">MIB_IF_ROW2</a> structure that, on successful return, receives information for an interface on the local computer. On input, the <b>InterfaceLuid</b> or the <b>InterfaceIndex</b> member of the <b>MIB_IF_ROW2</b> must be set to the interface for which to retrieve information.
+<a href="/windows/desktop/api/netioapi/ns-netioapi-mib_if_row2">MIB_IF_ROW2</a> structure that, on successful return, receives information for an interface on the local computer. On input, the <b>InterfaceLuid</b> or the <b>InterfaceIndex</b> member of the <b>MIB_IF_ROW2</b> must be set to the interface for which to retrieve information.
 
 ## -returns
 
@@ -111,7 +111,7 @@ If the function fails, the return value is one of the following error codes.
 </dl>
 </td>
 <td width="60%">
-The system cannot find the file specified. This error is returned if the  network interface LUID or interface index specified by the <b>InterfaceLuid</b> or <b>InterfaceIndex</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-mib_if_row2">MIB_IF_ROW2</a> pointed to by the <i>Row</i> parameter was not a value on the local machine.
+The system cannot find the file specified. This error is returned if the  network interface LUID or interface index specified by the <b>InterfaceLuid</b> or <b>InterfaceIndex</b> member of the <a href="/windows/desktop/api/netioapi/ns-netioapi-mib_if_row2">MIB_IF_ROW2</a> pointed to by the <i>Row</i> parameter was not a value on the local machine.
 
 </td>
 </tr>
@@ -122,7 +122,7 @@ The system cannot find the file specified. This error is returned if the  networ
 </dl>
 </td>
 <td width="60%">
-An invalid parameter was passed to the function. This error is returned if a <b>NULL</b> parameter is passed in the <i>Row</i> parameter. This error is also returned if the both the <b>InterfaceLuid</b> and <b>InterfaceIndex</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-mib_if_row2">MIB_IF_ROW2</a> pointed to by the <i>Row</i> parameter  are unspecified.
+An invalid parameter was passed to the function. This error is returned if a <b>NULL</b> parameter is passed in the <i>Row</i> parameter. This error is also returned if the both the <b>InterfaceLuid</b> and <b>InterfaceIndex</b> member of the <a href="/windows/desktop/api/netioapi/ns-netioapi-mib_if_row2">MIB_IF_ROW2</a> pointed to by the <i>Row</i> parameter  are unspecified.
 
 </td>
 </tr>
@@ -134,7 +134,7 @@ An invalid parameter was passed to the function. This error is returned if a <b>
 </td>
 <td width="60%">
 Use 
-the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a> function to obtain the message string for the returned error.
+the <a href="/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a> function to obtain the message string for the returned error.
 
 </td>
 </tr>
@@ -144,14 +144,14 @@ the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-f
 
 The  
 <b>GetIfEntry2Ex</b> function retrieves information for a specified interface on a local system and returns this information in a pointer to a  
-<a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-mib_if_row2">MIB_IF_ROW2</a> structure. <b>GetIfEntry2Ex</b> is an enhanced version of the <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-getifentry2">GetIfEntry2</a> function that allows selecting the level of interface information to retrieve.
+<a href="/windows/desktop/api/netioapi/ns-netioapi-mib_if_row2">MIB_IF_ROW2</a> structure. <b>GetIfEntry2Ex</b> is an enhanced version of the <a href="/windows/desktop/api/netioapi/nf-netioapi-getifentry2">GetIfEntry2</a> function that allows selecting the level of interface information to retrieve.
 
-On input, at least one of the following members in the <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-mib_if_row2">MIB_IF_ROW2</a> structure passed in the <i>Row</i> parameter must be initialized:
+On input, at least one of the following members in the <a href="/windows/desktop/api/netioapi/ns-netioapi-mib_if_row2">MIB_IF_ROW2</a> structure passed in the <i>Row</i> parameter must be initialized:
     <b>InterfaceLuid</b> or <b>InterfaceIndex</b>.
 
     The fields are used in the order listed above. So if the <b>InterfaceLuid</b> is specified, then this member is used to determine the interface. If no value was set for the  <b>InterfaceLuid</b> member (the value of this member was set to zero), then the <b>InterfaceIndex</b> member is next used to determine the interface. 
 
-On output, the remaining fields of the <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-mib_if_row2">MIB_IF_ROW2</a> structure pointed to by the <i>Row</i> parameter are filled in.
+On output, the remaining fields of the <a href="/windows/desktop/api/netioapi/ns-netioapi-mib_if_row2">MIB_IF_ROW2</a> structure pointed to by the <i>Row</i> parameter are filled in.
 
 Note that the <i>Netioapi.h</i> header file is automatically included in <i>Iphlpapi.h</i> header file, and should never be used directly.
 
@@ -161,37 +161,36 @@ Note that the <i>Netioapi.h</i> header file is automatically included in <i>Iphl
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-getifentry2">GetIfEntry2</a>
+<a href="/windows/desktop/api/netioapi/nf-netioapi-getifentry2">GetIfEntry2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-getiftable">GetIfTable</a>
+<a href="/windows/desktop/api/iphlpapi/nf-iphlpapi-getiftable">GetIfTable</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-getiftable2">GetIfTable2</a>
+<a href="/windows/desktop/api/netioapi/nf-netioapi-getiftable2">GetIfTable2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-getiftable2ex">GetIfTable2Ex</a>
+<a href="/windows/desktop/api/netioapi/nf-netioapi-getiftable2ex">GetIfTable2Ex</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/IpHlp/ip-helper-function-reference">IP Helper Function Reference</a>
+<a href="/windows/desktop/IpHlp/ip-helper-function-reference">IP Helper Function Reference</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ifmib/ns-ifmib-mib_ifrow">MIB_IFROW</a>
+<a href="/windows/desktop/api/ifmib/ns-ifmib-mib_ifrow">MIB_IFROW</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ifmib/ns-ifmib-mib_iftable">MIB_IFTABLE</a>
+<a href="/windows/desktop/api/ifmib/ns-ifmib-mib_iftable">MIB_IFTABLE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-mib_if_row2">MIB_IF_ROW2</a>
+<a href="/windows/desktop/api/netioapi/ns-netioapi-mib_if_row2">MIB_IF_ROW2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-mib_if_table2">MIB_IF_TABLE2</a>
-
+<a href="/windows/desktop/api/netioapi/ns-netioapi-mib_if_table2">MIB_IF_TABLE2</a>

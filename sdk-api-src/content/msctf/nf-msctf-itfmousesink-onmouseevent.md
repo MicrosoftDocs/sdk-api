@@ -64,7 +64,7 @@ Contains the zero-based quadrant index, relative to the edge, that the mouse pos
 
 ### -param dwBtnStatus [in]
 
-Indicates the mouse button state at the time of the event. See the <i>wParam</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/inputdev/wm-mousemove">WM_MOUSEMOVE</a> message for possible values.
+Indicates the mouse button state at the time of the event. See the <i>wParam</i> parameter of the <a href="/windows/desktop/inputdev/wm-mousemove">WM_MOUSEMOVE</a> message for possible values.
 
 ### -param pfEaten [out]
 
@@ -102,19 +102,18 @@ The caller should translate double-click events into multiple mouse button down 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfmousesink">ITfMouseSink</a>
+<a href="/windows/desktop/api/msctf/nn-msctf-itfmousesink">ITfMouseSink</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfmousetracker-advisemousesink">ITfMouseTracker::AdviseMouseSink
+<a href="/windows/desktop/api/msctf/nf-msctf-itfmousetracker-advisemousesink">ITfMouseTracker::AdviseMouseSink
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfmousetrackeracp-advisemousesink">ITfMouseTrackerACP::AdviseMouseSink
+<a href="/windows/desktop/api/msctf/nf-msctf-itfmousetrackeracp-advisemousesink">ITfMouseTrackerACP::AdviseMouseSink
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/inputdev/wm-mousemove">WM_MOUSEMOVE</a>
-
+<a href="/windows/desktop/inputdev/wm-mousemove">WM_MOUSEMOVE</a>

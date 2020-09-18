@@ -57,7 +57,7 @@ Sets the number of frames that the system is allowed to queue for rendering.
 
 ### -param MaxLatency
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 The maximum number of back buffer frames that a driver can queue. The value defaults to 3, but 
       can range from 1 to 16. A value of 0 will reset latency to the default.  For multi-head devices, this value is specified per-head.
@@ -79,13 +79,12 @@ Frame latency is the number of frames that are allowed to be stored in a queue b
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3ddxgi/d3d10-graphics-reference-dxgi-interfaces">DXGI Interfaces</a>
+<a href="/windows/desktop/direct3ddxgi/d3d10-graphics-reference-dxgi-interfaces">DXGI Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nn-dxgi-idxgidevice1">IDXGIDevice1</a>
+<a href="/windows/desktop/api/dxgi/nn-dxgi-idxgidevice1">IDXGIDevice1</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nf-dxgi-idxgidevice1-getmaximumframelatency">IDXGIDevice1::GetMaximumFrameLatency</a>
-
+<a href="/windows/desktop/api/dxgi/nf-dxgi-idxgidevice1-getmaximumframelatency">IDXGIDevice1::GetMaximumFrameLatency</a>

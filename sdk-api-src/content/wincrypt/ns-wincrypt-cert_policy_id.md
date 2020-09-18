@@ -57,7 +57,7 @@ api_name:
 The <b>CERT_POLICY_ID</b> structure contains a list of certificate policies that the certificate expressly supports, together with optional qualifier information pertaining to these policies.
 
 <b>CERT_POLICY_ID</b> is a component of 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_key_usage_restriction_info">CERT_KEY_USAGE_RESTRICTION_INFO</a>.
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_key_usage_restriction_info">CERT_KEY_USAGE_RESTRICTION_INFO</a>.
 
 ## -struct-fields
 
@@ -71,5 +71,4 @@ Array of pointers to policy element identifier strings.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_key_usage_restriction_info">CERT_KEY_USAGE_RESTRICTION_INFO</a>
-
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_key_usage_restriction_info">CERT_KEY_USAGE_RESTRICTION_INFO</a>

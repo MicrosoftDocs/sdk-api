@@ -53,13 +53,13 @@ api_name:
 ## -description
 
 The <b>IPSEC_TUNNEL_ENDPOINTS2</b> structure is used to store end points of a tunnel mode SA.
-[IPSEC_TUNNEL_ENDPOINTS1](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_tunnel_endpoints1) is available. For Windows Vista, [IPSEC_TUNNEL_ENDPOINTS0](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_tunnel_endpoints0) is available.</div><div> </div>
+[IPSEC_TUNNEL_ENDPOINTS1](/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_tunnel_endpoints1) is available. For Windows Vista, [IPSEC_TUNNEL_ENDPOINTS0](/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_tunnel_endpoints0) is available.</div><div> </div>
 
 ## -struct-fields
 
 ### -field ipVersion
 
-Type: [FWP_IP_VERSION](https://docs.microsoft.com/windows/desktop/api/fwptypes/ne-fwptypes-fwp_ip_version)</b>
+Type: [FWP_IP_VERSION](/windows/desktop/api/fwptypes/ne-fwptypes-fwp_ip_version)</b>
 
 Specifies the IP version. In tunnel mode, this is the version of the outer header.
 
@@ -91,7 +91,7 @@ The number of remote tunnel addresses.
 
 ### -field remoteAddresses
 
-Type: [IPSEC_TUNNEL_ENDPOINT0](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_tunnel_endpoint0)*</b>
+Type: [IPSEC_TUNNEL_ENDPOINT0](/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_tunnel_endpoint0)*</b>
 
  [size_is(numAddresses)]
 
@@ -142,9 +142,8 @@ case(FWP_IP_VERSION_V6)
 
 ## -see-also
 
-[FWP_IP_VERSION](https://docs.microsoft.com/windows/desktop/api/fwptypes/ne-fwptypes-fwp_ip_version)
+[FWP_IP_VERSION](/windows/desktop/api/fwptypes/ne-fwptypes-fwp_ip_version)
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>
-
+<a href="/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>

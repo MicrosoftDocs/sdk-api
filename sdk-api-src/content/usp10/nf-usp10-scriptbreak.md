@@ -67,7 +67,7 @@ Number of Unicode characters to process.
 
 ### -param psa [in]
 
-Pointer to the <a href="/windows/win32/api/usp10/ns-usp10-script_analysis">SCRIPT_ANALYSIS</a> structure obtained from an earlier call to <a href="https://docs.microsoft.com/windows/desktop/api/usp10/nf-usp10-scriptitemize">ScriptItemize</a>.
+Pointer to the <a href="/windows/win32/api/usp10/ns-usp10-script_analysis">SCRIPT_ANALYSIS</a> structure obtained from an earlier call to <a href="/windows/desktop/api/usp10/nf-usp10-scriptitemize">ScriptItemize</a>.
 
 ### -param psla [out]
 
@@ -79,24 +79,24 @@ Returns 0 if successful. The function returns a nonzero HRESULT value if it does
 
 ## -remarks
 
-See <a href="https://docs.microsoft.com/windows/desktop/Intl/displaying-text-with-uniscribe">Displaying Text with Uniscribe</a> for a discussion of the context in which this function is normally called.
+See <a href="/windows/desktop/Intl/displaying-text-with-uniscribe">Displaying Text with Uniscribe</a> for a discussion of the context in which this function is normally called.
 
 This function does not require a device context and does not perform glyph shaping.
 
-This function retrieves cursor movement and formatting break positions for an item in an array of <a href="/windows/win32/api/usp10/ns-usp10-script_logattr">SCRIPT_LOGATTR</a> structures. To support mixed formatting within a single word correctly, the call to <b>ScriptBreak</b> should pass whole items as retrieved by <a href="https://docs.microsoft.com/windows/desktop/api/usp10/nf-usp10-scriptitemize">ScriptItemize</a>, and not the finer formatting runs.
+This function retrieves cursor movement and formatting break positions for an item in an array of <a href="/windows/win32/api/usp10/ns-usp10-script_logattr">SCRIPT_LOGATTR</a> structures. To support mixed formatting within a single word correctly, the call to <b>ScriptBreak</b> should pass whole items as retrieved by <a href="/windows/desktop/api/usp10/nf-usp10-scriptitemize">ScriptItemize</a>, and not the finer formatting runs.
 
-The <a href="/windows/win32/api/usp10/ns-usp10-script_logattr">SCRIPT_LOGATTR</a> structure identifies valid caret positions and line breaks. The <b>fCharStop</b> member specifies a flag that marks cluster boundaries for scripts that are conventionally restricted from moving inside clusters. The same boundaries can also be inferred by inspecting the logical cluster information retrieved by <a href="https://docs.microsoft.com/windows/desktop/api/usp10/nf-usp10-scriptshape">ScriptShape</a>. However, <b>ScriptBreak</b> is considerably faster in implementation and does not require a device context to be prepared.
+The <a href="/windows/win32/api/usp10/ns-usp10-script_logattr">SCRIPT_LOGATTR</a> structure identifies valid caret positions and line breaks. The <b>fCharStop</b> member specifies a flag that marks cluster boundaries for scripts that are conventionally restricted from moving inside clusters. The same boundaries can also be inferred by inspecting the logical cluster information retrieved by <a href="/windows/desktop/api/usp10/nf-usp10-scriptshape">ScriptShape</a>. However, <b>ScriptBreak</b> is considerably faster in implementation and does not require a device context to be prepared.
 
 The flags designated by the <b>fWordStop</b>, <b>fSoftBreak</b>, and <b>fWhiteSpace</b> members of <a href="/windows/win32/api/usp10/ns-usp10-script_logattr">SCRIPT_LOGATTR</a> are only available through <b>ScriptBreak</b>.
 
-Most shaping engines that identify invalid sequences set the flag indicated by the <b>fInvalid</b> member of <a href="/windows/win32/api/usp10/ns-usp10-script_logattr">SCRIPT_LOGATTR</a> in <b>ScriptBreak</b>. The <b>fInvalidLogAttr</b> member of <a href="https://docs.microsoft.com/windows/desktop/api/usp10/ns-usp10-script_properties">SCRIPT_PROPERTIES</a> identifies the applicable scripts.
+Most shaping engines that identify invalid sequences set the flag indicated by the <b>fInvalid</b> member of <a href="/windows/win32/api/usp10/ns-usp10-script_logattr">SCRIPT_LOGATTR</a> in <b>ScriptBreak</b>. The <b>fInvalidLogAttr</b> member of <a href="/windows/desktop/api/usp10/ns-usp10-script_properties">SCRIPT_PROPERTIES</a> identifies the applicable scripts.
 
 <div class="alert"><b>Important</b>  Starting with Windows 8: To maintain the ability to run on Windows 7, a module that uses Uniscribe must specify Usp10.lib before gdi32.lib in its library list.</div>
 <div> </div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/displaying-text-with-uniscribe">Displaying Text with Uniscribe</a>
+<a href="/windows/desktop/Intl/displaying-text-with-uniscribe">Displaying Text with Uniscribe</a>
 
 
 
@@ -108,17 +108,16 @@ Most shaping engines that identify invalid sequences set the flag indicated by t
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/usp10/nf-usp10-scriptitemize">ScriptItemize</a>
+<a href="/windows/desktop/api/usp10/nf-usp10-scriptitemize">ScriptItemize</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/usp10/nf-usp10-scriptshape">ScriptShape</a>
+<a href="/windows/desktop/api/usp10/nf-usp10-scriptshape">ScriptShape</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/uniscribe">Uniscribe</a>
+<a href="/windows/desktop/Intl/uniscribe">Uniscribe</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/uniscribe-functions">Uniscribe Functions</a>
-
+<a href="/windows/desktop/Intl/uniscribe-functions">Uniscribe Functions</a>

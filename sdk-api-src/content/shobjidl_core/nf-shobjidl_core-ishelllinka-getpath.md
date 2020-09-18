@@ -70,9 +70,9 @@ The size, in characters, of the buffer pointed to by the <i>pszFile</i> paramete
 
 ### -param pfd [in, out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-win32_find_dataa">WIN32_FIND_DATA</a>*</b>
+Type: <b><a href="/windows/desktop/api/minwinbase/ns-minwinbase-win32_find_dataa">WIN32_FIND_DATA</a>*</b>
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-win32_find_dataa">WIN32_FIND_DATA</a> structure that receives information about the target of the Shell link object. If this parameter is <b>NULL</b>, then no additional information is returned.
+A pointer to a <a href="/windows/desktop/api/minwinbase/ns-minwinbase-win32_find_dataa">WIN32_FIND_DATA</a> structure that receives information about the target of the Shell link object. If this parameter is <b>NULL</b>, then no additional information is returned.
 
 ### -param fFlags [in]
 
@@ -102,11 +102,10 @@ Retrieves the raw path name. A raw path is something that might not exist and ma
 
 #### SLGP_RELATIVEPRIORITY
 
-<b>Windows Vista and later</b>. Retrieves the path, if possible, of the shortcut's target relative to the path set by a previous call to <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelllinka-setrelativepath">IShellLink::SetRelativePath</a>.
+<b>Windows Vista and later</b>. Retrieves the path, if possible, of the shortcut's target relative to the path set by a previous call to <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelllinka-setrelativepath">IShellLink::SetRelativePath</a>.
 
 ## -returns
 
 Type: <b>HRESULT</b>
 
 Returns <b>S_OK</b> if the operation is successful and a valid path is retrieved. If the operation is successful but no path is retrieved, it returns <b>S_FALSE</b> and <i>pszFile</i> will be empty. Otherwise, it returns one of the standard HRESULT error values.
-

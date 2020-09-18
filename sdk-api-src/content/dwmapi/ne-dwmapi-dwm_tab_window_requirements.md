@@ -82,13 +82,13 @@ To be eligible for tabbing, a window must:
 
 ### -field DWMTWR_WINDOW_REGION
 
-The window has a region (set using <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setwindowrgn">SetWindowRgn</a>) making it ineligible.
+The window has a region (set using <a href="/windows/desktop/api/winuser/nf-winuser-setwindowrgn">SetWindowRgn</a>) making it ineligible.
 
 ### -field DWMTWR_WINDOW_DWM_ATTRIBUTES
 
 The window is ineligible due to its Dwm configuration.
 
-To resolve this issue, the window must not extended its client area into the title bar using <a href="https://docs.microsoft.com/windows/desktop/api/dwmapi/nf-dwmapi-dwmextendframeintoclientarea">DwmExtendFrameIntoClientArea</a>. In addition, the window must not have <b>DWMWA_NCRENDERING_POLICY</b> set to <b>DWMNCRP_ENABLED</b>.
+To resolve this issue, the window must not extended its client area into the title bar using <a href="/windows/desktop/api/dwmapi/nf-dwmapi-dwmextendframeintoclientarea">DwmExtendFrameIntoClientArea</a>. In addition, the window must not have <b>DWMWA_NCRENDERING_POLICY</b> set to <b>DWMNCRP_ENABLED</b>.
 
 ### -field DWMTWR_WINDOW_MARGINS
 
@@ -107,4 +107,3 @@ The user has configured this application to not participate in tabbing.
 ### -field DWMTWR_GROUP_POLICY
 
 ### -field DWMTWR_APP_COMPAT
-

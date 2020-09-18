@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Reports the completion of an operation by all operation entry points except for the <a href="https://docs.microsoft.com/windows/desktop/api/wsman/nc-wsman-wsman_plugin_startup">WSManPluginStartup</a> and <a href="https://docs.microsoft.com/windows/desktop/api/wsman/nc-wsman-wsman_plugin_shutdown">WSManPluginShutdown</a> methods.
+Reports the completion of an operation by all operation entry points except for the <a href="/windows/desktop/api/wsman/nc-wsman-wsman_plugin_startup">WSManPluginStartup</a> and <a href="/windows/desktop/api/wsman/nc-wsman-wsman_plugin_shutdown">WSManPluginShutdown</a> methods.
 
 ## -parameters
 
 ### -param requestDetails [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wsman/ns-wsman-wsman_plugin_request">WSMAN_PLUGIN_REQUEST</a> structure that specifies the resource URI, options, locale, shutdown flag, and handle for the request.
+A pointer to a <a href="/windows/desktop/api/wsman/ns-wsman-wsman_plugin_request">WSMAN_PLUGIN_REQUEST</a> structure that specifies the resource URI, options, locale, shutdown flag, and handle for the request.
 
 ### -param flags [in]
 
@@ -77,5 +77,4 @@ The method returns <b>NO_ERROR</b> if it succeeded; otherwise,  it returns an er
 ## -remarks
 
 The <b>WSManPluginOperationComplete</b> function is used to report the completion of the 
-data stream for <a href="https://docs.microsoft.com/windows/desktop/api/wsman/nc-wsman-wsman_plugin_receive">WSManPluginReceive</a>.  The <a href="https://docs.microsoft.com/windows/desktop/api/wsman/nc-wsman-wsman_plugin_shell">WSManPluginShell</a> and <a href="https://docs.microsoft.com/windows/desktop/api/wsman/nc-wsman-wsman_plugin_command">WSManPluginCommand</a> operations must also call this function when the shell and command operations are complete.
-
+data stream for <a href="/windows/desktop/api/wsman/nc-wsman-wsman_plugin_receive">WSManPluginReceive</a>.  The <a href="/windows/desktop/api/wsman/nc-wsman-wsman_plugin_shell">WSManPluginShell</a> and <a href="/windows/desktop/api/wsman/nc-wsman-wsman_plugin_command">WSManPluginCommand</a> operations must also call this function when the shell and command operations are complete.

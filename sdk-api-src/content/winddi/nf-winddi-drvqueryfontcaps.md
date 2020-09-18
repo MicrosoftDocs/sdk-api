@@ -120,9 +120,8 @@ A driver might report that it supports more than one format for a font. For exam
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvqueryfont">DrvQueryFont</a>
+<a href="/windows/desktop/api/winddi/nf-winddi-drvqueryfont">DrvQueryFont</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvqueryfonttree">DrvQueryFontTree</a>
-
+<a href="/windows/desktop/api/winddi/nf-winddi-drvqueryfonttree">DrvQueryFontTree</a>

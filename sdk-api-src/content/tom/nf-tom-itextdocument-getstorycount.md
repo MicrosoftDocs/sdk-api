@@ -56,7 +56,7 @@ Gets the count of stories in this document.
 
 ### -param pCount
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LONG</a>*</b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">LONG</a>*</b>
 
 The number of stories in the document.
 
@@ -64,7 +64,7 @@ The number of stories in the document.
 
 Type: <b>HRESULT</b>
 
-If the method succeeds, it returns <b>S_OK</b>. If the method fails, it returns the following COM error code. For more information about COM error codes, see <a href="https://docs.microsoft.com/windows/desktop/com/error-handling-in-com">Error Handling in COM</a>.
+If the method succeeds, it returns <b>S_OK</b>. If the method fails, it returns the following COM error code. For more information about COM error codes, see <a href="/windows/desktop/com/error-handling-in-com">Error Handling in COM</a>.
 
 <table>
 <tr>
@@ -86,7 +86,7 @@ Invalid argument.
 
 ## -remarks
 
-Rich edit controls have only one story and do not implement the <a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextdocument-getstoryranges">ITextDocument::GetStoryRanges</a> method. To avoid getting an error when there is only one story, use <b>ITextDocument::GetStoryCount</b> to check the story count. If the story count is greater than one, then call 
+Rich edit controls have only one story and do not implement the <a href="/windows/desktop/api/tom/nf-tom-itextdocument-getstoryranges">ITextDocument::GetStoryRanges</a> method. To avoid getting an error when there is only one story, use <b>ITextDocument::GetStoryCount</b> to check the story count. If the story count is greater than one, then call 
 				<b>ITextDocument::GetStoryRanges</b>.
 
 ## -see-also
@@ -95,11 +95,11 @@ Rich edit controls have only one story and do not implement the <a href="https:/
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextdocument-getstoryranges">GetStoryRanges</a>
+<a href="/windows/desktop/api/tom/nf-tom-itextdocument-getstoryranges">GetStoryRanges</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextdocument">ITextDocument</a>
+<a href="/windows/desktop/api/tom/nn-tom-itextdocument">ITextDocument</a>
 
 
 
@@ -107,5 +107,4 @@ Rich edit controls have only one story and do not implement the <a href="https:/
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Controls/text-object-model">Text Object Model</a>
-
+<a href="/windows/desktop/Controls/text-object-model">Text Object Model</a>

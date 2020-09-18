@@ -64,9 +64,8 @@ If the method succeeds, it returns S_OK. If it fails, it returns an error code.
 
 ## -remarks
 
-Before calling this method, set the device as the active input by calling the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msvidctl/nf-msvidctl-imsvidctl-put_inputactive">IMSVidCtl::put_InputActive</a> method. Unless the application needs to choose a specific input device, however, the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msvidctl/nf-msvidctl-imsvidctl-view">IMSVidCtl::View</a> method is recommended instead of the <b>IMSVidInputDevice::View</b> method.
+Before calling this method, set the device as the active input by calling the <a href="/previous-versions/windows/desktop/api/msvidctl/nf-msvidctl-imsvidctl-put_inputactive">IMSVidCtl::put_InputActive</a> method. Unless the application needs to choose a specific input device, however, the <a href="/previous-versions/windows/desktop/api/msvidctl/nf-msvidctl-imsvidctl-view">IMSVidCtl::View</a> method is recommended instead of the <b>IMSVidInputDevice::View</b> method.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/msvidinputdevice">IMSVidInputDevice Interface</a>
-
+<a href="/previous-versions/windows/desktop/mstv/msvidinputdevice">IMSVidInputDevice Interface</a>

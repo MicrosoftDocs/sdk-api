@@ -60,11 +60,11 @@ The name of the dynamic link library to load.  This dynamic link library must be
 
 ### -param ppLib [out]
 
-Receives a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfsignedlibrary">IMFSignedLibrary</a> interface for the library.
+Receives a pointer to the <a href="/windows/desktop/api/mfidl/nn-mfidl-imfsignedlibrary">IMFSignedLibrary</a> interface for the library.
 
 ## -remarks
 
-A singlemodule load count is maintained on the dynamic link library (as it is with <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a>).  This load count  is freed when the final release is called on the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfsignedlibrary">IMFSignedLibrary</a> object.
+A singlemodule load count is maintained on the dynamic link library (as it is with <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a>).  This load count  is freed when the final release is called on the <a href="/windows/desktop/api/mfidl/nn-mfidl-imfsignedlibrary">IMFSignedLibrary</a> object.
 
 
 #### Examples
@@ -87,13 +87,12 @@ pLib->Release();
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfsignedlibrary-getprocedureaddress">GetProcedureAddress</a>
+<a href="/windows/desktop/api/mfidl/nf-mfidl-imfsignedlibrary-getprocedureaddress">GetProcedureAddress</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfsignedlibrary">IMFSignedLibrary</a>
+<a href="/windows/desktop/api/mfidl/nn-mfidl-imfsignedlibrary">IMFSignedLibrary</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>
-
+<a href="/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>

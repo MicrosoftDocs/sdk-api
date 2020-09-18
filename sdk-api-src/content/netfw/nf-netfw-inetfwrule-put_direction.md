@@ -62,13 +62,12 @@ This property is read/write.
 
 This property is optional.  If this property is not specified, the default value is <b>in</b>.
 
-Also see the restrictions on changing properties described in the Remarks section of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nn-netfw-inetfwrule">INetFwRule</a> interface page.
+Also see the restrictions on changing properties described in the Remarks section of the <a href="/previous-versions/windows/desktop/api/netfw/nn-netfw-inetfwrule">INetFwRule</a> interface page.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nn-netfw-inetfwrule">INetFwRule</a>
+<a href="/previous-versions/windows/desktop/api/netfw/nn-netfw-inetfwrule">INetFwRule</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/icftypes/ne-icftypes-net_fw_rule_direction">NET_FW_RULE_DIRECTION</a>
-
+<a href="/windows/win32/api/icftypes/ne-icftypes-net_fw_rule_direction">NET_FW_RULE_DIRECTION</a>

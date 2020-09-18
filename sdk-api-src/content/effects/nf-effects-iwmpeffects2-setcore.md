@@ -70,5 +70,4 @@ This method is not called when Windows Media Player instantiates the visualizati
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/effects/nn-effects-iwmpeffects2">IWMPEffects2 Interface</a>
-
+<a href="/windows/desktop/api/effects/nn-effects-iwmpeffects2">IWMPEffects2 Interface</a>

@@ -52,13 +52,13 @@ Sets the mode for driver background processing optimizations.
 
 ### -param Mode [in]
 
-Type: **[D3D12_BACKGROUND_PROCESSING_MODE](/windows/win32/api/d3d12/ne-d3d12-d3d12_background_processing_mode)**
+Type: **[D3D12_BACKGROUND_PROCESSING_MODE](./ne-d3d12-d3d12_background_processing_mode.md)**
 
 The level of dynamic optimization to apply to GPU work that's subsequently submitted.
 
 ### -param MeasurementsAction [in]
 
-Type: **[D3D12_MEASUREMENTS_ACTION](/windows/win32/api/d3d12/ne-d3d12-d3d12_measurements_action)**
+Type: **[D3D12_MEASUREMENTS_ACTION](./ne-d3d12-d3d12_measurements_action.md)**
 
 The action to take with the results of earlier workload instrumentation.
 
@@ -66,7 +66,7 @@ The action to take with the results of earlier workload instrumentation.
 
 Type: **[HANDLE](/windows/win32/winprog/windows-data-types)**
 
-An optional handle to signal when the function is complete. For example, if *MeasurementsAction* is set to [D3D12_MEASUREMENTS_ACTION_COMMIT_RESULTS](/windows/win32/api/d3d12/ne-d3d12-d3d12_measurements_action), then *hEventToSignalUponCompletion* is signaled when all resulting compilations have finished.
+An optional handle to signal when the function is complete. For example, if *MeasurementsAction* is set to [D3D12_MEASUREMENTS_ACTION_COMMIT_RESULTS](./ne-d3d12-d3d12_measurements_action.md), then *hEventToSignalUponCompletion* is signaled when all resulting compilations have finished.
 
 ### -param pbFurtherMeasurementsDesired [out]
 
@@ -103,4 +103,3 @@ SetBackgroundProcessingMode(
 [PIX](https://devblogs.microsoft.com/pix/) automatically uses **SetBackgroundProcessingMode**&mdash;first to prime the system,and then to prevent any further changes from taking place in the middle of its analysis. PIX waits on an event (to make sure all background shader recompiles have finished) before it starts taking measurements.
 
 ## -see-also
-

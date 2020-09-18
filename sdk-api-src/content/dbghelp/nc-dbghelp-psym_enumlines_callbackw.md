@@ -51,7 +51,7 @@ api_name:
 ## -description
 
 An application-defined callback function used with the 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-symenumlines">SymEnumLines</a> and <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-symenumsourcelines">SymEnumSourceLines</a> functions.
+<a href="/windows/desktop/api/dbghelp/nf-dbghelp-symenumlines">SymEnumLines</a> and <a href="/windows/desktop/api/dbghelp/nf-dbghelp-symenumsourcelines">SymEnumSourceLines</a> functions.
 
 The <b>PSYM_ENUMLINES_CALLBACK</b> and <b>PSYM_ENUMLINES_CALLBACKW</b> types define a pointer to this callback function. 
 <b>SymEnumLinesProc</b> is a placeholder for the application-defined function name.
@@ -61,12 +61,12 @@ The <b>PSYM_ENUMLINES_CALLBACK</b> and <b>PSYM_ENUMLINES_CALLBACKW</b> types def
 ### -param LineInfo [in]
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-srccodeinfo">SRCCODEINFO</a> structure that provides information about the line.
+<a href="/windows/desktop/api/dbghelp/ns-dbghelp-srccodeinfo">SRCCODEINFO</a> structure that provides information about the line.
 
 ### -param UserContext [in]
 
 The user-defined value passed from the 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-symenumlines">SymEnumLines</a> function, or <b>NULL</b>. This parameter is typically used by an application to pass a pointer to a data structure that provides context information for the callback function.
+<a href="/windows/desktop/api/dbghelp/nf-dbghelp-symenumlines">SymEnumLines</a> function, or <b>NULL</b>. This parameter is typically used by an application to pass a pointer to a data structure that provides context information for the callback function.
 
 ## -returns
 
@@ -76,13 +76,12 @@ If the function returns <b>FALSE</b>, the enumeration will stop.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Debug/dbghelp-functions">DbgHelp Functions</a>
+<a href="/windows/desktop/Debug/dbghelp-functions">DbgHelp Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-symenumlines">SymEnumLines</a>
+<a href="/windows/desktop/api/dbghelp/nf-dbghelp-symenumlines">SymEnumLines</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-symenumsourcelines">SymEnumSourceLines</a>
-
+<a href="/windows/desktop/api/dbghelp/nf-dbghelp-symenumsourcelines">SymEnumSourceLines</a>

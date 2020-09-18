@@ -54,19 +54,19 @@ api_name:
 
 Concatenates one  string to another string. The size of the destination buffer is provided to the function to ensure that it does not write past the end of this buffer.
 
-<b>StringCchCatEx</b> adds to the functionality of <a href="https://docs.microsoft.com/windows/desktop/api/strsafe/nf-strsafe-stringcchcata">StringCchCat</a> by returning a pointer to the end of the destination string as well as the number of characters left unused in that string. Flags may also be passed to the function for additional control.
+<b>StringCchCatEx</b> adds to the functionality of <a href="/windows/desktop/api/strsafe/nf-strsafe-stringcchcata">StringCchCat</a> by returning a pointer to the end of the destination string as well as the number of characters left unused in that string. Flags may also be passed to the function for additional control.
 
 <b>StringCchCatEx</b> is a replacement for the following functions:
 <ul>
-<li><a href="https://msdn.microsoft.com/library/h1x0y282.aspx">strcat, wcscat, _tcsat</a></li>
+<li><a href="/cpp/c-runtime-library/reference/strcat-wcscat-mbscat">strcat, wcscat, _tcsat</a></li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-lstrcata">lstrcat</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-lstrcata">lstrcat</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-strcatw">StrCat</a>
+<a href="/windows/desktop/api/shlwapi/nf-shlwapi-strcatw">StrCat</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-strcatbuffa">StrCatBuff</a>
+<a href="/windows/desktop/api/shlwapi/nf-shlwapi-strcatbuffa">StrCatBuff</a>
 </li>
 </ul>
 
@@ -131,7 +131,7 @@ If the function succeeds, the low byte of <i>dwFlags</i> (0) is used to fill the
 </dl>
 </td>
 <td width="60%">
-Treat <b>NULL</b> string pointers like empty strings (TEXT("")). This flag is useful for emulating functions such as <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-lstrcpya">lstrcpy</a>.
+Treat <b>NULL</b> string pointers like empty strings (TEXT("")). This flag is useful for emulating functions such as <a href="/windows/desktop/api/winbase/nf-winbase-lstrcpya">lstrcpy</a>.
 
 </td>
 </tr>
@@ -174,7 +174,7 @@ If the function fails, <i>pszDest</i> is untouched. Nothing is added to the orig
 
 Type: <b>HRESULT</b>
 
-This function can return one of the following values. It is strongly recommended that you use the <a href="https://docs.microsoft.com/windows/desktop/api/winerror/nf-winerror-succeeded">SUCCEEDED</a> and <a href="https://docs.microsoft.com/windows/desktop/api/winerror/nf-winerror-failed">FAILED</a> macros to test the return value of this function.
+This function can return one of the following values. It is strongly recommended that you use the <a href="/windows/desktop/api/winerror/nf-winerror-succeeded">SUCCEEDED</a> and <a href="/windows/desktop/api/winerror/nf-winerror-failed">FAILED</a> macros to test the return value of this function.
 
 <table>
 <tr>
@@ -266,13 +266,12 @@ Neither <i>pszSrc</i> nor <i>pszDest</i> should be <b>NULL</b> unless the <b>STR
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strsafe/nf-strsafe-stringcbcatexa">StringCbCatEx</a>
+<a href="/windows/desktop/api/strsafe/nf-strsafe-stringcbcatexa">StringCbCatEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strsafe/nf-strsafe-stringcchcata">StringCchCat</a>
+<a href="/windows/desktop/api/strsafe/nf-strsafe-stringcchcata">StringCchCat</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strsafe/nf-strsafe-stringcchcatnexa">StringCchCatNEx</a>
-
+<a href="/windows/desktop/api/strsafe/nf-strsafe-stringcchcatnexa">StringCchCatNEx</a>

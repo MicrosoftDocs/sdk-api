@@ -55,7 +55,7 @@ Exposes methods that provide information about a connection in RemoteApp and Des
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWorkspace3</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/workspaceruntime/nn-workspaceruntime-iworkspace2">IWorkspace2</a>. <b>IWorkspace3</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWorkspace3</b> interface inherits from <a href="/windows/desktop/api/workspaceruntime/nn-workspaceruntime-iworkspace2">IWorkspace2</a>. <b>IWorkspace3</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>IWorkspace3</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/workspaceruntime/nf-workspaceruntime-iworkspace3-getclaimstoken2">GetClaimsToken2</a>
+<a href="/windows/desktop/api/workspaceruntime/nf-workspaceruntime-iworkspace3-getclaimstoken2">GetClaimsToken2</a>
 </td>
 <td align="left" width="63%">
 Sets the claims token.
@@ -79,7 +79,7 @@ Sets the claims token.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/workspaceruntime/nf-workspaceruntime-iworkspace3-setclaimstoken">SetClaimsToken</a>
+<a href="/windows/desktop/api/workspaceruntime/nf-workspaceruntime-iworkspace3-setclaimstoken">SetClaimsToken</a>
 </td>
 <td align="left" width="63%">
 Retrieves the claims token.
@@ -90,9 +90,8 @@ Retrieves the claims token.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/workspaceruntime/nn-workspaceruntime-iworkspace2">IWorkspace2</a>
+<a href="/windows/desktop/api/workspaceruntime/nn-workspaceruntime-iworkspace2">IWorkspace2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/TermServ/remoteapp-and-desktop-connection-runtime-interfaces">RemoteApp and Desktop Connection Runtime interfaces</a>
-
+<a href="/windows/desktop/TermServ/remoteapp-and-desktop-connection-runtime-interfaces">RemoteApp and Desktop Connection Runtime interfaces</a>

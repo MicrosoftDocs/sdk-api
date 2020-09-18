@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>ICDrawEnd</b> macro notifies a rendering driver to decompress the current image to the screen and to release resources allocated for decompression and drawing. You can use this macro or explicitly call the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/icm-draw-end">ICM_DRAW_END</a> message.
+The <b>ICDrawEnd</b> macro notifies a rendering driver to decompress the current image to the screen and to release resources allocated for decompression and drawing. You can use this macro or explicitly call the <a href="/windows/desktop/Multimedia/icm-draw-end">ICM_DRAW_END</a> message.
 
 ## -parameters
 
@@ -60,13 +60,12 @@ Handle to a driver.
 
 ## -remarks
 
-The <a href="https://docs.microsoft.com/windows/desktop/Multimedia/icm-draw-begin">ICM_DRAW_BEGIN</a> and <a href="https://docs.microsoft.com/windows/desktop/Multimedia/icm-draw-end">ICM_DRAW_END</a> messages do not nest. If your driver receives <b>ICM_DRAW_BEGIN</b> before decompression is stopped with <b>ICM_DRAW_END</b>, it should restart decompression with new parameters.
+The <a href="/windows/desktop/Multimedia/icm-draw-begin">ICM_DRAW_BEGIN</a> and <a href="/windows/desktop/Multimedia/icm-draw-end">ICM_DRAW_END</a> messages do not nest. If your driver receives <b>ICM_DRAW_BEGIN</b> before decompression is stopped with <b>ICM_DRAW_END</b>, it should restart decompression with new parameters.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-compression-macros">Video Compression Macros</a>
+<a href="/windows/desktop/Multimedia/video-compression-macros">Video Compression Macros</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-compression-manager">Video Compression Manager</a>
-
+<a href="/windows/desktop/Multimedia/video-compression-manager">Video Compression Manager</a>

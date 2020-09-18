@@ -114,5 +114,4 @@ Destruction of the TPM smart card is complete.
 
 ## -remarks
 
-These status codes are sent from the TPM virtual smart card manager COM server to the caller through the status callback interface, <a href="https://docs.microsoft.com/windows/desktop/api/tpmvscmgr/nn-tpmvscmgr-itpmvirtualsmartcardmanagerstatuscallback">ITpmVirtualSmartCardManagerStatusCallback</a>. Status callback interface implementations must interpret the status codes based on their predefined meanings and, if applicable, load localized message strings and update the user interface.
-
+These status codes are sent from the TPM virtual smart card manager COM server to the caller through the status callback interface, <a href="/windows/desktop/api/tpmvscmgr/nn-tpmvscmgr-itpmvirtualsmartcardmanagerstatuscallback">ITpmVirtualSmartCardManagerStatusCallback</a>. Status callback interface implementations must interpret the status codes based on their predefined meanings and, if applicable, load localized message strings and update the user interface.

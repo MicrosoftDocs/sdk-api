@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-This function stops XML canonicalization started by a preceding <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsstartreadercanonicalization">WsStartReaderCanonicalization</a> function call.
+This function stops XML canonicalization started by a preceding <a href="/windows/desktop/api/webservices/nf-webservices-wsstartreadercanonicalization">WsStartReaderCanonicalization</a> function call.
       
         Any remaining canonical bytes buffered by the reader will be written to the callback function.
 
@@ -62,7 +62,7 @@ A pointer to the XML reader on which canonicalization should be stopped.
 
 ### -param error [in, optional]
 
-A  pointer to a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-error">WS_ERROR</a> object where additional information about the error should be stored if the function fails.
+A  pointer to a <a href="/windows/desktop/wsw/ws-error">WS_ERROR</a> object where additional information about the error should be stored if the function fails.
 
 ## -returns
 
@@ -100,8 +100,7 @@ The operation is not allowed due to the current state of the object.
 ## -remarks
 
 <b>WsEndReaderCanonicalization</b> must be called at the same depth at
-        which <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsstartreadercanonicalization">WsStartReaderCanonicalization</a> was called.
+        which <a href="/windows/desktop/api/webservices/nf-webservices-wsstartreadercanonicalization">WsStartReaderCanonicalization</a> was called.
       
 
-It is not necessary to call <b>WsEndReaderCanonicalization</b>in order to call <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsfreereader">WsFreeReader</a>.
-
+It is not necessary to call <b>WsEndReaderCanonicalization</b>in order to call <a href="/windows/desktop/api/webservices/nf-webservices-wsfreereader">WsFreeReader</a>.

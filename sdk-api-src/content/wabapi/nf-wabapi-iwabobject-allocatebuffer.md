@@ -53,8 +53,8 @@ api_name:
 
 Allocates memory for buffers that are passed to 
 		Windows Address Book (WAB) methods.  The buffer must be freed with 
-		<a href="https://docs.microsoft.com/windows/desktop/api/wabapi/nf-wabapi-iwabobject-freebuffer">IWABObject::FreeBuffer</a>, and may be reallocated with 
-		<a href="https://docs.microsoft.com/windows/desktop/api/wabapi/nf-wabapi-iwabobject-allocatemore">IWABObject::AllocateMore</a>.
+		<a href="/windows/desktop/api/wabapi/nf-wabapi-iwabobject-freebuffer">IWABObject::FreeBuffer</a>, and may be reallocated with 
+		<a href="/windows/desktop/api/wabapi/nf-wabapi-iwabobject-allocatemore">IWABObject::AllocateMore</a>.
 
 ## -parameters
 
@@ -77,4 +77,3 @@ Type: <b>HRESULT</b>
 
 Returns S_OK if the requested buffer was successfully 
 			allocated.
-

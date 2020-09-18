@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-The <b>ASSEMBLY_INFO</b> structure contains information about an assembly in the side-by-side assembly store.  The information is used by the <a href="https://docs.microsoft.com/windows/desktop/api/winsxs/nf-winsxs-iassemblycache-queryassemblyinfo">QueryAssemblyInfo</a> method.
+The <b>ASSEMBLY_INFO</b> structure contains information about an assembly in the side-by-side assembly store.  The information is used by the <a href="/windows/desktop/api/winsxs/nf-winsxs-iassemblycache-queryassemblyinfo">QueryAssemblyInfo</a> method.
 
 ## -struct-fields
 
@@ -92,4 +92,3 @@ A pointer to a null-terminated string that contains the path to the manifest fil
 ### -field cchBuf
 
 The number  of characters, including the null terminator, in the string specified by <i>pszCurrentAssemblyPathBuf</i>.
-

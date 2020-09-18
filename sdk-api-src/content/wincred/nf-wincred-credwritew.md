@@ -56,13 +56,13 @@ api_name:
 
 ## -description
 
-The <b>CredWrite</b> function creates a new credential or modifies an existing credential in the user's credential set. The new credential is associated with the logon session of the current token. The token must not have the user's <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security identifier</a> (SID) disabled.
+The <b>CredWrite</b> function creates a new credential or modifies an existing credential in the user's credential set. The new credential is associated with the logon session of the current token. The token must not have the user's <a href="/windows/desktop/SecGloss/s-gly">security identifier</a> (SID) disabled.
 
 ## -parameters
 
 ### -param Credential [in]
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/wincred/ns-wincred-credentiala">CREDENTIAL</a> structure to be written.
+A pointer to the <a href="/windows/desktop/api/wincred/ns-wincred-credentiala">CREDENTIAL</a> structure to be written.
 
 ### -param Flags [in]
 
@@ -90,7 +90,7 @@ The credential BLOB from an existing credential is preserved with the same crede
 
 If the function succeeds, the function returns <b>TRUE</b>.
 
-If the function fails, it returns <b>FALSE</b>. Call the <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function to get a more specific status code. The following status codes can be returned.
+If the function fails, it returns <b>FALSE</b>. Call the <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function to get a more specific status code. The following status codes can be returned.
 
 Other smart card errors can be returned when writing a CRED_TYPE_CERTIFICATE credential.
 
@@ -201,9 +201,9 @@ The wrong PIN was supplied for the CRED_TYPE_CERTIFICATE credential being writte
 
 This function creates a credential if a credential with the specified <b>TargetName</b> and <b>Type</b> does not exist. If a credential with the specified <b>TargetName</b> and <b>Type</b> exists, the new specified credential replaces the existing one.
 
-When this function writes a CRED_TYPE_CERTIFICATE credential, the <i>Credential</i>-&gt;<b>CredentialBlob</b> member specifies the PIN protecting the private key of the certificate specified by the <i>Credential</i>-&gt;<b>UserName</b> member. The credential manager does not maintain the PIN. Rather, the PIN is passed to the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">cryptographic service provider</a> (CSP) indicated on the certificate for later use by the CSP and the authentication packages. The CSP defines the lifetime of the PIN. Most CSPs flush the PIN when the smart card removal from the smart card reader.
+When this function writes a CRED_TYPE_CERTIFICATE credential, the <i>Credential</i>-&gt;<b>CredentialBlob</b> member specifies the PIN protecting the private key of the certificate specified by the <i>Credential</i>-&gt;<b>UserName</b> member. The credential manager does not maintain the PIN. Rather, the PIN is passed to the <a href="/windows/desktop/SecGloss/c-gly">cryptographic service provider</a> (CSP) indicated on the certificate for later use by the CSP and the authentication packages. The CSP defines the lifetime of the PIN. Most CSPs flush the PIN when the smart card removal from the smart card reader.
 
-If the value of the <b>Type</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wincred/ns-wincred-credentiala">CREDENTIAL</a> structure specified by the <i>Credential</i>  parameter is <b>CRED_TYPE_DOMAIN_EXTENDED</b>, a namespace must be specified in the target name. This function does not support writing to target names that contain wildcards. 
+If the value of the <b>Type</b> member of the <a href="/windows/desktop/api/wincred/ns-wincred-credentiala">CREDENTIAL</a> structure specified by the <i>Credential</i>  parameter is <b>CRED_TYPE_DOMAIN_EXTENDED</b>, a namespace must be specified in the target name. This function does not support writing to target names that contain wildcards. 
 
 
 
@@ -214,5 +214,4 @@ If the value of the <b>Type</b> member of the <a href="https://docs.microsoft.co
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincred/ns-wincred-credentiala">CREDENTIAL</a>
-
+<a href="/windows/desktop/api/wincred/ns-wincred-credentiala">CREDENTIAL</a>

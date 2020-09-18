@@ -62,17 +62,17 @@ The phone device to be queried.
 ### -param dwTSPIVersion
 
 The negotiated TSPI version number. This value is negotiated for this device through the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_phonenegotiatetspiversion">TSPI_phoneNegotiateTSPIVersion</a> function.
+<a href="/windows/desktop/api/tspi/nf-tspi-tspi_phonenegotiatetspiversion">TSPI_phoneNegotiateTSPIVersion</a> function.
 
 ### -param dwExtVersion
 
 The negotiated extension version number. This value is negotiated for this device through the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_phonenegotiateextversion">TSPI_phoneNegotiateExtVersion</a> function.
+<a href="/windows/desktop/api/tspi/nf-tspi-tspi_phonenegotiateextversion">TSPI_phoneNegotiateExtVersion</a> function.
 
 ### -param lpPhoneCaps
 
 A pointer to memory into which the service provider writes a variably sized structure of type 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-phonecaps">PHONECAPS</a>. Upon successful completion of the request, this structure is filled with phone device capability information. Prior to calling 
+<a href="/windows/desktop/api/tapi/ns-tapi-phonecaps">PHONECAPS</a>. Upon successful completion of the request, this structure is filled with phone device capability information. Prior to calling 
 <b>TSPI_phoneGetDevCaps</b>, the application sets the <b>dwTotalSize</b> member of this structure to indicate the amount of memory available to TAPI for returning information.
 
 ## -returns
@@ -84,14 +84,14 @@ PHONEERR_INCOMPATIBLEAPIVERSION, PHONEERR_RESOURCEUNAVAIL, PHONEERR_INCOMPATIBLE
 ## -remarks
 
 The service provider fills in all the members of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-phonebuttoninfo">PHONEBUTTONINFO</a> data structure, except for <b>dwTotalSize</b>, which is filled in by TAPI. The service provider must not overwrite the <b>dwTotalSize</b> member.
+<a href="/windows/desktop/api/tapi/ns-tapi-phonebuttoninfo">PHONEBUTTONINFO</a> data structure, except for <b>dwTotalSize</b>, which is filled in by TAPI. The service provider must not overwrite the <b>dwTotalSize</b> member.
 
 If <i>dwExtVersion</i> is zero, no extension information is requested. If it is nonzero, it holds a value that has already been negotiated for this device with the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_phonenegotiateextversion">TSPI_phoneNegotiateExtVersion</a> function. The service provider fills in device- and vendor-specific extended information according to the extension version specified.
+<a href="/windows/desktop/api/tspi/nf-tspi-tspi_phonenegotiateextversion">TSPI_phoneNegotiateExtVersion</a> function. The service provider fills in device- and vendor-specific extended information according to the extension version specified.
 
 After the service provider returns from the 
 <b>TSPI_phoneGetDevCaps</b> function, TAPI sets the <b>dwPhoneStates</b> member of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-phonecaps">PHONECAPS</a> structure as follows:
+<a href="/windows/desktop/api/tapi/ns-tapi-phonecaps">PHONECAPS</a> structure as follows:
 
 <pre class="syntax" xml:space="preserve"><code>PHONECAPS.dwPhoneStates |=
     PHONESTATE_OWNER |
@@ -100,13 +100,12 @@ After the service provider returns from the
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-phonebuttoninfo">PHONEBUTTONINFO</a>
+<a href="/windows/desktop/api/tapi/ns-tapi-phonebuttoninfo">PHONEBUTTONINFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-phonecaps">PHONECAPS</a>
+<a href="/windows/desktop/api/tapi/ns-tapi-phonecaps">PHONECAPS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_phonenegotiateextversion">TSPI_phoneNegotiateExtVersion</a>
-
+<a href="/windows/desktop/api/tspi/nf-tspi-tspi_phonenegotiateextversion">TSPI_phoneNegotiateExtVersion</a>

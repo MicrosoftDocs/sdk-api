@@ -53,10 +53,9 @@ api_name:
 Describes the methods that are defined for the <b>IGamutMapModelPlugIn</b> Component Object Model (COM) interface.
 <ul>
 <li>
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wcsplugin/nf-wcsplugin-igamutmapmodelplugin-initialize">IGamutMapModelPlugIn::Initialize</a>
+<a href="/previous-versions/windows/desktop/api/wcsplugin/nf-wcsplugin-igamutmapmodelplugin-initialize">IGamutMapModelPlugIn::Initialize</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wcsplugin/nf-wcsplugin-igamutmapmodelplugin-sourcetodestinationappearancecolors">IGamutMapModelPlugIn::SourceToDestinationAppearanceColors</a>
+<a href="/previous-versions/windows/desktop/api/wcsplugin/nf-wcsplugin-igamutmapmodelplugin-sourcetodestinationappearancecolors">IGamutMapModelPlugIn::SourceToDestinationAppearanceColors</a>
 </li>
 </ul>
-

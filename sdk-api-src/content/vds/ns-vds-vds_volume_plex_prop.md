@@ -54,9 +54,9 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="https://docs.microsoft.com/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
-Defines the properties of a <a href="https://docs.microsoft.com/windows/desktop/VDS/volume-plex-object">volume plex object</a>.
+Defines the properties of a <a href="/windows/desktop/VDS/volume-plex-object">volume plex object</a>.
 
 ## -struct-fields
 
@@ -66,19 +66,19 @@ The GUID of the plex object.
 
 ### -field type
 
-The plex type enumerated by <a href="https://docs.microsoft.com/windows/desktop/api/vds/ne-vds-vds_volume_plex_type">VDS_VOLUME_PLEX_TYPE</a>. The type of the plex is not required to match the type of the volume to which the plex belongs.
+The plex type enumerated by <a href="/windows/desktop/api/vds/ne-vds-vds_volume_plex_type">VDS_VOLUME_PLEX_TYPE</a>. The type of the plex is not required to match the type of the volume to which the plex belongs.
 
 ### -field status
 
-The status of the plex object enumerated by <a href="https://docs.microsoft.com/windows/desktop/api/vds/ne-vds-vds_volume_plex_status">VDS_VOLUME_PLEX_STATUS</a>. The status of the plex is not required to match the status of the volume to which the plex belongs.
+The status of the plex object enumerated by <a href="/windows/desktop/api/vds/ne-vds-vds_volume_plex_status">VDS_VOLUME_PLEX_STATUS</a>. The status of the plex is not required to match the status of the volume to which the plex belongs.
 
 ### -field health
 
-A  <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv-vds_health">VDS_HEALTH</a> enumeration value that specifies the health state of the plex.  The health state of the plex is not required to match the health state of the volume to which the plex belongs.
+A  <a href="/windows/desktop/api/vdshwprv/ne-vdshwprv-vds_health">VDS_HEALTH</a> enumeration value that specifies the health state of the plex.  The health state of the plex is not required to match the health state of the volume to which the plex belongs.
 
 ### -field TransitionState
 
-A  <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv-vds_transition_state">VDS_TRANSITION_STATE</a> enumeration value that specifies the transition state of the plex.
+A  <a href="/windows/desktop/api/vdshwprv/ne-vdshwprv-vds_transition_state">VDS_TRANSITION_STATE</a> enumeration value that specifies the transition state of the plex.
 
 ### -field ullSize
 
@@ -94,29 +94,28 @@ The number of members in the volume plex. A plex member is a collection of conca
 
 ## -remarks
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsvolumeplex-getproperties">IVdsVolumePlex::GetProperties</a>method returns this structure to report the properties of a <a href="https://docs.microsoft.com/windows/desktop/VDS/volume-plex-object">volume plex object</a>.
+The <a href="/windows/desktop/api/vds/nf-vds-ivdsvolumeplex-getproperties">IVdsVolumePlex::GetProperties</a>method returns this structure to report the properties of a <a href="/windows/desktop/VDS/volume-plex-object">volume plex object</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsvolumeplex-getproperties">IVdsVolumePlex::GetProperties</a>
+<a href="/windows/desktop/api/vds/nf-vds-ivdsvolumeplex-getproperties">IVdsVolumePlex::GetProperties</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/VDS/vds-structures">VDS Structures</a>
+<a href="/windows/desktop/VDS/vds-structures">VDS Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv-vds_health">VDS_HEALTH</a>
+<a href="/windows/desktop/api/vdshwprv/ne-vdshwprv-vds_health">VDS_HEALTH</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv-vds_transition_state">VDS_TRANSITION_STATE</a>
+<a href="/windows/desktop/api/vdshwprv/ne-vdshwprv-vds_transition_state">VDS_TRANSITION_STATE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vds/ne-vds-vds_volume_plex_status">VDS_VOLUME_PLEX_STATUS</a>
+<a href="/windows/desktop/api/vds/ne-vds-vds_volume_plex_status">VDS_VOLUME_PLEX_STATUS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vds/ne-vds-vds_volume_plex_type">VDS_VOLUME_PLEX_TYPE</a>
-
+<a href="/windows/desktop/api/vds/ne-vds-vds_volume_plex_type">VDS_VOLUME_PLEX_TYPE</a>

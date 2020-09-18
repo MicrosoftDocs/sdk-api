@@ -66,5 +66,4 @@ The name of the part of speech.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msime/nf-msime-ifedictionary-getpostable">IFEDictionary::GetPosTable</a>
-
+<a href="/windows/desktop/api/msime/nf-msime-ifedictionary-getpostable">IFEDictionary::GetPosTable</a>

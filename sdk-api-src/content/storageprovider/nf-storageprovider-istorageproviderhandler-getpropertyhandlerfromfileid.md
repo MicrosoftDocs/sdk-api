@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Gets an instance of <a href="https://docs.microsoft.com/windows/desktop/api/storageprovider/nn-storageprovider-istorageproviderpropertyhandler">IStorageProviderPropertyHandler</a> associated with the provided file identifier.
+Gets an instance of <a href="/windows/desktop/api/storageprovider/nn-storageprovider-istorageproviderpropertyhandler">IStorageProviderPropertyHandler</a> associated with the provided file identifier.
 
 ## -parameters
 
@@ -60,7 +60,7 @@ The identifier for the relevant file.
 
 ### -param propertyHandler [out]
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/storageprovider/nn-storageprovider-istorageproviderpropertyhandler">IStorageProviderPropertyHandler</a> instance associated with the file specified by <i>fileId</i>.
+An <a href="/windows/desktop/api/storageprovider/nn-storageprovider-istorageproviderpropertyhandler">IStorageProviderPropertyHandler</a> instance associated with the file specified by <i>fileId</i>.
 
 ## -returns
 
@@ -72,5 +72,4 @@ This method is used to convert a  file identifier to a local file system path. T
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/storageprovider/nn-storageprovider-istorageproviderhandler">IStorageProviderHandler</a>
-
+<a href="/windows/desktop/api/storageprovider/nn-storageprovider-istorageproviderhandler">IStorageProviderHandler</a>

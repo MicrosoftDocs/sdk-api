@@ -71,15 +71,15 @@ Type: <b>BOOL</b>
 <b>TRUE</b> if successful; otherwise <b>FALSE</b>.
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> can be called to get more information about any error that is generated.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> can be called to get more information about any error that is generated.
 
 ## -remarks
 
-For a description of the difference between logicial coordinates and physical coordinates, see <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-physicaltologicalpoint">PhysicalToLogicalPoint</a>.
+For a description of the difference between logicial coordinates and physical coordinates, see <a href="/windows/desktop/api/winuser/nf-winuser-physicaltologicalpoint">PhysicalToLogicalPoint</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-clipcursor">ClipCursor</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-clipcursor">ClipCursor</a>
 
 
 
@@ -87,11 +87,11 @@ For a description of the difference between logicial coordinates and physical co
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/menurc/cursors">Cursors</a>
+<a href="/windows/desktop/menurc/cursors">Cursors</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getcursorpos">GetCursorPos</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-getcursorpos">GetCursorPos</a>
 
 
 
@@ -99,21 +99,20 @@ For a description of the difference between logicial coordinates and physical co
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setcaretpos">SetCaretPos</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-setcaretpos">SetCaretPos</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setcursor">SetCursor</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-setcursor">SetCursor</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setcursorpos">SetCursorPos</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-setcursorpos">SetCursorPos</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setphysicalcursorpos">SetPhysicalCursorPos</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-setphysicalcursorpos">SetPhysicalCursorPos</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-showcursor">ShowCursor</a>
-
+<a href="/windows/desktop/api/winuser/nf-winuser-showcursor">ShowCursor</a>

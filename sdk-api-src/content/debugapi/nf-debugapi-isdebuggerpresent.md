@@ -69,22 +69,21 @@ If the current process is not running in the context of a debugger, the return v
 ## -remarks
 
 This function allows an application to determine whether or not it is being debugged, so that it can modify its behavior. For example, an application could provide additional information using the 
-<a href="https://docs.microsoft.com/windows/desktop/api/debugapi/nf-debugapi-outputdebugstringw">OutputDebugString</a> function if it is being debugged.
+<a href="/windows/desktop/api/debugapi/nf-debugapi-outputdebugstringw">OutputDebugString</a> function if it is being debugged.
 
-To determine whether a remote process is being debugged, use the <a href="https://docs.microsoft.com/windows/desktop/api/debugapi/nf-debugapi-checkremotedebuggerpresent">CheckRemoteDebuggerPresent</a> function.
+To determine whether a remote process is being debugged, use the <a href="/windows/desktop/api/debugapi/nf-debugapi-checkremotedebuggerpresent">CheckRemoteDebuggerPresent</a> function.
 
 To compile an application that uses this function, define the _WIN32_WINNT macro as 0x0400 or later. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/WinProg/using-the-windows-headers">Using the Windows Headers</a>.
+<a href="/windows/desktop/WinProg/using-the-windows-headers">Using the Windows Headers</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/debugapi/nf-debugapi-checkremotedebuggerpresent">CheckRemoteDebuggerPresent</a>
+<a href="/windows/desktop/api/debugapi/nf-debugapi-checkremotedebuggerpresent">CheckRemoteDebuggerPresent</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Debug/debugging-functions">Debugging Functions</a>
+<a href="/windows/desktop/Debug/debugging-functions">Debugging Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/debugapi/nf-debugapi-outputdebugstringw">OutputDebugString</a>
-
+<a href="/windows/desktop/api/debugapi/nf-debugapi-outputdebugstringw">OutputDebugString</a>

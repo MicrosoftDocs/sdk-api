@@ -109,9 +109,9 @@ If the function fails, the return value is SYSPAL_ERROR.
 
 ## -remarks
 
-An application can determine whether a device supports palette operations by calling the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getdevicecaps">GetDeviceCaps</a> function and specifying the RASTERCAPS constant.
+An application can determine whether a device supports palette operations by calling the <a href="/windows/desktop/api/wingdi/nf-wingdi-getdevicecaps">GetDeviceCaps</a> function and specifying the RASTERCAPS constant.
 
-When an application window moves to the foreground and the SYSPAL_NOSTATIC value is set, the application must call the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getsyscolor">GetSysColor</a> function to save the current system colors setting. It must also call <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setsyscolors">SetSysColors</a> to set reasonable values using only black and white. When the application returns to the background or terminates, the previous system colors must be restored.
+When an application window moves to the foreground and the SYSPAL_NOSTATIC value is set, the application must call the <a href="/windows/desktop/api/winuser/nf-winuser-getsyscolor">GetSysColor</a> function to save the current system colors setting. It must also call <a href="/windows/desktop/api/winuser/nf-winuser-setsyscolors">SetSysColors</a> to set reasonable values using only black and white. When the application returns to the background or terminates, the previous system colors must be restored.
 
 If the function returns SYSPAL_ERROR, the specified device context is invalid or does not support color palettes.
 
@@ -123,9 +123,9 @@ After calling this function with <i>uUsage</i> set to SYSPAL_NOSTATIC, an applic
 
 <ol>
 <li>Realize the logical palette.</li>
-<li>Call the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getsyscolor">GetSysColor</a> function to save the current system-color settings.</li>
-<li>Call the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setsyscolors">SetSysColors</a> function to set the system colors to reasonable values using black and white. For example, adjacent or overlapping items (such as window frames and borders) should be set to black and white, respectively.</li>
-<li>Send the <a href="https://docs.microsoft.com/windows/desktop/gdi/wm-syscolorchange">WM_SYSCOLORCHANGE</a> message to other top-level windows to allow them to be redrawn with the new system colors.</li>
+<li>Call the <a href="/windows/desktop/api/winuser/nf-winuser-getsyscolor">GetSysColor</a> function to save the current system-color settings.</li>
+<li>Call the <a href="/windows/desktop/api/winuser/nf-winuser-setsyscolors">SetSysColors</a> function to set the system colors to reasonable values using black and white. For example, adjacent or overlapping items (such as window frames and borders) should be set to black and white, respectively.</li>
+<li>Send the <a href="/windows/desktop/gdi/wm-syscolorchange">WM_SYSCOLORCHANGE</a> message to other top-level windows to allow them to be redrawn with the new system colors.</li>
 </ol>
 When the application's window loses focus or closes, the application must perform the following steps:
 
@@ -133,30 +133,29 @@ When the application's window loses focus or closes, the application must perfor
 <li>Call <b>SetSystemPaletteUse</b> with the <i>uUsage</i> parameter set to SYSPAL_STATIC.</li>
 <li>Realize the logical palette.</li>
 <li>Restore the system colors to their previous values.</li>
-<li>Send the <a href="https://docs.microsoft.com/windows/desktop/gdi/wm-syscolorchange">WM_SYSCOLORCHANGE</a> message.</li>
+<li>Send the <a href="/windows/desktop/gdi/wm-syscolorchange">WM_SYSCOLORCHANGE</a> message.</li>
 </ol>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/color-functions">Color Functions</a>
+<a href="/windows/desktop/gdi/color-functions">Color Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/colors">Colors Overview</a>
+<a href="/windows/desktop/gdi/colors">Colors Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getdevicecaps">GetDeviceCaps</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-getdevicecaps">GetDeviceCaps</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getsyscolor">GetSysColor</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-getsyscolor">GetSysColor</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getsystempaletteuse">GetSystemPaletteUse</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-getsystempaletteuse">GetSystemPaletteUse</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setsyscolors">SetSysColors</a>
-
+<a href="/windows/desktop/api/winuser/nf-winuser-setsyscolors">SetSysColors</a>

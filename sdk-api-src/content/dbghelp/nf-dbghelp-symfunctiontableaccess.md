@@ -58,7 +58,7 @@ Retrieves the function table entry for the specified address.
 ### -param hProcess [in]
 
 A handle to the process that was originally passed to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-syminitialize">SymInitialize</a> function.
+<a href="/windows/desktop/api/dbghelp/nf-dbghelp-syminitialize">SymInitialize</a> function.
 
 ### -param AddrBase [in]
 
@@ -69,21 +69,21 @@ The base address for which function table information is required.
 If the function succeeds, the return value is a pointer to the function table entry.
 
 If the function fails, the return value is <b>NULL</b>. To retrieve extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
 The type of pointer returned is specific to the image from which symbols are loaded. 
 
 <b>x86:  </b>If the image is for an x86 system, this is a pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-fpo_data">FPO_DATA</a> structure.
+<a href="/windows/desktop/api/winnt/ns-winnt-fpo_data">FPO_DATA</a> structure.
 
 <b>x64:  </b>If the image is for an x64 system, this is a pointer to an <a href="/windows/win32/api/winnt/ns-winnt-runtime_function">_IMAGE_RUNTIME_FUNCTION_ENTRY</a> structure.
 
 All DbgHelp functions, such as this one, are single threaded. Therefore, calls from more than one thread to this function will likely result in unexpected behavior or memory corruption. To avoid this, you must synchronize all concurrent calls from more than one thread to this function.
 
 This function supersedes the <b>SymFunctionTableAccess</b> function. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/Debug/updated-platform-support">Updated Platform Support</a>. <b>SymFunctionTableAccess</b> is defined as follows in Dbghelp.h. 
+<a href="/windows/desktop/Debug/updated-platform-support">Updated Platform Support</a>. <b>SymFunctionTableAccess</b> is defined as follows in Dbghelp.h. 
 
 
 ```cpp
@@ -101,21 +101,20 @@ SymFunctionTableAccess(
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Debug/dbghelp-functions">DbgHelp Functions</a>
+<a href="/windows/desktop/Debug/dbghelp-functions">DbgHelp Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-fpo_data">FPO_DATA</a>
+<a href="/windows/desktop/api/winnt/ns-winnt-fpo_data">FPO_DATA</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-image_function_entry">IMAGE_FUNCTION_ENTRY</a>
+<a href="/windows/desktop/api/winnt/ns-winnt-image_function_entry">IMAGE_FUNCTION_ENTRY</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-syminitialize">SymInitialize</a>
+<a href="/windows/desktop/api/dbghelp/nf-dbghelp-syminitialize">SymInitialize</a>
 
 
 
 <a href="/windows/win32/api/winnt/ns-winnt-runtime_function">_IMAGE_RUNTIME_FUNCTION_ENTRY</a>
-

@@ -56,15 +56,15 @@ The <b>CurrentRatings</b> method retrieves the current ratings information from 
 
 ### -param pEnSystem [out]
 
-Pointer to a variable that receives the rating system, as an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tvratings/ne-tvratings-entvrat_system">EnTvRat_System</a> enumeration value.
+Pointer to a variable that receives the rating system, as an <a href="/previous-versions/windows/desktop/api/tvratings/ne-tvratings-entvrat_system">EnTvRat_System</a> enumeration value.
 
 ### -param pEnRating [out]
 
-Receives the rating level, as an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tvratings/ne-tvratings-entvrat_genericlevel">EnTvRat_GenericLevel</a> enumeration value.
+Receives the rating level, as an <a href="/previous-versions/windows/desktop/api/tvratings/ne-tvratings-entvrat_genericlevel">EnTvRat_GenericLevel</a> enumeration value.
 
 ### -param pBfEnAttr [out]
 
-Pointer to a variable that receives the ratings attributes, as a bitwise combination of zero or more flags from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tvratings/ne-tvratings-bfentvrat_genericattributes">BfEnTvRat_GenericAttributes</a> enumeration.
+Pointer to a variable that receives the ratings attributes, as a bitwise combination of zero or more flags from the <a href="/previous-versions/windows/desktop/api/tvratings/ne-tvratings-bfentvrat_genericattributes">BfEnTvRat_GenericAttributes</a> enumeration.
 
 ## -returns
 
@@ -90,9 +90,8 @@ The method succeeded.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/msvidstreambuffersource">IMSVidStreamBufferSource Interface</a>
+<a href="/previous-versions/windows/desktop/mstv/msvidstreambuffersource">IMSVidStreamBufferSource Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/tv-ratings-components">TV Ratings Components</a>
-
+<a href="/previous-versions/windows/desktop/mstv/tv-ratings-components">TV Ratings Components</a>

@@ -68,18 +68,17 @@ Specifies the subnet mask for the IP address.
 ## -remarks
 
 Since an adapter can have more than one IP address, the 
-<a href="https://docs.microsoft.com/windows/desktop/api/routprot/ns-routprot-ip_adapter_binding_info">IP_ADAPTER_BINDING_INFO</a> structure maintains an array of 
+<a href="/windows/desktop/api/routprot/ns-routprot-ip_adapter_binding_info">IP_ADAPTER_BINDING_INFO</a> structure maintains an array of 
 <b>IP_LOCAL_BINDING</b> structures.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/routprot/ns-routprot-ip_adapter_binding_info">IP_ADAPTER_BINDING_INFO</a>
+<a href="/windows/desktop/api/routprot/ns-routprot-ip_adapter_binding_info">IP_ADAPTER_BINDING_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/router-management-reference">Router Management Reference</a>
+<a href="/windows/desktop/RRAS/router-management-reference">Router Management Reference</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/router-management-structures">Router Management Structures</a>
-
+<a href="/windows/desktop/RRAS/router-management-structures">Router Management Structures</a>

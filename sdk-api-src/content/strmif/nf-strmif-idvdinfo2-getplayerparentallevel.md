@@ -102,21 +102,20 @@ Parental management is disabled by default in the DVD Navigator. This method is 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/dvd-applications">DVD Applications</a>
+<a href="/windows/desktop/DirectShow/dvd-applications">DVD Applications</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/ec-dvd-parental-level-change">EC_DVD_PARENTAL_LEVEL_CHANGE</a>
+<a href="/windows/desktop/DirectShow/ec-dvd-parental-level-change">EC_DVD_PARENTAL_LEVEL_CHANGE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/enforcing-parental-management-levels">Enforcing Parental Management Levels</a>
+<a href="/windows/desktop/DirectShow/enforcing-parental-management-levels">Enforcing Parental Management Levels</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-idvdinfo2">IDvdInfo2 Interface</a>
-
+<a href="/windows/desktop/api/strmif/nn-strmif-idvdinfo2">IDvdInfo2 Interface</a>

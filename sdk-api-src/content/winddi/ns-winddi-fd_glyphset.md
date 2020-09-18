@@ -60,7 +60,7 @@ The FD_GLYPHSET structure is used to define the mappings from Unicode characters
 
 ### -field cjThis
 
-Specifies the size, in bytes, of the structure, including the array of <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-wcrun">WCRUN</a> structures.
+Specifies the size, in bytes, of the structure, including the array of <a href="/windows/desktop/api/winddi/ns-winddi-wcrun">WCRUN</a> structures.
 
 ### -field flAccel
 
@@ -109,17 +109,16 @@ Specifies the total number of glyphs in all runs.
 
 ### -field cRuns
 
-Specifies the number of <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-wcrun">WCRUN</a> structures in the <b>awcrun</b> array.
+Specifies the number of <a href="/windows/desktop/api/winddi/ns-winddi-wcrun">WCRUN</a> structures in the <b>awcrun</b> array.
 
 ### -field awcrun
 
-Is an array of <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-wcrun">WCRUN</a> structures.
+Is an array of <a href="/windows/desktop/api/winddi/ns-winddi-wcrun">WCRUN</a> structures.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvqueryfonttree">DrvQueryFontTree</a>
+<a href="/windows/desktop/api/winddi/nf-winddi-drvqueryfonttree">DrvQueryFontTree</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-wcrun">WCRUN</a>
-
+<a href="/windows/desktop/api/winddi/ns-winddi-wcrun">WCRUN</a>

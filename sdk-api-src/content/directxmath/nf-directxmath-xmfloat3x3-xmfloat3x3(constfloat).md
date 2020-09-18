@@ -54,7 +54,7 @@ Initializes a new instance of the <code>XMFLOAT3X3</code> structure from a nine 
 	<code>float</code> array.
     
 
-Initializes a new instance of the <a href="https://docs.microsoft.com/windows/desktop/api/directxmath/ns-directxmath-xmfloat3x3">XMFLOAT3X3</a> structure from a nine
+Initializes a new instance of the <a href="/windows/desktop/api/directxmath/ns-directxmath-xmfloat3x3">XMFLOAT3X3</a> structure from a nine
 	element <code>float</code> array.
 <div class="alert"><b>Note</b>  This constructor is only available under C++.
     </div><div> </div>
@@ -64,7 +64,7 @@ Initializes a new instance of the <a href="https://docs.microsoft.com/windows/de
 ### -param pArray
 
 Address of a 9 element <code>float</code> array, specifying the value of each member
-		of a new instance of <a href="https://docs.microsoft.com/windows/desktop/api/directxmath/ns-directxmath-xmfloat3x3">XMFLOAT3X3</a>.
+		of a new instance of <a href="/windows/desktop/api/directxmath/ns-directxmath-xmfloat3x3">XMFLOAT3X3</a>.
 
 ## -remarks
 
@@ -113,9 +113,8 @@ Or
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/directxmath/ns-directxmath-xmfloat3x3">XMFLOAT3X3</a>
+<a href="/windows/desktop/api/directxmath/ns-directxmath-xmfloat3x3">XMFLOAT3X3</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/dxmath/xmfloat3x3-ctor">XMFLOAT3X3 Constructors</a>
-
+<a href="/windows/desktop/dxmath/xmfloat3x3-ctor">XMFLOAT3X3 Constructors</a>

@@ -60,9 +60,9 @@ api_name:
 
 ### -param type [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcoreapi/ne-uiautomationcoreapi-automationidentifiertype">AutomationIdentifierType</a></b>
+Type: <b><a href="/windows/desktop/api/uiautomationcoreapi/ne-uiautomationcoreapi-automationidentifiertype">AutomationIdentifierType</a></b>
 
-A value from the <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcoreapi/ne-uiautomationcoreapi-automationidentifiertype">AutomationIdentifierType</a> enumerated type that specifies the type of identifier to look up.
+A value from the <a href="/windows/desktop/api/uiautomationcoreapi/ne-uiautomationcoreapi-automationidentifiertype">AutomationIdentifierType</a> enumerated type that specifies the type of identifier to look up.
 
 ### -param pGuid [in]
 
@@ -82,9 +82,8 @@ Returns an integer identifier.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-guids">GUIDs</a>
+<a href="/windows/desktop/WinAuto/uiauto-guids">GUIDs</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-entry-propids">Property Identifiers</a>
-
+<a href="/windows/desktop/WinAuto/uiauto-entry-propids">Property Identifiers</a>

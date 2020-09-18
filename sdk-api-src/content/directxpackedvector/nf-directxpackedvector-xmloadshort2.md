@@ -50,22 +50,22 @@ api_name:
 
 ## -description
 
-Loads an <a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmshort2">XMSHORT2</a> into an <a href="https://docs.microsoft.com/windows/desktop/dxmath/xmvector-data-type">XMVECTOR</a>.
+Loads an <a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmshort2">XMSHORT2</a> into an <a href="/windows/desktop/dxmath/xmvector-data-type">XMVECTOR</a>.
 
 ## -parameters
 
 ### -param pSource [in]
 
-Address of the <a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmshort2">XMSHORT2</a> structure to load.
+Address of the <a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmshort2">XMSHORT2</a> structure to load.
 
 ## -returns
 
-Returns an <a href="https://docs.microsoft.com/windows/desktop/dxmath/xmvector-data-type">XMVECTOR</a> structure loaded with the data from the <i>pSource</i> parameter.
+Returns an <a href="/windows/desktop/dxmath/xmvector-data-type">XMVECTOR</a> structure loaded with the data from the <i>pSource</i> parameter.
 
 ## -remarks
 
-The <b>x</b> and <b>y</b> members of the <a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmshort2">XMSHORT2</a> are converted to
-   single-precision format, and loaded into the corresponding members of the <a href="https://docs.microsoft.com/windows/desktop/dxmath/xmvector-data-type">XMVECTOR</a>. The
+The <b>x</b> and <b>y</b> members of the <a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmshort2">XMSHORT2</a> are converted to
+   single-precision format, and loaded into the corresponding members of the <a href="/windows/desktop/dxmath/xmvector-data-type">XMVECTOR</a>. The
    <b>z</b> and <b>w</b> members of the returned <b>XMVECTOR</b> will be initialized to 0. The
    following pseudocode shows you the operation of this function:
 
@@ -87,5 +87,4 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/dxmath/ovw-xnamath-reference-functions-load">DirectXMath Library Vector Load Functions</a>
-
+<a href="/windows/desktop/dxmath/ovw-xnamath-reference-functions-load">DirectXMath Library Vector Load Functions</a>

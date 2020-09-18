@@ -68,7 +68,7 @@ Places data on the clipboard in a specified clipboard format. The window must be
 
 Type: <b>UINT</b>
 
-The clipboard format. This parameter can be a registered format or any of the standard clipboard formats. For more information, see <a href="https://docs.microsoft.com/windows/desktop/dataxchg/standard-clipboard-formats">Standard Clipboard Formats</a> and <a href="https://docs.microsoft.com/windows/desktop/dataxchg/clipboard-formats">Registered Clipboard Formats</a>.
+The clipboard format. This parameter can be a registered format or any of the standard clipboard formats. For more information, see <a href="/windows/desktop/dataxchg/standard-clipboard-formats">Standard Clipboard Formats</a> and <a href="/windows/desktop/dataxchg/clipboard-formats">Registered Clipboard Formats</a>.
 
 ### -param hMem [in, optional]
 
@@ -76,7 +76,7 @@ Type: <b>HANDLE</b>
 
 A handle to the data in the specified format. This parameter can be <b>NULL</b>, indicating that the window provides data in the specified clipboard format (renders the format) upon request; this is known as [delayed rendering](/windows/win32/dataxchg/clipboard-operations#delayed-rendering). If a window delays rendering, it must process the [WM_RENDERFORMAT](/windows/win32/dataxchg/wm-renderformat) and [WM_RENDERALLFORMATS](/windows/win32/dataxchg/wm-renderallformats) messages.
 
-If <b>SetClipboardData</b> succeeds, the system owns the object identified by the <i>hMem</i> parameter. The application may not write to or free the data once ownership has been transferred to the system, but it can lock and read from the data until the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-closeclipboard">CloseClipboard</a> function is called. (The memory must be unlocked before the Clipboard is closed.) If the <i>hMem</i> parameter identifies a memory object, the object must have been allocated using the function with the <b>GMEM_MOVEABLE</b> flag.
+If <b>SetClipboardData</b> succeeds, the system owns the object identified by the <i>hMem</i> parameter. The application may not write to or free the data once ownership has been transferred to the system, but it can lock and read from the data until the <a href="/windows/desktop/api/winuser/nf-winuser-closeclipboard">CloseClipboard</a> function is called. (The memory must be unlocked before the Clipboard is closed.) If the <i>hMem</i> parameter identifies a memory object, the object must have been allocated using the function with the <b>GMEM_MOVEABLE</b> flag.
 
 ## -returns
 
@@ -84,32 +84,32 @@ Type: <b>HANDLE</b>
 
 If the function succeeds, the return value is the handle to the data.
 
-If the function fails, the return value is <b>NULL</b>. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+If the function fails, the return value is <b>NULL</b>. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
 <b>Windows 8:</b> Bitmaps to be shared with Windows Store app apps must be in the <b>CF_BITMAP</b> format (device-dependent bitmap). 
 
-If an application calls <b>SetClipboardData</b> in response to <a href="https://docs.microsoft.com/windows/desktop/dataxchg/wm-renderformat">WM_RENDERFORMAT</a> or <a href="https://docs.microsoft.com/windows/desktop/dataxchg/wm-renderallformats">WM_RENDERALLFORMATS</a>, the application should not use the handle after <b>SetClipboardData</b> has been called.
+If an application calls <b>SetClipboardData</b> in response to <a href="/windows/desktop/dataxchg/wm-renderformat">WM_RENDERFORMAT</a> or <a href="/windows/desktop/dataxchg/wm-renderallformats">WM_RENDERALLFORMATS</a>, the application should not use the handle after <b>SetClipboardData</b> has been called.
 
-If an application calls <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-openclipboard">OpenClipboard</a> with hwnd set to <b>NULL</b>, <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-emptyclipboard">EmptyClipboard</a> sets the clipboard owner to <b>NULL</b>; this causes <b>SetClipboardData</b> to fail.
+If an application calls <a href="/windows/desktop/api/winuser/nf-winuser-openclipboard">OpenClipboard</a> with hwnd set to <b>NULL</b>, <a href="/windows/desktop/api/winuser/nf-winuser-emptyclipboard">EmptyClipboard</a> sets the clipboard owner to <b>NULL</b>; this causes <b>SetClipboardData</b> to fail.
 
-The system performs implicit data format conversions between certain clipboard formats when an application calls the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getclipboarddata">GetClipboardData</a> function. For example, if the <b>CF_OEMTEXT</b> format is on the clipboard, a window can retrieve data in the <b>CF_TEXT</b> format. The format on the clipboard is converted to the requested format on demand. For more information, see <a href="https://docs.microsoft.com/windows/desktop/dataxchg/clipboard-formats">Synthesized Clipboard Formats</a>.
+The system performs implicit data format conversions between certain clipboard formats when an application calls the <a href="/windows/desktop/api/winuser/nf-winuser-getclipboarddata">GetClipboardData</a> function. For example, if the <b>CF_OEMTEXT</b> format is on the clipboard, a window can retrieve data in the <b>CF_TEXT</b> format. The format on the clipboard is converted to the requested format on demand. For more information, see <a href="/windows/desktop/dataxchg/clipboard-formats">Synthesized Clipboard Formats</a>.
 
 
 #### Examples
 
-For an example, see <a href="https://docs.microsoft.com/windows/desktop/dataxchg/using-the-clipboard">Copying Information to the Clipboard</a>.
+For an example, see <a href="/windows/desktop/dataxchg/using-the-clipboard">Copying Information to the Clipboard</a>.
 
 <div class="code"></div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/dataxchg/clipboard">Clipboard</a>
+<a href="/windows/desktop/dataxchg/clipboard">Clipboard</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-closeclipboard">CloseClipboard</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-closeclipboard">CloseClipboard</a>
 
 
 
@@ -117,11 +117,11 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/dataxchg
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getclipboarddata">GetClipboardData</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-getclipboarddata">GetClipboardData</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-openclipboard">OpenClipboard</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-openclipboard">OpenClipboard</a>
 
 
 
@@ -129,13 +129,12 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/dataxchg
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-registerclipboardformata">RegisterClipboardFormat</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-registerclipboardformata">RegisterClipboardFormat</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/dataxchg/wm-renderallformats">WM_RENDERALLFORMATS</a>
+<a href="/windows/desktop/dataxchg/wm-renderallformats">WM_RENDERALLFORMATS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/dataxchg/wm-renderformat">WM_RENDERFORMAT</a>
-
+<a href="/windows/desktop/dataxchg/wm-renderformat">WM_RENDERFORMAT</a>

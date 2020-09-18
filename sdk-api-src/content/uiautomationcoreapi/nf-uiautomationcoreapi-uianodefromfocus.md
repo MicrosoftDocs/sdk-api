@@ -56,9 +56,9 @@ api_name:
 
 ### -param pRequest [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcoreapi/ns-uiautomationcoreapi-uiacacherequest">UiaCacheRequest</a>*</b>
+Type: <b><a href="/windows/desktop/api/uiautomationcoreapi/ns-uiautomationcoreapi-uiacacherequest">UiaCacheRequest</a>*</b>
 
-The address of a <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcoreapi/ns-uiautomationcoreapi-uiacacherequest">UiaCacheRequest</a> structure that contains information about data to be cached.
+The address of a <a href="/windows/desktop/api/uiautomationcoreapi/ns-uiautomationcoreapi-uiacacherequest">UiaCacheRequest</a> structure that contains information about data to be cached.
 
 ### -param ppRequestedData [out]
 
@@ -76,7 +76,7 @@ The address of a variable that receives the description of the tree structure.
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 Returns S_OK if successful or an error value otherwise.
 
@@ -91,4 +91,3 @@ A "p" represents a node
 			(UI Automation element). When one "p" directly follows another, the second node is a child of the first.
 			A ")" represents a step back up the tree. For example, "pp)p" represents a node followed
 			by two child nodes that are siblings of one another. In "pp))p", the last node is a sibling of the first one.
-

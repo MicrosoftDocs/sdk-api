@@ -70,11 +70,11 @@ Type of pointer input to no longer be redirected to the specified window. This i
 
 If the function succeeds, the return value is non-zero.
 
-If the function fails, the return value is zero. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+If the function fails, the return value is zero. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
-An application that has successfully called the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-registerpointerinputtarget">RegisterPointerInputTarget</a> function can call this function to un-register the window from the role of global redirected target for the specified pointer type.
+An application that has successfully called the <a href="/windows/desktop/api/winuser/nf-winuser-registerpointerinputtarget">RegisterPointerInputTarget</a> function can call this function to un-register the window from the role of global redirected target for the specified pointer type.
 
 An application that has registered the same window as a global redirection target for multiple pointer input types can call the <b>UnregisterPointerInputTarget</b> to un-register the window for one of those types while leaving the window registered for the remaining types.
 
@@ -85,4 +85,3 @@ If the specified pointer input type is not valid, this function fails with the l
 If the calling thread does not own the specified window, this function fails with the last error set to <b>ERROR_ACCESS_DENIED</b>.
 
 If the specified window is not the registered global redirection target for the specified pointer input type on its desktop, this function takes no action and returns success.
-

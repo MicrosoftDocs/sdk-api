@@ -58,7 +58,7 @@ Gets a reference to the next report in the error report store.
 
 ### -param hReportStore
 
-The error report store (previously retrieved with <a href="https://docs.microsoft.com/windows/desktop/api/werapi/nf-werapi-werstoreopen">WerStoreOpen</a>).
+The error report store (previously retrieved with <a href="/windows/desktop/api/werapi/nf-werapi-werstoreopen">WerStoreOpen</a>).
 
 ### -param ppszReportKey
 
@@ -99,13 +99,12 @@ There are no more error reports in the store.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/wer/wer-functions">WER Functions</a>
+<a href="/windows/desktop/wer/wer-functions">WER Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/werapi/nf-werapi-werstoregetfirstreportkey">WerStoreGetFirstReportKey</a>
+<a href="/windows/desktop/api/werapi/nf-werapi-werstoregetfirstreportkey">WerStoreGetFirstReportKey</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/wer/windows-error-reporting">Windows Error Reporting</a>
-
+<a href="/windows/desktop/wer/windows-error-reporting">Windows Error Reporting</a>

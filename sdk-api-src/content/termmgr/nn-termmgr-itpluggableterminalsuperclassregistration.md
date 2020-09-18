@@ -55,7 +55,7 @@ The
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITPluggableTerminalSuperclassRegistration</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ITPluggableTerminalSuperclassRegistration</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITPluggableTerminalSuperclassRegistration</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ITPluggableTerminalSuperclassRegistration</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>ITPluggableTerminalSuperclassRegistration</b> interface has these methods
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/termmgr/nf-termmgr-itpluggableterminalsuperclassregistration-add">Add</a>
+<a href="/windows/desktop/api/termmgr/nf-termmgr-itpluggableterminalsuperclassregistration-add">Add</a>
 </td>
 <td align="left" width="63%">
 Adds a pluggable terminal superclass.
@@ -79,7 +79,7 @@ Adds a pluggable terminal superclass.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/termmgr/nf-termmgr-itpluggableterminalsuperclassregistration-delete">Delete</a>
+<a href="/windows/desktop/api/termmgr/nf-termmgr-itpluggableterminalsuperclassregistration-delete">Delete</a>
 </td>
 <td align="left" width="63%">
 Deletes a terminal superclass.
@@ -88,7 +88,7 @@ Deletes a terminal superclass.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/termmgr/nf-termmgr-itpluggableterminalsuperclassregistration-enumerateterminalclasses">EnumerateTerminalClasses</a>
+<a href="/windows/desktop/api/termmgr/nf-termmgr-itpluggableterminalsuperclassregistration-enumerateterminalclasses">EnumerateTerminalClasses</a>
 </td>
 <td align="left" width="63%">
 Enumerates the terminal classes for the terminal superclass.
@@ -97,7 +97,7 @@ Enumerates the terminal classes for the terminal superclass.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/termmgr/nf-termmgr-itpluggableterminalsuperclassregistration-get_clsid">get_CLSID</a>
+<a href="/windows/desktop/api/termmgr/nf-termmgr-itpluggableterminalsuperclassregistration-get_clsid">get_CLSID</a>
 </td>
 <td align="left" width="63%">
 Gets the CLSID used to <b>CoCreateInstance</b> the terminal.
@@ -106,7 +106,7 @@ Gets the CLSID used to <b>CoCreateInstance</b> the terminal.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/termmgr/nf-termmgr-itpluggableterminalsuperclassregistration-get_name">get_Name</a>
+<a href="/windows/desktop/api/termmgr/nf-termmgr-itpluggableterminalsuperclassregistration-get_name">get_Name</a>
 </td>
 <td align="left" width="63%">
 Gets the friendly name for the terminal superclass.
@@ -115,7 +115,7 @@ Gets the friendly name for the terminal superclass.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/termmgr/nf-termmgr-itpluggableterminalsuperclassregistration-get_terminalclasses">get_TerminalClasses</a>
+<a href="/windows/desktop/api/termmgr/nf-termmgr-itpluggableterminalsuperclassregistration-get_terminalclasses">get_TerminalClasses</a>
 </td>
 <td align="left" width="63%">
 Gets the terminal classes for the terminal superclass.
@@ -124,7 +124,7 @@ Gets the terminal classes for the terminal superclass.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/termmgr/nf-termmgr-itpluggableterminalsuperclassregistration-getterminalsuperclassinfo">GetTerminalSuperclassInfo</a>
+<a href="/windows/desktop/api/termmgr/nf-termmgr-itpluggableterminalsuperclassregistration-getterminalsuperclassinfo">GetTerminalSuperclassInfo</a>
 </td>
 <td align="left" width="63%">
 Gets terminal superclass information.
@@ -133,7 +133,7 @@ Gets terminal superclass information.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/termmgr/nf-termmgr-itpluggableterminalsuperclassregistration-put_clsid">put_CLSID</a>
+<a href="/windows/desktop/api/termmgr/nf-termmgr-itpluggableterminalsuperclassregistration-put_clsid">put_CLSID</a>
 </td>
 <td align="left" width="63%">
 Sets the CLSID used to <b>CoCreateInstance</b> the terminal.
@@ -142,7 +142,7 @@ Sets the CLSID used to <b>CoCreateInstance</b> the terminal.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/termmgr/nf-termmgr-itpluggableterminalsuperclassregistration-put_name">put_Name</a>
+<a href="/windows/desktop/api/termmgr/nf-termmgr-itpluggableterminalsuperclassregistration-put_name">put_Name</a>
 </td>
 <td align="left" width="63%">
 Sets the friendly name for the terminal superclass.
@@ -150,4 +150,3 @@ Sets the friendly name for the terminal superclass.
 </td>
 </tr>
 </table>
-

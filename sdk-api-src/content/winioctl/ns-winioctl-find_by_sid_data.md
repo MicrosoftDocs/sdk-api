@@ -52,7 +52,7 @@ api_name:
 ## -description
 
 Contains data for the 
-   <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_find_files_by_sid">FSCTL_FIND_FILES_BY_SID</a> control 
+   <a href="/windows/desktop/api/winioctl/ni-winioctl-fsctl_find_files_by_sid">FSCTL_FIND_FILES_BY_SID</a> control 
    code.
 
 ## -struct-fields
@@ -65,10 +65,9 @@ Indicates whether to restart the search. This member should be 1 on first call, 
 
 ### -field Sid
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-sid">SID</a> structure that specifies the desired creator 
+A <a href="/windows/desktop/api/winnt/ns-winnt-sid">SID</a> structure that specifies the desired creator 
       owner.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_find_files_by_sid">FSCTL_FIND_FILES_BY_SID</a>
-
+<a href="/windows/desktop/api/winioctl/ni-winioctl-fsctl_find_files_by_sid">FSCTL_FIND_FILES_BY_SID</a>

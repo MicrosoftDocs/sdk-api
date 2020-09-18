@@ -74,21 +74,20 @@ Value of this qualifier.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_featuredecl">MI_FeatureDecl</a>
+<a href="/windows/desktop/api/mi/ns-mi-mi_featuredecl">MI_FeatureDecl</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_methoddecl">MI_MethodDecl</a>
+<a href="/windows/desktop/api/mi/ns-mi-mi_methoddecl">MI_MethodDecl</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_objectdecl">MI_ObjectDecl</a>
+<a href="/windows/desktop/api/mi/ns-mi-mi_objectdecl">MI_ObjectDecl</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_parameterdecl">MI_ParameterDecl</a>
+<a href="/windows/desktop/api/mi/ns-mi-mi_parameterdecl">MI_ParameterDecl</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_propertydecl">MI_PropertyDecl</a>
-
+<a href="/windows/desktop/api/mi/ns-mi-mi_propertydecl">MI_PropertyDecl</a>

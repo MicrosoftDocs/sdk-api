@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Retrieves the index of the list box item that has the focus rectangle in a multiple-selection list box. The item may or may not be selected. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/controls/lb-getcaretindex">LB_GETCARETINDEX</a> message explicitly.
+Retrieves the index of the list box item that has the focus rectangle in a multiple-selection list box. The item may or may not be selected. You can use this macro or send the <a href="/windows/desktop/controls/lb-getcaretindex">LB_GETCARETINDEX</a> message explicitly.
 
 ## -parameters
 
 ### -param hwndCtl
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the control.
 
@@ -64,5 +64,4 @@ A handle to the control.
 
 The contents of the list box are scrolled till the item is fully visible.
 
-For more information, see <a href="https://docs.microsoft.com/windows/desktop/controls/lb-getcaretindex">LB_GETCARETINDEX</a>.
-
+For more information, see <a href="/windows/desktop/controls/lb-getcaretindex">LB_GETCARETINDEX</a>.

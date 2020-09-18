@@ -60,7 +60,7 @@ Handles the <b>SHCNE_UPDATEIMAGE</b> Shell change notification.
 
 Type: <b>PCIDLIST_ABSOLUTE</b>
 
-The index in the system image list that has changed, specified in the <i>pidl2</i> parameter of <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-ishellchangenotify-onchange">IShellChangeNotify::OnChange</a>.
+The index in the system image list that has changed, specified in the <i>pidl2</i> parameter of <a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-ishellchangenotify-onchange">IShellChangeNotify::OnChange</a>.
 
 ## -returns
 
@@ -76,7 +76,7 @@ Use <b>SHHandleUpdateImage</b> only when the <i>pidl2</i> parameter received by 
 
 #### Examples
 
-The following example demonstrates the use of <b>SHHandleUpdateImage</b> in the implementation of <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-ishellchangenotify-onchange">IShellChangeNotify::OnChange</a>.
+The following example demonstrates the use of <b>SHHandleUpdateImage</b> in the implementation of <a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-ishellchangenotify-onchange">IShellChangeNotify::OnChange</a>.
 
 
 ```cpp
@@ -113,9 +113,8 @@ STDMETHODIMP CMyShellChangeNotify::OnChange(LONG lEvent,
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nn-shlobj_core-ishellchangenotify">IShellChangeNotify</a>
+<a href="/windows/desktop/api/shlobj_core/nn-shlobj_core-ishellchangenotify">IShellChangeNotify</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-shchangenotify">SHChangeNotify</a>
-
+<a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shchangenotify">SHChangeNotify</a>

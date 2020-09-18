@@ -56,16 +56,16 @@ api_name:
 
 ## -description
 
-Contains information used in handling <a href="https://docs.microsoft.com/windows/desktop/Controls/hdn-getdispinfo">HDN_GETDISPINFO</a> notification codes.
+Contains information used in handling <a href="/windows/desktop/Controls/hdn-getdispinfo">HDN_GETDISPINFO</a> notification codes.
 
 ## -struct-fields
 
 ### -field hdr
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a></b>
+Type: <b><a href="/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a></b>
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a> structure containing information about this notification code.
+<a href="/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a> structure containing information about this notification code.
 
 ### -field iItem
 
@@ -75,7 +75,7 @@ The zero-based index of the item in the header control.
 
 ### -field mask
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 A set of bit flags specifying which members of the structure must be filled in by the owner of the header control. This value can be a combination of the following values: 
 
@@ -102,7 +102,7 @@ The
 </td>
 <td width="60%">
 
-<a href="https://docs.microsoft.com/windows/desktop/Controls/common-control-versions">Version 4.70</a>. The 
+<a href="/windows/desktop/Controls/common-control-versions">Version 4.70</a>. The 
 						<b>iImage</b> field must be filled in.
 
 </td>
@@ -125,7 +125,7 @@ The
 </td>
 <td width="60%">
 
-<a href="https://docs.microsoft.com/windows/desktop/Controls/common-control-versions">Version 4.70</a>. A return value. Indicates that the header control should store the item information and not ask for it again.
+<a href="/windows/desktop/Controls/common-control-versions">Version 4.70</a>. A return value. Indicates that the header control should store the item information and not ask for it again.
 
 </td>
 </tr>
@@ -133,7 +133,7 @@ The
 
 ### -field pszText
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPTSTR</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">LPTSTR</a></b>
 
 A pointer to a null-terminated string containing the text that will be displayed for the header item.
 
@@ -149,11 +149,11 @@ The size of the buffer that
 Type: <b>int</b>
 
 The zero-based index of an image within the image list. The specified image will be displayed with the header item, but it does not take the place of the item's bitmap. If 
-					<b>iImage</b> is set to I_IMAGECALLBACK, the control requests image information for this item by using an <a href="https://docs.microsoft.com/windows/desktop/Controls/hdn-getdispinfo">HDN_GETDISPINFO</a> notification code.
+					<b>iImage</b> is set to I_IMAGECALLBACK, the control requests image information for this item by using an <a href="/windows/desktop/Controls/hdn-getdispinfo">HDN_GETDISPINFO</a> notification code.
 
 ### -field lParam
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPARAM</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">LPARAM</a></b>
 
 An application-defined value to associate with the item.
 
@@ -161,4 +161,3 @@ An application-defined value to associate with the item.
 
 > [!NOTE]
 > The commctrl.h header defines NMHDDISPINFO as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

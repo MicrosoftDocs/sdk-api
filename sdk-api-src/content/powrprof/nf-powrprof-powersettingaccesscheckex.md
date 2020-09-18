@@ -126,7 +126,7 @@ The identifier of the power setting.
 
 ### -param AccessType [in]
 
-The type of security access for the setting. For more information, see <a href="https://docs.microsoft.com/windows/desktop/SysInfo/registry-key-security-and-access-rights">Registry Key Security and Access Rights</a>.
+The type of security access for the setting. For more information, see <a href="/windows/desktop/SysInfo/registry-key-security-and-access-rights">Registry Key Security and Access Rights</a>.
 
 This parameter can be one of the following values. 
 
@@ -204,4 +204,3 @@ Only Administrators can remotely access power settings.
 </td>
 </tr>
 </table>
-

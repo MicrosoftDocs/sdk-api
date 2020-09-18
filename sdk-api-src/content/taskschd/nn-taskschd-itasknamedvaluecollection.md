@@ -50,11 +50,11 @@ api_name:
 
 ## -description
 
-Contains a collection of <a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nn-taskschd-itasknamedvaluepair">ITaskNamedValuePair</a> interface name-value pairs.
+Contains a collection of <a href="/windows/desktop/api/taskschd/nn-taskschd-itasknamedvaluepair">ITaskNamedValuePair</a> interface name-value pairs.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITaskNamedValueCollection</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ITaskNamedValueCollection</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITaskNamedValueCollection</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ITaskNamedValueCollection</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -70,7 +70,7 @@ The <b>ITaskNamedValueCollection</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nf-taskschd-itasknamedvaluecollection-clear">Clear</a>
+<a href="/windows/desktop/api/taskschd/nf-taskschd-itasknamedvaluecollection-clear">Clear</a>
 </td>
 <td align="left" width="63%">
 Clears the entire collection of name-value pairs.
@@ -79,7 +79,7 @@ Clears the entire collection of name-value pairs.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nf-taskschd-itasknamedvaluecollection-create">Create</a>
+<a href="/windows/desktop/api/taskschd/nf-taskschd-itasknamedvaluecollection-create">Create</a>
 </td>
 <td align="left" width="63%">
 Creates a name-value pair in the collection.
@@ -88,7 +88,7 @@ Creates a name-value pair in the collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nf-taskschd-itasknamedvaluecollection-remove">Remove</a>
+<a href="/windows/desktop/api/taskschd/nf-taskschd-itasknamedvaluecollection-remove">Remove</a>
 </td>
 <td align="left" width="63%">
 Removes a selected name-value pair from the collection.
@@ -106,7 +106,7 @@ Removes a selected name-value pair from the collection.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nf-taskschd-itasknamedvaluecollection-get__newenum">_NewEnum</a>
+<a href="/windows/desktop/api/taskschd/nf-taskschd-itasknamedvaluecollection-get__newenum">_NewEnum</a>
 
 
 </td>
@@ -122,7 +122,7 @@ Gets the collection enumerator for the name-value pair collection.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nf-taskschd-itasknamedvaluecollection-get_count">Count</a>
+<a href="/windows/desktop/api/taskschd/nf-taskschd-itasknamedvaluecollection-get_count">Count</a>
 
 
 </td>
@@ -138,7 +138,7 @@ Gets the number of name-value pairs in the collection.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nf-taskschd-itasknamedvaluecollection-get_item">Item</a>
+<a href="/windows/desktop/api/taskschd/nf-taskschd-itasknamedvaluecollection-get_item">Item</a>
 
 
 </td>
@@ -155,9 +155,8 @@ Gets the specified name-value pair from the collection.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nf-taskschd-iemailaction-get_headerfields">HeaderFields Property of IEmailAction</a>
+<a href="/windows/desktop/api/taskschd/nf-taskschd-iemailaction-get_headerfields">HeaderFields Property of IEmailAction</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nf-taskschd-ieventtrigger-get_valuequeries">ValueQueries Property of IEventTrigger</a>
-
+<a href="/windows/desktop/api/taskschd/nf-taskschd-ieventtrigger-get_valuequeries">ValueQueries Property of IEventTrigger</a>

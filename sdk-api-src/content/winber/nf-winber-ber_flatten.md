@@ -52,18 +52,18 @@ api_name:
 
 The <b>ber_flatten</b> function allocates a new 
 <a href="/windows/win32/api/winldap/ns-winldap-ldap_berval">berval</a> structure containing the data taken from the supplied 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/ns-winldap-berelement">BerElement</a> structure.
+<a href="/previous-versions/windows/desktop/api/winldap/ns-winldap-berelement">BerElement</a> structure.
 
 ## -parameters
 
 ### -param pBerElement [in]
 
-Pointer to the source <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/ns-winldap-berelement">BerElement</a> structure.
+Pointer to the source <a href="/previous-versions/windows/desktop/api/winldap/ns-winldap-berelement">BerElement</a> structure.
 
 ### -param pBerVal [out]
 
 Pointer to the newly allocated <a href="/windows/win32/api/winldap/ns-winldap-ldap_berval">berval</a> structure, which should be freed using 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winber/nf-winber-ber_bvfree">ber_bvfree</a>.
+<a href="/previous-versions/windows/desktop/api/winber/nf-winber-ber_bvfree">ber_bvfree</a>.
 
 ## -returns
 
@@ -71,25 +71,24 @@ The function returns 0 on success and -1 on failure.
 
 ## -remarks
 
-The use of <b>ber_flatten</b> on a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/ns-winldap-berelement">BerElement</a> in which all <b>{</b> and <b>}</b> format modifiers have not been properly matched will cause the function to return an error.
+The use of <b>ber_flatten</b> on a <a href="/previous-versions/windows/desktop/api/winldap/ns-winldap-berelement">BerElement</a> in which all <b>{</b> and <b>}</b> format modifiers have not been properly matched will cause the function to return an error.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/ns-winldap-berelement">BerElement</a>
+<a href="/previous-versions/windows/desktop/api/winldap/ns-winldap-berelement">BerElement</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/ldap/functions">Functions</a>
+<a href="/previous-versions/windows/desktop/ldap/functions">Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winber/nf-winber-ber_bvfree">ber_bvfree</a>
+<a href="/previous-versions/windows/desktop/api/winber/nf-winber-ber_bvfree">ber_bvfree</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winber/nf-winber-ber_init">ber_init</a>
+<a href="/previous-versions/windows/desktop/api/winber/nf-winber-ber_init">ber_init</a>
 
 
 
 <a href="/windows/win32/api/winldap/ns-winldap-ldap_berval">berval</a>
-

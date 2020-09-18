@@ -55,7 +55,7 @@ The
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITTerminalControl</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ITTerminalControl</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITTerminalControl</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ITTerminalControl</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>ITTerminalControl</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/termmgr/nf-termmgr-itterminalcontrol-completeconnectterminal">CompleteConnectTerminal</a>
+<a href="/windows/desktop/api/termmgr/nf-termmgr-itterminalcontrol-completeconnectterminal">CompleteConnectTerminal</a>
 </td>
 <td align="left" width="63%">
 Completes terminal connection.
@@ -79,7 +79,7 @@ Completes terminal connection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/termmgr/nf-termmgr-itterminalcontrol-connectterminal">ConnectTerminal</a>
+<a href="/windows/desktop/api/termmgr/nf-termmgr-itterminalcontrol-connectterminal">ConnectTerminal</a>
 </td>
 <td align="left" width="63%">
 Connects filters and returns a set of pins for connection.
@@ -88,7 +88,7 @@ Connects filters and returns a set of pins for connection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/termmgr/nf-termmgr-itterminalcontrol-disconnectterminal">DisconnectTerminal</a>
+<a href="/windows/desktop/api/termmgr/nf-termmgr-itterminalcontrol-disconnectterminal">DisconnectTerminal</a>
 </td>
 <td align="left" width="63%">
 Disconnects internal filters and removes them from the filter graph.
@@ -97,7 +97,7 @@ Disconnects internal filters and removes them from the filter graph.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/termmgr/nf-termmgr-itterminalcontrol-get_addresshandle">get_AddressHandle</a>
+<a href="/windows/desktop/api/termmgr/nf-termmgr-itterminalcontrol-get_addresshandle">get_AddressHandle</a>
 </td>
 <td align="left" width="63%">
 Gets MSP address handle.
@@ -106,7 +106,7 @@ Gets MSP address handle.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/termmgr/nf-termmgr-itterminalcontrol-runrenderfilter">RunRenderFilter</a>
+<a href="/windows/desktop/api/termmgr/nf-termmgr-itterminalcontrol-runrenderfilter">RunRenderFilter</a>
 </td>
 <td align="left" width="63%">
 Starts the rightmost render filter in the terminal.
@@ -115,7 +115,7 @@ Starts the rightmost render filter in the terminal.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/termmgr/nf-termmgr-itterminalcontrol-stoprenderfilter">StopRenderFilter</a>
+<a href="/windows/desktop/api/termmgr/nf-termmgr-itterminalcontrol-stoprenderfilter">StopRenderFilter</a>
 </td>
 <td align="left" width="63%">
 Stops the rightmost render filter in the terminal.
@@ -123,4 +123,3 @@ Stops the rightmost render filter in the terminal.
 </td>
 </tr>
 </table>
-

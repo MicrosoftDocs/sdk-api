@@ -50,17 +50,16 @@ api_name:
 
 ## -description
 
-Retrieves the extended style for a specified tree-view control. Use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/tvm-getextendedstyle">TVM_GETEXTENDEDSTYLE</a> message explicitly.
+Retrieves the extended style for a specified tree-view control. Use this macro or send the <a href="/windows/desktop/Controls/tvm-getextendedstyle">TVM_GETEXTENDEDSTYLE</a> message explicitly.
 
 ## -parameters
 
 ### -param hwnd
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 Handle to the tree-view control.
 
 ## -remarks
 
-The extended styles for a tree-view control have nothing to do with the extended styles used with function <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createwindowexa">CreateWindowEx</a> or function <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setwindowlonga">SetWindowLong</a>.
-
+The extended styles for a tree-view control have nothing to do with the extended styles used with function <a href="/windows/desktop/api/winuser/nf-winuser-createwindowexa">CreateWindowEx</a> or function <a href="/windows/desktop/api/winuser/nf-winuser-setwindowlonga">SetWindowLong</a>.

@@ -63,5 +63,4 @@ The collection of RADIUS proxy server groups.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-radiusservergroupproperties">RADIUSSERVERGROUPPROPERTIES</a>
-
+<a href="/windows/desktop/api/sdoias/ne-sdoias-radiusservergroupproperties">RADIUSSERVERGROUPPROPERTIES</a>

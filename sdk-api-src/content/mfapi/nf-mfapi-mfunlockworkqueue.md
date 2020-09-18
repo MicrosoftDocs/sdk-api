@@ -56,7 +56,7 @@ Unlocks a work queue.
 
 ### -param dwWorkQueue [in]
 
-Identifier for the work queue to be unlocked. The identifier is returned by the <a href="https://docs.microsoft.com/windows/desktop/api/mfapi/nf-mfapi-mfallocateworkqueue">MFAllocateWorkQueue</a> function.
+Identifier for the work queue to be unlocked. The identifier is returned by the <a href="/windows/desktop/api/mfapi/nf-mfapi-mfallocateworkqueue">MFAllocateWorkQueue</a> function.
 
 ## -returns
 
@@ -82,13 +82,12 @@ The function succeeded.
 
 ## -remarks
 
-The application must call <b>MFUnlockWorkQueue</b> once for every call to <a href="https://docs.microsoft.com/windows/desktop/api/mfapi/nf-mfapi-mfallocateworkqueue">MFAllocateWorkQueue</a> and then once for every call to <a href="https://docs.microsoft.com/windows/desktop/api/mfapi/nf-mfapi-mflockworkqueue">MFLockWorkQueue</a>.
+The application must call <b>MFUnlockWorkQueue</b> once for every call to <a href="/windows/desktop/api/mfapi/nf-mfapi-mfallocateworkqueue">MFAllocateWorkQueue</a> and then once for every call to <a href="/windows/desktop/api/mfapi/nf-mfapi-mflockworkqueue">MFLockWorkQueue</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>
+<a href="/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/work-queues">Work Queues</a>
-
+<a href="/windows/desktop/medfound/work-queues">Work Queues</a>

@@ -48,15 +48,15 @@ api_name:
     unavailable in subsequent versions.]
 
 Loads a child pointer to an item identifier list (PIDL) from an 
-    <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a>.
+    <a href="/windows/desktop/api/objidl/nn-objidl-istream">IStream</a>.
 
 ## -parameters
 
 ### -param pstm
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a>*</b>
+Type: <b><a href="/windows/desktop/api/objidl/nn-objidl-istream">IStream</a>*</b>
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a> interface from which the child PIDL loads.
+A pointer to the <a href="/windows/desktop/api/objidl/nn-objidl-istream">IStream</a> interface from which the child PIDL loads.
 
 ### -param ppidl
 
@@ -75,4 +75,3 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 For use where STRICT_TYPED_ITEMIDS is defined.
 
 ## -see-also
-

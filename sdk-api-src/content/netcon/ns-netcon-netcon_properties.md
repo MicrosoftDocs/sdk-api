@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Internet Connection Firewall may be altered or unavailable in subsequent versions. Instead, use the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/ics/windows-firewall-start-page">Windows Firewall API</a>.]
+<p class="CCE_Message">[Internet Connection Firewall may be altered or unavailable in subsequent versions. Instead, use the <a href="/previous-versions/windows/desktop/ics/windows-firewall-start-page">Windows Firewall API</a>.]
 
 The 
 <b>NETCON_PROPERTIES</b> structure stores values that describe the properties of a network connection.
@@ -73,15 +73,15 @@ Name of the device associated with the connection.
 
 ### -field Status
 
-<a href="https://docs.microsoft.com/windows/desktop/api/netcon/ne-netcon-netcon_status">Current status</a> of the connection.
+<a href="/windows/desktop/api/netcon/ne-netcon-netcon_status">Current status</a> of the connection.
 
 ### -field MediaType
 
-<a href="https://docs.microsoft.com/windows/desktop/api/netcon/ne-netcon-netcon_mediatype">Media type</a> associated with this connection.
+<a href="/windows/desktop/api/netcon/ne-netcon-netcon_mediatype">Media type</a> associated with this connection.
 
 ### -field dwCharacter
 
-<a href="https://docs.microsoft.com/windows/desktop/api/netcon/ne-netcon-netcon_characteristic_flags">Characteristics</a> for this connection.
+<a href="/windows/desktop/api/netcon/ne-netcon-netcon_characteristic_flags">Characteristics</a> for this connection.
 
 ### -field clsidThisObject
 
@@ -93,27 +93,26 @@ Class identifier for the user-interface object.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netcon/nn-netcon-inetconnection">INetConnection</a>
+<a href="/previous-versions/windows/desktop/api/netcon/nn-netcon-inetconnection">INetConnection</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/ics/internet-connection-sharing-and-internet-connection-firewall-reference">Internet Connection Sharing and Internet Connection Firewall
+<a href="/previous-versions/windows/desktop/ics/internet-connection-sharing-and-internet-connection-firewall-reference">Internet Connection Sharing and Internet Connection Firewall
 		  Reference</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/ics/internet-connection-sharing-and-internet-connection-firewall-structures">Internet Connection Sharing and Internet Connection Firewall
+<a href="/previous-versions/windows/desktop/ics/internet-connection-sharing-and-internet-connection-firewall-structures">Internet Connection Sharing and Internet Connection Firewall
 		  Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/netcon/ne-netcon-netcon_characteristic_flags">NETCON_CHARACTERISTIC_FLAGS</a>
+<a href="/windows/desktop/api/netcon/ne-netcon-netcon_characteristic_flags">NETCON_CHARACTERISTIC_FLAGS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/netcon/ne-netcon-netcon_mediatype">NETCON_MEDIATYPE</a>
+<a href="/windows/desktop/api/netcon/ne-netcon-netcon_mediatype">NETCON_MEDIATYPE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/netcon/ne-netcon-netcon_status">NETCON_STATUS</a>
-
+<a href="/windows/desktop/api/netcon/ne-netcon-netcon_status">NETCON_STATUS</a>

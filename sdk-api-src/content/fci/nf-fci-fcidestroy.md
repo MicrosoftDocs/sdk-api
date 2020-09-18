@@ -56,15 +56,14 @@ The <b>FCIDestroy</b> function deletes an open  FCI context, freeing any memory 
 
 ### -param hfci [in]
 
-A valid FCI context handle returned by the <a href="https://docs.microsoft.com/windows/desktop/api/fci/nf-fci-fcicreate">FCICreate</a> function.
+A valid FCI context handle returned by the <a href="/windows/desktop/api/fci/nf-fci-fcicreate">FCICreate</a> function.
 
 ## -returns
 
 If the function succeeds, it returns <b>TRUE</b>; otherwise, <b>FALSE</b>.
 
-Extended error information is provided in the <a href="https://docs.microsoft.com/windows/desktop/api/fdi_fci_types/ns-fdi_fci_types-erf">ERF</a> structure used to create the FCI context.
+Extended error information is provided in the <a href="/windows/desktop/api/fdi_fci_types/ns-fdi_fci_types-erf">ERF</a> structure used to create the FCI context.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fci/nf-fci-fcicreate">FCICreate</a>
-
+<a href="/windows/desktop/api/fci/nf-fci-fcicreate">FCICreate</a>

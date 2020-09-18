@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Gets the current left-to-right order of items in a header control. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/hdm-getorderarray">HDM_GETORDERARRAY</a> message explicitly.
+Gets the current left-to-right order of items in a header control. You can use this macro or send the <a href="/windows/desktop/Controls/hdm-getorderarray">HDM_GETORDERARRAY</a> message explicitly.
 
 ## -parameters
 
 ### -param hwnd
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to a header control.
 
@@ -65,7 +65,7 @@ A handle to a header control.
 Type: <b>int</b>
 
 The number of integer elements that 
-					<i>lpiArray</i> can hold. This value must be equal to the number of items in the control (see <a href="https://docs.microsoft.com/windows/desktop/Controls/hdm-getitemcount">HDM_GETITEMCOUNT</a>).
+					<i>lpiArray</i> can hold. This value must be equal to the number of items in the control (see <a href="/windows/desktop/Controls/hdm-getitemcount">HDM_GETITEMCOUNT</a>).
 
 ### -param lpi
 
@@ -94,4 +94,3 @@ if((iItems = SendMessage(hwndHD, HDM_GETITEMCOUNT, 0,0))!=-1)
 
 MessageBox(hwnd, "Out of memory.","Error", MB_OK);
 ```
-

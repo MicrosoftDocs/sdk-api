@@ -62,11 +62,11 @@ Handle to the input context for which to retrieve status information.
 
 ### -param lpfdwConversion [out, optional]
 
-Pointer to a variable in which the function retrieves a combination of conversion mode values. For more information, see <a href="https://docs.microsoft.com/windows/desktop/Intl/ime-conversion-mode-values">IME Conversion Mode Values</a>.
+Pointer to a variable in which the function retrieves a combination of conversion mode values. For more information, see <a href="/windows/desktop/Intl/ime-conversion-mode-values">IME Conversion Mode Values</a>.
 
 ### -param lpfdwSentence [out, optional]
 
-Pointer to a variable in which the function retrieves a sentence mode value. For more information, see <a href="https://docs.microsoft.com/windows/desktop/Intl/ime-sentence-mode-values">IME Sentence Mode Values</a>.
+Pointer to a variable in which the function retrieves a sentence mode value. For more information, see <a href="/windows/desktop/Intl/ime-sentence-mode-values">IME Sentence Mode Values</a>.
 
 ## -returns
 
@@ -78,9 +78,8 @@ Conversion and sentence mode values are set only if the IME supports those modes
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/input-method-manager">Input Method Manager</a>
+<a href="/windows/desktop/Intl/input-method-manager">Input Method Manager</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/input-method-manager-functions">Input Method Manager Functions</a>
-
+<a href="/windows/desktop/Intl/input-method-manager-functions">Input Method Manager Functions</a>

@@ -69,7 +69,7 @@ Handle to an event tracing session, or <b>NULL</b>. You must specify
       <i>SessionHandle</i> if <i>SessionName</i> is 
       <b>NULL</b>. However, ETW ignores the handle if <i>SessionName</i> is not 
       <b>NULL</b>. The handle is returned by the 
-      <a href="https://docs.microsoft.com/windows/desktop/ETW/starttrace">StartTrace</a> function.
+      <a href="/windows/desktop/ETW/starttrace">StartTrace</a> function.
 
 ### -param InstanceName [in]
 
@@ -83,14 +83,14 @@ To specify the NT Kernel Logger session, set <i>SessionName</i> to
 ### -param Properties [in, out]
 
 Pointer to an initialized 
-       <a href="https://docs.microsoft.com/windows/desktop/ETW/event-trace-properties">EVENT_TRACE_PROPERTIES</a> structure. This structure 
+       <a href="/windows/desktop/ETW/event-trace-properties">EVENT_TRACE_PROPERTIES</a> structure. This structure 
        should be zeroed out before it is used.
 
 If <i>ControlCode</i> specifies <b>EVENT_TRACE_CONTROL_STOP</b>, 
        <b>EVENT_TRACE_CONTROL_QUERY</b> or <b>EVENT_TRACE_CONTROL_FLUSH</b>, 
        you only need to set the <b>Wnode.BufferSize</b>, <b>Wnode.Guid</b>, 
        <b>LoggerNameOffset</b>, and <b>LogFileNameOffset</b> members of the 
-       <a href="https://docs.microsoft.com/windows/desktop/ETW/event-trace-properties">EVENT_TRACE_PROPERTIES</a> structure. If the 
+       <a href="/windows/desktop/ETW/event-trace-properties">EVENT_TRACE_PROPERTIES</a> structure. If the 
        session is a private session, you also need to set <b>LogFileMode</b>. You can use the 
        maximum session name (1024 characters) and maximum log file name (1024 characters) lengths to calculate the 
        buffer size and offsets if not known. 
@@ -132,22 +132,22 @@ For private logger sessions, you can update only the <b>LogFileNameOffset</b> an
        <b>FlushTimer</b> members.
 
 If you are using a newly initialized 
-       <a href="https://docs.microsoft.com/windows/desktop/ETW/event-trace-properties">EVENT_TRACE_PROPERTIES</a> structure, the only 
+       <a href="/windows/desktop/ETW/event-trace-properties">EVENT_TRACE_PROPERTIES</a> structure, the only 
        members you need to specify, other than the members you are updating, are 
        <b>Wnode.BufferSize</b>, <b>Wnode.Guid</b>, and 
        <b>Wnode.Flags</b>.
 
 If you use the property structure you passed to 
-       <a href="https://docs.microsoft.com/windows/desktop/ETW/starttrace">StartTrace</a>, make sure the 
+       <a href="/windows/desktop/ETW/starttrace">StartTrace</a>, make sure the 
        <b>LogFileNameOffset</b> member is 0 unless you are changing the log file name.
 
 If you call the <b>ControlTrace</b> function to query the 
        current session properties and then update those properties to update the session, make sure you set 
        <b>LogFileNameOffset</b> to 0 (unless you are changing the log file name) and set 
-       <a href="https://docs.microsoft.com/windows/desktop/ETW/event-trace-properties">EVENT_TRACE_PROPERTIES.Wnode.Flags</a> to 
+       <a href="/windows/desktop/ETW/event-trace-properties">EVENT_TRACE_PROPERTIES.Wnode.Flags</a> to 
        <b>WNODE_FLAG_TRACED_GUID</b>.
 
-<b>Starting with Windows 10, version 1703:  </b>For better performance in cross process scenarios, you can now pass filtering in to <b>ControlTrace</b> for  system wide private loggers. You will need to pass in the new <a href="https://docs.microsoft.com/windows/desktop/ETW/event-trace-properties-v2">EVENT_TRACE_PROPERTIES_V2</a> structure to include filtering information. See <a href="https://docs.microsoft.com/windows/desktop/ETW/configuring-and-starting-a-private-logger-session">Configuring and Starting a Private Logger Session</a> for more details.
+<b>Starting with Windows 10, version 1703:  </b>For better performance in cross process scenarios, you can now pass filtering in to <b>ControlTrace</b> for  system wide private loggers. You will need to pass in the new <a href="/windows/desktop/ETW/event-trace-properties-v2">EVENT_TRACE_PROPERTIES_V2</a> structure to include filtering information. See <a href="/windows/desktop/ETW/configuring-and-starting-a-private-logger-session">Configuring and Starting a Private Logger Session</a> for more details.
 
 ### -param ControlCode [in]
 
@@ -213,7 +213,7 @@ If the function succeeds, the return value is ERROR_SUCCESS.
       
 
 If the function fails, the return value is one of the 
-       <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error codes</a>. The following table includes some 
+       <a href="/windows/desktop/Debug/system-error-codes">system error codes</a>. The following table includes some 
        common errors and their causes.
 
 <table>
@@ -276,7 +276,7 @@ Another session is already using the file name specified by the
 </dl>
 </td>
 <td width="60%">
-The buffer for <a href="https://docs.microsoft.com/windows/desktop/ETW/event-trace-properties">EVENT_TRACE_PROPERTIES</a> is 
+The buffer for <a href="/windows/desktop/ETW/event-trace-properties">EVENT_TRACE_PROPERTIES</a> is 
         too small to hold all the information for the session. If you do not need the session's property information, 
         you can ignore this error. If you receive this error when stopping the session, ETW will have already stopped 
         the session before generating this error.
@@ -317,10 +317,10 @@ The given session is not running.
 
 Event trace controllers call this function.
 
-This function supersedes the <a href="https://docs.microsoft.com/windows/desktop/ETW/flushtrace">FlushTrace</a>, 
-    <a href="https://docs.microsoft.com/windows/desktop/ETW/querytrace">QueryTrace</a>, 
-    <a href="https://docs.microsoft.com/windows/desktop/ETW/stoptrace">StopTrace</a>, and 
-    <a href="https://docs.microsoft.com/windows/desktop/ETW/updatetrace">UpdateTrace</a> functions.
+This function supersedes the <a href="/windows/desktop/ETW/flushtrace">FlushTrace</a>, 
+    <a href="/windows/desktop/ETW/querytrace">QueryTrace</a>, 
+    <a href="/windows/desktop/ETW/stoptrace">StopTrace</a>, and 
+    <a href="/windows/desktop/ETW/updatetrace">UpdateTrace</a> functions.
 
 
 
@@ -331,13 +331,12 @@ This function supersedes the <a href="https://docs.microsoft.com/windows/desktop
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/ETW/event-trace-properties">EVENT_TRACE_PROPERTIES</a>
+<a href="/windows/desktop/ETW/event-trace-properties">EVENT_TRACE_PROPERTIES</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/ETW/queryalltraces">QueryAllTraces</a>
+<a href="/windows/desktop/ETW/queryalltraces">QueryAllTraces</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/ETW/starttrace">StartTrace</a>
-
+<a href="/windows/desktop/ETW/starttrace">StartTrace</a>

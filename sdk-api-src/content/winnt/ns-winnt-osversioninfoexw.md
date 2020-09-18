@@ -59,8 +59,8 @@ api_name:
 Contains operating system version information. The information includes major and minor version 
     numbers, a build number, a platform identifier, and information about product suites and the latest Service Pack 
     installed on the system. This structure is used with the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getversionexa">GetVersionEx</a> and 
-    <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-verifyversioninfoa">VerifyVersionInfo</a> functions.
+    <a href="/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getversionexa">GetVersionEx</a> and 
+    <a href="/windows/desktop/api/winbase/nf-winbase-verifyversioninfoa">VerifyVersionInfo</a> functions.
 
 ## -struct-fields
 
@@ -334,7 +334,7 @@ Reserved for future use.
 
 Relying on version information is not the best way to test for a feature. Instead, refer to the documentation 
     for the feature of interest. For more information on common techniques for feature detection, see 
-    <a href="https://docs.microsoft.com/windows/desktop/SysInfo/operating-system-version">Operating System Version</a>.
+    <a href="/windows/desktop/SysInfo/operating-system-version">Operating System Version</a>.
 
 If you must require a particular operating system, be sure to use it as a minimum supported version, rather 
     than design the test for the one operating system. This way, your detection code will continue to work on future 
@@ -464,7 +464,7 @@ The following table summarizes the values returned by supported versions of Wind
 </tr>
 <tr>
 <td colspan="5">
-<b>*</b> For applications that have been manifested for Windows 8.1 or Windows 10. Applications not manifested for Windows 8.1 or Windows 10 will return the Windows 8 OS version value (6.2). To manifest your applications for Windows 8.1 or Windows 10, refer to <a href="https://docs.microsoft.com/windows/desktop/SysInfo/targeting-your-application-at-windows-8-1">Targeting your application for Windows</a>.
+<b>*</b> For applications that have been manifested for Windows 8.1 or Windows 10. Applications not manifested for Windows 8.1 or Windows 10 will return the Windows 8 OS version value (6.2). To manifest your applications for Windows 8.1 or Windows 10, refer to <a href="/windows/desktop/SysInfo/targeting-your-application-at-windows-8-1">Targeting your application for Windows</a>.
 
 </td>
 </tr>
@@ -480,12 +480,12 @@ You should not  rely upon only the <b>VER_SUITE_SMALLBUSINESS</b> flag to determ
     Business Server was once installed on this system. If this installation is further upgraded to Windows Server, 
     Enterprise Edition, the <b>VER_SUITE_SMALLBUSINESS</b> flag will remain set.
 
-If compatibility mode is in effect, the <b>OSVERSIONINFOEX</b> structure contains information about the operating system that is selected for <a href="https://msdn.microsoft.com/library/bb757005.aspx">application compatibility</a>.
+If compatibility mode is in effect, the <b>OSVERSIONINFOEX</b> structure contains information about the operating system that is selected for <a href="/previous-versions/bb757005(v=msdn.10)">application compatibility</a>.
 
 To determine whether a Win32-based application is running on WOW64, call the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/wow64apiset/nf-wow64apiset-iswow64process">IsWow64Process</a> function. To determine whether the system is running a  64-bit version of Windows, call the <a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getnativesysteminfo">GetNativeSystemInfo</a> function.
+    <a href="/windows/desktop/api/wow64apiset/nf-wow64apiset-iswow64process">IsWow64Process</a> function. To determine whether the system is running a  64-bit version of Windows, call the <a href="/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getnativesysteminfo">GetNativeSystemInfo</a> function.
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getsystemmetrics">GetSystemMetrics</a> function provides the 
+The <a href="/windows/desktop/api/winuser/nf-winuser-getsystemmetrics">GetSystemMetrics</a> function provides the 
     following additional information about the current operating system. 
 
 <table>
@@ -516,7 +516,7 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-g
 #### Examples
 
 For an example, see 
-     <a href="https://docs.microsoft.com/windows/desktop/SysInfo/getting-the-system-version">Getting the System Version</a>.
+     <a href="/windows/desktop/SysInfo/getting-the-system-version">Getting the System Version</a>.
 
 <div class="code"></div>
 
@@ -528,13 +528,12 @@ For an example, see
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wow64apiset/nf-wow64apiset-iswow64process">IsWow64Process</a>
+<a href="/windows/desktop/api/wow64apiset/nf-wow64apiset-iswow64process">IsWow64Process</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-osversioninfoa">OSVERSIONINFO</a>
+<a href="/windows/desktop/api/winnt/ns-winnt-osversioninfoa">OSVERSIONINFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SysInfo/version-helper-apis">Version Helper APIs</a>
-
+<a href="/windows/desktop/SysInfo/version-helper-apis">Version Helper APIs</a>

@@ -60,7 +60,7 @@ A GUID that identifies the service associated with the object. This value can be
 
 ### -param pFormatEtc [in]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-formatetc">FORMATETC</a> structure that contains data about the object to be embedded. This value can be <b>NULL</b> if <i>pguidService</i> is valid.
+Pointer to a <a href="/windows/desktop/api/objidl/ns-objidl-formatetc">FORMATETC</a> structure that contains data about the object to be embedded. This value can be <b>NULL</b> if <i>pguidService</i> is valid.
 
 ### -param pfInsertable [out]
 
@@ -112,9 +112,8 @@ There is no active context.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfqueryembedded">ITfQueryEmbedded</a>
+<a href="/windows/desktop/api/msctf/nn-msctf-itfqueryembedded">ITfQueryEmbedded</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/com/the-formatetc-structure">The FORMATETC Structure</a>
-
+<a href="/windows/desktop/com/the-formatetc-structure">The FORMATETC Structure</a>

@@ -70,7 +70,7 @@ Reference to the desired IID to represent the item, such as IID_IShellItem.
 
 Type: <b>void**</b>
 
-When this method returns, contains the interface pointer requested in <i>riid</i>. This is typically <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a>.
+When this method returns, contains the interface pointer requested in <i>riid</i>. This is typically <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a>.
 
 ## -returns
 
@@ -98,9 +98,8 @@ The index in <i>iItem</i> is out of range.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifolderview2">IFolderView2</a>
+<a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifolderview2">IFolderView2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifolderview2-getselecteditem">IFolderView2::GetSelectedItem</a>
-
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifolderview2-getselecteditem">IFolderView2::GetSelectedItem</a>

@@ -57,8 +57,8 @@ api_name:
 A <b>SECPKG_GSS_INFO</b> structure contains information used for GSS-compatible negotiations.
 
 This structure is used by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spgetextendedinformationfn">SpGetExtendedInformation</a> and 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spsetextendedinformationfn">SpSetExtendedInformation</a> functions.
+<a href="/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spgetextendedinformationfn">SpGetExtendedInformation</a> and 
+<a href="/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spsetextendedinformationfn">SpSetExtendedInformation</a> functions.
 
 ## -struct-fields
 
@@ -69,4 +69,3 @@ The encoded GSS OID length.
 ### -field EncodedId
 
 The encoded GSS OID.
-

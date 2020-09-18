@@ -62,7 +62,7 @@ The <i>DxBobNextField</i> callback function bobs the next field of interleaved d
 
 #### - BobNextFieldInfo
 
-Points to a <a href="https://docs.microsoft.com/windows/desktop/api/dxmini/ns-dxmini-ddbobnextfieldinfo">DDBOBNEXTFIELDINFO</a> structure that contains the bob information for the surface.
+Points to a <a href="/windows/desktop/api/dxmini/ns-dxmini-ddbobnextfieldinfo">DDBOBNEXTFIELDINFO</a> structure that contains the bob information for the surface.
 
 
 #### - HwDeviceExtension
@@ -79,25 +79,24 @@ Reserved for system use.
 <i>DxBobNextField</i> returns DX_OK if it succeeds; otherwise, it returns one of the following error values:
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/display/return-values-for-directdraw">DXERR_GENERIC</a>
+<a href="/windows-hardware/drivers/display/return-values-for-directdraw">DXERR_GENERIC</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/display/return-values-for-directdraw">DXERR_OUTOFCAPS</a>
+<a href="/windows-hardware/drivers/display/return-values-for-directdraw">DXERR_OUTOFCAPS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/display/return-values-for-directdraw">DXERR_UNSUPPORTED</a>
+<a href="/windows-hardware/drivers/display/return-values-for-directdraw">DXERR_UNSUPPORTED</a>
 
 ## -remarks
 
-When data is interleaved, the driver's <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/nc-ddrawint-pdd_surfcb_flip">DdFlip</a> function is called every other frame. This is insufficient for bob because it must be notified after every V-sync. The driver's <i>DxBobNextField</i> function is called when a V-sync does not cause a flip.
+When data is interleaved, the driver's <a href="/windows/desktop/api/ddrawint/nc-ddrawint-pdd_surfcb_flip">DdFlip</a> function is called every other frame. This is insufficient for bob because it must be notified after every V-sync. The driver's <i>DxBobNextField</i> function is called when a V-sync does not cause a flip.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dxmini/ns-dxmini-ddbobnextfieldinfo">DDBOBNEXTFIELDINFO</a>
+<a href="/windows/desktop/api/dxmini/ns-dxmini-ddbobnextfieldinfo">DDBOBNEXTFIELDINFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/nc-ddrawint-pdd_surfcb_flip">DdFlip</a>
-
+<a href="/windows/desktop/api/ddrawint/nc-ddrawint-pdd_surfcb_flip">DdFlip</a>

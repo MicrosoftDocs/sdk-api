@@ -62,11 +62,11 @@ A GUID that identifies the manifest provider whose event metadata you want to re
 
 ### -param EventDescriptor [in]
 
-A pointer to the event descriptor that contains information such as event id, version, op-code, and keyword. For details, see the <a href="https://docs.microsoft.com/windows/desktop/api/evntprov/ns-evntprov-event_descriptor">EVENT_DESCRIPTOR</a> structure
+A pointer to the event descriptor that contains information such as event id, version, op-code, and keyword. For details, see the <a href="/windows/desktop/api/evntprov/ns-evntprov-event_descriptor">EVENT_DESCRIPTOR</a> structure
 
 ### -param Buffer [out]
 
-A user-allocated buffer to receive the metadata about an event in  a provider manifest. For details, see the <a href="https://docs.microsoft.com/windows/desktop/api/tdh/ns-tdh-trace_event_info">TRACE_EVENT_INFO</a> structure.
+A user-allocated buffer to receive the metadata about an event in  a provider manifest. For details, see the <a href="/windows/desktop/api/tdh/ns-tdh-trace_event_info">TRACE_EVENT_INFO</a> structure.
 
 ### -param BufferSize [in, out]
 
@@ -140,17 +140,16 @@ The schema information for supplied provider GUID was not found.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/evntprov/ns-evntprov-event_descriptor">EVENT_DESCRIPTOR</a>
+<a href="/windows/desktop/api/evntprov/ns-evntprov-event_descriptor">EVENT_DESCRIPTOR</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tdh/ns-tdh-provider_event_info">PROVIDER_EVENT_INFO</a>
+<a href="/windows/desktop/api/tdh/ns-tdh-provider_event_info">PROVIDER_EVENT_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tdh/ns-tdh-trace_event_info">TRACE_EVENT_INFO</a>
+<a href="/windows/desktop/api/tdh/ns-tdh-trace_event_info">TRACE_EVENT_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tdh/nf-tdh-tdhenumeratemanifestproviderevents">TdhEnumerateManifestProviderEvents</a>
-
+<a href="/windows/desktop/api/tdh/nf-tdh-tdhenumeratemanifestproviderevents">TdhEnumerateManifestProviderEvents</a>

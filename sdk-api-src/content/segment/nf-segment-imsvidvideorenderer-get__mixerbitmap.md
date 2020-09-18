@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-The <b>get__MixerBitmap</b> method retrieves the Video Mixing Renderer's <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ivmrmixerbitmap">IVMRMixerBitmap</a> interface, which controls how the VMR mixes a static bitmap.
+The <b>get__MixerBitmap</b> method retrieves the Video Mixing Renderer's <a href="/windows/desktop/api/strmif/nn-strmif-ivmrmixerbitmap">IVMRMixerBitmap</a> interface, which controls how the VMR mixes a static bitmap.
 
 ## -parameters
 
 ### -param MixerPicture [out]
 
-Receives an <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ivmrmixerbitmap">IVMRMixerBitmap</a> interface pointer.
+Receives an <a href="/windows/desktop/api/strmif/nn-strmif-ivmrmixerbitmap">IVMRMixerBitmap</a> interface pointer.
 
 ## -returns
 
@@ -64,21 +64,20 @@ If the method succeeds, it returns S_OK. If it fails, it returns an error code.
 
 ## -remarks
 
-The returned <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ivmrmixerbitmap">IVMRMixerBitmap</a> interface has an outstanding reference count. The caller must release the interface.
+The returned <a href="/windows/desktop/api/strmif/nn-strmif-ivmrmixerbitmap">IVMRMixerBitmap</a> interface has an outstanding reference count. The caller must release the interface.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/msvidvideorenderer">IMSVidVideoRenderer Interface</a>
+<a href="/previous-versions/windows/desktop/mstv/msvidvideorenderer">IMSVidVideoRenderer Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidvideorenderer-get_mixerbitmap">IMSVidVideoRenderer::get_MixerBitmap</a>
+<a href="/windows/desktop/api/segment/nf-segment-imsvidvideorenderer-get_mixerbitmap">IMSVidVideoRenderer::get_MixerBitmap</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidvideorenderer-put__mixerbitmap">IMSVidVideoRenderer::put__MixerBitmap</a>
+<a href="/windows/desktop/api/segment/nf-segment-imsvidvideorenderer-put__mixerbitmap">IMSVidVideoRenderer::put__MixerBitmap</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/mixing-an-image-onto-the-video-window-in-c-">Mixing an Image Onto the Video Window in C++</a>
-
+<a href="/previous-versions/windows/desktop/mstv/mixing-an-image-onto-the-video-window-in-c-">Mixing an Image Onto the Video Window in C++</a>

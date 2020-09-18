@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Activates the specified page in a property sheet based on the resource identifier of the page. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/psm-setcurselid">PSM_SETCURSELID</a> message explicitly.
+Activates the specified page in a property sheet based on the resource identifier of the page. You can use this macro or send the <a href="/windows/desktop/Controls/psm-setcurselid">PSM_SETCURSELID</a> message explicitly.
 
 ## -parameters
 
 ### -param hDlg
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 Handle to the property sheet.
 
@@ -68,5 +68,4 @@ Resource identifier of the page to activate.
 
 ## -remarks
 
-The window that is losing the activation receives the <a href="https://docs.microsoft.com/windows/desktop/Controls/psn-killactive">PSN_KILLACTIVE</a> notification code, and the window that is gaining the activation receives the <a href="https://docs.microsoft.com/windows/desktop/Controls/psn-setactive">PSN_SETACTIVE</a> notification code.
-
+The window that is losing the activation receives the <a href="/windows/desktop/Controls/psn-killactive">PSN_KILLACTIVE</a> notification code, and the window that is gaining the activation receives the <a href="/windows/desktop/Controls/psn-setactive">PSN_SETACTIVE</a> notification code.

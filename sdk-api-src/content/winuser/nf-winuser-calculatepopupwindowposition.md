@@ -70,7 +70,7 @@ The specified window size.
 
 Type: <b>UINT</b>
 
-Use one of the following flags to specify how the function positions the pop-up window horizontally and vertically. The flags are the same as the vertical and horizontal positioning flags of the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-trackpopupmenuex">TrackPopupMenuEx</a> function.
+Use one of the following flags to specify how the function positions the pop-up window horizontally and vertically. The flags are the same as the vertical and horizontal positioning flags of the <a href="/windows/desktop/api/winuser/nf-winuser-trackpopupmenuex">TrackPopupMenuEx</a> function.
 
 
 Use one of the following flags to specify how the function positions the pop-up window horizontally. 
@@ -245,7 +245,7 @@ Restricts the pop-up window
 						the pop-up window is restricted to the work area only if the 
 						input point is within the work area. 
 						For more information, see the <b>rcWork</b> 
-						and <b>rcMonitor</b> members of the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-monitorinfo">MONITORINFO</a> structure.
+						and <b>rcMonitor</b> members of the <a href="/windows/desktop/api/winuser/ns-winuser-monitorinfo">MONITORINFO</a> structure.
 						
 
 </td>
@@ -270,11 +270,11 @@ A pointer to a structure that specifies the pop-up window position.
 Type: <b>BOOL</b>
 
 If the function succeeds, it returns <b>TRUE</b>; otherwise, it returns <b>FALSE</b>. 
-				To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+				To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
-<b>TPM_WORKAREA</b> is supported for the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-trackpopupmenu">TrackPopupMenu</a> and <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-trackpopupmenuex">TrackPopupMenuEx</a> functions.
+<b>TPM_WORKAREA</b> is supported for the <a href="/windows/desktop/api/winuser/nf-winuser-trackpopupmenu">TrackPopupMenu</a> and <a href="/windows/desktop/api/winuser/nf-winuser-trackpopupmenuex">TrackPopupMenuEx</a> functions.
 
 ## -see-also
 
@@ -282,9 +282,8 @@ If the function succeeds, it returns <b>TRUE</b>; otherwise, it returns <b>FALSE
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-trackpopupmenu">TrackPopupMenu</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-trackpopupmenu">TrackPopupMenu</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-trackpopupmenuex">TrackPopupMenuEx</a>
-
+<a href="/windows/desktop/api/winuser/nf-winuser-trackpopupmenuex">TrackPopupMenuEx</a>

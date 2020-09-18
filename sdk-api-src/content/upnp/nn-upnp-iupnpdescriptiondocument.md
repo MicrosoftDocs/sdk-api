@@ -55,7 +55,7 @@ The
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUPnPDescriptionDocument</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IUPnPDescriptionDocument</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUPnPDescriptionDocument</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IUPnPDescriptionDocument</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -71,7 +71,7 @@ The <b>IUPnPDescriptionDocument</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/upnp/nf-upnp-iupnpdescriptiondocument-abort">Abort</a>
+<a href="/windows/desktop/api/upnp/nf-upnp-iupnpdescriptiondocument-abort">Abort</a>
 </td>
 <td align="left" width="63%">
 Stops an asynchronous load operation.
@@ -80,7 +80,7 @@ Stops an asynchronous load operation.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/upnp/nf-upnp-iupnpdescriptiondocument-devicebyudn">DeviceByUDN</a>
+<a href="/windows/desktop/api/upnp/nf-upnp-iupnpdescriptiondocument-devicebyudn">DeviceByUDN</a>
 </td>
 <td align="left" width="63%">
 Returns a device from the currently loaded document with the specified unique device name (UDN).
@@ -89,7 +89,7 @@ Returns a device from the currently loaded document with the specified unique de
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/upnp/nf-upnp-iupnpdescriptiondocument-load">Load</a>
+<a href="/windows/desktop/api/upnp/nf-upnp-iupnpdescriptiondocument-load">Load</a>
 </td>
 <td align="left" width="63%">
 Loads a document synchronously.
@@ -98,7 +98,7 @@ Loads a document synchronously.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/upnp/nf-upnp-iupnpdescriptiondocument-loadasync">LoadAsync</a>
+<a href="/windows/desktop/api/upnp/nf-upnp-iupnpdescriptiondocument-loadasync">LoadAsync</a>
 </td>
 <td align="left" width="63%">
 Loads a document asynchronously.
@@ -107,7 +107,7 @@ Loads a document asynchronously.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/upnp/nf-upnp-iupnpdescriptiondocument-rootdevice">RootDevice</a>
+<a href="/windows/desktop/api/upnp/nf-upnp-iupnpdescriptiondocument-rootdevice">RootDevice</a>
 </td>
 <td align="left" width="63%">
 Returns the root device of the loaded document's device tree.
@@ -124,7 +124,7 @@ Returns the root device of the loaded document's device tree.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/upnp/nf-upnp-iupnpdescriptiondocument-get_loadresult">LoadResult</a>
+<a href="/windows/desktop/api/upnp/nf-upnp-iupnpdescriptiondocument-get_loadresult">LoadResult</a>
 
 
 </td>
@@ -136,7 +136,7 @@ Result code that indicates the success or failure of a completed load operation.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/upnp/nf-upnp-iupnpdescriptiondocument-get_readystate">ReadyState</a>
+<a href="/windows/desktop/api/upnp/nf-upnp-iupnpdescriptiondocument-get_readystate">ReadyState</a>
 
 
 </td>
@@ -146,4 +146,3 @@ Status of the document load operation.
 </td>
 </tr>
 </table>
-

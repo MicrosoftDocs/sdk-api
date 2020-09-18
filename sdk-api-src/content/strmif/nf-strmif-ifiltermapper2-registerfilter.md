@@ -69,7 +69,7 @@ Address of a pointer to a device moniker that determines where this filter's dat
 
 ### -param pclsidCategory [in]
 
-Pointer to the filter category of the filter. If <b>NULL</b>, the default category is CLSID_ActiveMovieFilters. (See <a href="https://docs.microsoft.com/windows/desktop/DirectShow/filter-categories">Filter Categories</a>.)
+Pointer to the filter category of the filter. If <b>NULL</b>, the default category is CLSID_ActiveMovieFilters. (See <a href="/windows/desktop/DirectShow/filter-categories">Filter Categories</a>.)
 
 ### -param szInstance [in]
 
@@ -77,7 +77,7 @@ Instance data for constructing the device moniker's display name. Can be the fri
 
 ### -param prf2 [in]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-regfilter2">REGFILTER2</a> structure containing filter information.
+Pointer to a <a href="/windows/desktop/api/strmif/ns-strmif-regfilter2">REGFILTER2</a> structure containing filter information.
 
 ## -returns
 
@@ -114,12 +114,12 @@ Could not get registry key.
 
 ## -remarks
 
-This method adds information about the filter to the registry, under the registry entry for the specified filter category. It does not register the in-process server that creates the filter (usually a DLL). To register the server, you can call the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/amoviedllregisterserver2">AMovieDllRegisterServer2</a> function.
+This method adds information about the filter to the registry, under the registry entry for the specified filter category. It does not register the in-process server that creates the filter (usually a DLL). To register the server, you can call the <a href="/windows/desktop/DirectShow/amoviedllregisterserver2">AMovieDllRegisterServer2</a> function.
 
 For the <i>ppMoniker</i> parameter, use one of the following:
 
 <ul>
-<li>The address of an <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imoniker">IMoniker</a> interface pointer for an existing device moniker</li>
+<li>The address of an <a href="/windows/desktop/api/objidl/nn-objidl-imoniker">IMoniker</a> interface pointer for an existing device moniker</li>
 <li>The address of a <b>NULL</b><b>IMoniker</b> interface pointer</li>
 <li><b>NULL</b></li>
 </ul>
@@ -131,9 +131,8 @@ Set <i>ppMoniker</i> to <b>NULL</b> if you don't want to provide or receive the 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ifiltermapper2">IFilterMapper2 Interface</a>
-
+<a href="/windows/desktop/api/strmif/nn-strmif-ifiltermapper2">IFilterMapper2 Interface</a>

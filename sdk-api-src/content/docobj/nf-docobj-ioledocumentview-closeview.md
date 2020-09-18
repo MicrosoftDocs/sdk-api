@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Instructs a document view to close itself and release its <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-ioleinplacesite">IOleInPlaceSite</a> pointer.
+Instructs a document view to close itself and release its <a href="/windows/desktop/api/oleidl/nn-oleidl-ioleinplacesite">IOleInPlaceSite</a> pointer.
 
 ## -parameters
 
@@ -64,23 +64,22 @@ This method returns S_OK on success.
 
 ## -remarks
 
-When a separate window is no longer needed, the container calls <b>IOleDocumentView::CloseView</b>, whereupon the view releases its site pointer to the separate window and destroys the window. Unlike the normal in-place deactivation sequence for active documents, a document view continues to hold the <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-ioleinplacesite">IOleInPlaceSite</a> pointer. This pointer is released only when the view's container calls <a href="https://docs.microsoft.com/windows/desktop/api/docobj/nf-docobj-ioledocumentview-setinplacesite">SetInPlaceSite</a>, with <i>pIPSite</i> set to <b>NULL</b>, or calls <b>IOleDocumentView::CloseView</b>.
+When a separate window is no longer needed, the container calls <b>IOleDocumentView::CloseView</b>, whereupon the view releases its site pointer to the separate window and destroys the window. Unlike the normal in-place deactivation sequence for active documents, a document view continues to hold the <a href="/windows/desktop/api/oleidl/nn-oleidl-ioleinplacesite">IOleInPlaceSite</a> pointer. This pointer is released only when the view's container calls <a href="/windows/desktop/api/docobj/nf-docobj-ioledocumentview-setinplacesite">SetInPlaceSite</a>, with <i>pIPSite</i> set to <b>NULL</b>, or calls <b>IOleDocumentView::CloseView</b>.
 
-When a user closes a view's separate window, the view should not shut itself down. Instead, it should call <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleinplacesite-oninplaceactivate">IOleInPlaceSite::OnInPlaceActivate</a>. The view site then decides whether to call <a href="https://docs.microsoft.com/windows/desktop/api/docobj/nf-docobj-ioledocumentview-uiactivate">IOleDocumentView::UIActivate</a> with <b>FALSE</b> immediately or later. In this way, a document view displayed in a separate window remains available for activation in the container's own window.
+When a user closes a view's separate window, the view should not shut itself down. Instead, it should call <a href="/windows/desktop/api/oleidl/nf-oleidl-ioleinplacesite-oninplaceactivate">IOleInPlaceSite::OnInPlaceActivate</a>. The view site then decides whether to call <a href="/windows/desktop/api/docobj/nf-docobj-ioledocumentview-uiactivate">IOleDocumentView::UIActivate</a> with <b>FALSE</b> immediately or later. In this way, a document view displayed in a separate window remains available for activation in the container's own window.
 
-The container must call this method before it deletes the view, that is, releases its last reference to the view. In general, implementation of this method will call <a href="https://docs.microsoft.com/windows/desktop/api/docobj/nf-docobj-ioledocumentview-show">IOleDocumentView::Show</a> with <b>FALSE</b> to hide the view if it is not already hidden, then call <a href="https://docs.microsoft.com/windows/desktop/api/docobj/nf-docobj-ioledocumentview-setinplacesite">SetInPlaceSite</a> with <b>NULL</b> to deactivate itself and release the view site pointer.
+The container must call this method before it deletes the view, that is, releases its last reference to the view. In general, implementation of this method will call <a href="/windows/desktop/api/docobj/nf-docobj-ioledocumentview-show">IOleDocumentView::Show</a> with <b>FALSE</b> to hide the view if it is not already hidden, then call <a href="/windows/desktop/api/docobj/nf-docobj-ioledocumentview-setinplacesite">SetInPlaceSite</a> with <b>NULL</b> to deactivate itself and release the view site pointer.
 
 Because <b>IOleDocumentView::CloseView</b> is called when a container is going to completely shut down a view, this method must be implemented and has no reason to fail.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/docobj/nn-docobj-ioledocumentview">IOleDocumentView</a>
+<a href="/windows/desktop/api/docobj/nn-docobj-ioledocumentview">IOleDocumentView</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/docobj/nf-docobj-ioledocumentview-setinplacesite">IOleDocumentView::SetInPlaceSite</a>
+<a href="/windows/desktop/api/docobj/nf-docobj-ioledocumentview-setinplacesite">IOleDocumentView::SetInPlaceSite</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/docobj/nf-docobj-ioledocumentview-show">IOleDocumentView::Show</a>
-
+<a href="/windows/desktop/api/docobj/nf-docobj-ioledocumentview-show">IOleDocumentView::Show</a>

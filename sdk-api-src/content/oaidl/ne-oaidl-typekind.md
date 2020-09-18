@@ -74,7 +74,7 @@ A type that has virtual and pure functions.
 
 ### -field TKIND_DISPATCH
 
-A set of methods and properties that are accessible through <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-idispatch-invoke">IDispatch::Invoke</a>. By default, dual interfaces return TKIND_DISPATCH.
+A set of methods and properties that are accessible through <a href="/previous-versions/windows/desktop/api/oaidl/nf-oaidl-idispatch-invoke">IDispatch::Invoke</a>. By default, dual interfaces return TKIND_DISPATCH.
 
 ### -field TKIND_COCLASS
 
@@ -91,4 +91,3 @@ A union, all of whose members have an offset of zero.
 ### -field TKIND_MAX
 
 End of enum marker.
-

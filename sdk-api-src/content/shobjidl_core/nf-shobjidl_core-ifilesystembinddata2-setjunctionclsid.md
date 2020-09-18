@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Sets the class identifier (CLSID) of the object that implements <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellfolder">IShellFolder</a>, if the current item is a junction point.
+Sets the class identifier (CLSID) of the object that implements <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellfolder">IShellFolder</a>, if the current item is a junction point.
 
 ## -parameters
 
@@ -58,11 +58,10 @@ Sets the class identifier (CLSID) of the object that implements <a href="https:/
 
 Type: <b>REFCLSID</b>
 
-The CLSID for the object that implements <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellfolder">IShellFolder</a> with a junction point as its current item.
+The CLSID for the object that implements <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellfolder">IShellFolder</a> with a junction point as its current item.
 
 ## -returns
 
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-

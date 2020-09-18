@@ -58,7 +58,7 @@ The <b>put_Interleaving</b> method sets the audio preroll time and the frequency
 ### -param prtInterleave [in]
 
 The approximate duration of each interleaved group of audio or video chunks, in 100-nanosecond units.
-          The exact amount of interleaving is also affected by the interleave mode, which is specified by calling <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iconfiginterleaving-put_mode">IConfigInterleaving::put_Mode</a>.
+          The exact amount of interleaving is also affected by the interleave mode, which is specified by calling <a href="/windows/desktop/api/strmif/nf-strmif-iconfiginterleaving-put_mode">IConfigInterleaving::put_Mode</a>.
 
 ### -param prtPreroll [in]
 
@@ -77,13 +77,12 @@ If you do not call this method, the default value for <i>prtInterleave</i> is 10
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iconfiginterleaving">IConfigInterleaving Interface</a>
+<a href="/windows/desktop/api/strmif/nn-strmif-iconfiginterleaving">IConfigInterleaving Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iconfiginterleaving-get_interleaving">IConfigInterleaving::get_Interleaving</a>
-
+<a href="/windows/desktop/api/strmif/nf-strmif-iconfiginterleaving-get_interleaving">IConfigInterleaving::get_Interleaving</a>

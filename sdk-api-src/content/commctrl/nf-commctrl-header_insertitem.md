@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Inserts a new item into a header control. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/hdm-insertitem">HDM_INSERTITEM</a> message explicitly.
+Inserts a new item into a header control. You can use this macro or send the <a href="/windows/desktop/Controls/hdm-insertitem">HDM_INSERTITEM</a> message explicitly.
 
 ## -parameters
 
 ### -param hwndHD
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the header control.
 
@@ -83,4 +83,3 @@ The <b>Header_InsertItem</b> macro is defined as follows:
     (int)SendMessage((hwndHD), HDM_INSERTITEM, (WPARAM)(int)(index), \
 
     (LPARAM)(const LPHDITEM)(phdi))</code></pre>
-

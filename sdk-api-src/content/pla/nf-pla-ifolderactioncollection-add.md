@@ -56,7 +56,7 @@ Adds a folder action to the collection.
 
 ### -param Action [in]
 
-An <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nn-pla-ifolderaction">IFolderAction</a> interface of the action to add to the collection.
+An <a href="/previous-versions/windows/desktop/api/pla/nn-pla-ifolderaction">IFolderAction</a> interface of the action to add to the collection.
 
 ## -returns
 
@@ -64,13 +64,12 @@ Returns S_OK if successful.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nn-pla-ifolderactioncollection">IFolderActionCollection</a>
+<a href="/previous-versions/windows/desktop/api/pla/nn-pla-ifolderactioncollection">IFolderActionCollection</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-ifolderactioncollection-addrange">IFolderActionCollection::AddRange</a>
+<a href="/previous-versions/windows/desktop/api/pla/nf-pla-ifolderactioncollection-addrange">IFolderActionCollection::AddRange</a>
 
 
 
 <b>IFolderActionCollection::Remove</b>
-

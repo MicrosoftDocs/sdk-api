@@ -57,14 +57,14 @@ api_name:
 The 
 <b>FlushTrace</b> function causes an event tracing session to immediately deliver buffered events for the specified session. (An event tracing session does not deliver events until an active buffer is full.) 
 
-The <a href="https://docs.microsoft.com/windows/desktop/ETW/controltrace">ControlTrace</a> function supersedes this function.
+The <a href="/windows/desktop/ETW/controltrace">ControlTrace</a> function supersedes this function.
 
 ## -parameters
 
 ### -param TraceHandle [in]
 
 Handle to the event tracing session for whose buffers you want to flush, or <b>NULL</b>. You must specify <i>SessionHandle</i> if <i>SessionName</i> is <b>NULL</b>. However, ETW ignores the handle if <i>SessionName</i> is not <b>NULL</b>. The handle is returned by the 
-<a href="https://docs.microsoft.com/windows/desktop/ETW/starttrace">StartTrace</a> function.
+<a href="/windows/desktop/ETW/starttrace">StartTrace</a> function.
 
 ### -param InstanceName [in]
 
@@ -75,7 +75,7 @@ To specify the NT Kernel Logger session, set <i>SessionName</i> to <b>KERNEL_LOG
 ### -param Properties [in, out]
 
 Pointer to an 
-initialized <a href="https://docs.microsoft.com/windows/desktop/ETW/event-trace-properties">EVENT_TRACE_PROPERTIES</a> structure. 
+initialized <a href="/windows/desktop/ETW/event-trace-properties">EVENT_TRACE_PROPERTIES</a> structure. 
 
 
 
@@ -90,7 +90,7 @@ If the function succeeds, the return value is ERROR_SUCCESS.
 						
 
 If the function fails, the return value is one of the 
-<a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error codes</a>. The following table includes some common errors and their causes.
+<a href="/windows/desktop/Debug/system-error-codes">system error codes</a>. The following table includes some common errors and their causes.
 
 <table>
 <tr>
@@ -162,5 +162,4 @@ Note that it is not safe to flush buffers from DllMain.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/ETW/controltrace">ControlTrace</a>
-
+<a href="/windows/desktop/ETW/controltrace">ControlTrace</a>

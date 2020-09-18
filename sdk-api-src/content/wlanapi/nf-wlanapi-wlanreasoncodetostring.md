@@ -57,7 +57,7 @@ The <b>WlanReasonCodeToString</b> function retrieves a  string that describes a 
 
 ### -param dwReasonCode [in]
 
-A <a href="https://docs.microsoft.com/windows/desktop/NativeWiFi/wlan-reason-code">WLAN_REASON_CODE</a> value of which the string description is requested.
+A <a href="/windows/desktop/NativeWiFi/wlan-reason-code">WLAN_REASON_CODE</a> value of which the string description is requested.
 
 ### -param dwBufferSize [in]
 
@@ -106,7 +106,7 @@ A parameter is incorrect. This error is returned if any of the following conditi
 </td>
 <td width="60%">
 Various RPC and other error codes. Use 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a> to obtain the message string for the returned error.
+<a href="/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a> to obtain the message string for the returned error.
 
 
 </td>
@@ -115,5 +115,4 @@ Various RPC and other error codes. Use
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/NativeWiFi/wlan-reason-code">WLAN_REASON_CODE</a>
-
+<a href="/windows/desktop/NativeWiFi/wlan-reason-code">WLAN_REASON_CODE</a>

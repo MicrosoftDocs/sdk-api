@@ -60,7 +60,7 @@ Contains information on a footer item.
 
 ### -field mask
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 Set of flags that specify which members of this structure contain data to be set or which members are being requested. This parameter must be one of the following values:
 
@@ -99,7 +99,7 @@ The index of the item.
 
 ### -field pszText
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPWSTR</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">LPWSTR</a></b>
 
 A pointer to a null-terminated, Unicode buffer. The calling process is responsible for allocating the buffer.
 
@@ -111,7 +111,7 @@ The number of <b>WCHAR</b><b>s</b> in the buffer pointed to by <b>pszText</b>,  
 
 ### -field state
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 Indicates the item's state. The <b>stateMask</b> member indicates the valid bits of this member. Currently, <b>state</b> must be set to the following:
 
@@ -134,7 +134,7 @@ Bit indicating focus state. Set if the item is in focus, otherwise cleared.
 
 ### -field stateMask
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 Value specifying which bits of the <b>state</b> member will be retrieved or modified. Currently, this value must be the following:
 
@@ -157,5 +157,4 @@ The LVFIS_FOCUSED bit of member <b>state</b> is valid. For example, setting this
 
 ## -remarks
 
-This structure is used with the <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-listview_getfooteritem">ListView_GetFooterItem</a> macro and the <a href="https://docs.microsoft.com/windows/desktop/Controls/lvm-getfooteritem">LVM_GETFOOTERITEM</a> message.
-
+This structure is used with the <a href="/windows/desktop/api/commctrl/nf-commctrl-listview_getfooteritem">ListView_GetFooterItem</a> macro and the <a href="/windows/desktop/Controls/lvm-getfooteritem">LVM_GETFOOTERITEM</a> message.

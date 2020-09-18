@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-The <b>EMRSETPIXELV</b> structure contains members for the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-setpixelv">SetPixelV</a> enhanced metafile record. When an enhanced metafile is created, calls to <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-setpixel">SetPixel</a> are also recorded in this record.
+The <b>EMRSETPIXELV</b> structure contains members for the <a href="/windows/desktop/api/wingdi/nf-wingdi-setpixelv">SetPixelV</a> enhanced metafile record. When an enhanced metafile is created, calls to <a href="/windows/desktop/api/wingdi/nf-wingdi-setpixel">SetPixel</a> are also recorded in this record.
 
 ## -struct-fields
 
@@ -68,29 +68,28 @@ Logical coordinates of pixel.
 
 ### -field crColor
 
-Color value. To make a <a href="https://docs.microsoft.com/windows/desktop/gdi/colorref">COLORREF</a> value, use the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-rgb">RGB</a> macro.
+Color value. To make a <a href="/windows/desktop/gdi/colorref">COLORREF</a> value, use the <a href="/windows/desktop/api/wingdi/nf-wingdi-rgb">RGB</a> macro.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/colorref">COLORREF</a>
+<a href="/windows/desktop/gdi/colorref">COLORREF</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/metafile-structures">Metafile Structures</a>
+<a href="/windows/desktop/gdi/metafile-structures">Metafile Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/metafiles">Metafiles Overview</a>
+<a href="/windows/desktop/gdi/metafiles">Metafiles Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-rgb">RGB</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-rgb">RGB</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-setpixel">SetPixel</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-setpixel">SetPixel</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-setpixelv">SetPixelV</a>
-
+<a href="/windows/desktop/api/wingdi/nf-wingdi-setpixelv">SetPixelV</a>

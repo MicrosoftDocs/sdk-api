@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>IAccessible::get_accParent</b> method retrieves the <a href="https://docs.microsoft.com/windows/desktop/WinAuto/idispatch-interface">IDispatch</a> of the object's parent. All objects support this property.
+The <b>IAccessible::get_accParent</b> method retrieves the <a href="/windows/desktop/WinAuto/idispatch-interface">IDispatch</a> of the object's parent. All objects support this property.
 
 ## -parameters
 
@@ -58,15 +58,15 @@ The <b>IAccessible::get_accParent</b> method retrieves the <a href="https://docs
 
 Type: <b>IDispatch**</b>
 
- Receives the address of the parent object's <a href="https://docs.microsoft.com/windows/desktop/WinAuto/idispatch-interface">IDispatch</a> interface. If no parent exists or if the child cannot access its parent, the variable is set to <b>NULL</b>.
+ Receives the address of the parent object's <a href="/windows/desktop/WinAuto/idispatch-interface">IDispatch</a> interface. If no parent exists or if the child cannot access its parent, the variable is set to <b>NULL</b>.
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 If successful, returns S_OK.
 
-If not successful, returns one of the values in the table that follows, or another standard <a href="https://docs.microsoft.com/windows/desktop/WinAuto/return-values">COM error code</a>. Servers return these values, but clients must always check output parameters to ensure that they contain valid values. For more information, see <a href="https://docs.microsoft.com/windows/desktop/WinAuto/checking-iaccessible-return-values">Checking IAccessible Return Values</a>.
+If not successful, returns one of the values in the table that follows, or another standard <a href="/windows/desktop/WinAuto/return-values">COM error code</a>. Servers return these values, but clients must always check output parameters to ensure that they contain valid values. For more information, see <a href="/windows/desktop/WinAuto/checking-iaccessible-return-values">Checking IAccessible Return Values</a>.
 
 <table>
 <tr>
@@ -88,17 +88,16 @@ No parent exists for this object.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nn-oleacc-iaccessible">IAccessible</a>
+<a href="/windows/desktop/api/oleacc/nn-oleacc-iaccessible">IAccessible</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nf-oleacc-iaccessible-get_accchild">IAccessible::get_accChild</a>
+<a href="/windows/desktop/api/oleacc/nf-oleacc-iaccessible-get_accchild">IAccessible::get_accChild</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WinAuto/idispatch-interface">IDispatch</a>
+<a href="/windows/desktop/WinAuto/idispatch-interface">IDispatch</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WinAuto/object-navigation-properties-and-methods">Object Navigation Properties and Methods</a>
-
+<a href="/windows/desktop/WinAuto/object-navigation-properties-and-methods">Object Navigation Properties and Methods</a>

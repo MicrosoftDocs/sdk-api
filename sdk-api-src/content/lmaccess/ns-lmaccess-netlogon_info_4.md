@@ -72,5 +72,4 @@ A marshaled pointer to a string that contains the trusted domain name.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/nf-lmaccess-i_netlogoncontrol2">I_NetLogonControl2</a>
-
+<a href="/windows/desktop/api/lmaccess/nf-lmaccess-i_netlogoncontrol2">I_NetLogonControl2</a>

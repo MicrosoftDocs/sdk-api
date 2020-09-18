@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[The AddERExcludedApplication function is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use the <a href="https://docs.microsoft.com/windows/desktop/api/werapi/nf-werapi-weraddexcludedapplication">WerAddExcludedApplication</a> function.]
+<p class="CCE_Message">[The AddERExcludedApplication function is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use the <a href="/windows/desktop/api/werapi/nf-werapi-weraddexcludedapplication">WerAddExcludedApplication</a> function.]
 
 Excludes the specified application from error reporting.
 
@@ -67,7 +67,7 @@ The name of the executable file for the application, including the file name ext
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, see 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
@@ -82,13 +82,12 @@ This function stores the excluded application list under the <b>HKEY_LOCAL_MACHI
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/errorrep/nf-errorrep-reportfault">ReportFault</a>
+<a href="/windows/desktop/api/errorrep/nf-errorrep-reportfault">ReportFault</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/wer/wer-functions">WER Functions</a>
+<a href="/windows/desktop/wer/wer-functions">WER Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/wer/windows-error-reporting">Windows Error Reporting</a>
-
+<a href="/windows/desktop/wer/windows-error-reporting">Windows Error Reporting</a>

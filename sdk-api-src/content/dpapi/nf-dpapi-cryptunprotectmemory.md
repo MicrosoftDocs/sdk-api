@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>CryptUnprotectMemory</b> function decrypts memory that was encrypted using the <a href="https://docs.microsoft.com/windows/desktop/api/dpapi/nf-dpapi-cryptprotectmemory">CryptProtectMemory</a> function.
+The <b>CryptUnprotectMemory</b> function decrypts memory that was encrypted using the <a href="/windows/desktop/api/dpapi/nf-dpapi-cryptprotectmemory">CryptProtectMemory</a> function.
 
 ## -parameters
 
@@ -107,22 +107,22 @@ Use the same logon credentials to encrypt and decrypt memory in different proces
 
 If the function succeeds, the function returns <b>TRUE</b>.
 
-If the function fails, it returns <b>FALSE</b>. For extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+If the function fails, it returns <b>FALSE</b>. For extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
-Using  <a href="https://docs.microsoft.com/windows/desktop/api/dpapi/nf-dpapi-cryptprotectmemory">CryptProtectMemory</a> and <a href="https://docs.microsoft.com/windows/desktop/api/dpapi/nf-dpapi-cryptunprotectmemory">CryptUnprotectMemory</a> for password encryption is not secure because the data exists as plaintext in memory before it is encrypted and at any time the caller decrypts it for use.
+Using  <a href="/windows/desktop/api/dpapi/nf-dpapi-cryptprotectmemory">CryptProtectMemory</a> and <a href="/windows/desktop/api/dpapi/nf-dpapi-cryptunprotectmemory">CryptUnprotectMemory</a> for password encryption is not secure because the data exists as plaintext in memory before it is encrypted and at any time the caller decrypts it for use.
 
  You must encrypt and decrypt the memory during the same boot session. If the computer is restarted before you call the <b>CryptUnprotectMemory</b> function, you will not be able to decrypt the data.
 
-You must pass the same flag to <b>CryptUnprotectMemory</b> and <a href="https://docs.microsoft.com/windows/desktop/api/dpapi/nf-dpapi-cryptprotectmemory">CryptProtectMemory</a>. If you pass different flags, the <b>CryptUnprotectMemory</b> function succeeds; however, the result is unpredictable.
+You must pass the same flag to <b>CryptUnprotectMemory</b> and <a href="/windows/desktop/api/dpapi/nf-dpapi-cryptprotectmemory">CryptProtectMemory</a>. If you pass different flags, the <b>CryptUnprotectMemory</b> function succeeds; however, the result is unpredictable.
 
- When you have finished using the sensitive information, clear it from memory by calling the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa366877(v=vs.85)">SecureZeroMemory</a> function.
+ When you have finished using the sensitive information, clear it from memory by calling the <a href="/previous-versions/windows/desktop/legacy/aa366877(v=vs.85)">SecureZeroMemory</a> function.
 
 
 #### Examples
 
-The following example calls  the <b>CryptUnprotectMemory</b> function to decrypt data that is in memory. The example assumes the variable pEncryptedText points to a string that has been encrypted using the <a href="https://docs.microsoft.com/windows/desktop/api/dpapi/nf-dpapi-cryptprotectmemory">CryptProtectMemory</a> function.
+The following example calls  the <b>CryptUnprotectMemory</b> function to decrypt data that is in memory. The example assumes the variable pEncryptedText points to a string that has been encrypted using the <a href="/windows/desktop/api/dpapi/nf-dpapi-cryptprotectmemory">CryptProtectMemory</a> function.
 
 
 ```cpp
@@ -159,17 +159,16 @@ void main()
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dpapi/nf-dpapi-cryptprotectmemory">CryptProtectMemory</a>
+<a href="/windows/desktop/api/dpapi/nf-dpapi-cryptprotectmemory">CryptProtectMemory</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dpapi/nf-dpapi-cryptunprotectdata">CryptUnprotectData</a>
+<a href="/windows/desktop/api/dpapi/nf-dpapi-cryptunprotectdata">CryptUnprotectData</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-rtldecryptmemory">RtlDecryptMemory</a>
+<a href="/windows/desktop/api/ntsecapi/nf-ntsecapi-rtldecryptmemory">RtlDecryptMemory</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-rtlencryptmemory">RtlEncryptMemory</a>
-
+<a href="/windows/desktop/api/ntsecapi/nf-ntsecapi-rtlencryptmemory">RtlEncryptMemory</a>

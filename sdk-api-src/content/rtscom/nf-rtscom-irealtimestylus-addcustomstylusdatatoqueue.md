@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Adds custom data to the specified queue of the <a href="https://docs.microsoft.com/windows/desktop/tablet/realtimestylus-class">RealTimeStylus Class</a> object.
+Adds custom data to the specified queue of the <a href="/windows/desktop/tablet/realtimestylus-class">RealTimeStylus Class</a> object.
 
 ## -parameters
 
 ### -param sq [in]
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/rtscom/ne-rtscom-stylusqueue">StylusQueue Enumeration</a> specifying the stylus queue to which to add the custom data.
+The <a href="/windows/desktop/api/rtscom/ne-rtscom-stylusqueue">StylusQueue Enumeration</a> specifying the stylus queue to which to add the custom data.
 
 ### -param pGuidId [in]
 
@@ -72,7 +72,7 @@ The custom data to add to the specified queue. May not be <b>NULL</b>.
 
 ## -returns
 
-For a description of the return values, see <a href="https://docs.microsoft.com/windows/desktop/tablet/realtimestylus-classes-and-interfaces">RealTimeStylus Classes and Interfaces</a>.
+For a description of the return values, see <a href="/windows/desktop/tablet/realtimestylus-classes-and-interfaces">RealTimeStylus Classes and Interfaces</a>.
 
 ## -remarks
 
@@ -87,23 +87,22 @@ The <i>sq</i> parameter specifies where to add the custom data. It specifies add
 </ul>
 When data is added to the input queue, it is automatically added to the output queue. The order of the inserted data can only be controlled on the output queue by passing <b>AsyncStylusQueueImmediate</b> in the <i>sq</i> parameter.
 
-The GUID can be used by objects other than plug-ins and real time styluses to add customized information to the queue. This method can be called from any object that has a reference to the <a href="https://docs.microsoft.com/windows/desktop/tablet/realtimestylus-class">RealTimeStylus Class</a> object. The calling object does not have to be a plug-in.
+The GUID can be used by objects other than plug-ins and real time styluses to add customized information to the queue. This method can be called from any object that has a reference to the <a href="/windows/desktop/tablet/realtimestylus-class">RealTimeStylus Class</a> object. The calling object does not have to be a plug-in.
 
 <b>IRealTimeStylus::AddCustomStylusDataToQueue Method</b> enables you to add functionality, such as selection and erase.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms701168(v=vs.85)">DynamicRenderer Class</a>
+<a href="/previous-versions/windows/desktop/legacy/ms701168(v=vs.85)">DynamicRenderer Class</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nn-rtscom-irealtimestylus">IRealTimeStylus</a>
+<a href="/windows/desktop/api/rtscom/nn-rtscom-irealtimestylus">IRealTimeStylus</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/tablet/realtimestylus-class">RealTimeStylus Class</a>
+<a href="/windows/desktop/tablet/realtimestylus-class">RealTimeStylus Class</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rtscom/ne-rtscom-stylusqueue">StylusQueue Enumeration</a>
-
+<a href="/windows/desktop/api/rtscom/ne-rtscom-stylusqueue">StylusQueue Enumeration</a>

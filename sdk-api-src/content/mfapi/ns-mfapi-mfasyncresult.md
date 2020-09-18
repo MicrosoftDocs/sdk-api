@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-Contains data that is needed to implement the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfasyncresult">IMFAsyncResult</a> interface.
+Contains data that is needed to implement the <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfasyncresult">IMFAsyncResult</a> interface.
 
 ## -struct-fields
 
@@ -62,11 +62,11 @@ An <b>OVERLAPPED</b> structure. This structure is used internally to queue the w
 
 ### -field pCallback
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfasynccallback">IMFAsyncCallback</a> interface. This interface is implemented by the caller of the asynchronous method. This member can be <b>NULL</b>. If this member is <b>NULL</b>, the <b>hEvent</b> member must be a valid event handle.
+Pointer to the <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfasynccallback">IMFAsyncCallback</a> interface. This interface is implemented by the caller of the asynchronous method. This member can be <b>NULL</b>. If this member is <b>NULL</b>, the <b>hEvent</b> member must be a valid event handle.
 
 ### -field hrStatusResult
 
-The status code returned when this structure is used with an I/O completion port. You can also use this member to hold the status code for the asynchronous operation, returned by <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfasyncresult-getstatus">IMFAsyncResult::GetStatus</a>.
+The status code returned when this structure is used with an I/O completion port. You can also use this member to hold the status code for the asynchronous operation, returned by <a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfasyncresult-getstatus">IMFAsyncResult::GetStatus</a>.
 
 ### -field dwBytesTransferred
 
@@ -80,17 +80,16 @@ Event handle. If <b>pCallback</b> is <b>NULL</b>, set this member to a valid eve
 
 ## -remarks
 
-Any custom implementation of the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfasyncresult">IMFAsyncResult</a> interface must inherit this structure. For more information, see <a href="https://docs.microsoft.com/windows/desktop/medfound/custom-asynchronous-result-objects">Custom Asynchronous Result Objects</a>.
+Any custom implementation of the <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfasyncresult">IMFAsyncResult</a> interface must inherit this structure. For more information, see <a href="/windows/desktop/medfound/custom-asynchronous-result-objects">Custom Asynchronous Result Objects</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/custom-asynchronous-result-objects">Custom Asynchronous Result Objects</a>
+<a href="/windows/desktop/medfound/custom-asynchronous-result-objects">Custom Asynchronous Result Objects</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-structures">Media Foundation Structures</a>
+<a href="/windows/desktop/medfound/media-foundation-structures">Media Foundation Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/work-queues">Work Queues</a>
-
+<a href="/windows/desktop/medfound/work-queues">Work Queues</a>

@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>PeerGraphImportDatabase</b> function imports a file that contains the information from a  peer graph database. This function can only be called  if the application has not yet called the <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergraphlisten">PeerGraphListen</a> or <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergraphconnect">PeerGraphConnect</a> function.
+The <b>PeerGraphImportDatabase</b> function imports a file that contains the information from a  peer graph database. This function can only be called  if the application has not yet called the <a href="/windows/desktop/api/p2p/nf-p2p-peergraphlisten">PeerGraphListen</a> or <a href="/windows/desktop/api/p2p/nf-p2p-peergraphconnect">PeerGraphConnect</a> function.
 
 ## -parameters
 
@@ -89,7 +89,7 @@ One of the parameters is not valid.
 </dl>
 </td>
 <td width="60%">
-The graph is currently being used, and cannot be imported. Either <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergraphlisten">PeerGraphListen</a> or <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergraphconnect">PeerGraphConnect</a> has been called.
+The graph is currently being used, and cannot be imported. Either <a href="/windows/desktop/api/p2p/nf-p2p-peergraphlisten">PeerGraphListen</a> or <a href="/windows/desktop/api/p2p/nf-p2p-peergraphconnect">PeerGraphConnect</a> has been called.
 
 </td>
 </tr>
@@ -122,7 +122,7 @@ The handle to the peer graph is invalid.
 </dl>
 </td>
 <td width="60%">
-The graph must be  initialized with a call to <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergraphstartup">PeerGraphStartup</a> before using this function.
+The graph must be  initialized with a call to <a href="/windows/desktop/api/p2p/nf-p2p-peergraphstartup">PeerGraphStartup</a> before using this function.
 
 </td>
 </tr>
@@ -130,11 +130,10 @@ The graph must be  initialized with a call to <a href="https://docs.microsoft.co
 
 ## -remarks
 
-The <b>PeerGraphImportDatabase</b> function cannot be used to import a database from a different peer graph. <b>PeerGraphImportDatabase</b> must be called after <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergraphopen">PeerGraphOpen</a>, not after <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergraphcreate">PeerGraphCreate</a>.
+The <b>PeerGraphImportDatabase</b> function cannot be used to import a database from a different peer graph. <b>PeerGraphImportDatabase</b> must be called after <a href="/windows/desktop/api/p2p/nf-p2p-peergraphopen">PeerGraphOpen</a>, not after <a href="/windows/desktop/api/p2p/nf-p2p-peergraphcreate">PeerGraphCreate</a>.
 
 The database being imported must have the same peer graph ID and peer ID.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergraphexportdatabase">PeerGraphExportDatabase</a>
-
+<a href="/windows/desktop/api/p2p/nf-p2p-peergraphexportdatabase">PeerGraphExportDatabase</a>

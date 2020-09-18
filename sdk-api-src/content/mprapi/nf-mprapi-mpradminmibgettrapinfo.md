@@ -58,7 +58,7 @@ The
 ### -param hMibServer [in]
 
 Handle to the router on which to execute this call. Obtain this handle by calling 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradminmibserverconnect">MprAdminMIBServerConnect</a>.
+<a href="/windows/desktop/api/mprapi/nf-mprapi-mpradminmibserverconnect">MprAdminMIBServerConnect</a>.
 
 ### -param dwProtocolId [in]
 
@@ -137,13 +137,12 @@ Insufficient resources to complete the operation.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradminmibsettrapinfo">MprAdminMIBSetTrapInfo</a>
+<a href="/windows/desktop/api/mprapi/nf-mprapi-mpradminmibsettrapinfo">MprAdminMIBSetTrapInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/mib-functions">Router Management MIB Functions</a>
+<a href="/windows/desktop/RRAS/mib-functions">Router Management MIB Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/router-management-mib-reference">Router Management MIB Reference</a>
-
+<a href="/windows/desktop/RRAS/router-management-mib-reference">Router Management MIB Reference</a>

@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>DrawStateProc</b> function is an application-defined callback function that renders a complex image for the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-drawstatea">DrawState</a> function. The <b>DRAWSTATEPROC</b> type defines a pointer to this callback function. <b>DrawStateProc</b> is a placeholder for the application-defined function name.
+The <b>DrawStateProc</b> function is an application-defined callback function that renders a complex image for the <a href="/windows/desktop/api/winuser/nf-winuser-drawstatea">DrawState</a> function. The <b>DRAWSTATEPROC</b> type defines a pointer to this callback function. <b>DrawStateProc</b> is a placeholder for the application-defined function name.
 
 ## -parameters
 
@@ -60,19 +60,19 @@ A handle to the device context to draw in. The device context is a memory device
 
 ### -param lData [in]
 
-Specifies information about the image, which the application passed to <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-drawstatea">DrawState</a>.
+Specifies information about the image, which the application passed to <a href="/windows/desktop/api/winuser/nf-winuser-drawstatea">DrawState</a>.
 
 ### -param wData [in]
 
-Specifies information about the image, which the application passed to <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-drawstatea">DrawState</a>.
+Specifies information about the image, which the application passed to <a href="/windows/desktop/api/winuser/nf-winuser-drawstatea">DrawState</a>.
 
 ### -param cx [in]
 
-The image width, in device units, as specified by the call to <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-drawstatea">DrawState</a>.
+The image width, in device units, as specified by the call to <a href="/windows/desktop/api/winuser/nf-winuser-drawstatea">DrawState</a>.
 
 ### -param cy [in]
 
-The image height, in device units, as specified by the call to <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-drawstatea">DrawState</a>.
+The image height, in device units, as specified by the call to <a href="/windows/desktop/api/winuser/nf-winuser-drawstatea">DrawState</a>.
 
 ## -returns
 
@@ -82,13 +82,12 @@ If the function fails, the return value is <b>FALSE</b>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-drawstatea">DrawState</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-drawstatea">DrawState</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/painting-and-drawing-functions">Painting and Drawing Functions</a>
+<a href="/windows/desktop/gdi/painting-and-drawing-functions">Painting and Drawing Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/painting-and-drawing">Painting and Drawing Overview</a>
-
+<a href="/windows/desktop/gdi/painting-and-drawing">Painting and Drawing Overview</a>

@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-Gets the attributes of one or more file or folder objects contained in the object represented by <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellfolder">IShellFolder</a>.
+Gets the attributes of one or more file or folder objects contained in the object represented by <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellfolder">IShellFolder</a>.
 
 ## -parameters
 
@@ -65,13 +65,13 @@ The number of items from which to retrieve attributes.
 
 Type: <b>PCUITEMID_CHILD_ARRAY*</b>
 
-The address of an array of pointers to <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> structures, each of which uniquely identifies an item relative to the parent folder. Each <b>ITEMIDLIST</b> structure must contain exactly one <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-shitemid">SHITEMID</a> structure followed by a terminating zero.
+The address of an array of pointers to <a href="/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> structures, each of which uniquely identifies an item relative to the parent folder. Each <b>ITEMIDLIST</b> structure must contain exactly one <a href="/windows/desktop/api/shtypes/ns-shtypes-shitemid">SHITEMID</a> structure followed by a terminating zero.
 
 ### -param rgfInOut [in, out]
 
 Type: <b>SFGAOF*</b>
 
-Pointer to a single <b>ULONG</b> value that, on entry, contains the bitwise <a href="https://docs.microsoft.com/windows/desktop/shell/sfgao">SFGAO</a> attributes that the calling application is requesting. On exit, this value contains the requested attributes that are common to all of the specified items.
+Pointer to a single <b>ULONG</b> value that, on entry, contains the bitwise <a href="/windows/desktop/shell/sfgao">SFGAO</a> attributes that the calling application is requesting. On exit, this value contains the requested attributes that are common to all of the specified items.
 
 ## -returns
 
@@ -83,7 +83,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 To optimize this operation, do not return unspecified flags.
 
-For a folder object, the <a href="https://docs.microsoft.com/windows/desktop/shell/sfgao">SFGAO_BROWSABLE</a> attribute implies that the client can bind to this object as shown in a general form here.
+For a folder object, the <a href="/windows/desktop/shell/sfgao">SFGAO_BROWSABLE</a> attribute implies that the client can bind to this object as shown in a general form here.
 
 
 ```cpp
@@ -92,7 +92,7 @@ IShellFolder::BindToObject(..., pidl, IID_IShellFolder, &psfItem);
 ```
 
 
-The client can then create an <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellview">IShellView</a> on that item through this statement.
+The client can then create an <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellview">IShellView</a> on that item through this statement.
 
 
 ```cpp
@@ -101,7 +101,7 @@ psfItem->CreateViewObject(..., IID_IShellView,...);
 ```
 
 
-The <a href="https://docs.microsoft.com/windows/desktop/shell/sfgao">SFGAO_DROPTARGET</a> attribute implies that the client can bind to an instance of <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-idroptarget">IDropTarget</a> for this folder by calling <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder-getuiobjectof">IShellFolder::GetUIObjectOf</a> as shown here.
+The <a href="/windows/desktop/shell/sfgao">SFGAO_DROPTARGET</a> attribute implies that the client can bind to an instance of <a href="/windows/desktop/api/oleidl/nn-oleidl-idroptarget">IDropTarget</a> for this folder by calling <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder-getuiobjectof">IShellFolder::GetUIObjectOf</a> as shown here.
 
                 
 
@@ -112,13 +112,12 @@ IShellFolder::GetUIObjectOf(hwnd, 1, &pidl, IID_IDropTarget, NULL, &pv)
 ```
 
 
-The SFGAO_NONENUMERATED attribute indicates an item that is not returned by the enumerator created by the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder-enumobjects">IShellFolder::EnumObjects</a> method.
+The SFGAO_NONENUMERATED attribute indicates an item that is not returned by the enumerator created by the <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder-enumobjects">IShellFolder::EnumObjects</a> method.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellfolder">IShellFolder</a>
+<a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellfolder">IShellFolder</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellfolder2">IShellFolder2</a>
-
+<a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellfolder2">IShellFolder2</a>

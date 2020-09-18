@@ -56,7 +56,7 @@ api_name:
 
 <p class="CCE_Message">[The  <b>CRYPTUI_WIZ_DIGITAL_SIGN_STORE_INFO</b> structure is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions.]
 
-The <b>CRYPTUI_WIZ_DIGITAL_SIGN_STORE_INFO</b> structure contains information about the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate store</a> used by the digital signature wizard.
+The <b>CRYPTUI_WIZ_DIGITAL_SIGN_STORE_INFO</b> structure contains information about the <a href="/windows/desktop/SecGloss/c-gly">certificate store</a> used by the digital signature wizard.
 
 ## -struct-fields
 
@@ -79,4 +79,3 @@ Filter callback function used to display the certificate.
 ### -field pvCallbackData
 
 A pointer to the callback data.
-

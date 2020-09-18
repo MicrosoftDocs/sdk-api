@@ -72,7 +72,7 @@ Size of the <b>Pattern</b> member, in bytes.
 ### -field Pattern
 
 Indicates the specific format of the pattern to be applied to the filter, such as 
-<a href="https://docs.microsoft.com/windows/desktop/api/traffic/ns-traffic-ip_pattern">IP_PATTERN</a>. The pattern specifies which bits of a given packet should be evaluated when determining whether a packet is included in the filter.
+<a href="/windows/desktop/api/traffic/ns-traffic-ip_pattern">IP_PATTERN</a>. The pattern specifies which bits of a given packet should be evaluated when determining whether a packet is included in the filter.
 
 ### -field Mask
 
@@ -80,9 +80,8 @@ A bitmask applied to the bits designated in the <b>Pattern</b> member. The appli
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/qos/ns-qos-flowspec">FLOWSPEC</a>
+<a href="/windows/desktop/api/qos/ns-qos-flowspec">FLOWSPEC</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/traffic/ns-traffic-ip_pattern">IP_PATTERN</a>
-
+<a href="/windows/desktop/api/traffic/ns-traffic-ip_pattern">IP_PATTERN</a>

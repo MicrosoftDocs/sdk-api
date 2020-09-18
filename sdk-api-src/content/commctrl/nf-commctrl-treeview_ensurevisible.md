@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Ensures that a tree-view item is visible, expanding the parent item or scrolling the tree-view control, if necessary. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/tvm-ensurevisible">TVM_ENSUREVISIBLE</a> message explicitly.
+Ensures that a tree-view item is visible, expanding the parent item or scrolling the tree-view control, if necessary. You can use this macro or send the <a href="/windows/desktop/Controls/tvm-ensurevisible">TVM_ENSUREVISIBLE</a> message explicitly.
 
 ## -parameters
 
 ### -param hwnd
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 Handle to the tree-view control.
 
@@ -68,5 +68,4 @@ Handle to the item.
 
 ## -remarks
 
-If the <b>TreeView_EnsureVisible</b> macro expands the parent item, the parent window receives the <a href="https://docs.microsoft.com/windows/desktop/Controls/tvn-itemexpanding">TVN_ITEMEXPANDING</a> and <a href="https://docs.microsoft.com/windows/desktop/Controls/tvn-itemexpanded">TVN_ITEMEXPANDED</a> notification codes.
-
+If the <b>TreeView_EnsureVisible</b> macro expands the parent item, the parent window receives the <a href="/windows/desktop/Controls/tvn-itemexpanding">TVN_ITEMEXPANDING</a> and <a href="/windows/desktop/Controls/tvn-itemexpanded">TVN_ITEMEXPANDED</a> notification codes.

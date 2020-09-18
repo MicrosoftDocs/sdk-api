@@ -57,15 +57,15 @@ Calculates DSP settings with respect to 3D parameters.
 
 ### -param Instance [in]
 
-3D audio instance handle. Call <a href="https://docs.microsoft.com/windows/desktop/api/x3daudio/nf-x3daudio-x3daudioinitialize">X3DAudioInitialize</a> to get this handle.
+3D audio instance handle. Call <a href="/windows/desktop/api/x3daudio/nf-x3daudio-x3daudioinitialize">X3DAudioInitialize</a> to get this handle.
 
 ### -param pListener [in]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/x3daudio/ns-x3daudio-x3daudio_listener">X3DAUDIO_LISTENER</a> representing the point of reception.
+Pointer to an <a href="/windows/desktop/api/x3daudio/ns-x3daudio-x3daudio_listener">X3DAUDIO_LISTENER</a> representing the point of reception.
 
 ### -param pEmitter [in]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/x3daudio/ns-x3daudio-x3daudio_emitter">X3DAUDIO_EMITTER</a> representing the sound source.
+Pointer to an <a href="/windows/desktop/api/x3daudio/ns-x3daudio-x3daudio_emitter">X3DAUDIO_EMITTER</a> representing the sound source.
 
 ### -param Flags [in]
 
@@ -120,7 +120,7 @@ Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/x3daudio/n
 
 ### -param pDSPSettings [in, out]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/x3daudio/ns-x3daudio-x3daudio_dsp_settings">X3DAUDIO_DSP_SETTINGS</a> structure that receives the calculation results.
+Pointer to an <a href="/windows/desktop/api/x3daudio/ns-x3daudio-x3daudio_dsp_settings">X3DAUDIO_DSP_SETTINGS</a> structure that receives the calculation results.
 
 ## -returns
 
@@ -128,7 +128,7 @@ This function does not return a value.
 
 ## -remarks
 
-You typically call <b>X3DAudioCalculate</b> once for each pair of emitting objects and listeners in the scene. After each call, to apply the 3D effects, the app manually applies the calculation results at <i>pDSPSettings</i> to the XAUDIO2 graph. For more info, see <a href="https://docs.microsoft.com/windows/desktop/xaudio2/how-to--integrate-x3daudio-with-xaudio2">How to: Integrate X3DAudio with XAudio2</a>.
+You typically call <b>X3DAudioCalculate</b> once for each pair of emitting objects and listeners in the scene. After each call, to apply the 3D effects, the app manually applies the calculation results at <i>pDSPSettings</i> to the XAUDIO2 graph. For more info, see <a href="/windows/desktop/xaudio2/how-to--integrate-x3daudio-with-xaudio2">How to: Integrate X3DAudio with XAudio2</a>.
 
 <div class="alert"><b>Important</b>   The listener and emitter values must be valid. Floating-point specials (NaN, QNaN, +INF, -INF) can cause the entire audio output to go silent if introduced into a running audio graph.</div>
 <div> </div>
@@ -139,5 +139,4 @@ Windows 10 (XAudio2.9); Windows 8, Windows Phone 8 (XAudio 2.8); DirectX SDK
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/xaudio2/functions">Functions</a>
-
+<a href="/windows/desktop/xaudio2/functions">Functions</a>

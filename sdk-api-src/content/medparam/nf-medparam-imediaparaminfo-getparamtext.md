@@ -127,5 +127,4 @@ The object uses the <b>CoTaskMemAlloc</b> function to allocate memory for the st
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/medparam/nn-medparam-imediaparaminfo">IMediaParamInfo Interface</a>
-
+<a href="/windows/desktop/api/medparam/nn-medparam-imediaparaminfo">IMediaParamInfo Interface</a>

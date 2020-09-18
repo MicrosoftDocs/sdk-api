@@ -59,8 +59,8 @@ The
 A writer can call this method only during a backup operation.
 
 This method cannot be called while handling a 
-    <a href="https://docs.microsoft.com/windows/desktop/VSS/vssgloss-b">BackupComplete</a> (<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-onbackupcomplete">CVssWriter::OnBackupComplete</a>) or 
-    <a href="https://docs.microsoft.com/windows/desktop/VSS/vssgloss-b">BackupShutdown</a> (<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-onbackupshutdown">CVssWriter::OnBackupShutdown</a>) event.
+    <a href="/windows/desktop/VSS/vssgloss-b">BackupComplete</a> (<a href="/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-onbackupcomplete">CVssWriter::OnBackupComplete</a>) or 
+    <a href="/windows/desktop/VSS/vssgloss-b">BackupShutdown</a> (<a href="/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-onbackupshutdown">CVssWriter::OnBackupShutdown</a>) event.
 
 ## -parameters
 
@@ -149,13 +149,12 @@ The format need not conform to any VSS metadata specification.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-ivsscomponent">IVssComponent</a>
+<a href="/windows/desktop/api/vswriter/nl-vswriter-ivsscomponent">IVssComponent</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-getbackupmetadata">IVssComponent::GetBackupMetadata</a>
+<a href="/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-getbackupmetadata">IVssComponent::GetBackupMetadata</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-setrestoremetadata">IVssComponent::SetRestoreMetadata</a>
-
+<a href="/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-setrestoremetadata">IVssComponent::SetRestoreMetadata</a>

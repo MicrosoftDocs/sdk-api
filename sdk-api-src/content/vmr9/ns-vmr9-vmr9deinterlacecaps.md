@@ -74,9 +74,8 @@ Number of past samples needed to deinterlace the current field.
 
 ### -field DeinterlaceTechnology
 
-Bitwise combination of flags from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/vmr9/ne-vmr9-vmr9deinterlacetech">VMR9DeinterlaceTech</a> enumeration type. These flags are used to describe the deinterlacing algorithm.
+Bitwise combination of flags from the <a href="/previous-versions/windows/desktop/api/vmr9/ne-vmr9-vmr9deinterlacetech">VMR9DeinterlaceTech</a> enumeration type. These flags are used to describe the deinterlacing algorithm.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/directshow-structures">DirectShow Structures</a>
-
+<a href="/windows/desktop/DirectShow/directshow-structures">DirectShow Structures</a>

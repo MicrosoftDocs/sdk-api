@@ -415,33 +415,32 @@ Value: 0x00AA0006
 
 ## -remarks
 
-This method sets the write speed and type of rotational-speed control for a recorder. Requested values might differ from the values set in the recorder. To specify the recorder, call the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2trackatonce-put_recorder">IDiscFormat2TrackAtOnce::put_Recorder</a> method. 
+This method sets the write speed and type of rotational-speed control for a recorder. Requested values might differ from the values set in the recorder. To specify the recorder, call the <a href="/windows/desktop/api/imapi2/nf-imapi2-idiscformat2trackatonce-put_recorder">IDiscFormat2TrackAtOnce::put_Recorder</a> method. 
 
-If the recorder supports the requested write speed,  the disc device uses the requested value. If the recorder does not support the requested write speed,  the recorder uses a write speed that it does support that is closest to the requested value. The <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2trackatonce-get_currentwritespeed">IDiscFormat2TrackAtOnce::get_CurrentWriteSpeed</a> property contains the value used by the recorder.
+If the recorder supports the requested write speed,  the disc device uses the requested value. If the recorder does not support the requested write speed,  the recorder uses a write speed that it does support that is closest to the requested value. The <a href="/windows/desktop/api/imapi2/nf-imapi2-idiscformat2trackatonce-get_currentwritespeed">IDiscFormat2TrackAtOnce::get_CurrentWriteSpeed</a> property contains the value used by the recorder.
 
-To retrieve a list of the write speeds that the recorder and current media supports, call the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2trackatonce-get_supportedwritespeeds">IDiscFormat2TrackAtOnce::get_SupportedWriteSpeeds</a> method.
+To retrieve a list of the write speeds that the recorder and current media supports, call the <a href="/windows/desktop/api/imapi2/nf-imapi2-idiscformat2trackatonce-get_supportedwritespeeds">IDiscFormat2TrackAtOnce::get_SupportedWriteSpeeds</a> method.
 
-If you request constant angular velocity (CAV) for rotational-speed control type and the recorder does not support CAV,  the disc device uses another type of rotational-speed control type that it supports. The <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2trackatonce-get_currentrotationtypeispurecav">IDiscFormat2TrackAtOnce::get_CurrentRotationTypeIsPureCAV</a> property indicates the value used by the recorder.
+If you request constant angular velocity (CAV) for rotational-speed control type and the recorder does not support CAV,  the disc device uses another type of rotational-speed control type that it supports. The <a href="/windows/desktop/api/imapi2/nf-imapi2-idiscformat2trackatonce-get_currentrotationtypeispurecav">IDiscFormat2TrackAtOnce::get_CurrentRotationTypeIsPureCAV</a> property indicates the value used by the recorder.
 
-To retrieve the requested values, call the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2trackatonce-get_requestedwritespeed">IDiscFormat2TrackAtOnce::get_RequestedWriteSpeed</a> and <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2trackatonce-get_requestedrotationtypeispurecav">IDiscFormat2TrackAtOnce::get_RequestedRotationTypeIsPureCAV</a> methods.
+To retrieve the requested values, call the <a href="/windows/desktop/api/imapi2/nf-imapi2-idiscformat2trackatonce-get_requestedwritespeed">IDiscFormat2TrackAtOnce::get_RequestedWriteSpeed</a> and <a href="/windows/desktop/api/imapi2/nf-imapi2-idiscformat2trackatonce-get_requestedrotationtypeispurecav">IDiscFormat2TrackAtOnce::get_RequestedRotationTypeIsPureCAV</a> methods.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-idiscformat2trackatonce">IDiscFormat2TrackAtOnce</a>
+<a href="/windows/desktop/api/imapi2/nn-imapi2-idiscformat2trackatonce">IDiscFormat2TrackAtOnce</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2trackatonce-get_currentrotationtypeispurecav">IDiscFormat2TrackAtOnce::get_CurrentRotationTypeIsPureCAV</a>
+<a href="/windows/desktop/api/imapi2/nf-imapi2-idiscformat2trackatonce-get_currentrotationtypeispurecav">IDiscFormat2TrackAtOnce::get_CurrentRotationTypeIsPureCAV</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2trackatonce-get_requestedrotationtypeispurecav">IDiscFormat2TrackAtOnce::get_RequestedRotationTypeIsPureCAV</a>
+<a href="/windows/desktop/api/imapi2/nf-imapi2-idiscformat2trackatonce-get_requestedrotationtypeispurecav">IDiscFormat2TrackAtOnce::get_RequestedRotationTypeIsPureCAV</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2trackatonce-get_supportedwritespeeddescriptors">IDiscFormat2TrackAtOnce::get_SupportedWriteSpeedDescriptors</a>
+<a href="/windows/desktop/api/imapi2/nf-imapi2-idiscformat2trackatonce-get_supportedwritespeeddescriptors">IDiscFormat2TrackAtOnce::get_SupportedWriteSpeedDescriptors</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2trackatonce-get_supportedwritespeeds">IDiscFormat2TrackAtOnce::get_SupportedWriteSpeeds</a>
-
+<a href="/windows/desktop/api/imapi2/nf-imapi2-idiscformat2trackatonce-get_supportedwritespeeds">IDiscFormat2TrackAtOnce::get_SupportedWriteSpeeds</a>

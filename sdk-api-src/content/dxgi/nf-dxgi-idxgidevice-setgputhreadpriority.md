@@ -57,7 +57,7 @@ Sets the GPU thread priority.
 
 ### -param Priority
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">INT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">INT</a></b>
 
 A value that specifies the required GPU thread priority. This value must be between -7 and 7, inclusive, where 0 represents normal priority.
 
@@ -80,13 +80,12 @@ To use the <b>SetGPUThreadPriority</b> method, you should have a comprehensive u
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3ddxgi/d3d10-graphics-reference-dxgi-interfaces">DXGI Interfaces</a>
+<a href="/windows/desktop/direct3ddxgi/d3d10-graphics-reference-dxgi-interfaces">DXGI Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nn-dxgi-idxgidevice">IDXGIDevice</a>
+<a href="/windows/desktop/api/dxgi/nn-dxgi-idxgidevice">IDXGIDevice</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nf-dxgi-idxgidevice-getgputhreadpriority">IDXGIDevice::GetGPUThreadPriority</a>
-
+<a href="/windows/desktop/api/dxgi/nf-dxgi-idxgidevice-getgputhreadpriority">IDXGIDevice::GetGPUThreadPriority</a>

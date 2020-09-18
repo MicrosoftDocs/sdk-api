@@ -70,5 +70,4 @@ Allows the app container to make requests and to receive requests to and from pr
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/FWP/fwp-enums">Windows Filtering Platform API Enumerated Types</a>
-
+<a href="/windows/desktop/FWP/fwp-enums">Windows Filtering Platform API Enumerated Types</a>

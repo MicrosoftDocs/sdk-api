@@ -56,20 +56,19 @@ Initializes flat scroll bars for a particular window.
 
 ### -param Arg1
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the window that will receive flat scroll bars.
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
 
 Returns nonzero if successful, or zero otherwise.
 
 ## -remarks
 
-This function must be called before any other flat scroll bar functions are called. The window will receive flat scroll bars by default. The scroll bar style can be changed with the <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-flatsb_setscrollprop">FlatSB_SetScrollProp</a> function. 
+This function must be called before any other flat scroll bar functions are called. The window will receive flat scroll bars by default. The scroll bar style can be changed with the <a href="/windows/desktop/api/commctrl/nf-commctrl-flatsb_setscrollprop">FlatSB_SetScrollProp</a> function. 
 
 <div class="alert"><b>Note</b>  Flat scroll bar functions are implemented in Comctl32.dll versions 4.71 through 5.82. Comctl32.dll versions 6.00 and higher do not support flat scroll bars.</div>
 <div> </div>
-

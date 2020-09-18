@@ -63,7 +63,7 @@ Updates the specified attribute in a list of attributes for process and thread c
 
 ### -param lpAttributeList [in, out]
 
-A pointer to an attribute list created by the <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-initializeprocthreadattributelist">InitializeProcThreadAttributeList</a> function.
+A pointer to an attribute list created by the <a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-initializeprocthreadattributelist">InitializeProcThreadAttributeList</a> function.
 
 ### -param dwFlags [in]
 
@@ -84,7 +84,7 @@ The attribute key to update in the attribute list. This parameter can be one of 
 </dl>
 </td>
 <td width="60%">
-The <i>lpValue</i> parameter is a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-group_affinity">GROUP_AFFINITY</a> structure that specifies the processor group affinity for the new thread.
+The <i>lpValue</i> parameter is a pointer to a <a href="/windows/desktop/api/winnt/ns-winnt-group_affinity">GROUP_AFFINITY</a> structure that specifies the processor group affinity for the new thread.
 
 <b>Windows Server 2008 and Windows Vista:  </b>This value is not supported until Windows 7 and Windows Server 2008 R2.
 
@@ -98,9 +98,9 @@ The <i>lpValue</i> parameter is a pointer to a <a href="https://docs.microsoft.c
 <td width="60%">
 The <i>lpValue</i> parameter is a pointer to a list of handles to be inherited by the child process.
 
-These handles must be created as inheritable handles and must not include pseudo handles such as those returned by the <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-getcurrentprocess">GetCurrentProcess</a> or <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-getcurrentthread">GetCurrentThread</a> function.
+These handles must be created as inheritable handles and must not include pseudo handles such as those returned by the <a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-getcurrentprocess">GetCurrentProcess</a> or <a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-getcurrentthread">GetCurrentThread</a> function.
 
-<div class="alert"><b>Note</b>  if you use this attribute, pass in a value of TRUE for the <i>bInheritHandles</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessa">CreateProcess</a> function.</div>
+<div class="alert"><b>Note</b>  if you use this attribute, pass in a value of TRUE for the <i>bInheritHandles</i> parameter of the <a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessa">CreateProcess</a> function.</div>
 <div> </div>
 </td>
 </tr>
@@ -110,7 +110,7 @@ These handles must be created as inheritable handles and must not include pseudo
 </dl>
 </td>
 <td width="60%">
-The <i>lpValue</i> parameter is a pointer to a  <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-processor_number">PROCESSOR_NUMBER</a> structure that specifies the ideal processor for the new thread.
+The <i>lpValue</i> parameter is a pointer to a  <a href="/windows/desktop/api/winnt/ns-winnt-processor_number">PROCESSOR_NUMBER</a> structure that specifies the ideal processor for the new thread.
 
 <b>Windows Server 2008 and Windows Vista:  </b>This value is not supported until Windows 7 and Windows Server 2008 R2.
 
@@ -162,9 +162,9 @@ The <i>lpValue</i> parameter is a pointer to the node number of the preferred NU
 </dl>
 </td>
 <td width="60%">
-The <i>lpValue</i> parameter is a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-ums_create_thread_attributes">UMS_CREATE_THREAD_ATTRIBUTES</a> structure that specifies a user-mode scheduling (UMS) thread context and a UMS completion list to associate with the thread. 
+The <i>lpValue</i> parameter is a pointer to a <a href="/windows/desktop/api/winnt/ns-winnt-ums_create_thread_attributes">UMS_CREATE_THREAD_ATTRIBUTES</a> structure that specifies a user-mode scheduling (UMS) thread context and a UMS completion list to associate with the thread. 
 
-After the UMS thread is created, the system queues it to the specified completion list. The UMS thread runs only when an application's UMS scheduler retrieves the UMS thread from the completion list and selects it to run.  For more information, see <a href="https://docs.microsoft.com/windows/desktop/ProcThread/user-mode-scheduling">User-Mode Scheduling</a>.
+After the UMS thread is created, the system queues it to the specified completion list. The UMS thread runs only when an application's UMS scheduler retrieves the UMS thread from the completion list and selects it to run.  For more information, see <a href="/windows/desktop/ProcThread/user-mode-scheduling">User-Mode Scheduling</a>.
 
 <b>Windows Server 2008 and Windows Vista:  </b>This value is not supported until Windows 7 and Windows Server 2008 R2.
 
@@ -176,7 +176,7 @@ After the UMS thread is created, the system queues it to the specified completio
 </dl>
 </td>
 <td width="60%">
-The <i>lpValue</i> parameter is a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-security_capabilities">SECURITY_CAPABILITIES</a> structure that defines the security capabilities of an app container. If this attribute is set the new process will be created as an AppContainer process.
+The <i>lpValue</i> parameter is a pointer to a <a href="/windows/desktop/api/winnt/ns-winnt-security_capabilities">SECURITY_CAPABILITIES</a> structure that defines the security capabilities of an app container. If this attribute is set the new process will be created as an AppContainer process.
 
 <b>Windows 7, Windows Server 2008 R2, Windows Server 2008 and Windows Vista:  </b>This value is not supported until  Windows 8 and Windows Server 2012.
 
@@ -222,7 +222,7 @@ For information about the possible values for the <b>DWORD</b> to which <i>lpVal
 
 ### -param lpValue [in]
 
-A pointer to the attribute value. This value should persist until the attribute is destroyed using the <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-deleteprocthreadattributelist">DeleteProcThreadAttributeList</a> function.
+A pointer to the attribute value. This value should persist until the attribute is destroyed using the <a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-deleteprocthreadattributelist">DeleteProcThreadAttributeList</a> function.
 
 ### -param cbSize [in]
 
@@ -241,14 +241,14 @@ This parameter is reserved and must be NULL.
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
 An attribute list is an opaque structure that consists of a series of key/value pairs, one for each attribute. A process can update only the attribute keys described in this topic.
 
 The  <b>DWORD</b> or <b>DWORD64</b> pointed to by <i>lpValue</i> can be one or more of the following values when you specify <b>PROC_THREAD_ATTRIBUTE_MITIGATION_POLICY</b> for the <i>Attribute</i> parameter:<dl>
-<dd><b>PROCESS_CREATION_MITIGATION_POLICY_DEP_ENABLE</b> (0x00000001)Enables data execution prevention (DEP) for the child process. For more information, see <a href="https://docs.microsoft.com/windows/desktop/Memory/data-execution-prevention">Data Execution Prevention</a>.
+<dd><b>PROCESS_CREATION_MITIGATION_POLICY_DEP_ENABLE</b> (0x00000001)Enables data execution prevention (DEP) for the child process. For more information, see <a href="/windows/desktop/Memory/data-execution-prevention">Data Execution Prevention</a>.
 
 </dd>
 <dd><b>PROCESS_CREATION_MITIGATION_POLICY_DEP_ATL_THUNK_ENABLE</b> (0x00000002)Enables DEP-ATL thunk emulation for the child process. DEP-ATL thunk emulation causes the system to intercept NX faults that originate from the Active Template Library (ATL) thunk layer. This value can be specified only with PROCESS_CREATION_MITIGATION_POLICY_DEP_ENABLE. 
@@ -348,7 +348,7 @@ The following mitigation options are available for the extension point disable p
 </dl>
 </dd>
 <dd>
-The <a href="https://docs.microsoft.com/windows/desktop/SecBP/control-flow-guard">Control Flow Guard (CFG) policy</a>, if turned on, places additional restrictions on indirect calls in code that has been built with CFG enabled.
+The <a href="/windows/desktop/SecBP/control-flow-guard">Control Flow Guard (CFG) policy</a>, if turned on, places additional restrictions on indirect calls in code that has been built with CFG enabled.
 
 The following mitigation options are available for controlling the CFG policy:
 
@@ -622,13 +622,12 @@ if (CreateProcessW(ApplicationName,
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-deleteprocthreadattributelist">DeleteProcThreadAttributeList</a>
+<a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-deleteprocthreadattributelist">DeleteProcThreadAttributeList</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-initializeprocthreadattributelist">InitializeProcThreadAttributeList</a>
+<a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-initializeprocthreadattributelist">InitializeProcThreadAttributeList</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/ProcThread/process-and-thread-functions">Process and Thread Functions</a>
-
+<a href="/windows/desktop/ProcThread/process-and-thread-functions">Process and Thread Functions</a>

@@ -52,11 +52,11 @@ api_name:
 
 <p class="CCE_Message">[<b>IInsertItem</b> is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions.]
 
-Exposes a method that inserts an <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> structure into a list of such structures.
+Exposes a method that inserts an <a href="/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> structure into a list of such structures.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IInsertItem</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IInsertItem</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IInsertItem</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IInsertItem</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,12 +71,11 @@ The <b>IInsertItem</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nf-shobjidl-iinsertitem-insertitem">InsertItem</a>
+<a href="/windows/desktop/api/shobjidl/nf-shobjidl-iinsertitem-insertitem">InsertItem</a>
 </td>
 <td align="left" width="63%">
-Adds an <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> structure to a list of such structures.
+Adds an <a href="/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> structure to a list of such structures.
 
 </td>
 </tr>
 </table>
-

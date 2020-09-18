@@ -52,7 +52,7 @@ api_name:
 ## -description
 
 Frees memory allocated with 
-		<a href="https://docs.microsoft.com/windows/desktop/api/wabapi/nf-wabapi-iwabobject-allocatebuffer">IWABObject::AllocateBuffer</a> or any of the other 
+		<a href="/windows/desktop/api/wabapi/nf-wabapi-iwabobject-allocatebuffer">IWABObject::AllocateBuffer</a> or any of the other 
 		Windows Address Book (WAB) methods.
 
 ## -parameters
@@ -69,4 +69,3 @@ Type: <b>HRESULT</b>
 
 Returns S_OK if the call succeeded 
 			and freed the memory requested.
-

@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Contains the current track number and duration as part of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh828991(v=vs.85)">PositionInformation</a> obtained from the DMR.
+Contains the current track number and duration as part of the <a href="/previous-versions/windows/desktop/legacy/hh828991(v=vs.85)">PositionInformation</a> obtained from the DMR.
 
 ## -struct-fields
 
@@ -67,4 +67,3 @@ The current track number as reported by DMR.  If the DMR does not have a concept
 ### -field TrackDuration
 
 The duration of the current track.
-

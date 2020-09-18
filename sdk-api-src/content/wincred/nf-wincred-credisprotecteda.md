@@ -55,7 +55,7 @@ api_name:
 
 ## -description
 
- The <b>CredIsProtected</b> function specifies whether the specified credentials are encrypted by a previous call to the <a href="https://docs.microsoft.com/windows/desktop/api/wincred/nf-wincred-credprotecta">CredProtect</a> function.
+ The <b>CredIsProtected</b> function specifies whether the specified credentials are encrypted by a previous call to the <a href="/windows/desktop/api/wincred/nf-wincred-credprotecta">CredProtect</a> function.
 
 ## -parameters
 
@@ -65,17 +65,16 @@ A pointer to a null-terminated string that specifies the credentials to test.
 
 ### -param pProtectionType [out]
 
-A pointer to a value from the <a href="https://docs.microsoft.com/windows/desktop/api/wincred/ne-wincred-cred_protection_type">CRED_PROTECTION_TYPE</a> enumeration that specifies whether the credentials specified in the <i>pszProtectedCredentials</i> parameter are protected.
+A pointer to a value from the <a href="/windows/desktop/api/wincred/ne-wincred-cred_protection_type">CRED_PROTECTION_TYPE</a> enumeration that specifies whether the credentials specified in the <i>pszProtectedCredentials</i> parameter are protected.
 
 ## -returns
 
 <b>TRUE</b> if the function succeeds; otherwise, <b>FALSE</b>.
 
 For extended error information, call the 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function.
 
 ## -remarks
 
 > [!NOTE]
 > The wincred.h header defines CredIsProtected as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

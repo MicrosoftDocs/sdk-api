@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[SNMP is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="https://docs.microsoft.com/windows/desktop/WinRM/portal">Windows Remote Management</a>, which is the Microsoft implementation of WS-Man.]
+<p class="CCE_Message">[SNMP is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="/windows/desktop/WinRM/portal">Windows Remote Management</a>, which is the Microsoft implementation of WS-Man.]
 
 The WinSNMP 
 <b>SnmpOidToStr</b> function converts the internal binary representation of an SNMP object identifier to its dotted numeric string format, for example, to "1.2.3.4.5.6".
@@ -60,7 +60,7 @@ The WinSNMP
 ### -param srcOID [in]
 
 Pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsnmp/ns-winsnmp-smioid">smiOID</a> structure with an object identifier to convert.
+<a href="/windows/desktop/api/winsnmp/ns-winsnmp-smioid">smiOID</a> structure with an object identifier to convert.
 
 ### -param size [in]
 
@@ -75,7 +75,7 @@ Pointer to a buffer to receive the converted string object identifier that speci
 If the function succeeds, the return value is the length, in bytes, of the string that the WinSNMP application writes to the <i>string</i> parameter. The return value includes a <b>null</b>-terminating byte. This value may be less than or equal to the value of the <i>size</i> parameter, but it may not be greater.
 
 If the function fails, the return value is SNMPAPI_FAILURE. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsnmp/nf-winsnmp-snmpgetlasterror">SnmpGetLastError</a> specifying a <b>NULL</b> value in its <i>session</i> parameter. The 
+<a href="/windows/desktop/api/winsnmp/nf-winsnmp-snmpgetlasterror">SnmpGetLastError</a> specifying a <b>NULL</b> value in its <i>session</i> parameter. The 
 <b>SnmpGetLastError</b> function can return one of the following errors.
 
 <table>
@@ -91,7 +91,7 @@ If the function fails, the return value is SNMPAPI_FAILURE. To get extended erro
 </td>
 <td width="60%">
 The 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsnmp/nf-winsnmp-snmpstartup">SnmpStartup</a> function did not complete successfully.
+<a href="/windows/desktop/api/winsnmp/nf-winsnmp-snmpstartup">SnmpStartup</a> function did not complete successfully.
 
 </td>
 </tr>
@@ -155,22 +155,21 @@ An unknown or undefined error occurred.
 ## -remarks
 
 It is recommended that a WinSNMP application specify, with the <i>size</i> parameter, a string buffer of MAXOBJIDSTRSIZE length (1408 bytes). This ensures that the output buffer is large enough to hold the converted string. Because the converted string is usually less than MAXOBJIDSTRSIZE, the WinSNMP application can copy the converted string to a smaller buffer. The application can then reuse or free the memory that it allocated for the initial buffer. For additional information, see 
-<a href="https://docs.microsoft.com/windows/desktop/SNMP/winsnmp-data-management-concepts">WinSNMP Data Management Concepts</a>.
+<a href="/windows/desktop/SNMP/winsnmp-data-management-concepts">WinSNMP Data Management Concepts</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsnmp/nf-winsnmp-snmpstrtooid">SnmpStrToOid</a>
+<a href="/windows/desktop/api/winsnmp/nf-winsnmp-snmpstrtooid">SnmpStrToOid</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SNMP/winsnmp-functions">WinSNMP
+<a href="/windows/desktop/SNMP/winsnmp-functions">WinSNMP
 		  Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SNMP/winsnmp-api">WinSNMP API Overview</a>
+<a href="/windows/desktop/SNMP/winsnmp-api">WinSNMP API Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsnmp/ns-winsnmp-smioid">smiOID</a>
-
+<a href="/windows/desktop/api/winsnmp/ns-winsnmp-smioid">smiOID</a>

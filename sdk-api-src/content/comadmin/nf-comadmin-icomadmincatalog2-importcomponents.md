@@ -52,7 +52,7 @@ api_name:
 
 Imports the specified components that are already registered into an application.
 
-To import unconfigured components, you can use the <a href="https://docs.microsoft.com/windows/desktop/api/comadmin/nf-comadmin-icomadmincatalog2-importunconfiguredcomponents">ImportUnconfiguredComponents</a> and <a href="https://docs.microsoft.com/windows/desktop/api/comadmin/nf-comadmin-icomadmincatalog2-promoteunconfiguredcomponents">PromoteUnconfiguredComponents</a> methods.
+To import unconfigured components, you can use the <a href="/windows/desktop/api/comadmin/nf-comadmin-icomadmincatalog2-importunconfiguredcomponents">ImportUnconfiguredComponents</a> and <a href="/windows/desktop/api/comadmin/nf-comadmin-icomadmincatalog2-promoteunconfiguredcomponents">PromoteUnconfiguredComponents</a> methods.
 
 ## -parameters
 
@@ -62,7 +62,7 @@ The application ID or name of the application into which the components are to b
 
 ### -param pVarCLSIDOrProgID [in]
 
-The components to be imported. Each element of the <b>Variant</b> may be a <b>String</b> containing a class ID or program ID, a single catalog object, or a catalog collection (for example, as returned by the <a href="https://docs.microsoft.com/windows/desktop/api/comadmin/nf-comadmin-icomadmincatalog2-getcollectionbyquery2">GetCollectionByQuery2</a> method).
+The components to be imported. Each element of the <b>Variant</b> may be a <b>String</b> containing a class ID or program ID, a single catalog object, or a catalog collection (for example, as returned by the <a href="/windows/desktop/api/comadmin/nf-comadmin-icomadmincatalog2-getcollectionbyquery2">GetCollectionByQuery2</a> method).
 
 ### -param pVarComponentType [in, optional]
 
@@ -103,5 +103,4 @@ This method can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, E
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/comadmin/nn-comadmin-icomadmincatalog2">ICOMAdminCatalog2</a>
-
+<a href="/windows/desktop/api/comadmin/nn-comadmin-icomadmincatalog2">ICOMAdminCatalog2</a>

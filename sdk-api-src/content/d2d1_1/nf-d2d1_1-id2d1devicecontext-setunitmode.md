@@ -56,31 +56,30 @@ Sets what units will be used to interpret values passed into the device context.
 
 ### -param unitMode
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/ne-d2d1_1-d2d1_unit_mode">D2D1_UNIT_MODE</a></b>
+Type: <b><a href="/windows/desktop/api/d2d1_1/ne-d2d1_1-d2d1_unit_mode">D2D1_UNIT_MODE</a></b>
 
 An enumeration defining how passed-in units will be interpreted by the device context.
 
 ## -remarks
 
-This method will affect all properties and parameters affected by <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-setdpi">SetDpi</a> 
-        and <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-getdpi">GetDpi</a>. This affects all coordinates, lengths, and other properties that are 
+This method will affect all properties and parameters affected by <a href="/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-setdpi">SetDpi</a> 
+        and <a href="/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-getdpi">GetDpi</a>. This affects all coordinates, lengths, and other properties that are 
         not explicitly defined as being in another unit. For example:
 
 <ul>
 <li><b>SetUnitMode</b> will affect a coordinate passed 
-            into <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-drawline">ID2D1DeviceContext::DrawLine</a>, and the scaling of a 
-            geometry passed into <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-fillgeometry">ID2D1DeviceContext::FillGeometry</a>.
+            into <a href="/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-drawline">ID2D1DeviceContext::DrawLine</a>, and the scaling of a 
+            geometry passed into <a href="/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-fillgeometry">ID2D1DeviceContext::FillGeometry</a>.
           </li>
 <li><b>SetUnitMode</b> will not affect the value
-            returned by <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1bitmap-getpixelsize">ID2D1Bitmap::GetPixelSize</a>.
+            returned by <a href="/windows/desktop/api/d2d1/nf-d2d1-id2d1bitmap-getpixelsize">ID2D1Bitmap::GetPixelSize</a>.
           </li>
 </ul>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/ne-d2d1_1-d2d1_unit_mode">D2D1_UNIT_MODE</a>
+<a href="/windows/desktop/api/d2d1_1/ne-d2d1_1-d2d1_unit_mode">D2D1_UNIT_MODE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1devicecontext">ID2D1DeviceContext</a>
-
+<a href="/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1devicecontext">ID2D1DeviceContext</a>

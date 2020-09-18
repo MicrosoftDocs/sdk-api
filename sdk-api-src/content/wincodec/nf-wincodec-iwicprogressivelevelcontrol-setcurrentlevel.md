@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Specifies the level to retrieve on the next call to <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicbitmapsource-copypixels">CopyPixels</a>.
+Specifies the level to retrieve on the next call to <a href="/windows/desktop/api/wincodec/nf-wincodec-iwicbitmapsource-copypixels">CopyPixels</a>.
 
 ## -parameters
 
@@ -69,15 +69,15 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -remarks
 
 A call does not have to request every level supported.
-        If a caller requests level 1, without having previously requested level 0, the bits returned by the next call to <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicbitmapsource-copypixels">CopyPixels</a> will include both levels.
+        If a caller requests level 1, without having previously requested level 0, the bits returned by the next call to <a href="/windows/desktop/api/wincodec/nf-wincodec-iwicbitmapsource-copypixels">CopyPixels</a> will include both levels.
       
 
-If the requested level is invalid, the error returned is <a href="https://docs.microsoft.com/windows/desktop/wic/-wic-codec-error-codes">WINCODEC_ERR_INVALIDPROGRESSIVELEVEL</a>.
+If the requested level is invalid, the error returned is <a href="/windows/desktop/wic/-wic-codec-error-codes">WINCODEC_ERR_INVALIDPROGRESSIVELEVEL</a>.
 
 
 #### Examples
 
-Users should use this method to iterate through the progressive levels of a progressive JPEG image rather than the <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicprogressivelevelcontrol-getcurrentlevel">GetCurrentLevel</a> method. JPEG progressive levels are determined by the image and do not have a fixed level count. 
+Users should use this method to iterate through the progressive levels of a progressive JPEG image rather than the <a href="/windows/desktop/api/wincodec/nf-wincodec-iwicprogressivelevelcontrol-getcurrentlevel">GetCurrentLevel</a> method. JPEG progressive levels are determined by the image and do not have a fixed level count. 
          Using <b>GetCurrentLevel</b> method will force the application to wait for all progressive levels to be downloaded before it can return. 
          Instead, applications should use the following code to iterate through the progressive levels of a progressive JPEG image.
 
@@ -117,9 +117,8 @@ if (pProgressive)
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicprogressivelevelcontrol">IWICProgressiveLevelControl</a>
+<a href="/windows/desktop/api/wincodec/nn-wincodec-iwicprogressivelevelcontrol">IWICProgressiveLevelControl</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/wic/-wic-progressive-decoding">Progressive Decoding Overview</a>
-
+<a href="/windows/desktop/wic/-wic-progressive-decoding">Progressive Decoding Overview</a>

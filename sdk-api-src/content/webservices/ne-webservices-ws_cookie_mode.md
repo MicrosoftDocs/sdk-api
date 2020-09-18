@@ -64,7 +64,7 @@ If a server sends a cookie to the client, the client
                     the cookie value in subsequent requests).
                 
 
-An application can use the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_http_header_mapping">WS_HTTP_HEADER_MAPPING</a>feature to handle cookies manually, if desired.
+An application can use the <a href="/windows/desktop/api/webservices/ns-webservices-ws_http_header_mapping">WS_HTTP_HEADER_MAPPING</a>feature to handle cookies manually, if desired.
 
 ### -field WS_AUTO_COOKIE_MODE
 
@@ -75,4 +75,3 @@ In this mode, cookies are automatically tracked by
 If a server sends a cookie to the client,
                     the channel will automatically track the cookie and
                     will include the cookie in subsequent requests.
-

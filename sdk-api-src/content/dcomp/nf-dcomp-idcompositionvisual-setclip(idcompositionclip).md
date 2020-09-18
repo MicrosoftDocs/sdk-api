@@ -57,17 +57,17 @@ Sets the Clip property of this visual to the specified clip object. The Clip pro
 
 ### -param clip [in, optional]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nn-dcomp-idcompositionclip">IDCompositionClip</a>*</b>
+Type: <b><a href="/windows/desktop/api/dcomp/nn-dcomp-idcompositionclip">IDCompositionClip</a>*</b>
 
 The clip object to associate with this visual. This parameter can be NULL.  All float properties of IDCompositionRectangleClip have a numerical limit of -2^21 to 2^21.
               The API accepts numbers outside of this range, but they are always clamped to this range.
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 If the function succeeds, it returns S_OK. Otherwise, it returns an <b>HRESULT</b> error code. 
-              See <a href="https://docs.microsoft.com/windows/desktop/directcomp/directcomposition-error-codes">DirectComposition Error Codes</a>  for a list of error codes.
+              See <a href="/windows/desktop/directcomp/directcomposition-error-codes">DirectComposition Error Codes</a>  for a list of error codes.
 
 ## -remarks
 
@@ -76,7 +76,7 @@ Setting the Clip property clips this visual along with all visuals in the subtre
 If the Clip property previously specified a clip rectangle, the newly specified Clip object replaces the clip rectangle.
 
 This method fails if <i>clip</i> is an invalid pointer or if it was not created by the 
-        same <a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nn-dcomp-idcompositiondevice">IDCompositionDevice</a> interface that created this visual. The interface cannot be a custom implementation; only interfaces created by Microsoft DirectComposition can be used with this method.
+        same <a href="/windows/desktop/api/dcomp/nn-dcomp-idcompositiondevice">IDCompositionDevice</a> interface that created this visual. The interface cannot be a custom implementation; only interfaces created by Microsoft DirectComposition can be used with this method.
       
 
 If <i>clip</i> is NULL, the visual is not clipped relative to its parent. However, the visual is clipped by the clip object of the parent visual, 
@@ -90,13 +90,12 @@ If <i>clip</i> specifies a clip object that has an empty rectangle, the visual i
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/directcomp/clipping">Clipping</a>
+<a href="/windows/desktop/directcomp/clipping">Clipping</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nn-dcomp-idcompositionrectangleclip">IDCompositionRectangleClip</a>
+<a href="/windows/desktop/api/dcomp/nn-dcomp-idcompositionrectangleclip">IDCompositionRectangleClip</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nn-dcomp-idcompositionvisual">IDCompositionVisual</a>
-
+<a href="/windows/desktop/api/dcomp/nn-dcomp-idcompositionvisual">IDCompositionVisual</a>

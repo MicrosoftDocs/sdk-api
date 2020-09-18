@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Gets a <a href="https://docs.microsoft.com/windows/desktop/TSF/tsviewcookie">TsViewCookie</a> that represents the current active view.
+Gets a <a href="/windows/desktop/TSF/tsviewcookie">TsViewCookie</a> that represents the current active view.
 
 ## -parameters
 
@@ -64,10 +64,9 @@ This method has no return values.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nn-textstor-itextstoreacp2">ITextStoreACP2</a>
+<a href="/windows/desktop/api/textstor/nn-textstor-itextstoreacp2">ITextStoreACP2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/TSF/tsviewcookie">TsViewCookie
+<a href="/windows/desktop/TSF/tsviewcookie">TsViewCookie
       </a>
-

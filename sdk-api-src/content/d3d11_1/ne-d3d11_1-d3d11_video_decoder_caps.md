@@ -66,7 +66,7 @@ With this capability, it is possible that decoding can occur in real-time if dow
 
 ### -field D3D11_VIDEO_DECODER_CAPS_DOWNSAMPLE_DYNAMIC
 
-Indicates that the driver supports changing down sample parameters after the initial down sample parameters have been applied. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/d3d11_1/nf-d3d11_1-id3d11videocontext1-decoderupdatedownsampling">ID3D11VideoContext1::DecoderUpdateDownsampling</a>.
+Indicates that the driver supports changing down sample parameters after the initial down sample parameters have been applied. For more information, see <a href="/windows/desktop/api/d3d11_1/nf-d3d11_1-id3d11videocontext1-decoderupdatedownsampling">ID3D11VideoContext1::DecoderUpdateDownsampling</a>.
 
 ### -field D3D11_VIDEO_DECODER_CAPS_DOWNSAMPLE_REQUIRED
 
@@ -74,5 +74,4 @@ Indicates that the driver supports changing down sample parameters after the ini
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/direct3d-11-video-enumerations">Direct3D 11 Video Enumerations</a>
-
+<a href="/windows/desktop/medfound/direct3d-11-video-enumerations">Direct3D 11 Video Enumerations</a>

@@ -53,7 +53,7 @@ api_name:
 The 
 <b>RpcCancelThread</b> function cancels a thread. The 
 <b>RpcCancelThread</b> function should not be used to cancel asynchronous RPC calls; instead, use the 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcasync/nf-rpcasync-rpcasynccancelcall">RpcAsyncCancelCall</a> function to cancel an asynchronous RPC call.
+<a href="/windows/desktop/api/rpcasync/nf-rpcasync-rpcasynccancelcall">RpcAsyncCancelCall</a> function to cancel an asynchronous RPC call.
 
 ## -parameters
 
@@ -105,19 +105,19 @@ Called by an MS-DOS or Windows 3.x client.
  
 
 <div class="alert"><b>Note</b>  For a list of valid error codes, see 
-<a href="https://docs.microsoft.com/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
+<a href="/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
 <div> </div>
 
 ## -remarks
 
 The 
 <b>RpcCancelThread</b> function allows one client thread to cancel an RPC in progress on another client thread. When the function is called, the server run-time is informed of the cancel operation. The server stub can determine if the call has been canceled by calling 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpctestcancel">RpcTestCancel</a>. If the call has been canceled, the server stub should clean up and return control to the client.
+<a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpctestcancel">RpcTestCancel</a>. If the call has been canceled, the server stub should clean up and return control to the client.
 
 The <b>RpcCancelThread</b> function cannot be used to cancel a call that has issued a static callback.  Do not cancel remote procedure calls that may call a function declared with the <b>[callback]</b> attribute in the IDL-file.
 
 By default, the client waits forever for the server to return control after a cancel. To reduce this time, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcmgmtsetcanceltimeout">RpcMgmtSetCancelTimeout</a>, specifying the number of seconds to wait for a response. If the server does not return within this interval, the call fails at the client with an <b>RPC_S_CALL_FAILED</b> exception. The server stub continues to run.
+<a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcmgmtsetcanceltimeout">RpcMgmtSetCancelTimeout</a>, specifying the number of seconds to wait for a response. If the server does not return within this interval, the call fails at the client with an <b>RPC_S_CALL_FAILED</b> exception. The server stub continues to run.
 
 If you are using the named pipes protocol, <b>ncacn_np</b>, you must specify a finite time-out.
 
@@ -128,17 +128,16 @@ You can use
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpctestcancel">RpcTestCancel</a>
+<a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpctestcancel">RpcTestCancel</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/aa367103(VS.85).aspx">ncacn_http</a>
+<a href="/windows/win32/midl/ncacn-http">ncacn_http</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/aa367114(VS.85).aspx">ncadg_mq</a>
+<a href="/windows/win32/midl/ncadg-mq">ncadg_mq</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/aa367115(VS.85).aspx">ncalrpc</a>
-
+<a href="/windows/win32/midl/ncalrpc">ncalrpc</a>

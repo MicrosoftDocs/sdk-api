@@ -64,31 +64,30 @@ Handle to the glyph.
 
 ### -field pgdf
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-glyphdef">GLYPHDEF</a> union.
+Pointer to a <a href="/windows/desktop/api/winddi/ns-winddi-glyphdef">GLYPHDEF</a> union.
 
 ### -field ptl
 
-Specifies a <a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-pointl">POINTL</a> structure that contains the coordinates of the point in device space where the character origin of the glyph should be placed.
+Specifies a <a href="/windows/desktop/api/windef/ns-windef-pointl">POINTL</a> structure that contains the coordinates of the point in device space where the character origin of the glyph should be placed.
 
 ## -remarks
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvtextout">DrvTextOut</a>
+<a href="/windows/desktop/api/winddi/nf-winddi-drvtextout">DrvTextOut</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-glyphdef">GLYPHDEF</a>
+<a href="/windows/desktop/api/winddi/ns-winddi-glyphdef">GLYPHDEF</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-strobj">STROBJ</a>
+<a href="/windows/desktop/api/winddi/ns-winddi-strobj">STROBJ</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-strobj_benum">STROBJ_bEnum</a>
+<a href="/windows/desktop/api/winddi/nf-winddi-strobj_benum">STROBJ_bEnum</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-strobj_venumstart">STROBJ_vEnumStart</a>
-
+<a href="/windows/desktop/api/winddi/nf-winddi-strobj_venumstart">STROBJ_vEnumStart</a>

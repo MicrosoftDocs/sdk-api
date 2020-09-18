@@ -53,7 +53,7 @@ api_name:
 <p class="CCE_Message">[The <i>GopherAttributeEnumerator</i> function is available for use in the operating systems specified in the Requirements section.]
 
 Prototype for a callback function that processes attribute information from a Gopher server. This callback function is installed by a call to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-gophergetattributea">GopherGetAttribute</a> function.
+<a href="/windows/desktop/api/wininet/nf-wininet-gophergetattributea">GopherGetAttribute</a> function.
 
 The <b>GOPHER_ATTRIBUTE_ENUMERATOR</b> type defines a pointer to this callback function. <i>GopherAttributeEnumerator</i> is a placeholder for the application-defined function name.
 
@@ -61,9 +61,9 @@ The <b>GOPHER_ATTRIBUTE_ENUMERATOR</b> type defines a pointer to this callback f
 
 ### -param lpAttributeInfo
 
-Pointer to a  <a href="https://docs.microsoft.com/windows/desktop/api/wininet/ns-wininet-gopher_attribute_type">GOPHER_ATTRIBUTE_TYPE</a> structure. The 
+Pointer to a  <a href="/windows/desktop/api/wininet/ns-wininet-gopher_attribute_type">GOPHER_ATTRIBUTE_TYPE</a> structure. The 
 <i>lpBuffer</i> parameter of 
-<a href="https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-gophergetattributea">GopherGetAttribute</a> is used for storing this structure. The 
+<a href="/windows/desktop/api/wininet/nf-wininet-gophergetattributea">GopherGetAttribute</a> is used for storing this structure. The 
 <i>lpBuffer</i> size must be equal to or greater than the value of MIN_GOPHER_ATTRIBUTE_LENGTH.
 
 ### -param dwError
@@ -76,10 +76,9 @@ Return <b>TRUE</b> to continue the enumeration, or <b>FALSE</b> to stop it immed
 
 ## -remarks
 
-<div class="alert"><b>Note</b>  WinINet does not support server implementations. In addition, it should not be used from a service.  For server implementations or services use <a href="https://docs.microsoft.com/windows/desktop/WinHttp/winhttp-start-page">Microsoft Windows HTTP Services (WinHTTP)</a>.</div>
+<div class="alert"><b>Note</b>  WinINet does not support server implementations. In addition, it should not be used from a service.  For server implementations or services use <a href="/windows/desktop/WinHttp/winhttp-start-page">Microsoft Windows HTTP Services (WinHTTP)</a>.</div>
 <div> </div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/WinInet/wininet-functions"> WinINet Functions</a>
-
+<a href="/windows/desktop/WinInet/wininet-functions"> WinINet Functions</a>

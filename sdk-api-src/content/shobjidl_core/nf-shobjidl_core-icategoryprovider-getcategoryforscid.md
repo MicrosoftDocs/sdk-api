@@ -56,19 +56,18 @@ Gets a GUID that represents the categorizer to use for the specified Shell colum
 
 ### -param pscid [in]
 
-Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/shell/objects">SHCOLUMNID</a>*</b>
+Type: <b>const <a href="/windows/desktop/shell/objects">SHCOLUMNID</a>*</b>
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/shell/objects">SHCOLUMNID</a> structure.
+A pointer to a <a href="/windows/desktop/shell/objects">SHCOLUMNID</a> structure.
 
 ### -param pguid [out]
 
 Type: <b>GUID*</b>
 
-When this method returns, contains a pointer to a GUID that represents the categorizer to use for the <a href="https://docs.microsoft.com/windows/desktop/shell/objects">SHCOLUMNID</a> pointed to by <i>pscid</i>.
+When this method returns, contains a pointer to a GUID that represents the categorizer to use for the <a href="/windows/desktop/shell/objects">SHCOLUMNID</a> pointed to by <i>pscid</i>.
 
 ## -returns
 
 Type: <b>HRESULT</b>
 
 Returns either S_OK on success or S_FALSE on failure.
-

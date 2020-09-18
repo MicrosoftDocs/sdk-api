@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Describes a module loaded for the enclave. The report contains one <b>VBS_ENCLAVE_REPORT_MODULE</b> structure for every module loaded for the enclave except the primary module for the enclave, which is described in the <b>EnclaveIdentity</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/ntenclv/ns-ntenclv-vbs_enclave_report">VBS_ENCLAVE_REPORT</a> structure.
+Describes a module loaded for the enclave. The report contains one <b>VBS_ENCLAVE_REPORT_MODULE</b> structure for every module loaded for the enclave except the primary module for the enclave, which is described in the <b>EnclaveIdentity</b> member of the <a href="/windows/desktop/api/ntenclv/ns-ntenclv-vbs_enclave_report">VBS_ENCLAVE_REPORT</a> structure.
 
 ## -struct-fields
 
@@ -84,9 +84,8 @@ A NULL-terminated string that contains the name of the module as it was loaded i
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntenclv/ns-ntenclv-vbs_enclave_report">VBS_ENCLAVE_REPORT</a>
+<a href="/windows/desktop/api/ntenclv/ns-ntenclv-vbs_enclave_report">VBS_ENCLAVE_REPORT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntenclv/ns-ntenclv-vbs_enclave_report_vardata_header">VBS_ENCLAVE_REPORT_VARDATA_HEADER</a>
-
+<a href="/windows/desktop/api/ntenclv/ns-ntenclv-vbs_enclave_report_vardata_header">VBS_ENCLAVE_REPORT_VARDATA_HEADER</a>

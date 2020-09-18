@@ -72,7 +72,7 @@ The method returns an <b>HRESULT</b>. All the interface methods in Windows Media
 <li>Windows error codes converted to HRESULT values </li>
 <li>Windows Media Device Manager error codes </li>
 </ul>
-For an extensive list of possible error codes, see <a href="https://docs.microsoft.com/windows/desktop/WMDM/error-codes">Error Codes</a>.
+For an extensive list of possible error codes, see <a href="/windows/desktop/WMDM/error-codes">Error Codes</a>.
 
 ## -remarks
 
@@ -82,25 +82,24 @@ For example, the attributes of a top-level <b>IMDSPStorage</b> interface indicat
 
 The <b>_WAVEFORMATEX</b> parameter is optional. If you pass a valid <b>_WAVEFORMATEX</b> pointer to an audio file, <b>GetAttributes</b> passes descriptive information back into the structure. However, if the file is not audio, the <b>_WAVEFORMATEX</b> parameter is ignored.
 
-This method must be implemented. It must not return WMDM_E_NOTSUPPORTED or E_NOTIMPL. For more information, see <a href="https://docs.microsoft.com/windows/desktop/WMDM/mandatory-and-optional-interfaces">Mandatory and Optional Interfaces</a>.
+This method must be implemented. It must not return WMDM_E_NOTSUPPORTED or E_NOTIMPL. For more information, see <a href="/windows/desktop/WMDM/mandatory-and-optional-interfaces">Mandatory and Optional Interfaces</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-imdspenumstorage">IMDSPEnumStorage Interface</a>
+<a href="/windows/desktop/api/mswmdm/nn-mswmdm-imdspenumstorage">IMDSPEnumStorage Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-imdspstorage">IMDSPStorage Interface</a>
+<a href="/windows/desktop/api/mswmdm/nn-mswmdm-imdspstorage">IMDSPStorage Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-imdspstorage2-getattributes2">IMDSPStorage2::GetAttributes2</a>
+<a href="/windows/desktop/api/mswmdm/nf-mswmdm-imdspstorage2-getattributes2">IMDSPStorage2::GetAttributes2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-imdspstorage-setattributes">IMDSPStorage::SetAttributes</a>
+<a href="/windows/desktop/api/mswmdm/nf-mswmdm-imdspstorage-setattributes">IMDSPStorage::SetAttributes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WMDM/-waveformatex">_WAVEFORMATEX</a>
-
+<a href="/windows/desktop/WMDM/-waveformatex">_WAVEFORMATEX</a>

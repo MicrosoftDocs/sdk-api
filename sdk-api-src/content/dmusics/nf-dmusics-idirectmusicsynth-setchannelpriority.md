@@ -78,5 +78,4 @@ For more information, see the description of the <b>IDirectMusicPort::GetChannel
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dmusics/nf-dmusics-idirectmusicsynth-getchannelpriority">IDirectMusicSynth::GetChannelPriority</a>
-
+<a href="/windows/desktop/api/dmusics/nf-dmusics-idirectmusicsynth-getchannelpriority">IDirectMusicSynth::GetChannelPriority</a>

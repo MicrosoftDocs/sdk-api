@@ -55,14 +55,13 @@ Use this interface to get or set session properties.
 To get this interface, access one of the following properties:
 <ul>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapisharingsession-get_properties">Properties Property of IRDPSRAPISharingSession</a>
+<a href="/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapisharingsession-get_properties">Properties Property of IRDPSRAPISharingSession</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapiviewer-get_properties">Properties Property of IRDPSRAPIViewer</a>
+<a href="/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapiviewer-get_properties">Properties Property of IRDPSRAPIViewer</a>
 </li>
 </ul>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
-
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>

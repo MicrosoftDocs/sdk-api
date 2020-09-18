@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-Contains partition information pulled from an ETW trace. Most commonly used as a return structure for <a href="https://docs.microsoft.com/windows/desktop/ETW/querytraceprocessinghandle">QueryTraceProcessingHandle</a>.
+Contains partition information pulled from an ETW trace. Most commonly used as a return structure for <a href="/windows/desktop/ETW/querytraceprocessinghandle">QueryTraceProcessingHandle</a>.
 
 ## -struct-fields
 
@@ -117,7 +117,7 @@ For events originating from a “Hyper-V Container” template virtual machine.
 </dl>
 </td>
 <td width="60%">
-For events originating from applications running with  <a href="https://docs.microsoft.com/windows/desktop/winmsg/windows">Windows Defender Application Guard</a>.
+For events originating from applications running with  <a href="/windows/desktop/winmsg/windows">Windows Defender Application Guard</a>.
 
 </td>
 </tr>
@@ -128,4 +128,3 @@ For events originating from applications running with  <a href="https://docs.mic
 #### - Reserved
 
 Reserved for future use.
-

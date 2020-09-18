@@ -52,13 +52,13 @@ api_name:
 
 ## -description
 
-Contains script control flags for several Uniscribe functions, for example, <a href="https://docs.microsoft.com/windows/desktop/api/usp10/nf-usp10-scriptitemize">ScriptItemize</a>.
+Contains script control flags for several Uniscribe functions, for example, <a href="/windows/desktop/api/usp10/nf-usp10-scriptitemize">ScriptItemize</a>.
 
 ## -struct-fields
 
 ### -field uDefaultLanguage
 
-Primary <a href="https://docs.microsoft.com/windows/desktop/Intl/language-identifiers">language identifier</a> for the language to use when Unicode values are ambiguous. This value is used in numeric processing to select digit shape when the <b>fDigitSubstitute</b> member of <a href="/windows/win32/api/usp10/ns-usp10-script_state">SCRIPT_STATE</a> is set.
+Primary <a href="/windows/desktop/Intl/language-identifiers">language identifier</a> for the language to use when Unicode values are ambiguous. This value is used in numeric processing to select digit shape when the <b>fDigitSubstitute</b> member of <a href="/windows/win32/api/usp10/ns-usp10-script_state">SCRIPT_STATE</a> is set.
 
 ### -field fContextDigits
 
@@ -93,7 +93,7 @@ Choose national digits according to the value of the <b>uDefaultLanguage</b> mem
 
 ### -field fInvertPreBoundDir
 
-Value indicating if the initial context is set to the opposite of the base embedding level, or to the base embedding level itself. Possible values are defined in the following table. The application sets this member to indicate that text at the start of the string defaults to being laid out as if it follows a strong left-to-right character if the base <a href="https://docs.microsoft.com/windows/desktop/Intl/uniscribe-glossary">embedding level</a> is 0, and as if it follows a strong right-to-left character if the base embedding level is 1. This member is used for <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getcharacterplacementa">GetCharacterPlacement</a> legacy support.
+Value indicating if the initial context is set to the opposite of the base embedding level, or to the base embedding level itself. Possible values are defined in the following table. The application sets this member to indicate that text at the start of the string defaults to being laid out as if it follows a strong left-to-right character if the base <a href="/windows/desktop/Intl/uniscribe-glossary">embedding level</a> is 0, and as if it follows a strong right-to-left character if the base embedding level is 1. This member is used for <a href="/windows/desktop/api/wingdi/nf-wingdi-getcharacterplacementa">GetCharacterPlacement</a> legacy support.
 
 <table>
 <tr>
@@ -124,7 +124,7 @@ Set the initial context to the base embedding level.
 
 ### -field fInvertPostBoundDir
 
-Value indicating if the final context is set to the opposite of the base embedding level, or to the base embedding level itself. Possible values are defined in the following table. The application sets this member to indicate that text at the end of the string defaults to being laid out as if it precedes strong text of the same direction as the base embedding level. It is used for <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getcharacterplacementa">GetCharacterPlacement</a> legacy support.
+Value indicating if the final context is set to the opposite of the base embedding level, or to the base embedding level itself. Possible values are defined in the following table. The application sets this member to indicate that text at the end of the string defaults to being laid out as if it precedes strong text of the same direction as the base embedding level. It is used for <a href="/windows/desktop/api/wingdi/nf-wingdi-getcharacterplacementa">GetCharacterPlacement</a> legacy support.
 
 <table>
 <tr>
@@ -376,7 +376,7 @@ Reserved; always initialize to 0.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/digit-shapes">Digit Shapes</a>
+<a href="/windows/desktop/Intl/digit-shapes">Digit Shapes</a>
 
 
 
@@ -384,13 +384,12 @@ Reserved; always initialize to 0.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/usp10/nf-usp10-scriptitemize">ScriptItemize</a>
+<a href="/windows/desktop/api/usp10/nf-usp10-scriptitemize">ScriptItemize</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/uniscribe">Uniscribe</a>
+<a href="/windows/desktop/Intl/uniscribe">Uniscribe</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/uniscribe-structures">Uniscribe Structures</a>
-
+<a href="/windows/desktop/Intl/uniscribe-structures">Uniscribe Structures</a>

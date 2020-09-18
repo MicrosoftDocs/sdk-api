@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Initializes an instance of an <a href="https://docs.microsoft.com/windows/desktop/api/wsdhost/nn-wsdhost-iwsddevicehost">IWSDDeviceHost</a> object, which is the host-side representation of a device.
+Initializes an instance of an <a href="/windows/desktop/api/wsdhost/nn-wsdhost-iwsddevicehost">IWSDDeviceHost</a> object, which is the host-side representation of a device.
 
 ## -parameters
 
@@ -63,7 +63,7 @@ If <i>pszLocalId</i> is a physical address (such as  URL prefixed by http or htt
 
 
 For secure communication, <i>pszLocalId</i> must be an URL prefixed by https, and the host will use the SSL/TLS protocol on the port specified in the URL.  The recommended port is port 5358, as this port is reserved for secure connections with WSDAPI.
-If no port is specified, then the host will use port 443. The host port must be configured with an SSL server certificate.  For more information about the configuration of host ports, see <a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpsetserviceconfiguration">HttpSetServiceConfiguration</a>.
+If no port is specified, then the host will use port 443. The host port must be configured with an SSL server certificate.  For more information about the configuration of host ports, see <a href="/windows/desktop/api/http/nf-http-httpsetserviceconfiguration">HttpSetServiceConfiguration</a>.
 
 
 Any URL (http or https) must be terminated with a trailing slash. The URL must  contain a valid IP address or hostname.
@@ -87,17 +87,17 @@ The following list shows some example values for <i>pszLocalId</i>. It is not a 
 
 ### -param pContext [in, optional]
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/wsdxml/nn-wsdxml-iwsdxmlcontext">IWSDXMLContext</a> interface that defines custom message types or namespaces.
+An <a href="/windows/desktop/api/wsdxml/nn-wsdxml-iwsdxmlcontext">IWSDXMLContext</a> interface that defines custom message types or namespaces.
 
 ### -param ppHostAddresses [in, optional]
 
-A single <a href="https://docs.microsoft.com/windows/desktop/api/wsdbase/nn-wsdbase-iwsdaddress">IWSDAddress</a> object or <a href="https://docs.microsoft.com/windows/desktop/api/wsdbase/nn-wsdbase-iwsdtransportaddress">IWSDTransportAddress</a> object. The objects provide information about specific addresses that the host should listen on.
+A single <a href="/windows/desktop/api/wsdbase/nn-wsdbase-iwsdaddress">IWSDAddress</a> object or <a href="/windows/desktop/api/wsdbase/nn-wsdbase-iwsdtransportaddress">IWSDTransportAddress</a> object. The objects provide information about specific addresses that the host should listen on.
 
 If <i>pszLocalId</i> contains a local address, the resulting behavior is a mapping between the logical address and the supplied physical address (instead of a mapping between the logical address and the default physical address).
 
 ### -param dwHostAddressCount [in, optional]
 
-The number of items in the <i>ppHostAddresses</i> array. If <i>ppHostAddresses</i> is an <a href="https://docs.microsoft.com/windows/desktop/api/wsdbase/nn-wsdbase-iwsdaddress">IWSDAddress</a> interface, count must be 1.
+The number of items in the <i>ppHostAddresses</i> array. If <i>ppHostAddresses</i> is an <a href="/windows/desktop/api/wsdbase/nn-wsdbase-iwsdaddress">IWSDAddress</a> interface, count must be 1.
 
 ## -returns
 
@@ -167,9 +167,8 @@ Initialization could not be completed.
 
 ## -remarks
 
-This method is called by <a href="https://docs.microsoft.com/windows/desktop/api/wsdhost/nf-wsdhost-wsdcreatedevicehost">WSDCreateDeviceHost</a> and need not normally be called directly by your code.
+This method is called by <a href="/windows/desktop/api/wsdhost/nf-wsdhost-wsdcreatedevicehost">WSDCreateDeviceHost</a> and need not normally be called directly by your code.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wsdhost/nn-wsdhost-iwsddevicehost">IWSDDeviceHost</a>
-
+<a href="/windows/desktop/api/wsdhost/nn-wsdhost-iwsddevicehost">IWSDDeviceHost</a>

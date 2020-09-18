@@ -51,15 +51,15 @@ api_name:
 
 ## -description
 
-The <code>IMemInputPin</code> interface delivers media data to an input pin. Input pins expose this interface if they use the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-imemallocator">IMemAllocator</a> interface to allocate buffers. When an output pin connects to an input pin, the output pin uses this interface to negotiate allocator requirements and deliver samples to the input pin.
+The <code>IMemInputPin</code> interface delivers media data to an input pin. Input pins expose this interface if they use the <a href="/windows/desktop/api/strmif/nn-strmif-imemallocator">IMemAllocator</a> interface to allocate buffers. When an output pin connects to an input pin, the output pin uses this interface to negotiate allocator requirements and deliver samples to the input pin.
 
 Applications typically do not use this interface.
 
-<b>Filter developers: </b>The <a href="https://docs.microsoft.com/windows/desktop/DirectShow/cbaseinputpin">CBaseInputPin</a> class implements this interface.
+<b>Filter developers: </b>The <a href="/windows/desktop/DirectShow/cbaseinputpin">CBaseInputPin</a> class implements this interface.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMemInputPin</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMemInputPin</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMemInputPin</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMemInputPin</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -74,7 +74,7 @@ The <b>IMemInputPin</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-imeminputpin-getallocator">GetAllocator</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-imeminputpin-getallocator">GetAllocator</a>
 </td>
 <td align="left" width="63%">
 Retrieves the memory allocator proposed by this pin.
@@ -83,7 +83,7 @@ Retrieves the memory allocator proposed by this pin.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-imeminputpin-getallocatorrequirements">GetAllocatorRequirements</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-imeminputpin-getallocatorrequirements">GetAllocatorRequirements</a>
 </td>
 <td align="left" width="63%">
 Retrieves allocator properties that are requested by the input pin.
@@ -92,7 +92,7 @@ Retrieves allocator properties that are requested by the input pin.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-imeminputpin-notifyallocator">NotifyAllocator</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-imeminputpin-notifyallocator">NotifyAllocator</a>
 </td>
 <td align="left" width="63%">
 Specifies an allocator for the connection.
@@ -101,7 +101,7 @@ Specifies an allocator for the connection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-imeminputpin-receive">Receive</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-imeminputpin-receive">Receive</a>
 </td>
 <td align="left" width="63%">
 Receives the next media sample in the stream.
@@ -110,16 +110,16 @@ Receives the next media sample in the stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-imeminputpin-receivecanblock">ReceiveCanBlock</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-imeminputpin-receivecanblock">ReceiveCanBlock</a>
 </td>
 <td align="left" width="63%">
-Determines whether calls to the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-imeminputpin-receive">Receive</a> method might block.
+Determines whether calls to the <a href="/windows/desktop/api/strmif/nf-strmif-imeminputpin-receive">Receive</a> method might block.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-imeminputpin-receivemultiple">ReceiveMultiple</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-imeminputpin-receivemultiple">ReceiveMultiple</a>
 </td>
 <td align="left" width="63%">
 Receives multiple samples in the stream.
@@ -127,4 +127,3 @@ Receives multiple samples in the stream.
 </td>
 </tr>
 </table>
-

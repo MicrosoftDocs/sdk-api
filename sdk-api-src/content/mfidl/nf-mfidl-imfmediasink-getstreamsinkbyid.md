@@ -61,7 +61,7 @@ Stream identifier of the stream sink.
 
 ### -param ppStreamSink [out]
 
-Receives a pointer to the stream's <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfstreamsink">IMFStreamSink</a> interface. The caller must release the interface.
+Receives a pointer to the stream's <a href="/windows/desktop/api/mfidl/nn-mfidl-imfstreamsink">IMFStreamSink</a> interface. The caller must release the interface.
 
 ## -returns
 
@@ -101,7 +101,7 @@ The stream identifier is not valid.
 </dl>
 </td>
 <td width="60%">
-The media sink's <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfmediasink-shutdown">Shutdown</a> method has been called.
+The media sink's <a href="/windows/desktop/api/mfidl/nf-mfidl-imfmediasink-shutdown">Shutdown</a> method has been called.
 
 </td>
 </tr>
@@ -109,15 +109,14 @@ The media sink's <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/n
 
 ## -remarks
 
-If you add a stream sink by calling the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfmediasink-addstreamsink">IMFMediaSink::AddStreamSink</a> method, the stream identifier is specified in the <i>dwStreamSinkIdentifier</i> parameter of that method. If the media sink has a fixed set of streams, the media sink assigns the stream identifiers.
+If you add a stream sink by calling the <a href="/windows/desktop/api/mfidl/nf-mfidl-imfmediasink-addstreamsink">IMFMediaSink::AddStreamSink</a> method, the stream identifier is specified in the <i>dwStreamSinkIdentifier</i> parameter of that method. If the media sink has a fixed set of streams, the media sink assigns the stream identifiers.
 
-To enumerate the streams by index number instead of stream identifier, call <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfmediasink-getstreamsinkbyindex">IMFMediaSink::GetStreamSinkByIndex</a>.
+To enumerate the streams by index number instead of stream identifier, call <a href="/windows/desktop/api/mfidl/nf-mfidl-imfmediasink-getstreamsinkbyindex">IMFMediaSink::GetStreamSinkByIndex</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfmediasink">IMFMediaSink</a>
+<a href="/windows/desktop/api/mfidl/nn-mfidl-imfmediasink">IMFMediaSink</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-sinks">Media Sinks</a>
-
+<a href="/windows/desktop/medfound/media-sinks">Media Sinks</a>

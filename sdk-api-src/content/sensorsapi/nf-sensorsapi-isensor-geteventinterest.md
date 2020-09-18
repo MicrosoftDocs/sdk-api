@@ -101,9 +101,8 @@ Each sensor event is represented by a <b>GUID</b>. This method returns the list 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sensorsapi/nn-sensorsapi-isensor">ISensor</a>
+<a href="/windows/desktop/api/sensorsapi/nn-sensorsapi-isensor">ISensor</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sensorsapi/nf-sensorsapi-isensor-seteventinterest">SetEventInterest</a>
-
+<a href="/windows/desktop/api/sensorsapi/nf-sensorsapi-isensor-seteventinterest">SetEventInterest</a>

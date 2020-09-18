@@ -54,7 +54,7 @@ Captures a snapshot of the current state of the CRM and holds a specific CRM cle
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICrmMonitor</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ICrmMonitor</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICrmMonitor</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ICrmMonitor</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ICrmMonitor</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-icrmmonitor-getclerks">GetClerks</a>
+<a href="/windows/desktop/api/comsvcs/nf-comsvcs-icrmmonitor-getclerks">GetClerks</a>
 </td>
 <td align="left" width="63%">
 Retrieves a clerk collection object, which is a snapshot of the current state of the clerks.
@@ -78,7 +78,7 @@ Retrieves a clerk collection object, which is a snapshot of the current state of
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-icrmmonitor-holdclerk">HoldClerk</a>
+<a href="/windows/desktop/api/comsvcs/nf-comsvcs-icrmmonitor-holdclerk">HoldClerk</a>
 </td>
 <td align="left" width="63%">
 Retrieves a pointer on the specified clerk.
@@ -89,9 +89,8 @@ Retrieves a pointer on the specified clerk.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/cossdk/com--compensating-resource-manager">COM+ Compensating Resource Manager</a>
+<a href="/windows/desktop/cossdk/com--compensating-resource-manager">COM+ Compensating Resource Manager</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-icrmmonitorclerks">ICrmMonitorClerks</a>
-
+<a href="/windows/desktop/api/comsvcs/nn-comsvcs-icrmmonitorclerks">ICrmMonitorClerks</a>

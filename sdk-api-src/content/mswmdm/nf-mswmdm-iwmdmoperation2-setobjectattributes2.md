@@ -57,7 +57,7 @@ The <b>SetObjectAttributes2</b> method sets attributes of files or storages. Thi
 
 ### -param dwAttributes [in]
 
-Pointer to a <b>DWORD</b> specifying the attributes as defined by the <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmstorage-setattributes">IWMDMStorage::SetAttributes</a> method.
+Pointer to a <b>DWORD</b> specifying the attributes as defined by the <a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmstorage-setattributes">IWMDMStorage::SetAttributes</a> method.
 
 ### -param dwAttributesEx [in]
 
@@ -65,11 +65,11 @@ Pointer to a <b>DWORD</b> specifying the attributes as defined by the <a href="h
 
 ### -param pFormat [in]
 
-Optional pointer to a <a href="https://docs.microsoft.com/windows/desktop/WMDM/-waveformatex">_WAVEFORMATEX</a> structure that specifies audio information about the object.
+Optional pointer to a <a href="/windows/desktop/WMDM/-waveformatex">_WAVEFORMATEX</a> structure that specifies audio information about the object.
 
 ### -param pVideoFormat [in]
 
-Optional pointer to a <a href="https://docs.microsoft.com/windows/desktop/WMDM/-videoinfoheader">_VIDEOINFOHEADER</a> structure that specifies video information about the object.
+Optional pointer to a <a href="/windows/desktop/WMDM/-videoinfoheader">_VIDEOINFOHEADER</a> structure that specifies video information about the object.
 
 ## -returns
 
@@ -117,9 +117,8 @@ An unspecified error occurred, and the read operation should be cancelled withou
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmoperation2-getobjectattributes2">GetObjectAttributes2</a>
+<a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmoperation2-getobjectattributes2">GetObjectAttributes2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmoperation2">IWMDMOperation2 Interface</a>
-
+<a href="/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmoperation2">IWMDMOperation2 Interface</a>

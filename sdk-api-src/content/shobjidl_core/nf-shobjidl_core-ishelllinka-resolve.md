@@ -84,7 +84,7 @@ Action flags. This parameter can be a combination of the following values.
 
 #### SLR_UPDATE (0x0004)
 
-0x0004. If the link object has changed, update its path and list of identifiers. If <b>SLR_UPDATE</b> is set, you do not need to call <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ipersistfile-isdirty">IPersistFile::IsDirty</a> to determine whether the link object has changed.
+0x0004. If the link object has changed, update its path and list of identifiers. If <b>SLR_UPDATE</b> is set, you do not need to call <a href="/windows/desktop/api/objidl/nf-objidl-ipersistfile-isdirty">IPersistFile::IsDirty</a> to determine whether the link object has changed.
 
 
 
@@ -138,7 +138,7 @@ Action flags. This parameter can be a combination of the following values.
 
 #### SLR_MACHINE_IN_LOCAL_TARGET (0x0800)
 
-0x0800. <b>Windows 7 and later</b>. Resolve the computer name in UNC targets that point to a local computer. This value is used with <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/ne-shlobj_core-shell_link_data_flags">SLDF_KEEP_LOCAL_IDLIST_FOR_UNC_TARGET</a>.
+0x0800. <b>Windows 7 and later</b>. Resolve the computer name in UNC targets that point to a local computer. This value is used with <a href="/windows/desktop/api/shlobj_core/ne-shlobj_core-shell_link_data_flags">SLDF_KEEP_LOCAL_IDLIST_FOR_UNC_TARGET</a>.
 
 
 
@@ -159,13 +159,12 @@ Following link creation, the name or location of the target may change. The <b>I
 <ul>
 <li>The <b>SLR_UPDATE</b> flag is set.</li>
 <li>The target has been moved or renamed, updating the internal state of the Shell link object to refer to the new target.</li>
-<li>The Shell link object was loaded from a file through <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ipersistfile">IPersistFile</a>.</li>
+<li>The Shell link object was loaded from a file through <a href="/windows/desktop/api/objidl/nn-objidl-ipersistfile">IPersistFile</a>.</li>
 </ul>
-The client can also call the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ipersistfile-isdirty">IPersistFile::IsDirty</a> method to determine whether the link object has changed and the file needs to be updated.
+The client can also call the <a href="/windows/desktop/api/objidl/nf-objidl-ipersistfile-isdirty">IPersistFile::IsDirty</a> method to determine whether the link object has changed and the file needs to be updated.
 
 <b>Resolve</b> has two approaches to finding target objects. The first is the distributed link tracking service. If the service is available, it can find an object that was on an NTFS version 5.0 volume and was moved to another location on that volume. It can also find an object that was moved to another NTFS version 5.0 volume, including volumes on other computers. To suppress the use of this service, set the <b>SLR_NOTRACK</b> flag.
 
 If distributed link tracking is not available or fails to find the link object, <b>Resolve</b> attempts to find it with search heuristics. It first looks in the object's last known directory for an object with a different name but the same attributes and file creation time. Next, it recursively searches subdirectories in the vicinity of the object's last known directory. It looks for an object with the same name or creation time. Finally, <b>Resolve</b> looks for a matching object on the desktop and other local volumes. To suppress the use of the search heuristics, set the <b>SLR_NOSEARCH</b> flag.
 
 If both approaches fail, the system will display a dialog box prompting the user for a location. To suppress the dialog box, set the <b>SLR_NO_UI</b> flag.
-

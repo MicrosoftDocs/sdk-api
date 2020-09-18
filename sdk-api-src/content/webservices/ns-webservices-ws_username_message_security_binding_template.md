@@ -60,7 +60,7 @@ The security binding template for specifying the use of an application
         security or message security binding that provides message protection.
       
 
-See also <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_username_message_security_binding">WS_USERNAME_MESSAGE_SECURITY_BINDING</a>
+See also <a href="/windows/desktop/api/webservices/ns-webservices-ws_username_message_security_binding">WS_USERNAME_MESSAGE_SECURITY_BINDING</a>
 
 ## -struct-fields
 
@@ -83,4 +83,3 @@ The validator to be used to check received username/password pairs.
 ### -field passwordValidatorCallbackState
 
 The optional state to be passed in as an argument when the username validator is invoked.
-

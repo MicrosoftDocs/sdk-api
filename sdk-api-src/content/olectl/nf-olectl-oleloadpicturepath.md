@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Creates a new picture object and initializes it from the contents of a stream. This is equivalent to calling <a href="https://docs.microsoft.com/windows/desktop/api/olectl/nf-olectl-olecreatepictureindirect">OleCreatePictureIndirect(NULL, ...)</a> followed by <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ipersiststream-load">IPersistStream::Load</a>.
+Creates a new picture object and initializes it from the contents of a stream. This is equivalent to calling <a href="/windows/desktop/api/olectl/nf-olectl-olecreatepictureindirect">OleCreatePictureIndirect(NULL, ...)</a> followed by <a href="/windows/desktop/api/objidl/nf-objidl-ipersiststream-load">IPersistStream::Load</a>.
 
 ## -parameters
 
@@ -60,7 +60,7 @@ The path or URL to the file you want to open.
 
 ### -param punkCaller [in]
 
-Points to <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> for COM aggregation.
+Points to <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> for COM aggregation.
 
 ### -param dwReserved [in]
 
@@ -76,7 +76,7 @@ Reference to the identifier of the interface describing the type of interface po
 
 ### -param ppvRet [out]
 
-Address of pointer variable that receives the interface pointer requested in riid. Upon successful return, *<i>ppvRet</i> contains the requested interface pointer on the storage of the object identified by the moniker. If *<i>ppvRet</i> is non-<b>NULL</b>, this function calls <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-addref">IUnknown::AddRef</a> on the interface; it is the caller's responsibility to call <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">IUnknown::Release</a>. If an error occurs, *<i>ppvRet</i> is set to <b>NULL</b>.
+Address of pointer variable that receives the interface pointer requested in riid. Upon successful return, *<i>ppvRet</i> contains the requested interface pointer on the storage of the object identified by the moniker. If *<i>ppvRet</i> is non-<b>NULL</b>, this function calls <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-addref">IUnknown::AddRef</a> on the interface; it is the caller's responsibility to call <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">IUnknown::Release</a>. If an error occurs, *<i>ppvRet</i> is set to <b>NULL</b>.
 
 ## -returns
 
@@ -141,5 +141,4 @@ The stream must be in BMP (bitmap), JPEG, WMF (metafile), ICO (icon), or GIF for
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/olectl/nf-olectl-oleloadpicture">OleLoadPicture</a>
-
+<a href="/windows/desktop/api/olectl/nf-olectl-oleloadpicture">OleLoadPicture</a>

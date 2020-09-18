@@ -68,9 +68,9 @@ A pointer to a <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> tha
 
 ### -param pfs [in]
 
-Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ns-shobjidl_core-foldersettings">FOLDERSETTINGS</a>*</b>
+Type: <b>const <a href="/windows/desktop/api/shobjidl_core/ns-shobjidl_core-foldersettings">FOLDERSETTINGS</a>*</b>
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ns-shobjidl_core-foldersettings">FOLDERSETTINGS</a> structure that determines how the folder will be displayed in the view. If this parameter is <b>NULL</b>, then you must call <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iexplorerbrowser-setfoldersettings">IExplorerBrowser::SetFolderSettings</a>; otherwise, the default view settings for the folder are used.
+A pointer to a <a href="/windows/desktop/api/shobjidl_core/ns-shobjidl_core-foldersettings">FOLDERSETTINGS</a> structure that determines how the folder will be displayed in the view. If this parameter is <b>NULL</b>, then you must call <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iexplorerbrowser-setfoldersettings">IExplorerBrowser::SetFolderSettings</a>; otherwise, the default view settings for the folder are used.
 
 ## -returns
 
@@ -80,5 +80,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -remarks
 
-After calling the <b>Initialize</b> method, it is the responsibility of the caller to call the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iexplorerbrowser-destroy">Destroy</a> method to destroy the browser and free any memory and windowed resources associated with the browser.
-
+After calling the <b>Initialize</b> method, it is the responsibility of the caller to call the <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iexplorerbrowser-destroy">Destroy</a> method to destroy the browser and free any memory and windowed resources associated with the browser.

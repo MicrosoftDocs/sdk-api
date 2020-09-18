@@ -54,23 +54,23 @@ api_name:
 
 ## -description
 
-Contains information about an <a href="https://docs.microsoft.com/windows/desktop/Controls/lvn-linkclick">LVN_LINKCLICK</a> notification code.
+Contains information about an <a href="/windows/desktop/Controls/lvn-linkclick">LVN_LINKCLICK</a> notification code.
 
 ## -struct-fields
 
 ### -field hdr
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a></b>
+Type: <b><a href="/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a></b>
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a> structure that contains basic information about the notification code.
+<a href="/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a> structure that contains basic information about the notification code.
 
 ### -field link
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-litem">LITEM</a></b>
+Type: <b><a href="/windows/desktop/api/commctrl/ns-commctrl-litem">LITEM</a></b>
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-litem">LITEM</a> structure that contains information about the link that was clicked.
+<a href="/windows/desktop/api/commctrl/ns-commctrl-litem">LITEM</a> structure that contains information about the link that was clicked.
 
 ### -field iItem
 
@@ -82,5 +82,4 @@ Index of the item that contains the link.
 
 Type: <b>int</b>
 
-Subitem, if any. This member may be <b>NULL</b>. For a link in a group header, this is the group identifier, as set in <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-lvgroup">LVGROUP</a>.
-
+Subitem, if any. This member may be <b>NULL</b>. For a link in a group header, this is the group identifier, as set in <a href="/windows/desktop/api/commctrl/ns-commctrl-lvgroup">LVGROUP</a>.

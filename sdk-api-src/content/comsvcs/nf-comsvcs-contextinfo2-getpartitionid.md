@@ -93,9 +93,8 @@ COM+ partitions are not enabled.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/cossdk/com--partitions">COM+ Partitions</a>
+<a href="/windows/desktop/cossdk/com--partitions">COM+ Partitions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-contextinfo2">ContextInfo2</a>
-
+<a href="/windows/desktop/api/comsvcs/nn-comsvcs-contextinfo2">ContextInfo2</a>

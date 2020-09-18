@@ -64,5 +64,4 @@ Returns <b>S_OK</b> if successful.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tsvirtualchannels/nn-tsvirtualchannels-iwtslistener">IWTSListener</a>
-
+<a href="/windows/desktop/api/tsvirtualchannels/nn-tsvirtualchannels-iwtslistener">IWTSListener</a>

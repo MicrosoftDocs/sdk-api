@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>IADsNameTranslate::InitEx</b> method initializes a name translate object by binding to a specified directory server, domain, or global catalog, using the specified user credential. To initialize the object without an explicit user credential, use  <a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadsnametranslate-init">IADsNameTranslate::Init</a>.
+The <b>IADsNameTranslate::InitEx</b> method initializes a name translate object by binding to a specified directory server, domain, or global catalog, using the specified user credential. To initialize the object without an explicit user credential, use  <a href="/windows/desktop/api/iads/nf-iads-iadsnametranslate-init">IADsNameTranslate::Init</a>.
 
 The <b>IADsNameTranslate::InitEx</b> method initializes the object by setting the server or domain that the object will point to and supplying a user credential.
 
@@ -82,12 +82,12 @@ Returns a standard <b>HRESULT</b> or RPC error code, including:
 
 ## -remarks
 
-After the successful initialization, use the name translate object to submit requests of name translations of directory objects. For more information see  <a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadsnametranslate-set">IADsNameTranslate::Set</a>,  <a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadsnametranslate-get">IADsNameTranslate::Get</a>,  <a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadsnametranslate-setex">IADsNameTranslate::SetEx</a>, or  <a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadsnametranslate-getex">IADsNameTranslate::GetEx</a>.
+After the successful initialization, use the name translate object to submit requests of name translations of directory objects. For more information see  <a href="/windows/desktop/api/iads/nf-iads-iadsnametranslate-set">IADsNameTranslate::Set</a>,  <a href="/windows/desktop/api/iads/nf-iads-iadsnametranslate-get">IADsNameTranslate::Get</a>,  <a href="/windows/desktop/api/iads/nf-iads-iadsnametranslate-setex">IADsNameTranslate::SetEx</a>, or  <a href="/windows/desktop/api/iads/nf-iads-iadsnametranslate-getex">IADsNameTranslate::GetEx</a>.
 
 
 #### Examples
 
-The following C/C++ code example uses the <b>IADsNameTranslate::InitEx</b> method to initialize an <a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsnametranslate">IADsNameTranslate</a> object before the distinguished name of a user object is rendered in the s format.
+The following C/C++ code example uses the <b>IADsNameTranslate::InitEx</b> method to initialize an <a href="/windows/desktop/api/iads/nn-iads-iadsnametranslate">IADsNameTranslate</a> object before the distinguished name of a user object is rendered in the s format.
 
 
 ```cpp
@@ -120,7 +120,7 @@ pNto->Release();
 ```
 
 
-The following Visual Basic code example uses the <b>IADsNameTranslate::InitEx</b> method to initialize an <a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsnametranslate">IADsNameTranslate</a> object in order to have the distinguished name of a user object rendered in the s user name format.
+The following Visual Basic code example uses the <b>IADsNameTranslate::InitEx</b> method to initialize an <a href="/windows/desktop/api/iads/nn-iads-iadsnametranslate">IADsNameTranslate</a> object in order to have the distinguished name of a user object rendered in the s user name format.
 
 
 ```vb
@@ -138,7 +138,7 @@ MsgBox "Name in the translated format: " & trans
 ```
 
 
-The following VBScript/ASP code example uses the <b>IADsNameTranslate::InitEx</b> method to initialize an <a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsnametranslate">IADsNameTranslate</a> object in order to have the distinguished name of a user object rendered in the s user name format.
+The following VBScript/ASP code example uses the <b>IADsNameTranslate::InitEx</b> method to initialize an <a href="/windows/desktop/api/iads/nn-iads-iadsnametranslate">IADsNameTranslate</a> object in order to have the distinguished name of a user object rendered in the s user name format.
 
 
 ```vb
@@ -176,21 +176,20 @@ The following VBScript/ASP code example uses the <b>IADsNameTranslate::InitEx</b
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsnametranslate">IADsNameTranslate</a>
+<a href="/windows/desktop/api/iads/nn-iads-iadsnametranslate">IADsNameTranslate</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadsnametranslate-get">IADsNameTranslate::Get</a>
+<a href="/windows/desktop/api/iads/nf-iads-iadsnametranslate-get">IADsNameTranslate::Get</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadsnametranslate-getex">IADsNameTranslate::GetEx</a>
+<a href="/windows/desktop/api/iads/nf-iads-iadsnametranslate-getex">IADsNameTranslate::GetEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadsnametranslate-set">IADsNameTranslate::Set</a>
+<a href="/windows/desktop/api/iads/nf-iads-iadsnametranslate-set">IADsNameTranslate::Set</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadsnametranslate-setex">IADsNameTranslate::SetEx</a>
-
+<a href="/windows/desktop/api/iads/nf-iads-iadsnametranslate-setex">IADsNameTranslate::SetEx</a>

@@ -88,9 +88,8 @@ This method currently only supports the parameters 1 or -1, so you can only step
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpcontrols2">IWMPControls2 Interface</a>
+<a href="/windows/desktop/api/wmp/nn-wmp-iwmpcontrols2">IWMPControls2 Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpdvd">IWMPDVD Interface</a>
-
+<a href="/windows/desktop/api/wmp/nn-wmp-iwmpdvd">IWMPDVD Interface</a>

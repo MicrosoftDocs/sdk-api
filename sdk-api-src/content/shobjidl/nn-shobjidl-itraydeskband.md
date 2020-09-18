@@ -54,7 +54,7 @@ Exposes methods that show, hide, and query deskbands.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITrayDeskBand</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITrayDeskBand</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITrayDeskBand</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITrayDeskBand</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ITrayDeskBand</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nf-shobjidl-itraydeskband-deskbandregistrationchanged">DeskBandRegistrationChanged</a>
+<a href="/windows/desktop/api/shobjidl/nf-shobjidl-itraydeskband-deskbandregistrationchanged">DeskBandRegistrationChanged</a>
 </td>
 <td align="left" width="63%">
 Refreshes the deskband registration cache.
@@ -78,7 +78,7 @@ Refreshes the deskband registration cache.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nf-shobjidl-itraydeskband-hidedeskband">HideDeskBand</a>
+<a href="/windows/desktop/api/shobjidl/nf-shobjidl-itraydeskband-hidedeskband">HideDeskBand</a>
 </td>
 <td align="left" width="63%">
 Hides a specified deskband.
@@ -87,7 +87,7 @@ Hides a specified deskband.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nf-shobjidl-itraydeskband-isdeskbandshown">IsDeskBandShown</a>
+<a href="/windows/desktop/api/shobjidl/nf-shobjidl-itraydeskband-isdeskbandshown">IsDeskBandShown</a>
 </td>
 <td align="left" width="63%">
 Indicates whether a deskband is shown.
@@ -96,7 +96,7 @@ Indicates whether a deskband is shown.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nf-shobjidl-itraydeskband-showdeskband">ShowDeskBand</a>
+<a href="/windows/desktop/api/shobjidl/nf-shobjidl-itraydeskband-showdeskband">ShowDeskBand</a>
 </td>
 <td align="left" width="63%">
 Shows a specified deskband.
@@ -104,4 +104,3 @@ Shows a specified deskband.
 </td>
 </tr>
 </table>
-

@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Stops a named <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/s-gly">service</a>. The <b>PRESUTIL_STOP_RESOURCE_SERVICE</b> type defines a pointer to this function.
+Stops a named <a href="/previous-versions/windows/desktop/mscs/s-gly">service</a>. The <b>PRESUTIL_STOP_RESOURCE_SERVICE</b> type defines a pointer to this function.
 
 ## -parameters
 
@@ -63,7 +63,7 @@ Null-terminated Unicode string containing the name of the service to stop.
 If the operation succeeds, the function returns <b>ERROR_SUCCESS</b>.
 
 If the operation fails, 
-the function returns a <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a>. The following is a possible error code.
+the function returns a <a href="/windows/desktop/Debug/system-error-codes">system error code</a>. The following is a possible error code.
 
 <table>
 <tr>
@@ -85,5 +85,4 @@ Service did not stop after a reasonable number of retries.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/resapi/nf-resapi-resutilstartresourceservice">ResUtilStartResourceService</a>
-
+<a href="/windows/desktop/api/resapi/nf-resapi-resutilstartresourceservice">ResUtilStartResourceService</a>

@@ -58,15 +58,15 @@ Defines a single value map entry.
 
 ### -field OutputOffset
 
-Offset from the beginning of the <a href="https://docs.microsoft.com/windows/desktop/api/tdh/ns-tdh-event_map_info">EVENT_MAP_INFO</a> structure to a null-terminated Unicode string that contains the string associated with the map value in <b>Value</b> or <b>InputOffset</b>.
+Offset from the beginning of the <a href="/windows/desktop/api/tdh/ns-tdh-event_map_info">EVENT_MAP_INFO</a> structure to a null-terminated Unicode string that contains the string associated with the map value in <b>Value</b> or <b>InputOffset</b>.
 
 ### -field Value
 
-If the <b>MapEntryValueType</b> member of <a href="https://docs.microsoft.com/windows/desktop/api/tdh/ns-tdh-event_map_info">EVENT_MAP_INFO</a>  is EVENTMAP_ENTRY_VALUETYPE_ULONG, use this member to access the map value.
+If the <b>MapEntryValueType</b> member of <a href="/windows/desktop/api/tdh/ns-tdh-event_map_info">EVENT_MAP_INFO</a>  is EVENTMAP_ENTRY_VALUETYPE_ULONG, use this member to access the map value.
 
 ### -field InputOffset
 
-Offset from the beginning of the <a href="https://docs.microsoft.com/windows/desktop/api/tdh/ns-tdh-event_map_info">EVENT_MAP_INFO</a> structure to the null-terminated Unicode string that contains the map value.
+Offset from the beginning of the <a href="/windows/desktop/api/tdh/ns-tdh-event_map_info">EVENT_MAP_INFO</a> structure to the null-terminated Unicode string that contains the map value.
 
 The offset is used for pattern maps and WMI value maps that map strings to strings.
 
@@ -76,5 +76,4 @@ For maps defined in a manifest, the string will contain a space at the end of th
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tdh/ns-tdh-event_map_info">EVENT_MAP_INFO</a>
-
+<a href="/windows/desktop/api/tdh/ns-tdh-event_map_info">EVENT_MAP_INFO</a>

@@ -52,7 +52,7 @@ api_name:
 ## -description
 
 The <b>StringFormat::GetMeasurableCharacterRangeCount</b> method gets the number of measurable character ranges that are currently set. The character ranges that are set can be measured in a string by using the 
-			<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-measurecharacterranges">MeasureCharacterRanges</a> method.
+			<a href="/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-measurecharacterranges">MeasureCharacterRanges</a> method.
 
 ## -parameters
 
@@ -60,17 +60,16 @@ The <b>StringFormat::GetMeasurableCharacterRangeCount</b> method gets the number
 
 Type: <b>INT</b>
 
-This method returns an integer that indicates the number of character ranges that can be measured by <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-measurecharacterranges">MeasureCharacterRanges</a>.
+This method returns an integer that indicates the number of character ranges that can be measured by <a href="/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-measurecharacterranges">MeasureCharacterRanges</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-measurecharacterranges">MeasureCharacterRanges</a>
+<a href="/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-measurecharacterranges">MeasureCharacterRanges</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusstringformat/nl-gdiplusstringformat-stringformat">StringFormat</a>
+<a href="/windows/desktop/api/gdiplusstringformat/nl-gdiplusstringformat-stringformat">StringFormat</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusstringformat/nf-gdiplusstringformat-stringformat-setmeasurablecharacterranges">StringFormat::SetMeasurableCharacterRanges</a>
-
+<a href="/windows/desktop/api/gdiplusstringformat/nf-gdiplusstringformat-stringformat-setmeasurablecharacterranges">StringFormat::SetMeasurableCharacterRanges</a>

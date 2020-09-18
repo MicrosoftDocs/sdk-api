@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>ObjectIdPublicKeyFlags</b> enumeration type specifies whether a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">public key</a> algorithm is used for signing or for <a href="https://docs.microsoft.com/windows/desktop/SecGloss/e-gly">encryption</a>. Some algorithms, such as <a href="https://docs.microsoft.com/windows/desktop/SecGloss/r-gly">RSA</a>, can be used for both purposes. This enumeration is used by the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-iobjectid-initializefromalgorithmname">InitializeFromAlgorithmName</a> method on the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-iobjectid">IObjectId</a> interface to narrow and disambiguate the algorithm search.
+The <b>ObjectIdPublicKeyFlags</b> enumeration type specifies whether a <a href="/windows/desktop/SecGloss/p-gly">public key</a> algorithm is used for signing or for <a href="/windows/desktop/SecGloss/e-gly">encryption</a>. Some algorithms, such as <a href="/windows/desktop/SecGloss/r-gly">RSA</a>, can be used for both purposes. This enumeration is used by the <a href="/windows/desktop/api/certenroll/nf-certenroll-iobjectid-initializefromalgorithmname">InitializeFromAlgorithmName</a> method on the <a href="/windows/desktop/api/certenroll/nn-certenroll-iobjectid">IObjectId</a> interface to narrow and disambiguate the algorithm search.
 
 ## -enum-fields
 
@@ -68,9 +68,8 @@ The algorithm is used for encryption.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/SecCertEnroll/certenroll-enumerations">CertEnroll Enumerations</a>
+<a href="/windows/desktop/SecCertEnroll/certenroll-enumerations">CertEnroll Enumerations</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-iobjectid-initializefromalgorithmname">InitializeFromAlgorithmName</a>
-
+<a href="/windows/desktop/api/certenroll/nf-certenroll-iobjectid-initializefromalgorithmname">InitializeFromAlgorithmName</a>

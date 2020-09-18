@@ -60,5 +60,4 @@ The value to be converted.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/inputdev/mouse-input">Mouse Input Overview</a>
-
+<a href="/windows/desktop/inputdev/mouse-input">Mouse Input Overview</a>

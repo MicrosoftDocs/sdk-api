@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Retrieves the file access mode that was used when the <a href="https://docs.microsoft.com/uwp/api/windows.storage.storagefile.openasync">StorageFile.OpenAsync</a> method was called to open the random-access byte stream.
+Retrieves the file access mode that was used when the <a href="/uwp/api/windows.storage.storagefile.openasync">StorageFile.OpenAsync</a> method was called to open the random-access byte stream.
 
 ## -parameters
 
 ### -param fileAccessMode [out]
 
-The file access mode that was used when the <a href="https://docs.microsoft.com/uwp/api/windows.storage.storagefile.openasync">StorageFile.OpenAsync</a> method was called to open the random-access byte stream. Cast this value as a <a href="https://docs.microsoft.com/uwp/api/Windows.Storage.FileAccessMode">Windows::Storage::FileAccessMode</a> enumeration value.
+The file access mode that was used when the <a href="/uwp/api/windows.storage.storagefile.openasync">StorageFile.OpenAsync</a> method was called to open the random-access byte stream. Cast this value as a <a href="/uwp/api/Windows.Storage.FileAccessMode">Windows::Storage::FileAccessMode</a> enumeration value.
 
 ## -returns
 
@@ -64,13 +64,12 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/windowsstoragecom/nn-windowsstoragecom-irandomaccessstreamfileaccessmode">IRandomAccessStreamFileAccessMode</a>
+<a href="/windows/desktop/api/windowsstoragecom/nn-windowsstoragecom-irandomaccessstreamfileaccessmode">IRandomAccessStreamFileAccessMode</a>
 
 
 
-<a href="https://docs.microsoft.com/uwp/api/windows.storage.storagefile.openasync">StorageFile.OpenAsync</a>
+<a href="/uwp/api/windows.storage.storagefile.openasync">StorageFile.OpenAsync</a>
 
 
 
-<a href="https://docs.microsoft.com/uwp/api/Windows.Storage.FileAccessMode">Windows::Storage::FileAccessMode</a>
-
+<a href="/uwp/api/Windows.Storage.FileAccessMode">Windows::Storage::FileAccessMode</a>

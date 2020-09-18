@@ -56,7 +56,7 @@ api_name:
 
 ## -description
 
-The <b>SecPkgContext_KeyingMaterialInfo</b> structure contains information about the exportable keying material in a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security context</a>.
+The <b>SecPkgContext_KeyingMaterialInfo</b> structure contains information about the exportable keying material in a <a href="/windows/desktop/SecGloss/s-gly">security context</a>.
 
 ## -struct-fields
 
@@ -84,4 +84,3 @@ The length, in bytes, of the keying material to be generated. Must be greater th
 #### - cbConextValue
 
 The length, in bytes, of the application context. Zero if application context is not provided by the caller.
-

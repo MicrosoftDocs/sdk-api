@@ -69,7 +69,7 @@ The <b>IDvbServiceDescriptor2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvbservicedescriptor2-getservicenamew">GetServiceNameW</a>
+<a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvbservicedescriptor2-getservicenamew">GetServiceNameW</a>
 </td>
 <td align="left" width="63%">
 Gets the service name from the DVB service descriptor.
@@ -78,7 +78,7 @@ Gets the service name from the DVB service descriptor.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvbservicedescriptor2-getserviceprovidernamew">GetServiceProviderNameW</a>
+<a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvbservicedescriptor2-getserviceprovidernamew">GetServiceProviderNameW</a>
 </td>
 <td align="left" width="63%">
 Gets the service provider name from the DVB service descriptor.
@@ -86,4 +86,3 @@ Gets the service provider name from the DVB service descriptor.
 </td>
 </tr>
 </table>
-

@@ -56,7 +56,7 @@ Creates an object that can be used to enumerate the current advisory connections
 
 ### -param ppenumAdvise [out]
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ienumstatdata">IEnumSTATDATA</a> pointer variable that receives the interface pointer to the new enumerator object. If the implementation sets *<i>ppenumAdvise</i> to <b>NULL</b>, there are no connections to advise sinks at this time.
+A pointer to an <a href="/windows/desktop/api/objidl/nn-objidl-ienumstatdata">IEnumSTATDATA</a> pointer variable that receives the interface pointer to the new enumerator object. If the implementation sets *<i>ppenumAdvise</i> to <b>NULL</b>, there are no connections to advise sinks at this time.
 
 ## -returns
 
@@ -93,20 +93,19 @@ Advisory notifications are not supported by this object.
 
 ## -remarks
 
-The enumerator object created by this method implements the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ienumstatdata">IEnumSTATDATA</a> interface. <b>IEnumSTATDATA</b> permits the enumeration of the data stored in an array of <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-statdata">STATDATA</a> structures. Each of these structures provides information on a single advisory connection, and includes <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-formatetc">FORMATETC</a> and <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ne-objidl-advf">ADVF</a> information, as well as the pointer to the advise sink and the token representing the connection.
+The enumerator object created by this method implements the <a href="/windows/desktop/api/objidl/nn-objidl-ienumstatdata">IEnumSTATDATA</a> interface. <b>IEnumSTATDATA</b> permits the enumeration of the data stored in an array of <a href="/windows/desktop/api/objidl/ns-objidl-statdata">STATDATA</a> structures. Each of these structures provides information on a single advisory connection, and includes <a href="/windows/desktop/api/objidl/ns-objidl-formatetc">FORMATETC</a> and <a href="/windows/desktop/api/objidl/ne-objidl-advf">ADVF</a> information, as well as the pointer to the advise sink and the token representing the connection.
 
 <h3><a id="Notes_to_Callers"></a><a id="notes_to_callers"></a><a id="NOTES_TO_CALLERS"></a>Notes to Callers</h3>
-It is recommended that you use the OLE data advise holder object to handle advisory connections. With the pointer obtained through a call to <a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-createdataadviseholder">CreateDataAdviseHolder</a>, implementing <b>IDataObject::EnumDAdvise</b> becomes a simple matter of delegating the call to <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-idataadviseholder-enumadvise">IDataAdviseHolder::EnumAdvise</a>. This creates the enumerator and supplies the pointer to the OLE implementation of <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ienumstatdata">IEnumSTATDATA</a>. At that point, you can call its methods to enumerate the current advisory connections.
+It is recommended that you use the OLE data advise holder object to handle advisory connections. With the pointer obtained through a call to <a href="/windows/desktop/api/ole2/nf-ole2-createdataadviseholder">CreateDataAdviseHolder</a>, implementing <b>IDataObject::EnumDAdvise</b> becomes a simple matter of delegating the call to <a href="/windows/desktop/api/objidl/nf-objidl-idataadviseholder-enumadvise">IDataAdviseHolder::EnumAdvise</a>. This creates the enumerator and supplies the pointer to the OLE implementation of <a href="/windows/desktop/api/objidl/nn-objidl-ienumstatdata">IEnumSTATDATA</a>. At that point, you can call its methods to enumerate the current advisory connections.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-idataadviseholder-enumadvise">IDataAdviseHolder::EnumAdvise</a>
+<a href="/windows/desktop/api/objidl/nf-objidl-idataadviseholder-enumadvise">IDataAdviseHolder::EnumAdvise</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a>
+<a href="/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ienumstatdata">IEnumSTATDATA</a>
-
+<a href="/windows/desktop/api/objidl/nn-objidl-ienumstatdata">IEnumSTATDATA</a>

@@ -52,22 +52,22 @@ api_name:
 
 This is a base interface. Use the following interfaces which inherit this interface:<ul>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-idiscformat2data">IDiscFormat2Data</a>
+<a href="/windows/desktop/api/imapi2/nn-imapi2-idiscformat2data">IDiscFormat2Data</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-idiscformat2erase">IDiscFormat2Erase</a>
+<a href="/windows/desktop/api/imapi2/nn-imapi2-idiscformat2erase">IDiscFormat2Erase</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-idiscformat2trackatonce">IDiscFormat2TrackAtOnce</a>
+<a href="/windows/desktop/api/imapi2/nn-imapi2-idiscformat2trackatonce">IDiscFormat2TrackAtOnce</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-idiscformat2rawcd">IDiscFormat2RawCD</a>
+<a href="/windows/desktop/api/imapi2/nn-imapi2-idiscformat2rawcd">IDiscFormat2RawCD</a>
 </li>
 </ul>
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDiscFormat2</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IDiscFormat2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDiscFormat2</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IDiscFormat2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -82,7 +82,7 @@ The <b>IDiscFormat2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2-get_mediaheuristicallyblank">get_MediaHeuristicallyBlank</a>
+<a href="/windows/desktop/api/imapi2/nf-imapi2-idiscformat2-get_mediaheuristicallyblank">get_MediaHeuristicallyBlank</a>
 </td>
 <td align="left" width="63%">
 Attempts to determine if the media is blank using heuristics (mainly for DVD+RW and DVD-RAM media).
@@ -91,7 +91,7 @@ Attempts to determine if the media is blank using heuristics (mainly for DVD+RW 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2-get_mediaphysicallyblank">get_MediaPhysicallyBlank</a>
+<a href="/windows/desktop/api/imapi2/nf-imapi2-idiscformat2-get_mediaphysicallyblank">get_MediaPhysicallyBlank</a>
 </td>
 <td align="left" width="63%">
 Determines if the current media is reported as physically blank by the drive.
@@ -100,7 +100,7 @@ Determines if the current media is reported as physically blank by the drive.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2-get_supportedmediatypes">get_SupportedMediaTypes</a>
+<a href="/windows/desktop/api/imapi2/nf-imapi2-idiscformat2-get_supportedmediatypes">get_SupportedMediaTypes</a>
 </td>
 <td align="left" width="63%">
 Retrieves the media types that the recorder supports.
@@ -109,7 +109,7 @@ Retrieves the media types that the recorder supports.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2-iscurrentmediasupported">IsCurrentMediaSupported</a>
+<a href="/windows/desktop/api/imapi2/nf-imapi2-idiscformat2-iscurrentmediasupported">IsCurrentMediaSupported</a>
 </td>
 <td align="left" width="63%">
 Determines if the current media in a supported recorder supports the given format.
@@ -118,7 +118,7 @@ Determines if the current media in a supported recorder supports the given forma
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2-isrecordersupported">IsRecorderSupported</a>
+<a href="/windows/desktop/api/imapi2/nf-imapi2-idiscformat2-isrecordersupported">IsRecorderSupported</a>
 </td>
 <td align="left" width="63%">
 Determines if the recorder supports the given format.
@@ -126,4 +126,3 @@ Determines if the recorder supports the given format.
 </td>
 </tr>
 </table>
-

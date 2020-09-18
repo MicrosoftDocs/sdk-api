@@ -57,14 +57,14 @@ api_name:
 
 ## -description
 
-The <b>AddAccessDeniedObjectAce</b> function adds an access-denied <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">access control entry</a> (ACE) to the end of a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/d-gly">discretionary access control list</a> (DACL). The new ACE can deny access to an object, or to a property set or property on an object. You can also use <b>AddAccessDeniedObjectAce</b> to add an ACE that only a specified type of child object can inherit.
+The <b>AddAccessDeniedObjectAce</b> function adds an access-denied <a href="/windows/desktop/SecGloss/a-gly">access control entry</a> (ACE) to the end of a <a href="/windows/desktop/SecGloss/d-gly">discretionary access control list</a> (DACL). The new ACE can deny access to an object, or to a property set or property on an object. You can also use <b>AddAccessDeniedObjectAce</b> to add an ACE that only a specified type of child object can inherit.
 
 ## -parameters
 
 ### -param pAcl [in, out]
 
 A pointer to a DACL. The <b>AddAccessDeniedObjectAce</b> function adds an access-denied ACE to the end of this DACL. The ACE is in the form of an 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-access_denied_object_ace">ACCESS_DENIED_OBJECT_ACE</a> structure.
+<a href="/windows/desktop/api/winnt/ns-winnt-access_denied_object_ace">ACCESS_DENIED_OBJECT_ACE</a> structure.
 
 ### -param dwAceRevision [in]
 
@@ -73,7 +73,7 @@ Specifies the revision level of the DACL being modified. This value must be ACL_
 ### -param AceFlags [in]
 
 A set of bit flags that control ACE inheritance. The function sets these flags in the <b>AceFlags</b> member of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-ace_header">ACE_HEADER</a> structure of the new ACE. This parameter can be a combination of the following values.
+<a href="/windows/desktop/api/winnt/ns-winnt-ace_header">ACE_HEADER</a> structure of the new ACE. This parameter can be a combination of the following values.
 
 <table>
 <tr>
@@ -96,7 +96,7 @@ The ACE is inherited by container objects.
 </dl>
 </td>
 <td width="60%">
-The ACE does not apply to the object to which the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">access control list</a> (ACL) is assigned, but it can be inherited by child objects.
+The ACE does not apply to the object to which the <a href="/windows/desktop/SecGloss/a-gly">access control list</a> (ACL) is assigned, but it can be inherited by child objects.
 
 </td>
 </tr>
@@ -135,7 +135,7 @@ The ACE is inherited by noncontainer objects.
 ### -param AccessMask [in]
 
 A set of bit flags that use the 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/access-mask">ACCESS_MASK</a> format to specify the access rights that the new ACE denies to the specified <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security identifier</a> (SID).
+<a href="/windows/desktop/SecAuthZ/access-mask">ACCESS_MASK</a> format to specify the access rights that the new ACE denies to the specified <a href="/windows/desktop/SecGloss/s-gly">security identifier</a> (SID).
 
 ### -param ObjectTypeGuid [in, optional]
 
@@ -149,14 +149,14 @@ A pointer to a <a href="/windows/win32/api/guiddef/ns-guiddef-guid">GUID</a> str
 ### -param pSid [in]
 
 A pointer to a 
-SID  that identifies the user, group, or <a href="https://docs.microsoft.com/windows/desktop/SecGloss/l-gly">logon session</a> to which the new ACE allows access.
+SID  that identifies the user, group, or <a href="/windows/desktop/SecGloss/l-gly">logon session</a> to which the new ACE allows access.
 
 ## -returns
 
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. The following are possible error values.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. The following are possible error values.
 
 <table>
 <tr>
@@ -234,40 +234,40 @@ The ACE was successfully added.
 ## -remarks
 
 If both <i>ObjectTypeGuid</i> and <i>InheritedObjectTypeGuid</i> are <b>NULL</b>, use the 
-<a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-addaccessdeniedaceex">AddAccessDeniedAceEx</a> function rather than <b>AddAccessDeniedObjectAce</b>. This is suggested because an 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-access_denied_ace">ACCESS_DENIED_ACE</a> is smaller and more efficient than an 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-access_denied_object_ace">ACCESS_DENIED_OBJECT_ACE</a>.
+<a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-addaccessdeniedaceex">AddAccessDeniedAceEx</a> function rather than <b>AddAccessDeniedObjectAce</b>. This is suggested because an 
+<a href="/windows/desktop/api/winnt/ns-winnt-access_denied_ace">ACCESS_DENIED_ACE</a> is smaller and more efficient than an 
+<a href="/windows/desktop/api/winnt/ns-winnt-access_denied_object_ace">ACCESS_DENIED_OBJECT_ACE</a>.
 
 Although the <b>AddAccessDeniedObjectAce</b> function adds the new ACE to the end of the ACL, access-denied ACEs should appear at the beginning of an ACL. The caller must ensure that ACEs are added to the DACL in the correct order. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/order-of-aces-in-a-dacl">Order of ACEs in a DACL</a>.
+<a href="/windows/desktop/SecAuthZ/order-of-aces-in-a-dacl">Order of ACEs in a DACL</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-access_denied_ace">ACCESS_DENIED_ACE</a>
+<a href="/windows/desktop/api/winnt/ns-winnt-access_denied_ace">ACCESS_DENIED_ACE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-access_denied_object_ace">ACCESS_DENIED_OBJECT_ACE</a>
+<a href="/windows/desktop/api/winnt/ns-winnt-access_denied_object_ace">ACCESS_DENIED_OBJECT_ACE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/access-mask">ACCESS_MASK</a>
+<a href="/windows/desktop/SecAuthZ/access-mask">ACCESS_MASK</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-ace_header">ACE_HEADER</a>
+<a href="/windows/desktop/api/winnt/ns-winnt-ace_header">ACE_HEADER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-addaccessallowedobjectace">AddAccessAllowedObjectAce</a>
+<a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-addaccessallowedobjectace">AddAccessAllowedObjectAce</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-addaccessdeniedaceex">AddAccessDeniedAceEx</a>
+<a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-addaccessdeniedaceex">AddAccessDeniedAceEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-addauditaccessobjectace">AddAuditAccessObjectAce</a>
+<a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-addauditaccessobjectace">AddAuditAccessObjectAce</a>
 
 
 
@@ -275,9 +275,8 @@ Although the <b>AddAccessDeniedObjectAce</b> function adds the new ACE to the en
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/low-level-access-control">Low-level Access Control</a>
+<a href="/windows/desktop/SecAuthZ/low-level-access-control">Low-level Access Control</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/authorization-functions">Low-level Access Control Functions</a>
-
+<a href="/windows/desktop/SecAuthZ/authorization-functions">Low-level Access Control Functions</a>

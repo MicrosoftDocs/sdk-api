@@ -53,8 +53,8 @@ api_name:
 ## -description
 
 Used by the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-setclusterserviceaccountpassword">SetClusterServiceAccountPassword</a> 
-    function to return the results of a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-service">Cluster service</a> user 
+    <a href="/windows/desktop/api/clusapi/nf-clusapi-setclusterserviceaccountpassword">SetClusterServiceAccountPassword</a> 
+    function to return the results of a <a href="/previous-versions/windows/desktop/mscs/cluster-service">Cluster service</a> user 
     account password change for each cluster node.
 
 ## -struct-fields
@@ -70,4 +70,3 @@ If <b>TRUE</b>, indicates that the password change was attempted on this node.
 ### -field ReturnStatus
 
 An error code describing the results of the password change.
-

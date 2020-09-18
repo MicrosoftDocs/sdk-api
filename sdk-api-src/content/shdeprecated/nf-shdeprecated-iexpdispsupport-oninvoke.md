@@ -105,9 +105,9 @@ The member is changed by a reference assignment, rather than a value assignment.
 
 ### -param pdispparams
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/oaidl/ns-oaidl-dispparams">DISPPARAMS</a>*</b>
+Type: <b><a href="/windows/desktop/api/oaidl/ns-oaidl-dispparams">DISPPARAMS</a>*</b>
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/oaidl/ns-oaidl-dispparams">DISPPARAMS</a> structure containing an array of arguments, an array of argument DISPIDs for named arguments, and counts for the number of elements in the arrays.
+A pointer to a <a href="/windows/desktop/api/oaidl/ns-oaidl-dispparams">DISPPARAMS</a> structure containing an array of arguments, an array of argument DISPIDs for named arguments, and counts for the number of elements in the arrays.
 
 ### -param pVarResult
 
@@ -125,7 +125,7 @@ A pointer to a structure that contains exception information. This structure sho
 
 Type: <b>UINT*</b>
 
-The index within the <b>rgvarg</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/oaidl/ns-oaidl-dispparams">DISPPARAMS</a> structure of the first argument that has an error. Arguments are stored in <b>rgvarg</b> in reverse order, so the first argument is the one with the highest index in the array. This parameter is returned only when the resulting return value is DISP_E_TYPEMISMATCH or DISP_E_PARAMNOTFOUND. This argument can be set to <b>NULL</b>.
+The index within the <b>rgvarg</b> member of the <a href="/windows/desktop/api/oaidl/ns-oaidl-dispparams">DISPPARAMS</a> structure of the first argument that has an error. Arguments are stored in <b>rgvarg</b> in reverse order, so the first argument is the one with the highest index in the array. This parameter is returned only when the resulting return value is DISP_E_TYPEMISMATCH or DISP_E_PARAMNOTFOUND. This argument can be set to <b>NULL</b>.
 
 ## -returns
 
@@ -135,5 +135,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -remarks
 
-For more information, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-idispatch-invoke">IDispatch::Invoke</a>.
-
+For more information, see <a href="/previous-versions/windows/desktop/api/oaidl/nf-oaidl-idispatch-invoke">IDispatch::Invoke</a>.

@@ -47,8 +47,8 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[The <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/chstring">CHString</a> class is part of the WMI Provider Framework which is now considered in final state, and no further development, enhancements, or updates will be available for non-security related issues affecting these libraries.
-The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/wmi_v2/windows-management-infrastructure">MI APIs</a> should be used for all new development.]
+<p class="CCE_Message">[The <a href="/windows/desktop/WmiSdk/chstring">CHString</a> class is part of the WMI Provider Framework which is now considered in final state, and no further development, enhancements, or updates will be available for non-security related issues affecting these libraries.
+The <a href="/previous-versions/windows/desktop/wmi_v2/windows-management-infrastructure">MI APIs</a> should be used for all new development.]
 
 Each of these constructors initializes a new **CHString** object with the specified data.
 
@@ -66,7 +66,7 @@ Enables you to construct a **CHString** string from a pointer to unsigned char.
 
 #### Examples
 
-The following code example shows the use of <a href="https://docs.microsoft.com/windows/desktop/api/chstring/nf-chstring-chstring-chstring(constchstring_)">CHString::CHString</a>:
+The following code example shows the use of <a href="/windows/desktop/api/chstring/nf-chstring-chstring-chstring(constchstring_)">CHString::CHString</a>:
 
 ```cpp
 CHString s1;                    // Empty string
@@ -81,4 +81,3 @@ CHString city = L"Philadelphia"; // NOT the assignment operator
 ```
 
 ## -see-also
-

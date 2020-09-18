@@ -63,7 +63,7 @@ The
 <b>IWbemClassObject::GetMethodQualifierSet</b> is used to retrieve the qualifier set for a particular method.
 
 This call is supported only if the current object is a CIM class definition. Method manipulation is not available from 
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nn-wbemcli-iwbemclassobject">IWbemClassObject</a> pointers, which point to CIM instances.
+<a href="/windows/desktop/api/wbemcli/nn-wbemcli-iwbemclassobject">IWbemClassObject</a> pointers, which point to CIM instances.
 
 ## -parameters
 
@@ -77,10 +77,9 @@ Receives the interface pointer that allows access to the qualifiers for the meth
 
 ## -returns
 
-This method returns an <b>HRESULT</b> indicating the status of the method call. The following list lists the value contained within an <b>HRESULT</b>. For general <b>HRESULT</b> values, see <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">System Error Codes</a>.
+This method returns an <b>HRESULT</b> indicating the status of the method call. The following list lists the value contained within an <b>HRESULT</b>. For general <b>HRESULT</b> values, see <a href="/windows/desktop/Debug/system-error-codes">System Error Codes</a>.
 
 ## -remarks
 
 Because each method may have its own qualifiers, use this call to retrieve the 
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nn-wbemcli-iwbemqualifierset">IWbemQualifierSet</a> pointer, which allows the caller to add, edit, or delete such qualifiers.
-
+<a href="/windows/desktop/api/wbemcli/nn-wbemcli-iwbemqualifierset">IWbemQualifierSet</a> pointer, which allows the caller to add, edit, or delete such qualifiers.

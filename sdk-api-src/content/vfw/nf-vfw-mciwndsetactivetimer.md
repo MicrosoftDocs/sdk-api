@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>MCIWndSetActiveTimer</b> macro sets the update period used by MCIWnd to update the trackbar in the MCIWnd window, update position information displayed in the window title bar, and send notification messages to the parent window when the MCIWnd window is active. You can use this macro or explicitly send the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/mciwndm-setactivetimer">MCIWNDM_SETACTIVETIMER</a> message.
+The <b>MCIWndSetActiveTimer</b> macro sets the update period used by MCIWnd to update the trackbar in the MCIWnd window, update position information displayed in the window title bar, and send notification messages to the parent window when the MCIWnd window is active. You can use this macro or explicitly send the <a href="/windows/desktop/Multimedia/mciwndm-setactivetimer">MCIWNDM_SETACTIVETIMER</a> message.
 
 ## -parameters
 
@@ -61,4 +61,3 @@ Handle of the MCIWnd window.
 ### -param active
 
 Update period, in milliseconds. The default is 500 milliseconds.
-

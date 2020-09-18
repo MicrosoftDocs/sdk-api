@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-Gets a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdateservice2">IUpdateService2</a> interface.  This property is the default property.
+Gets a pointer to an <a href="/windows/desktop/api/wuapi/nn-wuapi-iupdateservice2">IUpdateService2</a> interface.  This property is the default property.
 
 This property is read-only.
 
@@ -59,5 +59,4 @@ This property is read-only.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdateserviceregistration">IUpdateServiceRegistration</a>
-
+<a href="/windows/desktop/api/wuapi/nn-wuapi-iupdateserviceregistration">IUpdateServiceRegistration</a>

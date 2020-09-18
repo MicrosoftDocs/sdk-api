@@ -78,5 +78,4 @@ The initiator typically uses this measure of progress to update a thermometer ga
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/lwef/ireconcileinitiator">IReconcileInitiator</a>
-
+<a href="/windows/desktop/lwef/ireconcileinitiator">IReconcileInitiator</a>

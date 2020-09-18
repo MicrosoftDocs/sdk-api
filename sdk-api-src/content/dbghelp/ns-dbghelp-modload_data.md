@@ -79,7 +79,7 @@ The type of data. This member can be one of the following values.
 </td>
 <td width="60%">
 The <b>data</b> member is a buffer that contains an array of 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-image_debug_directory">IMAGE_DEBUG_DIRECTORY</a> structures.
+<a href="/windows/desktop/api/winnt/ns-winnt-image_debug_directory">IMAGE_DEBUG_DIRECTORY</a> structures.
 
 </td>
 </tr>
@@ -90,7 +90,7 @@ The <b>data</b> member is a buffer that contains an array of
 </dl>
 </td>
 <td width="60%">
-The <b>data</b> member is a buffer that contains an array of <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-modload_cvmisc">MODLOAD_CVMISC</a> structures.
+The <b>data</b> member is a buffer that contains an array of <a href="/windows/desktop/api/dbghelp/ns-dbghelp-modload_cvmisc">MODLOAD_CVMISC</a> structures.
 
 </td>
 </tr>
@@ -110,13 +110,12 @@ This member is unused.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-image_debug_directory">IMAGE_DEBUG_DIRECTORY</a>
+<a href="/windows/desktop/api/winnt/ns-winnt-image_debug_directory">IMAGE_DEBUG_DIRECTORY</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-modload_cvmisc">MODLOAD_CVMISC</a>
+<a href="/windows/desktop/api/dbghelp/ns-dbghelp-modload_cvmisc">MODLOAD_CVMISC</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-symloadmoduleex">SymLoadModuleEx</a>
-
+<a href="/windows/desktop/api/dbghelp/nf-dbghelp-symloadmoduleex">SymLoadModuleEx</a>

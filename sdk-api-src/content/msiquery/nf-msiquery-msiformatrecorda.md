@@ -85,15 +85,15 @@ The
 <b>MsiFormatRecord</b> function uses the following format process.
 
 Parameters that are to be 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/formatted">formatted</a> are enclosed in square brackets [...]. The square brackets can be iterated because the substitutions are resolved from the inside out.
+<a href="/windows/desktop/Msi/formatted">formatted</a> are enclosed in square brackets [...]. The square brackets can be iterated because the substitutions are resolved from the inside out.
 
 If a part of the string is enclosed in curly braces { } and contains no square brackets, it is left unchanged, including the curly braces.
 
 If a part of the string is enclosed in curly braces { } and contains one or more property names, and if all the properties are found, the text (with the resolved substitutions) is displayed without the curly braces. If any of the properties is not found, all the text in the braces and the braces themselves are removed.
 
 Note in the case of deferred execution custom actions, 
-<b>MsiFormatRecord</b> only supports <b>CustomActionData</b> and <a href="https://docs.microsoft.com/windows/desktop/Msi/productcode">ProductCode</a> properties. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/obtaining-context-information-for-deferred-execution-custom-actions">Obtaining Context Information for Deferred Execution Custom Actions</a>.
+<b>MsiFormatRecord</b> only supports <b>CustomActionData</b> and <a href="/windows/desktop/Msi/productcode">ProductCode</a> properties. For more information, see 
+<a href="/windows/desktop/Msi/obtaining-context-information-for-deferred-execution-custom-actions">Obtaining Context Information for Deferred Execution Custom Actions</a>.
 
 The following steps describe how to format strings using the 
 <b>MsiFormatRecord</b> function:
@@ -109,17 +109,17 @@ The resultant string is processed by replacing the nonrecord parameters with the
 <li>If a substring of the form "[propertyname]" is encountered, it is replaced by the value of the property.</li>
 <li>If a substring of the form "[%environmentvariable]" is found, the value of the environment variable is substituted.</li>
 <li>If a substring of the form" [#<i>filekey</i>]" is found, it is replaced by the full path of the file, with the value <i>filekey</i> used as a key into the 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/file-table">File table</a>. The value of "[#<i>filekey</i>]" remains blank and is not replaced by a path until the installer runs the 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/costinitialize-action">CostInitialize action</a>, 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/filecost-action">FileCost action</a>, and 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/costfinalize-action">CostFinalize action</a>. The value of "[#<i>filekey</i>]" depends upon the installation state of the component to which the file belongs. If the component is being run from source, the value is the path to the source location of the file. If the component is being run locally, the value is the path to the target location of the file after installation. If the component is absent, the path is blank. For more information about checking the installation state of components, see 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/checking-the-installation-of-features-components-files">Checking the Installation of Features, Components, Files</a>.</li>
+<a href="/windows/desktop/Msi/file-table">File table</a>. The value of "[#<i>filekey</i>]" remains blank and is not replaced by a path until the installer runs the 
+<a href="/windows/desktop/Msi/costinitialize-action">CostInitialize action</a>, 
+<a href="/windows/desktop/Msi/filecost-action">FileCost action</a>, and 
+<a href="/windows/desktop/Msi/costfinalize-action">CostFinalize action</a>. The value of "[#<i>filekey</i>]" depends upon the installation state of the component to which the file belongs. If the component is being run from source, the value is the path to the source location of the file. If the component is being run locally, the value is the path to the target location of the file after installation. If the component is absent, the path is blank. For more information about checking the installation state of components, see 
+<a href="/windows/desktop/Msi/checking-the-installation-of-features-components-files">Checking the Installation of Features, Components, Files</a>.</li>
 <li>If a substring of the form "[$<i>componentkey</i>]" is found, it is replaced by the install directory of the component, with the value <i>componentkey</i> used as a key into the 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/component-table">Component table</a>. The value of "[$<i>componentkey</i>]" remains blank and is not replaced by a directory until the installer runs the 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/costinitialize-action">CostInitialize action</a>, 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/filecost-action">FileCost action</a>, and 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/costfinalize-action">CostFinalize action</a>. The value of "[$<i>componentkey</i>]" depends upon the installation state of the component. If the component is being run from source, the value is the source directory of the file. If the component is being run locally, the value is the target directory after installation. If the component is absent, the value is left blank. For more information about checking the installation state of components, see 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/checking-the-installation-of-features-components-files">Checking the Installation of Features, Components, Files</a>.</li>
+<a href="/windows/desktop/Msi/component-table">Component table</a>. The value of "[$<i>componentkey</i>]" remains blank and is not replaced by a directory until the installer runs the 
+<a href="/windows/desktop/Msi/costinitialize-action">CostInitialize action</a>, 
+<a href="/windows/desktop/Msi/filecost-action">FileCost action</a>, and 
+<a href="/windows/desktop/Msi/costfinalize-action">CostFinalize action</a>. The value of "[$<i>componentkey</i>]" depends upon the installation state of the component. If the component is being run from source, the value is the source directory of the file. If the component is being run locally, the value is the target directory after installation. If the component is absent, the value is left blank. For more information about checking the installation state of components, see 
+<a href="/windows/desktop/Msi/checking-the-installation-of-features-components-files">Checking the Installation of Features, Components, Files</a>.</li>
 <li>Note that if a component is already installed, and is not being reinstalled, removed, or moved during the current installation, the action state of the component is null and therefore the string "[$componentkey]" evaluates to Null.</li>
 <li>If a substring of the form "[\c]" is found, it is replaced by the character without any further processing. Only the first character after the backslash is kept; everything else is removed.</li>
 </ul>
@@ -136,5 +136,4 @@ If <b>ERROR_MORE_DATA</b> is returned, the parameter which is a pointer gives th
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/passing-null-as-the-argument-of-windows-installer-functions">Passing Null as the Argument of Windows Installer Functions</a>
-
+<a href="/windows/desktop/Msi/passing-null-as-the-argument-of-windows-installer-functions">Passing Null as the Argument of Windows Installer Functions</a>

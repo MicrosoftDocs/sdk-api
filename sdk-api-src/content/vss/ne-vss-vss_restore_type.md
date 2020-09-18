@@ -86,16 +86,15 @@ A restore type not currently enumerated. This value indicates an application err
 ## -remarks
 
 A requester can optionally set the type of a restore operation using 
-    <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-setrestorestate">IVssBackupComponents::SetRestoreState</a>.
+    <a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-setrestorestate">IVssBackupComponents::SetRestoreState</a>.
 
 A writer can retrieve the type of a restore operation by calling 
-    <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-getrestoretype">CVssWriter::GetRestoreType</a>.
+    <a href="/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-getrestoretype">CVssWriter::GetRestoreType</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-getrestoretype">CVssWriter::GetRestoreType</a>
+<a href="/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-getrestoretype">CVssWriter::GetRestoreType</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-setrestorestate">IVssBackupComponents::SetRestoreState</a>
-
+<a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-setrestorestate">IVssBackupComponents::SetRestoreState</a>

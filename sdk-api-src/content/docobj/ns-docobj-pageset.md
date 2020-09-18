@@ -74,9 +74,8 @@ The number of page-range pairs specified in <b>rgPages</b>.
 
 ### -field rgPages
 
-Pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/docobj/ns-docobj-pagerange">PAGERANGE</a> structures specifying the pages to be printed. One or more page ranges can be specified, so long as the number of page ranges is the value of <b>cPageRange</b>. The page ranges must be sorted in ascending order and must be non-overlapping.
+Pointer to an array of <a href="/windows/desktop/api/docobj/ns-docobj-pagerange">PAGERANGE</a> structures specifying the pages to be printed. One or more page ranges can be specified, so long as the number of page ranges is the value of <b>cPageRange</b>. The page ranges must be sorted in ascending order and must be non-overlapping.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/docobj/ns-docobj-pagerange">PAGERANGE</a>
-
+<a href="/windows/desktop/api/docobj/ns-docobj-pagerange">PAGERANGE</a>

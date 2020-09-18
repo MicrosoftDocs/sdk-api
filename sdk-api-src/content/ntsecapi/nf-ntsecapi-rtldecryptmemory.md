@@ -50,10 +50,10 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[The <b>RtlDecryptMemory</b> function is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use the <a href="https://docs.microsoft.com/windows/desktop/api/dpapi/nf-dpapi-cryptunprotectmemory">CryptUnprotectMemory</a> function.]
+<p class="CCE_Message">[The <b>RtlDecryptMemory</b> function is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use the <a href="/windows/desktop/api/dpapi/nf-dpapi-cryptunprotectmemory">CryptUnprotectMemory</a> function.]
 
-The <b>RtlDecryptMemory</b> function decrypts memory contents previously encrypted by the <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-rtlencryptmemory">RtlEncryptMemory</a> function.
-<div class="alert"><b>Note</b>  This function has no associated import library. This function is available as a resource named <b>SystemFunction041</b> in Advapi32.dll. You must use the <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> and <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> functions to dynamically link to Advapi32.dll.</div><div> </div>
+The <b>RtlDecryptMemory</b> function decrypts memory contents previously encrypted by the <a href="/windows/desktop/api/ntsecapi/nf-ntsecapi-rtlencryptmemory">RtlEncryptMemory</a> function.
+<div class="alert"><b>Note</b>  This function has no associated import library. This function is available as a resource named <b>SystemFunction041</b> in Advapi32.dll. You must use the <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> and <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> functions to dynamically link to Advapi32.dll.</div><div> </div>
 
 ## -parameters
 
@@ -114,4 +114,3 @@ Use the same logon credentials to encrypt and decrypt memory in different proces
 If the function is successful, the return value is STATUS_SUCCESS.
 
 If the function fails, the return value is an <b>NTSTATUS</b> code that indicates the error.
-

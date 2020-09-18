@@ -60,7 +60,7 @@ Contains the hardware counter value.
 
 ### -field Type
 
-The type of hardware counter data collected. For possible values, see the <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ne-winnt-hardware_counter_type">HARDWARE_COUNTER_TYPE</a> enumeration.
+The type of hardware counter data collected. For possible values, see the <a href="/windows/desktop/api/winnt/ne-winnt-hardware_counter_type">HARDWARE_COUNTER_TYPE</a> enumeration.
 
 ### -field Reserved
 
@@ -72,9 +72,8 @@ The counter index. Each hardware counter in a processor's performance monitoring
 
 ## -remarks
 
-This structure is a member of the <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-performance_data">PERFORMANCE_DATA</a> structure.
+This structure is a member of the <a href="/windows/desktop/api/winnt/ns-winnt-performance_data">PERFORMANCE_DATA</a> structure.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-performance_data">PERFORMANCE_DATA</a>
-
+<a href="/windows/desktop/api/winnt/ns-winnt-performance_data">PERFORMANCE_DATA</a>

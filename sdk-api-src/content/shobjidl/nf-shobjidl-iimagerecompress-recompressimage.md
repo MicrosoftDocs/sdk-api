@@ -51,7 +51,7 @@ api_name:
 ## -description
 
 Recompresses an image. Implemented in an
-		<a href="https://docs.microsoft.com/windows/desktop/shell/known-folders">ImageRecompress</a> object, this method
+		<a href="/windows/desktop/shell/known-folders">ImageRecompress</a> object, this method
 		accepts x and y dimensions with a designation of quality. The method
 		creates a stream containing the new image that has been recompressed
 		to the	specified size.
@@ -60,7 +60,7 @@ Recompresses an image. Implemented in an
 
 ### -param psi [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a>*</b>
+Type: <b><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a>*</b>
 
 A pointer to the object containing the stream of the image to read.
 
@@ -84,16 +84,16 @@ An indication of recompression quality that can range from 0 to 100.
 
 ### -param pstg [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istorage">IStorage</a>*</b>
+Type: <b><a href="/windows/desktop/api/objidl/nn-objidl-istorage">IStorage</a>*</b>
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istorage">IStorage</a> interface on the
+A pointer to an <a href="/windows/desktop/api/objidl/nn-objidl-istorage">IStorage</a> interface on the
 				object that contains the stream to be written to.
 
 ### -param ppstrmOut [in, out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a>**</b>
+Type: <b><a href="/windows/desktop/api/objidl/nn-objidl-istream">IStream</a>**</b>
 
-The address of an <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a> interface pointer
+The address of an <a href="/windows/desktop/api/objidl/nn-objidl-istream">IStream</a> interface pointer
 				variable that receives the output stream written to.
 
 ## -returns
@@ -108,13 +108,12 @@ Returns S_OK if successful, or a COM-defined error code otherwise.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nn-shobjidl-iimagerecompress">IImageRecompress</a>
+<a href="/windows/desktop/api/shobjidl/nn-shobjidl-iimagerecompress">IImageRecompress</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a>
+<a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/shell/known-folders">ImageRecompress</a>
-
+<a href="/windows/desktop/shell/known-folders">ImageRecompress</a>

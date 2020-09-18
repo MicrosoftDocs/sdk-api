@@ -54,7 +54,7 @@ The <b>IFaxInboundRoutingMethods</b> interface defines a configuration collectio
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFaxInboundRoutingMethods</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IFaxInboundRoutingMethods</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFaxInboundRoutingMethods</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IFaxInboundRoutingMethods</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -70,19 +70,19 @@ The <b>IFaxInboundRoutingMethods</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/nf-faxcomex-ifaxinboundroutingmethods-get__newenum">get__NewEnum</a>
+<a href="/previous-versions/windows/desktop/api/faxcomex/nf-faxcomex-ifaxinboundroutingmethods-get__newenum">get__NewEnum</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/nf-faxcomex-ifaxinboundroutingmethods-get__newenum">IFaxInboundRoutingMethods::get__NewEnum</a> method returns a reference to an enumerator object that you can use to iterate through the <b>IFaxInboundRoutingMethods</b> collection.
+The <a href="/previous-versions/windows/desktop/api/faxcomex/nf-faxcomex-ifaxinboundroutingmethods-get__newenum">IFaxInboundRoutingMethods::get__NewEnum</a> method returns a reference to an enumerator object that you can use to iterate through the <b>IFaxInboundRoutingMethods</b> collection.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/nf-faxcomex-ifaxinboundroutingmethods-get_item">get_Item</a>
+<a href="/previous-versions/windows/desktop/api/faxcomex/nf-faxcomex-ifaxinboundroutingmethods-get_item">get_Item</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/nf-faxcomex-ifaxinboundroutingmethods-get_item">IFaxInboundRoutingMethods::get_Item</a> method returns a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxinboundroutingmethod">IFaxInboundRoutingMethod</a> object from the <b>IFaxInboundRoutingMethods</b> collection.
+The <a href="/previous-versions/windows/desktop/api/faxcomex/nf-faxcomex-ifaxinboundroutingmethods-get_item">IFaxInboundRoutingMethods::get_Item</a> method returns a <a href="/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxinboundroutingmethod">IFaxInboundRoutingMethod</a> object from the <b>IFaxInboundRoutingMethods</b> collection.
 
 </td>
 </tr>
@@ -97,7 +97,7 @@ The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fa
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxinboundroutingmethods-count-vb">Count</a>
+<a href="/previous-versions/windows/desktop/fax/-mfax-faxinboundroutingmethods-count-vb">Count</a>
 
 
 </td>
@@ -106,7 +106,7 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxinboundroutingmethods-count-vb">IFaxInboundRoutingMethods::get_Count</a> property represents the number of objects in the <b>IFaxInboundRoutingMethods</b> collection. This is the total number of inbound routing methods associated with the fax server.
+The <a href="/previous-versions/windows/desktop/fax/-mfax-faxinboundroutingmethods-count-vb">IFaxInboundRoutingMethods::get_Count</a> property represents the number of objects in the <b>IFaxInboundRoutingMethods</b> collection. This is the total number of inbound routing methods associated with the fax server.
 
 </td>
 </tr>
@@ -114,7 +114,6 @@ The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-m
 
 ## -remarks
 
-Each inbound routing method is represented by a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxinboundroutingmethod">IFaxInboundRoutingMethod</a> interface. The order of the routing methods in the collection determines the relative order in which the methods execute when an inbound fax requires routing.
+Each inbound routing method is represented by a <a href="/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxinboundroutingmethod">IFaxInboundRoutingMethod</a> interface. The order of the routing methods in the collection determines the relative order in which the methods execute when an inbound fax requires routing.
 
-A default implementation of <b>IFaxInboundRoutingMethods</b> is provided as the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxinboundroutingmethods">FaxInboundRoutingMethods</a> object.
-
+A default implementation of <b>IFaxInboundRoutingMethods</b> is provided as the <a href="/previous-versions/windows/desktop/fax/-mfax-faxinboundroutingmethods">FaxInboundRoutingMethods</a> object.

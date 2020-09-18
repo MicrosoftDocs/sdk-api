@@ -68,9 +68,8 @@ Display a delivery report in a message box on the display of a specific computer
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxdocument-receipttype-vb">IFaxDocument::get_ReceiptType</a>
+<a href="/previous-versions/windows/desktop/fax/-mfax-faxdocument-receipttype-vb">IFaxDocument::get_ReceiptType</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxoutgoingjob-receipttype-vb">IFaxOutgoingJob::get_ReceiptType</a>
-
+<a href="/previous-versions/windows/desktop/fax/-mfax-faxoutgoingjob-receipttype-vb">IFaxOutgoingJob::get_ReceiptType</a>

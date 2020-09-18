@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-The <b>NETSETUP_PROVISIONING_PARAMS</b> structure contains information that is used when creating a provisioning package using the  <a href="https://docs.microsoft.com/windows/desktop/api/lmjoin/nf-lmjoin-netcreateprovisioningpackage">NetCreateProvisionPackage</a> function.
+The <b>NETSETUP_PROVISIONING_PARAMS</b> structure contains information that is used when creating a provisioning package using the  <a href="/windows/desktop/api/lmjoin/nf-lmjoin-netcreateprovisioningpackage">NetCreateProvisionPackage</a> function.
 
 ## -struct-fields
 
@@ -166,7 +166,7 @@ This option is only valid when the <i>lpDcName</i> parameter is specified. When 
 <td width="60%">
 This option retrieves all of the root Certificate Authority certificates on the local machine and adds them to the provisioning package.
 
-<div class="alert"><b>Note</b>  This flag is only supported by the <a href="https://docs.microsoft.com/windows/desktop/api/lmjoin/nf-lmjoin-netcreateprovisioningpackage">NetCreateProvisioningPackage</a> function on Windows 8, Windows Server 2012, and later.</div>
+<div class="alert"><b>Note</b>  This flag is only supported by the <a href="/windows/desktop/api/lmjoin/nf-lmjoin-netcreateprovisioningpackage">NetCreateProvisioningPackage</a> function on Windows 8, Windows Server 2012, and later.</div>
 <div> </div>
 </td>
 </tr>
@@ -190,7 +190,7 @@ When <b>aMachinePolicyNames</b> is not <b>NULL</b>, this member provides an expl
 
 ### -field aMachinePolicyPaths
 
-A pointer to an array of  character strings. Each array element is a NULL-terminated character string which specifies the full or partial path to a file in the Registry Policy File format. For more information on the Registry Policy File Format , see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/Policy/registry-policy-file-format">Registry Policy File Format</a>
+A pointer to an array of  character strings. Each array element is a NULL-terminated character string which specifies the full or partial path to a file in the Registry Policy File format. For more information on the Registry Policy File Format , see <a href="/previous-versions/windows/desktop/Policy/registry-policy-file-format">Registry Policy File Format</a>
 
 
 This path could
@@ -217,7 +217,7 @@ A pointer to a <b>NULL</b>-terminated character string that specifies the short 
 
 ## -remarks
 
-The <b>NETSETUP_PROVISIONING_PARAMS</b> structure  provides flags for the <a href="https://docs.microsoft.com/windows/desktop/api/lmjoin/nf-lmjoin-netcreateprovisioningpackage">NetCreateProvisioningPackage</a> function which is supported on Windows 8 and  Windows Server 2012 for offline join operations.
+The <b>NETSETUP_PROVISIONING_PARAMS</b> structure  provides flags for the <a href="/windows/desktop/api/lmjoin/nf-lmjoin-netcreateprovisioningpackage">NetCreateProvisioningPackage</a> function which is supported on Windows 8 and  Windows Server 2012 for offline join operations.
 
 In addition to domain joins, the provisioning package can provide certificates and policies to the machine. The provisioning package can be used in four ways:<ul>
 <li>Domain join</li>
@@ -231,7 +231,7 @@ When certificates need to be added to the package, this structure provides the <
 
 There are two different ways to add policies. You can use one or both methods:<ul>
 <li>Policy name—An array of <b>NULL</b>-terminated policy names is provided in the <b>aMachinePolicyNames</b> member. During runtime, the policy name is mapped to the policy name in AD and the GUID that represents the policy in the enterprise space is retrieved. The <b>aMachinePolicyNames</b> member requires the <b>cMachinePolicyNames</b> member to provide an explicit count of the number of items in the array.</li>
-<li>Policy path—A pointer to an array of  <b>NULL</b>-terminated character strings provided in the <b>aMachinePolicyPaths</b> member which specify the path to a file in the Registry Policy File format. For more information on the Registry Policy File Format , see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/Policy/registry-policy-file-format">Registry Policy File Format</a>. The policy path is a full or relative path to the policy file.</li>
+<li>Policy path—A pointer to an array of  <b>NULL</b>-terminated character strings provided in the <b>aMachinePolicyPaths</b> member which specify the path to a file in the Registry Policy File format. For more information on the Registry Policy File Format , see <a href="/previous-versions/windows/desktop/Policy/registry-policy-file-format">Registry Policy File Format</a>. The policy path is a full or relative path to the policy file.</li>
 </ul>
 
 ## -see-also
@@ -240,39 +240,38 @@ There are two different ways to add policies. You can use one or both methods:<u
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmjoin/nf-lmjoin-netcreateprovisioningpackage">NetCreateProvisionPackage</a>
+<a href="/windows/desktop/api/lmjoin/nf-lmjoin-netcreateprovisioningpackage">NetCreateProvisionPackage</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmjoin/nf-lmjoin-netjoindomain">NetJoinDomain</a>
+<a href="/windows/desktop/api/lmjoin/nf-lmjoin-netjoindomain">NetJoinDomain</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmjoin/nf-lmjoin-netprovisioncomputeraccount">NetProvisionComputerAccount</a>
+<a href="/windows/desktop/api/lmjoin/nf-lmjoin-netprovisioncomputeraccount">NetProvisionComputerAccount</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmjoin/nf-lmjoin-netrenamemachineindomain">NetRenameMachineInDomain</a>
+<a href="/windows/desktop/api/lmjoin/nf-lmjoin-netrenamemachineindomain">NetRenameMachineInDomain</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmjoin/nf-lmjoin-netrequestofflinedomainjoin">NetRequestOfflineDomainJoin</a>
+<a href="/windows/desktop/api/lmjoin/nf-lmjoin-netrequestofflinedomainjoin">NetRequestOfflineDomainJoin</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmjoin/nf-lmjoin-netrequestprovisioningpackageinstall">NetRequestProvisioningPackageInstall</a>
+<a href="/windows/desktop/api/lmjoin/nf-lmjoin-netrequestprovisioningpackageinstall">NetRequestProvisioningPackageInstall</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmjoin/nf-lmjoin-netunjoindomain">NetUnjoinDomain</a>
+<a href="/windows/desktop/api/lmjoin/nf-lmjoin-netunjoindomain">NetUnjoinDomain</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management-functions">Network
+<a href="/windows/desktop/NetMgmt/network-management-functions">Network
 		  Management Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management">Network Management
+<a href="/windows/desktop/NetMgmt/network-management">Network Management
 		  Overview</a>
-

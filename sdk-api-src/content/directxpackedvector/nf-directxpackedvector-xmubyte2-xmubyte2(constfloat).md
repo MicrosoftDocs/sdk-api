@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Initializes a new instance of <a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmubyte2">XMUBYTE2</a> from a two-element <code>float</code> array argument.
+Initializes a new instance of <a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmubyte2">XMUBYTE2</a> from a two-element <code>float</code> array argument.
 
 This constructor initializes a new instance of **XMUBYTE2** from a two-element <code>float</code> array argument.
 
@@ -77,7 +77,6 @@ instance.y = (uint8_t)min( max( pArray[1] 0.0 ), 255.0 );
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmubyte2">XMUBYTE2</a>
+<a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmubyte2">XMUBYTE2</a>
 
-<a href="https://docs.microsoft.com/windows/desktop/dxmath/xmubyte2-ctor">XMUBYTE2 Constructors</a>
-
+<a href="/windows/desktop/dxmath/xmubyte2-ctor">XMUBYTE2 Constructors</a>

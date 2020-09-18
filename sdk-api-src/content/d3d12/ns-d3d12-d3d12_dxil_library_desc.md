@@ -66,7 +66,6 @@ The size of <i>pExports</i> array.  If 0, everything gets exported from the libr
 
 #### pExports
 
-Optional exports array.  For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_export_desc">D3D12_EXPORT_DESC</a>.
+Optional exports array.  For more information, see <a href="/windows/desktop/api/d3d12/ns-d3d12-d3d12_export_desc">D3D12_EXPORT_DESC</a>.
 
 ### -field pExports
-

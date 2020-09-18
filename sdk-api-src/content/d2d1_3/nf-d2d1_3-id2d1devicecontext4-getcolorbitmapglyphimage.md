@@ -59,20 +59,20 @@ Retrieves an image of the color bitmap glyph from the color glyph cache. If the
 
 ### -param glyphImageFormat
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dcommon/ne-dcommon-dwrite_glyph_image_formats">DWRITE_GLYPH_IMAGE_FORMATS</a></b>
+Type: <b><a href="/windows/desktop/api/dcommon/ne-dcommon-dwrite_glyph_image_formats">DWRITE_GLYPH_IMAGE_FORMATS</a></b>
 
 The format for the glyph image.
           If there is no image data in the requested format for the requested glyph, this method will return an error.
 
 ### -param glyphOrigin
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/Direct2D/d2d1-point-2f">D2D1_POINT_2F</a></b>
+Type: <b><a href="/windows/desktop/Direct2D/d2d1-point-2f">D2D1_POINT_2F</a></b>
 
 The origin for the glyph.
 
 ### -param fontFace [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwritefontface">IDWriteFontFace</a>*</b>
+Type: <b><a href="/windows/desktop/api/dwrite/nn-dwrite-idwritefontface">IDWriteFontFace</a>*</b>
 
 Reference to a font face which contains font face type, appropriate file references, face identification data and various font data such as metrics, names and glyph outlines.
 
@@ -96,7 +96,7 @@ If true, specifies that glyphs are rotated 90 degrees to the left and vertical m
 
 ### -param worldTransform [in, optional]
 
-Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/Direct2D/d2d1-matrix-3x2-f">D2D1_MATRIX_3X2_F</a>*</b>
+Type: <b>const <a href="/windows/desktop/Direct2D/d2d1-matrix-3x2-f">D2D1_MATRIX_3X2_F</a>*</b>
 
 The transform to apply to the image. This input transform affects the choice of which bitmap to use from the font. It is also factored into the output glyphTransform.
 
@@ -114,14 +114,14 @@ Dots per inch along the y-axis.
 
 ### -param glyphTransform [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/Direct2D/d2d1-matrix-3x2-f">D2D1_MATRIX_3X2_F</a>*</b>
+Type: <b><a href="/windows/desktop/Direct2D/d2d1-matrix-3x2-f">D2D1_MATRIX_3X2_F</a>*</b>
 
 Output transform, which transforms from the glyph's space to the same output space as the worldTransform. This includes the input
           glyphOrigin, the glyph's offset from the glyphOrigin, and any other required transformations.
 
 ### -param glyphImage [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1image">ID2D1Image</a>**</b>
+Type: <b><a href="/windows/desktop/api/d2d1/nn-d2d1-id2d1image">ID2D1Image</a>**</b>
 
 On completion contains the retrieved glyph image.
 
@@ -133,5 +133,4 @@ This method returns an HRESULT success or error code.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3/nn-d2d1_3-id2d1devicecontext4">ID2D1DeviceContext4</a>
-
+<a href="/windows/desktop/api/d2d1_3/nn-d2d1_3-id2d1devicecontext4">ID2D1DeviceContext4</a>

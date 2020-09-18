@@ -119,9 +119,8 @@ When looking at values in the registry that specify other registry locations, th
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getprivateprofileint">GetPrivateProfileInt</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-getprivateprofileint">GetPrivateProfileInt</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-writeprofilestringa">WriteProfileString</a>
-
+<a href="/windows/desktop/api/winbase/nf-winbase-writeprofilestringa">WriteProfileString</a>

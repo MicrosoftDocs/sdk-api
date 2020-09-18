@@ -66,7 +66,7 @@ Checks whether the specified address is within a memory-mapped file in the addre
 
 ### -param hProcess [in]
 
-A handle to the process. The handle must have the <b>PROCESS_QUERY_INFORMATION</b> access rightF. For more information, see <a href="https://docs.microsoft.com/windows/desktop/ProcThread/process-security-and-access-rights">Process Security and Access Rights</a>.
+A handle to the process. The handle must have the <b>PROCESS_QUERY_INFORMATION</b> access rightF. For more information, see <a href="/windows/desktop/ProcThread/process-security-and-access-rights">Process Security and Access Rights</a>.
 
 ### -param lpv [in]
 
@@ -85,7 +85,7 @@ The size of the <i>lpFilename</i> buffer, in characters.
 If the function succeeds, the return value specifies the length of the string copied to the buffer, in characters.
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
@@ -170,7 +170,7 @@ Yes
 #### Examples
 
 For an example, see 
-<a href="https://docs.microsoft.com/windows/desktop/Memory/obtaining-a-file-name-from-a-file-handle">Obtaining a File Name From a File Handle</a>.
+<a href="/windows/desktop/Memory/obtaining-a-file-name-from-a-file-handle">Obtaining a File Name From a File Handle</a>.
 
 <div class="code"></div>
 
@@ -182,13 +182,12 @@ For an example, see
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/psapi/nf-psapi-enumprocesses">EnumProcesses</a>
+<a href="/windows/desktop/api/psapi/nf-psapi-enumprocesses">EnumProcesses</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/psapi/memory-mapped-file-information">Memory-Mapped File Information</a>
+<a href="/windows/desktop/psapi/memory-mapped-file-information">Memory-Mapped File Information</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/psapi/psapi-functions">PSAPI Functions</a>
-
+<a href="/windows/desktop/psapi/psapi-functions">PSAPI Functions</a>

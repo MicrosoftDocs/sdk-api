@@ -60,13 +60,12 @@ The <b>CERT_LOGOTYPE_IMAGE</b> structure contains information about an image log
 
 ### -field LogotypeDetails
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_logotype_details">CERT_LOGOTYPE_DETAILS</a> structure that contains additional information about the image.
+A <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_logotype_details">CERT_LOGOTYPE_DETAILS</a> structure that contains additional information about the image.
 
 ### -field pLogotypeImageInfo
 
-The address of a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_logotype_image_info">CERT_LOGOTYPE_IMAGE_INFO</a> structure that contains the image information.
+The address of a <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_logotype_image_info">CERT_LOGOTYPE_IMAGE_INFO</a> structure that contains the image information.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_logotype_data">CERT_LOGOTYPE_DATA</a>
-
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_logotype_data">CERT_LOGOTYPE_DATA</a>

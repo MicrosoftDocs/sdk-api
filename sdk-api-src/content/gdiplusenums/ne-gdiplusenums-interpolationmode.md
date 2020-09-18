@@ -51,8 +51,8 @@ api_name:
 
 ## -description
 
-The <b>InterpolationMode</b> enumeration specifies the algorithm that is used when images are scaled or rotated. This enumeration is used by the <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-getinterpolationmode">Graphics::GetInterpolationMode</a> and <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-setinterpolationmode">Graphics::SetInterpolationMode</a> methods of the 
-			<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics">Graphics</a> class.
+The <b>InterpolationMode</b> enumeration specifies the algorithm that is used when images are scaled or rotated. This enumeration is used by the <a href="/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-getinterpolationmode">Graphics::GetInterpolationMode</a> and <a href="/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-setinterpolationmode">Graphics::SetInterpolationMode</a> methods of the 
+			<a href="/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics">Graphics</a> class.
 
 ## -enum-fields
 
@@ -94,9 +94,8 @@ Specifies high-quality, bicubic interpolation. Prefiltering is performed to ensu
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-getinterpolationmode">Graphics::GetInterpolationMode</a>
+<a href="/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-getinterpolationmode">Graphics::GetInterpolationMode</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-setinterpolationmode">Graphics::SetInterpolationMode</a>
-
+<a href="/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-setinterpolationmode">Graphics::SetInterpolationMode</a>

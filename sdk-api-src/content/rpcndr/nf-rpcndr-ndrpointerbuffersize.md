@@ -56,7 +56,7 @@ The <b>NdrPointerBufferSize</b> function computes the needed buffer size, in byt
 
 ### -param pStubMsg [in, out]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/rpcndr/ns-rpcndr-midl_stub_message">MIDL_STUB_MESSAGE</a> structure that maintains the current status of the RPC stub. The <b>BufferLength</b> member contains the size of the buffer. This structure is for internal use only and should not be modified.
+Pointer to a <a href="/windows/desktop/api/rpcndr/ns-rpcndr-midl_stub_message">MIDL_STUB_MESSAGE</a> structure that maintains the current status of the RPC stub. The <b>BufferLength</b> member contains the size of the buffer. This structure is for internal use only and should not be modified.
 
 ### -param pMemory [in]
 
@@ -91,4 +91,3 @@ Pointers embedded in structures, arrays, or unions call
     <b>NdrPointerBufferSize</b> directly. 
 
 Used for FC_RP, FC_UP, FC_FP, FC_OP format strings.
-

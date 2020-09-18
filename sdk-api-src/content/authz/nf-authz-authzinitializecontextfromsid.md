@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-The <b>AuthzInitializeContextFromSid</b> function creates a user-mode client context from a user <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security identifier</a> (SID). Domain SIDs retrieve token group attributes from the Active Directory. <div class="alert"><b>Note</b>  If possible, call the <a href="https://docs.microsoft.com/windows/desktop/api/authz/nf-authz-authzinitializecontextfromtoken">AuthzInitializeContextFromToken</a>  function instead of <b>AuthzInitializeContextFromSid</b>. For more information, see  Remarks.</div>
+The <b>AuthzInitializeContextFromSid</b> function creates a user-mode client context from a user <a href="/windows/desktop/SecGloss/s-gly">security identifier</a> (SID). Domain SIDs retrieve token group attributes from the Active Directory. <div class="alert"><b>Note</b>  If possible, call the <a href="/windows/desktop/api/authz/nf-authz-authzinitializecontextfromtoken">AuthzInitializeContextFromToken</a>  function instead of <b>AuthzInitializeContextFromSid</b>. For more information, see  Remarks.</div>
 <div> </div>
 
 ## -parameters
@@ -78,7 +78,7 @@ Default value.
 
 <b>AuthzInitializeContextFromSid</b> attempts to retrieve the user's token group information by performing an S4U logon.
 
-If S4U logon is not supported by the user's domain or the calling computer, <b>AuthzInitializeContextFromSid</b> queries the user's account object for group information. When an account is queried directly, some groups that represent logon characteristics, such as Network, Interactive, Anonymous, Network Service, or Local Service, are omitted. Applications can explicitly add such group SIDs by implementing the <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/authzcomputegroupscallback">AuthzComputeGroupsCallback</a> function or calling the <a href="https://docs.microsoft.com/windows/desktop/api/authz/nf-authz-authzaddsidstocontext">AuthzAddSidsToContext</a> function.
+If S4U logon is not supported by the user's domain or the calling computer, <b>AuthzInitializeContextFromSid</b> queries the user's account object for group information. When an account is queried directly, some groups that represent logon characteristics, such as Network, Interactive, Anonymous, Network Service, or Local Service, are omitted. Applications can explicitly add such group SIDs by implementing the <a href="/windows/desktop/SecAuthZ/authzcomputegroupscallback">AuthzComputeGroupsCallback</a> function or calling the <a href="/windows/desktop/api/authz/nf-authz-authzaddsidstocontext">AuthzAddSidsToContext</a> function.
 
 </td>
 </tr>
@@ -89,7 +89,7 @@ If S4U logon is not supported by the user's domain or the calling computer, <b>A
 </dl>
 </td>
 <td width="60%">
-Causes <b>AuthzInitializeContextFromSid</b> to skip all group evaluations. When this flag is used, the context returned contains only the SID specified by the <i>UserSid</i> parameter. The specified SID can be an arbitrary or application-specific SID. Other SIDs can be added to this context by implementing the <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/authzcomputegroupscallback">AuthzComputeGroupsCallback</a> function or by calling the <a href="https://docs.microsoft.com/windows/desktop/api/authz/nf-authz-authzaddsidstocontext">AuthzAddSidsToContext</a> function.
+Causes <b>AuthzInitializeContextFromSid</b> to skip all group evaluations. When this flag is used, the context returned contains only the SID specified by the <i>UserSid</i> parameter. The specified SID can be an arbitrary or application-specific SID. Other SIDs can be added to this context by implementing the <a href="/windows/desktop/SecAuthZ/authzcomputegroupscallback">AuthzComputeGroupsCallback</a> function or by calling the <a href="/windows/desktop/api/authz/nf-authz-authzaddsidstocontext">AuthzAddSidsToContext</a> function.
 
 </td>
 </tr>
@@ -127,7 +127,7 @@ The SID of the user for whom a client context will be created. This must be a va
 
 A handle to the resource manager creating this client context. This handle is stored in the client context structure. 
 
-Starting with Windows 8 and Windows Server 2012, the resource manager can be local or remote and is obtained by calling the <a href="https://docs.microsoft.com/windows/desktop/api/authz/nf-authz-authzinitializeremoteresourcemanager">AuthzInitializeRemoteResourceManager</a> function.
+Starting with Windows 8 and Windows Server 2012, the resource manager can be local or remote and is obtained by calling the <a href="/windows/desktop/api/authz/nf-authz-authzinitializeremoteresourcemanager">AuthzInitializeRemoteResourceManager</a> function.
 
 ### -param pExpirationTime [in]
 
@@ -145,37 +145,36 @@ Starting with Windows 8 and Windows Server 2012, this parameter must be  <b>NU
 
 ### -param phAuthzClientContext [out]
 
-A pointer to the handle to the client context that the <b>AuthzInitializeContextFromSid</b> function creates.  When you have finished using the handle, free it by calling the <a href="https://docs.microsoft.com/windows/desktop/api/authz/nf-authz-authzfreecontext">AuthzFreeContext</a> function.
+A pointer to the handle to the client context that the <b>AuthzInitializeContextFromSid</b> function creates.  When you have finished using the handle, free it by calling the <a href="/windows/desktop/api/authz/nf-authz-authzfreecontext">AuthzFreeContext</a> function.
 
 ## -returns
 
 If the function succeeds, the function returns nonzero.
 
 If the function fails, it returns zero. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
-If possible, call the <a href="https://docs.microsoft.com/windows/desktop/api/authz/nf-authz-authzinitializecontextfromtoken">AuthzInitializeContextFromToken</a>  function instead of <b>AuthzInitializeContextFromSid</b>. <b>AuthzInitializeContextFromSid</b> attempts to retrieve the information available in a logon token had the client actually logged on. An actual logon token provides more information, such as logon type and logon properties, and reflects the behavior of the authentication package used for the logon. The client context  created by <b>AuthzInitializeContextFromToken</b> uses a logon token, and the resulting client context is more complete and accurate than a client context created by <b>AuthzInitializeContextFromSid</b>.
+If possible, call the <a href="/windows/desktop/api/authz/nf-authz-authzinitializecontextfromtoken">AuthzInitializeContextFromToken</a>  function instead of <b>AuthzInitializeContextFromSid</b>. <b>AuthzInitializeContextFromSid</b> attempts to retrieve the information available in a logon token had the client actually logged on. An actual logon token provides more information, such as logon type and logon properties, and reflects the behavior of the authentication package used for the logon. The client context  created by <b>AuthzInitializeContextFromToken</b> uses a logon token, and the resulting client context is more complete and accurate than a client context created by <b>AuthzInitializeContextFromSid</b>.
 
 This function resolves valid user SIDs only.
 
 <b>Windows XP:  </b>This function resolves group memberships for valid user and group SIDs (unless the AUTHZ_SKIP_TOKEN_GROUPS flag is used). Support for resolving memberships of group SIDs may be altered or unavailable in subsequent versions.
 
-This function calls the  <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/authzcomputegroupscallback">AuthzComputeGroupsCallback</a> callback function to add SIDs to the newly created context.
+This function calls the  <a href="/windows/desktop/SecAuthZ/authzcomputegroupscallback">AuthzComputeGroupsCallback</a> callback function to add SIDs to the newly created context.
 
-<div class="alert"><b>Important</b>  Applications should not assume that the calling context has permission to use this function. The <b>AuthzInitializeContextFromSid</b> function reads the tokenGroupsGlobalAndUniversal attribute of the SID specified in the call to determine the current user's group memberships. If the user's object is in <a href="https://docs.microsoft.com/windows/desktop/AD/active-directory-domain-services">Active Directory</a>, the calling context must have read access to the tokenGroupsGlobalAndUniversal attribute on the user object. When a new domain is created, the default access compatibility selection is <b>Permissions compatible with Windows 2000 and Windows Server 2003 operating systems</b>. When this option is set, the  <b>Pre-Windows 2000 Compatible Access</b> group includes only the <b>Authenticated Users</b>  built-in security identifiers. Therefore, applications may not have access to the tokenGroupsGlobalAndUniversal attribute; in this case, the <b>AuthzInitializeContextFromSid</b> function  fails with ACCESS_DENIED. Applications that use this function should correctly handle this error and provide supporting documentation. To simplify granting accounts permission to query a user's group information, add accounts that need the ability to look up group information to the Windows Authorization Access Group.</div>
+<div class="alert"><b>Important</b>  Applications should not assume that the calling context has permission to use this function. The <b>AuthzInitializeContextFromSid</b> function reads the tokenGroupsGlobalAndUniversal attribute of the SID specified in the call to determine the current user's group memberships. If the user's object is in <a href="/windows/desktop/AD/active-directory-domain-services">Active Directory</a>, the calling context must have read access to the tokenGroupsGlobalAndUniversal attribute on the user object. When a new domain is created, the default access compatibility selection is <b>Permissions compatible with Windows 2000 and Windows Server 2003 operating systems</b>. When this option is set, the  <b>Pre-Windows 2000 Compatible Access</b> group includes only the <b>Authenticated Users</b>  built-in security identifiers. Therefore, applications may not have access to the tokenGroupsGlobalAndUniversal attribute; in this case, the <b>AuthzInitializeContextFromSid</b> function  fails with ACCESS_DENIED. Applications that use this function should correctly handle this error and provide supporting documentation. To simplify granting accounts permission to query a user's group information, add accounts that need the ability to look up group information to the Windows Authorization Access Group.</div>
 <div> </div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/allowing-anonymous-access">Allowing Anonymous Access</a>
+<a href="/windows/desktop/SecAuthZ/allowing-anonymous-access">Allowing Anonymous Access</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/authz/nf-authz-authzfreecontext">AuthzFreeContext</a>
+<a href="/windows/desktop/api/authz/nf-authz-authzfreecontext">AuthzFreeContext</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/authorization-functions">Basic Access Control Functions</a>
-
+<a href="/windows/desktop/SecAuthZ/authorization-functions">Basic Access Control Functions</a>

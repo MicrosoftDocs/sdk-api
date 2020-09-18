@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>ICDRAW</b> structure contains parameters for drawing video data to the screen. This structure is used with the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/icm-draw">ICM_DRAW</a> message.
+The <b>ICDRAW</b> structure contains parameters for drawing video data to the screen. This structure is used with the <a href="/windows/desktop/Multimedia/icm-draw">ICM_DRAW</a> message.
 
 ## -struct-fields
 
@@ -123,7 +123,7 @@ Updates the screen based on data previously received. In this case, <b>lpData</b
 
 ### -field lpFormat
 
-Pointer to a structure containing the data format. For video streams, this is a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-bitmapinfoheader">BITMAPINFOHEADER</a> structure.
+Pointer to a structure containing the data format. For video streams, this is a <a href="/windows/desktop/api/wingdi/ns-wingdi-bitmapinfoheader">BITMAPINFOHEADER</a> structure.
 
 ### -field lpData
 
@@ -139,13 +139,12 @@ Time, in samples, when this data should be drawn. For video data this is normall
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/icm-draw">ICM_DRAW</a>
+<a href="/windows/desktop/Multimedia/icm-draw">ICM_DRAW</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-compression-manager">Video Compression Manager</a>
+<a href="/windows/desktop/Multimedia/video-compression-manager">Video Compression Manager</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-compression-structures">Video Compression Structures</a>
-
+<a href="/windows/desktop/Multimedia/video-compression-structures">Video Compression Structures</a>

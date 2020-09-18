@@ -111,7 +111,7 @@ The preprocessor is neither waiting to be run nor stopped in the middle of a pas
 
 OR
 
-The preprocessor has already made as many passes as specified by <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriterpreprocess-setnumpreprocessingpasses">SetNumPreprocessingPasses</a>.
+The preprocessor has already made as many passes as specified by <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriterpreprocess-setnumpreprocessingpasses">SetNumPreprocessingPasses</a>.
 
 OR
 
@@ -125,9 +125,8 @@ The input specified is not supported for preprocessing.
 
 To successfully call <b>BeginPreprocessingPass</b>, the preprocessor must be set to make at least one preprocessing pass with a call to <b>SetNumPreprocessingPasses</b>.
 
-The writer must be activated by calling <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriter-beginwriting">IWMWriter::BeginWriting</a> before you can call this method.
+The writer must be activated by calling <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriter-beginwriting">IWMWriter::BeginWriting</a> before you can call this method.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwriterpreprocess">IWMWriterPreprocess Interface</a>
-
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwriterpreprocess">IWMWriterPreprocess Interface</a>

@@ -55,7 +55,7 @@ api_name:
 ## -description
 
 The <b>SecPkgContext_Sizes</b> structure indicates the sizes of important structures used in the message support functions. The 
-<a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-querycontextattributesa">QueryContextAttributes (General)</a> function uses this structure.
+<a href="/windows/desktop/api/sspi/nf-sspi-querycontextattributesa">QueryContextAttributes (General)</a> function uses this structure.
 
 ## -struct-fields
 
@@ -66,7 +66,7 @@ Specifies the maximum size of the security token used in the authentication exch
 ### -field cbMaxSignature
 
 Specifies the maximum size of the signature created by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-makesignature">MakeSignature</a> function. This member must be zero if <a href="https://docs.microsoft.com/windows/desktop/SecGloss/i-gly">integrity</a> services are not requested or available.
+<a href="/windows/desktop/api/sspi/nf-sspi-makesignature">MakeSignature</a> function. This member must be zero if <a href="/windows/desktop/SecGloss/i-gly">integrity</a> services are not requested or available.
 
 ### -field cbBlockSize
 
@@ -78,9 +78,8 @@ Size of the security trailer to be appended to messages. This member should be z
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-makesignature">MakeSignature</a>
+<a href="/windows/desktop/api/sspi/nf-sspi-makesignature">MakeSignature</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-querycontextattributesa">QueryContextAttributes (General)</a>
-
+<a href="/windows/desktop/api/sspi/nf-sspi-querycontextattributesa">QueryContextAttributes (General)</a>

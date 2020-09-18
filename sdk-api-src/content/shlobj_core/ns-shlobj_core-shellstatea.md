@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-Contains settings for the Shell's state. This structure is used with the <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetsetsettings">SHGetSetSettings</a> function.
+Contains settings for the Shell's state. This structure is used with the <a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetsetsettings">SHGetSetSettings</a> function.
 
 ## -struct-fields
 
@@ -246,4 +246,3 @@ Not used.
 
 > [!NOTE]
 > The shlobj_core.h header defines SHELLSTATE as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

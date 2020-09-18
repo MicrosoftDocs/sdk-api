@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-The <b>Progress3</b> method is called by Windows Media Device Manager to indicate the status of an action in progress. This method extends <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmprogress-progress">IWMDMProgress::Progress</a> by providing additional input parameters for the identification (ID) of the event and for a pointer to the context of the commands.
+The <b>Progress3</b> method is called by Windows Media Device Manager to indicate the status of an action in progress. This method extends <a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmprogress-progress">IWMDMProgress::Progress</a> by providing additional input parameters for the identification (ID) of the event and for a pointer to the context of the commands.
 
 ## -parameters
 
@@ -103,7 +103,7 @@ WMDM_SCP_DRMINFO_V2HEADER
 
 ### -param pContext [in, out]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/WMDM/opaquecommand">OPAQUECOMMAND</a> structure containing a command sent directly to the device without being handled by Windows Media Device Manager. This parameter is optional and can be <b>NULL</b>. If the event is SCP_EVENTID_DRMINFO, the data in this parameter will have the SCP_PARAMID_DRMVERSION GUID.
+Pointer to an <a href="/windows/desktop/WMDM/opaquecommand">OPAQUECOMMAND</a> structure containing a command sent directly to the device without being handled by Windows Media Device Manager. This parameter is optional and can be <b>NULL</b>. If the event is SCP_EVENTID_DRMINFO, the data in this parameter will have the SCP_PARAMID_DRMVERSION GUID.
 
 ## -returns
 
@@ -169,13 +169,12 @@ HRESULT Progress3(GUID  EventId, DWORD  dwTranspiredTicks, OPAQUECOMMAND*  pCont
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/WMDM/enabling-notifications">Enabling Notifications</a>
+<a href="/windows/desktop/WMDM/enabling-notifications">Enabling Notifications</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmprogress3">IWMDMProgress3 Interface</a>
+<a href="/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmprogress3">IWMDMProgress3 Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmprogress-progress">IWMDMProgress::Progress</a>
-
+<a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmprogress-progress">IWMDMProgress::Progress</a>

@@ -53,11 +53,11 @@ api_name:
 The 
 <b>ITTerminalManager2</b> interface exposes methods that retrieve information about pluggable terminal classes registered in the current system. 
 <b>ITTerminalManager2</b> is derived from the 
-<a href="https://docs.microsoft.com/windows/desktop/api/termmgr/nn-termmgr-itterminalmanager">ITTerminalManager</a> interface.
+<a href="/windows/desktop/api/termmgr/nn-termmgr-itterminalmanager">ITTerminalManager</a> interface.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITTerminalManager2</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ITTerminalManager2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITTerminalManager2</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ITTerminalManager2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,7 +72,7 @@ The <b>ITTerminalManager2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/termmgr/nf-termmgr-itterminalmanager2-getpluggablesuperclasses">GetPluggableSuperclasses</a>
+<a href="/windows/desktop/api/termmgr/nf-termmgr-itterminalmanager2-getpluggablesuperclasses">GetPluggableSuperclasses</a>
 </td>
 <td align="left" width="63%">
 Gets the public CLSIDs for all pluggable terminal superclasses in the registry.
@@ -81,7 +81,7 @@ Gets the public CLSIDs for all pluggable terminal superclasses in the registry.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/termmgr/nf-termmgr-itterminalmanager2-getpluggableterminalclasses">GetPluggableTerminalClasses</a>
+<a href="/windows/desktop/api/termmgr/nf-termmgr-itterminalmanager2-getpluggableterminalclasses">GetPluggableTerminalClasses</a>
 </td>
 <td align="left" width="63%">
 Gets the terminal classes for all pluggable terminals registered under a terminal superclass.
@@ -92,9 +92,8 @@ Gets the terminal classes for all pluggable terminals registered under a termina
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/termmgr/nn-termmgr-itterminalmanager">ITTerminalManager</a>
-
+<a href="/windows/desktop/api/termmgr/nn-termmgr-itterminalmanager">ITTerminalManager</a>

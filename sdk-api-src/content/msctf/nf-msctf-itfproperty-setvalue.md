@@ -56,11 +56,11 @@ Sets the value of the property for a range.
 
 ### -param ec [in]
 
-Contains an edit cookie that identifies the edit context. This is obtained from <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfdocumentmgr-createcontext">ITfDocumentMgr::CreateContext</a> or <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfeditsession-doeditsession">ITfEditSession::DoEditSession</a>.
+Contains an edit cookie that identifies the edit context. This is obtained from <a href="/windows/desktop/api/msctf/nf-msctf-itfdocumentmgr-createcontext">ITfDocumentMgr::CreateContext</a> or <a href="/windows/desktop/api/msctf/nf-msctf-itfeditsession-doeditsession">ITfEditSession::DoEditSession</a>.
 
 ### -param pRange [in]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfrange">ITfRange</a> interface that contains the range that the property value is set for. This parameter cannot be <b>NULL</b>. This method will fail if <i>pRange</i> is empty.
+Pointer to an <a href="/windows/desktop/api/msctf/nn-msctf-itfrange">ITfRange</a> interface that contains the range that the property value is set for. This parameter cannot be <b>NULL</b>. This method will fail if <i>pRange</i> is empty.
 
 ### -param pvarValue [in]
 
@@ -156,7 +156,7 @@ The TSF manager does not own the range.
 
 ## -remarks
 
-Property values set with this method will be discarded when the text that the property value covers is modified. To gain custom control over a value response to text edits, use <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfproperty-setvaluestore">ITfProperty::SetValueStore</a>.
+Property values set with this method will be discarded when the text that the property value covers is modified. To gain custom control over a value response to text edits, use <a href="/windows/desktop/api/msctf/nf-msctf-itfproperty-setvaluestore">ITfProperty::SetValueStore</a>.
 
 Values set with this method are serialized, except for values of type VT_UNKNOWN, which are not serialized. If a property value of type VT_UNKNOWN must be serialized, use <b>ITfProperty::SetValueStore</b> instead.
 
@@ -164,25 +164,24 @@ Overlapping property values of the same type are unsupported.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfdocumentmgr-createcontext">ITfDocumentMgr::CreateContext
+<a href="/windows/desktop/api/msctf/nf-msctf-itfdocumentmgr-createcontext">ITfDocumentMgr::CreateContext
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfeditsession-doeditsession">ITfEditSession::DoEditSession
+<a href="/windows/desktop/api/msctf/nf-msctf-itfeditsession-doeditsession">ITfEditSession::DoEditSession
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfproperty">ITfProperty</a>
+<a href="/windows/desktop/api/msctf/nn-msctf-itfproperty">ITfProperty</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfproperty-setvaluestore">ITfProperty::SetValueStore
+<a href="/windows/desktop/api/msctf/nf-msctf-itfproperty-setvaluestore">ITfProperty::SetValueStore
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfrange">ITfRange
+<a href="/windows/desktop/api/msctf/nn-msctf-itfrange">ITfRange
       </a>
-

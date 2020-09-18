@@ -60,15 +60,14 @@ A handle to the network address control.
 
 ### -param addrMask [in]
 
-Specifies the network address types as one or more of the <a href="https://docs.microsoft.com/windows/desktop/shell/net-string">NET_STRING</a> constants.
+Specifies the network address types as one or more of the <a href="/windows/desktop/shell/net-string">NET_STRING</a> constants.
 
 ## -remarks
 
-The mask set is the criterion used to validate a network address in the macro <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/nf-shellapi-netaddr_getaddress">NetAddr_GetAddress</a>.
+The mask set is the criterion used to validate a network address in the macro <a href="/windows/desktop/api/shellapi/nf-shellapi-netaddr_getaddress">NetAddr_GetAddress</a>.
 
-Use this macro for a network address control only. To instantiate, use the class <b>msctls_netaddress</b> defined in Shellapi.h. Call <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/nf-shellapi-initnetworkaddresscontrol">InitNetworkAddressControl</a> at run time before calling this macro. This initializes the common controls library that contains the network address control.
+Use this macro for a network address control only. To instantiate, use the class <b>msctls_netaddress</b> defined in Shellapi.h. Call <a href="/windows/desktop/api/shellapi/nf-shellapi-initnetworkaddresscontrol">InitNetworkAddressControl</a> at run time before calling this macro. This initializes the common controls library that contains the network address control.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shellapi/nf-shellapi-netaddr_getallowtype">NetAddr_GetAllowType</a>
-
+<a href="/windows/desktop/api/shellapi/nf-shellapi-netaddr_getallowtype">NetAddr_GetAllowType</a>

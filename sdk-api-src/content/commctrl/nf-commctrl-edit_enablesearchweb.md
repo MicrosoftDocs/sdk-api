@@ -52,7 +52,7 @@ api_name:
 
 <p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
 
-Enables or disables the "Search with Bing…" context menu item in edit controls. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/controls/em-enablesearchweb">EM_ENABLESEARCHWEB</a> message explicitly.
+Enables or disables the "Search with Bing…" context menu item in edit controls. You can use this macro or send the <a href="/windows/desktop/controls/em-enablesearchweb">EM_ENABLESEARCHWEB</a> message explicitly.
 
 ## -parameters
 
@@ -63,4 +63,3 @@ A handle to the edit control.
 ### -param enable
 
 <b>TRUE</b> to enable web search, or <b>FALSE</b> to disable it.
-

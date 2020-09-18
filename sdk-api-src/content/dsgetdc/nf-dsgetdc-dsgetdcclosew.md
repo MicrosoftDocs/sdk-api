@@ -57,7 +57,7 @@ The <b>DsGetDcClose</b>  function closes a domain controller enumeration operati
 
 ### -param GetDcContextHandle [in]
 
-Contains the domain controller enumeration context handle provided by the <a href="https://docs.microsoft.com/windows/desktop/api/dsgetdc/nf-dsgetdc-dsgetdcopena">DsGetDcOpen</a> function.
+Contains the domain controller enumeration context handle provided by the <a href="/windows/desktop/api/dsgetdc/nf-dsgetdc-dsgetdcopena">DsGetDcOpen</a> function.
 
 ## -returns
 
@@ -69,13 +69,12 @@ When this function is called, <i>GetDcContextHandle</i> is invalid and cannot be
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/AD/directory-service-functions">Directory Service Functions</a>
+<a href="/windows/desktop/AD/directory-service-functions">Directory Service Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dsgetdc/nf-dsgetdc-dsgetdcopena">DsGetDcOpen</a>
+<a href="/windows/desktop/api/dsgetdc/nf-dsgetdc-dsgetdcopena">DsGetDcOpen</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/AD/enumerating-domain-controllers">Enumerating Domain Controllers</a>
-
+<a href="/windows/desktop/AD/enumerating-domain-controllers">Enumerating Domain Controllers</a>

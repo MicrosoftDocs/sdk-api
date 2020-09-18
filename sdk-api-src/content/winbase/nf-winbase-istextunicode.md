@@ -251,9 +251,8 @@ The IS_TEXT_UNICODE_STATISTICS and IS_TEXT_UNICODE_REVERSE_STATISTICS tests use 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/unicode-and-character-set-functions">Unicode and Character Set Functions</a>
+<a href="/windows/desktop/Intl/unicode-and-character-set-functions">Unicode and Character Set Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/unicode-and-character-sets">Unicode and Character Sets</a>
-
+<a href="/windows/desktop/Intl/unicode-and-character-sets">Unicode and Character Sets</a>

@@ -105,9 +105,8 @@ Type: <b>HRESULT</b>
 
 If the function succeeds, it returns S_OK.
 
-If the function fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
+If the function fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 ## -remarks
 
 Applications creating an app container can use <b>NetworkIsolationSetupAppContainerBinaries</b> to provide third-party firewall applications with  the direct path to applications running inside that app container.
-

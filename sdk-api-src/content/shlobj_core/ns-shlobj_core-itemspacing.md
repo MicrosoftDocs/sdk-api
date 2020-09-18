@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-Stores the dimensions of the two possible sizes of icon spacing that are available for display: small and large. Used by <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-ishellfolderview-getitemspacing">IShellFolderView::GetItemSpacing</a>.
+Stores the dimensions of the two possible sizes of icon spacing that are available for display: small and large. Used by <a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-ishellfolderview-getitemspacing">IShellFolderView::GetItemSpacing</a>.
 
 ## -struct-fields
 
@@ -79,4 +79,3 @@ The width of the spacing between icons in large icon mode, in pixels.
 Type: <b>int</b>
 
 The height of the spacing between icons in large icon mode, in pixels.
-

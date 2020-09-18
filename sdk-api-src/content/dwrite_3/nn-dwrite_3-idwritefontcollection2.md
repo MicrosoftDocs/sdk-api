@@ -40,12 +40,11 @@ api_name:
 
 ## -description
 
-This interface encapsulates a set of fonts, such as the set of fonts installed on the system, or the set of fonts in a particular directory. The font collection API can be used to discover what font families and fonts are available, and to obtain some metadata about the fonts. **IDWriteFontCollection2** adds new facilities, including support for [IDWriteFontSet1](/windows/win32/api/dwrite_3/nn-dwrite_3-idwritefontset1).
+This interface encapsulates a set of fonts, such as the set of fonts installed on the system, or the set of fonts in a particular directory. The font collection API can be used to discover what font families and fonts are available, and to obtain some metadata about the fonts. **IDWriteFontCollection2** adds new facilities, including support for [IDWriteFontSet1](./nn-dwrite_3-idwritefontset1.md).
 
-This interface extends [IDWriteFontCollection1](/windows/win32/api/dwrite_3/nn-dwrite_3-idwritefontcollection1).
+This interface extends [IDWriteFontCollection1](./nn-dwrite_3-idwritefontcollection1.md).
 
 ## -see-also
 
-[IDWriteFontCollection1](/windows/win32/api/dwrite_3/nn-dwrite_3-idwritefontcollection1)
-[IDWriteFontSet1](/windows/win32/api/dwrite_3/nn-dwrite_3-idwritefontset1)
-
+[IDWriteFontCollection1](./nn-dwrite_3-idwritefontcollection1.md)
+[IDWriteFontSet1](./nn-dwrite_3-idwritefontset1.md)

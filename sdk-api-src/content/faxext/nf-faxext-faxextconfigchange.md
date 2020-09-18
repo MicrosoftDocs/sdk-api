@@ -63,7 +63,7 @@ Specifies a <b>DWORD</b> value that indicates the device for which the configura
 
 
 
-This parameter can be zero, indicating a change in the extension's global configuration data (configuration data that is not associated with a specific device). For more information, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-storing-global-configuration-data">Storing Global Configuration Data</a>.
+This parameter can be zero, indicating a change in the extension's global configuration data (configuration data that is not associated with a specific device). For more information, see <a href="/previous-versions/windows/desktop/fax/-mfax-storing-global-configuration-data">Storing Global Configuration Data</a>.
 
 ### -param lpcwstrDataGUID [in]
 
@@ -91,17 +91,16 @@ If the function succeeds, the return value is of the type <b>HRESULT</b>, and th
 
 ## -remarks
 
-The fax service calls this function after a change in device configuration data occurs. The fax service calls this function only if the fax extension has registered to receive notifications about configuration changes by calling the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxext/nf-faxext-faxextregisterforevents">FaxExtRegisterForEvents</a> function.
+The fax service calls this function after a change in device configuration data occurs. The fax service calls this function only if the fax extension has registered to receive notifications about configuration changes by calling the <a href="/previous-versions/windows/desktop/api/faxext/nf-faxext-faxextregisterforevents">FaxExtRegisterForEvents</a> function.
 
-If an extension registers to receive notifications about changes in configuration data, that extension does not receive notifications about new configuration values it sets itself. You can change a device's configuration data by calling the	<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxext/nf-faxext-faxextsetdata">FaxExtSetData</a> function. 
+If an extension registers to receive notifications about changes in configuration data, that extension does not receive notifications about new configuration values it sets itself. You can change a device's configuration data by calling the	<a href="/previous-versions/windows/desktop/api/faxext/nf-faxext-faxextsetdata">FaxExtSetData</a> function. 
 
-The fax extension DLL must register the <b>FaxExtConfigChange</b> callback function by passing its address to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxext/nf-faxext-faxextregisterforevents">FaxExtRegisterForEvents</a> callback function. The PFAX_EXT_CONFIG_CHANGE data type is a pointer to a <b>FaxExtConfigChange</b> function.
+The fax extension DLL must register the <b>FaxExtConfigChange</b> callback function by passing its address to the <a href="/previous-versions/windows/desktop/api/faxext/nf-faxext-faxextregisterforevents">FaxExtRegisterForEvents</a> callback function. The PFAX_EXT_CONFIG_CHANGE data type is a pointer to a <b>FaxExtConfigChange</b> function.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxext/nf-faxext-faxextregisterforevents">FaxExtRegisterForEvents</a>
+<a href="/previous-versions/windows/desktop/api/faxext/nf-faxext-faxextregisterforevents">FaxExtRegisterForEvents</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxext/nf-faxext-faxextsetdata">FaxExtSetData</a>
-
+<a href="/previous-versions/windows/desktop/api/faxext/nf-faxext-faxextsetdata">FaxExtSetData</a>

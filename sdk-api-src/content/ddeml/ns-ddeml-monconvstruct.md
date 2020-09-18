@@ -118,29 +118,28 @@ The <b>hConvClient</b> and <b>hConvServer</b> members of the <b>MONCONVSTRUCT</b
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/dataxchg/dynamic-data-exchange-management-library">Dynamic Data Exchange Management Library</a>
+<a href="/windows/desktop/dataxchg/dynamic-data-exchange-management-library">Dynamic Data Exchange Management Library</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ddeml/ns-ddeml-moncbstruct">MONCBSTRUCT</a>
+<a href="/windows/desktop/api/ddeml/ns-ddeml-moncbstruct">MONCBSTRUCT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ddeml/ns-ddeml-monerrstruct">MONERRSTRUCT</a>
+<a href="/windows/desktop/api/ddeml/ns-ddeml-monerrstruct">MONERRSTRUCT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ddeml/ns-ddeml-monhszstructa">MONHSZSTRUCT</a>
+<a href="/windows/desktop/api/ddeml/ns-ddeml-monhszstructa">MONHSZSTRUCT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ddeml/ns-ddeml-monlinkstruct">MONLINKSTRUCT</a>
+<a href="/windows/desktop/api/ddeml/ns-ddeml-monlinkstruct">MONLINKSTRUCT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ddeml/ns-ddeml-monmsgstruct">MONMSGSTRUCT</a>
+<a href="/windows/desktop/api/ddeml/ns-ddeml-monmsgstruct">MONMSGSTRUCT</a>
 
 
 
 <b>Reference</b>
-

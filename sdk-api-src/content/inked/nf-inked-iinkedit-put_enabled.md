@@ -55,7 +55,7 @@ api_name:
 
 ## -description
 
-Gets or sets a value that determines whether the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkedit-control-reference">InkEdit</a> control can respond to user-generated events.
+Gets or sets a value that determines whether the <a href="/windows/desktop/tablet/inkedit-control-reference">InkEdit</a> control can respond to user-generated events.
 
 
 This property is read/write.
@@ -72,5 +72,4 @@ The <b>Enabled</b> property allows objects to be enabled or disabled at run time
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/tablet/inkedit-control-reference">InkEdit</a>
-
+<a href="/windows/desktop/tablet/inkedit-control-reference">InkEdit</a>

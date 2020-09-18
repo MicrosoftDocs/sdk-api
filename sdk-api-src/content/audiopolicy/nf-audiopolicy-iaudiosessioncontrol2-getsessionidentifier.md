@@ -95,12 +95,11 @@ The audio session is disconnected on the default audio device.
 ## -remarks
 
  Each audio session is identified by an identifier string.  This session identifier string is not unique across all instances. If there are two
-    instances of the application playing, both instances will have the same session identifier. The identifier retrieved by <b>GetSessionIdentifier</b> is different from the session instance identifier, which is unique across all sessions. To get the session instance identifier, call <a href="https://docs.microsoft.com/windows/desktop/api/audiopolicy/nf-audiopolicy-iaudiosessioncontrol2-getsessioninstanceidentifier">IAudioSessionControl2::GetSessionInstanceIdentifier</a>.
+    instances of the application playing, both instances will have the same session identifier. The identifier retrieved by <b>GetSessionIdentifier</b> is different from the session instance identifier, which is unique across all sessions. To get the session instance identifier, call <a href="/windows/desktop/api/audiopolicy/nf-audiopolicy-iaudiosessioncontrol2-getsessioninstanceidentifier">IAudioSessionControl2::GetSessionInstanceIdentifier</a>.
 
 
 <b>GetSessionIdentifier</b> checks whether the session has been disconnected on the default device. It retrieves the identifier string that is cached by the audio client for the device. If the session identifier is not found, this method retrieves it from the audio engine.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/audiopolicy/nn-audiopolicy-iaudiosessioncontrol2">IAudioSessionControl2</a>
-
+<a href="/windows/desktop/api/audiopolicy/nn-audiopolicy-iaudiosessioncontrol2">IAudioSessionControl2</a>

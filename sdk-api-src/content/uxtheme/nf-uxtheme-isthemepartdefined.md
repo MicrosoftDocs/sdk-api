@@ -61,13 +61,13 @@ Retrieves whether a visual style has defined parameters for the specified part a
 
 Type: <b>HTHEME</b>
 
-Handle to a window's specified theme data. Use <a href="https://docs.microsoft.com/windows/desktop/api/uxtheme/nf-uxtheme-openthemedata">OpenThemeData</a> to create an HTHEME.
+Handle to a window's specified theme data. Use <a href="/windows/desktop/api/uxtheme/nf-uxtheme-openthemedata">OpenThemeData</a> to create an HTHEME.
 
 ### -param iPartId [in]
 
 Type: <b>int</b>
 
-Value of type <b>int</b> that specifies the part. See <a href="https://docs.microsoft.com/windows/desktop/Controls/parts-and-states">Parts and States</a>.
+Value of type <b>int</b> that specifies the part. See <a href="/windows/desktop/Controls/parts-and-states">Parts and States</a>.
 
 ### -param iStateId [in]
 
@@ -77,7 +77,7 @@ Currently unused. The value should be 0.
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
 
 Returns one of the following values.
 
@@ -109,4 +109,3 @@ The theme does not have defined parameters for the specified <i>iPartId</i> and 
 </td>
 </tr>
 </table>
-

@@ -66,7 +66,7 @@ The token (name) for the command.
 ### -field pfnCmdHandler
 
 A function that handles the command. For more information, see 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netsh/nc-netsh-fn_handle_cmd">FN_HANDLE_CMD</a>.
+<a href="/previous-versions/windows/desktop/api/netsh/nc-netsh-fn_handle_cmd">FN_HANDLE_CMD</a>.
 
 ### -field dwShortCmdHelpToken
 
@@ -79,12 +79,12 @@ The message to display if the command is followed only by a help token (HELP, /?
 ### -field dwFlags
 
 The flags for the command. For more information, see 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/netshell/netshell-flags">Netshell Flags</a>.
+<a href="/previous-versions/windows/desktop/netshell/netshell-flags">Netshell Flags</a>.
 
 ### -field pOsVersionCheck
 
 The operating system version check function. This is the function used to determine whether the command can be run on the operating system running on the local and/or remote context before invoking or displaying commands. For more information, see 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netsh/nc-netsh-ns_osversioncheck">NS_OSVERSIONCHECK</a>.
+<a href="/previous-versions/windows/desktop/api/netsh/nc-netsh-ns_osversioncheck">NS_OSVERSIONCHECK</a>.
 
 ## -remarks
 
@@ -153,13 +153,12 @@ CMD_ENTRY  g_SampleShowCmdTable[] =
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/netsh/ns-netsh-cmd_group_entry">CMD_GROUP_ENTRY</a>
+<a href="/windows/desktop/api/netsh/ns-netsh-cmd_group_entry">CMD_GROUP_ENTRY</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netsh/nc-netsh-ns_context_commit_fn">NS_CONTEXT_COMMIT_FN</a>
+<a href="/previous-versions/windows/desktop/api/netsh/nc-netsh-ns_context_commit_fn">NS_CONTEXT_COMMIT_FN</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/netshell/netshell-flags">NetShell Flags</a>
-
+<a href="/previous-versions/windows/desktop/netshell/netshell-flags">NetShell Flags</a>

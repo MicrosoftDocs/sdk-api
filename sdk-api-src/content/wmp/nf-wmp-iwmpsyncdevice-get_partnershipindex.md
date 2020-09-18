@@ -101,17 +101,16 @@ When <i>plIndex</i> equals zero, no partnership exists.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpsyncdevice">IWMPSyncDevice Interface</a>
+<a href="/windows/desktop/api/wmp/nn-wmp-iwmpsyncdevice">IWMPSyncDevice Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpsyncdevice-createpartnership">IWMPSyncDevice::createPartnership</a>
+<a href="/windows/desktop/api/wmp/nf-wmp-iwmpsyncdevice-createpartnership">IWMPSyncDevice::createPartnership</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpsyncdevice-deletepartnership">IWMPSyncDevice::deletePartnership</a>
+<a href="/windows/desktop/api/wmp/nf-wmp-iwmpsyncdevice-deletepartnership">IWMPSyncDevice::deletePartnership</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpsyncdevice-get_deviceid">IWMPSyncDevice::get_deviceId</a>
-
+<a href="/windows/desktop/api/wmp/nf-wmp-iwmpsyncdevice-get_deviceid">IWMPSyncDevice::get_deviceId</a>

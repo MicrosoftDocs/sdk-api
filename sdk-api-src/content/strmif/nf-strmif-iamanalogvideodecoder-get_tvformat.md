@@ -57,7 +57,7 @@ The <code>get_TVFormat</code> method retrieves the current analog video format.
 
 ### -param plAnalogVideoStandard [out]
 
-Pointer to a variable that receives a member of the [AnalogVideoStandard](https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-analogvideostandard) enumeration, indicating the analog video format.
+Pointer to a variable that receives a member of the [AnalogVideoStandard](/windows/desktop/api/strmif/ne-strmif-analogvideostandard) enumeration, indicating the analog video format.
 
 ## -returns
 
@@ -65,9 +65,8 @@ Returns S_OK if successful, or an error code otherwise.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iamanalogvideodecoder">IAMAnalogVideoDecoder Interface</a>
-
+<a href="/windows/desktop/api/strmif/nn-strmif-iamanalogvideodecoder">IAMAnalogVideoDecoder Interface</a>

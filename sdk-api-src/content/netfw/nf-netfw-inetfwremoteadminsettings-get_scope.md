@@ -53,7 +53,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[The Windows Firewall API is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. For Windows Vista and later, use of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/ics/windows-firewall-advanced-security-start-page">Windows Firewall with Advanced Security</a> API is recommended.]
+<p class="CCE_Message">[The Windows Firewall API is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. For Windows Vista and later, use of the <a href="/previous-versions/windows/desktop/ics/windows-firewall-advanced-security-start-page">Windows Firewall with Advanced Security</a> API is recommended.]
 
 Controls the network scope from which remote administration is allowed.
 
@@ -70,15 +70,14 @@ When setting the
 The default value is
    <b>NET_FW_SCOPE_ALL</b> for new ports.
 
-To create a custom scope, use the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwremoteadminsettings-get_remoteaddresses">RemoteAddresses</a> property of this interface.
+To create a custom scope, use the <a href="/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwremoteadminsettings-get_remoteaddresses">RemoteAddresses</a> property of this interface.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/netfw/nn-netfw-inetfwremoteadminsettings">INetFwRemoteAdminSettings</a>
+<a href="/windows/desktop/api/netfw/nn-netfw-inetfwremoteadminsettings">INetFwRemoteAdminSettings</a>
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/icftypes/ne-icftypes-net_fw_scope">NET_FW_SCOPE</a>
+<a href="/windows/win32/api/icftypes/ne-icftypes-net_fw_scope">NET_FW_SCOPE</a>
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwremoteadminsettings-get_remoteaddresses">RemoteAddresses</a>
-
+<a href="/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwremoteadminsettings-get_remoteaddresses">RemoteAddresses</a>

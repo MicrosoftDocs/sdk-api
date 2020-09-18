@@ -57,7 +57,7 @@ The
 
 ### -param pbstr [out]
 
-Receives a reference to a string that contains the serial number. Release this string with <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a> when it is no longer used. This property is optional and the device may not have a serial number.
+Receives a reference to a string that contains the serial number. Release this string with <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a> when it is no longer used. This property is optional and the device may not have a serial number.
 
 ## -returns
 
@@ -68,13 +68,12 @@ For C++: If this property's "get" method succeeds, the return value is S_OK. If 
 This property is optional and <i>pbstr</i> may be <b>NULL</b>.
 
 It is possible for multiple devices to have the same serial number. To determine if two device objects describe the same device, use the unique device name. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/api/upnp/nf-upnp-iupnpdevice-get_uniquedevicename">UniqueDeviceName</a>.
+<a href="/windows/desktop/api/upnp/nf-upnp-iupnpdevice-get_uniquedevicename">UniqueDeviceName</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/upnp/nn-upnp-iupnpdevice">IUPnPDevice</a>
+<a href="/windows/desktop/api/upnp/nn-upnp-iupnpdevice">IUPnPDevice</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/upnp/nf-upnp-iupnpdevice-get_uniquedevicename">IUPnPDevice::UniqueDeviceName</a>
-
+<a href="/windows/desktop/api/upnp/nf-upnp-iupnpdevice-get_uniquedevicename">IUPnPDevice::UniqueDeviceName</a>

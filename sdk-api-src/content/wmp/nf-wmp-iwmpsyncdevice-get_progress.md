@@ -99,9 +99,8 @@ The <b>plProgress</b> value indicates the percent complete for the entire synchr
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpsyncdevice">IWMPSyncDevice Interface</a>
+<a href="/windows/desktop/api/wmp/nn-wmp-iwmpsyncdevice">IWMPSyncDevice Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WMP/showing-synchronization-progress">Showing Synchronization Progress</a>
-
+<a href="/windows/desktop/WMP/showing-synchronization-progress">Showing Synchronization Progress</a>

@@ -57,27 +57,26 @@ Identifies the tier of resource binding being used.
 ### -field D3D12_RESOURCE_BINDING_TIER_1
 
 Tier 1.
-            See <a href="https://docs.microsoft.com/windows/desktop/direct3d12/hardware-support">Hardware Tiers</a>.
+            See <a href="/windows/desktop/direct3d12/hardware-support">Hardware Tiers</a>.
 
 ### -field D3D12_RESOURCE_BINDING_TIER_2
 
 Tier 2.
-            See <a href="https://docs.microsoft.com/windows/desktop/direct3d12/hardware-support">Hardware Tiers</a>.
+            See <a href="/windows/desktop/direct3d12/hardware-support">Hardware Tiers</a>.
 
 ### -field D3D12_RESOURCE_BINDING_TIER_3
 
 Tier 3.
-            See <a href="https://docs.microsoft.com/windows/desktop/direct3d12/hardware-support">Hardware Tiers</a>.
+            See <a href="/windows/desktop/direct3d12/hardware-support">Hardware Tiers</a>.
 
 ## -remarks
 
-This enum is used by the <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_feature_data_d3d12_options">D3D12_FEATURE_DATA_D3D12_OPTIONS</a> structure.
+This enum is used by the <a href="/windows/desktop/api/d3d12/ns-d3d12-d3d12_feature_data_d3d12_options">D3D12_FEATURE_DATA_D3D12_OPTIONS</a> structure.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3d12/direct3d-12-enumerations">Core Enumerations</a>
+<a href="/windows/desktop/direct3d12/direct3d-12-enumerations">Core Enumerations</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3d12/hardware-support">Hardware Tiers</a>
-
+<a href="/windows/desktop/direct3d12/hardware-support">Hardware Tiers</a>

@@ -57,7 +57,7 @@ Gets the current playback rate.
 
 ### -param pfThin [in, out]
 
-Receives the value <b>TRUE</b> if the stream is currently being thinned. If the object does not support thinning, this parameter always receives the value <b>FALSE</b>. This parameter can be <b>NULL</b>. For more information, see <a href="https://docs.microsoft.com/windows/desktop/medfound/about-rate-control">About Rate Control</a>.
+Receives the value <b>TRUE</b> if the stream is currently being thinned. If the object does not support thinning, this parameter always receives the value <b>FALSE</b>. This parameter can be <b>NULL</b>. For more information, see <a href="/windows/desktop/medfound/about-rate-control">About Rate Control</a>.
 
 ### -param pflRate [in, out]
 
@@ -87,9 +87,8 @@ The method succeeded.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/how-to-determine-supported-rates">How to Determine Supported Rates</a>
+<a href="/windows/desktop/medfound/how-to-determine-supported-rates">How to Determine Supported Rates</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfratecontrol">IMFRateControl</a>
-
+<a href="/windows/desktop/api/mfidl/nn-mfidl-imfratecontrol">IMFRateControl</a>

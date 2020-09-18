@@ -62,12 +62,12 @@ Use this flag if an application will only be calling D3D10 from a single thread.
 
 ### -field D3D10_CREATE_DEVICE_DEBUG
 
-Create a device that supports the <a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-programming-guide-api-features-layers">debug layer</a>.
+Create a device that supports the <a href="/windows/desktop/direct3d10/d3d10-graphics-programming-guide-api-features-layers">debug layer</a>.
 
 ### -field D3D10_CREATE_DEVICE_SWITCH_TO_REF
 
 Create both a software (REF) and hardware (HAL) version of the device simultaneously, which allows an application to switch to a 
-        reference device to enable debugging. See <a href="https://docs.microsoft.com/windows/desktop/api/d3d10sdklayers/nn-d3d10sdklayers-id3d10switchtoref">ID3D10SwitchToRef Interface</a> for more information.
+        reference device to enable debugging. See <a href="/windows/desktop/api/d3d10sdklayers/nn-d3d10sdklayers-id3d10switchtoref">ID3D10SwitchToRef Interface</a> for more information.
 
 ### -field D3D10_CREATE_DEVICE_PREVENT_INTERNAL_THREADING_OPTIMIZATIONS
 
@@ -93,8 +93,8 @@ BGRA support enables the following formats.
 <li>DXGI_FORMAT_B8G8R8X8_UNORM</li>
 <li>DXGI_FORMAT_B8G8R8X8_UNORM_SRGB</li>
 </ul>
-D3D10_CREATE_DEVICE_BGRA_SUPPORT is only relevant when a device is created with <a href="https://docs.microsoft.com/windows/desktop/api/d3d10_1/nf-d3d10_1-d3d10createdevice1">D3D10CreateDevice1</a> 
-          or <a href="https://docs.microsoft.com/windows/desktop/api/d3d10_1/nf-d3d10_1-d3d10createdeviceandswapchain1">D3D10CreateDeviceAndSwapChain1</a> using the <b>D3D10_FEATURE_LEVEL_10_0</b> or <b>D3D10_FEATURE_LEVEL_10_1</b> 
+D3D10_CREATE_DEVICE_BGRA_SUPPORT is only relevant when a device is created with <a href="/windows/desktop/api/d3d10_1/nf-d3d10_1-d3d10createdevice1">D3D10CreateDevice1</a> 
+          or <a href="/windows/desktop/api/d3d10_1/nf-d3d10_1-d3d10createdeviceandswapchain1">D3D10CreateDeviceAndSwapChain1</a> using the <b>D3D10_FEATURE_LEVEL_10_0</b> or <b>D3D10_FEATURE_LEVEL_10_1</b> 
           feature levels, the flag will be ignored when a device is created with other feature levels.
 
 Note that BGRA support may be present even if the application didn't specify D3D10_CREATE_DEVICE_BGRA_SUPPORT. 
@@ -104,7 +104,7 @@ D3D10_CREATE_DEVICE_BGRA_SUPPORT is only valid on Windows 7, Windows Server 2008
 
 ### -field D3D10_CREATE_DEVICE_PREVENT_ALTERING_LAYER_SETTINGS_FROM_REGISTRY
 
-Causes the Direct3D runtime to ignore registry settings that turn on the <a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-programming-guide-api-features-layers">debug layer</a>. You can turn on the debug layer by using the <a href="https://docs.microsoft.com/previous-versions/bb219725(v=vs.85)">DirectX Control Panel</a> that was included as part of the DirectX SDK. We shipped the last version of the DirectX SDK in June 2010; you can download it from the <a href="https://www.microsoft.com/download/en/details.aspx?id=6812">Microsoft Download Center</a>. You can set this flag in your app, typically in release builds only, to prevent end users from using the <a href="https://docs.microsoft.com/previous-versions/bb219725(v=vs.85)">DirectX Control Panel</a> to monitor how the app uses Direct3D.
+Causes the Direct3D runtime to ignore registry settings that turn on the <a href="/windows/desktop/direct3d10/d3d10-graphics-programming-guide-api-features-layers">debug layer</a>. You can turn on the debug layer by using the <a href="/previous-versions/bb219725(v=vs.85)">DirectX Control Panel</a> that was included as part of the DirectX SDK. We shipped the last version of the DirectX SDK in June 2010; you can download it from the <a href="https://www.microsoft.com/download/en/details.aspx?id=6812">Microsoft Download Center</a>. You can set this flag in your app, typically in release builds only, to prevent end users from using the <a href="/previous-versions/bb219725(v=vs.85)">DirectX Control Panel</a> to monitor how the app uses Direct3D.
 
 <div class="alert"><b>Note</b>  You can also set this flag in your app to prevent Direct3D debugging tools, such as Visual Studio Ultimate 2012, from hooking your app.</div>
 <div> </div>
@@ -118,13 +118,13 @@ Reserved. This flag is currently not supported. Do not use.
 
 ### -field D3D10_CREATE_DEVICE_DEBUGGABLE
 
-Causes the device and driver to keep information that you can use for shader debugging.  The exact impact from this flag will vary from driver to driver.  To use this flag, you must have D3D11_1SDKLayers.dll installed; otherwise, device creation fails. The created device supports the <a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-programming-guide-api-features-layers">debug layer</a>. To get D3D11_1SDKLayers.dll, you must install the SDK for Windows 8.
+Causes the device and driver to keep information that you can use for shader debugging.  The exact impact from this flag will vary from driver to driver.  To use this flag, you must have D3D11_1SDKLayers.dll installed; otherwise, device creation fails. The created device supports the <a href="/windows/desktop/direct3d10/d3d10-graphics-programming-guide-api-features-layers">debug layer</a>. To get D3D11_1SDKLayers.dll, you must install the SDK for Windows 8.
 
 <b>Direct3D 11:  </b>This value is not supported until Direct3D 11.1.
 
 ## -remarks
 
-Device creation flags are used by <a href="https://docs.microsoft.com/windows/desktop/api/d3d10misc/nf-d3d10misc-d3d10createdevice">D3D10CreateDevice</a> and <a href="https://docs.microsoft.com/windows/desktop/api/d3d10misc/nf-d3d10misc-d3d10createdeviceandswapchain">D3D10CreateDeviceAndSwapChain</a>.
+Device creation flags are used by <a href="/windows/desktop/api/d3d10misc/nf-d3d10misc-d3d10createdevice">D3D10CreateDevice</a> and <a href="/windows/desktop/api/d3d10misc/nf-d3d10misc-d3d10createdeviceandswapchain">D3D10CreateDeviceAndSwapChain</a>.
 
 An application might dynamically create (and destroy) threads to improve performance especially on a machine with multiple CPU cores. 
       There may be cases, however, when an application needs to prevent extra threads from being created. This can happen when you want to simplify 
@@ -133,5 +133,4 @@ An application might dynamically create (and destroy) threads to improve perform
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-reference-d3d10-core-enums">Core Enumerations</a>
-
+<a href="/windows/desktop/direct3d10/d3d10-graphics-reference-d3d10-core-enums">Core Enumerations</a>

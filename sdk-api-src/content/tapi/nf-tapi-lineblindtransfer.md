@@ -77,7 +77,7 @@ Pointer to a null-terminated string identifying where the call is to be transfer
 ## -returns
 
 Returns a positive request identifier if the function is completed asynchronously, or a negative error number if an error occurs. The <i>dwParam2</i> parameter of the corresponding 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/line-reply">LINE_REPLY</a> message is zero if the function succeeds or it is a negative error number if an error occurs. Possible return values are:
+<a href="/windows/desktop/Tapi/line-reply">LINE_REPLY</a> message is zero if the function succeeds or it is a negative error number if an error occurs. Possible return values are:
 
 LINEERR_INVALCALLHANDLE, LINEERR_INVALCOUNTRYCODE, LINEERR_INVALCALLSTATE, LINEERR_INVALPOINTER, LINEERR_NOMEM, LINEERR_OPERATIONUNAVAIL, LINEERR_NOTOWNER, LINEERR_RESOURCEUNAVAIL, LINEERR_INVALADDRESS, LINEERR_UNINITIALIZED, LINEERR_ADDRESSBLOCKED, LINEERR_OPERATIONFAILED.
 
@@ -88,25 +88,24 @@ If LINEERR_INVALADDRESS is returned, no dialing occurs.
 Blind transfer differs from a consultation transfer in that no consultation call is made visible to the application. After the blind transfer successfully completes, the specified call is typically cleared from the application's line, and it transitions to the <i>idle</i> state.
 
 The application's call handle remains valid after the transfer has completed. The application must deallocate its handle using 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linedeallocatecall">lineDeallocateCall</a> when it is no longer interested in the transferred call.
+<a href="/windows/desktop/api/tapi/nf-tapi-linedeallocatecall">lineDeallocateCall</a> when it is no longer interested in the transferred call.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/line-reply">LINE_REPLY</a>
+<a href="/windows/desktop/Tapi/line-reply">LINE_REPLY</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/supplementary-line-service-functions">Supplementary Line Service Functions</a>
+<a href="/windows/desktop/Tapi/supplementary-line-service-functions">Supplementary Line Service Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/tapi-2-2-reference">TAPI 2.2 Reference Overview</a>
+<a href="/windows/desktop/Tapi/tapi-2-2-reference">TAPI 2.2 Reference Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/transfer-ovr">Transfer overview</a>
+<a href="/windows/desktop/Tapi/transfer-ovr">Transfer overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linedeallocatecall">lineDeallocateCall</a>
-
+<a href="/windows/desktop/api/tapi/nf-tapi-linedeallocatecall">lineDeallocateCall</a>

@@ -110,5 +110,4 @@ An unspecified error occurred.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfreverseconversionlist">ITfReverseConversionList</a>
-
+<a href="/windows/desktop/api/msctf/nn-msctf-itfreverseconversionlist">ITfReverseConversionList</a>

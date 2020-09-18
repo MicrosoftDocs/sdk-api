@@ -53,7 +53,7 @@ api_name:
 
 The <b>_NewEnum</b> property gets an enumerator for the configuration set.
 
-To enumerate the collection of properties in C++, use the <a href="https://docs.microsoft.com/windows/desktop/api/certadm/nf-certadm-iocsppropertycollection-get_count">Count</a> and <a href="https://docs.microsoft.com/windows/desktop/api/certadm/nf-certadm-iocsppropertycollection-get_item">Item</a> properties defined by the <a href="https://docs.microsoft.com/windows/desktop/api/certadm/nn-certadm-iocspcaconfigurationcollection">IOCSPCAConfigurationCollection</a> interface.
+To enumerate the collection of properties in C++, use the <a href="/windows/desktop/api/certadm/nf-certadm-iocsppropertycollection-get_count">Count</a> and <a href="/windows/desktop/api/certadm/nf-certadm-iocsppropertycollection-get_item">Item</a> properties defined by the <a href="/windows/desktop/api/certadm/nn-certadm-iocspcaconfigurationcollection">IOCSPCAConfigurationCollection</a> interface.
 
 This property is read-only.
 
@@ -61,5 +61,4 @@ This property is read-only.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certadm/nn-certadm-iocspcaconfigurationcollection">IOCSPCAConfigurationCollection</a>
-
+<a href="/windows/desktop/api/certadm/nn-certadm-iocspcaconfigurationcollection">IOCSPCAConfigurationCollection</a>

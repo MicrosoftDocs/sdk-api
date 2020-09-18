@@ -82,11 +82,10 @@ The following image shows an example of a balloon with the TF_LB_BALLOON_MISS st
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ctffunc/nf-ctffunc-itffnballoon-updateballoon">ITfFnBalloon::UpdateBalloon
+<a href="/windows/desktop/api/ctffunc/nf-ctffunc-itffnballoon-updateballoon">ITfFnBalloon::UpdateBalloon
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ctfutb/ns-ctfutb-tf_lbballooninfo">TF_LBBALLOONINFO
+<a href="/windows/desktop/api/ctfutb/ns-ctfutb-tf_lbballooninfo">TF_LBBALLOONINFO
       </a>
-

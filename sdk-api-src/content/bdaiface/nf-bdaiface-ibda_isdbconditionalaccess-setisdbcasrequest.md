@@ -56,7 +56,7 @@ Sends a conditional access system (CAS) command for Integrated Services Digital 
 
 ### -param ulRequestId [in]
 
-The numeric code for the CAS command. The ARIB standard defines these values. Enumeration constants for some commands are defined in the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/isdbcas-request-id">ISDBCAS_REQUEST_ID</a> enumeration.
+The numeric code for the CAS command. The ARIB standard defines these values. Enumeration constants for some commands are defined in the <a href="/previous-versions/windows/desktop/mstv/isdbcas-request-id">ISDBCAS_REQUEST_ID</a> enumeration.
 
 ### -param ulcbRequestBufferLen [in]
 
@@ -72,5 +72,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nn-bdaiface-ibda_isdbconditionalaccess">IBDA_ISDBConditionalAccess</a>
-
+<a href="/windows/desktop/api/bdaiface/nn-bdaiface-ibda_isdbconditionalaccess">IBDA_ISDBConditionalAccess</a>

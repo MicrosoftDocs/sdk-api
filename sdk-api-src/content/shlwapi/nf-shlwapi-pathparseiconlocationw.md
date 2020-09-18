@@ -74,7 +74,7 @@ Returns the valid icon index value.
 
 ## -remarks
 
-This function is useful for taking a DefaultIcon value retrieved from the registry by <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-shgetvaluea">SHGetValue</a> and separating the icon index from the path.
+This function is useful for taking a DefaultIcon value retrieved from the registry by <a href="/windows/desktop/api/shlwapi/nf-shlwapi-shgetvaluea">SHGetValue</a> and separating the icon index from the path.
 
 
 #### Examples
@@ -115,4 +115,3 @@ PathParseIconLocation returns the icon index of: 3
 
 > [!NOTE]
 > The shlwapi.h header defines PathParseIconLocation as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

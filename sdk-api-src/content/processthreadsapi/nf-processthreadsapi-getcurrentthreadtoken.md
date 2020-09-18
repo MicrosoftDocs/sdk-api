@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Retrieves a pseudo-handle that you can use as a shorthand way to refer to the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/i-gly">impersonation token</a> that was assigned to the current thread.
+Retrieves a pseudo-handle that you can use as a shorthand way to refer to the <a href="/windows/desktop/SecGloss/i-gly">impersonation token</a> that was assigned to the current thread.
 
 ## -parameters
 
 ## -returns
 
-A pseudo-handle that you can use as a shorthand way to refer to the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/i-gly">impersonation token</a> that was assigned to the current thread.
+A pseudo-handle that you can use as a shorthand way to refer to the <a href="/windows/desktop/SecGloss/i-gly">impersonation token</a> that was assigned to the current thread.
 
 ## -remarks
 
@@ -64,19 +64,18 @@ A pseudo-handle is a special constant that can function as the impersonation tok
 
 Starting in Windows 8, this pseudo-handle has only TOKEN_QUERY and TOKEN_QUERY_SOURCE access rights. 
 
-The pseudo-handle cannot be duplicated by the <a href="https://docs.microsoft.com/windows/desktop/api/handleapi/nf-handleapi-duplicatehandle">DuplicateHandle</a> function or the <a href="/windows/win32/api/securitybaseapi/nf-securitybaseapi-duplicatetoken">DuplicateToken</a> function.
+The pseudo-handle cannot be duplicated by the <a href="/windows/desktop/api/handleapi/nf-handleapi-duplicatehandle">DuplicateHandle</a> function or the <a href="/windows/win32/api/securitybaseapi/nf-securitybaseapi-duplicatetoken">DuplicateToken</a> function.
 
-You do not need to close the pseudo-handle when you no longer need it. If you call the <a href="https://docs.microsoft.com/windows/desktop/api/handleapi/nf-handleapi-closehandle">CloseHandle</a> function with a pseudo-handle, the function has no effect.
+You do not need to close the pseudo-handle when you no longer need it. If you call the <a href="/windows/desktop/api/handleapi/nf-handleapi-closehandle">CloseHandle</a> function with a pseudo-handle, the function has no effect.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/access-rights-for-access-token-objects">Access Rights for Access-Token Objects</a>
+<a href="/windows/desktop/SecAuthZ/access-rights-for-access-token-objects">Access Rights for Access-Token Objects</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-openthreadtoken">OpenThreadToken</a>
+<a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-openthreadtoken">OpenThreadToken</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-setthreadtoken">SetThreadToken</a>
-
+<a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-setthreadtoken">SetThreadToken</a>

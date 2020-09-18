@@ -66,7 +66,7 @@ The language of the dialog. This string contains an ISO 639-2 language code with
 
 ### -param RequestType [in]
 
-The type of access that is being requested, specified as a member of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/bda-conditionalaccess-requesttype">BDA_CONDITIONALACCESS_REQUESTTYPE</a> enumeration.
+The type of access that is being requested, specified as a member of the <a href="/previous-versions/windows/desktop/mstv/bda-conditionalaccess-requesttype">BDA_CONDITIONALACCESS_REQUESTTYPE</a> enumeration.
 
 ### -param ulcbEntitlementTokenLen [in]
 
@@ -86,5 +86,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nn-bdaiface-ibda_conditionalaccessex">IBDA_ConditionalAccessEx</a>
-
+<a href="/windows/desktop/api/bdaiface/nn-bdaiface-ibda_conditionalaccessex">IBDA_ConditionalAccessEx</a>

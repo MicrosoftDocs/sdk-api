@@ -59,9 +59,8 @@ This property is read-only.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-iobjectid">IObjectId</a>
+<a href="/windows/desktop/api/certenroll/nn-certenroll-iobjectid">IObjectId</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-iobjectids">IObjectIds</a>
-
+<a href="/windows/desktop/api/certenroll/nn-certenroll-iobjectids">IObjectIds</a>

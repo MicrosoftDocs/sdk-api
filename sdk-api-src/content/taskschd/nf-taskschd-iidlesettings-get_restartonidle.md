@@ -60,15 +60,14 @@ This property is read/write.
 
 ## -remarks
 
-This property is only used if the <a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nf-taskschd-iidlesettings-get_stoponidleend">StopOnIdleEnd</a> property is set to True.
+This property is only used if the <a href="/windows/desktop/api/taskschd/nf-taskschd-iidlesettings-get_stoponidleend">StopOnIdleEnd</a> property is set to True.
 
-When reading or writing XML for a task, this setting is specified in the <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/taskschedulerschema-restartonidle-idlesettingstype-element">RestartOnIdle</a> element of the Task Scheduler schema.
+When reading or writing XML for a task, this setting is specified in the <a href="/windows/desktop/TaskSchd/taskschedulerschema-restartonidle-idlesettingstype-element">RestartOnIdle</a> element of the Task Scheduler schema.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nn-taskschd-iidlesettings">IIdleSettings</a>
+<a href="/windows/desktop/api/taskschd/nn-taskschd-iidlesettings">IIdleSettings</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/TaskSchd/task-scheduler-start-page">Task Scheduler</a>
-
+<a href="/windows/desktop/TaskSchd/task-scheduler-start-page">Task Scheduler</a>

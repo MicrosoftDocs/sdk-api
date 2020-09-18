@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Releases an object ID range that was acquired by a previous call to the <a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nf-oleacc-iaccessiblewindowlesssite-acquireobjectidrange">IAccessibleWindowlessSite::AcquireObjectIdRange</a> method.
+Releases an object ID range that was acquired by a previous call to the <a href="/windows/desktop/api/oleacc/nf-oleacc-iaccessiblewindowlesssite-acquireobjectidrange">IAccessibleWindowlessSite::AcquireObjectIdRange</a> method.
 
 ## -parameters
 
@@ -62,13 +62,13 @@ The first object ID in the range of IDs to be released.
 
 ### -param pRangeOwner [in, optional]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nn-oleacc-iaccessiblehandler">IAccessibleHandler</a>*</b>
+Type: <b><a href="/windows/desktop/api/oleacc/nn-oleacc-iaccessiblehandler">IAccessibleHandler</a>*</b>
 
 The windowless ActiveX control with which the range was associated when it was acquired.
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
@@ -78,9 +78,8 @@ To prevent mistakes when releasing object ranges, the system uses the <i>pContro
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nn-oleacc-iaccessiblewindowlesssite">IAccessibleWindowlessSite</a>
+<a href="/windows/desktop/api/oleacc/nn-oleacc-iaccessiblewindowlesssite">IAccessibleWindowlessSite</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nf-oleacc-iaccessiblewindowlesssite-acquireobjectidrange">IAccessibleWindowlessSite::AcquireObjectIdRange</a>
-
+<a href="/windows/desktop/api/oleacc/nf-oleacc-iaccessiblewindowlesssite-acquireobjectidrange">IAccessibleWindowlessSite::AcquireObjectIdRange</a>

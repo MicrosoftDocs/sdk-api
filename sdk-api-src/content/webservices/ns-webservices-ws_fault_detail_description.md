@@ -76,6 +76,5 @@ The fault description defines the action of the fault message
             
 
 The fault description can be used to set and get the
-                fault detail element stored within a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-error">WS_ERROR</a> object
-                using <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wssetfaulterrordetail">WsSetFaultErrorDetail</a> and <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsgetfaulterrordetail">WsGetFaultErrorDetail</a>.
-
+                fault detail element stored within a <a href="/windows/desktop/wsw/ws-error">WS_ERROR</a> object
+                using <a href="/windows/desktop/api/webservices/nf-webservices-wssetfaulterrordetail">WsSetFaultErrorDetail</a> and <a href="/windows/desktop/api/webservices/nf-webservices-wsgetfaulterrordetail">WsGetFaultErrorDetail</a>.

@@ -54,13 +54,13 @@ api_name:
 
 ## -description
 
-Defines the header to the list of sessions that enabled the provider specified in the <i>InBuffer</i> parameter of <a href="https://docs.microsoft.com/windows/desktop/ETW/enumeratetraceguidsex">EnumerateTraceGuidsEx</a>.
+Defines the header to the list of sessions that enabled the provider specified in the <i>InBuffer</i> parameter of <a href="/windows/desktop/ETW/enumeratetraceguidsex">EnumerateTraceGuidsEx</a>.
 
 ## -struct-fields
 
 ### -field InstanceCount
 
-The number of <a href="https://docs.microsoft.com/windows/desktop/ETW/trace-provider-instance-info">TRACE_PROVIDER_INSTANCE_INFO</a> blocks contained in the list. You can have multiple instances of the same provider if the provider lives in a DLL that is loaded by multiple processes.
+The number of <a href="/windows/desktop/ETW/trace-provider-instance-info">TRACE_PROVIDER_INSTANCE_INFO</a> blocks contained in the list. You can have multiple instances of the same provider if the provider lives in a DLL that is loaded by multiple processes.
 
 ### -field Reserved
 
@@ -68,9 +68,8 @@ Reserved.
 
 ## -remarks
 
-Use the size of this structure to access the first <a href="https://docs.microsoft.com/windows/desktop/ETW/trace-provider-instance-info">TRACE_PROVIDER_INSTANCE_INFO</a> block in the list.
+Use the size of this structure to access the first <a href="/windows/desktop/ETW/trace-provider-instance-info">TRACE_PROVIDER_INSTANCE_INFO</a> block in the list.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/ETW/trace-provider-instance-info">TRACE_PROVIDER_INSTANCE_INFO</a>
-
+<a href="/windows/desktop/ETW/trace-provider-instance-info">TRACE_PROVIDER_INSTANCE_INFO</a>

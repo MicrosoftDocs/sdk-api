@@ -57,7 +57,7 @@ The
 
 ### -param pbstr [out]
 
-Receives a reference to a string that contains a short description of the intended functionality of devices of this type. Release this string with <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a> when it is no longer required. If the device does not specify a description, this parameter is set to <b>NULL</b>.
+Receives a reference to a string that contains a short description of the intended functionality of devices of this type. Release this string with <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a> when it is no longer required. If the device does not specify a description, this parameter is set to <b>NULL</b>.
 
 ## -returns
 
@@ -69,5 +69,4 @@ This property is optional and <i>pbstr</i> can return <b>NULL</b>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/upnp/nn-upnp-iupnpdevice">IUPnPDevice</a>
-
+<a href="/windows/desktop/api/upnp/nn-upnp-iupnpdevice">IUPnPDevice</a>

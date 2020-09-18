@@ -85,15 +85,14 @@ The method succeeded.
 
 ## -remarks
 
-This method enables the reader to use Fast Cache streaming if the server also supports it. This feature is supported only when streaming content from a server running Windows Media Services. For more information, see <a href="https://docs.microsoft.com/windows/desktop/wmformat/enabling-fast-cache-streaming-from-the-client">Enabling Fast Cache Streaming from the Client</a>.
+This method enables the reader to use Fast Cache streaming if the server also supports it. This feature is supported only when streaming content from a server running Windows Media Services. For more information, see <a href="/windows/desktop/wmformat/enabling-fast-cache-streaming-from-the-client">Enabling Fast Cache Streaming from the Client</a>.
 
-Regardless of the status of Fast Cache set by this method, a user can enable this feature by adding "?WMCache=1" to the end of the URL. However, Fast Cache cannot be activated at all unless caching is enabled with a call to <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreadernetworkconfig2-setenablecontentcaching">IWMReaderNetworkconfig2::SetEnableContentCaching</a>.
+Regardless of the status of Fast Cache set by this method, a user can enable this feature by adding "?WMCache=1" to the end of the URL. However, Fast Cache cannot be activated at all unless caching is enabled with a call to <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreadernetworkconfig2-setenablecontentcaching">IWMReaderNetworkconfig2::SetEnableContentCaching</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreadernetworkconfig2">IWMReaderNetworkConfig2 Interface</a>
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreadernetworkconfig2">IWMReaderNetworkConfig2 Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreadernetworkconfig2-getenablefastcache">IWMReaderNetworkConfig2::GetEnableFastCache</a>
-
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreadernetworkconfig2-getenablefastcache">IWMReaderNetworkConfig2::GetEnableFastCache</a>

@@ -51,11 +51,11 @@ api_name:
 
 ## -description
 
-The <code>IAMWstDecoder</code> interface sets and retrieves information about World Standard Teletext (WST). The <a href="https://docs.microsoft.com/windows/desktop/DirectShow/wst-decoder-filter">WST Decoder</a> filter implements this interface.
+The <code>IAMWstDecoder</code> interface sets and retrieves information about World Standard Teletext (WST). The <a href="/windows/desktop/DirectShow/wst-decoder-filter">WST Decoder</a> filter implements this interface.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAMWstDecoder</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAMWstDecoder</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAMWstDecoder</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAMWstDecoder</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>IAMWstDecoder</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/iwstdec/nf-iwstdec-iamwstdecoder-getanswermode">GetAnswerMode</a>
+<a href="/windows/desktop/api/iwstdec/nf-iwstdec-iamwstdecoder-getanswermode">GetAnswerMode</a>
 </td>
 <td align="left" width="63%">
 Retrieves whether hidden text is exposed or not.
@@ -79,7 +79,7 @@ Retrieves whether hidden text is exposed or not.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/iwstdec/nf-iwstdec-iamwstdecoder-getbackgroundcolor">GetBackgroundColor</a>
+<a href="/windows/desktop/api/iwstdec/nf-iwstdec-iamwstdecoder-getbackgroundcolor">GetBackgroundColor</a>
 </td>
 <td align="left" width="63%">
 Retrieves the current physical color used in color keying the background for overlay mixing.
@@ -88,7 +88,7 @@ Retrieves the current physical color used in color keying the background for ove
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/iwstdec/nf-iwstdec-iamwstdecoder-getcurrentpage">GetCurrentPage</a>
+<a href="/windows/desktop/api/iwstdec/nf-iwstdec-iamwstdecoder-getcurrentpage">GetCurrentPage</a>
 </td>
 <td align="left" width="63%">
 Retrieves the current WST page.
@@ -97,7 +97,7 @@ Retrieves the current WST page.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/iwstdec/nf-iwstdec-iamwstdecoder-getcurrentservice">GetCurrentService</a>
+<a href="/windows/desktop/api/iwstdec/nf-iwstdec-iamwstdecoder-getcurrentservice">GetCurrentService</a>
 </td>
 <td align="left" width="63%">
 Retrieves the current WST service.
@@ -106,7 +106,7 @@ Retrieves the current WST service.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/iwstdec/nf-iwstdec-iamwstdecoder-getdecoderlevel">GetDecoderLevel</a>
+<a href="/windows/desktop/api/iwstdec/nf-iwstdec-iamwstdecoder-getdecoderlevel">GetDecoderLevel</a>
 </td>
 <td align="left" width="63%">
 Retrieves the WST decoder level.
@@ -115,7 +115,7 @@ Retrieves the WST decoder level.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/iwstdec/nf-iwstdec-iamwstdecoder-getdrawbackgroundmode">GetDrawBackgroundMode</a>
+<a href="/windows/desktop/api/iwstdec/nf-iwstdec-iamwstdecoder-getdrawbackgroundmode">GetDrawBackgroundMode</a>
 </td>
 <td align="left" width="63%">
 Determines whether the caption text background is opaque or transparent.
@@ -124,7 +124,7 @@ Determines whether the caption text background is opaque or transparent.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/iwstdec/nf-iwstdec-iamwstdecoder-getholdpage">GetHoldPage</a>
+<a href="/windows/desktop/api/iwstdec/nf-iwstdec-iamwstdecoder-getholdpage">GetHoldPage</a>
 </td>
 <td align="left" width="63%">
 Determines whether the current WST page is held by the WST decoder.
@@ -133,7 +133,7 @@ Determines whether the current WST page is held by the WST decoder.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/iwstdec/nf-iwstdec-iamwstdecoder-getoutputformat">GetOutputFormat</a>
+<a href="/windows/desktop/api/iwstdec/nf-iwstdec-iamwstdecoder-getoutputformat">GetOutputFormat</a>
 </td>
 <td align="left" width="63%">
 Retrieves the current output video format.
@@ -142,7 +142,7 @@ Retrieves the current output video format.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/iwstdec/nf-iwstdec-iamwstdecoder-getredrawalways">GetRedrawAlways</a>
+<a href="/windows/desktop/api/iwstdec/nf-iwstdec-iamwstdecoder-getredrawalways">GetRedrawAlways</a>
 </td>
 <td align="left" width="63%">
 Retrieves whether the whole output bitmap should be redrawn for each sample.
@@ -151,7 +151,7 @@ Retrieves whether the whole output bitmap should be redrawn for each sample.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/iwstdec/nf-iwstdec-iamwstdecoder-getservicestate">GetServiceState</a>
+<a href="/windows/desktop/api/iwstdec/nf-iwstdec-iamwstdecoder-getservicestate">GetServiceState</a>
 </td>
 <td align="left" width="63%">
 Retrieves whether closed captioning is on or off.
@@ -160,7 +160,7 @@ Retrieves whether closed captioning is on or off.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/iwstdec/nf-iwstdec-iamwstdecoder-setanswermode">SetAnswerMode</a>
+<a href="/windows/desktop/api/iwstdec/nf-iwstdec-iamwstdecoder-setanswermode">SetAnswerMode</a>
 </td>
 <td align="left" width="63%">
 Assigns whether hidden text is exposed or not.
@@ -169,7 +169,7 @@ Assigns whether hidden text is exposed or not.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/iwstdec/nf-iwstdec-iamwstdecoder-setbackgroundcolor">SetBackgroundColor</a>
+<a href="/windows/desktop/api/iwstdec/nf-iwstdec-iamwstdecoder-setbackgroundcolor">SetBackgroundColor</a>
 </td>
 <td align="left" width="63%">
 Assigns the current physical color used in color keying the background for overlay mixing.
@@ -178,7 +178,7 @@ Assigns the current physical color used in color keying the background for overl
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/iwstdec/nf-iwstdec-iamwstdecoder-setcurrentpage">SetCurrentPage</a>
+<a href="/windows/desktop/api/iwstdec/nf-iwstdec-iamwstdecoder-setcurrentpage">SetCurrentPage</a>
 </td>
 <td align="left" width="63%">
 Assigns the current WST page.
@@ -187,7 +187,7 @@ Assigns the current WST page.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/iwstdec/nf-iwstdec-iamwstdecoder-setdrawbackgroundmode">SetDrawBackgroundMode</a>
+<a href="/windows/desktop/api/iwstdec/nf-iwstdec-iamwstdecoder-setdrawbackgroundmode">SetDrawBackgroundMode</a>
 </td>
 <td align="left" width="63%">
 Assigns the caption text background to be opaque or transparent.
@@ -196,7 +196,7 @@ Assigns the caption text background to be opaque or transparent.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/iwstdec/nf-iwstdec-iamwstdecoder-setholdpage">SetHoldPage</a>
+<a href="/windows/desktop/api/iwstdec/nf-iwstdec-iamwstdecoder-setholdpage">SetHoldPage</a>
 </td>
 <td align="left" width="63%">
 Instructs the WST decoder to hold the current page.
@@ -205,7 +205,7 @@ Instructs the WST decoder to hold the current page.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/iwstdec/nf-iwstdec-iamwstdecoder-setoutputformat">SetOutputFormat</a>
+<a href="/windows/desktop/api/iwstdec/nf-iwstdec-iamwstdecoder-setoutputformat">SetOutputFormat</a>
 </td>
 <td align="left" width="63%">
 Assigns an output video format.
@@ -214,7 +214,7 @@ Assigns an output video format.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/iwstdec/nf-iwstdec-iamwstdecoder-setredrawalways">SetRedrawAlways</a>
+<a href="/windows/desktop/api/iwstdec/nf-iwstdec-iamwstdecoder-setredrawalways">SetRedrawAlways</a>
 </td>
 <td align="left" width="63%">
 Sets whether the whole output bitmap should be redrawn for each sample.
@@ -223,7 +223,7 @@ Sets whether the whole output bitmap should be redrawn for each sample.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/iwstdec/nf-iwstdec-iamwstdecoder-setservicestate">SetServiceState</a>
+<a href="/windows/desktop/api/iwstdec/nf-iwstdec-iamwstdecoder-setservicestate">SetServiceState</a>
 </td>
 <td align="left" width="63%">
 Sets closed captioning on or off.
@@ -231,4 +231,3 @@ Sets closed captioning on or off.
 </td>
 </tr>
 </table>
-

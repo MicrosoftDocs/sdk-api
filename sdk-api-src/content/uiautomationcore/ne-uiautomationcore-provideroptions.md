@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Contains values that specify the type of UI Automation provider. The <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nf-uiautomationcore-irawelementprovidersimple-get_provideroptions">IRawElementProviderSimple::ProviderOptions</a> property uses this enumeration.
+Contains values that specify the type of UI Automation provider. The <a href="/windows/desktop/api/uiautomationcore/nf-uiautomationcore-irawelementprovidersimple-get_provideroptions">IRawElementProviderSimple::ProviderOptions</a> property uses this enumeration.
 
 ## -enum-fields
 
@@ -84,7 +84,7 @@ The provider handles its own non-client area and does not want UI Automation to 
 
 ### -field ProviderOptions_HasNativeIAccessible
 
-The provider implements the <a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nn-oleacc-iaccessible">IAccessible</a> interface.
+The provider implements the <a href="/windows/desktop/api/oleacc/nn-oleacc-iaccessible">IAccessible</a> interface.
 
 ### -field ProviderOptions_UseClientCoordinates
 
@@ -92,5 +92,4 @@ The provider works in client coordinates instead of screen coordinates.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nf-uiautomationcore-irawelementproviderfragment-setfocus">SetFocus</a>
-
+<a href="/windows/desktop/api/uiautomationcore/nf-uiautomationcore-irawelementproviderfragment-setfocus">SetFocus</a>

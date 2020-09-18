@@ -77,7 +77,7 @@ Optional pointer to a <b>null</b>-terminated string specifying the full path of 
 
 ### -param Win32ErrorCode [out]
 
-If an error occurs, this member is the <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a>. If no error has occurred, it is  NO_ERROR.
+If an error occurs, this member is the <a href="/windows/desktop/Debug/system-error-codes">system error code</a>. If no error has occurred, it is  NO_ERROR.
 
 ### -param Style [in]
 
@@ -104,34 +104,33 @@ Prevent the dialog box from becoming the foreground window.
 This function returns one of the following values.
 
 To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/SetupApi/functions">Functions</a>
+<a href="/windows/desktop/SetupApi/functions">Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SetupApi/overview">Overview</a>
+<a href="/windows/desktop/SetupApi/overview">Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupcopyerrora">SetupCopyError</a>
+<a href="/windows/desktop/api/setupapi/nf-setupapi-setupcopyerrora">SetupCopyError</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdeleteerrora">SetupDeleteError</a>
+<a href="/windows/desktop/api/setupapi/nf-setupapi-setupdeleteerrora">SetupDeleteError</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setuppromptfordiska">SetupPromptForDisk</a>
+<a href="/windows/desktop/api/setupapi/nf-setupapi-setuppromptfordiska">SetupPromptForDisk</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setuprenameerrora">SetupRenameError</a>
+<a href="/windows/desktop/api/setupapi/nf-setupapi-setuprenameerrora">SetupRenameError</a>
 
 ## -remarks
 
 > [!NOTE]
 > The setupapi.h header defines SetupBackupError as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

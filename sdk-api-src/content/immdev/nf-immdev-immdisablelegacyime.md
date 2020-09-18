@@ -60,20 +60,19 @@ Returns <b>TRUE</b> if successful;   otherwise, <b>FALSE</b>.
 
 ## -remarks
 
-Windows Store app brokers such as explorer.exe should call this function in Windows Store app UI threads to ensure that only IMEs that are compatible with  Windows Store apps are made available.  Those Windows Store app threads that don't require IME input should call <a href="https://docs.microsoft.com/windows/desktop/api/imm/nf-imm-immdisableime">ImmDisableIME</a> to disable IMM entirely for that thread.
+Windows Store app brokers such as explorer.exe should call this function in Windows Store app UI threads to ensure that only IMEs that are compatible with  Windows Store apps are made available.  Those Windows Store app threads that don't require IME input should call <a href="/windows/desktop/api/imm/nf-imm-immdisableime">ImmDisableIME</a> to disable IMM entirely for that thread.
 
-The app must call this function before the first top-level window in the thread receives the <a href="https://docs.microsoft.com/windows/desktop/winmsg/wm-create">WM_CREATE</a> message. Thus, the app must call this function in one of the following places:
+The app must call this function before the first top-level window in the thread receives the <a href="/windows/desktop/winmsg/wm-create">WM_CREATE</a> message. Thus, the app must call this function in one of the following places:
 
 <ul>
-<li>Any time before  <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createwindowa">CreateWindow</a> is called to create the first top-level window.</li>
-<li>In the <a href="https://docs.microsoft.com/windows/desktop/winmsg/wm-nccreate">WM_NCCREATE</a> handler for the first top-level window.</li>
+<li>Any time before  <a href="/windows/desktop/api/winuser/nf-winuser-createwindowa">CreateWindow</a> is called to create the first top-level window.</li>
+<li>In the <a href="/windows/desktop/winmsg/wm-nccreate">WM_NCCREATE</a> handler for the first top-level window.</li>
 </ul>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/input-method-manager">Input Method Manager</a>
+<a href="/windows/desktop/Intl/input-method-manager">Input Method Manager</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/input-method-manager-functions">Input Method Manager Functions</a>
-
+<a href="/windows/desktop/Intl/input-method-manager-functions">Input Method Manager Functions</a>

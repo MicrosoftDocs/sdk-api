@@ -52,7 +52,7 @@ api_name:
 
 Enables containers and other objects to receive notifications of data changes, view changes, and compound-document changes occurring in objects of interest. Container applications, for example, require such notifications to keep cached presentations of their linked and embedded objects up-to-date. Calls to <b>IAdviseSink</b> methods are asynchronous, so the call is sent and then the next instruction is executed without waiting for the call's return.
 
-For an advisory connection to exist, the object that is to receive notifications must implement <b>IAdviseSink</b>, and the objects in which it is interested must implement <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleobject-advise">IOleObject::Advise</a> and <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-idataobject-dadvise">IDataObject::DAdvise</a>. In-process objects and handlers may also implement <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-iviewobject-setadvise">IViewObject::SetAdvise</a>. Objects implementing <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-ioleobject">IOleObject</a> must support all reasonable advisory methods. To simplify advisory notifications, OLE supplies implementations of the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataadviseholder">IDataAdviseHolder</a> and <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-ioleadviseholder">IOleAdviseHolder</a>, which keep track of advisory connections and send notifications to the proper sinks through pointers to their <b>IAdviseSink</b> interfaces. <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-iviewobject">IViewObject</a> (and its advisory methods) is implemented in the default handler.
+For an advisory connection to exist, the object that is to receive notifications must implement <b>IAdviseSink</b>, and the objects in which it is interested must implement <a href="/windows/desktop/api/oleidl/nf-oleidl-ioleobject-advise">IOleObject::Advise</a> and <a href="/windows/desktop/api/objidl/nf-objidl-idataobject-dadvise">IDataObject::DAdvise</a>. In-process objects and handlers may also implement <a href="/windows/desktop/api/oleidl/nf-oleidl-iviewobject-setadvise">IViewObject::SetAdvise</a>. Objects implementing <a href="/windows/desktop/api/oleidl/nn-oleidl-ioleobject">IOleObject</a> must support all reasonable advisory methods. To simplify advisory notifications, OLE supplies implementations of the <a href="/windows/desktop/api/objidl/nn-objidl-idataadviseholder">IDataAdviseHolder</a> and <a href="/windows/desktop/api/oleidl/nn-oleidl-ioleadviseholder">IOleAdviseHolder</a>, which keep track of advisory connections and send notifications to the proper sinks through pointers to their <b>IAdviseSink</b> interfaces. <a href="/windows/desktop/api/oleidl/nn-oleidl-iviewobject">IViewObject</a> (and its advisory methods) is implemented in the default handler.
 
 As shown in the following table, an object that has implemented an advise sink registers its interest in receiving certain types of notifications by calling the appropriate method.
 <table>
@@ -62,32 +62,32 @@ As shown in the following table, an object that has implemented an advise sink r
 </tr>
 <tr>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleobject-advise">IOleObject::Advise</a>
+<a href="/windows/desktop/api/oleidl/nf-oleidl-ioleobject-advise">IOleObject::Advise</a>
 </td>
 <td>When a document is saved, closed, or renamed.
 </td>
 </tr>
 <tr>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-idataobject-dadvise">IDataObject::DAdvise</a>
+<a href="/windows/desktop/api/objidl/nf-objidl-idataobject-dadvise">IDataObject::DAdvise</a>
 </td>
 <td>When a document's data changes.
 </td>
 </tr>
 <tr>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-iviewobject-setadvise">IViewObject::SetAdvise</a>
+<a href="/windows/desktop/api/oleidl/nf-oleidl-iviewobject-setadvise">IViewObject::SetAdvise</a>
 </td>
 <td>When a document's presentation changes.
 </td>
 </tr>
 </table> 
 
-When an event occurs that applies to a registered notification type, the object application calls the appropriate <b>IAdviseSink</b> method. For example, when an embedded object closes, it calls the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-iadvisesink-onclose">IAdviseSink::OnClose</a> method to notify its container. These notifications are asynchronous, occurring after the events that trigger them.
+When an event occurs that applies to a registered notification type, the object application calls the appropriate <b>IAdviseSink</b> method. For example, when an embedded object closes, it calls the <a href="/windows/desktop/api/objidl/nf-objidl-iadvisesink-onclose">IAdviseSink::OnClose</a> method to notify its container. These notifications are asynchronous, occurring after the events that trigger them.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAdviseSink</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAdviseSink</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAdviseSink</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAdviseSink</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -102,7 +102,7 @@ The <b>IAdviseSink</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-iadvisesink-onclose">OnClose</a>
+<a href="/windows/desktop/api/objidl/nf-objidl-iadvisesink-onclose">OnClose</a>
 </td>
 <td align="left" width="63%">
 Advises that the object has been closed.
@@ -111,7 +111,7 @@ Advises that the object has been closed.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-iadvisesink-ondatachange">OnDataChange</a>
+<a href="/windows/desktop/api/objidl/nf-objidl-iadvisesink-ondatachange">OnDataChange</a>
 </td>
 <td align="left" width="63%">
 Advises that the data has changed.
@@ -120,7 +120,7 @@ Advises that the data has changed.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-iadvisesink-onrename">OnRename</a>
+<a href="/windows/desktop/api/objidl/nf-objidl-iadvisesink-onrename">OnRename</a>
 </td>
 <td align="left" width="63%">
 Advises that the name of object has changed.
@@ -129,7 +129,7 @@ Advises that the name of object has changed.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-iadvisesink-onsave">OnSave</a>
+<a href="/windows/desktop/api/objidl/nf-objidl-iadvisesink-onsave">OnSave</a>
 </td>
 <td align="left" width="63%">
 Advises that the object has been saved to disk.
@@ -138,7 +138,7 @@ Advises that the object has been saved to disk.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-iadvisesink-onviewchange">OnViewChange</a>
+<a href="/windows/desktop/api/objidl/nf-objidl-iadvisesink-onviewchange">OnViewChange</a>
 </td>
 <td align="left" width="63%">
 Advises that the view of object has changed.
@@ -149,33 +149,32 @@ Advises that the view of object has changed.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-iadvisesink2">IAdviseSink2</a>
+<a href="/windows/desktop/api/objidl/nn-objidl-iadvisesink2">IAdviseSink2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-iadvisesinkex">IAdviseSinkEx</a>
+<a href="/windows/desktop/api/ocidl/nn-ocidl-iadvisesinkex">IAdviseSinkEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataadviseholder">IDataAdviseHolder</a>
+<a href="/windows/desktop/api/objidl/nn-objidl-idataadviseholder">IDataAdviseHolder</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-idataobject-dadvise">IDataObject::DAdvise</a>
+<a href="/windows/desktop/api/objidl/nf-objidl-idataobject-dadvise">IDataObject::DAdvise</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-ioleadviseholder">IOleAdviseHolder</a>
+<a href="/windows/desktop/api/oleidl/nn-oleidl-ioleadviseholder">IOleAdviseHolder</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleobject-advise">IOleObject::Advise</a>
+<a href="/windows/desktop/api/oleidl/nf-oleidl-ioleobject-advise">IOleObject::Advise</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
+<a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-iviewobject-setadvise">IViewObject::SetAdvise</a>
-
+<a href="/windows/desktop/api/oleidl/nf-oleidl-iviewobject-setadvise">IViewObject::SetAdvise</a>

@@ -58,15 +58,15 @@ The <b>SaferIdentifyLevel</b> function retrieves information about a level.
 ### -param dwNumProperties [in]
 
 Number of 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsafer/ns-winsafer-safer_code_properties_v2">SAFER_CODE_PROPERTIES</a> structures in the <i>pCodeproperties</i>  parameter.
+<a href="/windows/desktop/api/winsafer/ns-winsafer-safer_code_properties_v2">SAFER_CODE_PROPERTIES</a> structures in the <i>pCodeproperties</i>  parameter.
 
 ### -param pCodeProperties [in, optional]
 
-Array of <a href="https://docs.microsoft.com/windows/desktop/api/winsafer/ns-winsafer-safer_code_properties_v2">SAFER_CODE_PROPERTIES</a> structures. Each structure contains a code file to be checked and the  criteria used to check the file.
+Array of <a href="/windows/desktop/api/winsafer/ns-winsafer-safer_code_properties_v2">SAFER_CODE_PROPERTIES</a> structures. Each structure contains a code file to be checked and the  criteria used to check the file.
 
 ### -param pLevelHandle [out]
 
-The returned SAFER_LEVEL_HANDLE. When you have finished using the handle, close it by calling the <a href="https://docs.microsoft.com/windows/desktop/api/winsafer/nf-winsafer-safercloselevel">SaferCloseLevel</a> function.
+The returned SAFER_LEVEL_HANDLE. When you have finished using the handle, close it by calling the <a href="/windows/desktop/api/winsafer/nf-winsafer-safercloselevel">SaferCloseLevel</a> function.
 
 ### -param lpReserved
 
@@ -77,5 +77,4 @@ Beginning with Windows 8 and Windows Server 2012 SRP_POLICY_APPX is defined as
 ## -returns
 
 <b>TRUE</b> if a SAFER_LEVEL_HANDLE was opened; otherwise,  <b>FALSE</b>. For extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
-
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.

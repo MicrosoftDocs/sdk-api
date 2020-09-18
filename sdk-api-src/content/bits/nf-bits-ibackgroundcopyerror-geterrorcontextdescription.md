@@ -57,7 +57,7 @@ Retrieves the description of the context in which the error occurred.
 ### -param LanguageId [in]
 
 Identifies the locale to use to generate the description. To create the language identifier, use the 
-<a href="https://msdn.microsoft.com/library/dd373908.aspx">MAKELANGID</a> macro. For example, to specify U.S. English, use the following code sample. 
+<a href="/windows/win32/api/winnt/nf-winnt-makelangid">MAKELANGID</a> macro. For example, to specify U.S. English, use the following code sample. 
 
 
 
@@ -71,7 +71,7 @@ To retrieve the system's default user language identifier, use the following cal
 ### -param pContextDescription [out]
 
 Null-terminated string that contains the description of the context in which the error occurred. Call the 
-<a href="https://msdn.microsoft.com/library/ms680722(VS.85).aspx">CoTaskMemFree</a> function to free <i>ppContextDescription</i> when done.
+<a href="/windows/win32/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a> function to free <i>ppContextDescription</i> when done.
 
 ## -returns
 
@@ -130,13 +130,12 @@ No string is available for the locale.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits/nf-bits-ibackgroundcopyerror-geterror">IBackgroundCopyError::GetError</a>
+<a href="/windows/desktop/api/bits/nf-bits-ibackgroundcopyerror-geterror">IBackgroundCopyError::GetError</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits/nf-bits-ibackgroundcopyerror-geterrordescription">IBackgroundCopyError::GetErrorDescription</a>
+<a href="/windows/desktop/api/bits/nf-bits-ibackgroundcopyerror-geterrordescription">IBackgroundCopyError::GetErrorDescription</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits/nf-bits-ibackgroundcopyerror-getfile">IBackgroundCopyError::GetFile</a>
-
+<a href="/windows/desktop/api/bits/nf-bits-ibackgroundcopyerror-getfile">IBackgroundCopyError::GetFile</a>

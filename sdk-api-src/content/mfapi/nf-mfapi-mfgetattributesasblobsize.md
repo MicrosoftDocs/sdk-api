@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Retrieves the size of the buffer needed for the <a href="https://docs.microsoft.com/windows/desktop/api/mfapi/nf-mfapi-mfgetattributesasblob">MFGetAttributesAsBlob</a> function.
+Retrieves the size of the buffer needed for the <a href="/windows/desktop/api/mfapi/nf-mfapi-mfgetattributesasblob">MFGetAttributesAsBlob</a> function.
 
 ## -parameters
 
 ### -param pAttributes [in]
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes">IMFAttributes</a> interface of the attribute store.
+Pointer to the <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes">IMFAttributes</a> interface of the attribute store.
 
 ### -param pcbBufSize [out]
 
@@ -86,13 +86,12 @@ The function succeeded.
 
 ## -remarks
 
-Use this function to find the size of the array that is needed for the <a href="https://docs.microsoft.com/windows/desktop/api/mfapi/nf-mfapi-mfgetattributesasblob">MFGetAttributesAsBlob</a> function.
+Use this function to find the size of the array that is needed for the <a href="/windows/desktop/api/mfapi/nf-mfapi-mfgetattributesasblob">MFGetAttributesAsBlob</a> function.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/attributes-and-properties">Attributes and Properties</a>
+<a href="/windows/desktop/medfound/attributes-and-properties">Attributes and Properties</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>
-
+<a href="/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>

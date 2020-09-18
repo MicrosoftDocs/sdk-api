@@ -52,13 +52,13 @@ api_name:
 
 The 
 <b>ITCustomTone</b> interface exposes methods that allow detailed control over the custom tones that are available with some phone sets. The 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itlegacycallmediacontrol2-createcustomtoneobject">ITLegacyCallMediaControl2::CreateCustomToneObject</a> and 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itlegacycallmediacontrol2-generatecustomtonesbycollection">ITLegacyCallMediaControl2::GenerateCustomTonesByCollection</a> methods create the 
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itlegacycallmediacontrol2-createcustomtoneobject">ITLegacyCallMediaControl2::CreateCustomToneObject</a> and 
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itlegacycallmediacontrol2-generatecustomtonesbycollection">ITLegacyCallMediaControl2::GenerateCustomTonesByCollection</a> methods create the 
 <b>ITCustomTone</b> interface.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITCustomTone</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ITCustomTone</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITCustomTone</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ITCustomTone</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -73,7 +73,7 @@ The <b>ITCustomTone</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itcustomtone-get_cadenceoff">get_CadenceOff</a>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itcustomtone-get_cadenceoff">get_CadenceOff</a>
 </td>
 <td align="left" width="63%">
 Gets the "off" duration, in milliseconds, of the cadence of the custom tone to generate.
@@ -82,7 +82,7 @@ Gets the "off" duration, in milliseconds, of the cadence of the custom tone to g
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itcustomtone-get_cadenceon">get_CadenceOn</a>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itcustomtone-get_cadenceon">get_CadenceOn</a>
 </td>
 <td align="left" width="63%">
 Gets the "on" duration, in milliseconds, of the cadence of the custom tone to generate.
@@ -91,7 +91,7 @@ Gets the "on" duration, in milliseconds, of the cadence of the custom tone to ge
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itcustomtone-get_frequency">get_Frequency</a>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itcustomtone-get_frequency">get_Frequency</a>
 </td>
 <td align="left" width="63%">
 Gets the frequency, in hertz, of the tone component.
@@ -100,7 +100,7 @@ Gets the frequency, in hertz, of the tone component.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itcustomtone-get_volume">get_Volume</a>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itcustomtone-get_volume">get_Volume</a>
 </td>
 <td align="left" width="63%">
 Gets the volume level at which to generate the tone.
@@ -109,7 +109,7 @@ Gets the volume level at which to generate the tone.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itcustomtone-put_cadenceoff">put_CadenceOff</a>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itcustomtone-put_cadenceoff">put_CadenceOff</a>
 </td>
 <td align="left" width="63%">
 Sets the "off" duration, in milliseconds, of the cadence of the custom tone to generate.
@@ -118,7 +118,7 @@ Sets the "off" duration, in milliseconds, of the cadence of the custom tone to g
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itcustomtone-put_cadenceon">put_CadenceOn</a>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itcustomtone-put_cadenceon">put_CadenceOn</a>
 </td>
 <td align="left" width="63%">
 Sets the "on" duration, in milliseconds, of the cadence of the custom tone to generate.
@@ -127,7 +127,7 @@ Sets the "on" duration, in milliseconds, of the cadence of the custom tone to ge
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itcustomtone-put_frequency">put_Frequency</a>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itcustomtone-put_frequency">put_Frequency</a>
 </td>
 <td align="left" width="63%">
 Sets the frequency, in hertz, of the tone component.
@@ -136,7 +136,7 @@ Sets the frequency, in hertz, of the tone component.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itcustomtone-put_volume">put_Volume</a>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itcustomtone-put_volume">put_Volume</a>
 </td>
 <td align="left" width="63%">
 Sets the volume level at which to generate the tone.
@@ -144,4 +144,3 @@ Sets the volume level at which to generate the tone.
 </td>
 </tr>
 </table>
-

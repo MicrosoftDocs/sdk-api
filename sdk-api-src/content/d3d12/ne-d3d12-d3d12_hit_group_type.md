@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Specifies the type of a raytracing hit group state subobject. Use a value from this enumeration with the <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_hit_group_desc">D3D12_HIT_GROUP_DESC</a> structure.
+Specifies the type of a raytracing hit group state subobject. Use a value from this enumeration with the <a href="/windows/desktop/api/d3d12/ns-d3d12-d3d12_hit_group_desc">D3D12_HIT_GROUP_DESC</a> structure.
 
 ## -enum-fields
 
@@ -61,4 +61,3 @@ The hit group uses a list of triangles to calculate ray hits. Hit groups that us
 ### -field D3D12_HIT_GROUP_TYPE_PROCEDURAL_PRIMITIVE
 
 The hit group uses a procedural primitive within a bounding box to calculate ray hits. Hit groups that use procedural primitives must contain an intersection shader.
-

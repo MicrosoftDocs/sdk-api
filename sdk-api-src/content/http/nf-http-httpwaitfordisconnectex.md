@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-This function is an extension to <a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpwaitfordisconnect">HttpWaitForDisconnect</a>.<div class="alert"><b>Note</b>  Calling this API directly in your code is not recommended. Call <a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpwaitfordisconnect">HttpWaitForDisconnect</a> instead.</div>
+This function is an extension to <a href="/windows/desktop/api/http/nf-http-httpwaitfordisconnect">HttpWaitForDisconnect</a>.<div class="alert"><b>Note</b>  Calling this API directly in your code is not recommended. Call <a href="/windows/desktop/api/http/nf-http-httpwaitfordisconnect">HttpWaitForDisconnect</a> instead.</div>
 <div> </div>
 
 ## -parameters
@@ -65,9 +65,8 @@ This function is an extension to <a href="https://docs.microsoft.com/windows/des
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Http/http-server-api-version-2-0-functions">HTTP Server API Version 2.0 Functions</a>
+<a href="/windows/desktop/Http/http-server-api-version-2-0-functions">HTTP Server API Version 2.0 Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa364545(v=vs.85)">HTTP_REQUEST</a>
-
+<a href="/previous-versions/windows/desktop/legacy/aa364545(v=vs.85)">HTTP_REQUEST</a>

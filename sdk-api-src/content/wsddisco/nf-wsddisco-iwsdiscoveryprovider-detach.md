@@ -81,7 +81,7 @@ Method completed successfully.
 </dl>
 </td>
 <td width="60%">
-A callback interface has not been attached. You must call <a href="https://docs.microsoft.com/windows/desktop/api/wsddisco/nf-wsddisco-iwsdiscoveryprovider-attach">Attach</a> before calling this method.
+A callback interface has not been attached. You must call <a href="/windows/desktop/api/wsddisco/nf-wsddisco-iwsdiscoveryprovider-attach">Attach</a> before calling this method.
 
 </td>
 </tr>
@@ -89,11 +89,10 @@ A callback interface has not been attached. You must call <a href="https://docs.
 
 ## -remarks
 
-If a callback interface has been attached to a discovery provider via the <a href="https://docs.microsoft.com/windows/desktop/api/wsddisco/nf-wsddisco-iwsdiscoveryprovider-attach">Attach</a> method, then <b>Detach</b> must be called before releasing the reference to the provider interface object.
+If a callback interface has been attached to a discovery provider via the <a href="/windows/desktop/api/wsddisco/nf-wsddisco-iwsdiscoveryprovider-attach">Attach</a> method, then <b>Detach</b> must be called before releasing the reference to the provider interface object.
 
-The <b>Detach</b> operation blocks until all callbacks into the associated <a href="https://docs.microsoft.com/windows/desktop/api/wsddisco/nn-wsddisco-iwsdiscoveryprovidernotify">IWSDiscoveryProviderNotify</a> object have completed.
+The <b>Detach</b> operation blocks until all callbacks into the associated <a href="/windows/desktop/api/wsddisco/nn-wsddisco-iwsdiscoveryprovidernotify">IWSDiscoveryProviderNotify</a> object have completed.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wsddisco/nn-wsddisco-iwsdiscoveryprovider">IWSDiscoveryProvider</a>
-
+<a href="/windows/desktop/api/wsddisco/nn-wsddisco-iwsdiscoveryprovider">IWSDiscoveryProvider</a>

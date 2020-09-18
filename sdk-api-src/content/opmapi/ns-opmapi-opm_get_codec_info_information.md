@@ -52,13 +52,13 @@ api_name:
 
 ## -description
 
-Contains the result from an <a href="https://docs.microsoft.com/windows/desktop/medfound/opm-get-codec-info">OPM_GET_CODEC_INFO</a> query.
+Contains the result from an <a href="/windows/desktop/medfound/opm-get-codec-info">OPM_GET_CODEC_INFO</a> query.
 
 ## -struct-fields
 
 ### -field rnRandomNumber
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/ksopmapi/ns-ksopmapi-opm_random_number">OPM_RANDOM_NUMBER</a> structure. This structure contains the same 128-bit random number that the application sent to the driver in the <a href="https://docs.microsoft.com/windows/desktop/api/ksopmapi/ns-ksopmapi-opm_get_info_parameters">OPM_GET_INFO_PARAMETERS</a> structure.
+An <a href="/windows/desktop/api/ksopmapi/ns-ksopmapi-opm_random_number">OPM_RANDOM_NUMBER</a> structure. This structure contains the same 128-bit random number that the application sent to the driver in the <a href="/windows/desktop/api/ksopmapi/ns-ksopmapi-opm_get_info_parameters">OPM_GET_INFO_PARAMETERS</a> structure.
 
 ### -field Merit
 
@@ -66,9 +66,8 @@ The merit value of the codec.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/opm-structures">OPM Structures</a>
+<a href="/windows/desktop/medfound/opm-structures">OPM Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/output-protection-manager">Output Protection Manager</a>
-
+<a href="/windows/desktop/medfound/output-protection-manager">Output Protection Manager</a>

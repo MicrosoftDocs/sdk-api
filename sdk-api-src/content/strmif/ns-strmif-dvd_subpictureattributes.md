@@ -52,17 +52,17 @@ api_name:
 
 ## -description
 
-The <code>DVD_SubpictureAttributes</code> structure contains information about the DVD subpicture. The <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdinfo2-getsubpictureattributes">IDvdInfo2::GetSubpictureAttributes</a> method fills in a <code>DVD_SubpictureAttributes</code> structure for a specified stream.
+The <code>DVD_SubpictureAttributes</code> structure contains information about the DVD subpicture. The <a href="/windows/desktop/api/strmif/nf-strmif-idvdinfo2-getsubpictureattributes">IDvdInfo2::GetSubpictureAttributes</a> method fills in a <code>DVD_SubpictureAttributes</code> structure for a specified stream.
 
 ## -struct-fields
 
 ### -field Type
 
-Variable of type [DVD_SUBPICTURE_TYPE](https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-dvd_subpicture_type) that indicates whether the subpicture contains language-related content.
+Variable of type [DVD_SUBPICTURE_TYPE](/windows/desktop/api/strmif/ne-strmif-dvd_subpicture_type) that indicates whether the subpicture contains language-related content.
 
 ### -field CodingMode
 
-Variable of type [DVD_SUBPICTURE_CODING](https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-dvd_subpicture_coding) that indicates how the subpicture graphics stream is encoded.
+Variable of type [DVD_SUBPICTURE_CODING](/windows/desktop/api/strmif/ne-strmif-dvd_subpicture_coding) that indicates how the subpicture graphics stream is encoded.
 
 ### -field Language
 
@@ -70,9 +70,8 @@ Variable of type LCID that identifies the subpicture language if Type equals DVD
 
 ### -field LanguageExtension
 
-Variable of type [DVD_SUBPICTURE_LANG_EXT](https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-dvd_subpicture_lang_ext) that identifies the subpicture language extension if Type equals DVD_SPType_Language.
+Variable of type [DVD_SUBPICTURE_LANG_EXT](/windows/desktop/api/strmif/ne-strmif-dvd_subpicture_lang_ext) that identifies the subpicture language extension if Type equals DVD_SPType_Language.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/directshow-structures">DirectShow Structures</a>
-
+<a href="/windows/desktop/DirectShow/directshow-structures">DirectShow Structures</a>

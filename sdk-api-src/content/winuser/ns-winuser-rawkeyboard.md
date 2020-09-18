@@ -86,13 +86,13 @@ Reserved; must be zero.
 
 Type: <b>USHORT</b>
 
-The corresponding [legacy virtual-key code](https://docs.microsoft.com/windows/win32/inputdev/virtual-key-codes).
+The corresponding [legacy virtual-key code](/windows/win32/inputdev/virtual-key-codes).
 
 ### -field Message
 
 Type: <b>UINT</b>
 
-The corresponding [legacy keyboard window message](https://docs.microsoft.com/windows/win32/inputdev/keyboard-input-notifications), for example [WM_KEYDOWN](https://docs.microsoft.com/windows/win32/inputdev/wm-keydown), [WM_SYSKEYDOWN](https://docs.microsoft.com/windows/win32/inputdev/wm-syskeydown), and so forth.
+The corresponding [legacy keyboard window message](/windows/win32/inputdev/keyboard-input-notifications), for example [WM_KEYDOWN](/windows/win32/inputdev/wm-keydown), [WM_SYSKEYDOWN](/windows/win32/inputdev/wm-syskeydown), and so forth.
 
 ### -field ExtraInformation
 
@@ -102,7 +102,7 @@ The device-specific additional information for the event.
 
 ## -remarks
 
-For a **MakeCode** value [HID client mapper driver](https://docs.microsoft.com/windows-hardware/drivers/hid/keyboard-and-mouse-hid-client-drivers) converts HID usages into scan codes according to [USB HID to PS/2 Scan Code Translation Table](https://download.microsoft.com/download/1/6/1/161ba512-40e2-4cc9-843a-923143f3456c/translate.pdf) (see **PS/2 Set 1 Make** column).
+For a **MakeCode** value [HID client mapper driver](/windows-hardware/drivers/hid/keyboard-and-mouse-hid-client-drivers) converts HID usages into scan codes according to [USB HID to PS/2 Scan Code Translation Table](https://download.microsoft.com/download/1/6/1/161ba512-40e2-4cc9-843a-923143f3456c/translate.pdf) (see **PS/2 Set 1 Make** column).
 
 Older PS/2 keyboards actually transmit Scan Code Set 2 values down the wire from the keyboard to the keyboard port. These values are translated to Scan Code Set 1 by the i8042 port chip. Possible values are listed in [Keyboard Scan Code Specification](http://download.microsoft.com/download/1/6/1/161ba512-40e2-4cc9-843a-923143f3456c/scancode.doc) (see **Scan Code Table**).
 
@@ -116,9 +116,9 @@ Older PS/2 keyboards actually transmit Scan Code Set 2 values down the wire from
 
 [RAWINPUT](ns-winuser-rawinput.md)
 
-[Raw Input](https://docs.microsoft.com/windows/win32/inputdev/raw-input)
+[Raw Input](/windows/win32/inputdev/raw-input)
 
-[Keyboard and mouse HID client drivers](https://docs.microsoft.com/windows-hardware/drivers/hid/keyboard-and-mouse-hid-client-drivers)
+[Keyboard and mouse HID client drivers](/windows-hardware/drivers/hid/keyboard-and-mouse-hid-client-drivers)
 
 <b>Reference</b>
 
@@ -126,5 +126,4 @@ Older PS/2 keyboards actually transmit Scan Code Set 2 values down the wire from
 
 [PS/2 Keyboard Scan Code Specification](http://download.microsoft.com/download/1/6/1/161ba512-40e2-4cc9-843a-923143f3456c/scancode.doc)
 
-[KEYBOARD_INPUT_DATA structure](https://docs.microsoft.com/windows/win32/api/ntddkbd/ns-ntddkbd-keyboard_input_data)
-
+[KEYBOARD_INPUT_DATA structure](../ntddkbd/ns-ntddkbd-keyboard_input_data.md)

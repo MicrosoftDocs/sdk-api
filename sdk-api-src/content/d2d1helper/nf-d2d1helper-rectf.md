@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Creates a <a href="https://docs.microsoft.com/windows/desktop/Direct2D/d2d1-rect-f">D2D1_RECT_F</a> structure that contains the specified dimensions.
+Creates a <a href="/windows/desktop/Direct2D/d2d1-rect-f">D2D1_RECT_F</a> structure that contains the specified dimensions.
 
 ## -parameters
 
@@ -80,7 +80,6 @@ The y-coordinate of the lower-right corner of the rectangle. The default value i
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/Direct2D/d2d1-rect-f">D2D1_RECT_F</a></b>
+Type: <b><a href="/windows/desktop/Direct2D/d2d1-rect-f">D2D1_RECT_F</a></b>
 
 A rectangle structure that contains the specified dimensions.
-

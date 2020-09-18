@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-The [PEER_GROUP_EVENT_DATA](/windows/win32/api/p2p/ns-p2p-peer_group_event_data~r1) structure points to the <b>PEER_EVENT_RECORD_CHANGE_DATA</b> structure if one of the following peer events is triggered:
+The [PEER_GROUP_EVENT_DATA](./ns-p2p-peer_group_event_data~r1.md) structure points to the <b>PEER_EVENT_RECORD_CHANGE_DATA</b> structure if one of the following peer events is triggered:
 <ul>
 <li><b>PEER_GRAPH_EVENT_RECORD_CHANGE</b></li>
 <li><b>PEER_GROUP_EVENT_RECORD_CHANGE</b></li>
@@ -80,13 +80,12 @@ Specifies the unique  record type of a changed record.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_graph_event_data">PEER_GRAPH_EVENT_DATA</a>
+<a href="/windows/desktop/api/p2p/ns-p2p-peer_graph_event_data">PEER_GRAPH_EVENT_DATA</a>
 
 
 
-[PEER_GROUP_EVENT_DATA](/windows/win32/api/p2p/ns-p2p-peer_group_event_data~r1)
+[PEER_GROUP_EVENT_DATA](./ns-p2p-peer_group_event_data~r1.md)
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ne-p2p-peer_record_change_type">PEER_RECORD_CHANGE_TYPE</a>
-
+<a href="/windows/desktop/api/p2p/ne-p2p-peer_record_change_type">PEER_RECORD_CHANGE_TYPE</a>

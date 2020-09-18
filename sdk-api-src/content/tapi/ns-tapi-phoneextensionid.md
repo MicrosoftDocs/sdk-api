@@ -56,8 +56,8 @@ api_name:
 
 The 
 <b>PHONEEXTENSIONID</b> structure describes an extension identifier. Extension identifiers are used to identify service provider-specific extensions for phone device classes. The 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-phonenegotiateapiversion">phoneNegotiateAPIVersion</a> and 
-<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_phonegetextensionid">TSPI_phoneGetExtensionID</a> functions return this structure.
+<a href="/windows/desktop/api/tapi/nf-tapi-phonenegotiateapiversion">phoneNegotiateAPIVersion</a> and 
+<a href="/windows/desktop/api/tspi/nf-tspi-tspi_phonegetextensionid">TSPI_phoneGetExtensionID</a> functions return this structure.
 
 ## -struct-fields
 
@@ -85,9 +85,8 @@ Extension identifiers are generated using an SDK-provided generation utility.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_phonegetextensionid">TSPI_phoneGetExtensionID</a>
+<a href="/windows/desktop/api/tspi/nf-tspi-tspi_phonegetextensionid">TSPI_phoneGetExtensionID</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-phonenegotiateapiversion">phoneNegotiateAPIVersion</a>
-
+<a href="/windows/desktop/api/tapi/nf-tapi-phonenegotiateapiversion">phoneNegotiateAPIVersion</a>

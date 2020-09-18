@@ -50,15 +50,15 @@ api_name:
 
 ## -description
 
-Inserts an <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a> at the insertion point or selection. The client that calls this method must have a read/write lock before inserting an <a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-itextstoreacp-insertembeddedatselection">IDataObject</a> object into the document.
+Inserts an <a href="/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a> at the insertion point or selection. The client that calls this method must have a read/write lock before inserting an <a href="/windows/desktop/api/textstor/nf-textstor-itextstoreacp-insertembeddedatselection">IDataObject</a> object into the document.
 
 ## -parameters
 
 ### -param dwFlags [in]
 
-Specifies whether the <i>pacpStart</i> and <i>pacpEnd</i> parameters and the <a href="https://docs.microsoft.com/windows/desktop/api/textstor/ns-textstor-ts_textchange">TS_TEXTCHANGE</a> structure will contain the results of the object insertion.
+Specifies whether the <i>pacpStart</i> and <i>pacpEnd</i> parameters and the <a href="/windows/desktop/api/textstor/ns-textstor-ts_textchange">TS_TEXTCHANGE</a> structure will contain the results of the object insertion.
 
-The <a href="https://docs.microsoft.com/windows/desktop/TSF/tf-ias--constants">TF_IAS_NOQUERY</a> and TF_IAS_QUERYONLY flags cannot be combined.
+The <a href="/windows/desktop/TSF/tf-ias--constants">TF_IAS_NOQUERY</a> and TF_IAS_QUERYONLY flags cannot be combined.
 
 <table>
 <tr>
@@ -71,7 +71,7 @@ The <a href="https://docs.microsoft.com/windows/desktop/TSF/tf-ias--constants">T
 </dl>
 </td>
 <td width="60%">
-Text insertion will occur, and the <i>pacpStart</i> and <i>pacpEnd</i> parameters will contain the results of the text insertion. The <a href="https://docs.microsoft.com/windows/desktop/api/textstor/ns-textstor-ts_textchange">TS_TEXTCHANGE</a> structure must be filled with this flag.
+Text insertion will occur, and the <i>pacpStart</i> and <i>pacpEnd</i> parameters will contain the results of the text insertion. The <a href="/windows/desktop/api/textstor/ns-textstor-ts_textchange">TS_TEXTCHANGE</a> structure must be filled with this flag.
 
 </td>
 </tr>
@@ -81,7 +81,7 @@ Text insertion will occur, and the <i>pacpStart</i> and <i>pacpEnd</i> parameter
 </dl>
 </td>
 <td width="60%">
-Text is inserted, the values of the <i>pacpStart</i> and <i>pacpEnd</i> parameters can be <b>NULL</b>, and the <a href="https://docs.microsoft.com/windows/desktop/api/textstor/ns-textstor-ts_textchange">TS_TEXTCHANGE</a> structure must be filled. Use this flag if the results of the text insertion are not required.
+Text is inserted, the values of the <i>pacpStart</i> and <i>pacpEnd</i> parameters can be <b>NULL</b>, and the <a href="/windows/desktop/api/textstor/ns-textstor-ts_textchange">TS_TEXTCHANGE</a> structure must be filled. Use this flag if the results of the text insertion are not required.
 
 </td>
 </tr>
@@ -93,7 +93,7 @@ Text is inserted, the values of the <i>pacpStart</i> and <i>pacpEnd</i> paramete
 <td width="60%">
 Text is not inserted, and the values for the <i>pacpStart</i> and <i>pacpEnd</i> parameter contain the results of the text insertion. The values of these parameters depend on how the application implements text insertion into a document. For more information, see the Remarks section.
 
-Use this flag to view the results of the text insertion without actually inserting the text, for example, to predict the results of collapsing or otherwise adjusting a selection. It is not required that you fill the <a href="https://docs.microsoft.com/windows/desktop/api/textstor/ns-textstor-ts_textchange">TS_TEXTCHANGE</a> structure with this flag.
+Use this flag to view the results of the text insertion without actually inserting the text, for example, to predict the results of collapsing or otherwise adjusting a selection. It is not required that you fill the <a href="/windows/desktop/api/textstor/ns-textstor-ts_textchange">TS_TEXTCHANGE</a> structure with this flag.
 
 </td>
 </tr>
@@ -101,7 +101,7 @@ Use this flag to view the results of the text insertion without actually inserti
 
 ### -param pDataObject [in]
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a> object to be inserted.
+Pointer to the <a href="/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a> object to be inserted.
 
 ### -param pacpStart [out]
 
@@ -113,7 +113,7 @@ Pointer to the ending application character position where the object insertion 
 
 ### -param pChange [out]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/textstor/ns-textstor-ts_textchange">TS_TEXTCHANGE</a> structure with the following members.
+Pointer to a <a href="/windows/desktop/api/textstor/ns-textstor-ts_textchange">TS_TEXTCHANGE</a> structure with the following members.
 
 <table>
 <tr>
@@ -198,22 +198,21 @@ The caller does not have a lock on the document.
 
 ## -remarks
 
-The values of the <i>pacpStart</i> and <i>pacpEnd</i> parameters depend upon how the client application inserts an object into a document. For example, if the application sets the cursor at the start of the object after object insertion, then the value of the <i>pacpStart</i> and <i>pacpEnd</i> parameters is the same as the <b>acpStart</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/textstor/ns-textstor-ts_textchange">TS_TEXTCHANGE</a> structure.
+The values of the <i>pacpStart</i> and <i>pacpEnd</i> parameters depend upon how the client application inserts an object into a document. For example, if the application sets the cursor at the start of the object after object insertion, then the value of the <i>pacpStart</i> and <i>pacpEnd</i> parameters is the same as the <b>acpStart</b> member of the <a href="/windows/desktop/api/textstor/ns-textstor-ts_textchange">TS_TEXTCHANGE</a> structure.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a>
+<a href="/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nn-textstor-itextstoreacp2">ITextStoreACP2</a>
+<a href="/windows/desktop/api/textstor/nn-textstor-itextstoreacp2">ITextStoreACP2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/TSF/tf-ias--constants">TF_IAS_* Constants
+<a href="/windows/desktop/TSF/tf-ias--constants">TF_IAS_* Constants
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/textstor/ns-textstor-ts_textchange">TS_TEXTCHANGE</a>
-
+<a href="/windows/desktop/api/textstor/ns-textstor-ts_textchange">TS_TEXTCHANGE</a>

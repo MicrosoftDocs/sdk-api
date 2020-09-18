@@ -178,6 +178,5 @@ Set grp = Nothing
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-enumerations">ADSI
+<a href="/windows/desktop/ADSI/adsi-enumerations">ADSI
   Enumerations</a>
-

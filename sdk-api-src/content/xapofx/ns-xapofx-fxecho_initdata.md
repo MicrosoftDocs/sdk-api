@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Initialization parameters for use with the <a href="https://docs.microsoft.com/windows/desktop/xaudio2/xapofx-overview">FXECHO XAPOFX</a>.
+Initialization parameters for use with the <a href="/windows/desktop/xaudio2/xapofx-overview">FXECHO XAPOFX</a>.
 
 ## -struct-fields
 
@@ -69,5 +69,4 @@ Windows 10 (XAudio2.9); Windows 8, Windows Phone 8 (XAudio 2.8); DirectX SDK
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/xaudio2/structures">Structures</a>
-
+<a href="/windows/desktop/xaudio2/structures">Structures</a>

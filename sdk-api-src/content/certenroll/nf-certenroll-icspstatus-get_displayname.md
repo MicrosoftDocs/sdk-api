@@ -59,16 +59,15 @@ This property is read-only.
 
 ## -remarks
 
-The format of the string returned by this property depends on whether the provider is a CryptoAPI <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">cryptographic service provider</a> (CSP) or a Cryptography API: Next Generation (CNG) provider.<ul>
+The format of the string returned by this property depends on whether the provider is a CryptoAPI <a href="/windows/desktop/SecGloss/c-gly">cryptographic service provider</a> (CSP) or a Cryptography API: Next Generation (CNG) provider.<ul>
 <li>The format of the string for a CSP is <i>ProviderName(KeyType)</i> where <i>KeyType</i> is either "Signature" or "Encryption".</li>
 <li>The format of the string for a CNG provider is <i>AlgorithmName,ProviderName</i> where <i>AlgorithmName</i> can be "Unknown Algorithm".</li>
 </ul>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icspstatus">ICspStatus</a>
+<a href="/windows/desktop/api/certenroll/nn-certenroll-icspstatus">ICspStatus</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icspstatuses">ICspStatuses</a>
-
+<a href="/windows/desktop/api/certenroll/nn-certenroll-icspstatuses">ICspStatuses</a>

@@ -52,11 +52,11 @@ api_name:
 
 Enables an application to track video samples allocated by the enhanced video renderer (EVR).
 
-The stream sinks on the EVR expose this interface as a service. To get a pointer to the interface, call the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfgetservice-getservice">IMFGetService::GetService</a> method, using the <b>MR_VIDEO_ACCELERATION_SERVICE</b> service identifier.
+The stream sinks on the EVR expose this interface as a service. To get a pointer to the interface, call the <a href="/windows/desktop/api/mfidl/nf-mfidl-imfgetservice-getservice">IMFGetService::GetService</a> method, using the <b>MR_VIDEO_ACCELERATION_SERVICE</b> service identifier.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFVideoSampleAllocatorCallback</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFVideoSampleAllocatorCallback</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFVideoSampleAllocatorCallback</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFVideoSampleAllocatorCallback</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>IMFVideoSampleAllocatorCallback</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfvideosampleallocatorcallback-getfreesamplecount">GetFreeSampleCount</a>
+<a href="/windows/desktop/api/mfidl/nf-mfidl-imfvideosampleallocatorcallback-getfreesamplecount">GetFreeSampleCount</a>
 </td>
 <td align="left" width="63%">
 Gets the number of video samples that are currently available for use.
@@ -80,7 +80,7 @@ Gets the number of video samples that are currently available for use.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfvideosampleallocatorcallback-setcallback">SetCallback</a>
+<a href="/windows/desktop/api/mfidl/nf-mfidl-imfvideosampleallocatorcallback-setcallback">SetCallback</a>
 </td>
 <td align="left" width="63%">
 Sets the  callback object that receives notification whenever a video sample is returned to the allocator.
@@ -91,9 +91,8 @@ Sets the  callback object that receives notification whenever a video sample is 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfvideosampleallocator">IMFVideoSampleAllocator</a>
+<a href="/windows/desktop/api/mfidl/nn-mfidl-imfvideosampleallocator">IMFVideoSampleAllocator</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
-
+<a href="/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>

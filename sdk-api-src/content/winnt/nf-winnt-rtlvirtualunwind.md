@@ -131,11 +131,11 @@ The virtual address where control left the specified function.
 ### -param FunctionEntry [in]
 
 The address of the function table entry for the specified function. To obtain the function table entry, call 
-      the <a href="https://docs.microsoft.com/windows/desktop/api/winnt/nf-winnt-rtllookupfunctionentry">RtlLookupFunctionEntry</a> function.
+      the <a href="/windows/desktop/api/winnt/nf-winnt-rtllookupfunctionentry">RtlLookupFunctionEntry</a> function.
 
 ### -param ContextRecord [in, out]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-arm64_nt_context">CONTEXT</a> structure that represents the 
+A pointer to a <a href="/windows/desktop/api/winnt/ns-winnt-arm64_nt_context">CONTEXT</a> structure that represents the 
       context of the previous frame.
 
 ### -param HandlerData [out]
@@ -176,13 +176,12 @@ The complete list of epilogue markers for x64 is as follows:
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-arm64_nt_context">CONTEXT</a>
+<a href="/windows/desktop/api/winnt/ns-winnt-arm64_nt_context">CONTEXT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-exception_record">EXCEPTION_RECORD</a>
+<a href="/windows/desktop/api/winnt/ns-winnt-exception_record">EXCEPTION_RECORD</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/nf-winnt-rtllookupfunctionentry">RtlLookupFunctionEntry</a>
-
+<a href="/windows/desktop/api/winnt/nf-winnt-rtllookupfunctionentry">RtlLookupFunctionEntry</a>

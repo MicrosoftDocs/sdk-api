@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Specifies the type of voice activity detection (VAD) for the voice capture DSP. This enumeration is used with the <a href="https://docs.microsoft.com/windows/desktop/medfound/mfpkey-wmaaecma-featr-vadproperty">MFPKEY_WMAAECMA_FEATR_VAD</a> property.
+Specifies the type of voice activity detection (VAD) for the voice capture DSP. This enumeration is used with the <a href="/windows/desktop/medfound/mfpkey-wmaaecma-featr-vadproperty">MFPKEY_WMAAECMA_FEATR_VAD</a> property.
 
 ## -enum-fields
 
@@ -128,9 +128,8 @@ Voice activity detection for silence suppression. In this mode, the output disti
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>
+<a href="/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/voicecapturedmo">Voice Capture</a>
-
+<a href="/windows/desktop/medfound/voicecapturedmo">Voice Capture</a>

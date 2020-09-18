@@ -52,7 +52,7 @@ api_name:
 ## -description
 
 The <b>MetafileType</b> enumeration specifies types of metafiles. The 
-			<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusmetaheader/nf-gdiplusmetaheader-metafileheader-gettype">MetafileHeader::GetType</a> method returns an element of this enumeration.
+			<a href="/windows/desktop/api/gdiplusmetaheader/nf-gdiplusmetaheader-metafileheader-gettype">MetafileHeader::GetType</a> method returns an element of this enumeration.
 
 ## -enum-fields
 
@@ -82,5 +82,4 @@ Specifies an EMF+ Dual file. Such a file contains GDI+ records along with altern
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusmetaheader/nf-gdiplusmetaheader-metafileheader-gettype">MetafileHeader::GetType</a>
-
+<a href="/windows/desktop/api/gdiplusmetaheader/nf-gdiplusmetaheader-metafileheader-gettype">MetafileHeader::GetType</a>

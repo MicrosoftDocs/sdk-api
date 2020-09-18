@@ -71,7 +71,7 @@ TRUE if the <b>FilePathName</b> field in <i>callbackData</i> refers to a directo
 
 ### -param notification [in]
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/projectedfslib/ne-projectedfslib-prj_notification">PRJ_NOTIFICATION</a>value specifying the notification.
+A <a href="/windows/desktop/api/projectedfslib/ne-projectedfslib-prj_notification">PRJ_NOTIFICATION</a>value specifying the notification.
 
 ### -param destinationFileName [in, optional]
 
@@ -79,7 +79,7 @@ If <b>notification</b> is <b>PRJ_NOTIFICATION_PRE_RENAME </b>or <b>PRJ_NOTIFICAT
 
 ### -param operationParameters [in, out]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/projectedfslib/ns-projectedfslib-prj_notification_parameters">PRJ_NOTIFICATION_PARAMETERS</a> union specifying extra parameters for certain values of <i>notification</i>:
+A pointer to a <a href="/windows/desktop/api/projectedfslib/ns-projectedfslib-prj_notification_parameters">PRJ_NOTIFICATION_PARAMETERS</a> union specifying extra parameters for certain values of <i>notification</i>:
 
 <b>PRJ_NOTIFICATION_FILE_OPENED</b>, <b>PRJ_NOTIFICATION_NEW_FILE_CREATED</b>, or <b>PRJ_NOTIFICATION_FILE_OVERWRITTEN</b><dl>
 <dd>
@@ -174,5 +174,4 @@ An appropriate HRESULT error code if the provider fails the operation. For pre-o
 This callback is optional. If the provider does not supply an implementation of this callback, it will not receive notifications. 
 
 
-The provider registers for the notifications it wishes to receive when it calls <a href="https://docs.microsoft.com/windows/desktop/api/projectedfslib/nf-projectedfslib-prjstartvirtualizing">PrjStartVirtualizing</a>.
-
+The provider registers for the notifications it wishes to receive when it calls <a href="/windows/desktop/api/projectedfslib/nf-projectedfslib-prjstartvirtualizing">PrjStartVirtualizing</a>.

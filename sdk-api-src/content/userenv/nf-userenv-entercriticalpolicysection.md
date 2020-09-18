@@ -64,7 +64,7 @@ A value that specifies whether to stop the application of computer policy or use
 If the function succeeds, the return value is a handle to a policy section.
 
 If the function fails, the return value is <b>NULL</b>. To get extended error information, call the 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function.
 
 ## -remarks
 
@@ -73,19 +73,18 @@ The maximum amount of time an application can hold a critical section is 10 minu
 To acquire both the computer and user critical section objects, acquire the user critical section object before acquiring the computer critical section object. This will help prevent a deadlock situation.
 
 To close the handle, call the 
-<a href="https://docs.microsoft.com/windows/desktop/api/userenv/nf-userenv-leavecriticalpolicysection">LeaveCriticalPolicySection</a> function. The policy section handle cannot be used in any other Windows functions.
+<a href="/windows/desktop/api/userenv/nf-userenv-leavecriticalpolicysection">LeaveCriticalPolicySection</a> function. The policy section handle cannot be used in any other Windows functions.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/Policy/group-policy-functions">Group Policy
+<a href="/previous-versions/windows/desktop/Policy/group-policy-functions">Group Policy
     Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/Policy/about-group-policy">Group Policy
+<a href="/previous-versions/windows/desktop/Policy/about-group-policy">Group Policy
     Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/userenv/nf-userenv-leavecriticalpolicysection">LeaveCriticalPolicySection</a>
-
+<a href="/windows/desktop/api/userenv/nf-userenv-leavecriticalpolicysection">LeaveCriticalPolicySection</a>

@@ -56,11 +56,11 @@ Creates a new list element.
 
 ### -param KeyData [in]
 
-The information for the key that defines the identity of the new list item. To determine the  correct value for the key data parameter, consult the information returned from <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wcmconfig/nf-wcmconfig-isettingsitem-getlistkeyinformation">ISettingsItem::GetListKeyInformation</a>. The variant obtained from <b>ISettingsItem::GetListKeyInformation</b> should be coercible to the type of the key. If the <b>ISettingsItem::GetListKeyInformation</b> method returns <b>S_FALSE</b>, use a string type for the key data.
+The information for the key that defines the identity of the new list item. To determine the  correct value for the key data parameter, consult the information returned from <a href="/previous-versions/windows/desktop/api/wcmconfig/nf-wcmconfig-isettingsitem-getlistkeyinformation">ISettingsItem::GetListKeyInformation</a>. The variant obtained from <b>ISettingsItem::GetListKeyInformation</b> should be coercible to the type of the key. If the <b>ISettingsItem::GetListKeyInformation</b> method returns <b>S_FALSE</b>, use a string type for the key data.
 
 ### -param Child [out]
 
-A pointer to the  newly created <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wcmconfig/nn-wcmconfig-isettingsitem">ISettingsItem</a> list item.
+A pointer to the  newly created <a href="/previous-versions/windows/desktop/api/wcmconfig/nn-wcmconfig-isettingsitem">ISettingsItem</a> list item.
 
 ## -returns
 
@@ -119,10 +119,9 @@ Indicates that the item cannot be written, either because  it is a read-only ite
 
 ## -remarks
 
-<div class="alert"><b>Note</b>  When creating a scalar list item, you must set a value on the resulting <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wcmconfig/nn-wcmconfig-isettingsitem">ISettingsItem</a> before releasing it, or it will not be persisted.</div>
+<div class="alert"><b>Note</b>  When creating a scalar list item, you must set a value on the resulting <a href="/previous-versions/windows/desktop/api/wcmconfig/nn-wcmconfig-isettingsitem">ISettingsItem</a> before releasing it, or it will not be persisted.</div>
 <div> </div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wcmconfig/nn-wcmconfig-isettingsitem">ISettingsItem</a>
-
+<a href="/previous-versions/windows/desktop/api/wcmconfig/nn-wcmconfig-isettingsitem">ISettingsItem</a>

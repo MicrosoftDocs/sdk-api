@@ -50,25 +50,24 @@ api_name:
 
 ## -description
 
-Sets the style of a button. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/bm-setstyle">BM_SETSTYLE</a> message explicitly.
+Sets the style of a button. You can use this macro or send the <a href="/windows/desktop/Controls/bm-setstyle">BM_SETSTYLE</a> message explicitly.
 
 ## -parameters
 
 ### -param hwndCtl
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the button control.
 
 ### -param style
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
-The button style. This parameter can be a combination of button styles. For a table of button styles, see <a href="https://docs.microsoft.com/windows/desktop/Controls/button-styles">Button Styles</a>.
+The button style. This parameter can be a combination of button styles. For a table of button styles, see <a href="/windows/desktop/Controls/button-styles">Button Styles</a>.
 
 ### -param fRedraw
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
 
 <b>TRUE</b> to redraw the button; otherwise <b>FALSE</b>.
-

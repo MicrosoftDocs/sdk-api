@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Implements methods that enable the client to get information from an event information table (EIT) in a Protected Broadcast  Device Architecture (PBDA) transport stream. The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvbsiparser-geteit">IPBDASiParser::GetEIT</a> method returns a pointer to this interface.
+Implements methods that enable the client to get information from an event information table (EIT) in a Protected Broadcast  Device Architecture (PBDA) transport stream. The <a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvbsiparser-geteit">IPBDASiParser::GetEIT</a> method returns a pointer to this interface.
 
 An EIT provides information about events in each service, such as the event name, the start time, and the duration. An EIT can hold information about the transport stream that carries it, or it can hold information about other transport streams. There are two types of EITs:
 <ul>
@@ -74,7 +74,7 @@ An EIT provides information about events in each service, such as the event name
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPBDA_EIT</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPBDA_EIT</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPBDA_EIT</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPBDA_EIT</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -89,7 +89,7 @@ The <b>IPBDA_EIT</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-ipbda_eit-getcountofrecords">GetCountOfRecords</a>
+<a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-ipbda_eit-getcountofrecords">GetCountOfRecords</a>
 </td>
 <td align="left" width="63%">
 Gets the number of  event records in the EIT.
@@ -99,7 +99,7 @@ Gets the number of  event records in the EIT.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-ipbda_eit-getrecordcountofdescriptors">GetRecordCountOfDescriptors</a>
+<a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-ipbda_eit-getrecordcountofdescriptors">GetRecordCountOfDescriptors</a>
 </td>
 <td align="left" width="63%">
 Get the number of descriptors associated with an event record in the EIT.
@@ -109,7 +109,7 @@ Get the number of descriptors associated with an event record in the EIT.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd694801(v=vs.85)">GetRecordDescriptorByIndex</a>
+<a href="/previous-versions/windows/desktop/legacy/dd694801(v=vs.85)">GetRecordDescriptorByIndex</a>
 </td>
 <td align="left" width="63%">
 Gets an event record descriptor from the EIT based on the record's position in the descriptor list.
@@ -119,7 +119,7 @@ Gets an event record descriptor from the EIT based on the record's position in t
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-ipbda_eit-getrecorddescriptorbytag">GetRecordDescriptorByTag</a>
+<a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-ipbda_eit-getrecorddescriptorbytag">GetRecordDescriptorByTag</a>
 </td>
 <td align="left" width="63%">
 Gets an event record descriptor from the EIT based on the record's identifying tag.
@@ -129,7 +129,7 @@ Gets an event record descriptor from the EIT based on the record's identifying t
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-ipbda_eit-getrecordduration">GetRecordDuration</a>
+<a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-ipbda_eit-getrecordduration">GetRecordDuration</a>
 </td>
 <td align="left" width="63%">
 Gets the event duration from an event record in the EIT.
@@ -139,7 +139,7 @@ Gets the event duration from an event record in the EIT.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-ipbda_eit-getrecordeventid">GetRecordEventId</a>
+<a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-ipbda_eit-getrecordeventid">GetRecordEventId</a>
 </td>
 <td align="left" width="63%">
 Gets the identifier from an  event record in the EIT.
@@ -149,7 +149,7 @@ Gets the identifier from an  event record in the EIT.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-ipbda_eit-getrecordstarttime">GetRecordStartTime</a>
+<a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-ipbda_eit-getrecordstarttime">GetRecordStartTime</a>
 </td>
 <td align="left" width="63%">
 Gets the event start time from an event record in the EIT.
@@ -159,7 +159,7 @@ Gets the event start time from an event record in the EIT.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-ipbda_eit-getserviceidx">GetServiceIdx</a>
+<a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-ipbda_eit-getserviceidx">GetServiceIdx</a>
 </td>
 <td align="left" width="63%">
 Gets the service identifier from the EIT.
@@ -169,7 +169,7 @@ Gets the service identifier from the EIT.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-ipbda_eit-gettableid">GetTableId</a>
+<a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-ipbda_eit-gettableid">GetTableId</a>
 </td>
 <td align="left" width="63%">
 Gets the table identifier from the EIT.
@@ -179,7 +179,7 @@ Gets the table identifier from the EIT.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-ipbda_eit-getversionnumber">GetVersionNumber</a>
+<a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-ipbda_eit-getversionnumber">GetVersionNumber</a>
 </td>
 <td align="left" width="63%">
 Gets the version number from the EIT.
@@ -189,7 +189,7 @@ Gets the version number from the EIT.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-ipbda_eit-initialize">Initialize</a>
+<a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-ipbda_eit-initialize">Initialize</a>
 </td>
 <td align="left" width="63%">
 Initializes the object.
@@ -198,4 +198,3 @@ Initializes the object.
 </td>
 </tr>
 </table>
-

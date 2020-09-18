@@ -57,10 +57,10 @@ Places a lock on the file that is being used.
 ### -param hInternet [in]
 
 Handle returned by 
-the <a href="https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-ftpopenfilea">FtpOpenFile</a>, 
-<a href="https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-gopheropenfilea">GopherOpenFile</a>, 
-<a href="https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-httpopenrequesta">HttpOpenRequest</a>, or 
-<a href="https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-internetopenurla">InternetOpenUrl</a> function.
+the <a href="/windows/desktop/api/wininet/nf-wininet-ftpopenfilea">FtpOpenFile</a>, 
+<a href="/windows/desktop/api/wininet/nf-wininet-gopheropenfilea">GopherOpenFile</a>, 
+<a href="/windows/desktop/api/wininet/nf-wininet-httpopenrequesta">HttpOpenRequest</a>, or 
+<a href="/windows/desktop/api/wininet/nf-wininet-internetopenurla">InternetOpenUrl</a> function.
 
 ### -param lphLockRequestInfo [out]
 
@@ -69,31 +69,30 @@ Pointer to a handle that receives the lock request handle.
 ## -returns
 
 Returns <b>TRUE</b> if successful, or <b>FALSE</b> otherwise. To get a specific error message, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
 If the 
-<a href="https://docs.microsoft.com/windows/desktop/WinInet/appendix-a-hinternet-handles">HINTERNET</a> handle passed to 
+<a href="/windows/desktop/WinInet/appendix-a-hinternet-handles">HINTERNET</a> handle passed to 
 <i>hInternet</i> was created using 
-<a href="https://docs.microsoft.com/windows/desktop/WinInet/api-flags">INTERNET_FLAG_NO_CACHE_WRITE</a> or 
-<a href="https://docs.microsoft.com/windows/desktop/WinInet/api-flags">INTERNET_FLAG_DONT_CACHE</a>, the function creates a temporary file with the extension .tmp, unless it is an HTTPS resource. If the handle was created using <b>INTERNET_FLAG_NO_CACHE_WRITE</b> or <b>INTERNET_FLAG_DONT_CACHE</b> and it is accessing an HTTPS resource, 
+<a href="/windows/desktop/WinInet/api-flags">INTERNET_FLAG_NO_CACHE_WRITE</a> or 
+<a href="/windows/desktop/WinInet/api-flags">INTERNET_FLAG_DONT_CACHE</a>, the function creates a temporary file with the extension .tmp, unless it is an HTTPS resource. If the handle was created using <b>INTERNET_FLAG_NO_CACHE_WRITE</b> or <b>INTERNET_FLAG_DONT_CACHE</b> and it is accessing an HTTPS resource, 
 <b>InternetLockRequestFile</b> fails.
 
 Like all other aspects of the WinINet API, this function cannot be safely called from within DllMain or the constructors and destructors of global objects.
 
-<div class="alert"><b>Note</b>  WinINet does not support server implementations. In addition, it should not be used from a service.  For server implementations or services use <a href="https://docs.microsoft.com/windows/desktop/WinHttp/winhttp-start-page">Microsoft Windows HTTP Services (WinHTTP)</a>.</div>
+<div class="alert"><b>Note</b>  WinINet does not support server implementations. In addition, it should not be used from a service.  For server implementations or services use <a href="/windows/desktop/WinHttp/winhttp-start-page">Microsoft Windows HTTP Services (WinHTTP)</a>.</div>
 <div> </div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/WinInet/enabling-internet-functionality">Enabling Internet Functionality</a>
+<a href="/windows/desktop/WinInet/enabling-internet-functionality">Enabling Internet Functionality</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-internetunlockrequestfile">InternetUnlockRequestFile</a>
+<a href="/windows/desktop/api/wininet/nf-wininet-internetunlockrequestfile">InternetUnlockRequestFile</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WinInet/wininet-functions">WinINet Functions</a>
-
+<a href="/windows/desktop/WinInet/wininet-functions">WinINet Functions</a>

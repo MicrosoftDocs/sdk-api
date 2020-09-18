@@ -50,11 +50,11 @@ api_name:
 
 ## -description
 
-The <b>IMDSPStorage2</b> interface extends <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-imdspstorage">IMDSPStorage</a> by providing methods for getting and setting extended attributes and making it possible to get a pointer to a storage medium from its name. This interface also extends the <b>CreateStorage</b> method of the <b>IMDSPStorage</b> interface.
+The <b>IMDSPStorage2</b> interface extends <a href="/windows/desktop/api/mswmdm/nn-mswmdm-imdspstorage">IMDSPStorage</a> by providing methods for getting and setting extended attributes and making it possible to get a pointer to a storage medium from its name. This interface also extends the <b>CreateStorage</b> method of the <b>IMDSPStorage</b> interface.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMDSPStorage2</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-imdspstorage">IMDSPStorage</a>. <b>IMDSPStorage2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMDSPStorage2</b> interface inherits from <a href="/windows/desktop/api/mswmdm/nn-mswmdm-imdspstorage">IMDSPStorage</a>. <b>IMDSPStorage2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IMDSPStorage2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-imdspstorage2-createstorage2">CreateStorage2</a>
+<a href="/windows/desktop/api/mswmdm/nf-mswmdm-imdspstorage2-createstorage2">CreateStorage2</a>
 </td>
 <td align="left" width="63%">
 Creates storage for a file to be copied to a device.
@@ -78,7 +78,7 @@ Creates storage for a file to be copied to a device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-imdspstorage2-getattributes2">GetAttributes2</a>
+<a href="/windows/desktop/api/mswmdm/nf-mswmdm-imdspstorage2-getattributes2">GetAttributes2</a>
 </td>
 <td align="left" width="63%">
 Gets attributes of files or storages.
@@ -87,7 +87,7 @@ Gets attributes of files or storages.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-imdspstorage2-getstorage">GetStorage</a>
+<a href="/windows/desktop/api/mswmdm/nf-mswmdm-imdspstorage2-getstorage">GetStorage</a>
 </td>
 <td align="left" width="63%">
 Gets a storage pointer and a string containing the name.
@@ -96,7 +96,7 @@ Gets a storage pointer and a string containing the name.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-imdspstorage2-setattributes2">SetAttributes2</a>
+<a href="/windows/desktop/api/mswmdm/nf-mswmdm-imdspstorage2-setattributes2">SetAttributes2</a>
 </td>
 <td align="left" width="63%">
 Sets storage attributes.
@@ -107,17 +107,16 @@ Sets storage attributes.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-imdspstorage">IMDSPStorage Interface</a>
+<a href="/windows/desktop/api/mswmdm/nn-mswmdm-imdspstorage">IMDSPStorage Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-imdspstorage3">IMDSPStorage3 Interface</a>
+<a href="/windows/desktop/api/mswmdm/nn-mswmdm-imdspstorage3">IMDSPStorage3 Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-imdspstorage4">IMDSPStorage4 Interface</a>
+<a href="/windows/desktop/api/mswmdm/nn-mswmdm-imdspstorage4">IMDSPStorage4 Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WMDM/interfaces-for-service-providers">Interfaces for Service Providers</a>
-
+<a href="/windows/desktop/WMDM/interfaces-for-service-providers">Interfaces for Service Providers</a>

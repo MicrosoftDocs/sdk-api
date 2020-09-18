@@ -56,11 +56,11 @@ A mastering voice is used to represent the audio output device.
 Data buffers cannot be submitted directly to mastering voices, but data submitted to other types of voices must be directed to a mastering voice to be heard. 
 
 
-<b>IXAudio2MasteringVoice</b> inherits directly from <a href="https://docs.microsoft.com/windows/desktop/api/xaudio2/nn-xaudio2-ixaudio2voice">IXAudio2Voice</a>, but does not implement methods specific to mastering voices. The interface type exists solely because some of the base class methods are implemented differently for mastering voices. Having a separate type for these voices helps client code to distinguish the different voice types and to benefit from C++ type safety.
+<b>IXAudio2MasteringVoice</b> inherits directly from <a href="/windows/desktop/api/xaudio2/nn-xaudio2-ixaudio2voice">IXAudio2Voice</a>, but does not implement methods specific to mastering voices. The interface type exists solely because some of the base class methods are implemented differently for mastering voices. Having a separate type for these voices helps client code to distinguish the different voice types and to benefit from C++ type safety.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IXAudio2MasteringVoice</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/xaudio2/nn-xaudio2-ixaudio2voice">IXAudio2Voice</a>. <b>IXAudio2MasteringVoice</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IXAudio2MasteringVoice</b> interface inherits from <a href="/windows/desktop/api/xaudio2/nn-xaudio2-ixaudio2voice">IXAudio2Voice</a>. <b>IXAudio2MasteringVoice</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -75,7 +75,7 @@ The <b>IXAudio2MasteringVoice</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2masteringvoice-getchannelmask">GetChannelMask</a>
+<a href="/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2masteringvoice-getchannelmask">GetChannelMask</a>
 </td>
 <td align="left" width="63%">
 Returns the channel mask for the mastering voice.
@@ -91,9 +91,8 @@ Windows 10 (XAudio2.9); Windows 8, Windows Phone 8 (XAudio 2.8); DirectX SDK
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xaudio2/nn-xaudio2-ixaudio2voice">IXAudio2Voice</a>
+<a href="/windows/desktop/api/xaudio2/nn-xaudio2-ixaudio2voice">IXAudio2Voice</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/xaudio2/interfaces">XAudio2 Interfaces</a>
-
+<a href="/windows/desktop/xaudio2/interfaces">XAudio2 Interfaces</a>

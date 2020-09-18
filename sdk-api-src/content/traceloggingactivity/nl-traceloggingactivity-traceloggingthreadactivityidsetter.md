@@ -63,7 +63,7 @@ Tags a thread with an activity id so ETW marks all events in that thread with th
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/traceloggingactivity/nf-traceloggingactivity-traceloggingthreadactivityidsetter-traceloggingthreadactivityidsetter(constguid)">TraceLoggingThreadActivityIdSetter Constructor</a>
+<a href="/windows/desktop/api/traceloggingactivity/nf-traceloggingactivity-traceloggingthreadactivityidsetter-traceloggingthreadactivityidsetter(constguid)">TraceLoggingThreadActivityIdSetter Constructor</a>
 </td>
 <td align="left" width="63%">
 Creates a new <b>TraceLoggingThreadActivityIdSetter</b> object.
@@ -72,7 +72,7 @@ Creates a new <b>TraceLoggingThreadActivityIdSetter</b> object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/traceloggingactivity/nf-traceloggingactivity-traceloggingthreadactivityidsetter-~traceloggingthreadactivityidsetter">TraceLoggingThreadActivityIDSetter Constructor</a>
+<a href="/windows/desktop/api/traceloggingactivity/nf-traceloggingactivity-traceloggingthreadactivityidsetter-~traceloggingthreadactivityidsetter">TraceLoggingThreadActivityIDSetter Constructor</a>
 </td>
 <td align="left" width="63%">
 Saves the original activity ID and sets a new activity on the thread.
@@ -81,7 +81,7 @@ Saves the original activity ID and sets a new activity on the thread.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/traceloggingactivity/nf-traceloggingactivity-traceloggingthreadactivityidsetter-~traceloggingthreadactivityidsetter">TraceLoggingThreadActivityIdSetter Destructor</a>
+<a href="/windows/desktop/api/traceloggingactivity/nf-traceloggingactivity-traceloggingthreadactivityidsetter-~traceloggingthreadactivityidsetter">TraceLoggingThreadActivityIdSetter Destructor</a>
 </td>
 <td align="left" width="63%">
 Restores the original activity ID to the thread.
@@ -99,4 +99,3 @@ All activity that occurs in a thread will be tagged with the associated activity
 
 </div>
 <div> </div>
-

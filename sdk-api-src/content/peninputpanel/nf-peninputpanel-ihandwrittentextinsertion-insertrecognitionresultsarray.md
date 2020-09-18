@@ -76,5 +76,4 @@ This element is declared in Peninputpanel.h.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/peninputpanel/nn-peninputpanel-ihandwrittentextinsertion">IHandWrittenTextInsertion</a>
-
+<a href="/windows/desktop/api/peninputpanel/nn-peninputpanel-ihandwrittentextinsertion">IHandWrittenTextInsertion</a>

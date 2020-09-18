@@ -56,7 +56,7 @@ Converts an image to JPEG or bitmap (BMP) image format.
 
 ### -param pShellItem [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a>*</b>
+Type: <b><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a>*</b>
 
 The Shell Item for the image to convert.
 
@@ -94,7 +94,7 @@ Convert the image to JPEG format.
 
 ### -param pvImage
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a>*</b>
+Type: <b><a href="/windows/desktop/api/objidl/nn-objidl-istream">IStream</a>*</b>
 
 A stream to receive the converted image. The stream must be created by the calling code prior to calling <b>TranscodeImage</b>.
 
@@ -125,4 +125,3 @@ The aspect ratio of the original image is preserved.
 The image size will not be changed if the original image already fits in this bounding box.
 
 If both uiMaxWidth and uiMaxHeight are zero, the returned image will be the same size as the original.
-

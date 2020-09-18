@@ -64,11 +64,11 @@ api_name:
 
 <p class="CCE_Message">[This property is no longer available for use as of Windows Server 2008 and Windows Vista.]
 
-The <b>RootStoreName</b> property sets or retrieves the name of the root store where all intrinsically trusted, self-signed <a href="https://docs.microsoft.com/windows/desktop/SecGloss/r-gly">root certificates</a> are kept.
+The <b>RootStoreName</b> property sets or retrieves the name of the root store where all intrinsically trusted, self-signed <a href="/windows/desktop/SecGloss/r-gly">root certificates</a> are kept.
 
- The default value for this property is "ROOT". Because of the level of trust associated with the root store, the user may be prompted (by means of the user interface) to accept the certificate. Although this property need not be changed for many applications, to avoid the user interface associated with trusting <a href="https://docs.microsoft.com/windows/desktop/SecGloss/r-gly">root certificates</a>, a possibility is to set <b>RootStoreName</b> to "CA".
+ The default value for this property is "ROOT". Because of the level of trust associated with the root store, the user may be prompted (by means of the user interface) to accept the certificate. Although this property need not be changed for many applications, to avoid the user interface associated with trusting <a href="/windows/desktop/SecGloss/r-gly">root certificates</a>, a possibility is to set <b>RootStoreName</b> to "CA".
 
-This property was first defined in the <a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nn-xenroll-icenroll">ICEnroll</a> interface.
+This property was first defined in the <a href="/windows/desktop/api/xenroll/nn-xenroll-icenroll">ICEnroll</a> interface.
 
 This property is read/write.
 
@@ -80,10 +80,10 @@ This property is read/write.
 
 <ul>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-icenroll-acceptpkcs7">acceptPKCS7</a>
+<a href="/windows/desktop/api/xenroll/nf-xenroll-icenroll-acceptpkcs7">acceptPKCS7</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-icenroll-acceptfilepkcs7">acceptFilePKCS7</a>
+<a href="/windows/desktop/api/xenroll/nf-xenroll-icenroll-acceptfilepkcs7">acceptFilePKCS7</a>
 </li>
 </ul>
 
@@ -118,4 +118,3 @@ if ( FAILED ( hr ) )
 else
     printf( "RootStoreName was set to : %ws\n", bstrNewName );
 ```
-

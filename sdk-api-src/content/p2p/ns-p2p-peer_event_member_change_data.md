@@ -72,13 +72,12 @@ Pointer to a Unicode string that contains the peer name of the peer group member
 
 ## -see-also
 
-[PEER_GROUP_EVENT_DATA](/windows/win32/api/p2p/ns-p2p-peer_group_event_data~r1)
+[PEER_GROUP_EVENT_DATA](./ns-p2p-peer_group_event_data~r1.md)
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_group_event_registration">PEER_GROUP_EVENT_REGISTRATION</a>
+<a href="/windows/desktop/api/p2p/ns-p2p-peer_group_event_registration">PEER_GROUP_EVENT_REGISTRATION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ne-p2p-peer_member_change_type">PEER_MEMBER_CHANGE_TYPE</a>
-
+<a href="/windows/desktop/api/p2p/ne-p2p-peer_member_change_type">PEER_MEMBER_CHANGE_TYPE</a>

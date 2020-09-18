@@ -54,9 +54,9 @@ api_name:
 
 ## -description
 
-The <b>ADS_ATTR_INFO</b> structure is used to contain one or more attribute values for use with the <a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-idirectoryobject-createdsobject">IDirectoryObject::CreateDSObject</a>,
-   <a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-idirectoryobject-getobjectattributes">IDirectoryObject::GetObjectAttributes</a>, or 
-   <a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-idirectoryobject-setobjectattributes">IDirectoryObject::SetObjectAttributes</a> method.
+The <b>ADS_ATTR_INFO</b> structure is used to contain one or more attribute values for use with the <a href="/windows/desktop/api/iads/nf-iads-idirectoryobject-createdsobject">IDirectoryObject::CreateDSObject</a>,
+   <a href="/windows/desktop/api/iads/nf-iads-idirectoryobject-getobjectattributes">IDirectoryObject::GetObjectAttributes</a>, or 
+   <a href="/windows/desktop/api/iads/nf-iads-idirectoryobject-setobjectattributes">IDirectoryObject::SetObjectAttributes</a> method.
 
 ## -struct-fields
 
@@ -66,7 +66,7 @@ The null-terminated Unicode string that contains the attribute name.
 
 ### -field dwControlCode
 
-Contains one of the <a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-attribute-modification-types">ADSI Attribute Modification Types</a> values that determines the type of operation to be performed on the attribute value.
+Contains one of the <a href="/windows/desktop/ADSI/adsi-attribute-modification-types">ADSI Attribute Modification Types</a> values that determines the type of operation to be performed on the attribute value.
 
 ### -field dwADsType
 
@@ -74,7 +74,7 @@ A value from the  <a href="/windows/win32/api/iads/ne-iads-adstypeenum">ADSTYPEE
 
 ### -field pADsValues
 
-Pointer to an array of  <a href="https://docs.microsoft.com/windows/desktop/api/iads/ns-iads-adsvalue">ADSVALUE</a> structures that contain values for the attribute.
+Pointer to an array of  <a href="/windows/desktop/api/iads/ns-iads-adsvalue">ADSVALUE</a> structures that contain values for the attribute.
 
 ### -field dwNumValues
 
@@ -82,23 +82,23 @@ Size of the <b>pADsValues</b> array.
 
 ## -remarks
 
-In ADSI, attributes and properties are used interchangeably. Set attributes, when creating a directory service object, using the  <a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-idirectoryobject-createdsobject">IDirectoryObject::CreateDSObject</a> method. The  <a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-idirectoryobject">IDirectoryObject</a> interface also supports the  <a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-idirectoryobject-getobjectattributes">IDirectoryObject::GetObjectAttributes</a> and  <a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-idirectoryobject-setobjectattributes">IDirectoryObject::SetObjectAttributes</a> methods for retrieving and modifying the attributes of the object in a directory.
+In ADSI, attributes and properties are used interchangeably. Set attributes, when creating a directory service object, using the  <a href="/windows/desktop/api/iads/nf-iads-idirectoryobject-createdsobject">IDirectoryObject::CreateDSObject</a> method. The  <a href="/windows/desktop/api/iads/nn-iads-idirectoryobject">IDirectoryObject</a> interface also supports the  <a href="/windows/desktop/api/iads/nf-iads-idirectoryobject-getobjectattributes">IDirectoryObject::GetObjectAttributes</a> and  <a href="/windows/desktop/api/iads/nf-iads-idirectoryobject-setobjectattributes">IDirectoryObject::SetObjectAttributes</a> methods for retrieving and modifying the attributes of the object in a directory.
 
-Memory for the array of <a href="https://docs.microsoft.com/windows/desktop/api/iads/ns-iads-adsvalue">ADSVALUE</a> structures is not allocated with this structure.
+Memory for the array of <a href="/windows/desktop/api/iads/ns-iads-adsvalue">ADSVALUE</a> structures is not allocated with this structure.
 
 The value of the <b>dwControlCode</b> member is ignored when the structure is used as an OUT parameter.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-attribute-modification-types">ADSI Attribute Modification Types</a>
+<a href="/windows/desktop/ADSI/adsi-attribute-modification-types">ADSI Attribute Modification Types</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-constants">ADSI Constants</a>
+<a href="/windows/desktop/ADSI/adsi-constants">ADSI Constants</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-structures">ADSI Structures</a>
+<a href="/windows/desktop/ADSI/adsi-structures">ADSI Structures</a>
 
 
 
@@ -106,17 +106,16 @@ The value of the <b>dwControlCode</b> member is ignored when the structure is us
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-idirectoryobject">IDirectoryObject</a>
+<a href="/windows/desktop/api/iads/nn-iads-idirectoryobject">IDirectoryObject</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-idirectoryobject-createdsobject">IDirectoryObject::CreateDSObject</a>
+<a href="/windows/desktop/api/iads/nf-iads-idirectoryobject-createdsobject">IDirectoryObject::CreateDSObject</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-idirectoryobject-getobjectattributes">IDirectoryObject::GetObjectAttributes</a>
+<a href="/windows/desktop/api/iads/nf-iads-idirectoryobject-getobjectattributes">IDirectoryObject::GetObjectAttributes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-idirectoryobject-setobjectattributes">IDirectoryObject::SetObjectAttributes</a>
-
+<a href="/windows/desktop/api/iads/nf-iads-idirectoryobject-setobjectattributes">IDirectoryObject::SetObjectAttributes</a>

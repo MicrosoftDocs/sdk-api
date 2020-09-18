@@ -51,9 +51,8 @@ api_name:
 
 ## -description
 
-The <b>IAzClientContext3::BizRuleInterfaces</b> method gets the collection of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interfaces that can be called by the business rule (BizRule) script associated with this client context.
+The <b>IAzClientContext3::BizRuleInterfaces</b> method gets the collection of <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interfaces that can be called by the business rule (BizRule) script associated with this client context.
 
 This property is read-only.
 
 ## -parameters
-

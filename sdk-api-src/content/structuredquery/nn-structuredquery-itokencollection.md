@@ -54,7 +54,7 @@ Gets the tokens that result from using a word breaker.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITokenCollection</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITokenCollection</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITokenCollection</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITokenCollection</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ITokenCollection</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/structuredquery/nf-structuredquery-itokencollection-gettoken">GetToken</a>
+<a href="/windows/desktop/api/structuredquery/nf-structuredquery-itokencollection-gettoken">GetToken</a>
 </td>
 <td align="left" width="63%">
 Retrieves the position, length, and any overriding string of an individual token.
@@ -78,7 +78,7 @@ Retrieves the position, length, and any overriding string of an individual token
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/structuredquery/nf-structuredquery-itokencollection-numberoftokens">NumberOfTokens</a>
+<a href="/windows/desktop/api/structuredquery/nf-structuredquery-itokencollection-numberoftokens">NumberOfTokens</a>
 </td>
 <td align="left" width="63%">
 Retrieves the number of tokens in the collection.
@@ -86,4 +86,3 @@ Retrieves the number of tokens in the collection.
 </td>
 </tr>
 </table>
-

@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Specifies width values in pixels and includes special support for default and autosize. Used by members of the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-icolumnmanager">IColumnManager</a> interface through the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ns-shobjidl_core-cm_columninfo">CM_COLUMNINFO</a> structure.
+Specifies width values in pixels and includes special support for default and autosize. Used by members of the <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-icolumnmanager">IColumnManager</a> interface through the <a href="/windows/desktop/api/shobjidl_core/ns-shobjidl_core-cm_columninfo">CM_COLUMNINFO</a> structure.
 
 ## -enum-fields
 
@@ -61,4 +61,3 @@ Use the default width.
 ### -field CM_WIDTH_AUTOSIZE
 
 Use the auto-size width.
-

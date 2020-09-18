@@ -85,9 +85,9 @@ A flag that can be used to control the search. It can be any combination of the 
 
 ### -param str [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/ne-shlwapi-assocstr">ASSOCSTR</a></b>
+Type: <b><a href="/windows/desktop/api/shlwapi/ne-shlwapi-assocstr">ASSOCSTR</a></b>
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/ne-shlwapi-assocstr">ASSOCSTR</a> value that specifies the type of string that is to be returned.
+An <a href="/windows/desktop/api/shlwapi/ne-shlwapi-assocstr">ASSOCSTR</a> value that specifies the type of string that is to be returned.
 
 ### -param pszExtra [in, optional]
 
@@ -137,4 +137,3 @@ Returns a standard COM error value, including the following:
 <td><i>pwszOut</i> is <b>NULL</b>. <i>pcchOut</i> contains the required buffer size.</td>
 </tr>
 </table>
-

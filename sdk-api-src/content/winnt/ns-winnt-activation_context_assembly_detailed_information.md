@@ -56,7 +56,7 @@ api_name:
 
 The 
 <b>ACTIVATION_CONTEXT_ASSEMBLY_DETAILED_INFORMATION</b> structure is used by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-queryactctxw">QueryActCtxW</a> function.
+<a href="/windows/desktop/api/winbase/nf-winbase-queryactctxw">QueryActCtxW</a> function.
 
 ## -struct-fields
 
@@ -101,14 +101,14 @@ Metadata satellite roster index.
 ### -field ulManifestVersionMajor
 
 Major version of the assembly queried by 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-queryactctxw">QueryActCtxW</a>. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/SbsCs/assembly-versions">Assembly Versions</a>.
+<a href="/windows/desktop/api/winbase/nf-winbase-queryactctxw">QueryActCtxW</a>. For more information, see 
+<a href="/windows/desktop/SbsCs/assembly-versions">Assembly Versions</a>.
 
 ### -field ulManifestVersionMinor
 
 Minor version of the assembly queried by 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-queryactctxw">QueryActCtxW</a>. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/SbsCs/assembly-versions">Assembly Versions</a>.
+<a href="/windows/desktop/api/winbase/nf-winbase-queryactctxw">QueryActCtxW</a>. For more information, see 
+<a href="/windows/desktop/SbsCs/assembly-versions">Assembly Versions</a>.
 
 ### -field ulPolicyVersionMajor
 
@@ -143,7 +143,7 @@ Pointer to a null-terminated string that indicates the folder from which this as
 ## -remarks
 
 If 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-queryactctxw">QueryActCtxW</a> is called with the AssemblyDetailedInformationInActivationContext option, and the function succeeds, the information in the returned buffer is in the form of the 
+<a href="/windows/desktop/api/winbase/nf-winbase-queryactctxw">QueryActCtxW</a> is called with the AssemblyDetailedInformationInActivationContext option, and the function succeeds, the information in the returned buffer is in the form of the 
 <b>ACTIVATION_CONTEXT_ASSEMBLY_DETAILED_INFORMATION</b> structure.
 
 
@@ -215,4 +215,3 @@ DoneQuerying:
     }
 
 ```
-

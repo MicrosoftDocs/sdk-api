@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-The <b>EMRSETICMPROFILE</b> structure contains members for the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-seticmprofilea">SetICMProfile</a> enhanced metafile record.
+The <b>EMRSETICMPROFILE</b> structure contains members for the <a href="/windows/desktop/api/wingdi/nf-wingdi-seticmprofilea">SetICMProfile</a> enhanced metafile record.
 
 ## -struct-fields
 
@@ -84,17 +84,16 @@ This structure is to be used during metafile playback.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-emr">EMR</a>
+<a href="/windows/desktop/api/wingdi/ns-wingdi-emr">EMR</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/metafile-structures">Metafile Structures</a>
+<a href="/windows/desktop/gdi/metafile-structures">Metafile Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/metafiles">Metafiles Overview</a>
+<a href="/windows/desktop/gdi/metafiles">Metafiles Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-seticmprofilea">SetICMProfile</a>
-
+<a href="/windows/desktop/api/wingdi/nf-wingdi-seticmprofilea">SetICMProfile</a>

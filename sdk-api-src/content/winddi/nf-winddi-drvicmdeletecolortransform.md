@@ -56,11 +56,11 @@ The <b>DrvIcmDeleteColorTransform</b> function deletes the specified color trans
 
 ### -param dhpdev [in]
 
-Handle to the physical device's <a href="https://docs.microsoft.com/windows-hardware/drivers/">PDEV</a>.
+Handle to the physical device's <a href="/windows-hardware/drivers/">PDEV</a>.
 
 ### -param hcmXform [in]
 
-Handle to the color transform to be deleted. This color transform was created by the driver in a call to <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvicmcreatecolortransform">DrvIcmCreateColorTransform</a>.
+Handle to the color transform to be deleted. This color transform was created by the driver in a call to <a href="/windows/desktop/api/winddi/nf-winddi-drvicmcreatecolortransform">DrvIcmCreateColorTransform</a>.
 
 ## -returns
 
@@ -68,9 +68,8 @@ Handle to the color transform to be deleted. This color transform was created by
 
 ## -remarks
 
-Drivers that report ICM support should implement this function. A driver indicates support for ICM by setting the GCAPS_ICM flag in the <b>flGraphicsCaps</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-devinfo">DEVINFO</a> structure.
+Drivers that report ICM support should implement this function. A driver indicates support for ICM by setting the GCAPS_ICM flag in the <b>flGraphicsCaps</b> member of the <a href="/windows/desktop/api/winddi/ns-winddi-devinfo">DEVINFO</a> structure.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvicmcreatecolortransform">DrvIcmCreateColorTransform</a>
-
+<a href="/windows/desktop/api/winddi/nf-winddi-drvicmcreatecolortransform">DrvIcmCreateColorTransform</a>

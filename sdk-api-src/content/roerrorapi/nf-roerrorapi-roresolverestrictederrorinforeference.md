@@ -53,7 +53,7 @@ api_name:
 
 ## -description
 
-Returns the <a href="https://docs.microsoft.com/windows/desktop/api/restrictederrorinfo/nn-restrictederrorinfo-irestrictederrorinfo">IRestrictedErrorInfo</a> interface pointer based on the given reference.
+Returns the <a href="/windows/desktop/api/restrictederrorinfo/nn-restrictederrorinfo-irestrictederrorinfo">IRestrictedErrorInfo</a> interface pointer based on the given reference.
 
 ## -parameters
 
@@ -65,7 +65,7 @@ Identifies an error object which contains relevant information for the specific 
 
 ### -param ppRestrictedErrorInfo [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/restrictederrorinfo/nn-restrictederrorinfo-irestrictederrorinfo">IRestrictedErrorInfo</a>**</b>
+Type: <b><a href="/windows/desktop/api/restrictederrorinfo/nn-restrictederrorinfo-irestrictederrorinfo">IRestrictedErrorInfo</a>**</b>
 
 The output parameter for the object associated with the given reference.
 
@@ -119,7 +119,7 @@ The reference is invalid.
 
 ## -remarks
 
-The <b>RoResolveRestrictedErrorInfoReference</b> function is useful primarily for debugger development. A debugger receives the reference  string and uses the reference to identify the associated <a href="https://docs.microsoft.com/windows/desktop/api/restrictederrorinfo/nn-restrictederrorinfo-irestrictederrorinfo">IRestrictedErrorInfo</a> object, which allows the debugger to retrieve the detailed error message by calling the <a href="https://docs.microsoft.com/windows/desktop/api/restrictederrorinfo/nf-restrictederrorinfo-irestrictederrorinfo-geterrordetails">GetErrorDetails</a> method.
+The <b>RoResolveRestrictedErrorInfoReference</b> function is useful primarily for debugger development. A debugger receives the reference  string and uses the reference to identify the associated <a href="/windows/desktop/api/restrictederrorinfo/nn-restrictederrorinfo-irestrictederrorinfo">IRestrictedErrorInfo</a> object, which allows the debugger to retrieve the detailed error message by calling the <a href="/windows/desktop/api/restrictederrorinfo/nf-restrictederrorinfo-irestrictederrorinfo-geterrordetails">GetErrorDetails</a> method.
 
 
 
@@ -160,4 +160,3 @@ HRESULT DebuggerIntegration(PCWST   referenceName)
 
 }
 ```
-

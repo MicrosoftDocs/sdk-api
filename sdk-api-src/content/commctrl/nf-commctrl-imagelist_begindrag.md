@@ -80,11 +80,10 @@ The y-coordinate of the location of the drag position relative to the upper-left
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
 
 Returns nonzero if successful, or zero otherwise.
 
 ## -remarks
 
-This function creates a temporary image list that is used for dragging. In response to subsequent <a href="https://docs.microsoft.com/windows/desktop/inputdev/wm-mousemove">WM_MOUSEMOVE</a> messages, you can move the drag image by using the <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-imagelist_dragmove">ImageList_DragMove</a> function. To end the drag operation, you can use the <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-imagelist_enddrag">ImageList_EndDrag</a> function.
-
+This function creates a temporary image list that is used for dragging. In response to subsequent <a href="/windows/desktop/inputdev/wm-mousemove">WM_MOUSEMOVE</a> messages, you can move the drag image by using the <a href="/windows/desktop/api/commctrl/nf-commctrl-imagelist_dragmove">ImageList_DragMove</a> function. To end the drag operation, you can use the <a href="/windows/desktop/api/commctrl/nf-commctrl-imagelist_enddrag">ImageList_EndDrag</a> function.

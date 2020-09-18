@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Specifies values that identify the execution IDs that map to actions a user can initiate on a <a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-element-command">Command</a>.
+Specifies values that identify the execution IDs that map to actions a user can initiate on a <a href="/windows/desktop/windowsribbon/windowsribbon-element-command">Command</a>.
 
 ## -enum-fields
 
@@ -70,17 +70,16 @@ Cancel a preview of a visual element.
 
 In the Ribbon framework, user actions are called executions. 
 
-For example, if a user hovers the mouse over a gallery item,  UI_EXECUTIONVERB_PREVIEW is passed in a call to the <a href="https://docs.microsoft.com/windows/desktop/api/uiribbon/nf-uiribbon-iuicommandhandler-execute">IUICommandHandler::Execute</a> function of the gallery to indicate that  a live preview event occurred on the item.  If the user clicks the gallery item, UI_EXECUTIONVERB_EXECUTE is passed in a subsequent call to the <b>IUICommandHandler::Execute</b> function to indicate that the item was executed.
+For example, if a user hovers the mouse over a gallery item,  UI_EXECUTIONVERB_PREVIEW is passed in a call to the <a href="/windows/desktop/api/uiribbon/nf-uiribbon-iuicommandhandler-execute">IUICommandHandler::Execute</a> function of the gallery to indicate that  a live preview event occurred on the item.  If the user clicks the gallery item, UI_EXECUTIONVERB_EXECUTE is passed in a subsequent call to the <b>IUICommandHandler::Execute</b> function to indicate that the item was executed.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-reference-enumerations">Constants and Enumerations</a>
+<a href="/windows/desktop/windowsribbon/windowsribbon-reference-enumerations">Constants and Enumerations</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-commandscontrols">Understanding Commands and Controls</a>
+<a href="/windows/desktop/windowsribbon/windowsribbon-commandscontrols">Understanding Commands and Controls</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/windowsribbon/ribbon-controls-galleries">Working with Galleries</a>
-
+<a href="/windows/desktop/windowsribbon/ribbon-controls-galleries">Working with Galleries</a>

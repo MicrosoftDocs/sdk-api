@@ -50,11 +50,11 @@ api_name:
 
 ## -description
 
-Provides methods that enable you to set or retrieve a <a href="https://msdn.microsoft.com/library/windows/apps/windows.applicationmodel.datatransfer.datapackage.aspx">DataPackage</a> object's <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject interface</a>, which the DataPackage uses to support interoperability. The DataPackage object is used by an app to provide data to another app.
+Provides methods that enable you to set or retrieve a <a href="/uwp/api/Windows.ApplicationModel.DataTransfer.DataPackage">DataPackage</a> object's <a href="/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject interface</a>, which the DataPackage uses to support interoperability. The DataPackage object is used by an app to provide data to another app.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDataObjectProvider</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDataObjectProvider</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDataObjectProvider</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDataObjectProvider</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,20 +69,20 @@ The <b>IDataObjectProvider</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-idataobjectprovider-getdataobject">GetDataObject</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-idataobjectprovider-getdataobject">GetDataObject</a>
 </td>
 <td align="left" width="63%">
-Gets an <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a> representation of the current <a href="https://msdn.microsoft.com/library/windows/apps/windows.applicationmodel.datatransfer.datapackage.aspx">DataPackage</a> object.
+Gets an <a href="/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a> representation of the current <a href="/uwp/api/Windows.ApplicationModel.DataTransfer.DataPackage">DataPackage</a> object.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-idataobjectprovider-setdataobject">SetDataObject</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-idataobjectprovider-setdataobject">SetDataObject</a>
 </td>
 <td align="left" width="63%">
-Wraps an <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a> instance as a Windows Runtime
-<a href="https://msdn.microsoft.com/library/windows/apps/windows.applicationmodel.datatransfer.datapackage.aspx">DataPackage</a>.
+Wraps an <a href="/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a> instance as a Windows Runtime
+<a href="/uwp/api/Windows.ApplicationModel.DataTransfer.DataPackage">DataPackage</a>.
 
 </td>
 </tr>
@@ -95,5 +95,4 @@ Do not implement this interface. An implementation is provided as part of the Da
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
-
+<a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>

@@ -56,7 +56,7 @@ Retrieves a preview image, if supported.
 
 ### -param ppIBitmapSource [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapsource">IWICBitmapSource</a>**</b>
+Type: <b><a href="/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapsource">IWICBitmapSource</a>**</b>
 
 Receives a pointer to the preview bitmap if supported.
 
@@ -69,4 +69,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -remarks
 
 Not all formats support previews. Only the native Microsoft Windows Digital Photo (WDP) codec support previews.
-

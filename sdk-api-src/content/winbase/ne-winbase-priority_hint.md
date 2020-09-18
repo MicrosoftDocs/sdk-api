@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-Defines values that are used with the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-file_io_priority_hint_info">FILE_IO_PRIORITY_HINT_INFO</a> structure to specify the priority hint for a file I/O operation.
+Defines values that are used with the <a href="/windows/desktop/api/winbase/ns-winbase-file_io_priority_hint_info">FILE_IO_PRIORITY_HINT_INFO</a> structure to specify the priority hint for a file I/O operation.
 
 ## -enum-fields
 
@@ -74,9 +74,8 @@ This value is used for validation. Supported values are less than this value.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-file_io_priority_hint_info">FILE_IO_PRIORITY_HINT_INFO</a>
+<a href="/windows/desktop/api/winbase/ns-winbase-file_io_priority_hint_info">FILE_IO_PRIORITY_HINT_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-setfileinformationbyhandle">SetFileInformationByHandle</a>
-
+<a href="/windows/desktop/api/fileapi/nf-fileapi-setfileinformationbyhandle">SetFileInformationByHandle</a>

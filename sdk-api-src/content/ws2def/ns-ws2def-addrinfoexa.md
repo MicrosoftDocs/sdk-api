@@ -59,7 +59,7 @@ api_name:
 
 The 
 <b>addrinfoex</b> structure is used by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ws2tcpip/nf-ws2tcpip-getaddrinfoexa">GetAddrInfoEx</a> function to hold host address information.
+<a href="/windows/desktop/api/ws2tcpip/nf-ws2tcpip-getaddrinfoexa">GetAddrInfoEx</a> function to hold host address information.
 
 ## -struct-fields
 
@@ -68,7 +68,7 @@ The
 Type: <b>int</b>
 
 Flags that indicate options used in the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ws2tcpip/nf-ws2tcpip-getaddrinfoexa">GetAddrInfoEx</a> function. 
+<a href="/windows/desktop/api/ws2tcpip/nf-ws2tcpip-getaddrinfoexa">GetAddrInfoEx</a> function. 
 
 
 Supported values for the <b>ai_flags</b> member are defined in the <i>Winsock2.h</i> include file and can be a combination of the following options.
@@ -87,7 +87,7 @@ Supported values for the <b>ai_flags</b> member are defined in the <i>Winsock2.h
 </dl>
 </td>
 <td width="60%">
-The socket address will be used in a call to the <a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-bind">bind</a>function.
+The socket address will be used in a call to the <a href="/windows/desktop/api/winsock/nf-winsock-bind">bind</a>function.
 
 </td>
 </tr>
@@ -101,7 +101,7 @@ The socket address will be used in a call to the <a href="https://docs.microsoft
 The canonical name is returned in the first <b>ai_canonname</b> member.
 
 
-When both the <b>AI_CANONNAME</b> and <b>AI_FQDN</b> bits are set, an <a href="https://docs.microsoft.com/windows/desktop/api/ws2def/ns-ws2def-addrinfoex2w">addrinfoex2</a> structure is returned not the <b>addrinfoex</b> structure. 
+When both the <b>AI_CANONNAME</b> and <b>AI_FQDN</b> bits are set, an <a href="/windows/desktop/api/ws2def/ns-ws2def-addrinfoex2w">addrinfoex2</a> structure is returned not the <b>addrinfoex</b> structure. 
 
 </td>
 </tr>
@@ -112,7 +112,7 @@ When both the <b>AI_CANONNAME</b> and <b>AI_FQDN</b> bits are set, an <a href="h
 </dl>
 </td>
 <td width="60%">
-The <i>nodename</i> parameter passed to the <a href="https://docs.microsoft.com/windows/desktop/api/ws2tcpip/nf-ws2tcpip-getaddrinfoexa">GetAddrInfoEx</a> function must be a numeric string.
+The <i>nodename</i> parameter passed to the <a href="/windows/desktop/api/ws2tcpip/nf-ws2tcpip-getaddrinfoexa">GetAddrInfoEx</a> function must be a numeric string.
 
 </td>
 </tr>
@@ -136,7 +136,7 @@ If this bit is set, a request is made for IPv6 addresses and IPv4 addresses with
 </dl>
 </td>
 <td width="60%">
-The <a href="https://docs.microsoft.com/windows/desktop/api/ws2tcpip/nf-ws2tcpip-getaddrinfoexa">GetAddrInfoEx</a> will resolve only if a global address is configured. The IPv6 and IPv4 loopback address is not considered a valid global address. 
+The <a href="/windows/desktop/api/ws2tcpip/nf-ws2tcpip-getaddrinfoexa">GetAddrInfoEx</a> will resolve only if a global address is configured. The IPv6 and IPv4 loopback address is not considered a valid global address. 
 
 This option is only supported on Windows Vista and later.
 
@@ -149,7 +149,7 @@ This option is only supported on Windows Vista and later.
 </dl>
 </td>
 <td width="60%">
-If the  <a href="https://docs.microsoft.com/windows/desktop/api/ws2tcpip/nf-ws2tcpip-getaddrinfoexa">GetAddrInfoEx</a> request for an IPv6 addresses fails, a name service request is made for IPv4 addresses and these addresses are converted to IPv4-mapped IPv6 address format.
+If the  <a href="/windows/desktop/api/ws2tcpip/nf-ws2tcpip-getaddrinfoexa">GetAddrInfoEx</a> request for an IPv6 addresses fails, a name service request is made for IPv4 addresses and these addresses are converted to IPv4-mapped IPv6 address format.
 
 This option is supported on Windows Vista and later.
 
@@ -164,9 +164,9 @@ This option is supported on Windows Vista and later.
 <td width="60%">
 The address information is from non-authoritative results.  
 
-When this option is set in the <i>pHints</i> parameter of <a href="https://docs.microsoft.com/windows/desktop/api/ws2tcpip/nf-ws2tcpip-getaddrinfoexa">GetAddrInfoEx</a>, the <b>NS_EMAIL</b> namespace provider returns both authoritative and non-authoritative results. If this option is not set, then only authoritative results are returned. 
+When this option is set in the <i>pHints</i> parameter of <a href="/windows/desktop/api/ws2tcpip/nf-ws2tcpip-getaddrinfoexa">GetAddrInfoEx</a>, the <b>NS_EMAIL</b> namespace provider returns both authoritative and non-authoritative results. If this option is not set, then only authoritative results are returned. 
 
-In the  <i>ppResults</i> parameter returned by <a href="https://docs.microsoft.com/windows/desktop/api/ws2tcpip/nf-ws2tcpip-getaddrinfoexa">GetAddrInfoEx</a>, this flag is set in the <b>ai_flags</b> member of the <b>addrinfoex</b> structure for non-authoritative results.  
+In the  <i>ppResults</i> parameter returned by <a href="/windows/desktop/api/ws2tcpip/nf-ws2tcpip-getaddrinfoexa">GetAddrInfoEx</a>, this flag is set in the <b>ai_flags</b> member of the <b>addrinfoex</b> structure for non-authoritative results.  
 
 This option is only supported on Windows Vista and later for the <b>NS_EMAIL</b> namespace.
 
@@ -181,9 +181,9 @@ This option is only supported on Windows Vista and later for the <b>NS_EMAIL</b
 <td width="60%">
 The address information is from a secure channel. If the  <b>AI_SECURE</b> bit is set, the <b>NS_EMAIL</b> namespace provider will return results that were obtained with enhanced security to minimize possible spoofing. 
 
-When this option is set in the <i>pHints</i> parameter of <a href="https://docs.microsoft.com/windows/desktop/api/ws2tcpip/nf-ws2tcpip-getaddrinfoexa">GetAddrInfoEx</a>, the <b>NS_EMAIL</b> namespace provider returns only results that were obtained with enhanced security to minimize possible spoofing. 
+When this option is set in the <i>pHints</i> parameter of <a href="/windows/desktop/api/ws2tcpip/nf-ws2tcpip-getaddrinfoexa">GetAddrInfoEx</a>, the <b>NS_EMAIL</b> namespace provider returns only results that were obtained with enhanced security to minimize possible spoofing. 
 
-In the  <i>ppResults</i> parameter returned by <a href="https://docs.microsoft.com/windows/desktop/api/ws2tcpip/nf-ws2tcpip-getaddrinfoexa">GetAddrInfoEx</a>, this flag is set in the <b>ai_flags</b> member of the <b>addrinfoex</b> structure for results returned with enhanced security to minimize possible spoofing.  
+In the  <i>ppResults</i> parameter returned by <a href="/windows/desktop/api/ws2tcpip/nf-ws2tcpip-getaddrinfoexa">GetAddrInfoEx</a>, this flag is set in the <b>ai_flags</b> member of the <b>addrinfoex</b> structure for results returned with enhanced security to minimize possible spoofing.  
 
 This option is only supported on Windows Vista and later for the <b>NS_EMAIL</b> namespace.
 
@@ -198,9 +198,9 @@ This option is only supported on Windows Vista and later for the <b>NS_EMAIL</b
 <td width="60%">
 The address information is for a preferred names for publication with a specific namespace.  
 
-When this option is set in the <i>pHints</i> parameter of <a href="https://docs.microsoft.com/windows/desktop/api/ws2tcpip/nf-ws2tcpip-getaddrinfoexa">GetAddrInfoEx</a>, no name should be provided in the <i>pName</i> parameter and the <b>NS_EMAIL</b> namespace provider will return preferred names for publication.
+When this option is set in the <i>pHints</i> parameter of <a href="/windows/desktop/api/ws2tcpip/nf-ws2tcpip-getaddrinfoexa">GetAddrInfoEx</a>, no name should be provided in the <i>pName</i> parameter and the <b>NS_EMAIL</b> namespace provider will return preferred names for publication.
 
-In the  <i>ppResults</i> parameter returned by <a href="https://docs.microsoft.com/windows/desktop/api/ws2tcpip/nf-ws2tcpip-getaddrinfoexa">GetAddrInfoEx</a>, this flag is set in the <b>ai_flags</b> member of the <b>addrinfoex</b> structure for results returned for preferred names for publication.  
+In the  <i>ppResults</i> parameter returned by <a href="/windows/desktop/api/ws2tcpip/nf-ws2tcpip-getaddrinfoexa">GetAddrInfoEx</a>, this flag is set in the <b>ai_flags</b> member of the <b>addrinfoex</b> structure for results returned for preferred names for publication.  
 
 This option is only supported on Windows Vista and later for the <b>NS_EMAIL</b> namespace.
 
@@ -216,9 +216,9 @@ This option is only supported on Windows Vista and later for the <b>NS_EMAIL</b
 The fully qualified domain name is returned in the first <b>ai_canonicalname</b> member.
 
 
-When this option is set in the <i>pHints</i> parameter of <a href="https://docs.microsoft.com/windows/desktop/api/ws2tcpip/nf-ws2tcpip-getaddrinfoexa">GetAddrInfoEx</a> and a flat name (single label) is specified in the <i>pName</i> parameter,  the fully qualified domain name that the name eventually resolved to will be returned.
+When this option is set in the <i>pHints</i> parameter of <a href="/windows/desktop/api/ws2tcpip/nf-ws2tcpip-getaddrinfoexa">GetAddrInfoEx</a> and a flat name (single label) is specified in the <i>pName</i> parameter,  the fully qualified domain name that the name eventually resolved to will be returned.
 
-When both the <b>AI_CANONNAME</b> and <b>AI_FQDN</b> bits are set, an <a href="https://docs.microsoft.com/windows/desktop/api/ws2def/ns-ws2def-addrinfoex2w">addrinfoex2</a> structure is returned not the <b>addrinfoex</b> structure. 
+When both the <b>AI_CANONNAME</b> and <b>AI_FQDN</b> bits are set, an <a href="/windows/desktop/api/ws2def/ns-ws2def-addrinfoex2w">addrinfoex2</a> structure is returned not the <b>addrinfoex</b> structure. 
 
 This option is supported on Windows 7,  Windows Server 2008 R2,   and later.
 
@@ -245,7 +245,7 @@ This option is supported on Windows 7, Windows Server 2008 R2,  and later.
 </dl>
 </td>
 <td width="60%">
-Disable the automatic International Domain Name encoding using Punycode in the name resolution functions called by the <a href="https://docs.microsoft.com/windows/desktop/api/ws2tcpip/nf-ws2tcpip-getaddrinfoexa">GetAddrInfoEx</a> function. 
+Disable the automatic International Domain Name encoding using Punycode in the name resolution functions called by the <a href="/windows/desktop/api/ws2tcpip/nf-ws2tcpip-getaddrinfoexa">GetAddrInfoEx</a> function. 
 
 This option is supported on Windows 8, Windows Server 2012,   and later.
 
@@ -381,7 +381,7 @@ Supports datagrams, which are connectionless, unreliable buffers of a fixed (typ
 </dl>
 </td>
 <td width="60%">
-Provides a raw socket that allows an application to manipulate the next upper-layer protocol header. To manipulate the IPv4 header, the <a href="https://docs.microsoft.com/windows/desktop/WinSock/ipproto-ip-socket-options">IP_HDRINCL</a> socket option must be set on the socket.  To manipulate the IPv6 header, the <a href="https://docs.microsoft.com/windows/desktop/WinSock/ipproto-ipv6-socket-options">IPV6_HDRINCL</a> socket option must be set on the socket.  
+Provides a raw socket that allows an application to manipulate the next upper-layer protocol header. To manipulate the IPv4 header, the <a href="/windows/desktop/WinSock/ipproto-ip-socket-options">IP_HDRINCL</a> socket option must be set on the socket.  To manipulate the IPv6 header, the <a href="/windows/desktop/WinSock/ipproto-ipv6-socket-options">IPV6_HDRINCL</a> socket option must be set on the socket.  
 
 </td>
 </tr>
@@ -392,7 +392,7 @@ Provides a raw socket that allows an application to manipulate the next upper-la
 </dl>
 </td>
 <td width="60%">
-Provides a reliable message datagram. An example of this type is the Pragmatic General Multicast (PGM) multicast protocol implementation in Windows, often referred to as <a href="https://docs.microsoft.com/windows/desktop/WinSock/reliable-multicast-programming--pgm-">reliable multicast programming</a>. 
+Provides a reliable message datagram. An example of this type is the Pragmatic General Multicast (PGM) multicast protocol implementation in Windows, often referred to as <a href="/windows/desktop/WinSock/reliable-multicast-programming--pgm-">reliable multicast programming</a>. 
 
 </td>
 </tr>
@@ -411,7 +411,7 @@ Provides a pseudo-stream packet based on datagrams.
  
 
 In Windows Sockets 2, new socket types were introduced. An application can dynamically discover the attributes of each available transport protocol through the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsaenumprotocolsa">WSAEnumProtocols</a> function. So an application can determine the possible socket type and protocol options for an address family  and use this information when specifying this parameter. Socket type definitions in the <i>Winsock2.h</i> and <i>Ws2def.h</i> header files will be periodically updated as new socket types, address families, and protocols are defined.
+<a href="/windows/desktop/api/winsock2/nf-winsock2-wsaenumprotocolsa">WSAEnumProtocols</a> function. So an application can determine the possible socket type and protocol options for an address family  and use this information when specifying this parameter. Socket type definitions in the <i>Winsock2.h</i> and <i>Ws2def.h</i> header files will be periodically updated as new socket types, address families, and protocols are defined.
 
 In Windows Sockets 1.1, the only possible socket types are <b>SOCK_DATAGRAM</b> and <b>SOCK_STREAM</b>.
 
@@ -488,7 +488,7 @@ The canonical name for the host.
 Type: <b>struct sockaddr*</b>
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/WinSock/sockaddr-2">sockaddr</a> structure. The <b>ai_addr</b> member in each returned <b>addrinfoex</b> structure points to a filled-in socket address structure. The length, in bytes, of each returned <b>addrinfoex</b> structure is specified in the <b>ai_addrlen</b> member.
+<a href="/windows/desktop/WinSock/sockaddr-2">sockaddr</a> structure. The <b>ai_addr</b> member in each returned <b>addrinfoex</b> structure points to a filled-in socket address structure. The length, in bytes, of each returned <b>addrinfoex</b> structure is specified in the <b>ai_addrlen</b> member.
 
 ### -field ai_blob
 
@@ -519,19 +519,19 @@ A pointer to the next structure in a linked list. This parameter is set to <b>NU
 
 The 
 <b>addrinfoex</b> structure is used by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ws2tcpip/nf-ws2tcpip-getaddrinfoexa">GetAddrInfoEx</a> function to hold host address information. The <b>addrinfoex</b>  structure is an enhanced version of the <a href="https://docs.microsoft.com/windows/desktop/api/ws2def/ns-ws2def-addrinfoa">addrinfo</a> and <a href="https://docs.microsoft.com/windows/desktop/api/ws2def/ns-ws2def-addrinfow">addrinfoW</a> structures. The extra structure members are for blob data and the GUID for the namespace provider. The blob data is used to return additional provider-specific namespace information associated with a name. The format of data in the <b>ai_blob</b> member is specific to a particular namespace provider. Currently, blob data is used by the <b>NS_EMAIL</b> namespace provider to supply additional information.  
+<a href="/windows/desktop/api/ws2tcpip/nf-ws2tcpip-getaddrinfoexa">GetAddrInfoEx</a> function to hold host address information. The <b>addrinfoex</b>  structure is an enhanced version of the <a href="/windows/desktop/api/ws2def/ns-ws2def-addrinfoa">addrinfo</a> and <a href="/windows/desktop/api/ws2def/ns-ws2def-addrinfow">addrinfoW</a> structures. The extra structure members are for blob data and the GUID for the namespace provider. The blob data is used to return additional provider-specific namespace information associated with a name. The format of data in the <b>ai_blob</b> member is specific to a particular namespace provider. Currently, blob data is used by the <b>NS_EMAIL</b> namespace provider to supply additional information.  
 
-The <b>addrinfoex</b>  structure is an enhanced version of the <a href="https://docs.microsoft.com/windows/desktop/api/ws2def/ns-ws2def-addrinfoa">addrinfo</a> and <a href="https://docs.microsoft.com/windows/desktop/api/ws2def/ns-ws2def-addrinfow">addrinfoW</a> structure used with <a href="https://docs.microsoft.com/windows/desktop/api/ws2tcpip/nf-ws2tcpip-getaddrinfoexa">GetAddrInfoEx</a>  function. The <b>GetAddrInfoEx</b>  function allows specifying the namespace provider to resolve the query. For use with the IPv6 and IPv4 protocol, name resolution can be by the Domain Name System (DNS), a local <i>hosts</i> file, an email provider (the <b>NS_EMAIL</b> namespace), or by other naming mechanisms. 
+The <b>addrinfoex</b>  structure is an enhanced version of the <a href="/windows/desktop/api/ws2def/ns-ws2def-addrinfoa">addrinfo</a> and <a href="/windows/desktop/api/ws2def/ns-ws2def-addrinfow">addrinfoW</a> structure used with <a href="/windows/desktop/api/ws2tcpip/nf-ws2tcpip-getaddrinfoexa">GetAddrInfoEx</a>  function. The <b>GetAddrInfoEx</b>  function allows specifying the namespace provider to resolve the query. For use with the IPv6 and IPv4 protocol, name resolution can be by the Domain Name System (DNS), a local <i>hosts</i> file, an email provider (the <b>NS_EMAIL</b> namespace), or by other naming mechanisms. 
 
 When UNICODE or _UNICODE is defined, <b>addrinfoex</b> is defined to <b>addrinfoexW</b>, the Unicode version of this structure. The string parameters are defined to the <b>PWSTR</b> data type and the <b>addrinfoexW</b> structure is used.
 
 When UNICODE or _UNICODE is not defined, <b>addrinfoex</b> is defined to <b>addrinfoexA</b>, the ANSI version of this structure. The string parameters are of the <b>PCSTR</b> data type and the <b>addrinfoexA</b> structure is used.
 
-Upon a successful call to <a href="https://docs.microsoft.com/windows/desktop/api/ws2tcpip/nf-ws2tcpip-getaddrinfoexa">GetAddrInfoEx</a>, a linked list of 
+Upon a successful call to <a href="/windows/desktop/api/ws2tcpip/nf-ws2tcpip-getaddrinfoexa">GetAddrInfoEx</a>, a linked list of 
 <b>addrinfoex</b> structures is returned in the <i>ppResult</i> parameter passed to the <b>GetAddrInfoEx</b> function. The list can be processed by following the pointer provided in the <b>ai_next</b> member of each returned 
 <b>addrinfoex</b> structure until a <b>NULL</b> pointer is encountered. In each returned 
 <b>addrinfoex</b> structure, the <b>ai_family</b>, <b>ai_socktype</b>, and <b>ai_protocol</b> members correspond to respective arguments in a 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-socket">socket</a> or <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsasocketa">WSASocket</a> function call. Also, the <b>ai_addr</b> member in each returned 
+<a href="/windows/desktop/api/winsock2/nf-winsock2-socket">socket</a> or <a href="/windows/desktop/api/winsock2/nf-winsock2-wsasocketa">WSASocket</a> function call. Also, the <b>ai_addr</b> member in each returned 
 <b>addrinfoex</b> structure points to a filled-in socket address structure, the length of which is specified in its <b>ai_addrlen</b> member.
 
 
@@ -730,18 +730,17 @@ int __cdecl wmain(int argc, wchar_t ** argv)
 ```
 
 
-<div class="alert"><b>Note</b>  Ensure that the development environment targets the newest version of <i>Ws2tcpip.h</i> which includes structure and function definitions for <b>ADDRINFOEX</b> and <a href="https://docs.microsoft.com/windows/desktop/api/ws2tcpip/nf-ws2tcpip-getaddrinfoexa">GetAddrInfoEx</a>, respectively.</div>
+<div class="alert"><b>Note</b>  Ensure that the development environment targets the newest version of <i>Ws2tcpip.h</i> which includes structure and function definitions for <b>ADDRINFOEX</b> and <a href="/windows/desktop/api/ws2tcpip/nf-ws2tcpip-getaddrinfoexa">GetAddrInfoEx</a>, respectively.</div>
 <div> </div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ws2tcpip/nf-ws2tcpip-getaddrinfoexa">GetAddrInfoEx</a>
+<a href="/windows/desktop/api/ws2tcpip/nf-ws2tcpip-getaddrinfoexa">GetAddrInfoEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ws2def/ns-ws2def-addrinfoa">addrinfo</a>
+<a href="/windows/desktop/api/ws2def/ns-ws2def-addrinfoa">addrinfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ws2def/ns-ws2def-addrinfow">addrinfoW</a>
-
+<a href="/windows/desktop/api/ws2def/ns-ws2def-addrinfow">addrinfoW</a>

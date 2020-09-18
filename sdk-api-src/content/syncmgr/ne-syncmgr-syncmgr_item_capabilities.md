@@ -60,15 +60,15 @@ No capability flags are set.
 
 ### -field SYNCMGR_ICM_PROVIDES_ICON
 
-The item returns a valid object from <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrsyncitem-getobject">ISyncMgrSyncItem::GetObject</a> when that method is called with the SYNCMGR_OBJECTID_Icon flag.
+The item returns a valid object from <a href="/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrsyncitem-getobject">ISyncMgrSyncItem::GetObject</a> when that method is called with the SYNCMGR_OBJECTID_Icon flag.
 
 ### -field SYNCMGR_ICM_EVENT_STORE
 
-The item returns a valid object from <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrsyncitem-getobject">ISyncMgrSyncItem::GetObject</a> when that method is called with the SYNCMGR_OBJECTID_EventStore flag.
+The item returns a valid object from <a href="/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrsyncitem-getobject">ISyncMgrSyncItem::GetObject</a> when that method is called with the SYNCMGR_OBJECTID_EventStore flag.
 
 ### -field SYNCMGR_ICM_CONFLICT_STORE
 
-The item returns a valid object from <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrsyncitem-getobject">ISyncMgrSyncItem::GetObject</a> when that method is called with the SYNCMGR_OBJECTID_ConflictStore flag.
+The item returns a valid object from <a href="/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrsyncitem-getobject">ISyncMgrSyncItem::GetObject</a> when that method is called with the SYNCMGR_OBJECTID_ConflictStore flag.
 
 ### -field SYNCMGR_ICM_CAN_DELETE
 
@@ -76,25 +76,24 @@ The user is allowed to delete the item from the handler's folder. This can be us
 
 ### -field SYNCMGR_ICM_CAN_BROWSE_CONTENT
 
-The item returns a valid object from <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrsyncitem-getobject">ISyncMgrSyncItem::GetObject</a> when that method is called with the SYNCMGR_OBJECTID_BrowseContent flag. If this value is set, the <b>Browse Content</b> task is added to the item's shortcut menu.
+The item returns a valid object from <a href="/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrsyncitem-getobject">ISyncMgrSyncItem::GetObject</a> when that method is called with the SYNCMGR_OBJECTID_BrowseContent flag. If this value is set, the <b>Browse Content</b> task is added to the item's shortcut menu.
 
 ### -field SYNCMGR_ICM_QUERY_BEFORE_ENABLE
 
-The item returns a valid object from <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrsyncitem-getobject">ISyncMgrSyncItem::GetObject</a> when that method is called with the SYNCMGR_OBJECTID_QueryBeforeEnable flag.
+The item returns a valid object from <a href="/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrsyncitem-getobject">ISyncMgrSyncItem::GetObject</a> when that method is called with the SYNCMGR_OBJECTID_QueryBeforeEnable flag.
 
 ### -field SYNCMGR_ICM_QUERY_BEFORE_DISABLE
 
-The item returns a valid object from <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrsyncitem-getobject">ISyncMgrSyncItem::GetObject</a> when that method is called with the SYNCMGR_OBJECTID_QueryBeforeDisable flag.
+The item returns a valid object from <a href="/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrsyncitem-getobject">ISyncMgrSyncItem::GetObject</a> when that method is called with the SYNCMGR_OBJECTID_QueryBeforeDisable flag.
 
 ### -field SYNCMGR_ICM_QUERY_BEFORE_DELETE
 
-The item returns a valid object from <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrsyncitem-getobject">ISyncMgrSyncItem::GetObject</a> when that method is called with the SYNCMGR_OBJECTID_QueryBeforeDelete flag.
+The item returns a valid object from <a href="/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrsyncitem-getobject">ISyncMgrSyncItem::GetObject</a> when that method is called with the SYNCMGR_OBJECTID_QueryBeforeDelete flag.
 
 ### -field SYNCMGR_ICM_VALID_MASK
 
-A mask used to retrieve valid <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/ne-syncmgr-syncmgr_item_capabilities">SYNCMGR_ITEM_CAPABILITIES</a> flags.
+A mask used to retrieve valid <a href="/windows/desktop/api/syncmgr/ne-syncmgr-syncmgr_item_capabilities">SYNCMGR_ITEM_CAPABILITIES</a> flags.
 
 ## -remarks
 
-Sync Center queries the item for its capabilities through <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrsyncitem-getcapabilities">ISyncMgrSyncItem::GetCapabilities</a> whenever the <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrcontrol-updateitem">ISyncMgrControl::UpdateItem</a> method is called.
-
+Sync Center queries the item for its capabilities through <a href="/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrsyncitem-getcapabilities">ISyncMgrSyncItem::GetCapabilities</a> whenever the <a href="/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrcontrol-updateitem">ISyncMgrControl::UpdateItem</a> method is called.

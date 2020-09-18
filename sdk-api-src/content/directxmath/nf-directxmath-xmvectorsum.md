@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Computes the horizontal sum of the components of an <a href="https://docs.microsoft.com/windows/desktop/dxmath/xmvector-data-type">XMVECTOR</a>. The horizontal sum is the result of adding each component in the vector together.
+Computes the horizontal sum of the components of an <a href="/windows/desktop/dxmath/xmvector-data-type">XMVECTOR</a>. The horizontal sum is the result of adding each component in the vector together.
 
 ## -parameters
 
@@ -64,5 +64,4 @@ Returns a vector whose components are the horizontal sum of the components of <i
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/dxmath/ovw-xnamath-reference-functions-vector-arithmetic">Vector Arithmetic Functions</a>
-
+<a href="/windows/desktop/dxmath/ovw-xnamath-reference-functions-vector-arithmetic">Vector Arithmetic Functions</a>

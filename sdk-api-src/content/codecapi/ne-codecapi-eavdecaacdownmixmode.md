@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Specifies whether an AAC decoder uses standard MPEG-2/MPEG-4 stereo downmix equations. This enumeration is used with the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/avdecaacdownmixmode-property">AVDecAACDownmixMode</a> property.
+Specifies whether an AAC decoder uses standard MPEG-2/MPEG-4 stereo downmix equations. This enumeration is used with the <a href="/windows/desktop/DirectShow/avdecaacdownmixmode-property">AVDecAACDownmixMode</a> property.
 
 ## -enum-fields
 
@@ -64,9 +64,8 @@ Use the downmix equations defined by ARIB document STD-B21.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/codec-api-enumerations">Codec API Enumerations</a>
+<a href="/windows/desktop/DirectShow/codec-api-enumerations">Codec API Enumerations</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-icodecapi">ICodecAPI Interface</a>
-
+<a href="/windows/desktop/api/strmif/nn-strmif-icodecapi">ICodecAPI Interface</a>

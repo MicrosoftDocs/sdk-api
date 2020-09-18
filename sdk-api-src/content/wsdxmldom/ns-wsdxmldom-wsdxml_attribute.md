@@ -58,7 +58,7 @@ Describes an XML attribute.
 
 ### -field Element
 
-Reference to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdxmldom/ns-wsdxmldom-wsdxml_element">WSDXML_ELEMENT</a> structure that specifies parent element of the attribute.
+Reference to a <a href="/windows/desktop/api/wsdxmldom/ns-wsdxmldom-wsdxml_element">WSDXML_ELEMENT</a> structure that specifies parent element of the attribute.
 
 ### -field Next
 
@@ -66,7 +66,7 @@ Reference to a <b>WSDXML_ATTRIBUTE</b> structure that specifies the next sibling
 
 ### -field Name
 
-Reference to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdxmldom/ns-wsdxmldom-wsdxml_name">WSDXML_NAME</a> structure that specifies the qualified name of the attribute.
+Reference to a <a href="/windows/desktop/api/wsdxmldom/ns-wsdxmldom-wsdxml_name">WSDXML_NAME</a> structure that specifies the qualified name of the attribute.
 
 ### -field Value
 
@@ -75,4 +75,3 @@ The value of the attribute.
 ## -remarks
 
 <b>WSDXML_ATTRIBUTE</b> is used to describe attribute values in an XML element.
-

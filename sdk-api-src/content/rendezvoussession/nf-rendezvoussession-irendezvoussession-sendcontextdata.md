@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Sends the context data to the remote <a href="https://docs.microsoft.com/previous-versions/windows/desktop/remoteassist/remoteassist-rendezvousapplication">RendezvousApplication</a>.
+Sends the context data to the remote <a href="/previous-versions/windows/desktop/remoteassist/remoteassist-rendezvousapplication">RendezvousApplication</a>.
 
 ## -parameters
 
@@ -101,4 +101,3 @@ There is not enough memory available to send the context data.
 </td>
 </tr>
 </table>
-

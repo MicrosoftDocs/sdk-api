@@ -78,9 +78,8 @@ The cookie has been rejected.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msxml6/nf-msxml6-ixmlhttprequest2-setcookie">SetCookie</a>
+<a href="/previous-versions/windows/desktop/api/msxml6/nf-msxml6-ixmlhttprequest2-setcookie">SetCookie</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msxml6/ns-msxml6-xhr_cookie">XHR_COOKIE</a>
-
+<a href="/windows/desktop/api/msxml6/ns-msxml6-xhr_cookie">XHR_COOKIE</a>

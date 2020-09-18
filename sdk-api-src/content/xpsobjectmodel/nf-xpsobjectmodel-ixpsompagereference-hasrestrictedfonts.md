@@ -56,7 +56,7 @@ Gets a Boolean value that indicates whether the document sub-tree of the referen
 
 ### -param restrictedFonts [out, retval]
 
-A Boolean value that indicates whether the document sub-tree of the referenced page includes any <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomglyphs">IXpsOMGlyphs</a> interfaces that have a font resource whose  <b>EmbeddingOption</b> property is set to <a href="/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_font_embedding">XPS_FONT_EMBEDDING_RESTRICTED</a>.
+A Boolean value that indicates whether the document sub-tree of the referenced page includes any <a href="/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomglyphs">IXpsOMGlyphs</a> interfaces that have a font resource whose  <b>EmbeddingOption</b> property is set to <a href="/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_font_embedding">XPS_FONT_EMBEDDING_RESTRICTED</a>.
 
 <table>
 <tr>
@@ -128,7 +128,7 @@ This value is not updated automatically. If fonts or glyphs are added or removed
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsompagereference">IXpsOMPageReference</a>
+<a href="/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsompagereference">IXpsOMPageReference</a>
 
 
 
@@ -137,4 +137,3 @@ This value is not updated automatically. If fonts or glyphs are added or removed
 
 
 <a href="/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_font_embedding">XPS_FONT_EMBEDDING_RESTRICTED</a>
-

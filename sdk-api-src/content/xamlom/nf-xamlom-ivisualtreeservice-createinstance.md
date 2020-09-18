@@ -56,7 +56,7 @@ Creates an instance of any XAML runtime, enum, or primitive type.
 
 ### -param typeName [in]
 
-The type name. (Should be from <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/xamlom/ns-xamlom-propertychainvalue">PropertyChainValue.Type</a>.)
+The type name. (Should be from <a href="/previous-versions/windows/desktop/api/xamlom/ns-xamlom-propertychainvalue">PropertyChainValue.Type</a>.)
 
 ### -param value [in]
 
@@ -77,5 +77,4 @@ If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRE
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/xamlom/nn-xamlom-ivisualtreeservice">IVisualTreeService</a>
-
+<a href="/previous-versions/windows/desktop/api/xamlom/nn-xamlom-ivisualtreeservice">IVisualTreeService</a>

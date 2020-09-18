@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Specifies the options with which the <a href="https://docs.microsoft.com/windows/desktop/Direct2D/direct2d-portal">Direct2D</a> device, factory, and device context are created.
+Specifies the options with which the <a href="/windows/desktop/Direct2D/direct2d-portal">Direct2D</a> device, factory, and device context are created.
 
 ## -struct-fields
 
@@ -68,13 +68,12 @@ The device context options that the root objects should be created with.
 
 ## -remarks
 
-The root objects referred to here are the <a href="https://docs.microsoft.com/windows/desktop/Direct2D/direct2d-portal">Direct2D</a> device, Direct2D factory and the Direct2D device context.
+The root objects referred to here are the <a href="/windows/desktop/Direct2D/direct2d-portal">Direct2D</a> device, Direct2D factory and the Direct2D device context.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nf-d2d1_1-d2d1createdevice">D2D1CreateDevice</a>
+<a href="/windows/desktop/api/d2d1_1/nf-d2d1_1-d2d1createdevice">D2D1CreateDevice</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nf-d2d1_1-d2d1createdevicecontext">D2D1CreateDeviceContext</a>
-
+<a href="/windows/desktop/api/d2d1_1/nf-d2d1_1-d2d1createdevicecontext">D2D1CreateDeviceContext</a>

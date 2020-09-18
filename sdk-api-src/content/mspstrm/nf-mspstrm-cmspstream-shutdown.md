@@ -52,8 +52,7 @@ api_name:
 
 The 
 <b>ShutDown</b> method is called by the <b>MSPCall</b> object. It unselects all the terminal objects (via 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itstream-unselectterminal">UnselectTerminal</a>). It also calls 
-<a href="https://docs.microsoft.com/windows/desktop/api/mspcall/nf-mspcall-cmspcallbase-mspcallrelease">MSPCallRelease</a> on the call object. This is needed to break the circular refcount.
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itstream-unselectterminal">UnselectTerminal</a>). It also calls 
+<a href="/windows/desktop/api/mspcall/nf-mspcall-cmspcallbase-mspcallrelease">MSPCallRelease</a> on the call object. This is needed to break the circular refcount.
 
 ## -parameters
-

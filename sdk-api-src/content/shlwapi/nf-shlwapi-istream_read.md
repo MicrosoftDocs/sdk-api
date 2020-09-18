@@ -60,9 +60,9 @@ Reads bytes from a specified stream and returns a value that indicates whether a
 
 ### -param pstm [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a>*</b>
+Type: <b><a href="/windows/desktop/api/objidl/nn-objidl-istream">IStream</a>*</b>
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a> interface of the stream from which to read.
+A pointer to the <a href="/windows/desktop/api/objidl/nn-objidl-istream">IStream</a> interface of the stream from which to read.
 
 ### -param pv [out]
 
@@ -84,9 +84,8 @@ Returns <b>S_OK</b> if the function successfully reads the specified number of b
 
 ## -remarks
 
-This function calls the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-isequentialstream-read">ISequentialStream::Read</a> method to read data from the specified stream into the buffer. If the function fails for any reason, the contents of the output buffer and the position of the read pointer in the input stream are undefined.
+This function calls the <a href="/windows/desktop/api/objidl/nf-objidl-isequentialstream-read">ISequentialStream::Read</a> method to read data from the specified stream into the buffer. If the function fails for any reason, the contents of the output buffer and the position of the read pointer in the input stream are undefined.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-isequentialstream-read">ISequentialStream::Read</a>
-
+<a href="/windows/desktop/api/objidl/nf-objidl-isequentialstream-read">ISequentialStream::Read</a>

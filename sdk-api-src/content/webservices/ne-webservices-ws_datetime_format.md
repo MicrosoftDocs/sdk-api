@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Specifies the textual format of a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_datetime">WS_DATETIME</a>.
+Specifies the textual format of a <a href="/windows/desktop/api/webservices/ns-webservices-ws_datetime">WS_DATETIME</a>.
 
 ## -enum-fields
 
@@ -68,10 +68,9 @@ This format displays a time with a specific timezone.  The time is followed by "
         
 
 If the system is unable to convert the time to a local format because timezone information for the time
-          specified it not available, then it will format the time as <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_datetime_format">WS_DATETIME_FORMAT_UTC</a>.
+          specified it not available, then it will format the time as <a href="/windows/desktop/api/webservices/ne-webservices-ws_datetime_format">WS_DATETIME_FORMAT_UTC</a>.
 
 ### -field WS_DATETIME_FORMAT_NONE
 
 This format displays a time with no timezone.  The time is formatted with no additional information and no
           timezone is implied.  For example, September 27, 2007 at 10:30AM would be represented as "2007-09-27T10:30:00".
-

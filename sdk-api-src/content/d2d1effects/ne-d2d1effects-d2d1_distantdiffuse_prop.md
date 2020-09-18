@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Identifiers for properties of the <a href="https://docs.microsoft.com/windows/desktop/Direct2D/distant-diffuse">Distant-diffuse lighting effect</a>.
+Identifiers for properties of the <a href="/windows/desktop/Direct2D/distant-diffuse">Distant-diffuse lighting effect</a>.
 
 ## -enum-fields
 
@@ -118,4 +118,3 @@ The type is D2D1_DISTANTDIFFUSE_SCALE_MODE.
 The default value is D2D1_DISTANTDIFFUSE_SCALE_MODE_LINEAR.
 
 ### -field D2D1_DISTANTDIFFUSE_PROP_FORCE_DWORD
-

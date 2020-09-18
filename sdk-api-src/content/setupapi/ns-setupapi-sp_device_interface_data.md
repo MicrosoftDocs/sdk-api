@@ -104,21 +104,20 @@ A SetupAPI function that takes an instance of the SP_DEVICE_INTERFACE_DATA struc
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdicreatedeviceinterfacea">SetupDiCreateDeviceInterface</a>
+<a href="/windows/desktop/api/setupapi/nf-setupapi-setupdicreatedeviceinterfacea">SetupDiCreateDeviceInterface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdienumdeviceinterfaces">SetupDiEnumDeviceInterfaces</a>
+<a href="/windows/desktop/api/setupapi/nf-setupapi-setupdienumdeviceinterfaces">SetupDiEnumDeviceInterfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdigetdeviceinterfacealias">SetupDiGetDeviceInterfaceAlias</a>
+<a href="/windows/desktop/api/setupapi/nf-setupapi-setupdigetdeviceinterfacealias">SetupDiGetDeviceInterfaceAlias</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdiopendeviceinterfacea">SetupDiOpenDeviceInterface</a>
+<a href="/windows/desktop/api/setupapi/nf-setupapi-setupdiopendeviceinterfacea">SetupDiOpenDeviceInterface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdisetdeviceinterfacedefault">SetupDiSetDeviceInterfaceDefault</a>
-
+<a href="/windows/desktop/api/setupapi/nf-setupapi-setupdisetdeviceinterfacedefault">SetupDiSetDeviceInterfaceDefault</a>

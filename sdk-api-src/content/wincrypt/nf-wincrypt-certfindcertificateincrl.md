@@ -50,19 +50,19 @@ api_name:
 
 ## -description
 
-The <b>CertFindCertificateInCRL</b> function searches the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate revocation list</a> (CRL) for the specified certificate.
+The <b>CertFindCertificateInCRL</b> function searches the <a href="/windows/desktop/SecGloss/c-gly">certificate revocation list</a> (CRL) for the specified certificate.
 
 ## -parameters
 
 ### -param pCert [in]
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a> of the certificate to be searched for in the CRL.
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a> of the certificate to be searched for in the CRL.
 
 ### -param pCrlContext [in]
 
 A pointer to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crl_context">CRL_CONTEXT</a> to be searched.
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-crl_context">CRL_CONTEXT</a> to be searched.
 
 ### -param dwFlags [in]
 
@@ -79,4 +79,3 @@ If the certificate is found in the CRL, this pointer is updated with a pointer t
 ## -returns
 
 <b>TRUE</b> if the list was searched; otherwise <b>FALSE</b>.
-

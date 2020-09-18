@@ -54,9 +54,9 @@ api_name:
 
 ## -description
 
-Expands on the information described in the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-titlebarinfo">TITLEBARINFO</a> structure by including the coordinates of each element of the title bar.
+Expands on the information described in the <a href="/windows/desktop/api/winuser/ns-winuser-titlebarinfo">TITLEBARINFO</a> structure by including the coordinates of each element of the title bar.
 
-This structure is sent with the <a href="https://docs.microsoft.com/windows/desktop/menurc/wm-gettitlebarinfoex">WM_GETTITLEBARINFOEX</a> message.
+This structure is sent with the <a href="/windows/desktop/menurc/wm-gettitlebarinfoex">WM_GETTITLEBARINFOEX</a> message.
 
 ## -struct-fields
 
@@ -64,7 +64,7 @@ This structure is sent with the <a href="https://docs.microsoft.com/windows/desk
 
 Type: <b>DWORD</b>
 
-The size of the structure, in bytes. Set this member to <code>sizeof(TITLEBARINFOEX)</code> before sending with the <a href="https://docs.microsoft.com/windows/desktop/menurc/wm-gettitlebarinfoex">WM_GETTITLEBARINFOEX</a> message.
+The size of the structure, in bytes. Set this member to <code>sizeof(TITLEBARINFOEX)</code> before sending with the <a href="/windows/desktop/menurc/wm-gettitlebarinfoex">WM_GETTITLEBARINFOEX</a> message.
 
 ### -field rcTitleBar
 
@@ -221,9 +221,8 @@ An array that receives a structure for each element of the title bar. The struct
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/menurc/wm-gettitlebarinfoex">WM_GETTITLEBARINFOEX</a>
+<a href="/windows/desktop/menurc/wm-gettitlebarinfoex">WM_GETTITLEBARINFOEX</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/winmsg/windows">Windows</a>
-
+<a href="/windows/desktop/winmsg/windows">Windows</a>

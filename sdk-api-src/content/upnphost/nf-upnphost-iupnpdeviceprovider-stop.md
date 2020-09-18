@@ -61,9 +61,8 @@ When implementing this method, return S_OK if the method succeeds. Otherwise, re
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/upnphost/nn-upnphost-iupnpdeviceprovider">IUPnPDeviceProvider</a>
+<a href="/windows/desktop/api/upnphost/nn-upnphost-iupnpdeviceprovider">IUPnPDeviceProvider</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/upnphost/nf-upnphost-iupnpdeviceprovider-start">IUPnPDeviceProvider::Start</a>
-
+<a href="/windows/desktop/api/upnphost/nf-upnphost-iupnpdeviceprovider-start">IUPnPDeviceProvider::Start</a>

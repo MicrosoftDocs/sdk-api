@@ -54,7 +54,7 @@ api_name:
 ## -description
 
 Contains the attributes of a disk device. Returned as the output buffer from the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_disk_get_disk_attributes">IOCTL_DISK_GET_DISK_ATTRIBUTES</a> control 
+    <a href="/windows/desktop/api/winioctl/ni-winioctl-ioctl_disk_get_disk_attributes">IOCTL_DISK_GET_DISK_ATTRIBUTES</a> control 
     code.
 
 ## -struct-fields
@@ -102,13 +102,12 @@ The disk is read-only.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/disk-management-structures">Disk Management Structures</a>
+<a href="/windows/desktop/FileIO/disk-management-structures">Disk Management Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_disk_get_disk_attributes">IOCTL_DISK_GET_DISK_ATTRIBUTES</a>
+<a href="/windows/desktop/api/winioctl/ni-winioctl-ioctl_disk_get_disk_attributes">IOCTL_DISK_GET_DISK_ATTRIBUTES</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_disk_set_disk_attributes">SET_DISK_ATTRIBUTES</a>
-
+<a href="/windows/desktop/api/winioctl/ni-winioctl-ioctl_disk_set_disk_attributes">SET_DISK_ATTRIBUTES</a>

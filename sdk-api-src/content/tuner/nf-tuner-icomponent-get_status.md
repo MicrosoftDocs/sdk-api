@@ -56,7 +56,7 @@ The <b>get_Status</b> method retrieves the requested or actual status of the com
 
 ### -param Status [out]
 
-Pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/componentstatus">ComponentStatus</a> enumeration that receives the status value.
+Pointer to a <a href="/previous-versions/windows/desktop/mstv/componentstatus">ComponentStatus</a> enumeration that receives the status value.
 
 ## -returns
 
@@ -64,9 +64,8 @@ Returns S_OK if successful. If the method fails, error information can be retrie
 
 ## -remarks
 
-When the TIF adds a component to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-icomponents">IComponents</a> collection, it can indicate whether the component is active or not. An application can attempt to set this status, and resubmit a tune request. The tuner will update the status from the enumeration: Active, Inactive, Unavailable. The Unavailable status is only set by a tuner in response to a request to activate, when the component is not really available.
+When the TIF adds a component to the <a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-icomponents">IComponents</a> collection, it can indicate whether the component is active or not. An application can attempt to set this status, and resubmit a tune request. The tuner will update the status from the enumeration: Active, Inactive, Unavailable. The Unavailable status is only set by a tuner in response to a request to activate, when the component is not really available.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-icomponent">IComponent Interface</a>
-
+<a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-icomponent">IComponent Interface</a>

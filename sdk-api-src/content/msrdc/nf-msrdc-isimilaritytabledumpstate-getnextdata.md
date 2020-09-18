@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Retrieves one or more <a href="/windows/win32/api/msrdc/ns-msrdc-similaritydumpdata">SimilarityDumpData</a> structures from the similarity traits list that was returned by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/nf-msrdc-isimilaritytraitstable-begindump">ISimilarityTraitsTable::BeginDump</a> method.
+Retrieves one or more <a href="/windows/win32/api/msrdc/ns-msrdc-similaritydumpdata">SimilarityDumpData</a> structures from the similarity traits list that was returned by the <a href="/previous-versions/windows/desktop/api/msrdc/nf-msrdc-isimilaritytraitstable-begindump">ISimilarityTraitsTable::BeginDump</a> method.
 
 ## -parameters
 
@@ -76,5 +76,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/nn-msrdc-isimilaritytabledumpstate">ISimilarityTableDumpState</a>
-
+<a href="/previous-versions/windows/desktop/api/msrdc/nn-msrdc-isimilaritytabledumpstate">ISimilarityTableDumpState</a>

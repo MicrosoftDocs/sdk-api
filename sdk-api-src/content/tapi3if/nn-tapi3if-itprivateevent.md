@@ -55,7 +55,7 @@ The
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITPrivateEvent</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ITPrivateEvent</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITPrivateEvent</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ITPrivateEvent</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,37 +70,37 @@ The <b>ITPrivateEvent</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itprivateevent-get_address">get_Address</a>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itprivateevent-get_address">get_Address</a>
 </td>
 <td align="left" width="63%">
 Gets the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itaddress">ITAddress</a> interface pointer to the private object involved in the event.
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itaddress">ITAddress</a> interface pointer to the private object involved in the event.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itprivateevent-get_call">get_Call</a>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itprivateevent-get_call">get_Call</a>
 </td>
 <td align="left" width="63%">
 Gets the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itcallinfo">ITCallInfo</a> interface pointer to the private object involved in the event.
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itcallinfo">ITCallInfo</a> interface pointer to the private object involved in the event.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itprivateevent-get_callhub">get_CallHub</a>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itprivateevent-get_callhub">get_CallHub</a>
 </td>
 <td align="left" width="63%">
 Gets the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itcallhub">ITCallHub</a> interface pointer to the private object involved in the event.
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itcallhub">ITCallHub</a> interface pointer to the private object involved in the event.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itprivateevent-get_eventcode">get_EventCode</a>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itprivateevent-get_eventcode">get_EventCode</a>
 </td>
 <td align="left" width="63%">
 Gets a provider-specific event descriptor.
@@ -109,7 +109,7 @@ Gets a provider-specific event descriptor.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itprivateevent-get_eventinterface">get_EventInterface</a>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itprivateevent-get_eventinterface">get_EventInterface</a>
 </td>
 <td align="left" width="63%">
 Gets a pointer to the <b>IDispatch</b> interface of the private object's event handler.
@@ -117,4 +117,3 @@ Gets a pointer to the <b>IDispatch</b> interface of the private object's event h
 </td>
 </tr>
 </table>
-

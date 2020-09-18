@@ -67,7 +67,7 @@ This interface GUID is not properly defined in mssachlp.lib; therefore, to get t
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMDMLogger</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWMDMLogger</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMDMLogger</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWMDMLogger</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -82,7 +82,7 @@ The <b>IWMDMLogger</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmdmlog/nf-wmdmlog-iwmdmlogger-enable">Enable</a>
+<a href="/windows/desktop/api/wmdmlog/nf-wmdmlog-iwmdmlogger-enable">Enable</a>
 </td>
 <td align="left" width="63%">
 Enables or disables logging.
@@ -91,7 +91,7 @@ Enables or disables logging.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmdmlog/nf-wmdmlog-iwmdmlogger-getlogfilename">GetLogFileName</a>
+<a href="/windows/desktop/api/wmdmlog/nf-wmdmlog-iwmdmlogger-getlogfilename">GetLogFileName</a>
 </td>
 <td align="left" width="63%">
 Returns the full path to the current log file.
@@ -100,7 +100,7 @@ Returns the full path to the current log file.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmdmlog/nf-wmdmlog-iwmdmlogger-getsizeparams">GetSizeParams</a>
+<a href="/windows/desktop/api/wmdmlog/nf-wmdmlog-iwmdmlogger-getsizeparams">GetSizeParams</a>
 </td>
 <td align="left" width="63%">
 Retrieves the current size parameters of the current log file.
@@ -109,7 +109,7 @@ Retrieves the current size parameters of the current log file.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmdmlog/nf-wmdmlog-iwmdmlogger-isenabled">IsEnabled</a>
+<a href="/windows/desktop/api/wmdmlog/nf-wmdmlog-iwmdmlogger-isenabled">IsEnabled</a>
 </td>
 <td align="left" width="63%">
 Determines whether logging is enabled.
@@ -118,7 +118,7 @@ Determines whether logging is enabled.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmdmlog/nf-wmdmlog-iwmdmlogger-logdword">LogDword</a>
+<a href="/windows/desktop/api/wmdmlog/nf-wmdmlog-iwmdmlogger-logdword">LogDword</a>
 </td>
 <td align="left" width="63%">
 Logs a <b>DWORD</b> value to the current log file.
@@ -127,7 +127,7 @@ Logs a <b>DWORD</b> value to the current log file.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmdmlog/nf-wmdmlog-iwmdmlogger-logstring">LogString</a>
+<a href="/windows/desktop/api/wmdmlog/nf-wmdmlog-iwmdmlogger-logstring">LogString</a>
 </td>
 <td align="left" width="63%">
 Logs a string to the current log file.
@@ -136,7 +136,7 @@ Logs a string to the current log file.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmdmlog/nf-wmdmlog-iwmdmlogger-reset">Reset</a>
+<a href="/windows/desktop/api/wmdmlog/nf-wmdmlog-iwmdmlogger-reset">Reset</a>
 </td>
 <td align="left" width="63%">
 Deletes the contents of the current log file.
@@ -145,7 +145,7 @@ Deletes the contents of the current log file.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmdmlog/nf-wmdmlog-iwmdmlogger-setlogfilename">SetLogFileName</a>
+<a href="/windows/desktop/api/wmdmlog/nf-wmdmlog-iwmdmlogger-setlogfilename">SetLogFileName</a>
 </td>
 <td align="left" width="63%">
 Sets the full path to the current log file. All subsequent log entries are placed in this file.
@@ -154,7 +154,7 @@ Sets the full path to the current log file. All subsequent log entries are place
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmdmlog/nf-wmdmlog-iwmdmlogger-setsizeparams">SetSizeParams</a>
+<a href="/windows/desktop/api/wmdmlog/nf-wmdmlog-iwmdmlogger-setsizeparams">SetSizeParams</a>
 </td>
 <td align="left" width="63%">
 Sets the current size parameters for the current log file.
@@ -165,9 +165,8 @@ Sets the current size parameters for the current log file.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/WMDM/enabling-logging">Enabling Logging</a>
+<a href="/windows/desktop/WMDM/enabling-logging">Enabling Logging</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WMDM/interfaces-for-service-providers-and-applications">Interfaces for Service Providers and Applications</a>
-
+<a href="/windows/desktop/WMDM/interfaces-for-service-providers-and-applications">Interfaces for Service Providers and Applications</a>

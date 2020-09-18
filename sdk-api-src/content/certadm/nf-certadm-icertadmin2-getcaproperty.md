@@ -51,16 +51,16 @@ api_name:
 
 ## -description
 
-The <b>GetCAProperty</b> method retrieves a property value for the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certification authority</a> (CA). This method was first defined in the <a href="https://docs.microsoft.com/windows/desktop/api/certadm/nn-certadm-icertadmin">ICertAdmin</a> interface.
+The <b>GetCAProperty</b> method retrieves a property value for the <a href="/windows/desktop/SecGloss/c-gly">certification authority</a> (CA). This method was first defined in the <a href="/windows/desktop/api/certadm/nn-certadm-icertadmin">ICertAdmin</a> interface.
 
 ## -parameters
 
 ### -param strConfig [in]
 
 Represents a valid configuration string for the CA in the form COMPUTERNAME\CANAME, where COMPUTERNAME is the Certificate Services server's network name, and CANAME is the common name of the CA, as entered during Certificate Services setup. For information about the configuration string name, see 
-<a href="https://docs.microsoft.com/windows/desktop/api/certcli/nn-certcli-icertconfig">ICertConfig</a>.
+<a href="/windows/desktop/api/certcli/nn-certcli-icertconfig">ICertConfig</a>.
 
-<div class="alert"><b>Important</b>  <b>GetCAProperty</b> does not clear the internal cache when the configuration string is changed. When you change the configuration string for the CA, you must instantiate a new <a href="https://docs.microsoft.com/windows/desktop/api/certadm/nn-certadm-icertadmin2">ICertAdmin</a> object and call this method again with the new configuration string.</div>
+<div class="alert"><b>Important</b>  <b>GetCAProperty</b> does not clear the internal cache when the configuration string is changed. When you change the configuration string for the CA, you must instantiate a new <a href="/windows/desktop/api/certadm/nn-certadm-icertadmin2">ICertAdmin</a> object and call this method again with the new configuration string.</div>
 <div> </div>
 
 ### -param PropId [in]
@@ -94,7 +94,7 @@ Specifies whether the CA is running Advanced Server.
 <td width="60%">
 Data type of the property: Binary, indexed
 
-The CA's full, or base, <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate revocation list</a> (CRL).
+The CA's full, or base, <a href="/windows/desktop/SecGloss/c-gly">certificate revocation list</a> (CRL).
 
 </td>
 </tr>
@@ -596,7 +596,7 @@ Value specifying whether role separation is enabled.
 <td width="60%">
 Data type of the property: String
 
-The sanitized name of the CA. For a definition of a sanitized CA name, see <a href="https://docs.microsoft.com/windows/desktop/api/certcli/nf-certcli-icertconfig-getconfig">ICertConfig2::GetConfig</a>.
+The sanitized name of the CA. For a definition of a sanitized CA name, see <a href="/windows/desktop/api/certcli/nf-certcli-icertconfig-getconfig">ICertConfig2::GetConfig</a>.
 
 </td>
 </tr>
@@ -609,7 +609,7 @@ The sanitized name of the CA. For a definition of a sanitized CA name, see <a hr
 <td width="60%">
 Data type of the property: String
 
-The sanitized short name of the CA. For a definition of a sanitized CA short name, see <a href="https://docs.microsoft.com/windows/desktop/api/certcli/nf-certcli-icertconfig-getconfig">ICertConfig2::GetConfig</a>.
+The sanitized short name of the CA. For a definition of a sanitized CA short name, see <a href="/windows/desktop/api/certcli/nf-certcli-icertconfig-getconfig">ICertConfig2::GetConfig</a>.
 
 </td>
 </tr>
@@ -690,7 +690,7 @@ Binary data
 </dl>
 </td>
 <td width="60%">
-<a href="https://docs.microsoft.com/windows/desktop/SecGloss/u-gly">Unicode</a> string data
+<a href="/windows/desktop/SecGloss/u-gly">Unicode</a> string data
 
 </td>
 </tr>
@@ -698,7 +698,7 @@ Binary data
 
 ### -param Flags [in]
 
-The following flags can be used to specify the format of the returned property value; these flags have meaning only for binary data (such as certificates, certificate chains or <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate revocation lists</a>) and is ignored otherwise.
+The following flags can be used to specify the format of the returned property value; these flags have meaning only for binary data (such as certificates, certificate chains or <a href="/windows/desktop/SecGloss/c-gly">certificate revocation lists</a>) and is ignored otherwise.
 
 <table>
 <tr>
@@ -799,7 +799,7 @@ Hexadecimal string with ASCII and address/offset
 
 ### -param pvarPropertyValue [out]
 
-A pointer to a buffer that receives the requested property value. It is a caller's responsibility to free this resource when done by calling <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-variantclear">VariantClear</a>.
+A pointer to a buffer that receives the requested property value. It is a caller's responsibility to free this resource when done by calling <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-variantclear">VariantClear</a>.
 
 ## -returns
 
@@ -869,12 +869,12 @@ The following values are returned when the property identifier is CR_PROP_BASECR
 </table>
  
 
-For an example of retrieving a CRL, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/retrieving-a-certificate-revocation-list">Retrieving a Certificate Revocation List</a>.
+For an example of retrieving a CRL, see <a href="/windows/desktop/SecCrypto/retrieving-a-certificate-revocation-list">Retrieving a Certificate Revocation List</a>.
 
 
 #### Examples
 
-The following example shows retrieving the signature certificate of the CA. The  example assumes the <a href="https://docs.microsoft.com/windows/desktop/api/certadm/nn-certadm-icertadmin2">ICertAdmin2</a> interface pointer is valid.
+The following example shows retrieving the signature certificate of the CA. The  example assumes the <a href="/windows/desktop/api/certadm/nn-certadm-icertadmin2">ICertAdmin2</a> interface pointer is valid.
 
 
 ```cpp
@@ -911,4 +911,3 @@ if (FAILED(hr))
 VariantClear(&var1);
 SysFreeString(bstrCA);
 ```
-

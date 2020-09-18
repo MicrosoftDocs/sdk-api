@@ -57,7 +57,7 @@ The
 
 ### -field scopl_header
 
-Scope header, in the form of an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lpmapi/ns-lpmapi-rsvpobjhdr">RsvpObjHdr</a> structure.
+Scope header, in the form of an <a href="/previous-versions/windows/desktop/api/lpmapi/ns-lpmapi-rsvpobjhdr">RsvpObjHdr</a> structure.
 
 ### -field scope_u
 
@@ -67,15 +67,14 @@ Union containing scope list information.
 
 #### scopl_ipv4
 
-RSVP scope list, in the form of a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lpmapi/ns-lpmapi-scope_list_ipv4">Scope_list_ipv4</a> structure.
+RSVP scope list, in the form of a <a href="/previous-versions/windows/desktop/api/lpmapi/ns-lpmapi-scope_list_ipv4">Scope_list_ipv4</a> structure.
 
 ### -field scopl_ipv4
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lpmapi/ns-lpmapi-rsvpobjhdr">RsvpObjHdr</a>
+<a href="/previous-versions/windows/desktop/api/lpmapi/ns-lpmapi-rsvpobjhdr">RsvpObjHdr</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lpmapi/ns-lpmapi-scope_list_ipv4">Scope_list_ipv4</a>
-
+<a href="/previous-versions/windows/desktop/api/lpmapi/ns-lpmapi-scope_list_ipv4">Scope_list_ipv4</a>

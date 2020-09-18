@@ -54,17 +54,17 @@ api_name:
 
 ## -description
 
-The DDFLIPVIDEOPORTINFO structure contains the <a href="https://docs.microsoft.com/windows-hardware/drivers/">video port extensions (VPE)</a> object and surface information.
+The DDFLIPVIDEOPORTINFO structure contains the <a href="/windows-hardware/drivers/">video port extensions (VPE)</a> object and surface information.
 
 ## -struct-fields
 
 ### -field lpVideoPortData
 
-Points to a <a href="https://docs.microsoft.com/windows/desktop/api/dxmini/ns-dxmini-ddvideoportdata">DDVIDEOPORTDATA</a> structure that contains the VPE object information.
+Points to a <a href="/windows/desktop/api/dxmini/ns-dxmini-ddvideoportdata">DDVIDEOPORTDATA</a> structure that contains the VPE object information.
 
 ### -field lpCurrentSurface
 
-Points to a <a href="https://docs.microsoft.com/windows/desktop/api/dxmini/ns-dxmini-ddsurfacedata">DDSURFACEDATA</a> structure that contains information about the current surface.
+Points to a <a href="/windows/desktop/api/dxmini/ns-dxmini-ddsurfacedata">DDSURFACEDATA</a> structure that contains information about the current surface.
 
 ### -field lpTargetSurface
 
@@ -72,7 +72,7 @@ Points to a DDSURFACEDATA structure that contains information about the target s
 
 ### -field dwFlipVPFlags
 
-Indicates whether the surfaces represent <a href="https://docs.microsoft.com/windows-hardware/drivers/">vertical blanking interval (VBI)</a> surfaces or regular surfaces. One of the following: 
+Indicates whether the surfaces represent <a href="/windows-hardware/drivers/">vertical blanking interval (VBI)</a> surfaces or regular surfaces. One of the following: 
 
 <table>
 <tr>
@@ -103,13 +103,12 @@ Flip the normal video surface.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dxmini/ns-dxmini-ddsurfacedata">DDSURFACEDATA</a>
+<a href="/windows/desktop/api/dxmini/ns-dxmini-ddsurfacedata">DDSURFACEDATA</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dxmini/ns-dxmini-ddvideoportdata">DDVIDEOPORTDATA</a>
+<a href="/windows/desktop/api/dxmini/ns-dxmini-ddvideoportdata">DDVIDEOPORTDATA</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dxmini/nc-dxmini-pdx_flipvideoport">DxFlipVideoPort</a>
-
+<a href="/windows/desktop/api/dxmini/nc-dxmini-pdx_flipvideoport">DxFlipVideoPort</a>

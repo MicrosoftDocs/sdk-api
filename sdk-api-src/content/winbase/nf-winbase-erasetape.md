@@ -58,7 +58,7 @@ The
 ### -param hDevice [in]
 
 Handle to the device where the tape is to be erased. This handle is created by using the 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> function.
+<a href="/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> function.
 
 ### -param dwEraseType [in]
 
@@ -295,13 +295,12 @@ The media is write protected.
 ## -remarks
 
 Some tape devices do not support certain tape operations. To determine your tape device's capabilities, see your tape device documentation and use the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-gettapeparameters">GetTapeParameters</a> function.
+<a href="/windows/desktop/api/winbase/nf-winbase-gettapeparameters">GetTapeParameters</a> function.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a>
+<a href="/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-gettapeparameters">GetTapeParameters</a>
-
+<a href="/windows/desktop/api/winbase/nf-winbase-gettapeparameters">GetTapeParameters</a>

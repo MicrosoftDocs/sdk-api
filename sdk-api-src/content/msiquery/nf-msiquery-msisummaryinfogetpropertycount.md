@@ -69,9 +69,8 @@ This function returns UINT.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/database-functions">Summary Information Property Functions</a>
+<a href="/windows/desktop/Msi/database-functions">Summary Information Property Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/summary-information-stream-property-set">Summary Information Stream Property Set</a>
-
+<a href="/windows/desktop/Msi/summary-information-stream-property-set">Summary Information Stream Property Set</a>

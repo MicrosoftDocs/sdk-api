@@ -84,7 +84,7 @@ The name of a resource of the type being enumerated. Alternately, rather than a 
 
 Type: <b>LPCTSTR</b>
 
-The type of resource for which the name is being enumerated. Alternately, rather than a pointer, this parameter can be <code>MAKEINTRESOURCE(ID)</code>, where ID is an integer value representing a predefined resource type. For standard resource types, see <a href="https://docs.microsoft.com/windows/desktop/menurc/resource-types">Resource Types</a>. For more information, see the Remarks section below.
+The type of resource for which the name is being enumerated. Alternately, rather than a pointer, this parameter can be <code>MAKEINTRESOURCE(ID)</code>, where ID is an integer value representing a predefined resource type. For standard resource types, see <a href="/windows/desktop/menurc/resource-types">Resource Types</a>. For more information, see the Remarks section below.
 
 ## -returns
 
@@ -100,7 +100,7 @@ Similarly, if <a href="https://msdn.microsoft.com/af7d1343-93b7-4e11-a299-3c2f19
 
 An application must register this function by passing its address to the <a href="https://msdn.microsoft.com/f64c766c-735f-43b7-84f9-339313c98ad3">EnumResourceNames</a> or <a href="https://msdn.microsoft.com/d392c913-d71c-47fc-9b11-2688731d13e7">EnumResourceNamesEx</a> function.
 
-If the callback function returns <b>FALSE</b>, then <a href="https://msdn.microsoft.com/f64c766c-735f-43b7-84f9-339313c98ad3">EnumResourceNames</a> or <a href="https://msdn.microsoft.com/d392c913-d71c-47fc-9b11-2688731d13e7">EnumResourceNamesEx</a> will stop enumeration and return <b>FALSE</b>. On Windows XP and earlier the value obtained from <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> will be <b>ERROR_SUCCESS</b>; starting with Windows Vista, the last error value will be <b>ERROR_RESOURCE_ENUM_USER_STOP</b>.
+If the callback function returns <b>FALSE</b>, then <a href="https://msdn.microsoft.com/f64c766c-735f-43b7-84f9-339313c98ad3">EnumResourceNames</a> or <a href="https://msdn.microsoft.com/d392c913-d71c-47fc-9b11-2688731d13e7">EnumResourceNamesEx</a> will stop enumeration and return <b>FALSE</b>. On Windows XP and earlier the value obtained from <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> will be <b>ERROR_SUCCESS</b>; starting with Windows Vista, the last error value will be <b>ERROR_RESOURCE_ENUM_USER_STOP</b>.
 
 
 
@@ -132,4 +132,3 @@ If the callback function returns <b>FALSE</b>, then <a href="https://msdn.micros
 
 
 <a href="https://msdn.microsoft.com/ff321356-c999-4021-a537-fbe863996e24">Resources</a>
-

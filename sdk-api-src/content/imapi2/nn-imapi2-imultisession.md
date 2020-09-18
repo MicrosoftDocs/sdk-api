@@ -52,13 +52,13 @@ api_name:
 
 Base interface containing properties common to derived multisession interfaces.
 
-You can derive from this interface to implement a new multi-session mechanism that is different from <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-imultisessionsequential">IMultisessionSequential</a> and <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-imultisessionrandomwrite">IMultisessionRandomWrite</a>. For example, you could implement a mechanism for BD-R Pseudo-Overwrite. 
+You can derive from this interface to implement a new multi-session mechanism that is different from <a href="/windows/desktop/api/imapi2/nn-imapi2-imultisessionsequential">IMultisessionSequential</a> and <a href="/windows/desktop/api/imapi2/nn-imapi2-imultisessionrandomwrite">IMultisessionRandomWrite</a>. For example, you could implement a mechanism for BD-R Pseudo-Overwrite. 
 
-To access media-specific properties of a multisession interface, use the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-imultisessionsequential">IMultisessionSequential</a> and <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-imultisessionrandomwrite">IMultisessionRandomWrite</a> interface.
+To access media-specific properties of a multisession interface, use the <a href="/windows/desktop/api/imapi2/nn-imapi2-imultisessionsequential">IMultisessionSequential</a> and <a href="/windows/desktop/api/imapi2/nn-imapi2-imultisessionrandomwrite">IMultisessionRandomWrite</a> interface.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMultisession</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IMultisession</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMultisession</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IMultisession</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -73,7 +73,7 @@ The <b>IMultisession</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-imultisession-get_importrecorder">get_ImportRecorder</a>
+<a href="/windows/desktop/api/imapi2/nf-imapi2-imultisession-get_importrecorder">get_ImportRecorder</a>
 </td>
 <td align="left" width="63%">
 Retrieves the disc recorder to use to import one or more previous sessions.
@@ -82,7 +82,7 @@ Retrieves the disc recorder to use to import one or more previous sessions.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-imultisession-get_inuse">get_InUse</a>
+<a href="/windows/desktop/api/imapi2/nf-imapi2-imultisession-get_inuse">get_InUse</a>
 </td>
 <td align="left" width="63%">
 Determines if this multi-session type is the one you should use on the current media.
@@ -91,7 +91,7 @@ Determines if this multi-session type is the one you should use on the current m
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-imultisession-get_issupportedoncurrentmediastate">get_IsSupportedOnCurrentMediaState</a>
+<a href="/windows/desktop/api/imapi2/nf-imapi2-imultisession-get_issupportedoncurrentmediastate">get_IsSupportedOnCurrentMediaState</a>
 </td>
 <td align="left" width="63%">
 Determines if the multi-session type can write to the current optical media.
@@ -100,7 +100,7 @@ Determines if the multi-session type can write to the current optical media.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-imultisession-put_inuse">put_InUse</a>
+<a href="/windows/desktop/api/imapi2/nf-imapi2-imultisession-put_inuse">put_InUse</a>
 </td>
 <td align="left" width="63%">
 Determines if this multi-session type is the one you should use on the current media.
@@ -111,9 +111,8 @@ Determines if this multi-session type is the one you should use on the current m
 
 ## -remarks
 
-If more than one multi-session interface exist, the application can let <a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nn-imapi2fs-ifilesystemimage">IFileSystemImage</a> choose a compatible multi-session interface to use  or the application can specify the multi-session interface to use by setting the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-imultisession-put_inuse">put_InUse</a> property to VARIANT_TRUE.
+If more than one multi-session interface exist, the application can let <a href="/windows/desktop/api/imapi2fs/nn-imapi2fs-ifilesystemimage">IFileSystemImage</a> choose a compatible multi-session interface to use  or the application can specify the multi-session interface to use by setting the <a href="/windows/desktop/api/imapi2/nf-imapi2-imultisession-put_inuse">put_InUse</a> property to VARIANT_TRUE.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
-
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>

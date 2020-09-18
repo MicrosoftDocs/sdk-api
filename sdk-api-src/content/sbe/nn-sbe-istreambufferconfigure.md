@@ -52,13 +52,13 @@ api_name:
 
 The <b>IStreamBufferConfigure</b> interface configures the location, number, and size of the backing files used by the various stream buffer objects.
 
-The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/streambufferconfig-object">StreamBufferConfig</a> object exposes this interface.
+The <a href="/previous-versions/windows/desktop/mstv/streambufferconfig-object">StreamBufferConfig</a> object exposes this interface.
 
-Before calling any of the <b>Set</b> methods on this interface, you must specify a registry key to hold the new settings. For more information, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/sbe/nf-sbe-istreambufferinitialize-sethkey">IStreamBufferInitialize::SetHKEY</a>.
+Before calling any of the <b>Set</b> methods on this interface, you must specify a registry key to hold the new settings. For more information, see <a href="/previous-versions/windows/desktop/api/sbe/nf-sbe-istreambufferinitialize-sethkey">IStreamBufferInitialize::SetHKEY</a>.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IStreamBufferConfigure</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IStreamBufferConfigure</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IStreamBufferConfigure</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IStreamBufferConfigure</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -73,7 +73,7 @@ The <b>IStreamBufferConfigure</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/sbe/nf-sbe-istreambufferconfigure-getbackingfilecount">GetBackingFileCount</a>
+<a href="/previous-versions/windows/desktop/api/sbe/nf-sbe-istreambufferconfigure-getbackingfilecount">GetBackingFileCount</a>
 </td>
 <td align="left" width="63%">
 Retrieves the maximum and minimum number of backing files.
@@ -82,7 +82,7 @@ Retrieves the maximum and minimum number of backing files.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/sbe/nf-sbe-istreambufferconfigure-getbackingfileduration">GetBackingFileDuration</a>
+<a href="/previous-versions/windows/desktop/api/sbe/nf-sbe-istreambufferconfigure-getbackingfileduration">GetBackingFileDuration</a>
 </td>
 <td align="left" width="63%">
 Retrieves the backing file size, in seconds.
@@ -91,7 +91,7 @@ Retrieves the backing file size, in seconds.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/sbe/nf-sbe-istreambufferconfigure-getdirectory">GetDirectory</a>
+<a href="/previous-versions/windows/desktop/api/sbe/nf-sbe-istreambufferconfigure-getdirectory">GetDirectory</a>
 </td>
 <td align="left" width="63%">
 Retrieves the directory where backing files are saved.
@@ -100,7 +100,7 @@ Retrieves the directory where backing files are saved.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/sbe/nf-sbe-istreambufferconfigure-setbackingfilecount">SetBackingFileCount</a>
+<a href="/previous-versions/windows/desktop/api/sbe/nf-sbe-istreambufferconfigure-setbackingfilecount">SetBackingFileCount</a>
 </td>
 <td align="left" width="63%">
 Sets the maximum and minimum number of backing files.
@@ -109,7 +109,7 @@ Sets the maximum and minimum number of backing files.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/sbe/nf-sbe-istreambufferconfigure-setbackingfileduration">SetBackingFileDuration</a>
+<a href="/previous-versions/windows/desktop/api/sbe/nf-sbe-istreambufferconfigure-setbackingfileduration">SetBackingFileDuration</a>
 </td>
 <td align="left" width="63%">
 Sets the backing file size, in seconds.
@@ -118,7 +118,7 @@ Sets the backing file size, in seconds.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/sbe/nf-sbe-istreambufferconfigure-setdirectory">SetDirectory</a>
+<a href="/previous-versions/windows/desktop/api/sbe/nf-sbe-istreambufferconfigure-setdirectory">SetDirectory</a>
 </td>
 <td align="left" width="63%">
 Sets the directory where backing files are saved.
@@ -133,5 +133,4 @@ To declare the interface identifier (IID) for this interface, use the <b>__uuido
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/stream-buffer-engine-interfaces">Stream Buffer Engine Interfaces</a>
-
+<a href="/previous-versions/windows/desktop/mstv/stream-buffer-engine-interfaces">Stream Buffer Engine Interfaces</a>

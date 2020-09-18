@@ -56,17 +56,16 @@ Performs the user-defined work synchronously.
 
 ### -param pCall [in]
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-imtscall">IMTSCall</a> interface that is used to implement the batch work.
+A pointer to the <a href="/windows/desktop/api/comsvcs/nn-comsvcs-imtscall">IMTSCall</a> interface that is used to implement the batch work.
 
 ## -returns
 
-This method always returns the <b>HRESULT</b> returned by the <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-imtscall-oncall">OnCall</a> method of the <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-imtscall">IMTSCall</a> interface.
+This method always returns the <b>HRESULT</b> returned by the <a href="/windows/desktop/api/comsvcs/nf-comsvcs-imtscall-oncall">OnCall</a> method of the <a href="/windows/desktop/api/comsvcs/nn-comsvcs-imtscall">IMTSCall</a> interface.
 
 ## -remarks
 
-The batch work that is run using this method runs in the context and thread apartment of the activity that was created by the call to <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-mtscreateactivity">MTSCreateActivity</a>.
+The batch work that is run using this method runs in the context and thread apartment of the activity that was created by the call to <a href="/windows/desktop/api/comsvcs/nf-comsvcs-mtscreateactivity">MTSCreateActivity</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-imtsactivity">IMTSActivity</a>
-
+<a href="/windows/desktop/api/comsvcs/nn-comsvcs-imtsactivity">IMTSActivity</a>

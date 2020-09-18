@@ -77,5 +77,4 @@ Create the mirror using an existing file.
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd323698(v=vs.85)">VHD Enumerations</a>
-
+<a href="/previous-versions/windows/desktop/legacy/dd323698(v=vs.85)">VHD Enumerations</a>

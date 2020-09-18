@@ -59,7 +59,7 @@ Updates the preferred providers list for the device.
 
 ### -param preferredProviders [in]
 
-An array of <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/ns-mbnapi-mbn_provider">MBN_PROVIDER</a> structures that contains the list of preferred providers.
+An array of <a href="/windows/desktop/api/mbnapi/ns-mbnapi-mbn_provider">MBN_PROVIDER</a> structures that contains the list of preferred providers.
 
 ### -param requestID [out]
 
@@ -122,12 +122,11 @@ The interface is invalid. Most likely because the Mobile Broadband device has be
 
 ## -remarks
 
-The <b>SetPreferredProviders</b> method initiates an update of the preferred provider list for the interface. This is an asynchronous operation, and the method call returns immediately. If this method returns successfully (with <b>S_OK</b>), then the operating system will notify the calling application about the completion status of this operation by calling the <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nf-mbnapi-imbninterfaceevents-onsetpreferredproviderscomplete">OnSetPreferredProvidersComplete</a> method of <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbninterfaceevents">IMbnInterfaceEvents</a>.
+The <b>SetPreferredProviders</b> method initiates an update of the preferred provider list for the interface. This is an asynchronous operation, and the method call returns immediately. If this method returns successfully (with <b>S_OK</b>), then the operating system will notify the calling application about the completion status of this operation by calling the <a href="/windows/desktop/api/mbnapi/nf-mbnapi-imbninterfaceevents-onsetpreferredproviderscomplete">OnSetPreferredProvidersComplete</a> method of <a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbninterfaceevents">IMbnInterfaceEvents</a>.
 
 
 If the device is removed from the system before this operation is complete, then there is no guarantee that the completion notification will be received by the calling application.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbninterface">IMbnInterface</a>
-
+<a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbninterface">IMbnInterface</a>

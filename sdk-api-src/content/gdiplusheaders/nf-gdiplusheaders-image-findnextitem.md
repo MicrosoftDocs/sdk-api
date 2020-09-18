@@ -51,29 +51,29 @@ api_name:
 
 ## -description
 
-The <b>Image::FindNextItem</b> method is used along with the <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-image-findfirstitem">Image::FindFirstItem</a> method to enumerate the metadata items stored in this <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-image">Image</a> object. The <b>Image::FindNextItem</b> method retrieves the description and the data size of the next metadata item in this <b>Image</b> object.
+The <b>Image::FindNextItem</b> method is used along with the <a href="/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-image-findfirstitem">Image::FindFirstItem</a> method to enumerate the metadata items stored in this <a href="/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-image">Image</a> object. The <b>Image::FindNextItem</b> method retrieves the description and the data size of the next metadata item in this <b>Image</b> object.
 
 ## -parameters
 
 ### -param item [in, out]
 
-Type: <b><a href="https://docs.microsoft.com/previous-versions/ms534468(v=vs.85)">ImageItemData</a>*</b>
+Type: <b><a href="/previous-versions/ms534468(v=vs.85)">ImageItemData</a>*</b>
 
-Pointer to an <a href="https://docs.microsoft.com/previous-versions/ms534468(v=vs.85)">ImageItemData</a> object. On input, the Desc member points to a buffer (allocated by the caller) large enough to hold the metadata description (1 byte for JPEG, 4 bytes for PNG, 11 bytes for GIF), and the DescSize member specifies the size (1, 4, or 6) of the buffer pointed to by Desc. On output, the buffer pointed to by Desc receives the metadata description, and the DataSize member receives the size, in bytes, of the metadata itself.
+Pointer to an <a href="/previous-versions/ms534468(v=vs.85)">ImageItemData</a> object. On input, the Desc member points to a buffer (allocated by the caller) large enough to hold the metadata description (1 byte for JPEG, 4 bytes for PNG, 11 bytes for GIF), and the DescSize member specifies the size (1, 4, or 6) of the buffer pointed to by Desc. On output, the buffer pointed to by Desc receives the metadata description, and the DataSize member receives the size, in bytes, of the metadata itself.
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a></b>
+Type: <b><a href="/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a></b>
 
 If the method succeeds, it returns <b>Ok</b>, which is an element of the 
-						<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a> enumeration.
+						<a href="/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a> enumeration.
 
 If the method fails, it returns one of the other elements of the 
-						<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a> enumeration.
+						<a href="/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a> enumeration.
 
 ## -remarks
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-image-findfirstitem">Image::FindFirstItem</a> and <b>Image::FindNextItem</b> do not enumerate the metadata items stored by the <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-image-setpropertyitem">Image::SetPropertyItem</a> method.
+<a href="/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-image-findfirstitem">Image::FindFirstItem</a> and <b>Image::FindNextItem</b> do not enumerate the metadata items stored by the <a href="/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-image-setpropertyitem">Image::SetPropertyItem</a> method.
 
 
 #### Examples
@@ -105,9 +105,8 @@ while(Ok == stat)
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-image">Image</a>
+<a href="/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-image">Image</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-image-getitemdata">Image::GetItemData</a>
-
+<a href="/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-image-getitemdata">Image::GetItemData</a>

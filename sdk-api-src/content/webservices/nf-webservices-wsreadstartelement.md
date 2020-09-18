@@ -53,7 +53,7 @@ api_name:
 Calling this function advances the reader past a start element skipping any whitespace.
       
         After parsing if the Reader is not positioned on a start element it will return a<b>WS_E_INVALID_FORMAT</b> exception.
-      (See <a href="https://docs.microsoft.com/windows/desktop/wsw/windows-web-services-return-values">Windows Web Services Return Values</a>.)
+      (See <a href="/windows/desktop/wsw/windows-web-services-return-values">Windows Web Services Return Values</a>.)
 
 ## -parameters
 
@@ -63,7 +63,7 @@ A pointer to the <b>XML Reader</b> object used to read the Start element.
 
 ### -param error [in, optional]
 
-A  pointer to a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-error">WS_ERROR</a> object where additional information about the error should be stored if the function fails.
+A  pointer to a <a href="/windows/desktop/wsw/ws-error">WS_ERROR</a> object where additional information about the error should be stored if the function fails.
 
 ## -returns
 
@@ -100,5 +100,4 @@ A quota was exceeded.
 
 ## -remarks
 
-This function can fail for any of the reasons listed in <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsreadnode">WsReadNode</a>.
-
+This function can fail for any of the reasons listed in <a href="/windows/desktop/api/webservices/nf-webservices-wsreadnode">WsReadNode</a>.

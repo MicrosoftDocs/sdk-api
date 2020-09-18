@@ -61,7 +61,7 @@ api_name:
 
 The 
 <b>IWbemClassObject::Put</b> method sets a named property to a new value. This method always overwrites the current value with a new one. When 
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nn-wbemcli-iwbemclassobject">IWbemClassObject</a> points to a CIM class definition, 
+<a href="/windows/desktop/api/wbemcli/nn-wbemcli-iwbemclassobject">IWbemClassObject</a> points to a CIM class definition, 
 <b>Put</b>  creates or updates the property value. When 
 <b>IWbemClassObject</b> points to a CIM instance, 
 <b>Put</b> updates a property value only. <b>Put</b> cannot create a property value.
@@ -91,10 +91,10 @@ The <b>NULL</b> value for a property designated by a <b>VARIANT</b> of type <b>V
 When creating new properties, if <i>pVal</i> is <b>NULL</b> or points to a <b>VT_NULL</b>, the type of the property is determined from the <i>vtType</i> parameter.
 
 If <i>pVal</i> is to contain an embedded 
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nn-wbemcli-iwbemclassobject">IWbemClassObject</a>, the caller must call <b>IWbemClassObject::QueryInterface</b> for <b>IID_IUnknown</b> and place the resulting pointer in the <b>VARIANT</b> using a type of <b>VT_UNKNOWN</b>. The original embedded object is copied during the 
+<a href="/windows/desktop/api/wbemcli/nn-wbemcli-iwbemclassobject">IWbemClassObject</a>, the caller must call <b>IWbemClassObject::QueryInterface</b> for <b>IID_IUnknown</b> and place the resulting pointer in the <b>VARIANT</b> using a type of <b>VT_UNKNOWN</b>. The original embedded object is copied during the 
 <b>Put</b> operation, and so cannot be modified by the operation.
 
-The pointer is treated as read-only. The caller must call <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-variantclear">VariantClear</a> after this call is complete.
+The pointer is treated as read-only. The caller must call <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-variantclear">VariantClear</a> after this call is complete.
 
 Use this parameter only when creating new properties in a CIM class definition and <i>pVal</i> is <b>NULL</b> or points to a <b>VARIANT</b> of type <b>VT_NULL</b>. In such a case, the <i>vtType</i> parameter specifies the CIM type of the property. In every other case, <i>vtType</i> must be 0 (zero). Also, <i>vtType</i> must be 0 (zero) when the underlying object is an instance (even if <i>pVal</i> is <b>NULL</b>), because the type of the property is fixed and cannot be changed. In other words, use <i>vtType</i> if, and only if, <i>pVal</i> is <b>NULL</b> or points to a <b>VT_NULL</b><b>VARIANT</b>, and the underlying object is a CIM class.
 
@@ -103,7 +103,7 @@ When using
 
 ## -returns
 
-This method returns an <b>HRESULT</b> that indicates the status of the method call. The following list lists the values contained within an <b>HRESULT</b>. For general <b>HRESULT</b> values, see <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">System Error Codes</a>.
+This method returns an <b>HRESULT</b> that indicates the status of the method call. The following list lists the values contained within an <b>HRESULT</b>. For general <b>HRESULT</b> values, see <a href="/windows/desktop/Debug/system-error-codes">System Error Codes</a>.
 
 ## -remarks
 
@@ -113,7 +113,7 @@ If the property set by the
 When executing this method on an instance, an overwrite always occurs, because the property always exists.
 
 When creating a new class and the underlying type of the property is an object reference, date/time string, or other special type, you might need to modify the CIM type parameter for the property to indicate the special new class. The 
-<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/swbemproperty-cimtype">CIMType</a> qualifier on instance properties is read-only and inherited from the class object.
+<a href="/windows/desktop/WmiSdk/swbemproperty-cimtype">CIMType</a> qualifier on instance properties is read-only and inherited from the class object.
 
 If the variant type specified in <i>pVal</i> does not match the CIM type of the property, WMI attempts to change the variant to the appropriate variant type, using the normal variant coercion rules. If the variant cannot be coerced, <b>WBEM_E_TYPE_MISMATCH</b> is returned. The following list lists exceptions to the normal variant coercion rules when the property is type <b>uint32</b>.
 
@@ -143,7 +143,7 @@ However, passing in a <b>VT_ARRAY</b>|<b>VT_R8</b> to a property of type <b>uint
  
 
 The 
-<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/wmi-system-properties">__CLASS</a> system property is only writeable during class creation, when it may not be left blank. All other system properties are read-only.
+<a href="/windows/desktop/WmiSdk/wmi-system-properties">__CLASS</a> system property is only writeable during class creation, when it may not be left blank. All other system properties are read-only.
 
 
 #### Examples
@@ -189,21 +189,20 @@ VariantClear(&v);
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">IUnknown::QueryInterface</a>
+<a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">IUnknown::QueryInterface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nn-wbemcli-iwbemclassobject">IWbemClassObject</a>
+<a href="/windows/desktop/api/wbemcli/nn-wbemcli-iwbemclassobject">IWbemClassObject</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/wmi-qualifiers">WMI Qualifiers</a>
+<a href="/windows/desktop/WmiSdk/wmi-qualifiers">WMI Qualifiers</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/wmi-system-classes">WMI System Classes</a>
+<a href="/windows/desktop/WmiSdk/wmi-system-classes">WMI System Classes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/wmi-system-properties">WMI System Properties</a>
-
+<a href="/windows/desktop/WmiSdk/wmi-system-properties">WMI System Properties</a>

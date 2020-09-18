@@ -77,13 +77,12 @@ A pointer to a BOOL that <b>EqualDomainSid</b> sets to <b>TRUE</b> if the domain
 
 If both SIDs are  account domain SIDs and/or BUILTIN SIDs, the return value is nonzero. In addition, *<i>pfEqual</i> is set to <b>TRUE</b> if the domains of the two SIDs are equal; otherwise  *<i>pfEqual</i> is set to <b>FALSE</b>.
 
-If one or more of the SIDS is neither an account domain SID nor a BUILTIN SID, then the return value is <b>FALSE</b>. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. <b>GetLastError</b> returns ERROR_NON_DOMAIN_SID if either SID is not an account domain SID or BUILTIN SID.
+If one or more of the SIDS is neither an account domain SID nor a BUILTIN SID, then the return value is <b>FALSE</b>. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. <b>GetLastError</b> returns ERROR_NON_DOMAIN_SID if either SID is not an account domain SID or BUILTIN SID.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-equalprefixsid">EqualPrefixSid</a>
+<a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-equalprefixsid">EqualPrefixSid</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-equalsid">EqualSid</a>
-
+<a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-equalsid">EqualSid</a>

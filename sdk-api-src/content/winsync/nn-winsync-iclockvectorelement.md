@@ -54,7 +54,7 @@ Represents a clock vector element of a knowledge structure.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IClockVectorElement</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IClockVectorElement</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IClockVectorElement</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IClockVectorElement</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IClockVectorElement</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nf-winsync-iclockvectorelement-getreplicakey">GetReplicaKey</a>
+<a href="/previous-versions/windows/desktop/api/winsync/nf-winsync-iclockvectorelement-getreplicakey">GetReplicaKey</a>
 </td>
 <td align="left" width="63%">
 Gets the replica key for the replica that is associated with this clock vector element.
@@ -79,7 +79,7 @@ Gets the replica key for the replica that is associated with this clock vector e
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nf-winsync-iclockvectorelement-gettickcount">GetTickCount</a>
+<a href="/previous-versions/windows/desktop/api/winsync/nf-winsync-iclockvectorelement-gettickcount">GetTickCount</a>
 </td>
 <td align="left" width="63%">
 Gets the tick count that defines the upper bound on the range of tick counts that are contained in this clock vector element.
@@ -95,5 +95,4 @@ The clock vector elements of a clock vector represent the changes that are conta
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/winsync/windows-sync-interfaces">Windows Sync Interfaces</a>
-
+<a href="/previous-versions/windows/desktop/winsync/windows-sync-interfaces">Windows Sync Interfaces</a>

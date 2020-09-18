@@ -60,7 +60,7 @@ Class identifier of the proxy or stub to retrieve.
 
 ### -param riid [in]
 
-Interface identifier of the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ipsfactorybuffer">IPSFactoryBuffer</a> interface.
+Interface identifier of the <a href="/windows/desktop/api/objidl/nn-objidl-ipsfactorybuffer">IPSFactoryBuffer</a> interface.
 
 ### -param ppv [out]
 
@@ -68,7 +68,7 @@ Address of the output variable that receives the interface pointer requested in 
 
 ### -param pProxyFileList [in]
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/rpcproxy/ns-rpcproxy-proxyfileinfo">ProxyFileInfo</a> structure, which contains information about the proxy and stub.
+Pointer to the <a href="/windows/desktop/api/rpcproxy/ns-rpcproxy-proxyfileinfo">ProxyFileInfo</a> structure, which contains information about the proxy and stub.
 
 ### -param pclsid [in]
 
@@ -76,9 +76,8 @@ Pointer to the class identifier of the proxy or stub. Specify <i>pclsid</i> if t
 
 ### -param pPSFactoryBuffer [in]
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ipsfactorybuffer">IPSFactoryBuffer</a> object.  The pointer is contained in the global variable, gPFactory, defined in RpcProxy.h.
+Pointer to the <a href="/windows/desktop/api/objidl/nn-objidl-ipsfactorybuffer">IPSFactoryBuffer</a> object.  The pointer is contained in the global variable, gPFactory, defined in RpcProxy.h.
 
 ## -returns
 
 Returns S_OK on success.
-

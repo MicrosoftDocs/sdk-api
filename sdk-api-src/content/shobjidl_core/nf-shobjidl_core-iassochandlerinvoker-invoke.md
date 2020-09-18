@@ -62,5 +62,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -remarks
 
-There is no guarantee that a given association handler will support a particular selection, especially if multiple items are selected.  Before attempting to invoke the selection via this method, it is recommended to call <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iassochandlerinvoker-supportsselection">IAssocHandlerInvoker::SupportsSelection</a>.
-
+There is no guarantee that a given association handler will support a particular selection, especially if multiple items are selected.  Before attempting to invoke the selection via this method, it is recommended to call <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iassochandlerinvoker-supportsselection">IAssocHandlerInvoker::SupportsSelection</a>.

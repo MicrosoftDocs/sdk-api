@@ -50,13 +50,12 @@ api_name:
 
 ## -description
 
-Gets the group that has the focus. Use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/lvm-getfocusedgroup">LVM_GETFOCUSEDGROUP</a> message explicitly.
+Gets the group that has the focus. Use this macro or send the <a href="/windows/desktop/Controls/lvm-getfocusedgroup">LVM_GETFOCUSEDGROUP</a> message explicitly.
 
 ## -parameters
 
 ### -param hwnd [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the list-view control.
-

@@ -83,7 +83,7 @@ If the method succeeds, it returns S_OK. If it fails, it returns an <b>HRESULT</
 
 This method can be used to retrieve both DRM header attributes and DRM license information for the current file. DRM-related constants are defined in drmexternals.idl and wmsdkidl.idl.
 
-If you specify a "license state" constant, the returned data is a pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd757942(v=vs.85)">WM_LICENSE_STATE_DATA</a> structure that fully describes the terms of the license for the particular right. The supported license state constants are described in the following table.
+If you specify a "license state" constant, the returned data is a pointer to a <a href="/previous-versions/windows/desktop/legacy/dd757942(v=vs.85)">WM_LICENSE_STATE_DATA</a> structure that fully describes the terms of the license for the particular right. The supported license state constants are described in the following table.
 
 <table>
 <tr>
@@ -121,7 +121,7 @@ If you specify a "license state" constant, the returned data is a pointer to a <
 <tr>
 <td>g_wszWMDRM_LicenseState_CopyToSDMIDevice</td>
 <td>"LicenseStateData.Transfer.SDMI"</td>
-<td>License restrictions on copying the file to an <a href="https://docs.microsoft.com/windows/desktop/wmformat/wmformat-glossary">SDMI</a> device.For DRM version 10 licenses, use g_wszWMDRM_LicenseState_Copy for all copy actions.
+<td>License restrictions on copying the file to an <a href="/windows/desktop/wmformat/wmformat-glossary">SDMI</a> device.For DRM version 10 licenses, use g_wszWMDRM_LicenseState_Copy for all copy actions.
 
 </td>
 </tr>
@@ -242,29 +242,28 @@ If you specify a "DRM Header" constant, the returned value is the string literal
 </table>
  
 
-Before calling this method on a new file, always call the helper function <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-wmiscontentprotected">WMIsContentProtected</a> to ensure that the file is protected with DRM. It is important to do this because in some cases this method might succeed when called on unprotected content.
+Before calling this method on a new file, always call the helper function <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-wmiscontentprotected">WMIsContentProtected</a> to ensure that the file is protected with DRM. It is important to do this because in some cases this method might succeed when called on unprotected content.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/wmformat/drm-attribute-list">DRM Attribute List</a>
+<a href="/windows/desktop/wmformat/drm-attribute-list">DRM Attribute List</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/wmformat/drm-properties">DRM Properties</a>
+<a href="/windows/desktop/wmformat/drm-properties">DRM Properties</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmdrmeditor-getdrmproperty">IWMDRMEditor::GetDRMProperty</a>
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmdrmeditor-getdrmproperty">IWMDRMEditor::GetDRMProperty</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmdrmreader">IWMDRMReader Interface</a>
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmdrmreader">IWMDRMReader Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmdrmreader-setdrmproperty">IWMDRMReader::SetDRMProperty</a>
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmdrmreader-setdrmproperty">IWMDRMReader::SetDRMProperty</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/ne-wmsdkidl-wmt_attr_datatype">WMT_ATTR_DATATYPE</a>
-
+<a href="/windows/desktop/api/wmsdkidl/ne-wmsdkidl-wmt_attr_datatype">WMT_ATTR_DATATYPE</a>

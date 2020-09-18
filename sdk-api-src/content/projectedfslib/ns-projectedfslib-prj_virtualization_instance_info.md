@@ -60,5 +60,4 @@ An ID corresponding to a specific virtualization instance.
 
 ### -field WriteAlignment
 
-The value used for the byteOffset and length parameters of <a href="https://docs.microsoft.com/windows/desktop/api/projectedfslib/nf-projectedfslib-prjwritefiledata">PrjWriteFileData</a>.
-
+The value used for the byteOffset and length parameters of <a href="/windows/desktop/api/projectedfslib/nf-projectedfslib-prjwritefiledata">PrjWriteFileData</a>.

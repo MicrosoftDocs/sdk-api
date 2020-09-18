@@ -55,7 +55,7 @@ Gets the capabilities of a device's auxiliary input connectors.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBDA_AUX</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IBDA_AUX</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBDA_AUX</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IBDA_AUX</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>IBDA_AUX</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nf-bdaiface-ibda_aux-enumcapability">EnumCapability</a>
+<a href="/windows/desktop/api/bdaiface/nf-bdaiface-ibda_aux-enumcapability">EnumCapability</a>
 </td>
 <td align="left" width="63%">
 Gets the capabilities of an auxiliary connector, specified by index.
@@ -79,7 +79,7 @@ Gets the capabilities of an auxiliary connector, specified by index.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nf-bdaiface-ibda_aux-querycapabilities">QueryCapabilities</a>
+<a href="/windows/desktop/api/bdaiface/nf-bdaiface-ibda_aux-querycapabilities">QueryCapabilities</a>
 </td>
 <td align="left" width="63%">
 Gets the number of auxiliary connectors on the device.
@@ -91,4 +91,3 @@ Gets the number of auxiliary connectors on the device.
 ## -remarks
 
 To declare the interface identifier (IID) for this interface, use the <b>__uuidof</b> operator: <code>__uuidof(IBDA_AUX)</code>.
-

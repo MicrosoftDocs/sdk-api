@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>CM_Add_Res_Des</b> function adds a <a href="https://docs.microsoft.com/windows-hardware/drivers/">resource descriptor</a> to a <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/hardware-resources">logical configuration</a>.
+The <b>CM_Add_Res_Des</b> function adds a <a href="/windows-hardware/drivers/">resource descriptor</a> to a <a href="/windows-hardware/drivers/kernel/hardware-resources">logical configuration</a>.
 
 ## -parameters
 
@@ -63,27 +63,27 @@ Pointer to a location to receive a handle to the new resource descriptor.
 Caller-supplied handle to the logical configuration to which the resource descriptor should be added. This handle must have been previously obtained by calling one of the following functions:
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_add_empty_log_conf">CM_Add_Empty_Log_Conf</a>
+<a href="/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_add_empty_log_conf">CM_Add_Empty_Log_Conf</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_add_empty_log_conf_ex">CM_Add_Empty_Log_Conf_Ex</a>
+<a href="/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_add_empty_log_conf_ex">CM_Add_Empty_Log_Conf_Ex</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_get_first_log_conf">CM_Get_First_Log_Conf</a>
+<a href="/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_get_first_log_conf">CM_Get_First_Log_Conf</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_get_first_log_conf_ex">CM_Get_First_Log_Conf_Ex</a>
+<a href="/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_get_first_log_conf_ex">CM_Get_First_Log_Conf_Ex</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_get_next_log_conf">CM_Get_Next_Log_Conf</a>
+<a href="/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_get_next_log_conf">CM_Get_Next_Log_Conf</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_get_next_log_conf_ex">CM_Get_Next_Log_Conf_Ex</a>
+<a href="/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_get_next_log_conf_ex">CM_Get_Next_Log_Conf_Ex</a>
 
 ### -param ResourceID [in]
 
@@ -105,7 +105,7 @@ Caller-supplied pointer to one of the resource structures listed in the followin
 </td>
 <td>
 
-[BUSNUMBER_RESOURCE](https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-busnumber_resource)
+[BUSNUMBER_RESOURCE](/windows/desktop/api/cfgmgr32/ns-cfgmgr32-busnumber_resource)
 
 
 </td>
@@ -117,7 +117,7 @@ Caller-supplied pointer to one of the resource structures listed in the followin
 </td>
 <td>
 
-[CS_RESOURCE](https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-cs_resource)
+[CS_RESOURCE](/windows/desktop/api/cfgmgr32/ns-cfgmgr32-cs_resource)
 
 
 </td>
@@ -129,7 +129,7 @@ Caller-supplied pointer to one of the resource structures listed in the followin
 </td>
 <td>
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/install/devprivate-resource">DEVPRIVATE_RESOURCE</a>
+<a href="/windows-hardware/drivers/install/devprivate-resource">DEVPRIVATE_RESOURCE</a>
 
 
 </td>
@@ -141,7 +141,7 @@ Caller-supplied pointer to one of the resource structures listed in the followin
 </td>
 <td>
 
-[DMA_RESOURCE](https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-dma_resource)
+[DMA_RESOURCE](/windows/desktop/api/cfgmgr32/ns-cfgmgr32-dma_resource)
 
 
 </td>
@@ -153,7 +153,7 @@ Caller-supplied pointer to one of the resource structures listed in the followin
 </td>
 <td>
 
-[IO_RESOURCE](https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-io_resource)
+[IO_RESOURCE](/windows/desktop/api/cfgmgr32/ns-cfgmgr32-io_resource)
 
 
 </td>
@@ -165,7 +165,7 @@ Caller-supplied pointer to one of the resource structures listed in the followin
 </td>
 <td>
 
-[IRQ_RESOURCE](https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-irq_resource_32)
+[IRQ_RESOURCE](/windows/desktop/api/cfgmgr32/ns-cfgmgr32-irq_resource_32)
 
 
 </td>
@@ -177,7 +177,7 @@ Caller-supplied pointer to one of the resource structures listed in the followin
 </td>
 <td>
 
-[MEM_RESOURCE](https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-mem_resource)
+[MEM_RESOURCE](/windows/desktop/api/cfgmgr32/ns-cfgmgr32-mem_resource)
 
 
 </td>
@@ -189,7 +189,7 @@ Caller-supplied pointer to one of the resource structures listed in the followin
 </td>
 <td>
 
-[MFCARD_RESOURCE](https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-mfcard_resource)
+[MFCARD_RESOURCE](/windows/desktop/api/cfgmgr32/ns-cfgmgr32-mfcard_resource)
 
 
 </td>
@@ -201,7 +201,7 @@ Caller-supplied pointer to one of the resource structures listed in the followin
 </td>
 <td>
 
-[PCCARD_RESOURCE](https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-pccard_resource)
+[PCCARD_RESOURCE](/windows/desktop/api/cfgmgr32/ns-cfgmgr32-pccard_resource)
 
 
 </td>
@@ -225,15 +225,14 @@ If the operation succeeds, the function returns CR_SUCCESS. Otherwise, it return
 
 ## -remarks
 
-Callers of <b>CM_Add_Res_Des</b> must call <a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_free_res_des_handle">CM_Free_Res_Des_Handle</a> to deallocate the resource descriptor handle, after it is no longer needed.
+Callers of <b>CM_Add_Res_Des</b> must call <a href="/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_free_res_des_handle">CM_Free_Res_Des_Handle</a> to deallocate the resource descriptor handle, after it is no longer needed.
 
 Callers of this function must have <b>SeLoadDriverPrivilege</b>. (Privileges are described in the Microsoft Windows SDK documentation.)
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_add_res_des_ex">CM_Add_Res_Des_Ex</a>
+<a href="/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_add_res_des_ex">CM_Add_Res_Des_Ex</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_free_res_des_handle">CM_Free_Res_Des_Handle</a>
-
+<a href="/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_free_res_des_handle">CM_Free_Res_Des_Handle</a>

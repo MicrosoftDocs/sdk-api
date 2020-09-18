@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>ConvertToSid</b> method retrieves the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security identifier</a> (SID) associated with the specified identity and identity provider.
+The <b>ConvertToSid</b> method retrieves the <a href="/windows/desktop/SecGloss/s-gly">security identifier</a> (SID) associated with the specified identity and identity provider.
 
 ## -parameters
 
@@ -78,9 +78,8 @@ The required length, in bytes,  of the <i>pSid</i> buffer.
 
  If the method succeeds, it returns <b>S_OK</b>.
 
-If the method fails, it returns an error code. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
+If the method fails, it returns an error code. For a list of common error codes, see <a href="/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/identitystore/nn-identitystore-iidentitystore">IIdentityStore</a>
-
+<a href="/windows/desktop/api/identitystore/nn-identitystore-iidentitystore">IIdentityStore</a>

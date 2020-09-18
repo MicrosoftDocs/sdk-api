@@ -51,17 +51,17 @@ api_name:
 
 ## -description
 
-Applies a linear transformation to an <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkstrokedisp">IInkStrokeDisp</a> object or an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)">InkStrokes</a> collection, which can represent scaling, rotation, translation, and combinations of transformations.
+Applies a linear transformation to an <a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinkstrokedisp">IInkStrokeDisp</a> object or an <a href="/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)">InkStrokes</a> collection, which can represent scaling, rotation, translation, and combinations of transformations.
 
 ## -parameters
 
 ### -param Transform [in]
 
-The transform to use on the stroke or strokes. (This is an <a href="https://docs.microsoft.com/windows/desktop/tablet/inktransform-class">InkTransform</a> object, which correlates to the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-xform">XFORM</a> structure). The transformation applies to both the points and pen width (if <i>ApplyOnPenWidth</i> is <b>VARIANT_TRUE</b>).
+The transform to use on the stroke or strokes. (This is an <a href="/windows/desktop/tablet/inktransform-class">InkTransform</a> object, which correlates to the <a href="/windows/desktop/api/wingdi/ns-wingdi-xform">XFORM</a> structure). The transformation applies to both the points and pen width (if <i>ApplyOnPenWidth</i> is <b>VARIANT_TRUE</b>).
 
 ### -param ApplyOnPenWidth [in, optional]
 
-Optional. <b>VARIANT_TRUE</b> to apply the transform to the width of the ink in the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkdrawingattributes-class">InkDrawingAttributes</a> of the strokes; otherwise, <b>VARIANT_FALSE</b>. The default is <b>VARIANT_FALSE</b>.
+Optional. <b>VARIANT_TRUE</b> to apply the transform to the width of the ink in the <a href="/windows/desktop/tablet/inkdrawingattributes-class">InkDrawingAttributes</a> of the strokes; otherwise, <b>VARIANT_FALSE</b>. The default is <b>VARIANT_FALSE</b>.
 
 ## -returns
 
@@ -135,5 +135,4 @@ An exception occurred inside the method.
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)">InkStrokes Collection</a>
-
+<a href="/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)">InkStrokes Collection</a>

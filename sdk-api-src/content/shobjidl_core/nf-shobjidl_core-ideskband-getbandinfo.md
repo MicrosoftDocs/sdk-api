@@ -51,7 +51,7 @@ api_name:
 ## -description
 
 Gets state information for a band object.
-<div class="alert"><b>Important</b>  You should use <a href="https://docs.microsoft.com/windows/desktop/shell/taskbar-extensions">thumbnail toolbars</a> in new development in place of desk bands, which are not supported as of Windows 7.</div><div> </div>
+<div class="alert"><b>Important</b>  You should use <a href="/windows/desktop/shell/taskbar-extensions">thumbnail toolbars</a> in new development in place of desk bands, which are not supported as of Windows 7.</div><div> </div>
 
 ## -parameters
 
@@ -93,13 +93,12 @@ The band object is being displayed in a transparent band.
 
 ### -param pdbi
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ns-shobjidl_core-deskbandinfo">DESKBANDINFO</a>*</b>
+Type: <b><a href="/windows/desktop/api/shobjidl_core/ns-shobjidl_core-deskbandinfo">DESKBANDINFO</a>*</b>
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ns-shobjidl_core-deskbandinfo">DESKBANDINFO</a> structure that receives the band information for the object. The <b>dwMask</b> member of this structure indicates the specific information that is being requested.
+Pointer to a <a href="/windows/desktop/api/shobjidl_core/ns-shobjidl_core-deskbandinfo">DESKBANDINFO</a> structure that receives the band information for the object. The <b>dwMask</b> member of this structure indicates the specific information that is being requested.
 
 ## -returns
 
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-

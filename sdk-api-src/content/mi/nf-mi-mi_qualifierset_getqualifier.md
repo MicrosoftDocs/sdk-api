@@ -56,7 +56,7 @@ Gets the qualifier information based on the given qualifier name.
 
 ### -param self [in]
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_qualifierset">MI_QualifierSet</a> structure.
+<a href="/windows/desktop/api/mi/ns-mi-mi_qualifierset">MI_QualifierSet</a> structure.
 
 ### -param name
 
@@ -80,5 +80,4 @@ Returned zero-based index of the qualifier.
 
 ## -returns
 
-A value of the <a href="https://docs.microsoft.com/windows/desktop/api/mi/ne-mi-mi_result">MI_Result</a> enumeration that specifies the function return code. This can be one of the following codes.
-
+A value of the <a href="/windows/desktop/api/mi/ne-mi-mi_result">MI_Result</a> enumeration that specifies the function return code. This can be one of the following codes.

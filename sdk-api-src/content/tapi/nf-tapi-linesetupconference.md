@@ -80,7 +80,7 @@ Expected number of parties in the conference call. This number is passed to the 
 ### -param lpCallParams
 
 Pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linecallparams">LINECALLPARAMS</a> structure containing call parameters to use when establishing the consultation call. This parameter can be set to <b>NULL</b> if no special call setup parameters are desired.
+<a href="/windows/desktop/api/tapi/ns-tapi-linecallparams">LINECALLPARAMS</a> structure containing call parameters to use when establishing the consultation call. This parameter can be set to <b>NULL</b> if no special call setup parameters are desired.
 
 ## -returns
 
@@ -91,74 +91,73 @@ LINEERR_BEARERMODEUNAVAIL, LINEERR_UNINITIALIZED, LINEERR_CALLUNAVAIL, LINEERR_I
 ## -remarks
 
 If LINEERR_INVALLINESTATE is returned, the line is currently not in a state in which this operation can be performed. A list of currently valid operations can be found in the <b>dwLineFeatures</b> member (of the type 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/linefeature--constants">LINEFEATURE</a>) in the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linedevstatus">LINEDEVSTATUS</a> structure. (Calling 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linegetlinedevstatus">lineGetLineDevStatus</a> updates the information in 
+<a href="/windows/desktop/Tapi/linefeature--constants">LINEFEATURE</a>) in the 
+<a href="/windows/desktop/api/tapi/ns-tapi-linedevstatus">LINEDEVSTATUS</a> structure. (Calling 
+<a href="/windows/desktop/api/tapi/nf-tapi-linegetlinedevstatus">lineGetLineDevStatus</a> updates the information in 
 <b>LINEDEVSTATUS</b>.) If LINEERR_INVALMEDIAMODE is returned, check for supported media types on the line in the <b>dwMediaModes</b> member in the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linedevcaps">LINEDEVCAPS</a> structure.
+<a href="/windows/desktop/api/tapi/ns-tapi-linedevcaps">LINEDEVCAPS</a> structure.
 
 The 
 <b>lineSetupConference</b> function provides two ways to establish a new conference call, depending on whether a normal two-party call is required to pre-exist or not. When setting up a conference call from an existing two-party call, the <i>hCall</i> parameter is a valid call handle that is initially added to the conference call by the 
 <b>lineSetupConference</b> request; <i>hLine</i> is ignored. On switches where conference call setup does not start with an existing call, <i>hCall</i> must be <b>NULL</b> and <i>hLine</i> must be specified to identify the line device on which to initiate the conference call. In either case, a consultation call is allocated for connecting to the party that is to be added to the call. The application can then use 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linedial">lineDial</a> to dial the address of the other party.
+<a href="/windows/desktop/api/tapi/nf-tapi-linedial">lineDial</a> to dial the address of the other party.
 
 The conference call typically transitions into the <i>onHoldPendingConference</i> state, the consultation call into the <i>dialtone</i> state, and the initial call (if there is one) into the <i>conferenced</i> state.
 
 A conference call can also be set up by a 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linecompletetransfer">lineCompleteTransfer</a> that is resolved into a three-way conference. The application may be able to toggle between the consultation call and the conference call using 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-lineswaphold">lineSwapHold</a>.
+<a href="/windows/desktop/api/tapi/nf-tapi-linecompletetransfer">lineCompleteTransfer</a> that is resolved into a three-way conference. The application may be able to toggle between the consultation call and the conference call using 
+<a href="/windows/desktop/api/tapi/nf-tapi-lineswaphold">lineSwapHold</a>.
 
 A consultation call can be canceled by invoking 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linedrop">lineDrop</a> on it. When dropping a consultation call, the existing conference call typically transitions back to the <i>connected</i> state. The application should observe the LINE_CALLSTATE messages to determine exactly what happens to the calls. For example, if the conference call reverts back to a regular two-party call, the conference call becomes idle and the original participant call can revert to <i>connected</i>.
+<a href="/windows/desktop/api/tapi/nf-tapi-linedrop">lineDrop</a> on it. When dropping a consultation call, the existing conference call typically transitions back to the <i>connected</i> state. The application should observe the LINE_CALLSTATE messages to determine exactly what happens to the calls. For example, if the conference call reverts back to a regular two-party call, the conference call becomes idle and the original participant call can revert to <i>connected</i>.
 
 If an application specifies the handle of the original call (<i>hCall</i>) in a call to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-lineunhold">lineUnhold</a> function, both the conference call and the consultation call typically go to idle.
+<a href="/windows/desktop/api/tapi/nf-tapi-lineunhold">lineUnhold</a> function, both the conference call and the consultation call typically go to idle.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/conference-ovr">Conference overview</a>
+<a href="/windows/desktop/Tapi/conference-ovr">Conference overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linecallparams">LINECALLPARAMS</a>
+<a href="/windows/desktop/api/tapi/ns-tapi-linecallparams">LINECALLPARAMS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linedevcaps">LINEDEVCAPS</a>
+<a href="/windows/desktop/api/tapi/ns-tapi-linedevcaps">LINEDEVCAPS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linedevstatus">LINEDEVSTATUS</a>
+<a href="/windows/desktop/api/tapi/ns-tapi-linedevstatus">LINEDEVSTATUS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/line-callstate">LINE_CALLSTATE</a>
+<a href="/windows/desktop/Tapi/line-callstate">LINE_CALLSTATE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/supplementary-line-service-functions">Supplementary Line Service Functions</a>
+<a href="/windows/desktop/Tapi/supplementary-line-service-functions">Supplementary Line Service Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linecompletetransfer">lineCompleteTransfer</a>
+<a href="/windows/desktop/api/tapi/nf-tapi-linecompletetransfer">lineCompleteTransfer</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linedial">lineDial</a>
+<a href="/windows/desktop/api/tapi/nf-tapi-linedial">lineDial</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linedrop">lineDrop</a>
+<a href="/windows/desktop/api/tapi/nf-tapi-linedrop">lineDrop</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linegetlinedevstatus">lineGetLineDevStatus</a>
+<a href="/windows/desktop/api/tapi/nf-tapi-linegetlinedevstatus">lineGetLineDevStatus</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-lineswaphold">lineSwapHold</a>
+<a href="/windows/desktop/api/tapi/nf-tapi-lineswaphold">lineSwapHold</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-lineunhold">lineUnhold</a>
-
+<a href="/windows/desktop/api/tapi/nf-tapi-lineunhold">lineUnhold</a>

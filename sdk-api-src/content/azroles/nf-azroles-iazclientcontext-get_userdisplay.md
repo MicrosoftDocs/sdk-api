@@ -60,7 +60,6 @@ This property is read-only.
 
 ## -remarks
 
-The user display client name is retrieved by impersonating the client token and calling the <a href="https://docs.microsoft.com/windows/desktop/api/secext/nf-secext-getusernameexa">GetUserNameEx</a> function with <b>NameCanonical</b> specified for the <i>NameDisplay</i> parameter. 
+The user display client name is retrieved by impersonating the client token and calling the <a href="/windows/desktop/api/secext/nf-secext-getusernameexa">GetUserNameEx</a> function with <b>NameCanonical</b> specified for the <i>NameDisplay</i> parameter. 
 
 An example of a  client name in user display name format is "Ben Smith".
-

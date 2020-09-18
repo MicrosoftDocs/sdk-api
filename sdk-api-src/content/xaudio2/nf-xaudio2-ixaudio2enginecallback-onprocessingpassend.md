@@ -56,16 +56,15 @@ Called by XAudio2 just after an audio processing pass ends.
 
 ## -remarks
 
-For information about the <a href="https://docs.microsoft.com/windows/desktop/api/xaudio2/nn-xaudio2-ixaudio2enginecallback">IXAudio2EngineCallback</a> interface methods, see the XAudio2 <a href="https://docs.microsoft.com/windows/desktop/xaudio2/callbacks">Callbacks</a> section.
+For information about the <a href="/windows/desktop/api/xaudio2/nn-xaudio2-ixaudio2enginecallback">IXAudio2EngineCallback</a> interface methods, see the XAudio2 <a href="/windows/desktop/xaudio2/callbacks">Callbacks</a> section.
 
 <h3><a id="Platform_Requirements"></a><a id="platform_requirements"></a><a id="PLATFORM_REQUIREMENTS"></a>Platform Requirements</h3>
 Windows 10 (XAudio2.9); Windows 8, Windows Phone 8 (XAudio 2.8); DirectX SDK (XAudio 2.7)
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xaudio2/nn-xaudio2-ixaudio2enginecallback">IXAudio2EngineCallback</a>
+<a href="/windows/desktop/api/xaudio2/nn-xaudio2-ixaudio2enginecallback">IXAudio2EngineCallback</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/xaudio2/xaudio2-callbacks">XAudio2 Callbacks</a>
-
+<a href="/windows/desktop/xaudio2/xaudio2-callbacks">XAudio2 Callbacks</a>

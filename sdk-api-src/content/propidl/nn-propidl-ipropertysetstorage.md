@@ -52,18 +52,18 @@ api_name:
 
 The 
 <b>IPropertySetStorage</b> interface creates, opens, deletes, and enumerates property set storages that support instances of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/propidl/nn-propidl-ipropertystorage">IPropertyStorage</a> interface. The 
+<a href="/windows/desktop/api/propidl/nn-propidl-ipropertystorage">IPropertyStorage</a> interface. The 
 <b>IPropertyStorage</b> interface manages a single property set in a property storage subobject; and the 
 <b>IPropertySetStorage</b> interface manages the storage of groups of such property sets. Any file system entity can support 
 <b>IPropertySetStorage</b> that is currently implemented in the COM compound file object.
 
 The 
 <b>IPropertySetStorage</b> and 
-<a href="https://docs.microsoft.com/windows/desktop/api/propidl/nn-propidl-ipropertystorage">IPropertyStorage</a> interfaces provide a uniform way to create and manage property sets, whether or not these sets reside in a storage object that supports 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istorage">IStorage</a>. When called through an object supporting 
+<a href="/windows/desktop/api/propidl/nn-propidl-ipropertystorage">IPropertyStorage</a> interfaces provide a uniform way to create and manage property sets, whether or not these sets reside in a storage object that supports 
+<a href="/windows/desktop/api/objidl/nn-objidl-istorage">IStorage</a>. When called through an object supporting 
 <b>IStorage</b> (such as structured and compound files) or 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a>, the property sets created conform to the COM property set format, described in detail in 
-<a href="https://docs.microsoft.com/windows/desktop/Stg/structured-storage-serialized-property-set-format">Structured Storage Serialized Property Set Format</a>. Similarly, properties written using 
+<a href="/windows/desktop/api/objidl/nn-objidl-istream">IStream</a>, the property sets created conform to the COM property set format, described in detail in 
+<a href="/windows/desktop/Stg/structured-storage-serialized-property-set-format">Structured Storage Serialized Property Set Format</a>. Similarly, properties written using 
 <b>IStorage</b> to the COM property set format are visible through 
 <b>IPropertySetStorage</b> and 
 <b>IPropertyStorage</b>.
@@ -72,7 +72,7 @@ The
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPropertySetStorage</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPropertySetStorage</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPropertySetStorage</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPropertySetStorage</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -87,7 +87,7 @@ The <b>IPropertySetStorage</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/propidl/nf-propidl-ipropertysetstorage-create">Create</a>
+<a href="/windows/desktop/api/propidl/nf-propidl-ipropertysetstorage-create">Create</a>
 </td>
 <td align="left" width="63%">
 Creates a new property set.
@@ -96,7 +96,7 @@ Creates a new property set.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/propidl/nf-propidl-ipropertysetstorage-delete">Delete</a>
+<a href="/windows/desktop/api/propidl/nf-propidl-ipropertysetstorage-delete">Delete</a>
 </td>
 <td align="left" width="63%">
 Deletes an existing property set.
@@ -105,7 +105,7 @@ Deletes an existing property set.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/propidl/nf-propidl-ipropertysetstorage-enum">Enum</a>
+<a href="/windows/desktop/api/propidl/nf-propidl-ipropertysetstorage-enum">Enum</a>
 </td>
 <td align="left" width="63%">
 Creates and retrieves a pointer to an object that can be used to enumerate property sets.
@@ -114,7 +114,7 @@ Creates and retrieves a pointer to an object that can be used to enumerate prope
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/propidl/nf-propidl-ipropertysetstorage-open">Open</a>
+<a href="/windows/desktop/api/propidl/nf-propidl-ipropertysetstorage-open">Open</a>
 </td>
 <td align="left" width="63%">
 Opens a previously created property set.
@@ -125,48 +125,47 @@ Opens a previously created property set.
 
 ## -remarks
 
-<div class="alert"><b>Note</b>  There is an exception to the above in The DocumentSummaryInformation and UserDefined property set. This property set is unique in that it may have two property set sections in a single underlying stream. This property set is described in <a href="https://docs.microsoft.com/windows/desktop/Stg/the-documentsummaryinformation-and-userdefined-property-sets">The DocumentSummaryInformation and UserDefined Property Sets</a>. The first section is the DocumentSummaryInformation property set. The second section is the UserDefined property set. Each section is identified by a unique format identifier (FMTID).  For example, FMTID_DocSummaryInformation and FMTID_UserDefined property set. The fact that these two property sets can exist in a single stream affects the behavior of the <b>IPropertySetStorage</b> interface.<p class="note">When <a href="https://docs.microsoft.com/windows/desktop/api/propidl/nf-propidl-ipropertysetstorage-create">IPropertySetStorage::Create</a> is called to create the UserDefined property set, the first section is created automatically. Once the FMTID_UserDefinedProperties is created, FMTID_DocSummaryInformation need not be created, but can be operend with a call to <a href="https://docs.microsoft.com/windows/desktop/api/propidl/nf-propidl-ipropertysetstorage-open">IPropertySetStorage::Open</a>. Creating the first section does not automatically create the second section and it is not possible to open both sections simultaneously.
+<div class="alert"><b>Note</b>  There is an exception to the above in The DocumentSummaryInformation and UserDefined property set. This property set is unique in that it may have two property set sections in a single underlying stream. This property set is described in <a href="/windows/desktop/Stg/the-documentsummaryinformation-and-userdefined-property-sets">The DocumentSummaryInformation and UserDefined Property Sets</a>. The first section is the DocumentSummaryInformation property set. The second section is the UserDefined property set. Each section is identified by a unique format identifier (FMTID).  For example, FMTID_DocSummaryInformation and FMTID_UserDefined property set. The fact that these two property sets can exist in a single stream affects the behavior of the <b>IPropertySetStorage</b> interface.<p class="note">When <a href="/windows/desktop/api/propidl/nf-propidl-ipropertysetstorage-create">IPropertySetStorage::Create</a> is called to create the UserDefined property set, the first section is created automatically. Once the FMTID_UserDefinedProperties is created, FMTID_DocSummaryInformation need not be created, but can be operend with a call to <a href="/windows/desktop/api/propidl/nf-propidl-ipropertysetstorage-open">IPropertySetStorage::Open</a>. Creating the first section does not automatically create the second section and it is not possible to open both sections simultaneously.
 
-<p class="note">Calling <a href="https://docs.microsoft.com/windows/desktop/api/propidl/nf-propidl-ipropertysetstorage-delete">IPropertySetStorage::Delete</a>, to delete the first section, causes both sections to be deleted.  In other words, calling <b>IPropertySetStorage::Delete</b> with FMTID_DocSummaryInformation causes both that section and the FMTID_UserDefinedProperties section to be deleted. However, deleting the second section does not automatically delete the first section.
+<p class="note">Calling <a href="/windows/desktop/api/propidl/nf-propidl-ipropertysetstorage-delete">IPropertySetStorage::Delete</a>, to delete the first section, causes both sections to be deleted.  In other words, calling <b>IPropertySetStorage::Delete</b> with FMTID_DocSummaryInformation causes both that section and the FMTID_UserDefinedProperties section to be deleted. However, deleting the second section does not automatically delete the first section.
 
-<p class="note">When <a href="https://docs.microsoft.com/windows/desktop/api/propidl/nf-propidl-ipropertysetstorage-enum">IPropertySetStorage::Enum</a> is used to enumerate property sets, the UserDefined property set is not enumerated.
+<p class="note">When <a href="/windows/desktop/api/propidl/nf-propidl-ipropertysetstorage-enum">IPropertySetStorage::Enum</a> is used to enumerate property sets, the UserDefined property set is not enumerated.
 
 </div>
 <div> </div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Stg/enumall-sample">EnumAll Sample</a>
+<a href="/windows/desktop/Stg/enumall-sample">EnumAll Sample</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/propidl/nn-propidl-ienumstatpropsetstg">IEnumSTATPROPSETSTG</a>
+<a href="/windows/desktop/api/propidl/nn-propidl-ienumstatpropsetstg">IEnumSTATPROPSETSTG</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Stg/ipropertysetstorage-compound-file-implementation">IPropertySetStorage-Compound File Implementation</a>
+<a href="/windows/desktop/Stg/ipropertysetstorage-compound-file-implementation">IPropertySetStorage-Compound File Implementation</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Stg/ipropertysetstorage-ntfs-file-system-implementation">IPropertySetStorage-NTFS File System Implementation</a>
+<a href="/windows/desktop/Stg/ipropertysetstorage-ntfs-file-system-implementation">IPropertySetStorage-NTFS File System Implementation</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Stg/ipropertysetstorage-stand-alone-implementation">IPropertySetStorage-Stand-alone Implementation</a>
+<a href="/windows/desktop/Stg/ipropertysetstorage-stand-alone-implementation">IPropertySetStorage-Stand-alone Implementation</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/propidl/nn-propidl-ipropertystorage">IPropertyStorage</a>
+<a href="/windows/desktop/api/propidl/nn-propidl-ipropertystorage">IPropertyStorage</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a>
+<a href="/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-statpropsetstg">STATPROPSETSTG</a>
+<a href="/windows/desktop/api/propidl/ns-propidl-statpropsetstg">STATPROPSETSTG</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Stg/samples">Samples</a>
-
+<a href="/windows/desktop/Stg/samples">Samples</a>

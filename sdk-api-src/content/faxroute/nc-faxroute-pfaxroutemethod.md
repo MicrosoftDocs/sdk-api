@@ -88,7 +88,7 @@ If the function succeeds, the return value is a nonzero value.
 
                     
 
-If the function fails, the return value is zero. To get extended error information, the fax service calls <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>, described in MSDN.
+If the function fails, the return value is zero. To get extended error information, the fax service calls <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>, described in MSDN.
 
 ## -remarks
 
@@ -138,4 +138,3 @@ If you want the fax service to retry a failed routing method at a later time, th
 
 
 <a href="https://msdn.microsoft.com/eeb84e95-1a47-4768-9cb7-d6e7a2ee2048">FaxRouteModifyRoutingData</a>
-

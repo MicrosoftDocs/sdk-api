@@ -78,5 +78,4 @@ This function should always succeed except in extraordinary circumstances. Most 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms725255(v=vs.85)">PHONE_CLOSE</a>
-
+<a href="/previous-versions/windows/desktop/legacy/ms725255(v=vs.85)">PHONE_CLOSE</a>

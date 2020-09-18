@@ -58,7 +58,7 @@ The <b>WinUsb_QueryPipeEx</b> function retrieves extended information about the 
 
 An opaque handle to an interface that contains the endpoint with which the pipe is associated.
 
-To query the pipe associated with an endpoint in the first interface, use the handle returned by <a href="https://docs.microsoft.com/windows/desktop/api/winusb/nf-winusb-winusb_initialize">WinUsb_Initialize</a>. For all other interfaces, use the handle to the target interface, retrieved by <a href="https://docs.microsoft.com/windows/desktop/api/winusb/nf-winusb-winusb_getassociatedinterface">WinUsb_GetAssociatedInterface</a>.
+To query the pipe associated with an endpoint in the first interface, use the handle returned by <a href="/windows/desktop/api/winusb/nf-winusb-winusb_initialize">WinUsb_Initialize</a>. For all other interfaces, use the handle to the target interface, retrieved by <a href="/windows/desktop/api/winusb/nf-winusb-winusb_getassociatedinterface">WinUsb_GetAssociatedInterface</a>.
 
 ### -param AlternateSettingNumber [in]
 
@@ -70,7 +70,7 @@ A value that specifies the pipe to return information about. This value is not t
 
 ### -param PipeInformationEx [out]
 
-A pointer, on output, to a caller-allocated <a href="https://docs.microsoft.com/windows/desktop/api/winusbio/ns-winusbio-winusb_pipe_information_ex">WINUSB_PIPE_INFORMATION_EX</a> structure that contains pipe information.
+A pointer, on output, to a caller-allocated <a href="/windows/desktop/api/winusbio/ns-winusbio-winusb_pipe_information_ex">WINUSB_PIPE_INFORMATION_EX</a> structure that contains pipe information.
 
 ## -returns
 
@@ -127,21 +127,20 @@ The <b>WinUsb_QueryPipeEx</b> function does not retrieve information about the c
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/usbcon/">Send USB isochronous transfers from a WinUSB desktop app</a>
+<a href="/windows-hardware/drivers/usbcon/">Send USB isochronous transfers from a WinUSB desktop app</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winusbio/ns-winusbio-winusb_pipe_information">WINUSB_PIPE_INFORMATION</a>
+<a href="/windows/desktop/api/winusbio/ns-winusbio-winusb_pipe_information">WINUSB_PIPE_INFORMATION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/index">WinUSB</a>
+<a href="/windows-hardware/drivers/ddi/content/index">WinUSB</a>
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows/iot-core/learn-about-hardware/hardwarecompatlist">WinUSB Functions</a>
+<a href="/windows/iot-core/learn-about-hardware/hardwarecompatlist">WinUSB Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winusb/nf-winusb-winusb_initialize">WinUsb_Initialize</a>
-
+<a href="/windows/desktop/api/winusb/nf-winusb-winusb_initialize">WinUsb_Initialize</a>

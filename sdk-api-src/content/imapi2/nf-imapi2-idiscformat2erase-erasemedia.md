@@ -358,7 +358,7 @@ Value: 0x80AA0908
 <td width="60%">
 The drive did not complete the erase in one hour.  The drive may require a power cycle, media removal, or other manual intervention to resume proper operation.
 
-<div class="alert"><b>Note</b>  Currently, this value will also be returned if an attempt to perform an erase on CD-RW or DVD-RW media via the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-idiscformat2erase">IDiscFormat2Erase</a> interface fails as a result of the media being bad.</div>
+<div class="alert"><b>Note</b>  Currently, this value will also be returned if an attempt to perform an erase on CD-RW or DVD-RW media via the <a href="/windows/desktop/api/imapi2/nn-imapi2-idiscformat2erase">IDiscFormat2Erase</a> interface fails as a result of the media being bad.</div>
 <div> </div>
 Value: 0x80AA0906
 
@@ -368,33 +368,32 @@ Value: 0x80AA0906
 
 ## -remarks
 
-Synchronously erases the media.  Progress can be reported by calling into registered events of type <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-ddiscformat2eraseevents">DDiscFormat2EraseEvents</a>.
+Synchronously erases the media.  Progress can be reported by calling into registered events of type <a href="/windows/desktop/api/imapi2/nn-imapi2-ddiscformat2eraseevents">DDiscFormat2EraseEvents</a>.
 
 Before calling this method, you must call the following methods:
 
 <ul>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2erase-put_recorder">IDiscFormat2Erase::put_Recorder</a>
+<a href="/windows/desktop/api/imapi2/nf-imapi2-idiscformat2erase-put_recorder">IDiscFormat2Erase::put_Recorder</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2erase-put_clientname">IDiscFormat2Erase::put_ClientName</a>
+<a href="/windows/desktop/api/imapi2/nf-imapi2-idiscformat2erase-put_clientname">IDiscFormat2Erase::put_ClientName</a>
 </li>
 </ul>
-You should also consider calling the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2erase-put_fullerase">IDiscFormat2Erase::put_FullErase</a> method if its default value is not appropriate for your application.
+You should also consider calling the <a href="/windows/desktop/api/imapi2/nf-imapi2-idiscformat2erase-put_fullerase">IDiscFormat2Erase::put_FullErase</a> method if its default value is not appropriate for your application.
 
-This method is synchronous. To determine the progress of the erase operation, you must implement the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-ddiscformat2eraseevents">DDiscFormat2EraseEvents</a> interface. For examples that show how to implement an event handler in a script, see <a href="https://docs.microsoft.com/windows/desktop/imapi/monitoring-progress-with-events">Monitoring Progress With Events</a>.
+This method is synchronous. To determine the progress of the erase operation, you must implement the <a href="/windows/desktop/api/imapi2/nn-imapi2-ddiscformat2eraseevents">DDiscFormat2EraseEvents</a> interface. For examples that show how to implement an event handler in a script, see <a href="/windows/desktop/imapi/monitoring-progress-with-events">Monitoring Progress With Events</a>.
 
-Currently, the E_IMAPI_ERASE_TOOK_LONGER_THAN_ONE_HOUR value is returned if an attempt to perform an erase on CD-RW or DVD-RW media via the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-idiscformat2erase">IDiscFormat2Erase</a> interface fails as a result of the media being bad or a drive failure.
+Currently, the E_IMAPI_ERASE_TOOK_LONGER_THAN_ONE_HOUR value is returned if an attempt to perform an erase on CD-RW or DVD-RW media via the <a href="/windows/desktop/api/imapi2/nn-imapi2-idiscformat2erase">IDiscFormat2Erase</a> interface fails as a result of the media being bad or a drive failure.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-idiscformat2erase">IDiscFormat2Erase</a>
+<a href="/windows/desktop/api/imapi2/nn-imapi2-idiscformat2erase">IDiscFormat2Erase</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2erase-get_fullerase">IDiscFormat2Erase::get_FullErase</a>
+<a href="/windows/desktop/api/imapi2/nf-imapi2-idiscformat2erase-get_fullerase">IDiscFormat2Erase::get_FullErase</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2erase-put_fullerase">IDiscFormat2Erase::put_FullErase</a>
-
+<a href="/windows/desktop/api/imapi2/nf-imapi2-idiscformat2erase-put_fullerase">IDiscFormat2Erase::put_FullErase</a>

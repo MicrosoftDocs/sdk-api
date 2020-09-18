@@ -64,7 +64,7 @@ Contains a <b>LANGID</b> value that specifies the identifier of the language sel
 
 ### -param rguidProfile [in]
 
-Contains a GUID value that specifies the language profile identifier that the text service is under. This is the value specified in <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfinputprocessorprofiles-addlanguageprofile">ITfInputProcessorProfiles::AddLanguageProfile</a> when the profile was added.
+Contains a GUID value that specifies the language profile identifier that the text service is under. This is the value specified in <a href="/windows/desktop/api/msctf/nf-msctf-itfinputprocessorprofiles-addlanguageprofile">ITfInputProcessorProfiles::AddLanguageProfile</a> when the profile was added.
 
 ## -returns
 
@@ -76,10 +76,9 @@ This method should not return until the user closes the dialog box or property s
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ctffunc/nn-ctffunc-itffnconfigure">ITfFnConfigure</a>
+<a href="/windows/desktop/api/ctffunc/nn-ctffunc-itffnconfigure">ITfFnConfigure</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfinputprocessorprofiles-addlanguageprofile">ITfInputProcessorProfiles::AddLanguageProfile
+<a href="/windows/desktop/api/msctf/nf-msctf-itfinputprocessorprofiles-addlanguageprofile">ITfInputProcessorProfiles::AddLanguageProfile
       </a>
-

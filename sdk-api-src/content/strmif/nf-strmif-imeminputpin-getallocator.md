@@ -57,7 +57,7 @@ The <code>GetAllocator</code> method retrieves the memory allocator proposed by 
 
 ### -param ppAllocator [out]
 
-Receives a pointer to the allocator's <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-imemallocator">IMemAllocator</a> interface. The caller must release the interface.
+Receives a pointer to the allocator's <a href="/windows/desktop/api/strmif/nn-strmif-imemallocator">IMemAllocator</a> interface. The caller must release the interface.
 
 ## -returns
 
@@ -94,15 +94,14 @@ No allocator is available.
 
 ## -remarks
 
-When an output pin connects to an input pin, it negotiates with the input pin to decide on a memory allocator. The output pin calls this method to retrieve the input pin's proposed allocator. It calls the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-imeminputpin-notifyallocator">IMemInputPin::NotifyAllocator</a> method to specify which allocator it selected.
+When an output pin connects to an input pin, it negotiates with the input pin to decide on a memory allocator. The output pin calls this method to retrieve the input pin's proposed allocator. It calls the <a href="/windows/desktop/api/strmif/nf-strmif-imeminputpin-notifyallocator">IMemInputPin::NotifyAllocator</a> method to specify which allocator it selected.
 
 If this method succeeds, the <b>IMemAllocator</b> interface has an outstanding reference count. Be sure to release it when you are done.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-imeminputpin">IMemInputPin Interface</a>
-
+<a href="/windows/desktop/api/strmif/nn-strmif-imeminputpin">IMemInputPin Interface</a>

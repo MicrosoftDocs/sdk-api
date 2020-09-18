@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[This function is obsolete. For a list of alternate functions, see <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/authorization-functions">Authorization Functions</a>.]
+<p class="CCE_Message">[This function is obsolete. For a list of alternate functions, see <a href="/windows/desktop/SecAuthZ/authorization-functions">Authorization Functions</a>.]
 
 Not supported.
 
@@ -97,7 +97,7 @@ Specifies the size, in bytes, of the buffer pointed to by the <i>pbBuffer</i> pa
 If the function succeeds, the return value is <b>NERR_Success</b>.
 
 If the function fails, the return value is a system error code. For a list of error codes, see 
-       <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">System Error Codes</a>.
+       <a href="/windows/desktop/Debug/system-error-codes">System Error Codes</a>.
 
 ## -remarks
 
@@ -105,5 +105,4 @@ This function requires User level security to be enabled.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/authorization-functions">Authorization Functions</a>
-
+<a href="/windows/desktop/SecAuthZ/authorization-functions">Authorization Functions</a>

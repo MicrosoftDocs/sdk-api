@@ -56,7 +56,7 @@ The <b>IWMPPlayer4</b> interface duplicates the methods of <b>IWMPPlayer</b>, <b
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMPPlayer4</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWMPPlayer4</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMPPlayer4</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWMPPlayer4</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>IWMPPlayer4</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpplayer4-get_isremote">get_isRemote</a>
+<a href="/windows/desktop/api/wmp/nf-wmp-iwmpplayer4-get_isremote">get_isRemote</a>
 </td>
 <td align="left" width="63%">
 Retrieves a value indicating whether the Windows Media Player control is running in remote mode.
@@ -80,7 +80,7 @@ Retrieves a value indicating whether the Windows Media Player control is running
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpplayer4-get_playerapplication">get_playerApplication</a>
+<a href="/windows/desktop/api/wmp/nf-wmp-iwmpplayer4-get_playerapplication">get_playerApplication</a>
 </td>
 <td align="left" width="63%">
 Retrieves a pointer to an <b>IWMPPlayerApplication</b> interface when a remoted Windows Media Player control is running.
@@ -89,7 +89,7 @@ Retrieves a pointer to an <b>IWMPPlayerApplication</b> interface when a remoted 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpplayer4-openplayer">openPlayer</a>
+<a href="/windows/desktop/api/wmp/nf-wmp-iwmpplayer4-openplayer">openPlayer</a>
 </td>
 <td align="left" width="63%">
 Opens Windows Media Player using the specified URL.
@@ -98,37 +98,36 @@ Opens Windows Media Player using the specified URL.
 </tr>
 </table> 
 
-Retrieve a pointer to an <b>IWMPPlayer4</b> interface either by calling the <b>QueryInterface</b> method of the <a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpplayer">IWMPPlayer</a> interface or by calling the COM <b>CoCreateInstance</b> method.
+Retrieve a pointer to an <b>IWMPPlayer4</b> interface either by calling the <b>QueryInterface</b> method of the <a href="/windows/desktop/api/wmp/nn-wmp-iwmpplayer">IWMPPlayer</a> interface or by calling the COM <b>CoCreateInstance</b> method.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpcore">IWMPCore Interface</a>
+<a href="/windows/desktop/api/wmp/nn-wmp-iwmpcore">IWMPCore Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpcore2">IWMPCore2 Interface</a>
+<a href="/windows/desktop/api/wmp/nn-wmp-iwmpcore2">IWMPCore2 Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpcore3">IWMPCore3 Interface</a>
+<a href="/windows/desktop/api/wmp/nn-wmp-iwmpcore3">IWMPCore3 Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpplayer">IWMPPlayer Interface</a>
+<a href="/windows/desktop/api/wmp/nn-wmp-iwmpplayer">IWMPPlayer Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpplayer2">IWMPPlayer2 Interface</a>
+<a href="/windows/desktop/api/wmp/nn-wmp-iwmpplayer2">IWMPPlayer2 Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpplayer3">IWMPPlayer3 Interface</a>
+<a href="/windows/desktop/api/wmp/nn-wmp-iwmpplayer3">IWMPPlayer3 Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpplayerapplication">IWMPPlayerApplication Interface</a>
+<a href="/windows/desktop/api/wmp/nn-wmp-iwmpplayerapplication">IWMPPlayerApplication Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WMP/interfaces">Interfaces</a>
-
+<a href="/windows/desktop/WMP/interfaces">Interfaces</a>

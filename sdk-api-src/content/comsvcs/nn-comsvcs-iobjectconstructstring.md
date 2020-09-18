@@ -56,7 +56,7 @@ Object constructor strings should not be used to store security-sensitive inform
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IObjectConstructString</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IObjectConstructString</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IObjectConstructString</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IObjectConstructString</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>IObjectConstructString</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-iobjectconstructstring-get_constructstring">get_ConstructString</a>
+<a href="/windows/desktop/api/comsvcs/nf-comsvcs-iobjectconstructstring-get_constructstring">get_ConstructString</a>
 </td>
 <td align="left" width="63%">
 Retrieves the constructor string for the object.
@@ -82,13 +82,12 @@ Retrieves the constructor string for the object.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/cossdk/com--object-constructor-strings">COM+ Object Constructor Strings</a>
+<a href="/windows/desktop/cossdk/com--object-constructor-strings">COM+ Object Constructor Strings</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-iobjectconstructstring">IObjectConstructString</a>
+<a href="/windows/desktop/api/comsvcs/nn-comsvcs-iobjectconstructstring">IObjectConstructString</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/cossdk/specifying-an-object-constructor-string-for-a-component">Specifying an Object Constructor String for a Component</a>
-
+<a href="/windows/desktop/cossdk/specifying-an-object-constructor-string-for-a-component">Specifying an Object Constructor String for a Component</a>

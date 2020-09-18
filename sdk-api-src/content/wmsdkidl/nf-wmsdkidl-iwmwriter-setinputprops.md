@@ -63,7 +63,7 @@ The <b>SetInputProps</b> method specifies the media properties of an input strea
 
 ### -param pInput [in]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwminputmediaprops">IWMInputMediaProps</a> interface. See Remarks.
+Pointer to an <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwminputmediaprops">IWMInputMediaProps</a> interface. See Remarks.
 
 ## -returns
 
@@ -124,21 +124,20 @@ The method failed for an unspecified reason.
 
 Manipulating the <b>IWMInputMediaProps</b> object has no effect on the writer until the application calls this method to configure the input.
 
-Specify <b>NULL</b> for <i>pInput</i> if the input contains compressed samples that will be written directly to the new stream (using <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriteradvanced-writestreamsample">IWMWriterAdvanced::WriteStreamSample</a>) without being recompressed.
+Specify <b>NULL</b> for <i>pInput</i> if the input contains compressed samples that will be written directly to the new stream (using <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriteradvanced-writestreamsample">IWMWriterAdvanced::WriteStreamSample</a>) without being recompressed.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/wmformat/assigning-input-formats">Assigning Input Formats</a>
+<a href="/windows/desktop/wmformat/assigning-input-formats">Assigning Input Formats</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwriter">IWMWriter Interface</a>
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwriter">IWMWriter Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriter-getinputcount">IWMWriter::GetInputCount</a>
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriter-getinputcount">IWMWriter::GetInputCount</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriter-getinputprops">IWMWriter::GetInputProps</a>
-
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriter-getinputprops">IWMWriter::GetInputProps</a>

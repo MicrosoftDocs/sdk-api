@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-Use <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-unregisterdevicenotification">UnregisterDeviceNotification</a> instead of <b>CM_Unregister_Notification</b> if your code targets Windows 7 or earlier versions of Windows.
+Use <a href="/windows/desktop/api/winuser/nf-winuser-unregisterdevicenotification">UnregisterDeviceNotification</a> instead of <b>CM_Unregister_Notification</b> if your code targets Windows 7 or earlier versions of Windows.
 
 The <b>CM_Unregister_Notification</b> function closes the specified HCMNOTIFICATION handle.
 
@@ -60,7 +60,7 @@ The <b>CM_Unregister_Notification</b> function closes the specified HCMNOTIFICAT
 
 ### -param NotifyContext [in]
 
-The HCMNOTIFICATION handle returned by the <a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_register_notification">CM_Register_Notification</a> function.
+The HCMNOTIFICATION handle returned by the <a href="/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_register_notification">CM_Register_Notification</a> function.
 
 ## -returns
 
@@ -74,12 +74,12 @@ Instead, if you want to unregister from the notification callback, you must do s
 
 <ol>
 <li>Allocate a context structure to use with your notifications.      Include a pointer to a threadpool work structure (<b>PTP_WORK</b>) and any other information you would like to pass to the notification callback.</li>
-<li>Call <a href="https://docs.microsoft.com/windows/desktop/api/threadpoolapiset/nf-threadpoolapiset-createthreadpoolwork">CreateThreadpoolWork</a>.   Provide a callback function that calls  <b>CM_Unregister_Notification</b>.      Add the returned work structure to the previously allocated context structure.</li>
-<li>Call <a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_register_notification">CM_Register_Notification</a> and provide the context structure as the <i>pContext</i> parameter.</li>
+<li>Call <a href="/windows/desktop/api/threadpoolapiset/nf-threadpoolapiset-createthreadpoolwork">CreateThreadpoolWork</a>.   Provide a callback function that calls  <b>CM_Unregister_Notification</b>.      Add the returned work structure to the previously allocated context structure.</li>
+<li>Call <a href="/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_register_notification">CM_Register_Notification</a> and provide the context structure as the <i>pContext</i> parameter.</li>
 <li>Do work, get notifications, etc.</li>
-<li>Call <a href="https://docs.microsoft.com/windows/desktop/api/threadpoolapiset/nf-threadpoolapiset-submitthreadpoolwork">SubmitThreadpoolWork</a> from within the notification callback, providing the pointer to a threadpool work structure (<b>PTP_WORK</b>) stored in your context structure.</li>
+<li>Call <a href="/windows/desktop/api/threadpoolapiset/nf-threadpoolapiset-submitthreadpoolwork">SubmitThreadpoolWork</a> from within the notification callback, providing the pointer to a threadpool work structure (<b>PTP_WORK</b>) stored in your context structure.</li>
 <li>When the threadpool thread runs, the work item calls <b>CM_Unregister_Notification</b>.</li>
-<li>Call <a href="https://docs.microsoft.com/windows/desktop/api/threadpoolapiset/nf-threadpoolapiset-closethreadpoolwork">CloseThreadpoolWork</a> to release the work object.</li>
+<li>Call <a href="/windows/desktop/api/threadpoolapiset/nf-threadpoolapiset-closethreadpoolwork">CloseThreadpoolWork</a> to release the work object.</li>
 </ol>
 If you are finished with the context structure, don't forget to release resources and and free the structure.
 
@@ -223,5 +223,4 @@ end:
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-unregisterdevicenotification">UnregisterDeviceNotification</a>
-
+<a href="/windows/desktop/api/winuser/nf-winuser-unregisterdevicenotification">UnregisterDeviceNotification</a>

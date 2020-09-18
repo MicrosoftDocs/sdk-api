@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Called by a data consumer to obtain data from a source data object. This method differs from the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-idataobject-getdata">GetData</a> method in that the caller must allocate and free the specified storage medium.
+Called by a data consumer to obtain data from a source data object. This method differs from the <a href="/windows/desktop/api/objidl/nf-objidl-idataobject-getdata">GetData</a> method in that the caller must allocate and free the specified storage medium.
 
 ## -parameters
 
 ### -param pformatetc [in]
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-formatetc">FORMATETC</a> structure that defines the format, medium, and target device to use when passing the data. Only one medium can be specified in <b>tymed</b>, and only the following values are valid: TYMED_ISTORAGE, TYMED_ISTREAM, TYMED_HGLOBAL, or TYMED_FILE.
+A pointer to the <a href="/windows/desktop/api/objidl/ns-objidl-formatetc">FORMATETC</a> structure that defines the format, medium, and target device to use when passing the data. Only one medium can be specified in <b>tymed</b>, and only the following values are valid: TYMED_ISTORAGE, TYMED_ISTREAM, TYMED_HGLOBAL, or TYMED_FILE.
 
 ### -param pmedium [in, out]
 
@@ -174,13 +174,12 @@ There was insufficient memory available for this operation.
 
 ## -remarks
 
-The <b>GetDataHere</b> method is similar to <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-idataobject-getdata">IDataObject::GetData</a>, except that the caller must both allocate and free the medium specified in <i>pmedium</i>. <b>GetDataHere</b> renders the data described in a <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-formatetc">FORMATETC</a> structure and copies the data into that caller-provided <a href="/windows/win32/api/objidl/ns-objidl-ustgmedium~r1">STGMEDIUM</a> structure. For example, if the medium is TYMED_HGLOBAL, this method cannot resize the medium or allocate a new hGlobal.
+The <b>GetDataHere</b> method is similar to <a href="/windows/desktop/api/objidl/nf-objidl-idataobject-getdata">IDataObject::GetData</a>, except that the caller must both allocate and free the medium specified in <i>pmedium</i>. <b>GetDataHere</b> renders the data described in a <a href="/windows/desktop/api/objidl/ns-objidl-formatetc">FORMATETC</a> structure and copies the data into that caller-provided <a href="/windows/win32/api/objidl/ns-objidl-ustgmedium~r1">STGMEDIUM</a> structure. For example, if the medium is TYMED_HGLOBAL, this method cannot resize the medium or allocate a new hGlobal.
 
 Some media are not appropriate in a call to <b>GetDataHere</b>, including GDI types such as metafiles. The <b>GetDataHere</b> method cannot put data into a caller-provided metafile. In general, the only storage media it is necessary to support in this method are TYMED_ISTORAGE, TYMED_ISTREAM, and TYMED_FILE.
 
-When the transfer medium is a stream, OLE makes assumptions about where the data is being returned and the position of the stream's seek pointer. In a <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-idataobject-getdata">GetData</a> call, the data returned is from stream position zero through just before the current seek pointer of the stream (that is, the position on exit). For <b>GetDataHere</b>, the data returned is from the stream position on entry through just before the position on exit.
+When the transfer medium is a stream, OLE makes assumptions about where the data is being returned and the position of the stream's seek pointer. In a <a href="/windows/desktop/api/objidl/nf-objidl-idataobject-getdata">GetData</a> call, the data returned is from stream position zero through just before the current seek pointer of the stream (that is, the position on exit). For <b>GetDataHere</b>, the data returned is from the stream position on entry through just before the position on exit.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a>
-
+<a href="/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a>

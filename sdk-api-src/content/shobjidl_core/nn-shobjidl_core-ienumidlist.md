@@ -50,11 +50,11 @@ api_name:
 
 ## -description
 
-Exposes a standard set of methods used to enumerate the pointers to item identifier lists (PIDLs) of the items in a Shell folder. When a folder's <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder-enumobjects">IShellFolder::EnumObjects</a> method is called, it creates an enumeration object and passes a pointer to the object's <b>IEnumIDList</b> interface back to the calling application.
+Exposes a standard set of methods used to enumerate the pointers to item identifier lists (PIDLs) of the items in a Shell folder. When a folder's <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder-enumobjects">IShellFolder::EnumObjects</a> method is called, it creates an enumeration object and passes a pointer to the object's <b>IEnumIDList</b> interface back to the calling application.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumIDList</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEnumIDList</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumIDList</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEnumIDList</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IEnumIDList</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ienumidlist-clone">Clone</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ienumidlist-clone">Clone</a>
 </td>
 <td align="left" width="63%">
 Creates a new item enumeration object with the same contents and state as the current one.
@@ -78,7 +78,7 @@ Creates a new item enumeration object with the same contents and state as the cu
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ienumidlist-next">Next</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ienumidlist-next">Next</a>
 </td>
 <td align="left" width="63%">
 Retrieves the specified number of item identifiers in the enumeration sequence and advances the current position by the number of items retrieved.
@@ -87,7 +87,7 @@ Retrieves the specified number of item identifiers in the enumeration sequence a
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ienumidlist-reset">Reset</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ienumidlist-reset">Reset</a>
 </td>
 <td align="left" width="63%">
 Returns to the beginning of the enumeration sequence.
@@ -96,7 +96,7 @@ Returns to the beginning of the enumeration sequence.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ienumidlist-skip">Skip</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ienumidlist-skip">Skip</a>
 </td>
 <td align="left" width="63%">
 Skips the specified number of elements in the enumeration sequence.
@@ -107,7 +107,6 @@ Skips the specified number of elements in the enumeration sequence.
 
 ## -remarks
 
-All Shell folder objects must be able to respond to a call to their <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder-enumobjects">IShellFolder::EnumObjects</a> method by creating an enumeration object that exports <b>IEnumIDList</b>. The Shell, in particular, uses these objects to enumerate the items in a folder.
+All Shell folder objects must be able to respond to a call to their <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder-enumobjects">IShellFolder::EnumObjects</a> method by creating an enumeration object that exports <b>IEnumIDList</b>. The Shell, in particular, uses these objects to enumerate the items in a folder.
 
-Use this interface to enumerate the contents of a Shell folder object. Call the folder's <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder-enumobjects">IShellFolder::EnumObjects</a> method and use the returned <b>IEnumIDList</b> pointer to enumerate the PIDLs of the items in the folder.
-
+Use this interface to enumerate the contents of a Shell folder object. Call the folder's <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder-enumobjects">IShellFolder::EnumObjects</a> method and use the returned <b>IEnumIDList</b> pointer to enumerate the PIDLs of the items in the folder.

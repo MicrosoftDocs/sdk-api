@@ -191,5 +191,4 @@ Allow only items in personal trust database.
 ### -field pSignerInfo
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cmsg_signer_info">CMSG_SIGNER_INFO</a> structure that contains information on the signer of the file.
-
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-cmsg_signer_info">CMSG_SIGNER_INFO</a> structure that contains information on the signer of the file.

@@ -70,11 +70,11 @@ Reserved for use by Microsoft.
 
 ### -field MacUcastCounters
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-wlan_mac_frame_statistics">WLAN_MAC_FRAME_STATISTICS</a> structure that contains MAC layer counters for unicast packets directed to the receiver of the NIC.
+A <a href="/windows/desktop/api/wlanapi/ns-wlanapi-wlan_mac_frame_statistics">WLAN_MAC_FRAME_STATISTICS</a> structure that contains MAC layer counters for unicast packets directed to the receiver of the NIC.
 
 ### -field MacMcastCounters
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-wlan_mac_frame_statistics">WLAN_MAC_FRAME_STATISTICS</a> structure that contains MAC layer counters for multicast packets directed to the current multicast address.
+A <a href="/windows/desktop/api/wlanapi/ns-wlanapi-wlan_mac_frame_statistics">WLAN_MAC_FRAME_STATISTICS</a> structure that contains MAC layer counters for multicast packets directed to the current multicast address.
 
 ### -field dwNumberOfPhys
 
@@ -88,17 +88,16 @@ Contains the number of <b>WLAN_PHY_FRAME_STATISTICS</b> structures in the <b>Phy
 
 ### -field PhyCounters
 
-An array of <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-wlan_phy_frame_statistics">WLAN_PHY_FRAME_STATISTICS</a> structures that contain PHY layer counters.
+An array of <a href="/windows/desktop/api/wlanapi/ns-wlanapi-wlan_phy_frame_statistics">WLAN_PHY_FRAME_STATISTICS</a> structures that contain PHY layer counters.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-wlan_mac_frame_statistics">WLAN_MAC_FRAME_STATISTICS</a>
+<a href="/windows/desktop/api/wlanapi/ns-wlanapi-wlan_mac_frame_statistics">WLAN_MAC_FRAME_STATISTICS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-wlan_phy_frame_statistics">WLAN_PHY_FRAME_STATISTICS</a>
+<a href="/windows/desktop/api/wlanapi/ns-wlanapi-wlan_phy_frame_statistics">WLAN_PHY_FRAME_STATISTICS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlanqueryinterface">WlanQueryInterface</a>
-
+<a href="/windows/desktop/api/wlanapi/nf-wlanapi-wlanqueryinterface">WlanQueryInterface</a>

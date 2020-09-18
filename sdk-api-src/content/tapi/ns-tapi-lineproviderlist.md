@@ -56,9 +56,9 @@ api_name:
 
 The 
 <b>LINEPROVIDERLIST</b> structure describes a list of service providers. A structure of this type is returned by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linegetproviderlist">lineGetProviderList</a> function. The 
+<a href="/windows/desktop/api/tapi/nf-tapi-linegetproviderlist">lineGetProviderList</a> function. The 
 <b>LINEPROVIDERLIST</b> structure can contain an array of 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineproviderentry">LINEPROVIDERENTRY</a> structures.
+<a href="/windows/desktop/api/tapi/ns-tapi-lineproviderentry">LINEPROVIDERENTRY</a> structures.
 
 ## -struct-fields
 
@@ -77,7 +77,7 @@ Size of the portion of this data structure that contains useful information, in 
 ### -field dwNumProviders
 
 Number of 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineproviderentry">LINEPROVIDERENTRY</a> structures present in the array denominated by <b>dwProviderListSize</b> and <b>dwProviderListOffset</b>.
+<a href="/windows/desktop/api/tapi/ns-tapi-lineproviderentry">LINEPROVIDERENTRY</a> structures present in the array denominated by <b>dwProviderListSize</b> and <b>dwProviderListOffset</b>.
 
 ### -field dwProviderListSize
 
@@ -86,7 +86,7 @@ Size of the provider list array, in bytes.
 ### -field dwProviderListOffset
 
 Offset from the beginning of this structure to an array of 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineproviderentry">LINEPROVIDERENTRY</a> elements, which provide the information on each service provider. The size of the array is specified by <b>dwProviderListSize</b>.
+<a href="/windows/desktop/api/tapi/ns-tapi-lineproviderentry">LINEPROVIDERENTRY</a> elements, which provide the information on each service provider. The size of the array is specified by <b>dwProviderListSize</b>.
 
 ## -remarks
 
@@ -94,9 +94,8 @@ This structure may not be extended.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineproviderentry">LINEPROVIDERENTRY</a>
+<a href="/windows/desktop/api/tapi/ns-tapi-lineproviderentry">LINEPROVIDERENTRY</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linegetproviderlist">lineGetProviderList</a>
-
+<a href="/windows/desktop/api/tapi/nf-tapi-linegetproviderlist">lineGetProviderList</a>

@@ -68,7 +68,7 @@ A pointer to a variaable that specifies the count of columns in the two-dimensio
 
 ### -param penInfo [out, optional]
 
-Address of a two-dimensional array of <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-pointer_pen_info">POINTER_PEN_INFO</a> structures to receive the pointer information. This parameter can be NULL if *entriesCount and *pointerCount are both zero.
+Address of a two-dimensional array of <a href="/windows/desktop/api/winuser/ns-winuser-pointer_pen_info">POINTER_PEN_INFO</a> structures to receive the pointer information. This parameter can be NULL if *entriesCount and *pointerCount are both zero.
 
 
 This array is interpreted as POINTER_PEN_INFO[*entriesCount][*pointerCount].
@@ -77,23 +77,23 @@ This array is interpreted as POINTER_PEN_INFO[*entriesCount][*pointerCount].
 
 If the function succeeds, the return value is non-zero.
 
-If the function fails, the return value is zero. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+If the function fails, the return value is zero. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
 Parallel-mode devices may report pointer input in frames, that is, they may report the state and position of all pointers from that device in a single input report to the system. Ideally, applications should view the entire frame as a single input unless the application-specific requirements dictate otherwise. 
 
-The information returned by <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getpointerframepeninfo">GetPointerFramePenInfo</a> is associated with the most recent pointer (<a href="/windows/win32/api/winuser/ne-winuser-tagpointer_input_type">PT_PEN</a>)  message retrieved by the calling thread. When the next message is retrieved by the calling thread, the information associated with the previous message may no longer be available.
+The information returned by <a href="/windows/desktop/api/winuser/nf-winuser-getpointerframepeninfo">GetPointerFramePenInfo</a> is associated with the most recent pointer (<a href="/windows/win32/api/winuser/ne-winuser-tagpointer_input_type">PT_PEN</a>)  message retrieved by the calling thread. When the next message is retrieved by the calling thread, the information associated with the previous message may no longer be available.
 
-If the application does not process pointer input messages as fast as they are generated, some messages may be coalesced into a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/inputmsg/wm-pointerupdate">WM_POINTERUPDATE</a> message. Use <b>GetPointerFramePenInfoHistory</b> to retrieve the message history (including coalesced input frames) from the most recent <b>WM_POINTERUPDATE</b> message. 
+If the application does not process pointer input messages as fast as they are generated, some messages may be coalesced into a <a href="/previous-versions/windows/desktop/inputmsg/wm-pointerupdate">WM_POINTERUPDATE</a> message. Use <b>GetPointerFramePenInfoHistory</b> to retrieve the message history (including coalesced input frames) from the most recent <b>WM_POINTERUPDATE</b> message. 
 
-Having retrieved the entire frame of information, the application can then call the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-skippointerframemessages">SkipPointerFrameMessages</a> function to skip remaining pointer messages associated with this frame that are pending retrieval. This saves the application the overhead of retrieving and processing the remaining messages one by one. However, the <b>SkipPointerFrameMessages</b> function should be used with care and only when the caller can be sure that no other entity on the caller’s thread is expecting to see the remaining pointer messages one by one as they are retrieved.
+Having retrieved the entire frame of information, the application can then call the <a href="/windows/desktop/api/winuser/nf-winuser-skippointerframemessages">SkipPointerFrameMessages</a> function to skip remaining pointer messages associated with this frame that are pending retrieval. This saves the application the overhead of retrieving and processing the remaining messages one by one. However, the <b>SkipPointerFrameMessages</b> function should be used with care and only when the caller can be sure that no other entity on the caller’s thread is expecting to see the remaining pointer messages one by one as they are retrieved.
 
 The  frame contains only pointers that are currently owned by the same window as the specified pointer.
 
 The information retrieved represents a two-dimensional array with one row for each history entry and one column for each pointer in the frame.
 
-The information retrieved appears in reverse chronological order, with the most recent entry in the first row of the returned array. The most recent entry is the same as that returned by the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getpointerframepeninfo">GetPointerFramePenInfo</a> function.
+The information retrieved appears in reverse chronological order, with the most recent entry in the first row of the returned array. The most recent entry is the same as that returned by the <a href="/windows/desktop/api/winuser/nf-winuser-getpointerframepeninfo">GetPointerFramePenInfo</a> function.
 
 If the count of rows in the buffer provided is insufficient to hold all available history entries, this function succeeds with the buffer containing the most recent entries and <i>*entriesCount</i> containing the total count of entries available.
 
@@ -112,25 +112,24 @@ For apps that have  both client and non-client areas, the input frame can includ
 
 We recommend the following if you want to filter data from the input frame:
      <ul>
-<li>For each update that does not include a pointer contact (a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/inputmsg/pointer-flags-contants">POINTER_FLAG_UPDATE</a> without <b>POINTER_FLAG_INCONTACT</b>), hit test to determine if the input is client or non-client.</li>
-<li>For each new contact (<a href="https://docs.microsoft.com/previous-versions/windows/desktop/inputmsg/pointer-flags-contants">POINTER_FLAG_DOWN</a>), hit test to determine if the input is client or non-client and track this info.</li>
-<li>For each update that includes a pointer contact (a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/inputmsg/pointer-flags-contants">POINTER_FLAG_UPDATE</a> with <b>POINTER_FLAG_INCONTACT</b>), use the tracking info to determine whether the input is client or non-client.</li>
-<li>For each <a href="https://docs.microsoft.com/previous-versions/windows/desktop/inputmsg/pointer-flags-contants">POINTER_FLAG_UP</a>, use the tracking info to determine whether the input is client or non-client and then clear this pointer from the tracking data.</li>
+<li>For each update that does not include a pointer contact (a <a href="/previous-versions/windows/desktop/inputmsg/pointer-flags-contants">POINTER_FLAG_UPDATE</a> without <b>POINTER_FLAG_INCONTACT</b>), hit test to determine if the input is client or non-client.</li>
+<li>For each new contact (<a href="/previous-versions/windows/desktop/inputmsg/pointer-flags-contants">POINTER_FLAG_DOWN</a>), hit test to determine if the input is client or non-client and track this info.</li>
+<li>For each update that includes a pointer contact (a <a href="/previous-versions/windows/desktop/inputmsg/pointer-flags-contants">POINTER_FLAG_UPDATE</a> with <b>POINTER_FLAG_INCONTACT</b>), use the tracking info to determine whether the input is client or non-client.</li>
+<li>For each <a href="/previous-versions/windows/desktop/inputmsg/pointer-flags-contants">POINTER_FLAG_UP</a>, use the tracking info to determine whether the input is client or non-client and then clear this pointer from the tracking data.</li>
 </ul>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/inputmsg/functions">Functions</a>
+<a href="/previous-versions/windows/desktop/inputmsg/functions">Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getpointerframepeninfo">GetPointerFramePenInfo</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-getpointerframepeninfo">GetPointerFramePenInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getpointerpeninfo">GetPointerPenInfo</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-getpointerpeninfo">GetPointerPenInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getpointerpeninfohistory">GetPointerPenInfoHistory</a>
-
+<a href="/windows/desktop/api/winuser/nf-winuser-getpointerpeninfohistory">GetPointerPenInfoHistory</a>

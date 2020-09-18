@@ -57,7 +57,7 @@ The
 
 ### -param pVal [out]
 
-Receives a reference to a string that contains the service type identifier. Release this string with <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a> when it is no longer required.
+Receives a reference to a string that contains the service type identifier. Release this string with <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a> when it is no longer required.
 
 ## -returns
 
@@ -65,5 +65,4 @@ For C++: If this property's "get" method succeeds, the return value is S_OK. Oth
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/upnp/nn-upnp-iupnpservice">IUPnPService</a>
-
+<a href="/windows/desktop/api/upnp/nn-upnp-iupnpservice">IUPnPService</a>

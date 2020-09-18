@@ -57,7 +57,7 @@ The <code>OnUpdateColorKey</code> method informs the application that the color 
 
 ### -param pKey [out]
 
-Pointer to a [COLORKEY](https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-colorkey) structure that contains the key type and a palette index.
+Pointer to a [COLORKEY](/windows/desktop/api/strmif/ns-strmif-colorkey) structure that contains the key type and a palette index.
 
 ### -param dwColor [out]
 
@@ -98,9 +98,8 @@ One of the parameters is invalid.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iddrawexclmodevideocallback">IDDrawExclModeVideoCallback Interface</a>
-
+<a href="/windows/desktop/api/strmif/nn-strmif-iddrawexclmodevideocallback">IDDrawExclModeVideoCallback Interface</a>

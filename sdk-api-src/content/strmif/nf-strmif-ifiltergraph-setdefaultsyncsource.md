@@ -90,21 +90,20 @@ The filter graph is not stopped.
 
 ## -remarks
 
-This method instructs the Filter Graph Manager to choose a reference clock using its default algorithm. For more information about the algorithm that it uses, see <a href="https://docs.microsoft.com/windows/desktop/DirectShow/reference-clocks">Reference Clocks</a>.
+This method instructs the Filter Graph Manager to choose a reference clock using its default algorithm. For more information about the algorithm that it uses, see <a href="/windows/desktop/DirectShow/reference-clocks">Reference Clocks</a>.
 
-Usually you do not need to call this method, because the Filter Graph Manager automatically selects a clock. However, if you call <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-imediafilter-setsyncsource">IMediaFilter::SetSyncSource</a> to override the clock, you can use <code>SetDefaultSyncSource</code> to restore the default clock.
+Usually you do not need to call this method, because the Filter Graph Manager automatically selects a clock. However, if you call <a href="/windows/desktop/api/strmif/nf-strmif-imediafilter-setsyncsource">IMediaFilter::SetSyncSource</a> to override the clock, you can use <code>SetDefaultSyncSource</code> to restore the default clock.
 
 This method fails if the filter graph is running or paused.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ifiltergraph">IFilterGraph Interface</a>
+<a href="/windows/desktop/api/strmif/nn-strmif-ifiltergraph">IFilterGraph Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/time-and-clocks-in-directshow">Time and Clocks in DirectShow</a>
-
+<a href="/windows/desktop/DirectShow/time-and-clocks-in-directshow">Time and Clocks in DirectShow</a>

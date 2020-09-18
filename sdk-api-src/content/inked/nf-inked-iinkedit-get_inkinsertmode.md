@@ -55,7 +55,7 @@ api_name:
 
 ## -description
 
-Gets or sets a value that specifies how ink is inserted onto the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkedit-control-reference">InkEdit</a> control, either as text or as ink.
+Gets or sets a value that specifies how ink is inserted onto the <a href="/windows/desktop/tablet/inkedit-control-reference">InkEdit</a> control, either as text or as ink.
 
 
 
@@ -69,9 +69,8 @@ This property is read/write.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/tablet/inkedit-control-reference">InkEdit</a>
+<a href="/windows/desktop/tablet/inkedit-control-reference">InkEdit</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/inked/ne-inked-inkinsertmode">InkInsertMode Enumeration</a>
-
+<a href="/windows/desktop/api/inked/ne-inked-inkinsertmode">InkInsertMode Enumeration</a>

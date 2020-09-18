@@ -52,13 +52,13 @@ api_name:
 
 The 
 <b>ITPluggableTerminalSuperclassInfo</b> interface exposes methods that get the name and CLSID of a pluggable terminal class. The 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-ienumpluggablesuperclassinfo-next">IEnumPluggableSuperclassInfo::Next</a> and 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itterminalsupport2-get_pluggablesuperclasses">ITTerminalSupport2::get_PluggableSuperclasses</a> methods create the 
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-ienumpluggablesuperclassinfo-next">IEnumPluggableSuperclassInfo::Next</a> and 
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itterminalsupport2-get_pluggablesuperclasses">ITTerminalSupport2::get_PluggableSuperclasses</a> methods create the 
 <b>ITPluggableTerminalSuperclassInfo</b> interface.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITPluggableTerminalSuperclassInfo</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ITPluggableTerminalSuperclassInfo</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITPluggableTerminalSuperclassInfo</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ITPluggableTerminalSuperclassInfo</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -73,7 +73,7 @@ The <b>ITPluggableTerminalSuperclassInfo</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itpluggableterminalsuperclassinfo-get_clsid">get_CLSID</a>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itpluggableterminalsuperclassinfo-get_clsid">get_CLSID</a>
 </td>
 <td align="left" width="63%">
 Gets the CLSID used to <b>CoCreateInstance</b> the terminal.
@@ -82,7 +82,7 @@ Gets the CLSID used to <b>CoCreateInstance</b> the terminal.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itpluggableterminalsuperclassinfo-get_name">get_Name</a>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itpluggableterminalsuperclassinfo-get_name">get_Name</a>
 </td>
 <td align="left" width="63%">
 Gets the terminal's friendly name.
@@ -90,4 +90,3 @@ Gets the terminal's friendly name.
 </td>
 </tr>
 </table>
-

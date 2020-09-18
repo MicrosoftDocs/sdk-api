@@ -70,5 +70,4 @@ This structure is a packed date-and-time value that can store years between 1601
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/winsync/windows-sync-structures">Windows Sync Structures</a>
-
+<a href="/previous-versions/windows/desktop/winsync/windows-sync-structures">Windows Sync Structures</a>

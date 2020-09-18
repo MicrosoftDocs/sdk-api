@@ -94,18 +94,18 @@ Type: <b>BOOL</b>
 
 If the function succeeds, the return value is nonzero.
 
-If the function fails, the return value is zero. To get extended error information, use the <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function.
+If the function fails, the return value is zero. To get extended error information, use the <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function.
 
 ## -remarks
 
 The <b>CheckMenuRadioItem</b> function sets the <b>MFT_RADIOCHECK</b> type flag and the <b>MFS_CHECKED</b> state for the item specified by <i>idCheck</i> and, at the same time, clears both flags for all other items in the group. The selected item is displayed using a bullet bitmap instead of a check-mark bitmap.
 
-For more information about menu item type and state flags, see the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-menuiteminfoa">MENUITEMINFO</a> structure.
+For more information about menu item type and state flags, see the <a href="/windows/desktop/api/winuser/ns-winuser-menuiteminfoa">MENUITEMINFO</a> structure.
 
 
 #### Examples
 
-For an example, see Example of <a href="https://docs.microsoft.com/windows/desktop/menurc/using-menus">Example of Using Custom Checkmark Bitmaps</a>. 
+For an example, see Example of <a href="/windows/desktop/menurc/using-menus">Example of Using Custom Checkmark Bitmaps</a>. 
 
 <div class="code"></div>
 
@@ -115,13 +115,12 @@ For an example, see Example of <a href="https://docs.microsoft.com/windows/deskt
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-menuiteminfoa">MENUITEMINFO</a>
+<a href="/windows/desktop/api/winuser/ns-winuser-menuiteminfoa">MENUITEMINFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/menurc/menus">Menus</a>
+<a href="/windows/desktop/menurc/menus">Menus</a>
 
 
 
 <b>Reference</b>
-

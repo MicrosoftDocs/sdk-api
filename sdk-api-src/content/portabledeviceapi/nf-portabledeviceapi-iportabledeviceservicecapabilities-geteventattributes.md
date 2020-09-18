@@ -60,7 +60,7 @@ The event whose attributes are retrieved.
 
 ### -param ppAttributes [out]
 
-The <a href="https://docs.microsoft.com/windows/desktop/wpd_sdk/iportabledevicevalues">IPortableDeviceValues</a> interface that receives the list of attributes.
+The <a href="/windows/desktop/wpd_sdk/iportabledevicevalues">IPortableDeviceValues</a> interface that receives the list of attributes.
 
 ## -returns
 
@@ -68,21 +68,20 @@ If the method succeeds, it returns <b>S_OK</b>. Any other <b>HRESULT</b> value i
 
 ## -remarks
 
-Possible attributes include the <a href="https://docs.microsoft.com/windows/desktop/wpd_sdk/wpd-attributes">WPD_EVENT_ATTRIBUTE_NAME</a>, WPD_EVENT_ATTRIBUTE_PARAMETERS, and WPD_EVENT_ATTRIBUTE_OPTIONS properties.
+Possible attributes include the <a href="/windows/desktop/wpd_sdk/wpd-attributes">WPD_EVENT_ATTRIBUTE_NAME</a>, WPD_EVENT_ATTRIBUTE_PARAMETERS, and WPD_EVENT_ATTRIBUTE_OPTIONS properties.
       
 
 
 #### Examples
 
-For an example of how to use this method, see <a href="https://docs.microsoft.com/windows/desktop/wpd_sdk/retrieving-supported-events">Retrieving Supported Service Events</a>.
+For an example of how to use this method, see <a href="/windows/desktop/wpd_sdk/retrieving-supported-events">Retrieving Supported Service Events</a>.
 
 <div class="code"></div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nn-portabledeviceapi-iportabledeviceservicecapabilities">IPortableDeviceServiceCapabilities Interface</a>
+<a href="/windows/desktop/api/portabledeviceapi/nn-portabledeviceapi-iportabledeviceservicecapabilities">IPortableDeviceServiceCapabilities Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/wpd_sdk/retrieving-supported-events">Retrieving Supported Service Events</a>
-
+<a href="/windows/desktop/wpd_sdk/retrieving-supported-events">Retrieving Supported Service Events</a>

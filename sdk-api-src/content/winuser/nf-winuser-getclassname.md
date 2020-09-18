@@ -92,5 +92,4 @@ If the function fails, the return value is zero. To get extended error informati
 
 ## -see-also
 
-[FindWindowA function](nf-winuser-findwindowa.md), [GetClassInfoA function](nf-winuser-getclassinfoa.md), [GetClassLongA function](nf-winuser-getclasslonga.md), [GetClassWord function](nf-winuser-getclassword.md), [Window Classes](https://docs.microsoft.com/windows/desktop/winmsg/window-classes)
-
+[FindWindowA function](nf-winuser-findwindowa.md), [GetClassInfoA function](nf-winuser-getclassinfoa.md), [GetClassLongA function](nf-winuser-getclasslonga.md), [GetClassWord function](nf-winuser-getclassword.md), [Window Classes](/windows/desktop/winmsg/window-classes)

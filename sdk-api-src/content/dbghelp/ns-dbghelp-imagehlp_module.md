@@ -178,7 +178,7 @@ PDB symbols.
 </td>
 <td width="60%">
 The virtual module created by 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-symloadmoduleex">SymLoadModuleEx</a> with <b>SLMFLAG_VIRTUAL</b>.
+<a href="/windows/desktop/api/dbghelp/nf-dbghelp-symloadmoduleex">SymLoadModuleEx</a> with <b>SLMFLAG_VIRTUAL</b>.
 							
 
 </td>
@@ -200,7 +200,7 @@ The full path and file name of the file from which symbols were loaded.
 ## -remarks
 
 This structure supersedes the <b>IMAGEHLP_MODULE</b> structure. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/Debug/updated-platform-support">Updated Platform Support</a>. <b>IMAGEHLP_MODULE</b> is defined as follows in DbgHelp.h. 
+<a href="/windows/desktop/Debug/updated-platform-support">Updated Platform Support</a>. <b>IMAGEHLP_MODULE</b> is defined as follows in DbgHelp.h. 
 
 
 ```cpp
@@ -240,5 +240,4 @@ typedef struct _IMAGEHLP_MODULEW {
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-symgetmoduleinfo">SymGetModuleInfo64</a>
-
+<a href="/windows/desktop/api/dbghelp/nf-dbghelp-symgetmoduleinfo">SymGetModuleInfo64</a>

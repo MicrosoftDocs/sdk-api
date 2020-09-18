@@ -56,7 +56,7 @@ Instructs the object to produce pixels.
 
 ### -param prc [in]
 
-Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/ns-wincodec-wicrect">WICRect</a>*</b>
+Type: <b>const <a href="/windows/desktop/api/wincodec/ns-wincodec-wicrect">WICRect</a>*</b>
 
 The rectangle to copy. A <b>NULL</b> value specifies the entire bitmap.
 
@@ -86,7 +86,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -remarks
 
-<b>CopyPixels</b> is one of the two main image processing routines (the other being <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicbitmap-lock">Lock</a>) triggering the actual processing. 
+<b>CopyPixels</b> is one of the two main image processing routines (the other being <a href="/windows/desktop/api/wincodec/nf-wincodec-iwicbitmap-lock">Lock</a>) triggering the actual processing. 
          It instructs the object to produce pixels according to its algorithm - this may involve decoding a portion of a JPEG stored on disk, copying a block of memory, or even analytically computing a complex gradient. 
          The algorithm is completely dependent on the object implementing the interface.
       
@@ -101,9 +101,8 @@ The caller controls the memory management and must provide an output buffer (<i>
          The caller must ensure that there is sufficient buffer to complete the call based on the width, height and pixel format of the bitmap and the sub-rectangle provided to the copy method.
       
 
-If the caller needs to perform numerous copies of an expensive <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapsource">IWICBitmapSource</a> such as a JPEG, it is recommended to create an in-memory <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicbitmap">IWICBitmap</a> first.
+If the caller needs to perform numerous copies of an expensive <a href="/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapsource">IWICBitmapSource</a> such as a JPEG, it is recommended to create an in-memory <a href="/windows/desktop/api/wincodec/nn-wincodec-iwicbitmap">IWICBitmap</a> first.
       
 
 <h3><a id="Codec_Developer_Remarks"></a><a id="codec_developer_remarks"></a><a id="CODEC_DEVELOPER_REMARKS"></a>Codec Developer Remarks</h3>
 The callee must only write to the first (prc-&gt;Width*bitsperpixel+7)/8 bytes of each line of the output buffer (in this case, a line is a consecutive string of <i>cbStride</i> bytes).
-

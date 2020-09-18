@@ -53,7 +53,7 @@ api_name:
 ## -description
 
 Specifies the list of blocked UserAgent sub-string's. This is
-                used with the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_listener_property_id">WS_LISTENER_PROPERTY_DISALLOWED_USER_AGENT</a> 
+                used with the <a href="/windows/desktop/api/webservices/ne-webservices-ws_listener_property_id">WS_LISTENER_PROPERTY_DISALLOWED_USER_AGENT</a> 
                 listener property.
 
 ## -struct-fields
@@ -65,4 +65,3 @@ The number of items in 'prefixes'.
 ### -field subStrings
 
 An array of WS_STRING*. Each WS_STRING* would be searched as a sub-string in the UserAgent HTTP header value.
-

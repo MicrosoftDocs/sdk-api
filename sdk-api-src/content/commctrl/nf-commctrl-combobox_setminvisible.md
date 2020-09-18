@@ -56,13 +56,13 @@ Sets the minimum number of visible items in the drop-down list of a combo box.
 
 ### -param hwnd
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 The combo box.
 
 ### -param iMinVisible
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">INT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">INT</a></b>
 
 The minimum number of visible items.
 
@@ -76,9 +76,8 @@ is equivalent to the following call.
 
 <code>SendMessage((hwnd), CB_SETMINVISIBLE, (WPARAM) iMinVisible, 0);</code>
 
-To use <b>ComboBox_SetMinVisible</b>, the application must specify comctl32.dll version 6 in the manifest. For more information, see <a href="https://docs.microsoft.com/windows/desktop/Controls/cookbook-overview">Enabling Visual Styles</a>.
+To use <b>ComboBox_SetMinVisible</b>, the application must specify comctl32.dll version 6 in the manifest. For more information, see <a href="/windows/desktop/Controls/cookbook-overview">Enabling Visual Styles</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Controls/cb-setminvisible">CB_SETMINVISIBLE</a>
-
+<a href="/windows/desktop/Controls/cb-setminvisible">CB_SETMINVISIBLE</a>

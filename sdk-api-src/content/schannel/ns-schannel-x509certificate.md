@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-The <b>X509Certificate</b> structure represents an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/x-gly">X.509</a> certificate.
+The <b>X509Certificate</b> structure represents an <a href="/windows/desktop/SecGloss/x-gly">X.509</a> certificate.
 
 ## -struct-fields
 
@@ -68,7 +68,7 @@ The serial number of the certificate.
 
 ### -field SignatureAlgorithm
 
-The ID of the algorithm used to create the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/d-gly">digital signature</a> for the certificate.
+The ID of the algorithm used to create the <a href="/windows/desktop/SecGloss/d-gly">digital signature</a> for the certificate.
 
 ### -field ValidFrom
 
@@ -88,5 +88,4 @@ A pointer to a string that specifies the subject of the certificate.
 
 ### -field pPublicKey
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">public key</a> used to create the signature for the certificate.
-
+A pointer to the <a href="/windows/desktop/SecGloss/p-gly">public key</a> used to create the signature for the certificate.

@@ -68,5 +68,4 @@ An array of null-terminated Unicode strings that contains the names of the regis
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/nf-bcrypt-bcryptenumregisteredproviders">BCryptEnumRegisteredProviders</a>
-
+<a href="/windows/desktop/api/bcrypt/nf-bcrypt-bcryptenumregisteredproviders">BCryptEnumRegisteredProviders</a>

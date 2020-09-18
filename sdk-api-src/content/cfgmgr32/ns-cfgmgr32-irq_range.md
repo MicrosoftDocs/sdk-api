@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-The IRQ_RANGE structure specifies a resource requirements list that describes IRQ line usage for a device instance. For more information about resource requirements lists, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/hardware-resources">Hardware Resources</a>.
+The IRQ_RANGE structure specifies a resource requirements list that describes IRQ line usage for a device instance. For more information about resource requirements lists, see <a href="/windows-hardware/drivers/kernel/hardware-resources">Hardware Resources</a>.
 
 ## -struct-fields
 
@@ -70,9 +70,8 @@ The highest-numbered of a range of contiguous IRQ lines that can be allocated to
 
 ### -field IRQR_Flags
 
-One bit flag from [IRQ_DES](https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-irq_des_32) structure.
+One bit flag from [IRQ_DES](/windows/desktop/api/cfgmgr32/ns-cfgmgr32-irq_des_32) structure.
 
 ## -see-also
 
-[IRQ_DES](https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-irq_des_32)
-
+[IRQ_DES](/windows/desktop/api/cfgmgr32/ns-cfgmgr32-irq_des_32)

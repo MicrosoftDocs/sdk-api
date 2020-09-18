@@ -56,22 +56,22 @@ Gets the text host's maximum allowed length for the text.
 
 ### -param plength
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a>*</b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">DWORD</a>*</b>
 
 The maximum allowed text length, in number of characters. If INFINITE is returned, the text services object can use as much memory as needed to store any specified text.
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 The return value is <b>S_OK</b>.
 
 ## -remarks
 
 When this maximum is reached, the text services object should reject any further character insertion and pasted text. 
-				<a href="https://docs.microsoft.com/windows/desktop/api/textserv/nf-textserv-itextservices-txsettext">TxSetText</a> however should still accept (and set) text longer than the maximum length. This is because this method is used for binding and is critical to maintaining the integrity of the data to which the control is bound.
+				<a href="/windows/desktop/api/textserv/nf-textserv-itextservices-txsettext">TxSetText</a> however should still accept (and set) text longer than the maximum length. This is because this method is used for binding and is critical to maintaining the integrity of the data to which the control is bound.
 
-This method parallels the <a href="https://docs.microsoft.com/windows/desktop/Controls/em-limittext">EM_LIMITTEXT</a> message. 
+This method parallels the <a href="/windows/desktop/Controls/em-limittext">EM_LIMITTEXT</a> message. 
 
 If the limit returned is less than the number of characters currently in the text services object, no data is lost. Instead, no edits are allowed to the text 
 				<i>other</i> than deletion until the text is reduced to below the limit.
@@ -82,11 +82,11 @@ If the limit returned is less than the number of characters currently in the tex
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Controls/em-limittext">EM_LIMITTEXT</a>
+<a href="/windows/desktop/Controls/em-limittext">EM_LIMITTEXT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/textserv/nl-textserv-itexthost">ITextHost</a>
+<a href="/windows/desktop/api/textserv/nl-textserv-itexthost">ITextHost</a>
 
 
 
@@ -94,5 +94,4 @@ If the limit returned is less than the number of characters currently in the tex
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Controls/windowless-rich-edit-controls">Windowless Rich Edit Controls</a>
-
+<a href="/windows/desktop/Controls/windowless-rich-edit-controls">Windowless Rich Edit Controls</a>

@@ -64,7 +64,7 @@ A pointer to a
 
 Returns <b>TRUE</b> if a user selected a device.
 
-Returns <b>FALSE</b> if no valid data was returned. Call the <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function to retrieve error information. The following conditions apply to returned error information.
+Returns <b>FALSE</b> if no valid data was returned. Call the <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function to retrieve error information. The following conditions apply to returned error information.
 
 <table>
 <tr>
@@ -123,5 +123,4 @@ If
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bluetoothapis/nc-bluetoothapis-pfn_device_callback">PFN_DEVICE_CALLBACK</a>
-
+<a href="/windows/desktop/api/bluetoothapis/nc-bluetoothapis-pfn_device_callback">PFN_DEVICE_CALLBACK</a>

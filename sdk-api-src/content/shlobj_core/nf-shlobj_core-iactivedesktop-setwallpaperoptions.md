@@ -58,7 +58,7 @@ Sets the wallpaper options.
 
 Type: <b>LPCWALLPAPEROPT</b>
 
-The address of the <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/ns-shlobj_core-wallpaperopt">WALLPAPEROPT</a> structure containing the options to be set.
+The address of the <a href="/windows/desktop/api/shlobj_core/ns-shlobj_core-wallpaperopt">WALLPAPEROPT</a> structure containing the options to be set.
 
 ### -param dwReserved
 
@@ -74,5 +74,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nn-shlobj_core-iactivedesktop">IActiveDesktop</a>
-
+<a href="/windows/desktop/api/shlobj_core/nn-shlobj_core-iactivedesktop">IActiveDesktop</a>

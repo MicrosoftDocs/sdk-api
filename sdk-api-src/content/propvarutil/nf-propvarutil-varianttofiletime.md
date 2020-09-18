@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Extracts a <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure from a variant structure.
+Extracts a <a href="/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure from a variant structure.
 
 ## -parameters
 
@@ -82,7 +82,7 @@ Indicates local time.
 
 Type: <b>FILETIME*</b>
 
-Pointer to the extracted <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure.
+Pointer to the extracted <a href="/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure.
 
 ## -returns
 
@@ -93,4 +93,3 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 ## -remarks
 
 <i>stfOut</i> flags override any property description flags.
-

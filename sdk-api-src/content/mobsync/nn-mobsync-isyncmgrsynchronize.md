@@ -54,7 +54,7 @@ Exposes methods that enable the registered application or service to receive not
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISyncMgrSynchronize</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISyncMgrSynchronize</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISyncMgrSynchronize</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISyncMgrSynchronize</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,17 +69,17 @@ The <b>ISyncMgrSynchronize</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mobsync/nf-mobsync-isyncmgrsynchronize-enumsyncmgritems">EnumSyncMgrItems</a>
+<a href="/windows/desktop/api/mobsync/nf-mobsync-isyncmgrsynchronize-enumsyncmgritems">EnumSyncMgrItems</a>
 </td>
 <td align="left" width="63%">
 Obtains the 
-<a href="https://docs.microsoft.com/windows/desktop/api/mobsync/nn-mobsync-isyncmgrenumitems">ISyncMgrEnumItems</a> interface for the items that are handled by a registered application.
+<a href="/windows/desktop/api/mobsync/nn-mobsync-isyncmgrenumitems">ISyncMgrEnumItems</a> interface for the items that are handled by a registered application.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mobsync/nf-mobsync-isyncmgrsynchronize-gethandlerinfo">GetHandlerInfo</a>
+<a href="/windows/desktop/api/mobsync/nf-mobsync-isyncmgrsynchronize-gethandlerinfo">GetHandlerInfo</a>
 </td>
 <td align="left" width="63%">
 Obtains handler information.
@@ -88,7 +88,7 @@ Obtains handler information.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mobsync/nf-mobsync-isyncmgrsynchronize-getitemobject">GetItemObject</a>
+<a href="/windows/desktop/api/mobsync/nf-mobsync-isyncmgrsynchronize-getitemobject">GetItemObject</a>
 </td>
 <td align="left" width="63%">
 Obtains an interface on a specified item that a registered application handles.
@@ -97,7 +97,7 @@ Obtains an interface on a specified item that a registered application handles.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mobsync/nf-mobsync-isyncmgrsynchronize-initialize">Initialize</a>
+<a href="/windows/desktop/api/mobsync/nf-mobsync-isyncmgrsynchronize-initialize">Initialize</a>
 </td>
 <td align="left" width="63%">
 Called by the synchronization manager in a registered application handler to determine whether the handler processes the synchronization event.
@@ -106,35 +106,35 @@ Called by the synchronization manager in a registered application handler to det
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mobsync/nf-mobsync-isyncmgrsynchronize-prepareforsync">PrepareForSync</a>
+<a href="/windows/desktop/api/mobsync/nf-mobsync-isyncmgrsynchronize-prepareforsync">PrepareForSync</a>
 </td>
 <td align="left" width="63%">
-Allows a registered application to display any user interface, and perform any necessary initialization before the <a href="https://docs.microsoft.com/windows/desktop/api/mobsync/nf-mobsync-isyncmgrsynchronize-synchronize">ISyncMgrSynchronize::Synchronize</a> method is called. For example, an application such as the Outlook email client may need to display the password dialog box to enable a user to log on to a mail server.
+Allows a registered application to display any user interface, and perform any necessary initialization before the <a href="/windows/desktop/api/mobsync/nf-mobsync-isyncmgrsynchronize-synchronize">ISyncMgrSynchronize::Synchronize</a> method is called. For example, an application such as the Outlook email client may need to display the password dialog box to enable a user to log on to a mail server.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mobsync/nf-mobsync-isyncmgrsynchronize-setitemstatus">SetItemStatus</a>
+<a href="/windows/desktop/api/mobsync/nf-mobsync-isyncmgrsynchronize-setitemstatus">SetItemStatus</a>
 </td>
 <td align="left" width="63%">
-Called by the synchronization manager in a registered application's handler to change the status of an item in the following two cases: between the time the handler has returned from the <a href="https://docs.microsoft.com/windows/desktop/api/mobsync/nf-mobsync-isyncmgrsynchronize-prepareforsync">ISyncMgrSynchronize::PrepareForSync</a> method and called the 
-<a href="https://docs.microsoft.com/windows/desktop/api/mobsync/nf-mobsync-isyncmgrsynchronizecallback-prepareforsynccompleted">ISyncMgrSynchronizeCallback::PrepareForSyncCompleted</a> callback method, or after the handler has returned from the <a href="https://docs.microsoft.com/windows/desktop/api/mobsync/nf-mobsync-isyncmgrsynchronize-synchronize">ISyncMgrSynchronize::Synchronize</a> method but has not yet called the <a href="https://docs.microsoft.com/windows/desktop/api/mobsync/nf-mobsync-isyncmgrsynchronizecallback-synchronizecompleted">ISyncMgrSynchronizeCallback::SynchronizeCompleted</a> callback method.
+Called by the synchronization manager in a registered application's handler to change the status of an item in the following two cases: between the time the handler has returned from the <a href="/windows/desktop/api/mobsync/nf-mobsync-isyncmgrsynchronize-prepareforsync">ISyncMgrSynchronize::PrepareForSync</a> method and called the 
+<a href="/windows/desktop/api/mobsync/nf-mobsync-isyncmgrsynchronizecallback-prepareforsynccompleted">ISyncMgrSynchronizeCallback::PrepareForSyncCompleted</a> callback method, or after the handler has returned from the <a href="/windows/desktop/api/mobsync/nf-mobsync-isyncmgrsynchronize-synchronize">ISyncMgrSynchronize::Synchronize</a> method but has not yet called the <a href="/windows/desktop/api/mobsync/nf-mobsync-isyncmgrsynchronizecallback-synchronizecompleted">ISyncMgrSynchronizeCallback::SynchronizeCompleted</a> callback method.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mobsync/nf-mobsync-isyncmgrsynchronize-setprogresscallback">SetProgressCallback</a>
+<a href="/windows/desktop/api/mobsync/nf-mobsync-isyncmgrsynchronize-setprogresscallback">SetProgressCallback</a>
 </td>
 <td align="left" width="63%">
-Sets the <a href="https://docs.microsoft.com/windows/desktop/api/mobsync/nn-mobsync-isyncmgrsynchronizecallback">ISyncMgrSynchronizeCallback</a> interface. Registered applications use this callback interface to give status information from within the <a href="https://docs.microsoft.com/windows/desktop/api/mobsync/nf-mobsync-isyncmgrsynchronize-prepareforsync">ISyncMgrSynchronize::PrepareForSync</a> and <a href="https://docs.microsoft.com/windows/desktop/api/mobsync/nf-mobsync-isyncmgrsynchronize-synchronize">ISyncMgrSynchronize::Synchronize</a> methods.
+Sets the <a href="/windows/desktop/api/mobsync/nn-mobsync-isyncmgrsynchronizecallback">ISyncMgrSynchronizeCallback</a> interface. Registered applications use this callback interface to give status information from within the <a href="/windows/desktop/api/mobsync/nf-mobsync-isyncmgrsynchronize-prepareforsync">ISyncMgrSynchronize::PrepareForSync</a> and <a href="/windows/desktop/api/mobsync/nf-mobsync-isyncmgrsynchronize-synchronize">ISyncMgrSynchronize::Synchronize</a> methods.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mobsync/nf-mobsync-isyncmgrsynchronize-showerror">ShowError</a>
+<a href="/windows/desktop/api/mobsync/nf-mobsync-isyncmgrsynchronize-showerror">ShowError</a>
 </td>
 <td align="left" width="63%">
 Called by the synchronization manager in a registered application handler when a user double-clicks an associated message in the error tab.
@@ -143,7 +143,7 @@ Called by the synchronization manager in a registered application handler when a
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mobsync/nf-mobsync-isyncmgrsynchronize-showproperties">ShowProperties</a>
+<a href="/windows/desktop/api/mobsync/nf-mobsync-isyncmgrsynchronize-showproperties">ShowProperties</a>
 </td>
 <td align="left" width="63%">
 Called by the synchronization manager when a user selects an item in the choice dialog box, and then clicks the <b>Properties</b> button.
@@ -152,7 +152,7 @@ Called by the synchronization manager when a user selects an item in the choice 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mobsync/nf-mobsync-isyncmgrsynchronize-synchronize">Synchronize</a>
+<a href="/windows/desktop/api/mobsync/nf-mobsync-isyncmgrsynchronize-synchronize">Synchronize</a>
 </td>
 <td align="left" width="63%">
 Called by the synchronization manager once for each selected group after the user has chosen the registered applications to be synchronized.
@@ -166,20 +166,19 @@ Called by the synchronization manager once for each selected group after the use
 <h3><a id="When_to_Implement"></a><a id="when_to_implement"></a><a id="WHEN_TO_IMPLEMENT"></a>When to Implement</h3>
 This interface should be implemented on the registered application's handler to receive notifications from the synchronization manager and to participate in the synchronization process.
 
-<b>ISyncMgrSynchronize</b> has been replaced in Windows Vista by <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nn-syncmgr-isyncmgrhandler">ISyncMgrHandler</a>.
+<b>ISyncMgrSynchronize</b> has been replaced in Windows Vista by <a href="/windows/desktop/api/syncmgr/nn-syncmgr-isyncmgrhandler">ISyncMgrHandler</a>.
 
 <h3><a id="When_to_Use"></a><a id="when_to_use"></a><a id="WHEN_TO_USE"></a>When to Use</h3>
 The synchronization manager calls the methods of this interface to send notifications to the registered application or service during synchronization.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mobsync/nn-mobsync-isyncmgrenumitems">ISyncMgrEnumItems</a>
+<a href="/windows/desktop/api/mobsync/nn-mobsync-isyncmgrenumitems">ISyncMgrEnumItems</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mobsync/nn-mobsync-isyncmgrsynchronizecallback">ISyncMgrSynchronizeCallback</a>
+<a href="/windows/desktop/api/mobsync/nn-mobsync-isyncmgrsynchronizecallback">ISyncMgrSynchronizeCallback</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mobsync/nn-mobsync-isyncmgrsynchronizeinvoke">ISyncMgrSynchronizeInvoke</a>
-
+<a href="/windows/desktop/api/mobsync/nn-mobsync-isyncmgrsynchronizeinvoke">ISyncMgrSynchronizeInvoke</a>

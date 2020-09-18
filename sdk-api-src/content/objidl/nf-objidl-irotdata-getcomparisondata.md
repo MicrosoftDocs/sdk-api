@@ -83,5 +83,4 @@ If your comparison data is longer than the value specified by the <i>cbMax</i> p
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-irotdata">IROTData</a>
-
+<a href="/windows/desktop/api/objidl/nn-objidl-irotdata">IROTData</a>

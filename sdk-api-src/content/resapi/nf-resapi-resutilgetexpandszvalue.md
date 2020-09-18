@@ -54,8 +54,8 @@ api_name:
     section. Support for this method was removed in Windows Server 2003. This function is not exported 
     from ResUtils.dll and programs or DLLs that statically link to it will not load.]
 
-Returns a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/e-gly">expandable string</a> value from the 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-database">cluster database</a>.
+Returns a <a href="/previous-versions/windows/desktop/mscs/e-gly">expandable string</a> value from the 
+    <a href="/previous-versions/windows/desktop/mscs/cluster-database">cluster database</a>.
 
 ## -parameters
 
@@ -78,31 +78,30 @@ If the operations succeeds, the function returns a null-terminated Unicode strin
        specified value.
 
 If the operation fails, the function returns <b>NULL</b>. For more information, see 
-       <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+       <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
 When you are finished with the memory allocated for the value returned by the 
      <b>ResUtilGetExpandSzValue</b> utility function, you 
-     must call the function <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localfree">LocalFree</a> to release it.
+     must call the function <a href="/windows/desktop/api/winbase/nf-winbase-localfree">LocalFree</a> to release it.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/nf-clusapi-clusterregqueryvalue">ClusterRegQueryValue</a>
+<a href="/previous-versions/windows/desktop/api/clusapi/nf-clusapi-clusterregqueryvalue">ClusterRegQueryValue</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/resapi/nf-resapi-resutilgetbinaryvalue">ResUtilGetBinaryValue</a>
+<a href="/windows/desktop/api/resapi/nf-resapi-resutilgetbinaryvalue">ResUtilGetBinaryValue</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/resapi/nf-resapi-resutilgetdwordvalue">ResUtilGetDwordValue</a>
+<a href="/windows/desktop/api/resapi/nf-resapi-resutilgetdwordvalue">ResUtilGetDwordValue</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/nf-resapi-resutilgetmultiszvalue">ResUtilGetMultiSzValue</a>
+<a href="/previous-versions/windows/desktop/api/resapi/nf-resapi-resutilgetmultiszvalue">ResUtilGetMultiSzValue</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/resapi/nf-resapi-resutilgetszvalue">ResUtilGetSzValue</a>
-
+<a href="/windows/desktop/api/resapi/nf-resapi-resutilgetszvalue">ResUtilGetSzValue</a>

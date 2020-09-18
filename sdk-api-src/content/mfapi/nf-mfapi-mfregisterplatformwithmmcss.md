@@ -72,13 +72,12 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 ## -remarks
 
-To unregister the platform work queues from the MMCSS class, call <a href="https://docs.microsoft.com/windows/desktop/api/mfapi/nf-mfapi-mfunregisterplatformfrommmcss">MFUnregisterPlatformFromMMCSS</a>.
+To unregister the platform work queues from the MMCSS class, call <a href="/windows/desktop/api/mfapi/nf-mfapi-mfunregisterplatformfrommmcss">MFUnregisterPlatformFromMMCSS</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>
+<a href="/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-work-queue-and-threading-improvements">Work Queue and Threading Improvements</a>
-
+<a href="/windows/desktop/medfound/media-foundation-work-queue-and-threading-improvements">Work Queue and Threading Improvements</a>

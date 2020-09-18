@@ -73,9 +73,9 @@ If the function succeeds, it returns the reallocated memory block. Otherwise, it
 
 ## -remarks
 
-This function changes the size of a previously allocated memory block in the same way that <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-imalloc-realloc">IMalloc::Realloc</a> does. It is not necessary to call the <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cogetmalloc">CoGetMalloc</a> function to get a pointer to the OLE allocator before calling <b>CoTaskMemRealloc</b>.
+This function changes the size of a previously allocated memory block in the same way that <a href="/windows/desktop/api/objidl/nf-objidl-imalloc-realloc">IMalloc::Realloc</a> does. It is not necessary to call the <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cogetmalloc">CoGetMalloc</a> function to get a pointer to the OLE allocator before calling <b>CoTaskMemRealloc</b>.
 
-The <i>pv</i> parameter points to the beginning of the memory block. If <i>pv</i> is <b>NULL</b>, <b>CoTaskMemRealloc</b> allocates a new memory block in the same way as the <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemalloc">CoTaskMemAlloc</a> function. If <i>pv</i> is not <b>NULL</b>, it should be a pointer returned by a prior call to <b>CoTaskMemAlloc</b>.
+The <i>pv</i> parameter points to the beginning of the memory block. If <i>pv</i> is <b>NULL</b>, <b>CoTaskMemRealloc</b> allocates a new memory block in the same way as the <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemalloc">CoTaskMemAlloc</a> function. If <i>pv</i> is not <b>NULL</b>, it should be a pointer returned by a prior call to <b>CoTaskMemAlloc</b>.
 
 The <i>cb</i> parameter specifies the size of the new block. The contents of the block are unchanged up to the shorter of the new and old sizes, although the new block can be in a different location. Because the new block can be in a different memory location, the pointer returned by <b>CoTaskMemRealloc</b> is not guaranteed to be the pointer passed through the <i>pv</i> argument. If <i>pv</i> is not <b>NULL</b> and <i>cb</i> is 0, then the memory pointed to by <i>pv</i> is freed.
 
@@ -85,13 +85,12 @@ The storage space pointed to by the return value is guaranteed to be suitably al
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemalloc">CoTaskMemAlloc</a>
+<a href="/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemalloc">CoTaskMemAlloc</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a>
+<a href="/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-imalloc-realloc">IMalloc::Realloc</a>
-
+<a href="/windows/desktop/api/objidl/nf-objidl-imalloc-realloc">IMalloc::Realloc</a>

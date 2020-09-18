@@ -52,19 +52,18 @@ api_name:
 ## -description
 
 Frees the string buffer allocated by
-    <a href="https://docs.microsoft.com/windows/desktop/api/winternl/nf-winternl-rtlansistringtounicodestring">RtlAnsiStringToUnicodeString</a> or by <b>RtlUpcaseUnicodeString</b>.
+    <a href="/windows/desktop/api/winternl/nf-winternl-rtlansistringtounicodestring">RtlAnsiStringToUnicodeString</a> or by <b>RtlUpcaseUnicodeString</b>.
 
 ## -parameters
 
 ### -param UnicodeString [in, out]
 
 A pointer to the Unicode string whose
-        buffer was previously allocated by <a href="https://docs.microsoft.com/windows/desktop/api/winternl/nf-winternl-rtlansistringtounicodestring">RtlAnsiStringToUnicodeString</a>.
+        buffer was previously allocated by <a href="/windows/desktop/api/winternl/nf-winternl-rtlansistringtounicodestring">RtlAnsiStringToUnicodeString</a>.
 
 ## -remarks
 
-This routine does not release the ANSI string buffer passed to <a href="https://docs.microsoft.com/windows/desktop/api/winternl/nf-winternl-rtlansistringtounicodestring">RtlAnsiStringToUnicodeString</a> or <b>RtlUpcaseUnicodeString</b>.
+This routine does not release the ANSI string buffer passed to <a href="/windows/desktop/api/winternl/nf-winternl-rtlansistringtounicodestring">RtlAnsiStringToUnicodeString</a> or <b>RtlUpcaseUnicodeString</b>.
 		
 
-Because there is no import library for this function, you must use <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a>.
-
+Because there is no import library for this function, you must use <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a>.

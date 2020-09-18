@@ -62,7 +62,7 @@ Number of elements requested.
 ### -param ppElements [out]
 
 Pointer to 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nn-tapi3-itagent">ITAgent</a> pointer.
+<a href="/windows/desktop/api/tapi3/nn-tapi3-itagent">ITAgent</a> pointer.
 
 ### -param pceltFetched [out]
 
@@ -126,14 +126,13 @@ Insufficient memory exists to perform the operation.
 ## -remarks
 
 TAPI calls the <b>AddRef</b> method on the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nn-tapi3-itagent">ITAgent</a> interface returned by <b>IEnumAgent::Next</b>. The application must call <b>Release</b> on the 
+<a href="/windows/desktop/api/tapi3/nn-tapi3-itagent">ITAgent</a> interface returned by <b>IEnumAgent::Next</b>. The application must call <b>Release</b> on the 
 <b>ITAgent</b> interface to free resources associated with it.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nn-tapi3-ienumagent">IEnumAgent</a>
+<a href="/windows/desktop/api/tapi3/nn-tapi3-ienumagent">IEnumAgent</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nn-tapi3-itagent">ITAgent</a>
-
+<a href="/windows/desktop/api/tapi3/nn-tapi3-itagent">ITAgent</a>

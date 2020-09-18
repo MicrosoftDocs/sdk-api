@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-Determines whether a specified <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> structure is the child of another <b>ITEMIDLIST</b> structure.
+Determines whether a specified <a href="/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> structure is the child of another <b>ITEMIDLIST</b> structure.
 
 ## -parameters
 
@@ -62,20 +62,19 @@ Determines whether a specified <a href="https://docs.microsoft.com/windows/deskt
 
 Type: <b>PCIDLIST_ABSOLUTE</b>
 
-A pointer to the parent <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> structure.
+A pointer to the parent <a href="/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> structure.
 
 ### -param pidlChild [in]
 
 Type: <b>PCIDLIST_ABSOLUTE</b>
 
-A pointer to the child <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> structure.
+A pointer to the child <a href="/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> structure.
 
 ## -returns
 
 Type: <b>PUIDLIST_RELATIVE</b>
 
-Returns a pointer to the child's simple <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> structure if <i>pidlChild</i> is a child of <i>pidlParent</i>. The returned structure consists of <i>pidlChild</i>, minus the <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-shitemid">SHITEMID</a> structures that make up <i>pidlParent</i>. Returns <b>NULL</b> if <i>pidlChild</i> is not a child of <i>pidlParent</i>.
+Returns a pointer to the child's simple <a href="/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> structure if <i>pidlChild</i> is a child of <i>pidlParent</i>. The returned structure consists of <i>pidlChild</i>, minus the <a href="/windows/desktop/api/shtypes/ns-shtypes-shitemid">SHITEMID</a> structures that make up <i>pidlParent</i>. Returns <b>NULL</b> if <i>pidlChild</i> is not a child of <i>pidlParent</i>.
 
 <div class="alert"><b>Note</b>  The returned pointer is a pointer into the existing parent structure. It is an alias for <i>pidlChild</i>. No new memory is allocated in association with the returned pointer. It is not the caller's responsibility to free the returned value.</div>
 <div> </div>
-

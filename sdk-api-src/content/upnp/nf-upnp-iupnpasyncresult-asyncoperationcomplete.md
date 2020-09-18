@@ -64,5 +64,4 @@ If the method succeeds, the return value is S_OK. Otherwise, the method returns 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/upnp/nn-upnp-iupnpasyncresult">IUPnPAsyncResult</a>
-
+<a href="/windows/desktop/api/upnp/nn-upnp-iupnpasyncresult">IUPnPAsyncResult</a>

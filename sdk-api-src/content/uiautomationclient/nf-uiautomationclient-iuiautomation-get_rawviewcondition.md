@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-Retrieves a predefined <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationcondition">IUIAutomationCondition</a> interface that selects all UI elements in an unfiltered view.
+Retrieves a predefined <a href="/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationcondition">IUIAutomationCondition</a> interface that selects all UI elements in an unfiltered view.
 
 This property is read-only.
 
@@ -59,21 +59,20 @@ This property is read-only.
 
 ## -remarks
 
-Used by itself, the condition is functionally identical to the one retrieved by <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomation-createtruecondition">IUIAutomation::CreateTrueCondition</a>.
+Used by itself, the condition is functionally identical to the one retrieved by <a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomation-createtruecondition">IUIAutomation::CreateTrueCondition</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomation-get_contentviewcondition">ContentViewCondition</a>
+<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomation-get_contentviewcondition">ContentViewCondition</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomation-get_controlviewcondition">ControlViewCondition</a>
+<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomation-get_controlviewcondition">ControlViewCondition</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomation">IUIAutomation</a>
+<a href="/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomation">IUIAutomation</a>
 
 
 
 <b>Reference</b>
-

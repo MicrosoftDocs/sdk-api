@@ -56,7 +56,7 @@ The <b>CheckSignature</b> method verifies that the certificate request has been 
 
 ### -param AllowedSignatureTypes [in]
 
-A value from the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/ne-certenroll-pkcs10allowedsignaturetypes">Pkcs10AllowedSignatureTypes</a> enumeration. This can be a bitwise combination of the following values.
+A value from the <a href="/windows/desktop/api/certenroll/ne-certenroll-pkcs10allowedsignaturetypes">Pkcs10AllowedSignatureTypes</a> enumeration. This can be a bitwise combination of the following values.
 
 <table>
 <tr>
@@ -91,7 +91,7 @@ Null-signed signatures are permitted.
 
 If the function succeeds, the function returns <b>S_OK</b>.
 
-If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following table. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
+If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following table. For a list of common error codes, see <a href="/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 <table>
 <tr>
@@ -127,7 +127,7 @@ The signature type is not specified by the <i>AllowedSignatureTypes</i> paramete
 </dl>
 </td>
 <td width="60%">
-The value specified by the <i>AllowedSignatureTypes</i> parameter is not a member of the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/ne-certenroll-pkcs10allowedsignaturetypes">Pkcs10AllowedSignatureTypes</a> enumeration type.
+The value specified by the <i>AllowedSignatureTypes</i> parameter is not a member of the <a href="/windows/desktop/api/certenroll/ne-certenroll-pkcs10allowedsignaturetypes">Pkcs10AllowedSignatureTypes</a> enumeration type.
 
 </td>
 </tr>
@@ -139,5 +139,4 @@ This method uses the public key to decrypt the signature and compares the signat
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509certificaterequestcmc2">IX509CertificateRequestCmc2</a>
-
+<a href="/windows/desktop/api/certenroll/nn-certenroll-ix509certificaterequestcmc2">IX509CertificateRequestCmc2</a>

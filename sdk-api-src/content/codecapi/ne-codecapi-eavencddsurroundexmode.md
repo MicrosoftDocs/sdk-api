@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Specifies whether a Dolby Digital audio stream is encoded in Dolby Digital Surround EX. This enumeration is used with the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/avencddsurroundexmode-property">AVEncDDSurroundExMode</a> property.
+Specifies whether a Dolby Digital audio stream is encoded in Dolby Digital Surround EX. This enumeration is used with the <a href="/windows/desktop/DirectShow/avencddsurroundexmode-property">AVEncDDSurroundExMode</a> property.
 
 ## -enum-fields
 
@@ -68,9 +68,8 @@ The audio is encoded in Surround EX.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/codec-api-enumerations">Codec API Enumerations</a>
+<a href="/windows/desktop/DirectShow/codec-api-enumerations">Codec API Enumerations</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-icodecapi">ICodecAPI Interface</a>
-
+<a href="/windows/desktop/api/strmif/nn-strmif-icodecapi">ICodecAPI Interface</a>

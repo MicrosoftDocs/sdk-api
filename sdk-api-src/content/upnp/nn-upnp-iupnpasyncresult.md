@@ -51,11 +51,11 @@ api_name:
 ## -description
 
 The 
-<a href="https://docs.microsoft.com/windows/desktop/api/upnp/nn-upnp-iupnpservicecallback">IUPnPAsyncResult</a> interface is used to notify the UPnP control point of a completed asynchronous I/O operation.
+<a href="/windows/desktop/api/upnp/nn-upnp-iupnpservicecallback">IUPnPAsyncResult</a> interface is used to notify the UPnP control point of a completed asynchronous I/O operation.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUPnPAsyncResult</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IUPnPAsyncResult</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUPnPAsyncResult</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IUPnPAsyncResult</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>IUPnPAsyncResult</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/upnp/nf-upnp-iupnpasyncresult-asyncoperationcomplete">AsyncOperationComplete</a>
+<a href="/windows/desktop/api/upnp/nf-upnp-iupnpasyncresult-asyncoperationcomplete">AsyncOperationComplete</a>
 </td>
 <td align="left" width="63%">
 Provides notification of a completed asynchronous I/O operation.
@@ -78,4 +78,3 @@ Provides notification of a completed asynchronous I/O operation.
 </td>
 </tr>
 </table>
-

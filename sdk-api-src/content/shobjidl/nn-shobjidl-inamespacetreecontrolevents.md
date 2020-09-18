@@ -50,11 +50,11 @@ api_name:
 
 ## -description
 
-Exposes methods for handling <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-inamespacetreecontrol">INameSpaceTreeControl</a> events.
+Exposes methods for handling <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-inamespacetreecontrol">INameSpaceTreeControl</a> events.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">INameSpaceTreeControlEvents</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>INameSpaceTreeControlEvents</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">INameSpaceTreeControlEvents</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>INameSpaceTreeControlEvents</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>INameSpaceTreeControlEvents</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nf-shobjidl-inamespacetreecontrolevents-onaftercontextmenu">OnAfterContextMenu</a>
+<a href="/windows/desktop/api/shobjidl/nf-shobjidl-inamespacetreecontrolevents-onaftercontextmenu">OnAfterContextMenu</a>
 </td>
 <td align="left" width="63%">
 Called after a context menu is displayed.
@@ -78,16 +78,16 @@ Called after a context menu is displayed.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nf-shobjidl-inamespacetreecontrolevents-onafterexpand">OnAfterExpand</a>
+<a href="/windows/desktop/api/shobjidl/nf-shobjidl-inamespacetreecontrolevents-onafterexpand">OnAfterExpand</a>
 </td>
 <td align="left" width="63%">
-Called after an <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a> is expanded.
+Called after an <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a> is expanded.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nf-shobjidl-inamespacetreecontrolevents-onbeforecontextmenu">OnBeforeContextMenu</a>
+<a href="/windows/desktop/api/shobjidl/nf-shobjidl-inamespacetreecontrolevents-onbeforecontextmenu">OnBeforeContextMenu</a>
 </td>
 <td align="left" width="63%">
 Called before a context menu is displayed; allows client to add additional menu entries.
@@ -96,53 +96,53 @@ Called before a context menu is displayed; allows client to add additional menu 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nf-shobjidl-inamespacetreecontrolevents-onbeforeexpand">OnBeforeExpand</a>
+<a href="/windows/desktop/api/shobjidl/nf-shobjidl-inamespacetreecontrolevents-onbeforeexpand">OnBeforeExpand</a>
 </td>
 <td align="left" width="63%">
-Called before an <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a> is expanded.
+Called before an <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a> is expanded.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nf-shobjidl-inamespacetreecontrolevents-onbeforeitemdelete">OnBeforeItemDelete</a>
+<a href="/windows/desktop/api/shobjidl/nf-shobjidl-inamespacetreecontrolevents-onbeforeitemdelete">OnBeforeItemDelete</a>
 </td>
 <td align="left" width="63%">
-Called before an <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a> and all of its children are deleted.
+Called before an <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a> and all of its children are deleted.
         
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nf-shobjidl-inamespacetreecontrolevents-onbeforestateimagechange">OnBeforeStateImageChange</a>
+<a href="/windows/desktop/api/shobjidl/nf-shobjidl-inamespacetreecontrolevents-onbeforestateimagechange">OnBeforeStateImageChange</a>
 </td>
 <td align="left" width="63%">
-Called before the state icon of the given <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a> is changed.
+Called before the state icon of the given <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a> is changed.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nf-shobjidl-inamespacetreecontrolevents-onbeginlabeledit">OnBeginLabelEdit</a>
+<a href="/windows/desktop/api/shobjidl/nf-shobjidl-inamespacetreecontrolevents-onbeginlabeledit">OnBeginLabelEdit</a>
 </td>
 <td align="left" width="63%">
-Called before the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a> goes into edit mode.
+Called before the <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a> goes into edit mode.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nf-shobjidl-inamespacetreecontrolevents-onendlabeledit">OnEndLabelEdit</a>
+<a href="/windows/desktop/api/shobjidl/nf-shobjidl-inamespacetreecontrolevents-onendlabeledit">OnEndLabelEdit</a>
 </td>
 <td align="left" width="63%">
-Called after the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a> leaves edit mode.
+Called after the <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a> leaves edit mode.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nf-shobjidl-inamespacetreecontrolevents-ongettooltip">OnGetToolTip</a>
+<a href="/windows/desktop/api/shobjidl/nf-shobjidl-inamespacetreecontrolevents-ongettooltip">OnGetToolTip</a>
 </td>
 <td align="left" width="63%">
 Enables you to provide a tooltip.
@@ -151,16 +151,16 @@ Enables you to provide a tooltip.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nf-shobjidl-inamespacetreecontrolevents-onitemadded">OnItemAdded</a>
+<a href="/windows/desktop/api/shobjidl/nf-shobjidl-inamespacetreecontrolevents-onitemadded">OnItemAdded</a>
 </td>
 <td align="left" width="63%">
-Called after an <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a> has been added.
+Called after an <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a> has been added.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nf-shobjidl-inamespacetreecontrolevents-onitemclick">OnItemClick</a>
+<a href="/windows/desktop/api/shobjidl/nf-shobjidl-inamespacetreecontrolevents-onitemclick">OnItemClick</a>
 </td>
 <td align="left" width="63%">
 Called when the user clicks a button on the mouse.
@@ -169,16 +169,16 @@ Called when the user clicks a button on the mouse.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nf-shobjidl-inamespacetreecontrolevents-onitemdeleted">OnItemDeleted</a>
+<a href="/windows/desktop/api/shobjidl/nf-shobjidl-inamespacetreecontrolevents-onitemdeleted">OnItemDeleted</a>
 </td>
 <td align="left" width="63%">
-Called after an <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a> has been deleted.
+Called after an <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a> has been deleted.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nf-shobjidl-inamespacetreecontrolevents-onitemstatechanged">OnItemStateChanged</a>
+<a href="/windows/desktop/api/shobjidl/nf-shobjidl-inamespacetreecontrolevents-onitemstatechanged">OnItemStateChanged</a>
 </td>
 <td align="left" width="63%">
 Not implemented.
@@ -187,7 +187,7 @@ Not implemented.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nf-shobjidl-inamespacetreecontrolevents-onitemstatechanging">OnItemStateChanging</a>
+<a href="/windows/desktop/api/shobjidl/nf-shobjidl-inamespacetreecontrolevents-onitemstatechanging">OnItemStateChanging</a>
 </td>
 <td align="left" width="63%">
 Called before the state of an item changes.
@@ -196,7 +196,7 @@ Called before the state of an item changes.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nf-shobjidl-inamespacetreecontrolevents-onkeyboardinput">OnKeyboardInput</a>
+<a href="/windows/desktop/api/shobjidl/nf-shobjidl-inamespacetreecontrolevents-onkeyboardinput">OnKeyboardInput</a>
 </td>
 <td align="left" width="63%">
 Called when the user presses a key on the keyboard.
@@ -205,7 +205,7 @@ Called when the user presses a key on the keyboard.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nf-shobjidl-inamespacetreecontrolevents-onpropertyitemcommit">OnPropertyItemCommit</a>
+<a href="/windows/desktop/api/shobjidl/nf-shobjidl-inamespacetreecontrolevents-onpropertyitemcommit">OnPropertyItemCommit</a>
 </td>
 <td align="left" width="63%">
 Not implemented.
@@ -214,7 +214,7 @@ Not implemented.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nf-shobjidl-inamespacetreecontrolevents-onselectionchanged">OnSelectionChanged</a>
+<a href="/windows/desktop/api/shobjidl/nf-shobjidl-inamespacetreecontrolevents-onselectionchanged">OnSelectionChanged</a>
 </td>
 <td align="left" width="63%">
 Called when the selection changes.
@@ -229,5 +229,4 @@ This interface is implemented by a client of namespace control (CLSID_NameSpaceT
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-inamespacetreecontrol">INameSpaceTreeControl</a>
-
+<a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-inamespacetreecontrol">INameSpaceTreeControl</a>

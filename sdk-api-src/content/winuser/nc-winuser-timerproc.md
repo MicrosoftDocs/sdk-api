@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-An application-defined callback function that processes <a href="https://docs.microsoft.com/windows/desktop/winmsg/wm-timer">WM_TIMER</a> messages. The 
+An application-defined callback function that processes <a href="/windows/desktop/winmsg/wm-timer">WM_TIMER</a> messages. The 
 			<b>TIMERPROC</b> type defines a pointer to this callback function. <i>TimerProc</i> is a placeholder for the application-defined function name.
 
 ## -parameters
@@ -65,7 +65,7 @@ A handle to the window associated with the timer.
 
 Type: <b>UINT</b>
 
-The <a href="https://docs.microsoft.com/windows/desktop/winmsg/wm-timer">WM_TIMER</a> message.
+The <a href="/windows/desktop/winmsg/wm-timer">WM_TIMER</a> message.
 
 ### -param Arg3
 
@@ -77,7 +77,7 @@ The timer's identifier.
 
 Type: <b>DWORD</b>
 
-The number of milliseconds that have elapsed since the system was started. This is the value returned by the <a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-gettickcount">GetTickCount</a> function.
+The number of milliseconds that have elapsed since the system was started. This is the value returned by the <a href="/windows/desktop/api/sysinfoapi/nf-sysinfoapi-gettickcount">GetTickCount</a> function.
 
 ## -see-also
 
@@ -85,7 +85,7 @@ The number of milliseconds that have elapsed since the system was started. This 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-killtimer">KillTimer</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-killtimer">KillTimer</a>
 
 
 
@@ -93,13 +93,12 @@ The number of milliseconds that have elapsed since the system was started. This 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-settimer">SetTimer</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-settimer">SetTimer</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/winmsg/timers">Timers</a>
+<a href="/windows/desktop/winmsg/timers">Timers</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/winmsg/wm-timer">WM_TIMER</a>
-
+<a href="/windows/desktop/winmsg/wm-timer">WM_TIMER</a>

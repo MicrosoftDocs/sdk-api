@@ -52,9 +52,9 @@ api_name:
 
 The 
 <b>IWbemCallResult::GetResultString</b> method returns the assigned object path of an instance newly created by 
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemservices-putinstance">IWbemServices::PutInstance</a>.
+<a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemservices-putinstance">IWbemServices::PutInstance</a>.
 <div class="alert"><b>Note</b>  The call result object is primarily used when the 
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemservices-putinstance">PutInstance</a> call is carried out by a provider and the client needs to know the object path (the values of the key properties) assigned the provider. For example, if the class key property is a globally unique identifier (GUID), assigned by the provider during the 
+<a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemservices-putinstance">PutInstance</a> call is carried out by a provider and the client needs to know the object path (the values of the key properties) assigned the provider. For example, if the class key property is a globally unique identifier (GUID), assigned by the provider during the 
 <b>PutInstance</b> operation, the client would have no way of knowing this GUID unless the provider was able to return it in this way.</div><div> </div>
 
 ## -parameters
@@ -77,9 +77,8 @@ COM-specific error codes may also be returned if network problems cause you to l
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nn-wbemcli-iwbemcallresult">IWbemCallResult</a>
+<a href="/windows/desktop/api/wbemcli/nn-wbemcli-iwbemcallresult">IWbemCallResult</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemservices-putinstance">IWbemServices::PutInstance</a>
-
+<a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemservices-putinstance">IWbemServices::PutInstance</a>

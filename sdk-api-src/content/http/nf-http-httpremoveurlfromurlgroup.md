@@ -52,7 +52,7 @@ api_name:
 
 The <b>HttpRemoveUrlFromUrlGroup</b> function removes the specified URL from  the group identified by the URL Group ID. This function removes one, or all, of the URLs from the group. 
 
-This function replaces the HTTP version 1.0 <a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpremoveurl">HttpRemoveUrl</a> function.
+This function replaces the HTTP version 1.0 <a href="/windows/desktop/api/http/nf-http-httpremoveurl">HttpRemoveUrl</a> function.
 
 ## -parameters
 
@@ -62,7 +62,7 @@ The ID of the URL group from which the URL specified in <i>pFullyQualifiedUrl</i
 
 ### -param pFullyQualifiedUrl [in]
 
-A pointer to a Unicode string that contains a properly formed <a href="https://docs.microsoft.com/windows/desktop/Http/urlprefix-strings">UrlPrefix String</a> that identifies the URL to be removed.
+A pointer to a Unicode string that contains a properly formed <a href="/windows/desktop/Http/urlprefix-strings">UrlPrefix String</a> that identifies the URL to be removed.
 
 When <b>HTTP_URL_FLAG_REMOVE_ALL</b> is passed in the <i>Flags</i> parameter, all of the existing URL registrations for the URL Group identified in <i>UrlGroupId</i> are removed from the group. In this case, <i>pFullyQualifiedUrl</i> must be <b>NULL</b>.
 
@@ -141,35 +141,34 @@ The specified URL is not registered with the URL Group.
 
 ## -remarks
 
-The HTTP Server API supports existing applications using the version 1.0 URL registrations, however, new development with the HTTP Server API should use <b>HttpRemoveUrlFromUrlGroup</b>; do not use <a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpremoveurl">HttpRemoveUrl</a>.
+The HTTP Server API supports existing applications using the version 1.0 URL registrations, however, new development with the HTTP Server API should use <b>HttpRemoveUrlFromUrlGroup</b>; do not use <a href="/windows/desktop/api/http/nf-http-httpremoveurl">HttpRemoveUrl</a>.
 
-Applications should remove the URL added to the group by <a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpaddurltourlgroup">HttpAddUrlToUrlGroup</a>, when the URL is no longer required.
+Applications should remove the URL added to the group by <a href="/windows/desktop/api/http/nf-http-httpaddurltourlgroup">HttpAddUrlToUrlGroup</a>, when the URL is no longer required.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Http/http-server-api-version-2-0-functions">HTTP Server API Version 2.0 Functions</a>
+<a href="/windows/desktop/Http/http-server-api-version-2-0-functions">HTTP Server API Version 2.0 Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpaddurltourlgroup">HttpAddUrlToUrlGroup</a>
+<a href="/windows/desktop/api/http/nf-http-httpaddurltourlgroup">HttpAddUrlToUrlGroup</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpcloseurlgroup">HttpCloseUrlGroup</a>
+<a href="/windows/desktop/api/http/nf-http-httpcloseurlgroup">HttpCloseUrlGroup</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpcreateurlgroup">HttpCreateUrlGroup</a>
+<a href="/windows/desktop/api/http/nf-http-httpcreateurlgroup">HttpCreateUrlGroup</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpqueryurlgroupproperty">HttpQueryUrlGroupProperty</a>
+<a href="/windows/desktop/api/http/nf-http-httpqueryurlgroupproperty">HttpQueryUrlGroupProperty</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpremoveurl">HttpRemoveUrl</a>
+<a href="/windows/desktop/api/http/nf-http-httpremoveurl">HttpRemoveUrl</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpseturlgroupproperty">HttpSetUrlGroupProperty</a>
-
+<a href="/windows/desktop/api/http/nf-http-httpseturlgroupproperty">HttpSetUrlGroupProperty</a>

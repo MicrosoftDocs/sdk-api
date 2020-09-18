@@ -54,7 +54,7 @@ The
 <b>phoneInitialize</b> function is obsolete. It continues to be exported by Tapi.dll and Tapi32.dll for backward compatibility with applications using TAPI versions 1.3 and 1.4.
 
 Applications using TAPI version 2.0 or later must use 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-phoneinitializeexa">phoneInitializeEx</a> instead.
+<a href="/windows/desktop/api/tapi/nf-tapi-phoneinitializeexa">phoneInitializeEx</a> instead.
 
 <b>For TAPI Versions 1.4 and Earlier:  </b>The 
 <b>phoneInitialize</b> function initializes the application's use of TAPI for the subsequent use of the phone functions in the Telephony API. It registers the application's specified notification mechanism and returns the number of phone devices that are available to the application.
@@ -76,7 +76,7 @@ Address of a callback function that is invoked to determine status and events on
 ### -param lpszAppName
 
 Pointer to a <b>null</b>-terminated string that contains displayable characters. If this parameter is non-<b>NULL</b>, it contains an application-supplied name of the application. This name is provided in the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-phonestatus">PHONESTATUS</a> structure to indicate, in a user-friendly way, which application is the current owner of the phone device. This information can be useful for logging and status reporting purposes. If <i>lpszAppName</i> is <b>NULL</b>, the application's filename is used instead.
+<a href="/windows/desktop/api/tapi/ns-tapi-phonestatus">PHONESTATUS</a> structure to indicate, in a user-friendly way, which application is the current owner of the phone device. This information can be useful for logging and status reporting purposes. If <i>lpszAppName</i> is <b>NULL</b>, the application's filename is used instead.
 
 ### -param lpdwNumDevs
 
@@ -91,11 +91,11 @@ PHONEERR_INVALAPPNAME, PHONEERR_INIFILECORRUPT, PHONEERR_INVALPOINTER, PHONEERR_
 ## -remarks
 
 The application can refer to individual phone devices by using phone device identifiers that range from zero to <i>dwNumDevs</i> minus one. An application should not assume that these phone devices are capable of anything beyond what is specified by the Assisted Telephony subset without first querying their device capabilities with the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-phonegetdevcaps">phoneGetDevCaps</a> function.
+<a href="/windows/desktop/api/tapi/nf-tapi-phonegetdevcaps">phoneGetDevCaps</a> function.
 
 Applications should not invoke 
 <b>phoneInitialize</b> without subsequently opening a phone (at least for monitoring). If the application is not monitoring and not using any devices, it should call 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-phoneshutdown">phoneShutdown</a> so that memory resources allocated by TAPI can be released if unneeded, and TAPI itself can be unloaded from memory while not needed.
+<a href="/windows/desktop/api/tapi/nf-tapi-phoneshutdown">phoneShutdown</a> so that memory resources allocated by TAPI can be released if unneeded, and TAPI itself can be unloaded from memory while not needed.
 
 Another reason for performing a 
 <b>phoneShutdown</b> is that if a user changes the device configuration (adds or removes a line or phone), there is no way for TAPI to notify an application that has a line or phone handle open at the time. After a reconfiguration has taken place, causing a PHONESTATE_REINIT message to be sent, no applications can open a device until all applications have performed a 
@@ -106,17 +106,16 @@ If any service provider fails to initialize properly, the
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-phonestatus">PHONESTATUS</a>
+<a href="/windows/desktop/api/tapi/ns-tapi-phonestatus">PHONESTATUS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-phonegetdevcaps">phoneGetDevCaps</a>
+<a href="/windows/desktop/api/tapi/nf-tapi-phonegetdevcaps">phoneGetDevCaps</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-phoneinitializeexa">phoneInitializeEx</a>
+<a href="/windows/desktop/api/tapi/nf-tapi-phoneinitializeexa">phoneInitializeEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-phoneshutdown">phoneShutdown</a>
-
+<a href="/windows/desktop/api/tapi/nf-tapi-phoneshutdown">phoneShutdown</a>

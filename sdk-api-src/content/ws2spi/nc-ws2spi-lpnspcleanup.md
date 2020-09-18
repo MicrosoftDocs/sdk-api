@@ -53,7 +53,7 @@ The **NSPCleanup** function terminates the use of a particular Windows Sockets n
 
 ### -param lpProviderId [in]
 
-A pointer to the [GUID](/windows/win32/api/guiddef/ns-guiddef-guid) of the namespace provider to be terminated.
+A pointer to the [GUID](../guiddef/ns-guiddef-guid.md) of the namespace provider to be terminated.
 
 ## -returns
 
@@ -81,4 +81,3 @@ This function should not return until the namespace service provider DLL can be 
 
 * <a href="/windows/desktop/api/ws2spi/nf-ws2spi-nspstartup">NSPStartup</a>
 * <a href="/windows/desktop/api/winsock/nf-winsock-wsasetlasterror">WSASetLastError</a>
-

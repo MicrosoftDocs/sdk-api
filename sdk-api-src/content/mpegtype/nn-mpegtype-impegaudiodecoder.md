@@ -51,13 +51,13 @@ api_name:
 
 ## -description
 
-The <code>IMpegAudioDecoder</code> interface is exposed on the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/mpeg-1-audio-decoder-filter">MPEG-1 Audio Decoder</a> filter and it enables applications to control decoding parameters. Most of these methods are useful only when an application is running on an older system and needs to sacrifice quality to increase performance. The default values provide the optimal decoding quality.
+The <code>IMpegAudioDecoder</code> interface is exposed on the <a href="/windows/desktop/DirectShow/mpeg-1-audio-decoder-filter">MPEG-1 Audio Decoder</a> filter and it enables applications to control decoding parameters. Most of these methods are useful only when an application is running on an older system and needs to sacrifice quality to increase performance. The default values provide the optimal decoding quality.
 
-The two methods that are still useful in some scenarios are <a href="https://docs.microsoft.com/windows/desktop/api/mpegtype/nf-mpegtype-impegaudiodecoder-get_dualmode">get_DualMode</a> and <a href="https://docs.microsoft.com/windows/desktop/api/mpegtype/nf-mpegtype-impegaudiodecoder-put_dualmode">put_DualMode</a>. These methods enable applications to access either the right or left channel in VCD-based karaoke discs.
+The two methods that are still useful in some scenarios are <a href="/windows/desktop/api/mpegtype/nf-mpegtype-impegaudiodecoder-get_dualmode">get_DualMode</a> and <a href="/windows/desktop/api/mpegtype/nf-mpegtype-impegaudiodecoder-put_dualmode">put_DualMode</a>. These methods enable applications to access either the right or left channel in VCD-based karaoke discs.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMpegAudioDecoder</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMpegAudioDecoder</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMpegAudioDecoder</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMpegAudioDecoder</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,7 +72,7 @@ The <b>IMpegAudioDecoder</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mpegtype/nf-mpegtype-impegaudiodecoder-get_audioformat">get_AudioFormat</a>
+<a href="/windows/desktop/api/mpegtype/nf-mpegtype-impegaudiodecoder-get_audioformat">get_AudioFormat</a>
 </td>
 <td align="left" width="63%">
 Returns the audio format of the connected input pin.
@@ -81,7 +81,7 @@ Returns the audio format of the connected input pin.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mpegtype/nf-mpegtype-impegaudiodecoder-get_decoderaccuracy">get_DecoderAccuracy</a>
+<a href="/windows/desktop/api/mpegtype/nf-mpegtype-impegaudiodecoder-get_decoderaccuracy">get_DecoderAccuracy</a>
 </td>
 <td align="left" width="63%">
 Returns the decoder accuracy as a three-level quality setting.
@@ -90,7 +90,7 @@ Returns the decoder accuracy as a three-level quality setting.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mpegtype/nf-mpegtype-impegaudiodecoder-get_decoderwordsize">get_DecoderWordSize</a>
+<a href="/windows/desktop/api/mpegtype/nf-mpegtype-impegaudiodecoder-get_decoderwordsize">get_DecoderWordSize</a>
 </td>
 <td align="left" width="63%">
 Returns the word size used to decode, either eight or 16 bit.
@@ -99,7 +99,7 @@ Returns the word size used to decode, either eight or 16 bit.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mpegtype/nf-mpegtype-impegaudiodecoder-get_dualmode">get_DualMode</a>
+<a href="/windows/desktop/api/mpegtype/nf-mpegtype-impegaudiodecoder-get_dualmode">get_DualMode</a>
 </td>
 <td align="left" width="63%">
 Returns which channel is currently being decoded.
@@ -108,7 +108,7 @@ Returns which channel is currently being decoded.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mpegtype/nf-mpegtype-impegaudiodecoder-get_frequencydivider">get_FrequencyDivider</a>
+<a href="/windows/desktop/api/mpegtype/nf-mpegtype-impegaudiodecoder-get_frequencydivider">get_FrequencyDivider</a>
 </td>
 <td align="left" width="63%">
 Returns the frequency divider as a quality setting equal to CD Audio, FM Radio, or AM Radio.
@@ -117,7 +117,7 @@ Returns the frequency divider as a quality setting equal to CD Audio, FM Radio, 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mpegtype/nf-mpegtype-impegaudiodecoder-get_integerdecode">get_IntegerDecode</a>
+<a href="/windows/desktop/api/mpegtype/nf-mpegtype-impegaudiodecoder-get_integerdecode">get_IntegerDecode</a>
 </td>
 <td align="left" width="63%">
 Returns whether the decoder is currently using integer-based decoding as opposed to floating point decoding.
@@ -126,7 +126,7 @@ Returns whether the decoder is currently using integer-based decoding as opposed
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mpegtype/nf-mpegtype-impegaudiodecoder-get_stereo">get_Stereo</a>
+<a href="/windows/desktop/api/mpegtype/nf-mpegtype-impegaudiodecoder-get_stereo">get_Stereo</a>
 </td>
 <td align="left" width="63%">
 Returns whether the decoder is decoding the encoded stream into stereo or mono PCM.
@@ -135,7 +135,7 @@ Returns whether the decoder is decoding the encoded stream into stereo or mono P
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mpegtype/nf-mpegtype-impegaudiodecoder-put_decoderaccuracy">put_DecoderAccuracy</a>
+<a href="/windows/desktop/api/mpegtype/nf-mpegtype-impegaudiodecoder-put_decoderaccuracy">put_DecoderAccuracy</a>
 </td>
 <td align="left" width="63%">
 Specifies the quality as high, full or best.
@@ -144,7 +144,7 @@ Specifies the quality as high, full or best.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mpegtype/nf-mpegtype-impegaudiodecoder-put_decoderwordsize">put_DecoderWordSize</a>
+<a href="/windows/desktop/api/mpegtype/nf-mpegtype-impegaudiodecoder-put_decoderwordsize">put_DecoderWordSize</a>
 </td>
 <td align="left" width="63%">
 Specifies the word size used by the decoder.
@@ -153,7 +153,7 @@ Specifies the word size used by the decoder.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mpegtype/nf-mpegtype-impegaudiodecoder-put_dualmode">put_DualMode</a>
+<a href="/windows/desktop/api/mpegtype/nf-mpegtype-impegaudiodecoder-put_dualmode">put_DualMode</a>
 </td>
 <td align="left" width="63%">
 Specifies the channel to be decoded.
@@ -162,7 +162,7 @@ Specifies the channel to be decoded.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mpegtype/nf-mpegtype-impegaudiodecoder-put_frequencydivider">put_FrequencyDivider</a>
+<a href="/windows/desktop/api/mpegtype/nf-mpegtype-impegaudiodecoder-put_frequencydivider">put_FrequencyDivider</a>
 </td>
 <td align="left" width="63%">
 Specifies the frequency divider as a three-level setting corresponding to the quality of CD Audio, FM Radio, or AM Radio.
@@ -171,7 +171,7 @@ Specifies the frequency divider as a three-level setting corresponding to the qu
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mpegtype/nf-mpegtype-impegaudiodecoder-put_integerdecode">put_IntegerDecode</a>
+<a href="/windows/desktop/api/mpegtype/nf-mpegtype-impegaudiodecoder-put_integerdecode">put_IntegerDecode</a>
 </td>
 <td align="left" width="63%">
 Specifies whether the decoder will use integer-based decoding.
@@ -180,7 +180,7 @@ Specifies whether the decoder will use integer-based decoding.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mpegtype/nf-mpegtype-impegaudiodecoder-put_stereo">put_Stereo</a>
+<a href="/windows/desktop/api/mpegtype/nf-mpegtype-impegaudiodecoder-put_stereo">put_Stereo</a>
 </td>
 <td align="left" width="63%">
 Specifies whether the decoder will decode the encoded stream into stereo or mono PCM.
@@ -188,4 +188,3 @@ Specifies whether the decoder will decode the encoded stream into stereo or mono
 </td>
 </tr>
 </table>
-

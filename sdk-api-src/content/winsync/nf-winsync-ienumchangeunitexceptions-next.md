@@ -117,5 +117,4 @@ If there are no more change unit exceptions to retrieve.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-ienumchangeunitexceptions">IEnumChangeUnitExceptions Interface</a>
-
+<a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-ienumchangeunitexceptions">IEnumChangeUnitExceptions Interface</a>

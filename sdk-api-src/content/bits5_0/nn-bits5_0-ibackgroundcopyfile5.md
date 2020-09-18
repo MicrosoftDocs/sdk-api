@@ -58,7 +58,7 @@ To get an
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBackgroundCopyFile5</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/bits4_0/nn-bits4_0-ibackgroundcopyfile4">IBackgroundCopyFile4</a>. <b>IBackgroundCopyFile5</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBackgroundCopyFile5</b> interface inherits from <a href="/windows/desktop/api/bits4_0/nn-bits4_0-ibackgroundcopyfile4">IBackgroundCopyFile4</a>. <b>IBackgroundCopyFile5</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -73,7 +73,7 @@ The <b>IBackgroundCopyFile5</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/bits5_0/nf-bits5_0-ibackgroundcopyfile5-getproperty">GetProperty</a>
+<a href="/windows/desktop/api/bits5_0/nf-bits5_0-ibackgroundcopyfile5-getproperty">GetProperty</a>
 </td>
 <td align="left" width="63%">
 Gets the value of a generic BackgroundCopyFile property.
@@ -82,7 +82,7 @@ Gets the value of a generic BackgroundCopyFile property.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/bits5_0/nf-bits5_0-ibackgroundcopyfile5-setproperty">SetProperty</a>
+<a href="/windows/desktop/api/bits5_0/nf-bits5_0-ibackgroundcopyfile5-setproperty">SetProperty</a>
 </td>
 <td align="left" width="63%">
 Sets the value of a generic BackgroundCopyFile property.
@@ -93,17 +93,16 @@ Sets the value of a generic BackgroundCopyFile property.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits/nn-bits-ibackgroundcopyfile">IBackgroundCopyFile</a>
+<a href="/windows/desktop/api/bits/nn-bits-ibackgroundcopyfile">IBackgroundCopyFile</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits2_0/nn-bits2_0-ibackgroundcopyfile2">IBackgroundCopyFile2</a>
+<a href="/windows/desktop/api/bits2_0/nn-bits2_0-ibackgroundcopyfile2">IBackgroundCopyFile2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits3_0/nn-bits3_0-ibackgroundcopyfile3">IBackgroundCopyFile3</a>
+<a href="/windows/desktop/api/bits3_0/nn-bits3_0-ibackgroundcopyfile3">IBackgroundCopyFile3</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits4_0/nn-bits4_0-ibackgroundcopyfile4">IBackgroundCopyFile4</a>
-
+<a href="/windows/desktop/api/bits4_0/nn-bits4_0-ibackgroundcopyfile4">IBackgroundCopyFile4</a>

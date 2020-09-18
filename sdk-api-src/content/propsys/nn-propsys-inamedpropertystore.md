@@ -54,7 +54,7 @@ Exposes methods that get and set named properties.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">INamedPropertyStore</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>INamedPropertyStore</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">INamedPropertyStore</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>INamedPropertyStore</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>INamedPropertyStore</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/propsys/nf-propsys-inamedpropertystore-getnameat">GetNameAt</a>
+<a href="/windows/desktop/api/propsys/nf-propsys-inamedpropertystore-getnameat">GetNameAt</a>
 </td>
 <td align="left" width="63%">
 Gets the name of a property at a specified index in the property store.
@@ -78,7 +78,7 @@ Gets the name of a property at a specified index in the property store.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/propsys/nf-propsys-inamedpropertystore-getnamecount">GetNameCount</a>
+<a href="/windows/desktop/api/propsys/nf-propsys-inamedpropertystore-getnamecount">GetNameCount</a>
 </td>
 <td align="left" width="63%">
 Gets the number of property names in the property store.
@@ -87,7 +87,7 @@ Gets the number of property names in the property store.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/propsys/nf-propsys-inamedpropertystore-getnamedvalue">GetNamedValue</a>
+<a href="/windows/desktop/api/propsys/nf-propsys-inamedpropertystore-getnamedvalue">GetNamedValue</a>
 </td>
 <td align="left" width="63%">
 Gets the value of a named property from the named property store.
@@ -96,7 +96,7 @@ Gets the value of a named property from the named property store.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/propsys/nf-propsys-inamedpropertystore-setnamedvalue">SetNamedValue</a>
+<a href="/windows/desktop/api/propsys/nf-propsys-inamedpropertystore-setnamedvalue">SetNamedValue</a>
 </td>
 <td align="left" width="63%">
 Sets the value of a named property.
@@ -104,4 +104,3 @@ Sets the value of a named property.
 </td>
 </tr>
 </table>
-

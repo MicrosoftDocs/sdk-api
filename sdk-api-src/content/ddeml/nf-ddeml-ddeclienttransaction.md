@@ -62,10 +62,10 @@ The beginning of the data the client must pass to the server.
 
 Optionally, an application can specify the data handle (<b>HDDEDATA</b>) to pass to the server and in that case the 
 						<i>cbData</i> parameter should be set to -1. This parameter is required only if the 
-						<i>wType</i> parameter is <a href="https://docs.microsoft.com/windows/desktop/dataxchg/xtyp-execute">XTYP_EXECUTE</a> or <a href="https://docs.microsoft.com/windows/desktop/dataxchg/xtyp-poke">XTYP_POKE</a>. Otherwise, this parameter should be <b>NULL</b>. 
+						<i>wType</i> parameter is <a href="/windows/desktop/dataxchg/xtyp-execute">XTYP_EXECUTE</a> or <a href="/windows/desktop/dataxchg/xtyp-poke">XTYP_POKE</a>. Otherwise, this parameter should be <b>NULL</b>. 
 
-For the optional usage of this parameter, <a href="https://docs.microsoft.com/windows/desktop/dataxchg/xtyp-poke">XTYP_POKE</a> transactions where 
-						<i>pData</i> is a data handle, the handle must have been created by a previous call to the <a href="https://docs.microsoft.com/windows/desktop/api/ddeml/nf-ddeml-ddecreatedatahandle">DdeCreateDataHandle</a> function, employing the same data format specified in the 
+For the optional usage of this parameter, <a href="/windows/desktop/dataxchg/xtyp-poke">XTYP_POKE</a> transactions where 
+						<i>pData</i> is a data handle, the handle must have been created by a previous call to the <a href="/windows/desktop/api/ddeml/nf-ddeml-ddecreatedatahandle">DdeCreateDataHandle</a> function, employing the same data format specified in the 
 						<i>wFmt</i> parameter.
 
 ### -param cbData [in]
@@ -86,9 +86,9 @@ A handle to the conversation in which the transaction is to take place.
 
 Type: <b>HSZ</b>
 
-A handle to the data item for which data is being exchanged during the transaction. This handle must have been created by a previous call to the <a href="https://docs.microsoft.com/windows/desktop/api/ddeml/nf-ddeml-ddecreatestringhandlea">DdeCreateStringHandle</a> function. This parameter is ignored (and should be set to 0L) if the 
+A handle to the data item for which data is being exchanged during the transaction. This handle must have been created by a previous call to the <a href="/windows/desktop/api/ddeml/nf-ddeml-ddecreatestringhandlea">DdeCreateStringHandle</a> function. This parameter is ignored (and should be set to 0L) if the 
 					<i>wType</i> parameter is 
-					<a href="https://docs.microsoft.com/windows/desktop/dataxchg/xtyp-execute">XTYP_EXECUTE</a>.
+					<a href="/windows/desktop/dataxchg/xtyp-execute">XTYP_EXECUTE</a>.
 
 ### -param wFmt [in]
 
@@ -97,12 +97,12 @@ Type: <b>UINT</b>
 The standard clipboard format in which the data item is being submitted or requested. 
 
 If the transaction specified by the <i>wType</i> parameter does not pass data or is 
-						<a href="https://docs.microsoft.com/windows/desktop/dataxchg/xtyp-execute">XTYP_EXECUTE</a>, this parameter should be zero. 
+						<a href="/windows/desktop/dataxchg/xtyp-execute">XTYP_EXECUTE</a>, this parameter should be zero. 
 
 If the transaction specified by the 
 						<i>wType</i> parameter references non-execute DDE data (
-						<a href="https://docs.microsoft.com/windows/desktop/dataxchg/xtyp-poke">XTYP_POKE</a>, <a href="https://docs.microsoft.com/windows/desktop/dataxchg/xtyp-advstart">XTYP_ADVSTART</a>, <a href="https://docs.microsoft.com/windows/desktop/dataxchg/xtyp-advstop">XTYP_ADVSTOP</a>, 
-						<a href="https://docs.microsoft.com/windows/desktop/dataxchg/xtyp-request">XTYP_REQUEST</a>), the 
+						<a href="/windows/desktop/dataxchg/xtyp-poke">XTYP_POKE</a>, <a href="/windows/desktop/dataxchg/xtyp-advstart">XTYP_ADVSTART</a>, <a href="/windows/desktop/dataxchg/xtyp-advstop">XTYP_ADVSTOP</a>, 
+						<a href="/windows/desktop/dataxchg/xtyp-request">XTYP_REQUEST</a>), the 
 						<i>wFmt</i> value must be either a valid predefined (CF_) DDE format or a valid registered clipboard format.
 
 ### -param wType [in]
@@ -123,7 +123,7 @@ The transaction type. This parameter can be one of the following values.
 </dl>
 </td>
 <td width="60%">
-Begins an advise loop. Any number of distinct advise loops can exist within a conversation. An application can alter the advise loop type by combining the <a href="https://docs.microsoft.com/windows/desktop/dataxchg/xtyp-advstart">XTYP_ADVSTART</a> transaction type with one or more of the following flags:
+Begins an advise loop. Any number of distinct advise loops can exist within a conversation. An application can alter the advise loop type by combining the <a href="/windows/desktop/dataxchg/xtyp-advstart">XTYP_ADVSTART</a> transaction type with one or more of the following flags:
 
 <ul>
 <li><b>XTYPF_NODATA</b>. Instructs the server to notify the client of any data changes without actually sending the data. This flag gives the client the option of ignoring the notification or requesting the changed data from the server.</li>
@@ -187,7 +187,7 @@ The maximum amount of time, in milliseconds, that the client will wait for a res
 
 Type: <b>LPDWORD</b>
 
-A pointer to a variable that receives the result of the transaction. An application that does not check the result can use <b>NULL</b> for this value. For synchronous transactions, the low-order word of this variable contains any applicable DDE_ flags resulting from the transaction. This provides support for applications dependent on <b>DDE_APPSTATUS</b> bits. It is, however, recommended that applications no longer use these bits because they may not be supported in future versions of the <a href="https://docs.microsoft.com/windows/desktop/dataxchg/dynamic-data-exchange-management-library">Dynamic Data Exchange Management Library</a> (DDEML). For asynchronous transactions, this variable is filled with a unique transaction identifier for use with the <a href="https://docs.microsoft.com/windows/desktop/api/ddeml/nf-ddeml-ddeabandontransaction">DdeAbandonTransaction</a> function and the <a href="https://docs.microsoft.com/windows/desktop/dataxchg/xtyp-xact-complete">XTYP_XACT_COMPLETE</a> transaction.
+A pointer to a variable that receives the result of the transaction. An application that does not check the result can use <b>NULL</b> for this value. For synchronous transactions, the low-order word of this variable contains any applicable DDE_ flags resulting from the transaction. This provides support for applications dependent on <b>DDE_APPSTATUS</b> bits. It is, however, recommended that applications no longer use these bits because they may not be supported in future versions of the <a href="/windows/desktop/dataxchg/dynamic-data-exchange-management-library">Dynamic Data Exchange Management Library</a> (DDEML). For asynchronous transactions, this variable is filled with a unique transaction identifier for use with the <a href="/windows/desktop/api/ddeml/nf-ddeml-ddeabandontransaction">DdeAbandonTransaction</a> function and the <a href="/windows/desktop/dataxchg/xtyp-xact-complete">XTYP_XACT_COMPLETE</a> transaction.
 
 ## -returns
 
@@ -195,16 +195,16 @@ Type: <b>HDDEDATA</b>
 
 If the function succeeds, the return value is a data handle that identifies the data for successful synchronous transactions in which the client expects data from the server. The return value is nonzero for successful asynchronous transactions and for synchronous transactions in which the client does not expect data. The return value is zero for all unsuccessful transactions. 
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/ddeml/nf-ddeml-ddegetlasterror">DdeGetLastError</a> function can be used to get the error code, which can be one of the following values:
+The <a href="/windows/desktop/api/ddeml/nf-ddeml-ddegetlasterror">DdeGetLastError</a> function can be used to get the error code, which can be one of the following values:
 
 ## -remarks
 
-When an application has finished using the data handle returned by <b>DdeClientTransaction</b>, the application should free the handle by calling the <a href="https://docs.microsoft.com/windows/desktop/api/ddeml/nf-ddeml-ddefreedatahandle">DdeFreeDataHandle</a> function. 
+When an application has finished using the data handle returned by <b>DdeClientTransaction</b>, the application should free the handle by calling the <a href="/windows/desktop/api/ddeml/nf-ddeml-ddefreedatahandle">DdeFreeDataHandle</a> function. 
 
 Transactions can be synchronous or asynchronous. During a synchronous transaction, <b>DdeClientTransaction</b> does not return until the transaction either completes successfully or fails. Synchronous transactions cause a client to enter a modal loop while waiting for various asynchronous events. Because of this, a client application can still respond to user input while waiting on a synchronous transaction, but the application cannot begin a second synchronous transaction because of the activity associated with the first. <b>DdeClientTransaction</b> fails if any instance of the same task has a synchronous transaction already in progress. 
 
 During an asynchronous transaction, <b>DdeClientTransaction</b> returns after the transaction has begun, passing a transaction identifier for reference. When the server's DDE callback function finishes processing an asynchronous transaction, the system sends an 
-				<a href="https://docs.microsoft.com/windows/desktop/dataxchg/xtyp-xact-complete">XTYP_XACT_COMPLETE</a> transaction to the client. This transaction provides the client with the results of the asynchronous transaction that it initiated by calling <b>DdeClientTransaction</b>. A client application can choose to abandon an asynchronous transaction by calling the <a href="https://docs.microsoft.com/windows/desktop/api/ddeml/nf-ddeml-ddeabandontransaction">DdeAbandonTransaction</a> function.
+				<a href="/windows/desktop/dataxchg/xtyp-xact-complete">XTYP_XACT_COMPLETE</a> transaction to the client. This transaction provides the client with the results of the asynchronous transaction that it initiated by calling <b>DdeClientTransaction</b>. A client application can choose to abandon an asynchronous transaction by calling the <a href="/windows/desktop/api/ddeml/nf-ddeml-ddeabandontransaction">DdeAbandonTransaction</a> function.
 
 ## -see-also
 
@@ -212,35 +212,35 @@ During an asynchronous transaction, <b>DdeClientTransaction</b> returns after th
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ddeml/nf-ddeml-ddeabandontransaction">DdeAbandonTransaction</a>
+<a href="/windows/desktop/api/ddeml/nf-ddeml-ddeabandontransaction">DdeAbandonTransaction</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ddeml/nf-ddeml-ddeaccessdata">DdeAccessData</a>
+<a href="/windows/desktop/api/ddeml/nf-ddeml-ddeaccessdata">DdeAccessData</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ddeml/nf-ddeml-ddeconnect">DdeConnect</a>
+<a href="/windows/desktop/api/ddeml/nf-ddeml-ddeconnect">DdeConnect</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ddeml/nf-ddeml-ddeconnectlist">DdeConnectList</a>
+<a href="/windows/desktop/api/ddeml/nf-ddeml-ddeconnectlist">DdeConnectList</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ddeml/nf-ddeml-ddecreatedatahandle">DdeCreateDataHandle</a>
+<a href="/windows/desktop/api/ddeml/nf-ddeml-ddecreatedatahandle">DdeCreateDataHandle</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ddeml/nf-ddeml-ddecreatestringhandlea">DdeCreateStringHandle</a>
+<a href="/windows/desktop/api/ddeml/nf-ddeml-ddecreatestringhandlea">DdeCreateStringHandle</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ddeml/nf-ddeml-ddefreedatahandle">DdeFreeDataHandle</a>
+<a href="/windows/desktop/api/ddeml/nf-ddeml-ddefreedatahandle">DdeFreeDataHandle</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/dataxchg/dynamic-data-exchange-management-library">Dynamic Data Exchange Management Library</a>
+<a href="/windows/desktop/dataxchg/dynamic-data-exchange-management-library">Dynamic Data Exchange Management Library</a>
 
 
 
@@ -248,21 +248,20 @@ During an asynchronous transaction, <b>DdeClientTransaction</b> returns after th
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/dataxchg/xtyp-advstart">XTYP_ADVSTART</a>
+<a href="/windows/desktop/dataxchg/xtyp-advstart">XTYP_ADVSTART</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/dataxchg/xtyp-advstop">XTYP_ADVSTOP</a>
+<a href="/windows/desktop/dataxchg/xtyp-advstop">XTYP_ADVSTOP</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/dataxchg/xtyp-execute">XTYP_EXECUTE</a>
+<a href="/windows/desktop/dataxchg/xtyp-execute">XTYP_EXECUTE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/dataxchg/xtyp-poke">XTYP_POKE</a>
+<a href="/windows/desktop/dataxchg/xtyp-poke">XTYP_POKE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/dataxchg/xtyp-request">XTYP_REQUEST</a>
-
+<a href="/windows/desktop/dataxchg/xtyp-request">XTYP_REQUEST</a>

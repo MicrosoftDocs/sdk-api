@@ -64,13 +64,13 @@ Handle to a device context. The function obtains information about the font that
 
 ### -param lpSig [out, optional]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-fontsignature">FONTSIGNATURE</a> data structure that receives font-signature information.
+Pointer to a <a href="/windows/desktop/api/wingdi/ns-wingdi-fontsignature">FONTSIGNATURE</a> data structure that receives font-signature information.
 
-If a TrueType font is currently selected into the device context, the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-fontsignature">FONTSIGNATURE</a> structure receives information that identifies the code page and Unicode subranges for which the font provides glyphs.
+If a TrueType font is currently selected into the device context, the <a href="/windows/desktop/api/wingdi/ns-wingdi-fontsignature">FONTSIGNATURE</a> structure receives information that identifies the code page and Unicode subranges for which the font provides glyphs.
 
-If a font other than TrueType is currently selected into the device context, the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-fontsignature">FONTSIGNATURE</a> structure receives zeros. In this case, the application should use the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-translatecharsetinfo">TranslateCharsetInfo</a> function to obtain generic font-signature information for the character set.
+If a font other than TrueType is currently selected into the device context, the <a href="/windows/desktop/api/wingdi/ns-wingdi-fontsignature">FONTSIGNATURE</a> structure receives zeros. In this case, the application should use the <a href="/windows/desktop/api/wingdi/nf-wingdi-translatecharsetinfo">TranslateCharsetInfo</a> function to obtain generic font-signature information for the character set.
 
-The <i>lpSig</i> parameter specifies <b>NULL</b> if the application does not require the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-fontsignature">FONTSIGNATURE</a> information. In this case, the application can also call the       <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-gettextcharset">GetTextCharset</a> function, which is equivalent to calling       <b>GetTextCharsetInfo</b> with <i>lpSig</i> set to <b>NULL</b>.
+The <i>lpSig</i> parameter specifies <b>NULL</b> if the application does not require the <a href="/windows/desktop/api/wingdi/ns-wingdi-fontsignature">FONTSIGNATURE</a> information. In this case, the application can also call the       <a href="/windows/desktop/api/wingdi/nf-wingdi-gettextcharset">GetTextCharset</a> function, which is equivalent to calling       <b>GetTextCharsetInfo</b> with <i>lpSig</i> set to <b>NULL</b>.
 
 ### -param dwFlags [in]
 
@@ -84,21 +84,20 @@ If the function fails, the return value is DEFAULT_CHARSET.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-fontsignature">FONTSIGNATURE</a>
+<a href="/windows/desktop/api/wingdi/ns-wingdi-fontsignature">FONTSIGNATURE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-gettextcharset">GetTextCharset</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-gettextcharset">GetTextCharset</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-translatecharsetinfo">TranslateCharsetInfo</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-translatecharsetinfo">TranslateCharsetInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/unicode-and-character-set-functions">Unicode and Character Set Functions</a>
+<a href="/windows/desktop/Intl/unicode-and-character-set-functions">Unicode and Character Set Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/unicode-and-character-sets">Unicode and Character Sets</a>
-
+<a href="/windows/desktop/Intl/unicode-and-character-sets">Unicode and Character Sets</a>

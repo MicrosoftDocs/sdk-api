@@ -138,9 +138,8 @@ The routine could not display the dialog box.
 
 <b>SerialDisplayAdvancedSettings</b> runs in user mode.
 
-For more information, see <a href="https://docs.microsoft.com/previous-versions/ff546508(v=vs.85)">Installing an Advanced Properties Page for a COM Port</a>.
+For more information, see <a href="/previous-versions/ff546508(v=vs.85)">Installing an Advanced Properties Page for a COM Port</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff546956(v=vs.85)">PPORT_ADVANCED_DIALOG</a>
-
+<a href="/previous-versions/windows/hardware/drivers/ff546956(v=vs.85)">PPORT_ADVANCED_DIALOG</a>

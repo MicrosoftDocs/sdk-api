@@ -51,7 +51,7 @@ api_name:
 ## -description
 
 The <b>FWPM_NET_EVENT_CALLBACK0</b> function is used to add custom behavior to the net event subscription process.
-<div class="alert"><b>Note</b>  <b>FWPM_NET_EVENT_CALLBACK0</b> is the specific implementation of FWPM_NET_EVENT_CALLBACK used in Windows 7. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information. For Windows 8, <a href="https://docs.microsoft.com/windows/desktop/api/fwpmu/nc-fwpmu-fwpm_net_event_callback1">FWPM_NET_EVENT_CALLBACK1</a> is available.</div><div> </div>
+<div class="alert"><b>Note</b>  <b>FWPM_NET_EVENT_CALLBACK0</b> is the specific implementation of FWPM_NET_EVENT_CALLBACK used in Windows 7. See <a href="/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information. For Windows 8, <a href="/windows/desktop/api/fwpmu/nc-fwpmu-fwpm_net_event_callback1">FWPM_NET_EVENT_CALLBACK1</a> is available.</div><div> </div>
 
 ## -parameters
 
@@ -59,23 +59,22 @@ The <b>FWPM_NET_EVENT_CALLBACK0</b> function is used to add custom behavior to t
 
 Type: <b>void*</b>
 
-Optional context pointer. It contains the value of the <i>context</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/fwpmu/nf-fwpmu-fwpmneteventsubscribe0">FwpmNetEventSubscribe0</a> function.
+Optional context pointer. It contains the value of the <i>context</i> parameter of the <a href="/windows/desktop/api/fwpmu/nf-fwpmu-fwpmneteventsubscribe0">FwpmNetEventSubscribe0</a> function.
 
 ### -param *event [in]
 
-Type: [FWPM_NET_EVENT1](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_net_event1)*</b>
+Type: [FWPM_NET_EVENT1](/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_net_event1)*</b>
 
 The net event information.
 
 ## -remarks
 
-Call <a href="https://docs.microsoft.com/windows/desktop/api/fwpmu/nf-fwpmu-fwpmneteventsubscribe0">FwpmNetEventSubscribe0</a> to register this callback function.
+Call <a href="/windows/desktop/api/fwpmu/nf-fwpmu-fwpmneteventsubscribe0">FwpmNetEventSubscribe0</a> to register this callback function.
 
 ## -see-also
 
-[FWPM_NET_EVENT1](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_net_event1)
+[FWPM_NET_EVENT1](/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_net_event1)
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fwpmu/nf-fwpmu-fwpmneteventsubscribe0">FwpmNetEventSubscribe0</a>
-
+<a href="/windows/desktop/api/fwpmu/nf-fwpmu-fwpmneteventsubscribe0">FwpmNetEventSubscribe0</a>

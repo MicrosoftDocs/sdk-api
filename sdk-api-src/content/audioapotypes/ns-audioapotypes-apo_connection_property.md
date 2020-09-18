@@ -66,7 +66,7 @@ The number of valid frames in the connection buffer. An APO  uses the valid fram
 
 ### -field u32BufferFlags
 
-The connection flags for this buffer. This indicates the validity status of the APOs. For more information about these flags, see <a href="https://docs.microsoft.com/windows/desktop/api/audioapotypes/ne-audioapotypes-apo_buffer_flags">APO_BUFFER_FLAGS</a>.
+The connection flags for this buffer. This indicates the validity status of the APOs. For more information about these flags, see <a href="/windows/desktop/api/audioapotypes/ne-audioapotypes-apo_buffer_flags">APO_BUFFER_FLAGS</a>.
 
 ### -field u32Signature
 
@@ -75,4 +75,3 @@ A tag that identifies a valid <b>APO_CONNECTION_PROPERTY</b> structure. A valid 
 ## -remarks
 
 The Remote Desktop Services AudioEndpoint API is for use in Remote Desktop scenarios; it is not for client applications.
-

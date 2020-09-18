@@ -61,7 +61,7 @@ The <b>FNFCIGETOPENINFO</b> macro provides the declaration for the application-d
 
 #### - err
 
-Pointer to the error code value. This value will be used to provide extended error information in the <a href="https://docs.microsoft.com/windows/desktop/api/fdi_fci_types/ns-fdi_fci_types-erf">ERF</a> structure used to create the FCI context.
+Pointer to the error code value. This value will be used to provide extended error information in the <a href="/windows/desktop/api/fdi_fci_types/ns-fdi_fci_types-erf">ERF</a> structure used to create the FCI context.
 
 
 #### - pattribs
@@ -125,7 +125,7 @@ Pointer to an application-defined value.
 
 ## -remarks
 
-The function should open the file using the file open function compatible with those passed into <a href="https://docs.microsoft.com/windows/desktop/api/fci/nf-fci-fcicreate">FCICreate</a>.
+The function should open the file using the file open function compatible with those passed into <a href="/windows/desktop/api/fci/nf-fci-fcicreate">FCICreate</a>.
 
 
 #### Examples
@@ -163,5 +163,4 @@ FNFCIGETOPENINFO(fnGetOpenInfo)
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fci/nf-fci-fcicreate">FCICreate</a>
-
+<a href="/windows/desktop/api/fci/nf-fci-fcicreate">FCICreate</a>

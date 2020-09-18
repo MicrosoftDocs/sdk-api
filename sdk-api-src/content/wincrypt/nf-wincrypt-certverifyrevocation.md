@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>CertVerifyRevocation</b> function checks the revocation status of the certificates contained in the <i>rgpvContext</i> array. If a certificate in the list is found to be revoked, no further checking is done. This array can be a chain of certificates propagating upward from an end entity to the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/r-gly">root authority</a>, but this nature of the list of certificates is not required or assumed.
+The <b>CertVerifyRevocation</b> function checks the revocation status of the certificates contained in the <i>rgpvContext</i> array. If a certificate in the list is found to be revoked, no further checking is done. This array can be a chain of certificates propagating upward from an end entity to the <a href="/windows/desktop/SecGloss/r-gly">root authority</a>, but this nature of the list of certificates is not required or assumed.
 
 ## -parameters
 
@@ -69,7 +69,7 @@ Count of elements in the <i>rgpvContext</i> array.
 ### -param rgpvContext [in]
 
 When the <i>dwRevType</i> is CERT_CONTEXT_REVOCATION_TYPE, <i>rgpvContext</i> is an array of pointers to 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a> structures. These contexts must contain sufficient information to allow the installable or registered revocation DLLs to find the revocation server. This information would normally be conveyed in an extension such as the CRLDistributionsPoints extension defined by the Internet Engineering Task Force (IETF) in PKIX Part 1. 
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a> structures. These contexts must contain sufficient information to allow the installable or registered revocation DLLs to find the revocation server. This information would normally be conveyed in an extension such as the CRLDistributionsPoints extension defined by the Internet Engineering Task Force (IETF) in PKIX Part 1. 
 
 
 
@@ -121,7 +121,7 @@ When set, <b>dwUrlRetrievalTimeout</b> is the cumulative time-out across all URL
 </dl>
 </td>
 <td width="60%">
-When set, this function only uses <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly">online certificate status protocol</a> (OCSP) for revocation checking. If the certificate does not have any OCSP AIA URLs, the <b>dwError</b> member of the <i>pRevStatus</i> parameter is set to CRYPT_E_NOT_IN_REVOCATION_DATABASE.
+When set, this function only uses <a href="/windows/desktop/SecGloss/o-gly">online certificate status protocol</a> (OCSP) for revocation checking. If the certificate does not have any OCSP AIA URLs, the <b>dwError</b> member of the <i>pRevStatus</i> parameter is set to CRYPT_E_NOT_IN_REVOCATION_DATABASE.
 
 </td>
 </tr>
@@ -130,23 +130,23 @@ When set, this function only uses <a href="https://docs.microsoft.com/windows/de
 ### -param pRevPara [in, optional]
 
 Optionally set to assist in finding the issuer. For details, see the 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_revocation_para">CERT_REVOCATION_PARA</a> structure.
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_revocation_para">CERT_REVOCATION_PARA</a> structure.
 
 ### -param pRevStatus [in, out]
 
 Only the <b>cbSize</b> member of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_revocation_status">CERT_REVOCATION_STATUS</a> pointed to by <i>pRevStatus</i> needs to be set before <b>CertVerifyRevocation</b> is called.
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_revocation_status">CERT_REVOCATION_STATUS</a> pointed to by <i>pRevStatus</i> needs to be set before <b>CertVerifyRevocation</b> is called.
 
 If the function returns <b>FALSE</b>, this structure's members will contain error status information. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_revocation_status">CERT_REVOCATION_STATUS</a>. For a description of how <i>pRevStatus</i> is updated when a revocation verification problem is encountered, see Remarks.
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_revocation_status">CERT_REVOCATION_STATUS</a>. For a description of how <i>pRevStatus</i> is updated when a revocation verification problem is encountered, see Remarks.
 
 ## -returns
 
-If the function successfully checks all of the contexts and none were revoked, the function returns <b>TRUE</b>. If the function fails, it returns <b>FALSE</b> and updates the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_revocation_status">CERT_REVOCATION_STATUS</a> structure pointed to by <i>pRevStatus</i> as described in 
+If the function successfully checks all of the contexts and none were revoked, the function returns <b>TRUE</b>. If the function fails, it returns <b>FALSE</b> and updates the <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_revocation_status">CERT_REVOCATION_STATUS</a> structure pointed to by <i>pRevStatus</i> as described in 
 <b>CERT_REVOCATION_STATUS</b>.
 
 When the revocation handler for any of the contexts returns <b>FALSE</b> due to an error, the <b>dwError</b> member in the structure pointed to by <i>pRevStatus</i> will be set by the handler to specify which error was encountered. 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns an error code equal to the error specified in the <b>dwError</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_revocation_status">CERT_REVOCATION_STATUS</a> structure. <b>GetLastError</b> can be one of the following values.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns an error code equal to the error specified in the <b>dwError</b> member of the <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_revocation_status">CERT_REVOCATION_STATUS</a> structure. <b>GetLastError</b> can be one of the following values.
 
 <table>
 <tr>
@@ -226,7 +226,7 @@ The context was good.
 </dl>
 </td>
 <td width="60%">
-<b>cbSize</b> in <i>pRevStatus</i> is less than sizeof(<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_revocation_status">CERT_REVOCATION_STATUS</a>). Note that <b>dwError</b> in <i>pRevStatus</i> is not updated for this error.
+<b>cbSize</b> in <i>pRevStatus</i> is less than sizeof(<a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_revocation_status">CERT_REVOCATION_STATUS</a>). Note that <b>dwError</b> in <i>pRevStatus</i> is not updated for this error.
 
 </td>
 </tr>
@@ -246,29 +246,28 @@ If <i>rgpvContext</i>[2] is found to be revoked, the <b>dwIndex</b> member of <i
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a>
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_revocation_para">CERT_REVOCATION_PARA</a>
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_revocation_para">CERT_REVOCATION_PARA</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_revocation_status">CERT_REVOCATION_STATUS</a>
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_revocation_status">CERT_REVOCATION_STATUS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certverifycrltimevalidity">CertVerifyCRLTimeValidity</a>
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-certverifycrltimevalidity">CertVerifyCRLTimeValidity</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certverifytimevalidity">CertVerifyTimeValidity</a>
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-certverifytimevalidity">CertVerifyTimeValidity</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certverifyvaliditynesting">CertVerifyValidityNesting</a>
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-certverifyvaliditynesting">CertVerifyValidityNesting</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">Data Management Functions</a>
-
+<a href="/windows/desktop/SecCrypto/cryptography-functions">Data Management Functions</a>

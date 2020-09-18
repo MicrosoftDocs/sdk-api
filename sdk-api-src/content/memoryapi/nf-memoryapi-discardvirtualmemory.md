@@ -70,7 +70,7 @@ Size, in bytes, of the memory region to discard.  <i>Size</i> must be an integer
 
 ## -returns
 
-ERROR_SUCCESS if successful; a <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">System Error Code</a> otherwise.
+ERROR_SUCCESS if successful; a <a href="/windows/desktop/Debug/system-error-codes">System Error Code</a> otherwise.
 
 ## -remarks
 
@@ -85,33 +85,32 @@ Use this function to discard memory contents that are no longer needed, while ke
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Memory/memory-management-functions">Memory Management Functions</a>
+<a href="/windows/desktop/Memory/memory-management-functions">Memory Management Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-offervirtualmemory">OfferVirtualMemory</a>
+<a href="/windows/desktop/api/memoryapi/nf-memoryapi-offervirtualmemory">OfferVirtualMemory</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-reclaimvirtualmemory">ReclaimVirtualMemory</a>
+<a href="/windows/desktop/api/memoryapi/nf-memoryapi-reclaimvirtualmemory">ReclaimVirtualMemory</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Memory/virtual-memory-functions">Virtual Memory Functions</a>
+<a href="/windows/desktop/Memory/virtual-memory-functions">Virtual Memory Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-virtualalloc">VirtualAlloc</a>
+<a href="/windows/desktop/api/memoryapi/nf-memoryapi-virtualalloc">VirtualAlloc</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-virtualfree">VirtualFree</a>
+<a href="/windows/desktop/api/memoryapi/nf-memoryapi-virtualfree">VirtualFree</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-virtuallock">VirtualLock</a>
+<a href="/windows/desktop/api/memoryapi/nf-memoryapi-virtuallock">VirtualLock</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-virtualquery">VirtualQuery</a>
-
+<a href="/windows/desktop/api/memoryapi/nf-memoryapi-virtualquery">VirtualQuery</a>

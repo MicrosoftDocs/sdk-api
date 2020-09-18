@@ -52,7 +52,7 @@ api_name:
 ## -description
 
 The <b>Point::Equals</b> method determines whether two 
-			<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-point">Point</a> objects are equal. Two points are considered equal if they have the same 
+			<a href="/windows/desktop/api/gdiplustypes/nl-gdiplustypes-point">Point</a> objects are equal. Two points are considered equal if they have the same 
 			<b>X</b> and 
 			<b>Y</b>  data members.
 
@@ -63,7 +63,7 @@ The <b>Point::Equals</b> method determines whether two
 Type: <b>const Point&amp;</b>
 
 Reference to a 
-					<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-point">Point</a> object that is compared to this 
+					<a href="/windows/desktop/api/gdiplustypes/nl-gdiplustypes-point">Point</a> object that is compared to this 
 					<b>Point</b> object.
 
 ## -returns
@@ -71,21 +71,20 @@ Reference to a
 Type: <b>BOOL</b>
 
 If the 
-						<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-point">Point</a> objects are equal, this method returns <b>TRUE</b>; otherwise, it returns <b>FALSE</b>.
+						<a href="/windows/desktop/api/gdiplustypes/nl-gdiplustypes-point">Point</a> objects are equal, this method returns <b>TRUE</b>; otherwise, it returns <b>FALSE</b>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-point">Point</a>
+<a href="/windows/desktop/api/gdiplustypes/nl-gdiplustypes-point">Point</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/ms535008(v=vs.85)">Point::operator+</a>
+<a href="/previous-versions/ms535008(v=vs.85)">Point::operator+</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/ms535009(v=vs.85)">Point::operator-</a>
+<a href="/previous-versions/ms535009(v=vs.85)">Point::operator-</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-pointf">PointF</a>
-
+<a href="/windows/desktop/api/gdiplustypes/nl-gdiplustypes-pointf">PointF</a>

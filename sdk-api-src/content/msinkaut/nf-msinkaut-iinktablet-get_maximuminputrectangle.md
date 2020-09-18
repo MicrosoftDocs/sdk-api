@@ -53,7 +53,7 @@ api_name:
 
 ## -description
 
-Gets the maximum input rectangle, in tablet device coordinates that the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinktablet">IInkTablet</a> object supports.
+Gets the maximum input rectangle, in tablet device coordinates that the <a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinktablet">IInkTablet</a> object supports.
 
 
 
@@ -70,9 +70,8 @@ The rectangle returned by the <b>MaximumInputRectangle</b> property specifies th
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinktablet">IInkTablet Interface</a>
+<a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinktablet">IInkTablet Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/tablet/inkrectangle-class">InkRectangle Class</a>
-
+<a href="/windows/desktop/tablet/inkrectangle-class">InkRectangle Class</a>

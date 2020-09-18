@@ -84,19 +84,18 @@ Value: 0xC0AAB101
 
 ## -remarks
 
-To determine the supported compatibility levels, call the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-get_iso9660interchangelevelssupported">IFileSystemImage::get_ISO9660InterchangeLevelsSupported</a> method.
+To determine the supported compatibility levels, call the <a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-get_iso9660interchangelevelssupported">IFileSystemImage::get_ISO9660InterchangeLevelsSupported</a> method.
 
-This property is meaningful only if you specified FsiFileSystemISO9660 when calling <a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-put_filesystemstocreate">IFileSystemImage::put_FileSystemsToCreate</a>.
+This property is meaningful only if you specified FsiFileSystemISO9660 when calling <a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-put_filesystemstocreate">IFileSystemImage::put_FileSystemsToCreate</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nn-imapi2fs-ifilesystemimage">IFileSystemImage</a>
+<a href="/windows/desktop/api/imapi2fs/nn-imapi2fs-ifilesystemimage">IFileSystemImage</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-get_iso9660interchangelevel">IFileSystemImage::get_ISO9660InterchangeLevel</a>
+<a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-get_iso9660interchangelevel">IFileSystemImage::get_ISO9660InterchangeLevel</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-get_iso9660interchangelevelssupported">IFileSystemImage::get_ISO9660InterchangeLevelsSupported</a>
-
+<a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-get_iso9660interchangelevelssupported">IFileSystemImage::get_ISO9660InterchangeLevelsSupported</a>

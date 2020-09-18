@@ -52,10 +52,10 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[The <a href="https://docs.microsoft.com/windows/desktop/api/wbemglue/nl-wbemglue-cwbemproviderglue">CWbemProviderGlue</a> class 
+<p class="CCE_Message">[The <a href="/windows/desktop/api/wbemglue/nl-wbemglue-cwbemproviderglue">CWbemProviderGlue</a> class 
     is part of the WMI Provider Framework which is now considered in final state, and no further development, 
     enhancements, or updates will be available for non-security related issues affecting these libraries. The 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/wmi_v2/windows-management-infrastructure">MI APIs</a> should be used for all new 
+    <a href="/previous-versions/windows/desktop/wmi_v2/windows-management-infrastructure">MI APIs</a> should be used for all new 
     development.]
 
 The <b>GetEmptyInstance</b> method retrieves a single unpopulated instance of the specified class.
@@ -72,7 +72,7 @@ Name of the class whose instance is to be returned.
 
 ### -param ppInstance
 
-Pointer to an instance of the <a href="https://docs.microsoft.com/windows/desktop/api/instance/nl-instance-cinstance">CInstance</a> class used to store the new instance. This pointer must be released by the framework provider calling <b>GetEmptyInstance</b>.
+Pointer to an instance of the <a href="/windows/desktop/api/instance/nl-instance-cinstance">CInstance</a> class used to store the new instance. This pointer must be released by the framework provider calling <b>GetEmptyInstance</b>.
 
 ### -param pszNamespace
 
@@ -84,7 +84,6 @@ Returns <b>WBEM_S_NO_ERROR</b> if the operation was successful, <b>WBEM_E_OUT_OF
 
 ## -remarks
 
-The framework provider pass the name of the provider to <b>GetEmptyInstance</b>, which returns an empty instance. A common use of this method is to populate an embedded object property. This method is used in conjunction with <a href="https://docs.microsoft.com/windows/desktop/api/instance/nf-instance-cinstance-setembeddedobject">CInstance::SetEmbeddedObject</a>.
+The framework provider pass the name of the provider to <b>GetEmptyInstance</b>, which returns an empty instance. A common use of this method is to populate an embedded object property. This method is used in conjunction with <a href="/windows/desktop/api/instance/nf-instance-cinstance-setembeddedobject">CInstance::SetEmbeddedObject</a>.
 
 The second function prototype is not recommended. It is provided only to support existing code.
-

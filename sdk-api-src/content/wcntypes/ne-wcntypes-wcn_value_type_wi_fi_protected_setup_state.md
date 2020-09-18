@@ -74,5 +74,4 @@ A device is considered 'not configured' if it is using factory default wireless 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wcntypes/ne-wcntypes-wcn_attribute_type">WCN_ATTRIBUTE_TYPE</a>
-
+<a href="/windows/desktop/api/wcntypes/ne-wcntypes-wcn_attribute_type">WCN_ATTRIBUTE_TYPE</a>

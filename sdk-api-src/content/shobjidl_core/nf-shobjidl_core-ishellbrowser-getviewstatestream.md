@@ -59,31 +59,31 @@ Gets an
 
 Type: <b>DWORD</b>
 
-Read/write access of the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a> interface. This may be one of the following values.
+Read/write access of the <a href="/windows/desktop/api/objidl/nn-objidl-istream">IStream</a> interface. This may be one of the following values.
 
 
 
 #### STGM_READ
 
-Requests an <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a> suitable for reading.
+Requests an <a href="/windows/desktop/api/objidl/nn-objidl-istream">IStream</a> suitable for reading.
 
 
 
 #### STGM_WRITE
 
-Requests an <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a> suitable for writing.
+Requests an <a href="/windows/desktop/api/objidl/nn-objidl-istream">IStream</a> suitable for writing.
 
 
 
 #### STGM_READWRITE
 
-Requests an <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a> suitable for reading and writing.
+Requests an <a href="/windows/desktop/api/objidl/nn-objidl-istream">IStream</a> suitable for reading and writing.
 
 ### -param ppStrm
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a>**</b>
+Type: <b><a href="/windows/desktop/api/objidl/nn-objidl-istream">IStream</a>**</b>
 
-The address that receives the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a> interface pointer.
+The address that receives the <a href="/windows/desktop/api/objidl/nn-objidl-istream">IStream</a> interface pointer.
 
 ## -returns
 
@@ -96,10 +96,9 @@ Returns S_OK if successful, or a COM-defined error value otherwise.
 This method is used to save and restore the persistent state for a view (the icon positions, the column widths, and the current scroll position, for example).
 
 <h3><a id="Notes_to_Calling_Applications"></a><a id="notes_to_calling_applications"></a><a id="NOTES_TO_CALLING_APPLICATIONS"></a>Notes to Calling Applications</h3>
-Use <b>GetViewStateStream</b> when the view is being created to read in the saved view state and also when the view is being closed to save any changes to the view state. Typically, the view calls this method with <b>STGM_READ</b> when creating a view window and with <b>STGM_WRITE</b> when the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellview-saveviewstate">SaveViewState</a> method of its <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellview">IShellView</a> interface is called.
+Use <b>GetViewStateStream</b> when the view is being created to read in the saved view state and also when the view is being closed to save any changes to the view state. Typically, the view calls this method with <b>STGM_READ</b> when creating a view window and with <b>STGM_WRITE</b> when the <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellview-saveviewstate">SaveViewState</a> method of its <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellview">IShellView</a> interface is called.
 
 <h3><a id="Notes_to_Implementers"></a><a id="notes_to_implementers"></a><a id="NOTES_TO_IMPLEMENTERS"></a>Notes to Implementers</h3>
 Each Shell view should have its own view stream. Windows Explorer implements a most recently used (MRU) list of view streams that are stored on a per-user basis in the registry.
 
-See also <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellbrowser">IShellBrowser</a>
-
+See also <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellbrowser">IShellBrowser</a>

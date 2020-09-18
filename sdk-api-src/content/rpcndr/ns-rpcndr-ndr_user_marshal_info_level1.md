@@ -54,8 +54,8 @@ api_name:
 
 The 
 <b>NDR_USER_MARSHAL_INFO_LEVEL1</b> structure holds information about the state of an RPC call that can be passed to 
-<a href="https://docs.microsoft.com/windows/desktop/Midl/wire-marshal">wire_marshal</a> and 
-<a href="https://docs.microsoft.com/windows/desktop/Midl/user-marshal">user_marshal</a> helper functions.
+<a href="/windows/desktop/Midl/wire-marshal">wire_marshal</a> and 
+<a href="/windows/desktop/Midl/user-marshal">user_marshal</a> helper functions.
 
 ## -struct-fields
 
@@ -82,4 +82,3 @@ If the current call is for a COM interface, this member is a pointer to the chan
 ### -field Reserved
 
 Reserved for future use.
-

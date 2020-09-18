@@ -57,7 +57,7 @@ Sets the current style on the SAMI media source.
 
 ### -param pwszStyle [in]
 
-Pointer to a null-terminated string containing the name of the style. To clear the current style, pass an empty string ("").  To get the list of style names, call <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfsamistyle-getstyles">IMFSAMIStyle::GetStyles</a>.
+Pointer to a null-terminated string containing the name of the style. To clear the current style, pass an empty string ("").  To get the list of style names, call <a href="/windows/desktop/api/mfidl/nf-mfidl-imfsamistyle-getstyles">IMFSAMIStyle::GetStyles</a>.
 
 ## -returns
 
@@ -65,9 +65,8 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfsamistyle">IMFSAMIStyle</a>
+<a href="/windows/desktop/api/mfidl/nn-mfidl-imfsamistyle">IMFSAMIStyle</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/sami-media-source">SAMI Media Source</a>
-
+<a href="/windows/desktop/medfound/sami-media-source">SAMI Media Source</a>

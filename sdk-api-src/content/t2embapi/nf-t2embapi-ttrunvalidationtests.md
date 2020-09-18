@@ -62,13 +62,13 @@ Device context handle.
 
 ### -param pTestParam [in]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/t2embapi/ns-t2embapi-ttvalidationtestsparams">TTVALIDATIONTESTPARAMS</a> structure specifying the parameters to test.
+Pointer to a <a href="/windows/desktop/api/t2embapi/ns-t2embapi-ttvalidationtestsparams">TTVALIDATIONTESTPARAMS</a> structure specifying the parameters to test.
 
 ## -returns
 
 If successful and the glyph data is valid, returns E_NONE.
 
-Otherwise, returns an error code described in <a href="https://docs.microsoft.com/windows/desktop/gdi/font-embedding-function-error-messages">Embedding-Function Error Messages</a>.
+Otherwise, returns an error code described in <a href="/windows/desktop/gdi/font-embedding-function-error-messages">Embedding-Function Error Messages</a>.
 
 ## -remarks
 
@@ -78,9 +78,8 @@ Effective font validation can be performed by a tool, such as Font Validator, th
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/t2embapi/nf-t2embapi-ttrunvalidationtestsex">TTRunValidationTestsEx</a>
+<a href="/windows/desktop/api/t2embapi/nf-t2embapi-ttrunvalidationtestsex">TTRunValidationTestsEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/t2embapi/ns-t2embapi-ttvalidationtestsparams">TTVALIDATIONTESTPARAMS</a>
-
+<a href="/windows/desktop/api/t2embapi/ns-t2embapi-ttvalidationtestsparams">TTVALIDATIONTESTPARAMS</a>

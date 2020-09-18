@@ -61,7 +61,7 @@ The value of the index entry for which to get the position. The format of this v
 
 ### -param pIndexIdentifier [in]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/ns-wmcontainer-asf_index_identifier">ASF_INDEX_IDENTIFIER</a> structure that identifies the stream number and index type.
+Pointer to an <a href="/windows/desktop/api/wmcontainer/ns-wmcontainer-asf_index_identifier">ASF_INDEX_IDENTIFIER</a> structure that identifies the stream number and index type.
 
 ### -param pcbOffsetWithinData [out]
 
@@ -136,13 +136,12 @@ No index exists of the specified type for the specified stream.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/asf-index-object">ASF Index Object</a>
+<a href="/windows/desktop/medfound/asf-index-object">ASF Index Object</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nn-wmcontainer-imfasfindexer">IMFASFIndexer</a>
+<a href="/windows/desktop/api/wmcontainer/nn-wmcontainer-imfasfindexer">IMFASFIndexer</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/mftime">MFTIME</a>
-
+<a href="/windows/desktop/medfound/mftime">MFTIME</a>

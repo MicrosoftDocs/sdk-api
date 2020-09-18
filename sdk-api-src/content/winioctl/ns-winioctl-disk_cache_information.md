@@ -53,7 +53,7 @@ api_name:
 
 ## -description
 
-Provides information about the disk cache.This structure is used by the <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_disk_get_cache_information">IOCTL_DISK_GET_CACHE_INFORMATION</a> and <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_disk_set_cache_information">IOCTL_DISK_SET_CACHE_INFORMATION</a> control codes.
+Provides information about the disk cache.This structure is used by the <a href="/windows/desktop/api/winioctl/ni-winioctl-ioctl_disk_get_cache_information">IOCTL_DISK_GET_CACHE_INFORMATION</a> and <a href="/windows/desktop/api/winioctl/ni-winioctl-ioctl_disk_set_cache_information">IOCTL_DISK_SET_CACHE_INFORMATION</a> control codes.
 
 ## -struct-fields
 
@@ -155,9 +155,8 @@ The maximum amount of data  that can be prefetched into the cache on a disk oper
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_disk_get_cache_information">IOCTL_DISK_GET_CACHE_INFORMATION</a>
+<a href="/windows/desktop/api/winioctl/ni-winioctl-ioctl_disk_get_cache_information">IOCTL_DISK_GET_CACHE_INFORMATION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_disk_set_cache_information">IOCTL_DISK_SET_CACHE_INFORMATION</a>
-
+<a href="/windows/desktop/api/winioctl/ni-winioctl-ioctl_disk_set_cache_information">IOCTL_DISK_SET_CACHE_INFORMATION</a>

@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Contains possible values for the <a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-textattribute-ids">CaretBidiMode</a> text attribute, which indicates whether the caret is in text that flows from left to right, or from right to left.
+Contains possible values for the <a href="/windows/desktop/WinAuto/uiauto-textattribute-ids">CaretBidiMode</a> text attribute, which indicates whether the caret is in text that flows from left to right, or from right to left.
 
 ## -enum-fields
 
@@ -61,4 +61,3 @@ The caret is in text that flows from left to right.
 ### -field CaretBidiMode_RTL
 
 The caret is in text that flows from right to left.
-

@@ -50,27 +50,26 @@ api_name:
 
 ## -description
 
-Gets an <a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextrange2">ITextRange2</a> object with the current range's formatted text.
+Gets an <a href="/windows/desktop/api/tom/nn-tom-itextrange2">ITextRange2</a> object with the current range's formatted text.
 
 ## -parameters
 
 ### -param ppRange [out, retval]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextrange2">ITextRange2</a>**</b>
+Type: <b><a href="/windows/desktop/api/tom/nn-tom-itextrange2">ITextRange2</a>**</b>
 
 The formatted text.
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 If the method succeeds, it returns <b>NOERROR</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextrange2">ITextRange2</a>
+<a href="/windows/desktop/api/tom/nn-tom-itextrange2">ITextRange2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange2-setformattedtext2">ITextRange2::SetFormattedText2</a>
-
+<a href="/windows/desktop/api/tom/nf-tom-itextrange2-setformattedtext2">ITextRange2::SetFormattedText2</a>

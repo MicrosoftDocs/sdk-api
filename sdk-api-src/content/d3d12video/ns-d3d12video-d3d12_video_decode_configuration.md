@@ -48,7 +48,7 @@ Describes the configuration for a video decoder.
 
 ### -field DecodeProfile
 
-A GUID identifying the profile for the decoder, such as D3D12\_VIDEO\_DECODE\_PROFILE\_H264 or D3D12\_VIDEO\_DECODE\_PROFILE\_HEVC\_MAIN. For a list of supported GUIDs, see [Direct3D 12 Video GUIDs](http://docs.microsoft.com/windows/desktop/medfound/direct3d-12-video-guids).
+A GUID identifying the profile for the decoder, such as D3D12\_VIDEO\_DECODE\_PROFILE\_H264 or D3D12\_VIDEO\_DECODE\_PROFILE\_HEVC\_MAIN. For a list of supported GUIDs, see [Direct3D 12 Video GUIDs](/windows/desktop/medfound/direct3d-12-video-guids).
 
 ### -field BitstreamEncryption
 
@@ -62,4 +62,3 @@ A member of the [D3D12\_VIDEO\_FRAME\_CODED\_INTERLACE\_TYPE](ne-d3d12video-d3d1
 ## -remarks
 
 ## -see-also
-

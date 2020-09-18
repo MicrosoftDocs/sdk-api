@@ -97,9 +97,8 @@ Windows Media Player determines the type and capabilities of a plug-in by checki
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmpplug/nn-wmpplug-iwmppluginui">IWMPPluginUI Interface</a>
+<a href="/windows/desktop/api/wmpplug/nn-wmpplug-iwmppluginui">IWMPPluginUI Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WMP/media-object">Media Object</a>
-
+<a href="/windows/desktop/WMP/media-object">Media Object</a>

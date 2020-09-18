@@ -58,15 +58,14 @@ Set the current pipeline stack size.
 
 Stack size in bytes to use during pipeline execution for each shader thread. There can be many thousands of threads in flight at once on the GPU.
 
-If the value is greater than 0xffffffff (the maximum value of a 32-bit UINT) the runtime will drop the call, and the debug layer will print an error, as this is likely the result of summing up invalid stack sizes returned from <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12stateobjectproperties-getshaderstacksize">GetShaderStackSize</a> called with invalid parameters, which return 0xffffffff.  In this case, the previously set stack size, or the default, remains.
+If the value is greater than 0xffffffff (the maximum value of a 32-bit UINT) the runtime will drop the call, and the debug layer will print an error, as this is likely the result of summing up invalid stack sizes returned from <a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12stateobjectproperties-getshaderstacksize">GetShaderStackSize</a> called with invalid parameters, which return 0xffffffff.  In this case, the previously set stack size, or the default, remains.
 
 ## -remarks
 
-This method and <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12stateobjectproperties-getpipelinestacksize">GetPipelineStackSize</a> are not re-entrant.  This means if calling either or both from separate threads, the app must synchronize on its own.
+This method and <a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12stateobjectproperties-getpipelinestacksize">GetPipelineStackSize</a> are not re-entrant.  This means if calling either or both from separate threads, the app must synchronize on its own.
 
 The runtime drops calls to state objects other than raytracing pipelines, such as collections.
 
 ## -see-also
 
 <a href="https://msdn.microsoft.com/en-us/library/Mt847466(v=VS.85).aspx">ID3D12StateObjectProperties</a>
-

@@ -56,7 +56,7 @@ Adds a file to a download job and specifies the ranges of the file you want to d
 
 ### -param RemoteUrl [in]
 
-Null-terminated string that contains the name of the file on the server. For information on specifying the remote name, see the <b>RemoteName</b> member and Remarks section of the <a href="https://docs.microsoft.com/windows/desktop/api/bits/ns-bits-bg_file_info">BG_FILE_INFO</a> structure. 
+Null-terminated string that contains the name of the file on the server. For information on specifying the remote name, see the <b>RemoteName</b> member and Remarks section of the <a href="/windows/desktop/api/bits/ns-bits-bg_file_info">BG_FILE_INFO</a> structure. 
 
 
 
@@ -66,7 +66,7 @@ Null-terminated string that contains the name of the file on the server. For inf
 
 ### -param LocalName [in]
 
-Null-terminated string that contains the name of the file on the client. For information on specifying the local name, see the <b>LocalName</b> member and Remarks section of the <a href="https://docs.microsoft.com/windows/desktop/api/bits/ns-bits-bg_file_info">BG_FILE_INFO</a> structure.
+Null-terminated string that contains the name of the file on the client. For information on specifying the local name, see the <b>LocalName</b> member and Remarks section of the <a href="/windows/desktop/api/bits/ns-bits-bg_file_info">BG_FILE_INFO</a> structure.
 
 ### -param RangeCount [in]
 
@@ -74,7 +74,7 @@ Number of elements in <i>Ranges</i>.
 
 ### -param Ranges [in]
 
-Array of one or more <a href="https://docs.microsoft.com/windows/desktop/api/bits2_0/ns-bits2_0-bg_file_range">BG_FILE_RANGE</a> structures that specify the ranges to download. Do not specify duplicate or overlapping ranges.
+Array of one or more <a href="/windows/desktop/api/bits2_0/ns-bits2_0-bg_file_range">BG_FILE_RANGE</a> structures that specify the ranges to download. Do not specify duplicate or overlapping ranges.
 
 ## -returns
 
@@ -220,7 +220,7 @@ For better performance on Windows BranchCache-enabled file transfers, it is reco
 
 #### Examples
 
-The following example shows how to call the <b>AddFileWithRanges</b> method to specify the ranges of a file to download. The example assumes the <a href="https://docs.microsoft.com/windows/desktop/api/bits/nn-bits-ibackgroundcopyjob">IBackgroundCopyJob</a> variable, <i>pJob</i>, is valid.
+The following example shows how to call the <b>AddFileWithRanges</b> method to specify the ranges of a file to download. The example assumes the <a href="/windows/desktop/api/bits/nn-bits-ibackgroundcopyjob">IBackgroundCopyJob</a> variable, <i>pJob</i>, is valid.
 
 
 ```cpp
@@ -262,17 +262,16 @@ The following example shows how to call the <b>AddFileWithRanges</b> method to s
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits2_0/ns-bits2_0-bg_file_range">BG_FILE_RANGE</a>
+<a href="/windows/desktop/api/bits2_0/ns-bits2_0-bg_file_range">BG_FILE_RANGE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits2_0/nf-bits2_0-ibackgroundcopyfile2-getfileranges">IBackgroundCopyFile2::GetFileRanges</a>
+<a href="/windows/desktop/api/bits2_0/nf-bits2_0-ibackgroundcopyfile2-getfileranges">IBackgroundCopyFile2::GetFileRanges</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits2_0/nn-bits2_0-ibackgroundcopyjob3">IBackgroundCopyJob3</a>
+<a href="/windows/desktop/api/bits2_0/nn-bits2_0-ibackgroundcopyjob3">IBackgroundCopyJob3</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-addfile">IBackgroundCopyJob::AddFile</a>
-
+<a href="/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-addfile">IBackgroundCopyJob::AddFile</a>

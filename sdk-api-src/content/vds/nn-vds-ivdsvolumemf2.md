@@ -51,13 +51,13 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="https://docs.microsoft.com/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
  Provides methods to perform additional file system management operations on the volume object.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVdsVolumeMF2</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVdsVolumeMF2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVdsVolumeMF2</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVdsVolumeMF2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,7 +72,7 @@ The <b>IVdsVolumeMF2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsvolumemf2-formatex">FormatEx</a>
+<a href="/windows/desktop/api/vds/nf-vds-ivdsvolumemf2-formatex">FormatEx</a>
 </td>
 <td align="left" width="63%">
 Formats a file system on a volume.
@@ -81,7 +81,7 @@ Formats a file system on a volume.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsvolumemf2-getfilesystemtypename">GetFileSystemTypeName</a>
+<a href="/windows/desktop/api/vds/nf-vds-ivdsvolumemf2-getfilesystemtypename">GetFileSystemTypeName</a>
 </td>
 <td align="left" width="63%">
 Retrieves the name of the file system on a volume.
@@ -90,7 +90,7 @@ Retrieves the name of the file system on a volume.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsvolumemf2-queryfilesystemformatsupport">QueryFileSystemFormatSupport</a>
+<a href="/windows/desktop/api/vds/nf-vds-ivdsvolumemf2-queryfilesystemformatsupport">QueryFileSystemFormatSupport</a>
 </td>
 <td align="left" width="63%">
 Retrieves the properties of the file systems that are supported for formatting a volume.
@@ -98,4 +98,3 @@ Retrieves the properties of the file systems that are supported for formatting a
 </td>
 </tr>
 </table>
-

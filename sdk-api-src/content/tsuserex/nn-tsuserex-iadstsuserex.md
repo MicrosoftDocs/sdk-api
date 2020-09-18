@@ -51,49 +51,48 @@ api_name:
 ## -description
 
 The property methods of the <b>IADsTSUserEx</b> interface can be used to examine 
-   and configure Remote Desktop Services user properties. Properties include logon, <a href="https://docs.microsoft.com/windows/desktop/api/tsuserex/nf-tsuserex-iadstsuserex-get_terminalserviceshomedirectory">TerminalServicesHomeDirectory</a>, remote control, session, 
+   and configure Remote Desktop Services user properties. Properties include logon, <a href="/windows/desktop/api/tsuserex/nf-tsuserex-iadstsuserex-get_terminalserviceshomedirectory">TerminalServicesHomeDirectory</a>, remote control, session, 
    and environment properties of the <b>IADsTSUserEx</b> class.
 
 Before calling the methods of this interface, you must call the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iads-getinfo">IADs::GetInfo</a> method or the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iads-getinfoex">IADs::GetInfoEx</a> method to load the property values of the 
+    <a href="/windows/desktop/api/iads/nf-iads-iads-getinfo">IADs::GetInfo</a> method or the 
+    <a href="/windows/desktop/api/iads/nf-iads-iads-getinfoex">IADs::GetInfoEx</a> method to load the property values of the 
     ADSI object from the underlying directory store into the property cache. Call 
     <b>IADs::GetInfo</b> to refresh all the property values for the 
     class; call <b>IADs::GetInfoEx</b> to refresh the values of 
     selected properties in the property cache.
 
 After calling the methods of this interface, you must call the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iads-setinfo">IADs::SetInfo</a> method to save the property value changes in 
+    <a href="/windows/desktop/api/iads/nf-iads-iads-setinfo">IADs::SetInfo</a> method to save the property value changes in 
     the persistent store of the underlying directory store.
 
-For more information, see <a href="https://docs.microsoft.com/windows/desktop/ADSI/the-adsi-attribute-cache">The ADSI Attribute Cache</a> and the 
-    reference section for the <a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-interfaces">ADSI Interfaces</a>. For a general discussion on 
-    property methods, see <a href="https://docs.microsoft.com/windows/desktop/ADSI/interface-property-methods">Interface Property Methods</a>.
+For more information, see <a href="/windows/desktop/ADSI/the-adsi-attribute-cache">The ADSI Attribute Cache</a> and the 
+    reference section for the <a href="/windows/desktop/ADSI/adsi-interfaces">ADSI Interfaces</a>. For a general discussion on 
+    property methods, see <a href="/windows/desktop/ADSI/interface-property-methods">Interface Property Methods</a>.
 
 The following table lists the property methods of the <b>IADsTSUserEx</b> interface in 
     vtable order.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-interfaces">ADSI Interfaces</a>
+<a href="/windows/desktop/ADSI/adsi-interfaces">ADSI Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-scripting-tutorial">Active Directory Service Interfaces Scripting</a>
+<a href="/windows/desktop/ADSI/adsi-scripting-tutorial">Active Directory Service Interfaces Scripting</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iads-getinfo">IADs::GetInfo</a>
+<a href="/windows/desktop/api/iads/nf-iads-iads-getinfo">IADs::GetInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iads-getinfoex">IADs::GetInfoEx</a>
+<a href="/windows/desktop/api/iads/nf-iads-iads-getinfoex">IADs::GetInfoEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iads-setinfo">IADs::SetInfo</a>
+<a href="/windows/desktop/api/iads/nf-iads-iads-setinfo">IADs::SetInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/interface-property-methods">Interface Property Methods</a>
-
+<a href="/windows/desktop/ADSI/interface-property-methods">Interface Property Methods</a>

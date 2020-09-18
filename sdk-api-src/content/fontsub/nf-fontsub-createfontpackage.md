@@ -295,29 +295,28 @@ Must be set to <b>NULL</b>.
 
 If the function is successful, returns zero.
 
-Otherwise, returns a nonzero value. See <a href="https://docs.microsoft.com/windows/desktop/gdi/font-package-function-error-messages">Font-Package Function Error Messages</a> for possible error returns.
+Otherwise, returns a nonzero value. See <a href="/windows/desktop/gdi/font-package-function-error-messages">Font-Package Function Error Messages</a> for possible error returns.
 
 ## -remarks
 
 By specifying a value of TTFCFP_SUBSET for <i>usSubsetFormat</i>, you can directly create a working font rather than a font package. This does not allow for future merging, but if there is no need for merging, this skips a step in the downstream processing: a font package needs to be converted back to a working font before it can be used.
 
-By specifying a value of TTFCFP_SUBSET1 for <i>usSubsetFormat</i>, you can create a font package that allows later merging. For example, consider the case where an application calls this function at the start of a large print job. Part way through the print job, the application discovers that it needs glyphs that are not in the subset it has built. The application can make another call to <b>CreateFontPackage</b>, this time specifying a value of TTFCFP_DELTA for <i>usSubsetFormat</i>. The printer can use <a href="https://docs.microsoft.com/windows/desktop/api/fontsub/nf-fontsub-mergefontpackage">MergeFontPackage</a> to merge in these additional glyphs.
+By specifying a value of TTFCFP_SUBSET1 for <i>usSubsetFormat</i>, you can create a font package that allows later merging. For example, consider the case where an application calls this function at the start of a large print job. Part way through the print job, the application discovers that it needs glyphs that are not in the subset it has built. The application can make another call to <b>CreateFontPackage</b>, this time specifying a value of TTFCFP_DELTA for <i>usSubsetFormat</i>. The printer can use <a href="/windows/desktop/api/fontsub/nf-fontsub-mergefontpackage">MergeFontPackage</a> to merge in these additional glyphs.
 
 A CMAP maps from character encodings to glyphs. If *<i>pusSubsetKeepList</i> is a list of character values, then the application uses parameters <i>usSubsetPlatform</i> and <i>usSubsetEncoding</i> to specify what type of CMAP is being used, so that character values can be mapped to glyphs.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fontsub/nc-fontsub-cfp_allocproc">CFP_ALLOCPROC</a>
+<a href="/windows/desktop/api/fontsub/nc-fontsub-cfp_allocproc">CFP_ALLOCPROC</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fontsub/nc-fontsub-cfp_freeproc">CFP_FREEPROC</a>
+<a href="/windows/desktop/api/fontsub/nc-fontsub-cfp_freeproc">CFP_FREEPROC</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fontsub/nc-fontsub-cfp_reallocproc">CFP_REALLOCPROC</a>
+<a href="/windows/desktop/api/fontsub/nc-fontsub-cfp_reallocproc">CFP_REALLOCPROC</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fontsub/nf-fontsub-mergefontpackage">MergeFontPackage</a>
-
+<a href="/windows/desktop/api/fontsub/nf-fontsub-mergefontpackage">MergeFontPackage</a>

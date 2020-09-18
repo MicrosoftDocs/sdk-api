@@ -64,9 +64,8 @@ This method is supported in Windows Server 2003 with Service Pack 1 (SP1), Win
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nn-imapi2fs-iisoimagemanager">IIsoImageManager</a>
+<a href="/windows/desktop/api/imapi2fs/nn-imapi2fs-iisoimagemanager">IIsoImageManager</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-iisoimagemanager-setpath">IIsoImageManager::SetPath</a>
-
+<a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-iisoimagemanager-setpath">IIsoImageManager::SetPath</a>

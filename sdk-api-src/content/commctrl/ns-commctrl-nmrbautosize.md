@@ -54,20 +54,20 @@ api_name:
 
 ## -description
 
-Contains information used in handling the <a href="https://docs.microsoft.com/windows/desktop/Controls/rbn-autosize">RBN_AUTOSIZE</a> notification codes.
+Contains information used in handling the <a href="/windows/desktop/Controls/rbn-autosize">RBN_AUTOSIZE</a> notification codes.
 
 ## -struct-fields
 
 ### -field hdr
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a></b>
+Type: <b><a href="/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a></b>
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a> structure that contains additional information about the notification.
+<a href="/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a> structure that contains additional information about the notification.
 
 ### -field fChanged
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
 
 Member that indicates if the size or layout of the rebar control has changed (nonzero if a change occurred or zero otherwise).
 
@@ -84,4 +84,3 @@ Type: <b><a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a></b>
 
 
 <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> structure that contains the rectangle to which the rebar control actually sized itself.
-

@@ -64,13 +64,12 @@ If the method succeeds, it returns S_OK. If it fails, it returns an error code.
 
 ## -remarks
 
-Calling the <a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidrect-put_left">IMSVidRect::put_Left</a> method changes the width of the rectangle. For example, if the x-coordinate is zero and the width is 100, setting the x-coordinate to 10 changes the width to 90.
+Calling the <a href="/windows/desktop/api/segment/nf-segment-imsvidrect-put_left">IMSVidRect::put_Left</a> method changes the width of the rectangle. For example, if the x-coordinate is zero and the width is 100, setting the x-coordinate to 10 changes the width to 90.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/msvidrect">IMSVidRect Interface</a>
+<a href="/previous-versions/windows/desktop/mstv/msvidrect">IMSVidRect Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidrect-put_width">IMSVidRect::put_Width</a>
-
+<a href="/windows/desktop/api/segment/nf-segment-imsvidrect-put_width">IMSVidRect::put_Width</a>

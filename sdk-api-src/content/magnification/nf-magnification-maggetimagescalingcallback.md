@@ -60,27 +60,26 @@ Retrieves the registered callback function that implements a custom transform fo
 
 ### -param hwnd [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 The magnification window.
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/magnification/nc-magnification-magimagescalingcallback">MagImageScalingCallback</a></b>
+Type: <b><a href="/previous-versions/windows/desktop/api/magnification/nc-magnification-magimagescalingcallback">MagImageScalingCallback</a></b>
 
-Returns the registered <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/magnification/nc-magnification-magimagescalingcallback">MagImageScalingCallback</a> callback function, or <b>NULL</b> if no callback is registered.
+Returns the registered <a href="/previous-versions/windows/desktop/api/magnification/nc-magnification-magimagescalingcallback">MagImageScalingCallback</a> callback function, or <b>NULL</b> if no callback is registered.
 
 ## -remarks
 
 This function returns <b>NULL</b> if Windows Display Driver Model (WDDM) is not supported.
 
-This function works only when <a href="https://docs.microsoft.com/windows/desktop/dwm/dwm-overview">Desktop Window Manager</a> (DWM) is off.
+This function works only when <a href="/windows/desktop/dwm/dwm-overview">Desktop Window Manager</a> (DWM) is off.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/magnification/nc-magnification-magimagescalingcallback">MagImageScalingCallback</a>
+<a href="/previous-versions/windows/desktop/api/magnification/nc-magnification-magimagescalingcallback">MagImageScalingCallback</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/magnification/nf-magnification-magsetimagescalingcallback">MagSetImageScalingCallback</a>
-
+<a href="/previous-versions/windows/desktop/api/magnification/nf-magnification-magsetimagescalingcallback">MagSetImageScalingCallback</a>

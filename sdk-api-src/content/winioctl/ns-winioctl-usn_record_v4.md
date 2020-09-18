@@ -51,13 +51,13 @@ api_name:
 
 ## -description
 
-Contains the information for an update sequence number (USN) change journal version 4.0 record. The version 2.0 and 3.0 records are defined by the <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-usn_record_v2">USN_RECORD_V2</a> (also called <b>USN_RECORD</b>) and <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-usn_record_v3">USN_RECORD_V3</a> structures  respectively.
+Contains the information for an update sequence number (USN) change journal version 4.0 record. The version 2.0 and 3.0 records are defined by the <a href="/windows/desktop/api/winioctl/ns-winioctl-usn_record_v2">USN_RECORD_V2</a> (also called <b>USN_RECORD</b>) and <a href="/windows/desktop/api/winioctl/ns-winioctl-usn_record_v3">USN_RECORD_V3</a> structures  respectively.
 
 ## -struct-fields
 
 ### -field Header
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-usn_record_common_header">USN_RECORD_COMMON_HEADER</a> structure that describes the record length, major version, and minor  version for the record.
+A <a href="/windows/desktop/api/winioctl/ns-winioctl-usn_record_common_header">USN_RECORD_COMMON_HEADER</a> structure that describes the record length, major version, and minor  version for the record.
 
 ### -field FileReferenceNumber
 
@@ -371,8 +371,8 @@ The given stream is modified through a committed TxF transaction.
 ### -field SourceInfo
 
 Additional information about the source of the change, set by the 
-       <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_mark_handle">FSCTL_MARK_HANDLE</a> of the 
-       <a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a> operation.
+       <a href="/windows/desktop/api/winioctl/ni-winioctl-fsctl_mark_handle">FSCTL_MARK_HANDLE</a> of the 
+       <a href="/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a> operation.
 
 When a thread writes a new USN record, the source information flags in the prior record continue to be 
        present only if the thread also sets those flags.  Therefore, the source information structure allows 
@@ -445,7 +445,7 @@ The operation is modifying a file on client systems to match the contents of the
 
 ### -field RemainingExtents
 
-The number of extents that remain after the current <b>USN_RECORD_V4</b> record.  Multiple version 4.0  records may be required to describe all of the modified extents for a given file.  When the <b>RemainingExtents</b> member is  0,  the current <b>USN_RECORD_V4</b> record is the last <b>USN_RECORD_V4</b> record for the file.  The last <b>USN_RECORD_V4</b> entry for a given file is always  followed by a <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-usn_record_v3">USN_RECORD_V3</a> record with at least the <b>USN_REASON_CLOSE</b> flag set.
+The number of extents that remain after the current <b>USN_RECORD_V4</b> record.  Multiple version 4.0  records may be required to describe all of the modified extents for a given file.  When the <b>RemainingExtents</b> member is  0,  the current <b>USN_RECORD_V4</b> record is the last <b>USN_RECORD_V4</b> record for the file.  The last <b>USN_RECORD_V4</b> entry for a given file is always  followed by a <a href="/windows/desktop/api/winioctl/ns-winioctl-usn_record_v3">USN_RECORD_V3</a> record with at least the <b>USN_REASON_CLOSE</b> flag set.
 
 ### -field NumberOfExtents
 
@@ -453,15 +453,15 @@ The number of extents in current <b>USN_RECORD_V4</b> entry.
 
 ### -field ExtentSize
 
-The size of each <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-usn_record_extent">USN_RECORD_EXTENT</a> structure in the <b>Extents</b> member, in bytes.
+The size of each <a href="/windows/desktop/api/winioctl/ns-winioctl-usn_record_extent">USN_RECORD_EXTENT</a> structure in the <b>Extents</b> member, in bytes.
 
 ### -field Extents
 
-An array of <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-usn_record_extent">USN_RECORD_EXTENT</a> structures that represent the extents in the <b>USN_RECORD_V4</b> entry.
+An array of <a href="/windows/desktop/api/winioctl/ns-winioctl-usn_record_extent">USN_RECORD_EXTENT</a> structures that represent the extents in the <b>USN_RECORD_V4</b> entry.
 
 ## -remarks
 
-A <b>USN_RECORD_V4</b> record is only output when range tracking is turned on and the file size is equal or larger than the value of the <b>RangeTrackFileSizeThreshold</b> member. The user always receives one or more <b>USN_RECORD_V4</b> records followed by one <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-usn_record_v3">USN_RECORD_V3</a> record.
+A <b>USN_RECORD_V4</b> record is only output when range tracking is turned on and the file size is equal or larger than the value of the <b>RangeTrackFileSizeThreshold</b> member. The user always receives one or more <b>USN_RECORD_V4</b> records followed by one <a href="/windows/desktop/api/winioctl/ns-winioctl-usn_record_v3">USN_RECORD_V3</a> record.
 
 To provide a path forward compatibility in change journal clients, Microsoft provides a major and minor version number of the change journal software in the <b>USN_RECORD_V4</b> structure. Your code should examine these values, examine its own compatibility with the change journal software, and gracefully handle any incompatibility if necessary.
 
@@ -472,49 +472,48 @@ To handle such a change gracefully, your code should not do any compile-time poi
 An increase in the major version number of the change journal software indicates that the <b>USN_RECORD_V4</b> structure may have undergone major changes, and that the current definition may not be reliable. If your code detects a change in the major version number of the change journal software, the code should not work with the change journal.
 
 
-For more information, see <a href="https://docs.microsoft.com/windows/desktop/FileIO/creating-modifying-and-deleting-a-change-journal">Creating, Modifying, and Deleting a Change Journal</a>.
+For more information, see <a href="/windows/desktop/FileIO/creating-modifying-and-deleting-a-change-journal">Creating, Modifying, and Deleting a Change Journal</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_mark_handle">FSCTL_MARK_HANDLE</a>
+<a href="/windows/desktop/api/winioctl/ni-winioctl-fsctl_mark_handle">FSCTL_MARK_HANDLE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_read_usn_journal">FSCTL_READ_USN_JOURNAL</a>
+<a href="/windows/desktop/api/winioctl/ni-winioctl-fsctl_read_usn_journal">FSCTL_READ_USN_JOURNAL</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_usn_track_modified_ranges">FSCTL_USN_TRACK_MODIFIED_RANGES</a>
+<a href="/windows/desktop/api/winioctl/ni-winioctl-fsctl_usn_track_modified_ranges">FSCTL_USN_TRACK_MODIFIED_RANGES</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-getfileattributesa">GetFileAttributes</a>
+<a href="/windows/desktop/api/fileapi/nf-fileapi-getfileattributesa">GetFileAttributes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-getvolumeinformationa">GetVolumeInformation</a>
+<a href="/windows/desktop/api/fileapi/nf-fileapi-getvolumeinformationa">GetVolumeInformation</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-read_usn_journal_data_v0">READ_USN_JOURNAL_DATA</a>
+<a href="/windows/desktop/api/winioctl/ns-winioctl-read_usn_journal_data_v0">READ_USN_JOURNAL_DATA</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-usn_record_common_header">USN_RECORD_COMMON_HEADER</a>
+<a href="/windows/desktop/api/winioctl/ns-winioctl-usn_record_common_header">USN_RECORD_COMMON_HEADER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-usn_record_extent">USN_RECORD_EXTENT</a>
+<a href="/windows/desktop/api/winioctl/ns-winioctl-usn_record_extent">USN_RECORD_EXTENT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-usn_record_v2">USN_RECORD_V2</a>
+<a href="/windows/desktop/api/winioctl/ns-winioctl-usn_record_v2">USN_RECORD_V2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-usn_record_v3">USN_RECORD_V3</a>
+<a href="/windows/desktop/api/winioctl/ns-winioctl-usn_record_v3">USN_RECORD_V3</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/volume-management-structures">Volume Management Structures</a>
-
+<a href="/windows/desktop/FileIO/volume-management-structures">Volume Management Structures</a>

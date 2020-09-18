@@ -50,15 +50,14 @@ api_name:
 
 ## -description
 
-Exposes a method to handle Microsoft UI Automation events that occur when the active text position changes.<div class="alert"><b>Note</b>  This interface is implemented by the application to handle events that it has subscribed to by calling <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomation6-addactivetextpositionchangedeventhandler">AddActiveTextPositionChangedEventHandler</a>.
+Exposes a method to handle Microsoft UI Automation events that occur when the active text position changes.<div class="alert"><b>Note</b>  This interface is implemented by the application to handle events that it has subscribed to by calling <a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomation6-addactivetextpositionchangedeventhandler">AddActiveTextPositionChangedEventHandler</a>.
 			</div>
 <div> </div>
 
 ## -remarks
 
-Before implementing an event handler, you should be familiar with the threading issues described in <a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-threading">Understanding Threading Issues</a>.
+Before implementing an event handler, you should be familiar with the threading issues described in <a href="/windows/desktop/WinAuto/uiauto-threading">Understanding Threading Issues</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-client-eventhandlinginterfaces">Event Handling Interfaces for Clients</a>
-
+<a href="/windows/desktop/WinAuto/uiauto-client-eventhandlinginterfaces">Event Handling Interfaces for Clients</a>

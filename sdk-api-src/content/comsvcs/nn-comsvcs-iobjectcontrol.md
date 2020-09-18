@@ -54,7 +54,7 @@ Defines context-specific initialization and cleanup procedures for your COM+ obj
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IObjectControl</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IObjectControl</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IObjectControl</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IObjectControl</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IObjectControl</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-iobjectcontrol-activate">Activate</a>
+<a href="/windows/desktop/api/comsvcs/nf-comsvcs-iobjectcontrol-activate">Activate</a>
 </td>
 <td align="left" width="63%">
 Enables a COM+ object to perform context-specific initialization whenever it is activated.
@@ -78,7 +78,7 @@ Enables a COM+ object to perform context-specific initialization whenever it is 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-iobjectcontrol-canbepooled">CanBePooled</a>
+<a href="/windows/desktop/api/comsvcs/nf-comsvcs-iobjectcontrol-canbepooled">CanBePooled</a>
 </td>
 <td align="left" width="63%">
 Notifies the COM+ run-time environment whether the object can be pooled for reuse when it is deactivated.
@@ -87,7 +87,7 @@ Notifies the COM+ run-time environment whether the object can be pooled for reus
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-iobjectcontrol-deactivate">Deactivate</a>
+<a href="/windows/desktop/api/comsvcs/nf-comsvcs-iobjectcontrol-deactivate">Deactivate</a>
 </td>
 <td align="left" width="63%">
 Enables a COM+ object to perform required cleanup before it is recycled or destroyed.
@@ -98,9 +98,8 @@ Enables a COM+ object to perform required cleanup before it is recycled or destr
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/cossdk/com--contexts-and-threading-models">COM+ Contexts and Threading Models</a>
+<a href="/windows/desktop/cossdk/com--contexts-and-threading-models">COM+ Contexts and Threading Models</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/cossdk/context-activation">Context Activation</a>
-
+<a href="/windows/desktop/cossdk/context-activation">Context Activation</a>

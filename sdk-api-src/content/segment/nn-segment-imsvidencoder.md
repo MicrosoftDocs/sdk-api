@@ -50,11 +50,11 @@ api_name:
 
 ## -description
 
-The <b>IMSVidEncoder</b> interface represents the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd695123(v=vs.85)">MSVidEncoder</a> feature object, which is required for stream buffer applications using the Video Control. For more information, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/using-the-stream-buffer-engine-with-the-video-control">Using the Stream Buffer Engine with the Video Control</a>.
+The <b>IMSVidEncoder</b> interface represents the <a href="/previous-versions/windows/desktop/legacy/dd695123(v=vs.85)">MSVidEncoder</a> feature object, which is required for stream buffer applications using the Video Control. For more information, see <a href="/previous-versions/windows/desktop/mstv/using-the-stream-buffer-engine-with-the-video-control">Using the Stream Buffer Engine with the Video Control</a>.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMSVidEncoder</b> interface inherits from <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/msvidfeature">IMSVidFeature</a>. <b>IMSVidEncoder</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMSVidEncoder</b> interface inherits from <a href="/previous-versions/windows/desktop/mstv/msvidfeature">IMSVidFeature</a>. <b>IMSVidEncoder</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IMSVidEncoder</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidencoder-get_audioencoderinterface">get_AudioEncoderInterface</a>
+<a href="/windows/desktop/api/segment/nf-segment-imsvidencoder-get_audioencoderinterface">get_AudioEncoderInterface</a>
 </td>
 <td align="left" width="63%">
 Retrieves a pointer to the audio encoder interface.
@@ -78,7 +78,7 @@ Retrieves a pointer to the audio encoder interface.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidencoder-get_videoencoderinterface">get_VideoEncoderInterface</a>
+<a href="/windows/desktop/api/segment/nf-segment-imsvidencoder-get_videoencoderinterface">get_VideoEncoderInterface</a>
 </td>
 <td align="left" width="63%">
 Retrieves a pointer to the video encoder interface.
@@ -93,9 +93,8 @@ To declare the interface identifier (IID) for this interface, use the <b>__uuido
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/msvidfeature">IMSVidFeature</a>
+<a href="/previous-versions/windows/desktop/mstv/msvidfeature">IMSVidFeature</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/video-control-interfaces">Video Control Interfaces</a>
-
+<a href="/previous-versions/windows/desktop/mstv/video-control-interfaces">Video Control Interfaces</a>

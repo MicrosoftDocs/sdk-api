@@ -56,15 +56,15 @@ Finds instances that are associated with the specific key instance.
 
 ### -param session [in]
 
-Handle created from a call to <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_application_newsession">MI_Application_NewSession</a>.
+Handle created from a call to <a href="/previous-versions/windows/desktop/api/mi/nf-mi-mi_application_newsession">MI_Application_NewSession</a>.
 
 ### -param flags
 
-Runtime type information (RTTI) <a href="https://docs.microsoft.com/previous-versions/windows/desktop/wmi_v2/mi-flags">flags</a>.
+Runtime type information (RTTI) <a href="/previous-versions/windows/desktop/wmi_v2/mi-flags">flags</a>.
 
 ### -param options [in, optional]
 
-Optional <a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_operationoptions">MI_OperationOptions</a> value that specifies options such as timeouts and how to control the CIM semantics. Specify NULL if no operation options are to be sent.
+Optional <a href="/windows/desktop/api/mi/ns-mi-mi_operationoptions">MI_OperationOptions</a> value that specifies options such as timeouts and how to control the CIM semantics. Specify NULL if no operation options are to be sent.
 
 ### -param namespaceName
 
@@ -72,7 +72,7 @@ A null-terminated string that contains the optional namespace name to carry out 
 
 ### -param instanceKey [in]
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_instance">MI_Instance</a> that represents the class name and the keys of the instance where the association will start.
+An <a href="/windows/desktop/api/mi/ns-mi-mi_instance">MI_Instance</a> that represents the class name and the keys of the instance where the association will start.
 
 ### -param assocClass
 
@@ -96,11 +96,11 @@ If set to MI_TRUE the operation will only retrieve the key properties of the ins
 
 ### -param callbacks [in, optional]
 
-Optional <a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_operationcallbacks">MI_OperationCallbacks</a> structure that defines the operational callbacks to receive the instance result and CIM semantics. For asynchronous operation, the callback must be specified. For synchronous operation, specify NULL; the client must then call <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_operation_getinstance">MI_Operation_GetInstance</a> to retrieve the results.
+Optional <a href="/windows/desktop/api/mi/ns-mi-mi_operationcallbacks">MI_OperationCallbacks</a> structure that defines the operational callbacks to receive the instance result and CIM semantics. For asynchronous operation, the callback must be specified. For synchronous operation, specify NULL; the client must then call <a href="/previous-versions/windows/desktop/api/mi/nf-mi-mi_operation_getinstance">MI_Operation_GetInstance</a> to retrieve the results.
 
 ### -param operation [out]
 
-Operation handle that must be closed with a call to <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_operation_close">MI_Operation_Close</a> once the operation is finished and all results have been received. The handle can be used to cancel the operation with a call to <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_operation_cancel">MI_Operation_Cancel</a>.
+Operation handle that must be closed with a call to <a href="/previous-versions/windows/desktop/api/mi/nf-mi-mi_operation_close">MI_Operation_Close</a> once the operation is finished and all results have been received. The handle can be used to cancel the operation with a call to <a href="/previous-versions/windows/desktop/api/mi/nf-mi-mi_operation_cancel">MI_Operation_Cancel</a>.
 
 ## -remarks
 
@@ -108,17 +108,16 @@ An association is a relationship between two objects. It is represented with a t
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_application_newsession">MI_Application_NewSession</a>
+<a href="/previous-versions/windows/desktop/api/mi/nf-mi-mi_application_newsession">MI_Application_NewSession</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_operation_cancel">MI_Operation_Cancel</a>
+<a href="/previous-versions/windows/desktop/api/mi/nf-mi-mi_operation_cancel">MI_Operation_Cancel</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_operation_close">MI_Operation_Close</a>
+<a href="/previous-versions/windows/desktop/api/mi/nf-mi-mi_operation_close">MI_Operation_Close</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_operation_getinstance">MI_Operation_GetInstance</a>
-
+<a href="/previous-versions/windows/desktop/api/mi/nf-mi-mi_operation_getinstance">MI_Operation_GetInstance</a>

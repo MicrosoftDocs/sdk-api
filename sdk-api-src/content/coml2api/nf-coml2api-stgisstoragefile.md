@@ -63,8 +63,8 @@ Pointer to the null-terminated Unicode string name of the disk file to be examin
 ## -returns
 
 <b>StgIsStorageFile</b> function can also return any file system errors or system errors wrapped in an <b>HRESULT</b>. See 
-<a href="https://docs.microsoft.com/windows/desktop/com/error-handling-strategies">Error Handling Strategies</a> and 
-<a href="https://docs.microsoft.com/windows/desktop/com/handling-unknown-errors">Handling Unknown Errors</a>
+<a href="/windows/desktop/com/error-handling-strategies">Error Handling Strategies</a> and 
+<a href="/windows/desktop/com/handling-unknown-errors">Handling Unknown Errors</a>
 
 ## -remarks
 
@@ -75,5 +75,4 @@ If a root compound file has been created in transacted mode but not yet committe
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/coml2api/nf-coml2api-stgisstorageilockbytes">StgIsStorageILockBytes</a>
-
+<a href="/windows/desktop/api/coml2api/nf-coml2api-stgisstorageilockbytes">StgIsStorageILockBytes</a>

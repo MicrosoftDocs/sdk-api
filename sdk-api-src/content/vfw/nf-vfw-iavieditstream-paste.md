@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-The <b>Paste</b> method copies a stream or a portion of it in another stream. Called when an application uses the <a href="https://docs.microsoft.com/windows/desktop/api/vfw/nf-vfw-editstreampaste">EditStreamPaste</a> function.
+The <b>Paste</b> method copies a stream or a portion of it in another stream. Called when an application uses the <a href="/windows/desktop/api/vfw/nf-vfw-editstreampaste">EditStreamPaste</a> function.
 
 ## -parameters
 
@@ -94,9 +94,8 @@ HRESULT Paste(LONG *plPos, LONG *plLength,
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/custom-file-and-stream-handler-interfaces">Custom File and Stream Handler Interfaces</a>
+<a href="/windows/desktop/Multimedia/custom-file-and-stream-handler-interfaces">Custom File and Stream Handler Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/custom-file-and-stream-handlers">Custom File and Stream Handlers</a>
-
+<a href="/windows/desktop/Multimedia/custom-file-and-stream-handlers">Custom File and Stream Handlers</a>

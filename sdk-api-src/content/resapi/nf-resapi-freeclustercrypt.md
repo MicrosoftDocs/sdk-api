@@ -63,5 +63,4 @@ If the operation completes successfully, this function returns <b>ERROR_SUCCESS<
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cryptography-functions">Cryptography Functions</a>
-
+<a href="/previous-versions/windows/desktop/mscs/cryptography-functions">Cryptography Functions</a>

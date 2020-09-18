@@ -89,13 +89,12 @@ Invalid request.
 
 ## -remarks
 
-Calling this method is optional. This method gives the application an opportunity to configure the pipeline components before they are used. The method is asynchronous. If the method returns a success code, the caller will receive an <b>MF_CAPTURE_SINK_PREPARED</b> event through the <a href="https://docs.microsoft.com/windows/desktop/api/mfcaptureengine/nf-mfcaptureengine-imfcaptureengineoneventcallback-onevent">IMFCaptureEngineOnEventCallback::OnEvent</a> method.  After this event is received, call <a href="https://docs.microsoft.com/windows/desktop/api/mfcaptureengine/nf-mfcaptureengine-imfcapturesink-getservice">IMFCaptureSink::GetService</a> to configure individual components.
+Calling this method is optional. This method gives the application an opportunity to configure the pipeline components before they are used. The method is asynchronous. If the method returns a success code, the caller will receive an <b>MF_CAPTURE_SINK_PREPARED</b> event through the <a href="/windows/desktop/api/mfcaptureengine/nf-mfcaptureengine-imfcaptureengineoneventcallback-onevent">IMFCaptureEngineOnEventCallback::OnEvent</a> method.  After this event is received, call <a href="/windows/desktop/api/mfcaptureengine/nf-mfcaptureengine-imfcapturesink-getservice">IMFCaptureSink::GetService</a> to configure individual components.
 
-Before calling this method, configure the capture sink by adding at least one stream. To add a stream, call <a href="https://docs.microsoft.com/windows/desktop/api/mfcaptureengine/nf-mfcaptureengine-imfcapturesink-addstream">IMFCaptureSink::AddStream</a>.
+Before calling this method, configure the capture sink by adding at least one stream. To add a stream, call <a href="/windows/desktop/api/mfcaptureengine/nf-mfcaptureengine-imfcapturesink-addstream">IMFCaptureSink::AddStream</a>.
 
 The <b>Prepare</b> method fails if the capture sink is currently in use. For example, calling <b>Prepare</b> on the preview sink fails if the capture engine is currently previewing.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfcaptureengine/nn-mfcaptureengine-imfcapturesink">IMFCaptureSink</a>
-
+<a href="/windows/desktop/api/mfcaptureengine/nn-mfcaptureengine-imfcapturesink">IMFCaptureSink</a>

@@ -68,5 +68,4 @@ A pointer to the string.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/index">USB Structures</a>
-
+<a href="/windows-hardware/drivers/ddi/content/index">USB Structures</a>

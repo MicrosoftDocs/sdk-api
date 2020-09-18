@@ -82,9 +82,8 @@ The variable type.
 
 ### -field wVarFlags
 
-The variable flags. See <a href="https://docs.microsoft.com/windows/desktop/api/oaidl/ne-oaidl-varflags">VARFLAGS</a>.
+The variable flags. See <a href="/windows/desktop/api/oaidl/ne-oaidl-varflags">VARFLAGS</a>.
 
 ### -field varkind
 
 The variable type.
-

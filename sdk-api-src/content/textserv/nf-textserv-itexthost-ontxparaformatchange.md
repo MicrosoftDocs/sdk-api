@@ -56,17 +56,17 @@ Sets the default paragraph format for the text host.
 
 ### -param pPF [in]
 
-Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-paraformat">PARAFORMAT</a>*</b>
+Type: <b>const <a href="/windows/desktop/api/richedit/ns-richedit-paraformat">PARAFORMAT</a>*</b>
 
 The new default paragraph format.
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 Return S_OK if the method succeeds. 
 
-Return one of the following COM error codes if the method fails. For more information on COM error codes, see <a href="https://docs.microsoft.com/windows/desktop/com/error-handling-in-com">Error Handling in COM</a>. 
+Return one of the following COM error codes if the method fails. For more information on COM error codes, see <a href="/windows/desktop/com/error-handling-in-com">Error Handling in COM</a>. 
 
 <table>
 <tr>
@@ -103,11 +103,11 @@ Unspecified error.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/textserv/nl-textserv-itexthost">ITextHost</a>
+<a href="/windows/desktop/api/textserv/nl-textserv-itexthost">ITextHost</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-paraformat">PARAFORMAT</a>
+<a href="/windows/desktop/api/richedit/ns-richedit-paraformat">PARAFORMAT</a>
 
 
 
@@ -115,5 +115,4 @@ Unspecified error.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Controls/windowless-rich-edit-controls">Windowless Rich Edit Controls</a>
-
+<a href="/windows/desktop/Controls/windowless-rich-edit-controls">Windowless Rich Edit Controls</a>

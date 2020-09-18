@@ -74,9 +74,8 @@ Contains the alpha value.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/ns-dxva2api-dxva2_videosample">DXVA2_VideoSample</a>
+<a href="/windows/desktop/api/dxva2api/ns-dxva2api-dxva2_videosample">DXVA2_VideoSample</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-structures">Media Foundation Structures</a>
-
+<a href="/windows/desktop/medfound/media-foundation-structures">Media Foundation Structures</a>

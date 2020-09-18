@@ -51,11 +51,11 @@ api_name:
 ## -description
 
 Adds multiple quota user objects to a container that is then submitted for update in a single call. This reduces the number of calls to the underlying file system, improving update efficiency when a large number of user objects must be updated. This interface is instantiated by using the 
-<a href="https://docs.microsoft.com/windows/desktop/api/dskquota/nf-dskquota-idiskquotacontrol-createuserbatch">IDiskQuotaControl::CreateUserBatch</a> method.
+<a href="/windows/desktop/api/dskquota/nf-dskquota-idiskquotacontrol-createuserbatch">IDiskQuotaControl::CreateUserBatch</a> method.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDiskQuotaUserBatch</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDiskQuotaUserBatch</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDiskQuotaUserBatch</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDiskQuotaUserBatch</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,16 +70,16 @@ The <b>IDiskQuotaUserBatch</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dskquota/nf-dskquota-idiskquotauserbatch-add">Add</a>
+<a href="/windows/desktop/api/dskquota/nf-dskquota-idiskquotauserbatch-add">Add</a>
 </td>
 <td align="left" width="63%">
-Adds an <a href="https://docs.microsoft.com/windows/desktop/api/dskquota/nn-dskquota-idiskquotauser">IDiskQuotaUser</a> pointer to the batch list.
+Adds an <a href="/windows/desktop/api/dskquota/nn-dskquota-idiskquotauser">IDiskQuotaUser</a> pointer to the batch list.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dskquota/nf-dskquota-idiskquotauserbatch-flushtodisk">FlushToDisk</a>
+<a href="/windows/desktop/api/dskquota/nf-dskquota-idiskquotauserbatch-flushtodisk">FlushToDisk</a>
 </td>
 <td align="left" width="63%">
 Writes user object changes to disk in a single call to the underlying file system.
@@ -88,19 +88,19 @@ Writes user object changes to disk in a single call to the underlying file syste
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dskquota/nf-dskquota-idiskquotauserbatch-remove">Remove</a>
+<a href="/windows/desktop/api/dskquota/nf-dskquota-idiskquotauserbatch-remove">Remove</a>
 </td>
 <td align="left" width="63%">
-Removes an <a href="https://docs.microsoft.com/windows/desktop/api/dskquota/nn-dskquota-idiskquotauser">IDiskQuotaUser</a> pointer from the batch list.
+Removes an <a href="/windows/desktop/api/dskquota/nn-dskquota-idiskquotauser">IDiskQuotaUser</a> pointer from the batch list.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dskquota/nf-dskquota-idiskquotauserbatch-removeall">RemoveAll</a>
+<a href="/windows/desktop/api/dskquota/nf-dskquota-idiskquotauserbatch-removeall">RemoveAll</a>
 </td>
 <td align="left" width="63%">
-Removes all <a href="https://docs.microsoft.com/windows/desktop/api/dskquota/nn-dskquota-idiskquotauser">IDiskQuotaUser</a> pointers from the batch list.
+Removes all <a href="/windows/desktop/api/dskquota/nn-dskquota-idiskquotauser">IDiskQuotaUser</a> pointers from the batch list.
 
 </td>
 </tr>
@@ -108,9 +108,8 @@ Removes all <a href="https://docs.microsoft.com/windows/desktop/api/dskquota/nn-
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/disk-management-interfaces">Disk Management Interfaces</a>
+<a href="/windows/desktop/FileIO/disk-management-interfaces">Disk Management Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/managing-disk-quotas">Disk Quotas</a>
-
+<a href="/windows/desktop/FileIO/managing-disk-quotas">Disk Quotas</a>

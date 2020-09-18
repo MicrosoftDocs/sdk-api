@@ -59,7 +59,7 @@ api_name:
 The <b>GetTextExtentPoint</b> function computes the width and height of the specified string of text.
 
 
-<div class="alert"><b>Note</b>  This function is provided only for compatibility with 16-bit versions of Windows. Applications should call the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-gettextextentpoint32a">GetTextExtentPoint32</a> function, which provides more accurate results.</div>
+<div class="alert"><b>Note</b>  This function is provided only for compatibility with 16-bit versions of Windows. Applications should call the <a href="/windows/desktop/api/wingdi/nf-wingdi-gettextextentpoint32a">GetTextExtentPoint32</a> function, which provides more accurate results.</div>
 <div> </div>
 
 ## -parameters
@@ -74,11 +74,11 @@ A pointer to the string that specifies the text. The string does not need to be 
 
 ### -param c [in]
 
-The <a href="https://docs.microsoft.com/windows/desktop/gdi/specifying-length-of-text-output-string">length of the string</a> pointed to by <i>lpString</i>.
+The <a href="/windows/desktop/gdi/specifying-length-of-text-output-string">length of the string</a> pointed to by <i>lpString</i>.
 
 ### -param lpsz [out]
 
-A pointer to a <a href="https://docs.microsoft.com/previous-versions/dd145106(v=vs.85)">SIZE</a> structure that receives the dimensions of the string, in logical units.
+A pointer to a <a href="/previous-versions/dd145106(v=vs.85)">SIZE</a> structure that receives the dimensions of the string, in logical units.
 
 ## -returns
 
@@ -92,7 +92,7 @@ The <b>GetTextExtentPoint</b> function uses the currently selected font to compu
 
 Because some devices kern characters, the sum of the extents of the characters in a string may not be equal to the extent of the string.
 
-The calculated string width takes into account the intercharacter spacing set by the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-settextcharacterextra">SetTextCharacterExtra</a> function.
+The calculated string width takes into account the intercharacter spacing set by the <a href="/windows/desktop/api/wingdi/nf-wingdi-settextcharacterextra">SetTextCharacterExtra</a> function.
 
 
 
@@ -103,21 +103,20 @@ The calculated string width takes into account the intercharacter spacing set by
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/font-and-text-functions">Font and Text Functions</a>
+<a href="/windows/desktop/gdi/font-and-text-functions">Font and Text Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/fonts-and-text">Fonts and Text Overview</a>
+<a href="/windows/desktop/gdi/fonts-and-text">Fonts and Text Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-gettextextentpoint32a">GetTextExtentPoint32</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-gettextextentpoint32a">GetTextExtentPoint32</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/dd145106(v=vs.85)">SIZE</a>
+<a href="/previous-versions/dd145106(v=vs.85)">SIZE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-settextcharacterextra">SetTextCharacterExtra</a>
-
+<a href="/windows/desktop/api/wingdi/nf-wingdi-settextcharacterextra">SetTextCharacterExtra</a>

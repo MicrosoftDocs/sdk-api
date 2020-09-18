@@ -120,13 +120,12 @@ The balance property is a value between –10,000 and 10,000. A value of –10,0
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itbasicaudioterminal">ITBasicAudioTerminal</a>
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itbasicaudioterminal">ITBasicAudioTerminal</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/terminal-object">Terminal Object</a>
+<a href="/windows/desktop/Tapi/terminal-object">Terminal Object</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itbasicaudioterminal-put_balance">put_Balance</a>
-
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itbasicaudioterminal-put_balance">put_Balance</a>

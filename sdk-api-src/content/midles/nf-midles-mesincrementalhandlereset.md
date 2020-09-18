@@ -123,28 +123,27 @@ Out of memory.
  
 
 <div class="alert"><b>Note</b>  For a list of valid error codes, see 
-<a href="https://docs.microsoft.com/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
+<a href="/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
 <div> </div>
 
 ## -remarks
 
 The 
 <b>MesIncrementalHandleReset</b> routine is used by applications to re-initialize the handle for the incremental style of encoding or decoding. For additional information on the user-supplied <b>Alloc</b>, <b>Write</b>, and <b>Read</b> functions, see 
-<a href="https://docs.microsoft.com/windows/desktop/Rpc/serialization-services">Serialization Services</a>.
+<a href="/windows/desktop/Rpc/serialization-services">Serialization Services</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Rpc/incremental-serialization">Alloc</a>
+<a href="/windows/desktop/Rpc/incremental-serialization">Alloc</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/midles/nf-midles-mesbufferhandlereset">MesBufferhandleReset</a>
+<a href="/windows/desktop/api/midles/nf-midles-mesbufferhandlereset">MesBufferhandleReset</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/midles/nf-midles-mesencodeincrementalhandlecreate">MesEncodeIncrementalHandleCreate</a>
+<a href="/windows/desktop/api/midles/nf-midles-mesencodeincrementalhandlecreate">MesEncodeIncrementalHandleCreate</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/midles/nf-midles-meshandlefree">MesHandleFree</a>
-
+<a href="/windows/desktop/api/midles/nf-midles-meshandlefree">MesHandleFree</a>

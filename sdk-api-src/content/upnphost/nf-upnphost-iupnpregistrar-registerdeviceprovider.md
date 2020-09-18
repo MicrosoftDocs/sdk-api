@@ -52,7 +52,7 @@ api_name:
 
 The 
 <b>RegisterDeviceProvider</b> method registers a device provider with the device host. The device provider is not published on the network. Instead, it creates devices dynamically and registers them using 
-<a href="https://docs.microsoft.com/windows/desktop/api/upnphost/nf-upnphost-iupnpregistrar-registerrunningdevice">RegisterRunningDevice</a>.
+<a href="/windows/desktop/api/upnphost/nf-upnphost-iupnpregistrar-registerrunningdevice">RegisterRunningDevice</a>.
 
 ## -parameters
 
@@ -63,7 +63,7 @@ Specifies the name of the device provider.
 ### -param bstrProgIDProviderClass [in]
 
 Specifies the ProgID of object that implements the 
-<a href="https://docs.microsoft.com/windows/desktop/api/upnphost/nn-upnphost-iupnpdeviceprovider">IUPnPDeviceProvider</a> interface. This object must already be registered with COM. This object must be an in-process COM server (CLSCTX_INPROC_SERVER) and must be accessible to <a href="https://docs.microsoft.com/windows/desktop/Services/localservice-account">LocalService</a>.
+<a href="/windows/desktop/api/upnphost/nn-upnphost-iupnpdeviceprovider">IUPnPDeviceProvider</a> interface. This object must already be registered with COM. This object must be an in-process COM server (CLSCTX_INPROC_SERVER) and must be accessible to <a href="/windows/desktop/Services/localservice-account">LocalService</a>.
 
 ### -param bstrInitString [in]
 
@@ -83,15 +83,14 @@ Common errors that can occur when invoking this function include:
 
 <ul>
 <li>The necessary COM object was not found.</li>
-<li>There is no access to the COM object for <a href="https://docs.microsoft.com/windows/desktop/Services/localservice-account">LocalService</a>.</li>
+<li>There is no access to the COM object for <a href="/windows/desktop/Services/localservice-account">LocalService</a>.</li>
 <li>Subordinate COM interfaces.</li>
 </ul>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/upnphost/nn-upnphost-iupnpregistrar">IUPnPRegistrar</a>
+<a href="/windows/desktop/api/upnphost/nn-upnphost-iupnpregistrar">IUPnPRegistrar</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/upnphost/nf-upnphost-iupnpregistrar-unregisterdeviceprovider">IUPnPRegistrar::UnregisterDeviceProvider</a>
-
+<a href="/windows/desktop/api/upnphost/nf-upnphost-iupnpregistrar-unregisterdeviceprovider">IUPnPRegistrar::UnregisterDeviceProvider</a>

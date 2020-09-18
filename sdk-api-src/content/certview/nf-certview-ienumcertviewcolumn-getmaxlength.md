@@ -53,7 +53,7 @@ api_name:
 
 The <b>GetMaxLength</b> method retrieves the maximum allowable length, in bytes, for the column data.
 
- If the column data's type is <b>PROPTYPE_STRING</b>, divide the number of bytes by <code>sizeof(WCHAR)</code> to determine the maximum number of <a href="https://docs.microsoft.com/windows/desktop/SecGloss/u-gly">Unicode</a> characters.
+ If the column data's type is <b>PROPTYPE_STRING</b>, divide the number of bytes by <code>sizeof(WCHAR)</code> to determine the maximum number of <a href="/windows/desktop/SecGloss/u-gly">Unicode</a> characters.
 
 ## -parameters
 
@@ -66,7 +66,7 @@ A pointer to a value of <b>LONG</b> type  that  contains the maximum allowable l
 <h3>C++</h3>
  If the method succeeds, the method returns S_OK and the <i>pMaxLength</i> is set to the  maximum allowable length for the column data.
 
-If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
+If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 <h3>VB</h3>
  The return value is the maximum allowable length, in bytes, for the column data.
@@ -80,13 +80,13 @@ If the column-enumeration sequence is not referencing a valid column, <b>GetMaxL
 
 <ul>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/certview/nf-certview-ienumcertviewcolumn-reset">IEnumCERTVIEWCOLUMN::Reset</a>: Moves to the beginning of the enumeration sequence.</li>
+<a href="/windows/desktop/api/certview/nf-certview-ienumcertviewcolumn-reset">IEnumCERTVIEWCOLUMN::Reset</a>: Moves to the beginning of the enumeration sequence.</li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/certview/nf-certview-ienumcertviewcolumn-next">IEnumCERTVIEWCOLUMN::Next</a>: Moves to the next column in the enumeration sequence.</li>
+<a href="/windows/desktop/api/certview/nf-certview-ienumcertviewcolumn-next">IEnumCERTVIEWCOLUMN::Next</a>: Moves to the next column in the enumeration sequence.</li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/certview/nf-certview-ienumcertviewcolumn-skip">IEnumCERTVIEWCOLUMN::Skip</a>: Skips a specified number of columns.</li>
+<a href="/windows/desktop/api/certview/nf-certview-ienumcertviewcolumn-skip">IEnumCERTVIEWCOLUMN::Skip</a>: Skips a specified number of columns.</li>
 </ul>
-To determine whether the column data is indexed, call the <a href="https://docs.microsoft.com/windows/desktop/api/certview/nf-certview-ienumcertviewcolumn-isindexed">IEnumCERTVIEWCOLUMN::IsIndexed</a> method.
+To determine whether the column data is indexed, call the <a href="/windows/desktop/api/certview/nf-certview-ienumcertviewcolumn-isindexed">IEnumCERTVIEWCOLUMN::IsIndexed</a> method.
 
 
 #### Examples
@@ -105,21 +105,20 @@ if (S_OK == hr)
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certview/nn-certview-ienumcertviewcolumn">IEnumCERTVIEWCOLUMN</a>
+<a href="/windows/desktop/api/certview/nn-certview-ienumcertviewcolumn">IEnumCERTVIEWCOLUMN</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certview/nf-certview-ienumcertviewcolumn-isindexed">IEnumCERTVIEWCOLUMN::IsIndexed</a>
+<a href="/windows/desktop/api/certview/nf-certview-ienumcertviewcolumn-isindexed">IEnumCERTVIEWCOLUMN::IsIndexed</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certview/nf-certview-ienumcertviewcolumn-next">IEnumCERTVIEWCOLUMN::Next</a>
+<a href="/windows/desktop/api/certview/nf-certview-ienumcertviewcolumn-next">IEnumCERTVIEWCOLUMN::Next</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certview/nf-certview-ienumcertviewcolumn-reset">IEnumCERTVIEWCOLUMN::Reset</a>
+<a href="/windows/desktop/api/certview/nf-certview-ienumcertviewcolumn-reset">IEnumCERTVIEWCOLUMN::Reset</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certview/nf-certview-ienumcertviewcolumn-skip">IEnumCERTVIEWCOLUMN::Skip</a>
-
+<a href="/windows/desktop/api/certview/nf-certview-ienumcertviewcolumn-skip">IEnumCERTVIEWCOLUMN::Skip</a>

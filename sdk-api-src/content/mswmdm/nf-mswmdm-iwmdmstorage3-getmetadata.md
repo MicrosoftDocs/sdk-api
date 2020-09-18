@@ -57,7 +57,7 @@ The <b>GetMetadata</b> method retrieves the metadata associated with the storage
 
 ### -param ppMetadata [out]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmmetadata">IWMDMMetaData</a> pointer associated with a storage. The caller is responsible for calling <b>Release</b> on this interface and all the allocated values when finished with it, as described under "Clearing allocated memory" in <a href="https://docs.microsoft.com/windows/desktop/WMDM/discovering-device-format-capabilities">Discovering Device Format Capabilities</a>.
+Pointer to an <a href="/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmmetadata">IWMDMMetaData</a> pointer associated with a storage. The caller is responsible for calling <b>Release</b> on this interface and all the allocated values when finished with it, as described under "Clearing allocated memory" in <a href="/windows/desktop/WMDM/discovering-device-format-capabilities">Discovering Device Format Capabilities</a>.
 
 ## -returns
 
@@ -68,11 +68,11 @@ The method returns an <b>HRESULT</b>. All the interface methods in Windows Media
 <li>Windows error codes converted to HRESULT values </li>
 <li>Windows Media Device Manager error codes </li>
 </ul>
-For an extensive list of possible error codes, see <a href="https://docs.microsoft.com/windows/desktop/WMDM/error-codes">Error Codes</a>.
+For an extensive list of possible error codes, see <a href="/windows/desktop/WMDM/error-codes">Error Codes</a>.
 
 ## -remarks
 
-This method retrieves all metadata associated with the storage. If an application is seeking specific metadata, it might be more efficient to call <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmstorage4-getspecifiedmetadata">IWMDMStorage4::GetSpecifiedMetadata</a>.
+This method retrieves all metadata associated with the storage. If an application is seeking specific metadata, it might be more efficient to call <a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmstorage4-getspecifiedmetadata">IWMDMStorage4::GetSpecifiedMetadata</a>.
 
 When retrieving data from a Windows Portable Devices (WPD) device, the data is returned in binary form. The application should de-serialize this data to obtain the actual property values.
 
@@ -195,17 +195,16 @@ HRESULT CWMDMController::GetMetadata(IWMDMStorage *pStorage)
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmmetadata">IWMDMMetaData Interface</a>
+<a href="/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmmetadata">IWMDMMetaData Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmstorage3">IWMDMStorage3 Interface</a>
+<a href="/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmstorage3">IWMDMStorage3 Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmstorage3-setmetadata">IWMDMStorage3::SetMetadata</a>
+<a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmstorage3-setmetadata">IWMDMStorage3::SetMetadata</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmstorage4-getspecifiedmetadata">IWMDMStorage4::GetSpecifiedMetadata</a>
-
+<a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmstorage4-getspecifiedmetadata">IWMDMStorage4::GetSpecifiedMetadata</a>

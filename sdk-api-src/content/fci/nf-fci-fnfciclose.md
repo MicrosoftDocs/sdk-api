@@ -61,7 +61,7 @@ The <b>FNFCICLOSE</b> macro provides the declaration for the application-defined
 
 #### - err
 
-Pointer to the error code value. This value is  used to provide extended error information in the <a href="https://docs.microsoft.com/windows/desktop/api/fdi_fci_types/ns-fdi_fci_types-erf">ERF</a> structure used to create the FCI context.
+Pointer to the error code value. This value is  used to provide extended error information in the <a href="/windows/desktop/api/fdi_fci_types/ns-fdi_fci_types-erf">ERF</a> structure used to create the FCI context.
 
 
 #### - pv
@@ -96,5 +96,4 @@ FNFCICLOSE(fnFileClose)
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fci/nf-fci-fcicreate">FCICreate</a>
-
+<a href="/windows/desktop/api/fci/nf-fci-fcicreate">FCICreate</a>

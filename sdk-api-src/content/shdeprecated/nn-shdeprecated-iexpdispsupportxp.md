@@ -54,7 +54,7 @@ Deprecated. Exposes methods that allow the retrieval of properties, translation 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IExpDispSupportXP</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IExpDispSupportXP</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IExpDispSupportXP</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IExpDispSupportXP</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IExpDispSupportXP</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shdeprecated/nf-shdeprecated-iexpdispsupportxp-findcie4connectionpoint">FindCIE4ConnectionPoint</a>
+<a href="/windows/desktop/api/shdeprecated/nf-shdeprecated-iexpdispsupportxp-findcie4connectionpoint">FindCIE4ConnectionPoint</a>
 </td>
 <td align="left" width="63%">
 Deprecated. Gets a connection point for browser events.
@@ -78,7 +78,7 @@ Deprecated. Gets a connection point for browser events.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shdeprecated/nf-shdeprecated-iexpdispsupportxp-oninvoke">OnInvoke</a>
+<a href="/windows/desktop/api/shdeprecated/nf-shdeprecated-iexpdispsupportxp-oninvoke">OnInvoke</a>
 </td>
 <td align="left" width="63%">
 Not implemented.
@@ -87,7 +87,7 @@ Not implemented.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shdeprecated/nf-shdeprecated-iexpdispsupportxp-ontranslateaccelerator">OnTranslateAccelerator</a>
+<a href="/windows/desktop/api/shdeprecated/nf-shdeprecated-iexpdispsupportxp-ontranslateaccelerator">OnTranslateAccelerator</a>
 </td>
 <td align="left" width="63%">
 Not implemented.
@@ -95,4 +95,3 @@ Not implemented.
 </td>
 </tr>
 </table>
-

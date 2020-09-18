@@ -54,7 +54,7 @@ Exposes a method that enables an item in a scrollable view to be placed in a vis
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUIAutomationScrollItemPattern</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IUIAutomationScrollItemPattern</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUIAutomationScrollItemPattern</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IUIAutomationScrollItemPattern</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IUIAutomationScrollItemPattern</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationscrollitempattern-scrollintoview">ScrollIntoView</a>
+<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationscrollitempattern-scrollintoview">ScrollIntoView</a>
 </td>
 <td align="left" width="63%">
 Scrolls the content area of a container object to display the UI Automation element within the visible region (viewport) of the container.
@@ -80,5 +80,4 @@ Scrolls the content area of a container object to display the UI Automation elem
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-client-controlpatterninterfaces">Control Pattern Interfaces for Clients</a>
-
+<a href="/windows/desktop/WinAuto/uiauto-client-controlpatterninterfaces">Control Pattern Interfaces for Clients</a>

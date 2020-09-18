@@ -59,7 +59,7 @@ api_name:
 
 The 
 <b>IWbemContext::Next</b> method retrieves the next value in an enumeration of all context values beginning with 
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemcontext-beginenumeration">IWbemContext::BeginEnumeration</a>.
+<a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemcontext-beginenumeration">IWbemContext::BeginEnumeration</a>.
 
 ## -parameters
 
@@ -80,7 +80,7 @@ This parameter cannot be <b>NULL</b>, and it must point to an empty or uninitial
 If <b>WBEM_S_NO_MORE_DATA</b> returns, this parameter is set to point to a <b>VARIANT</b> of type <b>VT_NULL</b>.
 
 It is possible that an entire 
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nn-wbemcli-iwbemclassobject">IWbemClassObject</a> object may be returned inside the <b>VARIANT</b>. If that is the case, then <b>VT_UNKNOWN</b> is the <b>VARIANT</b> type. The caller can take the <b>IUnknown</b> pointer and execute <b>QueryInterface</b> to obtain the 
+<a href="/windows/desktop/api/wbemcli/nn-wbemcli-iwbemclassobject">IWbemClassObject</a> object may be returned inside the <b>VARIANT</b>. If that is the case, then <b>VT_UNKNOWN</b> is the <b>VARIANT</b> type. The caller can take the <b>IUnknown</b> pointer and execute <b>QueryInterface</b> to obtain the 
 <b>IWbemClassObject</b> pointer.
 
 <div class="alert"><b>Note</b>  At the end of the enumeration, <b>WBEM_S_NO_MORE_DATA</b> is returned. The returned <b>VARIANT</b> is of type <b>VT_NULL</b>, and the returned <i>pstrName</i> is <b>NULL</b>.</div>
@@ -92,13 +92,12 @@ This method returns an <b>HRESULT</b> indicating the status of the method call. 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nn-wbemcli-iwbemcontext">IWbemContext</a>
+<a href="/windows/desktop/api/wbemcli/nn-wbemcli-iwbemcontext">IWbemContext</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemcontext-beginenumeration">IWbemContext::BeginEnumeration</a>
+<a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemcontext-beginenumeration">IWbemContext::BeginEnumeration</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemcontext-endenumeration">IWbemContext::EndEnumeration</a>
-
+<a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemcontext-endenumeration">IWbemContext::EndEnumeration</a>

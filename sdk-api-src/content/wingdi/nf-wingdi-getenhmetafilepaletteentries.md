@@ -66,7 +66,7 @@ The number of entries to be retrieved from the optional palette.
 
 ### -param lpPaletteEntries [out]
 
-A pointer to an array of <a href="https://docs.microsoft.com/previous-versions/dd162769(v=vs.85)">PALETTEENTRY</a> structures that receives the palette colors. The array must contain at least as many structures as there are entries specified by the <i>cEntries</i> parameter.
+A pointer to an array of <a href="/previous-versions/dd162769(v=vs.85)">PALETTEENTRY</a> structures that receives the palette colors. The array must contain at least as many structures as there are entries specified by the <i>cEntries</i> parameter.
 
 ## -returns
 
@@ -74,35 +74,34 @@ If the array pointer is <b>NULL</b> and the enhanced metafile contains an option
 
 ## -remarks
 
-An application can store an optional palette in an enhanced metafile by calling the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createpalette">CreatePalette</a> and <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-setpaletteentries">SetPaletteEntries</a> functions before creating the picture and storing it in the metafile. By doing this, the application can achieve consistent colors when the picture is displayed on a variety of devices.
+An application can store an optional palette in an enhanced metafile by calling the <a href="/windows/desktop/api/wingdi/nf-wingdi-createpalette">CreatePalette</a> and <a href="/windows/desktop/api/wingdi/nf-wingdi-setpaletteentries">SetPaletteEntries</a> functions before creating the picture and storing it in the metafile. By doing this, the application can achieve consistent colors when the picture is displayed on a variety of devices.
 
-An application that displays a picture stored in an enhanced metafile can call the <b>GetEnhMetaFilePaletteEntries</b> function to determine whether the optional palette exists. If it does, the application can call the <b>GetEnhMetaFilePaletteEntries</b> function a second time to retrieve the palette entries and then create a logical palette (by using the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createpalette">CreatePalette</a> function), select it into its device context (by using the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-selectpalette">SelectPalette</a> function), and then realize it (by using the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-realizepalette">RealizePalette</a> function). After the logical palette has been realized, calling the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-playenhmetafile">PlayEnhMetaFile</a> function displays the picture using its original colors.
+An application that displays a picture stored in an enhanced metafile can call the <b>GetEnhMetaFilePaletteEntries</b> function to determine whether the optional palette exists. If it does, the application can call the <b>GetEnhMetaFilePaletteEntries</b> function a second time to retrieve the palette entries and then create a logical palette (by using the <a href="/windows/desktop/api/wingdi/nf-wingdi-createpalette">CreatePalette</a> function), select it into its device context (by using the <a href="/windows/desktop/api/wingdi/nf-wingdi-selectpalette">SelectPalette</a> function), and then realize it (by using the <a href="/windows/desktop/api/wingdi/nf-wingdi-realizepalette">RealizePalette</a> function). After the logical palette has been realized, calling the <a href="/windows/desktop/api/wingdi/nf-wingdi-playenhmetafile">PlayEnhMetaFile</a> function displays the picture using its original colors.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createpalette">CreatePalette</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-createpalette">CreatePalette</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/metafile-functions">Metafile Functions</a>
+<a href="/windows/desktop/gdi/metafile-functions">Metafile Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/metafiles">Metafiles Overview</a>
+<a href="/windows/desktop/gdi/metafiles">Metafiles Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/dd162769(v=vs.85)">PALETTEENTRY</a>
+<a href="/previous-versions/dd162769(v=vs.85)">PALETTEENTRY</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-playenhmetafile">PlayEnhMetaFile</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-playenhmetafile">PlayEnhMetaFile</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-realizepalette">RealizePalette</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-realizepalette">RealizePalette</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-selectpalette">SelectPalette</a>
-
+<a href="/windows/desktop/api/wingdi/nf-wingdi-selectpalette">SelectPalette</a>

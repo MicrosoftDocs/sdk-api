@@ -51,13 +51,13 @@ api_name:
 ## -description
 
 The <b>ber_printf</b> function is  used to encode a BER element and is similar to  sprintf_s. One important difference is that state data is stored in the <b>BerElement</b> argument so that multiple calls can be made to <b>ber_printf</b> to append to the end of the BER element. The <b>BerElement</b> argument passed to this function must be a pointer to a <b>BerElement</b> returned by 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winber/nf-winber-ber_alloc_t">ber_alloc_t</a>.
+<a href="/previous-versions/windows/desktop/api/winber/nf-winber-ber_alloc_t">ber_alloc_t</a>.
 
 ## -parameters
 
 ### -param pBerElement [in, out]
 
-A pointer to the encoded <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/ns-winldap-berelement">BerElement</a> structure.
+A pointer to the encoded <a href="/previous-versions/windows/desktop/api/winldap/ns-winldap-berelement">BerElement</a> structure.
 
 ### -param fmt [in]
 
@@ -82,7 +82,7 @@ The format string can contain format characters listed in the following table.
 </tr>
 <tr>
 <td><b>t</b></td>
-<td><b>Tag</b>. The next argument is a <b>ber_tag_t</b> that specifies the tag to override the next element written to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/ns-winldap-berelement">BerElement</a>. This works across calls.</td>
+<td><b>Tag</b>. The next argument is a <b>ber_tag_t</b> that specifies the tag to override the next element written to the <a href="/previous-versions/windows/desktop/api/winldap/ns-winldap-berelement">BerElement</a>. This works across calls.</td>
 </tr>
 <tr>
 <td><b>b</b></td>
@@ -139,21 +139,20 @@ The format string can contain format characters listed in the following table.
 </table>
  
 
-Each left brace (<b>{</b>) character must be paired with a right brace (<b>}</b>) character later in the format string, or in the format string of a subsequent call to <b>ber_printf</b> for that specific <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/ns-winldap-berelement">BerElement</a>. The same applies to the left bracket ([) character and right bracket (]) characters.
+Each left brace (<b>{</b>) character must be paired with a right brace (<b>}</b>) character later in the format string, or in the format string of a subsequent call to <b>ber_printf</b> for that specific <a href="/previous-versions/windows/desktop/api/winldap/ns-winldap-berelement">BerElement</a>. The same applies to the left bracket ([) character and right bracket (]) characters.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/ns-winldap-berelement">BerElement</a>
+<a href="/previous-versions/windows/desktop/api/winldap/ns-winldap-berelement">BerElement</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/ldap/functions">Functions</a>
+<a href="/previous-versions/windows/desktop/ldap/functions">Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winber/nf-winber-ber_scanf">ber_scanf</a>
+<a href="/previous-versions/windows/desktop/api/winber/nf-winber-ber_scanf">ber_scanf</a>
 
 
 
 <a href="/windows/win32/api/winldap/ns-winldap-ldap_berval">berval</a>
-

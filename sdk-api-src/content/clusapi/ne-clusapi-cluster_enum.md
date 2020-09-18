@@ -52,34 +52,34 @@ api_name:
 ## -description
 
 Describes the type of cluster objects being enumerated. This enumeration is used by the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-clusteropenenum">ClusterOpenEnum</a> and 
-    <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-clusterenum">ClusterEnum</a> functions.
+    <a href="/windows/desktop/api/clusapi/nf-clusapi-clusteropenenum">ClusterOpenEnum</a> and 
+    <a href="/windows/desktop/api/clusapi/nf-clusapi-clusterenum">ClusterEnum</a> functions.
 
 ## -enum-fields
 
 ### -field CLUSTER_ENUM_NODE
 
-The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/nodes">nodes</a> in the cluster.
+The <a href="/previous-versions/windows/desktop/mscs/nodes">nodes</a> in the cluster.
 
 ### -field CLUSTER_ENUM_RESTYPE
 
-The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resource-types">resource types</a> in the cluster.
+The <a href="/previous-versions/windows/desktop/mscs/resource-types">resource types</a> in the cluster.
 
 ### -field CLUSTER_ENUM_RESOURCE
 
-The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resources">resources</a> in the cluster.
+The <a href="/previous-versions/windows/desktop/mscs/resources">resources</a> in the cluster.
 
 ### -field CLUSTER_ENUM_GROUP
 
-The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/groups">groups</a> in the cluster.
+The <a href="/previous-versions/windows/desktop/mscs/groups">groups</a> in the cluster.
 
 ### -field CLUSTER_ENUM_NETWORK
 
-The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/networks">networks</a> in the cluster.
+The <a href="/previous-versions/windows/desktop/mscs/networks">networks</a> in the cluster.
 
 ### -field CLUSTER_ENUM_NETINTERFACE
 
-The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/network-interfaces">network interfaces</a> in the cluster.
+The <a href="/previous-versions/windows/desktop/mscs/network-interfaces">network interfaces</a> in the cluster.
 
 ### -field CLUSTER_ENUM_SHARED_VOLUME_GROUP
 
@@ -105,13 +105,12 @@ All the cluster objects.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-clusterenum">ClusterEnum</a>
+<a href="/windows/desktop/api/clusapi/nf-clusapi-clusterenum">ClusterEnum</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-clusteropenenum">ClusterOpenEnum</a>
+<a href="/windows/desktop/api/clusapi/nf-clusapi-clusteropenenum">ClusterOpenEnum</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-enumerations">Failover Cluster Enumerations</a>
-
+<a href="/previous-versions/windows/desktop/mscs/cluster-enumerations">Failover Cluster Enumerations</a>

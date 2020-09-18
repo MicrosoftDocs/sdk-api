@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Converts a numeric value into a string that represents the number expressed as a size value in bytes, kilobytes, megabytes, or gigabytes, depending on the size. Differs from <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-strformatbytesizew">StrFormatByteSizeW</a> in one parameter type.
+Converts a numeric value into a string that represents the number expressed as a size value in bytes, kilobytes, megabytes, or gigabytes, depending on the size. Differs from <a href="/windows/desktop/api/shlwapi/nf-shlwapi-strformatbytesizew">StrFormatByteSizeW</a> in one parameter type.
 
 ## -parameters
 
@@ -80,7 +80,7 @@ Returns a pointer to the converted string, or <b>NULL</b> if the conversion fail
 
 ## -remarks
 
-The first parameter of this function has a different type for the ANSI and Unicode versions. If your numeric value is a <b>DWORD</b>, you can use <b>StrFormatByteSize</b> with text macros for both cases. The compiler will cast the numerical value to a <b>LONGLONG</b> for the Unicode case. If your numerical value is a <b>LONGLONG</b>, you should use <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-strformatbytesizew">StrFormatByteSizeW</a> explicitly.
+The first parameter of this function has a different type for the ANSI and Unicode versions. If your numeric value is a <b>DWORD</b>, you can use <b>StrFormatByteSize</b> with text macros for both cases. The compiler will cast the numerical value to a <b>LONGLONG</b> for the Unicode case. If your numerical value is a <b>LONGLONG</b>, you should use <a href="/windows/desktop/api/shlwapi/nf-shlwapi-strformatbytesizew">StrFormatByteSizeW</a> explicitly.
 
 In Windows 10, size is reported in base 10 rather than  base 2. For example, 1 KB is 1000 bytes rather than 1024.
 
@@ -123,13 +123,12 @@ The following table illustrates how this function converts a numeric value into 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-strformatbytesize64a">StrFormatByteSize64</a>
+<a href="/windows/desktop/api/shlwapi/nf-shlwapi-strformatbytesize64a">StrFormatByteSize64</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-strformatbytesizeex">StrFormatByteSizeEx</a>
+<a href="/windows/desktop/api/shlwapi/nf-shlwapi-strformatbytesizeex">StrFormatByteSizeEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-strformatbytesizew">StrFormatByteSizeW</a>
-
+<a href="/windows/desktop/api/shlwapi/nf-shlwapi-strformatbytesizew">StrFormatByteSizeW</a>

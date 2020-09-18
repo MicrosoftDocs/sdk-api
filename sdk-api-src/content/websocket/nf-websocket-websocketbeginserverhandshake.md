@@ -56,9 +56,9 @@ The <b>WebSocketBeginServerHandshake</b> function  begins the server-side handsh
 
 ### -param hWebSocket [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WebSock/web-socket-protocol-component-api-data-types">WEB_SOCKET_HANDLE</a></b>
+Type: <b><a href="/windows/desktop/WebSock/web-socket-protocol-component-api-data-types">WEB_SOCKET_HANDLE</a></b>
 
- WebSocket session handle returned by a previous call to <a href="https://docs.microsoft.com/windows/desktop/api/websocket/nf-websocket-websocketcreateserverhandle">WebSocketCreateServerHandle</a>.
+ WebSocket session handle returned by a previous call to <a href="/windows/desktop/api/websocket/nf-websocket-websocketcreateserverhandle">WebSocketCreateServerHandle</a>.
 
 ### -param pszSubprotocolSelected [in, optional]
 
@@ -80,9 +80,9 @@ Number of extensions in <i>pszExtensionSelected</i>.
 
 ### -param pRequestHeaders [in]
 
-Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/websocket/ns-websocket-web_socket_http_header">PWEB_SOCKET_HTTP_HEADER</a></b>
+Type: <b>const <a href="/windows/desktop/api/websocket/ns-websocket-web_socket_http_header">PWEB_SOCKET_HTTP_HEADER</a></b>
 
-Pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/websocket/ns-websocket-web_socket_http_header">WEB_SOCKET_HTTP_HEADER</a> structures that contain the request headers received by the application.
+Pointer to an array of <a href="/windows/desktop/api/websocket/ns-websocket-web_socket_http_header">WEB_SOCKET_HTTP_HEADER</a> structures that contain the request headers received by the application.
 
 ### -param ulRequestHeaderCount [in]
 
@@ -92,9 +92,9 @@ Number of request headers in <i>pRequestHeaders</i>.
 
 ### -param pResponseHeaders [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/websocket/ns-websocket-web_socket_http_header">PWEB_SOCKET_HTTP_HEADER</a>*</b>
+Type: <b><a href="/windows/desktop/api/websocket/ns-websocket-web_socket_http_header">PWEB_SOCKET_HTTP_HEADER</a>*</b>
 
-On successful output, a pointer to an array or <a href="https://docs.microsoft.com/windows/desktop/api/websocket/ns-websocket-web_socket_http_header">WEB_SOCKET_HTTP_HEADER</a> structures that contain the response headers to be sent by the application.
+On successful output, a pointer to an array or <a href="/windows/desktop/api/websocket/ns-websocket-web_socket_http_header">WEB_SOCKET_HTTP_HEADER</a> structures that contain the response headers to be sent by the application.
 
 ### -param pulResponseHeaderCount [out]
 
@@ -108,7 +108,7 @@ Type: <b>HRESULT</b>
 
 If the function succeeds, it returns <b>S_OK</b>.
 
-If the function fails, it returns one of the following or a <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a> defined in WinError.h.
+If the function fails, it returns one of the following or a <a href="/windows/desktop/Debug/system-error-codes">system error code</a> defined in WinError.h.
 
 <table>
 <tr>
@@ -130,21 +130,20 @@ Protocol data had an invalid format.
 
 ## -remarks
 
-To complete the server-side handshake, applications must call <a href="https://docs.microsoft.com/windows/desktop/api/websocket/nf-websocket-websocketendserverhandshake">WebSocketEndServerHandshake</a> or any of the session functions. Once the client-server handshake is complete, the application may use the session functions.
+To complete the server-side handshake, applications must call <a href="/windows/desktop/api/websocket/nf-websocket-websocketendserverhandshake">WebSocketEndServerHandshake</a> or any of the session functions. Once the client-server handshake is complete, the application may use the session functions.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/websocket/ns-websocket-web_socket_http_header">WEB_SOCKET_HTTP_HEADER</a>
+<a href="/windows/desktop/api/websocket/ns-websocket-web_socket_http_header">WEB_SOCKET_HTTP_HEADER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/websocket/nf-websocket-websocketbeginclienthandshake">WebSocketBeginClientHandshake</a>
+<a href="/windows/desktop/api/websocket/nf-websocket-websocketbeginclienthandshake">WebSocketBeginClientHandshake</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/websocket/nf-websocket-websocketendclienthandshake">WebSocketEndClientHandshake</a>
+<a href="/windows/desktop/api/websocket/nf-websocket-websocketendclienthandshake">WebSocketEndClientHandshake</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/websocket/nf-websocket-websocketendserverhandshake">WebSocketEndServerHandshake</a>
-
+<a href="/windows/desktop/api/websocket/nf-websocket-websocketendserverhandshake">WebSocketEndServerHandshake</a>

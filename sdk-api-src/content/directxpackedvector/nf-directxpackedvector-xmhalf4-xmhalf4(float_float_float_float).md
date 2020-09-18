@@ -53,7 +53,7 @@ api_name:
 Initializes a new instance of <code>XMHALF4</code> from four <code>float</code> arguments.
     
 
-This constructor initializes a new instance of <a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmhalf4">XMHALF4</a> from four
+This constructor initializes a new instance of <a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmhalf4">XMHALF4</a> from four
 	<code>float</code> arguments.
 <div class="alert"><b>Note</b>  This constructor is only available under C++.
     </div><div> </div>
@@ -88,7 +88,7 @@ If the magnitude of one of this constructor's floating point arguments cannot be
 	
 
 The following pseudocode demonstrates the operation of this constructor using the XNA
-	    Math <a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmconvertfloattohalf">XMConvertFloatToHalf</a> function:
+	    Math <a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmconvertfloattohalf">XMConvertFloatToHalf</a> function:
 	
 
 
@@ -110,13 +110,12 @@ The following pseudocode demonstrates the operation of this constructor using th
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmconvertfloattohalf">XMConvertFloatToHalf</a>
+<a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmconvertfloattohalf">XMConvertFloatToHalf</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmhalf4">XMHALF4</a>
+<a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmhalf4">XMHALF4</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/dxmath/xmhalf4-ctor">XMHALF4 Constructors</a>
-
+<a href="/windows/desktop/dxmath/xmhalf4-ctor">XMHALF4 Constructors</a>

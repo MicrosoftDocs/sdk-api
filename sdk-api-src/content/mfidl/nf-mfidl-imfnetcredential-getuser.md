@@ -95,9 +95,8 @@ If the user name is not available, the method might succeed and set *<i>pcbData<
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfnetcredential">IMFNetCredential</a>
+<a href="/windows/desktop/api/mfidl/nn-mfidl-imfnetcredential">IMFNetCredential</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfnetcredential-setuser">IMFNetCredential::SetUser</a>
-
+<a href="/windows/desktop/api/mfidl/nf-mfidl-imfnetcredential-setuser">IMFNetCredential::SetUser</a>

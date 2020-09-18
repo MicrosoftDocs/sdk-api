@@ -50,35 +50,34 @@ api_name:
 
 ## -description
 
-<div class="alert"><b>Note</b>  <b>D3DGetInputSignatureBlob</b> may be altered or unavailable for releases after Windows 8.1. Instead use <a href="https://docs.microsoft.com/windows/desktop/direct3dhlsl/d3dgetblobpart">D3DGetBlobPart</a> with the <a href="https://docs.microsoft.com/windows/desktop/direct3dhlsl/d3d-blob-part">D3D_BLOB_INPUT_SIGNATURE_BLOB</a> value. </div><div> </div>Gets the input signature from a compilation result.
+<div class="alert"><b>Note</b>  <b>D3DGetInputSignatureBlob</b> may be altered or unavailable for releases after Windows 8.1. Instead use <a href="/windows/desktop/direct3dhlsl/d3dgetblobpart">D3DGetBlobPart</a> with the <a href="/windows/desktop/direct3dhlsl/d3d-blob-part">D3D_BLOB_INPUT_SIGNATURE_BLOB</a> value. </div><div> </div>Gets the input signature from a compilation result.
 
 ## -parameters
 
 ### -param pSrcData [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPCVOID</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">LPCVOID</a></b>
 
 A pointer to source data as compiled HLSL code.
 
 ### -param SrcDataSize [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">SIZE_T</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">SIZE_T</a></b>
 
 Length of <i>pSrcData</i>.
 
 ### -param ppSignatureBlob [out]
 
-Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ff728743(v=vs.85)">ID3DBlob</a>**</b>
+Type: <b><a href="/previous-versions/windows/desktop/legacy/ff728743(v=vs.85)">ID3DBlob</a>**</b>
 
-A pointer to a buffer that receives the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ff728743(v=vs.85)">ID3DBlob</a> interface that contains a compiled shader.
+A pointer to a buffer that receives the <a href="/previous-versions/windows/desktop/legacy/ff728743(v=vs.85)">ID3DBlob</a> interface that contains a compiled shader.
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
-Returns one of the <a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d11-graphics-reference-returnvalues">Direct3D 11 return codes</a>.
+Returns one of the <a href="/windows/desktop/direct3d11/d3d11-graphics-reference-returnvalues">Direct3D 11 return codes</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3dhlsl/dx-graphics-d3dcompiler-reference-functions">Functions</a>
-
+<a href="/windows/desktop/direct3dhlsl/dx-graphics-d3dcompiler-reference-functions">Functions</a>

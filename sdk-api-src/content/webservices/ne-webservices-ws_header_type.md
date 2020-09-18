@@ -59,16 +59,16 @@ Identifies a type of header.
 The Action addressing header.
                 
 
-This header can be used with the following <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_type">WS_TYPE</a>s:
+This header can be used with the following <a href="/windows/desktop/api/webservices/ne-webservices-ws_type">WS_TYPE</a>s:
                     <ul>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_type">WS_STRING_TYPE</a>
+<a href="/windows/desktop/api/webservices/ne-webservices-ws_type">WS_STRING_TYPE</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_type">WS_XML_STRING_TYPE</a>
+<a href="/windows/desktop/api/webservices/ne-webservices-ws_type">WS_XML_STRING_TYPE</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_type">WS_WSZ_TYPE</a>
+<a href="/windows/desktop/api/webservices/ne-webservices-ws_type">WS_WSZ_TYPE</a>
 </li>
 </ul>
 
@@ -77,16 +77,16 @@ This header can be used with the following <a href="https://docs.microsoft.com/w
 The To addressing header.
                 
 
-This header can be used with the following <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_type">WS_TYPE</a>s:
+This header can be used with the following <a href="/windows/desktop/api/webservices/ne-webservices-ws_type">WS_TYPE</a>s:
                     <ul>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_type">WS_STRING_TYPE</a>
+<a href="/windows/desktop/api/webservices/ne-webservices-ws_type">WS_STRING_TYPE</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_type">WS_XML_STRING_TYPE</a>
+<a href="/windows/desktop/api/webservices/ne-webservices-ws_type">WS_XML_STRING_TYPE</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_type">WS_WSZ_TYPE</a>
+<a href="/windows/desktop/api/webservices/ne-webservices-ws_type">WS_WSZ_TYPE</a>
 </li>
 </ul>
 
@@ -95,76 +95,75 @@ This header can be used with the following <a href="https://docs.microsoft.com/w
 The MessageID addressing header.
                 
 
-This header can be used with the following <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_type">WS_TYPE</a>s:
+This header can be used with the following <a href="/windows/desktop/api/webservices/ne-webservices-ws_type">WS_TYPE</a>s:
                     <ul>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_type">WS_UNIQUE_ID_TYPE</a>
+<a href="/windows/desktop/api/webservices/ne-webservices-ws_type">WS_UNIQUE_ID_TYPE</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_type">WS_STRING_TYPE</a>
+<a href="/windows/desktop/api/webservices/ne-webservices-ws_type">WS_STRING_TYPE</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_type">WS_XML_STRING_TYPE</a>
+<a href="/windows/desktop/api/webservices/ne-webservices-ws_type">WS_XML_STRING_TYPE</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_type">WS_WSZ_TYPE</a>
+<a href="/windows/desktop/api/webservices/ne-webservices-ws_type">WS_WSZ_TYPE</a>
 </li>
 </ul>
 
 
-This header is not supported for <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_addressing_version">WS_ADDRESSING_VERSION_TRANSPORT</a>.
+This header is not supported for <a href="/windows/desktop/api/webservices/ne-webservices-ws_addressing_version">WS_ADDRESSING_VERSION_TRANSPORT</a>.
 
 ### -field WS_RELATES_TO_HEADER
 
 The RelatesTo addressing header.
                 
 
-This header can be used with the following <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_type">WS_TYPE</a>s:
+This header can be used with the following <a href="/windows/desktop/api/webservices/ne-webservices-ws_type">WS_TYPE</a>s:
                     <ul>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_type">WS_UNIQUE_ID_TYPE</a>
+<a href="/windows/desktop/api/webservices/ne-webservices-ws_type">WS_UNIQUE_ID_TYPE</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_type">WS_STRING_TYPE</a>
+<a href="/windows/desktop/api/webservices/ne-webservices-ws_type">WS_STRING_TYPE</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_type">WS_XML_STRING_TYPE</a>
+<a href="/windows/desktop/api/webservices/ne-webservices-ws_type">WS_XML_STRING_TYPE</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_type">WS_WSZ_TYPE</a>
+<a href="/windows/desktop/api/webservices/ne-webservices-ws_type">WS_WSZ_TYPE</a>
 </li>
 </ul>
 
 
-This header is not supported for <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_addressing_version">WS_ADDRESSING_VERSION_TRANSPORT</a>.
+This header is not supported for <a href="/windows/desktop/api/webservices/ne-webservices-ws_addressing_version">WS_ADDRESSING_VERSION_TRANSPORT</a>.
 
 ### -field WS_FROM_HEADER
 
 The From addressing header.
                 
 
-This header is used with <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_type">WS_ENDPOINT_ADDRESS_TYPE</a>.
+This header is used with <a href="/windows/desktop/api/webservices/ne-webservices-ws_type">WS_ENDPOINT_ADDRESS_TYPE</a>.
                 
 
-This header is not supported for <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_addressing_version">WS_ADDRESSING_VERSION_TRANSPORT</a>.
+This header is not supported for <a href="/windows/desktop/api/webservices/ne-webservices-ws_addressing_version">WS_ADDRESSING_VERSION_TRANSPORT</a>.
 
 ### -field WS_REPLY_TO_HEADER
 
 The ReplyTo addressing header.
                 
 
-This header is used with <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_type">WS_ENDPOINT_ADDRESS_TYPE</a>.
+This header is used with <a href="/windows/desktop/api/webservices/ne-webservices-ws_type">WS_ENDPOINT_ADDRESS_TYPE</a>.
                 
 
-This header is not supported for <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_addressing_version">WS_ADDRESSING_VERSION_TRANSPORT</a>.
+This header is not supported for <a href="/windows/desktop/api/webservices/ne-webservices-ws_addressing_version">WS_ADDRESSING_VERSION_TRANSPORT</a>.
 
 ### -field WS_FAULT_TO_HEADER
 
-The FaultTo addressing header, in <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_endpoint_address">WS_ENDPOINT_ADDRESS</a> format.
+The FaultTo addressing header, in <a href="/windows/desktop/api/webservices/ns-webservices-ws_endpoint_address">WS_ENDPOINT_ADDRESS</a> format.
                 
 
-This header is used with <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_type">WS_ENDPOINT_ADDRESS_TYPE</a>.
+This header is used with <a href="/windows/desktop/api/webservices/ne-webservices-ws_type">WS_ENDPOINT_ADDRESS_TYPE</a>.
                 
 
-This header is not supported for <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_addressing_version">WS_ADDRESSING_VERSION_TRANSPORT</a>.
-
+This header is not supported for <a href="/windows/desktop/api/webservices/ne-webservices-ws_addressing_version">WS_ADDRESSING_VERSION_TRANSPORT</a>.

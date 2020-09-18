@@ -62,5 +62,4 @@ A NULL-terminated Unicode string that contains the ICC-ID of the SIM.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/eaptypes/ns-eaptypes-eapcredential">EapCredential</a>
-
+<a href="/windows/desktop/api/eaptypes/ns-eaptypes-eapcredential">EapCredential</a>

@@ -56,7 +56,7 @@ Retrieves all MMC profiles of the device that are marked as current.
 
 ### -param value [out]
 
-List of supported profiles that are marked as current for the device. Each element of the list is a <b>VARIANT</b> of type <b>VT_I4</b>. The <b>lVal</b> member of the variant contains the profile type. For possible values, see the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/ne-imapi2-imapi_profile_type">IMAPI_PROFILE_TYPE</a> enumeration.
+List of supported profiles that are marked as current for the device. Each element of the list is a <b>VARIANT</b> of type <b>VT_I4</b>. The <b>lVal</b> member of the variant contains the profile type. For possible values, see the <a href="/windows/desktop/api/imapi2/ne-imapi2-imapi_profile_type">IMAPI_PROFILE_TYPE</a> enumeration.
 
 ## -returns
 
@@ -370,13 +370,12 @@ Value: 0xC0AA0210
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-idiscrecorder2">IDiscRecorder2</a>
+<a href="/windows/desktop/api/imapi2/nn-imapi2-idiscrecorder2">IDiscRecorder2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2-get_supportedprofiles">IDiscRecorder2::get_SupportedProfiles</a>
+<a href="/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2-get_supportedprofiles">IDiscRecorder2::get_SupportedProfiles</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2ex-getsupportedprofiles">IDiscRecorder2Ex::GetSupportedProfiles</a>
-
+<a href="/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2ex-getsupportedprofiles">IDiscRecorder2Ex::GetSupportedProfiles</a>

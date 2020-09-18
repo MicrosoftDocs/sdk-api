@@ -60,7 +60,7 @@ The <b>DHCP_OPTION_SCOPE_INFO</b> structure defines information about the option
 
 ### -field ScopeType
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ne-dhcpsapi-dhcp_option_scope_type">DHCP_OPTION_SCOPE_TYPE</a> enumeration value that defines the scope type of the associated DHCP options, and indicates which of the following fields in the union will be populated.
+<a href="/windows/desktop/api/dhcpsapi/ne-dhcpsapi-dhcp_option_scope_type">DHCP_OPTION_SCOPE_TYPE</a> enumeration value that defines the scope type of the associated DHCP options, and indicates which of the following fields in the union will be populated.
 
 ### -field ScopeInfo.SubnetScopeInfo.case
 
@@ -86,19 +86,19 @@ The <b>DHCP_OPTION_SCOPE_INFO</b> structure defines information about the option
 
 ### -field ScopeInfo.DefaultScopeInfo
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_option_array">DHCP_OPTION_ARRAY</a> structure that contains the default DHCP scope options. This member is not currently used.
+Pointer to a <a href="/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_option_array">DHCP_OPTION_ARRAY</a> structure that contains the default DHCP scope options. This member is not currently used.
 
 ### -field ScopeInfo.GlobalScopeInfo
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_option_array">DHCP_OPTION_ARRAY</a> structure that contains the global DHCP server options.
+Pointer to a <a href="/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_option_array">DHCP_OPTION_ARRAY</a> structure that contains the global DHCP server options.
 
 ### -field ScopeInfo.SubnetScopeInfo
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/dhcp/dhcp-server-management-type-definitions">DHCP_IP_ADDRESS</a> value that contains the subnet ID as a DWORD.
+<a href="/previous-versions/windows/desktop/dhcp/dhcp-server-management-type-definitions">DHCP_IP_ADDRESS</a> value that contains the subnet ID as a DWORD.
 
 ### -field ScopeInfo.ReservedScopeInfo
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_reserved_scope">DHCP_RESERVED_SCOPE</a> structure that contains a reserved IP address and its corresponding subnet ID.
+<a href="/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_reserved_scope">DHCP_RESERVED_SCOPE</a> structure that contains a reserved IP address and its corresponding subnet ID.
 
 ### -field ScopeInfo.MScopeInfo
 
@@ -108,13 +108,12 @@ Pointer to a Unicode string that contains the multicast scope name (usually repr
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_option_array">DHCP_OPTION_ARRAY</a>
+<a href="/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_option_array">DHCP_OPTION_ARRAY</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ne-dhcpsapi-dhcp_option_scope_type">DHCP_OPTION_SCOPE_TYPE</a>
+<a href="/windows/desktop/api/dhcpsapi/ne-dhcpsapi-dhcp_option_scope_type">DHCP_OPTION_SCOPE_TYPE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_reserved_scope">DHCP_RESERVED_SCOPE</a>
-
+<a href="/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_reserved_scope">DHCP_RESERVED_SCOPE</a>

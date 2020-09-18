@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Gets the number of bytes of memory necessary to hold the record instance. This allows you to allocate memory for a record instance rather than calling <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-irecordinfo-recordcreate">RecordCreate</a>.
+Gets the number of bytes of memory necessary to hold the record instance. This allows you to allocate memory for a record instance rather than calling <a href="/previous-versions/windows/desktop/api/oaidl/nf-oaidl-irecordinfo-recordcreate">RecordCreate</a>.
 
 ## -parameters
 
@@ -95,5 +95,4 @@ One or more of the arguments is not valid.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-irecordinfo">IRecordInfo</a>
-
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-irecordinfo">IRecordInfo</a>

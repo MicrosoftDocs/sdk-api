@@ -57,9 +57,9 @@ Sets the material properties for the device.
 
 ### -param pMaterial [in]
 
-Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3dmaterial9">D3DMATERIAL9</a>*</b>
+Type: <b>const <a href="/windows/desktop/direct3d9/d3dmaterial9">D3DMATERIAL9</a>*</b>
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3dmaterial9">D3DMATERIAL9</a> structure, describing the material properties to set.
+Pointer to a <a href="/windows/desktop/direct3d9/d3dmaterial9">D3DMATERIAL9</a> structure, describing the material properties to set.
 
 ## -returns
 
@@ -69,9 +69,8 @@ If the method succeeds, the return value is D3D_OK. D3DERR_INVALIDCALL if the pM
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3ddevice9">IDirect3DDevice9</a>
+<a href="/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3ddevice9">IDirect3DDevice9</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-getmaterial">IDirect3DDevice9::GetMaterial</a>
-
+<a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-getmaterial">IDirect3DDevice9::GetMaterial</a>

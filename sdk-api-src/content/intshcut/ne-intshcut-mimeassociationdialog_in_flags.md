@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-Used with the <a href="https://docs.microsoft.com/windows/desktop/api/intshcut/nf-intshcut-mimeassociationdialoga">MIMEAssociationDialog</a> function to determine how it executes.
+Used with the <a href="/windows/desktop/api/intshcut/nf-intshcut-mimeassociationdialoga">MIMEAssociationDialog</a> function to determine how it executes.
 
 ## -enum-fields
 
@@ -63,4 +63,3 @@ If this bit is set, the selected application is registered as the handler for th
 ## -remarks
 
 An application is registered only if this flag is set and the user indicates that a persistent association is to be made.
-

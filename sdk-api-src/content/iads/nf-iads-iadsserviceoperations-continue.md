@@ -50,23 +50,22 @@ api_name:
 
 ## -description
 
-The <b>IADsServiceOperations::Continue</b> method resumes a service operation paused by the  <a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadsserviceoperations-pause">IADsServiceOperations::Pause</a> method.
+The <b>IADsServiceOperations::Continue</b> method resumes a service operation paused by the  <a href="/windows/desktop/api/iads/nf-iads-iadsserviceoperations-pause">IADsServiceOperations::Pause</a> method.
 
 ## -parameters
 
 ## -returns
 
-This method supports the standard return values, including S_OK. For more information about other return values, see  <a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-error-codes">ADSI Error Codes</a>.
+This method supports the standard return values, including S_OK. For more information about other return values, see  <a href="/windows/desktop/ADSI/adsi-error-codes">ADSI Error Codes</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsservice">IADsService</a>
+<a href="/windows/desktop/api/iads/nn-iads-iadsservice">IADsService</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsserviceoperations">IADsServiceOperations</a>
+<a href="/windows/desktop/api/iads/nn-iads-iadsserviceoperations">IADsServiceOperations</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadsserviceoperations-pause">IADsServiceOperations::Pause</a>
-
+<a href="/windows/desktop/api/iads/nf-iads-iadsserviceoperations-pause">IADsServiceOperations::Pause</a>

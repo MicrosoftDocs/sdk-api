@@ -60,9 +60,8 @@ The handle of the enumerator to close.
 
 ## -remarks
 
-The handle specified by <i>hEnum</i> is obtained from a previous <b>Enum</b><i>Name</i> call (for example, <a href="https://docs.microsoft.com/windows/desktop/api/rometadataapi/nf-rometadataapi-imetadataimport-enumtypedefs">IMetaDataImport::EnumTypeDefs</a>).
+The handle specified by <i>hEnum</i> is obtained from a previous <b>Enum</b><i>Name</i> call (for example, <a href="/windows/desktop/api/rometadataapi/nf-rometadataapi-imetadataimport-enumtypedefs">IMetaDataImport::EnumTypeDefs</a>).
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rometadataapi/nn-rometadataapi-imetadataimport">IMetaDataImport</a>
-
+<a href="/windows/desktop/api/rometadataapi/nn-rometadataapi-imetadataimport">IMetaDataImport</a>

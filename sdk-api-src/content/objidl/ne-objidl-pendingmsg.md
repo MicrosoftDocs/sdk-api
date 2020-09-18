@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-Specifies the return values for the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-imessagefilter-messagepending">IMessageFilter::MessagePending</a> method.
+Specifies the return values for the <a href="/windows/desktop/api/objidl/nf-objidl-imessagefilter-messagepending">IMessageFilter::MessagePending</a> method.
 
 ## -enum-fields
 
@@ -70,5 +70,4 @@ Wait and dispatch the message.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-imessagefilter-messagepending">IMessageFilter::MessagePending</a>
-
+<a href="/windows/desktop/api/objidl/nf-objidl-imessagefilter-messagepending">IMessageFilter::MessagePending</a>

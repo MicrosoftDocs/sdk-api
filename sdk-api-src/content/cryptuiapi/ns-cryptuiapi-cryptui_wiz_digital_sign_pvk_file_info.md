@@ -74,7 +74,7 @@ A pointer to a null-terminated Unicode string that contains the name of the prov
 
 ### -field dwProvType
 
-Contains the provider type identifier. For more information about the provider types, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptographic-provider-types">Cryptographic Provider Types</a>.
+Contains the provider type identifier. For more information about the provider types, see <a href="/windows/desktop/SecCrypto/cryptographic-provider-types">Cryptographic Provider Types</a>.
 
 ## -see-also
 
@@ -82,5 +82,4 @@ Contains the provider type identifier. For more information about the provider t
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptographic-provider-types">Cryptographic Provider Types</a>
-
+<a href="/windows/desktop/SecCrypto/cryptographic-provider-types">Cryptographic Provider Types</a>

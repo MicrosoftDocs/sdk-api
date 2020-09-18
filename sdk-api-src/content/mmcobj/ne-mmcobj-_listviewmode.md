@@ -56,8 +56,8 @@ api_name:
 
 The 
 <b>ListViewMode</b> enumeration is used by the 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/view-listviewmode">View.ListViewMode</a> property to define the list view. The list view can contain small icons, large icons, a simple list, a detailed list, or a filtered list. This enumeration applies to the 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/mmc-2-0-automation-object-model">MMC 2.0 Automation Object Model</a>.
+<a href="/previous-versions/windows/desktop/mmc/view-listviewmode">View.ListViewMode</a> property to define the list view. The list view can contain small icons, large icons, a simple list, a detailed list, or a filtered list. This enumeration applies to the 
+<a href="/previous-versions/windows/desktop/mmc/mmc-2-0-automation-object-model">MMC 2.0 Automation Object Model</a>.
 
 ## -enum-fields
 
@@ -83,9 +83,8 @@ A filtered list view is displayed.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/view-object">View object</a>
+<a href="/previous-versions/windows/desktop/mmc/view-object">View object</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/view-listviewmode">View.ListViewMode</a>
-
+<a href="/previous-versions/windows/desktop/mmc/view-listviewmode">View.ListViewMode</a>

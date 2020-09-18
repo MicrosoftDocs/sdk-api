@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Defines a spatial audio directivity model for an <a href="https://docs.microsoft.com/windows/desktop/api/spatialaudiohrtf/nn-spatialaudiohrtf-ispatialaudioobjectforhrtf">ISpatialAudioObjectForHrtf</a>.
+Defines a spatial audio directivity model for an <a href="/windows/desktop/api/spatialaudiohrtf/nn-spatialaudiohrtf-ispatialaudioobjectforhrtf">ISpatialAudioObjectForHrtf</a>.
 
 ## -struct-fields
 
@@ -68,4 +68,3 @@ And omni-direction directivity model that can be interpolated linearly with one 
 #### - Cardioid
 
  A cardioid-shaped directivity model
-

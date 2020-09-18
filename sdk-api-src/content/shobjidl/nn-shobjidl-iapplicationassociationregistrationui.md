@@ -54,7 +54,7 @@ Exposes a method that launches an advanced association dialog box through which 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IApplicationAssociationRegistrationUI</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IApplicationAssociationRegistrationUI</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IApplicationAssociationRegistrationUI</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IApplicationAssociationRegistrationUI</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IApplicationAssociationRegistrationUI</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nf-shobjidl-iapplicationassociationregistrationui-launchadvancedassociationui">LaunchAdvancedAssociationUI</a>
+<a href="/windows/desktop/api/shobjidl/nf-shobjidl-iapplicationassociationregistrationui-launchadvancedassociationui">LaunchAdvancedAssociationUI</a>
 </td>
 <td align="left" width="63%">
 Launches an advanced association dialog box through which the user can customize the associations for the application specified in <i>pszAppRegName</i>.
@@ -84,5 +84,4 @@ Because <b>IApplicationAssociationRegistrationUI</b> is only supported for Windo
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/shell/default-programs">Default Programs</a>
-
+<a href="/windows/desktop/shell/default-programs">Default Programs</a>

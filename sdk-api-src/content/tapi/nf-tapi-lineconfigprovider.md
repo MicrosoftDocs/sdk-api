@@ -58,7 +58,7 @@ The
 ### -param hwndOwner
 
 Handle to a window to which the configuration dialog box (displayed by 
-<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_providerconfig">TSPI_providerConfig</a>) is attached. Can be <b>NULL</b> to indicate that any window created during the function should have no owner window.
+<a href="/windows/desktop/api/tspi/nf-tspi-tspi_providerconfig">TSPI_providerConfig</a>) is attached. Can be <b>NULL</b> to indicate that any window created during the function should have no owner window.
 
 ### -param dwPermanentProviderID
 
@@ -73,13 +73,12 @@ LINEERR_INIFILECORRUPT, LINEERR_NOMEM, LINEERR_INVALPARAM, LINEERR_OPERATIONFAIL
 ## -remarks
 
 This is basically a straight pass-through to 
-<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_providerconfig">TSPI_providerConfig</a>.
+<a href="/windows/desktop/api/tspi/nf-tspi-tspi_providerconfig">TSPI_providerConfig</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/supplementary-line-service-functions">Supplementary Line Service Functions</a>
+<a href="/windows/desktop/Tapi/supplementary-line-service-functions">Supplementary Line Service Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/tapi-2-2-reference">TAPI 2.2 Reference Overview</a>
-
+<a href="/windows/desktop/Tapi/tapi-2-2-reference">TAPI 2.2 Reference Overview</a>

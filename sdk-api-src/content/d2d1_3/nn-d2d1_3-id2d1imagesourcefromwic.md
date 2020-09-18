@@ -54,7 +54,7 @@ Produces 2D pixel data that has been sourced from WIC.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID2D1ImageSourceFromWic</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3/nn-d2d1_3-id2d1imagesource">ID2D1ImageSource</a>. <b>ID2D1ImageSourceFromWic</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID2D1ImageSourceFromWic</b> interface inherits from <a href="/windows/desktop/api/d2d1_3/nn-d2d1_3-id2d1imagesource">ID2D1ImageSource</a>. <b>ID2D1ImageSourceFromWic</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ID2D1ImageSourceFromWic</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3/nf-d2d1_3-ensurecached">EnsureCached</a>
+<a href="/windows/desktop/api/d2d1_3/nf-d2d1_3-ensurecached">EnsureCached</a>
 </td>
 <td align="left" width="63%">Overloaded. Loads image data into caches of image sources if that data is not already cached.
 
@@ -77,7 +77,7 @@ The <b>ID2D1ImageSourceFromWic</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3/nf-d2d1_3-id2d1imagesourcefromwic-getsource">GetSource</a>
+<a href="/windows/desktop/api/d2d1_3/nf-d2d1_3-id2d1imagesourcefromwic-getsource">GetSource</a>
 </td>
 <td align="left" width="63%">
 Retrieves the underlying bitmap image source from the Windows Imaging Component (WIC).
@@ -86,7 +86,7 @@ Retrieves the underlying bitmap image source from the Windows Imaging Component 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3/nf-d2d1_3-trimcache">TrimCache</a>
+<a href="/windows/desktop/api/d2d1_3/nf-d2d1_3-trimcache">TrimCache</a>
 </td>
 <td align="left" width="63%">Overloaded. Trims the populated regions of the image source cache to just the specified rectangle.
 
@@ -97,5 +97,4 @@ Retrieves the underlying bitmap image source from the Windows Imaging Component 
 ## -remarks
 
 Create an an instance of ID2D1ImageSourceFromWic 
-          using [ID2D1DeviceContext2::CreateImageSourceFromWic](/windows/win32/api/d2d1_3/nf-d2d1_3-id2d1devicecontext2-createimagesourcefromwic(iwicbitmapsource_d2d1_image_source_loading_options_d2d1_alpha_mode_id2d1imagesourcefromwic)).
-
+          using [ID2D1DeviceContext2::CreateImageSourceFromWic](./nf-d2d1_3-id2d1devicecontext2-createimagesourcefromwic(iwicbitmapsource_d2d1_image_source_loading_options_d2d1_alpha_mode_id2d1imagesourcefromwic).md).

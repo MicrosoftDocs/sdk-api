@@ -150,7 +150,7 @@ The name service is unavailable.
  
 
 <div class="alert"><b>Note</b>  For a list of valid error codes, see 
-<a href="https://docs.microsoft.com/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
+<a href="/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
 <div> </div>
 
 ## -remarks
@@ -160,7 +160,7 @@ The
 
 If the <i>GroupName</i> entry does not exist, 
 <b>RpcNsGroupMbrAdd</b> tries to create the entry with a group attribute and adds the group member specified by <i>MemberName</i>. In this case, the application must have the privilege to create the entry. Otherwise, a management application with the necessary privilege should create the entry by calling 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsmgmtentrycreatea">RpcNsMgmtEntryCreate</a> before the application is run.
+<a href="/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsmgmtentrycreatea">RpcNsMgmtEntryCreate</a> before the application is run.
 
 <div class="alert"><b>Note</b>  Windows 2000 Active Directory supports this function. Earlier versions of Windows NT support the use of this function with Cell Directory Service (CDS) only.</div>
 <div> </div>
@@ -173,9 +173,8 @@ If the <i>GroupName</i> entry does not exist,
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsgroupmbrremovea">RpcNsGroupMbrRemove</a>
+<a href="/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsgroupmbrremovea">RpcNsGroupMbrRemove</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsmgmtentrycreatea">RpcNsMgmtEntryCreate</a>
-
+<a href="/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsmgmtentrycreatea">RpcNsMgmtEntryCreate</a>

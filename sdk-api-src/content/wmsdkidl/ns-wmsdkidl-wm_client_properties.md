@@ -66,13 +66,12 @@ The <b>WM_CLIENT_PROPERTIES </b>structure records information about the client.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmclientconnections-getclientproperties">IWMClientConnections::GetClientProperties</a>
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmclientconnections-getclientproperties">IWMClientConnections::GetClientProperties</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/wmformat/structures">Structures</a>
+<a href="/windows/desktop/wmformat/structures">Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/ne-wmsdkidl-wmt_net_protocol">WMT_NET_PROTOCOL</a>
-
+<a href="/windows/desktop/api/wmsdkidl/ne-wmsdkidl-wmt_net_protocol">WMT_NET_PROTOCOL</a>

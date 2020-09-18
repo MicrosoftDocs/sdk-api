@@ -58,8 +58,8 @@ api_name:
 
 Frees 
     physical memory pages that are allocated previously by using 
-    <a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-allocateuserphysicalpages">AllocateUserPhysicalPages</a> or <a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-allocateuserphysicalpagesnuma">AllocateUserPhysicalPagesNuma</a>. If any of these 
-    pages are currently mapped in the <a href="https://docs.microsoft.com/windows/desktop/Memory/address-windowing-extensions">Address Windowing Extensions</a> (AWE) region, they are automatically unmapped by this call. This does not 
+    <a href="/windows/desktop/api/memoryapi/nf-memoryapi-allocateuserphysicalpages">AllocateUserPhysicalPages</a> or <a href="/windows/desktop/api/memoryapi/nf-memoryapi-allocateuserphysicalpagesnuma">AllocateUserPhysicalPagesNuma</a>. If any of these 
+    pages are currently mapped in the <a href="/windows/desktop/Memory/address-windowing-extensions">Address Windowing Extensions</a> (AWE) region, they are automatically unmapped by this call. This does not 
     affect the virtual address space that is occupied by a specified Address Windowing Extensions (AWE) region.
 
 <b>64-bit Windows on Itanium-based systems:  </b>Due to the difference in page sizes, 
@@ -91,44 +91,43 @@ If the function succeeds, the return value is <b>TRUE</b>.
 
 If the function fails, the return value is <b>FALSE</b>. In this case, the <i>NumberOfPages</i> 
        parameter reflect how many pages have actually been released. To get extended error information, call 
-       <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+       <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
 In a multiprocessor environment, this function maintains coherence of the hardware translation buffer. When this function returns, all threads on all processors are guaranteed to see the correct mapping.
 
 To compile an application that uses this function, define the _WIN32_WINNT macro as 0x0500 or later. For more 
-    information, see <a href="https://docs.microsoft.com/windows/desktop/WinProg/using-the-windows-headers">Using the Windows 
+    information, see <a href="/windows/desktop/WinProg/using-the-windows-headers">Using the Windows 
     Headers</a>.
 
 
 #### Examples
 
-For an example, see <a href="https://docs.microsoft.com/windows/desktop/Memory/awe-example">AWE Example</a>.
+For an example, see <a href="/windows/desktop/Memory/awe-example">AWE Example</a>.
 
 <div class="code"></div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Memory/address-windowing-extensions">Address Windowing Extensions</a>
+<a href="/windows/desktop/Memory/address-windowing-extensions">Address Windowing Extensions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-allocateuserphysicalpages">AllocateUserPhysicalPages</a>
+<a href="/windows/desktop/api/memoryapi/nf-memoryapi-allocateuserphysicalpages">AllocateUserPhysicalPages</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-allocateuserphysicalpagesnuma">AllocateUserPhysicalPagesNuma</a>
+<a href="/windows/desktop/api/memoryapi/nf-memoryapi-allocateuserphysicalpagesnuma">AllocateUserPhysicalPagesNuma</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-mapuserphysicalpages">MapUserPhysicalPages</a>
+<a href="/windows/desktop/api/memoryapi/nf-memoryapi-mapuserphysicalpages">MapUserPhysicalPages</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-mapuserphysicalpagesscatter">MapUserPhysicalPagesScatter</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-mapuserphysicalpagesscatter">MapUserPhysicalPagesScatter</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Memory/memory-management-functions">Memory Management Functions</a>
-
+<a href="/windows/desktop/Memory/memory-management-functions">Memory Management Functions</a>

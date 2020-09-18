@@ -473,18 +473,17 @@ The start of the message, including the current set of headers that exist in the
                 are written to the channel.
             
 
-This function is like <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wswriteenvelopestart">WsWriteEnvelopeStart</a> but is used with channels.
+This function is like <a href="/windows/desktop/api/webservices/nf-webservices-wswriteenvelopestart">WsWriteEnvelopeStart</a> but is used with channels.
             
 
-The message must be in <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_message_state">WS_MESSAGE_STATE_INITIALIZED</a> state.  Upon success,
+The message must be in <a href="/windows/desktop/api/webservices/ne-webservices-ws_message_state">WS_MESSAGE_STATE_INITIALIZED</a> state.  Upon success,
                 the message will have transitioned to <b>WS_MESSAGE_STATE_WRITING</b> state.
             
 
-To serialize an element of the message body, use <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wswritebody">WsWriteBody</a>.  To write
+To serialize an element of the message body, use <a href="/windows/desktop/api/webservices/nf-webservices-wswritebody">WsWriteBody</a>.  To write
                 directly to the XML Writer of the message, first get the reader using
-                the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_message_property_id">WS_MESSAGE_PROPERTY_BODY_WRITER</a> property.
+                the <a href="/windows/desktop/api/webservices/ne-webservices-ws_message_property_id">WS_MESSAGE_PROPERTY_BODY_WRITER</a> property.
             
 
-If the channel output is streamed (<a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_transfer_mode">WS_STREAMED_OUTPUT_TRANSFER_MODE</a>), then
-                <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsflushbody">WsFlushBody</a> must be called to actually transmit each part of the body.
-
+If the channel output is streamed (<a href="/windows/desktop/api/webservices/ne-webservices-ws_transfer_mode">WS_STREAMED_OUTPUT_TRANSFER_MODE</a>), then
+                <a href="/windows/desktop/api/webservices/nf-webservices-wsflushbody">WsFlushBody</a> must be called to actually transmit each part of the body.

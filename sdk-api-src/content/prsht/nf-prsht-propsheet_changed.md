@@ -50,19 +50,19 @@ api_name:
 
 ## -description
 
-Informs a property sheet that information in a page has changed. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/psm-changed">PSM_CHANGED</a> message explicitly.
+Informs a property sheet that information in a page has changed. You can use this macro or send the <a href="/windows/desktop/Controls/psm-changed">PSM_CHANGED</a> message explicitly.
 
 ## -parameters
 
 ### -param hDlg
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 Handle to the property sheet.
 
 ### -param hwnd
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 Handle to the page that has changed.
 
@@ -70,6 +70,5 @@ Handle to the page that has changed.
 
 The property sheet enables the <b>Apply</b> button.
 
-<div class="alert"><b>Note</b>  This macro is not supported when using the Aero wizard style (<a href="https://docs.microsoft.com/windows/desktop/api/prsht/ns-prsht-propsheetheadera_v2">PSH_AEROWIZARD</a>).</div>
+<div class="alert"><b>Note</b>  This macro is not supported when using the Aero wizard style (<a href="/windows/desktop/api/prsht/ns-prsht-propsheetheadera_v2">PSH_AEROWIZARD</a>).</div>
 <div> </div>
-

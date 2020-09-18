@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>DsGetIcon</b> function obtains the icon for a given object class. This function is obsolete. New applications should use the <a href="https://docs.microsoft.com/windows/desktop/api/dsclient/nf-dsclient-idsdisplayspecifier-geticon">IDsDisplaySpecifier::GetIcon</a> method to perform this function.
+The <b>DsGetIcon</b> function obtains the icon for a given object class. This function is obsolete. New applications should use the <a href="/windows/desktop/api/dsclient/nf-dsclient-idsdisplayspecifier-geticon">IDsDisplaySpecifier::GetIcon</a> method to perform this function.
 
 ## -parameters
 
@@ -102,13 +102,12 @@ Contains the desired height, in pixels, of the icon. This function retrieves the
 
 ## -returns
 
-Returns a handle to the icon if successful or <b>NULL</b> otherwise. The caller must destroy this icon when it is no longer required by passing this handle to <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-destroyicon">DestroyIcon</a>.
+Returns a handle to the icon if successful or <b>NULL</b> otherwise. The caller must destroy this icon when it is no longer required by passing this handle to <a href="/windows/desktop/api/winuser/nf-winuser-destroyicon">DestroyIcon</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-destroyicon">DestroyIcon</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-destroyicon">DestroyIcon</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dsclient/nf-dsclient-idsdisplayspecifier-geticon">IDsDisplaySpecifier::GetIcon</a>
-
+<a href="/windows/desktop/api/dsclient/nf-dsclient-idsdisplayspecifier-geticon">IDsDisplaySpecifier::GetIcon</a>

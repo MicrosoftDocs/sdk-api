@@ -50,17 +50,17 @@ api_name:
 
 ## -description
 
-The <b>CertSetCertificateContextPropertiesFromCTLEntry</b> function sets the properties on the certificate context by using the attributes in the specified <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate trust list</a> (CTL) entry.
+The <b>CertSetCertificateContextPropertiesFromCTLEntry</b> function sets the properties on the certificate context by using the attributes in the specified <a href="/windows/desktop/SecGloss/c-gly">certificate trust list</a> (CTL) entry.
 
 ## -parameters
 
 ### -param pCertContext [in]
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a> whose attributes are to be set.
+A pointer to the <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a> whose attributes are to be set.
 
 ### -param pCtlEntry [in]
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-ctl_entry">CTL_ENTRY</a> structure used to set the attributes on the certificate.
+A pointer to the <a href="/windows/desktop/api/wincrypt/ns-wincrypt-ctl_entry">CTL_ENTRY</a> structure used to set the attributes on the certificate.
 
 ### -param dwFlags [in]
 
@@ -71,17 +71,16 @@ A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/wincryp
 If the function succeeds, the function returns nonzero.
 
   If the function fails, it returns zero.  For extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a>
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-ctl_entry">CTL_ENTRY</a>
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-ctl_entry">CTL_ENTRY</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>
-
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>

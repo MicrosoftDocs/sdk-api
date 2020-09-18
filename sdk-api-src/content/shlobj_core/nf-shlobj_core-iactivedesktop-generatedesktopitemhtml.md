@@ -64,7 +64,7 @@ A string value that contains the name under which to store the HTML file.
 
 Type: <b>LPCOMPONENT</b>
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/ns-shlobj_core-component">COMPONENT</a> structure of the desktop item to insert in the HTML page.
+A pointer to the <a href="/windows/desktop/api/shlobj_core/ns-shlobj_core-component">COMPONENT</a> structure of the desktop item to insert in the HTML page.
 
 ### -param dwReserved
 
@@ -80,5 +80,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nn-shlobj_core-iactivedesktop">IActiveDesktop</a>
-
+<a href="/windows/desktop/api/shlobj_core/nn-shlobj_core-iactivedesktop">IActiveDesktop</a>

@@ -64,11 +64,11 @@ The zero-based index of the scan for which data is retrieved.
 
 Type: <b>UINT</b>
 
-The index of the AC Huffman table to retrieve. Valid indices for a given scan can be determined by retrieving the scan header with <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicjpegframedecode-getscanheader">IWICJpegFrameDecode::GetScanHeader</a>.
+The index of the AC Huffman table to retrieve. Valid indices for a given scan can be determined by retrieving the scan header with <a href="/windows/desktop/api/wincodec/nf-wincodec-iwicjpegframedecode-getscanheader">IWICJpegFrameDecode::GetScanHeader</a>.
 
 ### -param pAcHuffmanTable [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/direct3ddxgi/dxgi-jpeg-ac-huffman-table">DXGI_JPEG_AC_HUFFMAN_TABLE</a>*</b>
+Type: <b><a href="/windows/desktop/direct3ddxgi/dxgi-jpeg-ac-huffman-table">DXGI_JPEG_AC_HUFFMAN_TABLE</a>*</b>
 
 A pointer that receives the table data. This parameter must not be NULL.
 
@@ -120,9 +120,8 @@ Can occur if <i>pAcHuffmanTable</i> is NULL or if <i>tableIndex</i> does not poi
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicjpegframedecode">IWICJpegFrameDecode</a>
+<a href="/windows/desktop/api/wincodec/nn-wincodec-iwicjpegframedecode">IWICJpegFrameDecode</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicjpegframeencode">IWICJpegFrameEncode</a>
-
+<a href="/windows/desktop/api/wincodec/nn-wincodec-iwicjpegframeencode">IWICJpegFrameEncode</a>

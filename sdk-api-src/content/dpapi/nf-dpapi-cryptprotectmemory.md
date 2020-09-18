@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>CryptProtectMemory</b> function <a href="https://docs.microsoft.com/windows/desktop/SecGloss/e-gly">encrypts</a> memory to prevent others from viewing sensitive information in your process. For example, use the <b>CryptProtectMemory</b> function to encrypt memory that contains a password. Encrypting the password prevents others from viewing it when the process is paged out to the swap file. Otherwise, the password is in <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">plaintext</a> and viewable by others.
+The <b>CryptProtectMemory</b> function <a href="/windows/desktop/SecGloss/e-gly">encrypts</a> memory to prevent others from viewing sensitive information in your process. For example, use the <b>CryptProtectMemory</b> function to encrypt memory that contains a password. Encrypting the password prevents others from viewing it when the process is paged out to the swap file. Otherwise, the password is in <a href="/windows/desktop/SecGloss/p-gly">plaintext</a> and viewable by others.
 
 ## -parameters
 
@@ -107,19 +107,19 @@ Use the same logon credentials to encrypt and decrypt memory in different proces
 
 If the function succeeds, the function returns <b>TRUE</b>.
 
-If the function fails, it returns <b>FALSE</b>. For extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+If the function fails, it returns <b>FALSE</b>. For extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
-Using  <a href="https://docs.microsoft.com/windows/desktop/api/dpapi/nf-dpapi-cryptprotectmemory">CryptProtectMemory</a> and <a href="https://docs.microsoft.com/windows/desktop/api/dpapi/nf-dpapi-cryptunprotectmemory">CryptUnprotectMemory</a> for password encryption is not secure because the data exists as plaintext in memory before it is encrypted and at any time the caller decrypts it for use.
+Using  <a href="/windows/desktop/api/dpapi/nf-dpapi-cryptprotectmemory">CryptProtectMemory</a> and <a href="/windows/desktop/api/dpapi/nf-dpapi-cryptunprotectmemory">CryptUnprotectMemory</a> for password encryption is not secure because the data exists as plaintext in memory before it is encrypted and at any time the caller decrypts it for use.
 
-Typically, you use the <b>CryptProtectMemory</b> function to encrypt sensitive information that you are going to decrypt while your process is running.  Do not use this function to save data that you want to decrypt later; you will not be able to decrypt the data if the computer is restarted. To save encrypted data to a file to decrypt later, use the <a href="https://docs.microsoft.com/windows/desktop/api/dpapi/nf-dpapi-cryptprotectdata">CryptProtectData</a> function.  
+Typically, you use the <b>CryptProtectMemory</b> function to encrypt sensitive information that you are going to decrypt while your process is running.  Do not use this function to save data that you want to decrypt later; you will not be able to decrypt the data if the computer is restarted. To save encrypted data to a file to decrypt later, use the <a href="/windows/desktop/api/dpapi/nf-dpapi-cryptprotectdata">CryptProtectData</a> function.  
 
-Call the <a href="https://docs.microsoft.com/windows/desktop/api/dpapi/nf-dpapi-cryptunprotectmemory">CryptUnprotectMemory</a> function to decrypt memory encrypted with the <b>CryptProtectMemory</b> function.  When you have finished using the sensitive information, clear it from memory by calling the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa366877(v=vs.85)">SecureZeroMemory</a> function. 
+Call the <a href="/windows/desktop/api/dpapi/nf-dpapi-cryptunprotectmemory">CryptUnprotectMemory</a> function to decrypt memory encrypted with the <b>CryptProtectMemory</b> function.  When you have finished using the sensitive information, clear it from memory by calling the <a href="/previous-versions/windows/desktop/legacy/aa366877(v=vs.85)">SecureZeroMemory</a> function. 
 
 Use the CRYPTPROTECTMEMORY_CROSS_PROCESS or CRYPTPROTECTMEMORY_SAME_LOGON flag if you use RPC or LRPC to pass encrypted data to another process. The receiving process must specify the same flag to decrypt the data. Also, use these flags if you use shared memory.
 
-If the client uses the CRYPTPROTECTMEMORY_SAME_LOGON flag, the server must impersonate the client (<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcimpersonateclient">RpcImpersonateClient</a>) before decrypting the memory. 
+If the client uses the CRYPTPROTECTMEMORY_SAME_LOGON flag, the server must impersonate the client (<a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcimpersonateclient">RpcImpersonateClient</a>) before decrypting the memory. 
 
 
 #### Examples
@@ -180,17 +180,16 @@ void main()
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dpapi/nf-dpapi-cryptprotectdata">CryptProtectData</a>
+<a href="/windows/desktop/api/dpapi/nf-dpapi-cryptprotectdata">CryptProtectData</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dpapi/nf-dpapi-cryptunprotectmemory">CryptUnprotectMemory</a>
+<a href="/windows/desktop/api/dpapi/nf-dpapi-cryptunprotectmemory">CryptUnprotectMemory</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-rtldecryptmemory">RtlDecryptMemory</a>
+<a href="/windows/desktop/api/ntsecapi/nf-ntsecapi-rtldecryptmemory">RtlDecryptMemory</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-rtlencryptmemory">RtlEncryptMemory</a>
-
+<a href="/windows/desktop/api/ntsecapi/nf-ntsecapi-rtlencryptmemory">RtlEncryptMemory</a>

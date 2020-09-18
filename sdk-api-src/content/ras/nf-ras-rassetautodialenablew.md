@@ -53,7 +53,7 @@ api_name:
 ## -description
 
 The 
-<b>RasSetAutodialEnable</b> function enables or disables the AutoDial feature for a specified TAPI dialing location. For more information about TAPI dialing locations, see  <a href="https://docs.microsoft.com/windows/desktop/Tapi/telephony-application-programming-interfaces">Telephony Application Programming Interfaces (TAPI)</a>  in the Platform Software Development Kit (SDK).
+<b>RasSetAutodialEnable</b> function enables or disables the AutoDial feature for a specified TAPI dialing location. For more information about TAPI dialing locations, see  <a href="/windows/desktop/Tapi/telephony-application-programming-interfaces">Telephony Application Programming Interfaces (TAPI)</a>  in the Platform Software Development Kit (SDK).
 
 ## -parameters
 
@@ -69,22 +69,21 @@ Specifies <b>TRUE</b> to enable AutoDial for the dialing location indicated by t
 
 If the function succeeds, the return value is <b>ERROR_SUCCESS</b>.
 
-If the function fails, the return value is a non-zero error code from <a href="https://docs.microsoft.com/windows/desktop/RRAS/routing-and-remote-access-error-codes">Routing and Remote Access Error Codes</a> or Winerror.h.
+If the function fails, the return value is a non-zero error code from <a href="/windows/desktop/RRAS/routing-and-remote-access-error-codes">Routing and Remote Access Error Codes</a> or Winerror.h.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ras/nf-ras-rasgetautodialenablea">RasGetAutodialEnable</a>
+<a href="/windows/desktop/api/ras/nf-ras-rasgetautodialenablea">RasGetAutodialEnable</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/about-remote-access-service">Remote Access Service (RAS) Overview</a>
+<a href="/windows/desktop/RRAS/about-remote-access-service">Remote Access Service (RAS) Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/remote-access-service-functions">Remote Access Service Functions</a>
+<a href="/windows/desktop/RRAS/remote-access-service-functions">Remote Access Service Functions</a>
 
 ## -remarks
 
 > [!NOTE]
 > The ras.h header defines RasSetAutodialEnable as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

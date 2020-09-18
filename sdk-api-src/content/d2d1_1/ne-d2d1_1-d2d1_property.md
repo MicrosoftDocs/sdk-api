@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Specifies the indices of the system properties present on the <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1properties">ID2D1Properties</a> interface for an <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1effect">ID2D1Effect</a>.
+Specifies the indices of the system properties present on the <a href="/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1properties">ID2D1Properties</a> interface for an <a href="/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1effect">ID2D1Effect</a>.
 
 ## -enum-fields
 
@@ -98,37 +98,36 @@ The maximum number of inputs supported by the effect.
 
 ## -remarks
 
-Under normal circumstances the minimum and maximum number of inputs to the effect are the same. If the effect supports a variable number of inputs, the <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1effect-setinputcount">ID2D1Effect::SetNumberOfInputs</a> method can be used to choose the number that the application will enable.
+Under normal circumstances the minimum and maximum number of inputs to the effect are the same. If the effect supports a variable number of inputs, the <a href="/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1effect-setinputcount">ID2D1Effect::SetNumberOfInputs</a> method can be used to choose the number that the application will enable.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1properties">ID2D1Properties</a>
+<a href="/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1properties">ID2D1Properties</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1properties-getpropertyname(uint32_pwstr_uint32)">ID2D1Properties::GetPropertyName</a>
+<a href="/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1properties-getpropertyname(uint32_pwstr_uint32)">ID2D1Properties::GetPropertyName</a>
 
 
 
-[ID2D1Properties::GetPropertyNameLength](/windows/win32/api/d2d1_1/nf-d2d1_1-id2d1properties-getpropertynamelength(u))
+[ID2D1Properties::GetPropertyNameLength](./nf-d2d1_1-id2d1properties-getpropertynamelength(u).md)
 
 
 
-[ID2D1Properties::GetSubProperties](/windows/win32/api/d2d1_1/nf-d2d1_1-id2d1properties-getsubproperties(u_id2d1properties))
+[ID2D1Properties::GetSubProperties](./nf-d2d1_1-id2d1properties-getsubproperties(u_id2d1properties).md)
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1properties-gettype(u_)">ID2D1Properties::GetType</a>
+<a href="/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1properties-gettype(u_)">ID2D1Properties::GetType</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1properties-getvalue(uint32_byte_uint32)">ID2D1Properties::GetValue</a>
+<a href="/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1properties-getvalue(uint32_byte_uint32)">ID2D1Properties::GetValue</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1properties-getvaluesize(u_)">ID2D1Properties::GetValueSize</a>
+<a href="/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1properties-getvaluesize(u_)">ID2D1Properties::GetValueSize</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1properties-setvalue(uint32_constbyte_uint32)">ID2D1Properties::SetValue</a>
-
+<a href="/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1properties-setvalue(uint32_constbyte_uint32)">ID2D1Properties::SetValue</a>

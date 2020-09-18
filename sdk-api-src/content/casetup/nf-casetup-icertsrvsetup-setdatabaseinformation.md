@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>SetDatabaseInformation</b> method sets the database related information for the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certification authority</a> (CA) role.
+The <b>SetDatabaseInformation</b> method sets the database related information for the <a href="/windows/desktop/SecGloss/c-gly">certification authority</a> (CA) role.
 
 ## -parameters
 
@@ -74,9 +74,8 @@ A value that indicates whether to overwrite any existing database files in the s
 
 The <b>SetDatabaseInformation</b> method creates the specified directories if they do not exist.
 
-Upon failure, the <b>SetDatabaseInformation</b> method might set additional error information in the <a href="https://docs.microsoft.com/windows/desktop/api/casetup/nf-casetup-icertsrvsetup-get_caerrorid">CAErrorId</a> and <a href="https://docs.microsoft.com/windows/desktop/api/casetup/nf-casetup-icertsrvsetup-get_caerrorstring">CAErrorString</a> properties.
+Upon failure, the <b>SetDatabaseInformation</b> method might set additional error information in the <a href="/windows/desktop/api/casetup/nf-casetup-icertsrvsetup-get_caerrorid">CAErrorId</a> and <a href="/windows/desktop/api/casetup/nf-casetup-icertsrvsetup-get_caerrorstring">CAErrorString</a> properties.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/casetup/nn-casetup-icertsrvsetup">ICertSrvSetup</a>
-
+<a href="/windows/desktop/api/casetup/nn-casetup-icertsrvsetup">ICertSrvSetup</a>

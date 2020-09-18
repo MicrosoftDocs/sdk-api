@@ -56,11 +56,10 @@ Gets the paint type.
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1svg/ne-d2d1svg-d2d1_svg_paint_type">D2D1_SVG_PAINT_TYPE</a></b>
+Type: <b><a href="/windows/desktop/api/d2d1svg/ne-d2d1svg-d2d1_svg_paint_type">D2D1_SVG_PAINT_TYPE</a></b>
 
 Returns the paint type.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1svg/nn-d2d1svg-id2d1svgpaint">ID2D1SvgPaint</a>
-
+<a href="/windows/desktop/api/d2d1svg/nn-d2d1svg-id2d1svgpaint">ID2D1SvgPaint</a>

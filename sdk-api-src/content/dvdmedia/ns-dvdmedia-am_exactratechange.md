@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The AM_ExactRateChange structure is not supported. Use <a href="https://docs.microsoft.com/windows/desktop/api/dvdmedia/ns-dvdmedia-am_simpleratechange">AM_SimpleRateChange</a>.
+The AM_ExactRateChange structure is not supported. Use <a href="/windows/desktop/api/dvdmedia/ns-dvdmedia-am_simpleratechange">AM_SimpleRateChange</a>.
 
 ## -struct-fields
 
@@ -64,5 +64,4 @@ Reserved.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/rate-change-property-set">Rate Change Property Set</a>
-
+<a href="/windows/desktop/DirectShow/rate-change-property-set">Rate Change Property Set</a>

@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>MCIWndPlayFrom</b> macro plays the content of an MCI device from the specified location to the end of the content or until another command stops playback. You can use this macro or explicitly send the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/mciwndm-playfrom">MCIWNDM_PLAYFROM</a> message.
+The <b>MCIWndPlayFrom</b> macro plays the content of an MCI device from the specified location to the end of the content or until another command stops playback. You can use this macro or explicitly send the <a href="/windows/desktop/Multimedia/mciwndm-playfrom">MCIWNDM_PLAYFROM</a> message.
 
 ## -parameters
 
@@ -64,5 +64,4 @@ Starting location. The units for the starting location depend on the current tim
 
 ## -remarks
 
-You can also specify both a starting and ending location for playback by using the <a href="https://docs.microsoft.com/windows/desktop/api/vfw/nf-vfw-mciwndplayfromto">MCIWndPlayFromTo</a> macro.
-
+You can also specify both a starting and ending location for playback by using the <a href="/windows/desktop/api/vfw/nf-vfw-mciwndplayfromto">MCIWndPlayFromTo</a> macro.

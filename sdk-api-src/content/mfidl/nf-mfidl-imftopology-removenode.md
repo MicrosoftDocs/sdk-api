@@ -57,7 +57,7 @@ Removes a node from the topology.
 
 ### -param pNode [in]
 
-Pointer to the node's <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imftopologynode">IMFTopologyNode</a> interface.
+Pointer to the node's <a href="/windows/desktop/api/mfidl/nn-mfidl-imftopologynode">IMFTopologyNode</a> interface.
 
 ## -returns
 
@@ -94,15 +94,14 @@ The specified node is not a member of this topology.
 
 ## -remarks
 
-This method does not destroy the node, so the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imftopologynode">IMFTopologyNode</a> pointer is still valid after the method returns.
+This method does not destroy the node, so the <a href="/windows/desktop/api/mfidl/nn-mfidl-imftopologynode">IMFTopologyNode</a> pointer is still valid after the method returns.
 
 The method breaks any connections between the specified node and other nodes.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imftopology">IMFTopology</a>
+<a href="/windows/desktop/api/mfidl/nn-mfidl-imftopology">IMFTopology</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/topologies">Topologies</a>
-
+<a href="/windows/desktop/medfound/topologies">Topologies</a>

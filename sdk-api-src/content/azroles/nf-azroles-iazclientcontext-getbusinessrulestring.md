@@ -65,9 +65,8 @@ The return value is an <b>HRESULT</b>. A value of S_OK indicates success. Any ot
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazbizrulecontext-get_businessrulestring">BusinessRuleString</a>
+<a href="/windows/desktop/api/azroles/nf-azroles-iazbizrulecontext-get_businessrulestring">BusinessRuleString</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazclientcontext">IAzClientContext</a>
-
+<a href="/windows/desktop/api/azroles/nn-azroles-iazclientcontext">IAzClientContext</a>

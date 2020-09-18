@@ -55,7 +55,7 @@ api_name:
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IOfflineFilesEvents2</b> interface inherits from <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nn-cscobj-iofflinefilesevents">IOfflineFilesEvents</a>. <b>IOfflineFilesEvents2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IOfflineFilesEvents2</b> interface inherits from <a href="/previous-versions/windows/desktop/api/cscobj/nn-cscobj-iofflinefilesevents">IOfflineFilesEvents</a>. <b>IOfflineFilesEvents2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>IOfflineFilesEvents2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilesevents2-backgroundsyncbegin">BackgroundSyncBegin</a>
+<a href="/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilesevents2-backgroundsyncbegin">BackgroundSyncBegin</a>
 </td>
 <td align="left" width="63%">
 Reports that the Offline Files service is beginning to perform a background synchronization pass.
@@ -79,7 +79,7 @@ Reports that the Offline Files service is beginning to perform a background sync
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilesevents2-backgroundsyncend">BackgroundSyncEnd</a>
+<a href="/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilesevents2-backgroundsyncend">BackgroundSyncEnd</a>
 </td>
 <td align="left" width="63%">
 Reports that the Offline Files service completed a background synchronization pass.
@@ -88,7 +88,7 @@ Reports that the Offline Files service completed a background synchronization pa
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilesevents2-cacheevictbegin">CacheEvictBegin</a>
+<a href="/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilesevents2-cacheevictbegin">CacheEvictBegin</a>
 </td>
 <td align="left" width="63%">
 This method is reserved for future use.
@@ -97,7 +97,7 @@ This method is reserved for future use.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilesevents2-cacheevictend">CacheEvictEnd</a>
+<a href="/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilesevents2-cacheevictend">CacheEvictEnd</a>
 </td>
 <td align="left" width="63%">
 This method is reserved for future use.
@@ -106,7 +106,7 @@ This method is reserved for future use.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilesevents2-itemreconnectbegin">ItemReconnectBegin</a>
+<a href="/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilesevents2-itemreconnectbegin">ItemReconnectBegin</a>
 </td>
 <td align="left" width="63%">
 Reports that the Offline Files service is beginning to attempt to reconnect all offline scopes.
@@ -115,7 +115,7 @@ Reports that the Offline Files service is beginning to attempt to reconnect all 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilesevents2-itemreconnectend">ItemReconnectEnd</a>
+<a href="/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilesevents2-itemreconnectend">ItemReconnectEnd</a>
 </td>
 <td align="left" width="63%">
 Reports that the Offline Files service has completed its attempt to reconnect all offline scopes.
@@ -124,7 +124,7 @@ Reports that the Offline Files service has completed its attempt to reconnect al
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilesevents2-policychangedetected">PolicyChangeDetected</a>
+<a href="/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilesevents2-policychangedetected">PolicyChangeDetected</a>
 </td>
 <td align="left" width="63%">
 Reports that the Offline Files service detected a change in one or more of its setting values that are controlled by Group Policy.
@@ -133,7 +133,7 @@ Reports that the Offline Files service detected a change in one or more of its s
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilesevents2-preferencechangedetected">PreferenceChangeDetected</a>
+<a href="/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilesevents2-preferencechangedetected">PreferenceChangeDetected</a>
 </td>
 <td align="left" width="63%">
 Reports that the Offline Files service detected a change in one or more of its setting values that are not controlled by Group Policy.
@@ -142,7 +142,7 @@ Reports that the Offline Files service detected a change in one or more of its s
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilesevents2-settingschangesapplied">SettingsChangesApplied</a>
+<a href="/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilesevents2-settingschangesapplied">SettingsChangesApplied</a>
 </td>
 <td align="left" width="63%">
 Reports that the Offline Files service has applied the changes that were detected in Group Policy or preference values.
@@ -153,9 +153,8 @@ Reports that the Offline Files service has applied the changes that were detecte
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nn-cscobj-iofflinefilesevents">IOfflineFilesEvents</a>
+<a href="/previous-versions/windows/desktop/api/cscobj/nn-cscobj-iofflinefilesevents">IOfflineFilesEvents</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/offlinefiles/offline-files-api-interfaces">Offline Files API Interfaces</a>
-
+<a href="/previous-versions/windows/desktop/offlinefiles/offline-files-api-interfaces">Offline Files API Interfaces</a>

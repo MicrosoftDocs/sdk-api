@@ -54,24 +54,23 @@ api_name:
 The <b>CVssWriterEx2</b> class is an abstract base class that defines 
     the interface by which a writer synchronizes its state with VSS and other writers.
 
-The <b>CVssWriterEx2</b> class inherits the methods of the <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-cvsswriterex">CVssWriterEx</a> class.
+The <b>CVssWriterEx2</b> class inherits the methods of the <a href="/windows/desktop/api/vswriter/nl-vswriter-cvsswriterex">CVssWriterEx</a> class.
 
 Every writer must create an instance of the  
-    <b>CVssWriterEx2</b>, <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-cvsswriterex">CVssWriterEx</a>, or <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-cvsswriter">CVssWriter</a>  class.
+    <b>CVssWriterEx2</b>, <a href="/windows/desktop/api/vswriter/nl-vswriter-cvsswriterex">CVssWriterEx</a>, or <a href="/windows/desktop/api/vswriter/nl-vswriter-cvsswriter">CVssWriter</a>  class.
 
 Objects that are derived from <b>CVssWriterEx2</b> must supply implementations 
-    for all of the pure virtual methods of the <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-cvsswriterex">CVssWriterEx</a> and <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-cvsswriter">CVssWriter</a> classes.
+    for all of the pure virtual methods of the <a href="/windows/desktop/api/vswriter/nl-vswriter-cvsswriterex">CVssWriterEx</a> and <a href="/windows/desktop/api/vswriter/nl-vswriter-cvsswriter">CVssWriter</a> classes.
 
 A writer can override any or all of  the virtual 
-    methods of <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-cvsswriterex">CVssWriterEx</a> and <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-cvsswriter">CVssWriter</a>. However, a writer can override the <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-onidentify">OnIdentify</a> or <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-cvsswriterex-onidentifyex">OnIdentifyEx</a> method, but not both.
+    methods of <a href="/windows/desktop/api/vswriter/nl-vswriter-cvsswriterex">CVssWriterEx</a> and <a href="/windows/desktop/api/vswriter/nl-vswriter-cvsswriter">CVssWriter</a>. However, a writer can override the <a href="/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-onidentify">OnIdentify</a> or <a href="/windows/desktop/api/vswriter/nf-vswriter-cvsswriterex-onidentifyex">OnIdentifyEx</a> method, but not both.
 
 <b xmlns:loc="http://microsoft.com/wdcml/l10n">CVssWriterEx2</b> has these types of members:
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-cvsswriter">CVssWriter</a>
+<a href="/windows/desktop/api/vswriter/nl-vswriter-cvsswriter">CVssWriter</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-cvsswriterex">CVssWriterEx</a>
-
+<a href="/windows/desktop/api/vswriter/nl-vswriter-cvsswriterex">CVssWriterEx</a>

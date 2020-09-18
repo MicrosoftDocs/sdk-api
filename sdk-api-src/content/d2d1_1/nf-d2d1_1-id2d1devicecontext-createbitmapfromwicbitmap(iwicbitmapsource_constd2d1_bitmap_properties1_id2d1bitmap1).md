@@ -62,13 +62,13 @@ The WIC bitmap source to copy from.
 
 ### -param bitmapProperties [in, optional]
 
-Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1devicecontext-createbitmap(d2d1_size_u_constvoid_uint32_constd2d1_bitmap_properties1_id2d1bitmap1)">D2D1_BITMAP_PROPERTIES1</a>*</b>
+Type: <b>const <a href="/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1devicecontext-createbitmap(d2d1_size_u_constvoid_uint32_constd2d1_bitmap_properties1_id2d1bitmap1)">D2D1_BITMAP_PROPERTIES1</a>*</b>
 
 A bitmap properties structure that specifies bitmap creation options.
 
 ### -param bitmap [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1bitmap1">ID2D1Bitmap1</a>**</b>
+Type: <b><a href="/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1bitmap1">ID2D1Bitmap1</a>**</b>
 
 The address of the newly created bitmap object.
 
@@ -99,13 +99,12 @@ The method returns an <b>HRESULT</b>. Possible values include, but are not limit
 
 ## -remarks
 
-Starting with Windows 8.1, the  <i>bitmapProperties</i> parameter is optional. When it is not specified, the created bitmap inherits the pixel format and alpha mode from  <i>wicBitmapSource</i>. For a list of supported pixel formats and alpha modes, see <a href="https://docs.microsoft.com/windows/desktop/Direct2D/supported-pixel-formats-and-alpha-modes">Supported Pixel Formats and Alpha Modes</a>.
+Starting with Windows 8.1, the  <i>bitmapProperties</i> parameter is optional. When it is not specified, the created bitmap inherits the pixel format and alpha mode from  <i>wicBitmapSource</i>. For a list of supported pixel formats and alpha modes, see <a href="/windows/desktop/Direct2D/supported-pixel-formats-and-alpha-modes">Supported Pixel Formats and Alpha Modes</a>.
 
-When the <i>bitmapProperties</i> parameter is specified, the value in <i>bitmapProperties-&gt;pixelFormat</i> must either be <a href="https://docs.microsoft.com/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format">DXGI_FORMAT_UNKNOWN</a> or must match the WIC pixel format in <i>wicBitmapSource</i>.
+When the <i>bitmapProperties</i> parameter is specified, the value in <i>bitmapProperties-&gt;pixelFormat</i> must either be <a href="/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format">DXGI_FORMAT_UNKNOWN</a> or must match the WIC pixel format in <i>wicBitmapSource</i>.
 
-When <i>bitmapProperties-&gt;pixelFormat.alphaMode</i> is set to <a href="https://docs.microsoft.com/windows/desktop/api/dcommon/ne-dcommon-d2d1_alpha_mode">D2D1_ALPHA_MODE_UNKNOWN</a>, the newly created bitmap inherits the alpha mode from <i>wicBitmapSource</i>. When <i>bitmapProperties-&gt;pixelFormat.alphaMode</i> is set to <b>D2D1_ALPHA_MODE_PREMULTIPLIED</b>, <b>D2D1_ALPHA_MODE_STRAIGHT</b>, or <b>D2D1_ALPHA_MODE_IGNORE</b>, this forces the newly created bitmap to use the specified alpha mode.
+When <i>bitmapProperties-&gt;pixelFormat.alphaMode</i> is set to <a href="/windows/desktop/api/dcommon/ne-dcommon-d2d1_alpha_mode">D2D1_ALPHA_MODE_UNKNOWN</a>, the newly created bitmap inherits the alpha mode from <i>wicBitmapSource</i>. When <i>bitmapProperties-&gt;pixelFormat.alphaMode</i> is set to <b>D2D1_ALPHA_MODE_PREMULTIPLIED</b>, <b>D2D1_ALPHA_MODE_STRAIGHT</b>, or <b>D2D1_ALPHA_MODE_IGNORE</b>, this forces the newly created bitmap to use the specified alpha mode.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1devicecontext">ID2D1DeviceContext</a>
-
+<a href="/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1devicecontext">ID2D1DeviceContext</a>

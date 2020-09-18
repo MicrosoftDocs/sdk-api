@@ -60,7 +60,7 @@ Returns <b>S_OK</b> on success, otherwise returns an error code such as <b>E_FAI
 
 ## -remarks
 
-If you have changed properties on an object currently being manipulated by inertia, call <a href="https://docs.microsoft.com/windows/desktop/api/manipulations/nf-manipulations-iinertiaprocessor-complete">Complete</a> before calling <b>Reset</b>.
+If you have changed properties on an object currently being manipulated by inertia, call <a href="/windows/desktop/api/manipulations/nf-manipulations-iinertiaprocessor-complete">Complete</a> before calling <b>Reset</b>.
 	 
 
 
@@ -86,13 +86,12 @@ If you have changed properties on an object currently being manipulated by inert
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/manipulations/nf-manipulations-iinertiaprocessor-complete">Complete</a>
+<a href="/windows/desktop/api/manipulations/nf-manipulations-iinertiaprocessor-complete">Complete</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/manipulations/nn-manipulations-iinertiaprocessor">IInertiaProcessor</a>
+<a href="/windows/desktop/api/manipulations/nn-manipulations-iinertiaprocessor">IInertiaProcessor</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/wintouch/imanipulationprocessor-methods">Methods</a>
-
+<a href="/windows/desktop/wintouch/imanipulationprocessor-methods">Methods</a>

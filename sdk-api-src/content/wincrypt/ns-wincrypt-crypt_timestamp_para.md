@@ -70,7 +70,7 @@ used to sign the time stamp token in the response .
 
 ### -field Nonce
 
-Optional. A <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_INTEGER_BLOB</a> structure that contains the nonce value used by the client to verify the
+Optional. A <a href="/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_INTEGER_BLOB</a> structure that contains the nonce value used by the client to verify the
 timeliness of the response when no local clock is available.
 
 ### -field cExtension
@@ -79,5 +79,4 @@ The number of elements in the array pointed to by the <b>rgExtension</b> member.
 
 ### -field rgExtension
 
-A pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_extension">CERT_EXTENSION</a> structures that contain extension information that is passed in the request.
-
+A pointer to an array of <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_extension">CERT_EXTENSION</a> structures that contain extension information that is passed in the request.

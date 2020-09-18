@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-Contains properties common to the <a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_classdecl">MI_ClassDecl</a> and <a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_propertydecl">MI_PropertyDecl</a> structures. It can be used to write functions
+Contains properties common to the <a href="/windows/desktop/api/mi/ns-mi-mi_classdecl">MI_ClassDecl</a> and <a href="/windows/desktop/api/mi/ns-mi-mi_propertydecl">MI_PropertyDecl</a> structures. It can be used to write functions
 that work on the common fields of these two types.
 
 ## -struct-fields
@@ -93,17 +93,16 @@ Size of the structure.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_classdecl">MI_ClassDecl</a>
+<a href="/windows/desktop/api/mi/ns-mi-mi_classdecl">MI_ClassDecl</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_featuredecl">MI_FeatureDecl</a>
+<a href="/windows/desktop/api/mi/ns-mi-mi_featuredecl">MI_FeatureDecl</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_propertydecl">MI_PropertyDecl</a>
+<a href="/windows/desktop/api/mi/ns-mi-mi_propertydecl">MI_PropertyDecl</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_qualifier">MI_Qualifier</a>
-
+<a href="/windows/desktop/api/mi/ns-mi-mi_qualifier">MI_Qualifier</a>

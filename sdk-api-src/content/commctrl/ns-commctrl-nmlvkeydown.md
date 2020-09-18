@@ -54,28 +54,27 @@ api_name:
 
 ## -description
 
-Contains information used in processing the <a href="https://docs.microsoft.com/windows/desktop/Controls/lvn-keydown">LVN_KEYDOWN</a> notification code. This structure is the same as the 
+Contains information used in processing the <a href="/windows/desktop/Controls/lvn-keydown">LVN_KEYDOWN</a> notification code. This structure is the same as the 
 			<b>NMLVKEYDOWN</b> structure but has been renamed to fit standard naming conventions.
 
 ## -struct-fields
 
 ### -field hdr
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a></b>
+Type: <b><a href="/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a></b>
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a> structure that contains additional information about the notification.
+<a href="/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a> structure that contains additional information about the notification.
 
 ### -field wVKey
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">WORD</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">WORD</a></b>
 
 
-<a href="https://docs.microsoft.com/windows/desktop/inputdev/virtual-key-codes">Virtual key code</a>.
+<a href="/windows/desktop/inputdev/virtual-key-codes">Virtual key code</a>.
 
 ### -field flags
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 This member must always be zero.
-

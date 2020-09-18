@@ -52,7 +52,7 @@ api_name:
 
 <p class="CCE_Message">[This method is no longer available for use as of Windows Server 2008 and Windows Vista.]
 
-The <b>addBlobPropertyToCertificateWStr</b> method adds a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/b-gly">BLOB</a> property to a certificate. This method was first defined in the <a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nn-xenroll-ienroll4">IEnroll4</a> interface.
+The <b>addBlobPropertyToCertificateWStr</b> method adds a <a href="/windows/desktop/SecGloss/b-gly">BLOB</a> property to a certificate. This method was first defined in the <a href="/windows/desktop/api/xenroll/nn-xenroll-ienroll4">IEnroll4</a> interface.
 
 ## -parameters
 
@@ -66,9 +66,8 @@ This parameter is reserved. Must be zero.
 
 ### -param pBlobProperty [in]
 
-A pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_DATA_BLOB</a> structure that represents the data for  the BLOB property.
+A pointer to a <a href="/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_DATA_BLOB</a> structure that represents the data for  the BLOB property.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nn-xenroll-ienroll4">IEnroll4</a>
-
+<a href="/windows/desktop/api/xenroll/nn-xenroll-ienroll4">IEnroll4</a>

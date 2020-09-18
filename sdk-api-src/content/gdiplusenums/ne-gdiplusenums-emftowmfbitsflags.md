@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-Specifies options for the <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-metafile-emftowmfbits">Metafile::EmfToWmfBits</a> method, which converts an Enhanced Metafile (EMF) metafile to a Windows Metafile Format (WMF) metafile.
+Specifies options for the <a href="/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-metafile-emftowmfbits">Metafile::EmfToWmfBits</a> method, which converts an Enhanced Metafile (EMF) metafile to a Windows Metafile Format (WMF) metafile.
 
 ## -enum-fields
 
@@ -69,13 +69,12 @@ Specifies that the resulting WMF metafile is in the placeable metafile format; t
 
 ### -field EmfToWmfBitsFlagsNoXORClip
 
-Specifies that the clipping region is stored in the metafile in the traditional way. If you do not set this flag, the <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-metafile-emftowmfbits">Metafile::EmfToWmfBits</a> method applies an optimization that stores the clipping region as a path and simulates clipping by using the XOR operator.
+Specifies that the clipping region is stored in the metafile in the traditional way. If you do not set this flag, the <a href="/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-metafile-emftowmfbits">Metafile::EmfToWmfBits</a> method applies an optimization that stores the clipping region as a path and simulates clipping by using the XOR operator.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-metafile">Metafile</a>
+<a href="/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-metafile">Metafile</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-metafile-emftowmfbits">Metafile::EmfToWmfBits</a>
-
+<a href="/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-metafile-emftowmfbits">Metafile::EmfToWmfBits</a>

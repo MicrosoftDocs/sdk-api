@@ -96,7 +96,7 @@ The line-spacing value. The following table shows how this value is interpreted 
 
 Type: <b>HRESULT</b>
 
-If <b>ITextPara::GetLineSpacing</b> succeeds, it returns <b>S_OK</b>. If the method fails, it returns one of the following COM error codes. For more information about COM error codes, see <a href="https://docs.microsoft.com/windows/desktop/com/error-handling-in-com">Error Handling in COM</a>.
+If <b>ITextPara::GetLineSpacing</b> succeeds, it returns <b>S_OK</b>. If the method fails, it returns one of the following COM error codes. For more information about COM error codes, see <a href="/windows/desktop/com/error-handling-in-com">Error Handling in COM</a>.
 
 <table>
 <tr>
@@ -140,7 +140,7 @@ The paragraph formatting object is attached to a range that has been deleted.
 
 ## -remarks
 
-To retrieve the line-spacing rule, call the <a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextpara-getlinespacingrule">ITextPara::GetLineSpacingRule</a> method.
+To retrieve the line-spacing rule, call the <a href="/windows/desktop/api/tom/nf-tom-itextpara-getlinespacingrule">ITextPara::GetLineSpacingRule</a> method.
 
 ## -see-also
 
@@ -148,11 +148,11 @@ To retrieve the line-spacing rule, call the <a href="https://docs.microsoft.com/
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextpara-getlinespacingrule">GetLineSpacingRule</a>
+<a href="/windows/desktop/api/tom/nf-tom-itextpara-getlinespacingrule">GetLineSpacingRule</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextpara">ITextPara</a>
+<a href="/windows/desktop/api/tom/nn-tom-itextpara">ITextPara</a>
 
 
 
@@ -160,9 +160,8 @@ To retrieve the line-spacing rule, call the <a href="https://docs.microsoft.com/
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextpara-setlinespacing">SetLineSpacing</a>
+<a href="/windows/desktop/api/tom/nf-tom-itextpara-setlinespacing">SetLineSpacing</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Controls/text-object-model">Text Object Model</a>
-
+<a href="/windows/desktop/Controls/text-object-model">Text Object Model</a>

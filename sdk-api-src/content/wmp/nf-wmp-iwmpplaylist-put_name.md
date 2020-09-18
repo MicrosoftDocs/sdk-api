@@ -82,15 +82,14 @@ The method succeeded.
 
 ## -remarks
 
-Before calling this method, you must have full access to the library. For more information, see <a href="https://docs.microsoft.com/windows/desktop/WMP/library-access">Library Access</a>.
+Before calling this method, you must have full access to the library. For more information, see <a href="/windows/desktop/WMP/library-access">Library Access</a>.
 
 <b>Windows Media Player 10 Mobile: </b>This method always returns E_INVALIDARG.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpplaylist">IWMPPlaylist Interface</a>
+<a href="/windows/desktop/api/wmp/nn-wmp-iwmpplaylist">IWMPPlaylist Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpplaylist-get_name">IWMPPlaylist::get_name</a>
-
+<a href="/windows/desktop/api/wmp/nf-wmp-iwmpplaylist-get_name">IWMPPlaylist::get_name</a>

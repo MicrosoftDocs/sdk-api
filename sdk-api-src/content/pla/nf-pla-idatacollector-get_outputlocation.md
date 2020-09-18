@@ -59,13 +59,12 @@ This property is read-only.
 
 ## -remarks
 
-The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatacollector-get_latestoutputlocation">IDataCollector::LatestOutputLocation</a> property contains the decorated file name used the last time the collector ran.
+The <a href="/previous-versions/windows/desktop/api/pla/nf-pla-idatacollector-get_latestoutputlocation">IDataCollector::LatestOutputLocation</a> property contains the decorated file name used the last time the collector ran.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nn-pla-idatacollector">IDataCollector</a>
+<a href="/previous-versions/windows/desktop/api/pla/nn-pla-idatacollector">IDataCollector</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatacollector-get_latestoutputlocation">IDataCollector::LatestOutputLocation</a>
-
+<a href="/previous-versions/windows/desktop/api/pla/nf-pla-idatacollector-get_latestoutputlocation">IDataCollector::LatestOutputLocation</a>

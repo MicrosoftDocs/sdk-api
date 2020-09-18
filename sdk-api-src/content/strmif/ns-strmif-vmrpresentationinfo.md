@@ -53,13 +53,13 @@ api_name:
 
 ## -description
 
-The <code>VMRPRESENTATIONINFO</code> structure is used in the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ivmrimagepresenter-presentimage">IVMRImagePresenter::PresentImage</a> method (VMR-7 only).
+The <code>VMRPRESENTATIONINFO</code> structure is used in the <a href="/windows/desktop/api/strmif/nf-strmif-ivmrimagepresenter-presentimage">IVMRImagePresenter::PresentImage</a> method (VMR-7 only).
 
 ## -struct-fields
 
 ### -field dwFlags
 
-A bitwise combination of flags from the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-vmrpresentationflags">VMRPresentationFlags</a> enumeration, which describe the status of the video sample with respect to its presentation time.
+A bitwise combination of flags from the <a href="/windows/desktop/api/strmif/ne-strmif-vmrpresentationflags">VMRPresentationFlags</a> enumeration, which describe the status of the video sample with respect to its presentation time.
 
 ### -field lpSurf
 
@@ -87,17 +87,16 @@ The destination rectangle.
 
 ### -field dwTypeSpecificFlags
 
-Bitwise combination of flags, as defined for the [AM_SAMPLE2_PROPERTIES](https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-am_sample2_properties) structure.
+Bitwise combination of flags, as defined for the [AM_SAMPLE2_PROPERTIES](/windows/desktop/api/strmif/ns-strmif-am_sample2_properties) structure.
 
 ### -field dwInterlaceFlags
 
-Bitwise combination of flags, as defined for the <b>dwInterlaceFlags</b> member of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvdmedia/ns-dvdmedia-videoinfoheader2">VIDEOINFOHEADER2</a> structure.
+Bitwise combination of flags, as defined for the <b>dwInterlaceFlags</b> member of the <a href="/previous-versions/windows/desktop/api/dvdmedia/ns-dvdmedia-videoinfoheader2">VIDEOINFOHEADER2</a> structure.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/directshow-structures">DirectShow Structures</a>
+<a href="/windows/desktop/DirectShow/directshow-structures">DirectShow Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvdmedia/ns-dvdmedia-videoinfoheader2">VIDEOINFOHEADER2</a>
-
+<a href="/previous-versions/windows/desktop/api/dvdmedia/ns-dvdmedia-videoinfoheader2">VIDEOINFOHEADER2</a>

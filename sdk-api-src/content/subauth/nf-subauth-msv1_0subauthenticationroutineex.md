@@ -50,14 +50,14 @@ api_name:
 
 ## -description
 
-Performs <a href="https://docs.microsoft.com/windows/desktop/RRAS/portal">Remote Access Service</a> authentication when subauthentication is requested by calling the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-logonusera">LogonUser</a> function.
+Performs <a href="/windows/desktop/RRAS/portal">Remote Access Service</a> authentication when subauthentication is requested by calling the <a href="/windows/desktop/api/winbase/nf-winbase-logonusera">LogonUser</a> function.
 
-The <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security principal's</a> credentials and information from the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">Security Accounts Manager</a> (SAM) database are passed to this function for authentication.
+The <a href="/windows/desktop/SecGloss/s-gly">security principal's</a> credentials and information from the <a href="/windows/desktop/SecGloss/s-gly">Security Accounts Manager</a> (SAM) database are passed to this function for authentication.
 
 This function is implemented by custom subauthentication package DLLs for use with the MSV1_0 authentication package.
 
 This function is called only for a 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthN/noninteractive-authentication">noninteractive authentication</a>, only on the authenticating server where the account resides, and only if a subauthentication DLL is registered under the correct key in the registry.
+<a href="/windows/desktop/SecAuthN/noninteractive-authentication">noninteractive authentication</a>, only on the authenticating server where the account resides, and only if a subauthentication DLL is registered under the correct key in the registry.
 
 ## -parameters
 
@@ -68,7 +68,7 @@ Specifies the level of information given in the <i>LogonInformation</i> paramete
 ### -param LogonInformation [in]
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/subauth/ns-subauth-netlogon_logon_identity_info">NETLOGON_LOGON_IDENTITY_INFO</a> structure. Members of this structure contain information about the user who is logging on. The <b>LogonDomainName</b> member of this structure is ignored.
+<a href="/windows/desktop/api/subauth/ns-subauth-netlogon_logon_identity_info">NETLOGON_LOGON_IDENTITY_INFO</a> structure. Members of this structure contain information about the user who is logging on. The <b>LogonDomainName</b> member of this structure is ignored.
 
 ### -param Flags [in]
 
@@ -104,7 +104,7 @@ This is a retry of the logon using the GUEST user account.
 ### -param UserAll [in]
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/subauth/ns-subauth-user_all_information">USER_ALL_INFORMATION</a> structure that contains the description of the user as returned from the SAM database.
+<a href="/windows/desktop/api/subauth/ns-subauth-user_all_information">USER_ALL_INFORMATION</a> structure that contains the description of the user as returned from the SAM database.
 
 ### -param UserHandle [in]
 
@@ -238,4 +238,3 @@ The password was not valid.
 </td>
 </tr>
 </table>
-

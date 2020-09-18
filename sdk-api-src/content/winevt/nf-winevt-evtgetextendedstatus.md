@@ -74,5 +74,4 @@ The return value is ERROR_SUCCESS if the call succeeded; otherwise, a Win32 erro
 
 You must call this function on the thread that generated the error and before calling another Windows Event Log function.
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/winevt/nf-winevt-evtquery">EvtQuery</a> and <a href="https://docs.microsoft.com/windows/desktop/api/winevt/nf-winevt-evtsubscribe">EvtSubscribe</a> functions can provide extended error information if there is a problem with the specified XPath. For example, the error information can identify the character in the XPath where a parsing error occurred. To receive the extended error information for a malformed XPath, you cannot specify the EvtQueryTolerateQueryErrors flag when calling <b>EvtQuery</b> or <b>EvtSubscribe</b>.
-
+The <a href="/windows/desktop/api/winevt/nf-winevt-evtquery">EvtQuery</a> and <a href="/windows/desktop/api/winevt/nf-winevt-evtsubscribe">EvtSubscribe</a> functions can provide extended error information if there is a problem with the specified XPath. For example, the error information can identify the character in the XPath where a parsing error occurred. To receive the extended error information for a malformed XPath, you cannot specify the EvtQueryTolerateQueryErrors flag when calling <b>EvtQuery</b> or <b>EvtSubscribe</b>.

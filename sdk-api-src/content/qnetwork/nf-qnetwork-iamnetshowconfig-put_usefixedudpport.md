@@ -81,9 +81,8 @@ If the method succeeds, it returns S_OK. If it fails, it returns an <b>HRESULT</
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/qnetwork/nn-qnetwork-iamnetshowconfig">IAMNetShowConfig Interface</a>
+<a href="/windows/desktop/api/qnetwork/nn-qnetwork-iamnetshowconfig">IAMNetShowConfig Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/qnetwork/nf-qnetwork-iamnetshowconfig-put_fixedudpport">IAMNetShowConfig::put_FixedUDPPort</a>
-
+<a href="/windows/desktop/api/qnetwork/nf-qnetwork-iamnetshowconfig-put_fixedudpport">IAMNetShowConfig::put_FixedUDPPort</a>

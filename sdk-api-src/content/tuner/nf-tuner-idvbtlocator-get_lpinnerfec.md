@@ -56,7 +56,7 @@ The <b>get_LPInnerFEC</b> method retrieves the inner FEC type of the low-priorit
 
 ### -param FEC [out]
 
-Receives a member of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/fecmethod">FECMethod</a> enumeration.
+Receives a member of the <a href="/previous-versions/windows/desktop/mstv/fecmethod">FECMethod</a> enumeration.
 
 ## -returns
 
@@ -64,5 +64,4 @@ Returns S_OK if successful. If the method fails, error information can be retrie
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-idvbtlocator">IDVBTLocator Interface</a>
-
+<a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-idvbtlocator">IDVBTLocator Interface</a>

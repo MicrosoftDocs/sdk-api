@@ -51,11 +51,11 @@ api_name:
 
 ## -description
 
-The <code>IRegisterServiceProvider</code> interface registers an object as a service with the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/filter-graph-manager">Filter Graph Manager</a>. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iregisterserviceprovider-registerservice">IRegisterServiceProvider::RegisterService</a>.
+The <code>IRegisterServiceProvider</code> interface registers an object as a service with the <a href="/windows/desktop/DirectShow/filter-graph-manager">Filter Graph Manager</a>. For more information, see <a href="/windows/desktop/api/strmif/nf-strmif-iregisterserviceprovider-registerservice">IRegisterServiceProvider::RegisterService</a>.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IRegisterServiceProvider</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IRegisterServiceProvider</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IRegisterServiceProvider</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IRegisterServiceProvider</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>IRegisterServiceProvider</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iregisterserviceprovider-registerservice">RegisterService</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-iregisterserviceprovider-registerservice">RegisterService</a>
 </td>
 <td align="left" width="63%">
 Registers an object as a service.
@@ -78,4 +78,3 @@ Registers an object as a service.
 </td>
 </tr>
 </table>
-

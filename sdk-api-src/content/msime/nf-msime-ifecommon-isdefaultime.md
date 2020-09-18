@@ -52,7 +52,7 @@ api_name:
 
 Determines if the IME specified by the class ID is the default IME on a local computer.
 
-The name of the IME is obtained from the  <a href="https://docs.microsoft.com/windows/desktop/inputdev/keyboard-input-functions">Win32 keyboard layout API</a>.
+The name of the IME is obtained from the  <a href="/windows/desktop/inputdev/keyboard-input-functions">Win32 keyboard layout API</a>.
 
 ## -parameters
 
@@ -74,9 +74,8 @@ The size of <i>szName</i> in bytes.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msime/nn-msime-ifecommon">IFECommon</a>
+<a href="/windows/desktop/api/msime/nn-msime-ifecommon">IFECommon</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/inputdev/keyboard-input-functions">Win32 keyboard layout API</a>
-
+<a href="/windows/desktop/inputdev/keyboard-input-functions">Win32 keyboard layout API</a>

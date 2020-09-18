@@ -66,7 +66,7 @@ The service provider's handle to the call to be answered. The call state of <i>h
 ### -param lpsUserUserInfo
 
 A pointer to a <b>null</b>-terminated string containing user-user information to be sent to the remote party at the time of answering the call. If this pointer is <b>NULL</b>, it indicates that no user-user information is to be sent. User-user information is only sent if supported by the underlying network (as indicated in 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linedevcaps">LINEDEVCAPS</a>).
+<a href="/windows/desktop/api/tapi/ns-tapi-linedevcaps">LINEDEVCAPS</a>).
 
 ### -param dwSize
 
@@ -75,15 +75,15 @@ The size in bytes of the user-user information in <i>lpsUserUserInfo</i>. If <i>
 ## -returns
 
 Returns <i>dwRequestID</i> or an error number if an error occurs. The <i>lResult</i> actual parameter of the corresponding 
-<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nc-tspi-async_completion">ASYNC_COMPLETION</a> is zero if the function succeeds or an error number if an error occurs. Possible return values are as follows:
+<a href="/windows/desktop/api/tspi/nc-tspi-async_completion">ASYNC_COMPLETION</a> is zero if the function succeeds or an error number if an error occurs. Possible return values are as follows:
 
 LINEERR_INVALCALLHANDLE, LINEERR_OPERATIONUNAVAIL, LINEERR_INVALCALLSTATE, LINEERR_OPERATIONFAILED, LINEERR_INUSE, LINEERR_RESOURCEUNAVAIL, LINEERR_NOMEM, LINEERR_USERUSERINFOTOOBIG.
 
 ## -remarks
 
 When a new call arrives, the service provider sends TAPI a 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/line-newcall">LINE_NEWCALL</a> message to exchange handles for the call. The service provider follows this with a 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms725219(v=vs.85)">LINE_CALLSTATE</a> message to inform TAPI and its client applications of the call's state. A client application typically answers the call using 
+<a href="/windows/desktop/Tapi/line-newcall">LINE_NEWCALL</a> message to exchange handles for the call. The service provider follows this with a 
+<a href="/previous-versions/windows/desktop/legacy/ms725219(v=vs.85)">LINE_CALLSTATE</a> message to inform TAPI and its client applications of the call's state. A client application typically answers the call using 
 <b>TSPI_lineAnswer</b>. Typically, after the call is successfully answered, the call transitions to the <i>connected</i> state.
 
 In some telephony environments (like ISDN) where user alerting is separate from call offering, TAPI and its client applications may have the option to first accept a call prior to answering, or instead to reject or redirect the <i>offering</i> call.
@@ -93,17 +93,16 @@ If a call is offered at the time another call is already active, the new call is
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nc-tspi-async_completion">ASYNC_COMPLETION</a>
+<a href="/windows/desktop/api/tspi/nc-tspi-async_completion">ASYNC_COMPLETION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linedevcaps">LINEDEVCAPS</a>
+<a href="/windows/desktop/api/tapi/ns-tapi-linedevcaps">LINEDEVCAPS</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms725219(v=vs.85)">LINE_CALLSTATE</a>
+<a href="/previous-versions/windows/desktop/legacy/ms725219(v=vs.85)">LINE_CALLSTATE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/line-newcall">LINE_NEWCALL</a>
-
+<a href="/windows/desktop/Tapi/line-newcall">LINE_NEWCALL</a>

@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-Deprecated. Calls the derived class from the base class on receipt of a <a href="https://docs.microsoft.com/windows/desktop/winmsg/wm-destroy">WM_DESTROY</a> message. The derived class handles the message.
+Deprecated. Calls the derived class from the base class on receipt of a <a href="/windows/desktop/winmsg/wm-destroy">WM_DESTROY</a> message. The derived class handles the message.
 
 ## -parameters
 
@@ -60,4 +60,3 @@ Deprecated. Calls the derived class from the base class on receipt of a <a href=
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-

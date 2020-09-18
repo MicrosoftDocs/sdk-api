@@ -50,21 +50,21 @@ api_name:
 
 ## -description
 
-The <b>Next</b> method retrieves a specified number of <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-statstg">STATSTG</a> structures, that follow in the enumeration sequence. If there are fewer than the requested number of <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-statstg">STATSTG</a> structures that remain in the enumeration sequence, it retrieves the remaining <b>STATSTG</b> structures.
+The <b>Next</b> method retrieves a specified number of <a href="/windows/desktop/api/objidl/ns-objidl-statstg">STATSTG</a> structures, that follow in the enumeration sequence. If there are fewer than the requested number of <a href="/windows/desktop/api/objidl/ns-objidl-statstg">STATSTG</a> structures that remain in the enumeration sequence, it retrieves the remaining <b>STATSTG</b> structures.
 
 ## -parameters
 
 ### -param celt [in]
 
-The number of <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-statstg">STATSTG</a> structures requested.
+The number of <a href="/windows/desktop/api/objidl/ns-objidl-statstg">STATSTG</a> structures requested.
 
 ### -param rgelt [out]
 
-An array of <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-statstg">STATSTG</a> structures returned.
+An array of <a href="/windows/desktop/api/objidl/ns-objidl-statstg">STATSTG</a> structures returned.
 
 ### -param pceltFetched [out]
 
-The number of <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-statstg">STATSTG</a> structures  retrieved in the <i>rgelt</i> parameter.
+The number of <a href="/windows/desktop/api/objidl/ns-objidl-statstg">STATSTG</a> structures  retrieved in the <i>rgelt</i> parameter.
 
 ## -returns
 
@@ -82,7 +82,7 @@ This method supports the following return values:
 </dl>
 </td>
 <td width="60%">
-The number of <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-statstg">STATSTG</a> structures returned is equal to the number specified in the <i>celt</i> parameter.
+The number of <a href="/windows/desktop/api/objidl/ns-objidl-statstg">STATSTG</a> structures returned is equal to the number specified in the <i>celt</i> parameter.
 
 </td>
 </tr>
@@ -93,7 +93,7 @@ The number of <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-
 </dl>
 </td>
 <td width="60%">
-The number of <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-statstg">STATSTG</a> structures returned is less than the number specified in the <i>celt</i> parameter.
+The number of <a href="/windows/desktop/api/objidl/ns-objidl-statstg">STATSTG</a> structures returned is less than the number specified in the <i>celt</i> parameter.
 
 </td>
 </tr>
@@ -101,5 +101,4 @@ The number of <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ienumstatstg">IEnumSTATSTG</a>
-
+<a href="/windows/desktop/api/objidl/nn-objidl-ienumstatstg">IEnumSTATSTG</a>

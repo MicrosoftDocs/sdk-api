@@ -73,11 +73,10 @@ If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRE
 ## -remarks
 
 The caller of <b>SetProperty</b> must know the index of the property to be set by first calling
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/xamlom/nf-xamlom-ivisualtreeservice-getpropertyvalueschain">GetPropertyValuesChain</a> and finding the property they want to set and retrieving its index.
-    They must also have an <b>InstanceHandle</b> to a value, either by calling <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/xamlom/nf-xamlom-ivisualtreeservice-createinstance">CreateInstance</a>, or caching
+    <a href="/previous-versions/windows/desktop/api/xamlom/nf-xamlom-ivisualtreeservice-getpropertyvalueschain">GetPropertyValuesChain</a> and finding the property they want to set and retrieving its index.
+    They must also have an <b>InstanceHandle</b> to a value, either by calling <a href="/previous-versions/windows/desktop/api/xamlom/nf-xamlom-ivisualtreeservice-createinstance">CreateInstance</a>, or caching
     an earlier instance of some shared property, such as <b>SolidColorBrush</b>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/xamlom/nn-xamlom-ivisualtreeservice">IVisualTreeService</a>
-
+<a href="/previous-versions/windows/desktop/api/xamlom/nn-xamlom-ivisualtreeservice">IVisualTreeService</a>

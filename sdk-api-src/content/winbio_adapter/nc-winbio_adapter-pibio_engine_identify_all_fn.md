@@ -56,7 +56,7 @@ Called by the Windows Biometric Framework to determine the identities of any peo
 
 ### -param Pipeline [in, out]
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/winbio_adapter/ns-winbio_adapter-winbio_pipeline">WINBIO_PIPELINE</a> structure associated with the biometric unit performing the operation.
+Pointer to the <a href="/windows/desktop/api/winbio_adapter/ns-winbio_adapter-winbio_pipeline">WINBIO_PIPELINE</a> structure associated with the biometric unit performing the operation.
 
 ### -param PresenceCount [out]
 
@@ -64,7 +64,7 @@ Address of a variable that receives the number of presences detected by the func
 
 ### -param *PresenceArray [out]
 
-Address of a variable that receives a pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/SecBioMet/winbio-presence">WINBIO_PRESENCE</a> elements.
+Address of a variable that receives a pointer to an array of <a href="/windows/desktop/SecBioMet/winbio-presence">WINBIO_PRESENCE</a> elements.
 
 ## -returns
 
@@ -92,13 +92,12 @@ Any error code will cause the Biometric Service to log the error and ignore the 
 
 The biometric service calls this method after it sends a new frame of data to the engine adapter.
 
-After processing the data frame, this function should return one <a href="https://docs.microsoft.com/windows/desktop/SecBioMet/winbio-presence">WINBIO_PRESENCE</a> element for each presence detected in the data frame.
+After processing the data frame, this function should return one <a href="/windows/desktop/SecBioMet/winbio-presence">WINBIO_PRESENCE</a> element for each presence detected in the data frame.
 
 In the event that the <b>EngineAdapterIdentifyAll</b> function can’t find any faces in frame, it returns an <b>HRESULT</b> of <b>S_OK</b> and sets the <i>PresenceCount</i> and <i>PresenceArray</i> return parameters to zero and <b>NULL</b>, respectively. In other words, a frame that doesn’t contain any human presences is not an error condition. 
 
 The only time <b>EngineAdapterIdentifyAll</b> should return an <b>HRESULT</b> other than <b>S_OK</b> is if it doesn’t want the bio service to use the frame to update the Presence Monitor state. This should be a rare occurrence.
-The engine adapter is responsible for allocating the array of <a href="https://docs.microsoft.com/windows/desktop/SecBioMet/winbio-presence">WINBIO_PRESENCE</a> elements it returns in the <i>PresenceArray</i> parameter. It must allocate this memory from the process heap by using the <a href="https://docs.microsoft.com/windows/desktop/api/heapapi/nf-heapapi-heapalloc">HeapAlloc</a> function. After the array is created, it becomes the property of the Windows Biometric Framework. Because the Framework deallocates this memory after using it, your engine adapter must not attempt to deallocate the array or save a pointer to it. Failure to follow this rule will lead to heap corruption and possible crashes of the biometric service.
+The engine adapter is responsible for allocating the array of <a href="/windows/desktop/SecBioMet/winbio-presence">WINBIO_PRESENCE</a> elements it returns in the <i>PresenceArray</i> parameter. It must allocate this memory from the process heap by using the <a href="/windows/desktop/api/heapapi/nf-heapapi-heapalloc">HeapAlloc</a> function. After the array is created, it becomes the property of the Windows Biometric Framework. Because the Framework deallocates this memory after using it, your engine adapter must not attempt to deallocate the array or save a pointer to it. Failure to follow this rule will lead to heap corruption and possible crashes of the biometric service.
 
 
-The values of the individual <a href="https://docs.microsoft.com/windows/desktop/SecBioMet/winbio-presence">WINBIO_PRESENCE</a> items in the <i>PresenceArray</i> will determine the events generated for client applications. See the discussion of the <b>WINBIO_PRESENCE</b> structure for details.
-
+The values of the individual <a href="/windows/desktop/SecBioMet/winbio-presence">WINBIO_PRESENCE</a> items in the <i>PresenceArray</i> will determine the events generated for client applications. See the discussion of the <b>WINBIO_PRESENCE</b> structure for details.

@@ -64,5 +64,4 @@ There is no guarantee that the same set of objects will be enumerated after the 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ienumunknown">IEnumUnknown</a>
-
+<a href="/windows/desktop/api/objidl/nn-objidl-ienumunknown">IEnumUnknown</a>

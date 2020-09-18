@@ -74,7 +74,7 @@ The video height for which the capabilities are queried.
 
 ### -param pFrameRate [in]
 
-Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/dxgicommon/ns-dxgicommon-dxgi_rational">DXGI_RATIONAL</a>*</b>
+Type: <b>const <a href="/windows/desktop/api/dxgicommon/ns-dxgicommon-dxgi_rational">DXGI_RATIONAL</a>*</b>
 
 The frame rate of the video content. This information is used by the driver to determine whether the video can be decoded in real-time.
 
@@ -94,7 +94,7 @@ The type of cryptography used to encrypt the video stream. A value of NULL indic
 
 Type: <b>UINT*</b>
 
-A pointer to a bitwise OR combination of <a href="https://docs.microsoft.com/windows/desktop/api/d3d11_1/ne-d3d11_1-d3d11_video_decoder_caps">D3D11_VIDEO_DECODER_CAPS</a> values specifying the decoder capabilities.
+A pointer to a bitwise OR combination of <a href="/windows/desktop/api/d3d11_1/ne-d3d11_1-d3d11_video_decoder_caps">D3D11_VIDEO_DECODER_CAPS</a> values specifying the decoder capabilities.
 
 ## -returns
 
@@ -115,5 +115,4 @@ This method returns one of the following error codes.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11_1/nn-d3d11_1-id3d11videodevice1">ID3D11VideoDevice1</a>
-
+<a href="/windows/desktop/api/d3d11_1/nn-d3d11_1-id3d11videodevice1">ID3D11VideoDevice1</a>

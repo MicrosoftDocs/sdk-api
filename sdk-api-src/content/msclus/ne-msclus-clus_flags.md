@@ -52,23 +52,22 @@ api_name:
 ## -description
 
 Identifies the resource or group as a 
-     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/core-resources">core resource</a>.
+     <a href="/previous-versions/windows/desktop/mscs/core-resources">core resource</a>.
 
 ## -enum-fields
 
 ### -field CLUS_FLAG_CORE
 
-Identifies <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/core-resources">core resources</a> or the cluster group that 
+Identifies <a href="/previous-versions/windows/desktop/mscs/core-resources">core resources</a> or the cluster group that 
        contains core resources. The 
-       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/nf-clusapi-clusterresourcecontrol">ClusterResourceControl</a> function with the 
-       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-resource-get-flags">CLUSCTL_RESOURCE_GET_FLAGS</a> control 
+       <a href="/previous-versions/windows/desktop/api/clusapi/nf-clusapi-clusterresourcecontrol">ClusterResourceControl</a> function with the 
+       <a href="/previous-versions/windows/desktop/mscs/clusctl-resource-get-flags">CLUSCTL_RESOURCE_GET_FLAGS</a> control 
        code can retrieve the flags that are set for a resource.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-resource-get-flags">CLUSCTL_RESOURCE_GET_FLAGS</a>
+<a href="/previous-versions/windows/desktop/mscs/clusctl-resource-get-flags">CLUSCTL_RESOURCE_GET_FLAGS</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/nf-clusapi-clusterresourcecontrol">ClusterResourceControl</a>
-
+<a href="/previous-versions/windows/desktop/api/clusapi/nf-clusapi-clusterresourcecontrol">ClusterResourceControl</a>

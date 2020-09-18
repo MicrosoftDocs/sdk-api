@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Returns an <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdatedownloader">IUpdateDownloader</a> interface for this session.
+Returns an <a href="/windows/desktop/api/wuapi/nn-wuapi-iupdatedownloader">IUpdateDownloader</a> interface for this session.
 
 ## -parameters
 
 ### -param retval [out]
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdatedownloader">IUpdateDownloader</a> interface for this session.
+An <a href="/windows/desktop/api/wuapi/nn-wuapi-iupdatedownloader">IUpdateDownloader</a> interface for this session.
 
 ## -returns
 
@@ -95,9 +95,8 @@ This  method cannot be called from a remote computer.
 
 ## -remarks
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdatedownloader">IUpdateDownloader</a> interface can also be created by using the UpdateDownloader coclass.
+An <a href="/windows/desktop/api/wuapi/nn-wuapi-iupdatedownloader">IUpdateDownloader</a> interface can also be created by using the UpdateDownloader coclass.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdatesession">IUpdateSession</a>
-
+<a href="/windows/desktop/api/wuapi/nn-wuapi-iupdatesession">IUpdateSession</a>

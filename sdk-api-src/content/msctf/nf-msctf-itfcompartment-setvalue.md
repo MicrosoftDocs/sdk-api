@@ -56,7 +56,7 @@ Sets the data for a compartment.
 
 ### -param tid [in]
 
-Contains a <a href="https://docs.microsoft.com/windows/desktop/TSF/tfclientid">TfClientId</a> value that identifies the client.
+Contains a <a href="/windows/desktop/TSF/tfclientid">TfClientId</a> value that identifies the client.
 
 ### -param pvarValue [in]
 
@@ -111,7 +111,7 @@ An unspecified error occurred.
 </dl>
 </td>
 <td width="60%">
-The compartment was cleared by a call to <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcompartmentmgr-clearcompartment">ITfCompartmentMgr::ClearCompartment</a>, this method was called during a <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcompartmenteventsink-onchange">ITfCompartmentEventSink::OnChange</a> notification or only the owner can clear this compartment.
+The compartment was cleared by a call to <a href="/windows/desktop/api/msctf/nf-msctf-itfcompartmentmgr-clearcompartment">ITfCompartmentMgr::ClearCompartment</a>, this method was called during a <a href="/windows/desktop/api/msctf/nf-msctf-itfcompartmenteventsink-onchange">ITfCompartmentEventSink::OnChange</a> notification or only the owner can clear this compartment.
 
 </td>
 </tr>
@@ -120,4 +120,3 @@ The compartment was cleared by a call to <a href="https://docs.microsoft.com/win
 ## -see-also
 
 [ITfCompartment interface](nn-msctf-itfcompartment.md), [ITfCompartment::GetValue](nf-msctf-itfcompartment-getvalue.md), [ITfCompartmentMgr::ClearCompartment](nf-msctf-itfcompartmentmgr-clearcompartment.md), [VariantClear function](../oleauto/nf-oleauto-variantclear.md)
-

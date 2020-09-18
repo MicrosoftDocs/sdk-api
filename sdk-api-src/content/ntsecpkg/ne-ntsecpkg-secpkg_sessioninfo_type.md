@@ -52,11 +52,10 @@ api_name:
 
 ## -description
 
-Specifies the format of session information. This enumeration is used by the <a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-lsa_create_token_ex">CreateTokenEx</a> function to specify the format of the <i>SessionInformation</i> parameter.
+Specifies the format of session information. This enumeration is used by the <a href="/windows/desktop/api/ntsecpkg/nc-ntsecpkg-lsa_create_token_ex">CreateTokenEx</a> function to specify the format of the <i>SessionInformation</i> parameter.
 
 ## -enum-fields
 
 ### -field SecSessionPrimaryCred
 
-The session information is contained in a <a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-secpkg_primary_cred">SECPKG_PRIMARY_CRED</a> structure.
-
+The session information is contained in a <a href="/windows/desktop/api/ntsecpkg/ns-ntsecpkg-secpkg_primary_cred">SECPKG_PRIMARY_CRED</a> structure.

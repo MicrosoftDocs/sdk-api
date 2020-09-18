@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Identifiers for properties of the <a href="https://docs.microsoft.com/windows/desktop/Direct2D/border">Border effect</a>.
+Identifiers for properties of the <a href="/windows/desktop/Direct2D/border">Border effect</a>.
 
 ## -enum-fields
 
@@ -59,7 +59,7 @@ Identifiers for properties of the <a href="https://docs.microsoft.com/windows/de
 The edge mode in the X direction for the effect. You can set this to clamp, wrap, or mirror.
             
 
-The type is <a href="https://docs.microsoft.com/windows/desktop/api/d2d1effects/ne-d2d1effects-d2d1_border_edge_mode">D2D1_BORDER_EDGE_MODE</a>.
+The type is <a href="/windows/desktop/api/d2d1effects/ne-d2d1effects-d2d1_border_edge_mode">D2D1_BORDER_EDGE_MODE</a>.
 
 The default value is D2D1_BORDER_EDGE_MODE_CLAMP.
 
@@ -68,9 +68,8 @@ The default value is D2D1_BORDER_EDGE_MODE_CLAMP.
 The edge mode in the Y direction for the effect. You can set this to clamp, wrap, or mirror.
             
 
-The type is <a href="https://docs.microsoft.com/windows/desktop/api/d2d1effects/ne-d2d1effects-d2d1_border_edge_mode">D2D1_BORDER_EDGE_MODE</a>.
+The type is <a href="/windows/desktop/api/d2d1effects/ne-d2d1effects-d2d1_border_edge_mode">D2D1_BORDER_EDGE_MODE</a>.
 
 The default value is D2D1_BORDER_EDGE_MODE_CLAMP.
 
 ### -field D2D1_BORDER_PROP_FORCE_DWORD
-

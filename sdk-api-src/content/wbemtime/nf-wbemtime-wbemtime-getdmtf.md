@@ -53,14 +53,14 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[The <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/wbemtime">WBEMTime</a> class 
+<p class="CCE_Message">[The <a href="/windows/desktop/WmiSdk/wbemtime">WBEMTime</a> class 
     is part of the WMI Provider Framework which is now considered in final state, and no further development, 
     enhancements, or updates will be available for non-security related issues affecting these libraries. The 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/wmi_v2/windows-management-infrastructure">MI APIs</a> should be used for all new 
+    <a href="/previous-versions/windows/desktop/wmi_v2/windows-management-infrastructure">MI APIs</a> should be used for all new 
     development.]
 
 The <b>GetDMTF</b> method converts a  <b>BSTR</b> value to 
-CIM <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/date-and-time-format">Date and Time Format</a>.
+CIM <a href="/windows/desktop/WmiSdk/date-and-time-format">Date and Time Format</a>.
 
 ## -parameters
 
@@ -70,21 +70,20 @@ If <b>TRUE</b>, returns the local time, adjusted for daylight savings time; othe
 
 ## -returns
 
-Returns a <b>BSTR</b> in <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/date-and-time-format">Date and Time Format</a>.
+Returns a <b>BSTR</b> in <a href="/windows/desktop/WmiSdk/date-and-time-format">Date and Time Format</a>.
 
 ## -remarks
 
-The calling function must call <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a> on the return value.
+The calling function must call <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a> on the return value.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/wbemtime">WBEMTime</a>
+<a href="/windows/desktop/WmiSdk/wbemtime">WBEMTime</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemtime/nf-wbemtime-wbemtime-getbstr">WBEMTime::GetBSTR</a>
+<a href="/windows/desktop/api/wbemtime/nf-wbemtime-wbemtime-getbstr">WBEMTime::GetBSTR</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemtime/nf-wbemtime-wbemtime-setdmtf">WBEMTime::SetDMTF</a>
-
+<a href="/windows/desktop/api/wbemtime/nf-wbemtime-wbemtime-setdmtf">WBEMTime::SetDMTF</a>

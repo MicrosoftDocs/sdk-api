@@ -62,7 +62,7 @@ Handle to the waveform-audio input device.
 
 ### -param pwh
 
-Pointer to a <a href="https://docs.microsoft.com/previous-versions/dd743837(v=vs.85)">WAVEHDR</a> structure that identifies the buffer to be prepared.
+Pointer to a <a href="/previous-versions/dd743837(v=vs.85)">WAVEHDR</a> structure that identifies the buffer to be prepared.
 
 ### -param cbwh
 
@@ -118,9 +118,8 @@ The <b>lpData</b>, <b>dwBufferLength</b>, and <b>dwFlags</b> members of the <b>W
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/waveform-audio">Waveform Audio</a>
+<a href="/windows/desktop/Multimedia/waveform-audio">Waveform Audio</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/waveform-functions">Waveform Functions</a>
-
+<a href="/windows/desktop/Multimedia/waveform-functions">Waveform Functions</a>

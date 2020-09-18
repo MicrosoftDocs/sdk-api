@@ -52,17 +52,17 @@ api_name:
 
 Reads the closing elements of a message.
             
-                The operation allows for reading of messages from sources other than Channels.  If the source is a Channel use <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsreadmessageend">WsReadMessageEnd</a>.
+                The operation allows for reading of messages from sources other than Channels.  If the source is a Channel use <a href="/windows/desktop/api/webservices/nf-webservices-wsreadmessageend">WsReadMessageEnd</a>.
 
 ## -parameters
 
 ### -param message [in]
 
-A pointer to the <b>Message</b> object read.  The pointer must reference a valid <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-message">WS_MESSAGE</a>.
+A pointer to the <b>Message</b> object read.  The pointer must reference a valid <a href="/windows/desktop/wsw/ws-message">WS_MESSAGE</a>.
 
 ### -param error [in, optional]
 
-A  pointer to a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-error">WS_ERROR</a> object where additional information about the error should be stored if the function fails.
+A  pointer to a <a href="/windows/desktop/wsw/ws-error">WS_ERROR</a> object where additional information about the error should be stored if the function fails.
 
 ## -returns
 
@@ -124,4 +124,3 @@ This function may return other errors not listed above.
 The message state must be <b>WS_MESSAGE_STATE_READING</b>.  If called in the correct
                 state the message state is set to  <b>WS_MESSAGE_STATE_DONE</b> regardless
                 of function success or failure.
-

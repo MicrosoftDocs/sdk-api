@@ -61,5 +61,4 @@ An lvalue reference to the current instance of **XMFLOAT3X4**, after moving *arg
 
 ## -see-also
 
-[XMFLOAT3X4 structure](/windows/win32/api/directxmath/ns-directxmath-xmfloat3x4)
-
+[XMFLOAT3X4 structure](./ns-directxmath-xmfloat3x4.md)

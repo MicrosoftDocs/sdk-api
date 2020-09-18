@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-Specifies the offset and size of the credential context data in a <a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-sec_winnt_credui_context">SEC_WINNT_CREDUI_CONTEXT</a> structure.
+Specifies the offset and size of the credential context data in a <a href="/windows/desktop/api/sspi/ns-sspi-sec_winnt_credui_context">SEC_WINNT_CREDUI_CONTEXT</a> structure.
 
 ## -struct-fields
 
@@ -65,4 +65,3 @@ The number of bytes from the  beginning of the structure to the context data.
 ### -field CredUIContextCount
 
 The size, in bytes, of the context data.
-

@@ -58,7 +58,7 @@ Retrieves the story index of the <i>Unit</i> parameter at the specified range St
 
 Type: <b>long</b>
 
-Unit that is indexed. For a list of possible <i>Unit</i> values, see the discussion under <a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextrange">ITextRange</a>.
+Unit that is indexed. For a list of possible <i>Unit</i> values, see the discussion under <a href="/windows/desktop/api/tom/nn-tom-itextrange">ITextRange</a>.
 
 ### -param pIndex
 
@@ -70,7 +70,7 @@ The index value. The value is zero if <i>Unit</i> does not exist.
 
 Type: <b>HRESULT</b>
 
-The method returns an <b>HRESULT</b> value. If the method succeeds, it returns <b>S_OK</b>. If the method fails, it returns one of the following error codes. For more information about COM error codes, see <a href="https://docs.microsoft.com/windows/desktop/com/error-handling-in-com">Error Handling in COM</a>.
+The method returns an <b>HRESULT</b> value. If the method succeeds, it returns <b>S_OK</b>. If the method fails, it returns one of the following error codes. For more information about COM error codes, see <a href="/windows/desktop/com/error-handling-in-com">Error Handling in COM</a>.
 
 <table>
 <tr>
@@ -113,7 +113,7 @@ The index value returned by the <b>ITextRange::GetIndex</b> method is not valid 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextrange">ITextRange</a>
+<a href="/windows/desktop/api/tom/nn-tom-itextrange">ITextRange</a>
 
 
 
@@ -121,5 +121,4 @@ The index value returned by the <b>ITextRange::GetIndex</b> method is not valid 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Controls/text-object-model">Text Object Model</a>
-
+<a href="/windows/desktop/Controls/text-object-model">Text Object Model</a>

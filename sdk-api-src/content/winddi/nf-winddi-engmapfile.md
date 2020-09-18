@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>EngMapFile</b> function creates or opens a file and maps it into <a href="https://docs.microsoft.com/windows-hardware/drivers/">system space</a>.
+The <b>EngMapFile</b> function creates or opens a file and maps it into <a href="/windows-hardware/drivers/">system space</a>.
 
 ## -parameters
 
@@ -64,7 +64,7 @@ Specifies the number of bytes of the file to map.
 
 ### -param piFile [out]
 
-Pointer to a memory location that receives an identifier for the mapped file, provided that the mapping succeeded. If the mapping did not succeed, the memory location receives the value zero. When the mapped file needs to be released, this value should be passed to <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engunmapfile">EngUnmapFile</a>.
+Pointer to a memory location that receives an identifier for the mapped file, provided that the mapping succeeded. If the mapping did not succeed, the memory location receives the value zero. When the mapped file needs to be released, this value should be passed to <a href="/windows/desktop/api/winddi/nf-winddi-engunmapfile">EngUnmapFile</a>.
 
 ## -returns
 
@@ -94,9 +94,8 @@ A driver can read and write to the file through the returned pointer.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engdeletefile">EngDeleteFile</a>
+<a href="/windows/desktop/api/winddi/nf-winddi-engdeletefile">EngDeleteFile</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engunmapfile">EngUnmapFile</a>
-
+<a href="/windows/desktop/api/winddi/nf-winddi-engunmapfile">EngUnmapFile</a>

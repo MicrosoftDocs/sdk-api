@@ -67,7 +67,7 @@ Return ERROR_SUCCESS if the function succeeds.
 
 If the function fails due to a transient error, you can return PDH_RETRY and PDH will call your callback immediately.
 
-Otherwise, return an appropriate error code. The error code is passed back to the caller of <a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhbrowsecountersa">PdhBrowseCounters</a>.
+Otherwise, return an appropriate error code. The error code is passed back to the caller of <a href="/windows/desktop/api/pdh/nf-pdh-pdhbrowsecountersa">PdhBrowseCounters</a>.
 
 ## -remarks
 
@@ -80,5 +80,4 @@ The following members of the
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhbrowsecountersa">PdhBrowseCounters</a>
-
+<a href="/windows/desktop/api/pdh/nf-pdh-pdhbrowsecountersa">PdhBrowseCounters</a>

@@ -57,11 +57,11 @@ The <b>CryptVerifyDetachedMessageSignature</b> function verifies a signed messag
 ### -param pVerifyPara [in]
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_verify_message_para">CRYPT_VERIFY_MESSAGE_PARA</a> structure containing the verification parameters.
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-crypt_verify_message_para">CRYPT_VERIFY_MESSAGE_PARA</a> structure containing the verification parameters.
 
 ### -param dwSignerIndex [in]
 
-Index of the signature to be verified. A message might have several signers and this function can be called repeatedly, changing <i>dwSignerIndex</i> to verify other signatures. If the function returns FALSE, and <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns CRYPT_E_NO_SIGNER, the previous call received the last signer of the message.
+Index of the signature to be verified. A message might have several signers and this function can be called repeatedly, changing <i>dwSignerIndex</i> to verify other signatures. If the function returns FALSE, and <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns CRYPT_E_NO_SIGNER, the previous call received the last signer of the message.
 
 ### -param pbDetachedSignBlob [in]
 
@@ -77,7 +77,7 @@ Number of array elements in <i>rgpbToBeSigned</i> and <i>rgcbToBeSigned</i>.
 
 ### -param rgpbToBeSigned [in]
 
-Array of pointers to buffers containing the contents to be <a href="https://docs.microsoft.com/windows/desktop/SecGloss/h-gly">hashed</a>.
+Array of pointers to buffers containing the contents to be <a href="/windows/desktop/SecGloss/h-gly">hashed</a>.
 
 ### -param rgcbToBeSigned [in]
 
@@ -86,7 +86,7 @@ Array of sizes, in bytes, for the content buffers pointed to in <i>rgpbToBeSigne
 ### -param ppSignerCert [out, optional]
 
 A pointer to a 
-pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a> structure of a signer certificate. When you have finished using the certificate context, free it by calling the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certfreecertificatecontext">CertFreeCertificateContext</a> function. A pointer to a <b>CERT_CONTEXT</b> structure will not be returned if this parameter is <b>NULL</b>.
+pointer to a <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a> structure of a signer certificate. When you have finished using the certificate context, free it by calling the <a href="/windows/desktop/api/wincrypt/nf-wincrypt-certfreecertificatecontext">CertFreeCertificateContext</a> function. A pointer to a <b>CERT_CONTEXT</b> structure will not be returned if this parameter is <b>NULL</b>.
 
 ## -returns
 
@@ -95,10 +95,10 @@ If the function succeeds, the return value is nonzero (TRUE).
 If the function fails, the return value is zero (<b>FALSE</b>).
 
 For extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 The following lists the error codes most commonly returned by the 
-		       <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function.
+		       <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function.
 
 <table>
 <tr>
@@ -164,20 +164,19 @@ The message's signature was not verified.
  
 
 <div class="alert"><b>Note</b>  Errors from the called functions 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptcreatehash">CryptCreateHash</a>, 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-crypthashdata">CryptHashData</a>, 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptverifysignaturea">CryptVerifySignature</a>, and 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptimportkey">CryptImportKey</a> might be propagated to this function.<p class="note">If the function fails, <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> may return an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">Abstract Syntax Notation One</a> (ASN.1) encoding/decoding error. For information about these errors, see 
-<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/asn-1-encoding-decoding-return-values">ASN.1 Encoding/Decoding Return Values</a>. 
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptcreatehash">CryptCreateHash</a>, 
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-crypthashdata">CryptHashData</a>, 
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptverifysignaturea">CryptVerifySignature</a>, and 
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptimportkey">CryptImportKey</a> might be propagated to this function.<p class="note">If the function fails, <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> may return an <a href="/windows/desktop/SecGloss/a-gly">Abstract Syntax Notation One</a> (ASN.1) encoding/decoding error. For information about these errors, see 
+<a href="/windows/desktop/SecCrypto/asn-1-encoding-decoding-return-values">ASN.1 Encoding/Decoding Return Values</a>. 
 
 </div>
 <div> </div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptverifymessagesignature">CryptVerifyMessageSignature</a>
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptverifymessagesignature">CryptVerifyMessageSignature</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">Simplified Message Functions</a>
-
+<a href="/windows/desktop/SecCrypto/cryptography-functions">Simplified Message Functions</a>

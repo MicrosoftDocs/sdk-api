@@ -70,7 +70,7 @@ CreatePropertySheet is called by an extension snap-in.
 ### -param pIDataObjectm [in]
 
 A pointer to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a> interface on the data object for the cookie. If the value of this parameter is <b>NULL</b>, MMC will not call any of the 
+<a href="/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a> interface on the data object for the cookie. If the value of this parameter is <b>NULL</b>, MMC will not call any of the 
 IExtendPropertySheet2 methods implemented by extension snap-ins.
 
 ### -param dwOptions [in]
@@ -113,25 +113,24 @@ This method can return one of these values.
 
 This method creates an object that collects all information required to create a property sheet. If the 
 CreatePropertySheet call is successful, but subsequent errors occur, you must call 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-ipropertysheetprovider-show">IPropertySheetProvider::Show</a>(
+<a href="/windows/desktop/api/mmc/nf-mmc-ipropertysheetprovider-show">IPropertySheetProvider::Show</a>(
     –1, 0) to free objects. The return code can be ignored in this case.
 
-In situations in which the snap-in creates a property sheet in a call to <b>IPropertySheetProvider::CreatePropertySheet</b> and then optionally calls <a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-ipropertysheetprovider-addprimarypages">IPropertySheetProvider::AddPrimaryPages</a> and <a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-ipropertysheetprovider-addextensionpages">IPropertySheetProvider::AddExtensionPages</a>, and then decides not to show the property sheet, it should call <a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-ipropertysheetprovider-show">IPropertySheetProvider::Show</a>(
+In situations in which the snap-in creates a property sheet in a call to <b>IPropertySheetProvider::CreatePropertySheet</b> and then optionally calls <a href="/windows/desktop/api/mmc/nf-mmc-ipropertysheetprovider-addprimarypages">IPropertySheetProvider::AddPrimaryPages</a> and <a href="/windows/desktop/api/mmc/nf-mmc-ipropertysheetprovider-addextensionpages">IPropertySheetProvider::AddExtensionPages</a>, and then decides not to show the property sheet, it should call <a href="/windows/desktop/api/mmc/nf-mmc-ipropertysheetprovider-show">IPropertySheetProvider::Show</a>(
     –1, 0) to delete the property sheet and free its resources. In this case, the snap-in must delete the property page handles it has created. This can be done before or after the snap-in calls <b>IPropertySheetProvider::Show</b>(
     –1, 0), because MMC does not use the property page handles.
 
-For a snap-in that targets MMC 1.1, the snap-in must keep an extra reference on the IDataObject interface that it passes to MMC in the <b>IPropertySheetProvider::CreatePropertySheet</b> call. This reference must be kept from before the <b>IPropertySheetProvider::CreatePropertySheet</b> call until after the property sheet is possibly closed with a call to <a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-ipropertysheetprovider-show">IPropertySheetProvider::Show</a>(
+For a snap-in that targets MMC 1.1, the snap-in must keep an extra reference on the IDataObject interface that it passes to MMC in the <b>IPropertySheetProvider::CreatePropertySheet</b> call. This reference must be kept from before the <b>IPropertySheetProvider::CreatePropertySheet</b> call until after the property sheet is possibly closed with a call to <a href="/windows/desktop/api/mmc/nf-mmc-ipropertysheetprovider-show">IPropertySheetProvider::Show</a>(
     –1, 0).
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a>
+<a href="/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-ipropertysheetprovider">IPropertySheetProvider</a>
+<a href="/windows/desktop/api/mmc/nn-mmc-ipropertysheetprovider">IPropertySheetProvider</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-ipropertysheetprovider-show">IPropertySheetProvider::Show</a>
-
+<a href="/windows/desktop/api/mmc/nf-mmc-ipropertysheetprovider-show">IPropertySheetProvider::Show</a>

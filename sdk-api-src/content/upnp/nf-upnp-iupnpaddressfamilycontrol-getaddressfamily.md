@@ -103,9 +103,8 @@ If the method succeeds, the return value is S_OK. Otherwise, the method returns 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/upnp/nn-upnp-iupnpaddressfamilycontrol">IUPnPAddressFamilyControl</a>
+<a href="/windows/desktop/api/upnp/nn-upnp-iupnpaddressfamilycontrol">IUPnPAddressFamilyControl</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/upnp/nf-upnp-iupnpaddressfamilycontrol-setaddressfamily">SetAddressFamily</a>
-
+<a href="/windows/desktop/api/upnp/nf-upnp-iupnpaddressfamilycontrol-setaddressfamily">SetAddressFamily</a>

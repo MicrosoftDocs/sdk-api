@@ -60,18 +60,17 @@ The <b>BTH_RADIO_IN_RANGE</b> structure stores data about Bluetooth devices with
 
 ### -field deviceInfo
 
-Current set of attributes associated with the remote device, in the form of a <a href="https://docs.microsoft.com/windows/desktop/api/bthdef/ns-bthdef-bth_device_info">BTH_DEVICE_INFO</a> structure.
+Current set of attributes associated with the remote device, in the form of a <a href="/windows/desktop/api/bthdef/ns-bthdef-bth_device_info">BTH_DEVICE_INFO</a> structure.
 
 ### -field previousDeviceFlags
 
-Previous flags for the <b>flags</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/bthdef/ns-bthdef-bth_device_info">BTH_DEVICE_INFO</a> structure pointed to by the <b>deviceInfo</b> member. Used to determine which attributes associated with the remote device have changed.
+Previous flags for the <b>flags</b> member of the <a href="/windows/desktop/api/bthdef/ns-bthdef-bth_device_info">BTH_DEVICE_INFO</a> structure pointed to by the <b>deviceInfo</b> member. Used to determine which attributes associated with the remote device have changed.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bthdef/ns-bthdef-bth_device_info">BTH_DEVICE_INFO</a>
+<a href="/windows/desktop/api/bthdef/ns-bthdef-bth_device_info">BTH_DEVICE_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Bluetooth/bluetooth-and-wm-devicechange-messages">Bluetooth and WM_DEVICECHANGE
+<a href="/windows/desktop/Bluetooth/bluetooth-and-wm-devicechange-messages">Bluetooth and WM_DEVICECHANGE
 				Messages</a>
-

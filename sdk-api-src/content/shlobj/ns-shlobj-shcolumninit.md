@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-Passes initialization information to <a href="https://docs.microsoft.com/windows/desktop/api/shlobj/nf-shlobj-icolumnprovider-initialize">IColumnProvider::Initialize</a>.
+Passes initialization information to <a href="/windows/desktop/api/shlobj/nf-shlobj-icolumnprovider-initialize">IColumnProvider::Initialize</a>.
 
 ## -struct-fields
 
@@ -73,4 +73,3 @@ Reserved. Set to <b>NULL</b>.
 Type: <b>WCHAR[MAX_PATH]</b>
 
 A pointer to a null-terminated Unicode string with a fully qualified folder path. The string will be empty if multiple folders are specified.
-

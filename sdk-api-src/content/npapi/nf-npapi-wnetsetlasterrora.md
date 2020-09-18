@@ -52,9 +52,9 @@ api_name:
 ## -description
 
 Sets extended error information. Network providers should call this function instead of 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-setlasterror">SetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-setlasterror">SetLastError</a>.
 
-When necessary, the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/m-gly">Multiple Provider Router</a> (MPR) calls <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-setlasterror">SetLastError</a> to set the Windows error returned from a network provider.
+When necessary, the <a href="/windows/desktop/SecGloss/m-gly">Multiple Provider Router</a> (MPR) calls <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-setlasterror">SetLastError</a> to set the Windows error returned from a network provider.
 
 ## -parameters
 
@@ -102,5 +102,4 @@ return(ERROR_EXTENDED_ERROR) ;
 
 In this case, providerError is the provider-specific error code.
 
-Providers do not need to call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-setlasterror">SetLastError</a> before returning from a provider function. The MPR calls <b>SetLastError</b> to set the Windows error returned from a provider when necessary to satisfy applications.
-
+Providers do not need to call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-setlasterror">SetLastError</a> before returning from a provider function. The MPR calls <b>SetLastError</b> to set the Windows error returned from a provider when necessary to satisfy applications.

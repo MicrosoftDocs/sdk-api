@@ -57,7 +57,7 @@ Retrieves the error text associated with the error.
 ### -param LanguageId [in]
 
 Identifies the locale to use to generate the description. To create the language identifier, use the 
-<a href="https://msdn.microsoft.com/library/dd373908.aspx">MAKELANGID</a> macro. For example, to specify U.S. English, use the following code sample. 
+<a href="/windows/win32/api/winnt/nf-winnt-makelangid">MAKELANGID</a> macro. For example, to specify U.S. English, use the following code sample. 
 
 
 
@@ -71,7 +71,7 @@ To retrieve the system's default user language identifier, use the following cal
 ### -param pErrorDescription [out]
 
 Null-terminated string that contains the error text associated with the error. Call the 
-<a href="https://msdn.microsoft.com/library/ms680722(VS.85).aspx">CoTaskMemFree</a> function to free <i>ppErrorDescription</i> when done.
+<a href="/windows/win32/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a> function to free <i>ppErrorDescription</i> when done.
 
 ## -returns
 
@@ -131,7 +131,7 @@ No string is available for the locale.
 ## -remarks
 
 You can also call the 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits/nf-bits-ibackgroundcopymanager-geterrordescription">IBackgroundCopyManager::GetErrorDescription</a> method to retrieve the error text associated with an error code.
+<a href="/windows/desktop/api/bits/nf-bits-ibackgroundcopymanager-geterrordescription">IBackgroundCopyManager::GetErrorDescription</a> method to retrieve the error text associated with an error code.
 
 Descriptions for HTTP errors are  localized.
 
@@ -141,23 +141,22 @@ Descriptions for HTTP errors are  localized.
 #### Examples
 
 See the example code in the 
-<a href="https://docs.microsoft.com/windows/desktop/Bits/handling-errors">Handling Errors</a> topic.
+<a href="/windows/desktop/Bits/handling-errors">Handling Errors</a> topic.
 
 <div class="code"></div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits/nf-bits-ibackgroundcopyerror-geterror">IBackgroundCopyError::GetError</a>
+<a href="/windows/desktop/api/bits/nf-bits-ibackgroundcopyerror-geterror">IBackgroundCopyError::GetError</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits/nf-bits-ibackgroundcopyerror-geterrorcontextdescription">IBackgroundCopyError::GetErrorContextDescription</a>
+<a href="/windows/desktop/api/bits/nf-bits-ibackgroundcopyerror-geterrorcontextdescription">IBackgroundCopyError::GetErrorContextDescription</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits/nf-bits-ibackgroundcopyerror-getfile">IBackgroundCopyError::GetFile</a>
+<a href="/windows/desktop/api/bits/nf-bits-ibackgroundcopyerror-getfile">IBackgroundCopyError::GetFile</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits/nf-bits-ibackgroundcopymanager-geterrordescription">IBackgroundCopyManager::GetErrorDescription</a>
-
+<a href="/windows/desktop/api/bits/nf-bits-ibackgroundcopymanager-geterrordescription">IBackgroundCopyManager::GetErrorDescription</a>

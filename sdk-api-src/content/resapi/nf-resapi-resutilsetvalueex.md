@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Sets a value in the  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-database">cluster database</a>.
+Sets a value in the  <a href="/previous-versions/windows/desktop/mscs/cluster-database">cluster database</a>.
 
 ## -parameters
 
@@ -81,4 +81,3 @@ The flags that specify settings for the operation.
 ## -returns
 
 Returns <b>ERROR_SUCCESS</b> if the operation succeeds; otherwise, returns a system error code.
-

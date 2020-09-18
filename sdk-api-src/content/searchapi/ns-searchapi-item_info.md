@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-Contains information passed to the <a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nn-searchapi-iurlaccessor">IUrlAccessor</a> object about the current item; for example, the application name and catalog name.
+Contains information passed to the <a href="/windows/desktop/api/searchapi/nn-searchapi-iurlaccessor">IUrlAccessor</a> object about the current item; for example, the application name and catalog name.
 
 ## -struct-fields
 
@@ -85,4 +85,3 @@ Pointer to a null-terminated Unicode string containing the workspace name from w
 Type: <b>LPCWSTR</b>
 
 Not used by protocol handlers.
-

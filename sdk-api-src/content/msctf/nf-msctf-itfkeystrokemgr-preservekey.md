@@ -56,15 +56,15 @@ Registers a preserved key.
 
 ### -param tid [in]
 
-Contains the client identifier of the TSF text service. This value is passed to the TSF text service in its <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itftextinputprocessor-activate">ITfTextInputProcessor::Activate</a> method.
+Contains the client identifier of the TSF text service. This value is passed to the TSF text service in its <a href="/windows/desktop/api/msctf/nf-msctf-itftextinputprocessor-activate">ITfTextInputProcessor::Activate</a> method.
 
 ### -param rguid [in]
 
-Contains the command GUID of the preserved key. This value is passed to the TSF text service <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfkeyeventsink-onpreservedkey">ITfKeyEventSink::OnPreservedKey</a> method to identify the preserved key when the preserved key is activated.
+Contains the command GUID of the preserved key. This value is passed to the TSF text service <a href="/windows/desktop/api/msctf/nf-msctf-itfkeyeventsink-onpreservedkey">ITfKeyEventSink::OnPreservedKey</a> method to identify the preserved key when the preserved key is activated.
 
 ### -param prekey [in]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/msctf/ns-msctf-tf_preservedkey">TF_PRESERVEDKEY</a> structure that specifies the preserved key. The <b>uVKey</b> member contains the virtual key code and the <b>uModifiers</b> member identifies the modifiers of the preserved key.
+Pointer to a <a href="/windows/desktop/api/msctf/ns-msctf-tf_preservedkey">TF_PRESERVEDKEY</a> structure that specifies the preserved key. The <b>uVKey</b> member contains the virtual key code and the <b>uModifiers</b> member identifies the modifiers of the preserved key.
 
 ### -param pchDesc [in]
 
@@ -146,25 +146,24 @@ Preserved keys are registered by TSF text services and provide keyboard shortcut
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfkeyeventsink-onpreservedkey">ITfKeyEventSink::OnPreservedKey
+<a href="/windows/desktop/api/msctf/nf-msctf-itfkeyeventsink-onpreservedkey">ITfKeyEventSink::OnPreservedKey
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfkeystrokemgr">ITfKeystrokeMgr</a>
+<a href="/windows/desktop/api/msctf/nn-msctf-itfkeystrokemgr">ITfKeystrokeMgr</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfkeystrokemgr-unpreservekey">ITfKeystrokeMgr::UnpreserveKey
+<a href="/windows/desktop/api/msctf/nf-msctf-itfkeystrokemgr-unpreservekey">ITfKeystrokeMgr::UnpreserveKey
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itftextinputprocessor-activate">ITfTextInputProcessor::Activate
+<a href="/windows/desktop/api/msctf/nf-msctf-itftextinputprocessor-activate">ITfTextInputProcessor::Activate
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/ns-msctf-tf_preservedkey">TF_PRESERVEDKEY
+<a href="/windows/desktop/api/msctf/ns-msctf-tf_preservedkey">TF_PRESERVEDKEY
       </a>
-

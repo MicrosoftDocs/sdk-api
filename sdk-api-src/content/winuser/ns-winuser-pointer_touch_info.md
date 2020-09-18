@@ -58,21 +58,21 @@ Defines basic touch information common to all pointer types.
 
 ### -field pointerInfo
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-pointer_info">POINTER_INFO</a></b>
+Type: <b><a href="/windows/desktop/api/winuser/ns-winuser-pointer_info">POINTER_INFO</a></b>
 
-An embedded <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-pointer_info">POINTER_INFO</a> header structure.
+An embedded <a href="/windows/desktop/api/winuser/ns-winuser-pointer_info">POINTER_INFO</a> header structure.
 
 ### -field touchFlags
 
-Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/inputmsg/touch-flags-constants">Touch Flags</a></b>
+Type: <b><a href="/previous-versions/windows/desktop/inputmsg/touch-flags-constants">Touch Flags</a></b>
 
 Currently none.
 
 ### -field touchMask
 
-Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/inputmsg/touch-mask-constants">Touch Mask</a></b>
+Type: <b><a href="/previous-versions/windows/desktop/inputmsg/touch-mask-constants">Touch Mask</a></b>
 
-Indicates which of the optional fields contain valid values. The member can be zero or any combination of the values from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/inputmsg/touch-mask-constants">Touch Mask</a> constants.
+Indicates which of the optional fields contain valid values. The member can be zero or any combination of the values from the <a href="/previous-versions/windows/desktop/inputmsg/touch-mask-constants">Touch Mask</a> constants.
 
 ### -field rcContact
 
@@ -106,5 +106,4 @@ Type: <b>UINT32</b>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/inputmsg/structures">Structures</a>
-
+<a href="/previous-versions/windows/desktop/inputmsg/structures">Structures</a>

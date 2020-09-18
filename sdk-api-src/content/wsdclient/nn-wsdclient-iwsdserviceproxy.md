@@ -54,7 +54,7 @@ Represents a remote WSD service for client applications and middleware.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWSDServiceProxy</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/wsdclient/nn-wsdclient-iwsdmetadataexchange">IWSDMetadataExchange</a>. <b>IWSDServiceProxy</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWSDServiceProxy</b> interface inherits from <a href="/windows/desktop/api/wsdclient/nn-wsdclient-iwsdmetadataexchange">IWSDMetadataExchange</a>. <b>IWSDServiceProxy</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IWSDServiceProxy</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wsdclient/nf-wsdclient-iwsdserviceproxy-begingetmetadata">BeginGetMetadata</a>
+<a href="/windows/desktop/api/wsdclient/nf-wsdclient-iwsdserviceproxy-begingetmetadata">BeginGetMetadata</a>
 </td>
 <td align="left" width="63%">
 Initiates an asynchronous metadata exchange request with the remote service.
@@ -78,7 +78,7 @@ Initiates an asynchronous metadata exchange request with the remote service.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wsdclient/nf-wsdclient-iwsdserviceproxy-endgetmetadata">EndGetMetadata</a>
+<a href="/windows/desktop/api/wsdclient/nf-wsdclient-iwsdserviceproxy-endgetmetadata">EndGetMetadata</a>
 </td>
 <td align="left" width="63%">
 Completes the asynchronous metadata exchange request and retrieves the service metadata from the response.
@@ -87,7 +87,7 @@ Completes the asynchronous metadata exchange request and retrieves the service m
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wsdclient/nf-wsdclient-iwsdserviceproxy-getendpointproxy">GetEndpointProxy</a>
+<a href="/windows/desktop/api/wsdclient/nf-wsdclient-iwsdserviceproxy-getendpointproxy">GetEndpointProxy</a>
 </td>
 <td align="left" width="63%">
 Gets the endpoint proxy for the device.
@@ -96,7 +96,7 @@ Gets the endpoint proxy for the device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wsdclient/nf-wsdclient-iwsdserviceproxy-getservicemetadata">GetServiceMetadata</a>
+<a href="/windows/desktop/api/wsdclient/nf-wsdclient-iwsdserviceproxy-getservicemetadata">GetServiceMetadata</a>
 </td>
 <td align="left" width="63%">
 Retrieves the metadata for the <b>IWSDServiceProxy</b> object.
@@ -105,7 +105,7 @@ Retrieves the metadata for the <b>IWSDServiceProxy</b> object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wsdclient/nf-wsdclient-iwsdserviceproxy-seteventingstatuscallback">SetEventingStatusCallback</a>
+<a href="/windows/desktop/api/wsdclient/nf-wsdclient-iwsdserviceproxy-seteventingstatuscallback">SetEventingStatusCallback</a>
 </td>
 <td align="left" width="63%">
 Sets or clears the eventing status callback.
@@ -114,7 +114,7 @@ Sets or clears the eventing status callback.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wsdclient/nf-wsdclient-iwsdserviceproxy-subscribetooperation">SubscribeToOperation</a>
+<a href="/windows/desktop/api/wsdclient/nf-wsdclient-iwsdserviceproxy-subscribetooperation">SubscribeToOperation</a>
 </td>
 <td align="left" width="63%">
 Subscribes to a notification or solicit/response event.
@@ -123,7 +123,7 @@ Subscribes to a notification or solicit/response event.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wsdclient/nf-wsdclient-iwsdserviceproxy-unsubscribetooperation">UnsubscribeToOperation</a>
+<a href="/windows/desktop/api/wsdclient/nf-wsdclient-iwsdserviceproxy-unsubscribetooperation">UnsubscribeToOperation</a>
 </td>
 <td align="left" width="63%">
 Cancels a subscription to a notification or solicit/response event.
@@ -140,5 +140,4 @@ Service proxy objects may reside on multiple endpoints. An endpoint more complet
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wsdclient/nn-wsdclient-iwsdmetadataexchange">IWSDMetadataExchange</a>
-
+<a href="/windows/desktop/api/wsdclient/nn-wsdclient-iwsdmetadataexchange">IWSDMetadataExchange</a>

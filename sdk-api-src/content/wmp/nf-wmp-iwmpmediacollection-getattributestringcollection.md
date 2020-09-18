@@ -90,15 +90,14 @@ The method succeeded.
 
 ## -remarks
 
-Before calling this method, you must have read access to the library. For more information, see <a href="https://docs.microsoft.com/windows/desktop/WMP/library-access">Library Access</a>.
+Before calling this method, you must have read access to the library. For more information, see <a href="/windows/desktop/WMP/library-access">Library Access</a>.
 
-For information about the attributes supported by Windows Media Player, see the <a href="https://docs.microsoft.com/windows/desktop/WMP/attribute-reference">Attribute Reference</a> section.
+For information about the attributes supported by Windows Media Player, see the <a href="/windows/desktop/WMP/attribute-reference">Attribute Reference</a> section.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpmediacollection">IWMPMediaCollection Interface</a>
+<a href="/windows/desktop/api/wmp/nn-wmp-iwmpmediacollection">IWMPMediaCollection Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpstringcollection">IWMPStringCollection Interface</a>
-
+<a href="/windows/desktop/api/wmp/nn-wmp-iwmpstringcollection">IWMPStringCollection Interface</a>

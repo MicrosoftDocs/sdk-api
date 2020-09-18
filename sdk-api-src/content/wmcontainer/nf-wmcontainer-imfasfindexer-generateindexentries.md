@@ -57,7 +57,7 @@ Accepts an ASF packet for the file and creates index entries for them.
 
 ### -param pIASFPacketSample [in]
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfsample">IMFSample</a> interface of a media sample that contains the ASF packet.
+Pointer to the <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfsample">IMFSample</a> interface of a media sample that contains the ASF packet.
 
 ## -returns
 
@@ -107,20 +107,19 @@ The indexer is not initialized.
 
 ## -remarks
 
-The ASF indexer creates indexes for a file internally. You can get the completed index for all data packets sent to the indexer by committing the index with <a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfindexer-commitindex">IMFASFIndexer::CommitIndex</a> and then calling <a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfindexer-getcompletedindex">IMFASFIndexer::GetCompletedIndex</a> to write the index entries into a media buffer. To determine the size of the index so you can allocate a buffer large enough to hold the index, call <a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfindexer-getindexwritespace">IMFASFIndexer::GetIndexWriteSpace</a>.
+The ASF indexer creates indexes for a file internally. You can get the completed index for all data packets sent to the indexer by committing the index with <a href="/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfindexer-commitindex">IMFASFIndexer::CommitIndex</a> and then calling <a href="/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfindexer-getcompletedindex">IMFASFIndexer::GetCompletedIndex</a> to write the index entries into a media buffer. To determine the size of the index so you can allocate a buffer large enough to hold the index, call <a href="/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfindexer-getindexwritespace">IMFASFIndexer::GetIndexWriteSpace</a>.
 
-When this method creates index entries, they are immediately available for use by <a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfindexer-getseekpositionforvalue">IMFASFIndexer::GetSeekPositionForValue</a>.
+When this method creates index entries, they are immediately available for use by <a href="/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfindexer-getseekpositionforvalue">IMFASFIndexer::GetSeekPositionForValue</a>.
       
 
-The media sample specified in   <i>pIASFPacketSample</i> must hold a buffer that contains a single ASF packet. Get the sample from the  ASF multiplexer by calling the <a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfmultiplexer-getnextpacket">IMFASFMultiplexer::GetNextPacket</a> method. 
+The media sample specified in   <i>pIASFPacketSample</i> must hold a buffer that contains a single ASF packet. Get the sample from the  ASF multiplexer by calling the <a href="/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfmultiplexer-getnextpacket">IMFASFMultiplexer::GetNextPacket</a> method. 
 
 You cannot use this method while reading an index, only when writing an index.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/asf-index-object">ASF Index Object</a>
+<a href="/windows/desktop/medfound/asf-index-object">ASF Index Object</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nn-wmcontainer-imfasfindexer">IMFASFIndexer</a>
-
+<a href="/windows/desktop/api/wmcontainer/nn-wmcontainer-imfasfindexer">IMFASFIndexer</a>

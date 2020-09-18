@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>IWCNDevice::SetVendorExtension</b> method queues a vendor extension for use in the pending session.  This function may only be called prior to <a href="https://docs.microsoft.com/windows/desktop/api/wcndevice/nf-wcndevice-iwcndevice-connect">IWCNDevice::Connect</a>.
+The <b>IWCNDevice::SetVendorExtension</b> method queues a vendor extension for use in the pending session.  This function may only be called prior to <a href="/windows/desktop/api/wcndevice/nf-wcndevice-iwcndevice-connect">IWCNDevice::Connect</a>.
 
 ## -parameters
 
@@ -112,13 +112,12 @@ The number of vendor extensions has exceeded the current implementation limit, w
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wcndevice/nn-wcndevice-iwcndevice">IWCNDevice</a>
+<a href="/windows/desktop/api/wcndevice/nn-wcndevice-iwcndevice">IWCNDevice</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wcndevice/nf-wcndevice-iwcndevice-connect">IWCNDevice::Connect</a>
+<a href="/windows/desktop/api/wcndevice/nf-wcndevice-iwcndevice-connect">IWCNDevice::Connect</a>
 
 
 
 <b>WCN_VENDOR_EXTENSION_SPEC</b>
-

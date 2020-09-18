@@ -57,11 +57,11 @@ The <code>RequestAllocator</code> method requests an allocator during the pin co
 
 ### -param pPreferred [in]
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-imemallocator">IMemAllocator</a> interface on the input pin's preferred allocator, or <b>NULL</b>.
+Pointer to the <a href="/windows/desktop/api/strmif/nn-strmif-imemallocator">IMemAllocator</a> interface on the input pin's preferred allocator, or <b>NULL</b>.
 
 ### -param pProps [in]
 
-Specifies the address of an [ALLOCATOR_PROPERTIES](https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-allocator_properties) structure, allocated by the caller. The caller should fill in any allocator properties that the input pin requires, and set the remaining members to zero.
+Specifies the address of an [ALLOCATOR_PROPERTIES](/windows/desktop/api/strmif/ns-strmif-allocator_properties) structure, allocated by the caller. The caller should fill in any allocator properties that the input pin requires, and set the remaining members to zero.
 
 ### -param ppActual [out]
 
@@ -115,15 +115,14 @@ Allocator was returned.
 
 The downstream input pin should call this method during the connection process. If the pin has a preferred allocator, specify it in the <i>pPreferred</i> parameter. Specify any buffer requirements, such as buffer size or alignment, in the <i>pProps</i> parameter. The output pin chooses the allocator and returns a pointer to it in the <i>ppActual</i> parameter.
 
-The output pin is not required to honor the input pin's requests. If the input pin has any absolute requirements, it should call the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-imemallocator-getproperties">IMemAllocator::GetProperties</a> method on the returned allocator. It can fail the connect if the allocator properties are not suitable. Once the connection is established, the input pin must use the allocator chosen by the output pin.
+The output pin is not required to honor the input pin's requests. If the input pin has any absolute requirements, it should call the <a href="/windows/desktop/api/strmif/nf-strmif-imemallocator-getproperties">IMemAllocator::GetProperties</a> method on the returned allocator. It can fail the connect if the allocator properties are not suitable. Once the connection is established, the input pin must use the allocator chosen by the output pin.
 
 The input pin is responsible for committing and decommitting the allocator.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iasyncreader">IAsyncReader Interface</a>
-
+<a href="/windows/desktop/api/strmif/nn-strmif-iasyncreader">IAsyncReader Interface</a>

@@ -67,11 +67,11 @@ The vertical scroll position can be reported as <b>UIA_ScrollPatternNoScroll</b>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nf-uiautomationcore-iscrollprovider-get_horizontalscrollpercent">HorizontalScrollPercent</a>
+<a href="/windows/desktop/api/uiautomationcore/nf-uiautomationcore-iscrollprovider-get_horizontalscrollpercent">HorizontalScrollPercent</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nn-uiautomationcore-iscrollprovider">IScrollProvider</a>
+<a href="/windows/desktop/api/uiautomationcore/nn-uiautomationcore-iscrollprovider">IScrollProvider</a>
 
 
 
@@ -79,5 +79,4 @@ The vertical scroll position can be reported as <b>UIA_ScrollPatternNoScroll</b>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-providersoverview">UI Automation Providers Overview</a>
-
+<a href="/windows/desktop/WinAuto/uiauto-providersoverview">UI Automation Providers Overview</a>

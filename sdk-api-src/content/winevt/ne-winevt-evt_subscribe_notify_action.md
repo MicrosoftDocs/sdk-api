@@ -66,5 +66,4 @@ Indicates that the <i>Event</i> parameter contains an event that matches the sub
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winevt/nc-winevt-evt_subscribe_callback">EVT_SUBSCRIBE_CALLBACK</a>
-
+<a href="/windows/desktop/api/winevt/nc-winevt-evt_subscribe_callback">EVT_SUBSCRIBE_CALLBACK</a>

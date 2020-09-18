@@ -131,13 +131,12 @@ This method is not yet implemented.
 ## -remarks
 
 Changes made will not take effect on the server until the 
-<a href="https://docs.microsoft.com/windows/desktop/api/rend/nf-rend-itdirectory-modifydirectoryobject">ITDirectory::ModifyDirectoryObject</a> method is called.
+<a href="/windows/desktop/api/rend/nf-rend-itdirectory-modifydirectoryobject">ITDirectory::ModifyDirectoryObject</a> method is called.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rend/nn-rend-itdirectoryobject">ITDirectoryObject</a>
+<a href="/windows/desktop/api/rend/nn-rend-itdirectoryobject">ITDirectoryObject</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rend/nf-rend-itdirectoryobject-get_securitydescriptor">ITDirectoryObject::get_SecurityDescriptor</a>
-
+<a href="/windows/desktop/api/rend/nf-rend-itdirectoryobject-get_securitydescriptor">ITDirectoryObject::get_SecurityDescriptor</a>

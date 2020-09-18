@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>IX509ExtensionMSApplicationPolicies</b> interface enables you to specify a collection of <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly">object identifiers</a> (OIDs) that indicate how a certificate can be used by an application. It is therefore similar to the <b>EnhancedKeyUsage</b> (EKU) extension. You can define your own OIDs or use any of the following EKU OIDs.<table>
+The <b>IX509ExtensionMSApplicationPolicies</b> interface enables you to specify a collection of <a href="/windows/desktop/SecGloss/o-gly">object identifiers</a> (OIDs) that indicate how a certificate can be used by an application. It is therefore similar to the <b>EnhancedKeyUsage</b> (EKU) extension. You can define your own OIDs or use any of the following EKU OIDs.<table>
 <tr>
 <th>Value</th>
 <th>Description</th>
@@ -65,7 +65,7 @@ The <b>IX509ExtensionMSApplicationPolicies</b> interface enables you to specify 
 <td>XCN_OID_AUTO_ENROLL_CTL_USAGE(1.3.6.1.4.1.311.20.1)
 
 </td>
-<td>The certificate can be used to sign a request for automatic enrollment  in a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate trust list</a> (CTL).</td>
+<td>The certificate can be used to sign a request for automatic enrollment  in a <a href="/windows/desktop/SecGloss/c-gly">certificate trust list</a> (CTL).</td>
 </tr>
 <tr>
 <td>XCN_OID_DRM(1.3.6.1.4.1.311.10.5.1)
@@ -107,7 +107,7 @@ The <b>IX509ExtensionMSApplicationPolicies</b> interface enables you to specify 
 <td>XCN_OID_KP_CA_EXCHANGE(1.3.6.1.4.1.311.21.5)
 
 </td>
-<td>The certificate can be used for archiving a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">private key</a> on a  <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certification authority</a>.</td>
+<td>The certificate can be used for archiving a <a href="/windows/desktop/SecGloss/p-gly">private key</a> on a  <a href="/windows/desktop/SecGloss/c-gly">certification authority</a>.</td>
 </tr>
 <tr>
 <td>XCN_OID_KP_CTL_USAGE_SIGNING(1.3.6.1.4.1.311.10.3.1)
@@ -259,15 +259,15 @@ The <b>IX509ExtensionMSApplicationPolicies</b> interface enables you to specify 
 
 
 
-A single policy is defined by an <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icertificatepolicy">ICertificatePolicy</a> object. A collection is defined by an <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icertificatepolicies">ICertificatePolicies</a> object. You can use the collection to initialize an <b>IX509ExtensionMSApplicationPolicies</b> object.
+A single policy is defined by an <a href="/windows/desktop/api/certenroll/nn-certenroll-icertificatepolicy">ICertificatePolicy</a> object. A collection is defined by an <a href="/windows/desktop/api/certenroll/nn-certenroll-icertificatepolicies">ICertificatePolicies</a> object. You can use the collection to initialize an <b>IX509ExtensionMSApplicationPolicies</b> object.
 
 You can use this extension to specify which applications can use a certificate or force an application to accept only certificates for which certain OIDs have been listed. Typically, the application reviews the certificate to ensure that the <b>MSApplicationPolicies</b> extension contains the required OIDs.
 
-To add this extension object to a  PKCS #10 request or a CMC request, you must first add it to an <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509extensions">IX509Extensions</a> collection and use the collection to initialize an <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509attributeextensions">IX509AttributeExtensions</a> object. For more information, see <a href="https://docs.microsoft.com/windows/desktop/SecCertEnroll/pkcs--10-extensions">PKCS #10 Extensions</a> and <a href="https://docs.microsoft.com/windows/desktop/SecCertEnroll/cmc-extensions">CMC Extensions</a>.
+To add this extension object to a  PKCS #10 request or a CMC request, you must first add it to an <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509extensions">IX509Extensions</a> collection and use the collection to initialize an <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509attributeextensions">IX509AttributeExtensions</a> object. For more information, see <a href="/windows/desktop/SecCertEnroll/pkcs--10-extensions">PKCS #10 Extensions</a> and <a href="/windows/desktop/SecCertEnroll/cmc-extensions">CMC Extensions</a>.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IX509ExtensionMSApplicationPolicies</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509extension">IX509Extension</a>. <b>IX509ExtensionMSApplicationPolicies</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IX509ExtensionMSApplicationPolicies</b> interface inherits from <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509extension">IX509Extension</a>. <b>IX509ExtensionMSApplicationPolicies</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -283,19 +283,19 @@ The <b>IX509ExtensionMSApplicationPolicies</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509extensionmsapplicationpolicies-initializedecode">InitializeDecode</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-ix509extensionmsapplicationpolicies-initializedecode">InitializeDecode</a>
 </td>
 <td align="left" width="63%">
-Initializes the  extension from a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/d-gly">Distinguished Encoding Rules</a> (DER) encoded byte array that contains the extension value.
+Initializes the  extension from a <a href="/windows/desktop/SecGloss/d-gly">Distinguished Encoding Rules</a> (DER) encoded byte array that contains the extension value.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509extensionmsapplicationpolicies-initializeencode">InitializeEncode</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-ix509extensionmsapplicationpolicies-initializeencode">InitializeEncode</a>
 </td>
 <td align="left" width="63%">
-Initializes the extension from an <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icertificatepolicies">ICertificatePolicies</a> collection.
+Initializes the extension from an <a href="/windows/desktop/api/certenroll/nn-certenroll-icertificatepolicies">ICertificatePolicies</a> collection.
 
 </td>
 </tr>
@@ -309,7 +309,7 @@ Initializes the extension from an <a href="https://docs.microsoft.com/windows/de
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509extensionmsapplicationpolicies-get_policies">Policies</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-ix509extensionmsapplicationpolicies-get_policies">Policies</a>
 
 
 </td>
@@ -322,13 +322,12 @@ Retrieves a collection of application policies.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/SecCertEnroll/certificate-enrollment-api-reference">Certificate Enrollment API</a>
+<a href="/windows/desktop/SecCertEnroll/certificate-enrollment-api-reference">Certificate Enrollment API</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmcobj/nn-mmcobj-extensions">Extensions</a>
+<a href="/windows/desktop/api/mmcobj/nn-mmcobj-extensions">Extensions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509extension">IX509Extension</a>
-
+<a href="/windows/desktop/api/certenroll/nn-certenroll-ix509extension">IX509Extension</a>

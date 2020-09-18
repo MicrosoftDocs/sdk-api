@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-Contains a bitmask of the driver letters that are available on  a node. It is used as the return value of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-resource-type-storage-get-driveletters">CLUSCTL_RESOURCE_TYPE_STORAGE_GET_DRIVELETTERS</a> control code.
+Contains a bitmask of the driver letters that are available on  a node. It is used as the return value of the <a href="/previous-versions/windows/desktop/mscs/clusctl-resource-type-storage-get-driveletters">CLUSCTL_RESOURCE_TYPE_STORAGE_GET_DRIVELETTERS</a> control code.
 
 ## -struct-fields
 
@@ -64,5 +64,4 @@ The least significant bit represents the letter 'A' and is set to zero if any pa
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-resource-type-storage-get-driveletters">CLUSCTL_RESOURCE_TYPE_STORAGE_GET_DRIVELETTERS</a>
-
+<a href="/previous-versions/windows/desktop/mscs/clusctl-resource-type-storage-get-driveletters">CLUSCTL_RESOURCE_TYPE_STORAGE_GET_DRIVELETTERS</a>

@@ -54,7 +54,7 @@ The <b>IAudioLfxControl</b> interface allows the client to apply or remove local
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAudioLfxControl</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAudioLfxControl</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAudioLfxControl</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAudioLfxControl</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IAudioLfxControl</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/audioengineendpoint/nf-audioengineendpoint-iaudiolfxcontrol-getlocaleffectsstate">GetLocalEffectsState</a>
+<a href="/windows/desktop/api/audioengineendpoint/nf-audioengineendpoint-iaudiolfxcontrol-getlocaleffectsstate">GetLocalEffectsState</a>
 </td>
 <td align="left" width="63%">
 Retrieves the local effects state that is currently applied to the offloaded audio stream.
@@ -78,7 +78,7 @@ Retrieves the local effects state that is currently applied to the offloaded aud
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/audioengineendpoint/nf-audioengineendpoint-iaudiolfxcontrol-setlocaleffectsstate">SetLocalEffectsState</a>
+<a href="/windows/desktop/api/audioengineendpoint/nf-audioengineendpoint-iaudiolfxcontrol-setlocaleffectsstate">SetLocalEffectsState</a>
 </td>
 <td align="left" width="63%">
 Sets the local effects state that is applied to the offloaded audio stream.
@@ -89,5 +89,4 @@ Sets the local effects state that is applied to the offloaded audio stream.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/CoreAudio/core-audio-interfaces">Core Audio Interfaces</a>
-
+<a href="/windows/desktop/CoreAudio/core-audio-interfaces">Core Audio Interfaces</a>

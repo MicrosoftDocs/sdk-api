@@ -54,7 +54,7 @@ The <b>ISCPSecureExchange3</b> interface extends <b>ISCPSecureExchange2</b> by p
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISCPSecureExchange3</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iscpsecureexchange2">ISCPSecureExchange2</a>. <b>ISCPSecureExchange3</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISCPSecureExchange3</b> interface inherits from <a href="/windows/desktop/api/mswmdm/nn-mswmdm-iscpsecureexchange2">ISCPSecureExchange2</a>. <b>ISCPSecureExchange3</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ISCPSecureExchange3</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/WMDM/iscpsecureexchange3--getobjectdataonclearchannel">GetObjectDataOnClearChannel</a>
+<a href="/windows/desktop/WMDM/iscpsecureexchange3--getobjectdataonclearchannel">GetObjectDataOnClearChannel</a>
 </td>
 <td align="left" width="63%">
 Retrieves the object data on a clear channel.
@@ -78,7 +78,7 @@ Retrieves the object data on a clear channel.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iscpsecureexchange3-transfercompletefordevice">TransferCompleteForDevice</a>
+<a href="/windows/desktop/api/mswmdm/nf-mswmdm-iscpsecureexchange3-transfercompletefordevice">TransferCompleteForDevice</a>
 </td>
 <td align="left" width="63%">
 Indicates that the data transfer has completed for the device.
@@ -87,7 +87,7 @@ Indicates that the data transfer has completed for the device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iscpsecureexchange3-transfercontainerdataonclearchannel">TransferContainerDataOnClearChannel</a>
+<a href="/windows/desktop/api/mswmdm/nf-mswmdm-iscpsecureexchange3-transfercontainerdataonclearchannel">TransferContainerDataOnClearChannel</a>
 </td>
 <td align="left" width="63%">
 Transfers the container data on a clear channel.
@@ -98,13 +98,12 @@ Transfers the container data on a clear channel.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iscpsecureexchange">ISCPSecureExchange Interface</a>
+<a href="/windows/desktop/api/mswmdm/nn-mswmdm-iscpsecureexchange">ISCPSecureExchange Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iscpsecureexchange2">ISCPSecureExchange2 Interface</a>
+<a href="/windows/desktop/api/mswmdm/nn-mswmdm-iscpsecureexchange2">ISCPSecureExchange2 Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WMDM/interfaces-for-secure-content-providers">Interfaces for Secure Content Providers</a>
-
+<a href="/windows/desktop/WMDM/interfaces-for-secure-content-providers">Interfaces for Secure Content Providers</a>

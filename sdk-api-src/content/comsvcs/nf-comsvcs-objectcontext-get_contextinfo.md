@@ -56,7 +56,7 @@ Retrieves the context information object of the current object's context.
 
 ### -param ppContextInfo [out]
 
-A reference to a <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-contextinfo">ContextInfo</a> interface that contains the context information.
+A reference to a <a href="/windows/desktop/api/comsvcs/nn-comsvcs-contextinfo">ContextInfo</a> interface that contains the context information.
 
 ## -returns
 
@@ -64,5 +64,4 @@ This method can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, E
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-objectcontext">ObjectContext</a>
-
+<a href="/windows/desktop/api/comsvcs/nn-comsvcs-objectcontext">ObjectContext</a>

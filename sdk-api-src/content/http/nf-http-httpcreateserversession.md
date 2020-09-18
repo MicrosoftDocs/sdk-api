@@ -105,29 +105,28 @@ The <i>pServerSessionId</i> parameter is null or the  <i>Reserved</i> is non zer
 
 ## -remarks
 
-Server sessions own a set of URL Groups. They are top-level configuration containers for configuration information that applies to all of the URL Groups created under them. For more information about configuring a server session, see <a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpsetserversessionproperty">HttpSetServerSessionProperty</a>.
+Server sessions own a set of URL Groups. They are top-level configuration containers for configuration information that applies to all of the URL Groups created under them. For more information about configuring a server session, see <a href="/windows/desktop/api/http/nf-http-httpsetserversessionproperty">HttpSetServerSessionProperty</a>.
 
 The HTTP Server API does not support asynchronous I/O for server sessions.
 
- When the server session is no longer required, or before the application terminates, application must delete the server session by calling <a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpcloseserversession">HttpCloseServerSession</a>. When a server session is deleted all of the associated URL Groups are also automatically deleted.
+ When the server session is no longer required, or before the application terminates, application must delete the server session by calling <a href="/windows/desktop/api/http/nf-http-httpcloseserversession">HttpCloseServerSession</a>. When a server session is deleted all of the associated URL Groups are also automatically deleted.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Http/http-server-api-version-2-0-functions">HTTP Server API Version 2.0 Functions</a>
+<a href="/windows/desktop/Http/http-server-api-version-2-0-functions">HTTP Server API Version 2.0 Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpcloseserversession">HttpCloseServerSession</a>
+<a href="/windows/desktop/api/http/nf-http-httpcloseserversession">HttpCloseServerSession</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpcreateserversession">HttpCreateServerSession</a>
+<a href="/windows/desktop/api/http/nf-http-httpcreateserversession">HttpCreateServerSession</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpqueryserversessionproperty">HttpQueryServerSessionProperty</a>
+<a href="/windows/desktop/api/http/nf-http-httpqueryserversessionproperty">HttpQueryServerSessionProperty</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpsetserversessionproperty">HttpSetServerSessionProperty</a>
-
+<a href="/windows/desktop/api/http/nf-http-httpsetserversessionproperty">HttpSetServerSessionProperty</a>

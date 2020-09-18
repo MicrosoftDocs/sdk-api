@@ -56,7 +56,7 @@ Creates a <b>PROPVARIANT</b> that can be used to seek within a sequencer source 
 
 ### -param dwId [in]
 
-Sequencer element identifier. This value specifies the segment in which to begin playback. The element identifier is returned in the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfsequencersource-appendtopology">IMFSequencerSource::AppendTopology</a> method.
+Sequencer element identifier. This value specifies the segment in which to begin playback. The element identifier is returned in the <a href="/windows/desktop/api/mfidl/nf-mfidl-imfsequencersource-appendtopology">IMFSequencerSource::AppendTopology</a> method.
 
 ### -param hnsOffset [in]
 
@@ -72,7 +72,7 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 ## -remarks
 
-The <b>PROPVARIANT</b> returned in <i>pvarSegmentOffset</i> can be used for the <i>pvarStartPosition</i> parameter in the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfmediasession-start">IMFMediaSession::Start</a> method. Use the time format <b>GUID MF_TIME_FORMAT_SEGMENT_OFFSET</b>.
+The <b>PROPVARIANT</b> returned in <i>pvarSegmentOffset</i> can be used for the <i>pvarStartPosition</i> parameter in the <a href="/windows/desktop/api/mfidl/nf-mfidl-imfmediasession-start">IMFMediaSession::Start</a> method. Use the time format <b>GUID MF_TIME_FORMAT_SEGMENT_OFFSET</b>.
       
 
 
@@ -107,17 +107,16 @@ HRESULT CPlaylist::SkipTo(DWORD index)
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/mftime">MFTIME</a>
+<a href="/windows/desktop/medfound/mftime">MFTIME</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>
+<a href="/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/sequencer-source">Sequencer Source</a>
+<a href="/windows/desktop/medfound/sequencer-source">Sequencer Source</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/using-the-sequencer-source">Using the Sequencer Source</a>
-
+<a href="/windows/desktop/medfound/using-the-sequencer-source">Using the Sequencer Source</a>

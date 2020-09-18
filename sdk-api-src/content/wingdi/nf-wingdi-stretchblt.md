@@ -103,7 +103,7 @@ The height, in logical units, of the source rectangle.
 
 The raster operation to be performed. Raster operation codes define how the system combines colors in output operations that involve a brush, a source bitmap, and a destination bitmap.
 
-See <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-bitblt">BitBlt</a> for a list of common raster operation codes (ROPs). Note that the CAPTUREBLT ROP generally cannot be used for printing device contexts.
+See <a href="/windows/desktop/api/wingdi/nf-wingdi-bitblt">BitBlt</a> for a list of common raster operation codes (ROPs). Note that the CAPTUREBLT ROP generally cannot be used for printing device contexts.
 
 ## -returns
 
@@ -113,7 +113,7 @@ If the function fails, the return value is zero.
 
 ## -remarks
 
-<b>StretchBlt</b> stretches or compresses the source bitmap in memory and then copies the result to the destination rectangle. This bitmap can be either a compatible bitmap (DDB) or the output from <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createdibsection">CreateDIBSection</a>. The color data for pattern or destination pixels is merged after the stretching or compression occurs.
+<b>StretchBlt</b> stretches or compresses the source bitmap in memory and then copies the result to the destination rectangle. This bitmap can be either a compatible bitmap (DDB) or the output from <a href="/windows/desktop/api/wingdi/nf-wingdi-createdibsection">CreateDIBSection</a>. The color data for pattern or destination pixels is merged after the stretching or compression occurs.
 
 When an enhanced metafile is being recorded, an error occurs (and the function returns <b>FALSE</b>) if the source device context identifies an enhanced-metafile device context.
 
@@ -129,60 +129,59 @@ If <b>StretchBlt</b> must convert a monochrome bitmap to a color bitmap, it sets
 
 <b>StretchBlt</b> creates a mirror image of a bitmap if the signs of the <i>nWidthSrc</i> and <i>nWidthDest</i> parameters or if the <i>nHeightSrc</i> and <i>nHeightDest</i> parameters differ. If <i>nWidthSrc</i> and <i>nWidthDest</i> have different signs, the function creates a mirror image of the bitmap along the x-axis. If <i>nHeightSrc</i> and <i>nHeightDest</i> have different signs, the function creates a mirror image of the bitmap along the y-axis.
 
-Not all devices support the <b>StretchBlt</b> function. For more information, see the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getdevicecaps">GetDeviceCaps</a>.
+Not all devices support the <b>StretchBlt</b> function. For more information, see the <a href="/windows/desktop/api/wingdi/nf-wingdi-getdevicecaps">GetDeviceCaps</a>.
 
 <b>ICM:</b> No color management is performed when a blit operation occurs.
 
-When used in a multiple monitor system, both <i>hdcSrc</i> and <i>hdcDest</i> must refer to the same device or the function will fail. To transfer data between DCs for different devices, convert the memory bitmap to a DIB by calling <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getdibits">GetDIBits</a>. To display the DIB to the second device, call <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-setdibits">SetDIBits</a> or <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-stretchdibits">StretchDIBits</a>.
+When used in a multiple monitor system, both <i>hdcSrc</i> and <i>hdcDest</i> must refer to the same device or the function will fail. To transfer data between DCs for different devices, convert the memory bitmap to a DIB by calling <a href="/windows/desktop/api/wingdi/nf-wingdi-getdibits">GetDIBits</a>. To display the DIB to the second device, call <a href="/windows/desktop/api/wingdi/nf-wingdi-setdibits">SetDIBits</a> or <a href="/windows/desktop/api/wingdi/nf-wingdi-stretchdibits">StretchDIBits</a>.
 
 
 #### Examples
 
-For an example, see <a href="https://docs.microsoft.com/windows/desktop/gdi/scaling-an-image">Scaling an Image</a>.
+For an example, see <a href="/windows/desktop/gdi/scaling-an-image">Scaling an Image</a>.
 
 <div class="code"></div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-bitblt">BitBlt</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-bitblt">BitBlt</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/bitmap-functions">Bitmap Functions</a>
+<a href="/windows/desktop/gdi/bitmap-functions">Bitmap Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/bitmaps">Bitmaps Overview</a>
+<a href="/windows/desktop/gdi/bitmaps">Bitmaps Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createdibsection">CreateDIBSection</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-createdibsection">CreateDIBSection</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getdibits">GetDIBits</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-getdibits">GetDIBits</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getdevicecaps">GetDeviceCaps</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-getdevicecaps">GetDeviceCaps</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-maskblt">MaskBlt</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-maskblt">MaskBlt</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-plgblt">PlgBlt</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-plgblt">PlgBlt</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-setdibits">SetDIBits</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-setdibits">SetDIBits</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-setstretchbltmode">SetStretchBltMode</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-setstretchbltmode">SetStretchBltMode</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-stretchdibits">StretchDIBits</a>
-
+<a href="/windows/desktop/api/wingdi/nf-wingdi-stretchdibits">StretchDIBits</a>

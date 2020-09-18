@@ -57,7 +57,7 @@ Applications use the <code>GetCurrentService</code> method to retrieve the curre
 
 ### -param lpService [out]
 
-Specifies a pointer to an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/iwstdec/ne-iwstdec-am_wst_service">AM_WST_SERVICE</a> enumeration to receive the service currently being used.
+Specifies a pointer to an <a href="/previous-versions/windows/desktop/api/iwstdec/ne-iwstdec-am_wst_service">AM_WST_SERVICE</a> enumeration to receive the service currently being used.
 
 <table>
 <tr>
@@ -90,9 +90,8 @@ When the method succeeds, it returns S_OK. Otherwise, it returns an <b>HRESULT</
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iwstdec/nn-iwstdec-iamwstdecoder">IAMWstDecoder Interface</a>
-
+<a href="/windows/desktop/api/iwstdec/nn-iwstdec-iamwstdecoder">IAMWstDecoder Interface</a>

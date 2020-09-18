@@ -62,28 +62,27 @@ The
 ### -field SendingFlowspec
 
 Specifies QOS parameters for the sending direction of a particular flow. SendingFlowspec is sent in the form of a 
-<a href="https://docs.microsoft.com/windows/desktop/api/qos/ns-qos-flowspec">FLOWSPEC</a> structure.
+<a href="/windows/desktop/api/qos/ns-qos-flowspec">FLOWSPEC</a> structure.
 
 ### -field ReceivingFlowspec
 
 Specifies QOS parameters for the receiving direction of a particular flow. ReceivingFlowspec is sent in the form of a 
-<a href="https://docs.microsoft.com/windows/desktop/api/qos/ns-qos-flowspec">FLOWSPEC</a> structure.
+<a href="/windows/desktop/api/qos/ns-qos-flowspec">FLOWSPEC</a> structure.
 
 ### -field ProviderSpecific
 
 Pointer to a structure of type 
-<a href="https://docs.microsoft.com/windows/desktop/api/ws2def/ns-ws2def-wsabuf">WSABUF</a> that can provide additional provider-specific quality of service parameters to the RSVP SP for a given flow.
+<a href="/windows/desktop/api/ws2def/ns-ws2def-wsabuf">WSABUF</a> that can provide additional provider-specific quality of service parameters to the RSVP SP for a given flow.
 
 ## -remarks
 
 Most applications can fulfill their quality of service requirements without using the 
-<a href="https://docs.microsoft.com/previous-versions/aa374467(v=vs.80)">ProviderSpecific</a> buffer. However, if the application must provide information not available with standard Windows 2000 QOS parameters, the ProviderSpecific buffer allows the application to provide additional parameters for RSVP and/or traffic control.
+<a href="/previous-versions/aa374467(v=vs.80)">ProviderSpecific</a> buffer. However, if the application must provide information not available with standard Windows 2000 QOS parameters, the ProviderSpecific buffer allows the application to provide additional parameters for RSVP and/or traffic control.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/qos/ns-qos-flowspec">FLOWSPEC</a>
+<a href="/windows/desktop/api/qos/ns-qos-flowspec">FLOWSPEC</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/aa374467(v=vs.80)">ProviderSpecific Buffer</a>
-
+<a href="/previous-versions/aa374467(v=vs.80)">ProviderSpecific Buffer</a>

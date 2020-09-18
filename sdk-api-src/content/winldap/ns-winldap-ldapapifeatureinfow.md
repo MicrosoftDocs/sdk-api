@@ -60,11 +60,11 @@ The <b>LDAPAPIFeatureInfo</b> structure retrieves data about any supported LDAP 
 
 ### -field ldapaif_info_version
 
-The version of this structure, which must be set to <b>LDAP_FEATURE_INFO_VERSION</b> before the call to <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_get_option">ldap_get_option</a> is performed.
+The version of this structure, which must be set to <b>LDAP_FEATURE_INFO_VERSION</b> before the call to <a href="/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_get_option">ldap_get_option</a> is performed.
 
 ### -field ldapaif_name
 
-A pointer to a null-terminated string that contains the name of the desired API extension.  This value is set before the call to <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_get_option">ldap_get_option</a> is performed, and should match one of the strings returned in the <b>ldapai_extensions</b> member of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/ns-winldap-ldapapiinfoa">LDAPAPIInfo</a> set  from a previous call to <b>ldap_get_option</b>.
+A pointer to a null-terminated string that contains the name of the desired API extension.  This value is set before the call to <a href="/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_get_option">ldap_get_option</a> is performed, and should match one of the strings returned in the <b>ldapai_extensions</b> member of <a href="/previous-versions/windows/desktop/api/winldap/ns-winldap-ldapapiinfoa">LDAPAPIInfo</a> set  from a previous call to <b>ldap_get_option</b>.
 
 ### -field ldapaif_version
 
@@ -72,7 +72,7 @@ The vendor API extension version number.  This implementation returns an integer
 
 ## -remarks
 
-A pointer to this structure is passed, along with the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/ldap/session-options">LDAP_FEATURE_API_INFO</a> session option and the name of the desired API extension, to <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_get_option">ldap_get_option</a>, to retrieve detailed data about the LDAP API extension.
+A pointer to this structure is passed, along with the <a href="/previous-versions/windows/desktop/ldap/session-options">LDAP_FEATURE_API_INFO</a> session option and the name of the desired API extension, to <a href="/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_get_option">ldap_get_option</a>, to retrieve detailed data about the LDAP API extension.
 
 
 
@@ -83,13 +83,12 @@ A pointer to this structure is passed, along with the <a href="https://docs.micr
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/ns-winldap-ldapapiinfoa">LDAPAPIInfo</a>
+<a href="/previous-versions/windows/desktop/api/winldap/ns-winldap-ldapapiinfoa">LDAPAPIInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/ldap/session-options">Session Options</a>
+<a href="/previous-versions/windows/desktop/ldap/session-options">Session Options</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_get_option">ldap_get_option</a>
-
+<a href="/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_get_option">ldap_get_option</a>

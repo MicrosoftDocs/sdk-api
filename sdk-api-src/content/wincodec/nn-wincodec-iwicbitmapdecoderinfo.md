@@ -54,7 +54,7 @@ Exposes methods that provide information about a decoder.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWICBitmapDecoderInfo</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapcodecinfo">IWICBitmapCodecInfo</a>. <b>IWICBitmapDecoderInfo</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWICBitmapDecoderInfo</b> interface inherits from <a href="/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapcodecinfo">IWICBitmapCodecInfo</a>. <b>IWICBitmapDecoderInfo</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,16 +69,16 @@ The <b>IWICBitmapDecoderInfo</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicbitmapdecoderinfo-createinstance">CreateInstance</a>
+<a href="/windows/desktop/api/wincodec/nf-wincodec-iwicbitmapdecoderinfo-createinstance">CreateInstance</a>
 </td>
 <td align="left" width="63%">
-Creates a new <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapdecoder">IWICBitmapDecoder</a> instance.
+Creates a new <a href="/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapdecoder">IWICBitmapDecoder</a> instance.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicbitmapdecoderinfo-getpatterns">GetPatterns</a>
+<a href="/windows/desktop/api/wincodec/nf-wincodec-iwicbitmapdecoderinfo-getpatterns">GetPatterns</a>
 </td>
 <td align="left" width="63%">
 Retrieves the file pattern signatures supported by the decoder.
@@ -87,7 +87,7 @@ Retrieves the file pattern signatures supported by the decoder.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicbitmapdecoderinfo-matchespattern">MatchesPattern</a>
+<a href="/windows/desktop/api/wincodec/nf-wincodec-iwicbitmapdecoderinfo-matchespattern">MatchesPattern</a>
 </td>
 <td align="left" width="63%">
 Retrieves a value that indicates whether the codec recognizes the pattern within a specified stream.
@@ -95,4 +95,3 @@ Retrieves a value that indicates whether the codec recognizes the pattern within
 </td>
 </tr>
 </table>
-

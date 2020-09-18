@@ -58,7 +58,7 @@ api_name:
 
 Represents the action the service controller should take on each failure of a service. A service is considered failed when it terminates without reporting a status of <b>SERVICE_STOPPED</b> to the service controller.
 
-To configure additional circumstances under which the failure actions are to be executed, see <a href="https://docs.microsoft.com/windows/desktop/api/winsvc/ns-winsvc-service_failure_actions_flag">SERVICE_FAILURE_ACTIONS_FLAG</a>.
+To configure additional circumstances under which the failure actions are to be executed, see <a href="/windows/desktop/api/winsvc/ns-winsvc-service_failure_actions_flag">SERVICE_FAILURE_ACTIONS_FLAG</a>.
 
 ## -struct-fields
 
@@ -79,14 +79,14 @@ This member can specify a localized string using the following format:
 
 @[<i>path</i>\]<i>dllname</i>,-<i>strID</i>
 
-The string with identifier <i>strID</i> is loaded from <i>dllname</i>; the <i>path</i> is optional. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regloadmuistringa">RegLoadMUIString</a>.
+The string with identifier <i>strID</i> is loaded from <i>dllname</i>; the <i>path</i> is optional. For more information, see <a href="/windows/desktop/api/winreg/nf-winreg-regloadmuistringa">RegLoadMUIString</a>.
 
 <b>Windows Server 2003 and Windows XP:  </b>Localized strings are not supported until Windows Vista.
 
 ### -field lpCommand
 
 The command line of the process for the 
-<a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessa">CreateProcess</a> function to execute in response to the <b>SC_ACTION_RUN_COMMAND</b> service controller action. This process runs under the same account as the service. 
+<a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessa">CreateProcess</a> function to execute in response to the <b>SC_ACTION_RUN_COMMAND</b> service controller action. This process runs under the same account as the service. 
 
 
 
@@ -111,7 +111,7 @@ If this value is 0, but <b>lpsaActions</b> is not NULL, the reset period and arr
 ### -field lpsaActions
 
 A pointer to an array of 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/ns-winsvc-sc_action">SC_ACTION</a> structures. 
+<a href="/windows/desktop/api/winsvc/ns-winsvc-sc_action">SC_ACTION</a> structures. 
 
 
 
@@ -135,21 +135,20 @@ The service control manager counts the number of times each service has failed s
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-changeserviceconfig2a">ChangeServiceConfig2</a>
+<a href="/windows/desktop/api/winsvc/nf-winsvc-changeserviceconfig2a">ChangeServiceConfig2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessa">CreateProcess</a>
+<a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessa">CreateProcess</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-queryserviceconfig2a">QueryServiceConfig2</a>
+<a href="/windows/desktop/api/winsvc/nf-winsvc-queryserviceconfig2a">QueryServiceConfig2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/ns-winsvc-sc_action">SC_ACTION</a>
+<a href="/windows/desktop/api/winsvc/ns-winsvc-sc_action">SC_ACTION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/ns-winsvc-service_failure_actions_flag">SERVICE_FAILURE_ACTIONS_FLAG</a>
-
+<a href="/windows/desktop/api/winsvc/ns-winsvc-service_failure_actions_flag">SERVICE_FAILURE_ACTIONS_FLAG</a>

@@ -57,7 +57,7 @@ The
 
 ### -param Id [in, out]
 
-On input, a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/oaidl/ns-oaidl-variant">VARIANT</a> 
+On input, a pointer to a <a href="/windows/desktop/api/oaidl/ns-oaidl-variant">VARIANT</a> 
        that specifies the attributes to enumerate. If the type of this 
        <b>VARIANT</b>, given by 
        <b>V_VT</b>(Id), is 
@@ -68,13 +68,13 @@ On input, a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api
        to enumerate.
 
 On output, pointer to a 
-       <a href="https://docs.microsoft.com/windows/desktop/api/oaidl/ns-oaidl-safearray">SAFEARRAY</a> that contains the IDs of 
+       <a href="/windows/desktop/api/oaidl/ns-oaidl-safearray">SAFEARRAY</a> that contains the IDs of 
        the enumerated attributes.
 
 ### -param pValues [out]
 
 Pointer to a 
-      <a href="https://docs.microsoft.com/windows/desktop/api/oaidl/ns-oaidl-safearray">SAFEARRAY</a> that contains 
+      <a href="/windows/desktop/api/oaidl/ns-oaidl-safearray">SAFEARRAY</a> that contains 
       the values of the enumerated attributes.
 
 ## -returns
@@ -89,9 +89,8 @@ The parameters must not be <b>NULL</b>.
 
 If VT(Id) = VT_EMPTY then all the attributes are returned. Otherwise VT(Id) should be <b>VT_I4</b> and only the attributes designed are retrieved.
 
-When the method returns, Id is a <a href="https://docs.microsoft.com/windows/desktop/api/oaidl/ns-oaidl-safearray">SAFEARRAY</a> of the Ids returned, and <i>pValues</i> is a <b>SAFEARRAY</b> of the values returned.
+When the method returns, Id is a <a href="/windows/desktop/api/oaidl/ns-oaidl-safearray">SAFEARRAY</a> of the Ids returned, and <i>pValues</i> is a <b>SAFEARRAY</b> of the values returned.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/nn-sdoias-isdodictionaryold">ISdoDictionaryOld</a>
-
+<a href="/windows/desktop/api/sdoias/nn-sdoias-isdodictionaryold">ISdoDictionaryOld</a>

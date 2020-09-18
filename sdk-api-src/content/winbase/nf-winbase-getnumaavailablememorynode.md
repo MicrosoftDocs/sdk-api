@@ -52,7 +52,7 @@ api_name:
 
 Retrieves the amount of memory available in the specified node. 
 
-Use the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getnumaavailablememorynodeex">GetNumaAvailableMemoryNodeEx</a> function to specify the node  as a <b>USHORT</b> value.
+Use the <a href="/windows/desktop/api/winbase/nf-winbase-getnumaavailablememorynodeex">GetNumaAvailableMemoryNodeEx</a> function to specify the node  as a <b>USHORT</b> value.
 
 ## -parameters
 
@@ -69,21 +69,20 @@ The amount of available memory for the node, in bytes.
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
-The <b>GetNumaAvailableMemoryNode</b> function returns the amount of memory consumed by free and zeroed pages on the specified node. On systems with more than one node, this memory does not include standby pages. Therefore, the sum of the available memory values for all nodes in the system is equal to the value of the Free &amp; Zero Page List Bytes memory performance counter. On systems with only one node, the value returned by <b>GetNumaAvailableMemoryNode</b>  includes standby pages and  is equal to the value of the Available Bytes memory performance counter. For more information about performance counters, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa965225(v=vs.85)">Memory Performance Information</a>.
+The <b>GetNumaAvailableMemoryNode</b> function returns the amount of memory consumed by free and zeroed pages on the specified node. On systems with more than one node, this memory does not include standby pages. Therefore, the sum of the available memory values for all nodes in the system is equal to the value of the Free &amp; Zero Page List Bytes memory performance counter. On systems with only one node, the value returned by <b>GetNumaAvailableMemoryNode</b>  includes standby pages and  is equal to the value of the Available Bytes memory performance counter. For more information about performance counters, see <a href="/previous-versions/windows/desktop/legacy/aa965225(v=vs.85)">Memory Performance Information</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getnumaavailablememorynodeex">GetNumaAvailableMemoryNodeEx</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-getnumaavailablememorynodeex">GetNumaAvailableMemoryNodeEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/ProcThread/numa-support">NUMA Support</a>
+<a href="/windows/desktop/ProcThread/numa-support">NUMA Support</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/ProcThread/process-and-thread-functions">Process and Thread Functions</a>
-
+<a href="/windows/desktop/ProcThread/process-and-thread-functions">Process and Thread Functions</a>

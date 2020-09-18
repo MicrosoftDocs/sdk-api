@@ -59,7 +59,7 @@ Retrieves symbol information for the specified address and inline context.
 ### -param hProcess [in]
 
 A handle to a process. This handle must have been previously passed to the 
-      <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-syminitialize">SymInitialize</a> function.
+      <a href="/windows/desktop/api/dbghelp/nf-dbghelp-syminitialize">SymInitialize</a> function.
 
 ### -param Address [in]
 
@@ -76,7 +76,7 @@ The displacement from the beginning of the symbol, or zero.
 
 ### -param Symbol [in, out]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-symbol_info">SYMBOL_INFO</a> structure that 
+A pointer to a <a href="/windows/desktop/api/dbghelp/ns-dbghelp-symbol_info">SYMBOL_INFO</a> structure that 
       provides information about the symbol. The symbol name is variable in length; therefore this buffer must be 
       large enough to hold the name stored at the end of the 
       <b>SYMBOL_INFO</b> structure. Be sure to set the 
@@ -87,5 +87,4 @@ A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/n
 If the function succeeds, the return value is <b>TRUE</b>.
 
 If the function fails, the return value is <b>FALSE</b>. To retrieve extended error 
-       information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
-
+       information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.

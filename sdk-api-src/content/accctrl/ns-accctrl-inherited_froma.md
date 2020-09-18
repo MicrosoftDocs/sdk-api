@@ -56,7 +56,7 @@ api_name:
 
 ## -description
 
-The <b>INHERITED_FROM</b> structure provides information about an object's inherited <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">access control entry</a> (ACE).
+The <b>INHERITED_FROM</b> structure provides information about an object's inherited <a href="/windows/desktop/SecGloss/a-gly">access control entry</a> (ACE).
 
 ## -struct-fields
 
@@ -70,14 +70,13 @@ Name of the ancestor from which the ACE was inherited. For an explicit ACE, set 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/aclapi/nf-aclapi-freeinheritedfromarray">FreeInheritedFromArray</a>
+<a href="/windows/desktop/api/aclapi/nf-aclapi-freeinheritedfromarray">FreeInheritedFromArray</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/aclapi/nf-aclapi-getinheritancesourcea">GetInheritanceSource</a>
+<a href="/windows/desktop/api/aclapi/nf-aclapi-getinheritancesourcea">GetInheritanceSource</a>
 
 ## -remarks
 
 > [!NOTE]
 > The accctrl.h header defines INHERITED_FROM as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

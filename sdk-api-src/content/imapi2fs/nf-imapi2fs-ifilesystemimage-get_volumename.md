@@ -84,17 +84,16 @@ Value: 0x80004003
 
 ## -remarks
 
-To set the volume name, call the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-put_volumename">IFileSystemImage::put_VolumeName</a> method.
+To set the volume name, call the <a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-put_volumename">IFileSystemImage::put_VolumeName</a> method.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nn-imapi2fs-ifilesystemimage">IFileSystemImage</a>
+<a href="/windows/desktop/api/imapi2fs/nn-imapi2fs-ifilesystemimage">IFileSystemImage</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-get_importedvolumename">IFileSystemImage::get_ImportedVolumeName</a>
+<a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-get_importedvolumename">IFileSystemImage::get_ImportedVolumeName</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-put_volumename">IFileSystemImage::put_VolumeName</a>
-
+<a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-put_volumename">IFileSystemImage::put_VolumeName</a>

@@ -104,9 +104,8 @@ A connector corresponds to a "pin" in kernel streaming (KS) terminology. The map
 </ul>
 For more information about KS pins, see the Windows DDK documentation.
 
-For a code example that calls the <b>GetType</b> method, see the implementation of the SelectCaptureDevice function in <a href="https://docs.microsoft.com/windows/desktop/CoreAudio/device-topologies">Device Topologies</a>.
+For a code example that calls the <b>GetType</b> method, see the implementation of the SelectCaptureDevice function in <a href="/windows/desktop/CoreAudio/device-topologies">Device Topologies</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nn-devicetopology-iconnector">IConnector Interface</a>
-
+<a href="/windows/desktop/api/devicetopology/nn-devicetopology-iconnector">IConnector Interface</a>

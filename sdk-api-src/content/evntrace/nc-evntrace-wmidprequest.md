@@ -97,13 +97,13 @@ Disables the provider.
 ### -param Buffer [in]
 
 Pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/ETW/wnode-header">WNODE_HEADER</a> structure that contains information about the event tracing session for which the provider is being enabled or disabled.
+<a href="/windows/desktop/ETW/wnode-header">WNODE_HEADER</a> structure that contains information about the event tracing session for which the provider is being enabled or disabled.
 
 
 #### - Context [in]
 
 Provider-defined context. The provider uses the <i>RequestContext</i> parameter of  
-<a href="https://docs.microsoft.com/windows/desktop/ETW/registertraceguids">RegisterTraceGuids</a> to specify the context.
+<a href="/windows/desktop/ETW/registertraceguids">RegisterTraceGuids</a> to specify the context.
 
 
 #### - Reserved [in]
@@ -112,19 +112,19 @@ Reserved for internal use.
 
 ## -returns
 
-You should return ERROR_SUCCESS if the callback succeeds. Note that ETW ignores the return value for this function except when a controller calls <a href="https://docs.microsoft.com/windows/desktop/ETW/enabletrace">EnableTrace</a> to enable a provider and the provider has not yet called <a href="https://docs.microsoft.com/windows/desktop/ETW/registertraceguids">RegisterTraceGuids</a>. When this occurs, <b>RegisterTraceGuids</b> will return the return value of this callback if the registration was successful.
+You should return ERROR_SUCCESS if the callback succeeds. Note that ETW ignores the return value for this function except when a controller calls <a href="/windows/desktop/ETW/enabletrace">EnableTrace</a> to enable a provider and the provider has not yet called <a href="/windows/desktop/ETW/registertraceguids">RegisterTraceGuids</a>. When this occurs, <b>RegisterTraceGuids</b> will return the return value of this callback if the registration was successful.
 
 ## -remarks
 
 This function is specified using the 
-<a href="https://docs.microsoft.com/windows/desktop/ETW/registertraceguids">RegisterTraceGuids</a> function. When the controller calls the <a href="https://docs.microsoft.com/windows/desktop/ETW/enabletrace">EnableTrace</a> function to enable, disable, or change the enable flags or level, ETW calls this callback. The provider enables or disables itself based the <i>RequestCode</i> value. Typically, the provider uses this value to set a global flag to indicate its enabled state.
+<a href="/windows/desktop/ETW/registertraceguids">RegisterTraceGuids</a> function. When the controller calls the <a href="/windows/desktop/ETW/enabletrace">EnableTrace</a> function to enable, disable, or change the enable flags or level, ETW calls this callback. The provider enables or disables itself based the <i>RequestCode</i> value. Typically, the provider uses this value to set a global flag to indicate its enabled state.
 
 The provider defines its interpretation of being enabled or disabled. Generally, if a provider is enabled, it generates events, but while it is disabled, it does not. 
 
-ETW does not pass the enable flags and enable level that the controller passes to the <a href="https://docs.microsoft.com/windows/desktop/ETW/enabletrace">EnableTrace</a> function to this callback. To retrieve this information, call the <a href="https://docs.microsoft.com/windows/desktop/ETW/gettraceenableflags">GetTraceEnableFlags</a> and 
-<a href="https://docs.microsoft.com/windows/desktop/ETW/gettraceenablelevel">GetTraceEnableLevel</a> functions, respectively.
+ETW does not pass the enable flags and enable level that the controller passes to the <a href="/windows/desktop/ETW/enabletrace">EnableTrace</a> function to this callback. To retrieve this information, call the <a href="/windows/desktop/ETW/gettraceenableflags">GetTraceEnableFlags</a> and 
+<a href="/windows/desktop/ETW/gettraceenablelevel">GetTraceEnableLevel</a> functions, respectively.
 
-You also need to retrieve the session handle in this callback for future calls. To retrieve the session handle, call the <a href="https://docs.microsoft.com/windows/desktop/ETW/gettraceloggerhandle">GetTraceLoggerHandle</a> function.
+You also need to retrieve the session handle in this callback for future calls. To retrieve the session handle, call the <a href="/windows/desktop/ETW/gettraceloggerhandle">GetTraceLoggerHandle</a> function.
 
 Your callback function must not call anything that may incur LoadLibrary (more specifically, anything that requires a loader lock). 
 
@@ -133,31 +133,30 @@ Your callback function must not call anything that may incur LoadLibrary (more s
 
 For an example implementation of a 
 <b>ControlCallback</b> function, see 
-<a href="https://docs.microsoft.com/windows/desktop/ETW/tracing-events">Writing Classic Events</a>.
+<a href="/windows/desktop/ETW/tracing-events">Writing Classic Events</a>.
 
 <div class="code"></div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/ETW/enabletrace">EnableTrace</a>
+<a href="/windows/desktop/ETW/enabletrace">EnableTrace</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/ETW/gettraceenableflags">GetTraceEnableFlags</a>
+<a href="/windows/desktop/ETW/gettraceenableflags">GetTraceEnableFlags</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/ETW/gettraceenablelevel">GetTraceEnableLevel</a>
+<a href="/windows/desktop/ETW/gettraceenablelevel">GetTraceEnableLevel</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/ETW/gettraceloggerhandle">GetTraceLoggerHandle</a>
+<a href="/windows/desktop/ETW/gettraceloggerhandle">GetTraceLoggerHandle</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/ETW/registertraceguids">RegisterTraceGuids</a>
+<a href="/windows/desktop/ETW/registertraceguids">RegisterTraceGuids</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/ETW/wnode-header">WNODE_HEADER</a>
-
+<a href="/windows/desktop/ETW/wnode-header">WNODE_HEADER</a>

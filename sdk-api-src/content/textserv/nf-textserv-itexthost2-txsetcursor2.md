@@ -56,31 +56,30 @@ Sets the shape of the cursor in the text host window.
 
 ### -param hcur
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HCURSOR</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HCURSOR</a></b>
 
 The new cursor shape.
 
 ### -param bText
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
 
 <b>TRUE</b> if the cursor is used for text, or <b>FALSE</b> if not.
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HCURSOR</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HCURSOR</a></b>
 
 Returns the cursor that <i>hcur</i> is replacing.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/textserv/nl-textserv-itexthost2">ITextHost2</a>
+<a href="/windows/desktop/api/textserv/nl-textserv-itexthost2">ITextHost2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/textserv/nf-textserv-itexthost-txsetcursor">ITextHost::TxSetCursor</a>
+<a href="/windows/desktop/api/textserv/nf-textserv-itexthost-txsetcursor">ITextHost::TxSetCursor</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/textserv/nf-textserv-itextservices-ontxsetcursor">ITextServices::OnTxSetCursor</a>
-
+<a href="/windows/desktop/api/textserv/nf-textserv-itextservices-ontxsetcursor">ITextServices::OnTxSetCursor</a>

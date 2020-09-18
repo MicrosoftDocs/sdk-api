@@ -69,8 +69,8 @@ structure.
 As indicated above, the validation of the received SAML is limited to
 making sure that it was signed correctly by one of the specified
 certificates.  The application may then extract the SAML assertion
-using <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsgetmessageproperty">WsGetMessageProperty</a> with the key 
-<a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_message_property_id">WS_MESSAGE_PROPERTY_SAML_ASSERTION</a> and do
+using <a href="/windows/desktop/api/webservices/nf-webservices-wsgetmessageproperty">WsGetMessageProperty</a> with the key 
+<a href="/windows/desktop/api/webservices/ne-webservices-ws_message_property_id">WS_MESSAGE_PROPERTY_SAML_ASSERTION</a> and do
 additional validator or processing.
 
 ## -struct-fields
@@ -115,4 +115,3 @@ validation on the SAML assertion if the signature validation passes.
 ### -field samlValidatorCallbackState
 
 The state to be passed back when invoking the samlValidator callback.
-

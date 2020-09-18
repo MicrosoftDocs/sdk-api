@@ -51,33 +51,33 @@ api_name:
 
 ## -description
 
-Create a <a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-programming-guide-resources-types">buffer</a> (vertex buffer, index buffer, or shader-constant buffer).
+Create a <a href="/windows/desktop/direct3d10/d3d10-graphics-programming-guide-resources-types">buffer</a> (vertex buffer, index buffer, or shader-constant buffer).
 
 ## -parameters
 
 ### -param pDesc [in]
 
-Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/ns-d3d10-cd3d10_buffer_desc">D3D10_BUFFER_DESC</a>*</b>
+Type: <b>const <a href="/windows/desktop/api/d3d10/ns-d3d10-cd3d10_buffer_desc">D3D10_BUFFER_DESC</a>*</b>
 
-Pointer to a buffer description (see <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/ns-d3d10-cd3d10_buffer_desc">D3D10_BUFFER_DESC</a>).
+Pointer to a buffer description (see <a href="/windows/desktop/api/d3d10/ns-d3d10-cd3d10_buffer_desc">D3D10_BUFFER_DESC</a>).
 
 ### -param pInitialData [in]
 
-Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/ns-d3d10-d3d10_subresource_data">D3D10_SUBRESOURCE_DATA</a>*</b>
+Type: <b>const <a href="/windows/desktop/api/d3d10/ns-d3d10-d3d10_subresource_data">D3D10_SUBRESOURCE_DATA</a>*</b>
 
-Pointer to the initialization data (see <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/ns-d3d10-d3d10_subresource_data">D3D10_SUBRESOURCE_DATA</a>); use <b>NULL</b> to allocate space only.
+Pointer to the initialization data (see <a href="/windows/desktop/api/d3d10/ns-d3d10-d3d10_subresource_data">D3D10_SUBRESOURCE_DATA</a>); use <b>NULL</b> to allocate space only.
 
 ### -param ppBuffer [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nn-d3d10-id3d10buffer">ID3D10Buffer</a>**</b>
+Type: <b><a href="/windows/desktop/api/d3d10/nn-d3d10-id3d10buffer">ID3D10Buffer</a>**</b>
 
-Address of a pointer to the buffer created (see <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nn-d3d10-id3d10buffer">ID3D10Buffer Interface</a>). Set this parameter to <b>NULL</b> to validate the other input parameters (S_FALSE indicates a pass).
+Address of a pointer to the buffer created (see <a href="/windows/desktop/api/d3d10/nn-d3d10-id3d10buffer">ID3D10Buffer Interface</a>). Set this parameter to <b>NULL</b> to validate the other input parameters (S_FALSE indicates a pass).
 
 ## -returns
 
 Type: <b><a href="/windows/win32/com/structure-of-com-error-codes">HRESULT</a></b>
 
-This method returns one of the following <a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-reference-returnvalues">Direct3D 10 Return Codes</a>.
+This method returns one of the following <a href="/windows/desktop/direct3d10/d3d10-graphics-reference-returnvalues">Direct3D 10 Return Codes</a>.
 
 ## -remarks
 
@@ -85,14 +85,13 @@ For example code, see:
 
 <ul>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-programming-guide-resources-creating">Create a Vertex Buffer</a>
+<a href="/windows/desktop/direct3d10/d3d10-graphics-programming-guide-resources-creating">Create a Vertex Buffer</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-programming-guide-resources-creating">Create an Index Buffer</a>
+<a href="/windows/desktop/direct3d10/d3d10-graphics-programming-guide-resources-creating">Create an Index Buffer</a>
 </li>
 </ul>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nn-d3d10-id3d10device">ID3D10Device Interface</a>
-
+<a href="/windows/desktop/api/d3d10/nn-d3d10-id3d10device">ID3D10Device Interface</a>

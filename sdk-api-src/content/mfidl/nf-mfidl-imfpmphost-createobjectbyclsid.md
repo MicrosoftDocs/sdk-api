@@ -61,7 +61,7 @@ The CLSID of the object to create.
 
 ### -param pStream [in]
 
-A pointer to the <b>IStream</b> interface. This parameter can be <b>NULL</b>. If this parameter is not <b>NULL</b>, the PMP host queries the created object for the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ipersiststream">IPersistStream</a> interface and calls <b>IPersistStream::Load</b>, passing in the <i>pStream</i> pointer.
+A pointer to the <b>IStream</b> interface. This parameter can be <b>NULL</b>. If this parameter is not <b>NULL</b>, the PMP host queries the created object for the <a href="/windows/desktop/api/objidl/nn-objidl-ipersiststream">IPersistStream</a> interface and calls <b>IPersistStream::Load</b>, passing in the <i>pStream</i> pointer.
 
 ### -param riid [in]
 
@@ -81,13 +81,12 @@ You can use the <i>pStream</i> parameter to initialize the object after it is cr
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfpmphost">IMFPMPHost</a>
+<a href="/windows/desktop/api/mfidl/nn-mfidl-imfpmphost">IMFPMPHost</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/pmp-media-session">PMP Media Session</a>
+<a href="/windows/desktop/medfound/pmp-media-session">PMP Media Session</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/protected-media-path">Protected Media Path</a>
-
+<a href="/windows/desktop/medfound/protected-media-path">Protected Media Path</a>

@@ -74,5 +74,4 @@ The maximum supported output signal period, in picoseconds, for the controller. 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/pwm/ni-pwm-ioctl_pwm_controller_get_info">IOCTL_PWM_CONTROLLER_GET_INFO</a>
-
+<a href="/windows/desktop/api/pwm/ni-pwm-ioctl_pwm_controller_get_info">IOCTL_PWM_CONTROLLER_GET_INFO</a>

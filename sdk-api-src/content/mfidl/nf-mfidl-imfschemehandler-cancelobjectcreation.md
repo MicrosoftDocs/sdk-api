@@ -57,7 +57,7 @@ Cancels the current request to create an object from a URL.
 
 ### -param pIUnknownCancelCookie [in]
 
-Pointer to the <b>IUnknown</b> interface that was returned in the <i>ppIUnknownCancelCookie</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfschemehandler-begincreateobject">IMFSchemeHandler::BeginCreateObject</a> method.
+Pointer to the <b>IUnknown</b> interface that was returned in the <i>ppIUnknownCancelCookie</i> parameter of the <a href="/windows/desktop/api/mfidl/nf-mfidl-imfschemehandler-begincreateobject">IMFSchemeHandler::BeginCreateObject</a> method.
 
 ## -returns
 
@@ -83,15 +83,14 @@ The method succeeded.
 
 ## -remarks
 
-You can use this method to cancel a previous call to <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfschemehandler-begincreateobject">BeginCreateObject</a>. Because that method is asynchronous, however, it might be completed before the operation can be canceled. Therefore, your callback might still be invoked after you call this method.
+You can use this method to cancel a previous call to <a href="/windows/desktop/api/mfidl/nf-mfidl-imfschemehandler-begincreateobject">BeginCreateObject</a>. Because that method is asynchronous, however, it might be completed before the operation can be canceled. Therefore, your callback might still be invoked after you call this method.
 
-The operation cannot be canceled if <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfschemehandler-begincreateobject">BeginCreateObject</a> returns <b>NULL</b> in the <i>ppIUnknownCancelCookie</i> parameter.
+The operation cannot be canceled if <a href="/windows/desktop/api/mfidl/nf-mfidl-imfschemehandler-begincreateobject">BeginCreateObject</a> returns <b>NULL</b> in the <i>ppIUnknownCancelCookie</i> parameter.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfschemehandler">IMFSchemeHandler</a>
+<a href="/windows/desktop/api/mfidl/nn-mfidl-imfschemehandler">IMFSchemeHandler</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/scheme-handlers-and-byte-stream-handlers">Scheme Handlers and Byte-Stream Handlers</a>
-
+<a href="/windows/desktop/medfound/scheme-handlers-and-byte-stream-handlers">Scheme Handlers and Byte-Stream Handlers</a>

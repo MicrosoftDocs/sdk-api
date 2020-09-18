@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[The <b>I_RpcBindingInqLocalClientPID</b> function is available for use in the operating systems specified in the Requirements section. Instead, call <a href="https://docs.microsoft.com/windows/desktop/api/rpcasync/nf-rpcasync-rpcserverinqcallattributesa">RpcServerInqCallAttributes</a>.]
+<p class="CCE_Message">[The <b>I_RpcBindingInqLocalClientPID</b> function is available for use in the operating systems specified in the Requirements section. Instead, call <a href="/windows/desktop/api/rpcasync/nf-rpcasync-rpcserverinqcallattributesa">RpcServerInqCallAttributes</a>.]
 
 The <b>I_RpcBindingInqLocalClientPID</b> function obtains a client process ID.
 
@@ -108,10 +108,9 @@ The RPC binding handle is invalid.
  
 
 <div class="alert"><b>Note</b>  For a list of valid error codes, see 
-<a href="https://docs.microsoft.com/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
+<a href="/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
 <div> </div>
 
 ## -remarks
 
 The client process ID is only returned in <i>ClientBinding</i> when the "ncalrpc" protocol sequence is used. Until the process terminates, the process ID value uniquely identifies it on the client. When the process terminates, the process ID can be used by new processes.
-

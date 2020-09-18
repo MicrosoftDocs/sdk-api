@@ -62,9 +62,9 @@ The array size of the <i>pPatterns</i> array.
 
 ### -param pPatterns [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wincodec/ns-wincodec-wicbitmappattern">WICBitmapPattern</a>*</b>
+Type: <b><a href="/windows/desktop/api/wincodec/ns-wincodec-wicbitmappattern">WICBitmapPattern</a>*</b>
 
-Receives a list of <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/ns-wincodec-wicbitmappattern">WICBitmapPattern</a> objects supported by the decoder.
+Receives a list of <a href="/windows/desktop/api/wincodec/ns-wincodec-wicbitmappattern">WICBitmapPattern</a> objects supported by the decoder.
 
 ### -param pcPatterns [out]
 
@@ -88,4 +88,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 To retrieve all pattern signatures, this method should first be called with <i>pPatterns</i> set to <code>NULL</code> to retrieve the actual buffer size needed through <i>pcbPatternsActual</i>.
                Once the needed buffer size is known, allocate a buffer of the needed size and call <b>GetPatterns</b> again with the allocated buffer.
-

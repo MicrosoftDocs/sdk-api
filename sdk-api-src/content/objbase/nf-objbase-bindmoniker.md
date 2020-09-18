@@ -56,7 +56,7 @@ Locates an object by means of its moniker, activates the object if it is inactiv
 
 ### -param pmk [in]
 
-A pointer to the object's moniker. See <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imoniker">IMoniker</a>.
+A pointer to the object's moniker. See <a href="/windows/desktop/api/objidl/nn-objidl-imoniker">IMoniker</a>.
 
 ### -param grfOpt [in]
 
@@ -68,11 +68,11 @@ The interface identifier to be used to communicate with the object.
 
 ### -param ppvResult [out]
 
-The address of pointer variable that receives the interface pointer requested in <i>iidResult</i>. Upon successful return, *<i>ppvResult</i> contains the requested interface pointer. If an error occurs, *<i>ppvResult</i> is <b>NULL</b>. If the call is successful, the caller is responsible for releasing the pointer with a call to the object's <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">IUnknown::Release</a> method.
+The address of pointer variable that receives the interface pointer requested in <i>iidResult</i>. Upon successful return, *<i>ppvResult</i> contains the requested interface pointer. If an error occurs, *<i>ppvResult</i> is <b>NULL</b>. If the call is successful, the caller is responsible for releasing the pointer with a call to the object's <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">IUnknown::Release</a> method.
 
 ## -returns
 
-This function can return the following error codes, or any of the error values returned by the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-imoniker-bindtoobject">IMoniker::BindToObject</a> method.
+This function can return the following error codes, or any of the error values returned by the <a href="/windows/desktop/api/objidl/nf-objidl-imoniker-bindtoobject">IMoniker::BindToObject</a> method.
 
 <table>
 <tr>
@@ -110,17 +110,16 @@ The object that the moniker object identified could not be found.
 <pre class="syntax" xml:space="preserve"><code>CreateBindCtx(0, &amp;pbc); 
 pmk-&gt;BindToObject(pbc, NULL, riid, ppvObj);</code></pre>
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objbase/nf-objbase-createbindctx">CreateBindCtx</a> creates a bind context object that supports the system implementation of IBindContext. The pmk parameter is actually a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imoniker">IMoniker</a> implementation on a moniker object. This implementation's <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-imoniker-bindtoobject">BindToObject</a> method supplies the pointer to the requested interface pointer.
+<a href="/windows/desktop/api/objbase/nf-objbase-createbindctx">CreateBindCtx</a> creates a bind context object that supports the system implementation of IBindContext. The pmk parameter is actually a pointer to the <a href="/windows/desktop/api/objidl/nn-objidl-imoniker">IMoniker</a> implementation on a moniker object. This implementation's <a href="/windows/desktop/api/objidl/nf-objidl-imoniker-bindtoobject">BindToObject</a> method supplies the pointer to the requested interface pointer.
 
-If you have several monikers to bind in quick succession and if you know that those monikers will activate the same object, it may be more efficient to call the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-imoniker-bindtoobject">IMoniker::BindToObject</a> method directly, which enables you to use the same bind context object for all the monikers. See the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ibindctx">IBindCtx</a> interface for more information.
+If you have several monikers to bind in quick succession and if you know that those monikers will activate the same object, it may be more efficient to call the <a href="/windows/desktop/api/objidl/nf-objidl-imoniker-bindtoobject">IMoniker::BindToObject</a> method directly, which enables you to use the same bind context object for all the monikers. See the <a href="/windows/desktop/api/objidl/nn-objidl-ibindctx">IBindCtx</a> interface for more information.
 
-Container applications that allow their documents to contain linked objects are a special client that generally does not make direct calls to <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imoniker">IMoniker</a> methods. Instead, the client manipulates the linked objects through the <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-iolelink">IOleLink</a> interface. The default handler implements this interface and calls the appropriate <b>IMoniker</b> methods as needed.
+Container applications that allow their documents to contain linked objects are a special client that generally does not make direct calls to <a href="/windows/desktop/api/objidl/nn-objidl-imoniker">IMoniker</a> methods. Instead, the client manipulates the linked objects through the <a href="/windows/desktop/api/oleidl/nn-oleidl-iolelink">IOleLink</a> interface. The default handler implements this interface and calls the appropriate <b>IMoniker</b> methods as needed.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objbase/nf-objbase-createbindctx">CreateBindCtx</a>
+<a href="/windows/desktop/api/objbase/nf-objbase-createbindctx">CreateBindCtx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-imoniker-bindtoobject">IMoniker::BindToObject</a>
-
+<a href="/windows/desktop/api/objidl/nf-objidl-imoniker-bindtoobject">IMoniker::BindToObject</a>

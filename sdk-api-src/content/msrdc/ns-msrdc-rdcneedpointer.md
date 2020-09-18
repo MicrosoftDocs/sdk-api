@@ -55,7 +55,7 @@ api_name:
 The <b>RdcNeedPointer</b> structure describes an array 
     of <a href="/windows/win32/api/msrdc/ns-msrdc-rdcneed">RdcNeed</a> structures. The 
     <b>RdcNeedPointer</b> structure is used as both input and output 
-    by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/nf-msrdc-irdccomparator-process">IRdcComparator::Process</a> method.
+    by the <a href="/previous-versions/windows/desktop/api/msrdc/nf-msrdc-irdccomparator-process">IRdcComparator::Process</a> method.
 
 ## -struct-fields
 
@@ -67,7 +67,7 @@ Contains the number of <a href="/windows/win32/api/msrdc/ns-msrdc-rdcneed">RdcNe
 ### -field m_Used
 
 When the structure is passed to the 
-      <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/nf-msrdc-irdccomparator-process">IRdcComparator::Process</a> method, this member 
+      <a href="/previous-versions/windows/desktop/api/msrdc/nf-msrdc-irdccomparator-process">IRdcComparator::Process</a> method, this member 
       should be zero. On return this member will contain the number of 
       <a href="/windows/win32/api/msrdc/ns-msrdc-rdcneed">RdcNeed</a> structures that were filled with data.
 
@@ -78,7 +78,7 @@ Address of array of <a href="/windows/win32/api/msrdc/ns-msrdc-rdcneed">RdcNeed<
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/nf-msrdc-irdccomparator-process">IRdcComparator::Process</a>
+<a href="/previous-versions/windows/desktop/api/msrdc/nf-msrdc-irdccomparator-process">IRdcComparator::Process</a>
 
 
 
@@ -86,5 +86,4 @@ Address of array of <a href="/windows/win32/api/msrdc/ns-msrdc-rdcneed">RdcNeed<
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/rdc/remote-differential-compression-structures">Remote Differential Compression Structures</a>
-
+<a href="/previous-versions/windows/desktop/rdc/remote-differential-compression-structures">Remote Differential Compression Structures</a>

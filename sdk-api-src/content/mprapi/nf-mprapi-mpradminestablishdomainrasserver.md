@@ -51,7 +51,7 @@ api_name:
 ## -description
 
 The 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradminserversetinfo">MprAdminEstablishDomainRasServer</a> function establishes the given machine as a Remote Access  Server in the domain. This function must be executed only on a machine joined to a domain.
+<a href="/windows/desktop/api/mprapi/nf-mprapi-mpradminserversetinfo">MprAdminEstablishDomainRasServer</a> function establishes the given machine as a Remote Access  Server in the domain. This function must be executed only on a machine joined to a domain.
 
 ## -parameters
 
@@ -126,9 +126,8 @@ Function executed on a machine not joined to any domain.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/router-administration-functions">Router Administration Functions</a>
+<a href="/windows/desktop/RRAS/router-administration-functions">Router Administration Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/router-management-reference">Router Management Reference</a>
-
+<a href="/windows/desktop/RRAS/router-management-reference">Router Management Reference</a>

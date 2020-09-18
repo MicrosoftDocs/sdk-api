@@ -50,18 +50,18 @@ api_name:
 
 ## -description
 
-The <b>CertFindRDNAttr</b> function finds the first <a href="https://docs.microsoft.com/windows/desktop/SecGloss/r-gly">RDN</a> attribute identified by its <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly">object identifier</a> (OID) in a list of the <i>Relative Distinguished Names</i> (RDN).
+The <b>CertFindRDNAttr</b> function finds the first <a href="/windows/desktop/SecGloss/r-gly">RDN</a> attribute identified by its <a href="/windows/desktop/SecGloss/o-gly">object identifier</a> (OID) in a list of the <i>Relative Distinguished Names</i> (RDN).
 
 ## -parameters
 
 ### -param pszObjId [in]
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly">object identifier</a> (OID) to use In the search.
+A pointer to the <a href="/windows/desktop/SecGloss/o-gly">object identifier</a> (OID) to use In the search.
 
 ### -param pName [in]
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_name_info">CERT_NAME_INFO</a> structure containing the list of the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/r-gly">Relative Distinguished Names</a> to be searched.
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_name_info">CERT_NAME_INFO</a> structure containing the list of the <a href="/windows/desktop/SecGloss/r-gly">Relative Distinguished Names</a> to be searched.
 
 ## -returns
 
@@ -69,13 +69,12 @@ Returns a pointer to the attribute, if one is found. Otherwise, <b>NULL</b> is r
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certfindattribute">CertFindAttribute</a>
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-certfindattribute">CertFindAttribute</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certfindextension">CertFindExtension</a>
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-certfindextension">CertFindExtension</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">Data Management Functions</a>
-
+<a href="/windows/desktop/SecCrypto/cryptography-functions">Data Management Functions</a>

@@ -52,17 +52,17 @@ api_name:
 
 ## -description
 
-Gets <a href="https://docs.microsoft.com/previous-versions/windows/desktop/input_intcontext/interaction-context-portal">Interaction Context</a> object properties.
+Gets <a href="/previous-versions/windows/desktop/input_intcontext/interaction-context-portal">Interaction Context</a> object properties.
 
 ## -parameters
 
 ### -param interactionContext [in]
 
-Handle to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/input_intcontext/interaction-context-portal">Interaction Context</a> object.
+Handle to the <a href="/previous-versions/windows/desktop/input_intcontext/interaction-context-portal">Interaction Context</a> object.
 
 ### -param contextProperty [in]
 
-One of the constants identified by <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/interactioncontext/ne-interactioncontext-interaction_context_property">INTERACTION_CONTEXT_PROPERTY</a>.
+One of the constants identified by <a href="/previous-versions/windows/desktop/api/interactioncontext/ne-interactioncontext-interaction_context_property">INTERACTION_CONTEXT_PROPERTY</a>.
 
 ### -param value [out]
 
@@ -73,7 +73,7 @@ Valid values for <i>contextProperty</i> are:
 <table>
 <tr>
 <th>
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/interactioncontext/ne-interactioncontext-interaction_context_property">INTERACTION_CONTEXT_PROPERTY_MEASUREMENT_UNITS</a>
+<a href="/previous-versions/windows/desktop/api/interactioncontext/ne-interactioncontext-interaction_context_property">INTERACTION_CONTEXT_PROPERTY_MEASUREMENT_UNITS</a>
 </th>
 <th>Meaning</th>
 </tr>
@@ -105,7 +105,7 @@ Measurement units are screen pixels. This is the default value.
 <table>
 <tr>
 <th>
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/interactioncontext/ne-interactioncontext-interaction_context_property">INTERACTION_CONTEXT_PROPERTY_UI_FEEDBACK</a>
+<a href="/previous-versions/windows/desktop/api/interactioncontext/ne-interactioncontext-interaction_context_property">INTERACTION_CONTEXT_PROPERTY_UI_FEEDBACK</a>
 </th>
 <th>Meaning</th>
 </tr>
@@ -116,7 +116,7 @@ Measurement units are screen pixels. This is the default value.
 </dl>
 </td>
 <td width="60%">
-Visual feedback for user interactions is disabled (the caller is responsible for displaying visual feedback). For more info, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/input_feedback/input-feedback-configuration-portal">Input Feedback Configuration</a>.
+Visual feedback for user interactions is disabled (the caller is responsible for displaying visual feedback). For more info, see <a href="/previous-versions/windows/desktop/input_feedback/input-feedback-configuration-portal">Input Feedback Configuration</a>.
 
 </td>
 </tr>
@@ -127,7 +127,7 @@ Visual feedback for user interactions is disabled (the caller is responsible for
 </dl>
 </td>
 <td width="60%">
-Visual feedback for user interactions is enabled. This is the default value. For more info, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/input_feedback/input-feedback-configuration-portal">Input Feedback Configuration</a>.
+Visual feedback for user interactions is enabled. This is the default value. For more info, see <a href="/previous-versions/windows/desktop/input_feedback/input-feedback-configuration-portal">Input Feedback Configuration</a>.
 
 </td>
 </tr>
@@ -157,7 +157,7 @@ Pointer filtering is disabled (all pointer input data is processed).
 </dl>
 </td>
 <td width="60%">
-Pointer filtering is enabled (only pointers specified through <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/interactioncontext/nf-interactioncontext-addpointerinteractioncontext">AddPointerInteractionContext</a> are processed). This is the default value. 
+Pointer filtering is enabled (only pointers specified through <a href="/previous-versions/windows/desktop/api/interactioncontext/nf-interactioncontext-addpointerinteractioncontext">AddPointerInteractionContext</a> are processed). This is the default value. 
 
 </td>
 </tr>
@@ -171,13 +171,12 @@ Otherwise, it returns an HRESULT error code.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/input_intcontext/hinteractioncontext">HINTERACTIONCONTEXT</a>
+<a href="/previous-versions/windows/desktop/input_intcontext/hinteractioncontext">HINTERACTIONCONTEXT</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/input_intcontext/functions">Interaction Context Functions</a>
+<a href="/previous-versions/windows/desktop/input_intcontext/functions">Interaction Context Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/interactioncontext/nf-interactioncontext-setpropertyinteractioncontext">SetPropertyInteractionContext</a>
-
+<a href="/previous-versions/windows/desktop/api/interactioncontext/nf-interactioncontext-setpropertyinteractioncontext">SetPropertyInteractionContext</a>

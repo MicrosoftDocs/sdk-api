@@ -72,7 +72,7 @@ Specifies the ID of the internal joystick. The device driver manages internal ID
 
 ### -param arg5
 
-Points to a <a href="https://docs.microsoft.com/windows/desktop/api/dinputd/ns-dinputd-dihidffinitinfo">DIHIDFFINITINFO</a> structure that contains initialization information for the force feedback driver. The driver uses this information to distinguish between multiple devices and to query DirectInput for any other device attributes.
+Points to a <a href="/windows/desktop/api/dinputd/ns-dinputd-dihidffinitinfo">DIHIDFFINITINFO</a> structure that contains initialization information for the force feedback driver. The driver uses this information to distinguish between multiple devices and to query DirectInput for any other device attributes.
 
 ## -returns
 
@@ -81,4 +81,3 @@ Returns S_OK if successful; otherwise, returns an error code.
 ## -remarks
 
 As an example of the <b>IDirectInputEffectDriver::DeviceID </b>method, if a device driver is passed <i>dwExternalID</i> = 2 and <i>dwInternalId</i> = 1, then unit 1 on the device corresponds to the joystick whose ID is 2.
-

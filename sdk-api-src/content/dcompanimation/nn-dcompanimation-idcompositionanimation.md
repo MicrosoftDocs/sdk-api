@@ -54,7 +54,7 @@ Represents a function for animating one or more  properties of one or more  Micr
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDCompositionAnimation</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDCompositionAnimation</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDCompositionAnimation</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDCompositionAnimation</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IDCompositionAnimation</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dcompanimation/nf-dcompanimation-idcompositionanimation-addcubic">AddCubic</a>
+<a href="/windows/desktop/api/dcompanimation/nf-dcompanimation-idcompositionanimation-addcubic">AddCubic</a>
 </td>
 <td align="left" width="63%">
 Adds a cubic polynomial segment to the animation function.
@@ -78,7 +78,7 @@ Adds a cubic polynomial segment to the animation function.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dcompanimation/nf-dcompanimation-idcompositionanimation-addrepeat">AddRepeat</a>
+<a href="/windows/desktop/api/dcompanimation/nf-dcompanimation-idcompositionanimation-addrepeat">AddRepeat</a>
 </td>
 <td align="left" width="63%">
 Adds a repeat segment that causes the specified portion of an animation function to be repeated.
@@ -87,7 +87,7 @@ Adds a repeat segment that causes the specified portion of an animation function
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dcompanimation/nf-dcompanimation-idcompositionanimation-addsinusoidal">AddSinusoidal</a>
+<a href="/windows/desktop/api/dcompanimation/nf-dcompanimation-idcompositionanimation-addsinusoidal">AddSinusoidal</a>
 </td>
 <td align="left" width="63%">
 Adds a sinusoidal segment to the animation function.
@@ -96,7 +96,7 @@ Adds a sinusoidal segment to the animation function.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dcompanimation/nf-dcompanimation-idcompositionanimation-end">End</a>
+<a href="/windows/desktop/api/dcompanimation/nf-dcompanimation-idcompositionanimation-end">End</a>
 </td>
 <td align="left" width="63%">
 Adds an end segment that marks the end of an animation function.  
@@ -105,7 +105,7 @@ Adds an end segment that marks the end of an animation function.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dcompanimation/nf-dcompanimation-idcompositionanimation-reset">Reset</a>
+<a href="/windows/desktop/api/dcompanimation/nf-dcompanimation-idcompositionanimation-reset">Reset</a>
 </td>
 <td align="left" width="63%">
 Resets the animation function so that it contains no segments.
@@ -114,7 +114,7 @@ Resets the animation function so that it contains no segments.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dcompanimation/nf-dcompanimation-idcompositionanimation-setabsolutebegintime">SetAbsoluteBeginTime</a>
+<a href="/windows/desktop/api/dcompanimation/nf-dcompanimation-idcompositionanimation-setabsolutebegintime">SetAbsoluteBeginTime</a>
 </td>
 <td align="left" width="63%">
 Sets the absolute time at which the animation function starts.
@@ -125,5 +125,4 @@ Sets the absolute time at which the animation function starts.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nf-dcomp-idcompositiondevice-createanimation">IDCompositionDevice::CreateAnimation</a>
-
+<a href="/windows/desktop/api/dcomp/nf-dcomp-idcompositiondevice-createanimation">IDCompositionDevice::CreateAnimation</a>

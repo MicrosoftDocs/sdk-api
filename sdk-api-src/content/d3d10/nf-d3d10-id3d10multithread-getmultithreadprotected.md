@@ -57,11 +57,10 @@ Find out if multithreading is turned on or not.
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
 
 Whether or not multithreading is turned on. True means on, false means off.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nn-d3d10-id3d10multithread">ID3D10Multithread Interface</a>
-
+<a href="/windows/desktop/api/d3d10/nn-d3d10-id3d10multithread">ID3D10Multithread Interface</a>

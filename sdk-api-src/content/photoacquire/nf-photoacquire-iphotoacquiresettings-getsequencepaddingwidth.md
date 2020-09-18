@@ -94,15 +94,14 @@ A non-NULL value was expected.
 
 ## -remarks
 
-If the format string specified in <a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquiresettings-setoutputfilenametemplate">SetOutputFileNameTemplate</a> contains a sequential token, this method gets the width allotted for the sequential token.
+If the format string specified in <a href="/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquiresettings-setoutputfilenametemplate">SetOutputFileNameTemplate</a> contains a sequential token, this method gets the width allotted for the sequential token.
 
 If the format string does not contain a sequential token, the value returned by this method is not defined.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nn-photoacquire-iphotoacquiresettings">IPhotoAcquireSettings Interface</a>
+<a href="/windows/desktop/api/photoacquire/nn-photoacquire-iphotoacquiresettings">IPhotoAcquireSettings Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquiresettings-setsequencepaddingwidth">SetSequencePaddingWidth</a>
-
+<a href="/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquiresettings-setsequencepaddingwidth">SetSequencePaddingWidth</a>

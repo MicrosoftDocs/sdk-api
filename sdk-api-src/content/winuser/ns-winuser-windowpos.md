@@ -62,7 +62,7 @@ Contains information about the size and position of a window.
 
 Type: <b>HWND</b>
 
-The position of the window in Z order (front-to-back position). This member can be a handle to the window behind which this window is placed, or can be one of the special values listed with the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setwindowpos">SetWindowPos</a> function.
+The position of the window in Z order (front-to-back position). This member can be a handle to the window behind which this window is placed, or can be one of the special values listed with the <a href="/windows/desktop/api/winuser/nf-winuser-setwindowpos">SetWindowPos</a> function.
 
 ### -field hwnd
 
@@ -123,7 +123,7 @@ Draws a frame (defined in the window's class description) around the window. Sam
 </dl>
 </td>
 <td width="60%">
-Sends a <a href="https://docs.microsoft.com/windows/desktop/winmsg/wm-nccalcsize">WM_NCCALCSIZE</a> message to the window, even if the window's size is not being changed. If this flag is not specified, <b>WM_NCCALCSIZE</b> is sent only when the window's size is being changed.
+Sends a <a href="/windows/desktop/winmsg/wm-nccalcsize">WM_NCCALCSIZE</a> message to the window, even if the window's size is not being changed. If this flag is not specified, <b>WM_NCCALCSIZE</b> is sent only when the window's size is being changed.
 
 </td>
 </tr>
@@ -216,7 +216,7 @@ Does not change the owner window's position in the Z order. Same as the <b>SWP_N
 </td>
 <td width="60%">
 Prevents the window from receiving the 
-						<a href="https://docs.microsoft.com/windows/desktop/winmsg/wm-windowposchanging">WM_WINDOWPOSCHANGING</a> message.
+						<a href="/windows/desktop/winmsg/wm-windowposchanging">WM_WINDOWPOSCHANGING</a> message.
 
 </td>
 </tr>
@@ -264,7 +264,7 @@ Displays the window.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-enddeferwindowpos">EndDeferWindowPos</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-enddeferwindowpos">EndDeferWindowPos</a>
 
 
 
@@ -272,13 +272,12 @@ Displays the window.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setwindowpos">SetWindowPos</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-setwindowpos">SetWindowPos</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/winmsg/wm-nccalcsize">WM_NCCALCSIZE</a>
+<a href="/windows/desktop/winmsg/wm-nccalcsize">WM_NCCALCSIZE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/winmsg/windows">Windows</a>
-
+<a href="/windows/desktop/winmsg/windows">Windows</a>

@@ -52,7 +52,7 @@ api_name:
 
 Recycles the calling process.
 
-For similar functionality, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms679243(v=vs.85)">IMTxAS::RecycleSurrogate</a>.
+For similar functionality, see <a href="/previous-versions/windows/desktop/legacy/ms679243(v=vs.85)">IMTxAS::RecycleSurrogate</a>.
 
 ## -parameters
 
@@ -139,5 +139,4 @@ This method can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, E
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/comadmin/nf-comadmin-icomadmincatalog2-recycleapplicationinstances">ICOMAdminCatalog2::RecycleApplicationInstances</a>
-
+<a href="/windows/desktop/api/comadmin/nf-comadmin-icomadmincatalog2-recycleapplicationinstances">ICOMAdminCatalog2::RecycleApplicationInstances</a>

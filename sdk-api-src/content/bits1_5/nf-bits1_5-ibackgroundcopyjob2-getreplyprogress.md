@@ -57,7 +57,7 @@ Retrieves progress information related to the transfer of the reply data from an
 ### -param pProgress [out]
 
 Contains information that you use to calculate the percentage of the reply file transfer that is complete. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits1_5/ns-bits1_5-bg_job_reply_progress">BG_JOB_REPLY_PROGRESS</a>.
+<a href="/windows/desktop/api/bits1_5/ns-bits1_5-bg_job_reply_progress">BG_JOB_REPLY_PROGRESS</a>.
 
 ## -returns
 
@@ -105,5 +105,4 @@ The <i>pProgress</i> parameter cannot be <b>NULL</b>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits/ns-bits-bg_job_progress">BG_JOB_REPLY_PROGRESS</a>
-
+<a href="/windows/desktop/api/bits/ns-bits-bg_job_progress">BG_JOB_REPLY_PROGRESS</a>

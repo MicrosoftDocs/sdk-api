@@ -51,9 +51,8 @@ api_name:
 
 ## -description
 
-The <b>Name</b> property gets the name of the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazobjectpicker">IAzObjectPicker</a> object.
+The <b>Name</b> property gets the name of the <a href="/windows/desktop/api/azroles/nn-azroles-iazobjectpicker">IAzObjectPicker</a> object.
 
 This property is read-only.
 
 ## -parameters
-

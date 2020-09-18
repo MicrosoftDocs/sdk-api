@@ -64,11 +64,11 @@ Pointer to a <b>VARIANT</b> variable that receives the current value for the opt
 
 ## -returns
 
-The method supports the standard return values, including <b>S_OK</b> if the operation is successful, and <b>E_ADS_BAD_PARAMETER</b> if the user has supplied an invalid <i>pvValue</i> parameter. For more information, see  <a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-error-codes">ADSI Error Codes</a>.
+The method supports the standard return values, including <b>S_OK</b> if the operation is successful, and <b>E_ADS_BAD_PARAMETER</b> if the user has supplied an invalid <i>pvValue</i> parameter. For more information, see  <a href="/windows/desktop/ADSI/adsi-error-codes">ADSI Error Codes</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-error-codes">ADSI Error Codes</a>
+<a href="/windows/desktop/ADSI/adsi-error-codes">ADSI Error Codes</a>
 
 
 
@@ -76,5 +76,4 @@ The method supports the standard return values, including <b>S_OK</b> if the ope
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsobjectoptions">IADsObjectOptions</a>
-
+<a href="/windows/desktop/api/iads/nn-iads-iadsobjectoptions">IADsObjectOptions</a>

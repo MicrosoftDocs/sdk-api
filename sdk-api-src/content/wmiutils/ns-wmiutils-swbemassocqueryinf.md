@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-The <b>SWbemAssocQueryInf</b> structure contains information from the <a href="https://docs.microsoft.com/windows/desktop/api/wmiutils/nf-wmiutils-iwbemquery-getanalysis">IWbemQuery::GetAnalysis</a> method when you use the <b>WMIQ_ANALYSIS_ASSOC_QUERY</b> analysis type.
+The <b>SWbemAssocQueryInf</b> structure contains information from the <a href="/windows/desktop/api/wmiutils/nf-wmiutils-iwbemquery-getanalysis">IWbemQuery::GetAnalysis</a> method when you use the <b>WMIQ_ANALYSIS_ASSOC_QUERY</b> analysis type.
 
 ## -struct-fields
 
@@ -142,7 +142,7 @@ The query returns only the class references.
 
 ### -field m_pPath
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/wmiutils/nn-wmiutils-iwbempath">IWbemPath</a> object.
+Pointer to an <a href="/windows/desktop/api/wmiutils/nn-wmiutils-iwbempath">IWbemPath</a> object.
 
 ### -field m_pszPath
 
@@ -178,9 +178,8 @@ Pointer to a list of required association qualifiers.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmiutils/nn-wmiutils-iwbemquery">IWbemQuery</a>
+<a href="/windows/desktop/api/wmiutils/nn-wmiutils-iwbemquery">IWbemQuery</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmiutils/nf-wmiutils-iwbemquery-getanalysis">IWbemQuery::GetAnalysis</a>
-
+<a href="/windows/desktop/api/wmiutils/nf-wmiutils-iwbemquery-getanalysis">IWbemQuery::GetAnalysis</a>

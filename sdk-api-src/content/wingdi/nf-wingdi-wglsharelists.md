@@ -66,7 +66,7 @@ Specifies the OpenGL rendering context to share display lists with <i>hglrc1</i>
 
 When the function succeeds, the return value is <b>TRUE</b>.
 
-When the function fails, the return value is <b>FALSE</b> and the display lists are not shared. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+When the function fails, the return value is <b>FALSE</b> and the display lists are not shared. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
@@ -81,13 +81,12 @@ All rendering contexts of a shared display list must use an identical pixel form
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/OpenGL/opengl-on-windows-nt--windows-2000--and-windows-95-98">OpenGL on Windows</a>
+<a href="/windows/desktop/OpenGL/opengl-on-windows-nt--windows-2000--and-windows-95-98">OpenGL on Windows</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/OpenGL/wgl-functions">WGL Functions</a>
+<a href="/windows/desktop/OpenGL/wgl-functions">WGL Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/OpenGL/glgetstring">glGetString</a>
-
+<a href="/windows/desktop/OpenGL/glgetstring">glGetString</a>

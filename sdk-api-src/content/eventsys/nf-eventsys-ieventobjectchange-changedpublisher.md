@@ -56,7 +56,7 @@ Indicates a publisher object has been added, modified, or deleted.
 
 ### -param changeType [in]
 
-The type of change to the publisher object. Values are taken from the <a href="https://docs.microsoft.com/windows/desktop/api/eventsys/ne-eventsys-eoc_changetype">EOC_ChangeType</a> enumeration.
+The type of change to the publisher object. Values are taken from the <a href="/windows/desktop/api/eventsys/ne-eventsys-eoc_changetype">EOC_ChangeType</a> enumeration.
 
 ### -param bstrPublisherID [in]
 
@@ -68,5 +68,4 @@ This method can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, E
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/eventsys/nn-eventsys-ieventobjectchange">IEventObjectChange</a>
-
+<a href="/windows/desktop/api/eventsys/nn-eventsys-ieventobjectchange">IEventObjectChange</a>

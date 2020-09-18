@@ -54,7 +54,7 @@ Initializes a new instance of <code>XMFLOAT2</code> from a two element <code>flo
 	argument.
     
 
-This constructor initializes a new instance of <a href="https://docs.microsoft.com/windows/desktop/api/directxmath/ns-directxmath-xmfloat2">XMFLOAT2</a> from a from
+This constructor initializes a new instance of <a href="/windows/desktop/api/directxmath/ns-directxmath-xmfloat2">XMFLOAT2</a> from a from
 	a two element <code>float</code> array argument.
 <div class="alert"><b>Note</b>  This constructor is only available under C++.</div><div> </div>
 
@@ -84,9 +84,8 @@ Two element <code>float</code> array containing the values used to initialize th
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/directxmath/ns-directxmath-xmfloat2">XMFLOAT2</a>
+<a href="/windows/desktop/api/directxmath/ns-directxmath-xmfloat2">XMFLOAT2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/directxmath/nf-directxmath-xmfloat2-xmfloat2(constfloat)">XMFLOAT2 Constructors</a>
-
+<a href="/windows/desktop/api/directxmath/nf-directxmath-xmfloat2-xmfloat2(constfloat)">XMFLOAT2 Constructors</a>

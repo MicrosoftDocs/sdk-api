@@ -55,7 +55,7 @@ api_name:
 ## -description
 
 The 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/ne-http-http_cache_policy_type">HTTP_DATA_CHUNK_TYPE</a> enumeration type defines the data source for a data chunk.
+<a href="/windows/desktop/api/http/ne-http-http_cache_policy_type">HTTP_DATA_CHUNK_TYPE</a> enumeration type defines the data source for a data chunk.
 
 ## -enum-fields
 
@@ -78,4 +78,3 @@ The data source is a fragment cache data block. The union should be interpreted 
 <b>Windows Server 2003 with SP1 and Windows XP with SP2:  </b>This flag is not supported.
 
 ### -field HttpDataChunkMaximum
-

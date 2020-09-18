@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Maps an <b>HTREEITEM</b> to an accessibility ID. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/tvm-maphtreeitemtoaccid">TVM_MAPHTREEITEMTOACCID</a> message explicitly.
+Maps an <b>HTREEITEM</b> to an accessibility ID. You can use this macro or send the <a href="/windows/desktop/Controls/tvm-maphtreeitemtoaccid">TVM_MAPHTREEITEMTOACCID</a> message explicitly.
 
 ## -parameters
 
 ### -param hwnd
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 Handle to the list-view control.
 
@@ -68,9 +68,8 @@ The value to be mapped.
 
 ## -remarks
 
-To use <b>TreeView_MapHTREEITEMtoAccID</b>, specify Comctl32.dll version 6 in the manifest. For more information on manifests, see <a href="https://docs.microsoft.com/windows/desktop/Controls/cookbook-overview">Enabling Visual Styles</a>. 
+To use <b>TreeView_MapHTREEITEMtoAccID</b>, specify Comctl32.dll version 6 in the manifest. For more information on manifests, see <a href="/windows/desktop/Controls/cookbook-overview">Enabling Visual Styles</a>. 
 
-<div class="alert"><b>Note</b>  The accessibility ID is not the same as that mentioned in <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nn-shobjidl-iaccessibleobject">IAccessibleObject</a>. This is a unique ID used for treeview items as long as treeitems do not exceed the max limit of <b>UINT</b>.
+<div class="alert"><b>Note</b>  The accessibility ID is not the same as that mentioned in <a href="/windows/desktop/api/shobjidl/nn-shobjidl-iaccessibleobject">IAccessibleObject</a>. This is a unique ID used for treeview items as long as treeitems do not exceed the max limit of <b>UINT</b>.
 </div>
 <div> </div>
-

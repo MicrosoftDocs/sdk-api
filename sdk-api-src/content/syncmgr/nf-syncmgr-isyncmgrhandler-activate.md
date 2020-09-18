@@ -77,12 +77,12 @@ Sync Center calls this method in the following two instances.
                 
 
 <ul>
-<li>When the user selects the handler in the Sync Setup folder and launches its <b>Setup</b> task. If the handler supports the <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrhandler-getobject">SYNCMGR_OBJECTID_QueryBeforeActivate</a> object, this method is only called if the UI operation, which consists of a dialog asking the user to confirm whether they want to activate the handler, was successful.</li>
-<li>When the user selects the handler in the Sync Center folder and launches its <b>Delete</b> task, but only if the handler has not set the <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/ne-syncmgr-syncmgr_handler_policies">SYNCMGR_HPM_PREVENT_DEACTIVATE</a> flag. If the handler supports the <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrhandler-getobject">SYNCMGR_OBJECTID_QueryBeforeDeactivate</a> object, this method is only called if the UI operation was successful.</li>
+<li>When the user selects the handler in the Sync Setup folder and launches its <b>Setup</b> task. If the handler supports the <a href="/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrhandler-getobject">SYNCMGR_OBJECTID_QueryBeforeActivate</a> object, this method is only called if the UI operation, which consists of a dialog asking the user to confirm whether they want to activate the handler, was successful.</li>
+<li>When the user selects the handler in the Sync Center folder and launches its <b>Delete</b> task, but only if the handler has not set the <a href="/windows/desktop/api/syncmgr/ne-syncmgr-syncmgr_handler_policies">SYNCMGR_HPM_PREVENT_DEACTIVATE</a> flag. If the handler supports the <a href="/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrhandler-getobject">SYNCMGR_OBJECTID_QueryBeforeDeactivate</a> object, this method is only called if the UI operation was successful.</li>
 </ul>
-If the <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/ne-syncmgr-syncmgr_handler_policies">SYNCMGR_HPM_PREVENT_ACTIVATE</a> flag is set in the value retrieved by <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrhandler-getcapabilities">ISyncMgrHandler::GetCapabilities</a>, a call to this method requesting activation of the handler will fail.
+If the <a href="/windows/desktop/api/syncmgr/ne-syncmgr-syncmgr_handler_policies">SYNCMGR_HPM_PREVENT_ACTIVATE</a> flag is set in the value retrieved by <a href="/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrhandler-getcapabilities">ISyncMgrHandler::GetCapabilities</a>, a call to this method requesting activation of the handler will fail.
 
-The activation state of an individual handler can be found by calling <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrhandlerinfo-isactive">IsActive</a>.
+The activation state of an individual handler can be found by calling <a href="/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrhandlerinfo-isactive">IsActive</a>.
 
 If the handler does not need to perform any actions when it is activated, it can return either S_OK or E_NOTIMPL as shown in the example below.
 
@@ -104,13 +104,12 @@ STDMETHODIMP CMyDeviceHandler::Activate(__in BOOL fActivate)
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nn-syncmgr-isyncmgrhandler">ISyncMgrHandler</a>
+<a href="/windows/desktop/api/syncmgr/nn-syncmgr-isyncmgrhandler">ISyncMgrHandler</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrhandler-getobject">ISyncMgrHandler::GetObject</a>
+<a href="/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrhandler-getobject">ISyncMgrHandler::GetObject</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgruioperation-run">ISyncMgrUIOperation::Run</a>
-
+<a href="/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgruioperation-run">ISyncMgrUIOperation::Run</a>

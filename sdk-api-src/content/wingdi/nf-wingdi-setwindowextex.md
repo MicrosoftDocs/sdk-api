@@ -72,7 +72,7 @@ The window's vertical extent in logical units.
 
 ### -param lpsz [out]
 
-A pointer to a <a href="https://docs.microsoft.com/previous-versions/dd145106(v=vs.85)">SIZE</a> structure that receives the previous window extents, in logical units. If <i>lpSize</i> is <b>NULL</b>, this parameter is not used.
+A pointer to a <a href="/previous-versions/dd145106(v=vs.85)">SIZE</a> structure that receives the previous window extents, in logical units. If <i>lpSize</i> is <b>NULL</b>, this parameter is not used.
 
 ## -returns
 
@@ -82,9 +82,9 @@ If the function fails, the return value is zero.
 
 ## -remarks
 
-The <i>window</i> refers to the logical coordinate system of the page space. The <i>extent</i> is the maximum value of an axis. This function sets the maximum values for the horizontal and vertical axes of the window (in logical coordinates). When mapping between page space and device space, <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-setviewportextex">SetViewportExtEx</a> and <b>SetWindowExtEx</b> determine the scaling factor between the window and the viewport. For more information, see <a href="https://docs.microsoft.com/windows/desktop/gdi/transformation-of-coordinate-spaces">Transformation of Coordinate Spaces</a>.
+The <i>window</i> refers to the logical coordinate system of the page space. The <i>extent</i> is the maximum value of an axis. This function sets the maximum values for the horizontal and vertical axes of the window (in logical coordinates). When mapping between page space and device space, <a href="/windows/desktop/api/wingdi/nf-wingdi-setviewportextex">SetViewportExtEx</a> and <b>SetWindowExtEx</b> determine the scaling factor between the window and the viewport. For more information, see <a href="/windows/desktop/gdi/transformation-of-coordinate-spaces">Transformation of Coordinate Spaces</a>.
 
-When the following mapping modes are set, calls to the <b>SetWindowExtEx</b> and <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-setviewportextex">SetViewportExtEx</a> functions are ignored:
+When the following mapping modes are set, calls to the <b>SetWindowExtEx</b> and <a href="/windows/desktop/api/wingdi/nf-wingdi-setviewportextex">SetViewportExtEx</a> functions are ignored:
 
 <ul>
 <li>MM_HIENGLISH</li>
@@ -94,32 +94,31 @@ When the following mapping modes are set, calls to the <b>SetWindowExtEx</b> and
 <li>MM_TEXT</li>
 <li>MM_TWIPS</li>
 </ul>
-When MM_ISOTROPIC mode is set, an application must call the <b>SetWindowExtEx</b> function before calling <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-setviewportextex">SetViewportExtEx</a>. Note that for the MM_ISOTROPIC mode, certain portions of a nonsquare screen may not be available for display because the logical units on both axes represent equal physical distances.
+When MM_ISOTROPIC mode is set, an application must call the <b>SetWindowExtEx</b> function before calling <a href="/windows/desktop/api/wingdi/nf-wingdi-setviewportextex">SetViewportExtEx</a>. Note that for the MM_ISOTROPIC mode, certain portions of a nonsquare screen may not be available for display because the logical units on both axes represent equal physical distances.
 
 
 #### Examples
 
-For an example, see <a href="https://docs.microsoft.com/windows/desktop/gdi/invalidating-the-client-area">Invalidating the Client Area</a>.
+For an example, see <a href="/windows/desktop/gdi/invalidating-the-client-area">Invalidating the Client Area</a>.
 
 <div class="code"></div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/coordinate-space-and-transformation-functions">Coordinate Space and Transformation Functions</a>
+<a href="/windows/desktop/gdi/coordinate-space-and-transformation-functions">Coordinate Space and Transformation Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/coordinate-spaces-and-transformations">Coordinate Spaces and Transformations Overview</a>
+<a href="/windows/desktop/gdi/coordinate-spaces-and-transformations">Coordinate Spaces and Transformations Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getwindowextex">GetWindowExtEx</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-getwindowextex">GetWindowExtEx</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/dd145106(v=vs.85)">SIZE</a>
+<a href="/previous-versions/dd145106(v=vs.85)">SIZE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-setviewportextex">SetViewportExtEx</a>
-
+<a href="/windows/desktop/api/wingdi/nf-wingdi-setviewportextex">SetViewportExtEx</a>

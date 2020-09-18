@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-Generates a <a href="https://docs.microsoft.com/windows/desktop/Intl/wm-ime-request">WM_IME_REQUEST</a> message.
+Generates a <a href="/windows/desktop/Intl/wm-ime-request">WM_IME_REQUEST</a> message.
 
 ## -parameters
 
@@ -62,11 +62,11 @@ Handle to the target input context.
 
 ### -param WPARAM [in]
 
-Value of the <i>wParam</i> parameter for the <a href="https://docs.microsoft.com/windows/desktop/Intl/wm-ime-request">WM_IME_REQUEST</a> message.
+Value of the <i>wParam</i> parameter for the <a href="/windows/desktop/Intl/wm-ime-request">WM_IME_REQUEST</a> message.
 
 ### -param LPARAM [in]
 
-Value of the <i>lParam</i> parameter for the <a href="https://docs.microsoft.com/windows/desktop/Intl/wm-ime-request">WM_IME_REQUEST</a> message.
+Value of the <i>lParam</i> parameter for the <a href="/windows/desktop/Intl/wm-ime-request">WM_IME_REQUEST</a> message.
 
 ## -returns
 
@@ -74,7 +74,7 @@ Returns an operation-specific value if successful, or 0 otherwise.
 
 ## -remarks
 
-IME must use this function instead of sending the <a href="https://docs.microsoft.com/windows/desktop/Intl/wm-ime-request">WM_IME_REQUEST</a> message to the application in a call to <a href="https://docs.microsoft.com/previous-versions/windows/desktop/oe/oe-ihttpmailtransport-sendmessage">SendMessage</a>.
+IME must use this function instead of sending the <a href="/windows/desktop/Intl/wm-ime-request">WM_IME_REQUEST</a> message to the application in a call to <a href="/previous-versions/windows/desktop/oe/oe-ihttpmailtransport-sendmessage">SendMessage</a>.
 
 
 
@@ -85,13 +85,12 @@ IME must use this function instead of sending the <a href="https://docs.microsof
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/input-method-manager">Input Method Manager</a>
+<a href="/windows/desktop/Intl/input-method-manager">Input Method Manager</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/input-method-manager-functions">Input Method Manager Functions</a>
+<a href="/windows/desktop/Intl/input-method-manager-functions">Input Method Manager Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/wm-ime-request">WM_IME_REQUEST</a>
-
+<a href="/windows/desktop/Intl/wm-ime-request">WM_IME_REQUEST</a>

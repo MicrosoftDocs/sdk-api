@@ -110,5 +110,4 @@ Returns S_OK if successful, or a COM error value otherwise.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nn-shlobj_core-iaclist2">IACList2</a>
-
+<a href="/windows/desktop/api/shlobj_core/nn-shlobj_core-iaclist2">IACList2</a>

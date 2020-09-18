@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Gets the number of working areas in a list-view control. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/lvm-getnumberofworkareas">LVM_GETNUMBEROFWORKAREAS</a> message explicitly.
+Gets the number of working areas in a list-view control. You can use this macro or send the <a href="/windows/desktop/Controls/lvm-getnumberofworkareas">LVM_GETNUMBEROFWORKAREAS</a> message explicitly.
 
 ## -parameters
 
 ### -param hwnd
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the list-view control.
 
@@ -68,5 +68,4 @@ A pointer to a UINT value that receives the number of working areas in the list-
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Controls/using-list-view-controls">Using List-View Controls</a>
-
+<a href="/windows/desktop/Controls/using-list-view-controls">Using List-View Controls</a>

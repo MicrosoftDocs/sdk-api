@@ -68,5 +68,4 @@ The incoming job has been received, and is now in routing mode (modem is not use
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxjobstatus-jobtype-vb">IFaxJobStatus::get_JobType</a>
-
+<a href="/previous-versions/windows/desktop/fax/-mfax-faxjobstatus-jobtype-vb">IFaxJobStatus::get_JobType</a>

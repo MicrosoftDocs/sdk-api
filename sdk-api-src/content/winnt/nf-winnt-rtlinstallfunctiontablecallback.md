@@ -110,13 +110,12 @@ This function is useful for very dynamic code. The application specifies the mem
     between the callback function and the code generator.
 
 For code that is generated from a template or generated only once during the life of the process, use the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/winnt/nf-winnt-rtladdfunctiontable">RtlAddFunctionTable</a> function.
+    <a href="/windows/desktop/api/winnt/nf-winnt-rtladdfunctiontable">RtlAddFunctionTable</a> function.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/nf-winnt-rtladdfunctiontable">RtlAddFunctionTable</a>
+<a href="/windows/desktop/api/winnt/nf-winnt-rtladdfunctiontable">RtlAddFunctionTable</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/nf-winnt-rtldeletefunctiontable">RtlDeleteFunctionTable</a>
-
+<a href="/windows/desktop/api/winnt/nf-winnt-rtldeletefunctiontable">RtlDeleteFunctionTable</a>

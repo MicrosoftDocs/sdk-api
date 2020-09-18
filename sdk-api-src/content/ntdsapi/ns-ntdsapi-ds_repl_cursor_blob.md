@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-The <b>DS_REPL_CURSOR_BLOB</b> structure contains inbound replication state data with respect to all replicas of a   given naming context. This structure is similar to the <a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/ns-ntdsapi-ds_repl_cursor_3w">DS_REPL_CURSOR_3</a> structure, but is obtained from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/ldap/lightweight-directory-access-protocol-ldap-api">Lightweight Directory Access Protocol API</a> functions when obtaining binary data for the <b>msDS-NCReplCursors</b> attribute.
+The <b>DS_REPL_CURSOR_BLOB</b> structure contains inbound replication state data with respect to all replicas of a   given naming context. This structure is similar to the <a href="/windows/desktop/api/ntdsapi/ns-ntdsapi-ds_repl_cursor_3w">DS_REPL_CURSOR_3</a> structure, but is obtained from the <a href="/previous-versions/windows/desktop/ldap/lightweight-directory-access-protocol-ldap-api">Lightweight Directory Access Protocol API</a> functions when obtaining binary data for the <b>msDS-NCReplCursors</b> attribute.
 
 ## -struct-fields
 
@@ -66,7 +66,7 @@ Contains the maximum update sequence number to which the destination server can 
 
 ### -field ftimeLastSyncSuccess
 
-Contains a <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure that contains the date and time of the last successful synchronization operation.
+Contains a <a href="/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure that contains the date and time of the last successful synchronization operation.
 
 ### -field oszSourceDsaDN
 
@@ -74,13 +74,12 @@ Contains the offset, in bytes, from the address of this structure  to  a null-te
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/ns-ntdsapi-ds_repl_cursor_3w">DS_REPL_CURSOR_3</a>
+<a href="/windows/desktop/api/ntdsapi/ns-ntdsapi-ds_repl_cursor_3w">DS_REPL_CURSOR_3</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a>
+<a href="/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/ldap/lightweight-directory-access-protocol-ldap-api">Lightweight Directory Access Protocol API</a>
-
+<a href="/previous-versions/windows/desktop/ldap/lightweight-directory-access-protocol-ldap-api">Lightweight Directory Access Protocol API</a>

@@ -64,9 +64,8 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/WinRT/hstring">HSTRING</a>
+<a href="/windows/desktop/WinRT/hstring">HSTRING</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/windows.foundation/nn-windows-foundation-istringable">IStringable</a>
-
+<a href="/windows/desktop/api/windows.foundation/nn-windows-foundation-istringable">IStringable</a>

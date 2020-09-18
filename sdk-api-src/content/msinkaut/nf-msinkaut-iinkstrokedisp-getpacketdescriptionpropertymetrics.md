@@ -57,9 +57,9 @@ Retrieves the metrics for a given packet description type.
 
 ### -param PropertyName [in]
 
-The globally unique identifier (GUID) from the <a href="https://docs.microsoft.com/windows/desktop/tablet/packetpropertyguids-constants">PacketProperty</a> constants that identifies the property for which to obtain metrics.
+The globally unique identifier (GUID) from the <a href="/windows/desktop/tablet/packetpropertyguids-constants">PacketProperty</a> constants that identifies the property for which to obtain metrics.
 
-For more information about the BSTR data type, see <a href="https://docs.microsoft.com/windows/desktop/tablet/using-the-com-library">Using the COM Library</a>.
+For more information about the BSTR data type, see <a href="/windows/desktop/tablet/using-the-com-library">Using the COM Library</a>.
 
 ### -param Minimum [out]
 
@@ -71,7 +71,7 @@ The maximum value, in logical units, that the tablet reports for this property. 
 
 ### -param Units [out]
 
-The physical units of the property, such as inches or degrees. For a list of property units, see the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/ne-msinkaut-tabletpropertymetricunit">TabletPropertyMetricUnit</a> enumeration type.
+The physical units of the property, such as inches or degrees. For a list of property units, see the <a href="/windows/desktop/api/msinkaut/ne-msinkaut-tabletpropertymetricunit">TabletPropertyMetricUnit</a> enumeration type.
 
 ### -param Resolution [out]
 
@@ -156,21 +156,20 @@ An exception occurred while processing.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-getpacketvaluesbyproperty">GetPacketValuesByProperty Method</a>
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-getpacketvaluesbyproperty">GetPacketValuesByProperty Method</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinktablet-getpropertymetrics">GetPropertyMetrics Method</a>
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinktablet-getpropertymetrics">GetPropertyMetrics Method</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkstrokedisp">IInkStrokeDisp Interface</a>
+<a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinkstrokedisp">IInkStrokeDisp Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-setpacketvaluesbyproperty">SetPacketValuesByProperty Method</a>
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-setpacketvaluesbyproperty">SetPacketValuesByProperty Method</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/ne-msinkaut-tabletpropertymetricunit">TabletPropertyMetricUnit Enumeration</a>
-
+<a href="/windows/desktop/api/msinkaut/ne-msinkaut-tabletpropertymetricunit">TabletPropertyMetricUnit Enumeration</a>

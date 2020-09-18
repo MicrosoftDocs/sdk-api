@@ -60,7 +60,7 @@ Gets the identifier string for the provider instance. This string is the unique 
 
 The provider instance identifier string. For root devices, this string has the same value as PKEY_PNPX_GlobalIdentity.
 
-Be sure to free this buffer using <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a>.
+Be sure to free this buffer using <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a>.
 
 ## -returns
 
@@ -108,5 +108,4 @@ The method is unable to allocate the memory required to perform this operation.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryapi/nn-functiondiscoveryapi-ifunctioninstance">IFunctionInstance</a>
-
+<a href="/windows/desktop/api/functiondiscoveryapi/nn-functiondiscoveryapi-ifunctioninstance">IFunctionInstance</a>

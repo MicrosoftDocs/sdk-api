@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Gets the array of <a href="https://docs.microsoft.com/windows/desktop/api/windows.foundation/ns-windows-foundation-datetime">DateTime</a> values that is stored in the current <a href="https://docs.microsoft.com/windows/desktop/api/windows.foundation/nn-windows-foundation-ipropertyvalue">IPropertyValue</a> object.
+Gets the array of <a href="/windows/desktop/api/windows.foundation/ns-windows-foundation-datetime">DateTime</a> values that is stored in the current <a href="/windows/desktop/api/windows.foundation/nn-windows-foundation-ipropertyvalue">IPropertyValue</a> object.
 
 ## -parameters
 
@@ -62,11 +62,11 @@ The number of values in the array.
 
 ### -param value [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/windows.foundation/ns-windows-foundation-datetime">DateTime</a>**</b>
+Type: <b><a href="/windows/desktop/api/windows.foundation/ns-windows-foundation-datetime">DateTime</a>**</b>
 
-The array of <a href="https://docs.microsoft.com/windows/desktop/api/windows.foundation/ns-windows-foundation-datetime">DateTime</a> values.
+The array of <a href="/windows/desktop/api/windows.foundation/ns-windows-foundation-datetime">DateTime</a> values.
 
-The returned pointer must be freed using <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a>.
+The returned pointer must be freed using <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a>.
 
 ## -returns
 
@@ -76,9 +76,8 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/windows.foundation/nn-windows-foundation-ipropertyvalue">IPropertyValue</a>
+<a href="/windows/desktop/api/windows.foundation/nn-windows-foundation-ipropertyvalue">IPropertyValue</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/windows.foundation/nf-windows-foundation-ipropertyvaluestatics-createdatetimearray">IPropertyValueStatics::CreateDateTimeArray</a>
-
+<a href="/windows/desktop/api/windows.foundation/nf-windows-foundation-ipropertyvaluestatics-createdatetimearray">IPropertyValueStatics::CreateDateTimeArray</a>

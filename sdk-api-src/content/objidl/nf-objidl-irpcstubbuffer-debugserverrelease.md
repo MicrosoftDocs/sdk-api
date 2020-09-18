@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Releases an interface pointer that was previously returned by <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-irpcstubbuffer-debugserverqueryinterface">DebugServerQueryInterface</a>.
+Releases an interface pointer that was previously returned by <a href="/windows/desktop/api/objidl/nf-objidl-irpcstubbuffer-debugserverqueryinterface">DebugServerQueryInterface</a>.
 
 ## -parameters
 
@@ -60,5 +60,4 @@ A pointer to the interface that the caller no longer needs.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-irpcstubbuffer">IRpcStubBuffer</a>
-
+<a href="/windows/desktop/api/objidl/nn-objidl-irpcstubbuffer">IRpcStubBuffer</a>

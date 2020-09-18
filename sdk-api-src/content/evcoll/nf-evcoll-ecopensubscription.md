@@ -60,7 +60,7 @@ Specifies the name of the subscription. The value provided for this parameter sh
 
 ### -param AccessMask [in]
 
-An access mask that specifies the desired access rights to the subscription. Use the <a href="https://docs.microsoft.com/windows/desktop/WEC/windows-event-collector-constants">EC_READ_ACCESS</a> or <a href="https://docs.microsoft.com/windows/desktop/WEC/windows-event-collector-constants">EC_WRITE_ACCESS</a> constants to specify the access rights. The function fails if the security descriptor of the subscription does not permit the requested access for the calling process.
+An access mask that specifies the desired access rights to the subscription. Use the <a href="/windows/desktop/WEC/windows-event-collector-constants">EC_READ_ACCESS</a> or <a href="/windows/desktop/WEC/windows-event-collector-constants">EC_WRITE_ACCESS</a> constants to specify the access rights. The function fails if the security descriptor of the subscription does not permit the requested access for the calling process.
 
 ### -param Flags [in]
 
@@ -68,9 +68,8 @@ A value specifying whether a new or existing subscription will be opened. Use th
 
 ## -returns
 
-If the function succeeds, it returns an handle (<a href="https://docs.microsoft.com/windows/desktop/WEC/windows-event-collector-data-types">EC_HANDLE</a>) to a new subscription object. Returns <b>NULL</b> otherwise, in which case use the <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function to obtain the error code.
+If the function succeeds, it returns an handle (<a href="/windows/desktop/WEC/windows-event-collector-data-types">EC_HANDLE</a>) to a new subscription object. Returns <b>NULL</b> otherwise, in which case use the <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function to obtain the error code.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/WEC/windows-event-collector-functions">Windows Event Collector Functions</a>
-
+<a href="/windows/desktop/WEC/windows-event-collector-functions">Windows Event Collector Functions</a>

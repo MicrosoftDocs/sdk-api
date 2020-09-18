@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-The <b>PropertyId</b> property specifies or retrieves a value of the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/ne-certenroll-certenroll_propertyid">CERTENROLL_PROPERTYID</a> enumeration that identifies an external  certificate property.
+The <b>PropertyId</b> property specifies or retrieves a value of the <a href="/windows/desktop/api/certenroll/ne-certenroll-certenroll_propertyid">CERTENROLL_PROPERTYID</a> enumeration that identifies an external  certificate property.
 
 This property is read/write.
 
@@ -60,13 +60,12 @@ This property is read/write.
 
 ## -remarks
 
- Call the <b>PropertyId</b> property before trying to initialize the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icertproperty">ICertProperty</a> object. Call the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-icertproperty-initializedecode">InitializeDecode</a> method or the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-icertproperty-initializefromcertificate">InitializeFromCertificate</a> method to create a value for the certificate property. Call the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-icertproperty-get_rawdata">RawData</a> property to retrieve the property value.
+ Call the <b>PropertyId</b> property before trying to initialize the <a href="/windows/desktop/api/certenroll/nn-certenroll-icertproperty">ICertProperty</a> object. Call the <a href="/windows/desktop/api/certenroll/nf-certenroll-icertproperty-initializedecode">InitializeDecode</a> method or the <a href="/windows/desktop/api/certenroll/nf-certenroll-icertproperty-initializefromcertificate">InitializeFromCertificate</a> method to create a value for the certificate property. Call the <a href="/windows/desktop/api/certenroll/nf-certenroll-icertproperty-get_rawdata">RawData</a> property to retrieve the property value.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icertproperties">ICertProperties</a>
+<a href="/windows/desktop/api/certenroll/nn-certenroll-icertproperties">ICertProperties</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icertproperty">ICertProperty</a>
-
+<a href="/windows/desktop/api/certenroll/nn-certenroll-icertproperty">ICertProperty</a>

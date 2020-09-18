@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>AddStringSids</b> method adds an array of string representations of <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security identifiers</a> (SIDs) to the client context.
+The <b>AddStringSids</b> method adds an array of string representations of <a href="/windows/desktop/SecGloss/s-gly">security identifiers</a> (SIDs) to the client context.
 
 ## -parameters
 
@@ -62,5 +62,4 @@ The array of string representations of SIDs to add to the client context.
 
  If the method succeeds, the method returns S_OK.
 
-If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
-
+If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.

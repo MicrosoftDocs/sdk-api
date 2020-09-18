@@ -108,7 +108,7 @@ The name is incomplete.
  
 
 <div class="alert"><b>Note</b>  For a list of valid error codes, see 
-<a href="https://docs.microsoft.com/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
+<a href="/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
 <div> </div>
 
 ## -remarks
@@ -117,7 +117,7 @@ An application calls the
 <b>RpcNsEntryExpandName</b> function to obtain a fully expanded entry name.
 
 The RPC run-time library allocates memory for the returned <i>ExpandedName</i> parameter. The application is responsible for calling the 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcstringfree">RpcStringFree</a> function for that returned string.
+<a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcstringfree">RpcStringFree</a> function for that returned string.
 
 The returned expanded entry name accounts for local name translations and for differences in locally defined naming schema.
 
@@ -132,5 +132,4 @@ The returned expanded entry name accounts for local name translations and for di
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcstringfree">RpcStringFree</a>
-
+<a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcstringfree">RpcStringFree</a>

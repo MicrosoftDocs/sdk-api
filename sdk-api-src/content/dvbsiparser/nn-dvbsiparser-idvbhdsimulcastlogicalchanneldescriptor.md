@@ -50,5 +50,4 @@ api_name:
 
 ## -description
 
-Implements the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nn-dvbsiparser-idvblogicalchanneldescriptor">IDvbLogicalChannelDescriptor</a> interface for Digital Video Broadcast (DVB) streams based on Motion Picture Experts Group Version 4 Advanced Video Coding (MPEG-4AVC) that support high-definition (HD) simulcasting.
-
+Implements the <a href="/previous-versions/windows/desktop/api/dvbsiparser/nn-dvbsiparser-idvblogicalchanneldescriptor">IDvbLogicalChannelDescriptor</a> interface for Digital Video Broadcast (DVB) streams based on Motion Picture Experts Group Version 4 Advanced Video Coding (MPEG-4AVC) that support high-definition (HD) simulcasting.

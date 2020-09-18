@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-The <b>LSA_FOREST_TRUST_RECORD</b> structure represents a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/l-gly">Local Security Authority</a> forest trust record.
+The <b>LSA_FOREST_TRUST_RECORD</b> structure represents a <a href="/windows/desktop/SecGloss/l-gly">Local Security Authority</a> forest trust record.
 
 ## -struct-fields
 
@@ -64,7 +64,7 @@ Flags that control the behavior of the operation.
 
 ### -field ForestTrustType
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ne-ntsecapi-lsa_forest_trust_record_type">LSA_FOREST_TRUST_RECORD_TYPE</a> enumeration that indicates the type of the record. The following table shows the possible values.
+<a href="/windows/desktop/api/ntsecapi/ne-ntsecapi-lsa_forest_trust_record_type">LSA_FOREST_TRUST_RECORD_TYPE</a> enumeration that indicates the type of the record. The following table shows the possible values.
 
 <table>
 <tr>
@@ -97,7 +97,7 @@ Record contains an excluded top-level name.
 </dl>
 </td>
 <td width="60%">
-Record contains an <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-lsa_forest_trust_domain_info">LSA_FOREST_TRUST_DOMAIN_INFO</a> structure.
+Record contains an <a href="/windows/desktop/api/ntsecapi/ns-ntsecapi-lsa_forest_trust_domain_info">LSA_FOREST_TRUST_DOMAIN_INFO</a> structure.
 
 </td>
 </tr>
@@ -150,4 +150,3 @@ Domain information. This member is used only if the <b>ForestTrustType</b> membe
 ### -field ForestTrustData.Data
 
 Binary data. This member is used for unrecognized entries after ForestTrustRecordTypeLast.
-

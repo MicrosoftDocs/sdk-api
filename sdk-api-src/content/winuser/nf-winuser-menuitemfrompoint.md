@@ -68,7 +68,7 @@ A handle to the menu containing the menu items to hit test.
 
 ### -param ptScreen [in]
 
-Type: <b><a href="https://docs.microsoft.com/previous-versions/dd162805(v=vs.85)">POINT</a></b>
+Type: <b><a href="/previous-versions/dd162805(v=vs.85)">POINT</a></b>
 
 A structure that specifies the location to test. If <i>hMenu</i> specifies a menu bar, this parameter is in window coordinates. Otherwise, it is in client coordinates.
 
@@ -80,5 +80,4 @@ Returns the zero-based position of the menu item at the specified location or -1
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/menurc/menus">Menus</a>
-
+<a href="/windows/desktop/menurc/menus">Menus</a>

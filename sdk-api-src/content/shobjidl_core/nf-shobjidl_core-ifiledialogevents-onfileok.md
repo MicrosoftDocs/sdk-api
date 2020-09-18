@@ -56,7 +56,7 @@ Called just before the dialog is about to return with a result.
 
 ### -param pfd [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifiledialog">IFileDialog</a>*</b>
+Type: <b><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifiledialog">IFileDialog</a>*</b>
 
 A pointer to the interface that represents the dialog.
 
@@ -68,9 +68,8 @@ Implementations should return <b>S_OK</b> to accept the current result in the di
 
 ## -remarks
 
-When this method is called, the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifiledialog-getresult">IFileDialog::GetResult</a> and <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifileopendialog-getresults">GetResults</a> methods can be called.
+When this method is called, the <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifiledialog-getresult">IFileDialog::GetResult</a> and <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifileopendialog-getresults">GetResults</a> methods can be called.
 
-The application can use this callback method to perform additional validation before the dialog closes, or to prevent the dialog from closing. If the application prevents the dialog from closing, it should display a UI to indicate a cause. To obtain a parent <b>HWND</b> for the UI, obtain the <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-iolewindow">IOleWindow</a> interface through <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">IFileDialog::QueryInterface</a> and call <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-iolewindow-getwindow">IOleWindow::GetWindow</a>.
+The application can use this callback method to perform additional validation before the dialog closes, or to prevent the dialog from closing. If the application prevents the dialog from closing, it should display a UI to indicate a cause. To obtain a parent <b>HWND</b> for the UI, obtain the <a href="/windows/desktop/api/oleidl/nn-oleidl-iolewindow">IOleWindow</a> interface through <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">IFileDialog::QueryInterface</a> and call <a href="/windows/desktop/api/oleidl/nf-oleidl-iolewindow-getwindow">IOleWindow::GetWindow</a>.
 
 An application can also use this method to perform all of its work surrounding the opening or saving of files.
-

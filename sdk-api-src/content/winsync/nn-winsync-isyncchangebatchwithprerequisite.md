@@ -54,7 +54,7 @@ Represents metadata about a change batch that is based on the prerequisite knowl
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISyncChangeBatchWithPrerequisite</b> interface inherits from <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncchangebatchbase">ISyncChangeBatchBase</a>. <b>ISyncChangeBatchWithPrerequisite</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISyncChangeBatchWithPrerequisite</b> interface inherits from <a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncchangebatchbase">ISyncChangeBatchBase</a>. <b>ISyncChangeBatchWithPrerequisite</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ISyncChangeBatchWithPrerequisite</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nf-winsync-isyncchangebatchwithprerequisite-getlearnedforgottenknowledge">GetLearnedForgottenKnowledge</a>
+<a href="/previous-versions/windows/desktop/api/winsync/nf-winsync-isyncchangebatchwithprerequisite-getlearnedforgottenknowledge">GetLearnedForgottenKnowledge</a>
 </td>
 <td align="left" width="63%">
 Gets the forgotten knowledge that the destination replica learns when the destination provider applies all the changes in this change batch during recovery synchronization.
@@ -78,7 +78,7 @@ Gets the forgotten knowledge that the destination replica learns when the destin
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nf-winsync-isyncchangebatchwithprerequisite-getlearnedknowledgewithprerequisite">GetLearnedKnowledgeWithPrerequisite</a>
+<a href="/previous-versions/windows/desktop/api/winsync/nf-winsync-isyncchangebatchwithprerequisite-getlearnedknowledgewithprerequisite">GetLearnedKnowledgeWithPrerequisite</a>
 </td>
 <td align="left" width="63%">
 Gets the knowledge that the destination replica learns when the destination provider applies all the changes in this change batch, based on the prerequisite knowledge of the change batch.
@@ -87,7 +87,7 @@ Gets the knowledge that the destination replica learns when the destination prov
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nf-winsync-isyncchangebatchwithprerequisite-setprerequisiteknowledge">SetPrerequisiteKnowledge</a>
+<a href="/previous-versions/windows/desktop/api/winsync/nf-winsync-isyncchangebatchwithprerequisite-setprerequisiteknowledge">SetPrerequisiteKnowledge</a>
 </td>
 <td align="left" width="63%">
 Sets the minimum knowledge that a destination provider is required to have to process this change batch.
@@ -98,13 +98,12 @@ Sets the minimum knowledge that a destination provider is required to have to pr
 
 ## -remarks
 
-An <b>ISyncChangeBatchWithPrerequisite</b> object can be obtained by passing <b>IID_ISyncChangeBatchWithPrerequisite</b> to the <b>QueryInterface</b> method of an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncchangebatchbase">ISyncChangeBatchBase</a> object.
+An <b>ISyncChangeBatchWithPrerequisite</b> object can be obtained by passing <b>IID_ISyncChangeBatchWithPrerequisite</b> to the <b>QueryInterface</b> method of an <a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncchangebatchbase">ISyncChangeBatchBase</a> object.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncchangebatchbase">ISyncChangeBatchBase</a>
+<a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncchangebatchbase">ISyncChangeBatchBase</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/winsync/windows-sync-interfaces">Windows Sync Interfaces</a>
-
+<a href="/previous-versions/windows/desktop/winsync/windows-sync-interfaces">Windows Sync Interfaces</a>

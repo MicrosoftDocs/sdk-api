@@ -90,9 +90,8 @@ For the encoder, this method has no effect unless the input type is RGB-24. For 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-idvrgb219">IDVRGB219 Interface</a>
-
+<a href="/windows/desktop/api/strmif/nn-strmif-idvrgb219">IDVRGB219 Interface</a>

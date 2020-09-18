@@ -50,18 +50,18 @@ api_name:
 
 ## -description
 
-This function stops XML canonicalization started by the preceding <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsstartwritercanonicalization">WsStartWriterCanonicalization</a> call.
+This function stops XML canonicalization started by the preceding <a href="/windows/desktop/api/webservices/nf-webservices-wsstartwritercanonicalization">WsStartWriterCanonicalization</a> call.
       Remaining canonical bytes buffered by the writer are written to the callback function.
 
 ## -parameters
 
 ### -param writer [in]
 
-A pointer to a  <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-xml-writer">WS_XML_WRITER</a> object on which canonicalization should be stopped.
+A pointer to a  <a href="/windows/desktop/wsw/ws-xml-writer">WS_XML_WRITER</a> object on which canonicalization should be stopped.
 
 ### -param error [in, optional]
 
-A  pointer to a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-error">WS_ERROR</a> object where additional information about the error should be stored if the function fails.
+A  pointer to a <a href="/windows/desktop/wsw/ws-error">WS_ERROR</a> object where additional information about the error should be stored if the function fails.
 
 ## -returns
 
@@ -99,8 +99,7 @@ The operation is not allowed due to the current state of the object.
 ## -remarks
 
 <b>WsEndWriterCanonicalization</b> must be called at the same depth at
-        which <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsstartwritercanonicalization">WsStartWriterCanonicalization</a> was called.
+        which <a href="/windows/desktop/api/webservices/nf-webservices-wsstartwritercanonicalization">WsStartWriterCanonicalization</a> was called.
       
 
-It is not necessary to call <b>WsEndWriterCanonicalization</b>in order to call <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsfreewriter">WsFreeWriter</a>.
-
+It is not necessary to call <b>WsEndWriterCanonicalization</b>in order to call <a href="/windows/desktop/api/webservices/nf-webservices-wsfreewriter">WsFreeWriter</a>.

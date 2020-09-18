@@ -76,10 +76,10 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 This method sets the range's start position to <code>min(cpActive, cpAnchor)</code>, and the end position to <code>max(cpActive, cpAnchor)</code>. If the range is a nondegenerate selection, <i>cpAnchor</i> is the active end, and <i>cpAnchor</i> is the anchor end.  If the range is a degenerate selection, the selection is displayed at the start of the line, rather than at the end of the previous line.
 
-This method removes any other subranges this range may have. To preserve the current subranges, use <a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange2-setactivesubrange">ITextRange2::SetActiveSubrange</a>. 
+This method removes any other subranges this range may have. To preserve the current subranges, use <a href="/windows/desktop/api/tom/nf-tom-itextrange2-setactivesubrange">ITextRange2::SetActiveSubrange</a>. 
 
 
-If the text range is a selection, you can set the attributes of the selection by using the <a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextselection-setflags">ITextSelection::SetFlags</a> method.
+If the text range is a selection, you can set the attributes of the selection by using the <a href="/windows/desktop/api/tom/nf-tom-itextselection-setflags">ITextSelection::SetFlags</a> method.
 
 ## -see-also
 
@@ -87,7 +87,7 @@ If the text range is a selection, you can set the attributes of the selection by
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextrange">ITextRange</a>
+<a href="/windows/desktop/api/tom/nn-tom-itextrange">ITextRange</a>
 
 
 
@@ -95,5 +95,4 @@ If the text range is a selection, you can set the attributes of the selection by
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Controls/text-object-model">Text Object Model</a>
-
+<a href="/windows/desktop/Controls/text-object-model">Text Object Model</a>

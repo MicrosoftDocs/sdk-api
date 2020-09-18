@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Constructs a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_fault">WS_FAULT</a>  from a specified error object.
+Constructs a <a href="/windows/desktop/api/webservices/ns-webservices-ws_fault">WS_FAULT</a>  from a specified error object.
 
 ## -parameters
 
 ### -param error [in]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-error">WS_ERROR</a> structure representing the error object from which to construct the fault.
+Pointer to a <a href="/windows/desktop/wsw/ws-error">WS_ERROR</a> structure representing the error object from which to construct the fault.
 
 ### -param faultErrorCode [in]
 
@@ -68,18 +68,18 @@ This error code is never included in the fault directly, but is used as a fallba
 
 ### -param faultDisclosure [in]
 
-<a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_fault_disclosure">WS_FAULT_DISCLOSURE</a> enumeration that controls
+<a href="/windows/desktop/api/webservices/ne-webservices-ws_fault_disclosure">WS_FAULT_DISCLOSURE</a> enumeration that controls
                     what information is copied from
                     the error object to the fault object.
 
 ### -param heap [in]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-heap">WS_HEAP</a> structure representing the <a href="https://docs.microsoft.com/windows/desktop/wsw/heap">heap</a> from which to allocate memory for the returned fault object.
+Pointer to a <a href="/windows/desktop/wsw/ws-heap">WS_HEAP</a> structure representing the <a href="/windows/desktop/wsw/heap">heap</a> from which to allocate memory for the returned fault object.
 
 ### -param fault [out]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_fault">WS_FAULT</a> structure representing the returned fault object.  The fields of the fault object are good until
-                    <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsfreeheap">WsFreeHeap</a> or <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsresetheap">WsResetHeap</a>is called to release the specified heap resources.
+Pointer to a <a href="/windows/desktop/api/webservices/ns-webservices-ws_fault">WS_FAULT</a> structure representing the returned fault object.  The fields of the fault object are good until
+                    <a href="/windows/desktop/api/webservices/nf-webservices-wsfreeheap">WsFreeHeap</a> or <a href="/windows/desktop/api/webservices/nf-webservices-wsresetheap">WsResetHeap</a>is called to release the specified heap resources.
 
 ## -returns
 
@@ -127,7 +127,7 @@ This function may return other errors not listed above.
 
 ## -remarks
 
-If the error object contains a fault (that is, the WS_FAULT_ERROR_PROPERTY_FAULT value of <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_fault_error_property_id">WS_FAULT_ERROR_PROPERTY_ID</a>   is non-<b>NULL</b>), then that fault is selected to construct the returned fault.
+If the error object contains a fault (that is, the WS_FAULT_ERROR_PROPERTY_FAULT value of <a href="/windows/desktop/api/webservices/ne-webservices-ws_fault_error_property_id">WS_FAULT_ERROR_PROPERTY_ID</a>   is non-<b>NULL</b>), then that fault is selected to construct the returned fault.
 
 If the error object does not contain a fault (WS_FAULT_ERROR_PROPERTY_FAULT is <b>NULL</b>),  a generic fault with a generic fault code (and no reason text) is selected to construct the returned fault. 
 
@@ -148,5 +148,4 @@ If the selected fault does not include any reason text,  the fault reason
 By default, the
                 language of any language-dependent information in the error object is  the current 
                 user default UI language. However, you can change the language by setting 
-                the WS_ERROR_PROPERTY_LANGID property. See the the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_error_property_id">WS_ERROR_PROPERTY_ID</a> enumeration.
-
+                the WS_ERROR_PROPERTY_LANGID property. See the the <a href="/windows/desktop/api/webservices/ne-webservices-ws_error_property_id">WS_ERROR_PROPERTY_ID</a> enumeration.

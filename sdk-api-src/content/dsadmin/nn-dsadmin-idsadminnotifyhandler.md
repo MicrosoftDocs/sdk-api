@@ -50,11 +50,11 @@ api_name:
 
 ## -description
 
-The <b>IDsAdminNotifyHandler</b> interface is implemented by an Active Directory administrative notification handler. This interface is used by the Active Directory Users and Computers MMC snap-in to notify registered handlers when certain events, such as deleting or renaming an object, occur. The snap-in creates an instance of this object by calling <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance">CoCreateInstance</a> with the CLSID of the extension.
+The <b>IDsAdminNotifyHandler</b> interface is implemented by an Active Directory administrative notification handler. This interface is used by the Active Directory Users and Computers MMC snap-in to notify registered handlers when certain events, such as deleting or renaming an object, occur. The snap-in creates an instance of this object by calling <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance">CoCreateInstance</a> with the CLSID of the extension.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDsAdminNotifyHandler</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDsAdminNotifyHandler</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDsAdminNotifyHandler</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDsAdminNotifyHandler</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IDsAdminNotifyHandler</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dsadmin/nf-dsadmin-idsadminnotifyhandler-begin">Begin</a>
+<a href="/windows/desktop/api/dsadmin/nf-dsadmin-idsadminnotifyhandler-begin">Begin</a>
 </td>
 <td align="left" width="63%">
 Called when an event, that the notification handler has requested, occurs.
@@ -78,7 +78,7 @@ Called when an event, that the notification handler has requested, occurs.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dsadmin/nf-dsadmin-idsadminnotifyhandler-end">End</a>
+<a href="/windows/desktop/api/dsadmin/nf-dsadmin-idsadminnotifyhandler-end">End</a>
 </td>
 <td align="left" width="63%">
 Called after the notification event has occurred. This method is called even if the notification process is canceled.
@@ -87,7 +87,7 @@ Called after the notification event has occurred. This method is called even if 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dsadmin/nf-dsadmin-idsadminnotifyhandler-initialize">Initialize</a>
+<a href="/windows/desktop/api/dsadmin/nf-dsadmin-idsadminnotifyhandler-initialize">Initialize</a>
 </td>
 <td align="left" width="63%">
 Called to initialize the  notification  handler.
@@ -96,7 +96,7 @@ Called to initialize the  notification  handler.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dsadmin/nf-dsadmin-idsadminnotifyhandler-notify">Notify</a>
+<a href="/windows/desktop/api/dsadmin/nf-dsadmin-idsadminnotifyhandler-notify">Notify</a>
 </td>
 <td align="left" width="63%">
 Called once for each object after the confirmation dialog box has been displayed and the notification handler was selected in the confirmation dialog box.
@@ -107,5 +107,4 @@ Called once for each object after the confirmation dialog box has been displayed
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance">CoCreateInstance</a>
-
+<a href="/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance">CoCreateInstance</a>

@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-A list of Server Principal Names (SPNs) that are used to validate <a href="https://docs.microsoft.com/windows/desktop/wsw/extended-protection">Extended Protection</a>. 
+A list of Server Principal Names (SPNs) that are used to validate <a href="/windows/desktop/wsw/extended-protection">Extended Protection</a>. 
             
 
 Only available on the server.
@@ -66,4 +66,3 @@ A array of strings representing the SPNs accepted by the server. Wildcards are n
 ### -field serviceIdentityCount
 
 The number of strings in serviceIdentities.
-

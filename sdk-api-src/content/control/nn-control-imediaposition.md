@@ -54,7 +54,7 @@ api_name:
 The <b>IMediaPosition</b> interface contains methods for seeking to a position within a stream. 
 
 
-<div class="alert"><b>Note</b>  Applications should use <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-imediaseeking">IMediaSeeking</a> instead of <b>IMediaPosition</b>. </div>
+<div class="alert"><b>Note</b>  Applications should use <a href="/windows/desktop/api/strmif/nn-strmif-imediaseeking">IMediaSeeking</a> instead of <b>IMediaPosition</b>. </div>
 <div> </div>
 
 
@@ -64,7 +64,7 @@ If one of the distributed calls returns an error, the Filter Graph Manager retur
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMediaPosition</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IMediaPosition</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMediaPosition</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IMediaPosition</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -79,7 +79,7 @@ The <b>IMediaPosition</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/control/nf-control-imediaposition-canseekbackward">CanSeekBackward</a>
+<a href="/windows/desktop/api/control/nf-control-imediaposition-canseekbackward">CanSeekBackward</a>
 </td>
 <td align="left" width="63%">
 Determines whether the filter graph can seek backward in the stream.
@@ -88,7 +88,7 @@ Determines whether the filter graph can seek backward in the stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/control/nf-control-imediaposition-canseekforward">CanSeekForward</a>
+<a href="/windows/desktop/api/control/nf-control-imediaposition-canseekforward">CanSeekForward</a>
 </td>
 <td align="left" width="63%">
 Determines whether the filter graph can seek forward in the stream.
@@ -97,7 +97,7 @@ Determines whether the filter graph can seek forward in the stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/control/nf-control-imediaposition-get_currentposition">get_CurrentPosition</a>
+<a href="/windows/desktop/api/control/nf-control-imediaposition-get_currentposition">get_CurrentPosition</a>
 </td>
 <td align="left" width="63%">
 Retrieves the current position, relative to the total duration of the stream.
@@ -106,7 +106,7 @@ Retrieves the current position, relative to the total duration of the stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/control/nf-control-imediaposition-get_duration">get_Duration</a>
+<a href="/windows/desktop/api/control/nf-control-imediaposition-get_duration">get_Duration</a>
 </td>
 <td align="left" width="63%">
 Retrieves the duration of the stream.
@@ -115,7 +115,7 @@ Retrieves the duration of the stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/control/nf-control-imediaposition-get_prerolltime">get_PrerollTime</a>
+<a href="/windows/desktop/api/control/nf-control-imediaposition-get_prerolltime">get_PrerollTime</a>
 </td>
 <td align="left" width="63%">
 Retrieves the amount of data that will be queued before the start position.
@@ -124,7 +124,7 @@ Retrieves the amount of data that will be queued before the start position.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/control/nf-control-imediaposition-get_rate">get_Rate</a>
+<a href="/windows/desktop/api/control/nf-control-imediaposition-get_rate">get_Rate</a>
 </td>
 <td align="left" width="63%">
 Retrieves the playback rate.
@@ -133,7 +133,7 @@ Retrieves the playback rate.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/control/nf-control-imediaposition-get_stoptime">get_StopTime</a>
+<a href="/windows/desktop/api/control/nf-control-imediaposition-get_stoptime">get_StopTime</a>
 </td>
 <td align="left" width="63%">
 Retrieves the time at which the playback will stop, relative to the duration of the stream.
@@ -142,7 +142,7 @@ Retrieves the time at which the playback will stop, relative to the duration of 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/control/nf-control-imediaposition-put_currentposition">put_CurrentPosition</a>
+<a href="/windows/desktop/api/control/nf-control-imediaposition-put_currentposition">put_CurrentPosition</a>
 </td>
 <td align="left" width="63%">
 Sets the current position, relative to the total duration of the stream.
@@ -151,7 +151,7 @@ Sets the current position, relative to the total duration of the stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/control/nf-control-imediaposition-put_prerolltime">put_PrerollTime</a>
+<a href="/windows/desktop/api/control/nf-control-imediaposition-put_prerolltime">put_PrerollTime</a>
 </td>
 <td align="left" width="63%">
 Sets the amount of data that will be queued before the start position.
@@ -160,7 +160,7 @@ Sets the amount of data that will be queued before the start position.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/control/nf-control-imediaposition-put_rate">put_Rate</a>
+<a href="/windows/desktop/api/control/nf-control-imediaposition-put_rate">put_Rate</a>
 </td>
 <td align="left" width="63%">
 Sets the playback rate.
@@ -169,7 +169,7 @@ Sets the playback rate.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/control/nf-control-imediaposition-put_stoptime">put_StopTime</a>
+<a href="/windows/desktop/api/control/nf-control-imediaposition-put_stoptime">put_StopTime</a>
 </td>
 <td align="left" width="63%">
 Sets the time at which the playback will stop, relative to the duration of the stream.
@@ -180,5 +180,4 @@ Sets the time at which the playback will stop, relative to the duration of the s
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
-
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>

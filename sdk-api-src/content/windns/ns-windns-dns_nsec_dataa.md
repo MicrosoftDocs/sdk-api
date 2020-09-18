@@ -74,7 +74,7 @@ Reserved. Do not use.
 
 ### -field TypeBitMaps
 
-A <b>BYTE</b> array that contains a bitmap that specifies which RR types are supported by the NSEC RR owner. Each bit in the array corresponds to a <a href="https://docs.microsoft.com/windows/desktop/DNS/dns-constants">DNS Record Type</a> as defined in section in section 4.1.2 of <a href="https://www.ietf.org/rfc/rfc4034.txt">RFC 4034</a>.
+A <b>BYTE</b> array that contains a bitmap that specifies which RR types are supported by the NSEC RR owner. Each bit in the array corresponds to a <a href="/windows/desktop/DNS/dns-constants">DNS Record Type</a> as defined in section in section 4.1.2 of <a href="https://www.ietf.org/rfc/rfc4034.txt">RFC 4034</a>.
 
 ## -remarks
 
@@ -91,9 +91,8 @@ The
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DNS/dns-structures">DNS Structures</a>
+<a href="/windows/desktop/DNS/dns-structures">DNS Structures</a>
 
 
 
 <a href="/windows/win32/api/windns/ns-windns-dns_recorda">DNS_RECORD</a>
-

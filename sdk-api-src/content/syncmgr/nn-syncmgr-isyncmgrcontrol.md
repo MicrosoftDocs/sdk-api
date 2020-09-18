@@ -54,7 +54,7 @@ Exposes methods that allow an application or handler to start or stop a synchron
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISyncMgrControl</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISyncMgrControl</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISyncMgrControl</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISyncMgrControl</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ISyncMgrControl</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrcontrol-activatehandler">ActivateHandler</a>
+<a href="/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrcontrol-activatehandler">ActivateHandler</a>
 </td>
 <td align="left" width="63%">
 Activates or deactivates a handler.
@@ -78,7 +78,7 @@ Activates or deactivates a handler.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrcontrol-enablehandler">EnableHandler</a>
+<a href="/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrcontrol-enablehandler">EnableHandler</a>
 </td>
 <td align="left" width="63%">
 Enables or disables a handler.
@@ -87,7 +87,7 @@ Enables or disables a handler.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrcontrol-enableitem">EnableItem</a>
+<a href="/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrcontrol-enableitem">EnableItem</a>
 </td>
 <td align="left" width="63%">
 Enables or disables a sync item managed by a specified handler.
@@ -96,7 +96,7 @@ Enables or disables a sync item managed by a specified handler.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrcontrol-starthandlersync">StartHandlerSync</a>
+<a href="/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrcontrol-starthandlersync">StartHandlerSync</a>
 </td>
 <td align="left" width="63%">
 Initiates the synchronization of all items managed by a particular handler.
@@ -105,7 +105,7 @@ Initiates the synchronization of all items managed by a particular handler.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrcontrol-startitemsync">StartItemSync</a>
+<a href="/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrcontrol-startitemsync">StartItemSync</a>
 </td>
 <td align="left" width="63%">
 Initiates the synchronization of specified items managed by a particular handler.
@@ -114,7 +114,7 @@ Initiates the synchronization of specified items managed by a particular handler
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrcontrol-startsyncall">StartSyncAll</a>
+<a href="/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrcontrol-startsyncall">StartSyncAll</a>
 </td>
 <td align="left" width="63%">
 Synchronizes all items managed by all handlers.
@@ -123,7 +123,7 @@ Synchronizes all items managed by all handlers.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrcontrol-stophandlersync">StopHandlerSync</a>
+<a href="/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrcontrol-stophandlersync">StopHandlerSync</a>
 </td>
 <td align="left" width="63%">
 Stops the synchronization of a specified handler.
@@ -132,7 +132,7 @@ Stops the synchronization of a specified handler.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrcontrol-stopitemsync">StopItemSync</a>
+<a href="/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrcontrol-stopitemsync">StopItemSync</a>
 </td>
 <td align="left" width="63%">
 Stops the synchronization of specified items managed by a particular handler.
@@ -141,7 +141,7 @@ Stops the synchronization of specified items managed by a particular handler.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrcontrol-stopsyncall">StopSyncAll</a>
+<a href="/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrcontrol-stopsyncall">StopSyncAll</a>
 </td>
 <td align="left" width="63%">
 Stops the synchronization of all items managed by all handlers.
@@ -150,7 +150,7 @@ Stops the synchronization of all items managed by all handlers.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrcontrol-updateconflicts">UpdateConflicts</a>
+<a href="/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrcontrol-updateconflicts">UpdateConflicts</a>
 </td>
 <td align="left" width="63%">
 Informs Sync Center that conflicts have been added for a specific handler or item.
@@ -159,7 +159,7 @@ Informs Sync Center that conflicts have been added for a specific handler or ite
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrcontrol-updateevents">UpdateEvents</a>
+<a href="/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrcontrol-updateevents">UpdateEvents</a>
 </td>
 <td align="left" width="63%">
 Informs Sync Center that events have been added for a specific handler or item.
@@ -168,7 +168,7 @@ Informs Sync Center that events have been added for a specific handler or item.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrcontrol-updatehandler">UpdateHandler</a>
+<a href="/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrcontrol-updatehandler">UpdateHandler</a>
 </td>
 <td align="left" width="63%">
 Instructs Sync Center to reenumerate the items managed by a handler or informs it that properties of the handler have changed.
@@ -177,7 +177,7 @@ Instructs Sync Center to reenumerate the items managed by a handler or informs i
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrcontrol-updatehandlercollection">UpdateHandlerCollection</a>
+<a href="/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrcontrol-updatehandlercollection">UpdateHandlerCollection</a>
 </td>
 <td align="left" width="63%">
 Instructs Sync Center to reenumerate the handler collection, or informs it that properties of a handler in the handler collection have changed.
@@ -186,7 +186,7 @@ Instructs Sync Center to reenumerate the handler collection, or informs it that 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrcontrol-updateitem">UpdateItem</a>
+<a href="/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrcontrol-updateitem">UpdateItem</a>
 </td>
 <td align="left" width="63%">
 Informs Sync Center that properties of a sync item have changed.
@@ -201,5 +201,4 @@ Informs Sync Center that properties of a sync item have changed.
 
 All methods of this interface queue their requests with Sync Center.
 
-<b>ISyncMgrControl</b> is a replacement for <a href="https://docs.microsoft.com/windows/desktop/api/mobsync/nn-mobsync-isyncmgrsynchronizeinvoke">ISyncMgrSynchronizeInvoke</a>.
-
+<b>ISyncMgrControl</b> is a replacement for <a href="/windows/desktop/api/mobsync/nn-mobsync-isyncmgrsynchronizeinvoke">ISyncMgrSynchronizeInvoke</a>.

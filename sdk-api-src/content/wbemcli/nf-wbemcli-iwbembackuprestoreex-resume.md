@@ -60,7 +60,7 @@ This method returns an <b>HRESULT</b> that indicates the status of a method call
 
 ## -remarks
 
-The <b>Resume</b> method should always be called when the <a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbembackuprestoreex-pause">Pause</a> method is called. <b>Resume</b> must be called on the same instance of <a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nn-wbemcli-iwbembackuprestoreex">IWbemBackUpRestoreEx</a> that the <b>Pause</b> method is implemented. Releasing the object without calling <b>Resume</b> automatically causes the <b>Resume</b> method to be implemented.
+The <b>Resume</b> method should always be called when the <a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbembackuprestoreex-pause">Pause</a> method is called. <b>Resume</b> must be called on the same instance of <a href="/windows/desktop/api/wbemcli/nn-wbemcli-iwbembackuprestoreex">IWbemBackUpRestoreEx</a> that the <b>Pause</b> method is implemented. Releasing the object without calling <b>Resume</b> automatically causes the <b>Resume</b> method to be implemented.
 
 <div class="alert"><b>Note</b>  To implement the <b>Resume</b> method, the client user must have <b>SE_BACKUP_NAME</b> prior to calling the method.</div>
 <div> </div>
@@ -77,5 +77,4 @@ pInt->Resume();
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nn-wbemcli-iwbembackuprestoreex">IWbemBackupRestoreEx</a>
-
+<a href="/windows/desktop/api/wbemcli/nn-wbemcli-iwbembackuprestoreex">IWbemBackupRestoreEx</a>

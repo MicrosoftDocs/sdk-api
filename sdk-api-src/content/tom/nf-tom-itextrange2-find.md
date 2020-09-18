@@ -56,7 +56,7 @@ Searchs for math inline functions in text as specified by a source range.
 
 ### -param pRange [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextrange2">ITextRange2</a>*</b>
+Type: <b><a href="/windows/desktop/api/tom/nn-tom-itextrange2">ITextRange2</a>*</b>
 
 The formatted text to find in the range's text.
 
@@ -70,7 +70,7 @@ The number of characters to search through.
 
 Type: <b>long</b>
 
-Flags that control the search as defined for <a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange-findtext">ITextRange::FindText</a>.
+Flags that control the search as defined for <a href="/windows/desktop/api/tom/nf-tom-itextrange-findtext">ITextRange::FindText</a>.
 
 ### -param pDelta [out]
 
@@ -80,7 +80,7 @@ A count of the number of characters bypassed.
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 If the method succeeds, it returns <b>NOERROR</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
@@ -92,5 +92,4 @@ If the string isn't found, the range remains unchanged and length is set equal t
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextrange2">ITextRange2</a>
-
+<a href="/windows/desktop/api/tom/nn-tom-itextrange2">ITextRange2</a>

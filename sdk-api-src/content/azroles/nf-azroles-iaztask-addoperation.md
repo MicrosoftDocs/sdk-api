@@ -51,13 +51,13 @@ api_name:
 
 ## -description
 
-The <b>AddOperation</b> method adds the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazoperation">IAzOperation</a> object with the specified name to the task.
+The <b>AddOperation</b> method adds the <a href="/windows/desktop/api/azroles/nn-azroles-iazoperation">IAzOperation</a> object with the specified name to the task.
 
 ## -parameters
 
 ### -param bstrOp [in]
 
-Name of the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazoperation">IAzOperation</a> object to add to the task.
+Name of the <a href="/windows/desktop/api/azroles/nn-azroles-iazoperation">IAzOperation</a> object to add to the task.
 
 ### -param varReserved [in, optional]
 
@@ -65,5 +65,4 @@ Reserved for future use.
 
 ## -remarks
 
-You must call the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iaztask-submit">Submit</a> method to persist any changes made by this method.
-
+You must call the <a href="/windows/desktop/api/azroles/nf-azroles-iaztask-submit">Submit</a> method to persist any changes made by this method.

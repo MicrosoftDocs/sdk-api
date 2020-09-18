@@ -75,8 +75,8 @@ Pointer to the new value for the modification time.
 ## -returns
 
 The <b>StgSetTimes</b> function can also return any file system errors or system errors wrapped in an <b>HRESULT</b>. See 
-<a href="https://docs.microsoft.com/windows/desktop/com/error-handling-strategies">Error Handling Strategies</a> and 
-<a href="https://docs.microsoft.com/windows/desktop/com/handling-unknown-errors">Handling Unknown Errors</a>.
+<a href="/windows/desktop/com/error-handling-strategies">Error Handling Strategies</a> and 
+<a href="/windows/desktop/com/handling-unknown-errors">Handling Unknown Errors</a>.
 
 ## -remarks
 
@@ -84,4 +84,3 @@ The
 <b>StgSetTimes</b> function sets the time values for the specified file. Each of the time value parameters can be <b>NULL</b>, indicating that no modification should occur.
 
 It is possible that one or more of these time values are not supported by the underlying file system. This function sets the times that can be set and ignores the rest.
-

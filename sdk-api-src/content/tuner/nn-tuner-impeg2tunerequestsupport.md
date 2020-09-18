@@ -49,21 +49,20 @@ api_name:
 
 ## -description
 
-Indicates that the default network provider for a tuning space allows tuning through the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-impeg2tunerequest">IMPEG2TuneRequest</a> interface as well as tuning through the native tuning request type implemented by that tuning space's <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-ituningspace-createtunerequest">CreateTuneRequest</a> method.
+Indicates that the default network provider for a tuning space allows tuning through the <a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-impeg2tunerequest">IMPEG2TuneRequest</a> interface as well as tuning through the native tuning request type implemented by that tuning space's <a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-ituningspace-createtunerequest">CreateTuneRequest</a> method.
 
-For example, the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/dvbtuningspace-object">DVBTuningSpace</a> object implements the <b>IMPEG2TuneRequestSupport</b> interface. This indicates that the default network provider for the <b>DVBTuningSpace</b> object supports tuning through both the object's native <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-ituningspace-createtunerequest">IDVBTuneRequest::CreateTuneRequest</a> method and the <b>IMPEG2TuneRequest::CreateTuneRequest</b> method. (In both cases, the tune request interfaces inherit the <b>CreateTuneRequest</b> method from the  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/bdatif/nn-bdatif-itunerequestinfo">ITuneRequest</a> interface).
+For example, the <a href="/previous-versions/windows/desktop/mstv/dvbtuningspace-object">DVBTuningSpace</a> object implements the <b>IMPEG2TuneRequestSupport</b> interface. This indicates that the default network provider for the <b>DVBTuningSpace</b> object supports tuning through both the object's native <a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-ituningspace-createtunerequest">IDVBTuneRequest::CreateTuneRequest</a> method and the <b>IMPEG2TuneRequest::CreateTuneRequest</b> method. (In both cases, the tune request interfaces inherit the <b>CreateTuneRequest</b> method from the  <a href="/previous-versions/windows/desktop/api/bdatif/nn-bdatif-itunerequestinfo">ITuneRequest</a> interface).
 
 The following tuning space objects support the <b>IMPEG2TuneRequestSupport</b> interface:
 <ul>
 <li>
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/dvbstuningspace-object">DVBSTuningSpace</a> object</li>
+<a href="/previous-versions/windows/desktop/mstv/dvbstuningspace-object">DVBSTuningSpace</a> object</li>
 <li>
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/dvbtuningspace-object">DVBTuningSpace</a> object</li>
+<a href="/previous-versions/windows/desktop/mstv/dvbtuningspace-object">DVBTuningSpace</a> object</li>
 <li>
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/atsctuningspace-object">ATSCTuningSpace</a> object</li>
+<a href="/previous-versions/windows/desktop/mstv/atsctuningspace-object">ATSCTuningSpace</a> object</li>
 </ul>
 
 ## -remarks
 
 To declare the interface identifier (IID) for this interface, use the <b>__uuidof</b> operator: <code>__uuidof(IMPEG2TuneRequestSupport)</code>.
-

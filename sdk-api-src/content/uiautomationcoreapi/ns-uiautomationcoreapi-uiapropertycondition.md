@@ -56,7 +56,7 @@ api_name:
 
 ### -field ConditionType
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcoreapi/ne-uiautomationcoreapi-conditiontype">ConditionType</a></b>
+Type: <b><a href="/windows/desktop/api/uiautomationcoreapi/ne-uiautomationcoreapi-conditiontype">ConditionType</a></b>
 
 A value indicating the type of the condition.
 
@@ -64,17 +64,16 @@ A value indicating the type of the condition.
 
 Type: <b>PROPERTYID</b>
 
-The identifier of the property to match. For a list of property IDs, see <a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-entry-propids">Property Identifiers</a>.
+The identifier of the property to match. For a list of property IDs, see <a href="/windows/desktop/WinAuto/uiauto-entry-propids">Property Identifiers</a>.
 
 ### -field Value
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinAuto/variant-structure">VARIANT</a></b>
+Type: <b><a href="/windows/desktop/WinAuto/variant-structure">VARIANT</a></b>
 
 The value that the property must have.
 
 ### -field Flags
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/ne-uiautomationclient-propertyconditionflags">PropertyConditionFlags</a></b>
+Type: <b><a href="/windows/desktop/api/uiautomationclient/ne-uiautomationclient-propertyconditionflags">PropertyConditionFlags</a></b>
 
 A value indicating how the condition is applied.
-

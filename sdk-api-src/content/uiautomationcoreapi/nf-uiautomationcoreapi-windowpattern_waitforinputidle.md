@@ -68,13 +68,13 @@ The number of milliseconds to wait before retrieving <i>pResult</i>.
 
 ### -param pResult [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BOOL</a>*</b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">BOOL</a>*</b>
 
 <b>TRUE</b> if the window is ready to accept user input; otherwise <b>FALSE</b>.
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 Returns S_OK if successful or an error value otherwise.
 
@@ -86,4 +86,3 @@ This method is typically used in conjunction with the handling of a WindowOpened
         therefore this method may return some time after the window is ready for user input. 
         The calling code should not rely on this method to ascertain exactly when the window has become idle. 
         Use the value of <i>pResult</i> to determine if the window is ready for input or if the method timed out.
-

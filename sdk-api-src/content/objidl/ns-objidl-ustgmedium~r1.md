@@ -42,13 +42,13 @@ api_name:
 
 ## -description
 
-Represents a generalized global memory handle used for data transfer operations by the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-iadvisesink">IAdviseSink</a>, <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-iolecache">IOleCache</a> interfaces.
+Represents a generalized global memory handle used for data transfer operations by the <a href="/windows/desktop/api/objidl/nn-objidl-iadvisesink">IAdviseSink</a>, <a href="/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a>, and <a href="/windows/desktop/api/oleidl/nn-oleidl-iolecache">IOleCache</a> interfaces.
 
 ## -struct-fields
 
 ### -field tymed
 
-The type of storage medium. The marshaling and unmarshaling routines use this value to determine which union member was used. This value must be one of the elements of the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ne-objidl-tymed">TYMED</a> enumeration.
+The type of storage medium. The marshaling and unmarshaling routines use this value to determine which union member was used. This value must be one of the elements of the <a href="/windows/desktop/api/objidl/ne-objidl-tymed">TYMED</a> enumeration.
 
 ### -field DUMMYUNIONNAME
 
@@ -76,33 +76,32 @@ Pointer to the path of a disk file that contains the data. The tymed member is T
 
 ### -field DUMMYUNIONNAME.pstm
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a> interface. The tymed member is TYMED_ISTREAM.
+Pointer to an <a href="/windows/desktop/api/objidl/nn-objidl-istream">IStream</a> interface. The tymed member is TYMED_ISTREAM.
 
 ### -field DUMMYUNIONNAME.pstg
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istorage">IStorage</a> interface. The tymed member is TYMED_ISTORAGE.
+Pointer to an <a href="/windows/desktop/api/objidl/nn-objidl-istorage">IStorage</a> interface. The tymed member is TYMED_ISTORAGE.
 
 ### -field pUnkForRelease
 
-Pointer to an interface instance that allows the sending process to control the way the storage is released when the receiving process calls the <a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-releasestgmedium">ReleaseStgMedium</a> function. If <i>pUnkForRelease</i> is <b>NULL</b>, <b>ReleaseStgMedium</b> uses default procedures to release the storage; otherwise, <b>ReleaseStgMedium</b> uses the specified IUnknown interface.
+Pointer to an interface instance that allows the sending process to control the way the storage is released when the receiving process calls the <a href="/windows/desktop/api/ole2/nf-ole2-releasestgmedium">ReleaseStgMedium</a> function. If <i>pUnkForRelease</i> is <b>NULL</b>, <b>ReleaseStgMedium</b> uses default procedures to release the storage; otherwise, <b>ReleaseStgMedium</b> uses the specified IUnknown interface.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-formatetc">FORMATETC</a>
+<a href="/windows/desktop/api/objidl/ns-objidl-formatetc">FORMATETC</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-iadvisesink">IAdviseSink</a>
+<a href="/windows/desktop/api/objidl/nn-objidl-iadvisesink">IAdviseSink</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a>
+<a href="/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-iolecache">IOleCache</a>
+<a href="/windows/desktop/api/oleidl/nn-oleidl-iolecache">IOleCache</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-releasestgmedium">ReleaseStgMedium</a>
-
+<a href="/windows/desktop/api/ole2/nf-ole2-releasestgmedium">ReleaseStgMedium</a>

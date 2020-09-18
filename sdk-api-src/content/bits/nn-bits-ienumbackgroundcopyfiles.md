@@ -53,11 +53,11 @@ api_name:
 Use the 
 <b>IEnumBackgroundCopyFiles</b> interface to enumerate the files that a job contains. To get an 
 <b>IEnumBackgroundCopyFiles</b> interface pointer, call the 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-enumfiles">IBackgroundCopyJob::EnumFiles</a> method.
+<a href="/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-enumfiles">IBackgroundCopyJob::EnumFiles</a> method.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumBackgroundCopyFiles</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEnumBackgroundCopyFiles</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumBackgroundCopyFiles</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEnumBackgroundCopyFiles</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,7 +72,7 @@ The <b>IEnumBackgroundCopyFiles</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/bits/nf-bits-ienumbackgroundcopyfiles-clone">Clone</a>
+<a href="/windows/desktop/api/bits/nf-bits-ienumbackgroundcopyfiles-clone">Clone</a>
 </td>
 <td align="left" width="63%">
 Creates another enumerator that contains the same enumeration state as the current enumerator.
@@ -81,7 +81,7 @@ Creates another enumerator that contains the same enumeration state as the curre
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/bits/nf-bits-ienumbackgroundcopyfiles-getcount">GetCount</a>
+<a href="/windows/desktop/api/bits/nf-bits-ienumbackgroundcopyfiles-getcount">GetCount</a>
 </td>
 <td align="left" width="63%">
 Retrieves the number of items in the enumeration.
@@ -90,7 +90,7 @@ Retrieves the number of items in the enumeration.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/bits/nf-bits-ienumbackgroundcopyfiles-next">Next</a>
+<a href="/windows/desktop/api/bits/nf-bits-ienumbackgroundcopyfiles-next">Next</a>
 </td>
 <td align="left" width="63%">
 Retrieves a specified number of items in the enumeration sequence.
@@ -99,7 +99,7 @@ Retrieves a specified number of items in the enumeration sequence.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/bits/nf-bits-ienumbackgroundcopyfiles-reset">Reset</a>
+<a href="/windows/desktop/api/bits/nf-bits-ienumbackgroundcopyfiles-reset">Reset</a>
 </td>
 <td align="left" width="63%">
 Resets the enumeration sequence to the beginning.
@@ -108,7 +108,7 @@ Resets the enumeration sequence to the beginning.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/bits/nf-bits-ienumbackgroundcopyfiles-skip">Skip</a>
+<a href="/windows/desktop/api/bits/nf-bits-ienumbackgroundcopyfiles-skip">Skip</a>
 </td>
 <td align="left" width="63%">
 Skips a specified number of items in the enumeration sequence.
@@ -119,9 +119,8 @@ Skips a specified number of items in the enumeration sequence.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-enumfiles">IBackgroundCopyJob::EnumFiles</a>
+<a href="/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-enumfiles">IBackgroundCopyJob::EnumFiles</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits/nn-bits-ienumbackgroundcopyjobs">IEnumBackgroundCopyJobs</a>
-
+<a href="/windows/desktop/api/bits/nn-bits-ienumbackgroundcopyjobs">IEnumBackgroundCopyJobs</a>

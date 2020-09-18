@@ -61,7 +61,7 @@ Pointer to the pin to query capabilities from.
 
 ### -param pCapsFlags [out]
 
-Pointer to a value representing a combination of the flags from the [VideoControlFlags](https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-videocontrolflags) enumeration.
+Pointer to a value representing a combination of the flags from the [VideoControlFlags](/windows/desktop/api/strmif/ne-strmif-videocontrolflags) enumeration.
 
 ## -returns
 
@@ -73,9 +73,8 @@ Possible capabilities include one or more of the following: flipping the picture
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iamvideocontrol">IAMVideoControl Interface</a>
-
+<a href="/windows/desktop/api/strmif/nn-strmif-iamvideocontrol">IAMVideoControl Interface</a>

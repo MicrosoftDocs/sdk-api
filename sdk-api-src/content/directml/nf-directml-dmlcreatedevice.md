@@ -56,9 +56,9 @@ Creates a DirectML device for a given Direct3D 12 device.
 
 ### -param d3d12Device
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12device">ID3D12Device</a>*</b>
+Type: <b><a href="/windows/desktop/api/d3d12/nn-d3d12-id3d12device">ID3D12Device</a>*</b>
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12device">ID3D12Device</a> representing the Direct3D 12 device to create the DirectML device over. DirectML supports any D3D feature level,
+A pointer to an <a href="/windows/desktop/api/d3d12/nn-d3d12-id3d12device">ID3D12Device</a> representing the Direct3D 12 device to create the DirectML device over. DirectML supports any D3D feature level,
       and Direct3D 12 devices created on any adapter, including WARP. However, not all features in DirectML may be
       available depending on the capabilities of the Direct3D 12 device. See [IDMLDevice::CheckFeatureSupport](/windows/desktop/api/directml/nf-directml-idmldevice-checkfeaturesupport) for more
       information.
@@ -93,4 +93,3 @@ If the function succeeds, it returns <b>S_OK</b>. Otherwise, it returns an [HRES
 To use the debug layers, developer mode must be enabled, and the DirectML
       debug layers must be installed. So, if the <b>DML_CREATE_DEVICE_FLAG_DEBUG</b> flag is specified in <i>flags</i> and either condition is
       not met, then <b>DMLCreateDevice</b> returns <b>DXGI_ERROR_SDK_COMPONENT_MISSING</b>.
-

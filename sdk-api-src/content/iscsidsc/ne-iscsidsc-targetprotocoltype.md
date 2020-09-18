@@ -62,5 +62,4 @@ The target uses the TCP protocol.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/iscsidsc/nf-iscsidsc-getiscsitargetinformationa">GetIScsiTargetInformation</a>
-
+<a href="/previous-versions/windows/desktop/api/iscsidsc/nf-iscsidsc-getiscsitargetinformationa">GetIScsiTargetInformation</a>

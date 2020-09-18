@@ -72,7 +72,7 @@ The y-coordinate, in device units, of the new brush origin. If this value is gre
 
 ### -param lppt [out]
 
-A pointer to a <a href="https://docs.microsoft.com/previous-versions/dd162805(v=vs.85)">POINT</a> structure that receives the previous brush origin.
+A pointer to a <a href="/previous-versions/dd162805(v=vs.85)">POINT</a> structure that receives the previous brush origin.
 
 This parameter can be <b>NULL</b> if the previous brush origin is not required.
 
@@ -90,35 +90,34 @@ The brush origin is a pair of coordinates specifying the location of one pixel i
 
 The system automatically tracks the origin of all window-managed device contexts and adjusts their brushes as necessary to maintain an alignment of patterns on the surface. The brush origin that is set with this call is relative to the upper-left corner of the client area.
 
-An application should call <b>SetBrushOrgEx</b> after setting the bitmap stretching mode to HALFTONE by using <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-setstretchbltmode">SetStretchBltMode</a>. This must be done to avoid brush misalignment.
+An application should call <b>SetBrushOrgEx</b> after setting the bitmap stretching mode to HALFTONE by using <a href="/windows/desktop/api/wingdi/nf-wingdi-setstretchbltmode">SetStretchBltMode</a>. This must be done to avoid brush misalignment.
 
 The system automatically tracks the origin of all window-managed device contexts and adjusts their brushes as necessary to maintain an alignment of patterns on the surface.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/brush-functions">Brush Functions</a>
+<a href="/windows/desktop/gdi/brush-functions">Brush Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/brushes">Brushes Overview</a>
+<a href="/windows/desktop/gdi/brushes">Brushes Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getbrushorgex">GetBrushOrgEx</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-getbrushorgex">GetBrushOrgEx</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/dd162805(v=vs.85)">POINT</a>
+<a href="/previous-versions/dd162805(v=vs.85)">POINT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-selectobject">SelectObject</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-selectobject">SelectObject</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-setstretchbltmode">SetStretchBltMode</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-setstretchbltmode">SetStretchBltMode</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-unrealizeobject">UnrealizeObject</a>
-
+<a href="/windows/desktop/api/wingdi/nf-wingdi-unrealizeobject">UnrealizeObject</a>

@@ -53,15 +53,15 @@ api_name:
 The 
 <b>ITStreamControl</b> interface represents the media streaming features of a call and exposes methods that allow an application to enumerate, create, or remove streams.
 
-If this interface exists, a TAPI application acquires a pointer to this interface by performing a <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> on any call interface, such as 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itcallinfo">ITCallInfo</a>. This interface is not available if an MSP is not involved in the current call session.
+If this interface exists, a TAPI application acquires a pointer to this interface by performing a <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> on any call interface, such as 
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itcallinfo">ITCallInfo</a>. This interface is not available if an MSP is not involved in the current call session.
 
 Internal to the TAPI DLL, this interface is implemented by the MSP's call object, which is created in the 
-<a href="https://docs.microsoft.com/windows/desktop/api/msp/nf-msp-itmspaddress-createmspcall">ITMSPAddress::CreateMSPCall</a> method. TAPI then aggregates this interface onto the TAPI call object and exposes it to TAPI applications.
+<a href="/windows/desktop/api/msp/nf-msp-itmspaddress-createmspcall">ITMSPAddress::CreateMSPCall</a> method. TAPI then aggregates this interface onto the TAPI call object and exposes it to TAPI applications.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITStreamControl</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITStreamControl</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITStreamControl</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITStreamControl</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -76,7 +76,7 @@ The <b>ITStreamControl</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itstreamcontrol-createstream">CreateStream</a>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itstreamcontrol-createstream">CreateStream</a>
 </td>
 <td align="left" width="63%">
 Creates a media stream.
@@ -85,7 +85,7 @@ Creates a media stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itstreamcontrol-enumeratestreams">EnumerateStreams</a>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itstreamcontrol-enumeratestreams">EnumerateStreams</a>
 </td>
 <td align="left" width="63%">
 Enumerates streams currently available.
@@ -94,7 +94,7 @@ Enumerates streams currently available.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itstreamcontrol-get_streams">get_Streams</a>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itstreamcontrol-get_streams">get_Streams</a>
 </td>
 <td align="left" width="63%">
 Creates a collection of streams currently available. Provided for Automation client applications, such as those written in Microsoft Visual Basic.
@@ -103,7 +103,7 @@ Creates a collection of streams currently available. Provided for Automation cli
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itstreamcontrol-removestream">RemoveStream</a>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itstreamcontrol-removestream">RemoveStream</a>
 </td>
 <td align="left" width="63%">
 Removes a media stream.
@@ -114,17 +114,16 @@ Removes a media stream.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itstream">ITStream</a>
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itstream">ITStream</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itsubstream">ITSubStream</a>
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itsubstream">ITSubStream</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itsubstreamcontrol">ITSubStreamControl</a>
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itsubstreamcontrol">ITSubStreamControl</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/media-service-provider-interface-mspi-">Media Service Provider Interface (MSPI)</a>
-
+<a href="/windows/desktop/Tapi/media-service-provider-interface-mspi-">Media Service Provider Interface (MSPI)</a>

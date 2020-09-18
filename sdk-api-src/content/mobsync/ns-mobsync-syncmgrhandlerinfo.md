@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-Provides information about the handler for use in the <a href="https://docs.microsoft.com/windows/desktop/api/mobsync/nf-mobsync-isyncmgrsynchronize-gethandlerinfo">ISyncMgrSynchronize::GetHandlerInfo</a> method.
+Provides information about the handler for use in the <a href="/windows/desktop/api/mobsync/nf-mobsync-isyncmgrsynchronize-gethandlerinfo">ISyncMgrSynchronize::GetHandlerInfo</a> method.
 
 ## -struct-fields
 
@@ -74,7 +74,7 @@ The icon for the handler.
 
 Type: <b>DWORD</b>
 
-The value of the <a href="https://docs.microsoft.com/windows/desktop/api/mobsync/ne-mobsync-syncmgrhandlerflags">SYNCMGRHANDLERFLAGS</a> enumeration.
+The value of the <a href="/windows/desktop/api/mobsync/ne-mobsync-syncmgrhandlerflags">SYNCMGRHANDLERFLAGS</a> enumeration.
 
 ### -field wszHandlerName
 
@@ -84,9 +84,8 @@ The name to use for the handler.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mobsync/nf-mobsync-isyncmgrsynchronize-gethandlerinfo">ISyncMgrSynchronize::GetHandlerInfo</a>
+<a href="/windows/desktop/api/mobsync/nf-mobsync-isyncmgrsynchronize-gethandlerinfo">ISyncMgrSynchronize::GetHandlerInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mobsync/ne-mobsync-syncmgrhandlerflags">SYNCMGRHANDLERFLAGS</a>
-
+<a href="/windows/desktop/api/mobsync/ne-mobsync-syncmgrhandlerflags">SYNCMGRHANDLERFLAGS</a>

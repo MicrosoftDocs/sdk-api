@@ -50,11 +50,11 @@ api_name:
 
 ## -description
 
-The <b>ISecurityObjectTypeInfo</b> interface provides a means of determining the source of inherited <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">access control entries</a> (ACEs) in <a href="https://docs.microsoft.com/windows/desktop/SecGloss/d-gly">discretionary access control lists</a> (DACLs) and <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">system access control lists</a> (SACLs).  The access control editor uses this information to communicate the inheritance source to the client.
+The <b>ISecurityObjectTypeInfo</b> interface provides a means of determining the source of inherited <a href="/windows/desktop/SecGloss/a-gly">access control entries</a> (ACEs) in <a href="/windows/desktop/SecGloss/d-gly">discretionary access control lists</a> (DACLs) and <a href="/windows/desktop/SecGloss/s-gly">system access control lists</a> (SACLs).  The access control editor uses this information to communicate the inheritance source to the client.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISecurityObjectTypeInfo</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISecurityObjectTypeInfo</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISecurityObjectTypeInfo</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISecurityObjectTypeInfo</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ISecurityObjectTypeInfo</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/aclui/nf-aclui-isecurityobjecttypeinfo-getinheritsource">GetInheritSource</a>
+<a href="/windows/desktop/api/aclui/nf-aclui-isecurityobjecttypeinfo-getinheritsource">GetInheritSource</a>
 </td>
 <td align="left" width="63%">
 Returns the inheritance source for the object.
@@ -80,9 +80,8 @@ Returns the inheritance source for the object.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/aclui/nn-aclui-ieffectivepermission">IEffectivePermission</a>
+<a href="/windows/desktop/api/aclui/nn-aclui-ieffectivepermission">IEffectivePermission</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/aclui/nn-aclui-isecurityinformation2">ISecurityInformation2</a>
-
+<a href="/windows/desktop/api/aclui/nn-aclui-isecurityinformation2">ISecurityInformation2</a>

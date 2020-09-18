@@ -149,24 +149,23 @@ If the function fails, the return value is zero.
 
 The values of the <i>dwRop</i> parameter for this function are a limited subset of the full 256 ternary raster-operation codes; in particular, an operation code that refers to a source rectangle cannot be used.
 
-Not all devices support the <b>PatBlt</b> function. For more information, see the description of the RC_BITBLT capability in the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getdevicecaps">GetDeviceCaps</a> function.
+Not all devices support the <b>PatBlt</b> function. For more information, see the description of the RC_BITBLT capability in the <a href="/windows/desktop/api/wingdi/nf-wingdi-getdevicecaps">GetDeviceCaps</a> function.
 
 
 #### Examples
 
-For an example, see "Example of Menu-Item Bitmaps" in <a href="https://docs.microsoft.com/windows/desktop/menurc/using-menus">Using Menus</a>.
+For an example, see "Example of Menu-Item Bitmaps" in <a href="/windows/desktop/menurc/using-menus">Using Menus</a>.
 
 <div class="code"></div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/brush-functions">Brush Functions</a>
+<a href="/windows/desktop/gdi/brush-functions">Brush Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/brushes">Brushes Overview</a>
+<a href="/windows/desktop/gdi/brushes">Brushes Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getdevicecaps">GetDeviceCaps</a>
-
+<a href="/windows/desktop/api/wingdi/nf-wingdi-getdevicecaps">GetDeviceCaps</a>

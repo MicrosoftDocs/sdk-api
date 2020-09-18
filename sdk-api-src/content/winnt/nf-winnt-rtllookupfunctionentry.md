@@ -82,9 +82,8 @@ If there is no entry in the function table for the specified PC, the function re
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/nf-winnt-rtlunwindex">RtlUnwindEx</a>
+<a href="/windows/desktop/api/winnt/nf-winnt-rtlunwindex">RtlUnwindEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/nf-winnt-rtlvirtualunwind">RtlVirtualUnwind</a>
-
+<a href="/windows/desktop/api/winnt/nf-winnt-rtlvirtualunwind">RtlVirtualUnwind</a>

@@ -96,28 +96,27 @@ The pin is an output pin.
 
 Call this method only on input pins. Output pins return E_UNEXPECTED.
 
-In a flush operation, a filter discards whatever data it was processing. It rejects new data until the flush is completed. The flush is completed when the upstream pin calls the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ipin-endflush">IPin::EndFlush</a> method. Flushing enables the filter graph to be more responsive when events alter the normal data flow. For example, flushing occurs during a seek.
+In a flush operation, a filter discards whatever data it was processing. It rejects new data until the flush is completed. The flush is completed when the upstream pin calls the <a href="/windows/desktop/api/strmif/nf-strmif-ipin-endflush">IPin::EndFlush</a> method. Flushing enables the filter graph to be more responsive when events alter the normal data flow. For example, flushing occurs during a seek.
 
 When <code>BeginFlush</code> is called, the filter performs the following steps:
 
 <ol>
 <li>Passes the <code>IPin::BeginFlush</code> call downstream.</li>
-<li>Sets an internal flag that causes all data-streaming methods to fail, such as <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-imeminputpin-receive">IMemInputPin::Receive</a>.</li>
-<li>Returns from any blocked calls to the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-imeminputpin-receive">Receive</a> method.</li>
+<li>Sets an internal flag that causes all data-streaming methods to fail, such as <a href="/windows/desktop/api/strmif/nf-strmif-imeminputpin-receive">IMemInputPin::Receive</a>.</li>
+<li>Returns from any blocked calls to the <a href="/windows/desktop/api/strmif/nf-strmif-imeminputpin-receive">Receive</a> method.</li>
 </ol>
 When the <code>BeginFlush</code> notification reaches a renderer filter, the renderer frees any samples that it holds.
 
-After <code>BeginFlush</code> is called, the pin rejects all samples from upstream, with a return value of S_FALSE, until the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ipin-endflush">IPin::EndFlush</a> method is called.
+After <code>BeginFlush</code> is called, the pin rejects all samples from upstream, with a return value of S_FALSE, until the <a href="/windows/desktop/api/strmif/nf-strmif-ipin-endflush">IPin::EndFlush</a> method is called.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/data-flow-in-the-filter-graph">Data Flow in the Filter Graph</a>
+<a href="/windows/desktop/DirectShow/data-flow-in-the-filter-graph">Data Flow in the Filter Graph</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ipin">IPin Interface</a>
-
+<a href="/windows/desktop/api/strmif/nn-strmif-ipin">IPin Interface</a>

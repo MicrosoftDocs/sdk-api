@@ -57,7 +57,7 @@ api_name:
 ## -description
 
 The <b>UNIVERSAL_NAME_INFO</b> structure contains information about the UNC form of a universal name. It is used by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/npapi/nf-npapi-npgetuniversalname">NPGetUniversalName</a> function.
+<a href="/windows/desktop/api/npapi/nf-npapi-npgetuniversalname">NPGetUniversalName</a> function.
 
 ## -struct-fields
 
@@ -69,4 +69,3 @@ If the provider supports a universal name, it will return that here.
 
 > [!NOTE]
 > The winnetwk.h header defines UNIVERSAL_NAME_INFO as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

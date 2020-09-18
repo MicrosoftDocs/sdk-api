@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Stops a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/s-gly">service</a> identified by a handle. The <b>PRESUTIL_STOP_SERVICE</b> type defines a pointer to this function.
+Stops a <a href="/previous-versions/windows/desktop/mscs/s-gly">service</a> identified by a handle. The <b>PRESUTIL_STOP_SERVICE</b> type defines a pointer to this function.
 
 ## -parameters
 
@@ -63,7 +63,7 @@ Handle of the service to stop.
 If the operation succeeds, the function returns <b>ERROR_SUCCESS</b>.
 
 If the operation fails, 
-the function returns a <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a>. The following is a possible error code.
+the function returns a <a href="/windows/desktop/Debug/system-error-codes">system error code</a>. The following is a possible error code.
 
 <table>
 <tr>
@@ -86,4 +86,3 @@ Service did not stop after a reasonable number of retries.
 ## -remarks
 
 The  <b>ResUtilStopService</b> utility function closes the handle specified in <i>hServiceHandle</i> when it stops the service.
-

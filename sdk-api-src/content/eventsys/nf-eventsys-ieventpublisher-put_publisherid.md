@@ -59,5 +59,4 @@ This property is write-only.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/eventsys/nn-eventsys-ieventpublisher">IEventPublisher</a>
-
+<a href="/windows/desktop/api/eventsys/nn-eventsys-ieventpublisher">IEventPublisher</a>

@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>OnDefaultDeviceChanged</b> method notifies the client that the default audio endpoint device for a particular <a href="https://docs.microsoft.com/windows/desktop/CoreAudio/device-roles">device role</a> has changed.
+The <b>OnDefaultDeviceChanged</b> method notifies the client that the default audio endpoint device for a particular <a href="/windows/desktop/CoreAudio/device-roles">device role</a> has changed.
 
 ## -parameters
 
@@ -76,7 +76,7 @@ eCommunications
 
 ### -param pwstrDefaultDeviceId [in]
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/CoreAudio/endpoint-id-strings">endpoint ID string</a> that identifies the audio endpoint device. This parameter points to a null-terminated, wide-character string containing the endpoint ID. The string remains valid for the duration of the call. If the user has removed or disabled the default device for a particular role, and no other device is available to assume that role, then <i>pwstrDefaultDevice</i> is <b>NULL</b>.
+Pointer to the <a href="/windows/desktop/CoreAudio/endpoint-id-strings">endpoint ID string</a> that identifies the audio endpoint device. This parameter points to a null-terminated, wide-character string containing the endpoint ID. The string remains valid for the duration of the call. If the user has removed or disabled the default device for a particular role, and no other device is available to assume that role, then <i>pwstrDefaultDevice</i> is <b>NULL</b>.
 
 ## -returns
 
@@ -88,11 +88,10 @@ The three input parameters specify the data-flow direction, device role, and end
 
 In Windows Vista, the MMDevice API supports device roles but the system-supplied user interface programs do not. The user interface in Windows Vista enables the user to select a default audio device for rendering and a default audio device for capture. When the user changes the default rendering or capture device, the system assigns all three device roles (eConsole, eMultimedia, and eCommunications) to the new device. Thus, when the user changes the default rendering or capture device, the system calls the client's <b>OnDefaultDeviceChanged</b> method three times—once for each of the three device roles.
 
-In a future version of Windows, the user interface might enable the user to assign individual roles to different devices. In that case, if the user changes the assignment of only one or two device roles to a new rendering or capture device, the system will call the client's <b>OnDefaultDeviceChanged</b> method only once or twice (that is, one call per changed role). Depending on how the <b>OnDefaultDeviceChanged</b> method responds to role changes, the behavior of an audio application developed to run in Windows Vista might change when run in a future version of Windows. For more information, see <a href="https://docs.microsoft.com/windows/desktop/CoreAudio/device-roles-in-windows-vista">Device Roles in Windows Vista</a>.
+In a future version of Windows, the user interface might enable the user to assign individual roles to different devices. In that case, if the user changes the assignment of only one or two device roles to a new rendering or capture device, the system will call the client's <b>OnDefaultDeviceChanged</b> method only once or twice (that is, one call per changed role). Depending on how the <b>OnDefaultDeviceChanged</b> method responds to role changes, the behavior of an audio application developed to run in Windows Vista might change when run in a future version of Windows. For more information, see <a href="/windows/desktop/CoreAudio/device-roles-in-windows-vista">Device Roles in Windows Vista</a>.
 
-For a code example that implements the <b>OnDefaultDeviceChanged</b> method, see <a href="https://docs.microsoft.com/windows/desktop/CoreAudio/device-events">Device Events</a>.
+For a code example that implements the <b>OnDefaultDeviceChanged</b> method, see <a href="/windows/desktop/CoreAudio/device-events">Device Events</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmdeviceapi/nn-mmdeviceapi-immnotificationclient">IMMNotificationClient Interface</a>
-
+<a href="/windows/desktop/api/mmdeviceapi/nn-mmdeviceapi-immnotificationclient">IMMNotificationClient Interface</a>

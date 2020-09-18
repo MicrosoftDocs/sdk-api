@@ -56,7 +56,7 @@ Represents package settings used to create a package.
 
 ### -field forceZip32
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
 
 <b>TRUE</b> if the package is created as Zip32; <b>FALSE</b> if the package is created as Zip64. The default is Zip64.
 
@@ -78,5 +78,4 @@ The possible values for <b>hashMethod</b> are: <ul>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxfactory-createpackagewriter">IAppxFactory::CreatePackageWriter</a>
-
+<a href="/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxfactory-createpackagewriter">IAppxFactory::CreatePackageWriter</a>

@@ -65,14 +65,14 @@ Retrieves information about the system's current usage of both physical and virt
 ### -param lpBuffer [in, out]
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/ns-sysinfoapi-memorystatusex">MEMORYSTATUSEX</a> structure that receives information about current memory availability.
+<a href="/windows/desktop/api/sysinfoapi/ns-sysinfoapi-memorystatusex">MEMORYSTATUSEX</a> structure that receives information about current memory availability.
 
 ## -returns
 
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
@@ -82,7 +82,7 @@ You can use the
 The information returned by the 
 <b>GlobalMemoryStatusEx</b> function is volatile. There is no guarantee that two sequential calls to this function will return the same information.
 
-The  <b>ullAvailPhys</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/ns-sysinfoapi-memorystatusex">MEMORYSTATUSEX</a> structure at <i>lpBuffer</i> includes memory for all NUMA nodes. 
+The  <b>ullAvailPhys</b> member of the <a href="/windows/desktop/api/sysinfoapi/ns-sysinfoapi-memorystatusex">MEMORYSTATUSEX</a> structure at <i>lpBuffer</i> includes memory for all NUMA nodes. 
 
 
 #### Examples
@@ -147,18 +147,17 @@ void _tmain()
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/ns-sysinfoapi-memorystatusex">MEMORYSTATUSEX</a>
+<a href="/windows/desktop/api/sysinfoapi/ns-sysinfoapi-memorystatusex">MEMORYSTATUSEX</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Memory/memory-management-functions">Memory
+<a href="/windows/desktop/Memory/memory-management-functions">Memory
 		  Management Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa965225(v=vs.85)">Memory Performance Information</a>
+<a href="/previous-versions/windows/desktop/legacy/aa965225(v=vs.85)">Memory Performance Information</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Memory/virtual-address-space-and-physical-storage">Virtual Address Space and Physical Storage</a>
-
+<a href="/windows/desktop/Memory/virtual-address-space-and-physical-storage">Virtual Address Space and Physical Storage</a>

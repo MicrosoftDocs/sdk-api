@@ -44,7 +44,7 @@ Specifies the input parameters for calls to [ID3D12VideoEncodeCommandList::Estim
 
 ### -field pInputTexture2D
 
-An [ID3D12Resource](/windows/win32/api/d3d12/nn-d3d12-id3d12resource) representing the current frame. The motion estimation operation applies to the entire frame.
+An [ID3D12Resource](../d3d12/nn-d3d12-id3d12resource.md) representing the current frame. The motion estimation operation applies to the entire frame.
 
 ### -field InputSubresourceIndex
 
@@ -52,7 +52,7 @@ The base plane of the MIP and array slice to use for the input.
 
 ### -field pReferenceTexture2D
 
-An [ID3D12Resource](/windows/win32/api/d3d12/nn-d3d12-id3d12resource) representing the reference frame, or past frame, used for motion estimation.
+An [ID3D12Resource](../d3d12/nn-d3d12-id3d12resource.md) representing the reference frame, or past frame, used for motion estimation.
 
 ### -field ReferenceSubresourceIndex
 
@@ -65,4 +65,3 @@ An [ID3D12VideoMotionVectorHeap](nn-d3d12video-id3d12videomotionvectorheap.md) r
 ## -remarks
 
 ## -see-also
-

@@ -473,6 +473,5 @@ This function writes the end of the message, including the element that closes t
                 tag and the envelope tag.
             
 
-The message must be in <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_message_state">WS_MESSAGE_STATE_WRITING</a> state.  Upon success, it will
+The message must be in <a href="/windows/desktop/api/webservices/ne-webservices-ws_message_state">WS_MESSAGE_STATE_WRITING</a> state.  Upon success, it will
                 transition to <b>WS_MESSAGE_STATE_DONE</b> state.
-

@@ -71,19 +71,18 @@ Specifies the number of ANSI characters supported.
 
 ## -returns
 
-If the glyph set is computed successfully, the function returns a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-fd_glyphset">FD_GLYPHSET</a> structure. If an error occurs, the function returns <b>NULL</b>.
+If the glyph set is computed successfully, the function returns a pointer to an <a href="/windows/desktop/api/winddi/ns-winddi-fd_glyphset">FD_GLYPHSET</a> structure. If an error occurs, the function returns <b>NULL</b>.
 
 ## -remarks
 
 A driver can use <b>EngComputeGlyphSet</b> to compute the glyph set for a font that contains only glyphs in the code page described by <i>nCodePage</i>.
 
-The driver must call <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engfreemem">EngFreeMem</a> to free memory when it is done using the FD_GLYPHSET structure returned by <b>EngComputeGlyphSet</b>.
+The driver must call <a href="/windows/desktop/api/winddi/nf-winddi-engfreemem">EngFreeMem</a> to free memory when it is done using the FD_GLYPHSET structure returned by <b>EngComputeGlyphSet</b>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engfreemem">EngFreeMem</a>
+<a href="/windows/desktop/api/winddi/nf-winddi-engfreemem">EngFreeMem</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-fd_glyphset">FD_GLYPHSET</a>
-
+<a href="/windows/desktop/api/winddi/ns-winddi-fd_glyphset">FD_GLYPHSET</a>

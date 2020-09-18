@@ -54,7 +54,7 @@ Enables applications and other objects to receive notifications of changes in th
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IProgressNotify</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IProgressNotify</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IProgressNotify</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IProgressNotify</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IProgressNotify</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-iprogressnotify-onprogress">OnProgress</a>
+<a href="/windows/desktop/api/objidl/nf-objidl-iprogressnotify-onprogress">OnProgress</a>
 </td>
 <td align="left" width="63%">
 Notifies registered objects and applications of the progress of a downloading operation.
@@ -80,5 +80,4 @@ Notifies registered objects and applications of the progress of a downloading op
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-iprogressnotify-onprogress">IProgressNotify::OnProgress</a>
-
+<a href="/windows/desktop/api/objidl/nf-objidl-iprogressnotify-onprogress">IProgressNotify::OnProgress</a>

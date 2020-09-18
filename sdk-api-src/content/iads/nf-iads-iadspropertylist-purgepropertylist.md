@@ -56,11 +56,11 @@ The <b>IADsPropertyList::PurgePropertyList</b> method deletes all items from the
 
 ## -returns
 
-This method supports the standard HRESULT return values, including S_OK. For more information and other return values, see  <a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-error-codes">ADSI Error Codes</a>.
+This method supports the standard HRESULT return values, including S_OK. For more information and other return values, see  <a href="/windows/desktop/ADSI/adsi-error-codes">ADSI Error Codes</a>.
 
 ## -remarks
 
-When the <b>PurgePropertyList</b> method is called, all the items are removed from the cache. Thus, calling  <a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadspropertylist-getpropertyitem">GetPropertyItem</a> after that will generate an error. Be aware that <b>PurgePropertyList</b> only affects the contents of the cache and does not affect the properties on the actual object in the directory; that is, calling  <a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iads-setinfo">SetInfo</a> after calling <b>PurgePropertyList</b> does not delete the properties on the directory object.
+When the <b>PurgePropertyList</b> method is called, all the items are removed from the cache. Thus, calling  <a href="/windows/desktop/api/iads/nf-iads-iadspropertylist-getpropertyitem">GetPropertyItem</a> after that will generate an error. Be aware that <b>PurgePropertyList</b> only affects the contents of the cache and does not affect the properties on the actual object in the directory; that is, calling  <a href="/windows/desktop/api/iads/nf-iads-iads-setinfo">SetInfo</a> after calling <b>PurgePropertyList</b> does not delete the properties on the directory object.
 
 
 #### Examples
@@ -92,7 +92,7 @@ Cleanup:
 ```
 
 
-The following code example shows the effect produced by a call to <b>IADsPropertyList::PurgePropertyList</b>.  For more information about the <b>GetPropertyCache</b>  function and a code example, see <a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadspropertylist">IADsPropertyList</a>.
+The following code example shows the effect produced by a call to <b>IADsPropertyList::PurgePropertyList</b>.  For more information about the <b>GetPropertyCache</b>  function and a code example, see <a href="/windows/desktop/api/iads/nn-iads-iadspropertylist">IADsPropertyList</a>.
 
 
 ```cpp
@@ -120,17 +120,16 @@ void TestPurgePropertyList()
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-error-codes">ADSI Error Codes</a>
+<a href="/windows/desktop/ADSI/adsi-error-codes">ADSI Error Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadspropertylist">IADsPropertyList</a>
+<a href="/windows/desktop/api/iads/nn-iads-iadspropertylist">IADsPropertyList</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/iadspropertylist-property-methods">IADsPropertyList Property Methods</a>
+<a href="/windows/desktop/ADSI/iadspropertylist-property-methods">IADsPropertyList Property Methods</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadspropertylist-getpropertyitem">IADsPropertyList::GetPropertyItem</a>
-
+<a href="/windows/desktop/api/iads/nf-iads-iadspropertylist-getpropertyitem">IADsPropertyList::GetPropertyItem</a>

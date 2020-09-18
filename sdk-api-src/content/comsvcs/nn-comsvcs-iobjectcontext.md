@@ -54,7 +54,7 @@ Provides access to the current object's context. An object's context is primaril
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IObjectContext</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IObjectContext</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IObjectContext</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IObjectContext</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IObjectContext</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-iobjectcontext-createinstance">CreateInstance</a>
+<a href="/windows/desktop/api/comsvcs/nf-comsvcs-iobjectcontext-createinstance">CreateInstance</a>
 </td>
 <td align="left" width="63%">
 Creates an object using current object's context.
@@ -78,7 +78,7 @@ Creates an object using current object's context.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-iobjectcontext-disablecommit">DisableCommit</a>
+<a href="/windows/desktop/api/comsvcs/nf-comsvcs-iobjectcontext-disablecommit">DisableCommit</a>
 </td>
 <td align="left" width="63%">
 Declares that the object's transactional updates are in an inconsistent state and cannot be committed in their present state.
@@ -87,7 +87,7 @@ Declares that the object's transactional updates are in an inconsistent state an
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-iobjectcontext-enablecommit">EnableCommit</a>
+<a href="/windows/desktop/api/comsvcs/nf-comsvcs-iobjectcontext-enablecommit">EnableCommit</a>
 </td>
 <td align="left" width="63%">
 Declares that the object's work is not necessarily finished but that its transactional updates are in a consistent state and could be committed in their present form.
@@ -96,7 +96,7 @@ Declares that the object's work is not necessarily finished but that its transac
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-iobjectcontext-iscallerinrole">IsCallerInRole</a>
+<a href="/windows/desktop/api/comsvcs/nf-comsvcs-iobjectcontext-iscallerinrole">IsCallerInRole</a>
 </td>
 <td align="left" width="63%">
 Indicates whether the object's direct caller is in a specified role (either directly or as part of a group).
@@ -105,7 +105,7 @@ Indicates whether the object's direct caller is in a specified role (either dire
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-iobjectcontext-isintransaction">IsInTransaction</a>
+<a href="/windows/desktop/api/comsvcs/nf-comsvcs-iobjectcontext-isintransaction">IsInTransaction</a>
 </td>
 <td align="left" width="63%">
 Indicates whether the object is executing within a transaction.
@@ -114,7 +114,7 @@ Indicates whether the object is executing within a transaction.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-iobjectcontext-issecurityenabled">IsSecurityEnabled</a>
+<a href="/windows/desktop/api/comsvcs/nf-comsvcs-iobjectcontext-issecurityenabled">IsSecurityEnabled</a>
 </td>
 <td align="left" width="63%">
 Indicates whether security is enabled for the current object. COM+ security is enabled unless the object is running in the client's process.
@@ -123,7 +123,7 @@ Indicates whether security is enabled for the current object. COM+ security is e
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-iobjectcontext-setabort">SetAbort</a>
+<a href="/windows/desktop/api/comsvcs/nf-comsvcs-iobjectcontext-setabort">SetAbort</a>
 </td>
 <td align="left" width="63%">
 Declares that the transaction in which the object is executing must be aborted and that the object should be deactivated when it returns from the currently executing method call.
@@ -132,7 +132,7 @@ Declares that the transaction in which the object is executing must be aborted a
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-iobjectcontext-setcomplete">SetComplete</a>
+<a href="/windows/desktop/api/comsvcs/nf-comsvcs-iobjectcontext-setcomplete">SetComplete</a>
 </td>
 <td align="left" width="63%">
 Declares that the transaction in which the object is executing can be committed and that the object should be deactivated when it returns from the currently executing method call.
@@ -147,9 +147,8 @@ As with any COM object, you must release an <b>IObjectContext</b> object when yo
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cogetobjectcontext">CoGetObjectContext</a>
+<a href="/windows/desktop/api/combaseapi/nf-combaseapi-cogetobjectcontext">CoGetObjectContext</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-getobjectcontext">GetObjectContext</a>
-
+<a href="/windows/desktop/api/comsvcs/nf-comsvcs-getobjectcontext">GetObjectContext</a>

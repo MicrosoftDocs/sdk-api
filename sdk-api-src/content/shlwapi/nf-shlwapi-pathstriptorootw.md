@@ -57,7 +57,7 @@ api_name:
 ## -description
 
 Removes all file and directory elements in a path except for the root information.
-<div class="alert"><b>Note</b>  Misuse of this function can lead to a buffer overrun. We recommend the use of the safer <a href="https://docs.microsoft.com/windows/desktop/api/pathcch/nf-pathcch-pathcchstriptoroot">PathCchStripToRoot</a> function in its place.</div><div> </div>
+<div class="alert"><b>Note</b>  Misuse of this function can lead to a buffer overrun. We recommend the use of the safer <a href="/windows/desktop/api/pathcch/nf-pathcch-pathcchstriptoroot">PathCchStripToRoot</a> function in its place.</div><div> </div>
 
 ## -parameters
 
@@ -77,4 +77,3 @@ Returns <b>TRUE</b> if a valid drive letter was found in the path, or <b>FALSE</
 
 > [!NOTE]
 > The shlwapi.h header defines PathStripToRoot as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-ienumtfinputprocessorprofiles-next">IEnumTfInputProcessorProfiles::Skip</a> method moves the current position forward in the enumeration sequence by the specified number of elements.
+The <a href="/windows/desktop/api/msctf/nf-msctf-ienumtfinputprocessorprofiles-next">IEnumTfInputProcessorProfiles::Skip</a> method moves the current position forward in the enumeration sequence by the specified number of elements.
 
 ## -parameters
 
@@ -90,4 +90,3 @@ The method reached the end of the enumeration before the specified number of ele
 </td>
 </tr>
 </table>
-

@@ -52,13 +52,13 @@ api_name:
 
 The <b>SetSimulatedProfileInfo</b> method applies a specific set of connection profile values to the internet connection profile in support of the simulation of specific metered internet connection conditions.
 
-The simulation only applies in an RDP Child Session and does not affect the primary user session.  The simulated internet connection profile is returned via the Windows Runtime API <a href="https://docs.microsoft.com/uwp/api/windows.networking.connectivity.networkinformation.getinternetconnectionprofile">GetInternetConnectionProfile</a>.
+The simulation only applies in an RDP Child Session and does not affect the primary user session.  The simulated internet connection profile is returned via the Windows Runtime API <a href="/uwp/api/windows.networking.connectivity.networkinformation.getinternetconnectionprofile">GetInternetConnectionProfile</a>.
 
 ## -parameters
 
 ### -param pSimulatedInfo
 
-Specific connection profile values to simulate on the current internet connection profile  when calling <a href="https://docs.microsoft.com/uwp/api/windows.networking.connectivity.networkinformation.getinternetconnectionprofile">GetInternetConnectionProfile</a> from an RDP Child Session
+Specific connection profile values to simulate on the current internet connection profile  when calling <a href="/uwp/api/windows.networking.connectivity.networkinformation.getinternetconnectionprofile">GetInternetConnectionProfile</a> from an RDP Child Session
 
 ## -returns
 
@@ -66,17 +66,16 @@ Returns S_OK on success.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/TermServ/child-sessions">Child Sessions (Windows)</a>
+<a href="/windows/desktop/TermServ/child-sessions">Child Sessions (Windows)</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/netlistmgr/nf-netlistmgr-inetworklistmanager-clearsimulatedprofileinfo">ClearSimulatedProfileInfo</a>
+<a href="/windows/desktop/api/netlistmgr/nf-netlistmgr-inetworklistmanager-clearsimulatedprofileinfo">ClearSimulatedProfileInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/netlistmgr/nn-netlistmgr-inetworklistmanager">INetworkListManager</a>
+<a href="/windows/desktop/api/netlistmgr/nn-netlistmgr-inetworklistmanager">INetworkListManager</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/netlistmgr/ns-netlistmgr-nlm_simulated_profile_info">NLM_SIMULATED_PROFILE_INFO</a>
-
+<a href="/windows/desktop/api/netlistmgr/ns-netlistmgr-nlm_simulated_profile_info">NLM_SIMULATED_PROFILE_INFO</a>

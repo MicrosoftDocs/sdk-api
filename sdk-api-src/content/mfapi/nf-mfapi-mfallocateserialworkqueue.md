@@ -61,7 +61,7 @@ The identifier of an existing work queue. This must be either a multithreaded qu
 <ul>
 <li>The default work queue (<b>MFASYNC_CALLBACK_QUEUE_STANDARD</b>)</li>
 <li>The platform multithreaded queue (<b>MFASYNC_CALLBACK_QUEUE_MULTITHREADED</b>)</li>
-<li>A multithreaded queue returned by the <a href="https://docs.microsoft.com/windows/desktop/api/mfapi/nf-mfapi-mflocksharedworkqueue">MFLockSharedWorkQueue</a>  function.</li>
+<li>A multithreaded queue returned by the <a href="/windows/desktop/api/mfapi/nf-mfapi-mflocksharedworkqueue">MFLockSharedWorkQueue</a>  function.</li>
 <li>A serial queue created by the <b>MFAllocateSerialWorkQueue</b> function.</li>
 </ul>
 
@@ -109,7 +109,7 @@ The application exceeded the maximum number of work queues.
 </dl>
 </td>
 <td width="60%">
-The application did not call <a href="https://docs.microsoft.com/windows/desktop/api/mfapi/nf-mfapi-mfstartup">MFStartup</a>, or the application has already called <a href="https://docs.microsoft.com/windows/desktop/api/mfapi/nf-mfapi-mfshutdown">MFShutdown</a>.
+The application did not call <a href="/windows/desktop/api/mfapi/nf-mfapi-mfstartup">MFStartup</a>, or the application has already called <a href="/windows/desktop/api/mfapi/nf-mfapi-mfshutdown">MFShutdown</a>.
               
 
 </td>
@@ -118,12 +118,12 @@ The application did not call <a href="https://docs.microsoft.com/windows/desktop
 
 ## -remarks
 
-When you are done using the work queue, call <a href="https://docs.microsoft.com/windows/desktop/api/mfapi/nf-mfapi-mfunlockworkqueue">MFUnlockWorkQueue</a>.
+When you are done using the work queue, call <a href="/windows/desktop/api/mfapi/nf-mfapi-mfunlockworkqueue">MFUnlockWorkQueue</a>.
 
 Multithreaded queues use a thread pool, which  can reduce the total number of threads in the pipeline. However, they do not serialize work items. A serial work queue enables the application to get the benefits of the thread pool, without needing to perform manual serialization of its own work items.
 
 <h3><a id="Reply_Mode"></a><a id="reply_mode"></a><a id="REPLY_MODE"></a>Reply Mode</h3>
-A serializer queue can also work in "reply" mode. If the caller’s <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfasynccallback-getparameters">IMFAsyncCallback::GetParameters</a> method returns the <b>MFASYNC_REPLY_CALLBACK</b> flag, the serializer queue does not automatically advance to the next work item. Instead, the queue waits for a reply from the caller. The caller signals the reply by invoking the asynchronous result object that the work queue passes to the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfasynccallback-invoke">Invoke</a> method. The following code illustrates how the caller signals the work queue.
+A serializer queue can also work in "reply" mode. If the caller’s <a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfasynccallback-getparameters">IMFAsyncCallback::GetParameters</a> method returns the <b>MFASYNC_REPLY_CALLBACK</b> flag, the serializer queue does not automatically advance to the next work item. Instead, the queue waits for a reply from the caller. The caller signals the reply by invoking the asynchronous result object that the work queue passes to the <a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfasynccallback-invoke">Invoke</a> method. The following code illustrates how the caller signals the work queue.
 
 
 ```cpp
@@ -150,9 +150,8 @@ HRESULT CCallback::GetParameters(DWORD *pdwFlags, DWORD *pdwQueue)
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>
+<a href="/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-work-queue-and-threading-improvements">Work Queue and Threading Improvements</a>
-
+<a href="/windows/desktop/medfound/media-foundation-work-queue-and-threading-improvements">Work Queue and Threading Improvements</a>

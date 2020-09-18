@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-The <b>Existing</b> property gets or sets a value that indicates whether the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">private key</a> already exists.
+The <b>Existing</b> property gets or sets a value that indicates whether the <a href="/windows/desktop/SecGloss/p-gly">private key</a> already exists.
 
 This property is read/write.
 
@@ -60,5 +60,4 @@ This property is read/write.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/casetup/nn-casetup-icertsrvsetupkeyinformation">ICertSrvSetupKeyInformation</a>
-
+<a href="/windows/desktop/api/casetup/nn-casetup-icertsrvsetupkeyinformation">ICertSrvSetupKeyInformation</a>

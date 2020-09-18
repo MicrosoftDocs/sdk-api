@@ -56,7 +56,7 @@ The <b>ITfRange::IsEqualStart</b> method verifies that the start anchor of this 
 
 ### -param ec [in]
 
-Edit cookie obtained from <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfdocumentmgr-createcontext">ITfDocumentMgr::CreateContext</a> or <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfeditsession-doeditsession">ITfEditSession::DoEditSession</a>.
+Edit cookie obtained from <a href="/windows/desktop/api/msctf/nf-msctf-itfdocumentmgr-createcontext">ITfDocumentMgr::CreateContext</a> or <a href="/windows/desktop/api/msctf/nf-msctf-itfeditsession-doeditsession">ITfEditSession::DoEditSession</a>.
 
 ### -param pWith [in]
 
@@ -154,38 +154,37 @@ The value of the <i>ec</i> parameter is an invalid cookie, or the caller does no
 
 ## -remarks
 
-This method is identical to, but more efficient than, <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfrange-comparestart">ITfRange::CompareStart</a>.
+This method is identical to, but more efficient than, <a href="/windows/desktop/api/msctf/nf-msctf-itfrange-comparestart">ITfRange::CompareStart</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfdocumentmgr-createcontext">ITfDocumentMgr::CreateContext
+<a href="/windows/desktop/api/msctf/nf-msctf-itfdocumentmgr-createcontext">ITfDocumentMgr::CreateContext
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfeditsession-doeditsession">ITfEditSession::DoEditSession
+<a href="/windows/desktop/api/msctf/nf-msctf-itfeditsession-doeditsession">ITfEditSession::DoEditSession
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfrange">ITfRange</a>
+<a href="/windows/desktop/api/msctf/nn-msctf-itfrange">ITfRange</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfrange-comparestart">ITfRange::CompareStart
+<a href="/windows/desktop/api/msctf/nf-msctf-itfrange-comparestart">ITfRange::CompareStart
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfrange-isequalend">ITfRange:IsEqualEnd
+<a href="/windows/desktop/api/msctf/nf-msctf-itfrange-isequalend">ITfRange:IsEqualEnd
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/TSF/text-stores">Text Stores</a>
+<a href="/windows/desktop/TSF/text-stores">Text Stores</a>
 
 
 
 <a href="/windows/win32/api/msctf/ne-msctf-tfanchor">TfAnchor
       </a>
-

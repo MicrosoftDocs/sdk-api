@@ -100,9 +100,8 @@ Specify this value to  indicate that the packet contains a path to a Boot Config
 
 ### -param phHandle [out]
 
-A pointer to the handle to the packet. This handle can be used by the <a href="https://docs.microsoft.com/windows/desktop/api/wdsbp/nf-wdsbp-wdsbpaddoption">WdsBpAddOption</a> function to add options for the WDS network boot program. After all the options have been added, use the <a href="https://docs.microsoft.com/windows/desktop/api/wdsbp/nf-wdsbp-wdsbpgetoptionbuffer">WdsBpGetOptionBuffer</a> function to add these to the DHCP options list sent to WDS network boot program. The handle must be closed using the <a href="https://docs.microsoft.com/windows/desktop/api/wdsbp/nf-wdsbp-wdsbpclosehandle">WdsBpCloseHandle</a> function.
+A pointer to the handle to the packet. This handle can be used by the <a href="/windows/desktop/api/wdsbp/nf-wdsbp-wdsbpaddoption">WdsBpAddOption</a> function to add options for the WDS network boot program. After all the options have been added, use the <a href="/windows/desktop/api/wdsbp/nf-wdsbp-wdsbpgetoptionbuffer">WdsBpGetOptionBuffer</a> function to add these to the DHCP options list sent to WDS network boot program. The handle must be closed using the <a href="/windows/desktop/api/wdsbp/nf-wdsbp-wdsbpclosehandle">WdsBpCloseHandle</a> function.
 
 ## -returns
 
 If the function succeeds, the return is <b>S_OK</b>.
-

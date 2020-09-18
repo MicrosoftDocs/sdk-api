@@ -50,15 +50,15 @@ api_name:
 
 ## -description
 
-Initializes an <a href="https://docs.microsoft.com/windows/desktop/api/shlobj/nn-shlobj-ishellfolderband">IShellFolderBand</a> object.
+Initializes an <a href="/windows/desktop/api/shlobj/nn-shlobj-ishellfolderband">IShellFolderBand</a> object.
 
 ## -parameters
 
 ### -param psf
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellfolder">IShellFolder</a>*</b>
+Type: <b><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellfolder">IShellFolder</a>*</b>
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellfolder">IShellFolder</a> object.
+A pointer to an <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellfolder">IShellFolder</a> object.
 
 ### -param pidl
 
@@ -74,9 +74,8 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellfolder">IShellFolder</a>
+<a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellfolder">IShellFolder</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shlobj/nn-shlobj-ishellfolderband">IShellFolderBand</a>
-
+<a href="/windows/desktop/api/shlobj/nn-shlobj-ishellfolderband">IShellFolderBand</a>

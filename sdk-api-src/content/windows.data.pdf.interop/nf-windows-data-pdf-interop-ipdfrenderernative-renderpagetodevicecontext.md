@@ -56,7 +56,7 @@ Outputs a single page of a Portable Document Format (PDF) file as a bitmap image
 
 ### -param pdfPage [in]
 
-The <b>IPdfPage</b> interface as an instance of the <a href="https://docs.microsoft.com/dotnet/api/pdfkit.pdfpage?view=xamarin-ios-sdk-12">PdfPage</a> class,  type-casted to the <b>IUnknown</b> interface, representing the page to be output.
+The <b>IPdfPage</b> interface as an instance of the <a href="/dotnet/api/pdfkit.pdfpage?view=xamarin-ios-sdk-12">PdfPage</a> class,  type-casted to the <b>IUnknown</b> interface, representing the page to be output.
 
 ### -param pD2DDeviceContext [in]
 
@@ -66,7 +66,7 @@ A set of state and command buffers for outputting the page as a bitmap image.
 
 A set of page output properties, such as rendering only a portion of the page, rendering a scaled version of the page, setting the page's background color, and whether the page is shown in high contrast mode. 
 
-Provide a null pointer for this parameter to specify default page output properties. For the list of defaults, see <a href="https://docs.microsoft.com/windows/desktop/api/windows.data.pdf.interop/ns-windows-data-pdf-interop-pdf_render_params">PDF_RENDER_PARAMS</a>.
+Provide a null pointer for this parameter to specify default page output properties. For the list of defaults, see <a href="/windows/desktop/api/windows.data.pdf.interop/ns-windows-data-pdf-interop-pdf_render_params">PDF_RENDER_PARAMS</a>.
 
 ## -returns
 
@@ -92,5 +92,4 @@ The page output operation succeeded.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/windows.data.pdf.interop/nn-windows-data-pdf-interop-ipdfrenderernative">IPdfRendererNative</a>
-
+<a href="/windows/desktop/api/windows.data.pdf.interop/nn-windows-data-pdf-interop-ipdfrenderernative">IPdfRendererNative</a>

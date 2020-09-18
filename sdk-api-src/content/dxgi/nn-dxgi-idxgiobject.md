@@ -56,7 +56,7 @@ An <b>IDXGIObject</b> interface is a base interface for all DXGI objects;
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDXGIObject</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDXGIObject</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDXGIObject</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDXGIObject</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>IDXGIObject</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nf-dxgi-idxgiobject-getparent">GetParent</a>
+<a href="/windows/desktop/api/dxgi/nf-dxgi-idxgiobject-getparent">GetParent</a>
 </td>
 <td align="left" width="63%">
 Gets the parent of the object.
@@ -80,7 +80,7 @@ Gets the parent of the object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nf-dxgi-idxgiobject-getprivatedata">GetPrivateData</a>
+<a href="/windows/desktop/api/dxgi/nf-dxgi-idxgiobject-getprivatedata">GetPrivateData</a>
 </td>
 <td align="left" width="63%">
 Get a pointer to the object's data.
@@ -89,7 +89,7 @@ Get a pointer to the object's data.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nf-dxgi-idxgiobject-setprivatedata">SetPrivateData</a>
+<a href="/windows/desktop/api/dxgi/nf-dxgi-idxgiobject-setprivatedata">SetPrivateData</a>
 </td>
 <td align="left" width="63%">
 Sets application-defined data to the object and associates that data with a GUID.
@@ -98,7 +98,7 @@ Sets application-defined data to the object and associates that data with a GUID
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nf-dxgi-idxgiobject-setprivatedatainterface">SetPrivateDataInterface</a>
+<a href="/windows/desktop/api/dxgi/nf-dxgi-idxgiobject-setprivatedatainterface">SetPrivateDataInterface</a>
 </td>
 <td align="left" width="63%">
 Set an interface in the object's private data.
@@ -114,16 +114,16 @@ Set an interface in the object's private data.
 
 <ul>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nn-dxgi-idxgiadapter">IDXGIAdapter</a>
+<a href="/windows/desktop/api/dxgi/nn-dxgi-idxgiadapter">IDXGIAdapter</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nn-dxgi-idxgidevice">IDXGIDevice</a>
+<a href="/windows/desktop/api/dxgi/nn-dxgi-idxgidevice">IDXGIDevice</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nn-dxgi-idxgifactory">IDXGIFactory</a>
+<a href="/windows/desktop/api/dxgi/nn-dxgi-idxgifactory">IDXGIFactory</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nn-dxgi-idxgioutput">IDXGIOutput</a>
+<a href="/windows/desktop/api/dxgi/nn-dxgi-idxgioutput">IDXGIOutput</a>
 </li>
 </ul>
 <b>Windows Phone 8:
@@ -131,9 +131,8 @@ Set an interface in the object's private data.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3ddxgi/d3d10-graphics-reference-dxgi-interfaces">DXGI Interfaces</a>
+<a href="/windows/desktop/direct3ddxgi/d3d10-graphics-reference-dxgi-interfaces">DXGI Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
-
+<a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>

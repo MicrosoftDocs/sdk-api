@@ -56,7 +56,7 @@ api_name:
 
 ## -description
 
-Contains information that is used to initialize the standard <b>Object Properties</b> dialog box. It contains references to interfaces used to gather information about the embedding or link, references to three structures that are used to initialize the default tabs - <b>General</b> (<a href="https://docs.microsoft.com/windows/desktop/api/oledlg/ns-oledlg-oleuignrlpropsa">OLEUIGNRLPROPS</a>), <b>View</b> (<a href="https://docs.microsoft.com/windows/desktop/api/oledlg/ns-oledlg-oleuiviewpropsa">OLEUIVIEWPROPS</a>), and <b>Link</b> (<a href="https://docs.microsoft.com/windows/desktop/api/oledlg/ns-oledlg-oleuilinkpropsa">OLEUILINKPROPS</a>), if appropriate - and a standard property-sheet extensibility interface that allows the caller to add additional custom property sheets to the dialog box.
+Contains information that is used to initialize the standard <b>Object Properties</b> dialog box. It contains references to interfaces used to gather information about the embedding or link, references to three structures that are used to initialize the default tabs - <b>General</b> (<a href="/windows/desktop/api/oledlg/ns-oledlg-oleuignrlpropsa">OLEUIGNRLPROPS</a>), <b>View</b> (<a href="/windows/desktop/api/oledlg/ns-oledlg-oleuiviewpropsa">OLEUIVIEWPROPS</a>), and <b>Link</b> (<a href="/windows/desktop/api/oledlg/ns-oledlg-oleuilinkpropsa">OLEUILINKPROPS</a>), if appropriate - and a standard property-sheet extensibility interface that allows the caller to add additional custom property sheets to the dialog box.
 
 ## -struct-fields
 
@@ -117,7 +117,7 @@ The <b>Convert</b> button will be disabled on the general property page.
 
 ### -field lpPS
 
-Pointer to the standard property sheet header (<a href="https://docs.microsoft.com/windows/desktop/api/prsht/ns-prsht-propsheetheadera_v2">PROPSHEETHEADER</a>), used for extensibility.
+Pointer to the standard property sheet header (<a href="/windows/desktop/api/prsht/ns-prsht-propsheetheadera_v2">PROPSHEETHEADER</a>), used for extensibility.
 
 ### -field dwObject
 
@@ -149,22 +149,21 @@ Pointer to the link page data.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/oledlg/ns-oledlg-oleuignrlpropsa">OLEUIGNRLPROPS</a>
+<a href="/windows/desktop/api/oledlg/ns-oledlg-oleuignrlpropsa">OLEUIGNRLPROPS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/oledlg/ns-oledlg-oleuilinkpropsa">OLEUILINKPROPS</a>
+<a href="/windows/desktop/api/oledlg/ns-oledlg-oleuilinkpropsa">OLEUILINKPROPS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/oledlg/ns-oledlg-oleuiviewpropsa">OLEUIVIEWPROPS</a>
+<a href="/windows/desktop/api/oledlg/ns-oledlg-oleuiviewpropsa">OLEUIVIEWPROPS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/oledlg/nf-oledlg-oleuiobjectpropertiesa">OleUIObjectProperties</a>
+<a href="/windows/desktop/api/oledlg/nf-oledlg-oleuiobjectpropertiesa">OleUIObjectProperties</a>
 
 ## -remarks
 
 > [!NOTE]
 > The oledlg.h header defines OLEUIOBJECTPROPS as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

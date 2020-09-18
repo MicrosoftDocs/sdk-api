@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>GetAssignedScopesPage</b> method retrieves a list of the scopes in which the client represented by the current <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazclientcontext2">IAzClientContext2</a> object is assigned to at least one role.
+The <b>GetAssignedScopesPage</b> method retrieves a list of the scopes in which the client represented by the current <a href="/windows/desktop/api/azroles/nn-azroles-iazclientcontext2">IAzClientContext2</a> object is assigned to at least one role.
 
 ## -parameters
 
@@ -92,11 +92,10 @@ On return, contains an array of variables of type <b>VARIANT</b>. Each element o
 
 If the method succeeds, the method returns S_OK.
 
-If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
+If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 ## -remarks
 
 If multiple threads access the same authorization store, a call to the  <b>GetAssignedScopesPage</b> method on one of the threads might not return accurate results if the other thread modifies the store.
 
-In  JScript, the returned <a href="https://docs.microsoft.com/windows/desktop/api/oaidl/ns-oaidl-safearray">SAFEARRAY</a> values must be converted to the JScript <a href="https://docs.microsoft.com/scripting/javascript/reference/array-object-javascript">Array</a> object.
-
+In  JScript, the returned <a href="/windows/desktop/api/oaidl/ns-oaidl-safearray">SAFEARRAY</a> values must be converted to the JScript <a href="/scripting/javascript/reference/array-object-javascript">Array</a> object.

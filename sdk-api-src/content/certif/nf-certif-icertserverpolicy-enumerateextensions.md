@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-The <b>EnumerateExtensions</b> method retrieves the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly">object identifier</a> (OID) of the current extension and moves the internal enumeration pointer to the next  extension.
+The <b>EnumerateExtensions</b> method retrieves the <a href="/windows/desktop/SecGloss/o-gly">object identifier</a> (OID) of the current extension and moves the internal enumeration pointer to the next  extension.
 
 ## -parameters
 
@@ -66,9 +66,9 @@ A pointer to a <b>BSTR</b> that contains the OID of the current extension.
 
 To use this method, create a variable of <b>BSTR</b> type, set the variable equal to <b>NULL</b>, and pass the address of this variable as <i>pstrExtensionName</i>.
 
-When you have finished using the <b>BSTR</b>, free it by calling the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a> function.
+When you have finished using the <b>BSTR</b>, free it by calling the <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a> function.
 
-If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
+If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 <h3>VB</h3>
  Returns a string that contains the OID of the extension, or an empty string if the last extension was already enumerated.
@@ -76,9 +76,9 @@ If the method fails, it returns an <b>HRESULT</b> value that indicates the error
 ## -remarks
 
 This method enumerates certificate extensions recorded in the database, even those that are disabled and do not appear in the certificate. To determine whether an extension is disabled, use 
-<a href="https://docs.microsoft.com/windows/desktop/api/certif/nf-certif-icertserverpolicy-getcertificateextensionflags">GetCertificateExtensionFlags</a> to test the extension's EXTENSION_DISABLE_FLAG bit.
+<a href="/windows/desktop/api/certif/nf-certif-icertserverpolicy-getcertificateextensionflags">GetCertificateExtensionFlags</a> to test the extension's EXTENSION_DISABLE_FLAG bit.
 
-When done enumerating, call the <a href="https://docs.microsoft.com/windows/desktop/api/certif/nf-certif-icertserverpolicy-enumerateextensionsclose">EnumerateExtensionsClose</a> method to free resources used by the enumeration calls.
+When done enumerating, call the <a href="/windows/desktop/api/certif/nf-certif-icertserverpolicy-enumerateextensionsclose">EnumerateExtensionsClose</a> method to free resources used by the enumeration calls.
 
 
 #### Examples
@@ -133,21 +133,20 @@ if (NULL != bstrExt)
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certif/nf-certif-icertserverpolicy-enumerateextensionsclose">EnumerateExtensionsClose</a>
+<a href="/windows/desktop/api/certif/nf-certif-icertserverpolicy-enumerateextensionsclose">EnumerateExtensionsClose</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certif/nf-certif-icertserverpolicy-enumerateextensionssetup">EnumerateExtensionsSetup</a>
+<a href="/windows/desktop/api/certif/nf-certif-icertserverpolicy-enumerateextensionssetup">EnumerateExtensionsSetup</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certif/nf-certif-icertserverpolicy-getcertificateextension">GetCertificateExtension</a>
+<a href="/windows/desktop/api/certif/nf-certif-icertserverpolicy-getcertificateextension">GetCertificateExtension</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certif/nf-certif-icertserverpolicy-getcertificateextensionflags">GetCertificateExtensionFlags</a>
+<a href="/windows/desktop/api/certif/nf-certif-icertserverpolicy-getcertificateextensionflags">GetCertificateExtensionFlags</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certif/nn-certif-icertserverpolicy">ICertServerPolicy</a>
-
+<a href="/windows/desktop/api/certif/nn-certif-icertserverpolicy">ICertServerPolicy</a>

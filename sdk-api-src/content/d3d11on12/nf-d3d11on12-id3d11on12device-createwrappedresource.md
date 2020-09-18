@@ -62,22 +62,22 @@ A pointer to an already-created D3D12 resource or heap.
 
 ### -param pFlags11 [in]
 
-Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/d3d11on12/ns-d3d11on12-d3d11_resource_flags">D3D11_RESOURCE_FLAGS</a>*</b>
+Type: <b>const <a href="/windows/desktop/api/d3d11on12/ns-d3d11on12-d3d11_resource_flags">D3D11_RESOURCE_FLAGS</a>*</b>
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/d3d11on12/ns-d3d11on12-d3d11_resource_flags">D3D11_RESOURCE_FLAGS</a> structure that enables an application to override flags that would be inferred by the resource/heap properties.
+A <a href="/windows/desktop/api/d3d11on12/ns-d3d11on12-d3d11_resource_flags">D3D11_RESOURCE_FLAGS</a> structure that enables an application to override flags that would be inferred by the resource/heap properties.
               The D3D11_RESOURCE_FLAGS structure contains bind flags, misc flags, and CPU access flags.
 
 ### -param InState
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_resource_states">D3D12_RESOURCE_STATES</a></b>
+Type: <b><a href="/windows/desktop/api/d3d12/ne-d3d12-d3d12_resource_states">D3D12_RESOURCE_STATES</a></b>
 
-The use of the resource on input, as a bitwise-OR'd combination of <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_resource_states">D3D12_RESOURCE_STATES</a> enumeration constants.
+The use of the resource on input, as a bitwise-OR'd combination of <a href="/windows/desktop/api/d3d12/ne-d3d12-d3d12_resource_states">D3D12_RESOURCE_STATES</a> enumeration constants.
 
 ### -param OutState
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_resource_states">D3D12_RESOURCE_STATES</a></b>
+Type: <b><a href="/windows/desktop/api/d3d12/ne-d3d12-d3d12_resource_states">D3D12_RESOURCE_STATES</a></b>
 
-The use of the resource on output, as a bitwise-OR'd combination of <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_resource_states">D3D12_RESOURCE_STATES</a> enumeration constants.
+The use of the resource on output, as a bitwise-OR'd combination of <a href="/windows/desktop/api/d3d12/ne-d3d12-d3d12_resource_states">D3D12_RESOURCE_STATES</a> enumeration constants.
 
 ### -param riid
 
@@ -85,7 +85,7 @@ Type: <b>REFIID</b>
 
 The globally unique identifier (<b>GUID</b>) for the wrapped resource interface.
             The <b>REFIID</b>, or <b>GUID</b>, of the interface to the wrapped resource can be obtained by using the __uuidof() macro.
-            For example, __uuidof(<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12resource">ID3D12Resource</a>) will get the <b>GUID</b> of the interface to a wrapped resource.
+            For example, __uuidof(<a href="/windows/desktop/api/d3d12/nn-d3d12-id3d12resource">ID3D12Resource</a>) will get the <b>GUID</b> of the interface to a wrapped resource.
 
 ### -param ppResource11 [out, optional]
 
@@ -97,9 +97,8 @@ After the method returns, points to the newly created wrapped D3D11 resource or 
 
 Type: <b><a href="/windows/win32/com/structure-of-com-error-codes">HRESULT</a></b>
 
-This method returns one of the <a href="https://docs.microsoft.com/windows/desktop/direct3d12/d3d12-graphics-reference-returnvalues">Direct3D 12 Return Codes</a>.
+This method returns one of the <a href="/windows/desktop/direct3d12/d3d12-graphics-reference-returnvalues">Direct3D 12 Return Codes</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11on12/nn-d3d11on12-id3d11on12device">ID3D11On12Device</a>
-
+<a href="/windows/desktop/api/d3d11on12/nn-d3d11on12-id3d11on12device">ID3D11On12Device</a>

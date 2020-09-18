@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-Contains definitions of the tab positions for <a href="https://docs.microsoft.com/windows/desktop/api/usp10/nf-usp10-scriptstringanalyse">ScriptStringAnalyse</a>.
+Contains definitions of the tab positions for <a href="/windows/desktop/api/usp10/nf-usp10-scriptstringanalyse">ScriptStringAnalyse</a>.
 
 ## -struct-fields
 
@@ -93,17 +93,16 @@ Initial offset, in logical units, for tab stops. Tabs start <b>iTabOrigin</b> lo
 
 ## -remarks
 
-This structure is ignored unless the <i>dwFlags</i> parameter is set to SSA_TAB in the       <a href="https://docs.microsoft.com/windows/desktop/api/usp10/nf-usp10-scriptstringanalyse">ScriptStringAnalyse</a> function.
+This structure is ignored unless the <i>dwFlags</i> parameter is set to SSA_TAB in the       <a href="/windows/desktop/api/usp10/nf-usp10-scriptstringanalyse">ScriptStringAnalyse</a> function.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/usp10/nf-usp10-scriptstringanalyse">ScriptStringAnalyse</a>
+<a href="/windows/desktop/api/usp10/nf-usp10-scriptstringanalyse">ScriptStringAnalyse</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/uniscribe">Uniscribe</a>
+<a href="/windows/desktop/Intl/uniscribe">Uniscribe</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/uniscribe-structures">Uniscribe Structures</a>
-
+<a href="/windows/desktop/Intl/uniscribe-structures">Uniscribe Structures</a>

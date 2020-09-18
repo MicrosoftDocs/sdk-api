@@ -56,7 +56,7 @@ The <code>GetVPDataInfo</code> method retrieves the current video port data info
 
 ### -param pamvpDataInfo [in, out]
 
-Pointer to an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/vptype/ns-vptype-amvpdatainfo">AMVPDATAINFO</a> structure allocated by the caller. The device fills in the structure with information about the video port.
+Pointer to an <a href="/previous-versions/windows/desktop/api/vptype/ns-vptype-amvpdatainfo">AMVPDATAINFO</a> structure allocated by the caller. The device fills in the structure with information about the video port.
 
 ## -returns
 
@@ -68,9 +68,8 @@ Include Dvp.h and Vptype.h before Vpconfig.h.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vpconfig/nn-vpconfig-ivpbaseconfig">IVPBaseConfig Interface</a>
-
+<a href="/windows/desktop/api/vpconfig/nn-vpconfig-ivpbaseconfig">IVPBaseConfig Interface</a>

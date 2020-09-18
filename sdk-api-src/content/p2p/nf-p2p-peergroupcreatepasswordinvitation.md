@@ -56,13 +56,13 @@ The <b>PeerGroupCreatePasswordInvitation</b> function returns an XML string that
 
 ### -param hGroup [in]
 
-Handle to the peer group for which this invitation is issued. This handle is returned by the <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergroupcreate">PeerGroupCreate</a>, <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergroupopen">PeerGroupOpen</a>, or <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergroupjoin">PeerGroupJoin</a> function. This parameter is required.
+Handle to the peer group for which this invitation is issued. This handle is returned by the <a href="/windows/desktop/api/p2p/nf-p2p-peergroupcreate">PeerGroupCreate</a>, <a href="/windows/desktop/api/p2p/nf-p2p-peergroupopen">PeerGroupOpen</a>, or <a href="/windows/desktop/api/p2p/nf-p2p-peergroupjoin">PeerGroupJoin</a> function. This parameter is required.
 
 ### -param ppwzInvitation [out]
 
-Pointer to a Unicode string that contains the invitation from the issuer. This invitation can be passed to <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergrouppasswordjoin">PeerGroupPasswordJoin</a> by the recipient in order to join the specified peer group. To return the details of the invitation as a <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_invitation_info">PEER_INVITATION_INFO</a> structure, pass this string to <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergroupparseinvitation">PeerGroupParseInvitation</a>. To release this data, pass this pointer to <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peerfreedata">PeerFreeData</a>.
+Pointer to a Unicode string that contains the invitation from the issuer. This invitation can be passed to <a href="/windows/desktop/api/p2p/nf-p2p-peergrouppasswordjoin">PeerGroupPasswordJoin</a> by the recipient in order to join the specified peer group. To return the details of the invitation as a <a href="/windows/desktop/api/p2p/ns-p2p-peer_invitation_info">PEER_INVITATION_INFO</a> structure, pass this string to <a href="/windows/desktop/api/p2p/nf-p2p-peergroupparseinvitation">PeerGroupParseInvitation</a>. To release this data, pass this pointer to <a href="/windows/desktop/api/p2p/nf-p2p-peerfreedata">PeerFreeData</a>.
 
-This function requires that the following fields are set on the <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_group_properties">PEER_GROUP_PROPERTIES</a> structure passed to <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergroupcreate">PeerGroupCreate</a>.<ul>
+This function requires that the following fields are set on the <a href="/windows/desktop/api/p2p/ns-p2p-peer_group_properties">PEER_GROUP_PROPERTIES</a> structure passed to <a href="/windows/desktop/api/p2p/nf-p2p-peergroupcreate">PeerGroupCreate</a>.<ul>
 <li><b>pwzGroupPassword</b>. This field must contain the password used to validate peers joining the peer group.</li>
 <li><b>groupPasswordRole</b>. This field must containing the GUID of the role (administrator or peer) for which the password is required.</li>
 <li><b>dwAuthenticationSchemes</b>. This field must have the <b>PEER_GROUP_PASSWORD_AUTHENTICATION</b> flag (0x00000001) set on it.</li>
@@ -106,7 +106,7 @@ There is not enough memory to perform the specified operation.
 </dl>
 </td>
 <td width="60%">
-The peer  group is not in a state where records can be added. For example, <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergroupjoin">PeerGroupJoin</a>  is called, but synchronization with the group database has not completed.
+The peer  group is not in a state where records can be added. For example, <a href="/windows/desktop/api/p2p/nf-p2p-peergroupjoin">PeerGroupJoin</a>  is called, but synchronization with the group database has not completed.
 
 </td>
 </tr>
@@ -117,7 +117,7 @@ The peer  group is not in a state where records can be added. For example, <a hr
 </dl>
 </td>
 <td width="60%">
-The GMC chain is longer than 24 administrators or members. For more information about GMC chains, please refer to the <a href="https://docs.microsoft.com/windows/desktop/P2PSdk/how-group-security-works">How Group Security Works</a> documentation.
+The GMC chain is longer than 24 administrators or members. For more information about GMC chains, please refer to the <a href="/windows/desktop/P2PSdk/how-group-security-works">How Group Security Works</a> documentation.
 
 </td>
 </tr>
@@ -158,5 +158,4 @@ Access to the identity or peer group keys is denied. Typically, this is caused b
 </table>
  
 
-Cryptography-specific errors may be returned from the <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/microsoft-base-cryptographic-provider">Microsoft RSA Base Provider</a>. These errors are prefixed with CRYPT_* and defined in Winerror.h.
-
+Cryptography-specific errors may be returned from the <a href="/windows/desktop/SecCrypto/microsoft-base-cryptographic-provider">Microsoft RSA Base Provider</a>. These errors are prefixed with CRYPT_* and defined in Winerror.h.

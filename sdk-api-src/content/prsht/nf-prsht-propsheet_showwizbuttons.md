@@ -50,19 +50,19 @@ api_name:
 
 ## -description
 
-Show or hide buttons in a wizard. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/psm-showwizbuttons">PSM_SHOWWIZBUTTONS</a> message explicitly.
+Show or hide buttons in a wizard. You can use this macro or send the <a href="/windows/desktop/Controls/psm-showwizbuttons">PSM_SHOWWIZBUTTONS</a> message explicitly.
 
 ## -parameters
 
 ### -param hDlg
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 Handle to the wizard.
 
 ### -param dwFlag
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 One or more of the following values that specify which property sheet buttons are to be shown. If a button value is included in both this parameter and <i>dwButton</i> then it is shown.
 
@@ -135,7 +135,7 @@ Not implemented.
 
 ### -param dwButton
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 One or more of the same values used in <i>dwFlag</i>. Here, they specify which property sheet buttons are to be shown or hidden. If a button value appears in this parameter but not in <i>dwFlag</i>, it indicates that the button should be hidden.
 
@@ -150,4 +150,3 @@ PropSheet_ShowWizButtons(hwnd,
                          PSWIZB_NEXT,
                          PSWIZB_BACK | PSWIZB_NEXT);
 ```
-

@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-Returns a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/fhcfg/nn-fhcfg-ifhtarget">IFhTarget</a> interface that can be used to query information about the currently assigned backup target.
+Returns a pointer to an <a href="/windows/desktop/api/fhcfg/nn-fhcfg-ifhtarget">IFhTarget</a> interface that can be used to query information about the currently assigned backup target.
 
 > [!NOTE] 
 > **IFhConfigMgr** is deprecated and may be altered or unavailable in future releases.
@@ -60,7 +60,7 @@ Returns a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/
 
 ### -param DefaultTarget [out]
 
-Receives a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/fhcfg/nn-fhcfg-ifhtarget">IFhTarget</a> interface of an object that represents the currently assigned default target, or <b>NULL</b> if there is no default target.
+Receives a pointer to the <a href="/windows/desktop/api/fhcfg/nn-fhcfg-ifhtarget">IFhTarget</a> interface of an object that represents the currently assigned default target, or <b>NULL</b> if there is no default target.
 
 ## -returns
 
@@ -72,13 +72,12 @@ If no backup target is currently assigned, this method returns <code>HRESULT_FRO
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DevNotes/fhconfigmgr">FhConfigMgr</a>
+<a href="/windows/desktop/DevNotes/fhconfigmgr">FhConfigMgr</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fhcfg/nn-fhcfg-ifhconfigmgr">IFhConfigMgr</a>
+<a href="/windows/desktop/api/fhcfg/nn-fhcfg-ifhconfigmgr">IFhConfigMgr</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fhcfg/nn-fhcfg-ifhtarget">IFhTarget</a>
-
+<a href="/windows/desktop/api/fhcfg/nn-fhcfg-ifhtarget">IFhTarget</a>

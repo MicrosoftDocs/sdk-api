@@ -68,25 +68,24 @@ If the function fails, the return value is 0x8000000.
 
 ## -remarks
 
-The intercharacter spacing defines the extra space, in logical units along the base line, that the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-textouta">TextOut</a> or <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-exttextouta">ExtTextOut</a> functions add to each character as a line is written. The spacing is used to expand lines of text.
+The intercharacter spacing defines the extra space, in logical units along the base line, that the <a href="/windows/desktop/api/wingdi/nf-wingdi-textouta">TextOut</a> or <a href="/windows/desktop/api/wingdi/nf-wingdi-exttextouta">ExtTextOut</a> functions add to each character as a line is written. The spacing is used to expand lines of text.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-exttextouta">ExtTextOut</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-exttextouta">ExtTextOut</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/font-and-text-functions">Font and Text Functions</a>
+<a href="/windows/desktop/gdi/font-and-text-functions">Font and Text Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/fonts-and-text">Fonts and Text Overview</a>
+<a href="/windows/desktop/gdi/fonts-and-text">Fonts and Text Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-settextcharacterextra">SetTextCharacterExtra</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-settextcharacterextra">SetTextCharacterExtra</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-textouta">TextOut</a>
-
+<a href="/windows/desktop/api/wingdi/nf-wingdi-textouta">TextOut</a>

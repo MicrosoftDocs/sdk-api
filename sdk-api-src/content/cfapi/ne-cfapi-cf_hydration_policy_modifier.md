@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Allows a sync provider to control how placeholder files should be hydrated by the platform. This is a modifier that can be used with the primary policy: <a href="https://docs.microsoft.com/windows/desktop/api/cfapi/ne-cfapi-cf_hydration_policy_primary">CF_HYDRATION_POLICY_PRIMARY</a>.
+Allows a sync provider to control how placeholder files should be hydrated by the platform. This is a modifier that can be used with the primary policy: <a href="/windows/desktop/api/cfapi/ne-cfapi-cf_hydration_policy_primary">CF_HYDRATION_POLICY_PRIMARY</a>.
 
 ## -enum-fields
 
@@ -70,9 +70,8 @@ This policy modifier grants the platform the permission to not store any data re
 
 <b>Note</b>  This value is new for Windows 10, version 1803.
 
-This policy modifier grants the platform the permission to dehydrate in-sync cloud file placeholders without the help of sync providers. Without this flag, the platform is not allowed to call <a href="https://docs.microsoft.com/previous-versions/mt827480(v=vs.85)">CfDehydratePlaceholder</a> directly. Instead, the only supported way to dehydrate a cloud file placeholder is to clear the file’s pinned attribute and set the file’s unpinned attribute. At that point, the actual dehydration will be performed asynchronously by the sync engine after it receives the directory change notification on the two attributes. When this flag is specified, the platform will be allowed to invoke <b>CfDehydratePlaceholder</b> directly on any in-sync cloud file placeholder. It is recommended for sync providers to support auto-dehydration.
+This policy modifier grants the platform the permission to dehydrate in-sync cloud file placeholders without the help of sync providers. Without this flag, the platform is not allowed to call <a href="/previous-versions/mt827480(v=vs.85)">CfDehydratePlaceholder</a> directly. Instead, the only supported way to dehydrate a cloud file placeholder is to clear the file’s pinned attribute and set the file’s unpinned attribute. At that point, the actual dehydration will be performed asynchronously by the sync engine after it receives the directory change notification on the two attributes. When this flag is specified, the platform will be allowed to invoke <b>CfDehydratePlaceholder</b> directly on any in-sync cloud file placeholder. It is recommended for sync providers to support auto-dehydration.
 
 ## -remarks
 
-In general, modifiers can be mixed and matched with any primary policy (<a href="https://docs.microsoft.com/windows/desktop/api/cfapi/ne-cfapi-cf_hydration_policy_primary">CF_HYDRATION_POLICY_PRIMARY</a>) and other policy modifiers so long as the combination is not self-conflicting.
-
+In general, modifiers can be mixed and matched with any primary policy (<a href="/windows/desktop/api/cfapi/ne-cfapi-cf_hydration_policy_primary">CF_HYDRATION_POLICY_PRIMARY</a>) and other policy modifiers so long as the combination is not self-conflicting.

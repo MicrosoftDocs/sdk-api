@@ -58,17 +58,16 @@ Contains an input value for a suggested signal period for the Pulse Width Modula
 
 ### -field DesiredPeriod
 
-The desired output signal period, in picoseconds, for the controller. This value must be greater than zero (0). It must be in the controller supported range of periods, which is between the <b>MinimumPeriod</b> and <b>MaximumPeriod</b> values, inclusive, which you can obtain by using <a href="https://docs.microsoft.com/windows/desktop/api/pwm/ni-pwm-ioctl_pwm_controller_get_info">IOCTL_PWM_CONTROLLER_GET_INFO</a>. If the value is not valid, the request is completed with a STATUS_INVALID_PARAMETER value.
+The desired output signal period, in picoseconds, for the controller. This value must be greater than zero (0). It must be in the controller supported range of periods, which is between the <b>MinimumPeriod</b> and <b>MaximumPeriod</b> values, inclusive, which you can obtain by using <a href="/windows/desktop/api/pwm/ni-pwm-ioctl_pwm_controller_get_info">IOCTL_PWM_CONTROLLER_GET_INFO</a>. If the value is not valid, the request is completed with a STATUS_INVALID_PARAMETER value.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/pwm/ni-pwm-ioctl_pwm_controller_get_actual_period">IOCTL_PWM_CONTROLLER_GET_ACTUAL_PERIOD</a>
+<a href="/windows/desktop/api/pwm/ni-pwm-ioctl_pwm_controller_get_actual_period">IOCTL_PWM_CONTROLLER_GET_ACTUAL_PERIOD</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/pwm/ni-pwm-ioctl_pwm_controller_get_info">IOCTL_PWM_CONTROLLER_GET_INFO</a>
+<a href="/windows/desktop/api/pwm/ni-pwm-ioctl_pwm_controller_get_info">IOCTL_PWM_CONTROLLER_GET_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/pwm/ni-pwm-ioctl_pwm_controller_set_desired_period">IOCTL_PWM_CONTROLLER_SET_DESIRED_PERIOD</a>
-
+<a href="/windows/desktop/api/pwm/ni-pwm-ioctl_pwm_controller_set_desired_period">IOCTL_PWM_CONTROLLER_SET_DESIRED_PERIOD</a>

@@ -82,17 +82,16 @@ DEFINE_MEDIATYPE_GUID( MFVideoFormat_ABCD_Format, FCC('ABCD') );
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/mf-mt-subtype-attribute">MF_MT_SUBTYPE</a>
+<a href="/windows/desktop/medfound/mf-mt-subtype-attribute">MF_MT_SUBTYPE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-macros">Media Foundation Macros</a>
+<a href="/windows/desktop/medfound/media-foundation-macros">Media Foundation Macros</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-type-guids">Media Type GUIDs</a>
+<a href="/windows/desktop/medfound/media-type-guids">Media Type GUIDs</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-types">Media Types</a>
-
+<a href="/windows/desktop/medfound/media-types">Media Types</a>

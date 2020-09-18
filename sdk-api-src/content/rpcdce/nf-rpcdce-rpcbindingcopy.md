@@ -107,7 +107,7 @@ This was the wrong kind of binding for the operation.
  
 
 <div class="alert"><b>Note</b>  For a list of valid error codes, see 
-<a href="https://docs.microsoft.com/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
+<a href="/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
 <div> </div>
 
 ## -remarks
@@ -126,7 +126,7 @@ Once an application calls
 If an application wants one thread's changes to binding information to affect the binding information used by other threads, the application should share a single binding handle across the threads. In this case, the application is responsible for binding-handle concurrency control.
 
 When an application is finished using the binding handle specified by the <i>DestinationBinding</i> parameter, the application should call the 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcbindingfree">RpcBindingFree</a> function to release the memory used by the <i>DestinationBinding</i> binding handle and its referenced binding information.
+<a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcbindingfree">RpcBindingFree</a> function to release the memory used by the <i>DestinationBinding</i> binding handle and its referenced binding information.
 
 <div class="alert"><b>Note</b>  Microsoft RPC supports 
 <b>RpcBindingCopy</b> only in client applications, not in server applications.</div>
@@ -134,5 +134,4 @@ When an application is finished using the binding handle specified by the <i>Des
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcbindingfree">RpcBindingFree</a>
-
+<a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcbindingfree">RpcBindingFree</a>

@@ -56,7 +56,7 @@ Gets the number of parameters in a method's parameter set.
 
 ### -param self [in]
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_parameterset">MI_ParameterSet</a> structure.
+<a href="/windows/desktop/api/mi/ns-mi-mi_parameterset">MI_ParameterSet</a> structure.
 
 ### -param count [out]
 
@@ -65,4 +65,3 @@ Returned number of parameters.
 ## -returns
 
 This function returns MI_INLINE MI_Result.
-

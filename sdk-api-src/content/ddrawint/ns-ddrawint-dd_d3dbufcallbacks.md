@@ -68,31 +68,31 @@ Reserved.
 
 ### -field CanCreateD3DBuffer
 
-Points to the driver's <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/nc-ddrawint-pdd_cancreatesurface">CanCreateD3DBuffer</a> callback.
+Points to the driver's <a href="/windows/desktop/api/ddrawint/nc-ddrawint-pdd_cancreatesurface">CanCreateD3DBuffer</a> callback.
 
 ### -field CreateD3DBuffer
 
-Points to the driver's <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/nc-ddrawint-pdd_createsurface">CreateD3DBuffer</a> callback.
+Points to the driver's <a href="/windows/desktop/api/ddrawint/nc-ddrawint-pdd_createsurface">CreateD3DBuffer</a> callback.
 
 ### -field DestroyD3DBuffer
 
-Points to the driver's <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff552754(v=vs.85)">DestroyD3DBuffer</a> callback.
+Points to the driver's <a href="/previous-versions/windows/hardware/drivers/ff552754(v=vs.85)">DestroyD3DBuffer</a> callback.
 
 ### -field LockD3DBuffer
 
-Points to the driver's <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff568216(v=vs.85)">LockD3DBuffer</a> callback.
+Points to the driver's <a href="/previous-versions/windows/hardware/drivers/ff568216(v=vs.85)">LockD3DBuffer</a> callback.
 
 ### -field UnlockD3DBuffer
 
-Points to the driver's <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff570106(v=vs.85)">UnlockD3DBuffer</a> callback.
+Points to the driver's <a href="/previous-versions/windows/hardware/drivers/ff570106(v=vs.85)">UnlockD3DBuffer</a> callback.
 
 ## -remarks
 
-Drivers that manage their own command and vertex buffers must fill out a DD_D3DBUFCALLBACKS structure and point the <b>lpD3DBufCallbacks</b> member of <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_halinfo">DD_HALINFO</a> to it. 
+Drivers that manage their own command and vertex buffers must fill out a DD_D3DBUFCALLBACKS structure and point the <b>lpD3DBufCallbacks</b> member of <a href="/windows/desktop/api/ddrawint/ns-ddrawint-dd_halinfo">DD_HALINFO</a> to it. 
 
 The driver must also support the callback functions reported in the DD_D3DBUFCALLBACKS structure. These <i>XxxD3DBuffer</i> callbacks are each analogous to the <i>DdXxxSurface</i> callback of similar name; they have the same prototypes and are called with the same input parameters. These new callbacks are called only when the surface in question has the DDSCAPS_EXECUTEBUFFER flag set in the surface caps. The buffer creation flags are DDSCAPS_WRITEONLY, DDSCAPS2_VERTEXBUFFER and DDSCAPS2_COMMANDBUFFER. 
 
-The driver determines the type of buffer being requested by checking the <b>ddsCaps</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_surface_local">DD_SURFACE_LOCAL</a> structure that is passed to <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/nc-ddrawint-pdd_cancreatesurface">CanCreateD3DBuffer</a> and <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/nc-ddrawint-pdd_createsurface">CreateD3DBuffer</a> for the following flags:
+The driver determines the type of buffer being requested by checking the <b>ddsCaps</b> member of the <a href="/windows/desktop/api/ddrawint/ns-ddrawint-dd_surface_local">DD_SURFACE_LOCAL</a> structure that is passed to <a href="/windows/desktop/api/ddrawint/nc-ddrawint-pdd_cancreatesurface">CanCreateD3DBuffer</a> and <a href="/windows/desktop/api/ddrawint/nc-ddrawint-pdd_createsurface">CreateD3DBuffer</a> for the following flags:
 
 <ul>
 <li>
@@ -118,29 +118,28 @@ Implicit vertex buffers should not be placed in video memory because they are ex
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/nc-ddrawint-pdd_cancreatesurface">CanCreateD3DBuffer</a>
+<a href="/windows/desktop/api/ddrawint/nc-ddrawint-pdd_cancreatesurface">CanCreateD3DBuffer</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/nc-ddrawint-pdd_createsurface">CreateD3DBuffer</a>
+<a href="/windows/desktop/api/ddrawint/nc-ddrawint-pdd_createsurface">CreateD3DBuffer</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_halinfo">DD_HALINFO</a>
+<a href="/windows/desktop/api/ddrawint/ns-ddrawint-dd_halinfo">DD_HALINFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_surface_local">DD_SURFACE_LOCAL</a>
+<a href="/windows/desktop/api/ddrawint/ns-ddrawint-dd_surface_local">DD_SURFACE_LOCAL</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff552754(v=vs.85)">DestroyD3DBuffer</a>
+<a href="/previous-versions/windows/hardware/drivers/ff552754(v=vs.85)">DestroyD3DBuffer</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff568216(v=vs.85)">LockD3DBuffer</a>
+<a href="/previous-versions/windows/hardware/drivers/ff568216(v=vs.85)">LockD3DBuffer</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff570106(v=vs.85)">UnlockD3DBuffer</a>
-
+<a href="/previous-versions/windows/hardware/drivers/ff570106(v=vs.85)">UnlockD3DBuffer</a>

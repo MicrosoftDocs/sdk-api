@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-Contains the similarity information that was returned for a file by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/nf-msrdc-isimilaritytabledumpstate-getnextdata">ISimilarityTableDumpState::GetNextData</a> method.
+Contains the similarity information that was returned for a file by the <a href="/previous-versions/windows/desktop/api/msrdc/nf-msrdc-isimilaritytabledumpstate-getnextdata">ISimilarityTableDumpState::GetNextData</a> method.
 
 ## -struct-fields
 
@@ -66,5 +66,4 @@ A <a href="/windows/win32/api/msrdc/ns-msrdc-similaritydata">SimilarityData</a> 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/nn-msrdc-isimilaritytabledumpstate">ISimilarityTableDumpState</a>
-
+<a href="/previous-versions/windows/desktop/api/msrdc/nn-msrdc-isimilaritytabledumpstate">ISimilarityTableDumpState</a>

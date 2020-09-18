@@ -50,9 +50,9 @@ api_name:
 
 ## -description
 
-Specifies the way in which ink is erased from the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkoverlay-class">InkOverlay</a> object and the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkpicture-control-reference">InkPicture</a> control.
+Specifies the way in which ink is erased from the <a href="/windows/desktop/tablet/inkoverlay-class">InkOverlay</a> object and the <a href="/windows/desktop/tablet/inkpicture-control-reference">InkPicture</a> control.
 
-This mode is used when the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/ne-msinkaut-inkoverlayeditingmode">InkOverlayEditingMode</a> is set to Delete.
+This mode is used when the <a href="/windows/desktop/api/msinkaut/ne-msinkaut-inkoverlayeditingmode">InkOverlayEditingMode</a> is set to Delete.
 
 ## -enum-fields
 
@@ -68,13 +68,12 @@ Ink is erased by point.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_erasermode">EraserMode Property [InkPicture Control]</a>
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_erasermode">EraserMode Property [InkPicture Control]</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_eraserwidth">EraserWidth Property [InkPicture Control]</a>
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_eraserwidth">EraserWidth Property [InkPicture Control]</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/ne-msinkaut-inkoverlayeditingmode">InkOverlayEditingMode Enumeration</a>
-
+<a href="/windows/desktop/api/msinkaut/ne-msinkaut-inkoverlayeditingmode">InkOverlayEditingMode Enumeration</a>

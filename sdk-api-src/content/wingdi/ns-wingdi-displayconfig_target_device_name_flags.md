@@ -60,19 +60,19 @@ The <b>DISPLAYCONFIG_TARGET_DEVICE_NAME_FLAGS</b> structure contains information
 
 ### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME.friendlyNameFromEdid
 
-A UINT32 value that indicates that the string in the <b>monitorFriendlyDeviceName</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-displayconfig_target_device_name">DISPLAYCONFIG_TARGET_DEVICE_NAME</a> structure was constructed from the manufacture identification string in the extended display identification data (EDID).
+A UINT32 value that indicates that the string in the <b>monitorFriendlyDeviceName</b> member of the <a href="/windows/desktop/api/wingdi/ns-wingdi-displayconfig_target_device_name">DISPLAYCONFIG_TARGET_DEVICE_NAME</a> structure was constructed from the manufacture identification string in the extended display identification data (EDID).
 
 Setting this member is equivalent to setting the first bit of the 32-bit <b>value</b> member (0x00000001).
 
 ### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME.friendlyNameForced
 
-A UINT32 value that indicates that the target is forced with no detectable monitor attached and the <b>monitorFriendlyDeviceName</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-displayconfig_target_device_name">DISPLAYCONFIG_TARGET_DEVICE_NAME</a> structure is a NULL-terminated empty string.
+A UINT32 value that indicates that the target is forced with no detectable monitor attached and the <b>monitorFriendlyDeviceName</b> member of the <a href="/windows/desktop/api/wingdi/ns-wingdi-displayconfig_target_device_name">DISPLAYCONFIG_TARGET_DEVICE_NAME</a> structure is a NULL-terminated empty string.
 
 Setting this member is equivalent to setting the second bit of the 32-bit <b>value</b> member (0x00000002).
 
 ### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME.edidIdsValid
 
-A UINT32 value that indicates that the <b>edidManufactureId</b> and <b>edidProductCodeId</b> members of the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-displayconfig_target_device_name">DISPLAYCONFIG_TARGET_DEVICE_NAME</a> structure are valid and were obtained from the EDID.
+A UINT32 value that indicates that the <b>edidManufactureId</b> and <b>edidProductCodeId</b> members of the <a href="/windows/desktop/api/wingdi/ns-wingdi-displayconfig_target_device_name">DISPLAYCONFIG_TARGET_DEVICE_NAME</a> structure are valid and were obtained from the EDID.
 
 Setting this member is equivalent to setting the third bit of the 32-bit <b>value</b> member (0x00000004).
 
@@ -86,5 +86,4 @@ A member in the union that DISPLAYCONFIG_TARGET_DEVICE_NAME_FLAGS contains that 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-displayconfig_target_device_name">DISPLAYCONFIG_TARGET_DEVICE_NAME</a>
-
+<a href="/windows/desktop/api/wingdi/ns-wingdi-displayconfig_target_device_name">DISPLAYCONFIG_TARGET_DEVICE_NAME</a>

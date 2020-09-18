@@ -57,7 +57,7 @@ The <code>put_Mode</code> method sets how audio samples and video frames are to 
 
 ### -param mode [in]
 
-Interleaving quality setting specified in the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-interleavingmode">InterleavingMode</a> enumeration.
+Interleaving quality setting specified in the <a href="/windows/desktop/api/strmif/ne-strmif-interleavingmode">InterleavingMode</a> enumeration.
 
 ## -returns
 
@@ -65,13 +65,12 @@ Returns an <b>HRESULT</b> value that depends on the implementation of the interf
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iconfiginterleaving">IConfigInterleaving Interface</a>
+<a href="/windows/desktop/api/strmif/nn-strmif-iconfiginterleaving">IConfigInterleaving Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iconfiginterleaving-get_mode">IConfigInterleaving::get_Mode</a>
-
+<a href="/windows/desktop/api/strmif/nf-strmif-iconfiginterleaving-get_mode">IConfigInterleaving::get_Mode</a>

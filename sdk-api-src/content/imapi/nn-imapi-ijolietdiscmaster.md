@@ -57,7 +57,7 @@ A temporary folder is constructed and added to the image. This can be repeated m
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IJolietDiscMaster</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IJolietDiscMaster</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IJolietDiscMaster</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IJolietDiscMaster</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,7 +72,7 @@ The <b>IJolietDiscMaster</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi/nf-imapi-ijolietdiscmaster-adddata">AddData</a>
+<a href="/windows/desktop/api/imapi/nf-imapi-ijolietdiscmaster-adddata">AddData</a>
 </td>
 <td align="left" width="63%">
 Adds directories and files to the image file.
@@ -81,7 +81,7 @@ Adds directories and files to the image file.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi/nf-imapi-ijolietdiscmaster-getdatablocksize">GetDataBlockSize</a>
+<a href="/windows/desktop/api/imapi/nf-imapi-ijolietdiscmaster-getdatablocksize">GetDataBlockSize</a>
 </td>
 <td align="left" width="63%">
 Retrieves the data block size in bytes (2048).
@@ -90,7 +90,7 @@ Retrieves the data block size in bytes (2048).
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi/nf-imapi-ijolietdiscmaster-getjolietproperties">GetJolietProperties</a>
+<a href="/windows/desktop/api/imapi/nf-imapi-ijolietdiscmaster-getjolietproperties">GetJolietProperties</a>
 </td>
 <td align="left" width="63%">
 Gets the properties of the Joliet interface.
@@ -99,7 +99,7 @@ Gets the properties of the Joliet interface.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi/nf-imapi-ijolietdiscmaster-gettotaldatablocks">GetTotalDataBlocks</a>
+<a href="/windows/desktop/api/imapi/nf-imapi-ijolietdiscmaster-gettotaldatablocks">GetTotalDataBlocks</a>
 </td>
 <td align="left" width="63%">
 Retrieves the total data blocks available on disc.
@@ -108,7 +108,7 @@ Retrieves the total data blocks available on disc.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi/nf-imapi-ijolietdiscmaster-getuseddatablocks">GetUsedDataBlocks</a>
+<a href="/windows/desktop/api/imapi/nf-imapi-ijolietdiscmaster-getuseddatablocks">GetUsedDataBlocks</a>
 </td>
 <td align="left" width="63%">
 Retrieves the total data blocks staged in image.
@@ -117,7 +117,7 @@ Retrieves the total data blocks staged in image.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi/nf-imapi-ijolietdiscmaster-setjolietproperties">SetJolietProperties</a>
+<a href="/windows/desktop/api/imapi/nf-imapi-ijolietdiscmaster-setjolietproperties">SetJolietProperties</a>
 </td>
 <td align="left" width="63%">
 Sets the properties of the Joliet interface.
@@ -125,4 +125,3 @@ Sets the properties of the Joliet interface.
 </td>
 </tr>
 </table>
-

@@ -54,13 +54,12 @@ api_name:
 
 ## -remarks
 
-When reading or writing your own XML for a task, network settings are specified using the <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/taskschedulerschema-networksettings-settingstype-element">NetworkSettings</a> element of the Task Scheduler schema.
+When reading or writing your own XML for a task, network settings are specified using the <a href="/windows/desktop/TaskSchd/taskschedulerschema-networksettings-settingstype-element">NetworkSettings</a> element of the Task Scheduler schema.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/TaskSchd/task-scheduler-start-page">Task Scheduler</a>
+<a href="/windows/desktop/TaskSchd/task-scheduler-start-page">Task Scheduler</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/TaskSchd/task-scheduler-interfaces">Task Scheduler Interfaces</a>
-
+<a href="/windows/desktop/TaskSchd/task-scheduler-interfaces">Task Scheduler Interfaces</a>

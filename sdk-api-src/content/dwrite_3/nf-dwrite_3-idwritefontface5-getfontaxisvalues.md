@@ -52,9 +52,9 @@ Retrieves the list of axis values used by the font.
 
 ### -param fontAxisValues [out]
 
-Type: **[DWRITE_FONT_AXIS_VALUE](/windows/win32/api/dwrite_3/ns-dwrite_3-dwrite_font_axis_value)\***
+Type: **[DWRITE_FONT_AXIS_VALUE](./ns-dwrite_3-dwrite_font_axis_value.md)\***
 
-A pointer to an array of **DWRITE_FONT_AXIS_VALUE** structures into which **GetFontAxisValues** writes the list of font axis values. You're responsible for managing the size and the lifetime of this array. Call [GetFontAxisValueCount](/windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontface5-getfontaxisvaluecount) to determine the size of array to allocate.
+A pointer to an array of **DWRITE_FONT_AXIS_VALUE** structures into which **GetFontAxisValues** writes the list of font axis values. You're responsible for managing the size and the lifetime of this array. Call [GetFontAxisValueCount](./nf-dwrite_3-idwritefontface5-getfontaxisvaluecount.md) to determine the size of array to allocate.
 
 ### -param fontAxisValueCount
 
@@ -138,4 +138,3 @@ int main()
 ```
 
 ## -see-also
-

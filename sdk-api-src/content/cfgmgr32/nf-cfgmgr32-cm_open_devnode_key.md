@@ -130,9 +130,8 @@ Close the handle returned from this function by calling <b>RegCloseKey</b>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_delete_devnode_key">CM_Delete_DevNode_Key</a>
+<a href="/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_delete_devnode_key">CM_Delete_DevNode_Key</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdiopendevregkey">SetupDiOpenDevRegKey</a>
-
+<a href="/windows/desktop/api/setupapi/nf-setupapi-setupdiopendevregkey">SetupDiOpenDevRegKey</a>

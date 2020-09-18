@@ -53,14 +53,14 @@ api_name:
 The 
 <i>LPM_GetRsvpObjects</i> function allows the PCM to query LPMs for policy data. The data is forwarded by the PCM to the SBM for inclusion in RSVP refresh messages that require policy data. Results from the 
 <i>LPM_GetRsvpObjects</i> function can be returned synchronously or asynchronously. Asynchronous results are returned by calling the 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lpmapi/nc-lpmapi-cbgetrsvpobjects">cbGetRsvpObjects</a> callback function.
+<a href="/previous-versions/windows/desktop/api/lpmapi/nc-lpmapi-cbgetrsvpobjects">cbGetRsvpObjects</a> callback function.
 
 ## -parameters
 
 ### -param PcmReqHandle [in]
 
 Unique handle that distinguishes this request from all other requests. LPMs should use this <i>PcmReqHandle</i> when returning results asynchronously using the 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lpmapi/nc-lpmapi-cbgetrsvpobjects">cbGetRsvpObjects</a> callback function.
+<a href="/previous-versions/windows/desktop/api/lpmapi/nc-lpmapi-cbgetrsvpobjects">cbGetRsvpObjects</a> callback function.
 
 ### -param MaxPdSize [in]
 
@@ -156,14 +156,14 @@ Array of flow descriptor pointers in the outgoing RSVP message. For PATH message
 ### -param pRsvpObjectsCount [out]
 
 Pointer to the number of policy objects being returned. When an LPM is immediately returning results, the <i>pRsvpObjectsCount</i> and <i>pppRsvpObjects</i> parameters should be used to return policy data objects. Note that the buffer containing the policy data objects should be allocated using the memory allocation function 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lpmapi/nc-lpmapi-pallocmem">PALLOCMEM</a>, supplied within the 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lpmapi/nf-lpmapi-lpm_initialize">LPM_Initialize</a> function.
+<a href="/previous-versions/windows/desktop/api/lpmapi/nc-lpmapi-pallocmem">PALLOCMEM</a>, supplied within the 
+<a href="/previous-versions/windows/desktop/api/lpmapi/nf-lpmapi-lpm_initialize">LPM_Initialize</a> function.
 
 ### -param pppRsvpObjects [out]
 
 Pointer to an array of policy data object pointers returned in response to the request. Note that the buffer containing the policy data objects, and this array of policy data object pointers, should be allocated using the memory allocation function 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lpmapi/nc-lpmapi-pallocmem">PALLOCMEM</a>, supplied within the 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lpmapi/nf-lpmapi-lpm_initialize">LPM_Initialize</a> function.
+<a href="/previous-versions/windows/desktop/api/lpmapi/nc-lpmapi-pallocmem">PALLOCMEM</a>, supplied within the 
+<a href="/previous-versions/windows/desktop/api/lpmapi/nf-lpmapi-lpm_initialize">LPM_Initialize</a> function.
 
 ### -param Reserved [out]
 
@@ -177,7 +177,7 @@ This function returns ULONG.
 
 If an LPM does not have policy data to return from the 
 <i>LPM_GetRsvpObjects</i> function call, it should synchronously return LPM_RESULT_READY, set <i>pppRsvpObjects</i> to <b>NULL</b>, and set <i>pRsvpObjectsCount</i> to zero. If a synchronous return is not possible, an LPM should return LPM_RESULT_DEFER, and return the result by calling the 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lpmapi/nc-lpmapi-cbgetrsvpobjects">cbGetRsvpObjects</a> callback function. If the LPM does not have any policy data objects to return, it can set <i>pppRsvpObjects</i> to <b>NULL</b> and <i>pRsvpObjectsCount</i> to zero.
+<a href="/previous-versions/windows/desktop/api/lpmapi/nc-lpmapi-cbgetrsvpobjects">cbGetRsvpObjects</a> callback function. If the LPM does not have any policy data objects to return, it can set <i>pppRsvpObjects</i> to <b>NULL</b> and <i>pRsvpObjectsCount</i> to zero.
 
 If any LPM returns LPV_DROP_MSG, the SBM will not send out an RSVP refresh message, and will free the policy data objects returned by other LPMs (those that did not return LPM_DROP_MSG, if any). By not sending out RSVP refresh messages, a flow's RSVP state both upstream and downstream will begin to age, and eventually get deleted.
 
@@ -186,17 +186,16 @@ If any LPM returns LPV_DROP_MSG, the SBM will not send out an RSVP refresh messa
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lpmapi/nf-lpmapi-lpm_initialize">LPM_Initialize</a>
+<a href="/previous-versions/windows/desktop/api/lpmapi/nf-lpmapi-lpm_initialize">LPM_Initialize</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lpmapi/nc-lpmapi-pallocmem">PALLOCMEM</a>
+<a href="/previous-versions/windows/desktop/api/lpmapi/nc-lpmapi-pallocmem">PALLOCMEM</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lpmapi/nc-lpmapi-cbadmitresult">cbAdmitResult</a>
+<a href="/previous-versions/windows/desktop/api/lpmapi/nc-lpmapi-cbadmitresult">cbAdmitResult</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lpmapi/nc-lpmapi-cbgetrsvpobjects">cbGetRsvpObjects</a>
-
+<a href="/previous-versions/windows/desktop/api/lpmapi/nc-lpmapi-cbgetrsvpobjects">cbGetRsvpObjects</a>

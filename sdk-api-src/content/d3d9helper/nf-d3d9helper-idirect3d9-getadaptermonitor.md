@@ -57,19 +57,19 @@ Returns the handle of the monitor associated with the Direct3D object.
 
 ### -param Adapter [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 Ordinal number that denotes the display adapter. D3DADAPTER_DEFAULT is always the primary display adapter.
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HMONITOR</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HMONITOR</a></b>
 
 Handle of the monitor associated with the Direct3D object.
 
 ## -remarks
 
-As shown in the following code fragment, which illustrates how to obtain a handle to the monitor associated with a given device, use <a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-getdirect3d">GetDirect3D</a> to return the Direct3D enumerator from the device and use <a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-getcreationparameters">GetCreationParameters</a> to retrieve the value for Adapter.
+As shown in the following code fragment, which illustrates how to obtain a handle to the monitor associated with a given device, use <a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-getdirect3d">GetDirect3D</a> to return the Direct3D enumerator from the device and use <a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-getcreationparameters">GetCreationParameters</a> to retrieve the value for Adapter.
 
 
 ```
@@ -88,13 +88,12 @@ As shown in the following code fragment, which illustrates how to obtain a handl
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-getcreationparameters">GetCreationParameters</a>
+<a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-getcreationparameters">GetCreationParameters</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-getdirect3d">GetDirect3D</a>
+<a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-getdirect3d">GetDirect3D</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3d9">IDirect3D9</a>
-
+<a href="/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3d9">IDirect3D9</a>

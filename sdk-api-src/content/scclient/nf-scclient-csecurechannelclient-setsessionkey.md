@@ -68,7 +68,7 @@ The method returns an <b>HRESULT</b>. All the interface methods in Windows Media
 <li>Windows error codes converted to HRESULT values </li>
 <li>Windows Media Device Manager error codes </li>
 </ul>
-For an extensive list of possible error codes, see <a href="https://docs.microsoft.com/windows/desktop/WMDM/error-codes">Error Codes</a>.
+For an extensive list of possible error codes, see <a href="/windows/desktop/WMDM/error-codes">Error Codes</a>.
 
 Possible values include, but are not limited to, those in the following table.
 
@@ -93,13 +93,12 @@ Possible values include, but are not limited to, those in the following table.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/WMDM/csecurechannelclient-class">CSecureChannelClient Class</a>
+<a href="/windows/desktop/WMDM/csecurechannelclient-class">CSecureChannelClient Class</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/bb231590(v=vs.85)">CSecureChannelClient::GetSessionKey</a>
+<a href="/previous-versions/bb231590(v=vs.85)">CSecureChannelClient::GetSessionKey</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WMDM/using-secure-authenticated-channels">Using Secure Authenticated Channels</a>
-
+<a href="/windows/desktop/WMDM/using-secure-authenticated-channels">Using Secure Authenticated Channels</a>

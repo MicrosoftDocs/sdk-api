@@ -67,7 +67,7 @@ The identifier of the power scheme that is to be duplicated.
 The address of a pointer to a <b>GUID</b>. If the pointer contains 
       <b>NULL</b>, the function allocates memory for a new 
       <b>GUID</b> and puts the address of this memory in the pointer. The caller can free this 
-      memory using <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localfree">LocalFree</a>.
+      memory using <a href="/windows/desktop/api/winbase/nf-winbase-localfree">LocalFree</a>.
 
 ## -returns
 
@@ -112,7 +112,7 @@ One of the parameters is not valid.
 </td>
 <td width="60%">
 The <i>DestinationSchemeGuid</i> parameter refers to an existing power scheme. 
-        <a href="https://docs.microsoft.com/windows/desktop/api/powrprof/nf-powrprof-powerdeletescheme">PowerDeleteScheme</a> can be used to delete this 
+        <a href="/windows/desktop/api/powrprof/nf-powrprof-powerdeletescheme">PowerDeleteScheme</a> can be used to delete this 
         scheme.
 
 </td>
@@ -121,5 +121,4 @@ The <i>DestinationSchemeGuid</i> parameter refers to an existing power scheme.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Power/power-management-functions">Power Management Functions</a>
-
+<a href="/windows/desktop/Power/power-management-functions">Power Management Functions</a>

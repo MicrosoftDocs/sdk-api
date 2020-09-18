@@ -48,7 +48,7 @@ Represents a compressed bitstream from which video is decoded.
 
 ### -field pBuffer
 
-A pointer to an [ID3D12Resource](https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12resource) representing the source buffer containing the compressed bitstream to decode.
+A pointer to an [ID3D12Resource](/windows/desktop/api/d3d12/nn-d3d12-id3d12resource) representing the source buffer containing the compressed bitstream to decode.
 
 ### -field Offset
 
@@ -61,4 +61,3 @@ The size of the subregion of *pBuffer* that contains the bitstream.
 ## -remarks
 
 ## -see-also
-

@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Specifies the MPEG audio encoding mode. This enumeration is used with the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/avencmpacodingmode-property">AVEncMPACodingMode</a> property.
+Specifies the MPEG audio encoding mode. This enumeration is used with the <a href="/windows/desktop/DirectShow/avencmpacodingmode-property">AVEncMPACodingMode</a> property.
 
 ## -enum-fields
 
@@ -80,9 +80,8 @@ Surround audio (5.1 channels).
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/codec-api-enumerations">Codec API Enumerations</a>
+<a href="/windows/desktop/DirectShow/codec-api-enumerations">Codec API Enumerations</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-icodecapi">ICodecAPI Interface</a>
-
+<a href="/windows/desktop/api/strmif/nn-strmif-icodecapi">ICodecAPI Interface</a>

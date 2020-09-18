@@ -109,9 +109,8 @@ Success.
 
 ## -remarks
 
-To enumerate the parameters supported by this object, along with their index values, use the <a href="https://docs.microsoft.com/windows/desktop/api/medparam/nn-medparam-imediaparaminfo">IMediaParamInfo</a> interface.
+To enumerate the parameters supported by this object, along with their index values, use the <a href="/windows/desktop/api/medparam/nn-medparam-imediaparaminfo">IMediaParamInfo</a> interface.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/medparam/nn-medparam-imediaparams">IMediaParams Interface</a>
-
+<a href="/windows/desktop/api/medparam/nn-medparam-imediaparams">IMediaParams Interface</a>

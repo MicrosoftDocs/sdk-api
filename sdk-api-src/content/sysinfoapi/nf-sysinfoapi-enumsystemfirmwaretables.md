@@ -100,18 +100,18 @@ If the function succeeds, the return value is the number of bytes written to the
 
 If the function fails because the buffer is not large enough, the return value is the required buffer size, in bytes. This value is always greater than <i>BufferSize</i>.
 
-If the function fails for any other reason, the return value is zero. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+If the function fails for any other reason, the return value is zero. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
 Starting with Windows 10, version 1803, Universal Windows apps can access the System Management BIOS (SMBIOS) information by declaring the <b>smbios</b> restricted capability in the app manifest.
-See <a href="https://docs.microsoft.com/windows/desktop/SysInfo/access-smbios-information-from-a-universal-windows-app">Access SMBIOS information from a Universal Windows App</a>for details. Only raw SMBIOS (RSMB) firmware tables can be accessed from a Universal Windows app.
+See <a href="/windows/desktop/SysInfo/access-smbios-information-from-a-universal-windows-app">Access SMBIOS information from a Universal Windows App</a>for details. Only raw SMBIOS (RSMB) firmware tables can be accessed from a Universal Windows app.
 
 As of Windows Server 2003 with Service Pack 1 (SP1), applications cannot access the \Device\PhysicalMemory object. Access to this object is limited to kernel-mode drivers. This change affects applications read System Management BIOS (SMBIOS) or other BIOS data stored in the lowest 1MB of physical memory. Applications have the following alternatives to read data from low physical memory:
 
 <ul>
-<li>Retrieve the SMBIOS properties using WMI. Many individual properties are contained in the <a href="https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-provider">Win32 classes</a>. You can also retrieve the raw SMBIOS data in a single buffer using the <b>MSSMBios_RawSMBiosTables</b> class.</li>
-<li>Use the <a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getsystemfirmwaretable">GetSystemFirmwareTable</a> function to read the raw SMBIOS firmware table.</li>
+<li>Retrieve the SMBIOS properties using WMI. Many individual properties are contained in the <a href="/windows/desktop/CIMWin32Prov/win32-provider">Win32 classes</a>. You can also retrieve the raw SMBIOS data in a single buffer using the <b>MSSMBios_RawSMBiosTables</b> class.</li>
+<li>Use the <a href="/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getsystemfirmwaretable">GetSystemFirmwareTable</a> function to read the raw SMBIOS firmware table.</li>
 </ul>
 There is no way for applications to write to low physical memory.
 
@@ -121,18 +121,17 @@ The raw firmware table provider ('FIRM') returns a list of <b>DWORD</b> table id
 
 The ACPI table provider ('ACPI') returns a list of <b>DWORD</b> table identifiers. Each identifier returned corresponds to Signature field of the DESCRIPTION_HEADER structure for an ACPI table currently in the ACPI namespace of the system.
 
-For ACPI, if the system contains multiple tables with the same name, they are all enumerated with <b>EnumSystemFirmwareTables</b>. However, <a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getsystemfirmwaretable">GetSystemFirmwareTable</a> retrieves only the first table in the list with this name.
+For ACPI, if the system contains multiple tables with the same name, they are all enumerated with <b>EnumSystemFirmwareTables</b>. However, <a href="/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getsystemfirmwaretable">GetSystemFirmwareTable</a> retrieves only the first table in the list with this name.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/SysInfo/access-smbios-information-from-a-universal-windows-app">Access SMBIOS information from a Universal Windows App</a>
+<a href="/windows/desktop/SysInfo/access-smbios-information-from-a-universal-windows-app">Access SMBIOS information from a Universal Windows App</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getsystemfirmwaretable">GetSystemFirmwareTable</a>
+<a href="/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getsystemfirmwaretable">GetSystemFirmwareTable</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SysInfo/system-information-functions">System
+<a href="/windows/desktop/SysInfo/system-information-functions">System
 		  Information Functions</a>
-

@@ -102,11 +102,11 @@ The vertical pixel offset for the mask bitmap specified by the <i>hbmMask</i> pa
 
 ### -param rop [in]
 
-The foreground and background ternary raster operation codes (ROPs) that the function uses to control the combination of source and destination data. The background raster operation code is stored in the high-order byte of the high-order word of this value; the foreground raster operation code is stored in the low-order byte of the high-order word of this value; the low-order word of this value is ignored, and should be zero. The macro <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-makerop4">MAKEROP4</a> creates such combinations of foreground and background raster operation codes.
+The foreground and background ternary raster operation codes (ROPs) that the function uses to control the combination of source and destination data. The background raster operation code is stored in the high-order byte of the high-order word of this value; the foreground raster operation code is stored in the low-order byte of the high-order word of this value; the low-order word of this value is ignored, and should be zero. The macro <a href="/windows/desktop/api/wingdi/nf-wingdi-makerop4">MAKEROP4</a> creates such combinations of foreground and background raster operation codes.
 
 For a discussion of foreground and background in the context of this function, see the following Remarks section.
 
-For a list of common raster operation codes (ROPs), see the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-bitblt">BitBlt</a> function. Note that the CAPTUREBLT ROP generally cannot be used for printing device contexts.
+For a list of common raster operation codes (ROPs), see the <a href="/windows/desktop/api/wingdi/nf-wingdi-bitblt">BitBlt</a> function. Note that the CAPTUREBLT ROP generally cannot be used for printing device contexts.
 
 ## -returns
 
@@ -130,47 +130,46 @@ If the mask bitmap is not a monochrome bitmap, an error occurs.
 
 When an enhanced metafile is being recorded, an error occurs (and the function returns <b>FALSE</b>) if the source device context identifies an enhanced-metafile device context.
 
-Not all devices support the <b>MaskBlt</b> function. An application should call the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getdevicecaps">GetDeviceCaps</a> function with the <i>nIndex</i> parameter as RC_BITBLT to determine whether a device supports this function.
+Not all devices support the <b>MaskBlt</b> function. An application should call the <a href="/windows/desktop/api/wingdi/nf-wingdi-getdevicecaps">GetDeviceCaps</a> function with the <i>nIndex</i> parameter as RC_BITBLT to determine whether a device supports this function.
 
-If no mask bitmap is supplied, this function behaves exactly like <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-bitblt">BitBlt</a>, using the foreground raster operation code.
+If no mask bitmap is supplied, this function behaves exactly like <a href="/windows/desktop/api/wingdi/nf-wingdi-bitblt">BitBlt</a>, using the foreground raster operation code.
 
 <b>ICM:</b> No color management is performed when blits occur.
 
-When used in a multiple monitor system, both <i>hdcSrc</i> and <i>hdcDest</i> must refer to the same device or the function will fail. To transfer data between DCs for different devices, convert the memory bitmap (compatible bitmap, or DDB) to a DIB by calling <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getdibits">GetDIBits</a>. To display the DIB to the second device, call <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-setdibits">SetDIBits</a> or <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-stretchdibits">StretchDIBits</a>.
+When used in a multiple monitor system, both <i>hdcSrc</i> and <i>hdcDest</i> must refer to the same device or the function will fail. To transfer data between DCs for different devices, convert the memory bitmap (compatible bitmap, or DDB) to a DIB by calling <a href="/windows/desktop/api/wingdi/nf-wingdi-getdibits">GetDIBits</a>. To display the DIB to the second device, call <a href="/windows/desktop/api/wingdi/nf-wingdi-setdibits">SetDIBits</a> or <a href="/windows/desktop/api/wingdi/nf-wingdi-stretchdibits">StretchDIBits</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-bitblt">BitBlt</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-bitblt">BitBlt</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/bitmap-functions">Bitmap Functions</a>
+<a href="/windows/desktop/gdi/bitmap-functions">Bitmap Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/bitmaps">Bitmaps Overview</a>
+<a href="/windows/desktop/gdi/bitmaps">Bitmaps Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getdibits">GetDIBits</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-getdibits">GetDIBits</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getdevicecaps">GetDeviceCaps</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-getdevicecaps">GetDeviceCaps</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-plgblt">PlgBlt</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-plgblt">PlgBlt</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-setdibits">SetDIBits</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-setdibits">SetDIBits</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-stretchblt">StretchBlt</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-stretchblt">StretchBlt</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-stretchdibits">StretchDIBits</a>
-
+<a href="/windows/desktop/api/wingdi/nf-wingdi-stretchdibits">StretchDIBits</a>

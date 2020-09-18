@@ -83,7 +83,7 @@ Pointer to application-supplied data. The function passes this data to the callb
 
 #### - REGISTERWORDENUMPROCA [in]
 
-Pointer to the callback function. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/imm/nc-imm-registerwordenumproca">EnumRegisterWordProc</a>.
+Pointer to the callback function. For more information, see <a href="/windows/desktop/api/imm/nc-imm-registerwordenumproca">EnumRegisterWordProc</a>.
 
 ## -returns
 
@@ -102,13 +102,12 @@ If <i>dwStyle</i> is set to 0 and both <i>lpszReading</i> and <i>lpszRegister</i
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imm/nc-imm-registerwordenumproca">EnumRegisterWordProc</a>
+<a href="/windows/desktop/api/imm/nc-imm-registerwordenumproca">EnumRegisterWordProc</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/input-method-manager">Input Method Manager</a>
+<a href="/windows/desktop/Intl/input-method-manager">Input Method Manager</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/input-method-manager-functions">Input Method Manager Functions</a>
-
+<a href="/windows/desktop/Intl/input-method-manager-functions">Input Method Manager Functions</a>

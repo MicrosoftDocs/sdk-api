@@ -54,14 +54,14 @@ api_name:
 
 The <b>ADS_RIGHTS_ENUM</b> enumeration specifies 
     access rights assigned to an Active Directory object. The 
-    <a href="https://docs.microsoft.com/windows/desktop/ADSI/iadsaccesscontrolentry-property-methods">IADsAccessControlEntry.AccessMask</a> 
+    <a href="/windows/desktop/ADSI/iadsaccesscontrolentry-property-methods">IADsAccessControlEntry.AccessMask</a> 
     property contains a combination of these values for an Active Directory object.
 
 For more information and a list of possible access right values for file or file share objects, see 
-    <a href="https://docs.microsoft.com/windows/desktop/FileIO/file-security-and-access-rights">File Security and Access Rights</a>.
+    <a href="/windows/desktop/FileIO/file-security-and-access-rights">File Security and Access Rights</a>.
 
 For more information and a list of possible access right values for registry objects, see 
-    <a href="https://docs.microsoft.com/windows/desktop/SysInfo/registry-key-security-and-access-rights">Registry Key Security and Access Rights</a>.
+    <a href="/windows/desktop/SysInfo/registry-key-security-and-access-rights">Registry Key Security and Access Rights</a>.
 
 ## -enum-fields
 
@@ -115,7 +115,7 @@ The right to delete child objects of the object. The <b>ObjectType</b> member of
 
 ### -field ADS_RIGHT_ACTRL_DS_LIST
 
-The right to list child objects of this object. For more information about this right, see <a href="https://docs.microsoft.com/windows/desktop/AD/controlling-object-visibility">Controlling Object Visibility</a>.
+The right to list child objects of this object. For more information about this right, see <a href="/windows/desktop/AD/controlling-object-visibility">Controlling Object Visibility</a>.
 
 ### -field ADS_RIGHT_DS_SELF
 
@@ -135,7 +135,7 @@ The right to delete all child objects of this object, regardless of the permissi
 
 ### -field ADS_RIGHT_DS_LIST_OBJECT
 
-The right to list a particular object. If the user is not granted such a right, and the user does not have <b>ADS_RIGHT_ACTRL_DS_LIST</b> set on the object parent, the object is hidden from the user. This right is ignored if the third character of the <a href="https://docs.microsoft.com/windows/desktop/ADSchema/a-dsheuristics">dSHeuristics</a> property is '0' or not set. For more information, see <a href="https://docs.microsoft.com/windows/desktop/AD/controlling-object-visibility">Controlling Object Visibility</a>.
+The right to list a particular object. If the user is not granted such a right, and the user does not have <b>ADS_RIGHT_ACTRL_DS_LIST</b> set on the object parent, the object is hidden from the user. This right is ignored if the third character of the <a href="/windows/desktop/ADSchema/a-dsheuristics">dSHeuristics</a> property is '0' or not set. For more information, see <a href="/windows/desktop/AD/controlling-object-visibility">Controlling Object Visibility</a>.
 
 ### -field ADS_RIGHT_DS_CONTROL_ACCESS
 
@@ -149,7 +149,7 @@ To assign access rights to an object, set the <b>AccessMask</b> field of an
     <b>ACEType</b>, <b>ACEFlags</b>, 
     <b>ObjectType</b>, <b>InheritedObjectType</b>, 
     <b>Flags</b>, and <b>Trustee</b>. The 
-    <a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsaccesscontrolentry">IADsAccessControlEntry</a> interface provides property 
+    <a href="/windows/desktop/api/iads/nn-iads-iadsaccesscontrolentry">IADsAccessControlEntry</a> interface provides property 
     methods to obtain and modify these fields.
 
 The <b>ObjectType</b> field specifies a <b>GUID</b> that 
@@ -173,11 +173,11 @@ The specific access rights granted by the four generic rights enumerations
     <b>DS_GENERIC_READ</b>, <b>DS_GENERIC_WRITE</b>, 
     <b>DS_GENERIC_EXECUTE</b>, and <b>DS_GENERIC_ALL</b>. For more 
     information about how to use the  Access Right and Access Masks, see 
-    <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/access-control">Access Control</a>.
+    <a href="/windows/desktop/SecAuthZ/access-control">Access Control</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-enumerations">ADSI Enumerations</a>
+<a href="/windows/desktop/ADSI/adsi-enumerations">ADSI Enumerations</a>
 
 
 
@@ -185,21 +185,20 @@ The specific access rights granted by the four generic rights enumerations
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/access-control">Access Control</a>
+<a href="/windows/desktop/SecAuthZ/access-control">Access Control</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/access-rights-and-access-masks">Access Rights and Access Masks</a>
+<a href="/windows/desktop/SecAuthZ/access-rights-and-access-masks">Access Rights and Access Masks</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/directory-services-access-rights">Directory Services Access Rights</a>
+<a href="/windows/desktop/SecAuthZ/directory-services-access-rights">Directory Services Access Rights</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsaccesscontrolentry">IADsAccessControlEntry</a>
+<a href="/windows/desktop/api/iads/nn-iads-iadsaccesscontrolentry">IADsAccessControlEntry</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/iadsaccesscontrolentry-property-methods">IADsAccessControlEntry.AccessMask</a>
-
+<a href="/windows/desktop/ADSI/iadsaccesscontrolentry-property-methods">IADsAccessControlEntry.AccessMask</a>

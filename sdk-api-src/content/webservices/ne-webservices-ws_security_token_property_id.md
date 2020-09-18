@@ -52,37 +52,37 @@ api_name:
 
 Defines the keys for the fields and properties that can be extracted
 from a security token.  Not all properties are valid for all security
-token types.  The function <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsgetsecuritytokenproperty">WsGetSecurityTokenProperty</a> uses
+token types.  The function <a href="/windows/desktop/api/webservices/nf-webservices-wsgetsecuritytokenproperty">WsGetSecurityTokenProperty</a> uses
 the values defined here as keys.
             
 
-See also <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_security_binding_property">WS_SECURITY_BINDING_PROPERTY</a>.
+See also <a href="/windows/desktop/api/webservices/ns-webservices-ws_security_binding_property">WS_SECURITY_BINDING_PROPERTY</a>.
 
 ## -enum-fields
 
 ### -field WS_SECURITY_TOKEN_PROPERTY_KEY_TYPE
 
-The accompanying <b>value</b> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsgetsecuritytokenproperty">WsGetSecurityTokenProperty</a> function is a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_security_key_type">WS_SECURITY_KEY_TYPE</a> value indicating the type of the proof key of the security token.
+The accompanying <b>value</b> parameter of the <a href="/windows/desktop/api/webservices/nf-webservices-wsgetsecuritytokenproperty">WsGetSecurityTokenProperty</a> function is a <a href="/windows/desktop/api/webservices/ne-webservices-ws_security_key_type">WS_SECURITY_KEY_TYPE</a> value indicating the type of the proof key of the security token.
 
 ### -field WS_SECURITY_TOKEN_PROPERTY_VALID_FROM_TIME
 
-The accompanying <b>value</b> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsgetsecuritytokenproperty">WsGetSecurityTokenProperty</a> function is a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_datetime">WS_DATETIME</a> structure containing the time from when the security token is valid.  For a security token
+The accompanying <b>value</b> parameter of the <a href="/windows/desktop/api/webservices/nf-webservices-wsgetsecuritytokenproperty">WsGetSecurityTokenProperty</a> function is a <a href="/windows/desktop/api/webservices/ns-webservices-ws_datetime">WS_DATETIME</a> structure containing the time from when the security token is valid.  For a security token
 that does not define an explicit start time for its validity period, a
 <b>WS_DATETIME</b> with a tick count of 0 is returned.
 
 ### -field WS_SECURITY_TOKEN_PROPERTY_VALID_TILL_TIME
 
-The accompanying <b>value</b> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsgetsecuritytokenproperty">WsGetSecurityTokenProperty</a> function is a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_datetime">WS_DATETIME</a> structure containing the point in time at which a currently valid security token becomes invalid.  For a security token
+The accompanying <b>value</b> parameter of the <a href="/windows/desktop/api/webservices/nf-webservices-wsgetsecuritytokenproperty">WsGetSecurityTokenProperty</a> function is a <a href="/windows/desktop/api/webservices/ns-webservices-ws_datetime">WS_DATETIME</a> structure containing the point in time at which a currently valid security token becomes invalid.  For a security token
 that does not define an explicit end time for its validity period, a
 <b>WS_DATETIME</b> with a tick count of 0 is returned.
 
 ### -field WS_SECURITY_TOKEN_PROPERTY_SERIALIZED_XML
 
-The accompanying <b>value</b> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsgetsecuritytokenproperty">WsGetSecurityTokenProperty</a> function is a pointer to a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-xml-buffer">WS_XML_BUFFER</a> containing the XML wire form of the security token.
+The accompanying <b>value</b> parameter of the <a href="/windows/desktop/api/webservices/nf-webservices-wsgetsecuritytokenproperty">WsGetSecurityTokenProperty</a> function is a pointer to a <a href="/windows/desktop/wsw/ws-xml-buffer">WS_XML_BUFFER</a> containing the XML wire form of the security token.
 
 ### -field WS_SECURITY_TOKEN_PROPERTY_ATTACHED_REFERENCE_XML
 
-The accompanying <b>value</b> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsgetsecuritytokenproperty">WsGetSecurityTokenProperty</a> function is a pointer to a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-xml-buffer">WS_XML_BUFFER</a> containing
+The accompanying <b>value</b> parameter of the <a href="/windows/desktop/api/webservices/nf-webservices-wsgetsecuritytokenproperty">WsGetSecurityTokenProperty</a> function is a pointer to a <a href="/windows/desktop/wsw/ws-xml-buffer">WS_XML_BUFFER</a> containing
 the XML wire form of the attached reference to the security token.
 Attached references are used to refer to a security token when the
 security token and its referring point (such as a signature using that
@@ -90,7 +90,7 @@ token) both occur in the same message.
 
 ### -field WS_SECURITY_TOKEN_PROPERTY_UNATTACHED_REFERENCE_XML
 
-The accompanying <b>value</b> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsgetsecuritytokenproperty">WsGetSecurityTokenProperty</a> function is a pointer to a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-xml-buffer">WS_XML_BUFFER</a> containing
+The accompanying <b>value</b> parameter of the <a href="/windows/desktop/api/webservices/nf-webservices-wsgetsecuritytokenproperty">WsGetSecurityTokenProperty</a> function is a pointer to a <a href="/windows/desktop/wsw/ws-xml-buffer">WS_XML_BUFFER</a> containing
 the XML wire form of the unattached reference to the security token.
 Unattached references are used to refer to a security token when the
 security token does not occur in the same message as its referring
@@ -98,18 +98,17 @@ point (such as a signature using that token).
 
 ### -field WS_SECURITY_TOKEN_PROPERTY_SYMMETRIC_KEY
 
-The accompanying <b>value</b> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsgetsecuritytokenproperty">WsGetSecurityTokenProperty</a> function is a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_bytes">WS_BYTES</a> structure containing
-                    the raw key data of the symmetric token key. This property is available when <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_security_token_property_id">WS_SECURITY_TOKEN_PROPERTY_KEY_TYPE</a> is
-                    <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_security_key_type">WS_SECURITY_KEY_TYPE_SYMMETRIC</a>.
+The accompanying <b>value</b> parameter of the <a href="/windows/desktop/api/webservices/nf-webservices-wsgetsecuritytokenproperty">WsGetSecurityTokenProperty</a> function is a pointer to a <a href="/windows/desktop/api/webservices/ns-webservices-ws_bytes">WS_BYTES</a> structure containing
+                    the raw key data of the symmetric token key. This property is available when <a href="/windows/desktop/api/webservices/ne-webservices-ws_security_token_property_id">WS_SECURITY_TOKEN_PROPERTY_KEY_TYPE</a> is
+                    <a href="/windows/desktop/api/webservices/ne-webservices-ws_security_key_type">WS_SECURITY_KEY_TYPE_SYMMETRIC</a>.
                 
 
-If the token was obtained via <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsrequestsecuritytoken">WsRequestSecurityToken</a>, the returned buffer contains key material generated during 
+If the token was obtained via <a href="/windows/desktop/api/webservices/nf-webservices-wsrequestsecuritytoken">WsRequestSecurityToken</a>, the returned buffer contains key material generated during 
                     the token request, which is either entropy generated by the client, entropy generated by the server or key material derived from from both client 
-                    and server entropy, depending on <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_request_security_token_property_id">WS_REQUEST_SECURITY_TOKEN_PROPERTY_ISSUED_TOKEN_KEY_ENTROPY</a>.
+                    and server entropy, depending on <a href="/windows/desktop/api/webservices/ne-webservices-ws_request_security_token_property_id">WS_REQUEST_SECURITY_TOKEN_PROPERTY_ISSUED_TOKEN_KEY_ENTROPY</a>.
                 
 
-When using this property with <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsgetsecuritytokenproperty">WsGetSecurityTokenProperty</a>, the 'heap' parameter must be non-NULL.
+When using this property with <a href="/windows/desktop/api/webservices/nf-webservices-wsgetsecuritytokenproperty">WsGetSecurityTokenProperty</a>, the 'heap' parameter must be non-NULL.
                 
 
 The returned buffer should be securely erased or encrypted immediately after use to prevent leaking of sensitive data.
-

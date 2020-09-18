@@ -110,9 +110,8 @@ This method returns JOYERR_NOERROR when passed a valid joystick identifier that 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/joysticks">Joysticks</a>
+<a href="/windows/desktop/Multimedia/joysticks">Joysticks</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/multimedia-joystick-functions">Multimedia Joystick Functions</a>
-
+<a href="/windows/desktop/Multimedia/multimedia-joystick-functions">Multimedia Joystick Functions</a>

@@ -50,11 +50,11 @@ api_name:
 
 ## -description
 
-Provides methods that enable an application using the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms646942(v=vs.85)">PrintDlgEx</a> function to retrieve information about the currently selected printer.
+Provides methods that enable an application using the <a href="/previous-versions/windows/desktop/legacy/ms646942(v=vs.85)">PrintDlgEx</a> function to retrieve information about the currently selected printer.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPrintDialogServices</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPrintDialogServices</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPrintDialogServices</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPrintDialogServices</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,28 +69,28 @@ The <b>IPrintDialogServices</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/commdlg/nf-commdlg-getcurrentdevmode">GetCurrentDevMode</a>
+<a href="/windows/desktop/api/commdlg/nf-commdlg-getcurrentdevmode">GetCurrentDevMode</a>
 </td>
 <td align="left" width="63%">
-Fills a <a href="/windows/win32/api/wingdi/ns-wingdi-devmodea">DEVMODE</a> structure with information about the currently selected printer for use with <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms646942(v=vs.85)">PrintDlgEx</a>.
+Fills a <a href="/windows/win32/api/wingdi/ns-wingdi-devmodea">DEVMODE</a> structure with information about the currently selected printer for use with <a href="/previous-versions/windows/desktop/legacy/ms646942(v=vs.85)">PrintDlgEx</a>.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/commdlg/nf-commdlg-getcurrentportname">GetCurrentPortName</a>
+<a href="/windows/desktop/api/commdlg/nf-commdlg-getcurrentportname">GetCurrentPortName</a>
 </td>
 <td align="left" width="63%">
-Retrieves the name of the current port for use with <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms646942(v=vs.85)">PrintDlgEx</a>.
+Retrieves the name of the current port for use with <a href="/previous-versions/windows/desktop/legacy/ms646942(v=vs.85)">PrintDlgEx</a>.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/commdlg/nf-commdlg-getcurrentprintername">GetCurrentPrinterName</a>
+<a href="/windows/desktop/api/commdlg/nf-commdlg-getcurrentprintername">GetCurrentPrinterName</a>
 </td>
 <td align="left" width="63%">
-Retrieves the name of the currently selected printer, for use with <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms646942(v=vs.85)">PrintDlgEx</a>.
+Retrieves the name of the currently selected printer, for use with <a href="/previous-versions/windows/desktop/legacy/ms646942(v=vs.85)">PrintDlgEx</a>.
 
 </td>
 </tr>
@@ -98,5 +98,4 @@ Retrieves the name of the currently selected printer, for use with <a href="http
 
 ## -remarks
 
-This printer is indicated on the list of installed printers on the <b>General</b> page of the <a href="https://docs.microsoft.com/windows/desktop/dlgbox/print-property-sheet">Print Property Sheet</a>.
-
+This printer is indicated on the list of installed printers on the <b>General</b> page of the <a href="/windows/desktop/dlgbox/print-property-sheet">Print Property Sheet</a>.

@@ -70,24 +70,23 @@ A pointer to the request ID value.
 
 Upon successful completion of this function, *<i>pRequestId</i> is set to the value of the request ID.
 
-If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
+If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 <h3>VB</h3>
  The return value specifies the current internal request number for the request and subsequent certificate.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certcli/nn-certcli-icertrequest">CCertRequest</a>
+<a href="/windows/desktop/api/certcli/nn-certcli-icertrequest">CCertRequest</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certcli/nn-certcli-icertrequest">ICertRequest</a>
+<a href="/windows/desktop/api/certcli/nn-certcli-icertrequest">ICertRequest</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certcli/nn-certcli-icertrequest2">ICertRequest2</a>
+<a href="/windows/desktop/api/certcli/nn-certcli-icertrequest2">ICertRequest2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certcli/nn-certcli-icertrequest3">ICertRequest3</a>
-
+<a href="/windows/desktop/api/certcli/nn-certcli-icertrequest3">ICertRequest3</a>

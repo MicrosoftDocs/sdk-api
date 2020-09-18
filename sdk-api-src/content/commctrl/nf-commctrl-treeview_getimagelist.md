@@ -50,19 +50,19 @@ api_name:
 
 ## -description
 
-Retrieves the handle to the normal or state image list associated with a tree-view control. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/tvm-getimagelist">TVM_GETIMAGELIST</a> message explicitly.
+Retrieves the handle to the normal or state image list associated with a tree-view control. You can use this macro or send the <a href="/windows/desktop/Controls/tvm-getimagelist">TVM_GETIMAGELIST</a> message explicitly.
 
 ## -parameters
 
 ### -param hwnd
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 Handle to the tree-view control.
 
 ### -param iImage
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">INT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">INT</a></b>
 
 Type of image list to retrieve. This parameter can be one of the following values: 
 
@@ -95,5 +95,4 @@ Indicates the state image list. You can use state images to indicate application
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-treeview_setimagelist">TreeView_SetImageList</a>
-
+<a href="/windows/desktop/api/commctrl/nf-commctrl-treeview_setimagelist">TreeView_SetImageList</a>

@@ -53,7 +53,7 @@ api_name:
 ## -description
 
 The <b>IPSEC_STATISTICS1</b> structure is the  top-level of the IPsec statistics structures.
-[IPSEC_STATISTICS0](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_statistics0) is available.</div><div> </div>
+[IPSEC_STATISTICS0](/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_statistics0) is available.</div><div> </div>
 
 ## -struct-fields
 
@@ -75,11 +75,11 @@ The <b>IPSEC_STATISTICS1</b> structure is the  top-level of the IPsec statistics
 
 ### -field inboundTrafficStatistics
 
-[IPSEC_TRAFFIC_STATISTICS1](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_traffic_statistics1) structure containing IPsec inbound traffic statistics.
+[IPSEC_TRAFFIC_STATISTICS1](/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_traffic_statistics1) structure containing IPsec inbound traffic statistics.
 
 ### -field outboundTrafficStatistics
 
-[IPSEC_TRAFFIC_STATISTICS1](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_traffic_statistics1) structure containing IPsec outbound traffic statistics.
+[IPSEC_TRAFFIC_STATISTICS1](/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_traffic_statistics1) structure containing IPsec outbound traffic statistics.
 
 ## -see-also
 
@@ -99,9 +99,8 @@ The <b>IPSEC_STATISTICS1</b> structure is the  top-level of the IPsec statistics
 
 
 
-[IPSEC_TRAFFIC_STATISTICS1](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_traffic_statistics1)
+[IPSEC_TRAFFIC_STATISTICS1](/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_traffic_statistics1)
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>
-
+<a href="/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>

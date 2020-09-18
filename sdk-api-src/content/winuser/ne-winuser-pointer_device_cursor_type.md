@@ -78,5 +78,4 @@ Cursor objects represent pointing and selecting devices used with digitizer devi
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/input_pointerdevice/enumerations">Enumerations</a>
-
+<a href="/previous-versions/windows/desktop/input_pointerdevice/enumerations">Enumerations</a>

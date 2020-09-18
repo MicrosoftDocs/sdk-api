@@ -62,7 +62,7 @@ A pointer to a constant string that specifies the DNS or NetBIOS name of the com
 ### -param lpNewMachineName [in]
 
 A pointer to a constant string that specifies the new name of the computer. If specified, the local computer name is changed as well. If this parameter is <b>NULL</b>, the function assumes you have already called the 
-<a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-setcomputernameexa">SetComputerNameEx</a> function.
+<a href="/windows/desktop/api/sysinfoapi/nf-sysinfoapi-setcomputernameexa">SetComputerNameEx</a> function.
 
 ### -param lpAccount [in]
 
@@ -81,7 +81,7 @@ The rename options. If this parameter is NETSETUP_ACCT_CREATE, the function rena
 If the function succeeds, the return value is NERR_Success.
 
 If the function fails, the return value can be one of the following error codes or one of the 
-<a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error codes</a>.
+<a href="/windows/desktop/Debug/system-error-codes">system error codes</a>.
 
 <table>
 <tr>
@@ -148,35 +148,34 @@ A system reboot is required after calling the <b>NetRenameMachineInDomain</b> fu
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmjoin/nf-lmjoin-netaddalternatecomputername">NetAddAlternateComputerName</a>
+<a href="/windows/desktop/api/lmjoin/nf-lmjoin-netaddalternatecomputername">NetAddAlternateComputerName</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmjoin/nf-lmjoin-netenumeratecomputernames">NetEnumerateComputerNames</a>
+<a href="/windows/desktop/api/lmjoin/nf-lmjoin-netenumeratecomputernames">NetEnumerateComputerNames</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmjoin/nf-lmjoin-netremovealternatecomputername">NetRemoveAlternateComputerName</a>
+<a href="/windows/desktop/api/lmjoin/nf-lmjoin-netremovealternatecomputername">NetRemoveAlternateComputerName</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmjoin/nf-lmjoin-netsetprimarycomputername">NetSetPrimaryComputerName</a>
+<a href="/windows/desktop/api/lmjoin/nf-lmjoin-netsetprimarycomputername">NetSetPrimaryComputerName</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmjoin/nf-lmjoin-netunjoindomain">NetUnjoinDomain</a>
+<a href="/windows/desktop/api/lmjoin/nf-lmjoin-netunjoindomain">NetUnjoinDomain</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management-functions">Network
+<a href="/windows/desktop/NetMgmt/network-management-functions">Network
 		  Management Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management">Network Management
+<a href="/windows/desktop/NetMgmt/network-management">Network Management
 		  Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-setcomputernameexa">SetComputerNameEx</a>
-
+<a href="/windows/desktop/api/sysinfoapi/nf-sysinfoapi-setcomputernameexa">SetComputerNameEx</a>

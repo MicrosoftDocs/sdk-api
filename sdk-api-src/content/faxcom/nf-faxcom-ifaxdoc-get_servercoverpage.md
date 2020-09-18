@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-Sets or retrieves the <b>ServerCoverpage</b> property for a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxdoc">FaxDoc</a> object. The <b>ServerCoverpage</b> property is a Boolean value that indicates whether the specified cover page file is stored on the fax server.
+Sets or retrieves the <b>ServerCoverpage</b> property for a <a href="/previous-versions/windows/desktop/fax/-mfax-faxdoc">FaxDoc</a> object. The <b>ServerCoverpage</b> property is a Boolean value that indicates whether the specified cover page file is stored on the fax server.
 
 This property is read/write.
 
@@ -60,29 +60,28 @@ This property is read/write.
 
 ## -remarks
 
-You can send a common cover page or a personal cover page with a fax document. For more information, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-cover-pages">Cover Pages</a> and <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-sending-a-cover-page">Sending a Cover Page</a>.
+You can send a common cover page or a personal cover page with a fax document. For more information, see <a href="/previous-versions/windows/desktop/fax/-mfax-cover-pages">Cover Pages</a> and <a href="/previous-versions/windows/desktop/fax/-mfax-sending-a-cover-page">Sending a Cover Page</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-fax-service-client-api-interfaces">Fax Service Client API Interfaces</a>
+<a href="/previous-versions/windows/desktop/fax/-mfax-fax-service-client-api-interfaces">Fax Service Client API Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-fax-service-client-api-for-windows-2000">Fax Service Client API for Windows 2000</a>
+<a href="/previous-versions/windows/desktop/fax/-mfax-fax-service-client-api-for-windows-2000">Fax Service Client API for Windows 2000</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcom/nn-faxcom-ifaxdoc">IFaxDoc</a>
+<a href="/previous-versions/windows/desktop/api/faxcom/nn-faxcom-ifaxdoc">IFaxDoc</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-ifaxdoc-get-coverpagename-vb">IFaxDoc::put_CoverpageName Method</a>
+<a href="/previous-versions/windows/desktop/fax/-mfax-ifaxdoc-get-coverpagename-vb">IFaxDoc::put_CoverpageName Method</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-ifaxdoc-get-filename-vb">IFaxDoc::put_FileName Method</a>
+<a href="/previous-versions/windows/desktop/fax/-mfax-ifaxdoc-get-filename-vb">IFaxDoc::put_FileName Method</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-ifaxdoc-get-sendcoverpage-vb">IFaxDoc::put_SendCoverpage Method</a>
-
+<a href="/previous-versions/windows/desktop/fax/-mfax-ifaxdoc-get-sendcoverpage-vb">IFaxDoc::put_SendCoverpage Method</a>

@@ -63,7 +63,7 @@ Handle of the CAP change notification subscription to unregister.
 If the function succeeds, it returns <b>TRUE</b>.
 
 If the function fails, it returns <b>FALSE</b>. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
@@ -71,13 +71,12 @@ This function blocks operations until all callbacks are complete. Do not call th
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/authz/nf-authz-authzregistercapchangenotification">AuthzRegisterCapChangeNotification</a>
+<a href="/windows/desktop/api/authz/nf-authz-authzregistercapchangenotification">AuthzRegisterCapChangeNotification</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/central-authorization-policies">Central Access Policies</a>
+<a href="/windows/desktop/SecAuthZ/central-authorization-policies">Central Access Policies</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/how-dacls-control-access-to-an-object">How AccessCheck Works</a>
-
+<a href="/windows/desktop/SecAuthZ/how-dacls-control-access-to-an-object">How AccessCheck Works</a>

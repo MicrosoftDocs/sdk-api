@@ -56,7 +56,7 @@ The <b>IsRuleGroupEnabled</b> method determines whether a specified group of fir
 
 ### -param profileTypesBitmask [in]
 
-A bitmask of profiles from <a href="https://docs.microsoft.com/windows/win32/api/icftypes/ne-icftypes-net_fw_profile_type2">NET_FW_PROFILE_TYPE2</a>.
+A bitmask of profiles from <a href="/windows/win32/api/icftypes/ne-icftypes-net_fw_profile_type2">NET_FW_PROFILE_TYPE2</a>.
 
 ### -param group [in]
 
@@ -136,5 +136,4 @@ When indirect strings in the form of "@yourresourcedll.dll,-23255" are passed as
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nn-netfw-inetfwpolicy2">INetFwPolicy2</a>
-
+<a href="/previous-versions/windows/desktop/api/netfw/nn-netfw-inetfwpolicy2">INetFwPolicy2</a>

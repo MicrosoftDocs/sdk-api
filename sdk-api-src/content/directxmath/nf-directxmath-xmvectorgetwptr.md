@@ -50,14 +50,14 @@ api_name:
 
 ## -description
 
-Retrieve the <code>w</code> component of an <a href="https://docs.microsoft.com/windows/desktop/dxmath/xmvector-data-type">XMVECTOR Data Type</a> containing floating-point data, and storing that
+Retrieve the <code>w</code> component of an <a href="/windows/desktop/dxmath/xmvector-data-type">XMVECTOR Data Type</a> containing floating-point data, and storing that
   component's value in an instance of float referred to by a pointer.
 
 ## -parameters
 
 ### -param w [out]
 
-Pointer to a float that will receive the value of the <code>w</code> element of the <a href="https://docs.microsoft.com/windows/desktop/dxmath/xmvector-data-type">XMVECTOR Data Type</a> object
+Pointer to a float that will receive the value of the <code>w</code> element of the <a href="/windows/desktop/dxmath/xmvector-data-type">XMVECTOR Data Type</a> object
         <code>V</code>.
 
 ### -param V
@@ -75,5 +75,4 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/dxmath/ovw-xnamath-reference-functions-accessors">DirectXMath Library Vector Accessor Functions</a>
-
+<a href="/windows/desktop/dxmath/ovw-xnamath-reference-functions-accessors">DirectXMath Library Vector Accessor Functions</a>

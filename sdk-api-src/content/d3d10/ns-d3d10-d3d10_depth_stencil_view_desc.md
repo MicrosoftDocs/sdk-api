@@ -50,57 +50,57 @@ api_name:
 
 ## -description
 
-Specifies the <a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-programming-guide-resources-types">subresource(s)</a> from a texture that are accessible using a depth-stencil view.
+Specifies the <a href="/windows/desktop/direct3d10/d3d10-graphics-programming-guide-resources-types">subresource(s)</a> from a texture that are accessible using a depth-stencil view.
 
 ## -struct-fields
 
 ### -field Format
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format">DXGI_FORMAT</a></b>
+Type: <b><a href="/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format">DXGI_FORMAT</a></b>
 
-Resource data  format (see <a href="https://docs.microsoft.com/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format">DXGI_FORMAT</a>). See remarks for allowable formats.
+Resource data  format (see <a href="/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format">DXGI_FORMAT</a>). See remarks for allowable formats.
 
 ### -field ViewDimension
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d10/ne-d3d10-d3d10_dsv_dimension">D3D10_DSV_DIMENSION</a></b>
+Type: <b><a href="/windows/desktop/api/d3d10/ne-d3d10-d3d10_dsv_dimension">D3D10_DSV_DIMENSION</a></b>
 
-Type of resource (see <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/ne-d3d10-d3d10_dsv_dimension">D3D10_DSV_DIMENSION</a>). Specifies how a depth-stencil resource will be accessed; the value is stored in the union in this structure.
+Type of resource (see <a href="/windows/desktop/api/d3d10/ne-d3d10-d3d10_dsv_dimension">D3D10_DSV_DIMENSION</a>). Specifies how a depth-stencil resource will be accessed; the value is stored in the union in this structure.
 
 ### -field Texture1D
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d10/ns-d3d10-d3d10_tex1d_dsv">D3D10_TEX1D_DSV</a></b>
+Type: <b><a href="/windows/desktop/api/d3d10/ns-d3d10-d3d10_tex1d_dsv">D3D10_TEX1D_DSV</a></b>
 
-Specifies a 1D texture subresource (see <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/ns-d3d10-d3d10_tex1d_dsv">D3D10_TEX1D_DSV</a>).
+Specifies a 1D texture subresource (see <a href="/windows/desktop/api/d3d10/ns-d3d10-d3d10_tex1d_dsv">D3D10_TEX1D_DSV</a>).
 
 ### -field Texture1DArray
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d10/ns-d3d10-d3d10_tex1d_array_dsv">D3D10_TEX1D_ARRAY_DSV</a></b>
+Type: <b><a href="/windows/desktop/api/d3d10/ns-d3d10-d3d10_tex1d_array_dsv">D3D10_TEX1D_ARRAY_DSV</a></b>
 
-Specifies an array of 1D texture subresources (see <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/ns-d3d10-d3d10_tex1d_array_dsv">D3D10_TEX1D_ARRAY_DSV</a>).
+Specifies an array of 1D texture subresources (see <a href="/windows/desktop/api/d3d10/ns-d3d10-d3d10_tex1d_array_dsv">D3D10_TEX1D_ARRAY_DSV</a>).
 
 ### -field Texture2D
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d10/ns-d3d10-d3d10_tex2d_dsv">D3D10_TEX2D_DSV</a></b>
+Type: <b><a href="/windows/desktop/api/d3d10/ns-d3d10-d3d10_tex2d_dsv">D3D10_TEX2D_DSV</a></b>
 
-Specifies a 2D texture subresource (see <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/ns-d3d10-d3d10_tex2d_dsv">D3D10_TEX2D_DSV</a>).
+Specifies a 2D texture subresource (see <a href="/windows/desktop/api/d3d10/ns-d3d10-d3d10_tex2d_dsv">D3D10_TEX2D_DSV</a>).
 
 ### -field Texture2DArray
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d10/ns-d3d10-d3d10_tex2d_array_dsv">D3D10_TEX2D_ARRAY_DSV</a></b>
+Type: <b><a href="/windows/desktop/api/d3d10/ns-d3d10-d3d10_tex2d_array_dsv">D3D10_TEX2D_ARRAY_DSV</a></b>
 
-Specifies an array of 2D texture subresources (see <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/ns-d3d10-d3d10_tex2d_array_dsv">D3D10_TEX2D_ARRAY_DSV</a>).
+Specifies an array of 2D texture subresources (see <a href="/windows/desktop/api/d3d10/ns-d3d10-d3d10_tex2d_array_dsv">D3D10_TEX2D_ARRAY_DSV</a>).
 
 ### -field Texture2DMS
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d10/ns-d3d10-d3d10_tex2dms_dsv">D3D10_TEX2DMS_DSV</a></b>
+Type: <b><a href="/windows/desktop/api/d3d10/ns-d3d10-d3d10_tex2dms_dsv">D3D10_TEX2DMS_DSV</a></b>
 
-Specifies a multisampled 2D texture contains a single subresource (see <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/ns-d3d10-d3d10_tex2dms_dsv">D3D10_TEX2DMS_DSV</a>).
+Specifies a multisampled 2D texture contains a single subresource (see <a href="/windows/desktop/api/d3d10/ns-d3d10-d3d10_tex2dms_dsv">D3D10_TEX2DMS_DSV</a>).
 
 ### -field Texture2DMSArray
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d10/ns-d3d10-d3d10_tex2dms_array_dsv">D3D10_TEX2DMS_ARRAY_DSV</a></b>
+Type: <b><a href="/windows/desktop/api/d3d10/ns-d3d10-d3d10_tex2dms_array_dsv">D3D10_TEX2DMS_ARRAY_DSV</a></b>
 
-Specifies a multisampled 2D texture contains a single subresource per texture (see <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/ns-d3d10-d3d10_tex2dms_array_dsv">D3D10_TEX2DMS_ARRAY_DSV</a>).
+Specifies a multisampled 2D texture contains a single subresource per texture (see <a href="/windows/desktop/api/d3d10/ns-d3d10-d3d10_tex2dms_array_dsv">D3D10_TEX2DMS_ARRAY_DSV</a>).
 
 ## -remarks
 
@@ -113,11 +113,10 @@ These are valid formats for a depth-stencil view:
 <li>DXGI_FORMAT_D32_FLOAT_S8X24_UINT</li>
 <li>DXGI_FORMAT_UNKNOWN</li>
 </ul>
-A depth-stencil view cannot use a <a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-programming-guide-resources-access-views">typeless format</a>.  If the format chosen is DXGI_FORMAT_UNKNOWN, then the format of the parent resource is used.
+A depth-stencil view cannot use a <a href="/windows/desktop/direct3d10/d3d10-graphics-programming-guide-resources-access-views">typeless format</a>.  If the format chosen is DXGI_FORMAT_UNKNOWN, then the format of the parent resource is used.
 
-A depth-stencil-view description is needed when calling <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nf-d3d10-id3d10device-createdepthstencilview">ID3D10Device::CreateDepthStencilView</a>.
+A depth-stencil-view description is needed when calling <a href="/windows/desktop/api/d3d10/nf-d3d10-id3d10device-createdepthstencilview">ID3D10Device::CreateDepthStencilView</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-reference-resource-structures">Resource Structures</a>
-
+<a href="/windows/desktop/direct3d10/d3d10-graphics-reference-resource-structures">Resource Structures</a>

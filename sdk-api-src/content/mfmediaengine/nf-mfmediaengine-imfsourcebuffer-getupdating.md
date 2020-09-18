@@ -50,15 +50,14 @@ api_name:
 
 ## -description
 
-Gets a value that indicates  if <a href="https://docs.microsoft.com/windows/desktop/medfound/imfsourcebuffer-append">Append</a>, <a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfsourcebuffer-appendbytestream">AppendByteStream</a>, or <a href="https://docs.microsoft.com/windows/desktop/medfound/imfsourcebuffer-remove">Remove</a> is in process.
+Gets a value that indicates  if <a href="/windows/desktop/medfound/imfsourcebuffer-append">Append</a>, <a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfsourcebuffer-appendbytestream">AppendByteStream</a>, or <a href="/windows/desktop/medfound/imfsourcebuffer-remove">Remove</a> is in process.
 
 ## -parameters
 
 ## -returns
 
-<b>true</b> if <a href="https://docs.microsoft.com/windows/desktop/medfound/imfsourcebuffer-append">Append</a>, <a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfsourcebuffer-appendbytestream">AppendByteStream</a>, or <a href="https://docs.microsoft.com/windows/desktop/medfound/imfsourcebuffer-remove">Remove</a>; otherwise, <b>false</b>.
+<b>true</b> if <a href="/windows/desktop/medfound/imfsourcebuffer-append">Append</a>, <a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfsourcebuffer-appendbytestream">AppendByteStream</a>, or <a href="/windows/desktop/medfound/imfsourcebuffer-remove">Remove</a>; otherwise, <b>false</b>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfsourcebuffer">IMFSourceBuffer</a>
-
+<a href="/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfsourcebuffer">IMFSourceBuffer</a>

@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-The <b>DRM_VIDEO_OUTPUT_PROTECTION_IDS</b> structure holds an array of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-drm_output_protection">DRM_VIDEO_OUTPUT_PROTECTION</a> structures.
+The <b>DRM_VIDEO_OUTPUT_PROTECTION_IDS</b> structure holds an array of <a href="/previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-drm_output_protection">DRM_VIDEO_OUTPUT_PROTECTION</a> structures.
 
 ## -struct-fields
 
@@ -66,13 +66,12 @@ Address of an array of <b>DRM_VIDEO_OUTPUT_PROTECTION</b> structures.
 
 ## -remarks
 
-This structure is used as a member of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-drm_play_opl">DRM_PLAY_OPL</a> structure.
+This structure is used as a member of the <a href="/previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-drm_play_opl">DRM_PLAY_OPL</a> structure.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-drm_output_protection">DRM_VIDEO_OUTPUT_PROTECTION</a>
+<a href="/previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-drm_output_protection">DRM_VIDEO_OUTPUT_PROTECTION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/wmformat/structures">Structures</a>
-
+<a href="/windows/desktop/wmformat/structures">Structures</a>

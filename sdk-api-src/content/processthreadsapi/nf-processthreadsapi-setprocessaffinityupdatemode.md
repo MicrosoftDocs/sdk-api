@@ -63,7 +63,7 @@ Sets the affinity update mode of the specified process.
 
 ### -param hProcess [in]
 
-A handle to the process. This handle must be returned by the <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-getcurrentprocess">GetCurrentProcess</a> function.
+A handle to the process. This handle must be returned by the <a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-getcurrentprocess">GetCurrentProcess</a> function.
 
 ### -param dwFlags [in]
 
@@ -103,7 +103,7 @@ Enables dynamic update of the process affinity by the system.
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
@@ -113,9 +113,8 @@ Processes should use this function to indicate whether they can handle dynamic a
 
 Child processes do not inherit the affinity update mode of the parent process. The affinity update mode must be explicitly set for each child process.
 
-To compile an application that calls this function, define _WIN32_WINNT as 0x0600 or later. For more information, see <a href="https://docs.microsoft.com/windows/desktop/WinProg/using-the-windows-headers">Using the Windows Headers</a>.
+To compile an application that calls this function, define _WIN32_WINNT as 0x0600 or later. For more information, see <a href="/windows/desktop/WinProg/using-the-windows-headers">Using the Windows Headers</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-queryprocessaffinityupdatemode">QueryProcessAffinityUpdateMode</a>
-
+<a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-queryprocessaffinityupdatemode">QueryProcessAffinityUpdateMode</a>

@@ -50,11 +50,11 @@ api_name:
 
 ## -description
 
-The <b>IMSVidAudioRenderer</b> interface represents an audio renderer device. It enables applications to control the volume and balance. To retrieve the audio renderer device that is currently active, call the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msvidctl/nf-msvidctl-imsvidctl-get_audiorendereractive">IMSVidCtl::get_AudioRendererActive</a> method.
+The <b>IMSVidAudioRenderer</b> interface represents an audio renderer device. It enables applications to control the volume and balance. To retrieve the audio renderer device that is currently active, call the <a href="/previous-versions/windows/desktop/api/msvidctl/nf-msvidctl-imsvidctl-get_audiorendereractive">IMSVidCtl::get_AudioRendererActive</a> method.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMSVidAudioRenderer</b> interface inherits from <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/msvidoutputdevice">IMSVidOutputDevice</a>. <b>IMSVidAudioRenderer</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMSVidAudioRenderer</b> interface inherits from <a href="/previous-versions/windows/desktop/mstv/msvidoutputdevice">IMSVidOutputDevice</a>. <b>IMSVidAudioRenderer</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IMSVidAudioRenderer</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidaudiorenderer-get_balance">get_Balance</a>
+<a href="/windows/desktop/api/segment/nf-segment-imsvidaudiorenderer-get_balance">get_Balance</a>
 </td>
 <td align="left" width="63%">
 Retrieves the balance level.
@@ -78,7 +78,7 @@ Retrieves the balance level.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidaudiorenderer-get_volume">get_Volume</a>
+<a href="/windows/desktop/api/segment/nf-segment-imsvidaudiorenderer-get_volume">get_Volume</a>
 </td>
 <td align="left" width="63%">
 Retrieves the volume level.
@@ -87,7 +87,7 @@ Retrieves the volume level.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidaudiorenderer-put_balance">put_Balance</a>
+<a href="/windows/desktop/api/segment/nf-segment-imsvidaudiorenderer-put_balance">put_Balance</a>
 </td>
 <td align="left" width="63%">
 Specifies the balance level.
@@ -96,7 +96,7 @@ Specifies the balance level.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidaudiorenderer-put_volume">put_Volume</a>
+<a href="/windows/desktop/api/segment/nf-segment-imsvidaudiorenderer-put_volume">put_Volume</a>
 </td>
 <td align="left" width="63%">
 Specifies the volume level.
@@ -111,9 +111,8 @@ To declare the interface identifier (IID) for this interface, use the <b>__uuido
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/msvidoutputdevice">IMSVidOutputDevice</a>
+<a href="/previous-versions/windows/desktop/mstv/msvidoutputdevice">IMSVidOutputDevice</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/video-control-interfaces">Video Control Interfaces</a>
-
+<a href="/previous-versions/windows/desktop/mstv/video-control-interfaces">Video Control Interfaces</a>

@@ -54,7 +54,7 @@ Enables you to run a set of code in the scope of an existing transaction that yo
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IServiceSysTxnConfig</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-iservicetransactionconfig">IServiceTransactionConfig</a>. <b>IServiceSysTxnConfig</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IServiceSysTxnConfig</b> interface inherits from <a href="/windows/desktop/api/comsvcs/nn-comsvcs-iservicetransactionconfig">IServiceTransactionConfig</a>. <b>IServiceSysTxnConfig</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IServiceSysTxnConfig</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-iservicesystxnconfig-configurebyotsystxn">ConfigureBYOTSysTxn</a>
+<a href="/windows/desktop/api/comsvcs/nf-comsvcs-iservicesystxnconfig-configurebyotsystxn">ConfigureBYOTSysTxn</a>
 </td>
 <td align="left" width="63%">
 Enables you to run the enclosed code in the scope of an existing transaction that you specify with a transaction proxy.
@@ -80,5 +80,4 @@ Enables you to run the enclosed code in the scope of an existing transaction tha
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-iservicetransactionconfig">IServiceTransactionConfig</a>
-
+<a href="/windows/desktop/api/comsvcs/nn-comsvcs-iservicetransactionconfig">IServiceTransactionConfig</a>

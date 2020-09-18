@@ -54,7 +54,7 @@ The <b>ITraceEvent</b> interface  provides access to data relating to a specific
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITraceEvent</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITraceEvent</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITraceEvent</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITraceEvent</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ITraceEvent</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/relogger/nf-relogger-itraceevent-clone">Clone</a>
+<a href="/windows/desktop/api/relogger/nf-relogger-itraceevent-clone">Clone</a>
 </td>
 <td align="left" width="63%">
 Creates a duplicate copy of an event.
@@ -78,7 +78,7 @@ Creates a duplicate copy of an event.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/relogger/nf-relogger-itraceevent-geteventrecord">GetEventRecord</a>
+<a href="/windows/desktop/api/relogger/nf-relogger-itraceevent-geteventrecord">GetEventRecord</a>
 </td>
 <td align="left" width="63%">
 Retrieves the event record that describes an event.
@@ -87,16 +87,16 @@ Retrieves the event record that describes an event.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/relogger/nf-relogger-itraceevent-getusercontext">GetUserContext</a>
+<a href="/windows/desktop/api/relogger/nf-relogger-itraceevent-getusercontext">GetUserContext</a>
 </td>
 <td align="left" width="63%">
-Retrieves the user context (specified by <a href="https://docs.microsoft.com/windows/desktop/api/relogger/nf-relogger-itracerelogger-addlogfiletracestream">ITraceRelogger::AddLogfileTraceStream</a>) associated with the stream to which the event belongs.
+Retrieves the user context (specified by <a href="/windows/desktop/api/relogger/nf-relogger-itracerelogger-addlogfiletracestream">ITraceRelogger::AddLogfileTraceStream</a>) associated with the stream to which the event belongs.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/relogger/nf-relogger-itraceevent-seteventdescriptor">SetEventDescriptor</a>
+<a href="/windows/desktop/api/relogger/nf-relogger-itraceevent-seteventdescriptor">SetEventDescriptor</a>
 </td>
 <td align="left" width="63%">
 Sets the event descriptor for an event.
@@ -105,7 +105,7 @@ Sets the event descriptor for an event.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh706649(v=vs.85)">SetKernelTime</a>
+<a href="/previous-versions/windows/desktop/legacy/hh706649(v=vs.85)">SetKernelTime</a>
 </td>
 <td align="left" width="63%">
 Sets the elapsed execution time for kernel-mode instructions.
@@ -114,7 +114,7 @@ Sets the elapsed execution time for kernel-mode instructions.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/relogger/nf-relogger-itraceevent-setpayload">SetPayload</a>
+<a href="/windows/desktop/api/relogger/nf-relogger-itraceevent-setpayload">SetPayload</a>
 </td>
 <td align="left" width="63%">
 Sets the payload for an event.
@@ -123,7 +123,7 @@ Sets the payload for an event.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/relogger/nf-relogger-itraceevent-setprocessid">SetProcessId</a>
+<a href="/windows/desktop/api/relogger/nf-relogger-itraceevent-setprocessid">SetProcessId</a>
 </td>
 <td align="left" width="63%">
 Sets the process to which an event belongs.
@@ -132,7 +132,7 @@ Sets the process to which an event belongs.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh706652(v=vs.85)">SetProcessorNumber</a>
+<a href="/previous-versions/windows/desktop/legacy/hh706652(v=vs.85)">SetProcessorNumber</a>
 </td>
 <td align="left" width="63%">
 Sets the processor for an event.
@@ -141,7 +141,7 @@ Sets the processor for an event.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/relogger/nf-relogger-itraceevent-setproviderid">SetProviderId</a>
+<a href="/windows/desktop/api/relogger/nf-relogger-itraceevent-setproviderid">SetProviderId</a>
 </td>
 <td align="left" width="63%">
 Sets the provider of an event.
@@ -150,7 +150,7 @@ Sets the provider of an event.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/relogger/nf-relogger-itraceevent-setthreadid">SetThreadId</a>
+<a href="/windows/desktop/api/relogger/nf-relogger-itraceevent-setthreadid">SetThreadId</a>
 </td>
 <td align="left" width="63%">
 Sets the identifier of a thread that generates an event.
@@ -159,7 +159,7 @@ Sets the identifier of a thread that generates an event.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/relogger/nf-relogger-itraceevent-settimestamp">SetTimeStamp</a>
+<a href="/windows/desktop/api/relogger/nf-relogger-itraceevent-settimestamp">SetTimeStamp</a>
 </td>
 <td align="left" width="63%">
 Sets the time at which an event occurred.
@@ -168,7 +168,7 @@ Sets the time at which an event occurred.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh706656(v=vs.85)">SetUserTime</a>
+<a href="/previous-versions/windows/desktop/legacy/hh706656(v=vs.85)">SetUserTime</a>
 </td>
 <td align="left" width="63%">
 Sets the elapsed execution time for user-mode instructions.
@@ -183,9 +183,8 @@ This interface is not supported on Windows 7 for the IA64 architecture.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/relogger/nn-relogger-itraceeventcallback">ITraceEventCallback</a>
+<a href="/windows/desktop/api/relogger/nn-relogger-itraceeventcallback">ITraceEventCallback</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/relogger/nn-relogger-itracerelogger">ITraceRelogger</a>
-
+<a href="/windows/desktop/api/relogger/nn-relogger-itracerelogger">ITraceRelogger</a>

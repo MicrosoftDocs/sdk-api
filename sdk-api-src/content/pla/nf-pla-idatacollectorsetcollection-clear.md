@@ -60,9 +60,8 @@ Returns S_OK if successful.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nn-pla-idatacollectorsetcollection">IDataCollectorSetCollection</a>
+<a href="/previous-versions/windows/desktop/api/pla/nn-pla-idatacollectorsetcollection">IDataCollectorSetCollection</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorsetcollection-remove">IDataCollectorSetCollection::Remove</a>
-
+<a href="/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorsetcollection-remove">IDataCollectorSetCollection::Remove</a>

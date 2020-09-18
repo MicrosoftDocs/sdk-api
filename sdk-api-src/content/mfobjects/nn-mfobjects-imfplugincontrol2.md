@@ -52,11 +52,11 @@ api_name:
 
 Controls how media sources and transforms are enumerated in Microsoft Media Foundation.
 
-This interface extends the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfplugincontrol">IMFPluginControl</a> interface.
+This interface extends the <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfplugincontrol">IMFPluginControl</a> interface.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFPluginControl2</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfplugincontrol">IMFPluginControl</a>. <b>IMFPluginControl2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFPluginControl2</b> interface inherits from <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfplugincontrol">IMFPluginControl</a>. <b>IMFPluginControl2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>IMFPluginControl2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfplugincontrol2-setpolicy">SetPolicy</a>
+<a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfplugincontrol2-setpolicy">SetPolicy</a>
 </td>
 <td align="left" width="63%">
 Sets the policy for which media sources and transforms are enumerated.
@@ -82,13 +82,12 @@ Sets the policy for which media sources and transforms are enumerated.
 
 ## -remarks
 
-To get a pointer to this interface, call <a href="https://docs.microsoft.com/windows/desktop/api/mfapi/nf-mfapi-mfgetplugincontrol">MFGetPluginControl</a>  and query the returned pointer for <b>IMFPluginControl2</b>.
+To get a pointer to this interface, call <a href="/windows/desktop/api/mfapi/nf-mfapi-mfgetplugincontrol">MFGetPluginControl</a>  and query the returned pointer for <b>IMFPluginControl2</b>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfplugincontrol">IMFPluginControl</a>
+<a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfplugincontrol">IMFPluginControl</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
-
+<a href="/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>

@@ -51,18 +51,18 @@ api_name:
 ## -description
 
 The 
-<b>IWbemHiPerfProvider::StopRefreshing</b> method stops refreshing the object or enumerator corresponding to the supplied identifier. The WMI Refresher calls this method in response to a client request to <a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemconfigurerefresher-remove">IWbemConfiguratorRefresher::Remove</a>. The provider should check the objects and enumerators associated with the refresher for a matching identifier. When the provider finds an identifier, the provider should remove or release the enumerator.
+<b>IWbemHiPerfProvider::StopRefreshing</b> method stops refreshing the object or enumerator corresponding to the supplied identifier. The WMI Refresher calls this method in response to a client request to <a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemconfigurerefresher-remove">IWbemConfiguratorRefresher::Remove</a>. The provider should check the objects and enumerators associated with the refresher for a matching identifier. When the provider finds an identifier, the provider should remove or release the enumerator.
 <div class="alert"><b>Note</b>  If a provider does not implement this method, it must return <b>WBEM_E_PROVIDER_NOT_CAPABLE</b>. A provider should implement <b>StopRefreshing</b> if it implements 
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemprov/nf-wbemprov-iwbemhiperfprovider-createrefreshableenum">IWbemHiPerfProvider::CreateRefreshableEnum</a> or 
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemprov/nf-wbemprov-iwbemhiperfprovider-createrefreshableobject">IWbemHiPerfProvider::CreateRefreshableObject</a>.</div><div> </div>
+<a href="/windows/desktop/api/wbemprov/nf-wbemprov-iwbemhiperfprovider-createrefreshableenum">IWbemHiPerfProvider::CreateRefreshableEnum</a> or 
+<a href="/windows/desktop/api/wbemprov/nf-wbemprov-iwbemhiperfprovider-createrefreshableobject">IWbemHiPerfProvider::CreateRefreshableObject</a>.</div><div> </div>
 
 ## -parameters
 
 ### -param pRefresher [in]
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nn-wbemcli-iwbemrefresher">IWbemRefresher</a> object that contains a refresher obtained by calling 
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemprov/nf-wbemprov-iwbemhiperfprovider-createrefresher">IWbemHiPerfProvider::CreateRefresher</a>.
+<a href="/windows/desktop/api/wbemcli/nn-wbemcli-iwbemrefresher">IWbemRefresher</a> object that contains a refresher obtained by calling 
+<a href="/windows/desktop/api/wbemprov/nf-wbemprov-iwbemhiperfprovider-createrefresher">IWbemHiPerfProvider::CreateRefresher</a>.
 
 ### -param lId [in]
 
@@ -83,11 +83,11 @@ It is not necessary to call
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/developing-a-wmi-provider">Developing a WMI Provider</a>
+<a href="/windows/desktop/WmiSdk/developing-a-wmi-provider">Developing a WMI Provider</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemprov/nn-wbemprov-iwbemhiperfprovider">IWbemHiPerfProvider</a>
+<a href="/windows/desktop/api/wbemprov/nn-wbemprov-iwbemhiperfprovider">IWbemHiPerfProvider</a>
 
 
 
@@ -95,9 +95,8 @@ Making an Instance Provider into a High-Performance Provider
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/performance-counter-provider">Performance Counter Provider</a>
+<a href="/windows/desktop/WmiSdk/performance-counter-provider">Performance Counter Provider</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/making-an-instance-provider-into-a-high-performance-provider">Writing an Instance Provider</a>
-
+<a href="/windows/desktop/WmiSdk/making-an-instance-provider-into-a-high-performance-provider">Writing an Instance Provider</a>

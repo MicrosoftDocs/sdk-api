@@ -60,14 +60,13 @@ The estimated time, in seconds.
 
 ## -returns
 
-If this method succeeds, it returns S_OK. Otherwise, it returns an  <b>HRESULT</b> error code. See <a href="https://docs.microsoft.com/windows/desktop/UIAnimation/uianimation-error-codes">Windows Animation Error Codes</a> for a list of error codes.
+If this method succeeds, it returns S_OK. Otherwise, it returns an  <b>HRESULT</b> error code. See <a href="/windows/desktop/UIAnimation/uianimation-error-codes">Windows Animation Error Codes</a> for a list of error codes.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nn-uianimation-iuianimationmanager2">IUIAnimationManager2</a>
+<a href="/windows/desktop/api/uianimation/nn-uianimation-iuianimationmanager2">IUIAnimationManager2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/UIAnimation/ui-animation-seconds-infinite">UI_ANIMATION_SECONDS_INFINITE
+<a href="/windows/desktop/UIAnimation/ui-animation-seconds-infinite">UI_ANIMATION_SECONDS_INFINITE
 </a>
-

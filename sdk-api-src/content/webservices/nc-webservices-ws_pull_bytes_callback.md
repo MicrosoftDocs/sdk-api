@@ -50,14 +50,14 @@ api_name:
 
 ## -description
 
-Used by the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wspullbytes">WsPullBytes</a> function to request 
+Used by the <a href="/windows/desktop/api/webservices/nf-webservices-wspullbytes">WsPullBytes</a> function to request 
         the data that should be written.
 
 ## -parameters
 
 ### -param *callbackState [in]
 
-The user-defined state that was passed to <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wspullbytes">WsPullBytes</a>.
+The user-defined state that was passed to <a href="/windows/desktop/api/webservices/nf-webservices-wspullbytes">WsPullBytes</a>.
 
 ### -param *bytes
 
@@ -104,4 +104,3 @@ The asynchronous operation is still pending.
 ## -remarks
 
 Returning size of 0 indicates EOF.
-

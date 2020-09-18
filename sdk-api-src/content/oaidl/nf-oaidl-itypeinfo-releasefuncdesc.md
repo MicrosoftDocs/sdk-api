@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Releases a FUNCDESC previously returned by <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-itypeinfo-getfuncdesc">ITypeInfo::GetFuncDesc</a>.
+Releases a FUNCDESC previously returned by <a href="/previous-versions/windows/desktop/api/oaidl/nf-oaidl-itypeinfo-getfuncdesc">ITypeInfo::GetFuncDesc</a>.
 
 ## -parameters
 
@@ -60,5 +60,4 @@ The FUNCDESC to be freed.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-itypeinfo">ITypeInfo</a>
-
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-itypeinfo">ITypeInfo</a>

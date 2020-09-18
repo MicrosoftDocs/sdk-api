@@ -56,18 +56,18 @@ The <b>CryptSIPVerifyIndirectData</b> function validates the indirect hashed dat
 
 ### -param pSubjectInfo [in]
 
-A pointer to a [SIP_SUBJECTINFO](https://docs.microsoft.com/windows/desktop/api/mssip/ns-mssip-sip_subjectinfo) structure that contains information about the message subject.
+A pointer to a [SIP_SUBJECTINFO](/windows/desktop/api/mssip/ns-mssip-sip_subjectinfo) structure that contains information about the message subject.
 
 ### -param pIndirectData [in]
 
-A pointer to a [SIP_INDIRECT_DATA](https://docs.microsoft.com/windows/desktop/api/mssip/ns-mssip-sip_indirect_data) structure that contains information about the hashed subject information.
+A pointer to a [SIP_INDIRECT_DATA](/windows/desktop/api/mssip/ns-mssip-sip_indirect_data) structure that contains information about the hashed subject information.
 
 ## -returns
 
 The return value is <b>TRUE</b> if the function succeeds; otherwise, <b>FALSE</b>.
 
 
-If this function returns <b>FALSE</b>, additional error information can be obtained by calling the <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function. <b>GetLastError</b> will return one of the following error codes.
+If this function returns <b>FALSE</b>, additional error information can be obtained by calling the <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function. <b>GetLastError</b> will return one of the following error codes.
 
 
 
@@ -103,4 +103,3 @@ The subject type is an unknown type.
 ## -remarks
 
 Subjects include, but are not limited to, portable executable images (.exe), cabinet (.cab) images, flat files, and catalog files. Each subject type uses a different subset of its data for hash calculation and requires a different procedure for storage and retrieval. Therefore each subject type has a unique subject interface package specification.
-

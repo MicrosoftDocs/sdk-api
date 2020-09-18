@@ -61,7 +61,7 @@ Pointer to a null-terminated string that contains the security template name to 
 ### -param scesvcHandle [in]
 
 Pointer that receives the 
-<a href="https://docs.microsoft.com/windows/desktop/SecMgmt/scesvc-handle">SCESVC_HANDLE</a> the attachment snap-in extension is using to communicate with the Security Configuration snap-ins.
+<a href="/windows/desktop/SecMgmt/scesvc-handle">SCESVC_HANDLE</a> the attachment snap-in extension is using to communicate with the Security Configuration snap-ins.
 
 ### -param ppvData [out]
 
@@ -78,21 +78,20 @@ The return value is an HRESULT. A value of S_OK indicates the method was success
 ## -remarks
 
 The caller should free the buffer set in <i>ppvData</i> by calling 
-<a href="https://docs.microsoft.com/windows/desktop/api/scesvc/nf-scesvc-iscesvcattachmentpersistinfo-freebuffer">ISceSvcAttachmentPersistInfo::FreeBuffer</a>.
+<a href="/windows/desktop/api/scesvc/nf-scesvc-iscesvcattachmentpersistinfo-freebuffer">ISceSvcAttachmentPersistInfo::FreeBuffer</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/scesvc/nn-scesvc-iscesvcattachmentpersistinfo">ISceSvcAttachmentPersistInfo</a>
+<a href="/windows/desktop/api/scesvc/nn-scesvc-iscesvcattachmentpersistinfo">ISceSvcAttachmentPersistInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/scesvc/nf-scesvc-iscesvcattachmentpersistinfo-freebuffer">ISceSvcAttachmentPersistInfo::FreeBuffer</a>
+<a href="/windows/desktop/api/scesvc/nf-scesvc-iscesvcattachmentpersistinfo-freebuffer">ISceSvcAttachmentPersistInfo::FreeBuffer</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/scesvc/nf-scesvc-iscesvcattachmentpersistinfo-isdirty">ISceSvcAttachmentPersistInfo::IsDirty</a>
+<a href="/windows/desktop/api/scesvc/nf-scesvc-iscesvcattachmentpersistinfo-isdirty">ISceSvcAttachmentPersistInfo::IsDirty</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SecMgmt/scesvc-handle">SCESVC_HANDLE</a>
-
+<a href="/windows/desktop/SecMgmt/scesvc-handle">SCESVC_HANDLE</a>

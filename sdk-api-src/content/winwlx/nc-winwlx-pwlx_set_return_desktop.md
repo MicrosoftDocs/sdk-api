@@ -52,7 +52,7 @@ api_name:
 
 <p class="CCE_Message">[The WlxSetReturnDesktop function is no longer available for use as of Windows Server 2008 and Windows Vista.]
 
-Called by <a href="https://docs.microsoft.com/windows/desktop/SecGloss/g-gly">GINA</a> to specify the alternate application desktop that <a href="https://docs.microsoft.com/windows/desktop/SecGloss/w-gly">Winlogon</a> will switch to when the current <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">secure attention sequence</a> (SAS) event processing function is complete.
+Called by <a href="/windows/desktop/SecGloss/g-gly">GINA</a> to specify the alternate application desktop that <a href="/windows/desktop/SecGloss/w-gly">Winlogon</a> will switch to when the current <a href="/windows/desktop/SecGloss/s-gly">secure attention sequence</a> (SAS) event processing function is complete.
 <div class="alert"><b>Note</b>   GINA DLLs are ignored in Windows Vista.</div><div> </div>
 
 ## -parameters
@@ -60,12 +60,12 @@ Called by <a href="https://docs.microsoft.com/windows/desktop/SecGloss/g-gly">GI
 ### -param hWlx [in]
 
 Specifies the Winlogon handle passed to GINA in the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winwlx/nf-winwlx-wlxinitialize">WlxInitialize</a> call.
+<a href="/windows/desktop/api/winwlx/nf-winwlx-wlxinitialize">WlxInitialize</a> call.
 
 ### -param pDesktop [in]
 
 Pointer to desktop information about the alternate desktop. This desktop is created by calling the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winwlx/nc-winwlx-pwlx_create_user_desktop">WlxCreateUserDesktop</a> function.
+<a href="/windows/desktop/api/winwlx/nc-winwlx-pwlx_create_user_desktop">WlxCreateUserDesktop</a> function.
 
 ## -returns
 
@@ -103,24 +103,23 @@ The function call failed to set the return desktop.
 ## -remarks
 
 <b>WlxSetReturnDesktop</b> can be called only within 
-<a href="https://docs.microsoft.com/windows/desktop/api/winwlx/nf-winwlx-wlxloggedonsas">WlxLoggedOnSAS</a> or 
-<a href="https://docs.microsoft.com/windows/desktop/api/winwlx/nf-winwlx-wlxwkstalockedsas">WlxWkstaLockedSAS</a> routines. Attempts to call this function at other times will fail.
+<a href="/windows/desktop/api/winwlx/nf-winwlx-wlxloggedonsas">WlxLoggedOnSAS</a> or 
+<a href="/windows/desktop/api/winwlx/nf-winwlx-wlxwkstalockedsas">WlxWkstaLockedSAS</a> routines. Attempts to call this function at other times will fail.
 
 If a handle to the desktop is provided, Winlogon will duplicate the handle. If no handle is provided, Winlogon will attempt to open the desktop named in the <i>pDesktop</i> parameter. If the provided desktop is not valid or is the Winlogon or screen saver desktop, the call will fail.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winwlx/nc-winwlx-pwlx_create_user_desktop">WlxCreateUserDesktop</a>
+<a href="/windows/desktop/api/winwlx/nc-winwlx-pwlx_create_user_desktop">WlxCreateUserDesktop</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winwlx/nf-winwlx-wlxinitialize">WlxInitialize</a>
+<a href="/windows/desktop/api/winwlx/nf-winwlx-wlxinitialize">WlxInitialize</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winwlx/nf-winwlx-wlxloggedonsas">WlxLoggedOnSAS</a>
+<a href="/windows/desktop/api/winwlx/nf-winwlx-wlxloggedonsas">WlxLoggedOnSAS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winwlx/nf-winwlx-wlxwkstalockedsas">WlxWkstaLockedSAS</a>
-
+<a href="/windows/desktop/api/winwlx/nf-winwlx-wlxwkstalockedsas">WlxWkstaLockedSAS</a>

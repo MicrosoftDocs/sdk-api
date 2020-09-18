@@ -54,7 +54,7 @@ Defines an animation variable, which represents a visual element that can be ani
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUIAnimationVariable</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IUIAnimationVariable</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUIAnimationVariable</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IUIAnimationVariable</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IUIAnimationVariable</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationvariable-getcurrentstoryboard">GetCurrentStoryboard</a>
+<a href="/windows/desktop/api/uianimation/nf-uianimation-iuianimationvariable-getcurrentstoryboard">GetCurrentStoryboard</a>
 </td>
 <td align="left" width="63%">
 Gets the storyboard that is currently animating the animation variable.
@@ -78,7 +78,7 @@ Gets the storyboard that is currently animating the animation variable.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationvariable-getfinalintegervalue">GetFinalIntegerValue</a>
+<a href="/windows/desktop/api/uianimation/nf-uianimation-iuianimationvariable-getfinalintegervalue">GetFinalIntegerValue</a>
 </td>
 <td align="left" width="63%">
 Gets the final value of the animation variable as an integer.      
@@ -88,7 +88,7 @@ Gets the final value of the animation variable as an integer.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationvariable-getfinalvalue">GetFinalValue</a>
+<a href="/windows/desktop/api/uianimation/nf-uianimation-iuianimationvariable-getfinalvalue">GetFinalValue</a>
 </td>
 <td align="left" width="63%">
 Gets the final value of the animation variable.
@@ -97,7 +97,7 @@ Gets the final value of the animation variable.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationvariable-getintegervalue">GetIntegerValue</a>
+<a href="/windows/desktop/api/uianimation/nf-uianimation-iuianimationvariable-getintegervalue">GetIntegerValue</a>
 </td>
 <td align="left" width="63%">
 Gets the current value of the animation variable as an integer.
@@ -106,7 +106,7 @@ Gets the current value of the animation variable as an integer.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationvariable-getpreviousintegervalue">GetPreviousIntegerValue</a>
+<a href="/windows/desktop/api/uianimation/nf-uianimation-iuianimationvariable-getpreviousintegervalue">GetPreviousIntegerValue</a>
 </td>
 <td align="left" width="63%">
 Gets the previous value of the animation variable as an integer.
@@ -115,7 +115,7 @@ Gets the previous value of the animation variable as an integer.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationvariable-getpreviousvalue">GetPreviousValue</a>
+<a href="/windows/desktop/api/uianimation/nf-uianimation-iuianimationvariable-getpreviousvalue">GetPreviousValue</a>
 </td>
 <td align="left" width="63%">
 Gets the previous value of the animation variable.
@@ -124,7 +124,7 @@ Gets the previous value of the animation variable.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationvariable-gettag">GetTag</a>
+<a href="/windows/desktop/api/uianimation/nf-uianimation-iuianimationvariable-gettag">GetTag</a>
 </td>
 <td align="left" width="63%">
 Gets the tag for an animation variable.
@@ -133,7 +133,7 @@ Gets the tag for an animation variable.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationvariable-getvalue">GetValue</a>
+<a href="/windows/desktop/api/uianimation/nf-uianimation-iuianimationvariable-getvalue">GetValue</a>
 </td>
 <td align="left" width="63%">
 Gets the current value of the animation variable.
@@ -142,7 +142,7 @@ Gets the current value of the animation variable.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationvariable-setlowerbound">SetLowerBound</a>
+<a href="/windows/desktop/api/uianimation/nf-uianimation-iuianimationvariable-setlowerbound">SetLowerBound</a>
 </td>
 <td align="left" width="63%">
 Sets the lower bound (floor) for the animation variable.
@@ -151,7 +151,7 @@ Sets the lower bound (floor) for the animation variable.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationvariable-setroundingmode">SetRoundingMode</a>
+<a href="/windows/desktop/api/uianimation/nf-uianimation-iuianimationvariable-setroundingmode">SetRoundingMode</a>
 </td>
 <td align="left" width="63%">
 Specifies the rounding mode for the animation variable.
@@ -160,7 +160,7 @@ Specifies the rounding mode for the animation variable.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationvariable-settag">SetTag</a>
+<a href="/windows/desktop/api/uianimation/nf-uianimation-iuianimationvariable-settag">SetTag</a>
 </td>
 <td align="left" width="63%">
 Sets the tag for an animation variable.
@@ -169,7 +169,7 @@ Sets the tag for an animation variable.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationvariable-setupperbound">SetUpperBound</a>
+<a href="/windows/desktop/api/uianimation/nf-uianimation-iuianimationvariable-setupperbound">SetUpperBound</a>
 </td>
 <td align="left" width="63%">
 Sets the upper bound (ceiling) for the animation variable.
@@ -178,7 +178,7 @@ Sets the upper bound (ceiling) for the animation variable.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationvariable-setvariablechangehandler">SetVariableChangeHandler</a>
+<a href="/windows/desktop/api/uianimation/nf-uianimation-iuianimationvariable-setvariablechangehandler">SetVariableChangeHandler</a>
 </td>
 <td align="left" width="63%">
 Specifies a variable change handler.
@@ -187,7 +187,7 @@ Specifies a variable change handler.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationvariable-setvariableintegerchangehandler">SetVariableIntegerChangeHandler</a>
+<a href="/windows/desktop/api/uianimation/nf-uianimation-iuianimationvariable-setvariableintegerchangehandler">SetVariableIntegerChangeHandler</a>
 </td>
 <td align="left" width="63%">
 Specifies an integer variable change handler.
@@ -199,38 +199,37 @@ Specifies an integer variable change handler.
 ## -remarks
 
 Along with 
-         <a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nn-uianimation-iuianimationtransition">IUIAnimationTransition</a> and 
-         <a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nn-uianimation-iuianimationstoryboard">IUIAnimationStoryboard</a>, <b>IUIAnimationVariable</b> is a primary component for building animations. To create and manage animation variables, use <a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nn-uianimation-iuianimationmanager">IUIAnimationManager</a>.
+         <a href="/windows/desktop/api/uianimation/nn-uianimation-iuianimationtransition">IUIAnimationTransition</a> and 
+         <a href="/windows/desktop/api/uianimation/nn-uianimation-iuianimationstoryboard">IUIAnimationStoryboard</a>, <b>IUIAnimationVariable</b> is a primary component for building animations. To create and manage animation variables, use <a href="/windows/desktop/api/uianimation/nn-uianimation-iuianimationmanager">IUIAnimationManager</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationmanager-createanimationvariable">IUIAnimationManager::CreateAnimationVariable</a>
+<a href="/windows/desktop/api/uianimation/nf-uianimation-iuianimationmanager-createanimationvariable">IUIAnimationManager::CreateAnimationVariable</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationmanager-getvariablefromtag">IUIAnimationManager::GetVariableFromTag</a>
+<a href="/windows/desktop/api/uianimation/nf-uianimation-iuianimationmanager-getvariablefromtag">IUIAnimationManager::GetVariableFromTag</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationmanager-scheduletransition">IUIAnimationManager::ScheduleTransition</a>
+<a href="/windows/desktop/api/uianimation/nf-uianimation-iuianimationmanager-scheduletransition">IUIAnimationManager::ScheduleTransition</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationstoryboard-addtransition">IUIAnimationStoryboard::AddTransition</a>
+<a href="/windows/desktop/api/uianimation/nf-uianimation-iuianimationstoryboard-addtransition">IUIAnimationStoryboard::AddTransition</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationstoryboard-addtransitionatkeyframe">IUIAnimationStoryboard::AddTransitionAtKeyframe</a>
+<a href="/windows/desktop/api/uianimation/nf-uianimation-iuianimationstoryboard-addtransitionatkeyframe">IUIAnimationStoryboard::AddTransitionAtKeyframe</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationstoryboard-addtransitionbetweenkeyframes">IUIAnimationStoryboard::AddTransitionBetweenKeyframes</a>
+<a href="/windows/desktop/api/uianimation/nf-uianimation-iuianimationstoryboard-addtransitionbetweenkeyframes">IUIAnimationStoryboard::AddTransitionBetweenKeyframes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationstoryboard-holdvariable">IUIAnimationStoryboard::HoldVariable</a>
+<a href="/windows/desktop/api/uianimation/nf-uianimation-iuianimationstoryboard-holdvariable">IUIAnimationStoryboard::HoldVariable</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
-
+<a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>

@@ -72,7 +72,6 @@ This structure is used to detect when the metadata of a DFS namespace has change
 
 If a DFS namespace server does not support generation <b>GUID</b>s, the 
      <b>GUID</b> value returned by 
-     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lmdfs/nf-lmdfs-netdfsgetinfo">NetDfsGetInfo</a> contains a null 
+     <a href="/previous-versions/windows/desktop/api/lmdfs/nf-lmdfs-netdfsgetinfo">NetDfsGetInfo</a> contains a null 
      <b>GUID</b> (all zeros). This structure cannot be used with 
-     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lmdfs/nf-lmdfs-netdfsgetclientinfo">NetDfsGetClientInfo</a>.
-
+     <a href="/previous-versions/windows/desktop/api/lmdfs/nf-lmdfs-netdfsgetclientinfo">NetDfsGetClientInfo</a>.

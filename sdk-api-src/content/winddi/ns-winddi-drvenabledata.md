@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-The DRVENABLEDATA structure contains a pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-drvfn">DRVFN</a> structures and the graphics DDI version number of an NT-based operating system.
+The DRVENABLEDATA structure contains a pointer to an array of <a href="/windows/desktop/api/winddi/ns-winddi-drvfn">DRVFN</a> structures and the graphics DDI version number of an NT-based operating system.
 
 ## -struct-fields
 
@@ -124,11 +124,11 @@ See the Remarks section for more information.
 
 ### -field c
 
-Specifies the number of <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-drvfn">DRVFN</a> structures in the buffer pointed to by the <b>pdrvfn</b> member.
+Specifies the number of <a href="/windows/desktop/api/winddi/ns-winddi-drvfn">DRVFN</a> structures in the buffer pointed to by the <b>pdrvfn</b> member.
 
 ### -field pdrvfn
 
-Pointer to a buffer containing an array of <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-drvfn">DRVFN</a> structures.
+Pointer to a buffer containing an array of <a href="/windows/desktop/api/winddi/ns-winddi-drvfn">DRVFN</a> structures.
 
 ## -remarks
 
@@ -199,9 +199,8 @@ As the table shows, a driver can run on any of these operating system versions i
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-drvfn">DRVFN</a>
+<a href="/windows/desktop/api/winddi/ns-winddi-drvfn">DRVFN</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvenabledriver">DrvEnableDriver</a>
-
+<a href="/windows/desktop/api/winddi/nf-winddi-drvenabledriver">DrvEnableDriver</a>

@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Extends <a href="https://docs.microsoft.com/windows/desktop/api/rometadataapi/nn-rometadataapi-imetadatatables">IMetaDataTables</a> to include methods for working with metadata streams.
+Extends <a href="/windows/desktop/api/rometadataapi/nn-rometadataapi-imetadatatables">IMetaDataTables</a> to include methods for working with metadata streams.
 
 ## -inheritance
 
@@ -69,7 +69,7 @@ The <b>IMetaDataTables2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/rometadataapi/nf-rometadataapi-imetadatatables2-getmetadatastorage">GetMetaDataStorage</a>
+<a href="/windows/desktop/api/rometadataapi/nf-rometadataapi-imetadatatables2-getmetadatastorage">GetMetaDataStorage</a>
 </td>
 <td align="left" width="63%">
 Gets the size and contents of the metadata stored in the specified section.
@@ -78,7 +78,7 @@ Gets the size and contents of the metadata stored in the specified section.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/rometadataapi/nf-rometadataapi-imetadatatables2-getmetadatastreaminfo">GetMetaDataStreamInfo</a>
+<a href="/windows/desktop/api/rometadataapi/nf-rometadataapi-imetadatatables2-getmetadatastreaminfo">GetMetaDataStreamInfo</a>
 </td>
 <td align="left" width="63%">
 Gets the name, size, and contents of the metadata stream at the specified index.
@@ -86,4 +86,3 @@ Gets the name, size, and contents of the metadata stream at the specified index.
 </td>
 </tr>
 </table>
-

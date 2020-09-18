@@ -59,7 +59,7 @@ The
 
 ### -param hInstall [in]
 
-Handle to the installation provided to a DLL custom action or obtained through <a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msiopenpackagea">MsiOpenPackage</a>, <a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msiopenpackageexa">MsiOpenPackageEx</a>, or <a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msiopenproducta">MsiOpenProduct</a>.
+Handle to the installation provided to a DLL custom action or obtained through <a href="/windows/desktop/api/msi/nf-msi-msiopenpackagea">MsiOpenPackage</a>, <a href="/windows/desktop/api/msi/nf-msi-msiopenpackageexa">MsiOpenPackageEx</a>, or <a href="/windows/desktop/api/msi/nf-msi-msiopenproducta">MsiOpenProduct</a>.
 
 ### -param szAction [in]
 
@@ -73,18 +73,18 @@ This function returns UINT.
 
 The 
 <b>MsiDoAction</b> function executes the action that corresponds to the name supplied. If the name is not recognized by the installer as a built-in action or as a custom action in the 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/customaction-table">CustomAction table</a>, the name is passed to the user-interface handler object, which can invoke a function or a dialog box. If a null action name is supplied, the installer uses the upper-case value of the <a href="https://docs.microsoft.com/windows/desktop/Msi/action">ACTION</a> property as the action to perform. If no property value is defined, the default action is performed, defined as "INSTALL".
+<a href="/windows/desktop/Msi/customaction-table">CustomAction table</a>, the name is passed to the user-interface handler object, which can invoke a function or a dialog box. If a null action name is supplied, the installer uses the upper-case value of the <a href="/windows/desktop/Msi/action">ACTION</a> property as the action to perform. If no property value is defined, the default action is performed, defined as "INSTALL".
 
 Actions that update the system, such as the 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/installfiles-action">InstallFiles</a> and 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/writeregistryvalues-action">WriteRegistryValues</a> actions, cannot be run by calling 
+<a href="/windows/desktop/Msi/installfiles-action">InstallFiles</a> and 
+<a href="/windows/desktop/Msi/writeregistryvalues-action">WriteRegistryValues</a> actions, cannot be run by calling 
 <b>MsiDoAction</b>. The exception to this rule is if 
 <b>MsiDoAction</b> is called from a custom action that is scheduled in the 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/installexecutesequence-table">InstallExecuteSequence table</a> between the 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/installinitialize-action">InstallInitialize</a> and 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/installfinalize-action">InstallFinalize actions</a>. Actions that do not update the system, such as 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/appsearch-action">AppSearch</a> or 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/costinitialize-action">CostInitialize</a>, can be called.
+<a href="/windows/desktop/Msi/installexecutesequence-table">InstallExecuteSequence table</a> between the 
+<a href="/windows/desktop/Msi/installinitialize-action">InstallInitialize</a> and 
+<a href="/windows/desktop/Msi/installfinalize-action">InstallFinalize actions</a>. Actions that do not update the system, such as 
+<a href="/windows/desktop/Msi/appsearch-action">AppSearch</a> or 
+<a href="/windows/desktop/Msi/costinitialize-action">CostInitialize</a>, can be called.
 
 
 
@@ -95,5 +95,4 @@ Actions that update the system, such as the
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/database-functions">Installer Action Functions</a>
-
+<a href="/windows/desktop/Msi/database-functions">Installer Action Functions</a>

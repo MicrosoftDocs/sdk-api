@@ -52,10 +52,10 @@ api_name:
 
 ## -description
 
-The <b>GetRevocationReason</b> method  returns  the reason a certificate was revoked. This method was first defined in the <a href="https://docs.microsoft.com/windows/desktop/api/certadm/nn-certadm-icertadmin">ICertAdmin</a> interface.
+The <b>GetRevocationReason</b> method  returns  the reason a certificate was revoked. This method was first defined in the <a href="/windows/desktop/api/certadm/nn-certadm-icertadmin">ICertAdmin</a> interface.
 
 Before you call this method, you must call the 
-<a href="https://docs.microsoft.com/windows/desktop/api/certadm/nf-certadm-icertadmin-isvalidcertificate">IsValidCertificate</a> method. For more information, see Remarks.
+<a href="/windows/desktop/api/certadm/nf-certadm-icertadmin-isvalidcertificate">IsValidCertificate</a> method. For more information, see Remarks.
 
 ## -parameters
 
@@ -68,7 +68,7 @@ A pointer to a variable that will receive the revocation reason.
 <h3>C++</h3>
  If the method succeeds, the method returns S_OK, and  the <i>pReason</i> parameter is set to one of the values listed in the following table.
 
-If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
+If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 <h3>VB</h3>
  Returns a value that specifies the reason the certificate was revoked. The value can be one of the following revocation reason codes (defined in Wincrypt.h).
@@ -160,7 +160,7 @@ The certificate has been placed on hold.
 ## -remarks
 
 Before you call <b>GetRevocationReason</b>, call the 
-<a href="https://docs.microsoft.com/windows/desktop/api/certadm/nf-certadm-icertadmin-isvalidcertificate">IsValidCertificate</a> method to retrieve the disposition of the certificate. To call <b>GetRevocationReason</b>, you must receive a certificate disposition CA_DISP_REVOKED from this earlier call, indicating that the certificate has been revoked. The call to <b>IsValidCertificate</b> establishes the identity of the certificate whose revocation reason you want to retrieve.
+<a href="/windows/desktop/api/certadm/nf-certadm-icertadmin-isvalidcertificate">IsValidCertificate</a> method to retrieve the disposition of the certificate. To call <b>GetRevocationReason</b>, you must receive a certificate disposition CA_DISP_REVOKED from this earlier call, indicating that the certificate has been revoked. The call to <b>IsValidCertificate</b> establishes the identity of the certificate whose revocation reason you want to retrieve.
 
 Administration tasks use DCOM. Code that calls this interface method as defined in an earlier version of Certadm.h will run on Windows-based servers as long as the client and the server are both running the same Windows operating system.
 
@@ -190,17 +190,16 @@ if (CA_DISP_REVOKED == nDisp)
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certadm/nn-certadm-icertadmin2">CCertAdmin</a>
+<a href="/windows/desktop/api/certadm/nn-certadm-icertadmin2">CCertAdmin</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certadm/nn-certadm-icertadmin">ICertAdmin</a>
+<a href="/windows/desktop/api/certadm/nn-certadm-icertadmin">ICertAdmin</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certadm/nn-certadm-icertadmin2">ICertAdmin2</a>
+<a href="/windows/desktop/api/certadm/nn-certadm-icertadmin2">ICertAdmin2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certadm/nf-certadm-icertadmin-isvalidcertificate">IsValidCertificate</a>
-
+<a href="/windows/desktop/api/certadm/nf-certadm-icertadmin-isvalidcertificate">IsValidCertificate</a>

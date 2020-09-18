@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Gets the currently selected time from a date and time picker (DTP) control and places it in a specified <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-systemtime">SYSTEMTIME</a> structure. You can use this macro, or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/dtm-getsystemtime">DTM_GETSYSTEMTIME</a> message explicitly.
+Gets the currently selected time from a date and time picker (DTP) control and places it in a specified <a href="/windows/desktop/api/minwinbase/ns-minwinbase-systemtime">SYSTEMTIME</a> structure. You can use this macro, or send the <a href="/windows/desktop/Controls/dtm-getsystemtime">DTM_GETSYSTEMTIME</a> message explicitly.
 
 ## -parameters
 
 ### -param hdp
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to a DTP control.
 
@@ -64,5 +64,4 @@ A handle to a DTP control.
 
 Type: <b>LPSYSTEMTIME</b>
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-systemtime">SYSTEMTIME</a> structure. If <a href="https://docs.microsoft.com/windows/desktop/Controls/dtm-getsystemtime">DTM_GETSYSTEMTIME</a> returns GDT_VALID, this structure will contain the currently selected time. Otherwise, it will not contain valid information. This parameter must be a valid pointer; it cannot be <b>NULL</b>.
-
+A pointer to a <a href="/windows/desktop/api/minwinbase/ns-minwinbase-systemtime">SYSTEMTIME</a> structure. If <a href="/windows/desktop/Controls/dtm-getsystemtime">DTM_GETSYSTEMTIME</a> returns GDT_VALID, this structure will contain the currently selected time. Otherwise, it will not contain valid information. This parameter must be a valid pointer; it cannot be <b>NULL</b>.

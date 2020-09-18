@@ -60,23 +60,23 @@ The <b>CreateFontIndirectEx</b> function specifies a logical font that has the c
 
 ### -param Arg1 [in]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-enumlogfontexdva">ENUMLOGFONTEXDV</a> structure that defines the characteristics of a multiple master font.
+Pointer to an <a href="/windows/desktop/api/wingdi/ns-wingdi-enumlogfontexdva">ENUMLOGFONTEXDV</a> structure that defines the characteristics of a multiple master font.
 
-Note, this function ignores the <b>elfDesignVector</b> member in <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-enumlogfontexdva">ENUMLOGFONTEXDV</a>.
+Note, this function ignores the <b>elfDesignVector</b> member in <a href="/windows/desktop/api/wingdi/ns-wingdi-enumlogfontexdva">ENUMLOGFONTEXDV</a>.
 
 ## -returns
 
-If the function succeeds, the return value is the handle to the new <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-enumlogfontexdva">ENUMLOGFONTEXDV</a> structure.
+If the function succeeds, the return value is the handle to the new <a href="/windows/desktop/api/wingdi/ns-wingdi-enumlogfontexdva">ENUMLOGFONTEXDV</a> structure.
 
 If the function fails, the return value is zero. No extended error information is available.
 
 ## -remarks
 
-The <b>CreateFontIndirectEx</b> function creates a logical font with the characteristics specified in the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-enumlogfontexdva">ENUMLOGFONTEXDV</a> structure. When this font is selected by using the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-selectobject">SelectObject</a> function, GDI's font mapper attempts to match the logical font with an existing physical font. If it fails to find an exact match, it provides an alternative whose characteristics match as many of the requested characteristics as possible.
+The <b>CreateFontIndirectEx</b> function creates a logical font with the characteristics specified in the <a href="/windows/desktop/api/wingdi/ns-wingdi-enumlogfontexdva">ENUMLOGFONTEXDV</a> structure. When this font is selected by using the <a href="/windows/desktop/api/wingdi/nf-wingdi-selectobject">SelectObject</a> function, GDI's font mapper attempts to match the logical font with an existing physical font. If it fails to find an exact match, it provides an alternative whose characteristics match as many of the requested characteristics as possible.
 
-When you no longer need the font, call the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-deleteobject">DeleteObject</a> function to delete it.
+When you no longer need the font, call the <a href="/windows/desktop/api/wingdi/nf-wingdi-deleteobject">DeleteObject</a> function to delete it.
 
-The font mapper for <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createfonta">CreateFont</a>, <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createfontindirecta">CreateFontIndirect</a>, and <b>CreateFontIndirectEx</b> recognizes both the English and the localized typeface name, regardless of locale.
+The font mapper for <a href="/windows/desktop/api/wingdi/nf-wingdi-createfonta">CreateFont</a>, <a href="/windows/desktop/api/wingdi/nf-wingdi-createfontindirecta">CreateFontIndirect</a>, and <b>CreateFontIndirectEx</b> recognizes both the English and the localized typeface name, regardless of locale.
 
 
 
@@ -87,39 +87,38 @@ The font mapper for <a href="https://docs.microsoft.com/windows/desktop/api/wing
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createfonta">CreateFont
+<a href="/windows/desktop/api/wingdi/nf-wingdi-createfonta">CreateFont
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createfontindirecta">CreateFontIndirect
+<a href="/windows/desktop/api/wingdi/nf-wingdi-createfontindirecta">CreateFontIndirect
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-enumlogfontexdva">ENUMLOGFONTEXDV
+<a href="/windows/desktop/api/wingdi/ns-wingdi-enumlogfontexdva">ENUMLOGFONTEXDV
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-enumfontfamiliesa">EnumFontFamilies
+<a href="/windows/desktop/api/wingdi/nf-wingdi-enumfontfamiliesa">EnumFontFamilies
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-enumfontfamiliesexa">EnumFontFamiliesEx
+<a href="/windows/desktop/api/wingdi/nf-wingdi-enumfontfamiliesexa">EnumFontFamiliesEx
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-enumfontsa">EnumFonts
+<a href="/windows/desktop/api/wingdi/nf-wingdi-enumfontsa">EnumFonts
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/font-and-text-functions">Font and Text Functions</a>
+<a href="/windows/desktop/gdi/font-and-text-functions">Font and Text Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/fonts-and-text">Fonts and Text Overview</a>
-
+<a href="/windows/desktop/gdi/fonts-and-text">Fonts and Text Overview</a>

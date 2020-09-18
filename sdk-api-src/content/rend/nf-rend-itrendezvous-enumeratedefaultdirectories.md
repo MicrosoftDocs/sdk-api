@@ -55,14 +55,14 @@ provides similar functionality.]
 
 The 
 <b>EnumerateDefaultDirectories</b> method enumerates all configured default directories. This method is similar to 
-<a href="https://docs.microsoft.com/windows/desktop/api/rend/nf-rend-itrendezvous-get_defaultdirectories">get_DefaultDirectories</a> but is designed for C/C++.
+<a href="/windows/desktop/api/rend/nf-rend-itrendezvous-get_defaultdirectories">get_DefaultDirectories</a> but is designed for C/C++.
 
 ## -parameters
 
 ### -param ppEnumDirectory [out]
 
 Pointer to receive 
-<a href="https://docs.microsoft.com/windows/desktop/api/rend/nn-rend-ienumdirectory">IEnumDirectory</a> enumerator listing default directories.
+<a href="/windows/desktop/api/rend/nn-rend-ienumdirectory">IEnumDirectory</a> enumerator listing default directories.
 
 ## -returns
 
@@ -111,14 +111,13 @@ Pointer is invalid.
 ## -remarks
 
 TAPI calls the <b>AddRef</b> method on the 
-<a href="https://docs.microsoft.com/windows/desktop/api/rend/nn-rend-ienumdirectory">IEnumDirectory</a> interface returned by <b>ITRendezvous::EnumerateDefaultDirectories</b>. The application must call <b>Release</b> on the 
+<a href="/windows/desktop/api/rend/nn-rend-ienumdirectory">IEnumDirectory</a> interface returned by <b>ITRendezvous::EnumerateDefaultDirectories</b>. The application must call <b>Release</b> on the 
 <b>IEnumDirectory</b> interface to free resources associated with it.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rend/nn-rend-ienumdirectory">IEnumDirectory</a>
+<a href="/windows/desktop/api/rend/nn-rend-ienumdirectory">IEnumDirectory</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rend/nn-rend-itrendezvous">ITRendezvous</a>
-
+<a href="/windows/desktop/api/rend/nn-rend-itrendezvous">ITRendezvous</a>

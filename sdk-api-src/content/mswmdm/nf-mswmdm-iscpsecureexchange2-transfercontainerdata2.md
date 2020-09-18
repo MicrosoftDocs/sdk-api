@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-The <b>TransferContainerData2</b> method transfers container file data to the secure content provider. The secure content provider breaks down the container internally and reports which parts of the content are available as they are extracted from the container. This method extends <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iscpsecureexchange-transfercontainerdata">ISCPSecureExchange::TransferContainerData</a> by accepting a progress callback on which the secure content provider can send progress notifications for any of the steps it needs to carry out.
+The <b>TransferContainerData2</b> method transfers container file data to the secure content provider. The secure content provider breaks down the container internally and reports which parts of the content are available as they are extracted from the container. This method extends <a href="/windows/desktop/api/mswmdm/nf-mswmdm-iscpsecureexchange-transfercontainerdata">ISCPSecureExchange::TransferContainerData</a> by accepting a progress callback on which the secure content provider can send progress notifications for any of the steps it needs to carry out.
 
 ## -parameters
 
@@ -65,7 +65,7 @@ Pointer to a buffer holding the current data being transferred from the containe
 
 ### -param pProgressCallback [in]
 
-Progress callback on which the secure content provider can report progress of any steps that it might need to carry out. The step will be identified by the <i>EventId</i> parameter of <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmprogress3">IWMDMProgress3</a> methods.
+Progress callback on which the secure content provider can report progress of any steps that it might need to carry out. The step will be identified by the <i>EventId</i> parameter of <a href="/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmprogress3">IWMDMProgress3</a> methods.
 
 ### -param pfuReadyFlags [out]
 
@@ -80,7 +80,7 @@ Flag indicating which parts of the container file are ready to be read. This par
 </tr>
 <tr>
 <td>WMDM_SCP_TRANSFER_OBJECTDATA</td>
-<td>Data of the object is available by calling the <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iscpsecureexchange-objectdata">ObjectData</a> method.</td>
+<td>Data of the object is available by calling the <a href="/windows/desktop/api/mswmdm/nf-mswmdm-iscpsecureexchange-objectdata">ObjectData</a> method.</td>
 </tr>
 <tr>
 <td>WMDM_SCP_NO_MORE_CHANGES</td>
@@ -175,23 +175,22 @@ Windows Media Device Manager calls this method repeatedly, transferring data fro
 
 Object data is transferred from the secure content provider by calling the <b>ObjectData</b> method. Windows Media Device Manager calls <b>ObjectData</b> repeatedly until it returns zero in the second parameter, <i>dwBytesWrite</i>.
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iscpsecureexchange-transfercomplete">TransferComplete</a> method is called by Windows Media Device Manager to signal the end of a secure transfer of data.
+The <a href="/windows/desktop/api/mswmdm/nf-mswmdm-iscpsecureexchange-transfercomplete">TransferComplete</a> method is called by Windows Media Device Manager to signal the end of a secure transfer of data.
 
 Windows Media Device Manager passes the application-provided progress callback to the secure content provider in the <i>pProgressCallback</i> parameter. The secure content provider can use this parameter to provide progress notification for any steps that it needs to carry out. The step itself is identified by <i>EventId</i>, which is the first parameter of the methods of <b>IWMDMProgress3</b>. A specific secure content provider implementation will define <i>EventId</i> values for applications to use.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iscpsecureexchange">ISCPSecureExchange Interface</a>
+<a href="/windows/desktop/api/mswmdm/nn-mswmdm-iscpsecureexchange">ISCPSecureExchange Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iscpsecureexchange2">ISCPSecureExchange2 Interface</a>
+<a href="/windows/desktop/api/mswmdm/nn-mswmdm-iscpsecureexchange2">ISCPSecureExchange2 Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iscpsecureexchange-objectdata">ISCPSecureExchange::ObjectData</a>
+<a href="/windows/desktop/api/mswmdm/nf-mswmdm-iscpsecureexchange-objectdata">ISCPSecureExchange::ObjectData</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmprogress3">IWMDMProgress3 Interface</a>
-
+<a href="/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmprogress3">IWMDMProgress3 Interface</a>

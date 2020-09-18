@@ -50,15 +50,14 @@ Describes the level of support for shared resources in the current graphics driv
 
 ### -field SharedResourceTier
 
-Type: **[D3D11_SHARED_RESOURCE_TIER](/windows/win32/api/d3d11/ne-d3d11-d3d11_shared_resource_tier)**
+Type: **[D3D11_SHARED_RESOURCE_TIER](./ne-d3d11-d3d11_shared_resource_tier.md)**
 
 A shared resource support tier.
 
 ## -remarks
 
-Use this structure with the **D3D11_FEATURE_D3D11_OPTIONS5** member of [D3D11_FEATURE](/windows/win32/api/d3d11/ne-d3d11-d3d11_feature).
+Use this structure with the **D3D11_FEATURE_D3D11_OPTIONS5** member of [D3D11_FEATURE](./ne-d3d11-d3d11_feature.md).
 
 ## -see-also
 
 [Direct3D 11 core structures](/windows/win32/direct3d11/d3d11-graphics-reference-d3d11-core-structures)
-

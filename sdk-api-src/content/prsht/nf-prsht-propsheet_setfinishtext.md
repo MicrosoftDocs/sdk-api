@@ -50,23 +50,22 @@ api_name:
 
 ## -description
 
-Sets the text of the Finish button in a wizard, shows and enables the button, and hides the Next and Back buttons. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/psm-setfinishtext">PSM_SETFINISHTEXT</a> message explicitly.
+Sets the text of the Finish button in a wizard, shows and enables the button, and hides the Next and Back buttons. You can use this macro or send the <a href="/windows/desktop/Controls/psm-setfinishtext">PSM_SETFINISHTEXT</a> message explicitly.
 
 ## -parameters
 
 ### -param hDlg
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 Window handle (HWND) of the wizard property sheet.
 
 ### -param lpszText
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPTSTR</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">LPTSTR</a></b>
 
 Pointer to the new text for the Finish button.
 
 ## -remarks
 
 By default, the Finish button does not have a keyboard accelerator. You can create a keyboard accelerator with this macro by including an ampersand (&amp;) in the text string that you assign to <i>lpszText</i>. For example, "&amp;Finish" defines F as the accelerator key.
-

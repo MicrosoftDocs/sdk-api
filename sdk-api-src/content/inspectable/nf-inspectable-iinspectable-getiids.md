@@ -59,13 +59,13 @@ Gets the interfaces that are implemented by the current Windows Runtime class.
 
 Type: <b>ULONG*</b>
 
-The number of interfaces that are implemented by the current Windows Runtime object, excluding the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> and <a href="https://docs.microsoft.com/windows/desktop/api/inspectable/nn-inspectable-iinspectable">IInspectable</a> implementations.
+The number of interfaces that are implemented by the current Windows Runtime object, excluding the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> and <a href="/windows/desktop/api/inspectable/nn-inspectable-iinspectable">IInspectable</a> implementations.
 
 ### -param iids [out]
 
 Type: <b>IID**</b>
 
-A pointer to an array that contains an IID for   each interface implemented by the current Windows Runtime object. The <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> and <a href="https://docs.microsoft.com/windows/desktop/api/inspectable/nn-inspectable-iinspectable">IInspectable</a> interfaces are excluded.
+A pointer to an array that contains an IID for   each interface implemented by the current Windows Runtime object. The <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> and <a href="/windows/desktop/api/inspectable/nn-inspectable-iinspectable">IInspectable</a> interfaces are excluded.
 
 ## -returns
 
@@ -85,7 +85,7 @@ This function can return the following values.
 </dl>
 </td>
 <td width="60%">
-The  <a href="https://docs.microsoft.com/windows/desktop/WinRT/hstring">HSTRING</a> was created successfully.
+The  <a href="/windows/desktop/WinRT/hstring">HSTRING</a> was created successfully.
 
 </td>
 </tr>
@@ -106,15 +106,14 @@ Failed to allocate <i>iids</i>.
 
 Use the <b>GetIids</b> method to discover the interfaces that are implemented by a Windows Runtime object.
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> call on any IID in the <i>iids</i> array must succeed.
+A <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> call on any IID in the <i>iids</i> array must succeed.
 
-The caller is responsible for freeing the IID array by using the <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a> function.
+The caller is responsible for freeing the IID array by using the <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a> function.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/inputpaneinterop/nn-inputpaneinterop-iinputpaneinterop">IInputPaneInterop</a>
+<a href="/windows/desktop/api/inputpaneinterop/nn-inputpaneinterop-iinputpaneinterop">IInputPaneInterop</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/inspectable/nn-inspectable-iinspectable">IInspectable</a>
-
+<a href="/windows/desktop/api/inspectable/nn-inspectable-iinspectable">IInspectable</a>

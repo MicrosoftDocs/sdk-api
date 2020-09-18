@@ -74,7 +74,7 @@ If the function fails, the return value is <b>NULL</b>.
 
 ## -remarks
 
-An application will typically use the <b>ResetDC</b> function when a window receives a <a href="https://docs.microsoft.com/windows/desktop/gdi/wm-devmodechange">WM_DEVMODECHANGE</a> message. <b>ResetDC</b> can also be used to change the paper orientation or paper bins while printing a document.
+An application will typically use the <b>ResetDC</b> function when a window receives a <a href="/windows/desktop/gdi/wm-devmodechange">WM_DEVMODECHANGE</a> message. <b>ResetDC</b> can also be used to change the paper orientation or paper bins while printing a document.
 
 The <b>ResetDC</b> function cannot be used to change the driver name, device name, or the output port. When the user changes the port connection or device name, the application must delete the original DC and create a new DC with the new information.
 
@@ -95,17 +95,16 @@ An application can pass an information DC to the <b>ResetDC</b> function. In tha
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/device-context-functions">Device Context Functions</a>
+<a href="/windows/desktop/gdi/device-context-functions">Device Context Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/device-contexts">Device Contexts Overview</a>
+<a href="/windows/desktop/gdi/device-contexts">Device Contexts Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-devicecapabilitiesa">DeviceCapabilities</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-devicecapabilitiesa">DeviceCapabilities</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-escape">Escape</a>
-
+<a href="/windows/desktop/api/wingdi/nf-wingdi-escape">Escape</a>

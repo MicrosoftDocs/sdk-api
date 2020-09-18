@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Flags used by the <a href="https://docs.microsoft.com/windows/desktop/api/dwmapi/nf-dwmapi-dwmsetpresentparameters">DwmSetPresentParameters</a> function to specify the frame sampling type.
+Flags used by the <a href="/windows/desktop/api/dwmapi/nf-dwmapi-dwmsetpresentparameters">DwmSetPresentParameters</a> function to specify the frame sampling type.
 
 ## -enum-fields
 
@@ -64,5 +64,4 @@ Use the source frame that includes the most refreshes of the output frame. In th
 
 ### -field DWM_SOURCE_FRAME_SAMPLING_LAST
 
-The maximum recognized <a href="https://docs.microsoft.com/windows/desktop/api/dwmapi/ne-dwmapi-dwm_source_frame_sampling">DWM_SOURCE_FRAME_SAMPLING</a> value, used for validation purposes.
-
+The maximum recognized <a href="/windows/desktop/api/dwmapi/ne-dwmapi-dwm_source_frame_sampling">DWM_SOURCE_FRAME_SAMPLING</a> value, used for validation purposes.

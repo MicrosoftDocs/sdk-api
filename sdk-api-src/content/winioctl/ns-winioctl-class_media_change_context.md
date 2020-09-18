@@ -84,9 +84,8 @@ The state information. This member can be one of the following values from the
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DevIO/dbt-customevent">DBT_CUSTOMEVENT</a>
+<a href="/windows/desktop/DevIO/dbt-customevent">DBT_CUSTOMEVENT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DevIO/dbt-deviceremovecomplete">DBT_DEVICEREMOVECOMPLETE</a>
-
+<a href="/windows/desktop/DevIO/dbt-deviceremovecomplete">DBT_DEVICEREMOVECOMPLETE</a>

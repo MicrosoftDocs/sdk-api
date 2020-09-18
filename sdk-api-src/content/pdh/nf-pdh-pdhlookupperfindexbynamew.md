@@ -74,8 +74,8 @@ If the function succeeds, it returns ERROR_SUCCESS.
 						
 
 If the function fails, the return value is a 
-<a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a> or a 
-<a href="https://docs.microsoft.com/windows/desktop/PerfCtrs/pdh-error-codes">PDH error code</a>. The following is a possible value.
+<a href="/windows/desktop/Debug/system-error-codes">system error code</a> or a 
+<a href="/windows/desktop/PerfCtrs/pdh-error-codes">PDH error code</a>. The following is a possible value.
 
 <table>
 <tr>
@@ -97,10 +97,9 @@ A parameter is not valid or is incorrectly formatted.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhlookupperfnamebyindexa">PdhLookupPerfNameByIndex</a>
+<a href="/windows/desktop/api/pdh/nf-pdh-pdhlookupperfnamebyindexa">PdhLookupPerfNameByIndex</a>
 
 ## -remarks
 
 > [!NOTE]
 > The pdh.h header defines PdhLookupPerfIndexByName as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

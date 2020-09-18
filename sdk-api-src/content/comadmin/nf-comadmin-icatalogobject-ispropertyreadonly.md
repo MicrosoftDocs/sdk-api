@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Indicates whether the specified property can be modified using <a href="https://docs.microsoft.com/windows/desktop/api/comadmin/nf-comadmin-icatalogobject-get_value">Value</a>.
+Indicates whether the specified property can be modified using <a href="/windows/desktop/api/comadmin/nf-comadmin-icatalogobject-get_value">Value</a>.
 
 ## -parameters
 
@@ -68,5 +68,4 @@ This method can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, E
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/comadmin/nn-comadmin-icatalogobject">ICatalogObject</a>
-
+<a href="/windows/desktop/api/comadmin/nn-comadmin-icatalogobject">ICatalogObject</a>

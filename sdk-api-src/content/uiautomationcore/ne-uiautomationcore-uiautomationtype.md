@@ -72,7 +72,7 @@ A double-precision floating-point number.
 
 ### -field UIAutomationType_Point
 
-A <a href="https://docs.microsoft.com/previous-versions/dd162805(v=vs.85)">POINT</a> structure containing the x- and y-coordinates of a point.
+A <a href="/previous-versions/dd162805(v=vs.85)">POINT</a> structure containing the x- and y-coordinates of a point.
 
 ### -field UIAutomationType_Rect
 
@@ -80,7 +80,7 @@ A <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> structure contai
 
 ### -field UIAutomationType_Element
 
-The address of the <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationelement">IUIAutomationElement</a> interface of a UI Automation element.
+The address of the <a href="/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationelement">IUIAutomationElement</a> interface of a UI Automation element.
 
 ### -field UIAutomationType_Array
 
@@ -108,7 +108,7 @@ An array of double-precision floating-point numbers. This type is not supported 
 
 ### -field UIAutomationType_PointArray
 
-An array of <a href="https://docs.microsoft.com/previous-versions/dd162805(v=vs.85)">POINT</a> structures, each containing the x- and y-coordinates of a point. This type is not supported for a custom UI Automation property.
+An array of <a href="/previous-versions/dd162805(v=vs.85)">POINT</a> structures, each containing the x- and y-coordinates of a point. This type is not supported for a custom UI Automation property.
 
 ### -field UIAutomationType_RectArray
 
@@ -116,7 +116,7 @@ An array of <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> struct
 
 ### -field UIAutomationType_ElementArray
 
-An array of pointers to <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationelement">IUIAutomationElement</a> interfaces, each for a UI Automation element.
+An array of pointers to <a href="/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationelement">IUIAutomationElement</a> interfaces, each for a UI Automation element.
 
 ### -field UIAutomationType_OutInt
 
@@ -136,7 +136,7 @@ The address of a variable that receives a double-precision floating-point number
 
 ### -field UIAutomationType_OutPoint
 
-The address of a variable that receives a <a href="https://docs.microsoft.com/previous-versions/dd162805(v=vs.85)">POINT</a> structure.
+The address of a variable that receives a <a href="/previous-versions/dd162805(v=vs.85)">POINT</a> structure.
 
 ### -field UIAutomationType_OutRect
 
@@ -144,7 +144,7 @@ The address of a variable that receives a <a href="/windows/desktop/api/windef/n
 
 ### -field UIAutomationType_OutElement
 
-The address of a variable that receives a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationelement">IUIAutomationElement</a> interface of a UI Automation element.
+The address of a variable that receives a pointer to the <a href="/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationelement">IUIAutomationElement</a> interface of a UI Automation element.
 
 ### -field UIAutomationType_OutIntArray
 
@@ -164,7 +164,7 @@ The address of a variable that receives an array of double-precision floating-po
 
 ### -field UIAutomationType_OutPointArray
 
-The address of a variable that receives an array of <a href="https://docs.microsoft.com/previous-versions/dd162805(v=vs.85)">POINT</a> structures.
+The address of a variable that receives an array of <a href="/previous-versions/dd162805(v=vs.85)">POINT</a> structures.
 
 ### -field UIAutomationType_OutRectArray
 
@@ -172,5 +172,4 @@ The address of a variable that receives an array of <a href="/windows/desktop/ap
 
 ### -field UIAutomationType_OutElementArray
 
-The address of a variable that receives an array of pointers to the <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationelement">IUIAutomationElement</a> interfaces of UI Automation elements.
-
+The address of a variable that receives an array of pointers to the <a href="/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationelement">IUIAutomationElement</a> interfaces of UI Automation elements.

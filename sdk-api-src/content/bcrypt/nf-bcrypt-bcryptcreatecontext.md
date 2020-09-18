@@ -93,7 +93,7 @@ A pointer to a null-terminated Unicode string that contains the identifier of th
 
 ### -param pConfig [in, optional]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/ns-bcrypt-crypt_context_config">CRYPT_CONTEXT_CONFIG</a> structure that contains additional configuration data for the new context. This parameter can be <b>NULL</b> if it is not needed.
+A pointer to a <a href="/windows/desktop/api/bcrypt/ns-bcrypt-crypt_context_config">CRYPT_CONTEXT_CONFIG</a> structure that contains additional configuration data for the new context. This parameter can be <b>NULL</b> if it is not needed.
 
 ## -returns
 
@@ -147,4 +147,3 @@ A memory allocation failure occurred.
 ## -remarks
 
 <b>BCryptCreateContext</b> can be called only in user mode.
-

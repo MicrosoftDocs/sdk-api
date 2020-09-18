@@ -50,12 +50,12 @@ api_name:
 
 ## -description
 
-Manages <a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapiperfcounterlogger">IRDPSRAPIPerfCounterLogger</a> 
+Manages <a href="/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapiperfcounterlogger">IRDPSRAPIPerfCounterLogger</a> 
     objects.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IRDPSRAPIPerfCounterLoggingManager</b> class inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IRDPSRAPIPerfCounterLoggingManager</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IRDPSRAPIPerfCounterLoggingManager</b> class inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IRDPSRAPIPerfCounterLoggingManager</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,10 +70,10 @@ The <b>IRDPSRAPIPerfCounterLoggingManager</b> class has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapiperfcounterloggingmanager-createlogger">CreateLogger</a>
+<a href="/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapiperfcounterloggingmanager-createlogger">CreateLogger</a>
 </td>
 <td align="left" width="63%">
-Creates a new <a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapiperfcounterlogger">IRDPSRAPIPerfCounterLogger</a> 
+Creates a new <a href="/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapiperfcounterlogger">IRDPSRAPIPerfCounterLogger</a> 
      object.
 
 </td>
@@ -82,9 +82,8 @@ Creates a new <a href="https://docs.microsoft.com/windows/desktop/api/rdpencomap
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapiperfcounterlogger">IRDPSRAPIPerfCounterLogger</a>
+<a href="/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapiperfcounterlogger">IRDPSRAPIPerfCounterLogger</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/rdp/windows-desktop-sharing-interfaces">Windows Desktop Sharing Interfaces</a>
-
+<a href="/previous-versions/windows/desktop/rdp/windows-desktop-sharing-interfaces">Windows Desktop Sharing Interfaces</a>

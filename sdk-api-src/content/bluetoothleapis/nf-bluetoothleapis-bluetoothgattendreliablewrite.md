@@ -61,7 +61,7 @@ Handle to the service.
 
 ### -param ReliableWriteContext [in]
 
-The context describing the reliable write operation returned from a previous call to <a href="https://docs.microsoft.com/windows/desktop/api/bluetoothleapis/nf-bluetoothleapis-bluetoothgattbeginreliablewrite">BluetoothGATTBeginReliableWrite</a>.
+The context describing the reliable write operation returned from a previous call to <a href="/windows/desktop/api/bluetoothleapis/nf-bluetoothleapis-bluetoothgattbeginreliablewrite">BluetoothGATTBeginReliableWrite</a>.
 
 ### -param Flags [in]
 
@@ -359,4 +359,3 @@ An error that lies in the reserved range has been received.
 </td>
 </tr>
 </table>
-

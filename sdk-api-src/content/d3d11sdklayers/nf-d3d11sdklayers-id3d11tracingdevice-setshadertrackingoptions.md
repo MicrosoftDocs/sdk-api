@@ -57,7 +57,7 @@ Sets the reference rasterizer's race-condition tracking options for a specific s
 
 ### -param pShader [in]
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface of a shader.
+A pointer to the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface of a shader.
 
 ### -param Options [in]
 
@@ -65,16 +65,15 @@ A combination of <a href="/windows/win32/api/d3d11sdklayers/ne-d3d11sdklayers-d3
 
 ## -returns
 
-This method returns one of the <a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d11-graphics-reference-returnvalues">Direct3D 11 return codes</a>.
+This method returns one of the <a href="/windows/desktop/direct3d11/d3d11-graphics-reference-returnvalues">Direct3D 11 return codes</a>.
 
 ## -remarks
 
-[D3D11_SHADER_TRACKING_OPTION_UAV_SPECIFIC_FLAGS](/windows/win32/api/d3d11sdklayers/ne-d3d11sdklayers-d3d11_shader_tracking_options)) in the <i>Options</i> parameter for a compute shader, <b>SetShaderTrackingOptions</b> ignores it.</div>
+[D3D11_SHADER_TRACKING_OPTION_UAV_SPECIFIC_FLAGS](./ne-d3d11sdklayers-d3d11_shader_tracking_options.md)) in the <i>Options</i> parameter for a compute shader, <b>SetShaderTrackingOptions</b> ignores it.</div>
 <div> </div>
 <div class="alert"><b>Note</b>  This API requires the Windows Software Development Kit (SDK) for Windows 8.</div>
 <div> </div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11sdklayers/nn-d3d11sdklayers-id3d11tracingdevice">ID3D11TracingDevice</a>
-
+<a href="/windows/desktop/api/d3d11sdklayers/nn-d3d11sdklayers-id3d11tracingdevice">ID3D11TracingDevice</a>

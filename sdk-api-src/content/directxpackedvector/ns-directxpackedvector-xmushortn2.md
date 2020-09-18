@@ -57,9 +57,9 @@ A 2D vector for storing unsigned, normalized values as unsigned 16-bit integers,
 
 
 For a list of more functionality such as constructors and operators that are available
-	using <code>XMUSHORTN2</code> when you are programming in C++, see <a href="https://docs.microsoft.com/windows/desktop/dxmath/ovw-xmushortn2-extensions">XMUSHORTN2 Extensions</a>.
-<div class="alert"><b>Note</b>  See <a href="https://docs.microsoft.com/windows/desktop/dxmath/pg-xnamath-internals">DirectXMath Library Type
-	Equivalences</a> for information about equivalent <a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3ddecltype">D3DDECLTYPE</a>, <a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3dformat">D3DFORMAT</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format">DXGI_FORMAT</a> objects.
+	using <code>XMUSHORTN2</code> when you are programming in C++, see <a href="/windows/desktop/dxmath/ovw-xmushortn2-extensions">XMUSHORTN2 Extensions</a>.
+<div class="alert"><b>Note</b>  See <a href="/windows/desktop/dxmath/pg-xnamath-internals">DirectXMath Library Type
+	Equivalences</a> for information about equivalent <a href="/windows/desktop/direct3d9/d3ddecltype">D3DDECLTYPE</a>, <a href="/windows/desktop/direct3d9/d3dformat">D3DFORMAT</a>, and <a href="/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format">DXGI_FORMAT</a> objects.
     </div><div> </div>
 
 ## -struct-fields
@@ -93,13 +93,13 @@ Those <code>XMUSHORTN2</code> constructors using floating point arguments requir
 	    
 	
 
-You can use <code>XMUSHORTN2</code> to load instances of <a href="https://docs.microsoft.com/windows/desktop/dxmath/xmvector-data-type">XMVECTOR</a> from
-	    normalized values by using <a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmloadshortn4">XMLoadShortN4</a>, which divides each
+You can use <code>XMUSHORTN2</code> to load instances of <a href="/windows/desktop/dxmath/xmvector-data-type">XMVECTOR</a> from
+	    normalized values by using <a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmloadshortn4">XMLoadShortN4</a>, which divides each
 	    component 65535.0f, rounds the result, and then assigns the components to an
 	    <code>XMVECTOR</code> instance.
 	
 
-You can store <code>XMVECTOR</code> instances containing normalized values into <code>XMUSHORTN2</code>using <a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmstoreshortn4">XMStoreShortN4</a>, which multiplies each component by 65535.0f
+You can store <code>XMVECTOR</code> instances containing normalized values into <code>XMUSHORTN2</code>using <a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmstoreshortn4">XMStoreShortN4</a>, which multiplies each component by 65535.0f
 	    and rounds the result before assigning the values to the appropriate <code>XMUSHORTN2</code> members.
 	
 
@@ -110,9 +110,8 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/dxmath/ovw-xnamath-reference-structures">DirectXMath Library Structures</a>
+<a href="/windows/desktop/dxmath/ovw-xnamath-reference-structures">DirectXMath Library Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/dxmath/ovw-xmushortn2-extensions">XMUSHORTN2 Extensions</a>
-
+<a href="/windows/desktop/dxmath/ovw-xmushortn2-extensions">XMUSHORTN2 Extensions</a>

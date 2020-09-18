@@ -60,7 +60,7 @@ This property is read/write.
 
 ## -remarks
 
-Typically, you do not set this property. When the data collector starts, PLA sets this property using the value from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatacollector-get_outputlocation">IDataCollector::OutputLocation</a> property.
+Typically, you do not set this property. When the data collector starts, PLA sets this property using the value from the <a href="/previous-versions/windows/desktop/api/pla/nf-pla-idatacollector-get_outputlocation">IDataCollector::OutputLocation</a> property.
 
 You can set this property to empty if the file has been deleted.
 
@@ -68,9 +68,8 @@ For trace data collectors only, you can set this property to the name of the fil
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nn-pla-idatacollector">IDataCollector</a>
+<a href="/previous-versions/windows/desktop/api/pla/nn-pla-idatacollector">IDataCollector</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatacollector-get_outputlocation">IDataCollector::OutputLocation</a>
-
+<a href="/previous-versions/windows/desktop/api/pla/nf-pla-idatacollector-get_outputlocation">IDataCollector::OutputLocation</a>

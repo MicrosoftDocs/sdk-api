@@ -53,13 +53,13 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[The <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/chstring">CHString</a> class 
+<p class="CCE_Message">[The <a href="/windows/desktop/WmiSdk/chstring">CHString</a> class 
     is part of the WMI Provider Framework which is now considered in final state, and no further development, 
     enhancements, or updates will be available for non-security related issues affecting these libraries. The 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/wmi_v2/windows-management-infrastructure">MI APIs</a> should be used for all new 
+    <a href="/previous-versions/windows/desktop/wmi_v2/windows-management-infrastructure">MI APIs</a> should be used for all new 
     development.]
 
-The <b>FormatV</b> method writes a formatted string and a variable list of arguments to a <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/chstring">CHString</a> string.
+The <b>FormatV</b> method writes a formatted string and a variable list of arguments to a <a href="/windows/desktop/WmiSdk/chstring">CHString</a> string.
 
 ## -parameters
 
@@ -73,7 +73,7 @@ List of arguments that are passed.
 
 ## -remarks
 
-The <b>FormatV</b> method formats and stores a series of characters and values in the <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/chstring">CHString</a> string. The string and arguments are converted and output according to the corresponding format specification in <i>lpszFormat</i>.
+The <b>FormatV</b> method formats and stores a series of characters and values in the <a href="/windows/desktop/WmiSdk/chstring">CHString</a> string. The string and arguments are converted and output according to the corresponding format specification in <i>lpszFormat</i>.
 
 If the string object is offered as a parameter to <b>FormatV</b>, the call fails.
 
@@ -82,9 +82,8 @@ If the string object is offered as a parameter to <b>FormatV</b>, the call fails
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/chstring">CHString</a>
+<a href="/windows/desktop/WmiSdk/chstring">CHString</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/chstring/nf-chstring-chstring-format(uint_---)">CHString::Format</a>
-
+<a href="/windows/desktop/api/chstring/nf-chstring-chstring-format(uint_---)">CHString::Format</a>

@@ -57,7 +57,7 @@ api_name:
 ## -description
 
 Contains information about a hardware profile. The 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getcurrenthwprofilea">GetCurrentHwProfile</a> function uses this structure to retrieve the current hardware profile for the local computer.
+<a href="/windows/desktop/api/winbase/nf-winbase-getcurrenthwprofilea">GetCurrentHwProfile</a> function uses this structure to retrieve the current hardware profile for the local computer.
 
 ## -struct-fields
 
@@ -102,7 +102,7 @@ The computer is undocked. This flag is always set for desktop systems that canno
 </td>
 <td width="60%">
 If this flag is set, 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getcurrenthwprofilea">GetCurrentHwProfile</a> retrieved the current docking state from information provided by the user in the <b>Hardware Profiles</b> page of the <b>System</b> control panel application. 
+<a href="/windows/desktop/api/winbase/nf-winbase-getcurrenthwprofilea">GetCurrentHwProfile</a> retrieved the current docking state from information provided by the user in the <b>Hardware Profiles</b> page of the <b>System</b> control panel application. 
 
 
 
@@ -138,7 +138,7 @@ The computer is undocked, according to information provided by the user. This va
 ### -field szHwProfileGuid
 
 The globally unique identifier (GUID) string for the current hardware profile. The string returned by 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getcurrenthwprofilea">GetCurrentHwProfile</a> encloses the GUID in curly braces, {}; for example: 
+<a href="/windows/desktop/api/winbase/nf-winbase-getcurrenthwprofilea">GetCurrentHwProfile</a> encloses the GUID in curly braces, {}; for example: 
 
 
 
@@ -153,10 +153,9 @@ The display name for the current hardware profile.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getcurrenthwprofilea">GetCurrentHwProfile</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-getcurrenthwprofilea">GetCurrentHwProfile</a>
 
 ## -remarks
 
 > [!NOTE]
 > The winbase.h header defines HW_PROFILE_INFO as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

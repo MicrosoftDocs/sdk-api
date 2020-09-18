@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>X509SCEPFailInfo</b> enumeration   describes the nature of an SCEP certificate enrollment failure. This enumeration is used by the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509scepenrollment">IX509SCEPEnrollment</a> interface.
+The <b>X509SCEPFailInfo</b> enumeration   describes the nature of an SCEP certificate enrollment failure. This enumeration is used by the <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509scepenrollment">IX509SCEPEnrollment</a> interface.
 
 ## -enum-fields
 
@@ -78,5 +78,4 @@ No certificate could be identified.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509scepenrollment-get_failinfo">FailInfo</a>
-
+<a href="/windows/desktop/api/certenroll/nf-certenroll-ix509scepenrollment-get_failinfo">FailInfo</a>

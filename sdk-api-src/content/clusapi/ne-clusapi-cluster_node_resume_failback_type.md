@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Specifies the failback type to use when a cluster node in a paused state is resumed by the <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-resumeclusternodeex">ResumeClusterNodeEx</a> function.
+Specifies the failback type to use when a cluster node in a paused state is resumed by the <a href="/windows/desktop/api/clusapi/nf-clusapi-resumeclusternodeex">ResumeClusterNodeEx</a> function.
 
 ## -enum-fields
 
@@ -72,9 +72,8 @@ Defines the maximum number of failback types.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-enumerations">Failover Cluster Enumerations</a>
+<a href="/previous-versions/windows/desktop/mscs/cluster-enumerations">Failover Cluster Enumerations</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-resumeclusternodeex">ResumeClusterNodeEx</a>
-
+<a href="/windows/desktop/api/clusapi/nf-clusapi-resumeclusternodeex">ResumeClusterNodeEx</a>

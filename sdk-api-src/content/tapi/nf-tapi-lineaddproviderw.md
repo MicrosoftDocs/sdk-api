@@ -66,7 +66,7 @@ Pointer to a <b></b>
 ### -param hwndOwner
 
 Handle to a window in which any dialog boxes that need to be displayed as part of the installation process (for example, by the service provider's 
-<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_providerinstall">TSPI_providerInstall</a> function) would be attached. Can be <b>NULL</b> to indicate that any window created during the function should have no owner window.
+<a href="/windows/desktop/api/tspi/nf-tspi-tspi_providerinstall">TSPI_providerInstall</a> function) would be attached. Can be <b>NULL</b> to indicate that any window created during the function should have no owner window.
 
 ### -param lpdwPermanentProviderID
 
@@ -81,13 +81,13 @@ LINEERR_INIFILECORRUPT, LINEERR_INVALPARAM, LINEERR_INVALPOINTER, LINEERR_NOMEM,
 ## -remarks
 
 During this function call, TAPI checks to ensure that it can access the service provider by calling its 
-<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_providerinstall">TSPI_providerInstall</a> function; if this is unsuccessful (if the DLL or function cannot be found, or if 
+<a href="/windows/desktop/api/tspi/nf-tspi-tspi_providerinstall">TSPI_providerInstall</a> function; if this is unsuccessful (if the DLL or function cannot be found, or if 
 <b>TSPI_providerInstall</b> returns an error), the function fails and the provider is not added to the telephony system. If this succeeds, and the  Telephony system is active (one or more applications have called 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-lineinitialize">lineInitialize</a> or 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-lineinitializeexa">lineInitializeEx</a>), TAPI does not attempt to launch the newly-added service provider. Instead, in order to activate the new service provider, TAPI issues a message to restart Windows. When the activation succeeds, applications are informed of any new devices created by way of 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/line-create">LINE_CREATE</a> or 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/phone-create">PHONE_CREATE</a> messages, or by a 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/line-linedevstate">LINE_LINEDEVSTATE</a> message requesting reinitialization (if the application does not support the CREATE messages).
+<a href="/windows/desktop/api/tapi/nf-tapi-lineinitialize">lineInitialize</a> or 
+<a href="/windows/desktop/api/tapi/nf-tapi-lineinitializeexa">lineInitializeEx</a>), TAPI does not attempt to launch the newly-added service provider. Instead, in order to activate the new service provider, TAPI issues a message to restart Windows. When the activation succeeds, applications are informed of any new devices created by way of 
+<a href="/windows/desktop/Tapi/line-create">LINE_CREATE</a> or 
+<a href="/windows/desktop/Tapi/phone-create">PHONE_CREATE</a> messages, or by a 
+<a href="/windows/desktop/Tapi/line-linedevstate">LINE_LINEDEVSTATE</a> message requesting reinitialization (if the application does not support the CREATE messages).
 
 This function copies no files—not the service provider DLL itself nor any supporting files; the application managing the addition of the provider must ensure that the provider is installed in a directory where it can be found by TAPI (for example, \WINDOWS, \WINDOWS\SYSTEM, or elsewhere on the path).
 
@@ -100,29 +100,28 @@ This function copies no files—not the service provider DLL itself nor any supp
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/line-create">LINE_CREATE</a>
+<a href="/windows/desktop/Tapi/line-create">LINE_CREATE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/line-linedevstate">LINE_LINEDEVSTATE</a>
+<a href="/windows/desktop/Tapi/line-linedevstate">LINE_LINEDEVSTATE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/phone-create">PHONE_CREATE</a>
+<a href="/windows/desktop/Tapi/phone-create">PHONE_CREATE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/supplementary-line-service-functions">Supplementary Line Service Functions</a>
+<a href="/windows/desktop/Tapi/supplementary-line-service-functions">Supplementary Line Service Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/tapi-2-2-reference">TAPI 2.2 Reference Overview</a>
+<a href="/windows/desktop/Tapi/tapi-2-2-reference">TAPI 2.2 Reference Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-lineinitialize">lineInitialize</a>
+<a href="/windows/desktop/api/tapi/nf-tapi-lineinitialize">lineInitialize</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-lineinitializeexa">lineInitializeEx</a>
-
+<a href="/windows/desktop/api/tapi/nf-tapi-lineinitializeexa">lineInitializeEx</a>

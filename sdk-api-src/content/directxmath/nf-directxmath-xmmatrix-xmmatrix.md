@@ -52,14 +52,14 @@ api_name:
 
 Default constructor for <code>XMMATRIX</code>.
 
-Default constructor for <a href="https://docs.microsoft.com/windows/desktop/api/directxmath/ns-directxmath-xmmatrix">XMMATRIX</a>.
+Default constructor for <a href="/windows/desktop/api/directxmath/ns-directxmath-xmmatrix">XMMATRIX</a>.
 <div class="alert"><b>Note</b>  This constructor is only available when developing with C++.</div><div> </div>
 
 ## -parameters
 
 ## -remarks
 
-<code>XMMATRIX()</code> constructs a new instance of the <a href="https://docs.microsoft.com/windows/desktop/api/directxmath/ns-directxmath-xmmatrix">XMMATRIX</a> structure without
+<code>XMMATRIX()</code> constructs a new instance of the <a href="/windows/desktop/api/directxmath/ns-directxmath-xmmatrix">XMMATRIX</a> structure without
     defining the value of any of its members.
 
 ## -see-also
@@ -68,9 +68,8 @@ Default constructor for <a href="https://docs.microsoft.com/windows/desktop/api/
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/directxmath/ns-directxmath-xmmatrix">XMMATRIX</a>
+<a href="/windows/desktop/api/directxmath/ns-directxmath-xmmatrix">XMMATRIX</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/dxmath/xmmatrix-ctor">XMMATRIX Constructors</a>
-
+<a href="/windows/desktop/dxmath/xmmatrix-ctor">XMMATRIX Constructors</a>

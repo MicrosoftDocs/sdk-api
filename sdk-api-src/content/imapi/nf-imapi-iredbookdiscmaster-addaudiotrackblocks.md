@@ -69,12 +69,11 @@ S_OK is returned on success, but other success codes may be returned as a result
 ## -remarks
 
 After all blocks are added, call the 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi/nf-imapi-iredbookdiscmaster-closeaudiotrack">CloseAudioTrack</a> method to finish the track.
+<a href="/windows/desktop/api/imapi/nf-imapi-iredbookdiscmaster-closeaudiotrack">CloseAudioTrack</a> method to finish the track.
 
 If a call to this method would overrun the number of available audio blocks, then the method will return IMAPI_E_DISCFULL and keep as much of the audio data as it can. In contrast, the 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi/nf-imapi-ijolietdiscmaster-adddata">IJolietDiscMaster::AddData</a> method does not keep any of the data, so there are no bad files.
+<a href="/windows/desktop/api/imapi/nf-imapi-ijolietdiscmaster-adddata">IJolietDiscMaster::AddData</a> method does not keep any of the data, so there are no bad files.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi/nn-imapi-iredbookdiscmaster">IRedbookDiscMaster</a>
-
+<a href="/windows/desktop/api/imapi/nn-imapi-iredbookdiscmaster">IRedbookDiscMaster</a>

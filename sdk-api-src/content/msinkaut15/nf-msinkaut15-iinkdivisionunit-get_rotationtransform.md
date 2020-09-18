@@ -53,7 +53,7 @@ api_name:
 
 ## -description
 
-Gets the transformation matrix that the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut15/nn-msinkaut15-iinkdivisionunit">IInkDivisionUnit</a> object uses to rotate the strokes to horizontal.
+Gets the transformation matrix that the <a href="/windows/desktop/api/msinkaut15/nn-msinkaut15-iinkdivisionunit">IInkDivisionUnit</a> object uses to rotate the strokes to horizontal.
 
 
 
@@ -64,17 +64,16 @@ This property is read-only.
 ## -remarks
 
 Text recognizers
-           perform best with horizontal handwriting. Apply this transformation to the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut15/nf-msinkaut15-iinkdivisionresult-get_strokes">Strokes</a> property of the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut15/nn-msinkaut15-iinkdivisionunit">IInkDivisionUnit</a> object before passing the strokes to an <a href="https://docs.microsoft.com/windows/desktop/tablet/inkrecognizercontext-class">InkRecognizerContext</a> object.
+           perform best with horizontal handwriting. Apply this transformation to the <a href="/windows/desktop/api/msinkaut15/nf-msinkaut15-iinkdivisionresult-get_strokes">Strokes</a> property of the <a href="/windows/desktop/api/msinkaut15/nn-msinkaut15-iinkdivisionunit">IInkDivisionUnit</a> object before passing the strokes to an <a href="/windows/desktop/tablet/inkrecognizercontext-class">InkRecognizerContext</a> object.
 
-<div class="alert"><b>Note</b>  For an <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut15/nn-msinkaut15-iinkdivisionunit">IInkDivisionUnit</a> object which represents a paragraph or drawing, this property returns <b>NULL</b>.</div>
+<div class="alert"><b>Note</b>  For an <a href="/windows/desktop/api/msinkaut15/nn-msinkaut15-iinkdivisionunit">IInkDivisionUnit</a> object which represents a paragraph or drawing, this property returns <b>NULL</b>.</div>
 <div> </div>
 Use this property to level handwriting or to accurately draw lines or shapes around angled handwriting.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut15/nn-msinkaut15-iinkdivisionunit">IInkDivisionUnit Interface</a>
+<a href="/windows/desktop/api/msinkaut15/nn-msinkaut15-iinkdivisionunit">IInkDivisionUnit Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/tablet/inktransform-class">InkTransform Class</a>
-
+<a href="/windows/desktop/tablet/inktransform-class">InkTransform Class</a>

@@ -65,5 +65,4 @@ The number of vertices to use.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1effectauthor/nf-d2d1effectauthor-id2d1drawinfo-setvertexprocessing">ID2D1DrawInfo::SetVertexProcessing</a>
-
+<a href="/windows/desktop/api/d2d1effectauthor/nf-d2d1effectauthor-id2d1drawinfo-setvertexprocessing">ID2D1DrawInfo::SetVertexProcessing</a>

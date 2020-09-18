@@ -146,8 +146,8 @@ The task will run on Saturday.
 ## -remarks
 
  The 
-<a href="https://docs.microsoft.com/windows/desktop/api/mstask/ns-mstask-trigger_type_union">TRIGGER_TYPE_UNION</a> union uses an instance of this structure as part of the <b>Type</b> member of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/mstask/ns-mstask-task_trigger">TASK_TRIGGER</a> structure definition.
+<a href="/windows/desktop/api/mstask/ns-mstask-trigger_type_union">TRIGGER_TYPE_UNION</a> union uses an instance of this structure as part of the <b>Type</b> member of the 
+<a href="/windows/desktop/api/mstask/ns-mstask-task_trigger">TASK_TRIGGER</a> structure definition.
 
 The following C++ shows how to  combine the <b>rgfDaysOfTheWeek</b> flags. The example runs a task on every other Sunday, Wednesday, and Friday.
 
@@ -160,17 +160,16 @@ example.rgfDaysOfTheWeek = TASK_SUNDAY | TASK_WEDNESDAY | TASK_FRIDAY;
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nn-taskschd-iweeklytrigger">IWeeklyTrigger</a>
+<a href="/windows/desktop/api/taskschd/nn-taskschd-iweeklytrigger">IWeeklyTrigger</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mstask/ns-mstask-task_trigger">TASK_TRIGGER</a>
+<a href="/windows/desktop/api/mstask/ns-mstask-task_trigger">TASK_TRIGGER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mstask/ns-mstask-trigger_type_union">TRIGGER_TYPE_UNION</a>
+<a href="/windows/desktop/api/mstask/ns-mstask-trigger_type_union">TRIGGER_TYPE_UNION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nf-taskschd-iweeklytrigger-get_weeksinterval">WeeksInterval</a>
-
+<a href="/windows/desktop/api/taskschd/nf-taskschd-iweeklytrigger-get_weeksinterval">WeeksInterval</a>

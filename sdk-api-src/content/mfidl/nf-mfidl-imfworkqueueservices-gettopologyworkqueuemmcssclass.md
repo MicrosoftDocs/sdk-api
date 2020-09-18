@@ -57,7 +57,7 @@ Retrieves the Multimedia Class Scheduler Service (MMCSS) class for a specified b
 
 ### -param dwTopologyWorkQueueId [in]
 
-Identifies the work queue assigned to this topology branch. The application defines this value by setting the <a href="https://docs.microsoft.com/windows/desktop/medfound/mf-toponode-workqueue-id-attribute">MF_TOPONODE_WORKQUEUE_ID</a> attribute on the source node for the branch.
+Identifies the work queue assigned to this topology branch. The application defines this value by setting the <a href="/windows/desktop/medfound/mf-toponode-workqueue-id-attribute">MF_TOPONODE_WORKQUEUE_ID</a> attribute on the source node for the branch.
 
 ### -param pwszClass [out]
 
@@ -113,5 +113,4 @@ The <i>pwszClass</i> buffer is too small to receive the class name.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfworkqueueservices">IMFWorkQueueServices</a>
-
+<a href="/windows/desktop/api/mfidl/nn-mfidl-imfworkqueueservices">IMFWorkQueueServices</a>

@@ -135,21 +135,20 @@ Specifies the data transmitted by this packet. If the packet is a request or a r
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/raseapif/ns-raseapif-ppp_eap_info">PPP_EAP_INFO</a>
+<a href="/windows/desktop/api/raseapif/ns-raseapif-ppp_eap_info">PPP_EAP_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/raseapif/ns-raseapif-ppp_eap_input">PPP_EAP_INPUT</a>
+<a href="/windows/desktop/api/raseapif/ns-raseapif-ppp_eap_input">PPP_EAP_INPUT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/raseapif/ns-raseapif-ppp_eap_output">PPP_EAP_OUTPUT</a>
+<a href="/windows/desktop/api/raseapif/ns-raseapif-ppp_eap_output">PPP_EAP_OUTPUT</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/raseapif/nf-raseapif-raseapgetinfo">RasEapGetInfo</a>
+<a href="/previous-versions/windows/desktop/api/raseapif/nf-raseapif-raseapgetinfo">RasEapGetInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa363532(v=vs.85)">RasEapMakeMessage</a>
-
+<a href="/previous-versions/windows/desktop/legacy/aa363532(v=vs.85)">RasEapMakeMessage</a>

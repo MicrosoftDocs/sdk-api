@@ -61,7 +61,7 @@ Number of elements requested.
 ### -param rgelt [out]
 
 Array of 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits/nn-bits-ibackgroundcopyjob">IBackgroundCopyJob</a> objects. You must release each object in <i>rgelt</i> when done.
+<a href="/windows/desktop/api/bits/nn-bits-ibackgroundcopyjob">IBackgroundCopyJob</a> objects. You must release each object in <i>rgelt</i> when done.
 
 ### -param pceltFetched [out]
 
@@ -102,5 +102,4 @@ Returned less than the number of requested elements.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits/nn-bits-ienumbackgroundcopyjobs">IEnumBackgroundCopyJobs</a>
-
+<a href="/windows/desktop/api/bits/nn-bits-ienumbackgroundcopyjobs">IEnumBackgroundCopyJobs</a>

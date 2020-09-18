@@ -65,13 +65,13 @@ This property is read/write.
 
 ## -remarks
 
-For a list of the modes that you can use, see the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/ne-msinkaut-inkcollectionmode">InkCollectionMode</a> enumeration type.
+For a list of the modes that you can use, see the <a href="/windows/desktop/api/msinkaut/ne-msinkaut-inkcollectionmode">InkCollectionMode</a> enumeration type.
 
-For further details about this property, refer to the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkcollector-class">InkCollector</a> object's <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkcollector-get_collectionmode">CollectionMode</a> property, which has the same functionality.
+For further details about this property, refer to the <a href="/windows/desktop/tablet/inkcollector-class">InkCollector</a> object's <a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkcollector-get_collectionmode">CollectionMode</a> property, which has the same functionality.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_collectingink">CollectingInk Property</a>
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_collectingink">CollectingInk Property</a>
 
 
 
@@ -79,9 +79,8 @@ For further details about this property, refer to the <a href="https://docs.micr
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/ne-msinkaut-inkcollectionmode">InkCollectionMode Enumeration</a>
+<a href="/windows/desktop/api/msinkaut/ne-msinkaut-inkcollectionmode">InkCollectionMode Enumeration</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/tablet/inkpicture-control">InkPicture Control</a>
-
+<a href="/windows/desktop/tablet/inkpicture-control">InkPicture Control</a>

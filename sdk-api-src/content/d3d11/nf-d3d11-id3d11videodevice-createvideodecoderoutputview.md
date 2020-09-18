@@ -56,15 +56,15 @@ Creates a resource view for a video decoder, describing the output sample for th
 
 ### -param pResource [in]
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11resource">ID3D11Resource</a> interface of the decoder surface. The resource must be created with the <b>D3D11_BIND_DECODER</b> flag. See <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ne-d3d11-d3d11_bind_flag">D3D11_BIND_FLAG</a>.
+A pointer to the <a href="/windows/desktop/api/d3d11/nn-d3d11-id3d11resource">ID3D11Resource</a> interface of the decoder surface. The resource must be created with the <b>D3D11_BIND_DECODER</b> flag. See <a href="/windows/desktop/api/d3d11/ne-d3d11-d3d11_bind_flag">D3D11_BIND_FLAG</a>.
 
 ### -param pDesc [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_video_decoder_output_view_desc">D3D11_VIDEO_DECODER_OUTPUT_VIEW_DESC</a> structure that describes the view.
+A pointer to a <a href="/windows/desktop/api/d3d11/ns-d3d11-d3d11_video_decoder_output_view_desc">D3D11_VIDEO_DECODER_OUTPUT_VIEW_DESC</a> structure that describes the view.
 
 ### -param ppVDOVView [out]
 
-Receives a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11videodecoderoutputview">ID3D11VideoDecoderOutputView</a> interface. The caller must release the interface. If this parameter is <b>NULL</b>, the method checks whether the view is supported, but does not create the view.
+Receives a pointer to the <a href="/windows/desktop/api/d3d11/nn-d3d11-id3d11videodecoderoutputview">ID3D11VideoDecoderOutputView</a> interface. The caller must release the interface. If this parameter is <b>NULL</b>, the method checks whether the view is supported, but does not create the view.
 
 ## -returns
 
@@ -76,5 +76,4 @@ Set the <i>ppVDOVView</i> parameter to <b>NULL</b> to test whether a view is sup
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11videodevice">ID3D11VideoDevice</a>
-
+<a href="/windows/desktop/api/d3d11/nn-d3d11-id3d11videodevice">ID3D11VideoDevice</a>

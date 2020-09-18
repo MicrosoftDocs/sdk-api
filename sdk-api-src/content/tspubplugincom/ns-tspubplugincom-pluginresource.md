@@ -66,7 +66,7 @@ The  name of the resource.
 
 ### -field resourceFileContents
 
-The contents of the resource file. The plug-in should allocate memory for this member by calling the <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemalloc">CoTaskMemAlloc</a> function.
+The contents of the resource file. The plug-in should allocate memory for this member by calling the <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemalloc">CoTaskMemAlloc</a> function.
 
 ### -field fileExtension
 
@@ -114,9 +114,8 @@ This member is reserved. Set it to <b>NULL</b>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/TermServ/remoteapp-and-desktop-connection-management-service-interfaces">RemoteApp and Desktop Connection Management Service Interfaces</a>
+<a href="/windows/desktop/TermServ/remoteapp-and-desktop-connection-management-service-interfaces">RemoteApp and Desktop Connection Management Service Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/TermServ/remoteapp-and-desktop-connection-management-service-structures">RemoteApp and Desktop Connection Management Service Structures</a>
-
+<a href="/windows/desktop/TermServ/remoteapp-and-desktop-connection-management-service-structures">RemoteApp and Desktop Connection Management Service Structures</a>

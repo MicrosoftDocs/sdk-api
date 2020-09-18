@@ -51,13 +51,13 @@ api_name:
 
 ## -description
 
-The <b>GetSecureQuery</b> method is used to obtain a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iscpsecurequery">ISCPSecureQuery</a> interface.
+The <b>GetSecureQuery</b> method is used to obtain a pointer to the <a href="/windows/desktop/api/mswmdm/nn-mswmdm-iscpsecurequery">ISCPSecureQuery</a> interface.
 
 ## -parameters
 
 ### -param ppSecureQuery [out]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iscpsecurequery">ISCPSecureQuery</a> object.
+Pointer to an <a href="/windows/desktop/api/mswmdm/nn-mswmdm-iscpsecurequery">ISCPSecureQuery</a> object.
 
 ## -returns
 
@@ -65,9 +65,8 @@ If the method succeeds, it returns S_OK. If it fails, it returns an <b>HRESULT</
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iscpsecureauthenticate">ISCPSecureAuthenticate Interface</a>
+<a href="/windows/desktop/api/mswmdm/nn-mswmdm-iscpsecureauthenticate">ISCPSecureAuthenticate Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iscpsecurequery">ISCPSecureQuery Interface</a>
-
+<a href="/windows/desktop/api/mswmdm/nn-mswmdm-iscpsecurequery">ISCPSecureQuery Interface</a>

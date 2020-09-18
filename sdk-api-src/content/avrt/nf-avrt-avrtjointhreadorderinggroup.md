@@ -71,11 +71,11 @@ The thread order. If this parameter is <b>TRUE</b>, the thread is a predecessor 
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
-The thread encloses the code to be executed during each period within a loop that is controlled by the <a href="https://docs.microsoft.com/windows/desktop/api/avrt/nf-avrt-avrtwaitonthreadorderinggroup">AvRtWaitOnThreadOrderingGroup</a> function.
+The thread encloses the code to be executed during each period within a loop that is controlled by the <a href="/windows/desktop/api/avrt/nf-avrt-avrtwaitonthreadorderinggroup">AvRtWaitOnThreadOrderingGroup</a> function.
 
 A thread can create more than one thread ordering group and join more than one thread ordering group. However, a thread cannot join the same thread ordering group more than one time.
 
@@ -83,5 +83,4 @@ The number of threads that can join a group is limited only by available system 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/ProcThread/thread-ordering-service">Thread Ordering Service</a>
-
+<a href="/windows/desktop/ProcThread/thread-ordering-service">Thread Ordering Service</a>

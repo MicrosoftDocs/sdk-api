@@ -55,7 +55,7 @@ Deprecated. The methods exposed by this interface are analogous to virtual prote
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBrowserService3</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/shdeprecated/nn-shdeprecated-ibrowserservice2">IBrowserService2</a>. <b>IBrowserService3</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBrowserService3</b> interface inherits from <a href="/windows/desktop/api/shdeprecated/nn-shdeprecated-ibrowserservice2">IBrowserService2</a>. <b>IBrowserService3</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -79,7 +79,7 @@ Deprecated. Used in view size negotiations. This method is called by <a href="/w
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shdeprecated/nf-shdeprecated-ibrowserservice3-ieparsedisplaynameex">IEParseDisplayNameEx</a>
+<a href="/windows/desktop/api/shdeprecated/nf-shdeprecated-ibrowserservice3-ieparsedisplaynameex">IEParseDisplayNameEx</a>
 </td>
 <td align="left" width="63%">
 Deprecated. Parses a URL into a PIDL.
@@ -90,5 +90,4 @@ Deprecated. Parses a URL into a PIDL.
 
 ## -remarks
 
-This interface also provides the methods of the <a href="https://docs.microsoft.com/windows/desktop/api/shdeprecated/nn-shdeprecated-ibrowserservice">IBrowserService</a> and <a href="https://docs.microsoft.com/windows/desktop/api/shdeprecated/nn-shdeprecated-ibrowserservice2">IBrowserService2</a> interfaces, from which it inherits.
-
+This interface also provides the methods of the <a href="/windows/desktop/api/shdeprecated/nn-shdeprecated-ibrowserservice">IBrowserService</a> and <a href="/windows/desktop/api/shdeprecated/nn-shdeprecated-ibrowserservice2">IBrowserService2</a> interfaces, from which it inherits.

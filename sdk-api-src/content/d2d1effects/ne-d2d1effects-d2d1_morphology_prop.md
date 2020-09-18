@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Identifiers for properties of the <a href="https://docs.microsoft.com/windows/desktop/Direct2D/morphology">Morphology effect</a>.
+Identifiers for properties of the <a href="/windows/desktop/Direct2D/morphology">Morphology effect</a>.
 
 ## -enum-fields
 
@@ -82,4 +82,3 @@ The type is UINT.
 The default value is 1.
 
 ### -field D2D1_MORPHOLOGY_PROP_FORCE_DWORD
-

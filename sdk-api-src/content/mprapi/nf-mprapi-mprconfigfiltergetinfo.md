@@ -57,7 +57,7 @@ The <b>MprConfigFilterGetInfo</b> function returns static filtering information 
 ### -param hMprConfig [in]
 
 Handle to the router configuration. Obtain this handle by calling 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mprconfigserverconnect">MprConfigServerConnect</a>.
+<a href="/windows/desktop/api/mprapi/nf-mprapi-mprconfigserverconnect">MprConfigServerConnect</a>.
 
 ### -param dwLevel [in]
 
@@ -96,8 +96,8 @@ A <b>DWORD</b> value that describes the transport protocol type of the static fi
 
 ### -param lpBuffer [out]
 
-On successful completion, a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-mpr_filter_0">MPR_FILTER_0</a> structure that contains the filter driver configuration information. Free this memory buffer by calling 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mprconfigbufferfree">MprConfigBufferFree</a>.
+On successful completion, a pointer to a <a href="/windows/desktop/api/mprapi/ns-mprapi-mpr_filter_0">MPR_FILTER_0</a> structure that contains the filter driver configuration information. Free this memory buffer by calling 
+<a href="/windows/desktop/api/mprapi/nf-mprapi-mprconfigbufferfree">MprConfigBufferFree</a>.
 
 ## -returns
 
@@ -125,9 +125,8 @@ If the function fails, the return value is one of the following error codes.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-mpr_filter_0">MPR_FILTER_0</a>
+<a href="/windows/desktop/api/mprapi/ns-mprapi-mpr_filter_0">MPR_FILTER_0</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mprconfigfiltersetinfo">MprConfigFilterSetInfo</a>
-
+<a href="/windows/desktop/api/mprapi/nf-mprapi-mprconfigfiltersetinfo">MprConfigFilterSetInfo</a>

@@ -77,7 +77,7 @@ The <b>CommDlgExtendedError</b> function can return general error codes for any 
 </dl>
 </td>
 <td width="60%">
-The dialog box could not be created. The common dialog box function's call to the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-dialogboxa">DialogBox</a> function failed. For example, this error occurs if the common dialog box call specifies an invalid window handle.
+The dialog box could not be created. The common dialog box function's call to the <a href="/windows/desktop/api/winuser/nf-winuser-dialogboxa">DialogBox</a> function failed. For example, this error occurs if the common dialog box call specifies an invalid window handle.
 
 </td>
 </tr>
@@ -209,7 +209,7 @@ The <b>ENABLETEMPLATE</b> flag was set in the <b>Flags</b> member of the initial
 </dl>
 </td>
 <td width="60%">
-The <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-registerwindowmessagea">RegisterWindowMessage</a> function returned an error code when it was called by the common dialog box function.
+The <a href="/windows/desktop/api/winuser/nf-winuser-registerwindowmessagea">RegisterWindowMessage</a> function returned an error code when it was called by the common dialog box function.
 
 </td>
 </tr>
@@ -228,7 +228,7 @@ The <b>lStructSize</b> member of the initialization structure for the correspond
 </table>
  
 
-The following error codes can be returned for the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms646940(v=vs.85)">PrintDlg</a> function.
+The following error codes can be returned for the <a href="/previous-versions/windows/desktop/legacy/ms646940(v=vs.85)">PrintDlg</a> function.
 
 <table>
 <tr>
@@ -243,7 +243,7 @@ The following error codes can be returned for the <a href="https://docs.microsof
 </dl>
 </td>
 <td width="60%">
-The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms646940(v=vs.85)">PrintDlg</a> function failed when it attempted to create an information context.
+The <a href="/previous-versions/windows/desktop/legacy/ms646940(v=vs.85)">PrintDlg</a> function failed when it attempted to create an information context.
 
 </td>
 </tr>
@@ -255,11 +255,11 @@ The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy
 </dl>
 </td>
 <td width="60%">
-You called the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms646940(v=vs.85)">PrintDlg</a> function with the <b>DN_DEFAULTPRN</b> flag specified in the <b>wDefault</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/commdlg/ns-commdlg-devnames">DEVNAMES</a> structure, but the printer described by the other structure members did not match the current default printer. This error occurs when you store the <b>DEVNAMES</b> structure, and the user changes the default printer by using the Control Panel.
+You called the <a href="/previous-versions/windows/desktop/legacy/ms646940(v=vs.85)">PrintDlg</a> function with the <b>DN_DEFAULTPRN</b> flag specified in the <b>wDefault</b> member of the <a href="/windows/desktop/api/commdlg/ns-commdlg-devnames">DEVNAMES</a> structure, but the printer described by the other structure members did not match the current default printer. This error occurs when you store the <b>DEVNAMES</b> structure, and the user changes the default printer by using the Control Panel.
 
-To use the printer described by the <a href="https://docs.microsoft.com/windows/desktop/api/commdlg/ns-commdlg-devnames">DEVNAMES</a> structure, clear the <b>DN_DEFAULTPRN</b> flag and call <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms646940(v=vs.85)">PrintDlg</a> again.
+To use the printer described by the <a href="/windows/desktop/api/commdlg/ns-commdlg-devnames">DEVNAMES</a> structure, clear the <b>DN_DEFAULTPRN</b> flag and call <a href="/previous-versions/windows/desktop/legacy/ms646940(v=vs.85)">PrintDlg</a> again.
 
-To use the default printer, replace the <a href="https://docs.microsoft.com/windows/desktop/api/commdlg/ns-commdlg-devnames">DEVNAMES</a> structure (and the  structure, if one exists) with <b>NULL</b>; and call <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms646940(v=vs.85)">PrintDlg</a> again.
+To use the default printer, replace the <a href="/windows/desktop/api/commdlg/ns-commdlg-devnames">DEVNAMES</a> structure (and the  structure, if one exists) with <b>NULL</b>; and call <a href="/previous-versions/windows/desktop/legacy/ms646940(v=vs.85)">PrintDlg</a> again.
 
 </td>
 </tr>
@@ -271,7 +271,7 @@ To use the default printer, replace the <a href="https://docs.microsoft.com/wind
 </dl>
 </td>
 <td width="60%">
-The data in the <a href="/windows/win32/api/wingdi/ns-wingdi-devmodea">DEVMODE</a> and <a href="https://docs.microsoft.com/windows/desktop/api/commdlg/ns-commdlg-devnames">DEVNAMES</a> structures describes two different printers.
+The data in the <a href="/windows/win32/api/wingdi/ns-wingdi-devmodea">DEVMODE</a> and <a href="/windows/desktop/api/commdlg/ns-commdlg-devnames">DEVNAMES</a> structures describes two different printers.
 
 </td>
 </tr>
@@ -295,7 +295,7 @@ The printer driver failed to initialize a <a href="/windows/win32/api/wingdi/ns-
 </dl>
 </td>
 <td width="60%">
-The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms646940(v=vs.85)">PrintDlg</a> function failed during initialization, and there is no more specific extended error code to describe the failure. This is the generic default error code for the function.
+The <a href="/previous-versions/windows/desktop/legacy/ms646940(v=vs.85)">PrintDlg</a> function failed during initialization, and there is no more specific extended error code to describe the failure. This is the generic default error code for the function.
 
 </td>
 </tr>
@@ -307,7 +307,7 @@ The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy
 </dl>
 </td>
 <td width="60%">
-The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms646940(v=vs.85)">PrintDlg</a> function failed to load the device driver for the specified printer.
+The <a href="/previous-versions/windows/desktop/legacy/ms646940(v=vs.85)">PrintDlg</a> function failed to load the device driver for the specified printer.
 
 </td>
 </tr>
@@ -343,7 +343,7 @@ No printer drivers were found.
 </dl>
 </td>
 <td width="60%">
-The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms646940(v=vs.85)">PrintDlg</a> function failed to parse the strings in the [devices] section of the WIN.INI file.
+The <a href="/previous-versions/windows/desktop/legacy/ms646940(v=vs.85)">PrintDlg</a> function failed to parse the strings in the [devices] section of the WIN.INI file.
 
 </td>
 </tr>
@@ -380,14 +380,14 @@ The PD_RETURNDEFAULT flag was specified in the <b>Flags</b> member of the <a hre
 </dl>
 </td>
 <td width="60%">
-The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms646940(v=vs.85)">PrintDlg</a> function failed to load the required resources.
+The <a href="/previous-versions/windows/desktop/legacy/ms646940(v=vs.85)">PrintDlg</a> function failed to load the required resources.
 
 </td>
 </tr>
 </table>
  
 
-The following error codes can be returned for the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms646914(v=vs.85)">ChooseFont</a> function.
+The following error codes can be returned for the <a href="/previous-versions/windows/desktop/legacy/ms646914(v=vs.85)">ChooseFont</a> function.
 
 <table>
 <tr>
@@ -402,7 +402,7 @@ The following error codes can be returned for the <a href="https://docs.microsof
 </dl>
 </td>
 <td width="60%">
-The size specified in the <b>nSizeMax</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/commdlg/ns-commdlg-choosefonta">CHOOSEFONT</a> structure is less than the size specified in the 
+The size specified in the <b>nSizeMax</b> member of the <a href="/windows/desktop/api/commdlg/ns-commdlg-choosefonta">CHOOSEFONT</a> structure is less than the size specified in the 
 							<b>nSizeMin</b> member.
 
 </td>
@@ -422,7 +422,7 @@ No fonts exist.
 </table>
  
 
-The following error codes can be returned for the <a href="https://docs.microsoft.com/windows/desktop/api/commdlg/nf-commdlg-getopenfilenamea">GetOpenFileName</a> and <a href="https://docs.microsoft.com/windows/desktop/api/commdlg/nf-commdlg-getsavefilenamea">GetSaveFileName</a> functions.
+The following error codes can be returned for the <a href="/windows/desktop/api/commdlg/nf-commdlg-getopenfilenamea">GetOpenFileName</a> and <a href="/windows/desktop/api/commdlg/nf-commdlg-getsavefilenamea">GetSaveFileName</a> functions.
 
 <table>
 <tr>
@@ -470,7 +470,7 @@ An attempt to subclass a list box failed because sufficient memory was not avail
 </table>
  
 
-The following error code can be returned for the <a href="https://docs.microsoft.com/windows/desktop/api/commdlg/nf-commdlg-findtexta">FindText</a> and <a href="https://docs.microsoft.com/windows/desktop/api/commdlg/nf-commdlg-replacetexta">ReplaceText</a> functions.
+The following error code can be returned for the <a href="/windows/desktop/api/commdlg/nf-commdlg-findtexta">FindText</a> and <a href="/windows/desktop/api/commdlg/nf-commdlg-replacetexta">ReplaceText</a> functions.
 
 <table>
 <tr>
@@ -485,7 +485,7 @@ The following error code can be returned for the <a href="https://docs.microsoft
 </dl>
 </td>
 <td width="60%">
-A member of the <a href="https://docs.microsoft.com/windows/desktop/api/commdlg/ns-commdlg-findreplacea">FINDREPLACE</a> structure points to an invalid buffer.
+A member of the <a href="/windows/desktop/api/commdlg/ns-commdlg-findreplacea">FINDREPLACE</a> structure points to an invalid buffer.
 
 </td>
 </tr>
@@ -497,19 +497,19 @@ A member of the <a href="https://docs.microsoft.com/windows/desktop/api/commdlg/
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/commdlg/ns-commdlg-choosefonta">CHOOSEFONT</a>
+<a href="/windows/desktop/api/commdlg/ns-commdlg-choosefonta">CHOOSEFONT</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms646912(v=vs.85)">ChooseColor</a>
+<a href="/previous-versions/windows/desktop/legacy/ms646912(v=vs.85)">ChooseColor</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms646914(v=vs.85)">ChooseFont</a>
+<a href="/previous-versions/windows/desktop/legacy/ms646914(v=vs.85)">ChooseFont</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/dlgbox/common-dialog-box-library">Common Dialog Box Library</a>
+<a href="/windows/desktop/dlgbox/common-dialog-box-library">Common Dialog Box Library</a>
 
 
 
@@ -517,27 +517,27 @@ A member of the <a href="https://docs.microsoft.com/windows/desktop/api/commdlg/
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/commdlg/ns-commdlg-devnames">DEVNAMES</a>
+<a href="/windows/desktop/api/commdlg/ns-commdlg-devnames">DEVNAMES</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-dialogboxa">DialogBox</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-dialogboxa">DialogBox</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/commdlg/ns-commdlg-findreplacea">FINDREPLACE</a>
+<a href="/windows/desktop/api/commdlg/ns-commdlg-findreplacea">FINDREPLACE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/commdlg/nf-commdlg-findtexta">FindText</a>
+<a href="/windows/desktop/api/commdlg/nf-commdlg-findtexta">FindText</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/commdlg/nf-commdlg-getopenfilenamea">GetOpenFileName</a>
+<a href="/windows/desktop/api/commdlg/nf-commdlg-getopenfilenamea">GetOpenFileName</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/commdlg/nf-commdlg-getsavefilenamea">GetSaveFileName</a>
+<a href="/windows/desktop/api/commdlg/nf-commdlg-getsavefilenamea">GetSaveFileName</a>
 
 
 
@@ -553,11 +553,11 @@ A member of the <a href="https://docs.microsoft.com/windows/desktop/api/commdlg/
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms646937(v=vs.85)">PageSetupDlg</a>
+<a href="/previous-versions/windows/desktop/legacy/ms646937(v=vs.85)">PageSetupDlg</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms646940(v=vs.85)">PrintDlg</a>
+<a href="/previous-versions/windows/desktop/legacy/ms646940(v=vs.85)">PrintDlg</a>
 
 
 
@@ -565,9 +565,8 @@ A member of the <a href="https://docs.microsoft.com/windows/desktop/api/commdlg/
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-registerwindowmessagea">RegisterWindowMessage</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-registerwindowmessagea">RegisterWindowMessage</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/commdlg/nf-commdlg-replacetexta">ReplaceText</a>
-
+<a href="/windows/desktop/api/commdlg/nf-commdlg-replacetexta">ReplaceText</a>

@@ -50,11 +50,11 @@ api_name:
 
 ## -description
 
-Extends the methods and properties of the <a href="https://docs.microsoft.com/windows/desktop/api/wsmandisp/nn-wsmandisp-iwsmanex">IWSManEx</a> interface to include a method that returns a session flag value related to authentication using client certificates.
+Extends the methods and properties of the <a href="/windows/desktop/api/wsmandisp/nn-wsmandisp-iwsmanex">IWSManEx</a> interface to include a method that returns a session flag value related to authentication using client certificates.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWSManEx2</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/wsmandisp/nn-wsmandisp-iwsmanex">IWSManEx</a>. <b>IWSManEx2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWSManEx2</b> interface inherits from <a href="/windows/desktop/api/wsmandisp/nn-wsmandisp-iwsmanex">IWSManEx</a>. <b>IWSManEx2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IWSManEx2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wsmandisp/nf-wsmandisp-iwsmanex2-sessionflaguseclientcertificate">IWSManEx2::SessionFlagUseClientCertificate</a>
+<a href="/windows/desktop/api/wsmandisp/nf-wsmandisp-iwsmanex2-sessionflaguseclientcertificate">IWSManEx2::SessionFlagUseClientCertificate</a>
 </td>
 <td align="left" width="63%">
 Returns the value of the authentication flag <b>WSManFlagUseClientCertificate</b>.
@@ -80,5 +80,4 @@ Returns the value of the authentication flag <b>WSManFlagUseClientCertificate</b
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wsmandisp/nn-wsmandisp-iwsmanex">IWSManEx</a>
-
+<a href="/windows/desktop/api/wsmandisp/nn-wsmandisp-iwsmanex">IWSManEx</a>

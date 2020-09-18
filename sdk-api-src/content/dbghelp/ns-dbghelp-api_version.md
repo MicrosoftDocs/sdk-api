@@ -74,9 +74,8 @@ This member is reserved for use by the operating system.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-imagehlpapiversion">ImagehlpApiVersion</a>
+<a href="/windows/desktop/api/dbghelp/nf-dbghelp-imagehlpapiversion">ImagehlpApiVersion</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-imagehlpapiversionex">ImagehlpApiVersionEx</a>
-
+<a href="/windows/desktop/api/dbghelp/nf-dbghelp-imagehlpapiversionex">ImagehlpApiVersionEx</a>

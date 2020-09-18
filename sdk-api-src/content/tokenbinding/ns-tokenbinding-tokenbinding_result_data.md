@@ -58,7 +58,7 @@ Contains data about the result of generating a token binding or verifying one of
 
 ### -field identifierSize
 
-The size of the <a href="https://docs.microsoft.com/windows/desktop/api/tokenbinding/ns-tokenbinding-tokenbinding_identifier">TOKENBINDING_IDENTIFIER</a> structure that the <b>identifierData</b> member points to, in bytes.
+The size of the <a href="/windows/desktop/api/tokenbinding/ns-tokenbinding-tokenbinding_identifier">TOKENBINDING_IDENTIFIER</a> structure that the <b>identifierData</b> member points to, in bytes.
 
 ### -field identifierData
 
@@ -78,21 +78,20 @@ A pointer to a buffer that contains extension data. The value of the <i>extensio
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tokenbinding/ne-tokenbinding-tokenbinding_extension_format">TOKENBINDING_EXTENSION_FORMAT</a>
+<a href="/windows/desktop/api/tokenbinding/ne-tokenbinding-tokenbinding_extension_format">TOKENBINDING_EXTENSION_FORMAT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tokenbinding/ns-tokenbinding-tokenbinding_identifier">TOKENBINDING_IDENTIFIER</a>
+<a href="/windows/desktop/api/tokenbinding/ns-tokenbinding-tokenbinding_identifier">TOKENBINDING_IDENTIFIER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tokenbinding/ns-tokenbinding-tokenbinding_result_list">TOKENBINDING_RESULT_LIST</a>
+<a href="/windows/desktop/api/tokenbinding/ns-tokenbinding-tokenbinding_result_list">TOKENBINDING_RESULT_LIST</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tokenbinding/nf-tokenbinding-tokenbindinggeneratebinding">TokenBindingGenerateBinding</a>
+<a href="/windows/desktop/api/tokenbinding/nf-tokenbinding-tokenbindinggeneratebinding">TokenBindingGenerateBinding</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tokenbinding/nf-tokenbinding-tokenbindingverifymessage">TokenBindingVerifyMessage</a>
-
+<a href="/windows/desktop/api/tokenbinding/nf-tokenbinding-tokenbindingverifymessage">TokenBindingVerifyMessage</a>

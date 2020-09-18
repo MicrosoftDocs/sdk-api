@@ -157,7 +157,7 @@ PT_STRING8
 
 #### bin
 
-<b>Type: <b><a href="https://docs.microsoft.com/previous-versions/office/developer/office-2007/cc815817(v=office.12)">SBinary</a></b>
+<b>Type: <b><a href="/previous-versions/office/developer/office-2007/cc815817(v=office.12)">SBinary</a></b>
 </b>
 PT_BINARY
 
@@ -245,7 +245,7 @@ PT_MV_SYSTIME
 
 #### MVbin
 
-<b>Type: <b><a href="https://docs.microsoft.com/previous-versions/office/developer/office-2007/cc815398(v=office.12)">SBinaryArray</a></b>
+<b>Type: <b><a href="/previous-versions/office/developer/office-2007/cc815398(v=office.12)">SBinaryArray</a></b>
 </b>
 PT_MV_BINARY
 
@@ -298,4 +298,3 @@ PT_ERROR
 PT_NULL, PT_OBJECT (no usable value)
 
 ### -field _PV
-

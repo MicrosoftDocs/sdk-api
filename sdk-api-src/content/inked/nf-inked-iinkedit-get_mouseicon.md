@@ -57,7 +57,7 @@ api_name:
 ## -description
 
 Gets or sets the custom mouse icon for the
-<a href="https://docs.microsoft.com/windows/desktop/tablet/inkedit-control-reference">InkEdit</a> control.
+<a href="/windows/desktop/tablet/inkedit-control-reference">InkEdit</a> control.
 
 This property is read/write.
 
@@ -65,7 +65,7 @@ This property is read/write.
 
 ## -remarks
 
-This property provides a custom icon that is used when the <a href="https://docs.microsoft.com/windows/desktop/api/inked/nf-inked-iinkedit-get_mousepointer">MousePointer</a> property is set to <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/ne-msinkaut-inkmousepointer">IMP_Custom</a>.
+This property provides a custom icon that is used when the <a href="/windows/desktop/api/inked/nf-inked-iinkedit-get_mousepointer">MousePointer</a> property is set to <a href="/windows/desktop/api/msinkaut/ne-msinkaut-inkmousepointer">IMP_Custom</a>.
 
 You can use the <b>MouseIcon</b> property to load either cursor or icon files. The <b>MouseIcon</b> property provides your application with access to custom cursors of any size with any desired hot spot location.
 
@@ -75,5 +75,4 @@ You can use the <b>MouseIcon</b> property to load either cursor or icon files. T
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/tablet/inkedit-control-reference">InkEdit</a>
-
+<a href="/windows/desktop/tablet/inkedit-control-reference">InkEdit</a>

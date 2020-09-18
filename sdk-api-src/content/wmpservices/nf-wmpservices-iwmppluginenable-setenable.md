@@ -70,9 +70,8 @@ DSP plug-ins are removed from the signal path when the user chooses to disable t
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmpservices/nn-wmpservices-iwmppluginenable">IWMPPluginEnable Interface</a>
+<a href="/windows/desktop/api/wmpservices/nn-wmpservices-iwmppluginenable">IWMPPluginEnable Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmpservices/nf-wmpservices-iwmppluginenable-getenable">IWMPPluginEnable::GetEnable</a>
-
+<a href="/windows/desktop/api/wmpservices/nf-wmpservices-iwmppluginenable-getenable">IWMPPluginEnable::GetEnable</a>

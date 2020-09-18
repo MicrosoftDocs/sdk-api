@@ -50,11 +50,11 @@ api_name:
 
 ## -description
 
-Used by the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-icreatingprocess">ICreatingProcess</a> interface to alter some parameters of the process that is being created.
+Used by the <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-icreatingprocess">ICreatingProcess</a> interface to alter some parameters of the process that is being created.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICreateProcessInputs</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ICreateProcessInputs</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICreateProcessInputs</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ICreateProcessInputs</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,43 +69,43 @@ The <b>ICreateProcessInputs</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icreateprocessinputs-addcreateflags">AddCreateFlags</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icreateprocessinputs-addcreateflags">AddCreateFlags</a>
 </td>
 <td align="left" width="63%">
- Set additional flags that will be included in the call to <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessa">CreateProcess</a>.
+ Set additional flags that will be included in the call to <a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessa">CreateProcess</a>.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icreateprocessinputs-addstartupflags">AddStartupFlags</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icreateprocessinputs-addstartupflags">AddStartupFlags</a>
 </td>
 <td align="left" width="63%">
- Additional flags that will be included in the <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/ns-processthreadsapi-startupinfoa">STARTUPINFO</a> structure passed to <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessa">CreateProcess</a>.
+ Additional flags that will be included in the <a href="/windows/desktop/api/processthreadsapi/ns-processthreadsapi-startupinfoa">STARTUPINFO</a> structure passed to <a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessa">CreateProcess</a>.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icreateprocessinputs-getcreateflags">GetCreateFlags</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icreateprocessinputs-getcreateflags">GetCreateFlags</a>
 </td>
 <td align="left" width="63%">
-Gets the additional flags that will be passed to <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessa">CreateProcess</a>.
+Gets the additional flags that will be passed to <a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessa">CreateProcess</a>.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icreateprocessinputs-setcreateflags">SetCreateFlags</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icreateprocessinputs-setcreateflags">SetCreateFlags</a>
 </td>
 <td align="left" width="63%">
- Set the flags that will be included in the call to <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessa">CreateProcess</a>.
+ Set the flags that will be included in the call to <a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessa">CreateProcess</a>.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icreateprocessinputs-setenvironmentvariable">SetEnvironmentVariable</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icreateprocessinputs-setenvironmentvariable">SetEnvironmentVariable</a>
 </td>
 <td align="left" width="63%">
 Sets a variable in the environment of the created process.
@@ -114,7 +114,7 @@ Sets a variable in the environment of the created process.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icreateprocessinputs-sethotkey">SetHotKey</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icreateprocessinputs-sethotkey">SetHotKey</a>
 </td>
 <td align="left" width="63%">
 Sets the hot key for the application.
@@ -123,10 +123,10 @@ Sets the hot key for the application.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icreateprocessinputs-settitle">SetTitle</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icreateprocessinputs-settitle">SetTitle</a>
 </td>
 <td align="left" width="63%">
- Sets the title that will be passed <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessa">CreateProcess</a>.
+ Sets the title that will be passed <a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessa">CreateProcess</a>.
 
 </td>
 </tr>
@@ -136,5 +136,4 @@ Sets the hot key for the application.
 
 Applications do not implement this interface.
 
-A pointer to this interface is passed to <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icreatingprocess-oncreating">ICreatingProcess::OnCreating</a>.
-
+A pointer to this interface is passed to <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icreatingprocess-oncreating">ICreatingProcess::OnCreating</a>.

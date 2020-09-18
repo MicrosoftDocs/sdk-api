@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-The <b>BCRYPT_MULTI_OBJECT_LENGTH_STRUCT</b> structure contains information to determine the size of the <i>pbHashObject</i> buffer for the <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/nf-bcrypt-bcryptcreatemultihash">BCryptCreateMultiHash</a> function.
+The <b>BCRYPT_MULTI_OBJECT_LENGTH_STRUCT</b> structure contains information to determine the size of the <i>pbHashObject</i> buffer for the <a href="/windows/desktop/api/bcrypt/nf-bcrypt-bcryptcreatemultihash">BCryptCreateMultiHash</a> function.
 
 ## -struct-fields
 
@@ -66,9 +66,8 @@ The number of bytes needed for each element of the object.
 
 ## -remarks
 
-The size of the <i>pbHashObject</i> buffer for the <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/nf-bcrypt-bcryptcreatemultihash">BCryptCreateMultiHash</a> function is the following: <code>cbPerObject + (number of hash states) * cbPerElement</code>.
+The size of the <i>pbHashObject</i> buffer for the <a href="/windows/desktop/api/bcrypt/nf-bcrypt-bcryptcreatemultihash">BCryptCreateMultiHash</a> function is the following: <code>cbPerObject + (number of hash states) * cbPerElement</code>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/nf-bcrypt-bcryptcreatemultihash">BCryptCreateMultiHash</a>
-
+<a href="/windows/desktop/api/bcrypt/nf-bcrypt-bcryptcreatemultihash">BCryptCreateMultiHash</a>

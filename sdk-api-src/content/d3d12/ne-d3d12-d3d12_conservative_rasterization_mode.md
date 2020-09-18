@@ -64,17 +64,16 @@ Conservative rasterization is on.
 
 ## -remarks
 
-This enum is used by the <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_rasterizer_desc">D3D12_RASTERIZER_DESC</a> structure.
+This enum is used by the <a href="/windows/desktop/api/d3d12/ns-d3d12-d3d12_rasterizer_desc">D3D12_RASTERIZER_DESC</a> structure.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3d12/conservative-rasterization">Conservative Rasterization</a>
+<a href="/windows/desktop/direct3d12/conservative-rasterization">Conservative Rasterization</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3d12/direct3d-12-enumerations">Core Enumerations</a>
+<a href="/windows/desktop/direct3d12/direct3d-12-enumerations">Core Enumerations</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_conservative_rasterization_tier">D3D12_CONSERVATIVE_RASTERIZATION_TIER</a>
-
+<a href="/windows/desktop/api/d3d12/ne-d3d12-d3d12_conservative_rasterization_tier">D3D12_CONSERVATIVE_RASTERIZATION_TIER</a>

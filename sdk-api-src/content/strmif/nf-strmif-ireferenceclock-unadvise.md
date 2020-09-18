@@ -57,7 +57,7 @@ The <code>Unadvise</code> method removes a pending advise request.
 
 ### -param dwAdviseCookie [in]
 
-Identifier of the request to remove. Use the value returned by <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ireferenceclock-advisetime">IReferenceClock::AdviseTime</a> or <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ireferenceclock-adviseperiodic">IReferenceClock::AdvisePeriodic</a> in the <i>pdwAdviseToken</i> parameter.
+Identifier of the request to remove. Use the value returned by <a href="/windows/desktop/api/strmif/nf-strmif-ireferenceclock-advisetime">IReferenceClock::AdviseTime</a> or <a href="/windows/desktop/api/strmif/nf-strmif-ireferenceclock-adviseperiodic">IReferenceClock::AdvisePeriodic</a> in the <i>pdwAdviseToken</i> parameter.
 
 ## -returns
 
@@ -94,9 +94,8 @@ Success.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ireferenceclock">IReferenceClock Interface</a>
-
+<a href="/windows/desktop/api/strmif/nn-strmif-ireferenceclock">IReferenceClock Interface</a>

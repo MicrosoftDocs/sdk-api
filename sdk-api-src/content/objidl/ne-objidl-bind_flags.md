@@ -62,17 +62,16 @@ If this flag is specified, the moniker implementation can interact with the end 
 
 ### -field BIND_JUSTTESTEXISTENCE
 
-If this flag is specified, the caller is not interested in having the operation carried out, but only in learning whether the operation could have been carried out had this flag not been specified. For example, this flag lets the caller indicate only an interest in finding out whether an object actually exists by using this flag in a <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-imoniker-bindtoobject">IMoniker::BindToObject</a> call. Moniker implementations can, however, ignore this possible optimization and carry out the operation in full. Callers must be able to deal with both cases.
+If this flag is specified, the caller is not interested in having the operation carried out, but only in learning whether the operation could have been carried out had this flag not been specified. For example, this flag lets the caller indicate only an interest in finding out whether an object actually exists by using this flag in a <a href="/windows/desktop/api/objidl/nf-objidl-imoniker-bindtoobject">IMoniker::BindToObject</a> call. Moniker implementations can, however, ignore this possible optimization and carry out the operation in full. Callers must be able to deal with both cases.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-bind_opts">BIND_OPTS</a>
+<a href="/windows/desktop/api/objidl/ns-objidl-bind_opts">BIND_OPTS</a>
 
 
 
-[BIND_OPTS2](/windows/win32/api/objidl/ns-objidl-bind_opts2~r1)
+[BIND_OPTS2](./ns-objidl-bind_opts2~r1.md)
 
 
 
-[BIND_OPTS3](/windows/win32/api/objidl/ns-objidl-bind_opts3~r1)
-
+[BIND_OPTS3](./ns-objidl-bind_opts3~r1.md)

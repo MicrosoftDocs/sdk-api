@@ -51,13 +51,13 @@ api_name:
 
 ## -description
 
-The <b>DeleteAppMember</b> method removes the specified <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazapplicationgroup">IAzApplicationGroup</a> object from the list of application groups that belong to the role.
+The <b>DeleteAppMember</b> method removes the specified <a href="/windows/desktop/api/azroles/nn-azroles-iazapplicationgroup">IAzApplicationGroup</a> object from the list of application groups that belong to the role.
 
 ## -parameters
 
 ### -param bstrProp [in]
 
-String that contains the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazapplicationgroup-get_name">Name</a> property of the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazapplicationgroup">IAzApplicationGroup</a> object to remove from the list of  application groups that belong to the role.
+String that contains the <a href="/windows/desktop/api/azroles/nf-azroles-iazapplicationgroup-get_name">Name</a> property of the <a href="/windows/desktop/api/azroles/nn-azroles-iazapplicationgroup">IAzApplicationGroup</a> object to remove from the list of  application groups that belong to the role.
 
 ### -param varReserved [in, optional]
 
@@ -65,5 +65,4 @@ Reserved for future use.
 
 ## -remarks
 
-To view the list of application groups that belong to the role, use the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazrole-get_appmembers">AppMembers</a> property.
-
+To view the list of application groups that belong to the role, use the <a href="/windows/desktop/api/azroles/nf-azroles-iazrole-get_appmembers">AppMembers</a> property.

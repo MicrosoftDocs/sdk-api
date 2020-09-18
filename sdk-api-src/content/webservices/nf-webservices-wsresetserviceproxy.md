@@ -53,7 +53,7 @@ api_name:
 Resets service proxy.
 
 WsResetServiceProxy provides a convenient way to reuse the service proxy. 
-                Once the proxy is <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_service_proxy_state">closed</a>,
+                Once the proxy is <a href="/windows/desktop/api/webservices/ne-webservices-ws_service_proxy_state">closed</a>,
                 the application can call WsResetServiceProxy to reuse it.
             
 
@@ -103,4 +103,3 @@ One or more arguments are invalid.
 </td>
 </tr>
 </table>
-

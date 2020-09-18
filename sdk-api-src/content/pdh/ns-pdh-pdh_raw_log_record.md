@@ -134,5 +134,4 @@ Binary record.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhreadrawlogrecord">PdhReadRawLogRecord</a>
-
+<a href="/windows/desktop/api/pdh/nf-pdh-pdhreadrawlogrecord">PdhReadRawLogRecord</a>

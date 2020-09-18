@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Types the string given by <i>bstr</i> at this selection as if someone typed it. This is similar to the underlying <a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange-settext">SetText</a> method, but is sensitive to the Insert/Overtype key state and UI settings like AutoCorrect and smart quotes.
+Types the string given by <i>bstr</i> at this selection as if someone typed it. This is similar to the underlying <a href="/windows/desktop/api/tom/nf-tom-itextrange-settext">SetText</a> method, but is sensitive to the Insert/Overtype key state and UI settings like AutoCorrect and smart quotes.
 
 ## -parameters
 
@@ -65,7 +65,7 @@ String to type into this selection.
 Type: <b>HRESULT</b>
 
 The method returns an 
-						<b>HRESULT</b> value. If the method succeeds, it returns <b>S_OK</b>. If the method fails, it returns one of the following error codes. For more information about COM error codes, see <a href="https://docs.microsoft.com/windows/desktop/com/error-handling-in-com">Error Handling in COM</a>.
+						<b>HRESULT</b> value. If the method succeeds, it returns <b>S_OK</b>. If the method fails, it returns one of the following error codes. For more information about COM error codes, see <a href="/windows/desktop/com/error-handling-in-com">Error Handling in COM</a>.
 
 <table>
 <tr>
@@ -109,9 +109,9 @@ Out of memory.
 
 ## -remarks
 
-This method types the string given by <i>bstr</i> at this selection as if someone typed it. Using <b>TypeText</b> is faster than sending characters through the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-sendmessage">SendMessage</a>function, but it is slower than using <a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange-settext">SetText</a>. 
+This method types the string given by <i>bstr</i> at this selection as if someone typed it. Using <b>TypeText</b> is faster than sending characters through the <a href="/windows/desktop/api/winuser/nf-winuser-sendmessage">SendMessage</a>function, but it is slower than using <a href="/windows/desktop/api/tom/nf-tom-itextrange-settext">SetText</a>. 
 
-<b>TypeText</b> is similar to the underlying <a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange-settext">SetText</a> method, however, it is sensitive to the Insert/Overtype key state and UI settings like AutoCorrect and smart quotes. For example, it deletes any nondegenerate selection and then inserts or overtypes (depending on the Insert/Overtype key state—see the <a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextselection-setflags">SetFlags</a> method) the string <i>bstr</i> at the insertion point, leaving this selection as an insertion point following the inserted text.
+<b>TypeText</b> is similar to the underlying <a href="/windows/desktop/api/tom/nf-tom-itextrange-settext">SetText</a> method, however, it is sensitive to the Insert/Overtype key state and UI settings like AutoCorrect and smart quotes. For example, it deletes any nondegenerate selection and then inserts or overtypes (depending on the Insert/Overtype key state—see the <a href="/windows/desktop/api/tom/nf-tom-itextselection-setflags">SetFlags</a> method) the string <i>bstr</i> at the insertion point, leaving this selection as an insertion point following the inserted text.
 
 ## -see-also
 
@@ -119,7 +119,7 @@ This method types the string given by <i>bstr</i> at this selection as if someon
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextselection">ITextSelection</a>
+<a href="/windows/desktop/api/tom/nn-tom-itextselection">ITextSelection</a>
 
 
 
@@ -131,17 +131,16 @@ This method types the string given by <i>bstr</i> at this selection as if someon
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-sendmessage">SendMessage</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-sendmessage">SendMessage</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextselection-setflags">SetFlags</a>
+<a href="/windows/desktop/api/tom/nf-tom-itextselection-setflags">SetFlags</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange-settext">SetText</a>
+<a href="/windows/desktop/api/tom/nf-tom-itextrange-settext">SetText</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Controls/text-object-model">Text Object Model</a>
-
+<a href="/windows/desktop/Controls/text-object-model">Text Object Model</a>

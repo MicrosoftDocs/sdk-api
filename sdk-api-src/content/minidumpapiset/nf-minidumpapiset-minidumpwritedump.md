@@ -64,10 +64,10 @@ A handle to the process for which the information is to be generated.
 This handle must have <b>PROCESS_QUERY_INFORMATION</b> and 
        <b>PROCESS_VM_READ</b> access to the process. If handle information is to be collected then 
        <b>PROCESS_DUP_HANDLE</b> access is also required. For more information, see 
-       <a href="https://docs.microsoft.com/windows/desktop/ProcThread/process-security-and-access-rights">Process Security and Access Rights</a>. 
+       <a href="/windows/desktop/ProcThread/process-security-and-access-rights">Process Security and Access Rights</a>. 
        The caller must also be able to get <b>THREAD_ALL_ACCESS</b> access to the threads in the 
        process. For more information, see 
-       <a href="https://docs.microsoft.com/windows/desktop/ProcThread/thread-security-and-access-rights">Thread Security and Access Rights</a>.
+       <a href="/windows/desktop/ProcThread/thread-security-and-access-rights">Thread Security and Access Rights</a>.
 
 ### -param ProcessId [in]
 
@@ -80,7 +80,7 @@ A handle to the file in which the information is to be written.
 ### -param DumpType [in]
 
 The type of information to be generated. This parameter can be one or more of the values from the 
-      <a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ne-minidumpapiset-minidump_type">MINIDUMP_TYPE</a> enumeration.
+      <a href="/windows/desktop/api/minidumpapiset/ne-minidumpapiset-minidump_type">MINIDUMP_TYPE</a> enumeration.
 
 ### -param ExceptionParam [in]
 
@@ -107,7 +107,7 @@ A pointer to a
 
 If the function succeeds, the return value is <b>TRUE</b>; otherwise, the return value is 
        <b>FALSE</b>. To retrieve extended error information, call 
-       <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. Note that the last error will be an 
+       <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. Note that the last error will be an 
        <b>HRESULT</b> value.
 
 If the operation is canceled, the last error code is 
@@ -115,7 +115,7 @@ If the operation is canceled, the last error code is
 
 ## -remarks
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/nc-minidumpapiset-minidump_callback_routine">MiniDumpCallback</a> function receives extended 
+The <a href="/windows/desktop/api/minidumpapiset/nc-minidumpapiset-minidump_callback_routine">MiniDumpCallback</a> function receives extended 
     minidump information from <b>MiniDumpWriteDump</b>. It also 
     provides a way for the caller to determine the granularity of information written to the minidump file, as the 
     callback function can filter the default information.
@@ -132,8 +132,8 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/nc-mi
     calling <b>MiniDumpWriteDump</b> and use it as the 
     <i>ExceptionParam</i> parameter. One way to do this is to force  an exception inside a 
     <b>__try</b>/<b>__except</b> block and use the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-exception_pointers">EXCEPTION_POINTERS</a> information provided by 
-    <a href="https://docs.microsoft.com/windows/desktop/Debug/getexceptioninformation">GetExceptionInformation</a>. Alternatively, you 
+    <a href="/windows/desktop/api/winnt/ns-winnt-exception_pointers">EXCEPTION_POINTERS</a> information provided by 
+    <a href="/windows/desktop/Debug/getexceptioninformation">GetExceptionInformation</a>. Alternatively, you 
     can call the function from a new worker thread and filter this worker thread from the dump.
 
 All DbgHelp functions, such as this one, are single threaded. Therefore, calls from more than one thread to 
@@ -142,7 +142,7 @@ All DbgHelp functions, such as this one, are single threaded. Therefore, calls f
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Debug/dbghelp-functions">DbgHelp Functions</a>
+<a href="/windows/desktop/Debug/dbghelp-functions">DbgHelp Functions</a>
 
 
 
@@ -158,9 +158,8 @@ All DbgHelp functions, such as this one, are single threaded. Therefore, calls f
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/nc-minidumpapiset-minidump_callback_routine">MiniDumpCallback</a>
+<a href="/windows/desktop/api/minidumpapiset/nc-minidumpapiset-minidump_callback_routine">MiniDumpCallback</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/nf-minidumpapiset-minidumpreaddumpstream">MiniDumpReadDumpStream</a>
-
+<a href="/windows/desktop/api/minidumpapiset/nf-minidumpapiset-minidumpreaddumpstream">MiniDumpReadDumpStream</a>

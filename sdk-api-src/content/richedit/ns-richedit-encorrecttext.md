@@ -70,7 +70,7 @@ A <a href="https://msdn.microsoft.com/144aadcb-92c9-408b-b2ae-a0a4e12c4759">CHAR
 
 ### -field seltyp
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">WORD</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">WORD</a></b>
 
 Value specifying the contents of the new selection. This member is SEL_EMPTY if the selection is empty or one or more of the following values. 
 
@@ -124,4 +124,3 @@ The new selection contains more than one COM object.
 ## -see-also
 
 <a href="https://msdn.microsoft.com/d6f6278f-ff63-4f6a-a352-2b4d70df3e1a">EN_CORRECTTEXT</a>
-

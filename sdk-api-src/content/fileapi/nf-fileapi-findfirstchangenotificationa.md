@@ -62,7 +62,7 @@ api_name:
 Creates a change notification handle and sets up initial change notification filter conditions. A wait on a notification handle succeeds when a change matching the filter conditions occurs in the specified directory or subtree. The function does not report changes to the specified directory itself.
 
 This function does not indicate the change that satisfied the wait condition. To retrieve information about the specific change as part of the notification, use the  
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-readdirectorychangesw">ReadDirectoryChangesW</a> function.
+<a href="/windows/desktop/api/winbase/nf-winbase-readdirectorychangesw">ReadDirectoryChangesW</a> function.
 
 ## -parameters
 
@@ -74,7 +74,7 @@ The full path of the directory to be watched.
 This cannot be a relative path or an empty string.
 
 In the ANSI version of this function, the name is limited to <b>MAX_PATH</b> characters. To extend this limit to 32,767 wide characters, call the Unicode version of the function and prepend "\\\\?\\" to the path. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/naming-a-file">Naming a File</a>.
+<a href="/windows/desktop/FileIO/naming-a-file">Naming a File</a>.
 
 ### -param bWatchSubtree [in]
 
@@ -162,17 +162,17 @@ Any security-descriptor change in the watched directory or subtree causes a chan
 If the function succeeds, the return value is a handle to a find change notification object.
 
 If the function fails, the return value is <b>INVALID_HANDLE_VALUE</b>. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
 The 
-<a href="https://docs.microsoft.com/windows/desktop/Sync/wait-functions">wait functions</a> can monitor the specified directory or subtree by using the handle returned by the 
+<a href="/windows/desktop/Sync/wait-functions">wait functions</a> can monitor the specified directory or subtree by using the handle returned by the 
 <b>FindFirstChangeNotification</b> function. A wait is satisfied when one of the filter conditions occurs in the monitored directory or subtree.
 
 After the wait has been satisfied, the application can respond to this condition and continue monitoring the directory by calling the 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-findnextchangenotification">FindNextChangeNotification</a> function and the appropriate wait function. When the handle is no longer needed, it can be closed by using the 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-findclosechangenotification">FindCloseChangeNotification</a> function.
+<a href="/windows/desktop/api/fileapi/nf-fileapi-findnextchangenotification">FindNextChangeNotification</a> function and the appropriate wait function. When the handle is no longer needed, it can be closed by using the 
+<a href="/windows/desktop/api/fileapi/nf-fileapi-findclosechangenotification">FindCloseChangeNotification</a> function.
 
 Notifications may not be returned when calling <b>FindFirstChangeNotification</b> for a remote file system. 
 
@@ -246,7 +246,7 @@ Application might experience false positives on CsvFs pause/resume.
 #### Examples
 
 For an example, see 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/obtaining-directory-change-notifications">Obtaining Directory Change_Notifications</a>.
+<a href="/windows/desktop/FileIO/obtaining-directory-change-notifications">Obtaining Directory Change_Notifications</a>.
 				
 
 <div class="code"></div>
@@ -259,17 +259,16 @@ For an example, see
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/directory-management-functions">Directory Management Functions</a>
+<a href="/windows/desktop/FileIO/directory-management-functions">Directory Management Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-findclosechangenotification">FindCloseChangeNotification</a>
+<a href="/windows/desktop/api/fileapi/nf-fileapi-findclosechangenotification">FindCloseChangeNotification</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-findnextchangenotification">FindNextChangeNotification</a>
+<a href="/windows/desktop/api/fileapi/nf-fileapi-findnextchangenotification">FindNextChangeNotification</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-readdirectorychangesw">ReadDirectoryChangesW</a>
-
+<a href="/windows/desktop/api/winbase/nf-winbase-readdirectorychangesw">ReadDirectoryChangesW</a>

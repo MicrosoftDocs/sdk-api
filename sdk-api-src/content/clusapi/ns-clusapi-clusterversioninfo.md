@@ -53,15 +53,15 @@ api_name:
 ## -description
 
 Describes 
-    information about the version of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-service">Cluster service</a> 
-    installed locally on a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/nodes">node</a>.
+    information about the version of the <a href="/previous-versions/windows/desktop/mscs/cluster-service">Cluster service</a> 
+    installed locally on a <a href="/previous-versions/windows/desktop/mscs/nodes">node</a>.
 
 ## -struct-fields
 
 ### -field dwVersionInfoSize
 
 Size, in bytes, of the data structure. Users must set this size prior to calling 
-      <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-getclusterinformation">GetClusterInformation</a>.
+      <a href="/windows/desktop/api/clusapi/nf-clusapi-getclusterinformation">GetClusterInformation</a>.
 
 ### -field MajorVersion
 
@@ -89,7 +89,7 @@ Contains the latest service pack installed on the node. If a Service Pack has no
 ### -field dwClusterHighestVersion
 
 Identifies the highest version of the Cluster service with which the Cluster service installed on the local 
-      node can join to form a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/c-gly">cluster</a>.
+      node can join to form a <a href="/previous-versions/windows/desktop/mscs/c-gly">cluster</a>.
 
 ### -field dwClusterLowestVersion
 
@@ -100,7 +100,7 @@ Identifies the lowest version of the Cluster service with which the Cluster serv
 
 If the cluster nodes are running different versions of the Cluster service, this value is set to 
       <b>CLUSTER_VERSION_FLAG_MIXED_MODE</b>. If all cluster nodes are running the same version of 
-      the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-service">Cluster service</a>, this value is 0.
+      the <a href="/previous-versions/windows/desktop/mscs/cluster-service">Cluster service</a>, this value is 0.
 
 ### -field dwReserved
 
@@ -111,7 +111,7 @@ This value is reserved for internal use.
 To obtain cluster version information, applications declare a 
     <b>CLUSTERVERSIONINFO</b> structure, specify the size of the 
     structure in the <b>dwVersionInfoSize</b> member, and call the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-getclusterinformation">GetClusterInformation</a> function. 
+    <a href="/windows/desktop/api/clusapi/nf-clusapi-getclusterinformation">GetClusterInformation</a> function. 
     <b>GetClusterInformation</b> fills in the structure 
     member data.
 
@@ -130,9 +130,8 @@ The <b>dwClusterHighestVersion</b> and <b>dwClusterLowestVersion</b>
 <li>The local node's highest version exactly matches the other node's lowest version.</li>
 </ul>
 For more information on how the Cluster service creates and uses version numbers, see 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/version-compatibility">Version Compatibility</a>.
+    <a href="/previous-versions/windows/desktop/mscs/version-compatibility">Version Compatibility</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-getclusterinformation">GetClusterInformation</a>
-
+<a href="/windows/desktop/api/clusapi/nf-clusapi-getclusterinformation">GetClusterInformation</a>

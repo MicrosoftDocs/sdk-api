@@ -93,9 +93,8 @@ In Windows 10, size is reported in base 10 rather than  base 2. For example, 1 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-strformatbytesizea">StrFormatByteSizeA</a>
+<a href="/windows/desktop/api/shlwapi/nf-shlwapi-strformatbytesizea">StrFormatByteSizeA</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-strformatbytesizew">StrFormatByteSizeW</a>
-
+<a href="/windows/desktop/api/shlwapi/nf-shlwapi-strformatbytesizew">StrFormatByteSizeW</a>

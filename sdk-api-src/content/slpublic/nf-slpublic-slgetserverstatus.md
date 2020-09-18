@@ -133,6 +133,5 @@ One or more arguments are not valid.
 ## -remarks
 
 Callers can either pass in the URL kept by themselves or get the SKU    
-	specific URL by calling the <a href="https://docs.microsoft.com/windows/desktop/api/slpublic/nf-slpublic-slgetproductskuinformation">GetProductSkuInformation</a> function and query each     
+	specific URL by calling the <a href="/windows/desktop/api/slpublic/nf-slpublic-slgetproductskuinformation">GetProductSkuInformation</a> function and query each     
 	URL.
-

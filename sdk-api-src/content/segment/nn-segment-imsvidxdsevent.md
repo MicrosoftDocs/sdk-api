@@ -54,13 +54,13 @@ api_name:
 <div> </div>
 
 
-The <b>IMSVidXDSEvent</b> interface is used to receive events from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd695263(v=vs.85)">MSVidXDS</a> object.
+The <b>IMSVidXDSEvent</b> interface is used to receive events from the <a href="/previous-versions/windows/desktop/legacy/dd695263(v=vs.85)">MSVidXDS</a> object.
 
 This interface is an outgoing connection-point interface. To receive events from a playback device, implement this interface and then call the <b>IConnectionPoint::Advise</b> method to establish a connection.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMSVidXDSEvent</b> interface inherits from <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/segment/nn-segment-imsvidfeatureevent">IMSVidFeatureEvent</a>. <b>IMSVidXDSEvent</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMSVidXDSEvent</b> interface inherits from <a href="/previous-versions/windows/desktop/api/segment/nn-segment-imsvidfeatureevent">IMSVidFeatureEvent</a>. <b>IMSVidXDSEvent</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -75,7 +75,7 @@ The <b>IMSVidXDSEvent</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidxdsevent-ratingchange">RatingChange</a>
+<a href="/windows/desktop/api/segment/nf-segment-imsvidxdsevent-ratingchange">RatingChange</a>
 </td>
 <td align="left" width="63%">
 Called when the current rating changes.
@@ -90,9 +90,8 @@ To declare the interface identifier (IID) for this interface, use the <b>__uuido
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/segment/nn-segment-imsvidfeatureevent">IMSVidFeatureEvent</a>
+<a href="/previous-versions/windows/desktop/api/segment/nn-segment-imsvidfeatureevent">IMSVidFeatureEvent</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/video-control-interfaces">Video Control Event Interfaces</a>
-
+<a href="/previous-versions/windows/desktop/mstv/video-control-interfaces">Video Control Event Interfaces</a>

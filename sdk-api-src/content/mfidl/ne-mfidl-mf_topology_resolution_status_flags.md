@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-Defines status flags for the <a href="https://docs.microsoft.com/windows/desktop/medfound/mf-topology-resolution-status-attribute">MF_TOPOLOGY_RESOLUTION_STATUS</a> attribute.
+Defines status flags for the <a href="/windows/desktop/medfound/mf-topology-resolution-status-attribute">MF_TOPOLOGY_RESOLUTION_STATUS</a> attribute.
 
 ## -enum-fields
 
@@ -70,5 +70,4 @@ An optional topology node was rejected because it could not be loaded into a pro
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>
-
+<a href="/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>

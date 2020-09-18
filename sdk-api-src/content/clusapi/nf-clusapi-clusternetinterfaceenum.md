@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Enumerates the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/network-interfaces">network interfaces</a> installed on a 
+Enumerates the <a href="/previous-versions/windows/desktop/mscs/network-interfaces">network interfaces</a> installed on a 
     cluster, returning one name with each call.
 
 ## -parameters
@@ -58,7 +58,7 @@ Enumerates the <a href="https://docs.microsoft.com/previous-versions/windows/des
 ### -param hNetInterfaceEnum [in]
 
 Handle to an existing enumeration object originally returned by the 
-       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/nf-clusapi-clusternetinterfaceopenenum">ClusterNetInterfaceOpenEnum</a> function.
+       <a href="/previous-versions/windows/desktop/api/clusapi/nf-clusapi-clusternetinterfaceopenenum">ClusterNetInterfaceOpenEnum</a> function.
 
 ### -param dwIndex [in]
 
@@ -126,4 +126,3 @@ More data is available. This value is returned if the buffer pointed to by
 </td>
 </tr>
 </table>
-

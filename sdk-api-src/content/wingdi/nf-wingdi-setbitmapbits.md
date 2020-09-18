@@ -53,7 +53,7 @@ api_name:
 ## -description
 
 The <b>SetBitmapBits</b> function sets the bits of color data for a bitmap to the specified values.
-<div class="alert"><b>Note</b>  This function is provided only for compatibility with 16-bit versions of Windows. Applications should use the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-setdibits">SetDIBits</a> function.</div><div> </div>
+<div class="alert"><b>Note</b>  This function is provided only for compatibility with 16-bit versions of Windows. Applications should use the <a href="/windows/desktop/api/wingdi/nf-wingdi-setdibits">SetDIBits</a> function.</div><div> </div>
 
 ## -parameters
 
@@ -81,17 +81,16 @@ The array identified by <i>lpBits</i> must be WORD aligned.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/bitmap-functions">Bitmap Functions</a>
+<a href="/windows/desktop/gdi/bitmap-functions">Bitmap Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/bitmaps">Bitmaps Overview</a>
+<a href="/windows/desktop/gdi/bitmaps">Bitmaps Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getbitmapbits">GetBitmapBits</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-getbitmapbits">GetBitmapBits</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-setdibits">SetDIBits</a>
-
+<a href="/windows/desktop/api/wingdi/nf-wingdi-setdibits">SetDIBits</a>

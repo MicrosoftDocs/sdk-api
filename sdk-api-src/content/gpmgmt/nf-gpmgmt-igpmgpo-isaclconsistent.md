@@ -58,7 +58,7 @@ Checks for the consistency of ACLs between the Directory Service and the system 
 ### -param pvbConsistent [out]
 
 Value that indicates whether the 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/access-control-lists">access control lists (ACLs)</a> on the different parts of the GPO are consistent. If <b>VARIANT_TRUE</b>, they are consistent.
+<a href="/windows/desktop/SecAuthZ/access-control-lists">access control lists (ACLs)</a> on the different parts of the GPO are consistent. If <b>VARIANT_TRUE</b>, they are consistent.
 
 ## -returns
 
@@ -73,9 +73,8 @@ Value that indicates whether the ACLs are consistent. If <b>VARIANT_TRUE</b>, th
 
 ## -remarks
 
-For more information about ACLs and the security model for controlling access to Windows objects, see <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/access-control">Access Control</a>.
+For more information about ACLs and the security model for controlling access to Windows objects, see <a href="/windows/desktop/SecAuthZ/access-control">Access Control</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmgpo">IGPMGPO</a>
-
+<a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmgpo">IGPMGPO</a>

@@ -57,11 +57,11 @@ Retrieves a UNC path string and a scope indicator describing which path-based ev
 
 ### -param ppszFilter [out]
 
-Receives a fully qualified UNC path string identifying the path associated with the filter. The memory for this string must be allocated using the <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemalloc">CoTaskMemAlloc</a> function.
+Receives a fully qualified UNC path string identifying the path associated with the filter. The memory for this string must be allocated using the <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemalloc">CoTaskMemAlloc</a> function.
 
 ### -param pMatch [out]
 
-Receives an <a href="https://docs.microsoft.com/windows/desktop/api/cscobj/ne-cscobj-offlinefiles_pathfilter_match">OFFLINEFILES_PATHFILTER_MATCH</a> enumeration  value indicating which descendants of the filter path are to be included in the set of events delivered to the event sink.
+Receives an <a href="/windows/desktop/api/cscobj/ne-cscobj-offlinefiles_pathfilter_match">OFFLINEFILES_PATHFILTER_MATCH</a> enumeration  value indicating which descendants of the filter path are to be included in the set of events delivered to the event sink.
 
 ## -returns
 
@@ -69,5 +69,4 @@ Return <b>S_OK</b> if implemented, <b>E_NOTIMPL</b> if not implemented.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nn-cscobj-iofflinefileseventsfilter">IOfflineFilesEventsFilter</a>
-
+<a href="/previous-versions/windows/desktop/api/cscobj/nn-cscobj-iofflinefileseventsfilter">IOfflineFilesEventsFilter</a>

@@ -56,7 +56,7 @@ Invokes the reconversion process in the language model text service for a range.
 
 ### -param pRange [in]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfrange">ITfRange</a> object that covers the text to reconvert.
+Pointer to an <a href="/windows/desktop/api/msctf/nn-msctf-itfrange">ITfRange</a> object that covers the text to reconvert.
 
 ## -returns
 
@@ -104,14 +104,13 @@ An unspecified error occurred.
 
 ## -remarks
 
-This method is identical to <a href="https://docs.microsoft.com/windows/desktop/api/ctffunc/nf-ctffunc-itffnreconversion-reconvert">ITfFnReconversion::Reconvet</a>. When <b>ITfFnReconversion::Reconvet</b> is called in the text service, the text service should forward the call to this method if a language model processor is installed. If no language model processor is installed, the text service should perform its default processing.
+This method is identical to <a href="/windows/desktop/api/ctffunc/nf-ctffunc-itffnreconversion-reconvert">ITfFnReconversion::Reconvet</a>. When <b>ITfFnReconversion::Reconvet</b> is called in the text service, the text service should forward the call to this method if a language model processor is installed. If no language model processor is installed, the text service should perform its default processing.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ctffunc/nn-ctffunc-itffnlmprocessor">ITfFnLMProcessor</a>
+<a href="/windows/desktop/api/ctffunc/nn-ctffunc-itffnlmprocessor">ITfFnLMProcessor</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfrange">ITfRange
+<a href="/windows/desktop/api/msctf/nn-msctf-itfrange">ITfRange
       </a>
-

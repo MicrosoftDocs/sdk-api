@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-Removes an offline  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resources">resource</a> from a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/c-gly">cluster</a>. The <b>PCLUSAPI_DELETE_CLUSTER_RESOURCE</b> type defines a pointer to this function.
+Removes an offline  <a href="/previous-versions/windows/desktop/mscs/resources">resource</a> from a <a href="/previous-versions/windows/desktop/mscs/c-gly">cluster</a>. The <b>PCLUSAPI_DELETE_CLUSTER_RESOURCE</b> type defines a pointer to this function.
 
 ## -parameters
 
@@ -67,7 +67,7 @@ Handle to an offline resource. You must close this handle separately.
 If the operation succeeds, the function returns <b>ERROR_SUCCESS</b>.
 
 If the operation fails, 
-the function returns a <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a>, such as one of these values.
+the function returns a <a href="/windows/desktop/Debug/system-error-codes">system error code</a>, such as one of these values.
 
 <table>
 <tr>
@@ -100,19 +100,18 @@ Windows Server 2012: The resource identified by <i>hResource</i> is not offline
 
 ## -remarks
 
-<b>DeleteClusterResource</b> does not close the resource handle specified by <i>hResource</i>. To avoid memory leaks, be sure to close this handle with  <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-closeclusterresource">CloseClusterResource</a>.
+<b>DeleteClusterResource</b> does not close the resource handle specified by <i>hResource</i>. To avoid memory leaks, be sure to close this handle with  <a href="/windows/desktop/api/clusapi/nf-clusapi-closeclusterresource">CloseClusterResource</a>.
 
-Do not call  <b>DeleteClusterResource</b> from a resource DLL. For more information, see  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/function-calls-to-avoid-in-resource-dlls">Function Calls to Avoid in Resource DLLs</a>.
+Do not call  <b>DeleteClusterResource</b> from a resource DLL. For more information, see  <a href="/previous-versions/windows/desktop/mscs/function-calls-to-avoid-in-resource-dlls">Function Calls to Avoid in Resource DLLs</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-closeclusterresource">CloseClusterResource</a>
+<a href="/windows/desktop/api/clusapi/nf-clusapi-closeclusterresource">CloseClusterResource</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-createclusterresource">CreateClusterResource</a>
+<a href="/windows/desktop/api/clusapi/nf-clusapi-createclusterresource">CreateClusterResource</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-openclusterresource">OpenClusterResource</a>
-
+<a href="/windows/desktop/api/clusapi/nf-clusapi-openclusterresource">OpenClusterResource</a>

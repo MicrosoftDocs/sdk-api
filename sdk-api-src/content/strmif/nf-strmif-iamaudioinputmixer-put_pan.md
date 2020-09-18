@@ -90,13 +90,12 @@ In a stereo recording, setting the pan level to -1.0 or 1.0 sends the entire sig
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iamaudioinputmixer">IAMAudioInputMixer Interface</a>
+<a href="/windows/desktop/api/strmif/nn-strmif-iamaudioinputmixer">IAMAudioInputMixer Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamaudioinputmixer-get_pan">IAMAudioInputMixer::get_Pan</a>
-
+<a href="/windows/desktop/api/strmif/nf-strmif-iamaudioinputmixer-get_pan">IAMAudioInputMixer::get_Pan</a>

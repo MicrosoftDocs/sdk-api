@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-The <b>EnumerateAttributesSetup</b> method initializes the internal enumeration pointer to the first request  <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">attribute</a> associated with the current <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">context</a>.
+The <b>EnumerateAttributesSetup</b> method initializes the internal enumeration pointer to the first request  <a href="/windows/desktop/SecGloss/a-gly">attribute</a> associated with the current <a href="/windows/desktop/SecGloss/c-gly">context</a>.
 
 ## -parameters
 
@@ -64,14 +64,14 @@ This parameter is reserved and must be set to zero.
 <h3>VB</h3>
  If the method succeeds, the method returns S_OK.
 
-If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
+If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 ## -remarks
 
 The 
-<a href="https://docs.microsoft.com/windows/desktop/api/certif/nf-certif-icertserverpolicy-setcontext">SetContext</a> method must be called prior to calling this method. The call to <b>SetContext</b> specifies which request to use as the current context.
+<a href="/windows/desktop/api/certif/nf-certif-icertserverpolicy-setcontext">SetContext</a> method must be called prior to calling this method. The call to <b>SetContext</b> specifies which request to use as the current context.
 
-To retrieve the attribute, call the <a href="https://docs.microsoft.com/windows/desktop/api/certif/nf-certif-icertserverpolicy-enumerateattributes">EnumerateAttributes</a> method. The call to <b>EnumerateAttributes</b> retrieves the first attribute and moves the index to the next attribute if one exists.
+To retrieve the attribute, call the <a href="/windows/desktop/api/certif/nf-certif-icertserverpolicy-enumerateattributes">EnumerateAttributes</a> method. The call to <b>EnumerateAttributes</b> retrieves the first attribute and moves the index to the next attribute if one exists.
 
 
 #### Examples
@@ -100,17 +100,16 @@ if (FAILED(hr))
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certif/nn-certif-icertserverpolicy">ICertServerPolicy</a>
+<a href="/windows/desktop/api/certif/nn-certif-icertserverpolicy">ICertServerPolicy</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certif/nf-certif-icertserverpolicy-enumerateattributes">ICertServerPolicy::EnumerateAttributes</a>
+<a href="/windows/desktop/api/certif/nf-certif-icertserverpolicy-enumerateattributes">ICertServerPolicy::EnumerateAttributes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certif/nf-certif-icertserverpolicy-enumerateattributesclose">ICertServerPolicy::EnumerateAttributesClose</a>
+<a href="/windows/desktop/api/certif/nf-certif-icertserverpolicy-enumerateattributesclose">ICertServerPolicy::EnumerateAttributesClose</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certif/nf-certif-icertserverpolicy-setcontext">ICertServerPolicy::SetContext</a>
-
+<a href="/windows/desktop/api/certif/nf-certif-icertserverpolicy-setcontext">ICertServerPolicy::SetContext</a>

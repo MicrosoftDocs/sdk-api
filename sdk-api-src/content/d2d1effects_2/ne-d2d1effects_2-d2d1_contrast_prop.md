@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Identifiers for properties of the <a href="https://docs.microsoft.com/windows/desktop/Direct2D/contrast-effect">Contrast effect</a>.
+Identifiers for properties of the <a href="/windows/desktop/Direct2D/contrast-effect">Contrast effect</a>.
 
 ## -enum-fields
 
@@ -67,13 +67,12 @@ The D2D1_CONTRAST_PROP_CLAMP_INPUT property is a boolean value indicating whethe
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Direct2D/built-in-effects">Built-in Effects</a>
+<a href="/windows/desktop/Direct2D/built-in-effects">Built-in Effects</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Direct2D/contrast-effect">Contrast effect</a>
+<a href="/windows/desktop/Direct2D/contrast-effect">Contrast effect</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1devicecontext-createeffect">CreateEffect</a>
-
+<a href="/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1devicecontext-createeffect">CreateEffect</a>

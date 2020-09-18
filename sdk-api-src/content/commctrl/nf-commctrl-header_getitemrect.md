@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Gets the bounding rectangle for a given item in a header control. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/hdm-getitemrect">HDM_GETITEMRECT</a> message explicitly.
+Gets the bounding rectangle for a given item in a header control. You can use this macro or send the <a href="/windows/desktop/Controls/hdm-getitemrect">HDM_GETITEMRECT</a> message explicitly.
 
 ## -parameters
 
 ### -param hwnd
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to a header control.
 
@@ -71,4 +71,3 @@ The zero-based index of the header control item for which to retrieve the boundi
 Type: <b>LPRECT</b>
 
 A pointer to a <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> structure that receives the bounding rectangle information.
-

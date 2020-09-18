@@ -56,7 +56,7 @@ Gets the user's choices in a dialog that allows multiple selection.
 
 ### -param ppenum [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitemarray">IShellItemArray</a>**</b>
+Type: <b><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitemarray">IShellItemArray</a>**</b>
 
 The address of a pointer to an <b>IShellItemArray</b> through which the items selected in the dialog can be accessed.
 
@@ -73,5 +73,4 @@ This method can be used whether the selection consists of a single item or multi
 <b>IFileOpenDialog::GetResult</b> can be called after the dialog has closed or during the handling of an IFileDialogEvents::OnFileOk event. Calling this method at any other time will fail.
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-imodalwindow-show">Show</a> must return a success code for a result to be available to <b>IFileOpenDialog::GetResult</b>.
-
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-imodalwindow-show">Show</a> must return a success code for a result to be available to <b>IFileOpenDialog::GetResult</b>.

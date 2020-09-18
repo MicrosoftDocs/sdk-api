@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-The <b>CompositingMode</b> enumeration specifies how rendered colors are combined with background colors. This enumeration is used by the <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-getcompositingmode">Graphics::GetCompositingMode</a> and <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-setcompositingmode">Graphics::SetCompositingMode</a> methods of the 
+The <b>CompositingMode</b> enumeration specifies how rendered colors are combined with background colors. This enumeration is used by the <a href="/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-getcompositingmode">Graphics::GetCompositingMode</a> and <a href="/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-setcompositingmode">Graphics::SetCompositingMode</a> methods of the 
 			<b>Graphics</b> class.
 
 ## -enum-fields
@@ -66,13 +66,12 @@ Specifies that when a color is rendered, it overwrites the background color. Thi
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-getcompositingmode">Graphics::GetCompositingMode</a>
+<a href="/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-getcompositingmode">Graphics::GetCompositingMode</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-setcompositingmode">Graphics::SetCompositingMode</a>
+<a href="/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-setcompositingmode">Graphics::SetCompositingMode</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusenums/ne-gdiplusenums-textrenderinghint">TextRenderingHint</a>
-
+<a href="/windows/desktop/api/gdiplusenums/ne-gdiplusenums-textrenderinghint">TextRenderingHint</a>

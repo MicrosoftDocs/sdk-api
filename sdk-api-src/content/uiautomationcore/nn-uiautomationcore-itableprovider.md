@@ -52,12 +52,12 @@ api_name:
 
 Provides access 
         to controls that act as containers for a collection of child elements. The children of 
-        this element must implement <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nn-uiautomationcore-itableitemprovider">ITableItemProvider</a> and be organized 
+        this element must implement <a href="/windows/desktop/api/uiautomationcore/nn-uiautomationcore-itableitemprovider">ITableItemProvider</a> and be organized 
         in a two-dimensional logical coordinate system that can be traversed by using the keyboard.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITableProvider</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITableProvider</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITableProvider</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITableProvider</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -73,7 +73,7 @@ The <b>ITableProvider</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nf-uiautomationcore-itableprovider-getcolumnheaders">GetColumnHeaders</a>
+<a href="/windows/desktop/api/uiautomationcore/nf-uiautomationcore-itableprovider-getcolumnheaders">GetColumnHeaders</a>
 </td>
 <td align="left" width="63%">
 Gets a collection of UI Automation providers 
@@ -84,7 +84,7 @@ Gets a collection of UI Automation providers
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nf-uiautomationcore-itableprovider-getrowheaders">GetRowHeaders</a>
+<a href="/windows/desktop/api/uiautomationcore/nf-uiautomationcore-itableprovider-getrowheaders">GetRowHeaders</a>
 </td>
 <td align="left" width="63%">
 Gets a collection of UI Automation providers 
@@ -104,7 +104,7 @@ Gets a collection of UI Automation providers
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nf-uiautomationcore-itableprovider-get_roworcolumnmajor">RowOrColumnMajor</a>
+<a href="/windows/desktop/api/uiautomationcore/nf-uiautomationcore-itableprovider-get_roworcolumnmajor">RowOrColumnMajor</a>
 
 
 </td>
@@ -121,21 +121,20 @@ Specifies the primary direction of traversal for the table.
 
 ## -remarks
 
-This control pattern is analogous to <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nn-uiautomationcore-igridprovider">IGridProvider</a> with 
+This control pattern is analogous to <a href="/windows/desktop/api/uiautomationcore/nn-uiautomationcore-igridprovider">IGridProvider</a> with 
             the distinction that any control that implements <b>ITableProvider</b> must 
             also expose a column and/or row header relationship for each child element.
             
 
 Controls that implement <b>ITableProvider</b> are also required to 
-            implement <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nn-uiautomationcore-igridprovider">IGridProvider</a> so as to expose the inherent grid functionality 
+            implement <a href="/windows/desktop/api/uiautomationcore/nn-uiautomationcore-igridprovider">IGridProvider</a> so as to expose the inherent grid functionality 
             of a table control.
             
 
          
             Implemented on a UI Automation provider that must support 
-            the <a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-implementingtable">Table</a> control pattern and <a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-implementinggrid">Grid</a> control pattern.
+            the <a href="/windows/desktop/WinAuto/uiauto-implementingtable">Table</a> control pattern and <a href="/windows/desktop/WinAuto/uiauto-implementinggrid">Grid</a> control pattern.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-providersoverview">UI Automation Providers Overview</a>
-
+<a href="/windows/desktop/WinAuto/uiauto-providersoverview">UI Automation Providers Overview</a>

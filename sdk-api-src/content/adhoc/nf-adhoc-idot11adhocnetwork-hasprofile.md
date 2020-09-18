@@ -126,13 +126,12 @@ A pointer passed as a parameter is not valid.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/adhoc/nn-adhoc-idot11adhocnetwork">IDot11AdHocNetwork</a>
+<a href="/windows/desktop/api/adhoc/nn-adhoc-idot11adhocnetwork">IDot11AdHocNetwork</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/adhoc/nf-adhoc-idot11adhocnetwork-deleteprofile">IDot11AdHocNetwork::DeleteProfile</a>
+<a href="/windows/desktop/api/adhoc/nf-adhoc-idot11adhocnetwork-deleteprofile">IDot11AdHocNetwork::DeleteProfile</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/adhoc/nf-adhoc-idot11adhocnetwork-getprofilename">IDot11AdHocNetwork::GetProfileName</a>
-
+<a href="/windows/desktop/api/adhoc/nf-adhoc-idot11adhocnetwork-getprofilename">IDot11AdHocNetwork::GetProfileName</a>

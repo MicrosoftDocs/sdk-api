@@ -53,14 +53,14 @@ api_name:
 
 ## -description
 
-Contains parameters for the <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_duplicate_extents_to_file">FSCTL_DUPLICATE_EXTENTS</a> control code that performs the <a href="https://docs.microsoft.com/windows/desktop/FileIO/block-cloning">Block Cloning</a> operation.
+Contains parameters for the <a href="/windows/desktop/api/winioctl/ni-winioctl-fsctl_duplicate_extents_to_file">FSCTL_DUPLICATE_EXTENTS</a> control code that performs the <a href="/windows/desktop/FileIO/block-cloning">Block Cloning</a> operation.
 
 ## -struct-fields
 
 ### -field FileHandle
 
 A handle to the source file from which the byte range is to be copied.
-To retrieve a file handle, use the <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> function.
+To retrieve a file handle, use the <a href="/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> function.
 
 ### -field SourceFileOffset
 
@@ -76,17 +76,16 @@ The length, in bytes, of the range to copy.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/block-cloning">Block Cloning</a>
+<a href="/windows/desktop/FileIO/block-cloning">Block Cloning</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a>
+<a href="/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_duplicate_extents_to_file">FSCTL_DUPLICATE_EXTENTS_TO_FILE</a>
+<a href="/windows/desktop/api/winioctl/ni-winioctl-fsctl_duplicate_extents_to_file">FSCTL_DUPLICATE_EXTENTS_TO_FILE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/file-management-control-codes">File Management Control Codes</a>
-
+<a href="/windows/desktop/FileIO/file-management-control-codes">File Management Control Codes</a>

@@ -56,15 +56,15 @@ Gets the class name from a serialized class buffer.
 
 ### -param deserializer [in, out]
 
-A pointer to a deserializer object returned from a call to <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_application_newdeserializer">MI_Application_NewDeserializer</a>.  The deserializer must match the serializer that created the buffer.
+A pointer to a deserializer object returned from a call to <a href="/previous-versions/windows/desktop/api/mi/nf-mi-mi_application_newdeserializer">MI_Application_NewDeserializer</a>.  The deserializer must match the serializer that created the buffer.
 
 ### -param serializedBuffer
 
-A serialized byte[] buffer that was filled via a call from <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_serializer_serializeinstance">MI_Serializer_SerializeInstance</a>.
+A serialized byte[] buffer that was filled via a call from <a href="/previous-versions/windows/desktop/api/mi/nf-mi-mi_serializer_serializeinstance">MI_Serializer_SerializeInstance</a>.
 
 ### -param serializedBufferLength
 
-The length of the buffer that was reported via a call to <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_serializer_serializeinstance">MI_Serializer_SerializeInstance</a>.
+The length of the buffer that was reported via a call to <a href="/previous-versions/windows/desktop/api/mi/nf-mi-mi_serializer_serializeinstance">MI_Serializer_SerializeInstance</a>.
 
 ### -param className
 
@@ -76,7 +76,7 @@ A pointer to the length of the <i>className</i> buffer.  If <i>className</i> is 
 
 ### -param cimErrorDetails
 
-If the call fails, this value will contain information useful in debugging. This value must be deleted via <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_instance_delete">MI_Instance_Delete</a>.
+If the call fails, this value will contain information useful in debugging. This value must be deleted via <a href="/previous-versions/windows/desktop/api/mi/nf-mi-mi_instance_delete">MI_Instance_Delete</a>.
 
 ## -returns
 
@@ -85,4 +85,3 @@ This function returns MI_INLINE MI_Result.
 ## -remarks
 
 Not all serializers include enough information to retrieve this information, in which case the function will fail with a <b>MI_RESULT_NOT_SUPPORTED</b> error.
-

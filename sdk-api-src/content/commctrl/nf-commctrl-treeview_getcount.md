@@ -50,17 +50,16 @@ api_name:
 
 ## -description
 
-Retrieves a count of the items in a tree-view control. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/tvm-getcount">TVM_GETCOUNT</a> message explicitly.
+Retrieves a count of the items in a tree-view control. You can use this macro or send the <a href="/windows/desktop/Controls/tvm-getcount">TVM_GETCOUNT</a> message explicitly.
 
 ## -parameters
 
 ### -param hwnd
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 Handle to the tree-view control.
 
 ## -remarks
 
 The node count returned by <b>TreeView_GetCount</b> is limited to integer values. If you add a node beyond 32767 the macro returns a negative value. After adding 65536 nodes the count returns to zero. When this occurs, the tree-view control appears empty with no scrollbars. For more information see the Knowledge Base article <a href="https://support.microsoft.com/default.aspx?scid=kb;en-us;Q182231">Q182231</a>.
-

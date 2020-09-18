@@ -70,9 +70,8 @@ The z coordinate in fix point (2.30).
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/wcs/basic-color-management-concepts">Basic Color Management Concepts</a>
+<a href="/previous-versions/windows/desktop/wcs/basic-color-management-concepts">Basic Color Management Concepts</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/wcs/structures">Structures</a>
-
+<a href="/previous-versions/windows/desktop/wcs/structures">Structures</a>

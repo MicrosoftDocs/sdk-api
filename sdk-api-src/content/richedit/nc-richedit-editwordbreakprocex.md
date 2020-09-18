@@ -71,14 +71,14 @@ Pointer to the text at the current position. If
 
 ### -param cchText [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LONG</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">LONG</a></b>
 
 Number of characters in the buffer in the direction specified by 
 					<i>code</i>.
 
 ### -param bCharSet [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BYTE</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">BYTE</a></b>
 
 Character set of the text.
 
@@ -86,14 +86,14 @@ Character set of the text.
 
 #### - code [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">INT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">INT</a></b>
 
 Word break action. Can be one of the values described for the 
 					<i>code</i> parameter in the <a href="https://msdn.microsoft.com/b5df1365-4672-4c82-8ae4-ebf8b60bf871">EM_FINDWORDBREAK</a> message.
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LONG</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">LONG</a></b>
 
 The function returns a value based on the 
 						<i>code</i> parameter.
@@ -171,4 +171,3 @@ For Microsoft Rich Edit 2.0 and later, Rich Edit no longer supports <i>EditWord
 
 
 <b>Reference</b>
-

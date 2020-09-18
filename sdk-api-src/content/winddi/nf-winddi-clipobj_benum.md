@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-The <b>CLIPOBJ_bEnum</b> function enumerates a batch of rectangles from a specified <a href="https://docs.microsoft.com/windows-hardware/drivers/">clip region</a>; a prior call to <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-clipobj_cenumstart">CLIPOBJ_cEnumStart</a> determines the order of enumeration.
+The <b>CLIPOBJ_bEnum</b> function enumerates a batch of rectangles from a specified <a href="/windows-hardware/drivers/">clip region</a>; a prior call to <a href="/windows/desktop/api/winddi/nf-winddi-clipobj_cenumstart">CLIPOBJ_cEnumStart</a> determines the order of enumeration.
 
 ## -parameters
 
 ### -param pco [in]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-clipobj">CLIPOBJ</a> structure describing the clip region that is to be enumerated.
+Pointer to a <a href="/windows/desktop/api/winddi/ns-winddi-clipobj">CLIPOBJ</a> structure describing the clip region that is to be enumerated.
 
 ### -param cj [in]
 
@@ -64,7 +64,7 @@ Specifies the size, in bytes, of the buffer pointed to by <i>pv</i>.
 
 ### -param pul [out]
 
-Pointer to the buffer that will receive data about the clip region in an <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-enumrects">ENUMRECTS</a> structure.
+Pointer to the buffer that will receive data about the clip region in an <a href="/windows/desktop/api/winddi/ns-winddi-enumrects">ENUMRECTS</a> structure.
 
 ## -returns
 
@@ -91,13 +91,12 @@ The count of objects written to the buffer is written to the buffer itself.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-clipobj">CLIPOBJ</a>
+<a href="/windows/desktop/api/winddi/ns-winddi-clipobj">CLIPOBJ</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-clipobj_cenumstart">CLIPOBJ_cEnumStart</a>
+<a href="/windows/desktop/api/winddi/nf-winddi-clipobj_cenumstart">CLIPOBJ_cEnumStart</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-enumrects">ENUMRECTS</a>
-
+<a href="/windows/desktop/api/winddi/ns-winddi-enumrects">ENUMRECTS</a>

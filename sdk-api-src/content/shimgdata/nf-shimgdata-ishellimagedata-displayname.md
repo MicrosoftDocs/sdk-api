@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Gets the name of the file if <a href="https://docs.microsoft.com/windows/desktop/api/shimgdata/nn-shimgdata-ishellimagedata">IShellImageData</a> was initialized on a file path. Otherwise, gets the name of the data stream.
+Gets the name of the file if <a href="/windows/desktop/api/shimgdata/nn-shimgdata-ishellimagedata">IShellImageData</a> was initialized on a file path. Otherwise, gets the name of the data stream.
 
 ## -parameters
 
@@ -89,4 +89,3 @@ The file name or stream name cannot be retrieved.
 </td>
 </tr>
 </table>
-

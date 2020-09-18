@@ -64,5 +64,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nn-rtscom-irealtimestylus2">IRealTimeStylus2 Interface</a>
-
+<a href="/windows/desktop/api/rtscom/nn-rtscom-irealtimestylus2">IRealTimeStylus2 Interface</a>

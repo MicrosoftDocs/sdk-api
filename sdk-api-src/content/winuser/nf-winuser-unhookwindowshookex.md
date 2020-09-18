@@ -57,7 +57,7 @@ api_name:
 
 ## -description
 
-Removes a hook procedure installed in a hook chain by the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setwindowshookexa">SetWindowsHookEx</a> function.
+Removes a hook procedure installed in a hook chain by the <a href="/windows/desktop/api/winuser/nf-winuser-setwindowshookexa">SetWindowsHookEx</a> function.
 
 ## -parameters
 
@@ -65,7 +65,7 @@ Removes a hook procedure installed in a hook chain by the <a href="https://docs.
 
 Type: <b>HHOOK</b>
 
-A handle to the hook to be removed. This parameter is a hook handle obtained by a previous call to <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setwindowshookexa">SetWindowsHookEx</a>.
+A handle to the hook to be removed. This parameter is a hook handle obtained by a previous call to <a href="/windows/desktop/api/winuser/nf-winuser-setwindowshookexa">SetWindowsHookEx</a>.
 
 ## -returns
 
@@ -73,7 +73,7 @@ Type: <b>BOOL</b>
 
 If the function succeeds, the return value is nonzero.
 
-If the function fails, the return value is zero. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+If the function fails, the return value is zero. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
@@ -82,7 +82,7 @@ The hook procedure can be in the state of being called by another thread even af
 
 #### Examples
 
-For an example, see <a href="https://docs.microsoft.com/windows/desktop/winmsg/using-hooks">Monitoring System Events</a>.
+For an example, see <a href="/windows/desktop/winmsg/using-hooks">Monitoring System Events</a>.
 
 <div class="code"></div>
 
@@ -92,7 +92,7 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/winmsg/u
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/winmsg/hooks">Hooks</a>
+<a href="/windows/desktop/winmsg/hooks">Hooks</a>
 
 
 
@@ -100,5 +100,4 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/winmsg/u
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setwindowshookexa">SetWindowsHookEx</a>
-
+<a href="/windows/desktop/api/winuser/nf-winuser-setwindowshookexa">SetWindowsHookEx</a>

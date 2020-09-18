@@ -60,13 +60,12 @@ The <b>CERT_LOGOTYPE_AUDIO</b> structure contains information about an audio log
 
 ### -field LogotypeDetails
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_logotype_details">CERT_LOGOTYPE_DETAILS</a> structure that contains additional information about the audio data.
+A <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_logotype_details">CERT_LOGOTYPE_DETAILS</a> structure that contains additional information about the audio data.
 
 ### -field pLogotypeAudioInfo
 
-The address of a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_logotype_audio_info">CERT_LOGOTYPE_AUDIO_INFO</a> structure that contains the audio information.
+The address of a <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_logotype_audio_info">CERT_LOGOTYPE_AUDIO_INFO</a> structure that contains the audio information.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_logotype_data">CERT_LOGOTYPE_DATA</a>
-
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_logotype_data">CERT_LOGOTYPE_DATA</a>

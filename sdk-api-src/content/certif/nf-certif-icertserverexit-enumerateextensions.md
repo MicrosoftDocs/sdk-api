@@ -51,11 +51,11 @@ api_name:
 
 ## -description
 
-The <b>EnumerateExtensions</b> method returns the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly">object identifier</a> (OID) string (also known as the extension name) of the next certificate extension to be enumerated, then increments the internal pointer to the following extension.
+The <b>EnumerateExtensions</b> method returns the <a href="/windows/desktop/SecGloss/o-gly">object identifier</a> (OID) string (also known as the extension name) of the next certificate extension to be enumerated, then increments the internal pointer to the following extension.
 
  Before calling <b>EnumerateExtensions</b>, an application calls 
-<a href="https://docs.microsoft.com/windows/desktop/api/certif/nf-certif-icertserverexit-enumerateextensionssetup">ICertServerExit::EnumerateExtensionsSetup</a>. When done enumerating, an application calls 
-<a href="https://docs.microsoft.com/windows/desktop/api/certif/nf-certif-icertserverexit-enumerateextensionsclose">ICertServerExit::EnumerateExtensionsClose</a>.
+<a href="/windows/desktop/api/certif/nf-certif-icertserverexit-enumerateextensionssetup">ICertServerExit::EnumerateExtensionsSetup</a>. When done enumerating, an application calls 
+<a href="/windows/desktop/api/certif/nf-certif-icertserverexit-enumerateextensionsclose">ICertServerExit::EnumerateExtensionsClose</a>.
 
 ## -parameters
 
@@ -70,9 +70,9 @@ A pointer to the enumerated extension name.
 
 To use this method, create a variable of <b>BSTR</b> type, set the variable equal to <b>NULL</b>, and pass the address of this variable as <i>pstrExtensionName</i>.
 
-When you have finished using the <b>BSTR</b>, free it by calling the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a> function.
+When you have finished using the <b>BSTR</b>, free it by calling the <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a> function.
 
-If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
+If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 <h3>VB</h3>
  Returns a string that contains the name of the enumerated extension, or an empty string if the last extension was already enumerated.
@@ -80,7 +80,7 @@ If the method fails, it returns an <b>HRESULT</b> value that indicates the error
 ## -remarks
 
 This method enumerates certificate extensions recorded in the database, even those that are disabled and do not appear in the certificate. To determine whether an extension is disabled, use 
-<a href="https://docs.microsoft.com/windows/desktop/api/certif/nf-certif-icertserverexit-getcertificateextensionflags">ICertServerExit::GetCertificateExtensionFlags</a> to test the extension's EXTENSION_DISABLE_FLAG bit.
+<a href="/windows/desktop/api/certif/nf-certif-icertserverexit-getcertificateextensionflags">ICertServerExit::GetCertificateExtensionFlags</a> to test the extension's EXTENSION_DISABLE_FLAG bit.
 
 
 #### Examples
@@ -133,21 +133,20 @@ if (NULL != bstrExt)
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certif/nn-certif-icertserverexit">ICertServerExit</a>
+<a href="/windows/desktop/api/certif/nn-certif-icertserverexit">ICertServerExit</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certif/nf-certif-icertserverexit-enumerateextensionsclose">ICertServerExit::EnumerateExtensionsClose</a>
+<a href="/windows/desktop/api/certif/nf-certif-icertserverexit-enumerateextensionsclose">ICertServerExit::EnumerateExtensionsClose</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certif/nf-certif-icertserverexit-enumerateextensionssetup">ICertServerExit::EnumerateExtensionsSetup</a>
+<a href="/windows/desktop/api/certif/nf-certif-icertserverexit-enumerateextensionssetup">ICertServerExit::EnumerateExtensionsSetup</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certif/nf-certif-icertserverexit-getcertificateextension">ICertServerExit::GetCertificateExtension</a>
+<a href="/windows/desktop/api/certif/nf-certif-icertserverexit-getcertificateextension">ICertServerExit::GetCertificateExtension</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certif/nf-certif-icertserverexit-getcertificateextensionflags">ICertServerExit::GetCertificateExtensionFlags</a>
-
+<a href="/windows/desktop/api/certif/nf-certif-icertserverexit-getcertificateextensionflags">ICertServerExit::GetCertificateExtensionFlags</a>

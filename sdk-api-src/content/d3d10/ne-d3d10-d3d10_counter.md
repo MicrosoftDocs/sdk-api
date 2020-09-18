@@ -76,23 +76,23 @@ Percentage of the time that the GPU does other processing (not vertex, geometry,
 
 ### -field D3D10_COUNTER_HOST_ADAPTER_BANDWIDTH_UTILIZATION
 
-Percentage of bandwidth used on a host adapter. Value returned by <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nf-d3d10-id3d10asynchronous-getdata">ID3D10Asynchronous::GetData</a> between 0.0 and 1.0 when using this counter.
+Percentage of bandwidth used on a host adapter. Value returned by <a href="/windows/desktop/api/d3d10/nf-d3d10-id3d10asynchronous-getdata">ID3D10Asynchronous::GetData</a> between 0.0 and 1.0 when using this counter.
 
 ### -field D3D10_COUNTER_LOCAL_VIDMEM_BANDWIDTH_UTILIZATION
 
-Percentage of bandwidth used by the local video memory. Value returned by <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nf-d3d10-id3d10asynchronous-getdata">ID3D10Asynchronous::GetData</a> between 0.0 and 1.0 when using this counter
+Percentage of bandwidth used by the local video memory. Value returned by <a href="/windows/desktop/api/d3d10/nf-d3d10-id3d10asynchronous-getdata">ID3D10Asynchronous::GetData</a> between 0.0 and 1.0 when using this counter
 
 ### -field D3D10_COUNTER_VERTEX_THROUGHPUT_UTILIZATION
 
-Percentage of throughput used for vertices. Value returned by <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nf-d3d10-id3d10asynchronous-getdata">ID3D10Asynchronous::GetData</a> between 0.0 and 1.0 when using this counter
+Percentage of throughput used for vertices. Value returned by <a href="/windows/desktop/api/d3d10/nf-d3d10-id3d10asynchronous-getdata">ID3D10Asynchronous::GetData</a> between 0.0 and 1.0 when using this counter
 
 ### -field D3D10_COUNTER_TRIANGLE_SETUP_THROUGHPUT_UTILIZATION
 
-Percentage of throughput used for triangle setup. Value returned by <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nf-d3d10-id3d10asynchronous-getdata">ID3D10Asynchronous::GetData</a> between 0.0 and 1.0 when using this counter
+Percentage of throughput used for triangle setup. Value returned by <a href="/windows/desktop/api/d3d10/nf-d3d10-id3d10asynchronous-getdata">ID3D10Asynchronous::GetData</a> between 0.0 and 1.0 when using this counter
 
 ### -field D3D10_COUNTER_FILLRATE_THROUGHPUT_UTILIZATION
 
-Percentage of throughput used for the fillrate. Value returned by <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nf-d3d10-id3d10asynchronous-getdata">ID3D10Asynchronous::GetData</a> between 0.0 and 1.0 when using this counter.
+Percentage of throughput used for the fillrate. Value returned by <a href="/windows/desktop/api/d3d10/nf-d3d10-id3d10asynchronous-getdata">ID3D10Asynchronous::GetData</a> between 0.0 and 1.0 when using this counter.
 
 ### -field D3D10_COUNTER_VS_MEMORY_LIMITED
 
@@ -138,5 +138,4 @@ A device can support one or more of these performance counters, but it is not re
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-reference-d3d10-core-enums">Core Enumerations</a>
-
+<a href="/windows/desktop/direct3d10/d3d10-graphics-reference-d3d10-core-enums">Core Enumerations</a>

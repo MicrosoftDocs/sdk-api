@@ -50,35 +50,34 @@ api_name:
 
 ## -description
 
-Extracts a sublanguage identifier from a <a href="https://docs.microsoft.com/windows/desktop/Intl/language-identifiers">language identifier</a>.
+Extracts a sublanguage identifier from a <a href="/windows/desktop/Intl/language-identifiers">language identifier</a>.
 
 ## -parameters
 
 ### -param lgid
 
-Language identifier. You can supply predefined values for this parameter, or create an identifier using the <a href="https://docs.microsoft.com/windows/desktop/api/winnt/nf-winnt-makelangid">MAKELANGID</a> macro.
+Language identifier. You can supply predefined values for this parameter, or create an identifier using the <a href="/windows/desktop/api/winnt/nf-winnt-makelangid">MAKELANGID</a> macro.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-enumsystemlocalesa">EnumSystemLocales</a>
+<a href="/windows/desktop/api/winnls/nf-winnls-enumsystemlocalesa">EnumSystemLocales</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/nf-winnt-langidfromlcid">LANGIDFROMLCID</a>
+<a href="/windows/desktop/api/winnt/nf-winnt-langidfromlcid">LANGIDFROMLCID</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/nf-winnt-makelangid">MAKELANGID</a>
+<a href="/windows/desktop/api/winnt/nf-winnt-makelangid">MAKELANGID</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/national-language-support">National Language Support</a>
+<a href="/windows/desktop/Intl/national-language-support">National Language Support</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/national-language-support-macros">National Language Support Macros</a>
+<a href="/windows/desktop/Intl/national-language-support-macros">National Language Support Macros</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/nf-winnt-primarylangid">PRIMARYLANGID</a>
-
+<a href="/windows/desktop/api/winnt/nf-winnt-primarylangid">PRIMARYLANGID</a>

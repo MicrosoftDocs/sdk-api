@@ -57,7 +57,7 @@ This interface exposes the multi-carrier functionality of a capable Mobile Broad
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMbnMultiCarrier</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMbnMultiCarrier</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMbnMultiCarrier</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMbnMultiCarrier</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,7 +72,7 @@ The <b>IMbnMultiCarrier</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nf-mbnapi-imbnmulticarrier-getcurrentcellularclass">GetCurrentCellularClass</a>
+<a href="/windows/desktop/api/mbnapi/nf-mbnapi-imbnmulticarrier-getcurrentcellularclass">GetCurrentCellularClass</a>
 </td>
 <td align="left" width="63%">
 Gets the current cellular classes for a multi-carrier device.
@@ -81,7 +81,7 @@ Gets the current cellular classes for a multi-carrier device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nf-mbnapi-imbnmulticarrier-getpreferredproviders">GetPreferredProviders</a>
+<a href="/windows/desktop/api/mbnapi/nf-mbnapi-imbnmulticarrier-getpreferredproviders">GetPreferredProviders</a>
 </td>
 <td align="left" width="63%">
 Gets the list of subscribed providers visible in the current area for a multi-carrier device minus the current registered provider.
@@ -90,7 +90,7 @@ Gets the list of subscribed providers visible in the current area for a multi-ca
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nf-mbnapi-imbnmulticarrier-getsupportedcellularclasses">GetSupportedCellularClasses</a>
+<a href="/windows/desktop/api/mbnapi/nf-mbnapi-imbnmulticarrier-getsupportedcellularclasses">GetSupportedCellularClasses</a>
 </td>
 <td align="left" width="63%">
 Gets the list of supported cellular classes for a multi-carrier device.
@@ -99,7 +99,7 @@ Gets the list of supported cellular classes for a multi-carrier device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nf-mbnapi-imbnmulticarrier-getvisibleproviders">GetVisibleProviders</a>
+<a href="/windows/desktop/api/mbnapi/nf-mbnapi-imbnmulticarrier-getvisibleproviders">GetVisibleProviders</a>
 </td>
 <td align="left" width="63%">
 Gets the list of visible providers in the current area for a multi-carrier device minus preferred and registered providers.
@@ -108,7 +108,7 @@ Gets the list of visible providers in the current area for a multi-carrier devic
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nf-mbnapi-imbnmulticarrier-scannetwork">ScanNetwork</a>
+<a href="/windows/desktop/api/mbnapi/nf-mbnapi-imbnmulticarrier-scannetwork">ScanNetwork</a>
 </td>
 <td align="left" width="63%">
 Scans the network to get a list of visible providers for a multi-carrier device.
@@ -117,7 +117,7 @@ Scans the network to get a list of visible providers for a multi-carrier device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nf-mbnapi-imbnmulticarrier-sethomeprovider">SetHomeProvider</a>
+<a href="/windows/desktop/api/mbnapi/nf-mbnapi-imbnmulticarrier-sethomeprovider">SetHomeProvider</a>
 </td>
 <td align="left" width="63%">
 Updates the home provider for a multi-carrier device.
@@ -128,5 +128,4 @@ Updates the home provider for a multi-carrier device.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/ne-mbnapi-mbn_ctrl_caps">MBN_CTRL_CAPS</a>
-
+<a href="/windows/desktop/api/mbnapi/ne-mbnapi-mbn_ctrl_caps">MBN_CTRL_CAPS</a>

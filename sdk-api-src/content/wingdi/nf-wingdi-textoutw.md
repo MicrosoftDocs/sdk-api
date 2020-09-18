@@ -79,7 +79,7 @@ A pointer to the string to be drawn. The string does not need to be zero-termina
 
 ### -param c [in]
 
-The <a href="https://docs.microsoft.com/windows/desktop/gdi/specifying-length-of-text-output-string">length of the string</a> pointed to by <i>lpString</i>, in characters.
+The <a href="/windows/desktop/gdi/specifying-length-of-text-output-string">length of the string</a> pointed to by <i>lpString</i>, in characters.
 
 ## -returns
 
@@ -89,7 +89,7 @@ If the function fails, the return value is zero.
 
 ## -remarks
 
-The interpretation of the reference point depends on the current text-alignment mode. An application can retrieve this mode by calling the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-gettextalign">GetTextAlign</a> function; an application can alter this mode by calling the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-settextalign">SetTextAlign</a> function. You can use the following values for text alignment. Only one flag can be chosen from those that affect horizontal and vertical alignment. In addition, only one of the two flags that alter the current position can be chosen.
+The interpretation of the reference point depends on the current text-alignment mode. An application can retrieve this mode by calling the <a href="/windows/desktop/api/wingdi/nf-wingdi-gettextalign">GetTextAlign</a> function; an application can alter this mode by calling the <a href="/windows/desktop/api/wingdi/nf-wingdi-settextalign">SetTextAlign</a> function. You can use the following values for text alignment. Only one flag can be chosen from those that affect horizontal and vertical alignment. In addition, only one of the two flags that alter the current position can be chosen.
 
 
 
@@ -191,7 +191,7 @@ The current position is updated after each text output call. The current positio
 </table>
  
 
-By default, the current position is not used or updated by this function. However, an application can call the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-settextalign">SetTextAlign</a> function with the <i>fMode</i> parameter set to TA_UPDATECP to permit the system to use and update the current position each time the application calls <b>TextOut</b> for a specified device context. When this flag is set, the system ignores the <i>nXStart</i> and <i>nYStart</i> parameters on subsequent <b>TextOut</b> calls.
+By default, the current position is not used or updated by this function. However, an application can call the <a href="/windows/desktop/api/wingdi/nf-wingdi-settextalign">SetTextAlign</a> function with the <i>fMode</i> parameter set to TA_UPDATECP to permit the system to use and update the current position each time the application calls <b>TextOut</b> for a specified device context. When this flag is set, the system ignores the <i>nXStart</i> and <i>nYStart</i> parameters on subsequent <b>TextOut</b> calls.
 
 When the <b>TextOut</b> function is placed inside a path bracket, the system generates a path for the TrueType text that includes each character plus its character box. The region generated is the character box minus the text, rather than the text itself. You can obtain the region enclosed by the outline of the TrueType text by setting the background mode to transparent before placing the <b>TextOut</b> function in the path bracket. Following is sample code that demonstrates this procedure.
 
@@ -230,7 +230,7 @@ FillRect(hdc, &r, GetStockObject(GRAY_BRUSH));
 
 #### Examples
 
-For an example, see <a href="https://docs.microsoft.com/windows/desktop/gdi/enumerating-the-installed-fonts">Enumerating the Installed Fonts</a>.
+For an example, see <a href="/windows/desktop/gdi/enumerating-the-installed-fonts">Enumerating the Installed Fonts</a>.
 
 <div class="code"></div>
 
@@ -242,33 +242,32 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/gdi/enum
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/font-and-text-functions">Font and Text Functions</a>
+<a href="/windows/desktop/gdi/font-and-text-functions">Font and Text Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/fonts-and-text">Fonts and Text Overview</a>
+<a href="/windows/desktop/gdi/fonts-and-text">Fonts and Text Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-gettextalign">GetTextAlign</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-gettextalign">GetTextAlign</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-selectobject">SelectObject</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-selectobject">SelectObject</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-setbkcolor">SetBkColor</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-setbkcolor">SetBkColor</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-settextalign">SetTextAlign</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-settextalign">SetTextAlign</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-settextcolor">SetTextColor</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-settextcolor">SetTextColor</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-tabbedtextouta">TabbedTextOut</a>
-
+<a href="/windows/desktop/api/winuser/nf-winuser-tabbedtextouta">TabbedTextOut</a>

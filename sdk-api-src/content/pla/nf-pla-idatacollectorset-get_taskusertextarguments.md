@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-Retrieves or sets the command-line arguments that are substituted for the {usertext} substitution variable in the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorset-get_taskarguments">IDataCollectorSet::TaskArguments</a> property.
+Retrieves or sets the command-line arguments that are substituted for the {usertext} substitution variable in the <a href="/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorset-get_taskarguments">IDataCollectorSet::TaskArguments</a> property.
 
 This property is read/write.
 
@@ -60,7 +60,7 @@ This property is read/write.
 
 ## -remarks
 
-These arguments are included in the command-line arguments passed to the Task Scheduler job only if the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorset-get_taskarguments">TaskArguments</a> property includes the  {usertext} substitution variable. 
+These arguments are included in the command-line arguments passed to the Task Scheduler job only if the <a href="/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorset-get_taskarguments">TaskArguments</a> property includes the  {usertext} substitution variable. 
 
 PLA provides the following substitution variables that you can include in your arguments string. PLA provides the values for the substitution variables when the task is triggered. You do not escape the braces.
 
@@ -71,7 +71,7 @@ PLA provides the following substitution variables that you can include in your a
 </tr>
 <tr>
 <td>{key}</td>
-<td>Space-delimited list of key values that were specified using the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorset-setvalue">IDataCollectorSet::SetValue</a> method.</td>
+<td>Space-delimited list of key values that were specified using the <a href="/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorset-setvalue">IDataCollectorSet::SetValue</a> method.</td>
 </tr>
 <tr>
 <td>{logs}</td>
@@ -85,9 +85,8 @@ PLA provides the following substitution variables that you can include in your a
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nn-pla-idatacollectorset">IDataCollectorSet</a>
+<a href="/previous-versions/windows/desktop/api/pla/nn-pla-idatacollectorset">IDataCollectorSet</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorset-get_taskarguments">IDataCollectorSet::TaskArguments</a>
-
+<a href="/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorset-get_taskarguments">IDataCollectorSet::TaskArguments</a>

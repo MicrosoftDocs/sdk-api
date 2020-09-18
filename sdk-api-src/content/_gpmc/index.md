@@ -18,5 +18,4 @@ To develop Group Policy Management Console, you need these headers:
  * [gpmgmt.h](../gpmgmt/index.md)
 
 For programming guidance for this technology, see:
-* [Group Policy Management Console](https://docs.microsoft.com/previous-versions/windows/desktop/gpmc)
-
+* [Group Policy Management Console](/previous-versions/windows/desktop/gpmc)

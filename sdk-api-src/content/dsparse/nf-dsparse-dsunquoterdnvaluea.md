@@ -126,9 +126,8 @@ The following actions are always taken:
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/AD/dc-and-replication-management-functions">Domain Controller and Replication Management Functions</a>
+<a href="/windows/desktop/AD/dc-and-replication-management-functions">Domain Controller and Replication Management Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dsparse/nf-dsparse-dsquoterdnvaluea">DsQuoteRdnValue</a>
-
+<a href="/windows/desktop/api/dsparse/nf-dsparse-dsquoterdnvaluea">DsQuoteRdnValue</a>

@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-The <b>GetRequestAttribute</b> method returns a named <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">attribute</a> from a request.
+The <b>GetRequestAttribute</b> method returns a named <a href="/windows/desktop/SecGloss/a-gly">attribute</a> from a request.
 
 ## -parameters
 
@@ -70,9 +70,9 @@ A pointer to a <b>BSTR</b> value that will contain the attribute value.
 
 To use this method, create a variable of type <b>BSTR</b>, set the variable equal to <b>NULL</b>, and pass the address of this variable as <i>pstrAttributeValue</i>.
 
-When you have finished using the <b>BSTR</b>, free it by calling the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a> function.
+When you have finished using the <b>BSTR</b>, free it by calling the <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a> function.
 
-If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
+If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 <h3>VB</h3>
  The return value is a string that represents the attribute value.
@@ -80,7 +80,7 @@ If the method fails, it returns an <b>HRESULT</b> value that indicates the error
 ## -remarks
 
 You must call 
-<a href="https://docs.microsoft.com/windows/desktop/api/certif/nf-certif-icertserverpolicy-setcontext">ICertServerPolicy::SetContext</a> prior to using this method.
+<a href="/windows/desktop/api/certif/nf-certif-icertserverpolicy-setcontext">ICertServerPolicy::SetContext</a> prior to using this method.
 
 The following request attributes are unique to KEYGEN style requests.
 
@@ -136,9 +136,8 @@ if (NULL != bstrAttribValue)
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certif/nn-certif-icertserverpolicy">ICertServerPolicy</a>
+<a href="/windows/desktop/api/certif/nn-certif-icertserverpolicy">ICertServerPolicy</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certif/nf-certif-icertserverpolicy-setcontext">ICertServerPolicy::SetContext</a>
-
+<a href="/windows/desktop/api/certif/nf-certif-icertserverpolicy-setcontext">ICertServerPolicy::SetContext</a>

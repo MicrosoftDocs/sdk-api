@@ -90,9 +90,8 @@ The usage  of  the property, as documented in the HID specification.
 
 ## -remarks
 
-Developers can use this function to determine the properties that a device supports beyond the standard ones that are delivered through <a href="https://docs.microsoft.com/previous-versions/windows/desktop/inputmsg/messages-and-notifications">Pointer Input Messages and Notifications</a>. The properties map directly to HID usages.
+Developers can use this function to determine the properties that a device supports beyond the standard ones that are delivered through <a href="/previous-versions/windows/desktop/inputmsg/messages-and-notifications">Pointer Input Messages and Notifications</a>. The properties map directly to HID usages.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/input_pointerdevice/structures">Structures</a>
-
+<a href="/previous-versions/windows/desktop/input_pointerdevice/structures">Structures</a>

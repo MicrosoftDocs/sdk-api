@@ -52,7 +52,7 @@ api_name:
 
 Implementation of the 
 <b>TUISPI_providerInstall</b> function is the service provider's opportunity to install any additional "pieces" of the provider into the right directories (or at least verifying that they're there) and set up registry entries the provider needs. This function makes the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_providerinstall">TSPI_providerInstall</a> function obsolete in version 2.0 and later (supported in version 1.4 and earlier).
+<a href="/windows/desktop/api/tspi/nf-tspi-tspi_providerinstall">TSPI_providerInstall</a> function obsolete in version 2.0 and later (supported in version 1.4 and earlier).
 
 If the service provider requires any privately-defined entries in the registry for proper operation, they must be installed at this time.
 
@@ -83,34 +83,33 @@ LINEERR_OPERATIONFAILED, LINEERR_INIFILECORRUPT, LINEERR_NOMEM. LINEERR_INVALPAR
 This function must leave the system in a consistent state. It should run to completion, not allowing the user to abort the installation when it is partly completed. If installation fails, it is the provider's responsibility to "back out" what was done and return an error. This may imply pre-scanning to verify that a complete installation is possible, before the installation begins.
 
 This function can be invoked more than once during installation of the service provider, until there is a call to 
-<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tuispi_providerremove">TUISPI_providerRemove</a>. If the service provider does not require or support multiple instances of the provider, however, it returns the 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/lineerr--constants">LINEERR_ constant</a> LINEERR_NOMULTIPLEINSTANCE.
+<a href="/windows/desktop/api/tspi/nf-tspi-tuispi_providerremove">TUISPI_providerRemove</a>. If the service provider does not require or support multiple instances of the provider, however, it returns the 
+<a href="/windows/desktop/Tapi/lineerr--constants">LINEERR_ constant</a> LINEERR_NOMULTIPLEINSTANCE.
 
 The corresponding function at the TAPI level is 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-lineaddprovider">lineAddProvider</a>. The 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms725223(v=vs.85)">LINE_CREATE</a> message informs applications that are running about dynamic reconfiguration.
+<a href="/windows/desktop/api/tapi/nf-tapi-lineaddprovider">lineAddProvider</a>. The 
+<a href="/previous-versions/windows/desktop/legacy/ms725223(v=vs.85)">LINE_CREATE</a> message informs applications that are running about dynamic reconfiguration.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms725223(v=vs.85)">LINE_CREATE</a>
+<a href="/previous-versions/windows/desktop/legacy/ms725223(v=vs.85)">LINE_CREATE</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms725262(v=vs.85)">PHONE_STATE</a>
+<a href="/previous-versions/windows/desktop/legacy/ms725262(v=vs.85)">PHONE_STATE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_providerinit">TSPI_providerInit</a>
+<a href="/windows/desktop/api/tspi/nf-tspi-tspi_providerinit">TSPI_providerInit</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_providershutdown">TSPI_providerShutdown</a>
+<a href="/windows/desktop/api/tspi/nf-tspi-tspi_providershutdown">TSPI_providerShutdown</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tuispi_providerconfig">TUISPI_providerConfig</a>
+<a href="/windows/desktop/api/tspi/nf-tspi-tuispi_providerconfig">TUISPI_providerConfig</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tuispi_providerremove">TUISPI_providerRemove</a>
-
+<a href="/windows/desktop/api/tspi/nf-tspi-tuispi_providerremove">TUISPI_providerRemove</a>

@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-The <b>GetNameCount</b> method returns the number of names in a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate revocation list</a> (CRL) distribution point.
+The <b>GetNameCount</b> method returns the number of names in a <a href="/windows/desktop/SecGloss/c-gly">certificate revocation list</a> (CRL) distribution point.
 
 ## -parameters
 
@@ -68,24 +68,23 @@ A pointer to a <b>Long</b> that will represent the number of name values contain
 <h3>C++</h3>
  If the method succeeds, the method returns S_OK.
 
-If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
+If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 <h3>VB</h3>
  The return value is the number of names in the CRL distribution point.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenc/nn-certenc-icertencodecrldistinfo">ICertEncodeCRLDistInfo</a>
+<a href="/windows/desktop/api/certenc/nn-certenc-icertencodecrldistinfo">ICertEncodeCRLDistInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenc/nf-certenc-icertencodecrldistinfo-getdistpointcount">ICertEncodeCRLDistInfo::GetDistPointCount</a>
+<a href="/windows/desktop/api/certenc/nf-certenc-icertencodecrldistinfo-getdistpointcount">ICertEncodeCRLDistInfo::GetDistPointCount</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenc/nf-certenc-icertencodecrldistinfo-getname">ICertEncodeCRLDistInfo::GetName</a>
+<a href="/windows/desktop/api/certenc/nf-certenc-icertencodecrldistinfo-getname">ICertEncodeCRLDistInfo::GetName</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenc/nf-certenc-icertencodecrldistinfo-setnamecount">ICertEncodeCRLDistInfo::SetNameCount</a>
-
+<a href="/windows/desktop/api/certenc/nf-certenc-icertencodecrldistinfo-setnamecount">ICertEncodeCRLDistInfo::SetNameCount</a>

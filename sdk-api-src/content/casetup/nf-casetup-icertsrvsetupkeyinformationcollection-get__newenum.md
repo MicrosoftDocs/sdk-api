@@ -59,9 +59,8 @@ This property is read-only.
 
 ## -remarks
 
-This property is provided for internal use by the <code>For Each</code> statement in Visual Basic Scripting Edition (VBScript) and C#. To enumerate the collection of properties with C++, use the <a href="https://docs.microsoft.com/windows/desktop/api/casetup/nf-casetup-icertsrvsetupkeyinformationcollection-get_count">Count</a> and <a href="https://docs.microsoft.com/windows/desktop/api/casetup/nf-casetup-icertsrvsetupkeyinformationcollection-get_item">Item</a> properties defined by the <a href="https://docs.microsoft.com/windows/desktop/api/casetup/nn-casetup-icertsrvsetupkeyinformationcollection">ICertSrvSetupKeyInformationCollection</a> interface.
+This property is provided for internal use by the <code>For Each</code> statement in Visual Basic Scripting Edition (VBScript) and C#. To enumerate the collection of properties with C++, use the <a href="/windows/desktop/api/casetup/nf-casetup-icertsrvsetupkeyinformationcollection-get_count">Count</a> and <a href="/windows/desktop/api/casetup/nf-casetup-icertsrvsetupkeyinformationcollection-get_item">Item</a> properties defined by the <a href="/windows/desktop/api/casetup/nn-casetup-icertsrvsetupkeyinformationcollection">ICertSrvSetupKeyInformationCollection</a> interface.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/casetup/nn-casetup-icertsrvsetupkeyinformationcollection">ICertSrvSetupKeyInformationCollection</a>
-
+<a href="/windows/desktop/api/casetup/nn-casetup-icertsrvsetupkeyinformationcollection">ICertSrvSetupKeyInformationCollection</a>

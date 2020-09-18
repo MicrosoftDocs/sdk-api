@@ -57,7 +57,7 @@ api_name:
 
 ## -description
 
-Retrieves the process preferred UI languages. For more information, see <a href="https://docs.microsoft.com/windows/desktop/Intl/user-interface-language-management">User Interface Language Management</a>.
+Retrieves the process preferred UI languages. For more information, see <a href="/windows/desktop/Intl/user-interface-language-management">User Interface Language Management</a>.
 
 ## -parameters
 
@@ -76,7 +76,7 @@ Flags identifying the language format to use for the process preferred UI langua
 </dl>
 </td>
 <td width="60%">
-Retrieve the language strings in <a href="https://docs.microsoft.com/windows/desktop/Intl/language-identifiers">language identifier</a> format.
+Retrieve the language strings in <a href="/windows/desktop/Intl/language-identifiers">language identifier</a> format.
 
 </td>
 </tr>
@@ -86,7 +86,7 @@ Retrieve the language strings in <a href="https://docs.microsoft.com/windows/des
 </dl>
 </td>
 <td width="60%">
-Retrieve the language strings in <a href="https://docs.microsoft.com/windows/desktop/Intl/language-names">language name</a> format.
+Retrieve the language strings in <a href="/windows/desktop/Intl/language-names">language name</a> format.
 
 </td>
 </tr>
@@ -110,7 +110,7 @@ Alternatively if this parameter is set to 0 and <i>pwszLanguagesBuffer</i> is se
 
 ## -returns
 
-Returns <b>TRUE</b> if successful or <b>FALSE</b> otherwise. To get extended error information, the application can call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>, which can return one of the following error codes:
+Returns <b>TRUE</b> if successful or <b>FALSE</b> otherwise. To get extended error information, the application can call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>, which can return one of the following error codes:
 
 <ul>
 <li>ERROR_INSUFFICIENT_BUFFER. A supplied buffer size was not large enough, or it was incorrectly set to <b>NULL</b>.</li>
@@ -145,13 +145,12 @@ as "0409" and en as "0009".
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/multilingual-user-interface">Multilingual User Interface</a>
+<a href="/windows/desktop/Intl/multilingual-user-interface">Multilingual User Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/multilingual-user-interface-functions">Multilingual User Interface Functions</a>
+<a href="/windows/desktop/Intl/multilingual-user-interface-functions">Multilingual User Interface Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-setprocesspreferreduilanguages">SetProcessPreferredUILanguages</a>
-
+<a href="/windows/desktop/api/winnls/nf-winnls-setprocesspreferreduilanguages">SetProcessPreferredUILanguages</a>

@@ -57,7 +57,7 @@ The <code>SetSyncSourceEx</code> method establishes two reference clocks for the
 
 ### -param pClockForMostOfFilterGraph [in]
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ireferenceclock">IReferenceClock</a> interface of the main reference clock. Every filter in the graph uses this clock, except for the filter specified by the <i>pFilter</i> parameter.
+Pointer to the <a href="/windows/desktop/api/strmif/nn-strmif-ireferenceclock">IReferenceClock</a> interface of the main reference clock. Every filter in the graph uses this clock, except for the filter specified by the <i>pFilter</i> parameter.
 
 ### -param pClockForFilter [in]
 
@@ -65,7 +65,7 @@ Pointer to the <b>IReferenceClock</b> interface of the secondary clock. The filt
 
 ### -param pFilter [in]
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ibasefilter">IBaseFilter</a> interface of a filter in the graph. This filter uses the secondary reference clock.
+Pointer to the <a href="/windows/desktop/api/strmif/nn-strmif-ibasefilter">IBaseFilter</a> interface of a filter in the graph. This filter uses the secondary reference clock.
 
 ## -returns
 
@@ -104,13 +104,12 @@ The filter graph is not stopped.
 
 If the filter graph is running or paused, this method return VFW_E_NOT_STOPPED.
 
-To clear both reference clocks, set all three parameters to <b>NULL</b>. To set a single clock for the entire graph, with no secondary clock, call the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-imediafilter-setsyncsource">IMediaFilter::SetSyncSource</a> method on the Filter Graph Manager.
+To clear both reference clocks, set all three parameters to <b>NULL</b>. To set a single clock for the entire graph, with no secondary clock, call the <a href="/windows/desktop/api/strmif/nf-strmif-imediafilter-setsyncsource">IMediaFilter::SetSyncSource</a> method on the Filter Graph Manager.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ifiltergraph3">IFilterGraph3 Interface</a>
-
+<a href="/windows/desktop/api/strmif/nn-strmif-ifiltergraph3">IFilterGraph3 Interface</a>

@@ -56,7 +56,7 @@ Called by the Windows Biometric Framework to select a hash algorithm for use in 
 
 ### -param Pipeline [in, out]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winbio_adapter/ns-winbio_adapter-winbio_pipeline">WINBIO_PIPELINE</a> structure associated with the biometric unit performing the operation.
+Pointer to a <a href="/windows/desktop/api/winbio_adapter/ns-winbio_adapter-winbio_pipeline">WINBIO_PIPELINE</a> structure associated with the biometric unit performing the operation.
 
 ### -param AlgorithmBufferSize [in]
 
@@ -64,7 +64,7 @@ The size, in bytes, of the buffer specified by the <i>AlgorithmBuffer</i> parame
 
 ### -param AlgorithmBuffer [in]
 
-Pointer to a <b>NULL</b>-terminated ANSI string that contains the object identifier of the hash algorithm to select. Call the <a href="https://docs.microsoft.com/windows/desktop/api/winbio_adapter/nc-winbio_adapter-pibio_engine_query_hash_algorithms_fn">EngineAdapterQueryHashAlgorithms</a> function to retrieve an array of the supported algorithm object identifiers (OIDs).
+Pointer to a <b>NULL</b>-terminated ANSI string that contains the object identifier of the hash algorithm to select. Call the <a href="/windows/desktop/api/winbio_adapter/nc-winbio_adapter-pibio_engine_query_hash_algorithms_fn">EngineAdapterQueryHashAlgorithms</a> function to retrieve an array of the supported algorithm object identifiers (OIDs).
 
 ## -returns
 
@@ -120,18 +120,18 @@ The engine adapter must keep track of the most recent algorithm selected and use
 
 <ul>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/winbio_adapter/nc-winbio_adapter-pibio_engine_verify_feature_set_fn">EngineAdapterVerifyFeatureSet</a>
+<a href="/windows/desktop/api/winbio_adapter/nc-winbio_adapter-pibio_engine_verify_feature_set_fn">EngineAdapterVerifyFeatureSet</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/winbio_adapter/nc-winbio_adapter-pibio_engine_identify_feature_set_fn">EngineAdapterIdentifyFeatureSet</a>
+<a href="/windows/desktop/api/winbio_adapter/nc-winbio_adapter-pibio_engine_identify_feature_set_fn">EngineAdapterIdentifyFeatureSet</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/winbio_adapter/nc-winbio_adapter-pibio_engine_get_enrollment_hash_fn">EngineAdapterGetEnrollmentHash</a>
+<a href="/windows/desktop/api/winbio_adapter/nc-winbio_adapter-pibio_engine_get_enrollment_hash_fn">EngineAdapterGetEnrollmentHash</a>
 </li>
 </ul>
-The algorithm chosen by this function must remain selected until the next time <i>EngineAdapterSetHashAlgorithm</i> is called, or until the <a href="https://docs.microsoft.com/windows/desktop/api/winbio_adapter/nc-winbio_adapter-pibio_engine_detach_fn">EngineAdapterDetach</a> method is called. In particular, calls to the <a href="https://docs.microsoft.com/windows/desktop/api/winbio_adapter/nc-winbio_adapter-pibio_engine_clear_context_fn">EngineAdapterClearContext</a> function should not affect the selected algorithm.
+The algorithm chosen by this function must remain selected until the next time <i>EngineAdapterSetHashAlgorithm</i> is called, or until the <a href="/windows/desktop/api/winbio_adapter/nc-winbio_adapter-pibio_engine_detach_fn">EngineAdapterDetach</a> method is called. In particular, calls to the <a href="/windows/desktop/api/winbio_adapter/nc-winbio_adapter-pibio_engine_clear_context_fn">EngineAdapterClearContext</a> function should not affect the selected algorithm.
 
-Only the SHA1 hash algorithm is used by the Windows Biometric Framework. The OID string value for this algorithm is "1.3.14.3.2.26". For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/winbio_adapter/nc-winbio_adapter-pibio_engine_query_hash_algorithms_fn">EngineAdapterQueryHashAlgorithms</a>.
+Only the SHA1 hash algorithm is used by the Windows Biometric Framework. The OID string value for this algorithm is "1.3.14.3.2.26". For more information, see <a href="/windows/desktop/api/winbio_adapter/nc-winbio_adapter-pibio_engine_query_hash_algorithms_fn">EngineAdapterQueryHashAlgorithms</a>.
 
 
 #### Examples
@@ -204,9 +204,8 @@ cleanup:
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbio_adapter/nc-winbio_adapter-pibio_engine_query_hash_algorithms_fn">EngineAdapterQueryHashAlgorithms</a>
+<a href="/windows/desktop/api/winbio_adapter/nc-winbio_adapter-pibio_engine_query_hash_algorithms_fn">EngineAdapterQueryHashAlgorithms</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SecBioMet/plug-in-functions">Plug-in Functions</a>
-
+<a href="/windows/desktop/SecBioMet/plug-in-functions">Plug-in Functions</a>

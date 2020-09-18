@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Defines the possible states of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/directmanipulation/direct-manipulation-portal">Direct Manipulation</a>. The viewport can process input in any state unless otherwise noted.
+Defines the possible states of <a href="/previous-versions/windows/desktop/directmanipulation/direct-manipulation-portal">Direct Manipulation</a>. The viewport can process input in any state unless otherwise noted.
 
 ## -enum-fields
 
@@ -64,7 +64,7 @@ The viewport was successfully enabled.
 
 ### -field DIRECTMANIPULATION_DISABLED
 
-The viewport is disabled and cannot process input or callbacks. The viewport can be enabled by calling <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/directmanipulation/nf-directmanipulation-idirectmanipulationviewport-enable">Enable</a>.
+The viewport is disabled and cannot process input or callbacks. The viewport can be enabled by calling <a href="/previous-versions/windows/desktop/api/directmanipulation/nf-directmanipulation-idirectmanipulationviewport-enable">Enable</a>.
 
 ### -field DIRECTMANIPULATION_RUNNING
 
@@ -80,9 +80,8 @@ The viewport has completed the previous interaction.
 
 ### -field DIRECTMANIPULATION_SUSPENDED
 
-The transient state of the viewport when input has been promoted to an ancestor in the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/directmanipulation/nf-directmanipulation-idirectmanipulationviewport-setcontact">SetContact</a> chain.
+The transient state of the viewport when input has been promoted to an ancestor in the <a href="/previous-versions/windows/desktop/api/directmanipulation/nf-directmanipulation-idirectmanipulationviewport-setcontact">SetContact</a> chain.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/directmanipulation/direct-manipulation-enumerations">Direct Manipulation Enumerations</a>
-
+<a href="/previous-versions/windows/desktop/directmanipulation/direct-manipulation-enumerations">Direct Manipulation Enumerations</a>

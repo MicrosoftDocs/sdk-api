@@ -66,14 +66,14 @@ After calling this function, if an exception occurs in a process that is not bei
 ### -param lpTopLevelExceptionFilter [in]
 
 A pointer to a top-level exception filter function that will be called whenever the 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-unhandledexceptionfilter">UnhandledExceptionFilter</a> function gets control, and the process is not being debugged. A value of <b>NULL</b> for this parameter specifies default handling within 
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-unhandledexceptionfilter">UnhandledExceptionFilter</a> function gets control, and the process is not being debugged. A value of <b>NULL</b> for this parameter specifies default handling within 
 <b>UnhandledExceptionFilter</b>. 
 
 
 
 
 The filter function has syntax similar to that of 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-unhandledexceptionfilter">UnhandledExceptionFilter</a>: It takes a single parameter of type <b>LPEXCEPTION_POINTERS</b>, has a WINAPI calling convention, and returns a value of type <b>LONG</b>. The filter function should return one of the following values.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-unhandledexceptionfilter">UnhandledExceptionFilter</a>: It takes a single parameter of type <b>LPEXCEPTION_POINTERS</b>, has a WINAPI calling convention, and returns a value of type <b>LONG</b>. The filter function should return one of the following values.
 
 <table>
 <tr>
@@ -88,7 +88,7 @@ The filter function has syntax similar to that of
 </td>
 <td width="60%">
 Return from 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-unhandledexceptionfilter">UnhandledExceptionFilter</a> and execute the associated exception handler. This usually results in process termination.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-unhandledexceptionfilter">UnhandledExceptionFilter</a> and execute the associated exception handler. This usually results in process termination.
 
 </td>
 </tr>
@@ -100,7 +100,7 @@ Return from
 </td>
 <td width="60%">
 Return from 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-unhandledexceptionfilter">UnhandledExceptionFilter</a> and continue execution from the point of the exception. Note that the filter function is free to modify the continuation state by modifying the exception information supplied through its <b>LPEXCEPTION_POINTERS</b> parameter.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-unhandledexceptionfilter">UnhandledExceptionFilter</a> and continue execution from the point of the exception. Note that the filter function is free to modify the continuation state by modifying the exception information supplied through its <b>LPEXCEPTION_POINTERS</b> parameter.
 
 </td>
 </tr>
@@ -112,8 +112,8 @@ Return from
 </td>
 <td width="60%">
 Proceed with normal execution of 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-unhandledexceptionfilter">UnhandledExceptionFilter</a>. That means obeying the 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-seterrormode">SetErrorMode</a> flags, or invoking the Application Error pop-up message box.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-unhandledexceptionfilter">UnhandledExceptionFilter</a>. That means obeying the 
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-seterrormode">SetErrorMode</a> flags, or invoking the Application Error pop-up message box.
 
 </td>
 </tr>
@@ -133,13 +133,12 @@ The exception handler specified by <i>lpTopLevelExceptionFilter</i> is executed 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Debug/structured-exception-handling-functions">Structured Exception Handling Functions</a>
+<a href="/windows/desktop/Debug/structured-exception-handling-functions">Structured Exception Handling Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Debug/structured-exception-handling">Structured Exception Handling Overview</a>
+<a href="/windows/desktop/Debug/structured-exception-handling">Structured Exception Handling Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-unhandledexceptionfilter">UnhandledExceptionFilter</a>
-
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-unhandledexceptionfilter">UnhandledExceptionFilter</a>

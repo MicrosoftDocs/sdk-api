@@ -109,18 +109,17 @@ The <i>hpage</i> parameter represents an unknown page.
 Extensions should call the <b>EnableNext</b> 
      method in their handling of the <b>PSN_SETACTIVE</b> message for a property page that 
      they have added to the Failover Cluster Administrator Wizard. 
-     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-administrator">Failover Cluster Administrator</a> determines whether 
+     <a href="/previous-versions/windows/desktop/mscs/cluster-administrator">Failover Cluster Administrator</a> determines whether 
      the <b>Next</b> or <b>Finish</b> button should be displayed based on 
      the page specified in the <i>hpage</i> parameter.
 
 For non-Wizard97 pages use 
-     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cluadmex/nf-cluadmex-iwcwizardcallback-enablenext">IWCWizardCallback::EnableNext</a>.
+     <a href="/previous-versions/windows/desktop/api/cluadmex/nf-cluadmex-iwcwizardcallback-enablenext">IWCWizardCallback::EnableNext</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cluadmex/nn-cluadmex-iwcwizard97callback">IWCWizard97Callback</a>
+<a href="/previous-versions/windows/desktop/api/cluadmex/nn-cluadmex-iwcwizard97callback">IWCWizard97Callback</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cluadmex/nf-cluadmex-iwcwizardcallback-enablenext">IWCWizardCallback::EnableNext</a>
-
+<a href="/previous-versions/windows/desktop/api/cluadmex/nf-cluadmex-iwcwizardcallback-enablenext">IWCWizardCallback::EnableNext</a>

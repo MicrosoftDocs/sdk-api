@@ -50,11 +50,11 @@ api_name:
 
 ## -description
 
-Provides a method for retrieving an <a href="https://docs.microsoft.com/windows/desktop/shell/appids">AppUserModelId</a>.
+Provides a method for retrieving an <a href="/windows/desktop/shell/appids">AppUserModelId</a>.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ILaunchSourceAppUserModelId</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ILaunchSourceAppUserModelId</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ILaunchSourceAppUserModelId</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ILaunchSourceAppUserModelId</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,12 +69,11 @@ The <b>ILaunchSourceAppUserModelId</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ilaunchsourceappusermodelid-getappusermodelid">GetAppUserModelId</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ilaunchsourceappusermodelid-getappusermodelid">GetAppUserModelId</a>
 </td>
 <td align="left" width="63%">
-Retrieves an <a href="https://docs.microsoft.com/windows/desktop/shell/appids">AppUserModelId</a> from the source application.
+Retrieves an <a href="/windows/desktop/shell/appids">AppUserModelId</a> from the source application.
 
 </td>
 </tr>
 </table>
-

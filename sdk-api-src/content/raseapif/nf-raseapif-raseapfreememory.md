@@ -52,9 +52,9 @@ api_name:
 
 The RAS connection manager calls 
 <b>RasEapFreeMemory</b> to free memory buffers returned by 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/raseapif/nf-raseapif-raseapinvokeconfigui">RasEapInvokeConfigUI</a>, 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/raseapif/nf-raseapif-raseapgetidentity">RasEapGetIdentity</a>, and 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/raseapif/nf-raseapif-raseapinvokeinteractiveui">RasEapInvokeInteractiveUI</a>.
+<a href="/previous-versions/windows/desktop/api/raseapif/nf-raseapif-raseapinvokeconfigui">RasEapInvokeConfigUI</a>, 
+<a href="/previous-versions/windows/desktop/api/raseapif/nf-raseapif-raseapgetidentity">RasEapGetIdentity</a>, and 
+<a href="/previous-versions/windows/desktop/api/raseapif/nf-raseapif-raseapinvokeinteractiveui">RasEapInvokeInteractiveUI</a>.
 
 ## -parameters
 
@@ -86,13 +86,12 @@ It is also possible that a single DLL may implement multiple user interfaces. Fo
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/raseapif/nf-raseapif-raseapgetidentity">RasEapGetIdentity</a>
+<a href="/previous-versions/windows/desktop/api/raseapif/nf-raseapif-raseapgetidentity">RasEapGetIdentity</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/raseapif/nf-raseapif-raseapinvokeconfigui">RasEapInvokeConfigUI</a>
+<a href="/previous-versions/windows/desktop/api/raseapif/nf-raseapif-raseapinvokeconfigui">RasEapInvokeConfigUI</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/raseapif/nf-raseapif-raseapinvokeinteractiveui">RasEapInvokeInteractiveUI</a>
-
+<a href="/previous-versions/windows/desktop/api/raseapif/nf-raseapif-raseapinvokeinteractiveui">RasEapInvokeInteractiveUI</a>

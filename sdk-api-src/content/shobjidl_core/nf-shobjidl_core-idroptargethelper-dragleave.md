@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Notifies the drag-image manager that the drop target's <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-idroptarget-dragleave">IDropTarget::DragLeave</a> method has been called.
+Notifies the drag-image manager that the drop target's <a href="/windows/desktop/api/oleidl/nf-oleidl-idroptarget-dragleave">IDropTarget::DragLeave</a> method has been called.
 
 ## -parameters
 
@@ -62,9 +62,8 @@ Returns S_OK if successful, or a COM error value otherwise.
 
 ## -remarks
 
-This method is called by a drop target when its <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-idroptarget-dragleave">IDropTarget::DragLeave</a> method is called. It notifies the drag-image manager that the cursor has left the drop target.
+This method is called by a drop target when its <a href="/windows/desktop/api/oleidl/nf-oleidl-idroptarget-dragleave">IDropTarget::DragLeave</a> method is called. It notifies the drag-image manager that the cursor has left the drop target.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-idroptargethelper">IDropTargetHelper</a>
-
+<a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-idroptargethelper">IDropTargetHelper</a>

@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Determines whether the data object is capable of rendering the data as specified. Objects attempting a paste or drop operation can call this method before calling <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-idataobject-getdata">IDataObject::GetData</a> to get an indication of whether the operation may be successful.
+Determines whether the data object is capable of rendering the data as specified. Objects attempting a paste or drop operation can call this method before calling <a href="/windows/desktop/api/objidl/nf-objidl-idataobject-getdata">IDataObject::GetData</a> to get an indication of whether the operation may be successful.
 
 ## -parameters
 
 ### -param pformatetc [in]
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-formatetc">FORMATETC</a> structure defining the format, medium, and target device to use for the query.
+A pointer to the <a href="/windows/desktop/api/objidl/ns-objidl-formatetc">FORMATETC</a> structure defining the format, medium, and target device to use for the query.
 
 ## -returns
 
@@ -159,9 +159,8 @@ There is insufficient memory available for this operation.
 
 ## -remarks
 
-The client of a data object calls <b>QueryGetData</b> to determine whether passing the specified <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-formatetc">FORMATETC</a> structure to a subsequent call to <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-idataobject-getdata">IDataObject::GetData</a> is likely to be successful. A successful return from this method does not necessarily ensure the success of the subsequent paste or drop operation.
+The client of a data object calls <b>QueryGetData</b> to determine whether passing the specified <a href="/windows/desktop/api/objidl/ns-objidl-formatetc">FORMATETC</a> structure to a subsequent call to <a href="/windows/desktop/api/objidl/nf-objidl-idataobject-getdata">IDataObject::GetData</a> is likely to be successful. A successful return from this method does not necessarily ensure the success of the subsequent paste or drop operation.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a>
-
+<a href="/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a>

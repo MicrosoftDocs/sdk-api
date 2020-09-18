@@ -50,11 +50,11 @@ api_name:
 
 ## -description
 
-Exposes methods that extract data from enumeration information. <a href="https://docs.microsoft.com/windows/desktop/api/propsys/nn-propsys-ipropertyenumtype2">IPropertyEnumType2</a> extends <a href="https://docs.microsoft.com/windows/desktop/api/propsys/nn-propsys-ipropertyenumtype">IPropertyEnumType</a>.
+Exposes methods that extract data from enumeration information. <a href="/windows/desktop/api/propsys/nn-propsys-ipropertyenumtype2">IPropertyEnumType2</a> extends <a href="/windows/desktop/api/propsys/nn-propsys-ipropertyenumtype">IPropertyEnumType</a>.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPropertyEnumType2</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/propsys/nn-propsys-ipropertyenumtype">IPropertyEnumType</a>. <b>IPropertyEnumType2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPropertyEnumType2</b> interface inherits from <a href="/windows/desktop/api/propsys/nn-propsys-ipropertyenumtype">IPropertyEnumType</a>. <b>IPropertyEnumType2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IPropertyEnumType2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/propsys/nf-propsys-ipropertyenumtype2-getimagereference">GetImageReference</a>
+<a href="/windows/desktop/api/propsys/nf-propsys-ipropertyenumtype2-getimagereference">GetImageReference</a>
 </td>
 <td align="left" width="63%">
 Retrieves the image reference associated with a property enumeration.
@@ -80,7 +80,6 @@ Retrieves the image reference associated with a property enumeration.
 
 ## -remarks
 
-This interface also provides the methods of the <a href="https://docs.microsoft.com/windows/desktop/api/propsys/nn-propsys-ipropertyenumtype">IPropertyEnumType</a> interface, from which it inherits.
+This interface also provides the methods of the <a href="/windows/desktop/api/propsys/nn-propsys-ipropertyenumtype">IPropertyEnumType</a> interface, from which it inherits.
 
-For additional information, see <a href="https://docs.microsoft.com/windows/desktop/properties/propdesc-schema-enumeratedlist">enumeratedList</a>.
-
+For additional information, see <a href="/windows/desktop/properties/propdesc-schema-enumeratedlist">enumeratedList</a>.

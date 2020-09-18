@@ -56,11 +56,11 @@ The <b>GetTableDescriptorByIndex</b> method returns a descriptor for the EAS tab
 
 ### -param dwIndex [in]
 
-The zero-based index of the descriptor to retrieve. Call the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/atscpsipparser/nf-atscpsipparser-iscte_eas-getcountoftabledescriptors">ISCTE_EAS::GetCountOfTableDescriptors</a> method to get the number of table descriptors.
+The zero-based index of the descriptor to retrieve. Call the <a href="/previous-versions/windows/desktop/api/atscpsipparser/nf-atscpsipparser-iscte_eas-getcountoftabledescriptors">ISCTE_EAS::GetCountOfTableDescriptors</a> method to get the number of table descriptors.
 
 ### -param ppDescriptor [out]
 
-Receives a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mpeg2psiparser/nn-mpeg2psiparser-igenericdescriptor">IGenericDescriptor</a> interface. The caller must release the interface.
+Receives a pointer to the <a href="/windows/desktop/api/mpeg2psiparser/nn-mpeg2psiparser-igenericdescriptor">IGenericDescriptor</a> interface. The caller must release the interface.
 
 ## -returns
 
@@ -89,7 +89,7 @@ Index out of bounds.
 </dl>
 </td>
 <td width="60%">
-The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/atscpsipparser/nf-atscpsipparser-iscte_eas-initialize">ISCTE_EAS::Initialize</a> method was not called.
+The <a href="/previous-versions/windows/desktop/api/atscpsipparser/nf-atscpsipparser-iscte_eas-initialize">ISCTE_EAS::Initialize</a> method was not called.
 
 </td>
 </tr>
@@ -108,5 +108,4 @@ The method succeeded.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/atscpsipparser/nn-atscpsipparser-iscte_eas">ISCTE_EAS Interface</a>
-
+<a href="/previous-versions/windows/desktop/api/atscpsipparser/nn-atscpsipparser-iscte_eas">ISCTE_EAS Interface</a>

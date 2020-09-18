@@ -56,7 +56,7 @@ Gets the context identifier associated with the network. This GUID identifies th
 
 ### -param pContextGuid [in, out]
 
-The context identifier associated with the network. If no ContextGuid was specified when the <a href="https://docs.microsoft.com/windows/desktop/api/adhoc/nf-adhoc-idot11adhocmanager-createnetwork">CreateNetwork</a> call was made, the GUID returned consists of all zeros.
+The context identifier associated with the network. If no ContextGuid was specified when the <a href="/windows/desktop/api/adhoc/nf-adhoc-idot11adhocmanager-createnetwork">CreateNetwork</a> call was made, the GUID returned consists of all zeros.
 
 ## -returns
 
@@ -126,5 +126,4 @@ A pointer passed as a parameter is not valid.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/adhoc/nn-adhoc-idot11adhocnetwork">IDot11AdHocNetwork</a>
-
+<a href="/windows/desktop/api/adhoc/nn-adhoc-idot11adhocnetwork">IDot11AdHocNetwork</a>

@@ -64,13 +64,13 @@ Specifies an array of input arguments to the method. If the action has no input 
 
 ### -param pAsyncResult [in, optional]
 
-Pointer  to a <a href="https://docs.microsoft.com/windows/desktop/api/upnp/nn-upnp-iupnpasyncresult">IUPnPAsyncResult</a> object. When the <b>BeginInvokeAction</b> call is complete, 
-	UPnP will use the <a href="https://docs.microsoft.com/windows/desktop/api/upnp/nf-upnp-iupnpasyncresult-asyncoperationcomplete">IUPnPAsyncResult::AsyncOperationComplete</a> method to notify the control 
+Pointer  to a <a href="/windows/desktop/api/upnp/nn-upnp-iupnpasyncresult">IUPnPAsyncResult</a> object. When the <b>BeginInvokeAction</b> call is complete, 
+	UPnP will use the <a href="/windows/desktop/api/upnp/nf-upnp-iupnpasyncresult-asyncoperationcomplete">IUPnPAsyncResult::AsyncOperationComplete</a> method to notify the control 
 	point.
 
 ### -param pullRequestID [out]
 
-Pointer to a 64-bit <b>ULONG</b> value used to identify the asynchronous I/O operation. The control point must use this handle as a cookie while ending or cancelling this  operation with <a href="https://docs.microsoft.com/windows/desktop/api/upnp/nf-upnp-iupnpserviceasync-endinvokeaction">EndInvokeAction</a>.
+Pointer to a 64-bit <b>ULONG</b> value used to identify the asynchronous I/O operation. The control point must use this handle as a cookie while ending or cancelling this  operation with <a href="/windows/desktop/api/upnp/nf-upnp-iupnpserviceasync-endinvokeaction">EndInvokeAction</a>.
 
 ## -returns
 
@@ -88,7 +88,7 @@ Returns <b>S_OK</b> on success. Otherwise, the method returns a COM error code d
 </dl>
 </td>
 <td width="60%">
-Another async operation is being done on this <a href="https://docs.microsoft.com/windows/desktop/api/upnp/nn-upnp-iupnpserviceasync">IUPnPServiceAsync</a> object. Create another <b>IUPnPServiceAsync</b> instance or cancel the running operation by using <a href="https://docs.microsoft.com/windows/desktop/api/upnp/nf-upnp-iupnpserviceasync-cancelasyncoperation">IUPnPServiceAsync::CancelAsyncOperation</a>.
+Another async operation is being done on this <a href="/windows/desktop/api/upnp/nn-upnp-iupnpserviceasync">IUPnPServiceAsync</a> object. Create another <b>IUPnPServiceAsync</b> instance or cancel the running operation by using <a href="/windows/desktop/api/upnp/nf-upnp-iupnpserviceasync-cancelasyncoperation">IUPnPServiceAsync::CancelAsyncOperation</a>.
 
 </td>
 </tr>
@@ -117,14 +117,13 @@ This action is not supported by the device.
 </table>
  
 
-<div class="alert"><b>Note</b>  Some values can indicate that an error was received from a UPnP-certified device. For more information, see <a href="https://docs.microsoft.com/windows/desktop/UPnP/device-error-codes">Device Error Codes</a>.</div>
+<div class="alert"><b>Note</b>  Some values can indicate that an error was received from a UPnP-certified device. For more information, see <a href="/windows/desktop/UPnP/device-error-codes">Device Error Codes</a>.</div>
 <div> </div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/upnp/nn-upnp-iupnpserviceasync">IUPnPServiceAsync</a>
+<a href="/windows/desktop/api/upnp/nn-upnp-iupnpserviceasync">IUPnPServiceAsync</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/upnp/nf-upnp-iupnpserviceasync-endinvokeaction">IUPnPServiceAsync::EndInvokeAction</a>
-
+<a href="/windows/desktop/api/upnp/nf-upnp-iupnpserviceasync-endinvokeaction">IUPnPServiceAsync::EndInvokeAction</a>

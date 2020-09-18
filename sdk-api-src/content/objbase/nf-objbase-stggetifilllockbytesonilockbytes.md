@@ -64,7 +64,7 @@ Pointer to an existing byte array object.
 ### -param ppflb [out]
 
 Pointer to 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ifilllockbytes">IFillLockBytes</a> pointer variable that receives the interface pointer to the new byte array wrapper object.
+<a href="/windows/desktop/api/objidl/nn-objidl-ifilllockbytes">IFillLockBytes</a> pointer variable that receives the interface pointer to the new byte array wrapper object.
 
 ## -returns
 
@@ -77,9 +77,8 @@ The
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ifilllockbytes">IFillLockBytes</a>
+<a href="/windows/desktop/api/objidl/nn-objidl-ifilllockbytes">IFillLockBytes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ilockbytes">ILockBytes</a>
-
+<a href="/windows/desktop/api/objidl/nn-objidl-ilockbytes">ILockBytes</a>

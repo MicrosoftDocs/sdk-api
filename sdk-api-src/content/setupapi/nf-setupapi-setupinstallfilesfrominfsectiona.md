@@ -123,7 +123,7 @@ If the source file is not a newer or equal version, the function notifies the ca
 
 
 The file version information that is used during version checks is specified in the <b>dwFileVersionMS </b>and <b>dwFileVersionLS</b> members of a 
-<a href="https://docs.microsoft.com/windows/desktop/api/verrsrc/ns-verrsrc-vs_fixedfileinfo">VS_FIXEDFILEINFO</a> structure, as filled in by the Win32 version functions.
+<a href="/windows/desktop/api/verrsrc/ns-verrsrc-vs_fixedfileinfo">VS_FIXEDFILEINFO</a> structure, as filled in by the Win32 version functions.
 
  If one of the files does not have version resources, or if they have identical version information, the source file is considered newer.
 
@@ -224,12 +224,12 @@ Use this flag  for system-critical files.
 If the function succeeds, the return value is a nonzero value.
 
 If the function fails, the return value is 0 (zero). To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
 <b>SetupInstallFilesFromInfSection</b> can be called multiple times to queue the files that are specified in multiple INF sections. After the queue is committed successfully and the files are copied, renamed, and/or deleted, 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupinstallfrominfsectiona">SetupInstallFromInfSection</a> can be called to perform registry and INI installation operations.
+<a href="/windows/desktop/api/setupapi/nf-setupapi-setupinstallfrominfsectiona">SetupInstallFromInfSection</a> can be called to perform registry and INI installation operations.
 
 If a UNC directory is specified as the target directory of a file installation, you must ensure that the UNC directory exists before you call 
 <b>SetupInstallFilesFromInfSection</b>. The setup functions do not check for the existence of directories and do not create UNC directories. If the target UNC directory does not exist, the file installation fails.
@@ -243,17 +243,16 @@ If a UNC directory is specified as the target directory of a file installation, 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/SetupApi/functions">Functions</a>
+<a href="/windows/desktop/SetupApi/functions">Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SetupApi/overview">Overview</a>
+<a href="/windows/desktop/SetupApi/overview">Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupinstallfrominfsectiona">SetupInstallFromInfSection</a>
+<a href="/windows/desktop/api/setupapi/nf-setupapi-setupinstallfrominfsectiona">SetupInstallFromInfSection</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupinstallservicesfrominfsectiona">SetupInstallServicesFromInfSection</a>
-
+<a href="/windows/desktop/api/setupapi/nf-setupapi-setupinstallservicesfrominfsectiona">SetupInstallServicesFromInfSection</a>

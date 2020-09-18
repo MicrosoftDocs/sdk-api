@@ -57,7 +57,7 @@ Sets the buffering parameters.
 
 ### -param pParams [in]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/ns-mfidl-mfbytestream_buffering_params">MFBYTESTREAM_BUFFERING_PARAMS</a> structure that contains the buffering parameters. The byte stream uses this information to calculate how much data to buffer from the network.
+Pointer to an <a href="/windows/desktop/api/mfidl/ns-mfidl-mfbytestream_buffering_params">MFBYTESTREAM_BUFFERING_PARAMS</a> structure that contains the buffering parameters. The byte stream uses this information to calculate how much data to buffer from the network.
 
 ## -returns
 
@@ -83,5 +83,4 @@ The method succeeded.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfbytestreambuffering">IMFByteStreamBuffering</a>
-
+<a href="/windows/desktop/api/mfidl/nn-mfidl-imfbytestreambuffering">IMFByteStreamBuffering</a>

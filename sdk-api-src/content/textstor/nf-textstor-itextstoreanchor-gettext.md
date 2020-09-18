@@ -139,7 +139,7 @@ The caller does not have a read-only lock on the document.
 
 ## -remarks
 
-Callers that use this method must have a read-only lock on the document by calling the <a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-itextstoreanchor-requestlock">ITextStoreAnchor::RequestLock</a> method. Without a read-only lock, the method fails and returns <a href="https://docs.microsoft.com/windows/desktop/TSF/manager-return-values">TF_E_NOLOCK</a>.
+Callers that use this method must have a read-only lock on the document by calling the <a href="/windows/desktop/api/textstor/nf-textstor-itextstoreanchor-requestlock">ITextStoreAnchor::RequestLock</a> method. Without a read-only lock, the method fails and returns <a href="/windows/desktop/TSF/manager-return-values">TF_E_NOLOCK</a>.
 
 Applications can truncate the method return values for internal reasons.
 
@@ -151,19 +151,18 @@ The behavior of <b>GetText</b> is not affected by any region boundaries covered 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nn-textstor-itextstoreanchor">ITextStoreAnchor</a>
+<a href="/windows/desktop/api/textstor/nn-textstor-itextstoreanchor">ITextStoreAnchor</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-itextstoreanchor-requestlock">ITextStoreAnchor::RequestLock
+<a href="/windows/desktop/api/textstor/nf-textstor-itextstoreanchor-requestlock">ITextStoreAnchor::RequestLock
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/TSF/manager-return-values">Manager Return Values</a>
+<a href="/windows/desktop/TSF/manager-return-values">Manager Return Values</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/textstor/ns-textstor-ts_runinfo">TS_RUNINFO
+<a href="/windows/desktop/api/textstor/ns-textstor-ts_runinfo">TS_RUNINFO
       </a>
-

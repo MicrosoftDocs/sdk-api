@@ -60,7 +60,7 @@ Specifies the number of elements to obtain.
 
 ### -param ppItem [out]
 
-Pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/ctfutb/nn-ctfutb-itflangbaritem">ITfLangBarItem</a> interface pointers that receives the requested objects. This array must be at least <i>ulCount</i> elements in size.
+Pointer to an array of <a href="/windows/desktop/api/ctfutb/nn-ctfutb-itflangbaritem">ITfLangBarItem</a> interface pointers that receives the requested objects. This array must be at least <i>ulCount</i> elements in size.
 
 ### -param pcFetched
 
@@ -112,10 +112,9 @@ The method reached the end of the enumeration before the specified number of ele
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ctfutb/nn-ctfutb-ienumtflangbaritems">IEnumTfLangBarItems</a>
+<a href="/windows/desktop/api/ctfutb/nn-ctfutb-ienumtflangbaritems">IEnumTfLangBarItems</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ctfutb/nn-ctfutb-itflangbaritem">ITfLangBarItem
+<a href="/windows/desktop/api/ctfutb/nn-ctfutb-itflangbaritem">ITfLangBarItem
       </a>
-

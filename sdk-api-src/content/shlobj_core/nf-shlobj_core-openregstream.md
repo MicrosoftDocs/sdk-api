@@ -50,9 +50,9 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[<b>OpenRegStream</b> is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-shopenregstream2a">SHOpenRegStream2</a> or <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-shopenregstreama">SHOpenRegStream</a>.]
+<p class="CCE_Message">[<b>OpenRegStream</b> is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="/windows/desktop/api/shlwapi/nf-shlwapi-shopenregstream2a">SHOpenRegStream2</a> or <a href="/windows/desktop/api/shlwapi/nf-shlwapi-shopenregstreama">SHOpenRegStream</a>.]
 
-Opens a registry value and supplies an <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a> interface that can be used to read from or write to the value.
+Opens a registry value and supplies an <a href="/windows/desktop/api/objidl/nn-objidl-istream">IStream</a> interface that can be used to read from or write to the value.
 
 ## -parameters
 
@@ -100,7 +100,6 @@ Open the stream for reading and writing.
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a>*</b>
+Type: <b><a href="/windows/desktop/api/objidl/nn-objidl-istream">IStream</a>*</b>
 
-Returns the address of an <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a> interface if successful, or <b>NULL</b> otherwise.
-
+Returns the address of an <a href="/windows/desktop/api/objidl/nn-objidl-istream">IStream</a> interface if successful, or <b>NULL</b> otherwise.

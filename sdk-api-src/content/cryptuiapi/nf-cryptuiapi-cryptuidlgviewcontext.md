@@ -126,5 +126,4 @@ This function returns <b>TRUE</b> on success and <b>FALSE</b> on failure.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/cryptuiapi/nf-cryptuiapi-cryptuidlgselectcertificatefromstore">CryptUIDlgSelectCertificateFromStore</a>
-
+<a href="/windows/desktop/api/cryptuiapi/nf-cryptuiapi-cryptuidlgselectcertificatefromstore">CryptUIDlgSelectCertificateFromStore</a>

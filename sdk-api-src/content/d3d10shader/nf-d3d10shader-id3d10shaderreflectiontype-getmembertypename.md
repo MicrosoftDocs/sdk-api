@@ -61,10 +61,9 @@ A zero-based index to a member of the struct type.
 
 Type: **[LPCSTR](/windows/desktop/winprog/windows-data-types)**
 
-The member name in the form of a stringified value of the [D3D_SHADER_VARIABLE_TYPE](/windows/win32/api/d3dcommon/ne-d3dcommon-d3d_shader_variable_type) enumeration.
+The member name in the form of a stringified value of the [D3D_SHADER_VARIABLE_TYPE](../d3dcommon/ne-d3dcommon-d3d_shader_variable_type.md) enumeration.
 
 ## -see-also
 
-* [ID3D10ShaderReflectionType](/windows/win32/api/d3d10shader/nn-d3d10shader-id3d10shaderreflectiontype) interface
-* [D3D_SHADER_VARIABLE_TYPE](/windows/win32/api/d3dcommon/ne-d3dcommon-d3d_shader_variable_type) enumeration
-
+* [ID3D10ShaderReflectionType](./nn-d3d10shader-id3d10shaderreflectiontype.md) interface
+* [D3D_SHADER_VARIABLE_TYPE](../d3dcommon/ne-d3dcommon-d3d_shader_variable_type.md) enumeration

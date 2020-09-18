@@ -62,7 +62,7 @@ The GUID of the current provider.
 
 If the method succeeds, the method returns <b>S_OK</b>.
 
-If the method fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following table. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
+If the method fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following table. For a list of common error codes, see <a href="/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 <table>
 <tr>
@@ -88,5 +88,4 @@ The <i>pguidProvider</i> parameter will be a null GUID if there is no currently 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wpcapi/nn-wpcapi-iwpcprovidersupport">IWPCProviderSupport</a>
-
+<a href="/windows/desktop/api/wpcapi/nn-wpcapi-iwpcprovidersupport">IWPCProviderSupport</a>

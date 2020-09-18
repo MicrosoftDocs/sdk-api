@@ -62,9 +62,9 @@ A reference to the CLSID—a GUID that identifies the COM object to be created. 
 
 ### -param punkOuter [in, optional]
 
-Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>*</b>
+Type: <b>const <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>*</b>
 
-A pointer to the outer <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface that aggregates the object created by this function, or <b>NULL</b> if no aggregation is desired.
+A pointer to the outer <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface that aggregates the object created by this function, or <b>NULL</b> if no aggregation is desired.
 
 ### -param riid [in]
 
@@ -76,17 +76,16 @@ Reference to the desired interface ID.
 
 Type: <b>void**</b>
 
-When this method returns, contains the interface pointer requested in <i>riid</i>. This is normally <a href="https://docs.microsoft.com/windows/desktop/api/commoncontrols/nn-commoncontrols-iimagelist2">IImageList2</a>, which provides the <a href="https://docs.microsoft.com/windows/desktop/api/commoncontrols/nf-commoncontrols-iimagelist2-initialize">Initialize</a> method.
+When this method returns, contains the interface pointer requested in <i>riid</i>. This is normally <a href="/windows/desktop/api/commoncontrols/nn-commoncontrols-iimagelist2">IImageList2</a>, which provides the <a href="/windows/desktop/api/commoncontrols/nf-commoncontrols-iimagelist2-initialize">Initialize</a> method.
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
 ## -remarks
 
-Before calling this function, COM must be initialized by calling <a href="https://docs.microsoft.com/windows/desktop/api/objbase/nf-objbase-coinitialize">CoInitialize</a> or <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-coinitializeex">CoInitializeEx</a>.
+Before calling this function, COM must be initialized by calling <a href="/windows/desktop/api/objbase/nf-objbase-coinitialize">CoInitialize</a> or <a href="/windows/desktop/api/combaseapi/nf-combaseapi-coinitializeex">CoInitializeEx</a>.
 
-Call <b>ImageList_CoCreateInstance</b> for a customized image list; otherwise, call <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/nf-shellapi-shgetimagelist">SHGetImageList</a> to load the system image list. Call <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/nf-shellapi-shgetfileinfoa">SHGetFileInfo</a> with the <i>uflag</i> parameter set to <b>SHGFI_SYSICONINDEX</b> to retrieve a handle to the system image list.
-
+Call <b>ImageList_CoCreateInstance</b> for a customized image list; otherwise, call <a href="/windows/desktop/api/shellapi/nf-shellapi-shgetimagelist">SHGetImageList</a> to load the system image list. Call <a href="/windows/desktop/api/shellapi/nf-shellapi-shgetfileinfoa">SHGetFileInfo</a> with the <i>uflag</i> parameter set to <b>SHGFI_SYSICONINDEX</b> to retrieve a handle to the system image list.

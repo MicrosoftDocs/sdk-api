@@ -56,7 +56,7 @@ Receives the SpellCheckerChanged event.
 
 ### -param sender [in]
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/spellcheck/nn-spellcheck-ispellchecker">ISpellChecker</a> that fired the event.
+The <a href="/windows/desktop/api/spellcheck/nn-spellcheck-ispellchecker">ISpellChecker</a> that fired the event.
 
 ## -returns
 
@@ -68,9 +68,8 @@ This method is called when there is a change to the state of the spell checker t
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/spellcheck/nn-spellcheck-ispellchecker">ISpellChecker</a>
+<a href="/windows/desktop/api/spellcheck/nn-spellcheck-ispellchecker">ISpellChecker</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/spellcheck/nn-spellcheck-ispellcheckerchangedeventhandler">ISpellCheckerChangedEventHandler</a>
-
+<a href="/windows/desktop/api/spellcheck/nn-spellcheck-ispellcheckerchangedeventhandler">ISpellCheckerChangedEventHandler</a>

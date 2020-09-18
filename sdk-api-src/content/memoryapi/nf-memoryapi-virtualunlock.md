@@ -74,25 +74,24 @@ The size of the region being unlocked, in bytes. The region of affected pages in
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
 For the function to succeed, the range specified need not match a range passed to a previous call to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-virtuallock">VirtualLock</a> function, but all pages in the range must be locked. If any of the pages in the specified range are not locked, <b>VirtualUnlock</b> removes such pages from the working set, sets last error to <b>ERROR_NOT_LOCKED</b>, and returns <b>FALSE</b>.
+<a href="/windows/desktop/api/memoryapi/nf-memoryapi-virtuallock">VirtualLock</a> function, but all pages in the range must be locked. If any of the pages in the specified range are not locked, <b>VirtualUnlock</b> removes such pages from the working set, sets last error to <b>ERROR_NOT_LOCKED</b>, and returns <b>FALSE</b>.
 
 Calling 
 <b>VirtualUnlock</b> on a range of memory that is not locked releases the pages from the process's working set.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Memory/memory-management-functions">Memory Management Functions</a>
+<a href="/windows/desktop/Memory/memory-management-functions">Memory Management Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Memory/virtual-memory-functions">Virtual Memory Functions</a>
+<a href="/windows/desktop/Memory/virtual-memory-functions">Virtual Memory Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-virtuallock">VirtualLock</a>
-
+<a href="/windows/desktop/api/memoryapi/nf-memoryapi-virtuallock">VirtualLock</a>

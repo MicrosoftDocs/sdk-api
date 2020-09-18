@@ -64,5 +64,4 @@ The data manager does not fail if it is not able to send the file.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nn-pla-ifolderaction">IFolderAction</a>
-
+<a href="/previous-versions/windows/desktop/api/pla/nn-pla-ifolderaction">IFolderAction</a>

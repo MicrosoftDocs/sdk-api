@@ -50,24 +50,24 @@ api_name:
 
 ## -description
 
-Releases the device context obtained by the <a href="https://docs.microsoft.com/windows/desktop/api/textserv/nf-textserv-itexthost-txgetdc">ITextHost::TxGetDC</a> method.
+Releases the device context obtained by the <a href="/windows/desktop/api/textserv/nf-textserv-itexthost-txgetdc">ITextHost::TxGetDC</a> method.
 
 ## -parameters
 
 ### -param hdc [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HDC</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HDC</a></b>
 
 Handle to the device context to release.
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">INT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">INT</a></b>
 
 Returns 1 if <i>hdc</i> was released; otherwise 0.
                     
 
-For more information on COM error codes, see <a href="https://docs.microsoft.com/windows/desktop/com/error-handling-in-com">Error Handling in COM</a>.
+For more information on COM error codes, see <a href="/windows/desktop/com/error-handling-in-com">Error Handling in COM</a>.
 
 ## -remarks
 
@@ -75,9 +75,8 @@ This method is only valid when the control is in-place active; calls while the c
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/textserv/nl-textserv-itexthost">ITextHost</a>
+<a href="/windows/desktop/api/textserv/nl-textserv-itexthost">ITextHost</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Controls/windowless-rich-edit-controls">Windowless Rich Edit Controls Overview</a>
-
+<a href="/windows/desktop/Controls/windowless-rich-edit-controls">Windowless Rich Edit Controls Overview</a>

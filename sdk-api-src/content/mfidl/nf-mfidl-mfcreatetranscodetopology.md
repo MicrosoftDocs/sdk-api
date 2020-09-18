@@ -55,7 +55,7 @@ Creates a partial transcode topology.
 The underlying topology builder creates a partial topology by connecting the required pipeline objects:
 source, encoder, and sink. The encoder and the sink are configured according to the settings specified by the caller in the transcode profile. 
 
-To create the transcode profile object, call the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-mfcreatetranscodeprofile">MFCreateTranscodeProfile</a> function and set the required attributes by calling the appropriate the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imftranscodeprofile">IMFTranscodeProfile</a> methods. 
+To create the transcode profile object, call the <a href="/windows/desktop/api/mfidl/nf-mfidl-mfcreatetranscodeprofile">MFCreateTranscodeProfile</a> function and set the required attributes by calling the appropriate the <a href="/windows/desktop/api/mfidl/nn-mfidl-imftranscodeprofile">IMFTranscodeProfile</a> methods. 
 
 The configured transcode profile is passed to the <b>MFCreateTranscodeTopology</b> function, which creates the transcode topology with the appropriate settings. The caller can then set this topology on the Media Session and start the session to begin the encoding process. When the Media Session ends, the transcoded file is generated.
 
@@ -63,7 +63,7 @@ The configured transcode profile is passed to the <b>MFCreateTranscodeTopology</
 
 ### -param pSrc [in]
 
-A pointer to a media source that encapsulates the source file to be transcoded. The media source object exposes the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfmediasource">IMFMediaSource</a> interface and can be created by using the source resolver. For more information, see <a href="https://docs.microsoft.com/windows/desktop/medfound/using-the-source-resolver">Using the Source Resolver</a>.
+A pointer to a media source that encapsulates the source file to be transcoded. The media source object exposes the <a href="/windows/desktop/api/mfidl/nn-mfidl-imfmediasource">IMFMediaSource</a> interface and can be created by using the source resolver. For more information, see <a href="/windows/desktop/medfound/using-the-source-resolver">Using the Source Resolver</a>.
 
 ### -param pwszOutputFilePath [in]
 
@@ -71,11 +71,11 @@ A pointer to a null-terminated string that contains the name and path of the out
 
 ### -param pProfile [in]
 
-A pointer to the transcode profile that contains the configuration settings for the audio stream, the video stream, and the container to which the file is written. The transcode profile object exposes the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imftranscodeprofile">IMFTranscodeProfile</a> interface and must be created by calling the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-mfcreatetranscodeprofile">MFCreateTranscodeProfile</a> function. After the object has been created the caller must provide the configuration settings by calling appropriate the <b>IMFTranscodeProfile</b> methods.
+A pointer to the transcode profile that contains the configuration settings for the audio stream, the video stream, and the container to which the file is written. The transcode profile object exposes the <a href="/windows/desktop/api/mfidl/nn-mfidl-imftranscodeprofile">IMFTranscodeProfile</a> interface and must be created by calling the <a href="/windows/desktop/api/mfidl/nf-mfidl-mfcreatetranscodeprofile">MFCreateTranscodeProfile</a> function. After the object has been created the caller must provide the configuration settings by calling appropriate the <b>IMFTranscodeProfile</b> methods.
 
 ### -param ppTranscodeTopo [out]
 
-Receives a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imftopology">IMFTopology</a> interface of the transcode topology object. The caller must release the interface.
+Receives a pointer to the <a href="/windows/desktop/api/mfidl/nn-mfidl-imftopology">IMFTopology</a> interface of the transcode topology object. The caller must release the interface.
 
 ## -returns
 
@@ -128,7 +128,7 @@ No streams are selected in the media source.
 </dl>
 </td>
 <td width="60%">
-The profile does not contain the <a href="https://docs.microsoft.com/windows/desktop/medfound/mf-transcode-containertype">MF_TRANSCODE_CONTAINERTYPE</a> attribute.
+The profile does not contain the <a href="/windows/desktop/medfound/mf-transcode-containertype">MF_TRANSCODE_CONTAINERTYPE</a> attribute.
 
 </td>
 </tr>
@@ -162,26 +162,25 @@ For example code that uses this function, see the following topics:
 
 <ul>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/medfound/tutorial--encoding-an-mp4-file-">Tutorial: Encoding an MP4 File</a>
+<a href="/windows/desktop/medfound/tutorial--encoding-an-mp4-file-">Tutorial: Encoding an MP4 File</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/medfound/tutorial--converting-an-mp3-file-to-a-wma-file">Tutorial: Encoding a WMA File</a>
+<a href="/windows/desktop/medfound/tutorial--converting-an-mp3-file-to-a-wma-file">Tutorial: Encoding a WMA File</a>
 </li>
 </ul>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imftopology">IMFTopology</a>
+<a href="/windows/desktop/api/mfidl/nn-mfidl-imftopology">IMFTopology</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>
+<a href="/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/topologies">Topologies</a>
+<a href="/windows/desktop/medfound/topologies">Topologies</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/transcode-api">Transcode API</a>
-
+<a href="/windows/desktop/medfound/transcode-api">Transcode API</a>

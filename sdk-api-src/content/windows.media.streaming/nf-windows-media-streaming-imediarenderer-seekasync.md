@@ -56,11 +56,11 @@ Instructs the DMR asynchronously to seek to a particular time offset.
 
 ### -param target [in]
 
-A <a href="https://docs.microsoft.com/previous-versions/windows/desktop/axe/timespan">TimeSpan</a> value that specifies the seek offset. This value must be 0 (indicating the beginning of the content) or greater, but less than the value of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh828991(v=vs.85)">PositionInformation.TrackDuration</a> which is obtained by calling <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh828931(v=vs.85)">GetPositionInformationAsync</a>.
+A <a href="/previous-versions/windows/desktop/axe/timespan">TimeSpan</a> value that specifies the seek offset. This value must be 0 (indicating the beginning of the content) or greater, but less than the value of <a href="/previous-versions/windows/desktop/legacy/hh828991(v=vs.85)">PositionInformation.TrackDuration</a> which is obtained by calling <a href="/previous-versions/windows/desktop/legacy/hh828931(v=vs.85)">GetPositionInformationAsync</a>.
 
 ### -param value [out]
 
-Receives a reference to a <a href="https://docs.microsoft.com/windows/desktop/mediastreaming/playbackoperation">PlaybackOperation</a> object that is used to get results from the asynchronous operation.
+Receives a reference to a <a href="/windows/desktop/mediastreaming/playbackoperation">PlaybackOperation</a> object that is used to get results from the asynchronous operation.
 
 ## -returns
 
@@ -86,5 +86,4 @@ The method succeeded.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/mediastreaming/imediarenderer">IMediaRenderer</a>
-
+<a href="/windows/desktop/mediastreaming/imediarenderer">IMediaRenderer</a>

@@ -72,5 +72,4 @@ A value that's guaranteed to be a DWORD.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/ns-d2d1_1-d2d1_print_control_properties">D2D1_PRINT_CONTROL_PROPERTIES</a>
-
+<a href="/windows/desktop/api/d2d1_1/ns-d2d1_1-d2d1_print_control_properties">D2D1_PRINT_CONTROL_PROPERTIES</a>

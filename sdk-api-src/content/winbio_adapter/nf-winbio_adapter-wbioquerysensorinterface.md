@@ -83,9 +83,9 @@ The <i>SensorInterface</i> parameter cannot be <b>NULL</b>.
 ## -remarks
 
 The Windows Biometric Framework calls this function after loading a sensor adapter DLL into memory.
-Every sensor adapter DLL must therefore implement and export the <a href="https://docs.microsoft.com/windows/desktop/api/winbio_adapter/nf-winbio_adapter-wbioqueryengineinterface">WbioQueryEngineInterface</a>  function. The function name is case-sensitive, and its spelling and signature must exactly match the description provided in the Syntax section.
+Every sensor adapter DLL must therefore implement and export the <a href="/windows/desktop/api/winbio_adapter/nf-winbio_adapter-wbioqueryengineinterface">WbioQueryEngineInterface</a>  function. The function name is case-sensitive, and its spelling and signature must exactly match the description provided in the Syntax section.
 
-To be visible to the Windows Biometric Framework, the <a href="https://docs.microsoft.com/windows/desktop/api/winbio_adapter/nf-winbio_adapter-wbioqueryengineinterface">WbioQueryEngineInterface</a> function must be named in the EXPORTS section of the export definition linker command file for the DLL.
+To be visible to the Windows Biometric Framework, the <a href="/windows/desktop/api/winbio_adapter/nf-winbio_adapter-wbioqueryengineinterface">WbioQueryEngineInterface</a> function must be named in the EXPORTS section of the export definition linker command file for the DLL.
 
 
 
@@ -110,5 +110,4 @@ WbioQuerySensorInterface(
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/SecBioMet/plug-in-functions">Plug-in Functions</a>
-
+<a href="/windows/desktop/SecBioMet/plug-in-functions">Plug-in Functions</a>

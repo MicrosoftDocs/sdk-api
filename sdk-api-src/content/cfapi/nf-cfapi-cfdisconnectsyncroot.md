@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Disconnects a communication channel created by <a href="https://docs.microsoft.com/windows/desktop/api/cfapi/nf-cfapi-cfconnectsyncroot">CfConnectSyncRoot</a>.
+Disconnects a communication channel created by <a href="/windows/desktop/api/cfapi/nf-cfapi-cfconnectsyncroot">CfConnectSyncRoot</a>.
 
 ## -parameters
 
 ### -param ConnectionKey [in]
 
-The connection key returned from <a href="https://docs.microsoft.com/windows/desktop/api/cfapi/nf-cfapi-cfconnectsyncroot">CfConnectSyncRoot</a> that is now used to disconnect the sync root.
+The connection key returned from <a href="/windows/desktop/api/cfapi/nf-cfapi-cfconnectsyncroot">CfConnectSyncRoot</a> that is now used to disconnect the sync root.
 
 ## -returns
 
@@ -64,11 +64,10 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 ## -remarks
 
-This removes the communication channel with the platform that was previously established using <a href="https://docs.microsoft.com/windows/desktop/api/cfapi/nf-cfapi-cfconnectsyncroot">CfConnectSyncRoot</a>. 
+This removes the communication channel with the platform that was previously established using <a href="/windows/desktop/api/cfapi/nf-cfapi-cfconnectsyncroot">CfConnectSyncRoot</a>. 
 
 A sync provider can still receive callbacks during the <b>CfDisconnectSyncRoot</b> call, and the provider is free to choose whether the call needs to fail or be serviced. Either choice will not cause disruptions to the sync provider.
 
 After a call to <b>CfDisconnectSyncRoot</b> returns, the sync provider will no longer receive callbacks and the platform will fail any operation that depends on said callbacks.
 
 A sync provider should have WRITE_DATA or WRITE_DAC access to the sync root to be disconnected or a call to  <b>CfDisconnectSyncRoot</b> will be failed with HRESULT(ERROR_CLOUD_FILE_ACCESS_DENIED). Also, if the sync root has not been previously connected, the call will be failed with invalid parameters.
-

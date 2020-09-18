@@ -50,11 +50,11 @@ api_name:
 
 ## -description
 
-The <b>IMSVidClosedCaptioning2</b> interface sets the closed captioning service, such as CC1 or CC2. The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd695119(v=vs.85)">MSVidClosedCaptioning</a> feature exposes this interface.
+The <b>IMSVidClosedCaptioning2</b> interface sets the closed captioning service, such as CC1 or CC2. The <a href="/previous-versions/windows/desktop/legacy/dd695119(v=vs.85)">MSVidClosedCaptioning</a> feature exposes this interface.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMSVidClosedCaptioning2</b> interface inherits from <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/msvidclosedcaptioning">IMSVidClosedCaptioning</a>. <b>IMSVidClosedCaptioning2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMSVidClosedCaptioning2</b> interface inherits from <a href="/previous-versions/windows/desktop/mstv/msvidclosedcaptioning">IMSVidClosedCaptioning</a>. <b>IMSVidClosedCaptioning2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IMSVidClosedCaptioning2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidclosedcaptioning2-get_service">get_Service</a>
+<a href="/windows/desktop/api/segment/nf-segment-imsvidclosedcaptioning2-get_service">get_Service</a>
 </td>
 <td align="left" width="63%">
 Retrieves the current closed captioning service.
@@ -78,7 +78,7 @@ Retrieves the current closed captioning service.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidclosedcaptioning2-put_service">put_Service</a>
+<a href="/windows/desktop/api/segment/nf-segment-imsvidclosedcaptioning2-put_service">put_Service</a>
 </td>
 <td align="left" width="63%">
 Sets the closed captioning service.
@@ -93,9 +93,8 @@ To declare the interface identifier (IID) for this interface, use the <b>__uuido
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/msvidclosedcaptioning">IMSVidClosedCaptioning</a>
+<a href="/previous-versions/windows/desktop/mstv/msvidclosedcaptioning">IMSVidClosedCaptioning</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/video-control-interfaces">Video Control Interfaces</a>
-
+<a href="/previous-versions/windows/desktop/mstv/video-control-interfaces">Video Control Interfaces</a>

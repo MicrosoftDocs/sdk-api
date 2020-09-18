@@ -55,7 +55,7 @@ api_name:
 
 the client in Msdrm.dll is available for use in Windows Server 2008, Windows Vista, Windows Server 2008 R2, Windows 7, Windows Server 2012, and Windows 8. It may be altered or 
 
-unavailable in subsequent versions. Instead, use <a href="https://docs.microsoft.com/previous-versions/windows/desktop/msipc/microsoft-information-protection-and-control-client-portal">Active Directory Rights Management Services SDK 2.1</a>, 
+unavailable in subsequent versions. Instead, use <a href="/previous-versions/windows/desktop/msipc/microsoft-information-protection-and-control-client-portal">Active Directory Rights Management Services SDK 2.1</a>, 
 
 which leverages functionality exposed by the client in Msipc.dll.]
 
@@ -87,19 +87,18 @@ To determine the required size for this buffer, call this function with <b>NULL<
 
 If the function succeeds, the function returns S_OK.
 
-If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following list. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
+If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following list. For a list of common error codes, see <a href="/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 ## -remarks
 
 Memory allocation and deallocation for the chain are handled by the caller. To determine the required size for the <i>wszChain</i> buffer, call this function with <b>NULL</b> for the <i>wszChain</i> parameter. The required number of Unicode characters, including the terminating null character, will be returned in the <i>pcChain</i> parameter.
 
-This function can be used to transform certificate chains that are returned by the AD RMS SOAP methods into certificate chains that can be used by AD RMS functions. For an example, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/adrms_sdk/decryption-getboundlicense-cpp">Decryption_GetBoundLicense.cpp</a>.
+This function can be used to transform certificate chains that are returned by the AD RMS SOAP methods into certificate chains that can be used by AD RMS functions. For an example, see <a href="/previous-versions/windows/desktop/adrms_sdk/decryption-getboundlicense-cpp">Decryption_GetBoundLicense.cpp</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/adrms_sdk/ad-rms-functions">AD RMS Functions</a>
+<a href="/previous-versions/windows/desktop/adrms_sdk/ad-rms-functions">AD RMS Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/adrms_sdk/decryption-getboundlicense-cpp">Decryption_GetBoundLicense.cpp</a>
-
+<a href="/previous-versions/windows/desktop/adrms_sdk/decryption-getboundlicense-cpp">Decryption_GetBoundLicense.cpp</a>

@@ -60,7 +60,7 @@ Class identifier (CLSID) of the DMO.
 
 ### -param guidCategory
 
-GUID that specifies the category from which to remove the DMO. Use GUID_NULL to unregister the DMO from every category. See <a href="https://docs.microsoft.com/windows/desktop/DirectShow/dmo-guids">DMO GUIDs</a> for a list of category GUIDs.
+GUID that specifies the category from which to remove the DMO. Use GUID_NULL to unregister the DMO from every category. See <a href="/windows/desktop/DirectShow/dmo-guids">DMO GUIDs</a> for a list of category GUIDs.
 
 ## -returns
 
@@ -87,5 +87,4 @@ Returns an <b>HRESULT</b> value. Possible values include the following.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/dmo-functions">DMO Functions</a>
-
+<a href="/windows/desktop/DirectShow/dmo-functions">DMO Functions</a>

@@ -56,9 +56,9 @@ The <b>TaskDialogIndirect</b> function creates, displays, and operates a task di
 
 ### -param pTaskConfig [in]
 
-Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-taskdialogconfig">TASKDIALOGCONFIG</a>*</b>
+Type: <b>const <a href="/windows/desktop/api/commctrl/ns-commctrl-taskdialogconfig">TASKDIALOGCONFIG</a>*</b>
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-taskdialogconfig">TASKDIALOGCONFIG</a> structure that contains information used to display the task dialog.
+Pointer to a <a href="/windows/desktop/api/commctrl/ns-commctrl-taskdialogconfig">TASKDIALOGCONFIG</a> structure that contains information used to display the task dialog.
 
 ### -param pnButton [out, optional]
 
@@ -113,7 +113,7 @@ Address of a variable that receives one of the button IDs specified in the <b>pR
 
 ### -param pfVerificationFlagChecked [out, optional]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BOOL</a>*</b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">BOOL</a>*</b>
 
 Address of a variable that receives one of the following values.
 
@@ -137,7 +137,7 @@ If this parameter is <b>NULL</b>, the verification checkbox is disabled.
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 This function can return one of these values.
 
@@ -194,7 +194,7 @@ The operation failed.
 
 ## -remarks
 
-When you use a task dialog box to indicate that the system is low on memory, the strings pointed to by the various string and icon members in the <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-taskdialogconfig">TASKDIALOGCONFIG</a> structure should not be taken from a resource file since an attempt to load the resource may fail.
+When you use a task dialog box to indicate that the system is low on memory, the strings pointed to by the various string and icon members in the <a href="/windows/desktop/api/commctrl/ns-commctrl-taskdialogconfig">TASKDIALOGCONFIG</a> structure should not be taken from a resource file since an attempt to load the resource may fail.
 
  If you create a task dialog while a dialog box is present, use a handle to the dialog box as the <i>hWndParent</i> parameter. The <i>hWndParent</i> parameter should not identify a child window, such as a control in a dialog box. 
 
@@ -235,5 +235,4 @@ switch (nButtonPressed)
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/dlgbox/dialog-boxes">Dialog Boxes</a>
-
+<a href="/windows/desktop/dlgbox/dialog-boxes">Dialog Boxes</a>

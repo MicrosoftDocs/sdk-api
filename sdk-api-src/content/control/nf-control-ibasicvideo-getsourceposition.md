@@ -77,13 +77,12 @@ Returns an <b>HRESULT</b> value.
 
 ## -remarks
 
-This method has the same effect as individually calling the <a href="https://docs.microsoft.com/windows/desktop/api/control/nf-control-ibasicvideo-get_sourceleft">IBasicVideo::get_SourceLeft</a>, <a href="https://docs.microsoft.com/windows/desktop/api/control/nf-control-ibasicvideo-get_sourcetop">IBasicVideo::get_SourceTop</a>, <a href="https://docs.microsoft.com/windows/desktop/api/control/nf-control-ibasicvideo-get_sourcewidth">IBasicVideo::get_SourceWidth</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/control/nf-control-ibasicvideo-get_sourceheight">IBasicVideo::get_SourceHeight</a> methods.
+This method has the same effect as individually calling the <a href="/windows/desktop/api/control/nf-control-ibasicvideo-get_sourceleft">IBasicVideo::get_SourceLeft</a>, <a href="/windows/desktop/api/control/nf-control-ibasicvideo-get_sourcetop">IBasicVideo::get_SourceTop</a>, <a href="/windows/desktop/api/control/nf-control-ibasicvideo-get_sourcewidth">IBasicVideo::get_SourceWidth</a>, and <a href="/windows/desktop/api/control/nf-control-ibasicvideo-get_sourceheight">IBasicVideo::get_SourceHeight</a> methods.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/control/nn-control-ibasicvideo">IBasicVideo Interface</a>
-
+<a href="/windows/desktop/api/control/nn-control-ibasicvideo">IBasicVideo Interface</a>

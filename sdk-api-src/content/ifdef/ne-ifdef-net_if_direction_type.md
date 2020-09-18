@@ -55,7 +55,7 @@ api_name:
 ## -description
 
 The NET_IF_ACCESS_TYPE enumeration type specifies the 
-  <a href="https://docs.microsoft.com/windows-hardware/drivers/network/ndis-network-interfaces2">NDIS network interface</a> direction
+  <a href="/windows-hardware/drivers/network/ndis-network-interfaces2">NDIS network interface</a> direction
   type.
 
 ## -enum-fields
@@ -78,4 +78,3 @@ Indicates the receive only direction type. This direction type indicates that th
 ### -field NET_IF_DIRECTION_MAXIMUM
 
 A maximum value for testing purposes.
-

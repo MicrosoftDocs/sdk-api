@@ -61,15 +61,15 @@ The <b>RatingChange</b> method is called when the current rating changes.
 
 ### -param PrevRatingSystem [in]
 
-The previous rating system, as an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tvratings/ne-tvratings-entvrat_system">EnTvRat_System</a> enumeration type.
+The previous rating system, as an <a href="/previous-versions/windows/desktop/api/tvratings/ne-tvratings-entvrat_system">EnTvRat_System</a> enumeration type.
 
 ### -param PrevLevel [in]
 
-The previous rating level, as an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tvratings/ne-tvratings-entvrat_genericlevel">EnTvRat_GenericLevel</a> enumeration type. The meaning of this value depends on the rating system.
+The previous rating level, as an <a href="/previous-versions/windows/desktop/api/tvratings/ne-tvratings-entvrat_genericlevel">EnTvRat_GenericLevel</a> enumeration type. The meaning of this value depends on the rating system.
 
 ### -param PrevAttributes [in]
 
-The previous rating attributes. This value is a bitwise OR of flags from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tvratings/ne-tvratings-bfentvrat_genericattributes">BfEnTvRat_GenericAttributes</a> enumeration. These flags specify content attributes, such as violence or adult language. Content attributes do not apply to all rating systems.
+The previous rating attributes. This value is a bitwise OR of flags from the <a href="/previous-versions/windows/desktop/api/tvratings/ne-tvratings-bfentvrat_genericattributes">BfEnTvRat_GenericAttributes</a> enumeration. These flags specify content attributes, such as violence or adult language. Content attributes do not apply to all rating systems.
 
 ### -param NewRatingSystem [in]
 
@@ -89,5 +89,4 @@ Return S_OK or an error code.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/segment/nn-segment-imsvidxdsevent">IMSVidXDSEvent Interface</a>
-
+<a href="/windows/desktop/api/segment/nn-segment-imsvidxdsevent">IMSVidXDSEvent Interface</a>

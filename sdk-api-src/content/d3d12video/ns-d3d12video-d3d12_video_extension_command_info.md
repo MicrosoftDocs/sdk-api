@@ -52,7 +52,7 @@ A pointer to a wide string containing the name of the command.
 
 ### -field CommandListSupportFlags
 
-A member of the [D3D12_COMMAND_LIST_SUPPORT_FLAGS](/windows/win32/api/d3d12/ne-d3d12-d3d12_command_list_support_flags) enumeration.  Indicates the video command queue that the video extension targets. Only one value from the enumeration can be set.
+A member of the [D3D12_COMMAND_LIST_SUPPORT_FLAGS](../d3d12/ne-d3d12-d3d12_command_list_support_flags.md) enumeration.  Indicates the video command queue that the video extension targets. Only one value from the enumeration can be set.
 
 ## -remarks
 
@@ -60,5 +60,4 @@ An array of this structure is provided in a [D3D12_FEATURE_DATA_VIDEO_EXTENSION_
 
 ## -see-also
 
-[D3D12_COMMAND_LIST_SUPPORT_FLAGS](/windows/win32/api/d3d12/ne-d3d12-d3d12_command_list_support_flags)
-
+[D3D12_COMMAND_LIST_SUPPORT_FLAGS](../d3d12/ne-d3d12-d3d12_command_list_support_flags.md)

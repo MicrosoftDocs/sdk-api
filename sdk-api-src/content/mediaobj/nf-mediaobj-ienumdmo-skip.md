@@ -65,5 +65,4 @@ Returns S_OK if the number items skipped equals <i>cItemsToSkip</i>. Otherwise, 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mediaobj/nn-mediaobj-ienumdmo">IEnumDMO Interface</a>
-
+<a href="/windows/desktop/api/mediaobj/nn-mediaobj-ienumdmo">IEnumDMO Interface</a>

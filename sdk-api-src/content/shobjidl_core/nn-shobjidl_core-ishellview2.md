@@ -50,11 +50,11 @@ api_name:
 
 ## -description
 
-Extends the capabilities of <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellview">IShellView</a>.
+Extends the capabilities of <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellview">IShellView</a>.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IShellView2</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellview">IShellView</a>. <b>IShellView2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IShellView2</b> interface inherits from <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellview">IShellView</a>. <b>IShellView2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IShellView2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellview2-createviewwindow2">CreateViewWindow2</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellview2-createviewwindow2">CreateViewWindow2</a>
 </td>
 <td align="left" width="63%">
 Used to request the creation of a new Shell view window. It can be either the right pane of Windows Explorer or the client window of a folder window.
@@ -78,7 +78,7 @@ Used to request the creation of a new Shell view window. It can be either the ri
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellview2-getview">GetView</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellview2-getview">GetView</a>
 </td>
 <td align="left" width="63%">
 Requests the current or default Shell view, together with all other valid view identifiers (VIDs) supported by this implementation of <b>IShellView2</b>.
@@ -87,7 +87,7 @@ Requests the current or default Shell view, together with all other valid view i
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellview2-handlerename">HandleRename</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellview2-handlerename">HandleRename</a>
 </td>
 <td align="left" width="63%">
 Used to change an item's identifier.
@@ -96,7 +96,7 @@ Used to change an item's identifier.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellview2-selectandpositionitem">SelectAndPositionItem</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellview2-selectandpositionitem">SelectAndPositionItem</a>
 </td>
 <td align="left" width="63%">
 Selects and positions an item in a Shell View.
@@ -107,11 +107,10 @@ Selects and positions an item in a Shell View.
 
 ## -remarks
 
-This interface also provides the methods of the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellview">IShellView</a> interface, from which it inherits.
+This interface also provides the methods of the <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellview">IShellView</a> interface, from which it inherits.
 
 <h3><a id="When_to_Implement"></a><a id="when_to_implement"></a><a id="WHEN_TO_IMPLEMENT"></a>When to Implement</h3>
-Implement <b>IShellView2</b> if your namespace extension provides services to clients beyond those in <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellview">IShellView</a>.
+Implement <b>IShellView2</b> if your namespace extension provides services to clients beyond those in <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellview">IShellView</a>.
 
 <h3><a id="When_to_Use"></a><a id="when_to_use"></a><a id="WHEN_TO_USE"></a>When to Use</h3>
-You do not call this interface directly. <b>IShellView2</b> is used by the operating system only when it has confirmed that your application is aware of this interface. Objects that expose <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellview">IShellView</a> and <b>IShellView2</b> are usually created by other Shell folder objects.
-
+You do not call this interface directly. <b>IShellView2</b> is used by the operating system only when it has confirmed that your application is aware of this interface. Objects that expose <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellview">IShellView</a> and <b>IShellView2</b> are usually created by other Shell folder objects.

@@ -50,9 +50,8 @@ api_name:
 
 ## -description
 
-Contains information about the completion of a download. This interface acts as a parameter to the <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-idownloadcompletedcallback">IDownloadCompletedCallback</a> delegate. The download and installation of the update is asynchronous.
+Contains information about the completion of a download. This interface acts as a parameter to the <a href="/windows/desktop/api/wuapi/nn-wuapi-idownloadcompletedcallback">IDownloadCompletedCallback</a> delegate. The download and installation of the update is asynchronous.
 
 ## -remarks
 
 The <b>IDownloadCompletedCallbackArgs</b> interface is reserved for future use. It has no properties or methods.
-

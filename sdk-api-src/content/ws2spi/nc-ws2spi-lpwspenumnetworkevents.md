@@ -118,7 +118,7 @@ The descriptor is not a socket.
 
 ## -remarks
 
-This function is used to report which network events have occurred for the indicated socket since the last invocation of this function. It is intended for use in conjunction with [LPWSPEventSelect](/windows/win32/api/ws2spi/nc-ws2spi-lpwspeventselect) and [LPWSPAsyncSelect](/windows/win32/api/ws2spi/nc-ws2spi-lpwspasyncselect), which associate an event object with one or more network events. Recording of network events commences when **LPWSPEventSelect** or **LPWSPAsyncSelect** is called with a nonzero <i>lNetworkEvents</i> argument, and remains in effect until another corresponding call is made to **LPWSPEventSelect** or **LPWSPAsyncSelect** with the <i>lNetworkEvents</i> argument set to zero.
+This function is used to report which network events have occurred for the indicated socket since the last invocation of this function. It is intended for use in conjunction with [LPWSPEventSelect](./nc-ws2spi-lpwspeventselect.md) and [LPWSPAsyncSelect](./nc-ws2spi-lpwspasyncselect.md), which associate an event object with one or more network events. Recording of network events commences when **LPWSPEventSelect** or **LPWSPAsyncSelect** is called with a nonzero <i>lNetworkEvents</i> argument, and remains in effect until another corresponding call is made to **LPWSPEventSelect** or **LPWSPAsyncSelect** with the <i>lNetworkEvents</i> argument set to zero.
 
 **LPWSPEnumNetworkEvents** only reports network activity and errors nominated through <b><a href="/windows/win32/api/ws2spi/nc-ws2spi-lpwspeventselect">LPWSPEventSelect</a></b>. See the descriptions of <b><a href="/windows/win32/api/ws2spi/nc-ws2spi-lpwspselect">LPWSPSelect</a></b> and **[LPWSPAsyncSelect](nc-ws2spi-lpwspasyncselect.md)** to find out how those functions report network activity and errors.
 
@@ -292,4 +292,3 @@ The network subsystem has failed.
 ## -see-also
 
 <a href="/windows/win32/api/ws2spi/nc-ws2spi-lpwspeventselect">LPWSPEventSelect</a>
-

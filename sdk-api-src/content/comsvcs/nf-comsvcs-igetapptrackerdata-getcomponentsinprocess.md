@@ -72,7 +72,7 @@ An application ID to filter results, or GUID_NULL for all applications.
 
 ### -param Flags [in]
 
-A combination of flags from the <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/ne-comsvcs-getapptrackerdataflags">GetAppTrackerDataFlags</a> enumeration to filter results and to select which data is returned. The following flags are supported: GATD_INCLUDE_LIBRARY_APPS, GATD_INCLUDE_SWC, GATD_INCLUDE_CLASS_NAME, GATD_INCLUDE_APPLICATION_NAME. See Remarks below for more information.
+A combination of flags from the <a href="/windows/desktop/api/comsvcs/ne-comsvcs-getapptrackerdataflags">GetAppTrackerDataFlags</a> enumeration to filter results and to select which data is returned. The following flags are supported: GATD_INCLUDE_LIBRARY_APPS, GATD_INCLUDE_SWC, GATD_INCLUDE_CLASS_NAME, GATD_INCLUDE_APPLICATION_NAME. See Remarks below for more information.
 
 ### -param NumComponentsInProcess [out]
 
@@ -80,7 +80,7 @@ On return, the number of components in the process that match the filter criteri
 
 ### -param Components [out]
 
-On return, an array of <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/ns-comsvcs-componentsummary">ComponentSummary</a> structures for the matching components.
+On return, an array of <a href="/windows/desktop/api/comsvcs/ns-comsvcs-componentsummary">ComponentSummary</a> structures for the matching components.
 
 ## -returns
 
@@ -136,5 +136,4 @@ If <i>ApplicationId</i> is used to specify an application (it is not set to GUID
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-igetapptrackerdata">IGetAppTrackerData</a>
-
+<a href="/windows/desktop/api/comsvcs/nn-comsvcs-igetapptrackerdata">IGetAppTrackerData</a>

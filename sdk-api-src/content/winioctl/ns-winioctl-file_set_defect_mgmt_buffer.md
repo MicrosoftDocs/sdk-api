@@ -63,9 +63,8 @@ If <b>TRUE</b>, indicates that defect management is disabled.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a>
+<a href="/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_set_defect_management">FSCTL_SET_DEFECT_MANAGEMENT</a>
-
+<a href="/windows/desktop/api/winioctl/ni-winioctl-fsctl_set_defect_management">FSCTL_SET_DEFECT_MANAGEMENT</a>

@@ -51,13 +51,13 @@ api_name:
 
 ## -description
 
-Frees memory and resources allocated for the application to interact with one or more ELS services. The memory and resources are allocated in an application call to <a href="https://docs.microsoft.com/windows/desktop/api/elscore/nf-elscore-mappinggetservices">MappingGetServices</a>.
+Frees memory and resources allocated for the application to interact with one or more ELS services. The memory and resources are allocated in an application call to <a href="/windows/desktop/api/elscore/nf-elscore-mappinggetservices">MappingGetServices</a>.
 
 ## -parameters
 
 ### -param pServiceInfo [in]
 
-Pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/elscore/ns-elscore-mapping_service_info">MAPPING_SERVICE_INFO</a> structures containing service descriptions retrieved by a prior call to <a href="https://docs.microsoft.com/windows/desktop/api/elscore/nf-elscore-mappinggetservices">MappingGetServices</a>. This parameter cannot be set to <b>NULL</b>.
+Pointer to an array of <a href="/windows/desktop/api/elscore/ns-elscore-mapping_service_info">MAPPING_SERVICE_INFO</a> structures containing service descriptions retrieved by a prior call to <a href="/windows/desktop/api/elscore/nf-elscore-mappinggetservices">MappingGetServices</a>. This parameter cannot be set to <b>NULL</b>.
 
 ## -returns
 
@@ -71,21 +71,20 @@ Since all services currently run in the application process, the ELS platform do
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/enumerating-and-freeing-services">Enumerating and Freeing Services</a>
+<a href="/windows/desktop/Intl/enumerating-and-freeing-services">Enumerating and Freeing Services</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/extended-linguistic-services">Extended Linguistic Services</a>
+<a href="/windows/desktop/Intl/extended-linguistic-services">Extended Linguistic Services</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/extended-linguistic-services-functions">Extended Linguistic Services Functions</a>
+<a href="/windows/desktop/Intl/extended-linguistic-services-functions">Extended Linguistic Services Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/elscore/ns-elscore-mapping_service_info">MAPPING_SERVICE_INFO</a>
+<a href="/windows/desktop/api/elscore/ns-elscore-mapping_service_info">MAPPING_SERVICE_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/elscore/nf-elscore-mappinggetservices">MappingGetServices</a>
-
+<a href="/windows/desktop/api/elscore/nf-elscore-mappinggetservices">MappingGetServices</a>

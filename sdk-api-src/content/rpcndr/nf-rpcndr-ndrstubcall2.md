@@ -50,21 +50,21 @@ api_name:
 
 ## -description
 
-The <b>NdrStubCall2</b> function is the server-side entry point for <a href="https://docs.microsoft.com/windows/desktop/Midl/-oi">/Oicf</a> mode stubs.
+The <b>NdrStubCall2</b> function is the server-side entry point for <a href="/windows/desktop/Midl/-oi">/Oicf</a> mode stubs.
 
 ## -parameters
 
 ### -param pThis [in]
 
-Pointer to an instance of the CStdStubBuffer object, implementing  <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-irpcstubbuffer">IRpcStubBuffer</a>, for the DCOM interface.  Set to <b>NULL</b> for nonobject RPC interfaces.
+Pointer to an instance of the CStdStubBuffer object, implementing  <a href="/windows/desktop/api/objidl/nn-objidl-irpcstubbuffer">IRpcStubBuffer</a>, for the DCOM interface.  Set to <b>NULL</b> for nonobject RPC interfaces.
 
 ### -param pChannel [in]
 
-Pointer to <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-irpcchannelbuffer">IRpcChannelBuffer</a> for the DCOM interface, often provided by OLE. Set to <b>NULL</b> for nonobject interfaces.
+Pointer to <a href="/windows/desktop/api/objidl/nn-objidl-irpcchannelbuffer">IRpcChannelBuffer</a> for the DCOM interface, often provided by OLE. Set to <b>NULL</b> for nonobject interfaces.
 
 ### -param pRpcMsg [in, out]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/rpcdcep/ns-rpcdcep-rpc_message">RPC_MESSAGE</a> structure that  contains information about the RPC request. In nonobject interfaces, <i>pRpcMsg</i> also contains information about the remoting method.
+Pointer to an <a href="/windows/desktop/api/rpcdcep/ns-rpcdcep-rpc_message">RPC_MESSAGE</a> structure that  contains information about the RPC request. In nonobject interfaces, <i>pRpcMsg</i> also contains information about the remoting method.
 
 ### -param pdwStubPhase [out]
 
@@ -102,4 +102,3 @@ The <i>pdwStubPhase</i> parameter is used by the object interface to determine e
 <td>Obsolete. For deprecated stubs only.</td>
 </tr>
 </table>
-

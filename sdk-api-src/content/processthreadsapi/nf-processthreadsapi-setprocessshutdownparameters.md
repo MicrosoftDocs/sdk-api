@@ -159,26 +159,25 @@ The system terminates the process without displaying a retry dialog box for the 
 If the function is succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
 Applications running in the system security context do not get shut down by the operating system. They get notified of shutdown or logoff through the callback function installable via 
-<a href="https://docs.microsoft.com/windows/console/setconsolectrlhandler">SetConsoleCtrlHandler</a>. They also get notified in the order specified by the <i>dwLevel</i> parameter.
+<a href="/windows/console/setconsolectrlhandler">SetConsoleCtrlHandler</a>. They also get notified in the order specified by the <i>dwLevel</i> parameter.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-getprocessshutdownparameters">GetProcessShutdownParameters</a>
+<a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-getprocessshutdownparameters">GetProcessShutdownParameters</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/ProcThread/process-and-thread-functions">Process and Thread Functions</a>
+<a href="/windows/desktop/ProcThread/process-and-thread-functions">Process and Thread Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/ProcThread/child-processes">Processes</a>
+<a href="/windows/desktop/ProcThread/child-processes">Processes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/console/setconsolectrlhandler">SetConsoleCtrlHandler</a>
-
+<a href="/windows/console/setconsolectrlhandler">SetConsoleCtrlHandler</a>

@@ -56,11 +56,11 @@ Concatenates the specified number of bytes from one  string to another string. T
 
 <b>StringCbCatNEx</b> is a replacement for the following functions:
 <ul>
-<li><a href="https://msdn.microsoft.com/library/tbyd7s1y.aspx">strncat</a></li>
+<li><a href="/cpp/c-runtime-library/reference/strncat-strncat-l-wcsncat-wcsncat-l-mbsncat-mbsncat-l">strncat</a></li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-strncata">StrNCat</a>
+<a href="/windows/desktop/api/shlwapi/nf-shlwapi-strncata">StrNCat</a>
 </li>
-</ul><b>StringCbCatNEx</b> adds to the functionality of <a href="https://docs.microsoft.com/windows/desktop/api/strsafe/nf-strsafe-stringcbcatna">StringCbCatN</a> by returning a pointer to the end of the destination string as well as the number of bytes left unused in that string. Flags may also be passed to the function for additional control.
+</ul><b>StringCbCatNEx</b> adds to the functionality of <a href="/windows/desktop/api/strsafe/nf-strsafe-stringcbcatna">StringCbCatN</a> by returning a pointer to the end of the destination string as well as the number of bytes left unused in that string. Flags may also be passed to the function for additional control.
 
 ## -parameters
 
@@ -172,7 +172,7 @@ If the function fails, <i>pszDest</i> is untouched. Nothing is added to the orig
 
 Type: <b>HRESULT</b>
 
-This function can return one of the following values. It is strongly recommended that you use the <a href="https://docs.microsoft.com/windows/desktop/api/winerror/nf-winerror-succeeded">SUCCEEDED</a> and <a href="https://docs.microsoft.com/windows/desktop/api/winerror/nf-winerror-failed">FAILED</a> macros to test the return value of this function.
+This function can return one of the following values. It is strongly recommended that you use the <a href="/windows/desktop/api/winerror/nf-winerror-succeeded">SUCCEEDED</a> and <a href="/windows/desktop/api/winerror/nf-winerror-failed">FAILED</a> macros to test the return value of this function.
 
 <table>
 <tr>
@@ -264,13 +264,12 @@ Neither <i>pszSrc</i> nor <i>pszDest</i> should be <b>NULL</b> unless the <b>STR
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strsafe/nf-strsafe-stringcbcatexa">StringCbCatEx</a>
+<a href="/windows/desktop/api/strsafe/nf-strsafe-stringcbcatexa">StringCbCatEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strsafe/nf-strsafe-stringcbcatna">StringCbCatN</a>
+<a href="/windows/desktop/api/strsafe/nf-strsafe-stringcbcatna">StringCbCatN</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strsafe/nf-strsafe-stringcchcatnexa">StringCchCatNEx</a>
-
+<a href="/windows/desktop/api/strsafe/nf-strsafe-stringcchcatnexa">StringCchCatNEx</a>

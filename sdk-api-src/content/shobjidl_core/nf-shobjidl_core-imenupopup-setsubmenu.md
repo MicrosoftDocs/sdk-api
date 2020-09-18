@@ -56,9 +56,9 @@ Sets the given menu bar interface to be the submenu of the calling application o
 
 ### -param pmp [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-imenupopup">IMenuPopup</a>*</b>
+Type: <b><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-imenupopup">IMenuPopup</a>*</b>
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-imenupopup">IMenuPopup</a> interface that specifies the menu bar of interest.
+A pointer to an <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-imenupopup">IMenuPopup</a> interface that specifies the menu bar of interest.
 
 ### -param fSet
 
@@ -71,4 +71,3 @@ Removes the submenu if <i>fSet</i> is set to <b>FALSE</b>.
 Type: <b>HRESULT</b>
 
 Always returns S_OK.
-

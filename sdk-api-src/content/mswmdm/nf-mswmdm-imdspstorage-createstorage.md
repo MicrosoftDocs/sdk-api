@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-The <b>CreateStorage</b> method creates a new storage and returns a pointer to the <b>IMDSPStorage</b> interface on the newly created storage. This method is optional unless <i>dwAttributes</i> is WMDM_FILE_ATTR_FILE. In that case, this method must be implemented and must not return WMDM_E_NOTSUPPORTED or E_NOTIMPL. For more information, see <a href="https://docs.microsoft.com/windows/desktop/WMDM/mandatory-and-optional-interfaces">Mandatory and Optional Interfaces</a>.
+The <b>CreateStorage</b> method creates a new storage and returns a pointer to the <b>IMDSPStorage</b> interface on the newly created storage. This method is optional unless <i>dwAttributes</i> is WMDM_FILE_ATTR_FILE. In that case, this method must be implemented and must not return WMDM_E_NOTSUPPORTED or E_NOTIMPL. For more information, see <a href="/windows/desktop/WMDM/mandatory-and-optional-interfaces">Mandatory and Optional Interfaces</a>.
 
 ## -parameters
 
@@ -189,7 +189,7 @@ The method returns an <b>HRESULT</b>. All the interface methods in Windows Media
 <li>Windows error codes converted to HRESULT values </li>
 <li>Windows Media Device Manager error codes </li>
 </ul>
-For an extensive list of possible error codes, see <a href="https://docs.microsoft.com/windows/desktop/WMDM/error-codes">Error Codes</a>.
+For an extensive list of possible error codes, see <a href="/windows/desktop/WMDM/error-codes">Error Codes</a>.
 
 ## -remarks
 
@@ -205,13 +205,12 @@ WMDM_STORAGECONTROL_INSERTINTO is valid only if the current storage is a folder.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-imdspstorage">IMDSPStorage Interface</a>
+<a href="/windows/desktop/api/mswmdm/nn-mswmdm-imdspstorage">IMDSPStorage Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-imdspstorage2-createstorage2">IMDSPStorage2::CreateStorage2</a>
+<a href="/windows/desktop/api/mswmdm/nf-mswmdm-imdspstorage2-createstorage2">IMDSPStorage2::CreateStorage2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WMDM/-waveformatex">_WAVEFORMATEX</a>
-
+<a href="/windows/desktop/WMDM/-waveformatex">_WAVEFORMATEX</a>

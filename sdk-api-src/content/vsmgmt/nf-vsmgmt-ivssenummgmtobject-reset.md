@@ -51,7 +51,7 @@ api_name:
 ## -description
 
 The <b>Reset</b> method resets the enumerator 
-    so that <a href="https://docs.microsoft.com/windows/desktop/api/vsmgmt/nn-vsmgmt-ivssenummgmtobject">IVssEnumMgmtObject</a> starts at the first 
+    so that <a href="/windows/desktop/api/vsmgmt/nn-vsmgmt-ivssenummgmtobject">IVssEnumMgmtObject</a> starts at the first 
     enumerated object.
 
 ## -parameters
@@ -62,9 +62,8 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vsmgmt/nn-vsmgmt-ivssenummgmtobject">IVssEnumMgmtObject</a>
+<a href="/windows/desktop/api/vsmgmt/nn-vsmgmt-ivssenummgmtobject">IVssEnumMgmtObject</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vsmgmt/nf-vsmgmt-ivssenummgmtobject-reset">Reset</a>
-
+<a href="/windows/desktop/api/vsmgmt/nf-vsmgmt-ivssenummgmtobject-reset">Reset</a>

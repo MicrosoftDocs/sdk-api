@@ -56,7 +56,7 @@ api_name:
 ## -description
 
 The 
-<b>INTERFACE_INFO_EX</b> structure is used in conjunction with the <b>SIO_GET_INTERFACE_LIST IOCTL</b> command to obtain information about an interface IP address. Unlike the <a href="https://docs.microsoft.com/windows/desktop/api/ws2ipdef/ns-ws2ipdef-interface_info">INTERFACE_INFO</a> structure, <b>INTERFACE_INFO_EX</b> is address-size independent, enabling it to work with IPv6.
+<b>INTERFACE_INFO_EX</b> structure is used in conjunction with the <b>SIO_GET_INTERFACE_LIST IOCTL</b> command to obtain information about an interface IP address. Unlike the <a href="/windows/desktop/api/ws2ipdef/ns-ws2ipdef-interface_info">INTERFACE_INFO</a> structure, <b>INTERFACE_INFO_EX</b> is address-size independent, enabling it to work with IPv6.
 
 ## -struct-fields
 
@@ -139,5 +139,4 @@ On the Microsoft Windows Software Development Kit (SDK) released for Windows Vi
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/WinSock/winsock-ioctls">Winsock IOCTLs</a>
-
+<a href="/windows/desktop/WinSock/winsock-ioctls">Winsock IOCTLs</a>

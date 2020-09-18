@@ -51,13 +51,13 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="https://docs.microsoft.com/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Defines methods for creating and managing virtual disks.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVdsVdProvider</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVdsVdProvider</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVdsVdProvider</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVdsVdProvider</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,7 +72,7 @@ The <b>IVdsVdProvider</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsvdprovider-addvdisk">AddVDisk</a>
+<a href="/windows/desktop/api/vds/nf-vds-ivdsvdprovider-addvdisk">AddVDisk</a>
 </td>
 <td align="left" width="63%">
 Creates a virtual disk object  for an existing virtual disk file.
@@ -81,7 +81,7 @@ Creates a virtual disk object  for an existing virtual disk file.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsvdprovider-createvdisk">CreateVDisk</a>
+<a href="/windows/desktop/api/vds/nf-vds-ivdsvdprovider-createvdisk">CreateVDisk</a>
 </td>
 <td align="left" width="63%">
 Creates a virtual disk.
@@ -90,25 +90,25 @@ Creates a virtual disk.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsvdprovider-getdiskfromvdisk">GetDiskFromVDisk</a>
+<a href="/windows/desktop/api/vds/nf-vds-ivdsvdprovider-getdiskfromvdisk">GetDiskFromVDisk</a>
 </td>
 <td align="left" width="63%">
-Returns an <a href="https://docs.microsoft.com/windows/desktop/api/vds/nn-vds-ivdsdisk">IVdsDisk</a> interface pointer for a virtual disk given an <a href="https://docs.microsoft.com/windows/desktop/api/vds/nn-vds-ivdsvdisk">IVdsVDisk</a> interface pointer.
+Returns an <a href="/windows/desktop/api/vds/nn-vds-ivdsdisk">IVdsDisk</a> interface pointer for a virtual disk given an <a href="/windows/desktop/api/vds/nn-vds-ivdsvdisk">IVdsVDisk</a> interface pointer.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsvdprovider-getvdiskfromdisk">GetVDiskFromDisk</a>
+<a href="/windows/desktop/api/vds/nf-vds-ivdsvdprovider-getvdiskfromdisk">GetVDiskFromDisk</a>
 </td>
 <td align="left" width="63%">
-Returns an <a href="https://docs.microsoft.com/windows/desktop/api/vds/nn-vds-ivdsvdisk">IVdsVDisk</a> interface pointer for the virtual disk given an <a href="https://docs.microsoft.com/windows/desktop/api/vds/nn-vds-ivdsdisk">IVdsDisk</a> interface pointer.
+Returns an <a href="/windows/desktop/api/vds/nn-vds-ivdsvdisk">IVdsVDisk</a> interface pointer for the virtual disk given an <a href="/windows/desktop/api/vds/nn-vds-ivdsdisk">IVdsDisk</a> interface pointer.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsvdprovider-queryvdisks">QueryVDisks</a>
+<a href="/windows/desktop/api/vds/nf-vds-ivdsvdprovider-queryvdisks">QueryVDisks</a>
 </td>
 <td align="left" width="63%">
 Returns a list of all virtual disks that are managed by the provider.
@@ -119,9 +119,8 @@ Returns a list of all virtual disks that are managed by the provider.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vds/nn-vds-ivdsvdisk">IVdsVDisk</a>
+<a href="/windows/desktop/api/vds/nn-vds-ivdsvdisk">IVdsVDisk</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/VDS/vds-interfaces">VDS Interfaces</a>
-
+<a href="/windows/desktop/VDS/vds-interfaces">VDS Interfaces</a>

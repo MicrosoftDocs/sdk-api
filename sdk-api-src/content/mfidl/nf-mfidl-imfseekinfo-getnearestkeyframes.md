@@ -109,5 +109,4 @@ If an application seeks to a non–key frame, the decoder must start decoding fr
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfseekinfo">IMFSeekInfo</a>
-
+<a href="/windows/desktop/api/mfidl/nn-mfidl-imfseekinfo">IMFSeekInfo</a>

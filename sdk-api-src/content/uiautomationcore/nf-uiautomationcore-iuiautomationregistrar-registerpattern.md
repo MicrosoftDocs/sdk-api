@@ -56,7 +56,7 @@ Registers a third-party control pattern.
 
 ### -param pattern [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/ns-uiautomationcore-uiautomationpatterninfo">UIAutomationPatternInfo</a>*</b>
+Type: <b><a href="/windows/desktop/api/uiautomationcore/ns-uiautomationcore-uiautomationpatterninfo">UIAutomationPatternInfo</a>*</b>
 
 A pointer to a structure that contains information about the control pattern to register.
 
@@ -70,11 +70,11 @@ Receives the pattern identifier.
 
 Type: <b>PROPERTYID*</b>
 
-Receives the property identifier for the pattern.  This value can be used with UI Automation client methods to determine whether the element supports the new pattern. This is equivalent to values such as <a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-control-pattern-availability-propids">UIA_IsInvokePatternAvailablePropertyId</a>.
+Receives the property identifier for the pattern.  This value can be used with UI Automation client methods to determine whether the element supports the new pattern. This is equivalent to values such as <a href="/windows/desktop/WinAuto/uiauto-control-pattern-availability-propids">UIA_IsInvokePatternAvailablePropertyId</a>.
 
 ### -param propertyIdCount [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 The number of properties supported by the control pattern.
 
@@ -86,7 +86,7 @@ Receives an array of identifiers for properties supported by the pattern.
 
 ### -param eventIdCount [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 The number of events supported by the control pattern.
 
@@ -98,15 +98,14 @@ Receives an array of identifiers for events that are raised by the pattern.
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
 ## -remarks
 
-The pattern, property, and event IDs retrieved by this method can be used in <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nn-uiautomationcore-iaccessibleex">IAccessibleEx</a> implementations.
+The pattern, property, and event IDs retrieved by this method can be used in <a href="/windows/desktop/api/uiautomationcore/nn-uiautomationcore-iaccessibleex">IAccessibleEx</a> implementations.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nn-uiautomationcore-iuiautomationregistrar">IUIAutomationRegistrar</a>
-
+<a href="/windows/desktop/api/uiautomationcore/nn-uiautomationcore-iuiautomationregistrar">IUIAutomationRegistrar</a>

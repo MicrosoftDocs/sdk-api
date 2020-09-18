@@ -58,7 +58,7 @@ Opens the specified Control Panel item, optionally to a specific page.
 
 Type: <b>LPCWSTR</b>
 
-A pointer to the item's canonical name as a Unicode string. This parameter is optional and can be <b>NULL</b>. If the calling application passes <b>NULL</b>, then the Control Panel itself opens. For a complete list of Control Panel item canonical names, see <a href="https://docs.microsoft.com/windows/desktop/shell/controlpanel-canonical-names">Canonical Names of Control Panel Items</a>.
+A pointer to the item's canonical name as a Unicode string. This parameter is optional and can be <b>NULL</b>. If the calling application passes <b>NULL</b>, then the Control Panel itself opens. For a complete list of Control Panel item canonical names, see <a href="/windows/desktop/shell/controlpanel-canonical-names">Canonical Names of Control Panel Items</a>.
 
 ### -param pszPage [in]
 
@@ -68,7 +68,7 @@ A pointer to the name of the page within the item to display. This string is app
 
 ### -param punkSite [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>*</b>
+Type: <b><a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>*</b>
 
 A pointer to the site for navigating in-frame for Shell folder Control Panel items. This parameter can be <b>NULL</b>.
 
@@ -84,5 +84,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iopencontrolpanel">IOpenControlPanel</a>
-
+<a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iopencontrolpanel">IOpenControlPanel</a>

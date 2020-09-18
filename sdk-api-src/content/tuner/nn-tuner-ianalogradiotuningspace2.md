@@ -57,7 +57,7 @@ The <b>IAnalogRadioTuningSpace2</b> interface provides methods for getting and s
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAnalogRadioTuningSpace2</b> interface inherits from <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-ianalogradiotuningspace">IAnalogRadioTuningSpace</a>. <b>IAnalogRadioTuningSpace2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAnalogRadioTuningSpace2</b> interface inherits from <a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-ianalogradiotuningspace">IAnalogRadioTuningSpace</a>. <b>IAnalogRadioTuningSpace2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,7 +72,7 @@ The <b>IAnalogRadioTuningSpace2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-ianalogradiotuningspace2-get_countrycode">get_CountryCode</a>
+<a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-ianalogradiotuningspace2-get_countrycode">get_CountryCode</a>
 </td>
 <td align="left" width="63%">
 Gets the country/region code of the tuning space (based on TAPI country/region codes).
@@ -81,7 +81,7 @@ Gets the country/region code of the tuning space (based on TAPI country/region c
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-ianalogradiotuningspace2-put_countrycode">put_CountryCode</a>
+<a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-ianalogradiotuningspace2-put_countrycode">put_CountryCode</a>
 </td>
 <td align="left" width="63%">
 Sets the country/region code of the tuning space (based on TAPI country/region codes).
@@ -96,9 +96,8 @@ To declare the interface identifier (IID) for this interface, use the <b>__uuido
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-ianalogradiotuningspace">IAnalogRadioTuningSpace</a>
+<a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-ianalogradiotuningspace">IAnalogRadioTuningSpace</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/tuning-model-interfaces">Tuning Model Interfaces</a>
-
+<a href="/previous-versions/windows/desktop/mstv/tuning-model-interfaces">Tuning Model Interfaces</a>

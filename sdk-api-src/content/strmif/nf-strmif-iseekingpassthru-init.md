@@ -61,7 +61,7 @@ Boolean value that specifies whether the filter is a renderer. Use the value <b>
 
 ### -param pPin [in]
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ipin">IPin</a> interface on the input pin of the filter.
+Pointer to the <a href="/windows/desktop/api/strmif/nn-strmif-ipin">IPin</a> interface on the input pin of the filter.
 
 ## -returns
 
@@ -109,9 +109,8 @@ Not enough memory to create the object.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iseekingpassthru">ISeekingPassThru Interface</a>
-
+<a href="/windows/desktop/api/strmif/nn-strmif-iseekingpassthru">ISeekingPassThru Interface</a>

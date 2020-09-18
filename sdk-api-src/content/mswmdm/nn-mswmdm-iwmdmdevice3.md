@@ -54,7 +54,7 @@ The <b>IWMDMDevice3</b> interface extends <b>IWMDMDevice2</b> by providing metho
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMDMDevice3</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmdevice2">IWMDMDevice2</a>. <b>IWMDMDevice3</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMDMDevice3</b> interface inherits from <a href="/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmdevice2">IWMDMDevice2</a>. <b>IWMDMDevice3</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IWMDMDevice3</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmdevice3-deviceiocontrol">DeviceIoControl</a>
+<a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmdevice3-deviceiocontrol">DeviceIoControl</a>
 </td>
 <td align="left" width="63%">
 Sends a Device I/O Control (IOCTL) code to the device.
@@ -78,7 +78,7 @@ Sends a Device I/O Control (IOCTL) code to the device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmdevice3-findstorage">FindStorage</a>
+<a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmdevice3-findstorage">FindStorage</a>
 </td>
 <td align="left" width="63%">
 Finds a storage by its persistent unique identifier.
@@ -87,7 +87,7 @@ Finds a storage by its persistent unique identifier.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmdevice3-getformatcapability">GetFormatCapability</a>
+<a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmdevice3-getformatcapability">GetFormatCapability</a>
 </td>
 <td align="left" width="63%">
 Retrieves device support for files of a specified format.
@@ -96,7 +96,7 @@ Retrieves device support for files of a specified format.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmdevice3-getproperty">GetProperty</a>
+<a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmdevice3-getproperty">GetProperty</a>
 </td>
 <td align="left" width="63%">
 Retrieves a specific device metadata property.
@@ -105,7 +105,7 @@ Retrieves a specific device metadata property.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmdevice3-setproperty">SetProperty</a>
+<a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmdevice3-setproperty">SetProperty</a>
 </td>
 <td align="left" width="63%">
 Sets a specific device property, if it is writable.
@@ -116,13 +116,12 @@ Sets a specific device property, if it is writable.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmdevice">IWMDMDevice Interface</a>
+<a href="/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmdevice">IWMDMDevice Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmdevice2">IWMDMDevice2 Interface</a>
+<a href="/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmdevice2">IWMDMDevice2 Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WMDM/interfaces-for-applications">Interfaces for Applications</a>
-
+<a href="/windows/desktop/WMDM/interfaces-for-applications">Interfaces for Applications</a>

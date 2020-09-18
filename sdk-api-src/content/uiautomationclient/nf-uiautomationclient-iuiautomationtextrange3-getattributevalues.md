@@ -50,17 +50,17 @@ api_name:
 
 ## -description
 
-Returns all of the requested text attribute values for a text range in a single cross-process call.  This is equivalent to calling <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationtextrange-getattributevalue">GetAttributeValue</a>, except it can retrieve multiple values instead of just one.
+Returns all of the requested text attribute values for a text range in a single cross-process call.  This is equivalent to calling <a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationtextrange-getattributevalue">GetAttributeValue</a>, except it can retrieve multiple values instead of just one.
 
 ## -parameters
 
 ### -param attributeIds [in]
 
-A list of <a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-textattribute-ids">text attribute identifiers</a>.
+A list of <a href="/windows/desktop/WinAuto/uiauto-textattribute-ids">text attribute identifiers</a>.
 
 ### -param attributeIdCount [in]
 
-The number of <a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-textattribute-ids">text attribute identifiers</a> in the <i>attributeIds</i> list.
+The number of <a href="/windows/desktop/WinAuto/uiauto-textattribute-ids">text attribute identifiers</a> in the <i>attributeIds</i> list.
 
 ### -param attributeValues [out, retval]
 
@@ -76,9 +76,8 @@ Returns <b>S_OK</b> if successful, otherwise an <b>HRESULT</b> error code.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationtextrange3">IUIAutomationTextRange3</a>
+<a href="/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationtextrange3">IUIAutomationTextRange3</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-ui-automation-textpattern-overview">UI Automation Support for Textual Content</a>
-
+<a href="/windows/desktop/WinAuto/uiauto-ui-automation-textpattern-overview">UI Automation Support for Textual Content</a>

@@ -79,7 +79,7 @@ If the method succeeds, it returns S_OK. If it fails, possible return codes incl
 </td>
 <td width="60%">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nf-audioclient-iaudiorenderclient-getbuffer">GetBuffer</a> failed to retrieve a data buffer and *<i>ppData</i> points to <b>NULL</b>. For more information, see Remarks.
+<a href="/windows/desktop/api/audioclient/nf-audioclient-iaudiorenderclient-getbuffer">GetBuffer</a> failed to retrieve a data buffer and *<i>ppData</i> points to <b>NULL</b>. For more information, see Remarks.
 
 </td>
 </tr>
@@ -164,11 +164,11 @@ Parameter <i>ppData</i> is <b>NULL</b>.
 
 ## -remarks
 
-The caller can request a packet size that is less than or equal to the amount of available space in the buffer (except in the case of an exclusive-mode stream that uses event-driven buffering; for more information, see <a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nf-audioclient-iaudioclient-initialize">IAudioClient::Initialize</a>). The available space is simply the buffer size minus the amount of data in the buffer that is already queued up to be played. If the caller specifies a <i>NumFramesRequested</i> value that exceeds the available space in the buffer, the call fails and returns error code AUDCLNT_E_BUFFER_TOO_LARGE.
+The caller can request a packet size that is less than or equal to the amount of available space in the buffer (except in the case of an exclusive-mode stream that uses event-driven buffering; for more information, see <a href="/windows/desktop/api/audioclient/nf-audioclient-iaudioclient-initialize">IAudioClient::Initialize</a>). The available space is simply the buffer size minus the amount of data in the buffer that is already queued up to be played. If the caller specifies a <i>NumFramesRequested</i> value that exceeds the available space in the buffer, the call fails and returns error code AUDCLNT_E_BUFFER_TOO_LARGE.
 
-The client is responsible for writing a sufficient amount of data to the buffer to prevent glitches from occurring in the audio stream. For more information about buffering requirements, see <a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nf-audioclient-iaudioclient-initialize">IAudioClient::Initialize</a>.
+The client is responsible for writing a sufficient amount of data to the buffer to prevent glitches from occurring in the audio stream. For more information about buffering requirements, see <a href="/windows/desktop/api/audioclient/nf-audioclient-iaudioclient-initialize">IAudioClient::Initialize</a>.
 
-After obtaining a data packet by calling <b>GetBuffer</b>, the client fills the packet with rendering data and issues the packet to the audio engine by calling the <a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nf-audioclient-iaudiorenderclient-releasebuffer">IAudioRenderClient::ReleaseBuffer</a> method.
+After obtaining a data packet by calling <b>GetBuffer</b>, the client fills the packet with rendering data and issues the packet to the audio engine by calling the <a href="/windows/desktop/api/audioclient/nf-audioclient-iaudiorenderclient-releasebuffer">IAudioRenderClient::ReleaseBuffer</a> method.
 
 The client must call <b>ReleaseBuffer</b> after a <b>GetBuffer</b> call that successfully obtains a packet of any size other than 0. The client has the option of calling or not calling <b>ReleaseBuffer</b> to release a packet of size 0.
 
@@ -176,7 +176,7 @@ For nonzero packet sizes, the client must alternate calls to <b>GetBuffer</b> an
 
 To ensure the correct ordering of calls, a <b>GetBuffer</b> call and its corresponding <b>ReleaseBuffer</b> call must occur in the same thread.
 
-The size of an audio frame is specified by the <b>nBlockAlign</b> member of the <b>WAVEFORMATEX</b> structure that the client obtains by calling the <a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nf-audioclient-iaudioclient-getmixformat">IAudioClient::GetMixFormat</a> method.
+The size of an audio frame is specified by the <b>nBlockAlign</b> member of the <b>WAVEFORMATEX</b> structure that the client obtains by calling the <a href="/windows/desktop/api/audioclient/nf-audioclient-iaudioclient-getmixformat">IAudioClient::GetMixFormat</a> method.
 
 If the caller sets <i>NumFramesRequested</i> = 0, the method returns status code S_OK but does not write to the variable that the <i>ppData</i> parameter points to.
 
@@ -184,7 +184,7 @@ Clients should avoid excessive delays between the <b>GetBuffer</b> call that acq
 
 In Windows 7, <b>GetBuffer</b> can return the <b>AUDCLNT_E_BUFFER_ERROR</b> error code for an audio client that uses the endpoint buffer in the exclusive mode. This error indicates that the data buffer was not retrieved because a data packet was not available (*<i>ppData</i> received <b>NULL</b>).   
 
-If <b>GetBuffer</b> returns <b>AUDCLNT_E_BUFFER_ERROR</b>, the thread consuming the audio samples must wait for the next processing pass. The client might benefit from keeping a count of the failed <b>GetBuffer</b> calls. If <b>GetBuffer</b> returns this error repeatedly, the client can start a new processing loop after shutting down the current client by calling <a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nf-audioclient-iaudioclient-stop">IAudioClient::Stop</a>, <a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nf-audioclient-iaudioclient-reset">IAudioClient::Reset</a>, and releasing the audio client.
+If <b>GetBuffer</b> returns <b>AUDCLNT_E_BUFFER_ERROR</b>, the thread consuming the audio samples must wait for the next processing pass. The client might benefit from keeping a count of the failed <b>GetBuffer</b> calls. If <b>GetBuffer</b> returns this error repeatedly, the client can start a new processing loop after shutting down the current client by calling <a href="/windows/desktop/api/audioclient/nf-audioclient-iaudioclient-stop">IAudioClient::Stop</a>, <a href="/windows/desktop/api/audioclient/nf-audioclient-iaudioclient-reset">IAudioClient::Reset</a>, and releasing the audio client.
 
 
 #### Examples
@@ -193,31 +193,30 @@ For code examples that call the <b>GetBuffer</b> method, see the following topic
 
 <ul>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/CoreAudio/rendering-a-stream">Rendering a Stream</a>
+<a href="/windows/desktop/CoreAudio/rendering-a-stream">Rendering a Stream</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/CoreAudio/exclusive-mode-streams">Exclusive-Mode Streams</a>
+<a href="/windows/desktop/CoreAudio/exclusive-mode-streams">Exclusive-Mode Streams</a>
 </li>
 </ul>
 <div class="code"></div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nf-audioclient-iaudioclient-getbuffersize">IAudioClient::GetBufferSize</a>
+<a href="/windows/desktop/api/audioclient/nf-audioclient-iaudioclient-getbuffersize">IAudioClient::GetBufferSize</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nf-audioclient-iaudioclient-getcurrentpadding">IAudioClient::GetCurrentPadding</a>
+<a href="/windows/desktop/api/audioclient/nf-audioclient-iaudioclient-getcurrentpadding">IAudioClient::GetCurrentPadding</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nf-audioclient-iaudioclient-initialize">IAudioClient::Initialize</a>
+<a href="/windows/desktop/api/audioclient/nf-audioclient-iaudioclient-initialize">IAudioClient::Initialize</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nn-audioclient-iaudiorenderclient">IAudioRenderClient Interface</a>
+<a href="/windows/desktop/api/audioclient/nn-audioclient-iaudiorenderclient">IAudioRenderClient Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nf-audioclient-iaudiorenderclient-releasebuffer">IAudioRenderClient::ReleaseBuffer</a>
-
+<a href="/windows/desktop/api/audioclient/nf-audioclient-iaudiorenderclient-releasebuffer">IAudioRenderClient::ReleaseBuffer</a>

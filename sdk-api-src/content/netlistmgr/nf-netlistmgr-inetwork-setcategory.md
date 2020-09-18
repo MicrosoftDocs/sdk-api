@@ -56,7 +56,7 @@ The <b>SetCategory</b> method sets the category of a network. Changes made take 
 
 ### -param NewCategory [in]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/netlistmgr/ne-netlistmgr-nlm_network_category">NLM_NETWORK_CATEGORY</a> enumeration value that specifies the new category of the network.
+Pointer to a <a href="/windows/desktop/api/netlistmgr/ne-netlistmgr-nlm_network_category">NLM_NETWORK_CATEGORY</a> enumeration value that specifies the new category of the network.
 
 ## -returns
 
@@ -64,5 +64,4 @@ Returns S_OK if the method succeeds.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/netlistmgr/nn-netlistmgr-inetwork">INetwork</a>
-
+<a href="/windows/desktop/api/netlistmgr/nn-netlistmgr-inetwork">INetwork</a>

@@ -60,7 +60,7 @@ api_name:
 
 ## -description
 
-Retrieves information about a window class, including a handle to the small icon associated with the window class. The <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getclassinfoa">GetClassInfo</a> function does not retrieve a handle to the small icon.
+Retrieves information about a window class, including a handle to the small icon associated with the window class. The <a href="/windows/desktop/api/winuser/nf-winuser-getclassinfoa">GetClassInfo</a> function does not retrieve a handle to the small icon.
 
 ## -parameters
 
@@ -74,14 +74,14 @@ A handle to the instance of the application that created the class. To retrieve 
 
 Type: <b>LPCTSTR</b>
 
-The class name. The name must be that of a preregistered class or a class registered by a previous call to the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-registerclassa">RegisterClass</a> or <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-registerclassexa">RegisterClassEx</a> function. Alternatively, this parameter can be a class atom created by a previous call to <b>RegisterClass</b> or <b>RegisterClassEx</b>. The atom must be in the low-order word of 
+The class name. The name must be that of a preregistered class or a class registered by a previous call to the <a href="/windows/desktop/api/winuser/nf-winuser-registerclassa">RegisterClass</a> or <a href="/windows/desktop/api/winuser/nf-winuser-registerclassexa">RegisterClassEx</a> function. Alternatively, this parameter can be a class atom created by a previous call to <b>RegisterClass</b> or <b>RegisterClassEx</b>. The atom must be in the low-order word of 
 					<i>lpszClass</i>; the high-order word must be zero.
 
 ### -param lpwcx [out]
 
 Type: <b>LPWNDCLASSEX</b>
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-wndclassexa">WNDCLASSEX</a> structure that receives the information about the class.
+A pointer to a <a href="/windows/desktop/api/winuser/ns-winuser-wndclassexa">WNDCLASSEX</a> structure that receives the information about the class.
 
 ## -returns
 
@@ -89,12 +89,12 @@ Type: <b>BOOL</b>
 
 If the function finds a matching class and successfully copies the data, the return value is nonzero.
 
-If the function does not find a matching class and successfully copy the data, the return value is zero. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+If the function does not find a matching class and successfully copy the data, the return value is zero. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
-Class atoms are created using the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-registerclassa">RegisterClass</a> or <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-registerclassexa">RegisterClassEx</a> function, not the 
-				<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-globaladdatoma">GlobalAddAtom</a> function. 
+Class atoms are created using the <a href="/windows/desktop/api/winuser/nf-winuser-registerclassa">RegisterClass</a> or <a href="/windows/desktop/api/winuser/nf-winuser-registerclassexa">RegisterClassEx</a> function, not the 
+				<a href="/windows/desktop/api/winbase/nf-winbase-globaladdatoma">GlobalAddAtom</a> function. 
 
 
 
@@ -109,11 +109,11 @@ Class atoms are created using the <a href="https://docs.microsoft.com/windows/de
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getclasslonga">GetClassLong</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-getclasslonga">GetClassLong</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getclassname">GetClassName</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-getclassname">GetClassName</a>
 
 
 
@@ -121,13 +121,12 @@ Class atoms are created using the <a href="https://docs.microsoft.com/windows/de
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-registerclassa">RegisterClass</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-registerclassa">RegisterClass</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-registerclassexa">RegisterClassEx</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-registerclassexa">RegisterClassEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/winmsg/window-classes">Window Classes</a>
-
+<a href="/windows/desktop/winmsg/window-classes">Window Classes</a>

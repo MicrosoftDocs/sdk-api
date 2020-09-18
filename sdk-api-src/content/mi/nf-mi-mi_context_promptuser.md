@@ -64,9 +64,9 @@ A null-terminated string that represents the prompt message for the client.
 
 ### -param promptType
 
-Prompt type as defined by <a href="https://docs.microsoft.com/windows/desktop/api/mi/ne-mi-mi_prompttype">MI_PromptType</a>. The 
+Prompt type as defined by <a href="/windows/desktop/api/mi/ne-mi-mi_prompttype">MI_PromptType</a>. The 
       provider should try to use the locale that the client has specified (retrieved through the 
-      <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_context_getlocale">MI_Context_GetLocale</a> function).
+      <a href="/previous-versions/windows/desktop/api/mi/nf-mi-mi_context_getlocale">MI_Context_GetLocale</a> function).
 
 ### -param flag [out]
 
@@ -76,7 +76,7 @@ Return value from the client. <b>MI_TRUE</b> indicates that the process should c
 
 ## -returns
 
-A value of the <a href="https://docs.microsoft.com/windows/desktop/api/mi/ne-mi-mi_result">MI_Result</a> enumeration that specifies the 
+A value of the <a href="/windows/desktop/api/mi/ne-mi-mi_result">MI_Result</a> enumeration that specifies the 
       function return code. This can be one of the following codes.
 
 ## -remarks
@@ -87,21 +87,20 @@ If the client has an auto-result specified, then the message will be reported, b
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_context">MI_Context</a>
+<a href="/windows/desktop/api/mi/ns-mi-mi_context">MI_Context</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_context_getlocale">MI_Context_GetLocale</a>
+<a href="/previous-versions/windows/desktop/api/mi/nf-mi-mi_context_getlocale">MI_Context_GetLocale</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_context_shouldcontinue">MI_Context_ShouldContinue</a>
+<a href="/previous-versions/windows/desktop/api/mi/nf-mi-mi_context_shouldcontinue">MI_Context_ShouldContinue</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_context_shouldprocess">MI_Context_ShouldProcess</a>
+<a href="/previous-versions/windows/desktop/api/mi/nf-mi-mi_context_shouldprocess">MI_Context_ShouldProcess</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mi/ne-mi-mi_prompttype">MI_PromptType</a>
-
+<a href="/windows/desktop/api/mi/ne-mi-mi_prompttype">MI_PromptType</a>

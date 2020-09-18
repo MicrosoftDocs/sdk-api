@@ -56,19 +56,19 @@ Creates a new composition.
 
 ### -param ecWrite [in]
 
-Contains an edit cookie that identifies the edit context. This is obtained from <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfeditsession-doeditsession">ITfEditSession::DoEditSession</a>.
+Contains an edit cookie that identifies the edit context. This is obtained from <a href="/windows/desktop/api/msctf/nf-msctf-itfeditsession-doeditsession">ITfEditSession::DoEditSession</a>.
 
 ### -param pCompositionRange [in]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfrange">ITfRange</a> object that specifies the text that the composition initially covers.
+Pointer to an <a href="/windows/desktop/api/msctf/nn-msctf-itfrange">ITfRange</a> object that specifies the text that the composition initially covers.
 
 ### -param pSink [in]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfcompositionsink">ITfCompositionSink</a> object that receives composition event notifications. This parameter is optional and can be <b>NULL</b>. If supplied, the object is released when the composition is terminated.
+Pointer to an <a href="/windows/desktop/api/msctf/nn-msctf-itfcompositionsink">ITfCompositionSink</a> object that receives composition event notifications. This parameter is optional and can be <b>NULL</b>. If supplied, the object is released when the composition is terminated.
 
 ### -param ppComposition [out]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfcomposition">ITfComposition</a> interface pointer that receives the new composition object. This parameter receives <b>NULL</b> if the context owner rejects the composition.
+Pointer to an <a href="/windows/desktop/api/msctf/nn-msctf-itfcomposition">ITfComposition</a> interface pointer that receives the new composition object. This parameter receives <b>NULL</b> if the context owner rejects the composition.
 
 ## -returns
 
@@ -160,11 +160,10 @@ The edit context identified by <i>ecWrite</i> does not have a read/write lock.
 
 ## -remarks
 
-If the context owner has installed an context owner composition advise sink, the <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcontextownercompositionsink-onstartcomposition">ITfContextOwnerCompositionSink::OnStartComposition</a> method is called. If the advise sink rejects the new composition, this method returns S_OK but <i>ppComposition</i> is set to <b>NULL</b>.
+If the context owner has installed an context owner composition advise sink, the <a href="/windows/desktop/api/msctf/nf-msctf-itfcontextownercompositionsink-onstartcomposition">ITfContextOwnerCompositionSink::OnStartComposition</a> method is called. If the advise sink rejects the new composition, this method returns S_OK but <i>ppComposition</i> is set to <b>NULL</b>.
 
 Any text covered by <i>pCompositionRange</i> receives the GUID_PROP_COMPOSING property.
 
 ## -see-also
 
 [IEnumITfCompositionView interface](nn-msctf-ienumitfcompositionview.md), [ITfContextComposition interface](nn-msctf-itfcontextcomposition.md), [ITfRange interface](nn-msctf-itfrange.md), [ITfCompositionSink interface](nn-msctf-itfcompositionsink.md), [ITfContextOwnerCompositionSink::OnStartComposition](nf-msctf-itfcontextownercompositionsink-onstartcomposition.md), [ITfEditSession::DoEditSession](nf-msctf-itfeditsession-doeditsession.md)
-

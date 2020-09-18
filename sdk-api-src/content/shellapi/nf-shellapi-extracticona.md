@@ -58,7 +58,7 @@ Gets a handle to an icon from the specified executable file, DLL, or icon file.
 
             
 
-To retrieve an array of handles to large or small icons, use the <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/nf-shellapi-extracticonexa">ExtractIconEx</a> function.
+To retrieve an array of handles to large or small icons, use the <a href="/windows/desktop/api/shellapi/nf-shellapi-extracticonexa">ExtractIconEx</a> function.
 
 ## -parameters
 
@@ -84,7 +84,7 @@ Specifies the zero-based index of the icon to retrieve. For example, if this val
 
 If this value is -1, the function returns the total number of icons in the specified file. If the file is an executable file or DLL, the return value is the number of RT_GROUP_ICON resources. If the file is an .ICO file, the return value is 1.
 
-If this value is a negative number not equal to –1, the function returns a handle to the icon in the specified file whose resource identifier is equal to the absolute value of <i>nIconIndex</i>. For example, you should use –3 to extract the icon whose resource identifier is 3. To extract the icon whose resource identifier is 1, use the <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/nf-shellapi-extracticonexa">ExtractIconEx</a> function.
+If this value is a negative number not equal to –1, the function returns a handle to the icon in the specified file whose resource identifier is equal to the absolute value of <i>nIconIndex</i>. For example, you should use –3 to extract the icon whose resource identifier is 3. To extract the icon whose resource identifier is 1, use the <a href="/windows/desktop/api/shellapi/nf-shellapi-extracticonexa">ExtractIconEx</a> function.
 
 ## -returns
 
@@ -94,7 +94,7 @@ The return value is a handle to an icon. If the file specified was not an execut
 
 ## -remarks
 
-When it is no longer needed, you must destroy the icon handle returned by <b>ExtractIcon</b> by calling the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-destroyicon">DestroyIcon</a> function.
+When it is no longer needed, you must destroy the icon handle returned by <b>ExtractIcon</b> by calling the <a href="/windows/desktop/api/winuser/nf-winuser-destroyicon">DestroyIcon</a> function.
 
 
 
@@ -105,13 +105,12 @@ When it is no longer needed, you must destroy the icon handle returned by <b>Ext
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shellapi/nf-shellapi-extractassociatedicona">ExtractAssociatedIcon</a>
+<a href="/windows/desktop/api/shellapi/nf-shellapi-extractassociatedicona">ExtractAssociatedIcon</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shellapi/nf-shellapi-extractassociatediconexa">ExtractAssociatedIconEx</a>
+<a href="/windows/desktop/api/shellapi/nf-shellapi-extractassociatediconexa">ExtractAssociatedIconEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shellapi/nf-shellapi-extracticonexa">ExtractIconEx</a>
-
+<a href="/windows/desktop/api/shellapi/nf-shellapi-extracticonexa">ExtractIconEx</a>

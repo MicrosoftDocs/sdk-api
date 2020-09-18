@@ -55,7 +55,7 @@ api_name:
 ## -description
 
 Contains the stack frame information. This structure is used with the 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-symsetcontext">SymSetContext</a> function.
+<a href="/windows/desktop/api/dbghelp/nf-dbghelp-symsetcontext">SymSetContext</a> function.
 
 ## -struct-fields
 
@@ -109,7 +109,7 @@ The stack pointer.
 ### -field FuncTableEntry
 
 <b>x86:  </b>An 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-fpo_data">FPO_DATA</a> structure. If there is no function table entry, this member is <b>NULL</b>.
+<a href="/windows/desktop/api/winnt/ns-winnt-fpo_data">FPO_DATA</a> structure. If there is no function table entry, this member is <b>NULL</b>.
 
 ### -field Params
 
@@ -129,5 +129,4 @@ This member is reserved for system use.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-symsetcontext">SymSetContext</a>
-
+<a href="/windows/desktop/api/dbghelp/nf-dbghelp-symsetcontext">SymSetContext</a>

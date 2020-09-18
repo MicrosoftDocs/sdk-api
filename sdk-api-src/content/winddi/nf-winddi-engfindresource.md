@@ -59,7 +59,7 @@ The <b>EngFindResource</b> function determines the location of a resource in a m
 
 ### -param h [in]
 
-Handle to the module that contains the resource. This handle is obtained from <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engloadmodule">EngLoadModule</a>.
+Handle to the module that contains the resource. This handle is obtained from <a href="/windows/desktop/api/winddi/nf-winddi-engloadmodule">EngLoadModule</a>.
 
 ### -param iName [in]
 
@@ -83,9 +83,8 @@ The size of a successfully located resource is returned in <i>pulSize</i>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engloadmodule">EngLoadModule</a>
+<a href="/windows/desktop/api/winddi/nf-winddi-engloadmodule">EngLoadModule</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engmapmodule">EngMapModule</a>
-
+<a href="/windows/desktop/api/winddi/nf-winddi-engmapmodule">EngMapModule</a>

@@ -54,19 +54,19 @@ Reconstructs a set of files from a backup store that contains the fully optimize
      (reparse points) and the Data Deduplication store.
 
 Applications that call the 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/ddpbackup/nf-ddpbackup-idedupbackupsupport-restorefiles">RestoreFiles</a> method must also implement 
-    the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/ddpbackup/nn-ddpbackup-idedupreadfilecallback">IDedupReadFileCallback</a> interface. Before 
+    <a href="/previous-versions/windows/desktop/api/ddpbackup/nf-ddpbackup-idedupbackupsupport-restorefiles">RestoreFiles</a> method must also implement 
+    the <a href="/previous-versions/windows/desktop/api/ddpbackup/nn-ddpbackup-idedupreadfilecallback">IDedupReadFileCallback</a> interface. Before 
     calling the <b>RestoreFiles</b> method, the 
     application must have previously restored the Data Deduplication reparse points for the files to the location 
     specified by the <i>FileFullPaths</i> parameter. Metadata located in the reparse points will be 
     utilized by Data Deduplication to further drive the restore process.
 
 After calling this method, applications can expect to receive two calls to 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/ddpbackup/nf-ddpbackup-idedupreadfilecallback-ordercontainersrestore">IDedupReadFileCallback::OrderContainersRestore</a> 
+    <a href="/previous-versions/windows/desktop/api/ddpbackup/nf-ddpbackup-idedupreadfilecallback-ordercontainersrestore">IDedupReadFileCallback::OrderContainersRestore</a> 
     (one for stream map containers and one for data containers) and two or more calls to 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/ddpbackup/nf-ddpbackup-idedupreadfilecallback-readbackupfile">IDedupReadFileCallback::ReadBackupFile</a>. 
+    <a href="/previous-versions/windows/desktop/api/ddpbackup/nf-ddpbackup-idedupreadfilecallback-readbackupfile">IDedupReadFileCallback::ReadBackupFile</a>. 
     The application will also receive one call to 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/ddpbackup/nf-ddpbackup-idedupreadfilecallback-previewcontainerread">IDedupReadFileCallback::PreviewContainerRead</a> 
+    <a href="/previous-versions/windows/desktop/api/ddpbackup/nf-ddpbackup-idedupreadfilecallback-previewcontainerread">IDedupReadFileCallback::PreviewContainerRead</a> 
     before each call to 
     <b>ReadBackupFile</b> that is directed 
     to a container file.
@@ -85,7 +85,7 @@ For each file, this parameter contains the full path from the root directory of 
 
 ### -param Store [in]
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/ddpbackup/nn-ddpbackup-idedupreadfilecallback">IDedupReadFileCallback</a> interface pointer 
+<a href="/previous-versions/windows/desktop/api/ddpbackup/nn-ddpbackup-idedupreadfilecallback">IDedupReadFileCallback</a> interface pointer 
       for the backup store. This parameter is required and cannot be <b>NULL</b>.
 
 ### -param Flags [in]
@@ -176,11 +176,11 @@ The specified volume type is not supported. Deduplication is supported on fixed,
 
 This method can return standard <b>HRESULT</b> values, such as 
        <b>S_OK</b>. It can also return converted 
-       <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error codes</a> using the 
-       <a href="https://docs.microsoft.com/windows/desktop/api/winerror/nf-winerror-hresult_from_win32">HRESULT_FROM_WIN32</a> macro. You can test for success 
+       <a href="/windows/desktop/Debug/system-error-codes">system error codes</a> using the 
+       <a href="/windows/desktop/api/winerror/nf-winerror-hresult_from_win32">HRESULT_FROM_WIN32</a> macro. You can test for success 
        or failure <b>HRESULT</b> values by using the 
-       <a href="https://docs.microsoft.com/windows/desktop/api/winerror/nf-winerror-succeeded">SUCCEEDED</a> and 
-       <a href="https://docs.microsoft.com/windows/desktop/api/winerror/nf-winerror-failed">FAILED</a> macros defined in Winerror.h. Possible 
+       <a href="/windows/desktop/api/winerror/nf-winerror-succeeded">SUCCEEDED</a> and 
+       <a href="/windows/desktop/api/winerror/nf-winerror-failed">FAILED</a> macros defined in Winerror.h. Possible 
        return values include the following.
 
 If no file was restored successfully, the result is the first file error encountered. This will be one of the 
@@ -190,7 +190,7 @@ If no file was restored successfully, the result is the first file error encount
 
 The <i>Store</i> parameter is required because the restore engine (implemented by Data 
     Deduplication) can read data from the backup media only by calling the 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/ddpbackup/nf-ddpbackup-idedupreadfilecallback-readbackupfile">IDedupReadFileCallback::ReadBackupFile</a> 
+    <a href="/previous-versions/windows/desktop/api/ddpbackup/nf-ddpbackup-idedupreadfilecallback-readbackupfile">IDedupReadFileCallback::ReadBackupFile</a> 
     method.
 
 ## -see-also
@@ -199,9 +199,8 @@ The <i>Store</i> parameter is required because the restore engine (implemented b
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/ddpbackup/nn-ddpbackup-idedupbackupsupport">IDedupBackupSupport</a>
+<a href="/previous-versions/windows/desktop/api/ddpbackup/nn-ddpbackup-idedupbackupsupport">IDedupBackupSupport</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/ddpbackup/nn-ddpbackup-idedupreadfilecallback">IDedupReadFileCallback</a>
-
+<a href="/previous-versions/windows/desktop/api/ddpbackup/nn-ddpbackup-idedupreadfilecallback">IDedupReadFileCallback</a>

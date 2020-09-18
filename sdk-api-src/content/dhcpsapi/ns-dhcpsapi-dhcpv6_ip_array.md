@@ -64,9 +64,8 @@ The number of elements in <b>Elements</b>.
 
 ### -field Elements
 
-An array of <a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_ipv6_address">DHCP_IPV6_ADDRESS</a> structures.
+An array of <a href="/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_ipv6_address">DHCP_IPV6_ADDRESS</a> structures.
 
 ### -field Elements.size_is
 
 ### -field Elements.size_is.NumElements
-

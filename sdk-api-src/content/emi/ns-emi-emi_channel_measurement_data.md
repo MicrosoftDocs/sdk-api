@@ -56,7 +56,7 @@ The <b>EMI_MEASUREMENT_DATA</b> structure provides data about the current energy
 
 ### -field AbsoluteEnergy
 
-The total accumulated energy in the units specified by the [EMI_METADATA](/windows/win32/api/emi/ns-emi-emi_metadata_v1) struct returned by <a href="https://docs.microsoft.com/windows/desktop/api/emi/ni-emi-ioctl_emi_get_metadata">IOCTL_EMI_GET_METADATA</a>. In <b>EMI_VERSION_V1</b>, the only supported unit is picowatt-hours.
+The total accumulated energy in the units specified by the [EMI_METADATA](./ns-emi-emi_metadata_v1.md) struct returned by <a href="/windows/desktop/api/emi/ni-emi-ioctl_emi_get_metadata">IOCTL_EMI_GET_METADATA</a>. In <b>EMI_VERSION_V1</b>, the only supported unit is picowatt-hours.
 
 ### -field AbsoluteTime
 
@@ -64,13 +64,12 @@ The time at which the energy measurement was taken, in 100 ns intervals.
 
 ## -remarks
 
-This structure is returned through a successful completion of an <a href="https://docs.microsoft.com/windows/desktop/api/emi/ni-emi-ioctl_emi_get_measurement">IOCTL_EMI_GET_MEASUREMENT</a> IOCTL request.
+This structure is returned through a successful completion of an <a href="/windows/desktop/api/emi/ni-emi-ioctl_emi_get_measurement">IOCTL_EMI_GET_MEASUREMENT</a> IOCTL request.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/powermeter/energy-meter-interface">Energy Metering Interface</a>
+<a href="/windows-hardware/drivers/powermeter/energy-meter-interface">Energy Metering Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/emi/ni-emi-ioctl_emi_get_measurement">IOCTL_EMI_GET_MEASUREMENT</a>
-
+<a href="/windows/desktop/api/emi/ni-emi-ioctl_emi_get_measurement">IOCTL_EMI_GET_MEASUREMENT</a>

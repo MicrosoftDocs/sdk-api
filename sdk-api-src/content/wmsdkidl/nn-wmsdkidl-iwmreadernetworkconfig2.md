@@ -56,7 +56,7 @@ An <b>IWMReaderNetworkConfig2</b> interface exists for every reader object. You 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMReaderNetworkConfig2</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreadernetworkconfig">IWMReaderNetworkConfig</a>. <b>IWMReaderNetworkConfig2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMReaderNetworkConfig2</b> interface inherits from <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreadernetworkconfig">IWMReaderNetworkConfig</a>. <b>IWMReaderNetworkConfig2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>IWMReaderNetworkConfig2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreadernetworkconfig2-getacceleratedstreamingduration">GetAcceleratedStreamingDuration</a>
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreadernetworkconfig2-getacceleratedstreamingduration">GetAcceleratedStreamingDuration</a>
 </td>
 <td align="left" width="63%">
 Retrieves the duration of accelerated streaming.
@@ -80,7 +80,7 @@ Retrieves the duration of accelerated streaming.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreadernetworkconfig2-getautoreconnectlimit">GetAutoReconnectLimit</a>
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreadernetworkconfig2-getautoreconnectlimit">GetAutoReconnectLimit</a>
 </td>
 <td align="left" width="63%">
 Retrieves the number of allowable automatic reconnections.
@@ -89,7 +89,7 @@ Retrieves the number of allowable automatic reconnections.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreadernetworkconfig2-getenablecontentcaching">GetEnableContentCaching</a>
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreadernetworkconfig2-getenablecontentcaching">GetEnableContentCaching</a>
 </td>
 <td align="left" width="63%">
 Queries whether content caching is enabled.
@@ -98,7 +98,7 @@ Queries whether content caching is enabled.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreadernetworkconfig2-getenablefastcache">GetEnableFastCache</a>
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreadernetworkconfig2-getenablefastcache">GetEnableFastCache</a>
 </td>
 <td align="left" width="63%">
 Queries whether Fast Cache streaming is enabled.
@@ -107,7 +107,7 @@ Queries whether Fast Cache streaming is enabled.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreadernetworkconfig2-getenableresends">GetEnableResends</a>
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreadernetworkconfig2-getenableresends">GetEnableResends</a>
 </td>
 <td align="left" width="63%">
 Queries whether resending is enabled.
@@ -116,7 +116,7 @@ Queries whether resending is enabled.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreadernetworkconfig2-getenablethinning">GetEnableThinning</a>
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreadernetworkconfig2-getenablethinning">GetEnableThinning</a>
 </td>
 <td align="left" width="63%">
 Queries whether thinning is enabled.
@@ -125,7 +125,7 @@ Queries whether thinning is enabled.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreadernetworkconfig2-getmaxnetpacketsize">GetMaxNetPacketSize</a>
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreadernetworkconfig2-getmaxnetpacketsize">GetMaxNetPacketSize</a>
 </td>
 <td align="left" width="63%">
 Retrieves the maximum size of packets being delivered over a network.
@@ -134,7 +134,7 @@ Retrieves the maximum size of packets being delivered over a network.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreadernetworkconfig2-setacceleratedstreamingduration">SetAcceleratedStreamingDuration</a>
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreadernetworkconfig2-setacceleratedstreamingduration">SetAcceleratedStreamingDuration</a>
 </td>
 <td align="left" width="63%">
 Sets the duration of accelerated streaming.
@@ -143,7 +143,7 @@ Sets the duration of accelerated streaming.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreadernetworkconfig2-setautoreconnectlimit">SetAutoReconnectLimit</a>
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreadernetworkconfig2-setautoreconnectlimit">SetAutoReconnectLimit</a>
 </td>
 <td align="left" width="63%">
 Sets the automatic reconnection limit.
@@ -152,7 +152,7 @@ Sets the automatic reconnection limit.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreadernetworkconfig2-setenablecontentcaching">SetEnableContentCaching</a>
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreadernetworkconfig2-setenablecontentcaching">SetEnableContentCaching</a>
 </td>
 <td align="left" width="63%">
 Enables or disables content caching.
@@ -161,7 +161,7 @@ Enables or disables content caching.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreadernetworkconfig2-setenablefastcache">SetEnableFastCache</a>
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreadernetworkconfig2-setenablefastcache">SetEnableFastCache</a>
 </td>
 <td align="left" width="63%">
 Enables or disables Fast Cache streaming.
@@ -170,7 +170,7 @@ Enables or disables Fast Cache streaming.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreadernetworkconfig2-setenableresends">SetEnableResends</a>
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreadernetworkconfig2-setenableresends">SetEnableResends</a>
 </td>
 <td align="left" width="63%">
 Enables or disables resending.
@@ -179,7 +179,7 @@ Enables or disables resending.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreadernetworkconfig2-setenablethinning">SetEnableThinning</a>
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreadernetworkconfig2-setenablethinning">SetEnableThinning</a>
 </td>
 <td align="left" width="63%">
 Enables or disables thinning.
@@ -188,13 +188,12 @@ Enables or disables thinning.
 </tr>
 </table> 
 
-For information about which interfaces can be obtained by using the QueryInterface method of this interface, see <a href="https://docs.microsoft.com/windows/desktop/wmformat/reader-object">Reader Object</a>.
+For information about which interfaces can be obtained by using the QueryInterface method of this interface, see <a href="/windows/desktop/wmformat/reader-object">Reader Object</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreadernetworkconfig">IWMReaderNetworkConfig Interface</a>
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreadernetworkconfig">IWMReaderNetworkConfig Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/wmformat/interfaces">Interfaces</a>
-
+<a href="/windows/desktop/wmformat/interfaces">Interfaces</a>

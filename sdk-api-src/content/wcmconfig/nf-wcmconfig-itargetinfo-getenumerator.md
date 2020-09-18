@@ -56,7 +56,7 @@ Gets the enumerator used to access the collection of offline properties.
 
 ### -param Enumerator [out]
 
-A pointer to an  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wcmconfig/nn-wcmconfig-iitemenumerator">IItemEnumerator</a> object that provides access to  the collection of offline properties.
+A pointer to an  <a href="/previous-versions/windows/desktop/api/wcmconfig/nn-wcmconfig-iitemenumerator">IItemEnumerator</a> object that provides access to  the collection of offline properties.
 
 ## -returns
 
@@ -69,5 +69,4 @@ This method returns an HRESULT value. <b>S_OK</b> indicates success.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wcmconfig/nn-wcmconfig-itargetinfo">ITargetInfo</a>
-
+<a href="/previous-versions/windows/desktop/api/wcmconfig/nn-wcmconfig-itargetinfo">ITargetInfo</a>

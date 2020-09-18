@@ -57,12 +57,12 @@ The
 
 ### -param TraceHandle [in]
 
-Handle to the event tracing session that records the event instance. The provider obtains the handle when it calls the <a href="https://docs.microsoft.com/windows/desktop/ETW/gettraceloggerhandle">GetTraceLoggerHandle</a> function in its <a href="https://docs.microsoft.com/windows/desktop/ETW/controlcallback">ControlCallback</a> implementation.
+Handle to the event tracing session that records the event instance. The provider obtains the handle when it calls the <a href="/windows/desktop/ETW/gettraceloggerhandle">GetTraceLoggerHandle</a> function in its <a href="/windows/desktop/ETW/controlcallback">ControlCallback</a> implementation.
 
 ### -param EventTrace [in]
 
 Pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/ETW/event-instance-header">EVENT_INSTANCE_HEADER</a> structure. Event-specific data is optionally appended to the structure. The largest event you can log is 64K. You must specify values for the following members of the 
+<a href="/windows/desktop/ETW/event-instance-header">EVENT_INSTANCE_HEADER</a> structure. Event-specific data is optionally appended to the structure. The largest event you can log is 64K. You must specify values for the following members of the 
 <b>EVENT_INSTANCE_HEADER</b> structure. 
 
 
@@ -83,19 +83,19 @@ To trace hierarchical relationships between related events, also set the <b>Pare
 ### -param InstInfo [in]
 
 Pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/ETW/event-instance-info">EVENT_INSTANCE_INFO</a> structure, which contains the registration handle for this event trace class and the instance identifier. Use the  <a href="https://docs.microsoft.com/windows/desktop/ETW/createtraceinstanceid">CreateTraceInstanceId</a> function to initialize the structure.
+<a href="/windows/desktop/ETW/event-instance-info">EVENT_INSTANCE_INFO</a> structure, which contains the registration handle for this event trace class and the instance identifier. Use the  <a href="/windows/desktop/ETW/createtraceinstanceid">CreateTraceInstanceId</a> function to initialize the structure.
 
 ### -param ParentInstInfo [in]
 
 Pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/ETW/event-instance-info">EVENT_INSTANCE_INFO</a> structure, which contains the registration handle for the parent event trace class and its instance identifier. Use the  <a href="https://docs.microsoft.com/windows/desktop/ETW/createtraceinstanceid">CreateTraceInstanceId</a> function to initialize the structure. Set to <b>NULL</b> if you are not tracing a hierarchical relationship.
+<a href="/windows/desktop/ETW/event-instance-info">EVENT_INSTANCE_INFO</a> structure, which contains the registration handle for the parent event trace class and its instance identifier. Use the  <a href="/windows/desktop/ETW/createtraceinstanceid">CreateTraceInstanceId</a> function to initialize the structure. Set to <b>NULL</b> if you are not tracing a hierarchical relationship.
 
 ## -returns
 
 If the function succeeds, the return value is ERROR_SUCCESS.
 
 If the function fails, the return value is one of the 
-<a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error codes</a>. The following table includes some common errors and their causes.
+<a href="/windows/desktop/Debug/system-error-codes">system error codes</a>. The following table includes some common errors and their causes.
 
 <table>
 <tr>
@@ -110,7 +110,7 @@ If the function fails, the return value is one of the
 </td>
 <td width="60%">
 The <b>Flags</b> member of the 
-<a href="https://docs.microsoft.com/windows/desktop/ETW/event-instance-header">EVENT_INSTANCE_HEADER</a> does not contain <b>WNODE_FLAG_TRACED_GUID</b>.
+<a href="/windows/desktop/ETW/event-instance-header">EVENT_INSTANCE_HEADER</a> does not contain <b>WNODE_FLAG_TRACED_GUID</b>.
 
 </td>
 </tr>
@@ -140,7 +140,7 @@ One of the following is true:
 <li>The members of <i>pInstInfo</i> are <b>NULL</b>.</li>
 <li><i>SessionHandle</i> is <b>NULL</b>.</li>
 <li>The <b>Size</b> member of the 
-<a href="https://docs.microsoft.com/windows/desktop/ETW/event-instance-header">EVENT_INSTANCE_HEADER</a> is incorrect.</li>
+<a href="/windows/desktop/ETW/event-instance-header">EVENT_INSTANCE_HEADER</a> is incorrect.</li>
 </ul>
 </td>
 </tr>
@@ -162,7 +162,7 @@ One of the following is true:
 </dl>
 </td>
 <td width="60%">
-The session ran out of free buffers to write to. This can occur during high event rates because the disk subsystem is overloaded or the number of buffers is too small. Rather than blocking until more buffers become available, <a href="https://docs.microsoft.com/windows/desktop/ETW/traceevent">TraceEvent</a> discards the event.
+The session ran out of free buffers to write to. This can occur during high event rates because the disk subsystem is overloaded or the number of buffers is too small. Rather than blocking until more buffers become available, <a href="/windows/desktop/ETW/traceevent">TraceEvent</a> discards the event.
 
 <b>Windows 2000 and Windows XP:  </b>Not supported.
 
@@ -187,7 +187,7 @@ The event is discarded because, although the buffer pool has not reached its max
 </td>
 <td width="60%">
 Data from a single event cannot span multiple buffers. A trace event is limited to the size of the event tracing session's buffer minus the size of the  
-<a href="https://docs.microsoft.com/windows/desktop/ETW/event-instance-header">EVENT_INSTANCE_HEADER</a> structure. 
+<a href="/windows/desktop/ETW/event-instance-header">EVENT_INSTANCE_HEADER</a> structure. 
 
 </td>
 </tr>
@@ -201,19 +201,19 @@ Before the provider can call this function, the  provider
 
 <ul>
 <li>Must call the 
-<a href="https://docs.microsoft.com/windows/desktop/ETW/registertraceguids">RegisterTraceGuids</a> function to register itself and the event trace class.</li>
-<li>Must call the <a href="https://docs.microsoft.com/windows/desktop/ETW/createtraceinstanceid">CreateTraceInstanceId</a> function to  create an instance identifier for the registered event trace class.</li>
+<a href="/windows/desktop/ETW/registertraceguids">RegisterTraceGuids</a> function to register itself and the event trace class.</li>
+<li>Must call the <a href="/windows/desktop/ETW/createtraceinstanceid">CreateTraceInstanceId</a> function to  create an instance identifier for the registered event trace class.</li>
 <li>Must be enabled. A controller calls the 
-<a href="https://docs.microsoft.com/windows/desktop/ETW/enabletrace">EnableTrace</a> function to enable a provider.</li>
+<a href="/windows/desktop/ETW/enabletrace">EnableTrace</a> function to enable a provider.</li>
 </ul>
 The event is either written to a log file, sent to event trace consumers in real time, or both. The <b>LogFileMode</b> member of the 
-<a href="https://docs.microsoft.com/windows/desktop/ETW/event-trace-properties">EVENT_TRACE_PROPERTIES</a> structure passed to the 
-<a href="https://docs.microsoft.com/windows/desktop/ETW/starttrace">StartTrace</a> defines where the event is sent.
+<a href="/windows/desktop/ETW/event-trace-properties">EVENT_TRACE_PROPERTIES</a> structure passed to the 
+<a href="/windows/desktop/ETW/starttrace">StartTrace</a> defines where the event is sent.
 
 The trace events are written in the order in which they occur. 
 
 To trace unrelated events, use the 
-<a href="https://docs.microsoft.com/windows/desktop/ETW/traceevent">TraceEvent</a> function.
+<a href="/windows/desktop/ETW/traceevent">TraceEvent</a> function.
 
 <b>Windows XP:  </b>Does not work correctly.
 
@@ -221,29 +221,28 @@ To trace unrelated events, use the
 #### Examples
 
 For an example of generating related sets of events using 
-<a href="https://docs.microsoft.com/windows/desktop/ETW/createtraceinstanceid">CreateTraceInstanceId</a> and 
+<a href="/windows/desktop/ETW/createtraceinstanceid">CreateTraceInstanceId</a> and 
 <b>TraceEventInstance</b>, see 
-<a href="https://docs.microsoft.com/windows/desktop/ETW/tracing-event-instances">Tracing Event Instances</a>.
+<a href="/windows/desktop/ETW/tracing-event-instances">Tracing Event Instances</a>.
 
 <div class="code"></div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/ETW/createtraceinstanceid">CreateTraceInstanceId</a>
+<a href="/windows/desktop/ETW/createtraceinstanceid">CreateTraceInstanceId</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/ETW/event-instance-header">EVENT_INSTANCE_HEADER</a>
+<a href="/windows/desktop/ETW/event-instance-header">EVENT_INSTANCE_HEADER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/ETW/event-instance-info">EVENT_INSTANCE_INFO</a>
+<a href="/windows/desktop/ETW/event-instance-info">EVENT_INSTANCE_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/ETW/registertraceguids">RegisterTraceGuids</a>
+<a href="/windows/desktop/ETW/registertraceguids">RegisterTraceGuids</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/ETW/traceevent">TraceEvent</a>
-
+<a href="/windows/desktop/ETW/traceevent">TraceEvent</a>

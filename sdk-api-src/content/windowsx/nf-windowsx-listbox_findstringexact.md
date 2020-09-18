@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Finds the first list box string that exactly matches the specified string, except that the search is not case sensitive. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/lb-findstringexact">LB_FINDSTRINGEXACT</a> message explicitly.
+Finds the first list box string that exactly matches the specified string, except that the search is not case sensitive. You can use this macro or send the <a href="/windows/desktop/Controls/lb-findstringexact">LB_FINDSTRINGEXACT</a> message explicitly.
 
 ## -parameters
 
 ### -param hwndCtl
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the control.
 
@@ -68,15 +68,14 @@ The zero-based index of the item before the first item to be searched. When the 
 
 ### -param lpszFind
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPCTSTR</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">LPCTSTR</a></b>
 
 The string to find.
 
 ## -remarks
 
-For more information, see <a href="https://docs.microsoft.com/windows/desktop/Controls/lb-findstringexact">LB_FINDSTRINGEXACT</a>.
+For more information, see <a href="/windows/desktop/Controls/lb-findstringexact">LB_FINDSTRINGEXACT</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/windowsx/nf-windowsx-listbox_findstring">ListBox_FindString</a>
-
+<a href="/windows/desktop/api/windowsx/nf-windowsx-listbox_findstring">ListBox_FindString</a>

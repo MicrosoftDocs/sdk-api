@@ -56,13 +56,13 @@ Gets the specified prerequisite as defined in the package manifest.
 
 ### -param name [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPCWSTR</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">LPCWSTR</a></b>
 
 The name of the prerequisite, either "OSMinVersion" or "OSMaxVersionTested".
 
 ### -param value [out, retval]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT64</a>*</b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT64</a>*</b>
 
 The specified prerequisite. In the manifest the dot-trio representation is Major.Minor.AppPlatform. This is converted to the 64-bit value as the follows:
 The highest order word contains the Major version. The next word contains the Minor version.	The next word contains the optional AppPlatform version, if specified.
@@ -93,9 +93,8 @@ The prerequisite defined in <i>name</i> is not defined in the manifest.
 
 ## -remarks
 
-Prerequisites are specified using the <a href="https://docs.microsoft.com/uwp/schemas/appxpackage/appxmanifestschema/element-osminversion">OSMinVersion</a> and <a href="https://docs.microsoft.com/uwp/schemas/appxpackage/appxmanifestschema/element-osmaxversiontested">OSMaxVersionTested</a> elements in the package manifest.
+Prerequisites are specified using the <a href="/uwp/schemas/appxpackage/appxmanifestschema/element-osminversion">OSMinVersion</a> and <a href="/uwp/schemas/appxpackage/appxmanifestschema/element-osmaxversiontested">OSMaxVersionTested</a> elements in the package manifest.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxmanifestreader">IAppxManifestReader</a>
-
+<a href="/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxmanifestreader">IAppxManifestReader</a>

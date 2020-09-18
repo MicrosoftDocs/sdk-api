@@ -53,7 +53,7 @@ api_name:
 
 <p class="CCE_Message">[<b>EndInkInput</b> is no longer available for use for recognizers of western languages as of Windows Vista.]
 
-Stops adding ink to the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkrecognizercontext-class">InkRecognizerContext</a> object.
+Stops adding ink to the <a href="/windows/desktop/tablet/inkrecognizercontext-class">InkRecognizerContext</a> object.
 
 ## -parameters
 
@@ -130,5 +130,4 @@ Incremental recognition is the ability of the recognizer to process only a small
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/tablet/inkrecognizercontext-class">InkRecognizerContext Class</a>
-
+<a href="/windows/desktop/tablet/inkrecognizercontext-class">InkRecognizerContext Class</a>

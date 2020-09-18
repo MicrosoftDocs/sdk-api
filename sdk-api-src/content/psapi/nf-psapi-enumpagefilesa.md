@@ -67,7 +67,7 @@ Calls the callback routine for each installed pagefile in the system.
 ### -param pCallBackRoutine [out]
 
 A pointer to the routine called for each pagefile. For more information, see 
-      <a href="https://docs.microsoft.com/windows/desktop/api/psapi/nc-psapi-penum_page_file_callbacka">EnumPageFilesProc</a>.
+      <a href="/windows/desktop/api/psapi/nc-psapi-penum_page_file_callbacka">EnumPageFilesProc</a>.
 
 ### -param pContext [in]
 
@@ -77,7 +77,7 @@ The user-defined data passed to the callback routine.
 
 If the function succeeds, the return value is <b>TRUE</b>. If the function fails, the 
        return value is <b>FALSE</b>. To get extended error information, call 
-       <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+       <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
@@ -107,9 +107,8 @@ Programs that must run on earlier versions of Windows as well as Windows 7 and 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/psapi/nc-psapi-penum_page_file_callbacka">EnumPageFilesProc</a>
+<a href="/windows/desktop/api/psapi/nc-psapi-penum_page_file_callbacka">EnumPageFilesProc</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/psapi/psapi-functions">PSAPI Functions</a>
-
+<a href="/windows/desktop/psapi/psapi-functions">PSAPI Functions</a>

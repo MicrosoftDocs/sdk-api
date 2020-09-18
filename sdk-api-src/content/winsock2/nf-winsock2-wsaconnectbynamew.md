@@ -62,7 +62,7 @@ This function supports both IPv4 and IPv6 addresses.
 
 A descriptor that identifies an unconnected socket.
 
-<div class="alert"><b>Note</b>  On Windows 7,  Windows Server 2008 R2, and earlier, the <b>WSAConnectByName</b> function requires an unbound and unconnected socket. This differs from other Winsock calls to establish a connection (for example, <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsaconnect">WSAConnect</a>). </div>
+<div class="alert"><b>Note</b>  On Windows 7,  Windows Server 2008 R2, and earlier, the <b>WSAConnectByName</b> function requires an unbound and unconnected socket. This differs from other Winsock calls to establish a connection (for example, <a href="/windows/desktop/api/winsock2/nf-winsock2-wsaconnect">WSAConnect</a>). </div>
 <div> </div>
 
 ### -param nodename [in]
@@ -83,7 +83,7 @@ On input, a pointer to the size, in bytes, of the <i>LocalAddress</i> buffer pro
 
 ### -param LocalAddress [out]
 
-A pointer to the <b>SOCKADDR</b> structure that receives the local address of the connection. The size of the parameter is exactly the size returned in <i>LocalAddressLength</i>. This is the same information that would be returned by the <a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-getsockname">getsockname</a> function. This parameter can be <b>NULL</b>, in which case, the <i>LocalAddressLength</i> parameter is ignored.
+A pointer to the <b>SOCKADDR</b> structure that receives the local address of the connection. The size of the parameter is exactly the size returned in <i>LocalAddressLength</i>. This is the same information that would be returned by the <a href="/windows/desktop/api/winsock/nf-winsock-getsockname">getsockname</a> function. This parameter can be <b>NULL</b>, in which case, the <i>LocalAddressLength</i> parameter is ignored.
 
 ### -param RemoteAddressLength [in, out]
 
@@ -105,7 +105,7 @@ Reserved for future implementation. This parameter must be set to <b>NULL</b>.
 
 If a connection is established, <b>WSAConnectByName</b> returns <b>TRUE</b> and <i>LocalAddress</i> and <i>RemoteAddress</i> parameters are filled in if these buffers were supplied by the caller.
 
-If the call fails, <b>FALSE</b> is returned. <a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-wsagetlasterror">WSAGetLastError</a> can then be called to get extended error information.
+If the call fails, <b>FALSE</b> is returned. <a href="/windows/desktop/api/winsock/nf-winsock-wsagetlasterror">WSAGetLastError</a> can then be called to get extended error information.
 
 <table>
 <tr>
@@ -174,7 +174,7 @@ A response from the  remote application was not received before the <i>timeout</
 <b>WSAConnectByName</b> is provided to enable quick and transparent connections to remote hosts on specific ports. It is compatible with both IPv6 and IPv4 versions.
 
 To enable both IPv6 and IPv4 communications, use the following method:<ul>
-<li>The <a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-setsockopt">setsockopt</a> function must be called on a socket created for the AF_INET6 address family to disable the <b>IPV6_V6ONLY</b> socket option before calling <b>WSAConnectByName</b>. This is accomplished by calling the <b>setsockopt</b> function on the socket with the <i>level</i> parameter set to <b>IPPROTO_IPV6</b> (see <a href="https://docs.microsoft.com/windows/desktop/WinSock/ipproto-ipv6-socket-options">IPPROTO_IPV6 Socket Options</a>), the <i>optname</i> parameter set to <b>IPV6_V6ONLY</b>, and the  <i>optvalue</i> parameter value set to  zero .</li>
+<li>The <a href="/windows/desktop/api/winsock/nf-winsock-setsockopt">setsockopt</a> function must be called on a socket created for the AF_INET6 address family to disable the <b>IPV6_V6ONLY</b> socket option before calling <b>WSAConnectByName</b>. This is accomplished by calling the <b>setsockopt</b> function on the socket with the <i>level</i> parameter set to <b>IPPROTO_IPV6</b> (see <a href="/windows/desktop/WinSock/ipproto-ipv6-socket-options">IPPROTO_IPV6 Socket Options</a>), the <i>optname</i> parameter set to <b>IPV6_V6ONLY</b>, and the  <i>optvalue</i> parameter value set to  zero .</li>
 </ul>
 
 
@@ -183,7 +183,7 @@ It works only for connection-oriented sockets, such as those of type SOCK_STREAM
 The function does not support overlapped I/O or non-blocking behavior. <b>WSAConnectByName</b> will block even if the socket is in non-blocking mode.
 	
 
-<b>WSAConnectByName</b> does not support user-provided data during the establishment of a connection. This call does not support FLOWSPEC structures, either. In cases where these features are required, <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsaconnect">WSAConnect</a> must be used instead.
+<b>WSAConnectByName</b> does not support user-provided data during the establishment of a connection. This call does not support FLOWSPEC structures, either. In cases where these features are required, <a href="/windows/desktop/api/winsock2/nf-winsock2-wsaconnect">WSAConnect</a> must be used instead.
 
 In versions before Windows 10, if an application needs to bind to a specific local address or port, then <b>WSAConnectByName</b> cannot be used since the socket parameter to <b>WSAConnectByName</b> must be an unbound socket.
 
@@ -194,7 +194,7 @@ The <i>RemoteAddress</i> and the <i>LocalAddress</i> parameters point to a <b>SO
 
 When the 
 <b>WSAConnectByName</b> function returns <b>TRUE</b>, the socket <i>s</i> is in the default state for a connected socket. The socket <i>s</i> does not enable previously set properties or options until SO_UPDATE_CONNECT_CONTEXT is set on the socket. Use the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-setsockopt">setsockopt</a> function to set the SO_UPDATE_CONNECT_CONTEXT option. 
+<a href="/windows/desktop/api/winsock/nf-winsock-setsockopt">setsockopt</a> function to set the SO_UPDATE_CONNECT_CONTEXT option. 
 
 For example:
 
@@ -349,37 +349,36 @@ int __cdecl wmain(int argc, wchar_t **argv)
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/WinSock/ipproto-ipv6-socket-options">IPPROTO_IPV6 Socket Options</a>
+<a href="/windows/desktop/WinSock/ipproto-ipv6-socket-options">IPPROTO_IPV6 Socket Options</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WinSock/sockaddr-2">SOCKADDR</a>
+<a href="/windows/desktop/WinSock/sockaddr-2">SOCKADDR</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsaconnect">WSAConnect</a>
+<a href="/windows/desktop/api/winsock2/nf-winsock2-wsaconnect">WSAConnect</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsaconnectbylist">WSAConnectByList</a>
+<a href="/windows/desktop/api/winsock2/nf-winsock2-wsaconnectbylist">WSAConnectByList</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-wsagetlasterror">WSAGetLastError</a>
+<a href="/windows/desktop/api/winsock/nf-winsock-wsagetlasterror">WSAGetLastError</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ws2tcpip/nf-ws2tcpip-getaddrinfo">getaddrinfo</a>
+<a href="/windows/desktop/api/ws2tcpip/nf-ws2tcpip-getaddrinfo">getaddrinfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-getpeername">getpeername</a>
+<a href="/windows/desktop/api/winsock/nf-winsock-getpeername">getpeername</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-getsockname">getsockname</a>
+<a href="/windows/desktop/api/winsock/nf-winsock-getsockname">getsockname</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-setsockopt">setsockopt</a>
-
+<a href="/windows/desktop/api/winsock/nf-winsock-setsockopt">setsockopt</a>

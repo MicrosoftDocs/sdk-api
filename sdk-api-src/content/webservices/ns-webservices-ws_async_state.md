@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-Used by <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsasyncexecute">WsAsyncExecute</a> to manage the state of an asynchronous operation.
+Used by <a href="/windows/desktop/api/webservices/nf-webservices-wsasyncexecute">WsAsyncExecute</a> to manage the state of an asynchronous operation.
 
 ## -struct-fields
 
@@ -75,4 +75,3 @@ This field is internal and should not be modified.
 ### -field internal4
 
 This field is internal and should not be modified.
-

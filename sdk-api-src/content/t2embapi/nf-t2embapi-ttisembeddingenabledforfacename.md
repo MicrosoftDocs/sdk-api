@@ -68,27 +68,26 @@ If successful, returns E_NONE.
 
 <i>pbEnabled</i> is filled with a boolean that indicates whether embedding is currently enabled within a device context for the specified font.
 
-Otherwise, returns an error code described in <a href="https://docs.microsoft.com/windows/desktop/gdi/font-embedding-function-error-messages">Embedding-Function Error Messages</a>.
+Otherwise, returns an error code described in <a href="/windows/desktop/gdi/font-embedding-function-error-messages">Embedding-Function Error Messages</a>.
 
 ## -remarks
 
 If successful, the client may embed the font.
 
-For additional information on the exclusion list, see the Remarks section of <a href="https://docs.microsoft.com/windows/desktop/api/t2embapi/nf-t2embapi-ttenableembeddingforfacename">TTEnableEmbeddingForFacename</a>.
+For additional information on the exclusion list, see the Remarks section of <a href="/windows/desktop/api/t2embapi/nf-t2embapi-ttenableembeddingforfacename">TTEnableEmbeddingForFacename</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/t2embapi/nf-t2embapi-ttenableembeddingforfacename">TTEnableEmbeddingForFacename</a>
+<a href="/windows/desktop/api/t2embapi/nf-t2embapi-ttenableembeddingforfacename">TTEnableEmbeddingForFacename</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/t2embapi/nf-t2embapi-ttgetembeddedfontinfo">TTGetEmbeddedFontInfo</a>
+<a href="/windows/desktop/api/t2embapi/nf-t2embapi-ttgetembeddedfontinfo">TTGetEmbeddedFontInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/t2embapi/nf-t2embapi-ttgetembeddingtype">TTGetEmbeddingType</a>
+<a href="/windows/desktop/api/t2embapi/nf-t2embapi-ttgetembeddingtype">TTGetEmbeddingType</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/t2embapi/nf-t2embapi-ttisembeddingenabled">TTIsEmbeddingEnabled</a>
-
+<a href="/windows/desktop/api/t2embapi/nf-t2embapi-ttisembeddingenabled">TTIsEmbeddingEnabled</a>

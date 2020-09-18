@@ -92,7 +92,6 @@ A pointer to a value which is the number of characters written to the buffer spe
 If the function succeeds, it returns <b>TRUE</b>. Otherwise, it returns <b>FALSE</b>.
 
 This function sets errors that can be retrieved by calling 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. For an example, see 
-<a href="https://docs.microsoft.com/windows/desktop/Debug/retrieving-the-last-error-code">Retrieving the Last-Error Code</a>. For a complete list of error codes, see 
-<a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">System Error Codes</a>.
-
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. For an example, see 
+<a href="/windows/desktop/Debug/retrieving-the-last-error-code">Retrieving the Last-Error Code</a>. For a complete list of error codes, see 
+<a href="/windows/desktop/Debug/system-error-codes">System Error Codes</a>.

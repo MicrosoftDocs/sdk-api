@@ -52,7 +52,7 @@ api_name:
 ## -description
 
 Enumerates the possible values of the status of a node drain. This enumeration is used in the 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/nodes-nodedrainstatus">NodeDrainStatus</a> property.
+    <a href="/previous-versions/windows/desktop/mscs/nodes-nodedrainstatus">NodeDrainStatus</a> property.
 
 ## -enum-fields
 
@@ -78,9 +78,8 @@ Defines the maximum number of drain statuses.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-enumerations">Failover Cluster Enumerations</a>
+<a href="/previous-versions/windows/desktop/mscs/cluster-enumerations">Failover Cluster Enumerations</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/nodes-nodedrainstatus">NodeDrainStatus</a>
-
+<a href="/previous-versions/windows/desktop/mscs/nodes-nodedrainstatus">NodeDrainStatus</a>

@@ -50,11 +50,10 @@ api_name:
 
 ## -description
 
-Retrieves the user bit from a control code. For more information, see  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/control-code-architecture">Control Code Architecture</a>.
+Retrieves the user bit from a control code. For more information, see  <a href="/previous-versions/windows/desktop/mscs/control-code-architecture">Control Code Architecture</a>.
 
 ## -parameters
 
 ### -param ControlCode
 
 The control that contains the user bit.
-

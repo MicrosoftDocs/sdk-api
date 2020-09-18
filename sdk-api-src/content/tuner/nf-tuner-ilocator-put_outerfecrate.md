@@ -56,7 +56,7 @@ The <b>put_OuterFECRate</b> method sets the outer FEC rate.
 
 ### -param FEC [in]
 
-Specifies the outer FEC rate. This parameter is a value of type <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/binaryconvolutioncoderate">BinaryConvolutionCodeRate</a>.
+Specifies the outer FEC rate. This parameter is a value of type <a href="/previous-versions/windows/desktop/mstv/binaryconvolutioncoderate">BinaryConvolutionCodeRate</a>.
 
 ## -returns
 
@@ -64,17 +64,16 @@ Returns S_OK if successful. If the method fails, error information can be retrie
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-ilocator">ILocator</a>
+<a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-ilocator">ILocator</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/dd693583(v=vs.85)">get_OuterFECRate</a>
+<a href="/previous-versions/dd693583(v=vs.85)">get_OuterFECRate</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/dd693586(v=vs.85)">put_InnerFECRate</a>
+<a href="/previous-versions/dd693586(v=vs.85)">put_InnerFECRate</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/dd693587(v=vs.85)">put_OuterFEC</a>
-
+<a href="/previous-versions/dd693587(v=vs.85)">put_OuterFEC</a>

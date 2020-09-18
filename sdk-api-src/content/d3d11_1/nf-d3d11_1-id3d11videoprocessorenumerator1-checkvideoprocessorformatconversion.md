@@ -103,5 +103,4 @@ This method returns one of the following error codes.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11_1/nn-d3d11_1-id3d11videoprocessorenumerator1">ID3D11VideoProcessorEnumerator1</a>
-
+<a href="/windows/desktop/api/d3d11_1/nn-d3d11_1-id3d11videoprocessorenumerator1">ID3D11VideoProcessorEnumerator1</a>

@@ -55,8 +55,8 @@ provides similar functionality.]
 
  The 
 <b>put_LeaseStartTime</b> method sets the start time of the lease. This method, along with 
-<a href="https://docs.microsoft.com/windows/desktop/api/mdhcp/nf-mdhcp-imcastleaseinfo-put_leasestoptime">put_LeaseStopTime</a>, allows renewal of a lease without calling 
-<a href="https://docs.microsoft.com/windows/desktop/api/mdhcp/nf-mdhcp-imcastaddressallocation-createleaseinfo">IMcastAddressAllocation::CreateLeaseInfo</a>.
+<a href="/windows/desktop/api/mdhcp/nf-mdhcp-imcastleaseinfo-put_leasestoptime">put_LeaseStopTime</a>, allows renewal of a lease without calling 
+<a href="/windows/desktop/api/mdhcp/nf-mdhcp-imcastaddressallocation-createleaseinfo">IMcastAddressAllocation::CreateLeaseInfo</a>.
 
 ## -parameters
 
@@ -103,9 +103,8 @@ This function may send data over the wire in unencrypted form; therefore, someon
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mdhcp/nn-mdhcp-imcastleaseinfo">IMcastLeaseInfo</a>
+<a href="/windows/desktop/api/mdhcp/nn-mdhcp-imcastleaseinfo">IMcastLeaseInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mdhcp/nf-mdhcp-imcastleaseinfo-get_leasestarttime">get_LeaseStartTime</a>
-
+<a href="/windows/desktop/api/mdhcp/nf-mdhcp-imcastleaseinfo-get_leasestarttime">get_LeaseStartTime</a>

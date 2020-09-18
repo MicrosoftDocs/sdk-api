@@ -65,9 +65,8 @@ Returns <b>S_OK</b> if successful, or an error value otherwise.
 
 ## -remarks
 
-This method can only be called for file items, which are represented by <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nn-cscobj-iofflinefilesfileitem">IOfflineFilesFileItem</a> objects.
+This method can only be called for file items, which are represented by <a href="/previous-versions/windows/desktop/api/cscobj/nn-cscobj-iofflinefilesfileitem">IOfflineFilesFileItem</a> objects.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nn-cscobj-iofflinefilesdirtyinfo">IOfflineFilesDirtyInfo</a>
-
+<a href="/previous-versions/windows/desktop/api/cscobj/nn-cscobj-iofflinefilesdirtyinfo">IOfflineFilesDirtyInfo</a>

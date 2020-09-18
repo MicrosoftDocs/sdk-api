@@ -57,55 +57,55 @@ Get the type, name, units of measure, and a description of an existing counter.
 
 ### -param pDesc [in]
 
-Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_counter_desc">D3D11_COUNTER_DESC</a>*</b>
+Type: <b>const <a href="/windows/desktop/api/d3d11/ns-d3d11-d3d11_counter_desc">D3D11_COUNTER_DESC</a>*</b>
 
-Pointer to a counter description (see <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_counter_desc">D3D11_COUNTER_DESC</a>). Specifies which counter information is to be retrieved about.
+Pointer to a counter description (see <a href="/windows/desktop/api/d3d11/ns-d3d11-d3d11_counter_desc">D3D11_COUNTER_DESC</a>). Specifies which counter information is to be retrieved about.
 
 ### -param pType [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ne-d3d11-d3d11_counter_type">D3D11_COUNTER_TYPE</a>*</b>
+Type: <b><a href="/windows/desktop/api/d3d11/ne-d3d11-d3d11_counter_type">D3D11_COUNTER_TYPE</a>*</b>
 
-Pointer to the data type of a counter (see <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ne-d3d11-d3d11_counter_type">D3D11_COUNTER_TYPE</a>). Specifies the data type of the counter being retrieved.
+Pointer to the data type of a counter (see <a href="/windows/desktop/api/d3d11/ne-d3d11-d3d11_counter_type">D3D11_COUNTER_TYPE</a>). Specifies the data type of the counter being retrieved.
 
 ### -param pActiveCounters [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a>*</b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a>*</b>
 
 Pointer to the number of hardware counters that are needed for this counter type to be created. All instances of the same counter type use the same hardware counters.
 
 ### -param szName [out, optional]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPSTR</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">LPSTR</a></b>
 
 String to be filled with a brief name for the counter. May be <b>NULL</b> if the application is not interested in the name of the counter.
 
 ### -param pNameLength [in, out, optional]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a>*</b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a>*</b>
 
 Length of the string returned to szName. Can be <b>NULL</b>.
 
 ### -param szUnits [out, optional]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPSTR</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">LPSTR</a></b>
 
 Name of the units a counter measures, provided the memory the pointer points to has enough room to hold the string. Can be <b>NULL</b>. The returned string will always be in English.
 
 ### -param pUnitsLength [in, out, optional]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a>*</b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a>*</b>
 
 Length of the string returned to szUnits. Can be <b>NULL</b>.
 
 ### -param szDescription [out, optional]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPSTR</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">LPSTR</a></b>
 
 A description of the counter, provided the memory the pointer points to has enough room to hold the string. Can be <b>NULL</b>. The returned string will always be in English.
 
 ### -param pDescriptionLength [in, out, optional]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a>*</b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a>*</b>
 
 Length of the string returned to szDescription. Can be <b>NULL</b>.
 
@@ -113,7 +113,7 @@ Length of the string returned to szDescription. Can be <b>NULL</b>.
 
 Type: <b><a href="/windows/win32/com/structure-of-com-error-codes">HRESULT</a></b>
 
-This method returns one of the following <a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d11-graphics-reference-returnvalues">Direct3D 11 Return Codes</a>.
+This method returns one of the following <a href="/windows/desktop/direct3d11/d3d11-graphics-reference-returnvalues">Direct3D 11 Return Codes</a>.
 
 ## -remarks
 
@@ -125,5 +125,4 @@ Length parameters can be <b>NULL</b>, which indicates the application is not int
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11device">ID3D11Device</a>
-
+<a href="/windows/desktop/api/d3d11/nn-d3d11-id3d11device">ID3D11Device</a>

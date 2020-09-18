@@ -50,11 +50,11 @@ api_name:
 
 ## -description
 
-The <b>ITfLangBarEventSink</b> interface is implemented by an application or text service and used by the language bar to supply notifications of certain events that occur in the language bar. The application or text service installs this event sink by calling <a href="https://docs.microsoft.com/windows/desktop/api/ctfutb/nf-ctfutb-itflangbarmgr-adviseeventsink">ITfLangBarMgr::AdviseEventSink</a>.
+The <b>ITfLangBarEventSink</b> interface is implemented by an application or text service and used by the language bar to supply notifications of certain events that occur in the language bar. The application or text service installs this event sink by calling <a href="/windows/desktop/api/ctfutb/nf-ctfutb-itflangbarmgr-adviseeventsink">ITfLangBarMgr::AdviseEventSink</a>.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfLangBarEventSink</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfLangBarEventSink</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfLangBarEventSink</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfLangBarEventSink</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ITfLangBarEventSink</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/ctfutb/nf-ctfutb-itflangbareventsink-getitemfloatingrect">GetItemFloatingRect</a>
+<a href="/windows/desktop/api/ctfutb/nf-ctfutb-itflangbareventsink-getitemfloatingrect">GetItemFloatingRect</a>
 </td>
 <td align="left" width="63%">
 Not currently used.
@@ -78,7 +78,7 @@ Not currently used.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/ctfutb/nf-ctfutb-itflangbareventsink-onmodalinput">OnModalInput</a>
+<a href="/windows/desktop/api/ctfutb/nf-ctfutb-itflangbareventsink-onmodalinput">OnModalInput</a>
 </td>
 <td align="left" width="63%">
 Not currently used.
@@ -87,7 +87,7 @@ Not currently used.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/ctfutb/nf-ctfutb-itflangbareventsink-onsetfocus">OnSetFocus</a>
+<a href="/windows/desktop/api/ctfutb/nf-ctfutb-itflangbareventsink-onsetfocus">OnSetFocus</a>
 </td>
 <td align="left" width="63%">
 Called when the thread the event sink was installed from receives the input focus.
@@ -96,7 +96,7 @@ Called when the thread the event sink was installed from receives the input focu
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/ctfutb/nf-ctfutb-itflangbareventsink-onthreaditemchange">OnThreadItemChange</a>
+<a href="/windows/desktop/api/ctfutb/nf-ctfutb-itflangbareventsink-onthreaditemchange">OnThreadItemChange</a>
 </td>
 <td align="left" width="63%">
 Called when a language bar item changes.
@@ -105,7 +105,7 @@ Called when a language bar item changes.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/ctfutb/nf-ctfutb-itflangbareventsink-onthreadterminate">OnThreadTerminate</a>
+<a href="/windows/desktop/api/ctfutb/nf-ctfutb-itflangbareventsink-onthreadterminate">OnThreadTerminate</a>
 </td>
 <td align="left" width="63%">
 Not currently used.
@@ -114,7 +114,7 @@ Not currently used.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/ctfutb/nf-ctfutb-itflangbareventsink-showfloating">ShowFloating</a>
+<a href="/windows/desktop/api/ctfutb/nf-ctfutb-itflangbareventsink-showfloating">ShowFloating</a>
 </td>
 <td align="left" width="63%">
 Called when <a href="nf-ctfutb-itflangbarmgr-showfloating.md">ITfLangBarMgr::ShowFloating</a> is called.
@@ -125,15 +125,14 @@ Called when <a href="nf-ctfutb-itflangbarmgr-showfloating.md">ITfLangBarMgr::Sho
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ctfutb/nf-ctfutb-itflangbarmgr-adviseeventsink">ITfLangBarMgr::AdviseEventSink
+<a href="/windows/desktop/api/ctfutb/nf-ctfutb-itflangbarmgr-adviseeventsink">ITfLangBarMgr::AdviseEventSink
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ctfutb/nf-ctfutb-itflangbarmgr-showfloating">ITfLangBarMgr::ShowFloating
+<a href="/windows/desktop/api/ctfutb/nf-ctfutb-itflangbarmgr-showfloating">ITfLangBarMgr::ShowFloating
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
-
+<a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>

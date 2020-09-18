@@ -52,17 +52,17 @@ api_name:
 
 ## -description
 
-Contains the result of an <a href="https://docs.microsoft.com/windows/desktop/medfound/opm-get-actual-output-format">OPM_GET_ACTUAL_OUTPUT_FORMAT</a> query in <a href="https://docs.microsoft.com/windows/desktop/medfound/output-protection-manager">Output Protection Manager</a> (OPM).
+Contains the result of an <a href="/windows/desktop/medfound/opm-get-actual-output-format">OPM_GET_ACTUAL_OUTPUT_FORMAT</a> query in <a href="/windows/desktop/medfound/output-protection-manager">Output Protection Manager</a> (OPM).
 
 ## -struct-fields
 
 ### -field rnRandomNumber
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/ksopmapi/ns-ksopmapi-opm_random_number">OPM_RANDOM_NUMBER</a> structure. This structure contains the same 128-bit random number that the application sent to the driver in the <a href="https://docs.microsoft.com/windows/desktop/api/ksopmapi/ns-ksopmapi-opm_get_info_parameters">OPM_GET_INFO_PARAMETERS</a> or <a href="https://docs.microsoft.com/windows/desktop/api/opmapi/nf-opmapi-iopmvideooutput-coppcompatiblegetinformation">OPM_COPP_COMPATIBLE_GET_INFO_PARAMETERS</a> structure.
+An <a href="/windows/desktop/api/ksopmapi/ns-ksopmapi-opm_random_number">OPM_RANDOM_NUMBER</a> structure. This structure contains the same 128-bit random number that the application sent to the driver in the <a href="/windows/desktop/api/ksopmapi/ns-ksopmapi-opm_get_info_parameters">OPM_GET_INFO_PARAMETERS</a> or <a href="/windows/desktop/api/opmapi/nf-opmapi-iopmvideooutput-coppcompatiblegetinformation">OPM_COPP_COMPATIBLE_GET_INFO_PARAMETERS</a> structure.
 
 ### -field ulStatusFlags
 
-A bitwise <b>OR</b> of <a href="https://docs.microsoft.com/windows/desktop/medfound/opm-status-flags">OPM Status Flags</a>.
+A bitwise <b>OR</b> of <a href="/windows/desktop/medfound/opm-status-flags">OPM Status Flags</a>.
 
 ### -field ulDisplayWidth
 
@@ -74,7 +74,7 @@ The height of the display mode, in pixels.
 
 ### -field dsfSampleInterleaveFormat
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/ne-dxva2api-dxva2_sampleformat">DXVA2_SampleFormat</a> value that describes the interlace mode.
+A <a href="/windows/desktop/api/dxva2api/ne-dxva2api-dxva2_sampleformat">DXVA2_SampleFormat</a> value that describes the interlace mode.
 
 ### -field d3dFormat
 
@@ -92,13 +92,12 @@ The denominator of the refresh rate of the current display mode.
 
 The refresh rate is expressed as a fraction. For example, if the refresh rate is 72 Hz, <b>FreqNumerator</b> = 72 and <b>FreqDenominator</b> = 1. For NTSC television, the values are <b>FreqNumerator</b> = 60000 and <b>FreqDenominator</b> = 1001 (59.94 fields per second). 
 
-The layout of this structure is identical to the <a href="https://docs.microsoft.com/windows/desktop/api/dxva9typ/ns-dxva9typ-dxva_coppstatusdisplaydata">DXVA_COPPStatusDisplayData</a> structure used in Certified Output Protection Protocol (COPP).
+The layout of this structure is identical to the <a href="/windows/desktop/api/dxva9typ/ns-dxva9typ-dxva_coppstatusdisplaydata">DXVA_COPPStatusDisplayData</a> structure used in Certified Output Protection Protocol (COPP).
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/opm-structures">OPM Structures</a>
+<a href="/windows/desktop/medfound/opm-structures">OPM Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/output-protection-manager">Output Protection Manager</a>
-
+<a href="/windows/desktop/medfound/output-protection-manager">Output Protection Manager</a>

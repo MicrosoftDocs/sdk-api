@@ -71,32 +71,31 @@ If the function fails, the return value is zero.
 
 ## -remarks
 
-If the <i>hemf</i> parameter identifies an enhanced metafile stored in memory, the <b>DeleteEnhMetaFile</b> function deletes the metafile. If <i>hemf</i> identifies a metafile stored on a disk, the function deletes the metafile handle but does not destroy the actual metafile. An application can retrieve the file by calling the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getenhmetafilea">GetEnhMetaFile</a> function.
+If the <i>hemf</i> parameter identifies an enhanced metafile stored in memory, the <b>DeleteEnhMetaFile</b> function deletes the metafile. If <i>hemf</i> identifies a metafile stored on a disk, the function deletes the metafile handle but does not destroy the actual metafile. An application can retrieve the file by calling the <a href="/windows/desktop/api/wingdi/nf-wingdi-getenhmetafilea">GetEnhMetaFile</a> function.
 
 
 #### Examples
 
-For an example, see <a href="https://docs.microsoft.com/windows/desktop/gdi/opening-an-enhanced-metafile-and-displaying-its-contents">Opening an Enhanced Metafile and Displaying Its Contents</a>.
+For an example, see <a href="/windows/desktop/gdi/opening-an-enhanced-metafile-and-displaying-its-contents">Opening an Enhanced Metafile and Displaying Its Contents</a>.
 
 <div class="code"></div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-copyenhmetafilea">CopyEnhMetaFile</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-copyenhmetafilea">CopyEnhMetaFile</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createenhmetafilea">CreateEnhMetaFile</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-createenhmetafilea">CreateEnhMetaFile</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getenhmetafilea">GetEnhMetaFile</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-getenhmetafilea">GetEnhMetaFile</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/metafile-functions">Metafile Functions</a>
+<a href="/windows/desktop/gdi/metafile-functions">Metafile Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/metafiles">Metafiles Overview</a>
-
+<a href="/windows/desktop/gdi/metafiles">Metafiles Overview</a>

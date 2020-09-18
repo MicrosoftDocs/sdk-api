@@ -56,7 +56,7 @@ The <b>ICSeqCompressFrame</b> function compresses one frame in a sequence of fra
 
 ### -param pc
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/vfw/ns-vfw-compvars">COMPVARS</a> structure initialized with information about the compression.
+Pointer to a <a href="/windows/desktop/api/vfw/ns-vfw-compvars">COMPVARS</a> structure initialized with information about the compression.
 
 ### -param uiFlags
 
@@ -80,21 +80,20 @@ Returns the address of the compressed bits if successful or <b>NULL</b> otherwis
 
 ## -remarks
 
-This function uses a <a href="https://docs.microsoft.com/windows/desktop/api/vfw/ns-vfw-compvars">COMPVARS</a> structure to provide settings for the specified compressor and intersperses key frames at the rate specified by the <a href="https://docs.microsoft.com/windows/desktop/api/vfw/nf-vfw-icseqcompressframestart">ICSeqCompressorFrameStart</a> function. You can specify values for the data rate for the sequence and the key-frame frequency by using the appropriate members of <b>COMPVARS</b>.
+This function uses a <a href="/windows/desktop/api/vfw/ns-vfw-compvars">COMPVARS</a> structure to provide settings for the specified compressor and intersperses key frames at the rate specified by the <a href="/windows/desktop/api/vfw/nf-vfw-icseqcompressframestart">ICSeqCompressorFrameStart</a> function. You can specify values for the data rate for the sequence and the key-frame frequency by using the appropriate members of <b>COMPVARS</b>.
 
-Use this function instead of the <a href="https://docs.microsoft.com/windows/desktop/api/vfw/nf-vfw-iccompress">ICCompress</a> function to compress a video sequence.
+Use this function instead of the <a href="/windows/desktop/api/vfw/nf-vfw-iccompress">ICCompress</a> function to compress a video sequence.
 
-You can allow the user to specify a compressor and initialize a <a href="https://docs.microsoft.com/windows/desktop/api/vfw/ns-vfw-compvars">COMPVARS</a> structure by using the <a href="https://docs.microsoft.com/windows/desktop/api/vfw/nf-vfw-iccompressorchoose">ICCompressorChoose</a> function. Or, you can initialize a <b>COMPVARS</b> structure manually.
+You can allow the user to specify a compressor and initialize a <a href="/windows/desktop/api/vfw/ns-vfw-compvars">COMPVARS</a> structure by using the <a href="/windows/desktop/api/vfw/nf-vfw-iccompressorchoose">ICCompressorChoose</a> function. Or, you can initialize a <b>COMPVARS</b> structure manually.
 
-Use the <a href="https://docs.microsoft.com/windows/desktop/api/vfw/nf-vfw-icseqcompressframestart">ICSeqCompressFrameStart</a>, <b>ICSeqCompressFrame</b>, and <a href="https://docs.microsoft.com/windows/desktop/api/vfw/nf-vfw-icseqcompressframeend">ICSeqCompressFrameEnd</a> functions to compress a sequence of frames to a specified data rate and number of key frames. Use <b>ICSeqCompressFrame</b> once for each frame to be compressed.
+Use the <a href="/windows/desktop/api/vfw/nf-vfw-icseqcompressframestart">ICSeqCompressFrameStart</a>, <b>ICSeqCompressFrame</b>, and <a href="/windows/desktop/api/vfw/nf-vfw-icseqcompressframeend">ICSeqCompressFrameEnd</a> functions to compress a sequence of frames to a specified data rate and number of key frames. Use <b>ICSeqCompressFrame</b> once for each frame to be compressed.
 
-When finished with compression, use the <a href="https://docs.microsoft.com/windows/desktop/api/vfw/nf-vfw-iccompressorfree">ICCompressorFree</a> function to release the resources specified by <a href="https://docs.microsoft.com/windows/desktop/api/vfw/ns-vfw-compvars">COMPVARS</a>.
+When finished with compression, use the <a href="/windows/desktop/api/vfw/nf-vfw-iccompressorfree">ICCompressorFree</a> function to release the resources specified by <a href="/windows/desktop/api/vfw/ns-vfw-compvars">COMPVARS</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-compression-functions">Video Compression Functions</a>
+<a href="/windows/desktop/Multimedia/video-compression-functions">Video Compression Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-compression-manager">Video Compression Manager</a>
-
+<a href="/windows/desktop/Multimedia/video-compression-manager">Video Compression Manager</a>

@@ -56,7 +56,7 @@ Sets the file systems to create when generating the result stream.
 
 ### -param newVal [in]
 
-One or more file systems to create when generating the result stream. For possible values, see the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/ne-imapi2fs-fsifilesystems">FsiFileSystems</a> enumeration type.
+One or more file systems to create when generating the result stream. For possible values, see the <a href="/windows/desktop/api/imapi2fs/ne-imapi2fs-fsifilesystems">FsiFileSystems</a> enumeration type.
 
 ## -returns
 
@@ -149,19 +149,18 @@ Value: 0x00AAB15FL
 
 ## -remarks
 
-This method returns <b>IMAPI_E_INCOMPATIBLE_PREVIOUS_SESSION</b> if the previous session was imported  using <a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-importfilesystem">IFileSystemImage::ImportFileSystem</a> or <a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-importspecificfilesystem">IFileSystemImage::ImportSpecificFileSystem</a> and the layout of that session is incompatible with the layout used by IMAPI for the file systems identified by the specified <i>newVal</i> in <b>IFileSystemImage::put_FileSystemToCreate</b>.
+This method returns <b>IMAPI_E_INCOMPATIBLE_PREVIOUS_SESSION</b> if the previous session was imported  using <a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-importfilesystem">IFileSystemImage::ImportFileSystem</a> or <a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-importspecificfilesystem">IFileSystemImage::ImportSpecificFileSystem</a> and the layout of that session is incompatible with the layout used by IMAPI for the file systems identified by the specified <i>newVal</i> in <b>IFileSystemImage::put_FileSystemToCreate</b>.
 
 You can change the file system only when the result stream is not active.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nn-imapi2fs-ifilesystemimage">IFileSystemImage</a>
+<a href="/windows/desktop/api/imapi2fs/nn-imapi2fs-ifilesystemimage">IFileSystemImage</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-createresultimage">IFileSystemImage::CreateResultImage</a>
+<a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-createresultimage">IFileSystemImage::CreateResultImage</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-get_filesystemstocreate">IFileSystemImage::get_FileSystemsToCreate</a>
-
+<a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-get_filesystemstocreate">IFileSystemImage::get_FileSystemsToCreate</a>

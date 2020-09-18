@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-The <b>RPC_C_OPT_COOKIE_AUTH_DESCRIPTOR</b> structure contains a cookie that is inserted into the header of RPC/HTTP traffic. This cookie can be used for authentication or for load balancing. When used for authentication, <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes--1700-3999-">RPC_S_COOKIE_AUTH_FAILED</a>  is returned from an RPC call if cookie authentication fails. There are no specific error messages when used for load balancing.
+The <b>RPC_C_OPT_COOKIE_AUTH_DESCRIPTOR</b> structure contains a cookie that is inserted into the header of RPC/HTTP traffic. This cookie can be used for authentication or for load balancing. When used for authentication, <a href="/windows/desktop/Debug/system-error-codes--1700-3999-">RPC_S_COOKIE_AUTH_FAILED</a>  is returned from an RPC call if cookie authentication fails. There are no specific error messages when used for load balancing.
 
 ## -struct-fields
 
@@ -68,5 +68,4 @@ A null-terminated string that contains the cookie.
 
 ## -remarks
 
-A pointer to this structure is passed as the OptionValue when making a call to <a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcbindingsetoption">RpcBindingSetOption</a>  with <a href="https://docs.microsoft.com/windows/desktop/Rpc/binding-option-constants">RPC_C_OPT_COOKIE_AUTH</a>  as the option.
-
+A pointer to this structure is passed as the OptionValue when making a call to <a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcbindingsetoption">RpcBindingSetOption</a>  with <a href="/windows/desktop/Rpc/binding-option-constants">RPC_C_OPT_COOKIE_AUTH</a>  as the option.

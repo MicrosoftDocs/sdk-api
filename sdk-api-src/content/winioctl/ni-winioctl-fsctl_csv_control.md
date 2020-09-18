@@ -86,7 +86,7 @@ Irp->IoStatus.Status is set to STATUS_SUCCESS if the request is successful.
 
 Otherwise, Status to the appropriate error condition as a NTSTATUS code. 
 
-For more information, see [NTSTATUS Values](https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values).
+For more information, see [NTSTATUS Values](/windows-hardware/drivers/kernel/ntstatus-values).
 
 ## -see-also
 
@@ -96,5 +96,4 @@ For more information, see [NTSTATUS Values](https://docs.microsoft.com/windows-h
 * [CSV_QUERY_MDS_PATH](ns-winioctl-csv_query_mds_path.md)
 * [CSV_QUERY_REDIRECT_STATE](ns-winioctl-csv_query_redirect_state.md)
 * [DeviceIoControl](../ioapiset/nf-ioapiset-deviceiocontrol.md)
-* [File Management Control Codes](https://docs.microsoft.com/windows/desktop/FileIO/file-management-control-codes)
-
+* [File Management Control Codes](/windows/desktop/FileIO/file-management-control-codes)

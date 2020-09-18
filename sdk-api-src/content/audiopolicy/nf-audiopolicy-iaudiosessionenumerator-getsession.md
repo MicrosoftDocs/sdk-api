@@ -56,11 +56,11 @@ The <b>GetSession</b> method gets the audio session specified by an audio sessio
 
 ### -param SessionCount [in]
 
-The session number. If there are <i>n</i> sessions, the sessions are numbered from 0 to <i>n</i> – 1. To get the number of sessions, call the <a href="https://docs.microsoft.com/windows/desktop/api/audiopolicy/nf-audiopolicy-iaudiosessionenumerator-getcount">IAudioSessionEnumerator::GetCount</a> method.
+The session number. If there are <i>n</i> sessions, the sessions are numbered from 0 to <i>n</i> – 1. To get the number of sessions, call the <a href="/windows/desktop/api/audiopolicy/nf-audiopolicy-iaudiosessionenumerator-getcount">IAudioSessionEnumerator::GetCount</a> method.
 
 ### -param Session [out]
 
-Receives a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/audiopolicy/nn-audiopolicy-iaudiosessioncontrol">IAudioSessionControl</a> interface of the session object in the collection that is maintained by the session enumerator. The caller must release the interface pointer.
+Receives a pointer to the <a href="/windows/desktop/api/audiopolicy/nn-audiopolicy-iaudiosessioncontrol">IAudioSessionControl</a> interface of the session object in the collection that is maintained by the session enumerator. The caller must release the interface pointer.
 
 ## -returns
 
@@ -68,5 +68,4 @@ If the method succeeds, it returns S_OK.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/audiopolicy/nn-audiopolicy-iaudiosessionenumerator">IAudioSessionEnumerator</a>
-
+<a href="/windows/desktop/api/audiopolicy/nn-audiopolicy-iaudiosessionenumerator">IAudioSessionEnumerator</a>

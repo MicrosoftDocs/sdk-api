@@ -157,9 +157,8 @@ Port number for the packet. For more information, see the description for the
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wdspxe/nf-wdspxe-pxesendreply">PxeSendReply</a>
+<a href="/windows/desktop/api/wdspxe/nf-wdspxe-pxesendreply">PxeSendReply</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Wds/windows-deployment-services-structures">Windows Deployment Services Structures</a>
-
+<a href="/windows/desktop/Wds/windows-deployment-services-structures">Windows Deployment Services Structures</a>

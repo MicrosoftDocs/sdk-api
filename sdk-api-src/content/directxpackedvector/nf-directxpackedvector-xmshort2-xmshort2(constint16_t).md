@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Initializes a new instance of <a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmshort2">XMSHORT2</a> from a two element <code>int16_t</code> array argument.
+Initializes a new instance of <a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmshort2">XMSHORT2</a> from a two element <code>int16_t</code> array argument.
 
 This constructor initializes a new instance of **XMSHORT2** from a two element <code>int16_t</code> array argument.
 
@@ -74,7 +74,6 @@ instance.y = pArray[1];
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmshort2">XMSHORT2</a>
+<a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmshort2">XMSHORT2</a>
 
-<a href="https://docs.microsoft.com/windows/desktop/dxmath/xmshort2-ctor">XMSHORT2 Constructors</a>
-
+<a href="/windows/desktop/dxmath/xmshort2-ctor">XMSHORT2 Constructors</a>

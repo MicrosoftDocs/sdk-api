@@ -63,5 +63,4 @@ Gets a  bitmask value where the bits that are on represent the indices of the su
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfmuxstreamsamplemanager">IMFMuxStreamSampleManager</a>
-
+<a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfmuxstreamsamplemanager">IMFMuxStreamSampleManager</a>

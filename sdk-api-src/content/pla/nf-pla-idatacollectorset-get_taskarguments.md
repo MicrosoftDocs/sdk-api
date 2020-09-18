@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-Retrieves or sets the command-line arguments to pass to the <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/task-scheduler-start-page">Task Scheduler</a> job specified in the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorset-get_task">IDataCollectorSet::Task</a> property.
+Retrieves or sets the command-line arguments to pass to the <a href="/windows/desktop/TaskSchd/task-scheduler-start-page">Task Scheduler</a> job specified in the <a href="/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorset-get_task">IDataCollectorSet::Task</a> property.
 
 This property is read/write.
 
@@ -69,7 +69,7 @@ PLA provides the following substitution variables that you can include in your a
 </tr>
 <tr>
 <td>{key}</td>
-<td>Space-delimited list of key values that were specified using the  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorset-setvalue">IDataCollectorSet::SetValue</a> method.</td>
+<td>Space-delimited list of key values that were specified using the  <a href="/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorset-setvalue">IDataCollectorSet::SetValue</a> method.</td>
 </tr>
 <tr>
 <td>{logs}</td>
@@ -81,22 +81,21 @@ PLA provides the following substitution variables that you can include in your a
 </tr>
 <tr>
 <td>{usertext}</td>
-<td>String from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorset-get_taskusertextarguments">IDataCollectorSet::TaskUserTextArguments</a> property.</td>
+<td>String from the <a href="/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorset-get_taskusertextarguments">IDataCollectorSet::TaskUserTextArguments</a> property.</td>
 </tr>
 </table>
  
 
-Typically, if you use the substitution variables, you specify them in <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorset-get_taskusertextarguments">TaskUserTextArguments</a>, where you do not have to escape the braces and then specify {usertext} in this property.
+Typically, if you use the substitution variables, you specify them in <a href="/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorset-get_taskusertextarguments">TaskUserTextArguments</a>, where you do not have to escape the braces and then specify {usertext} in this property.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nn-pla-idatacollectorset">IDataCollectorSet</a>
+<a href="/previous-versions/windows/desktop/api/pla/nn-pla-idatacollectorset">IDataCollectorSet</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorset-get_task">IDataCollectorSet::Task</a>
+<a href="/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorset-get_task">IDataCollectorSet::Task</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorset-get_taskusertextarguments">IDataCollectorSet::TaskUserTextArguments</a>
-
+<a href="/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorset-get_taskusertextarguments">IDataCollectorSet::TaskUserTextArguments</a>

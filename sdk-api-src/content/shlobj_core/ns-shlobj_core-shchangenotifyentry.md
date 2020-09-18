@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-Contains and receives information for change notifications. This structure is used with the <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-shchangenotifyregister">SHChangeNotifyRegister</a> function and the <a href="https://docs.microsoft.com/windows/desktop/shell/sfvm-queryfsnotify">SFVM_QUERYFSNOTIFY</a> notification.
+Contains and receives information for change notifications. This structure is used with the <a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shchangenotifyregister">SHChangeNotifyRegister</a> function and the <a href="/windows/desktop/shell/sfvm-queryfsnotify">SFVM_QUERYFSNOTIFY</a> notification.
 
 ## -struct-fields
 
@@ -67,4 +67,3 @@ PIDL for which to receive notifications.
 Type: <b>BOOL</b>
 
 A flag indicating whether to post notifications for children of this PIDL. For example, if the PIDL points to a folder, then file notifications would come from the folder's children if this flag was <b>TRUE</b>.
-

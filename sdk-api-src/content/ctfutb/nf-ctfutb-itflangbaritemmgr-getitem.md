@@ -56,11 +56,11 @@ Obtains the ITfLangBarItem interface for an item in the language bar.
 
 ### -param rguid [in]
 
-GUID that identifies the item to obtain. This is the item GUID that the item supplies in <a href="https://docs.microsoft.com/windows/desktop/api/ctfutb/nf-ctfutb-itflangbaritem-getinfo">ITfLangBarItem::GetInfo</a>. This identifier can be a custom value or one of the <a href="https://docs.microsoft.com/windows/desktop/TSF/predefined-lang-bar-items">predefined language bar items</a>.
+GUID that identifies the item to obtain. This is the item GUID that the item supplies in <a href="/windows/desktop/api/ctfutb/nf-ctfutb-itflangbaritem-getinfo">ITfLangBarItem::GetInfo</a>. This identifier can be a custom value or one of the <a href="/windows/desktop/TSF/predefined-lang-bar-items">predefined language bar items</a>.
 
 ### -param ppItem [out]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/ctfutb/nn-ctfutb-itflangbaritem">ITfLangBarItem</a> interface pointer that receives the item interface.
+Pointer to an <a href="/windows/desktop/api/ctfutb/nn-ctfutb-itflangbaritem">ITfLangBarItem</a> interface pointer that receives the item interface.
 
 ## -returns
 
@@ -108,18 +108,17 @@ The <i>ppItem</i> parameter is invalid.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ctfutb/nn-ctfutb-itflangbaritem">ITfLangBarItem</a>
+<a href="/windows/desktop/api/ctfutb/nn-ctfutb-itflangbaritem">ITfLangBarItem</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ctfutb/nf-ctfutb-itflangbaritem-getinfo">ITfLangBarItem::GetInfo</a>
+<a href="/windows/desktop/api/ctfutb/nf-ctfutb-itflangbaritem-getinfo">ITfLangBarItem::GetInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ctfutb/nn-ctfutb-itflangbaritemmgr">ITfLangBarItemMgr</a>
+<a href="/windows/desktop/api/ctfutb/nn-ctfutb-itflangbaritemmgr">ITfLangBarItemMgr</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/TSF/predefined-lang-bar-items">Predefined language bar items
+<a href="/windows/desktop/TSF/predefined-lang-bar-items">Predefined language bar items
       </a>
-

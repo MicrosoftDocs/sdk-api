@@ -239,7 +239,7 @@ Use invalid revword on REV/RECONV.
 </td>
 <td width="60%">
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/ime-sentence-mode-values">IME_SMODE_NONE</a>
+<a href="/windows/desktop/Intl/ime-sentence-mode-values">IME_SMODE_NONE</a>
 
 
 </td>
@@ -251,7 +251,7 @@ Use invalid revword on REV/RECONV.
 </td>
 <td width="60%">
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/ime-sentence-mode-values">IME_SMODE_PLAURALCLAUSE</a>
+<a href="/windows/desktop/Intl/ime-sentence-mode-values">IME_SMODE_PLAURALCLAUSE</a>
 
 
 </td>
@@ -263,7 +263,7 @@ Use invalid revword on REV/RECONV.
 </td>
 <td width="60%">
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/ime-sentence-mode-values">IME_SMODE_SINGLECONVERT</a>
+<a href="/windows/desktop/Intl/ime-sentence-mode-values">IME_SMODE_SINGLECONVERT</a>
 
 
 </td>
@@ -275,7 +275,7 @@ Use invalid revword on REV/RECONV.
 </td>
 <td width="60%">
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/ime-sentence-mode-values">IME_SMODE_AUTOMATIC</a>
+<a href="/windows/desktop/Intl/ime-sentence-mode-values">IME_SMODE_AUTOMATIC</a>
 
 
 </td>
@@ -287,7 +287,7 @@ Use invalid revword on REV/RECONV.
 </td>
 <td width="60%">
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/ime-sentence-mode-values">IME_SMODE_PHRASEPREDICT</a>
+<a href="/windows/desktop/Intl/ime-sentence-mode-values">IME_SMODE_PHRASEPREDICT</a>
 
 
 </td>
@@ -299,7 +299,7 @@ Use invalid revword on REV/RECONV.
 </td>
 <td width="60%">
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/ime-sentence-mode-values">IME_SMODE_CONVERSATION</a>
+<a href="/windows/desktop/Intl/ime-sentence-mode-values">IME_SMODE_CONVERSATION</a>
 
 
 </td>
@@ -381,7 +381,7 @@ The information for each column, where  each <i>pfCInfo[x]</i> corresponds to <i
 The address of a MORRSLT structure that receives the morphology result data.
 
 <b>GetJMorphResult</b> allocates memory using the OLE task allocator for the returned data, and sets the <i>pResult</i> to point to the memory.
-The application must free the memory pointed to by <i>pResult</i>, by using the <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a>.
+The application must free the memory pointed to by <i>pResult</i>, by using the <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a>.
 
 ## -returns
 
@@ -451,5 +451,4 @@ Mutex timeout is occurred.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msime/nn-msime-ifelanguage">IFELanguage</a>
-
+<a href="/windows/desktop/api/msime/nn-msime-ifelanguage">IFELanguage</a>

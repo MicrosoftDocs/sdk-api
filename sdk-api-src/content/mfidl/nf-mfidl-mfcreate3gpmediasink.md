@@ -56,23 +56,23 @@ Creates a media sink for authoring 3GP files.
 
 ### -param pIByteStream [in]
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfbytestream">IMFByteStream</a> interface of a byte stream.  The media sink writes the 3GP file to this byte stream. The byte stream must be writable and support seeking.
+A pointer to the <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfbytestream">IMFByteStream</a> interface of a byte stream.  The media sink writes the 3GP file to this byte stream. The byte stream must be writable and support seeking.
 
 ### -param pVideoMediaType [in]
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfmediatype">IMFMediaType</a> interface of a video media type. This type specifies the format of the video stream.
+A pointer to the <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfmediatype">IMFMediaType</a> interface of a video media type. This type specifies the format of the video stream.
 
 This parameter can be <b>NULL</b>, but not if <i>pAudioMediaType</i> is <b>NULL</b>.
 
 ### -param pAudioMediaType [in]
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfmediatype">IMFMediaType</a> interface of an audio media type. This type specifies the format of the audio stream.
+A pointer to the <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfmediatype">IMFMediaType</a> interface of an audio media type. This type specifies the format of the audio stream.
 
 This parameter can be <b>NULL</b>, but not if <i>pVideoMediaType</i> is <b>NULL</b>.
 
 ### -param ppIMediaSink [out]
 
-Receives a pointer to the 3GP media sink's <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfmediasink">IMFMediaSink</a> interface. The caller must release the interface.
+Receives a pointer to the 3GP media sink's <a href="/windows/desktop/api/mfidl/nn-mfidl-imfmediasink">IMFMediaSink</a> interface. The caller must release the interface.
 
 ## -returns
 
@@ -82,11 +82,10 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 The 3GP media sink supports a maximum of one video stream and one audio stream. The initial stream formats are given in the <i>pVideoMediaType</i> and <i>pAudioMediaType</i> parameters. To create an MP4 file with one stream, set the other stream type to <b>NULL</b>. For example, to create an audio-only file, set <i>pVideoMediaType</i> to <b>NULL</b>. 
 
-The number of streams is fixed when you create the media sink. The sink does not support the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfmediasink-addstreamsink">IMFMediaSink::AddStreamSink</a> method.
+The number of streams is fixed when you create the media sink. The sink does not support the <a href="/windows/desktop/api/mfidl/nf-mfidl-imfmediasink-addstreamsink">IMFMediaSink::AddStreamSink</a> method.
 
-To author MP4 files, use the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-mfcreatempeg4mediasink">MFCreateMPEG4MediaSink</a> function.
+To author MP4 files, use the <a href="/windows/desktop/api/mfidl/nf-mfidl-mfcreatempeg4mediasink">MFCreateMPEG4MediaSink</a> function.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>
-
+<a href="/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>

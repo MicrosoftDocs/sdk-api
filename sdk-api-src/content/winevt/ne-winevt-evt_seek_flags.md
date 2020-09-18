@@ -141,5 +141,4 @@ If the bookmark is within the boundaries of the result set (based on event recor
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winevt/nf-winevt-evtseek">EvtSeek</a>
-
+<a href="/windows/desktop/api/winevt/nf-winevt-evtseek">EvtSeek</a>

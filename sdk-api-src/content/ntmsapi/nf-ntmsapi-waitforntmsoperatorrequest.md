@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[<a href="https://docs.microsoft.com/previous-versions/windows/desktop/bb540725(v=vs.85)">Removable Storage Manager</a> is no longer available as of Windows 7 and  Windows Server 2008 R2.]
+<p class="CCE_Message">[<a href="/previous-versions/windows/desktop/bb540725(v=vs.85)">Removable Storage Manager</a> is no longer available as of Windows 7 and  Windows Server 2008 R2.]
 
 The 
 <b>WaitForNtmsOperatorRequest</b> function waits for the specified RSM operator request.
@@ -60,12 +60,12 @@ The
 ### -param hSession [in]
 
 Handle to the session returned by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/nf-ntmsapi-openntmssessiona">OpenNtmsSession</a> function.
+<a href="/windows/desktop/api/ntmsapi/nf-ntmsapi-openntmssessiona">OpenNtmsSession</a> function.
 
 ### -param lpRequestId [in]
 
 Operator request identifier created by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/nf-ntmsapi-submitntmsoperatorrequesta">SubmitNtmsOperatorRequest</a> function.
+<a href="/windows/desktop/api/ntmsapi/nf-ntmsapi-submitntmsoperatorrequesta">SubmitNtmsOperatorRequest</a> function.
 
 ### -param dwTimeout [in]
 
@@ -132,7 +132,7 @@ Unable to connect to the RSM service.
 </td>
 <td width="60%">
 Unable to find the operator request object. Object requests are flushed from the database. Application should call a function like 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/rsm/media">AllocateNtmsMedia</a> if RSM returns this error.
+<a href="/previous-versions/windows/desktop/rsm/media">AllocateNtmsMedia</a> if RSM returns this error.
 
 </td>
 </tr>
@@ -169,22 +169,21 @@ An application uses
 <b>WaitForNtmsOperatorRequest</b> to wait for resolution of an operator request. The request can be satisfied, rejected, deleted, or timed out.
 
 Typically, applications use the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/nf-ntmsapi-submitntmsoperatorrequesta">SubmitNtmsOperatorRequest</a> function to submit operator requests and use the 
+<a href="/windows/desktop/api/ntmsapi/nf-ntmsapi-submitntmsoperatorrequesta">SubmitNtmsOperatorRequest</a> function to submit operator requests and use the 
 <b>WaitForNtmsOperatorRequest</b> function to wait for their resolution.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/nf-ntmsapi-cancelntmsoperatorrequest">CancelNtmsOperatorRequest</a>
+<a href="/windows/desktop/api/ntmsapi/nf-ntmsapi-cancelntmsoperatorrequest">CancelNtmsOperatorRequest</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/rsm/removable-storage-manager-functions">Operator Request Functions</a>
+<a href="/previous-versions/windows/desktop/rsm/removable-storage-manager-functions">Operator Request Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/nf-ntmsapi-satisfyntmsoperatorrequest">SatisfyNtmsOperatorRequest</a>
+<a href="/windows/desktop/api/ntmsapi/nf-ntmsapi-satisfyntmsoperatorrequest">SatisfyNtmsOperatorRequest</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/nf-ntmsapi-submitntmsoperatorrequesta">SubmitNtmsOperatorRequest</a>
-
+<a href="/windows/desktop/api/ntmsapi/nf-ntmsapi-submitntmsoperatorrequesta">SubmitNtmsOperatorRequest</a>

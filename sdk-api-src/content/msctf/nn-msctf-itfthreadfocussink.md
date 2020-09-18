@@ -50,11 +50,11 @@ api_name:
 
 ## -description
 
-The <b>ITfThreadFocusSink</b> interface is implemented by an application or TSF text service to receive notifications when the thread receives or loses the UI focus. This advise sink is installed by calling the TSF Manager's <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfsource-advisesink">ITfSource::AdviseSink</a> with IID_ITfThreadFocusSink.
+The <b>ITfThreadFocusSink</b> interface is implemented by an application or TSF text service to receive notifications when the thread receives or loses the UI focus. This advise sink is installed by calling the TSF Manager's <a href="/windows/desktop/api/msctf/nf-msctf-itfsource-advisesink">ITfSource::AdviseSink</a> with IID_ITfThreadFocusSink.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfThreadFocusSink</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfThreadFocusSink</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfThreadFocusSink</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfThreadFocusSink</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ITfThreadFocusSink</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfthreadfocussink-onkillthreadfocus">OnKillThreadFocus</a>
+<a href="/windows/desktop/api/msctf/nf-msctf-itfthreadfocussink-onkillthreadfocus">OnKillThreadFocus</a>
 </td>
 <td align="left" width="63%">
 Called when the thread loses the UI focus.
@@ -78,7 +78,7 @@ Called when the thread loses the UI focus.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfthreadfocussink-onsetthreadfocus">OnSetThreadFocus</a>
+<a href="/windows/desktop/api/msctf/nf-msctf-itfthreadfocussink-onsetthreadfocus">OnSetThreadFocus</a>
 </td>
 <td align="left" width="63%">
 Called when the thread receives the UI focus.
@@ -89,10 +89,9 @@ Called when the thread receives the UI focus.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfsource-advisesink">ITfSource::AdviseSink
+<a href="/windows/desktop/api/msctf/nf-msctf-itfsource-advisesink">ITfSource::AdviseSink
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
-
+<a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>

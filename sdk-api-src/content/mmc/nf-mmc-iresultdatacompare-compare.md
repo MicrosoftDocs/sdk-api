@@ -53,14 +53,14 @@ api_name:
 The <b>IResultDataCompare::Compare</b> method provides a way for a primary snap-in to compare cookies for the purpose of sorting the result items that it inserts in the result pane.
 
 The <b>IResultDataCompare::Compare</b> method cannot be used for scope items. However, this functionality is provided by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-iresultdatacompareex-compare">IResultDataCompareEx::Compare</a> method.
+<a href="/windows/desktop/api/mmc/nf-mmc-iresultdatacompareex-compare">IResultDataCompareEx::Compare</a> method.
 
 ## -parameters
 
 ### -param lUserParam [in]
 
 A value that specifies user-provided information that is passed into 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-iresultdata-sort">IResultData::Sort</a>. MMC does not interpret this parameter.
+<a href="/windows/desktop/api/mmc/nf-mmc-iresultdata-sort">IResultData::Sort</a>. MMC does not interpret this parameter.
 
 ### -param cookieA [in]
 
@@ -92,13 +92,12 @@ The comparison should be based on an ascending sort order. If the user toggles t
 
 This 
 IResultDataCompare interface is not called for virtual list sorting. Because the snap-in maintains all the item data storage for a virtual list, the snap-in must sort the items itself. A snap-in must implement the 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-iresultownerdata">IResultOwnerData</a> interface to provide sorting for virtual lists.
+<a href="/windows/desktop/api/mmc/nn-mmc-iresultownerdata">IResultOwnerData</a> interface to provide sorting for virtual lists.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-iresultdata-sort">IResultData::Sort</a>
+<a href="/windows/desktop/api/mmc/nf-mmc-iresultdata-sort">IResultData::Sort</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-iresultownerdata-sortitems">IResultOwnerData::SortItems</a>
-
+<a href="/windows/desktop/api/mmc/nf-mmc-iresultownerdata-sortitems">IResultOwnerData::SortItems</a>

@@ -60,7 +60,7 @@ If <b>TRUE</b>, enumerates the monikers from left to right. If <b>FALSE</b>, enu
 
 ### -param ppenumMoniker [out]
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ienummoniker">IEnumMoniker</a> pointer variable that receives the interface pointer to the enumerator object for the moniker. When successful, the implementation must call <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-addref">AddRef</a> on the enumerator object. It is the caller's responsibility to call <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">Release</a>. If an error occurs or if the moniker has no enumerable components, the implementation sets *<i>ppenumMoniker</i> to <b>NULL</b>.
+A pointer to an <a href="/windows/desktop/api/objidl/nn-objidl-ienummoniker">IEnumMoniker</a> pointer variable that receives the interface pointer to the enumerator object for the moniker. When successful, the implementation must call <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-addref">AddRef</a> on the enumerator object. It is the caller's responsibility to call <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">Release</a>. If an error occurs or if the moniker has no enumerable components, the implementation sets *<i>ppenumMoniker</i> to <b>NULL</b>.
 
 ## -returns
 
@@ -68,7 +68,7 @@ This method can return the standard return values E_OUTOFMEMORY, E_UNEXPECTED, a
 
 ## -remarks
 
-This method must supply an <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ienummoniker">IEnumMoniker</a> pointer to an enumerator that can enumerate the components of a moniker. For example, the implementation of the <b>IMoniker::Enum</b> method for a generic composite moniker creates an enumerator that can determine the individual monikers that make up the composite, while the <b>IMoniker::Enum</b> method for a file moniker creates an enumerator that returns monikers representing each of the components in the path.
+This method must supply an <a href="/windows/desktop/api/objidl/nn-objidl-ienummoniker">IEnumMoniker</a> pointer to an enumerator that can enumerate the components of a moniker. For example, the implementation of the <b>IMoniker::Enum</b> method for a generic composite moniker creates an enumerator that can determine the individual monikers that make up the composite, while the <b>IMoniker::Enum</b> method for a file moniker creates an enumerator that returns monikers representing each of the components in the path.
 
 <h3><a id="Notes_to_Callers"></a><a id="notes_to_callers"></a><a id="NOTES_TO_CALLERS"></a>Notes to Callers</h3>
 Call this method to examine the components that make up a composite moniker.
@@ -118,9 +118,8 @@ If the new moniker class has no discernible internal structure, your implementat
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ienummoniker">IEnumMoniker</a>
+<a href="/windows/desktop/api/objidl/nn-objidl-ienummoniker">IEnumMoniker</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imoniker">IMoniker</a>
-
+<a href="/windows/desktop/api/objidl/nn-objidl-imoniker">IMoniker</a>

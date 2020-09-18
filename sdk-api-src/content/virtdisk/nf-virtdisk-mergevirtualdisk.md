@@ -68,7 +68,7 @@ A pointer to a valid <a href="/windows/win32/api/virtdisk/ns-virtdisk-merge_virt
 
 ### -param Overlapped [in, optional]
 
-An optional pointer to a valid <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> structure if <a href="https://docs.microsoft.com/windows/desktop/Sync/synchronization-and-overlapped-input-and-output">asynchronous</a> operation is desired.
+An optional pointer to a valid <a href="/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> structure if <a href="/windows/desktop/Sync/synchronization-and-overlapped-input-and-output">asynchronous</a> operation is desired.
 
 ## -returns
 
@@ -76,7 +76,7 @@ Status of the request.
 
 If the function succeeds, the return value is <b>ERROR_SUCCESS</b>.
 
-If the function fails, the return value is an error code. For more information, see <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">System Error Codes</a>.
+If the function fails, the return value is an error code. For more information, see <a href="/windows/desktop/Debug/system-error-codes">System Error Codes</a>.
 
 ## -remarks
 
@@ -88,7 +88,7 @@ Merging a disk requires that the affected disks be detached during the operation
 
 The caller must have READ|WRITE access to the backing store for the affected disks.
 
-The RWDepth of the disk must be greater than the merge depth  specified by the [OPEN_VIRTUAL_DISK_PARAMETERS](/windows/win32/api/virtdisk/ns-virtdisk-open_virtual_disk_parameters).
+The RWDepth of the disk must be greater than the merge depth  specified by the [OPEN_VIRTUAL_DISK_PARAMETERS](./ns-virtdisk-open_virtual_disk_parameters.md).
 
 Merge modifies the parent disk being merged into, therefore any other differencing disks dependent on that parent will no longer be valid.
 
@@ -106,9 +106,8 @@ If a merge operation is performed on a nonleaf node of a differencing disk, it i
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd323654(v=vs.85)">About VHD</a>
+<a href="/previous-versions/windows/desktop/legacy/dd323654(v=vs.85)">About VHD</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd323700(v=vs.85)">VHD Reference</a>
-
+<a href="/previous-versions/windows/desktop/legacy/dd323700(v=vs.85)">VHD Reference</a>

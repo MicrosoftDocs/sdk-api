@@ -105,21 +105,20 @@ Insufficient memory.
 
 ## -remarks
 
-This method supports graph persistence. Use this method to save a pin's state, and the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ibasefilter-findpin">IBaseFilter::FindPin</a> method to restore the state. The pin's identifier string is defined by the filter implementation. The identifier must be unique within the filter.
+This method supports graph persistence. Use this method to save a pin's state, and the <a href="/windows/desktop/api/strmif/nf-strmif-ibasefilter-findpin">IBaseFilter::FindPin</a> method to restore the state. The pin's identifier string is defined by the filter implementation. The identifier must be unique within the filter.
 
-<div class="alert"><b>Note</b>  The <i>pin identifier</i> is not necessarily the same as the <i>pin name</i> that the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ipin-querypininfo">QueryPinInfo</a> method returns.</div>
+<div class="alert"><b>Note</b>  The <i>pin identifier</i> is not necessarily the same as the <i>pin name</i> that the <a href="/windows/desktop/api/strmif/nf-strmif-ipin-querypininfo">QueryPinInfo</a> method returns.</div>
 <div> </div>
-The filter allocates the returned string using the <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemalloc">CoTaskMemAlloc</a> function. The caller must free it using <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a>.
+The filter allocates the returned string using the <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemalloc">CoTaskMemAlloc</a> function. The caller must free it using <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/data-flow-in-the-filter-graph">Data Flow in the Filter Graph</a>
+<a href="/windows/desktop/DirectShow/data-flow-in-the-filter-graph">Data Flow in the Filter Graph</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ipin">IPin Interface</a>
-
+<a href="/windows/desktop/api/strmif/nn-strmif-ipin">IPin Interface</a>

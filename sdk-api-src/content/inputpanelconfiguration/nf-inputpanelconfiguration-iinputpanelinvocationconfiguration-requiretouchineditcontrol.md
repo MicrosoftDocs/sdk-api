@@ -80,9 +80,9 @@ pInputPanelInvocationConfiguration->RequireTouchInEditControl();
 ```
 
 
-<div class="alert"><b>Note</b>  Calling <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">Release</a> before the app finishes drawing UI can cause undefined behavior. If the touch keyboard isn't already running, calling <b>Release</b> could cause tiptsf.dll to be unloaded, because there are no more references to the dll. If this occurs, the state set by the <b>RequireTouchInEditControl</b> method is lost.</div>
+<div class="alert"><b>Note</b>  Calling <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">Release</a> before the app finishes drawing UI can cause undefined behavior. If the touch keyboard isn't already running, calling <b>Release</b> could cause tiptsf.dll to be unloaded, because there are no more references to the dll. If this occurs, the state set by the <b>RequireTouchInEditControl</b> method is lost.</div>
 <div> </div>
-If you need to delay the invocation of the touch keyboard until a later time, like when animations or direct manipulation have completed, use  the <b>IsUIBusy</b> custom UI automation property. For more info, see <a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-regcustompropseventpatterns">Registering Custom Properties, Events, and Control Patterns</a>.
+If you need to delay the invocation of the touch keyboard until a later time, like when animations or direct manipulation have completed, use  the <b>IsUIBusy</b> custom UI automation property. For more info, see <a href="/windows/desktop/WinAuto/uiauto-regcustompropseventpatterns">Registering Custom Properties, Events, and Control Patterns</a>.
 
 When you set <b>IsUIBusy</b> to <b>True</b>, the touch keyboard doesn't change visual state based on focus changes within the app. It's still able to change visual state based on overriding user action, like using a physical keyboard or manual dismissal.
 
@@ -120,5 +120,4 @@ UIAutomationPropertyInfo customPropertyInfo =
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/inputpanelconfiguration/nn-inputpanelconfiguration-iinputpanelinvocationconfiguration">IInputPanelInvocationConfiguration</a>
-
+<a href="/windows/desktop/api/inputpanelconfiguration/nn-inputpanelconfiguration-iinputpanelinvocationconfiguration">IInputPanelInvocationConfiguration</a>

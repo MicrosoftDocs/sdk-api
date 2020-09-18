@@ -55,7 +55,7 @@ Applications use the methods of the <b>IDirect3DSwapChain9Ex</b> interface to ma
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDirect3DSwapChain9Ex</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3dswapchain9">IDirect3DSwapChain9</a>. <b>IDirect3DSwapChain9Ex</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDirect3DSwapChain9Ex</b> interface inherits from <a href="/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3dswapchain9">IDirect3DSwapChain9</a>. <b>IDirect3DSwapChain9Ex</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>IDirect3DSwapChain9Ex</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3dswapchain9ex-getdisplaymodeex">GetDisplayModeEx</a>
+<a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3dswapchain9ex-getdisplaymodeex">GetDisplayModeEx</a>
 </td>
 <td align="left" width="63%">
 Retrieves the display mode's spatial resolution, color resolution, refresh frequency, and rotation settings.
@@ -79,7 +79,7 @@ Retrieves the display mode's spatial resolution, color resolution, refresh frequ
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3dswapchain9ex-getlastpresentcount">GetLastPresentCount</a>
+<a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3dswapchain9ex-getlastpresentcount">GetLastPresentCount</a>
 </td>
 <td align="left" width="63%">
 Returns the number of times the swapchain has been processed.
@@ -88,7 +88,7 @@ Returns the number of times the swapchain has been processed.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb205901(v=vs.85)">GetPresentStatistics</a>
+<a href="/previous-versions/windows/desktop/legacy/bb205901(v=vs.85)">GetPresentStatistics</a>
 </td>
 <td align="left" width="63%">
 Gets presentation statistics so an application can identify frames that do not have a Present method call.
@@ -99,24 +99,23 @@ Gets presentation statistics so an application can identify frames that do not h
 
 ## -remarks
 
-There is always at least one swap chain for each device, known as the implicit swap chain. However, an additional swap chain for rendering multiple views from the same device can be created by calling the <a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-createadditionalswapchain">CreateAdditionalSwapChain</a> method.
+There is always at least one swap chain for each device, known as the implicit swap chain. However, an additional swap chain for rendering multiple views from the same device can be created by calling the <a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-createadditionalswapchain">CreateAdditionalSwapChain</a> method.
 
-This interface, like all COM interfaces, inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface.
+This interface, like all COM interfaces, inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface.
 
-The <b>LPDIRECT3DSWAPCHAIN9</b> and <b>PDIRECT3DSWAPCHAIN9</b> types are defined as pointers to the <a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3dswapchain9">IDirect3DSwapChain9</a> interface.
+The <b>LPDIRECT3DSWAPCHAIN9</b> and <b>PDIRECT3DSWAPCHAIN9</b> types are defined as pointers to the <a href="/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3dswapchain9">IDirect3DSwapChain9</a> interface.
 
-<b>IDirect3DSwapChain9Ex</b> objects are returned as a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3dswapchain9">IDirect3DSwapChain9</a> object when <a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-getswapchain">GetSwapChain</a> is called on an instance of <a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nn-d3d9-idirect3ddevice9ex">IDirect3DDevice9Ex</a>.
-The <b>IDirect3DSwapChain9Ex</b> interface is obtained by calling <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> on the instance of <b>IDirect3DSwapChain9</b> that was returned by <b>GetSwapChain</b>.
+<b>IDirect3DSwapChain9Ex</b> objects are returned as a pointer to an <a href="/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3dswapchain9">IDirect3DSwapChain9</a> object when <a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-getswapchain">GetSwapChain</a> is called on an instance of <a href="/windows/desktop/api/d3d9/nn-d3d9-idirect3ddevice9ex">IDirect3DDevice9Ex</a>.
+The <b>IDirect3DSwapChain9Ex</b> interface is obtained by calling <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> on the instance of <b>IDirect3DSwapChain9</b> that was returned by <b>GetSwapChain</b>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3d9/dx9-graphics-reference-d3d-interfaces">Direct3D Interfaces</a>
+<a href="/windows/desktop/direct3d9/dx9-graphics-reference-d3d-interfaces">Direct3D Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3d9/dx9lh">Feature Summary (Direct3D 9 for Windows Vista)</a>
+<a href="/windows/desktop/direct3d9/dx9lh">Feature Summary (Direct3D 9 for Windows Vista)</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3dswapchain9">IDirect3DSwapChain9</a>
-
+<a href="/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3dswapchain9">IDirect3DSwapChain9</a>

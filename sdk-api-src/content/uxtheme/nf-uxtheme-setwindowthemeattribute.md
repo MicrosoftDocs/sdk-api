@@ -58,7 +58,7 @@ Sets attributes to control how visual styles are applied to a specified window.
 
 ### -param hwnd [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 Handle to a window to apply changes to.
 
@@ -66,7 +66,7 @@ Handle to a window to apply changes to.
 
 Type: <b>enum WINDOWTHEMEATTRIBUTETYPE</b>
 
-Value of type <a href="https://docs.microsoft.com/windows/desktop/api/uxtheme/ne-uxtheme-windowthemeattributetype">WINDOWTHEMEATTRIBUTETYPE</a> that specifies the type of attribute to set. The value of this parameter determines the type of data that should be passed in the <i>pvAttribute</i> parameter. Can be the following value.
+Value of type <a href="/windows/desktop/api/uxtheme/ne-uxtheme-windowthemeattributetype">WINDOWTHEMEATTRIBUTETYPE</a> that specifies the type of attribute to set. The value of this parameter determines the type of data that should be passed in the <i>pvAttribute</i> parameter. Can be the following value.
 
 <table>
 <tr>
@@ -79,7 +79,7 @@ Value of type <a href="https://docs.microsoft.com/windows/desktop/api/uxtheme/ne
 </dl>
 </td>
 <td width="60%">
-Specifies non-client related attributes. <i>pvAttribute</i> must be a pointer of type <a href="https://docs.microsoft.com/windows/desktop/api/uxtheme/ns-uxtheme-wta_options">WTA_OPTIONS</a>.
+Specifies non-client related attributes. <i>pvAttribute</i> must be a pointer of type <a href="/windows/desktop/api/uxtheme/ns-uxtheme-wta_options">WTA_OPTIONS</a>.
 
 </td>
 </tr>
@@ -87,23 +87,22 @@ Specifies non-client related attributes. <i>pvAttribute</i> must be a pointer of
 
 ### -param pvAttribute [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">PVOID</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">PVOID</a></b>
 
 A pointer that specifies attributes to set. Type is determined by the value of the <i>eAttribute</i> value.
 
 ### -param cbAttribute [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 Specifies the size, in bytes, of the data pointed to by <i>pvAttribute</i>.
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uxtheme/ne-uxtheme-windowthemeattributetype">WINDOWTHEMEATTRIBUTETYPE</a>
-
+<a href="/windows/desktop/api/uxtheme/ne-uxtheme-windowthemeattributetype">WINDOWTHEMEATTRIBUTETYPE</a>

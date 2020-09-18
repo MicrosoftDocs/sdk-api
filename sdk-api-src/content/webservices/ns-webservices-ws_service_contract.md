@@ -52,13 +52,13 @@ api_name:
 
 ## -description
 
-Specifies a service contract on an <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_service_endpoint">endpoint</a>.
+Specifies a service contract on an <a href="/windows/desktop/api/webservices/ns-webservices-ws_service_endpoint">endpoint</a>.
 
 ## -struct-fields
 
 ### -field contractDescription
 
-The typed contract metadata. See <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_contract_description">WS_CONTRACT_DESCRIPTION</a>. Optional, if <b>defaultMessageHandlerCallback</b> is given.
+The typed contract metadata. See <a href="/windows/desktop/api/webservices/ns-webservices-ws_contract_description">WS_CONTRACT_DESCRIPTION</a>. Optional, if <b>defaultMessageHandlerCallback</b> is given.
 
 ### -field defaultMessageHandlerCallback
 
@@ -67,4 +67,3 @@ Callback for processing unhandled messages. Optional if contractDescription is g
 ### -field methodTable
 
 The function table. Mandatory, if <b>contractDescription</b> is given.
-

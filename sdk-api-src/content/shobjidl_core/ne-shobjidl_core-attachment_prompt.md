@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Provides a set of flags to be used with <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iattachmentexecute-prompt">IAttachmentExecute::Prompt</a> to indicate the type of prompt UI to display.
+Provides a set of flags to be used with <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iattachmentexecute-prompt">IAttachmentExecute::Prompt</a> to indicate the type of prompt UI to display.
 
 ## -enum-fields
 
@@ -69,4 +69,3 @@ Displays a prompt asking whether the user would like to execute the attachment.
 ### -field ATTACHMENT_PROMPT_EXEC_OR_SAVE
 
 Displays a prompt giving the user a choice of executing or saving the attachment.
-

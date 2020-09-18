@@ -134,13 +134,13 @@ The <b>BluetoothGATTBeginReliableWrite</b> function notifies the Bluetooth stack
 
 <ul>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/bluetoothleapis/nf-bluetoothleapis-bluetoothgattsetcharacteristicvalue">BluetoothGATTSetCharacteristicValue</a>
+<a href="/windows/desktop/api/bluetoothleapis/nf-bluetoothleapis-bluetoothgattsetcharacteristicvalue">BluetoothGATTSetCharacteristicValue</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/bluetoothleapis/nf-bluetoothleapis-bluetoothgattendreliablewrite">BluetoothGATTEndReliableWrite</a>
+<a href="/windows/desktop/api/bluetoothleapis/nf-bluetoothleapis-bluetoothgattendreliablewrite">BluetoothGATTEndReliableWrite</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/bluetoothleapis/nf-bluetoothleapis-bluetoothgattabortreliablewrite">BluetoothGATTAbortReliableWrite</a>
+<a href="/windows/desktop/api/bluetoothleapis/nf-bluetoothleapis-bluetoothgattabortreliablewrite">BluetoothGATTAbortReliableWrite</a>
 </li>
 </ul>
 
@@ -164,4 +164,3 @@ if (NULL != ReliableWriteContext) {
                                   BLUETOOTH_GATT_FLAG_NONE);
 }
 ```
-

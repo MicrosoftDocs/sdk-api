@@ -90,17 +90,16 @@ Not implemented.
 
 ## -remarks
 
-The activation object releases all of its internal references to the created object. If you call <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfactivate-activateobject">ActivateObject</a> again, the activation object will create a new instance of the other object.
+The activation object releases all of its internal references to the created object. If you call <a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfactivate-activateobject">ActivateObject</a> again, the activation object will create a new instance of the other object.
 
-The <b>DetachObject</b> method does not shut down the created object. If the <b>DetachObject</b> method succeeds, the client must shut down the created object. This rule applies only to objects that have a shutdown method or that support the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfshutdown">IMFShutdown</a> interface. See the remarks for <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfactivate-activateobject">IMFActivate::ActivateObject</a>.
+The <b>DetachObject</b> method does not shut down the created object. If the <b>DetachObject</b> method succeeds, the client must shut down the created object. This rule applies only to objects that have a shutdown method or that support the <a href="/windows/desktop/api/mfidl/nn-mfidl-imfshutdown">IMFShutdown</a> interface. See the remarks for <a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfactivate-activateobject">IMFActivate::ActivateObject</a>.
 
 Implementation of this method is optional. If the activation object does not support this method, the method returns E_NOTIMPL.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/activation-objects">Activation Objects</a>
+<a href="/windows/desktop/medfound/activation-objects">Activation Objects</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfactivate">IMFActivate</a>
-
+<a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfactivate">IMFActivate</a>

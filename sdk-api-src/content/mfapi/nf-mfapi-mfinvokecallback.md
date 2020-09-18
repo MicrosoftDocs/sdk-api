@@ -56,7 +56,7 @@ Invokes a callback method to complete an asynchronous operation.
 
 ### -param pAsyncResult
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfasyncresult">IMFAsyncResult</a> interface. To create this object, call <a href="https://docs.microsoft.com/windows/desktop/api/mfapi/nf-mfapi-mfcreateasyncresult">MFCreateAsyncResult</a>.
+Pointer to the <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfasyncresult">IMFAsyncResult</a> interface. To create this object, call <a href="/windows/desktop/api/mfapi/nf-mfapi-mfcreateasyncresult">MFCreateAsyncResult</a>.
 
 ## -returns
 
@@ -86,7 +86,7 @@ The function succeeded.
 </dl>
 </td>
 <td width="60%">
-Invalid work queue. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfasynccallback-getparameters">IMFAsyncCallback::GetParameters</a>.
+Invalid work queue. For more information, see <a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfasynccallback-getparameters">IMFAsyncCallback::GetParameters</a>.
 
 </td>
 </tr>
@@ -97,7 +97,7 @@ Invalid work queue. For more information, see <a href="https://docs.microsoft.co
 </dl>
 </td>
 <td width="60%">
-The <a href="https://docs.microsoft.com/windows/desktop/api/mfapi/nf-mfapi-mfshutdown">MFShutdown</a> function was called to shut down the Media Foundation platform.
+The <a href="/windows/desktop/api/mfapi/nf-mfapi-mfshutdown">MFShutdown</a> function was called to shut down the Media Foundation platform.
 
 </td>
 </tr>
@@ -105,17 +105,16 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/mfapi/nf-mfapi-mfshu
 
 ## -remarks
 
-If you are implementing an asynchronous method, use this function to invoke the caller's <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfasynccallback-invoke">IMFAsyncCallback::Invoke</a> method.
+If you are implementing an asynchronous method, use this function to invoke the caller's <a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfasynccallback-invoke">IMFAsyncCallback::Invoke</a> method.
 
-The callback is invoked from a Media Foundation work queue. For more information, see <a href="https://docs.microsoft.com/windows/desktop/medfound/writing-an-asynchronous-method">Writing an Asynchronous Method</a>.
+The callback is invoked from a Media Foundation work queue. For more information, see <a href="/windows/desktop/medfound/writing-an-asynchronous-method">Writing an Asynchronous Method</a>.
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/mfapi/nf-mfapi-mfshutdown">MFShutdown</a> function shuts down the work queue threads, so the callback is not guaranteed to be invoked after <b>MFShutdown</b> is called.
+The <a href="/windows/desktop/api/mfapi/nf-mfapi-mfshutdown">MFShutdown</a> function shuts down the work queue threads, so the callback is not guaranteed to be invoked after <b>MFShutdown</b> is called.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/asynchronous-callback-methods">Asynchronous Callback Methods</a>
+<a href="/windows/desktop/medfound/asynchronous-callback-methods">Asynchronous Callback Methods</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>
-
+<a href="/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>

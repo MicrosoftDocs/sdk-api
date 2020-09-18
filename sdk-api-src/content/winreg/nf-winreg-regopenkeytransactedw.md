@@ -62,9 +62,9 @@ Opens the specified registry key and associates it with a  transaction. Note tha
 ### -param hKey [in]
 
 A handle to an open registry key. This handle is returned by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regcreatekeyexa">RegCreateKeyEx</a>, <a href="https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regcreatekeytransacteda">RegCreateKeyTransacted</a>, <a href="https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regopenkeyexa">RegOpenKeyEx</a>, or 
+<a href="/windows/desktop/api/winreg/nf-winreg-regcreatekeyexa">RegCreateKeyEx</a>, <a href="/windows/desktop/api/winreg/nf-winreg-regcreatekeytransacteda">RegCreateKeyTransacted</a>, <a href="/windows/desktop/api/winreg/nf-winreg-regopenkeyexa">RegOpenKeyEx</a>, or 
  <b>RegOpenKeyTransacted</b> function. It can also be one of the following 
-<a href="https://docs.microsoft.com/windows/desktop/SysInfo/predefined-keys">predefined keys</a>:
+<a href="/windows/desktop/SysInfo/predefined-keys">predefined keys</a>:
 
 <b>HKEY_CLASSES_ROOT</b>
 <b>HKEY_CURRENT_USER</b>
@@ -80,7 +80,7 @@ Key names are not case sensitive.
 If this parameter is <b>NULL</b> or a pointer to an empty string, the function will open a new handle to the key identified by the <i>hKey</i> parameter.
 
 For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/SysInfo/registry-element-size-limits">Registry Element Size Limits</a>.
+<a href="/windows/desktop/SysInfo/registry-element-size-limits">Registry Element Size Limits</a>.
 
 ### -param ulOptions [in]
 
@@ -89,16 +89,16 @@ This parameter is reserved and must be zero.
 ### -param samDesired [in]
 
 A mask that specifies the desired access rights to the key. The function fails if the security descriptor of the key does not permit the requested access for the calling process. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/SysInfo/registry-key-security-and-access-rights">Registry Key Security and Access Rights</a>.
+<a href="/windows/desktop/SysInfo/registry-key-security-and-access-rights">Registry Key Security and Access Rights</a>.
 
 ### -param phkResult [out]
 
 A pointer to a variable that receives a handle to the opened key. If the key is not one of the predefined registry keys, call the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regclosekey">RegCloseKey</a> function after you have finished using the handle.
+<a href="/windows/desktop/api/winreg/nf-winreg-regclosekey">RegCloseKey</a> function after you have finished using the handle.
 
 ### -param hTransaction [in]
 
-A handle to an active transaction. This handle is returned by the <a href="https://docs.microsoft.com/windows/desktop/api/ktmw32/nf-ktmw32-createtransaction">CreateTransaction</a> function.
+A handle to an active transaction. This handle is returned by the <a href="/windows/desktop/api/ktmw32/nf-ktmw32-createtransaction">CreateTransaction</a> function.
 
 ### -param pExtendedParemeter
 
@@ -109,19 +109,19 @@ This parameter is reserved and must be <b>NULL</b>.
 If the function succeeds, the return value is ERROR_SUCCESS.
 
 If the function fails, the return value is a nonzero error code defined in Winerror.h. You can use the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a> function with the FORMAT_MESSAGE_FROM_SYSTEM flag to get a generic description of the error.
+<a href="/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a> function with the FORMAT_MESSAGE_FROM_SYSTEM flag to get a generic description of the error.
 
 ## -remarks
 
-When a key is opened using this function, subsequent operations on the key are transacted. If a non-transacted operation is performed on the key before the transaction is committed, the transaction is rolled back. After a transaction is committed or rolled back, you must re-open the key using the <a href="https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regcreatekeytransacteda">RegCreateKeyTransacted</a> or <b>RegOpenKeyTransacted</b> function with an active transaction handle to make additional operations transacted. For more information about transactions, see <a href="https://docs.microsoft.com/windows/desktop/Ktm/kernel-transaction-manager-portal">Kernel Transaction Manager</a>.
+When a key is opened using this function, subsequent operations on the key are transacted. If a non-transacted operation is performed on the key before the transaction is committed, the transaction is rolled back. After a transaction is committed or rolled back, you must re-open the key using the <a href="/windows/desktop/api/winreg/nf-winreg-regcreatekeytransacteda">RegCreateKeyTransacted</a> or <b>RegOpenKeyTransacted</b> function with an active transaction handle to make additional operations transacted. For more information about transactions, see <a href="/windows/desktop/Ktm/kernel-transaction-manager-portal">Kernel Transaction Manager</a>.
 
-Note that subsequent operations on subkeys of this key are not automatically transacted. Therefore,  the <a href="https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regdeletekeyexa">RegDeleteKeyEx</a> function does not perform a transacted delete operation. Instead, use the <a href="https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regdeletekeytransacteda">RegDeleteKeyTransacted</a> function to perform a transacted delete operation.
+Note that subsequent operations on subkeys of this key are not automatically transacted. Therefore,  the <a href="/windows/desktop/api/winreg/nf-winreg-regdeletekeyexa">RegDeleteKeyEx</a> function does not perform a transacted delete operation. Instead, use the <a href="/windows/desktop/api/winreg/nf-winreg-regdeletekeytransacteda">RegDeleteKeyTransacted</a> function to perform a transacted delete operation.
 
 Unlike the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regcreatekeytransacteda">RegCreateKeyTransacted</a> function, the 
+<a href="/windows/desktop/api/winreg/nf-winreg-regcreatekeytransacteda">RegCreateKeyTransacted</a> function, the 
 <b>RegOpenKeyTransacted</b> function does not create the specified key if the key does not exist in the registry.
 
-If your service or application impersonates different users, do not use this function with <b>HKEY_CURRENT_USER</b>. Instead, call the <a href="https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regopencurrentuser">RegOpenCurrentUser</a> function.
+If your service or application impersonates different users, do not use this function with <b>HKEY_CURRENT_USER</b>. Instead, call the <a href="/windows/desktop/api/winreg/nf-winreg-regopencurrentuser">RegOpenCurrentUser</a> function.
 
 A single registry key can be opened only 65,534 times. When attempting the 65,535<sup>th</sup> open operation, this function fails with ERROR_NO_SYSTEM_RESOURCES.
 
@@ -134,21 +134,20 @@ A single registry key can be opened only 65,534 times. When attempting the 65,53
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regclosekey">RegCloseKey</a>
+<a href="/windows/desktop/api/winreg/nf-winreg-regclosekey">RegCloseKey</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regcreatekeytransacteda">RegCreateKeyTransacted</a>
+<a href="/windows/desktop/api/winreg/nf-winreg-regcreatekeytransacteda">RegCreateKeyTransacted</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regdeletekeya">RegDeleteKeyTransacted</a>
+<a href="/windows/desktop/api/winreg/nf-winreg-regdeletekeya">RegDeleteKeyTransacted</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SysInfo/registry-functions">Registry Functions</a>
+<a href="/windows/desktop/SysInfo/registry-functions">Registry Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SysInfo/registry">Registry Overview</a>
-
+<a href="/windows/desktop/SysInfo/registry">Registry Overview</a>

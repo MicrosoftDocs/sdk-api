@@ -65,11 +65,10 @@ This state can occur when the device does not require a PIN.  It can also occur 
 
 ### -field MBN_PIN_STATE_ENTER
 
-Indicates that the device is currently locked and requires a PIN to be entered to unlock it  The caller can unlock the device by calling the <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nf-mbnapi-imbnpin-enter">Enter</a> method of the <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbnpin">IMbnPin</a> interface.
+Indicates that the device is currently locked and requires a PIN to be entered to unlock it  The caller can unlock the device by calling the <a href="/windows/desktop/api/mbnapi/nf-mbnapi-imbnpin-enter">Enter</a> method of the <a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbnpin">IMbnPin</a> interface.
 
 ### -field MBN_PIN_STATE_UNBLOCK
 
-Indicates that the device is in a PIN blocked state and that the PIN needs to be unblocked using the corresponding PIN Unblock Key (PUK).  The caller can unlock the device by calling the <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nf-mbnapi-imbnpin-unblock">Unblock</a> method of the <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbnpin">IMbnPin</a> interface.
+Indicates that the device is in a PIN blocked state and that the PIN needs to be unblocked using the corresponding PIN Unblock Key (PUK).  The caller can unlock the device by calling the <a href="/windows/desktop/api/mbnapi/nf-mbnapi-imbnpin-unblock">Unblock</a> method of the <a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbnpin">IMbnPin</a> interface.
 
 This state can occur after repeated PIN entry attempts have exhausted the allowable quota.
-

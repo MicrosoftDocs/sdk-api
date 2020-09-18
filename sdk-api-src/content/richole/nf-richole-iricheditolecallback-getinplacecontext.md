@@ -58,13 +58,13 @@ Provides the application and document-level interfaces and information required 
 
 Type: <b>LPOLEINPLACEFRAME*</b>
 
-The address of the <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-ioleinplaceframe">IOleInPlaceFrame</a> interface that represents the frame window of a rich edit control client. Use the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-addref">AddRef</a> method to increment the reference count. The rich edit control releases the interface when it is no longer needed.
+The address of the <a href="/windows/desktop/api/oleidl/nn-oleidl-ioleinplaceframe">IOleInPlaceFrame</a> interface that represents the frame window of a rich edit control client. Use the <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-addref">AddRef</a> method to increment the reference count. The rich edit control releases the interface when it is no longer needed.
 
 ### -param lplpDoc
 
 Type: <b>LPOLEINPLACEUIWINDOW*</b>
 
-The address of the <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-ioleinplaceuiwindow">IOleInPlaceUIWindow</a> interface that represents the document window of the rich edit control client. An interface need not be returned if the frame and document windows are the same. Use the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-addref">AddRef</a>method to increment the reference count. The rich edit control releases the interface when it is no longer needed.
+The address of the <a href="/windows/desktop/api/oleidl/nn-oleidl-ioleinplaceuiwindow">IOleInPlaceUIWindow</a> interface that represents the document window of the rich edit control client. An interface need not be returned if the frame and document windows are the same. Use the <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-addref">AddRef</a>method to increment the reference count. The rich edit control releases the interface when it is no longer needed.
 
 ### -param lpFrameInfo
 
@@ -74,7 +74,7 @@ The accelerator information.
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 Returns <b>S_OK</b> on success. If the method fails, it can return the following value.
 
@@ -98,5 +98,4 @@ There was an invalid argument.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/richole/nn-richole-iricheditolecallback">IRichEditOleCallback</a>
-
+<a href="/windows/desktop/api/richole/nn-richole-iricheditolecallback">IRichEditOleCallback</a>

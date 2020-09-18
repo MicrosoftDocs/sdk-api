@@ -54,7 +54,7 @@ The <b>INetworkConnection</b> interface represents a single network connection.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">INetworkConnection</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>INetworkConnection</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">INetworkConnection</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>INetworkConnection</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -70,7 +70,7 @@ The <b>INetworkConnection</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/netlistmgr/nf-netlistmgr-inetworkconnection-getadapterid">GetAdapterId</a>
+<a href="/windows/desktop/api/netlistmgr/nf-netlistmgr-inetworkconnection-getadapterid">GetAdapterId</a>
 </td>
 <td align="left" width="63%">
 Returns the ID of the network adapter used by this connection. There may multiple connections using the same adapter ID.
@@ -79,7 +79,7 @@ Returns the ID of the network adapter used by this connection. There may multipl
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/netlistmgr/nf-netlistmgr-inetworkconnection-getconnectionid">GetConnectionId</a>
+<a href="/windows/desktop/api/netlistmgr/nf-netlistmgr-inetworkconnection-getconnectionid">GetConnectionId</a>
 </td>
 <td align="left" width="63%">
 Returns the Connection ID associated with this network connection.
@@ -88,7 +88,7 @@ Returns the Connection ID associated with this network connection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/netlistmgr/nf-netlistmgr-inetworkconnection-getconnectivity">GetConnectivity</a>
+<a href="/windows/desktop/api/netlistmgr/nf-netlistmgr-inetworkconnection-getconnectivity">GetConnectivity</a>
 </td>
 <td align="left" width="63%">
 Returns the connectivity state of the network.
@@ -97,7 +97,7 @@ Returns the connectivity state of the network.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/netlistmgr/nf-netlistmgr-inetworkconnection-getdomaintype">GetDomainType</a>
+<a href="/windows/desktop/api/netlistmgr/nf-netlistmgr-inetworkconnection-getdomaintype">GetDomainType</a>
 </td>
 <td align="left" width="63%">
 Returns the type of network connection.
@@ -106,7 +106,7 @@ Returns the type of network connection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/netlistmgr/nf-netlistmgr-inetworkconnection-getnetwork">GetNetwork</a>
+<a href="/windows/desktop/api/netlistmgr/nf-netlistmgr-inetworkconnection-getnetwork">GetNetwork</a>
 </td>
 <td align="left" width="63%">
 Returns the associated network for the connection.
@@ -124,7 +124,7 @@ Returns the associated network for the connection.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/netlistmgr/nf-netlistmgr-inetworkconnection-get_isconnected">get_IsConnected</a>
+<a href="/windows/desktop/api/netlistmgr/nf-netlistmgr-inetworkconnection-get_isconnected">get_IsConnected</a>
 
 
 </td>
@@ -140,7 +140,7 @@ Specifies if the associated network has any network connectivity.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/netlistmgr/nf-netlistmgr-inetworkconnection-get_isconnectedtointernet">get_IsConnectedToInternet</a>
+<a href="/windows/desktop/api/netlistmgr/nf-netlistmgr-inetworkconnection-get_isconnectedtointernet">get_IsConnectedToInternet</a>
 
 
 </td>
@@ -154,4 +154,3 @@ Specifies if the associated network has any internet connectivity.
 </td>
 </tr>
 </table>
-

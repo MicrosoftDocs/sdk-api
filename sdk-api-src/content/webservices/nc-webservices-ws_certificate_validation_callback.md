@@ -56,7 +56,7 @@ The <i>WS_CERTIFICATE_VALIDATION_CALLBACK</i> callback is invoked to validate a 
 
 ### -param certContext [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a> structure that is associated with the connection. Applications must free this structure using <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certfreecertificatecontext">CertFreeCertificateContext</a>.
+A pointer to a <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a> structure that is associated with the connection. Applications must free this structure using <a href="/windows/desktop/api/wincrypt/nf-wincrypt-certfreecertificatecontext">CertFreeCertificateContext</a>.
 
 ### -param *state [in, optional]
 
@@ -97,11 +97,10 @@ This function may return other errors not listed above.
 
 ## -remarks
 
-If <i>WS_CERTIFICATE_VALIDATION_CALLBACK</i> returns any value other than <b>S_OK</b>, the channel will be aborted. The service proxy will also be aborted if this property was passed to <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wscreateserviceproxy">WsCreateServiceProxy</a>.
+If <i>WS_CERTIFICATE_VALIDATION_CALLBACK</i> returns any value other than <b>S_OK</b>, the channel will be aborted. The service proxy will also be aborted if this property was passed to <a href="/windows/desktop/api/webservices/nf-webservices-wscreateserviceproxy">WsCreateServiceProxy</a>.
 
 The callback implementation must avoid long computation times or long blocking calls so that it returns to the caller quickly.
 
 ## -see-also
 
 <a href="/windows/win32/api/webservices/ns-webservices-ws_certificate_validation_callback_context">WS_CERTIFICATE_VALIDATION_CALLBACK_CONTEXT</a>
-

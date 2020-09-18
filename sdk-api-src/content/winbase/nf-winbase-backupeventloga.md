@@ -59,7 +59,7 @@ Saves the specified event log to a backup file. The function does not clear the 
 
 ### -param hEventLog [in]
 
-A handle to the open event log. The <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-openeventloga">OpenEventLog</a> function returns this handle.
+A handle to the open event log. The <a href="/windows/desktop/api/winbase/nf-winbase-openeventloga">OpenEventLog</a> function returns this handle.
 
 ### -param lpBackupFileName [in]
 
@@ -71,7 +71,7 @@ If the function succeeds, the return value is nonzero.
 						
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
@@ -86,9 +86,8 @@ The <b>BackupEventLog</b> function fails with the ERROR_PRIVILEGE_NOT_HELD error
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-openbackupeventloga">OpenBackupEventLog</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-openbackupeventloga">OpenBackupEventLog</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-openeventloga">OpenEventLog</a>
-
+<a href="/windows/desktop/api/winbase/nf-winbase-openeventloga">OpenEventLog</a>

@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Gets the handle to an image list used for drawing list-view items. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/lvm-getimagelist">LVM_GETIMAGELIST</a> message explicitly.
+Gets the handle to an image list used for drawing list-view items. You can use this macro or send the <a href="/windows/desktop/Controls/lvm-getimagelist">LVM_GETIMAGELIST</a> message explicitly.
 
 ## -parameters
 
 ### -param hwnd
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the list-view control.
 
@@ -112,4 +112,3 @@ Image list for group header.
 </td>
 </tr>
 </table>
-

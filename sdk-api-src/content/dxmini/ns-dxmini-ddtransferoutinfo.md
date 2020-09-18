@@ -64,5 +64,4 @@ Specifies the polarity of the field being captured. This value is set to true if
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dxmini/nc-dxmini-pdx_transfer">DxTransfer</a>
-
+<a href="/windows/desktop/api/dxmini/nc-dxmini-pdx_transfer">DxTransfer</a>

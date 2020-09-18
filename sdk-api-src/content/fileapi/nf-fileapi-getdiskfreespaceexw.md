@@ -99,7 +99,7 @@ This parameter can be <b>NULL</b>.
 If per-user quotas are being used, this value may be less than the total number of bytes on a disk.
 
 To determine the total number of bytes on a disk or volume, use 
-       <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_disk_get_length_info">IOCTL_DISK_GET_LENGTH_INFO</a>.
+       <a href="/windows/desktop/api/winioctl/ni-winioctl-ioctl_disk_get_length_info">IOCTL_DISK_GET_LENGTH_INFO</a>.
 
 ### -param lpTotalNumberOfFreeBytes [out, optional]
 
@@ -112,7 +112,7 @@ This parameter can be <b>NULL</b>.
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero (0). To get extended error information, call 
-       <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+       <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
@@ -136,13 +136,12 @@ Symbolic link behavior—If the path points to a symbolic link, the operation is
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/disk-management-functions">Disk Management Functions</a>
+<a href="/windows/desktop/FileIO/disk-management-functions">Disk Management Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-getdiskfreespacea">GetDiskFreeSpace</a>
+<a href="/windows/desktop/api/fileapi/nf-fileapi-getdiskfreespacea">GetDiskFreeSpace</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getmodulehandlea">GetModuleHandle</a>
-
+<a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-getmodulehandlea">GetModuleHandle</a>

@@ -62,7 +62,7 @@ api_name:
 
 Translates (maps) a virtual-key code into a scan code or character value, or translates a scan code into a virtual-key code.
 
-To specify a handle to the keyboard layout to use for translating the specified code, use the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-mapvirtualkeyexa">MapVirtualKeyEx</a> function.
+To specify a handle to the keyboard layout to use for translating the specified code, use the <a href="/windows/desktop/api/winuser/nf-winuser-mapvirtualkeyexa">MapVirtualKeyEx</a> function.
 
 ## -parameters
 
@@ -70,7 +70,7 @@ To specify a handle to the keyboard layout to use for translating the specified 
 
 Type: <b>UINT</b>
 
-The <a href="https://docs.microsoft.com/windows/desktop/inputdev/virtual-key-codes">virtual key code</a> or scan code for a key. How this value is interpreted depends on the value of the <i>uMapType</i> parameter.
+The <a href="/windows/desktop/inputdev/virtual-key-codes">virtual key code</a> or scan code for a key. How this value is interpreted depends on the value of the <i>uMapType</i> parameter.
 
 ### -param uMapType [in]
 
@@ -149,7 +149,7 @@ An application can get the scan code corresponding to the left or right instance
 <li><b>VK_LMENU</b></li>
 <li><b>VK_RMENU</b></li>
 </ul>
-These left- and right-distinguishing constants are available to an application only through the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getkeyboardstate">GetKeyboardState</a>, <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setkeyboardstate">SetKeyboardState</a>, <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getasynckeystate">GetAsyncKeyState</a>, <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getkeystate">GetKeyState</a>, and <b>MapVirtualKey</b> functions.
+These left- and right-distinguishing constants are available to an application only through the <a href="/windows/desktop/api/winuser/nf-winuser-getkeyboardstate">GetKeyboardState</a>, <a href="/windows/desktop/api/winuser/nf-winuser-setkeyboardstate">SetKeyboardState</a>, <a href="/windows/desktop/api/winuser/nf-winuser-getasynckeystate">GetAsyncKeyState</a>, <a href="/windows/desktop/api/winuser/nf-winuser-getkeystate">GetKeyState</a>, and <b>MapVirtualKey</b> functions.
 
 
 
@@ -164,23 +164,23 @@ These left- and right-distinguishing constants are available to an application o
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getasynckeystate">GetAsyncKeyState</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-getasynckeystate">GetAsyncKeyState</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getkeystate">GetKeyState</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-getkeystate">GetKeyState</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getkeyboardstate">GetKeyboardState</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-getkeyboardstate">GetKeyboardState</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/inputdev/keyboard-input">Keyboard Input</a>
+<a href="/windows/desktop/inputdev/keyboard-input">Keyboard Input</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-mapvirtualkeyexa">MapVirtualKeyEx</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-mapvirtualkeyexa">MapVirtualKeyEx</a>
 
 
 
@@ -188,5 +188,4 @@ These left- and right-distinguishing constants are available to an application o
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setkeyboardstate">SetKeyboardState</a>
-
+<a href="/windows/desktop/api/winuser/nf-winuser-setkeyboardstate">SetKeyboardState</a>

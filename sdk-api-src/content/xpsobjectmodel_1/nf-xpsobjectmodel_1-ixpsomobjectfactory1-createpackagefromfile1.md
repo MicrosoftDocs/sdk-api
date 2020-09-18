@@ -83,9 +83,8 @@ XPS_E_ABSOLUTE_REFERENCE: The OpenXPS document contains XML elements that use ab
 
 ## -remarks
 
-Use this method to read a file that contains an XPS document that could be of type XPS_DOCUMENT_TYPE_ XPS or XPS_DOCUMENT_TYPE_ OPENXPS.   <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomobjectfactory-createpackagefromfile">CreatePackageFromFile</a>, released in Windows 7, only opens files that contain an XPS document of type XPS_DOCUMENT_TYPE_ XPS.
+Use this method to read a file that contains an XPS document that could be of type XPS_DOCUMENT_TYPE_ XPS or XPS_DOCUMENT_TYPE_ OPENXPS.   <a href="/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomobjectfactory-createpackagefromfile">CreatePackageFromFile</a>, released in Windows 7, only opens files that contain an XPS document of type XPS_DOCUMENT_TYPE_ XPS.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel_1/nn-xpsobjectmodel_1-ixpsomobjectfactory1">IXpsOMObjectFactory1</a>
-
+<a href="/windows/desktop/api/xpsobjectmodel_1/nn-xpsobjectmodel_1-ixpsomobjectfactory1">IXpsOMObjectFactory1</a>

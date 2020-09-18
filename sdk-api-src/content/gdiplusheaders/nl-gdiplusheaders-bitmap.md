@@ -50,5 +50,4 @@ api_name:
 
 ## -description
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-bitmap">Bitmap</a> class inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-image">Image</a> class. The <b>Image</b> class provides methods for loading and saving vector images (metafiles) and raster images (bitmaps). The Bitmap class expands on the capabilities of the <b>Image</b> class by providing additional methods for creating and manipulating raster images.
-
+The <a href="/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-bitmap">Bitmap</a> class inherits from the <a href="/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-image">Image</a> class. The <b>Image</b> class provides methods for loading and saving vector images (metafiles) and raster images (bitmaps). The Bitmap class expands on the capabilities of the <b>Image</b> class by providing additional methods for creating and manipulating raster images.

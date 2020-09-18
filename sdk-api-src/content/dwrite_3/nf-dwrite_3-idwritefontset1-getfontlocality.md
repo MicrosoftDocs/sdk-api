@@ -58,7 +58,7 @@ Zero-based index of the font item in the set.
 
 ## -returns
 
-Type: **[DWRITE_LOCALITY](/windows/win32/api/dwrite_3/ne-dwrite_3-dwrite_locality)**
+Type: **[DWRITE_LOCALITY](./ne-dwrite_3-dwrite_locality.md)**
 
 A value indicating the locality.
 
@@ -67,4 +67,3 @@ A value indicating the locality.
 The locality enumeration. For fully local files, the result will always be **DWRITE_LOCALITY_LOCAL**. For downloadable files, the result depends on how much of the file has been downloaded.
 
 ## -see-also
-

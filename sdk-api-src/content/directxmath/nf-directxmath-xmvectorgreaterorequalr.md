@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Performs a per-component test for greater-than-or-equal between two vectors  and sets a comparison value that can be examined using functions such as <a href="https://docs.microsoft.com/windows/desktop/api/directxmath/nf-directxmath-xmcomparisonalltrue">XMComparisonAllTrue</a>.
+Performs a per-component test for greater-than-or-equal between two vectors  and sets a comparison value that can be examined using functions such as <a href="/windows/desktop/api/directxmath/nf-directxmath-xmcomparisonalltrue">XMComparisonAllTrue</a>.
 
 ## -parameters
 
 ### -param pCR [out]
 
-Pointer to a <b>uint32_t</b> comparison value that can be examined using functions such as <a href="https://docs.microsoft.com/windows/desktop/api/directxmath/nf-directxmath-xmcomparisonalltrue">XMComparisonAllTrue</a>. The <code>XMComparisonXXXX</code> functions may be used to further test the number of components that passed the comparison.
+Pointer to a <b>uint32_t</b> comparison value that can be examined using functions such as <a href="/windows/desktop/api/directxmath/nf-directxmath-xmcomparisonalltrue">XMComparisonAllTrue</a>. The <code>XMComparisonXXXX</code> functions may be used to further test the number of components that passed the comparison.
 
 ### -param V1 [in]
 
@@ -77,9 +77,8 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/dxmath/ovw-xnamath-reference-functions-vector-comparison">Vector Comparison Functions</a>
+<a href="/windows/desktop/dxmath/ovw-xnamath-reference-functions-vector-comparison">Vector Comparison Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/directxmath/nf-directxmath-xmvectorgreaterorequal">XMVectorGreaterOrEqual</a>
-
+<a href="/windows/desktop/api/directxmath/nf-directxmath-xmvectorgreaterorequal">XMVectorGreaterOrEqual</a>

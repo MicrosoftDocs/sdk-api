@@ -121,19 +121,19 @@ Special characters must be escaped when used for any unintended purposes. For ex
 
 Similarly, the ADSI special character, slash mark (/), separates ADSI-specific elements, "LDAP://server/CN=Jeff Smith,CN=Users,DC=Fabrikam,DC=com". Although it must be escaped when used for any other purposes, for example, "LDAP://server/CN=Jeff Smith\/California,CN=Users,DC=Fabrikam,DC=com". You can choose an <b>ADS_ESCAPE_MODE_ENUM</b> option to display this escaped string in a human-readable form: "LDAP://server/CN=Jeff Smith/California,CN=Users,DC=Fabrikam,DC=com".
 
-Presently, the slash mark (/) is the only ADSI special character. ADSI escaping and unescaping applies to ADSI special characters only. The operation will not affect any LDAP special characters, that is, they are neither escaped nor unescaped. For more information and  a list of  special characters defined by LDAP, see <a href="https://docs.microsoft.com/windows/desktop/ADSI/ldap-adspath">LDAP Special Characters</a>.
+Presently, the slash mark (/) is the only ADSI special character. ADSI escaping and unescaping applies to ADSI special characters only. The operation will not affect any LDAP special characters, that is, they are neither escaped nor unescaped. For more information and  a list of  special characters defined by LDAP, see <a href="/windows/desktop/ADSI/ldap-adspath">LDAP Special Characters</a>.
 
 To show unescaped path string, use 
-the <a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadspathname">IADsPathname</a> interface and its methods. All other ADSI APIs return the escaped path string.
+the <a href="/windows/desktop/api/iads/nn-iads-iadspathname">IADsPathname</a> interface and its methods. All other ADSI APIs return the escaped path string.
 
-To obtain correct behavior, the LDAP special characters must be escaped before the ADSI special characters are escaped. The <a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadspathname">IADsPathname</a> interface will escape the characters in the correct sequence.
+To obtain correct behavior, the LDAP special characters must be escaped before the ADSI special characters are escaped. The <a href="/windows/desktop/api/iads/nn-iads-iadspathname">IADsPathname</a> interface will escape the characters in the correct sequence.
 
 <div class="alert"><b>Note</b>  Because VBScript cannot read data from a type library, Visual Basic Scripting Edition (VBScript) applications do not recognize symbolic, as constants defined above. Instead, use the numerical constants instead to set the appropriate flags in your VBScript applications. To use the symbolic constants, write explicit declarations of such constants, as done here.</div>
 <div> </div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-enumerations">ADSI
+<a href="/windows/desktop/ADSI/adsi-enumerations">ADSI
   Enumerations</a>
 
 
@@ -142,9 +142,8 @@ To obtain correct behavior, the LDAP special characters must be escaped before t
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadspathname">IADsPathname</a>
+<a href="/windows/desktop/api/iads/nn-iads-iadspathname">IADsPathname</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/ldap-adspath">LDAP ADsPath</a>
-
+<a href="/windows/desktop/ADSI/ldap-adspath">LDAP ADsPath</a>

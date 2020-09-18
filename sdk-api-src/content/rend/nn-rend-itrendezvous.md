@@ -55,11 +55,11 @@ provides similar functionality.]
 
 The 
 <b>ITRendezvous</b> interface is the main interface for the Rendezvous control. An application calls the COM 
-<a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance">CoCreateInstance</a> function on this interface to create the Rendezvous object.
+<a href="/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance">CoCreateInstance</a> function on this interface to create the Rendezvous object.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITRendezvous</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ITRendezvous</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITRendezvous</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ITRendezvous</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -74,7 +74,7 @@ The <b>ITRendezvous</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/rend/nf-rend-itrendezvous-createdirectory">CreateDirectory</a>
+<a href="/windows/desktop/api/rend/nf-rend-itrendezvous-createdirectory">CreateDirectory</a>
 </td>
 <td align="left" width="63%">
 Creates a directory of given type and name.
@@ -83,7 +83,7 @@ Creates a directory of given type and name.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/rend/nf-rend-itrendezvous-createdirectoryobject">CreateDirectoryObject</a>
+<a href="/windows/desktop/api/rend/nf-rend-itrendezvous-createdirectoryobject">CreateDirectoryObject</a>
 </td>
 <td align="left" width="63%">
 Creates a new directory object.
@@ -92,7 +92,7 @@ Creates a new directory object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/rend/nf-rend-itrendezvous-enumeratedefaultdirectories">EnumerateDefaultDirectories</a>
+<a href="/windows/desktop/api/rend/nf-rend-itrendezvous-enumeratedefaultdirectories">EnumerateDefaultDirectories</a>
 </td>
 <td align="left" width="63%">
 Enumerates default directories.
@@ -101,13 +101,12 @@ Enumerates default directories.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/rend/nf-rend-itrendezvous-get_defaultdirectories">get_DefaultDirectories</a>
+<a href="/windows/desktop/api/rend/nf-rend-itrendezvous-get_defaultdirectories">get_DefaultDirectories</a>
 </td>
 <td align="left" width="63%">
 Gets the default directories configured by the system administrator. Similar to 
-<a href="https://docs.microsoft.com/windows/desktop/api/rend/nf-rend-itrendezvous-enumeratedefaultdirectories">EnumerateDefaultDirectories</a> but used by Visual Basic and other scripting languages.
+<a href="/windows/desktop/api/rend/nf-rend-itrendezvous-enumeratedefaultdirectories">EnumerateDefaultDirectories</a> but used by Visual Basic and other scripting languages.
 
 </td>
 </tr>
 </table>
-

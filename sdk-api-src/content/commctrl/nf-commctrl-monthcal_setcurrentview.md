@@ -50,19 +50,19 @@ api_name:
 
 ## -description
 
-Sets the view for a month calendar control. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/mcm-setcurrentview">MCM_SETCURRENTVIEW</a> message explicitly.
+Sets the view for a month calendar control. You can use this macro or send the <a href="/windows/desktop/Controls/mcm-setcurrentview">MCM_SETCURRENTVIEW</a> message explicitly.
 
 ## -parameters
 
 ### -param hmc
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 Handle to a month calendar control.
 
 ### -param dwNewView
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 New view. One of the following constants.
 
@@ -112,4 +112,3 @@ Century view.
 </td>
 </tr>
 </table>
-

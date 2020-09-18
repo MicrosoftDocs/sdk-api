@@ -56,11 +56,10 @@ Indicates whether a windowless rich edit control is currently visible.
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 Returns S_OK if the windowless rich edit control is visible, or S_FALSE otherwise.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/textserv/nn-textserv-irichedituiainformation">IRichEditUiaInformation</a>
-
+<a href="/windows/desktop/api/textserv/nn-textserv-irichedituiainformation">IRichEditUiaInformation</a>

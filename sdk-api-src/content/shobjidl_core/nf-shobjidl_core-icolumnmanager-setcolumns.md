@@ -56,9 +56,9 @@ Sets the collection of columns for the view to display.
 
 ### -param rgkeyOrder [in]
 
-Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ns-wtypes-propertykey">PROPERTYKEY</a>*</b>
+Type: <b>const <a href="/windows/desktop/api/wtypes/ns-wtypes-propertykey">PROPERTYKEY</a>*</b>
 
-A pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ns-wtypes-propertykey">PROPERTYKEY</a> structures that specify the columns to display.
+A pointer to an array of <a href="/windows/desktop/api/wtypes/ns-wtypes-propertykey">PROPERTYKEY</a> structures that specify the columns to display.
 
 ### -param cVisible [in]
 
@@ -103,6 +103,5 @@ Collection not set.
 
 ## -remarks
 
-<div class="alert"><b>Note</b>  <b>IColumnManager::SetColumns</b> clears the state of all columns, so <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icolumnmanager-setcolumninfo">IColumnManager::SetColumnInfo</a> must be called afterward to set the state of individual columns.</div>
+<div class="alert"><b>Note</b>  <b>IColumnManager::SetColumns</b> clears the state of all columns, so <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icolumnmanager-setcolumninfo">IColumnManager::SetColumnInfo</a> must be called afterward to set the state of individual columns.</div>
 <div> </div>
-

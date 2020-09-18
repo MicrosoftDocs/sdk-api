@@ -51,7 +51,7 @@ api_name:
 ## -description
 
 The 
-<b>GetAddrInfoExOverlappedResult</b> function gets the return code for an <b>OVERLAPPED</b> structure used by an asynchronous operation for the  <a href="https://docs.microsoft.com/windows/desktop/api/ws2tcpip/nf-ws2tcpip-getaddrinfoexa">GetAddrInfoEx</a> function.
+<b>GetAddrInfoExOverlappedResult</b> function gets the return code for an <b>OVERLAPPED</b> structure used by an asynchronous operation for the  <a href="/windows/desktop/api/ws2tcpip/nf-ws2tcpip-getaddrinfoexa">GetAddrInfoEx</a> function.
 
 ## -parameters
 
@@ -67,7 +67,7 @@ On success,  the <b>GetAddrInfoExOverlappedResult</b> function returns <b>NO_ERR
 ## -remarks
 
 The 
-<b>GetAddrInfoExOverlappedResult</b> function is used with the <a href="https://docs.microsoft.com/windows/desktop/api/ws2tcpip/nf-ws2tcpip-getaddrinfoexa">GetAddrInfoEx</a> function for asynchronous operations.
+<b>GetAddrInfoExOverlappedResult</b> function is used with the <a href="/windows/desktop/api/ws2tcpip/nf-ws2tcpip-getaddrinfoexa">GetAddrInfoEx</a> function for asynchronous operations.
 
 If the <b>GetAddrInfoExOverlappedResult</b> function returns <b>WSAEINVAL</b>, the only way to distinguish whether <b>GetAddrInfoExOverlappedResult</b> function or the asynchronous operation returned  the
     error is to check that the <i>lpOverlapped</i> parameter was not NULL. If the <i>lpOverlapped</i> parameter was NULL, then the <b>GetAddrInfoExOverlappedResult</b> function was passed a NULL pointer and failed. 
@@ -76,5 +76,4 @@ If the <b>GetAddrInfoExOverlappedResult</b> function returns <b>WSAEINVAL</b>, t
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ws2tcpip/nf-ws2tcpip-getaddrinfoexa">GetAddrInfoEx</a>
-
+<a href="/windows/desktop/api/ws2tcpip/nf-ws2tcpip-getaddrinfoexa">GetAddrInfoEx</a>

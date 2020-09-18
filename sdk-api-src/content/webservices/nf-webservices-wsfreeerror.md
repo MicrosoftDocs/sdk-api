@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Releases the memory resource associated with an   <b>Error</b> object created using  <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wscreateerror">WsCreateError</a>.
+Releases the memory resource associated with an   <b>Error</b> object created using  <a href="/windows/desktop/api/webservices/nf-webservices-wscreateerror">WsCreateError</a>.
             This releases the object and its constituent information.
 
 ## -parameters
@@ -58,6 +58,5 @@ Releases the memory resource associated with an   <b>Error</b> object created us
 ### -param error [in]
 
 A pointer to the <b>Error</b> object to release.  The pointer must reference a valid <b>WS_ERROR</b> object
-                    returned by <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wscreateerror">WsCreateError</a>.  The referenced value may 
+                    returned by <a href="/windows/desktop/api/webservices/nf-webservices-wscreateerror">WsCreateError</a>.  The referenced value may 
                     not be NULL.
-

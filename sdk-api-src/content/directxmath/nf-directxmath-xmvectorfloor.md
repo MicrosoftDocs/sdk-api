@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Computes the floor of each component of an <a href="https://docs.microsoft.com/windows/desktop/dxmath/xmvector-data-type">XMVECTOR</a>.
+Computes the floor of each component of an <a href="/windows/desktop/dxmath/xmvector-data-type">XMVECTOR</a>.
 
 ## -parameters
 
@@ -80,9 +80,8 @@ return Result;
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/dxmath/ovw-xnamath-reference-functions-vector-arithmetic">Vector Arithmetic Functions</a>
+<a href="/windows/desktop/dxmath/ovw-xnamath-reference-functions-vector-arithmetic">Vector Arithmetic Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/directxmath/nf-directxmath-xmvectorceiling">XMVectorCeiling</a>
-
+<a href="/windows/desktop/api/directxmath/nf-directxmath-xmvectorceiling">XMVectorCeiling</a>

@@ -56,15 +56,15 @@ Creates a new instance of the default Shell folder view object (DefView).
 
 ### -param pcsfv [in]
 
-Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/ns-shlobj_core-sfv_create">SFV_CREATE</a>*</b>
+Type: <b>const <a href="/windows/desktop/api/shlobj_core/ns-shlobj_core-sfv_create">SFV_CREATE</a>*</b>
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/ns-shlobj_core-sfv_create">SFV_CREATE</a> structure that describes the particulars used in creating this instance of the Shell folder view object.
+Pointer to a <a href="/windows/desktop/api/shlobj_core/ns-shlobj_core-sfv_create">SFV_CREATE</a> structure that describes the particulars used in creating this instance of the Shell folder view object.
 
 ### -param ppsv [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellview">IShellView</a>**</b>
+Type: <b><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellview">IShellView</a>**</b>
 
-When this function returns successfully, contains an interface pointer to the new <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellview">IShellView</a> object. On failure, this value is <b>NULL</b>.
+When this function returns successfully, contains an interface pointer to the new <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellview">IShellView</a> object. On failure, this value is <b>NULL</b>.
 
 ## -returns
 
@@ -74,9 +74,9 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 ## -remarks
 
-<b>SHCreateShellFolderView</b> is recommended over <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-shcreateshellfolderviewex">SHCreateShellFolderViewEx</a> because of the greater flexibility of its elements to participate in various scenarios, provide new functionality to the view, and interact with other objects.
+<b>SHCreateShellFolderView</b> is recommended over <a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shcreateshellfolderviewex">SHCreateShellFolderViewEx</a> because of the greater flexibility of its elements to participate in various scenarios, provide new functionality to the view, and interact with other objects.
 
-When dealing with several instances of <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellview">IShellView</a>, you might want to verify which is the default Shell folder view object. To do so, call <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> on the object using the IID_CDefView IID. This call succeeds only when made on the default Shell folder view object.
+When dealing with several instances of <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellview">IShellView</a>, you might want to verify which is the default Shell folder view object. To do so, call <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> on the object using the IID_CDefView IID. This call succeeds only when made on the default Shell folder view object.
 
 Data sources that use the default Shell folder view object must implement these interfaces:
                 
@@ -84,25 +84,24 @@ Data sources that use the default Shell folder view object must implement these 
 
 <ul>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellfolder">IShellFolder</a>
+<a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellfolder">IShellFolder</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellfolder2">IShellFolder2</a>
+<a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellfolder2">IShellFolder2</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ipersistfolder">IPersistFolder</a>
+<a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ipersistfolder">IPersistFolder</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ipersistfolder2">IPersistFolder2</a>
+<a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ipersistfolder2">IPersistFolder2</a>
 </li>
 </ul>
-Optionally, they can also implement <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ipersistfolder3">IPersistFolder3</a>.
+Optionally, they can also implement <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ipersistfolder3">IPersistFolder3</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/ns-shlobj_core-sfv_create">SFV_CREATE</a>
+<a href="/windows/desktop/api/shlobj_core/ns-shlobj_core-sfv_create">SFV_CREATE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-shcreateshellfolderviewex">SHCreateShellFolderViewEx</a>
-
+<a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shcreateshellfolderviewex">SHCreateShellFolderViewEx</a>

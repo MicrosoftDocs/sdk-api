@@ -54,7 +54,7 @@ Initializes a new instance of <code>XMCOLOR</code> from a <code>uint32_t</code> 
 	component data in a packed format.
     
 
-This constructor initializes a new instance of <a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmcolor">XMCOLOR</a> from a
+This constructor initializes a new instance of <a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmcolor">XMCOLOR</a> from a
 	<code>uint32_t</code> variable containing component data in a packed format.
 <div class="alert"><b>Note</b>  This constructor is only available under C++.
     </div><div> </div>
@@ -108,9 +108,8 @@ The fourth 8 bits (bits 24-31) of <b>Packed</b> assigned, as an unsigned
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmcolor">XMCOLOR</a>
+<a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmcolor">XMCOLOR</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/dxmath/xmcolor-ctor">XMCOLOR Constructors</a>
-
+<a href="/windows/desktop/dxmath/xmcolor-ctor">XMCOLOR Constructors</a>

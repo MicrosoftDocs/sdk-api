@@ -74,5 +74,4 @@ Contains the ID of a security principal objecton a directory server.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-structures">Failover Cluster Structures</a>
-
+<a href="/previous-versions/windows/desktop/mscs/cluster-structures">Failover Cluster Structures</a>

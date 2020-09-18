@@ -57,7 +57,7 @@ The <b>SCardGetTransmitCount</b> function retrieves the number of transmit opera
 ### -param hCard [in]
 
 A handle to a smart card obtained from a previous call to 
-<a href="https://docs.microsoft.com/windows/desktop/api/winscard/nf-winscard-scardconnecta">SCardConnect</a>.
+<a href="/windows/desktop/api/winscard/nf-winscard-scardconnecta">SCardConnect</a>.
 
 ### -param pcTransmitCount [out]
 
@@ -67,5 +67,4 @@ A pointer to the number of transmit operations that have completed since the spe
 
 If the function succeeds, it returns <b>SCARD_S_SUCCESS</b>. 
 
-If the function fails, it returns an error code. For more information, see <a href="https://docs.microsoft.com/windows/desktop/SecAuthN/authentication-return-values">Smart Card Return Values</a>.
-
+If the function fails, it returns an error code. For more information, see <a href="/windows/desktop/SecAuthN/authentication-return-values">Smart Card Return Values</a>.

@@ -99,7 +99,7 @@ Deletes the pixels. This mode deletes all eliminated lines of pixels without try
 <td width="60%">
 Maps pixels from the source rectangle into blocks of pixels in the destination rectangle. The average color over the destination block of pixels approximates the color of the source pixels.
 
-After setting the HALFTONE stretching mode, an application must call the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-setbrushorgex">SetBrushOrgEx</a> function to set the brush origin. If it fails to do so, brush misalignment occurs.
+After setting the HALFTONE stretching mode, an application must call the <a href="/windows/desktop/api/wingdi/nf-wingdi-setbrushorgex">SetBrushOrgEx</a> function to set the brush origin. If it fails to do so, brush misalignment occurs.
 
 </td>
 </tr>
@@ -183,31 +183,30 @@ One or more of the input parameters is invalid.
 
 ## -remarks
 
-The stretching mode defines how the system combines rows or columns of a bitmap with existing pixels on a display device when an application calls the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-stretchblt">StretchBlt</a> function.
+The stretching mode defines how the system combines rows or columns of a bitmap with existing pixels on a display device when an application calls the <a href="/windows/desktop/api/wingdi/nf-wingdi-stretchblt">StretchBlt</a> function.
 
 The BLACKONWHITE (STRETCH_ANDSCANS) and WHITEONBLACK (STRETCH_ORSCANS) modes are typically used to preserve foreground pixels in monochrome bitmaps. The COLORONCOLOR (STRETCH_DELETESCANS) mode is typically used to preserve color in color bitmaps.
 
-The HALFTONE mode is slower and requires more processing of the source image than the other three modes; but produces higher quality images. Also note that <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-setbrushorgex">SetBrushOrgEx</a> must be called after setting the HALFTONE mode to avoid brush misalignment.
+The HALFTONE mode is slower and requires more processing of the source image than the other three modes; but produces higher quality images. Also note that <a href="/windows/desktop/api/wingdi/nf-wingdi-setbrushorgex">SetBrushOrgEx</a> must be called after setting the HALFTONE mode to avoid brush misalignment.
 
 Additional stretching modes might also be available depending on the capabilities of the device driver.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/bitmap-functions">Bitmap Functions</a>
+<a href="/windows/desktop/gdi/bitmap-functions">Bitmap Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/bitmaps">Bitmaps Overview</a>
+<a href="/windows/desktop/gdi/bitmaps">Bitmaps Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getstretchbltmode">GetStretchBltMode</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-getstretchbltmode">GetStretchBltMode</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-setbrushorgex">SetBrushOrgEx</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-setbrushorgex">SetBrushOrgEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-stretchblt">StretchBlt</a>
-
+<a href="/windows/desktop/api/wingdi/nf-wingdi-stretchblt">StretchBlt</a>

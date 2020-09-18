@@ -60,7 +60,7 @@ The absolute path of the file to be opened.
 
 ### -param dwMode [in]
 
-The access mode to be used when opening the file. Possible values are taken from the <a href="https://docs.microsoft.com/windows/desktop/Stg/stgm-constants">STGM</a> enumeration. The method can treat this value as a suggestion, adding more restrictive permissions if necessary. If <i>dwMode</i> is 0, the implementation should open the file using whatever default permissions are used when a user opens the file.
+The access mode to be used when opening the file. Possible values are taken from the <a href="/windows/desktop/Stg/stgm-constants">STGM</a> enumeration. The method can treat this value as a suggestion, adding more restrictive permissions if necessary. If <i>dwMode</i> is 0, the implementation should open the file using whatever default permissions are used when a user opens the file.
 
 ## -returns
 
@@ -111,16 +111,15 @@ The object could not be loaded for some reason other than a lack of memory.
 <b>IPersistFile::Load</b> loads the object from the specified file. This method is for initialization only and does not show the object to the end user. It is not equivalent to what occurs when a user selects the <b>File Open</b> command.
 
 <h3><a id="Notes_to_Callers"></a><a id="notes_to_callers"></a><a id="NOTES_TO_CALLERS"></a>Notes to Callers</h3>
-The <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-imoniker-bindtoobject">BindToObject</a> method in file monikers calls this method to load an object during a moniker binding operation (when a linked object is run). Typically, applications do not call this method directly.
+The <a href="/windows/desktop/api/objidl/nf-objidl-imoniker-bindtoobject">BindToObject</a> method in file monikers calls this method to load an object during a moniker binding operation (when a linked object is run). Typically, applications do not call this method directly.
 
 <h3><a id="Notes_to_Implementers"></a><a id="notes_to_implementers"></a><a id="NOTES_TO_IMPLEMENTERS"></a>Notes to Implementers</h3>
-Because the information needed to open a file varies greatly from one application to another, the object on which this method is implemented must also open the file specified by the <i>pszFileName</i> parameter. This differs from the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ipersiststorage-load">IPersistStorage::Load</a> and <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ipersiststream-load">IPersistStream::Load</a>, in which the caller opens the storage or stream and then passes an open storage or stream pointer to the loaded object.
+Because the information needed to open a file varies greatly from one application to another, the object on which this method is implemented must also open the file specified by the <i>pszFileName</i> parameter. This differs from the <a href="/windows/desktop/api/objidl/nf-objidl-ipersiststorage-load">IPersistStorage::Load</a> and <a href="/windows/desktop/api/objidl/nf-objidl-ipersiststream-load">IPersistStream::Load</a>, in which the caller opens the storage or stream and then passes an open storage or stream pointer to the loaded object.
 
-For an application that normally uses OLE compound files, your <b>IPersistFile::Load</b> implementation can simply call the <a href="https://docs.microsoft.com/windows/desktop/api/coml2api/nf-coml2api-stgopenstorage">StgOpenStorage</a> function to open the storage object in the specified file. Then, you can proceed with normal initialization. Applications that do not use storage objects can perform normal file-opening procedures.
+For an application that normally uses OLE compound files, your <b>IPersistFile::Load</b> implementation can simply call the <a href="/windows/desktop/api/coml2api/nf-coml2api-stgopenstorage">StgOpenStorage</a> function to open the storage object in the specified file. Then, you can proceed with normal initialization. Applications that do not use storage objects can perform normal file-opening procedures.
 
-When the object has been loaded, your implementation should register the object in the running object table (see <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-irunningobjecttable-register">IRunningObjectTable::Register</a>).
+When the object has been loaded, your implementation should register the object in the running object table (see <a href="/windows/desktop/api/objidl/nf-objidl-irunningobjecttable-register">IRunningObjectTable::Register</a>).
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ipersistfile">IPersistFile</a>
-
+<a href="/windows/desktop/api/objidl/nn-objidl-ipersistfile">IPersistFile</a>

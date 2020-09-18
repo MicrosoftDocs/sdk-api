@@ -56,11 +56,11 @@ Converts a print ticket into a <a href="/windows/win32/api/wingdi/ns-wingdi-devm
 
 ### -param hProvider [in]
 
-A handle to an opened print ticket provider. This handle is returned by the <a href="https://docs.microsoft.com/windows/desktop/api/prntvpt/nf-prntvpt-ptopenprovider">PTOpenProvider</a> or the <a href="https://docs.microsoft.com/windows/desktop/api/prntvpt/nf-prntvpt-ptopenproviderex">PTOpenProviderEx</a> function.
+A handle to an opened print ticket provider. This handle is returned by the <a href="/windows/desktop/api/prntvpt/nf-prntvpt-ptopenprovider">PTOpenProvider</a> or the <a href="/windows/desktop/api/prntvpt/nf-prntvpt-ptopenproviderex">PTOpenProviderEx</a> function.
 
 ### -param pPrintTicket [in]
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/Stg/istream-compound-file-implementation">IStream</a> with its seek position at the beginning of the print ticket.
+A pointer to an <a href="/windows/desktop/Stg/istream-compound-file-implementation">IStream</a> with its seek position at the beginning of the print ticket.
 
 ### -param baseDevmodeType
 
@@ -90,7 +90,7 @@ If <i>hProvider</i> was opened in a different thread, the <b>HRESULT</b> is E_IN
 
 If <i>pPrintTicket</i> is invalid, the <b>HRESULT</b> is E_PRINTTICKET_FORMAT.
 
-Otherwise, some other error code is returned in the <b>HRESULT</b>. For more information about COM error codes, see <a href="https://docs.microsoft.com/windows/desktop/SetupApi/error-handling">Error Handling</a>.
+Otherwise, some other error code is returned in the <b>HRESULT</b>. For more information about COM error codes, see <a href="/windows/desktop/SetupApi/error-handling">Error Handling</a>.
 
 ## -remarks
 
@@ -101,23 +101,22 @@ The <i>hProvider</i> parameter must be a handle that was opened in the same thre
 
 If <i>baseDevmodeType</i> is kUserDefaultDevmode, but the user's default is not available, then the device's default will be used.
 
-The returned <a href="/windows/win32/api/wingdi/ns-wingdi-devmodea">DEVMODE</a> may be internally inconsistent or conflict with hard printer settings even though each setting within it is viable individually. For example, if the printer supports an optional duplexer but the <i>pPrintTicket</i> calls for duplexing, then the returned <b>DEVMODE</b> will also call for duplexing, even if the duplexer is not installed. Use <a href="https://docs.microsoft.com/windows/desktop/printdocs/documentproperties">DocumentProperties</a> to correct the returned <b>DEVMODE</b>.
+The returned <a href="/windows/win32/api/wingdi/ns-wingdi-devmodea">DEVMODE</a> may be internally inconsistent or conflict with hard printer settings even though each setting within it is viable individually. For example, if the printer supports an optional duplexer but the <i>pPrintTicket</i> calls for duplexing, then the returned <b>DEVMODE</b> will also call for duplexing, even if the duplexer is not installed. Use <a href="/windows/desktop/printdocs/documentproperties">DocumentProperties</a> to correct the returned <b>DEVMODE</b>.
 
-The buffer in the returned <i>ppDevmode</i> should be released with <a href="https://docs.microsoft.com/windows/desktop/api/prntvpt/nf-prntvpt-ptreleasememory">PTReleaseMemory</a>.
+The buffer in the returned <i>ppDevmode</i> should be released with <a href="/windows/desktop/api/prntvpt/nf-prntvpt-ptreleasememory">PTReleaseMemory</a>.
 
 Values of <i>pPrintTicket</i> that are outside of the <i>scope</i> are ignored. For example, if the scope is only a single page, then job-wide settings and document-wide settings are ignored. Job scope includes document scope and page scope. Document scope includes page scope.
 
-If <i>pbstrErrorMessage</i> is not <b>NULL</b> when the function returns, the caller must free the string with <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a>.
+If <i>pbstrErrorMessage</i> is not <b>NULL</b> when the function returns, the caller must free the string with <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/printdocs/printschema">Print Schema</a>
+<a href="/windows/desktop/printdocs/printschema">Print Schema</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/printdocs/printing-and-print-spooler-functions">Print Spooler API Functions</a>
+<a href="/windows/desktop/printdocs/printing-and-print-spooler-functions">Print Spooler API Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/printdocs/printdocs-printing">Printing</a>
-
+<a href="/windows/desktop/printdocs/printdocs-printing">Printing</a>

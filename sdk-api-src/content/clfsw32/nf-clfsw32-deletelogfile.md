@@ -52,7 +52,7 @@ api_name:
 
 Marks a log for deletion. The log is actually deleted when all handles, marshaling areas, and read contexts to the log are closed.  If the log is a physical log, its underlying containers are deleted.
 
-When a log is marked for deletion, requests to open new client log streams fail. <div class="alert"><b>Note</b>  A closely related function is <a href="https://docs.microsoft.com/windows/desktop/api/clfsw32/nf-clfsw32-deletelogbyhandle">DeleteLogByHandle</a>, which deletes a log when given the handle of the file.</div>
+When a log is marked for deletion, requests to open new client log streams fail. <div class="alert"><b>Note</b>  A closely related function is <a href="/windows/desktop/api/clfsw32/nf-clfsw32-deletelogbyhandle">DeleteLogByHandle</a>, which deletes a log when given the handle of the file.</div>
 <div> </div>
 
 ## -parameters
@@ -61,7 +61,7 @@ When a log is marked for deletion, requests to open new client log streams fail.
 
 The name of the log. 
 
-This  name is specified when creating the log  by using  <a href="https://docs.microsoft.com/windows/desktop/api/clfsw32/nf-clfsw32-createlogfile">CreateLogFile</a>. The following example identifies the format  to use:
+This  name is specified when creating the log  by using  <a href="/windows/desktop/api/clfsw32/nf-clfsw32-createlogfile">CreateLogFile</a>. The following example identifies the format  to use:
 
 <b>log:&lt;</b><i>log name</i><b>&gt;[::&lt;</b><i>log stream name</i><b>&gt;]</b>
 
@@ -69,7 +69,7 @@ This  name is specified when creating the log  by using  <a href="https://docs.m
 
 &lt;<i>log stream name</i>&gt; is the unique name of a log stream in the log.
 
-  For more information, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/clfs/log-types">Log Types</a>.
+  For more information, see <a href="/previous-versions/windows/desktop/clfs/log-types">Log Types</a>.
 
 ### -param pvReserved [in, optional]
 
@@ -81,21 +81,20 @@ If the function succeeds, the return value is nonzero.
 						
 
 If the function fails, the return value is zero (0). To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. The following list identifies the  possible error codes:
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. The following list identifies the  possible error codes:
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/clfs/common-log-file-system-functions">Common Log File System Functions</a>
+<a href="/previous-versions/windows/desktop/clfs/common-log-file-system-functions">Common Log File System Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clfsw32/nf-clfsw32-createlogfile">CreateLogFile</a>
+<a href="/windows/desktop/api/clfsw32/nf-clfsw32-createlogfile">CreateLogFile</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clfsw32/nf-clfsw32-deletelogbyhandle">DeleteLogByHandle</a>
+<a href="/windows/desktop/api/clfsw32/nf-clfsw32-deletelogbyhandle">DeleteLogByHandle</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa379560(v=vs.85)">SECURITY_ATTRIBUTES</a>
-
+<a href="/previous-versions/windows/desktop/legacy/aa379560(v=vs.85)">SECURITY_ATTRIBUTES</a>

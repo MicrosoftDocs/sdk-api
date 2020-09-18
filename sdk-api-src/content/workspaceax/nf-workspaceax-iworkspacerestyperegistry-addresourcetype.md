@@ -89,5 +89,4 @@ This method is called when the plug-in is installed to register non-RDP resource
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/workspaceax/nn-workspaceax-iworkspacerestyperegistry">IWorkspaceResTypeRegistry</a>
-
+<a href="/windows/desktop/api/workspaceax/nn-workspaceax-iworkspacerestyperegistry">IWorkspaceResTypeRegistry</a>

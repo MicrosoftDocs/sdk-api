@@ -60,7 +60,7 @@ The handle to the recognizer context.
 
 ### -param pGuide
 
-A guide used for boxed, lined, or freeform input. For guide details, see the <a href="https://docs.microsoft.com/windows/desktop/api/rectypes/ns-rectypes-reco_guide">RECO_GUIDE</a> structure.
+A guide used for boxed, lined, or freeform input. For guide details, see the <a href="/windows/desktop/api/rectypes/ns-rectypes-reco_guide">RECO_GUIDE</a> structure.
 
 ### -param piIndex
 
@@ -134,9 +134,8 @@ One of the parameters is an invalid pointer.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rectypes/ns-rectypes-reco_guide">RECO_GUIDE Structure</a>
+<a href="/windows/desktop/api/rectypes/ns-rectypes-reco_guide">RECO_GUIDE Structure</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/recapis/nf-recapis-setguide">SetGuide Function</a>
-
+<a href="/windows/desktop/api/recapis/nf-recapis-setguide">SetGuide Function</a>

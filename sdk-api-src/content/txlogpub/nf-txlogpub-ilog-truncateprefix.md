@@ -85,7 +85,7 @@ The log was successfully truncated.
 </dl>
 </td>
 <td width="60%">
-<i>lsnFirstToKeep</i> is outside the current limits of the log. See <a href="https://docs.microsoft.com/windows/desktop/api/txlogpub/nf-txlogpub-ilog-getloglimits">ILog::GetLogLimits</a>.
+<i>lsnFirstToKeep</i> is outside the current limits of the log. See <a href="/windows/desktop/api/txlogpub/nf-txlogpub-ilog-getloglimits">ILog::GetLogLimits</a>.
 
 </td>
 </tr>
@@ -93,9 +93,8 @@ The log was successfully truncated.
 
 ## -remarks
 
-This request is only a hint to the log implementation. The log is free to ignore the request, or to retain more than was strictly requested. Many <a href="https://docs.microsoft.com/windows/desktop/api/txlogpub/nn-txlogpub-ilog">ILog</a> implementations will follow this latter option.
+This request is only a hint to the log implementation. The log is free to ignore the request, or to retain more than was strictly requested. Many <a href="/windows/desktop/api/txlogpub/nn-txlogpub-ilog">ILog</a> implementations will follow this latter option.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/txlogpub/nn-txlogpub-ilog">ILog</a>
-
+<a href="/windows/desktop/api/txlogpub/nn-txlogpub-ilog">ILog</a>

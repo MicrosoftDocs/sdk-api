@@ -52,10 +52,10 @@ api_name:
 
 The 
 <b>MprInfoDelete</b> function deletes an information header created using 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mprinfocreate">MprInfoCreate</a>, or retrieved by 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mprinfoblockadd">MprInfoBlockAdd</a>, 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mprinfoblockremove">MprInfoBlockRemove</a>, or 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mprinfoblockset">MprInfoBlockSet</a>.
+<a href="/windows/desktop/api/mprapi/nf-mprapi-mprinfocreate">MprInfoCreate</a>, or retrieved by 
+<a href="/windows/desktop/api/mprapi/nf-mprapi-mprinfoblockadd">MprInfoBlockAdd</a>, 
+<a href="/windows/desktop/api/mprapi/nf-mprapi-mprinfoblockremove">MprInfoBlockRemove</a>, or 
+<a href="/windows/desktop/api/mprapi/nf-mprapi-mprinfoblockset">MprInfoBlockSet</a>.
 
 ## -parameters
 
@@ -93,7 +93,7 @@ The <i>lpHeader</i> parameter is <b>NULL</b>.
 </td>
 <td width="60%">
 The call failed. Use 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a> to retrieve the error message that corresponds to the returned error code.
+<a href="/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a> to retrieve the error message that corresponds to the returned error code.
 
 </td>
 </tr>
@@ -105,17 +105,16 @@ The call failed. Use
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mprinfoblockadd">MprInfoBlockAdd</a>
+<a href="/windows/desktop/api/mprapi/nf-mprapi-mprinfoblockadd">MprInfoBlockAdd</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mprinfoblockremove">MprInfoBlockRemove</a>
+<a href="/windows/desktop/api/mprapi/nf-mprapi-mprinfoblockremove">MprInfoBlockRemove</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mprinfoblockset">MprInfoBlockSet</a>
-
+<a href="/windows/desktop/api/mprapi/nf-mprapi-mprinfoblockset">MprInfoBlockSet</a>

@@ -50,19 +50,18 @@ api_name:
 
 ## -description
 
-Provides the delegate folder an <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imalloc">IMalloc</a> interface used to allocate and free item IDs.
+Provides the delegate folder an <a href="/windows/desktop/api/objidl/nn-objidl-imalloc">IMalloc</a> interface used to allocate and free item IDs.
 
 ## -parameters
 
 ### -param pmalloc [in, optional]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imalloc">IMalloc</a>*</b>
+Type: <b><a href="/windows/desktop/api/objidl/nn-objidl-imalloc">IMalloc</a>*</b>
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imalloc">IMalloc</a> interface.
+A pointer to an <a href="/windows/desktop/api/objidl/nn-objidl-imalloc">IMalloc</a> interface.
 
 ## -returns
 
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-

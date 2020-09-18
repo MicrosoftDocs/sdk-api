@@ -94,5 +94,4 @@ If the <b>BOOL</b> pointed to by the <i>eof</i> parameter is not <b>TRUE</b>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/nn-msrdc-irdcfilereader">IRdcFileReader</a>
-
+<a href="/previous-versions/windows/desktop/api/msrdc/nn-msrdc-irdcfilereader">IRdcFileReader</a>

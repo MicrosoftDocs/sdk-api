@@ -52,7 +52,7 @@ api_name:
 ## -description
 
 The <b>PixelOffsetMode</b> enumeration specifies the pixel offset mode of a 
-			<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics">Graphics</a> object. This enumeration is used by the <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-getpixeloffsetmode">Graphics::GetPixelOffsetMode</a> and <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-setpixeloffsetmode">Graphics::SetPixelOffsetMode</a> methods of the 
+			<a href="/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics">Graphics</a> object. This enumeration is used by the <a href="/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-getpixeloffsetmode">Graphics::GetPixelOffsetMode</a> and <a href="/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-setpixeloffsetmode">Graphics::SetPixelOffsetMode</a> methods of the 
 			<b>Graphics</b> class.
 
 ## -enum-fields
@@ -88,9 +88,8 @@ Consider the pixel in the upper-left corner of an image with address (0, 0). Wit
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-getpixeloffsetmode">Graphics::GetPixelOffsetMode</a>
+<a href="/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-getpixeloffsetmode">Graphics::GetPixelOffsetMode</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-setpixeloffsetmode">Graphics::SetPixelOffsetMode</a>
-
+<a href="/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-setpixeloffsetmode">Graphics::SetPixelOffsetMode</a>

@@ -68,11 +68,10 @@ including security tokens appearing after usage.
 
 ### -field WS_SECURITY_HEADER_LAYOUT_LAX_WITH_TIMESTAMP_FIRST
 
-The elements of the security header can be in arbitrary order as in <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_security_header_layout">WS_SECURITY_HEADER_LAYOUT_LAX</a>, but the timestamp element must
+The elements of the security header can be in arbitrary order as in <a href="/windows/desktop/api/webservices/ne-webservices-ws_security_header_layout">WS_SECURITY_HEADER_LAYOUT_LAX</a>, but the timestamp element must
 be the first element.
 
 ### -field WS_SECURITY_HEADER_LAYOUT_LAX_WITH_TIMESTAMP_LAST
 
-The elements of the security header can be in arbitrary order as in <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_security_header_layout">WS_SECURITY_HEADER_LAYOUT_LAX</a>, but the timestamp element must
+The elements of the security header can be in arbitrary order as in <a href="/windows/desktop/api/webservices/ne-webservices-ws_security_header_layout">WS_SECURITY_HEADER_LAYOUT_LAX</a>, but the timestamp element must
 be the last element.
-

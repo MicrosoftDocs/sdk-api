@@ -53,7 +53,7 @@ The <i>DdVideoPortFlip</i> callback function performs a physical flip, causing t
 
 ### -param Arg1
 
-Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_flipvportdata">DD_FLIPVPORTDATA</a> structure that contains the information required for the driver to perform the flip.
+Points to a <a href="/windows/desktop/api/ddrawint/ns-ddrawint-dd_flipvportdata">DD_FLIPVPORTDATA</a> structure that contains the information required for the driver to perform the flip.
 
 ## -returns
 
@@ -65,13 +65,12 @@ Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-
 
 The driver should update its surface pointers so that the next frame of video will be written to the surface to which the <b>lpSurfTarg</b> member of the DD_FLIPVPORTDATA structure at <i>lpFlipVideoPort</i> points. If a previous flip request is still pending, the driver should fail the call by setting the <b>ddRVal</b> member of DD_FLIPVPORTDATA to DDERR_WASSTILLDRAWING and returning DDHAL_DRIVER_HANDLED. <i>DdVideoPortFlip</i> does not affect the actual display of the video data.
 
-A call to <i>DdVideoPortFlip</i> typically accompanies a call to <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/nc-ddrawint-pdd_surfcb_flip">DdFlip</a> when an application is performing video streaming.
+A call to <i>DdVideoPortFlip</i> typically accompanies a call to <a href="/windows/desktop/api/ddrawint/nc-ddrawint-pdd_surfcb_flip">DdFlip</a> when an application is performing video streaming.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_flipvportdata">DD_FLIPVPORTDATA</a>
+<a href="/windows/desktop/api/ddrawint/ns-ddrawint-dd_flipvportdata">DD_FLIPVPORTDATA</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/nc-ddrawint-pdd_surfcb_flip">DdFlip</a>
-
+<a href="/windows/desktop/api/ddrawint/nc-ddrawint-pdd_surfcb_flip">DdFlip</a>

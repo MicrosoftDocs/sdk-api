@@ -58,7 +58,7 @@ Registers a callback to be called once OOBE (Windows Welcome) has been completed
 
 ### -param OOBECompletedCallback
 
-Pointer to an application-defined callback function that will be called upon completion of OOBE. For more information, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oobenotification/nc-oobenotification-oobe_completed_callback">OOBE_COMPLETED_CALLBACK</a>.
+Pointer to an application-defined callback function that will be called upon completion of OOBE. For more information, see <a href="/previous-versions/windows/desktop/api/oobenotification/nc-oobenotification-oobe_completed_callback">OOBE_COMPLETED_CALLBACK</a>.
 
 ### -param CallbackContext
 
@@ -70,9 +70,8 @@ Pointer to a variable that will receive the handle to the wait callback registra
 
 ## -returns
 
-<b>TRUE</b> if the routine successfully registered the callback. Otherwise, <b>FALSE</b> is returned. If <b>FALSE</b>, <a href="https://msdn.microsoft.com/library/windows/desktop/ms679360(v=vs.85).aspx">GetLastError</a> will retrieve extended error information.
+<b>TRUE</b> if the routine successfully registered the callback. Otherwise, <b>FALSE</b> is returned. If <b>FALSE</b>, <a href="/windows/win32/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> will retrieve extended error information.
 
 ## -remarks
 
-If <b>RegisterWaitUntilOOBECompleted</b> returns <b>FALSE</b>, and a subsequent call to <a href="https://msdn.microsoft.com/library/windows/desktop/ms679360(v=vs.85).aspx">GetLastError</a> returns a value of <b>ERROR_INVALID_STATE</b>, this indicates that OOBE is already complete and there is no need to register for OOBE completion.
-
+If <b>RegisterWaitUntilOOBECompleted</b> returns <b>FALSE</b>, and a subsequent call to <a href="/windows/win32/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns a value of <b>ERROR_INVALID_STATE</b>, this indicates that OOBE is already complete and there is no need to register for OOBE completion.

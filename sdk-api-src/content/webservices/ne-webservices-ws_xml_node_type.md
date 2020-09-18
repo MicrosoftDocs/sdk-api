@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The type of <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_xml_node">WS_XML_NODE</a> structure.
+The type of <a href="/windows/desktop/api/webservices/ns-webservices-ws_xml_node">WS_XML_NODE</a> structure.
 
 ## -enum-fields
 
@@ -103,4 +103,3 @@ Comment := WS_XML_NODE_TYPE_COMMENT
 CData := WS_XML_NODE_TYPE_CDATA Text* WS_XML_NODE_TYPE_END_CDATA
 StartInput := WS_XML_NODE_TYPE_BOF
 EndInput := WS_XML_NODE_TYPE_EOF</code></pre>
-

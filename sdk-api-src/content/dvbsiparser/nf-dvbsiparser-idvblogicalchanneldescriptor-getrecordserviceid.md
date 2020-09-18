@@ -63,7 +63,7 @@ The <b>GetRecordServiceId</b> method returns the service identifier at a specifi
 
 ### -param bRecordIndex [in]
 
-Zero-based index of the service identifier to return. To get the number of service identifiers in the descriptor, call <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvblogicalchanneldescriptor-getcountofrecords">IDvbLogicalChannelDescriptor::GetCountOfRecords</a>.
+Zero-based index of the service identifier to return. To get the number of service identifiers in the descriptor, call <a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvblogicalchanneldescriptor-getcountofrecords">IDvbLogicalChannelDescriptor::GetCountOfRecords</a>.
 
 ### -param pwVal [out]
 
@@ -75,5 +75,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nn-dvbsiparser-idvblogicalchanneldescriptor">IDvbLogicalChannelDescriptor</a>
-
+<a href="/previous-versions/windows/desktop/api/dvbsiparser/nn-dvbsiparser-idvblogicalchanneldescriptor">IDvbLogicalChannelDescriptor</a>

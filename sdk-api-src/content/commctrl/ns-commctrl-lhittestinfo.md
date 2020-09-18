@@ -60,26 +60,26 @@ Used to get information about the link corresponding to a given location.
 
 ### -field pt
 
-Type: <b><a href="https://docs.microsoft.com/previous-versions/dd162805(v=vs.85)">POINT</a></b>
+Type: <b><a href="/previous-versions/dd162805(v=vs.85)">POINT</a></b>
 
 Location for the hit-test, in client coordinates (not screen coordinates).
 
 ### -field item
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-litem">LITEM</a></b>
+Type: <b><a href="/windows/desktop/api/commctrl/ns-commctrl-litem">LITEM</a></b>
 
 Receives information about the link corresponding to <b>pt</b>.
 
 ## -remarks
 
-To convert from screen coordinates to client coordinates, use <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-screentoclient">ScreenToClient</a>.
+To convert from screen coordinates to client coordinates, use <a href="/windows/desktop/api/winuser/nf-winuser-screentoclient">ScreenToClient</a>.
 
-<div class="alert"><b>Note</b>  If the <a href="https://docs.microsoft.com/windows/desktop/Controls/lm-hittest">LM_HITTEST</a> message succeeds, the system fills in <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-litem">LITEM.iLink</a> and <b>LITEM.szID</b>. If the <b>LM_HITTEST</b> message fails, do not assume that any information in <b>LITEM</b> is valid.</div>
+<div class="alert"><b>Note</b>  If the <a href="/windows/desktop/Controls/lm-hittest">LM_HITTEST</a> message succeeds, the system fills in <a href="/windows/desktop/api/commctrl/ns-commctrl-litem">LITEM.iLink</a> and <b>LITEM.szID</b>. If the <b>LM_HITTEST</b> message fails, do not assume that any information in <b>LITEM</b> is valid.</div>
 <div> </div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Controls/lm-hittest">LM_HITTEST</a>
+<a href="/windows/desktop/Controls/lm-hittest">LM_HITTEST</a>
 
 
 
@@ -91,5 +91,4 @@ To convert from screen coordinates to client coordinates, use <a href="https://d
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-screentoclient">ScreenToClient</a>
-
+<a href="/windows/desktop/api/winuser/nf-winuser-screentoclient">ScreenToClient</a>

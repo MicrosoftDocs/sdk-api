@@ -51,14 +51,14 @@ api_name:
 ## -description
 
 The <b>GetInheritTypes</b> method requests information about how ACEs can be inherited by child objects. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/ace-inheritance">ACE Inheritance</a>.
+<a href="/windows/desktop/SecAuthZ/ace-inheritance">ACE Inheritance</a>.
 
 ## -parameters
 
 ### -param ppInheritTypes [out]
 
 A pointer to a variable you should set to a pointer to an array of 
-<a href="https://docs.microsoft.com/windows/desktop/api/aclui/ns-aclui-si_inherit_type">SI_INHERIT_TYPE</a> structures. The array should include one entry for each combination of inheritance flags and child object type that you support.
+<a href="/windows/desktop/api/aclui/ns-aclui-si_inherit_type">SI_INHERIT_TYPE</a> structures. The array should include one entry for each combination of inheritance flags and child object type that you support.
 
 ### -param pcInheritTypes [out]
 
@@ -76,25 +76,24 @@ The access control editor does not free the pointer returned in <i>ppInheritType
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/access-control-editor">Access Control Editor</a>
+<a href="/windows/desktop/SecAuthZ/access-control-editor">Access Control Editor</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/authorization-functions">Access Control Editor Functions</a>
+<a href="/windows/desktop/SecAuthZ/authorization-functions">Access Control Editor Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/aclui/nf-aclui-createsecuritypage">CreateSecurityPage</a>
+<a href="/windows/desktop/api/aclui/nf-aclui-createsecuritypage">CreateSecurityPage</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/aclui/nf-aclui-editsecurity">EditSecurity</a>
+<a href="/windows/desktop/api/aclui/nf-aclui-editsecurity">EditSecurity</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/aclui/nn-aclui-isecurityinformation">ISecurityInformation</a>
+<a href="/windows/desktop/api/aclui/nn-aclui-isecurityinformation">ISecurityInformation</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/aclui/ns-aclui-si_inherit_type">SI_INHERIT_TYPE</a>
-
+<a href="/windows/desktop/api/aclui/ns-aclui-si_inherit_type">SI_INHERIT_TYPE</a>

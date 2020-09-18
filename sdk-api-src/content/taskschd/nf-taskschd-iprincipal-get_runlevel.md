@@ -62,9 +62,8 @@ This property is read/write.
 
 If a task is registered using the Builtin\Administrator account or the Local System or Local Service accounts, then the <b>RunLevel</b> property will be ignored.  The property value will also be ignored if User Account Control (UAC) is turned off.
 
-If a task is registered using the Administrators group for the security context of the task, then you must also set the <b>RunLevel</b> property to <b>TASK_RUNLEVEL_HIGHEST</b> if you want to run the task. For more information, see <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/security-contexts-for-running-tasks">Security Contexts for  Tasks</a>.
+If a task is registered using the Administrators group for the security context of the task, then you must also set the <b>RunLevel</b> property to <b>TASK_RUNLEVEL_HIGHEST</b> if you want to run the task. For more information, see <a href="/windows/desktop/TaskSchd/security-contexts-for-running-tasks">Security Contexts for  Tasks</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nn-taskschd-iprincipal">IPrincipal</a>
-
+<a href="/windows/desktop/api/taskschd/nn-taskschd-iprincipal">IPrincipal</a>

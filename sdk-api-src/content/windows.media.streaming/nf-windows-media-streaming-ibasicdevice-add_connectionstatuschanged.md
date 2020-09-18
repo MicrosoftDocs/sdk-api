@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Registers an event handler for the <a href="https://docs.microsoft.com/windows/desktop/mediastreaming/connectionstatuschanged">ConnectionStatusChanged</a> event.
+Registers an event handler for the <a href="/windows/desktop/mediastreaming/connectionstatuschanged">ConnectionStatusChanged</a> event.
 
 ## -parameters
 
 ### -param handler [in]
 
-A <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh828836(v=vs.85)">ConnectionStatusHandler</a> event handler function.
+A <a href="/previous-versions/windows/desktop/legacy/hh828836(v=vs.85)">ConnectionStatusHandler</a> event handler function.
 
 ### -param token [out, retval]
 
@@ -86,9 +86,8 @@ The method succeeded.
 
 ## -remarks
 
-To unregister the event handler that was registered by this method, pass the <i>token</i> value to the <a href="https://docs.microsoft.com/windows/desktop/mediastreaming/ibasicdevice-remove-connectionstatuschanged">remove_ConnectionStatusChanged</a> method.
+To unregister the event handler that was registered by this method, pass the <i>token</i> value to the <a href="/windows/desktop/mediastreaming/ibasicdevice-remove-connectionstatuschanged">remove_ConnectionStatusChanged</a> method.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/mediastreaming/ibasicdevice">IBasicDevice</a>
-
+<a href="/windows/desktop/mediastreaming/ibasicdevice">IBasicDevice</a>

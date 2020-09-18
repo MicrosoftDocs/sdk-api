@@ -62,9 +62,9 @@ A handle to the window for the system edit control for which autocompletion will
 
 ### -param punkACL [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>*</b>
+Type: <b><a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>*</b>
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface of the string list object that generates candidates for the completed string. The object must expose an <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ienumstring">IEnumString</a> interface.
+A pointer to the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface of the string list object that generates candidates for the completed string. The object must expose an <a href="/windows/desktop/api/objidl/nn-objidl-ienumstring">IEnumString</a> interface.
 
 ### -param pwszRegKeyPath [in, optional]
 
@@ -76,7 +76,7 @@ A pointer to an optional, null-terminated Unicode string that gives the registry
 
 Type: <b>LPCWSTR</b>
 
-A pointer to an optional null-terminated Unicode string that specifies the format to be used if the user enters text and presses CTRL+ENTER. Set this parameter to <b>NULL</b> to disable quick completion. Otherwise, the autocomplete object treats <i>pwszQuickComplete</i> as a <a href="https://docs.microsoft.com/windows/desktop/api/strsafe/nf-strsafe-stringcchprintfa">StringCchPrintf</a> format string and the text in the edit box as its associated argument, to produce a new string. For example, set <i>pwszQuickComplete</i> to "http://www.%s.com/". When a user enters "MyURL" into the edit box and presses CTRL+ENTER, the text in the edit box is updated to "http://www.MyURL.com/".
+A pointer to an optional null-terminated Unicode string that specifies the format to be used if the user enters text and presses CTRL+ENTER. Set this parameter to <b>NULL</b> to disable quick completion. Otherwise, the autocomplete object treats <i>pwszQuickComplete</i> as a <a href="/windows/desktop/api/strsafe/nf-strsafe-stringcchprintfa">StringCchPrintf</a> format string and the text in the edit box as its associated argument, to produce a new string. For example, set <i>pwszQuickComplete</i> to "http://www.%s.com/". When a user enters "MyURL" into the edit box and presses CTRL+ENTER, the text in the edit box is updated to "http://www.MyURL.com/".
 
 ## -returns
 
@@ -86,5 +86,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shldisp/nn-shldisp-iautocomplete">IAutoComplete</a>
-
+<a href="/windows/desktop/api/shldisp/nn-shldisp-iautocomplete">IAutoComplete</a>

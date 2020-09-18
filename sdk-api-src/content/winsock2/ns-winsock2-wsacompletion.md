@@ -94,7 +94,7 @@ Context of the message or handle.
 
 <b>Type: <b>LPWSAOVERLAPPED</b>
 </b>
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsaoverlapped">WSAOVERLAPPED</a> structure.
+A pointer to a <a href="/windows/desktop/api/winsock2/ns-winsock2-wsaoverlapped">WSAOVERLAPPED</a> structure.
 
 ### -field Parameters.Apc
 
@@ -102,7 +102,7 @@ A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/
 
 <b>Type: <b>LPWSAOVERLAPPED</b>
 </b>
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsaoverlapped">WSAOVERLAPPED</a> structure.
+A pointer to a <a href="/windows/desktop/api/winsock2/ns-winsock2-wsaoverlapped">WSAOVERLAPPED</a> structure.
 
 ### -field Parameters.Apc.lpfnCompletionProc
 
@@ -116,7 +116,7 @@ A pointer to an application-provided completion routine.
 
 <b>Type: <b>LPWSAOVERLAPPED</b>
 </b>
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsaoverlapped">WSAOVERLAPPED</a> structure.
+A pointer to a <a href="/windows/desktop/api/winsock2/ns-winsock2-wsaoverlapped">WSAOVERLAPPED</a> structure.
 
 ### -field Parameters.Port.hPort
 
@@ -166,5 +166,4 @@ For a blocking function, set the <b>WSACOMPLETION</b> structure to null.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsanspioctl">WSANSPIoctl</a>
-
+<a href="/windows/desktop/api/winsock2/nf-winsock2-wsanspioctl">WSANSPIoctl</a>

@@ -62,16 +62,16 @@ The
 
 ### -field icmpInStats
 
-Specifies an <a href="https://docs.microsoft.com/windows/desktop/api/ipmib/ns-ipmib-mibicmpstats_ex_xpsp1">MIBICMPSTATS_EX</a> structure that contains the extended statistics for incoming ICMP messages.
+Specifies an <a href="/windows/desktop/api/ipmib/ns-ipmib-mibicmpstats_ex_xpsp1">MIBICMPSTATS_EX</a> structure that contains the extended statistics for incoming ICMP messages.
 
 ### -field icmpOutStats
 
-Specifies an <a href="https://docs.microsoft.com/windows/desktop/api/ipmib/ns-ipmib-mibicmpstats_ex_xpsp1">MIBICMPSTATS_EX</a> structure that contains the extended statistics for outgoing ICMP messages.
+Specifies an <a href="/windows/desktop/api/ipmib/ns-ipmib-mibicmpstats_ex_xpsp1">MIBICMPSTATS_EX</a> structure that contains the extended statistics for outgoing ICMP messages.
 
 ## -remarks
 
 Two 
-<a href="https://docs.microsoft.com/windows/desktop/api/ipmib/ns-ipmib-mibicmpstats_ex_xpsp1">MIBICMPSTATS_EX</a> structures are required to hold all the extended ICMP statistics for a given computer. One 
+<a href="/windows/desktop/api/ipmib/ns-ipmib-mibicmpstats_ex_xpsp1">MIBICMPSTATS_EX</a> structures are required to hold all the extended ICMP statistics for a given computer. One 
 <b>MIBICMPSTATS_EX</b> structure contains the extended statistics for incoming ICMP messages. The other contains the extended statistics for outgoing ICMP messages. For this reason, the 
 <b>MIB_ICMP_EX</b> structure contains two 
 <b>MIBICMPSTATS_EX</b> structures.
@@ -80,21 +80,20 @@ On the Microsoft Windows Software Development Kit (SDK) released for Windows Vi
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-geticmpstatistics">GetIcmpStatistics</a>
+<a href="/windows/desktop/api/iphlpapi/nf-iphlpapi-geticmpstatistics">GetIcmpStatistics</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ipmib/ns-ipmib-mibicmpinfo">MIBICMPINFO</a>
+<a href="/windows/desktop/api/ipmib/ns-ipmib-mibicmpinfo">MIBICMPINFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ipmib/ns-ipmib-mibicmpstats">MIBICMPSTATS</a>
+<a href="/windows/desktop/api/ipmib/ns-ipmib-mibicmpstats">MIBICMPSTATS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ipmib/ns-ipmib-mibicmpstats_ex_xpsp1">MIBICMPSTATS_EX</a>
+<a href="/windows/desktop/api/ipmib/ns-ipmib-mibicmpstats_ex_xpsp1">MIBICMPSTATS_EX</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ipmib/ns-ipmib-mib_icmp">MIB_ICMP</a>
-
+<a href="/windows/desktop/api/ipmib/ns-ipmib-mib_icmp">MIB_ICMP</a>

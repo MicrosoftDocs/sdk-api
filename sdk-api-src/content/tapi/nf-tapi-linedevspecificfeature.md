@@ -62,7 +62,7 @@ Handle to the line device.
 ### -param dwFeature
 
 Feature to invoke on the line device. This parameter uses the 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/phonebuttonfunction--constants">PHONEBUTTONFUNCTION_ Constants</a>.
+<a href="/windows/desktop/Tapi/phonebuttonfunction--constants">PHONEBUTTONFUNCTION_ Constants</a>.
 
 ### -param lpParams
 
@@ -75,7 +75,7 @@ Size of the buffer, in bytes.
 ## -returns
 
 Returns a positive request identifier if the function is completed asynchronously, or a negative error number if an error occurs. The <i>dwParam2</i> parameter of the corresponding 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/line-reply">LINE_REPLY</a> message is zero if the function succeeds or it is a negative error number if an error occurs. Possible return values are:
+<a href="/windows/desktop/Tapi/line-reply">LINE_REPLY</a> message is zero if the function succeeds or it is a negative error number if an error occurs. Possible return values are:
 
 LINEERR_INVALFEATURE, LINEERR_OPERATIONUNAVAIL, LINEERR_INVALLINEHANDLE, LINEERR_OPERATIONFAILED, LINEERR_INVALPOINTER, LINEERR_RESOURCEUNAVAIL, LINEERR_NOMEM, LINEERR_UNINITIALIZED.
 
@@ -91,13 +91,12 @@ The structure pointed to by <i>lpParams</i> should not contain any pointers beca
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/extended-telephony-services-reference">Extended Telephony Services Reference</a>
+<a href="/windows/desktop/Tapi/extended-telephony-services-reference">Extended Telephony Services Reference</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/line-reply">LINE_REPLY</a>
+<a href="/windows/desktop/Tapi/line-reply">LINE_REPLY</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/tapi-2-2-reference">TAPI 2.2 Reference Overview</a>
-
+<a href="/windows/desktop/Tapi/tapi-2-2-reference">TAPI 2.2 Reference Overview</a>

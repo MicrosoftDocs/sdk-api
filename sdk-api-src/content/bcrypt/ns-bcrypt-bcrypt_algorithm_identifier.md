@@ -52,17 +52,17 @@ api_name:
 
 ## -description
 
-The <b>BCRYPT_ALGORITHM_IDENTIFIER</b> structure is used with the <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/nf-bcrypt-bcryptenumalgorithms">BCryptEnumAlgorithms</a> function to contain a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">cryptographic algorithm</a> identifier.
+The <b>BCRYPT_ALGORITHM_IDENTIFIER</b> structure is used with the <a href="/windows/desktop/api/bcrypt/nf-bcrypt-bcryptenumalgorithms">BCryptEnumAlgorithms</a> function to contain a <a href="/windows/desktop/SecGloss/c-gly">cryptographic algorithm</a> identifier.
 
 ## -struct-fields
 
 ### -field pszName
 
-A pointer to a null-terminated Unicode string that contains the string identifier of the algorithm. The <a href="https://docs.microsoft.com/windows/desktop/SecCNG/cng-algorithm-identifiers">CNG Algorithm Identifiers</a> topic contains the predefined algorithm identifiers.
+A pointer to a null-terminated Unicode string that contains the string identifier of the algorithm. The <a href="/windows/desktop/SecCNG/cng-algorithm-identifiers">CNG Algorithm Identifiers</a> topic contains the predefined algorithm identifiers.
 
 ### -field dwClass
 
-Specifies the class of the algorithm. This can be one of the <a href="https://docs.microsoft.com/windows/desktop/SecCNG/cng-interface-identifiers">CNG Interface Identifiers</a>.
+Specifies the class of the algorithm. This can be one of the <a href="/windows/desktop/SecCNG/cng-interface-identifiers">CNG Interface Identifiers</a>.
 
 ### -field dwFlags
 
@@ -70,5 +70,4 @@ A set of flags that specify other information about the algorithm. There are cur
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/nf-bcrypt-bcryptenumalgorithms">BCryptEnumAlgorithms</a>
-
+<a href="/windows/desktop/api/bcrypt/nf-bcrypt-bcryptenumalgorithms">BCryptEnumAlgorithms</a>

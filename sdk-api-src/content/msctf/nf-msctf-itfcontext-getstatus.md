@@ -56,7 +56,7 @@ Obtains the document status.
 
 ### -param pdcs [out]
 
-Pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms629192(v=vs.85)">TF_STATUS</a> structure that receives the document status data.
+Pointer to a <a href="/previous-versions/windows/desktop/legacy/ms629192(v=vs.85)">TF_STATUS</a> structure that receives the document status data.
 
 ## -returns
 
@@ -104,5 +104,4 @@ The context is not on a document stack.
 
 ## -see-also
 
-[ITfContext interface](nn-msctf-itfcontext.md), [TF_STATUS](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms629192(v=vs.85))
-
+[ITfContext interface](nn-msctf-itfcontext.md), [TF_STATUS](/previous-versions/windows/desktop/legacy/ms629192(v=vs.85))

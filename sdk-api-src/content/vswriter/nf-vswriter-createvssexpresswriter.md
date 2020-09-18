@@ -51,14 +51,14 @@ api_name:
 
 ## -description
 
-Creates an <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-ivssexpresswriter">IVssExpressWriter</a> interface object and returns a pointer to it.<div class="alert"><b>Note</b>  This function is exported as <b>CreateVssExpressWriterInternal</b>, but you should call <b>CreateVssExpressWriter</b>, not <b>CreateVssExpressWriterInternal</b>.</div>
+Creates an <a href="/windows/desktop/api/vswriter/nl-vswriter-ivssexpresswriter">IVssExpressWriter</a> interface object and returns a pointer to it.<div class="alert"><b>Note</b>  This function is exported as <b>CreateVssExpressWriterInternal</b>, but you should call <b>CreateVssExpressWriter</b>, not <b>CreateVssExpressWriterInternal</b>.</div>
 <div> </div>
 
 ## -parameters
 
 ### -param ppWriter [out]
 
-Doubly indirect pointer to the newly created <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-ivssexpresswriter">IVssExpressWriter</a> object.
+Doubly indirect pointer to the newly created <a href="/windows/desktop/api/vswriter/nl-vswriter-ivssexpresswriter">IVssExpressWriter</a> object.
 
 ## -returns
 
@@ -77,7 +77,7 @@ The return values listed here are in addition to the normal COM HRESULT values t
 </td>
 <td width="60%">
 Successfully returned a pointer to an 
-        <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-ivssexpresswriter">IVssExpressWriter</a> interface.
+        <a href="/windows/desktop/api/vswriter/nl-vswriter-ivssexpresswriter">IVssExpressWriter</a> interface.
 
 </td>
 </tr>
@@ -104,4 +104,3 @@ One of the parameters is not valid.
 </td>
 </tr>
 </table>
-

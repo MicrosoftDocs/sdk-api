@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-Locks the attribute store so that no other thread can access it. If the attribute store is already locked by another thread, this method blocks until the other thread unlocks the object. After calling this method, call <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfattributes-unlockstore">IMFAttributes::UnlockStore</a> to unlock the object.
+Locks the attribute store so that no other thread can access it. If the attribute store is already locked by another thread, this method blocks until the other thread unlocks the object. After calling this method, call <a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfattributes-unlockstore">IMFAttributes::UnlockStore</a> to unlock the object.
 
 ## -parameters
 
@@ -79,7 +79,7 @@ The method succeeded.
 
 ## -remarks
 
-This method can cause a deadlock if a thread that calls <b>LockStore</b> waits on a thread that calls any other <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes">IMFAttributes</a> methods on the same object.
+This method can cause a deadlock if a thread that calls <b>LockStore</b> waits on a thread that calls any other <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes">IMFAttributes</a> methods on the same object.
 
 This interface is available on the following platforms if the Windows Media Format 11 SDK redistributable components are installed:
 
@@ -90,9 +90,8 @@ This interface is available on the following platforms if the Windows Media Form
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/attributes-and-properties">Attributes and Properties</a>
+<a href="/windows/desktop/medfound/attributes-and-properties">Attributes and Properties</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes">IMFAttributes</a>
-
+<a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes">IMFAttributes</a>

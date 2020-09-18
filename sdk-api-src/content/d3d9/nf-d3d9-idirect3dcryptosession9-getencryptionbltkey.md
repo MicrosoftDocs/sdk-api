@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Gets the cryptographic key used to decrypt the data returned by the <a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3dcryptosession9-encryptionblt">IDirect3DCryptoSession9::EncryptionBlt</a> method.
+Gets the cryptographic key used to decrypt the data returned by the <a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3dcryptosession9-encryptionblt">IDirect3DCryptoSession9::EncryptionBlt</a> method.
 
 ## -parameters
 
@@ -68,15 +68,14 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -remarks
 
-This method applies only when the driver requires a separate content key for the <a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3dcryptosession9-encryptionblt">EncryptionBlt</a> method. If the driver requires a content key, it sets the <b>D3DCPCAPS_ENCRYPTEDREADBACKKEY</b>flag in the capabilities structure returned by the <a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9video-getcontentprotectioncaps">IDirect3DDevice9Video::GetContentProtectionCaps</a> method. Otherwise, the driver uses the session key to encrypt the data.
+This method applies only when the driver requires a separate content key for the <a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3dcryptosession9-encryptionblt">EncryptionBlt</a> method. If the driver requires a content key, it sets the <b>D3DCPCAPS_ENCRYPTEDREADBACKKEY</b>flag in the capabilities structure returned by the <a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9video-getcontentprotectioncaps">IDirect3DDevice9Video::GetContentProtectionCaps</a> method. Otherwise, the driver uses the session key to encrypt the data.
 
 Each time this method is called, the driver generates a new key.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/gpu-based-content-protection">GPU-Based Content Protection</a>
+<a href="/windows/desktop/medfound/gpu-based-content-protection">GPU-Based Content Protection</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nn-d3d9-idirect3dcryptosession9">IDirect3DCryptoSession9</a>
-
+<a href="/windows/desktop/api/d3d9/nn-d3d9-idirect3dcryptosession9">IDirect3DCryptoSession9</a>

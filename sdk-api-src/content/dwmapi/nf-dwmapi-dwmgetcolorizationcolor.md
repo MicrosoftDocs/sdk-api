@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-Retrieves the current color used for Desktop Window Manager (DWM) glass composition. This value is based on the current color scheme and can be modified by the user. Applications can listen for color changes by handling the <a href="https://docs.microsoft.com/windows/desktop/dwm/wm-dwmcolorizationcolorchanged">WM_DWMCOLORIZATIONCOLORCHANGED</a> notification.
+Retrieves the current color used for Desktop Window Manager (DWM) glass composition. This value is based on the current color scheme and can be modified by the user. Applications can listen for color changes by handling the <a href="/windows/desktop/dwm/wm-dwmcolorizationcolorchanged">WM_DWMCOLORIZATIONCOLORCHANGED</a> notification.
 
 ## -parameters
 
@@ -69,12 +69,12 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 ## -remarks
 
-The value pointed to by <i>pcrColorization</i> is in an 0xAARRGGBB format. Many Microsoft Win32 APIs, such as <a href="https://docs.microsoft.com/windows/desktop/gdi/colorref">COLORREF</a>, use a 0x00BBGGRR format. Be careful to assure that the intended colors are used.
+The value pointed to by <i>pcrColorization</i> is in an 0xAARRGGBB format. Many Microsoft Win32 APIs, such as <a href="/windows/desktop/gdi/colorref">COLORREF</a>, use a 0x00BBGGRR format. Be careful to assure that the intended colors are used.
 
 
 #### Examples
 
-The following example code shows a <a href="https://docs.microsoft.com/windows/desktop/dwm/wm-dwmcolorizationcolorchanged">WM_DWMCOLORIZATIONCOLORCHANGED</a> notification handle. If the colorization notification is received, this code retrieves the new color value.
+The following example code shows a <a href="/windows/desktop/dwm/wm-dwmcolorizationcolorchanged">WM_DWMCOLORIZATIONCOLORCHANGED</a> notification handle. If the colorization notification is received, this code retrieves the new color value.
 
 
 ```cpp
@@ -90,4 +90,3 @@ if (SUCCEEDED(hr))
 }
 ...
 ```
-

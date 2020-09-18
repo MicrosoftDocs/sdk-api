@@ -74,6 +74,5 @@ The class list is retrieved by the form pages upon receiving a DSQPM_GETCLASSLIS
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/AD/display-structures-in-active-directory-domain-services">Active
+<a href="/windows/desktop/AD/display-structures-in-active-directory-domain-services">Active
   Directory Display Structures</a>
-

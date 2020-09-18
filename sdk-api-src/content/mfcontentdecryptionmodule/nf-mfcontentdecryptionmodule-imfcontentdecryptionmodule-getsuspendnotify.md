@@ -48,7 +48,7 @@ Retrieves an object for [IMFContentDecryptionModuleSession](nn-mfcontentdecrypti
 
 ### -param notify
 
-Receives an [IMFCdmSuspendNotify](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfcdmsuspendnotify) object that notifies the Content Decryption Module (CDM) when global resources should be brought into a consistent state prior to suspending.
+Receives an [IMFCdmSuspendNotify](../mfmediaengine/nn-mfmediaengine-imfcdmsuspendnotify.md) object that notifies the Content Decryption Module (CDM) when global resources should be brought into a consistent state prior to suspending.
 
 ## -returns
 
@@ -57,4 +57,3 @@ Returns S_OK on success.
 ## -remarks
 
 ## -see-also
-

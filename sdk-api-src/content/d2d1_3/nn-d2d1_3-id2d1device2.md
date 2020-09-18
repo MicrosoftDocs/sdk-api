@@ -51,12 +51,12 @@ api_name:
 ## -description
 
 Represents a resource domain whose objects and device contexts can be used together.
-          This interface performs all the same functions as the existing <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_2/nn-d2d1_2-id2d1device1">ID2D1Device1</a> interface.
-          It also enables the creation of <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3/nn-d2d1_3-id2d1devicecontext2">ID2D1DeviceContext2</a> objects.
+          This interface performs all the same functions as the existing <a href="/windows/desktop/api/d2d1_2/nn-d2d1_2-id2d1device1">ID2D1Device1</a> interface.
+          It also enables the creation of <a href="/windows/desktop/api/d2d1_3/nn-d2d1_3-id2d1devicecontext2">ID2D1DeviceContext2</a> objects.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID2D1Device2</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_2/nn-d2d1_2-id2d1device1">ID2D1Device1</a>. <b>ID2D1Device2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID2D1Device2</b> interface inherits from <a href="/windows/desktop/api/d2d1_2/nn-d2d1_2-id2d1device1">ID2D1Device1</a>. <b>ID2D1Device2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,16 +71,16 @@ The <b>ID2D1Device2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3/nf-d2d1_3-id2d1device2-createdevicecontext">CreateDeviceContext</a>
+<a href="/windows/desktop/api/d2d1_3/nf-d2d1_3-id2d1device2-createdevicecontext">CreateDeviceContext</a>
 </td>
 <td align="left" width="63%">
-Creates a new <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3/nn-d2d1_3-id2d1devicecontext2">ID2D1DeviceContext2</a> from a Direct2D device.
+Creates a new <a href="/windows/desktop/api/d2d1_3/nn-d2d1_3-id2d1devicecontext2">ID2D1DeviceContext2</a> from a Direct2D device.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3/nf-d2d1_3-id2d1device2-flushdevicecontexts">FlushDeviceContexts</a>
+<a href="/windows/desktop/api/d2d1_3/nf-d2d1_3-id2d1device2-flushdevicecontexts">FlushDeviceContexts</a>
 </td>
 <td align="left" width="63%">
 Flush all device contexts that reference a given bitmap.
@@ -89,7 +89,7 @@ Flush all device contexts that reference a given bitmap.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3/nf-d2d1_3-id2d1device2-getdxgidevice">GetDxgiDevice</a>
+<a href="/windows/desktop/api/d2d1_3/nf-d2d1_3-id2d1device2-getdxgidevice">GetDxgiDevice</a>
 </td>
 <td align="left" width="63%">
 Returns the DXGI device associated with this Direct2D device.
@@ -97,4 +97,3 @@ Returns the DXGI device associated with this Direct2D device.
 </td>
 </tr>
 </table>
-

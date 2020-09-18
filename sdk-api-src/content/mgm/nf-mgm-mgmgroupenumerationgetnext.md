@@ -60,7 +60,7 @@ The groups are not returned in any particular order.
 ### -param hEnum [in]
 
 Handle to the enumeration that was obtained from a previous call to 
-<a href="https://docs.microsoft.com/windows/desktop/api/mgm/nf-mgm-mgmgroupenumerationstart">MgmGroupEnumerationStart</a>.
+<a href="/windows/desktop/api/mgm/nf-mgm-mgmgroupenumerationstart">MgmGroupEnumerationStart</a>.
 
 ### -param pdwBufferSize [in, out]
 
@@ -79,7 +79,7 @@ On input, the client must supply a pointer to a buffer.
 
 
 On output, <i>pbBuffer</i> contains one or more group entries. Each group entry is a 
-<a href="https://docs.microsoft.com/windows/desktop/api/mgm/ns-mgm-source_group_entry">SOURCE_GROUP_ENTRY</a> structure.
+<a href="/windows/desktop/api/mgm/ns-mgm-source_group_entry">SOURCE_GROUP_ENTRY</a> structure.
 
 ### -param pdwNumEntries [in, out]
 
@@ -175,13 +175,12 @@ Not enough memory to complete this operation.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mgm/nf-mgm-mgmgroupenumerationend">MgmGroupEnumerationEnd</a>
+<a href="/windows/desktop/api/mgm/nf-mgm-mgmgroupenumerationend">MgmGroupEnumerationEnd</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mgm/nf-mgm-mgmgroupenumerationstart">MgmGroupEnumerationStart</a>
+<a href="/windows/desktop/api/mgm/nf-mgm-mgmgroupenumerationstart">MgmGroupEnumerationStart</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mgm/ns-mgm-source_group_entry">SOURCE_GROUP_ENTRY</a>
-
+<a href="/windows/desktop/api/mgm/ns-mgm-source_group_entry">SOURCE_GROUP_ENTRY</a>

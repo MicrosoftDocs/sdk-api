@@ -55,10 +55,10 @@ api_name:
 ## -description
 
 The <b>CERT_STORE_PROV_INFO</b> structure contains information returned by the installed 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nc-wincrypt-pfn_cert_dll_open_store_prov_func">CertDllOpenStoreProv</a>  function when a store is opened by using the  
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certopenstore">CertOpenStore</a> function.
+<a href="/windows/desktop/api/wincrypt/nc-wincrypt-pfn_cert_dll_open_store_prov_func">CertDllOpenStoreProv</a>  function when a store is opened by using the  
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-certopenstore">CertOpenStore</a> function.
 
-When opening a store, the  <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certopenstore">CertOpenStore</a>  function sets all fields in the <b>CERT_STORE_PROV_INFO</b> structure to zero except <b>cbSize</b>, which is set to the size of <b>CERT_STORE_PROV_INFO</b>. The structure is updated by the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nc-wincrypt-pfn_cert_dll_open_store_prov_func">CertDllOpenStoreProv</a> installable function. If there are no additional callback functions to be called, then <b>cStoreProvFunc</b> remains zero upon return.
+When opening a store, the  <a href="/windows/desktop/api/wincrypt/nf-wincrypt-certopenstore">CertOpenStore</a>  function sets all fields in the <b>CERT_STORE_PROV_INFO</b> structure to zero except <b>cbSize</b>, which is set to the size of <b>CERT_STORE_PROV_INFO</b>. The structure is updated by the <a href="/windows/desktop/api/wincrypt/nc-wincrypt-pfn_cert_dll_open_store_prov_func">CertDllOpenStoreProv</a> installable function. If there are no additional callback functions to be called, then <b>cStoreProvFunc</b> remains zero upon return.
 
 ## -struct-fields
 
@@ -87,7 +87,7 @@ An array of pointers to the callback functions that are implemented by the provi
 </td>
 <td width="60%">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nc-wincrypt-pfn_cert_store_prov_close">CertStoreProvCloseCallback</a>
+<a href="/windows/desktop/api/wincrypt/nc-wincrypt-pfn_cert_store_prov_close">CertStoreProvCloseCallback</a>
 
 
 </td>
@@ -100,7 +100,7 @@ An array of pointers to the callback functions that are implemented by the provi
 </td>
 <td width="60%">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nc-wincrypt-pfn_cert_store_prov_read_cert">CertStoreProvReadCertCallback</a>
+<a href="/windows/desktop/api/wincrypt/nc-wincrypt-pfn_cert_store_prov_read_cert">CertStoreProvReadCertCallback</a>
 
 
 </td>
@@ -113,7 +113,7 @@ An array of pointers to the callback functions that are implemented by the provi
 </td>
 <td width="60%">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nc-wincrypt-pfn_cert_store_prov_write_cert">CertStoreProvWriteCertCallback</a>
+<a href="/windows/desktop/api/wincrypt/nc-wincrypt-pfn_cert_store_prov_write_cert">CertStoreProvWriteCertCallback</a>
 
 
 </td>
@@ -126,7 +126,7 @@ An array of pointers to the callback functions that are implemented by the provi
 </td>
 <td width="60%">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nc-wincrypt-pfn_cert_store_prov_delete_cert">CertStoreProvDeleteCertCallback</a>
+<a href="/windows/desktop/api/wincrypt/nc-wincrypt-pfn_cert_store_prov_delete_cert">CertStoreProvDeleteCertCallback</a>
 
 
 </td>
@@ -139,7 +139,7 @@ An array of pointers to the callback functions that are implemented by the provi
 </td>
 <td width="60%">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nc-wincrypt-pfn_cert_store_prov_set_cert_property">CertStoreProvSetCertPropertyCallback</a>
+<a href="/windows/desktop/api/wincrypt/nc-wincrypt-pfn_cert_store_prov_set_cert_property">CertStoreProvSetCertPropertyCallback</a>
 
 
 </td>
@@ -152,7 +152,7 @@ An array of pointers to the callback functions that are implemented by the provi
 </td>
 <td width="60%">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nc-wincrypt-pfn_cert_store_prov_read_crl">CertStoreProvReadCRLCallback</a>
+<a href="/windows/desktop/api/wincrypt/nc-wincrypt-pfn_cert_store_prov_read_crl">CertStoreProvReadCRLCallback</a>
 
 
 </td>
@@ -165,7 +165,7 @@ An array of pointers to the callback functions that are implemented by the provi
 </td>
 <td width="60%">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nc-wincrypt-pfn_cert_store_prov_write_crl">CertStoreProvWriteCRLCallback</a>
+<a href="/windows/desktop/api/wincrypt/nc-wincrypt-pfn_cert_store_prov_write_crl">CertStoreProvWriteCRLCallback</a>
 
 
 </td>
@@ -178,7 +178,7 @@ An array of pointers to the callback functions that are implemented by the provi
 </td>
 <td width="60%">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nc-wincrypt-pfn_cert_store_prov_delete_crl">CertStoreProvDeleteCRLCallback</a>
+<a href="/windows/desktop/api/wincrypt/nc-wincrypt-pfn_cert_store_prov_delete_crl">CertStoreProvDeleteCRLCallback</a>
 
 
 </td>
@@ -191,7 +191,7 @@ An array of pointers to the callback functions that are implemented by the provi
 </td>
 <td width="60%">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nc-wincrypt-pfn_cert_store_prov_set_crl_property">CertStoreProvSetCRLPropertyCallback</a>
+<a href="/windows/desktop/api/wincrypt/nc-wincrypt-pfn_cert_store_prov_set_crl_property">CertStoreProvSetCRLPropertyCallback</a>
 
 
 </td>
@@ -204,7 +204,7 @@ An array of pointers to the callback functions that are implemented by the provi
 </td>
 <td width="60%">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nc-wincrypt-pfn_cert_store_prov_read_ctl">CertStoreProvReadCTL</a>
+<a href="/windows/desktop/api/wincrypt/nc-wincrypt-pfn_cert_store_prov_read_ctl">CertStoreProvReadCTL</a>
 
 
 </td>
@@ -217,7 +217,7 @@ An array of pointers to the callback functions that are implemented by the provi
 </td>
 <td width="60%">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nc-wincrypt-pfn_cert_store_prov_write_ctl">CertStoreProvWriteCTL</a>
+<a href="/windows/desktop/api/wincrypt/nc-wincrypt-pfn_cert_store_prov_write_ctl">CertStoreProvWriteCTL</a>
 
 
 </td>
@@ -230,7 +230,7 @@ An array of pointers to the callback functions that are implemented by the provi
 </td>
 <td width="60%">
 
-<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/certstoreprovdeletectl">CertStoreProvDeleteCTL</a>
+<a href="/windows/desktop/SecCrypto/certstoreprovdeletectl">CertStoreProvDeleteCTL</a>
 
 
 </td>
@@ -243,7 +243,7 @@ An array of pointers to the callback functions that are implemented by the provi
 </td>
 <td width="60%">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nc-wincrypt-pfn_cert_store_prov_set_ctl_property">CertStoreProvSetCTLProperty</a>
+<a href="/windows/desktop/api/wincrypt/nc-wincrypt-pfn_cert_store_prov_set_ctl_property">CertStoreProvSetCTLProperty</a>
 
 
 </td>
@@ -256,7 +256,7 @@ An array of pointers to the callback functions that are implemented by the provi
 </td>
 <td width="60%">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nc-wincrypt-pfn_cert_store_prov_control">CertStoreProvControl</a>
+<a href="/windows/desktop/api/wincrypt/nc-wincrypt-pfn_cert_store_prov_control">CertStoreProvControl</a>
 
 
 </td>
@@ -269,7 +269,7 @@ An array of pointers to the callback functions that are implemented by the provi
 </td>
 <td width="60%">
 
-<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/certstoreprovfindcert">CertStoreProvFindCert</a>
+<a href="/windows/desktop/SecCrypto/certstoreprovfindcert">CertStoreProvFindCert</a>
 
 
 </td>
@@ -282,7 +282,7 @@ An array of pointers to the callback functions that are implemented by the provi
 </td>
 <td width="60%">
 
-<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/certstoreprovfreefindcert">CertStoreProvFreeFindCert</a>
+<a href="/windows/desktop/SecCrypto/certstoreprovfreefindcert">CertStoreProvFreeFindCert</a>
 
 
 </td>
@@ -295,7 +295,7 @@ An array of pointers to the callback functions that are implemented by the provi
 </td>
 <td width="60%">
 
-<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/certstoreprovgetcertproperty">CertStoreProvGetCertProperty</a>
+<a href="/windows/desktop/SecCrypto/certstoreprovgetcertproperty">CertStoreProvGetCertProperty</a>
 
 
 </td>
@@ -308,7 +308,7 @@ An array of pointers to the callback functions that are implemented by the provi
 </td>
 <td width="60%">
 
-<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/certstoreprovfindcrl">CertStoreProvFindCRL</a>
+<a href="/windows/desktop/SecCrypto/certstoreprovfindcrl">CertStoreProvFindCRL</a>
 
 
 </td>
@@ -321,7 +321,7 @@ An array of pointers to the callback functions that are implemented by the provi
 </td>
 <td width="60%">
 
-<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/certstoreprovfreefindcrl">CertStoreProvFreeFindCRL</a>
+<a href="/windows/desktop/SecCrypto/certstoreprovfreefindcrl">CertStoreProvFreeFindCRL</a>
 
 
 </td>
@@ -334,7 +334,7 @@ An array of pointers to the callback functions that are implemented by the provi
 </td>
 <td width="60%">
 
-<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/certstoreprovgetcrlproperty">CertStoreProvGetCRLProperty</a>
+<a href="/windows/desktop/SecCrypto/certstoreprovgetcrlproperty">CertStoreProvGetCRLProperty</a>
 
 
 </td>
@@ -347,7 +347,7 @@ An array of pointers to the callback functions that are implemented by the provi
 </td>
 <td width="60%">
 
-<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/certstoreprovfindctl">CertStoreProvFindCTL</a>
+<a href="/windows/desktop/SecCrypto/certstoreprovfindctl">CertStoreProvFindCTL</a>
 
 
 </td>
@@ -360,7 +360,7 @@ An array of pointers to the callback functions that are implemented by the provi
 </td>
 <td width="60%">
 
-<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/certstoreprovfreefindctl">CertStoreProvFreeFindCTL</a>
+<a href="/windows/desktop/SecCrypto/certstoreprovfreefindctl">CertStoreProvFreeFindCTL</a>
 
 
 </td>
@@ -373,7 +373,7 @@ An array of pointers to the callback functions that are implemented by the provi
 </td>
 <td width="60%">
 
-<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/certstoreprovgetctlproperty">CertStoreProvGetCTLProperty</a>
+<a href="/windows/desktop/SecCrypto/certstoreprovgetctlproperty">CertStoreProvGetCTLProperty</a>
 
 
 </td>
@@ -400,7 +400,7 @@ Contains a set of flags that specify how the provider works. Contains zero or a 
 </dl>
 </td>
 <td width="60%">
-The provider stores <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificates</a>, <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate revocation lists</a>, and <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate trust lists</a> that are external to the store's cache.
+The provider stores <a href="/windows/desktop/SecGloss/c-gly">certificates</a>, <a href="/windows/desktop/SecGloss/c-gly">certificate revocation lists</a>, and <a href="/windows/desktop/SecGloss/c-gly">certificate trust lists</a> that are external to the store's cache.
 
 </td>
 </tr>
@@ -411,7 +411,7 @@ The provider stores <a href="https://docs.microsoft.com/windows/desktop/SecGloss
 </dl>
 </td>
 <td width="60%">
-The store was successfully deleted. The <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nc-wincrypt-pfn_cert_store_prov_close">CertStoreProvCloseCallback</a> callback is not called.
+The store was successfully deleted. The <a href="/windows/desktop/api/wincrypt/nc-wincrypt-pfn_cert_store_prov_close">CertStoreProvCloseCallback</a> callback is not called.
 
 </td>
 </tr>
@@ -453,7 +453,6 @@ The provider persists contexts to a LocalMachine system store.
 ### -field hStoreProvFuncAddr2
 
 Contains the handle returned by 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptgetoidfunctionaddress">CryptGetOIDFunctionAddress</a>. 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certclosestore">CertCloseStore</a> calls 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptfreeoidfunctionaddress">CryptFreeOIDFunctionAddress</a> to free a non-null <b>hStoreProvFuncAddr2</b>. This allows the callback to call one other installable function that will be freed when the store is closed.
-
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptgetoidfunctionaddress">CryptGetOIDFunctionAddress</a>. 
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-certclosestore">CertCloseStore</a> calls 
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptfreeoidfunctionaddress">CryptFreeOIDFunctionAddress</a> to free a non-null <b>hStoreProvFuncAddr2</b>. This allows the callback to call one other installable function that will be freed when the store is closed.

@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Retrieves information about an embedded font, such as embedding permissions. <b>TTGetEmbeddedFontInfo</b> performs the same task as <a href="https://docs.microsoft.com/windows/desktop/api/t2embapi/nf-t2embapi-ttloadembeddedfont">TTLoadEmbeddedFont</a> but does not allocate internal data structures for the embedded font.
+Retrieves information about an embedded font, such as embedding permissions. <b>TTGetEmbeddedFontInfo</b> performs the same task as <a href="/windows/desktop/api/t2embapi/nf-t2embapi-ttloadembeddedfont">TTLoadEmbeddedFont</a> but does not allocate internal data structures for the embedded font.
 
 ## -parameters
 
@@ -158,7 +158,7 @@ Restricted License Embedding.
 
 ### -param ulPrivs [in]
 
-Flag indicating a further restriction of embedding privileges, imposed by the client. See <a href="https://docs.microsoft.com/windows/desktop/api/t2embapi/nf-t2embapi-ttloadembeddedfont">TTLoadEmbeddedFont</a> for additional information.
+Flag indicating a further restriction of embedding privileges, imposed by the client. See <a href="/windows/desktop/api/t2embapi/nf-t2embapi-ttloadembeddedfont">TTLoadEmbeddedFont</a> for additional information.
 
 This flag must have one of the following values.
 
@@ -250,7 +250,7 @@ Currently undefined. Reserved for a pointer to the stream (font structure).
 
 ### -param pTTLoadInfo [in]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/t2embapi/ns-t2embapi-ttloadinfo">TTLOADINFO</a> structure containing the URL from which the embedded font object has been obtained.
+Pointer to a <a href="/windows/desktop/api/t2embapi/ns-t2embapi-ttloadinfo">TTLOADINFO</a> structure containing the URL from which the embedded font object has been obtained.
 
 ## -returns
 
@@ -258,21 +258,20 @@ If successful, returns E_NONE.
 
 The location referenced by *<i>pulPrivStatus</i> identifies embedding privileges of the font. The location referenced by *<i>pulStatus</i> identifies whether a subset of the font is embedded.
 
-Otherwise, returns an error code described in <a href="https://docs.microsoft.com/windows/desktop/gdi/font-embedding-function-error-messages">Embedding-Function Error Messages</a>.
+Otherwise, returns an error code described in <a href="/windows/desktop/gdi/font-embedding-function-error-messages">Embedding-Function Error Messages</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/t2embapi/nf-t2embapi-ttgetembeddingtype">TTGetEmbeddingType</a>
+<a href="/windows/desktop/api/t2embapi/nf-t2embapi-ttgetembeddingtype">TTGetEmbeddingType</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/t2embapi/nf-t2embapi-ttgetnewfontname">TTGetNewFontName</a>
+<a href="/windows/desktop/api/t2embapi/nf-t2embapi-ttgetnewfontname">TTGetNewFontName</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/t2embapi/ns-t2embapi-ttloadinfo">TTLOADINFO</a>
+<a href="/windows/desktop/api/t2embapi/ns-t2embapi-ttloadinfo">TTLOADINFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/t2embapi/nf-t2embapi-ttloadembeddedfont">TTLoadEmbeddedFont</a>
-
+<a href="/windows/desktop/api/t2embapi/nf-t2embapi-ttloadembeddedfont">TTLoadEmbeddedFont</a>

@@ -55,7 +55,7 @@ api_name:
 ## -description
 
 The <b>WINTRUST_FILE_INFO</b> structure is used when calling 
-<a href="https://docs.microsoft.com/windows/desktop/api/wintrust/nf-wintrust-winverifytrust">WinVerifyTrust</a> to verify an individual file.
+<a href="/windows/desktop/api/wintrust/nf-wintrust-winverifytrust">WinVerifyTrust</a> to verify an individual file.
 
 ## -struct-fields
 
@@ -74,4 +74,3 @@ Optional. File handle to the open file to be verified. This handle must be to a 
 ### -field pgKnownSubject
 
 Optional. Pointer to a <a href="/windows/win32/api/guiddef/ns-guiddef-guid">GUID</a> structure that specifies the subject type. This member can be set to <b>NULL</b>.
-

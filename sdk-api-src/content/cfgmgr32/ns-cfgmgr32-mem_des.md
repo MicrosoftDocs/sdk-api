@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-The MEM_DES structure is used for specifying either a resource list or a resource requirements list that describes memory usage for a device instance. For more information about resource lists and resource requirements lists, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/hardware-resources">Hardware Resources</a>.
+The MEM_DES structure is used for specifying either a resource list or a resource requirements list that describes memory usage for a device instance. For more information about resource lists and resource requirements lists, see <a href="/windows-hardware/drivers/kernel/hardware-resources">Hardware Resources</a>.
 
 ## -struct-fields
 
@@ -68,7 +68,7 @@ Zero.
 
 #### For a resource requirements list:
 
-The number of elements in the [MEM_RANGE](https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-mem_range) array that is included in the [MEM_RESOURCE](https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-mem_resource) structure.
+The number of elements in the [MEM_RANGE](/windows/desktop/api/cfgmgr32/ns-cfgmgr32-mem_range) array that is included in the [MEM_RESOURCE](/windows/desktop/api/cfgmgr32/ns-cfgmgr32-mem_resource) structure.
 
 ### -field MD_Type
 
@@ -356,9 +356,8 @@ Bitmask for the bit within <b>MD_Flags</b> that specifies the combine-write cach
 
 ## -see-also
 
-[MEM_RANGE](https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-mem_range)
+[MEM_RANGE](/windows/desktop/api/cfgmgr32/ns-cfgmgr32-mem_range)
 
 
 
-[MEM_RESOURCE](https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-mem_resource)
-
+[MEM_RESOURCE](/windows/desktop/api/cfgmgr32/ns-cfgmgr32-mem_resource)

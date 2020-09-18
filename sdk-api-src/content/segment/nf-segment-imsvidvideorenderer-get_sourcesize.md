@@ -56,7 +56,7 @@ The <b>get_SourceSize</b> method retrieves the type of clipping to apply to the 
 
 ### -param CurrentSize
 
-Receives a member of the <a href="https://docs.microsoft.com/windows/desktop/api/segment/ne-segment-sourcesizelist">SourceSizeList</a> enumeration.
+Receives a member of the <a href="/windows/desktop/api/segment/ne-segment-sourcesizelist">SourceSizeList</a> enumeration.
 
 ## -returns
 
@@ -64,9 +64,8 @@ If the method succeeds, it returns S_OK. If it fails, it returns an error code.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/msvidvideorenderer">IMSVidVideoRenderer Interface</a>
+<a href="/previous-versions/windows/desktop/mstv/msvidvideorenderer">IMSVidVideoRenderer Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidvideorenderer-put_sourcesize">IMSVidVideoRenderer::put_SourceSize</a>
-
+<a href="/windows/desktop/api/segment/nf-segment-imsvidvideorenderer-put_sourcesize">IMSVidVideoRenderer::put_SourceSize</a>

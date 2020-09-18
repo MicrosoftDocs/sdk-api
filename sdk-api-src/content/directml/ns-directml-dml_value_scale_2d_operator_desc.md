@@ -68,7 +68,7 @@ A pointer to a constant [DML_TENSOR_DESC](/windows/desktop/api/directml/ns-direc
 
 ### -field Scale
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">FLOAT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">FLOAT</a></b>
 
 The scale to apply. You can use a default value of 1.0.
 
@@ -80,7 +80,6 @@ This field determines the size of the <i>Bias</i> array. This field must be set 
 
 ### -field Bias
 
-Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">FLOAT</a>*</b>
+Type: <b>const <a href="/windows/desktop/WinProg/windows-data-types">FLOAT</a>*</b>
 
-A pointer to a constant array of <a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">FLOAT</a> containing the bias term for each dimension of the input tensor.
-
+A pointer to a constant array of <a href="/windows/desktop/WinProg/windows-data-types">FLOAT</a> containing the bias term for each dimension of the input tensor.

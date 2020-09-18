@@ -93,7 +93,7 @@ A pointer to a null-terminated Unicode string that contains the identifier of th
 
 ### -param pConfig [in]
 
-The address of a <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/ns-bcrypt-crypt_context_config">CRYPT_CONTEXT_CONFIG</a> structure that contains the new context configuration information.
+The address of a <a href="/windows/desktop/api/bcrypt/ns-bcrypt-crypt_context_config">CRYPT_CONTEXT_CONFIG</a> structure that contains the new context configuration information.
 
 ## -returns
 
@@ -150,5 +150,4 @@ A memory allocation failure occurred.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/ns-bcrypt-crypt_context_config">CRYPT_CONTEXT_CONFIG</a>
-
+<a href="/windows/desktop/api/bcrypt/ns-bcrypt-crypt_context_config">CRYPT_CONTEXT_CONFIG</a>

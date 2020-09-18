@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-Defines capabilities of the underlying Direct3D device which may be queried using <a href="https://docs.microsoft.com/windows/desktop/api/d2d1effectauthor/nf-d2d1effectauthor-id2d1effectcontext-checkfeaturesupport">ID2D1EffectContext::CheckFeatureSupport</a>.
+Defines capabilities of the underlying Direct3D device which may be queried using <a href="/windows/desktop/api/d2d1effectauthor/nf-d2d1effectauthor-id2d1effectcontext-checkfeaturesupport">ID2D1EffectContext::CheckFeatureSupport</a>.
 
 ## -enum-fields
 
@@ -64,4 +64,3 @@ A D2D1_FEATURE_DATA_DOUBLES structure should be filled.
 A D2D1_FEATURE_DATA_D3D10_X_HARDWARE_OPTIONS structure should be filled.
 
 ### -field D2D1_FEATURE_FORCE_DWORD
-

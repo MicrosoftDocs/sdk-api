@@ -54,7 +54,7 @@ Provides functionality for the Media Source Extension (MSE).
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFMediaSourceExtension</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFMediaSourceExtension</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFMediaSourceExtension</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFMediaSourceExtension</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,16 +69,16 @@ The <b>IMFMediaSourceExtension</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/medfound/imfmediasourceextension-addsourcebuffer">AddSourceBuffer</a>
+<a href="/windows/desktop/medfound/imfmediasourceextension-addsourcebuffer">AddSourceBuffer</a>
 </td>
 <td align="left" width="63%">
-Adds a <a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfsourcebuffer">IMFSourceBuffer</a> to the collection of buffers associated with the <b>IMFMediaSourceExtension</b>.
+Adds a <a href="/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfsourcebuffer">IMFSourceBuffer</a> to the collection of buffers associated with the <b>IMFMediaSourceExtension</b>.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediasourceextension-getactivesourcebuffers">GetActiveSourceBuffers</a>
+<a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediasourceextension-getactivesourcebuffers">GetActiveSourceBuffers</a>
 </td>
 <td align="left" width="63%">
 Gets the source buffers that are actively supplying media data to the media source.
@@ -87,7 +87,7 @@ Gets the source buffers that are actively supplying media data to the media sour
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/medfound/imfmediasourceextension-getduration">GetDuration</a>
+<a href="/windows/desktop/medfound/imfmediasourceextension-getduration">GetDuration</a>
 </td>
 <td align="left" width="63%">
 Gets the duration of the media source in 100-nanosecond units.
@@ -96,7 +96,7 @@ Gets the duration of the media source in 100-nanosecond units.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/medfound/imfmediasourceextension-getreadystate">GetReadyState</a>
+<a href="/windows/desktop/medfound/imfmediasourceextension-getreadystate">GetReadyState</a>
 </td>
 <td align="left" width="63%">
 Gets the ready state of the media source.
@@ -105,16 +105,16 @@ Gets the ready state of the media source.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediasourceextension-getsourcebuffer">GetSourceBuffer</a>
+<a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediasourceextension-getsourcebuffer">GetSourceBuffer</a>
 </td>
 <td align="left" width="63%">
-Gets the <a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfsourcebuffer">IMFSourceBuffer</a> at the specified index in the collection of buffers.
+Gets the <a href="/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfsourcebuffer">IMFSourceBuffer</a> at the specified index in the collection of buffers.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediasourceextension-getsourcebuffers">GetSourceBuffers</a>
+<a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediasourceextension-getsourcebuffers">GetSourceBuffers</a>
 </td>
 <td align="left" width="63%">
 Gets the collection of source buffers associated with this media source.
@@ -123,7 +123,7 @@ Gets the collection of source buffers associated with this media source.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/medfound/imfmediasourceextension-istypesupported">IsTypeSupported</a>
+<a href="/windows/desktop/medfound/imfmediasourceextension-istypesupported">IsTypeSupported</a>
 </td>
 <td align="left" width="63%">
 Gets a value that indicates if the specified MIME type is supported by the media source.
@@ -132,7 +132,7 @@ Gets a value that indicates if the specified MIME type is supported by the media
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/medfound/imfmediasourceextension-removesourcebuffer">RemoveSourceBuffer</a>
+<a href="/windows/desktop/medfound/imfmediasourceextension-removesourcebuffer">RemoveSourceBuffer</a>
 </td>
 <td align="left" width="63%">
 Removes the specified source buffer from the collection of source buffers managed by the <b>IMFMediaSourceExtension</b> object.
@@ -141,7 +141,7 @@ Removes the specified source buffer from the collection of source buffers manage
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/medfound/imfmediasourceextension-setduration">SetDuration</a>
+<a href="/windows/desktop/medfound/imfmediasourceextension-setduration">SetDuration</a>
 </td>
 <td align="left" width="63%">
 Sets the duration of the media source in 100-nanosecond units.
@@ -150,7 +150,7 @@ Sets the duration of the media source in 100-nanosecond units.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/medfound/imfmediasourceextension-setendofstream">SetEndOfStream</a>
+<a href="/windows/desktop/medfound/imfmediasourceextension-setendofstream">SetEndOfStream</a>
 </td>
 <td align="left" width="63%">
 Indicate that the end of the media stream has been reached. 
@@ -163,9 +163,8 @@ Indicate that the end of the media stream has been reached.
 
   Media Source Extensions (MSE) is a World Wide Web Consortium (W3C) standard that extends the HTML5 media  elements to enable dynamically changing the media stream without the use of plug-ins. The   <b>IMFMediaSourceExtension</b> interface  and the related Microsoft Win32 API implement MSE and are expected to only be called by web browsers implementing MSE.  
 
-The MSE media source keeps track of the ready state of the of the source as well as a list of <a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfsourcebuffer">IMFSourceBuffer</a> objects which provide media data for the source.
+The MSE media source keeps track of the ready state of the of the source as well as a list of <a href="/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfsourcebuffer">IMFSourceBuffer</a> objects which provide media data for the source.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
-
+<a href="/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>

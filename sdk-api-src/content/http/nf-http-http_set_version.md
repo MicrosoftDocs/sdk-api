@@ -52,28 +52,27 @@ api_name:
 
 The 
 <b>HTTP_SET_VERSION</b> macro sets a specified 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_version">HTTP_VERSION</a> structure to a specified major/minor version combination.
+<a href="/windows/desktop/api/http/ns-http-http_version">HTTP_VERSION</a> structure to a specified major/minor version combination.
 
 ## -parameters
 
 ### -param version
 
 The 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_version">HTTP_VERSION</a> structure to be set.
+<a href="/windows/desktop/api/http/ns-http-http_version">HTTP_VERSION</a> structure to be set.
 
 ### -param major
 
-The major portion of the version to be used in the <a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_version">HTTP_VERSION</a> structure.
+The major portion of the version to be used in the <a href="/windows/desktop/api/http/ns-http-http_version">HTTP_VERSION</a> structure.
 
 ### -param minor
 
-The minor portion of the version to be used in the <a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_version">HTTP_VERSION</a> structure.
+The minor portion of the version to be used in the <a href="/windows/desktop/api/http/ns-http-http_version">HTTP_VERSION</a> structure.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Http/http-server-api-version-1-0-macros">HTTP Server API Version 1.0 Macros</a>
+<a href="/windows/desktop/Http/http-server-api-version-1-0-macros">HTTP Server API Version 1.0 Macros</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_version">HTTP_VERSION</a>
-
+<a href="/windows/desktop/api/http/ns-http-http_version">HTTP_VERSION</a>

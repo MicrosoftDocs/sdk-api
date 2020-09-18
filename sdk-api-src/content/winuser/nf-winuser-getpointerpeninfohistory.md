@@ -59,7 +59,7 @@ Gets the pen-based information associated with the individual inputs, if any, th
     the current message for the specified pointer (of type 
     <a href="/windows/win32/api/winuser/ne-winuser-tagpointer_input_type">PT_PEN</a>). The most recent input is included in 
     the returned history and is the same as the most recent input returned by the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getpointerpeninfo">GetPointerPenInfo</a> function.
+    <a href="/windows/desktop/api/winuser/nf-winuser-getpointerpeninfo">GetPointerPenInfo</a> function.
 
 ## -parameters
 
@@ -74,13 +74,13 @@ A pointer to a variable that specifies the count of structures in the buffer to 
        <b>GetPointerPenInfoHistory</b> succeeds, 
        <i>entriesCount</i> is updated with the total count of structures available. The total 
        count of structures available is the same as the <i>historyCount</i> field in the 
-       <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-pointer_pen_info">POINTER_PEN_INFO</a> structure returned by a 
-       call to  <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getpointerpeninfo">GetPointerPenInfo</a>.
+       <a href="/windows/desktop/api/winuser/ns-winuser-pointer_pen_info">POINTER_PEN_INFO</a> structure returned by a 
+       call to  <a href="/windows/desktop/api/winuser/nf-winuser-getpointerpeninfo">GetPointerPenInfo</a>.
 
 ### -param penInfo [out, optional]
 
 Address of an array of 
-       <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-pointer_pen_info">POINTER_PEN_INFO</a> structures to receive 
+       <a href="/windows/desktop/api/winuser/ns-winuser-pointer_pen_info">POINTER_PEN_INFO</a> structures to receive 
        the pointer information. This parameter can be NULL if <i>*entriesCount</i> is zero.
 
 ## -returns
@@ -88,7 +88,7 @@ Address of an array of
 If the function succeeds, the return value is non-zero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-       <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+       <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
@@ -103,7 +103,7 @@ If the application does not process pointer input messages as fast as they are g
 
 The information retrieved appears in reverse chronological order, with the most recent 
     entry in the first row of the returned array. The most recent entry is the same as that returned by the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getpointerpeninfo">GetPointerPenInfo</a> function.
+    <a href="/windows/desktop/api/winuser/nf-winuser-getpointerpeninfo">GetPointerPenInfo</a> function.
 
 If the count of rows in the buffer provided is insufficient to hold all available history entries, this 
     function succeeds with the buffer containing the most recent entries and <i>*entriesCount</i> 
@@ -125,17 +125,16 @@ If the specified pointer is not of type
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/inputmsg/functions">Functions</a>
+<a href="/previous-versions/windows/desktop/inputmsg/functions">Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getpointerframepeninfo">GetPointerFramePenInfo</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-getpointerframepeninfo">GetPointerFramePenInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getpointerframepeninfohistory">GetPointerFramePenInfoHistory</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-getpointerframepeninfohistory">GetPointerFramePenInfoHistory</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getpointerpeninfo">GetPointerPenInfo</a>
-
+<a href="/windows/desktop/api/winuser/nf-winuser-getpointerpeninfo">GetPointerPenInfo</a>

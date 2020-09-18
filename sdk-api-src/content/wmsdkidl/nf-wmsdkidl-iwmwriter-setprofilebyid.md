@@ -100,17 +100,16 @@ Only system profiles have IDs. Use the methods of the <b>IWMProfileManager</b> i
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmprofilemanager">IWMProfileManager Interface</a>
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmprofilemanager">IWMProfileManager Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwriter">IWMWriter Interface</a>
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwriter">IWMWriter Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriter-setprofile">IWMWriter::SetProfile</a>
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriter-setprofile">IWMWriter::SetProfile</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/wmformat/to-use-profiles-with-the-writer">To Use Profiles with the Writer</a>
-
+<a href="/windows/desktop/wmformat/to-use-profiles-with-the-writer">To Use Profiles with the Writer</a>

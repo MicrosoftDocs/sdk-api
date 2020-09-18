@@ -123,7 +123,7 @@ Unable to find the remote computer.
 
 The contents of the retrieved data collector set overwrites the contents of this instance. The instance must be empty (newly created) or be from the same namespace.
 
-Specify the same <i>name</i> and <i>server</i> parameter values that you specified when calling the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorset-commit">IDataCollectorSet::Commit</a> method to save the set.
+Specify the same <i>name</i> and <i>server</i> parameter values that you specified when calling the <a href="/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorset-commit">IDataCollectorSet::Commit</a> method to save the set.
 
 The <i>name</i> parameter can contain an optional namespace; however, you should always specify the namespace. If you do not specify the namespace, PLA uses "Service" for computers running Windows Vista and "Legacy" for computers running operating systems prior to Windows Vista. The following table lists the possible namespace values. 
 
@@ -138,7 +138,7 @@ Autosession
 
 </td>
 <td>
-Contains ETW <a href="https://docs.microsoft.com/windows/desktop/ETW/configuring-and-starting-an-autologger-session">AutoLogger</a> sessions. The collector starts when the computer starts, cannot be stopped, and the status is undefined.
+Contains ETW <a href="/windows/desktop/ETW/configuring-and-starting-an-autologger-session">AutoLogger</a> sessions. The collector starts when the computer starts, cannot be stopped, and the status is undefined.
 
 </td>
 </tr>
@@ -168,7 +168,7 @@ Session
 
 </td>
 <td>
-Contains <a href="https://docs.microsoft.com/windows/desktop/ETW/event-tracing-portal">Event Tracing for Windows</a> (ETW) trace sessions. These sets cannot be scheduled. If you use this namespace, the set must contain only one data collector and it must be a trace data collector.
+Contains <a href="/windows/desktop/ETW/event-tracing-portal">Event Tracing for Windows</a> (ETW) trace sessions. These sets cannot be scheduled. If you use this namespace, the set must contain only one data collector and it must be a trace data collector.
 
 </td>
 </tr>
@@ -187,17 +187,16 @@ Contains read-only data collector sets that cannot be scheduled; however, you ca
 
 Note that the Service namespace can be used in place of the Legacy namespace on computers running operating systems prior to Windows Vista.
 
-To query all committed sets on a computer, call the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorsetcollection-getdatacollectorsets">IDataCollectorSetCollection::GetDataCollectorSets</a> method.
+To query all committed sets on a computer, call the <a href="/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorsetcollection-getdatacollectorsets">IDataCollectorSetCollection::GetDataCollectorSets</a> method.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nn-pla-idatacollectorset">IDataCollectorSet</a>
+<a href="/previous-versions/windows/desktop/api/pla/nn-pla-idatacollectorset">IDataCollectorSet</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorset-commit">IDataCollectorSet::Commit</a>
+<a href="/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorset-commit">IDataCollectorSet::Commit</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorset-delete">IDataCollectorSet::Delete</a>
-
+<a href="/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorset-delete">IDataCollectorSet::Delete</a>

@@ -51,13 +51,13 @@ api_name:
 
 ## -description
 
-The <b>IFileSinkFilter2</b> interface extends the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ifilesinkfilter">IFileSinkFilter</a> interface. Filters that write media streams to a file implement this interface. A file sink filter in a video capture filter graph, for instance, saves the output of the video compression filter to a file. Typically, the application running this filter graph should allow the user to enter the name of the file to which to save the data. This interface enables you to communicate this information. 
+The <b>IFileSinkFilter2</b> interface extends the <a href="/windows/desktop/api/strmif/nn-strmif-ifilesinkfilter">IFileSinkFilter</a> interface. Filters that write media streams to a file implement this interface. A file sink filter in a video capture filter graph, for instance, saves the output of the video compression filter to a file. Typically, the application running this filter graph should allow the user to enter the name of the file to which to save the data. This interface enables you to communicate this information. 
 
 <b>IFileSinkFilter2</b> adds the option to determine whether the file it writes should destroy an existing file of the same name. In the video capture case, do not destroy a file you've already created, because preallocating file space takes valuable time. By default, the new file does not destroy the old one. Otherwise, destroy the original file to make sure the file you author doesn't contain garbage.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFileSinkFilter2</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ifilesinkfilter">IFileSinkFilter</a>. <b>IFileSinkFilter2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFileSinkFilter2</b> interface inherits from <a href="/windows/desktop/api/strmif/nn-strmif-ifilesinkfilter">IFileSinkFilter</a>. <b>IFileSinkFilter2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,7 +72,7 @@ The <b>IFileSinkFilter2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ifilesinkfilter2-getmode">GetMode</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-ifilesinkfilter2-getmode">GetMode</a>
 </td>
 <td align="left" width="63%">
 Retrieves whether the file writer destroys the file when it creates the new one.
@@ -81,7 +81,7 @@ Retrieves whether the file writer destroys the file when it creates the new one.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ifilesinkfilter2-setmode">SetMode</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-ifilesinkfilter2-setmode">SetMode</a>
 </td>
 <td align="left" width="63%">
 Determines whether the file writer destroys the file when it creates the new one.
@@ -92,9 +92,8 @@ Determines whether the file writer destroys the file when it creates the new one
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ifilesinkfilter">IFileSinkFilter</a>
+<a href="/windows/desktop/api/strmif/nn-strmif-ifilesinkfilter">IFileSinkFilter</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/interfaces">Interfaces</a>
-
+<a href="/windows/desktop/DirectShow/interfaces">Interfaces</a>

@@ -93,14 +93,14 @@ Pointer to a null-terminated string that specifies the DNS name of the domain wh
 ### -param AuthIdentity [in, optional]
 
 Handle to the credentials used to start the RPC session. Use the 
-      <a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/nf-ntdsapi-dsmakepasswordcredentialsa">DsMakePasswordCredentials</a> function to create 
+      <a href="/windows/desktop/api/ntdsapi/nf-ntdsapi-dsmakepasswordcredentialsa">DsMakePasswordCredentials</a> function to create 
       a structure suitable for <i>AuthIdentity</i>.
 
 ### -param ServicePrincipalName [in, optional]
 
 Pointer to a null-terminated string that specifies the Service Principal Name to assign to the client. 
       Passing <b>NULL</b> in <i>ServicePrincipalName</i> is equivalent to a call 
-      to the <a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/nf-ntdsapi-dsbindwithcreda">DsBindWithCred</a> function.
+      to the <a href="/windows/desktop/api/ntdsapi/nf-ntdsapi-dsbindwithcreda">DsBindWithCred</a> function.
 
 ### -param BindFlags [in, optional]
 
@@ -112,13 +112,13 @@ Contains a set of flags that define the behavior of this function. This paramete
 #### NTDSAPI_BIND_ALLOW_DELEGATION (1)
 
 Causes the bind to use the delegate impersonation level. This enables operations that require 
-         delegation, such as <a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/nf-ntdsapi-dsaddsidhistorya">DsAddSidHistory</a>, to succeed. 
-         Specifying this flag also causes <a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/nf-ntdsapi-dsbindwithspnexa">DsBindWithSpnEx</a> to 
-         operate similar to <a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/nf-ntdsapi-dsbindwithspna">DsBindWithSpn</a>.
+         delegation, such as <a href="/windows/desktop/api/ntdsapi/nf-ntdsapi-dsaddsidhistorya">DsAddSidHistory</a>, to succeed. 
+         Specifying this flag also causes <a href="/windows/desktop/api/ntdsapi/nf-ntdsapi-dsbindwithspnexa">DsBindWithSpnEx</a> to 
+         operate similar to <a href="/windows/desktop/api/ntdsapi/nf-ntdsapi-dsbindwithspna">DsBindWithSpn</a>.
 
 If this flag is not specified, the bind will use the impersonate impersonation level. For more 
          information about impersonation levels, see 
-         <a href="https://docs.microsoft.com/windows/desktop/com/impersonation-levels">Impersonation Levels</a>.
+         <a href="/windows/desktop/com/impersonation-levels">Impersonation Levels</a>.
 
 Most operations do not require the delegate impersonation level; this flag should only be 
          specified if it is required. Binding to a rogue server with the  delegate impersonation level enables the 
@@ -128,7 +128,7 @@ Most operations do not require the delegate impersonation level; this flag shoul
 
 #### NTDSAPI_BIND_FORCE_KERBEROS (4)
 
-<b>Active Directory Lightweight Directory Services:  </b>If this flag is specified, <a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/nf-ntdsapi-dsbindwithspnexa">DsBindWithSpnEx</a> 
+<b>Active Directory Lightweight Directory Services:  </b>If this flag is specified, <a href="/windows/desktop/api/ntdsapi/nf-ntdsapi-dsbindwithspnexa">DsBindWithSpnEx</a> 
           requires Kerberos authentication to be used. If Kerberos authentication cannot be established, 
           <b>DsBindWithSpnEx</b> will not attempt to authenticate 
           with any other mechanism.
@@ -136,19 +136,19 @@ Most operations do not require the delegate impersonation level; this flag shoul
 ### -param phDS [out]
 
 Address of a <b>HANDLE</b> value that receives the bind handle. To close this handle, 
-      call <a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/nf-ntdsapi-dsunbinda">DsUnBind</a>.
+      call <a href="/windows/desktop/api/ntdsapi/nf-ntdsapi-dsunbinda">DsUnBind</a>.
 
 
 ##### - BindFlags.NTDSAPI_BIND_ALLOW_DELEGATION (1)
 
 Causes the bind to use the delegate impersonation level. This enables operations that require 
-         delegation, such as <a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/nf-ntdsapi-dsaddsidhistorya">DsAddSidHistory</a>, to succeed. 
-         Specifying this flag also causes <a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/nf-ntdsapi-dsbindwithspnexa">DsBindWithSpnEx</a> to 
-         operate similar to <a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/nf-ntdsapi-dsbindwithspna">DsBindWithSpn</a>.
+         delegation, such as <a href="/windows/desktop/api/ntdsapi/nf-ntdsapi-dsaddsidhistorya">DsAddSidHistory</a>, to succeed. 
+         Specifying this flag also causes <a href="/windows/desktop/api/ntdsapi/nf-ntdsapi-dsbindwithspnexa">DsBindWithSpnEx</a> to 
+         operate similar to <a href="/windows/desktop/api/ntdsapi/nf-ntdsapi-dsbindwithspna">DsBindWithSpn</a>.
 
 If this flag is not specified, the bind will use the impersonate impersonation level. For more 
          information about impersonation levels, see 
-         <a href="https://docs.microsoft.com/windows/desktop/com/impersonation-levels">Impersonation Levels</a>.
+         <a href="/windows/desktop/com/impersonation-levels">Impersonation Levels</a>.
 
 Most operations do not require the delegate impersonation level; this flag should only be 
          specified if it is required. Binding to a rogue server with the  delegate impersonation level enables the 
@@ -157,7 +157,7 @@ Most operations do not require the delegate impersonation level; this flag shoul
 
 ##### - BindFlags.NTDSAPI_BIND_FORCE_KERBEROS (4)
 
-<b>Active Directory Lightweight Directory Services:  </b>If this flag is specified, <a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/nf-ntdsapi-dsbindwithspnexa">DsBindWithSpnEx</a> 
+<b>Active Directory Lightweight Directory Services:  </b>If this flag is specified, <a href="/windows/desktop/api/ntdsapi/nf-ntdsapi-dsbindwithspnexa">DsBindWithSpnEx</a> 
           requires Kerberos authentication to be used. If Kerberos authentication cannot be established, 
           <b>DsBindWithSpnEx</b> will not attempt to authenticate 
           with any other mechanism.
@@ -278,4 +278,3 @@ Instance <b>GUID</b>
 
 > [!NOTE]
 > The ntdsapi.h header defines DsBindByInstance as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

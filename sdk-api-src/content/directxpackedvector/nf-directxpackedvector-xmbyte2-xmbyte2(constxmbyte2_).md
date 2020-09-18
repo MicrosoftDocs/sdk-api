@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-A constructor for <a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmbyte2">XMBYTE2</a>.
+A constructor for <a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmbyte2">XMBYTE2</a>.
 
 A constructor for <code>XMBYTE2</code>.
 
@@ -66,7 +66,6 @@ A value.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmbyte2">XMBYTE2</a>
+<a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmbyte2">XMBYTE2</a>
 
-<a href="https://docs.microsoft.com/windows/desktop/dxmath/xmbyte2-ctor">XMBYTE2 Constructors</a>
-
+<a href="/windows/desktop/dxmath/xmbyte2-ctor">XMBYTE2 Constructors</a>

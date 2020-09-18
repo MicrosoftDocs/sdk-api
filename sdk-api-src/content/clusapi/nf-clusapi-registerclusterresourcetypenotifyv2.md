@@ -64,7 +64,7 @@ A handle to the cluster object.
 
 ### -param Flags [in]
 
-A <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ne-clusapi-cluster_change_resource_type_v2">CLUSTER_CHANGE_RESOURCE_TYPE_V2</a> enumeration value that specifies the notification type to add.
+A <a href="/previous-versions/windows/desktop/api/clusapi/ne-clusapi-cluster_change_resource_type_v2">CLUSTER_CHANGE_RESOURCE_TYPE_V2</a> enumeration value that specifies the notification type to add.
 
 ### -param resTypeName [in]
 
@@ -72,7 +72,7 @@ A pointer to a null-terminated Unicode string that contains the name of the reso
 
 ### -param dwNotifyKey [in]
 
-The notification key that is returned from the <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-getclusternotifyv2">GetClusterNotifyV2</a> function when the event occurs.
+The notification key that is returned from the <a href="/windows/desktop/api/clusapi/nf-clusapi-getclusternotifyv2">GetClusterNotifyV2</a> function when the event occurs.
 
 ## -returns
 
@@ -80,5 +80,4 @@ The notification key that is returned from the <a href="https://docs.microsoft.c
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resource-type-management-functions">Resource Type Management Functions</a>
-
+<a href="/previous-versions/windows/desktop/mscs/resource-type-management-functions">Resource Type Management Functions</a>

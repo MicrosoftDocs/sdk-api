@@ -74,7 +74,7 @@ Reserved
 
 An identifier that identifies the session that passed the filter. ETW sets this value; the session must set this member to zero. 
 
-Providers use this value to set the <i>Filter</i> parameter of <a href="https://docs.microsoft.com/windows/desktop/api/evntprov/nf-evntprov-eventwriteex">EventWriteEx</a> to prevent the event from being written to the session if the event data does not match the filter criteria (the provider determines the semantics of how the filter data is used in determining whether the event is written to the session).
+Providers use this value to set the <i>Filter</i> parameter of <a href="/windows/desktop/api/evntprov/nf-evntprov-eventwriteex">EventWriteEx</a> to prevent the event from being written to the session if the event data does not match the filter criteria (the provider determines the semantics of how the filter data is used in determining whether the event is written to the session).
 
 ### -field Size
 
@@ -100,21 +100,20 @@ MY_FILTER FilterData;
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/ETW/enable-trace-parameters">ENABLE_TRACE_PARAMETERS</a>
+<a href="/windows/desktop/ETW/enable-trace-parameters">ENABLE_TRACE_PARAMETERS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/evntprov/ns-evntprov-event_filter_descriptor">EVENT_FILTER_DESCRIPTOR</a>
+<a href="/windows/desktop/api/evntprov/ns-evntprov-event_filter_descriptor">EVENT_FILTER_DESCRIPTOR</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/ETW/enabletrace">EnableTrace</a>
+<a href="/windows/desktop/ETW/enabletrace">EnableTrace</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/ETW/enabletraceex-func">EnableTraceEx</a>
+<a href="/windows/desktop/ETW/enabletraceex-func">EnableTraceEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/ETW/enabletraceex2">EnableTraceEx2</a>
-
+<a href="/windows/desktop/ETW/enabletraceex2">EnableTraceEx2</a>

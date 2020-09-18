@@ -56,7 +56,7 @@ api_name:
 <p class="CCE_Message">[The <b>CHStringArray</b> class 
     is part of the WMI Provider Framework which is now considered in final state, and no further development, 
     enhancements, or updates will be available for non-security related issues affecting these libraries. The 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/wmi_v2/windows-management-infrastructure">MI APIs</a> should be used for all new 
+    <a href="/previous-versions/windows/desktop/wmi_v2/windows-management-infrastructure">MI APIs</a> should be used for all new 
     development.]
 
 The following table lists the <b>CHStringArray</b> methods and operators.
@@ -73,10 +73,10 @@ The following table lists the <b>CHStringArray</b> methods and operators.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/chstrarr/nf-chstrarr-chstringarray-chstringarray">CHStringArray</a>
+<a href="/windows/desktop/api/chstrarr/nf-chstrarr-chstringarray-chstringarray">CHStringArray</a>
 </td>
 <td align="left" width="63%">
-Constructs an empty array for <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/chstring">CHString</a> objects.
+Constructs an empty array for <a href="/windows/desktop/WmiSdk/chstring">CHString</a> objects.
 
 </td>
 </tr>
@@ -89,7 +89,7 @@ Constructs an empty array for <a href="https://docs.microsoft.com/windows/deskto
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/chstrarr/nf-chstrarr-chstringarray-add">Add</a>
+<a href="/windows/desktop/api/chstrarr/nf-chstrarr-chstringarray-add">Add</a>
 </td>
 <td align="left" width="63%">
 Adds an element to the end of the array; the array grows if necessary.
@@ -98,7 +98,7 @@ Adds an element to the end of the array; the array grows if necessary.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/chstrarr/nf-chstrarr-chstringarray-append">Append</a>
+<a href="/windows/desktop/api/chstrarr/nf-chstrarr-chstringarray-append">Append</a>
 </td>
 <td align="left" width="63%">
 Appends another array to the array; the array grows if necessary.
@@ -107,7 +107,7 @@ Appends another array to the array; the array grows if necessary.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/chstrarr/nf-chstrarr-chstringarray-copy">Copy</a>
+<a href="/windows/desktop/api/chstrarr/nf-chstrarr-chstringarray-copy">Copy</a>
 </td>
 <td align="left" width="63%">
 Copies another array to the array; the array grows if necessary.
@@ -116,7 +116,7 @@ Copies another array to the array; the array grows if necessary.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/chstrarr/nf-chstrarr-chstringarray-elementat(int)">ElementAt</a>
+<a href="/windows/desktop/api/chstrarr/nf-chstrarr-chstringarray-elementat(int)">ElementAt</a>
 </td>
 <td align="left" width="63%">
 Returns a temporary reference to the element pointer within the array.
@@ -125,7 +125,7 @@ Returns a temporary reference to the element pointer within the array.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/chstrarr/nf-chstrarr-chstringarray-freeextra">FreeExtra</a>
+<a href="/windows/desktop/api/chstrarr/nf-chstrarr-chstringarray-freeextra">FreeExtra</a>
 </td>
 <td align="left" width="63%">
 Frees all unused memory above the current upper bound.
@@ -134,7 +134,7 @@ Frees all unused memory above the current upper bound.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/chstrarr/nf-chstrarr-chstringarray-getat(int)">GetAt</a>
+<a href="/windows/desktop/api/chstrarr/nf-chstrarr-chstringarray-getat(int)">GetAt</a>
 </td>
 <td align="left" width="63%">
 Returns the value at a given index.
@@ -143,7 +143,7 @@ Returns the value at a given index.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/chstrarr/nf-chstrarr-chstringarray-getdata">GetData</a>
+<a href="/windows/desktop/api/chstrarr/nf-chstrarr-chstringarray-getdata">GetData</a>
 </td>
 <td align="left" width="63%">
 Allows access to elements in the array. The value can be <b>NULL</b>.
@@ -152,7 +152,7 @@ Allows access to elements in the array. The value can be <b>NULL</b>.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/chstrarr/nf-chstrarr-chstringarray-getsize">GetSize</a>
+<a href="/windows/desktop/api/chstrarr/nf-chstrarr-chstringarray-getsize">GetSize</a>
 </td>
 <td align="left" width="63%">
 Gets the number of elements in the array.
@@ -161,7 +161,7 @@ Gets the number of elements in the array.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/chstrarr/nf-chstrarr-chstringarray-getupperbound">GetUpperBound</a>
+<a href="/windows/desktop/api/chstrarr/nf-chstrarr-chstringarray-getupperbound">GetUpperBound</a>
 </td>
 <td align="left" width="63%">
 Returns the largest valid index.
@@ -170,7 +170,7 @@ Returns the largest valid index.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/chstrarr/nf-chstrarr-chstringarray-insertat(int_chstringarray)">InsertAt</a>
+<a href="/windows/desktop/api/chstrarr/nf-chstrarr-chstringarray-insertat(int_chstringarray)">InsertAt</a>
 </td>
 <td align="left" width="63%">Overloaded. Inserts an element (or all of the elements in another array) at a specified index.
 
@@ -178,7 +178,7 @@ Returns the largest valid index.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/chstringarray--operator-brackets">Operator []</a>
+<a href="/windows/desktop/WmiSdk/chstringarray--operator-brackets">Operator []</a>
 </td>
 <td align="left" width="63%">
 Sets or gets the element at the specified index.
@@ -187,7 +187,7 @@ Sets or gets the element at the specified index.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/chstrarr/nf-chstrarr-chstringarray-removeall">RemoveAll</a>
+<a href="/windows/desktop/api/chstrarr/nf-chstrarr-chstringarray-removeall">RemoveAll</a>
 </td>
 <td align="left" width="63%">
 Removes all of the elements from this array.
@@ -196,7 +196,7 @@ Removes all of the elements from this array.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/chstrarr/nf-chstrarr-chstringarray-removeat">RemoveAt</a>
+<a href="/windows/desktop/api/chstrarr/nf-chstrarr-chstringarray-removeat">RemoveAt</a>
 </td>
 <td align="left" width="63%">
 Removes an element at a specific index.
@@ -205,7 +205,7 @@ Removes an element at a specific index.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/chstrarr/nf-chstrarr-chstringarray-setat(int_lpcwstr)">SetAt</a>
+<a href="/windows/desktop/api/chstrarr/nf-chstrarr-chstringarray-setat(int_lpcwstr)">SetAt</a>
 </td>
 <td align="left" width="63%">
 Sets the value for a given index; the array is not allowed to grow.
@@ -214,7 +214,7 @@ Sets the value for a given index; the array is not allowed to grow.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/chstrarr/nf-chstrarr-chstringarray-setatgrow">SetAtGrow</a>
+<a href="/windows/desktop/api/chstrarr/nf-chstrarr-chstringarray-setatgrow">SetAtGrow</a>
 </td>
 <td align="left" width="63%">
 Sets the value for a given index; the array grows if necessary.
@@ -223,7 +223,7 @@ Sets the value for a given index; the array grows if necessary.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/chstrarr/nf-chstrarr-chstringarray-setsize">SetSize</a>
+<a href="/windows/desktop/api/chstrarr/nf-chstrarr-chstringarray-setsize">SetSize</a>
 </td>
 <td align="left" width="63%">
 Sets the number of elements to be contained in this array
@@ -231,4 +231,3 @@ Sets the number of elements to be contained in this array
 </td>
 </tr>
 </table>
-

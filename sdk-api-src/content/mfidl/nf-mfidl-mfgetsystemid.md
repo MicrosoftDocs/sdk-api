@@ -50,15 +50,14 @@ api_name:
 
 ## -description
 
-Returns an <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfsystemid">IMFSystemId</a> object for retrieving system id data.
+Returns an <a href="/windows/desktop/api/mfidl/nn-mfidl-imfsystemid">IMFSystemId</a> object for retrieving system id data.
 
 ## -parameters
 
 ### -param ppId [out]
 
-Receives a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfsystemid">IMFSystemId</a> interface.
+Receives a pointer to the <a href="/windows/desktop/api/mfidl/nn-mfidl-imfsystemid">IMFSystemId</a> interface.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>
-
+<a href="/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>

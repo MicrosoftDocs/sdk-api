@@ -40,11 +40,10 @@ api_name:
 
 ## -description
 
-Represents a reference to a font face. A uniquely identifying reference to a font, from which you can create a font face to query font metrics and use for rendering. A font face reference consists of a font file, font face index, and font face simulation. The file data may or may not be physically present on the local machine yet. **IDWriteFontFaceReference1** adds new facilities, including support for [IDWriteFontFace5](/windows/win32/api/dwrite_3/nn-dwrite_3-idwritefontface5).
+Represents a reference to a font face. A uniquely identifying reference to a font, from which you can create a font face to query font metrics and use for rendering. A font face reference consists of a font file, font face index, and font face simulation. The file data may or may not be physically present on the local machine yet. **IDWriteFontFaceReference1** adds new facilities, including support for [IDWriteFontFace5](./nn-dwrite_3-idwritefontface5.md).
 
-This interface extends [IDWriteFontFaceReference](/windows/win32/api/dwrite_3/nn-dwrite_3-idwritefontfacereference).
+This interface extends [IDWriteFontFaceReference](./nn-dwrite_3-idwritefontfacereference.md).
 
 ## -see-also
 
-[IDWriteFontFaceReference](/windows/win32/api/dwrite_3/nn-dwrite_3-idwritefontfacereference)
-
+[IDWriteFontFaceReference](./nn-dwrite_3-idwritefontfacereference.md)

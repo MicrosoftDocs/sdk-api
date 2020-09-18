@@ -81,7 +81,7 @@ The GUID for the interface device class.
 A null-terminated string that specifies the name of the device.
 
 When this structure is returned to a window through the 
-       <a href="https://docs.microsoft.com/windows/desktop/DevIO/wm-devicechange">WM_DEVICECHANGE</a> message, the 
+       <a href="/windows/desktop/DevIO/wm-devicechange">WM_DEVICECHANGE</a> message, the 
        <b>dbcc_name</b> string is converted to ANSI as appropriate. Services always receive a 
        Unicode string, whether they call 
        <b>RegisterDeviceNotificationW</b> 
@@ -90,22 +90,21 @@ When this structure is returned to a window through the
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbt/ns-dbt-dev_broadcast_hdr">DEV_BROADCAST_HDR</a>
+<a href="/windows/desktop/api/dbt/ns-dbt-dev_broadcast_hdr">DEV_BROADCAST_HDR</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DevIO/device-management-structures">Device Management Structures</a>
+<a href="/windows/desktop/DevIO/device-management-structures">Device Management Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-registerdevicenotificationa">RegisterDeviceNotification</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-registerdevicenotificationa">RegisterDeviceNotification</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DevIO/wm-devicechange">WM_DEVICECHANGE</a>
+<a href="/windows/desktop/DevIO/wm-devicechange">WM_DEVICECHANGE</a>
 
 ## -remarks
 
 > [!NOTE]
 > The dbt.h header defines DEV_BROADCAST_DEVICEINTERFACE as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

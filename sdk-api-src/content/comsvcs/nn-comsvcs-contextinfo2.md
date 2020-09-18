@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
- Provides additional information about an object's context, supplementing the information that is available through the <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-contextinfo">ContextInfo</a> interface.
+ Provides additional information about an object's context, supplementing the information that is available through the <a href="/windows/desktop/api/comsvcs/nn-comsvcs-contextinfo">ContextInfo</a> interface.
 
-<b>ContextInfo2</b> and <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-iobjectcontextinfo2">IObjectContextInfo2</a> provide the same functionality, but unlike <b>IObjectContextInfo2</b>, <b>ContextInfo2</b> is compatible with Automation.
+<b>ContextInfo2</b> and <a href="/windows/desktop/api/comsvcs/nn-comsvcs-iobjectcontextinfo2">IObjectContextInfo2</a> provide the same functionality, but unlike <b>IObjectContextInfo2</b>, <b>ContextInfo2</b> is compatible with Automation.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ContextInfo2</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-contextinfo">ContextInfo</a>. <b>ContextInfo2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ContextInfo2</b> interface inherits from <a href="/windows/desktop/api/comsvcs/nn-comsvcs-contextinfo">ContextInfo</a>. <b>ContextInfo2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>ContextInfo2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-contextinfo2-getapplicationid">GetApplicationId</a>
+<a href="/windows/desktop/api/comsvcs/nf-comsvcs-contextinfo2-getapplicationid">GetApplicationId</a>
 </td>
 <td align="left" width="63%">
  Retrieves the GUID of the application of the current object context.
@@ -80,7 +80,7 @@ The <b>ContextInfo2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-contextinfo2-getapplicationinstanceid">GetApplicationInstanceId</a>
+<a href="/windows/desktop/api/comsvcs/nf-comsvcs-contextinfo2-getapplicationinstanceid">GetApplicationInstanceId</a>
 </td>
 <td align="left" width="63%">
 Retrieves the GUID of the application instance of the current object context.
@@ -89,7 +89,7 @@ Retrieves the GUID of the application instance of the current object context.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-contextinfo2-getpartitionid">GetPartitionId</a>
+<a href="/windows/desktop/api/comsvcs/nf-comsvcs-contextinfo2-getpartitionid">GetPartitionId</a>
 </td>
 <td align="left" width="63%">
 Retrieves the GUID of the COM+ partition of the current object context.
@@ -100,25 +100,24 @@ Retrieves the GUID of the COM+ partition of the current object context.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/cossdk/com--contexts-and-threading-models">COM+ Contexts and Threading Models</a>
+<a href="/windows/desktop/cossdk/com--contexts-and-threading-models">COM+ Contexts and Threading Models</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/cossdk/com--partitions">COM+ Partitions</a>
+<a href="/windows/desktop/cossdk/com--partitions">COM+ Partitions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-contextinfo">ContextInfo</a>
+<a href="/windows/desktop/api/comsvcs/nn-comsvcs-contextinfo">ContextInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-iobjectcontext">IObjectContext</a>
+<a href="/windows/desktop/api/comsvcs/nn-comsvcs-iobjectcontext">IObjectContext</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-iobjectcontextinfo2">IObjectContextInfo2</a>
+<a href="/windows/desktop/api/comsvcs/nn-comsvcs-iobjectcontextinfo2">IObjectContextInfo2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-objectcontext">ObjectContext</a>
-
+<a href="/windows/desktop/api/comsvcs/nn-comsvcs-objectcontext">ObjectContext</a>

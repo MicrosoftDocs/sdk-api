@@ -70,18 +70,18 @@ Pointer to a <b>null</b>-terminated string that specifies the name of a phone-bo
 ### -param arg3 [in, out]
 
 Pointer to the 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa376730(v=vs.85)">RASCREDENTIALS</a> structure that, on output, receives the user credentials associated with the specified phone-book entry. 
+<a href="/previous-versions/windows/desktop/legacy/aa376730(v=vs.85)">RASCREDENTIALS</a> structure that, on output, receives the user credentials associated with the specified phone-book entry. 
 
 
 
 
-On input, set the <b>dwSize</b> member of the structure to sizeof(<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa376730(v=vs.85)">RASCREDENTIALS</a>), and set the <b>dwMask</b> member to indicate the credential information to retrieve. When the function returns, <b>dwMask</b> indicates the members that were successfully retrieved.
+On input, set the <b>dwSize</b> member of the structure to sizeof(<a href="/previous-versions/windows/desktop/legacy/aa376730(v=vs.85)">RASCREDENTIALS</a>), and set the <b>dwMask</b> member to indicate the credential information to retrieve. When the function returns, <b>dwMask</b> indicates the members that were successfully retrieved.
 
 ## -returns
 
 If the function succeeds, the return value is <b>ERROR_SUCCESS</b>.
 
-If the function fails, the return value is one of the following error codes or a value from <a href="https://docs.microsoft.com/windows/desktop/RRAS/routing-and-remote-access-error-codes">Routing and Remote Access Error Codes</a> or Winerror.h.
+If the function fails, the return value is one of the following error codes or a value from <a href="/windows/desktop/RRAS/routing-and-remote-access-error-codes">Routing and Remote Access Error Codes</a> or Winerror.h.
 
 <table>
 <tr>
@@ -129,7 +129,7 @@ The <i>lpCredentials</i> parameter was <b>NULL</b>.
 </td>
 <td width="60%">
 The <b>dwSize</b> member of the 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa376730(v=vs.85)">RASCREDENTIALS</a> structure is an unrecognized value.
+<a href="/previous-versions/windows/desktop/legacy/aa376730(v=vs.85)">RASCREDENTIALS</a> structure is an unrecognized value.
 
 </td>
 </tr>
@@ -139,31 +139,31 @@ The <b>dwSize</b> member of the
 
 The 
 <b>RasGetCredentials</b> function retrieves the credentials of the last user in order to connect using the specified phone-book entry, or the credentials subsequently specified in a call to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ras/nf-ras-rassetcredentialsa">RasSetCredentials</a> function for the phone-book entry.
+<a href="/windows/desktop/api/ras/nf-ras-rassetcredentialsa">RasSetCredentials</a> function for the phone-book entry.
 
  This function is the preferred way of securely retrieving the credentials associated with a RAS phone-book entry. 
 <b>RasGetCredentials</b> supersedes the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ras/nf-ras-rasgetentrydialparamsa">RasGetEntryDialParams</a> function, which may not be supported in future releases of Windows.
+<a href="/windows/desktop/api/ras/nf-ras-rasgetentrydialparamsa">RasGetEntryDialParams</a> function, which may not be supported in future releases of Windows.
 
 <b>RasGetCredentials</b> does not return the actual password. Instead, the <b>szPassword</b> member of the 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa376730(v=vs.85)">RASCREDENTIALS</a> structure contains a handle to the saved password. Substitute this handle for the saved password in subsequent calls to 
-<a href="https://docs.microsoft.com/windows/desktop/api/ras/nf-ras-rassetcredentialsa">RasSetCredentials</a> and 
-<a href="https://docs.microsoft.com/windows/desktop/api/ras/nf-ras-rasdiala">RasDial</a>. When presented with this handle, 
+<a href="/previous-versions/windows/desktop/legacy/aa376730(v=vs.85)">RASCREDENTIALS</a> structure contains a handle to the saved password. Substitute this handle for the saved password in subsequent calls to 
+<a href="/windows/desktop/api/ras/nf-ras-rassetcredentialsa">RasSetCredentials</a> and 
+<a href="/windows/desktop/api/ras/nf-ras-rasdiala">RasDial</a>. When presented with this handle, 
 <b>RasDial</b>  retrieves and uses the saved password. The value of this handle may change in future versions of the operating system; do not develop code that depends on the contents or format of this value.
 
 The <b>dwMask</b> member of 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa376730(v=vs.85)">RASCREDENTIALS</a> contains the RASCM_Password flag if the system has saved a password for the specified entry. If the system has no password saved for this entry, <b>dwMask</b> does not contain RASCM_Password.
+<a href="/previous-versions/windows/desktop/legacy/aa376730(v=vs.85)">RASCREDENTIALS</a> contains the RASCM_Password flag if the system has saved a password for the specified entry. If the system has no password saved for this entry, <b>dwMask</b> does not contain RASCM_Password.
 
 <b>Windows 2000/NT:  </b>This feature is not supported.
 
 If the <b>dwMask</b> of the 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa376730(v=vs.85)">RASCREDENTIALS</a> structure contains the RASCM_DefaultCreds flag, the credentials returned are the default credentials for an all-user connection.
+<a href="/previous-versions/windows/desktop/legacy/aa376730(v=vs.85)">RASCREDENTIALS</a> structure contains the RASCM_DefaultCreds flag, the credentials returned are the default credentials for an all-user connection.
 
 To retrieve a pre-shared key, use the RASCM_PreSharedKey flag in the RASCREDENTIALS.dwMask field.
 
 <b>Windows 2000/NT:  </b>This feature is not supported.
 
-The following sample code creates the "RasEntryName" phone book entry, sets its credentials using <a href="https://docs.microsoft.com/windows/desktop/api/ras/nf-ras-rassetcredentialsa">RasSetCredentials</a>, and then retrieves those credentials using <b>RasGetCredentials</b>.
+The following sample code creates the "RasEntryName" phone book entry, sets its credentials using <a href="/windows/desktop/api/ras/nf-ras-rassetcredentialsa">RasSetCredentials</a>, and then retrieves those credentials using <b>RasGetCredentials</b>.
 
 
 ```cpp
@@ -301,21 +301,20 @@ DWORD __cdecl wmain(){
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa376730(v=vs.85)">RASCREDENTIALS</a>
+<a href="/previous-versions/windows/desktop/legacy/aa376730(v=vs.85)">RASCREDENTIALS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ras/nf-ras-rasgetentrydialparamsa">RasGetEntryDialParams</a>
+<a href="/windows/desktop/api/ras/nf-ras-rasgetentrydialparamsa">RasGetEntryDialParams</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ras/nf-ras-rassetcredentialsa">RasSetCredentials</a>
+<a href="/windows/desktop/api/ras/nf-ras-rassetcredentialsa">RasSetCredentials</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/about-remote-access-service">Remote Access Service (RAS) Overview</a>
+<a href="/windows/desktop/RRAS/about-remote-access-service">Remote Access Service (RAS) Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/remote-access-service-functions">Remote Access Service Functions</a>
-
+<a href="/windows/desktop/RRAS/remote-access-service-functions">Remote Access Service Functions</a>

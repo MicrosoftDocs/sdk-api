@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Passes a message to a property sheet dialog box and indicates whether the dialog box processed the message. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/psm-isdialogmessage">PSM_ISDIALOGMESSAGE</a> message explicitly.
+Passes a message to a property sheet dialog box and indicates whether the dialog box processed the message. You can use this macro or send the <a href="/windows/desktop/Controls/psm-isdialogmessage">PSM_ISDIALOGMESSAGE</a> message explicitly.
 
 ## -parameters
 
 ### -param hDlg
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 Handle to the property sheet.
 
@@ -64,18 +64,17 @@ Handle to the property sheet.
 
 Type: <b>LPMSG</b>
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-msg">MSG</a> structure that contains the message to be checked.
+Pointer to an <a href="/windows/desktop/api/winuser/ns-winuser-msg">MSG</a> structure that contains the message to be checked.
 
 ## -remarks
 
-Your message loop should use the <b>PropSheet_IsDialogMessage</b> macro with modeless property sheets to pass messages to the property sheet dialog box. On systems that support Unicode, use the Unicode versions of the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getmessage">GetMessage</a> and <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-peekmessagea">PeekMessage</a> functions (<b>GetMessageW</b> and <b>PeekMessageW</b>) to retrieve messages.
+Your message loop should use the <b>PropSheet_IsDialogMessage</b> macro with modeless property sheets to pass messages to the property sheet dialog box. On systems that support Unicode, use the Unicode versions of the <a href="/windows/desktop/api/winuser/nf-winuser-getmessage">GetMessage</a> and <a href="/windows/desktop/api/winuser/nf-winuser-peekmessagea">PeekMessage</a> functions (<b>GetMessageW</b> and <b>PeekMessageW</b>) to retrieve messages.
 
-If the return value indicates that the message was processed, it must not be passed to the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-translatemessage">TranslateMessage</a> or <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-dispatchmessage">DispatchMessage</a> function.
+If the return value indicates that the message was processed, it must not be passed to the <a href="/windows/desktop/api/winuser/nf-winuser-translatemessage">TranslateMessage</a> or <a href="/windows/desktop/api/winuser/nf-winuser-dispatchmessage">DispatchMessage</a> function.
 
-<div class="alert"><b>Note</b>  This macro is not supported when using the Aero wizard style (<a href="https://docs.microsoft.com/windows/desktop/api/prsht/ns-prsht-propsheetheadera_v2">PSH_AEROWIZARD</a>).</div>
+<div class="alert"><b>Note</b>  This macro is not supported when using the Aero wizard style (<a href="/windows/desktop/api/prsht/ns-prsht-propsheetheadera_v2">PSH_AEROWIZARD</a>).</div>
 <div> </div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/prsht/nf-prsht-propertysheeta">PropertySheet</a>
-
+<a href="/windows/desktop/api/prsht/nf-prsht-propertysheeta">PropertySheet</a>

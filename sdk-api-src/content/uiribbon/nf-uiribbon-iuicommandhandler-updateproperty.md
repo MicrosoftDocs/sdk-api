@@ -65,7 +65,7 @@ The ID for the Command, which is specified in the Markup resource file.
 
 Type: <b>REFPROPERTYKEY</b>
 
-The <a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-reference-properties">Property Key</a> to update.
+The <a href="/windows/desktop/windowsribbon/windowsribbon-reference-properties">Property Key</a> to update.
 
 ### -param currentValue [in, optional]
 
@@ -90,13 +90,12 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 This method should be allowed to return before any subsequent calls to the Ribbon framework are made.
 
-The values of Command properties, such as <a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-reference-properties-uipkey-enabled">UI_PKEY_Enabled</a> or <a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-reference-properties-uipkey-label">UI_PKEY_Label</a>, are set through calls to <a href="https://docs.microsoft.com/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-setuicommandproperty">SetUICommandProperty</a> or <a href="https://docs.microsoft.com/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-invalidateuicommand">InvalidateUICommand</a>.
+The values of Command properties, such as <a href="/windows/desktop/windowsribbon/windowsribbon-reference-properties-uipkey-enabled">UI_PKEY_Enabled</a> or <a href="/windows/desktop/windowsribbon/windowsribbon-reference-properties-uipkey-label">UI_PKEY_Label</a>, are set through calls to <a href="/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-setuicommandproperty">SetUICommandProperty</a> or <a href="/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-invalidateuicommand">InvalidateUICommand</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiribbon/nn-uiribbon-iuicommandhandler">IUICommandHandler</a>
+<a href="/windows/desktop/api/uiribbon/nn-uiribbon-iuicommandhandler">IUICommandHandler</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-samples-entry">Windows Ribbon Framework Samples</a>
-
+<a href="/windows/desktop/windowsribbon/windowsribbon-samples-entry">Windows Ribbon Framework Samples</a>

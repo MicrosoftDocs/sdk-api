@@ -50,17 +50,17 @@ api_name:
 
 ## -description
 
-Releases a buffer that was obtained by calling the <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11videocontext-getdecoderbuffer">ID3D11VideoContext::GetDecoderBuffer</a> method.
+Releases a buffer that was obtained by calling the <a href="/windows/desktop/api/d3d11/nf-d3d11-id3d11videocontext-getdecoderbuffer">ID3D11VideoContext::GetDecoderBuffer</a> method.
 
 ## -parameters
 
 ### -param pDecoder [in]
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11videodecoder">ID3D11VideoDecoder</a> interface. To get this pointer, call <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11videodevice-createvideodecoder">ID3D11VideoDevice::CreateVideoDecoder</a>.
+A pointer to the <a href="/windows/desktop/api/d3d11/nn-d3d11-id3d11videodecoder">ID3D11VideoDecoder</a> interface. To get this pointer, call <a href="/windows/desktop/api/d3d11/nf-d3d11-id3d11videodevice-createvideodecoder">ID3D11VideoDevice::CreateVideoDecoder</a>.
 
 ### -param Type [in]
 
-The type of buffer to release. Specify the same value that was used in the <i>Type</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11videocontext-getdecoderbuffer">GetDecoderBuffer</a> method.
+The type of buffer to release. Specify the same value that was used in the <i>Type</i> parameter of the <a href="/windows/desktop/api/d3d11/nf-d3d11-id3d11videocontext-getdecoderbuffer">GetDecoderBuffer</a> method.
 
 ## -returns
 
@@ -68,5 +68,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11videocontext">ID3D11VideoContext</a>
-
+<a href="/windows/desktop/api/d3d11/nn-d3d11-id3d11videocontext">ID3D11VideoContext</a>

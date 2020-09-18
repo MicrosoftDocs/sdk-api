@@ -60,9 +60,9 @@ The key to each object in the transaction resource pool. It determines the type 
 
 ### -param ppUnk [out]
 
-A reference to the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> of the pooled object.
+A reference to the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> of the pooled object.
 
-The object that is retrieved must have the same <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-iobjpool">IObjPool</a> pointer as an object that was put on the list by using <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-itransactionresourcepool-putresource">PutResource</a>.
+The object that is retrieved must have the same <a href="/windows/desktop/api/comsvcs/nn-comsvcs-iobjpool">IObjPool</a> pointer as an object that was put on the list by using <a href="/windows/desktop/api/comsvcs/nf-comsvcs-itransactionresourcepool-putresource">PutResource</a>.
 
 ## -returns
 
@@ -99,9 +99,8 @@ The <i>pPool</i> parameter did not match any object on the list of pooled object
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-iobjpool">IObjPool</a>
+<a href="/windows/desktop/api/comsvcs/nn-comsvcs-iobjpool">IObjPool</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-itransactionresourcepool">ITransactionResourcePool</a>
-
+<a href="/windows/desktop/api/comsvcs/nn-comsvcs-itransactionresourcepool">ITransactionResourcePool</a>

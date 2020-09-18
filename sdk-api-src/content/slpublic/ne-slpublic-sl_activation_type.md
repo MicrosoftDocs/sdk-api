@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-Represents the type of offline activation for a license. This 	enumeration is used by the <b>type</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/slpublic/ns-slpublic-sl_activation_info_header">SL_ACTIVATION_INFO_HEADER</a> structure.
+Represents the type of offline activation for a license. This 	enumeration is used by the <b>type</b> member of the <a href="/windows/desktop/api/slpublic/ns-slpublic-sl_activation_info_header">SL_ACTIVATION_INFO_HEADER</a> structure.
 
 ## -enum-fields
 
@@ -66,5 +66,4 @@ The product activation is through Active Directory.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/slpublic/ns-slpublic-sl_activation_info_header">SL_ACTIVATION_INFO_HEADER</a>
-
+<a href="/windows/desktop/api/slpublic/ns-slpublic-sl_activation_info_header">SL_ACTIVATION_INFO_HEADER</a>

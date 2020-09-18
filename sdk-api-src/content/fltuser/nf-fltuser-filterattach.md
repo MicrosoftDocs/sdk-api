@@ -86,7 +86,7 @@ The <i>lpVolumeName</i> parameter is required and cannot be <b>NULL</b>.
 
 ### -param lpInstanceName [in, optional]
 
-Pointer to a null-terminated wide-character string containing the instance name for the new instance. This parameter is optional and can be <b>NULL</b>. If this parameter is <b>NULL</b>, the new instance receives the minifilter's default instance name as described in the Remarks section for <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/nf-fltkernel-fltattachvolume">FltAttachVolume</a>.
+Pointer to a null-terminated wide-character string containing the instance name for the new instance. This parameter is optional and can be <b>NULL</b>. If this parameter is <b>NULL</b>, the new instance receives the minifilter's default instance name as described in the Remarks section for <a href="/windows-hardware/drivers/ddi/content/fltkernel/nf-fltkernel-fltattachvolume">FltAttachVolume</a>.
 
 ### -param dwCreatedInstanceNameLength [in, optional]
 
@@ -142,23 +142,22 @@ If <i>lpInstanceName</i> is non-<b>NULL</b>, <i>lpInstanceName</i> does not matc
 
 ## -remarks
 
-<b>FilterAttach</b> is the Win32 equivalent of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/nf-fltkernel-fltattachvolume">FltAttachVolume</a>. 
+<b>FilterAttach</b> is the Win32 equivalent of <a href="/windows-hardware/drivers/ddi/content/fltkernel/nf-fltkernel-fltattachvolume">FltAttachVolume</a>. 
 
 The instance name specified in <i>lpInstanceName</i> is required to be unique across the system. 
 
-To attach a minifilter instance to a volume at a given altitude, call <a href="https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filterattachataltitude">FilterAttachAtAltitude</a>. 
+To attach a minifilter instance to a volume at a given altitude, call <a href="/windows/desktop/api/fltuser/nf-fltuser-filterattachataltitude">FilterAttachAtAltitude</a>. 
 
-To detach a minifilter instance from a volume, call <a href="https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filterdetach">FilterDetach</a>.
+To detach a minifilter instance from a volume, call <a href="/windows/desktop/api/fltuser/nf-fltuser-filterdetach">FilterDetach</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filterattachataltitude">FilterAttachAtAltitude</a>
+<a href="/windows/desktop/api/fltuser/nf-fltuser-filterattachataltitude">FilterAttachAtAltitude</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filterdetach">FilterDetach</a>
+<a href="/windows/desktop/api/fltuser/nf-fltuser-filterdetach">FilterDetach</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/nf-fltkernel-fltattachvolume">FltAttachVolume</a>
-
+<a href="/windows-hardware/drivers/ddi/content/fltkernel/nf-fltkernel-fltattachvolume">FltAttachVolume</a>

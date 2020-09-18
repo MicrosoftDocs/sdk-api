@@ -84,31 +84,31 @@ The length of the password string depends on the security settings passed in the
 </table>
  
 
-For the enumerated values that correspond to the security settings pair above, see <a href="https://docs.microsoft.com/windows/desktop/api/adhoc/ne-adhoc-dot11_adhoc_auth_algorithm">DOT11_ADHOC_AUTH_ALGORITHM</a> and <a href="https://docs.microsoft.com/windows/desktop/api/adhoc/ne-adhoc-dot11_adhoc_cipher_algorithm">DOT11_ADHOC_CIPHER_ALGORITHM</a>
+For the enumerated values that correspond to the security settings pair above, see <a href="/windows/desktop/api/adhoc/ne-adhoc-dot11_adhoc_auth_algorithm">DOT11_ADHOC_AUTH_ALGORITHM</a> and <a href="/windows/desktop/api/adhoc/ne-adhoc-dot11_adhoc_cipher_algorithm">DOT11_ADHOC_CIPHER_ALGORITHM</a>
 
 ### -param GeographicalId [in]
 
-The geographical location in which the network will be created. For a list of possible values, see <a href="https://docs.microsoft.com/windows/desktop/Intl/table-of-geographical-locations">Table of Geographical Locations</a>. 
+The geographical location in which the network will be created. For a list of possible values, see <a href="/windows/desktop/Intl/table-of-geographical-locations">Table of Geographical Locations</a>. 
 
-If the interface is not 802.11d conformant, this value is ignored. That means if <a href="https://docs.microsoft.com/windows/desktop/api/adhoc/nf-adhoc-idot11adhocinterface-isdot11d">IDot11AdHocInterface::IsDot11d</a> returns <b>FALSE</b>, this value is ignored.
+If the interface is not 802.11d conformant, this value is ignored. That means if <a href="/windows/desktop/api/adhoc/nf-adhoc-idot11adhocinterface-isdot11d">IDot11AdHocInterface::IsDot11d</a> returns <b>FALSE</b>, this value is ignored.
 
 If you are not sure which value to use, set <i>GeographicalId</i> to CTRY_DEFAULT. If you use CTRY_DEFAULT, 802.11d conformance is not enforced.
 
 ### -param pInterface [in]
 
-An optional pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/adhoc/nn-adhoc-idot11adhocinterface">IDot11AdHocInterface</a> that specifies the network interface upon which the new network is created. If this parameter is <b>NULL</b>, the first unused interface is used. If all interfaces are in use, the first enumerated interface is used. In that case, the previous network on the interface is disconnected.
+An optional pointer to an <a href="/windows/desktop/api/adhoc/nn-adhoc-idot11adhocinterface">IDot11AdHocInterface</a> that specifies the network interface upon which the new network is created. If this parameter is <b>NULL</b>, the first unused interface is used. If all interfaces are in use, the first enumerated interface is used. In that case, the previous network on the interface is disconnected.
 
 ### -param pSecurity [in]
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/adhoc/nn-adhoc-idot11adhocsecuritysettings">IDot11AdHocSecuritySettings</a> interface that specifies the security settings used on the network.
+A pointer to an <a href="/windows/desktop/api/adhoc/nn-adhoc-idot11adhocsecuritysettings">IDot11AdHocSecuritySettings</a> interface that specifies the security settings used on the network.
 
 ### -param pContextGuid [in]
 
-An optional parameter that specifies the GUID of the application that created the network. An application can use this identifier to limit the networks enumerated by <a href="https://docs.microsoft.com/windows/desktop/api/adhoc/nf-adhoc-idot11adhocmanager-getienumdot11adhocnetworks">GetIEnumDot11AdHocNetworks</a> to networks created by the application. For this filtering to work correctly, all instances of the application on all machines must use the same GUID.
+An optional parameter that specifies the GUID of the application that created the network. An application can use this identifier to limit the networks enumerated by <a href="/windows/desktop/api/adhoc/nf-adhoc-idot11adhocmanager-getienumdot11adhocnetworks">GetIEnumDot11AdHocNetworks</a> to networks created by the application. For this filtering to work correctly, all instances of the application on all machines must use the same GUID.
 
 ### -param pIAdHoc [out]
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/adhoc/nn-adhoc-idot11adhocnetwork">IDot11AdHocNetwork</a> interface that represents the created network.
+A pointer to an <a href="/windows/desktop/api/adhoc/nn-adhoc-idot11adhocnetwork">IDot11AdHocNetwork</a> interface that represents the created network.
 
 ## -returns
 
@@ -266,15 +266,14 @@ Group policy or administrative settings prohibit the creation of the network.
 
 ## -remarks
 
-After a successful <b>CreateNetwork</b> call, the network object returned by <i>pIAdHoc</i> is provisioned but not constructed. A subsequent call to <a href="https://docs.microsoft.com/windows/desktop/api/adhoc/nf-adhoc-idot11adhocmanager-commitcreatednetwork">CommitCreatedNetwork</a> initializes the network. Beacons are not sent until the network is committed. 
+After a successful <b>CreateNetwork</b> call, the network object returned by <i>pIAdHoc</i> is provisioned but not constructed. A subsequent call to <a href="/windows/desktop/api/adhoc/nf-adhoc-idot11adhocmanager-commitcreatednetwork">CommitCreatedNetwork</a> initializes the network. Beacons are not sent until the network is committed. 
 
-There are no clients or hosts connected to the network after a <b>CreateNetwork</b> call. Applications are notified of both successful and failed connection attempts using the <a href="https://docs.microsoft.com/windows/desktop/api/adhoc/nn-adhoc-idot11adhocmanagernotificationsink">IDot11AdHocManagerNotificationSink</a> interface. For information about registering for notifications on that interface, see <a href="https://docs.microsoft.com/windows/desktop/api/adhoc/nn-adhoc-idot11adhocmanager">IDot11AdHocManager</a>.
+There are no clients or hosts connected to the network after a <b>CreateNetwork</b> call. Applications are notified of both successful and failed connection attempts using the <a href="/windows/desktop/api/adhoc/nn-adhoc-idot11adhocmanagernotificationsink">IDot11AdHocManagerNotificationSink</a> interface. For information about registering for notifications on that interface, see <a href="/windows/desktop/api/adhoc/nn-adhoc-idot11adhocmanager">IDot11AdHocManager</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/adhoc/nf-adhoc-idot11adhocmanager-commitcreatednetwork">CommitCreatedNetwork</a>
+<a href="/windows/desktop/api/adhoc/nf-adhoc-idot11adhocmanager-commitcreatednetwork">CommitCreatedNetwork</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/adhoc/nn-adhoc-idot11adhocmanager">IDot11AdHocManager</a>
-
+<a href="/windows/desktop/api/adhoc/nn-adhoc-idot11adhocmanager">IDot11AdHocManager</a>

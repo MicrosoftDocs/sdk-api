@@ -66,7 +66,7 @@ Pointer to a <b>DWORD</b>-sized memory location. The completion identifier is us
 ### -param dwCompletionMode
 
 Way in which the call is to be completed. This parameter uses one and only one of the 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/linecallcomplmode--constants">LINECALLCOMPLMODE_ Constants</a>.
+<a href="/windows/desktop/Tapi/linecallcomplmode--constants">LINECALLCOMPLMODE_ Constants</a>.
 
 ### -param dwMessageID
 
@@ -75,38 +75,37 @@ Message that is to be sent when completing the call using LINECALLCOMPLMODE_MESS
 ## -returns
 
 Returns a positive request identifier if the function is completed asynchronously, or a negative error number if an error occurs. The <i>dwParam2</i> parameter of the corresponding 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/line-reply">LINE_REPLY</a> message is zero if the function succeeds or it is a negative error number if an error occurs. Possible return values are:
+<a href="/windows/desktop/Tapi/line-reply">LINE_REPLY</a> message is zero if the function succeeds or it is a negative error number if an error occurs. Possible return values are:
 
 LINEERR_COMPLETIONOVERRUN, LINEERR_NOMEM, LINEERR_INVALCALLCOMPLMODE, LINEERR_NOTOWNER, LINEERR_INVALCALLSTATE, LINEERR_OPERATIONUNAVAIL, LINEERR_INVALCALLHANDLE, LINEERR_OPERATIONFAILED, LINEERR_INVALMESSAGEID, LINEERR_RESOURCEUNAVAIL, LINEERR_INVALPOINTER, LINEERR_UNINITIALIZED.
 
 ## -remarks
 
 This function is considered complete when the request has been accepted by the network or switch; not when the request is fully completed in the way specified. After this function completes, the call typically transitions to <i>idle</i>. When the called station or network enters a state where the call can be completed as requested, the application is notified by a 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/line-callstate">LINE_CALLSTATE</a> message with the call state equal to <i>offering</i>. The call's 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linecallinfo">LINECALLINFO</a> record lists the reason for the call as CALLCOMPLETION and provides the completion identifier as well. It is possible to have multiple outstanding call completion requests; the maximum number is device dependent. The completion identifier is also used to refer to each individual request so requests can be canceled by calling 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-lineuncompletecall">lineUncompleteCall</a>.
+<a href="/windows/desktop/Tapi/line-callstate">LINE_CALLSTATE</a> message with the call state equal to <i>offering</i>. The call's 
+<a href="/windows/desktop/api/tapi/ns-tapi-linecallinfo">LINECALLINFO</a> record lists the reason for the call as CALLCOMPLETION and provides the completion identifier as well. It is possible to have multiple outstanding call completion requests; the maximum number is device dependent. The completion identifier is also used to refer to each individual request so requests can be canceled by calling 
+<a href="/windows/desktop/api/tapi/nf-tapi-lineuncompletecall">lineUncompleteCall</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linecallinfo">LINECALLINFO</a>
+<a href="/windows/desktop/api/tapi/ns-tapi-linecallinfo">LINECALLINFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/line-callstate">LINE_CALLSTATE</a>
+<a href="/windows/desktop/Tapi/line-callstate">LINE_CALLSTATE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/line-reply">LINE_REPLY</a>
+<a href="/windows/desktop/Tapi/line-reply">LINE_REPLY</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/supplementary-line-service-functions">Supplementary Line Service Functions</a>
+<a href="/windows/desktop/Tapi/supplementary-line-service-functions">Supplementary Line Service Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/tapi-2-2-reference">TAPI 2.2 Reference Overview</a>
+<a href="/windows/desktop/Tapi/tapi-2-2-reference">TAPI 2.2 Reference Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-lineuncompletecall">lineUncompleteCall</a>
-
+<a href="/windows/desktop/api/tapi/nf-tapi-lineuncompletecall">lineUncompleteCall</a>

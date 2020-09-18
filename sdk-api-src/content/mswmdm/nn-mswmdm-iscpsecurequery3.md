@@ -50,11 +50,11 @@ api_name:
 
 ## -description
 
-The <b>ISCPSecureQuery3</b> interface extends <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iscpsecurequery2">ISCPSecureQuery2</a> by providing a set of new methods for retrieving the rights and making decision on a clear channel. These methods are more efficient because they do not involve encrypting and decrypting of parameters, which happens on a secure channel.
+The <b>ISCPSecureQuery3</b> interface extends <a href="/windows/desktop/api/mswmdm/nn-mswmdm-iscpsecurequery2">ISCPSecureQuery2</a> by providing a set of new methods for retrieving the rights and making decision on a clear channel. These methods are more efficient because they do not involve encrypting and decrypting of parameters, which happens on a secure channel.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISCPSecureQuery3</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iscpsecurequery2">ISCPSecureQuery2</a>. <b>ISCPSecureQuery3</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISCPSecureQuery3</b> interface inherits from <a href="/windows/desktop/api/mswmdm/nn-mswmdm-iscpsecurequery2">ISCPSecureQuery2</a>. <b>ISCPSecureQuery3</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ISCPSecureQuery3</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iscpsecurequery3-getrightsonclearchannel">GetRightsOnClearChannel</a>
+<a href="/windows/desktop/api/mswmdm/nf-mswmdm-iscpsecurequery3-getrightsonclearchannel">GetRightsOnClearChannel</a>
 </td>
 <td align="left" width="63%">
 Retrieves the rights on a clear channel.
@@ -78,7 +78,7 @@ Retrieves the rights on a clear channel.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iscpsecurequery3-makedecisiononclearchannel">MakeDecisionOnClearChannel</a>
+<a href="/windows/desktop/api/mswmdm/nf-mswmdm-iscpsecurequery3-makedecisiononclearchannel">MakeDecisionOnClearChannel</a>
 </td>
 <td align="left" width="63%">
 Makes decisions on a clear channel.
@@ -89,13 +89,12 @@ Makes decisions on a clear channel.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iscpsecurequery">ISCPSecureQuery Interface</a>
+<a href="/windows/desktop/api/mswmdm/nn-mswmdm-iscpsecurequery">ISCPSecureQuery Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iscpsecurequery2">ISCPSecureQuery2 Interface</a>
+<a href="/windows/desktop/api/mswmdm/nn-mswmdm-iscpsecurequery2">ISCPSecureQuery2 Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WMDM/interfaces-for-secure-content-providers">Interfaces for Secure Content Providers</a>
-
+<a href="/windows/desktop/WMDM/interfaces-for-secure-content-providers">Interfaces for Secure Content Providers</a>

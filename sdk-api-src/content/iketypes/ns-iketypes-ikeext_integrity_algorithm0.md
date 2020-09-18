@@ -60,17 +60,16 @@ The <b>IKEEXT_INTEGRITY_ALGORITHM0</b> structure stores the IKE/AuthIP hash algo
 
 The type of hash algorithm.
 
-See [IKEEXT_INTEGRITY_TYPE](https://docs.microsoft.com/windows/desktop/api/iketypes/ne-iketypes-ikeext_integrity_type) for more information.
+See [IKEEXT_INTEGRITY_TYPE](/windows/desktop/api/iketypes/ne-iketypes-ikeext_integrity_type) for more information.
 
 ## -remarks
 
-<b>IKEEXT_INTEGRITY_ALGORITHM0</b> is a specific implementation of IKEEXT_INTEGRITY_ALGORITHM. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a>  for more information.
+<b>IKEEXT_INTEGRITY_ALGORITHM0</b> is a specific implementation of IKEEXT_INTEGRITY_ALGORITHM. See <a href="/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a>  for more information.
 
 ## -see-also
 
-[IKEEXT_INTEGRITY_TYPE](https://docs.microsoft.com/windows/desktop/api/iketypes/ne-iketypes-ikeext_integrity_type)
+[IKEEXT_INTEGRITY_TYPE](/windows/desktop/api/iketypes/ne-iketypes-ikeext_integrity_type)
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>
-
+<a href="/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>

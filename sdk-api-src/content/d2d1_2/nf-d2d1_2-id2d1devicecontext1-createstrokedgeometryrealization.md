@@ -56,7 +56,7 @@ Creates a device-dependent representation of the stroke of a geometry that can b
 
 ### -param geometry [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1geometry">ID2D1Geometry</a>*</b>
+Type: <b><a href="/windows/desktop/api/d2d1/nn-d2d1-id2d1geometry">ID2D1Geometry</a>*</b>
 
 The geometry to realize.
 
@@ -74,13 +74,13 @@ The width of the stroke. This parameter shares the same units as the coordinates
 
 ### -param strokeStyle [in, optional]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1strokestyle">ID2D1StrokeStyle</a>*</b>
+Type: <b><a href="/windows/desktop/api/d2d1/nn-d2d1-id2d1strokestyle">ID2D1StrokeStyle</a>*</b>
 
 The stroke style (optional).
 
 ### -param geometryRealization [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1_2/nn-d2d1_2-id2d1geometryrealization">ID2D1GeometryRealization</a>**</b>
+Type: <b><a href="/windows/desktop/api/d2d1_2/nn-d2d1_2-id2d1geometryrealization">ID2D1GeometryRealization</a>**</b>
 
 When this method returns, contains the address of a pointer to a new geometry realization object.
 
@@ -111,11 +111,10 @@ The method returns an <b>HRESULT</b>. Possible values include, but are not limit
 
 ## -remarks
 
-This method is used in conjunction with <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_2/nf-d2d1_2-id2d1devicecontext1-drawgeometryrealization">ID2D1DeviceContext1::DrawGeometryRealization</a>. The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dn280327(v=vs.85)">D2D1::ComputeFlatteningTolerance</a> helper API may be used to determine the proper flattening tolerance.
+This method is used in conjunction with <a href="/windows/desktop/api/d2d1_2/nf-d2d1_2-id2d1devicecontext1-drawgeometryrealization">ID2D1DeviceContext1::DrawGeometryRealization</a>. The <a href="/previous-versions/windows/desktop/legacy/dn280327(v=vs.85)">D2D1::ComputeFlatteningTolerance</a> helper API may be used to determine the proper flattening tolerance.
 
-If the provided stroke style specifies a stroke transform type other than <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/ne-d2d1_1-d2d1_stroke_transform_type">D2D1_STROKE_TRANSFORM_TYPE_NORMAL</a>, then the stroke will be realized assuming the identity transform and a DPI of 96.
+If the provided stroke style specifies a stroke transform type other than <a href="/windows/desktop/api/d2d1_1/ne-d2d1_1-d2d1_stroke_transform_type">D2D1_STROKE_TRANSFORM_TYPE_NORMAL</a>, then the stroke will be realized assuming the identity transform and a DPI of 96.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_2/nn-d2d1_2-id2d1devicecontext1">ID2D1DeviceContext1</a>
-
+<a href="/windows/desktop/api/d2d1_2/nn-d2d1_2-id2d1devicecontext1">ID2D1DeviceContext1</a>

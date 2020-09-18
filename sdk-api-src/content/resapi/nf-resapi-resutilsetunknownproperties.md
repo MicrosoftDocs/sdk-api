@@ -50,21 +50,21 @@ api_name:
 
 ## -description
 
-Stores a  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-objects">cluster object's</a> unknown properties in the  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-database">cluster database</a>.
+Stores a  <a href="/previous-versions/windows/desktop/mscs/cluster-objects">cluster object's</a> unknown properties in the  <a href="/previous-versions/windows/desktop/mscs/cluster-database">cluster database</a>.
 
 ## -parameters
 
 ### -param hkeyClusterKey [in]
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-database">Cluster database</a> key identifying the location of the properties to set.
+<a href="/previous-versions/windows/desktop/mscs/cluster-database">Cluster database</a> key identifying the location of the properties to set.
 
 ### -param pPropertyTable [in]
 
-Pointer to a  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/property-tables">property table</a> specifying properties that should NOT be set by this function.
+Pointer to a  <a href="/previous-versions/windows/desktop/mscs/property-tables">property table</a> specifying properties that should NOT be set by this function.
 
 ### -param pInPropertyList [in]
 
-Pointer to a  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/property-lists">property list</a>. Any properties that appear in this list and that do NOT appear in <i>pInPropertyList</i> are set.
+Pointer to a  <a href="/previous-versions/windows/desktop/mscs/property-lists">property list</a>. Any properties that appear in this list and that do NOT appear in <i>pInPropertyList</i> are set.
 
 ### -param cbInPropertyListSize [in]
 
@@ -75,40 +75,39 @@ Pointer to the size in bytes of the input buffer pointed to by <i>pInPropertyLis
 If the operation succeeds, the function returns <b>ERROR_SUCCESS</b>.
 
 If the operation fails, 
-the function returns a <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a>.
+the function returns a <a href="/windows/desktop/Debug/system-error-codes">system error code</a>.
 
 ## -remarks
 
 <b>ResUtilSetUnknownProperties</b> only sets the properties listed in <i>pInPropertyList</i> that are NOT listed in <i>pPropertyTable</i>.
 
-Use the  <a href="https://docs.microsoft.com/windows/desktop/api/resapi/nf-resapi-resutiladdunknownproperties">ResUtilAddUnknownProperties</a> to create the property list and  <a href="https://docs.microsoft.com/windows/desktop/api/resapi/nf-resapi-resutilgetallproperties">ResUtilGetAllProperties</a> to retrieve  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/unknown-properties">unknown properties</a>.
+Use the  <a href="/windows/desktop/api/resapi/nf-resapi-resutiladdunknownproperties">ResUtilAddUnknownProperties</a> to create the property list and  <a href="/windows/desktop/api/resapi/nf-resapi-resutilgetallproperties">ResUtilGetAllProperties</a> to retrieve  <a href="/previous-versions/windows/desktop/mscs/unknown-properties">unknown properties</a>.
 
 Do not call  <b>ResUtilSetUnknownProperties</b> from the following resource DLL entry point functions:
 
 <ul>
 <li>
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/nc-resapi-pclose_routine">Close</a>
+<a href="/previous-versions/windows/desktop/api/resapi/nc-resapi-pclose_routine">Close</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/nc-resapi-poffline_routine">Offline</a>
+<a href="/previous-versions/windows/desktop/api/resapi/nc-resapi-poffline_routine">Offline</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/nc-resapi-ponline_routine">Online</a>
+<a href="/previous-versions/windows/desktop/api/resapi/nc-resapi-ponline_routine">Online</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/nc-resapi-popen_routine">Open</a>
+<a href="/previous-versions/windows/desktop/api/resapi/nc-resapi-popen_routine">Open</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/nc-resapi-pterminate_routine">Terminate</a>
+<a href="/previous-versions/windows/desktop/api/resapi/nc-resapi-pterminate_routine">Terminate</a>
 </li>
 </ul>
-<b>ResUtilSetUnknownProperties</b> can be safely called from any other resource DLL entry point function or from a worker thread. For more information, see  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/function-calls-to-avoid-in-resource-dlls">Function Calls to Avoid in Resource DLLs</a>.
+<b>ResUtilSetUnknownProperties</b> can be safely called from any other resource DLL entry point function or from a worker thread. For more information, see  <a href="/previous-versions/windows/desktop/mscs/function-calls-to-avoid-in-resource-dlls">Function Calls to Avoid in Resource DLLs</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/resapi/nf-resapi-resutiladdunknownproperties">ResUtilAddUnknownProperties</a>
+<a href="/windows/desktop/api/resapi/nf-resapi-resutiladdunknownproperties">ResUtilAddUnknownProperties</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/resapi/nf-resapi-resutilgetallproperties">ResUtilGetAllProperties</a>
-
+<a href="/windows/desktop/api/resapi/nf-resapi-resutilgetallproperties">ResUtilGetAllProperties</a>

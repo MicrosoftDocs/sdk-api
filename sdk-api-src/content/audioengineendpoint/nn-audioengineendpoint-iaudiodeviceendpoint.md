@@ -55,11 +55,11 @@ Initializes a device endpoint object and gets the capabilities of the device tha
 A <i>device endpoint</i> abstracts an audio device. The device can be a rendering device such as a speaker or a capture  device such as a microphone. A device endpoint must implement the <b>IAudioDeviceEndpoint</b> interface.
       
 
-To a get a reference to the <b>IAudioDeviceEndpoint</b> interface of the device, the audio engine calls <b>QueryInterface</b> on the audio endpoint (<a href="https://docs.microsoft.com/windows/desktop/api/audioengineendpoint/nn-audioengineendpoint-iaudioinputendpointrt">IAudioInputEndpointRT</a> or <a href="https://docs.microsoft.com/windows/desktop/api/audioengineendpoint/nn-audioengineendpoint-iaudiooutputendpointrt">IAudioOutputEndpointRT</a>) for the device.
+To a get a reference to the <b>IAudioDeviceEndpoint</b> interface of the device, the audio engine calls <b>QueryInterface</b> on the audio endpoint (<a href="/windows/desktop/api/audioengineendpoint/nn-audioengineendpoint-iaudioinputendpointrt">IAudioInputEndpointRT</a> or <a href="/windows/desktop/api/audioengineendpoint/nn-audioengineendpoint-iaudiooutputendpointrt">IAudioOutputEndpointRT</a>) for the device.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAudioDeviceEndpoint</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAudioDeviceEndpoint</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAudioDeviceEndpoint</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAudioDeviceEndpoint</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -74,7 +74,7 @@ The <b>IAudioDeviceEndpoint</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/audioengineendpoint/nf-audioengineendpoint-iaudiodeviceendpoint-geteventdrivencapable">GetEventDrivenCapable</a>
+<a href="/windows/desktop/api/audioengineendpoint/nf-audioengineendpoint-iaudiodeviceendpoint-geteventdrivencapable">GetEventDrivenCapable</a>
 </td>
 <td align="left" width="63%">
 Indicates whether the audio endpoint can be event driven.
@@ -83,7 +83,7 @@ Indicates whether the audio endpoint can be event driven.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/audioengineendpoint/nf-audioengineendpoint-iaudiodeviceendpoint-getrtcaps">GetRTCaps</a>
+<a href="/windows/desktop/api/audioengineendpoint/nf-audioengineendpoint-iaudiodeviceendpoint-getrtcaps">GetRTCaps</a>
 </td>
 <td align="left" width="63%">
 Indicates whether the audio device is real-time (RT)-capable.
@@ -92,7 +92,7 @@ Indicates whether the audio device is real-time (RT)-capable.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/audioengineendpoint/nf-audioengineendpoint-iaudiodeviceendpoint-setbuffer">SetBuffer</a>
+<a href="/windows/desktop/api/audioengineendpoint/nf-audioengineendpoint-iaudiodeviceendpoint-setbuffer">SetBuffer</a>
 </td>
 <td align="left" width="63%">
 Sets the endpoint format and the size of the endpoint's buffer through which the audio data is streamed.
@@ -101,7 +101,7 @@ Sets the endpoint format and the size of the endpoint's buffer through which the
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/audioengineendpoint/nf-audioengineendpoint-iaudiodeviceendpoint-writeexclusivemodeparameterstosharedmemory">WriteExclusiveModeParametersToSharedMemory</a>
+<a href="/windows/desktop/api/audioengineendpoint/nf-audioengineendpoint-iaudiodeviceendpoint-writeexclusivemodeparameterstosharedmemory">WriteExclusiveModeParametersToSharedMemory</a>
 </td>
 <td align="left" width="63%">
 Creates and writes the exclusive-mode parameters to shared memory.
@@ -113,4 +113,3 @@ Creates and writes the exclusive-mode parameters to shared memory.
 ## -remarks
 
 The Remote Desktop Services AudioEndpoint API is for use in Remote Desktop scenarios; it is not for client applications.
-

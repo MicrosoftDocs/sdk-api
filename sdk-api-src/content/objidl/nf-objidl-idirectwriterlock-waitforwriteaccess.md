@@ -70,9 +70,8 @@ This method returns immediately if no readers have the storage open. If the stor
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-idirectwriterlock-havewriteaccess">IDirectWriterLock::HaveWriteAccess</a>
+<a href="/windows/desktop/api/objidl/nf-objidl-idirectwriterlock-havewriteaccess">IDirectWriterLock::HaveWriteAccess</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-idirectwriterlock-releasewriteaccess">IDirectWriterLock::ReleaseWriteAccess</a>
-
+<a href="/windows/desktop/api/objidl/nf-objidl-idirectwriterlock-releasewriteaccess">IDirectWriterLock::ReleaseWriteAccess</a>

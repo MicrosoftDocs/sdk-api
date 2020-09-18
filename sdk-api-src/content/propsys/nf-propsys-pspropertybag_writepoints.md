@@ -50,15 +50,15 @@ api_name:
 
 ## -description
 
- Stores the property coordinates in a<a href="https://docs.microsoft.com/previous-versions/dd162808(v=vs.85)">POINTS</a> structure of a specified property bag.
+ Stores the property coordinates in a<a href="/previous-versions/dd162808(v=vs.85)">POINTS</a> structure of a specified property bag.
 
 ## -parameters
 
 ### -param propBag [in]
 
-Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa768196(v=vs.85)">IPropertyBag</a>*</b>
+Type: <b><a href="/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa768196(v=vs.85)">IPropertyBag</a>*</b>
 
-A pointer to an <a href="https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa768196(v=vs.85)">IPropertyBag</a> object that represents the property bag in which the property is stored.
+A pointer to an <a href="/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa768196(v=vs.85)">IPropertyBag</a> object that represents the property bag in which the property is stored.
 
 ### -param propName [in]
 
@@ -68,9 +68,9 @@ A null-terminated property name string.
 
 ### -param value [in]
 
-Type: <b>const <a href="https://docs.microsoft.com/previous-versions/dd162808(v=vs.85)">POINTS</a>*</b>
+Type: <b>const <a href="/previous-versions/dd162808(v=vs.85)">POINTS</a>*</b>
 
-Pointer to a <a href="https://docs.microsoft.com/previous-versions/dd162808(v=vs.85)">POINTS</a> structure that specifies the coordinates to store in the property.
+Pointer to a <a href="/previous-versions/dd162808(v=vs.85)">POINTS</a> structure that specifies the coordinates to store in the property.
 
 ## -returns
 
@@ -84,5 +84,4 @@ The property bag property function API converts between window types and the <b>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/propsys/nf-propsys-pspropertybag_readpoints">PSPropertyBag_ReadPOINTS</a>
-
+<a href="/windows/desktop/api/propsys/nf-propsys-pspropertybag_readpoints">PSPropertyBag_ReadPOINTS</a>

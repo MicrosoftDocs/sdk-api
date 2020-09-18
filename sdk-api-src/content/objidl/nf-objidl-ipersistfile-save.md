@@ -74,9 +74,9 @@ This method can be called to save an object to the specified file in one of thre
 
 The implementer must detect which type of save operation the caller is requesting. If the <i>pszFileName</i> parameter is <b>NULL</b>, a <b>Save</b> is being requested. If the <i>pszFileName</i> parameter is not <b>NULL</b>, use the value of the <i>fRemember</i> parameter to distinguish between a <b>Save As</b> and a <b>Save a Copy As</b>.
 
-In <b>Save</b> or <b>Save As</b> operations, <b>IPersistFile::Save</b> clears the internal dirty flag after the save and sends <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-iadvisesink-onsave">IAdviseSink::OnSave</a> notifications to any advisory connections (see also <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleadviseholder-sendonsave">IOleAdviseHolder::SendOnSave</a>). Also, in these operations, the object is in NoScribble mode until it receives an <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ipersistfile-savecompleted">IPersistFile::SaveCompleted</a> call. In NoScribble mode, the object must not write to the file.
+In <b>Save</b> or <b>Save As</b> operations, <b>IPersistFile::Save</b> clears the internal dirty flag after the save and sends <a href="/windows/desktop/api/objidl/nf-objidl-iadvisesink-onsave">IAdviseSink::OnSave</a> notifications to any advisory connections (see also <a href="/windows/desktop/api/oleidl/nf-oleidl-ioleadviseholder-sendonsave">IOleAdviseHolder::SendOnSave</a>). Also, in these operations, the object is in NoScribble mode until it receives an <a href="/windows/desktop/api/objidl/nf-objidl-ipersistfile-savecompleted">IPersistFile::SaveCompleted</a> call. In NoScribble mode, the object must not write to the file.
 
-In the <b>Save As</b> scenario, the implementation should also send <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-iadvisesink-onrename">IAdviseSink::OnRename</a> notifications to any advisory connections (see also <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleadviseholder-sendonrename">IOleAdviseHolder::SendOnRename</a>).
+In the <b>Save As</b> scenario, the implementation should also send <a href="/windows/desktop/api/objidl/nf-objidl-iadvisesink-onrename">IAdviseSink::OnRename</a> notifications to any advisory connections (see also <a href="/windows/desktop/api/oleidl/nf-oleidl-ioleadviseholder-sendonrename">IOleAdviseHolder::SendOnRename</a>).
 
 In the <b>Save a Copy As</b> scenario, the implementation does not clear the internal dirty flag after the save.
 
@@ -85,5 +85,4 @@ OLE does not call <b>IPersistFile::Save</b>. Typically, applications would not c
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ipersistfile">IPersistFile</a>
-
+<a href="/windows/desktop/api/objidl/nn-objidl-ipersistfile">IPersistFile</a>

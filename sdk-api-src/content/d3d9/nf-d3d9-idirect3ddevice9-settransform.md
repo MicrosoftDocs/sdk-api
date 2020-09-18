@@ -57,15 +57,15 @@ Sets a single device transformation-related state.
 
 ### -param State [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3dtransformstatetype">D3DTRANSFORMSTATETYPE</a></b>
+Type: <b><a href="/windows/desktop/direct3d9/d3dtransformstatetype">D3DTRANSFORMSTATETYPE</a></b>
 
-Device-state variable that is being modified. This parameter can be any member of the <a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3dtransformstatetype">D3DTRANSFORMSTATETYPE</a> enumerated type, or the <a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3dts-worldmatrix">D3DTS_WORLDMATRIX</a> macro.
+Device-state variable that is being modified. This parameter can be any member of the <a href="/windows/desktop/direct3d9/d3dtransformstatetype">D3DTRANSFORMSTATETYPE</a> enumerated type, or the <a href="/windows/desktop/direct3d9/d3dts-worldmatrix">D3DTS_WORLDMATRIX</a> macro.
 
 ### -param pMatrix [in]
 
-Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3dmatrix">D3DMATRIX</a>*</b>
+Type: <b>const <a href="/windows/desktop/direct3d9/d3dmatrix">D3DMATRIX</a>*</b>
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3dmatrix">D3DMATRIX</a> structure that modifies the current transformation.
+Pointer to a <a href="/windows/desktop/direct3d9/d3dmatrix">D3DMATRIX</a> structure that modifies the current transformation.
 
 ## -returns
 
@@ -75,25 +75,24 @@ If the method succeeds, the return value is D3D_OK. D3DERR_INVALIDCALL is return
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3dts-world">D3DTS_WORLD</a>
+<a href="/windows/desktop/direct3d9/d3dts-world">D3DTS_WORLD</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3dts-worldmatrix">D3DTS_WORLDMATRIX</a>
+<a href="/windows/desktop/direct3d9/d3dts-worldmatrix">D3DTS_WORLDMATRIX</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3dts-worldn">D3DTS_WORLDn</a>
+<a href="/windows/desktop/direct3d9/d3dts-worldn">D3DTS_WORLDn</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3ddevice9">IDirect3DDevice9</a>
+<a href="/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3ddevice9">IDirect3DDevice9</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-gettransform">IDirect3DDevice9::GetTransform</a>
+<a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-gettransform">IDirect3DDevice9::GetTransform</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-setrenderstate">IDirect3DDevice9::SetRenderState</a>
-
+<a href="/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-setrenderstate">IDirect3DDevice9::SetRenderState</a>

@@ -53,11 +53,10 @@ api_name:
 ## -description
 
 Specifies constraints on the set of values
-                which can be deserialized.This type description is used with <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_type">WS_BOOL_TYPE</a> and is optional.
+                which can be deserialized.This type description is used with <a href="/windows/desktop/api/webservices/ne-webservices-ws_type">WS_BOOL_TYPE</a> and is optional.
 
 ## -struct-fields
 
 ### -field value
 
 Specifies the required value.
-

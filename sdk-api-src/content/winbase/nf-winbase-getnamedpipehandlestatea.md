@@ -70,7 +70,7 @@ A handle to the named pipe for which information is wanted. The handle must have
 
 
 This parameter can also be a handle to an anonymous pipe, as returned by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/namedpipeapi/nf-namedpipeapi-createpipe">CreatePipe</a> function.
+<a href="/windows/desktop/api/namedpipeapi/nf-namedpipeapi-createpipe">CreatePipe</a> function.
 
 ### -param lpState [out, optional]
 
@@ -137,7 +137,7 @@ The size of the buffer specified by the <i>lpUserName</i> parameter, in <b>TCHAR
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
@@ -145,19 +145,18 @@ The
 <b>GetNamedPipeHandleState</b> function returns successfully even if all of the pointers passed to it are <b>NULL</b>.
 
 To set the pipe handle state, use the 
-<a href="https://docs.microsoft.com/windows/desktop/api/namedpipeapi/nf-namedpipeapi-setnamedpipehandlestate">SetNamedPipeHandleState</a> function.
+<a href="/windows/desktop/api/namedpipeapi/nf-namedpipeapi-setnamedpipehandlestate">SetNamedPipeHandleState</a> function.
 
 <b>Windows 10, version 1709:  </b>Pipes are only supported within an app-container; ie, from one UWP process to another UWP process that's part of the same app. Also, named pipes must use the syntax "\\.\pipe\LOCAL\" for the pipe name.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/ipc/pipe-functions">Pipe Functions</a>
+<a href="/windows/desktop/ipc/pipe-functions">Pipe Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/ipc/pipes">Pipes Overview</a>
+<a href="/windows/desktop/ipc/pipes">Pipes Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/namedpipeapi/nf-namedpipeapi-setnamedpipehandlestate">SetNamedPipeHandleState</a>
-
+<a href="/windows/desktop/api/namedpipeapi/nf-namedpipeapi-setnamedpipehandlestate">SetNamedPipeHandleState</a>

@@ -66,11 +66,11 @@ This parameter can also be a properly cast device handle.
 
 ### -param pmoc
 
-Pointer to a <a href="https://docs.microsoft.com/previous-versions/dd798467(v=vs.85)">MIDIOUTCAPS</a> structure. This structure is filled with information about the capabilities of the device.
+Pointer to a <a href="/previous-versions/dd798467(v=vs.85)">MIDIOUTCAPS</a> structure. This structure is filled with information about the capabilities of the device.
 
 ### -param cbmoc
 
-Size, in bytes, of the <a href="https://docs.microsoft.com/previous-versions/dd798467(v=vs.85)">MIDIOUTCAPS</a> structure. Only <i>cbMidiOutCaps</i> bytes (or less) of information is copied to the location pointed to by <i>lpMidiOutCaps</i>. If <i>cbMidiOutCaps</i> is zero, nothing is copied, and the function returns MMSYSERR_NOERROR.
+Size, in bytes, of the <a href="/previous-versions/dd798467(v=vs.85)">MIDIOUTCAPS</a> structure. Only <i>cbMidiOutCaps</i> bytes (or less) of information is copied to the location pointed to by <i>lpMidiOutCaps</i>. If <i>cbMidiOutCaps</i> is zero, nothing is copied, and the function returns MMSYSERR_NOERROR.
 
 ## -returns
 
@@ -129,9 +129,8 @@ The system is unable to load mapper string description.
 
 ## -remarks
 
-To determine the number of MIDI output devices present in the system, use the <a href="https://docs.microsoft.com/previous-versions/dd798472(v=vs.85)">midiOutGetNumDevs</a> function.
+To determine the number of MIDI output devices present in the system, use the <a href="/previous-versions/dd798472(v=vs.85)">midiOutGetNumDevs</a> function.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/midi-functions">MIDI Functions</a>
-
+<a href="/windows/desktop/Multimedia/midi-functions">MIDI Functions</a>

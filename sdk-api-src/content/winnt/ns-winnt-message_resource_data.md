@@ -62,11 +62,11 @@ Contains information about formatted text for display as an error message or in 
 
 Type: <b>DWORD</b>
 
-The number of <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-message_resource_block">MESSAGE_RESOURCE_BLOCK</a> structures.
+The number of <a href="/windows/desktop/api/winnt/ns-winnt-message_resource_block">MESSAGE_RESOURCE_BLOCK</a> structures.
 
 ### -field Blocks
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-message_resource_block">MESSAGE_RESOURCE_BLOCK</a>[1]</b>
+Type: <b><a href="/windows/desktop/api/winnt/ns-winnt-message_resource_block">MESSAGE_RESOURCE_BLOCK</a>[1]</b>
 
 An array of structures. The array is the size indicated by the 
 					<b>NumberOfBlocks</b>  member.
@@ -74,7 +74,7 @@ An array of structures. The array is the size indicated by the
 ## -remarks
 
 A <b>MESSAGE_RESOURCE_DATA</b> structure can contain one or more 
-				<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-message_resource_block">MESSAGE_RESOURCE_BLOCK</a> structures, which can each contain one or more <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-message_resource_entry">MESSAGE_RESOURCE_ENTRY</a> structures.
+				<a href="/windows/desktop/api/winnt/ns-winnt-message_resource_block">MESSAGE_RESOURCE_BLOCK</a> structures, which can each contain one or more <a href="/windows/desktop/api/winnt/ns-winnt-message_resource_entry">MESSAGE_RESOURCE_ENTRY</a> structures.
 
 ## -see-also
 
@@ -82,11 +82,11 @@ A <b>MESSAGE_RESOURCE_DATA</b> structure can contain one or more
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-message_resource_block">MESSAGE_RESOURCE_BLOCK</a>
+<a href="/windows/desktop/api/winnt/ns-winnt-message_resource_block">MESSAGE_RESOURCE_BLOCK</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-message_resource_entry">MESSAGE_RESOURCE_ENTRY</a>
+<a href="/windows/desktop/api/winnt/ns-winnt-message_resource_entry">MESSAGE_RESOURCE_ENTRY</a>
 
 
 
@@ -94,5 +94,4 @@ A <b>MESSAGE_RESOURCE_DATA</b> structure can contain one or more
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/menurc/resources">Resources</a>
-
+<a href="/windows/desktop/menurc/resources">Resources</a>

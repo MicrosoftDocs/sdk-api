@@ -56,19 +56,19 @@ The <b>PeerCollabRegisterEvent</b> function registers an application with the pe
 
 ### -param hEvent [in]
 
-Handle created by CreateEvent that the application is signaled on  when an event is triggered.  When an application is signaled, it must call <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peercollabgeteventdata">PeerCollabGetEventData</a> to retrieve events until PEER_S_NO_EVENT_DATA is returned.
+Handle created by CreateEvent that the application is signaled on  when an event is triggered.  When an application is signaled, it must call <a href="/windows/desktop/api/p2p/nf-p2p-peercollabgeteventdata">PeerCollabGetEventData</a> to retrieve events until PEER_S_NO_EVENT_DATA is returned.
 
 ### -param cEventRegistration [in]
 
-The number of <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_collab_event_registration">PEER_COLLAB_EVENT_REGISTRATION</a> structures in <i>pEventRegistrations</i>.
+The number of <a href="/windows/desktop/api/p2p/ns-p2p-peer_collab_event_registration">PEER_COLLAB_EVENT_REGISTRATION</a> structures in <i>pEventRegistrations</i>.
 
 ### -param pEventRegistrations [in]
 
-An array of <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_collab_event_registration">PEER_COLLAB_EVENT_REGISTRATION</a> structures that specify the peer collaboration events for which the application requests notification.
+An array of <a href="/windows/desktop/api/p2p/ns-p2p-peer_collab_event_registration">PEER_COLLAB_EVENT_REGISTRATION</a> structures that specify the peer collaboration events for which the application requests notification.
 
 ### -param phPeerEvent [out]
 
-The peer event handle returned by this function. This handle is passed to <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peercollabgeteventdata">PeerCollabGetEventData</a> when a peer collaboration network event is raised on the peer.
+The peer event handle returned by this function. This handle is passed to <a href="/windows/desktop/api/p2p/nf-p2p-peercollabgeteventdata">PeerCollabGetEventData</a> when a peer collaboration network event is raised on the peer.
 
 ## -returns
 
@@ -108,7 +108,7 @@ One of the arguments is invalid.
 </dl>
 </td>
 <td width="60%">
-An attempt was made to call <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peercollabregisterevent">PeerCollabRegisterEvent</a> from an elevated process.
+An attempt was made to call <a href="/windows/desktop/api/p2p/nf-p2p-peercollabregisterevent">PeerCollabRegisterEvent</a> from an elevated process.
 
 </td>
 </tr>
@@ -137,13 +137,12 @@ An application can call <b>PeerCollabRegisterEvent</b> multiple times, where eac
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_collab_event_registration">PEER_COLLAB_EVENT_REGISTRATION</a>
+<a href="/windows/desktop/api/p2p/ns-p2p-peer_collab_event_registration">PEER_COLLAB_EVENT_REGISTRATION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/P2PSdk/collaboration-api-functions">Peer Collaboration API Functions</a>
+<a href="/windows/desktop/P2PSdk/collaboration-api-functions">Peer Collaboration API Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peercollabgeteventdata">PeerCollabGetEventData</a>
-
+<a href="/windows/desktop/api/p2p/nf-p2p-peercollabgeteventdata">PeerCollabGetEventData</a>

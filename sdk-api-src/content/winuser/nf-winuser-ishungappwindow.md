@@ -58,7 +58,7 @@ api_name:
 
 Determines whether the system considers that a specified application is not responding.
 		An application is considered to be not responding if it is not waiting for input, is not in
-		startup processing, and has not called <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-peekmessagea">PeekMessage</a> within
+		startup processing, and has not called <a href="/windows/desktop/api/winuser/nf-winuser-peekmessagea">PeekMessage</a> within
 		the internal timeout period of 5 seconds.
 
 ## -parameters
@@ -80,7 +80,7 @@ The return value is <b>TRUE</b> if the window stops responding; otherwise, it is
 
 The Windows timeout criteria of 5 seconds is subject to change.
 
-This function was not included in the SDK headers and libraries until Windows XP Service Pack 1 (SP1) and Windows Server 2003. If you do not have a header file and import library for this function, you can call the function using <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> and <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a>.
+This function was not included in the SDK headers and libraries until Windows XP Service Pack 1 (SP1) and Windows Server 2003. If you do not have a header file and import library for this function, you can call the function using <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> and <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a>.
 
 ## -see-also
 
@@ -88,7 +88,7 @@ This function was not included in the SDK headers and libraries until Windows X
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-iswindow">IsWindow</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-iswindow">IsWindow</a>
 
 
 
@@ -96,5 +96,4 @@ This function was not included in the SDK headers and libraries until Windows X
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/winmsg/windows">Windows</a>
-
+<a href="/windows/desktop/winmsg/windows">Windows</a>

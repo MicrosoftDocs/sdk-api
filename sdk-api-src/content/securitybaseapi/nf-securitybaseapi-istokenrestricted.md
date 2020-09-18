@@ -57,13 +57,13 @@ api_name:
 
 ## -description
 
-The <b>IsTokenRestricted</b> function indicates whether a token contains a list of restricted <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security identifiers</a> (SIDs).
+The <b>IsTokenRestricted</b> function indicates whether a token contains a list of restricted <a href="/windows/desktop/SecGloss/s-gly">security identifiers</a> (SIDs).
 
 ## -parameters
 
 ### -param TokenHandle [in]
 
-A handle to an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">access token</a> to test.
+A handle to an <a href="/windows/desktop/SecGloss/a-gly">access token</a> to test.
 
 ## -returns
 
@@ -72,22 +72,21 @@ If the token contains a list of restricting SIDs, the return value is nonzero.
 If the token does not contain a list of restricting SIDs, the return value is zero.
 
 If an error occurs, the return value is zero. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
 The 
-<a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-createrestrictedtoken">CreateRestrictedToken</a> function can restrict a token by disabling SIDs, deleting privileges, and specifying a list of restricting SIDs. The <b>IsTokenRestricted</b> function checks only for the list of restricting SIDs. If a token does not have any restricting SIDs, <b>IsTokenRestricted</b> returns <b>FALSE</b>, even though the token was created by a call to <b>CreateRestrictedToken</b>.
+<a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-createrestrictedtoken">CreateRestrictedToken</a> function can restrict a token by disabling SIDs, deleting privileges, and specifying a list of restricting SIDs. The <b>IsTokenRestricted</b> function checks only for the list of restricting SIDs. If a token does not have any restricting SIDs, <b>IsTokenRestricted</b> returns <b>FALSE</b>, even though the token was created by a call to <b>CreateRestrictedToken</b>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/access-control">Access Control Overview</a>
+<a href="/windows/desktop/SecAuthZ/access-control">Access Control Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/authorization-functions">Basic Access Control Functions</a>
+<a href="/windows/desktop/SecAuthZ/authorization-functions">Basic Access Control Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-createrestrictedtoken">CreateRestrictedToken</a>
-
+<a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-createrestrictedtoken">CreateRestrictedToken</a>

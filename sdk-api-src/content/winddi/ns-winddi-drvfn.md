@@ -60,7 +60,7 @@ The DRVFN structure is used by graphics drivers to provide GDI with pointers to 
 
 ### -field iFunc
 
-Is the function index that identifies a graphics DDI function implemented by the driver. The index name reflects the name of the related graphics DDI function; for example, an index value of INDEX_DrvEnablePDEV specifies the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvenablepdev">DrvEnablePDEV</a> function. See the header file, <i>winddi.h</i>, for a complete list of index values.
+Is the function index that identifies a graphics DDI function implemented by the driver. The index name reflects the name of the related graphics DDI function; for example, an index value of INDEX_DrvEnablePDEV specifies the <a href="/windows/desktop/api/winddi/nf-winddi-drvenablepdev">DrvEnablePDEV</a> function. See the header file, <i>winddi.h</i>, for a complete list of index values.
 
 ### -field pfn
 
@@ -73,11 +73,10 @@ LONG_PTR  (APIENTRY * PFN) ();
 
 ## -remarks
 
-A graphics driver must allocate an array of DRVFN structures, with an array element for each graphics DDI function implemented in the driver. The driver returns the array's address to GDI in the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-drvenabledata">DRVENABLEDATA</a> structure whose pointer is passed to the driver's <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvenabledriver">DrvEnableDriver</a> function during driver initialization.
+A graphics driver must allocate an array of DRVFN structures, with an array element for each graphics DDI function implemented in the driver. The driver returns the array's address to GDI in the <a href="/windows/desktop/api/winddi/ns-winddi-drvenabledata">DRVENABLEDATA</a> structure whose pointer is passed to the driver's <a href="/windows/desktop/api/winddi/nf-winddi-drvenabledriver">DrvEnableDriver</a> function during driver initialization.
 
 Graphics DDI function addresses can be placed in the DRVFN array in any order.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvenabledriver">DrvEnableDriver</a>
-
+<a href="/windows/desktop/api/winddi/nf-winddi-drvenabledriver">DrvEnableDriver</a>

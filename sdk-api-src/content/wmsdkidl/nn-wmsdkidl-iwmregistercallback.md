@@ -58,7 +58,7 @@ The file sink object, the network sink object, and the push sink object all expo
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMRegisterCallback</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWMRegisterCallback</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMRegisterCallback</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWMRegisterCallback</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -73,7 +73,7 @@ The <b>IWMRegisterCallback</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmregistercallback-advise">Advise</a>
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmregistercallback-advise">Advise</a>
 </td>
 <td align="left" width="63%">
 Registers the application to receive status messages from the sink object.
@@ -82,7 +82,7 @@ Registers the application to receive status messages from the sink object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmregistercallback-unadvise">Unadvise</a>
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmregistercallback-unadvise">Unadvise</a>
 </td>
 <td align="left" width="63%">
 Unregisters the application's callback interface.
@@ -93,13 +93,12 @@ Unregisters the application's callback interface.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/wmformat/interfaces">Interfaces</a>
+<a href="/windows/desktop/wmformat/interfaces">Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/wmformat/writer-file-sink-object">Writer File Sink Object</a>
+<a href="/windows/desktop/wmformat/writer-file-sink-object">Writer File Sink Object</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/wmformat/writer-network-sink-object">Writer Network Sink Object</a>
-
+<a href="/windows/desktop/wmformat/writer-network-sink-object">Writer Network Sink Object</a>

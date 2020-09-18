@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-The <b>CRYPT_XML_KEY_VALUE</b> structure contains a single <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">public key</a> that may be useful in validating the signature.
+The <b>CRYPT_XML_KEY_VALUE</b> structure contains a single <a href="/windows/desktop/SecGloss/p-gly">public key</a> that may be useful in validating the signature.
 
 ## -struct-fields
 
@@ -88,7 +88,7 @@ The key is a DSA key.
 </dl>
 </td>
 <td width="60%">
-The key is an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/r-gly">RSA</a> key.
+The key is an <a href="/windows/desktop/SecGloss/r-gly">RSA</a> key.
 
 </td>
 </tr>
@@ -118,17 +118,16 @@ The key is a custom key type.
 
 ### -field DSAKeyValue
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/ns-cryptxml-crypt_xml_key_dsa_key_value">CRYPT_XML_KEY_DSA_KEY_VALUE</a> structure that contains <a href="https://docs.microsoft.com/windows/desktop/SecGloss/d-gly">Digital Signature Algorithm</a> (DSA) key data.
+A <a href="/windows/desktop/api/cryptxml/ns-cryptxml-crypt_xml_key_dsa_key_value">CRYPT_XML_KEY_DSA_KEY_VALUE</a> structure that contains <a href="/windows/desktop/SecGloss/d-gly">Digital Signature Algorithm</a> (DSA) key data.
 
 ### -field RSAKeyValue
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/ns-cryptxml-crypt_xml_key_rsa_key_value">CRYPT_XML_KEY_RSA_KEY_VALUE</a> structure that contains RSA key data.
+A <a href="/windows/desktop/api/cryptxml/ns-cryptxml-crypt_xml_key_rsa_key_value">CRYPT_XML_KEY_RSA_KEY_VALUE</a> structure that contains RSA key data.
 
 ### -field ECDSAKeyValue
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/ns-cryptxml-crypt_xml_key_ecdsa_key_value">CRYPT_XML_KEY_ECDSA_KEY_VALUE</a> structure that contains ECDSA key data.
+A <a href="/windows/desktop/api/cryptxml/ns-cryptxml-crypt_xml_key_ecdsa_key_value">CRYPT_XML_KEY_ECDSA_KEY_VALUE</a> structure that contains ECDSA key data.
 
 ### -field Custom
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/ns-cryptxml-crypt_xml_blob">CRYPT_XML_BLOB</a> structure that contains custom key data.
-
+A <a href="/windows/desktop/api/cryptxml/ns-cryptxml-crypt_xml_blob">CRYPT_XML_BLOB</a> structure that contains custom key data.

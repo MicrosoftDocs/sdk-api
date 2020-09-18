@@ -60,8 +60,8 @@ api_name:
 Sets the file information for the specified file.
 
 To retrieve file information using a file handle, see 
-    <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-getfileinformationbyhandle">GetFileInformationByHandle</a> or 
-    <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getfileinformationbyhandleex">GetFileInformationByHandleEx</a>.
+    <a href="/windows/desktop/api/fileapi/nf-fileapi-getfileinformationbyhandle">GetFileInformationByHandle</a> or 
+    <a href="/windows/desktop/api/winbase/nf-winbase-getfileinformationbyhandleex">GetFileInformationByHandleEx</a>.
 
 ## -parameters
 
@@ -76,7 +76,7 @@ This handle should not be a pipe handle.
 
 ### -param FileInformationClass [in]
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ne-minwinbase-file_info_by_handle_class">FILE_INFO_BY_HANDLE_CLASS</a> enumeration 
+A <a href="/windows/desktop/api/minwinbase/ne-minwinbase-file_info_by_handle_class">FILE_INFO_BY_HANDLE_CLASS</a> enumeration 
        value that specifies the type of information to be changed.
 
 For a table of valid values, see the Remarks section.
@@ -98,7 +98,7 @@ The size of <i>lpFileInformation</i>, in bytes.
 Returns nonzero if successful or zero otherwise.
 
 To get extended error information, call 
-       <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+       <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
@@ -123,7 +123,7 @@ The following table shows the valid file information classes and their correspon
 </td>
 <td>
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-file_basic_info">FILE_BASIC_INFO</a>
+<a href="/windows/desktop/api/winbase/ns-winbase-file_basic_info">FILE_BASIC_INFO</a>
 
 
 </td>
@@ -137,7 +137,7 @@ The following table shows the valid file information classes and their correspon
 </td>
 <td>
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-file_rename_info">FILE_RENAME_INFO</a>
+<a href="/windows/desktop/api/winbase/ns-winbase-file_rename_info">FILE_RENAME_INFO</a>
 
 
 </td>
@@ -151,7 +151,7 @@ The following table shows the valid file information classes and their correspon
 </td>
 <td>
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-file_disposition_info">FILE_DISPOSITION_INFO</a>
+<a href="/windows/desktop/api/winbase/ns-winbase-file_disposition_info">FILE_DISPOSITION_INFO</a>
 
 
 </td>
@@ -165,7 +165,7 @@ The following table shows the valid file information classes and their correspon
 </td>
 <td>
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-file_allocation_info">FILE_ALLOCATION_INFO</a>
+<a href="/windows/desktop/api/winbase/ns-winbase-file_allocation_info">FILE_ALLOCATION_INFO</a>
 
 
 </td>
@@ -179,7 +179,7 @@ The following table shows the valid file information classes and their correspon
 </td>
 <td>
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-file_end_of_file_info">FILE_END_OF_FILE_INFO</a>
+<a href="/windows/desktop/api/winbase/ns-winbase-file_end_of_file_info">FILE_END_OF_FILE_INFO</a>
 
 
 </td>
@@ -193,7 +193,7 @@ The following table shows the valid file information classes and their correspon
 </td>
 <td>
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-file_io_priority_hint_info">FILE_IO_PRIORITY_HINT_INFO</a>
+<a href="/windows/desktop/api/winbase/ns-winbase-file_io_priority_hint_info">FILE_IO_PRIORITY_HINT_INFO</a>
 
 
 </td>
@@ -203,21 +203,21 @@ The following table shows the valid file information classes and their correspon
 
 You must specify appropriate access flags when creating the file handle for use with 
     <b>SetFileInformationByHandle</b>. For example, if 
-    the application is using <a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-file_disposition_info">FILE_DISPOSITION_INFO</a> with 
+    the application is using <a href="/windows/desktop/api/winbase/ns-winbase-file_disposition_info">FILE_DISPOSITION_INFO</a> with 
     the <b>DeleteFile</b> member set to <b>TRUE</b>, the file would need 
     <b>DELETE</b> access requested in the call to the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> function. To see an example of this, see the 
+    <a href="/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> function. To see an example of this, see the 
     Example Code section. For more information about file permissions, see 
-    <a href="https://docs.microsoft.com/windows/desktop/FileIO/file-security-and-access-rights">File Security and Access Rights</a>.
+    <a href="/windows/desktop/FileIO/file-security-and-access-rights">File Security and Access Rights</a>.
 
 If there is a transaction bound to the handle, then the changes made will be transacted for the information 
     classes <b>FileBasicInfo</b>, <b>FileRenameInfo</b>, 
     <b>FileAllocationInfo</b>, <b>FileEndOfFileInfo</b>, and 
     <b>FileDispositionInfo</b>. If <b>FileDispositionInfo</b> is specified, 
-    only the delete operation is transacted if a <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-deletefilea">DeleteFile</a> 
+    only the delete operation is transacted if a <a href="/windows/desktop/api/fileapi/nf-fileapi-deletefilea">DeleteFile</a> 
     operation was requested. In this case, if the transaction is not committed before the handle is closed, the 
     deletion will not occur. For more information about TxF, see 
-    <a href="https://docs.microsoft.com/windows/desktop/FileIO/transactional-ntfs-portal">Transactional NTFS (TxF)</a>.
+    <a href="/windows/desktop/FileIO/transactional-ntfs-portal">Transactional NTFS (TxF)</a>.
 
 In Windows 8 and Windows Server 2012, this function is supported by the following technologies.
 
@@ -340,25 +340,24 @@ The following C++ example shows how to create a file and mark it for deletion wh
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a>
+<a href="/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/file-management-functions">File Management Functions</a>
+<a href="/windows/desktop/FileIO/file-management-functions">File Management Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/file-security-and-access-rights">File Security and Access Rights</a>
+<a href="/windows/desktop/FileIO/file-security-and-access-rights">File Security and Access Rights</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/generic-access-rights">Generic Access Rights</a>
+<a href="/windows/desktop/SecAuthZ/generic-access-rights">Generic Access Rights</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-getfileinformationbyhandle">GetFileInformationByHandle</a>
+<a href="/windows/desktop/api/fileapi/nf-fileapi-getfileinformationbyhandle">GetFileInformationByHandle</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getfileinformationbyhandleex">GetFileInformationByHandleEx</a>
-
+<a href="/windows/desktop/api/winbase/nf-winbase-getfileinformationbyhandleex">GetFileInformationByHandleEx</a>

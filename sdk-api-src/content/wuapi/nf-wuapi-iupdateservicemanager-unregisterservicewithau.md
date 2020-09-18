@@ -151,7 +151,7 @@ The user canceled the change.
 
 ## -remarks
 
-This method returns <b>WU_E_DS_INVALIDOPERATION</b> if the requested change in the state of Automatic Updates is contrary to the specifications in the Authorization Cab. An error is returned by <a href="https://docs.microsoft.com/windows/desktop/api/wintrust/nf-wintrust-winverifytrust">WinVerifyTrust</a> function if the Authorization Cab has not been signed.
+This method returns <b>WU_E_DS_INVALIDOPERATION</b> if the requested change in the state of Automatic Updates is contrary to the specifications in the Authorization Cab. An error is returned by <a href="/windows/desktop/api/wintrust/nf-wintrust-winverifytrust">WinVerifyTrust</a> function if the Authorization Cab has not been signed.
 
 This method returns <b>WU_E_DS_UNKNOWNSERVICE</b> if the service to be removed does not exist.
 
@@ -159,5 +159,4 @@ This method returns <b>WU_E_DS_NEEDWINDOWSSERVICE</b> if you attempt to remove t
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdateservicemanager">IUpdateServiceManager</a>
-
+<a href="/windows/desktop/api/wuapi/nn-wuapi-iupdateservicemanager">IUpdateServiceManager</a>

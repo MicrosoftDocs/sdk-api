@@ -55,7 +55,7 @@ The <b>PreCommitSnapshots</b>
    immediately before the flush-and-hold writes, but while applications are in a frozen state. During this call the 
    provider should prepare all shadow copies in the shadow copy set indicated by <i>SnapshotSetId</i> 
    for committing by the 
-   <a href="https://docs.microsoft.com/windows/desktop/api/vsprov/nf-vsprov-ivssprovidercreatesnapshotset-commitsnapshots">CommitSnapshots</a> method call 
+   <a href="/windows/desktop/api/vsprov/nf-vsprov-ivssprovidercreatesnapshotset-commitsnapshots">CommitSnapshots</a> method call 
    that will follow. While the provider is processing this method, the applications have been frozen, so the time 
    spent in this method  should be minimized.
 
@@ -141,5 +141,4 @@ If any other value is returned, VSS will write an event to the event log and con
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vsprov/nn-vsprov-ivssprovidercreatesnapshotset">IVssProviderCreateSnapshotSet</a>
-
+<a href="/windows/desktop/api/vsprov/nn-vsprov-ivssprovidercreatesnapshotset">IVssProviderCreateSnapshotSet</a>

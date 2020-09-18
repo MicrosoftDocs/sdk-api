@@ -100,20 +100,19 @@ This method is equivalent to setting the following properties:
 
 <ul>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/medfound/mfpkey-resize-src-left">MFPKEY_RESIZE_SRC_LEFT</a>
+<a href="/windows/desktop/medfound/mfpkey-resize-src-left">MFPKEY_RESIZE_SRC_LEFT</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/medfound/mfpkey-resize-src-top">MFPKEY_RESIZE_SRC_TOP</a>
+<a href="/windows/desktop/medfound/mfpkey-resize-src-top">MFPKEY_RESIZE_SRC_TOP</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/medfound/mfpkey-resize-src-width">MFPKEY_RESIZE_SRC_WIDTH</a>
+<a href="/windows/desktop/medfound/mfpkey-resize-src-width">MFPKEY_RESIZE_SRC_WIDTH</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/medfound/mfpkey-resize-src-height">MFPKEY_RESIZE_SRC_HEIGHT</a>
+<a href="/windows/desktop/medfound/mfpkey-resize-src-height">MFPKEY_RESIZE_SRC_HEIGHT</a>
 </li>
 </ul>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmcodecdsp/nn-wmcodecdsp-iwmresizerprops">IWMResizerProps Interface</a>
-
+<a href="/windows/desktop/api/wmcodecdsp/nn-wmcodecdsp-iwmresizerprops">IWMResizerProps Interface</a>

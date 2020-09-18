@@ -58,15 +58,15 @@ Defines the type of the value.
 
 ### -field plaIndex
 
-Only one item in the collection can be enabled. The enabled item is the value of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-ivaluemap-get_value">IValueMap::Value</a> property. If more than one item is enabled, the first enabled item is used as the value.
+Only one item in the collection can be enabled. The enabled item is the value of the <a href="/previous-versions/windows/desktop/api/pla/nf-pla-ivaluemap-get_value">IValueMap::Value</a> property. If more than one item is enabled, the first enabled item is used as the value.
 
 ### -field plaFlag
 
-One or more items in the collection can be enabled. An item in the collection represents a single bit flag. The enabled items in the collection are combined  with the <b>OR</b> operator to become the value of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-ivaluemap-get_value">IValueMap::Value</a>.
+One or more items in the collection can be enabled. An item in the collection represents a single bit flag. The enabled items in the collection are combined  with the <b>OR</b> operator to become the value of <a href="/previous-versions/windows/desktop/api/pla/nf-pla-ivaluemap-get_value">IValueMap::Value</a>.
 
 ### -field plaFlagArray
 
-The collection contains a list of Event Tracing for Windows extended flags (see the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-itracedataprovider-get_properties">ITraceDataProvider::Properties</a> property).
+The collection contains a list of Event Tracing for Windows extended flags (see the <a href="/previous-versions/windows/desktop/api/pla/nf-pla-itracedataprovider-get_properties">ITraceDataProvider::Properties</a> property).
 
 ### -field plaValidation
 
@@ -74,9 +74,8 @@ The collection contains a list of HRESULT values returned by the validation proc
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-ivaluemap-get_valuemaptype">IValueMap::ValueMapType</a>
+<a href="/previous-versions/windows/desktop/api/pla/nf-pla-ivaluemap-get_valuemaptype">IValueMap::ValueMapType</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-ivaluemapitem-get_valuemaptype">IValueMapItem::ValueMapType</a>
-
+<a href="/previous-versions/windows/desktop/api/pla/nf-pla-ivaluemapitem-get_valuemaptype">IValueMapItem::ValueMapType</a>

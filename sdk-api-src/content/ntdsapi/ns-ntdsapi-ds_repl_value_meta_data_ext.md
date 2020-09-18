@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-Contains attribute replication meta data for the <a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/ns-ntdsapi-ds_repl_attr_value_meta_data_ext">DS_REPL_ATTR_VALUE_META_DATA_EXT</a> structure.
+Contains attribute replication meta data for the <a href="/windows/desktop/api/ntdsapi/ns-ntdsapi-ds_repl_attr_value_meta_data_ext">DS_REPL_ATTR_VALUE_META_DATA_EXT</a> structure.
 
 ## -struct-fields
 
@@ -81,11 +81,11 @@ Pointer to a buffer that contains the attribute replication metadata. The <b>cbD
 
 ### -field ftimeDeleted
 
-Contains a <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure that contains the time this attribute was deleted.
+Contains a <a href="/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure that contains the time this attribute was deleted.
 
 ### -field ftimeCreated
 
-Contains a <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure that contains the time this attribute was created.
+Contains a <a href="/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure that contains the time this attribute was created.
 
 ### -field dwVersion
 
@@ -93,7 +93,7 @@ Contains the version of this attribute. Each originating modification of the att
 
 ### -field ftimeLastOriginatingChange
 
-Contains a <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure that contains the time at which the last originating change was made to this attribute. Replication of the change does not affect this value.
+Contains a <a href="/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure that contains the time at which the last originating change was made to this attribute. Replication of the change does not affect this value.
 
 ### -field uuidLastOriginatingDsaInvocationID
 
@@ -105,7 +105,7 @@ Contains the update sequence number (USN) on the originating server at which the
 
 ### -field usnLocalChange
 
-Contains the USN on the destination server, that is the server from which the <a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/nf-ntdsapi-dsreplicagetinfo2w">DsReplicaGetInfo2</a> function retrieved the metadata, at which the last change to this attribute was applied. This value is typically different on all servers.
+Contains the USN on the destination server, that is the server from which the <a href="/windows/desktop/api/ntdsapi/nf-ntdsapi-dsreplicagetinfo2w">DsReplicaGetInfo2</a> function retrieved the metadata, at which the last change to this attribute was applied. This value is typically different on all servers.
 
 ### -field pszLastOriginatingDsaDN
 
@@ -122,4 +122,3 @@ TBD
 ### -field dwCurrentLinkState
 
 TBD
-

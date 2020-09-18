@@ -53,7 +53,7 @@ api_name:
 ## -description
 
 The <b>IKEEXT_EM_POLICY2</b> structure is used to store AuthIP's extended mode negotiation policy.
-[IKEEXT_EM_POLICY0](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_em_policy0)  is available.</div><div> </div>
+[IKEEXT_EM_POLICY0](/windows/desktop/api/iketypes/ns-iketypes-ikeext_em_policy0)  is available.</div><div> </div>
 
 ## -struct-fields
 
@@ -65,7 +65,7 @@ Type: <b>UINT32</b>
 
 ### -field authenticationMethods
 
-Type: [IKEEXT_AUTHENTICATION_METHOD2](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_authentication_method2)*</b>
+Type: [IKEEXT_AUTHENTICATION_METHOD2](/windows/desktop/api/iketypes/ns-iketypes-ikeext_authentication_method2)*</b>
 
 size_is(numAuthenticationMethods)
 
@@ -83,9 +83,8 @@ Type of impersonation.
 
 
 
-[IKEEXT_AUTHENTICATION_METHOD2](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_authentication_method2)
+[IKEEXT_AUTHENTICATION_METHOD2](/windows/desktop/api/iketypes/ns-iketypes-ikeext_authentication_method2)
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>
-
+<a href="/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>

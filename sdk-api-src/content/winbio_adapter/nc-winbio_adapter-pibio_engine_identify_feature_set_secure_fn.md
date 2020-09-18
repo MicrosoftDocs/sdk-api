@@ -70,7 +70,7 @@ Size, in bytes, of the buffer specified by the <i>Nonce</i> parameter.
 
 ### -param *KeyIdentifier
 
-Pointer to a buffer that contains an identifier for the key from a previous call to <a href="https://docs.microsoft.com/windows/desktop/api/winbio_adapter/nc-winbio_adapter-pibio_engine_create_key_fn">EngineAdapterCreateKey</a>
+Pointer to a buffer that contains an identifier for the key from a previous call to <a href="/windows/desktop/api/winbio_adapter/nc-winbio_adapter-pibio_engine_create_key_fn">EngineAdapterCreateKey</a>
 
 ### -param KeyIdentifierSize
 
@@ -78,7 +78,7 @@ Size, in bytes, of the buffer specified by the <i>KeyIdentifier</i> parameter.
 
 ### -param Identity
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/SecBioMet/winbio-identity">WINBIO_IDENTITY</a> structure that contains the SID of the template recovered from the database. This value is returned only if a match is found.
+Pointer to a <a href="/windows/desktop/SecBioMet/winbio-identity">WINBIO_IDENTITY</a> structure that contains the SID of the template recovered from the database. This value is returned only if a match is found.
 
 ### -param SubFactor
 
@@ -96,7 +96,7 @@ Size, in bytes, of the buffer specified by the <i>Authorization</i> parameter.
 
 ### -param Subfactor
 
-A <a href="https://docs.microsoft.com/windows/desktop/SecBioMet/winbio-biometric-subtype-constants">WINBIO_BIOMETRIC_SUBTYPE Constants</a> value that receives the sub-factor associated with the template in the database. See the Remarks section for more details. This value is returned only if a match is found.
+A <a href="/windows/desktop/SecBioMet/winbio-biometric-subtype-constants">WINBIO_BIOMETRIC_SUBTYPE Constants</a> value that receives the sub-factor associated with the template in the database. See the Remarks section for more details. This value is returned only if a match is found.
 
 ## -returns
 
@@ -112,7 +112,7 @@ SHA256_HMAC(Key, SHA256(Nonce || 0xffffffe2 || SHA256(AccountSid)))
 <li>
 Key
 
-Key is the HMAC key passed in by <a href="https://docs.microsoft.com/windows/desktop/api/winbio_adapter/nc-winbio_adapter-pibio_engine_create_key_fn">EngineAdapterCreateKey</a>, and identified by the <i>KeyIdentifier</i> parameter.
+Key is the HMAC key passed in by <a href="/windows/desktop/api/winbio_adapter/nc-winbio_adapter-pibio_engine_create_key_fn">EngineAdapterCreateKey</a>, and identified by the <i>KeyIdentifier</i> parameter.
 
 </li>
 <li>
@@ -130,7 +130,7 @@ A 32-bit unsigned integer in big-endian format.
 <li>
 AccountSid
 
-The account SID of the user referenced by the Identity parameter. The SID bytes can be obtained from the <a href="https://docs.microsoft.com/windows/desktop/SecBioMet/winbio-identity">WINBIO_IDENTITY</a> structure.
+The account SID of the user referenced by the Identity parameter. The SID bytes can be obtained from the <a href="/windows/desktop/SecBioMet/winbio-identity">WINBIO_IDENTITY</a> structure.
 
 </li>
 </ul>
@@ -165,4 +165,3 @@ Here is a pseudocode implementation of the SHA256 HMAC calculation:
     authorization = FinishHash(hashHandle);
 
 ```
-

@@ -54,7 +54,7 @@ Provides the methods that are used by COM handlers to notify the Task Scheduler 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITaskHandlerStatus</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITaskHandlerStatus</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITaskHandlerStatus</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITaskHandlerStatus</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ITaskHandlerStatus</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nf-taskschd-itaskhandlerstatus-taskcompleted">TaskCompleted</a>
+<a href="/windows/desktop/api/taskschd/nf-taskschd-itaskhandlerstatus-taskcompleted">TaskCompleted</a>
 </td>
 <td align="left" width="63%">
 Tells the Task Scheduler that the COM handler is completed.
@@ -78,7 +78,7 @@ Tells the Task Scheduler that the COM handler is completed.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nf-taskschd-itaskhandlerstatus-updatestatus">UpdateStatus</a>
+<a href="/windows/desktop/api/taskschd/nf-taskschd-itaskhandlerstatus-updatestatus">UpdateStatus</a>
 </td>
 <td align="left" width="63%">
 Tells the Task Scheduler about the percentage of completion of the COM handler.
@@ -89,15 +89,14 @@ Tells the Task Scheduler about the percentage of completion of the COM handler.
 
 ## -remarks
 
-For information on specifying a COM handler action, see the <a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nn-taskschd-icomhandleraction">IComHandlerAction</a> interface.
+For information on specifying a COM handler action, see the <a href="/windows/desktop/api/taskschd/nn-taskschd-icomhandleraction">IComHandlerAction</a> interface.
 
-For information on the required interfaces that must be implemented by the handler, see the  <a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nn-taskschd-itaskhandler">ITaskHandler</a> interface.
+For information on the required interfaces that must be implemented by the handler, see the  <a href="/windows/desktop/api/taskschd/nn-taskschd-itaskhandler">ITaskHandler</a> interface.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/TaskSchd/task-scheduler-start-page">Task Scheduler</a>
+<a href="/windows/desktop/TaskSchd/task-scheduler-start-page">Task Scheduler</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/TaskSchd/task-scheduler-interfaces">Task Scheduler Interfaces</a>
-
+<a href="/windows/desktop/TaskSchd/task-scheduler-interfaces">Task Scheduler Interfaces</a>

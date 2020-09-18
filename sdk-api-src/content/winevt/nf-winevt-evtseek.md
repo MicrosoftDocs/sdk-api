@@ -56,7 +56,7 @@ Seeks to a specific event in a query result set.
 
 ### -param ResultSet [in]
 
-The handle to a query result set that the <a href="https://docs.microsoft.com/windows/desktop/api/winevt/nf-winevt-evtquery">EvtQuery</a> function returns.
+The handle to a query result set that the <a href="/windows/desktop/api/winevt/nf-winevt-evtquery">EvtQuery</a> function returns.
 
 ### -param Position [in]
 
@@ -64,7 +64,7 @@ The zero-based offset to an event in the result set. The flag that you specify i
 
 ### -param Bookmark [in]
 
-A handle to a bookmark that the <a href="https://docs.microsoft.com/windows/desktop/api/winevt/nf-winevt-evtcreatebookmark">EvtCreateBookmark</a> function returns. The bookmark identifies an event in the result set to which you want to seek. Set this parameter only if the  <i>Flags</i> parameter has the EvtSeekRelativeToBookmark  flag set.
+A handle to a bookmark that the <a href="/windows/desktop/api/winevt/nf-winevt-evtcreatebookmark">EvtCreateBookmark</a> function returns. The bookmark identifies an event in the result set to which you want to seek. Set this parameter only if the  <i>Flags</i> parameter has the EvtSeekRelativeToBookmark  flag set.
 
 ### -param Timeout [in]
 
@@ -72,7 +72,7 @@ A handle to a bookmark that the <a href="https://docs.microsoft.com/windows/desk
 
 ### -param Flags [in]
 
-One or more flags that indicate the relative position in the result set from which to seek. For possible values, see the <a href="https://docs.microsoft.com/windows/desktop/api/winevt/ne-winevt-evt_seek_flags">EVT_SEEK_FLAGS</a> enumeration.
+One or more flags that indicate the relative position in the result set from which to seek. For possible values, see the <a href="/windows/desktop/api/winevt/ne-winevt-evt_seek_flags">EVT_SEEK_FLAGS</a> enumeration.
 
 ## -returns
 
@@ -101,7 +101,7 @@ The function was successful.
 </dl>
 </td>
 <td width="60%">
-The function failed. To get the error code, call the <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function.
+The function failed. To get the error code, call the <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function.
 
 </td>
 </tr>
@@ -114,15 +114,14 @@ You can use this function only on result sets from an Admin or Operational chann
 
 #### Examples
 
-For an example that shows how to use this function, see <a href="https://docs.microsoft.com/windows/desktop/WES/bookmarking-events">Bookmarking Events</a>.
+For an example that shows how to use this function, see <a href="/windows/desktop/WES/bookmarking-events">Bookmarking Events</a>.
 
 <div class="code"></div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winevt/nf-winevt-evtnext">EvtNext</a>
+<a href="/windows/desktop/api/winevt/nf-winevt-evtnext">EvtNext</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winevt/nf-winevt-evtquery">EvtQuery</a>
-
+<a href="/windows/desktop/api/winevt/nf-winevt-evtquery">EvtQuery</a>

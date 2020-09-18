@@ -60,7 +60,7 @@ A pointer to the <a href="/windows/win32/api/callobj/ns-callobj-callframe_marsha
 
 ### -param mshlflags [in]
 
-Flag indicating whether the data to be marshaled is to be transmitted back to the client process - the normal case - or written to a global table, where it can be retrieved by multiple clients. The possible values are from the <a href="https://docs.microsoft.com/windows/desktop/api/wtypesbase/ne-wtypesbase-mshlflags">MSHLFLAGS</a> enumeration.
+Flag indicating whether the data to be marshaled is to be transmitted back to the client process - the normal case - or written to a global table, where it can be retrieved by multiple clients. The possible values are from the <a href="/windows/desktop/api/wtypesbase/ne-wtypesbase-mshlflags">MSHLFLAGS</a> enumeration.
 
 ### -param pBuffer [in]
 
@@ -76,11 +76,11 @@ Receives the size of the buffer that was actually used. This parameter is option
 
 ### -param pdataRep [out]
 
-Receives the NDR data representation with which the data was marshaled. This parameter is optional. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-irpcchannelbuffer-getbuffer">IRpcChannelBuffer::GetBuffer</a>.
+Receives the NDR data representation with which the data was marshaled. This parameter is optional. For more information, see <a href="/windows/desktop/api/objidl/nf-objidl-irpcchannelbuffer-getbuffer">IRpcChannelBuffer::GetBuffer</a>.
 
 ### -param prpcFlags [out]
 
-Receives an RPC flag associated with the call. This parameter is optional. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-irpcchannelbuffer-getbuffer">IRpcChannelBuffer::GetBuffer</a>.
+Receives an RPC flag associated with the call. This parameter is optional. For more information, see <a href="/windows/desktop/api/objidl/nf-objidl-irpcchannelbuffer-getbuffer">IRpcChannelBuffer::GetBuffer</a>.
 
 ## -returns
 
@@ -123,5 +123,4 @@ If this method returns an error, the caller will not be able to clean it up. Res
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/callobj/nn-callobj-icallframe">ICallFrame</a>
-
+<a href="/windows/desktop/api/callobj/nn-callobj-icallframe">ICallFrame</a>

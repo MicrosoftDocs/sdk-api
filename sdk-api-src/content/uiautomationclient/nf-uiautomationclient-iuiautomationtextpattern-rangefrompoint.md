@@ -56,19 +56,19 @@ Retrieves the degenerate (empty) text range nearest to the specified screen coor
 
 ### -param pt [in]
 
-Type: <b><a href="https://docs.microsoft.com/previous-versions/dd162805(v=vs.85)">POINT</a></b>
+Type: <b><a href="/previous-versions/dd162805(v=vs.85)">POINT</a></b>
 
 A structure that contains the location, in screen coordinates.
 
 ### -param range [out, retval]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationtextrange">IUIAutomationTextRange</a>**</b>
+Type: <b><a href="/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationtextrange">IUIAutomationTextRange</a>**</b>
 
 Receives a pointer to the degenerate text range nearest the specified location.
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
@@ -81,16 +81,15 @@ Because hidden text is not ignored, this method retrieves a degenerate range fro
 The implementation of <b>RangeFromPoint</b> in Windows Internet Explorer 9 does not return the expected result. Instead, clients should:
 
 <ol>
-<li>Call the <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationtextpattern-getvisibleranges">GetVisibleRanges</a> method to retrieve an array of visible text ranges.</li>
-<li>For each text range in the array, call <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationtextrange-getboundingrectangles">IUIAutomationTextRange::GetBoundingRectangles</a> to retrieve the bounding rectangles.</li>
+<li>Call the <a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationtextpattern-getvisibleranges">GetVisibleRanges</a> method to retrieve an array of visible text ranges.</li>
+<li>For each text range in the array, call <a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationtextrange-getboundingrectangles">IUIAutomationTextRange::GetBoundingRectangles</a> to retrieve the bounding rectangles.</li>
 <li>Check the bounding rectangles to find the text range that occupies the particular screen coordinates. </li>
 </ol>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationtextpattern">IUIAutomationTextPattern</a>
+<a href="/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationtextpattern">IUIAutomationTextPattern</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-ui-automation-textpattern-overview">UI Automation Support for Textual Content</a>
-
+<a href="/windows/desktop/WinAuto/uiauto-ui-automation-textpattern-overview">UI Automation Support for Textual Content</a>

@@ -55,13 +55,13 @@ The <code>IDistributorNotify</code> interface enables a plug-in distributor to b
 
 Applications never use this interface. Implement this interface if you are writing a plug-in distributor (PID) and want the PID to receive notifications of control and changes in the composition of filter graphs.
 
-The Filter Graph Manager queries for this interface on any plug-in distributors that it aggregates. If a PID exposes this interface, the Filter Graph Manager notifies the PID of any state changes by calling <b>IDistributorNotify</b> methods before calling the equivalent <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ibasefilter">IBaseFilter</a> methods on the filters. The Filter Graph Manager also calls the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idistributornotify-notifygraphchange">IDistributorNotify::NotifyGraphChange</a> method whenever it adds or removes a filter, or any pin connections change.
+The Filter Graph Manager queries for this interface on any plug-in distributors that it aggregates. If a PID exposes this interface, the Filter Graph Manager notifies the PID of any state changes by calling <b>IDistributorNotify</b> methods before calling the equivalent <a href="/windows/desktop/api/strmif/nn-strmif-ibasefilter">IBaseFilter</a> methods on the filters. The Filter Graph Manager also calls the <a href="/windows/desktop/api/strmif/nf-strmif-idistributornotify-notifygraphchange">IDistributorNotify::NotifyGraphChange</a> method whenever it adds or removes a filter, or any pin connections change.
 
 During a call to any <b>IDistributorNotify</b> method, do not hold any critical section that might be held by another code path that calls methods on the Filter Graph Manager. Doing so could result in a deadlock.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDistributorNotify</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDistributorNotify</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDistributorNotify</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDistributorNotify</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -76,7 +76,7 @@ The <b>IDistributorNotify</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idistributornotify-notifygraphchange">NotifyGraphChange</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-idistributornotify-notifygraphchange">NotifyGraphChange</a>
 </td>
 <td align="left" width="63%">
 Called when the set of filters in the filter graph change or their connections change.
@@ -85,7 +85,7 @@ Called when the set of filters in the filter graph change or their connections c
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idistributornotify-pause">Pause</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-idistributornotify-pause">Pause</a>
 </td>
 <td align="left" width="63%">
 Called when the filter graph is entering a paused state.
@@ -94,7 +94,7 @@ Called when the filter graph is entering a paused state.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idistributornotify-run">Run</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-idistributornotify-run">Run</a>
 </td>
 <td align="left" width="63%">
 Called when the filter graph is entering a running state.
@@ -103,7 +103,7 @@ Called when the filter graph is entering a running state.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idistributornotify-setsyncsource">SetSyncSource</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-idistributornotify-setsyncsource">SetSyncSource</a>
 </td>
 <td align="left" width="63%">
 Called when a new clock is registered.
@@ -112,7 +112,7 @@ Called when a new clock is registered.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idistributornotify-stop">Stop</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-idistributornotify-stop">Stop</a>
 </td>
 <td align="left" width="63%">
 Called when the filter graph is entering a stopped state.
@@ -123,5 +123,4 @@ Called when the filter graph is entering a stopped state.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/plug-in-distributors">Plug-in Distributors</a>
-
+<a href="/windows/desktop/DirectShow/plug-in-distributors">Plug-in Distributors</a>

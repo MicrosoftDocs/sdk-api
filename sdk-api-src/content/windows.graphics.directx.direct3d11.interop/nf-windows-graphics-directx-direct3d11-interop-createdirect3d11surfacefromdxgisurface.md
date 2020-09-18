@@ -72,7 +72,7 @@ If the function succeeds, it returns **S_OK**. Otherwise, it returns an [**HRESU
 
 ## -remarks
 
-While we recommend [C++/WinRT](/windows/uwp/cpp-and-winrt-apis/index), if you're using C++/CX then you should call [CreateDirect3DSurface](https://docs.microsoft.com/en-us/windows/win32/api/windows.graphics.directx.direct3d11.interop/nf-windows-graphics-directx-direct3d11-interop-createdirect3dsurface) instead of **CreateDirect3D11DeviceFromDXGIDevice**. If you're using WRL then **CreateDirect3D11DeviceFromDXGIDevice** can be used as shown in this code example.
+While we recommend [C++/WinRT](/windows/uwp/cpp-and-winrt-apis/index), if you're using C++/CX then you should call [CreateDirect3DSurface](./nf-windows-graphics-directx-direct3d11-interop-createdirect3dsurface.md) instead of **CreateDirect3D11DeviceFromDXGIDevice**. If you're using WRL then **CreateDirect3D11DeviceFromDXGIDevice** can be used as shown in this code example.
 
 ```cpp
 using namespace Microsoft::WRL;
@@ -87,4 +87,3 @@ If (SUCCEEDED(CreateDirect3D11SurfaceFromDXGISurface(dxgiSurface, &inspectableSu
 ## -see-also
 
 [Core functions](/windows/desktop/direct3d11/d3d11-graphics-reference-d3d11-core-functions)
-

@@ -84,5 +84,4 @@ A system restart is needed because the current process must be shut down.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/restartmanager/nf-restartmanager-rmgetlist">RmGetList</a>
-
+<a href="/windows/desktop/api/restartmanager/nf-restartmanager-rmgetlist">RmGetList</a>

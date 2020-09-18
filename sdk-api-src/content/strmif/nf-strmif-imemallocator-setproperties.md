@@ -57,7 +57,7 @@ The <code>SetProperties</code> method specifies the number of buffers to allocat
 
 ### -param pRequest
 
-Pointer to an [ALLOCATOR_PROPERTIES](https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-allocator_properties) structure that contains the buffer requirements.
+Pointer to an [ALLOCATOR_PROPERTIES](/windows/desktop/api/strmif/ns-strmif-allocator_properties) structure that contains the buffer requirements.
 
 ### -param pActual
 
@@ -131,7 +131,7 @@ One or more buffers are still active.
 
 ## -remarks
 
-This method specifies the buffer requirements, but does not allocate any buffers. Call the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-imemallocator-commit">IMemAllocator::Commit</a> method to allocate buffers.
+This method specifies the buffer requirements, but does not allocate any buffers. Call the <a href="/windows/desktop/api/strmif/nf-strmif-imemallocator-commit">IMemAllocator::Commit</a> method to allocate buffers.
 
 The caller allocates two ALLOCATOR_PROPERTIES structures. The <i>pRequest</i> parameter contains the caller's buffer requirements, including the number of buffers and the size of each buffer. When the method returns, the <i>pActual</i> parameter contains the actual buffer properties, as set by the allocator.
 
@@ -139,9 +139,8 @@ When this method is called, the allocator must not be committed or have outstand
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-imemallocator">IMemAllocator Interface</a>
-
+<a href="/windows/desktop/api/strmif/nn-strmif-imemallocator">IMemAllocator Interface</a>

@@ -53,33 +53,33 @@ api_name:
 Creates a static object, that contains only a representation, with no native data, from a data transfer object.
 
 
-<div class="alert"><b>Note</b>  The OLESTREAM to <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istorage">IStorage</a> conversion functions also convert static objects.</div><div> </div>
+<div class="alert"><b>Note</b>  The OLESTREAM to <a href="/windows/desktop/api/objidl/nn-objidl-istorage">IStorage</a> conversion functions also convert static objects.</div><div> </div>
 
 ## -parameters
 
 ### -param pSrcDataObj [in]
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a> interface on the data transfer object that holds the data from which the object will be created.
+Pointer to the <a href="/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a> interface on the data transfer object that holds the data from which the object will be created.
 
 ### -param iid [in]
 
-Reference to the identifier of the interface with which the caller is to communicate with the new object (usually IID_IOleObject, defined in the OLE headers as the interface identifier for <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-ioleobject">IOleObject</a>).
+Reference to the identifier of the interface with which the caller is to communicate with the new object (usually IID_IOleObject, defined in the OLE headers as the interface identifier for <a href="/windows/desktop/api/oleidl/nn-oleidl-ioleobject">IOleObject</a>).
 
 ### -param renderopt [in]
 
-Value from the enumeration <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/ne-oleidl-olerender">OLERENDER</a> indicating the locally cached drawing or data-retrieval capabilities that the container wants in the newly created component. It is an error to pass the render options OLERENDER_NONE or OLERENDER_ASIS to this function.
+Value from the enumeration <a href="/windows/desktop/api/oleidl/ne-oleidl-olerender">OLERENDER</a> indicating the locally cached drawing or data-retrieval capabilities that the container wants in the newly created component. It is an error to pass the render options OLERENDER_NONE or OLERENDER_ASIS to this function.
 
 ### -param pFormatEtc [in]
 
-Depending on which of the <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/ne-oleidl-olerender">OLERENDER</a> flags is used as the value of <i>renderopt</i>, may be a pointer to one of the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-formatetc">FORMATETC</a> enumeration values. Refer to the <b>OLERENDER</b> enumeration for restrictions.
+Depending on which of the <a href="/windows/desktop/api/oleidl/ne-oleidl-olerender">OLERENDER</a> flags is used as the value of <i>renderopt</i>, may be a pointer to one of the <a href="/windows/desktop/api/objidl/ns-objidl-formatetc">FORMATETC</a> enumeration values. Refer to the <b>OLERENDER</b> enumeration for restrictions.
 
 ### -param pClientSite [in]
 
-Pointer to an instance of <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-ioleclientsite">IOleClientSite</a>, the primary interface through which the object will request services from its container. This parameter can be <b>NULL</b>.
+Pointer to an instance of <a href="/windows/desktop/api/oleidl/nn-oleidl-ioleclientsite">IOleClientSite</a>, the primary interface through which the object will request services from its container. This parameter can be <b>NULL</b>.
 
 ### -param pStg [in]
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istorage">IStorage</a> interface for storage for the object. This parameter cannot be <b>NULL</b>.
+Pointer to the <a href="/windows/desktop/api/objidl/nn-objidl-istorage">IStorage</a> interface for storage for the object. This parameter cannot be <b>NULL</b>.
 
 ### -param ppvObj [out]
 
@@ -91,7 +91,7 @@ This function returns S_OK on success.
 
 ## -remarks
 
-The <b>OleCreateStaticFromData</b> function can convert any object, as long as it provides an <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a> interface, to a static object. It is useful in implementing the Convert To Picture option for OLE linking or embedding.
+The <b>OleCreateStaticFromData</b> function can convert any object, as long as it provides an <a href="/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a> interface, to a static object. It is useful in implementing the Convert To Picture option for OLE linking or embedding.
 
 
 
@@ -99,11 +99,11 @@ Static objects can be created only if the source supports one of the OLE-rendere
 
 
 
-You can also call <b>OleCreateStaticFromData</b> to paste a static object from the clipboard. To determine whether an object is static, call the <a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-olequerycreatefromdata">OleQueryCreateFromData</a> function, which returns OLE_S_STATIC if one of CF_METAFILEPICT, CF_DIB,  CF_BITMAP, or CF_ENHMETAFILE is present and an OLE format is not present. This indicates that you should call <b>OleCreateStaticFromData</b> rather than the <a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-olecreatefromdata">OleCreateFromData</a> function to create the object.
+You can also call <b>OleCreateStaticFromData</b> to paste a static object from the clipboard. To determine whether an object is static, call the <a href="/windows/desktop/api/ole2/nf-ole2-olequerycreatefromdata">OleQueryCreateFromData</a> function, which returns OLE_S_STATIC if one of CF_METAFILEPICT, CF_DIB,  CF_BITMAP, or CF_ENHMETAFILE is present and an OLE format is not present. This indicates that you should call <b>OleCreateStaticFromData</b> rather than the <a href="/windows/desktop/api/ole2/nf-ole2-olecreatefromdata">OleCreateFromData</a> function to create the object.
 
 
 
-The new static object is of class CLSID_StaticMetafile in the case of CF_METAFILEPICT, CLSID_StaticDib in the case of CF_DIB or CF_BITMAP, or CLSID_Picture_EnhMetafile in the case of CF_ENHMETAFILE. The static object sets the OLEMISC_STATIC and OLE_CANTLINKINSIDE bits returned from <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleobject-getmiscstatus">IOleObject::GetMiscStatus</a>. The static object will have the aspect DVASPECT_CONTENT and a LINDEX of -1.
+The new static object is of class CLSID_StaticMetafile in the case of CF_METAFILEPICT, CLSID_StaticDib in the case of CF_DIB or CF_BITMAP, or CLSID_Picture_EnhMetafile in the case of CF_ENHMETAFILE. The static object sets the OLEMISC_STATIC and OLE_CANTLINKINSIDE bits returned from <a href="/windows/desktop/api/oleidl/nf-oleidl-ioleobject-getmiscstatus">IOleObject::GetMiscStatus</a>. The static object will have the aspect DVASPECT_CONTENT and a LINDEX of -1.
 
 The <i>pSrcDataObject</i> is still valid after <b>OleCreateStaticFromData</b> returns. It is the caller's responsibility to free <i>pSrcDataObject</i> - OLE does not release it.
 
@@ -113,5 +113,4 @@ There cannot be more than one presentation stream in a static object.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-olecreatefromdata">OleCreateFromData</a>
-
+<a href="/windows/desktop/api/ole2/nf-ole2-olecreatefromdata">OleCreateFromData</a>

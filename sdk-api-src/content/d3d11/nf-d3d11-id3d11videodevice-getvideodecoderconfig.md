@@ -56,15 +56,15 @@ Gets a decoder configuration that is supported by the driver.
 
 ### -param pDesc [in]
 
-A pointer to a  <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_video_decoder_desc">D3D11_VIDEO_DECODER_DESC</a> structure that describes the video stream.
+A pointer to a  <a href="/windows/desktop/api/d3d11/ns-d3d11-d3d11_video_decoder_desc">D3D11_VIDEO_DECODER_DESC</a> structure that describes the video stream.
 
 ### -param Index [in]
 
-The zero-based index of the decoder configuration. To get the number of configurations that the driver supports, call <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11videodevice-getvideodecoderconfigcount">ID3D11VideoDevice::GetVideoDecoderConfigCount</a>.
+The zero-based index of the decoder configuration. To get the number of configurations that the driver supports, call <a href="/windows/desktop/api/d3d11/nf-d3d11-id3d11videodevice-getvideodecoderconfigcount">ID3D11VideoDevice::GetVideoDecoderConfigCount</a>.
 
 ### -param pConfig [out]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_video_decoder_config">D3D11_VIDEO_DECODER_CONFIG</a> structure. The method fills in the structure with the decoder configuration.
+A pointer to a <a href="/windows/desktop/api/d3d11/ns-d3d11-d3d11_video_decoder_config">D3D11_VIDEO_DECODER_CONFIG</a> structure. The method fills in the structure with the decoder configuration.
 
 ## -returns
 
@@ -72,5 +72,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11videodevice">ID3D11VideoDevice</a>
-
+<a href="/windows/desktop/api/d3d11/nn-d3d11-id3d11videodevice">ID3D11VideoDevice</a>

@@ -104,7 +104,7 @@ The system is out of memory.
  
 
 <div class="alert"><b>Note</b>  For a list of valid error codes, see 
-<a href="https://docs.microsoft.com/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
+<a href="/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
 <div> </div>
 
 ## -remarks
@@ -112,22 +112,21 @@ The system is out of memory.
 <b>RpcSsSwapClientAllocFree</b> exchanges the current memory allocation and memory freeing mechanisms with those supplied by the client.
 
 <div class="alert"><b>Note</b>  <b>RpcSsSwapClientAllocFree</b> raises exceptions, unlike 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcndr/nf-rpcndr-rpcsmswapclientallocfree">RpcSmSwapClientAllocFree</a>, which returns the error code.</div>
+<a href="/windows/desktop/api/rpcndr/nf-rpcndr-rpcsmswapclientallocfree">RpcSmSwapClientAllocFree</a>, which returns the error code.</div>
 <div> </div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcndr/nf-rpcndr-rpcsmswapclientallocfree">RpcSmSwapClientAllocFree</a>
+<a href="/windows/desktop/api/rpcndr/nf-rpcndr-rpcsmswapclientallocfree">RpcSmSwapClientAllocFree</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcndr/nf-rpcndr-rpcssallocate">RpcSsAllocate</a>
+<a href="/windows/desktop/api/rpcndr/nf-rpcndr-rpcssallocate">RpcSsAllocate</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcndr/nf-rpcndr-rpcssfree">RpcSsFree</a>
+<a href="/windows/desktop/api/rpcndr/nf-rpcndr-rpcssfree">RpcSsFree</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcndr/nf-rpcndr-rpcsssetclientallocfree">RpcSsSetClientAllocFree</a>
-
+<a href="/windows/desktop/api/rpcndr/nf-rpcndr-rpcsssetclientallocfree">RpcSsSetClientAllocFree</a>

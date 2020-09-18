@@ -138,7 +138,7 @@ The high bits (24â€“31) of the base address of the segment.
 ## -remarks
 
 The 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getthreadselectorentry">GetThreadSelectorEntry</a> function fills this structure with information from an entry in the descriptor table. You can use this information to convert a segment-relative address to a linear virtual address.
+<a href="/windows/desktop/api/winbase/nf-winbase-getthreadselectorentry">GetThreadSelectorEntry</a> function fills this structure with information from an entry in the descriptor table. You can use this information to convert a segment-relative address to a linear virtual address.
 
 The base address of a segment is the address of offset 0 in the segment. To calculate this value, combine the <b>BaseLow</b>, <b>BaseMid</b>, and <b>BaseHi</b> members.
 
@@ -146,9 +146,8 @@ The limit of a segment is the address of the last byte that can be addressed in 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Debug/debugging-structures">Debugging Structures</a>
+<a href="/windows/desktop/Debug/debugging-structures">Debugging Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getthreadselectorentry">GetThreadSelectorEntry</a>
-
+<a href="/windows/desktop/api/winbase/nf-winbase-getthreadselectorentry">GetThreadSelectorEntry</a>

@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Performs caller-implemented actions after the last operation performed by the call to <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifileoperation">IFileOperation</a> is complete.
+Performs caller-implemented actions after the last operation performed by the call to <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifileoperation">IFileOperation</a> is complete.
 
 ## -parameters
 
@@ -58,11 +58,10 @@ Performs caller-implemented actions after the last operation performed by the ca
 
 Type: <b>HRESULT</b>
 
-The return value of the final operation. Note that this is not the HRESULT returned by one of the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifileoperation">IFileOperation</a> methods, which simply queue the operations. Instead, this is the result of the actual operation, such as copy, delete, or move.
+The return value of the final operation. Note that this is not the HRESULT returned by one of the <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifileoperation">IFileOperation</a> methods, which simply queue the operations. Instead, this is the result of the actual operation, such as copy, delete, or move.
 
 ## -returns
 
 Type: <b>HRESULT</b>
 
 Not used.
-

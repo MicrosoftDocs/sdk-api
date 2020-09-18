@@ -70,7 +70,7 @@ Reserved for future use. This member must be <b>NULL</b>.
 
 ### -field securityDescriptor
 
-A string representation of a security descriptor used to specify the domain users and groups that have access to the resource. For more information about security descriptor strings, see <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/security-descriptor-string-format">Security Descriptor String Format</a>.
+A string representation of a security descriptor used to specify the domain users and groups that have access to the resource. For more information about security descriptor strings, see <a href="/windows/desktop/SecAuthZ/security-descriptor-string-format">Security Descriptor String Format</a>.
 
 ### -field pceFolderListSize
 
@@ -78,7 +78,7 @@ The number of strings in the <b>folderList</b> array.
 
 ### -field folderList
 
-An array of pointers to null-terminated strings that contain the names of the folders that the resource should be displayed in. You must use the <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemalloc">CoTaskMemAlloc</a> function to allocate these strings. The caller is responsible for freeing these strings.
+An array of pointers to null-terminated strings that contain the names of the folders that the resource should be displayed in. You must use the <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemalloc">CoTaskMemAlloc</a> function to allocate these strings. The caller is responsible for freeing these strings.
 
 ## -remarks
 
@@ -88,13 +88,12 @@ The <b>pluginFolderName</b> type is defined as follows:
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tspubplugin2com/nf-tspubplugin2com-itspubplugin2-getresource2">GetResource2</a>
+<a href="/windows/desktop/api/tspubplugin2com/nf-tspubplugin2com-itspubplugin2-getresource2">GetResource2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tspubplugin2com/nf-tspubplugin2com-itspubplugin2-getresource2list">GetResource2List</a>
+<a href="/windows/desktop/api/tspubplugin2com/nf-tspubplugin2com-itspubplugin2-getresource2list">GetResource2List</a>
 
 
 
 <a href="/windows/win32/api/tspubplugincom/ns-tspubplugincom-pluginresource">pluginResource</a>
-

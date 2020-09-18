@@ -56,7 +56,7 @@ Advances the position of the enumerator to the next &lt;MainPackageDependency&gt
 
 ### -param hasNext [out, retval]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BOOL</a>*</b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">BOOL</a>*</b>
 
 <b>TRUE</b> if the enumerator successfully advances
 
@@ -73,5 +73,4 @@ If the method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an error c
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxmanifestmainpackagedependenciesenumerator">IAppxManifestMainPackageDependenciesEnumerator</a>
-
+<a href="/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxmanifestmainpackagedependenciesenumerator">IAppxManifestMainPackageDependenciesEnumerator</a>

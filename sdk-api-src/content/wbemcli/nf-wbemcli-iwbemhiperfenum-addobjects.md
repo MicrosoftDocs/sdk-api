@@ -81,5 +81,4 @@ If an identifier already exists, <b>WBEM_E_FAILED</b> is returned. The refresher
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nn-wbemcli-iwbemhiperfenum">IWbemHiPerfEnum</a>
-
+<a href="/windows/desktop/api/wbemcli/nn-wbemcli-iwbemhiperfenum">IWbemHiPerfEnum</a>

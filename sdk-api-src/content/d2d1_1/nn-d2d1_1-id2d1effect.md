@@ -54,7 +54,7 @@ Represents a basic image-processing construct in Direct2D.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID2D1Effect</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1properties">ID2D1Properties</a>. <b>ID2D1Effect</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID2D1Effect</b> interface inherits from <a href="/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1properties">ID2D1Properties</a>. <b>ID2D1Effect</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ID2D1Effect</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1effect-getinput">GetInput</a>
+<a href="/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1effect-getinput">GetInput</a>
 </td>
 <td align="left" width="63%">
 Gets the given input image by index. 
@@ -78,7 +78,7 @@ Gets the given input image by index.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1effect-getinputcount">GetInputCount</a>
+<a href="/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1effect-getinputcount">GetInputCount</a>
 </td>
 <td align="left" width="63%">
 Gets the number of inputs to the effect. 
@@ -87,7 +87,7 @@ Gets the number of inputs to the effect.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1effect-getoutput">GetOutput</a>
+<a href="/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1effect-getoutput">GetOutput</a>
 </td>
 <td align="left" width="63%">
 Gets the output image from the effect. 
@@ -96,7 +96,7 @@ Gets the output image from the effect.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1effect-setinput">SetInput</a>
+<a href="/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1effect-setinput">SetInput</a>
 </td>
 <td align="left" width="63%">
 Sets the given input image by index. 
@@ -105,7 +105,7 @@ Sets the given input image by index.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1effect-setinputcount">SetInputCount</a>
+<a href="/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1effect-setinputcount">SetInputCount</a>
 </td>
 <td align="left" width="63%">
 Allows the application to change the number of inputs to an effect.
@@ -114,7 +114,7 @@ Allows the application to change the number of inputs to an effect.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1effect-setinputeffect">SetInputEffect</a>
+<a href="/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1effect-setinputeffect">SetInputEffect</a>
 </td>
 <td align="left" width="63%">
 Sets the given input effect by index. 
@@ -129,9 +129,8 @@ An effect takes zero or more input images, and has an output image. The images t
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1devicecontext-createeffect">ID2D1DeviceContext::CreateEffect</a>
+<a href="/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1devicecontext-createeffect">ID2D1DeviceContext::CreateEffect</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1properties">ID2D1Properties</a>
-
+<a href="/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1properties">ID2D1Properties</a>

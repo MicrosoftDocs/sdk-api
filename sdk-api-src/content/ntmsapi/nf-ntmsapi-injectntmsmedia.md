@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[<a href="https://docs.microsoft.com/previous-versions/windows/desktop/bb540725(v=vs.85)">Removable Storage Manager</a> is no longer available as of Windows 7 and  Windows Server 2008 R2.]
+<p class="CCE_Message">[<a href="/previous-versions/windows/desktop/bb540725(v=vs.85)">Removable Storage Manager</a> is no longer available as of Windows 7 and  Windows Server 2008 R2.]
 
 The 
 <b>InjectNtmsMedia</b> function allows media to be inserted into the port of the specified library. If the library is busy, RSM queues 
@@ -61,7 +61,7 @@ The
 ### -param hSession [in]
 
 Handle to the session returned by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/nf-ntmsapi-openntmssessiona">OpenNtmsSession</a> function.
+<a href="/windows/desktop/api/ntmsapi/nf-ntmsapi-openntmssessiona">OpenNtmsSession</a> function.
 
 ### -param lpLibraryId [in]
 
@@ -251,7 +251,7 @@ This function returns to the application as soon as the insert request is queued
 
 If the library specified by the 
 <b>InjectNtmsMedia</b> function does not have a port, use the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/nf-ntmsapi-accessntmslibrarydoor">AccessNtmsLibraryDoor</a> function to insert and eject media.
+<a href="/windows/desktop/api/ntmsapi/nf-ntmsapi-accessntmslibrarydoor">AccessNtmsLibraryDoor</a> function to insert and eject media.
 
 This function cannot be used with the offline library.
 
@@ -271,9 +271,8 @@ If there are no free slots, the
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/nf-ntmsapi-ejectntmsmedia">EjectNtmsMedia</a>
+<a href="/windows/desktop/api/ntmsapi/nf-ntmsapi-ejectntmsmedia">EjectNtmsMedia</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/rsm/removable-storage-manager-functions">Library Control Functions</a>
-
+<a href="/previous-versions/windows/desktop/rsm/removable-storage-manager-functions">Library Control Functions</a>

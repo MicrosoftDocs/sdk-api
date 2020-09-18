@@ -64,17 +64,16 @@ The table properties.
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 If the method succeeds, it returns <b>NOERROR</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 
-To select the table when the insertion point is inside a table, call <a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange-expand">ITextRange::Expand</a>(tomTable). 
+To select the table when the insertion point is inside a table, call <a href="/windows/desktop/api/tom/nf-tom-itextrange-expand">ITextRange::Expand</a>(tomTable). 
 
-Note: this method isn't implemented in RichEdit (see <a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextrow">ITextRow</a> for table functionality).
+Note: this method isn't implemented in RichEdit (see <a href="/windows/desktop/api/tom/nn-tom-itextrow">ITextRow</a> for table functionality).
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextrange2">ITextRange2</a>
-
+<a href="/windows/desktop/api/tom/nn-tom-itextrange2">ITextRange2</a>

@@ -51,13 +51,13 @@ api_name:
 
 ## -description
 
-Queries the status of an earlier call to the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfshutdown-shutdown">IMFShutdown::Shutdown</a> method.
+Queries the status of an earlier call to the <a href="/windows/desktop/api/mfidl/nf-mfidl-imfshutdown-shutdown">IMFShutdown::Shutdown</a> method.
 
 ## -parameters
 
 ### -param pStatus [out]
 
-Receives a member of the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/ne-mfidl-mfshutdown_status">MFSHUTDOWN_STATUS</a> enumeration.
+Receives a member of the <a href="/windows/desktop/api/mfidl/ne-mfidl-mfshutdown_status">MFSHUTDOWN_STATUS</a> enumeration.
 
 ## -returns
 
@@ -99,7 +99,7 @@ Invalid argument.
 </dl>
 </td>
 <td width="60%">
-The <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfshutdown-shutdown">Shutdown</a> method has not been called on this object.
+The <a href="/windows/desktop/api/mfidl/nf-mfidl-imfshutdown-shutdown">Shutdown</a> method has not been called on this object.
               
 
 </td>
@@ -108,11 +108,10 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfsh
 
 ## -remarks
 
-Until <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfshutdown-shutdown">Shutdown</a> is called, the <b>GetShutdownStatus</b> method returns <b>MF_E_INVALIDREQUEST</b>.
+Until <a href="/windows/desktop/api/mfidl/nf-mfidl-imfshutdown-shutdown">Shutdown</a> is called, the <b>GetShutdownStatus</b> method returns <b>MF_E_INVALIDREQUEST</b>.
 
-If an object's <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfshutdown-shutdown">Shutdown</a> method is asynchronous, <i>pStatus</i> might receive the value <b>MFSHUTDOWN_INITIATED</b>. When the object is completely shut down, <i>pStatus</i> receives the value <b>MFSHUTDOWN_COMPLETED</b>.
+If an object's <a href="/windows/desktop/api/mfidl/nf-mfidl-imfshutdown-shutdown">Shutdown</a> method is asynchronous, <i>pStatus</i> might receive the value <b>MFSHUTDOWN_INITIATED</b>. When the object is completely shut down, <i>pStatus</i> receives the value <b>MFSHUTDOWN_COMPLETED</b>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfshutdown">IMFShutdown</a>
-
+<a href="/windows/desktop/api/mfidl/nn-mfidl-imfshutdown">IMFShutdown</a>

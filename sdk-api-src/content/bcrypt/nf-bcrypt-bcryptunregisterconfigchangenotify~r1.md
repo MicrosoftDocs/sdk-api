@@ -44,14 +44,14 @@ api_name:
 
 ## -description
 
-The <b>BCryptUnregisterConfigChangeNotify(PRKEVENT)</b> function removes a kernel mode CNG configuration change event handler that was created by using the <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/nf-bcrypt-bcryptregisterconfigchangenotify">BCryptRegisterConfigChangeNotify(PRKEVENT)</a> function.
+The <b>BCryptUnregisterConfigChangeNotify(PRKEVENT)</b> function removes a kernel mode CNG configuration change event handler that was created by using the <a href="/windows/desktop/api/bcrypt/nf-bcrypt-bcryptregisterconfigchangenotify">BCryptRegisterConfigChangeNotify(PRKEVENT)</a> function.
 
 ## -parameters
 
 ### -param hEvent
 
 The pointer to the event dispatcher object to remove. 
-This is the pointer that was obtained by using the <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/nf-bcrypt-bcryptregisterconfigchangenotify">BCryptRegisterConfigChangeNotify(PRKEVENT)</a> function.
+This is the pointer that was obtained by using the <a href="/windows/desktop/api/bcrypt/nf-bcrypt-bcryptregisterconfigchangenotify">BCryptRegisterConfigChangeNotify(PRKEVENT)</a> function.
 
 ## -returns
 
@@ -105,9 +105,8 @@ A memory allocation failure occurred.
 ## -remarks
 
 <b>BCryptUnregisterConfigChangeNotify(PRKEVENT)</b> can be called only in kernel mode and at <b>PASSIVE_LEVEL</b> IRQL. 
-Code executing in user mode must call <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/nf-bcrypt-bcryptregisterconfigchangenotify">BCryptUnregisterConfigChangeNotify(HANDLE)</a>.
+Code executing in user mode must call <a href="/windows/desktop/api/bcrypt/nf-bcrypt-bcryptregisterconfigchangenotify">BCryptUnregisterConfigChangeNotify(HANDLE)</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/nf-bcrypt-bcryptregisterconfigchangenotify">BCryptRegisterConfigChangeNotify(PRKEVENT)</a>
-
+<a href="/windows/desktop/api/bcrypt/nf-bcrypt-bcryptregisterconfigchangenotify">BCryptRegisterConfigChangeNotify(PRKEVENT)</a>

@@ -51,9 +51,8 @@ api_name:
 ## -description
 
 Used to set and obtain data on event class objects.
-This interface extends the <a href="https://docs.microsoft.com/windows/desktop/api/eventsys/nn-eventsys-ieventclass">IEventClass</a> interface.
+This interface extends the <a href="/windows/desktop/api/eventsys/nn-eventsys-ieventclass">IEventClass</a> interface.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/eventsys/nn-eventsys-ieventclass">IEventClass</a>
-
+<a href="/windows/desktop/api/eventsys/nn-eventsys-ieventclass">IEventClass</a>

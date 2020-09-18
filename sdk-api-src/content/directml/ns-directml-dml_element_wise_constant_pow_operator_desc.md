@@ -76,11 +76,10 @@ An optional pointer to a constant [DML_SCALE_BIAS](/windows/desktop/api/directml
 
 ### -field Exponent
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">FLOAT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">FLOAT</a></b>
 
 The exponent to which to raise the input.
 
 ## -see-also
 
 [DML_ELEMENT_WISE_POW_OPERATOR_DESC<](/windows/desktop/api/directml/ns-directml-dml_element_wise_pow_operator_desc)
-

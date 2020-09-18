@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Specifies the threading and apartment type for a new <a href="https://docs.microsoft.com/uwp/api/windows.system.dispatcherqueuecontroller">DispatcherQueueController</a>.
+Specifies the threading and apartment type for a new <a href="/uwp/api/windows.system.dispatcherqueuecontroller">DispatcherQueueController</a>.
 
 ## -struct-fields
 
@@ -60,7 +60,7 @@ Size of this <b>DispatcherQueueOptions</b> structure.
 
 ### -field threadType
 
-Thread affinity for the created <a href="https://docs.microsoft.com/uwp/api/windows.system.dispatcherqueuecontroller">DispatcherQueueController</a>.
+Thread affinity for the created <a href="/uwp/api/windows.system.dispatcherqueuecontroller">DispatcherQueueController</a>.
 
 ### -field apartmentType
 
@@ -72,5 +72,4 @@ Introduced in Windows 10, version 1709.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dispatcherqueue/nf-dispatcherqueue-createdispatcherqueuecontroller">CreateDispatcherQueueController</a>
-
+<a href="/windows/desktop/api/dispatcherqueue/nf-dispatcherqueue-createdispatcherqueuecontroller">CreateDispatcherQueueController</a>

@@ -56,8 +56,8 @@ api_name:
 
 The 
 <b>LINEPROXYREQUEST</b> structure contains parameter values of the application making the proxy request. Multiple 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/call-center-functions">TAPI call center functions</a> generate a 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/line-proxyrequest">LINE_PROXYREQUEST</a> message that references a 
+<a href="/windows/desktop/Tapi/call-center-functions">TAPI call center functions</a> generate a 
+<a href="/windows/desktop/Tapi/line-proxyrequest">LINE_PROXYREQUEST</a> message that references a 
 <b>LINEPROXYREQUEST</b> structure.
 
 ## -struct-fields
@@ -67,7 +67,7 @@ The
 Total number of bytes allocated by TAPI to contain the 
 <b>LINEPROXYREQUEST</b> structure. The <b>dwTotalSize</b> member of any structure contained within 
 <b>LINEPROXYREQUEST</b> (for example, 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineagentcaps">LINEAGENTCAPS</a>) reflects only the number of bytes allocated for that specific structure.
+<a href="/windows/desktop/api/tapi/ns-tapi-lineagentcaps">LINEAGENTCAPS</a>) reflects only the number of bytes allocated for that specific structure.
 Total size, in bytes, of the <i>Params</i> parameter block.
 
 ### -field dwClientMachineNameSize
@@ -93,7 +93,7 @@ Highest API version supported by the application that made the request. The prox
 ### -field dwRequestType
 
 One of the 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/lineproxyrequest--constants">LINEPROXYREQUEST_ Constants</a>. Identifies the type of function and the union component that defines the remaining data in the structure.
+<a href="/windows/desktop/Tapi/lineproxyrequest--constants">LINEPROXYREQUEST_ Constants</a>. Identifies the type of function and the union component that defines the remaining data in the structure.
 
 ### -field SetAgentGroup
 
@@ -106,7 +106,7 @@ Identifier of the address for which the agent is to be set.
 ### -field SetAgentGroup.GroupList
 
 Structure of type 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineagentgrouplist">LINEAGENTGROUPLIST</a>. Offsets within this structure are relative to the beginning of <b>SetAgentGroup.GroupList</b> rather than to the beginning of the 
+<a href="/windows/desktop/api/tapi/ns-tapi-lineagentgrouplist">LINEAGENTGROUPLIST</a>. Offsets within this structure are relative to the beginning of <b>SetAgentGroup.GroupList</b> rather than to the beginning of the 
 <b>LINEPROXYREQUEST</b> structure.
 
 ### -field SetAgentState
@@ -148,9 +148,9 @@ Identifier of the address for which the agent capabilities are to be retrieved.
 ### -field GetAgentCaps.AgentCaps
 
 Structure of type 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineagentcaps">LINEAGENTCAPS</a>. Offsets within this structure are relative to the beginning of <b>GetAgentCaps.AgentCaps</b> rather than to the beginning of the 
+<a href="/windows/desktop/api/tapi/ns-tapi-lineagentcaps">LINEAGENTCAPS</a>. Offsets within this structure are relative to the beginning of <b>GetAgentCaps.AgentCaps</b> rather than to the beginning of the 
 <b>LINEPROXYREQUEST</b> structure. The <b>dwTotalSize</b> member is set by TAPI and the remaining bytes set to zero. The proxy handler must fill in <b>dwNeededSize</b>, <b>dwUsedSize</b>, and the remaining members as appropriate, before calling 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-lineproxyresponse">lineProxyResponse</a>.
+<a href="/windows/desktop/api/tapi/nf-tapi-lineproxyresponse">lineProxyResponse</a>.
 
 ### -field GetAgentStatus
 
@@ -163,9 +163,9 @@ Identifier of the address for which the agent status is to be retrieved.
 ### -field GetAgentStatus.AgentStatus
 
 Structure of type 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineagentstatus">LINEAGENTSTATUS</a>. Offsets within this structure are relative to the beginning of <b>GetAgentStatus.AgentStatus</b> rather than to the beginning of the 
+<a href="/windows/desktop/api/tapi/ns-tapi-lineagentstatus">LINEAGENTSTATUS</a>. Offsets within this structure are relative to the beginning of <b>GetAgentStatus.AgentStatus</b> rather than to the beginning of the 
 <b>LINEPROXYREQUEST</b> structure. The <b>dwTotalSize</b> member is set by TAPI and the remaining bytes set to zero. The proxy handler must fill in <b>dwNeededSize</b>, <b>dwUsedSize</b>, and the remaining members as appropriate, before calling 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-lineproxyresponse">lineProxyResponse</a>.
+<a href="/windows/desktop/api/tapi/nf-tapi-lineproxyresponse">lineProxyResponse</a>.
 
 ### -field AgentSpecific
 
@@ -178,7 +178,7 @@ Identifier of the address for which the agent status is to be retrieved.
 ### -field AgentSpecific.dwAgentExtensionIDIndex
 
 Index of the handler extension being invoked; the identifier's position within the array of extension identifiers returned in 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineagentcaps">LINEAGENTCAPS</a>.
+<a href="/windows/desktop/api/tapi/ns-tapi-lineagentcaps">LINEAGENTCAPS</a>.
 
 ### -field AgentSpecific.dwSize
 
@@ -187,7 +187,7 @@ Total size, in bytes, of the <i>Params</i> parameter block.
 ### -field AgentSpecific.Params
 
 Block of memory that includes the contents passed to the handler from the application. If the handler is to return data to the application, it must be written into this parameter block before calling 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-lineproxyresponse">lineProxyResponse</a>.
+<a href="/windows/desktop/api/tapi/nf-tapi-lineproxyresponse">lineProxyResponse</a>.
 
 ### -field GetAgentActivityList
 
@@ -200,9 +200,9 @@ Identifier of the address for which the agent activity list is to be retrieved.
 ### -field GetAgentActivityList.ActivityList
 
 Structure of type 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineagentactivitylist">LINEAGENTACTIVITYLIST</a>. Offsets within this structure are relative to the beginning of <b>GetAgentActivityList.ActivityList</b> rather than to the beginning of the 
+<a href="/windows/desktop/api/tapi/ns-tapi-lineagentactivitylist">LINEAGENTACTIVITYLIST</a>. Offsets within this structure are relative to the beginning of <b>GetAgentActivityList.ActivityList</b> rather than to the beginning of the 
 <b>LINEPROXYREQUEST</b> structure. The <b>dwTotalSize</b> member is set by TAPI and the remaining bytes set to zero. The proxy handler must fill in <b>dwNeededSize</b>, <b>dwUsedSize</b>, and the remaining members as appropriate, before calling 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-lineproxyresponse">lineProxyResponse</a>.
+<a href="/windows/desktop/api/tapi/nf-tapi-lineproxyresponse">lineProxyResponse</a>.
 
 ### -field GetAgentGroupList
 
@@ -215,9 +215,9 @@ Identifier of the address for which the agent group list is to be retrieved.
 ### -field GetAgentGroupList.GroupList
 
 Structure of type 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineagentgrouplist">LINEAGENTGROUPLIST</a>. Offsets within this structure are relative to the beginning of <b>GetAgentGroupList.GroupList</b> rather than to the beginning of the 
+<a href="/windows/desktop/api/tapi/ns-tapi-lineagentgrouplist">LINEAGENTGROUPLIST</a>. Offsets within this structure are relative to the beginning of <b>GetAgentGroupList.GroupList</b> rather than to the beginning of the 
 <b>LINEPROXYREQUEST</b> structure. The <b>dwTotalSize</b> member is set by TAPI and the remaining bytes set to zero. The proxy handler must fill in <b>dwNeededSize</b>, <b>dwUsedSize</b>, and the remaining members as appropriate, before calling 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-lineproxyresponse">lineProxyResponse</a>.
+<a href="/windows/desktop/api/tapi/nf-tapi-lineproxyresponse">lineProxyResponse</a>.
 
 ### -field CreateAgent
 
@@ -254,12 +254,12 @@ Unique identifier for an agent. It is the responsibility of the agent handler to
 ### -field SetAgentStateEx.dwAgentState
 
 One of the 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/lineagentstateex--constants">LINEAGENTSTATEEX_ Constants</a>.
+<a href="/windows/desktop/Tapi/lineagentstateex--constants">LINEAGENTSTATEEX_ Constants</a>.
 
 ### -field SetAgentStateEx.dwNextAgentState
 
 One of the 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/lineagentstateex--constants">LINEAGENTSTATEEX_ Constants</a>.
+<a href="/windows/desktop/Tapi/lineagentstateex--constants">LINEAGENTSTATEEX_ Constants</a>.
 
 ### -field SetAgentMeasurementPeriod
 
@@ -284,7 +284,7 @@ Unique identifier for an agent. It is the responsibility of the agent handler to
 ### -field GetAgentInfo.AgentInfo
 
 Structure of type 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineagentinfo">LINEAGENTINFO</a>.
+<a href="/windows/desktop/api/tapi/ns-tapi-lineagentinfo">LINEAGENTINFO</a>.
 
 ### -field CreateAgentSession
 
@@ -325,7 +325,7 @@ Unique identifier for an agent. It is the responsibility of the agent handler to
 ### -field GetAgentSessionList.SessionList
 
 Structure of type 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineagentsessionlist">LINEAGENTSESSIONLIST</a>.
+<a href="/windows/desktop/api/tapi/ns-tapi-lineagentsessionlist">LINEAGENTSESSIONLIST</a>.
 
 ### -field GetAgentSessionInfo
 
@@ -338,7 +338,7 @@ Unique identifier for an agent session. It is the responsibility of the agent ha
 ### -field GetAgentSessionInfo.SessionInfo
 
 Structure of type 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineagentsessioninfo">LINEAGENTSESSIONINFO</a>.
+<a href="/windows/desktop/api/tapi/ns-tapi-lineagentsessioninfo">LINEAGENTSESSIONINFO</a>.
 
 ### -field SetAgentSessionState
 
@@ -351,12 +351,12 @@ Unique identifier for an agent session. It is the responsibility of the agent ha
 ### -field SetAgentSessionState.dwAgentSessionState
 
 One of the 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/lineagentsessionstate--constants">LINEAGENTSESSIONSTATE_ constants</a>.
+<a href="/windows/desktop/Tapi/lineagentsessionstate--constants">LINEAGENTSESSIONSTATE_ constants</a>.
 
 ### -field SetAgentSessionState.dwNextAgentSessionState
 
 One of the 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/lineagentsessionstate--constants">LINEAGENTSESSIONSTATE_ constants</a>.
+<a href="/windows/desktop/Tapi/lineagentsessionstate--constants">LINEAGENTSESSIONSTATE_ constants</a>.
 
 ### -field GetQueueList
 
@@ -369,7 +369,7 @@ Universally unique identifier for an ACD group. It is the responsibility of the 
 ### -field GetQueueList.QueueList
 
 Structure of type 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linequeuelist">LINEQUEUELIST</a>.
+<a href="/windows/desktop/api/tapi/ns-tapi-linequeuelist">LINEQUEUELIST</a>.
 
 ### -field SetQueueMeasurementPeriod
 
@@ -394,7 +394,7 @@ Unique identifier for a queue. It is the responsibility of the agent handler to 
 ### -field GetQueueInfo.QueueInfo
 
 Structure of type 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linequeueinfo">LINEQUEUEINFO</a>.
+<a href="/windows/desktop/api/tapi/ns-tapi-linequeueinfo">LINEQUEUEINFO</a>.
 
 ### -field GetGroupList
 
@@ -403,7 +403,7 @@ Union component used when <b>dwRequestType</b> is LINEPROXYREQUEST_GETGROUPLIST.
 ### -field GetGroupList.GroupList
 
 Structure of type 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineagentgrouplist">LINEAGENTGROUPLIST</a>.
+<a href="/windows/desktop/api/tapi/ns-tapi-lineagentgrouplist">LINEAGENTGROUPLIST</a>.
 
 ## -remarks
 
@@ -411,37 +411,36 @@ An address identifier is permanently associated with an address; the identifier 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineagentactivitylist">LINEAGENTACTIVITYLIST</a>
+<a href="/windows/desktop/api/tapi/ns-tapi-lineagentactivitylist">LINEAGENTACTIVITYLIST</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineagentcaps">LINEAGENTCAPS</a>
+<a href="/windows/desktop/api/tapi/ns-tapi-lineagentcaps">LINEAGENTCAPS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineagentgrouplist">LINEAGENTGROUPLIST</a>
+<a href="/windows/desktop/api/tapi/ns-tapi-lineagentgrouplist">LINEAGENTGROUPLIST</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineagentsessioninfo">LINEAGENTSESSIONINFO</a>
+<a href="/windows/desktop/api/tapi/ns-tapi-lineagentsessioninfo">LINEAGENTSESSIONINFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineagentsessionlist">LINEAGENTSESSIONLIST</a>
+<a href="/windows/desktop/api/tapi/ns-tapi-lineagentsessionlist">LINEAGENTSESSIONLIST</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineagentstatus">LINEAGENTSTATUS</a>
+<a href="/windows/desktop/api/tapi/ns-tapi-lineagentstatus">LINEAGENTSTATUS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linequeuelist">LINEQUEUELIST</a>
+<a href="/windows/desktop/api/tapi/ns-tapi-linequeuelist">LINEQUEUELIST</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/line-proxyrequest">LINE_PROXYREQUEST</a>
+<a href="/windows/desktop/Tapi/line-proxyrequest">LINE_PROXYREQUEST</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-lineproxyresponse">lineProxyResponse</a>
-
+<a href="/windows/desktop/api/tapi/nf-tapi-lineproxyresponse">lineProxyResponse</a>

@@ -115,5 +115,4 @@ If the operation succeeds, the function should return <b>TRUE</b>; otherwise it 
 
 ## -remarks
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/print/printer-graphics-dll">Printer graphics DLLs</a> that execute in user mode must export a <b>DrvQueryDriverInfo</b> function. If the function is not exported, the <a href="https://docs.microsoft.com/windows-hardware/drivers/print/local-print-provider">local print provider</a> assumes the graphics DLL executes in kernel mode.
-
+<a href="/windows-hardware/drivers/print/printer-graphics-dll">Printer graphics DLLs</a> that execute in user mode must export a <b>DrvQueryDriverInfo</b> function. If the function is not exported, the <a href="/windows-hardware/drivers/print/local-print-provider">local print provider</a> assumes the graphics DLL executes in kernel mode.

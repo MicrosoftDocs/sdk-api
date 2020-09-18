@@ -56,20 +56,20 @@ api_name:
 
 The <b>HTTP_AUTH_STATUS</b> enumeration defines the authentication state of a request.
 
-This enumeration is used  in the <a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_request_auth_info">HTTP_REQUEST_AUTH_INFO</a> structure.
+This enumeration is used  in the <a href="/windows/desktop/api/http/ns-http-http_request_auth_info">HTTP_REQUEST_AUTH_INFO</a> structure.
 
 ## -enum-fields
 
 ### -field HttpAuthStatusSuccess
 
-The request was successfully authenticated for the authentication type indicated in the <a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_request_auth_info">HTTP_REQUEST_AUTH_INFO</a> structure.
+The request was successfully authenticated for the authentication type indicated in the <a href="/windows/desktop/api/http/ns-http-http_request_auth_info">HTTP_REQUEST_AUTH_INFO</a> structure.
 
 ### -field HttpAuthStatusNotAuthenticated
 
 Authentication was configured on the URL group for this request, however, the HTTP Server API did not handle the authentication. This could be because of one of the following reasons:
 
 <ul>
-<li>	The scheme defined in the <a href="https://docs.microsoft.com/windows/desktop/api/http/ne-http-http_header_id">HttpHeaderAuthorization</a> header of the request is not supported by the HTTP Server API, or it is not enabled on the URL Group. If the scheme is not enabled, the <b>AuthType</b> member of <a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_request_auth_info">HTTP_REQUEST_AUTH_INFO</a> is set to the appropriate type, otherwise <b>AuthType</b> will have the value <a href="https://docs.microsoft.com/windows/desktop/api/http/ne-http-http_request_auth_type">HttpRequestAuthTypeNone</a>. 
+<li>	The scheme defined in the <a href="/windows/desktop/api/http/ne-http-http_header_id">HttpHeaderAuthorization</a> header of the request is not supported by the HTTP Server API, or it is not enabled on the URL Group. If the scheme is not enabled, the <b>AuthType</b> member of <a href="/windows/desktop/api/http/ns-http-http_request_auth_info">HTTP_REQUEST_AUTH_INFO</a> is set to the appropriate type, otherwise <b>AuthType</b> will have the value <a href="/windows/desktop/api/http/ne-http-http_request_auth_type">HttpRequestAuthTypeNone</a>. 
 </li>
 <li>The authorization header is not present, however, authentication is enabled on the URL Group.</li>
 </ul>
@@ -77,17 +77,16 @@ The application should either proceed with its own authentication or respond wit
 
 ### -field HttpAuthStatusFailure
 
-Authentication for the authentication type listed in the <a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_request_auth_info">HTTP_REQUEST_AUTH_INFO</a>   structure failed, possibly due to one of the following reasons:<ul>
-<li>The Security Service Provider Interface (SSPI) based authentication scheme failed to successfully return from a call to <a href="https://msdn.microsoft.com/library/ms937012.aspx">AcceptSecurityContext</a>. The error returned <a href="https://msdn.microsoft.com/library/ms937012.aspx">AcceptSecurityContext</a> is indicated in the <b>SecStatus</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_request_auth_info">HTTP_REQUEST_AUTH_INFO</a> structure.</li>
+Authentication for the authentication type listed in the <a href="/windows/desktop/api/http/ns-http-http_request_auth_info">HTTP_REQUEST_AUTH_INFO</a>   structure failed, possibly due to one of the following reasons:<ul>
+<li>The Security Service Provider Interface (SSPI) based authentication scheme failed to successfully return from a call to <a href="/previous-versions/windows/embedded/ms937012(v=msdn.10)">AcceptSecurityContext</a>. The error returned <a href="/previous-versions/windows/embedded/ms937012(v=msdn.10)">AcceptSecurityContext</a> is indicated in the <b>SecStatus</b> member of the <a href="/windows/desktop/api/http/ns-http-http_request_auth_info">HTTP_REQUEST_AUTH_INFO</a> structure.</li>
 <li>The finalized client context is for a Null NTLM session. Null sessions are treated as authentication failures.</li>
 <li>The call to  <b>LogonUser</b> failed for the Basic authentication.</li>
 </ul>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Http/http-server-api-version-2-0-enumeration-types">HTTP Server API Version 2.0 Enumeration Types</a>
+<a href="/windows/desktop/Http/http-server-api-version-2-0-enumeration-types">HTTP Server API Version 2.0 Enumeration Types</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_request_auth_info">HTTP_REQUEST_AUTH_INFO</a>
-
+<a href="/windows/desktop/api/http/ns-http-http_request_auth_info">HTTP_REQUEST_AUTH_INFO</a>

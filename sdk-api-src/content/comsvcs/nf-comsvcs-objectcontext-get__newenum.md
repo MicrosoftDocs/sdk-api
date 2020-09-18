@@ -58,7 +58,7 @@ This property is restricted in Microsoft Visual Basic and cannot be used.
 
 ### -param ppEnum [out]
 
-A reference to the returned <a href="https://msdn.microsoft.com/library/ms221053.aspx">IEnumVARIANT</a> interface.
+A reference to the returned <a href="/windows/win32/api/oaidl/nn-oaidl-ienumvariant">IEnumVARIANT</a> interface.
 
 ## -returns
 
@@ -66,5 +66,4 @@ This method can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, E
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-objectcontext">ObjectContext</a>
-
+<a href="/windows/desktop/api/comsvcs/nn-comsvcs-objectcontext">ObjectContext</a>

@@ -68,7 +68,7 @@ If <b>TRUE</b>, any existing matching filter is overwritten; if <b>FALSE</b>, th
 
 ## -returns
 
-This function returns <b>ERROR_SUCCESS</b> upon a successful call. Otherwise, it returns one of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dhcp/dhcp-server-management-api-error-codes">DHCP Server Management API Error Codes</a>.
+This function returns <b>ERROR_SUCCESS</b> upon a successful call. Otherwise, it returns one of the <a href="/previous-versions/windows/desktop/dhcp/dhcp-server-management-api-error-codes">DHCP Server Management API Error Codes</a>.
 
 <table>
 <tr>
@@ -112,7 +112,7 @@ The address or address pattern already exists in an allow/deny list.
 
 ## -remarks
 
-This API allows DHCP clients whose addresses have been added to the allow list to obtain leases, and blocks those added to the deny list. The respective lists must be enabled with a call to <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpsetfilterv4">DhcpSetFilterV4</a>.
+This API allows DHCP clients whose addresses have been added to the allow list to obtain leases, and blocks those added to the deny list. The respective lists must be enabled with a call to <a href="/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpsetfilterv4">DhcpSetFilterV4</a>.
 
 ## -see-also
 
@@ -120,5 +120,4 @@ This API allows DHCP clients whose addresses have been added to the allow list t
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpsetfilterv4">DhcpSetFilterV4</a>
-
+<a href="/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpsetfilterv4">DhcpSetFilterV4</a>

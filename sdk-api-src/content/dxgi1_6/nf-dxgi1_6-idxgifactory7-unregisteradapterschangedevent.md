@@ -65,9 +65,8 @@ Returns <b>S_OK</b> if successful; an error code otherwise.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_6/nn-dxgi1_6-idxgifactory7">IDXGIFactory7</a>
+<a href="/windows/desktop/api/dxgi1_6/nn-dxgi1_6-idxgifactory7">IDXGIFactory7</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_6/nf-dxgi1_6-idxgifactory7-registeradapterschangedevent">RegisterAdaptersChangedEvent</a>
-
+<a href="/windows/desktop/api/dxgi1_6/nf-dxgi1_6-idxgifactory7-registeradapterschangedevent">RegisterAdaptersChangedEvent</a>

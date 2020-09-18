@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-This structure is used by the <a href="https://docs.microsoft.com/windows/desktop/api/wdstci/nf-wdstci-wdstransportclientstartsession">WdsTransportClientStartSession</a> function.
+This structure is used by the <a href="/windows/desktop/api/wdstci/nf-wdstci-wdstransportclientstartsession">WdsTransportClientStartSession</a> function.
 
 ## -struct-fields
 
@@ -176,4 +176,3 @@ Protocol data structure for the protocol. The structure is <b>NULL</b> for  <b>W
 ### -field ulProtocolDataLength
 
 The length of the protocol data pointed to by <b>pvProtocolData</b>.
-

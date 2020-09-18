@@ -57,7 +57,7 @@ Determines if the specified query is a real-time query.
 ### -param hQuery [in]
 
 Handle to the query. The 
-<a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhopenquerya">PdhOpenQuery</a> function returns this handle.
+<a href="/windows/desktop/api/pdh/nf-pdh-pdhopenquerya">PdhOpenQuery</a> function returns this handle.
 
 ## -returns
 
@@ -72,9 +72,8 @@ The term <i>real-time</i> as used in the description of this function does not i
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhopenquerya">PdhOpenQuery</a>
+<a href="/windows/desktop/api/pdh/nf-pdh-pdhopenquerya">PdhOpenQuery</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhselectdatasourcea">PdhSelectDataSource</a>
-
+<a href="/windows/desktop/api/pdh/nf-pdh-pdhselectdatasourcea">PdhSelectDataSource</a>

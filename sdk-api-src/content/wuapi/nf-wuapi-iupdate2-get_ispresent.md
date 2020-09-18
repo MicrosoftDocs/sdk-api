@@ -61,11 +61,10 @@ This property is read-only.
 
 An update is considered present if it is installed for one or more products. For example, if an update applies to both Microsoft Office Word and to Microsoft Office Excel, the <b>IsPresent</b> property returns <b>VARIANT_TRUE</b> if the update is installed for one or both of the products.
 
-If an update applies to only one product, the <b>IsPresent</b> and <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iupdate-get_isinstalled">IsInstalled</a> properties are equivalent. An update is considered installed if the update is installed for all the products to which it applies.
+If an update applies to only one product, the <b>IsPresent</b> and <a href="/windows/desktop/api/wuapi/nf-wuapi-iupdate-get_isinstalled">IsInstalled</a> properties are equivalent. An update is considered installed if the update is installed for all the products to which it applies.
 
-If <b>IsPresent</b> returns <b>VARIANT_TRUE</b> and <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iupdate-get_isinstalled">IsInstalled</a> returns <b>VARIANT_FALSE</b>, the update can be uninstalled for the product that installed it.
+If <b>IsPresent</b> returns <b>VARIANT_TRUE</b> and <a href="/windows/desktop/api/wuapi/nf-wuapi-iupdate-get_isinstalled">IsInstalled</a> returns <b>VARIANT_FALSE</b>, the update can be uninstalled for the product that installed it.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdate2">IUpdate2</a>
-
+<a href="/windows/desktop/api/wuapi/nn-wuapi-iupdate2">IUpdate2</a>

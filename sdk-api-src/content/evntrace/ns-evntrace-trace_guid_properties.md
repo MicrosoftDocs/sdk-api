@@ -74,12 +74,12 @@ Session handle that identifies the event tracing session.
 ### -field EnableLevel
 
 Value passed as the <i>EnableLevel</i> parameter to the 
-<a href="https://docs.microsoft.com/windows/desktop/ETW/enabletrace">EnableTrace</a> function.
+<a href="/windows/desktop/ETW/enabletrace">EnableTrace</a> function.
 
 ### -field EnableFlags
 
 Value passed as the <i>EnableFlag</i> parameter to the 
-<a href="https://docs.microsoft.com/windows/desktop/ETW/enabletrace">EnableTrace</a> function.
+<a href="/windows/desktop/ETW/enabletrace">EnableTrace</a> function.
 
 ### -field IsEnable
 
@@ -91,5 +91,4 @@ Be sure to initialize the memory for this structure to zero before setting any m
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/ETW/enumeratetraceguids">EnumerateTraceGuids</a>
-
+<a href="/windows/desktop/ETW/enumeratetraceguids">EnumerateTraceGuids</a>

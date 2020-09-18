@@ -52,11 +52,10 @@ api_name:
 
 ## -description
 
-Information about a mapping between an <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_endpoint_address">WS_ENDPOINT_ADDRESS</a>and an XML element.
+Information about a mapping between an <a href="/windows/desktop/api/webservices/ns-webservices-ws_endpoint_address">WS_ENDPOINT_ADDRESS</a>and an XML element.
 
 ## -struct-fields
 
 ### -field addressingVersion
 
 The WS-Addressing version to use when serializing the endpoint address.
-

@@ -54,7 +54,7 @@ Exposes a method that allows a handler to display the sync schedule wizard for t
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISyncMgrScheduleWizardUIOperation</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nn-syncmgr-isyncmgruioperation">ISyncMgrUIOperation</a>. <b>ISyncMgrScheduleWizardUIOperation</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISyncMgrScheduleWizardUIOperation</b> interface inherits from <a href="/windows/desktop/api/syncmgr/nn-syncmgr-isyncmgruioperation">ISyncMgrUIOperation</a>. <b>ISyncMgrScheduleWizardUIOperation</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ISyncMgrScheduleWizardUIOperation</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrschedulewizarduioperation-initwizard">InitWizard</a>
+<a href="/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrschedulewizarduioperation-initwizard">InitWizard</a>
 </td>
 <td align="left" width="63%">
 Initializes the sync schedule wizard.
@@ -80,5 +80,4 @@ Initializes the sync schedule wizard.
 
 ## -remarks
 
-The wizard can be invoked by CoCreating CLSID_SyncMgrScheduleWizard, which is typically done when Sync Center calls <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrhandler-getobject">ISyncMgrHandler::GetObject</a>, specifying SYNCMGR_OBJECTID_ShowSchedule for the object ID.
-
+The wizard can be invoked by CoCreating CLSID_SyncMgrScheduleWizard, which is typically done when Sync Center calls <a href="/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrhandler-getobject">ISyncMgrHandler::GetObject</a>, specifying SYNCMGR_OBJECTID_ShowSchedule for the object ID.

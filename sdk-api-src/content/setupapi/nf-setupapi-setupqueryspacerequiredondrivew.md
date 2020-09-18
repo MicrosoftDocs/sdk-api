@@ -103,7 +103,7 @@ Reserved; must be 0 (zero).
 If the function succeeds, the return value is a nonzero value and <i>SpaceRequired</i> receives the amount of space required by the file operations listed in the current disk space list.
 
 If the function fails, the return value is 0 (zero). To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 <table>
 <tr>
@@ -147,18 +147,17 @@ The specified <i>DriveSpec</i> string is invalid.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/SetupApi/functions">Functions</a>
+<a href="/windows/desktop/SetupApi/functions">Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SetupApi/overview">Overview</a>
+<a href="/windows/desktop/SetupApi/overview">Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupquerydrivesindiskspacelista">SetupQueryDrivesInDiskSpaceList</a>
+<a href="/windows/desktop/api/setupapi/nf-setupapi-setupquerydrivesindiskspacelista">SetupQueryDrivesInDiskSpaceList</a>
 
 ## -remarks
 
 > [!NOTE]
 > The setupapi.h header defines SetupQuerySpaceRequiredOnDrive as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

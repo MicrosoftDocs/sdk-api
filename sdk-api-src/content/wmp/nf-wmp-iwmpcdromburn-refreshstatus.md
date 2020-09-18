@@ -86,13 +86,12 @@ Refreshing the status is a synchronous operation. This means that a lengthy peri
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpcdromburn">IWMPCdromBurn Interface</a>
+<a href="/windows/desktop/api/wmp/nn-wmp-iwmpcdromburn">IWMPCdromBurn Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpcdromburn-get_burnstate">IWMPCdromBurn::get_burnState</a>
+<a href="/windows/desktop/api/wmp/nf-wmp-iwmpcdromburn-get_burnstate">IWMPCdromBurn::get_burnState</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/ne-wmp-wmpburnstate">WMPBurnState</a>
-
+<a href="/windows/desktop/api/wmp/ne-wmp-wmpburnstate">WMPBurnState</a>

@@ -53,7 +53,7 @@ api_name:
 
 ## -description
 
-Sets the name for a  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/groups">group</a>. The <b>PCLUSAPI_SET_CLUSTER_GROUP_NAME</b> type defines a pointer to this function.
+Sets the name for a  <a href="/previous-versions/windows/desktop/mscs/groups">group</a>. The <b>PCLUSAPI_SET_CLUSTER_GROUP_NAME</b> type defines a pointer to this function.
 
 ## -parameters
 
@@ -70,23 +70,22 @@ Pointer to the new name for the group identified by <i>hGroup</i>.
 If the operation succeeds, the function returns <b>ERROR_SUCCESS</b>.
 
 If the operation fails, the function returns a 
-       <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a>.
+       <a href="/windows/desktop/Debug/system-error-codes">system error code</a>.
 
 ## -remarks
 
 <b>SetClusterGroupName</b> changes the 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/groups-name">Name</a> common property of the group identified by 
+    <a href="/previous-versions/windows/desktop/mscs/groups-name">Name</a> common property of the group identified by 
     <i>hGroup</i>. This is the only way that Name, a read-only property, can be changed.
 
 Do not call <b>SetClusterGroupName</b> from a 
     resource DLL. For more information, see 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/function-calls-to-avoid-in-resource-dlls">Function Calls to Avoid in Resource DLLs</a>.
+    <a href="/previous-versions/windows/desktop/mscs/function-calls-to-avoid-in-resource-dlls">Function Calls to Avoid in Resource DLLs</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/groups-name">Name</a>
+<a href="/previous-versions/windows/desktop/mscs/groups-name">Name</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-openclustergroup">OpenClusterGroup</a>
-
+<a href="/windows/desktop/api/clusapi/nf-clusapi-openclustergroup">OpenClusterGroup</a>

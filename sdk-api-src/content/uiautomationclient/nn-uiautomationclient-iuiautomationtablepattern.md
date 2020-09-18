@@ -50,11 +50,11 @@ api_name:
 
 ## -description
 
-Provides access to a control that acts as a container for a collection of child elements. The children of this element support <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationtableitempattern">IUIAutomationTableItemPattern</a> and are organized in a two-dimensional logical coordinate system that can be traversed by row and column.
+Provides access to a control that acts as a container for a collection of child elements. The children of this element support <a href="/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationtableitempattern">IUIAutomationTableItemPattern</a> and are organized in a two-dimensional logical coordinate system that can be traversed by row and column.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUIAutomationTablePattern</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IUIAutomationTablePattern</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUIAutomationTablePattern</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IUIAutomationTablePattern</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -70,7 +70,7 @@ The <b>IUIAutomationTablePattern</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationtablepattern-getcachedcolumnheaders">GetCachedColumnHeaders</a>
+<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationtablepattern-getcachedcolumnheaders">GetCachedColumnHeaders</a>
 </td>
 <td align="left" width="63%">
 Retrieves a cached collection of UI Automation elements representing all the column headers in a table.
@@ -79,7 +79,7 @@ Retrieves a cached collection of UI Automation elements representing all the col
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationtablepattern-getcachedrowheaders">GetCachedRowHeaders</a>
+<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationtablepattern-getcachedrowheaders">GetCachedRowHeaders</a>
 </td>
 <td align="left" width="63%">
 Retrieves a cached collection of UI Automation elements representing all the row headers in a table.
@@ -88,7 +88,7 @@ Retrieves a cached collection of UI Automation elements representing all the row
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationtablepattern-getcurrentcolumnheaders">GetCurrentColumnHeaders</a>
+<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationtablepattern-getcurrentcolumnheaders">GetCurrentColumnHeaders</a>
 </td>
 <td align="left" width="63%">
 Retrieves a collection of UI Automation elements representing all the column headers in a table.
@@ -97,7 +97,7 @@ Retrieves a collection of UI Automation elements representing all the column hea
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationtablepattern-getcurrentrowheaders">GetCurrentRowHeaders</a>
+<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationtablepattern-getcurrentrowheaders">GetCurrentRowHeaders</a>
 </td>
 <td align="left" width="63%">
 Retrieves a collection of UI Automation elements representing all the row headers in a table.
@@ -115,7 +115,7 @@ Retrieves a collection of UI Automation elements representing all the row header
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationtablepattern-get_cachedroworcolumnmajor">CachedRowOrColumnMajor</a>
+<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationtablepattern-get_cachedroworcolumnmajor">CachedRowOrColumnMajor</a>
 
 
 </td>
@@ -131,7 +131,7 @@ Retrieves the cached primary direction of traversal for the table.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationtablepattern-get_currentroworcolumnmajor">CurrentRowOrColumnMajor</a>
+<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationtablepattern-get_currentroworcolumnmajor">CurrentRowOrColumnMajor</a>
 
 
 </td>
@@ -148,9 +148,8 @@ Retrieves the primary direction of traversal for the table.
 
 ## -remarks
 
-This control pattern is analogous to <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationgridpattern">IUIAutomationGridPattern</a> with the distinction that any control that supports <b>IUIAutomationTablePattern</b> also exposes a column or row header relationship, or both, for each child element. Controls that support the <a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-implementingtableitem">Table</a> control pattern also support the <a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-implementinggrid">Grid</a> control pattern in order to provide access to the inherent grid functionality of a table.
+This control pattern is analogous to <a href="/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationgridpattern">IUIAutomationGridPattern</a> with the distinction that any control that supports <b>IUIAutomationTablePattern</b> also exposes a column or row header relationship, or both, for each child element. Controls that support the <a href="/windows/desktop/WinAuto/uiauto-implementingtableitem">Table</a> control pattern also support the <a href="/windows/desktop/WinAuto/uiauto-implementinggrid">Grid</a> control pattern in order to provide access to the inherent grid functionality of a table.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-client-controlpatterninterfaces">Control Pattern Interfaces for Clients</a>
-
+<a href="/windows/desktop/WinAuto/uiauto-client-controlpatterninterfaces">Control Pattern Interfaces for Clients</a>

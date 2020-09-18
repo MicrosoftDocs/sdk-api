@@ -56,7 +56,7 @@ Gets the start time for a specified time range.
 
 ### -param index [in]
 
-The zero-based index of the time range to query. To get the  number of time ranges, call <a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediatimerange-getlength">IMFMediaTimeRange::GetLength</a>.
+The zero-based index of the time range to query. To get the  number of time ranges, call <a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediatimerange-getlength">IMFMediaTimeRange::GetLength</a>.
 
 ### -param pStart [out]
 
@@ -72,5 +72,4 @@ This method corresponds to the <b>TimeRanges.start</b> method in HTML5.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfmediatimerange">IMFMediaTimeRange</a>
-
+<a href="/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfmediatimerange">IMFMediaTimeRange</a>

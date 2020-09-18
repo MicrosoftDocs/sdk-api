@@ -60,7 +60,7 @@ The <b>SPC_INDIRECT_DATA_CONTENT</b> structure is used in Authenticode signature
 
 ### -field Data
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_attribute_type_value">CRYPT_ATTRIBUTE_TYPE_VALUE</a> that contains attributes of the digested file.
+A <a href="/windows/desktop/api/wincrypt/ns-wincrypt-crypt_attribute_type_value">CRYPT_ATTRIBUTE_TYPE_VALUE</a> that contains attributes of the digested file.
 
 ### -field DigestAlgorithm
 
@@ -69,4 +69,3 @@ Specifies the digest algorithm used to hash the file.
 ### -field Digest
 
 The Authenticode digest value of the file using the algorithm specified in the  <i>DigestAlgorithm</i> parameter.
-

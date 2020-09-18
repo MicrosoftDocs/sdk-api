@@ -93,5 +93,4 @@ Pointer <i>pDescription</i> is <b>NULL</b>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nn-devicetopology-iksjacksinkinformation">IKsJackSinkInformation</a>
-
+<a href="/windows/desktop/api/devicetopology/nn-devicetopology-iksjacksinkinformation">IKsJackSinkInformation</a>

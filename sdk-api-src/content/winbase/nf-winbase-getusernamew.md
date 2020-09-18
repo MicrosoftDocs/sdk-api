@@ -57,8 +57,8 @@ api_name:
 Retrieves the name of the user associated with the current thread.
 
 Use the 
-<a href="https://docs.microsoft.com/windows/desktop/api/secext/nf-secext-getusernameexa">GetUserNameEx</a> function to retrieve the user name in a specified format. Additional information is provided by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsadsysteminfo">IADsADSystemInfo</a> interface.
+<a href="/windows/desktop/api/secext/nf-secext-getusernameexa">GetUserNameEx</a> function to retrieve the user name in a specified format. Additional information is provided by the 
+<a href="/windows/desktop/api/iads/nn-iads-iadsadsysteminfo">IADsADSystemInfo</a> interface.
 
 ## -parameters
 
@@ -73,14 +73,14 @@ On input, this variable specifies the size of the <i>lpBuffer</i> buffer, in <b>
 
 
 
-If <i>lpBuffer</i> is too small, the function fails and <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns ERROR_INSUFFICIENT_BUFFER. This parameter receives the required buffer size, including the terminating null character.
+If <i>lpBuffer</i> is too small, the function fails and <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns ERROR_INSUFFICIENT_BUFFER. This parameter receives the required buffer size, including the terminating null character.
 
 ## -returns
 
 If the function succeeds, the return value is a nonzero value, and the variable pointed to by <i>lpnSize</i> contains the number of <b>TCHARs</b> copied to the buffer specified by <i>lpBuffer</i>, including the terminating null character.
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
@@ -93,7 +93,7 @@ If <b>GetUserName</b> is called from a process that is running under the  "NETWO
 #### Examples
 
 For an example, see 
-<a href="https://docs.microsoft.com/windows/desktop/SysInfo/getting-system-information">Getting System Information</a>.
+<a href="/windows/desktop/SysInfo/getting-system-information">Getting System Information</a>.
 
 <div class="code"></div>
 
@@ -105,13 +105,12 @@ For an example, see
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/secext/nf-secext-getusernameexa">GetUserNameEx</a>
+<a href="/windows/desktop/api/secext/nf-secext-getusernameexa">GetUserNameEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-lookupaccountnamea">LookupAccountName</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-lookupaccountnamea">LookupAccountName</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SysInfo/system-information-functions">System Information Functions</a>
-
+<a href="/windows/desktop/SysInfo/system-information-functions">System Information Functions</a>

@@ -42,9 +42,8 @@ api_name:
 
 This interface represents a factory object from which all DirectWrite objects are created. **IDWriteFactory7** adds new facilities for working with system fonts.
 
-This interface extends [IDWriteFactory6](/windows/win32/api/dwrite_3/nn-dwrite_3-idwritefactory6).
+This interface extends [IDWriteFactory6](./nn-dwrite_3-idwritefactory6.md).
 
 ## -see-also
 
-[IDWriteFactory6](/windows/win32/api/dwrite_3/nn-dwrite_3-idwritefactory6)
-
+[IDWriteFactory6](./nn-dwrite_3-idwritefactory6.md)

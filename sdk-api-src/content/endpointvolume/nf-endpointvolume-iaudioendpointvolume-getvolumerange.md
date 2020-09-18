@@ -56,7 +56,7 @@ The <b>GetVolumeRange</b> method gets the volume range, in decibels, of the audi
 
 ### -param pflVolumeMindB [out]
 
-Pointer to the minimum volume level. This parameter points to a <b>float</b> variable into which the method writes the minimum volume level in decibels. This value remains constant for the lifetime of the <a href="https://docs.microsoft.com/windows/desktop/api/endpointvolume/nn-endpointvolume-iaudioendpointvolume">IAudioEndpointVolume</a> interface instance.
+Pointer to the minimum volume level. This parameter points to a <b>float</b> variable into which the method writes the minimum volume level in decibels. This value remains constant for the lifetime of the <a href="/windows/desktop/api/endpointvolume/nn-endpointvolume-iaudioendpointvolume">IAudioEndpointVolume</a> interface instance.
 
 ### -param pflVolumeMaxdB [out]
 
@@ -97,39 +97,38 @@ n = (vmax – vmin) / vinc.
 The values vmin, vmax, and vinc are measured in decibels. The client can set the volume level to one of n + 1 discrete values in the range from vmin to vmax.
       
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/endpointvolume/nf-endpointvolume-iaudioendpointvolume-setchannelvolumelevel">IAudioEndpointVolume::SetChannelVolumeLevel</a> and <a href="https://docs.microsoft.com/windows/desktop/api/endpointvolume/nf-endpointvolume-iaudioendpointvolume-setmastervolumelevel">IAudioEndpointVolume::SetMasterVolumeLevel</a> methods accept only volume levels in the range from vmin to vmax. If the caller specifies a volume level outside of this range, the method fails and returns E_INVALIDARG. If the caller specifies a volume level that falls between two steps in the volume range, the method sets the endpoint volume level to the step that lies closest to the requested volume level and returns S_OK. However, a subsequent call to <a href="https://docs.microsoft.com/windows/desktop/api/endpointvolume/nf-endpointvolume-iaudioendpointvolume-getchannelvolumelevel">IAudioEndpointVolume::GetChannelVolumeLevel</a> or <a href="https://docs.microsoft.com/windows/desktop/api/endpointvolume/nf-endpointvolume-iaudioendpointvolume-getmastervolumelevel">IAudioEndpointVolume::GetMasterVolumeLevel</a> retrieves the volume level requested by the previous call to <b>SetChannelVolumeLevel</b> or <b>SetMasterVolumeLevel</b>, not the step value.
+The <a href="/windows/desktop/api/endpointvolume/nf-endpointvolume-iaudioendpointvolume-setchannelvolumelevel">IAudioEndpointVolume::SetChannelVolumeLevel</a> and <a href="/windows/desktop/api/endpointvolume/nf-endpointvolume-iaudioendpointvolume-setmastervolumelevel">IAudioEndpointVolume::SetMasterVolumeLevel</a> methods accept only volume levels in the range from vmin to vmax. If the caller specifies a volume level outside of this range, the method fails and returns E_INVALIDARG. If the caller specifies a volume level that falls between two steps in the volume range, the method sets the endpoint volume level to the step that lies closest to the requested volume level and returns S_OK. However, a subsequent call to <a href="/windows/desktop/api/endpointvolume/nf-endpointvolume-iaudioendpointvolume-getchannelvolumelevel">IAudioEndpointVolume::GetChannelVolumeLevel</a> or <a href="/windows/desktop/api/endpointvolume/nf-endpointvolume-iaudioendpointvolume-getmastervolumelevel">IAudioEndpointVolume::GetMasterVolumeLevel</a> retrieves the volume level requested by the previous call to <b>SetChannelVolumeLevel</b> or <b>SetMasterVolumeLevel</b>, not the step value.
 
-If the volume control is implemented in hardware, <b>GetVolumeRange</b> describes the range and granularity of the hardware volume settings. In contrast, the steps that are reported by the <a href="https://docs.microsoft.com/windows/desktop/api/endpointvolume/nf-endpointvolume-iaudioendpointvolume-getvolumestepinfo">IEndpointVolume::GetVolumeStepInfo</a> method correspond to points on an audio-tapered curve that are calculated in software by the <a href="https://docs.microsoft.com/windows/desktop/api/endpointvolume/nf-endpointvolume-iaudioendpointvolume-volumestepdown">IEndpointVolume::VolumeStepDown</a> and <a href="https://docs.microsoft.com/windows/desktop/api/endpointvolume/nf-endpointvolume-iaudioendpointvolume-volumestepup">IEndpointVolume::VolumeStepUp</a> methods. Either method first calculates the idealized volume level that corresponds to the next point on the curve. Next, the method selects the hardware volume setting that is the best approximation to the idealized level. For more information about audio-tapered curves, see <a href="https://docs.microsoft.com/windows/desktop/CoreAudio/audio-tapered-volume-controls">Audio-Tapered Volume Controls</a>.
+If the volume control is implemented in hardware, <b>GetVolumeRange</b> describes the range and granularity of the hardware volume settings. In contrast, the steps that are reported by the <a href="/windows/desktop/api/endpointvolume/nf-endpointvolume-iaudioendpointvolume-getvolumestepinfo">IEndpointVolume::GetVolumeStepInfo</a> method correspond to points on an audio-tapered curve that are calculated in software by the <a href="/windows/desktop/api/endpointvolume/nf-endpointvolume-iaudioendpointvolume-volumestepdown">IEndpointVolume::VolumeStepDown</a> and <a href="/windows/desktop/api/endpointvolume/nf-endpointvolume-iaudioendpointvolume-volumestepup">IEndpointVolume::VolumeStepUp</a> methods. Either method first calculates the idealized volume level that corresponds to the next point on the curve. Next, the method selects the hardware volume setting that is the best approximation to the idealized level. For more information about audio-tapered curves, see <a href="/windows/desktop/CoreAudio/audio-tapered-volume-controls">Audio-Tapered Volume Controls</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/endpointvolume/nn-endpointvolume-iaudioendpointvolume">IAudioEndpointVolume Interface</a>
+<a href="/windows/desktop/api/endpointvolume/nn-endpointvolume-iaudioendpointvolume">IAudioEndpointVolume Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/endpointvolume/nf-endpointvolume-iaudioendpointvolume-getchannelvolumelevel">IAudioEndpointVolume::GetChannelVolumeLevel</a>
+<a href="/windows/desktop/api/endpointvolume/nf-endpointvolume-iaudioendpointvolume-getchannelvolumelevel">IAudioEndpointVolume::GetChannelVolumeLevel</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/endpointvolume/nf-endpointvolume-iaudioendpointvolume-getmastervolumelevel">IAudioEndpointVolume::GetMasterVolumeLevel</a>
+<a href="/windows/desktop/api/endpointvolume/nf-endpointvolume-iaudioendpointvolume-getmastervolumelevel">IAudioEndpointVolume::GetMasterVolumeLevel</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/endpointvolume/nf-endpointvolume-iaudioendpointvolume-setchannelvolumelevel">IAudioEndpointVolume::SetChannelVolumeLevel</a>
+<a href="/windows/desktop/api/endpointvolume/nf-endpointvolume-iaudioendpointvolume-setchannelvolumelevel">IAudioEndpointVolume::SetChannelVolumeLevel</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/endpointvolume/nf-endpointvolume-iaudioendpointvolume-setmastervolumelevel">IAudioEndpointVolume::SetMasterVolumeLevel</a>
+<a href="/windows/desktop/api/endpointvolume/nf-endpointvolume-iaudioendpointvolume-setmastervolumelevel">IAudioEndpointVolume::SetMasterVolumeLevel</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/endpointvolume/nf-endpointvolume-iaudioendpointvolume-getvolumestepinfo">IEndpointVolume::GetVolumeStepInfo</a>
+<a href="/windows/desktop/api/endpointvolume/nf-endpointvolume-iaudioendpointvolume-getvolumestepinfo">IEndpointVolume::GetVolumeStepInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/endpointvolume/nf-endpointvolume-iaudioendpointvolume-volumestepdown">IEndpointVolume::VolumeStepDown</a>
+<a href="/windows/desktop/api/endpointvolume/nf-endpointvolume-iaudioendpointvolume-volumestepdown">IEndpointVolume::VolumeStepDown</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/endpointvolume/nf-endpointvolume-iaudioendpointvolume-volumestepup">IEndpointVolume::VolumeStepUp</a>
-
+<a href="/windows/desktop/api/endpointvolume/nf-endpointvolume-iaudioendpointvolume-volumestepup">IEndpointVolume::VolumeStepUp</a>

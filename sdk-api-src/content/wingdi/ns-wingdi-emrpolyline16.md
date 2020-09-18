@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-The <b>EMRPOLYLINE16, </b><b>EMRPOLYBEZIER16, </b><b>EMRPOLYGON16, </b><b>EMRPOLYBEZIERTO16, </b> and <b>EMRPOLYLINETO16</b> structures contain members for the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-polyline">Polyline</a>, <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-polybezier">PolyBezier</a>, <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-polygon">Polygon</a>, <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-polybezierto">PolyBezierTo</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-polylineto">PolylineTo</a> enhanced metafile records.
+The <b>EMRPOLYLINE16, </b><b>EMRPOLYBEZIER16, </b><b>EMRPOLYGON16, </b><b>EMRPOLYBEZIERTO16, </b> and <b>EMRPOLYLINETO16</b> structures contain members for the <a href="/windows/desktop/api/wingdi/nf-wingdi-polyline">Polyline</a>, <a href="/windows/desktop/api/wingdi/nf-wingdi-polybezier">PolyBezier</a>, <a href="/windows/desktop/api/wingdi/nf-wingdi-polygon">Polygon</a>, <a href="/windows/desktop/api/wingdi/nf-wingdi-polybezierto">PolyBezierTo</a>, and <a href="/windows/desktop/api/wingdi/nf-wingdi-polylineto">PolylineTo</a> enhanced metafile records.
 
 ## -struct-fields
 
@@ -76,9 +76,8 @@ Array of 16-bit points, in logical units.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/metafile-structures">Metafile Structures</a>
+<a href="/windows/desktop/gdi/metafile-structures">Metafile Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/metafiles">Metafiles Overview</a>
-
+<a href="/windows/desktop/gdi/metafiles">Metafiles Overview</a>

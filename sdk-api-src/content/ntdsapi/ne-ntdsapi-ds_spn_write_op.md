@@ -50,27 +50,26 @@ api_name:
 
 ## -description
 
-The <b>DS_SPN_WRITE_OP</b> enumeration identifies the type of write operation that should be performed by the <a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/nf-ntdsapi-dswriteaccountspna">DsWriteAccountSpn</a> function.
+The <b>DS_SPN_WRITE_OP</b> enumeration identifies the type of write operation that should be performed by the <a href="/windows/desktop/api/ntdsapi/nf-ntdsapi-dswriteaccountspna">DsWriteAccountSpn</a> function.
 
 ## -enum-fields
 
 ### -field DS_SPN_ADD_SPN_OP
 
-Adds the specified service principal names (SPNs) to the object identified by the <i>pszAccount</i> parameter in <a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/nf-ntdsapi-dswriteaccountspna">DsWriteAccountSpn</a>.
+Adds the specified service principal names (SPNs) to the object identified by the <i>pszAccount</i> parameter in <a href="/windows/desktop/api/ntdsapi/nf-ntdsapi-dswriteaccountspna">DsWriteAccountSpn</a>.
 
 ### -field DS_SPN_REPLACE_SPN_OP
 
-Removes all SPNs currently registered on the account identified by the <i>pszAccount</i> parameter in <a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/nf-ntdsapi-dswriteaccountspna">DsWriteAccountSpn</a> and replaces them with the SPNs specified  by the <i>rpszSpn</i> parameter in <b>DsWriteAccountSpn</b>.
+Removes all SPNs currently registered on the account identified by the <i>pszAccount</i> parameter in <a href="/windows/desktop/api/ntdsapi/nf-ntdsapi-dswriteaccountspna">DsWriteAccountSpn</a> and replaces them with the SPNs specified  by the <i>rpszSpn</i> parameter in <b>DsWriteAccountSpn</b>.
 
 ### -field DS_SPN_DELETE_SPN_OP
 
-Deletes the specified SPNs from the object identified by the <i>pszAccount</i> parameter in <a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/nf-ntdsapi-dswriteaccountspna">DsWriteAccountSpn</a>.
+Deletes the specified SPNs from the object identified by the <i>pszAccount</i> parameter in <a href="/windows/desktop/api/ntdsapi/nf-ntdsapi-dswriteaccountspna">DsWriteAccountSpn</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/nf-ntdsapi-dswriteaccountspna">DsWriteAccountSpn</a>
+<a href="/windows/desktop/api/ntdsapi/nf-ntdsapi-dswriteaccountspna">DsWriteAccountSpn</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/AD/enumerations-in-active-directory-domain-services">Enumerations in Active Directory Domain Services</a>
-
+<a href="/windows/desktop/AD/enumerations-in-active-directory-domain-services">Enumerations in Active Directory Domain Services</a>

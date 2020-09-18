@@ -54,19 +54,19 @@ api_name:
 
 ## -description
 
-Sets the specified object's site by calling its <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-iobjectwithsite-setsite">IObjectWithSite::SetSite</a> method.
+Sets the specified object's site by calling its <a href="/windows/desktop/api/ocidl/nf-ocidl-iobjectwithsite-setsite">IObjectWithSite::SetSite</a> method.
 
 ## -parameters
 
 ### -param punk [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>*</b>
+Type: <b><a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>*</b>
 
 A pointer to the IUnknown interface of the object whose site is to be changed.
 
 ### -param punkSite [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>*</b>
+Type: <b><a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>*</b>
 
 A pointer to the IUnknown interface of the new site.
 
@@ -78,5 +78,4 @@ Returns S_OK if the site was successfully set, or a COM error code otherwise.
 
 ## -remarks
 
-This function calls the specified object's IUnknown::QueryInterface method to obtain a pointer to the object's <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-iobjectwithsite">IObjectWithSite</a> interface.  If successful, the function calls <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-iobjectwithsite-setsite">IObjectWithSite::SetSite</a> to set or change the site.
-
+This function calls the specified object's IUnknown::QueryInterface method to obtain a pointer to the object's <a href="/windows/desktop/api/ocidl/nn-ocidl-iobjectwithsite">IObjectWithSite</a> interface.  If successful, the function calls <a href="/windows/desktop/api/ocidl/nf-ocidl-iobjectwithsite-setsite">IObjectWithSite::SetSite</a> to set or change the site.

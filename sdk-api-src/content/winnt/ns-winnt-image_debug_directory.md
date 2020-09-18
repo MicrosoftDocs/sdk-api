@@ -189,5 +189,4 @@ A file pointer to the debugging information.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Debug/imagehlp-structures">ImageHlp Structures</a>
-
+<a href="/windows/desktop/Debug/imagehlp-structures">ImageHlp Structures</a>

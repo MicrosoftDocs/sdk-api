@@ -129,7 +129,7 @@ Set by Windows to indicate that the buffer is queued for playback.
 </dl>
 </td>
 <td width="60%">
-Set by Windows to indicate that the buffer has been prepared with the <a href="https://docs.microsoft.com/previous-versions/dd743848(v=vs.85)">waveInPrepareHeader</a> or <a href="https://docs.microsoft.com/previous-versions/dd743868(v=vs.85)">waveOutPrepareHeader</a> function.
+Set by Windows to indicate that the buffer has been prepared with the <a href="/previous-versions/dd743848(v=vs.85)">waveInPrepareHeader</a> or <a href="/previous-versions/dd743868(v=vs.85)">waveOutPrepareHeader</a> function.
 
 </td>
 </tr>
@@ -151,21 +151,20 @@ Reserved.
 
 Use the WHDR_BEGINLOOP and WHDR_ENDLOOP flags in the <b>dwFlags</b> member to specify the beginning and ending data blocks for looping. To loop on a single block, specify both flags for the same block. Use the <b>dwLoops</b> member in the <b>WAVEHDR</b> structure for the first block in the loop to specify the number of times to play the loop.
 
-The <b>lpData</b>, <b>dwBufferLength</b>, and <b>dwFlags</b> members must be set before calling the <a href="https://docs.microsoft.com/previous-versions/dd743848(v=vs.85)">waveInPrepareHeader</a> or <a href="https://docs.microsoft.com/previous-versions/dd743868(v=vs.85)">waveOutPrepareHeader</a> function. (For either function, the <b>dwFlags</b> member must be set to zero.)
+The <b>lpData</b>, <b>dwBufferLength</b>, and <b>dwFlags</b> members must be set before calling the <a href="/previous-versions/dd743848(v=vs.85)">waveInPrepareHeader</a> or <a href="/previous-versions/dd743868(v=vs.85)">waveOutPrepareHeader</a> function. (For either function, the <b>dwFlags</b> member must be set to zero.)
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/waveform-audio">Waveform Audio</a>
+<a href="/windows/desktop/Multimedia/waveform-audio">Waveform Audio</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/waveform-structures">Waveform Structures</a>
+<a href="/windows/desktop/Multimedia/waveform-structures">Waveform Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/dd743848(v=vs.85)">waveInPrepareHeader</a>
+<a href="/previous-versions/dd743848(v=vs.85)">waveInPrepareHeader</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/dd743868(v=vs.85)">waveOutPrepareHeader</a>
-
+<a href="/previous-versions/dd743868(v=vs.85)">waveOutPrepareHeader</a>

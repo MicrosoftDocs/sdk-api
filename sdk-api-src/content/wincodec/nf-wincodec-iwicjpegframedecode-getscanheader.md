@@ -62,7 +62,7 @@ The index of the scan for which header data is retrieved.
 
 ### -param pScanHeader [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wincodec/ns-wincodec-wicjpegscanheader">WICJpegScanHeader</a>*</b>
+Type: <b><a href="/windows/desktop/api/wincodec/ns-wincodec-wicjpegscanheader">WICJpegScanHeader</a>*</b>
 
 A pointer that receives the frame header data.
 
@@ -74,5 +74,4 @@ Returns S_OK on successful completion.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicjpegframedecode">IWICJpegFrameDecode</a>
-
+<a href="/windows/desktop/api/wincodec/nn-wincodec-iwicjpegframedecode">IWICJpegFrameDecode</a>

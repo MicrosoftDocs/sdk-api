@@ -67,13 +67,12 @@ If the function fails, it returns a <b>NULL</b> pointer.
 
 ## -remarks
 
-The allocated <a href="/windows/win32/api/winldap/ns-winldap-ldap_berval">berval</a> should be freed with <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winber/nf-winber-ber_bvfree">ber_bvfree</a>.
+The allocated <a href="/windows/win32/api/winldap/ns-winldap-ldap_berval">berval</a> should be freed with <a href="/previous-versions/windows/desktop/api/winber/nf-winber-ber_bvfree">ber_bvfree</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/ldap/functions">Functions</a>
+<a href="/previous-versions/windows/desktop/ldap/functions">Functions</a>
 
 
 
 <a href="/windows/win32/api/winldap/ns-winldap-ldap_berval">berval</a>
-

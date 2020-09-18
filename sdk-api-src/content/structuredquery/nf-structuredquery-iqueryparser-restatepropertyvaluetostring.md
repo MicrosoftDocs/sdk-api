@@ -56,7 +56,7 @@ Restates a specified property for a condition as a query string.
 
 ### -param pCondition [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/structuredquerycondition/nn-structuredquerycondition-icondition">ICondition</a>*</b>
+Type: <b><a href="/windows/desktop/api/structuredquerycondition/nn-structuredquerycondition-icondition">ICondition</a>*</b>
 
 A condition to be restated as a query string.
 
@@ -70,13 +70,13 @@ Reserved. Must be <b>FALSE</b>.
 
 Type: <b>LPWSTR*</b>
 
-Receives a pointer to the property name as a Unicode string. The calling application must free the string by calling <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a>.
+Receives a pointer to the property name as a Unicode string. The calling application must free the string by calling <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a>.
 
 ### -param ppszQueryString [out]
 
 Type: <b>LPWSTR*</b>
 
-Receives a pointer to a query string for that property. The calling application must free the string by calling <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a>.
+Receives a pointer to a query string for that property. The calling application must free the string by calling <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a>.
 
 ## -returns
 
@@ -87,4 +87,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -remarks
 
 If the leaf nodes of the condition contain more than one property name, or no property name at all, E_INVALIDARG is returned.
-

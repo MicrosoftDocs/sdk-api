@@ -50,11 +50,11 @@ api_name:
 
 ## -description
 
-An interface from which <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12device">ID3D12Device</a> and <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12devicechild">ID3D12DeviceChild</a> inherit from. It provides methods to associate private data and annotate object names.
+An interface from which <a href="/windows/desktop/api/d3d12/nn-d3d12-id3d12device">ID3D12Device</a> and <a href="/windows/desktop/api/d3d12/nn-d3d12-id3d12devicechild">ID3D12DeviceChild</a> inherit from. It provides methods to associate private data and annotate object names.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D12Object</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ID3D12Object</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D12Object</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ID3D12Object</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ID3D12Object</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12object-getprivatedata">GetPrivateData</a>
+<a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12object-getprivatedata">GetPrivateData</a>
 </td>
 <td align="left" width="63%">
 Gets application-defined data from a device object.
@@ -78,7 +78,7 @@ Gets application-defined data from a device object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12object-setname">SetName</a>
+<a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12object-setname">SetName</a>
 </td>
 <td align="left" width="63%">
 Associates a name with the device object.
@@ -89,7 +89,7 @@ Associates a name with the device object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12object-setprivatedata">SetPrivateData</a>
+<a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12object-setprivatedata">SetPrivateData</a>
 </td>
 <td align="left" width="63%">
 Sets application-defined data to a device object and associates that data with an application-defined <b>GUID</b>.
@@ -99,10 +99,10 @@ Sets application-defined data to a device object and associates that data with a
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12object-setprivatedatainterface">SetPrivateDataInterface</a>
+<a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12object-setprivatedatainterface">SetPrivateDataInterface</a>
 </td>
 <td align="left" width="63%">
-Associates an <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>-derived interface with the device object and associates that interface with an application-defined <b>GUID</b>.
+Associates an <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>-derived interface with the device object and associates that interface with an application-defined <b>GUID</b>.
         
 
 </td>
@@ -111,9 +111,8 @@ Associates an <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3d12/direct3d-12-interfaces">Core Interfaces</a>
+<a href="/windows/desktop/direct3d12/direct3d-12-interfaces">Core Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
-
+<a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>

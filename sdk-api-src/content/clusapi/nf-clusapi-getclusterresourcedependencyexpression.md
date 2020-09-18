@@ -73,9 +73,8 @@ Size in characters of the buffer pointed to by the <i>lpszDependencyExpression</
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resource-management-functions">Failover Cluster Resource Management Functions</a>
+<a href="/previous-versions/windows/desktop/mscs/resource-management-functions">Failover Cluster Resource Management Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-setclusterresourcedependencyexpression">SetClusterResourceDependencyExpression</a>
-
+<a href="/windows/desktop/api/clusapi/nf-clusapi-setclusterresourcedependencyexpression">SetClusterResourceDependencyExpression</a>

@@ -56,17 +56,16 @@ Signals a shared fence between the D3D layers and diagnostics tools.
 
 ### -param pFence [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12fence">ID3D12Fence</a>*</b>
+Type: <b><a href="/windows/desktop/api/d3d12/nn-d3d12-id3d12fence">ID3D12Fence</a>*</b>
 
 A pointer to the shared fence to signal.
 
 ### -param FenceValue
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT64</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT64</a></b>
 
 An unsigned 64bit value to signal the shared fence with.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d12sdklayers/nn-d3d12sdklayers-id3d12sharingcontract">ID3D12SharingContract</a>
-
+<a href="/windows/desktop/api/d3d12sdklayers/nn-d3d12sdklayers-id3d12sharingcontract">ID3D12SharingContract</a>

@@ -57,7 +57,7 @@ Retrieves a service interface.
 
 ### -param guidService [in]
 
-The service identifier (SID) of the service. For a list of service identifiers, see <a href="https://docs.microsoft.com/windows/desktop/medfound/service-interfaces">Service Interfaces</a>.
+The service identifier (SID) of the service. For a list of service identifiers, see <a href="/windows/desktop/medfound/service-interfaces">Service Interfaces</a>.
 
 ### -param riid [in]
 
@@ -102,13 +102,12 @@ The object does not support the service.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfgetservice">IMFGetService</a>
+<a href="/windows/desktop/api/mfidl/nn-mfidl-imfgetservice">IMFGetService</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-mfgetservice">MFGetService</a>
+<a href="/windows/desktop/api/mfidl/nf-mfidl-mfgetservice">MFGetService</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/service-interfaces">Service Interfaces</a>
-
+<a href="/windows/desktop/medfound/service-interfaces">Service Interfaces</a>

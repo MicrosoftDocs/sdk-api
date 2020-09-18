@@ -73,7 +73,7 @@ When writing code that targets OneCore and Desktop platforms,  you may see ApiVa
 
 To fix this problem, wrap the API call in <b>IsApiSetImplemented</b>.  This function tests at runtime if the specified API set is present on the target platform.
 
-To determine the API set for a given API, find the API name on the <a href="https://docs.microsoft.com/windows/desktop/apiindex/umbrella-lib-onecoreuap">OneCoreUap umbrella library</a> page and remove the <code>.dll</code> suffix from the requirements entry.
+To determine the API set for a given API, find the API name on the <a href="/windows/desktop/apiindex/umbrella-lib-onecoreuap">OneCoreUap umbrella library</a> page and remove the <code>.dll</code> suffix from the requirements entry.
 
 By making use of <b>IsApiSetImplemented</b>, you can target OneCore and Desktop systems with a single binary.
 
@@ -85,13 +85,12 @@ You don't need to call <b>IsApiSetImplemented</b> for universal APIs because the
 
  See the corresponding API reference documentation pages to determine if a given API is universally available. Look for the <b>Target Platform</b> line in the requirements block of the documentation page.
 
- For more information and examples of usage, see <a href="https://docs.microsoft.com/windows-hardware/drivers/develop/building-for-onecore">Building for OneCore</a>.
+ For more information and examples of usage, see <a href="/windows-hardware/drivers/develop/building-for-onecore">Building for OneCore</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/develop/building-for-onecore">Building for OneCore</a>
+<a href="/windows-hardware/drivers/develop/building-for-onecore">Building for OneCore</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/develop/validating-universal-drivers">Validating Universal Windows drivers</a>
-
+<a href="/windows-hardware/drivers/develop/validating-universal-drivers">Validating Universal Windows drivers</a>

@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-Describes an XSD type. This structure is populated by <a href="https://docs.microsoft.com/windows/desktop/WsdApi/web-services-for-devices-code-generator">generated code</a>.
+Describes an XSD type. This structure is populated by <a href="/windows/desktop/WsdApi/web-services-for-devices-code-generator">generated code</a>.
 
 ## -struct-fields
 
@@ -63,4 +63,3 @@ The optional URI that identifies the type.
 ### -field Table
 
 The type table that describes the schema of the type and its binary representation.
-

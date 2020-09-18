@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-Deprecated. Displays a URL that failed to be successfully parsed by <a href="https://docs.microsoft.com/windows/desktop/api/shdeprecated/nf-shdeprecated-ibrowserservice-ieparsedisplayname">IBrowserService::IEParseDisplayName</a>.
+Deprecated. Displays a URL that failed to be successfully parsed by <a href="/windows/desktop/api/shdeprecated/nf-shdeprecated-ibrowserservice-ieparsedisplayname">IBrowserService::IEParseDisplayName</a>.
 
 ## -parameters
 
@@ -59,7 +59,7 @@ Deprecated. Displays a URL that failed to be successfully parsed by <a href="htt
 
 Type: <b>HRESULT</b>
 
-An <b>HRESULT</b> returned by <a href="https://docs.microsoft.com/windows/desktop/api/shdeprecated/nf-shdeprecated-ibrowserservice-ieparsedisplayname">IBrowserService::IEParseDisplayName</a>. If this parameter is a success code, E_OUTOFMEMORY, or HRESULT_FROM_WIN32(ERROR_CANCELLED), this method does nothing.
+An <b>HRESULT</b> returned by <a href="/windows/desktop/api/shdeprecated/nf-shdeprecated-ibrowserservice-ieparsedisplayname">IBrowserService::IEParseDisplayName</a>. If this parameter is a success code, E_OUTOFMEMORY, or HRESULT_FROM_WIN32(ERROR_CANCELLED), this method does nothing.
 
 ### -param pwszPath [in]
 
@@ -75,5 +75,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -remarks
 
-The <b>HRESULT</b> returned by <a href="https://docs.microsoft.com/windows/desktop/api/shdeprecated/nf-shdeprecated-ibrowserservice-ieparsedisplayname">IBrowserService::IEParseDisplayName</a> can be passed to <b>IBrowserService::DisplayParseError</b> without first checking for success or failure.
-
+The <b>HRESULT</b> returned by <a href="/windows/desktop/api/shdeprecated/nf-shdeprecated-ibrowserservice-ieparsedisplayname">IBrowserService::IEParseDisplayName</a> can be passed to <b>IBrowserService::DisplayParseError</b> without first checking for success or failure.

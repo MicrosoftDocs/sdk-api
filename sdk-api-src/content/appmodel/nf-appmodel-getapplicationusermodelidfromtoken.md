@@ -55,13 +55,13 @@ api_name:
 
 ## -description
 
-Gets the <a href="https://docs.microsoft.com/windows/desktop/appxpkg/appx-packaging-glossary">application user model ID</a> for the specified token.
+Gets the <a href="/windows/desktop/appxpkg/appx-packaging-glossary">application user model ID</a> for the specified token.
 
 ## -parameters
 
 ### -param token [in]
 
-A token that contains the application identity. This handle must have the <b>PROCESS_QUERY_LIMITED_INFORMATION</b> access right. For more info, see <a href="https://docs.microsoft.com/windows/desktop/ProcThread/process-security-and-access-rights">Process Security and Access Rights</a>.
+A token that contains the application identity. This handle must have the <b>PROCESS_QUERY_LIMITED_INFORMATION</b> access right. For more info, see <a href="/windows/desktop/ProcThread/process-security-and-access-rights">Process Security and Access Rights</a>.
 
 ### -param applicationUserModelIdLength [in, out]
 
@@ -106,7 +106,7 @@ The buffer is not large enough to hold the data. The required size is specified 
 
 ## -remarks
 
-For info about string size limits, see <a href="https://docs.microsoft.com/windows/desktop/appxpkg/identity-constants">Identity constants</a>.
+For info about string size limits, see <a href="/windows/desktop/appxpkg/identity-constants">Identity constants</a>.
 
 
 #### Examples
@@ -200,4 +200,3 @@ void ShowProcessApplicationUserModelId(__in const UINT32 pid, __in HANDLE token)
 }
 
 ```
-

@@ -61,7 +61,7 @@ Output number for which to retrieve a mutual exclusion object.
 
 ### -param dwMutexNum [in]
 
-Mutual exclusion number. This is an index of mutually exclusive relationships associated with the output. Set to a number between 0, and 1 less than the number of mutual exclusion objects retrieved by calling <a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfstreamselector-getoutputmutexcount">IMFASFStreamSelector::GetOutputMutexCount</a>.
+Mutual exclusion number. This is an index of mutually exclusive relationships associated with the output. Set to a number between 0, and 1 less than the number of mutual exclusion objects retrieved by calling <a href="/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfstreamselector-getoutputmutexcount">IMFASFStreamSelector::GetOutputMutexCount</a>.
 
 ### -param ppMutex [out]
 
@@ -95,13 +95,12 @@ Outputs are streams in the ASF data section that will be parsed.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nn-wmcontainer-imfasfstreamselector">IMFASFStreamSelector</a>
+<a href="/windows/desktop/api/wmcontainer/nn-wmcontainer-imfasfstreamselector">IMFASFStreamSelector</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfstreamselector-getoutputmutexcount">IMFASFStreamSelector::GetOutputMutexCount</a>
+<a href="/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfstreamselector-getoutputmutexcount">IMFASFStreamSelector::GetOutputMutexCount</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfstreamselector-setoutputmutexselection">IMFASFStreamSelector::SetOutputMutexSelection</a>
-
+<a href="/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfstreamselector-setoutputmutexselection">IMFASFStreamSelector::SetOutputMutexSelection</a>

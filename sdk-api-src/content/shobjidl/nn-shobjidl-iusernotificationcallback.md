@@ -50,11 +50,11 @@ api_name:
 
 ## -description
 
-Exposes a method for the handling of a mouse click or shortcut menu access in a notification balloon. Used with <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nf-shobjidl-iusernotification2-show">IUserNotification2::Show</a>.
+Exposes a method for the handling of a mouse click or shortcut menu access in a notification balloon. Used with <a href="/windows/desktop/api/shobjidl/nf-shobjidl-iusernotification2-show">IUserNotification2::Show</a>.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUserNotificationCallback</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IUserNotificationCallback</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUserNotificationCallback</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IUserNotificationCallback</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IUserNotificationCallback</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nf-shobjidl-iusernotificationcallback-onballoonuserclick">OnBalloonUserClick</a>
+<a href="/windows/desktop/api/shobjidl/nf-shobjidl-iusernotificationcallback-onballoonuserclick">OnBalloonUserClick</a>
 </td>
 <td align="left" width="63%">
 Called when the user clicks the balloon. The application may respond with an action that is suitable for the balloon being clicked.
@@ -79,7 +79,7 @@ Called when the user clicks the balloon. The application may respond with an act
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nf-shobjidl-iusernotificationcallback-oncontextmenu">OnContextMenu</a>
+<a href="/windows/desktop/api/shobjidl/nf-shobjidl-iusernotificationcallback-oncontextmenu">OnContextMenu</a>
 </td>
 <td align="left" width="63%">
 Called when the user right-clicks (or presses SHIFT+F10) the icon in the notification area. The application should show its context menu in response.
@@ -89,7 +89,7 @@ Called when the user right-clicks (or presses SHIFT+F10) the icon in the notific
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nf-shobjidl-iusernotificationcallback-onleftclick">OnLeftClick</a>
+<a href="/windows/desktop/api/shobjidl/nf-shobjidl-iusernotificationcallback-onleftclick">OnLeftClick</a>
 </td>
 <td align="left" width="63%">
 Called when the user clicks the icon in the notification area. The applications may launch some customary UI in response.
@@ -97,4 +97,3 @@ Called when the user clicks the icon in the notification area. The applications 
 </td>
 </tr>
 </table>
-

@@ -54,14 +54,14 @@ api_name:
 
 ## -description
 
-Creates a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resources">resource</a> in a 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/c-gly">cluster</a>. The <b>PCLUSAPI_CREATE_CLUSTER_RESOURCE</b> type defines a pointer to this function.
+Creates a <a href="/previous-versions/windows/desktop/mscs/resources">resource</a> in a 
+    <a href="/previous-versions/windows/desktop/mscs/c-gly">cluster</a>. The <b>PCLUSAPI_CREATE_CLUSTER_RESOURCE</b> type defines a pointer to this function.
 
 ## -parameters
 
 ### -param hGroup [in]
 
-Handle to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/groups">group</a> that should receive the resource.
+Handle to the <a href="/previous-versions/windows/desktop/mscs/groups">group</a> that should receive the resource.
 
 ### -param lpszResourceName [in]
 
@@ -76,15 +76,15 @@ Pointer to the type of new resource. The specified type must be installed in the
 
 Bitmask describing how the resource should be added to the cluster. The <i>dwFlags</i> 
       parameter can be set to one of the following values enumerated from the 
-      <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ne-clusapi-cluster_resource_create_flags">CLUSTER_RESOURCE_CREATE_FLAGS</a> 
+      <a href="/previous-versions/windows/desktop/api/clusapi/ne-clusapi-cluster_resource_create_flags">CLUSTER_RESOURCE_CREATE_FLAGS</a> 
       enumeration.
 
 
 
 #### CLUSTER_RESOURCE_DEFAULT_MONITOR (0)
 
-The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-service">Cluster service</a> determines the 
-        <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resource-monitor">Resource Monitor</a> to which the new resource will be 
+The <a href="/previous-versions/windows/desktop/mscs/cluster-service">Cluster service</a> determines the 
+        <a href="/previous-versions/windows/desktop/mscs/resource-monitor">Resource Monitor</a> to which the new resource will be 
         assigned.
 
 
@@ -99,27 +99,26 @@ Causes the Cluster service to create a separate Resource Monitor dedicated exclu
 If the operation succeeds, the function returns a resource handle.
 
 If the operation fails, the function returns <b>NULL</b>. For more information about the 
-       error, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+       error, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
 Do not call <b>CreateClusterResource</b> from a 
     resource DLL. For more information, see 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/function-calls-to-avoid-in-resource-dlls">Function Calls to Avoid in Resource DLLs</a>.
+    <a href="/previous-versions/windows/desktop/mscs/function-calls-to-avoid-in-resource-dlls">Function Calls to Avoid in Resource DLLs</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ne-clusapi-cluster_resource_create_flags">CLUSTER_RESOURCE_CREATE_FLAGS</a>
+<a href="/previous-versions/windows/desktop/api/clusapi/ne-clusapi-cluster_resource_create_flags">CLUSTER_RESOURCE_CREATE_FLAGS</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resource-management-functions">Cluster Resource Management Functions</a>
+<a href="/previous-versions/windows/desktop/mscs/resource-management-functions">Cluster Resource Management Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-deleteclusterresource">DeleteClusterResource</a>
+<a href="/windows/desktop/api/clusapi/nf-clusapi-deleteclusterresource">DeleteClusterResource</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-openclustergroup">OpenClusterGroup</a>
-
+<a href="/windows/desktop/api/clusapi/nf-clusapi-openclustergroup">OpenClusterGroup</a>

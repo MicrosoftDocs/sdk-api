@@ -50,9 +50,9 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[The <a href="https://docs.microsoft.com/windows/desktop/api/tssbx/nn-tssbx-iwtssbplugin">IWTSSBPlugin</a> interface is 
+<p class="CCE_Message">[The <a href="/windows/desktop/api/tssbx/nn-tssbx-iwtssbplugin">IWTSSBPlugin</a> interface is 
     not supported  after Windows Server 2008 R2. Starting with Windows Server 2012 please use the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/sbtsv/nn-sbtsv-itssbplugin">ITsSbPlugin</a> interface.]
+    <a href="/windows/desktop/api/sbtsv/nn-sbtsv-itssbplugin">ITsSbPlugin</a> interface.]
 
 Initializes the plug-in and returns a value that indicates the redirection capabilities of the 
     plug-in. Terminal Services Session Broker (TS Session Broker) calls this method 
@@ -68,13 +68,13 @@ A pointer to a value that indicates the redirection capabilities of the plug-in.
 
 #### 0
 
-The plug-in redirects only within a farm in TS Session Broker. If this value is returned, TS Session Broker does not call the <a href="https://docs.microsoft.com/windows/desktop/api/tssbx/nf-tssbx-iwtssbplugin-wtssbx_getuserexternalsession">WTSSBX_GetUserExternalSession</a> method on the plug-in.
+The plug-in redirects only within a farm in TS Session Broker. If this value is returned, TS Session Broker does not call the <a href="/windows/desktop/api/tssbx/nf-tssbx-iwtssbplugin-wtssbx_getuserexternalsession">WTSSBX_GetUserExternalSession</a> method on the plug-in.
 
 
 
 #### 1
 
-The plug-in redirects within a farm in TS Session Broker, and the plug-in implements <a href="https://docs.microsoft.com/windows/desktop/api/tssbx/nf-tssbx-iwtssbplugin-wtssbx_getuserexternalsession">WTSSBX_GetUserExternalSession</a> to redirect outside the farm.
+The plug-in redirects within a farm in TS Session Broker, and the plug-in implements <a href="/windows/desktop/api/tssbx/nf-tssbx-iwtssbplugin-wtssbx_getuserexternalsession">WTSSBX_GetUserExternalSession</a> to redirect outside the farm.
 
 ## -returns
 
@@ -88,9 +88,8 @@ Your implementation of <b>Initialize</b> must return <b>S_OK</b> immediately if 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sbtsv/nn-sbtsv-itssbplugin">ITsSbPlugin</a>
+<a href="/windows/desktop/api/sbtsv/nn-sbtsv-itssbplugin">ITsSbPlugin</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tssbx/nn-tssbx-iwtssbplugin">IWTSSBPlugin</a>
-
+<a href="/windows/desktop/api/tssbx/nn-tssbx-iwtssbplugin">IWTSSBPlugin</a>

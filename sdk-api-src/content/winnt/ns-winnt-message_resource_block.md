@@ -76,7 +76,7 @@ The highest message identifier contained within this structure.
 
 Type: <b>DWORD</b>
 
-The offset, in bytes, from the beginning of the <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-message_resource_data">MESSAGE_RESOURCE_DATA</a> structure to the <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-message_resource_entry">MESSAGE_RESOURCE_ENTRY</a> structures in this <b>MESSAGE_RESOURCE_BLOCK</b>. The <b>MESSAGE_RESOURCE_ENTRY</b> structures contain the message strings.
+The offset, in bytes, from the beginning of the <a href="/windows/desktop/api/winnt/ns-winnt-message_resource_data">MESSAGE_RESOURCE_DATA</a> structure to the <a href="/windows/desktop/api/winnt/ns-winnt-message_resource_entry">MESSAGE_RESOURCE_ENTRY</a> structures in this <b>MESSAGE_RESOURCE_BLOCK</b>. The <b>MESSAGE_RESOURCE_ENTRY</b> structures contain the message strings.
 
 ## -see-also
 
@@ -84,11 +84,11 @@ The offset, in bytes, from the beginning of the <a href="https://docs.microsoft.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-message_resource_data">MESSAGE_RESOURCE_DATA</a>
+<a href="/windows/desktop/api/winnt/ns-winnt-message_resource_data">MESSAGE_RESOURCE_DATA</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-message_resource_entry">MESSAGE_RESOURCE_ENTRY</a>
+<a href="/windows/desktop/api/winnt/ns-winnt-message_resource_entry">MESSAGE_RESOURCE_ENTRY</a>
 
 
 
@@ -96,5 +96,4 @@ The offset, in bytes, from the beginning of the <a href="https://docs.microsoft.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/menurc/resources">Resources</a>
-
+<a href="/windows/desktop/menurc/resources">Resources</a>

@@ -60,13 +60,12 @@ The safe array for which the pinning reference count of the descriptor should de
 
 ## -remarks
 
-A call to the <b>SafeArrayReleaseDescriptor</b> function should match every previous call to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-safearrayaddref">SafeArrayAddRef</a> function.
+A call to the <b>SafeArrayReleaseDescriptor</b> function should match every previous call to the <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-safearrayaddref">SafeArrayAddRef</a> function.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-safearrayaddref">SafeArrayAddRef</a>
+<a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-safearrayaddref">SafeArrayAddRef</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-safearrayreleasedata">SafeArrayReleaseData</a>
-
+<a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-safearrayreleasedata">SafeArrayReleaseData</a>

@@ -53,8 +53,8 @@ api_name:
 
 ## -description
 
-Enumerates a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resource-types">resource type's</a> possible owner 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/nodes">nodes</a> or resources, returning the name of one node or 
+Enumerates a <a href="/previous-versions/windows/desktop/mscs/resource-types">resource type's</a> possible owner 
+    <a href="/previous-versions/windows/desktop/mscs/nodes">nodes</a> or resources, returning the name of one node or 
     resource per call. The <b>PCLUSAPI_CLUSTER_RESOURCE_TYPE_ENUM</b> type defines a pointer to this function.
 
 ## -parameters
@@ -62,11 +62,11 @@ Enumerates a <a href="https://docs.microsoft.com/previous-versions/windows/deskt
 ### -param hResTypeEnum [in]
 
 Resource type enumeration handle returned from 
-       <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-clusterresourcetypeopenenum">ClusterResourceTypeOpenEnum</a>.
+       <a href="/windows/desktop/api/clusapi/nf-clusapi-clusterresourcetypeopenenum">ClusterResourceTypeOpenEnum</a>.
 
 ### -param dwIndex [in]
 
-Index of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resources">resource</a> or node object to return. This 
+Index of the <a href="/previous-versions/windows/desktop/mscs/resources">resource</a> or node object to return. This 
        parameter should be zero for the first call to 
        <b>ClusterResourceTypeEnum</b> and then 
        incremented for subsequent calls.
@@ -75,7 +75,7 @@ Index of the <a href="https://docs.microsoft.com/previous-versions/windows/deskt
 
 Type of object returned by 
        <b>ClusterResourceTypeEnum</b>. The following 
-       values of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ne-clusapi-cluster_resource_type_enum">CLUSTER_RESOURCE_TYPE_ENUM</a> 
+       values of the <a href="/previous-versions/windows/desktop/api/clusapi/ne-clusapi-cluster_resource_type_enum">CLUSTER_RESOURCE_TYPE_ENUM</a> 
        enumeration are valid.
 
 
@@ -151,7 +151,7 @@ The buffer pointed to by <i>lpszName</i> is not big enough to hold the result. T
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">System error code</a></b></dt>
+<dt><b><a href="/windows/desktop/Debug/system-error-codes">System error code</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -165,28 +165,27 @@ The operation failed.
 
 Note that <i>lpcchName</i> refers to a count of characters and not a count of bytes, and 
      that the returned size does not include the terminating <b>NULL</b> in the count. For more information on sizing 
-     buffers, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/data-size-conventions">Data Size Conventions</a>.
+     buffers, see <a href="/previous-versions/windows/desktop/mscs/data-size-conventions">Data Size Conventions</a>.
 
 
 #### Examples
 
-See <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/enumerating-objects">Enumerating Objects</a>.
+See <a href="/previous-versions/windows/desktop/mscs/enumerating-objects">Enumerating Objects</a>.
 
 <div class="code"></div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ne-clusapi-cluster_resource_type_enum">CLUSTER_RESOURCE_TYPE_ENUM</a>
+<a href="/previous-versions/windows/desktop/api/clusapi/ne-clusapi-cluster_resource_type_enum">CLUSTER_RESOURCE_TYPE_ENUM</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-clusterresourcetypecloseenum">ClusterResourceTypeCloseEnum</a>
+<a href="/windows/desktop/api/clusapi/nf-clusapi-clusterresourcetypecloseenum">ClusterResourceTypeCloseEnum</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-clusterresourcetypeopenenum">ClusterResourceTypeOpenEnum</a>
+<a href="/windows/desktop/api/clusapi/nf-clusapi-clusterresourcetypeopenenum">ClusterResourceTypeOpenEnum</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resource-type-management-functions">Resource Type Management Functions</a>
-
+<a href="/previous-versions/windows/desktop/mscs/resource-type-management-functions">Resource Type Management Functions</a>

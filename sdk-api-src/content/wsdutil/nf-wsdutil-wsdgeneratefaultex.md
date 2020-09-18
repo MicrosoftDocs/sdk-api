@@ -106,7 +106,7 @@ A fault subcode.
 
 ### -param pReasons [in]
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-wsd_localized_string_list">WSD_LOCALIZED_STRING_LIST</a> structure that contains a list of localized reason codes.
+A <a href="/windows/desktop/api/wsdtypes/ns-wsdtypes-wsd_localized_string_list">WSD_LOCALIZED_STRING_LIST</a> structure that contains a list of localized reason codes.
 
 ### -param pszDetail [in]
 
@@ -114,7 +114,7 @@ Contains application-specific error information pertaining to the fault.
 
 ### -param ppFault [out]
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-wsd_soap_fault">WSD_SOAP_FAULT</a> structure that contains the generated fault.  <i>ppFault</i> must be freed with a call to <a href="https://docs.microsoft.com/windows/desktop/api/wsdutil/nf-wsdutil-wsdfreelinkedmemory">WSDFreeLinkedMemory</a>.
+A <a href="/windows/desktop/api/wsdtypes/ns-wsdtypes-wsd_soap_fault">WSD_SOAP_FAULT</a> structure that contains the generated fault.  <i>ppFault</i> must be freed with a call to <a href="/windows/desktop/api/wsdutil/nf-wsdutil-wsdfreelinkedmemory">WSDFreeLinkedMemory</a>.
 
 ## -returns
 
@@ -171,4 +171,3 @@ The following fault subcodes are not implemented by WSDAPI:<ul>
 <li>InvalidMessage</li>
 <li>FilteringNotSupported</li>
 </ul>
-

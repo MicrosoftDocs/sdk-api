@@ -91,13 +91,12 @@ The
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/winmsg/wm-stylechanged">WM_STYLECHANGED</a>
+<a href="/windows/desktop/winmsg/wm-stylechanged">WM_STYLECHANGED</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/winmsg/wm-stylechanging">WM_STYLECHANGING</a>
+<a href="/windows/desktop/winmsg/wm-stylechanging">WM_STYLECHANGING</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/winmsg/windows">Windows</a>
-
+<a href="/windows/desktop/winmsg/windows">Windows</a>

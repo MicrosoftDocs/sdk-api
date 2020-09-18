@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>IADsNameTranslate::SetEx</b> method establishes an array of objects for name translation. The specified objects must exist in the connected directory server. To set the name and format of a single directory object, use the  <a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadsnametranslate-set">IADsNameTranslate::Set</a> method.
+The <b>IADsNameTranslate::SetEx</b> method establishes an array of objects for name translation. The specified objects must exist in the connected directory server. To set the name and format of a single directory object, use the  <a href="/windows/desktop/api/iads/nf-iads-iadsnametranslate-set">IADsNameTranslate::Set</a> method.
 
 ## -parameters
 
@@ -68,7 +68,7 @@ This method supports the standard <b>HRESULT</b> return values, including:
 
 ## -remarks
 
-You cannot use the <b>IADsNameTranslate::SetEx</b> method to set name translation for objects residing on other servers, even when the referral chasing option is enabled. For more information about referral chasing, see  <a href="https://docs.microsoft.com/windows/desktop/ADSI/iadsnametranslate-property-methods">IADsNameTranslate Property Methods</a>.
+You cannot use the <b>IADsNameTranslate::SetEx</b> method to set name translation for objects residing on other servers, even when the referral chasing option is enabled. For more information about referral chasing, see  <a href="/windows/desktop/ADSI/iadsnametranslate-property-methods">IADsNameTranslate Property Methods</a>.
 
 You can use <b>IADsNameTranslate::SetEx</b> to set names for multiple objects. All the names, however, must be of the same format.
 
@@ -173,13 +173,12 @@ The following VBScript/ASP code example uses the <b>IADsNameTranslate::SetEx</b>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsnametranslate">IADsNameTranslate</a>
+<a href="/windows/desktop/api/iads/nn-iads-iadsnametranslate">IADsNameTranslate</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/iadsnametranslate-property-methods">IADsNameTranslate Property Methods</a>
+<a href="/windows/desktop/ADSI/iadsnametranslate-property-methods">IADsNameTranslate Property Methods</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadsnametranslate-set">IADsNameTranslate::Set</a>
-
+<a href="/windows/desktop/api/iads/nf-iads-iadsnametranslate-set">IADsNameTranslate::Set</a>

@@ -54,15 +54,15 @@ This function initializes the headers for the message in preparation for
                 processing.
             After a message has been initialized an application can
                 add additional headers.
-            On success the message is in <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_message_state">WS_MESSAGE_STATE_INITIALIZED</a> state.
+            On success the message is in <a href="/windows/desktop/api/webservices/ne-webservices-ws_message_state">WS_MESSAGE_STATE_INITIALIZED</a> state.
                 If the function fails, then no state transitions occurs.
 
 ## -parameters
 
 ### -param message [in]
 
-A pointer to the Message object to initialize.  The Message must be a valid <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-message">WS_MESSAGE</a> object instance returned
-                    by <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wscreatemessage">WsCreateMessage</a> or <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wscreatemessageforchannel">WsCreateMessageForChannel</a> and may not be NULL.
+A pointer to the Message object to initialize.  The Message must be a valid <a href="/windows/desktop/wsw/ws-message">WS_MESSAGE</a> object instance returned
+                    by <a href="/windows/desktop/api/webservices/nf-webservices-wscreatemessage">WsCreateMessage</a> or <a href="/windows/desktop/api/webservices/nf-webservices-wscreatemessageforchannel">WsCreateMessageForChannel</a> and may not be NULL.
 
 ### -param initialization [in]
 
@@ -83,7 +83,7 @@ A pointer to a message object that is used to initialize the <i>message</i> para
 
 ### -param error [in, optional]
 
-A  pointer to a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-error">WS_ERROR</a> object where additional information about the error should be stored if the function fails.
+A  pointer to a <a href="/windows/desktop/wsw/ws-error">WS_ERROR</a> object where additional information about the error should be stored if the function fails.
 
 ## -returns
 
@@ -132,9 +132,8 @@ This function may return other errors not listed above.
 ## -remarks
 
 The initial sender of a message should add an action header
-                to the message using <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wssetheader">WsSetHeader</a>.
+                to the message using <a href="/windows/desktop/api/webservices/nf-webservices-wssetheader">WsSetHeader</a>.
             
 
-This API must be called before <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wswriteenvelopestart">WsWriteEnvelopeStart</a> or
-                <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wswritemessagestart">WsWriteMessageStart</a> is called for the message.
-
+This API must be called before <a href="/windows/desktop/api/webservices/nf-webservices-wswriteenvelopestart">WsWriteEnvelopeStart</a> or
+                <a href="/windows/desktop/api/webservices/nf-webservices-wswritemessagestart">WsWriteMessageStart</a> is called for the message.

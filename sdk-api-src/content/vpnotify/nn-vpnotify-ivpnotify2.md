@@ -51,13 +51,13 @@ api_name:
 
 ## -description
 
-The <code>IVPNotify2</code> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/vpnotify/nn-vpnotify-ivpnotify">IVPNotify</a> and is implemented by the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/overlay-mixer-filter">Overlay Mixer</a> filter. This interface enables the Overlay Mixer to communicate with a video port (on a hardware device such as a decoder) that implements <a href="https://docs.microsoft.com/windows/desktop/api/vpconfig/nn-vpconfig-ivpconfig">IVPConfig</a>.
+The <code>IVPNotify2</code> interface inherits from <a href="/windows/desktop/api/vpnotify/nn-vpnotify-ivpnotify">IVPNotify</a> and is implemented by the <a href="/windows/desktop/DirectShow/overlay-mixer-filter">Overlay Mixer</a> filter. This interface enables the Overlay Mixer to communicate with a video port (on a hardware device such as a decoder) that implements <a href="/windows/desktop/api/vpconfig/nn-vpconfig-ivpconfig">IVPConfig</a>.
 
 Applications should never use this interface.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVPNotify2</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/vpnotify/nn-vpnotify-ivpnotify">IVPNotify</a>. <b>IVPNotify2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVPNotify2</b> interface inherits from <a href="/windows/desktop/api/vpnotify/nn-vpnotify-ivpnotify">IVPNotify</a>. <b>IVPNotify2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,7 +72,7 @@ The <b>IVPNotify2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vpnotify/nf-vpnotify-ivpnotify2-getvpsyncmaster">GetVPSyncMaster</a>
+<a href="/windows/desktop/api/vpnotify/nf-vpnotify-ivpnotify2-getvpsyncmaster">GetVPSyncMaster</a>
 </td>
 <td align="left" width="63%">
 Checks whether the video port controls the synchronization of the VGA.
@@ -81,7 +81,7 @@ Checks whether the video port controls the synchronization of the VGA.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vpnotify/nf-vpnotify-ivpnotify2-setvpsyncmaster">SetVPSyncMaster</a>
+<a href="/windows/desktop/api/vpnotify/nf-vpnotify-ivpnotify2-setvpsyncmaster">SetVPSyncMaster</a>
 </td>
 <td align="left" width="63%">
 Sets whether the video port controls vertical synchronization of the VGA.
@@ -96,5 +96,4 @@ Include Vptype.h before Vpnotify.h.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vpnotify/nn-vpnotify-ivpnotify">IVPNotify</a>
-
+<a href="/windows/desktop/api/vpnotify/nn-vpnotify-ivpnotify">IVPNotify</a>

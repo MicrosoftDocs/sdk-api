@@ -55,7 +55,7 @@ api_name:
 
 ## -description
 
-Gets or sets a value that determines the appearance of the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkedit-control-reference">InkEdit</a> control - whether it is flat (painted with no visual effects) or 3D (painted with three-dimensional effects).
+Gets or sets a value that determines the appearance of the <a href="/windows/desktop/tablet/inkedit-control-reference">InkEdit</a> control - whether it is flat (painted with no visual effects) or 3D (painted with three-dimensional effects).
 
 
 This property is read/write.
@@ -64,7 +64,7 @@ This property is read/write.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/inked/ne-inked-appearanceconstants">AppearanceConstants</a>
+<a href="/windows/desktop/api/inked/ne-inked-appearanceconstants">AppearanceConstants</a>
 
 
 
@@ -72,5 +72,4 @@ This property is read/write.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/tablet/inkedit-control-reference">InkEdit</a>
-
+<a href="/windows/desktop/tablet/inkedit-control-reference">InkEdit</a>

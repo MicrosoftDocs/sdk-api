@@ -78,5 +78,4 @@ Forces this enumeration to compile to 32 bits in size. Without this value, some 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/input_pointerdevice/enumerations">Enumerations</a>
-
+<a href="/previous-versions/windows/desktop/input_pointerdevice/enumerations">Enumerations</a>

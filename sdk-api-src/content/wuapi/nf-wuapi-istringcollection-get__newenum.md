@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-Gets an <a href="https://msdn.microsoft.com/library/ms221053.aspx">IEnumVARIANT</a> interface that can be used to enumerate the collection.
+Gets an <a href="/windows/win32/api/oaidl/nn-oaidl-ienumvariant">IEnumVARIANT</a> interface that can be used to enumerate the collection.
 
 This property is read-only.
 
@@ -59,5 +59,4 @@ This property is read-only.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-istringcollection">IStringCollection</a>
-
+<a href="/windows/desktop/api/wuapi/nn-wuapi-istringcollection">IStringCollection</a>

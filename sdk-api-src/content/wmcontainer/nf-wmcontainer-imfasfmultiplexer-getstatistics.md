@@ -61,7 +61,7 @@ The stream number for which to obtain statistics.
 
 ### -param pMuxStats [out]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/ns-wmcontainer-asf_mux_statistics">ASF_MUX_STATISTICS</a> structure that receives the statistics.
+Pointer to an <a href="/windows/desktop/api/wmcontainer/ns-wmcontainer-asf_mux_statistics">ASF_MUX_STATISTICS</a> structure that receives the statistics.
 
 ## -returns
 
@@ -87,9 +87,8 @@ The method succeeded.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/generating-new-asf-data-packets">Generating New ASF Data Packets</a>
+<a href="/windows/desktop/medfound/generating-new-asf-data-packets">Generating New ASF Data Packets</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nn-wmcontainer-imfasfmultiplexer">IMFASFMultiplexer</a>
-
+<a href="/windows/desktop/api/wmcontainer/nn-wmcontainer-imfasfmultiplexer">IMFASFMultiplexer</a>

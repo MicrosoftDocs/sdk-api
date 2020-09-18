@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Generated when an application server is forced to shut down. This is usually initiated by the user calling a catalog method, such as <a href="https://docs.microsoft.com/windows/desktop/api/comadmin/nf-comadmin-icomadmincatalog-shutdownapplication">ICOMAdminCatalog::ShutdownApplication</a>, to shut down the server.
+Generated when an application server is forced to shut down. This is usually initiated by the user calling a catalog method, such as <a href="/windows/desktop/api/comadmin/nf-comadmin-icomadmincatalog-shutdownapplication">ICOMAdminCatalog::ShutdownApplication</a>, to shut down the server.
 
 ## -parameters
 
@@ -68,5 +68,4 @@ The user verifies the return values from this method.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-icomappevents">IComAppEvents</a>
-
+<a href="/windows/desktop/api/comsvcs/nn-comsvcs-icomappevents">IComAppEvents</a>

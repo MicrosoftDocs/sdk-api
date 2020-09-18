@@ -86,9 +86,8 @@ When an application calls the <b>DrawEscape</b> function, the data identified by
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/device-context-functions">Device Context Functions</a>
+<a href="/windows/desktop/gdi/device-context-functions">Device Context Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/device-contexts">Device Contexts Overview</a>
-
+<a href="/windows/desktop/gdi/device-contexts">Device Contexts Overview</a>

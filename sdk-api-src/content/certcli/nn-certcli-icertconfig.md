@@ -72,7 +72,7 @@ Certificate Services interfaces support both apartment-threading and free-thread
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICertConfig</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ICertConfig</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICertConfig</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ICertConfig</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -87,35 +87,34 @@ The <b>ICertConfig</b> interface has these methods.
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/certcli/nf-certcli-icertconfig-getconfig">GetConfig</a>
+<a href="/windows/desktop/api/certcli/nf-certcli-icertconfig-getconfig">GetConfig</a>
 </td>
 <td align="left" width="63%">
-Gets the default configuration string (the server name and <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certification authority</a> (CA) name) for a Certificate Services server.</p> (Inherited from <b>ICertConfig</b><a href="https://docs.microsoft.com/windows/desktop/api/certcli/nn-certcli-icertconfig2">ICertConfig2</a>
-<a href="https://docs.microsoft.com/windows/desktop/api/certcli/nn-certcli-icertconfig2">CCertConfig</a>)</td>
+Gets the default configuration string (the server name and <a href="/windows/desktop/SecGloss/c-gly">certification authority</a> (CA) name) for a Certificate Services server.</p> (Inherited from <b>ICertConfig</b><a href="/windows/desktop/api/certcli/nn-certcli-icertconfig2">ICertConfig2</a>
+<a href="/windows/desktop/api/certcli/nn-certcli-icertconfig2">CCertConfig</a>)</td>
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/certcli/nf-certcli-icertconfig-getfield">GetField</a>
+<a href="/windows/desktop/api/certcli/nf-certcli-icertconfig-getfield">GetField</a>
 </td>
 <td align="left" width="63%">
-Gets a specific field from the current record of the configuration database.</p> (Inherited from <b>ICertConfig</b><a href="https://docs.microsoft.com/windows/desktop/api/certcli/nn-certcli-icertconfig2">ICertConfig2</a>
-<a href="https://docs.microsoft.com/windows/desktop/api/certcli/nn-certcli-icertconfig2">CCertConfig</a>)</td>
+Gets a specific field from the current record of the configuration database.</p> (Inherited from <b>ICertConfig</b><a href="/windows/desktop/api/certcli/nn-certcli-icertconfig2">ICertConfig2</a>
+<a href="/windows/desktop/api/certcli/nn-certcli-icertconfig2">CCertConfig</a>)</td>
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/certcli/nf-certcli-icertconfig-next">Next</a>
+<a href="/windows/desktop/api/certcli/nf-certcli-icertconfig-next">Next</a>
 </td>
 <td align="left" width="63%">
-Points to the next available Certificate Services server configuration in the configuration point.</p> (Inherited from <b>ICertConfig</b><a href="https://docs.microsoft.com/windows/desktop/api/certcli/nn-certcli-icertconfig2">ICertConfig2</a>
-<a href="https://docs.microsoft.com/windows/desktop/api/certcli/nn-certcli-icertconfig2">CCertConfig</a>)</td>
+Points to the next available Certificate Services server configuration in the configuration point.</p> (Inherited from <b>ICertConfig</b><a href="/windows/desktop/api/certcli/nn-certcli-icertconfig2">ICertConfig2</a>
+<a href="/windows/desktop/api/certcli/nn-certcli-icertconfig2">CCertConfig</a>)</td>
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/certcli/nf-certcli-icertconfig-reset">Reset</a>
+<a href="/windows/desktop/api/certcli/nf-certcli-icertconfig-reset">Reset</a>
 </td>
 <td align="left" width="63%">
-Resets the configuration query <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">state</a>.</p> (Inherited from <b>ICertConfig</b><a href="https://docs.microsoft.com/windows/desktop/api/certcli/nn-certcli-icertconfig2">ICertConfig2</a>
-<a href="https://docs.microsoft.com/windows/desktop/api/certcli/nn-certcli-icertconfig2">CCertConfig</a>)</td>
+Resets the configuration query <a href="/windows/desktop/SecGloss/s-gly">state</a>.</p> (Inherited from <b>ICertConfig</b><a href="/windows/desktop/api/certcli/nn-certcli-icertconfig2">ICertConfig2</a>
+<a href="/windows/desktop/api/certcli/nn-certcli-icertconfig2">CCertConfig</a>)</td>
 </tr>
 </table>
-

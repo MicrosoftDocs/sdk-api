@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Creates and manages advisory connections between a data object and one or more advise sinks. Its methods are intended to be used to implement the advisory methods of <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a>. <b>IDataAdviseHolder</b> is implemented on an advise holder object. Its methods establish and delete data advisory connections and send notification of change in data from a data object to an object that requires this notification, such as an OLE container, which must contain an advise sink.
+Creates and manages advisory connections between a data object and one or more advise sinks. Its methods are intended to be used to implement the advisory methods of <a href="/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a>. <b>IDataAdviseHolder</b> is implemented on an advise holder object. Its methods establish and delete data advisory connections and send notification of change in data from a data object to an object that requires this notification, such as an OLE container, which must contain an advise sink.
 
-Advise sinks are objects that require notification of change in the data the object contains and implement the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-iadvisesink">IAdviseSink</a> interface. Advise sinks are also usually associated with OLE compound document containers.
+Advise sinks are objects that require notification of change in the data the object contains and implement the <a href="/windows/desktop/api/objidl/nn-objidl-iadvisesink">IAdviseSink</a> interface. Advise sinks are also usually associated with OLE compound document containers.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDataAdviseHolder</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDataAdviseHolder</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDataAdviseHolder</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDataAdviseHolder</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>IDataAdviseHolder</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-idataadviseholder-advise">Advise</a>
+<a href="/windows/desktop/api/objidl/nf-objidl-idataadviseholder-advise">Advise</a>
 </td>
 <td align="left" width="63%">
 Creates a connection between an advise sink and a data object so the advise sink can receive notification of change in the data object.
@@ -80,7 +80,7 @@ Creates a connection between an advise sink and a data object so the advise sink
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-idataadviseholder-enumadvise">EnumAdvise</a>
+<a href="/windows/desktop/api/objidl/nf-objidl-idataadviseholder-enumadvise">EnumAdvise</a>
 </td>
 <td align="left" width="63%">
 Returns an object that can be used to enumerate the current advisory connections.
@@ -89,7 +89,7 @@ Returns an object that can be used to enumerate the current advisory connections
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-idataadviseholder-sendondatachange">SendOnDataChange</a>
+<a href="/windows/desktop/api/objidl/nf-objidl-idataadviseholder-sendondatachange">SendOnDataChange</a>
 </td>
 <td align="left" width="63%">
 Sends a change notification back to each advise sink that is currently being managed.
@@ -98,10 +98,10 @@ Sends a change notification back to each advise sink that is currently being man
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-idataadviseholder-unadvise">Unadvise</a>
+<a href="/windows/desktop/api/objidl/nf-objidl-idataadviseholder-unadvise">Unadvise</a>
 </td>
 <td align="left" width="63%">
-Destroys a notification connection previously set up with the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-idataadviseholder-advise">Advise</a> method.
+Destroys a notification connection previously set up with the <a href="/windows/desktop/api/objidl/nf-objidl-idataadviseholder-advise">Advise</a> method.
 
 </td>
 </tr>
@@ -109,9 +109,8 @@ Destroys a notification connection previously set up with the <a href="https://d
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-iadvisesink">IAdviseSink</a>
+<a href="/windows/desktop/api/objidl/nn-objidl-iadvisesink">IAdviseSink</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a>
-
+<a href="/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a>

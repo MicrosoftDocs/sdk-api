@@ -56,7 +56,7 @@ The <b>FDICopy</b> function extracts files from cabinets.
 
 ### -param hfdi [in]
 
-A valid FDI context handle returned by the <a href="https://docs.microsoft.com/windows/desktop/api/fdi/nf-fdi-fdicreate">FDICreate</a> function.
+A valid FDI context handle returned by the <a href="/windows/desktop/api/fdi/nf-fdi-fdicreate">FDICreate</a> function.
 
 ### -param pszCabinet [in]
 
@@ -74,7 +74,7 @@ No flags are currently defined and this parameter should be set to zero.
 
 ### -param pfnfdin [in]
 
-Pointer to an application-defined callback notification function to update the application on the status of the decoder. The function should be declared using the <a href="https://docs.microsoft.com/windows/desktop/api/fdi/nf-fdi-fnfdinotify">FNFDINOTIFY</a> macro.
+Pointer to an application-defined callback notification function to update the application on the status of the decoder. The function should be declared using the <a href="/windows/desktop/api/fdi/nf-fdi-fnfdinotify">FNFDINOTIFY</a> macro.
 
 ### -param pfnfdid [in]
 
@@ -88,9 +88,8 @@ Pointer to an application-specified value to pass to the notification function.
 
 If the function succeeds, it returns <b>TRUE</b>; otherwise, <b>FALSE</b>.
 
-Extended error information is provided in the <a href="https://docs.microsoft.com/windows/desktop/api/fdi_fci_types/ns-fdi_fci_types-erf">ERF</a> structure used to create the FDI context.
+Extended error information is provided in the <a href="/windows/desktop/api/fdi_fci_types/ns-fdi_fci_types-erf">ERF</a> structure used to create the FDI context.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fdi/nf-fdi-fdicreate">FDICreate</a>
-
+<a href="/windows/desktop/api/fdi/nf-fdi-fdicreate">FDICreate</a>

@@ -54,7 +54,7 @@ Used to enable the client to notify the Content Decryption Module (CDM) when glo
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFCdmSuspendNotify</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFCdmSuspendNotify</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFCdmSuspendNotify</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFCdmSuspendNotify</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IMFCdmSuspendNotify</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/medfound/imfcdmsuspendnotify-begin">Begin</a>
+<a href="/windows/desktop/medfound/imfcdmsuspendnotify-begin">Begin</a>
 </td>
 <td align="left" width="63%">
 Indicates that the suspend process is starting and  resources should be brought into a consistent state.  
@@ -78,7 +78,7 @@ Indicates that the suspend process is starting and  resources should be brought 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/medfound/imfcdmsuspendnotify-end">End</a>
+<a href="/windows/desktop/medfound/imfcdmsuspendnotify-end">End</a>
 </td>
 <td align="left" width="63%">
 The actual suspend is about to occur and no more calls will be made into the Content Decryption Module (CDM).
@@ -89,5 +89,4 @@ The actual suspend is about to occur and no more calls will be made into the Con
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
-
+<a href="/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>

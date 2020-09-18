@@ -97,29 +97,28 @@ There is not enough memory to perform the specified operation.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peerendenumeration">PeerEndEnumeration</a>
+<a href="/windows/desktop/api/p2p/nf-p2p-peerendenumeration">PeerEndEnumeration</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peerenumgroups">PeerEnumGroups</a>
+<a href="/windows/desktop/api/p2p/nf-p2p-peerenumgroups">PeerEnumGroups</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peerenumidentities">PeerEnumIdentities</a>
+<a href="/windows/desktop/api/p2p/nf-p2p-peerenumidentities">PeerEnumIdentities</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergetnextitem">PeerGetNextItem</a>
+<a href="/windows/desktop/api/p2p/nf-p2p-peergetnextitem">PeerGetNextItem</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergroupenumconnections">PeerGroupEnumConnections</a>
+<a href="/windows/desktop/api/p2p/nf-p2p-peergroupenumconnections">PeerGroupEnumConnections</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergroupenummembers">PeerGroupEnumMembers</a>
+<a href="/windows/desktop/api/p2p/nf-p2p-peergroupenummembers">PeerGroupEnumMembers</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergroupenumrecords">PeerGroupEnumRecords</a>
-
+<a href="/windows/desktop/api/p2p/nf-p2p-peergroupenumrecords">PeerGroupEnumRecords</a>

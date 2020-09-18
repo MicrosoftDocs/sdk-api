@@ -85,7 +85,7 @@ The <i>NumFramesRead</i> parameter is set to a value other than the data packet 
 </dl>
 </td>
 <td width="60%">
-This call was not preceded by a corresponding <a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nf-audioclient-iaudiocaptureclient-getbuffer">IAudioCaptureClient::GetBuffer</a> call.
+This call was not preceded by a corresponding <a href="/windows/desktop/api/audioclient/nf-audioclient-iaudiocaptureclient-getbuffer">IAudioCaptureClient::GetBuffer</a> call.
 
 </td>
 </tr>
@@ -115,23 +115,22 @@ The Windows audio service is not running.
 
 ## -remarks
 
-The client should call this method when it finishes reading a data packet that it obtained previously by calling the <a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nf-audioclient-iaudiocaptureclient-getbuffer">IAudioCaptureClient::GetBuffer</a> method.
+The client should call this method when it finishes reading a data packet that it obtained previously by calling the <a href="/windows/desktop/api/audioclient/nf-audioclient-iaudiocaptureclient-getbuffer">IAudioCaptureClient::GetBuffer</a> method.
 
-The data in the packet that the client obtained from a <a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nf-audioclient-iaudiocaptureclient-getbuffer">GetBuffer</a> call is guaranteed to remain valid until the client calls <b>ReleaseBuffer</b> to release the packet.
+The data in the packet that the client obtained from a <a href="/windows/desktop/api/audioclient/nf-audioclient-iaudiocaptureclient-getbuffer">GetBuffer</a> call is guaranteed to remain valid until the client calls <b>ReleaseBuffer</b> to release the packet.
 
-Between each <a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nf-audioclient-iaudiocaptureclient-getbuffer">GetBuffer</a> call and its corresponding <b>ReleaseBuffer</b> call, the client must either read the entire data packet or none of it. If the client reads the entire packet following the <b>GetBuffer</b> call, then it should call <b>ReleaseBuffer</b> with <i>NumFramesRead</i> set to the total number of frames in the data packet. In this case, the next call to <b>GetBuffer</b> will produce a new data packet. If the client reads none of the data from the packet following the call to <b>GetBuffer</b>, then it should call <b>ReleaseBuffer</b> with <i>NumFramesRead</i> set to 0. In this case, the next <b>GetBuffer</b> call will produce the same data packet as in the previous <b>GetBuffer</b> call.
+Between each <a href="/windows/desktop/api/audioclient/nf-audioclient-iaudiocaptureclient-getbuffer">GetBuffer</a> call and its corresponding <b>ReleaseBuffer</b> call, the client must either read the entire data packet or none of it. If the client reads the entire packet following the <b>GetBuffer</b> call, then it should call <b>ReleaseBuffer</b> with <i>NumFramesRead</i> set to the total number of frames in the data packet. In this case, the next call to <b>GetBuffer</b> will produce a new data packet. If the client reads none of the data from the packet following the call to <b>GetBuffer</b>, then it should call <b>ReleaseBuffer</b> with <i>NumFramesRead</i> set to 0. In this case, the next <b>GetBuffer</b> call will produce the same data packet as in the previous <b>GetBuffer</b> call.
 
 If the client calls <b>ReleaseBuffer</b> with <i>NumFramesRead</i> set to any value other than the packet size or 0, then the call fails and returns error code AUDCLNT_E_INVALID_SIZE.
 
-Clients should avoid excessive delays between the <a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nf-audioclient-iaudiocaptureclient-getbuffer">GetBuffer</a> call that acquires a buffer and the <b>ReleaseBuffer</b> call that releases the buffer. The implementation of the audio engine assumes that the <b>GetBuffer</b> call and the corresponding <b>ReleaseBuffer</b> call occur within the same buffer-processing period. Clients that delay releasing a buffer for more than one period risk losing sample data.
+Clients should avoid excessive delays between the <a href="/windows/desktop/api/audioclient/nf-audioclient-iaudiocaptureclient-getbuffer">GetBuffer</a> call that acquires a buffer and the <b>ReleaseBuffer</b> call that releases the buffer. The implementation of the audio engine assumes that the <b>GetBuffer</b> call and the corresponding <b>ReleaseBuffer</b> call occur within the same buffer-processing period. Clients that delay releasing a buffer for more than one period risk losing sample data.
 
-For a code example that calls the <b>ReleaseBuffer</b> method, see <a href="https://docs.microsoft.com/windows/desktop/CoreAudio/capturing-a-stream">Capturing a Stream</a>.
+For a code example that calls the <b>ReleaseBuffer</b> method, see <a href="/windows/desktop/CoreAudio/capturing-a-stream">Capturing a Stream</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nn-audioclient-iaudiocaptureclient">IAudioCaptureClient Interface</a>
+<a href="/windows/desktop/api/audioclient/nn-audioclient-iaudiocaptureclient">IAudioCaptureClient Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nf-audioclient-iaudiocaptureclient-getbuffer">IAudioCaptureClient::GetBuffer</a>
-
+<a href="/windows/desktop/api/audioclient/nf-audioclient-iaudiocaptureclient-getbuffer">IAudioCaptureClient::GetBuffer</a>

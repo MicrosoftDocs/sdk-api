@@ -111,9 +111,8 @@ If no filter in the graph implements this method, the Filter Graph Manager sets 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/control/nn-control-imediaposition">IMediaPosition Interface</a>
-
+<a href="/windows/desktop/api/control/nn-control-imediaposition">IMediaPosition Interface</a>

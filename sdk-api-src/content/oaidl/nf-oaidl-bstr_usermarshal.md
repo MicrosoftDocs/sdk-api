@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Marshals a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/automat/bstr">BSTR</a> object into the RPC buffer.
+Marshals a <a href="/previous-versions/windows/desktop/automat/bstr">BSTR</a> object into the RPC buffer.
 
 ## -parameters
 
@@ -69,4 +69,3 @@ The object.
 ## -returns
 
 The value obtained from the returned <b>HRESULT</b> value is <b>S_OK</b>.
-

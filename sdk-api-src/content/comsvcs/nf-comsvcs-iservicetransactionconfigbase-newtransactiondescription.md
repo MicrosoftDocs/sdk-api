@@ -64,9 +64,8 @@ This method can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, E
 
 ## -remarks
 
-If you do not provide a description by using this method, the value of the <i>szTrackerCtxName</i> parameter from the <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-iservicetrackerconfig-trackerconfig">IServiceTrackerConfig::TrackerConfig</a> method is used to describe the transaction.
+If you do not provide a description by using this method, the value of the <i>szTrackerCtxName</i> parameter from the <a href="/windows/desktop/api/comsvcs/nf-comsvcs-iservicetrackerconfig-trackerconfig">IServiceTrackerConfig::TrackerConfig</a> method is used to describe the transaction.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-iservicetransactionconfigbase">IServiceTransactionConfigBase</a>
-
+<a href="/windows/desktop/api/comsvcs/nn-comsvcs-iservicetransactionconfigbase">IServiceTransactionConfigBase</a>

@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Specify special retrieval options for known folders. These values supersede <a href="https://docs.microsoft.com/windows/desktop/shell/csidl">CSIDL</a> values, which have parallel meanings.
+Specify special retrieval options for known folders. These values supersede <a href="/windows/desktop/shell/csidl">CSIDL</a> values, which have parallel meanings.
 
 ## -enum-fields
 
@@ -60,7 +60,7 @@ Specify special retrieval options for known folders. These values supersede <a h
 
 ### -field KF_FLAG_FORCE_APP_DATA_REDIRECTION
 
-0x00080000. Introduced in Windows 10, version 1709. When called from a packaged app, <b>LocalAppData/RoamingAppData</b> folders are redirected to private app locations that match the paths returned from <a href="https://docs.microsoft.com/uwp/api/Windows.Storage.ApplicationData">Windows.Storage.ApplicationData.Current{LocalFolder|RoamingFolder}</a>. Other folders are redirected to subdirectories of <b>LocalAppData</b>
+0x00080000. Introduced in Windows 10, version 1709. When called from a packaged app, <b>LocalAppData/RoamingAppData</b> folders are redirected to private app locations that match the paths returned from <a href="/uwp/api/Windows.Storage.ApplicationData">Windows.Storage.ApplicationData.Current{LocalFolder|RoamingFolder}</a>. Other folders are redirected to subdirectories of <b>LocalAppData</b>
 
 This flag is used with <b>FOLDERID_AppDataDesktop</b>, <b>FOLDERID_AppDataDocuments</b>, <b>FOLDERID_AppDataFavorites</b>, and <b>FOLDERID_AppDataProgramData</b>. It is also intended for compatibility with .NET applications, and not meant to be used directly from an application.
 
@@ -92,19 +92,19 @@ This flag is used with <b>FOLDERID_AppDataDesktop</b>, <b>FOLDERID_AppDataDocume
 
 <ul>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetknownfolderpath">SHGetKnownFolderPath</a>
+<a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetknownfolderpath">SHGetKnownFolderPath</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetknownfolderidlist">SHGetKnownFolderIDList</a>
+<a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetknownfolderidlist">SHGetKnownFolderIDList</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iknownfolder-getidlist">IKnownFolder::GetIDList</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iknownfolder-getidlist">IKnownFolder::GetIDList</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iknownfolder-getpath">IKnownFolder::GetPath</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iknownfolder-getpath">IKnownFolder::GetPath</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iknownfolder-getshellitem">IKnownFolder::GetShellItem</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iknownfolder-getshellitem">IKnownFolder::GetShellItem</a>
 </li>
 </ul>
 
@@ -118,11 +118,11 @@ If the folder is located on a network, the function might take a longer time to 
 
 ### -field KF_FLAG_DONT_UNEXPAND
 
-0x00002000. Stores the full path in the registry without using environment strings. If this flag is not set, portions of the path may be represented by environment strings such as %USERPROFILE%. This flag can only be used with <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-shsetknownfolderpath">SHSetKnownFolderPath</a> and <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iknownfolder-setpath">IKnownFolder::SetPath</a>.
+0x00002000. Stores the full path in the registry without using environment strings. If this flag is not set, portions of the path may be represented by environment strings such as %USERPROFILE%. This flag can only be used with <a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shsetknownfolderpath">SHSetKnownFolderPath</a> and <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iknownfolder-setpath">IKnownFolder::SetPath</a>.
 
 ### -field KF_FLAG_NO_ALIAS
 
-0x00001000. Gets the true system path for the folder, free of any aliased placeholders such as %USERPROFILE%, returned by <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetknownfolderidlist">SHGetKnownFolderIDList</a> and <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iknownfolder-getidlist">IKnownFolder::GetIDList</a>. This flag has no effect on paths returned by <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetknownfolderpath">SHGetKnownFolderPath</a> and <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iknownfolder-getpath">IKnownFolder::GetPath</a>. By default, known folder retrieval functions and methods return the aliased path if an alias exists.
+0x00001000. Gets the true system path for the folder, free of any aliased placeholders such as %USERPROFILE%, returned by <a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetknownfolderidlist">SHGetKnownFolderIDList</a> and <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iknownfolder-getidlist">IKnownFolder::GetIDList</a>. This flag has no effect on paths returned by <a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetknownfolderpath">SHGetKnownFolderPath</a> and <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iknownfolder-getpath">IKnownFolder::GetPath</a>. By default, known folder retrieval functions and methods return the aliased path if an alias exists.
 
 ### -field KF_FLAG_INIT
 
@@ -154,13 +154,12 @@ These values, with the exception of KF_FLAG_ALIAS_ONLY, were defined in Windows�
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iknownfolder-getshellitem">IKnownFolder::GetShellItem</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iknownfolder-getshellitem">IKnownFolder::GetShellItem</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd940364(v=vs.85)">Known Folders Sample</a>
+<a href="/previous-versions/windows/desktop/legacy/dd940364(v=vs.85)">Known Folders Sample</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-shcreateiteminknownfolder">SHCreateItemInKnownFolder</a>
-
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-shcreateiteminknownfolder">SHCreateItemInKnownFolder</a>

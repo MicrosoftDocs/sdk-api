@@ -50,13 +50,12 @@ api_name:
 
 ## -description
 
-Gets the number of calendars currently displayed in the calendar control. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/mcm-getcalendarcount">MCM_GETCALENDARCOUNT</a> message explicitly.
+Gets the number of calendars currently displayed in the calendar control. You can use this macro or send the <a href="/windows/desktop/Controls/mcm-getcalendarcount">MCM_GETCALENDARCOUNT</a> message explicitly.
 
 ## -parameters
 
 ### -param hmc
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 Handle to a month calendar control.
-

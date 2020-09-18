@@ -68,7 +68,7 @@ The current user's library.
 
 ### -field wmpltRemote
 
-A library that belongs to another user on the same computer, the home network, or the Internet. The Player control must be running in remote mode to access these libraries. For information about running the Player control in remote mode, see <a href="https://docs.microsoft.com/windows/desktop/WMP/remoting-the-windows-media-player-control">Remoting the Windows Media Player Control</a>.
+A library that belongs to another user on the same computer, the home network, or the Internet. The Player control must be running in remote mode to access these libraries. For information about running the Player control in remote mode, see <a href="/windows/desktop/WMP/remoting-the-windows-media-player-control">Remoting the Windows Media Player Control</a>.
 
 ### -field wmpltDisc
 
@@ -84,17 +84,16 @@ Windows Media Player 10 Mobile: This enumeration is not supported.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/WMP/about-library-services">About Library Services</a>
+<a href="/windows/desktop/WMP/about-library-services">About Library Services</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WMP/enumeration-types">Enumeration Types</a>
+<a href="/windows/desktop/WMP/enumeration-types">Enumeration Types</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmplibrary-get_type">IWMPLibrary::get_type</a>
+<a href="/windows/desktop/api/wmp/nf-wmp-iwmplibrary-get_type">IWMPLibrary::get_type</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmplibraryservices">IWMPLibraryServices Interface</a>
-
+<a href="/windows/desktop/api/wmp/nn-wmp-iwmplibraryservices">IWMPLibraryServices Interface</a>

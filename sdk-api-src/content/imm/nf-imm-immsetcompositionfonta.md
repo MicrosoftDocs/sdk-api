@@ -64,7 +64,7 @@ Handle to the input context.
 
 ### -param lplf [in]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-logfonta">LOGFONT</a> structure containing the font information to set.
+Pointer to a <a href="/windows/desktop/api/wingdi/ns-wingdi-logfonta">LOGFONT</a> structure containing the font information to set.
 
 ## -returns
 
@@ -72,7 +72,7 @@ Returns a nonzero value if successful, or 0 otherwise.
 
 ## -remarks
 
-This function causes a <a href="https://docs.microsoft.com/windows/desktop/Intl/imn-setcompositionfont">IMN_SETCOMPOSITIONFONT</a> command to be sent to an application. Even if the application never uses the composition window, it must set the appropriate font to ensure that characters are displayed properly. This is especially true for vertical writing.
+This function causes a <a href="/windows/desktop/Intl/imn-setcompositionfont">IMN_SETCOMPOSITIONFONT</a> command to be sent to an application. Even if the application never uses the composition window, it must set the appropriate font to ensure that characters are displayed properly. This is especially true for vertical writing.
 
 
 
@@ -83,13 +83,12 @@ This function causes a <a href="https://docs.microsoft.com/windows/desktop/Intl/
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/imn-setcompositionfont">IMN_SETCOMPOSITIONFONT</a>
+<a href="/windows/desktop/Intl/imn-setcompositionfont">IMN_SETCOMPOSITIONFONT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/input-method-manager">Input Method Manager</a>
+<a href="/windows/desktop/Intl/input-method-manager">Input Method Manager</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/input-method-manager-functions">Input Method Manager Functions</a>
-
+<a href="/windows/desktop/Intl/input-method-manager-functions">Input Method Manager Functions</a>

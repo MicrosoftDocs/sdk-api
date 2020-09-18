@@ -57,15 +57,15 @@ Retrieves palette entries.
 
 ### -param PaletteNumber [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 An ordinal value identifying the particular palette to retrieve.
 
 ### -param pEntries [in, out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-paletteentry">PALETTEENTRY</a>*</b>
+Type: <b><a href="/windows/desktop/api/wingdi/ns-wingdi-paletteentry">PALETTEENTRY</a>*</b>
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-paletteentry">PALETTEENTRY</a> structure, representing the returned palette entries.
+Pointer to a <a href="/windows/desktop/api/wingdi/ns-wingdi-paletteentry">PALETTEENTRY</a> structure, representing the returned palette entries.
 
 ## -returns
 
@@ -75,28 +75,27 @@ If the method succeeds, the return value is D3D_OK. If the method fails, the ret
 
 ## -remarks
 
-For more information about <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-paletteentry">PALETTEENTRY</a>, see the Platform SDK.
+For more information about <a href="/windows/desktop/api/wingdi/ns-wingdi-paletteentry">PALETTEENTRY</a>, see the Platform SDK.
 
-<div class="alert"><b>Note</b>  As of Direct3D 9, the peFlags member of the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-paletteentry">PALETTEENTRY</a> structure does not work the way it is documented in the Platform SDK. The peFlags member is now the alpha channel for 8-bit palettized formats.</div>
+<div class="alert"><b>Note</b>  As of Direct3D 9, the peFlags member of the <a href="/windows/desktop/api/wingdi/ns-wingdi-paletteentry">PALETTEENTRY</a> structure does not work the way it is documented in the Platform SDK. The peFlags member is now the alpha channel for 8-bit palettized formats.</div>
 <div> </div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3ddevice9">IDirect3DDevice9</a>
+<a href="/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3ddevice9">IDirect3DDevice9</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-getcurrenttexturepalette">IDirect3DDevice9::GetCurrentTexturePalette</a>
+<a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-getcurrenttexturepalette">IDirect3DDevice9::GetCurrentTexturePalette</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-setcurrenttexturepalette">IDirect3DDevice9::SetCurrentTexturePalette</a>
+<a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-setcurrenttexturepalette">IDirect3DDevice9::SetCurrentTexturePalette</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-setpaletteentries">IDirect3DDevice9::SetPaletteEntries</a>
+<a href="/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-setpaletteentries">IDirect3DDevice9::SetPaletteEntries</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3d9/texture-palettes">Texture Palettes (Direct3D 9)</a>
-
+<a href="/windows/desktop/direct3d9/texture-palettes">Texture Palettes (Direct3D 9)</a>

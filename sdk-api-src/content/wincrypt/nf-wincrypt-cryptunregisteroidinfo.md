@@ -51,13 +51,13 @@ api_name:
 ## -description
 
 The <b>CryptUnregisterOIDInfo</b> function removes the registration of a specified 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_oid_info">CRYPT_OID_INFO</a> OID information structure. The structure to be unregistered is identified by the structure's <b>pszOID</b> and <b>dwGroupId</b> members.
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-crypt_oid_info">CRYPT_OID_INFO</a> OID information structure. The structure to be unregistered is identified by the structure's <b>pszOID</b> and <b>dwGroupId</b> members.
 
 ## -parameters
 
 ### -param pInfo [in]
 
-Specifies the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly">object identifier</a> (OID) information for which the registration is to be removed. The group that the registration is removed for is specified by the <b>dwGroupId</b> member in the <i>pInfo</i>.
+Specifies the <a href="/windows/desktop/SecGloss/o-gly">object identifier</a> (OID) information for which the registration is to be removed. The group that the registration is removed for is specified by the <b>dwGroupId</b> member in the <i>pInfo</i>.
 
 ## -returns
 
@@ -67,25 +67,24 @@ If the function fails, the return value is zero (FALSE).
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/alg-id">ALG_ID</a>
+<a href="/windows/desktop/SecCrypto/alg-id">ALG_ID</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_algorithm_identifier">CRYPT_ALGORITHM_IDENTIFIER</a>
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-crypt_algorithm_identifier">CRYPT_ALGORITHM_IDENTIFIER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_oid_info">CRYPT_OID_INFO</a>
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-crypt_oid_info">CRYPT_OID_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptfindoidinfo">CryptFindOIDInfo</a>
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptfindoidinfo">CryptFindOIDInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptregisteroidinfo">CryptRegisterOIDInfo</a>
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptregisteroidinfo">CryptRegisterOIDInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">OID Support Functions</a>
-
+<a href="/windows/desktop/SecCrypto/cryptography-functions">OID Support Functions</a>

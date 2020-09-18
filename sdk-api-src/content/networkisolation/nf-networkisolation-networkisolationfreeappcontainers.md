@@ -59,7 +59,7 @@ The <b>NetworkIsolationFreeAppContainers</b> function is used to release memory 
 
 ### -param pPublicAppCs [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/netfw/ns-netfw-inet_firewall_app_container">PINET_FIREWALL_APP_CONTAINER</a></b>
+Type: <b><a href="/windows/desktop/api/netfw/ns-netfw-inet_firewall_app_container">PINET_FIREWALL_APP_CONTAINER</a></b>
 
 The app container memory resources to be freed.
 
@@ -71,5 +71,4 @@ Returns ERROR_SUCCESS if successful, or an error value otherwise.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/netfw/ns-netfw-inet_firewall_app_container">INET_FIREWALL_APP_CONTAINER</a>
-
+<a href="/windows/desktop/api/netfw/ns-netfw-inet_firewall_app_container">INET_FIREWALL_APP_CONTAINER</a>

@@ -54,13 +54,13 @@ Exposes methods for posting a cancel window message to the process thread from t
 
 
 
-This interface enables the progress dialog to post a thread message through <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-postthreadmessagea">PostThreadMessage</a> to the worker thread to cancel its operations. The worker thread must periodically check the message queue through <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getmessage">GetMessage</a>, <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-peekmessagea">PeekMessage</a> or <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-msgwaitformultipleobjectsex">MsgWaitForMultipleObjectsEx</a>.
+This interface enables the progress dialog to post a thread message through <a href="/windows/desktop/api/winuser/nf-winuser-postthreadmessagea">PostThreadMessage</a> to the worker thread to cancel its operations. The worker thread must periodically check the message queue through <a href="/windows/desktop/api/winuser/nf-winuser-getmessage">GetMessage</a>, <a href="/windows/desktop/api/winuser/nf-winuser-peekmessagea">PeekMessage</a> or <a href="/windows/desktop/api/winuser/nf-winuser-msgwaitformultipleobjectsex">MsgWaitForMultipleObjectsEx</a>.
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iiocancelinformation-setcancelinformation">IIOCancelInformation::SetCancelInformation</a> method tells the progress dialog which thread ID and what message to <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-postthreadmessagea">PostThreadMessage</a> when the user clicks <b>Cancel</b>. A thread ID of "zero" disables the sending operation for the cancel message.
+The <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iiocancelinformation-setcancelinformation">IIOCancelInformation::SetCancelInformation</a> method tells the progress dialog which thread ID and what message to <a href="/windows/desktop/api/winuser/nf-winuser-postthreadmessagea">PostThreadMessage</a> when the user clicks <b>Cancel</b>. A thread ID of "zero" disables the sending operation for the cancel message.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IIOCancelInformation</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IIOCancelInformation</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IIOCancelInformation</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IIOCancelInformation</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -75,7 +75,7 @@ The <b>IIOCancelInformation</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iiocancelinformation-getcancelinformation">GetCancelInformation</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iiocancelinformation-getcancelinformation">GetCancelInformation</a>
 </td>
 <td align="left" width="63%">
 Returns information that is posted when a user selects <b>Cancel</b> from the progress UI. The process thread uses this method to find out which message the progress dialog will send to the process thread when the user hits cancel.  The process thread then listens for this message and does its own cleanup upon receipt.
@@ -85,7 +85,7 @@ Returns information that is posted when a user selects <b>Cancel</b> from the pr
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iiocancelinformation-setcancelinformation">SetCancelInformation</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iiocancelinformation-setcancelinformation">SetCancelInformation</a>
 </td>
 <td align="left" width="63%">
 Sets information that is posted when a user selects <b>Cancel</b> from the progress UI. Allows the main object to tell the progress dialog thread about the process thread so that the progress dialog can send the process thread the message id when the user clicks <b>Cancel</b>.
@@ -94,4 +94,3 @@ Sets information that is posted when a user selects <b>Cancel</b> from the progr
 </td>
 </tr>
 </table>
-

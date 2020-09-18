@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Writes the specified credential to the <a href="https://docs.microsoft.com/windows/desktop/SecAuthN/credential-manager">Credential Manager</a>.
+Writes the specified credential to the <a href="/windows/desktop/SecAuthN/credential-manager">Credential Manager</a>.
 
 ## -parameters
 
@@ -85,7 +85,7 @@ The caller is in-process.
 </dl>
 </td>
 <td width="60%">
-The caller should use the <a href="https://docs.microsoft.com/windows/desktop/Rpc/the-midl-user-allocate-function">midl_user_allocate</a> function to allocate the <i>Credential</i> buffer.
+The caller should use the <a href="/windows/desktop/Rpc/the-midl-user-allocate-function">midl_user_allocate</a> function to allocate the <i>Credential</i> buffer.
 
 </td>
 </tr>
@@ -118,7 +118,7 @@ The credential data is passed as clear text.
 </dl>
 </td>
 <td width="60%">
-The credential data is encrypted by using the <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-rtlencryptmemory">RtlEncryptMemory</a> function.
+The credential data is encrypted by using the <a href="/windows/desktop/api/ntsecapi/nf-ntsecapi-rtlencryptmemory">RtlEncryptMemory</a> function.
 
 </td>
 </tr>
@@ -137,7 +137,7 @@ The caller is a trusted process.
 
 ### -param Credential [in]
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-encrypted_credentialw">ENCRYPTED_CREDENTIALW</a> structure that represents the credentials to write.
+A pointer to an <a href="/windows/desktop/api/ntsecpkg/ns-ntsecpkg-encrypted_credentialw">ENCRYPTED_CREDENTIALW</a> structure that represents the credentials to write.
 
 ### -param Flags [in]
 
@@ -152,10 +152,9 @@ If the function fails, return an NTSTATUS error code that indicates the reason i
 ## -remarks
 
 A pointer to the <b>CrediWrite</b> function is available in the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-lsa_secpkg_function_table">LSA_SECPKG_FUNCTION_TABLE</a> structure received by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spinitializefn">SpInitialize</a> function.
+<a href="/windows/desktop/api/ntsecpkg/ns-ntsecpkg-lsa_secpkg_function_table">LSA_SECPKG_FUNCTION_TABLE</a> structure received by the 
+<a href="/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spinitializefn">SpInitialize</a> function.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spinitializefn">SpInitialize</a>
-
+<a href="/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spinitializefn">SpInitialize</a>

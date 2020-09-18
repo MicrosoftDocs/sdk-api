@@ -54,31 +54,31 @@ Manages a collection of name/value pairs.
 
 To get this interface, access one of the following properties or methods:<ul>
 <li>
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatacollector-setxml">IDataCollector::SetXml</a>
+<a href="/previous-versions/windows/desktop/api/pla/nf-pla-idatacollector-setxml">IDataCollector::SetXml</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorset-commit">IDataCollectorSet::Commit</a>
+<a href="/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorset-commit">IDataCollectorSet::Commit</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorset-setxml">IDataCollectorSet::SetXml</a>
+<a href="/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorset-setxml">IDataCollectorSet::SetXml</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-itracedataprovider-get_keywordsall">ITraceDataProvider::KeywordsAll</a>
+<a href="/previous-versions/windows/desktop/api/pla/nf-pla-itracedataprovider-get_keywordsall">ITraceDataProvider::KeywordsAll</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-itracedataprovider-get_keywordsany">ITraceDataProvider::KeywordsAny</a>
+<a href="/previous-versions/windows/desktop/api/pla/nf-pla-itracedataprovider-get_keywordsany">ITraceDataProvider::KeywordsAny</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-itracedataprovider-get_level">ITraceDataProvider::Level</a>
+<a href="/previous-versions/windows/desktop/api/pla/nf-pla-itracedataprovider-get_level">ITraceDataProvider::Level</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-itracedataprovider-get_properties">ITraceDataProvider::Properties</a>
+<a href="/previous-versions/windows/desktop/api/pla/nf-pla-itracedataprovider-get_properties">ITraceDataProvider::Properties</a>
 </li>
 </ul>
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IValueMap</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IValueMap</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IValueMap</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IValueMap</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -94,7 +94,7 @@ The <b>IValueMap</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-ivaluemap-add">Add</a>
+<a href="/previous-versions/windows/desktop/api/pla/nf-pla-ivaluemap-add">Add</a>
 </td>
 <td align="left" width="63%">
 Adds an item to the collection.
@@ -103,7 +103,7 @@ Adds an item to the collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-ivaluemap-addrange">AddRange</a>
+<a href="/previous-versions/windows/desktop/api/pla/nf-pla-ivaluemap-addrange">AddRange</a>
 </td>
 <td align="left" width="63%">
 Adds one or more items to the collection.
@@ -112,7 +112,7 @@ Adds one or more items to the collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-ivaluemap-clear">Clear</a>
+<a href="/previous-versions/windows/desktop/api/pla/nf-pla-ivaluemap-clear">Clear</a>
 </td>
 <td align="left" width="63%">
 Removes all items from the collection.
@@ -121,7 +121,7 @@ Removes all items from the collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-ivaluemap-createvaluemapitem">CreateValueMapItem</a>
+<a href="/previous-versions/windows/desktop/api/pla/nf-pla-ivaluemap-createvaluemapitem">CreateValueMapItem</a>
 </td>
 <td align="left" width="63%">
 Creates a value map item.
@@ -130,7 +130,7 @@ Creates a value map item.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-ivaluemap-remove">Remove</a>
+<a href="/previous-versions/windows/desktop/api/pla/nf-pla-ivaluemap-remove">Remove</a>
 </td>
 <td align="left" width="63%">
 Removes an item from the collection.
@@ -148,7 +148,7 @@ Removes an item from the collection.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-ivaluemap-get__newenum">_NewEnum</a>
+<a href="/previous-versions/windows/desktop/api/pla/nf-pla-ivaluemap-get__newenum">_NewEnum</a>
 
 
 </td>
@@ -164,7 +164,7 @@ Retrieves an interface to the enumeration.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-ivaluemap-get_count">Count</a>
+<a href="/previous-versions/windows/desktop/api/pla/nf-pla-ivaluemap-get_count">Count</a>
 
 
 </td>
@@ -180,7 +180,7 @@ Retrieves the number of items in the collection.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-ivaluemap-get_description">Description</a>
+<a href="/previous-versions/windows/desktop/api/pla/nf-pla-ivaluemap-get_description">Description</a>
 
 
 </td>
@@ -196,7 +196,7 @@ Retrieves or sets a description of the collection.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-ivaluemap-get_item">Item</a>
+<a href="/previous-versions/windows/desktop/api/pla/nf-pla-ivaluemap-get_item">Item</a>
 
 
 </td>
@@ -212,7 +212,7 @@ Retrieves the requested item from the collection.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-ivaluemap-get_value">Value</a>
+<a href="/previous-versions/windows/desktop/api/pla/nf-pla-ivaluemap-get_value">Value</a>
 
 
 </td>
@@ -228,7 +228,7 @@ Retrieves or sets the value of the collection.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-ivaluemap-get_valuemaptype">ValueMapType</a>
+<a href="/previous-versions/windows/desktop/api/pla/nf-pla-ivaluemap-get_valuemaptype">ValueMapType</a>
 
 
 </td>
@@ -245,5 +245,4 @@ Retrieves or sets the type of the items in the collection.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nn-pla-ivaluemapitem">IValueMapItem</a>
-
+<a href="/previous-versions/windows/desktop/api/pla/nn-pla-ivaluemapitem">IValueMapItem</a>

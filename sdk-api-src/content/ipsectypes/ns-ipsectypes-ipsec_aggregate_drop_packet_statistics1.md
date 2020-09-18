@@ -53,7 +53,7 @@ api_name:
 ## -description
 
 The <b>IPSEC_AGGREGATE_DROP_PACKET_STATISTICS1</b> structure stores aggregate IPsec kernel packet drop statistics.
-[IPSEC_AGGREGATE_DROP_PACKET_STATISTICS0](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_aggregate_drop_packet_statistics0) is available.</div><div> </div>
+[IPSEC_AGGREGATE_DROP_PACKET_STATISTICS0](/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_aggregate_drop_packet_statistics0) is available.</div><div> </div>
 
 ## -struct-fields
 
@@ -99,5 +99,4 @@ Number of inbound drops for all packets.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>
-
+<a href="/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>

@@ -80,7 +80,7 @@ A pointer to an <b>mdTypeDef</b> token that represents a type in the file.
 
 ### -param pdwExportedTypeFlags [out]
 
-A pointer to the flags that describe the metadata applied to the exported type. The flags value can be one or more <a href="https://docs.microsoft.com/dotnet/framework/unmanaged-api/metadata/cortypeattr-enumeration">CorTypeAttr</a> values.
+A pointer to the flags that describe the metadata applied to the exported type. The flags value can be one or more <a href="/dotnet/framework/unmanaged-api/metadata/cortypeattr-enumeration">CorTypeAttr</a> values.
 
 ## -returns
 
@@ -88,5 +88,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rometadataapi/nn-rometadataapi-imetadataassemblyimport">IMetaDataAssemblyImport</a>
-
+<a href="/windows/desktop/api/rometadataapi/nn-rometadataapi-imetadataassemblyimport">IMetaDataAssemblyImport</a>

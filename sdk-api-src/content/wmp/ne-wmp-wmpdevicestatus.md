@@ -64,7 +64,7 @@ A partnership between Windows Media Player and the device exists.
 
 ### -field wmpdsPartnershipDeclined
 
-The user declined to create a partnership with the device. A device will also have this status when the partnership was deleted programmatically by calling <a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpsyncdevice-deletepartnership">IWMPSyncDevice::deletePartnership</a>.
+The user declined to create a partnership with the device. A device will also have this status when the partnership was deleted programmatically by calling <a href="/windows/desktop/api/wmp/nf-wmp-iwmpsyncdevice-deletepartnership">IWMPSyncDevice::deletePartnership</a>.
 
 ### -field wmpdsPartnershipAnother
 
@@ -88,21 +88,20 @@ Windows Media Player 10 Mobile: This enumeration is not supported.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/WMP/enumeration-types">Enumeration Types</a>
+<a href="/windows/desktop/WMP/enumeration-types">Enumeration Types</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpevents2-devicestatuschange">IWMPEvents2::DeviceStatusChange</a>
+<a href="/windows/desktop/api/wmp/nf-wmp-iwmpevents2-devicestatuschange">IWMPEvents2::DeviceStatusChange</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpsyncdevice-get_status">IWMPSyncDevice::get_status</a>
+<a href="/windows/desktop/api/wmp/nf-wmp-iwmpsyncdevice-get_status">IWMPSyncDevice::get_status</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WMP/interfaces">Interfaces</a>
+<a href="/windows/desktop/WMP/interfaces">Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WMP/remoting-the-windows-media-player-control">Remoting the Windows Media Player Control</a>
-
+<a href="/windows/desktop/WMP/remoting-the-windows-media-player-control">Remoting the Windows Media Player Control</a>

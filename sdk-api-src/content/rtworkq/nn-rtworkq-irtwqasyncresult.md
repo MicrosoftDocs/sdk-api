@@ -54,7 +54,7 @@ Provides information about the result of an asynchronous operation.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IRtwqAsyncResult</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IRtwqAsyncResult</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IRtwqAsyncResult</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IRtwqAsyncResult</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IRtwqAsyncResult</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/rtworkq/nf-rtworkq-irtwqasyncresult-getobject">GetObject</a>
+<a href="/windows/desktop/api/rtworkq/nf-rtworkq-irtwqasyncresult-getobject">GetObject</a>
 </td>
 <td align="left" width="63%">
 Returns an object associated with the asynchronous operation. The type of object, if any, depends on the asynchronous method that was called.
@@ -78,7 +78,7 @@ Returns an object associated with the asynchronous operation. The type of object
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/rtworkq/nf-rtworkq-irtwqasyncresult-getstate">GetState</a>
+<a href="/windows/desktop/api/rtworkq/nf-rtworkq-irtwqasyncresult-getstate">GetState</a>
 </td>
 <td align="left" width="63%">
 Returns the state object specified by the caller in the asynchronous <b>Begin</b> method.
@@ -87,7 +87,7 @@ Returns the state object specified by the caller in the asynchronous <b>Begin</b
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/rtworkq/nf-rtworkq-irtwqasyncresult-getstatenoaddref">GetStateNoAddRef</a>
+<a href="/windows/desktop/api/rtworkq/nf-rtworkq-irtwqasyncresult-getstatenoaddref">GetStateNoAddRef</a>
 </td>
 <td align="left" width="63%">
 Returns the state object specified by the caller in the asynchronous <b>Begin</b> method, without incrementing the object's reference count.
@@ -96,7 +96,7 @@ Returns the state object specified by the caller in the asynchronous <b>Begin</b
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/rtworkq/nf-rtworkq-irtwqasyncresult-getstatus">GetStatus</a>
+<a href="/windows/desktop/api/rtworkq/nf-rtworkq-irtwqasyncresult-getstatus">GetStatus</a>
 </td>
 <td align="left" width="63%">
 Returns the status of the asynchronous operation.
@@ -105,7 +105,7 @@ Returns the status of the asynchronous operation.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/rtworkq/nf-rtworkq-irtwqasyncresult-setstatus">SetStatus</a>
+<a href="/windows/desktop/api/rtworkq/nf-rtworkq-irtwqasyncresult-setstatus">SetStatus</a>
 </td>
 <td align="left" width="63%">
 Sets the status of the asynchronous operation.
@@ -113,4 +113,3 @@ Sets the status of the asynchronous operation.
 </td>
 </tr>
 </table>
-

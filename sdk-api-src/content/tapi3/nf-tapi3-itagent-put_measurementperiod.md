@@ -109,7 +109,7 @@ Insufficient memory exists to perform the operation.
 </td>
 <td width="60%">
 See 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linesetagentmeasurementperiod">lineSetAgentMeasurementPeriod</a> for error codes returned from this TAPI 2.1 function.
+<a href="/windows/desktop/api/tapi/nf-tapi-linesetagentmeasurementperiod">lineSetAgentMeasurementPeriod</a> for error codes returned from this TAPI 2.1 function.
 
 </td>
 </tr>
@@ -118,15 +118,14 @@ See
 ## -remarks
 
 The <b>ITAgent::put_MeasurementPeriod</b> method is a COM wrapper for the TAPI 2.1 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linesetagentmeasurementperiod">lineSetAgentMeasurementPeriod</a> function.
+<a href="/windows/desktop/api/tapi/nf-tapi-linesetagentmeasurementperiod">lineSetAgentMeasurementPeriod</a> function.
 
 This method will accept negative values for the measurement period, but this will normally result in unreliable statistics.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nn-tapi3-itagent">ITAgent</a>
+<a href="/windows/desktop/api/tapi3/nn-tapi3-itagent">ITAgent</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nf-tapi3-itagent-get_measurementperiod">get_MeasurementPeriod</a>
-
+<a href="/windows/desktop/api/tapi3/nf-tapi3-itagent-get_measurementperiod">get_MeasurementPeriod</a>

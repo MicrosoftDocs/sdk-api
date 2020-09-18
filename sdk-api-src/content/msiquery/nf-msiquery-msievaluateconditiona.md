@@ -59,12 +59,12 @@ The
 
 ### -param hInstall [in]
 
-Handle to the installation provided to a DLL custom action or obtained through <a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msiopenpackagea">MsiOpenPackage</a>, <a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msiopenpackageexa">MsiOpenPackageEx</a>, or <a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msiopenproducta">MsiOpenProduct</a>.
+Handle to the installation provided to a DLL custom action or obtained through <a href="/windows/desktop/api/msi/nf-msi-msiopenpackagea">MsiOpenPackage</a>, <a href="/windows/desktop/api/msi/nf-msi-msiopenpackageexa">MsiOpenPackageEx</a>, or <a href="/windows/desktop/api/msi/nf-msi-msiopenproducta">MsiOpenProduct</a>.
 
 ### -param szCondition [in]
 
 Specifies the conditional expression. This parameter must not be <b>NULL</b>. For the syntax of conditional expressions see 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/conditional-statement-syntax">Conditional Statement Syntax</a>.
+<a href="/windows/desktop/Msi/conditional-statement-syntax">Conditional Statement Syntax</a>.
 
 ## -returns
 
@@ -74,8 +74,8 @@ This function returns MSICONDITION.
 
 The following table shows the feature and component state values used by the 
 <b>MsiEvaluateCondition</b> function. These states are not set until 
-<a href="https://docs.microsoft.com/windows/desktop/api/msiquery/nf-msiquery-msisetinstalllevel">MsiSetInstallLevel</a> is called, either directly or by the 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/costfinalize-action">CostFinalize action</a>. Therefore, state checking is generally only useful for conditional expressions in an action sequence table.
+<a href="/windows/desktop/api/msiquery/nf-msiquery-msisetinstalllevel">MsiSetInstallLevel</a> is called, either directly or by the 
+<a href="/windows/desktop/Msi/costfinalize-action">CostFinalize action</a>. Therefore, state checking is generally only useful for conditional expressions in an action sequence table.
 
 <table>
 <tr>
@@ -114,9 +114,8 @@ The following table shows the feature and component state values used by the
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/database-functions">Installer Action Functions</a>
+<a href="/windows/desktop/Msi/database-functions">Installer Action Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/passing-null-as-the-argument-of-windows-installer-functions">Passing Null as the Argument of Windows Installer Functions</a>
-
+<a href="/windows/desktop/Msi/passing-null-as-the-argument-of-windows-installer-functions">Passing Null as the Argument of Windows Installer Functions</a>

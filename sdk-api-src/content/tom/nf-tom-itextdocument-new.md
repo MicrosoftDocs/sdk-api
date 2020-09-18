@@ -70,11 +70,11 @@ If another document is open, this method saves any current changes and closes th
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextdocument">ITextDocument</a>
+<a href="/windows/desktop/api/tom/nn-tom-itextdocument">ITextDocument</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextdocument-open">Open</a>
+<a href="/windows/desktop/api/tom/nf-tom-itextdocument-open">Open</a>
 
 
 
@@ -82,5 +82,4 @@ If another document is open, this method saves any current changes and closes th
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Controls/text-object-model">Text Object Model</a>
-
+<a href="/windows/desktop/Controls/text-object-model">Text Object Model</a>

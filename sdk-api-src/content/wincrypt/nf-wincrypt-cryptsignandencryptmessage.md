@@ -50,19 +50,19 @@ api_name:
 
 ## -description
 
-The <b>CryptSignAndEncryptMessage</b> function creates a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/h-gly">hash</a> of the specified content, signs the hash, encrypts the content, hashes the encrypted contents and the signed hash, and then encodes both the encrypted content and the signed hash. The result is the same as if the hash were first signed and then encrypted.
+The <b>CryptSignAndEncryptMessage</b> function creates a <a href="/windows/desktop/SecGloss/h-gly">hash</a> of the specified content, signs the hash, encrypts the content, hashes the encrypted contents and the signed hash, and then encodes both the encrypted content and the signed hash. The result is the same as if the hash were first signed and then encrypted.
 
 ## -parameters
 
 ### -param pSignPara [in]
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_sign_message_para">CRYPT_SIGN_MESSAGE_PARA</a> structure that contains the signature parameters.
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-crypt_sign_message_para">CRYPT_SIGN_MESSAGE_PARA</a> structure that contains the signature parameters.
 
 ### -param pEncryptPara [in]
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_encrypt_message_para">CRYPT_ENCRYPT_MESSAGE_PARA</a> structure containing encryption parameters.
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-crypt_encrypt_message_para">CRYPT_ENCRYPT_MESSAGE_PARA</a> structure containing encryption parameters.
 
 ### -param cRecipientCert [in]
 
@@ -71,7 +71,7 @@ Number of array elements in <i>rgpRecipientCert</i>.
 ### -param rgpRecipientCert [in]
 
 Array of pointers to 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a> structures. Each structure is the certificate of an intended recipients of the message.
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a> structures. Each structure is the certificate of an intended recipients of the message.
 
 ### -param pbToBeSignedAndEncrypted [in]
 
@@ -89,7 +89,7 @@ A pointer to a buffer to receive the encrypted and encoded message.
 
 
 This parameter can be <b>NULL</b> to set the size of this information for memory allocation purposes. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/retrieving-data-of-unknown-length">Retrieving Data of Unknown Length</a>.
+<a href="/windows/desktop/SecCrypto/retrieving-data-of-unknown-length">Retrieving Data of Unknown Length</a>.
 
 ### -param pcbSignedAndEncryptedBlob [in, out]
 
@@ -108,10 +108,10 @@ If the function succeeds, the return value is nonzero (TRUE).
 If the function fails, the return value is zero (FALSE).
 
 For extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. 
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. 
 
 The following lists the error code most commonly returned by the 
-		       <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function.
+		       <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function.
 
 <table>
 <tr>
@@ -133,19 +133,18 @@ If the buffer specified by the <i>pbSignedAndEncryptedBlob</i> parameter is not 
  
 
 <div class="alert"><b>Note</b>  Errors from the called functions 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptsignmessage">CryptSignMessage</a> and 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptencryptmessage">CryptEncryptMessage</a> might be propagated to this function.</div>
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptsignmessage">CryptSignMessage</a> and 
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptencryptmessage">CryptEncryptMessage</a> might be propagated to this function.</div>
 <div> </div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptdecryptandverifymessagesignature">CryptDecryptAndVerifyMessageSignature</a>
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptdecryptandverifymessagesignature">CryptDecryptAndVerifyMessageSignature</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptsignmessage">CryptSignMessage</a>
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptsignmessage">CryptSignMessage</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">Simplified Message Functions</a>
-
+<a href="/windows/desktop/SecCrypto/cryptography-functions">Simplified Message Functions</a>

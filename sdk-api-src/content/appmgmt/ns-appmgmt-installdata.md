@@ -54,39 +54,38 @@ api_name:
 
 ## -description
 
-The <b>INSTALLDATA</b> structure specifies a group-policy application to  be installed by <a href="https://docs.microsoft.com/windows/desktop/api/appmgmt/nf-appmgmt-installapplication">InstallApplication</a>.
+The <b>INSTALLDATA</b> structure specifies a group-policy application to  be installed by <a href="/windows/desktop/api/appmgmt/nf-appmgmt-installapplication">InstallApplication</a>.
 
 ## -struct-fields
 
 ### -field Type
 
-Defines  how <b>Spec</b> specifies the application to <a href="https://docs.microsoft.com/windows/desktop/api/appmgmt/nf-appmgmt-installapplication">InstallApplication</a>.     <b>Type</b> can be  one of the <a href="https://docs.microsoft.com/windows/desktop/api/appmgmt/ne-appmgmt-installspectype">INSTALLSPECTYPE</a> enumeration values. Set <b>Type</b> to APPNAME to install an application specified by its user-friendly name and GPO GUID. Set <b>Type</b> to FILEEXT to install  an application specified by its file name extension.
+Defines  how <b>Spec</b> specifies the application to <a href="/windows/desktop/api/appmgmt/nf-appmgmt-installapplication">InstallApplication</a>.     <b>Type</b> can be  one of the <a href="/windows/desktop/api/appmgmt/ne-appmgmt-installspectype">INSTALLSPECTYPE</a> enumeration values. Set <b>Type</b> to APPNAME to install an application specified by its user-friendly name and GPO GUID. Set <b>Type</b> to FILEEXT to install  an application specified by its file name extension.
 
 ### -field Spec
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/appmgmt/ns-appmgmt-installspec">INSTALLSPEC</a> structure that specifies the application.
+An <a href="/windows/desktop/api/appmgmt/ns-appmgmt-installspec">INSTALLSPEC</a> structure that specifies the application.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/Policy/about-group-policy">Group Policy Overview</a>
+<a href="/previous-versions/windows/desktop/Policy/about-group-policy">Group Policy Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/Policy/group-policy-structures">Group Policy Structures</a>
+<a href="/previous-versions/windows/desktop/Policy/group-policy-structures">Group Policy Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/appmgmt/ns-appmgmt-installspec">INSTALLSPEC</a>
+<a href="/windows/desktop/api/appmgmt/ns-appmgmt-installspec">INSTALLSPEC</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/appmgmt/ne-appmgmt-installspectype">INSTALLSPECTYPE</a>
+<a href="/windows/desktop/api/appmgmt/ne-appmgmt-installspectype">INSTALLSPECTYPE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/appmgmt/nf-appmgmt-installapplication">InstallApplication</a>
+<a href="/windows/desktop/api/appmgmt/nf-appmgmt-installapplication">InstallApplication</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/appmgmt/nf-appmgmt-uninstallapplication">UninstallApplication</a>
-
+<a href="/windows/desktop/api/appmgmt/nf-appmgmt-uninstallapplication">UninstallApplication</a>

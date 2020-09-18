@@ -56,7 +56,7 @@ Opens an existing enlistment object, and returns a handle to the enlistment.
 
 ### -param dwDesiredAccess [in]
 
-The access requested for this enlistment. See <a href="https://docs.microsoft.com/windows/desktop/Ktm/enlistment-access-masks">Enlistment Access Masks</a> for a list of valid values.
+The access requested for this enlistment. See <a href="/windows/desktop/Ktm/enlistment-access-masks">Enlistment Access Masks</a> for a list of valid values.
 
 ### -param ResourceManagerHandle [in]
 
@@ -70,19 +70,18 @@ The enlistment identifier.
 
 If the function succeeds, the return value is a handle to the enlistment.
 
-If the function fails, the return value is INVALID_HANDLE_VALUE. To get extended error information, call the <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function.
+If the function fails, the return value is INVALID_HANDLE_VALUE. To get extended error information, call the <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function.
 
 The following list identifies the  possible error codes:
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ktmw32/nf-ktmw32-createenlistment">CreateEnlistment</a>
+<a href="/windows/desktop/api/ktmw32/nf-ktmw32-createenlistment">CreateEnlistment</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Ktm/enlistment-access-masks">Enlistment Access Masks</a>
+<a href="/windows/desktop/Ktm/enlistment-access-masks">Enlistment Access Masks</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Ktm/kernel-transaction-manager-functions">Kernel Transaction Manager Functions</a>
-
+<a href="/windows/desktop/Ktm/kernel-transaction-manager-functions">Kernel Transaction Manager Functions</a>

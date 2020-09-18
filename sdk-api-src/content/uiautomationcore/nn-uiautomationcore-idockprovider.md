@@ -55,7 +55,7 @@ Provides access
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDockProvider</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDockProvider</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDockProvider</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDockProvider</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -71,7 +71,7 @@ The <b>IDockProvider</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nf-uiautomationcore-idockprovider-setdockposition">SetDockPosition</a>
+<a href="/windows/desktop/api/uiautomationcore/nf-uiautomationcore-idockprovider-setdockposition">SetDockPosition</a>
 </td>
 <td align="left" width="63%">
 Sets the docking position of this element. 
@@ -89,7 +89,7 @@ Sets the docking position of this element.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nf-uiautomationcore-idockprovider-get_dockposition">DockPosition</a>
+<a href="/windows/desktop/api/uiautomationcore/nf-uiautomationcore-idockprovider-get_dockposition">DockPosition</a>
 
 
 </td>
@@ -121,11 +121,11 @@ Controls are docked relative to each other based on their current z-order;
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-implementingdock">Dock Control Pattern</a>
+<a href="/windows/desktop/WinAuto/uiauto-implementingdock">Dock Control Pattern</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/ne-uiautomationcore-dockposition">DockPosition</a>
+<a href="/windows/desktop/api/uiautomationcore/ne-uiautomationcore-dockposition">DockPosition</a>
 
 
 
@@ -133,5 +133,4 @@ Controls are docked relative to each other based on their current z-order;
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-providersoverview">UI Automation Providers Overview</a>
-
+<a href="/windows/desktop/WinAuto/uiauto-providersoverview">UI Automation Providers Overview</a>

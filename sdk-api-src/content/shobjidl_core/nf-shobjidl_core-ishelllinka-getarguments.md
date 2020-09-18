@@ -78,15 +78,15 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -remarks
 
-In Windows 7 and later, it is recommended that you retrieve argument strings though <a href="https://docs.microsoft.com/windows/desktop/api/propsys/nn-propsys-ipropertystore">IPropertyStore</a> (using the <a href="https://docs.microsoft.com/windows/desktop/properties/props-system-link-arguments">PKEY_Link_Arguments</a> value) rather than this method, which can silently truncate the string if the provided buffer is not large enough. <b>IPropertyStore</b> allocates a string of the correct size.
+In Windows 7 and later, it is recommended that you retrieve argument strings though <a href="/windows/desktop/api/propsys/nn-propsys-ipropertystore">IPropertyStore</a> (using the <a href="/windows/desktop/properties/props-system-link-arguments">PKEY_Link_Arguments</a> value) rather than this method, which can silently truncate the string if the provided buffer is not large enough. <b>IPropertyStore</b> allocates a string of the correct size.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishelllinka">IShellLink</a>
+<a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishelllinka">IShellLink</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelllinka-setarguments">IShellLink::SetArguments</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelllinka-setarguments">IShellLink::SetArguments</a>
 
 
 
@@ -95,4 +95,3 @@ In Windows 7 and later, it is recommended that you retrieve argument strings th
 
 
 <b>IShellLinkW</b>
-

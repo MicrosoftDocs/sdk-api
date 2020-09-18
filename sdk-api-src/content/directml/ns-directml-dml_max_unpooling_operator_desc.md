@@ -44,7 +44,7 @@ f1_keywords:
 
 Describes a DirectML operator that fills the output tensor of the given shape (either explicit, or the input shape plus padding) with zeros, then writes each value from the input tensor into the output tensor at the element offset from the corresponding indices array.
 
-**DML_MAX_UNPOOLING_OPERATOR_DESC** is the inverse of [DML_MAX_POOLING_OPERATOR_DESC](/windows/win32/api/directml/ns-directml-dml_max_pooling_operator_desc).
+**DML_MAX_UNPOOLING_OPERATOR_DESC** is the inverse of [DML_MAX_POOLING_OPERATOR_DESC](./ns-directml-dml_max_pooling_operator_desc.md).
 
 All indices should be unique, and within bounds. The value written for duplicate indices is not defined; out-of-bounds indices yield no write.
 
@@ -67,4 +67,3 @@ A pointer to a constant [DML_TENSOR_DESC](/windows/desktop/api/directml/ns-direc
 Type: **const [DML_TENSOR_DESC](/windows/desktop/api/directml/ns-directml-dml_tensor_desc)\***
 
 A pointer to a constant [DML_TENSOR_DESC](/windows/desktop/api/directml/ns-directml-dml_tensor_desc) containing the description of the tensor to write the results to.
-

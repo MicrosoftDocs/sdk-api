@@ -103,5 +103,4 @@ If the value of the <i>pBuffer</i> parameter is <b>NULL</b>, the method allocate
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/amstream/nn-amstream-iammediatypesample">IAMMediaTypeSample Interface</a>
-
+<a href="/windows/desktop/api/amstream/nn-amstream-iammediatypesample">IAMMediaTypeSample Interface</a>

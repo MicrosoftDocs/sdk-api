@@ -53,17 +53,17 @@ api_name:
 > [!IMPORTANT]
 > Starting in Windows 10, version 1803, the Win32 APIs described in this section are replaced by the Windows Runtime APIs in the [Windows.Networking.Connectivity](/uwp/api/windows.networking.connectivity) namespace.
 
-Gets the <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbndeviceservice">IMbnDeviceService</a> object that can be used for communicating with a device service on the Mobile Broadband device.
+Gets the <a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbndeviceservice">IMbnDeviceService</a> object that can be used for communicating with a device service on the Mobile Broadband device.
 
 ## -parameters
 
 ### -param deviceServiceID [in]
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nf-mbnapi-imbndeviceservice-get_deviceserviceid">deviceServiceID</a> of the Mobile Broadband device.
+The <a href="/windows/desktop/api/mbnapi/nf-mbnapi-imbndeviceservice-get_deviceserviceid">deviceServiceID</a> of the Mobile Broadband device.
 
 ### -param mbnDeviceService [out, retval]
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbndeviceservice">IMbnDeviceService</a> object.
+The <a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbndeviceservice">IMbnDeviceService</a> object.
 
 ## -returns
 
@@ -100,9 +100,8 @@ An error was encountered when executing this method.
 
 ## -remarks
 
-<b>GetDeviceService</b> may return an <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbndeviceservice">IMbnDeviceService</a> object that already has a command or data session open. The calling process can check if the device service is already open.
+<b>GetDeviceService</b> may return an <a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbndeviceservice">IMbnDeviceService</a> object that already has a command or data session open. The calling process can check if the device service is already open.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbndeviceservicescontext">IMbnDeviceServicesContext</a>
-
+<a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbndeviceservicescontext">IMbnDeviceServicesContext</a>

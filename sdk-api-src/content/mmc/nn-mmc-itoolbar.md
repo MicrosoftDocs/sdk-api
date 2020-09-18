@@ -55,7 +55,7 @@ The
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IToolbar</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IToolbar</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IToolbar</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IToolbar</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>IToolbar</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-itoolbar-addbitmap">AddBitmap</a>
+<a href="/windows/desktop/api/mmc/nf-mmc-itoolbar-addbitmap">AddBitmap</a>
 </td>
 <td align="left" width="63%">
 Adds an image to the toolbar.
@@ -79,7 +79,7 @@ Adds an image to the toolbar.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-itoolbar-addbuttons">AddButtons</a>
+<a href="/windows/desktop/api/mmc/nf-mmc-itoolbar-addbuttons">AddButtons</a>
 </td>
 <td align="left" width="63%">
 Adds an array of buttons to the toolbar.
@@ -88,7 +88,7 @@ Adds an array of buttons to the toolbar.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-itoolbar-deletebutton">DeleteButton</a>
+<a href="/windows/desktop/api/mmc/nf-mmc-itoolbar-deletebutton">DeleteButton</a>
 </td>
 <td align="left" width="63%">
 Removes a button from the toolbar.
@@ -97,7 +97,7 @@ Removes a button from the toolbar.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-itoolbar-getbuttonstate">GetButtonState</a>
+<a href="/windows/desktop/api/mmc/nf-mmc-itoolbar-getbuttonstate">GetButtonState</a>
 </td>
 <td align="left" width="63%">
 Gets an attribute of a button.
@@ -106,7 +106,7 @@ Gets an attribute of a button.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-itoolbar-insertbutton">InsertButton</a>
+<a href="/windows/desktop/api/mmc/nf-mmc-itoolbar-insertbutton">InsertButton</a>
 </td>
 <td align="left" width="63%">
 Adds a single button to the toolbar.
@@ -115,7 +115,7 @@ Adds a single button to the toolbar.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-itoolbar-setbuttonstate">SetButtonState</a>
+<a href="/windows/desktop/api/mmc/nf-mmc-itoolbar-setbuttonstate">SetButtonState</a>
 </td>
 <td align="left" width="63%">
 Sets an attribute of a button.
@@ -123,4 +123,3 @@ Sets an attribute of a button.
 </td>
 </tr>
 </table>
-

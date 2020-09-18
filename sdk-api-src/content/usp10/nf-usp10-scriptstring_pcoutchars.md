@@ -59,7 +59,7 @@ Returns a pointer to the length of a string after clipping.
 
 ### -param ssa [in]
 
-A <a href="https://docs.microsoft.com/windows/desktop/Intl/script-string-analysis">SCRIPT_STRING_ANALYSIS</a> structure for the string.
+A <a href="/windows/desktop/Intl/script-string-analysis">SCRIPT_STRING_ANALYSIS</a> structure for the string.
 
 ## -returns
 
@@ -67,30 +67,29 @@ Returns a pointer to the length of the string after clipping if successful. The 
 
 ## -remarks
 
-To use this function, the application needs to specify SSA_CLIP in its original call to <a href="https://docs.microsoft.com/windows/desktop/api/usp10/nf-usp10-scriptstringanalyse">ScriptStringAnalyse</a>.
+To use this function, the application needs to specify SSA_CLIP in its original call to <a href="/windows/desktop/api/usp10/nf-usp10-scriptstringanalyse">ScriptStringAnalyse</a>.
 
-The pointer returned by this function is valid only until the application passes the associated <a href="https://docs.microsoft.com/windows/desktop/Intl/script-string-analysis">SCRIPT_STRING_ANALYSIS</a> structure to <a href="https://docs.microsoft.com/windows/desktop/api/usp10/nf-usp10-scriptstringfree">ScriptStringFree</a>.
+The pointer returned by this function is valid only until the application passes the associated <a href="/windows/desktop/Intl/script-string-analysis">SCRIPT_STRING_ANALYSIS</a> structure to <a href="/windows/desktop/api/usp10/nf-usp10-scriptstringfree">ScriptStringFree</a>.
 
 <div class="alert"><b>Important</b>  Starting with Windows 8: To maintain the ability to run on Windows 7, a module that uses Uniscribe must specify Usp10.lib before gdi32.lib in its library list.</div>
 <div> </div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/script-string-analysis">SCRIPT_STRING_ANALYSIS</a>
+<a href="/windows/desktop/Intl/script-string-analysis">SCRIPT_STRING_ANALYSIS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/usp10/nf-usp10-scriptstringanalyse">ScriptStringAnalyse</a>
+<a href="/windows/desktop/api/usp10/nf-usp10-scriptstringanalyse">ScriptStringAnalyse</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/usp10/nf-usp10-scriptstringfree">ScriptStringFree</a>
+<a href="/windows/desktop/api/usp10/nf-usp10-scriptstringfree">ScriptStringFree</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/uniscribe">Uniscribe</a>
+<a href="/windows/desktop/Intl/uniscribe">Uniscribe</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/uniscribe-functions">Uniscribe Functions</a>
-
+<a href="/windows/desktop/Intl/uniscribe-functions">Uniscribe Functions</a>

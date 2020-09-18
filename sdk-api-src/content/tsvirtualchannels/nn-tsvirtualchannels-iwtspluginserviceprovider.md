@@ -52,11 +52,11 @@ api_name:
 
 Provides a way for Dynamic Virtual Channel plug-ins to query various Remote Desktop Client services.
 
-This interface is implemented by the Remote Desktop Connection (RDC) client. You obtain an instance of this interface by calling <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> on the <a href="https://docs.microsoft.com/windows/desktop/api/tsvirtualchannels/nn-tsvirtualchannels-iwtsvirtualchannelmanager">IWTSVirtualChannelManager</a> instance obtained in the plug-in's <a href="https://docs.microsoft.com/windows/desktop/api/tsvirtualchannels/nf-tsvirtualchannels-iwtsplugin-initialize">IWTSPlugin::Initialize</a> method.
+This interface is implemented by the Remote Desktop Connection (RDC) client. You obtain an instance of this interface by calling <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> on the <a href="/windows/desktop/api/tsvirtualchannels/nn-tsvirtualchannels-iwtsvirtualchannelmanager">IWTSVirtualChannelManager</a> instance obtained in the plug-in's <a href="/windows/desktop/api/tsvirtualchannels/nf-tsvirtualchannels-iwtsplugin-initialize">IWTSPlugin::Initialize</a> method.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWTSPluginServiceProvider</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWTSPluginServiceProvider</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWTSPluginServiceProvider</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWTSPluginServiceProvider</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>IWTSPluginServiceProvider</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tsvirtualchannels/nf-tsvirtualchannels-iwtspluginserviceprovider-getservice">GetService</a>
+<a href="/windows/desktop/api/tsvirtualchannels/nf-tsvirtualchannels-iwtspluginserviceprovider-getservice">GetService</a>
 </td>
 <td align="left" width="63%">
 Obtains the specified service.
@@ -79,4 +79,3 @@ Obtains the specified service.
 </td>
 </tr>
 </table>
-

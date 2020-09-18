@@ -56,21 +56,21 @@ The <b>FCIFlushFolder</b> function forces the current folder under construction 
 
 ### -param hfci [in]
 
-A valid FCI context handle returned by the <a href="https://docs.microsoft.com/windows/desktop/api/fci/nf-fci-fcicreate">FCICreate</a> function.
+A valid FCI context handle returned by the <a href="/windows/desktop/api/fci/nf-fci-fcicreate">FCICreate</a> function.
 
 ### -param pfnfcignc [in]
 
-Pointer to an application-defined callback function to obtain specifications on the next cabinet to create. The function should be declared using the <a href="https://docs.microsoft.com/windows/desktop/api/fci/nf-fci-fnfcigetnextcabinet">FNFCIGETNEXTCABINET</a> macro.
+Pointer to an application-defined callback function to obtain specifications on the next cabinet to create. The function should be declared using the <a href="/windows/desktop/api/fci/nf-fci-fnfcigetnextcabinet">FNFCIGETNEXTCABINET</a> macro.
 
 ### -param pfnfcis [in]
 
-Pointer to an application-defined callback function to update the user. The function should be declared using the <a href="https://docs.microsoft.com/windows/desktop/api/fci/nf-fci-fnfcistatus">FNFCISTATUS</a> macro.
+Pointer to an application-defined callback function to update the user. The function should be declared using the <a href="/windows/desktop/api/fci/nf-fci-fnfcistatus">FNFCISTATUS</a> macro.
 
 ## -returns
 
 If the function succeeds, it returns <b>TRUE</b>; otherwise, FASLE.
 
-Extended error information is provided in the <a href="https://docs.microsoft.com/windows/desktop/api/fdi_fci_types/ns-fdi_fci_types-erf">ERF</a> structure used to create the FCI context.
+Extended error information is provided in the <a href="/windows/desktop/api/fdi_fci_types/ns-fdi_fci_types-erf">ERF</a> structure used to create the FCI context.
 
 ## -remarks
 
@@ -80,5 +80,4 @@ The callback function indicated by <i>GetNextCab</i> will be called if the cabin
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fci/nf-fci-fciflushcabinet">FCIFlushCabinet</a>
-
+<a href="/windows/desktop/api/fci/nf-fci-fciflushcabinet">FCIFlushCabinet</a>

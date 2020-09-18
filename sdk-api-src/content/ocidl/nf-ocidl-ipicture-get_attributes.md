@@ -58,7 +58,7 @@ Retrieves the current set of the picture's bit attributes.
 
 A pointer to a variable that receives the value of the Attributes property.
 
-The Attributes property can contain any combination of the values from the <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/ne-ocidl-pictureattributes">PICTUREATTRIBUTES</a> enumeration.
+The Attributes property can contain any combination of the values from the <a href="/windows/desktop/api/ocidl/ne-ocidl-pictureattributes">PICTUREATTRIBUTES</a> enumeration.
 
 ## -returns
 
@@ -95,9 +95,8 @@ The value of <i>pdwAttr</i> is not valid. For example, it may be <b>NULL</b>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-ipicture">IPicture</a>
+<a href="/windows/desktop/api/ocidl/nn-ocidl-ipicture">IPicture</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/ne-ocidl-pictureattributes">PICTUREATTRIBUTES</a>
-
+<a href="/windows/desktop/api/ocidl/ne-ocidl-pictureattributes">PICTUREATTRIBUTES</a>

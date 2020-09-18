@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-The <b>WNDOBJ_vSetConsumer</b> function sets a driver-defined value in the <b>pvConsumer</b> field of the specified <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-wndobj">WNDOBJ</a> structure.
+The <b>WNDOBJ_vSetConsumer</b> function sets a driver-defined value in the <b>pvConsumer</b> field of the specified <a href="/windows/desktop/api/winddi/ns-winddi-wndobj">WNDOBJ</a> structure.
 
 ## -parameters
 
 ### -param pwo
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-wndobj">WNDOBJ</a> structure created by a prior call to <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engcreatewnd">EngCreateWnd</a>.
+Pointer to a <a href="/windows/desktop/api/winddi/ns-winddi-wndobj">WNDOBJ</a> structure created by a prior call to <a href="/windows/desktop/api/winddi/nf-winddi-engcreatewnd">EngCreateWnd</a>.
 
 ### -param pvConsumer
 
@@ -80,20 +80,19 @@ The callback provided to GDI by a driver's call to <b>EngCreateWnd</b>.
 
 </li>
 <li>
-The WNDOBJ_SETUP escape defined by <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvescape">DrvEscape</a> after a new WNDOBJ structure is created.
+The WNDOBJ_SETUP escape defined by <a href="/windows/desktop/api/winddi/nf-winddi-drvescape">DrvEscape</a> after a new WNDOBJ structure is created.
 
 </li>
 </ul>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvescape">DrvEscape</a>
+<a href="/windows/desktop/api/winddi/nf-winddi-drvescape">DrvEscape</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engcreatewnd">EngCreateWnd</a>
+<a href="/windows/desktop/api/winddi/nf-winddi-engcreatewnd">EngCreateWnd</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-wndobj">WNDOBJ</a>
-
+<a href="/windows/desktop/api/winddi/ns-winddi-wndobj">WNDOBJ</a>

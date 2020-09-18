@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Identifiers for properties of the <a href="https://docs.microsoft.com/windows/desktop/Direct2D/atlas">Atlas effect</a>.
+Identifiers for properties of the <a href="/windows/desktop/Direct2D/atlas">Atlas effect</a>.
 
 ## -enum-fields
 
@@ -67,4 +67,3 @@ The maximum size sampled for the output rectangle.
             Default value is (-FLT_MAX, -FLT_MAX, FLT_MAX, FLT_MAX).
 
 ### -field D2D1_ATLAS_PROP_FORCE_DWORD
-

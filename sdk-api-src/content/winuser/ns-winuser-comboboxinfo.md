@@ -60,7 +60,7 @@ Contains combo box status information.
 
 ### -field cbSize
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 The size, in bytes, of the structure. The calling application must set this to sizeof(COMBOBOXINFO).
 
@@ -78,7 +78,7 @@ A <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> structure that s
 
 ### -field stateButton
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 The combo box button state. This parameter can be one of the following values. 
 
@@ -122,19 +122,19 @@ The button is pressed.
 
 ### -field hwndCombo
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the combo box.
 
 ### -field hwndItem
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the edit box.
 
 ### -field hwndList
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the drop-down list.
 
@@ -151,5 +151,4 @@ GetComboBoxInfo(hwnd, &info);
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getcomboboxinfo">GetComboBoxInfo</a>
-
+<a href="/windows/desktop/api/winuser/nf-winuser-getcomboboxinfo">GetComboBoxInfo</a>

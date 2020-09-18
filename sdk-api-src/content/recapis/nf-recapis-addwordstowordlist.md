@@ -119,9 +119,8 @@ The pointer to the word list is incorrect.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/recapis/nf-recapis-makewordlist">MakeWordList Function</a>
+<a href="/windows/desktop/api/recapis/nf-recapis-makewordlist">MakeWordList Function</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/recapis/nf-recapis-setwordlist">SetWordList Function</a>
-
+<a href="/windows/desktop/api/recapis/nf-recapis-setwordlist">SetWordList Function</a>

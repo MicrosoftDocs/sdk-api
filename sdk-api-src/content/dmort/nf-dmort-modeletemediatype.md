@@ -56,7 +56,7 @@ The <b>MoDeleteMediaType</b> function deletes a media type structure that was pr
 
 ### -param pmt
 
-Pointer to an initialized <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mediaobj/ns-mediaobj-dmo_media_type">DMO_MEDIA_TYPE</a> structure.
+Pointer to an initialized <a href="/previous-versions/windows/desktop/api/mediaobj/ns-mediaobj-dmo_media_type">DMO_MEDIA_TYPE</a> structure.
 
 ## -returns
 
@@ -93,7 +93,6 @@ Success
 
 ## -remarks
 
-Call this function to free a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mediaobj/ns-mediaobj-dmo_media_type">DMO_MEDIA_TYPE</a> structure that was allocated with the <a href="https://docs.microsoft.com/windows/desktop/api/dmort/nf-dmort-mocreatemediatype">MoCreateMediaType</a> function.
+Call this function to free a <a href="/previous-versions/windows/desktop/api/mediaobj/ns-mediaobj-dmo_media_type">DMO_MEDIA_TYPE</a> structure that was allocated with the <a href="/windows/desktop/api/dmort/nf-dmort-mocreatemediatype">MoCreateMediaType</a> function.
 
-Internally, this function calls <a href="https://docs.microsoft.com/windows/desktop/api/dmort/nf-dmort-mofreemediatype">MoFreeMediaType</a> to free the format block.
-
+Internally, this function calls <a href="/windows/desktop/api/dmort/nf-dmort-mofreemediatype">MoFreeMediaType</a> to free the format block.

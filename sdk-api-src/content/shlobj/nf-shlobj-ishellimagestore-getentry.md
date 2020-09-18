@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[<a href="https://docs.microsoft.com/windows/desktop/api/shlobj/nn-shlobj-ishellimagestore">IShellImageStore</a> is supported through Windows XP. It is not supported in later operating systems.]
+<p class="CCE_Message">[<a href="/windows/desktop/api/shlobj/nn-shlobj-ishellimagestore">IShellImageStore</a> is supported through Windows XP. It is not supported in later operating systems.]
 
 Gets a handle to an image in the cache.
 
@@ -66,7 +66,7 @@ A pointer to a null-terminated string that specifies the path to the file that c
 
 Type: <b>DWORD</b>
 
-The storage instantiation mode specified by one of the <a href="https://docs.microsoft.com/windows/desktop/Stg/stgm-constants">STGM </a>values.
+The storage instantiation mode specified by one of the <a href="/windows/desktop/Stg/stgm-constants">STGM </a>values.
 
 ### -param phImage [out]
 
@@ -78,7 +78,7 @@ A pointer to the handle of the bitmap.
 
 Type: <b>HRESULT</b>
 
-Returns the result of <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-isequentialstream-read">ISequentialStream::Read</a> if the process was successful. Otherwise, returns one of the following values:
+Returns the result of <a href="/windows/desktop/api/objidl/nf-objidl-isequentialstream-read">ISequentialStream::Read</a> if the process was successful. Otherwise, returns one of the following values:
 
 <table>
 <tr>
@@ -112,4 +112,3 @@ The stream cannot be found.
 ## -remarks
 
 It is the caller's responsibility to free the handle after a call to this method.
-

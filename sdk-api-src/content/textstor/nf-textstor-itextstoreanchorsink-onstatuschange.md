@@ -56,7 +56,7 @@ Called when the text stream status changes.
 
 ### -param dwFlags [in]
 
-Contains a value that specifies the new status. For more information about possible values, see the <b>dwDynamicFlags</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/textstor/ns-textstor-ts_status">TS_STATUS</a> structure.
+Contains a value that specifies the new status. For more information about possible values, see the <b>dwDynamicFlags</b> member of the <a href="/windows/desktop/api/textstor/ns-textstor-ts_status">TS_STATUS</a> structure.
 
 ## -returns
 
@@ -82,19 +82,18 @@ The method was successful.
 
 ## -remarks
 
-Applications should call this method whenever <a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-itextstoreanchor-getstatus">ITextStoreAnchor::GetStatus</a> returns a new value for any of the <b>dwDynamicFlags</b> member of <b>TS_STATUS</b> .
+Applications should call this method whenever <a href="/windows/desktop/api/textstor/nf-textstor-itextstoreanchor-getstatus">ITextStoreAnchor::GetStatus</a> returns a new value for any of the <b>dwDynamicFlags</b> member of <b>TS_STATUS</b> .
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-itextstoreanchor-getstatus">ITextStoreAnchor::GetStatus
+<a href="/windows/desktop/api/textstor/nf-textstor-itextstoreanchor-getstatus">ITextStoreAnchor::GetStatus
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nn-textstor-itextstoreanchorsink">ITextStoreAnchorSink</a>
+<a href="/windows/desktop/api/textstor/nn-textstor-itextstoreanchorsink">ITextStoreAnchorSink</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/textstor/ns-textstor-ts_status">TS_STATUS
+<a href="/windows/desktop/api/textstor/ns-textstor-ts_status">TS_STATUS
       </a>
-

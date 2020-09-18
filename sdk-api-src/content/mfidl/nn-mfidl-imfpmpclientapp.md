@@ -54,7 +54,7 @@ Provides a mechanism for a media source to implement content protection function
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFPMPClientApp</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFPMPClientApp</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFPMPClientApp</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFPMPClientApp</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,10 +69,10 @@ The <b>IMFPMPClientApp</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfpmpclientapp-setpmphost">SetPMPHost</a>
+<a href="/windows/desktop/api/mfidl/nf-mfidl-imfpmpclientapp-setpmphost">SetPMPHost</a>
 </td>
 <td align="left" width="63%">
-Initialize the component with <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfpmphostapp">IMFPMPHostApp</a>.
+Initialize the component with <a href="/windows/desktop/api/mfidl/nn-mfidl-imfpmphostapp">IMFPMPHostApp</a>.
 
 </td>
 </tr>
@@ -85,13 +85,12 @@ A media source implements <b>IMFPMPClientApp</b> in order to implement content p
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
+<a href="/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/pmp-media-session">PMP Media Session</a>
+<a href="/windows/desktop/medfound/pmp-media-session">PMP Media Session</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/protected-media-path">Protected Media Path</a>
-
+<a href="/windows/desktop/medfound/protected-media-path">Protected Media Path</a>

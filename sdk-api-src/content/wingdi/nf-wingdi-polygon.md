@@ -62,7 +62,7 @@ A handle to the device context.
 
 ### -param apt [in]
 
-A pointer to an array of <a href="https://docs.microsoft.com/previous-versions/dd162805(v=vs.85)">POINT</a> structures that specify the vertices of the polygon, in logical coordinates.
+A pointer to an array of <a href="/previous-versions/dd162805(v=vs.85)">POINT</a> structures that specify the vertices of the polygon, in logical coordinates.
 
 ### -param cpt [in]
 
@@ -84,39 +84,38 @@ Any extra points are ignored. To draw a line with more points, divide your data 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/filled-shape-functions">Filled Shape Functions</a>
+<a href="/windows/desktop/gdi/filled-shape-functions">Filled Shape Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/filled-shapes">Filled Shapes Overview</a>
+<a href="/windows/desktop/gdi/filled-shapes">Filled Shapes Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getpolyfillmode">GetPolyFillMode
+<a href="/windows/desktop/api/wingdi/nf-wingdi-getpolyfillmode">GetPolyFillMode
       </a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/dd162805(v=vs.85)">POINT
+<a href="/previous-versions/dd162805(v=vs.85)">POINT
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-polypolygon">PolyPolygon
+<a href="/windows/desktop/api/wingdi/nf-wingdi-polypolygon">PolyPolygon
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-polyline">Polyline
+<a href="/windows/desktop/api/wingdi/nf-wingdi-polyline">Polyline
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-polylineto">PolylineTo
+<a href="/windows/desktop/api/wingdi/nf-wingdi-polylineto">PolylineTo
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-setpolyfillmode">SetPolyFillMode
+<a href="/windows/desktop/api/wingdi/nf-wingdi-setpolyfillmode">SetPolyFillMode
       </a>
-

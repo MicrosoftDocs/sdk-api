@@ -87,17 +87,16 @@ Constriction is a protection mechanism that limits the effective resolution of t
 
 Video constriction can be implemented by either the mixer or the presenter.
 
-If the method returns <b>TRUE</b>, the EVR might call <a href="https://docs.microsoft.com/windows/desktop/api/evr/nf-evr-ievrtrustedvideoplugin-setconstriction">IEVRTrustedVideoPlugin::SetConstriction</a> at any time.
+If the method returns <b>TRUE</b>, the EVR might call <a href="/windows/desktop/api/evr/nf-evr-ievrtrustedvideoplugin-setconstriction">IEVRTrustedVideoPlugin::SetConstriction</a> at any time.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/enhanced-video-renderer">Enhanced Video Renderer</a>
+<a href="/windows/desktop/medfound/enhanced-video-renderer">Enhanced Video Renderer</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/evr/nn-evr-ievrtrustedvideoplugin">IEVRTrustedVideoPlugin</a>
+<a href="/windows/desktop/api/evr/nn-evr-ievrtrustedvideoplugin">IEVRTrustedVideoPlugin</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/protected-media-path">Protected Media Path</a>
-
+<a href="/windows/desktop/medfound/protected-media-path">Protected Media Path</a>

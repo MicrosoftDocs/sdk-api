@@ -52,7 +52,7 @@ api_name:
 
 The 
 <b>lineSetCallData</b> function sets the <b>CallData</b> member in 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linecallinfo">LINECALLINFO</a>. Depending on the service provider implementation, the <b>CallData</b> member can be propagated to all applications having handles to the call, including those on other machines (through the server), and can travel with the call when it is transferred.
+<a href="/windows/desktop/api/tapi/ns-tapi-linecallinfo">LINECALLINFO</a>. Depending on the service provider implementation, the <b>CallData</b> member can be propagated to all applications having handles to the call, including those on other machines (through the server), and can travel with the call when it is transferred.
 
 ## -parameters
 
@@ -63,8 +63,8 @@ Handle to the call. The application must have OWNER privilege.
 ### -param lpCallData
 
 Address of the data to be copied to the <b>CallData</b> member in 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linecallinfo">LINECALLINFO</a>, replacing any existing data. For more information, see the 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/call-data-ovr">call data</a> topic.
+<a href="/windows/desktop/api/tapi/ns-tapi-linecallinfo">LINECALLINFO</a>, replacing any existing data. For more information, see the 
+<a href="/windows/desktop/Tapi/call-data-ovr">call data</a> topic.
 
 ### -param dwSize
 
@@ -84,13 +84,12 @@ LINEERR_INVALCALLHANDLE, LINEERR_INVALCALLSTATE, LINEERR_INVALPARAM, LINEERR_INV
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linecallinfo">LINECALLINFO</a>
+<a href="/windows/desktop/api/tapi/ns-tapi-linecallinfo">LINECALLINFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/supplementary-line-service-functions">Supplementary Line Service Functions</a>
+<a href="/windows/desktop/Tapi/supplementary-line-service-functions">Supplementary Line Service Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/tapi-2-2-reference">TAPI 2.2 Reference Overview</a>
-
+<a href="/windows/desktop/Tapi/tapi-2-2-reference">TAPI 2.2 Reference Overview</a>

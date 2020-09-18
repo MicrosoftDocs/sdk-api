@@ -62,7 +62,7 @@ Reserved. Set to null.
 ### -param ppwcArguments [in, out]
 
 The arguments passed to 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netsh/nc-netsh-fn_handle_cmd">FN_HANDLE_CMD</a> (the command function) as its <i>ppwcArguments</i> parameter.
+<a href="/previous-versions/windows/desktop/api/netsh/nc-netsh-fn_handle_cmd">FN_HANDLE_CMD</a> (the command function) as its <i>ppwcArguments</i> parameter.
 
 ### -param dwCurrentIndex [in]
 
@@ -180,9 +180,8 @@ The
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netsh/nc-netsh-fn_handle_cmd">FN_HANDLE_CMD</a>
+<a href="/previous-versions/windows/desktop/api/netsh/nc-netsh-fn_handle_cmd">FN_HANDLE_CMD</a>
 
 
 
 <a href="/windows/win32/api/netsh/ns-netsh-tag_type">TAG_TYPE</a>
-

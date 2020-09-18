@@ -54,7 +54,7 @@ Describes the dependency of one package on another package.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAppxManifestPackageDependency</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAppxManifestPackageDependency</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAppxManifestPackageDependency</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAppxManifestPackageDependency</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IAppxManifestPackageDependency</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxmanifestpackagedependency-getminversion">GetMinVersion</a>
+<a href="/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxmanifestpackagedependency-getminversion">GetMinVersion</a>
 </td>
 <td align="left" width="63%">
 Gets the minimum version of the package on which the current package has a dependency.
@@ -78,7 +78,7 @@ Gets the minimum version of the package on which the current package has a depen
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxmanifestpackagedependency-getname">GetName</a>
+<a href="/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxmanifestpackagedependency-getname">GetName</a>
 </td>
 <td align="left" width="63%">
 Gets the name of the package on which the current package has a dependency.
@@ -87,7 +87,7 @@ Gets the name of the package on which the current package has a dependency.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxmanifestpackagedependency-getpublisher">GetPublisher</a>
+<a href="/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxmanifestpackagedependency-getpublisher">GetPublisher</a>
 </td>
 <td align="left" width="63%">
 Gets the name of the publisher that produced the package on which the current package depends.
@@ -98,9 +98,8 @@ Gets the name of the publisher that produced the package on which the current pa
 
 ## -remarks
 
-A dependency package is a package that the current package depends on, as specified in the package manifest using the <a href="https://docs.microsoft.com/uwp/schemas/appxpackage/appxmanifestschema/element-packagedependency">PackageDependency</a> element.
+A dependency package is a package that the current package depends on, as specified in the package manifest using the <a href="/uwp/schemas/appxpackage/appxmanifestschema/element-packagedependency">PackageDependency</a> element.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxmanifestpackagedependenciesenumerator">IAppxManifestPackageDependenciesEnumerator</a>
-
+<a href="/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxmanifestpackagedependenciesenumerator">IAppxManifestPackageDependenciesEnumerator</a>

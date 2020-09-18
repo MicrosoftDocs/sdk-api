@@ -54,18 +54,18 @@ api_name:
 
 Writes formatted data to the specified string. The size of the destination buffer is provided to the function to ensure that it does not write past the end of this buffer.
 
-<b>StringCchPrintfEx</b> adds to the functionality of <a href="https://docs.microsoft.com/windows/desktop/api/strsafe/nf-strsafe-stringcchprintfa">StringCchPrintf</a> by returning a pointer to the end of the destination string as well as the number of characters left unused in that string. Flags may also be passed to the function for additional control.
+<b>StringCchPrintfEx</b> adds to the functionality of <a href="/windows/desktop/api/strsafe/nf-strsafe-stringcchprintfa">StringCchPrintf</a> by returning a pointer to the end of the destination string as well as the number of characters left unused in that string. Flags may also be passed to the function for additional control.
 
 <b>StringCchPrintfEx</b> is a replacement for the following functions:
 <ul>
-<li><a href="https://msdn.microsoft.com/library/ybk95axf.aspx">sprintf, swprintf, _stprintf</a></li>
+<li><a href="/cpp/c-runtime-library/reference/sprintf-sprintf-l-swprintf-swprintf-l-swprintf-l">sprintf, swprintf, _stprintf</a></li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-wsprintfa">wsprintf</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-wsprintfa">wsprintf</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-wnsprintfa">wnsprintf</a>
+<a href="/windows/desktop/api/shlwapi/nf-shlwapi-wnsprintfa">wnsprintf</a>
 </li>
-<li><a href="https://msdn.microsoft.com/library/2ts7cx93.aspx">_snprintf, _snwprintf, _sntprintf</a></li>
+<li><a href="/cpp/c-runtime-library/reference/snprintf-snprintf-snprintf-l-snwprintf-snwprintf-l">_snprintf, _snwprintf, _sntprintf</a></li>
 </ul>
 
 ## -parameters
@@ -166,7 +166,7 @@ As in the case of <b>STRSAFE_NULL_ON_FAILURE</b>, if the function fails, <i>pszD
 
 Type: <b>LPCTSTR</b>
 
-The format string. This string must be null-terminated. For more information, see <a href="https://docs.microsoft.com/cpp/c-runtime-library/format-specification-syntax-printf-and-wprintf-functions">Format Specification Syntax</a>.
+The format string. This string must be null-terminated. For more information, see <a href="/cpp/c-runtime-library/format-specification-syntax-printf-and-wprintf-functions">Format Specification Syntax</a>.
 
 ### -param arg7 [in]
 
@@ -176,7 +176,7 @@ The Arguments to be inserted into the <i>pszFormat</i> string.
 
 Type: <b>HRESULT</b>
 
-This function can return one of the following values. It is strongly recommended that you use the <a href="https://docs.microsoft.com/windows/desktop/api/winerror/nf-winerror-succeeded">SUCCEEDED</a> and <a href="https://docs.microsoft.com/windows/desktop/api/winerror/nf-winerror-failed">FAILED</a> macros to test the return value of this function.
+This function can return one of the following values. It is strongly recommended that you use the <a href="/windows/desktop/api/winerror/nf-winerror-succeeded">SUCCEEDED</a> and <a href="/windows/desktop/api/winerror/nf-winerror-failed">FAILED</a> macros to test the return value of this function.
 
 <table>
 <tr>
@@ -268,13 +268,12 @@ Neither <i>pszFormat</i> nor <i>pszDest</i> should be <b>NULL</b> unless the <b>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strsafe/nf-strsafe-stringcbprintfexa">StringCbPrintfEx</a>
+<a href="/windows/desktop/api/strsafe/nf-strsafe-stringcbprintfexa">StringCbPrintfEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strsafe/nf-strsafe-stringcchprintfa">StringCchPrintf</a>
+<a href="/windows/desktop/api/strsafe/nf-strsafe-stringcchprintfa">StringCchPrintf</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strsafe/nf-strsafe-stringcchvprintfexa">StringCchVPrintfEx</a>
-
+<a href="/windows/desktop/api/strsafe/nf-strsafe-stringcchvprintfexa">StringCchVPrintfEx</a>

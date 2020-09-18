@@ -52,7 +52,7 @@ api_name:
 
 <p class="CCE_Message">[This structure may be altered or unavailable in future versions of Windows.]
 
-The <b>IPInterfaceInfo</b> structure contains information about a specific IP interface, returned by the <a href="https://docs.microsoft.com/windows/desktop/api/tcpioctl/ni-tcpioctl-ioctl_tcp_query_information_ex">IOCTL_TCP_QUERY_INFORMATION_EX</a> control code.
+The <b>IPInterfaceInfo</b> structure contains information about a specific IP interface, returned by the <a href="/windows/desktop/api/tcpioctl/ni-tcpioctl-ioctl_tcp_query_information_ex">IOCTL_TCP_QUERY_INFORMATION_EX</a> control code.
 
 ## -struct-fields
 
@@ -128,10 +128,9 @@ This is a variable-length structure whose size depends on whether the <b>iii_add
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tcpioctl/ni-tcpioctl-ioctl_tcp_query_information_ex">IOCTL_TCP_QUERY_INFORMATION_EX</a>
+<a href="/windows/desktop/api/tcpioctl/ni-tcpioctl-ioctl_tcp_query_information_ex">IOCTL_TCP_QUERY_INFORMATION_EX</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mib/management-information-base-reference">Management Information Base
+<a href="/previous-versions/windows/desktop/mib/management-information-base-reference">Management Information Base
 			 Reference</a>
-

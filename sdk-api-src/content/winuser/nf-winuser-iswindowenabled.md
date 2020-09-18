@@ -89,17 +89,16 @@ A child window receives input only if it is both enabled and visible.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-enablewindow">EnableWindow</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-enablewindow">EnableWindow</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-iswindowvisible">IsWindowVisible</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-iswindowvisible">IsWindowVisible</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/inputdev/keyboard-input">Keyboard Input</a>
+<a href="/windows/desktop/inputdev/keyboard-input">Keyboard Input</a>
 
 
 
 <b>Reference</b>
-

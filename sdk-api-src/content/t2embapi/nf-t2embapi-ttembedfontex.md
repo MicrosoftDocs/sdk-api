@@ -54,7 +54,7 @@ Creates a font structure containing the subsetted UCS-4 character (32-bit) font.
 
 This function passes the data to a client-defined callback routine for insertion into the document stream.
 
-<b>TTEmbedFontEx</b> is used the same way as <a href="https://docs.microsoft.com/windows/desktop/api/t2embapi/nf-t2embapi-ttembedfont">TTEmbedFont</a>, but accepts a character code set given in UCS-4 (32 bits).
+<b>TTEmbedFontEx</b> is used the same way as <a href="/windows/desktop/api/t2embapi/nf-t2embapi-ttembedfont">TTEmbedFont</a>, but accepts a character code set given in UCS-4 (32 bits).
 
 ## -parameters
 
@@ -201,7 +201,7 @@ Pointer to a bitfield containing status information about the embedding request.
 
 ### -param lpfnWriteToStream
 
-Pointer to the client-defined callback function which writes the font structure to the document stream. See <a href="https://docs.microsoft.com/previous-versions/dd145225(v=vs.85)">WRITEEMBEDPROC</a>.
+Pointer to the client-defined callback function which writes the font structure to the document stream. See <a href="/previous-versions/dd145225(v=vs.85)">WRITEEMBEDPROC</a>.
 
 ### -param lpvWriteStream [in]
 
@@ -221,7 +221,7 @@ Specifies which language in the name table to keep when subsetting. Set to 0 to 
 
 ### -param pTTEmbedInfo [in, optional]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/t2embapi/ns-t2embapi-ttembedinfo">TTEMBEDINFO</a> structure containing the URLs from which the embedded font object may be legitimately referenced. If <i>pTTEmbedInfo</i> is <b>NULL</b>, no URLs will be added to the embedded font object and no URL checking will occur when the client calls <a href="https://docs.microsoft.com/windows/desktop/api/t2embapi/nf-t2embapi-ttloadembeddedfont">TTLoadEmbeddedFont</a>.
+Pointer to a <a href="/windows/desktop/api/t2embapi/ns-t2embapi-ttembedinfo">TTEMBEDINFO</a> structure containing the URLs from which the embedded font object may be legitimately referenced. If <i>pTTEmbedInfo</i> is <b>NULL</b>, no URLs will be added to the embedded font object and no URL checking will occur when the client calls <a href="/windows/desktop/api/t2embapi/nf-t2embapi-ttloadembeddedfont">TTLoadEmbeddedFont</a>.
 
 ## -returns
 
@@ -231,7 +231,7 @@ The font structure is incorporated into the document stream by the client.
 
 <i>pulPrivStatus</i> is set, indicating the embedding privileges of the font; and <i>pulStatus</i> is set to provide results of the embedding operation.
 
-Otherwise, returns an error code described in <a href="https://docs.microsoft.com/windows/desktop/gdi/font-embedding-function-error-messages">Embedding-Function Error Messages</a>.
+Otherwise, returns an error code described in <a href="/windows/desktop/gdi/font-embedding-function-error-messages">Embedding-Function Error Messages</a>.
 
 ## -remarks
 
@@ -239,21 +239,20 @@ This function references a client-defined callback routine for embedding the fon
 
 Clients are responsible for determining and indicating the character set of the font.
 
-For information on embedding Unicode characters, see <a href="https://docs.microsoft.com/windows/desktop/api/t2embapi/nf-t2embapi-ttembedfont">TTEmbedFont</a>; for information on embedding Unicode characters from a file, see <a href="https://docs.microsoft.com/windows/desktop/api/t2embapi/nf-t2embapi-ttembedfontfromfilea">TTEmbedFontFromFileA</a>.
+For information on embedding Unicode characters, see <a href="/windows/desktop/api/t2embapi/nf-t2embapi-ttembedfont">TTEmbedFont</a>; for information on embedding Unicode characters from a file, see <a href="/windows/desktop/api/t2embapi/nf-t2embapi-ttembedfontfromfilea">TTEmbedFontFromFileA</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/t2embapi/ns-t2embapi-ttembedinfo">TTEMBEDINFO</a>
+<a href="/windows/desktop/api/t2embapi/ns-t2embapi-ttembedinfo">TTEMBEDINFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/t2embapi/nf-t2embapi-ttembedfont">TTEmbedFont</a>
+<a href="/windows/desktop/api/t2embapi/nf-t2embapi-ttembedfont">TTEmbedFont</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/t2embapi/nf-t2embapi-ttembedfontfromfilea">TTEmbedFontFromFileA</a>
+<a href="/windows/desktop/api/t2embapi/nf-t2embapi-ttembedfontfromfilea">TTEmbedFontFromFileA</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/t2embapi/nf-t2embapi-ttloadembeddedfont">TTLoadEmbeddedFont</a>
-
+<a href="/windows/desktop/api/t2embapi/nf-t2embapi-ttloadembeddedfont">TTLoadEmbeddedFont</a>

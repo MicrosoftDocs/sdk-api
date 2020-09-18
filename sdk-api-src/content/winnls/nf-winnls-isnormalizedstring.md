@@ -52,13 +52,13 @@ api_name:
 
 ## -description
 
-Verifies that a string is normalized according to Unicode 4.0 TR#15. For more information, see <a href="https://docs.microsoft.com/windows/desktop/Intl/using-unicode-normalization-to-represent-strings">Using Unicode Normalization to Represent Strings</a>.
+Verifies that a string is normalized according to Unicode 4.0 TR#15. For more information, see <a href="/windows/desktop/Intl/using-unicode-normalization-to-represent-strings">Using Unicode Normalization to Represent Strings</a>.
 
 ## -parameters
 
 ### -param NormForm [in]
 
-Normalization form to use. <a href="https://docs.microsoft.com/windows/desktop/api/winnls/ne-winnls-norm_form">NORM_FORM</a> specifies the standard Unicode normalization forms.
+Normalization form to use. <a href="/windows/desktop/api/winnls/ne-winnls-norm_form">NORM_FORM</a> specifies the standard Unicode normalization forms.
 
 ### -param lpString [in]
 
@@ -70,14 +70,14 @@ Length, in characters, of the input string, including a null terminating charact
 
 ## -returns
 
-Returns <b>TRUE</b> if the input string is already normalized to the appropriate form, or <b>FALSE</b> otherwise. To get extended error information, the application can call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>, which can return one of the following error codes:
+Returns <b>TRUE</b> if the input string is already normalized to the appropriate form, or <b>FALSE</b> otherwise. To get extended error information, the application can call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>, which can return one of the following error codes:
 
 <ul>
 <li>ERROR_INVALID_PARAMETER. Any of the parameter values was invalid.</li>
 <li>ERROR_NO_UNICODE_TRANSLATION. Invalid Unicode was found in string.</li>
 <li>ERROR_SUCCESS. The action completed successfully but yielded no results.</li>
 </ul>
-If you need to reliably determine <b>FALSE</b> from an error condition, then it must call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-setlasterror">SetLastError</a>(ERROR_SUCCESS).
+If you need to reliably determine <b>FALSE</b> from an error condition, then it must call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-setlasterror">SetLastError</a>(ERROR_SUCCESS).
 
 ## -remarks
 
@@ -86,7 +86,7 @@ If you need to reliably determine <b>FALSE</b> from an error condition, then it 
 
 #### Examples
 
-An example showing the use of this function can be found in <a href="https://docs.microsoft.com/windows/desktop/Intl/nls--unicode-normalization-sample">NLS: Unicode Normalization Sample</a>.
+An example showing the use of this function can be found in <a href="/windows/desktop/Intl/nls--unicode-normalization-sample">NLS: Unicode Normalization Sample</a>.
 
 
 
@@ -94,21 +94,20 @@ An example showing the use of this function can be found in <a href="https://doc
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnls/ne-winnls-norm_form">NORM_FORM</a>
+<a href="/windows/desktop/api/winnls/ne-winnls-norm_form">NORM_FORM</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/national-language-support">National Language Support</a>
+<a href="/windows/desktop/Intl/national-language-support">National Language Support</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/national-language-support-functions">National Language Support Functions</a>
+<a href="/windows/desktop/Intl/national-language-support-functions">National Language Support Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-normalizestring">NormalizeString</a>
+<a href="/windows/desktop/api/winnls/nf-winnls-normalizestring">NormalizeString</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/using-unicode-normalization-to-represent-strings">Using Unicode Normalization to Represent Strings</a>
-
+<a href="/windows/desktop/Intl/using-unicode-normalization-to-represent-strings">Using Unicode Normalization to Represent Strings</a>

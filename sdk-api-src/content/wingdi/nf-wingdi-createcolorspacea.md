@@ -54,13 +54,13 @@ api_name:
 
 ## -description
 
-The <b>CreateColorSpace</b> function creates a logical <a href="https://docs.microsoft.com/previous-versions/windows/desktop/wcs/c">color space</a>.
+The <b>CreateColorSpace</b> function creates a logical <a href="/previous-versions/windows/desktop/wcs/c">color space</a>.
 
 ## -parameters
 
 ### -param lplcs
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-logcolorspacea">LOGCOLORSPACE</a> data structure.
+Pointer to the <a href="/windows/desktop/api/wingdi/ns-wingdi-logcolorspacea">LOGCOLORSPACE</a> data structure.
 
 ## -returns
 
@@ -83,13 +83,12 @@ When the color space is no longer needed, use <b>DeleteColorSpace</b> to delete 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/wcs/basic-color-management-concepts">Basic Color Management Concepts</a>
+<a href="/previous-versions/windows/desktop/wcs/basic-color-management-concepts">Basic Color Management Concepts</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-deletecolorspace">DeleteColorSpace</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-deletecolorspace">DeleteColorSpace</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/dd316902(v=vs.85)">Functions</a>
-
+<a href="/previous-versions/dd316902(v=vs.85)">Functions</a>

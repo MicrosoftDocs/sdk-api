@@ -58,9 +58,8 @@ Represents a signed 32 bit integer.  (e.g. The value 255 represents the text "25
 
 ### -field text
 
-The base type for all types that derive from <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_xml_text">WS_XML_TEXT</a>.
+The base type for all types that derive from <a href="/windows/desktop/api/webservices/ns-webservices-ws_xml_text">WS_XML_TEXT</a>.
 
 ### -field value
 
 The integer value.
-

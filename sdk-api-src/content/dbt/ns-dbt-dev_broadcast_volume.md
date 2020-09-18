@@ -120,9 +120,8 @@ Messages for network drive arrival and removal are not sent whenever network com
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbt/ns-dbt-dev_broadcast_hdr">DEV_BROADCAST_HDR</a>
+<a href="/windows/desktop/api/dbt/ns-dbt-dev_broadcast_hdr">DEV_BROADCAST_HDR</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DevIO/wm-devicechange">WM_DEVICECHANGE</a>
-
+<a href="/windows/desktop/DevIO/wm-devicechange">WM_DEVICECHANGE</a>

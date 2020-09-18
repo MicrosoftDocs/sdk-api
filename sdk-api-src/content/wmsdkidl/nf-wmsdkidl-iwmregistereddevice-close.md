@@ -83,9 +83,8 @@ Although this method returns immediately, it does not release resources associat
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmregistereddevice">IWMRegisteredDevice Interface</a>
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmregistereddevice">IWMRegisteredDevice Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmregistereddevice-open">IWMRegisteredDevice::Open</a>
-
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmregistereddevice-open">IWMRegisteredDevice::Open</a>

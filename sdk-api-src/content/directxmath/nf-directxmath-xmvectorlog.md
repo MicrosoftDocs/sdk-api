@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Computes the base two logarithm of each component of a vector.<div class="alert"><b>Note</b>  This function is a compatibility alias for <a href="https://docs.microsoft.com/windows/desktop/api/directxmath/nf-directxmath-xmvectorlog2">XMVectorLog2</a> for existing Windows 8 code. This function is deprecated for Windows 8.1. Don't use it and instead use <b>XMVectorLog2</b> or <a href="https://docs.microsoft.com/windows/desktop/api/directxmath/nf-directxmath-xmvectorloge">XMVectorLogE</a>.
+Computes the base two logarithm of each component of a vector.<div class="alert"><b>Note</b>  This function is a compatibility alias for <a href="/windows/desktop/api/directxmath/nf-directxmath-xmvectorlog2">XMVectorLog2</a> for existing Windows 8 code. This function is deprecated for Windows 8.1. Don't use it and instead use <b>XMVectorLog2</b> or <a href="/windows/desktop/api/directxmath/nf-directxmath-xmvectorloge">XMVectorLogE</a>.
 </div>
 <div> </div>
 
@@ -71,5 +71,4 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/dxmath/ovw-xnamath-reference-functions-vector-transcendental">Transcendental Vector Functions</a>
-
+<a href="/windows/desktop/dxmath/ovw-xnamath-reference-functions-vector-transcendental">Transcendental Vector Functions</a>

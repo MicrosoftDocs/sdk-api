@@ -56,7 +56,7 @@ Waits for an image or file transfer to complete.
 
 ### -param hTransfer [in]
 
-A WDS transfer handle for the transfer being canceled. This can be the handle returned by the <a href="https://docs.microsoft.com/windows/desktop/api/wdsclientapi/nf-wdsclientapi-wdsclitransferimage">WdsCliTransferImage</a> or <a href="https://docs.microsoft.com/windows/desktop/api/wdsclientapi/nf-wdsclientapi-wdsclitransferfile">WdsCliTransferFile</a> functions.
+A WDS transfer handle for the transfer being canceled. This can be the handle returned by the <a href="/windows/desktop/api/wdsclientapi/nf-wdsclientapi-wdsclitransferimage">WdsCliTransferImage</a> or <a href="/windows/desktop/api/wdsclientapi/nf-wdsclientapi-wdsclitransferfile">WdsCliTransferFile</a> functions.
 
 ## -returns
 
@@ -65,4 +65,3 @@ If the function succeeds, the return is <b>S_OK</b>.
 ## -remarks
 
 Calling this function from a callback function is not recommended.
-

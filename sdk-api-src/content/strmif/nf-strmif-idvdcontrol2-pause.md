@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-<div class="alert"><b>Note</b>  This method is deprecated. Applications should call <a href="https://docs.microsoft.com/windows/desktop/api/control/nf-control-imediacontrol-pause">IMediaControl::Pause</a> instead. For more information, see <a href="https://docs.microsoft.com/windows/desktop/DirectShow/data-flow-in-the-dvd-navigator">Data Flow in the DVD Navigator</a>.</div>
+<div class="alert"><b>Note</b>  This method is deprecated. Applications should call <a href="/windows/desktop/api/control/nf-control-imediacontrol-pause">IMediaControl::Pause</a> instead. For more information, see <a href="/windows/desktop/DirectShow/data-flow-in-the-dvd-navigator">Data Flow in the DVD Navigator</a>.</div>
 <div> </div>
 The <code>Pause</code> method pauses or resumes playback at the current location.
 
@@ -107,7 +107,7 @@ UOP control prohibits the DVD Navigator from entering a paused state.
 
 ## -remarks
 
-Putting the DVD Navigator into a paused state freezes playback and any internal timers, similar to <a href="https://docs.microsoft.com/windows/desktop/api/control/nf-control-imediacontrol-pause">IMediaControl::Pause</a>. If the filter graph is not running, this method does nothing.
+Putting the DVD Navigator into a paused state freezes playback and any internal timers, similar to <a href="/windows/desktop/api/control/nf-control-imediacontrol-pause">IMediaControl::Pause</a>. If the filter graph is not running, this method does nothing.
 
 The following table shows the Annex J command name to which this method name corresponds, and the domains in which this method is valid.
 
@@ -132,13 +132,12 @@ The following table shows the Annex J command name to which this method name cor
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/dvd-applications">DVD Applications</a>
+<a href="/windows/desktop/DirectShow/dvd-applications">DVD Applications</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-idvdcontrol2">IDvdControl2 Interface</a>
-
+<a href="/windows/desktop/api/strmif/nn-strmif-idvdcontrol2">IDvdControl2 Interface</a>

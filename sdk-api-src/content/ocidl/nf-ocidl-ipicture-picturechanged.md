@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Notifies the picture object that its picture resource has changed. This method only calls <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-ipropertynotifysink-onchanged">IPropertyNotifySink::OnChanged</a> with DISPID_PICT_HANDLE for any connected sinks.
+Notifies the picture object that its picture resource has changed. This method only calls <a href="/windows/desktop/api/ocidl/nf-ocidl-ipropertynotifysink-onchanged">IPropertyNotifySink::OnChanged</a> with DISPID_PICT_HANDLE for any connected sinks.
 
 ## -parameters
 
@@ -60,5 +60,4 @@ This method S_OK if it succeeds and E_FAIL if the picture object is uninitialize
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-ipicture">IPicture</a>
-
+<a href="/windows/desktop/api/ocidl/nn-ocidl-ipicture">IPicture</a>

@@ -50,17 +50,17 @@ api_name:
 
 ## -description
 
-Asynchronously creates a new instance of an object that implements the <a href="https://docs.microsoft.com/windows/desktop/mediastreaming/imediarenderer">IMediaRenderer</a> interface using the specified Unique Device Name (UDN).
+Asynchronously creates a new instance of an object that implements the <a href="/windows/desktop/mediastreaming/imediarenderer">IMediaRenderer</a> interface using the specified Unique Device Name (UDN).
 
 ## -parameters
 
 ### -param deviceIdentifier [in]
 
-An HSTRING containing a UDN that identifies the DLNA DMR device for which an instance of <a href="https://docs.microsoft.com/windows/desktop/mediastreaming/imediarenderer">IMediaRenderer</a> will be created.
+An HSTRING containing a UDN that identifies the DLNA DMR device for which an instance of <a href="/windows/desktop/mediastreaming/imediarenderer">IMediaRenderer</a> will be created.
 
 ### -param value [out, retval]
 
-Receives a reference to a <a href="https://docs.microsoft.com/windows/desktop/mediastreaming/createmediarendereroperation">CreateMediaRendererOperation</a> object that is used to get results from the asynchronous operation.
+Receives a reference to a <a href="/windows/desktop/mediastreaming/createmediarendereroperation">CreateMediaRendererOperation</a> object that is used to get results from the asynchronous operation.
 
 ## -returns
 
@@ -86,5 +86,4 @@ The method succeeded.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh828924(v=vs.85)">IMediaRendererFactory</a>
-
+<a href="/previous-versions/windows/desktop/legacy/hh828924(v=vs.85)">IMediaRendererFactory</a>

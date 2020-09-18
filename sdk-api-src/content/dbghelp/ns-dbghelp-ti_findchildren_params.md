@@ -53,7 +53,7 @@ api_name:
 ## -description
 
 Contains type index information. It is used by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-symgettypeinfo">SymGetTypeInfo</a> function.
+<a href="/windows/desktop/api/dbghelp/nf-dbghelp-symgettypeinfo">SymGetTypeInfo</a> function.
 
 ## -struct-fields
 
@@ -71,5 +71,4 @@ An array of type indexes. There is one index per child.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-symgettypeinfo">SymGetTypeInfo</a>
-
+<a href="/windows/desktop/api/dbghelp/nf-dbghelp-symgettypeinfo">SymGetTypeInfo</a>

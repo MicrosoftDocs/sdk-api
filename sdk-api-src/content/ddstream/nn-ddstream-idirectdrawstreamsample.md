@@ -60,7 +60,7 @@ Use this interface when applications need to set clipping rectangles and retriev
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDirectDrawStreamSample</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/mmstream/nn-mmstream-istreamsample">IStreamSample</a>. <b>IDirectDrawStreamSample</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDirectDrawStreamSample</b> interface inherits from <a href="/windows/desktop/api/mmstream/nn-mmstream-istreamsample">IStreamSample</a>. <b>IDirectDrawStreamSample</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -75,7 +75,7 @@ The <b>IDirectDrawStreamSample</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/ddstream/nf-ddstream-idirectdrawstreamsample-getsurface">GetSurface</a>
+<a href="/windows/desktop/api/ddstream/nf-ddstream-idirectdrawstreamsample-getsurface">GetSurface</a>
 </td>
 <td align="left" width="63%">
 Retrieves pointers to the current sample's DirectDraw surface and associated clipping rectangle.
@@ -84,7 +84,7 @@ Retrieves pointers to the current sample's DirectDraw surface and associated cli
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/ddstream/nf-ddstream-idirectdrawstreamsample-setrect">SetRect</a>
+<a href="/windows/desktop/api/ddstream/nf-ddstream-idirectdrawstreamsample-setrect">SetRect</a>
 </td>
 <td align="left" width="63%">
 Changes the clipping rectangle for a sample.
@@ -95,5 +95,4 @@ Changes the clipping rectangle for a sample.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmstream/nn-mmstream-istreamsample">IStreamSample</a>
-
+<a href="/windows/desktop/api/mmstream/nn-mmstream-istreamsample">IStreamSample</a>

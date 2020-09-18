@@ -59,7 +59,7 @@ Tests if a visual style for the current application is active.
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
 
 Returns one of the following values.
 
@@ -75,7 +75,7 @@ Returns one of the following values.
 </dl>
 </td>
 <td width="60%">
-A visual style is enabled, and windows with visual styles applied should call <a href="https://docs.microsoft.com/windows/desktop/api/uxtheme/nf-uxtheme-openthemedata">OpenThemeData</a> to start using theme drawing services.
+A visual style is enabled, and windows with visual styles applied should call <a href="/windows/desktop/api/uxtheme/nf-uxtheme-openthemedata">OpenThemeData</a> to start using theme drawing services.
 
 </td>
 </tr>
@@ -86,7 +86,7 @@ A visual style is enabled, and windows with visual styles applied should call <a
 </dl>
 </td>
 <td width="60%">
-A visual style is not enabled, and the window message handler does not need to make another call to <a href="https://docs.microsoft.com/windows/desktop/api/uxtheme/nf-uxtheme-isthemeactive">IsThemeActive</a> until it receives a WM_THEMECHANGED message.
+A visual style is not enabled, and the window message handler does not need to make another call to <a href="/windows/desktop/api/uxtheme/nf-uxtheme-isthemeactive">IsThemeActive</a> until it receives a WM_THEMECHANGED message.
 
 </td>
 </tr>
@@ -94,5 +94,4 @@ A visual style is not enabled, and the window message handler does not need to m
 
 ## -remarks
 
-Do not call this function during <a href="https://docs.microsoft.com/windows/desktop/Dlls/dllmain">DllMain</a> or global objects contructors. This may cause invalid return values.
-
+Do not call this function during <a href="/windows/desktop/Dlls/dllmain">DllMain</a> or global objects contructors. This may cause invalid return values.

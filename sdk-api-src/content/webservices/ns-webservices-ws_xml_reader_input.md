@@ -58,6 +58,5 @@ Specifies where the reader should obtain the bytes that comprise the xml documen
 
 ### -field inputType
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_xml_reader_input_type">WS_XML_READER_INPUT_TYPE</a> enumeration that
+A <a href="/windows/desktop/api/webservices/ne-webservices-ws_xml_reader_input_type">WS_XML_READER_INPUT_TYPE</a> enumeration that
           indicates the type of input to which this structure refers.
-

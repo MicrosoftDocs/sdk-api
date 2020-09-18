@@ -53,7 +53,7 @@ api_name:
 
 The 
 <b>GetNewTarget</b> method returns the new file restoration locations for the selected component or component set. (See 
-<a href="https://docs.microsoft.com/windows/desktop/VSS/working-with-selectability-and-logical-paths">Working with Selectability and Logical Paths</a> for information on selecting components.)
+<a href="/windows/desktop/VSS/working-with-selectability-and-logical-paths">Working with Selectability and Logical Paths</a> for information on selecting components.)
 
 Either a writer or a requester can call this method.
 
@@ -63,12 +63,12 @@ Either a writer or a requester can call this method.
 
 Index number of the new target. The value of this parameter is an integer from 0 
       to <i>n</i>–1 inclusive, where <i>n</i> is the total number of new targets associated with a given component. The value of <i>n</i> is returned by 
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-getnewtargetcount">IVssComponent::GetNewTargetCount</a>.
+<a href="/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-getnewtargetcount">IVssComponent::GetNewTargetCount</a>.
 
 ### -param ppFiledesc [out]
 
 Doubly indirect pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-ivsswmfiledesc">IVssWMFiledesc</a> object containing the new target restore location information.
+<a href="/windows/desktop/api/vswriter/nl-vswriter-ivsswmfiledesc">IVssWMFiledesc</a> object containing the new target restore location information.
 
 ## -returns
 
@@ -120,7 +120,7 @@ The caller is out of memory or other system resources.
 </td>
 <td width="60%">
 The XML document is not valid. Check the event log for details. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
+<a href="/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
 
 </td>
 </tr>
@@ -144,9 +144,8 @@ New targets returned by
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-ivsscomponent">IVssComponent</a>
+<a href="/windows/desktop/api/vswriter/nl-vswriter-ivsscomponent">IVssComponent</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-getnewtargetcount">IVssComponent::GetNewTargetCount</a>
-
+<a href="/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-getnewtargetcount">IVssComponent::GetNewTargetCount</a>

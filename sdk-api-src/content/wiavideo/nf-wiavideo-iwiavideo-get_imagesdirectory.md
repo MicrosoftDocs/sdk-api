@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-The <b>IWiaVideo::ImagesDirectory</b> property specifies the full path and directory where images are stored when calling the <a href="https://docs.microsoft.com/windows/desktop/api/wiavideo/nf-wiavideo-iwiavideo-takepicture">IWiaVideo::TakePicture</a> method.
+The <b>IWiaVideo::ImagesDirectory</b> property specifies the full path and directory where images are stored when calling the <a href="/windows/desktop/api/wiavideo/nf-wiavideo-iwiavideo-takepicture">IWiaVideo::TakePicture</a> method.
 
 This property is read/write.
 
@@ -61,4 +61,3 @@ This property is read/write.
 ## -remarks
 
 This property should be set to the value of the video device's WIA_DPV_IMAGES_DIRECTORY property.
-

@@ -63,7 +63,7 @@ The <b>GetStreamSelected</b> method retrieves a flag indicating whether a partic
 
 ### -param pSelection [out]
 
-Pointer to a variable that receives one member of the <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/ne-wmsdkidl-wmt_stream_selection">WMT_STREAM_SELECTION</a> enumeration type on output. This value specifies the selection status for the specified stream.
+Pointer to a variable that receives one member of the <a href="/windows/desktop/api/wmsdkidl/ne-wmsdkidl-wmt_stream_selection">WMT_STREAM_SELECTION</a> enumeration type on output. This value specifies the selection status for the specified stream.
 
 ## -returns
 
@@ -122,9 +122,8 @@ No file is open in the synchronous reader.
 
 ## -remarks
 
-This method is identical to <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreaderadvanced-getstreamselected">IWMReaderAdvanced::GetStreamSelected</a>.
+This method is identical to <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreaderadvanced-getstreamselected">IWMReaderAdvanced::GetStreamSelected</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmsyncreader">IWMSyncReader Interface</a>
-
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmsyncreader">IWMSyncReader Interface</a>

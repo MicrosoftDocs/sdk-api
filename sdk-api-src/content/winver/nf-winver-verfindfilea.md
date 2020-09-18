@@ -58,7 +58,7 @@ api_name:
 
 ## -description
 
-Determines where to install a file based on whether it locates another version of the file in the system. The values <b>VerFindFile</b> returns in the specified buffers are used in a subsequent call to the <a href="https://docs.microsoft.com/windows/desktop/api/winver/nf-winver-verinstallfilea">VerInstallFile</a> function.
+Determines where to install a file based on whether it locates another version of the file in the system. The values <b>VerFindFile</b> returns in the specified buffers are used in a subsequent call to the <a href="/windows/desktop/api/winver/nf-winver-verinstallfilea">VerInstallFile</a> function.
 
 ## -parameters
 
@@ -96,7 +96,7 @@ The name of the file to be installed. Include only the file name and extension, 
 
 Type: <b>LPCTSTR</b>
 
-The directory in which Windows is running or will be run. This string is returned by the  <a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getwindowsdirectorya">GetWindowsDirectory</a> function.
+The directory in which Windows is running or will be run. This string is returned by the  <a href="/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getwindowsdirectorya">GetWindowsDirectory</a> function.
 
 ### -param szAppDir [in]
 
@@ -193,7 +193,7 @@ At least one of the buffers was too small to contain the corresponding string. A
 
 This function works on 16-, 32-, and 64-bit file images.
 
-<b>VerFindFile</b> searches for a copy of the specified file by using the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-openfile">OpenFile</a>   function. However, it determines the system directory from the specified Windows directory, or searches the path. 
+<b>VerFindFile</b> searches for a copy of the specified file by using the <a href="/windows/desktop/api/winbase/nf-winbase-openfile">OpenFile</a>   function. However, it determines the system directory from the specified Windows directory, or searches the path. 
 
 If the 
 				<i>dwFlags</i> parameter indicates that the file is private to this application (not <b>VFFF_ISSHAREDFILE</b>), <b>VerFindFile</b> recommends installing the file in the application's directory. Otherwise, if the system is running a shared copy of the system, the function recommends installing the file in the Windows directory. If the system is running a private copy of the system, the function recommends installing the file in the system directory. 
@@ -211,11 +211,11 @@ If the
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getwindowsdirectorya">GetWindowsDirectory</a>
+<a href="/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getwindowsdirectorya">GetWindowsDirectory</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-openfile">OpenFile</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-openfile">OpenFile</a>
 
 
 
@@ -227,9 +227,8 @@ If the
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winver/nf-winver-verinstallfilea">VerInstallFile</a>
+<a href="/windows/desktop/api/winver/nf-winver-verinstallfilea">VerInstallFile</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/menurc/version-information">Version Information</a>
-
+<a href="/windows/desktop/menurc/version-information">Version Information</a>

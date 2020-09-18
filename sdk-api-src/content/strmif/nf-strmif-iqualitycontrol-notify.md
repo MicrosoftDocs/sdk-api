@@ -61,7 +61,7 @@ Pointer to the filter that is sending the quality notification.
 
 ### -param q [in]
 
-[Quality](https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-quality) structure.
+[Quality](/windows/desktop/api/strmif/ns-strmif-quality) structure.
 
 ## -returns
 
@@ -69,9 +69,8 @@ Returns S_OK if the method succeeds; otherwise, returns an <b>HRESULT</b> error 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iqualitycontrol">IQualityControl Interface</a>
-
+<a href="/windows/desktop/api/strmif/nn-strmif-iqualitycontrol">IQualityControl Interface</a>

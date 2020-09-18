@@ -58,11 +58,10 @@ The security binding template for specifying the use of an application
         security or message security binding that provides message protection.
       
 
-See also <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_security_context_message_security_binding">WS_SECURITY_CONTEXT_MESSAGE_SECURITY_BINDING</a>
+See also <a href="/windows/desktop/api/webservices/ns-webservices-ws_security_context_message_security_binding">WS_SECURITY_CONTEXT_MESSAGE_SECURITY_BINDING</a>
 
 ## -struct-fields
 
 ### -field securityBindingProperties
 
 Application provided security binding properties that cannot be represented in policy.
-

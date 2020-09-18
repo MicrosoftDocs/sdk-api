@@ -55,14 +55,14 @@ The
 <b>GetRestoreType</b> method returns the type of restore a writer is participating in.
 
 <b>GetRestoreType</b> is a protected method implemented by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-cvsswriter">CVssWriter</a> base class.
+<a href="/windows/desktop/api/vswriter/nl-vswriter-cvsswriter">CVssWriter</a> base class.
 
 ## -parameters
 
 ## -returns
 
 This method returns the type of restore operation a writer is participating in, in terms of values of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/vss/ne-vss-vss_restore_type">VSS_RESTORE_TYPE</a> enumeration.
+<a href="/windows/desktop/api/vss/ne-vss-vss_restore_type">VSS_RESTORE_TYPE</a> enumeration.
 
 If 
 <b>GetRestoreType</b> is called during a backup operation, the return value is undefined.
@@ -74,32 +74,31 @@ This method should be called only during restore operations.
 The default restore type is VSS_RTYPE_UNDEFINED. However, writers should treat this restore type as if it were VSS_RTYPE_BY_COPY.
 
 A requester can set the restore type by calling the 
-<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-setrestorestate">IVssBackupComponents::SetRestoreState</a> method.
+<a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-setrestorestate">IVssBackupComponents::SetRestoreState</a> method.
 
-A requester can call <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-setrestorestate">IVssBackupComponents::SetRestoreState</a> anytime prior to its generation of a 
-<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-prerestore">PreRestore</a> event with the 
+A requester can call <a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-setrestorestate">IVssBackupComponents::SetRestoreState</a> anytime prior to its generation of a 
+<a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-prerestore">PreRestore</a> event with the 
 <b>IVssBackupComponents::PreRestore</b> method. Therefore, to obtain the correct restore type, a writer should not call 
 <b>GetRestoreType</b> prior to handling the 
 <b>PreRestore</b> event in 
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-onprerestore">CVssWriter::OnPreRestore</a>.
+<a href="/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-onprerestore">CVssWriter::OnPreRestore</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-cvsswriter">CVssWriter</a>
+<a href="/windows/desktop/api/vswriter/nl-vswriter-cvsswriter">CVssWriter</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-onprerestore">CVssWriter::OnPreRestore</a>
+<a href="/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-onprerestore">CVssWriter::OnPreRestore</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-prerestore">IVssBackupComponents::PreRestore</a>
+<a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-prerestore">IVssBackupComponents::PreRestore</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-setrestorestate">IVssBackupComponents::SetRestoreState</a>
+<a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-setrestorestate">IVssBackupComponents::SetRestoreState</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vss/ne-vss-vss_restore_type">VSS_RESTORE_TYPE</a>
-
+<a href="/windows/desktop/api/vss/ne-vss-vss_restore_type">VSS_RESTORE_TYPE</a>

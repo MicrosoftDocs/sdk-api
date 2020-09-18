@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>FreeContextBuffer</b> function enables callers of <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security package</a> functions to free memory buffers allocated by the security package.
+The <b>FreeContextBuffer</b> function enables callers of <a href="/windows/desktop/SecGloss/s-gly">security package</a> functions to free memory buffers allocated by the security package.
 
 ## -parameters
 
@@ -66,11 +66,10 @@ If the function fails, it returns a nonzero error code.
 
 ## -remarks
 
-Memory buffers are typically allocated by the  <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-initializesecuritycontexta">InitializeSecurityContext (General)</a> and <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-acceptsecuritycontext">AcceptSecurityContext (General)</a> functions.
+Memory buffers are typically allocated by the  <a href="/windows/desktop/api/sspi/nf-sspi-initializesecuritycontexta">InitializeSecurityContext (General)</a> and <a href="/windows/desktop/api/sspi/nf-sspi-acceptsecuritycontext">AcceptSecurityContext (General)</a> functions.
 
 The <b>FreeContextBuffer</b> function can free any memory allocated by a security package.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthN/authentication-functions">SSPI Functions</a>
-
+<a href="/windows/desktop/SecAuthN/authentication-functions">SSPI Functions</a>

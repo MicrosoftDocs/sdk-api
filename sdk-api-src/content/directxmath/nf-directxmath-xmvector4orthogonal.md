@@ -65,7 +65,7 @@ Returns the 4D vector orthogonal to <i>V</i>.
 ## -remarks
 
 A 4D cross-product is not well-defined. This function computes a generalized 'cross-product' for 4D vectors. 
-    <a href="https://docs.microsoft.com/windows/desktop/api/directxmath/nf-directxmath-xmvector4cross">XMVector4Cross</a> is another geometric 'cross-product' for 4D vectors.
+    <a href="/windows/desktop/api/directxmath/nf-directxmath-xmvector4cross">XMVector4Cross</a> is another geometric 'cross-product' for 4D vectors.
 
 The following pseudocode demonstrates the operation of the function:
 
@@ -89,5 +89,4 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/dxmath/ovw-xnamath-reference-functions-vector4-geometric">DirectXMath Library 4D Vector Geometric Functions</a>
-
+<a href="/windows/desktop/dxmath/ovw-xnamath-reference-functions-vector4-geometric">DirectXMath Library 4D Vector Geometric Functions</a>

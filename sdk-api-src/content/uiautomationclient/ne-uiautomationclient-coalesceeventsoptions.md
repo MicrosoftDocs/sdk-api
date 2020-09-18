@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Contains possible values for the <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomation6-get_coalesceevents">CoalesceEvents</a> property, which indicates whether an accessible technology client receives all events, or a subset where duplicate events are detected and filtered.
+Contains possible values for the <a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomation6-get_coalesceevents">CoalesceEvents</a> property, which indicates whether an accessible technology client receives all events, or a subset where duplicate events are detected and filtered.
 
 ## -enum-fields
 
@@ -64,5 +64,4 @@ Event coalescing is enabled.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomation6-get_coalesceevents">CoalesceEvents</a>
-
+<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomation6-get_coalesceevents">CoalesceEvents</a>

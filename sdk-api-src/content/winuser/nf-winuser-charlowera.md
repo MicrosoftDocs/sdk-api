@@ -79,11 +79,11 @@ If the operand is a character string, the function returns a pointer to the conv
 If the operand is a single character, the return value is a 32-bit value whose high-order word is zero, and low-order word contains the converted character. 
 
 There is no indication of success or failure. Failure is rare. There is no extended error information for this function; do not call 
-						<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+						<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
-Note that <b>CharLower</b> always maps uppercase I to lowercase I ("i"), even when the current language is Turkish or Azerbaijani. If you need a function that is linguistically sensitive in this respect, call <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-lcmapstringa">LCMapString</a>.
+Note that <b>CharLower</b> always maps uppercase I to lowercase I ("i"), even when the current language is Turkish or Azerbaijani. If you need a function that is linguistically sensitive in this respect, call <a href="/windows/desktop/api/winnls/nf-winnls-lcmapstringa">LCMapString</a>.
 
 Conversion to Unicode in the ANSI version of the function is done with the system default locale in all cases.
 
@@ -96,15 +96,15 @@ Conversion to Unicode in the ANSI version of the function is done with the syste
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/menurc/f">CharLowerBuff</a>
+<a href="/windows/desktop/menurc/f">CharLowerBuff</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-charuppera">CharUpper</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-charuppera">CharUpper</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-charupperbuffa">CharUpperBuff</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-charupperbuffa">CharUpperBuff</a>
 
 
 
@@ -116,5 +116,4 @@ Conversion to Unicode in the ANSI version of the function is done with the syste
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/menurc/strings">Strings</a>
-
+<a href="/windows/desktop/menurc/strings">Strings</a>

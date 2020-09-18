@@ -57,7 +57,7 @@ The
 
 ### -param hDatabase [in]
 
-Handle to the database obtained from <a href="https://docs.microsoft.com/windows/desktop/api/msiquery/nf-msiquery-msiopendatabasea">MsiOpenDatabase</a>.
+Handle to the database obtained from <a href="/windows/desktop/api/msiquery/nf-msiquery-msiopendatabasea">MsiOpenDatabase</a>.
 
 ## -returns
 
@@ -70,9 +70,8 @@ The
 <b>MsiDatabaseCommit</b> function finalizes the persistent form of the database. All persistent data is then written to the writable database. No temporary columns or rows are written. The 
 <b>MsiDatabaseCommit</b> function has no effect on a database that is opened as read-only. You can call this function multiple times to save the current state of tables loaded into memory. When the database is finally closed, any changes made after the database is committed are rolled back. This function is normally called prior to shutdown when all database changes have been finalized.
 
-If the function fails, you can obtain extended error information by using <a href="https://docs.microsoft.com/windows/desktop/api/msiquery/nf-msiquery-msigetlasterrorrecord">MsiGetLastErrorRecord</a>.
+If the function fails, you can obtain extended error information by using <a href="/windows/desktop/api/msiquery/nf-msiquery-msigetlasterrorrecord">MsiGetLastErrorRecord</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/database-functions">General Database Access Functions</a>
-
+<a href="/windows/desktop/Msi/database-functions">General Database Access Functions</a>

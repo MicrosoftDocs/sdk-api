@@ -53,21 +53,21 @@ api_name:
 
 ## -description
 
-Converts an <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-strret">STRRET</a> structure returned by <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder-getdisplaynameof">IShellFolder::GetDisplayNameOf</a> to a string, and places the result in a buffer.
+Converts an <a href="/windows/desktop/api/shtypes/ns-shtypes-strret">STRRET</a> structure returned by <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder-getdisplaynameof">IShellFolder::GetDisplayNameOf</a> to a string, and places the result in a buffer.
 
 ## -parameters
 
 ### -param pstr [in, out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-strret">STRRET</a>*</b>
+Type: <b><a href="/windows/desktop/api/shtypes/ns-shtypes-strret">STRRET</a>*</b>
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-strret">STRRET</a> structure. When the function returns, this pointer will no longer be valid.
+A pointer to the <a href="/windows/desktop/api/shtypes/ns-shtypes-strret">STRRET</a> structure. When the function returns, this pointer will no longer be valid.
 
 ### -param pidl [in]
 
 Type: <b>PCUITEMID_CHILD</b>
 
-A pointer to the item's <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> structure.
+A pointer to the item's <a href="/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> structure.
 
 ### -param pszBuf [out]
 
@@ -100,9 +100,8 @@ If the <b>uType</b> member of the structure pointed to by <i>pstr</i> is set to 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-strrettostra">StrRetToStr</a>
+<a href="/windows/desktop/api/shlwapi/nf-shlwapi-strrettostra">StrRetToStr</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/shell/consts-enums-flags">StrRetToStrN</a>
-
+<a href="/windows/desktop/shell/consts-enums-flags">StrRetToStrN</a>

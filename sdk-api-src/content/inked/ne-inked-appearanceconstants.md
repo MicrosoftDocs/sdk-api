@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Specifies how an <a href="https://docs.microsoft.com/windows/desktop/tablet/inkedit-control-reference">InkEdit</a> control appears on the screen.
+Specifies how an <a href="/windows/desktop/tablet/inkedit-control-reference">InkEdit</a> control appears on the screen.
 
 ## -enum-fields
 
@@ -64,5 +64,4 @@ Default. 3D. Paints with three-dimensional effects.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/tablet/inkedit-control-reference">InkEdit Control Reference</a>
-
+<a href="/windows/desktop/tablet/inkedit-control-reference">InkEdit Control Reference</a>

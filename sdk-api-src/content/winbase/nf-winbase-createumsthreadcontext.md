@@ -63,7 +63,7 @@ A PUMS_CONTEXT variable. On output, this parameter receives a pointer to a UMS t
 
 If the function succeeds, it returns a nonzero value.
 
-If the function fails, the return value is zero. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. Possible error values include the following.
+If the function fails, the return value is zero. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. Possible error values include the following.
 
 <table>
 <tr>
@@ -87,33 +87,32 @@ Not enough memory is available to create the UMS thread context.
 
 A UMS thread context represents the state of a UMS worker thread. Thread contexts are used to specify UMS worker threads in function calls. 
 
-A UMS worker thread is created by calling the <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createremotethreadex">CreateRemoteThreadEx</a> function after using <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-initializeprocthreadattributelist">InitializeProcThreadAttributeList</a> and <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-updateprocthreadattribute">UpdateProcThreadAttribute</a> to prepare a list of UMS attributes for the thread. 
+A UMS worker thread is created by calling the <a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createremotethreadex">CreateRemoteThreadEx</a> function after using <a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-initializeprocthreadattributelist">InitializeProcThreadAttributeList</a> and <a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-updateprocthreadattribute">UpdateProcThreadAttribute</a> to prepare a list of UMS attributes for the thread. 
 
-The underlying structures for a UMS thread context are managed by the system and should not be modified directly. To get and set information about a UMS worker thread, use the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-queryumsthreadinformation">QueryUmsThreadInformation</a> and <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-setumsthreadinformation">SetUmsThreadInformation</a> functions.
+The underlying structures for a UMS thread context are managed by the system and should not be modified directly. To get and set information about a UMS worker thread, use the <a href="/windows/desktop/api/winbase/nf-winbase-queryumsthreadinformation">QueryUmsThreadInformation</a> and <a href="/windows/desktop/api/winbase/nf-winbase-setumsthreadinformation">SetUmsThreadInformation</a> functions.
 
-After a UMS worker thread terminates, its thread context should be released by calling <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-deleteumsthreadcontext">DeleteUmsThreadContext</a>.
+After a UMS worker thread terminates, its thread context should be released by calling <a href="/windows/desktop/api/winbase/nf-winbase-deleteumsthreadcontext">DeleteUmsThreadContext</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createremotethreadex">CreateRemoteThreadEx</a>
+<a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createremotethreadex">CreateRemoteThreadEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-deleteumsthreadcontext">DeleteUmsThreadContext</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-deleteumsthreadcontext">DeleteUmsThreadContext</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-initializeprocthreadattributelist">InitializeProcThreadAttributeList</a>
+<a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-initializeprocthreadattributelist">InitializeProcThreadAttributeList</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-queryumsthreadinformation">QueryUmsThreadInformation</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-queryumsthreadinformation">QueryUmsThreadInformation</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-setumsthreadinformation">SetUmsThreadInformation</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-setumsthreadinformation">SetUmsThreadInformation</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-updateprocthreadattribute">UpdateProcThreadAttribute</a>
-
+<a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-updateprocthreadattribute">UpdateProcThreadAttribute</a>

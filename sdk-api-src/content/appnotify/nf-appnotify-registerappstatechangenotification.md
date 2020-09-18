@@ -58,7 +58,7 @@ Enables an app to register a callback function through which it can be notified 
 
 ### -param Routine [in]
 
-A pointer to a callback function that is called when the app enters or leaves the suspended state. See <a href="https://docs.microsoft.com/windows/desktop/api/appnotify/nc-appnotify-pappstate_change_routine">PAPPSTATE_CHANGE_ROUTINE</a> for more detail on this function.
+A pointer to a callback function that is called when the app enters or leaves the suspended state. See <a href="/windows/desktop/api/appnotify/nc-appnotify-pappstate_change_routine">PAPPSTATE_CHANGE_ROUTINE</a> for more detail on this function.
 
 ### -param Context [in, optional]
 
@@ -66,7 +66,7 @@ App-specific context information that the app uses when going into or out of a s
 
 ### -param Registration [out]
 
-When this function returns successfully, this parameter receives the address of a pointer to a value that can be used to identify the registration. Store this value to use with <a href="https://docs.microsoft.com/windows/desktop/api/appnotify/nf-appnotify-unregisterappstatechangenotification">UnregisterAppStateChangeNotification</a>.
+When this function returns successfully, this parameter receives the address of a pointer to a value that can be used to identify the registration. Store this value to use with <a href="/windows/desktop/api/appnotify/nf-appnotify-unregisterappstatechangenotification">UnregisterAppStateChangeNotification</a>.
 
 ## -returns
 
@@ -74,5 +74,4 @@ A standard Win32 status code.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/appnotify/nf-appnotify-unregisterappstatechangenotification">UnregisterAppStateChangeNotification</a>
-
+<a href="/windows/desktop/api/appnotify/nf-appnotify-unregisterappstatechangenotification">UnregisterAppStateChangeNotification</a>

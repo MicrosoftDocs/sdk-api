@@ -72,13 +72,12 @@ The
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-ppp_info">PPP_INFO</a>
+<a href="/windows/desktop/api/mprapi/ns-mprapi-ppp_info">PPP_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/ras-administration-structures">RAS Administration Structures</a>
+<a href="/windows/desktop/RRAS/ras-administration-structures">RAS Administration Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/remote-access-service-administration-reference">Remote Access Service Administration Reference</a>
-
+<a href="/windows/desktop/RRAS/remote-access-service-administration-reference">Remote Access Service Administration Reference</a>

@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-The <b>DiInstallDriver</b> function preinstalls a driver in the <a href="https://docs.microsoft.com/windows-hardware/drivers/install/driver-store">driver store</a> and then installs the driver on devices present in the system that the driver supports.
+The <b>DiInstallDriver</b> function preinstalls a driver in the <a href="/windows-hardware/drivers/install/driver-store">driver store</a> and then installs the driver on devices present in the system that the driver supports.
 
 ## -parameters
 
@@ -62,7 +62,7 @@ A handle to the top-level window that <b>DiInstallDriver</b> uses to display any
 
 ### -param InfPath [in]
 
-A pointer to a NULL-terminated string that supplies the fully qualified path of the INF file for the <a href="https://docs.microsoft.com/previous-versions/windows/hardware/difxapi/driverpackagepreinstall">driver package</a>.
+A pointer to a NULL-terminated string that supplies the fully qualified path of the INF file for the <a href="/previous-versions/windows/hardware/difxapi/driverpackagepreinstall">driver package</a>.
 
 ### -param Flags [in]
 
@@ -72,7 +72,7 @@ If this flag is zero, <b>DiInstallDriver</b> only installs the specified driver 
 
 <div class="alert"><b>Caution</b>  Forcing the installation of the driver can result in replacing a more compatible or newer driver with a less compatible or older driver. </div>
 <div> </div>
-For information about how Windows selects a driver for a device, see <a href="https://docs.microsoft.com/windows-hardware/drivers/install/how-setup-selects-drivers">How Windows Selects Drivers</a>.
+For information about how Windows selects a driver for a device, see <a href="/windows-hardware/drivers/install/how-setup-selects-drivers">How Windows Selects Drivers</a>.
 
 ### -param NeedReboot [out, optional]
 
@@ -80,7 +80,7 @@ A pointer to a value of type BOOL that <b>DiInstallDriver</b> sets to indicate w
 
 ## -returns
 
-<b>DiInstallDriver</b> returns <b>TRUE</b> if the function successfully preinstalled the specified <a href="https://docs.microsoft.com/previous-versions/windows/hardware/difxapi/driverpackagepreinstall">driver package</a> in the <a href="https://docs.microsoft.com/windows-hardware/drivers/install/driver-store">driver store</a>. <b>DiInstallDriver</b> also returns <b>TRUE</b> if the function successfully installed the driver on one or more devices in the system. If the driver package is not successfully installed in the driver store, <b>DiInstallDriver</b> returns <b>FALSE</b> and the logged error can be retrieved by making call to <b>GetLastError</b>. Some of the more common error values that <b>GetLastError</b> might return are as follows:
+<b>DiInstallDriver</b> returns <b>TRUE</b> if the function successfully preinstalled the specified <a href="/previous-versions/windows/hardware/difxapi/driverpackagepreinstall">driver package</a> in the <a href="/windows-hardware/drivers/install/driver-store">driver store</a>. <b>DiInstallDriver</b> also returns <b>TRUE</b> if the function successfully installed the driver on one or more devices in the system. If the driver package is not successfully installed in the driver store, <b>DiInstallDriver</b> returns <b>FALSE</b> and the logged error can be retrieved by making call to <b>GetLastError</b>. Some of the more common error values that <b>GetLastError</b> might return are as follows:
 
 <table>
 <tr>
@@ -94,7 +94,7 @@ A pointer to a value of type BOOL that <b>DiInstallDriver</b> sets to indicate w
 </dl>
 </td>
 <td width="60%">
-The caller does not have Administrator privileges. By default, Windows requires that the caller have Administrator privileges to preinstall a <a href="https://docs.microsoft.com/previous-versions/windows/hardware/difxapi/driverpackagepreinstall">driver package</a> in the <a href="https://docs.microsoft.com/windows-hardware/drivers/install/driver-store">driver store</a>. 
+The caller does not have Administrator privileges. By default, Windows requires that the caller have Administrator privileges to preinstall a <a href="/previous-versions/windows/hardware/difxapi/driverpackagepreinstall">driver package</a> in the <a href="/windows-hardware/drivers/install/driver-store">driver store</a>. 
 
 </td>
 </tr>
@@ -127,7 +127,7 @@ The value specified for <i>Flags</i> is not equal to zero or DIIRFLAG_FORCE_INF.
 </dl>
 </td>
 <td width="60%">
-The calling application is a 32-bit application that is attempting to execute in a 64-bit environment, which is not allowed. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/install/device-installations-on-64-bit-systems">Installing Devices on 64-Bit Systems</a>.
+The calling application is a 32-bit application that is attempting to execute in a 64-bit environment, which is not allowed. For more information, see <a href="/windows-hardware/drivers/install/device-installations-on-64-bit-systems">Installing Devices on 64-Bit Systems</a>.
 
 </td>
 </tr>
@@ -139,7 +139,7 @@ The calling application is a 32-bit application that is attempting to execute in
 
 <ol>
 <li>
-Preinstalls the <a href="https://docs.microsoft.com/previous-versions/windows/hardware/difxapi/driverpackagepreinstall">driver package</a> in the <a href="https://docs.microsoft.com/windows-hardware/drivers/install/driver-store">driver store</a>. If there is an instance of the same driver package already preinstalled in the driver store, <b>DiInstallDriver</b> first removes that instance and then adds the new instance of the driver package to the driver store. 
+Preinstalls the <a href="/previous-versions/windows/hardware/difxapi/driverpackagepreinstall">driver package</a> in the <a href="/windows-hardware/drivers/install/driver-store">driver store</a>. If there is an instance of the same driver package already preinstalled in the driver store, <b>DiInstallDriver</b> first removes that instance and then adds the new instance of the driver package to the driver store. 
 
 </li>
 <li>
@@ -151,7 +151,7 @@ If <i>Flags</i> is equal to zero, installs the driver on a device only if the sp
 
 </li>
 <li>
-If <i>Flags</i> is equal to DIIRFLAG_FORCE_INF, installs the driver on a device regardless of whether the <a href="https://docs.microsoft.com/previous-versions/windows/hardware/difxapi/driverpackagepreinstall">driver package</a> is the better match to the device than the driver that is currently installed on the device. 
+If <i>Flags</i> is equal to DIIRFLAG_FORCE_INF, installs the driver on a device regardless of whether the <a href="/previous-versions/windows/hardware/difxapi/driverpackagepreinstall">driver package</a> is the better match to the device than the driver that is currently installed on the device. 
 
 </li>
 </ol>
@@ -171,7 +171,7 @@ The application is a class installer, in which case, the class installer should 
 
 </li>
 </ul>
-To install a selected driver on a selected device, call <a href="https://docs.microsoft.com/windows/desktop/api/newdev/nf-newdev-diinstalldevice">DiInstallDevice</a>. For more info, see <a href="https://docs.microsoft.com/windows-hardware/drivers/install/setupapi-functions-that-simplify-driver-installation">SetupAPI Functions that Simplify Driver Installation</a>.
+To install a selected driver on a selected device, call <a href="/windows/desktop/api/newdev/nf-newdev-diinstalldevice">DiInstallDevice</a>. For more info, see <a href="/windows-hardware/drivers/install/setupapi-functions-that-simplify-driver-installation">SetupAPI Functions that Simplify Driver Installation</a>.
 
 
 
@@ -182,5 +182,4 @@ To install a selected driver on a selected device, call <a href="https://docs.mi
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/newdev/nf-newdev-diinstalldevice">DiInstallDevice</a>
-
+<a href="/windows/desktop/api/newdev/nf-newdev-diinstalldevice">DiInstallDevice</a>

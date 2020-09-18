@@ -60,7 +60,7 @@ Specifies the number of elements to obtain.
 
 ### -param pProfile [out]
 
-Pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/msctf/ns-msctf-tf_languageprofile">TF_LANGUAGEPROFILE</a> structures that receives the requested data. This array must be at least <i>ulCount</i> elements in size.
+Pointer to an array of <a href="/windows/desktop/api/msctf/ns-msctf-tf_languageprofile">TF_LANGUAGEPROFILE</a> structures that receives the requested data. This array must be at least <i>ulCount</i> elements in size.
 
 ### -param pcFetch [out]
 
@@ -113,4 +113,3 @@ The method reached the end of the enumeration before the specified number of ele
 ## -see-also
 
 [IEnumTfLanguageProfiles interface](nn-msctf-ienumtflanguageprofiles.md), [TF_LANGUAGEPROFILE](ns-msctf-tf_languageprofile.md)
-

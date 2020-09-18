@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-The <b>CM_Get_Depth</b> function is used to obtain the depth of a specified device node (<a href="https://docs.microsoft.com/windows-hardware/drivers/">devnode</a>) within the local machine's <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/device-tree">device tree</a>.
+The <b>CM_Get_Depth</b> function is used to obtain the depth of a specified device node (<a href="/windows-hardware/drivers/">devnode</a>) within the local machine's <a href="/windows-hardware/drivers/kernel/device-tree">device tree</a>.
 
 ## -parameters
 
@@ -74,13 +74,12 @@ If the operation succeeds, the function returns CR_SUCCESS. Otherwise, it return
 
 ## -remarks
 
-For information about using device instance handles that are bound to the local machine, see <a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_get_child">CM_Get_Child</a>.
+For information about using device instance handles that are bound to the local machine, see <a href="/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_get_child">CM_Get_Child</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_get_child">CM_Get_Child</a>
+<a href="/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_get_child">CM_Get_Child</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_get_depth_ex">CM_Get_Depth_Ex</a>
-
+<a href="/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_get_depth_ex">CM_Get_Depth_Ex</a>

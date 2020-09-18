@@ -79,11 +79,11 @@ Because applications can use rectangles for different purposes, the rectangle fu
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-isrectempty">IsRectEmpty</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-isrectempty">IsRectEmpty</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-ptinrect">PtInRect</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-ptinrect">PtInRect</a>
 
 
 
@@ -91,9 +91,8 @@ Because applications can use rectangles for different purposes, the rectangle fu
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/rectangle-functions">Rectangle Functions</a>
+<a href="/windows/desktop/gdi/rectangle-functions">Rectangle Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/rectangles">Rectangles Overview</a>
-
+<a href="/windows/desktop/gdi/rectangles">Rectangles Overview</a>

@@ -50,15 +50,15 @@ api_name:
 
 ## -description
 
-Gets an <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a> representation of the current <a href="https://msdn.microsoft.com/library/windows/apps/windows.applicationmodel.datatransfer.datapackage.aspx">DataPackage</a> object.
+Gets an <a href="/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a> representation of the current <a href="/uwp/api/Windows.ApplicationModel.DataTransfer.DataPackage">DataPackage</a> object.
 
 ## -parameters
 
 ### -param dataObject [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a>**</b>
+Type: <b><a href="/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a>**</b>
 
-The address of an <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a> interface pointer that, when this method returns successfully, points to the <b>IDataObject</b> representation of the <a href="https://msdn.microsoft.com/library/windows/apps/windows.applicationmodel.datatransfer.datapackage.aspx">DataPackage</a> object.
+The address of an <a href="/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a> interface pointer that, when this method returns successfully, points to the <b>IDataObject</b> representation of the <a href="/uwp/api/Windows.ApplicationModel.DataTransfer.DataPackage">DataPackage</a> object.
 
 ## -returns
 
@@ -68,9 +68,8 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-idataobjectprovider">IDataObjectProvider</a>
+<a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-idataobjectprovider">IDataObjectProvider</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-idataobjectprovider-setdataobject">IDataObjectProvider::SetDataObject</a>
-
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-idataobjectprovider-setdataobject">IDataObjectProvider::SetDataObject</a>

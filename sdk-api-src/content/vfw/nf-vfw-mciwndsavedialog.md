@@ -50,11 +50,10 @@ api_name:
 
 ## -description
 
-The <b>MCIWndSaveDialog</b> macro saves the content currently used by an MCI device. This macro displays the Save dialog box to let the user select a filename to store the content. You can use this macro or explicitly send the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/mci-save">MCI_SAVE</a> command.
+The <b>MCIWndSaveDialog</b> macro saves the content currently used by an MCI device. This macro displays the Save dialog box to let the user select a filename to store the content. You can use this macro or explicitly send the <a href="/windows/desktop/Multimedia/mci-save">MCI_SAVE</a> command.
 
 ## -parameters
 
 ### -param hwnd
 
 Handle of the MCIWnd window.
-

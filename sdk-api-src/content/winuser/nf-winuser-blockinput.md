@@ -72,11 +72,11 @@ Type: <b>BOOL</b>
 
 If the function succeeds, the return value is nonzero.
 
-If input is already blocked, the return value is zero. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+If input is already blocked, the return value is zero. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
-When input is blocked, real physical input from the mouse or keyboard will not affect the input queue's synchronous key state (reported by <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getkeystate">GetKeyState</a> and <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getkeyboardstate">GetKeyboardState</a>), nor will it affect the asynchronous key state (reported by <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getasynckeystate">GetAsyncKeyState</a>). However, the thread that is blocking input can affect both of these key states by calling <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-sendinput">SendInput</a>. No other thread can do this.
+When input is blocked, real physical input from the mouse or keyboard will not affect the input queue's synchronous key state (reported by <a href="/windows/desktop/api/winuser/nf-winuser-getkeystate">GetKeyState</a> and <a href="/windows/desktop/api/winuser/nf-winuser-getkeyboardstate">GetKeyboardState</a>), nor will it affect the asynchronous key state (reported by <a href="/windows/desktop/api/winuser/nf-winuser-getasynckeystate">GetAsyncKeyState</a>). However, the thread that is blocking input can affect both of these key states by calling <a href="/windows/desktop/api/winuser/nf-winuser-sendinput">SendInput</a>. No other thread can do this.
 
 The system will unblock input in the following cases:
 
@@ -93,19 +93,19 @@ The system will unblock input in the following cases:
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getasynckeystate">GetAsyncKeyState</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-getasynckeystate">GetAsyncKeyState</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getkeystate">GetKeyState</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-getkeystate">GetKeyState</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getkeyboardstate">GetKeyboardState</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-getkeyboardstate">GetKeyboardState</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/inputdev/keyboard-input">Keyboard Input</a>
+<a href="/windows/desktop/inputdev/keyboard-input">Keyboard Input</a>
 
 
 
@@ -113,5 +113,4 @@ The system will unblock input in the following cases:
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-sendinput">SendInput</a>
-
+<a href="/windows/desktop/api/winuser/nf-winuser-sendinput">SendInput</a>

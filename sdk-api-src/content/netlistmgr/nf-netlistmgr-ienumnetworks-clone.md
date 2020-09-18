@@ -56,7 +56,7 @@ The <b>Clone</b> method creates an enumerator that contains the same enumeration
 
 ### -param ppEnumNetwork [out]
 
-Pointer to a new <a href="https://docs.microsoft.com/windows/desktop/api/netlistmgr/nn-netlistmgr-ienumnetworks">IEnumNetworks</a> interface.
+Pointer to a new <a href="/windows/desktop/api/netlistmgr/nn-netlistmgr-ienumnetworks">IEnumNetworks</a> interface.
 
 ## -returns
 
@@ -64,5 +64,4 @@ Returns S_OK if the method succeeds.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/netlistmgr/nn-netlistmgr-ienumnetworks">IEnumNetworks</a>
-
+<a href="/windows/desktop/api/netlistmgr/nn-netlistmgr-ienumnetworks">IEnumNetworks</a>

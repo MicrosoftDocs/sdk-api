@@ -73,7 +73,7 @@ Indicates that the port was not open.
 
 ## -remarks
 
-This method closes a DirectMusic "port" that was previously opened by a call to <a href="https://docs.microsoft.com/windows/desktop/api/dmusics/nf-dmusics-idirectmusicsynth-open">IDirectMusicSynth::Open</a>.
+This method closes a DirectMusic "port" that was previously opened by a call to <a href="/windows/desktop/api/dmusics/nf-dmusics-idirectmusicsynth-open">IDirectMusicSynth::Open</a>.
 
 When the DirectMusic "port" closes, it automatically releases all instruments and waves that were previously downloaded to the port. However, a good practice for applications is to explicitly free these objects before closing the port.
 
@@ -81,5 +81,4 @@ Avoid confusing the term DirectMusic "port" with a DMus port driver. A DirectMus
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dmusics/nf-dmusics-idirectmusicsynth-open">IDirectMusicSynth::Open</a>
-
+<a href="/windows/desktop/api/dmusics/nf-dmusics-idirectmusicsynth-open">IDirectMusicSynth::Open</a>

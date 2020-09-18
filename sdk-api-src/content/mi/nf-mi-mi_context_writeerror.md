@@ -82,11 +82,11 @@ MI result type.
 
 #### MI_RESULT_TYPE_WIN32 ("WIN32")
 
-Win32 result type. See <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">System Error Codes</a>.
+Win32 result type. See <a href="/windows/desktop/Debug/system-error-codes">System Error Codes</a>.
 
 ### -param errorMessage
 
-A null-terminated string that represents the error message to accompany the result code. This message should be localized based on the client's locale request (retrieved through the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_context_getlocale">MI_Context_GetLocale</a> function).
+A null-terminated string that represents the error message to accompany the result code. This message should be localized based on the client's locale request (retrieved through the <a href="/previous-versions/windows/desktop/api/mi/nf-mi-mi_context_getlocale">MI_Context_GetLocale</a> function).
 
 ### -param flag [out]
 
@@ -94,7 +94,7 @@ On return, flag contains <b>MI_TRUE</b> if provider should continue execution. O
 
 ## -returns
 
-A value of the <a href="https://docs.microsoft.com/windows/desktop/api/mi/ne-mi-mi_result">MI_Result</a> enumeration that specifies the function return code. This can be one of the following codes.
+A value of the <a href="/windows/desktop/api/mi/ne-mi-mi_result">MI_Result</a> enumeration that specifies the function return code. This can be one of the following codes.
 
 ## -remarks
 
@@ -104,13 +104,12 @@ If the client does not ask for <b>MI_Context_WriteError</b> messages, the functi
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_context">MI_Context</a>
+<a href="/windows/desktop/api/mi/ns-mi-mi_context">MI_Context</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_context_getlocale">MI_Context_GetLocale</a>
+<a href="/previous-versions/windows/desktop/api/mi/nf-mi-mi_context_getlocale">MI_Context_GetLocale</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_context_posterror">MI_Context_PostError</a>
-
+<a href="/previous-versions/windows/desktop/api/mi/nf-mi-mi_context_posterror">MI_Context_PostError</a>

@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-The <b>Submit</b> method persists changes made to the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazapplicationgroup">IAzApplicationGroup</a> object.
+The <b>Submit</b> method persists changes made to the <a href="/windows/desktop/api/azroles/nn-azroles-iazapplicationgroup">IAzApplicationGroup</a> object.
 
 ## -parameters
 
@@ -65,7 +65,6 @@ Reserved for future use.
 
 ## -remarks
 
-Any additions or modifications to an <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazapplicationgroup">IAzApplicationGroup</a> object are not persisted until the <b>Submit</b> method is called. 
+Any additions or modifications to an <a href="/windows/desktop/api/azroles/nn-azroles-iazapplicationgroup">IAzApplicationGroup</a> object are not persisted until the <b>Submit</b> method is called. 
 
-A created <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazapplicationgroup">IAzApplicationGroup</a> object must be submitted before it can be referenced. The destructor for an object silently discards unsubmitted changes.
-
+A created <a href="/windows/desktop/api/azroles/nn-azroles-iazapplicationgroup">IAzApplicationGroup</a> object must be submitted before it can be referenced. The destructor for an object silently discards unsubmitted changes.

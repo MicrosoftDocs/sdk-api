@@ -56,27 +56,26 @@ Indicates the level of support that the adapter provides for depth-bounds tests 
 
 ### -field DepthBoundsTestSupported
 
-<a href="https://docs.microsoft.com/visualstudio/code-quality/annotating-structs-and-classes?view=vs-2015">SAL</a>: <code>_Out_</code>
+<a href="/visualstudio/code-quality/annotating-structs-and-classes?view=vs-2015">SAL</a>: <code>_Out_</code>
 
 On return, contains true if depth-bounds tests are supported; otherwise, false.
 
 ### -field ProgrammableSamplePositionsTier
 
-<a href="https://docs.microsoft.com/visualstudio/code-quality/annotating-structs-and-classes?view=vs-2015">SAL</a>: <code>_Out_</code>
+<a href="/visualstudio/code-quality/annotating-structs-and-classes?view=vs-2015">SAL</a>: <code>_Out_</code>
 
 On return, contains a value that indicates the level of support offered for programmable sample positions.
 
 ## -remarks
 
-Use this structure with <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12device-checkfeaturesupport">CheckFeatureSupport</a> to determine the level of support offered for the optional Depth-bounds test and programmable sample positions features.
+Use this structure with <a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12device-checkfeaturesupport">CheckFeatureSupport</a> to determine the level of support offered for the optional Depth-bounds test and programmable sample positions features.
 
-See the enumeration constant D3D12_FEATURE_D3D12_OPTIONS2 in the <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_feature">D3D12_FEATURE</a> enumeration.
+See the enumeration constant D3D12_FEATURE_D3D12_OPTIONS2 in the <a href="/windows/desktop/api/d3d12/ne-d3d12-d3d12_feature">D3D12_FEATURE</a> enumeration.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3d12/direct3d-12-structures">Core Structures</a>
+<a href="/windows/desktop/direct3d12/direct3d-12-structures">Core Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_feature">D3D12_FEATURE</a>
-
+<a href="/windows/desktop/api/d3d12/ne-d3d12-d3d12_feature">D3D12_FEATURE</a>

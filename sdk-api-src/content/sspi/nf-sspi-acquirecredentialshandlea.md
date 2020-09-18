@@ -52,9 +52,9 @@ api_name:
 
 ## -description
 
-The <b>AcquireCredentialsHandle (CredSSP)</b> function acquires a handle to preexisting <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">credentials</a> of a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security principal</a>. This handle is required by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-initializesecuritycontexta">InitializeSecurityContext (CredSSP)</a> and 
-<a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-acceptsecuritycontext">AcceptSecurityContext (CredSSP)</a> functions. These can be either preexisting <i>credentials</i>, which are established through a system logon that is not described here, or the caller can provide alternative credentials.
+The <b>AcquireCredentialsHandle (CredSSP)</b> function acquires a handle to preexisting <a href="/windows/desktop/SecGloss/c-gly">credentials</a> of a <a href="/windows/desktop/SecGloss/s-gly">security principal</a>. This handle is required by the 
+<a href="/windows/desktop/api/sspi/nf-sspi-initializesecuritycontexta">InitializeSecurityContext (CredSSP)</a> and 
+<a href="/windows/desktop/api/sspi/nf-sspi-acceptsecuritycontext">AcceptSecurityContext (CredSSP)</a> functions. These can be either preexisting <i>credentials</i>, which are established through a system logon that is not described here, or the caller can provide alternative credentials.
 			
 <div class="alert"><b>Note</b>  This is not a "log on to the network" and does not imply gathering of credentials.</div><div> </div>
 
@@ -64,15 +64,15 @@ The <b>AcquireCredentialsHandle (CredSSP)</b> function acquires a handle to pree
 
 A pointer to a null-terminated string that specifies the name of the principal whose credentials the handle will reference.
 
-<div class="alert"><b>Note</b>  If the process that requests the handle does not have access to the credentials, the function returns an error. A null string indicates that the process requires a handle to the credentials of the user under whose <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security context</a> it is executing.</div>
+<div class="alert"><b>Note</b>  If the process that requests the handle does not have access to the credentials, the function returns an error. A null string indicates that the process requires a handle to the credentials of the user under whose <a href="/windows/desktop/SecGloss/s-gly">security context</a> it is executing.</div>
 <div> </div>
 
 ### -param pszPackage [in]
 
-A pointer to a null-terminated string that specifies the name of the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security package</a> with which these credentials will be used. This is a security package name returned in the <b>Name</b> member of a 
-<a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-secpkginfoa">SecPkgInfo</a> structure returned by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-enumeratesecuritypackagesa">EnumerateSecurityPackages</a> function. After a context is established, 
-<a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-querycontextattributesa">QueryContextAttributes (CredSSP)</a> can be called with <i>ulAttribute</i> set to <b>SECPKG_ATTR_PACKAGE_INFO</b> to return information on the security package in use.
+A pointer to a null-terminated string that specifies the name of the <a href="/windows/desktop/SecGloss/s-gly">security package</a> with which these credentials will be used. This is a security package name returned in the <b>Name</b> member of a 
+<a href="/windows/desktop/api/sspi/ns-sspi-secpkginfoa">SecPkgInfo</a> structure returned by the 
+<a href="/windows/desktop/api/sspi/nf-sspi-enumeratesecuritypackagesa">EnumerateSecurityPackages</a> function. After a context is established, 
+<a href="/windows/desktop/api/sspi/nf-sspi-querycontextattributesa">QueryContextAttributes (CredSSP)</a> can be called with <i>ulAttribute</i> set to <b>SECPKG_ATTR_PACKAGE_INFO</b> to return information on the security package in use.
 
 ### -param fCredentialUse [in]
 
@@ -90,7 +90,7 @@ A flag that indicates how these credentials will be used. This parameter can be 
 </dl>
 </td>
 <td width="60%">
-Validate an incoming server credential. Inbound credentials might be validated by using an authenticating authority when <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-initializesecuritycontexta">InitializeSecurityContext (CredSSP)</a> or <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-acceptsecuritycontext">AcceptSecurityContext (CredSSP)</a> is called. If such an authority is not available, the function will fail and return <b>SEC_E_NO_AUTHENTICATING_AUTHORITY</b>. Validation is package specific.
+Validate an incoming server credential. Inbound credentials might be validated by using an authenticating authority when <a href="/windows/desktop/api/sspi/nf-sspi-initializesecuritycontexta">InitializeSecurityContext (CredSSP)</a> or <a href="/windows/desktop/api/sspi/nf-sspi-acceptsecuritycontext">AcceptSecurityContext (CredSSP)</a> is called. If such an authority is not available, the function will fail and return <b>SEC_E_NO_AUTHENTICATING_AUTHORITY</b>. Validation is package specific.
 
 </td>
 </tr>
@@ -109,11 +109,11 @@ Allow a local client credential to prepare an outgoing token.
 
 ### -param pvLogonId [in, optional]
 
-A pointer to a  <a href="https://docs.microsoft.com/windows/desktop/SecGloss/l-gly">locally unique identifier</a> (LUID) that identifies the user. This parameter is provided for file-system processes such as network redirectors. This parameter can be <b>NULL</b>.
+A pointer to a  <a href="/windows/desktop/SecGloss/l-gly">locally unique identifier</a> (LUID) that identifies the user. This parameter is provided for file-system processes such as network redirectors. This parameter can be <b>NULL</b>.
 
 ### -param pAuthData [in, optional]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/credssp/ns-credssp-credssp_cred">CREDSSP_CRED</a> structure that specifies authentication data for both Schannel and Negotiate packages.
+A pointer to a <a href="/windows/desktop/api/credssp/ns-credssp-credssp_cred">CREDSSP_CRED</a> structure that specifies authentication data for both Schannel and Negotiate packages.
 
 ### -param pGetKeyFn [in, optional]
 
@@ -125,11 +125,11 @@ Reserved. This parameter must be set to <b>NULL</b>.
 
 ### -param phCredential [out]
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/SecAuthN/sspi-handles">CredHandle</a> structure that will receive the credential handle.
+A pointer to the <a href="/windows/desktop/SecAuthN/sspi-handles">CredHandle</a> structure that will receive the credential handle.
 
 ### -param ptsExpiry [out, optional]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/SecAuthN/timestamp">TimeStamp</a> structure that receives the time at which the returned credentials expire. The structure value received depends on the security package, which must specify the value in local time.
+A pointer to a <a href="/windows/desktop/SecAuthN/timestamp">TimeStamp</a> structure that receives the time at which the returned credentials expire. The structure value received depends on the security package, which must specify the value in local time.
 
 ## -returns
 
@@ -171,7 +171,7 @@ An error occurred that did not map to an SSPI error code.
 </dl>
 </td>
 <td width="60%">
-No credentials are available in the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security package</a>.
+No credentials are available in the <a href="/windows/desktop/SecGloss/s-gly">security package</a>.
 
 </td>
 </tr>
@@ -212,22 +212,22 @@ The credentials supplied to the package were not recognized.
 
 ## -remarks
 
-The <b>AcquireCredentialsHandle (CredSSP)</b> function returns a handle to the credentials of a principal, such as a user or client, as used by a specific <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security package</a>. The function can return the handle to either preexisting credentials or  newly created credentials and return it. This handle can be used in subsequent calls to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-acceptsecuritycontext">AcceptSecurityContext (CredSSP)</a> and 
-<a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-initializesecuritycontexta">InitializeSecurityContext (CredSSP)</a> functions.
+The <b>AcquireCredentialsHandle (CredSSP)</b> function returns a handle to the credentials of a principal, such as a user or client, as used by a specific <a href="/windows/desktop/SecGloss/s-gly">security package</a>. The function can return the handle to either preexisting credentials or  newly created credentials and return it. This handle can be used in subsequent calls to the 
+<a href="/windows/desktop/api/sspi/nf-sspi-acceptsecuritycontext">AcceptSecurityContext (CredSSP)</a> and 
+<a href="/windows/desktop/api/sspi/nf-sspi-initializesecuritycontexta">InitializeSecurityContext (CredSSP)</a> functions.
 
-In general, <b>AcquireCredentialsHandle (CredSSP)</b> does not provide  the credentials of other users logged on to the same computer. However, a caller with SE_TCB_NAME  <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">privilege</a> can obtain the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">credentials</a> of an existing logon session by specifying the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/l-gly">logon identifier</a> (LUID) of that session. Typically, this is used by kernel-mode modules that must act on behalf of a logged-on user.
+In general, <b>AcquireCredentialsHandle (CredSSP)</b> does not provide  the credentials of other users logged on to the same computer. However, a caller with SE_TCB_NAME  <a href="/windows/desktop/SecGloss/p-gly">privilege</a> can obtain the <a href="/windows/desktop/SecGloss/c-gly">credentials</a> of an existing logon session by specifying the <a href="/windows/desktop/SecGloss/l-gly">logon identifier</a> (LUID) of that session. Typically, this is used by kernel-mode modules that must act on behalf of a logged-on user.
 
 A package might call the function in <i>pGetKeyFn</i> provided by the RPC run-time transport. If the transport does not support the notion of callback to retrieve credentials, this parameter must be <b>NULL</b>.
 
 For kernel mode callers, the following differences must be noted:
 
 <ul>
-<li>The two string parameters must be <a href="https://docs.microsoft.com/windows/desktop/SecGloss/u-gly">Unicode</a> strings.</li>
+<li>The two string parameters must be <a href="/windows/desktop/SecGloss/u-gly">Unicode</a> strings.</li>
 <li>The buffer values must be allocated in process virtual memory, not from the pool.</li>
 </ul>
 When you have finished using the returned credentials, free the memory used by the credentials by calling the 
-<a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-freecredentialshandle">FreeCredentialsHandle</a> function.
+<a href="/windows/desktop/api/sspi/nf-sspi-freecredentialshandle">FreeCredentialsHandle</a> function.
 
 
 
@@ -238,17 +238,16 @@ When you have finished using the returned credentials, free the memory used by t
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-acceptsecuritycontext">AcceptSecurityContext (CredSSP)</a>
+<a href="/windows/desktop/api/sspi/nf-sspi-acceptsecuritycontext">AcceptSecurityContext (CredSSP)</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-freecredentialshandle">FreeCredentialsHandle</a>
+<a href="/windows/desktop/api/sspi/nf-sspi-freecredentialshandle">FreeCredentialsHandle</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-initializesecuritycontexta">InitializeSecurityContext (CredSSP)</a>
+<a href="/windows/desktop/api/sspi/nf-sspi-initializesecuritycontexta">InitializeSecurityContext (CredSSP)</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthN/authentication-functions">SSPI Functions</a>
-
+<a href="/windows/desktop/SecAuthN/authentication-functions">SSPI Functions</a>

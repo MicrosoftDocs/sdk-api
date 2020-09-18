@@ -56,7 +56,7 @@ Gets the minimum version of the package on which the current package has a depen
 
 ### -param minVersion [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT64</a>*</b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT64</a>*</b>
 
 The minimum version of the package.
 
@@ -70,7 +70,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 If the minimum version is not defined for the dependency, this method returns <b>S_OK</b> and <i>minVersion</i> is 0.
 
-The version is specified using the <b>MinVersion</b> attribute of the <a href="https://docs.microsoft.com/uwp/schemas/appxpackage/appxmanifestschema/element-packagedependency">PackageDependency</a> element in the package manifest. The specification in the manifest is in quad notation:
+The version is specified using the <b>MinVersion</b> attribute of the <a href="/uwp/schemas/appxpackage/appxmanifestschema/element-packagedependency">PackageDependency</a> element in the package manifest. The specification in the manifest is in quad notation:
 
 <i>major</i>.<i>minor</i>.<i>build</i>.<i>revision</i>
 
@@ -85,5 +85,4 @@ This method converts this notation to a <b>UINT64</b> value as follows:
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxmanifestpackagedependency">IAppxManifestPackageDependency</a>
-
+<a href="/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxmanifestpackagedependency">IAppxManifestPackageDependency</a>

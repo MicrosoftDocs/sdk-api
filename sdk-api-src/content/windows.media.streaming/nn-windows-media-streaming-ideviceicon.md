@@ -54,7 +54,7 @@ Encapsulates the methods needed to provide information about the icon of a DLNA 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDeviceIcon</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/inspectable/nn-inspectable-iinspectable">IInspectable</a>. <b>IDeviceIcon</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDeviceIcon</b> interface inherits from <a href="/windows/desktop/api/inspectable/nn-inspectable-iinspectable">IInspectable</a>. <b>IDeviceIcon</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IDeviceIcon</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/mediastreaming/ideviceicon-contenttype">ContentType</a>
+<a href="/windows/desktop/mediastreaming/ideviceicon-contenttype">ContentType</a>
 </td>
 <td align="left" width="63%">
 Retrieves the content type of the icon.
@@ -78,7 +78,7 @@ Retrieves the content type of the icon.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/mediastreaming/ideviceicon-height">Height</a>
+<a href="/windows/desktop/mediastreaming/ideviceicon-height">Height</a>
 </td>
 <td align="left" width="63%">
 Retrieves the height of the icon in pixels.
@@ -87,7 +87,7 @@ Retrieves the height of the icon in pixels.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/mediastreaming/ideviceicon-stream">Stream</a>
+<a href="/windows/desktop/mediastreaming/ideviceicon-stream">Stream</a>
 </td>
 <td align="left" width="63%">
 Retrieves the icon as a stream.
@@ -96,7 +96,7 @@ Retrieves the icon as a stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/mediastreaming/ideviceicon-width">Width</a>
+<a href="/windows/desktop/mediastreaming/ideviceicon-width">Width</a>
 </td>
 <td align="left" width="63%">
 Retrieves the width of the icon in pixels.
@@ -107,5 +107,4 @@ Retrieves the width of the icon in pixels.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/inspectable/nn-inspectable-iinspectable">IInspectable</a>
-
+<a href="/windows/desktop/api/inspectable/nn-inspectable-iinspectable">IInspectable</a>

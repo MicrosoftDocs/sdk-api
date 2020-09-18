@@ -56,7 +56,7 @@ Creates a session used to share connections for a set of operations to a single 
 
 ### -param application [in]
 
-A pointer to a handle returned from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_application_initializev1">MI_Application_Initialize</a> function.
+A pointer to a handle returned from the <a href="/previous-versions/windows/desktop/api/mi/nf-mi-mi_application_initializev1">MI_Application_Initialize</a> function.
 
 ### -param protocol [in, optional]
 
@@ -76,11 +76,11 @@ A pointer to an optional MI_SessionCallbacks structure that contains callbacks t
 
 ### -param extendedError
 
-Pointer to optional additional error information if the operation failed.  When you have finished using the error information, free the memory by calling the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_instance_delete">MI_Instance_Delete</a> function.
+Pointer to optional additional error information if the operation failed.  When you have finished using the error information, free the memory by calling the <a href="/previous-versions/windows/desktop/api/mi/nf-mi-mi_instance_delete">MI_Instance_Delete</a> function.
 
 ### -param session [out]
 
-A pointer to the returned session handle.  When you have finished using the session handle, close it by calling the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_session_close">MI_Session_Close</a> function. If the session handle is not closed before shutting down both the application and the application handle, the application handle shutdown will not respond.
+A pointer to the returned session handle.  When you have finished using the session handle, close it by calling the <a href="/previous-versions/windows/desktop/api/mi/nf-mi-mi_session_close">MI_Session_Close</a> function. If the session handle is not closed before shutting down both the application and the application handle, the application handle shutdown will not respond.
 
 ## -returns
 
@@ -90,11 +90,10 @@ This function returns MI_INLINE MI_Result.
 
 Creating a destination may not communicate with the destination computer. It will not be until the first operation is carried out on a session that the application can determine whether the computer is accessible.
 
-The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_session_close">MI_Session_Close</a> function must be called on the outbound session handle. Close all operations under the target session before closing the session.
+The <a href="/previous-versions/windows/desktop/api/mi/nf-mi-mi_session_close">MI_Session_Close</a> function must be called on the outbound session handle. Close all operations under the target session before closing the session.
 
 If  no protocol is specified and <i>destination</i> is <b>NULL</b>, the WMIDCOM protocol is used. If no protocol is specified and <i>destination</i> is not <b>NULL</b>, the WINRM protocol is used. .
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/WinRM/portal">Windows Remote Management</a>
-
+<a href="/windows/desktop/WinRM/portal">Windows Remote Management</a>

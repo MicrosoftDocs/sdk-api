@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[<b>IWTSProtocolConnection::GetUserData</b> is no longer available for use as of Windows Server 2012. Instead, use <a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nf-wtsprotocol-iwrdsprotocolsettings-mergesettings">IWRdsProtocolSettings::MergeSettings</a>.]
+<p class="CCE_Message">[<b>IWTSProtocolConnection::GetUserData</b> is no longer available for use as of Windows Server 2012. Instead, use <a href="/windows/desktop/api/wtsprotocol/nf-wtsprotocol-iwrdsprotocolsettings-mergesettings">IWRdsProtocolSettings::MergeSettings</a>.]
 
 Sends merged policy settings to the protocol and requests user policy settings from the protocol.
 
@@ -58,11 +58,11 @@ Sends merged policy settings to the protocol and requests user policy settings f
 
 ### -param pPolicyData [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wtsdefs/ns-wtsdefs-wts_policy_data">WTS_POLICY_DATA</a> structure that contains the merged Group Policy values.
+A pointer to a <a href="/windows/desktop/api/wtsdefs/ns-wtsdefs-wts_policy_data">WTS_POLICY_DATA</a> structure that contains the merged Group Policy values.
 
 ### -param pClientData [in, out]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wtsdefs/ns-wtsdefs-wts_user_data">WTS_USER_DATA</a> structure that contains client property information.
+A pointer to a <a href="/windows/desktop/api/wtsdefs/ns-wtsdefs-wts_user_data">WTS_USER_DATA</a> structure that contains client property information.
 
 ## -remarks
 
@@ -70,5 +70,4 @@ The Remote Desktop Services service merges all policy data, including listener s
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nn-wtsprotocol-iwtsprotocolconnection">IWTSProtocolConnection</a>
-
+<a href="/windows/desktop/api/wtsprotocol/nn-wtsprotocol-iwtsprotocolconnection">IWTSProtocolConnection</a>

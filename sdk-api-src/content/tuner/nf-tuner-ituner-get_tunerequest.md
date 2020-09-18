@@ -56,7 +56,7 @@ The <b>get_TuneRequest</b> method gets the tune request currently in effect for 
 
 ### -param TuneRequest [out]
 
-Address of an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-itunerequest">ITuneRequest</a> interface pointer that will be set to the returned object.
+Address of an <a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-itunerequest">ITuneRequest</a> interface pointer that will be set to the returned object.
 
 ## -returns
 
@@ -64,13 +64,12 @@ When the method is successful, it returns S_OK. Otherwise, it returns an <b>HRES
 
 ## -remarks
 
-After a tune request is submitted to the Tuner, its Components collection will be filled in. By calling <b>get_TuneRequest</b> after tuning to the program, an application can determine which components are currently available for that program, and then use the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-icomponent-put_status">IComponent::put_Status</a> method on the Component objects in the collection to activate or inactivate them. This is how an application, for example, changes from an English audio stream to a Spanish audio stream.
+After a tune request is submitted to the Tuner, its Components collection will be filled in. By calling <b>get_TuneRequest</b> after tuning to the program, an application can determine which components are currently available for that program, and then use the <a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-icomponent-put_status">IComponent::put_Status</a> method on the Component objects in the collection to activate or inactivate them. This is how an application, for example, changes from an English audio stream to a Spanish audio stream.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-ituner">ITuner Interface</a>
-
+<a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-ituner">ITuner Interface</a>

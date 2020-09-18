@@ -50,17 +50,16 @@ api_name:
 
 ## -description
 
-Retrieves the height of list items in a combo box. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/cb-getitemheight">CB_GETITEMHEIGHT</a> message explicitly.
+Retrieves the height of list items in a combo box. You can use this macro or send the <a href="/windows/desktop/Controls/cb-getitemheight">CB_GETITEMHEIGHT</a> message explicitly.
 
 ## -parameters
 
 ### -param hwndCtl
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the control.
 
 ## -remarks
 
-This macro passes zero as the <i>wParam</i> member of <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-sendmessage">SendMessage</a>. For more information, see <a href="https://docs.microsoft.com/windows/desktop/Controls/cb-getitemheight">CB_GETITEMHEIGHT</a>.
-
+This macro passes zero as the <i>wParam</i> member of <a href="/windows/desktop/api/winuser/nf-winuser-sendmessage">SendMessage</a>. For more information, see <a href="/windows/desktop/Controls/cb-getitemheight">CB_GETITEMHEIGHT</a>.

@@ -56,7 +56,7 @@ Gets the knowledge that the destination replica learns when the destination prov
 
 ### -param ppLearnedKnowledge [out]
 
-Returns the knowledge that a replica will learn when a provider applies all the changes in this change batch to the replica. This knowledge is valid only when the current knowledge of the replica contains the prerequisite knowledge of the change batch. The prerequisite knowledge can be obtained by calling <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nf-winsync-isyncchangebatchbase-getprerequisiteknowledge">ISyncChangeBatchBase::GetPrerequisiteKnowledge</a>.
+Returns the knowledge that a replica will learn when a provider applies all the changes in this change batch to the replica. This knowledge is valid only when the current knowledge of the replica contains the prerequisite knowledge of the change batch. The prerequisite knowledge can be obtained by calling <a href="/previous-versions/windows/desktop/api/winsync/nf-winsync-isyncchangebatchbase-getprerequisiteknowledge">ISyncChangeBatchBase::GetPrerequisiteKnowledge</a>.
 
 ## -returns
 
@@ -108,9 +108,8 @@ The last group added to the batch was not ended.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncchangebatchbase">ISyncChangeBatchBase Interface</a>
+<a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncchangebatchbase">ISyncChangeBatchBase Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncknowledge">ISyncKnowledge Interface</a>
-
+<a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncknowledge">ISyncKnowledge Interface</a>

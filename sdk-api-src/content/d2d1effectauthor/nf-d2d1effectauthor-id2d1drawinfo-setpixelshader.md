@@ -63,7 +63,7 @@ The resource id for the  shader.
 
 ### -param pixelOptions
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1effectauthor/ne-d2d1effectauthor-d2d1_pixel_options">D2D1_PIXEL_OPTIONS</a></b>
+Type: <b><a href="/windows/desktop/api/d2d1effectauthor/ne-d2d1effectauthor-d2d1_pixel_options">D2D1_PIXEL_OPTIONS</a></b>
 
 Additional information provided to the renderer to indicate the operations the pixel shader does.
 
@@ -75,7 +75,7 @@ If the method succeeds, it returns <b>S_OK</b>. If it fails, it returns an <b>HR
 
 ## -remarks
 
- If this call fails, the corresponding <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1effect">ID2D1Effect</a> instance is placed into an error state and will fail to Draw, it will place the context into an error state which can be retrieved through the <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-enddraw">ID2D1DeviceContext::EndDraw</a> call.
+ If this call fails, the corresponding <a href="/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1effect">ID2D1Effect</a> instance is placed into an error state and will fail to Draw, it will place the context into an error state which can be retrieved through the <a href="/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-enddraw">ID2D1DeviceContext::EndDraw</a> call.
 
 
 
@@ -83,5 +83,4 @@ Specifying <i>pixelOptions</i> other than D2D1_PIXEL_OPTIONS_NONE can enable the
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1effectauthor/nn-d2d1effectauthor-id2d1drawinfo">ID2D1DrawInfo</a>
-
+<a href="/windows/desktop/api/d2d1effectauthor/nn-d2d1effectauthor-id2d1drawinfo">ID2D1DrawInfo</a>

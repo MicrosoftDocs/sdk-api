@@ -89,7 +89,7 @@ This function converts an enhanced metafile into a Windows-format metafile so th
 
 The system uses the reference device context to determine the resolution of the converted metafile.
 
-The <b>GetWinMetaFileBits</b> function does not invalidate the enhanced metafile handle. An application should call the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-deleteenhmetafile">DeleteEnhMetaFile</a> function to release the handle when it is no longer needed.
+The <b>GetWinMetaFileBits</b> function does not invalidate the enhanced metafile handle. An application should call the <a href="/windows/desktop/api/wingdi/nf-wingdi-deleteenhmetafile">DeleteEnhMetaFile</a> function to release the handle when it is no longer needed.
 
 To create a scalable Windows-format metafile, specify MM_ANISOTROPIC as the <i>fnMapMode</i> parameter.
 
@@ -97,21 +97,20 @@ The upper-left corner of the metafile picture is always mapped to the origin of 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-deleteenhmetafile">DeleteEnhMetaFile</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-deleteenhmetafile">DeleteEnhMetaFile</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/metafile-functions">Metafile Functions</a>
+<a href="/windows/desktop/gdi/metafile-functions">Metafile Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/metafiles">Metafiles Overview</a>
+<a href="/windows/desktop/gdi/metafiles">Metafiles Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-setmapmode">SetMapMode</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-setmapmode">SetMapMode</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-setwinmetafilebits">SetWinMetaFileBits</a>
-
+<a href="/windows/desktop/api/wingdi/nf-wingdi-setwinmetafilebits">SetWinMetaFileBits</a>

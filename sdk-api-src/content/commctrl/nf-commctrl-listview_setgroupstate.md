@@ -56,31 +56,30 @@ Sets the state for a specified group.
 
 ### -param hwnd [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the list-view control.
 
 ### -param dwGroupId [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
-Specifies the group by <b>iGroupId</b> (see <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-lvgroup">LVGROUP</a> structure).
+Specifies the group by <b>iGroupId</b> (see <a href="/windows/desktop/api/commctrl/ns-commctrl-lvgroup">LVGROUP</a> structure).
 
 ### -param dwMask [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
-Specifies the state values to set or clear. This is a combination of the flags listed for the <b>state</b> member of <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-lvgroup">LVGROUP</a>.
+Specifies the state values to set or clear. This is a combination of the flags listed for the <b>state</b> member of <a href="/windows/desktop/api/commctrl/ns-commctrl-lvgroup">LVGROUP</a>.
 
 ### -param dwState [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 Specifies the state values to set. States that are not included here but are included in <i>dwMask</i> are cleared.
 
 ## -remarks
 
-<div class="alert"><b>Note</b>  To use this macro, you must provide a manifest specifying Comclt32.dll version 6.0. For more information on manifests, see <a href="https://docs.microsoft.com/windows/desktop/Controls/cookbook-overview">Enabling Visual Styles</a>.</div>
+<div class="alert"><b>Note</b>  To use this macro, you must provide a manifest specifying Comclt32.dll version 6.0. For more information on manifests, see <a href="/windows/desktop/Controls/cookbook-overview">Enabling Visual Styles</a>.</div>
 <div> </div>
-You can also set the group state by using <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-listview_setgroupinfo">ListView_SetGroupInfo</a>.
-
+You can also set the group state by using <a href="/windows/desktop/api/commctrl/nf-commctrl-listview_setgroupinfo">ListView_SetGroupInfo</a>.

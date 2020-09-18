@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-Specifies the processing mode of the <a href="https://docs.microsoft.com/windows/desktop/medfound/video-stabilization-mft">Video Stabilization MFT</a>.
+Specifies the processing mode of the <a href="/windows/desktop/medfound/video-stabilization-mft">Video Stabilization MFT</a>.
 
 ## -enum-fields
 
@@ -66,19 +66,18 @@ Video stabilization is applied.
 
 ## -remarks
 
-This enumeration is used with the <a href="https://docs.microsoft.com/windows/desktop/medfound/mf-videodsp-mode">MF_VIDEODSP_MODE</a> attribute.
+This enumeration is used with the <a href="/windows/desktop/medfound/mf-videodsp-mode">MF_VIDEODSP_MODE</a> attribute.
 
 In pass-through mode, the MFT does not apply any processing to the video.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/mf-videodsp-mode">MF_VIDEODSP_MODE</a>
+<a href="/windows/desktop/medfound/mf-videodsp-mode">MF_VIDEODSP_MODE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>
+<a href="/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/video-stabilization-mft">Video Stabilization MFT</a>
-
+<a href="/windows/desktop/medfound/video-stabilization-mft">Video Stabilization MFT</a>

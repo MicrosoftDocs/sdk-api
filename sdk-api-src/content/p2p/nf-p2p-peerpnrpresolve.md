@@ -68,7 +68,7 @@ The maximum number of endpoints to return in  <i>ppEndpoints</i>. Upon return, t
 
 ### -param ppEndpoints [out]
 
-Pointer to a list of <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_pnrp_endpoint_info">PEER_PNRP_ENDPOINT_INFO</a> structures that contain the endpoints for which the peer name successfully resolved. Each endpoint contains one or more IP addresses at which the peer node can be reached.
+Pointer to a list of <a href="/windows/desktop/api/p2p/ns-p2p-peer_pnrp_endpoint_info">PEER_PNRP_ENDPOINT_INFO</a> structures that contain the endpoints for which the peer name successfully resolved. Each endpoint contains one or more IP addresses at which the peer node can be reached.
 
 ## -returns
 
@@ -105,15 +105,14 @@ There is not enough memory to perform the specified operation.
 
 ## -remarks
 
-This call is synchronous and will block until completed. For aysnchronous peer name resolution, call <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peerpnrpstartresolve">PeerPnrpStartResolve</a> and obtain the resolved endpoint address when the supplied event is raised.
+This call is synchronous and will block until completed. For aysnchronous peer name resolution, call <a href="/windows/desktop/api/p2p/nf-p2p-peerpnrpstartresolve">PeerPnrpStartResolve</a> and obtain the resolved endpoint address when the supplied event is raised.
 
 A handle must be resolved in a process separate of the process it was registered in. If a handle is registered and resolved within the same process it will not be recognized.
 
 When  resolution is performed for all clouds, it is issued to each cloud simultaneously. The method will return as soon as it has received enough results from any combination of clouds.
 
-The default resolve timeout used internally by this method is 30 seconds. If a  specific timeout is required,the asynchronous <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peerpnrpstartresolve">PeerPnrpStartResolve</a> function should be used.
+The default resolve timeout used internally by this method is 30 seconds. If a  specific timeout is required,the asynchronous <a href="/windows/desktop/api/p2p/nf-p2p-peerpnrpstartresolve">PeerPnrpStartResolve</a> function should be used.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peerpnrpstartresolve">PeerPnrpStartResolve</a>
-
+<a href="/windows/desktop/api/p2p/nf-p2p-peerpnrpstartresolve">PeerPnrpStartResolve</a>

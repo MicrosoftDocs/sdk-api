@@ -51,7 +51,7 @@ api_name:
 ## -description
 
 The 
-<b>Item</b> property specifies the <a href="https://docs.microsoft.com/windows/desktop/api/upnp/nn-upnp-iupnpdevice">IUPnPDevice</a> interface for a  device, identified by the UDN, in the collection.
+<b>Item</b> property specifies the <a href="/windows/desktop/api/upnp/nn-upnp-iupnpdevice">IUPnPDevice</a> interface for a  device, identified by the UDN, in the collection.
 
 ## -parameters
 
@@ -62,7 +62,7 @@ Specifies a device in the collection.
 ### -param ppDevice [out]
 
 Receives a reference to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/upnp/nn-upnp-iupnpdevice">IUPnPDevice</a> interface for the specified device.
+<a href="/windows/desktop/api/upnp/nn-upnp-iupnpdevice">IUPnPDevice</a> interface for the specified device.
 
 ## -returns
 
@@ -70,5 +70,4 @@ For C++: If this property's "get" method succeeds, the return value is S_OK. Oth
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/upnp/nn-upnp-iupnpdevices">IUPnPDevices</a>
-
+<a href="/windows/desktop/api/upnp/nn-upnp-iupnpdevices">IUPnPDevices</a>

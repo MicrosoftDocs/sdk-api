@@ -58,7 +58,7 @@ Represents base64 encoded data. (for example, the three bytes { 0, 0, 0 } repres
 
 ### -field text
 
-The base type for all types that derive from <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_xml_text">WS_XML_TEXT</a>.
+The base type for all types that derive from <a href="/windows/desktop/api/webservices/ns-webservices-ws_xml_text">WS_XML_TEXT</a>.
 
 ### -field bytes
 
@@ -67,4 +67,3 @@ The bytes of data.
 ### -field length
 
 The length of the bytes of data.
-

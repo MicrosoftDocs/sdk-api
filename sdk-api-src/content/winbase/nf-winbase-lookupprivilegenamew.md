@@ -58,7 +58,7 @@ api_name:
 
 ## -description
 
-The <b>LookupPrivilegeName</b> function retrieves the name that corresponds to the privilege represented on a specific system by a specified <a href="https://docs.microsoft.com/windows/desktop/SecGloss/l-gly">locally unique identifier</a> (LUID).
+The <b>LookupPrivilegeName</b> function retrieves the name that corresponds to the privilege represented on a specific system by a specified <a href="/windows/desktop/SecGloss/l-gly">locally unique identifier</a> (LUID).
 
 ## -parameters
 
@@ -84,11 +84,11 @@ If the function succeeds, the function returns nonzero.
 						
 
 If the function fails, it returns zero. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
-The <b>LookupPrivilegeName</b> function supports only the privileges specified in the Defined Privileges section of Winnt.h. For a list of values, see <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/privilege-constants">Privilege Constants</a>.
+The <b>LookupPrivilegeName</b> function supports only the privileges specified in the Defined Privileges section of Winnt.h. For a list of values, see <a href="/windows/desktop/SecAuthZ/privilege-constants">Privilege Constants</a>.
 
 
 
@@ -99,17 +99,16 @@ The <b>LookupPrivilegeName</b> function supports only the privileges specified i
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/access-control">Access Control</a>
+<a href="/windows/desktop/SecAuthZ/access-control">Access Control</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/authorization-functions">Basic Access Control Functions</a>
+<a href="/windows/desktop/SecAuthZ/authorization-functions">Basic Access Control Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-lookupprivilegedisplaynamea">LookupPrivilegeDisplayName</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-lookupprivilegedisplaynamea">LookupPrivilegeDisplayName</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-lookupprivilegevaluea">LookupPrivilegeValue</a>
-
+<a href="/windows/desktop/api/winbase/nf-winbase-lookupprivilegevaluea">LookupPrivilegeValue</a>

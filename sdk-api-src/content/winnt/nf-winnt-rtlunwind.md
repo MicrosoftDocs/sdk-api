@@ -69,7 +69,7 @@ The continuation address of the unwind. This parameter is ignored if <i>TargetFr
 
 ### -param ExceptionRecord [in, optional]
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-exception_record">EXCEPTION_RECORD</a> 
+A pointer to an <a href="/windows/desktop/api/winnt/ns-winnt-exception_record">EXCEPTION_RECORD</a> 
       structure.
 
 ### -param ReturnValue [in]
@@ -82,5 +82,4 @@ This function does not return a value.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-exception_record">EXCEPTION_RECORD</a>
-
+<a href="/windows/desktop/api/winnt/ns-winnt-exception_record">EXCEPTION_RECORD</a>

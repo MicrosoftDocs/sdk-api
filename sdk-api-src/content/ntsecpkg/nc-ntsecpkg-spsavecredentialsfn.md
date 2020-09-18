@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Saves a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">supplemental credential</a> to the user object.
+Saves a <a href="/windows/desktop/SecGloss/s-gly">supplemental credential</a> to the user object.
 
 ## -parameters
 
@@ -61,7 +61,7 @@ A handle to the credential to save.
 ### -param Credentials [in]
 
 Pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-secbuffer">SecBuffer</a> structure containing the credential information to be saved.
+<a href="/windows/desktop/api/sspi/ns-sspi-secbuffer">SecBuffer</a> structure containing the credential information to be saved.
 
 ## -returns
 
@@ -74,18 +74,17 @@ If the function fails, return an <b>NTSTATUS</b> code that indicates the reason 
 SSP/APs must implement the <b>SpSaveCredentials</b> function; however, the actual name given to the implementation is up to the developer.
 
 A pointer to the <b>SpSaveCredentials</b> function is available in the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-secpkg_function_table">SECPKG_FUNCTION_TABLE</a> structure received from the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-splsamodeinitializefn">SpLsaModeInitialize</a> function.
+<a href="/windows/desktop/api/ntsecpkg/ns-ntsecpkg-secpkg_function_table">SECPKG_FUNCTION_TABLE</a> structure received from the 
+<a href="/windows/desktop/api/ntsecpkg/nc-ntsecpkg-splsamodeinitializefn">SpLsaModeInitialize</a> function.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-secpkg_function_table">SECPKG_FUNCTION_TABLE</a>
+<a href="/windows/desktop/api/ntsecpkg/ns-ntsecpkg-secpkg_function_table">SECPKG_FUNCTION_TABLE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-splsamodeinitializefn">SpLsaModeInitialize</a>
+<a href="/windows/desktop/api/ntsecpkg/nc-ntsecpkg-splsamodeinitializefn">SpLsaModeInitialize</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spmarshallsupplementalcredsfn">SpMarshallSupplementalCreds</a>
-
+<a href="/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spmarshallsupplementalcredsfn">SpMarshallSupplementalCreds</a>

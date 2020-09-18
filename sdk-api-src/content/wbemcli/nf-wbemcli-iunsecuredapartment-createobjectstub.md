@@ -54,8 +54,8 @@ The
 <b>CreateObjectStub</b> method creates an object forwarder sink to assist in receiving asynchronous calls from Windows Management. This function binds an unsecured object sink to a local object sink so that COM security does not interfere with asynchronous retrieval of CIM objects. Because COM security is being bypassed, the remote Windows Management server is assumed to be a trusted component.
 
 The general paradigm is that the original implementation of 
-<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/iwbemobjectsink">IWbemObjectSink</a> in the client process is not directly used in asynchronous calls to 
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nn-wbemcli-iwbemservices">IWbemServices</a>. Rather, both the original implementation and a substitute object are created, bound together, and then the substitute object is used in the asynchronous methods of 
+<a href="/windows/desktop/WmiSdk/iwbemobjectsink">IWbemObjectSink</a> in the client process is not directly used in asynchronous calls to 
+<a href="/windows/desktop/api/wbemcli/nn-wbemcli-iwbemservices">IWbemServices</a>. Rather, both the original implementation and a substitute object are created, bound together, and then the substitute object is used in the asynchronous methods of 
 <b>IWbemServices</b>.
 
 ## -parameters
@@ -63,56 +63,55 @@ The general paradigm is that the original implementation of
 ### -param pObject [in]
 
 Pointer to the client's in-process implementation of 
-<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/iwbemobjectsink">IWbemObjectSink</a>.
+<a href="/windows/desktop/WmiSdk/iwbemobjectsink">IWbemObjectSink</a>.
 
 ### -param ppStub [out]
 
 Receives a pointer to a substitute object to be used in asynchronous 
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nn-wbemcli-iwbemservices">IWbemServices</a> calls. The user receives an <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> pointer and must call <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> for <b>IID_WbemObjectSink</b> before using this object in asynchronous 
+<a href="/windows/desktop/api/wbemcli/nn-wbemcli-iwbemservices">IWbemServices</a> calls. The user receives an <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> pointer and must call <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> for <b>IID_WbemObjectSink</b> before using this object in asynchronous 
 <b>IWbemServices</b> calls.
 
 ## -returns
 
-This method returns standard COM error codes for <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a>. It returns <b>S_OK</b> if the call succeeds. If the call fails because the requested interface was not supported, the method returns <b>E_NOINTERFACE</b>.
+This method returns standard COM error codes for <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a>. It returns <b>S_OK</b> if the call succeeds. If the call fails because the requested interface was not supported, the method returns <b>E_NOINTERFACE</b>.
 
 COM-specific error codes also may be returned if network problems cause you to lose the remote connection to Windows Management.
 
 ## -remarks
 
-<div class="alert"><b>Note</b>  Because the call-back to the sink might not be returned at the same authentication level as the client requires, it is recommended that you use semisynchronous instead of asynchronous communication.  For more information, see <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/calling-a-method">Calling a Method</a>.</div>
+<div class="alert"><b>Note</b>  Because the call-back to the sink might not be returned at the same authentication level as the client requires, it is recommended that you use semisynchronous instead of asynchronous communication.  For more information, see <a href="/windows/desktop/WmiSdk/calling-a-method">Calling a Method</a>.</div>
 <div> </div>
 
 #### Examples
 
-For a complete example that shows how to use the <a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nn-wbemcli-iunsecuredapartment">IUnsecuredApartment</a> interface, see <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/example--receiving-event-notifications-through-wmi-">Example: Receiving Event Notifications Through WMI</a>.
+For a complete example that shows how to use the <a href="/windows/desktop/api/wbemcli/nn-wbemcli-iunsecuredapartment">IUnsecuredApartment</a> interface, see <a href="/windows/desktop/WmiSdk/example--receiving-event-notifications-through-wmi-">Example: Receiving Event Notifications Through WMI</a>.
 
 <div class="code"></div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/calling-a-method">Calling a Method</a>
+<a href="/windows/desktop/WmiSdk/calling-a-method">Calling a Method</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nn-wbemcli-iunsecuredapartment">IUnsecuredApartment</a>
+<a href="/windows/desktop/api/wbemcli/nn-wbemcli-iunsecuredapartment">IUnsecuredApartment</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/iwbemobjectsink">IWbemObjectSink</a>
+<a href="/windows/desktop/WmiSdk/iwbemobjectsink">IWbemObjectSink</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemunsecuredapartment-createsinkstub">IWbemUnsecuredApartment::CreateSinkStub</a>
+<a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemunsecuredapartment-createsinkstub">IWbemUnsecuredApartment::CreateSinkStub</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/lowering-the-security-for-a-sink-in-a-separate-process">Lowering the Security for a Sink in a Separate Process</a>
+<a href="/windows/desktop/WmiSdk/lowering-the-security-for-a-sink-in-a-separate-process">Lowering the Security for a Sink in a Separate Process</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/performing-access-checks">Performing Access Checks</a>
+<a href="/windows/desktop/WmiSdk/performing-access-checks">Performing Access Checks</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/setting-security-on-an-asynchronous-call">Setting Security on an Asynchronous Call</a>
-
+<a href="/windows/desktop/WmiSdk/setting-security-on-an-asynchronous-call">Setting Security on an Asynchronous Call</a>

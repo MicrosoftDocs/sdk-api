@@ -56,7 +56,7 @@ Sets the names of the columns to be sorted.
 
 ### -param bstrSortColumns [in]
 
-Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/automat/bstr">BSTR</a></b>
+Type: <b><a href="/previous-versions/windows/desktop/automat/bstr">BSTR</a></b>
 
 The <b>BSTR</b> that contains the names of the columns to be sorted for the current folder.
 
@@ -65,4 +65,3 @@ The <b>BSTR</b> that contains the names of the columns to be sorted for the curr
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-

@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Extracts the minor version portion of a  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-service">Cluster service</a> version number.
+Extracts the minor version portion of a  <a href="/previous-versions/windows/desktop/mscs/cluster-service">Cluster service</a> version number.
 
 ## -parameters
 
@@ -60,19 +60,18 @@ Cluster service version number.
 
 ## -remarks
 
-Cluster service version numbers are obtained from the  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/nodes-nodehighestversion">NodeHighestVersion</a> and  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/nodes-nodelowestversion">NodeLowestVersion</a> properties as well as the function  <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-getclusterinformation">GetClusterInformation</a>. For more information, see  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/version-compatibility">Version Compatibility</a>.
+Cluster service version numbers are obtained from the  <a href="/previous-versions/windows/desktop/mscs/nodes-nodehighestversion">NodeHighestVersion</a> and  <a href="/previous-versions/windows/desktop/mscs/nodes-nodelowestversion">NodeLowestVersion</a> properties as well as the function  <a href="/windows/desktop/api/clusapi/nf-clusapi-getclusterinformation">GetClusterInformation</a>. For more information, see  <a href="/previous-versions/windows/desktop/mscs/version-compatibility">Version Compatibility</a>.
 
 In Windows Server 2016 Minor version has been renamed to upgrade version, but the <b>CLUSTER_GET_MINOR_VERSION</b> macro remains for compatibility.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/nf-clusapi-cluster_get_major_version">CLUSTER_GET_MAJOR_VERSION</a>
+<a href="/previous-versions/windows/desktop/api/clusapi/nf-clusapi-cluster_get_major_version">CLUSTER_GET_MAJOR_VERSION</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/nf-clusapi-cluster_get_upgrade_version">CLUSTER_GET_UPGRADE_VERSION</a>
+<a href="/previous-versions/windows/desktop/api/clusapi/nf-clusapi-cluster_get_upgrade_version">CLUSTER_GET_UPGRADE_VERSION</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/nf-clusapi-cluster_make_version">CLUSTER_MAKE_VERSION</a>
-
+<a href="/previous-versions/windows/desktop/api/clusapi/nf-clusapi-cluster_make_version">CLUSTER_MAKE_VERSION</a>

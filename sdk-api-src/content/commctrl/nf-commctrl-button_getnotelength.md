@@ -50,29 +50,29 @@ api_name:
 
 ## -description
 
-Gets the length of the note text that may be displayed in the description for a command link. Use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/bcm-getnotelength">BCM_GETNOTELENGTH</a> message explicitly.
+Gets the length of the note text that may be displayed in the description for a command link. Use this macro or send the <a href="/windows/desktop/Controls/bcm-getnotelength">BCM_GETNOTELENGTH</a> message explicitly.
 
 ## -parameters
 
 ### -param hwnd [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the button control.
 
 ## -remarks
 
-Beginning with comctl32 DLL version 6.01, command link buttons may have a note. For information on DLL versions, see <a href="https://docs.microsoft.com/windows/desktop/Controls/common-control-versions">Common Control Versions</a>.
+Beginning with comctl32 DLL version 6.01, command link buttons may have a note. For information on DLL versions, see <a href="/windows/desktop/Controls/common-control-versions">Common Control Versions</a>.
 
-The <b>Button_GetNoteLength</b> macro works only with the <a href="https://docs.microsoft.com/windows/desktop/Controls/button-styles">BS_COMMANDLINK</a> and <a href="https://docs.microsoft.com/windows/desktop/Controls/button-styles">BS_DEFCOMMANDLINK</a> button styles.
+The <b>Button_GetNoteLength</b> macro works only with the <a href="/windows/desktop/Controls/button-styles">BS_COMMANDLINK</a> and <a href="/windows/desktop/Controls/button-styles">BS_DEFCOMMANDLINK</a> button styles.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Controls/button-styles">Button Styles</a>
+<a href="/windows/desktop/Controls/button-styles">Button Styles</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Controls/button-types-and-styles">Button Types</a>
+<a href="/windows/desktop/Controls/button-types-and-styles">Button Types</a>
 
 
 
@@ -81,4 +81,3 @@ The <b>Button_GetNoteLength</b> macro works only with the <a href="https://docs.
 
 
 <b>Reference</b>
-

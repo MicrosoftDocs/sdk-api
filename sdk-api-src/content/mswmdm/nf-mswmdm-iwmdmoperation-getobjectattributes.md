@@ -57,11 +57,11 @@ The <b>GetObjectAttributes</b> method allows the application to specify attribut
 
 ### -param pdwAttributes [out]
 
-Pointer to a <b>DWORD</b> that specifies the attributes defined in the <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmstorage-getattributes">IWMDMStorage::GetAttributes</a> method.
+Pointer to a <b>DWORD</b> that specifies the attributes defined in the <a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmstorage-getattributes">IWMDMStorage::GetAttributes</a> method.
 
 ### -param pFormat [out]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/WMDM/-waveformatex">_WAVEFORMATEX</a> structure that specifies the audio format for files with audio data attributes.
+Pointer to a <a href="/windows/desktop/WMDM/-waveformatex">_WAVEFORMATEX</a> structure that specifies the audio format for files with audio data attributes.
 
 ## -returns
 
@@ -145,13 +145,12 @@ HRESULT GetObjectAttributes(DWORD* pdwAttributes, _WAVEFORMATEX* pFormat)
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/WMDM/handling-file-transfers-manually">Handling File Transfers Manually</a>
+<a href="/windows/desktop/WMDM/handling-file-transfers-manually">Handling File Transfers Manually</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmoperation">IWMDMOperation Interface</a>
+<a href="/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmoperation">IWMDMOperation Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmoperation-setobjectattributes">IWMDMOperation::SetObjectAttributes</a>
-
+<a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmoperation-setobjectattributes">IWMDMOperation::SetObjectAttributes</a>

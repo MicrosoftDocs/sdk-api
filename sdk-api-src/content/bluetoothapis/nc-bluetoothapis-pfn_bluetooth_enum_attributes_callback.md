@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <i>PFN_BLUETOOTH_ENUM_ATTRIBUTES_CALLBACK</i> is a callback function prototype that is called once for each attribute found in the <b>pSDPStream</b> parameter passed to the <a href="https://docs.microsoft.com/windows/desktop/api/bluetoothapis/nf-bluetoothapis-bluetoothsdpenumattributes">BluetoothSdpEnumAttributes</a> function call.
+The <i>PFN_BLUETOOTH_ENUM_ATTRIBUTES_CALLBACK</i> is a callback function prototype that is called once for each attribute found in the <b>pSDPStream</b> parameter passed to the <a href="/windows/desktop/api/bluetoothapis/nf-bluetoothapis-bluetoothsdpenumattributes">BluetoothSdpEnumAttributes</a> function call.
 
 ## -parameters
 
@@ -60,7 +60,7 @@ The current attribute identifier in the SDP stream.
 
 ### -param pValueStream
 
-The raw SDP stream for the attribute value associated with <b>uAttribId</b>. Use the <a href="https://docs.microsoft.com/windows/desktop/api/bluetoothapis/nf-bluetoothapis-bluetoothsdpgetelementdata">BluetoothSdpGetElementData</a> function to parse the raw results into computer-readable data.
+The raw SDP stream for the attribute value associated with <b>uAttribId</b>. Use the <a href="/windows/desktop/api/bluetoothapis/nf-bluetoothapis-bluetoothsdpgetelementdata">BluetoothSdpGetElementData</a> function to parse the raw results into computer-readable data.
 
 ### -param cbStreamSize
 
@@ -68,7 +68,7 @@ The size, in bytes, of <b>pValueStream</b>.
 
 ### -param pvParam
 
-The context passed in from a previous call to the <a href="https://docs.microsoft.com/windows/desktop/api/bluetoothapis/nf-bluetoothapis-bluetoothsdpenumattributes">BluetoothSdpEnumAttributes</a> function.
+The context passed in from a previous call to the <a href="/windows/desktop/api/bluetoothapis/nf-bluetoothapis-bluetoothsdpenumattributes">BluetoothSdpEnumAttributes</a> function.
 
 ## -returns
 
@@ -76,5 +76,4 @@ Should return <b>TRUE</b> when the enumeration continues to the next attribute i
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bluetoothapis/nf-bluetoothapis-bluetoothsdpgetelementdata">BluetoothSdpGetElementData</a>
-
+<a href="/windows/desktop/api/bluetoothapis/nf-bluetoothapis-bluetoothsdpgetelementdata">BluetoothSdpGetElementData</a>

@@ -73,7 +73,7 @@ Wide-character, null-terminated string containing the property name. The propert
 </dl>
 </td>
 <td width="60%">
-Retrieves the speech modes available for the format (used only by the Windows Media Audio 9 Voice codec). Value contains flags identical to the values used to specify the mode for <a href="https://docs.microsoft.com/windows/desktop/medfound/mfpkey-wmavoice-enc-musicspeechclassmodeproperty">MFPKEY_WMAVOICE_ENC_MusicSpeechClassMode</a>.
+Retrieves the speech modes available for the format (used only by the Windows Media Audio 9 Voice codec). Value contains flags identical to the values used to specify the mode for <a href="/windows/desktop/medfound/mfpkey-wmavoice-enc-musicspeechclassmodeproperty">MFPKEY_WMAVOICE_ENC_MusicSpeechClassMode</a>.
 
 </td>
 </tr>
@@ -84,10 +84,10 @@ The properties in the following list are also supported. They are used with <b>I
 
 <ul>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/medfound/mfpkey-vbrenabledproperty">MFPKEY_VBRENABLED</a>
+<a href="/windows/desktop/medfound/mfpkey-vbrenabledproperty">MFPKEY_VBRENABLED</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/medfound/mfpkey-vbrqualityproperty">MFPKEY_VBRQUALITY</a>
+<a href="/windows/desktop/medfound/mfpkey-vbrqualityproperty">MFPKEY_VBRQUALITY</a>
 </li>
 </ul>
 
@@ -109,13 +109,12 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmcodecdsp/nn-wmcodecdsp-iwmcodecprops">IWMCodecProps Interface</a>
+<a href="/windows/desktop/api/wmcodecdsp/nn-wmcodecdsp-iwmcodecprops">IWMCodecProps Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/mfpkey-vbrenabledproperty">MFPKEY_VBRENABLED</a>
+<a href="/windows/desktop/medfound/mfpkey-vbrenabledproperty">MFPKEY_VBRENABLED</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/mfpkey-vbrqualityproperty">MFPKEY_VBRQUALITY</a>
-
+<a href="/windows/desktop/medfound/mfpkey-vbrqualityproperty">MFPKEY_VBRQUALITY</a>

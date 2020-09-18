@@ -52,8 +52,8 @@ api_name:
 
 The 
 <b>ProvideIntegerData</b> method retrieves integer data from the client tool. For more information, see the 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/configuremodule-provideintegerdata">ProvideIntegerData</a> method of the 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/configuremodule-object">ConfigureModule</a> object.
+<a href="/windows/desktop/Msi/configuremodule-provideintegerdata">ProvideIntegerData</a> method of the 
+<a href="/windows/desktop/Msi/configuremodule-object">ConfigureModule</a> object.
 
 ## -parameters
 
@@ -101,13 +101,12 @@ Function succeeded.
 ## -remarks
 
 The client may be called no more than once for each record in the 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/moduleconfiguration-table">ModuleConfiguration table</a>. Note that Mergemod.dll never makes multiple calls to the client for the same "Name" value. If no record in the ModuleSubstitution table uses the property, an entry in the ModuleConfiguration table causes no calls to the client.
+<a href="/windows/desktop/Msi/moduleconfiguration-table">ModuleConfiguration table</a>. Note that Mergemod.dll never makes multiple calls to the client for the same "Name" value. If no record in the ModuleSubstitution table uses the property, an entry in the ModuleConfiguration table causes no calls to the client.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mergemod/nn-mergemod-imsmconfiguremodule">IMsmConfigureModule</a>
+<a href="/windows/desktop/api/mergemod/nn-mergemod-imsmconfiguremodule">IMsmConfigureModule</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/merge-module-automation">Merge Module Automation</a>
-
+<a href="/windows/desktop/Msi/merge-module-automation">Merge Module Automation</a>

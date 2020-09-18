@@ -121,21 +121,20 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/dxmath/ovw-xnamath-reference-functions-vector-transcendental">Transcendental Vector Functions</a>
+<a href="/windows/desktop/dxmath/ovw-xnamath-reference-functions-vector-transcendental">Transcendental Vector Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/directxmath/nf-directxmath-xmvectoratan">XMVectorATan</a>
+<a href="/windows/desktop/api/directxmath/nf-directxmath-xmvectoratan">XMVectorATan</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/directxmath/nf-directxmath-xmvectoratan2">XMVectorATan2</a>
+<a href="/windows/desktop/api/directxmath/nf-directxmath-xmvectoratan2">XMVectorATan2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/directxmath/nf-directxmath-xmvectoratanest">XMVectorATanEst</a>
+<a href="/windows/desktop/api/directxmath/nf-directxmath-xmvectoratanest">XMVectorATanEst</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/directxmath/nf-directxmath-xmvectortan">XMVectorTan</a>
-
+<a href="/windows/desktop/api/directxmath/nf-directxmath-xmvectortan">XMVectorTan</a>

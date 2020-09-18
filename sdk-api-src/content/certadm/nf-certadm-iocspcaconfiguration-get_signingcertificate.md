@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-The <b>SigningCertificate</b> property gets or sets a signing certificate that has been encoded by using <a href="https://docs.microsoft.com/windows/desktop/SecGloss/d-gly">Distinguished Encoding Rules</a> (DER). An Online Certificate Status Protocol (OCSP) responder service uses this certificate to sign its responses to certificate status requests.
+The <b>SigningCertificate</b> property gets or sets a signing certificate that has been encoded by using <a href="/windows/desktop/SecGloss/d-gly">Distinguished Encoding Rules</a> (DER). An Online Certificate Status Protocol (OCSP) responder service uses this certificate to sign its responses to certificate status requests.
 
 This property is read/write.
 
@@ -60,5 +60,4 @@ This property is read/write.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certadm/nn-certadm-iocspcaconfiguration">IOCSPCAConfiguration</a>
-
+<a href="/windows/desktop/api/certadm/nn-certadm-iocspcaconfiguration">IOCSPCAConfiguration</a>

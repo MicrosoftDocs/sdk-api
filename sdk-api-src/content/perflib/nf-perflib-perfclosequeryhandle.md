@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Closes a query handle that you opened by calling <a href="https://docs.microsoft.com/windows/desktop/api/perflib/nf-perflib-perfopenqueryhandle">PerfOpenQueryHandle</a>.
+Closes a query handle that you opened by calling <a href="/windows/desktop/api/perflib/nf-perflib-perfopenqueryhandle">PerfOpenQueryHandle</a>.
 
 ## -parameters
 
@@ -64,9 +64,8 @@ If the function succeeds, it returns ERROR_SUCCESS.
 						
 
 If the function fails, the return value is a 
-<a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a>.
+<a href="/windows/desktop/Debug/system-error-codes">system error code</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/perflib/nf-perflib-perfopenqueryhandle">PerfOpenQueryHandle</a>
-
+<a href="/windows/desktop/api/perflib/nf-perflib-perfopenqueryhandle">PerfOpenQueryHandle</a>

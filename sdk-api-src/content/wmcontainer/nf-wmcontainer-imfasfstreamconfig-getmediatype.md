@@ -57,7 +57,7 @@ Retrieves the media type of the stream.
 
 ### -param ppIMediaType [out]
 
-Receives a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfmediatype">IMFMediaType</a> interface of the media type object associated with the stream. The caller must release the interface.
+Receives a pointer to the <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfmediatype">IMFMediaType</a> interface of the media type object associated with the stream. The caller must release the interface.
 
 ## -returns
 
@@ -87,13 +87,12 @@ To reduce unnecessary copying, the method returns a pointer to the media type  t
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nn-wmcontainer-imfasfstreamconfig">IMFASFStreamConfig</a>
+<a href="/windows/desktop/api/wmcontainer/nn-wmcontainer-imfasfstreamconfig">IMFASFStreamConfig</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfstreamconfig-setmediatype">IMFASFStreamConfig::SetMediaType</a>
+<a href="/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfstreamconfig-setmediatype">IMFASFStreamConfig::SetMediaType</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfmediatype">IMFMediaType</a>
-
+<a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfmediatype">IMFMediaType</a>

@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Values for the <a href="https://docs.microsoft.com/windows/desktop/api/d2d1effects_2/ne-d2d1effects_2-d2d1_straighten_prop">D2D1_STRAIGHTEN_PROP_SCALE_MODE</a> property of the <a href="https://docs.microsoft.com/windows/desktop/Direct2D/straighten-effect">Straighten effect</a>.
+Values for the <a href="/windows/desktop/api/d2d1effects_2/ne-d2d1effects_2-d2d1_straighten_prop">D2D1_STRAIGHTEN_PROP_SCALE_MODE</a> property of the <a href="/windows/desktop/Direct2D/straighten-effect">Straighten effect</a>.
 
 ## -enum-fields
 
@@ -75,4 +75,3 @@ Indicates multi-sample linear interpolation should be used.
 Indicates anisotropic filtering should be used.
 
 ### -field D2D1_STRAIGHTEN_SCALE_MODE_FORCE_DWORD
-

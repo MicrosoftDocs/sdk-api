@@ -51,11 +51,11 @@ api_name:
 
 ## -description
 
-The device interface represents a virtual adapter; it is used to create resources. <b>ID3D11Device3</b> adds new methods to those in <a href="https://docs.microsoft.com/windows/desktop/api/d3d11_2/nn-d3d11_2-id3d11device2">ID3D11Device2</a>.
+The device interface represents a virtual adapter; it is used to create resources. <b>ID3D11Device3</b> adds new methods to those in <a href="/windows/desktop/api/d3d11_2/nn-d3d11_2-id3d11device2">ID3D11Device2</a>.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D11Device3</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/d3d11_2/nn-d3d11_2-id3d11device2">ID3D11Device2</a>. <b>ID3D11Device3</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D11Device3</b> interface inherits from <a href="/windows/desktop/api/d3d11_2/nn-d3d11_2-id3d11device2">ID3D11Device2</a>. <b>ID3D11Device3</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,17 +70,17 @@ The <b>ID3D11Device3</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11_3/nf-d3d11_3-id3d11device3-createdeferredcontext3">CreateDeferredContext3</a>
+<a href="/windows/desktop/api/d3d11_3/nf-d3d11_3-id3d11device3-createdeferredcontext3">CreateDeferredContext3</a>
 </td>
 <td align="left" width="63%">
-Creates a deferred context, which can record <a href="https://docs.microsoft.com/windows/desktop/direct3d11/overviews-direct3d-11-render-multi-thread-command-list">command lists</a>.
+Creates a deferred context, which can record <a href="/windows/desktop/direct3d11/overviews-direct3d-11-render-multi-thread-command-list">command lists</a>.
         
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11_3/nf-d3d11_3-id3d11device3-createquery1">CreateQuery1</a>
+<a href="/windows/desktop/api/d3d11_3/nf-d3d11_3-id3d11device3-createquery1">CreateQuery1</a>
 </td>
 <td align="left" width="63%">
 Creates a query object for querying information from the GPU. 
@@ -89,16 +89,16 @@ Creates a query object for querying information from the GPU.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11_3/nf-d3d11_3-id3d11device3-createrasterizerstate2">CreateRasterizerState2</a>
+<a href="/windows/desktop/api/d3d11_3/nf-d3d11_3-id3d11device3-createrasterizerstate2">CreateRasterizerState2</a>
 </td>
 <td align="left" width="63%">
-Creates a rasterizer state object that informs the <a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d10-graphics-programming-guide-rasterizer-stage">rasterizer stage</a> how to behave and forces the sample count while UAV rendering or rasterizing.
+Creates a rasterizer state object that informs the <a href="/windows/desktop/direct3d11/d3d10-graphics-programming-guide-rasterizer-stage">rasterizer stage</a> how to behave and forces the sample count while UAV rendering or rasterizing.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11_3/nf-d3d11_3-id3d11device3-createrendertargetview1">CreateRenderTargetView1</a>
+<a href="/windows/desktop/api/d3d11_3/nf-d3d11_3-id3d11device3-createrendertargetview1">CreateRenderTargetView1</a>
 </td>
 <td align="left" width="63%">
 Creates a render-target view for accessing resource data.
@@ -107,7 +107,7 @@ Creates a render-target view for accessing resource data.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11_3/nf-d3d11_3-id3d11device3-createshaderresourceview1">CreateShaderResourceView1</a>
+<a href="/windows/desktop/api/d3d11_3/nf-d3d11_3-id3d11device3-createshaderresourceview1">CreateShaderResourceView1</a>
 </td>
 <td align="left" width="63%">
 Creates a shader-resource view for accessing data in a resource.
@@ -116,64 +116,64 @@ Creates a shader-resource view for accessing data in a resource.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11_3/nf-d3d11_3-id3d11device3-createtexture2d1">CreateTexture2D1</a>
+<a href="/windows/desktop/api/d3d11_3/nf-d3d11_3-id3d11device3-createtexture2d1">CreateTexture2D1</a>
 </td>
 <td align="left" width="63%">
-Creates a <a href="https://docs.microsoft.com/windows/desktop/direct3d11/overviews-direct3d-11-resources-textures-intro">2D texture</a>.
+Creates a <a href="/windows/desktop/direct3d11/overviews-direct3d-11-resources-textures-intro">2D texture</a>.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11_3/nf-d3d11_3-id3d11device3-createtexture3d1">CreateTexture3D1</a>
+<a href="/windows/desktop/api/d3d11_3/nf-d3d11_3-id3d11device3-createtexture3d1">CreateTexture3D1</a>
 </td>
 <td align="left" width="63%">
-Creates a <a href="https://docs.microsoft.com/windows/desktop/direct3d11/overviews-direct3d-11-resources-textures-intro">3D texture</a>.
+Creates a <a href="/windows/desktop/direct3d11/overviews-direct3d-11-resources-textures-intro">3D texture</a>.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11_3/nf-d3d11_3-id3d11device3-createunorderedaccessview1">CreateUnorderedAccessView1</a>
+<a href="/windows/desktop/api/d3d11_3/nf-d3d11_3-id3d11device3-createunorderedaccessview1">CreateUnorderedAccessView1</a>
 </td>
 <td align="left" width="63%">
-Creates a view for accessing an <a href="https://docs.microsoft.com/windows/desktop/direct3d11/direct3d-11-advanced-stages-cs-resources">unordered access</a> resource.
+Creates a view for accessing an <a href="/windows/desktop/direct3d11/direct3d-11-advanced-stages-cs-resources">unordered access</a> resource.
         
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11_3/nf-d3d11_3-id3d11device3-getimmediatecontext3">GetImmediateContext3</a>
+<a href="/windows/desktop/api/d3d11_3/nf-d3d11_3-id3d11device3-getimmediatecontext3">GetImmediateContext3</a>
 </td>
 <td align="left" width="63%">
-Gets an immediate context, which can play back <a href="https://docs.microsoft.com/windows/desktop/direct3d11/overviews-direct3d-11-render-multi-thread-command-list">command lists</a>.
+Gets an immediate context, which can play back <a href="/windows/desktop/direct3d11/overviews-direct3d-11-render-multi-thread-command-list">command lists</a>.
         
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11_3/nf-d3d11_3-id3d11device3-readfromsubresource">ReadFromSubresource</a>
+<a href="/windows/desktop/api/d3d11_3/nf-d3d11_3-id3d11device3-readfromsubresource">ReadFromSubresource</a>
 </td>
 <td align="left" width="63%">
 Copies data from a
-          <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ne-d3d11-d3d11_usage">D3D11_USAGE_DEFAULT</a>texture which was mapped using
-          ID3D11DeviceContext3::<a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11devicecontext-map">Map</a>while providing a NULL
-          <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_mapped_subresource">D3D11_MAPPED_SUBRESOURCE</a>parameter.
+          <a href="/windows/desktop/api/d3d11/ne-d3d11-d3d11_usage">D3D11_USAGE_DEFAULT</a>texture which was mapped using
+          ID3D11DeviceContext3::<a href="/windows/desktop/api/d3d11/nf-d3d11-id3d11devicecontext-map">Map</a>while providing a NULL
+          <a href="/windows/desktop/api/d3d11/ns-d3d11-d3d11_mapped_subresource">D3D11_MAPPED_SUBRESOURCE</a>parameter.
         
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11_3/nf-d3d11_3-id3d11device3-writetosubresource">WriteToSubresource</a>
+<a href="/windows/desktop/api/d3d11_3/nf-d3d11_3-id3d11device3-writetosubresource">WriteToSubresource</a>
 </td>
 <td align="left" width="63%">
 Copies data into a
-          <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ne-d3d11-d3d11_usage">D3D11_USAGE_DEFAULT</a>texture which was mapped using
-          ID3D11DeviceContext3::<a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11devicecontext-map">Map</a>while providing a NULL
-          <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_mapped_subresource">D3D11_MAPPED_SUBRESOURCE</a>parameter.
+          <a href="/windows/desktop/api/d3d11/ne-d3d11-d3d11_usage">D3D11_USAGE_DEFAULT</a>texture which was mapped using
+          ID3D11DeviceContext3::<a href="/windows/desktop/api/d3d11/nf-d3d11-id3d11devicecontext-map">Map</a>while providing a NULL
+          <a href="/windows/desktop/api/d3d11/ns-d3d11-d3d11_mapped_subresource">D3D11_MAPPED_SUBRESOURCE</a>parameter.
         
 
 </td>
@@ -182,9 +182,8 @@ Copies data into a
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d11-graphics-reference-d3d11-core-interfaces">Core Interfaces</a>
+<a href="/windows/desktop/direct3d11/d3d11-graphics-reference-d3d11-core-interfaces">Core Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11_2/nn-d3d11_2-id3d11device2">ID3D11Device2</a>
-
+<a href="/windows/desktop/api/d3d11_2/nn-d3d11_2-id3d11device2">ID3D11Device2</a>

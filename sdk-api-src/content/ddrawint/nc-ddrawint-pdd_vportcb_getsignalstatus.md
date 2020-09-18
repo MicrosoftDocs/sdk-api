@@ -53,7 +53,7 @@ The <i>DdVideoPortGetSignalStatus</i> callback function retrieves the status of 
 
 ### -param Arg1
 
-Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_getvportsignaldata">DD_GETVPORTSIGNALDATA</a> structure that contains the information required for the driver to retrieve the status of the video signal.
+Points to a <a href="/windows/desktop/api/ddrawint/ns-ddrawint-dd_getvportsignaldata">DD_GETVPORTSIGNALDATA</a> structure that contains the information required for the driver to retrieve the status of the video signal.
 
 ## -returns
 
@@ -67,5 +67,4 @@ The driver should determine whether a valid signal is coming in to the hardware 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_getvportsignaldata">DD_GETVPORTSIGNALDATA</a>
-
+<a href="/windows/desktop/api/ddrawint/ns-ddrawint-dd_getvportsignaldata">DD_GETVPORTSIGNALDATA</a>

@@ -69,5 +69,4 @@ Returns <b>ERROR_SUCCESS</b> (zero) if the call was successful, and a nonzero va
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Power/power-management-functions">Power Management Functions</a>
-
+<a href="/windows/desktop/Power/power-management-functions">Power Management Functions</a>

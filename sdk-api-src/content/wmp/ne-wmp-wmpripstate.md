@@ -72,9 +72,8 @@ Windows Media Player 10 Mobile: This enumeration is not supported.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/WMP/enumeration-types">Enumeration Types</a>
+<a href="/windows/desktop/WMP/enumeration-types">Enumeration Types</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpcdromrip">IWMPCdromRip Interface</a>
-
+<a href="/windows/desktop/api/wmp/nn-wmp-iwmpcdromrip">IWMPCdromRip Interface</a>

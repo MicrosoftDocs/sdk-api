@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-The <code>VMR9AspectRatioMode</code> enumeration type is used with the <a href="https://docs.microsoft.com/windows/desktop/api/vmr9/nf-vmr9-ivmrwindowlesscontrol9-getaspectratiomode">IVMRWindowlessControl9::GetAspectRatioMode</a> and <a href="https://docs.microsoft.com/windows/desktop/api/vmr9/nf-vmr9-ivmrwindowlesscontrol9-setaspectratiomode">IVMRWindowlessControl9::SetAspectRatioMode</a> methods to set and retrieve the aspect ratio mode (VMR-9 only).
+The <code>VMR9AspectRatioMode</code> enumeration type is used with the <a href="/windows/desktop/api/vmr9/nf-vmr9-ivmrwindowlesscontrol9-getaspectratiomode">IVMRWindowlessControl9::GetAspectRatioMode</a> and <a href="/windows/desktop/api/vmr9/nf-vmr9-ivmrwindowlesscontrol9-setaspectratiomode">IVMRWindowlessControl9::SetAspectRatioMode</a> methods to set and retrieve the aspect ratio mode (VMR-9 only).
 
 ## -enum-fields
 
@@ -66,5 +66,4 @@ Indicates that the VMR will maintain the aspect ratio of the source video by let
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/directshow-enumerated-types">DirectShow Enumerated Types</a>
-
+<a href="/windows/desktop/DirectShow/directshow-enumerated-types">DirectShow Enumerated Types</a>

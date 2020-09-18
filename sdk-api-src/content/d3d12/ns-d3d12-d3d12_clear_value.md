@@ -56,7 +56,7 @@ Describes a value used to optimize clear operations for a particular resource.
 
 ### -field Format
 
-Specifies one member of the <a href="https://docs.microsoft.com/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format">DXGI_FORMAT</a> enum.
+Specifies one member of the <a href="/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format">DXGI_FORMAT</a> enum.
 
 The format of the commonly cleared color follows the same validation rules as a view/ descriptor creation. In general, the format of the clear color can be any format in the same typeless group that the resource format belongs to.
 
@@ -64,11 +64,11 @@ This <i>Format</i> must match the format of the view used during the clear opera
 
 ### -field Color
 
-Specifies a 4-entry array of float values, determining the RGBA value. The order of RGBA matches the order used with <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-clearrendertargetview">ClearRenderTargetView</a>.
+Specifies a 4-entry array of float values, determining the RGBA value. The order of RGBA matches the order used with <a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-clearrendertargetview">ClearRenderTargetView</a>.
 
 ### -field DepthStencil
 
-Specifies one member of <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_depth_stencil_value">D3D12_DEPTH_STENCIL_VALUE</a>. These values match the semantics of <i>Depth</i> and <i>Stencil</i> in <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-cleardepthstencilview">ClearDepthStencilView</a>.
+Specifies one member of <a href="/windows/desktop/api/d3d12/ns-d3d12-d3d12_depth_stencil_value">D3D12_DEPTH_STENCIL_VALUE</a>. These values match the semantics of <i>Depth</i> and <i>Stencil</i> in <a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-cleardepthstencilview">ClearDepthStencilView</a>.
 
 ## -remarks
 
@@ -77,21 +77,20 @@ This structure is optionally passed into the following methods:
 
 <ul>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12device-createcommittedresource">ID3D12Device::CreateCommittedResource</a>
+<a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12device-createcommittedresource">ID3D12Device::CreateCommittedResource</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12device-createplacedresource">ID3D12Device::CreatePlacedResource</a>
+<a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12device-createplacedresource">ID3D12Device::CreatePlacedResource</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12device-createreservedresource">ID3D12Device::CreateReservedResource</a>
+<a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12device-createreservedresource">ID3D12Device::CreateReservedResource</a>
 </li>
 </ul>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3d12/cd3dx12-clear-value">CD3DX12_CLEAR_VALUE</a>
+<a href="/windows/desktop/direct3d12/cd3dx12-clear-value">CD3DX12_CLEAR_VALUE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3d12/direct3d-12-structures">Core Structures</a>
-
+<a href="/windows/desktop/direct3d12/direct3d-12-structures">Core Structures</a>

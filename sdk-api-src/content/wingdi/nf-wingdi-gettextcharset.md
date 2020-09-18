@@ -54,7 +54,7 @@ api_name:
 ## -description
 
 Retrieves a character set identifier for the font that is currently selected into a specified device context.
-<div class="alert"><b>Note</b>  A call to this function is equivalent to a call to <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-gettextcharsetinfo">GetTextCharsetInfo</a> passing <b>NULL</b> for the data buffer.</div><div> </div>
+<div class="alert"><b>Note</b>  A call to this function is equivalent to a call to <a href="/windows/desktop/api/wingdi/nf-wingdi-gettextcharsetinfo">GetTextCharsetInfo</a> passing <b>NULL</b> for the data buffer.</div><div> </div>
 
 ## -parameters
 
@@ -70,13 +70,12 @@ If the function fails, it returns DEFAULT_CHARSET.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-gettextcharsetinfo">GetTextCharsetInfo</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-gettextcharsetinfo">GetTextCharsetInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/unicode-and-character-set-functions">Unicode and Character Set Functions</a>
+<a href="/windows/desktop/Intl/unicode-and-character-set-functions">Unicode and Character Set Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/unicode-and-character-sets">Unicode and Character Sets</a>
-
+<a href="/windows/desktop/Intl/unicode-and-character-sets">Unicode and Character Sets</a>

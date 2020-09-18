@@ -150,12 +150,12 @@ The modem supports waiting for quiet.
 ### -field dwCallSetupFailTimer
 
 The maximum call setup timeout supported by the modem, in seconds. This is the largest value that can be specified for the corresponding member of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/mcx/ns-mcx-modemsettings">MODEMSETTINGS</a> structure.
+<a href="/windows/desktop/api/mcx/ns-mcx-modemsettings">MODEMSETTINGS</a> structure.
 
 ### -field dwInactivityTimeout
 
 The maximum inactivity timeout supported by the modem, in tenths of seconds. This is the largest value that can be specified for the corresponding member of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/mcx/ns-mcx-modemsettings">MODEMSETTINGS</a> structure.
+<a href="/windows/desktop/api/mcx/ns-mcx-modemsettings">MODEMSETTINGS</a> structure.
 
 ### -field dwSpeakerVolume
 
@@ -311,7 +311,7 @@ The modem options. This member can be zero or more of the following values.
 
 When 
 <b>MODEMDEVCAPS</b> is used to set modem options, as part of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/mcx/ns-mcx-modemsettings">MODEMSETTINGS</a> structure, these values are used as follows.
+<a href="/windows/desktop/api/mcx/ns-mcx-modemsettings">MODEMSETTINGS</a> structure, these values are used as follows.
 
 
 
@@ -371,5 +371,4 @@ Variable-length information, including strings and any provider-defined informat
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mcx/ns-mcx-modemsettings">MODEMSETTINGS</a>
-
+<a href="/windows/desktop/api/mcx/ns-mcx-modemsettings">MODEMSETTINGS</a>

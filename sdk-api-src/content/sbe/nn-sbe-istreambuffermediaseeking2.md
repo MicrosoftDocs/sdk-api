@@ -50,11 +50,11 @@ api_name:
 
 ## -description
 
-The <b>IStreamBufferMediaSeeking2</b> interface is exposed by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/stream-buffer-source-filter">Stream Buffer Source</a> filter. It provides a method to control the frame rate during fast-forward play ("trick mode").
+The <b>IStreamBufferMediaSeeking2</b> interface is exposed by the <a href="/previous-versions/windows/desktop/mstv/stream-buffer-source-filter">Stream Buffer Source</a> filter. It provides a method to control the frame rate during fast-forward play ("trick mode").
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IStreamBufferMediaSeeking2</b> interface inherits from <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/sbe/nn-sbe-istreambuffermediaseeking">IStreamBufferMediaSeeking</a>. <b>IStreamBufferMediaSeeking2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IStreamBufferMediaSeeking2</b> interface inherits from <a href="/previous-versions/windows/desktop/api/sbe/nn-sbe-istreambuffermediaseeking">IStreamBufferMediaSeeking</a>. <b>IStreamBufferMediaSeeking2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IStreamBufferMediaSeeking2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/sbe/nf-sbe-istreambuffermediaseeking2-setrateex">SetRateEx</a>
+<a href="/previous-versions/windows/desktop/api/sbe/nf-sbe-istreambuffermediaseeking2-setrateex">SetRateEx</a>
 </td>
 <td align="left" width="63%">
 Sets playback rate, and sets the frame rate for trick mode.
@@ -84,9 +84,8 @@ To declare the interface identifier (IID) for this interface, use the <b>__uuido
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/sbe/nn-sbe-istreambuffermediaseeking">IStreamBufferMediaSeeking</a>
+<a href="/previous-versions/windows/desktop/api/sbe/nn-sbe-istreambuffermediaseeking">IStreamBufferMediaSeeking</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/stream-buffer-engine-interfaces">Stream Buffer Engine Interfaces</a>
-
+<a href="/previous-versions/windows/desktop/mstv/stream-buffer-engine-interfaces">Stream Buffer Engine Interfaces</a>

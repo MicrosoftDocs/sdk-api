@@ -56,7 +56,7 @@ Retrieves state information about the innermost open parent undo unit.
 
 ### -param pdwState [out]
 
-A pointer to a variable that receives the state information. This information is a value taken from the <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/ne-ocidl-uasflags">UASFLAGS</a> enumeration.
+A pointer to a variable that receives the state information. This information is a value taken from the <a href="/windows/desktop/api/ocidl/ne-ocidl-uasflags">UASFLAGS</a> enumeration.
 
 ## -returns
 
@@ -69,15 +69,14 @@ When checking for a normal state, use the UAS_MASK value to mask unused bits in 
 
 
 <h3><a id="Notes_to_Implementers"></a><a id="notes_to_implementers"></a><a id="NOTES_TO_IMPLEMENTERS"></a>Notes to Implementers</h3>
-If there is an open parent unit, this method calls <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-ioleparentundounit-getparentstate">IOleParentUndoUnit::GetParentState</a>.
+If there is an open parent unit, this method calls <a href="/windows/desktop/api/ocidl/nf-ocidl-ioleparentundounit-getparentstate">IOleParentUndoUnit::GetParentState</a>.
 
 If the undo manager is disabled, it should fill the <i>pdwState</i> parameter with UAS_BLOCKED and return S_OK.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-ioleundomanager">IOleUndoManager</a>
+<a href="/windows/desktop/api/ocidl/nn-ocidl-ioleundomanager">IOleUndoManager</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/ne-ocidl-uasflags">UASFLAGS</a>
-
+<a href="/windows/desktop/api/ocidl/ne-ocidl-uasflags">UASFLAGS</a>

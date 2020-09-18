@@ -83,9 +83,8 @@ The <b>EngMultiByteToWideChar</b> function returns the number of bytes it conver
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engunicodetomultibyten">EngUnicodeToMultiByteN</a>
+<a href="/windows/desktop/api/winddi/nf-winddi-engunicodetomultibyten">EngUnicodeToMultiByteN</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engwidechartomultibyte">EngWideCharToMultiByte</a>
-
+<a href="/windows/desktop/api/winddi/nf-winddi-engwidechartomultibyte">EngWideCharToMultiByte</a>

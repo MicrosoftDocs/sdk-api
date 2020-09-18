@@ -88,16 +88,15 @@ If home media sharing is allowed for the computer and a particular user has enab
 
 <div class="alert"><b>Warning</b>  In Windows 7, a call to <b>get_computerHomeMediaSharingAllowedState</b> from a service account might return an incorrect result.</div>
 <div> </div>
-<div class="alert"><b>Note</b>  Each call to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wmlss/nf-wmlss-iwindowsmedialibrarysharingservices-put_computerhomemediasharingallowedstate">IWindowsMediaLibrarySharingServices::put_computerHomeMediaSharingAllowedState</a> method with the   <i>sharingAllowed</i> parameter set to <b>VARIANT_TRUE</b>   updates the access control list (ACL) and last changed time  for all files in the 
+<div class="alert"><b>Note</b>  Each call to the <a href="/previous-versions/windows/desktop/api/wmlss/nf-wmlss-iwindowsmedialibrarysharingservices-put_computerhomemediasharingallowedstate">IWindowsMediaLibrarySharingServices::put_computerHomeMediaSharingAllowedState</a> method with the   <i>sharingAllowed</i> parameter set to <b>VARIANT_TRUE</b>   updates the access control list (ACL) and last changed time  for all files in the 
 
 computer's Public Music, Public Pictures, and Public Videos folders.</div>
 <div> </div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wmlss/nn-wmlss-iwindowsmedialibrarysharingservices">IWindowsMediaLibrarySharingServices</a>
+<a href="/previous-versions/windows/desktop/api/wmlss/nn-wmlss-iwindowsmedialibrarysharingservices">IWindowsMediaLibrarySharingServices</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wmlss/nf-wmlss-iwindowsmedialibrarysharingservices-put_computerhomemediasharingallowedstate">IWindowsMediaLibrarySharingServices::put_computerHomeMediaSharingAllowedState</a>
-
+<a href="/previous-versions/windows/desktop/api/wmlss/nf-wmlss-iwindowsmedialibrarysharingservices-put_computerhomemediasharingallowedstate">IWindowsMediaLibrarySharingServices::put_computerHomeMediaSharingAllowedState</a>

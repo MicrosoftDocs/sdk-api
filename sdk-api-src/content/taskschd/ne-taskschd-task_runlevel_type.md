@@ -66,5 +66,4 @@ Tasks will be run with the highest privileges.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/TaskSchd/task-scheduler-enumerated-types">Task Scheduler Enumerated Types</a>
-
+<a href="/windows/desktop/TaskSchd/task-scheduler-enumerated-types">Task Scheduler Enumerated Types</a>

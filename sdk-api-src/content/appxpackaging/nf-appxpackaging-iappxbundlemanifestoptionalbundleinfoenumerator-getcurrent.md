@@ -82,5 +82,4 @@ The enumerator has passed the last item in the collection.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxbundlemanifestoptionalbundleinfoenumerator">IAppxBundleManifestOptionalBundleInfoEnumerator</a>
-
+<a href="/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxbundlemanifestoptionalbundleinfoenumerator">IAppxBundleManifestOptionalBundleInfoEnumerator</a>

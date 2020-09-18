@@ -52,11 +52,11 @@ api_name:
 
 The 
 WbemPrivilegeEnum constants define privileges. These constants are used with 
-<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/swbemsecurity">SWbemSecurity</a> to grant the privileges required for some operations. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/privilege-constants">Privilege Constants</a>.
+<a href="/windows/desktop/WmiSdk/swbemsecurity">SWbemSecurity</a> to grant the privileges required for some operations. For more information, see 
+<a href="/windows/desktop/WmiSdk/privilege-constants">Privilege Constants</a>.
 
 The WMI scripting type library, wbemdisp.tlb defines these constants. Microsoft Visual Basic applications can access this library; script languages must use the value of the constant directly, unless they use Windows Script Host (WSH) XML file format. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/using-the-wmi-scripting-type-library">Using the WMI Scripting Type Library</a>.
+<a href="/windows/desktop/WmiSdk/using-the-wmi-scripting-type-library">Using the WMI Scripting Type Library</a>.
 
 ## -enum-fields
 
@@ -170,13 +170,12 @@ Required to perform volume maintenance tasks.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/privilege-constants">Privilege Constants</a>
+<a href="/windows/desktop/WmiSdk/privilege-constants">Privilege Constants</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/swbemsecurity-privileges">SWbemSecurity.Privileges</a>
+<a href="/windows/desktop/WmiSdk/swbemsecurity-privileges">SWbemSecurity.Privileges</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/scripting-api-constants">Scripting API Constants</a>
-
+<a href="/windows/desktop/WmiSdk/scripting-api-constants">Scripting API Constants</a>

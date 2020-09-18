@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Specifies values that identify the availability of a <a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-element-ribbon-contextualtabs">contextual tab</a>.
+Specifies values that identify the availability of a <a href="/windows/desktop/windowsribbon/windowsribbon-element-ribbon-contextualtabs">contextual tab</a>.
 
 ## -enum-fields
 
@@ -68,13 +68,12 @@ A contextual tab is available for the selected object. The tab is the active tab
 
 ## -remarks
 
-A contextual tab  is displayed based on the <b>UI_CONTEXTAVAILABILITY</b> value in <a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-reference-properties-uipkey-contextavailable">UI_PKEY_ContextAvailable</a>.
+A contextual tab  is displayed based on the <b>UI_CONTEXTAVAILABILITY</b> value in <a href="/windows/desktop/windowsribbon/windowsribbon-reference-properties-uipkey-contextavailable">UI_PKEY_ContextAvailable</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-reference-enumerations">Constants and Enumerations</a>
+<a href="/windows/desktop/windowsribbon/windowsribbon-reference-enumerations">Constants and Enumerations</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-reference-properties-uipkey-contextavailable">UI_PKEY_ContextAvailable</a>
-
+<a href="/windows/desktop/windowsribbon/windowsribbon-reference-properties-uipkey-contextavailable">UI_PKEY_ContextAvailable</a>

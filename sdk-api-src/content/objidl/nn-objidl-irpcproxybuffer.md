@@ -54,7 +54,7 @@ Controls the RPC proxy used to marshal data between COM components.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IRpcProxyBuffer</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IRpcProxyBuffer</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IRpcProxyBuffer</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IRpcProxyBuffer</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IRpcProxyBuffer</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-irpcproxybuffer-connect">Connect</a>
+<a href="/windows/desktop/api/objidl/nf-objidl-irpcproxybuffer-connect">Connect</a>
 </td>
 <td align="left" width="63%">
 Initializes a client proxy, binding it to the specified RPC channel.
@@ -78,7 +78,7 @@ Initializes a client proxy, binding it to the specified RPC channel.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-irpcproxybuffer-disconnect">Disconnect</a>
+<a href="/windows/desktop/api/objidl/nf-objidl-irpcproxybuffer-disconnect">Disconnect</a>
 </td>
 <td align="left" width="63%">
 Disconnects a client proxy from any RPC channel to which it is connected.
@@ -89,13 +89,12 @@ Disconnects a client proxy from any RPC channel to which it is connected.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imarshal">IMarshal</a>
+<a href="/windows/desktop/api/objidl/nn-objidl-imarshal">IMarshal</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-irpcchannelbuffer">IRpcChannelBuffer</a>
+<a href="/windows/desktop/api/objidl/nn-objidl-irpcchannelbuffer">IRpcChannelBuffer</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-irpcstubbuffer">IRpcStubBuffer</a>
-
+<a href="/windows/desktop/api/objidl/nn-objidl-irpcstubbuffer">IRpcStubBuffer</a>

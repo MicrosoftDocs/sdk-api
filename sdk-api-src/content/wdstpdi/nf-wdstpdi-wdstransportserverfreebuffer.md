@@ -56,7 +56,7 @@ Releases memory used by  a buffer.
 
 ### -param hProvider [in]
 
-Handle to the provider. This handle was given to the provider in the <a href="https://docs.microsoft.com/windows/desktop/api/wdstpdi/nf-wdstpdi-wdstransportproviderinitialize">WdsTransportProviderInitialize</a> function.
+Handle to the provider. This handle was given to the provider in the <a href="/windows/desktop/api/wdstpdi/nf-wdstpdi-wdstransportproviderinitialize">WdsTransportProviderInitialize</a> function.
 
 ### -param pvBuffer [in]
 
@@ -65,4 +65,3 @@ Pointer to location of buffer to be released.
 ## -returns
 
 If the function succeeds, the return is <b>S_OK</b>.
-

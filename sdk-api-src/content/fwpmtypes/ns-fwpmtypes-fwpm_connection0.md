@@ -64,7 +64,7 @@ The run-time identifier for the connection.
 
 ### -field ipVersion
 
-Type: [FWP_IP_VERSION](https://docs.microsoft.com/windows/desktop/api/fwptypes/ne-fwptypes-fwp_ip_version)</b>
+Type: [FWP_IP_VERSION](/windows/desktop/api/fwptypes/ne-fwptypes-fwp_ip_version)</b>
 
 The IP version being used.
 
@@ -108,31 +108,31 @@ Uniquely identifies the provider associated with this connection.
 
 ### -field ipsecTrafficModeType
 
-Type: [IPSEC_TRAFFIC_TYPE](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ne-ipsectypes-ipsec_traffic_type)</b>
+Type: [IPSEC_TRAFFIC_TYPE](/windows/desktop/api/ipsectypes/ne-ipsectypes-ipsec_traffic_type)</b>
 
 The type of IPsec traffic.
 
 ### -field keyModuleType
 
-Type: [IKEEXT_KEY_MODULE_TYPE](https://docs.microsoft.com/windows/desktop/api/iketypes/ne-iketypes-ikeext_key_module_type)</b>
+Type: [IKEEXT_KEY_MODULE_TYPE](/windows/desktop/api/iketypes/ne-iketypes-ikeext_key_module_type)</b>
 
 The type of keying module.
 
 ### -field mmCrypto
 
-Type: [IKEEXT_PROPOSAL0](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_proposal0)</b>
+Type: [IKEEXT_PROPOSAL0](/windows/desktop/api/iketypes/ns-iketypes-ikeext_proposal0)</b>
 
 An IKE/AuthIP main mode proposal.
 
 ### -field mmPeer
 
-Type: [IKEEXT_CREDENTIAL2](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_credential2)</b>
+Type: [IKEEXT_CREDENTIAL2](/windows/desktop/api/iketypes/ns-iketypes-ikeext_credential2)</b>
 
 Main mode credential information.
 
 ### -field emPeer
 
-Type: [IKEEXT_CREDENTIAL2](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_credential2)</b>
+Type: [IKEEXT_CREDENTIAL2](/windows/desktop/api/iketypes/ns-iketypes-ikeext_credential2)</b>
 
 Extended mode credential information.
 
@@ -162,21 +162,20 @@ Time that the connection was created.
 
 ## -see-also
 
-[FWP_IP_VERSION](https://docs.microsoft.com/windows/desktop/api/fwptypes/ne-fwptypes-fwp_ip_version)
+[FWP_IP_VERSION](/windows/desktop/api/fwptypes/ne-fwptypes-fwp_ip_version)
 
 
 
-[IKEEXT_CREDENTIAL2](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_credential2)
+[IKEEXT_CREDENTIAL2](/windows/desktop/api/iketypes/ns-iketypes-ikeext_credential2)
 
 
 
-[IKEEXT_KEY_MODULE_TYPE](https://docs.microsoft.com/windows/desktop/api/iketypes/ne-iketypes-ikeext_key_module_type)
+[IKEEXT_KEY_MODULE_TYPE](/windows/desktop/api/iketypes/ne-iketypes-ikeext_key_module_type)
 
 
 
-[IKEEXT_PROPOSAL0](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_proposal0)
+[IKEEXT_PROPOSAL0](/windows/desktop/api/iketypes/ns-iketypes-ikeext_proposal0)
 
 
 
-[IPSEC_TRAFFIC_TYPE](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ne-ipsectypes-ipsec_traffic_type)
-
+[IPSEC_TRAFFIC_TYPE](/windows/desktop/api/ipsectypes/ne-ipsectypes-ipsec_traffic_type)

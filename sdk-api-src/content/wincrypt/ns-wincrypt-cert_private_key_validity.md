@@ -57,7 +57,7 @@ api_name:
 The <b>CERT_PRIVATE_KEY_VALIDITY</b> structure indicates a valid time span for the private key corresponding to a certificate's public key. If the <b>NotBefore</b> component is zero or not present, no statement is made as to when the validity period of the private key begins. If the <b>NotAfter</b> component is zero or not present, no end date is set on the validity of the private key.
 
 A <b>CERT_PRIVATE_KEY_VALIDITY</b> structure is a member of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_key_attributes_info">CERT_KEY_ATTRIBUTES_INFO</a> structure.
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_key_attributes_info">CERT_KEY_ATTRIBUTES_INFO</a> structure.
 
 ## -struct-fields
 
@@ -71,5 +71,4 @@ Date and time after which the certificate is not valid. For dates between 1950 a
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_key_attributes_info">CERT_KEY_ATTRIBUTES_INFO</a>
-
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_key_attributes_info">CERT_KEY_ATTRIBUTES_INFO</a>

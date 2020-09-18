@@ -82,13 +82,12 @@ The return value is the identifier of the specified menu item. If the menu item 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getmenuitemcount">GetMenuItemCount</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-getmenuitemcount">GetMenuItemCount</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/menurc/menus">Menus</a>
+<a href="/windows/desktop/menurc/menus">Menus</a>
 
 
 
 <b>Reference</b>
-

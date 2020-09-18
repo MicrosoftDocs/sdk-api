@@ -56,7 +56,7 @@ A linking-node interface is used for shader linking. <div class="alert"><b>Note<
 
 ## -remarks
 
-To get a linking-node interface, call <a href="https://docs.microsoft.com/windows/desktop/api/d3d11shader/nf-d3d11shader-id3d11functionlinkinggraph-setinputsignature">ID3D11FunctionLinkingGraph::SetInputSignature</a>, <a href="https://docs.microsoft.com/windows/desktop/api/d3d11shader/nf-d3d11shader-id3d11functionlinkinggraph-setoutputsignature">ID3D11FunctionLinkingGraph::SetOutputSignature</a>, or <a href="https://docs.microsoft.com/windows/desktop/api/d3d11shader/nf-d3d11shader-id3d11functionlinkinggraph-callfunction">ID3D11FunctionLinkingGraph::CallFunction</a>.
+To get a linking-node interface, call <a href="/windows/desktop/api/d3d11shader/nf-d3d11shader-id3d11functionlinkinggraph-setinputsignature">ID3D11FunctionLinkingGraph::SetInputSignature</a>, <a href="/windows/desktop/api/d3d11shader/nf-d3d11shader-id3d11functionlinkinggraph-setoutputsignature">ID3D11FunctionLinkingGraph::SetOutputSignature</a>, or <a href="/windows/desktop/api/d3d11shader/nf-d3d11shader-id3d11functionlinkinggraph-callfunction">ID3D11FunctionLinkingGraph::CallFunction</a>.
       
 
 <div class="alert"><b>Note</b>  <b>ID3D11LinkingNode</b> requires the D3dcompiler_47.dll or a later version of the DLL.
@@ -65,9 +65,8 @@ To get a linking-node interface, call <a href="https://docs.microsoft.com/window
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
+<a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d11-graphics-reference-d3d11-shader-interfaces">Shader Interfaces</a>
-
+<a href="/windows/desktop/direct3d11/d3d11-graphics-reference-d3d11-shader-interfaces">Shader Interfaces</a>

@@ -172,7 +172,7 @@ ID of the cache group to be enumerated. Set this parameter to zero to enumerate 
 ### -param lpFirstCacheEntryInfo [out]
 
 Pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/wininet/ns-wininet-internet_cache_entry_infoa">INTERNET_CACHE_ENTRY_INFO</a> structure to receive the cache entry information.
+<a href="/windows/desktop/api/wininet/ns-wininet-internet_cache_entry_infoa">INTERNET_CACHE_ENTRY_INFO</a> structure to receive the cache entry information.
 
 ### -param lpcbCacheEntryInfo [in, out]
 
@@ -194,17 +194,17 @@ This parameter is reserved and must be NULL.
 ## -returns
 
 Returns a valid handle if successful, or NULL otherwise. To get specific error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. If the function finds no matching files, 
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. If the function finds no matching files, 
 <b>GetLastError</b> returns ERROR_NO_MORE_FILES.
 
 ## -remarks
 
-The handle returned from <b>FindFirstUrlCacheEntryEx</b> is used in all subsequent calls to <a href="https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-findnexturlcacheentryexa">FindNextUrlCacheEntryEx</a>. At the end of the enumeration, the application should call 
-<a href="https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-findcloseurlcache">FindCloseUrlCache</a>.
+The handle returned from <b>FindFirstUrlCacheEntryEx</b> is used in all subsequent calls to <a href="/windows/desktop/api/wininet/nf-wininet-findnexturlcacheentryexa">FindNextUrlCacheEntryEx</a>. At the end of the enumeration, the application should call 
+<a href="/windows/desktop/api/wininet/nf-wininet-findcloseurlcache">FindCloseUrlCache</a>.
 
 Like all other aspects of the WinINet API, this function cannot be safely called from within DllMain or the constructors and destructors of global objects.
 
-<div class="alert"><b>Note</b>  WinINet does not support server implementations. In addition, it should not be used from a service.  For server implementations or services use <a href="https://docs.microsoft.com/windows/desktop/WinHttp/winhttp-start-page">Microsoft Windows HTTP Services (WinHTTP)</a>.</div>
+<div class="alert"><b>Note</b>  WinINet does not support server implementations. In addition, it should not be used from a service.  For server implementations or services use <a href="/windows/desktop/WinHttp/winhttp-start-page">Microsoft Windows HTTP Services (WinHTTP)</a>.</div>
 <div> </div>
 
 
@@ -215,9 +215,8 @@ Like all other aspects of the WinINet API, this function cannot be safely called
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/WinInet/caching">Caching</a>
+<a href="/windows/desktop/WinInet/caching">Caching</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WinInet/wininet-functions">WinINet Functions</a>
-
+<a href="/windows/desktop/WinInet/wininet-functions">WinINet Functions</a>

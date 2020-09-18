@@ -59,21 +59,21 @@ Retrieves  multiple completion port entries simultaneously. It waits for pending
     operations that are associated with the specified completion port to complete.
 
 To dequeue I/O completion packets one at a time, use the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-getqueuedcompletionstatus">GetQueuedCompletionStatus</a> function.
+    <a href="/windows/desktop/api/ioapiset/nf-ioapiset-getqueuedcompletionstatus">GetQueuedCompletionStatus</a> function.
 
 ## -parameters
 
 ### -param CompletionPort [in]
 
 A handle to the completion port. To create a completion port, use the 
-       <a href="https://docs.microsoft.com/windows/desktop/FileIO/createiocompletionport">CreateIoCompletionPort</a> function.
+       <a href="/windows/desktop/FileIO/createiocompletionport">CreateIoCompletionPort</a> function.
 
 ### -param lpCompletionPortEntries [out]
 
 On input, points to a pre-allocated array of 
-       <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped_entry">OVERLAPPED_ENTRY</a> structures.
+       <a href="/windows/desktop/api/minwinbase/ns-minwinbase-overlapped_entry">OVERLAPPED_ENTRY</a> structures.
 
-On output, receives an array of <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped_entry">OVERLAPPED_ENTRY</a> 
+On output, receives an array of <a href="/windows/desktop/api/minwinbase/ns-minwinbase-overlapped_entry">OVERLAPPED_ENTRY</a> 
        structures that hold the entries. The number of array elements is provided by 
        <i>ulNumEntriesRemoved</i>.
 
@@ -108,17 +108,17 @@ If the parameter is <b>TRUE</b> and there are no available entries, the function
        an alertable wait. The thread returns when the system queues an I/O completion routine or APC to the thread and 
        the thread executes the function.
 
-A completion routine is queued when the <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-readfileex">ReadFileEx</a> or 
-       <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-writefileex">WriteFileEx</a> function in which it was specified has 
+A completion routine is queued when the <a href="/windows/desktop/api/fileapi/nf-fileapi-readfileex">ReadFileEx</a> or 
+       <a href="/windows/desktop/api/fileapi/nf-fileapi-writefileex">WriteFileEx</a> function in which it was specified has 
        completed, and the calling thread is the thread that initiated the operation. An APC is queued when you call 
-       <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-queueuserapc">QueueUserAPC</a>.
+       <a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-queueuserapc">QueueUserAPC</a>.
 
 ## -returns
 
 Returns nonzero (<b>TRUE</b>) if successful or zero (<b>FALSE</b>) otherwise.
 
 To get extended error information, call 
-       <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+       <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
@@ -130,17 +130,17 @@ This function returns <b>TRUE</b> when at least one pending I/O is completed, bu
      list of returned entries in the <i>lpCompletionPortEntries</i> parameter to determine which of 
      them correspond to any possible failed I/O operations by looking at the status contained in the 
      <b>lpOverlapped</b> member in each 
-     <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped_entry">OVERLAPPED_ENTRY</a>.
+     <a href="/windows/desktop/api/minwinbase/ns-minwinbase-overlapped_entry">OVERLAPPED_ENTRY</a>.
 
 This function returns <b>FALSE</b> when no I/O operation was dequeued. This typically means 
      that an error occurred while processing the parameters to this call, or that the 
      <i>CompletionPort</i> handle was closed or is otherwise invalid. The 
-     <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function provides extended error 
+     <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function provides extended error 
      information.
 
-If a call to <a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-getqueuedcompletionstatus">GetQueuedCompletionStatusEx</a> 
+If a call to <a href="/windows/desktop/api/ioapiset/nf-ioapiset-getqueuedcompletionstatus">GetQueuedCompletionStatusEx</a> 
      fails because the handle associated with it is closed, the function returns <b>FALSE</b> and 
-     <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> will return 
+     <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> will return 
      <b>ERROR_ABANDONED_WAIT_0</b>.
 
 Server applications may have several threads calling the 
@@ -150,7 +150,7 @@ Server applications may have several threads calling the
      thread only.
 
 For more information on I/O completion port theory, usage, and associated functions, see 
-     <a href="https://docs.microsoft.com/windows/desktop/FileIO/i-o-completion-ports">I/O Completion Ports</a>.
+     <a href="/windows/desktop/FileIO/i-o-completion-ports">I/O Completion Ports</a>.
 
 In Windows 8 and Windows Server 2012, this function is supported by the following technologies.
 
@@ -213,19 +213,19 @@ Yes
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/namedpipeapi/nf-namedpipeapi-connectnamedpipe">ConnectNamedPipe</a>
+<a href="/windows/desktop/api/namedpipeapi/nf-namedpipeapi-connectnamedpipe">ConnectNamedPipe</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/createiocompletionport">CreateIoCompletionPort</a>
+<a href="/windows/desktop/FileIO/createiocompletionport">CreateIoCompletionPort</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a>
+<a href="/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/file-management-functions">File Management Functions</a>
+<a href="/windows/desktop/FileIO/file-management-functions">File Management Functions</a>
 
 
 
@@ -233,15 +233,15 @@ Yes
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/getqueuedcompletionstatusex-func">GetQueuedCompletionStatusEx</a>
+<a href="/windows/desktop/FileIO/getqueuedcompletionstatusex-func">GetQueuedCompletionStatusEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/i-o-completion-ports">I/O Completion Ports</a>
+<a href="/windows/desktop/FileIO/i-o-completion-ports">I/O Completion Ports</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-lockfileex">LockFileEx</a>
+<a href="/windows/desktop/api/fileapi/nf-fileapi-lockfileex">LockFileEx</a>
 
 
 
@@ -249,25 +249,24 @@ Yes
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/postqueuedcompletionstatus">PostQueuedCompletionStatus</a>
+<a href="/windows/desktop/FileIO/postqueuedcompletionstatus">PostQueuedCompletionStatus</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-readfile">ReadFile</a>
+<a href="/windows/desktop/api/fileapi/nf-fileapi-readfile">ReadFile</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/namedpipeapi/nf-namedpipeapi-transactnamedpipe">TransactNamedPipe</a>
+<a href="/windows/desktop/api/namedpipeapi/nf-namedpipeapi-transactnamedpipe">TransactNamedPipe</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WinProg/using-the-windows-headers">Using the Windows Headers</a>
+<a href="/windows/desktop/WinProg/using-the-windows-headers">Using the Windows Headers</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-waitcommevent">WaitCommEvent</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-waitcommevent">WaitCommEvent</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-writefile">WriteFile</a>
-
+<a href="/windows/desktop/api/fileapi/nf-fileapi-writefile">WriteFile</a>

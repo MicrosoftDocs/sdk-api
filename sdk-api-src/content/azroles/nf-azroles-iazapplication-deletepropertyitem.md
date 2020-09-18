@@ -70,7 +70,7 @@ Property ID of the  list of principals from which to remove the principal specif
 </dl>
 </td>
 <td width="60%">
-Can also be removed using the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazapplication-deletepolicyadministrator">DeletePolicyAdministrator</a> method
+Can also be removed using the <a href="/windows/desktop/api/azroles/nf-azroles-iazapplication-deletepolicyadministrator">DeletePolicyAdministrator</a> method
 
 </td>
 </tr>
@@ -80,7 +80,7 @@ Can also be removed using the <a href="https://docs.microsoft.com/windows/deskto
 </dl>
 </td>
 <td width="60%">
-Can also be removed using the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazapplication-deletepolicyadministratorname">DeletePolicyAdministratorName</a> method
+Can also be removed using the <a href="/windows/desktop/api/azroles/nf-azroles-iazapplication-deletepolicyadministratorname">DeletePolicyAdministratorName</a> method
 
 </td>
 </tr>
@@ -90,7 +90,7 @@ Can also be removed using the <a href="https://docs.microsoft.com/windows/deskto
 </dl>
 </td>
 <td width="60%">
-Can also be removed using the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazapplication-deletepolicyreader">DeletePolicyReader</a> method
+Can also be removed using the <a href="/windows/desktop/api/azroles/nf-azroles-iazapplication-deletepolicyreader">DeletePolicyReader</a> method
 
 </td>
 </tr>
@@ -100,7 +100,7 @@ Can also be removed using the <a href="https://docs.microsoft.com/windows/deskto
 </dl>
 </td>
 <td width="60%">
-Can also be removed using the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazapplication-deletepolicyreadername">DeletePolicyReaderName</a> method
+Can also be removed using the <a href="/windows/desktop/api/azroles/nf-azroles-iazapplication-deletepolicyreadername">DeletePolicyReaderName</a> method
 
 </td>
 </tr>
@@ -110,7 +110,7 @@ Can also be removed using the <a href="https://docs.microsoft.com/windows/deskto
 </dl>
 </td>
 <td width="60%">
-Can also be removed using the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazapplication-deletedelegatedpolicyuser">DeleteDelegatedPolicyUser</a> method
+Can also be removed using the <a href="/windows/desktop/api/azroles/nf-azroles-iazapplication-deletedelegatedpolicyuser">DeleteDelegatedPolicyUser</a> method
 
 </td>
 </tr>
@@ -120,7 +120,7 @@ Can also be removed using the <a href="https://docs.microsoft.com/windows/deskto
 </dl>
 </td>
 <td width="60%">
-Can also be removed using the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazapplication-deletedelegatedpolicyusername">DeleteDelegatedPolicyUserName</a> method
+Can also be removed using the <a href="/windows/desktop/api/azroles/nf-azroles-iazapplication-deletedelegatedpolicyusername">DeleteDelegatedPolicyUserName</a> method
 
 </td>
 </tr>
@@ -132,7 +132,7 @@ Principal to remove from the list of principals specified by the <i>lPropId</i> 
 
 The variant must be a <b>BSTR</b> variant.
 
-If AZ_PROP_POLICY_ADMINS, AZ_PROP_POLICY_READERS, or AZ_PROP_DELEGATED_POLICY_USERS is specified for the <i>lPropId</i> parameter, the string is the text form  of the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security identifier</a> (SID) of the  Windows account to remove from the list. If AZ_PROP_POLICY_ADMINS_NAME, AZ_PROP_POLICY_READERS_NAME, or AZ_PROP_DELEGATED_POLICY_USERS_NAME is specified for the <i>lPropId</i> parameter, the string is the account name of the account to remove from the list. The account name can be in either user principal name (UPN) format (for example,  "someone@example.com") or in the format  of "ExampleDomain\UserName".
+If AZ_PROP_POLICY_ADMINS, AZ_PROP_POLICY_READERS, or AZ_PROP_DELEGATED_POLICY_USERS is specified for the <i>lPropId</i> parameter, the string is the text form  of the <a href="/windows/desktop/SecGloss/s-gly">security identifier</a> (SID) of the  Windows account to remove from the list. If AZ_PROP_POLICY_ADMINS_NAME, AZ_PROP_POLICY_READERS_NAME, or AZ_PROP_DELEGATED_POLICY_USERS_NAME is specified for the <i>lPropId</i> parameter, the string is the account name of the account to remove from the list. The account name can be in either user principal name (UPN) format (for example,  "someone@example.com") or in the format  of "ExampleDomain\UserName".
 
 ### -param varReserved [in, optional]
 
@@ -146,5 +146,4 @@ Any other <b>HRESULT</b> value indicates that the operation failed.
 
 ## -remarks
 
-You must call the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazapplication-submit">Submit</a> method to persist any changes made by this method.
-
+You must call the <a href="/windows/desktop/api/azroles/nf-azroles-iazapplication-submit">Submit</a> method to persist any changes made by this method.

@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Sets the minimum width of items in a tab control. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/tcm-setmintabwidth">TCM_SETMINTABWIDTH</a> message explicitly.
+Sets the minimum width of items in a tab control. You can use this macro or send the <a href="/windows/desktop/Controls/tcm-setmintabwidth">TCM_SETMINTABWIDTH</a> message explicitly.
 
 ## -parameters
 
 ### -param hwnd
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 Handle to the tab control.
 
@@ -65,4 +65,3 @@ Handle to the tab control.
 Type: <b>int</b>
 
 Minimum width to be set for a tab control item. If this parameter is set to -1, the control will use the default tab width.
-

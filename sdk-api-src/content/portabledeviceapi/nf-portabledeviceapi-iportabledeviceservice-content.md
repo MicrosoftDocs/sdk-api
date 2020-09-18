@@ -56,7 +56,7 @@ The <b>Content</b> method retrieves access to the service content.
 
 ### -param ppContent [out]
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nn-portabledeviceapi-iportabledevicecontent2">IPortableDeviceContent2</a> interface that accesses the service content.
+The <a href="/windows/desktop/api/portabledeviceapi/nn-portabledeviceapi-iportabledevicecontent2">IPortableDeviceContent2</a> interface that accesses the service content.
 
 ## -returns
 
@@ -93,17 +93,16 @@ A <b>NULL</b> parameter was specified.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/wpd_sdk/enumerating-service-content">Enumerating Service Content</a>
+<a href="/windows/desktop/wpd_sdk/enumerating-service-content">Enumerating Service Content</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nn-portabledeviceapi-iportabledeviceservice">IPortableDeviceService Interface</a>
+<a href="/windows/desktop/api/portabledeviceapi/nn-portabledeviceapi-iportabledeviceservice">IPortableDeviceService Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/wpd_sdk/retrieving-content-object-properties">Retrieving Content-Object Properties</a>
+<a href="/windows/desktop/wpd_sdk/retrieving-content-object-properties">Retrieving Content-Object Properties</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/wpd_sdk/writing-content-object-properties">Writing Content-Object Properties</a>
-
+<a href="/windows/desktop/wpd_sdk/writing-content-object-properties">Writing Content-Object Properties</a>

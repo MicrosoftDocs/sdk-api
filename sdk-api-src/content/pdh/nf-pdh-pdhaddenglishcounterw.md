@@ -59,16 +59,16 @@ Adds the specified language-neutral counter to the query.
 ### -param hQuery [in]
 
 Handle to the query to which you want to add the counter. This handle is returned by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhopenquerya">PdhOpenQuery</a> function.
+<a href="/windows/desktop/api/pdh/nf-pdh-pdhopenquerya">PdhOpenQuery</a> function.
 
 ### -param szFullCounterPath [in]
 
 Null-terminated string that contains the counter path. For details on the format of a counter path, see 
-<a href="https://docs.microsoft.com/windows/desktop/PerfCtrs/specifying-a-counter-path">Specifying a Counter Path</a>. The maximum length of a counter path is PDH_MAX_COUNTER_PATH.
+<a href="/windows/desktop/PerfCtrs/specifying-a-counter-path">Specifying a Counter Path</a>. The maximum length of a counter path is PDH_MAX_COUNTER_PATH.
 
 ### -param dwUserData [in]
 
-User-defined value. This value becomes part of the counter information. To retrieve this value later, call the <a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhgetcounterinfoa">PdhGetCounterInfo</a> function and access the <b>dwQueryUserData</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/pdh/ns-pdh-pdh_counter_info_a">PDH_COUNTER_INFO</a> structure.
+User-defined value. This value becomes part of the counter information. To retrieve this value later, call the <a href="/windows/desktop/api/pdh/nf-pdh-pdhgetcounterinfoa">PdhGetCounterInfo</a> function and access the <b>dwQueryUserData</b> member of the <a href="/windows/desktop/api/pdh/ns-pdh-pdh_counter_info_a">PDH_COUNTER_INFO</a> structure.
 
 ### -param phCounter [out]
 
@@ -80,8 +80,8 @@ Return ERROR_SUCCESS if the function succeeds.
 						
 
 If the function fails, the return value is a 
-<a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a> or a 
-<a href="https://docs.microsoft.com/windows/desktop/PerfCtrs/pdh-error-codes">PDH error code</a>. The following are possible values.
+<a href="/windows/desktop/Debug/system-error-codes">system error code</a> or a 
+<a href="/windows/desktop/PerfCtrs/pdh-error-codes">PDH error code</a>. The following are possible values.
 
 <table>
 <tr>
@@ -191,21 +191,21 @@ Unable to allocate memory required to complete the function.
 
 ## -remarks
 
-This function provides a language-neutral way to add performance counters to the query. In contrast, the counter path that you specify in the <a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhaddcountera">PdhAddCounter</a> function must be localized. 
+This function provides a language-neutral way to add performance counters to the query. In contrast, the counter path that you specify in the <a href="/windows/desktop/api/pdh/nf-pdh-pdhaddcountera">PdhAddCounter</a> function must be localized. 
 
 If a counter instance is specified that does not yet exist, 
 <b>PdhAddEnglishCounter</b> does not report an error condition. Instead, it returns ERROR_SUCCESS. The reason for this behavior is that it is not known whether a nonexistent counter instance has been specified or whether one will exist but has not yet been created.
 
 To remove the counter from the query, use the 
-<a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhremovecounter">PdhRemoveCounter</a> function.
+<a href="/windows/desktop/api/pdh/nf-pdh-pdhremovecounter">PdhRemoveCounter</a> function.
 
 <div class="alert"><b>Note</b>  If the counter path contains a wildcard character, the non-wildcard portions of the path will be localized, but wildcards will not be expanded before adding the localized counter path to the query. In this case, you will need use the following procedure to add all matching counter names to the query.  <ol>
 <li>Make a query</li>
 <li>Use <b>PdhAddEnglishCounter</b> with the string containing wildcards</li>
-<li>Use <a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhgetcounterinfoa">PdhGetCounterInfo</a> on the counter handle returned by  <b>PdhAddEnglishCounter</b> to get a localized full path (<i>szFullPath</i>.) This string still contains wildcards, but the non-wildcard parts are now localized.
+<li>Use <a href="/windows/desktop/api/pdh/nf-pdh-pdhgetcounterinfoa">PdhGetCounterInfo</a> on the counter handle returned by  <b>PdhAddEnglishCounter</b> to get a localized full path (<i>szFullPath</i>.) This string still contains wildcards, but the non-wildcard parts are now localized.
 </li>
-<li>Use <a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhexpandwildcardpatha">PdhExpandWildCardPath</a> to expand the wildcards.</li>
-<li>Use <a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhaddcountera">PdhAddCounter</a> on each of the resulting paths
+<li>Use <a href="/windows/desktop/api/pdh/nf-pdh-pdhexpandwildcardpatha">PdhExpandWildCardPath</a> to expand the wildcards.</li>
+<li>Use <a href="/windows/desktop/api/pdh/nf-pdh-pdhaddcountera">PdhAddCounter</a> on each of the resulting paths
 </li>
 </ol>
 </div>
@@ -219,21 +219,20 @@ To remove the counter from the query, use the
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhaddcountera">PdhAddCounter</a>
+<a href="/windows/desktop/api/pdh/nf-pdh-pdhaddcountera">PdhAddCounter</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhbrowsecountersa">PdhBrowseCounters</a>
+<a href="/windows/desktop/api/pdh/nf-pdh-pdhbrowsecountersa">PdhBrowseCounters</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhmakecounterpatha">PdhMakeCounterPath</a>
+<a href="/windows/desktop/api/pdh/nf-pdh-pdhmakecounterpatha">PdhMakeCounterPath</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhopenquerya">PdhOpenQuery</a>
+<a href="/windows/desktop/api/pdh/nf-pdh-pdhopenquerya">PdhOpenQuery</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhremovecounter">PdhRemoveCounter</a>
-
+<a href="/windows/desktop/api/pdh/nf-pdh-pdhremovecounter">PdhRemoveCounter</a>

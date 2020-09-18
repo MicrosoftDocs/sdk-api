@@ -65,12 +65,12 @@ The operating system handle value.
 ### -field TypeNameRva
 
 An RVA to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ns-minidumpapiset-minidump_string">MINIDUMP_STRING</a> structure that specifies the object type of the handle. This member can be zero.
+<a href="/windows/desktop/api/minidumpapiset/ns-minidumpapiset-minidump_string">MINIDUMP_STRING</a> structure that specifies the object type of the handle. This member can be zero.
 
 ### -field ObjectNameRva
 
 An RVA to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ns-minidumpapiset-minidump_string">MINIDUMP_STRING</a> structure that specifies the object name of the handle. This member can be 0.
+<a href="/windows/desktop/api/minidumpapiset/ns-minidumpapiset-minidump_string">MINIDUMP_STRING</a> structure that specifies the object name of the handle. This member can be 0.
 
 ### -field Attributes
 
@@ -112,5 +112,4 @@ The first descriptor in the handle data stream follows the header,
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ns-minidumpapiset-minidump_string">MINIDUMP_STRING</a>
-
+<a href="/windows/desktop/api/minidumpapiset/ns-minidumpapiset-minidump_string">MINIDUMP_STRING</a>

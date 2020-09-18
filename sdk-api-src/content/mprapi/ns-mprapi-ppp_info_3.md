@@ -60,45 +60,44 @@ The
 ### -field nbf
 
 A 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-ppp_nbfcp_info">PPP_NBFCP_INFO</a> structure that contains PPP NetBEUI Framer (NBF) projection information.
+<a href="/windows/desktop/api/mprapi/ns-mprapi-ppp_nbfcp_info">PPP_NBFCP_INFO</a> structure that contains PPP NetBEUI Framer (NBF) projection information.
 
 ### -field ip
 
 A 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-ppp_ipcp_info2">PPP_IPCP_INFO2</a> structure that contains PPP Internet Protocol (IP) projection information.
+<a href="/windows/desktop/api/mprapi/ns-mprapi-ppp_ipcp_info2">PPP_IPCP_INFO2</a> structure that contains PPP Internet Protocol (IP) projection information.
 
 ### -field ipv6
 
 A 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-ppp_ipv6_cp_info">PPP_IPV6_CP_INFO</a> structure that contains IPv6 control protocol projection information.
+<a href="/windows/desktop/api/mprapi/ns-mprapi-ppp_ipv6_cp_info">PPP_IPV6_CP_INFO</a> structure that contains IPv6 control protocol projection information.
 
 ### -field ccp
 
 A 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-ppp_ccp_info">PPP_CCP_INFO</a> structure that contains Compression Control Protocol (CCP) projection information.
+<a href="/windows/desktop/api/mprapi/ns-mprapi-ppp_ccp_info">PPP_CCP_INFO</a> structure that contains Compression Control Protocol (CCP) projection information.
 
 ### -field lcp
 
 A 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-ppp_lcp_info">PPP_LCP_INFO</a> structure that contains PPP Link Control Protocol (LCP) projection information.
+<a href="/windows/desktop/api/mprapi/ns-mprapi-ppp_lcp_info">PPP_LCP_INFO</a> structure that contains PPP Link Control Protocol (LCP) projection information.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-ppp_info">PPP_INFO</a>
+<a href="/windows/desktop/api/mprapi/ns-mprapi-ppp_info">PPP_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-ppp_info_2">PPP_INFO_2</a>
+<a href="/windows/desktop/api/mprapi/ns-mprapi-ppp_info_2">PPP_INFO_2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/ras-administration-structures">RAS Administration Structures</a>
+<a href="/windows/desktop/RRAS/ras-administration-structures">RAS Administration Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-ras_connection_3">RAS_CONNECTION_3</a>
+<a href="/windows/desktop/api/mprapi/ns-mprapi-ras_connection_3">RAS_CONNECTION_3</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/remote-access-service-administration-reference">Remote Access Service Administration Reference</a>
-
+<a href="/windows/desktop/RRAS/remote-access-service-administration-reference">Remote Access Service Administration Reference</a>

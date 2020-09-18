@@ -63,41 +63,40 @@ It decommits and releases all the pages of a private heap object, and it invalid
 ### -param hHeap [in]
 
 A handle to the heap to be destroyed. This handle is returned by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/heapapi/nf-heapapi-heapcreate">HeapCreate</a> function. Do not use the handle to the process heap returned by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/heapapi/nf-heapapi-getprocessheap">GetProcessHeap</a> function.
+<a href="/windows/desktop/api/heapapi/nf-heapapi-heapcreate">HeapCreate</a> function. Do not use the handle to the process heap returned by the 
+<a href="/windows/desktop/api/heapapi/nf-heapapi-getprocessheap">GetProcessHeap</a> function.
 
 ## -returns
 
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
 Processes can call 
 <b>HeapDestroy</b> without first calling the 
-<a href="https://docs.microsoft.com/windows/desktop/api/heapapi/nf-heapapi-heapfree">HeapFree</a> function to free memory allocated from the heap.
+<a href="/windows/desktop/api/heapapi/nf-heapapi-heapfree">HeapFree</a> function to free memory allocated from the heap.
 
 
 #### Examples
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Memory/enumerating-a-heap">Enumerating a Heap</a>
+<a href="/windows/desktop/Memory/enumerating-a-heap">Enumerating a Heap</a>
 
 
 <div class="code"></div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Memory/heap-functions">Heap Functions</a>
+<a href="/windows/desktop/Memory/heap-functions">Heap Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/heapapi/nf-heapapi-heapcreate">HeapCreate</a>
+<a href="/windows/desktop/api/heapapi/nf-heapapi-heapcreate">HeapCreate</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Memory/memory-management-functions">Memory
+<a href="/windows/desktop/Memory/memory-management-functions">Memory
 		  Management Functions</a>
-

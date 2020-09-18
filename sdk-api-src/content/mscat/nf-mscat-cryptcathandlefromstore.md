@@ -58,9 +58,8 @@ The <b>CryptCATHandleFromStore</b> function retrieves a catalog handle from memo
 
 ### -param pCatStore [in]
 
-A pointer to a [CRYPTCATSTORE](https://docs.microsoft.com/windows/desktop/api/mscat/ns-mscat-cryptcatstore) structure that contains the handle to retrieve.
+A pointer to a [CRYPTCATSTORE](/windows/desktop/api/mscat/ns-mscat-cryptcatstore) structure that contains the handle to retrieve.
 
 ## -returns
 
 A handle to the catalog.
-

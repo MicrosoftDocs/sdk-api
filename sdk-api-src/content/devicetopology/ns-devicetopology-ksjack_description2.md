@@ -56,7 +56,7 @@ api_name:
 
 The <b>KSJACK_DESCRIPTION2</b> structure describes an audio jack.
 
-To get the description of an audio jack of a connector, call <a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nf-devicetopology-iksjackdescription2-getjackdescription2">IKsJackDescription2::GetJackDescription2</a>.
+To get the description of an audio jack of a connector, call <a href="/windows/desktop/api/devicetopology/nf-devicetopology-iksjackdescription2-getjackdescription2">IKsJackDescription2::GetJackDescription2</a>.
 
 ## -struct-fields
 
@@ -77,9 +77,8 @@ Stores the audio jack's capabilities: jack presence detection capability
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/CoreAudio/core-audio-structures">Core Audio Structures</a>
+<a href="/windows/desktop/CoreAudio/core-audio-structures">Core Audio Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nn-devicetopology-iksjackdescription2">IKsJackDescription2</a>
-
+<a href="/windows/desktop/api/devicetopology/nn-devicetopology-iksjackdescription2">IKsJackDescription2</a>

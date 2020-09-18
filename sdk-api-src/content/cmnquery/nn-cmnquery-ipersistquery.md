@@ -50,11 +50,11 @@ api_name:
 
 ## -description
 
-The <b>IPersistQuery</b> interface is used to store and retrieve query parameters to and from persistent storage.This storage pertains to the query parameters, not the results of a query. A pointer to this interface is provided to a query form extension in the <a href="https://docs.microsoft.com/windows/desktop/AD/cqpm-persist">CQPM_PERSIST</a> message. An application can also provide its own  <b>IPersistQuery</b> implementation by passing a pointer to this interface to the query handler in the <b>pPersistQuery</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/cmnquery/ns-cmnquery-openquerywindow">OPENQUERYWINDOW</a> structure when <a href="https://docs.microsoft.com/windows/desktop/api/cmnquery/nf-cmnquery-icommonquery-openquerywindow">ICommonQuery::OpenQueryWindow</a> is called.
+The <b>IPersistQuery</b> interface is used to store and retrieve query parameters to and from persistent storage.This storage pertains to the query parameters, not the results of a query. A pointer to this interface is provided to a query form extension in the <a href="/windows/desktop/AD/cqpm-persist">CQPM_PERSIST</a> message. An application can also provide its own  <b>IPersistQuery</b> implementation by passing a pointer to this interface to the query handler in the <b>pPersistQuery</b> member of the <a href="/windows/desktop/api/cmnquery/ns-cmnquery-openquerywindow">OPENQUERYWINDOW</a> structure when <a href="/windows/desktop/api/cmnquery/nf-cmnquery-icommonquery-openquerywindow">ICommonQuery::OpenQueryWindow</a> is called.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPersistQuery</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ipersist">IPersist</a>. <b>IPersistQuery</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPersistQuery</b> interface inherits from <a href="/windows/desktop/api/objidl/nn-objidl-ipersist">IPersist</a>. <b>IPersistQuery</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IPersistQuery</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/cmnquery/nf-cmnquery-ipersistquery-clear">Clear</a>
+<a href="/windows/desktop/api/cmnquery/nf-cmnquery-ipersistquery-clear">Clear</a>
 </td>
 <td align="left" width="63%">
 Empties the contents of the query store.
@@ -78,7 +78,7 @@ Empties the contents of the query store.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/cmnquery/nf-cmnquery-ipersistquery-readint">ReadInt</a>
+<a href="/windows/desktop/api/cmnquery/nf-cmnquery-ipersistquery-readint">ReadInt</a>
 </td>
 <td align="left" width="63%">
 Reads an integer value from the query  store.
@@ -87,7 +87,7 @@ Reads an integer value from the query  store.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/cmnquery/nf-cmnquery-ipersistquery-readstring">ReadString</a>
+<a href="/windows/desktop/api/cmnquery/nf-cmnquery-ipersistquery-readstring">ReadString</a>
 </td>
 <td align="left" width="63%">
 Reads a string from the query store.
@@ -96,7 +96,7 @@ Reads a string from the query store.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/cmnquery/nf-cmnquery-ipersistquery-readstruct">ReadStruct</a>
+<a href="/windows/desktop/api/cmnquery/nf-cmnquery-ipersistquery-readstruct">ReadStruct</a>
 </td>
 <td align="left" width="63%">
 Reads a structure from the query store.
@@ -105,7 +105,7 @@ Reads a structure from the query store.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/cmnquery/nf-cmnquery-ipersistquery-writeint">WriteInt</a>
+<a href="/windows/desktop/api/cmnquery/nf-cmnquery-ipersistquery-writeint">WriteInt</a>
 </td>
 <td align="left" width="63%">
 Writes an integer value to the query store.
@@ -114,7 +114,7 @@ Writes an integer value to the query store.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/cmnquery/nf-cmnquery-ipersistquery-writestring">WriteString</a>
+<a href="/windows/desktop/api/cmnquery/nf-cmnquery-ipersistquery-writestring">WriteString</a>
 </td>
 <td align="left" width="63%">
 Writes a string to the query store.
@@ -123,7 +123,7 @@ Writes a string to the query store.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/cmnquery/nf-cmnquery-ipersistquery-writestruct">WriteStruct</a>
+<a href="/windows/desktop/api/cmnquery/nf-cmnquery-ipersistquery-writestruct">WriteStruct</a>
 </td>
 <td align="left" width="63%">
 Writes a structure to the query store.
@@ -134,21 +134,20 @@ Writes a structure to the query store.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/AD/cqpm-persist">CQPM_PERSIST</a>
+<a href="/windows/desktop/AD/cqpm-persist">CQPM_PERSIST</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/AD/display-interfaces-in-active-directory-domain-services">Display Interfaces in Active Directory Domain Services</a>
+<a href="/windows/desktop/AD/display-interfaces-in-active-directory-domain-services">Display Interfaces in Active Directory Domain Services</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/cmnquery/nf-cmnquery-icommonquery-openquerywindow">ICommonQuery::OpenQueryWindow</a>
+<a href="/windows/desktop/api/cmnquery/nf-cmnquery-icommonquery-openquerywindow">ICommonQuery::OpenQueryWindow</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ipersist">IPersist</a>
+<a href="/windows/desktop/api/objidl/nn-objidl-ipersist">IPersist</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/cmnquery/ns-cmnquery-openquerywindow">OPENQUERYWINDOW</a>
-
+<a href="/windows/desktop/api/cmnquery/ns-cmnquery-openquerywindow">OPENQUERYWINDOW</a>

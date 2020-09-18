@@ -57,7 +57,7 @@ Establishes a callback to be invoked to write bytes within an element.  In some 
 
 ### -param writer [in]
 
-A pointer to the XML Writer object to which the bytes are written.  The pointer must reference a valid <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-xml-writer">WS_XML_WRITER</a> and   the referenced value may not be <b>NULL</b>.
+A pointer to the XML Writer object to which the bytes are written.  The pointer must reference a valid <a href="/windows/desktop/wsw/ws-xml-writer">WS_XML_WRITER</a> and   the referenced value may not be <b>NULL</b>.
 
 ### -param callback [in]
 
@@ -69,7 +69,7 @@ A pointer to a user-defined state that is  passed to the callback function.
 
 ### -param error [in, optional]
 
-A  pointer to a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-error">WS_ERROR</a> object where additional information about the error should be stored if the function fails.
+A  pointer to a <a href="/windows/desktop/wsw/ws-error">WS_ERROR</a> object where additional information about the error should be stored if the function fails.
 
 ## -returns
 
@@ -112,5 +112,4 @@ When writing with the <a href="/windows/win32/api/webservices/ns-webservices-ws_
       
 
 If the encoding cannot take advantage of this behavior, then <b>WsPushBytes</b> will invoke the
-        callback immediately and operate as if <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wswritebytes">WsWriteBytes</a> was called.
-
+        callback immediately and operate as if <a href="/windows/desktop/api/webservices/nf-webservices-wswritebytes">WsWriteBytes</a> was called.

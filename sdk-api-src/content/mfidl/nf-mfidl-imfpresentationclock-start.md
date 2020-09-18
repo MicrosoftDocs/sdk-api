@@ -57,7 +57,7 @@ Starts the presentation clock.
 
 ### -param llClockStartOffset [in]
 
-Initial starting time, in 100-nanosecond units. At the time the <b>Start</b> method is called, the clock's <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfpresentationclock-gettime">IMFPresentationClock::GetTime</a> method returns this value, and the clock time increments from there. If the value is PRESENTATION_CURRENT_POSITION, the clock starts from its current position. Use this value if the clock is paused and you want to restart it from the same position.
+Initial starting time, in 100-nanosecond units. At the time the <b>Start</b> method is called, the clock's <a href="/windows/desktop/api/mfidl/nf-mfidl-imfpresentationclock-gettime">IMFPresentationClock::GetTime</a> method returns this value, and the clock time increments from there. If the value is PRESENTATION_CURRENT_POSITION, the clock starts from its current position. Use this value if the clock is paused and you want to restart it from the same position.
 
 ## -returns
 
@@ -96,17 +96,16 @@ No time source was set on this clock.
 
 This method is valid in all states (stopped, paused, or running).
 
-If the clock is paused and restarted from the same position (<i>llClockStartOffset</i> is PRESENTATION_CURRENT_POSITION), the presentation clock sends an <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfclockstatesink-onclockrestart">IMFClockStateSink::OnClockRestart</a> notification. Otherwise, the clock sends an <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfclockstatesink-onclockstart">IMFClockStateSink::OnClockStart</a> notification.
+If the clock is paused and restarted from the same position (<i>llClockStartOffset</i> is PRESENTATION_CURRENT_POSITION), the presentation clock sends an <a href="/windows/desktop/api/mfidl/nf-mfidl-imfclockstatesink-onclockrestart">IMFClockStateSink::OnClockRestart</a> notification. Otherwise, the clock sends an <a href="/windows/desktop/api/mfidl/nf-mfidl-imfclockstatesink-onclockstart">IMFClockStateSink::OnClockStart</a> notification.
 
-The presentation clock initiates the state change by calling <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfclockstatesink-onclockstart">OnClockStart</a> or <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfclockstatesink-onclockrestart">OnClockRestart</a> on the clock's time source. This call is made synchronously. If it fails, the state change does not occur. If the call succeeds, the state changes, and the clock notifies the other state-change subscribers by calling their <b>OnClockStart</b> or <b>OnClockRestart</b> methods. These calls are made asynchronously.
+The presentation clock initiates the state change by calling <a href="/windows/desktop/api/mfidl/nf-mfidl-imfclockstatesink-onclockstart">OnClockStart</a> or <a href="/windows/desktop/api/mfidl/nf-mfidl-imfclockstatesink-onclockrestart">OnClockRestart</a> on the clock's time source. This call is made synchronously. If it fails, the state change does not occur. If the call succeeds, the state changes, and the clock notifies the other state-change subscribers by calling their <b>OnClockStart</b> or <b>OnClockRestart</b> methods. These calls are made asynchronously.
 
 If the clock is already running, calling <b>Start</b> again has the effect of seeking the clock to the new <i>StartOffset</i> position.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfpresentationclock">IMFPresentationClock</a>
+<a href="/windows/desktop/api/mfidl/nn-mfidl-imfpresentationclock">IMFPresentationClock</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/presentation-clock">Presentation Clock</a>
-
+<a href="/windows/desktop/medfound/presentation-clock">Presentation Clock</a>

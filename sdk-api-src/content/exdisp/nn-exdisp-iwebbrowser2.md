@@ -52,11 +52,10 @@ api_name:
 ## -description
 
 Exposes methods that are implemented by the WebBrowser control (Microsoft ActiveX control) or implemented by an instance of the InternetExplorer application (OLE Automation). For the Microsoft .NET Framework version of this control, see WebBrowser Control (Windows Forms). 
-<div class="alert"><b>Important</b>  <p class="note">The documentation in this section is a partial listing of IWebBrowswer2 interface members. The complete <a href="https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa752127(v=vs.85)">IWebBrowser2 interface</a> is documented in the <a href="https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/platform-apis/hh801968(v=vs.85)">MSHTML Reference</a> content. 
+<div class="alert"><b>Important</b>  <p class="note">The documentation in this section is a partial listing of IWebBrowswer2 interface members. The complete <a href="/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa752127(v=vs.85)">IWebBrowser2 interface</a> is documented in the <a href="/previous-versions/windows/internet-explorer/ie-developer/platform-apis/hh801968(v=vs.85)">MSHTML Reference</a> content. 
 
 </div><div> </div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
-
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>

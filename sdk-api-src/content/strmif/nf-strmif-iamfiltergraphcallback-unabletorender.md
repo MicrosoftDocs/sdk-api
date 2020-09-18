@@ -57,7 +57,7 @@ The <code>UnableToRender</code> method is called by the Filter Graph Manager if 
 
 ### -param pPin
 
-Specifies the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ipin">IPin</a> interface of the pin that could not be rendered.
+Specifies the <a href="/windows/desktop/api/strmif/nn-strmif-ipin">IPin</a> interface of the pin that could not be rendered.
 
 ## -returns
 
@@ -71,9 +71,8 @@ This method uses the thiscall calling convention, rather than __stdcall.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iamfiltergraphcallback">IAMFilterGraphCallback Interface</a>
+<a href="/windows/desktop/api/strmif/nn-strmif-iamfiltergraphcallback">IAMFilterGraphCallback Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/intelligent-connect">Intelligent Connect</a>
-
+<a href="/windows/desktop/DirectShow/intelligent-connect">Intelligent Connect</a>

@@ -55,7 +55,7 @@ api_name:
 ## -description
 
 Contains information about processor C-state policy settings. This structure is part of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-processor_power_policy">PROCESSOR_POWER_POLICY</a> structure.
+<a href="/windows/desktop/api/winnt/ns-winnt-processor_power_policy">PROCESSOR_POWER_POLICY</a> structure.
 
 ## -struct-fields
 
@@ -97,5 +97,4 @@ Reserved.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-processor_power_policy">PROCESSOR_POWER_POLICY</a>
-
+<a href="/windows/desktop/api/winnt/ns-winnt-processor_power_policy">PROCESSOR_POWER_POLICY</a>

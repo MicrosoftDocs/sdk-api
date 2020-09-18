@@ -51,13 +51,13 @@ api_name:
 
 ## -description
 
-Creates an enumerator of instances of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nn-cscobj-iofflinefilessetting">IOfflineFilesSetting</a>. This allows the caller to enumerate all of the available settings that affect the behavior of Offline Files.
+Creates an enumerator of instances of <a href="/previous-versions/windows/desktop/api/cscobj/nn-cscobj-iofflinefilessetting">IOfflineFilesSetting</a>. This allows the caller to enumerate all of the available settings that affect the behavior of Offline Files.
 
 ## -parameters
 
 ### -param ppEnum [out]
 
-On success, receives the address of an instance of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nn-cscobj-ienumofflinefilessettings">IEnumOfflineFilesSettings</a>.
+On success, receives the address of an instance of <a href="/previous-versions/windows/desktop/api/cscobj/nn-cscobj-ienumofflinefilessettings">IEnumOfflineFilesSettings</a>.
 
 ## -returns
 
@@ -65,9 +65,8 @@ Returns <b>S_OK</b> if successful, or an error value otherwise.
 
 ## -remarks
 
-A known setting may be retrieved by name using <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilescache-getsettingobject">IOfflineFilesCache::GetSettingObject</a>.
+A known setting may be retrieved by name using <a href="/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilescache-getsettingobject">IOfflineFilesCache::GetSettingObject</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nn-cscobj-iofflinefilescache">IOfflineFilesCache</a>
-
+<a href="/previous-versions/windows/desktop/api/cscobj/nn-cscobj-iofflinefilescache">IOfflineFilesCache</a>

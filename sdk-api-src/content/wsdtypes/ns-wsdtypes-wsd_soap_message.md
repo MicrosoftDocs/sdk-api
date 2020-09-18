@@ -52,13 +52,13 @@ api_name:
 
 ## -description
 
-The contents of a WSD SOAP message. This structure is used for <a href="https://docs.microsoft.com/windows/desktop/WsdApi/probe-message">Probe</a> messages, ProbeMatch messages, <a href="https://docs.microsoft.com/windows/desktop/WsdApi/resolve-message">Resolve</a>  messages, and ResolveMatch messages, among others.
+The contents of a WSD SOAP message. This structure is used for <a href="/windows/desktop/WsdApi/probe-message">Probe</a> messages, ProbeMatch messages, <a href="/windows/desktop/WsdApi/resolve-message">Resolve</a>  messages, and ResolveMatch messages, among others.
 
 ## -struct-fields
 
 ### -field Header
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-wsd_soap_header">WSD_SOAP_HEADER</a> structure that specifies the header of the SOAP message.
+A <a href="/windows/desktop/api/wsdtypes/ns-wsdtypes-wsd_soap_header">WSD_SOAP_HEADER</a> structure that specifies the header of the SOAP message.
 
 ### -field Body
 
@@ -66,9 +66,8 @@ The body of the SOAP message.
 
 ### -field BodyType
 
-Reference to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdxmldom/ns-wsdxmldom-wsdxml_type">WSDXML_TYPE</a> structure that specifies the type of the SOAP message body.
+Reference to a <a href="/windows/desktop/api/wsdxmldom/ns-wsdxmldom-wsdxml_type">WSDXML_TYPE</a> structure that specifies the type of the SOAP message body.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/WsdApi/discovery-and-metadata-exchange-message-patterns">Discovery and Metadata Exchange Messages</a>
-
+<a href="/windows/desktop/WsdApi/discovery-and-metadata-exchange-message-patterns">Discovery and Metadata Exchange Messages</a>

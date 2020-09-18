@@ -89,15 +89,15 @@ The <a href="/windows/win32/api/searchapi/ne-searchapi-rowsetevent_itemstate">RO
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nn-searchapi-irowsetevents">IRowsetEvents</a>
+<a href="/windows/desktop/api/searchapi/nn-searchapi-irowsetevents">IRowsetEvents</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nn-searchapi-irowsetprioritization">IRowsetPrioritization</a>
+<a href="/windows/desktop/api/searchapi/nn-searchapi-irowsetprioritization">IRowsetPrioritization</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/search/indexing-prioritization-and-rowset-events">Indexing Prioritization and Rowset Events in Windows 7</a>
+<a href="/windows/desktop/search/indexing-prioritization-and-rowset-events">Indexing Prioritization and Rowset Events in Windows 7</a>
 
 
 
@@ -121,5 +121,4 @@ The <a href="/windows/win32/api/searchapi/ne-searchapi-rowsetevent_itemstate">RO
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/search/-search-sql-rowset-properties">Rowset Properties</a>
-
+<a href="/windows/desktop/search/-search-sql-rowset-properties">Rowset Properties</a>

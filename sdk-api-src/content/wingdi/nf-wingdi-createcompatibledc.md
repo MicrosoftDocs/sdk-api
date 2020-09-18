@@ -70,13 +70,13 @@ If the function fails, the return value is <b>NULL</b>.
 
 ## -remarks
 
-A memory DC exists only in memory. When the memory DC is created, its display surface is exactly one monochrome pixel wide and one monochrome pixel high. Before an application can use a memory DC for drawing operations, it must select a bitmap of the correct width and height into the DC. To select a bitmap into a DC, use the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createcompatiblebitmap">CreateCompatibleBitmap</a> function, specifying the height, width, and color organization required.
+A memory DC exists only in memory. When the memory DC is created, its display surface is exactly one monochrome pixel wide and one monochrome pixel high. Before an application can use a memory DC for drawing operations, it must select a bitmap of the correct width and height into the DC. To select a bitmap into a DC, use the <a href="/windows/desktop/api/wingdi/nf-wingdi-createcompatiblebitmap">CreateCompatibleBitmap</a> function, specifying the height, width, and color organization required.
 
 When a memory DC is created, all attributes are set to normal default values. The memory DC can be used as a normal DC. You can set the attributes; obtain the current settings of its attributes; and select pens, brushes, and regions.
 
-The <b>CreateCompatibleDC</b> function can only be used with devices that support raster operations. An application can determine whether a device supports these operations by calling the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getdevicecaps">GetDeviceCaps</a> function.
+The <b>CreateCompatibleDC</b> function can only be used with devices that support raster operations. An application can determine whether a device supports these operations by calling the <a href="/windows/desktop/api/wingdi/nf-wingdi-getdevicecaps">GetDeviceCaps</a> function.
 
-When you no longer need the memory DC, call the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-deletedc">DeleteDC</a> function. We recommend that you call <b>DeleteDC</b> to delete the DC.  However, you can also call <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-deleteobject">DeleteObject</a> with the HDC to delete the DC.
+When you no longer need the memory DC, call the <a href="/windows/desktop/api/wingdi/nf-wingdi-deletedc">DeleteDC</a> function. We recommend that you call <b>DeleteDC</b> to delete the DC.  However, you can also call <a href="/windows/desktop/api/wingdi/nf-wingdi-deleteobject">DeleteObject</a> with the HDC to delete the DC.
 
 If <i>hdc</i> is <b>NULL</b>, the thread that calls <b>CreateCompatibleDC</b> owns the HDC that is created. When this thread is destroyed, the HDC is no longer valid. Thus, if you create the HDC and pass it to another thread, then exit the first thread, the second thread will not be able to use the HDC.
 
@@ -85,27 +85,26 @@ If <i>hdc</i> is <b>NULL</b>, the thread that calls <b>CreateCompatibleDC</b> ow
 
 #### Examples
 
-For an example, see <a href="https://docs.microsoft.com/windows/desktop/gdi/capturing-an-image">Capturing an Image</a>.
+For an example, see <a href="/windows/desktop/gdi/capturing-an-image">Capturing an Image</a>.
 
 <div class="code"></div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createcompatiblebitmap">CreateCompatibleBitmap</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-createcompatiblebitmap">CreateCompatibleBitmap</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-deletedc">DeleteDC</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-deletedc">DeleteDC</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/device-context-functions">Device Context Functions</a>
+<a href="/windows/desktop/gdi/device-context-functions">Device Context Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/device-contexts">Device Contexts Overview</a>
+<a href="/windows/desktop/gdi/device-contexts">Device Contexts Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getdevicecaps">GetDeviceCaps</a>
-
+<a href="/windows/desktop/api/wingdi/nf-wingdi-getdevicecaps">GetDeviceCaps</a>

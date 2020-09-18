@@ -50,11 +50,11 @@ api_name:
 
 ## -description
 
-Notifies the subscriber if a Microsoft Distributed Transaction Coordinator (DTC) transaction starts, commits, or aborts. The subscriber is also notified when the transaction is in the prepare phase of the two-phase commit protocol. The events are published to the subscriber using the <a href="https://docs.microsoft.com/windows/desktop/cossdk/com--events">COM+ Events</a> service, a loosely coupled events system that stores event information from different publishers in an event store in the COM+ catalog.
+Notifies the subscriber if a Microsoft Distributed Transaction Coordinator (DTC) transaction starts, commits, or aborts. The subscriber is also notified when the transaction is in the prepare phase of the two-phase commit protocol. The events are published to the subscriber using the <a href="/windows/desktop/cossdk/com--events">COM+ Events</a> service, a loosely coupled events system that stores event information from different publishers in an event store in the COM+ catalog.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IComTransaction2Events</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IComTransaction2Events</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IComTransaction2Events</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IComTransaction2Events</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IComTransaction2Events</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-icomtransaction2events-ontransactionabort2">OnTransactionAbort2</a>
+<a href="/windows/desktop/api/comsvcs/nf-comsvcs-icomtransaction2events-ontransactionabort2">OnTransactionAbort2</a>
 </td>
 <td align="left" width="63%">
 Generated when a transaction aborts.
@@ -78,7 +78,7 @@ Generated when a transaction aborts.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-icomtransaction2events-ontransactioncommit2">OnTransactionCommit2</a>
+<a href="/windows/desktop/api/comsvcs/nf-comsvcs-icomtransaction2events-ontransactioncommit2">OnTransactionCommit2</a>
 </td>
 <td align="left" width="63%">
 Generated when a transaction commits.
@@ -87,7 +87,7 @@ Generated when a transaction commits.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-icomtransaction2events-ontransactionprepare2">OnTransactionPrepare2</a>
+<a href="/windows/desktop/api/comsvcs/nf-comsvcs-icomtransaction2events-ontransactionprepare2">OnTransactionPrepare2</a>
 </td>
 <td align="left" width="63%">
 Generated when the transaction is in the prepare phase of the commit protocol.
@@ -96,7 +96,7 @@ Generated when the transaction is in the prepare phase of the commit protocol.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-icomtransaction2events-ontransactionstart2">OnTransactionStart2</a>
+<a href="/windows/desktop/api/comsvcs/nf-comsvcs-icomtransaction2events-ontransactionstart2">OnTransactionStart2</a>
 </td>
 <td align="left" width="63%">
 Generated when a Microsoft Distributed Transaction Coordinator (DTC) transaction starts.
@@ -107,13 +107,12 @@ Generated when a Microsoft Distributed Transaction Coordinator (DTC) transaction
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/cossdk/com--events">COM+ Events</a>
+<a href="/windows/desktop/cossdk/com--events">COM+ Events</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/cossdk/com--instrumentation-concepts">COM+ Instrumentation</a>
+<a href="/windows/desktop/cossdk/com--instrumentation-concepts">COM+ Instrumentation</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/cossdk/com--transactions">COM+ Transactions</a>
-
+<a href="/windows/desktop/cossdk/com--transactions">COM+ Transactions</a>

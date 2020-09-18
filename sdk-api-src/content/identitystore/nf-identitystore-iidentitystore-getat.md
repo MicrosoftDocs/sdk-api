@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>GetAt</b> method retrieves an <a href="https://docs.microsoft.com/windows/desktop/api/identityprovider/nn-identityprovider-iidentityprovider">IIdentityProvider</a> interface pointer for the specified identity provider.
+The <b>GetAt</b> method retrieves an <a href="/windows/desktop/api/identityprovider/nn-identityprovider-iidentityprovider">IIdentityProvider</a> interface pointer for the specified identity provider.
 
 ## -parameters
 
@@ -64,15 +64,14 @@ On output, this parameter receives a pointer to the GUID of the identity provide
 
 ### -param ppIdentityProvider [out]
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/identityprovider/nn-identityprovider-iidentityprovider">IIdentityProvider</a> interface pointer that this method retrieves.
+A pointer to the <a href="/windows/desktop/api/identityprovider/nn-identityprovider-iidentityprovider">IIdentityProvider</a> interface pointer that this method retrieves.
 
 ## -returns
 
  If the method succeeds, it returns <b>S_OK</b>.
 
-If the method fails, it returns an error code. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
+If the method fails, it returns an error code. For a list of common error codes, see <a href="/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/identitystore/nn-identitystore-iidentitystore">IIdentityStore</a>
-
+<a href="/windows/desktop/api/identitystore/nn-identitystore-iidentitystore">IIdentityStore</a>

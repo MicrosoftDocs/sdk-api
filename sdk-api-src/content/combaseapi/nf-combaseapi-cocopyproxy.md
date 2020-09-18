@@ -61,7 +61,7 @@ Makes a private copy of the specified proxy.
 
 ### -param pProxy [in]
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface on the proxy to be copied. This parameter cannot be <b>NULL</b>.
+A pointer to the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface on the proxy to be copied. This parameter cannot be <b>NULL</b>.
 
 ### -param ppCopy [out]
 
@@ -102,7 +102,7 @@ One or more arguments are invalid.
 
 ## -remarks
 
-<b>CoCopyProxy</b> makes a private copy of the specified proxy. Typically, this function is called when a client needs to change the authentication information of its proxy through a call to either <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cosetproxyblanket">CoSetProxyBlanket</a> or <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-iclientsecurity-setblanket">IClientSecurity::SetBlanket</a> without changing this information for other clients. <b>CoSetProxyBlanket</b> affects all the users of an instance of a proxy, so creating a private copy of the proxy through a call to <b>CoCopyProxy</b> and then calling <b>CoSetProxyBlanket</b> (or <b>IClientSecurity::SetBlanket</b>) using the copy eliminates the problem.
+<b>CoCopyProxy</b> makes a private copy of the specified proxy. Typically, this function is called when a client needs to change the authentication information of its proxy through a call to either <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cosetproxyblanket">CoSetProxyBlanket</a> or <a href="/windows/desktop/api/objidl/nf-objidl-iclientsecurity-setblanket">IClientSecurity::SetBlanket</a> without changing this information for other clients. <b>CoSetProxyBlanket</b> affects all the users of an instance of a proxy, so creating a private copy of the proxy through a call to <b>CoCopyProxy</b> and then calling <b>CoSetProxyBlanket</b> (or <b>IClientSecurity::SetBlanket</b>) using the copy eliminates the problem.
 
 This helper function encapsulates the following sequence of common calls (error handling excluded):
 
@@ -112,19 +112,18 @@ This helper function encapsulates the following sequence of common calls (error 
     pcs-&gt;CopyProxy(punkProxy, ppunkCopy);
     pcs-&gt;Release();
 </code></pre>
-Local interfaces may not be copied. <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> and <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-iclientsecurity">IClientSecurity</a> are examples of existing local interfaces.
+Local interfaces may not be copied. <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> and <a href="/windows/desktop/api/objidl/nn-objidl-iclientsecurity">IClientSecurity</a> are examples of existing local interfaces.
 
-Copies of the same proxy have a special relationship with respect to <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a>. Given a proxy, a, of the IA interface of a remote object, suppose a copy of a is created, called b. In this case, calling <b>QueryInterface</b> from the b proxy for IID_IA will not retrieve the IA interface on b, but the one on a, the original proxy with the "default" security settings for the IA interface.
+Copies of the same proxy have a special relationship with respect to <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a>. Given a proxy, a, of the IA interface of a remote object, suppose a copy of a is created, called b. In this case, calling <b>QueryInterface</b> from the b proxy for IID_IA will not retrieve the IA interface on b, but the one on a, the original proxy with the "default" security settings for the IA interface.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cosetproxyblanket">CoSetProxyBlanket</a>
+<a href="/windows/desktop/api/combaseapi/nf-combaseapi-cosetproxyblanket">CoSetProxyBlanket</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-iclientsecurity-setblanket">IClientSecurity::SetBlanket</a>
+<a href="/windows/desktop/api/objidl/nf-objidl-iclientsecurity-setblanket">IClientSecurity::SetBlanket</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/com/security-in-com">Security in COM</a>
-
+<a href="/windows/desktop/com/security-in-com">Security in COM</a>

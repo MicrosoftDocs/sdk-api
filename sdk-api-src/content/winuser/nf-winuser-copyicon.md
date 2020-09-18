@@ -68,13 +68,13 @@ Type: <b>HICON</b>
 
 If the function succeeds, the return value is a handle to the duplicate icon.
 
-If the function fails, the return value is <b>NULL</b>. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+If the function fails, the return value is <b>NULL</b>. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
 The <b>CopyIcon</b> function enables an application or DLL to get its own handle to an icon owned by another module. If the other module is freed, the application icon will still be able to use the icon. 
 
-Before closing, an application must call the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-destroyicon">DestroyIcon</a> function to free any system resources associated with the icon.
+Before closing, an application must call the <a href="/windows/desktop/api/winuser/nf-winuser-destroyicon">DestroyIcon</a> function to free any system resources associated with the icon.
 
 ## -see-also
 
@@ -82,25 +82,24 @@ Before closing, an application must call the <a href="https://docs.microsoft.com
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-copycursor">CopyCursor</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-copycursor">CopyCursor</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-destroyicon">DestroyIcon</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-destroyicon">DestroyIcon</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-drawicon">DrawIcon</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-drawicon">DrawIcon</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-drawiconex">DrawIconEx</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-drawiconex">DrawIconEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/menurc/icons">Icons</a>
+<a href="/windows/desktop/menurc/icons">Icons</a>
 
 
 
 <b>Reference</b>
-

@@ -59,7 +59,7 @@ Adds a read command to a batch that executes on a cluster registry key.
 
 ### -param hRegReadBatch [in]
 
-The handle of the read batch to which a command will be added. Create a batch by calling the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/nf-clusapi-clusterregcreatereadbatch">ClusterRegCreateReadBatch</a> function.
+The handle of the read batch to which a command will be added. Create a batch by calling the <a href="/previous-versions/windows/desktop/api/clusapi/nf-clusapi-clusterregcreatereadbatch">ClusterRegCreateReadBatch</a> function.
 
 ### -param wzSubkeyName [in, optional]
 
@@ -72,7 +72,7 @@ The name of the registry value to be read. If this name is <b>NULL</b>, the cont
 ## -returns
 
 The function returns one of the following 
-       <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error codes</a>.
+       <a href="/windows/desktop/Debug/system-error-codes">system error codes</a>.
 
 <table>
 <tr>
@@ -123,5 +123,4 @@ Additional calls to the <b>ClusterRegReadBatchAddCommand</b> function add additi
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/nf-clusapi-clusterregcreatereadbatch">ClusterRegCreateReadBatch</a>
-
+<a href="/previous-versions/windows/desktop/api/clusapi/nf-clusapi-clusterregcreatereadbatch">ClusterRegCreateReadBatch</a>

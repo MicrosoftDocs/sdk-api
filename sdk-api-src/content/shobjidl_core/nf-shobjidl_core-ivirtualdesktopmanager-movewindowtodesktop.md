@@ -60,7 +60,7 @@ The window to move.
 
 ### -param desktopId [in]
 
-The identifier of the virtual desktop to move the [GetWindowDesktopId](/windows/win32/api/shobjidl_core/nf-shobjidl_core-ivirtualdesktopmanager-getwindowdesktopid) to get a window's identifier.
+The identifier of the virtual desktop to move the [GetWindowDesktopId](./nf-shobjidl_core-ivirtualdesktopmanager-getwindowdesktopid.md) to get a window's identifier.
 
 ## -returns
 
@@ -68,5 +68,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-[IVirtualDesktopManager](/windows/win32/api/shobjidl_core/nn-shobjidl_core-ivirtualdesktopmanager)
-
+[IVirtualDesktopManager](./nn-shobjidl_core-ivirtualdesktopmanager.md)

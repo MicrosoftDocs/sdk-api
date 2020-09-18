@@ -50,17 +50,16 @@ api_name:
 
 ## -description
 
-<div class="alert"><b>Note</b>  The <a href="https://docs.microsoft.com/windows/desktop/api/d3d11sdklayers/nn-d3d11sdklayers-id3d11switchtoref">ID3D11SwitchToRef</a> interface and its methods are not supported in Direct3D 11.</div><div> </div>
+<div class="alert"><b>Note</b>  The <a href="/windows/desktop/api/d3d11sdklayers/nn-d3d11sdklayers-id3d11switchtoref">ID3D11SwitchToRef</a> interface and its methods are not supported in Direct3D 11.</div><div> </div>
 
 ## -parameters
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
 
 Reserved.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11sdklayers/nn-d3d11sdklayers-id3d11switchtoref">ID3D11SwitchToRef Interface</a>
-
+<a href="/windows/desktop/api/d3d11sdklayers/nn-d3d11sdklayers-id3d11switchtoref">ID3D11SwitchToRef Interface</a>

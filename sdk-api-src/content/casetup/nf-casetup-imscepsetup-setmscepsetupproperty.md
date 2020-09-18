@@ -64,5 +64,4 @@ A pointer to a  <b>VARIANT</b> that specifies the property value. The <b>VARIANT
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/casetup/nn-casetup-imscepsetup">IMSCEPSetup</a>
-
+<a href="/windows/desktop/api/casetup/nn-casetup-imscepsetup">IMSCEPSetup</a>

@@ -64,7 +64,7 @@ The following flag or 0.
 
 #### ITSSFLAG_KILL_ON_DESTROY
 
-Immediately cease execution of the current task when the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishelltaskscheduler">IShellTaskScheduler</a> instance is released.
+Immediately cease execution of the current task when the <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishelltaskscheduler">IShellTaskScheduler</a> instance is released.
 
 ### -param dwThreadTimeout [in]
 
@@ -77,4 +77,3 @@ Not used.
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-

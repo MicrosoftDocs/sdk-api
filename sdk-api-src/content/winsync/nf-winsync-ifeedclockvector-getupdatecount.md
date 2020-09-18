@@ -93,5 +93,4 @@ Invalid pointer.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-ifeedclockvector">IFeedClockVector Interface</a>
-
+<a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-ifeedclockvector">IFeedClockVector Interface</a>

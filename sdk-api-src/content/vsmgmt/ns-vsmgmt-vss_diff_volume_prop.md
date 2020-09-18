@@ -78,5 +78,4 @@ Total space, in bytes, on the shadow copy storage area volume.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vsmgmt/ns-vsmgmt-__midl___midl_itf_vsmgmt_0000_0000_0001">VSS_MGMT_OBJECT_UNION</a>
-
+<a href="/windows/desktop/api/vsmgmt/ns-vsmgmt-__midl___midl_itf_vsmgmt_0000_0000_0001">VSS_MGMT_OBJECT_UNION</a>

@@ -50,21 +50,20 @@ api_name:
 
 ## -description
 
-Clears all of the filters for a given header control. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/hdm-clearfilter">HDM_CLEARFILTER</a> message explicitly.
+Clears all of the filters for a given header control. You can use this macro or send the <a href="/windows/desktop/Controls/hdm-clearfilter">HDM_CLEARFILTER</a> message explicitly.
 
 ## -parameters
 
 ### -param hwnd
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the header control.
 
 ## -remarks
 
-When all the filters are cleared, the <a href="https://docs.microsoft.com/windows/desktop/Controls/hdn-filterchange">HDN_FILTERCHANGE</a> notification will be sent only once.
+When all the filters are cleared, the <a href="/windows/desktop/Controls/hdn-filterchange">HDN_FILTERCHANGE</a> notification will be sent only once.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-header_clearfilter">Header_ClearFilter</a>
-
+<a href="/windows/desktop/api/commctrl/nf-commctrl-header_clearfilter">Header_ClearFilter</a>

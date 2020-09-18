@@ -51,19 +51,19 @@ api_name:
 
 ## -description
 
-Creates a new <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)">InkStrokes</a> collection from existing <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkstrokedisp">IInkStrokeDisp</a> objects.
+Creates a new <a href="/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)">InkStrokes</a> collection from existing <a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinkstrokedisp">IInkStrokeDisp</a> objects.
 
 ## -parameters
 
 ### -param StrokeIds [in, optional]
 
-Optional. Specifies an array of stroke IDs that exist in the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkdisp-class">InkDisp</a> object. The strokes with these IDs are added to a new <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)">InkStrokes</a> collection. The default value is <b>NULL</b>.
+Optional. Specifies an array of stroke IDs that exist in the <a href="/windows/desktop/tablet/inkdisp-class">InkDisp</a> object. The strokes with these IDs are added to a new <a href="/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)">InkStrokes</a> collection. The default value is <b>NULL</b>.
 
-For more information about the VARIANT structure, see <a href="https://docs.microsoft.com/windows/desktop/tablet/using-the-com-library">Using the COM Library</a>.
+For more information about the VARIANT structure, see <a href="/windows/desktop/tablet/using-the-com-library">Using the COM Library</a>.
 
 ### -param Strokes [out, retval]
 
-When this method returns, contains a pointer to a new <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)">InkStrokes</a> collection.
+When this method returns, contains a pointer to a new <a href="/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)">InkStrokes</a> collection.
 
 ## -returns
 
@@ -144,7 +144,7 @@ Stroke IDs that do not exist were passed to the method.
 
 ## -remarks
 
-If the <i>ids</i> parameter is <b>NULL</b> or an empty array, then an empty <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)">InkStrokes</a> collection is created.
+If the <i>ids</i> parameter is <b>NULL</b> or an empty array, then an empty <a href="/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)">InkStrokes</a> collection is created.
 
 ## -see-also
 
@@ -152,9 +152,8 @@ If the <i>ids</i> parameter is <b>NULL</b> or an empty array, then an empty <a h
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/tablet/inkdisp-class">InkDisp Class</a>
+<a href="/windows/desktop/tablet/inkdisp-class">InkDisp Class</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)">InkStrokes Collection</a>
-
+<a href="/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)">InkStrokes Collection</a>

@@ -62,13 +62,13 @@ This interface should be used by those  developing support for new media types o
 <li>Finishing the write by stopping the formatting or closing the session or track.</li>
 </ol>When developing support for new media types, you can implement steps 1, 2, 3, and 5, and use this interface to perform step 4. Note that all the IDiscFormat2* interfaces use this interface to perform the write operation.
 
-Most client applications should use the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-idiscformat2data">IDiscFormat2Data</a> interface to write images to a device.
+Most client applications should use the <a href="/windows/desktop/api/imapi2/nn-imapi2-idiscformat2data">IDiscFormat2Data</a> interface to write images to a device.
 
 To create an instance of this interface, call the <b>CoCreateInstance</b> function. Use__uuidof(MsftWriteEngine2) for the class identifier and __uuidof(IWriteEngine2) for the interface identifier.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWriteEngine2</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IWriteEngine2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWriteEngine2</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IWriteEngine2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -83,7 +83,7 @@ The <b>IWriteEngine2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-iwriteengine2-cancelwrite">CancelWrite</a>
+<a href="/windows/desktop/api/imapi2/nf-imapi2-iwriteengine2-cancelwrite">CancelWrite</a>
 </td>
 <td align="left" width="63%">
 Cancels a write operation that is in progress.
@@ -92,7 +92,7 @@ Cancels a write operation that is in progress.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-iwriteengine2-get_bytespersector">get_BytesPerSector</a>
+<a href="/windows/desktop/api/imapi2/nf-imapi2-iwriteengine2-get_bytespersector">get_BytesPerSector</a>
 </td>
 <td align="left" width="63%">
 Retrieves the logical block size of the media.
@@ -101,7 +101,7 @@ Retrieves the logical block size of the media.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-iwriteengine2-get_endingsectorspersecond">get_EndingSectorsPerSecond</a>
+<a href="/windows/desktop/api/imapi2/nf-imapi2-iwriteengine2-get_endingsectorspersecond">get_EndingSectorsPerSecond</a>
 </td>
 <td align="left" width="63%">
 Retrieves the estimated speed at the end of the writing process.
@@ -110,7 +110,7 @@ Retrieves the estimated speed at the end of the writing process.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-iwriteengine2-get_recorder">get_Recorder</a>
+<a href="/windows/desktop/api/imapi2/nf-imapi2-iwriteengine2-get_recorder">get_Recorder</a>
 </td>
 <td align="left" width="63%">
 Retrieves the recording device to use in the write operation.
@@ -119,7 +119,7 @@ Retrieves the recording device to use in the write operation.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-iwriteengine2-get_startingsectorspersecond">get_StartingSectorsPerSecond</a>
+<a href="/windows/desktop/api/imapi2/nf-imapi2-iwriteengine2-get_startingsectorspersecond">get_StartingSectorsPerSecond</a>
 </td>
 <td align="left" width="63%">
 Retrieves the estimated speed that the recording device can write to the media at the start of the writing process.
@@ -128,7 +128,7 @@ Retrieves the estimated speed that the recording device can write to the media a
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-iwriteengine2-get_usestreamingwrite12">get_UseStreamingWrite12</a>
+<a href="/windows/desktop/api/imapi2/nf-imapi2-iwriteengine2-get_usestreamingwrite12">get_UseStreamingWrite12</a>
 </td>
 <td align="left" width="63%">
 Retrieves a value that indicates if the write operations use the WRITE12 or WRITE10 command.
@@ -137,7 +137,7 @@ Retrieves a value that indicates if the write operations use the WRITE12 or WRIT
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-iwriteengine2-get_writeinprogress">get_WriteInProgress</a>
+<a href="/windows/desktop/api/imapi2/nf-imapi2-iwriteengine2-get_writeinprogress">get_WriteInProgress</a>
 </td>
 <td align="left" width="63%">
 Retrieves a value that indicates whether the recorder is currently writing data to the disc.
@@ -146,7 +146,7 @@ Retrieves a value that indicates whether the recorder is currently writing data 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-iwriteengine2-put_bytespersector">put_BytesPerSector</a>
+<a href="/windows/desktop/api/imapi2/nf-imapi2-iwriteengine2-put_bytespersector">put_BytesPerSector</a>
 </td>
 <td align="left" width="63%">
 Sets the logical block size of the media.
@@ -155,7 +155,7 @@ Sets the logical block size of the media.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-iwriteengine2-put_endingsectorspersecond">put_EndingSectorsPerSecond</a>
+<a href="/windows/desktop/api/imapi2/nf-imapi2-iwriteengine2-put_endingsectorspersecond">put_EndingSectorsPerSecond</a>
 </td>
 <td align="left" width="63%">
 Sets the estimated speed at the end of the writing process.
@@ -164,7 +164,7 @@ Sets the estimated speed at the end of the writing process.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-iwriteengine2-put_recorder">put_Recorder</a>
+<a href="/windows/desktop/api/imapi2/nf-imapi2-iwriteengine2-put_recorder">put_Recorder</a>
 </td>
 <td align="left" width="63%">
 Sets a recording device for the write operation.
@@ -173,7 +173,7 @@ Sets a recording device for the write operation.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-iwriteengine2-put_startingsectorspersecond">put_StartingSectorsPerSecond</a>
+<a href="/windows/desktop/api/imapi2/nf-imapi2-iwriteengine2-put_startingsectorspersecond">put_StartingSectorsPerSecond</a>
 </td>
 <td align="left" width="63%">
 Sets the estimated speed that the recording device can write to the media at the start of the writing process.
@@ -182,7 +182,7 @@ Sets the estimated speed that the recording device can write to the media at the
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-iwriteengine2-put_usestreamingwrite12">put_UseStreamingWrite12</a>
+<a href="/windows/desktop/api/imapi2/nf-imapi2-iwriteengine2-put_usestreamingwrite12">put_UseStreamingWrite12</a>
 </td>
 <td align="left" width="63%">
 Sets a value that indicates if the write operations use the WRITE12 or WRITE10 command.
@@ -191,7 +191,7 @@ Sets a value that indicates if the write operations use the WRITE12 or WRITE10 c
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-iwriteengine2-writesection">WriteSection</a>
+<a href="/windows/desktop/api/imapi2/nf-imapi2-iwriteengine2-writesection">WriteSection</a>
 </td>
 <td align="left" width="63%">
 Writes a data stream to the current recorder.
@@ -204,33 +204,32 @@ Writes a data stream to the current recorder.
 
 To create the <b>MsftWriteEngine2</b> object in a script, use IMAPI2.MsftWriteEngine2 as the program identifier when calling <b>CreateObject</b>.
 
- It is possible for a power state transition to take place during a burn operation (i.e. user log-off or system suspend) which leads to the  interruption of the burn process and  possible data loss. For programming considerations, see <a href="https://docs.microsoft.com/windows/desktop/imapi/preventing-logoff-or-suspend-during-a-burn">Preventing Logoff or Suspend During a Burn</a>.
+ It is possible for a power state transition to take place during a burn operation (i.e. user log-off or system suspend) which leads to the  interruption of the burn process and  possible data loss. For programming considerations, see <a href="/windows/desktop/imapi/preventing-logoff-or-suspend-during-a-burn">Preventing Logoff or Suspend During a Burn</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-dwriteengine2events">DWriteEngine2Events</a>
+<a href="/windows/desktop/api/imapi2/nn-imapi2-dwriteengine2events">DWriteEngine2Events</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-idiscformat2">IDiscFormat2</a>
+<a href="/windows/desktop/api/imapi2/nn-imapi2-idiscformat2">IDiscFormat2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-idiscformat2data">IDiscFormat2Data</a>
+<a href="/windows/desktop/api/imapi2/nn-imapi2-idiscformat2data">IDiscFormat2Data</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-idiscformat2erase">IDiscFormat2Erase</a>
+<a href="/windows/desktop/api/imapi2/nn-imapi2-idiscformat2erase">IDiscFormat2Erase</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-idiscformat2rawcd">IDiscFormat2RawCD</a>
+<a href="/windows/desktop/api/imapi2/nn-imapi2-idiscformat2rawcd">IDiscFormat2RawCD</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-idiscformat2trackatonce">IDiscFormat2TrackAtOnce</a>
+<a href="/windows/desktop/api/imapi2/nn-imapi2-idiscformat2trackatonce">IDiscFormat2TrackAtOnce</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-iwriteengine2eventargs">IWriteEngine2EventArgs</a>
-
+<a href="/windows/desktop/api/imapi2/nn-imapi2-iwriteengine2eventargs">IWriteEngine2EventArgs</a>

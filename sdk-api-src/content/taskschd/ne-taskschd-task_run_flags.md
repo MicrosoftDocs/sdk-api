@@ -62,7 +62,7 @@ The task is run with all flags ignored.
 
 ### -field TASK_RUN_AS_SELF
 
-The task is run as the user who is calling the <a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nf-taskschd-iregisteredtask-run">Run</a> method.
+The task is run as the user who is calling the <a href="/windows/desktop/api/taskschd/nf-taskschd-iregisteredtask-run">Run</a> method.
 
 ### -field TASK_RUN_IGNORE_CONSTRAINTS
 
@@ -78,9 +78,8 @@ The task is run using a security identifier.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/TaskSchd/task-scheduler-start-page">Task Scheduler</a>
+<a href="/windows/desktop/TaskSchd/task-scheduler-start-page">Task Scheduler</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/TaskSchd/task-scheduler-enumerated-types">Task Scheduler Enumerated Types</a>
-
+<a href="/windows/desktop/TaskSchd/task-scheduler-enumerated-types">Task Scheduler Enumerated Types</a>

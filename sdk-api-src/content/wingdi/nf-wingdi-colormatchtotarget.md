@@ -126,9 +126,8 @@ The <i>uiAction</i> parameter should only be set to CS_DELETE_TRANSFORM if color
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/wcs/basic-color-management-concepts">Basic Color Management Concepts</a>
+<a href="/previous-versions/windows/desktop/wcs/basic-color-management-concepts">Basic Color Management Concepts</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/dd316902(v=vs.85)">Functions</a>
-
+<a href="/previous-versions/dd316902(v=vs.85)">Functions</a>

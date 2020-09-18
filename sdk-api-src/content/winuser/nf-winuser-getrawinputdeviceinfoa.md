@@ -65,7 +65,7 @@ Retrieves information about the raw input device.
 
 Type: <b>HANDLE</b>
 
-A handle to the raw input device. This comes from the <b>hDevice</b> member of <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-rawinputheader">RAWINPUTHEADER</a> or from <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getrawinputdevicelist">GetRawInputDeviceList</a>.
+A handle to the raw input device. This comes from the <b>hDevice</b> member of <a href="/windows/desktop/api/winuser/ns-winuser-rawinputheader">RAWINPUTHEADER</a> or from <a href="/windows/desktop/api/winuser/nf-winuser-getrawinputdevicelist">GetRawInputDeviceList</a>.
 
 ### -param uiCommand [in]
 
@@ -85,7 +85,7 @@ Specifies what data will be returned in <i>pData</i>. This parameter can be one 
 </dl>
 </td>
 <td width="60%">
-<i>pData</i> is a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hidclass/ni-hidclass-ioctl_hid_get_collection_descriptor">PHIDP_PREPARSED_DATA</a> pointer to a buffer for a <a href="https://docs.microsoft.com/windows-hardware/drivers/hid/top-level-collections">top-level collection's</a> <a href="https://docs.microsoft.com/windows-hardware/drivers/hid/preparsed-data">preparsed data</a>.
+<i>pData</i> is a <a href="/windows-hardware/drivers/ddi/hidclass/ni-hidclass-ioctl_hid_get_collection_descriptor">PHIDP_PREPARSED_DATA</a> pointer to a buffer for a <a href="/windows-hardware/drivers/hid/top-level-collections">top-level collection's</a> <a href="/windows-hardware/drivers/hid/preparsed-data">preparsed data</a>.
 </td>
 </tr>
 <tr>
@@ -96,8 +96,8 @@ Specifies what data will be returned in <i>pData</i>. This parameter can be one 
 </td>
 <td width="60%">
 <i>pData</i> points to a string that contains the device name.
-</br>If this device is <a href="https://docs.microsoft.com/windows-hardware/drivers/hid/hid-clients-supported-in-windows">opened with Shared Access Mode</a> then you can call CreateFile with this name to open a HID collection and use returned handle for calling ReadFile to read input reports and WriteFile to send output reports.
-</br>For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/hid/opening-hid-collections">Opening HID Collections</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/hid/handling-hid-reports">Handling HID Reports</a>.
+</br>If this device is <a href="/windows-hardware/drivers/hid/hid-clients-supported-in-windows">opened with Shared Access Mode</a> then you can call CreateFile with this name to open a HID collection and use returned handle for calling ReadFile to read input reports and WriteFile to send output reports.
+</br>For more information, see <a href="/windows-hardware/drivers/hid/opening-hid-collections">Opening HID Collections</a> and <a href="/windows-hardware/drivers/hid/handling-hid-reports">Handling HID Reports</a>.
 </br>For this <i>uiCommand</i> only, the value in <i>pcbSize</i> is the character count (not the byte count).
 </td>
 </tr>
@@ -108,7 +108,7 @@ Specifies what data will be returned in <i>pData</i>. This parameter can be one 
 </dl>
 </td>
 <td width="60%">
-<i>pData</i> points to an <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-rid_device_info.md">RID_DEVICE_INFO</a> structure.
+<i>pData</i> points to an <a href="/windows/desktop/api/winuser/ns-winuser-rid_device_info.md">RID_DEVICE_INFO</a> structure.
 </td>
 </tr>
 </table>
@@ -117,7 +117,7 @@ Specifies what data will be returned in <i>pData</i>. This parameter can be one 
 
 Type: <b>LPVOID</b>
 
-A pointer to a buffer that contains the information specified by <i>uiCommand</i>. If <i>uiCommand</i> is <b>RIDI_DEVICEINFO</b>, set the <b>cbSize</b> member of <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-rid_device_info">RID_DEVICE_INFO</a> to <code>sizeof(RID_DEVICE_INFO)</code> before calling <b>GetRawInputDeviceInfo</b>.
+A pointer to a buffer that contains the information specified by <i>uiCommand</i>. If <i>uiCommand</i> is <b>RIDI_DEVICEINFO</b>, set the <b>cbSize</b> member of <a href="/windows/desktop/api/winuser/ns-winuser-rid_device_info">RID_DEVICE_INFO</a> to <code>sizeof(RID_DEVICE_INFO)</code> before calling <b>GetRawInputDeviceInfo</b>.
 
 ### -param pcbSize [in, out]
 
@@ -133,34 +133,33 @@ If successful, this function returns a non-negative number indicating the number
 
 If <i>pData</i> is not large enough for the data, the function returns -1. If <i>pData</i> is <b>NULL</b>, the function returns a value of zero. In both of these cases, <i>pcbSize</i> is set to the minimum size required for the <i>pData</i> buffer.
 
-Call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> to identify any other errors.
+Call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> to identify any other errors.
 
 ## -see-also
 
 <b>Conceptual</b>
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-rawinputheader">RAWINPUTHEADER</a>
+<a href="/windows/desktop/api/winuser/ns-winuser-rawinputheader">RAWINPUTHEADER</a>
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-rid_device_info">RID_DEVICE_INFO</a>
+<a href="/windows/desktop/api/winuser/ns-winuser-rid_device_info">RID_DEVICE_INFO</a>
 
-<a href="https://docs.microsoft.com/windows/desktop/inputdev/raw-input">Raw Input</a>
+<a href="/windows/desktop/inputdev/raw-input">Raw Input</a>
 
 <b>Reference</b>
 
-<a href="https://docs.microsoft.com/windows/desktop/inputdev/wm-input">WM_INPUT</a>
+<a href="/windows/desktop/inputdev/wm-input">WM_INPUT</a>
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/hid/top-level-collections">Top-Level Collections</a>
+<a href="/windows-hardware/drivers/hid/top-level-collections">Top-Level Collections</a>
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/hid/preparsed-data">Preparsed Data</a>
+<a href="/windows-hardware/drivers/hid/preparsed-data">Preparsed Data</a>
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hidclass/ni-hidclass-ioctl_hid_get_collection_descriptor">PHIDP_PREPARSED_DATA</a>
+<a href="/windows-hardware/drivers/ddi/hidclass/ni-hidclass-ioctl_hid_get_collection_descriptor">PHIDP_PREPARSED_DATA</a>
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/hid/opening-hid-collections">Opening HID collections</a>
+<a href="/windows-hardware/drivers/hid/opening-hid-collections">Opening HID collections</a>
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/hid/handling-hid-reports">Handling HID Reports</a>
+<a href="/windows-hardware/drivers/hid/handling-hid-reports">Handling HID Reports</a>
 
 ## -remarks
 
 > [!NOTE]
 > The winuser.h header defines GetRawInputDeviceInfo as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

@@ -87,13 +87,12 @@ In a preemptive multitasking environment, it is possible for some other thread t
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-isbadcodeptr">IsBadCodePtr</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-isbadcodeptr">IsBadCodePtr</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-isbadreadptr">IsBadReadPtr</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-isbadreadptr">IsBadReadPtr</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-isbadstringptra">IsBadStringPtr</a>
-
+<a href="/windows/desktop/api/winbase/nf-winbase-isbadstringptra">IsBadStringPtr</a>

@@ -52,11 +52,11 @@ api_name:
 
 Retrieves transaction, activity, and context information on the current context object. Using the methods of this interface, you can retrieve relevant information contained within an object context.
 
-This interface has been superseded by the <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-iobjectcontextinfo2">IObjectContextInfo2</a> interface.
+This interface has been superseded by the <a href="/windows/desktop/api/comsvcs/nn-comsvcs-iobjectcontextinfo2">IObjectContextInfo2</a> interface.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IObjectContextInfo</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IObjectContextInfo</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IObjectContextInfo</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IObjectContextInfo</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>IObjectContextInfo</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-iobjectcontextinfo-getactivityid">GetActivityId</a>
+<a href="/windows/desktop/api/comsvcs/nf-comsvcs-iobjectcontextinfo-getactivityid">GetActivityId</a>
 </td>
 <td align="left" width="63%">
 Retrieves the identifier of the current activity.
@@ -80,7 +80,7 @@ Retrieves the identifier of the current activity.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-iobjectcontextinfo-getcontextid">GetContextId</a>
+<a href="/windows/desktop/api/comsvcs/nf-comsvcs-iobjectcontextinfo-getcontextid">GetContextId</a>
 </td>
 <td align="left" width="63%">
 Retrieves the identifier of the current context.
@@ -89,7 +89,7 @@ Retrieves the identifier of the current context.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-iobjectcontextinfo-gettransaction">GetTransaction</a>
+<a href="/windows/desktop/api/comsvcs/nf-comsvcs-iobjectcontextinfo-gettransaction">GetTransaction</a>
 </td>
 <td align="left" width="63%">
 Retrieves a reference to the current transaction.
@@ -98,7 +98,7 @@ Retrieves a reference to the current transaction.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-iobjectcontextinfo-gettransactionid">GetTransactionId</a>
+<a href="/windows/desktop/api/comsvcs/nf-comsvcs-iobjectcontextinfo-gettransactionid">GetTransactionId</a>
 </td>
 <td align="left" width="63%">
 Retrieves the identifier of the current transaction.
@@ -107,7 +107,7 @@ Retrieves the identifier of the current transaction.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-iobjectcontextinfo-isintransaction">IsInTransaction</a>
+<a href="/windows/desktop/api/comsvcs/nf-comsvcs-iobjectcontextinfo-isintransaction">IsInTransaction</a>
 </td>
 <td align="left" width="63%">
 Indicates whether the current object is executing in a transaction.
@@ -118,13 +118,12 @@ Indicates whether the current object is executing in a transaction.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/cossdk/com--contexts-and-threading-models">COM+ Contexts and Threading Models</a>
+<a href="/windows/desktop/cossdk/com--contexts-and-threading-models">COM+ Contexts and Threading Models</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cogetobjectcontext">CoGetObjectContext</a>
+<a href="/windows/desktop/api/combaseapi/nf-combaseapi-cogetobjectcontext">CoGetObjectContext</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-iobjectcontextinfo2">IObjectContextInfo2</a>
-
+<a href="/windows/desktop/api/comsvcs/nn-comsvcs-iobjectcontextinfo2">IObjectContextInfo2</a>

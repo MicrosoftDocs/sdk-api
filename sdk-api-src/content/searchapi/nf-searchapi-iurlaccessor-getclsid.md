@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Gets the <a href="https://docs.microsoft.com/windows/desktop/com/clsid">CLSID</a> for the document type of the URL item being processed.
+Gets the <a href="/windows/desktop/com/clsid">CLSID</a> for the document type of the URL item being processed.
 
 ## -parameters
 
@@ -58,7 +58,7 @@ Gets the <a href="https://docs.microsoft.com/windows/desktop/com/clsid">CLSID</a
 
 Type: <b>CLSID*</b>
 
-Receives a pointer to the <a href="https://docs.microsoft.com/windows/desktop/com/clsid">CLSID</a> for the document type of the URL item being processed.
+Receives a pointer to the <a href="/windows/desktop/com/clsid">CLSID</a> for the document type of the URL item being processed.
 
 ## -returns
 
@@ -69,4 +69,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -remarks
 
 If this information is not available, you can return E_NOTIMPL or E_FAIL.
-

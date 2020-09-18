@@ -60,5 +60,4 @@ Returns <b>TRUE</b> if this factory is a delegate folder, otherwise <b>FALSE</b>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shidfact/nl-shidfact-citemidfactory">CItemIDFactory</a>
-
+<a href="/windows/desktop/api/shidfact/nl-shidfact-citemidfactory">CItemIDFactory</a>

@@ -57,11 +57,11 @@ The <code>FindPin</code> method retrieves the pin with the specified identifier.
 
 ### -param Id [in]
 
-Pointer to a constant wide-character string that identifies the pin. Call the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ipin-queryid">IPin::QueryId</a> method to retrieve a pin's identifier.
+Pointer to a constant wide-character string that identifies the pin. Call the <a href="/windows/desktop/api/strmif/nf-strmif-ipin-queryid">IPin::QueryId</a> method to retrieve a pin's identifier.
 
 ### -param ppPin [out]
 
-Address of a variable that receives a pointer to the pin's <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ipin">IPin</a> interface. If the method fails, <i>*ppPin</i> is set to <b>NULL</b>.
+Address of a variable that receives a pointer to the pin's <a href="/windows/desktop/api/strmif/nn-strmif-ipin">IPin</a> interface. If the method fails, <i>*ppPin</i> is set to <b>NULL</b>.
 
 ## -returns
 
@@ -109,15 +109,14 @@ Could not find a pin with this identifier.
 
 ## -remarks
 
-This method supports graph persistence. Use the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ipin-queryid">IPin::QueryId</a> method to save a pin's state, and use this method to restore the state. The pin's identifier string is defined by the filter implementation. The identifier must be unique within the filter.
+This method supports graph persistence. Use the <a href="/windows/desktop/api/strmif/nf-strmif-ipin-queryid">IPin::QueryId</a> method to save a pin's state, and use this method to restore the state. The pin's identifier string is defined by the filter implementation. The identifier must be unique within the filter.
 
 If the method succeeds, the <b>IPin</b> interface that it returns has an outstanding reference count. Be sure to release the interface when you are done.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ibasefilter">IBaseFilter Interface</a>
-
+<a href="/windows/desktop/api/strmif/nn-strmif-ibasefilter">IBaseFilter Interface</a>

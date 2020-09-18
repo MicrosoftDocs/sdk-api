@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-This function is reserved for system use. Do not use this function directly. To create a VSS writer, extend the <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-cvsswriterex">CVssWriterEx</a> class. The <b>CVssWriterEx</b> base class implicitly calls <b>CreateWriterEx</b>.
+This function is reserved for system use. Do not use this function directly. To create a VSS writer, extend the <a href="/windows/desktop/api/vswriter/nl-vswriter-cvsswriterex">CVssWriterEx</a> class. The <b>CVssWriterEx</b> base class implicitly calls <b>CreateWriterEx</b>.
 
 ## -parameters
 
@@ -70,5 +70,4 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-cvsswriterex">CVssWriterEx</a>
-
+<a href="/windows/desktop/api/vswriter/nl-vswriter-cvsswriterex">CVssWriterEx</a>

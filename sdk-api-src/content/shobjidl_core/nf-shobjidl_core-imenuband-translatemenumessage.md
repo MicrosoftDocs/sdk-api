@@ -56,9 +56,9 @@ Translates a message for a Component Object Model (COM) object.
 
 ### -param pmsg [in, out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-msg">MSG</a>*</b>
+Type: <b><a href="/windows/desktop/api/winuser/ns-winuser-msg">MSG</a>*</b>
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-msg">MSG</a> structure that contains the incoming message.
+A pointer to an <a href="/windows/desktop/api/winuser/ns-winuser-msg">MSG</a> structure that contains the incoming message.
 
 ### -param plRet [out]
 
@@ -103,9 +103,8 @@ The message was not handled. In this case, *plRet is <b>NULL</b>.
 
 ## -remarks
 
-Typically, <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-imenuband-ismenumessage">IMenuBand::IsMenuMessage</a> is called before this method. The parent window proc, not the message pump, must call <b>IMenuBand::TranslateMenuMessage</b> for every message.
+Typically, <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-imenuband-ismenumessage">IMenuBand::IsMenuMessage</a> is called before this method. The parent window proc, not the message pump, must call <b>IMenuBand::TranslateMenuMessage</b> for every message.
 
 This method can change the values of <i>pmsg</i>. If so, the changes should be forwarded on.
 
 This method is required because some modal message pumps do not allow a call to a custom translation method.
-

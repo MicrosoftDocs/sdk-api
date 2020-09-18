@@ -54,7 +54,7 @@ Represents a block of formatted timed-text.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFTimedTextFormattedText</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFTimedTextFormattedText</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFTimedTextFormattedText</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFTimedTextFormattedText</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IMFTimedTextFormattedText</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imftimedtextformattedtext-getsubformatting">GetSubformatting</a>
+<a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imftimedtextformattedtext-getsubformatting">GetSubformatting</a>
 </td>
 <td align="left" width="63%">
 Gets a subformat in the formatted timed-text object.
@@ -78,7 +78,7 @@ Gets a subformat in the formatted timed-text object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imftimedtextformattedtext-getsubformattingcount">GetSubformattingCount</a>
+<a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imftimedtextformattedtext-getsubformattingcount">GetSubformattingCount</a>
 </td>
 <td align="left" width="63%">
 Gets the number of subformats in the formatted timed-text object.
@@ -87,7 +87,7 @@ Gets the number of subformats in the formatted timed-text object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imftimedtextformattedtext-gettext">GetText</a>
+<a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imftimedtextformattedtext-gettext">GetText</a>
 </td>
 <td align="left" width="63%">
 Gets the text in the formatted timed-text object.
@@ -98,5 +98,4 @@ Gets the text in the formatted timed-text object.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
-
+<a href="/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>

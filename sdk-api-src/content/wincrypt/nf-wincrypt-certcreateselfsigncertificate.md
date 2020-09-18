@@ -51,22 +51,22 @@ api_name:
 ## -description
 
 The <b>CertCreateSelfSignCertificate</b> function builds a self-signed certificate and returns a pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a> structure that represents the certificate.
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a> structure that represents the certificate.
 
 ## -parameters
 
 ### -param hCryptProvOrNCryptKey [in, optional]
 
-A handle of a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">cryptographic provider</a> used to sign the certificate created. If <b>NULL</b>, information from the <i>pKeyProvInfo</i> parameter is used to acquire the needed handle. If <i>pKeyProvInfo</i> is also <b>NULL</b>, the default provider type, PROV_RSA_FULL provider type, the default key specification, AT_SIGNATURE, and a newly created <a href="https://docs.microsoft.com/windows/desktop/SecGloss/k-gly">key container</a> with a unique container name are used.
+A handle of a <a href="/windows/desktop/SecGloss/c-gly">cryptographic provider</a> used to sign the certificate created. If <b>NULL</b>, information from the <i>pKeyProvInfo</i> parameter is used to acquire the needed handle. If <i>pKeyProvInfo</i> is also <b>NULL</b>, the default provider type, PROV_RSA_FULL provider type, the default key specification, AT_SIGNATURE, and a newly created <a href="/windows/desktop/SecGloss/k-gly">key container</a> with a unique container name are used.
 
-This handle must be an <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/hcryptprov">HCRYPTPROV</a> handle that has been created by using the 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptacquirecontexta">CryptAcquireContext</a> function or an <b>NCRYPT_KEY_HANDLE</b> handle that has been created by using the <a href="https://docs.microsoft.com/windows/desktop/api/ncrypt/nf-ncrypt-ncryptopenkey">NCryptOpenKey</a> function. New applications should always pass in the <b>NCRYPT_KEY_HANDLE</b> handle of a CNG <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">cryptographic service provider</a> (CSP).
+This handle must be an <a href="/windows/desktop/SecCrypto/hcryptprov">HCRYPTPROV</a> handle that has been created by using the 
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptacquirecontexta">CryptAcquireContext</a> function or an <b>NCRYPT_KEY_HANDLE</b> handle that has been created by using the <a href="/windows/desktop/api/ncrypt/nf-ncrypt-ncryptopenkey">NCryptOpenKey</a> function. New applications should always pass in the <b>NCRYPT_KEY_HANDLE</b> handle of a CNG <a href="/windows/desktop/SecGloss/c-gly">cryptographic service provider</a> (CSP).
 
 ### -param pSubjectIssuerBlob [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/b-gly">BLOB</a> that contains the distinguished name (DN) for the certificate subject. This parameter cannot be <b>NULL</b>. Minimally, a pointer to an empty DN must be provided. This BLOB is normally created by using the 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certstrtonamea">CertStrToName</a> function. It can also be created by using the 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptencodeobject">CryptEncodeObject</a> function and specifying either the X509_NAME or X509_UNICODE_NAME <i>StructType</i>.
+A pointer to a <a href="/windows/desktop/SecGloss/b-gly">BLOB</a> that contains the distinguished name (DN) for the certificate subject. This parameter cannot be <b>NULL</b>. Minimally, a pointer to an empty DN must be provided. This BLOB is normally created by using the 
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-certstrtonamea">CertStrToName</a> function. It can also be created by using the 
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptencodeobject">CryptEncodeObject</a> function and specifying either the X509_NAME or X509_UNICODE_NAME <i>StructType</i>.
 
 ### -param dwFlags [in]
 
@@ -84,7 +84,7 @@ A set of flags that override the default behavior of this function. This can be 
 </dl>
 </td>
 <td width="60%">
-By default, the returned PCCERT_CONTEXT references the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">private keys</a> by setting the CERT_KEY_PROV_INFO_PROP_ID. If you do not want the returned PCCERT_CONTEXT to reference private keys by setting the CERT_KEY_PROV_INFO_PROP_ID, specify CERT_CREATE_SELFSIGN_NO_KEY_INFO.
+By default, the returned PCCERT_CONTEXT references the <a href="/windows/desktop/SecGloss/p-gly">private keys</a> by setting the CERT_KEY_PROV_INFO_PROP_ID. If you do not want the returned PCCERT_CONTEXT to reference private keys by setting the CERT_KEY_PROV_INFO_PROP_ID, specify CERT_CREATE_SELFSIGN_NO_KEY_INFO.
 
 </td>
 </tr>
@@ -103,30 +103,30 @@ By default, the certificate being created is signed. If the certificate being cr
 
 ### -param pKeyProvInfo [in, optional]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_key_prov_info">CRYPT_KEY_PROV_INFO</a> structure. Before a certificate is created, the CSP is queried for the key provider, key provider type, and the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/k-gly">key container</a> name. If the CSP queried does not support these queries, the function fails. If the default provider does not support these queries, a <i>pKeyProvInfo</i> value must be specified. The RSA BASE does support these queries.
+A pointer to a <a href="/windows/desktop/api/wincrypt/ns-wincrypt-crypt_key_prov_info">CRYPT_KEY_PROV_INFO</a> structure. Before a certificate is created, the CSP is queried for the key provider, key provider type, and the <a href="/windows/desktop/SecGloss/k-gly">key container</a> name. If the CSP queried does not support these queries, the function fails. If the default provider does not support these queries, a <i>pKeyProvInfo</i> value must be specified. The RSA BASE does support these queries.
 
 If the <i>pKeyProvInfo</i> parameter is not <b>NULL</b>, the corresponding values are set in the <b>CERT_KEY_PROV_INFO_PROP_ID</b> value of the generated certificate. You must ensure that all parameters of the supplied structure are correctly specified.
 
 ### -param pSignatureAlgorithm [in, optional]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_algorithm_identifier">CRYPT_ALGORITHM_IDENTIFIER</a> structure. If <b>NULL</b>, the default algorithm, SHA1RSA, is used.
+A pointer to a <a href="/windows/desktop/api/wincrypt/ns-wincrypt-crypt_algorithm_identifier">CRYPT_ALGORITHM_IDENTIFIER</a> structure. If <b>NULL</b>, the default algorithm, SHA1RSA, is used.
 
 ### -param pStartTime [in, optional]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-systemtime">SYSTEMTIME</a> structure. If <b>NULL</b>, the system current time is used by default.
+A pointer to a <a href="/windows/desktop/api/minwinbase/ns-minwinbase-systemtime">SYSTEMTIME</a> structure. If <b>NULL</b>, the system current time is used by default.
 
 ### -param pEndTime [in, optional]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-systemtime">SYSTEMTIME</a> structure. If <b>NULL</b>, the <i>pStartTime</i> value plus one year will be used by default.
+A pointer to a <a href="/windows/desktop/api/minwinbase/ns-minwinbase-systemtime">SYSTEMTIME</a> structure. If <b>NULL</b>, the <i>pStartTime</i> value plus one year will be used by default.
 
 ### -param pExtensions [optional]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_extensions">CERT_EXTENSIONS</a> array of <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_extension">CERT_EXTENSION</a> structures. By default, the array is empty. An alternate subject name, if desired, can be specified as one of these extensions.
+A pointer to a <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_extensions">CERT_EXTENSIONS</a> array of <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_extension">CERT_EXTENSION</a> structures. By default, the array is empty. An alternate subject name, if desired, can be specified as one of these extensions.
 
 ## -returns
 
-If the function succeeds, a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">PCCERT_CONTEXT</a> variable that points to the created certificate is returned. If the function fails, it returns <b>NULL</b>. For extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+If the function succeeds, a <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">PCCERT_CONTEXT</a> variable that points to the created certificate is returned. If the function fails, it returns <b>NULL</b>. For extended error information, call 
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
@@ -134,33 +134,32 @@ As the pEndTime must be a valid date, and is automatically generated if it is no
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_extension">CERT_EXTENSION</a>
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_extension">CERT_EXTENSION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_extensions">CERT_EXTENSIONS</a>
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_extensions">CERT_EXTENSIONS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_algorithm_identifier">CRYPT_ALGORITHM_IDENTIFIER</a>
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-crypt_algorithm_identifier">CRYPT_ALGORITHM_IDENTIFIER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certstrtonamea">CertStrToName</a>
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-certstrtonamea">CertStrToName</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptencodeobject">CryptEncodeObject</a>
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptencodeobject">CryptEncodeObject</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">PCCERT_CONTEXT</a>
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">PCCERT_CONTEXT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-systemtime">SYSTEMTIME</a>
-
+<a href="/windows/desktop/api/minwinbase/ns-minwinbase-systemtime">SYSTEMTIME</a>

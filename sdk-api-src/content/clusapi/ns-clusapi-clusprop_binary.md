@@ -53,9 +53,9 @@ api_name:
 ## -description
 
 Describes a binary data value. It is used as an entry in a 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/value-lists">value list</a> and consists of:
+    <a href="/previous-versions/windows/desktop/mscs/value-lists">value list</a> and consists of:
 <ul>
-<li>A <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clusprop_value">CLUSPROP_VALUE</a> structure with a value 
+<li>A <a href="/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clusprop_value">CLUSPROP_VALUE</a> structure with a value 
        of <b>CLUSPROP_SYNTAX_LIST_VALUE_BINARY</b> (0x00010001).</li>
 <li>A byte array containing the data.</li>
 </ul>
@@ -68,28 +68,27 @@ Array of bytes containing the data.
 
 ### -field CLUSPROP_VALUE
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clusprop_value">CLUSPROP_VALUE</a> structure with a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clusprop_syntax">CLUSPROP_SYNTAX</a>  with a value 
+<a href="/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clusprop_value">CLUSPROP_VALUE</a> structure with a <a href="/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clusprop_syntax">CLUSPROP_SYNTAX</a>  with a value 
        of <b>CLUSPROP_SYNTAX_LIST_VALUE_BINARY</b> (0x00010001) and a <b>cbLength</b> field indicating 
        the count of bytes in the <b>rgb</b> member.
 
 ## -remarks
 
-Use the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/nf-clusapi-clusprop_binary_declare">CLUSPROP_BINARY_DECLARE</a> macro to 
+Use the <a href="/previous-versions/windows/desktop/api/clusapi/nf-clusapi-clusprop_binary_declare">CLUSPROP_BINARY_DECLARE</a> macro to 
      initialize a <b>CLUSPROP_BINARY</b> structure.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/nf-clusapi-clusprop_binary_declare">CLUSPROP_BINARY_DECLARE</a>
+<a href="/previous-versions/windows/desktop/api/clusapi/nf-clusapi-clusprop_binary_declare">CLUSPROP_BINARY_DECLARE</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clusprop_syntax">CLUSPROP_SYNTAX</a>
+<a href="/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clusprop_syntax">CLUSPROP_SYNTAX</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clusprop_value">CLUSPROP_VALUE</a>
+<a href="/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clusprop_value">CLUSPROP_VALUE</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/data-structures">Data structures</a>
-
+<a href="/previous-versions/windows/desktop/mscs/data-structures">Data structures</a>

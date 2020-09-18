@@ -53,9 +53,8 @@ api_name:
 ## -description
 
 The <b>BitmapData</b> class is used by the 
-			<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-bitmap-lockbits">Bitmap::LockBits</a> and 
-			<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-bitmap-unlockbits">Bitmap::UnlockBits</a> methods of the 
-			<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-bitmap">Bitmap</a> class. A <b>BitmapData</b> object stores attributes of a bitmap.
+			<a href="/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-bitmap-lockbits">Bitmap::LockBits</a> and 
+			<a href="/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-bitmap-unlockbits">Bitmap::UnlockBits</a> methods of the 
+			<a href="/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-bitmap">Bitmap</a> class. A <b>BitmapData</b> object stores attributes of a bitmap.
 
 <b xmlns:loc="http://microsoft.com/wdcml/l10n">BitmapData</b> has these types of members:
-

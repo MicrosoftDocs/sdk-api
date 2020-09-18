@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Puts a query-time phrase in the <a href="https://docs.microsoft.com/windows/desktop/api/indexsrv/nn-indexsrv-iphrasesink">IPhraseSink</a> object.
+Puts a query-time phrase in the <a href="/windows/desktop/api/indexsrv/nn-indexsrv-iphrasesink">IPhraseSink</a> object.
 
 ## -parameters
 
@@ -90,7 +90,7 @@ The operation was completed successfully.
 </td>
 <td width="60%">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/indexsrv/nf-indexsrv-iphrasesink-putphrase">PutPhrase</a> was called at index time instead of query time.
+<a href="/windows/desktop/api/indexsrv/nf-indexsrv-iphrasesink-putphrase">PutPhrase</a> was called at index time instead of query time.
 
 </td>
 </tr>
@@ -98,9 +98,8 @@ The operation was completed successfully.
 
 ## -remarks
 
-<b>PutPhrase</b> is called by the <a href="https://docs.microsoft.com/windows/desktop/api/indexsrv/nf-indexsrv-iwordbreaker-breaktext">IWordBreaker::BreakText</a> method of the <a href="https://docs.microsoft.com/windows/desktop/api/indexsrv/nn-indexsrv-iwordbreaker">IWordBreaker</a> implementation. Phrases that the <a href="https://docs.microsoft.com/windows/desktop/api/indexsrv/nn-indexsrv-iphrasesink">IPhraseSink</a> object handles are used by Windows Search to expand the original query text.
+<b>PutPhrase</b> is called by the <a href="/windows/desktop/api/indexsrv/nf-indexsrv-iwordbreaker-breaktext">IWordBreaker::BreakText</a> method of the <a href="/windows/desktop/api/indexsrv/nn-indexsrv-iwordbreaker">IWordBreaker</a> implementation. Phrases that the <a href="/windows/desktop/api/indexsrv/nn-indexsrv-iphrasesink">IPhraseSink</a> object handles are used by Windows Search to expand the original query text.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/indexsrv/nn-indexsrv-iphrasesink">IPhraseSink</a>
-
+<a href="/windows/desktop/api/indexsrv/nn-indexsrv-iphrasesink">IPhraseSink</a>

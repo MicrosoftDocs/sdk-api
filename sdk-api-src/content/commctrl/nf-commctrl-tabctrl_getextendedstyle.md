@@ -50,13 +50,12 @@ api_name:
 
 ## -description
 
-Retrieves the extended styles that are currently in use for the tab control. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/tcm-getextendedstyle">TCM_GETEXTENDEDSTYLE</a> message explicitly.
+Retrieves the extended styles that are currently in use for the tab control. You can use this macro or send the <a href="/windows/desktop/Controls/tcm-getextendedstyle">TCM_GETEXTENDEDSTYLE</a> message explicitly.
 
 ## -parameters
 
 ### -param hwnd
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 Handle to the tab control.
-

@@ -51,7 +51,7 @@ api_name:
 ## -description
 
 The 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradminserversetinfo">MprAdminIsDomainRasServer</a> function returns information regarding whether the given machine is registered as the remote access server in the domain.
+<a href="/windows/desktop/api/mprapi/nf-mprapi-mpradminserversetinfo">MprAdminIsDomainRasServer</a> function returns information regarding whether the given machine is registered as the remote access server in the domain.
 
 ## -parameters
 
@@ -131,7 +131,7 @@ This function must be executed only on a machine joined to a domain.
 
 #### Examples
 
-The follow example code shows the use of the <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradminserversetinfo">MprAdminIsDomainRasServer</a> and <b>MprAdminEstablishDomainRasServer</b> functions.
+The follow example code shows the use of the <a href="/windows/desktop/api/mprapi/nf-mprapi-mpradminserversetinfo">MprAdminIsDomainRasServer</a> and <b>MprAdminEstablishDomainRasServer</b> functions.
 
 
 ```cpp
@@ -189,9 +189,8 @@ int __cdecl main(){
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/router-administration-functions">Router Administration Functions</a>
+<a href="/windows/desktop/RRAS/router-administration-functions">Router Administration Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/router-management-reference">Router Management Reference</a>
-
+<a href="/windows/desktop/RRAS/router-management-reference">Router Management Reference</a>

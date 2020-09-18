@@ -53,7 +53,7 @@ api_name:
 Adds information about a Media Foundation transform (MFT) to the registry.
         
 
-Applications can enumerate the MFT by calling the <a href="https://docs.microsoft.com/windows/desktop/api/mfapi/nf-mfapi-mftenum">MFTEnum</a> or <a href="https://docs.microsoft.com/windows/desktop/api/mfapi/nf-mfapi-mftenumex">MFTEnumEx</a> function.
+Applications can enumerate the MFT by calling the <a href="/windows/desktop/api/mfapi/nf-mfapi-mftenum">MFTEnum</a> or <a href="/windows/desktop/api/mfapi/nf-mfapi-mftenumex">MFTEnumEx</a> function.
 
 ## -parameters
 
@@ -64,7 +64,7 @@ The CLSID of the MFT.
 
 ### -param guidCategory [in]
 
-GUID that specifies the category of the MFT. For a list of MFT categories, see <a href="https://docs.microsoft.com/windows/desktop/medfound/mft-category">MFT_CATEGORY</a>.
+GUID that specifies the category of the MFT. For a list of MFT categories, see <a href="/windows/desktop/medfound/mft-category">MFT_CATEGORY</a>.
 
 ### -param pszName [in]
 
@@ -85,7 +85,7 @@ Bitwise <b>OR</b> of zero or more of the following flags from the <a href="/wind
 </dl>
 </td>
 <td width="60%">
-The MFT performs asynchronous processing in software. See <a href="https://docs.microsoft.com/windows/desktop/medfound/asynchronous-mfts">Asynchronous MFTs</a>. This flag does not apply to hardware transforms.
+The MFT performs asynchronous processing in software. See <a href="/windows/desktop/medfound/asynchronous-mfts">Asynchronous MFTs</a>. This flag does not apply to hardware transforms.
 
 Requires Windows 7.
 
@@ -97,7 +97,7 @@ Requires Windows 7.
 </dl>
 </td>
 <td width="60%">
-The application must unlock the MFT in order to use it. See <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imffieldofusemftunlock">IMFFieldOfUseMFTUnlock</a>.
+The application must unlock the MFT in order to use it. See <a href="/windows/desktop/api/mfidl/nn-mfidl-imffieldofusemftunlock">IMFFieldOfUseMFTUnlock</a>.
 
 Requires Windows 7.
 
@@ -109,7 +109,7 @@ Requires Windows 7.
 </dl>
 </td>
 <td width="60%">
-The MFT performs hardware-based data processing, using either the AVStream driver or a GPU-based proxy MFT. MFTs in this category always process data asynchronously. See <a href="https://docs.microsoft.com/windows/desktop/medfound/hardware-mfts">Hardware MFTs</a>.
+The MFT performs hardware-based data processing, using either the AVStream driver or a GPU-based proxy MFT. MFTs in this category always process data asynchronously. See <a href="/windows/desktop/medfound/hardware-mfts">Hardware MFTs</a>.
 
 <div class="alert"><b>Note</b>  This flag applies to video codecs and video processors that perform their work entirely in hardware. It does not apply to software decoders that use DirectX Video Acceleration to assist decoding.</div>
 <div> </div>
@@ -168,8 +168,8 @@ This parameter can be <b>NULL</b>. However, if the parameter is <b>NULL</b>, the
 
 ### -param pAttributes [in]
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes">IMFAttributes</a> interface of an attribute store that contains additional registry information. This parameter can be <b>NULL</b>. If the parameter is non-<b>NULL</b>, the attributes are written to the registery as a byte array.
-      You can use the <a href="https://docs.microsoft.com/windows/desktop/api/mfapi/nf-mfapi-mftgetinfo">MFTGetInfo</a> function to retrieve the attributes.
+Pointer to the <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes">IMFAttributes</a> interface of an attribute store that contains additional registry information. This parameter can be <b>NULL</b>. If the parameter is non-<b>NULL</b>, the attributes are written to the registery as a byte array.
+      You can use the <a href="/windows/desktop/api/mfapi/nf-mfapi-mftgetinfo">MFTGetInfo</a> function to retrieve the attributes.
 
 The following attribute is defined for this parameter:
 
@@ -180,11 +180,11 @@ The following attribute is defined for this parameter:
 </tr>
 <tr>
 <td width="40%"><a id="MFT_CODEC_MERIT_Attribute"></a><a id="mft_codec_merit_attribute"></a><a id="MFT_CODEC_MERIT_ATTRIBUTE"></a><dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/medfound/mft-codec-merit-attribute">MFT_CODEC_MERIT_Attribute</a></b></dt>
+<dt><b><a href="/windows/desktop/medfound/mft-codec-merit-attribute">MFT_CODEC_MERIT_Attribute</a></b></dt>
 </dl>
 </td>
 <td width="60%">
-Contains the merit value of a hardware codec. See <a href="https://docs.microsoft.com/windows/desktop/medfound/codec-merit">Codec Merit</a>.
+Contains the merit value of a hardware codec. See <a href="/windows/desktop/medfound/codec-merit">Codec Merit</a>.
 
 </td>
 </tr>
@@ -205,19 +205,19 @@ The registry entries created by this function are read by the following function
 </tr>
 <tr>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/mfapi/nf-mfapi-mftenum">MFTEnum</a>
+<a href="/windows/desktop/api/mfapi/nf-mfapi-mftenum">MFTEnum</a>
 </td>
 <td>Enumerates MFTs by media type and category.</td>
 </tr>
 <tr>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/mfapi/nf-mfapi-mftenumex">MFTEnumEx</a>
+<a href="/windows/desktop/api/mfapi/nf-mfapi-mftenumex">MFTEnumEx</a>
 </td>
-<td>Extended version of <a href="https://docs.microsoft.com/windows/desktop/api/mfapi/nf-mfapi-mftenum">MFTEnum</a>.</td>
+<td>Extended version of <a href="/windows/desktop/api/mfapi/nf-mfapi-mftenum">MFTEnum</a>.</td>
 </tr>
 <tr>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/mfapi/nf-mfapi-mftgetinfo">MFTGetInfo</a>
+<a href="/windows/desktop/api/mfapi/nf-mfapi-mftgetinfo">MFTGetInfo</a>
 </td>
 <td>Looks up an MFT by CLSID and retrieves the registry information.</td>
 </tr>
@@ -227,29 +227,28 @@ The registry entries created by this function are read by the following function
 This function does not register the CLSID of the MFT for the <b>CoCreateInstance</b> or <b>CoGetClassObject</b> functions.
       
 
-To remove the entries from the registry, call <a href="https://docs.microsoft.com/windows/desktop/api/mfapi/nf-mfapi-mftunregister">MFTUnregister</a>.
+To remove the entries from the registry, call <a href="/windows/desktop/api/mfapi/nf-mfapi-mftunregister">MFTUnregister</a>.
       If you remove an MFT from the system, you should always call <b>MFTUnregister</b>.
 
-The formats given in the <i>pInputTypes</i> and <i>pOutputTypes</i> parameters are intended to help applications search for MFTs by format. Applications can use the <a href="https://docs.microsoft.com/windows/desktop/api/mfapi/nf-mfapi-mftenum">MFTEnum</a> or <a href="https://docs.microsoft.com/windows/desktop/api/mfapi/nf-mfapi-mftenumex">MFTEnumEx</a> functions to enumerate MFTs that match a particular set of formats.
+The formats given in the <i>pInputTypes</i> and <i>pOutputTypes</i> parameters are intended to help applications search for MFTs by format. Applications can use the <a href="/windows/desktop/api/mfapi/nf-mfapi-mftenum">MFTEnum</a> or <a href="/windows/desktop/api/mfapi/nf-mfapi-mftenumex">MFTEnumEx</a> functions to enumerate MFTs that match a particular set of formats.
 
 It is recommended 
         to specify at least one input type in <i>pInputTypes</i> and one output type in the <i>pOutputTypes</i> parameter. Otherwise, the MFT might be skipped in the enumeration.
 
-On 64-bit Windows, the 32-bit version of this function registers the MFT in the 32-bit node of the registry. For more information, see <a href="https://docs.microsoft.com/windows/desktop/SysInfo/32-bit-and-64-bit-application-data-in-the-registry">32-bit and 64-bit Application Data in the Registry</a>.
+On 64-bit Windows, the 32-bit version of this function registers the MFT in the 32-bit node of the registry. For more information, see <a href="/windows/desktop/SysInfo/32-bit-and-64-bit-application-data-in-the-registry">32-bit and 64-bit Application Data in the Registry</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfapi/nf-mfapi-mftenumex">MFTEnumEx</a>
+<a href="/windows/desktop/api/mfapi/nf-mfapi-mftenumex">MFTEnumEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>
+<a href="/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-transforms">Media Foundation Transforms</a>
+<a href="/windows/desktop/medfound/media-foundation-transforms">Media Foundation Transforms</a>
 
 
 
 <a href="/windows/win32/api/mfapi/ne-mfapi-_mft_enum_flag">_MFT_ENUM_FLAG</a>
-

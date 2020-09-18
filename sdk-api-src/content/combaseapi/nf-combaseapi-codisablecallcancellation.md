@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-Undoes the action of a call to <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-coenablecallcancellation">CoEnableCallCancellation</a>. Disables cancellation of synchronous calls on the calling thread when all calls to <b>CoEnableCallCancellation</b> are balanced by calls to <b>CoDisableCallCancellation</b>.
+Undoes the action of a call to <a href="/windows/desktop/api/combaseapi/nf-combaseapi-coenablecallcancellation">CoEnableCallCancellation</a>. Disables cancellation of synchronous calls on the calling thread when all calls to <b>CoEnableCallCancellation</b> are balanced by calls to <b>CoDisableCallCancellation</b>.
 
 ## -parameters
 
@@ -89,7 +89,7 @@ Call cancellation was successfully disabled on the thread.
 </dl>
 </td>
 <td width="60%">
-There have been more successful calls to <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-coenablecallcancellation">CoEnableCallCancellation</a> on the thread than there have been calls to <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-codisablecallcancellation">CoDisableCallCancellation</a>. Cancellation is still enabled on the thread.
+There have been more successful calls to <a href="/windows/desktop/api/combaseapi/nf-combaseapi-coenablecallcancellation">CoEnableCallCancellation</a> on the thread than there have been calls to <a href="/windows/desktop/api/combaseapi/nf-combaseapi-codisablecallcancellation">CoDisableCallCancellation</a>. Cancellation is still enabled on the thread.
 
 </td>
 </tr>
@@ -97,25 +97,24 @@ There have been more successful calls to <a href="https://docs.microsoft.com/win
 
 ## -remarks
 
-When call cancellation is enabled on a thread, marshaled synchronous calls from that thread to objects on the same computer can suffer serious performance degradation. By default, then, synchronous calls cannot be canceled, even if a cancel object is available. To enable call cancellation, you must call <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-coenablecallcancellation">CoEnableCallCancellation</a> first. 
+When call cancellation is enabled on a thread, marshaled synchronous calls from that thread to objects on the same computer can suffer serious performance degradation. By default, then, synchronous calls cannot be canceled, even if a cancel object is available. To enable call cancellation, you must call <a href="/windows/desktop/api/combaseapi/nf-combaseapi-coenablecallcancellation">CoEnableCallCancellation</a> first. 
 
 
 
 When call cancellation is disabled, attempts to gain a pointer to a call object will fail. If the calling thread already has a pointer to a call object, calls on that object will fail.
 
-Unless you want to enable call cancellation on a thread at all times, you should pair calls to <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-coenablecallcancellation">CoEnableCallCancellation</a> with calls to <b>CoDisableCallCancellation</b>. Call cancellation is disabled only if each successful call to <b>CoEnableCallCancellation</b> is balanced by a successful call to <b>CoDisableCallCancellation</b>. 
+Unless you want to enable call cancellation on a thread at all times, you should pair calls to <a href="/windows/desktop/api/combaseapi/nf-combaseapi-coenablecallcancellation">CoEnableCallCancellation</a> with calls to <b>CoDisableCallCancellation</b>. Call cancellation is disabled only if each successful call to <b>CoEnableCallCancellation</b> is balanced by a successful call to <b>CoDisableCallCancellation</b>. 
 
 
 
 A call will be cancelable or not depending on the state of the thread at the time the call was made. Subsequently enabling or disabling call cancellation has no effect on any calls that are pending on the thread.
 
-If a thread is uninitialized and then reinitialized by calls to <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-couninitialize">CoUninitialize</a> and <a href="https://docs.microsoft.com/windows/desktop/api/objbase/nf-objbase-coinitialize">CoInitialize</a>, call cancellation is disabled on the thread, even if it was enabled when the thread was uninitialized.
+If a thread is uninitialized and then reinitialized by calls to <a href="/windows/desktop/api/combaseapi/nf-combaseapi-couninitialize">CoUninitialize</a> and <a href="/windows/desktop/api/objbase/nf-objbase-coinitialize">CoInitialize</a>, call cancellation is disabled on the thread, even if it was enabled when the thread was uninitialized.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-coenablecallcancellation">CoEnableCallCancellation</a>
+<a href="/windows/desktop/api/combaseapi/nf-combaseapi-coenablecallcancellation">CoEnableCallCancellation</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-icancelmethodcalls">ICancelMethodCalls</a>
-
+<a href="/windows/desktop/api/objidl/nn-objidl-icancelmethodcalls">ICancelMethodCalls</a>

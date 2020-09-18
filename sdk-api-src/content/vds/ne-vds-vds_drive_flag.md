@@ -55,9 +55,9 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="https://docs.microsoft.com/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
-Defines the set of valid flags for a <a href="https://docs.microsoft.com/windows/desktop/VDS/drive-object">drive object</a>.
+Defines the set of valid flags for a <a href="/windows/desktop/VDS/drive-object">drive object</a>.
 
 ## -enum-fields
 
@@ -67,7 +67,7 @@ The drive is reserved for use only as a hot spare.
 
 ### -field VDS_DRF_ASSIGNED
 
-The drive is assigned to a RAID group or <a href="https://docs.microsoft.com/windows/desktop/VDS/storage-pool-object">storage pool</a>.
+The drive is assigned to a RAID group or <a href="/windows/desktop/VDS/storage-pool-object">storage pool</a>.
 
 <b>Windows Server 2008, Windows Vista and Windows Server 2003:  </b>This value is not supported.
 
@@ -91,22 +91,21 @@ The drive is on standby as a hot spare.
 
 ## -remarks
 
-This enumeration provides the values for the <i>ulFlags</i> member of the  <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_drive_prop">VDS_DRIVE_PROP</a>structure.
+This enumeration provides the values for the <i>ulFlags</i> member of the  <a href="/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_drive_prop">VDS_DRIVE_PROP</a>structure.
 
-This enumeration provides the values for the <i>ulFlags</i> member of the  <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_drive_prop">VDS_DRIVE_PROP</a>structure.
+This enumeration provides the values for the <i>ulFlags</i> member of the  <a href="/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_drive_prop">VDS_DRIVE_PROP</a>structure.
 
 <div class="alert"><b>Note</b>  Additional constants might be added to the <b>VDS_DRIVE_FLAG</b> enumeration in future Windows versions. For this reason, your application must be designed to gracefully handle an unrecognized <b>VDS_DRIVE_FLAG</b> enumeration constant.</div>
 <div> </div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/VDS/vds-enumerations">VDS Enumerations</a>
+<a href="/windows/desktop/VDS/vds-enumerations">VDS Enumerations</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_drive_prop">VDS_DRIVE_PROP</a>
+<a href="/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_drive_prop">VDS_DRIVE_PROP</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_drive_prop2">VDS_DRIVE_PROP2</a>
-
+<a href="/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_drive_prop2">VDS_DRIVE_PROP2</a>

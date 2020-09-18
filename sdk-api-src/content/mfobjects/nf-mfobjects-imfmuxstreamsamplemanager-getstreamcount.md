@@ -99,5 +99,4 @@ Invalid argument.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfmuxstreamsamplemanager">IMFMuxStreamSampleManager</a>
-
+<a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfmuxstreamsamplemanager">IMFMuxStreamSampleManager</a>

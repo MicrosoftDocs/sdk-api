@@ -54,7 +54,7 @@ The <b>IWMPPlaylistArray</b> interface provides methods for accessing a collecti
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMPPlaylistArray</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IWMPPlaylistArray</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMPPlaylistArray</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IWMPPlaylistArray</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IWMPPlaylistArray</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpplaylistarray-get_count">get_count</a>
+<a href="/windows/desktop/api/wmp/nf-wmp-iwmpplaylistarray-get_count">get_count</a>
 </td>
 <td align="left" width="63%">
 Retrieves the number of playlists in the playlist array.
@@ -78,7 +78,7 @@ Retrieves the number of playlists in the playlist array.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpplaylistarray-item">item</a>
+<a href="/windows/desktop/api/wmp/nf-wmp-iwmpplaylistarray-item">item</a>
 </td>
 <td align="left" width="63%">
 Retrieves a pointer to the <b>IWMPPlaylist</b> interface representing the playlist at the specified index.
@@ -89,9 +89,8 @@ Retrieves a pointer to the <b>IWMPPlaylist</b> interface representing the playli
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpplaylist">IWMPPlaylist Interface</a>
+<a href="/windows/desktop/api/wmp/nn-wmp-iwmpplaylist">IWMPPlaylist Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WMP/interfaces">Interfaces</a>
-
+<a href="/windows/desktop/WMP/interfaces">Interfaces</a>

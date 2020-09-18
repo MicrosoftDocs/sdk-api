@@ -58,7 +58,7 @@ Checks whether a resource, or subresource, is in a specified state, or not.
 
 Type: <b>ID3D12Resource*</b>
 
-Specifies the  <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12resource">ID3D12Resource</a> to check.
+Specifies the  <a href="/windows/desktop/api/d3d12/nn-d3d12-id3d12resource">ID3D12Resource</a> to check.
 
 ### -param Subresource
 
@@ -81,9 +81,8 @@ This method returns true if the resource or subresource is in the specified stat
 
 ## -remarks
 
-This method is very similar to <a href="https://docs.microsoft.com/windows/desktop/api/d3d12sdklayers/nf-d3d12sdklayers-id3d12debugcommandlist-assertresourcestate">ID3D12DebugCommandList::AssertResourceState</a>, however there are methods on the command queue that work directly with resources that might need to be monitored (for example <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12commandqueue-copytilemappings">ID3D13CommandQueue::CopyTileMappings</a>).
+This method is very similar to <a href="/windows/desktop/api/d3d12sdklayers/nf-d3d12sdklayers-id3d12debugcommandlist-assertresourcestate">ID3D12DebugCommandList::AssertResourceState</a>, however there are methods on the command queue that work directly with resources that might need to be monitored (for example <a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12commandqueue-copytilemappings">ID3D13CommandQueue::CopyTileMappings</a>).
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d12sdklayers/nn-d3d12sdklayers-id3d12debugcommandqueue">ID3D12DebugCommandQueue</a>
-
+<a href="/windows/desktop/api/d3d12sdklayers/nn-d3d12sdklayers-id3d12debugcommandqueue">ID3D12DebugCommandQueue</a>

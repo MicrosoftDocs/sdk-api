@@ -56,7 +56,7 @@ The <b>EngUnlockDirectDrawSurface</b> function releases the lock on the specifie
 
 ### -param pSurface [in]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_surface_local">DD_SURFACE_LOCAL</a> structure that describes the surface to be unlocked.
+Pointer to a <a href="/windows/desktop/api/ddrawint/ns-ddrawint-dd_surface_local">DD_SURFACE_LOCAL</a> structure that describes the surface to be unlocked.
 
 ## -returns
 
@@ -64,9 +64,8 @@ Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns
 
 ## -remarks
 
-The surface must previously have been locked by <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-englockdirectdrawsurface">EngLockDirectDrawSurface</a>.
+The surface must previously have been locked by <a href="/windows/desktop/api/winddi/nf-winddi-englockdirectdrawsurface">EngLockDirectDrawSurface</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-englockdirectdrawsurface">EngLockDirectDrawSurface</a>
-
+<a href="/windows/desktop/api/winddi/nf-winddi-englockdirectdrawsurface">EngLockDirectDrawSurface</a>

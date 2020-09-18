@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-The <code>PROGRESS_DIALOG_CHECKBOX_ID</code> enumeration type indicates the check box on the <a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nn-photoacquire-iphotoprogressdialog">IPhotoProgressDialog</a> object.
+The <code>PROGRESS_DIALOG_CHECKBOX_ID</code> enumeration type indicates the check box on the <a href="/windows/desktop/api/photoacquire/nn-photoacquire-iphotoprogressdialog">IPhotoProgressDialog</a> object.
 
 ## -enum-fields
 
@@ -62,5 +62,4 @@ Specifies PROGRESS_DIALOG_CHECKBOX_ID_DEFAULT .
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/acquisition/enumeration-types">Enumeration Types</a>
-
+<a href="/previous-versions/windows/desktop/acquisition/enumeration-types">Enumeration Types</a>

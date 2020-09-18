@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Attempts to cancel an asynchronous operation that was scheduled with <a href="https://docs.microsoft.com/windows/desktop/api/mfapi/nf-mfapi-mfscheduleworkitem">MFScheduleWorkItem</a> or <a href="https://docs.microsoft.com/windows/desktop/api/mfapi/nf-mfapi-mfscheduleworkitemex">MFScheduleWorkItemEx</a>.
+Attempts to cancel an asynchronous operation that was scheduled with <a href="/windows/desktop/api/mfapi/nf-mfapi-mfscheduleworkitem">MFScheduleWorkItem</a> or <a href="/windows/desktop/api/mfapi/nf-mfapi-mfscheduleworkitemex">MFScheduleWorkItemEx</a>.
 
 ## -parameters
 
 ### -param Key [in]
 
-The key that was received in the <i>pKey</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/mfapi/nf-mfapi-mfscheduleworkitem">MFScheduleWorkItem</a>, <a href="https://docs.microsoft.com/windows/desktop/api/mfapi/nf-mfapi-mfscheduleworkitemex">MFScheduleWorkItemEx</a>, or <a href="https://docs.microsoft.com/windows/desktop/api/mfapi/nf-mfapi-mfputwaitingworkitem">MFPutWaitingWorkItem</a> functions.
+The key that was received in the <i>pKey</i> parameter of the <a href="/windows/desktop/api/mfapi/nf-mfapi-mfscheduleworkitem">MFScheduleWorkItem</a>, <a href="/windows/desktop/api/mfapi/nf-mfapi-mfscheduleworkitemex">MFScheduleWorkItemEx</a>, or <a href="/windows/desktop/api/mfapi/nf-mfapi-mfputwaitingworkitem">MFPutWaitingWorkItem</a> functions.
 
 ## -returns
 
@@ -75,9 +75,8 @@ This function is available on the following platforms if the Windows Media Forma
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>
+<a href="/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/work-queues">Work Queues</a>
-
+<a href="/windows/desktop/medfound/work-queues">Work Queues</a>

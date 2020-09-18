@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-Gets and sets a Boolean value that indicates  whether the <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdatesearcher">UpdateSearcher</a> goes online to search for updates.
+Gets and sets a Boolean value that indicates  whether the <a href="/windows/desktop/api/wuapi/nn-wuapi-iupdatesearcher">UpdateSearcher</a> goes online to search for updates.
 
 This property is read/write.
 
@@ -60,5 +60,4 @@ This property is read/write.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdatesearcher">IUpdateSearcher</a>
-
+<a href="/windows/desktop/api/wuapi/nn-wuapi-iupdatesearcher">IUpdateSearcher</a>

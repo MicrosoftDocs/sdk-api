@@ -55,7 +55,7 @@ api_name:
 ## -description
 
 Contains pointers to the functions called by a client-side DLL to access virtual channels.Remote Desktop Services calls your 
-<a href="https://docs.microsoft.com/windows/desktop/api/cchannel/nc-cchannel-virtualchannelentry">VirtualChannelEntry</a> function to pass this structure.
+<a href="/windows/desktop/api/cchannel/nc-cchannel-virtualchannelentry">VirtualChannelEntry</a> function to pass this structure.
 
 ## -struct-fields
 
@@ -70,40 +70,39 @@ Protocol version. Remote Desktop Services sets this member to <b>VIRTUAL_CHANNEL
 ### -field pVirtualChannelInit
 
 Pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/cchannel/nc-cchannel-virtualchannelinit">VirtualChannelInit</a> function.
+<a href="/windows/desktop/api/cchannel/nc-cchannel-virtualchannelinit">VirtualChannelInit</a> function.
 
 ### -field pVirtualChannelOpen
 
 Pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/cchannel/nc-cchannel-virtualchannelopen">VirtualChannelOpen</a> function.
+<a href="/windows/desktop/api/cchannel/nc-cchannel-virtualchannelopen">VirtualChannelOpen</a> function.
 
 ### -field pVirtualChannelClose
 
 Pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/cchannel/nc-cchannel-virtualchannelclose">VirtualChannelClose</a> function.
+<a href="/windows/desktop/api/cchannel/nc-cchannel-virtualchannelclose">VirtualChannelClose</a> function.
 
 ### -field pVirtualChannelWrite
 
 Pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/cchannel/nc-cchannel-virtualchannelwrite">VirtualChannelWrite</a> function.
+<a href="/windows/desktop/api/cchannel/nc-cchannel-virtualchannelwrite">VirtualChannelWrite</a> function.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/cchannel/nc-cchannel-virtualchannelclose">VirtualChannelClose</a>
+<a href="/windows/desktop/api/cchannel/nc-cchannel-virtualchannelclose">VirtualChannelClose</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/cchannel/nc-cchannel-virtualchannelentry">VirtualChannelEntry</a>
+<a href="/windows/desktop/api/cchannel/nc-cchannel-virtualchannelentry">VirtualChannelEntry</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/cchannel/nc-cchannel-virtualchannelinit">VirtualChannelInit</a>
+<a href="/windows/desktop/api/cchannel/nc-cchannel-virtualchannelinit">VirtualChannelInit</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/cchannel/nc-cchannel-virtualchannelopen">VirtualChannelOpen</a>
+<a href="/windows/desktop/api/cchannel/nc-cchannel-virtualchannelopen">VirtualChannelOpen</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/cchannel/nc-cchannel-virtualchannelwrite">VirtualChannelWrite</a>
-
+<a href="/windows/desktop/api/cchannel/nc-cchannel-virtualchannelwrite">VirtualChannelWrite</a>

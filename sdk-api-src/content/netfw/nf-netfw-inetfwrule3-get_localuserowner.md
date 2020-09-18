@@ -64,5 +64,4 @@ If this rule does not specify <b>localUserConditions</b>, all the traffic that t
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nn-netfw-inetfwrule3">INetFwRule3</a>
-
+<a href="/previous-versions/windows/desktop/api/netfw/nn-netfw-inetfwrule3">INetFwRule3</a>

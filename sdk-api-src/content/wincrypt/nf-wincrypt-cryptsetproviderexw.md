@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-<div class="alert"><b>Important</b>  This API is deprecated. New and existing software should start using <a href="https://docs.microsoft.com/windows/desktop/SecCNG/cng-portal">Cryptography Next Generation APIs.</a> Microsoft may remove this API in future releases.</div><div> </div>The <b>CryptSetProviderEx</b> function specifies the default <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">cryptographic service provider</a> (CSP) of a specified provider type for the local computer or current user.
+<div class="alert"><b>Important</b>  This API is deprecated. New and existing software should start using <a href="/windows/desktop/SecCNG/cng-portal">Cryptography Next Generation APIs.</a> Microsoft may remove this API in future releases.</div><div> </div>The <b>CryptSetProviderEx</b> function specifies the default <a href="/windows/desktop/SecGloss/c-gly">cryptographic service provider</a> (CSP) of a specified provider type for the local computer or current user.
 <div class="alert"><b>Note</b>  Typical applications do not use this function. It is intended for use solely by administrative applications.</div><div> </div>
 
 ## -parameters
@@ -62,7 +62,7 @@ api_name:
 ### -param pszProvName [in]
 
 The name of the new default CSP. This must be a CSP installed on the computer. For a list of available cryptographic providers, see 
-<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptographic-provider-names">Cryptographic Provider Names</a>.
+<a href="/windows/desktop/SecCrypto/cryptographic-provider-names">Cryptographic Provider Names</a>.
 
 ### -param dwProvType [in]
 
@@ -121,7 +121,7 @@ Causes the computer default CSP of the specified type to be set.
 If the function succeeds, the return value is nonzero (<b>TRUE</b>).
 
 If the function fails, the return value is zero (<b>FALSE</b>). For extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. Possible error codes include those shown in the following table.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. Possible error codes include those shown in the following table.
 
 <table>
 <tr>
@@ -155,7 +155,7 @@ The operating system ran out of memory.
 ## -remarks
 
 Most applications do not specify a CSP name when calling the 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptacquirecontexta">CryptAcquireContext</a> function; however, an application can specify a CSP name and thereby select a CSP with an appropriate level of security. Because calls to <b>CryptSetProviderEx</b> determine the CSP of a specified type used by all applications from that point on, <b>CryptSetProviderEx</b> must never be called without a user's consent.
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptacquirecontexta">CryptAcquireContext</a> function; however, an application can specify a CSP name and thereby select a CSP with an appropriate level of security. Because calls to <b>CryptSetProviderEx</b> determine the CSP of a specified type used by all applications from that point on, <b>CryptSetProviderEx</b> must never be called without a user's consent.
 
 
 
@@ -166,13 +166,12 @@ Most applications do not specify a CSP name when calling the
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptacquirecontexta">CryptAcquireContext</a>
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptacquirecontexta">CryptAcquireContext</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptsetprovidera">CryptSetProvider</a>
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptsetprovidera">CryptSetProvider</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">Service Provider Functions</a>
-
+<a href="/windows/desktop/SecCrypto/cryptography-functions">Service Provider Functions</a>

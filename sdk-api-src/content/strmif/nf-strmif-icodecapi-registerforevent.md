@@ -77,7 +77,7 @@ The codec notifies the application when the properties of the codec change.  The
 </tr>
 <tr>
 <td width="40%"><a id="One_of_the_property_GUIDs_defined_in_codecapi.h.__See_Codec_API_Properties._"></a><a id="one_of_the_property_guids_defined_in_codecapi.h.__see_codec_api_properties._"></a><a id="ONE_OF_THE_PROPERTY_GUIDS_DEFINED_IN_CODECAPI.H.__SEE_CODEC_API_PROPERTIES._"></a><dl>
-<dt><b>One of the property GUIDs defined in codecapi.h. (See <a href="https://docs.microsoft.com/windows/desktop/DirectShow/codec-api-properties">Codec API Properties</a>.)</b></dt>
+<dt><b>One of the property GUIDs defined in codecapi.h. (See <a href="/windows/desktop/DirectShow/codec-api-properties">Codec API Properties</a>.)</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -136,9 +136,9 @@ Not implemented. The codec does not support event notification, or does not supp
 
 ## -remarks
 
-The application receives an <a href="https://docs.microsoft.com/windows/desktop/DirectShow/ec-codecapi-event">EC_CODECAPI_EVENT</a> event notification whenever the encoder codec sends the event.  To get the event, uses the <a href="https://docs.microsoft.com/windows/desktop/api/control/nn-control-imediaeventex">IMediaEventEx</a> interface.
+The application receives an <a href="/windows/desktop/DirectShow/ec-codecapi-event">EC_CODECAPI_EVENT</a> event notification whenever the encoder codec sends the event.  To get the event, uses the <a href="/windows/desktop/api/control/nn-control-imediaeventex">IMediaEventEx</a> interface.
 
-The <i>lParam2</i> parameter of the event is a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-codecapieventdata">CodecAPIEventData</a> structure. This structure can be followed by additional data, depending on the event GUID. The size of this  data is given by the <b>dataLength</b> member.
+The <i>lParam2</i> parameter of the event is a pointer to a <a href="/windows/desktop/api/strmif/ns-strmif-codecapieventdata">CodecAPIEventData</a> structure. This structure can be followed by additional data, depending on the event GUID. The size of this  data is given by the <b>dataLength</b> member.
 
 <table>
 <tr>
@@ -162,17 +162,16 @@ The <i>lParam2</i> parameter of the event is a pointer to a <a href="https://doc
 
 If the codec does not support the specified event, the method returns <b>E_NOTIMPL</b>. The codec might support other events.
 
-To disable notifications for an event, call <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-icodecapi-unregisterforevent">ICodecAPI::UnregisterForEvent</a>.
+To disable notifications for an event, call <a href="/windows/desktop/api/strmif/nf-strmif-icodecapi-unregisterforevent">ICodecAPI::UnregisterForEvent</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/codec-api-reference">Codec API Reference</a>
+<a href="/windows/desktop/DirectShow/codec-api-reference">Codec API Reference</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/encoder-api">Encoder API</a>
+<a href="/windows/desktop/DirectShow/encoder-api">Encoder API</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-icodecapi">ICodecAPI</a>
-
+<a href="/windows/desktop/api/strmif/nn-strmif-icodecapi">ICodecAPI</a>

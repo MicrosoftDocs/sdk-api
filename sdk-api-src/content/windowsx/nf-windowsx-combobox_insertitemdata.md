@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Inserts item data in a list in a combo box at the specified location. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/cb-insertstring">CB_INSERTSTRING</a> message explicitly.
+Inserts item data in a list in a combo box at the specified location. You can use this macro or send the <a href="/windows/desktop/Controls/cb-insertstring">CB_INSERTSTRING</a> message explicitly.
 
 ## -parameters
 
 ### -param hwndCtl
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the control.
 
@@ -68,11 +68,10 @@ The zero-based index in the list at which to insert the item data, or –1 to ad
 
 ### -param data
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPARAM</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">LPARAM</a></b>
 
 The item data to insert.
 
 ## -remarks
 
-Use this macro for a list in a combo box with an owner-drawn style but without the <a href="https://docs.microsoft.com/windows/desktop/Controls/combo-box-styles">CBS_HASSTRINGS</a> style. For more information, see <a href="https://docs.microsoft.com/windows/desktop/Controls/cb-insertstring">CB_INSERTSTRING</a>.
-
+Use this macro for a list in a combo box with an owner-drawn style but without the <a href="/windows/desktop/Controls/combo-box-styles">CBS_HASSTRINGS</a> style. For more information, see <a href="/windows/desktop/Controls/cb-insertstring">CB_INSERTSTRING</a>.

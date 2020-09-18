@@ -72,9 +72,8 @@ If no flags are set (the default case), it is equivalent to the bitwise <b>OR</b
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/directshow-enumerated-types">DirectShow Enumerated Types</a>
+<a href="/windows/desktop/DirectShow/directshow-enumerated-types">DirectShow Enumerated Types</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamgraphstreams-findupstreaminterface">IAMGraphStreams::FindUpstreamInterface</a>
-
+<a href="/windows/desktop/api/strmif/nf-strmif-iamgraphstreams-findupstreaminterface">IAMGraphStreams::FindUpstreamInterface</a>

@@ -49,25 +49,25 @@ api_name:
 
 ## -description
 
-Transforms the [BoundingFrustum](/windows/win32/api/directxcollision/ns-directxcollision-boundingfrustum) using the specified scale, rotation and translation vectors.
+Transforms the [BoundingFrustum](./ns-directxcollision-boundingfrustum.md) using the specified scale, rotation and translation vectors.
 
 ## -parameters
 
 ### -param Out [out, ref]
 
-The transformed [BoundingFrustum](/windows/win32/api/directxcollision/ns-directxcollision-boundingfrustum).
+The transformed [BoundingFrustum](./ns-directxcollision-boundingfrustum.md).
 
 ### -param Scale [in]
 
-The value to scale the [BoundingFrustum](/windows/win32/api/directxcollision/ns-directxcollision-boundingfrustum) by.
+The value to scale the [BoundingFrustum](./ns-directxcollision-boundingfrustum.md) by.
 
 ### -param Rotation [in]
 
-The value to rotate the [BoundingFrustum](/windows/win32/api/directxcollision/ns-directxcollision-boundingfrustum) by.
+The value to rotate the [BoundingFrustum](./ns-directxcollision-boundingfrustum.md) by.
 
 ### -param Translation [in]
 
-The value to translate the [BoundingFrustum](/windows/win32/api/directxcollision/ns-directxcollision-boundingfrustum) by.
+The value to translate the [BoundingFrustum](./ns-directxcollision-boundingfrustum.md) by.
 
 ## -returns
 
@@ -80,7 +80,7 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 ## -see-also
 
-[BoundingFrustum](/windows/win32/api/directxcollision/ns-directxcollision-boundingfrustum)
+[BoundingFrustum](./ns-directxcollision-boundingfrustum.md)
 
 
 
@@ -89,4 +89,3 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 <a href="https://msdn.microsoft.com/fba8da18-1c2e-4231-9d03-1409c733f8c7">Transform</a>
-

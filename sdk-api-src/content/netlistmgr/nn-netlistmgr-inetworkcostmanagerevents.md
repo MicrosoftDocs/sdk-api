@@ -55,7 +55,7 @@ Use this interface to notify an application of machine-wide cost and data plan r
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">INetworkCostManagerEvents</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>INetworkCostManagerEvents</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">INetworkCostManagerEvents</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>INetworkCostManagerEvents</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -77,7 +77,7 @@ Indicates a cost change for either machine-wide Internet connectivity, or the fi
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/netlistmgr/nf-netlistmgr-inetworkcostmanagerevents-dataplanstatuschanged">DataPlanStatusChanged</a>
+<a href="/windows/desktop/api/netlistmgr/nf-netlistmgr-inetworkcostmanagerevents-dataplanstatuschanged">DataPlanStatusChanged</a>
 </td>
 <td align="left" width="63%">
 Indicates a change to the status of a data plan associated with a connection used for either machine-wide Internet connectivity, or the first-hop of routing to a specific destination on a connection.
@@ -88,5 +88,4 @@ Indicates a change to the status of a data plan associated with a connection use
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
-
+<a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>

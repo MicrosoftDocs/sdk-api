@@ -81,9 +81,8 @@ The method succeeded.
 
 ## -remarks
 
-This method is equivalent to the <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriternetworksink-close">IWMWriterNetworkSink::Close</a> method, except that it does not release the port.
+This method is equivalent to the <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriternetworksink-close">IWMWriterNetworkSink::Close</a> method, except that it does not release the port.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwriternetworksink">IWMWriterNetworkSink Interface</a>
-
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwriternetworksink">IWMWriterNetworkSink Interface</a>

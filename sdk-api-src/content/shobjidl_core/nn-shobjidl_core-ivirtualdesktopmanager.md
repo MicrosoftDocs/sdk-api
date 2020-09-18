@@ -54,7 +54,7 @@ Exposes methods that enable an application to interact with groups of windows th
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVirtualDesktopManager</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVirtualDesktopManager</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVirtualDesktopManager</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVirtualDesktopManager</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IVirtualDesktopManager</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nf-shobjidl-ivirtualdesktopmanager-getwindowdesktopid">GetWindowDesktopId</a>
+<a href="/windows/desktop/api/shobjidl/nf-shobjidl-ivirtualdesktopmanager-getwindowdesktopid">GetWindowDesktopId</a>
 </td>
 <td align="left" width="63%">
 Gets the identifier for the virtual desktop hosting the provided top-level window.
@@ -78,7 +78,7 @@ Gets the identifier for the virtual desktop hosting the provided top-level windo
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nf-shobjidl-ivirtualdesktopmanager-iswindowoncurrentvirtualdesktop">IsWindowOnCurrentVirtualDesktop</a>
+<a href="/windows/desktop/api/shobjidl/nf-shobjidl-ivirtualdesktopmanager-iswindowoncurrentvirtualdesktop">IsWindowOnCurrentVirtualDesktop</a>
 </td>
 <td align="left" width="63%">
 Indicates whether the provided window is on the currently active virtual desktop.
@@ -87,7 +87,7 @@ Indicates whether the provided window is on the currently active virtual desktop
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nf-shobjidl-ivirtualdesktopmanager-movewindowtodesktop">MoveWindowToDesktop</a>
+<a href="/windows/desktop/api/shobjidl/nf-shobjidl-ivirtualdesktopmanager-movewindowtodesktop">MoveWindowToDesktop</a>
 </td>
 <td align="left" width="63%">
 Moves a window to the specified virtual desktop.
@@ -107,5 +107,4 @@ In the above image, the user has two virtual desktops and <b>VD2</b> is the curr
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/shell/virtualdesktopmanager">VirtualDesktopManager</a>
-
+<a href="/windows/desktop/shell/virtualdesktopmanager">VirtualDesktopManager</a>

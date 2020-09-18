@@ -56,7 +56,7 @@ Changes the remote name to a new URL in a download job.
 
 ### -param Val [in]
 
-Null-terminated string that contains the name of the file on the server. For information on specifying the remote name, see the <b>RemoteName</b> member and Remarks section of the <a href="https://docs.microsoft.com/windows/desktop/api/bits/ns-bits-bg_file_info">BG_FILE_INFO</a> structure.
+Null-terminated string that contains the name of the file on the server. For information on specifying the remote name, see the <b>RemoteName</b> member and Remarks section of the <a href="/windows/desktop/api/bits/ns-bits-bg_file_info">BG_FILE_INFO</a> structure.
 
 ## -returns
 
@@ -117,7 +117,7 @@ The state of the job cannot be <b>BG_JOB_STATE_CANCELLED</b> or <b>BG_JOB_STATE_
 
  Typically, you call this method if you want to change the protocol used to transfer the file (for example, from SMB to HTTP) or if you want to change the file name or path.
 
-This method does not serialize when it returns. To serialize the change, <a href="https://docs.microsoft.com/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-suspend">suspend</a> the job, call this method (if changing multiple files in the job, use a loop), and <a href="https://docs.microsoft.com/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-resume">resume</a> the job. Calling the <b>IBackgroundCopyJob::Resume</b> method serializes the change. 
+This method does not serialize when it returns. To serialize the change, <a href="/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-suspend">suspend</a> the job, call this method (if changing multiple files in the job, use a loop), and <a href="/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-resume">resume</a> the job. Calling the <b>IBackgroundCopyJob::Resume</b> method serializes the change. 
 
 If the time stamp or file size of the new remote name is different from the previous remote name or the new server does not support checkpoint resume (for HTTP remote names), BITS restarts the download. Otherwise, the transfer resumes from the same position on the new server. BITS does not restart already transferred files. 
 
@@ -146,7 +146,7 @@ If the remote name identifies a server message block (SMB) path, the following t
 
 #### Examples
 
-The following example shows how to call the <b>SetRemoteName</b> method to change the remote name of a file. The example assumes the <a href="https://docs.microsoft.com/windows/desktop/api/bits/nn-bits-ibackgroundcopyjob">IBackgroundCopyJob</a> variable, pJob, is valid and the job contains one or more files.
+The following example shows how to call the <b>SetRemoteName</b> method to change the remote name of a file. The example assumes the <a href="/windows/desktop/api/bits/nn-bits-ibackgroundcopyjob">IBackgroundCopyJob</a> variable, pJob, is valid and the job contains one or more files.
 
 
 ```cpp
@@ -219,9 +219,8 @@ The following example shows how to call the <b>SetRemoteName</b> method to chang
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits2_0/nn-bits2_0-ibackgroundcopyfile2">IBackgroundCopyFile2</a>
+<a href="/windows/desktop/api/bits2_0/nn-bits2_0-ibackgroundcopyfile2">IBackgroundCopyFile2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits2_0/nf-bits2_0-ibackgroundcopyjob3-replaceremoteprefix">IBackgroundCopyJob3::ReplaceRemotePrefix</a>
-
+<a href="/windows/desktop/api/bits2_0/nf-bits2_0-ibackgroundcopyjob3-replaceremoteprefix">IBackgroundCopyJob3::ReplaceRemotePrefix</a>

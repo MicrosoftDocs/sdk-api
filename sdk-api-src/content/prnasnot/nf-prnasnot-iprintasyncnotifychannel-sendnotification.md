@@ -131,9 +131,9 @@ A pointer to the content of the notification and its size and type.
 
 The return values are COM error codes. Because this function might complete the operation successfully yet return an HRESULT other than S_OK you should use the SUCCEEDED or FAILED macro to determine the success of the call. To get the specific HRESULT that was returned by the function, use the HRESULT_CODE macro. The following code example shows how these macros can be used.
 
-See <a href="https://docs.microsoft.com/windows/desktop/api/prnasnot/ne-prnasnot-printasyncnotifyerror">PrintAsyncNotifyError</a> for other possible return values.
+See <a href="/windows/desktop/api/prnasnot/ne-prnasnot-printasyncnotifyerror">PrintAsyncNotifyError</a> for other possible return values.
 
-For more information about COM error codes, see <a href="https://docs.microsoft.com/windows/desktop/SetupApi/error-handling">Error Handling</a>.
+For more information about COM error codes, see <a href="/windows/desktop/SetupApi/error-handling">Error Handling</a>.
 
 
 ```cpp
@@ -178,23 +178,22 @@ if (SUCCEEDED(hr)) {
 
 ## -remarks
 
-For a unidirectional channel, if a <b>SendNotification</b> call is made while the print spooler is processing an earlier <b>SendNotification</b> call, the print spooler queues the pending notification. Queued notifications are discarded if either the component that is hosted by the print spooler or the application calls <a href="https://docs.microsoft.com/windows/desktop/api/prnasnot/nf-prnasnot-iprintasyncnotifychannel-closechannel">IPrintAsyncNotifyChannel::CloseChannel</a>.
+For a unidirectional channel, if a <b>SendNotification</b> call is made while the print spooler is processing an earlier <b>SendNotification</b> call, the print spooler queues the pending notification. Queued notifications are discarded if either the component that is hosted by the print spooler or the application calls <a href="/windows/desktop/api/prnasnot/nf-prnasnot-iprintasyncnotifychannel-closechannel">IPrintAsyncNotifyChannel::CloseChannel</a>.
 
 For a bidirectional channel, if a <b>SendNotification</b> call is made while the Print-Spooler is processing an earlier <b>SendNotification</b> call, then the pending call will fail. In that case, if the caller is a sender inside print spooler, <b>SendNotification</b> returns CHANNEL_WAITING_FOR_CLIENT_NOTIFICATION. If the caller is a listener sending a reply, then <b>SendNotification</b> returns ASYNC_CALL_IN_PROGRESS.
 
 When multiple listeners exist for the same bidirectional channel, the initial notification sent on the channel will be delivered to all listeners. The first listener to reply will acquire the channel. Listeners calling <b>SendNotification</b> after the channel was acquired will fail with error CHANNEL_ACQUIRED.
 
-A listener receiving an initial notification on a bidirectional channel might not be interested in acquiring the channel. In this case the listener can call <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">IUnknown::Release</a> method can be called. The <b>IUnknown::Release</b> method does not need to be called if <b>SendNotification</b> or <a href="https://docs.microsoft.com/windows/desktop/api/prnasnot/nf-prnasnot-iprintasyncnotifychannel-closechannel">IPrintAsyncNotifyChannel::CloseChannel</a> methods are called.
+A listener receiving an initial notification on a bidirectional channel might not be interested in acquiring the channel. In this case the listener can call <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">IUnknown::Release</a> method can be called. The <b>IUnknown::Release</b> method does not need to be called if <b>SendNotification</b> or <a href="/windows/desktop/api/prnasnot/nf-prnasnot-iprintasyncnotifychannel-closechannel">IPrintAsyncNotifyChannel::CloseChannel</a> methods are called.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/printdocs/asynchronous-notification-interfaces">Asynchronous Printing Notification Interfaces</a>
+<a href="/windows/desktop/printdocs/asynchronous-notification-interfaces">Asynchronous Printing Notification Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/prnasnot/nn-prnasnot-iprintasyncnotifychannel">IPrintAsyncNotifyChannel</a>
+<a href="/windows/desktop/api/prnasnot/nn-prnasnot-iprintasyncnotifychannel">IPrintAsyncNotifyChannel</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/printdocs/printdocs-printing">Printing</a>
-
+<a href="/windows/desktop/printdocs/printdocs-printing">Printing</a>

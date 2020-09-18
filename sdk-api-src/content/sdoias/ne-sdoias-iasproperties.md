@@ -99,9 +99,8 @@ Used by the System Health Validator Template settings of NPS user interface.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-radiusproxyproperties">RADIUSPROXYPROPERTIES</a>
+<a href="/windows/desktop/api/sdoias/ne-sdoias-radiusproxyproperties">RADIUSPROXYPROPERTIES</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-radiusservergroupproperties">RADIUSSERVERGROUPPROPERTIES</a>
-
+<a href="/windows/desktop/api/sdoias/ne-sdoias-radiusservergroupproperties">RADIUSSERVERGROUPPROPERTIES</a>

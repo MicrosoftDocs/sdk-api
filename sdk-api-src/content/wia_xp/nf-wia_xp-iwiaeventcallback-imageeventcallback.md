@@ -59,7 +59,7 @@ The <b>IWiaEventCallback::ImageEventCallback</b> method is invoked by the Window
 
 Type: <b>const GUID*</b>
 
-Specifies the unique identifier of the event. For a complete list of device events, see <a href="https://docs.microsoft.com/windows/desktop/wia/-wia-wia-event-identifiers">WIA Event Identifiers</a>.
+Specifies the unique identifier of the event. For a complete list of device events, see <a href="/windows/desktop/wia/-wia-wia-event-identifiers">WIA Event Identifiers</a>.
 
 ### -param bstrEventDescription [in]
 
@@ -83,7 +83,7 @@ Specifies the string description of the device.
 
 Type: <b>DWORD</b>
 
-Specifies the type of the device. See <a href="https://docs.microsoft.com/windows/desktop/wia/-wia-wia-device-type-specifiers">WIA Device Type Specifiers</a> for a list of possible values.
+Specifies the type of the device. See <a href="/windows/desktop/wia/-wia-wia-device-type-specifiers">WIA Device Type Specifiers</a> for a list of possible values.
 
 ### -param bstrFullItemName [in]
 
@@ -111,7 +111,6 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -remarks
 
-To receive notification of WIA hardware device events, applications pass a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/wia_xp/nn-wia_xp-iwiaeventcallback">IWiaEventCallback</a> interface to the <a href="https://docs.microsoft.com/windows/desktop/api/wia_xp/nf-wia_xp-iwiadevmgr-registereventcallbackinterface">RegisterEventCallbackInterface</a> method. The WIA run-time system then uses that interface pointer to invoke the <b>IWiaEventCallback::ImageEventCallback</b> method whenever a WIA hardware device event occurs.
+To receive notification of WIA hardware device events, applications pass a pointer to the <a href="/windows/desktop/api/wia_xp/nn-wia_xp-iwiaeventcallback">IWiaEventCallback</a> interface to the <a href="/windows/desktop/api/wia_xp/nf-wia_xp-iwiadevmgr-registereventcallbackinterface">RegisterEventCallbackInterface</a> method. The WIA run-time system then uses that interface pointer to invoke the <b>IWiaEventCallback::ImageEventCallback</b> method whenever a WIA hardware device event occurs.
 
-Note that there is no guarantee the callback will be invoked on the same thread that registered the <a href="https://docs.microsoft.com/windows/desktop/api/wia_xp/nn-wia_xp-iwiaeventcallback">IWiaEventCallback</a> interface.
-
+Note that there is no guarantee the callback will be invoked on the same thread that registered the <a href="/windows/desktop/api/wia_xp/nn-wia_xp-iwiaeventcallback">IWiaEventCallback</a> interface.

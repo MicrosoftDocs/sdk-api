@@ -56,11 +56,11 @@ Sets the proxy information for the session.
 
 ### -param accessType [in]
 
-Specifies the proxy access type. This parameter must be set to one of the values in the <a href="https://docs.microsoft.com/windows/desktop/api/wsmandisp/ne-wsmandisp-wsmanproxyaccesstypeflags">WSManProxyAccessTypeFlags</a> enumeration. The default value is <b>WSManProxyWinHttpConfig</b>.
+Specifies the proxy access type. This parameter must be set to one of the values in the <a href="/windows/desktop/api/wsmandisp/ne-wsmandisp-wsmanproxyaccesstypeflags">WSManProxyAccessTypeFlags</a> enumeration. The default value is <b>WSManProxyWinHttpConfig</b>.
 
 ### -param authenticationMechanism [in]
 
-Specifies the authentication mechanism to use for the proxy.  This parameter is optional and the default value is 0. If this parameter is set to 0, the WinRM client chooses either Kerberos or Negotiate. Otherwise, this parameter must be set to one of the values in the <a href="https://docs.microsoft.com/windows/desktop/api/wsmandisp/ne-wsmandisp-wsmanproxyauthenticationflags">WSManProxyAuthenticationFlags</a> enumeration. The default value from the enumeration is <b>WSManFlagProxyAuthenticationUseNegotiate</b>.
+Specifies the authentication mechanism to use for the proxy.  This parameter is optional and the default value is 0. If this parameter is set to 0, the WinRM client chooses either Kerberos or Negotiate. Otherwise, this parameter must be set to one of the values in the <a href="/windows/desktop/api/wsmandisp/ne-wsmandisp-wsmanproxyauthenticationflags">WSManProxyAuthenticationFlags</a> enumeration. The default value from the enumeration is <b>WSManFlagProxyAuthenticationUseNegotiate</b>.
 
 ### -param userName [in]
 
@@ -80,5 +80,4 @@ The default credentials are the credentials under which the current thread is op
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wsmandisp/nn-wsmandisp-iwsmanconnectionoptionsex2">IWSManConnectionOptionsEx2</a>
-
+<a href="/windows/desktop/api/wsmandisp/nn-wsmandisp-iwsmanconnectionoptionsex2">IWSManConnectionOptionsEx2</a>

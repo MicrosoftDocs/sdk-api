@@ -60,7 +60,7 @@ The handle of the object to get the property for. This can be a provider handle 
 
 ### -param pszProperty [in]
 
-A pointer to a null-terminated Unicode string that contains the name of the property to retrieve. This can be one of the predefined <a href="https://docs.microsoft.com/windows/desktop/SecCNG/key-storage-property-identifiers">Key Storage Property Identifiers</a> or a custom property identifier.
+A pointer to a null-terminated Unicode string that contains the name of the property to retrieve. This can be one of the predefined <a href="/windows/desktop/SecCNG/key-storage-property-identifiers">Key Storage Property Identifiers</a> or a custom property identifier.
 
 ### -param pbOutput [out]
 
@@ -126,7 +126,7 @@ For the <b>NCRYPT_SECURITY_DESCR_PROPERTY</b> property, this parameter must also
 </dl>
 </td>
 <td width="60%">
-Retrieve the security identifier (SID) of the object's owner. Use the <a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-getsecuritydescriptorowner">GetSecurityDescriptorOwner</a> function to obtain the owner SID from the <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-security_descriptor">SECURITY_DESCRIPTOR</a> structure.
+Retrieve the security identifier (SID) of the object's owner. Use the <a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-getsecuritydescriptorowner">GetSecurityDescriptorOwner</a> function to obtain the owner SID from the <a href="/windows/desktop/api/winnt/ns-winnt-security_descriptor">SECURITY_DESCRIPTOR</a> structure.
 
 </td>
 </tr>
@@ -136,7 +136,7 @@ Retrieve the security identifier (SID) of the object's owner. Use the <a href="h
 </dl>
 </td>
 <td width="60%">
-Retrieve the SID of the object's primary group. Use the <a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-getsecuritydescriptorgroup">GetSecurityDescriptorGroup</a> function to obtain the group SID from the <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-security_descriptor">SECURITY_DESCRIPTOR</a> structure.
+Retrieve the SID of the object's primary group. Use the <a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-getsecuritydescriptorgroup">GetSecurityDescriptorGroup</a> function to obtain the group SID from the <a href="/windows/desktop/api/winnt/ns-winnt-security_descriptor">SECURITY_DESCRIPTOR</a> structure.
 
 </td>
 </tr>
@@ -146,7 +146,7 @@ Retrieve the SID of the object's primary group. Use the <a href="https://docs.mi
 </dl>
 </td>
 <td width="60%">
-Retrieve the discretionary access control list (DACL). Use the <a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-getsecuritydescriptorsacl">GetSecurityDescriptorSacl</a> function to obtain the DACL from the <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-security_descriptor">SECURITY_DESCRIPTOR</a> structure.
+Retrieve the discretionary access control list (DACL). Use the <a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-getsecuritydescriptorsacl">GetSecurityDescriptorSacl</a> function to obtain the DACL from the <a href="/windows/desktop/api/winnt/ns-winnt-security_descriptor">SECURITY_DESCRIPTOR</a> structure.
 
 </td>
 </tr>
@@ -156,7 +156,7 @@ Retrieve the discretionary access control list (DACL). Use the <a href="https://
 </dl>
 </td>
 <td width="60%">
-Retrieve the system access control list (SACL). Use the <a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-getsecuritydescriptordacl">GetSecurityDescriptorDacl</a> function to obtain the SACL from the <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-security_descriptor">SECURITY_DESCRIPTOR</a> structure.
+Retrieve the system access control list (SACL). Use the <a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-getsecuritydescriptordacl">GetSecurityDescriptorDacl</a> function to obtain the SACL from the <a href="/windows/desktop/api/winnt/ns-winnt-security_descriptor">SECURITY_DESCRIPTOR</a> structure.
 
 </td>
 </tr>
@@ -246,5 +246,4 @@ The specified property is not supported for the object.
 
 ## -remarks
 
-A service must not call this function from its <a href="https://msdn.microsoft.com/library/ms686321.aspx">StartService Function</a>. If a service calls this function from its StartService function, a deadlock can occur, and the service may stop responding.
-
+A service must not call this function from its <a href="/windows/win32/api/winsvc/nf-winsvc-startservicea">StartService Function</a>. If a service calls this function from its StartService function, a deadlock can occur, and the service may stop responding.

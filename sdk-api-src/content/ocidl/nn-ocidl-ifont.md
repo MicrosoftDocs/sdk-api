@@ -53,14 +53,14 @@ api_name:
 Provides a wrapper around a Windows font object. The COM font object supports a number of 
     read/write properties as well as a set of methods through its <b>IFont</b> 
     interface. It supports the same set of properties (but not the methods) through the dispatch interface 
-    <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-ifontdisp">IFontDisp</a>, which is derived from 
+    <a href="/windows/desktop/api/ocidl/nn-ocidl-ifontdisp">IFontDisp</a>, which is derived from 
     <b>IDispatch</b> to provide access to the font's properties through Automation. The system 
     provides a standard implementation of the font object with both interfaces.
 
 The font object also supports the outgoing interface 
-    <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-ipropertynotifysink">IPropertyNotifySink</a> so a client can determine when 
+    <a href="/windows/desktop/api/ocidl/nn-ocidl-ipropertynotifysink">IPropertyNotifySink</a> so a client can determine when 
     font properties change. Because the font object supports at least one outgoing interface, it also implements 
-    <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-iconnectionpointcontainer">IConnectionPointContainer</a> and related interfaces 
+    <a href="/windows/desktop/api/ocidl/nn-ocidl-iconnectionpointcontainer">IConnectionPointContainer</a> and related interfaces 
     for this purpose.
 
 The font object provides an hFont property, which is a Windows font handle that 
@@ -71,17 +71,17 @@ The font object provides an hFont property, which is a Windows font handle that
     return the same font handle. The font object can remove font handles from this cache at will, which introduces 
     special considerations for clients using the hFont property.
 
-The font object also supports <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ipersiststream">IPersistStream</a> so that it 
-    can save and load itself from an instance of <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a>. An object 
+The font object also supports <a href="/windows/desktop/api/objidl/nn-objidl-ipersiststream">IPersistStream</a> so that it 
+    can save and load itself from an instance of <a href="/windows/desktop/api/objidl/nn-objidl-istream">IStream</a>. An object 
     that uses a font object internally would normally save and load the font as part of the object's own persistence 
     handling.
 
-In addition, the font object supports <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a>, which can 
+In addition, the font object supports <a href="/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a>, which can 
     render a property set containing the font's attributes, allowing a client to save these properties as text.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFont</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IFont</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFont</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IFont</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -96,20 +96,20 @@ The <b>IFont</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-ifont-addrefhfont">AddRefHfont</a>
+<a href="/windows/desktop/api/ocidl/nf-ocidl-ifont-addrefhfont">AddRefHfont</a>
 </td>
 <td align="left" width="63%">
 Notifies the font object that the previously realized font identified with 
        hFont (from 
-       <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-ifont-get_hfont">get_hFont</a>) should remain valid until 
-       <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-ifont-releasehfont">ReleaseHfont</a> is called or the font object itself is 
+       <a href="/windows/desktop/api/ocidl/nf-ocidl-ifont-get_hfont">get_hFont</a>) should remain valid until 
+       <a href="/windows/desktop/api/ocidl/nf-ocidl-ifont-releasehfont">ReleaseHfont</a> is called or the font object itself is 
        released.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-ifont-clone">Clone</a>
+<a href="/windows/desktop/api/ocidl/nf-ocidl-ifont-clone">Clone</a>
 </td>
 <td align="left" width="63%">
 Creates a duplicate font object with a state identical to the current font.
@@ -118,7 +118,7 @@ Creates a duplicate font object with a state identical to the current font.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-ifont-get_bold">get_Bold</a>
+<a href="/windows/desktop/api/ocidl/nf-ocidl-ifont-get_bold">get_Bold</a>
 </td>
 <td align="left" width="63%">
 Gets the font's current Bold property.
@@ -127,7 +127,7 @@ Gets the font's current Bold property.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-ifont-get_charset">get_Charset</a>
+<a href="/windows/desktop/api/ocidl/nf-ocidl-ifont-get_charset">get_Charset</a>
 </td>
 <td align="left" width="63%">
 Retrieves the character set used in the font.
@@ -136,7 +136,7 @@ Retrieves the character set used in the font.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-ifont-get_hfont">get_hFont</a>
+<a href="/windows/desktop/api/ocidl/nf-ocidl-ifont-get_hfont">get_hFont</a>
 </td>
 <td align="left" width="63%">
 Retrieves a handle to the font described by this font object.
@@ -145,7 +145,7 @@ Retrieves a handle to the font described by this font object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-ifont-get_italic">get_Italic</a>
+<a href="/windows/desktop/api/ocidl/nf-ocidl-ifont-get_italic">get_Italic</a>
 </td>
 <td align="left" width="63%">
 Gets the font's current Italic property.
@@ -154,7 +154,7 @@ Gets the font's current Italic property.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-ifont-get_name">get_Name</a>
+<a href="/windows/desktop/api/ocidl/nf-ocidl-ifont-get_name">get_Name</a>
 </td>
 <td align="left" width="63%">
 Retrieves the name of the font family.
@@ -163,7 +163,7 @@ Retrieves the name of the font family.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-ifont-get_size">get_Size</a>
+<a href="/windows/desktop/api/ocidl/nf-ocidl-ifont-get_size">get_Size</a>
 </td>
 <td align="left" width="63%">
 Retrieves the point size of the font.
@@ -172,7 +172,7 @@ Retrieves the point size of the font.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-ifont-get_strikethrough">get_Strikethrough</a>
+<a href="/windows/desktop/api/ocidl/nf-ocidl-ifont-get_strikethrough">get_Strikethrough</a>
 </td>
 <td align="left" width="63%">
 Gets the font's current Strikethrough property.
@@ -181,7 +181,7 @@ Gets the font's current Strikethrough property.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-ifont-get_underline">get_Underline</a>
+<a href="/windows/desktop/api/ocidl/nf-ocidl-ifont-get_underline">get_Underline</a>
 </td>
 <td align="left" width="63%">
 Gets the font's current Underline property.
@@ -190,7 +190,7 @@ Gets the font's current Underline property.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-ifont-get_weight">get_Weight</a>
+<a href="/windows/desktop/api/ocidl/nf-ocidl-ifont-get_weight">get_Weight</a>
 </td>
 <td align="left" width="63%">
 Gets the font's current Weight property.
@@ -199,7 +199,7 @@ Gets the font's current Weight property.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-ifont-isequal">IsEqual</a>
+<a href="/windows/desktop/api/ocidl/nf-ocidl-ifont-isequal">IsEqual</a>
 </td>
 <td align="left" width="63%">
 Compares this font object to another for equality.
@@ -208,7 +208,7 @@ Compares this font object to another for equality.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-ifont-put_bold">put_Bold</a>
+<a href="/windows/desktop/api/ocidl/nf-ocidl-ifont-put_bold">put_Bold</a>
 </td>
 <td align="left" width="63%">
 Sets the font's Bold property.
@@ -217,7 +217,7 @@ Sets the font's Bold property.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-ifont-put_charset">put_Charset</a>
+<a href="/windows/desktop/api/ocidl/nf-ocidl-ifont-put_charset">put_Charset</a>
 </td>
 <td align="left" width="63%">
 Sets the font's character set.
@@ -226,7 +226,7 @@ Sets the font's character set.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-ifont-put_italic">put_Italic</a>
+<a href="/windows/desktop/api/ocidl/nf-ocidl-ifont-put_italic">put_Italic</a>
 </td>
 <td align="left" width="63%">
 Sets the font's Italic property.
@@ -235,7 +235,7 @@ Sets the font's Italic property.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-ifont-put_name">put_Name</a>
+<a href="/windows/desktop/api/ocidl/nf-ocidl-ifont-put_name">put_Name</a>
 </td>
 <td align="left" width="63%">
 Specifies a new name for the font family.
@@ -244,7 +244,7 @@ Specifies a new name for the font family.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-ifont-put_size">put_Size</a>
+<a href="/windows/desktop/api/ocidl/nf-ocidl-ifont-put_size">put_Size</a>
 </td>
 <td align="left" width="63%">
 Sets the point size of the font.
@@ -253,7 +253,7 @@ Sets the point size of the font.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-ifont-put_strikethrough">put_Strikethrough</a>
+<a href="/windows/desktop/api/ocidl/nf-ocidl-ifont-put_strikethrough">put_Strikethrough</a>
 </td>
 <td align="left" width="63%">
 Sets the font's Strikethrough property.
@@ -262,7 +262,7 @@ Sets the font's Strikethrough property.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-ifont-put_underline">put_Underline</a>
+<a href="/windows/desktop/api/ocidl/nf-ocidl-ifont-put_underline">put_Underline</a>
 </td>
 <td align="left" width="63%">
 Sets the font's Underline property.
@@ -271,7 +271,7 @@ Sets the font's Underline property.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-ifont-put_weight">put_Weight</a>
+<a href="/windows/desktop/api/ocidl/nf-ocidl-ifont-put_weight">put_Weight</a>
 </td>
 <td align="left" width="63%">
 Sets the font's Weight property.
@@ -280,7 +280,7 @@ Sets the font's Weight property.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-ifont-querytextmetrics">QueryTextMetrics</a>
+<a href="/windows/desktop/api/ocidl/nf-ocidl-ifont-querytextmetrics">QueryTextMetrics</a>
 </td>
 <td align="left" width="63%">
 Retrieves information about the font.
@@ -289,17 +289,17 @@ Retrieves information about the font.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-ifont-releasehfont">ReleaseHfont</a>
+<a href="/windows/desktop/api/ocidl/nf-ocidl-ifont-releasehfont">ReleaseHfont</a>
 </td>
 <td align="left" width="63%">
 Notifies the font object that the caller that previously locked this font in the cache with 
-       <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-ifont-addrefhfont">AddRefHfont</a> no longer requires the lock.
+       <a href="/windows/desktop/api/ocidl/nf-ocidl-ifont-addrefhfont">AddRefHfont</a> no longer requires the lock.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-ifont-sethdc">SetHdc</a>
+<a href="/windows/desktop/api/ocidl/nf-ocidl-ifont-sethdc">SetHdc</a>
 </td>
 <td align="left" width="63%">
 Provides a device context handle to the font that describes the logical mapping mode.
@@ -308,7 +308,7 @@ Provides a device context handle to the font that describes the logical mapping 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-ifont-setratio">SetRatio</a>
+<a href="/windows/desktop/api/ocidl/nf-ocidl-ifont-setratio">SetRatio</a>
 </td>
 <td align="left" width="63%">
 Converts the scaling factor for this font between logical units and <b>HIMETRIC</b> 
@@ -337,10 +337,10 @@ Each property in the <b>IFont</b> interface includes a
 <td><b>Name</b></td>
 <td><b>BSTR</b></td>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-ifont-get_name">get_Name</a>
+<a href="/windows/desktop/api/ocidl/nf-ocidl-ifont-get_name">get_Name</a>
 </td>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-ifont-put_name">put_Name</a>
+<a href="/windows/desktop/api/ocidl/nf-ocidl-ifont-put_name">put_Name</a>
 </td>
 <td>The facename of the font, e.g. Arial.</td>
 </tr>
@@ -348,10 +348,10 @@ Each property in the <b>IFont</b> interface includes a
 <td><b>Size</b></td>
 <td><b>CY</b></td>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-ifont-get_size">get_Size</a>
+<a href="/windows/desktop/api/ocidl/nf-ocidl-ifont-get_size">get_Size</a>
 </td>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-ifont-put_size">put_Size</a>
+<a href="/windows/desktop/api/ocidl/nf-ocidl-ifont-put_size">put_Size</a>
 </td>
 <td>The point size of the font, expressed in a <b>CY</b> type to allow for fractional 
        point sizes.</td>
@@ -360,10 +360,10 @@ Each property in the <b>IFont</b> interface includes a
 <td><b>Bold</b></td>
 <td><b>BOOL</b></td>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-ifont-get_bold">get_Bold</a>
+<a href="/windows/desktop/api/ocidl/nf-ocidl-ifont-get_bold">get_Bold</a>
 </td>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-ifont-put_bold">put_Bold</a>
+<a href="/windows/desktop/api/ocidl/nf-ocidl-ifont-put_bold">put_Bold</a>
 </td>
 <td>Indicates whether the font is boldfaced.</td>
 </tr>
@@ -371,10 +371,10 @@ Each property in the <b>IFont</b> interface includes a
 <td><b>Italic</b></td>
 <td><b>BOOL</b></td>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-ifont-get_italic">get_Italic</a>
+<a href="/windows/desktop/api/ocidl/nf-ocidl-ifont-get_italic">get_Italic</a>
 </td>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-ifont-put_italic">put_Italic</a>
+<a href="/windows/desktop/api/ocidl/nf-ocidl-ifont-put_italic">put_Italic</a>
 </td>
 <td>Indicates whether the font is italicized.</td>
 </tr>
@@ -382,10 +382,10 @@ Each property in the <b>IFont</b> interface includes a
 <td><b>Underline</b></td>
 <td><b>BOOL</b></td>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-ifont-get_underline">get_Underline</a>
+<a href="/windows/desktop/api/ocidl/nf-ocidl-ifont-get_underline">get_Underline</a>
 </td>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-ifont-put_underline">put_Underline</a>
+<a href="/windows/desktop/api/ocidl/nf-ocidl-ifont-put_underline">put_Underline</a>
 </td>
 <td>Indicates whether the font is underlined.</td>
 </tr>
@@ -393,10 +393,10 @@ Each property in the <b>IFont</b> interface includes a
 <td><b>Strikethrough</b></td>
 <td><b>BOOL</b></td>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-ifont-get_strikethrough">get_Strikethrough</a>
+<a href="/windows/desktop/api/ocidl/nf-ocidl-ifont-get_strikethrough">get_Strikethrough</a>
 </td>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-ifont-put_strikethrough">put_Strikethrough</a>
+<a href="/windows/desktop/api/ocidl/nf-ocidl-ifont-put_strikethrough">put_Strikethrough</a>
 </td>
 <td>Indicates whether the font is strikethrough.</td>
 </tr>
@@ -404,10 +404,10 @@ Each property in the <b>IFont</b> interface includes a
 <td><b>Weight</b></td>
 <td><b>short</b></td>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-ifont-get_weight">get_Weight</a>
+<a href="/windows/desktop/api/ocidl/nf-ocidl-ifont-get_weight">get_Weight</a>
 </td>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-ifont-put_weight">put_Weight</a>
+<a href="/windows/desktop/api/ocidl/nf-ocidl-ifont-put_weight">put_Weight</a>
 </td>
 <td>The boldness of the font.</td>
 </tr>
@@ -415,10 +415,10 @@ Each property in the <b>IFont</b> interface includes a
 <td><b>Charset</b></td>
 <td><b>short</b></td>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-ifont-get_charset">get_Charset</a>
+<a href="/windows/desktop/api/ocidl/nf-ocidl-ifont-get_charset">get_Charset</a>
 </td>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-ifont-put_charset">put_Charset</a>
+<a href="/windows/desktop/api/ocidl/nf-ocidl-ifont-put_charset">put_Charset</a>
 </td>
 <td>The character set used in the font, such as <b>ANSI_CHARSET</b>, 
        <b>DEFAULT_CHARSET</b>, or <b>SYMBOL_CHARSET</b>.</td>
@@ -427,7 +427,7 @@ Each property in the <b>IFont</b> interface includes a
 <td><b>hFont</b></td>
 <td><b>HFONT</b></td>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-ifont-get_hfont">get_hFont</a>
+<a href="/windows/desktop/api/ocidl/nf-ocidl-ifont-get_hfont">get_hFont</a>
 </td>
 <td></td>
 <td>The Windows font handle that can be selected into a device context for rendering.</td>
@@ -439,14 +439,13 @@ Each property in the <b>IFont</b> interface includes a
 The system provides a standard implementation of a font object with the 
       <b>IFont</b> interface on top of the underlying system font support. A 
       font object is created through the function 
-      <a href="https://docs.microsoft.com/windows/desktop/api/olectl/nf-olectl-olecreatefontindirect">OleCreateFontIndirect</a>. A font object supports a 
+      <a href="/windows/desktop/api/olectl/nf-olectl-olecreatefontindirect">OleCreateFontIndirect</a>. A font object supports a 
       number of read/write properties as well as a set of methods through its 
       <b>IFont</b> interface and supports the same set of properties (but not 
-      the methods) through a dispatch interface <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-ifontdisp">IFontDisp</a> which is 
+      the methods) through a dispatch interface <a href="/windows/desktop/api/ocidl/nn-ocidl-ifontdisp">IFontDisp</a> which is 
       derived from <b>IDispatch</b> to provide access to the font's properties through 
       Automation. The system implementation of the font object supplies both interfaces.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-ifontdisp">IFontDisp</a>
-
+<a href="/windows/desktop/api/ocidl/nn-ocidl-ifontdisp">IFontDisp</a>

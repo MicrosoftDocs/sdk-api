@@ -52,15 +52,15 @@ api_name:
 
 The 
 <b>get_DefaultValue</b> method retrieves the 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/configurableitem-defaultvalue">DefaultValue</a> property of the 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/configurableitem-object">ConfigurableItem</a> object.
+<a href="/windows/desktop/Msi/configurableitem-defaultvalue">DefaultValue</a> property of the 
+<a href="/windows/desktop/Msi/configurableitem-object">ConfigurableItem</a> object.
 
 ## -parameters
 
 ### -param DefaultValue [out]
 
 A pointer to a location in memory with the default value of a configurable item listed in the DefaultValue column of the 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/moduleconfiguration-table">ModuleConfiguration table</a>. The client must free the <b>BSTR</b> when it is no longer required.
+<a href="/windows/desktop/Msi/moduleconfiguration-table">ModuleConfiguration table</a>. The client must free the <b>BSTR</b> when it is no longer required.
 
 ## -returns
 
@@ -141,9 +141,8 @@ The function succeeded.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mergemod/nn-mergemod-imsmconfigurableitem">IMsmConfigurableItem</a>
+<a href="/windows/desktop/api/mergemod/nn-mergemod-imsmconfigurableitem">IMsmConfigurableItem</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/merge-module-automation">Merge Module Automation</a>
-
+<a href="/windows/desktop/Msi/merge-module-automation">Merge Module Automation</a>

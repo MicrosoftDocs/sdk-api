@@ -50,45 +50,45 @@ api_name:
 
 ## -description
 
-Processes <a href="https://docs.microsoft.com/windows/desktop/menurc/wm-menuselect">WM_MENUSELECT</a> and <a href="https://docs.microsoft.com/windows/desktop/menurc/wm-command">WM_COMMAND</a> messages and displays Help text about the current menu in the specified status window.
+Processes <a href="/windows/desktop/menurc/wm-menuselect">WM_MENUSELECT</a> and <a href="/windows/desktop/menurc/wm-command">WM_COMMAND</a> messages and displays Help text about the current menu in the specified status window.
 
 ## -parameters
 
 ### -param uMsg
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
-Message being processed. This can be either <a href="https://docs.microsoft.com/windows/desktop/menurc/wm-menuselect">WM_MENUSELECT</a> or <a href="https://docs.microsoft.com/windows/desktop/menurc/wm-command">WM_COMMAND</a>.
+Message being processed. This can be either <a href="/windows/desktop/menurc/wm-menuselect">WM_MENUSELECT</a> or <a href="/windows/desktop/menurc/wm-command">WM_COMMAND</a>.
 
 ### -param wParam
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">WPARAM</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">WPARAM</a></b>
 
 wParam of the message specified in 
 					<i>uMsg</i>.
 
 ### -param lParam
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPARAM</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">LPARAM</a></b>
 
 lParam of the message specified in 
 					<i>uMsg</i>.
 
 ### -param hMainMenu
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HMENU</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HMENU</a></b>
 
 Handle to the application's main menu.
 
 ### -param hInst
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HINSTANCE</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HINSTANCE</a></b>
 
 Handle to the module that contains the string resources.
 
 ### -param hwndStatus
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 Handle to the status window.
 
@@ -100,5 +100,4 @@ Pointer to an array of values that contains pairs of string resource identifiers
 
 ## -remarks
 
-The <b>MenuHelp</b> function is a helper function. Helper functions are available as a convenience to programming. They combine into one call a sequence of frequently used calls. You use <b>MenuHelp</b> to send <a href="https://docs.microsoft.com/windows/desktop/menurc/wm-menuselect">WM_MENUSELECT</a> and <a href="https://docs.microsoft.com/windows/desktop/menurc/wm-command">WM_COMMAND</a> messages.
-
+The <b>MenuHelp</b> function is a helper function. Helper functions are available as a convenience to programming. They combine into one call a sequence of frequently used calls. You use <b>MenuHelp</b> to send <a href="/windows/desktop/menurc/wm-menuselect">WM_MENUSELECT</a> and <a href="/windows/desktop/menurc/wm-command">WM_COMMAND</a> messages.

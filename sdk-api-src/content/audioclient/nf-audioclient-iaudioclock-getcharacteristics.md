@@ -82,5 +82,4 @@ Parameter <i>pdwCharacteristics</i> is <b>NULL</b>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nn-audioclient-iaudioclock">IAudioClock Interface</a>
-
+<a href="/windows/desktop/api/audioclient/nn-audioclient-iaudioclock">IAudioClock Interface</a>

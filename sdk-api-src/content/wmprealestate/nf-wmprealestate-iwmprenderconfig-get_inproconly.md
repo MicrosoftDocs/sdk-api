@@ -88,5 +88,4 @@ Using this method with protected content is not supported.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmprealestate/nn-wmprealestate-iwmprenderconfig">IWMPRenderConfig Interface</a>
-
+<a href="/windows/desktop/api/wmprealestate/nn-wmprealestate-iwmprenderconfig">IWMPRenderConfig Interface</a>

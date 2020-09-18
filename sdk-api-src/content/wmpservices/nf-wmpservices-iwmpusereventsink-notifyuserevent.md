@@ -77,7 +77,7 @@ The method returns an <b>HRESULT</b>. Possible values include, but are not limit
 
 ## -remarks
 
-An application that embeds the Windows Media Player control can provide a custom video renderer for the EVR by calling <a href="https://docs.microsoft.com/windows/desktop/api/wmprealestate/nf-wmprealestate-iwmpvideorenderconfig-put_presenteractivate">IWMPVideoRenderConfig::put_presenterActivate</a>. As the custom video renderer runs, it can notify the EVR of events by calling <b>IMediaEventSink::Notify</b>. If the event code supplied by the custom video renderer is greater than or equal to WMPUE_EC_USER, the EVR passes the event notification along to the application by calling <b>NotifyUserEvent</b>.
+An application that embeds the Windows Media Player control can provide a custom video renderer for the EVR by calling <a href="/windows/desktop/api/wmprealestate/nf-wmprealestate-iwmpvideorenderconfig-put_presenteractivate">IWMPVideoRenderConfig::put_presenterActivate</a>. As the custom video renderer runs, it can notify the EVR of events by calling <b>IMediaEventSink::Notify</b>. If the event code supplied by the custom video renderer is greater than or equal to WMPUE_EC_USER, the EVR passes the event notification along to the application by calling <b>NotifyUserEvent</b>.
 
 The definition of WMPUE_EC_USER depends on the definition of EC_USER, which is defined in evcode.h.
 
@@ -85,5 +85,4 @@ The definition of WMPUE_EC_USER depends on the definition of EC_USER, which is d
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmpservices/nn-wmpservices-iwmpusereventsink">IWMPUserEventSink Interface</a>
-
+<a href="/windows/desktop/api/wmpservices/nn-wmpservices-iwmpusereventsink">IWMPUserEventSink Interface</a>

@@ -64,5 +64,4 @@ This method can return one of these values.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nn-rtscom-irealtimestylus2">IRealTimeStylus2 Interface</a>
-
+<a href="/windows/desktop/api/rtscom/nn-rtscom-irealtimestylus2">IRealTimeStylus2 Interface</a>

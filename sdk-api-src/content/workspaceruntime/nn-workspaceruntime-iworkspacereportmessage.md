@@ -54,7 +54,7 @@ Exposes methods that support error message handling for remote workspaces.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWorkspaceReportMessage</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWorkspaceReportMessage</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWorkspaceReportMessage</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWorkspaceReportMessage</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IWorkspaceReportMessage</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/workspaceruntime/nf-workspaceruntime-iworkspacereportmessage-iserrormessageregistered">IsErrorMessageRegistered</a>
+<a href="/windows/desktop/api/workspaceruntime/nf-workspaceruntime-iworkspacereportmessage-iserrormessageregistered">IsErrorMessageRegistered</a>
 </td>
 <td align="left" width="63%">
 Determines whether a specified error message is registered in a specified workspace.
@@ -78,7 +78,7 @@ Determines whether a specified error message is registered in a specified worksp
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/workspaceruntime/nf-workspaceruntime-iworkspacereportmessage-registererrorevent">RegisterErrorEvent</a>
+<a href="/windows/desktop/api/workspaceruntime/nf-workspaceruntime-iworkspacereportmessage-registererrorevent">RegisterErrorEvent</a>
 </td>
 <td align="left" width="63%">
 Registers the specified error event message to use in the UI.
@@ -87,7 +87,7 @@ Registers the specified error event message to use in the UI.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/workspaceruntime/nf-workspaceruntime-iworkspacereportmessage-registererrorlogmessage">RegisterErrorLogMessage</a>
+<a href="/windows/desktop/api/workspaceruntime/nf-workspaceruntime-iworkspacereportmessage-registererrorlogmessage">RegisterErrorLogMessage</a>
 </td>
 <td align="left" width="63%">
 Registers the specified error log message to use in the UI.
@@ -95,4 +95,3 @@ Registers the specified error log message to use in the UI.
 </td>
 </tr>
 </table>
-

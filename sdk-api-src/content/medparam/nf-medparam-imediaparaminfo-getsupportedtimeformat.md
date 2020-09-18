@@ -109,13 +109,12 @@ Success.
 
 ## -remarks
 
-Call the <a href="https://docs.microsoft.com/windows/desktop/api/medparam/nf-medparam-imediaparaminfo-getnumtimeformats">GetNumTimeFormats</a> method to retrieve the number of time formats that the object supports.
+Call the <a href="/windows/desktop/api/medparam/nf-medparam-imediaparaminfo-getnumtimeformats">GetNumTimeFormats</a> method to retrieve the number of time formats that the object supports.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/medparam/nn-medparam-imediaparaminfo">IMediaParamInfo Interface</a>
+<a href="/windows/desktop/api/medparam/nn-medparam-imediaparaminfo">IMediaParamInfo Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/time-format-guids">Time Format GUIDs</a>
-
+<a href="/windows/desktop/DirectShow/time-format-guids">Time Format GUIDs</a>

@@ -56,7 +56,7 @@ Specifies the subresource from a multisampled 2D texture to use in a render-targ
 
 ### -field UnusedField_NothingToDefine
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 Integer of any value. See remarks.
 
@@ -66,5 +66,4 @@ Since a multisampled 2D texture contains a single subresource, there is actually
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d11-graphics-reference-resource-structures">Resource Structures</a>
-
+<a href="/windows/desktop/direct3d11/d3d11-graphics-reference-resource-structures">Resource Structures</a>

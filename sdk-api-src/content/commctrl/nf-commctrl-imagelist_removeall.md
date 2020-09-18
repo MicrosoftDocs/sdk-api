@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Calls the <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-imagelist_remove">ImageList_Remove</a> function to remove all of the images from an image list.
+Calls the <a href="/windows/desktop/api/commctrl/nf-commctrl-imagelist_remove">ImageList_Remove</a> function to remove all of the images from an image list.
 
 ## -parameters
 
@@ -59,4 +59,3 @@ Calls the <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nf-co
 Type: <b>HIMAGELIST</b>
 
 A handle to the image list.
-

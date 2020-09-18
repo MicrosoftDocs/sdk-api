@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-Instantiates a new instance of a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/jj151639(v=vs.85)">CD3D11_DEPTH_STENCIL_VIEW_DESC</a> structure that is initialized with **D3D11_TEX1D_DSV** or **D3D11_TEX1D_ARRAY_DSV** values.
+Instantiates a new instance of a <a href="/previous-versions/windows/desktop/legacy/jj151639(v=vs.85)">CD3D11_DEPTH_STENCIL_VIEW_DESC</a> structure that is initialized with **D3D11_TEX1D_DSV** or **D3D11_TEX1D_ARRAY_DSV** values.
 
 ## -parameters
 
@@ -86,5 +86,4 @@ Pass 0 to specify that it is not read only; otherwise, pass one of the members o
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/jj151639(v=vs.85)">CD3D11_DEPTH_STENCIL_VIEW_DESC</a>
-
+<a href="/previous-versions/windows/desktop/legacy/jj151639(v=vs.85)">CD3D11_DEPTH_STENCIL_VIEW_DESC</a>

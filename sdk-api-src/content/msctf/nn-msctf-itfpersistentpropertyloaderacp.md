@@ -50,11 +50,11 @@ api_name:
 
 ## -description
 
-The <b>ITfPersistentPropertyLoaderACP</b> interface is implemented by an application and used by the TSF manager to load properties asynchronously. An application passes an instance of this interface when calling <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itextstoreacpservices-unserialize">ITextStoreACPServices::Unserialize</a>. When properties are loaded by a call to <b>ITextStoreACPServices::Unserialize</b> , this interface is used to load properties when required rather than all at once.
+The <b>ITfPersistentPropertyLoaderACP</b> interface is implemented by an application and used by the TSF manager to load properties asynchronously. An application passes an instance of this interface when calling <a href="/windows/desktop/api/msctf/nf-msctf-itextstoreacpservices-unserialize">ITextStoreACPServices::Unserialize</a>. When properties are loaded by a call to <b>ITextStoreACPServices::Unserialize</b> , this interface is used to load properties when required rather than all at once.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfPersistentPropertyLoaderACP</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfPersistentPropertyLoaderACP</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfPersistentPropertyLoaderACP</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfPersistentPropertyLoaderACP</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ITfPersistentPropertyLoaderACP</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfpersistentpropertyloaderacp-loadproperty">LoadProperty</a>
+<a href="/windows/desktop/api/msctf/nf-msctf-itfpersistentpropertyloaderacp-loadproperty">LoadProperty</a>
 </td>
 <td align="left" width="63%">
 Called to load a property.
@@ -80,10 +80,9 @@ Called to load a property.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itextstoreacpservices-unserialize">ITextStoreACPServices::Unserialize
+<a href="/windows/desktop/api/msctf/nf-msctf-itextstoreacpservices-unserialize">ITextStoreACPServices::Unserialize
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
-
+<a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>

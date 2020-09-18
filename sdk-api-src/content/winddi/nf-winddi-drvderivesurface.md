@@ -56,11 +56,11 @@ The <b>DrvDeriveSurface</b> function derives a GDI surface from the specified Di
 
 ### -param pDirectDraw
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_directdraw_global">DD_DIRECTDRAW_GLOBAL</a> structure that describes the DirectDraw object.
+Pointer to a <a href="/windows/desktop/api/ddrawint/ns-ddrawint-dd_directdraw_global">DD_DIRECTDRAW_GLOBAL</a> structure that describes the DirectDraw object.
 
 ### -param pSurface
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_surface_local">DD_SURFACE_LOCAL</a> structure that describes the DirectDraw surface around which to wrap a GDI surface.
+Pointer to a <a href="/windows/desktop/api/ddrawint/ns-ddrawint-dd_surface_local">DD_SURFACE_LOCAL</a> structure that describes the DirectDraw surface around which to wrap a GDI surface.
 
 ## -returns
 
@@ -72,17 +72,16 @@ Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns
 
 GDI calls <b>DrvDeriveSurface</b> with RGB surfaces only.
 
-The driver should call <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvcreatedevicebitmap">DrvCreateDeviceBitmap</a> to create a GDI surface of the same size and format as that of the DirectDraw surface. Space for the actual pixels need not be allocated since it already exists.
+The driver should call <a href="/windows/desktop/api/winddi/nf-winddi-drvcreatedevicebitmap">DrvCreateDeviceBitmap</a> to create a GDI surface of the same size and format as that of the DirectDraw surface. Space for the actual pixels need not be allocated since it already exists.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvcreatedevicebitmap">DrvCreateDeviceBitmap</a>
+<a href="/windows/desktop/api/winddi/nf-winddi-drvcreatedevicebitmap">DrvCreateDeviceBitmap</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engcreatedevicebitmap">EngCreateDeviceBitmap</a>
+<a href="/windows/desktop/api/winddi/nf-winddi-engcreatedevicebitmap">EngCreateDeviceBitmap</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engmodifysurface">EngModifySurface</a>
-
+<a href="/windows/desktop/api/winddi/nf-winddi-engmodifysurface">EngModifySurface</a>

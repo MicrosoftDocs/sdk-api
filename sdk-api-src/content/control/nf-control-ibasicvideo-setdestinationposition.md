@@ -117,13 +117,12 @@ The video renderer is not connected.
 
 ## -remarks
 
-This method has the same effect as individually calling the <a href="https://docs.microsoft.com/windows/desktop/api/control/nf-control-ibasicvideo-put_destinationleft">IBasicVideo::put_DestinationLeft</a>, <a href="https://docs.microsoft.com/windows/desktop/api/control/nf-control-ibasicvideo-put_destinationtop">IBasicVideo::put_DestinationTop</a>, <a href="https://docs.microsoft.com/windows/desktop/api/control/nf-control-ibasicvideo-put_destinationwidth">IBasicVideo::put_DestinationWidth</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/control/nf-control-ibasicvideo-put_destinationheight">IBasicVideo::put_DestinationHeight</a> methods.
+This method has the same effect as individually calling the <a href="/windows/desktop/api/control/nf-control-ibasicvideo-put_destinationleft">IBasicVideo::put_DestinationLeft</a>, <a href="/windows/desktop/api/control/nf-control-ibasicvideo-put_destinationtop">IBasicVideo::put_DestinationTop</a>, <a href="/windows/desktop/api/control/nf-control-ibasicvideo-put_destinationwidth">IBasicVideo::put_DestinationWidth</a>, and <a href="/windows/desktop/api/control/nf-control-ibasicvideo-put_destinationheight">IBasicVideo::put_DestinationHeight</a> methods.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/control/nn-control-ibasicvideo">IBasicVideo Interface</a>
-
+<a href="/windows/desktop/api/control/nn-control-ibasicvideo">IBasicVideo Interface</a>

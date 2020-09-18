@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-Contains information used to sort child items in a tree-view control. This structure is used with the <a href="https://docs.microsoft.com/windows/desktop/Controls/tvm-sortchildrencb">TVM_SORTCHILDRENCB</a> message. This structure is identical to the 
+Contains information used to sort child items in a tree-view control. This structure is used with the <a href="/windows/desktop/Controls/tvm-sortchildrencb">TVM_SORTCHILDRENCB</a> message. This structure is identical to the 
 			<b>TV_SORTCB</b> structure, but it has been renamed to follow current naming conventions.
 
 ## -struct-fields
@@ -73,7 +73,7 @@ Address of an application-defined callback function, which is called during a so
 
 ### -field lParam
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPARAM</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">LPARAM</a></b>
 
 Application-defined value that gets passed as the 
 					<i>lParamSort</i> argument in the callback function specified in 
@@ -89,5 +89,4 @@ int CALLBACK CompareFunc(LPARAM lParam1, LPARAM lParam2, LPARAM lParamSort);
 </code></pre>
 The callback function must return a negative value if the first item should precede the second, a positive value if the first item should follow the second, or zero if the two items are equivalent.
 
-The <i>lParam1</i> and <i>lParam2</i> parameters correspond to the lParam member of the <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-tvitema">TVITEM</a> structure for the two items being compared. The <i>lParamSort</i> parameter corresponds to the <b>lParam</b> member of this structure.
-
+The <i>lParam1</i> and <i>lParam2</i> parameters correspond to the lParam member of the <a href="/windows/desktop/api/commctrl/ns-commctrl-tvitema">TVITEM</a> structure for the two items being compared. The <i>lParamSort</i> parameter corresponds to the <b>lParam</b> member of this structure.

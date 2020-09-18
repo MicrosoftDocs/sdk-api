@@ -73,7 +73,7 @@ Pointer to a byte buffer that contains the data value of the attribute.
 
 #### - eapType
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/eaptypes/ne-eaptypes-eap_attribute_type">EAP_ATTRIBUTE_TYPE</a> enumeration value that describes the type of the EAP attribute value supplied in <b>pValue</b>.
+An <a href="/windows/desktop/api/eaptypes/ne-eaptypes-eap_attribute_type">EAP_ATTRIBUTE_TYPE</a> enumeration value that describes the type of the EAP attribute value supplied in <b>pValue</b>.
 
 ## -see-also
 
@@ -81,5 +81,4 @@ An <a href="https://docs.microsoft.com/windows/desktop/api/eaptypes/ne-eaptypes-
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/eaptypes/ns-eaptypes-eap_attributes">EAP_ATTRIBUTES</a>
-
+<a href="/windows/desktop/api/eaptypes/ns-eaptypes-eap_attributes">EAP_ATTRIBUTES</a>

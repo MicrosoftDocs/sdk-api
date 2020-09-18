@@ -59,7 +59,7 @@ Returns a pointer to a logical attributes buffer for an analyzed string.
 
 ### -param ssa [in]
 
-A <a href="https://docs.microsoft.com/windows/desktop/Intl/script-string-analysis">SCRIPT_STRING_ANALYSIS</a> structure for the string.
+A <a href="/windows/desktop/Intl/script-string-analysis">SCRIPT_STRING_ANALYSIS</a> structure for the string.
 
 ## -returns
 
@@ -67,40 +67,39 @@ Returns a pointer to a buffer containing <a href="/windows/win32/api/usp10/ns-us
 
 ## -remarks
 
-The pointer returned by this function is valid only until the application passes the associated <a href="https://docs.microsoft.com/windows/desktop/Intl/script-string-analysis">SCRIPT_STRING_ANALYSIS</a> structure to <a href="https://docs.microsoft.com/windows/desktop/api/usp10/nf-usp10-scriptstringfree">ScriptStringFree</a>.
+The pointer returned by this function is valid only until the application passes the associated <a href="/windows/desktop/Intl/script-string-analysis">SCRIPT_STRING_ANALYSIS</a> structure to <a href="/windows/desktop/api/usp10/nf-usp10-scriptstringfree">ScriptStringFree</a>.
 
-The logical attribute buffer contains at least the number of integers indicated by the <i>ssa</i> parameter of <a href="https://docs.microsoft.com/windows/desktop/api/usp10/nf-usp10-scriptstring_pcoutchars">ScriptString_pcOutChars</a>.
+The logical attribute buffer contains at least the number of integers indicated by the <i>ssa</i> parameter of <a href="/windows/desktop/api/usp10/nf-usp10-scriptstring_pcoutchars">ScriptString_pcOutChars</a>.
 
-When scanning the <a href="/windows/win32/api/usp10/ns-usp10-script_logattr">SCRIPT_LOGATTR</a> array for a word break point, the application should look backward for the values of the <b>fWordStop</b> and <b>fWhiteSpace</b> members. <a href="https://docs.microsoft.com/windows/desktop/api/usp10/nf-usp10-scriptstringanalyse">ScriptStringAnalyse</a> just calls <a href="https://docs.microsoft.com/windows/desktop/api/usp10/nf-usp10-scriptbreak">ScriptBreak</a> on each run, and <b>ScriptBreak</b> never sets <b>fWordBreak</b> on the first character of a run, because it has no information that the previous run ended in white space.
+When scanning the <a href="/windows/win32/api/usp10/ns-usp10-script_logattr">SCRIPT_LOGATTR</a> array for a word break point, the application should look backward for the values of the <b>fWordStop</b> and <b>fWhiteSpace</b> members. <a href="/windows/desktop/api/usp10/nf-usp10-scriptstringanalyse">ScriptStringAnalyse</a> just calls <a href="/windows/desktop/api/usp10/nf-usp10-scriptbreak">ScriptBreak</a> on each run, and <b>ScriptBreak</b> never sets <b>fWordBreak</b> on the first character of a run, because it has no information that the previous run ended in white space.
 
 <div class="alert"><b>Important</b>  Starting with Windows 8: To maintain the ability to run on Windows 7, a module that uses Uniscribe must specify Usp10.lib before gdi32.lib in its library list.</div>
 <div> </div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/script-string-analysis">SCRIPT_STRING_ANALYSIS</a>
+<a href="/windows/desktop/Intl/script-string-analysis">SCRIPT_STRING_ANALYSIS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/usp10/nf-usp10-scriptbreak">ScriptBreak</a>
+<a href="/windows/desktop/api/usp10/nf-usp10-scriptbreak">ScriptBreak</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/usp10/nf-usp10-scriptstringanalyse">ScriptStringAnalyse</a>
+<a href="/windows/desktop/api/usp10/nf-usp10-scriptstringanalyse">ScriptStringAnalyse</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/usp10/nf-usp10-scriptstringfree">ScriptStringFree</a>
+<a href="/windows/desktop/api/usp10/nf-usp10-scriptstringfree">ScriptStringFree</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/usp10/nf-usp10-scriptstring_pcoutchars">ScriptString_pcOutChars</a>
+<a href="/windows/desktop/api/usp10/nf-usp10-scriptstring_pcoutchars">ScriptString_pcOutChars</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/uniscribe">Uniscribe</a>
+<a href="/windows/desktop/Intl/uniscribe">Uniscribe</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/uniscribe-functions">Uniscribe Functions</a>
-
+<a href="/windows/desktop/Intl/uniscribe-functions">Uniscribe Functions</a>

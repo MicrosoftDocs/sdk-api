@@ -51,11 +51,11 @@ api_name:
 ## -description
 
 Provides access 
-        to individual child controls of containers that implement <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nn-uiautomationcore-iscrollprovider">IScrollProvider</a>.
+        to individual child controls of containers that implement <a href="/windows/desktop/api/uiautomationcore/nn-uiautomationcore-iscrollprovider">IScrollProvider</a>.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IScrollItemProvider</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IScrollItemProvider</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IScrollItemProvider</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IScrollItemProvider</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>IScrollItemProvider</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nf-uiautomationcore-iscrollitemprovider-scrollintoview">ScrollIntoView</a>
+<a href="/windows/desktop/api/uiautomationcore/nf-uiautomationcore-iscrollitemprovider-scrollintoview">ScrollIntoView</a>
 </td>
 <td align="left" width="63%">
 Scrolls the content area of a container object in order to display the control within the visible region (viewport) of the container.
@@ -83,9 +83,8 @@ Scrolls the content area of a container object in order to display the control w
 ## -remarks
 
 Implemented on a Microsoft UI Automation provider that must 
-            support the <a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-implementingscrollitem">ScrollItem</a> control pattern.
+            support the <a href="/windows/desktop/WinAuto/uiauto-implementingscrollitem">ScrollItem</a> control pattern.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-providersoverview">UI Automation Providers Overview</a>
-
+<a href="/windows/desktop/WinAuto/uiauto-providersoverview">UI Automation Providers Overview</a>

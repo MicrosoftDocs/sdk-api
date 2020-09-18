@@ -60,10 +60,10 @@ Contains information about a list-view notification message. This structure is t
 
 ### -field hdr
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a></b>
+Type: <b><a href="/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a></b>
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a> structure that contains information about this notification message.
+<a href="/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a> structure that contains information about this notification message.
 
 ### -field iItem
 
@@ -79,33 +79,32 @@ Identifies the subitem, or zero if none.
 
 ### -field uNewState
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
-New item state. This member is zero for notification messages that do not use it. For a list of possible values, see <a href="https://docs.microsoft.com/windows/desktop/Controls/list-view-item-states">List-View Item States</a>.
+New item state. This member is zero for notification messages that do not use it. For a list of possible values, see <a href="/windows/desktop/Controls/list-view-item-states">List-View Item States</a>.
 
 ### -field uOldState
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
-Old item state. This member is zero for notification messages that do not use it. For a list of possible values, see <a href="https://docs.microsoft.com/windows/desktop/Controls/list-view-item-states">List-View Item States</a>.
+Old item state. This member is zero for notification messages that do not use it. For a list of possible values, see <a href="/windows/desktop/Controls/list-view-item-states">List-View Item States</a>.
 
 ### -field uChanged
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 Set of flags that indicate the item attributes that have changed. This member is zero for notifications that do not use it. Otherwise, it can have the same values as the 
-					<b>mask</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-lvitema">LVITEM</a> structure.
+					<b>mask</b> member of the <a href="/windows/desktop/api/commctrl/ns-commctrl-lvitema">LVITEM</a> structure.
 
 ### -field ptAction
 
-Type: <b><a href="https://docs.microsoft.com/previous-versions/dd162805(v=vs.85)">POINT</a></b>
+Type: <b><a href="/previous-versions/dd162805(v=vs.85)">POINT</a></b>
 
 
-<a href="https://docs.microsoft.com/previous-versions/dd162805(v=vs.85)">POINT</a> structure that indicates the location at which the event occurred. This member is undefined for notification messages that do not use it.
+<a href="/previous-versions/dd162805(v=vs.85)">POINT</a> structure that indicates the location at which the event occurred. This member is undefined for notification messages that do not use it.
 
 ### -field lParam
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPARAM</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">LPARAM</a></b>
 
 Application-defined value of the item. This member is undefined for notification messages that do not use it.
-

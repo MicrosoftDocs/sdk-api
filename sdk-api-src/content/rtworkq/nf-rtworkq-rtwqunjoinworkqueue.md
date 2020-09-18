@@ -60,9 +60,8 @@ The ID of the work queue to disassociate.
 
 ### -param hFile [in]
 
-The associated  handle returned by the <a href="https://docs.microsoft.com/windows/desktop/api/rtworkq/nf-rtworkq-rtwqjoinworkqueue">RtwqJoinWorkQueue</a> function.
+The associated  handle returned by the <a href="/windows/desktop/api/rtworkq/nf-rtworkq-rtwqjoinworkqueue">RtwqJoinWorkQueue</a> function.
 
 ## -returns
 
 If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-

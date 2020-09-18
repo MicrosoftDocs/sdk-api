@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Retrieves the reason string set by the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-shutdownblockreasoncreate">ShutdownBlockReasonCreate</a> function.
+Retrieves the reason string set by the <a href="/windows/desktop/api/winuser/nf-winuser-shutdownblockreasoncreate">ShutdownBlockReasonCreate</a> function.
 
 ## -parameters
 
@@ -71,7 +71,7 @@ A pointer to a variable that specifies the size of the <i>pwszBuff</i> buffer, i
 If the call succeeds, the return value is nonzero.
 
 If the call fails, the return value is zero. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
@@ -116,9 +116,8 @@ BOOL DisplayShutdownBlockReason()
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-shutdownblockreasoncreate">ShutdownBlockReasonCreate</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-shutdownblockreasoncreate">ShutdownBlockReasonCreate</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Shutdown/shutting-down">Shutting Down</a>
-
+<a href="/windows/desktop/Shutdown/shutting-down">Shutting Down</a>

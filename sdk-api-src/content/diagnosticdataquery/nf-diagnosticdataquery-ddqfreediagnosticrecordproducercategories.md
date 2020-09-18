@@ -59,7 +59,6 @@ Returns S_OK on successful completion.
 
 ## -remarks
 
-For more information about the data type DIAGNOSTIC_EVENT_CATEGORY_DESCRIPTION, see [**here**](/windows/win32/api/diagnosticdataquerytypes/ns-diagnosticdataquerytypes-diagnostic_data_event_category_description).
+For more information about the data type DIAGNOSTIC_EVENT_CATEGORY_DESCRIPTION, see [**here**](../diagnosticdataquerytypes/ns-diagnosticdataquerytypes-diagnostic_data_event_category_description.md).
 
 ## -see-also
-

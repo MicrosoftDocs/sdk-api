@@ -50,19 +50,18 @@ api_name:
 
 ## -description
 
-Adds the objects contained in an <a href="https://docs.microsoft.com/windows/desktop/api/objectarray/nn-objectarray-iobjectarray">IObjectArray</a> to the collection.
+Adds the objects contained in an <a href="/windows/desktop/api/objectarray/nn-objectarray-iobjectarray">IObjectArray</a> to the collection.
 
 ## -parameters
 
 ### -param poaSource [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/objectarray/nn-objectarray-iobjectarray">IObjectArray</a>*</b>
+Type: <b><a href="/windows/desktop/api/objectarray/nn-objectarray-iobjectarray">IObjectArray</a>*</b>
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/objectarray/nn-objectarray-iobjectarray">IObjectArray</a> whose contents are to be added to the collection.
+Pointer to the <a href="/windows/desktop/api/objectarray/nn-objectarray-iobjectarray">IObjectArray</a> whose contents are to be added to the collection.
 
 ## -returns
 
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-

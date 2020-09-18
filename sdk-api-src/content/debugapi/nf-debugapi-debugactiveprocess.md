@@ -70,14 +70,14 @@ The identifier for the process to be debugged. The debugger is granted debugging
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is 0 (zero). To get extended error information, call 
-       <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+       <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
 To stop debugging the process, you must exit the process or call the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/debugapi/nf-debugapi-debugactiveprocessstop">DebugActiveProcessStop</a> function. Exiting the 
+    <a href="/windows/desktop/api/debugapi/nf-debugapi-debugactiveprocessstop">DebugActiveProcessStop</a> function. Exiting the 
     debugger also exits the process unless you use the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-debugsetprocesskillonexit">DebugSetProcessKillOnExit</a> function.
+    <a href="/windows/desktop/api/winbase/nf-winbase-debugsetprocesskillonexit">DebugSetProcessKillOnExit</a> function.
 
 The debugger must have appropriate access to the target process, and it must be able to open the process for 
     <b>PROCESS_ALL_ACCESS</b>. 
@@ -88,19 +88,19 @@ The debugger must have appropriate access to the target process, and it must be 
 
 After the system checks the process identifier and determines that a valid debugging attachment is being made, 
     the function returns <b>TRUE</b>. Then the debugger is expected to wait for debugging events by 
-    using the <a href="https://docs.microsoft.com/windows/desktop/api/debugapi/nf-debugapi-waitfordebugevent">WaitForDebugEvent</a> function. The system 
+    using the <a href="/windows/desktop/api/debugapi/nf-debugapi-waitfordebugevent">WaitForDebugEvent</a> function. The system 
     suspends all threads in the process, and sends the debugger events that represents the current state of the 
     process.
 
 The system sends the debugger a single <b>CREATE_PROCESS_DEBUG_EVENT</b> debugging event 
     that represents the process specified by the <i>dwProcessId</i> parameter. The 
     <b>lpStartAddress</b> member of the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-create_process_debug_info">CREATE_PROCESS_DEBUG_INFO</a> structure is 
+    <a href="/windows/desktop/api/minwinbase/ns-minwinbase-create_process_debug_info">CREATE_PROCESS_DEBUG_INFO</a> structure is 
     <b>NULL</b>.
 
 For each thread that is currently part of the process, the system sends a 
     <b>CREATE_THREAD_DEBUG_EVENT</b> debugging event. The <b>lpStartAddress</b> 
-    member of the <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-create_thread_debug_info">CREATE_THREAD_DEBUG_INFO</a> 
+    member of the <a href="/windows/desktop/api/minwinbase/ns-minwinbase-create_thread_debug_info">CREATE_THREAD_DEBUG_INFO</a> 
     structure is <b>NULL</b>.
 
 For each dynamic-link library (DLL) that is currently loaded into the address space of the target process, the 
@@ -115,29 +115,28 @@ After all of this is done, the system resumes all threads in the process. When t
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-create_process_debug_info">CREATE_PROCESS_DEBUG_INFO</a>
+<a href="/windows/desktop/api/minwinbase/ns-minwinbase-create_process_debug_info">CREATE_PROCESS_DEBUG_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-create_thread_debug_info">CREATE_THREAD_DEBUG_INFO</a>
+<a href="/windows/desktop/api/minwinbase/ns-minwinbase-create_thread_debug_info">CREATE_THREAD_DEBUG_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessa">CreateProcess</a>
+<a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessa">CreateProcess</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/debugapi/nf-debugapi-debugactiveprocessstop">DebugActiveProcessStop</a>
+<a href="/windows/desktop/api/debugapi/nf-debugapi-debugactiveprocessstop">DebugActiveProcessStop</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Debug/debugging-functions">Debugging Functions</a>
+<a href="/windows/desktop/Debug/debugging-functions">Debugging Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Debug/debugging-a-running-process">Debugging a Running Process</a>
+<a href="/windows/desktop/Debug/debugging-a-running-process">Debugging a Running Process</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/debugapi/nf-debugapi-waitfordebugevent">WaitForDebugEvent</a>
-
+<a href="/windows/desktop/api/debugapi/nf-debugapi-waitfordebugevent">WaitForDebugEvent</a>

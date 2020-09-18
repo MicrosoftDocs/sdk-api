@@ -55,7 +55,7 @@ api_name:
 
 ## -description
 
-Gets or sets the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkrecognizer">IInkRecognizer</a> object to use for recognition.
+Gets or sets the <a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinkrecognizer">IInkRecognizer</a> object to use for recognition.
 
 
 
@@ -67,13 +67,13 @@ This property is read/write.
 
 This property is run time only.
 
-This property should only be changed if the <a href="https://docs.microsoft.com/windows/desktop/api/inked/nf-inked-iinkedit-get_status">Status</a> property returns IES_Idle.
+This property should only be changed if the <a href="/windows/desktop/api/inked/nf-inked-iinkedit-get_status">Status</a> property returns IES_Idle.
 
-If a factoid is used for the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkedit-control-reference">InkEdit</a> control, it must be reapplied after setting this property.
+If a factoid is used for the <a href="/windows/desktop/tablet/inkedit-control-reference">InkEdit</a> control, it must be reapplied after setting this property.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/tablet/factoid-constants">Factoid Constants</a>
+<a href="/windows/desktop/tablet/factoid-constants">Factoid Constants</a>
 
 
 
@@ -81,9 +81,8 @@ If a factoid is used for the <a href="https://docs.microsoft.com/windows/desktop
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkrecognizer">IInkRecognizer Interface</a>
+<a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinkrecognizer">IInkRecognizer Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/tablet/inkedit-control-reference">InkEdit</a>
-
+<a href="/windows/desktop/tablet/inkedit-control-reference">InkEdit</a>

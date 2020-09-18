@@ -54,8 +54,8 @@ api_name:
 
 ## -description
 
-The <b>SECPKG_USER_FUNCTION_TABLE</b> structure contains pointers to the functions that a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security package</a> implements to support executing in process with client/server applications. This structure is provided by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spusermodeinitializefn">SpUserModeInitialize</a> function.
+The <b>SECPKG_USER_FUNCTION_TABLE</b> structure contains pointers to the functions that a <a href="/windows/desktop/SecGloss/s-gly">security package</a> implements to support executing in process with client/server applications. This structure is provided by the 
+<a href="/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spusermodeinitializefn">SpUserModeInitialize</a> function.
 
 ## -struct-fields
 
@@ -69,11 +69,11 @@ Pointer to the <b>InitUserModeContext</b> function.
 
 ### -field MakeSignature
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-makesignature">MakeSignature</a> function.
+Pointer to the <a href="/windows/desktop/api/sspi/nf-sspi-makesignature">MakeSignature</a> function.
 
 ### -field VerifySignature
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-verifysignature">VerifySignature</a> function.
+Pointer to the <a href="/windows/desktop/api/sspi/nf-sspi-verifysignature">VerifySignature</a> function.
 
 ### -field SealMessage
 
@@ -89,11 +89,11 @@ Pointer to the <b>GetContextToken</b> function.
 
 ### -field QueryContextAttributes
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-querycontextattributesa">QueryContextAttributes (General)</a> function.
+Pointer to the <a href="/windows/desktop/api/sspi/nf-sspi-querycontextattributesa">QueryContextAttributes (General)</a> function.
 
 ### -field CompleteAuthToken
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-completeauthtoken">CompleteAuthToken</a> function.
+Pointer to the <a href="/windows/desktop/api/sspi/nf-sspi-completeauthtoken">CompleteAuthToken</a> function.
 
 ### -field DeleteUserModeContext
 
@@ -114,4 +114,3 @@ Pointer to the <b>ExportContext</b> function.
 ### -field ImportContext
 
 Pointer to the <b>ImportContext</b> function.
-

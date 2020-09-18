@@ -56,13 +56,13 @@ Retrieves the color transformation matrix  associated with the  full-screen magn
 
 ### -param pEffect [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/magnification/ns-magnification-magcoloreffect">PMAGCOLOREFFECT</a></b>
+Type: <b><a href="/windows/desktop/api/magnification/ns-magnification-magcoloreffect">PMAGCOLOREFFECT</a></b>
 
 The color transformation matrix, or the identity matrix if no color effect has been set.
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
 
 Returns TRUE if successful, or FALSE otherwise.
 
@@ -87,5 +87,4 @@ The following example retrieves the color transformation matrix associated with 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/magnification/nf-magnification-magsetfullscreencoloreffect">MagSetFullscreenColorEffect</a>
-
+<a href="/previous-versions/windows/desktop/api/magnification/nf-magnification-magsetfullscreencoloreffect">MagSetFullscreenColorEffect</a>

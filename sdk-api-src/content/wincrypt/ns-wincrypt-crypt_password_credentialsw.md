@@ -56,7 +56,7 @@ api_name:
 
 ## -description
 
-The <b>CRYPT_PASSWORD_CREDENTIALS</b> structure contains the user name and password credentials to be used in the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_credentials">CRYPT_CREDENTIALS</a> structure as optional input to a remote object retrieval function such as <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptretrieveobjectbyurla">CryptRetrieveObjectByUrl</a> or <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptgettimevalidobject">CryptGetTimeValidObject</a>.
+The <b>CRYPT_PASSWORD_CREDENTIALS</b> structure contains the user name and password credentials to be used in the <a href="/windows/desktop/api/wincrypt/ns-wincrypt-crypt_credentials">CRYPT_CREDENTIALS</a> structure as optional input to a remote object retrieval function such as <a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptretrieveobjectbyurla">CryptRetrieveObjectByUrl</a> or <a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptgettimevalidobject">CryptGetTimeValidObject</a>.
 
 ## -struct-fields
 
@@ -76,4 +76,3 @@ A pointer to a null-terminated string that contains the password credential for 
 
 > [!NOTE]
 > The wincrypt.h header defines CRYPT_PASSWORD_CREDENTIALS as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

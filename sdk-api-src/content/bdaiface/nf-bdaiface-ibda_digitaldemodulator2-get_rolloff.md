@@ -56,7 +56,7 @@ Gets the demodulator's roll-off factor.
 
 ### -param pRollOff [in, out]
 
-Receives the roll-off factor, specified as a member of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/rolloff">RollOff</a> enumeration.
+Receives the roll-off factor, specified as a member of the <a href="/previous-versions/windows/desktop/mstv/rolloff">RollOff</a> enumeration.
 
 ## -returns
 
@@ -64,5 +64,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nn-bdaiface-ibda_digitaldemodulator2">IBDA_DigitalDemodulator2</a>
-
+<a href="/windows/desktop/api/bdaiface/nn-bdaiface-ibda_digitaldemodulator2">IBDA_DigitalDemodulator2</a>

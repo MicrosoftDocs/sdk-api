@@ -53,11 +53,11 @@ api_name:
 
 Provides playback controls for protected and unprotected content. The Media Session and the protected media path (PMP) session objects expose this interface. This interface is the primary interface that applications use to control the Media Foundation pipeline.
 
-To obtain a pointer to this interface, call <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-mfcreatemediasession">MFCreateMediaSession</a> or <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-mfcreatepmpmediasession">MFCreatePMPMediaSession</a>.
+To obtain a pointer to this interface, call <a href="/windows/desktop/api/mfidl/nf-mfidl-mfcreatemediasession">MFCreateMediaSession</a> or <a href="/windows/desktop/api/mfidl/nf-mfidl-mfcreatepmpmediasession">MFCreatePMPMediaSession</a>.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFMediaSession</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfmediaeventgenerator">IMFMediaEventGenerator</a>. <b>IMFMediaSession</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFMediaSession</b> interface inherits from <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfmediaeventgenerator">IMFMediaEventGenerator</a>. <b>IMFMediaSession</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,7 +72,7 @@ The <b>IMFMediaSession</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfmediasession-cleartopologies">ClearTopologies</a>
+<a href="/windows/desktop/api/mfidl/nf-mfidl-imfmediasession-cleartopologies">ClearTopologies</a>
 </td>
 <td align="left" width="63%">
 Clears all of the presentations that are queued for playback in the Media Session.
@@ -82,7 +82,7 @@ Clears all of the presentations that are queued for playback in the Media Sessio
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfmediasession-close">Close</a>
+<a href="/windows/desktop/api/mfidl/nf-mfidl-imfmediasession-close">Close</a>
 </td>
 <td align="left" width="63%">
 Closes the Media Session and releases all of the resources it is using.
@@ -92,7 +92,7 @@ Closes the Media Session and releases all of the resources it is using.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfmediasession-getclock">GetClock</a>
+<a href="/windows/desktop/api/mfidl/nf-mfidl-imfmediasession-getclock">GetClock</a>
 </td>
 <td align="left" width="63%">
 Retrieves the Media Session's presentation clock.
@@ -102,7 +102,7 @@ Retrieves the Media Session's presentation clock.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfmediasession-getfulltopology">GetFullTopology</a>
+<a href="/windows/desktop/api/mfidl/nf-mfidl-imfmediasession-getfulltopology">GetFullTopology</a>
 </td>
 <td align="left" width="63%">
 Gets a topology from the Media Session.
@@ -112,7 +112,7 @@ Gets a topology from the Media Session.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfmediasession-getsessioncapabilities">GetSessionCapabilities</a>
+<a href="/windows/desktop/api/mfidl/nf-mfidl-imfmediasession-getsessioncapabilities">GetSessionCapabilities</a>
 </td>
 <td align="left" width="63%">
 Gets the capabilities of the Media Session, based on the current presentation.
@@ -122,7 +122,7 @@ Gets the capabilities of the Media Session, based on the current presentation.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfmediasession-pause">Pause</a>
+<a href="/windows/desktop/api/mfidl/nf-mfidl-imfmediasession-pause">Pause</a>
 </td>
 <td align="left" width="63%">
 Pauses the Media Session.
@@ -132,7 +132,7 @@ Pauses the Media Session.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfmediasession-settopology">SetTopology</a>
+<a href="/windows/desktop/api/mfidl/nf-mfidl-imfmediasession-settopology">SetTopology</a>
 </td>
 <td align="left" width="63%">
 Sets a topology on the Media Session.
@@ -142,7 +142,7 @@ Sets a topology on the Media Session.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfmediasession-shutdown">Shutdown</a>
+<a href="/windows/desktop/api/mfidl/nf-mfidl-imfmediasession-shutdown">Shutdown</a>
 </td>
 <td align="left" width="63%">
 Shuts down the Media Session and releases all the resources used by the Media Session.
@@ -152,7 +152,7 @@ Shuts down the Media Session and releases all the resources used by the Media Se
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfmediasession-start">Start</a>
+<a href="/windows/desktop/api/mfidl/nf-mfidl-imfmediasession-start">Start</a>
 </td>
 <td align="left" width="63%">
 Starts the Media Session.
@@ -162,7 +162,7 @@ Starts the Media Session.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfmediasession-stop">Stop</a>
+<a href="/windows/desktop/api/mfidl/nf-mfidl-imfmediasession-stop">Stop</a>
 </td>
 <td align="left" width="63%">
 Stops the Media Session.
@@ -174,13 +174,12 @@ Stops the Media Session.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/how-to-play-unprotected-media-files">How to Play Media Files with Media Foundation</a>
+<a href="/windows/desktop/medfound/how-to-play-unprotected-media-files">How to Play Media Files with Media Foundation</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfmediaeventgenerator">IMFMediaEventGenerator</a>
+<a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfmediaeventgenerator">IMFMediaEventGenerator</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
-
+<a href="/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>

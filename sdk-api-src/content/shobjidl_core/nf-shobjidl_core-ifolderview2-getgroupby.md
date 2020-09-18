@@ -56,9 +56,9 @@ Retrieves the property and sort order used for grouping items in the folder disp
 
 ### -param pkey [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ns-wtypes-propertykey">PROPERTYKEY</a>*</b>
+Type: <b><a href="/windows/desktop/api/wtypes/ns-wtypes-propertykey">PROPERTYKEY</a>*</b>
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ns-wtypes-propertykey">PROPERTYKEY</a> by which the view is grouped.
+A pointer to the <a href="/windows/desktop/api/wtypes/ns-wtypes-propertykey">PROPERTYKEY</a> by which the view is grouped.
 
 ### -param pfAscending [out]
 
@@ -100,4 +100,3 @@ The view is not grouped.
 </td>
 </tr>
 </table>
-

@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-The <b>DS_SITE_COST_INFO</b> structure is used with the <a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/nf-ntdsapi-dsquerysitesbycosta">DsQuerySitesByCost</a> function to contain communication cost data.
+The <b>DS_SITE_COST_INFO</b> structure is used with the <a href="/windows/desktop/api/ntdsapi/nf-ntdsapi-dsquerysitesbycosta">DsQuerySitesByCost</a> function to contain communication cost data.
 
 ## -struct-fields
 
@@ -78,9 +78,8 @@ If the <b>errorCode</b> member contains <b>ERROR_SUCCESS</b>, this member contai
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/AD/dc-and-replication-management-functions">DC and Replication Management Functions</a>
+<a href="/windows/desktop/AD/dc-and-replication-management-functions">DC and Replication Management Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/nf-ntdsapi-dsquerysitesbycosta">DsQuerySitesByCost</a>
-
+<a href="/windows/desktop/api/ntdsapi/nf-ntdsapi-dsquerysitesbycosta">DsQuerySitesByCost</a>

@@ -62,7 +62,7 @@ The file name of the packaged module to load. The module can be a library module
 
 If this parameter specifies a module name without a path and the file name extension is omitted, the function appends the default library extension .dll to the module name. To prevent the function from appending .dll to the module name, include a trailing point character (.) in the module name string. 
 
-If this parameter specifies a path, the function searches that path for the module. The path cannot be an absolute path or a relative path that contains ".." in the path.   When specifying a path, be sure to use backslashes (\), not forward slashes (/). For more information about paths, see <a href="https://docs.microsoft.com/windows/desktop/FileIO/naming-a-file">Naming Files, Paths, and Namespaces</a>. 
+If this parameter specifies a path, the function searches that path for the module. The path cannot be an absolute path or a relative path that contains ".." in the path.   When specifying a path, be sure to use backslashes (\), not forward slashes (/). For more information about paths, see <a href="/windows/desktop/FileIO/naming-a-file">Naming Files, Paths, and Namespaces</a>. 
 
 If the specified module is already loaded in the process, the function returns a handle to the loaded module. The module must have been originally loaded  from the package dependency graph of the process.
 
@@ -76,15 +76,15 @@ This parameter is reserved. It must be 0.
 
 If the function succeeds, the return value is a handle to the loaded module.
 
-If the function fails, the return value is <b>NULL</b>. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+If the function fails, the return value is <b>NULL</b>. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
 The 
-<b>LoadPackagedLibrary</b> function is a simplified version of <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibraryexa">LoadLibraryEx</a>. Windows Runtime apps  can use <b>LoadPackagedLibrary</b> to load packaged modules. Desktop applications cannot use <b>LoadPackagedLibrary</b>; if a desktop application calls this function it fails with <b>APPMODEL_ERROR_NO_PACKAGE</b>.
+<b>LoadPackagedLibrary</b> function is a simplified version of <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibraryexa">LoadLibraryEx</a>. Windows Runtime apps  can use <b>LoadPackagedLibrary</b> to load packaged modules. Desktop applications cannot use <b>LoadPackagedLibrary</b>; if a desktop application calls this function it fails with <b>APPMODEL_ERROR_NO_PACKAGE</b>.
 
 <b>LoadPackagedLibrary</b> returns a handle to the specified module and increments its reference count. If the module is already loaded, the function returns a handle to the loaded module. The calling process can use the handle returned by <b>LoadPackagedLibrary</b> to identify the module in calls to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> function. Use the <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-freelibrary">FreeLibrary</a> function to free a loaded module and decrement its reference              count.  
+<a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> function. Use the <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-freelibrary">FreeLibrary</a> function to free a loaded module and decrement its reference              count.  
 
 If the function must search for the specified module or its dependencies, it searches only the package dependency graph of the process.  This is the application's package plus any dependencies specified as <code>&lt;PackageDependency&gt;</code> in the <code>&lt;Dependencies&gt;</code> section of the application's package manifest. Dependencies are searched in the order they appear in the manifest. The package dependency graph is specified in the <code>&lt;Dependencies&gt;</code> section of the application's package manifest. Dependencies are searched in the order they appear in the manifest. The search proceeds as follows: 
 
@@ -95,7 +95,7 @@ If the function must search for the specified module or its dependencies, it sea
 </ol>
 It is not safe to call 
 <b>LoadPackagedLibrary</b> from 
-<a href="https://docs.microsoft.com/windows/desktop/Dlls/dllmain">DllMain</a>. For more information, see the Remarks section in 
+<a href="/windows/desktop/Dlls/dllmain">DllMain</a>. For more information, see the Remarks section in 
 <b>DllMain</b>.
 
 > [!NOTE]
@@ -103,5 +103,4 @@ On Windows Phone, **LoadPackagedLibrary** must be called from `PhoneAppModelHost
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Dlls/dynamic-link-library-search-order">Dynamic-Link Library Search Order</a>
-
+<a href="/windows/desktop/Dlls/dynamic-link-library-search-order">Dynamic-Link Library Search Order</a>

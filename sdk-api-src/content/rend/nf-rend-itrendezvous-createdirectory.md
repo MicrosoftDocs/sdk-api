@@ -61,7 +61,7 @@ The
 ### -param DirectoryType [in]
 
 The type of the directory. See 
-<a href="https://docs.microsoft.com/windows/desktop/api/rend/ne-rend-directory_type">DIRECTORY_TYPE</a>.
+<a href="/windows/desktop/api/rend/ne-rend-directory_type">DIRECTORY_TYPE</a>.
 
 ### -param pName [in]
 
@@ -70,7 +70,7 @@ Pointer to a <b>BSTR</b> containing the name of the directory to be created.
 ### -param ppDir [out]
 
 Pointer to receive an 
-<a href="https://docs.microsoft.com/windows/desktop/api/rend/nn-rend-itdirectory">ITDirectory</a> object of the type specified above.
+<a href="/windows/desktop/api/rend/nn-rend-itdirectory">ITDirectory</a> object of the type specified above.
 
 ## -returns
 
@@ -132,24 +132,23 @@ The <i>DirectoryType</i> parameter is not valid.
 For directories of type DT_NTDS, <i>pName</i> is ignored because Rendezvous supports using only the local domain controller (DC).
 
 The application must use 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysallocstring">SysAllocString</a> to allocate memory for the <i>pName</i> parameter and use 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a> to free the memory when the variable is no longer needed.
+<a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysallocstring">SysAllocString</a> to allocate memory for the <i>pName</i> parameter and use 
+<a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a> to free the memory when the variable is no longer needed.
 
 TAPI calls the <b>AddRef</b> method on the 
-<a href="https://docs.microsoft.com/windows/desktop/api/rend/nn-rend-itdirectory">ITDirectory</a> interface returned by <b>ITRendezvous::CreateDirectory</b>. The application must call <b>Release</b> on the 
+<a href="/windows/desktop/api/rend/nn-rend-itdirectory">ITDirectory</a> interface returned by <b>ITRendezvous::CreateDirectory</b>. The application must call <b>Release</b> on the 
 <b>ITDirectory</b> interface to free resources associated with it.
 
 This function may send data over the wire in unencrypted form; therefore, someone eavesdropping on the network may be able to read the data. The security risk of sending the data in clear text should be considered before using this method.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rend/ne-rend-directory_type">DIRECTORY_TYPE</a>
+<a href="/windows/desktop/api/rend/ne-rend-directory_type">DIRECTORY_TYPE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rend/nn-rend-itdirectory">ITDirectory</a>
+<a href="/windows/desktop/api/rend/nn-rend-itdirectory">ITDirectory</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rend/nn-rend-itrendezvous">ITRendezvous</a>
-
+<a href="/windows/desktop/api/rend/nn-rend-itrendezvous">ITRendezvous</a>

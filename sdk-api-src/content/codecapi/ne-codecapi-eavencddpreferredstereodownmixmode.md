@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Specifies the preferred stereo downmix mode for a Dolby Digital audio stream. This enumeration is used with the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/avencddpreferredstereodownmixmode-property">AVEncDDPreferredStereoDownMixMode</a> property.
+Specifies the preferred stereo downmix mode for a Dolby Digital audio stream. This enumeration is used with the <a href="/windows/desktop/DirectShow/avencddpreferredstereodownmixmode-property">AVEncDDPreferredStereoDownMixMode</a> property.
 
 ## -enum-fields
 
@@ -64,9 +64,8 @@ Left only/right only (Lo/Ro) downmix.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/codec-api-enumerations">Codec API Enumerations</a>
+<a href="/windows/desktop/DirectShow/codec-api-enumerations">Codec API Enumerations</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-icodecapi">ICodecAPI Interface</a>
-
+<a href="/windows/desktop/api/strmif/nn-strmif-icodecapi">ICodecAPI Interface</a>

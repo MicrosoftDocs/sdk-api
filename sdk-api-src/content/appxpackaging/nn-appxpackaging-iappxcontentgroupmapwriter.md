@@ -54,7 +54,7 @@ Provides a write-only object model for a content group map.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAppxContentGroupMapWriter</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAppxContentGroupMapWriter</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAppxContentGroupMapWriter</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAppxContentGroupMapWriter</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IAppxContentGroupMapWriter</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxcontentgroupmapwriter-addautomaticfile">AddAutomaticFile</a>
+<a href="/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxcontentgroupmapwriter-addautomaticfile">AddAutomaticFile</a>
 </td>
 <td align="left" width="63%">
 Adds files to an automatic content group in a content group map.
@@ -78,7 +78,7 @@ Adds files to an automatic content group in a content group map.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxcontentgroupmapwriter-addautomaticgroup">AddAutomaticGroup</a>
+<a href="/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxcontentgroupmapwriter-addautomaticgroup">AddAutomaticGroup</a>
 </td>
 <td align="left" width="63%">
 Adds an automatic content group to the content group map.
@@ -86,4 +86,3 @@ Adds an automatic content group to the content group map.
 </td>
 </tr>
 </table>
-

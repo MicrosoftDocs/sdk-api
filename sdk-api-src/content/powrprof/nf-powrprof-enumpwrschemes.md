@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[<b>EnumPwrSchemes</b> is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Applications written for Windows Vista and later should use <a href="https://docs.microsoft.com/windows/desktop/api/powrprof/nf-powrprof-powerenumerate">PowerEnumerate</a> instead.]
+<p class="CCE_Message">[<b>EnumPwrSchemes</b> is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Applications written for Windows Vista and later should use <a href="/windows/desktop/api/powrprof/nf-powrprof-powerenumerate">PowerEnumerate</a> instead.]
 
 Enumerates all power schemes. For each power scheme enumerated, the function calls a callback function with information about the power scheme.
 
@@ -69,7 +69,7 @@ A user-defined value to be passed to the callback function.
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
@@ -86,19 +86,18 @@ typedef BOOLEAN (CALLBACK* PWRSCHEMESENUMPROC)(
   LPARAM lParam      // user-defined value
 );</code></pre>
 The <i>sName</i> and <i>sDesc</i> parameters are null-terminated Unicode strings. The <i>pp</i> parameter is a pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/powrprof/ns-powrprof-power_policy">POWER_POLICY</a> structure containing the power policy scheme. To continue until all power schemes have been enumerated, the callback function must return <b>TRUE</b>. To stop the enumeration, the callback function must return <b>FALSE</b>.
+<a href="/windows/desktop/api/powrprof/ns-powrprof-power_policy">POWER_POLICY</a> structure containing the power policy scheme. To continue until all power schemes have been enumerated, the callback function must return <b>TRUE</b>. To stop the enumeration, the callback function must return <b>FALSE</b>.
 
-For more information on using PowrProf.h, see <a href="https://docs.microsoft.com/windows/desktop/Power/power-schemes">Power Schemes</a>.
+For more information on using PowrProf.h, see <a href="/windows/desktop/Power/power-schemes">Power Schemes</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/powrprof/ns-powrprof-power_policy">POWER_POLICY</a>
+<a href="/windows/desktop/api/powrprof/ns-powrprof-power_policy">POWER_POLICY</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Power/power-management-functions">Power Management Functions</a>
+<a href="/windows/desktop/Power/power-management-functions">Power Management Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Power/power-schemes">Power Schemes</a>
-
+<a href="/windows/desktop/Power/power-schemes">Power Schemes</a>

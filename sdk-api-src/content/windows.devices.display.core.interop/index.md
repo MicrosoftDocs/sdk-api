@@ -44,7 +44,7 @@ f1_keywords:
 
 ## -description
 
-APIs for desktop interop with the [Windows.Devices.Display.Core](https://docs.microsoft.com/uwp/api/windows.devices.display.core) namespace.<br/><br/>
+APIs for desktop interop with the [Windows.Devices.Display.Core](/uwp/api/windows.devices.display.core) namespace.<br/><br/>
 
 ## -remarks
 
@@ -55,4 +55,3 @@ This header is used by Windows Runtime C++ reference. For more information, see:
 ## -see-also
 
 ## -examples
-

@@ -50,23 +50,22 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[The <b>WTHelperCertIsSelfSigned</b> function is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. For certificate verification, use the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certgetcertificatechain">CertGetCertificateChain</a> and <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certverifycertificatechainpolicy">CertVerifyCertificateChainPolicy</a> functions. For Microsoft <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">Authenticode</a> technology signature verification, use the .NET Framework.]
+<p class="CCE_Message">[The <b>WTHelperCertIsSelfSigned</b> function is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. For certificate verification, use the <a href="/windows/desktop/api/wincrypt/nf-wincrypt-certgetcertificatechain">CertGetCertificateChain</a> and <a href="/windows/desktop/api/wincrypt/nf-wincrypt-certverifycertificatechainpolicy">CertVerifyCertificateChainPolicy</a> functions. For Microsoft <a href="/windows/desktop/SecGloss/a-gly">Authenticode</a> technology signature verification, use the .NET Framework.]
 
-The <b>WTHelperCertIsSelfSigned</b> function checks whether a certificate is self-signed. This function has no associated import library. You must use the <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> and <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> functions to dynamically link to Wintrust.dll.
+The <b>WTHelperCertIsSelfSigned</b> function checks whether a certificate is self-signed. This function has no associated import library. You must use the <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> and <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> functions to dynamically link to Wintrust.dll.
 
 ## -parameters
 
 ### -param dwEncoding [in]
 
-A <b>DWORD</b> value that specifies the encoding types of the certificate to check. For information about possible encoding types, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/certificate-and-message-encoding-types">Certificate and Message Encoding Types</a>.
+A <b>DWORD</b> value that specifies the encoding types of the certificate to check. For information about possible encoding types, see <a href="/windows/desktop/SecCrypto/certificate-and-message-encoding-types">Certificate and Message Encoding Types</a>.
 
 ### -param pCert [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_info">CERT_INFO</a> structure that contains information about  the certificate to check.
+A pointer to a <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_info">CERT_INFO</a> structure that contains information about  the certificate to check.
 
 ## -returns
 
 If the function succeeds, the function returns <b>TRUE</b>.
 
 If the function fails, it returns <b>FALSE</b>.
-

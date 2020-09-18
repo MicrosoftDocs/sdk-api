@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[SNMP is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="https://docs.microsoft.com/windows/desktop/WinRM/portal">Windows Remote Management</a>, which is the Microsoft implementation of WS-Man.]
+<p class="CCE_Message">[SNMP is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="/windows/desktop/WinRM/portal">Windows Remote Management</a>, which is the Microsoft implementation of WS-Man.]
 
 A WinSNMP application calls the 
 <b>SnmpGetVb</b> function to retrieve information from a variable bindings list. This WinSNMP function retrieves a variable name and its associated value from the variable binding entry specified by the <i>index</i> parameter.
@@ -73,12 +73,12 @@ Valid values for this parameter are in the range from 1 to n, where 1 indicates 
 ### -param name [out]
 
 Pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsnmp/ns-winsnmp-smioid">smiOID</a> structure to receive the variable name of the variable binding entry.
+<a href="/windows/desktop/api/winsnmp/ns-winsnmp-smioid">smiOID</a> structure to receive the variable name of the variable binding entry.
 
 ### -param value [out]
 
 Pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsnmp/ns-winsnmp-smivalue">smiVALUE</a> structure to receive the value associated with the variable identified by the <i>name</i> parameter. 
+<a href="/windows/desktop/api/winsnmp/ns-winsnmp-smivalue">smiVALUE</a> structure to receive the value associated with the variable identified by the <i>name</i> parameter. 
 
 
 
@@ -247,7 +247,7 @@ Indicates the WinSNMP application is attempting to reference an object identifie
 If the function succeeds, the return value is SNMPAPI_SUCCESS.
 
 If the function fails, the return value is SNMPAPI_FAILURE. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsnmp/nf-winsnmp-snmpgetlasterror">SnmpGetLastError</a>. The 
+<a href="/windows/desktop/api/winsnmp/nf-winsnmp-snmpgetlasterror">SnmpGetLastError</a>. The 
 <b>SnmpGetLastError</b> function can return one of the following errors.
 
 <table>
@@ -263,7 +263,7 @@ If the function fails, the return value is SNMPAPI_FAILURE. To get extended erro
 </td>
 <td width="60%">
 The 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsnmp/nf-winsnmp-snmpstartup">SnmpStartup</a> function did not complete successfully.
+<a href="/windows/desktop/api/winsnmp/nf-winsnmp-snmpstartup">SnmpStartup</a> function did not complete successfully.
 
 </td>
 </tr>
@@ -322,57 +322,56 @@ The
 
 On input, the 
 <b>SnmpGetVb</b> function ignores the members of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsnmp/ns-winsnmp-smioid">smiOID</a> and 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsnmp/ns-winsnmp-smivalue">smiVALUE</a> structures pointed to by the <i>name</i> and <i>value</i> parameters respectively. The Microsoft WinSNMP implementation overwrites the members if the function completes successfully.
+<a href="/windows/desktop/api/winsnmp/ns-winsnmp-smioid">smiOID</a> and 
+<a href="/windows/desktop/api/winsnmp/ns-winsnmp-smivalue">smiVALUE</a> structures pointed to by the <i>name</i> and <i>value</i> parameters respectively. The Microsoft WinSNMP implementation overwrites the members if the function completes successfully.
 
 Valid values for a WinSNMP application to use for the <i>index</i> parameter are as follows:
 
 <ul>
 <li>The return value from a call to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsnmp/nf-winsnmp-snmpcountvbl">SnmpCountVbl</a> function</li>
+<a href="/windows/desktop/api/winsnmp/nf-winsnmp-snmpcountvbl">SnmpCountVbl</a> function</li>
 <li>The error index field of an <b>SNMP_PDU_RESPONSE</b> protocol data unit (PDU) returned by a call to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsnmp/nf-winsnmp-snmprecvmsg">SnmpRecvMsg</a> function</li>
+<a href="/windows/desktop/api/winsnmp/nf-winsnmp-snmprecvmsg">SnmpRecvMsg</a> function</li>
 </ul>
 The WinSNMP application must call the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsnmp/nf-winsnmp-snmpfreedescriptor">SnmpFreeDescriptor</a> function to free resources allocated for the <b>ptr</b> member of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsnmp/ns-winsnmp-smioid">smiOID</a> structure pointed to by the <i>name</i> parameter. The application must also call the 
+<a href="/windows/desktop/api/winsnmp/nf-winsnmp-snmpfreedescriptor">SnmpFreeDescriptor</a> function to free resources allocated for the <b>ptr</b> member of the 
+<a href="/windows/desktop/api/winsnmp/ns-winsnmp-smioid">smiOID</a> structure pointed to by the <i>name</i> parameter. The application must also call the 
 <b>SnmpFreeDescriptor</b> function to release resources allocated for the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsnmp/ns-winsnmp-smivalue">smiVALUE</a> structure pointed to by the <i>value</i> parameter under the conditions following. If the <b>value</b> member is an 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsnmp/ns-winsnmp-smioctets">smiOCTETS</a> or an 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsnmp/ns-winsnmp-smioid">smiOID</a> structure, the application must call 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsnmp/nf-winsnmp-snmpfreedescriptor">SnmpFreeDescriptor</a> to free the resources allocated for these structures. For additional information, see 
-<a href="https://docs.microsoft.com/windows/desktop/SNMP/winsnmp-data-management-concepts">WinSNMP Data Management Concepts</a>.
+<a href="/windows/desktop/api/winsnmp/ns-winsnmp-smivalue">smiVALUE</a> structure pointed to by the <i>value</i> parameter under the conditions following. If the <b>value</b> member is an 
+<a href="/windows/desktop/api/winsnmp/ns-winsnmp-smioctets">smiOCTETS</a> or an 
+<a href="/windows/desktop/api/winsnmp/ns-winsnmp-smioid">smiOID</a> structure, the application must call 
+<a href="/windows/desktop/api/winsnmp/nf-winsnmp-snmpfreedescriptor">SnmpFreeDescriptor</a> to free the resources allocated for these structures. For additional information, see 
+<a href="/windows/desktop/SNMP/winsnmp-data-management-concepts">WinSNMP Data Management Concepts</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsnmp/nf-winsnmp-snmpcountvbl">SnmpCountVbl</a>
+<a href="/windows/desktop/api/winsnmp/nf-winsnmp-snmpcountvbl">SnmpCountVbl</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsnmp/nf-winsnmp-snmpfreedescriptor">SnmpFreeDescriptor</a>
+<a href="/windows/desktop/api/winsnmp/nf-winsnmp-snmpfreedescriptor">SnmpFreeDescriptor</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsnmp/nf-winsnmp-snmprecvmsg">SnmpRecvMsg</a>
+<a href="/windows/desktop/api/winsnmp/nf-winsnmp-snmprecvmsg">SnmpRecvMsg</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SNMP/winsnmp-functions">WinSNMP
+<a href="/windows/desktop/SNMP/winsnmp-functions">WinSNMP
 		  Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SNMP/winsnmp-api">WinSNMP API Overview</a>
+<a href="/windows/desktop/SNMP/winsnmp-api">WinSNMP API Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsnmp/ns-winsnmp-smioctets">smiOCTETS</a>
+<a href="/windows/desktop/api/winsnmp/ns-winsnmp-smioctets">smiOCTETS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsnmp/ns-winsnmp-smioid">smiOID</a>
+<a href="/windows/desktop/api/winsnmp/ns-winsnmp-smioid">smiOID</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsnmp/ns-winsnmp-smivalue">smiVALUE</a>
-
+<a href="/windows/desktop/api/winsnmp/ns-winsnmp-smivalue">smiVALUE</a>

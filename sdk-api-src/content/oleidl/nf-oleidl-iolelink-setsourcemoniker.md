@@ -56,7 +56,7 @@ Sets the moniker for the link source.
 
 ### -param pmk [in]
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imoniker">IMoniker</a> interface on a moniker that identifies the new link source of the linked object. A value of <b>NULL</b> breaks the link.
+A pointer to the <a href="/windows/desktop/api/objidl/nn-objidl-imoniker">IMoniker</a> interface on a moniker that identifies the new link source of the linked object. A value of <b>NULL</b> breaks the link.
 
 ### -param rclsid [in]
 
@@ -69,40 +69,39 @@ This method returns S_OK on success.
 ## -remarks
 
 <h3><a id="Notes_to_Callers"></a><a id="notes_to_callers"></a><a id="NOTES_TO_CALLERS"></a>Notes to Callers</h3>
-Your container application can call <b>IOleLink::SetSourceMoniker</b> when the end user changes the source of a link or breaks a link. Note that this requires your container to use the <a href="https://docs.microsoft.com/windows/desktop/api/objbase/nf-objbase-mkparsedisplayname">MkParseDisplayName</a> function to create a moniker out of the display name that the end user enters. If you'd rather have the linked object perform the parsing, your container can call <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-iolelink-setsourcedisplayname">IOleLink::SetSourceDisplayName</a> instead of <b>IOleLink::SetSourceMoniker</b>.
+Your container application can call <b>IOleLink::SetSourceMoniker</b> when the end user changes the source of a link or breaks a link. Note that this requires your container to use the <a href="/windows/desktop/api/objbase/nf-objbase-mkparsedisplayname">MkParseDisplayName</a> function to create a moniker out of the display name that the end user enters. If you'd rather have the linked object perform the parsing, your container can call <a href="/windows/desktop/api/oleidl/nf-oleidl-iolelink-setsourcedisplayname">IOleLink::SetSourceDisplayName</a> instead of <b>IOleLink::SetSourceMoniker</b>.
 
-The end user changes the source of a link or breaks a link using the <b>Links</b> dialog box. If you use the <a href="https://docs.microsoft.com/windows/desktop/api/oledlg/nf-oledlg-oleuieditlinksa">OleUIEditLinks</a> function to display the <b>Links</b> dialog box, you must implement the <a href="https://docs.microsoft.com/windows/desktop/api/oledlg/nn-oledlg-ioleuilinkcontainera">IOleUILinkContainer</a> interface. The dialog box calls your implementations of <a href="https://docs.microsoft.com/windows/desktop/api/oledlg/nf-oledlg-ioleuilinkcontainera-setlinksource">IOleUILinkContainer::SetLinkSource</a> and <a href="https://docs.microsoft.com/windows/desktop/api/oledlg/nf-oledlg-ioleuilinkcontainera-cancellink">IOleUILinkContainer::CancelLink</a>; your implementation of these methods can call <b>IOleLink::SetSourceMoniker</b>.
+The end user changes the source of a link or breaks a link using the <b>Links</b> dialog box. If you use the <a href="/windows/desktop/api/oledlg/nf-oledlg-oleuieditlinksa">OleUIEditLinks</a> function to display the <b>Links</b> dialog box, you must implement the <a href="/windows/desktop/api/oledlg/nn-oledlg-ioleuilinkcontainera">IOleUILinkContainer</a> interface. The dialog box calls your implementations of <a href="/windows/desktop/api/oledlg/nf-oledlg-ioleuilinkcontainera-setlinksource">IOleUILinkContainer::SetLinkSource</a> and <a href="/windows/desktop/api/oledlg/nf-oledlg-ioleuilinkcontainera-cancellink">IOleUILinkContainer::CancelLink</a>; your implementation of these methods can call <b>IOleLink::SetSourceMoniker</b>.
 
 If the linked object is currently bound to its link source, the linked object's implementation of <b>IOleLink::SetSourceMoniker</b> closes the link before changing the moniker.
 
 <h3><a id="Notes_to_Implementers"></a><a id="notes_to_implementers"></a><a id="NOTES_TO_IMPLEMENTERS"></a>Notes to Implementers</h3>
-The <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-iolelink">IOleLink</a> contract does not specify how the linked object stores or uses the link source moniker. The provided implementation stores the absolute moniker specified when the link is created or when the moniker is changed; it then computes and stores a relative moniker. Future implementations might manage monikers differently to provide better moniker tracking. The absolute moniker provides the complete path to the link source. The linked object uses this absolute moniker and the moniker of the compound document to compute a relative moniker that identifies the link source relative to the compound document that contains the link.
+The <a href="/windows/desktop/api/oleidl/nn-oleidl-iolelink">IOleLink</a> contract does not specify how the linked object stores or uses the link source moniker. The provided implementation stores the absolute moniker specified when the link is created or when the moniker is changed; it then computes and stores a relative moniker. Future implementations might manage monikers differently to provide better moniker tracking. The absolute moniker provides the complete path to the link source. The linked object uses this absolute moniker and the moniker of the compound document to compute a relative moniker that identifies the link source relative to the compound document that contains the link.
 
 pmkCompoundDoc-&gt;RelativePathTo(pmkAbsolute, ppmkRelative)
 
 When binding to the link source, the linked object first tries to bind using the relative moniker. If that fails, it tries to bind the absolute moniker.
 
-When the linked object successfully binds using either the relative or the absolute moniker, it automatically updates the other moniker. The linked object also updates both monikers when it is bound to the link source and it receives a rename notification through the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-iadvisesink-onrename">IAdviseSink::OnRename</a> method. A container application can also use the <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-iolelink-setsourcedisplayname">IOleLink::SetSourceDisplayName</a> method to change a link's moniker.
+When the linked object successfully binds using either the relative or the absolute moniker, it automatically updates the other moniker. The linked object also updates both monikers when it is bound to the link source and it receives a rename notification through the <a href="/windows/desktop/api/objidl/nf-objidl-iadvisesink-onrename">IAdviseSink::OnRename</a> method. A container application can also use the <a href="/windows/desktop/api/oleidl/nf-oleidl-iolelink-setsourcedisplayname">IOleLink::SetSourceDisplayName</a> method to change a link's moniker.
 
-The linked object's implementation of <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ipersiststorage-save">IPersistStorage::Save</a> saves both the relative and the absolute moniker.
+The linked object's implementation of <a href="/windows/desktop/api/objidl/nf-objidl-ipersiststorage-save">IPersistStorage::Save</a> saves both the relative and the absolute moniker.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-iolelink">IOleLink</a>
+<a href="/windows/desktop/api/oleidl/nn-oleidl-iolelink">IOleLink</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-iolelink-getsourcemoniker">IOleLink::GetSourceMoniker</a>
+<a href="/windows/desktop/api/oleidl/nf-oleidl-iolelink-getsourcemoniker">IOleLink::GetSourceMoniker</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-iolelink-setsourcedisplayname">IOleLink::SetSourceDisplayName</a>
+<a href="/windows/desktop/api/oleidl/nf-oleidl-iolelink-setsourcedisplayname">IOleLink::SetSourceDisplayName</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/oledlg/nn-oledlg-ioleuilinkcontainera">IOleUILinkContainer</a>
+<a href="/windows/desktop/api/oledlg/nn-oledlg-ioleuilinkcontainera">IOleUILinkContainer</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/oledlg/nf-oledlg-oleuieditlinksa">OleUIEditLinks</a>
-
+<a href="/windows/desktop/api/oledlg/nf-oledlg-oleuieditlinksa">OleUIEditLinks</a>

@@ -68,7 +68,7 @@ For more information about the <b>UIAccess</b> attribute and application manifes
 
 ### -field IMO_INJECTED
 
-The input message has been injected (through the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-sendinput">SendInput</a> function) by an application that doesn't have the <b>UIAccess</b> attribute set to TRUE in its manifest file.
+The input message has been injected (through the <a href="/windows/desktop/api/winuser/nf-winuser-sendinput">SendInput</a> function) by an application that doesn't have the <b>UIAccess</b> attribute set to TRUE in its manifest file.
 
 ### -field IMO_SYSTEM
 
@@ -76,5 +76,4 @@ The system has injected the input message.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/input_sourceid/enumerations">Enumerations</a>
-
+<a href="/previous-versions/windows/desktop/input_sourceid/enumerations">Enumerations</a>

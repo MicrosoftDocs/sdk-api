@@ -87,9 +87,9 @@ The method succeeded.
 
 ## -remarks
 
-To retrieve the <b>IUnknown</b> pointer, call <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfattributes-getunknown">IMFAttributes::GetUnknown</a>.
+To retrieve the <b>IUnknown</b> pointer, call <a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfattributes-getunknown">IMFAttributes::GetUnknown</a>.
 
-It is not an error to call <b>SetUnknown</b> with <i>pUnknown</i> equal to <b>NULL</b>. However, <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfattributes-getunknown">GetUnknown</a> will return <b>MF_E_INVALIDTYPE</b>.
+It is not an error to call <b>SetUnknown</b> with <i>pUnknown</i> equal to <b>NULL</b>. However, <a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfattributes-getunknown">GetUnknown</a> will return <b>MF_E_INVALIDTYPE</b>.
 
 This interface is available on the following platforms if the Windows Media Format 11 SDK redistributable components are installed:
 
@@ -100,9 +100,8 @@ This interface is available on the following platforms if the Windows Media Form
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/attributes-and-properties">Attributes and Properties</a>
+<a href="/windows/desktop/medfound/attributes-and-properties">Attributes and Properties</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes">IMFAttributes</a>
-
+<a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes">IMFAttributes</a>

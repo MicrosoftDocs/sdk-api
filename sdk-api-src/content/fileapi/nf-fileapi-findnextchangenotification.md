@@ -64,30 +64,30 @@ Requests that the operating system signal a change notification handle the next 
 ### -param hChangeHandle [in]
 
 A handle to a change notification handle created by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-findfirstchangenotificationa">FindFirstChangeNotification</a> function.
+<a href="/windows/desktop/api/fileapi/nf-fileapi-findfirstchangenotificationa">FindFirstChangeNotification</a> function.
 
 ## -returns
 
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
 After the 
 <b>FindNextChangeNotification</b> function returns successfully, the application can wait for notification that a change has occurred by using the 
-<a href="https://docs.microsoft.com/windows/desktop/Sync/wait-functions">wait functions</a>.
+<a href="/windows/desktop/Sync/wait-functions">wait functions</a>.
 
 If a change occurs after a call to 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-findfirstchangenotificationa">FindFirstChangeNotification</a>but before a call to 
+<a href="/windows/desktop/api/fileapi/nf-fileapi-findfirstchangenotificationa">FindFirstChangeNotification</a>but before a call to 
 <b>FindNextChangeNotification</b>, the operating system records the change. When 
 <b>FindNextChangeNotification</b> is executed, the recorded change immediately satisfies a wait for the change notification.
 
 Each successful call to **FindNextChangeNotification** must be followed by a call to one of the wait functions. If the wait function returns for any reason other than the change notification handle being signaled (for example, if the wait times out), the application must retry the wait. Failing to follow this rule can cause the system to eventually run out of resources. It can also cause the application to miss some change notifications.
 
 When <i>hChangeHandle</i> is no longer needed, close it by using the 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-findclosechangenotification">FindCloseChangeNotification</a> function.
+<a href="/windows/desktop/api/fileapi/nf-fileapi-findclosechangenotification">FindCloseChangeNotification</a> function.
 
 In Windows 8 and Windows Server 2012, this function is supported by the following technologies.
 
@@ -155,20 +155,19 @@ Application might experience false positives on CsvFs pause/resume.
 #### Examples
 
 For an example, see 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/obtaining-directory-change-notifications">Obtaining Directory Change Notifications</a>. 
+<a href="/windows/desktop/FileIO/obtaining-directory-change-notifications">Obtaining Directory Change Notifications</a>. 
             
 
 <div class="code"></div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/directory-management-functions">Directory Management Functions</a>
+<a href="/windows/desktop/FileIO/directory-management-functions">Directory Management Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-findclosechangenotification">FindCloseChangeNotification</a>
+<a href="/windows/desktop/api/fileapi/nf-fileapi-findclosechangenotification">FindCloseChangeNotification</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-findfirstchangenotificationa">FindFirstChangeNotification</a>
-
+<a href="/windows/desktop/api/fileapi/nf-fileapi-findfirstchangenotificationa">FindFirstChangeNotification</a>

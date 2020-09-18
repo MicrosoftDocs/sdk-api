@@ -59,7 +59,7 @@ api_name:
 
 ## -description
 
-Retrieves specified version information from the specified version-information resource. To retrieve the appropriate resource, before you call <b>VerQueryValue</b>, you must first call the <a href="https://docs.microsoft.com/windows/desktop/api/winver/nf-winver-getfileversioninfosizea">GetFileVersionInfoSize</a> function, and then the <a href="https://docs.microsoft.com/windows/desktop/api/winver/nf-winver-getfileversioninfoa">GetFileVersionInfo</a> function.
+Retrieves specified version information from the specified version-information resource. To retrieve the appropriate resource, before you call <b>VerQueryValue</b>, you must first call the <a href="/windows/desktop/api/winver/nf-winver-getfileversioninfosizea">GetFileVersionInfoSize</a> function, and then the <a href="/windows/desktop/api/winver/nf-winver-getfileversioninfoa">GetFileVersionInfo</a> function.
 
 ## -parameters
 
@@ -67,7 +67,7 @@ Retrieves specified version information from the specified version-information r
 
 Type: <b>LPCVOID</b>
 
-The version-information resource returned by the <a href="https://docs.microsoft.com/windows/desktop/api/winver/nf-winver-getfileversioninfoa">GetFileVersionInfo</a> function.
+The version-information resource returned by the <a href="/windows/desktop/api/winver/nf-winver-getfileversioninfoa">GetFileVersionInfo</a> function.
 
 ### -param lpSubBlock [in]
 
@@ -81,19 +81,19 @@ The version-information value to be retrieved. The string must consist of names 
 
 #### \
 
-The root block. The function retrieves a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/verrsrc/ns-verrsrc-vs_fixedfileinfo">VS_FIXEDFILEINFO</a> structure for the version-information resource.
+The root block. The function retrieves a pointer to the <a href="/windows/desktop/api/verrsrc/ns-verrsrc-vs_fixedfileinfo">VS_FIXEDFILEINFO</a> structure for the version-information resource.
 
 
 
 #### \VarFileInfo\Translation
 
-The translation array in a <a href="https://docs.microsoft.com/windows/desktop/menurc/var-str">Var</a> variable information structure—the <b>Value</b> member of this structure. The function retrieves a pointer to this array of language and code page identifiers. An application can use these identifiers to access a language-specific <a href="https://docs.microsoft.com/windows/desktop/menurc/stringtable">StringTable</a> structure (using the <b>szKey</b> member) in the version-information resource.
+The translation array in a <a href="/windows/desktop/menurc/var-str">Var</a> variable information structure—the <b>Value</b> member of this structure. The function retrieves a pointer to this array of language and code page identifiers. An application can use these identifiers to access a language-specific <a href="/windows/desktop/menurc/stringtable">StringTable</a> structure (using the <b>szKey</b> member) in the version-information resource.
 
 
 
 #### \StringFileInfo\lang-codepage\string-name
 
-A value in a language-specific <a href="https://docs.microsoft.com/windows/desktop/menurc/stringtable">StringTable</a> structure. The <i>lang-codepage</i> name is a concatenation of a language and code page identifier pair found as a <b>DWORD</b> in the translation array for the resource. Here the <i>lang-codepage</i> name must be specified as a hexadecimal string. The <i>string-name</i> name must be one of the predefined strings described in the following Remarks section. The function retrieves a string value specific to the language and code page indicated.
+A value in a language-specific <a href="/windows/desktop/menurc/stringtable">StringTable</a> structure. The <i>lang-codepage</i> name is a concatenation of a language and code page identifier pair found as a <b>DWORD</b> in the translation array for the resource. Here the <i>lang-codepage</i> name must be specified as a hexadecimal string. The <i>string-name</i> name must be one of the predefined strings described in the following Remarks section. The function retrieves a string value specific to the language and code page indicated.
 
 ### -param lplpBuffer [out]
 
@@ -150,7 +150,7 @@ The following are predefined version information Unicode strings.
 
 The following example shows how to enumerate the available version languages and retrieve the FileDescription string-value for each language.
 
-Be sure to call the <a href="https://docs.microsoft.com/windows/desktop/api/winver/nf-winver-getfileversioninfosizea">GetFileVersionInfoSize</a> and <a href="https://docs.microsoft.com/windows/desktop/api/winver/nf-winver-getfileversioninfoa">GetFileVersionInfo</a> functions before calling <b>VerQueryValue</b> to properly initialize the <i>pBlock</i> buffer.
+Be sure to call the <a href="/windows/desktop/api/winver/nf-winver-getfileversioninfosizea">GetFileVersionInfoSize</a> and <a href="/windows/desktop/api/winver/nf-winver-getfileversioninfoa">GetFileVersionInfo</a> functions before calling <b>VerQueryValue</b> to properly initialize the <i>pBlock</i> buffer.
 
 
 ```cpp
@@ -205,11 +205,11 @@ for( i=0; i < (cbTranslate/sizeof(struct LANGANDCODEPAGE)); i++ )
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winver/nf-winver-getfileversioninfoa">GetFileVersionInfo</a>
+<a href="/windows/desktop/api/winver/nf-winver-getfileversioninfoa">GetFileVersionInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winver/nf-winver-getfileversioninfosizea">GetFileVersionInfoSize</a>
+<a href="/windows/desktop/api/winver/nf-winver-getfileversioninfosizea">GetFileVersionInfoSize</a>
 
 
 
@@ -217,33 +217,32 @@ for( i=0; i < (cbTranslate/sizeof(struct LANGANDCODEPAGE)); i++ )
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/menurc/string-str">String</a>
+<a href="/windows/desktop/menurc/string-str">String</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/menurc/stringfileinfo">StringFileInfo</a>
+<a href="/windows/desktop/menurc/stringfileinfo">StringFileInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/menurc/stringtable">StringTable</a>
+<a href="/windows/desktop/menurc/stringtable">StringTable</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/verrsrc/ns-verrsrc-vs_fixedfileinfo">VS_FIXEDFILEINFO</a>
+<a href="/windows/desktop/api/verrsrc/ns-verrsrc-vs_fixedfileinfo">VS_FIXEDFILEINFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/menurc/vs-versioninfo">VS_VERSIONINFO</a>
+<a href="/windows/desktop/menurc/vs-versioninfo">VS_VERSIONINFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/menurc/var-str">Var</a>
+<a href="/windows/desktop/menurc/var-str">Var</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/menurc/varfileinfo">VarFileInfo</a>
+<a href="/windows/desktop/menurc/varfileinfo">VarFileInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/menurc/version-information">Version Information</a>
-
+<a href="/windows/desktop/menurc/version-information">Version Information</a>

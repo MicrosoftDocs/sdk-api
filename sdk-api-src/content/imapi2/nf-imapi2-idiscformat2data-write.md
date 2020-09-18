@@ -492,47 +492,46 @@ Before calling this method, you must call the following methods:
 
 <ul>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-iwriteengine2-put_recorder">IDiscFormat2Data::put_Recorder</a>
+<a href="/windows/desktop/api/imapi2/nf-imapi2-iwriteengine2-put_recorder">IDiscFormat2Data::put_Recorder</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2data-put_clientname">IDiscFormat2Data::put_ClientName</a>
+<a href="/windows/desktop/api/imapi2/nf-imapi2-idiscformat2data-put_clientname">IDiscFormat2Data::put_ClientName</a>
 </li>
 </ul>
 You should also consider calling the following methods if their default values are not appropriate for your application:
 
 <ul>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2data-put_bufferunderrunfreedisabled">IDiscFormat2Data::put_BufferUnderrunFreeDisabled</a>
+<a href="/windows/desktop/api/imapi2/nf-imapi2-idiscformat2data-put_bufferunderrunfreedisabled">IDiscFormat2Data::put_BufferUnderrunFreeDisabled</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2data-put_disableconsumerdvdcompatibilitymode">IDiscFormat2Data::put_DisableConsumerDvdCompatibilityMode</a>
+<a href="/windows/desktop/api/imapi2/nf-imapi2-idiscformat2data-put_disableconsumerdvdcompatibilitymode">IDiscFormat2Data::put_DisableConsumerDvdCompatibilityMode</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2data-put_forcemediatobeclosed">IDiscFormat2Data::put_ForceMediaToBeClosed</a>
+<a href="/windows/desktop/api/imapi2/nf-imapi2-idiscformat2data-put_forcemediatobeclosed">IDiscFormat2Data::put_ForceMediaToBeClosed</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2data-put_forceoverwrite">IDiscFormat2Data::put_ForceOverwrite</a>
+<a href="/windows/desktop/api/imapi2/nf-imapi2-idiscformat2data-put_forceoverwrite">IDiscFormat2Data::put_ForceOverwrite</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2data-put_postgapalreadyinimage">IDiscFormat2Data::put_PostgapAlreadyInImage</a>
+<a href="/windows/desktop/api/imapi2/nf-imapi2-idiscformat2data-put_postgapalreadyinimage">IDiscFormat2Data::put_PostgapAlreadyInImage</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2data-setwritespeed">IDiscFormat2Data::SetWriteSpeed</a>
+<a href="/windows/desktop/api/imapi2/nf-imapi2-idiscformat2data-setwritespeed">IDiscFormat2Data::SetWriteSpeed</a>
 </li>
 </ul>
-This method is synchronous, which means that control is not returned until the provided <b>IStream</b> is recorded to the media. To determine the progress of the write operation, you must implement the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-ddiscformat2dataevents">DDiscFormat2DataEvents</a> interface. For examples that show how to implement an event handler in a script, see <a href="https://docs.microsoft.com/windows/desktop/imapi/monitoring-progress-with-events">Monitoring Progress With Events</a>.
+This method is synchronous, which means that control is not returned until the provided <b>IStream</b> is recorded to the media. To determine the progress of the write operation, you must implement the <a href="/windows/desktop/api/imapi2/nn-imapi2-ddiscformat2dataevents">DDiscFormat2DataEvents</a> interface. For examples that show how to implement an event handler in a script, see <a href="/windows/desktop/imapi/monitoring-progress-with-events">Monitoring Progress With Events</a>.
 
-On sequentially recorded discs, the provided <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a> is recorded as a new session. On rewritable discs, the provided <b>IStream</b> is always recorded starting from sector 0, but the object providing the <b>IStream</b> interface can also provide the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-iblockrangelist">IBlockRangeList</a> interface listing the sectors that need to be recorded. The <b>IBlockRangeList</b> interface is used to avoid rewriting of sectors that have not changed in multisession scenarios. If the object providing <b>IStream</b> does not provide <b>IBlockRangeList</b>, it is assumed that the entire <b>IStream</b> needs to be recorded.
+On sequentially recorded discs, the provided <a href="/windows/desktop/api/objidl/nn-objidl-istream">IStream</a> is recorded as a new session. On rewritable discs, the provided <b>IStream</b> is always recorded starting from sector 0, but the object providing the <b>IStream</b> interface can also provide the <a href="/windows/desktop/api/imapi2/nn-imapi2-iblockrangelist">IBlockRangeList</a> interface listing the sectors that need to be recorded. The <b>IBlockRangeList</b> interface is used to avoid rewriting of sectors that have not changed in multisession scenarios. If the object providing <b>IStream</b> does not provide <b>IBlockRangeList</b>, it is assumed that the entire <b>IStream</b> needs to be recorded.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-ddiscformat2dataevents">DDiscFormat2DataEvents</a>
+<a href="/windows/desktop/api/imapi2/nn-imapi2-ddiscformat2dataevents">DDiscFormat2DataEvents</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-idiscformat2data">IDiscFormat2Data</a>
+<a href="/windows/desktop/api/imapi2/nn-imapi2-idiscformat2data">IDiscFormat2Data</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2data-cancelwrite">IDiscFormat2Data::CancelWrite</a>
-
+<a href="/windows/desktop/api/imapi2/nf-imapi2-idiscformat2data-cancelwrite">IDiscFormat2Data::CancelWrite</a>

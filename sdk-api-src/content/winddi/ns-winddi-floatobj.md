@@ -72,101 +72,100 @@ This structure, in conjunction with the <b>FLOATOBJ_</b><i>Xxx</i> service routi
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-floatobj_add">FLOATOBJ_Add</a>
+<a href="/windows/desktop/api/winddi/nf-winddi-floatobj_add">FLOATOBJ_Add</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-floatobj_addfloat">FLOATOBJ_AddFloat</a>
+<a href="/windows/desktop/api/winddi/nf-winddi-floatobj_addfloat">FLOATOBJ_AddFloat</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-floatobj_addlong">FLOATOBJ_AddLong</a>
+<a href="/windows/desktop/api/winddi/nf-winddi-floatobj_addlong">FLOATOBJ_AddLong</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-floatobj_div">FLOATOBJ_Div</a>
+<a href="/windows/desktop/api/winddi/nf-winddi-floatobj_div">FLOATOBJ_Div</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-floatobj_divfloat">FLOATOBJ_DivFloat</a>
+<a href="/windows/desktop/api/winddi/nf-winddi-floatobj_divfloat">FLOATOBJ_DivFloat</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-floatobj_divlong">FLOATOBJ_DivLong</a>
+<a href="/windows/desktop/api/winddi/nf-winddi-floatobj_divlong">FLOATOBJ_DivLong</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-floatobj_equal">FLOATOBJ_Equal</a>
+<a href="/windows/desktop/api/winddi/nf-winddi-floatobj_equal">FLOATOBJ_Equal</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-floatobj_equallong">FLOATOBJ_EqualLong</a>
+<a href="/windows/desktop/api/winddi/nf-winddi-floatobj_equallong">FLOATOBJ_EqualLong</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-floatobj_getfloat">FLOATOBJ_GetFloat</a>
+<a href="/windows/desktop/api/winddi/nf-winddi-floatobj_getfloat">FLOATOBJ_GetFloat</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-floatobj_getlong">FLOATOBJ_GetLong</a>
+<a href="/windows/desktop/api/winddi/nf-winddi-floatobj_getlong">FLOATOBJ_GetLong</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-floatobj_greaterthan">FLOATOBJ_GreaterThan</a>
+<a href="/windows/desktop/api/winddi/nf-winddi-floatobj_greaterthan">FLOATOBJ_GreaterThan</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-floatobj_greaterthanlong">FLOATOBJ_GreaterThanLong</a>
+<a href="/windows/desktop/api/winddi/nf-winddi-floatobj_greaterthanlong">FLOATOBJ_GreaterThanLong</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-floatobj_lessthan">FLOATOBJ_LessThan</a>
+<a href="/windows/desktop/api/winddi/nf-winddi-floatobj_lessthan">FLOATOBJ_LessThan</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-floatobj_lessthanlong">FLOATOBJ_LessThanLong</a>
+<a href="/windows/desktop/api/winddi/nf-winddi-floatobj_lessthanlong">FLOATOBJ_LessThanLong</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-floatobj_mul">FLOATOBJ_Mul</a>
+<a href="/windows/desktop/api/winddi/nf-winddi-floatobj_mul">FLOATOBJ_Mul</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-floatobj_mulfloat">FLOATOBJ_MulFloat</a>
+<a href="/windows/desktop/api/winddi/nf-winddi-floatobj_mulfloat">FLOATOBJ_MulFloat</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-floatobj_mullong">FLOATOBJ_MulLong</a>
+<a href="/windows/desktop/api/winddi/nf-winddi-floatobj_mullong">FLOATOBJ_MulLong</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-floatobj_neg">FLOATOBJ_Neg</a>
+<a href="/windows/desktop/api/winddi/nf-winddi-floatobj_neg">FLOATOBJ_Neg</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-floatobj_setfloat">FLOATOBJ_SetFloat</a>
+<a href="/windows/desktop/api/winddi/nf-winddi-floatobj_setfloat">FLOATOBJ_SetFloat</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-floatobj_setlong">FLOATOBJ_SetLong</a>
+<a href="/windows/desktop/api/winddi/nf-winddi-floatobj_setlong">FLOATOBJ_SetLong</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-floatobj_sub">FLOATOBJ_Sub</a>
+<a href="/windows/desktop/api/winddi/nf-winddi-floatobj_sub">FLOATOBJ_Sub</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-floatobj_subfloat">FLOATOBJ_SubFloat</a>
+<a href="/windows/desktop/api/winddi/nf-winddi-floatobj_subfloat">FLOATOBJ_SubFloat</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-floatobj_sublong">FLOATOBJ_SubLong</a>
+<a href="/windows/desktop/api/winddi/nf-winddi-floatobj_sublong">FLOATOBJ_SubLong</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-floatobj_xform">FLOATOBJ_XFORM</a>
+<a href="/windows/desktop/api/winddi/ns-winddi-floatobj_xform">FLOATOBJ_XFORM</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-xformobj_igetfloatobjxform">XFORMOBJ_iGetFloatObjXform</a>
-
+<a href="/windows/desktop/api/winddi/nf-winddi-xformobj_igetfloatobjxform">XFORMOBJ_iGetFloatObjXform</a>

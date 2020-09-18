@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-Contains options used by the <a href="https://docs.microsoft.com/windows/desktop/api/elscore/nf-elscore-mappinggetservices">MappingGetServices</a> function to enumerate ELS services.
+Contains options used by the <a href="/windows/desktop/api/elscore/nf-elscore-mappinggetservices">MappingGetServices</a> function to enumerate ELS services.
 
 ## -struct-fields
 
@@ -111,9 +111,8 @@ The <b>Size</b> member is the only required member of this structure. All the ot
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/extended-linguistic-services-structures">Extended Linguistic Services Structures</a>
+<a href="/windows/desktop/Intl/extended-linguistic-services-structures">Extended Linguistic Services Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/elscore/nf-elscore-mappinggetservices">MappingGetServices</a>
-
+<a href="/windows/desktop/api/elscore/nf-elscore-mappinggetservices">MappingGetServices</a>

@@ -58,9 +58,9 @@ The <b>ReallocADsMem</b> function reallocates and copies an existing memory bloc
 
 Type: <b>LPVOID</b>
 
-Pointer to the memory to copy. <b>ReallocADsMem</b> will free this memory with <a href="https://docs.microsoft.com/windows/desktop/api/adshlp/nf-adshlp-freeadsmem">FreeADsMem</a> after it has been copied. If additional memory cannot be allocated, this memory is not freed. This memory must have been allocated with the <a href="https://docs.microsoft.com/windows/desktop/api/adshlp/nf-adshlp-allocadsmem">AllocADsMem</a>, <a href="https://docs.microsoft.com/windows/desktop/api/adshlp/nf-adshlp-allocadsstr">AllocADsStr</a>, <b>ReallocADsMem</b>, or <a href="https://docs.microsoft.com/windows/desktop/api/adshlp/nf-adshlp-reallocadsstr">ReallocADsStr</a> function.
+Pointer to the memory to copy. <b>ReallocADsMem</b> will free this memory with <a href="/windows/desktop/api/adshlp/nf-adshlp-freeadsmem">FreeADsMem</a> after it has been copied. If additional memory cannot be allocated, this memory is not freed. This memory must have been allocated with the <a href="/windows/desktop/api/adshlp/nf-adshlp-allocadsmem">AllocADsMem</a>, <a href="/windows/desktop/api/adshlp/nf-adshlp-allocadsstr">AllocADsStr</a>, <b>ReallocADsMem</b>, or <a href="/windows/desktop/api/adshlp/nf-adshlp-reallocadsstr">ReallocADsStr</a> function.
 
-The caller must  free this memory when it is no longer required by passing this pointer to <a href="https://docs.microsoft.com/windows/desktop/api/adshlp/nf-adshlp-freeadsmem">FreeADsMem</a>.
+The caller must  free this memory when it is no longer required by passing this pointer to <a href="/windows/desktop/api/adshlp/nf-adshlp-freeadsmem">FreeADsMem</a>.
 
 ### -param cbOld [in]
 
@@ -132,21 +132,20 @@ if(pwszADsPath)
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-functions">ADSI Functions</a>
+<a href="/windows/desktop/ADSI/adsi-functions">ADSI Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/adshlp/nf-adshlp-allocadsmem">AllocADsMem</a>
+<a href="/windows/desktop/api/adshlp/nf-adshlp-allocadsmem">AllocADsMem</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/adshlp/nf-adshlp-allocadsstr">AllocADsStr</a>
+<a href="/windows/desktop/api/adshlp/nf-adshlp-allocadsstr">AllocADsStr</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/adshlp/nf-adshlp-freeadsmem">FreeADsMem</a>
+<a href="/windows/desktop/api/adshlp/nf-adshlp-freeadsmem">FreeADsMem</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/adshlp/nf-adshlp-reallocadsmem">ReallocADsMem</a>
-
+<a href="/windows/desktop/api/adshlp/nf-adshlp-reallocadsmem">ReallocADsMem</a>

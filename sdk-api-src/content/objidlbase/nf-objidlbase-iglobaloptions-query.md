@@ -56,7 +56,7 @@ Queries the specified global property of the COM runtime.
 
 ### -param dwProperty [in]
 
- The global property of the COM runtime. For a list of properties that can be set with this method, see <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-iglobaloptions">IGlobalOptions</a>.
+ The global property of the COM runtime. For a list of properties that can be set with this method, see <a href="/windows/desktop/api/objidl/nn-objidl-iglobaloptions">IGlobalOptions</a>.
 
 ### -param pdwValue [out]
 
@@ -69,5 +69,4 @@ The return value is S_OK if the property is queried successfully.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-iglobaloptions">IGlobalOptions</a>
-
+<a href="/windows/desktop/api/objidl/nn-objidl-iglobaloptions">IGlobalOptions</a>

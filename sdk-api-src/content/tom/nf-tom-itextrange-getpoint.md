@@ -156,7 +156,7 @@ The y-coordinate.
 
 Type: <b>HRESULT</b>
 
-The method returns an <b>HRESULT</b> value. If the method succeeds, it returns <b>S_OK</b>. If the method fails, it returns one of the following error codes. For more information about COM error codes, see <a href="https://docs.microsoft.com/windows/desktop/com/error-handling-in-com">Error Handling in COM</a>.
+The method returns an <b>HRESULT</b> value. If the method succeeds, it returns <b>S_OK</b>. If the method fails, it returns one of the following error codes. For more information about COM error codes, see <a href="/windows/desktop/com/error-handling-in-com">Error Handling in COM</a>.
 
 <table>
 <tr>
@@ -189,7 +189,7 @@ Failure for some other reason.
 
 ## -remarks
 
-The <b>ITextRange::GetPoint</b> method gives <a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextrange">ITextRange</a> the ability to emulate UI-pointer commands; it is also handy for accessibility purposes.
+The <b>ITextRange::GetPoint</b> method gives <a href="/windows/desktop/api/tom/nn-tom-itextrange">ITextRange</a> the ability to emulate UI-pointer commands; it is also handy for accessibility purposes.
 
 ## -see-also
 
@@ -197,7 +197,7 @@ The <b>ITextRange::GetPoint</b> method gives <a href="https://docs.microsoft.com
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextrange">ITextRange</a>
+<a href="/windows/desktop/api/tom/nn-tom-itextrange">ITextRange</a>
 
 
 
@@ -209,13 +209,12 @@ The <b>ITextRange::GetPoint</b> method gives <a href="https://docs.microsoft.com
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange-setpoint">SetPoint</a>
+<a href="/windows/desktop/api/tom/nf-tom-itextrange-setpoint">SetPoint</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-settextalign">SetTextAlign</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-settextalign">SetTextAlign</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Controls/text-object-model">Text Object Model</a>
-
+<a href="/windows/desktop/Controls/text-object-model">Text Object Model</a>

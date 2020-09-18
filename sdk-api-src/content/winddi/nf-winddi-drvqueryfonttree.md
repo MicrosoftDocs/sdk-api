@@ -66,11 +66,11 @@ A mapping of kerning pairs to kerning handles
 
 ### -param dhpdev
 
-Identifies a device by a handle to its <a href="https://docs.microsoft.com/windows-hardware/drivers/">PDEV</a>, returned from a prior call to <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvenablepdev">DrvEnablePDEV</a>.
+Identifies a device by a handle to its <a href="/windows-hardware/drivers/">PDEV</a>, returned from a prior call to <a href="/windows/desktop/api/winddi/nf-winddi-drvenablepdev">DrvEnablePDEV</a>.
 
 ### -param iFile
 
-Identifies the driver font file. This value is returned by <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvloadfontfile">DrvLoadFontFile</a>.
+Identifies the driver font file. This value is returned by <a href="/windows/desktop/api/winddi/nf-winddi-drvloadfontfile">DrvLoadFontFile</a>.
 
 ### -param iFace
 
@@ -91,7 +91,7 @@ QFT_GLYPHSET
 
 </td>
 <td>
-GDI requests a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-fd_glyphset">FD_GLYPHSET</a> structure that defines the mappings from single Unicode characters to glyph handles.
+GDI requests a pointer to an <a href="/windows/desktop/api/winddi/ns-winddi-fd_glyphset">FD_GLYPHSET</a> structure that defines the mappings from single Unicode characters to glyph handles.
 
 </td>
 </tr>
@@ -101,7 +101,7 @@ QFT_KERNPAIRS
 
 </td>
 <td>
-GDI requests a pointer to a sorted, null-terminated array of <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-fd_kerningpair">FD_KERNINGPAIR</a> structures.
+GDI requests a pointer to a sorted, null-terminated array of <a href="/windows/desktop/api/winddi/ns-winddi-fd_kerningpair">FD_KERNINGPAIR</a> structures.
 
 The kerning pairs should be stored in increasing order. The primary key is the second Unicode character; the secondary key is the first Unicode character in the kerning pair.
 
@@ -111,7 +111,7 @@ The kerning pairs should be stored in increasing order. The primary key is the s
 
 ### -param pid
 
-Pointer to a memory location holding the address of a driver-defined value. GDI passes the contents of *<i>pid</i> to <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvfree">DrvFree</a>, along with the returned pointer, when the FD_GLYPHSET structure or array of FD_KERNINGPAIR structures are no longer needed. Depending on how memory is managed in the driver, the driver-defined value can identify the structure, identify the way it was allocated, or do nothing at all.
+Pointer to a memory location holding the address of a driver-defined value. GDI passes the contents of *<i>pid</i> to <a href="/windows/desktop/api/winddi/nf-winddi-drvfree">DrvFree</a>, along with the returned pointer, when the FD_GLYPHSET structure or array of FD_KERNINGPAIR structures are no longer needed. Depending on how memory is managed in the driver, the driver-defined value can identify the structure, identify the way it was allocated, or do nothing at all.
 
 ## -returns
 
@@ -119,43 +119,42 @@ The return value is a pointer to the requested structure if the function is succ
 
 ## -remarks
 
-The returned structure must remain unmodified until GDI calls <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvfree">DrvFree</a> with the address of the structure.
+The returned structure must remain unmodified until GDI calls <a href="/windows/desktop/api/winddi/nf-winddi-drvfree">DrvFree</a> with the address of the structure.
 
 <b>DrvQueryFontTree</b> is required for font drivers and drivers that use device-specific fonts.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-devinfo">DEVINFO</a>
+<a href="/windows/desktop/api/winddi/ns-winddi-devinfo">DEVINFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvenablepdev">DrvEnablePDEV</a>
+<a href="/windows/desktop/api/winddi/nf-winddi-drvenablepdev">DrvEnablePDEV</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvfree">DrvFree</a>
+<a href="/windows/desktop/api/winddi/nf-winddi-drvfree">DrvFree</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvloadfontfile">DrvLoadFontFile</a>
+<a href="/windows/desktop/api/winddi/nf-winddi-drvloadfontfile">DrvLoadFontFile</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvqueryfontdata">DrvQueryFontData</a>
+<a href="/windows/desktop/api/winddi/nf-winddi-drvqueryfontdata">DrvQueryFontData</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvqueryfonttree">DrvQueryFontTree</a>
+<a href="/windows/desktop/api/winddi/nf-winddi-drvqueryfonttree">DrvQueryFontTree</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-fd_glyphset">FD_GLYPHSET</a>
+<a href="/windows/desktop/api/winddi/ns-winddi-fd_glyphset">FD_GLYPHSET</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-fd_kerningpair">FD_KERNINGPAIR</a>
+<a href="/windows/desktop/api/winddi/ns-winddi-fd_kerningpair">FD_KERNINGPAIR</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-ifimetrics">IFIMETRICS</a>
-
+<a href="/windows/desktop/api/winddi/ns-winddi-ifimetrics">IFIMETRICS</a>

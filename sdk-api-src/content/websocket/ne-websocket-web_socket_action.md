@@ -68,7 +68,7 @@ Indicates the application should send the buffers to a network.
 
 ### -field WEB_SOCKET_INDICATE_SEND_COMPLETE_ACTION
 
-Indicates the operation queued by <a href="https://docs.microsoft.com/windows/desktop/api/websocket/nf-websocket-websocketsend">WebSocketSend</a> is complete. The application context returned by <a href="https://docs.microsoft.com/windows/desktop/api/websocket/nf-websocket-websocketcompleteaction">WebSocketCompleteAction</a> for this send operation is no longer needed, therefore it should be freed.
+Indicates the operation queued by <a href="/windows/desktop/api/websocket/nf-websocket-websocketsend">WebSocketSend</a> is complete. The application context returned by <a href="/windows/desktop/api/websocket/nf-websocket-websocketcompleteaction">WebSocketCompleteAction</a> for this send operation is no longer needed, therefore it should be freed.
 
 ### -field WEB_SOCKET_RECEIVE_FROM_NETWORK_ACTION
 
@@ -76,25 +76,24 @@ Indicates the application should fill the buffers with data from a network.
 
 ### -field WEB_SOCKET_INDICATE_RECEIVE_COMPLETE_ACTION
 
-Indicates the operation queued by <a href="https://docs.microsoft.com/windows/desktop/api/websocket/nf-websocket-websocketreceive">WebSocketReceive</a> is complete. The application context returned by <a href="https://docs.microsoft.com/windows/desktop/api/websocket/nf-websocket-websocketcompleteaction">WebSocketCompleteAction</a> for this receive operation is no longer needed, therefore it should be freed.
+Indicates the operation queued by <a href="/windows/desktop/api/websocket/nf-websocket-websocketreceive">WebSocketReceive</a> is complete. The application context returned by <a href="/windows/desktop/api/websocket/nf-websocket-websocketcompleteaction">WebSocketCompleteAction</a> for this receive operation is no longer needed, therefore it should be freed.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/websocket/ne-websocket-web_socket_action_queue">WEB_SOCKET_ACTION_QUEUE</a>
+<a href="/windows/desktop/api/websocket/ne-websocket-web_socket_action_queue">WEB_SOCKET_ACTION_QUEUE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/websocket/nf-websocket-websocketcompleteaction">WebSocketCompleteAction</a>
+<a href="/windows/desktop/api/websocket/nf-websocket-websocketcompleteaction">WebSocketCompleteAction</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/websocket/nf-websocket-websocketgetaction">WebSocketGetAction</a>
+<a href="/windows/desktop/api/websocket/nf-websocket-websocketgetaction">WebSocketGetAction</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/websocket/nf-websocket-websocketreceive">WebSocketReceive</a>
+<a href="/windows/desktop/api/websocket/nf-websocket-websocketreceive">WebSocketReceive</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/websocket/nf-websocket-websocketsend">WebSocketSend</a>
-
+<a href="/windows/desktop/api/websocket/nf-websocket-websocketsend">WebSocketSend</a>

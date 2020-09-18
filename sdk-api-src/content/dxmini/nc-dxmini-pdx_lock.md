@@ -67,12 +67,12 @@ Points to the miniport driver's device extension.
 
 #### - LockInInfo
 
-Points to a <a href="https://docs.microsoft.com/windows/desktop/api/dxmini/ns-dxmini-ddlockininfo">DDLOCKININFO</a> structure that contains the surface information for the lock.
+Points to a <a href="/windows/desktop/api/dxmini/ns-dxmini-ddlockininfo">DDLOCKININFO</a> structure that contains the surface information for the lock.
 
 
 #### - LockOutInfo
 
-Points to a <a href="https://docs.microsoft.com/windows/desktop/api/dxmini/ns-dxmini-ddlockoutinfo">DDLOCKOUTINFO</a> structure that contains the surface in the frame buffer.
+Points to a <a href="/windows/desktop/api/dxmini/ns-dxmini-ddlockoutinfo">DDLOCKOUTINFO</a> structure that contains the surface in the frame buffer.
 
 ## -returns
 
@@ -80,13 +80,12 @@ Points to a <a href="https://docs.microsoft.com/windows/desktop/api/dxmini/ns-dx
 
 ## -remarks
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/dxmini/ns-dxmini-ddlockininfo">DDLOCKININFO</a> and <a href="https://docs.microsoft.com/windows/desktop/api/dxmini/ns-dxmini-ddlockoutinfo">DDLOCKOUTINFO</a> structures contain surface information.
+The <a href="/windows/desktop/api/dxmini/ns-dxmini-ddlockininfo">DDLOCKININFO</a> and <a href="/windows/desktop/api/dxmini/ns-dxmini-ddlockoutinfo">DDLOCKOUTINFO</a> structures contain surface information.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dxmini/ns-dxmini-ddlockininfo">DDLOCKININFO</a>
+<a href="/windows/desktop/api/dxmini/ns-dxmini-ddlockininfo">DDLOCKININFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dxmini/ns-dxmini-ddlockoutinfo">DDLOCKOUTINFO</a>
-
+<a href="/windows/desktop/api/dxmini/ns-dxmini-ddlockoutinfo">DDLOCKOUTINFO</a>

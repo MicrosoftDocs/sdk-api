@@ -66,21 +66,20 @@ The user left-clicked the button.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ctfutb/nf-ctfutb-itflangbaritemballoon-onclick">ITfLangBarItemBalloon::OnClick
+<a href="/windows/desktop/api/ctfutb/nf-ctfutb-itflangbaritemballoon-onclick">ITfLangBarItemBalloon::OnClick
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ctfutb/nf-ctfutb-itflangbaritembitmap-onclick">ITfLangBarItemBitmap::OnClick
+<a href="/windows/desktop/api/ctfutb/nf-ctfutb-itflangbaritembitmap-onclick">ITfLangBarItemBitmap::OnClick
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ctfutb/nf-ctfutb-itflangbaritembitmapbutton-onclick">ITfLangBarItemBitmapButton::OnClick
+<a href="/windows/desktop/api/ctfutb/nf-ctfutb-itflangbaritembitmapbutton-onclick">ITfLangBarItemBitmapButton::OnClick
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ctfutb/nf-ctfutb-itflangbaritembutton-onclick">ITfLangBarItemButton::OnClick
+<a href="/windows/desktop/api/ctfutb/nf-ctfutb-itflangbaritembutton-onclick">ITfLangBarItemButton::OnClick
       </a>
-

@@ -173,7 +173,7 @@ A pointer to a <b>DWORD</b> variable that contains the error value for this cert
 
 ### -field pTrustListContext
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-ctl_context">CTL_CONTEXT</a> that represents the certificate trust list (CTL).
+A pointer to the <a href="/windows/desktop/api/wincrypt/ns-wincrypt-ctl_context">CTL_CONTEXT</a> that represents the certificate trust list (CTL).
 
 ### -field fTrustListSignerCert
 
@@ -181,7 +181,7 @@ Boolean value that specifies whether the certificate is a trust list signer cert
 
 ### -field pCtlContext
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-ctl_context">CTL_CONTEXT</a> that represents a CTL that contains a self-signed certificate, if applicable.
+A pointer to the <a href="/windows/desktop/api/wincrypt/ns-wincrypt-ctl_context">CTL_CONTEXT</a> that represents a CTL that contains a self-signed certificate, if applicable.
 
 ### -field dwCtlError
 
@@ -193,5 +193,4 @@ Boolean value that indicates whether the certificate trust is cyclical.
 
 ### -field pChainElement
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_chain_element">CERT_CHAIN_ELEMENT</a> that represents the status of the certificate within a chain.
-
+A pointer to the <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_chain_element">CERT_CHAIN_ELEMENT</a> that represents the status of the certificate within a chain.

@@ -58,7 +58,7 @@ The <b>WinUsb_WritePipe</b> function writes data to a pipe.
 
 An opaque handle to the interface that contains the endpoint with which the pipe is associated. 
 
-To write to  a pipe that is associated with an endpoint in the first interface, use the handle returned by <a href="https://docs.microsoft.com/windows/desktop/api/winusb/nf-winusb-winusb_initialize">WinUsb_Initialize</a>. For all other interfaces, use the handle to the target interface, retrieved by <a href="https://docs.microsoft.com/windows/desktop/api/winusb/nf-winusb-winusb_getassociatedinterface">WinUsb_GetAssociatedInterface</a>.
+To write to  a pipe that is associated with an endpoint in the first interface, use the handle returned by <a href="/windows/desktop/api/winusb/nf-winusb-winusb_initialize">WinUsb_Initialize</a>. For all other interfaces, use the handle to the target interface, retrieved by <a href="/windows/desktop/api/winusb/nf-winusb-winusb_getassociatedinterface">WinUsb_GetAssociatedInterface</a>.
 
 ### -param PipeID [in]
 
@@ -112,7 +112,7 @@ The caller passed <b>NULL</b> in the  <i>InterfaceHandle</i> parameter.
 </dl>
 </td>
 <td width="60%">
-Indicates that an overlapped I/O operation is in progress but has not completed.  If the overlapped operation cannot be completed immediately, the function returns <b>FALSE</b> and the <b>GetLastError</b> function returns ERROR_IO_PENDING, indicating that the operation is executing in the background. Call <a href="https://docs.microsoft.com/windows/desktop/api/winusb/nf-winusb-winusb_getoverlappedresult">WinUsb_GetOverlappedResult</a> to check the success or failure of the operation.
+Indicates that an overlapped I/O operation is in progress but has not completed.  If the overlapped operation cannot be completed immediately, the function returns <b>FALSE</b> and the <b>GetLastError</b> function returns ERROR_IO_PENDING, indicating that the operation is executing in the background. Call <a href="/windows/desktop/api/winusb/nf-winusb-winusb_getoverlappedresult">WinUsb_GetOverlappedResult</a> to check the success or failure of the operation.
 
 </td>
 </tr>
@@ -134,7 +134,7 @@ Indicates that there is insufficient memory to perform the operation.
 </dl>
 </td>
 <td width="60%">
-The write operation initiated by  <a href="https://docs.microsoft.com/windows/desktop/api/winusb/nf-winusb-winusb_writepipe">WinUsb_WritePipe</a> in the USB stack timed out before the operation could be completed.
+The write operation initiated by  <a href="/windows/desktop/api/winusb/nf-winusb-winusb_writepipe">WinUsb_WritePipe</a> in the USB stack timed out before the operation could be completed.
 
 </td>
 </tr>
@@ -148,7 +148,7 @@ The following restrictions apply to the size of the buffer if  RAW_IO is  set:
 
 <ul>
 <li>The buffer length must be a multiple of the maximum endpoint packet size.</li>
-<li>The length must be less than or equal to the value of MAXIMUM_TRANSFER_SIZE retrieved by <a href="https://docs.microsoft.com/windows/desktop/api/winusb/nf-winusb-winusb_getpipepolicy">WinUsb_GetPipePolicy</a>.</li>
+<li>The length must be less than or equal to the value of MAXIMUM_TRANSFER_SIZE retrieved by <a href="/windows/desktop/api/winusb/nf-winusb-winusb_getpipepolicy">WinUsb_GetPipePolicy</a>.</li>
 </ul>
 There are no restrictions on the size of the buffer if RAW_IO is not set as the pipe's policy type. If the size of the buffer is greater than the maximum transfer length reported by MAXIMUM_TRANSFER_SIZE, WinUSB divides the request into smaller requests and submits them serially to the host controller.
 
@@ -156,17 +156,16 @@ A write request that contains zero-length data is forwarded down the USB stack.
 
 If an application passes <b>NULL</b> in the <i>Overlapped</i> parameter (synchronous operation), it must ensure that <i>LengthTransferred</i> is not <b>NULL</b>, even when an operation produces no output data.
 
-If <i>Overlapped</i> is not <b>NULL</b> (asynchronous operation),  <i>LengthTransferred</i> can be set to <b>NULL</b>. For an overlapped operation (and if <i>LengthTransferred</i> is a non-<b>NULL</b> value), the value received in <i>LengthTransferred</i> after <b>WinUsb_WritePipe</b> returns is meaningless until the overlapped operation has completed. To retrieve the actual number of bytes returned, call <a href="https://docs.microsoft.com/windows/desktop/api/winusb/nf-winusb-winusb_getoverlappedresult">WinUsb_GetOverlappedResult</a>.
+If <i>Overlapped</i> is not <b>NULL</b> (asynchronous operation),  <i>LengthTransferred</i> can be set to <b>NULL</b>. For an overlapped operation (and if <i>LengthTransferred</i> is a non-<b>NULL</b> value), the value received in <i>LengthTransferred</i> after <b>WinUsb_WritePipe</b> returns is meaningless until the overlapped operation has completed. To retrieve the actual number of bytes returned, call <a href="/windows/desktop/api/winusb/nf-winusb-winusb_getoverlappedresult">WinUsb_GetOverlappedResult</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/index">WinUSB</a>
+<a href="/windows-hardware/drivers/ddi/content/index">WinUSB</a>
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows/iot-core/learn-about-hardware/hardwarecompatlist">WinUSB Functions</a>
+<a href="/windows/iot-core/learn-about-hardware/hardwarecompatlist">WinUSB Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winusb/nf-winusb-winusb_initialize">WinUsb_Initialize</a>
-
+<a href="/windows/desktop/api/winusb/nf-winusb-winusb_initialize">WinUsb_Initialize</a>

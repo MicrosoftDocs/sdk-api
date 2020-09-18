@@ -54,13 +54,13 @@ api_name:
 
 ## -description
 
-The DEVHTINFO structure is used as input to the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-htui_devicecoloradjustment">HTUI_DeviceColorAdjustment</a> function.
+The DEVHTINFO structure is used as input to the <a href="/windows/desktop/api/winddi/nf-winddi-htui_devicecoloradjustment">HTUI_DeviceColorAdjustment</a> function.
 
 ## -struct-fields
 
 ### -field HTFlags
 
-Is a set of caller-supplied flags indicating halftone attributes. See the <b>flHTFlags</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-gdiinfo">GDIINFO</a> structure for a complete list of possible values.
+Is a set of caller-supplied flags indicating halftone attributes. See the <b>flHTFlags</b> member of the <a href="/windows/desktop/api/winddi/ns-winddi-gdiinfo">GDIINFO</a> structure for a complete list of possible values.
 
 ### -field HTPatternSize
 
@@ -68,23 +68,22 @@ Is a caller-supplied value that must be one of the HTPAT_SIZE-prefixed constants
 
 ### -field DevPelsDPI
 
-For printers, specifies the number of dots per inch. See the description of the <b>ulDevicePelsDPI</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-gdiinfo">GDIINFO</a> structure for more information.
+For printers, specifies the number of dots per inch. See the description of the <b>ulDevicePelsDPI</b> member of the <a href="/windows/desktop/api/winddi/ns-winddi-gdiinfo">GDIINFO</a> structure for more information.
 
 For displays, this member should be set to zero.
 
 ### -field ColorInfo
 
-Is a caller-supplied pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-colorinfo">COLORINFO</a> structure containing halftoning color information.
+Is a caller-supplied pointer to a <a href="/windows/desktop/api/winddi/ns-winddi-colorinfo">COLORINFO</a> structure containing halftoning color information.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-colorinfo">COLORINFO</a>
+<a href="/windows/desktop/api/winddi/ns-winddi-colorinfo">COLORINFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-gdiinfo">GDIINFO</a>
+<a href="/windows/desktop/api/winddi/ns-winddi-gdiinfo">GDIINFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-htui_devicecoloradjustment">HTUI_DeviceColorAdjustment</a>
-
+<a href="/windows/desktop/api/winddi/nf-winddi-htui_devicecoloradjustment">HTUI_DeviceColorAdjustment</a>

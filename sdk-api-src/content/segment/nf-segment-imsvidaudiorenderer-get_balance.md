@@ -68,13 +68,12 @@ The balance level is a value between –10,000 and 10,000, measured in hundredth
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/control/nf-control-ibasicaudio-get_balance">IBasicAudio::get_Balance</a>
+<a href="/windows/desktop/api/control/nf-control-ibasicaudio-get_balance">IBasicAudio::get_Balance</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/msvidaudiorenderer">IMSVidAudioRenderer Interface</a>
+<a href="/previous-versions/windows/desktop/mstv/msvidaudiorenderer">IMSVidAudioRenderer Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidaudiorenderer-put_balance">IMSVidAudioRenderer::put_Balance</a>
-
+<a href="/windows/desktop/api/segment/nf-segment-imsvidaudiorenderer-put_balance">IMSVidAudioRenderer::put_Balance</a>

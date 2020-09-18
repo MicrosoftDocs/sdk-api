@@ -53,9 +53,9 @@ api_name:
 ## -description
 
 An application-defined callback function used with the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-symenumsymbols">SymEnumSymbols</a>, 
-    <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-symenumtypes">SymEnumTypes</a>, and 
-    <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-symenumtypesbyname">SymEnumTypesByName</a> functions.
+    <a href="/windows/desktop/api/dbghelp/nf-dbghelp-symenumsymbols">SymEnumSymbols</a>, 
+    <a href="/windows/desktop/api/dbghelp/nf-dbghelp-symenumtypes">SymEnumTypes</a>, and 
+    <a href="/windows/desktop/api/dbghelp/nf-dbghelp-symenumtypesbyname">SymEnumTypesByName</a> functions.
 
 The <b>PSYM_ENUMERATESYMBOLS_CALLBACK</b> and 
     <b>PSYM_ENUMERATESYMBOLS_CALLBACKW</b> types define a pointer to this callback function. 
@@ -66,7 +66,7 @@ The <b>PSYM_ENUMERATESYMBOLS_CALLBACK</b> and
 
 ### -param pSymInfo [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-symbol_info">SYMBOL_INFO</a> structure that 
+A pointer to a <a href="/windows/desktop/api/dbghelp/ns-dbghelp-symbol_info">SYMBOL_INFO</a> structure that 
       provides information about the symbol.
 
 ### -param SymbolSize [in]
@@ -77,8 +77,8 @@ The size of the symbol, in bytes. The size is calculated and is actually a guess
 ### -param UserContext [in, optional]
 
 The user-defined value passed from the 
-      <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-symenumsymbols">SymEnumSymbols</a> or 
-      <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-symenumtypes">SymEnumTypes</a> function, or 
+      <a href="/windows/desktop/api/dbghelp/nf-dbghelp-symenumsymbols">SymEnumSymbols</a> or 
+      <a href="/windows/desktop/api/dbghelp/nf-dbghelp-symenumtypes">SymEnumTypes</a> function, or 
       <b>NULL</b>. This parameter is typically used by an application to pass a pointer to a data 
       structure that provides context information for the callback function.
 
@@ -90,26 +90,25 @@ If the function returns <b>FALSE</b>, the enumeration will stop.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Debug/dbghelp-functions">DbgHelp Functions</a>
+<a href="/windows/desktop/Debug/dbghelp-functions">DbgHelp Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-symbol_info">SYMBOL_INFO</a>
+<a href="/windows/desktop/api/dbghelp/ns-dbghelp-symbol_info">SYMBOL_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-symenumsymbols">SymEnumSymbols</a>
+<a href="/windows/desktop/api/dbghelp/nf-dbghelp-symenumsymbols">SymEnumSymbols</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-symenumtypes">SymEnumTypes</a>
+<a href="/windows/desktop/api/dbghelp/nf-dbghelp-symenumtypes">SymEnumTypes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-symenumtypesbyname">SymEnumTypesByName</a>
+<a href="/windows/desktop/api/dbghelp/nf-dbghelp-symenumtypesbyname">SymEnumTypesByName</a>
 
 ## -remarks
 
 > [!NOTE]
 > The dbghelp.h header defines PSYM_ENUMERATESYMBOLS_CALLBACK as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

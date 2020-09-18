@@ -56,13 +56,13 @@ Retrieves the temporary image list that is used for the drag image. The function
 
 ### -param ppt
 
-Type: <b><a href="https://docs.microsoft.com/previous-versions/dd162805(v=vs.85)">POINT</a>*</b>
+Type: <b><a href="/previous-versions/dd162805(v=vs.85)">POINT</a>*</b>
 
-A pointer to a <a href="https://docs.microsoft.com/previous-versions/dd162805(v=vs.85)">POINT</a> structure that receives the current drag position. Can be <b>NULL</b>.
+A pointer to a <a href="/previous-versions/dd162805(v=vs.85)">POINT</a> structure that receives the current drag position. Can be <b>NULL</b>.
 
 ### -param pptHotspot
 
-Type: <b><a href="https://docs.microsoft.com/previous-versions/dd162805(v=vs.85)">POINT</a>*</b>
+Type: <b><a href="/previous-versions/dd162805(v=vs.85)">POINT</a>*</b>
 
 A pointer to a <b>POINT</b> structure that receives the offset of the drag image relative to the drag position. Can be <b>NULL</b>.
 
@@ -74,5 +74,4 @@ Returns the handle to the image list if successful, or <b>NULL</b> otherwise.
 
 ## -remarks
 
-The temporary image list is destroyed when the <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-imagelist_enddrag">ImageList_EndDrag</a> function is called. To begin a drag operation, use the <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-imagelist_begindrag">ImageList_BeginDrag</a> function.
-
+The temporary image list is destroyed when the <a href="/windows/desktop/api/commctrl/nf-commctrl-imagelist_enddrag">ImageList_EndDrag</a> function is called. To begin a drag operation, use the <a href="/windows/desktop/api/commctrl/nf-commctrl-imagelist_begindrag">ImageList_BeginDrag</a> function.

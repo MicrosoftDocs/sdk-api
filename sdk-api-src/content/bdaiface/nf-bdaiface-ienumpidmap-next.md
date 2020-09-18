@@ -61,7 +61,7 @@ The number of elements to retrieve.
 
 ### -param pPIDMap [in, out]
 
-Address of an array allocated by the caller, containing <i>cRequest</i> elements. The array is filled with <a href="https://docs.microsoft.com/windows/desktop/DirectShow/pid-map">PID_MAP</a> structures that describe the PID mapping.
+Address of an array allocated by the caller, containing <i>cRequest</i> elements. The array is filled with <a href="/windows/desktop/DirectShow/pid-map">PID_MAP</a> structures that describe the PID mapping.
 
 ### -param pcReceived [out]
 
@@ -113,9 +113,8 @@ Success.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nn-bdaiface-ienumpidmap">IEnumPIDMap Interface</a>
-
+<a href="/windows/desktop/api/bdaiface/nn-bdaiface-ienumpidmap">IEnumPIDMap Interface</a>

@@ -68,5 +68,4 @@ The event is an error and will be displayed with the appropriate icon. Additiona
 
 ### -field SYNCMGR_EL_MAX
 
-Used only to declare the largest valid value in this enumeration. Do not use with <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrsynccallback-reportevent">ISyncMgrSyncCallback::ReportEvent</a>.
-
+Used only to declare the largest valid value in this enumeration. Do not use with <a href="/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrsynccallback-reportevent">ISyncMgrSyncCallback::ReportEvent</a>.

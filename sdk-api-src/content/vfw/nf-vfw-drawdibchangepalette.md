@@ -76,11 +76,10 @@ Returns <b>TRUE</b> if successful or <b>FALSE</b> otherwise.
 
 ## -remarks
 
-This function changes the physical palette only if the current DrawDib palette is realized by calling the <a href="https://docs.microsoft.com/windows/desktop/api/vfw/nf-vfw-drawdibrealize">DrawDibRealize</a> function.
+This function changes the physical palette only if the current DrawDib palette is realized by calling the <a href="/windows/desktop/api/vfw/nf-vfw-drawdibrealize">DrawDibRealize</a> function.
 
-If the color table is not changed, the next call to the <a href="https://docs.microsoft.com/windows/desktop/api/vfw/nf-vfw-drawdibdraw">DrawDibDraw</a> function that does not specify DDF_SAME_DRAW calls the <a href="https://docs.microsoft.com/windows/desktop/api/vfw/nf-vfw-drawdibbegin">DrawDibBegin</a> function implicitly.
+If the color table is not changed, the next call to the <a href="/windows/desktop/api/vfw/nf-vfw-drawdibdraw">DrawDibDraw</a> function that does not specify DDF_SAME_DRAW calls the <a href="/windows/desktop/api/vfw/nf-vfw-drawdibbegin">DrawDibBegin</a> function implicitly.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/drawdib-functions">DrawDib Functions</a>
-
+<a href="/windows/desktop/Multimedia/drawdib-functions">DrawDib Functions</a>

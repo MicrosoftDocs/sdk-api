@@ -70,5 +70,4 @@ The correction comb is shown above the input area.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/peninputpanel/nf-peninputpanel-itextinputpanel-setinplaceposition">ITextInputPanel::SetInPlacePosition Method</a>
-
+<a href="/windows/desktop/api/peninputpanel/nf-peninputpanel-itextinputpanel-setinplaceposition">ITextInputPanel::SetInPlacePosition Method</a>

@@ -55,7 +55,7 @@ api_name:
 ## -description
 
 Specifies a range of memory. This structure is used by the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-prefetchvirtualmemory">PrefetchVirtualMemory</a> function.
+    <a href="/windows/desktop/api/memoryapi/nf-memoryapi-prefetchvirtualmemory">PrefetchVirtualMemory</a> function.
 
 ## -struct-fields
 
@@ -67,13 +67,12 @@ Specifies a range of memory. This structure is used by the
 
 To compile an application that calls this function, define <b>_WIN32_WINNT</b> as 
     <b>_WIN32_WINNT_WIN8</b> or higher. For more information, see 
-    <a href="https://docs.microsoft.com/windows/desktop/WinProg/using-the-windows-headers">Using the Windows Headers</a>.
+    <a href="/windows/desktop/WinProg/using-the-windows-headers">Using the Windows Headers</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Memory/memory-management-structures">Memory Management Structures</a>
+<a href="/windows/desktop/Memory/memory-management-structures">Memory Management Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-prefetchvirtualmemory">PrefetchVirtualMemory</a>
-
+<a href="/windows/desktop/api/memoryapi/nf-memoryapi-prefetchvirtualmemory">PrefetchVirtualMemory</a>

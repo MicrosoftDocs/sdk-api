@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Returns a pointer to an   <a href="https://docs.microsoft.com/windows/desktop/api/msime/nn-msime-ifelanguage">IFELanguage</a> interface.
+Returns a pointer to an   <a href="/windows/desktop/api/msime/nn-msime-ifelanguage">IFELanguage</a> interface.
 
 ## -parameters
 
@@ -60,9 +60,8 @@ Reserved. Must be set to <b>NULL</b>.
 
 ### -param ppvObj [out]
 
-Address of the pointer variable that receives the <a href="https://docs.microsoft.com/windows/desktop/api/msime/nn-msime-ifelanguage">IFELanguage</a> interface pointer of the object created.
+Address of the pointer variable that receives the <a href="/windows/desktop/api/msime/nn-msime-ifelanguage">IFELanguage</a> interface pointer of the object created.
 
 ## -returns
 
 <b>S_OK</b> if successful, otherwise an OLE-defined error code.
-

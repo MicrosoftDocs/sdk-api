@@ -52,5 +52,4 @@ api_name:
 
 The IAudioSystemEffects  interface uses the basic methods that are inherited from <b>IUnknown</b>, and must implement an <b>Initialize</b> method. The parameters that are passed to this <b>Initialize</b> method must be passed directly to the <b>IAudioProcessingObject::Initialize</b> method.
 
-Refer to the <a href="https://docs.microsoft.com/windows/desktop/api/audioenginebaseapo/nf-audioenginebaseapo-iaudioprocessingobject-initialize">IAudioProcessingObject::Initialize</a> method for information about the structure and the parameters that are required to implement the <b>IAudioSystemEffects::Initialize</b> method.
-
+Refer to the <a href="/windows/desktop/api/audioenginebaseapo/nf-audioenginebaseapo-iaudioprocessingobject-initialize">IAudioProcessingObject::Initialize</a> method for information about the structure and the parameters that are required to implement the <b>IAudioSystemEffects::Initialize</b> method.

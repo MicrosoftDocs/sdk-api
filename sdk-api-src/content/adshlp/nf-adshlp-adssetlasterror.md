@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>ADsSetLastError</b> sets the last-error code value for the calling thread. Directory service providers can use this function to set extended errors. The function saves the error data in a per-thread data structure. <b>ADsSetLastError</b> operates similar to the <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-setlasterror">SetLastError</a> function.
+The <b>ADsSetLastError</b> sets the last-error code value for the calling thread. Directory service providers can use this function to set extended errors. The function saves the error data in a per-thread data structure. <b>ADsSetLastError</b> operates similar to the <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-setlasterror">SetLastError</a> function.
 
 ## -parameters
 
@@ -126,17 +126,16 @@ Provider: LDAP Provider
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-error-codes">ADSI Error Codes</a>
+<a href="/windows/desktop/ADSI/adsi-error-codes">ADSI Error Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-functions">ADSI Functions</a>
+<a href="/windows/desktop/ADSI/adsi-functions">ADSI Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/adshlp/nf-adshlp-adsgetlasterror">ADsGetLastError</a>
+<a href="/windows/desktop/api/adshlp/nf-adshlp-adsgetlasterror">ADsGetLastError</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-setlasterror">SetLastError</a>
-
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-setlasterror">SetLastError</a>

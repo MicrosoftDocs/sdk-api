@@ -58,39 +58,38 @@ Sets the reporting state of XInput.
 
 ### -param enable [in]
 
-If enable is <b>FALSE</b>, XInput will only send neutral data in response to <a href="https://docs.microsoft.com/windows/desktop/api/xinput/nf-xinput-xinputgetstate">XInputGetState</a> (all buttons up, axes centered, and triggers at 0). <a href="https://docs.microsoft.com/windows/desktop/api/xinput/nf-xinput-xinputsetstate">XInputSetState</a> calls will be registered but not sent to the device. Sending any value other than <b>FALSE </b>will restore reading and writing functionality to normal.
+If enable is <b>FALSE</b>, XInput will only send neutral data in response to <a href="/windows/desktop/api/xinput/nf-xinput-xinputgetstate">XInputGetState</a> (all buttons up, axes centered, and triggers at 0). <a href="/windows/desktop/api/xinput/nf-xinput-xinputsetstate">XInputSetState</a> calls will be registered but not sent to the device. Sending any value other than <b>FALSE </b>will restore reading and writing functionality to normal.
 
 ## -remarks
 
-This function is meant to be called when an application gains or loses focus (such as via <a href="https://docs.microsoft.com/windows/desktop/winmsg/wm-activateapp">WM_ACTIVATEAPP</a>). Using this function, you will not have to change the XInput query loop in your application as neutral data will always be reported if XInput is disabled.
+This function is meant to be called when an application gains or loses focus (such as via <a href="/windows/desktop/winmsg/wm-activateapp">WM_ACTIVATEAPP</a>). Using this function, you will not have to change the XInput query loop in your application as neutral data will always be reported if XInput is disabled.
 
 
 In a controller that supports vibration effects:
 
 <ul>
-<li>Passing <b>FALSE</b> will stop any vibration effects currently playing. In this state, calls to <a href="https://docs.microsoft.com/windows/desktop/api/xinput/nf-xinput-xinputsetstate">XInputSetState</a> will be registered, but not passed to the device.</li>
-<li>Passing <b>TRUE</b> will pass the last vibration request (even if it is 0) sent to <a href="https://docs.microsoft.com/windows/desktop/api/xinput/nf-xinput-xinputsetstate">XInputSetState</a> to the device.</li>
+<li>Passing <b>FALSE</b> will stop any vibration effects currently playing. In this state, calls to <a href="/windows/desktop/api/xinput/nf-xinput-xinputsetstate">XInputSetState</a> will be registered, but not passed to the device.</li>
+<li>Passing <b>TRUE</b> will pass the last vibration request (even if it is 0) sent to <a href="/windows/desktop/api/xinput/nf-xinput-xinputsetstate">XInputSetState</a> to the device.</li>
 </ul>
 <h3><a id="Platform_Requirements"></a><a id="platform_requirements"></a><a id="PLATFORM_REQUIREMENTS"></a>Platform Requirements</h3>
 Windows 8 (XInput 1.4), DirectX SDK (XInput 1.3)
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xinput/ns-xinput-xinput_gamepad">XINPUT_GAMEPAD</a>
+<a href="/windows/desktop/api/xinput/ns-xinput-xinput_gamepad">XINPUT_GAMEPAD</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xinput/ns-xinput-xinput_state">XINPUT_STATE</a>
+<a href="/windows/desktop/api/xinput/ns-xinput-xinput_state">XINPUT_STATE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/xinput/functions">XInput Functions</a>
+<a href="/windows/desktop/xinput/functions">XInput Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xinput/nf-xinput-xinputgetstate">XInputGetState</a>
+<a href="/windows/desktop/api/xinput/nf-xinput-xinputgetstate">XInputGetState</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xinput/nf-xinput-xinputsetstate">XInputSetState</a>
-
+<a href="/windows/desktop/api/xinput/nf-xinput-xinputsetstate">XInputSetState</a>

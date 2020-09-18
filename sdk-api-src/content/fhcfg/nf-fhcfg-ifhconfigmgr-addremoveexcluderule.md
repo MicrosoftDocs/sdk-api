@@ -65,7 +65,7 @@ If it is set to <b>FALSE</b>, an existing exclusion rule is removed.
 
 ### -param Category [in]
 
-Specifies the type of the exclusion rule. See the <a href="https://docs.microsoft.com/windows/desktop/api/fhcfg/ne-fhcfg-fh_protected_item_category">FH_PROTECTED_ITEM_CATEGORY</a> enumeration for possible values.
+Specifies the type of the exclusion rule. See the <a href="/windows/desktop/api/fhcfg/ne-fhcfg-fh_protected_item_category">FH_PROTECTED_ITEM_CATEGORY</a> enumeration for possible values.
 
 ### -param Item [in]
 
@@ -87,25 +87,24 @@ To reduce the protection scope, use the <b>IFhConfigMgr::AddRemoveExcludeRule</b
 
 This method can be used to add or remove exclusion rules. It cannot be used to modify inclusion rules.
 
-User libraries can be enumerated by calling the <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetknownfolderitem">SHGetKnownFolderItem</a> function and the methods of the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a> and <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ienumshellitems">IEnumShellItems</a> interfaces.
+User libraries can be enumerated by calling the <a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetknownfolderitem">SHGetKnownFolderItem</a> function and the methods of the <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a> and <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ienumshellitems">IEnumShellItems</a> interfaces.
 
-Standard folders and libraries are specified by a GUID, prefixed with an asterisk. For example,  *a990ae9f-a03b-4e80-94bc-9912d7504104 specifies the Pictures library. For a list of standard folders and libraries and their GUIDs, see the <a href="https://docs.microsoft.com/windows/desktop/shell/knownfolderid">KNOWNFOLDERID</a> documentation. 
+Standard folders and libraries are specified by a GUID, prefixed with an asterisk. For example,  *a990ae9f-a03b-4e80-94bc-9912d7504104 specifies the Pictures library. For a list of standard folders and libraries and their GUIDs, see the <a href="/windows/desktop/shell/knownfolderid">KNOWNFOLDERID</a> documentation. 
 
 Custom libraries are specified by name. Folders are specified by their full path (for example, C:\Users\Public\Videos).
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fhcfg/ne-fhcfg-fh_protected_item_category">FH_PROTECTED_ITEM_CATEGORY</a>
+<a href="/windows/desktop/api/fhcfg/ne-fhcfg-fh_protected_item_category">FH_PROTECTED_ITEM_CATEGORY</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DevNotes/fhconfigmgr">FhConfigMgr</a>
+<a href="/windows/desktop/DevNotes/fhconfigmgr">FhConfigMgr</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fhcfg/nn-fhcfg-ifhconfigmgr">IFhConfigMgr</a>
+<a href="/windows/desktop/api/fhcfg/nn-fhcfg-ifhconfigmgr">IFhConfigMgr</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fhcfg/nf-fhcfg-ifhconfigmgr-getincludeexcluderules">IFhConfigMgr::GetIncludeExcludeRules</a>
-
+<a href="/windows/desktop/api/fhcfg/nf-fhcfg-ifhconfigmgr-getincludeexcluderules">IFhConfigMgr::GetIncludeExcludeRules</a>

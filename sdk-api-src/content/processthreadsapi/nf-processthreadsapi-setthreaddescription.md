@@ -89,5 +89,4 @@ if (FAILED(hr))
 
 ## -see-also
 
-[GetThreadDescription](/windows/desktop/api/processthreadsapi/nf-processthreadsapi-getthreaddescription), [How to: Set a Thread Name in Native Code](https://docs.microsoft.com/visualstudio/debugger/how-to-set-a-thread-name-in-native-code)
-
+[GetThreadDescription](/windows/desktop/api/processthreadsapi/nf-processthreadsapi-getthreaddescription), [How to: Set a Thread Name in Native Code](/visualstudio/debugger/how-to-set-a-thread-name-in-native-code)

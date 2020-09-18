@@ -50,11 +50,11 @@ api_name:
 
 ## -description
 
-Exposes methods that notify Remote Desktop Gateway (RD Gateway) about the result of an  attempt to authorize a resource. The authorization plug-in should not implement this interface because it is already implemented. A pointer to this interface is passed to the authorization plug-in when RD Gateway calls the <a href="https://docs.microsoft.com/windows/desktop/api/tsgpolicyengine/nf-tsgpolicyengine-itsgpolicyengine-authorizeresource">AuthorizeResource</a> method.
+Exposes methods that notify Remote Desktop Gateway (RD Gateway) about the result of an  attempt to authorize a resource. The authorization plug-in should not implement this interface because it is already implemented. A pointer to this interface is passed to the authorization plug-in when RD Gateway calls the <a href="/windows/desktop/api/tsgpolicyengine/nf-tsgpolicyengine-itsgpolicyengine-authorizeresource">AuthorizeResource</a> method.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITSGAuthorizeResourceSink</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITSGAuthorizeResourceSink</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITSGAuthorizeResourceSink</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITSGAuthorizeResourceSink</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ITSGAuthorizeResourceSink</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tsgpolicyengine/nf-tsgpolicyengine-itsgauthorizeresourcesink-onchannelauthorized">OnChannelAuthorized</a>
+<a href="/windows/desktop/api/tsgpolicyengine/nf-tsgpolicyengine-itsgauthorizeresourcesink-onchannelauthorized">OnChannelAuthorized</a>
 </td>
 <td align="left" width="63%">
 Notifies RD Gateway about the result of an  attempt to authorize a resource.
@@ -77,4 +77,3 @@ Notifies RD Gateway about the result of an  attempt to authorize a resource.
 </td>
 </tr>
 </table>
-

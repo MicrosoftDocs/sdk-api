@@ -57,7 +57,7 @@ Adds a trace entry to the PXE log.
 ### -param hProvider [in]
 
 <b>HANDLE</b> passed to the 
-      <a href="https://docs.microsoft.com/windows/desktop/Wds/pxeproviderinitialize">PxeProviderInitialize</a> function.
+      <a href="/windows/desktop/Wds/pxeproviderinitialize">PxeProviderInitialize</a> function.
 
 ### -param Severity [in]
 
@@ -140,9 +140,8 @@ If the function succeeds, the return value is <b>ERROR_SUCCESS</b>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Wds/pxeproviderinitialize">PxeProviderInitialize</a>
+<a href="/windows/desktop/Wds/pxeproviderinitialize">PxeProviderInitialize</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Wds/windows-deployment-services-server-functions">Windows Deployment Services Server Functions</a>
-
+<a href="/windows/desktop/Wds/windows-deployment-services-server-functions">Windows Deployment Services Server Functions</a>

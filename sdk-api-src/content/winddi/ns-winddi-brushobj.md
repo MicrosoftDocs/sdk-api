@@ -79,7 +79,7 @@ BR_CMYKCOLOR
 
 </td>
 <td>
-When this bit is set, <b>iSolidColor</b> contains a 32-bit <a href="https://docs.microsoft.com/windows-hardware/drivers/">CMYK</a> color value. Otherwise, <b>iSolidColor</b> contains a palette index or 0xFFFFFFFF.
+When this bit is set, <b>iSolidColor</b> contains a 32-bit <a href="/windows-hardware/drivers/">CMYK</a> color value. Otherwise, <b>iSolidColor</b> contains a palette index or 0xFFFFFFFF.
 
 </td>
 </tr>
@@ -109,15 +109,15 @@ The driver need not perform image color management for the brush color because G
 
 Drivers can call <i>BRUSHOBJ_Xxx</i> service routines to realize brushes or to find previously realized brushes.
 
-If the <b>iSolidColor</b> member is 0xFFFFFFFF or the <b>pvRbrush</b> member is <b>NULL</b>, the driver must call the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-brushobj_pvgetrbrush">BRUSHOBJ_pvGetRbrush</a> function to realize the brush.
+If the <b>iSolidColor</b> member is 0xFFFFFFFF or the <b>pvRbrush</b> member is <b>NULL</b>, the driver must call the <a href="/windows/desktop/api/winddi/nf-winddi-brushobj_pvgetrbrush">BRUSHOBJ_pvGetRbrush</a> function to realize the brush.
 
 If neither BR_HOST_ICM or BR_DEVICE_ICM are set, ICM is not enabled in the graphics engine or in the driver.
 
-For a description of the FLONG data type, see <a href="https://docs.microsoft.com/windows-hardware/drivers/display/gdi-data-types">GDI Data Types</a>.
+For a description of the FLONG data type, see <a href="/windows-hardware/drivers/display/gdi-data-types">GDI Data Types</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-brushobj_hgetcolortransform">BRUSHOBJ_hGetColorTransform</a>
+<a href="/windows/desktop/api/winddi/nf-winddi-brushobj_hgetcolortransform">BRUSHOBJ_hGetColorTransform</a>
 
 
 
@@ -125,5 +125,4 @@ For a description of the FLONG data type, see <a href="https://docs.microsoft.co
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-brushobj_ulgetbrushcolor">BRUSHOBJ_ulGetBrushColor</a>
-
+<a href="/windows/desktop/api/winddi/nf-winddi-brushobj_ulgetbrushcolor">BRUSHOBJ_ulGetBrushColor</a>

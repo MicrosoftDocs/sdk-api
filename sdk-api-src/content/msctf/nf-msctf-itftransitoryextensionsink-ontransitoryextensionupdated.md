@@ -56,7 +56,7 @@ Transitory Document has been updated.
 
 ### -param pic [in]
 
-[in] A pointer of <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfcontext">ITfContext</a> interface. This is a context object in which the update happened.
+[in] A pointer of <a href="/windows/desktop/api/msctf/nn-msctf-itfcontext">ITfContext</a> interface. This is a context object in which the update happened.
 
 ### -param ecReadOnly [in]
 
@@ -64,11 +64,11 @@ Transitory Document has been updated.
 
 ### -param pResultRange [in]
 
-[in] A pointer of the <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfrange">ITfRange</a> interface. This is the range of the result string (determined string).
+[in] A pointer of the <a href="/windows/desktop/api/msctf/nn-msctf-itfrange">ITfRange</a> interface. This is the range of the result string (determined string).
 
 ### -param pCompositionRange [in]
 
-[in] A pointer of the <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfrange">ITfRange</a> interface. This is the range of the current composition string.
+[in] A pointer of the <a href="/windows/desktop/api/msctf/nn-msctf-itfrange">ITfRange</a> interface. This is the range of the current composition string.
 
 ### -param pfDeleteResultRange [out]
 
@@ -106,4 +106,3 @@ An unspecified error occurred.
 </td>
 </tr>
 </table>
-

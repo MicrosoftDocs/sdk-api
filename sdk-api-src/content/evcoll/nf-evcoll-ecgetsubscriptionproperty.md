@@ -60,7 +60,7 @@ The handle to the subscription object.
 
 ### -param PropertyId [in]
 
-An identifier that specifies which property of the subscription to get. Specify a value from the <a href="https://docs.microsoft.com/windows/desktop/api/evcoll/ne-evcoll-ec_subscription_property_id">EC_SUBSCRIPTION_PROPERTY_ID</a> enumeration. If you specify the <b>EcSubscriptionEventSources</b> value, then a handle to an array (<a href="https://docs.microsoft.com/windows/desktop/WEC/windows-event-collector-data-types">EC_OBJECT_ARRAY_PROPERTY_HANDLE</a>) will be returned. You can then use the <a href="https://docs.microsoft.com/windows/desktop/api/evcoll/nf-evcoll-ecgetobjectarrayproperty">EcGetObjectArrayProperty</a> and <a href="https://docs.microsoft.com/windows/desktop/api/evcoll/nf-evcoll-ecsetobjectarrayproperty">EcSetObjectArrayProperty</a>  functions to get and set the Address, Enabled, UserName, and Password properties in the array.
+An identifier that specifies which property of the subscription to get. Specify a value from the <a href="/windows/desktop/api/evcoll/ne-evcoll-ec_subscription_property_id">EC_SUBSCRIPTION_PROPERTY_ID</a> enumeration. If you specify the <b>EcSubscriptionEventSources</b> value, then a handle to an array (<a href="/windows/desktop/WEC/windows-event-collector-data-types">EC_OBJECT_ARRAY_PROPERTY_HANDLE</a>) will be returned. You can then use the <a href="/windows/desktop/api/evcoll/nf-evcoll-ecgetobjectarrayproperty">EcGetObjectArrayProperty</a> and <a href="/windows/desktop/api/evcoll/nf-evcoll-ecsetobjectarrayproperty">EcSetObjectArrayProperty</a>  functions to get and set the Address, Enabled, UserName, and Password properties in the array.
 
 ### -param Flags [in]
 
@@ -84,5 +84,4 @@ This function returns BOOL.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/WEC/windows-event-collector-functions">Windows Event Collector Functions</a>
-
+<a href="/windows/desktop/WEC/windows-event-collector-functions">Windows Event Collector Functions</a>

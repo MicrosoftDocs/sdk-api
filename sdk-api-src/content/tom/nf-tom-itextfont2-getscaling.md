@@ -62,7 +62,7 @@ The scaling percentage.
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 If the method succeeds, it returns <b>NOERROR</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
@@ -72,9 +72,8 @@ The font horizontal scaling percentage can range from 200, which doubles the wid
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextfont2">ITextFont2</a>
+<a href="/windows/desktop/api/tom/nn-tom-itextfont2">ITextFont2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextfont2-setscaling">ITextFont2::SetScaling</a>
-
+<a href="/windows/desktop/api/tom/nf-tom-itextfont2-setscaling">ITextFont2::SetScaling</a>

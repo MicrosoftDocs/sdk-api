@@ -55,7 +55,7 @@ api_name:
     is available for use in Windows Server 2008, Windows Vista, Windows Server 2008 R2, 
     Windows 7, Windows Server 2012, and Windows 8. It may be altered or 
     unavailable in subsequent versions. Instead, use 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/msipc/microsoft-information-protection-and-control-client-portal">Active Directory Rights Management Services SDK 2.1</a>, 
+    <a href="/previous-versions/windows/desktop/msipc/microsoft-information-protection-and-control-client-portal">Active Directory Rights Management Services SDK 2.1</a>, 
     which leverages functionality exposed by the client in Msipc.dll.]
 
 The <b>DRMInitEnvironment</b> function creates a 
@@ -75,13 +75,13 @@ Specifies which security provider to use.
 
 The file name and ID of the security provider. A security provider can be a file on the computer (the 
       lockbox) or a hardware device that holds the secure machine key. The path to this key is obtained by calling 
-      <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmgetsecurityprovider">DRMGetSecurityProvider</a>.
+      <a href="/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmgetsecurityprovider">DRMGetSecurityProvider</a>.
 
 ### -param wszManifestCredentials [in]
 
 A signed XrML structure that specifies conditions on the environment. For information about making a 
       manifest, see 
-      <a href="https://docs.microsoft.com/previous-versions/windows/desktop/adrms_sdk/creating-an-application-manifest">Creating an Application Manifest</a>.
+      <a href="/previous-versions/windows/desktop/adrms_sdk/creating-an-application-manifest">Creating an Application Manifest</a>.
 
 ### -param wszMachineCredentials [in]
 
@@ -90,13 +90,13 @@ The machine certificate.
 ### -param phEnv [out]
 
 A pointer to an environment handle. Close the handle by calling 
-      <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmcloseenvironmenthandle">DRMCloseEnvironmentHandle</a>.
+      <a href="/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmcloseenvironmenthandle">DRMCloseEnvironmentHandle</a>.
 
 ### -param phDefaultLibrary [out]
 
 A pointer to the handle of the library used to create the principal object. You must close this handle 
       before closing the environment handle. For more information, see the Remarks section. Close by calling 
-      <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmclosehandle">DRMCloseHandle</a>.
+      <a href="/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmclosehandle">DRMCloseHandle</a>.
 
 ## -returns
 
@@ -104,7 +104,7 @@ If the function succeeds, the function returns <b>S_OK</b>.
 
 If the function fails, it returns an <b>HRESULT</b> value that indicates the error. 
        Possible values include, but are not limited to, those in the following list. For a list of common error codes, 
-       see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
+       see <a href="/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 ## -remarks
 
@@ -114,11 +114,10 @@ The order of certificates is from least trusted first to most trusted (closest t
 
 When closing the handles returned by this function, close the library handle before closing the environment 
      handle. Otherwise, you will receive an <b>E_DRM_ENV_NOT_LOADED</b> error. Close the library 
-     handle by calling <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmclosehandle">DRMCloseHandle</a>. Close the environment 
+     handle by calling <a href="/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmclosehandle">DRMCloseHandle</a>. Close the environment 
      handle by calling 
-     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmcloseenvironmenthandle">DRMCloseEnvironmentHandle</a>.
+     <a href="/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmcloseenvironmenthandle">DRMCloseEnvironmentHandle</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/adrms_sdk/ad-rms-functions">AD RMS Functions</a>
-
+<a href="/previous-versions/windows/desktop/adrms_sdk/ad-rms-functions">AD RMS Functions</a>

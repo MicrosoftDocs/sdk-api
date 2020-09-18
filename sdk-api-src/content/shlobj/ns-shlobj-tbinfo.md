@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-Used with the <a href="https://docs.microsoft.com/windows/desktop/shell/sfvm-getbuttoninfo">SFVM_GETBUTTONINFO</a> notification to specify the number of buttons to add to the toolbar, as well as how they're added.
+Used with the <a href="/windows/desktop/shell/sfvm-getbuttoninfo">SFVM_GETBUTTONINFO</a> notification to specify the number of buttons to add to the toolbar, as well as how they're added.
 
 ## -struct-fields
 
@@ -85,4 +85,3 @@ Add the new buttons before the existing buttons.
 #### TBIF_REPLACE (2)
 
 Replace the existing buttons with the new buttons.
-

@@ -52,11 +52,11 @@ api_name:
 
 Notifies subscribers of changes to the event store while including partition and application ID information.
 
-The <b>IEventObjectChange2</b> interface has the same firing characteristics as <a href="https://docs.microsoft.com/windows/desktop/api/eventsys/nn-eventsys-ieventobjectchange">IEventObjectChange</a>.
+The <b>IEventObjectChange2</b> interface has the same firing characteristics as <a href="/windows/desktop/api/eventsys/nn-eventsys-ieventobjectchange">IEventObjectChange</a>.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEventObjectChange2</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEventObjectChange2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEventObjectChange2</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEventObjectChange2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>IEventObjectChange2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/eventsys/nf-eventsys-ieventobjectchange2-changedeventclass">ChangedEventClass</a>
+<a href="/windows/desktop/api/eventsys/nf-eventsys-ieventobjectchange2-changedeventclass">ChangedEventClass</a>
 </td>
 <td align="left" width="63%">
 Indicates that an event class object has been added, modified, or deleted.
@@ -80,7 +80,7 @@ Indicates that an event class object has been added, modified, or deleted.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/eventsys/nf-eventsys-ieventobjectchange2-changedsubscription">ChangedSubscription</a>
+<a href="/windows/desktop/api/eventsys/nf-eventsys-ieventobjectchange2-changedsubscription">ChangedSubscription</a>
 </td>
 <td align="left" width="63%">
 Indicates that a subscription object has been added, modified, or deleted.
@@ -91,9 +91,8 @@ Indicates that a subscription object has been added, modified, or deleted.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/eventsys/nn-eventsys-ieventobjectchange">IEventObjectChange</a>
+<a href="/windows/desktop/api/eventsys/nn-eventsys-ieventobjectchange">IEventObjectChange</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/eventsys/nn-eventsys-ieventsystem">IEventSystem</a>
-
+<a href="/windows/desktop/api/eventsys/nn-eventsys-ieventsystem">IEventSystem</a>

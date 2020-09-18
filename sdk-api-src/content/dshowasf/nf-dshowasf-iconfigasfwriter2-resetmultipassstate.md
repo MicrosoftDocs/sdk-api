@@ -89,13 +89,12 @@ The filter was not in a stopped state.
 
 ## -remarks
 
-This method must be called to reset the internal state of the filter whenever a preprocessing encoding pass is canceled before the filter has received an <a href="https://docs.microsoft.com/windows/desktop/DirectShow/ec-preprocess-complete">EC_PREPROCESS_COMPLETE</a> event. It is not necessary to call this method if the preprocessing encoding pass completes without errors.
+This method must be called to reset the internal state of the filter whenever a preprocessing encoding pass is canceled before the filter has received an <a href="/windows/desktop/DirectShow/ec-preprocess-complete">EC_PREPROCESS_COMPLETE</a> event. It is not necessary to call this method if the preprocessing encoding pass completes without errors.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/creating-asf-files-in-directshow">Creating ASF Files in DirectShow</a>
+<a href="/windows/desktop/DirectShow/creating-asf-files-in-directshow">Creating ASF Files in DirectShow</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dshowasf/nn-dshowasf-iconfigasfwriter2">IConfigAsfWriter2 Interface</a>
-
+<a href="/windows/desktop/api/dshowasf/nn-dshowasf-iconfigasfwriter2">IConfigAsfWriter2 Interface</a>

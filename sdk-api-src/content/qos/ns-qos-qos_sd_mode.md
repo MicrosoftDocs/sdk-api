@@ -62,13 +62,13 @@ The QOS object
 ### -field ObjectHdr
 
 The QOS object 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qos/ns-qos-qos_object_hdr">QOS_OBJECT_HDR</a>. The object type for this QOS object should be 
+<a href="/previous-versions/windows/desktop/api/qos/ns-qos-qos_object_hdr">QOS_OBJECT_HDR</a>. The object type for this QOS object should be 
 <b>QOS_SD_MODE</b>.
 
 ### -field ShapeDiscardMode
 
 Specifies the requested behavior of the packet shaper. Note that there are elements of packet handling within these predefined behaviors that depend on the flow settings specified within 
-<a href="https://docs.microsoft.com/windows/desktop/api/qos/ns-qos-flowspec">FLOWSPEC</a>. 
+<a href="/windows/desktop/api/qos/ns-qos-flowspec">FLOWSPEC</a>. 
 
 
 
@@ -89,7 +89,7 @@ This mode is currently only available to the TC API. It is not available to user
 
 
 Instructs the packet shaper to borrow remaining available resources after all higher priority flows have been serviced. If the <b>TokenRate</b> member of 
-<a href="https://docs.microsoft.com/windows/desktop/api/qos/ns-qos-flowspec">FLOWSPEC</a> is specified for this flow, packets that exceed the value of <b>TokenRate</b> will have their priority demoted to less than SERVICETYPE_BESTEFFORT, as defined in the <b>ServiceType</b> member of the 
+<a href="/windows/desktop/api/qos/ns-qos-flowspec">FLOWSPEC</a> is specified for this flow, packets that exceed the value of <b>TokenRate</b> will have their priority demoted to less than SERVICETYPE_BESTEFFORT, as defined in the <b>ServiceType</b> member of the 
 <b>FLOWSPEC</b> structure.
 
 </td>
@@ -118,9 +118,8 @@ Instructs the packet shaper to discard all nonconforming packets. TC_NONCONF_DIS
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/qos/ns-qos-flowspec">FLOWSPEC</a>
+<a href="/windows/desktop/api/qos/ns-qos-flowspec">FLOWSPEC</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qos/ns-qos-qos_object_hdr">QOS_OBJECT_HDR</a>
-
+<a href="/previous-versions/windows/desktop/api/qos/ns-qos-qos_object_hdr">QOS_OBJECT_HDR</a>

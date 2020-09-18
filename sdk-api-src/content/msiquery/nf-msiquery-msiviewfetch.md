@@ -53,7 +53,7 @@ api_name:
 
 The 
 <b>MsiViewFetch</b> function fetches the next sequential record from the view. This function returns a handle that should be closed using 
-<a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msiclosehandle">MsiCloseHandle</a>.
+<a href="/windows/desktop/api/msi/nf-msi-msiclosehandle">MsiCloseHandle</a>.
 
 ## -parameters
 
@@ -73,17 +73,16 @@ Note that in low memory situations, this function can raise a STATUS_NO_MEMORY e
 
 If the 
 <b>MsiViewFetch</b> function returns ERROR_FUNCTION_FAILED, it is possible that the 
-<a href="https://docs.microsoft.com/windows/desktop/api/msiquery/nf-msiquery-msiviewexecute">MsiViewExecute</a> function was not called first. If more rows are available in the result set, 
+<a href="/windows/desktop/api/msiquery/nf-msiquery-msiviewexecute">MsiViewExecute</a> function was not called first. If more rows are available in the result set, 
 <b>MsiViewFetch</b> returns <i>phRecord</i> as a handle to a record containing the requested column data, or <i>phRecord</i> is 0. For maximum performance, the same record should be used for all retrievals, or the record should be released by going out of scope.
 
 Note that it is recommended to use variables of type PMSIHANDLE because the installer closes PMSIHANDLE objects as they go out of scope, whereas you must close MSIHANDLE objects by calling 
-<a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msiclosehandle">MsiCloseHandle</a>. For more information see <a href="https://docs.microsoft.com/windows/desktop/Msi/windows-installer-best-practices">Use PMSIHANDLE instead of HANDLE</a> section in the <a href="https://docs.microsoft.com/windows/desktop/Msi/windows-installer-best-practices">Windows Installer Best Practices</a>.
+<a href="/windows/desktop/api/msi/nf-msi-msiclosehandle">MsiCloseHandle</a>. For more information see <a href="/windows/desktop/Msi/windows-installer-best-practices">Use PMSIHANDLE instead of HANDLE</a> section in the <a href="/windows/desktop/Msi/windows-installer-best-practices">Windows Installer Best Practices</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/database-functions">General Database Access Functions</a>
+<a href="/windows/desktop/Msi/database-functions">General Database Access Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/working-with-queries">Working with Queries</a>
-
+<a href="/windows/desktop/Msi/working-with-queries">Working with Queries</a>

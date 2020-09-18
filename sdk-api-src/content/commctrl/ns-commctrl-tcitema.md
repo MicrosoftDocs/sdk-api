@@ -53,14 +53,14 @@ api_name:
 
 ## -description
 
-Specifies or receives the attributes of a tab item. It is used with the <a href="https://docs.microsoft.com/windows/desktop/Controls/tcm-insertitem">TCM_INSERTITEM</a>, <a href="https://docs.microsoft.com/windows/desktop/Controls/tcm-getitem">TCM_GETITEM</a>, and <a href="https://docs.microsoft.com/windows/desktop/Controls/tcm-setitem">TCM_SETITEM</a> messages. This structure supersedes the 
+Specifies or receives the attributes of a tab item. It is used with the <a href="/windows/desktop/Controls/tcm-insertitem">TCM_INSERTITEM</a>, <a href="/windows/desktop/Controls/tcm-getitem">TCM_GETITEM</a>, and <a href="/windows/desktop/Controls/tcm-setitem">TCM_SETITEM</a> messages. This structure supersedes the 
 			<b>TC_ITEM</b> structure.
 
 ## -struct-fields
 
 ### -field mask
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 Value that specifies which members to retrieve or set. This member can be a combination of the following values: 
 
@@ -108,7 +108,7 @@ The string pointed to by
 </td>
 <td width="60%">
 
-<a href="https://docs.microsoft.com/windows/desktop/Controls/common-control-versions">Version 4.70</a>. The 
+<a href="/windows/desktop/Controls/common-control-versions">Version 4.70</a>. The 
 <b>dwState</b> member is valid.
 
 </td>
@@ -127,21 +127,21 @@ The <b>pszText</b> member is valid.
 
 ### -field dwState
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Controls/common-control-versions">Version 4.70</a>. Specifies the item's current state if information is being retrieved. If item information is being set, this member contains the state value to be set for the item. For a list of valid tab control item states, see <a href="https://docs.microsoft.com/windows/desktop/Controls/tab-control-item-states">Tab Control Item States</a>. This member is ignored in the <a href="https://docs.microsoft.com/windows/desktop/Controls/tcm-insertitem">TCM_INSERTITEM</a> message.
+<a href="/windows/desktop/Controls/common-control-versions">Version 4.70</a>. Specifies the item's current state if information is being retrieved. If item information is being set, this member contains the state value to be set for the item. For a list of valid tab control item states, see <a href="/windows/desktop/Controls/tab-control-item-states">Tab Control Item States</a>. This member is ignored in the <a href="/windows/desktop/Controls/tcm-insertitem">TCM_INSERTITEM</a> message.
 
 ### -field dwStateMask
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Controls/common-control-versions">Version 4.70</a>. Specifies which bits of the <b>dwState</b> member contain valid information. This member is ignored in the <a href="https://docs.microsoft.com/windows/desktop/Controls/tcm-insertitem">TCM_INSERTITEM</a> message.
+<a href="/windows/desktop/Controls/common-control-versions">Version 4.70</a>. Specifies which bits of the <b>dwState</b> member contain valid information. This member is ignored in the <a href="/windows/desktop/Controls/tcm-insertitem">TCM_INSERTITEM</a> message.
 
 ### -field pszText
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPTSTR</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">LPTSTR</a></b>
 
 Pointer to a null-terminated string that contains the tab text when item information is being set. If item information is being retrieved, this member specifies the address of the buffer that receives the tab text.
 
@@ -160,9 +160,9 @@ Index in the tab control's image list, or -1 if there is no image for the tab.
 
 ### -field lParam
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPARAM</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">LPARAM</a></b>
 
-Application-defined data associated with the tab control item. If more or less than 4 bytes of application-defined data exist per tab, an application must define a structure and use it instead of the <b>TCITEM</b> structure. The first member of the application-defined structure must be a <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-tcitemheadera">TCITEMHEADER</a> structure.
+Application-defined data associated with the tab control item. If more or less than 4 bytes of application-defined data exist per tab, an application must define a structure and use it instead of the <b>TCITEM</b> structure. The first member of the application-defined structure must be a <a href="/windows/desktop/api/commctrl/ns-commctrl-tcitemheadera">TCITEMHEADER</a> structure.
 
 ## -remarks
 
@@ -174,4 +174,3 @@ Typically, windows display text left-to-right (LTR). Windows can be
 
 > [!NOTE]
 > The commctrl.h header defines TCITEM as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

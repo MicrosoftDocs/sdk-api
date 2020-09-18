@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Identifiers for properties of the <a href="https://docs.microsoft.com/windows/desktop/Direct2D/temperature-and-tint-effect">Temperature and Tint effect</a>.
+Identifiers for properties of the <a href="/windows/desktop/Direct2D/temperature-and-tint-effect">Temperature and Tint effect</a>.
 
 ## -enum-fields
 
@@ -63,4 +63,3 @@ The D2D1_TEMPERATUREANDTINT_PROP_TEMPERATURE property is a float value specifyin
 The D2D1_TEMPERATUREANDTINT_PROP_TINT propery is a float value specifying how much to increase or decrease the tint of the input image.  The allowed range is -1.0 to 1.0.  The default value is 0.0.
 
 ### -field D2D1_TEMPERATUREANDTINT_PROP_FORCE_DWORD
-

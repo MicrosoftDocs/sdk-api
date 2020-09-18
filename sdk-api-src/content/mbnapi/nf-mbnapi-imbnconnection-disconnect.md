@@ -98,11 +98,10 @@ The connection has already been disconnected.
 
 Deactivation will also result in the disconnection of the L2 connection.
 
-This is an asynchronous operation that will return immediately. If this method returns successfully, then the Mobile Broadband service will call the <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nf-mbnapi-imbnconnectionevents-ondisconnectcomplete">OnDisconnectComplete</a> method of <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbnconnectionevents">IMbnConnectionEvents</a> when the operation is complete.
+This is an asynchronous operation that will return immediately. If this method returns successfully, then the Mobile Broadband service will call the <a href="/windows/desktop/api/mbnapi/nf-mbnapi-imbnconnectionevents-ondisconnectcomplete">OnDisconnectComplete</a> method of <a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbnconnectionevents">IMbnConnectionEvents</a> when the operation is complete.
 
-Windows 8 and later versions of Windows: A Windows Store app may only use <b>Disconnect</b> if the existing MBN connection was initiated by that app using <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbnconnection">Connect</a>. <b>Disconnect</b> may not be used to disconnect connections that have been made by the user or by the <a href="https://docs.microsoft.com/windows/desktop/wcm/windows-connection-manager-portal">Windows Connection Manager</a>.
+Windows 8 and later versions of Windows: A Windows Store app may only use <b>Disconnect</b> if the existing MBN connection was initiated by that app using <a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbnconnection">Connect</a>. <b>Disconnect</b> may not be used to disconnect connections that have been made by the user or by the <a href="/windows/desktop/wcm/windows-connection-manager-portal">Windows Connection Manager</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbnconnection">IMbnConnection</a>
-
+<a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbnconnection">IMbnConnection</a>

@@ -52,16 +52,16 @@ api_name:
 
 ## -description
 
-<div class="alert"><b>Important</b>  This API is deprecated. New and existing software should start using <a href="https://docs.microsoft.com/windows/desktop/SecCNG/cng-portal">Cryptography Next Generation APIs.</a> Microsoft may remove this API in future releases.</div><div> </div>The <b>CryptContextAddRef</b> function adds one to the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/r-gly">reference count</a> of an 
-<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/hcryptprov">HCRYPTPROV</a> <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">cryptographic service provider</a> (CSP) handle. This function should be used if the CSP handle is included as a member of any structure passed to another function. The 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptreleasecontext">CryptReleaseContext</a> function should be called when the CSP handle is no longer needed.
+<div class="alert"><b>Important</b>  This API is deprecated. New and existing software should start using <a href="/windows/desktop/SecCNG/cng-portal">Cryptography Next Generation APIs.</a> Microsoft may remove this API in future releases.</div><div> </div>The <b>CryptContextAddRef</b> function adds one to the <a href="/windows/desktop/SecGloss/r-gly">reference count</a> of an 
+<a href="/windows/desktop/SecCrypto/hcryptprov">HCRYPTPROV</a> <a href="/windows/desktop/SecGloss/c-gly">cryptographic service provider</a> (CSP) handle. This function should be used if the CSP handle is included as a member of any structure passed to another function. The 
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptreleasecontext">CryptReleaseContext</a> function should be called when the CSP handle is no longer needed.
 
 ## -parameters
 
 ### -param hProv [in]
 
-<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/hcryptprov">HCRYPTPROV</a> handle for which the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/r-gly">reference count</a> is being incremented. This handle must have already been created using 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptacquirecontexta">CryptAcquireContext</a>.
+<a href="/windows/desktop/SecCrypto/hcryptprov">HCRYPTPROV</a> handle for which the <a href="/windows/desktop/SecGloss/r-gly">reference count</a> is being incremented. This handle must have already been created using 
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptacquirecontexta">CryptAcquireContext</a>.
 
 ### -param pdwReserved [in]
 
@@ -76,7 +76,7 @@ Reserved for future use and must be zero.
 If the function succeeds, the return value is nonzero (TRUE).
 
 If the function fails, the return value is zero (FALSE). For extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. One possible error code is the following.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. One possible error code is the following.
 
 <table>
 <tr>
@@ -98,14 +98,14 @@ One of the parameters contains a value that is not valid. This is most often a p
 
 ## -remarks
 
-This function increases the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/r-gly">reference count</a> on a 
-<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/hcryptprov">HCRYPTPROV</a> handle so that multiple calls to 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptreleasecontext">CryptReleaseContext</a> are required to actually release the handle.
+This function increases the <a href="/windows/desktop/SecGloss/r-gly">reference count</a> on a 
+<a href="/windows/desktop/SecCrypto/hcryptprov">HCRYPTPROV</a> handle so that multiple calls to 
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptreleasecontext">CryptReleaseContext</a> are required to actually release the handle.
 
 
 #### Examples
 
-The following example increments the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/r-gly">reference count</a> on an acquired CSP handle.
+The following example increments the <a href="/windows/desktop/SecGloss/r-gly">reference count</a> on an acquired CSP handle.
 
 
 ```cpp
@@ -133,19 +133,18 @@ else
 ```
 
 
-For another example that uses this function, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/example-c-program-using-cryptacquirecontext">Example C Program: Using CryptAcquireContext</a>.
+For another example that uses this function, see <a href="/windows/desktop/SecCrypto/example-c-program-using-cryptacquirecontext">Example C Program: Using CryptAcquireContext</a>.
 
 <div class="code"></div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptacquirecontexta">CryptAcquireContext</a>
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptacquirecontexta">CryptAcquireContext</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptreleasecontext">CryptReleaseContext</a>
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptreleasecontext">CryptReleaseContext</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">Service Provider Functions</a>
-
+<a href="/windows/desktop/SecCrypto/cryptography-functions">Service Provider Functions</a>

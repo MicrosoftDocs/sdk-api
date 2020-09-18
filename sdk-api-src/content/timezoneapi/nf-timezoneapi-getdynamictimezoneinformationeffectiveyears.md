@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-Gets a range, expressed in years, for which a <a href="https://docs.microsoft.com/windows/desktop/api/timezoneapi/ns-timezoneapi-dynamic_time_zone_information">DYNAMIC_TIME_ZONE_INFORMATION</a> has valid entries. Use the returned value to identify the specific years to request when calling <a href="https://docs.microsoft.com/windows/desktop/api/timezoneapi/nf-timezoneapi-gettimezoneinformationforyear">GetTimeZoneInformationForYear</a> to retrieve time zone information for a time zone that experiences annual boundary changes due to daylight saving time adjustments.
+Gets a range, expressed in years, for which a <a href="/windows/desktop/api/timezoneapi/ns-timezoneapi-dynamic_time_zone_information">DYNAMIC_TIME_ZONE_INFORMATION</a> has valid entries. Use the returned value to identify the specific years to request when calling <a href="/windows/desktop/api/timezoneapi/nf-timezoneapi-gettimezoneinformationforyear">GetTimeZoneInformationForYear</a> to retrieve time zone information for a time zone that experiences annual boundary changes due to daylight saving time adjustments.
 
 ## -parameters
 
@@ -64,11 +64,11 @@ Specifies settings for  a time zone and dynamic daylight saving time.
 
 ### -param FirstYear [out]
 
-The year that marks the beginning of the range to pass to <a href="https://docs.microsoft.com/windows/desktop/api/timezoneapi/nf-timezoneapi-gettimezoneinformationforyear">GetTimeZoneInformationForYear</a>.
+The year that marks the beginning of the range to pass to <a href="/windows/desktop/api/timezoneapi/nf-timezoneapi-gettimezoneinformationforyear">GetTimeZoneInformationForYear</a>.
 
 ### -param LastYear [out]
 
-The year that marks the end of the range to pass to <a href="https://docs.microsoft.com/windows/desktop/api/timezoneapi/nf-timezoneapi-gettimezoneinformationforyear">GetTimeZoneInformationForYear</a>.
+The year that marks the end of the range to pass to <a href="/windows/desktop/api/timezoneapi/nf-timezoneapi-gettimezoneinformationforyear">GetTimeZoneInformationForYear</a>.
 
 ## -returns
 
@@ -125,9 +125,8 @@ The operation failed.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/timezoneapi/ns-timezoneapi-dynamic_time_zone_information">DYNAMIC_TIME_ZONE_INFORMATION</a>
+<a href="/windows/desktop/api/timezoneapi/ns-timezoneapi-dynamic_time_zone_information">DYNAMIC_TIME_ZONE_INFORMATION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/timezoneapi/nf-timezoneapi-enumdynamictimezoneinformation">EnumDynamicTimeZoneInformation</a>
-
+<a href="/windows/desktop/api/timezoneapi/nf-timezoneapi-enumdynamictimezoneinformation">EnumDynamicTimeZoneInformation</a>

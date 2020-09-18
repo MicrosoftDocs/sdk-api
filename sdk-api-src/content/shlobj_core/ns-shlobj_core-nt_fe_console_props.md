@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-Holds an extra data block used by <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishelllinkdatalist">IShellLinkDataList</a>. It holds the console's code page.
+Holds an extra data block used by <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishelllinkdatalist">IShellLinkDataList</a>. It holds the console's code page.
 
 ## -struct-fields
 
@@ -69,4 +69,3 @@ The <a href="/windows/win32/api/shlobj_core/ns-shlobj_core-datablock_header">DAT
 Type: <b>UINT</b>
 
 The console's code page.
-

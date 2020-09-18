@@ -53,17 +53,17 @@ api_name:
 
 ## -description
 
-The <b>ImportSecurityContext</b> function imports a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security context</a>. The security context must have been exported to the process calling <b>ImportSecurityContext</b> by a previous call to <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-exportsecuritycontext">ExportSecurityContext</a>.
+The <b>ImportSecurityContext</b> function imports a <a href="/windows/desktop/SecGloss/s-gly">security context</a>. The security context must have been exported to the process calling <b>ImportSecurityContext</b> by a previous call to <a href="/windows/desktop/api/sspi/nf-sspi-exportsecuritycontext">ExportSecurityContext</a>.
 
 ## -parameters
 
 ### -param pszPackage [in]
 
-A string that contains the name of the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security package</a> to which the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security context</a> was exported.
+A string that contains the name of the <a href="/windows/desktop/SecGloss/s-gly">security package</a> to which the <a href="/windows/desktop/SecGloss/s-gly">security context</a> was exported.
 
 ### -param pPackedContext [in]
 
-A pointer to a buffer that contains the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">serialized</a> security context created by <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-exportsecuritycontext">ExportSecurityContext</a>.
+A pointer to a buffer that contains the <a href="/windows/desktop/SecGloss/s-gly">serialized</a> security context created by <a href="/windows/desktop/api/sspi/nf-sspi-exportsecuritycontext">ExportSecurityContext</a>.
 
 ### -param Token [in, optional]
 
@@ -71,7 +71,7 @@ A handle to the context's token.
 
 ### -param phContext [out]
 
-A handle of the new security context created from <i>pPackedContext</i>. When you have finished using the context, delete it by calling the  <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-deletesecuritycontext">DeleteSecurityContext</a> function.
+A handle of the new security context created from <i>pPackedContext</i>. When you have finished using the context, delete it by calling the  <a href="/windows/desktop/api/sspi/nf-sspi-deletesecuritycontext">DeleteSecurityContext</a> function.
 
 ## -returns
 
@@ -102,7 +102,7 @@ The credentials supplied to the package were not recognized.
 </dl>
 </td>
 <td width="60%">
-No credentials are available in the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security package</a>.
+No credentials are available in the <a href="/windows/desktop/SecGloss/s-gly">security package</a>.
 
 </td>
 </tr>
@@ -143,18 +143,17 @@ An error occurred that did not map to an SSPI error code.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-exportsecuritycontext">ExportSecurityContext</a>
+<a href="/windows/desktop/api/sspi/nf-sspi-exportsecuritycontext">ExportSecurityContext</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-freecontextbuffer">FreeContextBuffer</a>
+<a href="/windows/desktop/api/sspi/nf-sspi-freecontextbuffer">FreeContextBuffer</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthN/authentication-functions">SSPI Functions</a>
+<a href="/windows/desktop/SecAuthN/authentication-functions">SSPI Functions</a>
 
 ## -remarks
 
 > [!NOTE]
 > The sspi.h header defines ImportSecurityContext as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

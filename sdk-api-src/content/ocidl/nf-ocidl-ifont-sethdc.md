@@ -95,19 +95,18 @@ The font selection is not supported through this font object.
 ## -remarks
 
 The logical mapping mode affects the font's internal computation of its point size so that when the caller 
-    asks for a font handle by calling <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-ifont-get_hfont">IFont::get_hFont</a>, the 
+    asks for a font handle by calling <a href="/windows/desktop/api/ocidl/nf-ocidl-ifont-get_hfont">IFont::get_hFont</a>, the 
     font is already properly scaled to the device context.
 
 <h3><a id="Notes_to_Callers"></a><a id="notes_to_callers"></a><a id="NOTES_TO_CALLERS"></a>Notes to Callers</h3>
 The caller retains ownership of this device context which must remain valid for the lifetime of 
      the font object. Thus, the device context passed should be a memory device context (from the function 
-     <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createcompatibledc">CreateCompatibleDC</a>) and not a screen device context 
-     (from <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createdca">CreateDC</a>, 
-     <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getdc">GetDC</a>, or 
-     <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-beginpaint">BeginPaint</a>) because screen device contexts are a limited system 
+     <a href="/windows/desktop/api/wingdi/nf-wingdi-createcompatibledc">CreateCompatibleDC</a>) and not a screen device context 
+     (from <a href="/windows/desktop/api/wingdi/nf-wingdi-createdca">CreateDC</a>, 
+     <a href="/windows/desktop/api/winuser/nf-winuser-getdc">GetDC</a>, or 
+     <a href="/windows/desktop/api/winuser/nf-winuser-beginpaint">BeginPaint</a>) because screen device contexts are a limited system 
      resource.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-ifont">IFont</a>
-
+<a href="/windows/desktop/api/ocidl/nn-ocidl-ifont">IFont</a>

@@ -179,7 +179,7 @@ The computer is shut down and rebooted.
 </dl>
 </td>
 <td width="60%">
-The system is rebooted using the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-exitwindowsex">ExitWindowsEx</a> function with the EWX_RESTARTAPPS flag. This restarts any applications that have been registered for restart using the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-registerapplicationrestart">RegisterApplicationRestart</a> function.
+The system is rebooted using the <a href="/windows/desktop/api/winuser/nf-winuser-exitwindowsex">ExitWindowsEx</a> function with the EWX_RESTARTAPPS flag. This restarts any applications that have been registered for restart using the <a href="/windows/desktop/api/winbase/nf-winbase-registerapplicationrestart">RegisterApplicationRestart</a> function.
 
 </td>
 </tr>
@@ -187,7 +187,7 @@ The system is rebooted using the <a href="https://docs.microsoft.com/windows/des
 
 ### -param dwReason [in]
 
-The reason for initiating the shutdown. This parameter must be one of the <a href="https://docs.microsoft.com/windows/desktop/Shutdown/system-shutdown-reason-codes">system shutdown reason codes</a>. 
+The reason for initiating the shutdown. This parameter must be one of the <a href="/windows/desktop/Shutdown/system-shutdown-reason-codes">system shutdown reason codes</a>. 
 If this parameter is zero, the default is an undefined shutdown that is logged as "No title for this reason could be found". By default, it is also an unplanned shutdown. Depending on how the system is configured, an unplanned shutdown triggers the creation of a file that contains the system state information, which can delay shutdown. Therefore, do not use zero for this parameter.
 
 ## -returns
@@ -299,7 +299,7 @@ One or more users other than the current user are logged on the specified machin
 ## -remarks
 
 To shut down the local computer, the calling thread must have the SE_SHUTDOWN_NAME privilege. To shut down a remote computer, the calling thread must have the SE_REMOTE_SHUTDOWN_NAME privilege on the remote computer. By default, users can enable the SE_SHUTDOWN_NAME privilege on the computer they are logged onto, and administrators can enable the SE_REMOTE_SHUTDOWN_NAME privilege on remote computers. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/SecBP/running-with-special-privileges">Running with Special Privileges</a>.
+<a href="/windows/desktop/SecBP/running-with-special-privileges">Running with Special Privileges</a>.
 
 Common reasons for failure include an invalid or inaccessible computer name or insufficient privilege. The error ERROR_SHUTDOWN_IN_PROGRESS is returned if a shutdown is already in progress on the specified computer. The error ERROR_NOT_READY can be returned if fast-user switching is enabled but no user is logged on.
 
@@ -314,5 +314,4 @@ A non-zero return value does not mean the logoff was or will be successful. The 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Shutdown/shutting-down">Shutting Down</a>
-
+<a href="/windows/desktop/Shutdown/shutting-down">Shutting Down</a>

@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-Gets and sets a Boolean value that indicates whether <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iwebproxy">IWebProxy</a>  automatically detects proxy settings.
+Gets and sets a Boolean value that indicates whether <a href="/windows/desktop/api/wuapi/nn-wuapi-iwebproxy">IWebProxy</a>  automatically detects proxy settings.
 
 This property is read/write.
 
@@ -60,9 +60,8 @@ This property is read/write.
 
 ## -remarks
 
-The values of the <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iwebproxy-get_address">Address</a>, <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iwebproxy-get_bypasslist">BypassList</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iwebproxy-get_bypassproxyonlocal">BypassProxyOnLocal</a> properties are ignored if the value of the <b>AutoDetect</b> property is set to <b>VARIANT_TRUE</b>.
+The values of the <a href="/windows/desktop/api/wuapi/nf-wuapi-iwebproxy-get_address">Address</a>, <a href="/windows/desktop/api/wuapi/nf-wuapi-iwebproxy-get_bypasslist">BypassList</a>, and <a href="/windows/desktop/api/wuapi/nf-wuapi-iwebproxy-get_bypassproxyonlocal">BypassProxyOnLocal</a> properties are ignored if the value of the <b>AutoDetect</b> property is set to <b>VARIANT_TRUE</b>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iwebproxy">IWebProxy</a>
-
+<a href="/windows/desktop/api/wuapi/nn-wuapi-iwebproxy">IWebProxy</a>

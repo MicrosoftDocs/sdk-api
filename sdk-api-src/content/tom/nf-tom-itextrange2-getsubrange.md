@@ -74,7 +74,7 @@ The character position for the end of the subrange.
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 If the method succeeds, it returns <b>NOERROR</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
@@ -102,9 +102,8 @@ Subranges are selected as follows.<table>
 
 
 
-See <a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange2-getcount">ITextRange2::GetCount</a> for the count of subranges not including the active subrange.
+See <a href="/windows/desktop/api/tom/nf-tom-itextrange2-getcount">ITextRange2::GetCount</a> for the count of subranges not including the active subrange.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextrange2">ITextRange2</a>
-
+<a href="/windows/desktop/api/tom/nn-tom-itextrange2">ITextRange2</a>

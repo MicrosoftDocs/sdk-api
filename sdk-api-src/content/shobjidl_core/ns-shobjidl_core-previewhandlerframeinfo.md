@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Accelerator table structure. Used by <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ipreviewhandlerframe-getwindowcontext">IPreviewHandlerFrame::GetWindowContext</a>.
+Accelerator table structure. Used by <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ipreviewhandlerframe-getwindowcontext">IPreviewHandlerFrame::GetWindowContext</a>.
 
 ## -struct-fields
 
@@ -65,4 +65,3 @@ A handle to the accelerator table.
 Type: <b>UINT</b>
 
 The number of entries in the accelerator table.
-

@@ -52,18 +52,18 @@ api_name:
 
 The 
 <b>get_PreferredAddresses</b> method returns a collection of addresses that the phone is preferred for use on. The application does not have to call 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itphone-open">ITPhone::Open</a> before executing this method.
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itphone-open">ITPhone::Open</a> before executing this method.
 
 This method is intended for Visual Basic and scripting applications. C/C++ applications will find it more convenient to use the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itphone-enumerateaddresses">EnumerateAddresses</a> method.
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itphone-enumerateaddresses">EnumerateAddresses</a> method.
 
 ## -parameters
 
 ### -param pAddresses [out]
 
 Pointer to a <b>VARIANT</b> containing an 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itcollection">ITCollection</a> of 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itaddress">ITAddress</a> interface pointers.
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itcollection">ITCollection</a> of 
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itaddress">ITAddress</a> interface pointers.
 
 ## -returns
 
@@ -114,35 +114,34 @@ There is not enough memory to allocate the collection object.
 If no usable addresses are present on the system, this method returns an empty collection.
 
 A phone device declares itself as being preferred to an address or set of addresses by returning address/line IDs using the TAPI 2.x 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-phonegetid">phoneGetID</a> function with device class tapi/line.
+<a href="/windows/desktop/api/tapi/nf-tapi-phonegetid">phoneGetID</a> function with device class tapi/line.
 
 Although the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-phonegetid">phoneGetID</a> function requires the handle to an open phone device, the application does not have to call the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itphone-open">ITPhone::Open</a> method before calling 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itphone-enumeratepreferredaddresses">EnumeratePreferredAddresses</a>. This is because the implementation of the phone object can open the phone and call 
+<a href="/windows/desktop/api/tapi/nf-tapi-phonegetid">phoneGetID</a> function requires the handle to an open phone device, the application does not have to call the 
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itphone-open">ITPhone::Open</a> method before calling 
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itphone-enumeratepreferredaddresses">EnumeratePreferredAddresses</a>. This is because the implementation of the phone object can open the phone and call 
 <b>phoneGetID</b> during TAPI initialization or when a new phone object appears.
 
 TAPI calls the <b>AddRef</b> method on the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itaddress">ITAddress</a> interface returned by <b>ITPhone::get_PreferredAddresses</b>. The application must call <b>Release</b> on the 
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itaddress">ITAddress</a> interface returned by <b>ITPhone::get_PreferredAddresses</b>. The application must call <b>Release</b> on the 
 <b>ITAddress</b> interface to free resources associated with it.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itphone-enumeratepreferredaddresses">EnumeratePreferredAddresses</a>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itphone-enumeratepreferredaddresses">EnumeratePreferredAddresses</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itaddress">ITAddress</a>
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itaddress">ITAddress</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itphone">ITPhone</a>
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itphone">ITPhone</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itphone-get_addresses">get_Addresses</a>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itphone-get_addresses">get_Addresses</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-phonegetid">phoneGetID</a>
-
+<a href="/windows/desktop/api/tapi/nf-tapi-phonegetid">phoneGetID</a>

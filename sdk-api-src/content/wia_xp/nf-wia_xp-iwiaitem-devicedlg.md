@@ -92,7 +92,7 @@ Specifies a set of flags that control the dialog box's operation. Can be set to 
 
 Type: <b>LONG</b>
 
-Specifies what type of data the image is intended to represent. For a list of image intent values, see <a href="https://docs.microsoft.com/windows/desktop/wia/-wia-imageintentconstants">Image Intent Constants</a>.
+Specifies what type of data the image is intended to represent. For a list of image intent values, see <a href="/windows/desktop/wia/-wia-imageintentconstants">Image Intent Constants</a>.
 
 
 
@@ -110,7 +110,7 @@ Receives the number of items in the array indicated by the <i>ppIWiaItem</i> par
 
 Type: <b>IWiaItem***</b>
 
-Receives the address of an array of pointers to <a href="https://docs.microsoft.com/windows/desktop/api/wia_xp/nn-wia_xp-iwiaitem">IWiaItem</a> interfaces.
+Receives the address of an array of pointers to <a href="/windows/desktop/api/wia_xp/nn-wia_xp-iwiaitem">IWiaItem</a> interfaces.
 
 ## -returns
 
@@ -122,9 +122,8 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 This method displays a dialog box to the user that an application uses to gather all the information required for image acquisition. For instance, this dialog box enables the user to select images to download from a camera. When using a scanner, it is also used to specify image scan properties such as brightness and contrast.
 
-After this method returns, the application can use the <a href="https://docs.microsoft.com/windows/desktop/api/wia_xp/nn-wia_xp-iwiadatatransfer">IWiaDataTransfer</a> interface to acquire the image.
+After this method returns, the application can use the <a href="/windows/desktop/api/wia_xp/nn-wia_xp-iwiadatatransfer">IWiaDataTransfer</a> interface to acquire the image.
 
-Applications must call the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">IUnknown::Release</a> method for each element in the array of interface pointers they receive through the <i>ppIWiaItem</i> parameter. Applications must also free the array using <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a>.
+Applications must call the <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">IUnknown::Release</a> method for each element in the array of interface pointers they receive through the <i>ppIWiaItem</i> parameter. Applications must also free the array using <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a>.
 
 It is recommended that applications make device and image selection available through a menu item named <b>From scanner or camera</b> on the <b>File</b> menu.
-

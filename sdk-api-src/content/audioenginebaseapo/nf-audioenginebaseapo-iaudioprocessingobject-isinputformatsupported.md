@@ -57,11 +57,11 @@ This method negotiates with the Windows Vista audio engine to establish a data f
 
 ### -param pOppositeFormat [in, optional]
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/audiomediatype/nn-audiomediatype-iaudiomediatype">IAudioMediaType</a> interface. This parameter is used to indicate the output format of the data. The value of pOppositeFormat must be set to <b>NULL</b> to indicate that the output format can be any type.
+A pointer to an <a href="/windows/desktop/api/audiomediatype/nn-audiomediatype-iaudiomediatype">IAudioMediaType</a> interface. This parameter is used to indicate the output format of the data. The value of pOppositeFormat must be set to <b>NULL</b> to indicate that the output format can be any type.
 
 ### -param pRequestedInputFormat [in, optional]
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/audiomediatype/nn-audiomediatype-iaudiomediatype">IAudioMediaType</a> interface. This parameter is used to indicate the input format that is to be verified.
+A pointer to an <a href="/windows/desktop/api/audiomediatype/nn-audiomediatype-iaudiomediatype">IAudioMediaType</a> interface. This parameter is used to indicate the input format that is to be verified.
 
 ### -param ppSupportedInputFormat [out, optional]
 
@@ -127,4 +127,3 @@ These additional error conditions are tracked by the audio engine.
 There are differences in the implementation of the <code>IsInputFormatSupported</code> method by the different APOs. For example, with certain implementations, the output can only be of type float when the input format is of type integer.
 
 To initiate format negotiation, the audio service first sets the output of the LFX sAPO to the default float32-based format. The audio service then calls the <code>IAudioProcessingObject::IsInputFormatSupported</code> method of the LFX sAPO, suggests the default format, and monitors the HRESULT response of this method. If the input of the LFX sAPO can support the suggested format, it returns S_OK, together with a reference to the supported format. If the input of the LFX sAPO cannot support the suggested format, it returns S_FALSE together with a reference to a format that is the closest match to the suggested one. If the LFX sAPO cannot support the suggested format and does not have a close match, it returns APOERR_FORMAT_NOT_SUPPORTED. The GFX sAPO works with the output format of the LFX sAPO. So the GFX sAPO is not involved in the format negotiation process.
-

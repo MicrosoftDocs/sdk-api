@@ -53,11 +53,11 @@ api_name:
 
 ## -description
 
-Applications implement this interface in order to provide custom a custom HTTP or HTTPS download implementation. Use the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfsourceresolver">IMFSourceResolver</a> interface to register the provider. For more information, see <a href="https://docs.microsoft.com/windows/desktop/medfound/using-the-source-resolver">Using the Source Resolver</a>. Once registered, the Microsoft Media Foundation will invoke the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfhttpdownloadsessionprovider-createhttpdownloadsession">CreateHttpDownloadSession</a> method of the provider  implementation to open HTTP or HTTPS URLs instead of using the default implementation.
+Applications implement this interface in order to provide custom a custom HTTP or HTTPS download implementation. Use the <a href="/windows/desktop/api/mfidl/nn-mfidl-imfsourceresolver">IMFSourceResolver</a> interface to register the provider. For more information, see <a href="/windows/desktop/medfound/using-the-source-resolver">Using the Source Resolver</a>. Once registered, the Microsoft Media Foundation will invoke the <a href="/windows/desktop/api/mfidl/nf-mfidl-imfhttpdownloadsessionprovider-createhttpdownloadsession">CreateHttpDownloadSession</a> method of the provider  implementation to open HTTP or HTTPS URLs instead of using the default implementation.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFHttpDownloadSessionProvider</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFHttpDownloadSessionProvider</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFHttpDownloadSessionProvider</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFHttpDownloadSessionProvider</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,7 +72,7 @@ The <b>IMFHttpDownloadSessionProvider</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfhttpdownloadsessionprovider-createhttpdownloadsession">CreateHttpDownloadSession</a>
+<a href="/windows/desktop/api/mfidl/nf-mfidl-imfhttpdownloadsessionprovider-createhttpdownloadsession">CreateHttpDownloadSession</a>
 </td>
 <td align="left" width="63%">
 Called by the Microsoft Media Foundation to open HTTP or HTTPS URLs instead of using the default implementation.
@@ -80,4 +80,3 @@ Called by the Microsoft Media Foundation to open HTTP or HTTPS URLs instead of u
 </td>
 </tr>
 </table>
-

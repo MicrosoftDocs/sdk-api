@@ -58,11 +58,11 @@ Provides storage for a new object pasted from the clipboard or read in from an R
 
 Type: <b>LPSTORAGE*</b>
 
-The address of the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istorage">IStorage</a> interface created for the new object.
+The address of the <a href="/windows/desktop/api/objidl/nn-objidl-istorage">IStorage</a> interface created for the new object.
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 Returns <b>S_OK</b> on success. If the method fails, it can return one of the following values.
 
@@ -101,9 +101,8 @@ This method must be implemented to allow cut, copy, paste, drag, and drop operat
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/richole/nn-richole-iricheditolecallback">IRichEditOleCallback</a>
+<a href="/windows/desktop/api/richole/nn-richole-iricheditolecallback">IRichEditOleCallback</a>
 
 
 
 <b>Reference</b>
-

@@ -51,7 +51,7 @@ api_name:
 ## -description
 
 Returns the current state of a 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/network-interfaces">network interface</a>. The <b>PCLUSAPI_GET_CLUSTER_NET_INTERFACE_STATE</b> type defines a pointer to this function.
+    <a href="/previous-versions/windows/desktop/mscs/network-interfaces">network interface</a>. The <b>PCLUSAPI_GET_CLUSTER_NET_INTERFACE_STATE</b> type defines a pointer to this function.
 
 ## -parameters
 
@@ -63,7 +63,7 @@ Handle to the network interface for which state information should be returned.
 
 <b>GetClusterNetInterfaceState</b> returns 
        the current state of the network interface, which is represented by one of the following values enumerated by 
-       the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ne-clusapi-cluster_netinterface_state">CLUSTER_NETINTERFACE_STATE</a> 
+       the <a href="/previous-versions/windows/desktop/api/clusapi/ne-clusapi-cluster_netinterface_state">CLUSTER_NETINTERFACE_STATE</a> 
        enumeration.
 
 <table>
@@ -128,7 +128,7 @@ The node that owns the network interface is down.
 </td>
 <td width="60%">
 The operation was not successful. For more information about the error, call the function 
-        <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+        <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 </td>
 </tr>
@@ -136,13 +136,12 @@ The operation was not successful. For more information about the error, call the
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ne-clusapi-cluster_netinterface_state">CLUSTER_NETINTERFACE_STATE</a>
+<a href="/previous-versions/windows/desktop/api/clusapi/ne-clusapi-cluster_netinterface_state">CLUSTER_NETINTERFACE_STATE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-openclusternetinterface">OpenClusterNetInterface</a>
+<a href="/windows/desktop/api/clusapi/nf-clusapi-openclusternetinterface">OpenClusterNetInterface</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusnetinterface-state">State Property of the ClusNetInterface Object</a>
-
+<a href="/previous-versions/windows/desktop/mscs/clusnetinterface-state">State Property of the ClusNetInterface Object</a>

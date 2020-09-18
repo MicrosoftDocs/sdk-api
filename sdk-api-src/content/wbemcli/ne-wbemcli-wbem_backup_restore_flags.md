@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-Contains flags used for the <a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbembackuprestore-restore">IWbemBackupRestore::Restore</a> method and the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa391421(v=vs.85)">IWbemBackupRestoreEx::Restore</a> method.
+Contains flags used for the <a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbembackuprestore-restore">IWbemBackupRestore::Restore</a> method and the <a href="/previous-versions/windows/desktop/legacy/aa391421(v=vs.85)">IWbemBackupRestoreEx::Restore</a> method.
 
 ## -enum-fields
 
@@ -63,4 +63,3 @@ Does not shut down active clients; returns an error if there are any.
 ### -field WBEM_FLAG_BACKUP_RESTORE_FORCE_SHUTDOWN
 
 Shuts down any active clients.
-

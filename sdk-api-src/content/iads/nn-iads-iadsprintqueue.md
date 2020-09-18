@@ -50,11 +50,11 @@ api_name:
 
 ## -description
 
-The <b>IADsPrintQueue</b> interface represents a printer on a network. It is a dual interface that inherits from <a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iads">IADs</a>. The property methods of this interface enables you to access data about a printer, for example printer model, physical location, and network address.
+The <b>IADsPrintQueue</b> interface represents a printer on a network. It is a dual interface that inherits from <a href="/windows/desktop/api/iads/nn-iads-iads">IADs</a>. The property methods of this interface enables you to access data about a printer, for example printer model, physical location, and network address.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IADsPrintQueue</b> interface inherits from <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> and <a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iads">IADs</a>. <b>IADsPrintQueue</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IADsPrintQueue</b> interface inherits from <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> and <a href="/windows/desktop/api/iads/nn-iads-iads">IADs</a>. <b>IADsPrintQueue</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -70,7 +70,7 @@ The <b>IADsPrintQueue</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iads-get">Get</a>
+<a href="/windows/desktop/api/iads/nf-iads-iads-get">Get</a>
 </td>
 <td align="left" width="63%">
 Retrieves the value for a property by name.
@@ -79,7 +79,7 @@ Retrieves the value for a property by name.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iads-getex">GetEx</a>
+<a href="/windows/desktop/api/iads/nf-iads-iads-getex">GetEx</a>
 </td>
 <td align="left" width="63%">
 Retrieves the value for a single or multi-valued property by name.
@@ -88,7 +88,7 @@ Retrieves the value for a single or multi-valued property by name.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iads-getinfo">GetInfo</a>
+<a href="/windows/desktop/api/iads/nf-iads-iads-getinfo">GetInfo</a>
 </td>
 <td align="left" width="63%">
 Loads the property values of this object from the underlying directory store.
@@ -97,7 +97,7 @@ Loads the property values of this object from the underlying directory store.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iads-getinfoex">GetInfoEx</a>
+<a href="/windows/desktop/api/iads/nf-iads-iads-getinfoex">GetInfoEx</a>
 </td>
 <td align="left" width="63%">
 Loads specific property values of this object from the underlying directory store.
@@ -106,7 +106,7 @@ Loads specific property values of this object from the underlying directory stor
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iads-put">Put</a>
+<a href="/windows/desktop/api/iads/nf-iads-iads-put">Put</a>
 </td>
 <td align="left" width="63%">
 Sets the value for a property by name.
@@ -115,7 +115,7 @@ Sets the value for a property by name.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iads-putex">PutEx</a>
+<a href="/windows/desktop/api/iads/nf-iads-iads-putex">PutEx</a>
 </td>
 <td align="left" width="63%">
 Sets the value for a single or multi-valued property by name.
@@ -124,7 +124,7 @@ Sets the value for a single or multi-valued property by name.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iads-setinfo">SetInfo</a>
+<a href="/windows/desktop/api/iads/nf-iads-iads-setinfo">SetInfo</a>
 </td>
 <td align="left" width="63%">
 Persists the changes on this object to the underlying directory store.
@@ -142,7 +142,7 @@ Persists the changes on this object to the underlying directory store.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/iads-property-methods">AdsPath</a>
+<a href="/windows/desktop/ADSI/iads-property-methods">AdsPath</a>
 
 
 </td>
@@ -158,7 +158,7 @@ Retrieves the object ADsPath that uniquely identifies this object.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/iadsprintqueue-property-methods">BannerPage</a>
+<a href="/windows/desktop/ADSI/iadsprintqueue-property-methods">BannerPage</a>
 
 
 </td>
@@ -174,7 +174,7 @@ Retrieves and sets the file system path to the banner page file used to separate
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/iads-property-methods">Class</a>
+<a href="/windows/desktop/ADSI/iads-property-methods">Class</a>
 
 
 </td>
@@ -190,7 +190,7 @@ Retrieves the name of the object schema class.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/iadsprintqueue-property-methods">Datatype</a>
+<a href="/windows/desktop/ADSI/iadsprintqueue-property-methods">Datatype</a>
 
 
 </td>
@@ -206,7 +206,7 @@ Retrieves and sets the data type that can be processed by this print queue.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/iadsprintqueue-property-methods">DefaultJobPriority</a>
+<a href="/windows/desktop/ADSI/iadsprintqueue-property-methods">DefaultJobPriority</a>
 
 
 </td>
@@ -222,7 +222,7 @@ Retrieves and sets the default priority assigned to each print job.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/iadsprintqueue-property-methods">Description</a>
+<a href="/windows/desktop/ADSI/iadsprintqueue-property-methods">Description</a>
 
 
 </td>
@@ -238,7 +238,7 @@ Retrieves and sets the description of this print queue.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/iads-property-methods">GUID</a>
+<a href="/windows/desktop/ADSI/iads-property-methods">GUID</a>
 
 
 </td>
@@ -254,7 +254,7 @@ Retrieves the GUID of the object as stored in the underlying directory store.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/iadsprintqueue-property-methods">Location</a>
+<a href="/windows/desktop/ADSI/iadsprintqueue-property-methods">Location</a>
 
 
 </td>
@@ -270,7 +270,7 @@ Retrieves and sets the administrator description of the print queue location.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/iadsprintqueue-property-methods">Model</a>
+<a href="/windows/desktop/ADSI/iadsprintqueue-property-methods">Model</a>
 
 
 </td>
@@ -286,7 +286,7 @@ Retrieves and sets the name of the driver used by this print queue.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/iads-property-methods">Name</a>
+<a href="/windows/desktop/ADSI/iads-property-methods">Name</a>
 
 
 </td>
@@ -302,7 +302,7 @@ Retrieves the object relative name.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/iadsprintqueue-property-methods">NetAddresses</a>
+<a href="/windows/desktop/ADSI/iadsprintqueue-property-methods">NetAddresses</a>
 
 
 </td>
@@ -318,7 +318,7 @@ Retrieves and sets the binding data.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/iads-property-methods">Parent</a>
+<a href="/windows/desktop/ADSI/iads-property-methods">Parent</a>
 
 
 </td>
@@ -334,7 +334,7 @@ Retrieves the ADsPath string for the object parent.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/iadsprintqueue-property-methods">PrintDevices</a>
+<a href="/windows/desktop/ADSI/iadsprintqueue-property-methods">PrintDevices</a>
 
 
 </td>
@@ -350,7 +350,7 @@ Retrieves and sets the names of print devices that this print queue uses as spoo
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/iadsprintqueue-property-methods">PrinterPath</a>
+<a href="/windows/desktop/ADSI/iadsprintqueue-property-methods">PrinterPath</a>
 
 
 </td>
@@ -366,7 +366,7 @@ Retrieves and sets the path where a shared printer can be accessed.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/iadsprintqueue-property-methods">PrintProcessor</a>
+<a href="/windows/desktop/ADSI/iadsprintqueue-property-methods">PrintProcessor</a>
 
 
 </td>
@@ -382,7 +382,7 @@ Retrieves and sets the print processor associated with this print queue.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/iadsprintqueue-property-methods">Priority</a>
+<a href="/windows/desktop/ADSI/iadsprintqueue-property-methods">Priority</a>
 
 
 </td>
@@ -398,7 +398,7 @@ Retrieves and sets the priority of this printer object job queue for connected d
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/iads-property-methods">Schema</a>
+<a href="/windows/desktop/ADSI/iads-property-methods">Schema</a>
 
 
 </td>
@@ -414,7 +414,7 @@ Retrieves the ADsPath string to the schema class object for this object.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/iadsprintqueue-property-methods">StartTime</a>
+<a href="/windows/desktop/ADSI/iadsprintqueue-property-methods">StartTime</a>
 
 
 </td>
@@ -430,7 +430,7 @@ Retrieves and sets the time when the print queue starts processing jobs.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/iadsprintqueue-property-methods">UntilTime</a>
+<a href="/windows/desktop/ADSI/iadsprintqueue-property-methods">UntilTime</a>
 
 
 </td>
@@ -447,7 +447,7 @@ Retrieves and sets the time at which the print queue stops processing jobs.
 
 ## -remarks
 
-Use this interface to browse a collection of print jobs in the print queue. To control a printer across a network, use the  <a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsprintqueueoperations">IADsPrintQueueOperations</a> interface. To obtain a collection of the print jobs, call the  <a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadsprintqueueoperations-printjobs">IADsPrintQueueOperations::PrintJobs</a> method.
+Use this interface to browse a collection of print jobs in the print queue. To control a printer across a network, use the  <a href="/windows/desktop/api/iads/nn-iads-iadsprintqueueoperations">IADsPrintQueueOperations</a> interface. To obtain a collection of the print jobs, call the  <a href="/windows/desktop/api/iads/nf-iads-iadsprintqueueoperations-printjobs">IADsPrintQueueOperations::PrintJobs</a> method.
 
 In Windows, a printer, or a print queue, is managed by a host computer. If the path to a print queue is known, bind to it as to any other ADSI objects.
 
@@ -511,21 +511,20 @@ Cleanup:
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iads">IADs</a>
+<a href="/windows/desktop/api/iads/nn-iads-iads">IADs</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/iadsprintqueue-property-methods">IADsPrintQueue Property Methods</a>
+<a href="/windows/desktop/ADSI/iadsprintqueue-property-methods">IADsPrintQueue Property Methods</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsprintqueueoperations">IADsPrintQueueOperations</a>
+<a href="/windows/desktop/api/iads/nn-iads-iadsprintqueueoperations">IADsPrintQueueOperations</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadsprintqueueoperations-printjobs">IADsPrintQueueOperations::PrintJobs</a>
+<a href="/windows/desktop/api/iads/nf-iads-iadsprintqueueoperations-printjobs">IADsPrintQueueOperations::PrintJobs</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
-
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>

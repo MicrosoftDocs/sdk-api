@@ -72,7 +72,7 @@ The suggested distance, in <b>HIMETRIC</b> units, that the container considers c
 
 ### -param pHitResult [out]
 
-A pointer to returned information about the hit expressed as the <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/ne-ocidl-hitresult">HITRESULT</a> enumeration values.
+A pointer to returned information about the hit expressed as the <a href="/windows/desktop/api/ocidl/ne-ocidl-hitresult">HITRESULT</a> enumeration values.
 
 ## -returns
 
@@ -100,16 +100,15 @@ This method is not implemented for the requested aspect. Use DVASPECT_CONTENT in
 
 Containers may need to test whether an object overlaps a given drawing aspect of another object. They can determine whether the objects overlap by requesting a region or at least a bounding rectangle of the aspect in question. However, a quicker way to do this is to call <b>IViewObjectEx::QueryHitRect</b> to ask the object whether a given rectangle intersects one of its drawing aspects.
 
-<div class="alert"><b>Note</b>  Unlike <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-iviewobjectex-queryhitpoint">IViewObjectEx::QueryHitPoint</a>, this method does not return HITRESULT_TRANSPARENT or HITRESULT_CLOSE. It is strictly hit or miss, returning HITRESULT_OUTSIDE if no point in the rectangle is hit and HITRESULT_HIT if at least one point in the rectangle is a hit.</div>
+<div class="alert"><b>Note</b>  Unlike <a href="/windows/desktop/api/ocidl/nf-ocidl-iviewobjectex-queryhitpoint">IViewObjectEx::QueryHitPoint</a>, this method does not return HITRESULT_TRANSPARENT or HITRESULT_CLOSE. It is strictly hit or miss, returning HITRESULT_OUTSIDE if no point in the rectangle is hit and HITRESULT_HIT if at least one point in the rectangle is a hit.</div>
 <div> </div>
 <h3><a id="Notes_to_Implementers"></a><a id="notes_to_implementers"></a><a id="NOTES_TO_IMPLEMENTERS"></a>Notes to Implementers</h3>
-An object supporting <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-iviewobjectex">IViewObjectEx</a> is required to implement this method at least for the DVASPECT_CONTENT aspect. The object should not take any other action in response to this method other than to return the information; there should be no side-effects. If there is any ambiguity about whether a point is a hit, for instance due to coordinates not converting exactly, the object should return HITRESULT_HIT whenever any point in the rectangle might be a hit on the object. That is, it is permissible to claim a hit for a point that is not actually rendered, but never correct to claim a miss for any point that is in the rendered image of the object.
+An object supporting <a href="/windows/desktop/api/ocidl/nn-ocidl-iviewobjectex">IViewObjectEx</a> is required to implement this method at least for the DVASPECT_CONTENT aspect. The object should not take any other action in response to this method other than to return the information; there should be no side-effects. If there is any ambiguity about whether a point is a hit, for instance due to coordinates not converting exactly, the object should return HITRESULT_HIT whenever any point in the rectangle might be a hit on the object. That is, it is permissible to claim a hit for a point that is not actually rendered, but never correct to claim a miss for any point that is in the rendered image of the object.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/ne-ocidl-hitresult">HITRESULT</a>
+<a href="/windows/desktop/api/ocidl/ne-ocidl-hitresult">HITRESULT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-iviewobjectex">IViewObjectEx</a>
-
+<a href="/windows/desktop/api/ocidl/nn-ocidl-iviewobjectex">IViewObjectEx</a>

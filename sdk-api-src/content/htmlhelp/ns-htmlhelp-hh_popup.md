@@ -103,5 +103,4 @@ MS Sans Serif, 10, , BOLD
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/htmlhelp/about-structures">About Structures</a>
-
+<a href="/previous-versions/windows/desktop/htmlhelp/about-structures">About Structures</a>

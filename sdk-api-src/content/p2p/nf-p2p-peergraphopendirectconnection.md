@@ -64,7 +64,7 @@ Pointer to  the unique ID of a user or node to connect to. This parameter is use
 
 ### -param pAddress [in]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_address">PEER_ADDRESS</a> structure that contains the address of the node to  connect to.
+Pointer to a <a href="/windows/desktop/api/p2p/ns-p2p-peer_address">PEER_ADDRESS</a> structure that contains the address of the node to  connect to.
 
 ### -param pullConnectionId [out]
 
@@ -97,7 +97,7 @@ The handle to the graph is invalid.
 </dl>
 </td>
 <td width="60%">
-The graph must be  initialized with a call to <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergraphstartup">PeerGraphStartup</a>—before using this function.
+The graph must be  initialized with a call to <a href="/windows/desktop/api/p2p/nf-p2p-peergraphstartup">PeerGraphStartup</a>—before using this function.
 
 </td>
 </tr>
@@ -105,17 +105,16 @@ The graph must be  initialized with a call to <a href="https://docs.microsoft.co
 
 ## -remarks
 
-A call to <b>PeerGraphOpenDirectConnection</b> is an asynchronous call.  A <b>PEER_GRAPH_EVENT_DIRECT_CONNECTION</b> event is triggered to inform the application of the direct connection's success or failure. The actual status of the function's success or failure is given in the <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_graph_event_data">PEER_GRAPH_EVENT_DATA</a> structure.
+A call to <b>PeerGraphOpenDirectConnection</b> is an asynchronous call.  A <b>PEER_GRAPH_EVENT_DIRECT_CONNECTION</b> event is triggered to inform the application of the direct connection's success or failure. The actual status of the function's success or failure is given in the <a href="/windows/desktop/api/p2p/ns-p2p-peer_graph_event_data">PEER_GRAPH_EVENT_DATA</a> structure.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_address">PEER_ADDRESS</a>
+<a href="/windows/desktop/api/p2p/ns-p2p-peer_address">PEER_ADDRESS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergraphclosedirectconnection">PeerGraphCloseDirectConnection</a>
+<a href="/windows/desktop/api/p2p/nf-p2p-peergraphclosedirectconnection">PeerGraphCloseDirectConnection</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergraphenumconnections">PeerGraphEnumConnections</a>
-
+<a href="/windows/desktop/api/p2p/nf-p2p-peergraphenumconnections">PeerGraphEnumConnections</a>

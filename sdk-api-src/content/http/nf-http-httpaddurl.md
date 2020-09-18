@@ -53,23 +53,23 @@ api_name:
 The 
 <b>HttpAddUrl</b> function registers a given URL so that requests that match it are routed to a specified HTTP Server API request queue. An application can register multiple URLs to a single request queue using repeated calls to 
 <b>HttpAddUrl</b>. For more information about how HTTP Server API matches request URLs to registered URLs, see 
-<a href="https://docs.microsoft.com/windows/desktop/Http/urlprefix-strings">UrlPrefix Strings</a>.
+<a href="/windows/desktop/Http/urlprefix-strings">UrlPrefix Strings</a>.
 
-Starting with HTTP Server API Version 2.0,  applications should call <a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpaddurltourlgroup">HttpAddUrlToUrlGroup</a> to register a URL; <b>HttpAddUrl</b> should not be used.
+Starting with HTTP Server API Version 2.0,  applications should call <a href="/windows/desktop/api/http/nf-http-httpaddurltourlgroup">HttpAddUrlToUrlGroup</a> to register a URL; <b>HttpAddUrl</b> should not be used.
 
 ## -parameters
 
 ### -param RequestQueueHandle [in]
 
 The handle to the request queue to which requests for the specified URL are to be routed. A request queue is created and its handle returned by a call to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpcreaterequestqueue">HttpCreateRequestQueue</a> function.
+<a href="/windows/desktop/api/http/nf-http-httpcreaterequestqueue">HttpCreateRequestQueue</a> function.
 
-<b>Windows Server 2003 with SP1 and Windows XP with SP2:  </b>The handle to the request queue is created by the <a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpcreatehttphandle">HttpCreateHttpHandle</a> function.
+<b>Windows Server 2003 with SP1 and Windows XP with SP2:  </b>The handle to the request queue is created by the <a href="/windows/desktop/api/http/nf-http-httpcreatehttphandle">HttpCreateHttpHandle</a> function.
 
 ### -param FullyQualifiedUrl [in]
 
 A pointer to a Unicode string that contains a properly formed 
-<a href="https://docs.microsoft.com/windows/desktop/Http/urlprefix-strings">UrlPrefix string</a> that identifies the URL to be registered.
+<a href="/windows/desktop/Http/urlprefix-strings">UrlPrefix string</a> that identifies the URL to be registered.
 
 ### -param Reserved
 
@@ -105,7 +105,7 @@ The calling application does not have permission to register the URL.
 </td>
 <td width="60%">
 The calling application did not call 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpinitialize">HttpInitialize</a> before calling this function.
+<a href="/windows/desktop/api/http/nf-http-httpinitialize">HttpInitialize</a> before calling this function.
 
 </td>
 </tr>
@@ -149,7 +149,7 @@ Insufficient resources to complete the operation.
 </dl>
 </td>
 <td width="60%">
-A <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a> defined in WinError.h.
+A <a href="/windows/desktop/Debug/system-error-codes">system error code</a> defined in WinError.h.
 
 </td>
 </tr>
@@ -157,7 +157,7 @@ A <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">
 
 ## -remarks
 
-As stated in the <a href="https://docs.microsoft.com/windows/desktop/Http/urlprefix-strings">UrlPrefix Strings</a> topic, the scheme specification of the UrlPrefix to be registered must be either lower-case "http" or lower-case "https". No other substring is valid.
+As stated in the <a href="/windows/desktop/Http/urlprefix-strings">UrlPrefix Strings</a> topic, the scheme specification of the UrlPrefix to be registered must be either lower-case "http" or lower-case "https". No other substring is valid.
 
 Also, it is not possible to register URLs having different schemes on the same port. That is, "http" and "https" schemes cannot coexist on a port.
 
@@ -166,17 +166,16 @@ Also be aware that
 
 To release the resources allocated as a result of the registration performed by 
 <b>HttpAddUrl</b>, make a matching call to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpremoveurl">HttpRemoveUrl</a> function when your application has finished with the namespace involved.
+<a href="/windows/desktop/api/http/nf-http-httpremoveurl">HttpRemoveUrl</a> function when your application has finished with the namespace involved.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Http/http-server-api-version-1-0-functions">HTTP Server API Version 1.0 Functions</a>
+<a href="/windows/desktop/Http/http-server-api-version-1-0-functions">HTTP Server API Version 1.0 Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpaddurltourlgroup">HttpAddUrlToUrlGroup</a>
+<a href="/windows/desktop/api/http/nf-http-httpaddurltourlgroup">HttpAddUrlToUrlGroup</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpremoveurl">HttpRemoveUrl</a>
-
+<a href="/windows/desktop/api/http/nf-http-httpremoveurl">HttpRemoveUrl</a>

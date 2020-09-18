@@ -215,5 +215,4 @@ struct CD3D11_VIEWPORT : public D3D11_VIEWPORT
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3d11/cd3d11-helper-classes">CD3D11 Helper Structures</a>
-
+<a href="/windows/desktop/direct3d11/cd3d11-helper-classes">CD3D11 Helper Structures</a>

@@ -52,7 +52,7 @@ api_name:
 
 The 
 <b>lineProxyMessage</b> function is used by a registered proxy request handler to generate TAPI messages related to its role. For example, an ACD agent handler can use this function to generate 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/line-agentstatus">LINE_AGENTSTATUS</a> messages that are received by all applications that have the specified line open. TAPI suppresses generation of the message on the <i>hLine</i> specified in the function parameters.
+<a href="/windows/desktop/Tapi/line-agentstatus">LINE_AGENTSTATUS</a> messages that are received by all applications that have the specified line open. TAPI suppresses generation of the message on the <i>hLine</i> specified in the function parameters.
 
 ## -parameters
 
@@ -88,13 +88,12 @@ LINEERR_INVALLINEHANDLE, LINEERR_INVALCALLHANDLE, LINEERR_INVALPARAM, LINEERR_NO
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/line-agentstatus">LINE_AGENTSTATUS</a>
+<a href="/windows/desktop/Tapi/line-agentstatus">LINE_AGENTSTATUS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/supplementary-line-service-functions">Supplementary Line Service Functions</a>
+<a href="/windows/desktop/Tapi/supplementary-line-service-functions">Supplementary Line Service Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/tapi-2-2-reference">TAPI 2.2 Reference Overview</a>
-
+<a href="/windows/desktop/Tapi/tapi-2-2-reference">TAPI 2.2 Reference Overview</a>

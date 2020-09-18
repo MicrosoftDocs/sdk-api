@@ -66,5 +66,4 @@ The default selection key will choose the selection.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ctffunc/nf-ctffunc-itfintegratablecandidatelistuielement-getselectionstyle">GetSelectionStyle</a>
-
+<a href="/windows/desktop/api/ctffunc/nf-ctffunc-itfintegratablecandidatelistuielement-getselectionstyle">GetSelectionStyle</a>

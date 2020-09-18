@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-<div class="alert"><b>Important</b>  The <a href="https://docs.microsoft.com/windows-hardware/drivers/network/native-802-11-wireless-lan4">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="https://docs.microsoft.com/windows-hardware/drivers/network/wifi-universal-driver-model">WLAN Universal Windows driver model</a>.</div><div> </div>The L2_NOTIFICATION_DATA structure is used by the IHV Extensions DLL to send notifications to any
+<div class="alert"><b>Important</b>  The <a href="/windows-hardware/drivers/network/native-802-11-wireless-lan4">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="/windows-hardware/drivers/network/wifi-universal-driver-model">WLAN Universal Windows driver model</a>.</div><div> </div>The L2_NOTIFICATION_DATA structure is used by the IHV Extensions DLL to send notifications to any
   service or applications that has registered for the notification.
 
 ## -struct-fields
@@ -75,9 +75,9 @@ The globally unique identifier (GUID) for the wireless LAN (WLAN) adapter.
 
 The operating system passes the GUID and other data related to the WLAN adapter through the 
      <i>pDot11Adapter</i> parameter of the 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wlanihv/nc-wlanihv-dot11extihv_init_adapter">Dot11ExtIhvInitAdapter</a> function, which the operating system calls when it detects the arrival of
+     <a href="/windows-hardware/drivers/ddi/content/wlanihv/nc-wlanihv-dot11extihv_init_adapter">Dot11ExtIhvInitAdapter</a> function, which the operating system calls when it detects the arrival of
      the WLAN adapter. For more information about this operation, see 
-     <a href="https://docs.microsoft.com/windows/desktop/api/l2cmn/ns-l2cmn-l2_notification_data">802.11 WLAN Adapter
+     <a href="/windows/desktop/api/l2cmn/ns-l2cmn-l2_notification_data">802.11 WLAN Adapter
      Arrival</a>.
 
 ### -field dwDataSize
@@ -108,14 +108,13 @@ The application or service registers to receive notifications by calling the
     function, refer to the Microsoft Windows SDK documentation.
 
 The IHV Extensions DLL sends notifications to registered services or applications by calling the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wlanihv/nc-wlanihv-dot11ext_send_notification">Dot11ExtSendNotification</a> function. The service or application must register to receive
+    <a href="/windows-hardware/drivers/ddi/content/wlanihv/nc-wlanihv-dot11ext_send_notification">Dot11ExtSendNotification</a> function. The service or application must register to receive
     notifications from a source of L2_NOTIFICATION_SOURCE_WLAN_IHV.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wlanihv/nc-wlanihv-dot11extihv_init_adapter">Dot11ExtIhvInitAdapter</a>
+<a href="/windows-hardware/drivers/ddi/content/wlanihv/nc-wlanihv-dot11extihv_init_adapter">Dot11ExtIhvInitAdapter</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wlanihv/nc-wlanihv-dot11ext_send_notification">Dot11ExtSendNotification</a>
-
+<a href="/windows-hardware/drivers/ddi/content/wlanihv/nc-wlanihv-dot11ext_send_notification">Dot11ExtSendNotification</a>

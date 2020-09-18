@@ -64,7 +64,7 @@ A <b>GUID</b> that represents the known folder.
 
 Type: <b>const KNOWNFOLDER_DEFINITION*</b>
 
-A pointer to a valid <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ns-shobjidl_core-knownfolder_definition">KNOWNFOLDER_DEFINITION</a> structure that provides the details of the new folder.
+A pointer to a valid <a href="/windows/desktop/api/shobjidl_core/ns-shobjidl_core-knownfolder_definition">KNOWNFOLDER_DEFINITION</a> structure that provides the details of the new folder.
 
 ## -returns
 
@@ -76,9 +76,9 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 <div class="alert"><b>Note</b>  This method updates <b>HKEY_LOCAL_MACHINE</b> and therefore needs to be run in the context of an administrator. Setup programs need administrator privileges to register or unregister a known folder.</div>
 <div> </div>
-<b>IKnownFolderManager::RegisterFolder</b> attempts to verify that the new <a href="https://docs.microsoft.com/windows/desktop/shell/knownfolderid">KNOWNFOLDERID</a> does not refer to a file system path already pointed to by an existing <b>KNOWNFOLDERID</b>. If the new <b>KNOWNFOLDERID</b> is found to do so, this method fails.
+<b>IKnownFolderManager::RegisterFolder</b> attempts to verify that the new <a href="/windows/desktop/shell/knownfolderid">KNOWNFOLDERID</a> does not refer to a file system path already pointed to by an existing <b>KNOWNFOLDERID</b>. If the new <b>KNOWNFOLDERID</b> is found to do so, this method fails.
 
-Multiple <a href="https://docs.microsoft.com/windows/desktop/shell/knownfolderid">KNOWNFOLDERID</a> values for the same file system path can cause several issues, such as conflicts in the Desktop.ini file that lead to confusion as to what language or properties to show for the folder. Multiple <b>KNOWNFOLDERID</b> values can also cause confusion as to the address bar path or what tasks to show for the folder in Windows Explorer.
+Multiple <a href="/windows/desktop/shell/knownfolderid">KNOWNFOLDERID</a> values for the same file system path can cause several issues, such as conflicts in the Desktop.ini file that lead to confusion as to what language or properties to show for the folder. Multiple <b>KNOWNFOLDERID</b> values can also cause confusion as to the address bar path or what tasks to show for the folder in Windows Explorer.
 
 You can suppress the display of the <b>Customize</b> page of your known folder's Properties window. To do so, set the following registry REG_DWORD value:
 
@@ -95,13 +95,12 @@ You can suppress the display of the <b>Customize</b> page of your known folder's
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iknownfoldermanager">IKnownFolderManager</a>
+<a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iknownfoldermanager">IKnownFolderManager</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iknownfoldermanager-unregisterfolder">IKnownFolderManager::UnregisterFolder</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iknownfoldermanager-unregisterfolder">IKnownFolderManager::UnregisterFolder</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd940364(v=vs.85)">Known Folders Sample</a>
-
+<a href="/previous-versions/windows/desktop/legacy/dd940364(v=vs.85)">Known Folders Sample</a>

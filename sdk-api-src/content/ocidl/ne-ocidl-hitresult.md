@@ -74,9 +74,8 @@ The specified location is within the image of the object.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-iviewobjectex-queryhitpoint">IViewObjectEx::QueryHitPoint</a>
+<a href="/windows/desktop/api/ocidl/nf-ocidl-iviewobjectex-queryhitpoint">IViewObjectEx::QueryHitPoint</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-iviewobjectex-queryhitrect">IViewObjectEx::QueryHitRect</a>
-
+<a href="/windows/desktop/api/ocidl/nf-ocidl-iviewobjectex-queryhitrect">IViewObjectEx::QueryHitRect</a>

@@ -64,17 +64,16 @@ Sub type GUID of the media type. Can be MEDIASUBTYPE_NULL.
 
 ## -remarks
 
-This structure is used by the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ifiltermapper2">IFilterMapper2</a> interface to identify the media types that a pin supports. The equivalent <b>AMOVIESETUP_MEDIATYPE</b> type is used in class factory templates (<a href="https://docs.microsoft.com/windows/desktop/DirectShow/cfactorytemplate">CFactoryTemplate</a>).
+This structure is used by the <a href="/windows/desktop/api/strmif/nn-strmif-ifiltermapper2">IFilterMapper2</a> interface to identify the media types that a pin supports. The equivalent <b>AMOVIESETUP_MEDIATYPE</b> type is used in class factory templates (<a href="/windows/desktop/DirectShow/cfactorytemplate">CFactoryTemplate</a>).
 
 To register a range of subtypes within the same major type, use the value MEDIASUBTYPE_NULL.
 
-For more information, see <a href="https://docs.microsoft.com/windows/desktop/DirectShow/how-to-register-directshow-filters">How to Register DirectShow Filters</a>.
+For more information, see <a href="/windows/desktop/DirectShow/how-to-register-directshow-filters">How to Register DirectShow Filters</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/directshow-structures">DirectShow Structures</a>
+<a href="/windows/desktop/DirectShow/directshow-structures">DirectShow Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/media-types">Media Types</a>
-
+<a href="/windows/desktop/DirectShow/media-types">Media Types</a>

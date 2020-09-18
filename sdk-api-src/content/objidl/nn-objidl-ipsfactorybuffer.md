@@ -54,7 +54,7 @@ Provides custom methods for the creation of COM object proxies and stubs. This i
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPSFactoryBuffer</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPSFactoryBuffer</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPSFactoryBuffer</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPSFactoryBuffer</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IPSFactoryBuffer</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ipsfactorybuffer-createproxy">CreateProxy</a>
+<a href="/windows/desktop/api/objidl/nf-objidl-ipsfactorybuffer-createproxy">CreateProxy</a>
 </td>
 <td align="left" width="63%">
 Creates a proxy for the specified remote interface.
@@ -78,7 +78,7 @@ Creates a proxy for the specified remote interface.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ipsfactorybuffer-createstub">CreateStub</a>
+<a href="/windows/desktop/api/objidl/nf-objidl-ipsfactorybuffer-createstub">CreateStub</a>
 </td>
 <td align="left" width="63%">
 Creates a stub for the remote use of the specified interface.
@@ -89,13 +89,12 @@ Creates a stub for the remote use of the specified interface.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imarshal">IMarshal</a>
+<a href="/windows/desktop/api/objidl/nn-objidl-imarshal">IMarshal</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/com/proxy">Proxy</a>
+<a href="/windows/desktop/com/proxy">Proxy</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/com/stub">Stub</a>
-
+<a href="/windows/desktop/com/stub">Stub</a>

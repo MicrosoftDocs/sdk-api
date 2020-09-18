@@ -74,9 +74,8 @@ Use the
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netsh/nf-netsh-printerror">PrintError</a>
+<a href="/previous-versions/windows/desktop/api/netsh/nf-netsh-printerror">PrintError</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netsh/nf-netsh-printmessagefrommodule">PrintMessageFromModule</a>
-
+<a href="/previous-versions/windows/desktop/api/netsh/nf-netsh-printmessagefrommodule">PrintMessageFromModule</a>

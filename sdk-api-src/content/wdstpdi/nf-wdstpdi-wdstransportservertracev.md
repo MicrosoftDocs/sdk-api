@@ -56,7 +56,7 @@ Sends a  debugging message.
 
 ### -param hProvider [in]
 
-Handle to the provider. This handle was given to the provider in the <a href="https://docs.microsoft.com/windows/desktop/api/wdstpdi/nf-wdstpdi-wdstransportproviderinitialize">WdsTransportProviderInitialize</a> function.
+Handle to the provider. This handle was given to the provider in the <a href="/windows/desktop/api/wdstpdi/nf-wdstpdi-wdstransportproviderinitialize">WdsTransportProviderInitialize</a> function.
 
 ### -param Severity [in]
 
@@ -93,4 +93,3 @@ A list of parameters used by the formatted string.
 ## -returns
 
 If the function succeeds, the return is <b>S_OK</b>.
-

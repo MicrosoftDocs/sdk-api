@@ -57,36 +57,35 @@ api_name:
 
 ## -description
 
-Returns the <a href="https://docs.microsoft.com/windows/desktop/Intl/locale-identifiers">locale identifier</a> for the user default locale.
-<div class="alert"><b>Caution</b>  If the user default locale is a custom locale, an application cannot accurately tag data with the value or exchange it. In this case, the application should use  <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-getuserdefaultlocalename">GetUserDefaultLocaleName</a> in preference to <b>GetUserDefaultLCID</b>.</div><div> </div><div class="alert"><b>Note</b>  Applications that are intended to run only on Windows Vista and later should use <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-getuserdefaultlocalename">GetUserDefaultLocaleName</a>.</div><div> </div>
+Returns the <a href="/windows/desktop/Intl/locale-identifiers">locale identifier</a> for the user default locale.
+<div class="alert"><b>Caution</b>  If the user default locale is a custom locale, an application cannot accurately tag data with the value or exchange it. In this case, the application should use  <a href="/windows/desktop/api/winnls/nf-winnls-getuserdefaultlocalename">GetUserDefaultLocaleName</a> in preference to <b>GetUserDefaultLCID</b>.</div><div> </div><div class="alert"><b>Note</b>  Applications that are intended to run only on Windows Vista and later should use <a href="/windows/desktop/api/winnls/nf-winnls-getuserdefaultlocalename">GetUserDefaultLocaleName</a>.</div><div> </div>
 
 ## -parameters
 
 ## -returns
 
-Returns the locale identifier for the user default locale, represented as <a href="https://docs.microsoft.com/windows/desktop/Intl/locale-user-default">LOCALE_USER_DEFAULT</a>. If the user default locale is a custom locale, this function always returns <a href="https://docs.microsoft.com/windows/desktop/Intl/locale-custom-constants">LOCALE_CUSTOM_DEFAULT</a>, regardless of the custom locale that is selected. For example, whether the user locale is Hawaiian (US), haw-US, or Fijiian (Fiji), fj-FJ, the function returns the same value.
+Returns the locale identifier for the user default locale, represented as <a href="/windows/desktop/Intl/locale-user-default">LOCALE_USER_DEFAULT</a>. If the user default locale is a custom locale, this function always returns <a href="/windows/desktop/Intl/locale-custom-constants">LOCALE_CUSTOM_DEFAULT</a>, regardless of the custom locale that is selected. For example, whether the user locale is Hawaiian (US), haw-US, or Fijiian (Fiji), fj-FJ, the function returns the same value.
 
 ## -remarks
 
-This function can retrieve data from <a href="https://docs.microsoft.com/windows/desktop/Intl/custom-locales">custom locales</a>. Data is not guaranteed to be the same from computer to computer or between runs of an application. If your application must persist or transmit data, see <a href="https://docs.microsoft.com/windows/desktop/Intl/using-persistent-locale-data">Using Persistent Locale Data</a>.
+This function can retrieve data from <a href="/windows/desktop/Intl/custom-locales">custom locales</a>. Data is not guaranteed to be the same from computer to computer or between runs of an application. If your application must persist or transmit data, see <a href="/windows/desktop/Intl/using-persistent-locale-data">Using Persistent Locale Data</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-convertdefaultlocale">ConvertDefaultLocale</a>
+<a href="/windows/desktop/api/winnls/nf-winnls-convertdefaultlocale">ConvertDefaultLocale</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-getlocaleinfoa">GetLocaleInfo</a>
+<a href="/windows/desktop/api/winnls/nf-winnls-getlocaleinfoa">GetLocaleInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-getsystemdefaultlcid">GetSystemDefaultLCID</a>
+<a href="/windows/desktop/api/winnls/nf-winnls-getsystemdefaultlcid">GetSystemDefaultLCID</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-getuserdefaultlocalename">GetUserDefaultLocaleName</a>
+<a href="/windows/desktop/api/winnls/nf-winnls-getuserdefaultlocalename">GetUserDefaultLocaleName</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/national-language-support-functions">National Language Support Functions</a>
-
+<a href="/windows/desktop/Intl/national-language-support-functions">National Language Support Functions</a>

@@ -37,7 +37,7 @@ dev_langs:
 
 ## -description
 
-The **IHolographicQuadLayerInterop** interface is a nano-COM interface, used to create Direct3D 12 content buffers for a [HolographicQuadLayer](/uwp/api/windows.graphics.holographic.holographicquadlayer) Windows Runtime object. This is an initialization step for using Direct3D 12 with Windows Mixed Reality quad layers. It also allows your application to acquire ownership of content buffers for rendering, prior to committing them with the [**IHolographicQuadLayerUpdateParametersInterop**](/windows/win32/api/windows.graphics.holographic.interop/nn-windows-graphics-holographic-interop-iholographicquadlayerupdateparametersinterop) interface.
+The **IHolographicQuadLayerInterop** interface is a nano-COM interface, used to create Direct3D 12 content buffers for a [HolographicQuadLayer](/uwp/api/windows.graphics.holographic.holographicquadlayer) Windows Runtime object. This is an initialization step for using Direct3D 12 with Windows Mixed Reality quad layers. It also allows your application to acquire ownership of content buffers for rendering, prior to committing them with the [**IHolographicQuadLayerUpdateParametersInterop**](./nn-windows-graphics-holographic-interop-iholographicquadlayerupdateparametersinterop.md) interface.
 
 Your application can use **IHolographicQuadLayerInterop** to initialize Direct3D 12 content buffer resources for holographic quad layers. Nano-COM allows pointers to Direct3D 12 objects to be passed directly as parameters for API calls, instead of using a Windows Runtime container object.
 
@@ -47,7 +47,7 @@ A buffer created by a [HolographicQuadLayer](/uwp/api/windows.graphics.holograph
 
 ## -inheritance
 
-The **IHolographicQuadLayerInterop** interface inherits from the [IInspectable](/windows/win32/api/inspectable/nn-inspectable-iinspectable) interface.
+The **IHolographicQuadLayerInterop** interface inherits from the [IInspectable](../inspectable/nn-inspectable-iinspectable.md) interface.
 
 ## -remarks
 
@@ -77,7 +77,7 @@ if (!m_D3D12ContentBuffer[m_contentBufferIndex])
 }
 ```
 
-To use this interface in C++/CX, cast the [HolographicQuadLayer](/uwp/api/windows.graphics.holographic.holographicquadlayer) object to [IInspectable](/windows/win32/api/inspectable/nn-inspectable-iinspectable)\*. Then QueryInterface for the **IHolographicQuadLayerInterop** interface from the **IInspectable** pointer.
+To use this interface in C++/CX, cast the [HolographicQuadLayer](/uwp/api/windows.graphics.holographic.holographicquadlayer) object to [IInspectable](../inspectable/nn-inspectable-iinspectable.md)\*. Then QueryInterface for the **IHolographicQuadLayerInterop** interface from the **IInspectable** pointer.
 
 ```cppcx
 m_quadLayer = ref new HolographicQuadLayer();
@@ -104,4 +104,3 @@ if (!m_D3D12ContentBuffer[m_contentBufferIndex])
 ```
 
 ## -see-also
-

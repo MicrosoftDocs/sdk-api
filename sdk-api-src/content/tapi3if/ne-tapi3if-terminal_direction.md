@@ -77,25 +77,24 @@ The terminal direction is unknown or not initialized.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itstream-get_direction">ITStream::get_Direction</a>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itstream-get_direction">ITStream::get_Direction</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itstreamcontrol-createstream">ITStreamControl::CreateStream</a>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itstreamcontrol-createstream">ITStreamControl::CreateStream</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itterminal-get_direction">ITTerminal::get_Direction</a>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itterminal-get_direction">ITTerminal::get_Direction</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/termmgr/nf-termmgr-itterminalmanager-createdynamicterminal">ITTerminalManager::CreateDynamicTerminal</a>
+<a href="/windows/desktop/api/termmgr/nf-termmgr-itterminalmanager-createdynamicterminal">ITTerminalManager::CreateDynamicTerminal</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itterminalsupport-createterminal">ITTerminalSupport::CreateTerminal</a>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itterminalsupport-createterminal">ITTerminalSupport::CreateTerminal</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itterminalsupport-getdefaultstaticterminal">ITTerminalSupport::GetDefaultStaticTerminal</a>
-
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itterminalsupport-getdefaultstaticterminal">ITTerminalSupport::GetDefaultStaticTerminal</a>

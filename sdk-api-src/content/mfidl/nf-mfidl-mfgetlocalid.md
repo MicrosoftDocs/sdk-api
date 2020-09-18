@@ -64,7 +64,7 @@ Length in bytes of verifier.
 
 ### -param id [in]
 
-Returned ID string.  This value must be freed by the caller by calling <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a>.
+Returned ID string.  This value must be freed by the caller by calling <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a>.
 
 ## -returns
 
@@ -72,5 +72,4 @@ The function returns an <b>HRESULT</b>. Possible values include, but are not lim
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>
-
+<a href="/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>

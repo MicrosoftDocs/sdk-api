@@ -54,7 +54,7 @@ Implemented by the media engine to add encrypted media extensions methods.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFMediaEngineEME</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFMediaEngineEME</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFMediaEngineEME</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFMediaEngineEME</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IMFMediaEngineEME</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/medfound/imfmediaengineeme-get-keys">get_Keys</a>
+<a href="/windows/desktop/medfound/imfmediaengineeme-get-keys">get_Keys</a>
 </td>
 <td align="left" width="63%">
 Gets the media keys object associated with the media engine or <b>null</b> if there is not a media keys object.
@@ -78,7 +78,7 @@ Gets the media keys object associated with the media engine or <b>null</b> if th
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengineeme-setmediakeys">SetMediaKeys</a>
+<a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengineeme-setmediakeys">SetMediaKeys</a>
 </td>
 <td align="left" width="63%">
 Sets the media keys object to use with the media engine.
@@ -89,5 +89,4 @@ Sets the media keys object to use with the media engine.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
-
+<a href="/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>

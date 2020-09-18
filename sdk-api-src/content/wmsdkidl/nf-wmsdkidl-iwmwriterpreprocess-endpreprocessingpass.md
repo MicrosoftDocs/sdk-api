@@ -53,7 +53,7 @@ api_name:
 
 ## -description
 
-The <b>EndPreprocessingPass</b> method ends a preprocessing pass started with a call to <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriterpreprocess-beginpreprocessingpass">IWMWriterPreprocess::BeginPreprocessingPass</a>.
+The <b>EndPreprocessingPass</b> method ends a preprocessing pass started with a call to <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriterpreprocess-beginpreprocessingpass">IWMWriterPreprocess::BeginPreprocessingPass</a>.
 
 ## -parameters
 
@@ -126,5 +126,4 @@ There was an error ending the preprocessing path.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwriterpreprocess">IWMWriterPreprocess Interface</a>
-
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwriterpreprocess">IWMWriterPreprocess Interface</a>

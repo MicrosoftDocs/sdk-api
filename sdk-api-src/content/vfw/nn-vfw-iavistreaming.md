@@ -51,11 +51,11 @@ api_name:
 
 ## -description
 
-The <b>IAVIStreaming</b> interface supports preparing open data streams for playback in streaming operations. Uses <a href="https://docs.microsoft.com/previous-versions/dd757101(v=vs.85)">IUnknown::QueryInterface</a>, <a href="https://docs.microsoft.com/previous-versions/dd757100(v=vs.85)">IUnknown::AddRef</a>, <a href="https://docs.microsoft.com/previous-versions/dd757102(v=vs.85)">IUnknown::Release</a> in addition to the following custom methods:
+The <b>IAVIStreaming</b> interface supports preparing open data streams for playback in streaming operations. Uses <a href="/previous-versions/dd757101(v=vs.85)">IUnknown::QueryInterface</a>, <a href="/previous-versions/dd757100(v=vs.85)">IUnknown::AddRef</a>, <a href="/previous-versions/dd757102(v=vs.85)">IUnknown::Release</a> in addition to the following custom methods:
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAVIStreaming</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAVIStreaming</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAVIStreaming</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAVIStreaming</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>IAVIStreaming</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vfw/nf-vfw-iavistreaming-begin">Begin</a>
+<a href="/windows/desktop/api/vfw/nf-vfw-iavistreaming-begin">Begin</a>
 </td>
 <td align="left" width="63%">
 Prepares for the streaming operation.
@@ -79,7 +79,7 @@ Prepares for the streaming operation.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vfw/nf-vfw-iavistreaming-end">End</a>
+<a href="/windows/desktop/api/vfw/nf-vfw-iavistreaming-end">End</a>
 </td>
 <td align="left" width="63%">
 Ends the streaming operation.
@@ -90,9 +90,8 @@ Ends the streaming operation.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/custom-file-and-stream-handler-interfaces">Custom File and Stream Handler Interfaces</a>
+<a href="/windows/desktop/Multimedia/custom-file-and-stream-handler-interfaces">Custom File and Stream Handler Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/custom-file-and-stream-handlers">Custom File and Stream Handlers</a>
-
+<a href="/windows/desktop/Multimedia/custom-file-and-stream-handlers">Custom File and Stream Handlers</a>

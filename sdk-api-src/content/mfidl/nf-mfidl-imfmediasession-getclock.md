@@ -57,7 +57,7 @@ Retrieves the Media Session's presentation clock.
 
 ### -param ppClock [out]
 
-Receives a pointer to the presentation clock's <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfclock">IMFClock</a> interface. The caller must release the interface.
+Receives a pointer to the presentation clock's <a href="/windows/desktop/api/mfidl/nn-mfidl-imfclock">IMFClock</a> interface. The caller must release the interface.
 
 ## -returns
 
@@ -105,9 +105,8 @@ The Media Session has been shut down.
 
 ## -remarks
 
-The application can query the returned <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfclock">IMFClock</a> pointer for the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfpresentationclock">IMFPresentationClock</a> interface. However, the application should not use this interface to control the state of the presentation clock. Instead, the application should always call the transport control methods on the Media Session's <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfmediasession">IMFMediaSession</a> interface, such as <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfmediasession-start">Start</a>, <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfmediasession-stop">Stop</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfmediasession-pause">Pause</a>.
+The application can query the returned <a href="/windows/desktop/api/mfidl/nn-mfidl-imfclock">IMFClock</a> pointer for the <a href="/windows/desktop/api/mfidl/nn-mfidl-imfpresentationclock">IMFPresentationClock</a> interface. However, the application should not use this interface to control the state of the presentation clock. Instead, the application should always call the transport control methods on the Media Session's <a href="/windows/desktop/api/mfidl/nn-mfidl-imfmediasession">IMFMediaSession</a> interface, such as <a href="/windows/desktop/api/mfidl/nf-mfidl-imfmediasession-start">Start</a>, <a href="/windows/desktop/api/mfidl/nf-mfidl-imfmediasession-stop">Stop</a>, and <a href="/windows/desktop/api/mfidl/nf-mfidl-imfmediasession-pause">Pause</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfmediasession">IMFMediaSession</a>
-
+<a href="/windows/desktop/api/mfidl/nn-mfidl-imfmediasession">IMFMediaSession</a>

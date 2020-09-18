@@ -68,9 +68,9 @@ The size of the <i>pHeader</i> buffer.
 
 ### -param pHeader [in, out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wincodecsdk/ns-wincodecsdk-wicmetadataheader">WICMetadataHeader</a>*</b>
+Type: <b><a href="/windows/desktop/api/wincodecsdk/ns-wincodecsdk-wicmetadataheader">WICMetadataHeader</a>*</b>
 
-Pointer that receives the <a href="https://docs.microsoft.com/windows/desktop/api/wincodecsdk/ns-wincodecsdk-wicmetadataheader">WICMetadataHeader</a>.
+Pointer that receives the <a href="/windows/desktop/api/wincodecsdk/ns-wincodecsdk-wicmetadataheader">WICMetadataHeader</a>.
 
 ### -param pcbActual [in, out]
 
@@ -83,4 +83,3 @@ The actual size of the header.
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-

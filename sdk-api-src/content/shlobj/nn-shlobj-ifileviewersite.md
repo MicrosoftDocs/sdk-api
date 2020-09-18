@@ -54,7 +54,7 @@ Exposes methods that designate an interface that allows a file viewer to retriev
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFileViewerSite</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IFileViewerSite</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFileViewerSite</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IFileViewerSite</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IFileViewerSite</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shlobj/nf-shlobj-ifileviewersite-getpinnedwindow">GetPinnedWindow</a>
+<a href="/windows/desktop/api/shlobj/nf-shlobj-ifileviewersite-getpinnedwindow">GetPinnedWindow</a>
 </td>
 <td align="left" width="63%">
 Gets the handle to the current pinned window, if one exists.
@@ -78,7 +78,7 @@ Gets the handle to the current pinned window, if one exists.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shlobj/nf-shlobj-ifileviewersite-setpinnedwindow">SetPinnedWindow</a>
+<a href="/windows/desktop/api/shlobj/nf-shlobj-ifileviewersite-setpinnedwindow">SetPinnedWindow</a>
 </td>
 <td align="left" width="63%">
 Sets the pinned window. When the user selects a new file to view, the Shell directs the file viewer to display the new file in the pinned window instead of creating a new window.
@@ -94,4 +94,3 @@ Sets the pinned window. When the user selects a new file to view, the Shell dire
 You do not typically implement this interface. The Shell implements this interface to provide a pinned window for the file viewer.
 
 You use this interface to obtain or set the window for a file viewer.
-

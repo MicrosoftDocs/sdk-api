@@ -60,5 +60,4 @@ This method returns the new reference count.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-iprocesslock">IProcessLock</a>
-
+<a href="/windows/desktop/api/objidl/nn-objidl-iprocesslock">IProcessLock</a>

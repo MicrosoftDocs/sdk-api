@@ -51,13 +51,13 @@ api_name:
 
 ## -description
 
-The <b>IFaxServerNotify2</b> interface is used for fax notifications. The fax service calls <b>IFaxServerNotify2</b> to send fax event notifications. Events include changes to fax server configuration and activity, changes to incoming and outgoing job queues, and changes to incoming and outgoing archives. For more information, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-registering-for-event-notifications">Registering for Event Notifications</a>.
+The <b>IFaxServerNotify2</b> interface is used for fax notifications. The fax service calls <b>IFaxServerNotify2</b> to send fax event notifications. Events include changes to fax server configuration and activity, changes to incoming and outgoing job queues, and changes to incoming and outgoing archives. For more information, see <a href="/previous-versions/windows/desktop/fax/-mfax-registering-for-event-notifications">Registering for Event Notifications</a>.
 
-The <b>IFaxServerNotify2</b> interface supports all the same methods as the <a href="https://docs.microsoft.com/windows/desktop/api/faxcomex/nn-faxcomex-ifaxservernotify2">IFaxServerNotify</a> interface and the additional method <a href="/windows/win32/api/faxcomex/nf-faxcomex-_ifaxservernotify2-ongeneralserverconfigchanged">OnGeneralServerConfigChanged</a>.
+The <b>IFaxServerNotify2</b> interface supports all the same methods as the <a href="/windows/desktop/api/faxcomex/nn-faxcomex-ifaxservernotify2">IFaxServerNotify</a> interface and the additional method <a href="/windows/win32/api/faxcomex/nf-faxcomex-_ifaxservernotify2-ongeneralserverconfigchanged">OnGeneralServerConfigChanged</a>.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFaxServerNotify2</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IFaxServerNotify2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFaxServerNotify2</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IFaxServerNotify2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -111,7 +111,7 @@ The fax service calls the <a href="/windows/win32/api/faxcomex/nf-faxcomex-_ifax
 <a href="/windows/win32/api/faxcomex/nf-faxcomex-_ifaxservernotify2-ongeneralserverconfigchanged">OnGeneralServerConfigChanged</a>
 </td>
 <td align="left" width="63%">
-Called by the fax service when the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxserver2-configuration-vb">IFaxServer2::Configuration</a> property changes.
+Called by the fax service when the <a href="/previous-versions/windows/desktop/fax/-mfax-faxserver2-configuration-vb">IFaxServer2::Configuration</a> property changes.
 
 </td>
 </tr>
@@ -324,9 +324,8 @@ Dim WithEvents objFaxServer2 As FaxServer2
 
 
 
-For an example, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-registering-for-fax-events">Registering for Fax Events</a>.
+For an example, see <a href="/previous-versions/windows/desktop/fax/-mfax-registering-for-fax-events">Registering for Fax Events</a>.
             
 
 <h3><a id="To_Use_Fax_Notification_Events_with_C__"></a><a id="to_use_fax_notification_events_with_c__"></a><a id="TO_USE_FAX_NOTIFICATION_EVENTS_WITH_C__"></a>To Use Fax Notification Events with C++</h3>
 A fax client application must implement <b>IFaxServerNotify2</b> and pass the fax service the pointer to an <b>IFaxServerNotify2</b> interface.
-

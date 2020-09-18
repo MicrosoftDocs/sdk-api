@@ -54,15 +54,14 @@ api_name:
 
 <p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
 
-Specifies what kind of operation will be done on a handle. currently used with the <a href="https://docs.microsoft.com/windows/desktop/ETW/querytraceprocessinghandle">QueryTraceProcessingHandle</a> function.
+Specifies what kind of operation will be done on a handle. currently used with the <a href="/windows/desktop/ETW/querytraceprocessinghandle">QueryTraceProcessingHandle</a> function.
 
 ## -enum-fields
 
 ### -field EtwQueryPartitionInformation
 
-Used to query partition identifying information.  <i>InBuffer</i> should be Null.  <i>OutBuffer</i> should be large enough to hold the returned <a href="https://docs.microsoft.com/windows/desktop/ETW/etw-trace-partition-information">ETW_TRACE_PARTITION_INFORMATION</a> structure.  Note that this will only return a non-zero structure when the queried handle is for a trace file generated from a non-host partition on Windows 10, version 1709.
+Used to query partition identifying information.  <i>InBuffer</i> should be Null.  <i>OutBuffer</i> should be large enough to hold the returned <a href="/windows/desktop/ETW/etw-trace-partition-information">ETW_TRACE_PARTITION_INFORMATION</a> structure.  Note that this will only return a non-zero structure when the queried handle is for a trace file generated from a non-host partition on Windows 10, version 1709.
 
 ### -field EtwQueryProcessHandleInfoMax
 
 Marks the last value in the enumeration for testing purposes.  Should not be used.
-

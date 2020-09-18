@@ -57,9 +57,9 @@ Signals Direct3D to stop recording a device-state block and retrieve a pointer t
 
 ### -param ppSB [in, retval]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3dstateblock9">IDirect3DStateBlock9</a>**</b>
+Type: <b><a href="/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3dstateblock9">IDirect3DStateBlock9</a>**</b>
 
-Pointer to a state block interface. See <a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3dstateblock9">IDirect3DStateBlock9</a>.
+Pointer to a state block interface. See <a href="/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3dstateblock9">IDirect3DStateBlock9</a>.
 
 ## -returns
 
@@ -70,13 +70,12 @@ If the method succeeds, the return value is D3D_OK. If the method fails, the ret
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3ddevice9">IDirect3DDevice9</a>
+<a href="/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3ddevice9">IDirect3DDevice9</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-beginstateblock">IDirect3DDevice9::BeginStateBlock</a>
+<a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-beginstateblock">IDirect3DDevice9::BeginStateBlock</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-createstateblock">IDirect3DDevice9::CreateStateBlock</a>
-
+<a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-createstateblock">IDirect3DDevice9::CreateStateBlock</a>

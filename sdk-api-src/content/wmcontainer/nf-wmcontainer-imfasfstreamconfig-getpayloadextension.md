@@ -57,11 +57,11 @@ Retrieves information about an existing payload extension.
 
 ### -param wPayloadExtensionNumber [in]
 
-The payload extension index. Valid indexes range from 0, to one less than the number of extensions obtained by calling <a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfstreamconfig-getpayloadextensioncount">IMFASFStreamConfig::GetPayloadExtensionCount</a>.
+The payload extension index. Valid indexes range from 0, to one less than the number of extensions obtained by calling <a href="/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfstreamconfig-getpayloadextensioncount">IMFASFStreamConfig::GetPayloadExtensionCount</a>.
 
 ### -param pguidExtensionSystemID [out]
 
-Receives a GUID that identifies the payload extension. For a list of predefined payload extensions, see <a href="https://docs.microsoft.com/windows/desktop/medfound/asf-payload-extension-guids">ASF Payload Extension GUIDs</a>. Applications can also define custom payload extensions.
+Receives a GUID that identifies the payload extension. For a list of predefined payload extensions, see <a href="/windows/desktop/medfound/asf-payload-extension-guids">ASF Payload Extension GUIDs</a>. Applications can also define custom payload extensions.
 
 ### -param pcbExtensionDataSize [out]
 
@@ -132,13 +132,12 @@ The <i>wPayloadExtensionNumber</i> parameter is out of range.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nn-wmcontainer-imfasfstreamconfig">IMFASFStreamConfig</a>
+<a href="/windows/desktop/api/wmcontainer/nn-wmcontainer-imfasfstreamconfig">IMFASFStreamConfig</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfstreamconfig-addpayloadextension">IMFASFStreamConfig::AddPayloadExtension</a>
+<a href="/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfstreamconfig-addpayloadextension">IMFASFStreamConfig::AddPayloadExtension</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfstreamconfig-getpayloadextensioncount">IMFASFStreamConfig::GetPayloadExtensionCount</a>
-
+<a href="/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfstreamconfig-getpayloadextensioncount">IMFASFStreamConfig::GetPayloadExtensionCount</a>

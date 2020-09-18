@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Gets a code  from a  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-ieslicenserenewalresultevent">LicenseRenewalResult</a> event that indicates the result of an attempt to descramble protected content.
+Gets a code  from a  <a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-ieslicenserenewalresultevent">LicenseRenewalResult</a> event that indicates the result of an attempt to descramble protected content.
 
 ## -parameters
 
@@ -390,5 +390,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-ieslicenserenewalresultevent">IESLicenseRenewalResultEvent</a>
-
+<a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-ieslicenserenewalresultevent">IESLicenseRenewalResultEvent</a>

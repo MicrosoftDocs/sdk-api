@@ -49,17 +49,17 @@ api_name:
 
 ## -description
 
-Test the [BoundingFrustum](/windows/win32/api/directxcollision/ns-directxcollision-boundingfrustum) for intersection with another <b>BoundingFrustum</b>.
+Test the [BoundingFrustum](./ns-directxcollision-boundingfrustum.md) for intersection with another <b>BoundingFrustum</b>.
 
 ## -parameters
 
 ### -param fr [in, ref]
 
-The [BoundingFrustum](/windows/win32/api/directxcollision/ns-directxcollision-boundingfrustum) to test for intersection.
+The [BoundingFrustum](./ns-directxcollision-boundingfrustum.md) to test for intersection.
 
 ## -returns
 
-A bool value indicating whether the [BoundingFrustum](/windows/win32/api/directxcollision/ns-directxcollision-boundingfrustum) intersects the specified <b>BoundingFrustum</b>.
+A bool value indicating whether the [BoundingFrustum](./ns-directxcollision-boundingfrustum.md) intersects the specified <b>BoundingFrustum</b>.
 
 ## -remarks
 
@@ -68,7 +68,7 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 ## -see-also
 
-[BoundingFrustum](/windows/win32/api/directxcollision/ns-directxcollision-boundingfrustum)
+[BoundingFrustum](./ns-directxcollision-boundingfrustum.md)
 
 
 
@@ -77,4 +77,3 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 <b>Reference</b>
-

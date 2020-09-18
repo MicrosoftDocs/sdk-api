@@ -78,5 +78,4 @@ Payloads contain only developer-defined data.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/relogger/nn-relogger-itraceevent">ITraceEvent</a>
-
+<a href="/windows/desktop/api/relogger/nn-relogger-itraceevent">ITraceEvent</a>

@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Initializes a new instance of <a href="https://docs.microsoft.com/windows/desktop/api/directxmath/ns-directxmath-xmuint3">XMUINT3</a> from a three element <code>uint32_t</code> array argument.
+Initializes a new instance of <a href="/windows/desktop/api/directxmath/ns-directxmath-xmuint3">XMUINT3</a> from a three element <code>uint32_t</code> array argument.
 
 This constructor initializes a new instance of **XMUINT3** from a three-element <code>uint32_t</code> array argument.
 
@@ -75,7 +75,6 @@ instance.z =  pArray[2];
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/directxmath/ns-directxmath-xmuint3">XMUINT3</a>
+<a href="/windows/desktop/api/directxmath/ns-directxmath-xmuint3">XMUINT3</a>
 
-<a href="https://docs.microsoft.com/windows/desktop/api/directxmath/nf-directxmath-xmuint3-xmuint3(constuint32_t)">XMUINT3 Constructors</a>
-
+<a href="/windows/desktop/api/directxmath/nf-directxmath-xmuint3-xmuint3(constuint32_t)">XMUINT3 Constructors</a>

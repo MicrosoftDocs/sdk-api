@@ -64,19 +64,18 @@ Returns S_OK if successful.
 
 ## -remarks
 
-If the variant type is VT_DISPATCH, pass the <b>IDispatch</b> interface of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nn-pla-idatacollectorset">IDataCollectorSet</a> to be removed.
+If the variant type is VT_DISPATCH, pass the <b>IDispatch</b> interface of the <a href="/previous-versions/windows/desktop/api/pla/nn-pla-idatacollectorset">IDataCollectorSet</a> to be removed.
 
 Note that by removing the set from the collection, you are also deleting the set from the hard disk.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nn-pla-idatacollectorsetcollection">IDataCollectorSetCollection</a>
+<a href="/previous-versions/windows/desktop/api/pla/nn-pla-idatacollectorsetcollection">IDataCollectorSetCollection</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorsetcollection-add">IDataCollectorSetCollection::Add</a>
+<a href="/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorsetcollection-add">IDataCollectorSetCollection::Add</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorsetcollection-clear">IDataCollectorSetCollection::Clear</a>
-
+<a href="/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorsetcollection-clear">IDataCollectorSetCollection::Clear</a>

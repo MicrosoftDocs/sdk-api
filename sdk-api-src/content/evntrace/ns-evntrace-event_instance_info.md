@@ -71,9 +71,8 @@ Be sure to initialize the memory for this structure to zero before setting any m
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/ETW/createtraceinstanceid">CreateTraceInstanceId</a>
+<a href="/windows/desktop/ETW/createtraceinstanceid">CreateTraceInstanceId</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/ETW/traceeventinstance">TraceEventInstance</a>
-
+<a href="/windows/desktop/ETW/traceeventinstance">TraceEventInstance</a>

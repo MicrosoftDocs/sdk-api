@@ -97,5 +97,4 @@ Call this method when an interface registered in the global interface table obje
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-iglobalinterfacetable">IGlobalInterfaceTable</a>
-
+<a href="/windows/desktop/api/objidl/nn-objidl-iglobalinterfacetable">IGlobalInterfaceTable</a>

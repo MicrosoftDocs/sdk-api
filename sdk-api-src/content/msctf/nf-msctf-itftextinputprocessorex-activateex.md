@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>ITfTextInputProcessorEx::ActivateEx</b> method activates a text service when a user session starts. If the text service implements <b>ITfTextInputProcessorEx</b> and <b>ActivateEx</b> is called, <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itftextinputprocessor-activate">ITfTextInputProcessor::Activate</a> will not be called.
+The <b>ITfTextInputProcessorEx::ActivateEx</b> method activates a text service when a user session starts. If the text service implements <b>ITfTextInputProcessorEx</b> and <b>ActivateEx</b> is called, <a href="/windows/desktop/api/msctf/nf-msctf-itftextinputprocessor-activate">ITfTextInputProcessor::Activate</a> will not be called.
 
 ## -parameters
 
@@ -116,4 +116,3 @@ A text service is activated for console usage.
 ## -returns
 
 The TSF manager ignores the return value of this method.
-

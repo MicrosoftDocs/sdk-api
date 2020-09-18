@@ -61,8 +61,8 @@ The <b>CredUIParseUserName</b> function extracts the domain and user account nam
 ### -param userName [in]
 
 Pointer to a <b>null</b>-terminated string that contains the user name to be parsed. The name must be in UPN or down-level format, or a certificate. Typically, <i>pszUserName</i> is received from the 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincred/nf-wincred-creduipromptforcredentialsa">CredUIPromptForCredentials</a> or 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincred/nf-wincred-creduicmdlinepromptforcredentialsa">CredUICmdLinePromptForCredentials</a>.
+<a href="/windows/desktop/api/wincred/nf-wincred-creduipromptforcredentialsa">CredUIPromptForCredentials</a> or 
+<a href="/windows/desktop/api/wincred/nf-wincred-creduicmdlinepromptforcredentialsa">CredUICmdLinePromptForCredentials</a>.
 
 ### -param user [out]
 
@@ -128,8 +128,8 @@ One of the buffers is too small.
 ## -remarks
 
 This function parses the user name information returned by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincred/nf-wincred-creduipromptforcredentialsa">CredUIPromptForCredentials</a> and 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincred/nf-wincred-creduicmdlinepromptforcredentialsa">CredUICmdLinePromptForCredentials</a> functions so that the resulting credentials can be passed to functions, such as <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-logonusera">LogonUser</a>, that require the user name and domain as separate strings.
+<a href="/windows/desktop/api/wincred/nf-wincred-creduipromptforcredentialsa">CredUIPromptForCredentials</a> and 
+<a href="/windows/desktop/api/wincred/nf-wincred-creduicmdlinepromptforcredentialsa">CredUICmdLinePromptForCredentials</a> functions so that the resulting credentials can be passed to functions, such as <a href="/windows/desktop/api/winbase/nf-winbase-logonusera">LogonUser</a>, that require the user name and domain as separate strings.
 
 The following formats are supported:
 
@@ -138,7 +138,7 @@ The following formats are supported:
 
 
 Marshaled credential reference as defined by 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincred/nf-wincred-credismarshaledcredentiala">CredIsMarshaledCredential</a>. Such a credential is returned in the <i>User</i> parameter. The <i>Domain</i> parameter is set to an empty string.
+<a href="/windows/desktop/api/wincred/nf-wincred-credismarshaledcredentiala">CredIsMarshaledCredential</a>. Such a credential is returned in the <i>User</i> parameter. The <i>Domain</i> parameter is set to an empty string.
 
 </li>
 <li>&lt;DomainName&gt;\&lt;UserName&gt; 
@@ -163,17 +163,16 @@ The entire string is returned in the <i>User</i> parameter. The <i>Domain</i> pa
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincred/nf-wincred-credismarshaledcredentiala">CredIsMarshaledCredential</a>
+<a href="/windows/desktop/api/wincred/nf-wincred-credismarshaledcredentiala">CredIsMarshaledCredential</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincred/nf-wincred-creduicmdlinepromptforcredentialsa">CredUICmdLinePromptForCredentials</a>
+<a href="/windows/desktop/api/wincred/nf-wincred-creduicmdlinepromptforcredentialsa">CredUICmdLinePromptForCredentials</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincred/nf-wincred-creduipromptforcredentialsa">CredUIPromptForCredentials</a>
+<a href="/windows/desktop/api/wincred/nf-wincred-creduipromptforcredentialsa">CredUIPromptForCredentials</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-logonusera">LogonUser</a>
-
+<a href="/windows/desktop/api/winbase/nf-winbase-logonusera">LogonUser</a>

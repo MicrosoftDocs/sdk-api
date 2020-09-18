@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Allocates space for the border requested in the call to <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleinplaceuiwindow-requestborderspace">IOleInPlaceUIWindow::RequestBorderSpace</a>.
+Allocates space for the border requested in the call to <a href="/windows/desktop/api/oleidl/nf-oleidl-ioleinplaceuiwindow-requestborderspace">IOleInPlaceUIWindow::RequestBorderSpace</a>.
 
 ## -parameters
 
 ### -param pborderwidths [in]
 
-Pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/cc136564(v=vs.85)">BORDERWIDTHS</a> structure containing the requested width of the tools, in pixels. It can be <b>NULL</b>, indicating the object does not need any space.
+Pointer to a <a href="/previous-versions/windows/desktop/legacy/cc136564(v=vs.85)">BORDERWIDTHS</a> structure containing the requested width of the tools, in pixels. It can be <b>NULL</b>, indicating the object does not need any space.
 
 ## -returns
 
@@ -74,7 +74,7 @@ This method returns S_OK on success. Other possible return values include the fo
 </dl>
 </td>
 <td width="60%">
-The rectangle does not lie within the specifications returned by <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleinplaceuiwindow-getborder">IOleInPlaceUIWindow::GetBorder</a>.
+The rectangle does not lie within the specifications returned by <a href="/windows/desktop/api/oleidl/nf-oleidl-ioleinplaceuiwindow-getborder">IOleInPlaceUIWindow::GetBorder</a>.
 
 </td>
 </tr>
@@ -86,25 +86,24 @@ The object must call <b>IOleInPlaceUIWindow::SetBorderSpace</b>. It can do any o
 
 <ul>
 <li>Use its own toolbars, requesting border space of a specific size.</li>
-<li>Use no toolbars, but force the container to remove its toolbars by passing a valid <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/cc136564(v=vs.85)">BORDERWIDTHS</a> structure containing nothing but zeros in the <i>pborderwidths</i> parameter.</li>
+<li>Use no toolbars, but force the container to remove its toolbars by passing a valid <a href="/previous-versions/windows/desktop/legacy/cc136564(v=vs.85)">BORDERWIDTHS</a> structure containing nothing but zeros in the <i>pborderwidths</i> parameter.</li>
 <li>Use no toolbars but allow the in-place container to leave its toolbars up by passing <b>NULL</b> as the <i>pborderwidths</i> parameter.</li>
 </ul>
-The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/cc136564(v=vs.85)">BORDERWIDTHS</a> structure used in this call would generally have been passed in a previous call to <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleinplaceuiwindow-requestborderspace">IOleInPlaceUIWindow::RequestBorderSpace</a>, which must have returned S_OK.
+The <a href="/previous-versions/windows/desktop/legacy/cc136564(v=vs.85)">BORDERWIDTHS</a> structure used in this call would generally have been passed in a previous call to <a href="/windows/desktop/api/oleidl/nf-oleidl-ioleinplaceuiwindow-requestborderspace">IOleInPlaceUIWindow::RequestBorderSpace</a>, which must have returned S_OK.
 
-If an object must renegotiate space on the border, it can call <b>IOleInPlaceUIWindow::SetBorderSpace</b> again with the new widths. If the call to <b>IOleInPlaceUIWindow::SetBorderSpace</b> fails, the object can do a full negotiation for border space with calls to <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleinplaceuiwindow-getborder">IOleInPlaceUIWindow::GetBorder</a>, <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleinplaceuiwindow-requestborderspace">IOleInPlaceUIWindow::RequestBorderSpace</a>, and <b>IOleInPlaceUIWindow::SetBorderSpace</b>.
+If an object must renegotiate space on the border, it can call <b>IOleInPlaceUIWindow::SetBorderSpace</b> again with the new widths. If the call to <b>IOleInPlaceUIWindow::SetBorderSpace</b> fails, the object can do a full negotiation for border space with calls to <a href="/windows/desktop/api/oleidl/nf-oleidl-ioleinplaceuiwindow-getborder">IOleInPlaceUIWindow::GetBorder</a>, <a href="/windows/desktop/api/oleidl/nf-oleidl-ioleinplaceuiwindow-requestborderspace">IOleInPlaceUIWindow::RequestBorderSpace</a>, and <b>IOleInPlaceUIWindow::SetBorderSpace</b>.
 
-<div class="alert"><b>Note</b>  While executing <b>IOleInPlaceUIWindow::SetBorderSpace</b>, do not make calls to the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-peekmessagea">PeekMessage</a> or <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxaccountincomingarchive-getmessage-vb">GetMessage</a> functions, or a dialog box. Doing so may cause the system to deadlock. There are further restrictions on which OLE interface methods and functions can be called from within <b>IOleInPlaceUIWindow::SetBorderSpace</b>.</div>
+<div class="alert"><b>Note</b>  While executing <b>IOleInPlaceUIWindow::SetBorderSpace</b>, do not make calls to the <a href="/windows/desktop/api/winuser/nf-winuser-peekmessagea">PeekMessage</a> or <a href="/previous-versions/windows/desktop/fax/-mfax-faxaccountincomingarchive-getmessage-vb">GetMessage</a> functions, or a dialog box. Doing so may cause the system to deadlock. There are further restrictions on which OLE interface methods and functions can be called from within <b>IOleInPlaceUIWindow::SetBorderSpace</b>.</div>
 <div> </div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-ioleinplaceuiwindow">IOleInPlaceUIWindow</a>
+<a href="/windows/desktop/api/oleidl/nn-oleidl-ioleinplaceuiwindow">IOleInPlaceUIWindow</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleinplaceuiwindow-getborder">IOleInPlaceUIWindow::GetBorder</a>
+<a href="/windows/desktop/api/oleidl/nf-oleidl-ioleinplaceuiwindow-getborder">IOleInPlaceUIWindow::GetBorder</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleinplaceuiwindow-requestborderspace">IOleInPlaceUIWindow::RequestBorderSpace</a>
-
+<a href="/windows/desktop/api/oleidl/nf-oleidl-ioleinplaceuiwindow-requestborderspace">IOleInPlaceUIWindow::RequestBorderSpace</a>

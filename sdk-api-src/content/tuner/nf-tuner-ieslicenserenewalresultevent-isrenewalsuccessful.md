@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
- Gets a flag from a  <b>LicenseRenewalResult</b> event that indicates whether the renewal was successful. In the event of failure, a client can call the  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-ieslicenserenewalresultevent-getrenewalresultcode">GetRenewalResultCode</a> or <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-ieslicenserenewalresultevent-getrenewalhresult">GetRenewalHResult</a> method to get information about the reason for the failure.
+ Gets a flag from a  <b>LicenseRenewalResult</b> event that indicates whether the renewal was successful. In the event of failure, a client can call the  <a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-ieslicenserenewalresultevent-getrenewalresultcode">GetRenewalResultCode</a> or <a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-ieslicenserenewalresultevent-getrenewalhresult">GetRenewalHResult</a> method to get information about the reason for the failure.
 
 ## -parameters
 
@@ -64,13 +64,12 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-ieslicenserenewalresultevent-getrenewalhresult">GetRenewalHResult</a>
+<a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-ieslicenserenewalresultevent-getrenewalhresult">GetRenewalHResult</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-ieslicenserenewalresultevent-getrenewalresultcode">GetRenewalResultCode</a>
+<a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-ieslicenserenewalresultevent-getrenewalresultcode">GetRenewalResultCode</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-ieslicenserenewalresultevent">IESLicenseRenewalResultEvent</a>
-
+<a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-ieslicenserenewalresultevent">IESLicenseRenewalResultEvent</a>

@@ -56,24 +56,23 @@ Expands strings containing unexpanded references to environment variables. The <
 
 ### -param pszSrc [in]
 
-Pointer to a null-terminated Unicode string containing unexpanded references to environment variables (an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/e-gly">expandable string</a>).
+Pointer to a null-terminated Unicode string containing unexpanded references to environment variables (an <a href="/previous-versions/windows/desktop/mscs/e-gly">expandable string</a>).
 
 ## -returns
 
-If the operation succeeds, the function returns a pointer to the expanded string (REG_EXPAND_SZ). The function allocates the necessary memory with <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localalloc">LocalAlloc</a>. To prevent memory leaks, be sure to release the memory with <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localfree">LocalFree</a>.
+If the operation succeeds, the function returns a pointer to the expanded string (REG_EXPAND_SZ). The function allocates the necessary memory with <a href="/windows/desktop/api/winbase/nf-winbase-localalloc">LocalAlloc</a>. To prevent memory leaks, be sure to release the memory with <a href="/windows/desktop/api/winbase/nf-winbase-localfree">LocalFree</a>.
 
 If the operation fails, the function returns <b>NULL</b>.
-     For more information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+     For more information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/resapi/nf-resapi-resutilfindexpandszproperty">ResUtilFindExpandSzProperty</a>
+<a href="/windows/desktop/api/resapi/nf-resapi-resutilfindexpandszproperty">ResUtilFindExpandSzProperty</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/resapi/nf-resapi-resutilgetenvironmentwithnetname">ResUtilGetEnvironmentWithNetName</a>
+<a href="/windows/desktop/api/resapi/nf-resapi-resutilgetenvironmentwithnetname">ResUtilGetEnvironmentWithNetName</a>
 
 
 
-[ResUtilGetExpandSzValue](/windows/win32/api/resapi/nf-resapi-resutilgetexpandszvalue)
-
+[ResUtilGetExpandSzValue](./nf-resapi-resutilgetexpandszvalue.md)

@@ -74,10 +74,9 @@ See the Bluetooth specification at
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Bluetooth/bluetooth-and-wsalookupservicebegin-for-device-inquiry">Bluetooth and WSALookupServiceBegin for Device
+<a href="/windows/desktop/Bluetooth/bluetooth-and-wsalookupservicebegin-for-device-inquiry">Bluetooth and WSALookupServiceBegin for Device
 		  Inquiry</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Bluetooth/bluetooth-and-wsaqueryset-for-device-inquiry">Bluetooth and WSAQUERYSET for Device Inquiry</a>
-
+<a href="/windows/desktop/Bluetooth/bluetooth-and-wsaqueryset-for-device-inquiry">Bluetooth and WSAQUERYSET for Device Inquiry</a>

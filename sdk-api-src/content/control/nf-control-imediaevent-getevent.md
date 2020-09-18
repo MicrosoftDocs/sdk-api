@@ -109,21 +109,20 @@ Timeout expired.
 
 If no event is on the queue, this method waits up to <i>msTimeout</i> milliseconds for an event to arrive. Avoid using a time-out interval of INFINITE, because threads cannot process any messages while waiting in <code>GetEvent</code>. If you call <code>GetEvent</code> from the same thread that processes Windows messages, specify only small wait times, in order to remain responsive to user input.
 
-After calling <code>GetEvent</code>, call the <a href="https://docs.microsoft.com/windows/desktop/api/control/nf-control-imediaevent-freeeventparams">IMediaEvent::FreeEventParams</a> method to release any resources allocated for the event parameters.
+After calling <code>GetEvent</code>, call the <a href="/windows/desktop/api/control/nf-control-imediaevent-freeeventparams">IMediaEvent::FreeEventParams</a> method to release any resources allocated for the event parameters.
 
-For a list of notification codes and event parameter values, see <a href="https://docs.microsoft.com/windows/desktop/DirectShow/event-notification-codes">Event Notification Codes</a>.
+For a list of notification codes and event parameter values, see <a href="/windows/desktop/DirectShow/event-notification-codes">Event Notification Codes</a>.
 
 Because this method removes the event from the filter graph event queue, there is no way for multiple clients to monitor events from the same graph.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/control/nn-control-imediaevent">IMediaEvent Interface</a>
+<a href="/windows/desktop/api/control/nn-control-imediaevent">IMediaEvent Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/control/nn-control-imediaeventex">IMediaEventEx</a>
-
+<a href="/windows/desktop/api/control/nn-control-imediaeventex">IMediaEventEx</a>

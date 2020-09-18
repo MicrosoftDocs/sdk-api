@@ -50,21 +50,21 @@ api_name:
 
 ## -description
 
-Moves the item within the volume/namespace, returning the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a> in its new location.
+Moves the item within the volume/namespace, returning the <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a> in its new location.
 
 ## -parameters
 
 ### -param psi [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a>*</b>
+Type: <b><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a>*</b>
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a> to be moved.
+A pointer to the <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a> to be moved.
 
 ### -param psiParentDst [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a>*</b>
+Type: <b><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a>*</b>
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a> that represents the new parent item at the destination.
+A pointer to the <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a> that represents the new parent item at the destination.
 
 ### -param pszNameDst [in]
 
@@ -80,9 +80,9 @@ Flags that control the file operation. One or more of the <a href="/windows/win3
 
 ### -param ppsiNew [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a>**</b>
+Type: <b><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a>**</b>
 
-When this method returns successfully, contains an address of a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a> in its new location.
+When this method returns successfully, contains an address of a pointer to the <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a> in its new location.
 
 ## -returns
 
@@ -146,7 +146,7 @@ The caller should convert a move operation into a copy and delete operation. Thi
 </dl>
 </td>
 <td width="60%">
-When moving a folder, the caller should convert the move operation into a copy and delete operation. The destination item must support <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-itransferdestination">ITransferDestination</a>. This error is seen as <code>HRESULT_FROM_WIN32(ERROR_FILE_EXISTS)</code>.
+When moving a folder, the caller should convert the move operation into a copy and delete operation. The destination item must support <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-itransferdestination">ITransferDestination</a>. This error is seen as <code>HRESULT_FROM_WIN32(ERROR_FILE_EXISTS)</code>.
 
 </td>
 </tr>
@@ -157,9 +157,8 @@ When moving a folder, the caller should convert the move operation into a copy a
 </dl>
 </td>
 <td width="60%">
-When moving a folder, the caller should convert the move operation into a copy and delete operation. The destination item must support <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-itransferdestination">ITransferDestination</a>. This error is seen as <code>HRESULT_FROM_WIN32(ERROR_ALREADY_EXISTS)</code>.
+When moving a folder, the caller should convert the move operation into a copy and delete operation. The destination item must support <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-itransferdestination">ITransferDestination</a>. This error is seen as <code>HRESULT_FROM_WIN32(ERROR_ALREADY_EXISTS)</code>.
 
 </td>
 </tr>
 </table>
-

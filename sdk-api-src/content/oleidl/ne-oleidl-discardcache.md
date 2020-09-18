@@ -66,5 +66,4 @@ The cache can be discarded without saving it.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-iolecache2-discardcache">IOleCache2::DiscardCache</a>
-
+<a href="/windows/desktop/api/oleidl/nf-oleidl-iolecache2-discardcache">IOleCache2::DiscardCache</a>

@@ -111,7 +111,7 @@ The <b>Values</b> member refers to an array of pointers to Unicode string values
 </dl>
 </td>
 <td width="60%">
-The <b>Values</b> member refers to an array of <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-claim_security_attribute_fqbn_value">CLAIM_SECURITY_ATTRIBUTE_FQBN_VALUE</a> values.
+The <b>Values</b> member refers to an array of <a href="/windows/desktop/api/winnt/ns-winnt-claim_security_attribute_fqbn_value">CLAIM_SECURITY_ATTRIBUTE_FQBN_VALUE</a> values.
 
 </td>
 </tr>
@@ -192,7 +192,7 @@ The value of the claim security attribute is case sensitive. This flag is valid 
 </dl>
 </td>
 <td width="60%">
-The claim security attribute is considered only for deny <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">access control entries</a> (ACEs).
+The claim security attribute is considered only for deny <a href="/windows/desktop/SecGloss/a-gly">access control entries</a> (ACEs).
 
 </td>
 </tr>
@@ -214,7 +214,7 @@ The claim security attribute is disabled by default.
 </dl>
 </td>
 <td width="60%">
-The claim security attribute is disabled and will not be applied by the <a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-accesscheck">AccessCheck</a> function.
+The claim security attribute is disabled and will not be applied by the <a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-accesscheck">AccessCheck</a> function.
 
 </td>
 </tr>
@@ -253,7 +253,7 @@ Pointer to an array of <b>ValueCount</b> members where each member is  a <b>PWST
 
 ### -field Values.pFqbn
 
-Pointer to an array of <b>ValueCount</b> members where each member is a fully qualified binary name value of type <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-claim_security_attribute_fqbn_value">CLAIM_SECURITY_ATTRIBUTE_FQBN_VALUE</a>.
+Pointer to an array of <b>ValueCount</b> members where each member is a fully qualified binary name value of type <a href="/windows/desktop/api/winnt/ns-winnt-claim_security_attribute_fqbn_value">CLAIM_SECURITY_ATTRIBUTE_FQBN_VALUE</a>.
 
 ### -field Values.pOctetString
 
@@ -261,5 +261,4 @@ Pointer to an array of <b>ValueCount</b> members where each member is  an octet 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-claim_security_attributes_information">CLAIM_SECURITY_ATTRIBUTES_INFORMATION</a>
-
+<a href="/windows/desktop/api/winnt/ns-winnt-claim_security_attributes_information">CLAIM_SECURITY_ATTRIBUTES_INFORMATION</a>

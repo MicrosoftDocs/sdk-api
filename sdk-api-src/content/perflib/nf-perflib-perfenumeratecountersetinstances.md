@@ -144,11 +144,11 @@ The function successfully stored all of the information about the active instanc
  
 
 For other types of failures, the return value is a 
-<a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a>.
+<a href="/windows/desktop/Debug/system-error-codes">system error code</a>.
 
 ## -remarks
 
-The information about the active instances of the specified counter set is  written to the buffer that <i>pInstances</i> specifies as a sequence of <a href="https://docs.microsoft.com/windows/desktop/api/perflib/ns-perflib-perf_instance_header">PERF_INSTANCE_HEADER</a> blocks. The size in bytes of  
+The information about the active instances of the specified counter set is  written to the buffer that <i>pInstances</i> specifies as a sequence of <a href="/windows/desktop/api/perflib/ns-perflib-perf_instance_header">PERF_INSTANCE_HEADER</a> blocks. The size in bytes of  
 
 the sequence of blocks is written to  <i>pcbInstancesActual</i>. Each <b>PERF_INSTANCE_HEADER</b> block consists  
 
@@ -160,9 +160,8 @@ instance name, followed by padding so that the size of the
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/perflib/ns-perflib-perf_instance_header">PERF_INSTANCE_HEADER</a>
+<a href="/windows/desktop/api/perflib/ns-perflib-perf_instance_header">PERF_INSTANCE_HEADER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/perflib/nf-perflib-perfenumeratecounterset">PerfEnumerateCounterSet</a>
-
+<a href="/windows/desktop/api/perflib/nf-perflib-perfenumeratecounterset">PerfEnumerateCounterSet</a>

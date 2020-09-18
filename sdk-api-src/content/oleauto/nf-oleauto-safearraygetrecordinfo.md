@@ -50,17 +50,17 @@ api_name:
 
 ## -description
 
-Retrieves the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-irecordinfo">IRecordInfo</a> interface of the UDT contained in the specified safe array.
+Retrieves the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-irecordinfo">IRecordInfo</a> interface of the UDT contained in the specified safe array.
 
 ## -parameters
 
 ### -param psa [in]
 
-An array descriptor created by <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-safearraycreate">SafeArrayCreate</a>.
+An array descriptor created by <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-safearraycreate">SafeArrayCreate</a>.
 
 ### -param prinfo [out]
 
-The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-irecordinfo">IRecordInfo</a> interface.
+The <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-irecordinfo">IRecordInfo</a> interface.
 
 ## -returns
 
@@ -94,4 +94,3 @@ The argument <i>psa</i> is null or the array descriptor does not have the FADF_R
 </td>
 </tr>
 </table>
-

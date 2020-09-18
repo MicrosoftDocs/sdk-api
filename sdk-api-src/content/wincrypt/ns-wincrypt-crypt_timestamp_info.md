@@ -82,11 +82,11 @@ Specifies that this is a version 1 time stamp request.
 
 ### -field pszTSAPolicyId
 
-Optional. A pointer to a null-terminated string that specifies the Time Stamping Authority (TSA) policy under which the time stamp token was provided. This value must correspond with the value passed  in the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_timestamp_request">CRYPT_TIMESTAMP_REQUEST</a> structure.
+Optional. A pointer to a null-terminated string that specifies the Time Stamping Authority (TSA) policy under which the time stamp token was provided. This value must correspond with the value passed  in the <a href="/windows/desktop/api/wincrypt/ns-wincrypt-crypt_timestamp_request">CRYPT_TIMESTAMP_REQUEST</a> structure.
 
 ### -field HashAlgorithm
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_algorithm_identifier">CRYPT_ALGORITHM_IDENTIFIER</a> structure that contains information about the algorithm used to calculate the hash. This value must correspond with the value passed  in the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_timestamp_request">CRYPT_TIMESTAMP_REQUEST</a> structure.
+A <a href="/windows/desktop/api/wincrypt/ns-wincrypt-crypt_algorithm_identifier">CRYPT_ALGORITHM_IDENTIFIER</a> structure that contains information about the algorithm used to calculate the hash. This value must correspond with the value passed  in the <a href="/windows/desktop/api/wincrypt/ns-wincrypt-crypt_timestamp_request">CRYPT_TIMESTAMP_REQUEST</a> structure.
 
 ### -field HashedMessage
 
@@ -94,15 +94,15 @@ A <a href="/windows/win32/api/dpapi/ns-dpapi-crypt_integer_blob">CRYPT_DER_BLOB<
 
 ### -field SerialNumber
 
- A <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_INTEGER_BLOB</a> structure that contains the serial number assigned by the TSA to each time stamp token.
+ A <a href="/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_INTEGER_BLOB</a> structure that contains the serial number assigned by the TSA to each time stamp token.
 
 ### -field ftTime
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> value that specifies the time at which the time stamp token was produced by the TSA.
+A <a href="/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> value that specifies the time at which the time stamp token was produced by the TSA.
 
 ### -field pvAccuracy
 
-Optional. A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_timestamp_accuracy">CRYPT_TIMESTAMP_ACCURACY</a>   structure that contains the time deviation around the UTC time at which the time stamp token was created by the TSA.
+Optional. A pointer to a <a href="/windows/desktop/api/wincrypt/ns-wincrypt-crypt_timestamp_accuracy">CRYPT_TIMESTAMP_ACCURACY</a>   structure that contains the time deviation around the UTC time at which the time stamp token was created by the TSA.
 
 ### -field fOrdering
 
@@ -110,12 +110,12 @@ This member is reserved.
 
 ### -field Nonce
 
-Optional. A <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_DER_BLOB</a> structure that contains the nonce value used by the client to verify the
-timeliness of the response when no local clock is available. This value must correspond with the value passed  in the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_timestamp_request">CRYPT_TIMESTAMP_REQUEST</a> structure.
+Optional. A <a href="/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_DER_BLOB</a> structure that contains the nonce value used by the client to verify the
+timeliness of the response when no local clock is available. This value must correspond with the value passed  in the <a href="/windows/desktop/api/wincrypt/ns-wincrypt-crypt_timestamp_request">CRYPT_TIMESTAMP_REQUEST</a> structure.
 
 ### -field Tsa
 
-Optional. A <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_DER_BLOB</a> structure that contains the subject name of the TSA certificate.
+Optional. A <a href="/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_DER_BLOB</a> structure that contains the subject name of the TSA certificate.
 
 ### -field cExtension
 
@@ -123,5 +123,4 @@ The number of elements in the array pointed to by the <b>rgExtension</b> member.
 
 ### -field rgExtension
 
-A pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_extension">CERT_EXTENSION</a> structures that contain extension information returned from the request.
-
+A pointer to an array of <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_extension">CERT_EXTENSION</a> structures that contain extension information returned from the request.

@@ -64,11 +64,11 @@ This parameter is reserved and must be set to zero.
 
 ### -param pListenerCallback [in, optional]
 
-Returns a listener callback (<a href="https://docs.microsoft.com/windows/desktop/api/tsvirtualchannels/nn-tsvirtualchannels-iwtslistenercallback">IWTSListenerCallback</a>)  that will receive notifications for incoming connections.
+Returns a listener callback (<a href="/windows/desktop/api/tsvirtualchannels/nn-tsvirtualchannels-iwtslistenercallback">IWTSListenerCallback</a>)  that will receive notifications for incoming connections.
 
 ### -param ppListener [out, optional]
 
-An instance of the <a href="https://docs.microsoft.com/windows/desktop/api/tsvirtualchannels/nn-tsvirtualchannels-iwtslistener">IWTSListener</a> object.
+An instance of the <a href="/windows/desktop/api/tsvirtualchannels/nn-tsvirtualchannels-iwtslistener">IWTSListener</a> object.
 
 ## -returns
 
@@ -76,13 +76,12 @@ Returns <b>S_OK</b> on success.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tsvirtualchannels/nn-tsvirtualchannels-iwtslistener">IWTSListener</a>
+<a href="/windows/desktop/api/tsvirtualchannels/nn-tsvirtualchannels-iwtslistener">IWTSListener</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tsvirtualchannels/nn-tsvirtualchannels-iwtslistenercallback">IWTSListenerCallback</a>
+<a href="/windows/desktop/api/tsvirtualchannels/nn-tsvirtualchannels-iwtslistenercallback">IWTSListenerCallback</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tsvirtualchannels/nn-tsvirtualchannels-iwtsvirtualchannelmanager">IWTSVirtualChannelManager</a>
-
+<a href="/windows/desktop/api/tsvirtualchannels/nn-tsvirtualchannels-iwtsvirtualchannelmanager">IWTSVirtualChannelManager</a>

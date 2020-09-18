@@ -64,7 +64,7 @@ The number of experimental features to enable.
 
 Type: <b>const IID*</b>
 
-<a href="https://docs.microsoft.com/visualstudio/code-quality/annotating-function-parameters-and-return-values?view=vs-2015">SAL</a>: <code>__in_ecount(NumFeatures)</code>
+<a href="/visualstudio/code-quality/annotating-function-parameters-and-return-values?view=vs-2015">SAL</a>: <code>__in_ecount(NumFeatures)</code>
 
 A pointer to an array of IDs that specify which of the available experimental features to enable.
 
@@ -72,7 +72,7 @@ A pointer to an array of IDs that specify which of the available experimental fe
 
 Type: <b>void*</b>
 
-<a href="https://docs.microsoft.com/visualstudio/code-quality/annotating-function-parameters-and-return-values?view=vs-2015">SAL</a>: <code>__in_ecount(NumFeatures)</code>
+<a href="/visualstudio/code-quality/annotating-function-parameters-and-return-values?view=vs-2015">SAL</a>: <code>__in_ecount(NumFeatures)</code>
 
 Structures that contain additional configuration details that some experimental features might need to be enabled.
 
@@ -80,7 +80,7 @@ Structures that contain additional configuration details that some experimental 
 
 Type: <b>UINT*</b>
 
-<a href="https://docs.microsoft.com/visualstudio/code-quality/annotating-function-parameters-and-return-values?view=vs-2015">SAL</a>: <code>__in_ecount(NumFeatures)</code>
+<a href="/visualstudio/code-quality/annotating-function-parameters-and-return-values?view=vs-2015">SAL</a>: <code>__in_ecount(NumFeatures)</code>
 
 The sizes of any configuration structs passed in pConfigurationStructs parameter.
 
@@ -129,5 +129,4 @@ static const UUID D3D12ExperimentalShaderModels = { /* 76f5573e-f13a-40f5-b297-8
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3d12/direct3d-12-functions">Core Functions</a>
-
+<a href="/windows/desktop/direct3d12/direct3d-12-functions">Core Functions</a>

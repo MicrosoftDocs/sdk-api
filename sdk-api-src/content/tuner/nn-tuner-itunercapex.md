@@ -52,7 +52,7 @@ api_name:
 ## -description
 
 Provides information about the capabilities of a BDA device filter that represents a TV tuner.
-    This interface extends the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-itunercap">ITunerCap</a> interface.
+    This interface extends the <a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-itunercap">ITunerCap</a> interface.
 
 ## -remarks
 
@@ -60,5 +60,4 @@ To declare the interface identifier (IID) for this interface, use the <b>__uuido
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-itunercap">ITunerCap</a>
-
+<a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-itunercap">ITunerCap</a>

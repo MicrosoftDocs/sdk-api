@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-The ENG_TIME_FIELDS structure is used by the  <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engquerylocaltime">EngQueryLocalTime</a> function to return the local time.
+The ENG_TIME_FIELDS structure is used by the  <a href="/windows/desktop/api/winddi/nf-winddi-engquerylocaltime">EngQueryLocalTime</a> function to return the local time.
 
 ## -struct-fields
 
@@ -96,5 +96,4 @@ The driver is responsible for allocating the ENG_TIME_FIELDS structure and passi
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engquerylocaltime">EngQueryLocalTime</a>
-
+<a href="/windows/desktop/api/winddi/nf-winddi-engquerylocaltime">EngQueryLocalTime</a>

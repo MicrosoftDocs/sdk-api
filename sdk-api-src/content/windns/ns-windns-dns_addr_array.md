@@ -135,5 +135,4 @@ An array of <a href="/windows/win32/api/windns/ns-windns-dns_addr">DNS_ADDR</a> 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/windns/ns-windns-dns_query_result">DNS_QUERY_RESULT</a>
-
+<a href="/windows/desktop/api/windns/ns-windns-dns_query_result">DNS_QUERY_RESULT</a>

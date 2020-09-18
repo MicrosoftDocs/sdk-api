@@ -50,9 +50,9 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[<b>SHCloneSpecialIDList</b> is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetspecialfolderlocation">SHGetSpecialFolderLocation</a>.]
+<p class="CCE_Message">[<b>SHCloneSpecialIDList</b> is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetspecialfolderlocation">SHGetSpecialFolderLocation</a>.]
 
-Retrieves a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> structure that specifies a special folder.
+Retrieves a pointer to the <a href="/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> structure that specifies a special folder.
 
 ## -parameters
 
@@ -66,7 +66,7 @@ Reserved.
 
 Type: <b>int</b>
 
-A <a href="https://docs.microsoft.com/windows/desktop/shell/csidl">CSIDL</a> value that identifies the folder of interest.
+A <a href="/windows/desktop/shell/csidl">CSIDL</a> value that identifies the folder of interest.
 
 ### -param fCreate [in]
 
@@ -78,9 +78,8 @@ A value of type <b>BOOL</b> that indicates if the folder should be created if it
 
 Type: <b>PIDLIST_ABSOLUTE</b>
 
-Returns a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> structure of a special folder specified by <i>csidl</i>. The function creates the folder if <i>fCreate</i> is <b>TRUE</b>.
+Returns a pointer to the <a href="/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> structure of a special folder specified by <i>csidl</i>. The function creates the folder if <i>fCreate</i> is <b>TRUE</b>.
 
 ## -remarks
 
-When finished, you should free the pointer to the cloned folder with <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-ilfree">ILFree</a>.
-
+When finished, you should free the pointer to the cloned folder with <a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-ilfree">ILFree</a>.

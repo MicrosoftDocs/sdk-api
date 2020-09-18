@@ -99,7 +99,7 @@ Returns <b>ERROR_SUCCESS</b> if successful, or a Windows error code otherwise.
 
 ## -remarks
 
-The data type of the specified registry value must be either <b>REG_EXPAND_SZ</b> or <b>REG_SZ</b>. If it has the <b>REG_EXPAND_SZ</b> type, any environment variables in the registry string will be expanded with <a href="https://docs.microsoft.com/windows/desktop/api/rrascfg/nn-rrascfg-ieapproviderconfig">ExpandEnvironmentStrings</a>. If it has the <b>REG_SZ</b> data type, environment variables will not be expanded and the string pointed to by <i>pszPath</i> will be identical to the string in the registry.
+The data type of the specified registry value must be either <b>REG_EXPAND_SZ</b> or <b>REG_SZ</b>. If it has the <b>REG_EXPAND_SZ</b> type, any environment variables in the registry string will be expanded with <a href="/windows/desktop/api/rrascfg/nn-rrascfg-ieapproviderconfig">ExpandEnvironmentStrings</a>. If it has the <b>REG_SZ</b> data type, environment variables will not be expanded and the string pointed to by <i>pszPath</i> will be identical to the string in the registry.
 
 The following environment strings will be replaced by their equivalent path.
 
@@ -143,4 +143,3 @@ The following environment strings will be replaced by their equivalent path.
 
 > [!NOTE]
 > The shlwapi.h header defines SHRegGetPath as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

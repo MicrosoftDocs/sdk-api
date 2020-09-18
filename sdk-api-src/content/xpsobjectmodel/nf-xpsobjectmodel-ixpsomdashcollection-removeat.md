@@ -72,7 +72,7 @@ The figure that follows illustrates how the collection is changed by the <b>Remo
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomdashcollection">IXpsOMDashCollection</a>
+<a href="/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomdashcollection">IXpsOMDashCollection</a>
 
 
 
@@ -81,4 +81,3 @@ The figure that follows illustrates how the collection is changed by the <b>Remo
 
 
 <a href="/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_dash">XPS_DASH</a>
-

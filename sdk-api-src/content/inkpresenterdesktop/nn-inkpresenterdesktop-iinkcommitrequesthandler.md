@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-An <b>IInkCommitRequestHandler</b> object enables the app (instead of an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/inkpresenterdesktop/nn-inkpresenterdesktop-iinkpresenterdesktop">IInkPresenterDesktop</a> object) to  commit all pending    Microsoft DirectComposition commands to the app's  <a href="https://docs.microsoft.com/windows/desktop/directcomp/directcomposition-portal">DirectComposition</a> visual tree.
+An <b>IInkCommitRequestHandler</b> object enables the app (instead of an <a href="/previous-versions/windows/desktop/api/inkpresenterdesktop/nn-inkpresenterdesktop-iinkpresenterdesktop">IInkPresenterDesktop</a> object) to  commit all pending    Microsoft DirectComposition commands to the app's  <a href="/windows/desktop/directcomp/directcomposition-portal">DirectComposition</a> visual tree.
 
 ## -see-also
 
@@ -58,7 +58,7 @@ An <b>IInkCommitRequestHandler</b> object enables the app (instead of an <a href
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/input_ink/ink-presenter-interfaces">Ink presenter interfaces</a>
+<a href="/previous-versions/windows/desktop/input_ink/ink-presenter-interfaces">Ink presenter interfaces</a>
 
 
 
@@ -66,7 +66,7 @@ An <b>IInkCommitRequestHandler</b> object enables the app (instead of an <a href
 
 
 
-<a href="https://docs.microsoft.com/windows/uwp/input-and-devices/pen-and-stylus-interactions">Pen and stylus interactions</a>
+<a href="/windows/uwp/input-and-devices/pen-and-stylus-interactions">Pen and stylus interactions</a>
 
 
 
@@ -75,4 +75,3 @@ An <b>IInkCommitRequestHandler</b> object enables the app (instead of an <a href
 
 
 <a href="https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/SimpleInk">Simple ink sample</a>
-

@@ -81,7 +81,7 @@ The system is out of memory.
  
 
 <div class="alert"><b>Note</b>  For a list of valid error codes, see 
-<a href="https://docs.microsoft.com/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
+<a href="/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
 <div> </div>
 
 ## -remarks
@@ -89,53 +89,52 @@ The system is out of memory.
 The 
 <b>RpcSsAllocate</b> function allows an application to allocate memory within the RPC stub memory–management function. Prior to calling 
 <b>RpcSsAllocate</b>, the memory-management environment must already be established. For memory management called within the stub, the stub itself usually establishes the necessary environment. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/Rpc/memory-management">Memory Management</a>. When using 
+<a href="/windows/desktop/Rpc/memory-management">Memory Management</a>. When using 
 <b>RpcSsAllocate</b> to allocate memory not called from the stub, the application must call 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcndr/nf-rpcndr-rpcssenableallocate">RpcSsEnableAllocate</a> to establish the required memory-management environment.
+<a href="/windows/desktop/api/rpcndr/nf-rpcndr-rpcssenableallocate">RpcSsEnableAllocate</a> to establish the required memory-management environment.
 
 The 
 <b>RpcSsAllocate</b> routine returns a pointer to the allocated memory, if the call was successful. Otherwise, it raises an exception.
 
 When the stub establishes the memory management, it frees any memory allocated by 
 <b>RpcSsAllocate</b>. The application can free such memory before returning to the calling stub by calling 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcndr/nf-rpcndr-rpcssfree">RpcSsFree</a>.
+<a href="/windows/desktop/api/rpcndr/nf-rpcndr-rpcssfree">RpcSsFree</a>.
 
 By contrast, when the application establishes the memory management, it must free any allocated memory. It does so by calling either 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcndr/nf-rpcndr-rpcssfree">RpcSsFree</a> or 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcndr/nf-rpcndr-rpcssdisableallocate">RpcSsDisableAllocate</a>.
+<a href="/windows/desktop/api/rpcndr/nf-rpcndr-rpcssfree">RpcSsFree</a> or 
+<a href="/windows/desktop/api/rpcndr/nf-rpcndr-rpcssdisableallocate">RpcSsDisableAllocate</a>.
 
 To manage the same memory within the stub memory–management environment, multiple threads can call 
 <b>RpcSsAllocate</b> and 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcndr/nf-rpcndr-rpcssfree">RpcSsFree</a>. In this case, the threads must share the same stub memory management–thread handle. Applications pass thread handles from thread-to-thread by calling 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcndr/nf-rpcndr-rpcssgetthreadhandle">RpcSsGetThreadHandle</a> and 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcndr/nf-rpcndr-rpcsssetthreadhandle">RPCSsSetThreadHandle</a>.
+<a href="/windows/desktop/api/rpcndr/nf-rpcndr-rpcssfree">RpcSsFree</a>. In this case, the threads must share the same stub memory management–thread handle. Applications pass thread handles from thread-to-thread by calling 
+<a href="/windows/desktop/api/rpcndr/nf-rpcndr-rpcssgetthreadhandle">RpcSsGetThreadHandle</a> and 
+<a href="/windows/desktop/api/rpcndr/nf-rpcndr-rpcsssetthreadhandle">RPCSsSetThreadHandle</a>.
 
 <div class="alert"><b>Note</b>  The 
 <b>RpcSsAllocate</b> routine raises exceptions, unlike 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcndr/nf-rpcndr-rpcsmallocate">RpcSmAllocate</a>, which returns the error code.</div>
+<a href="/windows/desktop/api/rpcndr/nf-rpcndr-rpcsmallocate">RpcSmAllocate</a>, which returns the error code.</div>
 <div> </div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcndr/nf-rpcndr-rpcsmallocate">RpcSmAllocate</a>
+<a href="/windows/desktop/api/rpcndr/nf-rpcndr-rpcsmallocate">RpcSmAllocate</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcndr/nf-rpcndr-rpcssdisableallocate">RpcSsDisableAllocate</a>
+<a href="/windows/desktop/api/rpcndr/nf-rpcndr-rpcssdisableallocate">RpcSsDisableAllocate</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcndr/nf-rpcndr-rpcssenableallocate">RpcSsEnableAllocate</a>
+<a href="/windows/desktop/api/rpcndr/nf-rpcndr-rpcssenableallocate">RpcSsEnableAllocate</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcndr/nf-rpcndr-rpcssfree">RpcSsFree</a>
+<a href="/windows/desktop/api/rpcndr/nf-rpcndr-rpcssfree">RpcSsFree</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcndr/nf-rpcndr-rpcssgetthreadhandle">RpcSsGetThreadHandle</a>
+<a href="/windows/desktop/api/rpcndr/nf-rpcndr-rpcssgetthreadhandle">RpcSsGetThreadHandle</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcndr/nf-rpcndr-rpcsssetthreadhandle">RpcSsSetThreadHandle</a>
-
+<a href="/windows/desktop/api/rpcndr/nf-rpcndr-rpcsssetthreadhandle">RpcSsSetThreadHandle</a>

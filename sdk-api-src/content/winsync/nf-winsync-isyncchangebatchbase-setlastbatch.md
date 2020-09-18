@@ -78,13 +78,12 @@ The method succeeded.
 
 ## -remarks
 
-When returning a change batch in response to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nf-winsync-iknowledgesyncprovider-getchangebatch">IKnowledgeSyncProvider::GetChangeBatch</a> method, the source provider must call <b>SetLastBatch</b> if the change batch is the last batch of changes.
+When returning a change batch in response to the <a href="/previous-versions/windows/desktop/api/winsync/nf-winsync-iknowledgesyncprovider-getchangebatch">IKnowledgeSyncProvider::GetChangeBatch</a> method, the source provider must call <b>SetLastBatch</b> if the change batch is the last batch of changes.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-iknowledgesyncprovider">IKnowledgeSyncProvider Interface</a>
+<a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-iknowledgesyncprovider">IKnowledgeSyncProvider Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncchangebatchbase">ISyncChangeBatchBase Interface</a>
-
+<a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncchangebatchbase">ISyncChangeBatchBase Interface</a>

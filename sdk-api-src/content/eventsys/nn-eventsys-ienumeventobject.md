@@ -52,11 +52,11 @@ api_name:
 
 Enumerates the event objects that are registered in the COM+ events store.
 
-Similar functionality is available through <a href="https://docs.microsoft.com/windows/desktop/api/eventsys/nn-eventsys-ieventobjectcollection">IEventObjectCollection</a>.
+Similar functionality is available through <a href="/windows/desktop/api/eventsys/nn-eventsys-ieventobjectcollection">IEventObjectCollection</a>.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumEventObject</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEnumEventObject</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumEventObject</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEnumEventObject</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>IEnumEventObject</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/eventsys/nf-eventsys-ienumeventobject-clone">Clone</a>
+<a href="/windows/desktop/api/eventsys/nf-eventsys-ienumeventobject-clone">Clone</a>
 </td>
 <td align="left" width="63%">
 Creates an enumerator that contains the same enumeration state as the current one.
@@ -80,7 +80,7 @@ Creates an enumerator that contains the same enumeration state as the current on
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/eventsys/nf-eventsys-ienumeventobject-next">Next</a>
+<a href="/windows/desktop/api/eventsys/nf-eventsys-ienumeventobject-next">Next</a>
 </td>
 <td align="left" width="63%">
 Retrieves the specified number of items in the enumeration sequence.
@@ -89,7 +89,7 @@ Retrieves the specified number of items in the enumeration sequence.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/eventsys/nf-eventsys-ienumeventobject-reset">Reset</a>
+<a href="/windows/desktop/api/eventsys/nf-eventsys-ienumeventobject-reset">Reset</a>
 </td>
 <td align="left" width="63%">
 Resets the enumeration sequence to the beginning.
@@ -98,7 +98,7 @@ Resets the enumeration sequence to the beginning.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/eventsys/nf-eventsys-ienumeventobject-skip">Skip</a>
+<a href="/windows/desktop/api/eventsys/nf-eventsys-ienumeventobject-skip">Skip</a>
 </td>
 <td align="left" width="63%">
 Skips over the specified number of items in the enumeration sequence.
@@ -109,5 +109,4 @@ Skips over the specified number of items in the enumeration sequence.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/eventsys/nn-eventsys-ieventobjectcollection">IEventObjectCollection</a>
-
+<a href="/windows/desktop/api/eventsys/nn-eventsys-ieventobjectcollection">IEventObjectCollection</a>

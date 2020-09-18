@@ -75,9 +75,8 @@ The following values are examples of the qualifier values:
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/resourceindexer/nf-resourceindexer-destroyindexedresults">DestroyIndexedResults</a>
+<a href="/windows/desktop/api/resourceindexer/nf-resourceindexer-destroyindexedresults">DestroyIndexedResults</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/resourceindexer/nf-resourceindexer-indexfilepath">IndexFilePath</a>
-
+<a href="/windows/desktop/api/resourceindexer/nf-resourceindexer-indexfilepath">IndexFilePath</a>

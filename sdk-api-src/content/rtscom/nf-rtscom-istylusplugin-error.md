@@ -50,21 +50,21 @@ api_name:
 
 ## -description
 
-Notifies the implementing object that this plug-in or one of the previous plug-ins in either the <a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nn-rtscom-istylusasyncplugin">IStylusAsyncPlugin</a> or <a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nn-rtscom-istylussyncplugin">IStylusSyncPlugin</a> collection threw an exception.
+Notifies the implementing object that this plug-in or one of the previous plug-ins in either the <a href="/windows/desktop/api/rtscom/nn-rtscom-istylusasyncplugin">IStylusAsyncPlugin</a> or <a href="/windows/desktop/api/rtscom/nn-rtscom-istylussyncplugin">IStylusSyncPlugin</a> collection threw an exception.
 
 ## -parameters
 
 ### -param piRtsSrc [in]
 
-The <a href="https://docs.microsoft.com/windows/desktop/tablet/realtimestylus-class">RealTimeStylus Class</a> (RTS) object that sent the notification.
+The <a href="/windows/desktop/tablet/realtimestylus-class">RealTimeStylus Class</a> (RTS) object that sent the notification.
 
 ### -param piPlugin [in]
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nn-rtscom-istylusplugin">IStylusPlugin</a> object that sent the notification.
+The <a href="/windows/desktop/api/rtscom/nn-rtscom-istylusplugin">IStylusPlugin</a> object that sent the notification.
 
 ### -param dataInterest [in]
 
-Identifier of the <a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nn-rtscom-istylusplugin">IStylusPlugin</a> method that generated the error.
+Identifier of the <a href="/windows/desktop/api/rtscom/nn-rtscom-istylusplugin">IStylusPlugin</a> method that generated the error.
 
 ### -param hrErrorCode [in]
 
@@ -76,7 +76,7 @@ Used internally by the system.
 
 ## -returns
 
-For a description of return values, see <a href="https://docs.microsoft.com/windows/desktop/tablet/classes-and-interfaces---ink-analysis">Classes and Interfaces - Ink Analysis</a>.
+For a description of return values, see <a href="/windows/desktop/tablet/classes-and-interfaces---ink-analysis">Classes and Interfaces - Ink Analysis</a>.
 
 ## -remarks
 
@@ -85,7 +85,7 @@ This method is called when the RTS object has caught an exception.
 
 #### Examples
 
-The following C++ example implements an <b>IStylusPlugin::Error Method</b> method that outputs a message and error code to the debug window using <a href="https://msdn2.microsoft.com/library/4wyz8787.aspx">The TRACE Macro</a>.
+The following C++ example implements an <b>IStylusPlugin::Error Method</b> method that outputs a message and error code to the debug window using <a href="/previous-versions/visualstudio/visual-studio-2010/4wyz8787(v=vs.100)">The TRACE Macro</a>.
 
 
 ```cpp
@@ -106,13 +106,12 @@ STDMETHODIMP CPacketModifier::Error(
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms701168(v=vs.85)">DynamicRenderer Class</a>
+<a href="/previous-versions/windows/desktop/legacy/ms701168(v=vs.85)">DynamicRenderer Class</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nn-rtscom-istylusplugin">IStylusPlugin Interface</a>
+<a href="/windows/desktop/api/rtscom/nn-rtscom-istylusplugin">IStylusPlugin Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nf-rtscom-istylusplugin-datainterest">IStylusPlugin::DataInterest Method</a>
-
+<a href="/windows/desktop/api/rtscom/nf-rtscom-istylusplugin-datainterest">IStylusPlugin::DataInterest Method</a>

@@ -67,7 +67,7 @@ The path to a power scheme backup file created by <b>PowerCfg.Exe /Export</b>.
 A pointer to a pointer to a <b>GUID</b>. If the pointer contains 
       <b>NULL</b>, the function allocates memory for a new 
       <b>GUID</b> and puts the address of this memory in the pointer. The caller can free this 
-      memory using <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localfree">LocalFree</a>.
+      memory using <a href="/windows/desktop/api/winbase/nf-winbase-localfree">LocalFree</a>.
 
 ## -returns
 
@@ -76,5 +76,4 @@ Returns <b>ERROR_SUCCESS</b> (zero) if the call was successful, and a nonzero va
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Power/power-management-functions">Power Management Functions</a>
-
+<a href="/windows/desktop/Power/power-management-functions">Power Management Functions</a>

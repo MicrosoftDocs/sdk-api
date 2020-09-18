@@ -66,35 +66,34 @@ The filter contains a list of IP addresses to exclude.
 
 This enumeration is supported on Windows Vistaand later.
 
-The <b>MULTICAST_MODE_TYPE</b> enumeration is used in the <b>gf_fmode</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/ws2ipdef/ns-ws2ipdef-group_source_req">GROUP_SOURCE_REQ</a> structure to determine if a list of IP addresses should included or excluded. The values from this enumeration can also be used in the <b>imsf_fmode</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/ws2ipdef/ns-ws2ipdef-ip_msfilter">ip_msfilter</a> structure.
+The <b>MULTICAST_MODE_TYPE</b> enumeration is used in the <b>gf_fmode</b> member of the <a href="/windows/desktop/api/ws2ipdef/ns-ws2ipdef-group_source_req">GROUP_SOURCE_REQ</a> structure to determine if a list of IP addresses should included or excluded. The values from this enumeration can also be used in the <b>imsf_fmode</b> member of the <a href="/windows/desktop/api/ws2ipdef/ns-ws2ipdef-ip_msfilter">ip_msfilter</a> structure.
 
 The <b>MULTICAST_MODE_TYPE</b> enumeration is defined in the <i>Ws2ipdef.h</i> header file which is automatically included in the <i>Ws2tcpip.h</i> header file. The <i>Ws2ipdef.h</i>  header files should never be used directly.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ws2ipdef/ns-ws2ipdef-group_req">GROUP_REQ</a>
+<a href="/windows/desktop/api/ws2ipdef/ns-ws2ipdef-group_req">GROUP_REQ</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ws2ipdef/ns-ws2ipdef-group_source_req">GROUP_SOURCE_REQ</a>
+<a href="/windows/desktop/api/ws2ipdef/ns-ws2ipdef-group_source_req">GROUP_SOURCE_REQ</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WinSock/multicast-programming">Multicast Programming</a>
+<a href="/windows/desktop/WinSock/multicast-programming">Multicast Programming</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WinSock/socket-options">Socket Options</a>
+<a href="/windows/desktop/WinSock/socket-options">Socket Options</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ws2ipdef/ns-ws2ipdef-ip_mreq">ip_mreq</a>
+<a href="/windows/desktop/api/ws2ipdef/ns-ws2ipdef-ip_mreq">ip_mreq</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ws2ipdef/ns-ws2ipdef-ip_msfilter">ip_msfilter</a>
+<a href="/windows/desktop/api/ws2ipdef/ns-ws2ipdef-ip_msfilter">ip_msfilter</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ws2ipdef/ns-ws2ipdef-ipv6_mreq">ipv6_mreq</a>
-
+<a href="/windows/desktop/api/ws2ipdef/ns-ws2ipdef-ipv6_mreq">ipv6_mreq</a>

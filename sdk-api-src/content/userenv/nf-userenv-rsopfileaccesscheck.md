@@ -66,9 +66,9 @@ Pointer to a valid <b>RSOPTOKEN</b> representing the client attempting to gain a
 ### -param dwDesiredAccessMask [in]
 
 Specifies an access mask that indicates the access rights to check. This mask can contain a combination of 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/generic-access-rights">generic</a>, 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/standard-access-rights">standard</a>, and specific access rights. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/access-rights-and-access-masks">Access Rights and Access Masks</a>.
+<a href="/windows/desktop/SecAuthZ/generic-access-rights">generic</a>, 
+<a href="/windows/desktop/SecAuthZ/standard-access-rights">standard</a>, and specific access rights. For more information, see 
+<a href="/windows/desktop/SecAuthZ/access-rights-and-access-masks">Access Rights and Access Masks</a>.
 
 ### -param pdwGrantedAccessMask [out]
 
@@ -93,15 +93,14 @@ The
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/Policy/group-policy-functions">Group Policy
+<a href="/previous-versions/windows/desktop/Policy/group-policy-functions">Group Policy
     Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/Policy/about-group-policy">Group Policy
+<a href="/previous-versions/windows/desktop/Policy/about-group-policy">Group Policy
     Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/userenv/nf-userenv-rsopaccesscheckbytype">RSoPAccessCheckByType</a>
-
+<a href="/windows/desktop/api/userenv/nf-userenv-rsopaccesscheckbytype">RSoPAccessCheckByType</a>

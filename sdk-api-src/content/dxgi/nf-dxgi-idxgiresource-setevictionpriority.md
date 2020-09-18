@@ -57,7 +57,7 @@ Set the priority for evicting the resource from memory.
 
 ### -param EvictionPriority
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 The priority is one of the following values: 
 
@@ -122,7 +122,7 @@ The resource is evicted from memory only if there is no other way of resolving t
 
 Type: <b><a href="/windows/win32/com/structure-of-com-error-codes">HRESULT</a></b>
 
-Returns one of the following <a href="https://docs.microsoft.com/windows/desktop/direct3ddxgi/dxgi-error">DXGI_ERROR</a>.
+Returns one of the following <a href="/windows/desktop/direct3ddxgi/dxgi-error">DXGI_ERROR</a>.
 
 ## -remarks
 
@@ -132,5 +132,4 @@ You can set priority levels other than the defined values when appropriate. For 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nn-dxgi-idxgiresource">IDXGIResource</a>
-
+<a href="/windows/desktop/api/dxgi/nn-dxgi-idxgiresource">IDXGIResource</a>

@@ -61,7 +61,7 @@ The maximum number of back buffer frames that will be queued for the swap chain.
 
 ## -returns
 
-Returns S_OK if successful; otherwise, returns one of the following members of the <a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3derr">D3DERR</a> enumerated type:
+Returns S_OK if successful; otherwise, returns one of the following members of the <a href="/windows/desktop/direct3d9/d3derr">D3DERR</a> enumerated type:
 
 <ul>
 <li><b>D3DERR_DEVICELOST</b></li>
@@ -75,7 +75,6 @@ Returns S_OK if successful; otherwise, returns one of the following members of t
 
 <a href="https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/DirectX%20latency%20sample">DirectX latency sample</a>
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_3/nn-dxgi1_3-idxgiswapchain2">IDXGISwapChain2</a>
+<a href="/windows/desktop/api/dxgi1_3/nn-dxgi1_3-idxgiswapchain2">IDXGISwapChain2</a>
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_3/nf-dxgi1_3-idxgiswapchain2-setmaximumframelatency">SetMaximumFrameLatency</a>
-
+<a href="/windows/desktop/api/dxgi1_3/nf-dxgi1_3-idxgiswapchain2-setmaximumframelatency">SetMaximumFrameLatency</a>

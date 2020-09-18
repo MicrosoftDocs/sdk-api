@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[[This API may be altered or unavailable in subsequent versions of the operating system or product. Please use the <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/task-scheduler-2-0-interfaces">Task Scheduler 2.0 Interfaces</a> instead.] ]
+<p class="CCE_Message">[[This API may be altered or unavailable in subsequent versions of the operating system or product. Please use the <a href="/windows/desktop/TaskSchd/task-scheduler-2-0-interfaces">Task Scheduler 2.0 Interfaces</a> instead.] ]
 
 The 
 <b>GetTrigger</b> method retrieves the current task trigger.
@@ -60,7 +60,7 @@ The
 ### -param pTrigger [out]
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/mstask/ns-mstask-task_trigger">TASK_TRIGGER</a> structure that contains the current task trigger. You must set the <b>cbTriggerSize</b> member of the 
+<a href="/windows/desktop/api/mstask/ns-mstask-task_trigger">TASK_TRIGGER</a> structure that contains the current task trigger. You must set the <b>cbTriggerSize</b> member of the 
 <b>TASK_TRIGGER</b> structure to the size of the task trigger structure before passing the structure to this method.
 
 ## -returns
@@ -114,13 +114,12 @@ A scheduled work item can have one or more triggers defined. The times that the 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mstask/nn-mstask-itasktrigger">ITaskTrigger</a>
+<a href="/windows/desktop/api/mstask/nn-mstask-itasktrigger">ITaskTrigger</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mstask/nf-mstask-itasktrigger-settrigger">ITaskTrigger::SetTrigger</a>
+<a href="/windows/desktop/api/mstask/nf-mstask-itasktrigger-settrigger">ITaskTrigger::SetTrigger</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mstask/ns-mstask-task_trigger">TASK_TRIGGER</a>
-
+<a href="/windows/desktop/api/mstask/ns-mstask-task_trigger">TASK_TRIGGER</a>

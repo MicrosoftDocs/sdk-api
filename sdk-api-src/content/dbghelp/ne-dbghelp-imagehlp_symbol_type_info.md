@@ -103,7 +103,7 @@ The data type is <b>DWORD*</b>.
 The type index of all children.
 
 The data type  is a pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-ti_findchildren_params">TI_FINDCHILDREN_PARAMS</a> structure. The <b>Count</b> member should be initialized with the number of children.
+<a href="/windows/desktop/api/dbghelp/ns-dbghelp-ti_findchildren_params">TI_FINDCHILDREN_PARAMS</a> structure. The <b>Count</b> member should be initialized with the number of children.
 
 ### -field TI_GET_DATAKIND
 
@@ -229,7 +229,7 @@ The element where the valid request bitfield should be stored.
 
 The data type is <b>ULONG64*</b>.
 
-This value is only used with the <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-symgettypeinfoex">SymGetTypeInfoEx</a> function.
+This value is only used with the <a href="/windows/desktop/api/dbghelp/nf-dbghelp-symgettypeinfoex">SymGetTypeInfoEx</a> function.
 
 ### -field TI_GET_VIRTUALBASEOFFSET
 
@@ -263,9 +263,8 @@ The data type is <b>BOOL</b>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-symgettypeinfo">SymGetTypeInfo</a>
+<a href="/windows/desktop/api/dbghelp/nf-dbghelp-symgettypeinfo">SymGetTypeInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-symgettypeinfoex">SymGetTypeInfoEx</a>
-
+<a href="/windows/desktop/api/dbghelp/nf-dbghelp-symgettypeinfoex">SymGetTypeInfoEx</a>

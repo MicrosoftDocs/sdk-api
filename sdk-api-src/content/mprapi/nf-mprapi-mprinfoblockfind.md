@@ -62,8 +62,8 @@ Specifies the header in which to locate the block.
 ### -param dwInfoType [in]
 
 Specifies the type of block to locate. The types available depend on the transport: 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/ip-information-types-for-router-information-blocks">IP</a> or 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/ipx-information-types-for-router-information-blocks">IPX</a>.
+<a href="/windows/desktop/RRAS/ip-information-types-for-router-information-blocks">IP</a> or 
+<a href="/windows/desktop/RRAS/ipx-information-types-for-router-information-blocks">IPX</a>.
 
 ### -param lpdwItemSize [out]
 
@@ -118,7 +118,7 @@ No block of type <i>dwInfoType</i> exists in the header.
 </td>
 <td width="60%">
 The call failed. Use 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a> to retrieve the error message that corresponds to the returned error code.
+<a href="/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a> to retrieve the error message that corresponds to the returned error code.
 
 </td>
 </tr>
@@ -126,9 +126,8 @@ The call failed. Use
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/understanding-mprinfo-functions-and-information-headers">MprInfo Functions and Information Headers</a>
-
+<a href="/windows/desktop/RRAS/understanding-mprinfo-functions-and-information-headers">MprInfo Functions and Information Headers</a>

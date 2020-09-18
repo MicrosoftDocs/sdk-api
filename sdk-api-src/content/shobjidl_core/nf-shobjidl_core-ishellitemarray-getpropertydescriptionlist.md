@@ -58,7 +58,7 @@ Gets a property description list for the items in the shell item array.
 
 Type: <b>REFPROPERTYKEY</b>
 
-A reference to the <a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ns-wtypes-propertykey">PROPERTYKEY</a> structure specifying which property list to retrieve.
+A reference to the <a href="/windows/desktop/api/wtypes/ns-wtypes-propertykey">PROPERTYKEY</a> structure specifying which property list to retrieve.
 
 ### -param riid [in]
 
@@ -70,7 +70,7 @@ The IID of the object type to retrieve.
 
 Type: <b>void**</b>
 
-When this method returns, contains the interface requested in riid.  This will typically be <a href="https://docs.microsoft.com/windows/desktop/api/propsys/nn-propsys-ipropertydescriptionlist">IPropertyDescriptionList</a>.
+When this method returns, contains the interface requested in riid.  This will typically be <a href="/windows/desktop/api/propsys/nn-propsys-ipropertydescriptionlist">IPropertyDescriptionList</a>.
 
 ## -returns
 
@@ -80,7 +80,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -remarks
 
-This function is used to determine a list of properties that are applicable to a set of shell items.  The type of list is specified by a <a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ns-wtypes-propertykey">PROPERTYKEY</a> structure.  Supported list types include but are not limited to:
+This function is used to determine a list of properties that are applicable to a set of shell items.  The type of list is specified by a <a href="/windows/desktop/api/wtypes/ns-wtypes-propertykey">PROPERTYKEY</a> structure.  Supported list types include but are not limited to:
 
 
 <ul>
@@ -102,9 +102,8 @@ If the shell item array contains more than one item, then this method will obtai
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitemarray">IShellItemArray</a>
+<a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitemarray">IShellItemArray</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/properties/building-property-handlers-property-lists">Property Lists</a>
-
+<a href="/windows/desktop/properties/building-property-handlers-property-lists">Property Lists</a>

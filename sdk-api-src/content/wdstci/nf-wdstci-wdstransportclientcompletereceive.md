@@ -56,7 +56,7 @@ Indicates that all processing on a block of data is finished, and that the multi
 
 ### -param hSessionKey [in]
 
-Unique handle returned by the call to <a href="https://docs.microsoft.com/windows/desktop/api/wdstci/nf-wdstci-wdstransportclientinitializesession">WdsTransportClientInitializeSession</a>.
+Unique handle returned by the call to <a href="/windows/desktop/api/wdstci/nf-wdstci-wdstransportclientinitializesession">WdsTransportClientInitializeSession</a>.
 
 ### -param ulSize [in]
 
@@ -72,5 +72,4 @@ If the function succeeds, the return value is <b>ERROR_SUCCESS</b>.
 
 ## -remarks
 
-There must be one call to <b>WdsTransportClientCompleteReceive</b> for each call to the <a href="https://docs.microsoft.com/windows/desktop/api/wdstci/nc-wdstci-pfn_wdstransportclientreceivecontents">PFN_WdsTransportClientReceiveContents</a> callback that the consumer receives.  The length and offset parameters of this function call must match those provided in the receive contents callback.  Failure to call this function will result in a stall in the multicast client once it hits the cache limit specified by the <i>ulCacheSize</i> of the <a href="https://docs.microsoft.com/windows/desktop/api/wdstci/ns-wdstci-wds_transportclient_request">WDS_TRANSPORTCLIENT_REQUEST</a> structure passed to <a href="https://docs.microsoft.com/windows/desktop/api/wdstci/nf-wdstci-wdstransportclientinitializesession">WdsTransportClientInitializeSession</a>.
-
+There must be one call to <b>WdsTransportClientCompleteReceive</b> for each call to the <a href="/windows/desktop/api/wdstci/nc-wdstci-pfn_wdstransportclientreceivecontents">PFN_WdsTransportClientReceiveContents</a> callback that the consumer receives.  The length and offset parameters of this function call must match those provided in the receive contents callback.  Failure to call this function will result in a stall in the multicast client once it hits the cache limit specified by the <i>ulCacheSize</i> of the <a href="/windows/desktop/api/wdstci/ns-wdstci-wds_transportclient_request">WDS_TRANSPORTCLIENT_REQUEST</a> structure passed to <a href="/windows/desktop/api/wdstci/nf-wdstci-wdstransportclientinitializesession">WdsTransportClientInitializeSession</a>.

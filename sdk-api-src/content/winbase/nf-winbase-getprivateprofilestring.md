@@ -100,7 +100,7 @@ If neither <i>lpAppName</i> nor <i>lpKeyName</i> is <b>NULL</b> and the supplied
 
 If either <i>lpAppName</i> or <i>lpKeyName</i> is <b>NULL</b> and the supplied destination buffer is too small to hold all the strings, the last string is truncated and followed by two <b>null</b> characters. In this case, the return value is equal to <i>nSize</i> minus two.
 
-In the event the initialization file specified by <i>lpFileName</i> is not found, or contains invalid values, calling <b>GetLastError</b> will return '0x2' (File Not Found). To retrieve extended error information, call <a href="https://msdn.microsoft.com/library/ms679360(VS.85).aspx">GetLastError</a>.
+In the event the initialization file specified by <i>lpFileName</i> is not found, or contains invalid values, calling <b>GetLastError</b> will return '0x2' (File Not Found). To retrieve extended error information, call <a href="/windows/win32/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
@@ -124,7 +124,7 @@ The
 <b>GetPrivateProfileString</b> function is not case-sensitive; the strings can be a combination of uppercase and lowercase letters.
 
 To retrieve a string from the Win.ini file, use the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getprofilestringa">GetProfileString</a> function.
+<a href="/windows/desktop/api/winbase/nf-winbase-getprofilestringa">GetProfileString</a> function.
 
 The system maps most .ini file references to the registry, using the mapping defined under the following registry key:<b>HKEY_LOCAL_MACHINE</b>&#92;<b>SOFTWARE</b>&#92;<b>Microsoft</b>&#92;<b>Windows NT</b>&#92;<b>CurrentVersion</b>&#92;<b>IniFileMapping</b>
 
@@ -155,9 +155,8 @@ When looking at values in the registry that specify other registry locations, th
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getprofilestringa">GetProfileString</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-getprofilestringa">GetProfileString</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-writeprivateprofilestringa">WritePrivateProfileString</a>
-
+<a href="/windows/desktop/api/winbase/nf-winbase-writeprivateprofilestringa">WritePrivateProfileString</a>

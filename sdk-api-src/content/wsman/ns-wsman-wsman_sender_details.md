@@ -119,7 +119,7 @@ All other types are queried directly from the security package.  For Internet In
 
 ### -field certificateDetails
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wsman/ns-wsman-wsman_certificate_details">WSMAN_CERTIFICATE_DETAILS</a> structure that specifies the details of the client's certificate. This parameter is valid only if the <i>authenticationMechanism</i>is set to ClientCertificate.
+A pointer to a <a href="/windows/desktop/api/wsman/ns-wsman-wsman_certificate_details">WSMAN_CERTIFICATE_DETAILS</a> structure that specifies the details of the client's certificate. This parameter is valid only if the <i>authenticationMechanism</i>is set to ClientCertificate.
 
 ### -field clientToken
 
@@ -131,4 +131,3 @@ Specifies the identity token of the user if a Windows security token is availabl
 ### -field httpURL
 
 Specifies the HTTP URL of the inbound request.
-

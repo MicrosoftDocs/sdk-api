@@ -56,7 +56,7 @@ api_name:
 
 Used to get or set tunnel parameters for Internet Key Exchange version 2 (IKEv2) devices.
 
-Do not use the <b>IKEV2_TUNNEL_CONFIG_PARAMS1</b> structure directly in your code; using <a href="https://docs.microsoft.com/windows/desktop/RRAS/router-management-data-types">IKEV2_TUNNEL_CONFIG_PARAMS</a> instead ensures that the proper version, based on the operating system the code in compiled under, is used.
+Do not use the <b>IKEV2_TUNNEL_CONFIG_PARAMS1</b> structure directly in your code; using <a href="/windows/desktop/RRAS/router-management-data-types">IKEV2_TUNNEL_CONFIG_PARAMS</a> instead ensures that the proper version, based on the operating system the code in compiled under, is used.
 
 ## -struct-fields
 
@@ -87,4 +87,3 @@ A value that specifies the number of certificates in the <b>certificateNames</b>
 ### -field certificateNames
 
 An array of CERT_NAME_BLOB structures that contain X.509 public key infrastructure certificates.
-

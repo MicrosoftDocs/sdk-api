@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>MCIWndGetInactiveTimer</b> macro retrieves the update period used when the MCIWnd window is the inactive window. You can use this macro or explicitly send the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/mciwndm-getinactivetimer">MCIWNDM_GETINACTIVETIMER</a> message.
+The <b>MCIWndGetInactiveTimer</b> macro retrieves the update period used when the MCIWnd window is the inactive window. You can use this macro or explicitly send the <a href="/windows/desktop/Multimedia/mciwndm-getinactivetimer">MCIWNDM_GETINACTIVETIMER</a> message.
 
 ## -parameters
 
@@ -60,5 +60,4 @@ Handle of the MCIWnd window.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/mciwndm-getinactivetimer">MCIWNDM_GETINACTIVETIMER</a>
-
+<a href="/windows/desktop/Multimedia/mciwndm-getinactivetimer">MCIWNDM_GETINACTIVETIMER</a>

@@ -89,17 +89,16 @@ The process does not have permissions to update the list in the registry. See th
 If <i>bAllUsers</i> is <b>TRUE</b>, the list of excluded applications is stored under the HKEY_LOCAL_MACHINE registry hive. The calling process must have permissions to write to the HKLM registry hive.
 If <i>bAllUsers</i> is <b>FALSE</b>, the list of excluded applications is stored under the HKEY_CURRENT_USER registry hive.
 
-To remove the application from the list of excluded applications, call the <a href="https://docs.microsoft.com/windows/desktop/api/werapi/nf-werapi-werremoveexcludedapplication">WerRemoveExcludedApplication</a> function.
+To remove the application from the list of excluded applications, call the <a href="/windows/desktop/api/werapi/nf-werapi-werremoveexcludedapplication">WerRemoveExcludedApplication</a> function.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/wer/wer-functions">WER Functions</a>
+<a href="/windows/desktop/wer/wer-functions">WER Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/werapi/nf-werapi-werremoveexcludedapplication">WerRemoveExcludedApplication</a>
+<a href="/windows/desktop/api/werapi/nf-werapi-werremoveexcludedapplication">WerRemoveExcludedApplication</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/wer/windows-error-reporting">Windows Error Reporting</a>
-
+<a href="/windows/desktop/wer/windows-error-reporting">Windows Error Reporting</a>

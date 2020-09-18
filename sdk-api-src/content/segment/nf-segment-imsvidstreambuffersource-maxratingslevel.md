@@ -56,15 +56,15 @@ The <b>MaxRatingsLevel</b> method specifies the maximum ratings level the object
 
 ### -param enSystem [in]
 
-Specifies the rating system, as an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tvratings/ne-tvratings-entvrat_system">EnTvRat_System</a> enumeration value.
+Specifies the rating system, as an <a href="/previous-versions/windows/desktop/api/tvratings/ne-tvratings-entvrat_system">EnTvRat_System</a> enumeration value.
 
 ### -param enRating [in]
 
-Specifies the maximum rating level, as an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tvratings/ne-tvratings-entvrat_genericlevel">EnTvRat_GenericLevel</a> enumeration value.
+Specifies the maximum rating level, as an <a href="/previous-versions/windows/desktop/api/tvratings/ne-tvratings-entvrat_genericlevel">EnTvRat_GenericLevel</a> enumeration value.
 
 ### -param lbfEnAttr [in]
 
-Specifies zero or more ratings attributes, as a bitwise combination of flags from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tvratings/ne-tvratings-bfentvrat_genericattributes">BfEnTvRat_GenericAttributes</a> enumeration.
+Specifies zero or more ratings attributes, as a bitwise combination of flags from the <a href="/previous-versions/windows/desktop/api/tvratings/ne-tvratings-bfentvrat_genericattributes">BfEnTvRat_GenericAttributes</a> enumeration.
 
 ## -returns
 
@@ -90,9 +90,8 @@ The method succeeded.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/msvidstreambuffersource">IMSVidStreamBufferSource Interface</a>
+<a href="/previous-versions/windows/desktop/mstv/msvidstreambuffersource">IMSVidStreamBufferSource Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/tv-ratings-components">TV Ratings Components</a>
-
+<a href="/previous-versions/windows/desktop/mstv/tv-ratings-components">TV Ratings Components</a>

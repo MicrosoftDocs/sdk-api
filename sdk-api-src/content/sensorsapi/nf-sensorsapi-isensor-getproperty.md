@@ -109,9 +109,8 @@ NULL was passed in for pProperty.
 
 ## -remarks
 
-To retrieve multiple property values as a collection, call <a href="https://docs.microsoft.com/windows/desktop/api/sensorsapi/nf-sensorsapi-isensor-getproperties">ISensor::GetProperties</a>.
+To retrieve multiple property values as a collection, call <a href="/windows/desktop/api/sensorsapi/nf-sensorsapi-isensor-getproperties">ISensor::GetProperties</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sensorsapi/nn-sensorsapi-isensor">ISensor</a>
-
+<a href="/windows/desktop/api/sensorsapi/nn-sensorsapi-isensor">ISensor</a>

@@ -55,7 +55,7 @@ api_name:
 ## -description
 
 The SOCKADDR_IN6 structure specifies a transport address and port for the 
-  <a href="https://docs.microsoft.com/windows-hardware/drivers/network/af-inet6">AF_INET6</a> address family.
+  <a href="/windows-hardware/drivers/network/af-inet6">AF_INET6</a> address family.
 
 ## -struct-fields
 
@@ -74,7 +74,7 @@ The IPv6 flow information.
 ### -field sin6_addr
 
 An 
-     <a href="https://docs.microsoft.com/windows/desktop/api/in6addr/ns-in6addr-in6_addr">IN6_ADDR</a> structure that contains an IPv6 transport
+     <a href="/windows/desktop/api/in6addr/ns-in6addr-in6_addr">IN6_ADDR</a> structure that contains an IPv6 transport
      address.
 
 ### -field sin6_scope_id
@@ -242,23 +242,22 @@ All of the data in the SOCKADDR_IN6 structure, except for the address family, mu
     network-byte-order (big-endian).
 
 The size of the SOCKADDR_IN6 structure is too large to fit in the memory space that is provided by a 
-    <a href="https://docs.microsoft.com/windows/desktop/api/ws2def/ns-ws2def-sockaddr">SOCKADDR</a> structure. For a structure that is
+    <a href="/windows/desktop/api/ws2def/ns-ws2def-sockaddr">SOCKADDR</a> structure. For a structure that is
     guaranteed to be large enough to contain a transport address for all possible address families, see 
-    [SOCKADDR_STORAGE](/windows/win32/api/ws2def/ns-ws2def-sockaddr_storage_lh).
+    [SOCKADDR_STORAGE](../ws2def/ns-ws2def-sockaddr_storage_lh.md).
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/af-inet6">AF_INET6</a>
+<a href="/windows-hardware/drivers/network/af-inet6">AF_INET6</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/in6addr/ns-in6addr-in6_addr">IN6_ADDR</a>
+<a href="/windows/desktop/api/in6addr/ns-in6addr-in6_addr">IN6_ADDR</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ws2def/ns-ws2def-sockaddr">SOCKADDR</a>
+<a href="/windows/desktop/api/ws2def/ns-ws2def-sockaddr">SOCKADDR</a>
 
 
 
-[SOCKADDR_STORAGE](/windows/win32/api/ws2def/ns-ws2def-sockaddr_storage_lh)
-
+[SOCKADDR_STORAGE](../ws2def/ns-ws2def-sockaddr_storage_lh.md)

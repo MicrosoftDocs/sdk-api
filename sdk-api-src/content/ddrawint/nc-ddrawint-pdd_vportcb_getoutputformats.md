@@ -53,7 +53,7 @@ The <b>DdVideoPortGetOutputFormats</b> callback function determines the output f
 
 ### -param Arg1
 
-Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_getvportoutputformatdata">DD_GETVPORTOUTPUTFORMATDATA</a> structure that contains the information required for the driver to return the output formats the VPE object supports.
+Points to a <a href="/windows/desktop/api/ddrawint/ns-ddrawint-dd_getvportoutputformatdata">DD_GETVPORTOUTPUTFORMATDATA</a> structure that contains the information required for the driver to return the output formats the VPE object supports.
 
 ## -returns
 
@@ -67,7 +67,7 @@ DirectDraw calls <b>DdVideoPortGetOutputFormats</b> to obtain the number of outp
 
 <ul>
 <li>
-In the first call, the <b>lpddpfOutputFormats</b> member of the DD_GETVPORTOUTPUTFORMATDATA structure at <i>lpGetOutputFormats</i> is <b>NULL</b>. The driver should write the number of output formats that the VPE object supports in the <b>dwNumFormats</b> member of DD_GETVPORTOUTPUTFORMATDATA. Upon return, DirectDraw will allocate this number of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksmedia/ns-ksmedia-_ddpixelformat">DDPIXELFORMAT</a> structures to pass in the second call to <b>DdVideoPortGetOutputFormats</b>.
+In the first call, the <b>lpddpfOutputFormats</b> member of the DD_GETVPORTOUTPUTFORMATDATA structure at <i>lpGetOutputFormats</i> is <b>NULL</b>. The driver should write the number of output formats that the VPE object supports in the <b>dwNumFormats</b> member of DD_GETVPORTOUTPUTFORMATDATA. Upon return, DirectDraw will allocate this number of <a href="/windows-hardware/drivers/ddi/content/ksmedia/ns-ksmedia-_ddpixelformat">DDPIXELFORMAT</a> structures to pass in the second call to <b>DdVideoPortGetOutputFormats</b>.
 
 </li>
 <li>
@@ -75,13 +75,12 @@ In the second call, <b>lpddpfOutputFormats</b> points to the array of allocated 
 
 </li>
 </ul>
-If the <b>dwFlags</b> member of DD_GETVPORTOUTPUTFORMATDATA is set only to DDVPFORMAT_VIDEO, the driver should return only those output formats that are supported for normal video data. If <b>dwFlags</b> is set only to DDVPFORMAT_VBI, the driver should return only those formats supported for <a href="https://docs.microsoft.com/windows-hardware/drivers/">VBI</a> data. If <b>dwFlags</b> is set to both flags, the driver should return all formats supported by the <a href="https://docs.microsoft.com/windows-hardware/drivers/">VPE</a> object.
+If the <b>dwFlags</b> member of DD_GETVPORTOUTPUTFORMATDATA is set only to DDVPFORMAT_VIDEO, the driver should return only those output formats that are supported for normal video data. If <b>dwFlags</b> is set only to DDVPFORMAT_VBI, the driver should return only those formats supported for <a href="/windows-hardware/drivers/">VBI</a> data. If <b>dwFlags</b> is set to both flags, the driver should return all formats supported by the <a href="/windows-hardware/drivers/">VPE</a> object.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksmedia/ns-ksmedia-_ddpixelformat">DDPIXELFORMAT</a>
+<a href="/windows-hardware/drivers/ddi/content/ksmedia/ns-ksmedia-_ddpixelformat">DDPIXELFORMAT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_getvportoutputformatdata">DD_GETVPORTOUTPUTFORMATDATA</a>
-
+<a href="/windows/desktop/api/ddrawint/ns-ddrawint-dd_getvportoutputformatdata">DD_GETVPORTOUTPUTFORMATDATA</a>

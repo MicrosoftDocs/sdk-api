@@ -51,11 +51,11 @@ api_name:
 
 ## -description
 
-Represents a factory that can instantiate a WPD Automation <a href="https://docs.microsoft.com/previous-versions/windows/desktop/wiaaut/-wiaaut-device">Device</a> object.
+Represents a factory that can instantiate a WPD Automation <a href="/previous-versions/windows/desktop/wiaaut/-wiaaut-device">Device</a> object.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPortableDeviceDispatchFactory</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPortableDeviceDispatchFactory</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPortableDeviceDispatchFactory</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPortableDeviceDispatchFactory</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,10 +70,10 @@ The <b>IPortableDeviceDispatchFactory</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledevicedispatchfactory-getdevicedispatch">GetDeviceDispatch</a>
+<a href="/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledevicedispatchfactory-getdevicedispatch">GetDeviceDispatch</a>
 </td>
 <td align="left" width="63%">
-Instantiates a WPD Automation <a href="https://docs.microsoft.com/previous-versions/windows/desktop/wiaaut/-wiaaut-device">Device</a> object for a given WPD device identifier.
+Instantiates a WPD Automation <a href="/previous-versions/windows/desktop/wiaaut/-wiaaut-device">Device</a> object for a given WPD device identifier.
 
 </td>
 </tr>
@@ -95,19 +95,18 @@ HRESULT hr = CoCreateInstance(CLSID_PortableDeviceDispatchFactory, NULL, CLSCTX_
 #### Examples
 
 For an example of how to use the <b>IPortableDeviceDispatchFactory</b> interface to instantiate a WPD Automation <b>Device</b>  object, see 
-  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/wpdauto/instantiating-the-wpd-automation-factory-interface">Instantiating the WPD Automation Factory Interface</a>.
+  <a href="/previous-versions/windows/desktop/wpdauto/instantiating-the-wpd-automation-factory-interface">Instantiating the WPD Automation Factory Interface</a>.
 
 <div class="code"></div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd389207(v=vs.85)">Device Object</a>
+<a href="/previous-versions/windows/desktop/legacy/dd389207(v=vs.85)">Device Object</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/wpdauto/instantiating-the-wpd-automation-factory-interface">Instantiating the WPD Automation Factory Interface</a>
+<a href="/previous-versions/windows/desktop/wpdauto/instantiating-the-wpd-automation-factory-interface">Instantiating the WPD Automation Factory Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/wpdauto/wpd-automation-reference">WPD Automation Reference</a>
-
+<a href="/previous-versions/windows/desktop/wpdauto/wpd-automation-reference">WPD Automation Reference</a>

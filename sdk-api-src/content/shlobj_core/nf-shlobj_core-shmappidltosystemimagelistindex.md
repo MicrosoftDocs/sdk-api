@@ -58,15 +58,15 @@ Retrieves the icon index from the system image list that is associated with a fo
 
 ### -param pshf [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellfolder">IShellFolder</a>*</b>
+Type: <b><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellfolder">IShellFolder</a>*</b>
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellfolder">IShellFolder</a> interface pointer for the folder that contains the item.
+An <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellfolder">IShellFolder</a> interface pointer for the folder that contains the item.
 
 ### -param pidl [in]
 
 Type: <b>PCUITEMID_CHILD</b>
 
-A pointer to the item's <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> structure.
+A pointer to the item's <a href="/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> structure.
 
 ### -param piIndexSel [out, optional]
 
@@ -79,4 +79,3 @@ A pointer to an <b>int</b> that, when this function returns successfully, receiv
 Type: <b>int</b>
 
 Returns the index of the item's normal icon in the system image list if successful, or -1 otherwise.
-

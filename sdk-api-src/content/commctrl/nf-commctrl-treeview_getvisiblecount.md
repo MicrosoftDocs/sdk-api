@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Obtains the number of items that can be fully visible in the client window of a tree-view control. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/tvm-getvisiblecount">TVM_GETVISIBLECOUNT</a> message explicitly.
+Obtains the number of items that can be fully visible in the client window of a tree-view control. You can use this macro or send the <a href="/windows/desktop/Controls/tvm-getvisiblecount">TVM_GETVISIBLECOUNT</a> message explicitly.
 
 ## -parameters
 
 ### -param hwnd
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 Handle to the tree-view control.
 
@@ -66,4 +66,3 @@ The number of items that can be fully visible may be greater than the number of 
 
 Note that the return value is the number of items that can be 
 				<i>fully</i> visible. If you can see all of 20 items and part of one more item, the return value is 20.
-

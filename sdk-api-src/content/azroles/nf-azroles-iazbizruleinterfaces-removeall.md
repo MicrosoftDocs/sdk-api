@@ -56,9 +56,8 @@ The <b>RemoveAll</b> method removes all interfaces from the list of interfaces t
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazbizruleinterfaces-addinterface">AddInterface</a>
+<a href="/windows/desktop/api/azroles/nf-azroles-iazbizruleinterfaces-addinterface">AddInterface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazbizruleinterfaces">IAzBizRuleInterfaces</a>
-
+<a href="/windows/desktop/api/azroles/nn-azroles-iazbizruleinterfaces">IAzBizRuleInterfaces</a>

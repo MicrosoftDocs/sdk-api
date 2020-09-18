@@ -64,9 +64,8 @@ This method returns S_OK on success.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-ioleinplaceactiveobject">IOleInPlaceActiveObject</a>
+<a href="/windows/desktop/api/oleidl/nn-oleidl-ioleinplaceactiveobject">IOleInPlaceActiveObject</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleinplaceactiveobject-enablemodeless">IOleInPlaceActiveObject::EnableModeless</a>
-
+<a href="/windows/desktop/api/oleidl/nf-oleidl-ioleinplaceactiveobject-enablemodeless">IOleInPlaceActiveObject::EnableModeless</a>

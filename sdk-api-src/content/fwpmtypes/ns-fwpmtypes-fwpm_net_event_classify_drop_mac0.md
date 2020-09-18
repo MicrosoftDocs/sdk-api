@@ -98,7 +98,7 @@ The LUID identifying the filter where the failure occured.
 
 ### -field layerId
 
-The identifier of the filtering layer where the failure occurred. For more information, see <a href="https://docs.microsoft.com/windows/desktop/FWP/management-filtering-layer-identifiers-">Filtering Layer Identifiers</a>
+The identifier of the filtering layer where the failure occurred. For more information, see <a href="/windows/desktop/FWP/management-filtering-layer-identifiers-">Filtering Layer Identifiers</a>
 
 ### -field reauthReason
 
@@ -179,5 +179,4 @@ Transient destination port of a packet within the vSwitch.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>
-
+<a href="/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>

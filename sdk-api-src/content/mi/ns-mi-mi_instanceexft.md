@@ -52,14 +52,14 @@ api_name:
 
 ## -description
 
-Extends the <a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_instanceft">MI_InstanceFT</a> 
+Extends the <a href="/windows/desktop/api/mi/ns-mi-mi_instanceft">MI_InstanceFT</a> 
     structure.
 
 ## -struct-fields
 
 ### -field parent
 
-Parent <a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_instanceft">MI_InstanceFT</a> function table.
+Parent <a href="/windows/desktop/api/mi/ns-mi-mi_instanceft">MI_InstanceFT</a> function table.
 
 ### -field MI_Result
 
@@ -68,10 +68,9 @@ TBD
 ### -field Normalize
 
 Parses the structure and returns the 
-       <a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_instanceft">MI_InstanceFT</a> function table. See 
-       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_instance_normalize">MI_Instance_Normalize</a>.
+       <a href="/windows/desktop/api/mi/ns-mi-mi_instanceft">MI_InstanceFT</a> function table. See 
+       <a href="/previous-versions/windows/desktop/api/mi/nf-mi-mi_instance_normalize">MI_Instance_Normalize</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/wmi_v2/mi-structures-and-unions">MI Structures and Unions</a>
-
+<a href="/previous-versions/windows/desktop/wmi_v2/mi-structures-and-unions">MI Structures and Unions</a>

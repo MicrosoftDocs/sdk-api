@@ -58,7 +58,7 @@ Specifies metadata that is unique to a specific device.
 
 ### -field FriendlyName
 
-Reference to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-wsd_localized_string_list">WSD_LOCALIZED_STRING_LIST</a> structure that contains the list of localized friendly names for the device. It should be set to fewer than 256 characters.
+Reference to a <a href="/windows/desktop/api/wsdtypes/ns-wsdtypes-wsd_localized_string_list">WSD_LOCALIZED_STRING_LIST</a> structure that contains the list of localized friendly names for the device. It should be set to fewer than 256 characters.
 
 ### -field FirmwareVersion
 
@@ -70,7 +70,7 @@ The serial number of the device. It should be set to fewer than 256 characters.
 
 ### -field Any
 
-Reference to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdxmldom/ns-wsdxmldom-wsdxml_element">WSDXML_ELEMENT</a> structure that provides an extensible space for devices to add custom metadata to the device specific section. For example, you can use this to add a user-defined name for the device.
+Reference to a <a href="/windows/desktop/api/wsdxmldom/ns-wsdxmldom-wsdxml_element">WSDXML_ELEMENT</a> structure that provides an extensible space for devices to add custom metadata to the device specific section. For example, you can use this to add a user-defined name for the device.
 
 ## -remarks
 
@@ -89,4 +89,3 @@ ThisDevice metadata follows this form:
         923450982349058
     &lt;/wsd:SerialNumber&gt;
  &lt;/wsd:ThisDevice&gt;</code></pre>
-

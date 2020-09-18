@@ -70,23 +70,23 @@ If this member is <b>TRUE</b>, there is a lid switch.
 
 ### -field SystemS1
 
-If this member is <b>TRUE</b>, the operating system supports <a href="https://docs.microsoft.com/windows/desktop/Power/system-power-states">sleep state S1</a>.
+If this member is <b>TRUE</b>, the operating system supports <a href="/windows/desktop/Power/system-power-states">sleep state S1</a>.
 
 ### -field SystemS2
 
-If this member is <b>TRUE</b>, the operating system supports <a href="https://docs.microsoft.com/windows/desktop/Power/system-power-states">sleep state S2</a>.
+If this member is <b>TRUE</b>, the operating system supports <a href="/windows/desktop/Power/system-power-states">sleep state S2</a>.
 
 ### -field SystemS3
 
-If this member is <b>TRUE</b>, the operating system supports <a href="https://docs.microsoft.com/windows/desktop/Power/system-power-states">sleep state S3</a>.
+If this member is <b>TRUE</b>, the operating system supports <a href="/windows/desktop/Power/system-power-states">sleep state S3</a>.
 
 ### -field SystemS4
 
-If this member is <b>TRUE</b>, the operating system supports <a href="https://docs.microsoft.com/windows/desktop/Power/system-power-states">sleep state S4</a> (hibernation).
+If this member is <b>TRUE</b>, the operating system supports <a href="/windows/desktop/Power/system-power-states">sleep state S4</a> (hibernation).
 
 ### -field SystemS5
 
-If this member is <b>TRUE</b>, the operating system supports <a href="https://docs.microsoft.com/windows/desktop/Power/system-power-states">power off state S5</a> (soft off).
+If this member is <b>TRUE</b>, the operating system supports <a href="/windows/desktop/Power/system-power-states">power off state S5</a> (soft off).
 
 ### -field HiberFilePresent
 
@@ -133,7 +133,7 @@ The maximum level of system processor throttling supported, expressed as a perce
 
 ### -field FastSystemS4
 
-If this member is <b>TRUE</b>, the system supports the <a href="https://docs.microsoft.com/windows/desktop/Power/system-power-states">hybrid sleep state</a>.
+If this member is <b>TRUE</b>, the system supports the <a href="/windows/desktop/Power/system-power-states">hybrid sleep state</a>.
 
 ### -field Hiberboot
 
@@ -169,42 +169,42 @@ If this member is <b>TRUE</b>, the system batteries are short-term. Short-term b
 
 ### -field BatteryScale
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-battery_reporting_scale">BATTERY_REPORTING_SCALE</a> structure 
+A <a href="/windows/desktop/api/winnt/ns-winnt-battery_reporting_scale">BATTERY_REPORTING_SCALE</a> structure 
       that contains information about how system battery metrics are reported.
 
 ### -field AcOnLineWake
 
-The lowest <a href="https://docs.microsoft.com/windows/desktop/Power/system-power-states">system sleep state</a> (Sx) that will generate a wake event when the system is on AC power. This 
-      member must be one of the <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ne-winnt-system_power_state">SYSTEM_POWER_STATE</a> 
+The lowest <a href="/windows/desktop/Power/system-power-states">system sleep state</a> (Sx) that will generate a wake event when the system is on AC power. This 
+      member must be one of the <a href="/windows/desktop/api/winnt/ne-winnt-system_power_state">SYSTEM_POWER_STATE</a> 
       enumeration type values.
 
 ### -field SoftLidWake
 
-The lowest <a href="https://docs.microsoft.com/windows/desktop/Power/system-power-states">system sleep state</a> (Sx) that will generate a wake event via the lid switch. This member must be 
-      one of the <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ne-winnt-system_power_state">SYSTEM_POWER_STATE</a> enumeration 
+The lowest <a href="/windows/desktop/Power/system-power-states">system sleep state</a> (Sx) that will generate a wake event via the lid switch. This member must be 
+      one of the <a href="/windows/desktop/api/winnt/ne-winnt-system_power_state">SYSTEM_POWER_STATE</a> enumeration 
       type values.
 
 ### -field RtcWake
 
-The lowest <a href="https://docs.microsoft.com/windows/desktop/Power/system-power-states">system sleep state</a> (Sx) supported by hardware that will generate a wake event via the Real Time Clock (RTC). This 
+The lowest <a href="/windows/desktop/Power/system-power-states">system sleep state</a> (Sx) supported by hardware that will generate a wake event via the Real Time Clock (RTC). This 
       member must be one of the 
-      <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ne-winnt-system_power_state">SYSTEM_POWER_STATE</a> enumeration type 
+      <a href="/windows/desktop/api/winnt/ne-winnt-system_power_state">SYSTEM_POWER_STATE</a> enumeration type 
       values. 
 
 To wake the computer using the RTC, the operating system must also support waking from the sleep state the computer is in when the RTC generates the wake event. Therefore, the  effective lowest sleep state from which an RTC wake event can wake the computer is the lowest sleep state supported by the operating system that is  equal to or higher than  the  value  of <b>RtcWake</b>.  To determine  the sleep states that the operating system supports, check the   <b>SystemS1</b>, <b>SystemS2</b>, <b>SystemS3</b>, and <b>SystemS4</b> members.
 
 ### -field MinDeviceWakeState
 
-The minimum allowable <a href="https://docs.microsoft.com/windows/desktop/Power/system-power-states">system power state</a> supporting wake events. This member must be one of the 
-      <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ne-winnt-system_power_state">SYSTEM_POWER_STATE</a> enumeration type 
+The minimum allowable <a href="/windows/desktop/Power/system-power-states">system power state</a> supporting wake events. This member must be one of the 
+      <a href="/windows/desktop/api/winnt/ne-winnt-system_power_state">SYSTEM_POWER_STATE</a> enumeration type 
       values. Note that this state may change as different device drivers are installed on the system.
 
 ### -field DefaultLowLatencyWake
 
-The default <a href="https://docs.microsoft.com/windows/desktop/Power/system-power-states">system power state</a> used if an application calls 
-      <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-requestwakeuplatency">RequestWakeupLatency</a> with 
+The default <a href="/windows/desktop/Power/system-power-states">system power state</a> used if an application calls 
+      <a href="/windows/desktop/api/winbase/nf-winbase-requestwakeuplatency">RequestWakeupLatency</a> with 
       <b>LT_LOWEST_LATENCY</b>. This member must be one of the 
-      <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ne-winnt-system_power_state">SYSTEM_POWER_STATE</a> enumeration type 
+      <a href="/windows/desktop/api/winnt/ne-winnt-system_power_state">SYSTEM_POWER_STATE</a> enumeration type 
       values.
 
 ### -field HiberBoot
@@ -213,9 +213,8 @@ If this member is set to <b>TRUE</b>, the system is currently capable of perform
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/powerbase/nf-powerbase-callntpowerinformation">CallNtPowerInformation</a>
+<a href="/windows/desktop/api/powerbase/nf-powerbase-callntpowerinformation">CallNtPowerInformation</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Power/system-power-states">System Power States</a>
-
+<a href="/windows/desktop/Power/system-power-states">System Power States</a>

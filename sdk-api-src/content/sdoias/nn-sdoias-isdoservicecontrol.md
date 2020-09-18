@@ -55,7 +55,7 @@ Use the
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISdoServiceControl</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ISdoServiceControl</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISdoServiceControl</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ISdoServiceControl</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>ISdoServiceControl</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/nf-sdoias-isdoservicecontrol-getservicestatus">GetServiceStatus</a>
+<a href="/windows/desktop/api/sdoias/nf-sdoias-isdoservicecontrol-getservicestatus">GetServiceStatus</a>
 </td>
 <td align="left" width="63%">
 Retrieves the current status of the service.
@@ -79,7 +79,7 @@ Retrieves the current status of the service.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/nf-sdoias-isdoservicecontrol-resetservice">ResetService</a>
+<a href="/windows/desktop/api/sdoias/nf-sdoias-isdoservicecontrol-resetservice">ResetService</a>
 </td>
 <td align="left" width="63%">
 Resets the service.
@@ -88,7 +88,7 @@ Resets the service.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/nf-sdoias-isdoservicecontrol-startservice">StartService</a>
+<a href="/windows/desktop/api/sdoias/nf-sdoias-isdoservicecontrol-startservice">StartService</a>
 </td>
 <td align="left" width="63%">
 Starts the service.
@@ -97,7 +97,7 @@ Starts the service.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/nf-sdoias-isdoservicecontrol-stopservice">StopService</a>
+<a href="/windows/desktop/api/sdoias/nf-sdoias-isdoservicecontrol-stopservice">StopService</a>
 </td>
 <td align="left" width="63%">
 Stops the service.
@@ -109,18 +109,17 @@ Stops the service.
 ## -remarks
 
 Use the 
-<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/nf-sdoias-isdomachine-getservicesdo">ISdoMachine::GetServiceSDO</a> method to retrieve a pointer to an 
+<a href="/windows/desktop/api/sdoias/nf-sdoias-isdomachine-getservicesdo">ISdoMachine::GetServiceSDO</a> method to retrieve a pointer to an 
 <b>ISdoServiceControl</b> interface.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Nps/sdo-server-data-objects-interfaces">Server Data Objects Interfaces</a>
+<a href="/windows/desktop/Nps/sdo-server-data-objects-interfaces">Server Data Objects Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Nps/sdo-server-data-objects-reference">Server Data Objects Reference</a>
-
+<a href="/windows/desktop/Nps/sdo-server-data-objects-reference">Server Data Objects Reference</a>

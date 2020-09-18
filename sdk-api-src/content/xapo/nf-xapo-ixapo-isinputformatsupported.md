@@ -64,7 +64,7 @@ Input format to check for being supported.
 
 ### -param ppSupportedInputFormat
 
-If not NULL, and the input format is not supported for the given output format, <i>ppSupportedInputFormat</i> returns a pointer to the closest input format that is supported. Use <a href="https://docs.microsoft.com/windows/desktop/api/xapo/nf-xapo-xapofree">XAPOFree</a> to free the returned structure.
+If not NULL, and the input format is not supported for the given output format, <i>ppSupportedInputFormat</i> returns a pointer to the closest input format that is supported. Use <a href="/windows/desktop/api/xapo/nf-xapo-xapofree">XAPOFree</a> to free the returned structure.
 
 ## -returns
 
@@ -72,7 +72,7 @@ Returns S_OK if the format pair is supported. Returns XAPO_E_FORMAT_UNSUPPORTED 
 
 ## -remarks
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/xapo/nf-xapo-ixapo-isoutputformatsupported">IXAPO::IsOutputFormatSupported</a> and <b>IsInputFormatSupported</b> methods allow an XAPO to indicate which audio formats it is capable of processing. If a requested format is not supported, the XAPO should return the closest format that it does support. The closest format should be determined based on frame rate, bit depth, and channel count, in that order of importance. The behavior of <b>IsInputFormatSupported</b> is allowed to change, based on the internal state of the XAPO, but its behavior should remain constant between calls to the <a href="https://docs.microsoft.com/windows/desktop/api/xapo/nf-xapo-ixapo-lockforprocess">IXAPO::LockForProcess</a> and <a href="https://docs.microsoft.com/windows/desktop/api/xapo/nf-xapo-ixapo-unlockforprocess">IXAPO::UnlockForProcess</a> methods.
+The <a href="/windows/desktop/api/xapo/nf-xapo-ixapo-isoutputformatsupported">IXAPO::IsOutputFormatSupported</a> and <b>IsInputFormatSupported</b> methods allow an XAPO to indicate which audio formats it is capable of processing. If a requested format is not supported, the XAPO should return the closest format that it does support. The closest format should be determined based on frame rate, bit depth, and channel count, in that order of importance. The behavior of <b>IsInputFormatSupported</b> is allowed to change, based on the internal state of the XAPO, but its behavior should remain constant between calls to the <a href="/windows/desktop/api/xapo/nf-xapo-ixapo-lockforprocess">IXAPO::LockForProcess</a> and <a href="/windows/desktop/api/xapo/nf-xapo-ixapo-unlockforprocess">IXAPO::UnlockForProcess</a> methods.
 
 
 
@@ -81,5 +81,4 @@ Windows 10 (XAudio2.9); Windows 8, Windows Phone 8 (XAudio 2.8); DirectX SDK
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xapo/nn-xapo-ixapo">IXAPO</a>
-
+<a href="/windows/desktop/api/xapo/nn-xapo-ixapo">IXAPO</a>

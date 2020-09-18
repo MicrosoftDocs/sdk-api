@@ -50,11 +50,10 @@ api_name:
 
 ## -description
 
-Extracts the access code from a control code. For more information on the various codes that comprise a control code, see  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/control-code-architecture">Control Code Architecture</a>.
+Extracts the access code from a control code. For more information on the various codes that comprise a control code, see  <a href="/previous-versions/windows/desktop/mscs/control-code-architecture">Control Code Architecture</a>.
 
 ## -parameters
 
 ### -param ControlCode
 
 The control code to be analyzed.
-

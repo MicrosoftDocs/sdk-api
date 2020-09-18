@@ -98,7 +98,7 @@ Specifies that referrals may be chased. If the root search is not specified in t
 
 ### -field ADSIPROP_SORT_ON
 
-Specifies that the server sorts the result set. Use the  <a href="https://docs.microsoft.com/windows/desktop/api/iads/ns-iads-ads_sortkey">ADS_SORTKEY</a> structure to specify the sort keys.
+Specifies that the server sorts the result set. Use the  <a href="/windows/desktop/api/iads/ns-iads-ads_sortkey">ADS_SORTKEY</a> structure to specify the sort keys.
 
 ### -field ADSIPROP_CACHE_RESULTS
 
@@ -106,7 +106,7 @@ Specifies if the result should be cached on the client side. By default, ADSI ca
 
 ### -field ADSIPROP_ADSIFLAG
 
-Allows the OLEDB client to specify bind flags to use when binding to the server. Valid values are those allowed by  <a href="https://docs.microsoft.com/windows/desktop/api/adshlp/nf-adshlp-adsopenobject">ADsOpenObject</a>. It is accessed from ADO scripts using the property name "ADSI Flag."
+Allows the OLEDB client to specify bind flags to use when binding to the server. Valid values are those allowed by  <a href="/windows/desktop/api/adshlp/nf-adshlp-adsopenobject">ADsOpenObject</a>. It is accessed from ADO scripts using the property name "ADSI Flag."
 
 ## -remarks
 
@@ -114,7 +114,7 @@ Because VBScript cannot read data from a type library, VBScript applications do 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-enumerations">ADSI Enumerations</a>
+<a href="/windows/desktop/ADSI/adsi-enumerations">ADSI Enumerations</a>
 
 
 
@@ -130,5 +130,4 @@ Because VBScript cannot read data from a type library, VBScript applications do 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/ns-iads-ads_sortkey">ADS_SORTKEY</a>
-
+<a href="/windows/desktop/api/iads/ns-iads-ads_sortkey">ADS_SORTKEY</a>

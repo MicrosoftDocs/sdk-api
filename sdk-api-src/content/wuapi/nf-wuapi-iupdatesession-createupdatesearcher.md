@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Returns an <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdatesearcher">IUpdateSearcher</a> interface for this session.
+Returns an <a href="/windows/desktop/api/wuapi/nn-wuapi-iupdatesearcher">IUpdateSearcher</a> interface for this session.
 
 ## -parameters
 
 ### -param retval [out]
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdatesearcher">IUpdateSearcher</a> interface for this session.
+An <a href="/windows/desktop/api/wuapi/nn-wuapi-iupdatesearcher">IUpdateSearcher</a> interface for this session.
 
 ## -returns
 
@@ -84,9 +84,8 @@ A parameter value is invalid.
 
 ## -remarks
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdatesearcher">IUpdateSearcher</a> interface can also be created by using the UpdateSearcher coclass.
+An <a href="/windows/desktop/api/wuapi/nn-wuapi-iupdatesearcher">IUpdateSearcher</a> interface can also be created by using the UpdateSearcher coclass.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdatesession">IUpdateSession</a>
-
+<a href="/windows/desktop/api/wuapi/nn-wuapi-iupdatesession">IUpdateSession</a>

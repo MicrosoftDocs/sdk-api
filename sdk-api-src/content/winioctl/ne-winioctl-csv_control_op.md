@@ -106,5 +106,4 @@ An alternative to calling the [FSCTL_CSV_CONTROL](ni-winioctl-fsctl_csv_control.
 * [CSV_QUERY_MDS_PATH](ns-winioctl-csv_query_mds_path.md)
 * [CSV_QUERY_REDIRECT_STATE](ns-winioctl-csv_query_redirect_state.md)
 * [FSCTL_CSV_CONTROL](ni-winioctl-fsctl_csv_control.md)
-* [File Management Enumerations](https://docs.microsoft.com/windows/desktop/FileIO/file-management-enumerations)
-
+* [File Management Enumerations](/windows/desktop/FileIO/file-management-enumerations)

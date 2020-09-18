@@ -56,7 +56,7 @@ The <b>WinUsb_GetOverlappedResult</b> function retrieves the results of an overl
 
 ### -param InterfaceHandle [in]
 
-An opaque handle to the first interface on the device, which is returned by <a href="https://docs.microsoft.com/windows/desktop/api/winusb/nf-winusb-winusb_initialize">WinUsb_Initialize</a>.
+An opaque handle to the first interface on the device, which is returned by <a href="/windows/desktop/api/winusb/nf-winusb-winusb_initialize">WinUsb_Initialize</a>.
 
 ### -param lpOverlapped [in]
 
@@ -76,7 +76,7 @@ If the function succeeds, the return value is any number other than zero. If the
 
 ## -remarks
 
-This function is like the Win32 API routine, <b>GetOverlappedResult</b>, with one difference—instead of passing a file handle that is returned from <b>CreateFile</b>, the caller passes an interface handle that is returned from <a href="https://docs.microsoft.com/windows/desktop/api/winusb/nf-winusb-winusb_initialize">WinUsb_Initialize</a>. The caller can use either API routine, if the appropriate handle is passed. The <b>WinUsb_GetOverlappedResult </b> function extracts the file handle from the interface handle and then calls <b>GetOverlappedResult</b>.
+This function is like the Win32 API routine, <b>GetOverlappedResult</b>, with one difference—instead of passing a file handle that is returned from <b>CreateFile</b>, the caller passes an interface handle that is returned from <a href="/windows/desktop/api/winusb/nf-winusb-winusb_initialize">WinUsb_Initialize</a>. The caller can use either API routine, if the appropriate handle is passed. The <b>WinUsb_GetOverlappedResult </b> function extracts the file handle from the interface handle and then calls <b>GetOverlappedResult</b>.
 
 The results that are reported by the <b>WinUsb_GetOverlappedResult</b> function are those from the specified handle's last overlapped operation to which the specified <b>OVERLAPPED</b> structure was provided, and for which the operation's results were pending. A pending operation is indicated when the function that started the operation returns <b>FALSE</b>, and the <b>GetLastError</b> routine returns ERROR_IO_PENDING. When an I/O operation is pending, the function that started the operation resets the <b>hEvent</b> member of the <b>OVERLAPPED</b> structure to the nonsignaled state. Then when the pending operation has been completed, the system sets the event object to the signaled state.
 
@@ -88,17 +88,16 @@ If the <b>hEvent</b> member of the <b>OVERLAPPED</b> structure is <b>NULL</b>, t
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/index">WinUSB</a>
+<a href="/windows-hardware/drivers/ddi/content/index">WinUSB</a>
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows/iot-core/learn-about-hardware/hardwarecompatlist">WinUSB Functions</a>
+<a href="/windows/iot-core/learn-about-hardware/hardwarecompatlist">WinUSB Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winusb/nf-winusb-winusb_initialize">WinUsb_Initialize</a>
+<a href="/windows/desktop/api/winusb/nf-winusb-winusb_initialize">WinUsb_Initialize</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/usb/ns-usb-_urb_control_descriptor_request">_URB_CONTROL_DESCRIPTOR_REQUEST</a>
-
+<a href="/windows-hardware/drivers/ddi/content/usb/ns-usb-_urb_control_descriptor_request">_URB_CONTROL_DESCRIPTOR_REQUEST</a>

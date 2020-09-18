@@ -67,7 +67,7 @@ Points to the miniport driver's device extension.
 
 #### - SkipNextFieldInfo
 
-Points to a <a href="https://docs.microsoft.com/windows/desktop/api/dxmini/ns-dxmini-ddskipnextfieldinfo">DDSKIPNEXTFIELDINFO</a> structure that contains the skip information for the <a href="https://docs.microsoft.com/windows-hardware/drivers/">video port extensions (VPE)</a> object.
+Points to a <a href="/windows/desktop/api/dxmini/ns-dxmini-ddskipnextfieldinfo">DDSKIPNEXTFIELDINFO</a> structure that contains the skip information for the <a href="/windows-hardware/drivers/">video port extensions (VPE)</a> object.
 
 
 #### - lpOutput
@@ -84,5 +84,4 @@ If the <b>dwSkipFlags</b> member of the DDSKIPNEXTFIELDINFO structure at <i>Skip
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dxmini/ns-dxmini-ddskipnextfieldinfo">DDSKIPNEXTFIELDINFO</a>
-
+<a href="/windows/desktop/api/dxmini/ns-dxmini-ddskipnextfieldinfo">DDSKIPNEXTFIELDINFO</a>

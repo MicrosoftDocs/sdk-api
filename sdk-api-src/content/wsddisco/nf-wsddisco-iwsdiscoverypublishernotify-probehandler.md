@@ -50,17 +50,17 @@ api_name:
 
 ## -description
 
-Is called when a <a href="https://docs.microsoft.com/windows/desktop/WsdApi/probe-message">Probe</a> is received by the discovery publisher.
+Is called when a <a href="/windows/desktop/WsdApi/probe-message">Probe</a> is received by the discovery publisher.
 
 ## -parameters
 
 ### -param pSoap [in]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-wsd_soap_message">WSD_SOAP_MESSAGE</a> structure that contains the Probe message received by the discovery publisher.
+Pointer to a <a href="/windows/desktop/api/wsdtypes/ns-wsdtypes-wsd_soap_message">WSD_SOAP_MESSAGE</a> structure that contains the Probe message received by the discovery publisher.
 
 ### -param pMessageParameters [in]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/wsdbase/nn-wsdbase-iwsdmessageparameters">IWSDMessageParameters</a> interface that contains transport information associated with the received message.
+Pointer to an <a href="/windows/desktop/api/wsdbase/nn-wsdbase-iwsdmessageparameters">IWSDMessageParameters</a> interface that contains transport information associated with the received message.
 
 ## -returns
 
@@ -68,11 +68,10 @@ The return value is not meaningful. An implementer should return S_OK.
 
 ## -remarks
 
-<b>ProbeHandler</b> is called whenever a <a href="https://docs.microsoft.com/windows/desktop/WsdApi/probe-message">Probe</a> is received by the discovery publisher. It is the responsibility of the callback interface to then call <a href="https://docs.microsoft.com/windows/desktop/api/wsddisco/nf-wsddisco-iwsdiscoverypublisher-matchprobe">MatchProbe</a> or <a href="https://docs.microsoft.com/windows/desktop/api/wsddisco/nf-wsddisco-iwsdiscoverypublisher-matchprobeex">MatchProbeEx</a> with host information to determine whether or not the received Probe matches the host.
+<b>ProbeHandler</b> is called whenever a <a href="/windows/desktop/WsdApi/probe-message">Probe</a> is received by the discovery publisher. It is the responsibility of the callback interface to then call <a href="/windows/desktop/api/wsddisco/nf-wsddisco-iwsdiscoverypublisher-matchprobe">MatchProbe</a> or <a href="/windows/desktop/api/wsddisco/nf-wsddisco-iwsdiscoverypublisher-matchprobeex">MatchProbeEx</a> with host information to determine whether or not the received Probe matches the host.
 
-The body of the Probe message passed to <i>pSoap</i> can be cast to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-wsd_probe">WSD_PROBE</a> structure.
+The body of the Probe message passed to <i>pSoap</i> can be cast to a <a href="/windows/desktop/api/wsdtypes/ns-wsdtypes-wsd_probe">WSD_PROBE</a> structure.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wsddisco/nn-wsddisco-iwsdiscoverypublishernotify">IWSDiscoveryPublisherNotify</a>
-
+<a href="/windows/desktop/api/wsddisco/nn-wsddisco-iwsdiscoverypublishernotify">IWSDiscoveryPublisherNotify</a>

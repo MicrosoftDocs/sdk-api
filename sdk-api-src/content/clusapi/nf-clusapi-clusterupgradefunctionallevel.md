@@ -64,7 +64,7 @@ A handle to the cluster to upgrade.
 
 ### -param pfnProgressCallback [in, optional]
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nc-clusapi-pcluster_upgrade_progress_callback">ClusterUpgradeProgressCallback</a> callback function that retrieves the status of the rolling upgrade.
+A pointer to the <a href="/windows/desktop/api/clusapi/nc-clusapi-pcluster_upgrade_progress_callback">ClusterUpgradeProgressCallback</a> callback function that retrieves the status of the rolling upgrade.
 
 ### -param pvCallbackArg [in, optional]
 
@@ -76,9 +76,8 @@ If the operation succeeds, the function returns <b>ERROR_SUCCESS</b>. If the ope
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusters-clusterfunctionallevel">ClusterFunctionalLevel</a>
+<a href="/previous-versions/windows/desktop/mscs/clusters-clusterfunctionallevel">ClusterFunctionalLevel</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-management-functions">Failover Cluster Management Functions</a>
-
+<a href="/previous-versions/windows/desktop/mscs/cluster-management-functions">Failover Cluster Management Functions</a>

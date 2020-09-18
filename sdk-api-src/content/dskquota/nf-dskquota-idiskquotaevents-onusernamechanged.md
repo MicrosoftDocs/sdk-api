@@ -51,14 +51,14 @@ api_name:
 ## -description
 
 Notifies the client's connection sink whenever a user's SID has been asynchronously resolved. If 
-<a href="https://docs.microsoft.com/windows/desktop/api/dskquota/nf-dskquota-idiskquotauser-getaccountstatus">IDiskQuotaUser::GetAccountStatus</a> returns DISKQUOTA_USER_ACCOUNT_RESOLVED, the user's account container name, logon name, and display name strings are available in the quota user object.
+<a href="/windows/desktop/api/dskquota/nf-dskquota-idiskquotauser-getaccountstatus">IDiskQuotaUser::GetAccountStatus</a> returns DISKQUOTA_USER_ACCOUNT_RESOLVED, the user's account container name, logon name, and display name strings are available in the quota user object.
 
 ## -parameters
 
 ### -param pUser [in]
 
 A pointer to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/dskquota/nn-dskquota-idiskquotauser">IDiskQuotaUser</a> interface for the quota user object. Do not  call <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">Release</a> on this pointer. The <b>DiskQuotaControl</b> object controls the lifetime of the user object.
+<a href="/windows/desktop/api/dskquota/nn-dskquota-idiskquotauser">IDiskQuotaUser</a> interface for the quota user object. Do not  call <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">Release</a> on this pointer. The <b>DiskQuotaControl</b> object controls the lifetime of the user object.
 
 ## -returns
 
@@ -66,13 +66,12 @@ The return value is ignored.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/disk-management-interfaces">Disk Management Interfaces</a>
+<a href="/windows/desktop/FileIO/disk-management-interfaces">Disk Management Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/managing-disk-quotas">Disk Quotas</a>
+<a href="/windows/desktop/FileIO/managing-disk-quotas">Disk Quotas</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dskquota/nn-dskquota-idiskquotaevents">IDiskQuotaEvents</a>
-
+<a href="/windows/desktop/api/dskquota/nn-dskquota-idiskquotaevents">IDiskQuotaEvents</a>

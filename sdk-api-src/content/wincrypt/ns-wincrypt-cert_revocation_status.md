@@ -55,7 +55,7 @@ api_name:
 ## -description
 
 The <b>CERT_REVOCATION_STATUS</b> structure contains information on the revocation status of the certificate. It is passed to and returned by 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certverifyrevocation">CertVerifyRevocation</a>. On return from the function, it specifies the status of a revoked or unchecked context.
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-certverifyrevocation">CertVerifyRevocation</a>. On return from the function, it specifies the status of a revoked or unchecked context.
 
 ## -struct-fields
 
@@ -67,21 +67,21 @@ Size of this structure in bytes.
 
 
 Upon input to 
-<b>CERT_REVOCATION_STATUS</b>, <b>cbSize</b> must be set to a size greater than or equal to the size of a <b>CERT_REVOCATION_STATUS</b> structure. Otherwise, <b>CERT_REVOCATION_STATUS</b> returns <b>FALSE</b> and <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns E_INVALIDARG.
+<b>CERT_REVOCATION_STATUS</b>, <b>cbSize</b> must be set to a size greater than or equal to the size of a <b>CERT_REVOCATION_STATUS</b> structure. Otherwise, <b>CERT_REVOCATION_STATUS</b> returns <b>FALSE</b> and <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns E_INVALIDARG.
 
 ### -field dwIndex
 
 Specifies an index value for the <i>rgpvContext</i> array passed to 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certverifyrevocation">CertVerifyRevocation</a>. It is the index of the first <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">context</a> in that array that was revoked or that could not be checked for revocation. For information about the contexts that were not checked, <b>CertVerifyRevocation</b> is called again, specifying a <i>rgpvContext</i> array that contains the unchecked contexts from the original list.
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-certverifyrevocation">CertVerifyRevocation</a>. It is the index of the first <a href="/windows/desktop/SecGloss/c-gly">context</a> in that array that was revoked or that could not be checked for revocation. For information about the contexts that were not checked, <b>CertVerifyRevocation</b> is called again, specifying a <i>rgpvContext</i> array that contains the unchecked contexts from the original list.
 
 ### -field dwError
 
-Specifies the returned error status. This value matches the return value of <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> on return from the call to <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certverifyrevocation">CertVerifyRevocation</a>. For the list of these error values, see the table in the Return Values section of 
+Specifies the returned error status. This value matches the return value of <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> on return from the call to <a href="/windows/desktop/api/wincrypt/nf-wincrypt-certverifyrevocation">CertVerifyRevocation</a>. For the list of these error values, see the table in the Return Values section of 
 <b>CertVerifyRevocation</b>.
 
 ### -field dwReason
 
-Specifies the cause of the error. This member is set only if <b>dwError</b> is CRYPT_E_REVOKED. It contains a code that indicates why the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">context</a> was revoked. It can be one of the following values.
+Specifies the cause of the error. This member is set only if <b>dwError</b> is CRYPT_E_REVOKED. It contains a code that indicates why the <a href="/windows/desktop/SecGloss/c-gly">context</a> was revoked. It can be one of the following values.
 
 <table>
 <tr>
@@ -170,5 +170,4 @@ Depending on <b>cbSize</b>, this structure can contain this member. If present, 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certverifyrevocation">CertVerifyRevocation</a>
-
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-certverifyrevocation">CertVerifyRevocation</a>

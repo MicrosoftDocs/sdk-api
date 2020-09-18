@@ -63,26 +63,26 @@ The <b>PEVENT_TRACE_BUFFER_CALLBACK</b> type defines a pointer to this callback 
 #### - Buffer [in]
 
 Pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/ETW/event-trace-logfile">EVENT_TRACE_LOGFILE</a> structure that contains information about the buffer.
+<a href="/windows/desktop/ETW/event-trace-logfile">EVENT_TRACE_LOGFILE</a> structure that contains information about the buffer.
 
 ## -returns
 
 To continue processing events, return <b>TRUE</b>. Otherwise, return <b>FALSE</b>.
-					Returning <b>FALSE</b> will terminate the <a href="https://docs.microsoft.com/windows/desktop/ETW/processtrace">ProcessTrace</a> function.
+					Returning <b>FALSE</b> will terminate the <a href="/windows/desktop/ETW/processtrace">ProcessTrace</a> function.
 
 ## -remarks
 
 To specify the function that ETW calls to deliver the buffer statistics, set the 
 <b>BufferCallback</b> member of the 
-<a href="https://docs.microsoft.com/windows/desktop/ETW/event-trace-logfile">EVENT_TRACE_LOGFILE</a> structure that you pass to the 
-<a href="https://docs.microsoft.com/windows/desktop/ETW/opentrace">OpenTrace</a> function.
+<a href="/windows/desktop/ETW/event-trace-logfile">EVENT_TRACE_LOGFILE</a> structure that you pass to the 
+<a href="/windows/desktop/ETW/opentrace">OpenTrace</a> function.
 
 
 #### Examples
 
 For an example implementation of a 
 <b>BufferCallback</b> function, see 
-<a href="https://docs.microsoft.com/windows/desktop/ETW/retrieving-event-data-using-mof">Retrieving Event Data Using MOF</a>.
+<a href="/windows/desktop/ETW/retrieving-event-data-using-mof">Retrieving Event Data Using MOF</a>.
 
 <div class="code"></div>
 
@@ -94,9 +94,8 @@ For an example implementation of a
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/ETW/event-trace-logfile">EVENT_TRACE_LOGFILE</a>
+<a href="/windows/desktop/ETW/event-trace-logfile">EVENT_TRACE_LOGFILE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/ETW/processtrace">ProcessTrace</a>
-
+<a href="/windows/desktop/ETW/processtrace">ProcessTrace</a>

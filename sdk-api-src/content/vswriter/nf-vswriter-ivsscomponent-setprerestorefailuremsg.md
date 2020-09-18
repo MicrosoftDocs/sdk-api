@@ -53,7 +53,7 @@ api_name:
 
 The <b>SetPreRestoreFailureMsg</b> 
     method is used to create a message describing a failure in processing a 
-    <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-prerestore">PreRestore</a> event.
+    <a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-prerestore">PreRestore</a> event.
 
 Only a writer can call this method, and only during a restore operation.
 
@@ -62,7 +62,7 @@ Only a writer can call this method, and only during a restore operation.
 ### -param wszPreRestoreFailureMsg [in]
 
 A caller-allocated <b>NULL</b>-terminated wide character string containing the failure message describing an error that occurred 
-      while processing a <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-prerestore">PreRestore</a> 
+      while processing a <a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-prerestore">PreRestore</a> 
       event.
 
 ## -returns
@@ -128,17 +128,16 @@ The failure message set by
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-ivsscomponent">IVssComponent</a>
+<a href="/windows/desktop/api/vswriter/nl-vswriter-ivsscomponent">IVssComponent</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-getpostrestorefailuremsg">IVssComponent::GetPostRestoreFailureMsg</a>
+<a href="/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-getpostrestorefailuremsg">IVssComponent::GetPostRestoreFailureMsg</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-getprerestorefailuremsg">IVssComponent::GetPreRestoreFailureMsg</a>
+<a href="/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-getprerestorefailuremsg">IVssComponent::GetPreRestoreFailureMsg</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-setpostrestorefailuremsg">IVssComponent::SetPostRestoreFailureMsg</a>
-
+<a href="/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-setpostrestorefailuremsg">IVssComponent::SetPostRestoreFailureMsg</a>

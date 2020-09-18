@@ -58,22 +58,22 @@ The
 ### -param hMibServer [in]
 
 Handle to the router on which to execute this call. This handle is obtained from a previous call to 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradminmibserverconnect">MprAdminMIBServerConnect</a>.
+<a href="/windows/desktop/api/mprapi/nf-mprapi-mpradminmibserverconnect">MprAdminMIBServerConnect</a>.
 
 ### -param dwProtocolId [in]
 
 Specifies the 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/transport-identifiers">router manager</a> that exported the variable.
+<a href="/windows/desktop/RRAS/transport-identifiers">router manager</a> that exported the variable.
 
 ### -param dwRoutingPid [in]
 
 Specifies the 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/protocol-identifiers">routing protocol</a> that exported the variable.
+<a href="/windows/desktop/RRAS/protocol-identifiers">routing protocol</a> that exported the variable.
 
 ### -param lpInEntry [in]
 
 Pointer to an opaque data 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mib/mib-structures">structure</a>. The data structure's format is determined by the module that services the call. The data structure should contain information that specifies the variable being queried.
+<a href="/previous-versions/windows/desktop/mib/mib-structures">structure</a>. The data structure's format is determined by the module that services the call. The data structure should contain information that specifies the variable being queried.
 
 ### -param dwInEntrySize [in]
 
@@ -82,8 +82,8 @@ Specifies the size, in bytes, of the data structure pointed to by <i>lpInEntry</
 ### -param lplpOutEntry [out]
 
 Pointer to a pointer variable. On successful return, this pointer variable points to an opaque data 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mib/mib-structures">structure</a>. The data structure's format is determined by the module that services the call. The data structure receives the value of the next variable from the set of variables exported. Free this memory by calling 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradminmibbufferfree">MprAdminMIBBufferFree</a>.
+<a href="/previous-versions/windows/desktop/mib/mib-structures">structure</a>. The data structure's format is determined by the module that services the call. The data structure receives the value of the next variable from the set of variables exported. Free this memory by calling 
+<a href="/windows/desktop/api/mprapi/nf-mprapi-mpradminmibbufferfree">MprAdminMIBBufferFree</a>.
 
 ### -param lpOutEntrySize [out]
 
@@ -152,37 +152,36 @@ Do not pass in <b>NULL</b> for the <i>lpInEntry</i> parameter because the result
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mib/mib-structures">MIB Structures</a>
+<a href="/previous-versions/windows/desktop/mib/mib-structures">MIB Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradminmibbufferfree">MprAdminMIBBufferFree</a>
+<a href="/windows/desktop/api/mprapi/nf-mprapi-mpradminmibbufferfree">MprAdminMIBBufferFree</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradminmibentryget">MprAdminMIBEntryGet</a>
+<a href="/windows/desktop/api/mprapi/nf-mprapi-mpradminmibentryget">MprAdminMIBEntryGet</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradminmibentrygetfirst">MprAdminMIBEntryGetFirst</a>
+<a href="/windows/desktop/api/mprapi/nf-mprapi-mpradminmibentrygetfirst">MprAdminMIBEntryGetFirst</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradminmibserverconnect">MprAdminMIBServerConnect</a>
+<a href="/windows/desktop/api/mprapi/nf-mprapi-mpradminmibserverconnect">MprAdminMIBServerConnect</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/protocol-identifiers">Protocol Identifiers</a>
+<a href="/windows/desktop/RRAS/protocol-identifiers">Protocol Identifiers</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/mib-functions">Router Management MIB Functions</a>
+<a href="/windows/desktop/RRAS/mib-functions">Router Management MIB Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/router-management-mib-reference">Router Management MIB Reference</a>
+<a href="/windows/desktop/RRAS/router-management-mib-reference">Router Management MIB Reference</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/transport-identifiers">Transport Identifiers</a>
-
+<a href="/windows/desktop/RRAS/transport-identifiers">Transport Identifiers</a>

@@ -130,9 +130,8 @@ This method is not yet implemented.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rend/nn-rend-itdirectoryobjectconference">ITDirectoryObjectConference</a>
+<a href="/windows/desktop/api/rend/nn-rend-itdirectoryobjectconference">ITDirectoryObjectConference</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rend/nf-rend-itdirectoryobjectconference-put_starttime">ITDirectoryObjectConference::put_StartTime</a>
-
+<a href="/windows/desktop/api/rend/nf-rend-itdirectoryobjectconference-put_starttime">ITDirectoryObjectConference::put_StartTime</a>

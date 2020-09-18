@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Unregisters a service object that was registered using  <a href="https://docs.microsoft.com/windows/desktop/api/wsdhost/nf-wsdhost-iwsddevicehost-registerservice">RegisterService</a> and removes the service from the device host metadata.
+Unregisters a service object that was registered using  <a href="/windows/desktop/api/wsdhost/nf-wsdhost-iwsddevicehost-registerservice">RegisterService</a> and removes the service from the device host metadata.
 
 ## -parameters
 
@@ -107,7 +107,7 @@ The length in characters of <i>pszServiceId</i> exceeds WSD_MAX_TEXT_LENGTH (819
 </dl>
 </td>
 <td width="60%">
-The method failed. It may have failed because the host has not been initialized. Call <a href="https://docs.microsoft.com/windows/desktop/api/wsdhost/nf-wsdhost-iwsddevicehost-init">Init</a> to initialize a device host.
+The method failed. It may have failed because the host has not been initialized. Call <a href="/windows/desktop/api/wsdhost/nf-wsdhost-iwsddevicehost-init">Init</a> to initialize a device host.
 
 </td>
 </tr>
@@ -119,5 +119,4 @@ The device host releases its reference to the service object after the service i
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wsdhost/nn-wsdhost-iwsddevicehost">IWSDDeviceHost</a>
-
+<a href="/windows/desktop/api/wsdhost/nn-wsdhost-iwsddevicehost">IWSDDeviceHost</a>

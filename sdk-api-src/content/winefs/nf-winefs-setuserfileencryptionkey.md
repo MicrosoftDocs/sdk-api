@@ -57,14 +57,14 @@ Sets the user's current key to the specified certificate.
 ### -param pEncryptionCertificate [in]
 
 A pointer to a certificate that will be the user's key. This parameter is a pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/winefs/ns-winefs-encryption_certificate">ENCRYPTION_CERTIFICATE</a> structure.
+<a href="/windows/desktop/api/winefs/ns-winefs-encryption_certificate">ENCRYPTION_CERTIFICATE</a> structure.
 
 ## -returns
 
 If the function succeeds, the return value is <b>ERROR_SUCCESS</b>.
 
 If the function fails, the return value is a system error code. For a complete list of error codes, see 
-<a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">System Error Codes</a> or the header file WinError.h.
+<a href="/windows/desktop/Debug/system-error-codes">System Error Codes</a> or the header file WinError.h.
 
 ## -remarks
 
@@ -132,13 +132,12 @@ SMB 3.0 does not support EFS on shares with continuous availability capability.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winefs/ns-winefs-encryption_certificate">ENCRYPTION_CERTIFICATE</a>
+<a href="/windows/desktop/api/winefs/ns-winefs-encryption_certificate">ENCRYPTION_CERTIFICATE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/file-encryption">File Encryption</a>
+<a href="/windows/desktop/FileIO/file-encryption">File Encryption</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/file-management-functions">File Management Functions</a>
-
+<a href="/windows/desktop/FileIO/file-management-functions">File Management Functions</a>

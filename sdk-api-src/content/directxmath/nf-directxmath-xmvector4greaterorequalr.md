@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Tests whether one 4D vector is greater-than-or-equal-to another 4D vector and returns a comparison value that can be examined using functions such as <a href="https://docs.microsoft.com/windows/desktop/api/directxmath/nf-directxmath-xmcomparisonalltrue">XMComparisonAllTrue</a>.
+Tests whether one 4D vector is greater-than-or-equal-to another 4D vector and returns a comparison value that can be examined using functions such as <a href="/windows/desktop/api/directxmath/nf-directxmath-xmcomparisonalltrue">XMComparisonAllTrue</a>.
 
 ## -parameters
 
@@ -64,7 +64,7 @@ Tests whether one 4D vector is greater-than-or-equal-to another 4D vector and re
 
 ## -returns
 
-Returns a comparison value that can be examined using functions such as <a href="https://docs.microsoft.com/windows/desktop/api/directxmath/nf-directxmath-xmcomparisonalltrue">XMComparisonAllTrue</a>.
+Returns a comparison value that can be examined using functions such as <a href="/windows/desktop/api/directxmath/nf-directxmath-xmcomparisonalltrue">XMComparisonAllTrue</a>.
 
 ## -remarks
 
@@ -84,9 +84,8 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/dxmath/ovw-xnamath-reference-functions-vector4-comparison">DirectXMath Library 4D Vector Comparison Functions</a>
+<a href="/windows/desktop/dxmath/ovw-xnamath-reference-functions-vector4-comparison">DirectXMath Library 4D Vector Comparison Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/directxmath/nf-directxmath-xmvector4greaterorequal">XMVector4GreaterOrEqual</a>
-
+<a href="/windows/desktop/api/directxmath/nf-directxmath-xmvector4greaterorequal">XMVector4GreaterOrEqual</a>

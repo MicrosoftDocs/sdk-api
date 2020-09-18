@@ -52,7 +52,7 @@ api_name:
 ## -description
 
 Indicates the state of the cluster. The 
-     <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-getnodeclusterstate">GetNodeClusterState</a> function uses this 
+     <a href="/windows/desktop/api/clusapi/nf-clusapi-getnodeclusterstate">GetNodeClusterState</a> function uses this 
      enumeration.
 
 ## -enum-fields
@@ -116,9 +116,8 @@ The following constants are defined in ClusAPI.h.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-enumerations">Failover Cluster Enumerations</a>
+<a href="/previous-versions/windows/desktop/mscs/cluster-enumerations">Failover Cluster Enumerations</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-getnodeclusterstate">GetNodeClusterState</a>
-
+<a href="/windows/desktop/api/clusapi/nf-clusapi-getnodeclusterstate">GetNodeClusterState</a>

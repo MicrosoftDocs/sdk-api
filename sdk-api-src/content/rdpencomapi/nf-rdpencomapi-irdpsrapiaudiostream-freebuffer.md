@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Releases the hold on the buffer after the <a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapiaudiostream-getbuffer">GetBuffer</a> method is  called.
+Releases the hold on the buffer after the <a href="/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapiaudiostream-getbuffer">GetBuffer</a> method is  called.
 
 ## -parameters
 
@@ -60,5 +60,4 @@ If the method succeeds, the return value is <b>S_OK</b>. Otherwise, the return v
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapiaudiostream">IRDPSRAPIAudioStream</a>
-
+<a href="/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapiaudiostream">IRDPSRAPIAudioStream</a>

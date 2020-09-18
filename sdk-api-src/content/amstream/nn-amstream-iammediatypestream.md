@@ -54,12 +54,12 @@ api_name:
 <div> </div>
 This interface contains methods for creating multimedia streams with arbitrary media types. Use this interface if you need to create a multimedia stream with a format that is not supported by the other Microsoft DirectShow multimedia streaming interfaces.
 
-<div class="alert"><b>Note</b>  For video streams, use the <a href="https://docs.microsoft.com/windows/desktop/api/ddstream/nn-ddstream-idirectdrawmediastream">IDirectDrawMediaStream</a> interface instead of this interface. For audio streams, use the <a href="https://docs.microsoft.com/windows/desktop/api/austream/nn-austream-iaudiomediastream">IAudioMediaStream</a> interface.</div>
+<div class="alert"><b>Note</b>  For video streams, use the <a href="/windows/desktop/api/ddstream/nn-ddstream-idirectdrawmediastream">IDirectDrawMediaStream</a> interface instead of this interface. For audio streams, use the <a href="/windows/desktop/api/austream/nn-austream-iaudiomediastream">IAudioMediaStream</a> interface.</div>
 <div> </div>
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAMMediaTypeStream</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/mmstream/nn-mmstream-imediastream">IMediaStream</a>. <b>IAMMediaTypeStream</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAMMediaTypeStream</b> interface inherits from <a href="/windows/desktop/api/mmstream/nn-mmstream-imediastream">IMediaStream</a>. <b>IAMMediaTypeStream</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -74,7 +74,7 @@ The <b>IAMMediaTypeStream</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/amstream/nf-amstream-iammediatypestream-createsample">CreateSample</a>
+<a href="/windows/desktop/api/amstream/nf-amstream-iammediatypestream-createsample">CreateSample</a>
 </td>
 <td align="left" width="63%">
 Creates a stream sample and optionally specifies the sample buffer.
@@ -83,7 +83,7 @@ Creates a stream sample and optionally specifies the sample buffer.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/amstream/nf-amstream-iammediatypestream-getformat">GetFormat</a>
+<a href="/windows/desktop/api/amstream/nf-amstream-iammediatypestream-getformat">GetFormat</a>
 </td>
 <td align="left" width="63%">
 Retrieves the format of the stream.
@@ -92,7 +92,7 @@ Retrieves the format of the stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/amstream/nf-amstream-iammediatypestream-getstreamallocatorrequirements">GetStreamAllocatorRequirements</a>
+<a href="/windows/desktop/api/amstream/nf-amstream-iammediatypestream-getstreamallocatorrequirements">GetStreamAllocatorRequirements</a>
 </td>
 <td align="left" width="63%">
 Retrieves the allocator requirements for the stream. This method is not currently implemented.
@@ -101,7 +101,7 @@ Retrieves the allocator requirements for the stream. This method is not currentl
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/amstream/nf-amstream-iammediatypestream-setformat">SetFormat</a>
+<a href="/windows/desktop/api/amstream/nf-amstream-iammediatypestream-setformat">SetFormat</a>
 </td>
 <td align="left" width="63%">
 Sets the format of the stream.
@@ -110,7 +110,7 @@ Sets the format of the stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/amstream/nf-amstream-iammediatypestream-setstreamallocatorrequirements">SetStreamAllocatorRequirements</a>
+<a href="/windows/desktop/api/amstream/nf-amstream-iammediatypestream-setstreamallocatorrequirements">SetStreamAllocatorRequirements</a>
 </td>
 <td align="left" width="63%">
 Sets the allocator requirements for the stream. This method is not currently implemented.
@@ -121,5 +121,4 @@ Sets the allocator requirements for the stream. This method is not currently imp
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmstream/nn-mmstream-imediastream">IMediaStream</a>
-
+<a href="/windows/desktop/api/mmstream/nn-mmstream-imediastream">IMediaStream</a>

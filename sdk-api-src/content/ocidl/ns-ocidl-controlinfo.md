@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-Contains parameters that describe a control's keyboard mnemonics and keyboard behavior. The structure is populated during the <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-iolecontrol-getcontrolinfo">IOleControl::GetControlInfo</a> method.
+Contains parameters that describe a control's keyboard mnemonics and keyboard behavior. The structure is populated during the <a href="/windows/desktop/api/ocidl/nf-ocidl-iolecontrol-getcontrolinfo">IOleControl::GetControlInfo</a> method.
 
 ## -struct-fields
 
@@ -64,7 +64,7 @@ The size of the structure, in bytes.
 
 ### -field hAccel
 
-A handle to an array of <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-accel">ACCEL</a> structures, each structure describing a keyboard mnemonic. The array is created with the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createacceleratortablea">CreateAcceleratorTable</a> function. The control always maintains the memory for this array; the caller of <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-iolecontrol-getcontrolinfo">IOleControl::GetControlInfo</a> should not attempt to free the memory.
+A handle to an array of <a href="/windows/desktop/api/winuser/ns-winuser-accel">ACCEL</a> structures, each structure describing a keyboard mnemonic. The array is created with the <a href="/windows/desktop/api/winuser/nf-winuser-createacceleratortablea">CreateAcceleratorTable</a> function. The control always maintains the memory for this array; the caller of <a href="/windows/desktop/api/ocidl/nf-ocidl-iolecontrol-getcontrolinfo">IOleControl::GetControlInfo</a> should not attempt to free the memory.
 
 ### -field cAccel
 
@@ -83,5 +83,4 @@ When the control has the focus, the dialog box containing the control cannot use
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-iolecontrol-getcontrolinfo">IOleControl::GetControlInfo</a>
-
+<a href="/windows/desktop/api/ocidl/nf-ocidl-iolecontrol-getcontrolinfo">IOleControl::GetControlInfo</a>

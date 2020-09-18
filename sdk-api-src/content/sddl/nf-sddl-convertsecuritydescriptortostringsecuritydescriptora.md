@@ -55,17 +55,17 @@ api_name:
 
 ## -description
 
-The <b>ConvertSecurityDescriptorToStringSecurityDescriptor</b> function converts a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security descriptor</a> to a string format. You can use the string format to store or transmit the security descriptor.
+The <b>ConvertSecurityDescriptorToStringSecurityDescriptor</b> function converts a <a href="/windows/desktop/SecGloss/s-gly">security descriptor</a> to a string format. You can use the string format to store or transmit the security descriptor.
 
 To convert the string-format security descriptor back to a valid, functional security descriptor, call the 
-<a href="https://docs.microsoft.com/windows/desktop/api/sddl/nf-sddl-convertstringsecuritydescriptortosecuritydescriptora">ConvertStringSecurityDescriptorToSecurityDescriptor</a> function.
+<a href="/windows/desktop/api/sddl/nf-sddl-convertstringsecuritydescriptortosecuritydescriptora">ConvertStringSecurityDescriptorToSecurityDescriptor</a> function.
 
 ## -parameters
 
 ### -param SecurityDescriptor [in]
 
 A pointer to the security descriptor to convert. The security descriptor can be in 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/absolute-and-self-relative-security-descriptors">absolute or self-relative format</a>.
+<a href="/windows/desktop/SecAuthZ/absolute-and-self-relative-security-descriptors">absolute or self-relative format</a>.
 
 ### -param RequestedStringSDRevision [in]
 
@@ -74,15 +74,15 @@ Specifies the revision level of the output <i>StringSecurityDescriptor</i> strin
 ### -param SecurityInformation [in]
 
 Specifies a combination of the 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/security-information">SECURITY_INFORMATION</a> bit flags to indicate the components of the security descriptor to include in the output string. 
+<a href="/windows/desktop/SecAuthZ/security-information">SECURITY_INFORMATION</a> bit flags to indicate the components of the security descriptor to include in the output string. 
 
 The BACKUP_SECURITY_INFORMATION flag is not applicable to this function. If the BACKUP_SECURITY_INFORMATION flag is passed in, the <i>SecurityInformation</i> parameter returns TRUE with <b>null</b> string output.
 
 ### -param StringSecurityDescriptor [out]
 
 A pointer to a variable that receives a pointer to a <b>null</b>-terminated security descriptor string. For a description of the string format, see 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/security-descriptor-string-format">Security Descriptor String Format</a>. To free the returned buffer, call the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localfree">LocalFree</a> function.
+<a href="/windows/desktop/SecAuthZ/security-descriptor-string-format">Security Descriptor String Format</a>. To free the returned buffer, call the 
+<a href="/windows/desktop/api/winbase/nf-winbase-localfree">LocalFree</a> function.
 
 ### -param StringSecurityDescriptorLen [out]
 
@@ -93,7 +93,7 @@ A pointer to a variable that receives the size, in <b>TCHAR</b>s, of the securit
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. The <b>GetLastError</b> function may return one of the following error codes.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. The <b>GetLastError</b> function may return one of the following error codes.
 
 <table>
 <tr>
@@ -129,7 +129,7 @@ The revision level is not valid.
 </dl>
 </td>
 <td width="60%">
-A <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security identifier</a> (SID) in the input security descriptor could not be found in an account lookup operation.
+A <a href="/windows/desktop/SecGloss/s-gly">security identifier</a> (SID) in the input security descriptor could not be found in an account lookup operation.
 
 </td>
 </tr>
@@ -140,7 +140,7 @@ A <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security i
 </dl>
 </td>
 <td width="60%">
-The <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">access control list</a> (ACL) is not valid. This error is returned if the SE_DACL_PRESENT flag is set in the input security descriptor and the DACL is <b>NULL</b>.
+The <a href="/windows/desktop/SecGloss/a-gly">access control list</a> (ACL) is not valid. This error is returned if the SE_DACL_PRESENT flag is set in the input security descriptor and the DACL is <b>NULL</b>.
 
 </td>
 </tr>
@@ -151,7 +151,7 @@ The <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">access c
 If the DACL is <b>NULL</b>, and the SE_DACL_PRESENT control bit is set in the input security descriptor, the function fails.
 
 If the DACL is <b>NULL</b>, and the SE_DACL_PRESENT control bit is not set in the input security descriptor, the resulting security descriptor string does not have a D: component. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/security-descriptor-string-format">Security Descriptor String Format</a>.
+<a href="/windows/desktop/SecAuthZ/security-descriptor-string-format">Security Descriptor String Format</a>.
 
 
 
@@ -162,29 +162,28 @@ If the DACL is <b>NULL</b>, and the SE_DACL_PRESENT control bit is not set in th
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/access-control">Access Control Overview</a>
+<a href="/windows/desktop/SecAuthZ/access-control">Access Control Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/authorization-functions">Basic Access Control Functions</a>
+<a href="/windows/desktop/SecAuthZ/authorization-functions">Basic Access Control Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sddl/nf-sddl-convertsidtostringsida">ConvertSidToStringSid</a>
+<a href="/windows/desktop/api/sddl/nf-sddl-convertsidtostringsida">ConvertSidToStringSid</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sddl/nf-sddl-convertstringsecuritydescriptortosecuritydescriptora">ConvertStringSecurityDescriptorToSecurityDescriptor</a>
+<a href="/windows/desktop/api/sddl/nf-sddl-convertstringsecuritydescriptortosecuritydescriptora">ConvertStringSecurityDescriptorToSecurityDescriptor</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sddl/nf-sddl-convertstringsidtosida">ConvertStringSidToSid</a>
+<a href="/windows/desktop/api/sddl/nf-sddl-convertstringsidtosida">ConvertStringSidToSid</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-security_descriptor">SECURITY_DESCRIPTOR</a>
+<a href="/windows/desktop/api/winnt/ns-winnt-security_descriptor">SECURITY_DESCRIPTOR</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/security-information">SECURITY_INFORMATION</a>
-
+<a href="/windows/desktop/SecAuthZ/security-information">SECURITY_INFORMATION</a>

@@ -52,7 +52,7 @@ api_name:
 ## -description
 
 The <b>Font::GetSize</b> method returns the font size (commonly called the em size) of this 
-			<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-font">Font</a> object. The size is in the units of this 
+			<a href="/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-font">Font</a> object. The size is in the units of this 
 			<b>Font</b> object.
 
 ## -parameters
@@ -62,25 +62,24 @@ The <b>Font::GetSize</b> method returns the font size (commonly called the em si
 Type: <b>REAL</b>
 
 The method returns the font size. The size is in the units of this 
-						<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-font">Font</a> object.
+						<a href="/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-font">Font</a> object.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-font">Font</a>
+<a href="/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-font">Font</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-font-getheight(inreal)">Font::GetHeight</a>
+<a href="/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-font-getheight(inreal)">Font::GetHeight</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-font-getstyle">Font::GetStyle</a>
+<a href="/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-font-getstyle">Font::GetStyle</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-font-getunit">Font::GetUnit</a>
+<a href="/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-font-getunit">Font::GetUnit</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-using-text-and-fonts-use">Using Text and Fonts</a>
-
+<a href="/windows/desktop/gdiplus/-gdiplus-using-text-and-fonts-use">Using Text and Fonts</a>

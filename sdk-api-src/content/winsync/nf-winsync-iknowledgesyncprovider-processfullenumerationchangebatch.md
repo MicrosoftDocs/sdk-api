@@ -114,9 +114,8 @@ This method is called during forgotten knowledge recovery.
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-iknowledgesyncprovider">IKnowledgeSyncProvider Interface</a>
+<a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-iknowledgesyncprovider">IKnowledgeSyncProvider Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsync/ns-winsync-sync_range">SYNC RANGE Structure</a>
-
+<a href="/windows/desktop/api/winsync/ns-winsync-sync_range">SYNC RANGE Structure</a>

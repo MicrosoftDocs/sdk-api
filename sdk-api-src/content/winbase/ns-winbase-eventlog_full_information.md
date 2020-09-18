@@ -64,5 +64,4 @@ Indicates whether the event log is full. If the log is full, this member is <b>T
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-geteventloginformation">GetEventLogInformation</a>
-
+<a href="/windows/desktop/api/winbase/nf-winbase-geteventloginformation">GetEventLogInformation</a>

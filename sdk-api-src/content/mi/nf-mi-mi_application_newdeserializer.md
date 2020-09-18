@@ -58,7 +58,7 @@ Creates a deserializer object that can then be used to convert a serialized obje
 ### -param application [in, out]
 
 Handle returned from 
-      <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_application_initializev1">MI_Application_Initialize</a>.
+      <a href="/previous-versions/windows/desktop/api/mi/nf-mi-mi_application_initializev1">MI_Application_Initialize</a>.
 
 ### -param flags
 
@@ -78,7 +78,6 @@ This function returns MI_INLINE MI_Result.
 
 ## -remarks
 
-Serializers are used to persist <a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_instance">MI_Instance</a> and 
-    <a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_class">MI_Class</a> objects to <b>BYTE</b> arrays. 
+Serializers are used to persist <a href="/windows/desktop/api/mi/ns-mi-mi_instance">MI_Instance</a> and 
+    <a href="/windows/desktop/api/mi/ns-mi-mi_class">MI_Class</a> objects to <b>BYTE</b> arrays. 
     A deserializer is then used to re-create the object from its stored form.
-

@@ -106,13 +106,12 @@ NULL was passed in for pID.
 
 A <b>SENSOR_ID</b> is a <b>GUID</b> that uniquely identifies the sensor on the current computer. This ID corresponds to the constant named SENSOR_PROPERTY_PERSISTENT_UNIQUE_ID.
 
-You can use an ID to retrieve a pointer to a particular sensor by calling <a href="https://docs.microsoft.com/windows/desktop/api/sensorsapi/nf-sensorsapi-isensormanager-getsensorbyid">ISensorManager::GetSensorByID</a>.
+You can use an ID to retrieve a pointer to a particular sensor by calling <a href="/windows/desktop/api/sensorsapi/nf-sensorsapi-isensormanager-getsensorbyid">ISensorManager::GetSensorByID</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sensorsapi/nn-sensorsapi-isensor">ISensor</a>
+<a href="/windows/desktop/api/sensorsapi/nn-sensorsapi-isensor">ISensor</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SensorsAPI/about-sensor-constants">Sensor Constants</a>
-
+<a href="/windows/desktop/SensorsAPI/about-sensor-constants">Sensor Constants</a>

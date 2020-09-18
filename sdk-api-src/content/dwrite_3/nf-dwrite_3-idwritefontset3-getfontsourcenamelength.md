@@ -66,5 +66,4 @@ The length of the font source name for the specified font.
 
 ## -see-also
 
-[GetFontSourceName](/windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontset3-getfontsourcename)
-
+[GetFontSourceName](./nf-dwrite_3-idwritefontset3-getfontsourcename.md)

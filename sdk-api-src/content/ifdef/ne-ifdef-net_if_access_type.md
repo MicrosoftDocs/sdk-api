@@ -55,7 +55,7 @@ api_name:
 ## -description
 
 The NET_IF_ACCESS_TYPE enumeration type specifies the 
-  <a href="https://docs.microsoft.com/windows-hardware/drivers/network/ndis-network-interfaces2">NDIS network interface</a> access
+  <a href="/windows-hardware/drivers/network/ndis-network-interfaces2">NDIS network interface</a> access
   type.
 
 ## -enum-fields
@@ -83,4 +83,3 @@ Specifies point-to-multipoint access that supports non-broadcast multi-access (N
 ### -field NET_IF_ACCESS_MAXIMUM
 
 A maximum value for testing purposes.
-

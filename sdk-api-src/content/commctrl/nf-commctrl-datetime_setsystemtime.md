@@ -50,19 +50,19 @@ api_name:
 
 ## -description
 
-Sets a date and time picker (DTP) control to a given date and time. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/dtm-setsystemtime">DTM_SETSYSTEMTIME</a> message explicitly.
+Sets a date and time picker (DTP) control to a given date and time. You can use this macro or send the <a href="/windows/desktop/Controls/dtm-setsystemtime">DTM_SETSYSTEMTIME</a> message explicitly.
 
 ## -parameters
 
 ### -param hdp
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to a DTP control.
 
 ### -param gd
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 A value that specifies the action that should be performed. This should be set to one of the following values. 
 
@@ -77,7 +77,7 @@ A value that specifies the action that should be performed. This should be set t
 </dl>
 </td>
 <td width="60%">
-Set the DTP control according to the data within the <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-systemtime">SYSTEMTIME</a> structure pointed to by <i>lpSysTime</i>. 
+Set the DTP control according to the data within the <a href="/windows/desktop/api/minwinbase/ns-minwinbase-systemtime">SYSTEMTIME</a> structure pointed to by <i>lpSysTime</i>. 
 
 </td>
 </tr>
@@ -88,7 +88,7 @@ Set the DTP control according to the data within the <a href="https://docs.micro
 </td>
 <td width="60%">
 Set the DTP control to "no date" and clear its check box. When this flag is specified, 
-						<i>lpSysTime</i> is ignored. This flag applies only to DTP controls that are set to the <a href="https://docs.microsoft.com/windows/desktop/Controls/date-and-time-picker-control-styles">DTS_SHOWNONE</a> style. 
+						<i>lpSysTime</i> is ignored. This flag applies only to DTP controls that are set to the <a href="/windows/desktop/Controls/date-and-time-picker-control-styles">DTS_SHOWNONE</a> style. 
 
 </td>
 </tr>
@@ -98,5 +98,4 @@ Set the DTP control to "no date" and clear its check box. When this flag is spec
 
 Type: <b>LPSYSTEMTIME</b>
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-systemtime">SYSTEMTIME</a> structure that contains the system time information by which to set the DTP control.
-
+A pointer to a <a href="/windows/desktop/api/minwinbase/ns-minwinbase-systemtime">SYSTEMTIME</a> structure that contains the system time information by which to set the DTP control.

@@ -56,9 +56,9 @@ Enables indexing of the JPEG for efficient random access.
 
 ### -param options
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wincodec/ne-wincodec-wicjpegindexingoptions">WICJpegIndexingOptions</a></b>
+Type: <b><a href="/windows/desktop/api/wincodec/ne-wincodec-wicjpegindexingoptions">WICJpegIndexingOptions</a></b>
 
-A value specifying whether indexes should be generated immediately or deferred until a future call to <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicbitmapsource-copypixels">IWICBitmapSource::CopyPixels</a>.
+A value specifying whether indexes should be generated immediately or deferred until a future call to <a href="/windows/desktop/api/wincodec/nf-wincodec-iwicbitmapsource-copypixels">IWICBitmapSource::CopyPixels</a>.
 
 ### -param horizontalIntervalSize
 
@@ -74,29 +74,28 @@ Returns S_OK upon successful completion.
 
 ## -remarks
 
-This method enables efficient random-access to the image pixels at the expense of memory usage.  The amount of memory required for indexing depends on the requested index granularity.   Unless <b>SetIndexing</b> is called, it is much more efficient to access a JPEG by progressing through its pixels top-down during calls to <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicbitmapsource-copypixels">IWICBitmapSource::CopyPixels</a>.
+This method enables efficient random-access to the image pixels at the expense of memory usage.  The amount of memory required for indexing depends on the requested index granularity.   Unless <b>SetIndexing</b> is called, it is much more efficient to access a JPEG by progressing through its pixels top-down during calls to <a href="/windows/desktop/api/wincodec/nf-wincodec-iwicbitmapsource-copypixels">IWICBitmapSource::CopyPixels</a>.
 
 
-This method will fail if indexing is unsupported on the file.  <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicjpegframedecode-doessupportindexing">IWICJpegFrameDecode::DoesSupportIndexing</a> should be called to first determine whether indexing is supported.  If this method is called multiple times, the final call changes the index granularity to the requested size.
+This method will fail if indexing is unsupported on the file.  <a href="/windows/desktop/api/wincodec/nf-wincodec-iwicjpegframedecode-doessupportindexing">IWICJpegFrameDecode::DoesSupportIndexing</a> should be called to first determine whether indexing is supported.  If this method is called multiple times, the final call changes the index granularity to the requested size.
 
 
 The provided interval size controls horizontal spacing of index entries.  This value is internally rounded up according to the JPEG’s MCU (minimum coded unit) size, which is typically either 8 or 16 unscaled pixels.  The vertical size of the index interval is always equal to one MCU size.
 
-Indexes can be generated immediately, or during future calls to <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicbitmapsource-copypixels">IWICBitmapSource::CopyPixels</a> to reduce redundant decompression work.
+Indexes can be generated immediately, or during future calls to <a href="/windows/desktop/api/wincodec/nf-wincodec-iwicbitmapsource-copypixels">IWICBitmapSource::CopyPixels</a> to reduce redundant decompression work.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicbitmapsource-copypixels">IWICBitmapSource::CopyPixels</a>
+<a href="/windows/desktop/api/wincodec/nf-wincodec-iwicbitmapsource-copypixels">IWICBitmapSource::CopyPixels</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicjpegframedecode">IWICJpegFrameDecode</a>
+<a href="/windows/desktop/api/wincodec/nn-wincodec-iwicjpegframedecode">IWICJpegFrameDecode</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicjpegframedecode-clearindexing">IWICJpegFrameDecode::ClearIndexing</a>
+<a href="/windows/desktop/api/wincodec/nf-wincodec-iwicjpegframedecode-clearindexing">IWICJpegFrameDecode::ClearIndexing</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicjpegframedecode-doessupportindexing">IWICJpegFrameDecode::DoesSupportIndexing</a>
-
+<a href="/windows/desktop/api/wincodec/nf-wincodec-iwicjpegframedecode-doessupportindexing">IWICJpegFrameDecode::DoesSupportIndexing</a>

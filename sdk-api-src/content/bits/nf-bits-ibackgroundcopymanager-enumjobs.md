@@ -51,7 +51,7 @@ api_name:
 ## -description
 
 Retrieves an interface pointer to an enumerator object that you use to 
-<a href="https://docs.microsoft.com/windows/desktop/Bits/enumerating-jobs-in-the-transfer-queue">enumerate the jobs</a> in the transfer queue. The order of the jobs in the enumerator is arbitrary.
+<a href="/windows/desktop/Bits/enumerating-jobs-in-the-transfer-queue">enumerate the jobs</a> in the transfer queue. The order of the jobs in the enumerator is arbitrary.
 
 ## -parameters
 
@@ -81,7 +81,7 @@ Includes all jobs in the transfer queue—those owned by the user and those owne
 ### -param ppEnum [out]
 
 An 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits/nn-bits-ienumbackgroundcopyjobs">IEnumBackgroundCopyJobs</a> interface pointer that you use to enumerate the jobs in the transfer queue. The contents of the enumerator depend on the value of <i>dwFlags</i>. Release <i>ppEnumJobs</i> when done.
+<a href="/windows/desktop/api/bits/nn-bits-ienumbackgroundcopyjobs">IEnumBackgroundCopyJobs</a> interface pointer that you use to enumerate the jobs in the transfer queue. The contents of the enumerator depend on the value of <i>dwFlags</i>. Release <i>ppEnumJobs</i> when done.
 
 ## -returns
 
@@ -118,13 +118,12 @@ The user must be an administrator or belong to an administrator group to enumera
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-enumfiles">IBackgroundCopyJob::EnumFiles</a>
+<a href="/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-enumfiles">IBackgroundCopyJob::EnumFiles</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits/nf-bits-ibackgroundcopymanager-getjob">IBackgroundCopyManager::GetJob</a>
+<a href="/windows/desktop/api/bits/nf-bits-ibackgroundcopymanager-getjob">IBackgroundCopyManager::GetJob</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits/nn-bits-ienumbackgroundcopyjobs">IEnumBackgroundCopyJobs</a>
-
+<a href="/windows/desktop/api/bits/nn-bits-ienumbackgroundcopyjobs">IEnumBackgroundCopyJobs</a>

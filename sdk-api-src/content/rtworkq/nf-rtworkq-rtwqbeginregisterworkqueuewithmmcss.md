@@ -56,7 +56,7 @@ Associates a work queue with a Multimedia Class Scheduler Service (MMCSS) task.
 
 ### -param workQueueId [in]
 
-The identifier of the work queue.  For private work queues, the identifier is returned by the <a href="https://docs.microsoft.com/windows/desktop/api/rtworkq/nf-rtworkq-rtwqallocateworkqueue">RtwqAllocateWorkQueue</a> function.
+The identifier of the work queue.  For private work queues, the identifier is returned by the <a href="/windows/desktop/api/rtworkq/nf-rtworkq-rtwqallocateworkqueue">RtwqAllocateWorkQueue</a> function.
 
 ### -param usageClass [in]
 
@@ -68,11 +68,11 @@ The unique task identifier. To obtain a new task identifier, set this value to z
 
 ### -param lPriority [in]
 
-The base relative priority for the work-queue threads. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/avrt/nf-avrt-avsetmmthreadpriority">AvSetMmThreadPriority</a>.
+The base relative priority for the work-queue threads. For more information, see <a href="/windows/desktop/api/avrt/nf-avrt-avsetmmthreadpriority">AvSetMmThreadPriority</a>.
 
 ### -param doneCallback [in]
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/rtworkq/nn-rtworkq-irtwqasynccallback">IRtwqAsyncCallback</a> interface of a callback object. The caller must implement this interface.
+A pointer to the <a href="/windows/desktop/api/rtworkq/nn-rtworkq-irtwqasynccallback">IRtwqAsyncCallback</a> interface of a callback object. The caller must implement this interface.
 
 ### -param doneState [in]
 
@@ -81,4 +81,3 @@ A pointer to the <b>IUnknown</b> interface of a state object, defined by the cal
 ## -returns
 
 If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-

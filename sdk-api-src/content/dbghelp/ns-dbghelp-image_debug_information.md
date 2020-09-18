@@ -56,8 +56,8 @@ api_name:
 
 Contains debugging information.
 <div class="alert"><b>Note</b>  This structure is used by the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-mapdebuginformation">MapDebugInformation</a> and 
-    <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-unmapdebuginformation">UnmapDebugInformation</a> functions, which are 
+    <a href="/windows/desktop/api/dbghelp/nf-dbghelp-mapdebuginformation">MapDebugInformation</a> and 
+    <a href="/windows/desktop/api/dbghelp/nf-dbghelp-unmapdebuginformation">UnmapDebugInformation</a> functions, which are 
     provided only for backward compatibility.</div><div> </div>
 
 ## -struct-fields
@@ -315,7 +315,7 @@ The number of COFF section headers.
 ### -field ReservedSections
 
 A pointer to the first COFF section header. For more information, see 
-      <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-image_section_header">IMAGE_SECTION_HEADER</a>.
+      <a href="/windows/desktop/api/winnt/ns-winnt-image_section_header">IMAGE_SECTION_HEADER</a>.
 
 ### -field ReservedExportedNamesSize
 
@@ -332,7 +332,7 @@ The number of entries contained in the <b>FunctionTableEntries</b> member.
 ### -field ReservedFunctionTableEntries
 
 A pointer to the first function table entry. For more information, see 
-      <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-image_function_entry">IMAGE_FUNCTION_ENTRY</a>.
+      <a href="/windows/desktop/api/winnt/ns-winnt-image_function_entry">IMAGE_FUNCTION_ENTRY</a>.
 
 ### -field ReservedLowestFunctionStartingAddress
 
@@ -349,7 +349,7 @@ The number of entries contained in the <b>FpoTableEntries</b> member.
 ### -field ReservedFpoTableEntries
 
 A pointer to the first FPO entry. For more information, see 
-      <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-fpo_data">FPO_DATA</a>.
+      <a href="/windows/desktop/api/winnt/ns-winnt-fpo_data">FPO_DATA</a>.
 
 ### -field SizeOfCoffSymbols
 
@@ -390,7 +390,7 @@ This value is <b>TRUE</b> if the image is a ROM image.
 ### -field ReservedDebugDirectory
 
 A pointer to the first debug directory. For more information, see 
-      <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-image_debug_directory">IMAGE_DEBUG_DIRECTORY</a>.
+      <a href="/windows/desktop/api/winnt/ns-winnt-image_debug_directory">IMAGE_DEBUG_DIRECTORY</a>.
 
 ### -field ReservedNumberOfDebugDirectories
 
@@ -418,29 +418,28 @@ typedef struct _LIST_ENTRY {
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-fpo_data">FPO_DATA</a>
+<a href="/windows/desktop/api/winnt/ns-winnt-fpo_data">FPO_DATA</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-image_coff_symbols_header">IMAGE_COFF_SYMBOLS_HEADER</a>
+<a href="/windows/desktop/api/winnt/ns-winnt-image_coff_symbols_header">IMAGE_COFF_SYMBOLS_HEADER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-image_debug_directory">IMAGE_DEBUG_DIRECTORY</a>
+<a href="/windows/desktop/api/winnt/ns-winnt-image_debug_directory">IMAGE_DEBUG_DIRECTORY</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-image_function_entry">IMAGE_FUNCTION_ENTRY</a>
+<a href="/windows/desktop/api/winnt/ns-winnt-image_function_entry">IMAGE_FUNCTION_ENTRY</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-image_section_header">IMAGE_SECTION_HEADER</a>
+<a href="/windows/desktop/api/winnt/ns-winnt-image_section_header">IMAGE_SECTION_HEADER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-mapdebuginformation">MapDebugInformation</a>
+<a href="/windows/desktop/api/dbghelp/nf-dbghelp-mapdebuginformation">MapDebugInformation</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-unmapdebuginformation">UnmapDebugInformation</a>
-
+<a href="/windows/desktop/api/dbghelp/nf-dbghelp-unmapdebuginformation">UnmapDebugInformation</a>

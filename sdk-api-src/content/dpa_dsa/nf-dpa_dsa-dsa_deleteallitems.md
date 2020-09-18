@@ -62,7 +62,6 @@ A handle to an existing DSA.
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
 
 <b>TRUE</b> if the items were successfully deleted; otherwise, <b>FALSE</b>.
-

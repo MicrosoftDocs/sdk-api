@@ -56,7 +56,7 @@ Not implemented.
 
 ### -param psi [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a>*</b>
+Type: <b><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a>*</b>
 
 Not used.
 
@@ -65,4 +65,3 @@ Not used.
 Type: <b>HRESULT</b>
 
 Returns E_NOTIMPL.
-

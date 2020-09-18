@@ -73,9 +73,8 @@ The entry point of the module.
 ## -remarks
 
 The load address of a module is the same as the <b>HMODULE</b> value. The information returned in the <b>SizeOfImage</b> and <b>EntryPoint</b> members comes from the module's Portable Executable (PE) header. The module entry point is the location called during process startup, thread startup, process shutdown, and thread shutdown. While this is not the address of the 
-<a href="https://docs.microsoft.com/windows/desktop/Dlls/dllmain">DllMain</a> function, it should be close enough for most purposes.
+<a href="/windows/desktop/Dlls/dllmain">DllMain</a> function, it should be close enough for most purposes.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/psapi/nf-psapi-getmoduleinformation">GetModuleInformation</a>
-
+<a href="/windows/desktop/api/psapi/nf-psapi-getmoduleinformation">GetModuleInformation</a>

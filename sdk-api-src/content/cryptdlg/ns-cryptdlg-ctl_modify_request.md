@@ -54,13 +54,13 @@ api_name:
 
 ## -description
 
-The <b>CTL_MODIFY_REQUEST</b> structure contains a request to modify a certificate trust list (CTL).  This structure is used in the <a href="https://docs.microsoft.com/windows/desktop/api/cryptdlg/nf-cryptdlg-certmodifycertificatestotrust">CertModifyCertificatesToTrust</a> function.
+The <b>CTL_MODIFY_REQUEST</b> structure contains a request to modify a certificate trust list (CTL).  This structure is used in the <a href="/windows/desktop/api/cryptdlg/nf-cryptdlg-certmodifycertificatestotrust">CertModifyCertificatesToTrust</a> function.
 
 ## -struct-fields
 
 ### -field pccert
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a> structure that contains the certificate to change the trust on.
+A pointer to a <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a> structure that contains the certificate to change the trust on.
 
 ### -field dwOperation
 
@@ -110,5 +110,4 @@ The error code generated for this operation.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/cryptdlg/nf-cryptdlg-certmodifycertificatestotrust">CertModifyCertificatesToTrust</a>
-
+<a href="/windows/desktop/api/cryptdlg/nf-cryptdlg-certmodifycertificatestotrust">CertModifyCertificatesToTrust</a>

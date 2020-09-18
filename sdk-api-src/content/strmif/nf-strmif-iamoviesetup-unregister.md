@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-<div class="alert"><b>Note</b>  The <b>IAMovieSetup</b> interface is deprecated. Use the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/amoviedllregisterserver2">AMovieDllRegisterServer2</a> function instead.</div>
+<div class="alert"><b>Note</b>  The <b>IAMovieSetup</b> interface is deprecated. Use the <a href="/windows/desktop/DirectShow/amoviedllregisterserver2">AMovieDllRegisterServer2</a> function instead.</div>
 <div> </div>
 Removes the filter from the registry.
 
@@ -62,13 +62,12 @@ Returns an <b>HRESULT</b> value.
 
 ## -remarks
 
-This method should be implemented to use the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ifiltermapper-unregisterfilter">IFilterMapper::UnregisterFilter</a> method to remove the filter from the registry. This effectively removes the pins and media types as well.
+This method should be implemented to use the <a href="/windows/desktop/api/strmif/nf-strmif-ifiltermapper-unregisterfilter">IFilterMapper::UnregisterFilter</a> method to remove the filter from the registry. This effectively removes the pins and media types as well.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iamoviesetup">IAMovieSetup Interface</a>
-
+<a href="/windows/desktop/api/strmif/nn-strmif-iamoviesetup">IAMovieSetup Interface</a>

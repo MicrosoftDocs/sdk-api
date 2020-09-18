@@ -85,5 +85,4 @@ Extended data services (XDS or EDS)
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/video-control-enumerations">Video Control Enumerations</a>
-
+<a href="/previous-versions/windows/desktop/mstv/video-control-enumerations">Video Control Enumerations</a>

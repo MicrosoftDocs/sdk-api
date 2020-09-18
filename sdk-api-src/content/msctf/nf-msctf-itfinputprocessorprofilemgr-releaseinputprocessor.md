@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>ITfInputProcessorProfileMgr::ReleaseInputProcessor</b> method deactivates the profiles belonging to the text services of the specified CLSID and releases the instance of  <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itftextinputprocessorex">ITfTextInputProcessorEx</a> interface.
+The <b>ITfInputProcessorProfileMgr::ReleaseInputProcessor</b> method deactivates the profiles belonging to the text services of the specified CLSID and releases the instance of  <a href="/windows/desktop/api/msctf/nn-msctf-itftextinputprocessorex">ITfTextInputProcessorEx</a> interface.
 
 ## -parameters
 
@@ -122,4 +122,3 @@ One or more parameters are invalid.
 </td>
 </tr>
 </table>
-

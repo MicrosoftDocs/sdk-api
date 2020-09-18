@@ -51,12 +51,12 @@ api_name:
 ## -description
 
 The <b>CryptFindOIDInfo</b> function retrieves the first predefined or registered 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_oid_info">CRYPT_OID_INFO</a> structure that matches a specified key type and key. The search can be limited to <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly">object identifiers</a> (OIDs) within a specified OID group.
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-crypt_oid_info">CRYPT_OID_INFO</a> structure that matches a specified key type and key. The search can be limited to <a href="/windows/desktop/SecGloss/o-gly">object identifiers</a> (OIDs) within a specified OID group.
 
 Use 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptenumoidinfo">CryptEnumOIDInfo</a> to list all or selected subsets of <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_oid_info">CRYPT_OID_INFO</a> structures. New <b>CRYPT_OID_INFO</b> structures can be registered by using 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptregisteroidinfo">CryptRegisterOIDInfo</a>. User-registered OIDs can be removed from the list of registered OIDs by using 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptunregisteroidinfo">CryptUnregisterOIDInfo</a>.
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptenumoidinfo">CryptEnumOIDInfo</a> to list all or selected subsets of <a href="/windows/desktop/api/wincrypt/ns-wincrypt-crypt_oid_info">CRYPT_OID_INFO</a> structures. New <b>CRYPT_OID_INFO</b> structures can be registered by using 
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptregisteroidinfo">CryptRegisterOIDInfo</a>. User-registered OIDs can be removed from the list of registered OIDs by using 
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptunregisteroidinfo">CryptUnregisterOIDInfo</a>.
 
 New OIDs can be placed in the list of registered OIDs either before or after the predefined entries. Because <b>CryptFindOIDInfo</b> returns the first key on the list that matches the search criteria, a newly registered OID placed before a predefined OID entry with the same key overrides a predefined entry.
 
@@ -86,7 +86,7 @@ This parameter can be one of the following key types.
 #### CRYPT_OID_INFO_ALGID_KEY
 
 <i>pvKey</i> is the address of an 
-<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/alg-id">ALG_ID</a>variable. The following <b>ALG_ID</b>s are supported:
+<a href="/windows/desktop/SecCrypto/alg-id">ALG_ID</a>variable. The following <b>ALG_ID</b>s are supported:
 
 Hash Algorithms:
 
@@ -94,13 +94,13 @@ Symmetric Encryption Algorithms:
 
 Public Key Algorithms:
 
-Algorithms that are not listed are supported by using <a href="https://docs.microsoft.com/windows/desktop/SecCNG/cng-portal">Cryptography API: Next Generation</a> (CNG) only; instead, use <b>CRYPT_OID_INFO_CNG_ALGID_KEY</b>.
+Algorithms that are not listed are supported by using <a href="/windows/desktop/SecCNG/cng-portal">Cryptography API: Next Generation</a> (CNG) only; instead, use <b>CRYPT_OID_INFO_CNG_ALGID_KEY</b>.
 
 
 
 #### CRYPT_OID_INFO_SIGN_KEY
 
-<i>pvKey</i> is the address of an array of two <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/alg-id">ALG_ID</a>s where the first element contains the hash algorithm identifier and the second element contains the public key algorithm identifier.
+<i>pvKey</i> is the address of an array of two <a href="/windows/desktop/SecCrypto/alg-id">ALG_ID</a>s where the first element contains the hash algorithm identifier and the second element contains the public key algorithm identifier.
 
 The following <b>ALG_ID</b> combinations are supported.
 
@@ -165,7 +165,7 @@ Algorithms that are not listed are supported through CNG only; instead, use <b>C
 #### CRYPT_OID_INFO_CNG_ALGID_KEY
 
 
-<i>pvKey</i> is the address of a null-terminated Unicode string that contains the CNG algorithm identifier to find. This can be one of the predefined <a href="https://docs.microsoft.com/windows/desktop/SecCNG/cng-algorithm-identifiers">CNG Algorithm Identifiers</a> or another registered algorithm identifier.
+<i>pvKey</i> is the address of a null-terminated Unicode string that contains the CNG algorithm identifier to find. This can be one of the predefined <a href="/windows/desktop/SecCNG/cng-algorithm-identifiers">CNG Algorithm Identifiers</a> or another registered algorithm identifier.
 
 <b>
                     Windows Server 2003 R2
@@ -177,7 +177,7 @@ Algorithms that are not listed are supported through CNG only; instead, use <b>C
 #### CRYPT_OID_INFO_CNG_SIGN_KEY
 
 
-<i>pvKey</i> is the address of an array of two null-terminated Unicode string pointers where the first string contains the hash CNG algorithm identifier and the second string contains the public key CNG algorithm identifier. These can be from the predefined <a href="https://docs.microsoft.com/windows/desktop/SecCNG/cng-algorithm-identifiers">CNG Algorithm Identifiers</a> or another registered algorithm identifier.
+<i>pvKey</i> is the address of an array of two null-terminated Unicode string pointers where the first string contains the hash CNG algorithm identifier and the second string contains the public key CNG algorithm identifier. These can be from the predefined <a href="/windows/desktop/SecCNG/cng-algorithm-identifiers">CNG Algorithm Identifiers</a> or another registered algorithm identifier.
 
 <b>
                     Windows Server 2003 R2
@@ -225,7 +225,7 @@ The address of a buffer that contains additional search information. This parame
 The group identifier to use when finding OID information. Setting this parameter to zero searches all groups according to the <i>dwKeyType</i> parameter. Otherwise, only the indicated <i>dwGroupId</i> is searched.
 
 For information about code that lists the OID information by group identifier, see 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptenumoidinfo">CryptEnumOIDInfo</a>.
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptenumoidinfo">CryptEnumOIDInfo</a>.
 
 
 Optionally, the following flag can be specified in the <i>dwGroupId</i> parameter by using the logical <b>OR</b> operator (|).
@@ -254,7 +254,7 @@ The bit length shifted left 16 bits can be specified in the <i>dwGroupId</i> par
 
 ## -returns
 
-Returns a pointer to a constant structure of type <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_oid_info">CRYPT_OID_INFO</a>. The returned pointer must not be freed. When the specified key and group is not found, <b>NULL</b> is returned.
+Returns a pointer to a constant structure of type <a href="/windows/desktop/api/wincrypt/ns-wincrypt-crypt_oid_info">CRYPT_OID_INFO</a>. The returned pointer must not be freed. When the specified key and group is not found, <b>NULL</b> is returned.
 
 ## -remarks
 
@@ -264,7 +264,7 @@ The <b>CryptFindOIDInfo</b> function performs a lookup in the active directory t
 <li>No group identifier is specified in the  <i>dwGroupId</i> parameter or the GroupID refers to EKU OIDs, policy OIDs or template OIDs.</li>
 </ul>Network retrieval of the friendly name can be suppressed by calling the function with the <b>CRYPT_OID_DISABLE_SEARCH_DS_FLAG</b> flag.
 
-The bit length shifted left 16 bits can be specified in the <i>dwGroupId</i> parameter by using the logical <b>OR</b> operator (|). This is only applicable to the <b>CRYPT_ENCRYPT_ALG_OID_GROUP_ID</b> group entries that have a bit length specified in the <b>ExtraInfo</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_oid_info">CRYPT_OID_INFO</a> structure. Currently, only the AES encryption algorithms have this. The constant <b>CRYPT_OID_INFO_OID_GROUP_BIT_LEN_SHIFT</b> can be used for doing the shift. For example, to find the OID information for <b>BCRYPT_AES_ALGORITHM</b> with bit length equal to 192, call <b>CryptFindOIDInfo</b> as follows.
+The bit length shifted left 16 bits can be specified in the <i>dwGroupId</i> parameter by using the logical <b>OR</b> operator (|). This is only applicable to the <b>CRYPT_ENCRYPT_ALG_OID_GROUP_ID</b> group entries that have a bit length specified in the <b>ExtraInfo</b> member of the <a href="/windows/desktop/api/wincrypt/ns-wincrypt-crypt_oid_info">CRYPT_OID_INFO</a> structure. Currently, only the AES encryption algorithms have this. The constant <b>CRYPT_OID_INFO_OID_GROUP_BIT_LEN_SHIFT</b> can be used for doing the shift. For example, to find the OID information for <b>BCRYPT_AES_ALGORITHM</b> with bit length equal to 192, call <b>CryptFindOIDInfo</b> as follows.
 
 
 ```cpp
@@ -283,25 +283,24 @@ PCCRYPT_OID_INFO pOIDInfo = CryptFindOIDInfo(
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/alg-id">ALG_ID</a>
+<a href="/windows/desktop/SecCrypto/alg-id">ALG_ID</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_algorithm_identifier">CRYPT_ALGORITHM_IDENTIFIER</a>
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-crypt_algorithm_identifier">CRYPT_ALGORITHM_IDENTIFIER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_oid_info">CRYPT_OID_INFO</a>
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-crypt_oid_info">CRYPT_OID_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptregisteroidinfo">CryptRegisterOIDInfo</a>
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptregisteroidinfo">CryptRegisterOIDInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptunregisteroidinfo">CryptUnregisterOIDInfo</a>
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptunregisteroidinfo">CryptUnregisterOIDInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">OID Support Functions</a>
-
+<a href="/windows/desktop/SecCrypto/cryptography-functions">OID Support Functions</a>

@@ -86,13 +86,13 @@ Irp->IoStatus.Status is set to STATUS_SUCCESS if the request is successful.
 
 Otherwise, Status to the appropriate error condition as a NTSTATUS code. 
 
-For more information, see [NTSTATUS Values](https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values).
+For more information, see [NTSTATUS Values](/windows-hardware/drivers/kernel/ntstatus-values).
 
 ## -remarks
 
 Use the **IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES** control code for sending storage system-specific information to the volume manager and storage system.
 
-The input buffers passed through the *lpInBuffer* parameter start with a [DEVICE_MANAGE_DATA_SET_ATTRIBUTES](ns-winioctl-device_manage_data_set_attributes.md) structure but may contain additional parameters before the list of data set ranges depending on the value of the **Action** member of the **DEVICE_MANAGE_DATA_SET_ATTRIBUTES** structure. The output buffers returned through the *lpOutBuffer* parameter start with a [DEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT](ns-winioctl-device_manage_data_set_attributes.md) structure but then can contain additional data depending on the value of the **Action** member of the **DEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT** structure pointed to by the *lpOutBuffer* parameter. These values are one of the values for the [DEVICE_DATA_MANAGEMENT_SET_ACTION](https://docs.microsoft.com/windows/desktop/DevIO/device-data-management-set-action) data type.
+The input buffers passed through the *lpInBuffer* parameter start with a [DEVICE_MANAGE_DATA_SET_ATTRIBUTES](ns-winioctl-device_manage_data_set_attributes.md) structure but may contain additional parameters before the list of data set ranges depending on the value of the **Action** member of the **DEVICE_MANAGE_DATA_SET_ATTRIBUTES** structure. The output buffers returned through the *lpOutBuffer* parameter start with a [DEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT](ns-winioctl-device_manage_data_set_attributes.md) structure but then can contain additional data depending on the value of the **Action** member of the **DEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT** structure pointed to by the *lpOutBuffer* parameter. These values are one of the values for the [DEVICE_DATA_MANAGEMENT_SET_ACTION](/windows/desktop/DevIO/device-data-management-set-action) data type.
 
 Value | Parameters structure | Output block structure
 ------|----------------------|-----------------------
@@ -109,4 +109,3 @@ Value | Parameters structure | Output block structure
 
 * [DEVICE_MANAGE_DATA_SET_ATTRIBUTES](ns-winioctl-device_manage_data_set_attributes.md)
 * [DeviceIoControl](../ioapiset/nf-ioapiset-deviceiocontrol.md)
-

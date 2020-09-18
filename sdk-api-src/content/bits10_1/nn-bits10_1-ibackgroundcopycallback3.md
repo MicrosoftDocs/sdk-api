@@ -54,12 +54,12 @@ api_name:
 Clients implement the <b>IBackgroundCopyCallback3</b> interface to receive notification that ranges of a file have completed downloading.
 
 Instead of polling for the download status of a file, clients use this interface.
-To receive notifications, call the <a href="https://docs.microsoft.com/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-setnotifyinterface">IBackgroundCopyJob::SetNotifyInterface</a> method to specify the interface pointer to your <a href="https://docs.microsoft.com/windows/desktop/api/bits/nn-bits-ibackgroundcopycallback">IBackgroundCopyCallback</a> implementation. To specify which notifications you want to receive, call the <a href="https://docs.microsoft.com/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-setnotifyflags">IBackgroundCopyJob::SetNotifyFlags</a> method.
-You must implement all methods of this interface and the <a href="https://docs.microsoft.com/windows/desktop/api/bits3_0/nn-bits3_0-ibackgroundcopycallback2">IBackgroundCopyCallback2</a> and <b>IBackgroundCopyCallback</b> interface. For example, if you do not register for the file transferred callback, your <a href="https://docs.microsoft.com/windows/desktop/api/bits3_0/nf-bits3_0-ibackgroundcopycallback2-filetransferred">FileTransferred</a> method must still return <b>S_OK</b>. If you do not want to receive the file ranges   transferred callback, you can simply implement the <b>IBackgroundCopyCallback</b> or <b>IBackgroundCopyCallback2</b> instead.
+To receive notifications, call the <a href="/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-setnotifyinterface">IBackgroundCopyJob::SetNotifyInterface</a> method to specify the interface pointer to your <a href="/windows/desktop/api/bits/nn-bits-ibackgroundcopycallback">IBackgroundCopyCallback</a> implementation. To specify which notifications you want to receive, call the <a href="/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-setnotifyflags">IBackgroundCopyJob::SetNotifyFlags</a> method.
+You must implement all methods of this interface and the <a href="/windows/desktop/api/bits3_0/nn-bits3_0-ibackgroundcopycallback2">IBackgroundCopyCallback2</a> and <b>IBackgroundCopyCallback</b> interface. For example, if you do not register for the file transferred callback, your <a href="/windows/desktop/api/bits3_0/nf-bits3_0-ibackgroundcopycallback2-filetransferred">FileTransferred</a> method must still return <b>S_OK</b>. If you do not want to receive the file ranges   transferred callback, you can simply implement the <b>IBackgroundCopyCallback</b> or <b>IBackgroundCopyCallback2</b> instead.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBackgroundCopyCallback3</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/bits/nn-bits-ibackgroundcopycallback">IBackgroundCopyCallback</a> and <a href="https://docs.microsoft.com/windows/desktop/api/bits3_0/nn-bits3_0-ibackgroundcopycallback2">IBackgroundCopyCallback2</a>. <b>IBackgroundCopyCallback3</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBackgroundCopyCallback3</b> interface inherits from <a href="/windows/desktop/api/bits/nn-bits-ibackgroundcopycallback">IBackgroundCopyCallback</a> and <a href="/windows/desktop/api/bits3_0/nn-bits3_0-ibackgroundcopycallback2">IBackgroundCopyCallback2</a>. <b>IBackgroundCopyCallback3</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -74,10 +74,10 @@ The <b>IBackgroundCopyCallback3</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/bits10_1/nf-bits10_1-ibackgroundcopycallback3-filerangestransferred">FileRangesTransferred</a>
+<a href="/windows/desktop/api/bits10_1/nf-bits10_1-ibackgroundcopycallback3-filerangestransferred">FileRangesTransferred</a>
 </td>
 <td align="left" width="63%">
-BITS calls your implementation of the <a href="https://docs.microsoft.com/windows/desktop/api/bits10_1/nf-bits10_1-ibackgroundcopycallback3-filerangestransferred">FileRangesTransferred</a> method when one or more file ranges have been downloaded.  File ranges are added to the job using the <a href="https://docs.microsoft.com/windows/desktop/api/bits10_1/nf-bits10_1-ibackgroundcopyfile6-requestfileranges">IBackgroundCopyFile6::RequestFileRanges</a> method.
+BITS calls your implementation of the <a href="/windows/desktop/api/bits10_1/nf-bits10_1-ibackgroundcopycallback3-filerangestransferred">FileRangesTransferred</a> method when one or more file ranges have been downloaded.  File ranges are added to the job using the <a href="/windows/desktop/api/bits10_1/nf-bits10_1-ibackgroundcopyfile6-requestfileranges">IBackgroundCopyFile6::RequestFileRanges</a> method.
 
 </td>
 </tr>
@@ -85,17 +85,16 @@ BITS calls your implementation of the <a href="https://docs.microsoft.com/window
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits/nn-bits-ibackgroundcopycallback">IBackgroundCopyCallback</a>
+<a href="/windows/desktop/api/bits/nn-bits-ibackgroundcopycallback">IBackgroundCopyCallback</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits3_0/nn-bits3_0-ibackgroundcopycallback2">IBackgroundCopyCallback2</a>
+<a href="/windows/desktop/api/bits3_0/nn-bits3_0-ibackgroundcopycallback2">IBackgroundCopyCallback2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-setnotifyflags">IBackgroundCopyJob::SetNotifyFlags</a>
+<a href="/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-setnotifyflags">IBackgroundCopyJob::SetNotifyFlags</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-setnotifyinterface">IBackgroundCopyJob::SetNotifyInterface</a>
-
+<a href="/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-setnotifyinterface">IBackgroundCopyJob::SetNotifyInterface</a>

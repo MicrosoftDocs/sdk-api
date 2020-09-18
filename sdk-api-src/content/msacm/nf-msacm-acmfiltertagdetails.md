@@ -63,7 +63,7 @@ Handle to the ACM driver to query for waveform-audio filter tag details. If this
 
 ### -param paftd
 
-Pointer to the [ACMFILTERTAGDETAILS](/windows/win32/api/msacm/nf-msacm-acmfiltertagdetails) structure that is to receive the filter tag details.
+Pointer to the [ACMFILTERTAGDETAILS]() structure that is to receive the filter tag details.
 
 ### -param fdwDetails
 
@@ -78,11 +78,11 @@ Flags for getting the details. The following values are defined.
 </tr>
 <tr>
 <td>ACM_FILTERTAGDETAILSF_FILTERTAG</td>
-[ACMFILTERTAGDETAILS](/windows/win32/api/msacm/nf-msacm-acmfiltertagdetails) structure. The filter tag details will be returned in the structure pointed to by <i>paftd</i>. If an application specifies an ACM driver handle for <i>had</i>, details on the filter tag will be returned for that driver. If an application specifies <b>NULL</b> for <i>had</i>, the ACM finds the first acceptable driver to return the details.</td>
+[ACMFILTERTAGDETAILS]() structure. The filter tag details will be returned in the structure pointed to by <i>paftd</i>. If an application specifies an ACM driver handle for <i>had</i>, details on the filter tag will be returned for that driver. If an application specifies <b>NULL</b> for <i>had</i>, the ACM finds the first acceptable driver to return the details.</td>
 </tr>
 <tr>
 <td>ACM_FILTERTAGDETAILSF_INDEX</td>
-[ACMDRIVERDETAILS](/windows/win32/api/msacm/nf-msacm-acmdriverdetails) structure for an ACM driver. An application must specify a driver handle for <i>had</i> when retrieving filter tag details with this flag.</td>
+[ACMDRIVERDETAILS](./nf-msacm-acmdriverdetails.md) structure for an ACM driver. An application must specify a driver handle for <i>had</i> when retrieving filter tag details with this flag.</td>
 </tr>
 <tr>
 <td>ACM_FILTERTAGDETAILSF_LARGESTSIZE</td>
@@ -147,9 +147,8 @@ At least one parameter is invalid.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/audio-compression-functions">Audio Compression Functions</a>
+<a href="/windows/desktop/Multimedia/audio-compression-functions">Audio Compression Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/audio-compression-manager">Audio Compression Manager</a>
-
+<a href="/windows/desktop/Multimedia/audio-compression-manager">Audio Compression Manager</a>

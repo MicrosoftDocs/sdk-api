@@ -52,19 +52,19 @@ api_name:
 ## -description
 
 The <b>Pen::GetAlignment</b> method gets the alignment currently set for this 
-			<a href="https://docs.microsoft.com/windows/desktop/api/gdipluspen/nl-gdipluspen-pen">Pen</a> object.
+			<a href="/windows/desktop/api/gdipluspen/nl-gdipluspen-pen">Pen</a> object.
 
 ## -parameters
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/gdiplusenums/ne-gdiplusenums-penalignment">PenAlignment</a></b>
+Type: <b><a href="/windows/desktop/api/gdiplusenums/ne-gdiplusenums-penalignment">PenAlignment</a></b>
 
-This method returns an element of the <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusenums/ne-gdiplusenums-penalignment">PenAlignment</a> enumeration that indicates the current alignment setting for this <a href="https://docs.microsoft.com/windows/desktop/api/gdipluspen/nl-gdipluspen-pen">Pen</a> object.
+This method returns an element of the <a href="/windows/desktop/api/gdiplusenums/ne-gdiplusenums-penalignment">PenAlignment</a> enumeration that indicates the current alignment setting for this <a href="/windows/desktop/api/gdipluspen/nl-gdipluspen-pen">Pen</a> object.
 
 ## -remarks
 
-The default value of <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusenums/ne-gdiplusenums-penalignment">PenAlignment</a> is PenAlignmentCenter. 
+The default value of <a href="/windows/desktop/api/gdiplusenums/ne-gdiplusenums-penalignment">PenAlignment</a> is PenAlignmentCenter. 
 
 
 #### Examples
@@ -72,7 +72,7 @@ The default value of <a href="https://docs.microsoft.com/windows/desktop/api/gdi
 
 
 The following example creates a 
-						<a href="https://docs.microsoft.com/windows/desktop/api/gdipluspen/nl-gdipluspen-pen">Pen</a> object, sets the alignment, draws a line, and then gets the pen alignment settings.
+						<a href="/windows/desktop/api/gdipluspen/nl-gdipluspen-pen">Pen</a> object, sets the alignment, draws a line, and then gets the pen alignment settings.
 
 
 ```cpp
@@ -100,21 +100,20 @@ VOID Example_GetAlignment(HDC hdc)
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdipluspen/nl-gdipluspen-pen">Pen</a>
+<a href="/windows/desktop/api/gdipluspen/nl-gdipluspen-pen">Pen</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdipluspen/nf-gdipluspen-pen-setalignment">Pen::SetAlignment</a>
+<a href="/windows/desktop/api/gdipluspen/nf-gdipluspen-pen-setalignment">Pen::SetAlignment</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusenums/ne-gdiplusenums-penalignment">PenAlignment</a>
+<a href="/windows/desktop/api/gdiplusenums/ne-gdiplusenums-penalignment">PenAlignment</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-pens-lines-and-rectangles-about">Pens, Lines, and Rectangles</a>
+<a href="/windows/desktop/gdiplus/-gdiplus-pens-lines-and-rectangles-about">Pens, Lines, and Rectangles</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-setting-pen-width-and-alignment-use">Setting Pen Width and Alignment</a>
-
+<a href="/windows/desktop/gdiplus/-gdiplus-setting-pen-width-and-alignment-use">Setting Pen Width and Alignment</a>

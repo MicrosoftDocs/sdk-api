@@ -64,9 +64,8 @@ You can call <b>TokenBindingDeleteAllBindings</b> from user mode.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tokenbinding/nf-tokenbinding-tokenbindingdeletebinding">TokenBindingDeleteBinding</a>
+<a href="/windows/desktop/api/tokenbinding/nf-tokenbinding-tokenbindingdeletebinding">TokenBindingDeleteBinding</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tokenbinding/nf-tokenbinding-tokenbindinggeneratebinding">TokenBindingGenerateBinding</a>
-
+<a href="/windows/desktop/api/tokenbinding/nf-tokenbinding-tokenbindinggeneratebinding">TokenBindingGenerateBinding</a>

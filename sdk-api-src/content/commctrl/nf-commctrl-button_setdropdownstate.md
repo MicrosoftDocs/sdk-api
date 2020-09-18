@@ -50,19 +50,18 @@ api_name:
 
 ## -description
 
-Sets the drop down state for a specified button with style of <a href="https://docs.microsoft.com/windows/desktop/Controls/button-styles">BS_SPLITBUTTON</a>. Use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/bcm-setdropdownstate">BCM_SETDROPDOWNSTATE</a> message explicitly.
+Sets the drop down state for a specified button with style of <a href="/windows/desktop/Controls/button-styles">BS_SPLITBUTTON</a>. Use this macro or send the <a href="/windows/desktop/Controls/bcm-setdropdownstate">BCM_SETDROPDOWNSTATE</a> message explicitly.
 
 ## -parameters
 
 ### -param hwnd [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the button control.
 
 ### -param fDropDown [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
 
 <b>TRUE</b> for state of  BST_DROPDOWNPUSHED, or <b>FALSE</b> otherwise.
-

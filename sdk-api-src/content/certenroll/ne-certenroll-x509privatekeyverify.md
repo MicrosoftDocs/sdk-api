@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>X509PrivateKeyVerify</b> enumeration specifies whether a user interface is displayed during <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">private key</a> verification and whether verification can proceed if the cryptographic provider is a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">smart card</a> provider. This enumeration is used by the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509privatekey-verify">Verify</a> method on the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509privatekey">IX509PrivateKey</a> interface.
+The <b>X509PrivateKeyVerify</b> enumeration specifies whether a user interface is displayed during <a href="/windows/desktop/SecGloss/p-gly">private key</a> verification and whether verification can proceed if the cryptographic provider is a <a href="/windows/desktop/SecGloss/s-gly">smart card</a> provider. This enumeration is used by the <a href="/windows/desktop/api/certenroll/nf-certenroll-ix509privatekey-verify">Verify</a> method on the <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509privatekey">IX509PrivateKey</a> interface.
 
 ## -enum-fields
 
@@ -76,13 +76,12 @@ The method displays a user interface.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/SecCertEnroll/certenroll-enumerations">CertEnroll Enumerations</a>
+<a href="/windows/desktop/SecCertEnroll/certenroll-enumerations">CertEnroll Enumerations</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SecCertEnroll/certenroll-interfaces">CertEnroll Interfaces</a>
+<a href="/windows/desktop/SecCertEnroll/certenroll-interfaces">CertEnroll Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509privatekey">IX509PrivateKey</a>
-
+<a href="/windows/desktop/api/certenroll/nn-certenroll-ix509privatekey">IX509PrivateKey</a>

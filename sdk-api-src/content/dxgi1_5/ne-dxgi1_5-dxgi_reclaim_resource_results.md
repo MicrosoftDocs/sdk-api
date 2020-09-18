@@ -52,17 +52,17 @@ api_name:
 
 ## -description
 
-Specifies result flags for the <a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_5/nf-dxgi1_5-idxgidevice4-reclaimresources1">ReclaimResources1</a> method.
+Specifies result flags for the <a href="/windows/desktop/api/dxgi1_5/nf-dxgi1_5-idxgidevice4-reclaimresources1">ReclaimResources1</a> method.
 
 ## -enum-fields
 
 ### -field DXGI_RECLAIM_RESOURCE_RESULT_OK
 
-The surface was successfully reclaimed and has valid content. This result is identical to the <i>false</i> value returned by the older <a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_2/nf-dxgi1_2-idxgidevice2-reclaimresources">ReclaimResources</a> API.
+The surface was successfully reclaimed and has valid content. This result is identical to the <i>false</i> value returned by the older <a href="/windows/desktop/api/dxgi1_2/nf-dxgi1_2-idxgidevice2-reclaimresources">ReclaimResources</a> API.
 
 ### -field DXGI_RECLAIM_RESOURCE_RESULT_DISCARDED
 
-The surface was reclaimed, but the old content was lost and must be regenerated. This result is identical to the <i>true</i> value returned by the older <a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_2/nf-dxgi1_2-idxgidevice2-reclaimresources">ReclaimResources</a> API.
+The surface was reclaimed, but the old content was lost and must be regenerated. This result is identical to the <i>true</i> value returned by the older <a href="/windows/desktop/api/dxgi1_2/nf-dxgi1_2-idxgidevice2-reclaimresources">ReclaimResources</a> API.
 
 ### -field DXGI_RECLAIM_RESOURCE_RESULT_NOT_COMMITTED
 
@@ -71,5 +71,4 @@ recreated and the content regenerated in order to be used. All future use of tha
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3ddxgi/d3d10-graphics-reference-dxgi-enums">DXGI Enumerations</a>
-
+<a href="/windows/desktop/direct3ddxgi/d3d10-graphics-reference-dxgi-enums">DXGI Enumerations</a>

@@ -50,25 +50,25 @@ api_name:
 
 ## -description
 
-Sets the text that is displayed as the textual cue, or tip, for an edit control. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/em-setcuebanner">EM_SETCUEBANNER</a> message explicitly.
+Sets the text that is displayed as the textual cue, or tip, for an edit control. You can use this macro or send the <a href="/windows/desktop/Controls/em-setcuebanner">EM_SETCUEBANNER</a> message explicitly.
 
 ## -parameters
 
 ### -param hwnd
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the edit control.
 
 ### -param lpcwText
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPCWSTR</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">LPCWSTR</a></b>
 
 A pointer to a Unicode string that contains the text to set as the textual cue.
 
 ### -param fDrawFocused
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
 
 Sets whether the cue text is drawn when the control has keyboard focus.
 
@@ -82,17 +82,16 @@ An edit control that is used to begin a search may display "Enter search here" i
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Controls/em-setcuebanner">EM_SETCUEBANNER</a>
+<a href="/windows/desktop/Controls/em-setcuebanner">EM_SETCUEBANNER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Controls/edit-controls">Edit Controls</a>
+<a href="/windows/desktop/Controls/edit-controls">Edit Controls</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-edit_setcuebannertext">Edit_SetCueBannerText</a>
+<a href="/windows/desktop/api/commctrl/nf-commctrl-edit_setcuebannertext">Edit_SetCueBannerText</a>
 
 
 
 <b>Reference</b>
-

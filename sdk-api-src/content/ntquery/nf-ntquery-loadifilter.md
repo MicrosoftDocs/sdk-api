@@ -51,23 +51,23 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Indexing Service is unsupported as of Windows XP. Instead, use <a href="https://docs.microsoft.com/windows/desktop/search/-search-3x-wds-overview">Windows Search</a> for client side search and  <a href="https://www.microsoft.com/download/details.aspx?id=18914">Microsoft Search Server Express</a> for server side search.]
+<p class="CCE_Message">[Indexing Service is unsupported as of Windows XP. Instead, use <a href="/windows/desktop/search/-search-3x-wds-overview">Windows Search</a> for client side search and  <a href="https://www.microsoft.com/download/details.aspx?id=18914">Microsoft Search Server Express</a> for server side search.]
 
-Retrieves <a href="https://docs.microsoft.com/windows/desktop/api/filter/nn-filter-ifilter">IFilter</a> from path name for object.
+Retrieves <a href="/windows/desktop/api/filter/nn-filter-ifilter">IFilter</a> from path name for object.
 
 ## -parameters
 
 ### -param pwcsPath
 
-A pointer to the full path of an object for which an <a href="https://docs.microsoft.com/windows/desktop/api/filter/nn-filter-ifilter">IFilter</a> interface pointer is to be returned. The path can include a full filename or only the file name extension; for example, ".ext".
+A pointer to the full path of an object for which an <a href="/windows/desktop/api/filter/nn-filter-ifilter">IFilter</a> interface pointer is to be returned. The path can include a full filename or only the file name extension; for example, ".ext".
 
 ### -param pUnkOuter [in]
 
-A pointer to the controlling <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface of the aggregate in which this storage object exists.
+A pointer to the controlling <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface of the aggregate in which this storage object exists.
 
 ### -param ppIUnk [out]
 
-A pointer to a variable that receives the <a href="https://docs.microsoft.com/windows/desktop/api/filter/nn-filter-ifilter">IFilter</a> interface pointer.
+A pointer to a variable that receives the <a href="/windows/desktop/api/filter/nn-filter-ifilter">IFilter</a> interface pointer.
 
 ## -returns
 
@@ -148,13 +148,12 @@ An unknown error has occurred.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntquery/nf-ntquery-bindifilterfromstorage">BindIFilterFromStorage</a>
+<a href="/windows/desktop/api/ntquery/nf-ntquery-bindifilterfromstorage">BindIFilterFromStorage</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntquery/nf-ntquery-bindifilterfromstream">BindIFilterFromStream</a>
+<a href="/windows/desktop/api/ntquery/nf-ntquery-bindifilterfromstream">BindIFilterFromStream</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/filter/nn-filter-ifilter">IFilter</a>
-
+<a href="/windows/desktop/api/filter/nn-filter-ifilter">IFilter</a>

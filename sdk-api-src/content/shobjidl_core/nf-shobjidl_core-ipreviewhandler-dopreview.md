@@ -124,13 +124,12 @@ Item was corrupt.
 
 ## -remarks
 
-If the previewer window has not yet been created, then it must be created after this method has been called. The preview handler is responsible for painting the area specified in <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ipreviewhandler-setwindow">IPreviewHandler::SetWindow</a> or <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ipreviewhandler-setrect">IPreviewHandler::SetRect</a>.  If these methods are called while the preview handler is rendering, the window must be reparented/resized without stopping or restarting the rendering of the item.
+If the previewer window has not yet been created, then it must be created after this method has been called. The preview handler is responsible for painting the area specified in <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ipreviewhandler-setwindow">IPreviewHandler::SetWindow</a> or <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ipreviewhandler-setrect">IPreviewHandler::SetRect</a>.  If these methods are called while the preview handler is rendering, the window must be reparented/resized without stopping or restarting the rendering of the item.
 
-This method should be called only after <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ipreviewhandler-setwindow">IPreviewHandler::SetWindow</a> has been called.
+This method should be called only after <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ipreviewhandler-setwindow">IPreviewHandler::SetWindow</a> has been called.
 
-Aditionally, this method should be called only after <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iinitializewithitem-initialize">Initialize</a>, <a href="https://docs.microsoft.com/windows/desktop/api/propsys/nf-propsys-iinitializewithstream-initialize">Initialize</a>, or <a href="https://docs.microsoft.com/windows/desktop/api/propsys/nf-propsys-iinitializewithfile-initialize">Initialize</a> has been called.
+Aditionally, this method should be called only after <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iinitializewithitem-initialize">Initialize</a>, <a href="/windows/desktop/api/propsys/nf-propsys-iinitializewithstream-initialize">Initialize</a>, or <a href="/windows/desktop/api/propsys/nf-propsys-iinitializewithfile-initialize">Initialize</a> has been called.
             
 
 <div class="alert"><b>Note</b>  Do not actually create the previewer window until this method has been called.</div>
 <div> </div>
-

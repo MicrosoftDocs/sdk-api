@@ -58,11 +58,11 @@ Represents a generated SOAP fault.
 
 ### -field Code
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-wsd_soap_fault_code">WSD_SOAP_FAULT_CODE</a> structure that contains a SOAP fault code.
+A <a href="/windows/desktop/api/wsdtypes/ns-wsdtypes-wsd_soap_fault_code">WSD_SOAP_FAULT_CODE</a> structure that contains a SOAP fault code.
 
 ### -field Reason
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-wsd_soap_fault_reason">WSD_SOAP_FAULT_REASON</a> structure that contains localized human readable explanations of the fault.
+A <a href="/windows/desktop/api/wsdtypes/ns-wsdtypes-wsd_soap_fault_reason">WSD_SOAP_FAULT_REASON</a> structure that contains localized human readable explanations of the fault.
 
 ### -field Node
 
@@ -74,13 +74,12 @@ The SOAP role in which the <b>Node</b> was acting at the time the fault occurred
 
 ### -field Detail
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/wsdxmldom/ns-wsdxmldom-wsdxml_element">WSDXML_ELEMENT</a> structure that contains application-specific error information pertaining to the fault.
+A <a href="/windows/desktop/api/wsdxmldom/ns-wsdxmldom-wsdxml_element">WSDXML_ELEMENT</a> structure that contains application-specific error information pertaining to the fault.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wsdutil/nf-wsdutil-wsdgeneratefault">WSDGenerateFault</a>
+<a href="/windows/desktop/api/wsdutil/nf-wsdutil-wsdgeneratefault">WSDGenerateFault</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wsdutil/nf-wsdutil-wsdgeneratefaultex">WSDGenerateFaultEx</a>
-
+<a href="/windows/desktop/api/wsdutil/nf-wsdutil-wsdgeneratefaultex">WSDGenerateFaultEx</a>

@@ -64,7 +64,7 @@ The value of type <b>DWORD</b> that specifies the bitmask indicating which items
 
 Type: <b>DWORD</b>
 
-The value of type <b>DWORD</b> that contains one or more <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ne-shobjidl_core-folderflags">FOLDERFLAGS</a>.
+The value of type <b>DWORD</b> that contains one or more <a href="/windows/desktop/api/shobjidl_core/ne-shobjidl_core-folderflags">FOLDERFLAGS</a>.
 
 ## -returns
 
@@ -74,5 +74,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -remarks
 
-<b>For Windows 7 or later:</b> This method must be used in combinaton with the <i>FVO_CUSTOMPOSITION</i> flag from the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/ne-shobjidl-folderviewoptions">FOLDERVIEWOPTIONS</a> enumeration.
-
+<b>For Windows 7 or later:</b> This method must be used in combinaton with the <i>FVO_CUSTOMPOSITION</i> flag from the <a href="/windows/desktop/api/shobjidl/ne-shobjidl-folderviewoptions">FOLDERVIEWOPTIONS</a> enumeration.

@@ -60,7 +60,7 @@ Zero-based index of the font.
 
 Type: **[WCHAR](/windows/win32/winprog/windows-data-types)\***
 
-Character array that receives the string. Call [GetFontSourceNameLength](/windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontset3-getfontsourcenamelength) to determine the size of array to allocate.
+Character array that receives the string. Call [GetFontSourceNameLength](./nf-dwrite_3-idwritefontset3-getfontsourcenamelength.md) to determine the size of array to allocate.
 
 ### -param stringBufferSize
 
@@ -78,5 +78,4 @@ If the function succeeds, it returns **S_OK**. Otherwise, it returns an [**HRESU
 
 ## -see-also
 
-[GetFontSourceNameLength](/windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontset3-getfontsourcenamelength)
-
+[GetFontSourceNameLength](./nf-dwrite_3-idwritefontset3-getfontsourcenamelength.md)

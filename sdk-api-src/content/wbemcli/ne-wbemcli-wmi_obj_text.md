@@ -53,7 +53,7 @@ api_name:
 ## -description
 
 Defines the valid object text formats to be used by 
-<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/swbemobjectex-gettext-">SWbemObjectEx.GetText_</a>.
+<a href="/windows/desktop/WmiSdk/swbemobjectex-gettext-">SWbemObjectEx.GetText_</a>.
 
 ## -enum-fields
 
@@ -108,4 +108,3 @@ Deprecated. Do not use.
 ### -field WMI_OBJ_TEXT_LAST
 
 Deprecated. Do not use.
-

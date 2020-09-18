@@ -62,7 +62,7 @@ Causes the calling thread to wait at a synchronization barrier until the maximum
 ### -param lpBarrier [in, out]
 
 A pointer to an initialized synchronization barrier. Use the 
-      <a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-initializesynchronizationbarrier">InitializeSynchronizationBarrier</a> 
+      <a href="/windows/desktop/api/synchapi/nf-synchapi-initializesynchronizationbarrier">InitializeSynchronizationBarrier</a> 
       function to initialize the barrier. <b>SYNCHRONIZATION_BARRIER</b> is an opaque 
       structure that should not be modified by the application.
 
@@ -137,13 +137,12 @@ A thread can override the default behavior of the barrier by specifying
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-deletesynchronizationbarrier">DeleteSynchronizationBarrier</a>
+<a href="/windows/desktop/api/synchapi/nf-synchapi-deletesynchronizationbarrier">DeleteSynchronizationBarrier</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-initializesynchronizationbarrier">InitializeSynchronizationBarrier</a>
+<a href="/windows/desktop/api/synchapi/nf-synchapi-initializesynchronizationbarrier">InitializeSynchronizationBarrier</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Sync/synchronization-barriers">Synchronization Barriers</a>
-
+<a href="/windows/desktop/Sync/synchronization-barriers">Synchronization Barriers</a>

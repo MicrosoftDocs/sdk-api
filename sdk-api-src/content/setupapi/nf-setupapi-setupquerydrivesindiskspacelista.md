@@ -81,25 +81,24 @@ Optional pointer to a variable that receives the size of the buffer required to 
 If the function succeeds, the return value is a nonzero value.
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 If the 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function returns ERROR_INSUFFICIENT_BUFFER, <i>ReturnBuffer</i> was specified, but <i>ReturnBufferSize</i> indicated that the supplied buffer was too small.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function returns ERROR_INSUFFICIENT_BUFFER, <i>ReturnBuffer</i> was specified, but <i>ReturnBufferSize</i> indicated that the supplied buffer was too small.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/SetupApi/functions">Functions</a>
+<a href="/windows/desktop/SetupApi/functions">Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SetupApi/overview">Overview</a>
+<a href="/windows/desktop/SetupApi/overview">Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupqueryspacerequiredondrivea">SetupQuerySpaceRequiredOnDrive</a>
+<a href="/windows/desktop/api/setupapi/nf-setupapi-setupqueryspacerequiredondrivea">SetupQuerySpaceRequiredOnDrive</a>
 
 ## -remarks
 
 > [!NOTE]
 > The setupapi.h header defines SetupQueryDrivesInDiskSpaceList as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

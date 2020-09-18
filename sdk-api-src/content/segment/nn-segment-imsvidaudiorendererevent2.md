@@ -52,16 +52,16 @@ api_name:
 
 Implements an event system for the audio renderer associated with a Video Control. Audio renderer events are triggered by events from the audio decoder upstream of the audio renderer in the filter graph. 
 
-The audio renderer subscribes to audio decoder events by using the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-icodecapi-registerforevent">ICodecAPI::RegisterForEvent</a> method. Each method in <b>IMSVidAudioRendererEvent2</b> corresponds to a codec property, as follows:
+The audio renderer subscribes to audio decoder events by using the <a href="/windows/desktop/api/strmif/nf-strmif-icodecapi-registerforevent">ICodecAPI::RegisterForEvent</a> method. Each method in <b>IMSVidAudioRendererEvent2</b> corresponds to a codec property, as follows:
 <ol>
 <li>An audio decoder property changes.</li>
-<li>The decoder fires an <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-icodecapi">ICodecAPI</a> event. The event data includes the GUID that identifies the codec property.</li>
+<li>The decoder fires an <a href="/windows/desktop/api/strmif/nn-strmif-icodecapi">ICodecAPI</a> event. The event data includes the GUID that identifies the codec property.</li>
 <li>The audio renderer fires the corresponding <b>IMSVidAudioRendererEvent2</b> event.</li>
-</ol>For a list of codec properties, see <a href="https://docs.microsoft.com/windows/desktop/DirectShow/codec-api-properties">Codec API Properties</a>.
+</ol>For a list of codec properties, see <a href="/windows/desktop/DirectShow/codec-api-properties">Codec API Properties</a>.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMSVidAudioRendererEvent2</b> interface inherits from <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/segment/nn-segment-imsvidaudiorendererevent">IMSVidAudioRendererEvent</a>. <b>IMSVidAudioRendererEvent2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMSVidAudioRendererEvent2</b> interface inherits from <a href="/previous-versions/windows/desktop/api/segment/nn-segment-imsvidaudiorendererevent">IMSVidAudioRendererEvent</a>. <b>IMSVidAudioRendererEvent2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -76,80 +76,80 @@ The <b>IMSVidAudioRendererEvent2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidaudiorendererevent2-avaudiochannelconfig">AVAudioChannelConfig</a>
+<a href="/windows/desktop/api/segment/nf-segment-imsvidaudiorendererevent2-avaudiochannelconfig">AVAudioChannelConfig</a>
 </td>
 <td align="left" width="63%">
-Indicates a change in the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/avaudiochannelconfig-property">AVAudioChannelConfig</a> property.
+Indicates a change in the <a href="/windows/desktop/DirectShow/avaudiochannelconfig-property">AVAudioChannelConfig</a> property.
           
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidaudiorendererevent2-avaudiochannelcount">AVAudioChannelCount</a>
+<a href="/windows/desktop/api/segment/nf-segment-imsvidaudiorendererevent2-avaudiochannelcount">AVAudioChannelCount</a>
 </td>
 <td align="left" width="63%">
-Indicates a change in the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/avaudiochannelcount-property">AVAudioChannelCount</a> property.
+Indicates a change in the <a href="/windows/desktop/DirectShow/avaudiochannelcount-property">AVAudioChannelCount</a> property.
           
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidaudiorendererevent2-avaudiosamplerate">AVAudioSampleRate</a>
+<a href="/windows/desktop/api/segment/nf-segment-imsvidaudiorendererevent2-avaudiosamplerate">AVAudioSampleRate</a>
 </td>
 <td align="left" width="63%">
-Indicates a change in the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/avaudiosamplerate-property">AVAudioSampleRate</a> property.
+Indicates a change in the <a href="/windows/desktop/DirectShow/avaudiosamplerate-property">AVAudioSampleRate</a> property.
           
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidaudiorendererevent2-avddsurroundmode">AVDDSurroundMode</a>
+<a href="/windows/desktop/api/segment/nf-segment-imsvidaudiorendererevent2-avddsurroundmode">AVDDSurroundMode</a>
 </td>
 <td align="left" width="63%">
-Indicates a change in the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/avddsurroundmode-property">AVDDSurroundMode</a> property.
+Indicates a change in the <a href="/windows/desktop/DirectShow/avddsurroundmode-property">AVDDSurroundMode</a> property.
           
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidaudiorendererevent2-avdecaudiodualmono">AVDecAudioDualMono</a>
+<a href="/windows/desktop/api/segment/nf-segment-imsvidaudiorendererevent2-avdecaudiodualmono">AVDecAudioDualMono</a>
 </td>
 <td align="left" width="63%">
-Indicates a change in the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/avdecaudiodualmono-property">AVDecAudioDualMono</a> property.
+Indicates a change in the <a href="/windows/desktop/DirectShow/avdecaudiodualmono-property">AVDecAudioDualMono</a> property.
           
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidaudiorendererevent2-avdeccommoninputformat">AVDecCommonInputFormat</a>
+<a href="/windows/desktop/api/segment/nf-segment-imsvidaudiorendererevent2-avdeccommoninputformat">AVDecCommonInputFormat</a>
 </td>
 <td align="left" width="63%">
-Indicates a change in the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/avdeccommoninputformat-property">AVDecCommonInputFormat</a> property.
+Indicates a change in the <a href="/windows/desktop/DirectShow/avdeccommoninputformat-property">AVDecCommonInputFormat</a> property.
           
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidaudiorendererevent2-avdeccommonmeanbitrate">AVDecCommonMeanBitRate</a>
+<a href="/windows/desktop/api/segment/nf-segment-imsvidaudiorendererevent2-avdeccommonmeanbitrate">AVDecCommonMeanBitRate</a>
 </td>
 <td align="left" width="63%">
-Indicates a change in the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/avdeccommonmeanbitrate">AVDecCommonMeanBitRate</a> property.
+Indicates a change in the <a href="/windows/desktop/DirectShow/avdeccommonmeanbitrate">AVDecCommonMeanBitRate</a> property.
           
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidaudiorendererevent2-avdeccommonoutputformat">AVDecCommonOutputFormat</a>
+<a href="/windows/desktop/api/segment/nf-segment-imsvidaudiorendererevent2-avdeccommonoutputformat">AVDecCommonOutputFormat</a>
 </td>
 <td align="left" width="63%">
-Indicates a change in the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/avdeccommonoutputformat-property">AVDecCommonOutput</a> property.
+Indicates a change in the <a href="/windows/desktop/DirectShow/avdeccommonoutputformat-property">AVDecCommonOutput</a> property.
           
 
 </td>
@@ -159,4 +159,3 @@ Indicates a change in the <a href="https://docs.microsoft.com/windows/desktop/Di
 ## -remarks
 
 To declare the interface identifier (IID) for this interface, use the <b>__uuidof</b> operator: <code>__uuidof(IMSVidAudioRendererEvent2)</code>.
-

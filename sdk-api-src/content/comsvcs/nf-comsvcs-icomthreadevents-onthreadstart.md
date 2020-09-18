@@ -76,5 +76,4 @@ The user verifies the return values from this method.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-icomthreadevents">IComThreadEvents</a>
-
+<a href="/windows/desktop/api/comsvcs/nn-comsvcs-icomthreadevents">IComThreadEvents</a>

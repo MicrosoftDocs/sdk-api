@@ -56,7 +56,7 @@ Retrieves the tree-view item that bears the <b>TVGN_NEXTSELECTED</b> relationshi
 
 ### -param hwnd
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 Handle to the tree-view control.
 
@@ -72,5 +72,4 @@ Used to find the next selected item when there are multiple items selected.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Controls/tvm-getnextitem">TVM_GETNEXTITEM</a>
-
+<a href="/windows/desktop/Controls/tvm-getnextitem">TVM_GETNEXTITEM</a>

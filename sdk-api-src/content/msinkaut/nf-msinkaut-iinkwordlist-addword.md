@@ -52,15 +52,15 @@ api_name:
 
 ## -description
 
-Adds a single word to the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkwordlist-class">InkWordList</a> object.
+Adds a single word to the <a href="/windows/desktop/tablet/inkwordlist-class">InkWordList</a> object.
 
 ## -parameters
 
 ### -param NewWord [in]
 
-The word to add to an <a href="https://docs.microsoft.com/windows/desktop/tablet/inkwordlist-class">InkWordList</a> object. The word is not added if it already exists in the list.
+The word to add to an <a href="/windows/desktop/tablet/inkwordlist-class">InkWordList</a> object. The word is not added if it already exists in the list.
 
-For more information about the BSTR data type, see <a href="https://docs.microsoft.com/windows/desktop/tablet/using-the-com-library">Using the COM Library</a>.
+For more information about the BSTR data type, see <a href="/windows/desktop/tablet/using-the-com-library">Using the COM Library</a>.
 
 ## -returns
 
@@ -149,13 +149,12 @@ If a string is added to a word list, its capitalized versions are also implicitl
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/tablet/inkrecognizercontext-class">InkRecognizerContext Class</a>
+<a href="/windows/desktop/tablet/inkrecognizercontext-class">InkRecognizerContext Class</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/tablet/inkwordlist-class">InkWordList Class</a>
+<a href="/windows/desktop/tablet/inkwordlist-class">InkWordList Class</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkwordlist-removeword">RemoveWord Method</a>
-
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkwordlist-removeword">RemoveWord Method</a>

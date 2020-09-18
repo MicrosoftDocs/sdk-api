@@ -51,8 +51,8 @@ api_name:
 ## -description
 
 The <b>PropertySheetPageCallback</b> method notifies an 
-<a href="https://docs.microsoft.com/windows/desktop/api/aclui/nf-aclui-editsecurity">EditSecurity</a> or 
-<a href="https://docs.microsoft.com/windows/desktop/api/aclui/nf-aclui-createsecuritypage">CreateSecurityPage</a> caller that an access control editor property page is being created or destroyed.
+<a href="/windows/desktop/api/aclui/nf-aclui-editsecurity">EditSecurity</a> or 
+<a href="/windows/desktop/api/aclui/nf-aclui-createsecuritypage">CreateSecurityPage</a> caller that an access control editor property page is being created or destroyed.
 
 ## -parameters
 
@@ -109,7 +109,7 @@ Indicates that a property page is being initialized.
 ### -param uPage [in]
 
 A value from the 
-<a href="https://docs.microsoft.com/windows/desktop/api/aclui/ne-aclui-si_page_type">SI_PAGE_TYPE</a> enumeration type that indicates the type of access control editor property page being created or destroyed.
+<a href="/windows/desktop/api/aclui/ne-aclui-si_page_type">SI_PAGE_TYPE</a> enumeration type that indicates the type of access control editor property page being created or destroyed.
 
 ## -returns
 
@@ -119,25 +119,24 @@ Returns a nonzero error code if an error occurs.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/access-control-editor">Access Control Editor</a>
+<a href="/windows/desktop/SecAuthZ/access-control-editor">Access Control Editor</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/authorization-functions">Access Control Editor Functions</a>
+<a href="/windows/desktop/SecAuthZ/authorization-functions">Access Control Editor Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/aclui/nf-aclui-createsecuritypage">CreateSecurityPage</a>
+<a href="/windows/desktop/api/aclui/nf-aclui-createsecuritypage">CreateSecurityPage</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/aclui/nf-aclui-editsecurity">EditSecurity</a>
+<a href="/windows/desktop/api/aclui/nf-aclui-editsecurity">EditSecurity</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/aclui/nn-aclui-isecurityinformation">ISecurityInformation</a>
+<a href="/windows/desktop/api/aclui/nn-aclui-isecurityinformation">ISecurityInformation</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/aclui/ne-aclui-si_page_type">SI_PAGE_TYPE</a>
-
+<a href="/windows/desktop/api/aclui/ne-aclui-si_page_type">SI_PAGE_TYPE</a>

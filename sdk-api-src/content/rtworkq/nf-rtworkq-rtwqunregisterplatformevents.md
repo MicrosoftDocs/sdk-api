@@ -56,7 +56,7 @@ Unregisters a listener event from the callback platform.
 
 ### -param platformEvents
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/rtworkq/nn-rtworkq-irtwqplatformevents">IRtwqPlatformEvents</a>  object which provides the events.
+Pointer to the <a href="/windows/desktop/api/rtworkq/nn-rtworkq-irtwqplatformevents">IRtwqPlatformEvents</a>  object which provides the events.
 
 ## -returns
 
@@ -65,4 +65,3 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 ## -remarks
 
 The app should use the same pointer that was passed to <a href="/windows/win32/api/rtworkq/nf-rtworkq-rtwqregisterplatformevents">RtwqRegisterPlatformEvents</a>.
-

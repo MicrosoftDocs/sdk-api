@@ -53,7 +53,7 @@ api_name:
 
 ## -description
 
-Called  by Microsoft Media Foundation to specify parameters common to all requests created by this instance of <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfhttpdownloadsession">IMFHttpDownloadSession</a>.
+Called  by Microsoft Media Foundation to specify parameters common to all requests created by this instance of <a href="/windows/desktop/api/mfidl/nn-mfidl-imfhttpdownloadsession">IMFHttpDownloadSession</a>.
 
 ## -parameters
 
@@ -101,5 +101,4 @@ There is insufficient memory to complete the operation.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfhttpdownloadsession">IMFHttpDownloadSession</a>
-
+<a href="/windows/desktop/api/mfidl/nn-mfidl-imfhttpdownloadsession">IMFHttpDownloadSession</a>

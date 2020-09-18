@@ -58,7 +58,7 @@ The
 ### -param hEvent [in]
 
 Handle to an event object. Use the 
-<a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-createeventa">CreateEvent</a> function to create the event object.
+<a href="/windows/desktop/api/synchapi/nf-synchapi-createeventa">CreateEvent</a> function to create the event object.
 
 ### -param bMachine [in]
 
@@ -69,28 +69,27 @@ Specifies the policy change type. If <b>TRUE</b>, computer policy changes are re
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
 Call the 
-<a href="https://docs.microsoft.com/windows/desktop/api/userenv/nf-userenv-unregistergpnotification">UnregisterGPNotification</a> function to unregister the handle from receiving policy change notifications. Call the 
-<a href="https://docs.microsoft.com/windows/desktop/api/handleapi/nf-handleapi-closehandle">CloseHandle</a> function to close the handle when it is no longer required.
+<a href="/windows/desktop/api/userenv/nf-userenv-unregistergpnotification">UnregisterGPNotification</a> function to unregister the handle from receiving policy change notifications. Call the 
+<a href="/windows/desktop/api/handleapi/nf-handleapi-closehandle">CloseHandle</a> function to close the handle when it is no longer required.
 
 An application can also receive notifications about policy changes when a 
-<a href="https://docs.microsoft.com/windows/desktop/winmsg/wm-settingchange">WM_SETTINGCHANGE</a> message is broadcast. In this instance, the <i>wParam</i> parameter value is 1 if computer policy was applied; it is zero if user policy was applied. The <i>lParam</i> parameter points to the string "Policy".
+<a href="/windows/desktop/winmsg/wm-settingchange">WM_SETTINGCHANGE</a> message is broadcast. In this instance, the <i>wParam</i> parameter value is 1 if computer policy was applied; it is zero if user policy was applied. The <i>lParam</i> parameter points to the string "Policy".
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/Policy/group-policy-functions">Group Policy
+<a href="/previous-versions/windows/desktop/Policy/group-policy-functions">Group Policy
     Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/Policy/about-group-policy">Group Policy
+<a href="/previous-versions/windows/desktop/Policy/about-group-policy">Group Policy
     Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/userenv/nf-userenv-unregistergpnotification">UnregisterGPNotification</a>
-
+<a href="/windows/desktop/api/userenv/nf-userenv-unregistergpnotification">UnregisterGPNotification</a>

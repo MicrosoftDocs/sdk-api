@@ -108,7 +108,7 @@ If no error occurs and the operation has completed immediately, **LPWSPIoctl** r
 
 This routine is used to set or retrieve operating parameters associated with the socket, the transport protocol, or the communications subsystem. If both <i>lpOverlapped</i> and <i>lpCompletionRoutine</i> are **NULL**, the socket in this function will be treated as a nonoverlapped socket.
 
-For non-overlapped sockets, <i>lpOverlapped</i> and <i>lpCompletionRoutine</i> parameters are ignored and this function can block if socket <i>s</i> is in blocking mode. Note that if socket <i>s</i> is in nonblocking mode, this function can return [WSAEWOULDBLOCK](/windows/win32/winsock/windows-sockets-error-codes-2#wsaewouldblock) if the specified operation cannot be finished immediately. In this case, the Windows Sockets SPI client may change the socket to blocking mode and reissue the request or wait for the corresponding network event (such as FD_ROUTING_INTERFACE_CHANGE or FD_ADDRESS_LIST_CHANGE in case of **SIO_ROUTING_INTERFACE_CHANGE** or **SIO_ADDRESS_LIST_CHANGE**) using Windows message (through **[LPWSPAsyncSelect](nc-ws2spi-lpwspasyncselect.md)** or event (using [**LPWSPEventSelect**](/windows/win32/api/ws2spi/nc-ws2spi-lpwspeventselect)) based notification mechanism.
+For non-overlapped sockets, <i>lpOverlapped</i> and <i>lpCompletionRoutine</i> parameters are ignored and this function can block if socket <i>s</i> is in blocking mode. Note that if socket <i>s</i> is in nonblocking mode, this function can return [WSAEWOULDBLOCK](/windows/win32/winsock/windows-sockets-error-codes-2#wsaewouldblock) if the specified operation cannot be finished immediately. In this case, the Windows Sockets SPI client may change the socket to blocking mode and reissue the request or wait for the corresponding network event (such as FD_ROUTING_INTERFACE_CHANGE or FD_ADDRESS_LIST_CHANGE in case of **SIO_ROUTING_INTERFACE_CHANGE** or **SIO_ADDRESS_LIST_CHANGE**) using Windows message (through **[LPWSPAsyncSelect](nc-ws2spi-lpwspasyncselect.md)** or event (using [**LPWSPEventSelect**](./nc-ws2spi-lpwspeventselect.md)) based notification mechanism.
 
 For overlapped sockets, operations that cannot be completed immediately will be initiated, and completion will be indicated at a later time. The **DWORD** value pointed to by the <i>lpcbBytesReturned</i> parameter that is returned may be ignored. The final completion status and bytes returned can be retrieved when the appropriate completion method is signaled when the operation has completed.
 
@@ -171,14 +171,14 @@ The following UNIX commands are supported:
 
 Enables or disables nonblocking mode on socket <i>s</i>. The <i>lpvInBuffer</i> parameter points at an unsigned long, which is nonzero if nonblocking mode is to be enabled and zero if it is to be disabled. When a socket is created, it operates in blocking mode (that is, nonblocking mode is disabled). This is consistent with Berkeley Software Distribution (BSD) sockets.
 
-The **[LPWSPAsyncSelect](nc-ws2spi-lpwspasyncselect.md)** or [**LPWSPEventSelect**](/windows/win32/api/ws2spi/nc-ws2spi-lpwspeventselect) routine automatically sets a socket to nonblocking mode. If **LPWSPAsyncSelect** or **LPWSPEventSelect** has been issued on a socket, then any attempt to use **LPWSPIoctl** to set the socket back to blocking mode will fail with [WSAEINVAL](/windows/win32/winsock/windows-sockets-error-codes-2#wsaeinval). To set the socket back to blocking mode, a Windows Sockets SPI client must first disable **LPWSPAsyncSelect** by calling **LPWSPAsyncSelect** with the *lEvent* parameter equal to zero, or disable **LPWSPEventSelect** by calling **LPWSPEventSelect** with the *lNetworkEvents* parameter equal to zero.
+The **[LPWSPAsyncSelect](nc-ws2spi-lpwspasyncselect.md)** or [**LPWSPEventSelect**](./nc-ws2spi-lpwspeventselect.md) routine automatically sets a socket to nonblocking mode. If **LPWSPAsyncSelect** or **LPWSPEventSelect** has been issued on a socket, then any attempt to use **LPWSPIoctl** to set the socket back to blocking mode will fail with [WSAEINVAL](/windows/win32/winsock/windows-sockets-error-codes-2#wsaeinval). To set the socket back to blocking mode, a Windows Sockets SPI client must first disable **LPWSPAsyncSelect** by calling **LPWSPAsyncSelect** with the *lEvent* parameter equal to zero, or disable **LPWSPEventSelect** by calling **LPWSPEventSelect** with the *lNetworkEvents* parameter equal to zero.
 
 </dd> <dt>
 
 <span id="FIONREAD"></span><span id="fionread"></span>**FIONREAD**
 </dt> <dd>
 
-Determine the amount of data that can be read atomically from socket <i>s</i>. The <i>lpvOutBuffer</i> parameter points at an **unsigned long** in which [**WSAIoctl**](/windows/win32/api/winsock2/nf-winsock2-wsaioctl) stores the result.
+Determine the amount of data that can be read atomically from socket <i>s</i>. The <i>lpvOutBuffer</i> parameter points at an **unsigned long** in which [**WSAIoctl**](../winsock2/nf-winsock2-wsaioctl.md) stores the result.
 
 If the socket passed in the <i>s</i> parameter is stream oriented (for example, type SOCK_STREAM), **FIONREAD** returns the total amount of data that can be read in a single receive operation; this is normally the same as the total amount of data queued on the socket (since a data stream is byte-oriented, this is not guaranteed).
 
@@ -200,7 +200,7 @@ The following Windows Sockets 2 commands are supported:
 <span id="SIO_ACQUIRE_PORT_RESERVATION__opcode_setting__I__T__3_"></span><span id="sio_acquire_port_reservation__opcode_setting__i__t__3_"></span><span id="SIO_ACQUIRE_PORT_RESERVATION__OPCODE_SETTING__I__T__3_"></span>**SIO_ACQUIRE_PORT_RESERVATION** (opcode setting: I, T==3)
 </dt> <dd>
 
-Request a runtime reservation for a block of TCP or UDP ports. For runtime port reservations, the port pool requires that reservations be consumed from the process on whose socket the reservation was granted. Runtime port reservations last only as long as the lifetime of the socket on which the [**SIO_ACQUIRE_PORT_RESERVATION**](/windows/win32/winsock/sio-acquire-port-reservation) IOCTL was called. In contrast, persistent port reservations created using the [**CreatePersistentTcpPortReservation**](/windows/win32/api/iphlpapi/nf-iphlpapi-createpersistenttcpportreservation) or [**CreatePersistentUdpPortReservation**](/windows/win32/api/iphlpapi/nf-iphlpapi-createpersistentudpportreservation) function may be consumed by any process with the ability to obtain persistent reservations.
+Request a runtime reservation for a block of TCP or UDP ports. For runtime port reservations, the port pool requires that reservations be consumed from the process on whose socket the reservation was granted. Runtime port reservations last only as long as the lifetime of the socket on which the [**SIO_ACQUIRE_PORT_RESERVATION**](/windows/win32/winsock/sio-acquire-port-reservation) IOCTL was called. In contrast, persistent port reservations created using the [**CreatePersistentTcpPortReservation**](../iphlpapi/nf-iphlpapi-createpersistenttcpportreservation.md) or [**CreatePersistentUdpPortReservation**](../iphlpapi/nf-iphlpapi-createpersistentudpportreservation.md) function may be consumed by any process with the ability to obtain persistent reservations.
 
 For more detailed information, see the [**SIO_ACQUIRE_PORT_RESERVATION**](/windows/win32/winsock/sio-acquire-port-reservation) reference.
 
@@ -213,7 +213,7 @@ For more detailed information, see the [**SIO_ACQUIRE_PORT_RESERVATION**](/windo
 
 To receive notification of changes in the list of local transport addresses of the socket's protocol family to which the Windows Sockets SPI client can bind. No output information will be provided upon completion of this IOCTL; the completion merely indicates that the list of available local addresses has changed and should be queried again through **SIO_ADDRESS_LIST_QUERY**.
 
-It is assumed (although not required) that the Windows Sockets SPI client uses overlapped I/O to be notified of change by completion of **SIO_ADDRESS_LIST_CHANGE** request. Alternatively, if the **SIO_ADDRESS_LIST_CHANGE** IOCTL is issued on a nonblocking socket and without overlapped parameters (<i>lpOverlapped</i> and <i>lpCompletionRoutine</i> are set to **NULL**), it will complete immediately with error [WSAEWOULDBLOCK](/windows/win32/winsock/windows-sockets-error-codes-2#wsaewouldblock). The Windows Sockets SPI client can then wait for address list change events through a call to [**LPWSPEventSelect**](/windows/win32/api/ws2spi/nc-ws2spi-lpwspeventselect) or **[LPWSPAsyncSelect](nc-ws2spi-lpwspasyncselect.md)** with the FD_ADDRESS_LIST_CHANGE bit set in the network event bitmask.
+It is assumed (although not required) that the Windows Sockets SPI client uses overlapped I/O to be notified of change by completion of **SIO_ADDRESS_LIST_CHANGE** request. Alternatively, if the **SIO_ADDRESS_LIST_CHANGE** IOCTL is issued on a nonblocking socket and without overlapped parameters (<i>lpOverlapped</i> and <i>lpCompletionRoutine</i> are set to **NULL**), it will complete immediately with error [WSAEWOULDBLOCK](/windows/win32/winsock/windows-sockets-error-codes-2#wsaewouldblock). The Windows Sockets SPI client can then wait for address list change events through a call to [**LPWSPEventSelect**](./nc-ws2spi-lpwspeventselect.md) or **[LPWSPAsyncSelect](nc-ws2spi-lpwspasyncselect.md)** with the FD_ADDRESS_LIST_CHANGE bit set in the network event bitmask.
 
 </dd> <dt>
 
@@ -267,7 +267,7 @@ Retrieves the base service provider handle for a given socket. The returned valu
 
 A layered service provider should never intercept this IOCTL since the return value must be the socket handle from the base service provider.
 
-If the output buffer is not large enough for a socket handle (the <i>cbOutBuffer</i> is less than the size of a **SOCKET**) or the <i>lpvOutBuffer</i> parameter is a **NULL** pointer, **SOCKET_ERROR** is returned as the result of this IOCTL and [**WSAGetLastError**](/windows/win32/api/winsock/nf-winsock-wsagetlasterror) returns [WSAEFAULT](/windows/win32/winsock/windows-sockets-error-codes-2#wsaefault).
+If the output buffer is not large enough for a socket handle (the <i>cbOutBuffer</i> is less than the size of a **SOCKET**) or the <i>lpvOutBuffer</i> parameter is a **NULL** pointer, **SOCKET_ERROR** is returned as the result of this IOCTL and [**WSAGetLastError**](../winsock/nf-winsock-wsagetlasterror.md) returns [WSAEFAULT](/windows/win32/winsock/windows-sockets-error-codes-2#wsaefault).
 
 **SIO_BASE_HANDLE** is defined in the <i>Mswsock.h</i> header file and supported on Windows Vista and later.
 
@@ -276,12 +276,12 @@ If the output buffer is not large enough for a socket handle (the <i>cbOutBuffer
 <span id="SIO_BSP_HANDLE__opcode_setting__O__T__1_"></span><span id="sio_bsp_handle__opcode_setting__o__t__1_"></span><span id="SIO_BSP_HANDLE__OPCODE_SETTING__O__T__1_"></span>**SIO_BSP_HANDLE** (opcode setting: O, T==1)
 </dt> <dd>
 
-Retrieves the base service provider handle for a socket used by the [**WSASendMsg**](/windows/win32/api/winsock2/nf-winsock2-wsasendmsg) function. The returned value is a **SOCKET**.
+Retrieves the base service provider handle for a socket used by the [**WSASendMsg**](../winsock2/nf-winsock2-wsasendmsg.md) function. The returned value is a **SOCKET**.
 
-This Ioctl is used by a layered service provider to ensure the provider intercept the [**WSASendMsg**](/windows/win32/api/winsock2/nf-winsock2-wsasendmsg) function.
+This Ioctl is used by a layered service provider to ensure the provider intercept the [**WSASendMsg**](../winsock2/nf-winsock2-wsasendmsg.md) function.
 
 
-If the output buffer is not large enough for a socket handle (the <i>cbOutBuffer</i> is less than the size of a **SOCKET**) or the <i>lpvOutBuffer</i> parameter is a **NULL** pointer, **SOCKET_ERROR** is returned as the result of this IOCTL and [**WSAGetLastError**](/windows/win32/api/winsock/nf-winsock-wsagetlasterror) returns [WSAEFAULT](/windows/win32/winsock/windows-sockets-error-codes-2#wsaefault).
+If the output buffer is not large enough for a socket handle (the <i>cbOutBuffer</i> is less than the size of a **SOCKET**) or the <i>lpvOutBuffer</i> parameter is a **NULL** pointer, **SOCKET_ERROR** is returned as the result of this IOCTL and [**WSAGetLastError**](../winsock/nf-winsock-wsagetlasterror.md) returns [WSAEFAULT](/windows/win32/winsock/windows-sockets-error-codes-2#wsaefault).
 
 **SIO_BSP_HANDLE** is defined in the <i>Mswsock.h</i> header file and supported on Windows Vista and later.
 
@@ -303,11 +303,11 @@ If the output buffer is not large enough for a socket handle (the <i>cbOutBuffer
 <span id="SIO_BSP_HANDLE_POLL__opcode_setting__O__T__1_"></span><span id="sio_bsp_handle_poll__opcode_setting__o__t__1_"></span><span id="SIO_BSP_HANDLE_POLL__OPCODE_SETTING__O__T__1_"></span>**SIO_BSP_HANDLE_POLL** (opcode setting: O, T==1)
 </dt> <dd>
 
-Retrieves the base service provider handle for a socket used by the [**WSAPoll**](/windows/win32/api/winsock2/nf-winsock2-wsapoll) function. The <i>lpOverlapped</i> parameter must be a **NULL** pointer. The returned value is a **SOCKET**.
+Retrieves the base service provider handle for a socket used by the [**WSAPoll**](../winsock2/nf-winsock2-wsapoll.md) function. The <i>lpOverlapped</i> parameter must be a **NULL** pointer. The returned value is a **SOCKET**.
 
-This Ioctl is used by a layered service provider to ensure the provider intercept the [**WSAPoll**](/windows/win32/api/winsock2/nf-winsock2-wsapoll) function.
+This Ioctl is used by a layered service provider to ensure the provider intercept the [**WSAPoll**](../winsock2/nf-winsock2-wsapoll.md) function.
 
-If the output buffer is not large enough for a socket handle (the <i>cbOutBuffer</i> is less than the size of a **SOCKET**), the <i>lpvOutBuffer</i> parameter is a **NULL** pointer, or the <i>lpOverlapped</i> parameter is not a **NULL** pointer, **SOCKET_ERROR** is returned as the result of this IOCTL and [**WSAGetLastError**](/windows/win32/api/winsock/nf-winsock-wsagetlasterror) returns [WSAEFAULT](/windows/win32/winsock/windows-sockets-error-codes-2#wsaefault).
+If the output buffer is not large enough for a socket handle (the <i>cbOutBuffer</i> is less than the size of a **SOCKET**), the <i>lpvOutBuffer</i> parameter is a **NULL** pointer, or the <i>lpOverlapped</i> parameter is not a **NULL** pointer, **SOCKET_ERROR** is returned as the result of this IOCTL and [**WSAGetLastError**](../winsock/nf-winsock-wsagetlasterror.md) returns [WSAEFAULT](/windows/win32/winsock/windows-sockets-error-codes-2#wsaefault).
 
 **SIO_BSP_HANDLE_POLL** is defined in the <i>Mswsock.h</i> header file and supported on Windows Vista and later.
 
@@ -360,14 +360,14 @@ The GUID values for extension functions supported by the Windows TCP/IP service 
 
 | Term                                                                                                                             | Description                                                                               |
 |----------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------|
-| <span id="WSAID_ACCEPTEX"></span><span id="wsaid_acceptex"></span>WSAID_ACCEPTEX<br/>                                     | The [**AcceptEx**](/windows/win32/api/mswsock/nf-mswsock-acceptex) extension function.<br/>                         |
-| <span id="WSAID_CONNECTEX"></span><span id="wsaid_connectex"></span>WSAID_CONNECTEX<br/>                                  | The [**ConnectEx**](/windows/win32/api/mswsock/nc-mswsock-lpfn_connectex) extension function.<br/>                       |
-| <span id="WSAID_DISCONNECTEX"></span><span id="wsaid_disconnectex"></span>WSAID_DISCONNECTEX<br/>                         | The [**DisconnectEx**](/windows/win32/api/mswsock/nc-mswsock-lpfn_disconnectex) extension function. <br/>                |
-| <span id="WSAID_GETACCEPTEXSOCKADDRS"></span><span id="wsaid_getacceptexsockaddrs"></span>WSAID_GETACCEPTEXSOCKADDRS<br/> | The [**GetAcceptExSockaddrs**](/windows/win32/api/mswsock/nf-mswsock-getacceptexsockaddrs) extension function.<br/> |
-| <span id="WSAID_TRANSMITFILE"></span><span id="wsaid_transmitfile"></span>WSAID_TRANSMITFILE<br/>                         | The [**TransmitFile**](/windows/win32/api/mswsock/nf-mswsock-transmitfile) extension function.<br/>                 |
-| <span id="WSAID_TRANSMITPACKETS"></span><span id="wsaid_transmitpackets"></span>WSAID_TRANSMITPACKETS<br/>                | The [**TransmitPackets**](/windows/win32/api/mswsock/nc-mswsock-lpfn_transmitpackets) extension function.<br/>           |
+| <span id="WSAID_ACCEPTEX"></span><span id="wsaid_acceptex"></span>WSAID_ACCEPTEX<br/>                                     | The [**AcceptEx**](../mswsock/nf-mswsock-acceptex.md) extension function.<br/>                         |
+| <span id="WSAID_CONNECTEX"></span><span id="wsaid_connectex"></span>WSAID_CONNECTEX<br/>                                  | The [**ConnectEx**](../mswsock/nc-mswsock-lpfn_connectex.md) extension function.<br/>                       |
+| <span id="WSAID_DISCONNECTEX"></span><span id="wsaid_disconnectex"></span>WSAID_DISCONNECTEX<br/>                         | The [**DisconnectEx**](../mswsock/nc-mswsock-lpfn_disconnectex.md) extension function. <br/>                |
+| <span id="WSAID_GETACCEPTEXSOCKADDRS"></span><span id="wsaid_getacceptexsockaddrs"></span>WSAID_GETACCEPTEXSOCKADDRS<br/> | The [**GetAcceptExSockaddrs**](../mswsock/nf-mswsock-getacceptexsockaddrs.md) extension function.<br/> |
+| <span id="WSAID_TRANSMITFILE"></span><span id="wsaid_transmitfile"></span>WSAID_TRANSMITFILE<br/>                         | The [**TransmitFile**](../mswsock/nf-mswsock-transmitfile.md) extension function.<br/>                 |
+| <span id="WSAID_TRANSMITPACKETS"></span><span id="wsaid_transmitpackets"></span>WSAID_TRANSMITPACKETS<br/>                | The [**TransmitPackets**](../mswsock/nc-mswsock-lpfn_transmitpackets.md) extension function.<br/>           |
 | <span id="WSAID_WSARECVMSG"></span><span id="wsaid_wsarecvmsg"></span>WSAID_WSARECVMSG<br/>                               | The [**WSARecvMsg**](/previous-versions/windows/desktop/legacy/ms741687(v%3Dvs.85)) extension function.<br/>                     |
-| <span id="WSAID_WSASENDMSG"></span><span id="wsaid_wsasendmsg"></span>WSAID_WSASENDMSG<br/>                               | The [**WSASendMsg**](/windows/win32/api/winsock2/nf-winsock2-wsasendmsg) extension function. <br/>                      |
+| <span id="WSAID_WSASENDMSG"></span><span id="wsaid_wsasendmsg"></span>WSAID_WSASENDMSG<br/>                               | The [**WSASendMsg**](../winsock2/nf-winsock2-wsasendmsg.md) extension function. <br/>                      |
 
 
 
@@ -386,7 +386,7 @@ Reserved.
 </dt> <dd>
 
 
-Returns a list of configured IP interfaces and their parameters as an array of [**INTERFACE_INFO**](/windows/win32/api/ws2ipdef/ns-ws2ipdef-interface_info) structures.
+Returns a list of configured IP interfaces and their parameters as an array of [**INTERFACE_INFO**](../ws2ipdef/ns-ws2ipdef-interface_info.md) structures.
 
 > [!Note]  
 > Support of this command is mandatory for Windows Sockets 2-compliant TCP/IP service providers.
@@ -394,9 +394,9 @@ Returns a list of configured IP interfaces and their parameters as an array of [
  
 
 
-The <i>lpvOutBuffer</i> parameter points to the buffer in which to store the information about interfaces as an array of [**INTERFACE_INFO**](/windows/win32/api/ws2ipdef/ns-ws2ipdef-interface_info) structures for unicast IP addresses on the interfaces. The <i>cbOutBuffer</i> parameter specifies the length of the output buffer. The number of interfaces returned (number of structures returned in the buffer pointed to by <i>lpvOutBuffer</i> parameter) can be determined based on the actual length of the output buffer returned in <i>lpcbBytesReturned</i>parameter.
+The <i>lpvOutBuffer</i> parameter points to the buffer in which to store the information about interfaces as an array of [**INTERFACE_INFO**](../ws2ipdef/ns-ws2ipdef-interface_info.md) structures for unicast IP addresses on the interfaces. The <i>cbOutBuffer</i> parameter specifies the length of the output buffer. The number of interfaces returned (number of structures returned in the buffer pointed to by <i>lpvOutBuffer</i> parameter) can be determined based on the actual length of the output buffer returned in <i>lpcbBytesReturned</i>parameter.
 
-If the [**WSAIoctl**](/windows/win32/api/winsock2/nf-winsock2-wsaioctl) function is called with **SIO_GET_INTERFACE_LIST** and the level member of the socket <i>s</i> parameter is not defined as **IPPROTO_IP**, **WSAEINVAL** is returned. A call to the **WSAIoctl** function with **SIO_GET_INTERFACE_LIST** returns **WSAEFAULT** if the <i>cbOutBuffer</i> parameter that specifies the length of the output buffer is too small ro receive the list of configured interfaces.
+If the [**WSAIoctl**](../winsock2/nf-winsock2-wsaioctl.md) function is called with **SIO_GET_INTERFACE_LIST** and the level member of the socket <i>s</i> parameter is not defined as **IPPROTO_IP**, **WSAEINVAL** is returned. A call to the **WSAIoctl** function with **SIO_GET_INTERFACE_LIST** returns **WSAEFAULT** if the <i>cbOutBuffer</i> parameter that specifies the length of the output buffer is too small ro receive the list of configured interfaces.
 
 </dd> <dt>
 
@@ -405,9 +405,9 @@ If the [**WSAIoctl**](/windows/win32/api/winsock2/nf-winsock2-wsaioctl) function
 
 Reserved for future use with sockets.
 
-Returns a list of configured IP interfaces and their parameters as an array of [**INTERFACE_INFO_EX**](/windows/win32/api/ws2ipdef/ns-ws2ipdef-interface_info_ex) structures.
+Returns a list of configured IP interfaces and their parameters as an array of [**INTERFACE_INFO_EX**](../ws2ipdef/ns-ws2ipdef-interface_info_ex.md) structures.
 
-The <i>lpvOutBuffer</i> parameter points to the buffer in which to store the information about interfaces as an array of [**INTERFACE_INFO_EX**](/windows/win32/api/ws2ipdef/ns-ws2ipdef-interface_info_ex) structures for unicast IP addresses on the interface. The <i>cbOutBuffer</i> parameter specifies the length of the output buffer. The number of interfaces returned (number of structures returned in <i>lpvOutBuffer</i>) can be determined based on the actual length of the output buffer returned in <i>lpcbBytesReturned</i>parameter.
+The <i>lpvOutBuffer</i> parameter points to the buffer in which to store the information about interfaces as an array of [**INTERFACE_INFO_EX**](../ws2ipdef/ns-ws2ipdef-interface_info_ex.md) structures for unicast IP addresses on the interface. The <i>cbOutBuffer</i> parameter specifies the length of the output buffer. The number of interfaces returned (number of structures returned in <i>lpvOutBuffer</i>) can be determined based on the actual length of the output buffer returned in <i>lpcbBytesReturned</i>parameter.
 
 **SIO_GET_INTERFACE_LIST_EX** is not currently supported on Windows.
 
@@ -459,7 +459,7 @@ Enables or disables the per-connection setting of the TCP **keep-alive** option 
 
 **SIO_KEEPALIVE_VALS** can be used to enable or disable keep-alive probes and set the keep-alive timeout and interval. The keep-alive timeout specifies the timeout, in milliseconds, with no activity until the first keep-alive packet is sent. The keep-alive interval specifies the interval, in milliseconds, between when successive keep-alive packets are sent if no acknowledgement is received.
 
-The <b><a href="/windows/win32/winsock/so-keepalive">SO_KEEPALIVE</a></b> option, which is one of the SOL_SOCKET Socket Options, can also be used to enable or disable the TCP keep-alive on a connection, as well as query the current state of this option. To query whether TCP keep-alive is enabled on a socket, the **getsockopt** function can be called with the **SO_KEEPALIVE** option. To enable or disable TCP keep-alive, the [**setsockopt**](/windows/win32/api/winsock/nf-winsock-setsockopt) function can be called with the <b><a href="/windows/win32/winsock/so-keepalive">SO_KEEPALIVE</a></b> option. If TCP keep-alive is enabled with **SO_KEEPALIVE**, then the default TCP settings are used for keep-alive timeout and interval unless these values have been changed using **SIO_KEEPALIVE_VALS**.
+The <b><a href="/windows/win32/winsock/so-keepalive">SO_KEEPALIVE</a></b> option, which is one of the SOL_SOCKET Socket Options, can also be used to enable or disable the TCP keep-alive on a connection, as well as query the current state of this option. To query whether TCP keep-alive is enabled on a socket, the **getsockopt** function can be called with the **SO_KEEPALIVE** option. To enable or disable TCP keep-alive, the [**setsockopt**](../winsock/nf-winsock-setsockopt.md) function can be called with the <b><a href="/windows/win32/winsock/so-keepalive">SO_KEEPALIVE</a></b> option. If TCP keep-alive is enabled with **SO_KEEPALIVE**, then the default TCP settings are used for keep-alive timeout and interval unless these values have been changed using **SIO_KEEPALIVE_VALS**.
 
 For more detailed information, see the [**SIO_KEEPALIVE_VALS**](/windows/win32/winsock/sio-keepalive-vals) reference. **SIO_KEEPALIVE_VALS** is supported on Windows 2000 and later.
 
@@ -496,7 +496,7 @@ CompletionRoutine(
 
 The value returned in the **RssEnabled** member indicates if RSS is enabled on at least one interface.
 
-If the output buffer is not large enough for the **RSS_SCALABILITY_INFO** structure (the <i>cbOutBuffer</i> is less than the size of a **RSS_SCALABILITY_INFO**) or the <i>lpvOutBuffer</i> parameter is a **NULL** pointer, **SOCKET_ERROR** is returned as the result of this IOCTL and [**WSAGetLastError**](/windows/win32/api/winsock/nf-winsock-wsagetlasterror) returns [WSAEINVAL](/windows/win32/winsock/windows-sockets-error-codes-2#wsaeinval).
+If the output buffer is not large enough for the **RSS_SCALABILITY_INFO** structure (the <i>cbOutBuffer</i> is less than the size of a **RSS_SCALABILITY_INFO**) or the <i>lpvOutBuffer</i> parameter is a **NULL** pointer, **SOCKET_ERROR** is returned as the result of this IOCTL and [**WSAGetLastError**](../winsock/nf-winsock-wsagetlasterror.md) returns [WSAEINVAL](/windows/win32/winsock/windows-sockets-error-codes-2#wsaeinval).
 
 In high-speed networking where multiple CPUs reside within a single system, the ability of the networking protocol stack to scale well on a multi-CPU system is inhibited because the architecture of NDIS 5.1 and earlier versions limits receive protocol processing to a single CPU. Receive-side scaling (RSS) resolves this issue by allowing the network load from a network adapter to be balanced across multiple CPUs.
 
@@ -513,7 +513,7 @@ The Windows Filtering Platform (WFP) supports network traffic inspection and mod
 
 There are some firewall scenarios that may require the ability to inject an inbound packet into the send path associated with an existing endpoint. There needs to be a mechanism to discover the transport layer endpoint handle associated with the destination endpoint. The application that created the endpoint owns these transport layer endpoints. This IOCTL is used to provide socket handle to transport layer endpoint handle mapping.
 
-If the output buffer is not large enough for the endpoint handle (the <i>cbOutBuffer</i> is less than the size of a **UINT64**) or the <i>lpvOutBuffer</i> parameter is a **NULL** pointer, **SOCKET_ERROR** is returned as the result of this IOCTL and [**WSAGetLastError**](/windows/win32/api/winsock/nf-winsock-wsagetlasterror) returns [WSAEINVAL](/windows/win32/winsock/windows-sockets-error-codes-2#wsaeinval).
+If the output buffer is not large enough for the endpoint handle (the <i>cbOutBuffer</i> is less than the size of a **UINT64**) or the <i>lpvOutBuffer</i> parameter is a **NULL** pointer, **SOCKET_ERROR** is returned as the result of this IOCTL and [**WSAGetLastError**](../winsock/nf-winsock-wsagetlasterror.md) returns [WSAEINVAL](/windows/win32/winsock/windows-sockets-error-codes-2#wsaeinval).
 
 **SIO_QUERY_WFP_ALE_ENDPOINT_HANDLE** is supported on Windows Vista and later.
 
@@ -522,7 +522,7 @@ If the output buffer is not large enough for the endpoint handle (the <i>cbOutBu
 <span id="SIO_QUERY_PNP_TARGET_HANDLE__opcode_setting__O__T__1_"></span><span id="sio_query_pnp_target_handle__opcode_setting__o__t__1_"></span><span id="SIO_QUERY_PNP_TARGET_HANDLE__OPCODE_SETTING__O__T__1_"></span>**SIO_QUERY_PNP_TARGET_HANDLE** (opcode setting: O, T==1)
 </dt> <dd>
 
-To obtain the socket descriptor of the next provider in the chain on which the current socket depends in PnP sense. This IOCTL is invoked by the Windows Sockets 2 DLL only on sockets of non-IFS service providers created through [**WPUCreateSocketHandle**](/windows/win32/api/ws2spi/nf-ws2spi-wpucreatesockethandle) call. The provider should return in the output buffer the socket handle of the next provider in the chain on which a given socket handle depends in PnP sense (for example, the removal of the device that supports the underlying handle will result in the invalidation of the handle above it in the chain).
+To obtain the socket descriptor of the next provider in the chain on which the current socket depends in PnP sense. This IOCTL is invoked by the Windows Sockets 2 DLL only on sockets of non-IFS service providers created through [**WPUCreateSocketHandle**](./nf-ws2spi-wpucreatesockethandle.md) call. The provider should return in the output buffer the socket handle of the next provider in the chain on which a given socket handle depends in PnP sense (for example, the removal of the device that supports the underlying handle will result in the invalidation of the handle above it in the chain).
 
 If an overlapped operation completes immediately, this function returns a value of zero and the <i>lpcbBytesReturned</i> parameter is updated with the number of bytes in the output buffer. If the overlapped operation is successfully initiated and will complete later, this function returns SOCKET_ERROR and indicates error code WSA_IO_PENDING. In this case, <i>lpcbBytesReturned</i> is not updated. When the overlapped operation completes, the amount of data in the output buffer is indicated either through the <i>cbTransferred</i> parameter in the completion routine (if specified), or through the <i>lpcbTransfer</i> parameter in <a href="/windows/win32/api/ws2spi/nc-ws2spi-lpwspgetoverlappedresult">LPWSPGetOverlappedResult</a>.
 
@@ -532,7 +532,7 @@ If an overlapped operation completes immediately, this function returns a value 
 </dt> <dd>
 
 
-Enables a socket to receive all IPv4 or IPv6 packets passing throuigh a network interface. The socket handle passed to the [**WSAIoctl**](/windows/win32/api/winsock2/nf-winsock2-wsaioctl) function must be one of the following:
+Enables a socket to receive all IPv4 or IPv6 packets passing throuigh a network interface. The socket handle passed to the [**WSAIoctl**](../winsock2/nf-winsock2-wsaioctl.md) function must be one of the following:
 
 -   An IPv4 socket that was created with the address family set to AF_INET, the socket type set to SOCK_RAW, and the protocol set to IPPROTO_IP.
 -   An IPv6 socket that was created with the address family set to AF_INET6, the socket type set to SOCK_RAW, and the protocol set to IPPROTO_IPV6.
@@ -582,7 +582,7 @@ For more detailed information, see the [**SIO_RELEASE_PORT_RESERVATION**](/windo
 
 To receive notification of a routing interface change that should be used to reach the remote address in the input buffer (specified as a <b><a href="/windows/win32/winsock/sockaddr-2">sockaddr</a></b> structure). No output information on the new routing interface will be provided upon completion of this IOCTL; the completion merely indicates that the routing interface for a given destination has changed and should be queried using the **SIO_ROUTING_INTERFACE_QUERY** IOCTL.
 
-It is assumed (although not required) that the application uses overlapped I/O to be notified of the routing interface change through completion of **SIO_ROUTING_INTERFACE_CHANGE** request. Alternatively, if the **SIO_ROUTING_INTERFACE_CHANGE** IOCTL is issued on a non-blocking socket with the <i>lpOverlapped</i> and <i>lpCompletionRoutine</i> parameters set to **NULL**), it will complete immediately with error [WSAEWOULDBLOCK](/windows/win32/winsock/windows-sockets-error-codes-2#wsaewouldblock) and the Windows Socket SPI client can then wait for routing change events using a call to [**LPWSPEventSelect**](/windows/win32/api/ws2spi/nc-ws2spi-lpwspeventselect) or **[LPWSPAsyncSelect](nc-ws2spi-lpwspasyncselect.md)** with the FD_ROUTING_INTERFACE_CHANGE bit set in the network event bitmask.
+It is assumed (although not required) that the application uses overlapped I/O to be notified of the routing interface change through completion of **SIO_ROUTING_INTERFACE_CHANGE** request. Alternatively, if the **SIO_ROUTING_INTERFACE_CHANGE** IOCTL is issued on a non-blocking socket with the <i>lpOverlapped</i> and <i>lpCompletionRoutine</i> parameters set to **NULL**), it will complete immediately with error [WSAEWOULDBLOCK](/windows/win32/winsock/windows-sockets-error-codes-2#wsaewouldblock) and the Windows Socket SPI client can then wait for routing change events using a call to [**LPWSPEventSelect**](./nc-ws2spi-lpwspeventselect.md) or **[LPWSPAsyncSelect](nc-ws2spi-lpwspasyncselect.md)** with the FD_ROUTING_INTERFACE_CHANGE bit set in the network event bitmask.
 
 It is recognized that routing information remains stable in most cases so that requiring the application to keep multiple outstanding IOCTLs to get notifications about all destinations that it is interested in as well as having the service provider keep track of these notification requests will use a significant amount system resources. This situation can be avoided by extending the meaning of the input parameters and relaxing the service provider requirements as follows:
 
@@ -604,9 +604,9 @@ Note that routes are subject to change. Therefore, Windows Socket SPI clients ca
 -   Whenever **SIO_ROUTING_INTERFACE_CHANGE** IOCTL notifies the WinSock SPI client of routing change (either through overlapped I/O or by signaling FD_ROUTING_INTERFACE_CHANGE event), the whole sequence of actions should be repeated.
 
 
-If output buffer is not large enough to contain the interface address, SOCKET_ERROR is returned as the result of this IOCTL and [**WSAGetLastError**](/windows/win32/api/winsock/nf-winsock-wsagetlasterror) returns [WSAEFAULT](/windows/win32/winsock/windows-sockets-error-codes-2#wsaefault). The required size of the output buffer will be returned in <i>lpcbBytesReturned</i> in this case. Note the WSAEFAULT error code is also returned if the <i>lpvInBuffer</i>, <i>lpvOutBuffer</i>, or <i>lpcbBytesReturned</i> parameter is not totally contained in a valid part of the user address space.
+If output buffer is not large enough to contain the interface address, SOCKET_ERROR is returned as the result of this IOCTL and [**WSAGetLastError**](../winsock/nf-winsock-wsagetlasterror.md) returns [WSAEFAULT](/windows/win32/winsock/windows-sockets-error-codes-2#wsaefault). The required size of the output buffer will be returned in <i>lpcbBytesReturned</i> in this case. Note the WSAEFAULT error code is also returned if the <i>lpvInBuffer</i>, <i>lpvOutBuffer</i>, or <i>lpcbBytesReturned</i> parameter is not totally contained in a valid part of the user address space.
 
-If the destination address specified in the input buffer cannot be reached through any of the available interfaces, SOCKET_ERROR is returned as the result of this IOCTL and [**WSAGetLastError**](/windows/win32/api/winsock/nf-winsock-wsagetlasterror) returns [WSAENETUNREACH](/windows/win32/winsock/windows-sockets-error-codes-2#wsaenetunreach) or even [WSAENETDOWN](/windows/win32/winsock/windows-sockets-error-codes-2#wsaenetdown) if all of the network connectivity is lost.
+If the destination address specified in the input buffer cannot be reached through any of the available interfaces, SOCKET_ERROR is returned as the result of this IOCTL and [**WSAGetLastError**](../winsock/nf-winsock-wsagetlasterror.md) returns [WSAENETUNREACH](/windows/win32/winsock/windows-sockets-error-codes-2#wsaenetunreach) or even [WSAENETDOWN](/windows/win32/winsock/windows-sockets-error-codes-2#wsaenetdown) if all of the network connectivity is lost.
 
 </dd> <dt>
 
@@ -717,4 +717,3 @@ The IOCTL codes with T == 0 are a subset of the IOCTL codes used in Berkeley soc
    
 
 <a href="/windows/win32/api/ws2spi/nc-ws2spi-lpwspsocket">LPWSPSocket</a>
-

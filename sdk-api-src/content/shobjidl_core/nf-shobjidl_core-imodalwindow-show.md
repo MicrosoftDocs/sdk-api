@@ -74,7 +74,7 @@ If the method succeeds, it returns S_OK. Otherwise, it returns an HRESULT error 
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/api/winerror/nf-winerror-hresult_from_win32">HRESULT_FROM_WIN32</a>(ERROR_CANCELLED)</b></dt>
+<dt><b><a href="/windows/desktop/api/winerror/nf-winerror-hresult_from_win32">HRESULT_FROM_WIN32</a>(ERROR_CANCELLED)</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -83,4 +83,3 @@ The user closed the window by cancelling the operation.
 </td>
 </tr>
 </table>
-

@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[<a href="https://docs.microsoft.com/previous-versions/windows/desktop/bb540725(v=vs.85)">Removable Storage Manager</a> is no longer available as of Windows 7 and  Windows Server 2008 R2.]
+<p class="CCE_Message">[<a href="/previous-versions/windows/desktop/bb540725(v=vs.85)">Removable Storage Manager</a> is no longer available as of Windows 7 and  Windows Server 2008 R2.]
 
 The 
 <b>MediaLabelInfo</b> structure conveys information to the RSM database about a tape OMID. The media label library fills in this structure for all media labels the library recognizes.
@@ -78,5 +78,4 @@ Unicode string that describes the media. For example, the description for a back
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntmsmli/nc-ntmsmli-claimmedialabel">ClaimMediaLabel</a>
-
+<a href="/windows/desktop/api/ntmsmli/nc-ntmsmli-claimmedialabel">ClaimMediaLabel</a>

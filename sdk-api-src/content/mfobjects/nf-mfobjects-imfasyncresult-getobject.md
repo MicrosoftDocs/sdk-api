@@ -96,7 +96,7 @@ There is no object associated with this asynchronous result.
 
 Typically, this object is used by the component that implements the asynchronous method. It provides a way for the function that invokes the callback to pass information to the asynchronous <b>End...</b> method that completes the operation.
 
-If you are implementing an asynchronous method, you can set the object through the <i>punkObject</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/mfapi/nf-mfapi-mfcreateasyncresult">MFCreateAsyncResult</a> function.
+If you are implementing an asynchronous method, you can set the object through the <i>punkObject</i> parameter of the <a href="/windows/desktop/api/mfapi/nf-mfapi-mfcreateasyncresult">MFCreateAsyncResult</a> function.
 
 If the asynchronous result object's internal <b>IUnknown</b> pointer is <b>NULL</b>, the method returns <b>E_POINTER</b>.
 
@@ -109,9 +109,8 @@ This interface is available on the following platforms if the Windows Media Form
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/asynchronous-callback-methods">Asynchronous Callback Methods</a>
+<a href="/windows/desktop/medfound/asynchronous-callback-methods">Asynchronous Callback Methods</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfasyncresult">IMFAsyncResult</a>
-
+<a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfasyncresult">IMFAsyncResult</a>

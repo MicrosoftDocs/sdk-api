@@ -68,13 +68,13 @@ The accessibility features affected by the time-out are
 
 ### -field cbSize
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 Specifies the size, in bytes, of this structure.
 
 ### -field dwFlags
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 A set of bit flags that specify properties of the time-out behavior for accessibility features. The following values are defined.
 
@@ -110,19 +110,18 @@ If this flag is set, a time-out period has been set for accessibility features. 
 
 ### -field iTimeOutMSec
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 Specifies the time-out period, in milliseconds.
 
 ## -remarks
 
-Use an <b>ACCESSTIMEOUT</b> structure when calling the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-systemparametersinfoa">SystemParametersInfo</a> function with the <i>uiAction</i> parameter set to the <b>SPI_GETACCESSTIMEOUT</b> or <b>SPI_SETACCESSTIMEOUT</b> value. When using <b>SPI_GETACCESSTIMEOUT</b>, you must specify the <b>cbSize</b> member of the <b>ACCESSTIMEOUT</b> structure; the <b>SystemParametersInfo</b> function fills in the remaining members. Specify all structure members when using the <b>SPI_SETACCESSTIMEOUT</b> value.
+Use an <b>ACCESSTIMEOUT</b> structure when calling the <a href="/windows/desktop/api/winuser/nf-winuser-systemparametersinfoa">SystemParametersInfo</a> function with the <i>uiAction</i> parameter set to the <b>SPI_GETACCESSTIMEOUT</b> or <b>SPI_SETACCESSTIMEOUT</b> value. When using <b>SPI_GETACCESSTIMEOUT</b>, you must specify the <b>cbSize</b> member of the <b>ACCESSTIMEOUT</b> structure; the <b>SystemParametersInfo</b> function fills in the remaining members. Specify all structure members when using the <b>SPI_SETACCESSTIMEOUT</b> value.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/WinAuto/accessibility-structures">Accessibility Structures</a>
+<a href="/windows/desktop/WinAuto/accessibility-structures">Accessibility Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-systemparametersinfoa">SystemParametersInfo</a>
-
+<a href="/windows/desktop/api/winuser/nf-winuser-systemparametersinfoa">SystemParametersInfo</a>

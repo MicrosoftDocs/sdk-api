@@ -93,9 +93,8 @@ The end of the collection was reached before the specified number of items was s
 
 ## -remarks
 
-If the end of the collection is reached before the number of items to skip is reached, <b>S_FALSE</b> will be returned, and the enumerator will be placed at the end of the collection and subsequent calls to <b>Skip</b> or <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/syncregistration/nf-syncregistration-ienumsyncproviderconfiguiinfos-next">Next</a> with a count of 1 will return <b>S_FALSE</b>.
+If the end of the collection is reached before the number of items to skip is reached, <b>S_FALSE</b> will be returned, and the enumerator will be placed at the end of the collection and subsequent calls to <b>Skip</b> or <a href="/previous-versions/windows/desktop/api/syncregistration/nf-syncregistration-ienumsyncproviderconfiguiinfos-next">Next</a> with a count of 1 will return <b>S_FALSE</b>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/syncregistration/nn-syncregistration-ienumsyncproviderconfiguiinfos">IEnumSyncProviderConfigUIInfos Interface</a>
-
+<a href="/previous-versions/windows/desktop/api/syncregistration/nn-syncregistration-ienumsyncproviderconfiguiinfos">IEnumSyncProviderConfigUIInfos Interface</a>

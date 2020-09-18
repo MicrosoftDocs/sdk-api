@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Determines whether activity logging should be performed when obtaining the <a href="https://docs.microsoft.com/windows/desktop/api/wpcapi/nn-wpcapi-iwpcsettings">IWPCSettings</a> interface.
+Determines whether activity logging should be performed when obtaining the <a href="/windows/desktop/api/wpcapi/nn-wpcapi-iwpcsettings">IWPCSettings</a> interface.
 
 ## -parameters
 
@@ -115,5 +115,4 @@ The method failed.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wpcapi/nn-wpcapi-iwpcsettings">IWPCSettings</a>
-
+<a href="/windows/desktop/api/wpcapi/nn-wpcapi-iwpcsettings">IWPCSettings</a>

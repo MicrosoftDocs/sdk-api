@@ -56,7 +56,7 @@ The <b>WinHttpOpen</b> function initializes, for an application, the use of WinH
 
 ### -param pszAgentW [in, optional]
 
-A pointer to a string variable that contains the name of the application or entity calling the WinHTTP functions. This name is used as the <a href="https://docs.microsoft.com/windows/desktop/WinHttp/glossary">user agent</a> in the HTTP protocol.
+A pointer to a string variable that contains the name of the application or entity calling the WinHTTP functions. This name is used as the <a href="/windows/desktop/WinHttp/glossary">user agent</a> in the HTTP protocol.
 
 ### -param dwAccessType [in]
 
@@ -88,10 +88,10 @@ Resolves all host names directly without a proxy.
 Retrieves the static proxy or direct configuration from the registry. <b>WINHTTP_ACCESS_TYPE_DEFAULT_PROXY</b> does not inherit browser proxy settings.
 
 The WinHTTP proxy configuration is set by one of these mechanisms.<ul>
-<li>The <a href="https://docs.microsoft.com/windows/desktop/WinHttp/proxycfg-exe--a-proxy-configuration-tool">proxycfg.exe</a> utility on Windows XP and Windows Server 2003 or earlier.</li>
-<li>The <a href="https://technet.microsoft.com/library/cc731131(WS.10).aspx#BKMK_5">netsh.exe</a> utility on Windows Vista and Windows Server 2008 or later.</li>
+<li>The <a href="/windows/desktop/WinHttp/proxycfg-exe--a-proxy-configuration-tool">proxycfg.exe</a> utility on Windows XP and Windows Server 2003 or earlier.</li>
+<li>The <a href="/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc731131(v=ws.10)#BKMK_5">netsh.exe</a> utility on Windows Vista and Windows Server 2008 or later.</li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpsetdefaultproxyconfiguration">WinHttpSetDefaultProxyConfiguration</a> on all platforms.</li>
+<a href="/windows/desktop/api/winhttp/nf-winhttp-winhttpsetdefaultproxyconfiguration">WinHttpSetDefaultProxyConfiguration</a> on all platforms.</li>
 </ul>
 
 
@@ -153,7 +153,7 @@ Unsigned long integer value that contains the flags that indicate various option
 </td>
 <td width="60%">
 Use the WinHTTP functions asynchronously. By default, all WinHTTP functions that use the returned 
-<a href="https://docs.microsoft.com/windows/desktop/WinHttp/hinternet-handles-in-winhttp">HINTERNET</a> handle are performed synchronously. When this flag is set, the caller needs to specify a callback function through <a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpsetstatuscallback">WinHttpSetStatusCallback</a>.
+<a href="/windows/desktop/WinHttp/hinternet-handles-in-winhttp">HINTERNET</a> handle are performed synchronously. When this flag is set, the caller needs to specify a callback function through <a href="/windows/desktop/api/winhttp/nf-winhttp-winhttpsetstatuscallback">WinHttpSetStatusCallback</a>.
 
 </td>
 </tr>
@@ -162,7 +162,7 @@ Use the WinHTTP functions asynchronously. By default, all WinHTTP functions that
 ## -returns
 
 Returns a valid session handle if successful, or <b>NULL</b> otherwise. To retrieve extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. Among the error codes returned are the following.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. Among the error codes returned are the following.
 
 <table>
 <tr>
@@ -195,12 +195,12 @@ Not enough memory was available to complete the requested operation. (Windows er
 
 ## -remarks
 
-We strongly recommend that you use WinHTTP in asynchronous mode (that is, when <b>WINHTTP_FLAG_ASYNC</b> has been set in <b>WinHttpOpen</b>, so that usage of the returned <a href="https://docs.microsoft.com/windows/desktop/WinHttp/hinternet-handles-in-winhttp">HINTERNET</a> become asynchronous). The return value indicates success or failure. To retrieve extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+We strongly recommend that you use WinHTTP in asynchronous mode (that is, when <b>WINHTTP_FLAG_ASYNC</b> has been set in <b>WinHttpOpen</b>, so that usage of the returned <a href="/windows/desktop/WinHttp/hinternet-handles-in-winhttp">HINTERNET</a> become asynchronous). The return value indicates success or failure. To retrieve extended error information, call 
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 The 
 <b>WinHttpOpen</b> function is the first of the WinHTTP functions called by an application. It initializes internal WinHTTP data structures and prepares for future calls from the application. When the application finishes using the WinHTTP functions, it must call 
-<a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpclosehandle">WinHttpCloseHandle</a> to free the session handle and any associated resources.
+<a href="/windows/desktop/api/winhttp/nf-winhttp-winhttpclosehandle">WinHttpCloseHandle</a> to free the session handle and any associated resources.
 
 The application can make any number of calls to 
 <b>WinHttpOpen</b>, though a single call is normally sufficient. Each call to 
@@ -208,11 +208,11 @@ The application can make any number of calls to
 <b>WinHttpOpen</b> instance, such as different proxy servers configured for each.
 
 After the calling application has finished using the 
-<a href="https://docs.microsoft.com/windows/desktop/WinHttp/hinternet-handles-in-winhttp">HINTERNET</a> handle returned by 
+<a href="/windows/desktop/WinHttp/hinternet-handles-in-winhttp">HINTERNET</a> handle returned by 
 <b>WinHttpOpen</b>, it must be closed using the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpclosehandle">WinHttpCloseHandle</a> function.
+<a href="/windows/desktop/api/winhttp/nf-winhttp-winhttpclosehandle">WinHttpCloseHandle</a> function.
 
-<div class="alert"><b>Note</b>  For Windows XP and Windows 2000, see <a href="https://docs.microsoft.com/windows/desktop/WinHttp/winhttp-start-page">Run-Time Requirements</a>.</div>
+<div class="alert"><b>Note</b>  For Windows XP and Windows 2000, see <a href="/windows/desktop/WinHttp/winhttp-start-page">Run-Time Requirements</a>.</div>
 <div> </div>
 
 #### Examples
@@ -259,13 +259,12 @@ The following example code shows how to retrieve the default connection time-out
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/WinHttp/about-winhttp">About Microsoft Windows HTTP Services (WinHTTP)</a>
+<a href="/windows/desktop/WinHttp/about-winhttp">About Microsoft Windows HTTP Services (WinHTTP)</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WinHttp/winhttp-versions">WinHTTP Versions</a>
+<a href="/windows/desktop/WinHttp/winhttp-versions">WinHTTP Versions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpclosehandle">WinHttpCloseHandle</a>
-
+<a href="/windows/desktop/api/winhttp/nf-winhttp-winhttpclosehandle">WinHttpCloseHandle</a>

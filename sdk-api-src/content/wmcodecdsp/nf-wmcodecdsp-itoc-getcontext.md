@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>GetContext</b> method retrieves a block of bytes that was previously associated with the table of contents by a call to <a href="https://docs.microsoft.com/windows/desktop/api/wmcodecdsp/nf-wmcodecdsp-itoc-setcontext">SetContext</a>.
+The <b>GetContext</b> method retrieves a block of bytes that was previously associated with the table of contents by a call to <a href="/windows/desktop/api/wmcodecdsp/nf-wmcodecdsp-itoc-setcontext">SetContext</a>.
 
 ## -parameters
 
@@ -97,5 +97,4 @@ The method returns this error code if <i>pbtContext</i> is not <b>NULL</b> and t
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmcodecdsp/nn-wmcodecdsp-itoc">IToc</a>
-
+<a href="/windows/desktop/api/wmcodecdsp/nn-wmcodecdsp-itoc">IToc</a>

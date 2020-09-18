@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[<b>GetCIMSSM</b> may be altered or unavailable in the future. Instead, use <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getcurrentinputmessagesource">GetCurrentInputMessageSource</a>.]
+<p class="CCE_Message">[<b>GetCIMSSM</b> may be altered or unavailable in the future. Instead, use <a href="/windows/desktop/api/winuser/nf-winuser-getcurrentinputmessagesource">GetCurrentInputMessageSource</a>.]
 
 Retrieves the source of the input message (GetCurrentInputMessageSourceInSendMessage).
 
@@ -58,7 +58,7 @@ Retrieves the source of the input message (GetCurrentInputMessageSourceInSendMes
 
 ### -param inputMessageSource [out]
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-input_message_source">INPUT_MESSAGE_SOURCE</a> structure that holds the device type and the ID of the input message source.
+The <a href="/windows/desktop/api/winuser/ns-winuser-input_message_source">INPUT_MESSAGE_SOURCE</a> structure that holds the device type and the ID of the input message source.
 
 ## -returns
 
@@ -67,14 +67,13 @@ If this function succeeds, it returns TRUE. Otherwise, it returns ERROR_INVALID_
 This function fails when:<ul>
 <li>The input parameter is invalid.</li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getcurrentinputmessagesource">GetCurrentInputMessageSource</a> returns a value other than <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ne-winuser-input_message_device_type">IMDT_UNAVAILABLE</a> for the device type.</li>
+<a href="/windows/desktop/api/winuser/nf-winuser-getcurrentinputmessagesource">GetCurrentInputMessageSource</a> returns a value other than <a href="/windows/desktop/api/winuser/ne-winuser-input_message_device_type">IMDT_UNAVAILABLE</a> for the device type.</li>
 </ul>
 
 ## -remarks
 
-<b>GetCIMSSM</b> should be used only when <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getcurrentinputmessagesource">GetCurrentInputMessageSource</a> returns a device type of <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ne-winuser-input_message_device_type">IMDT_UNAVAILABLE</a>.
+<b>GetCIMSSM</b> should be used only when <a href="/windows/desktop/api/winuser/nf-winuser-getcurrentinputmessagesource">GetCurrentInputMessageSource</a> returns a device type of <a href="/windows/desktop/api/winuser/ne-winuser-input_message_device_type">IMDT_UNAVAILABLE</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/input_sourceid/input-source-identification-reference">Input Source Identification Reference</a>
-
+<a href="/previous-versions/windows/desktop/input_sourceid/input-source-identification-reference">Input Source Identification Reference</a>

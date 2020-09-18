@@ -57,7 +57,7 @@ Updates the current alpha-blending settings, including the source and destinatio
 
 ### -param pBmpParms [in]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/evr9/ns-evr9-mfvideoalphabitmapparams">MFVideoAlphaBitmapParams</a> structure that contains the blending parameters.
+Pointer to an <a href="/windows/desktop/api/evr9/ns-evr9-mfvideoalphabitmapparams">MFVideoAlphaBitmapParams</a> structure that contains the blending parameters.
 
 ## -returns
 
@@ -97,7 +97,7 @@ The blending parameters defined in the <i>pBmpParms</i> structure are not valid.
 </dl>
 </td>
 <td width="60%">
-No bitmap is currently set. You must call <a href="https://docs.microsoft.com/windows/desktop/api/evr9/nf-evr9-imfvideomixerbitmap-setalphabitmap">IMFVideoMixerBitmap::SetAlphaBitmap</a> to set a bitmap.
+No bitmap is currently set. You must call <a href="/windows/desktop/api/evr9/nf-evr9-imfvideomixerbitmap-setalphabitmap">IMFVideoMixerBitmap::SetAlphaBitmap</a> to set a bitmap.
 
 </td>
 </tr>
@@ -109,9 +109,8 @@ The video must be playing for the changes to take effect.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/enhanced-video-renderer">Enhanced Video Renderer</a>
+<a href="/windows/desktop/medfound/enhanced-video-renderer">Enhanced Video Renderer</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/evr9/nn-evr9-imfvideomixerbitmap">IMFVideoMixerBitmap</a>
-
+<a href="/windows/desktop/api/evr9/nn-evr9-imfvideomixerbitmap">IMFVideoMixerBitmap</a>

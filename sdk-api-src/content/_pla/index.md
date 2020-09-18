@@ -18,5 +18,4 @@ To develop Performance Logs and Alerts, you need these headers:
  * [pla.h](../pla/index.md)
 
 For programming guidance for this technology, see:
-* [Performance Logs and Alerts](https://docs.microsoft.com/previous-versions/windows/desktop/pla)
-
+* [Performance Logs and Alerts](/previous-versions/windows/desktop/pla)

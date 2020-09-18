@@ -57,11 +57,11 @@ The <b>ICertificateEnrollmentServerSetup</b> interface represents the Certificat
 </ul>
 
 
-A related interface, <a href="https://docs.microsoft.com/windows/desktop/api/casetup/nn-casetup-icertificateenrollmentpolicyserversetup">ICertificateEnrollmentPolicyServerSetup</a>, represents the Certificate Enrollment Policy (CEP) Web Service and  enables users and computers to obtain certificate enrollment policy information. CEP and CES work together to provide policy-based certificate enrollment.
+A related interface, <a href="/windows/desktop/api/casetup/nn-casetup-icertificateenrollmentpolicyserversetup">ICertificateEnrollmentPolicyServerSetup</a>, represents the Certificate Enrollment Policy (CEP) Web Service and  enables users and computers to obtain certificate enrollment policy information. CEP and CES work together to provide policy-based certificate enrollment.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICertificateEnrollmentServerSetup</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ICertificateEnrollmentServerSetup</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICertificateEnrollmentServerSetup</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ICertificateEnrollmentServerSetup</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -77,7 +77,7 @@ The <b>ICertificateEnrollmentServerSetup</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/casetup/nf-casetup-icertificateenrollmentserversetup-getproperty">GetProperty</a>
+<a href="/windows/desktop/api/casetup/nf-casetup-icertificateenrollmentserversetup-getproperty">GetProperty</a>
 </td>
 <td align="left" width="63%">
 Retrieves a <a href="/windows/win32/api/casetup/ne-casetup-cessetupproperty">CESSetupProperty</a> enumeration value for the CES configuration.
@@ -86,7 +86,7 @@ Retrieves a <a href="/windows/win32/api/casetup/ne-casetup-cessetupproperty">CES
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/casetup/nf-casetup-icertificateenrollmentserversetup-initializeinstalldefaults">InitializeInstallDefaults</a>
+<a href="/windows/desktop/api/casetup/nf-casetup-icertificateenrollmentserversetup-initializeinstalldefaults">InitializeInstallDefaults</a>
 </td>
 <td align="left" width="63%">
 Initializes the <b>ICertificateEnrollmentServerSetup</b> object with a default configuration.
@@ -95,7 +95,7 @@ Initializes the <b>ICertificateEnrollmentServerSetup</b> object with a default c
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/casetup/nf-casetup-icertificateenrollmentserversetup-install">Install</a>
+<a href="/windows/desktop/api/casetup/nf-casetup-icertificateenrollmentserversetup-install">Install</a>
 </td>
 <td align="left" width="63%">
 Installs the service configured by the <b>ICertificateEnrollmentServerSetup</b> object.
@@ -104,7 +104,7 @@ Installs the service configured by the <b>ICertificateEnrollmentServerSetup</b> 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/casetup/nf-casetup-icertificateenrollmentserversetup-setapplicationpoolcredentials">SetApplicationPoolCredentials</a>
+<a href="/windows/desktop/api/casetup/nf-casetup-icertificateenrollmentserversetup-setapplicationpoolcredentials">SetApplicationPoolCredentials</a>
 </td>
 <td align="left" width="63%">
 Specifies user account information for the application pool in which CES runs.
@@ -113,7 +113,7 @@ Specifies user account information for the application pool in which CES runs.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/casetup/nf-casetup-icertificateenrollmentserversetup-setproperty">SetProperty</a>
+<a href="/windows/desktop/api/casetup/nf-casetup-icertificateenrollmentserversetup-setproperty">SetProperty</a>
 </td>
 <td align="left" width="63%">
 Specifies a <a href="/windows/win32/api/casetup/ne-casetup-cessetupproperty">CESSetupProperty</a> enumeration value for the CES configuration.
@@ -122,7 +122,7 @@ Specifies a <a href="/windows/win32/api/casetup/ne-casetup-cessetupproperty">CES
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/casetup/nf-casetup-icertificateenrollmentserversetup-uninstall">UnInstall</a>
+<a href="/windows/desktop/api/casetup/nf-casetup-icertificateenrollmentserversetup-uninstall">UnInstall</a>
 </td>
 <td align="left" width="63%">
 Removes the Certificate Enrollment Web Service.
@@ -140,7 +140,7 @@ Removes the Certificate Enrollment Web Service.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/casetup/nf-casetup-icertificateenrollmentserversetup-get_errorstring">ErrorString</a>
+<a href="/windows/desktop/api/casetup/nf-casetup-icertificateenrollmentserversetup-get_errorstring">ErrorString</a>
 
 
 </td>
@@ -157,9 +157,8 @@ Retrieves a string that contains additional information about CES setup failure.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/casetup/nn-casetup-icertificateenrollmentpolicyserversetup">ICertificateEnrollmentPolicyServerSetup</a>
+<a href="/windows/desktop/api/casetup/nn-casetup-icertificateenrollmentpolicyserversetup">ICertificateEnrollmentPolicyServerSetup</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
-
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>

@@ -56,7 +56,7 @@ The <b>QOSRemoveSocketFromFlow</b> function notifies the QOS subsystem that a pr
 
 ### -param QOSHandle [in]
 
-Handle to the QOS subsystem returned by <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qos2/nf-qos2-qoscreatehandle">QOSCreateHandle</a>.
+Handle to the QOS subsystem returned by <a href="/previous-versions/windows/desktop/api/qos2/nf-qos2-qoscreatehandle">QOSCreateHandle</a>.
 
 ### -param Socket [in, optional]
 
@@ -156,7 +156,7 @@ The request could not be performed because of an I/O device error.
 </dl>
 </td>
 <td width="60%">
-The indicated device requires reinitialization due to hardware errors. The application should clean up and call <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qos2/nf-qos2-qoscreatehandle">QOSCreateHandle</a> again.
+The indicated device requires reinitialization due to hardware errors. The application should clean up and call <a href="/previous-versions/windows/desktop/api/qos2/nf-qos2-qoscreatehandle">QOSCreateHandle</a> again.
 
 </td>
 </tr>
@@ -175,12 +175,12 @@ The network location cannot be reached.
 
 ## -remarks
 
-Calling the  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qos2/nf-qos2-qosclosehandle">QOSCloseHandle</a> function immediately aborts all pending operations and flows added by that handle.  If a handle is closed while a <b>QOSRemoveSocketFromFlow</b> call is still progress, the call will complete with <b>ERROR_OPERATION_ABORTED</b>.
+Calling the  <a href="/previous-versions/windows/desktop/api/qos2/nf-qos2-qosclosehandle">QOSCloseHandle</a> function immediately aborts all pending operations and flows added by that handle.  If a handle is closed while a <b>QOSRemoveSocketFromFlow</b> call is still progress, the call will complete with <b>ERROR_OPERATION_ABORTED</b>.
 
 
 #### Examples
 
-The following code snippet demonstrates the use of <b>QOSRemoveSocketFromFlow</b>,  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qos2/nf-qos2-qosclosehandle">QOSStopTrackingClient</a>, and <b>QOSCloseHandle</b> in an application function used for "cleaning up" QoS resources. See  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qos2/nf-qos2-qoscreatehandle">QOSCreateHandle</a> function for information on initialization of parameters. 
+The following code snippet demonstrates the use of <b>QOSRemoveSocketFromFlow</b>,  <a href="/previous-versions/windows/desktop/api/qos2/nf-qos2-qosclosehandle">QOSStopTrackingClient</a>, and <b>QOSCloseHandle</b> in an application function used for "cleaning up" QoS resources. See  <a href="/previous-versions/windows/desktop/api/qos2/nf-qos2-qoscreatehandle">QOSCreateHandle</a> function for information on initialization of parameters. 
 
 See the Windows SDK for a complete sample code listing. SDK folder: Samples\NetDs\GQos\Qos2
 
@@ -243,5 +243,4 @@ int CleanUpQos( HANDLE qosHandle,
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/qos/quality-windows-audio-video-experience--qwave-">Quality Windows Audio/Video Experience (qWAVE)</a>
-
+<a href="/previous-versions/windows/desktop/qos/quality-windows-audio-video-experience--qwave-">Quality Windows Audio/Video Experience (qWAVE)</a>

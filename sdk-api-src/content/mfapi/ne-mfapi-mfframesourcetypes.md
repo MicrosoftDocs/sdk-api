@@ -80,5 +80,4 @@ The frame source provides custom data.
 
 ## -remarks
 
-The values of this enumeration are used with the <a href="https://docs.microsoft.com/windows/desktop/medfound/mf-devicestream-attribute-framesource-types">MF_DEVICESTREAM_ATTRIBUTE_FRAMESOURCE_TYPES</a> attribute.
-
+The values of this enumeration are used with the <a href="/windows/desktop/medfound/mf-devicestream-attribute-framesource-types">MF_DEVICESTREAM_ATTRIBUTE_FRAMESOURCE_TYPES</a> attribute.

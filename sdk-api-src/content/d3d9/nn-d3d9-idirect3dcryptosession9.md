@@ -52,11 +52,11 @@ api_name:
 
 Represents a cryptographic session.
 
-To get a pointer to this interface, call <a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9video-createcryptosession">IDirect3DDevice9Video::CreateCryptoSession</a>.
+To get a pointer to this interface, call <a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9video-createcryptosession">IDirect3DDevice9Video::CreateCryptoSession</a>.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDirect3DCryptoSession9</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDirect3DCryptoSession9</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDirect3DCryptoSession9</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDirect3DCryptoSession9</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>IDirect3DCryptoSession9</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3dcryptosession9-encryptionblt"> EncryptionBlt</a>
+<a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3dcryptosession9-encryptionblt"> EncryptionBlt</a>
 </td>
 <td align="left" width="63%">
 Reads encrypted data from a protected surface.
@@ -80,7 +80,7 @@ Reads encrypted data from a protected surface.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3dcryptosession9-getcertificate"> GetCertificate</a>
+<a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3dcryptosession9-getcertificate"> GetCertificate</a>
 </td>
 <td align="left" width="63%">
 Gets the driver's certificate chain.
@@ -91,7 +91,7 @@ Gets the driver's certificate chain.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3dcryptosession9-decryptionblt">DecryptionBlt</a>
+<a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3dcryptosession9-decryptionblt">DecryptionBlt</a>
 </td>
 <td align="left" width="63%">
 Writes encrypted data to a protected surface.
@@ -100,7 +100,7 @@ Writes encrypted data to a protected surface.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3dcryptosession9-finishsessionkeyrefresh">FinishSessionKeyRefresh</a>
+<a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3dcryptosession9-finishsessionkeyrefresh">FinishSessionKeyRefresh</a>
 </td>
 <td align="left" width="63%">
 Switches to a new session key.
@@ -109,7 +109,7 @@ Switches to a new session key.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3dcryptosession9-getcertificatesize">GetCertificateSize</a>
+<a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3dcryptosession9-getcertificatesize">GetCertificateSize</a>
 </td>
 <td align="left" width="63%">
 Gets the size of the driver's certificate chain.
@@ -118,16 +118,16 @@ Gets the size of the driver's certificate chain.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3dcryptosession9-getencryptionbltkey">GetEncryptionBltKey</a>
+<a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3dcryptosession9-getencryptionbltkey">GetEncryptionBltKey</a>
 </td>
 <td align="left" width="63%">
-Gets the key that is used to decrypt the data returned by the <a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3dcryptosession9-encryptionblt">EncryptionBlt</a> method.
+Gets the key that is used to decrypt the data returned by the <a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3dcryptosession9-encryptionblt">EncryptionBlt</a> method.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3dcryptosession9-getsurfacepitch">GetSurfacePitch</a>
+<a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3dcryptosession9-getsurfacepitch">GetSurfacePitch</a>
 </td>
 <td align="left" width="63%">
 Gets the stride of a protected surface.
@@ -136,7 +136,7 @@ Gets the stride of a protected surface.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3dcryptosession9-negotiatekeyexchange">NegotiateKeyExchange</a>
+<a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3dcryptosession9-negotiatekeyexchange">NegotiateKeyExchange</a>
 </td>
 <td align="left" width="63%">
 Establishes the session key for the cryptographic session.
@@ -145,7 +145,7 @@ Establishes the session key for the cryptographic session.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3dcryptosession9-startsessionkeyrefresh">StartSessionKeyRefresh</a>
+<a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3dcryptosession9-startsessionkeyrefresh">StartSessionKeyRefresh</a>
 </td>
 <td align="left" width="63%">
 Gets a random number that can be used to refresh the session key.
@@ -156,9 +156,8 @@ Gets a random number that can be used to refresh the session key.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/direct3d-video-interfaces">Direct3D Video Interfaces</a>
+<a href="/windows/desktop/medfound/direct3d-video-interfaces">Direct3D Video Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/gpu-based-content-protection">GPU-Based Content Protection</a>
-
+<a href="/windows/desktop/medfound/gpu-based-content-protection">GPU-Based Content Protection</a>

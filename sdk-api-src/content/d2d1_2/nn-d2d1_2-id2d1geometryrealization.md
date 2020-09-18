@@ -55,5 +55,4 @@ Encapsulates a device- and transform-dependent representation of a filled or str
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1resource">ID2D1Resource</a>
-
+<a href="/windows/desktop/api/d2d1/nn-d2d1-id2d1resource">ID2D1Resource</a>

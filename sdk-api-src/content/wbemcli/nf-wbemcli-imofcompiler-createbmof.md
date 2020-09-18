@@ -51,7 +51,7 @@ api_name:
 ## -description
 
 The <b>IMofCompiler::CreateBMOF</b> method creates a binary MOF file. File creation is accomplished by parsing a regular MOF file and storing a binary representation of the classes and instances into a special file format. Typically, this data binary large object (BLOB) is stored as a resource in an executable file, which can later be extracted for a call to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-imofcompiler-compilebuffer">CompileBuffer</a> method. The <b>IMofCompiler::CreateBMOF</b> can also be used to create a localized MOF file (.mfl).
+<a href="/windows/desktop/api/wbemcli/nf-wbemcli-imofcompiler-compilebuffer">CompileBuffer</a> method. The <b>IMofCompiler::CreateBMOF</b> can also be used to create a localized MOF file (.mfl).
 
 ## -parameters
 
@@ -69,7 +69,7 @@ The name of the text file to be parsed.
 <li>
 a&lt;locale&gt;
 
-Specifies the locale information. This value must start with a preceding comma. For more information, see the description of the <b>-ADMENDMENT</b> switch for the <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/mofcomp">mofcomp</a> utility.
+Specifies the locale information. This value must start with a preceding comma. For more information, see the description of the <b>-ADMENDMENT</b> switch for the <a href="/windows/desktop/WmiSdk/mofcomp">mofcomp</a> utility.
 
 </li>
 <li>
@@ -92,7 +92,7 @@ For example,  <i>BMOFFileName</i>=",aMS_409,nmyFile.mof,lmyFile.mfl".
 The path of the default namespace, where classes or instances are written.
 
 You can use this parameter to specify a namespace on a remote computer ("\\computer\root", for example). This value may be overridden by the 
-<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/-pragma">#pragma</a> command and should not be used if you use autorecovery. If the parameter value is <b>NULL</b>, the root\default namespace on the local computer is the default.
+<a href="/windows/desktop/WmiSdk/-pragma">#pragma</a> command and should not be used if you use autorecovery. If the parameter value is <b>NULL</b>, the root\default namespace on the local computer is the default.
 
 ### -param lOptionFlags [in]
 
@@ -182,7 +182,7 @@ This method returns <b>WBEM_S_NO_ERROR</b> if successful. If the method is unsuc
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nn-wbemcli-imofcompiler">IMofCompiler</a>
+<a href="/windows/desktop/api/wbemcli/nn-wbemcli-imofcompiler">IMofCompiler</a>
 
 
 
@@ -194,5 +194,4 @@ This method returns <b>WBEM_S_NO_ERROR</b> if successful. If the method is unsuc
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/mofcomp">mofcomp</a>
-
+<a href="/windows/desktop/WmiSdk/mofcomp">mofcomp</a>

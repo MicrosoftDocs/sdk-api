@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-The <b>FAX_ROUTE</b> structure contains information about a received fax document. The fax service passes the structure to a fax routing method in a call to the <a href="https://docs.microsoft.com/windows/desktop/api/faxroute/nc-faxroute-pfaxroutemethod">FaxRouteMethod</a> function.
+The <b>FAX_ROUTE</b> structure contains information about a received fax document. The fax service passes the structure to a fax routing method in a call to the <a href="/windows/desktop/api/faxroute/nc-faxroute-pfaxroutemethod">FaxRouteMethod</a> function.
 
 ## -struct-fields
 
@@ -62,7 +62,7 @@ The <b>FAX_ROUTE</b> structure contains information about a received fax documen
 
 Type: <b>DWORD</b>
 
-Specifies, in bytes, the size of the <b>FAX_ROUTE</b> structure. Before calling the <a href="https://docs.microsoft.com/windows/desktop/api/faxroute/nc-faxroute-pfaxroutemethod">FaxRouteMethod</a> function, the fax service sets this member to sizeof(FAX_ROUTE).
+Specifies, in bytes, the size of the <b>FAX_ROUTE</b> structure. Before calling the <a href="/windows/desktop/api/faxroute/nc-faxroute-pfaxroutemethod">FaxRouteMethod</a> function, the fax service sets this member to sizeof(FAX_ROUTE).
 
 ### -field JobId
 
@@ -116,7 +116,7 @@ Pointer to a constant null-terminated Unicode character string that specifies th
 
 <code>Canonical-Phone-Number[|Additional-Routing-Info]</code>
 
-where <code>Canonical-Phone-Number</code> is defined in the <a href="https://docs.microsoft.com/windows/desktop/Tapi/address-ovr">Address</a> topic of the TAPI documentation (see the Canonical Address subheading); and <code>Additional-Routing-Info</code> is the <i>subaddress</i> of a Canonical Address, and uses the subaddress format.
+where <code>Canonical-Phone-Number</code> is defined in the <a href="/windows/desktop/Tapi/address-ovr">Address</a> topic of the TAPI documentation (see the Canonical Address subheading); and <code>Additional-Routing-Info</code> is the <i>subaddress</i> of a Canonical Address, and uses the subaddress format.
 
 ### -field ReceiverName
 
@@ -156,23 +156,22 @@ Specifies the size, in bytes, of the array pointed to by the <b>RoutingInfoData<
 
 ## -remarks
 
-A fax routing method can call the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxroute/nc-faxroute-pfaxroutemodifyroutingdata">FaxRouteModifyRoutingData</a> callback function to change the routing information for a subsequent routing method. The function does this by modifying the <b>RoutingInfoData</b> member of the <b>FAX_ROUTE</b> structure that applies to the subsequent method. This allows a fax routing extension to retrieve user-defined routing data and to provide additional callback information to a different routing method. When the subsequent routing method executes, it processes the received fax transmission using the modified routing data. For more information, see <b>FaxRouteModifyRoutingData</b>.
+A fax routing method can call the <a href="/previous-versions/windows/desktop/api/faxroute/nc-faxroute-pfaxroutemodifyroutingdata">FaxRouteModifyRoutingData</a> callback function to change the routing information for a subsequent routing method. The function does this by modifying the <b>RoutingInfoData</b> member of the <b>FAX_ROUTE</b> structure that applies to the subsequent method. This allows a fax routing extension to retrieve user-defined routing data and to provide additional callback information to a different routing method. When the subsequent routing method executes, it processes the received fax transmission using the modified routing data. For more information, see <b>FaxRouteModifyRoutingData</b>.
 
-The fax routing method can use the <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-filetimetolocalfiletime">FileTimeToLocalFileTime</a> function, to convert from UTC to local time, and then use the <a href="https://docs.microsoft.com/windows/desktop/api/timezoneapi/nf-timezoneapi-filetimetosystemtime">FileTimeToSystemTime</a> function to convert the local time to a <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-systemtime">SYSTEMTIME</a> structure. SYSTEMTIME contains individual members for month, day, year, weekday, hour, minute, second, and millisecond. See MSDN for descriptions of these functions and this structure.
+The fax routing method can use the <a href="/windows/desktop/api/fileapi/nf-fileapi-filetimetolocalfiletime">FileTimeToLocalFileTime</a> function, to convert from UTC to local time, and then use the <a href="/windows/desktop/api/timezoneapi/nf-timezoneapi-filetimetosystemtime">FileTimeToSystemTime</a> function to convert the local time to a <a href="/windows/desktop/api/minwinbase/ns-minwinbase-systemtime">SYSTEMTIME</a> structure. SYSTEMTIME contains individual members for month, day, year, weekday, hour, minute, second, and millisecond. See MSDN for descriptions of these functions and this structure.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-about-the-fax-routing-extension-api">Fax Routing Extension Application Programming Interface Overview</a>
+<a href="/previous-versions/windows/desktop/fax/-mfax-about-the-fax-routing-extension-api">Fax Routing Extension Application Programming Interface Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-fax-routing-extension-structures">Fax Routing Extension Structures</a>
+<a href="/previous-versions/windows/desktop/fax/-mfax-fax-routing-extension-structures">Fax Routing Extension Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/faxroute/nc-faxroute-pfaxroutemethod">FaxRouteMethod</a>
+<a href="/windows/desktop/api/faxroute/nc-faxroute-pfaxroutemethod">FaxRouteMethod</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxroute/nc-faxroute-pfaxroutemodifyroutingdata">FaxRouteModifyRoutingData</a>
-
+<a href="/previous-versions/windows/desktop/api/faxroute/nc-faxroute-pfaxroutemodifyroutingdata">FaxRouteModifyRoutingData</a>

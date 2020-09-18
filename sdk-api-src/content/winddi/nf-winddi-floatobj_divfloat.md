@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>FLOATOBJ_DivFloat</b> function divides the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-floatobj">FLOATOBJ</a> by the value of type FLOATL, and returns with the result in the first parameter.
+The <b>FLOATOBJ_DivFloat</b> function divides the <a href="/windows/desktop/api/winddi/ns-winddi-floatobj">FLOATOBJ</a> by the value of type FLOATL, and returns with the result in the first parameter.
 
 ## -parameters
 
@@ -68,5 +68,4 @@ The FLOATOBJ<b>_</b><i>Xxx</i> services allow graphics drivers to emulate floati
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-floatobj">FLOATOBJ</a>
-
+<a href="/windows/desktop/api/winddi/ns-winddi-floatobj">FLOATOBJ</a>

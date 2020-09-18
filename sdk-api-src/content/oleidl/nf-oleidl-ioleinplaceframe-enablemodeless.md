@@ -64,9 +64,8 @@ This method returns S_OK if the dialog box was either enabled or disabled succes
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleinplaceactiveobject-enablemodeless">IOleInPlaceActiveObject::EnableModeless</a>
+<a href="/windows/desktop/api/oleidl/nf-oleidl-ioleinplaceactiveobject-enablemodeless">IOleInPlaceActiveObject::EnableModeless</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-ioleinplaceframe">IOleInPlaceFrame</a>
-
+<a href="/windows/desktop/api/oleidl/nn-oleidl-ioleinplaceframe">IOleInPlaceFrame</a>

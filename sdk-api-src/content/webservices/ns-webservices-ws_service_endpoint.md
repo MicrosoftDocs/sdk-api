@@ -67,7 +67,7 @@ The binding for the channel/listener.
 
 ### -field channelType
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_channel_type">type of channel</a> being hosted by the endpoint.
+The <a href="/windows/desktop/api/webservices/ne-webservices-ws_channel_type">type of channel</a> being hosted by the endpoint.
 
 ### -field securityDescription
 
@@ -92,4 +92,3 @@ Number of elements in the WS_SERVICE_ENDPOINT_PROPERTY array.
 ### -field channelProperties
 
                     Channel properties associated with the endpoint. An application should be careful in modifying default values. For example, modifying send/receive timeouts may result in unexpected behavior and cause the client to fail.
-

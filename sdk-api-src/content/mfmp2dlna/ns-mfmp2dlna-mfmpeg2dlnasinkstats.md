@@ -54,7 +54,7 @@ api_name:
 
 Contains encoding statistics from the Digital Living Network Alliance (DLNA) media sink.
 
-This structure is used with the <a href="https://docs.microsoft.com/windows/desktop/medfound/mf-mp2dlna-statistics">MF_MP2DLNA_STATISTICS</a> attribute.
+This structure is used with the <a href="/windows/desktop/medfound/mf-mp2dlna-statistics">MF_MP2DLNA_STATISTICS</a> attribute.
 
 ## -struct-fields
 
@@ -116,5 +116,4 @@ The number of audio frames that have been encoded.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-structures">Media Foundation Structures</a>
-
+<a href="/windows/desktop/medfound/media-foundation-structures">Media Foundation Structures</a>

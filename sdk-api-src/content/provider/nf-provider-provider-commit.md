@@ -53,10 +53,10 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[The <a href="https://docs.microsoft.com/windows/desktop/api/provider/nl-provider-provider">Provider</a> class 
+<p class="CCE_Message">[The <a href="/windows/desktop/api/provider/nl-provider-provider">Provider</a> class 
     is part of the WMI Provider Framework which is now considered in final state, and no further development, 
     enhancements, or updates will be available for non-security related issues affecting these libraries. The 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/wmi_v2/windows-management-infrastructure">MI APIs</a> should be used for all new 
+    <a href="/previous-versions/windows/desktop/wmi_v2/windows-management-infrastructure">MI APIs</a> should be used for all new 
     development.]
 
 The <b>Commit</b> method is used to send an instance to WMI. This method is a helper function and should not be overridden.
@@ -82,4 +82,3 @@ If the client cancels the query, the <b>Commit</b> method returns an error. A pr
 Also, this method calls CInstance::Release on the <i>pInstance</i> pointer. Because of this, the framework provider must be careful not to call CInstance::Release again. This means that a <i>pInstance</i> smart pointer is incompatible with this method because the smart pointer calls CInstance::Release in its destructor.
 
 This method should only be used when the framework provider does not call CInstance::Release on the <i>pInstance</i> pointer separately and if the <i>pInstance</i> pointer is not, and will never be, a smart pointer.
-

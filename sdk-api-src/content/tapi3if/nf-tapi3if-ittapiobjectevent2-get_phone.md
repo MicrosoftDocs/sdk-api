@@ -52,14 +52,14 @@ api_name:
 
 The 
 <b>get_Phone</b> method returns a pointer to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itphone">ITPhone</a> interface on the phone object that caused this TAPI object event to be fired.
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itphone">ITPhone</a> interface on the phone object that caused this TAPI object event to be fired.
 
 ## -parameters
 
 ### -param ppPhone [out]
 
 Pointer to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itphone">ITPhone</a> interface.
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itphone">ITPhone</a> interface.
 
 ## -returns
 
@@ -68,14 +68,13 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -remarks
 
 TAPI calls the <b>AddRef</b> method on the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itphone">ITPhone</a> interface returned by <b>ITTAPIObjectEvent2::get_Phone</b>. The application must call <b>Release</b> on the 
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itphone">ITPhone</a> interface returned by <b>ITTAPIObjectEvent2::get_Phone</b>. The application must call <b>Release</b> on the 
 <b>ITPhone</b> interface to free resources associated with it.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itphone">ITPhone</a>
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itphone">ITPhone</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-ittapiobjectevent2">ITTAPIObjectEvent2</a>
-
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-ittapiobjectevent2">ITTAPIObjectEvent2</a>

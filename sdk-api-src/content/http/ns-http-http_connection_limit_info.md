@@ -56,13 +56,13 @@ api_name:
 
 The <b>HTTP_CONNECTION_LIMIT_INFO</b> structure is used to set or query  the limit on the  maximum number of outstanding connections for a URL Group.
 
- This structure must be used when setting or querying the <a href="https://docs.microsoft.com/windows/desktop/api/http/ne-http-http_server_property">HttpServerConnectionsProperty</a> on a URL Group.
+ This structure must be used when setting or querying the <a href="/windows/desktop/api/http/ne-http-http_server_property">HttpServerConnectionsProperty</a> on a URL Group.
 
 ## -struct-fields
 
 ### -field Flags
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_property_flags">HTTP_PROPERTY_FLAGS</a> structure specifying whether the property is present.
+The <a href="/windows/desktop/api/http/ns-http-http_property_flags">HTTP_PROPERTY_FLAGS</a> structure specifying whether the property is present.
 
 ### -field MaxConnections
 
@@ -70,17 +70,16 @@ The number of connections allowed. Setting this value to HTTP_LIMIT_INFINITE all
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Http/http-server-api-version-2-0-structures">HTTP Server API Version 2.0 Structures</a>
+<a href="/windows/desktop/Http/http-server-api-version-2-0-structures">HTTP Server API Version 2.0 Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/ne-http-http_server_property">HTTP_SERVER_PROPERTY</a>
+<a href="/windows/desktop/api/http/ne-http-http_server_property">HTTP_SERVER_PROPERTY</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpqueryurlgroupproperty">HttpQueryUrlGroupProperty</a>
+<a href="/windows/desktop/api/http/nf-http-httpqueryurlgroupproperty">HttpQueryUrlGroupProperty</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpseturlgroupproperty">HttpSetUrlGroupProperty</a>
-
+<a href="/windows/desktop/api/http/nf-http-httpseturlgroupproperty">HttpSetUrlGroupProperty</a>

@@ -70,9 +70,8 @@ The top-rated alternates are returned regardless of segment breaks. Thus "togeth
 
 ## -remarks
 
-Check the <a href="https://docs.microsoft.com/windows/desktop/api/rectypes/ns-rectypes-reco_attrs">dwRecoCapabilityFlags</a> member of the <b>RECO_ATTRS</b> structure to ensure the recognizer supports different alternate breaks.
+Check the <a href="/windows/desktop/api/rectypes/ns-rectypes-reco_attrs">dwRecoCapabilityFlags</a> member of the <b>RECO_ATTRS</b> structure to ensure the recognizer supports different alternate breaks.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms698163(v=vs.85)">GetAlternateList Function</a>
-
+<a href="/previous-versions/windows/desktop/legacy/ms698163(v=vs.85)">GetAlternateList Function</a>

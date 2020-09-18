@@ -54,7 +54,7 @@ The <b>IPortableDeviceContent</b> interface provides methods to create, enumerat
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPortableDeviceContent</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPortableDeviceContent</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPortableDeviceContent</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPortableDeviceContent</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IPortableDeviceContent</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledevicecontent-cancel">Cancel</a>
+<a href="/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledevicecontent-cancel">Cancel</a>
 </td>
 <td align="left" width="63%">
 Cancels a pending call on this interface.
@@ -78,7 +78,7 @@ Cancels a pending call on this interface.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledevicecontent-copy">Copy</a>
+<a href="/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledevicecontent-copy">Copy</a>
 </td>
 <td align="left" width="63%">
 Copies objects from one location on a device to another.
@@ -87,7 +87,7 @@ Copies objects from one location on a device to another.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledevicecontent-createobjectwithpropertiesanddata">CreateObjectWithPropertiesAndData</a>
+<a href="/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledevicecontent-createobjectwithpropertiesanddata">CreateObjectWithPropertiesAndData</a>
 </td>
 <td align="left" width="63%">
 Creates an object with both properties and data on the device.
@@ -97,7 +97,7 @@ Creates an object with both properties and data on the device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledevicecontent-createobjectwithpropertiesonly">CreateObjectWithPropertiesOnly</a>
+<a href="/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledevicecontent-createobjectwithpropertiesonly">CreateObjectWithPropertiesOnly</a>
 </td>
 <td align="left" width="63%">
  Creates an object with only properties on the device.
@@ -107,7 +107,7 @@ Creates an object with both properties and data on the device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledevicecontent-delete">Delete</a>
+<a href="/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledevicecontent-delete">Delete</a>
 </td>
 <td align="left" width="63%">
 Deletes one or more objects from the device.
@@ -116,7 +116,7 @@ Deletes one or more objects from the device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledevicecontent-enumobjects">EnumObjects</a>
+<a href="/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledevicecontent-enumobjects">EnumObjects</a>
 </td>
 <td align="left" width="63%">
 Rretrieves an interface that is used to enumerate the immediate child objects of an object. It has an optional filter that can enumerate objects with specific properties.
@@ -126,7 +126,7 @@ Rretrieves an interface that is used to enumerate the immediate child objects of
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledevicecontent-getobjectidsfrompersistentuniqueids">GetObjectIDsFromPersistentUniqueIDs</a>
+<a href="/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledevicecontent-getobjectidsfrompersistentuniqueids">GetObjectIDsFromPersistentUniqueIDs</a>
 </td>
 <td align="left" width="63%">
 Retrieves the current object ID of one or more objects, given their persistent unique IDs (PUIDs).
@@ -135,7 +135,7 @@ Retrieves the current object ID of one or more objects, given their persistent u
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledevicecontent-move">Move</a>
+<a href="/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledevicecontent-move">Move</a>
 </td>
 <td align="left" width="63%">
 Moves one or more objects from one location on the device to another.
@@ -145,7 +145,7 @@ Moves one or more objects from one location on the device to another.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledevicecontent-properties">Properties</a>
+<a href="/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledevicecontent-properties">Properties</a>
 </td>
 <td align="left" width="63%">
 Retrieves the interface that is required to get or set properties on an object on the device.
@@ -155,7 +155,7 @@ Retrieves the interface that is required to get or set properties on an object o
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledevicecontent-transfer">Transfer</a>
+<a href="/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledevicecontent-transfer">Transfer</a>
 </td>
 <td align="left" width="63%">
 Retrieves an interface that is used to read from or write to the content data of an existing object resource.
@@ -166,5 +166,4 @@ Retrieves an interface that is used to read from or write to the content data of
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/wpd_sdk/client-interfaces">Client Interfaces</a>
-
+<a href="/windows/desktop/wpd_sdk/client-interfaces">Client Interfaces</a>

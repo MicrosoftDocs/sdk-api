@@ -71,7 +71,7 @@ Number of requested objects.
 ### -param apObjects [out]
 
 Pointer to enough storage to hold the number of 
-      <a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nn-wbemcli-iwbemclassobject">IWbemClassObject</a> interface pointers specified by 
+      <a href="/windows/desktop/api/wbemcli/nn-wbemcli-iwbemclassobject">IWbemClassObject</a> interface pointers specified by 
       <i>uCount</i>. This storage must be supplied by the caller. This parameter cannot be 
       <b>NULL</b>. The caller must call <b>Release</b> on each of the received 
       interface pointers when they are no longer needed.
@@ -100,13 +100,13 @@ The <b>Next</b> method returns an <b>HRESULT</b> indicating
 
 ## -remarks
 
-You may see COM-specific error codes returned if network problems cause you to lose the remote connection to Windows Management. On error, you can call the COM function <a href="https://msdn.microsoft.com/library/ms221032.aspx">GetErrorInfo</a> to obtain more error information.
+You may see COM-specific error codes returned if network problems cause you to lose the remote connection to Windows Management. On error, you can call the COM function <a href="/windows/win32/api/oleauto/nf-oleauto-geterrorinfo">GetErrorInfo</a> to obtain more error information.
 
 If more than one object is requested, and if the number of requested objects is returned, the function returns <b>WBEM_S_NO_ERROR</b>. If less than the requested number of objects is available, and if the enumeration has completed, those objects are returned and the function returns <b>WBEM_S_FALSE</b>.
 
 If the enumeration has not completed, the call waits for objects to be available up to the specified time-out. If the enumeration times out before the objects are available, the function returns <b>WBEM_S_TIMEDOUT</b>.
 
-<div class="alert"><b>Note</b>  Because the call-back to the sink might not be returned at the same authentication level as the client requires, it is recommended that you use semisynchronous instead of asynchronous communication.  For more information, see <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/calling-a-method">Calling a Method</a>.</div>
+<div class="alert"><b>Note</b>  Because the call-back to the sink might not be returned at the same authentication level as the client requires, it is recommended that you use semisynchronous instead of asynchronous communication.  For more information, see <a href="/windows/desktop/WmiSdk/calling-a-method">Calling a Method</a>.</div>
 <div> </div>
 
 #### Examples
@@ -149,9 +149,8 @@ HRESULT ProcessEnum( IEnumWbemClassObject*    pEnum )
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/enumerating-wmi">Enumerating WMI</a>
+<a href="/windows/desktop/WmiSdk/enumerating-wmi">Enumerating WMI</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nn-wbemcli-ienumwbemclassobject">IEnumWbemClassObject</a>
-
+<a href="/windows/desktop/api/wbemcli/nn-wbemcli-ienumwbemclassobject">IEnumWbemClassObject</a>

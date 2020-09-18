@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Parameters for use with the <a href="https://docs.microsoft.com/windows/desktop/xaudio2/xapofx-overview">FXECHO XAPOFX</a>.
+Parameters for use with the <a href="/windows/desktop/xaudio2/xapofx-overview">FXECHO XAPOFX</a>.
 
 ## -struct-fields
 
@@ -64,7 +64,7 @@ Amount of output to feed back into input.
 
 ### -field Delay
 
-Delay to all channels in milliseconds. This value must be between <b>FXECHO_MIN_DELAY</b> and <a href="https://docs.microsoft.com/windows/desktop/api/xapofx/ns-xapofx-fxecho_initdata">FXECHO_INITDATA</a>.<b>MaxDelay</b>.
+Delay to all channels in milliseconds. This value must be between <b>FXECHO_MIN_DELAY</b> and <a href="/windows/desktop/api/xapofx/ns-xapofx-fxecho_initdata">FXECHO_INITDATA</a>.<b>MaxDelay</b>.
 
 ## -remarks
 
@@ -75,5 +75,4 @@ Windows 10 (XAudio2.9); Windows 8, Windows Phone 8 (XAudio 2.8); DirectX SDK
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/xaudio2/structures">Structures</a>
-
+<a href="/windows/desktop/xaudio2/structures">Structures</a>

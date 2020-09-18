@@ -68,7 +68,7 @@ Enumerates all top-level windows on the screen by passing the handle to each win
 
 Type: <b>WNDENUMPROC</b>
 
-A pointer to an application-defined callback function. For more information, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms633498(v=vs.85)">EnumWindowsProc</a>.
+A pointer to an application-defined callback function. For more information, see <a href="/previous-versions/windows/desktop/legacy/ms633498(v=vs.85)">EnumWindowsProc</a>.
 
 ### -param lParam [in]
 
@@ -82,15 +82,15 @@ Type: <b>BOOL</b>
 
 If the function succeeds, the return value is nonzero.
 
-If the function fails, the return value is zero. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+If the function fails, the return value is zero. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-If <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms633498(v=vs.85)">EnumWindowsProc</a> returns zero, the return value is also zero. In this case, the callback function should call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-setlasterror">SetLastError</a> to obtain a meaningful error code to be returned to the caller of <b>EnumWindows</b>.
+If <a href="/previous-versions/windows/desktop/legacy/ms633498(v=vs.85)">EnumWindowsProc</a> returns zero, the return value is also zero. In this case, the callback function should call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-setlasterror">SetLastError</a> to obtain a meaningful error code to be returned to the caller of <b>EnumWindows</b>.
 
 ## -remarks
 
 The <b>EnumWindows</b> function does not enumerate child windows, with the exception of a few top-level windows owned by the system that have the <b>WS_CHILD</b> style.
 
-This function is more reliable than calling the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getwindow">GetWindow</a> function in a loop. An application that calls <b>GetWindow</b> to perform this task risks being caught in an infinite loop or referencing a handle to a window that has been destroyed. 
+This function is more reliable than calling the <a href="/windows/desktop/api/winuser/nf-winuser-getwindow">GetWindow</a> function in a loop. An application that calls <b>GetWindow</b> to perform this task risks being caught in an infinite loop or referencing a handle to a window that has been destroyed. 
 
 <div class="alert"><b>Note</b>  For Windows 8 and later, <b>EnumWindows</b> enumerates only top-level windows of desktop apps.</div>
 <div> </div>
@@ -101,15 +101,15 @@ This function is more reliable than calling the <a href="https://docs.microsoft.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-enumchildwindows">EnumChildWindows</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-enumchildwindows">EnumChildWindows</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms633498(v=vs.85)">EnumWindowsProc</a>
+<a href="/previous-versions/windows/desktop/legacy/ms633498(v=vs.85)">EnumWindowsProc</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getwindow">GetWindow</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-getwindow">GetWindow</a>
 
 
 
@@ -117,5 +117,4 @@ This function is more reliable than calling the <a href="https://docs.microsoft.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/winmsg/windows">Windows</a>
-
+<a href="/windows/desktop/winmsg/windows">Windows</a>

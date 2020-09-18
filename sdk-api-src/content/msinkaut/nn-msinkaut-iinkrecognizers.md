@@ -54,7 +54,7 @@ Represents a collection of IInkRecognizer objects having the ability to create a
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IInkRecognizers</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IInkRecognizers</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IInkRecognizers</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IInkRecognizers</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -70,7 +70,7 @@ The <b>IInkRecognizers</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizers-getdefaultrecognizer">GetDefaultRecognizer</a>
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizers-getdefaultrecognizer">GetDefaultRecognizer</a>
 </td>
 <td align="left" width="63%">
 Retrieves the default recognizer for a known language, specified by a national language support (NLS) language code identifier (LCID).
@@ -79,10 +79,10 @@ Retrieves the default recognizer for a known language, specified by a national l
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizers-item">Item</a>
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizers-item">Item</a>
 </td>
 <td align="left" width="63%">
-Retrieves the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkrecognizer">IInkRecognizer</a> object at the specified index within the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms702438(v=vs.85)">InkRecognizers</a> collection.
+Retrieves the <a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinkrecognizer">IInkRecognizer</a> object at the specified index within the <a href="/previous-versions/windows/desktop/legacy/ms702438(v=vs.85)">InkRecognizers</a> collection.
 
 </td>
 </tr>
@@ -97,7 +97,7 @@ Retrieves the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/n
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizers-get_count">Count</a>
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizers-get_count">Count</a>
 
 
 </td>
@@ -114,5 +114,4 @@ Gets the number of objects or collections contained in a collection.
 
 ## -see-also
 
-[InkRecognizers collection](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms702438(v=vs.85))
-
+[InkRecognizers collection](/previous-versions/windows/desktop/legacy/ms702438(v=vs.85))

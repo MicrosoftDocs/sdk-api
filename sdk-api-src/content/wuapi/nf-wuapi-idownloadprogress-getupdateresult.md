@@ -60,7 +60,7 @@ A zero-based index value that specifies an update.
 
 ### -param retval [out]
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdatedownloadresult">IUpdateDownloadResult</a> interface that contains information about the specified update.
+An <a href="/windows/desktop/api/wuapi/nn-wuapi-iupdatedownloadresult">IUpdateDownloadResult</a> interface that contains information about the specified update.
 
 ## -returns
 
@@ -68,5 +68,4 @@ Returns <b>S_OK</b> if successful. Otherwise, returns a COM or Windows error cod
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-idownloadprogress">IDownloadProgress</a>
-
+<a href="/windows/desktop/api/wuapi/nn-wuapi-idownloadprogress">IDownloadProgress</a>

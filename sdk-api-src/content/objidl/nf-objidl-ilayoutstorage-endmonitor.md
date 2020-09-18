@@ -51,25 +51,24 @@ api_name:
 ## -description
 
 The <b>EndMonitor</b> method ends monitoring of a compound file. Must be preceded by a call to 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ilayoutstorage-beginmonitor">ILayoutStorage::BeginMonitor</a>.
+<a href="/windows/desktop/api/objidl/nf-objidl-ilayoutstorage-beginmonitor">ILayoutStorage::BeginMonitor</a>.
 
 ## -parameters
 
 ## -returns
 
-This function supports the standard return values E_OUTOFMEMORY, E_UNEXPECTED, E_INVALIDARG, and E_FAIL, as well as all return values for <a href="https://docs.microsoft.com/windows/desktop/api/handleapi/nf-handleapi-closehandle">CloseHandle</a>.
+This function supports the standard return values E_OUTOFMEMORY, E_UNEXPECTED, E_INVALIDARG, and E_FAIL, as well as all return values for <a href="/windows/desktop/api/handleapi/nf-handleapi-closehandle">CloseHandle</a>.
 
 ## -remarks
 
 A call to 
 <b>EndMonitor</b> is generally followed by a call to 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ilayoutstorage-relayoutdocfile">ILayoutStorage::RelayoutDocfile</a>, which uses the access pattern detected by the monitoring to restructure the compound file.
+<a href="/windows/desktop/api/objidl/nf-objidl-ilayoutstorage-relayoutdocfile">ILayoutStorage::RelayoutDocfile</a>, which uses the access pattern detected by the monitoring to restructure the compound file.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ilayoutstorage-beginmonitor">ILayoutStorage::BeginMonitor</a>
+<a href="/windows/desktop/api/objidl/nf-objidl-ilayoutstorage-beginmonitor">ILayoutStorage::BeginMonitor</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ilayoutstorage-relayoutdocfile">ILayoutStorage::ReLayoutDocfile</a>
-
+<a href="/windows/desktop/api/objidl/nf-objidl-ilayoutstorage-relayoutdocfile">ILayoutStorage::ReLayoutDocfile</a>

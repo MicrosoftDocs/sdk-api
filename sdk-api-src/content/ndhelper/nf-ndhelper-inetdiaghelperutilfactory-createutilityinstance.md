@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/ndhelper/nf-ndhelper-inetdiaghelperinfo-getattributeinfo">CreateUtilityInstance</a> method is used by the Network Diagnostics Framework (NDF). This method  is reserved for system use.
+The <a href="/windows/desktop/api/ndhelper/nf-ndhelper-inetdiaghelperinfo-getattributeinfo">CreateUtilityInstance</a> method is used by the Network Diagnostics Framework (NDF). This method  is reserved for system use.
 
 ## -parameters
 
@@ -72,5 +72,4 @@ This method is reserved for system use.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ndhelper/nn-ndhelper-inetdiaghelperutilfactory">INetDiagHelperUtilFactory</a>
-
+<a href="/windows/desktop/api/ndhelper/nn-ndhelper-inetdiaghelperutilfactory">INetDiagHelperUtilFactory</a>

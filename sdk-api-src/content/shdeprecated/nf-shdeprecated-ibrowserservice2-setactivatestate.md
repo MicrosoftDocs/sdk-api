@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-Deprecated. Updates the value of the <b>_uActivateState</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/shdeprecated/ns-shdeprecated-basebrowserdatalh">BASEBROWSERDATA</a> structure, which tracks whether the browser view window is in an activated state. The derived class makes this call to the base class.
+Deprecated. Updates the value of the <b>_uActivateState</b> member of the <a href="/windows/desktop/api/shdeprecated/ns-shdeprecated-basebrowserdatalh">BASEBROWSERDATA</a> structure, which tracks whether the browser view window is in an activated state. The derived class makes this call to the base class.
 
 ## -parameters
 
@@ -59,11 +59,10 @@ Deprecated. Updates the value of the <b>_uActivateState</b> member of the <a hre
 
 Type: <b>UINT</b>
 
-The activation state of the window. This is always the SVUIA_ACTIVATE_FOCUS (0x0002) value from the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ne-shobjidl_core-svuia_status">SVUIA_STATUS</a> enumeration defined in Shobjidl.h.
+The activation state of the window. This is always the SVUIA_ACTIVATE_FOCUS (0x0002) value from the <a href="/windows/desktop/api/shobjidl_core/ne-shobjidl_core-svuia_status">SVUIA_STATUS</a> enumeration defined in Shobjidl.h.
 
 ## -returns
 
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-

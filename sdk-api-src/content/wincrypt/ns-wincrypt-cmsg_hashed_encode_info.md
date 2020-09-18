@@ -54,8 +54,8 @@ api_name:
 
 ## -description
 
-The <b>CMSG_HASHED_ENCODE_INFO</b> structure is used with <a href="https://docs.microsoft.com/windows/desktop/SecGloss/h-gly">hashed</a> messages. It is passed to 
-the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptmsgopentoencode">CryptMsgOpenToEncode</a> function if the <b>CryptMsgOpenToEncode</b> function's <i>dwMsgType</i> parameter is <b>CMSG_ENVELOPED</b>.
+The <b>CMSG_HASHED_ENCODE_INFO</b> structure is used with <a href="/windows/desktop/SecGloss/h-gly">hashed</a> messages. It is passed to 
+the <a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptmsgopentoencode">CryptMsgOpenToEncode</a> function if the <b>CryptMsgOpenToEncode</b> function's <i>dwMsgType</i> parameter is <b>CMSG_ENVELOPED</b>.
 
 ## -struct-fields
 
@@ -67,7 +67,7 @@ The size, in bytes, of this structure.
 
 This member is not used and should be set to <b>NULL</b>.
 
-<b>Windows Server 2003 and Windows XP:  </b>Specifies a handle to the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">cryptographic service provider</a> (CSP) used to do the hash. The <i>hCryptProv</i> private keys are not used. 
+<b>Windows Server 2003 and Windows XP:  </b>Specifies a handle to the <a href="/windows/desktop/SecGloss/c-gly">cryptographic service provider</a> (CSP) used to do the hash. The <i>hCryptProv</i> private keys are not used. 
 
 
 This member's data type is <b>HCRYPTPROV</b>.
@@ -76,7 +76,7 @@ Unless there is a strong reason for passing in a specific cryptographic provider
 
 ### -field HashAlgorithm
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_algorithm_identifier">CRYPT_ALGORITHM_IDENTIFIER</a> structure that contains the hash algorithm type and any associated additional parameters.
+A <a href="/windows/desktop/api/wincrypt/ns-wincrypt-crypt_algorithm_identifier">CRYPT_ALGORITHM_IDENTIFIER</a> structure that contains the hash algorithm type and any associated additional parameters.
 
 ### -field pvHashAuxInfo
 
@@ -84,5 +84,4 @@ This member is currently not used and must be set to <b>NULL</b>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_algorithm_identifier">CRYPT_ALGORITHM_IDENTIFIER</a>
-
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-crypt_algorithm_identifier">CRYPT_ALGORITHM_IDENTIFIER</a>

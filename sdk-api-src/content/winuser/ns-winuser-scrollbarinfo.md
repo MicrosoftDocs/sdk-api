@@ -60,9 +60,9 @@ The <b>SCROLLBARINFO</b> structure contains scroll bar information.
 
 ### -field cbSize
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
-Specifies the size, in bytes, of the structure. Before calling the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getscrollbarinfo">GetScrollBarInfo</a> function, set <b>cbSize</b> to <b>sizeof</b>(<b>SCROLLBARINFO</b>).
+Specifies the size, in bytes, of the structure. Before calling the <a href="/windows/desktop/api/winuser/nf-winuser-getscrollbarinfo">GetScrollBarInfo</a> function, set <b>cbSize</b> to <b>sizeof</b>(<b>SCROLLBARINFO</b>).
 
 ### -field rcScrollBar
 
@@ -96,7 +96,7 @@ Reserved.
 
 ### -field rgstate
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a>[CCHILDREN_SCROLLBAR+1]</b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">DWORD</a>[CCHILDREN_SCROLLBAR+1]</b>
 
 An array of <b>DWORD</b> elements. Each element indicates the state of a scroll bar component. The following values show the scroll bar component that corresponds to each array index.
 					
@@ -188,7 +188,7 @@ The component is disabled.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getscrollbarinfo">GetScrollBarInfo</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-getscrollbarinfo">GetScrollBarInfo</a>
 
 
 
@@ -204,5 +204,4 @@ The component is disabled.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Controls/scroll-bars">Scroll Bars</a>
-
+<a href="/windows/desktop/Controls/scroll-bars">Scroll Bars</a>

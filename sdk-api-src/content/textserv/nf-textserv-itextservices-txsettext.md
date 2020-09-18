@@ -56,17 +56,17 @@ Sets all of the text in the control.
 
 ### -param pszText [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPCTSTR</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">LPCTSTR</a></b>
 
 The string which will replace the current text.
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 If the method succeeds, the return value is <b>S_OK</b>.
 
-If the method fails, the return value is the following <b>HRESULT</b> code. For more information on COM error codes, see <a href="https://docs.microsoft.com/windows/desktop/com/error-handling-in-com">Error Handling in COM</a>.
+If the method fails, the return value is the following <b>HRESULT</b> code. For more information on COM error codes, see <a href="/windows/desktop/com/error-handling-in-com">Error Handling in COM</a>.
 
 <table>
 <tr>
@@ -90,11 +90,11 @@ Text could not be updated.
 
 This method should be used with care; it essentially reinitializes the text services object with some new data. Any previous data and formatting information will be lost, including undo information.
 
-If previous data has been copied to the clipboard, that data will be rendered completely to the clipboard (through <a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-oleflushclipboard">OleFlushClipboard</a>) before it is discarded.
+If previous data has been copied to the clipboard, that data will be rendered completely to the clipboard (through <a href="/windows/desktop/api/ole2/nf-ole2-oleflushclipboard">OleFlushClipboard</a>) before it is discarded.
 
 This method does <i>not</i> support <b>Undo</b>.
 
-Two alternate approaches to setting text are <a href="https://docs.microsoft.com/windows/desktop/winmsg/wm-settext">WM_SETTEXT</a> and <a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange-settext">SetText</a>.
+Two alternate approaches to setting text are <a href="/windows/desktop/winmsg/wm-settext">WM_SETTEXT</a> and <a href="/windows/desktop/api/tom/nf-tom-itextrange-settext">SetText</a>.
 
 ## -see-also
 
@@ -102,11 +102,11 @@ Two alternate approaches to setting text are <a href="https://docs.microsoft.com
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/textserv/nl-textserv-itextservices">ITextServices</a>
+<a href="/windows/desktop/api/textserv/nl-textserv-itextservices">ITextServices</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-oleflushclipboard">OleFlushClipboard</a>
+<a href="/windows/desktop/api/ole2/nf-ole2-oleflushclipboard">OleFlushClipboard</a>
 
 
 
@@ -118,13 +118,12 @@ Two alternate approaches to setting text are <a href="https://docs.microsoft.com
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange-settext">SetText</a>
+<a href="/windows/desktop/api/tom/nf-tom-itextrange-settext">SetText</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/winmsg/wm-settext">WM_SETTEXT</a>
+<a href="/windows/desktop/winmsg/wm-settext">WM_SETTEXT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Controls/windowless-rich-edit-controls">Windowless Rich Edit Controls</a>
-
+<a href="/windows/desktop/Controls/windowless-rich-edit-controls">Windowless Rich Edit Controls</a>

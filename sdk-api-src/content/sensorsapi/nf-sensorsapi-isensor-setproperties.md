@@ -56,7 +56,7 @@ Specifies sensor properties.
 
 ### -param pProperties [in]
 
- Pointer to an <a href="https://msdn.microsoft.com/library/ms740012(VS.85).aspx">IPortableDeviceValues</a> interface containing the list of properties and values to set.
+ Pointer to an <a href="/previous-versions//ms740012(v=vs.85)">IPortableDeviceValues</a> interface containing the list of properties and values to set.
 
 ### -param ppResults [out]
 
@@ -117,15 +117,14 @@ Not all properties can be set.
 
 #### Examples
 
-For an example of how to set properties, see <a href="https://docs.microsoft.com/windows/desktop/SensorsAPI/setting-and-retrieving-sensor-properties">Setting and Retrieving Sensor Properties</a>.
+For an example of how to set properties, see <a href="/windows/desktop/SensorsAPI/setting-and-retrieving-sensor-properties">Setting and Retrieving Sensor Properties</a>.
 
 <div class="code"></div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sensorsapi/nf-sensorsapi-isensor-getproperties">GetProperties</a>
+<a href="/windows/desktop/api/sensorsapi/nf-sensorsapi-isensor-getproperties">GetProperties</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sensorsapi/nn-sensorsapi-isensor">ISensor</a>
-
+<a href="/windows/desktop/api/sensorsapi/nn-sensorsapi-isensor">ISensor</a>

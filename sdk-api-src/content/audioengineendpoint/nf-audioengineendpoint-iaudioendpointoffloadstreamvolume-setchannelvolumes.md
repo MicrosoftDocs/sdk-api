@@ -64,7 +64,7 @@ A pointer to the volume levels for the various audio channels in the offloaded s
 
 ### -param u32CurveType
 
-A value from the [AUDIO_CURVE_TYPE](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksmedia/ne-ksmedia-audio_curve_type) enumeration specifying the curve to use when changing the channel volumes.
+A value from the [AUDIO_CURVE_TYPE](/windows-hardware/drivers/ddi/content/ksmedia/ne-ksmedia-audio_curve_type) enumeration specifying the curve to use when changing the channel volumes.
 
 ### -param pCurveDuration
 
@@ -76,5 +76,4 @@ The <b>SetChannelVolumes</b> method returns <b>S_OK</b> to indicate that it has 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/audioengineendpoint/nn-audioengineendpoint-iaudioendpointoffloadstreamvolume">IAudioEndpointOffloadStreamVolume</a>
-
+<a href="/windows/desktop/api/audioengineendpoint/nn-audioengineendpoint-iaudioendpointoffloadstreamvolume">IAudioEndpointOffloadStreamVolume</a>

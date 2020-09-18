@@ -88,13 +88,12 @@ This setting is useful for reducing the amount of bandwidth used, particularly i
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpcore-close">IWMPCore::close</a>
+<a href="/windows/desktop/api/wmp/nf-wmp-iwmpcore-close">IWMPCore::close</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpnetwork">IWMPNetwork Interface</a>
+<a href="/windows/desktop/api/wmp/nn-wmp-iwmpnetwork">IWMPNetwork Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpnetwork-get_maxbandwidth">IWMPNetwork::get_maxBandwidth</a>
-
+<a href="/windows/desktop/api/wmp/nf-wmp-iwmpnetwork-get_maxbandwidth">IWMPNetwork::get_maxBandwidth</a>

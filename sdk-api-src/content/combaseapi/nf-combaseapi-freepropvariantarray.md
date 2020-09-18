@@ -56,20 +56,20 @@ api_name:
 ## -description
 
 The <b>FreePropVariantArray</b> function calls 
-<a href="https://docs.microsoft.com/windows/desktop/api/propidl/nf-propidl-propvariantclear">PropVariantClear</a> on each of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structures in the <i>rgvars</i> array to make the value zero for each of the members of the array.
+<a href="/windows/desktop/api/propidl/nf-propidl-propvariantclear">PropVariantClear</a> on each of the 
+<a href="/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structures in the <i>rgvars</i> array to make the value zero for each of the members of the array.
 
 ## -parameters
 
 ### -param cVariants [in]
 
 Count of elements in the 
-<a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> array (<i>rgvars</i>).
+<a href="/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> array (<i>rgvars</i>).
 
 ### -param rgvars [in]
 
 Pointer to an initialized array of 
-<a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structures for which any deallocatable elements are to be freed. On exit, all zeroes are written to the 
+<a href="/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structures for which any deallocatable elements are to be freed. On exit, all zeroes are written to the 
 <b>PROPVARIANT</b> structure (thus tagging them as VT_EMPTY).
 
 ## -returns
@@ -79,8 +79,8 @@ This function returns HRESULT.
 ## -remarks
 
 <b>FreePropVariantArray</b> calls 
-<a href="https://docs.microsoft.com/windows/desktop/api/propidl/nf-propidl-propvariantclear">PropVariantClear</a> on an array of 
-<a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structures to clear all the valid members. All valid 
+<a href="/windows/desktop/api/propidl/nf-propidl-propvariantclear">PropVariantClear</a> on an array of 
+<a href="/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structures to clear all the valid members. All valid 
 <b>PROPVARIANT</b> structures are freed. If any of the 
 <b>PROPVARIANT</b> structures contain illegal VT types, valid members are freed and the function returns STG_E_INVALIDPARAMETER.
 
@@ -88,5 +88,4 @@ Passing <b>NULL</b> for <i>rgvars</i> is legal, and produces a return code of S_
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/propidl/nf-propidl-propvariantclear">PropVariantClear</a>
-
+<a href="/windows/desktop/api/propidl/nf-propidl-propvariantclear">PropVariantClear</a>

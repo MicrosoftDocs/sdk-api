@@ -50,14 +50,14 @@ api_name:
 
 ## -description
 
-The <b>IFhScopeIterator</b> interface allows client applications to enumerate individual items in an inclusion or exclusion list. To retrieve inclusion and exclusion lists, call  the <a href="https://docs.microsoft.com/windows/desktop/api/fhcfg/nf-fhcfg-ifhconfigmgr-getincludeexcluderules">IFhConfigMgr::GetIncludeExcludeRules</a> method.
+The <b>IFhScopeIterator</b> interface allows client applications to enumerate individual items in an inclusion or exclusion list. To retrieve inclusion and exclusion lists, call  the <a href="/windows/desktop/api/fhcfg/nf-fhcfg-ifhconfigmgr-getincludeexcluderules">IFhConfigMgr::GetIncludeExcludeRules</a> method.
 
 > [!NOTE] 
 > **IFhScopeIterator** is deprecated and may be altered or unavailable in future releases.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFhScopeIterator</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IFhScopeIterator</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFhScopeIterator</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IFhScopeIterator</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,7 +72,7 @@ The <b>IFhScopeIterator</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/fhcfg/nf-fhcfg-ifhscopeiterator-getitem">GetItem</a>
+<a href="/windows/desktop/api/fhcfg/nf-fhcfg-ifhscopeiterator-getitem">GetItem</a>
 </td>
 <td align="left" width="63%">
 Retrieves the current item in an inclusion or exclusion list.
@@ -81,7 +81,7 @@ Retrieves the current item in an inclusion or exclusion list.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/fhcfg/nf-fhcfg-ifhscopeiterator-movetonextitem">MoveToNextItem</a>
+<a href="/windows/desktop/api/fhcfg/nf-fhcfg-ifhscopeiterator-movetonextitem">MoveToNextItem</a>
 </td>
 <td align="left" width="63%">
 Moves to the next item in the inclusion or exclusion list.
@@ -89,4 +89,3 @@ Moves to the next item in the inclusion or exclusion list.
 </td>
 </tr>
 </table>
-

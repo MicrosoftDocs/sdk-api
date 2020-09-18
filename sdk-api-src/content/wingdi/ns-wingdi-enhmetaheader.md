@@ -129,7 +129,7 @@ The resolution of the reference device, in millimeters.
 ### -field cbPixelFormat
 
 The size of the last recorded pixel format in a metafile. 
-	 If a pixel format is set in a reference DC at the start of recording, <i>cbPixelFormat</i> is set to the size of the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-pixelformatdescriptor">PIXELFORMATDESCRIPTOR</a>. 
+	 If a pixel format is set in a reference DC at the start of recording, <i>cbPixelFormat</i> is set to the size of the <a href="/windows/desktop/api/wingdi/ns-wingdi-pixelformatdescriptor">PIXELFORMATDESCRIPTOR</a>. 
 	 When no pixel format is set when a metafile is recorded, this member is set to zero. 
 	 If more than a single pixel format is set, the header points to the last pixel format.
 
@@ -137,7 +137,7 @@ The size of the last recorded pixel format in a metafile.
 
 The offset of pixel format used when recording a metafile. 
 	 If a pixel format is set in a reference DC at the start of recording or during recording, 
-	 <i>offPixelFormat</i> is set to the offset of the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-pixelformatdescriptor">PIXELFORMATDESCRIPTOR</a> in the metafile. 
+	 <i>offPixelFormat</i> is set to the offset of the <a href="/windows/desktop/api/wingdi/ns-wingdi-pixelformatdescriptor">PIXELFORMATDESCRIPTOR</a> in the metafile. 
 	 If no pixel format is set when a metafile is recorded, this member is set to zero. 
 	 If more than a single pixel format is set, the header points to the last pixel format.
 
@@ -153,17 +153,16 @@ The size of the reference device, in micrometers.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-enhmetarecord">ENHMETARECORD</a>
+<a href="/windows/desktop/api/wingdi/ns-wingdi-enhmetarecord">ENHMETARECORD</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/metafile-structures">Metafile Structures</a>
+<a href="/windows/desktop/gdi/metafile-structures">Metafile Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/metafiles">Metafiles Overview</a>
+<a href="/windows/desktop/gdi/metafiles">Metafiles Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/dd162907(v=vs.85)">RECTL</a>
-
+<a href="/previous-versions/dd162907(v=vs.85)">RECTL</a>

@@ -109,9 +109,8 @@ This method moves the entire source rectangle up or down. It does not change the
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/control/nn-control-ibasicvideo">IBasicVideo Interface</a>
-
+<a href="/windows/desktop/api/control/nn-control-ibasicvideo">IBasicVideo Interface</a>

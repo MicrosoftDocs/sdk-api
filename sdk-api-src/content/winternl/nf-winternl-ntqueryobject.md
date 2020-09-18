@@ -113,7 +113,7 @@ The forms and significance of NTSTATUS error codes are listed in the Ntstatus.h 
 
 ## -remarks
 
-This function has no associated header file or import library. You must use the <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> or <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> function to dynamically link to Ntdll.dll.
+This function has no associated header file or import library. You must use the <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> or <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> function to dynamically link to Ntdll.dll.
 
 If the <i>ObjectInformationClass</i> parameter is <b>ObjectBasicInformation</b>, the information is contained in the following structure.
 
@@ -135,4 +135,3 @@ If the <i>ObjectInformationClass</i> parameter is <b>ObjectTypeInformation</b>, 
 } PUBLIC_OBJECT_TYPE_INFORMATION, *PPUBLIC_OBJECT_TYPE_INFORMATION;
 </code></pre>
 The only available member of this structure is the object-type name string (<b>TypeName</b>).
-

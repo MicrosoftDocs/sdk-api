@@ -56,7 +56,7 @@ Adds localized strings to the events in the specified log file.
 
 ### -param Session [in]
 
-A remote session handle that the <a href="https://docs.microsoft.com/windows/desktop/api/winevt/nf-winevt-evtopensession">EvtOpenSession</a> function returns. Set to <b>NULL</b> for local channels.
+A remote session handle that the <a href="/windows/desktop/api/winevt/nf-winevt-evtopensession">EvtOpenSession</a> function returns. Set to <b>NULL</b> for local channels.
 
 ### -param LogFilePath [in]
 
@@ -97,7 +97,7 @@ The function succeeded.
 </dl>
 </td>
 <td width="60%">
-The function failed. Use the <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function to get the error code.
+The function failed. Use the <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function to get the error code.
 
 </td>
 </tr>
@@ -109,9 +109,8 @@ To consume an event from an exported log file, the provider needs to be availabl
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winevt/nf-winevt-evtclearlog">EvtClearLog</a>
+<a href="/windows/desktop/api/winevt/nf-winevt-evtclearlog">EvtClearLog</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winevt/nf-winevt-evtexportlog">EvtExportLog</a>
-
+<a href="/windows/desktop/api/winevt/nf-winevt-evtexportlog">EvtExportLog</a>

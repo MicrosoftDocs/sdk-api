@@ -83,21 +83,20 @@ The VMR is not in windowless mode.
 
 ## -remarks
 
-The border color is color used to fill any area of the destination rectangle that does not contain video. It is typically used in two instances: (1) when the video straddles two monitors and (2) when the VMR is trying to maintain the aspect ratio of the movie by letter boxing the video to fit within the specified destination rectangle. See the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ivmrwindowlesscontrol-setaspectratiomode">IVMRWindowlessControl::SetAspectRatioMode</a> method.
+The border color is color used to fill any area of the destination rectangle that does not contain video. It is typically used in two instances: (1) when the video straddles two monitors and (2) when the VMR is trying to maintain the aspect ratio of the movie by letter boxing the video to fit within the specified destination rectangle. See the <a href="/windows/desktop/api/strmif/nf-strmif-ivmrwindowlesscontrol-setaspectratiomode">IVMRWindowlessControl::SetAspectRatioMode</a> method.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ivmrwindowlesscontrol">IVMRWindowlessControl Interface</a>
+<a href="/windows/desktop/api/strmif/nn-strmif-ivmrwindowlesscontrol">IVMRWindowlessControl Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ivmrwindowlesscontrol-getbordercolor">IVMRWindowlessControl::GetBorderColor</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-ivmrwindowlesscontrol-getbordercolor">IVMRWindowlessControl::GetBorderColor</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/using-the-video-mixing-renderer">Using the Video Mixing Renderer</a>
-
+<a href="/windows/desktop/DirectShow/using-the-video-mixing-renderer">Using the Video Mixing Renderer</a>

@@ -90,9 +90,8 @@ Use a direct user interface. Used when <b>type</b> is set to UIT_DUI.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/NDF/freeuiinfo">FreeUiInfo</a>
+<a href="/windows/desktop/NDF/freeuiinfo">FreeUiInfo</a>
 
 
 
 <a href="/windows/win32/api/ndattrib/ne-ndattrib-ui_info_type">UI_INFO_TYPE</a>
-

@@ -121,7 +121,7 @@ Pointer to resolver specific data.
 
 #### fFatalError
 
-If the bootstrap provider encounters an irrecoverable error, this parameter must be set to <b>TRUE</b> when the function complete in order for the DRT to transition to the faulted state. The <b>HRESULT</b> that is made available to the higher layer application for debugging will appear in the <b>hr</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/drt/ns-drt-drt_event_data">DRT_EVENT_DATA</a> structure associated with the event signaling the transition to the faulted state.  This bootstrap provider function should not return S_OK if setting the <i>fFatalError</i> flag to <b>TRUE</b>.
+If the bootstrap provider encounters an irrecoverable error, this parameter must be set to <b>TRUE</b> when the function complete in order for the DRT to transition to the faulted state. The <b>HRESULT</b> that is made available to the higher layer application for debugging will appear in the <b>hr</b> member of the <a href="/windows/desktop/api/drt/ns-drt-drt_event_data">DRT_EVENT_DATA</a> structure associated with the event signaling the transition to the faulted state.  This bootstrap provider function should not return S_OK if setting the <i>fFatalError</i> flag to <b>TRUE</b>.
 
 ### -field IssueResolve
 
@@ -155,7 +155,7 @@ Pointer to resolver specific data.
 
 #### fFatalError
 
-If the bootstrap provider encounters an irrecoverable error, this parameter must be set to <b>TRUE</b> when the function complete in order for the DRT to transition to the faulted state. The <b>HRESULT</b> that is made available to the higher layer application for debugging will appear in the <b>hr</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/drt/ns-drt-drt_event_data">DRT_EVENT_DATA</a> structure associated with the event signaling the transition to the faulted state.  This bootstrap provider function should not return S_OK if setting the <i>fFatalError</i> flag to <b>TRUE</b>.
+If the bootstrap provider encounters an irrecoverable error, this parameter must be set to <b>TRUE</b> when the function complete in order for the DRT to transition to the faulted state. The <b>HRESULT</b> that is made available to the higher layer application for debugging will appear in the <b>hr</b> member of the <a href="/windows/desktop/api/drt/ns-drt-drt_event_data">DRT_EVENT_DATA</a> structure associated with the event signaling the transition to the faulted state.  This bootstrap provider function should not return S_OK if setting the <i>fFatalError</i> flag to <b>TRUE</b>.
 
 ### -field EndResolve
 
@@ -198,4 +198,3 @@ This function deregisters an endpoint with the bootstrapping mechanism.  As a re
 #### pvContext
 
 Contains the <b>pvContext</b> value from <b>DRT_BOOTSTRAP_PROVIDER</b>.
-

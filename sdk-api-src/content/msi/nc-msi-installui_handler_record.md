@@ -63,7 +63,7 @@ The <b>INSTALLUI_HANDLER_RECORD</b> function
 ### -param pvContext
 
 Pointer to an application context passed to the 
-      <a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msisetexternaluirecord">MsiSetExternalUIRecord</a> function. This parameter 
+      <a href="/windows/desktop/api/msi/nf-msi-msisetexternaluirecord">MsiSetExternalUIRecord</a> function. This parameter 
       can be used for error checking.
 
 ### -param iMessageType
@@ -306,7 +306,7 @@ Request to determine a valid source location
 </dl>
 </td>
 <td width="60%">
-List of files currently in use that must be closed before being replaced. Available beginning with Windows Installer version 4.0. For more information about this message see <a href="https://docs.microsoft.com/windows/desktop/Msi/using-restart-manager-with-an-external-ui-">Using Restart Manager with an External UI</a>.
+List of files currently in use that must be closed before being replaced. Available beginning with Windows Installer version 4.0. For more information about this message see <a href="/windows/desktop/Msi/using-restart-manager-with-an-external-ui-">Using Restart Manager with an External UI</a>.
 
 </td>
 </tr>
@@ -437,7 +437,7 @@ This type of external UI handler should be used when it is known what type of er
     handler of INSTALLUI_HANDLER type, but retrieve the data of interest from fields of hRecord.
 
 For more information on returning values from an external user interface handler, see the 
-    <a href="https://docs.microsoft.com/windows/desktop/Msi/returning-values-from-an-external-user-interface-handler">Returning Values from an 
+    <a href="/windows/desktop/Msi/returning-values-from-an-external-user-interface-handler">Returning Values from an 
     External User Interface Handler</a> topic. The hRecord object sent to the record-based external UI handler is 
     owned by Windows Installer and is valid only for the callback's lifetime.  The callback should extract from the 
     record any data it needs and it should not close that handle.
@@ -445,13 +445,12 @@ For more information on returning values from an external user interface handler
 Any attempt by a record-based external UI handler to alter the data in the hRecord object will be ignored by 
     Windows Installer.
 
-For more information about using a record-based external handler, see <a href="https://docs.microsoft.com/windows/desktop/Msi/monitoring-an-installation-using-msisetexternaluirecord">Monitoring an Installation Using MsiSetExternalUIRecord</a>.
+For more information about using a record-based external handler, see <a href="/windows/desktop/Msi/monitoring-an-installation-using-msisetexternaluirecord">Monitoring an Installation Using MsiSetExternalUIRecord</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msisetexternaluia">MsiSetExternalUI</a>
+<a href="/windows/desktop/api/msi/nf-msi-msisetexternaluia">MsiSetExternalUI</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/not-supported-in-windows-installer-version-3-0">Not Supported in Windows Installer 3.0 and earlier</a>
-
+<a href="/windows/desktop/Msi/not-supported-in-windows-installer-version-3-0">Not Supported in Windows Installer 3.0 and earlier</a>

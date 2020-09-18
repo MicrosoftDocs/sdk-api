@@ -54,7 +54,7 @@ The <b>IMPEG2Component</b> interface contains methods for getting and setting pr
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMPEG2Component</b> interface inherits from <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-icomponent">IComponent</a>. <b>IMPEG2Component</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMPEG2Component</b> interface inherits from <a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-icomponent">IComponent</a>. <b>IMPEG2Component</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IMPEG2Component</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-impeg2component-get_pcrpid">get_PCRPID</a>
+<a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-impeg2component-get_pcrpid">get_PCRPID</a>
 </td>
 <td align="left" width="63%">
 Returns the MPEG2 Packet ID (PID) for this substream's time stamps.
@@ -78,7 +78,7 @@ Returns the MPEG2 Packet ID (PID) for this substream's time stamps.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-impeg2component-get_pid">get_PID</a>
+<a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-impeg2component-get_pid">get_PID</a>
 </td>
 <td align="left" width="63%">
 Get the packet identifier for this substream.
@@ -87,7 +87,7 @@ Get the packet identifier for this substream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-impeg2component-get_programnumber">get_ProgramNumber</a>
+<a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-impeg2component-get_programnumber">get_ProgramNumber</a>
 </td>
 <td align="left" width="63%">
 Gets the program number, which provides a reverse lookup to PAT.
@@ -96,7 +96,7 @@ Gets the program number, which provides a reverse lookup to PAT.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-impeg2component-put_pcrpid">put_PCRPID</a>
+<a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-impeg2component-put_pcrpid">put_PCRPID</a>
 </td>
 <td align="left" width="63%">
 Sets the MPEG2 Packet ID for this substream's time stamps.
@@ -105,7 +105,7 @@ Sets the MPEG2 Packet ID for this substream's time stamps.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-impeg2component-put_pid">put_PID</a>
+<a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-impeg2component-put_pid">put_PID</a>
 </td>
 <td align="left" width="63%">
 Set the packet identifier for this substream.
@@ -114,7 +114,7 @@ Set the packet identifier for this substream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-impeg2component-put_programnumber">put_ProgramNumber</a>
+<a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-impeg2component-put_programnumber">put_ProgramNumber</a>
 </td>
 <td align="left" width="63%">
 Sets the program number, which provides a reverse lookup to PAT.
@@ -129,9 +129,8 @@ To declare the interface identifier (IID) for this interface, use the <b>__uuido
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-icomponent">IComponent</a>
+<a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-icomponent">IComponent</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/tuning-model-interfaces">Tuning Model Interfaces</a>
-
+<a href="/previous-versions/windows/desktop/mstv/tuning-model-interfaces">Tuning Model Interfaces</a>

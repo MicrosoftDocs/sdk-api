@@ -50,9 +50,8 @@ api_name:
 
 ## -description
 
-Contains information about the completion of an asynchronous search. It also acts as a parameter to the <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-isearchcompletedcallback">SearchCompletedCallback</a> delegate.
+Contains information about the completion of an asynchronous search. It also acts as a parameter to the <a href="/windows/desktop/api/wuapi/nn-wuapi-isearchcompletedcallback">SearchCompletedCallback</a> delegate.
 
 ## -remarks
 
 The <b>ISearchCompletedCallbackArgs</b> interface is reserved for future use and has no properties or methods.
-

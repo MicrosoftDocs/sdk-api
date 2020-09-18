@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-Stops the presentation clock. While the clock is stopped, the clock time does not advance, and the clock's <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfpresentationclock-gettime">IMFPresentationClock::GetTime</a> method returns zero.
+Stops the presentation clock. While the clock is stopped, the clock time does not advance, and the clock's <a href="/windows/desktop/api/mfidl/nf-mfidl-imfpresentationclock-gettime">IMFPresentationClock::GetTime</a> method returns zero.
 
 ## -parameters
 
@@ -103,13 +103,12 @@ The clock is already stopped.
 
 This method is valid when the clock is running or paused.
 
-The presentation clock initiates the state change by calling <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfclockstatesink-onclockstop">IMFClockStateSink::OnClockStop</a> on the clock's time source. This call is made synchronously. If it fails, the state change does not occur. If the call succeeds, the state changes, and the clock notifies the other state-change subscribers by calling their <b>OnClockStop</b> methods. These calls are made asynchronously.
+The presentation clock initiates the state change by calling <a href="/windows/desktop/api/mfidl/nf-mfidl-imfclockstatesink-onclockstop">IMFClockStateSink::OnClockStop</a> on the clock's time source. This call is made synchronously. If it fails, the state change does not occur. If the call succeeds, the state changes, and the clock notifies the other state-change subscribers by calling their <b>OnClockStop</b> methods. These calls are made asynchronously.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfpresentationclock">IMFPresentationClock</a>
+<a href="/windows/desktop/api/mfidl/nn-mfidl-imfpresentationclock">IMFPresentationClock</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/presentation-clock">Presentation Clock</a>
-
+<a href="/windows/desktop/medfound/presentation-clock">Presentation Clock</a>

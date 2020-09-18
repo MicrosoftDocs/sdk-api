@@ -52,8 +52,8 @@ api_name:
 
 The 
 <b>ExtractFiles</b> method extracts the embedded .cab file from a module and then writes those files to the destination directory. For more information, see  the 
-[ExtractFiles](/windows/win32/api/mergemod/nf-mergemod-imsmmerge-extractfiles) method of the 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/merge-object">Merge</a> object.  
+[ExtractFiles]() method of the 
+<a href="/windows/desktop/Msi/merge-object">Merge</a> object.  
 
 <b>IMsmMerge2::ExtractFiles</b>    Mergemod.dll version 2.0 or later.<div> </div><b>IMsmMerge::ExtractFiles</b>      All Mergemod.dll versions.
 
@@ -145,9 +145,8 @@ The function succeeded.
 Any files in the destination directory with the same name are overwritten. The path is created if it does not already exist.
 
 <b>ExtractFiles</b> always extracts files using short file names for the path. To use long file names for the path, use the 
-<a href="https://docs.microsoft.com/windows/desktop/api/mergemod/nf-mergemod-imsmmerge2-extractfilesex">ExtractFilesEx</a> function.
+<a href="/windows/desktop/api/mergemod/nf-mergemod-imsmmerge2-extractfilesex">ExtractFilesEx</a> function.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/merge-module-automation">Merge Module Automation</a>
-
+<a href="/windows/desktop/Msi/merge-module-automation">Merge Module Automation</a>

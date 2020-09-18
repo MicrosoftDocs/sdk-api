@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Unmarshals a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/automat/bstr">BSTR</a> object from the RPC buffer.
+Unmarshals a <a href="/previous-versions/windows/desktop/automat/bstr">BSTR</a> object from the RPC buffer.
 
 ## -parameters
 
@@ -98,4 +98,3 @@ Insufficient memory for this function to perform.
 </td>
 </tr>
 </table>
-

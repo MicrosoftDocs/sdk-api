@@ -57,7 +57,7 @@ api_name:
 
 ### -param drawInfo [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1effectauthor/nn-d2d1effectauthor-id2d1drawinfo">ID2D1DrawInfo</a>*</b>
+Type: <b><a href="/windows/desktop/api/d2d1effectauthor/nn-d2d1effectauthor-id2d1drawinfo">ID2D1DrawInfo</a>*</b>
 
 The interface supplied back to the calling method to allow it to specify the GPU based transform pass.
 
@@ -65,7 +65,7 @@ The interface supplied back to the calling method to allow it to specify the GPU
 
 Type: <b>HRESULT</b>
 
-Any HRESULT value can be returned when implementing this method. A failure will be returned from the corresponding <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-enddraw">ID2D1DeviceContext::EndDraw</a> call.
+Any HRESULT value can be returned when implementing this method. A failure will be returned from the corresponding <a href="/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-enddraw">ID2D1DeviceContext::EndDraw</a> call.
 
 ## -remarks
 
@@ -75,5 +75,4 @@ This is also used to determine that the corresponding nodes in the graph are dir
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1effectauthor/nn-d2d1effectauthor-id2d1drawtransform">ID2D1DrawTransform</a>
-
+<a href="/windows/desktop/api/d2d1effectauthor/nn-d2d1effectauthor-id2d1drawtransform">ID2D1DrawTransform</a>

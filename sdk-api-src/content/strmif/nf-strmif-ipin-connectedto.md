@@ -57,7 +57,7 @@ The <b>ConnectedTo</b> method retrieves a pointer to the connected pin, if any.
 
 ### -param pPin [out]
 
-Receives a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ipin">IPin</a> interface of the other pin. The caller must release the interface. This parameter cannot be <b>NULL</b>.
+Receives a pointer to the <a href="/windows/desktop/api/strmif/nn-strmif-ipin">IPin</a> interface of the other pin. The caller must release the interface. This parameter cannot be <b>NULL</b>.
 
 ## -returns
 
@@ -106,21 +106,20 @@ Pin is not connected.
 
 ## -remarks
 
-If the method succeeds, the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ipin">IPin</a> interface that it returns has an outstanding reference count. Be sure to release it when you are done.
+If the method succeeds, the <a href="/windows/desktop/api/strmif/nn-strmif-ipin">IPin</a> interface that it returns has an outstanding reference count. Be sure to release it when you are done.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/data-flow-in-the-filter-graph">Data Flow in the Filter Graph</a>
+<a href="/windows/desktop/DirectShow/data-flow-in-the-filter-graph">Data Flow in the Filter Graph</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/find-an-unconnected-pin-on-a-filter">Find an Unconnected Pin on a Filter</a>
+<a href="/windows/desktop/DirectShow/find-an-unconnected-pin-on-a-filter">Find an Unconnected Pin on a Filter</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ipin">IPin Interface</a>
-
+<a href="/windows/desktop/api/strmif/nn-strmif-ipin">IPin Interface</a>

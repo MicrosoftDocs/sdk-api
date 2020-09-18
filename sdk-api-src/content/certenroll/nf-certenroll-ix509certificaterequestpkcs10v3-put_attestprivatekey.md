@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-True if the created private key needs to be attested; otherwise false. If true, it is expected that the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509certificaterequestpkcs10v3-get_attestationencryptioncertificate">AttestationEncryptionCertificate</a> property has been set.
+True if the created private key needs to be attested; otherwise false. If true, it is expected that the <a href="/windows/desktop/api/certenroll/nf-certenroll-ix509certificaterequestpkcs10v3-get_attestationencryptioncertificate">AttestationEncryptionCertificate</a> property has been set.
 
 
 This property is read/write.
@@ -61,5 +61,4 @@ This property is read/write.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509certificaterequestpkcs10v3">IX509CertificateRequestPkcs10V3</a>
-
+<a href="/windows/desktop/api/certenroll/nn-certenroll-ix509certificaterequestpkcs10v3">IX509CertificateRequestPkcs10V3</a>

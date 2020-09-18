@@ -76,5 +76,4 @@ The fourth character in the tag.
 
 ## -see-also
 
-[DWRITE_MAKE_OPENTYPE_TAG macro](/windows/win32/api/dwrite/nf-dwrite-dwrite_make_opentype_tag)
-
+[DWRITE_MAKE_OPENTYPE_TAG macro](../dwrite/nf-dwrite-dwrite_make_opentype_tag.md)

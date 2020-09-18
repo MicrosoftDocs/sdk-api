@@ -64,6 +64,5 @@ A pointer to the item that is to be inserted.
 
 ## -remarks
 
-<div class="alert"><b>Note</b>  This macro wraps the <a href="https://docs.microsoft.com/windows/desktop/api/dpa_dsa/nf-dpa_dsa-dpa_insertptr">DPA_InsertPtr</a> function.</div>
+<div class="alert"><b>Note</b>  This macro wraps the <a href="/windows/desktop/api/dpa_dsa/nf-dpa_dsa-dpa_insertptr">DPA_InsertPtr</a> function.</div>
 <div> </div>
-

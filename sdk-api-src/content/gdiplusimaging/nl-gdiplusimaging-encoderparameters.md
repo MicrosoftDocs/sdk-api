@@ -52,13 +52,13 @@ api_name:
 
 ## -description
 
-An <b>EncoderParameters</b> object is an array of <a href="https://docs.microsoft.com/previous-versions/ms534434(v=vs.85)">EncoderParameter</a> objects along with a data member that specifies the number of <b>EncoderParameter</b> objects in the array.
+An <b>EncoderParameters</b> object is an array of <a href="/previous-versions/ms534434(v=vs.85)">EncoderParameter</a> objects along with a data member that specifies the number of <b>EncoderParameter</b> objects in the array.
 
 <b xmlns:loc="http://microsoft.com/wdcml/l10n">EncoderParameters</b> has these types of members:
 
 ## -remarks
 
-When you create an <b>EncoderParameters</b> object, you must allocate enough memory to hold all of the <a href="https://docs.microsoft.com/previous-versions/ms534434(v=vs.85)">EncoderParameter</a> objects that will eventually be placed in the array. For example, if you want to create an <b>EncoderParameters</b> object that will hold an array of five <b>EncoderParameter</b> objects, you should use code similar to the following:
+When you create an <b>EncoderParameters</b> object, you must allocate enough memory to hold all of the <a href="/previous-versions/ms534434(v=vs.85)">EncoderParameter</a> objects that will eventually be placed in the array. For example, if you want to create an <b>EncoderParameters</b> object that will hold an array of five <b>EncoderParameter</b> objects, you should use code similar to the following:
 
 
 ```
@@ -68,21 +68,20 @@ EncoderParameters* pEncoderParameters = (EncoderParameters*)
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/ms534434(v=vs.85)">EncoderParameter</a>
+<a href="/previous-versions/ms534434(v=vs.85)">EncoderParameter</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusenums/ne-gdiplusenums-encoderparametervaluetype">EncoderParameterValueType</a>
+<a href="/windows/desktop/api/gdiplusenums/ne-gdiplusenums-encoderparametervaluetype">EncoderParameterValueType</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-image-getencoderparameterlist">Image::GetEncoderParameterList</a>
+<a href="/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-image-getencoderparameterlist">Image::GetEncoderParameterList</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-image-getencoderparameterlistsize">Image::GetEncoderParameterListSize</a>
+<a href="/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-image-getencoderparameterlistsize">Image::GetEncoderParameterListSize</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-using-image-encoders-and-decoders-use">Using Image Encoders and Decoders</a>
-
+<a href="/windows/desktop/gdiplus/-gdiplus-using-image-encoders-and-decoders-use">Using Image Encoders and Decoders</a>

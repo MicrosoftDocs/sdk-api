@@ -51,13 +51,13 @@ api_name:
 
 ## -description
 
-The <code>SetDrawBackgroundMode</code> method specifies whether the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/line-21-decoder-filter">Line 21 Decoder</a> filter draws the captions on a transparent background or an opaque background. By default, the caption background is opaque.
+The <code>SetDrawBackgroundMode</code> method specifies whether the <a href="/windows/desktop/DirectShow/line-21-decoder-filter">Line 21 Decoder</a> filter draws the captions on a transparent background or an opaque background. By default, the caption background is opaque.
 
 ## -parameters
 
 ### -param Mode
 
-Specifies a member of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/il21dec/ne-il21dec-am_line21_drawbgmode">AM_LINE21_DRAWBGMODE</a> enumeration.
+Specifies a member of the <a href="/previous-versions/windows/desktop/api/il21dec/ne-il21dec-am_line21_drawbgmode">AM_LINE21_DRAWBGMODE</a> enumeration.
 
 ## -returns
 
@@ -94,9 +94,8 @@ Success
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/il21dec/nf-il21dec-iamline21decoder-getdrawbackgroundmode">IAMLine21Decoder::GetDrawBackgroundMode</a>
-
+<a href="/windows/desktop/api/il21dec/nf-il21dec-iamline21decoder-getdrawbackgroundmode">IAMLine21Decoder::GetDrawBackgroundMode</a>

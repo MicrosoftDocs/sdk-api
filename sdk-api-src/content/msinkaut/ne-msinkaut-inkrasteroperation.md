@@ -122,7 +122,7 @@ A white pen color.
 
 ## -remarks
 
-Use these values to set the value for the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkdrawingattributes-get_rasteroperation">RasterOperation</a> drawing attribute. Any object with a <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkcursor-get_drawingattributes">DrawingAttributes</a> property can have this value set.
+Use these values to set the value for the <a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkdrawingattributes-get_rasteroperation">RasterOperation</a> drawing attribute. Any object with a <a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkcursor-get_drawingattributes">DrawingAttributes</a> property can have this value set.
 
 <div class="alert"><b>Note</b>  Many printers do not support many of the available raster operations. Because of this, the colors you see on the display may be different from the colors that you would see if they were printed on paper. This is directly related to the printer drivers or printer hardware. You may need to experiment to determine which printers can produce the correct output when various raster operations are set on ink.</div>
 <div> </div>
@@ -130,9 +130,8 @@ When the <b>RasterOperation</b> value is set to anything other than CopyPen, all
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/tablet/inkdrawingattributes-class">InkDrawingAttributes Class</a>
+<a href="/windows/desktop/tablet/inkdrawingattributes-class">InkDrawingAttributes Class</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkdrawingattributes-get_rasteroperation">RasterOperation Property</a>
-
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkdrawingattributes-get_rasteroperation">RasterOperation Property</a>

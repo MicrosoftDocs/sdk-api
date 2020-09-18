@@ -52,14 +52,14 @@ api_name:
 
 The 
 <b>EnumerateACDGroups</b> method enumerates ACD groups currently associated with the agent handler. This method is provided for C and C++ applications. Automation client applications, such as those written in Visual Basic, must use the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nf-tapi3-itagenthandler-get_acdgroups">get_ACDGroups</a> method. The number of groups returned is based upon replies from the ACD proxy application. Each proxy application will return a list of groups according to its own internal privilege/security decisions.
+<a href="/windows/desktop/api/tapi3/nf-tapi3-itagenthandler-get_acdgroups">get_ACDGroups</a> method. The number of groups returned is based upon replies from the ACD proxy application. Each proxy application will return a list of groups according to its own internal privilege/security decisions.
 
 ## -parameters
 
 ### -param ppEnumACDGroup [out]
 
 Pointer to 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nn-tapi3-ienumacdgroup">IEnumACDGroup</a> interface.
+<a href="/windows/desktop/api/tapi3/nn-tapi3-ienumacdgroup">IEnumACDGroup</a> interface.
 
 ## -returns
 
@@ -119,14 +119,13 @@ The operation failed because the TAPI 3 DLL timed it out. The timeout interval i
 ## -remarks
 
 TAPI calls the <b>AddRef</b> method on the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nn-tapi3-ienumacdgroup">IEnumACDGroup</a> interface returned by <b>ITAgentHandler::EnumerateACDGroups</b>. The application must call <b>Release</b> on the 
+<a href="/windows/desktop/api/tapi3/nn-tapi3-ienumacdgroup">IEnumACDGroup</a> interface returned by <b>ITAgentHandler::EnumerateACDGroups</b>. The application must call <b>Release</b> on the 
 <b>IEnumACDGroup</b> interface to free resources associated with it.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nn-tapi3-ienumacdgroup">IEnumACDGroup</a>
+<a href="/windows/desktop/api/tapi3/nn-tapi3-ienumacdgroup">IEnumACDGroup</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nn-tapi3-itagenthandler">ITAgentHandler</a>
-
+<a href="/windows/desktop/api/tapi3/nn-tapi3-itagenthandler">ITAgentHandler</a>

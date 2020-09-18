@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Lists the extended symbol options that you can get and set by using the <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-symgetextendedoption">SymGetExtendedOption</a> and <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-symsetextendedoption">SymSetExtendedOption</a> functions.
+Lists the extended symbol options that you can get and set by using the <a href="/windows/desktop/api/dbghelp/nf-dbghelp-symgetextendedoption">SymGetExtendedOption</a> and <a href="/windows/desktop/api/dbghelp/nf-dbghelp-symsetextendedoption">SymSetExtendedOption</a> functions.
 
 ## -enum-fields
 
@@ -64,9 +64,8 @@ Unused.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-symgetextendedoption">SymGetExtendedOption</a>
+<a href="/windows/desktop/api/dbghelp/nf-dbghelp-symgetextendedoption">SymGetExtendedOption</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-symsetextendedoption">SymSetExtendedOption</a>
-
+<a href="/windows/desktop/api/dbghelp/nf-dbghelp-symsetextendedoption">SymSetExtendedOption</a>

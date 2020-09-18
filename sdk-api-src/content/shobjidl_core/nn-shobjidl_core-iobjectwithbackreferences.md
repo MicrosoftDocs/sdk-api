@@ -54,7 +54,7 @@ Provides a method for interacting with back references held by an object.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IObjectWithBackReferences</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IObjectWithBackReferences</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IObjectWithBackReferences</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IObjectWithBackReferences</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IObjectWithBackReferences</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iobjectwithbackreferences-removebackreferences">RemoveBackReferences</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iobjectwithbackreferences-removebackreferences">RemoveBackReferences</a>
 </td>
 <td align="left" width="63%">
 Removes all back references held by an object.
@@ -84,7 +84,7 @@ Removes all back references held by an object.
 When an object contains forward references to child objects that have back references to the parent object, circular references can occur. To break this circle, the parent object needs to keep track of back references from child objects.
 
 <h3><a id="When_to_Implement"></a><a id="when_to_implement"></a><a id="WHEN_TO_IMPLEMENT"></a>When to Implement</h3>
-This interface should be implemented by Shell data source objects (objects that implement <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellfolder">IShellFolder</a>) that hold references to other objects in a way that might result in reference cycles. For example, an object that maintains references to other data source objects that are cached as the result of binding operations should implement this interface.
+This interface should be implemented by Shell data source objects (objects that implement <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellfolder">IShellFolder</a>) that hold references to other objects in a way that might result in reference cycles. For example, an object that maintains references to other data source objects that are cached as the result of binding operations should implement this interface.
 
 This interface was available in Windows Vista with Service Pack 1 (SP1), but it was not declared in a public header until Windows 7. For use in Windows Vista with SP1, the following Interface Definition Language (IDL) fragment describes this interface, including its IID.
                 
@@ -119,4 +119,3 @@ IObjectWithBackReferences : public IUnknown
 };
 
 ```
-

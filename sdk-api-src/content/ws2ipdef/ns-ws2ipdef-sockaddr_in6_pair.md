@@ -60,31 +60,30 @@ The <b>SOCKADDR_IN6_PAIR</b> structure contains pointers to a pair of IP address
 
 ### -field SourceAddress
 
-A pointer to an IP source address represented as a <a href="https://docs.microsoft.com/windows/desktop/WinSock/sockaddr-2">SOCKADDR_IN6</a> structure. The address family is in host byte order and the IPv6 address, port, flow information, and zone ID are  in network byte order.
+A pointer to an IP source address represented as a <a href="/windows/desktop/WinSock/sockaddr-2">SOCKADDR_IN6</a> structure. The address family is in host byte order and the IPv6 address, port, flow information, and zone ID are  in network byte order.
 
 ### -field DestinationAddress
 
-A pointer to an IP source address represented as a <a href="https://docs.microsoft.com/windows/desktop/WinSock/sockaddr-2">SOCKADDR_IN6</a> structure. The address family is in host byte order and the IPv6 address, port, flow information, and zone ID are  in network byte order.
+A pointer to an IP source address represented as a <a href="/windows/desktop/WinSock/sockaddr-2">SOCKADDR_IN6</a> structure. The address family is in host byte order and the IPv6 address, port, flow information, and zone ID are  in network byte order.
 
 ## -remarks
 
 The <b>SOCKADDR_IN6_PAIR</b> structure is defined on Windows Vista and later. 
 
-Any IPv4 addresses in the <b>SOCKADDR_IN6_PAIR</b> structure must be represented in the IPv4-mapped IPv6 address format which enables an IPv6 only application to communicate with an IPv4 node. For more information on the IPv4-mapped IPv6 address format, see <a href="https://docs.microsoft.com/windows/desktop/WinSock/dual-stack-sockets">Dual-Stack Sockets</a>.
+Any IPv4 addresses in the <b>SOCKADDR_IN6_PAIR</b> structure must be represented in the IPv4-mapped IPv6 address format which enables an IPv6 only application to communicate with an IPv4 node. For more information on the IPv4-mapped IPv6 address format, see <a href="/windows/desktop/WinSock/dual-stack-sockets">Dual-Stack Sockets</a>.
 
-The <b>SOCKADDR_IN6_PAIR</b> structure is used by the <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-createsortedaddresspairs">CreateSortedAddressPairs</a> function.  
+The <b>SOCKADDR_IN6_PAIR</b> structure is used by the <a href="/windows/desktop/api/netioapi/nf-netioapi-createsortedaddresspairs">CreateSortedAddressPairs</a> function.  
 
 Note that the <i>Ws2ipdef.h</i> header file is automatically included in <i>Ws2tcpip.h</i> header file, and should never be used directly.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-createsortedaddresspairs">CreateSortedAddressPairs</a>
+<a href="/windows/desktop/api/netioapi/nf-netioapi-createsortedaddresspairs">CreateSortedAddressPairs</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WinSock/dual-stack-sockets">Dual-Stack Sockets</a>
+<a href="/windows/desktop/WinSock/dual-stack-sockets">Dual-Stack Sockets</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WinSock/sockaddr-2">sockaddr</a>
-
+<a href="/windows/desktop/WinSock/sockaddr-2">sockaddr</a>

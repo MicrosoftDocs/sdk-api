@@ -54,7 +54,7 @@ The <b>IAzClientContext</b> interface maintains the state that describes a parti
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAzClientContext</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IAzClientContext</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAzClientContext</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IAzClientContext</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -70,7 +70,7 @@ The <b>IAzClientContext</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazclientcontext-accesscheck">AccessCheck</a>
+<a href="/windows/desktop/api/azroles/nf-azroles-iazclientcontext-accesscheck">AccessCheck</a>
 </td>
 <td align="left" width="63%">
 Determines whether the current client context is allowed to perform the specified operations.
@@ -79,7 +79,7 @@ Determines whether the current client context is allowed to perform the specifie
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazclientcontext-getbusinessrulestring">GetBusinessRuleString</a>
+<a href="/windows/desktop/api/azroles/nf-azroles-iazclientcontext-getbusinessrulestring">GetBusinessRuleString</a>
 </td>
 <td align="left" width="63%">
 Returns the application-specific string for the business rule (BizRule).
@@ -88,7 +88,7 @@ Returns the application-specific string for the business rule (BizRule).
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazclientcontext-getproperty">GetProperty</a>
+<a href="/windows/desktop/api/azroles/nf-azroles-iazclientcontext-getproperty">GetProperty</a>
 </td>
 <td align="left" width="63%">
 Returns the <b>IAzClientContext</b> object property  with the specified property ID.
@@ -97,7 +97,7 @@ Returns the <b>IAzClientContext</b> object property  with the specified property
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazclientcontext-getroles">GetRoles</a>
+<a href="/windows/desktop/api/azroles/nf-azroles-iazclientcontext-getroles">GetRoles</a>
 </td>
 <td align="left" width="63%">
 Returns the roles for the client context.
@@ -115,7 +115,7 @@ Returns the roles for the client context.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazclientcontext-get_roleforaccesscheck">RoleForAccessCheck</a>
+<a href="/windows/desktop/api/azroles/nf-azroles-iazclientcontext-get_roleforaccesscheck">RoleForAccessCheck</a>
 
 
 </td>
@@ -131,7 +131,7 @@ Sets or retrieves the role that is used to perform the access check.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazclientcontext-get_usercanonical">UserCanonical</a>
+<a href="/windows/desktop/api/azroles/nf-azroles-iazclientcontext-get_usercanonical">UserCanonical</a>
 
 
 </td>
@@ -147,7 +147,7 @@ Retrieves the name of the current client in canonical format.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazclientcontext-get_userdisplay">UserDisplay</a>
+<a href="/windows/desktop/api/azroles/nf-azroles-iazclientcontext-get_userdisplay">UserDisplay</a>
 
 
 </td>
@@ -163,7 +163,7 @@ Retrieves the name of the current client in user display name format.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazclientcontext-get_userdn">UserDn</a>
+<a href="/windows/desktop/api/azroles/nf-azroles-iazclientcontext-get_userdn">UserDn</a>
 
 
 </td>
@@ -179,7 +179,7 @@ Retrieves the name of the current client in distinguished name (DN) format.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazclientcontext-get_userdnssamcompat">UserDnsSamCompat</a>
+<a href="/windows/desktop/api/azroles/nf-azroles-iazclientcontext-get_userdnssamcompat">UserDnsSamCompat</a>
 
 
 </td>
@@ -195,7 +195,7 @@ Retrieves the name of the current client in a DNS format compatible with Windows
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazclientcontext-get_userguid">UserGuid</a>
+<a href="/windows/desktop/api/azroles/nf-azroles-iazclientcontext-get_userguid">UserGuid</a>
 
 
 </td>
@@ -211,7 +211,7 @@ Retrieves the name of the current client in GUID format.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazclientcontext-get_usersamcompat">UserSamCompat</a>
+<a href="/windows/desktop/api/azroles/nf-azroles-iazclientcontext-get_usersamcompat">UserSamCompat</a>
 
 
 </td>
@@ -227,7 +227,7 @@ Retrieves the name of the current client in a format compatible with SAM.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazclientcontext-get_userupn">UserUpn</a>
+<a href="/windows/desktop/api/azroles/nf-azroles-iazclientcontext-get_userupn">UserUpn</a>
 
 
 </td>
@@ -241,4 +241,3 @@ Retrieves the name of the current client in user principal name (UPN) format.
 </td>
 </tr>
 </table>
-

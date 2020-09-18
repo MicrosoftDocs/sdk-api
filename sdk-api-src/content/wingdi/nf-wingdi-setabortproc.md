@@ -62,7 +62,7 @@ Handle to the device context for the print job.
 
 ### -param proc [in]
 
-Pointer to the application-defined abort function. For more information about the callback function, see the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nc-wingdi-abortproc">AbortProc</a> callback function.
+Pointer to the application-defined abort function. For more information about the callback function, see the <a href="/windows/desktop/api/wingdi/nc-wingdi-abortproc">AbortProc</a> callback function.
 
 ## -returns
 
@@ -77,23 +77,22 @@ If the function fails, the return value is SP_ERROR.
 
 #### Examples
 
-For an example, see <a href="https://docs.microsoft.com/windows/desktop/printdocs/preparing-to-print">How to Collect Print Job  Information from the User</a>.
+For an example, see <a href="/windows/desktop/printdocs/preparing-to-print">How to Collect Print Job  Information from the User</a>.
 
 <div class="code"></div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-abortdoc">AbortDoc</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-abortdoc">AbortDoc</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nc-wingdi-abortproc">AbortProc</a>
+<a href="/windows/desktop/api/wingdi/nc-wingdi-abortproc">AbortProc</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/printdocs/printing-and-print-spooler-functions">Print Spooler API Functions</a>
+<a href="/windows/desktop/printdocs/printing-and-print-spooler-functions">Print Spooler API Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/printdocs/printdocs-printing">Printing</a>
-
+<a href="/windows/desktop/printdocs/printdocs-printing">Printing</a>

@@ -52,41 +52,41 @@ api_name:
 
 ## -description
 
-The <code>ERROR_ADVISE_RESULT</code> enumeration type indicates the type of error values that can be assigned to the <i>pnErrorAdviseResult</i> parameter of <a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquireprogresscb-erroradvise">IPhotoAcquireProgressCB::ErrorAdvise</a>.
+The <code>ERROR_ADVISE_RESULT</code> enumeration type indicates the type of error values that can be assigned to the <i>pnErrorAdviseResult</i> parameter of <a href="/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquireprogresscb-erroradvise">IPhotoAcquireProgressCB::ErrorAdvise</a>.
 
 ## -enum-fields
 
 ### -field PHOTOACQUIRE_RESULT_YES
 
-Specifies a Yes response to an error dialog. Valid only if the <i>nMessageType</i> parameter to <a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquireprogresscb-erroradvise">IPhotoAcquireProgressCB::ErrorAdvise</a> is PHOTOACQUIRE_ERROR_YESNO.
+Specifies a Yes response to an error dialog. Valid only if the <i>nMessageType</i> parameter to <a href="/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquireprogresscb-erroradvise">IPhotoAcquireProgressCB::ErrorAdvise</a> is PHOTOACQUIRE_ERROR_YESNO.
 
 ### -field PHOTOACQUIRE_RESULT_NO
 
-Specifies a No response to an error dialog. Valid only if the <i>nMessageType</i> parameter to <a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquireprogresscb-erroradvise">IPhotoAcquireProgressCB::ErrorAdvise</a> is PHOTOACQUIRE_ERROR_YESNO.
+Specifies a No response to an error dialog. Valid only if the <i>nMessageType</i> parameter to <a href="/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquireprogresscb-erroradvise">IPhotoAcquireProgressCB::ErrorAdvise</a> is PHOTOACQUIRE_ERROR_YESNO.
 
 ### -field PHOTOACQUIRE_RESULT_OK
 
-Specifies an OK response to an error dialog. Valid only if the <i>nMessageType</i> parameter to <a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquireprogresscb-erroradvise">IPhotoAcquireProgressCB::ErrorAdvise</a> is PHOTOACQUIRE_ERROR_OK.
+Specifies an OK response to an error dialog. Valid only if the <i>nMessageType</i> parameter to <a href="/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquireprogresscb-erroradvise">IPhotoAcquireProgressCB::ErrorAdvise</a> is PHOTOACQUIRE_ERROR_OK.
 
 ### -field PHOTOACQUIRE_RESULT_SKIP
 
-Specifies a Skip response to an error dialog. Valid only if the <i>nMessageType</i> parameter to <a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquireprogresscb-erroradvise">IPhotoAcquireProgressCB::ErrorAdvise</a> is PHOTOACQUIRE_ERROR_SKIPRETRYCANCEL.
+Specifies a Skip response to an error dialog. Valid only if the <i>nMessageType</i> parameter to <a href="/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquireprogresscb-erroradvise">IPhotoAcquireProgressCB::ErrorAdvise</a> is PHOTOACQUIRE_ERROR_SKIPRETRYCANCEL.
 
 ### -field PHOTOACQUIRE_RESULT_SKIP_ALL
 
-Specifies a Skip All response to an error dialog. Valid only if the <i>nMessageType</i> parameter to <a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquireprogresscb-erroradvise">IPhotoAcquireProgressCB::ErrorAdvise</a> is PHOTOACQUIRE_ERROR_SKIPRETRYCANCEL.
+Specifies a Skip All response to an error dialog. Valid only if the <i>nMessageType</i> parameter to <a href="/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquireprogresscb-erroradvise">IPhotoAcquireProgressCB::ErrorAdvise</a> is PHOTOACQUIRE_ERROR_SKIPRETRYCANCEL.
 
 ### -field PHOTOACQUIRE_RESULT_RETRY
 
-Specifies a Retry response to an error dialog. Valid only if the <i>nMessageType</i> parameter to <a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquireprogresscb-erroradvise">IPhotoAcquireProgressCB::ErrorAdvise</a> is PHOTOACQUIRE_ERROR_SKIPRETRYCANCEL or PHOTOACQUIRE_ERROR_RETRYCANCEL.
+Specifies a Retry response to an error dialog. Valid only if the <i>nMessageType</i> parameter to <a href="/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquireprogresscb-erroradvise">IPhotoAcquireProgressCB::ErrorAdvise</a> is PHOTOACQUIRE_ERROR_SKIPRETRYCANCEL or PHOTOACQUIRE_ERROR_RETRYCANCEL.
 
 ### -field PHOTOACQUIRE_RESULT_ABORT
 
-Specifies a Cancel response to an error dialog. Valid only if the <i>nMessageType</i> parameter to <a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquireprogresscb-erroradvise">IPhotoAcquireProgressCB::ErrorAdvise</a> is PHOTOACQUIRE_ERROR_SKIPRETRYCANCEL or PHOTOACQUIRE_ERROR_RETRYCANCEL.
+Specifies a Cancel response to an error dialog. Valid only if the <i>nMessageType</i> parameter to <a href="/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquireprogresscb-erroradvise">IPhotoAcquireProgressCB::ErrorAdvise</a> is PHOTOACQUIRE_ERROR_SKIPRETRYCANCEL or PHOTOACQUIRE_ERROR_RETRYCANCEL.
 
 ## -remarks
 
-The type of response allowed is of type <a href="/windows/win32/api/photoacquire/ne-photoacquire-error_advise_message_type">ERROR_ADVISE_MESSAGE_TYPE</a>, and indicated by the <i>nMessageType</i> parameter of <a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquireprogresscb-erroradvise">IPhotoAcquireProgressCB::ErrorAdvise</a>.
+The type of response allowed is of type <a href="/windows/win32/api/photoacquire/ne-photoacquire-error_advise_message_type">ERROR_ADVISE_MESSAGE_TYPE</a>, and indicated by the <i>nMessageType</i> parameter of <a href="/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquireprogresscb-erroradvise">IPhotoAcquireProgressCB::ErrorAdvise</a>.
 
 ## -see-also
 
@@ -94,9 +94,8 @@ The type of response allowed is of type <a href="/windows/win32/api/photoacquire
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/acquisition/enumeration-types">Enumeration Types</a>
+<a href="/previous-versions/windows/desktop/acquisition/enumeration-types">Enumeration Types</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquireprogresscb-erroradvise">IPhotoAcquireProgressCB::ErrorAdvise</a>
-
+<a href="/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquireprogresscb-erroradvise">IPhotoAcquireProgressCB::ErrorAdvise</a>

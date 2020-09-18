@@ -51,15 +51,15 @@ api_name:
 
 ## -description
 
-The <code>IPersistMediaPropertyBag</code> interface sets and retrieves INFO and DISP chunks in Audio-Video Interleaved (AVI) streams. It uses the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-imediapropertybag">IMediaPropertyBag</a> interface to store the chunks as name/value pairs.
+The <code>IPersistMediaPropertyBag</code> interface sets and retrieves INFO and DISP chunks in Audio-Video Interleaved (AVI) streams. It uses the <a href="/windows/desktop/api/strmif/nn-strmif-imediapropertybag">IMediaPropertyBag</a> interface to store the chunks as name/value pairs.
 
-The <a href="https://docs.microsoft.com/windows/desktop/DirectShow/avi-splitter-filter">AVI Splitter</a> filter and the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/wave-parser-filter">WAVE Parser</a> filter support this interface for reading INFO and DISP chunks from an AVI or WAV file. The <a href="https://docs.microsoft.com/windows/desktop/DirectShow/avi-mux-filter">AVI Mux</a> filter supports the interface for writing these chunks into a file.
+The <a href="/windows/desktop/DirectShow/avi-splitter-filter">AVI Splitter</a> filter and the <a href="/windows/desktop/DirectShow/wave-parser-filter">WAVE Parser</a> filter support this interface for reading INFO and DISP chunks from an AVI or WAV file. The <a href="/windows/desktop/DirectShow/avi-mux-filter">AVI Mux</a> filter supports the interface for writing these chunks into a file.
 
 <code>IPersistMediaPropertyBag</code> is modeled after, but does not inherit from, the <b>IPersistPropertyBag</b> interface. For more information on <b>IPersistPropertyBag</b>, see the Platform SDK.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPersistMediaPropertyBag</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPersistMediaPropertyBag</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPersistMediaPropertyBag</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPersistMediaPropertyBag</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -74,7 +74,7 @@ The <b>IPersistMediaPropertyBag</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ipersistmediapropertybag-initnew">InitNew</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-ipersistmediapropertybag-initnew">InitNew</a>
 </td>
 <td align="left" width="63%">
 Initializes the object to receive new properties.
@@ -83,7 +83,7 @@ Initializes the object to receive new properties.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ipersistmediapropertybag-load">Load</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-ipersistmediapropertybag-load">Load</a>
 </td>
 <td align="left" width="63%">
 Loads properties from the media property bag into the filter.
@@ -92,7 +92,7 @@ Loads properties from the media property bag into the filter.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ipersistmediapropertybag-save">Save</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-ipersistmediapropertybag-save">Save</a>
 </td>
 <td align="left" width="63%">
 Saves properties from the filter into the media property bag.
@@ -100,4 +100,3 @@ Saves properties from the filter into the media property bag.
 </td>
 </tr>
 </table>
-

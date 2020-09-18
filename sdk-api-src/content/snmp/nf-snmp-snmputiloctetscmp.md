@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[SNMP is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="https://docs.microsoft.com/windows/desktop/WinRM/portal">Windows Remote Management</a>, which is the Microsoft implementation of WS-Man.]
+<p class="CCE_Message">[SNMP is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="/windows/desktop/WinRM/portal">Windows Remote Management</a>, which is the Microsoft implementation of WS-Man.]
 
 The
 				<b>SnmpUtilOctetsCmp</b> function compares two octet strings. This function is an element of the SNMP Utility API.
@@ -60,7 +60,7 @@ The
 ### -param pOctets1 [in]
 
 Pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/snmp/ns-snmp-asnoctetstring">AsnOctetString</a> structure to compare.
+<a href="/windows/desktop/api/snmp/ns-snmp-asnoctetstring">AsnOctetString</a> structure to compare.
 
 ### -param pOctets2 [in]
 
@@ -75,21 +75,20 @@ The function returns a value greater than zero if <i>pOctets1</i> is greater tha
 
 The 
 <b>SnmpUtilOctetsCmp</b> function calls the 
-<a href="https://docs.microsoft.com/windows/desktop/api/snmp/nf-snmp-snmputiloctetsncmp">SnmpUtilOctetsNCmp</a> function.
+<a href="/windows/desktop/api/snmp/nf-snmp-snmputiloctetsncmp">SnmpUtilOctetsNCmp</a> function.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/snmp/ns-snmp-asnoctetstring">AsnOctetString</a>
+<a href="/windows/desktop/api/snmp/ns-snmp-asnoctetstring">AsnOctetString</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SNMP/snmp-functions">SNMP Functions</a>
+<a href="/windows/desktop/SNMP/snmp-functions">SNMP Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SNMP/simple-network-management-protocol-snmp-">Simple Network Management Protocol (SNMP) Overview</a>
+<a href="/windows/desktop/SNMP/simple-network-management-protocol-snmp-">Simple Network Management Protocol (SNMP) Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/snmp/nf-snmp-snmputiloctetsncmp">SnmpUtilOctetsNCmp</a>
-
+<a href="/windows/desktop/api/snmp/nf-snmp-snmputiloctetsncmp">SnmpUtilOctetsNCmp</a>

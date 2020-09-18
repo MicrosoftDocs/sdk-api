@@ -96,11 +96,10 @@ NULL or invalid argument passed in.
 
 ## -remarks
 
-Use this method along with <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreaderadvanced2-getprotocolname">IWMReaderAdvanced2::GetProtocolName</a> to iterate through the network protocols supported by the reader.
+Use this method along with <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreaderadvanced2-getprotocolname">IWMReaderAdvanced2::GetProtocolName</a> to iterate through the network protocols supported by the reader.
 
 This method counts the number of protocols that the reader can use when receiving a stream. It does not indicate the protocols that are available for sending a stream.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreadernetworkconfig">IWMReaderNetworkConfig Interface</a>
-
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreadernetworkconfig">IWMReaderNetworkConfig Interface</a>

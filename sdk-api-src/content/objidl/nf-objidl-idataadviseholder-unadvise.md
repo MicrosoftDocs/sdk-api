@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Removes a connection between a data object and an advisory sink that was set up through a previous call to <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-idataadviseholder-advise">IDataAdviseHolder::Advise</a>. This method is typically called in the implementation of <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-idataobject-dunadvise">IDataObject::DUnadvise</a>.
+Removes a connection between a data object and an advisory sink that was set up through a previous call to <a href="/windows/desktop/api/objidl/nf-objidl-idataadviseholder-advise">IDataAdviseHolder::Advise</a>. This method is typically called in the implementation of <a href="/windows/desktop/api/objidl/nf-objidl-idataobject-dunadvise">IDataObject::DUnadvise</a>.
 
 ## -parameters
 
 ### -param dwConnection [in]
 
-A token that specifies the connection to be removed. This value was returned by <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-idataadviseholder-advise">IDataAdviseHolder::Advise</a> when the connection was originally established.
+A token that specifies the connection to be removed. This value was returned by <a href="/windows/desktop/api/objidl/nf-objidl-idataadviseholder-advise">IDataAdviseHolder::Advise</a> when the connection was originally established.
 
 ## -returns
 
@@ -82,9 +82,8 @@ The <i>dwConnection</i> parameter does not specify a valid connection.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataadviseholder">IDataAdviseHolder</a>
+<a href="/windows/desktop/api/objidl/nn-objidl-idataadviseholder">IDataAdviseHolder</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-idataobject-dunadvise">IDataObject::DUnadvise</a>
-
+<a href="/windows/desktop/api/objidl/nf-objidl-idataobject-dunadvise">IDataObject::DUnadvise</a>

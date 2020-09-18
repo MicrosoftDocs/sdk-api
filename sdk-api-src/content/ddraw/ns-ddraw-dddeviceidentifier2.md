@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-The <b>DDDEVICEIDENTIFIER2</b> structure is passed to the <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nf-ddraw-idirectdraw7-getdeviceidentifier">IDirectDraw7::GetDeviceIdentifier</a> method to obtain information about a device.
+The <b>DDDEVICEIDENTIFIER2</b> structure is passed to the <a href="/windows/desktop/api/ddraw/nf-ddraw-idirectdraw7-getdeviceidentifier">IDirectDraw7::GetDeviceIdentifier</a> method to obtain information about a device.
 
 ## -struct-fields
 
@@ -117,4 +117,3 @@ The values in <b>szDriver</b> and <b>szDescription</b> are for presentation to t
 
 
 The <b>dwVendorId</b>, <b>dwDeviceId</b>, <b>dwSubSysId</b>, and <b>dwRevision</b> members can be used to identify particular chipsets, but use extreme caution.
-

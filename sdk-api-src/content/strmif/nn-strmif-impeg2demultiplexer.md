@@ -51,11 +51,11 @@ api_name:
 
 ## -description
 
-This interface is implemented on the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/mpeg-2-demultiplexer">MPEG-2 Demultiplexer</a> filter (Demux) and is used in both program stream mode and transport stream mode. It is called by applications or other filters to create, configure and delete output pins on the Demux. This interface is not exposed when the filter is playing back a file (pull-mode).
+This interface is implemented on the <a href="/windows/desktop/DirectShow/mpeg-2-demultiplexer">MPEG-2 Demultiplexer</a> filter (Demux) and is used in both program stream mode and transport stream mode. It is called by applications or other filters to create, configure and delete output pins on the Demux. This interface is not exposed when the filter is playing back a file (pull-mode).
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMpeg2Demultiplexer</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMpeg2Demultiplexer</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMpeg2Demultiplexer</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMpeg2Demultiplexer</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>IMpeg2Demultiplexer</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-impeg2demultiplexer-createoutputpin">CreateOutputPin</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-impeg2demultiplexer-createoutputpin">CreateOutputPin</a>
 </td>
 <td align="left" width="63%">
 Creates a new output pin on the Demux.
@@ -79,7 +79,7 @@ Creates a new output pin on the Demux.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-impeg2demultiplexer-deleteoutputpin">DeleteOutputPin</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-impeg2demultiplexer-deleteoutputpin">DeleteOutputPin</a>
 </td>
 <td align="left" width="63%">
 Deletes the specified output pin.
@@ -88,7 +88,7 @@ Deletes the specified output pin.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-impeg2demultiplexer-setoutputpinmediatype">SetOutputPinMediaType</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-impeg2demultiplexer-setoutputpinmediatype">SetOutputPinMediaType</a>
 </td>
 <td align="left" width="63%">
 Updates the media type of the specified output pin. (DirectX® 9.0 and later.)
@@ -96,4 +96,3 @@ Updates the media type of the specified output pin. (DirectX® 9.0 and later.)
 </td>
 </tr>
 </table>
-

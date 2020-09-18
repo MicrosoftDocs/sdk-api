@@ -52,8 +52,8 @@ api_name:
 
 The 
 <b>get_DatabaseTable</b> method retrieves the 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/error-databasetable">DatabaseTable</a> property of the 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/error-object">Error</a> object. The method returns the name of the table in the database that caused the error.
+<a href="/windows/desktop/Msi/error-databasetable">DatabaseTable</a> property of the 
+<a href="/windows/desktop/Msi/error-object">Error</a> object. The method returns the name of the table in the database that caused the error.
 
 ## -parameters
 
@@ -109,9 +109,8 @@ The function succeeded.
 
 The client is responsible for freeing the resulting string using <b>SysFreeString</b>.
 
-The collection is empty if the values do not apply to the type of the error. You can determine the type of error by calling <a href="https://docs.microsoft.com/windows/desktop/api/mergemod/nf-mergemod-imsmerror-get_type">IMsmError::get_Type</a>.
+The collection is empty if the values do not apply to the type of the error. You can determine the type of error by calling <a href="/windows/desktop/api/mergemod/nf-mergemod-imsmerror-get_type">IMsmError::get_Type</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/merge-module-automation">Merge Module Automation</a>
-
+<a href="/windows/desktop/Msi/merge-module-automation">Merge Module Automation</a>

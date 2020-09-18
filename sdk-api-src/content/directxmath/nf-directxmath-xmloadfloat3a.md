@@ -50,22 +50,22 @@ api_name:
 
 ## -description
 
-Loads an <a href="https://docs.microsoft.com/windows/desktop/api/directxmath/ns-directxmath-xmfloat3a">XMFLOAT3A</a> into an <a href="https://docs.microsoft.com/windows/desktop/dxmath/xmvector-data-type">XMVECTOR</a>.
+Loads an <a href="/windows/desktop/api/directxmath/ns-directxmath-xmfloat3a">XMFLOAT3A</a> into an <a href="/windows/desktop/dxmath/xmvector-data-type">XMVECTOR</a>.
 
 ## -parameters
 
 ### -param pSource [in]
 
-Address of the <a href="https://docs.microsoft.com/windows/desktop/api/directxmath/ns-directxmath-xmfloat3a">XMFLOAT3A</a> structure to load.
+Address of the <a href="/windows/desktop/api/directxmath/ns-directxmath-xmfloat3a">XMFLOAT3A</a> structure to load.
 
 ## -returns
 
-Returns an <a href="https://docs.microsoft.com/windows/desktop/dxmath/xmvector-data-type">XMVECTOR</a> loaded with the data from the <i>pSource</i> parameter.
+Returns an <a href="/windows/desktop/dxmath/xmvector-data-type">XMVECTOR</a> loaded with the data from the <i>pSource</i> parameter.
 
 ## -remarks
 
-The <b>x</b>, <b>y</b>, and <b>z</b> members of the <a href="https://docs.microsoft.com/windows/desktop/api/directxmath/ns-directxmath-xmfloat3a">XMFLOAT3A</a> are loaded
-   into the corresponding members of the returned <a href="https://docs.microsoft.com/windows/desktop/dxmath/xmvector-data-type">XMVECTOR</a>. The <b>w</b> member of the
+The <b>x</b>, <b>y</b>, and <b>z</b> members of the <a href="/windows/desktop/api/directxmath/ns-directxmath-xmfloat3a">XMFLOAT3A</a> are loaded
+   into the corresponding members of the returned <a href="/windows/desktop/dxmath/xmvector-data-type">XMVECTOR</a>. The <b>w</b> member of the
    <b>XMVECTOR</b> is initialized to 0.
 
 <h3><a id="Platform_Requirements"></a><a id="platform_requirements"></a><a id="PLATFORM_REQUIREMENTS"></a>Platform Requirements</h3>
@@ -73,5 +73,4 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/dxmath/ovw-xnamath-reference-functions-load">DirectXMath Library Vector Load Functions</a>
-
+<a href="/windows/desktop/dxmath/ovw-xnamath-reference-functions-load">DirectXMath Library Vector Load Functions</a>

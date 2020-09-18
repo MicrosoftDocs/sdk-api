@@ -77,7 +77,7 @@ The value of this parameter is <b>TRUE</b> if the volume has a shadow copy, and
 ### -param plSnapshotCapability [out]
 
 A bit mask (or bitwise OR) of 
-      <a href="https://docs.microsoft.com/windows/desktop/api/vss/ne-vss-vss_snapshot_compatibility">VSS_SNAPSHOT_COMPATIBILITY</a> values that 
+      <a href="/windows/desktop/api/vss/ne-vss-vss_snapshot_compatibility">VSS_SNAPSHOT_COMPATIBILITY</a> values that 
       indicates whether certain volume control or file I/O operations are disabled for the given volume if a shadow 
       copy of it exists.
 
@@ -143,7 +143,7 @@ Out of memory or other system resources.
 </td>
 <td width="60%">
 Expected provider error. The provider logged the error in the event log. For more information, see 
-        <a href="https://docs.microsoft.com/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
+        <a href="/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
 
 </td>
 </tr>
@@ -166,7 +166,7 @@ The specified volume was not found.
 </td>
 <td width="60%">
 Unexpected error. The error code is logged in the error log file. For more information, see 
-        <a href="https://docs.microsoft.com/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
+        <a href="/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
 
 <b>Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:  </b>This value is not supported until Windows Server 2008 R2 and Windows 7. <b>E_UNEXPECTED</b> is used instead.
 
@@ -181,7 +181,7 @@ Unexpected error. The error code is logged in the error log file. For more infor
 <td width="60%">
 Unexpected provider error. The error code is logged in the event log file. For additional information, 
         see 
-        <a href="https://docs.microsoft.com/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
+        <a href="/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
 
 </td>
 </tr>
@@ -189,12 +189,11 @@ Unexpected provider error. The error code is logged in the event log file. For a
 
 ## -remarks
 
-Before calling this function, the caller must have initialized COM by calling the <a href="https://docs.microsoft.com/windows/desktop/api/objbase/nf-objbase-coinitialize">CoInitialize</a> function.
+Before calling this function, the caller must have initialized COM by calling the <a href="/windows/desktop/api/objbase/nf-objbase-coinitialize">CoInitialize</a> function.
 
 If no volume control or file I/O operations are disabled for the selected volume, then the shadow copy 
     capability of the selected volume returned by <i>plSnapshotCapability</i> will be zero.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vss/ne-vss-vss_snapshot_compatibility">VSS_SNAPSHOT_COMPATIBILITY</a>
-
+<a href="/windows/desktop/api/vss/ne-vss-vss_snapshot_compatibility">VSS_SNAPSHOT_COMPATIBILITY</a>

@@ -58,7 +58,7 @@ The
 ### -param pVal [out]
 
 Pointer to a 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/automat/bstr">BSTR</a> variable that, on successful return, receives the description associated with this port mapping.
+<a href="/previous-versions/windows/desktop/automat/bstr">BSTR</a> variable that, on successful return, receives the description associated with this port mapping.
 
 ## -returns
 
@@ -163,17 +163,16 @@ The method failed for unknown reasons.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/natupnp/nn-natupnp-istaticportmapping">IStaticPortMapping</a>
+<a href="/previous-versions/windows/desktop/api/natupnp/nn-natupnp-istaticportmapping">IStaticPortMapping</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/natupnp/nf-natupnp-istaticportmapping-editdescription">IStaticPortMapping::EditDescription</a>
+<a href="/previous-versions/windows/desktop/api/natupnp/nf-natupnp-istaticportmapping-editdescription">IStaticPortMapping::EditDescription</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/ics/network-address-translation-traversal-interfaces">Network Address Translation Traversal Interfaces</a>
+<a href="/previous-versions/windows/desktop/ics/network-address-translation-traversal-interfaces">Network Address Translation Traversal Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/ics/network-address-translation-traversal-reference">Network Address Translation Traversal Reference</a>
-
+<a href="/previous-versions/windows/desktop/ics/network-address-translation-traversal-reference">Network Address Translation Traversal Reference</a>

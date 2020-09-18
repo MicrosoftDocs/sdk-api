@@ -53,7 +53,7 @@ api_name:
 > [!IMPORTANT]
 > Starting in Windows 10, version 1803, the Win32 APIs described in this section are replaced by the Windows Runtime APIs in the [Windows.Networking.Connectivity](/uwp/api/windows.networking.connectivity) namespace.
 
-THE <b>MBN_SIGNAL_CONSTANTS</b> enumerated type contains specific values used by <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbnsignal">IMbnSignal</a> interface operations.
+THE <b>MBN_SIGNAL_CONSTANTS</b> enumerated type contains specific values used by <a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbnsignal">IMbnSignal</a> interface operations.
 
 ## -enum-fields
 
@@ -72,4 +72,3 @@ Signal strength is unknown.
 ### -field MBN_ERROR_RATE_UNKNOWN
 
 Signal error rate is unknown.
-

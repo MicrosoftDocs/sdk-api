@@ -42,7 +42,7 @@ api_name:
 
 ## -description
 
-The <b>IDVBCLocator</b> interface is implemented on <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/dvbclocator-object">DVBCLocator</a> objects, which contain tuning information for DVB-C networks.
+The <b>IDVBCLocator</b> interface is implemented on <a href="/previous-versions/windows/desktop/mstv/dvbclocator-object">DVBCLocator</a> objects, which contain tuning information for DVB-C networks.
 
 ## -inheritance
 
@@ -58,9 +58,8 @@ To declare the interface identifier (IID) for this interface, use the <b>__uuido
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-idigitallocator~r1">IDigitalLocator</a>
+<a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-idigitallocator~r1">IDigitalLocator</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/tuning-model-interfaces">Tuning Model Interfaces</a>
-
+<a href="/previous-versions/windows/desktop/mstv/tuning-model-interfaces">Tuning Model Interfaces</a>

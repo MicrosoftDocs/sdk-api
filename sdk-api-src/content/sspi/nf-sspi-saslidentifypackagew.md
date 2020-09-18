@@ -58,11 +58,11 @@ The <b>SaslIdentifyPackage</b> function returns the  negotiate prefix that match
 
 ### -param pInput [in]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-secbufferdesc">SecBufferDesc</a> structure that specifies the SASL negotiation buffer for which to find the negotiate prefix.
+Pointer to a <a href="/windows/desktop/api/sspi/ns-sspi-secbufferdesc">SecBufferDesc</a> structure that specifies the SASL negotiation buffer for which to find the negotiate prefix.
 
 ### -param PackageInfo [out]
 
-Pointer to a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-secpkginfoa">SecPkgInfo</a> structure that returns the negotiate prefix for the negotiation buffer specified by the <i>pInput</i> parameter.
+Pointer to a pointer to a <a href="/windows/desktop/api/sspi/ns-sspi-secpkginfoa">SecPkgInfo</a> structure that returns the negotiate prefix for the negotiation buffer specified by the <i>pInput</i> parameter.
 
 ## -returns
 
@@ -74,4 +74,3 @@ If the function fails, the return value is a nonzero error code.
 
 > [!NOTE]
 > The sspi.h header defines SaslIdentifyPackage as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

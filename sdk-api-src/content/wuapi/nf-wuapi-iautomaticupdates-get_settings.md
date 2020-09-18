@@ -63,9 +63,8 @@ The returned interface can be used to change the current settings and to read th
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iautomaticupdates">IAutomaticUpdates</a>
+<a href="/windows/desktop/api/wuapi/nn-wuapi-iautomaticupdates">IAutomaticUpdates</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iautomaticupdates-showsettingsdialog">IAutomaticUpdates.ShowSettingsDialog</a>
-
+<a href="/windows/desktop/api/wuapi/nf-wuapi-iautomaticupdates-showsettingsdialog">IAutomaticUpdates.ShowSettingsDialog</a>

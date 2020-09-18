@@ -56,7 +56,7 @@ Changes the luminance of a RGB value. Hue and saturation are not affected.
 
 ### -param clrRGB
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/gdi/colorref">COLORREF</a></b>
+Type: <b><a href="/windows/desktop/gdi/colorref">COLORREF</a></b>
 
 The initial RGB value.
 
@@ -74,7 +74,7 @@ If <i>fScale</i> is set to <b>TRUE</b>, <i>n</i> specifies how much to increment
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/gdi/colorref">COLORREF</a></b>
+Type: <b><a href="/windows/desktop/gdi/colorref">COLORREF</a></b>
 
 Returns the modified RGB value.
 
@@ -83,4 +83,3 @@ Returns the modified RGB value.
 If <i>fScale</i> is set to <b>TRUE</b>, <i>n</i> can range from -1000 to +1000.
 
 If <i>fScale</i> is set to <b>FALSE</b>, <i>n</i> can range from 0 to 1000. Available luminance values range from 0 to a maximum. If the requested value is negative or exceeds the maximum, the luminance will be set to either zero or the maximum value, respectively.
-

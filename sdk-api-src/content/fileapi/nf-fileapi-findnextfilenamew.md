@@ -53,14 +53,14 @@ api_name:
 ## -description
 
 Continues enumerating the hard links to a file using the handle returned by a successful call to the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-findfirstfilenamew">FindFirstFileNameW</a> function.
+    <a href="/windows/desktop/api/fileapi/nf-fileapi-findfirstfilenamew">FindFirstFileNameW</a> function.
 
 ## -parameters
 
 ### -param hFindStream [in]
 
 A handle to the enumeration that is returned by a successful call to 
-      <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-findfirstfilenamew">FindFirstFileNameW</a>.
+      <a href="/windows/desktop/api/fileapi/nf-fileapi-findfirstfilenamew">FindFirstFileNameW</a>.
 
 ### -param StringLength [in, out]
 
@@ -77,9 +77,9 @@ A pointer to a buffer to store the first link name found for <i>lpFileName</i>.
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero (0). To get extended error information, call 
-       <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+       <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-If no matching files can be found, the <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> 
+If no matching files can be found, the <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> 
        function returns <b>ERROR_HANDLE_EOF</b>.
 
 ## -remarks
@@ -147,13 +147,12 @@ Yes
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/file-management-functions">File Management Functions</a>
+<a href="/windows/desktop/FileIO/file-management-functions">File Management Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-findclose">FindClose</a>
+<a href="/windows/desktop/api/fileapi/nf-fileapi-findclose">FindClose</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-findfirstfilenamew">FindFirstFileNameW</a>
-
+<a href="/windows/desktop/api/fileapi/nf-fileapi-findfirstfilenamew">FindFirstFileNameW</a>

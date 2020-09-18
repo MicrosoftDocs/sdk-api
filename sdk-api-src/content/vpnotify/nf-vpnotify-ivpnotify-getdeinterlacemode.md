@@ -61,7 +61,7 @@ This method is not currently implemented and returns E_NOTIMPL.
 
 ### -param pMode [out]
 
-Pointer to the retrieved mode. This value is a member of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/vptype/ne-vptype-amvp_mode">AMVP_MODE</a> enumerated data type.
+Pointer to the retrieved mode. This value is a member of the <a href="/previous-versions/windows/desktop/api/vptype/ne-vptype-amvp_mode">AMVP_MODE</a> enumerated data type.
 
 ## -returns
 
@@ -73,9 +73,8 @@ Include Vptype.h before Vpnotify.h.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vpnotify/nn-vpnotify-ivpnotify">IVPNotify Interface</a>
-
+<a href="/windows/desktop/api/vpnotify/nn-vpnotify-ivpnotify">IVPNotify Interface</a>

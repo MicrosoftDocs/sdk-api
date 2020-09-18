@@ -56,7 +56,7 @@ Initiates a session to do programmatic COM+ administration, access collections i
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICOMAdminCatalog</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ICOMAdminCatalog</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICOMAdminCatalog</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ICOMAdminCatalog</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -72,7 +72,7 @@ The <b>ICOMAdminCatalog</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/comadmin/nf-comadmin-icomadmincatalog-backupregdb">BackupREGDB</a>
+<a href="/windows/desktop/api/comadmin/nf-comadmin-icomadmincatalog-backupregdb">BackupREGDB</a>
 </td>
 <td align="left" width="63%">
 Backs up the COM+ class registration database to a specified file.
@@ -81,7 +81,7 @@ Backs up the COM+ class registration database to a specified file.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/comadmin/nf-comadmin-icomadmincatalog-connect">Connect</a>
+<a href="/windows/desktop/api/comadmin/nf-comadmin-icomadmincatalog-connect">Connect</a>
 </td>
 <td align="left" width="63%">
 Connects to the COM+ catalog on a specified remote computer.
@@ -90,7 +90,7 @@ Connects to the COM+ catalog on a specified remote computer.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/comadmin/nf-comadmin-icomadmincatalog-exportapplication">ExportApplication</a>
+<a href="/windows/desktop/api/comadmin/nf-comadmin-icomadmincatalog-exportapplication">ExportApplication</a>
 </td>
 <td align="left" width="63%">
 Exports a COM+ application or application proxy to a file, ready for installation on different computers.
@@ -99,7 +99,7 @@ Exports a COM+ application or application proxy to a file, ready for installatio
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/comadmin/nf-comadmin-icomadmincatalog-getcollection">GetCollection</a>
+<a href="/windows/desktop/api/comadmin/nf-comadmin-icomadmincatalog-getcollection">GetCollection</a>
 </td>
 <td align="left" width="63%">
 Retrieves a top-level collection on the COM+ catalog.
@@ -108,7 +108,7 @@ Retrieves a top-level collection on the COM+ catalog.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/comadmin/nf-comadmin-icomadmincatalog-getcollectionbyquery">GetCollectionByQuery</a>
+<a href="/windows/desktop/api/comadmin/nf-comadmin-icomadmincatalog-getcollectionbyquery">GetCollectionByQuery</a>
 </td>
 <td align="left" width="63%">
 Retrieves a collection on the COM+ catalog given the key property values for all of its parent items.
@@ -117,7 +117,7 @@ Retrieves a collection on the COM+ catalog given the key property values for all
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/comadmin/nf-comadmin-icomadmincatalog-geteventclassesforiid">GetEventClassesForIID</a>
+<a href="/windows/desktop/api/comadmin/nf-comadmin-icomadmincatalog-geteventclassesforiid">GetEventClassesForIID</a>
 </td>
 <td align="left" width="63%">
 Retrieves a list of the event classes registered on the computer that implement a specified interface.
@@ -126,7 +126,7 @@ Retrieves a list of the event classes registered on the computer that implement 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/comadmin/nf-comadmin-icomadmincatalog-getmultiplecomponentsinfo">GetMultipleComponentsInfo</a>
+<a href="/windows/desktop/api/comadmin/nf-comadmin-icomadmincatalog-getmultiplecomponentsinfo">GetMultipleComponentsInfo</a>
 </td>
 <td align="left" width="63%">
 Retrieves information about the components found in the specified files.
@@ -135,7 +135,7 @@ Retrieves information about the components found in the specified files.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/comadmin/nf-comadmin-icomadmincatalog-importcomponent">ImportComponent</a>
+<a href="/windows/desktop/api/comadmin/nf-comadmin-icomadmincatalog-importcomponent">ImportComponent</a>
 </td>
 <td align="left" width="63%">
 Imports a component already registered as an in-process server into a COM+ application.
@@ -144,7 +144,7 @@ Imports a component already registered as an in-process server into a COM+ appli
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/comadmin/nf-comadmin-icomadmincatalog-installapplication">InstallApplication</a>
+<a href="/windows/desktop/api/comadmin/nf-comadmin-icomadmincatalog-installapplication">InstallApplication</a>
 </td>
 <td align="left" width="63%">
 Installs a COM+ application or application proxy from the specified file.
@@ -153,7 +153,7 @@ Installs a COM+ application or application proxy from the specified file.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/comadmin/nf-comadmin-icomadmincatalog-installcomponent">InstallComponent</a>
+<a href="/windows/desktop/api/comadmin/nf-comadmin-icomadmincatalog-installcomponent">InstallComponent</a>
 </td>
 <td align="left" width="63%">
 Installs all components (COM classes) from a DLL file into a COM+ application and registers the components in the COM+ class registration database.
@@ -162,7 +162,7 @@ Installs all components (COM classes) from a DLL file into a COM+ application an
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/comadmin/nf-comadmin-icomadmincatalog-installeventclass">InstallEventClass</a>
+<a href="/windows/desktop/api/comadmin/nf-comadmin-icomadmincatalog-installeventclass">InstallEventClass</a>
 </td>
 <td align="left" width="63%">
 Installs event classes from a file into a COM+ application.
@@ -171,7 +171,7 @@ Installs event classes from a file into a COM+ application.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/comadmin/nf-comadmin-icomadmincatalog-installmultiplecomponents">InstallMultipleComponents</a>
+<a href="/windows/desktop/api/comadmin/nf-comadmin-icomadmincatalog-installmultiplecomponents">InstallMultipleComponents</a>
 </td>
 <td align="left" width="63%">
 Installs components from multiple files into a COM+ application.
@@ -180,7 +180,7 @@ Installs components from multiple files into a COM+ application.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/comadmin/nf-comadmin-icomadmincatalog-installmultipleeventclasses">InstallMultipleEventClasses</a>
+<a href="/windows/desktop/api/comadmin/nf-comadmin-icomadmincatalog-installmultipleeventclasses">InstallMultipleEventClasses</a>
 </td>
 <td align="left" width="63%">
 Installs event classes from multiple files into a COM+ application.
@@ -189,7 +189,7 @@ Installs event classes from multiple files into a COM+ application.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/comadmin/nf-comadmin-icomadmincatalog-queryapplicationfile">QueryApplicationFile</a>
+<a href="/windows/desktop/api/comadmin/nf-comadmin-icomadmincatalog-queryapplicationfile">QueryApplicationFile</a>
 </td>
 <td align="left" width="63%">
 Retrieves information about a COM+ application from an application file.
@@ -198,7 +198,7 @@ Retrieves information about a COM+ application from an application file.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/comadmin/nf-comadmin-icomadmincatalog-refreshcomponents">RefreshComponents</a>
+<a href="/windows/desktop/api/comadmin/nf-comadmin-icomadmincatalog-refreshcomponents">RefreshComponents</a>
 </td>
 <td align="left" width="63%">
 Updates component registration information from the registry.
@@ -207,7 +207,7 @@ Updates component registration information from the registry.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/comadmin/nf-comadmin-icomadmincatalog-refreshrouter">RefreshRouter</a>
+<a href="/windows/desktop/api/comadmin/nf-comadmin-icomadmincatalog-refreshrouter">RefreshRouter</a>
 </td>
 <td align="left" width="63%">
 Obsolete.
@@ -230,7 +230,7 @@ Reserved for future use.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/comadmin/nf-comadmin-icomadmincatalog-restoreregdb">RestoreREGDB</a>
+<a href="/windows/desktop/api/comadmin/nf-comadmin-icomadmincatalog-restoreregdb">RestoreREGDB</a>
 </td>
 <td align="left" width="63%">
 Restores the COM+ class registration database (RegDB) from the specified file.
@@ -239,7 +239,7 @@ Restores the COM+ class registration database (RegDB) from the specified file.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/comadmin/nf-comadmin-icomadmincatalog-servicecheck">ServiceCheck</a>
+<a href="/windows/desktop/api/comadmin/nf-comadmin-icomadmincatalog-servicecheck">ServiceCheck</a>
 </td>
 <td align="left" width="63%">
 Retrieves the current status of the specified COM+ service.
@@ -248,7 +248,7 @@ Retrieves the current status of the specified COM+ service.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/comadmin/nf-comadmin-icomadmincatalog-shutdownapplication">ShutdownApplication</a>
+<a href="/windows/desktop/api/comadmin/nf-comadmin-icomadmincatalog-shutdownapplication">ShutdownApplication</a>
 </td>
 <td align="left" width="63%">
 Initiates shutdown of a COM+ server application process.
@@ -257,7 +257,7 @@ Initiates shutdown of a COM+ server application process.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/comadmin/nf-comadmin-icomadmincatalog-startapplication">StartApplication</a>
+<a href="/windows/desktop/api/comadmin/nf-comadmin-icomadmincatalog-startapplication">StartApplication</a>
 </td>
 <td align="left" width="63%">
 Starts the specified COM+ server application.
@@ -266,7 +266,7 @@ Starts the specified COM+ server application.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/comadmin/nf-comadmin-icomadmincatalog-startrouter">StartRouter</a>
+<a href="/windows/desktop/api/comadmin/nf-comadmin-icomadmincatalog-startrouter">StartRouter</a>
 </td>
 <td align="left" width="63%">
 Starts the component load balancing service if the service is currently installed.
@@ -275,7 +275,7 @@ Starts the component load balancing service if the service is currently installe
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/comadmin/nf-comadmin-icomadmincatalog-stoprouter">StopRouter</a>
+<a href="/windows/desktop/api/comadmin/nf-comadmin-icomadmincatalog-stoprouter">StopRouter</a>
 </td>
 <td align="left" width="63%">
 Stops the component load balancing service if the service is currently installed.
@@ -293,7 +293,7 @@ Stops the component load balancing service if the service is currently installed
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/comadmin/nf-comadmin-icomadmincatalog-get_majorversion">MajorVersion</a>
+<a href="/windows/desktop/api/comadmin/nf-comadmin-icomadmincatalog-get_majorversion">MajorVersion</a>
 
 
 </td>
@@ -309,7 +309,7 @@ Retrieves the major version number of the COMAdmin library.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/comadmin/nf-comadmin-icomadmincatalog-get_minorversion">MinorVersion</a>
+<a href="/windows/desktop/api/comadmin/nf-comadmin-icomadmincatalog-get_minorversion">MinorVersion</a>
 
 
 </td>
@@ -323,4 +323,3 @@ Retrieves the minor version number of the COMAdmin library.
 </td>
 </tr>
 </table>
-

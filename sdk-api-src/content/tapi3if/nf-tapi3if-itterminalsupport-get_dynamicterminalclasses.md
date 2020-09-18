@@ -52,15 +52,15 @@ api_name:
 
 The 
 <b>get_DynamicTerminalClasses</b> method creates a collection of currently available dynamic terminals. This method is provided for Automation client applications, such as those written in Visual Basic. C and C++ applications must use the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itterminalsupport-enumeratedynamicterminalclasses">EnumerateDynamicTerminalClasses</a> method.
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itterminalsupport-enumeratedynamicterminalclasses">EnumerateDynamicTerminalClasses</a> method.
 
 ## -parameters
 
 ### -param pVariant [out]
 
 Pointer to a <b>VARIANT</b> containing an 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itcollection">ITCollection</a> of 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/terminal-class">terminal classes</a> in a string (<b>BSTR</b>) format.
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itcollection">ITCollection</a> of 
+<a href="/windows/desktop/Tapi/terminal-class">terminal classes</a> in a string (<b>BSTR</b>) format.
 
 ## -returns
 
@@ -109,25 +109,24 @@ The <i>pVariant</i> parameter is not a valid pointer.
 ## -remarks
 
 An application calls this method to find out which dynamic terminal classes are supported by this address in a call to 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itterminalsupport-createterminal">ITTerminalSupport::CreateTerminal</a>.
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itterminalsupport-createterminal">ITTerminalSupport::CreateTerminal</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/address-object">Address Object</a>
+<a href="/windows/desktop/Tapi/address-object">Address Object</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itterminalsupport">ITTerminalSupport</a>
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itterminalsupport">ITTerminalSupport</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/terminal-class">Terminal Class</a>
+<a href="/windows/desktop/Tapi/terminal-class">Terminal Class</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/terminal-object">Terminal Object</a>
+<a href="/windows/desktop/Tapi/terminal-object">Terminal Object</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/terminal-object-interfaces">Terminal Object Interfaces</a>
-
+<a href="/windows/desktop/Tapi/terminal-object-interfaces">Terminal Object Interfaces</a>

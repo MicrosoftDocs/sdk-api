@@ -57,15 +57,15 @@ Copy the entire contents of the source resource to the destination resource usin
 
 ### -param pDstResource [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nn-d3d10-id3d10resource">ID3D10Resource</a>*</b>
+Type: <b><a href="/windows/desktop/api/d3d10/nn-d3d10-id3d10resource">ID3D10Resource</a>*</b>
 
-A pointer to the destination resource (see <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nn-d3d10-id3d10resource">ID3D10Resource</a>).
+A pointer to the destination resource (see <a href="/windows/desktop/api/d3d10/nn-d3d10-id3d10resource">ID3D10Resource</a>).
 
 ### -param pSrcResource [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nn-d3d10-id3d10resource">ID3D10Resource</a>*</b>
+Type: <b><a href="/windows/desktop/api/d3d10/nn-d3d10-id3d10resource">ID3D10Resource</a>*</b>
 
-A pointer to the source resource (see <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nn-d3d10-id3d10resource">ID3D10Resource</a>).
+A pointer to the source resource (see <a href="/windows/desktop/api/d3d10/nn-d3d10-id3d10resource">ID3D10Resource</a>).
 
 ## -remarks
 
@@ -73,19 +73,19 @@ This method is unusual in that it causes the GPU to perform the copy operation (
 
 <ul>
 <li>Must be different resources.</li>
-<li>Must be the same <a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-programming-guide-resources-types">type</a>.</li>
+<li>Must be the same <a href="/windows/desktop/direct3d10/d3d10-graphics-programming-guide-resources-types">type</a>.</li>
 <li>Must have identical dimensions (including width, height, depth, and size as appropriate).</li>
-<li>Must have compatible <a href="https://docs.microsoft.com/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format">formats</a>, which means the formats must be identical or at least from the same type group. For example, a DXGI_FORMAT_R32G32B32_FLOAT texture can be copied to an DXGI_FORMAT_R32G32B32_UINT texture since both of these formats are in the DXGI_FORMAT_R32G32B32_TYPELESS group. Beginning with Direct3D 10.1, <b>CopyResource</b> can copy between a few format types. For more info, see <a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-programming-guide-resources-block-compression">Format Conversion using Direct3D 10.1</a>.</li>
-<li>May not be currently <a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-programming-guide-resources-mapping">mapped</a>.</li>
+<li>Must have compatible <a href="/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format">formats</a>, which means the formats must be identical or at least from the same type group. For example, a DXGI_FORMAT_R32G32B32_FLOAT texture can be copied to an DXGI_FORMAT_R32G32B32_UINT texture since both of these formats are in the DXGI_FORMAT_R32G32B32_TYPELESS group. Beginning with Direct3D 10.1, <b>CopyResource</b> can copy between a few format types. For more info, see <a href="/windows/desktop/direct3d10/d3d10-graphics-programming-guide-resources-block-compression">Format Conversion using Direct3D 10.1</a>.</li>
+<li>May not be currently <a href="/windows/desktop/direct3d10/d3d10-graphics-programming-guide-resources-mapping">mapped</a>.</li>
 </ul>
-<b>CopyResource</b>  supports only copy; it does not support any stretch, color key, blend, or format conversions. Beginning with Direct3D 10.1, <b>CopyResource</b> can reinterpret the resource data between a few format types. For more info, see <a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-programming-guide-resources-block-compression">Format Conversion using Direct3D 10.1</a>.
+<b>CopyResource</b>  supports only copy; it does not support any stretch, color key, blend, or format conversions. Beginning with Direct3D 10.1, <b>CopyResource</b> can reinterpret the resource data between a few format types. For more info, see <a href="/windows/desktop/direct3d10/d3d10-graphics-programming-guide-resources-block-compression">Format Conversion using Direct3D 10.1</a>.
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d10/ne-d3d10-d3d10_usage">Immutable</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/ne-d3d10-d3d10_bind_flag">depth-stencil</a> resources cannot be used as a destination.  Resources created with <a href="https://docs.microsoft.com/windows/desktop/api/dxgicommon/ns-dxgicommon-dxgi_sample_desc">multisampling capability</a> cannot be used as either a source or destination.
+<a href="/windows/desktop/api/d3d10/ne-d3d10-d3d10_usage">Immutable</a>, and <a href="/windows/desktop/api/d3d10/ne-d3d10-d3d10_bind_flag">depth-stencil</a> resources cannot be used as a destination.  Resources created with <a href="/windows/desktop/api/dxgicommon/ns-dxgicommon-dxgi_sample_desc">multisampling capability</a> cannot be used as either a source or destination.
 
-The method is an asynchronous call which may be added to the command-buffer queue. This attempts to remove pipeline stalls that may occur when copying data. See <a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-programming-guide-resources-mapping">performance considerations</a> for more details.
+The method is an asynchronous call which may be added to the command-buffer queue. This attempts to remove pipeline stalls that may occur when copying data. See <a href="/windows/desktop/direct3d10/d3d10-graphics-programming-guide-resources-mapping">performance considerations</a> for more details.
 
-An application that only needs to copy a portion of the data in a resource should use <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nf-d3d10-id3d10device-copysubresourceregion">ID3D10Device::CopySubresourceRegion</a> instead.
+An application that only needs to copy a portion of the data in a resource should use <a href="/windows/desktop/api/d3d10/nf-d3d10-id3d10device-copysubresourceregion">ID3D10Device::CopySubresourceRegion</a> instead.
 
 <table>
 <tr>
@@ -94,7 +94,7 @@ Differences between Direct3D 10 and Direct3D 10.1:
 
 Direct3D 10.1 enables depth-stencil resources to be used as either a source or destination. Direct3D 10.1 enables multisampled resources to be used as source and destination only if both source and destination have identical multisampled count and quality. If source and destination differ in multisampled count and quality or one of them is multisampled and the other is not multisampled, the call to <b>ID3D10Device::CopyResource</b> fails.
 
-It is possible to copy between prestructured+typed resources and block-compressed textures. See <a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-programming-guide-resources-block-compression">Format Conversion using Direct3D 10.1</a>.
+It is possible to copy between prestructured+typed resources and block-compressed textures. See <a href="/windows/desktop/direct3d10/d3d10-graphics-programming-guide-resources-block-compression">Format Conversion using Direct3D 10.1</a>.
 
 </td>
 </tr>
@@ -102,9 +102,8 @@ It is possible to copy between prestructured+typed resources and block-compresse
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nn-d3d10-id3d10device">ID3D10Device</a>
+<a href="/windows/desktop/api/d3d10/nn-d3d10-id3d10device">ID3D10Device</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nn-d3d10-id3d10resource">ID3D10Resource Interface</a>
-
+<a href="/windows/desktop/api/d3d10/nn-d3d10-id3d10resource">ID3D10Resource Interface</a>

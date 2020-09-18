@@ -64,9 +64,8 @@ Returns S_OK if successful. If the method fails, error information can be retrie
 
 ## -remarks
 
-If you attempt to add a new tuning space to the System Tuning Spaces collection, this property must be unique within the collection. For more information, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-ituningspacecontainer-add">ITuningSpaceContainer::Add</a>.
+If you attempt to add a new tuning space to the System Tuning Spaces collection, this property must be unique within the collection. For more information, see <a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-ituningspacecontainer-add">ITuningSpaceContainer::Add</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-ituningspace">ITuningSpace Interface</a>
-
+<a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-ituningspace">ITuningSpace Interface</a>

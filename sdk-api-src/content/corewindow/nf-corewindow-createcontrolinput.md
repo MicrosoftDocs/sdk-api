@@ -50,17 +50,17 @@ api_name:
 
 ## -description
 
-Creates a <a href="https://docs.microsoft.com/uwp/api/windows.ui.core.icoreinputsourcebase">ICoreInputSourceBase</a> object in the caller’s UI thread.
+Creates a <a href="/uwp/api/windows.ui.core.icoreinputsourcebase">ICoreInputSourceBase</a> object in the caller’s UI thread.
 
 ## -parameters
 
 ### -param riid [in]
 
-Interface ID of the object. Must to be set to the UUID for  <a href="https://docs.microsoft.com/uwp/api/windows.ui.core.icoreinputsourcebase">ICoreInputSourceBase</a>, which is 9F488807-4580-4BE8-BE68-92A9311713BB.
+Interface ID of the object. Must to be set to the UUID for  <a href="/uwp/api/windows.ui.core.icoreinputsourcebase">ICoreInputSourceBase</a>, which is 9F488807-4580-4BE8-BE68-92A9311713BB.
 
 ### -param ppv [out]
 
-Pointer to receive the <a href="https://docs.microsoft.com/uwp/api/windows.ui.core.icoreinputsourcebase">ICoreInputSourceBase</a> object.
+Pointer to receive the <a href="/uwp/api/windows.ui.core.icoreinputsourcebase">ICoreInputSourceBase</a> object.
 
 ## -returns
 
@@ -68,11 +68,10 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 ## -remarks
 
-This API must be called from the UI thread to create <a href="https://docs.microsoft.com/uwp/api/windows.ui.core.icoreinputsourcebase">ICoreInputSourceBase</a> object. The object created using this API can be used only in that thread in which it was created. 
+This API must be called from the UI thread to create <a href="/uwp/api/windows.ui.core.icoreinputsourcebase">ICoreInputSourceBase</a> object. The object created using this API can be used only in that thread in which it was created. 
 
-If the call is successful, the  caller can call <b>QueryInterface</b> on the returned <a href="https://docs.microsoft.com/uwp/api/windows.ui.core.icoreinputsourcebase">ICoreInputSourceBase</a> object to obtain the <a href="https://docs.microsoft.com/windows/desktop/api/corewindow/nn-corewindow-icoreinputinterop">ICoreInputInterop</a> object that created it.
+If the call is successful, the  caller can call <b>QueryInterface</b> on the returned <a href="/uwp/api/windows.ui.core.icoreinputsourcebase">ICoreInputSourceBase</a> object to obtain the <a href="/windows/desktop/api/corewindow/nn-corewindow-icoreinputinterop">ICoreInputInterop</a> object that created it.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/uwp/api/windows.ui.core.icoreinputsourcebase">ICoreInputSourceBase</a>
-
+<a href="/uwp/api/windows.ui.core.icoreinputsourcebase">ICoreInputSourceBase</a>

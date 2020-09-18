@@ -52,7 +52,7 @@ api_name:
 ## -description
 
 <p class="CCE_Message">[Starting with Windows Server 2012 this method is not supported; use the 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/msft-fsrmscheduledtask">MSFT_FSRMScheduledTask</a> WMI class to manage 
+    <a href="/previous-versions/windows/desktop/fsrm/msft-fsrmscheduledtask">MSFT_FSRMScheduledTask</a> WMI class to manage 
     scheduled tasks.]
 
 Creates a scheduled task that is used to trigger a report job.
@@ -61,7 +61,7 @@ Creates a scheduled task that is used to trigger a report job.
 
 ### -param taskName [in]
 
-The name of a <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/task-scheduler-start-page">Task Scheduler</a> 
+The name of a <a href="/windows/desktop/TaskSchd/task-scheduler-start-page">Task Scheduler</a> 
       task to create. The string is limited to 230 characters.
 
 ### -param namespacesSafeArray [in]
@@ -74,7 +74,7 @@ A <b>VARIANT</b> that contains a <b>SAFEARRAY</b> of local
 ### -param serializedTask [in]
 
 An XML string that defines the Task Scheduler job. For details, see 
-      <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/task-scheduler-schema">Task Scheduler Schema</a>.
+      <a href="/windows/desktop/TaskSchd/task-scheduler-schema">Task Scheduler Schema</a>.
 
 ## -returns
 
@@ -83,18 +83,18 @@ The method returns the following return values.
 ## -remarks
 
 To run a report job on a schedule, the value of the <i>taskName</i> parameter and the value 
-    of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmreports/nf-fsrmreports-ifsrmreportjob-get_task">IFsrmReportJob::Task</a> property must be the 
+    of the <a href="/previous-versions/windows/desktop/api/fsrmreports/nf-fsrmreports-ifsrmreportjob-get_task">IFsrmReportJob::Task</a> property must be the 
     same.
 
 Specify the same namespaces for this method that you specified for the 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmreports/nf-fsrmreports-ifsrmreportjob-get_namespaceroots">IFsrmReportJob::NamespaceRoots</a> property. 
+    <a href="/previous-versions/windows/desktop/api/fsrmreports/nf-fsrmreports-ifsrmreportjob-get_namespaceroots">IFsrmReportJob::NamespaceRoots</a> property. 
     This method validates the namespace paths. For validation details, see the Remarks section of 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmreports/nf-fsrmreports-ifsrmreportscheduler-verifynamespaces">VerifyNamespaces</a>.
+    <a href="/previous-versions/windows/desktop/api/fsrmreports/nf-fsrmreports-ifsrmreportscheduler-verifynamespaces">VerifyNamespaces</a>.
 
 To generate the XML, you can use the Task Scheduler v2.0 interfaces to define the scheduled task; however, the 
     task definition must be v1.0 compatible. (Use the Task Scheduler API to define the task but not to register the 
     task—this method registers the task.) After defining the task, access the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nf-taskschd-itaskdefinition-get_xmltext">ITaskDefinition::XmlText</a> property to get 
+    <a href="/windows/desktop/api/taskschd/nf-taskschd-itaskdefinition-get_xmltext">ITaskDefinition::XmlText</a> property to get 
     the XML.
 
 Note that FSRM ignores triggers in the XML that FSRM does not support.  For the "MONTHLYDOW" 
@@ -106,15 +106,14 @@ Note that FSRM ignores triggers in the XML that FSRM does not support.  For the 
 #### Examples
 
 For an example, see 
-     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/scheduling-a-report-job">Scheduling a Report Job</a>.
+     <a href="/previous-versions/windows/desktop/fsrm/scheduling-a-report-job">Scheduling a Report Job</a>.
 
 <div class="code"></div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/fsrmreportscheduler">FsrmReportScheduler</a>
+<a href="/previous-versions/windows/desktop/fsrm/fsrmreportscheduler">FsrmReportScheduler</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmreports/nn-fsrmreports-ifsrmreportscheduler">IFsrmReportScheduler</a>
-
+<a href="/previous-versions/windows/desktop/api/fsrmreports/nn-fsrmreports-ifsrmreportscheduler">IFsrmReportScheduler</a>

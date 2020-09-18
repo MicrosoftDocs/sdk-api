@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>cancelEstimation</b> method cancels an estimation that was previously initiated by <a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpsyncdevice3-estimatesyncsize">estimateSyncSize</a>.
+The <b>cancelEstimation</b> method cancels an estimation that was previously initiated by <a href="/windows/desktop/api/wmp/nf-wmp-iwmpsyncdevice3-estimatesyncsize">estimateSyncSize</a>.
 
 ## -parameters
 
@@ -78,9 +78,8 @@ The method succeeded.
 
 ## -remarks
 
-When you call this method, Windows Media Player raises the<a href="https://docs.microsoft.com/windows/desktop/WMP/iwmpevents4-syncestimationcomplete"> IWMPEvents4::SyncEstimationComplete</a> event with an <b>HRESULT</b> of E_ABORT.
+When you call this method, Windows Media Player raises the<a href="/windows/desktop/WMP/iwmpevents4-syncestimationcomplete"> IWMPEvents4::SyncEstimationComplete</a> event with an <b>HRESULT</b> of E_ABORT.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpsyncdevice3">IWMPSyncDevice3 Interface</a>
-
+<a href="/windows/desktop/api/wmp/nn-wmp-iwmpsyncdevice3">IWMPSyncDevice3 Interface</a>

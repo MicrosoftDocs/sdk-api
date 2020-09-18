@@ -63,7 +63,7 @@ Contains the progress and result data for the current virtual hard disk (VHD) op
 
 ### -field OperationStatus
 
-A <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a> status value, this member will 
+A <a href="/windows/desktop/Debug/system-error-codes">system error code</a> status value, this member will 
      be <b>ERROR_IO_PENDING</b> if the operation is still in progress; otherwise, the value is the 
      result code of the completed operation.
 
@@ -109,7 +109,7 @@ The <b>OperationStatus</b> member is the indicator of completion, not the percen
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd323654(v=vs.85)">About VHD</a>
+<a href="/previous-versions/windows/desktop/legacy/dd323654(v=vs.85)">About VHD</a>
 
 
 
@@ -117,5 +117,4 @@ The <b>OperationStatus</b> member is the indicator of completion, not the percen
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd323700(v=vs.85)">VHD Reference</a>
-
+<a href="/previous-versions/windows/desktop/legacy/dd323700(v=vs.85)">VHD Reference</a>

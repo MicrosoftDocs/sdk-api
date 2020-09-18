@@ -54,7 +54,7 @@ Provides access to attribute values of the optional package information.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAppxManifestOptionalPackageInfo</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAppxManifestOptionalPackageInfo</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAppxManifestOptionalPackageInfo</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAppxManifestOptionalPackageInfo</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IAppxManifestOptionalPackageInfo</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxmanifestoptionalpackageinfo-getisoptionalpackage">GetIsOptionalPackage</a>
+<a href="/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxmanifestoptionalpackageinfo-getisoptionalpackage">GetIsOptionalPackage</a>
 </td>
 <td align="left" width="63%">
 Determines whether the package is optional.
@@ -78,7 +78,7 @@ Determines whether the package is optional.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxmanifestoptionalpackageinfo-getmainpackagename">GetMainPackageName</a>
+<a href="/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxmanifestoptionalpackageinfo-getmainpackagename">GetMainPackageName</a>
 </td>
 <td align="left" width="63%">
 Gets the main package name from the optional package.
@@ -86,4 +86,3 @@ Gets the main package name from the optional package.
 </td>
 </tr>
 </table>
-

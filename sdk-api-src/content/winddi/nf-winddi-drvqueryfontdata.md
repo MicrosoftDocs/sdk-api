@@ -56,11 +56,11 @@ The <b>DrvQueryFontData</b> function retrieves information about a realized font
 
 ### -param dhpdev
 
-Handle to the physical device's <a href="https://docs.microsoft.com/windows-hardware/drivers/">PDEV</a> that was returned from a prior call to <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvenablepdev">DrvEnablePDEV</a>.
+Handle to the physical device's <a href="/windows-hardware/drivers/">PDEV</a> that was returned from a prior call to <a href="/windows/desktop/api/winddi/nf-winddi-drvenablepdev">DrvEnablePDEV</a>.
 
 ### -param pfo
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-fontobj">FONTOBJ</a> structure that defines the font realization.
+Pointer to a <a href="/windows/desktop/api/winddi/ns-winddi-fontobj">FONTOBJ</a> structure that defines the font realization.
 
 ### -param iMode
 
@@ -77,9 +77,9 @@ QFD_GLYPHANDBITMAP
 
 </td>
 <td>
-If <i>pgd</i> is not <b>NULL</b>, then the driver should fill in the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-glyphdata">GLYPHDATA</a> structure with the metrics of the glyph specified by <i>hg</i>.
+If <i>pgd</i> is not <b>NULL</b>, then the driver should fill in the <a href="/windows/desktop/api/winddi/ns-winddi-glyphdata">GLYPHDATA</a> structure with the metrics of the glyph specified by <i>hg</i>.
 
-If <i>pv</i> is not <b>NULL</b>, a <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-glyphbits">GLYPHBITS</a> structure should be written at this address. The driver should copy the glyph bitmap corresponding to the glyph specified by <i>hg</i> into this structure. The size of the structure is specified by <i>cjSize</i>.
+If <i>pv</i> is not <b>NULL</b>, a <a href="/windows/desktop/api/winddi/ns-winddi-glyphbits">GLYPHBITS</a> structure should be written at this address. The driver should copy the glyph bitmap corresponding to the glyph specified by <i>hg</i> into this structure. The size of the structure is specified by <i>cjSize</i>.
 
 If glyph bitmaps are not supported by the driver, this function will only be called with <i>pv</i> set to <b>NULL</b>.
 
@@ -95,9 +95,9 @@ QFD_GLYPHANDOUTLINE
 
 </td>
 <td>
-If <i>pgd</i> is not <b>NULL</b>, then the driver should fill in the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-glyphdata">GLYPHDATA</a> structure with the metrics of the glyph specified by <i>hg</i>.
+If <i>pgd</i> is not <b>NULL</b>, then the driver should fill in the <a href="/windows/desktop/api/winddi/ns-winddi-glyphdata">GLYPHDATA</a> structure with the metrics of the glyph specified by <i>hg</i>.
 
-If <i>pv</i> is not <b>NULL</b>, a <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-pathobj">PATHOBJ</a> structure should be written at this address. The driver passes this PATHOBJ to the PATHOBJ_<i>Xxx</i> services to create the outline for the glyph specified by <i>hg</i>. The <i>cjSize</i> parameter should be ignored.
+If <i>pv</i> is not <b>NULL</b>, a <a href="/windows/desktop/api/winddi/ns-winddi-pathobj">PATHOBJ</a> structure should be written at this address. The driver passes this PATHOBJ to the PATHOBJ_<i>Xxx</i> services to create the outline for the glyph specified by <i>hg</i>. The <i>cjSize</i> parameter should be ignored.
 
 The return value is zero if the function is successful. Otherwise, it is FD_ERROR.
 
@@ -111,7 +111,7 @@ QFD_MAXEXTENTS
 
 </td>
 <td>
-If <i>pv</i> is not <b>NULL</b>, the driver should write an <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-fd_devicemetrics">FD_DEVICEMETRICS</a> structure to the buffer pointed to by <i>pv</i>.
+If <i>pv</i> is not <b>NULL</b>, the driver should write an <a href="/windows/desktop/api/winddi/ns-winddi-fd_devicemetrics">FD_DEVICEMETRICS</a> structure to the buffer pointed to by <i>pv</i>.
 
 The return value is the size, in bytes, needed for the buffer if <i>pv</i> is <b>NULL</b>.
 
@@ -175,7 +175,7 @@ Handle to the glyph.
 
 ### -param pgd
 
-Pointer to <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-glyphdata">GLYPHDATA</a> structure. This parameter can be <b>NULL</b>.
+Pointer to <a href="/windows/desktop/api/winddi/ns-winddi-glyphdata">GLYPHDATA</a> structure. This parameter can be <b>NULL</b>.
 
 ### -param pv [out]
 
@@ -197,29 +197,28 @@ For the QFD_GLYPHANDBITMAP and QFD_GLYPHANDOUTLINE values of the <i>iMode</i> pa
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvenablepdev">DrvEnablePDEV</a>
+<a href="/windows/desktop/api/winddi/nf-winddi-drvenablepdev">DrvEnablePDEV</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvqueryfontfile">DrvQueryFontFile</a>
+<a href="/windows/desktop/api/winddi/nf-winddi-drvqueryfontfile">DrvQueryFontFile</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-fd_devicemetrics">FD_DEVICEMETRICS</a>
+<a href="/windows/desktop/api/winddi/ns-winddi-fd_devicemetrics">FD_DEVICEMETRICS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-fontobj">FONTOBJ</a>
+<a href="/windows/desktop/api/winddi/ns-winddi-fontobj">FONTOBJ</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-glyphbits">GLYPHBITS</a>
+<a href="/windows/desktop/api/winddi/ns-winddi-glyphbits">GLYPHBITS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-glyphdata">GLYPHDATA</a>
+<a href="/windows/desktop/api/winddi/ns-winddi-glyphdata">GLYPHDATA</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-pathobj">PATHOBJ</a>
-
+<a href="/windows/desktop/api/winddi/ns-winddi-pathobj">PATHOBJ</a>

@@ -108,13 +108,12 @@ As with other DNS comparison functions, the
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/windns/nf-windns-dnsquery_a">DnsQuery</a>
+<a href="/windows/desktop/api/windns/nf-windns-dnsquery_a">DnsQuery</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/windns/nf-windns-dnsrecordcompare">DnsRecordCompare</a>
+<a href="/windows/desktop/api/windns/nf-windns-dnsrecordcompare">DnsRecordCompare</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/windns/nf-windns-dnsrecordsetcompare">DnsRecordSetCompare</a>
-
+<a href="/windows/desktop/api/windns/nf-windns-dnsrecordsetcompare">DnsRecordSetCompare</a>

@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-The <b>GetName</b> method returns the name at a specified index of a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate revocation list</a> (CRL) distribution information point.
+The <b>GetName</b> method returns the name at a specified index of a <a href="/windows/desktop/SecGloss/c-gly">certificate revocation list</a> (CRL) distribution information point.
 
 ## -parameters
 
@@ -65,27 +65,26 @@ Specifies the index of the name entry to get. The first value is at index zero.
 
 ### -param pstrName [out]
 
-A pointer to a <b>BSTR</b> that represents the name value. When you have finished using the <b>BSTR</b>, free it by calling the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a> function.
+A pointer to a <b>BSTR</b> that represents the name value. When you have finished using the <b>BSTR</b>, free it by calling the <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a> function.
 
 ## -returns
 
 <h3>C++</h3>
  If the method succeeds, the method returns S_OK.
 
-If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
+If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 <h3>VB</h3>
- The return value is the name at the specified index of the specified distribution point. The return value is a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/u-gly">Unicode</a> string.
+ The return value is the name at the specified index of the specified distribution point. The return value is a <a href="/windows/desktop/SecGloss/u-gly">Unicode</a> string.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenc/nn-certenc-icertencodecrldistinfo">ICertEncodeCRLDistInfo</a>
+<a href="/windows/desktop/api/certenc/nn-certenc-icertencodecrldistinfo">ICertEncodeCRLDistInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenc/nf-certenc-icertencodecrldistinfo-getnamecount">ICertEncodeCRLDistInfo::GetNameCount</a>
+<a href="/windows/desktop/api/certenc/nf-certenc-icertencodecrldistinfo-getnamecount">ICertEncodeCRLDistInfo::GetNameCount</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenc/nf-certenc-icertencodecrldistinfo-setnameentry">ICertEncodeCRLDistInfo::SetNameEntry</a>
-
+<a href="/windows/desktop/api/certenc/nf-certenc-icertencodecrldistinfo-setnameentry">ICertEncodeCRLDistInfo::SetNameEntry</a>

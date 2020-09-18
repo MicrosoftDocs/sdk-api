@@ -57,11 +57,11 @@ The <b>GetFormatCapability</b> method retrieves device support for files of a sp
 
 ### -param format [in]
 
-Value from the <a href="https://docs.microsoft.com/windows/desktop/WMDM/wmdm-formatcode">WMDM_FORMATCODE</a> enumeration representing the queried format.
+Value from the <a href="/windows/desktop/WMDM/wmdm-formatcode">WMDM_FORMATCODE</a> enumeration representing the queried format.
 
 ### -param pFormatSupport [out]
 
-Pointer to the returned <a href="https://docs.microsoft.com/windows/desktop/WMDM/wmdm-format-capability">WMDM_FORMAT_CAPABILITY</a> structure containing supported properties and their allowed values. These values must be released by the application as described in <a href="https://docs.microsoft.com/windows/desktop/WMDM/getting-format-capabilities-on-devices-that-support-iwmdmdevice3">Getting Format Capabilities on Devices That Support IWMDMDevice3</a>.
+Pointer to the returned <a href="/windows/desktop/WMDM/wmdm-format-capability">WMDM_FORMAT_CAPABILITY</a> structure containing supported properties and their allowed values. These values must be released by the application as described in <a href="/windows/desktop/WMDM/getting-format-capabilities-on-devices-that-support-iwmdmdevice3">Getting Format Capabilities on Devices That Support IWMDMDevice3</a>.
 
 ## -returns
 
@@ -72,18 +72,18 @@ The method returns an <b>HRESULT</b>. All the interface methods in Windows Media
 <li>Windows error codes converted to HRESULT values </li>
 <li>Windows Media Device Manager error codes </li>
 </ul>
-For an extensive list of possible error codes, see <a href="https://docs.microsoft.com/windows/desktop/WMDM/error-codes">Error Codes</a>.
+For an extensive list of possible error codes, see <a href="/windows/desktop/WMDM/error-codes">Error Codes</a>.
 
 ## -remarks
 
-The client can obtain the list of supported formats by using the <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmdevice3-getproperty">IWMDMDevice3::GetProperty</a> method to query the <b>g_wszWMDMFormatsSupported</b> device property.
+The client can obtain the list of supported formats by using the <a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmdevice3-getproperty">IWMDMDevice3::GetProperty</a> method to query the <b>g_wszWMDMFormatsSupported</b> device property.
 
 For a particular format, a client can call this function to obtain the supported properties and get information about configurations of supported properties (for example, combinations of bit rate and sample rate). This information is expressed as a format capability.
 
 
 #### Examples
 
-The following function is passed a device pointer and a format code, and retrieves the device's format capabilities for that format. The function uses a custom function to clear the retrieved values. This custom function is shown in <a href="https://docs.microsoft.com/windows/desktop/WMDM/getting-format-capabilities-on-devices-that-support-iwmdmdevice3">Getting Format Capabilities on Devices That Support IWMDMDevice3</a>.
+The following function is passed a device pointer and a format code, and retrieves the device's format capabilities for that format. The function uses a custom function to clear the retrieved values. This custom function is shown in <a href="/windows/desktop/WMDM/getting-format-capabilities-on-devices-that-support-iwmdmdevice3">Getting Format Capabilities on Devices That Support IWMDMDevice3</a>.
 
 
 ```cpp
@@ -171,9 +171,8 @@ e_Exit:
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/WMDM/discovering-device-format-capabilities">Discovering Device Format Capabilities</a>
+<a href="/windows/desktop/WMDM/discovering-device-format-capabilities">Discovering Device Format Capabilities</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmdevice3">IWMDMDevice3 Interface</a>
-
+<a href="/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmdevice3">IWMDMDevice3 Interface</a>

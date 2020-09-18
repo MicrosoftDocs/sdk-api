@@ -54,14 +54,14 @@ api_name:
 
 ## -description
 
-The <b>CRL_ISSUING_DIST_POINT</b> structure contains information about the kinds of certificates listed in a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate revocation list</a> (CRL).
+The <b>CRL_ISSUING_DIST_POINT</b> structure contains information about the kinds of certificates listed in a <a href="/windows/desktop/SecGloss/c-gly">certificate revocation list</a> (CRL).
 
 ## -struct-fields
 
 ### -field DistPointName
 
 Optional 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crl_dist_point_name">CRL_DIST_POINT_NAME</a> member.
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-crl_dist_point_name">CRL_DIST_POINT_NAME</a> member.
 
 ### -field fOnlyContainsUserCerts
 
@@ -74,9 +74,8 @@ Optional
 ### -field OnlySomeReasonFlags
 
 Optional 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_bit_blob">CRYPT_BIT_BLOB</a> with bits indicating some reasons for certificate revocation.
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-crypt_bit_blob">CRYPT_BIT_BLOB</a> with bits indicating some reasons for certificate revocation.
 
 ### -field fIndirectCRL
 
 <b>BOOL</b> flag. <b>TRUE</b> if this is an indirect CRL.
-

@@ -60,7 +60,7 @@ Describes a sensor profile ID.
 
 ### -field Type
 
-A <a href="https://docs.microsoft.com/windows/desktop/medfound/sensor-profile-guids">Sensor Profile GUID</a> that describes the type of sensor profile. 
+A <a href="/windows/desktop/medfound/sensor-profile-guids">Sensor Profile GUID</a> that describes the type of sensor profile. 
 
 
 ### -field Index
@@ -71,4 +71,3 @@ The index of the sensor profile.
 ### -field Unused
 
 Not currently used.
-

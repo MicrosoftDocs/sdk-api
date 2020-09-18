@@ -42,13 +42,13 @@ dev_langs:
 
 ## -description
 
-A provider uses PRJ_EXTENDED_INFO to provide extended information about a file when calling <a href="https://docs.microsoft.com/windows/desktop/api/projectedfslib/nf-projectedfslib-prjfilldirentrybuffer2">PrjFillDirEntryBuffer2</a> or <a href="https://docs.microsoft.com/windows/desktop/api/projectedfslib/nf-projectedfslib-prjwriteplaceholderinfo2">PrjWritePlaceholderInfo2</a>.
+A provider uses PRJ_EXTENDED_INFO to provide extended information about a file when calling <a href="/windows/desktop/api/projectedfslib/nf-projectedfslib-prjfilldirentrybuffer2">PrjFillDirEntryBuffer2</a> or <a href="/windows/desktop/api/projectedfslib/nf-projectedfslib-prjwriteplaceholderinfo2">PrjWritePlaceholderInfo2</a>.
 
 ## -struct-fields
 
 ### -field InfoType
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/projectedfslib/ne-projectedfslib-prj_ext_info_type">PRJ_EXT_INFO</a> value describing what kind of extended information this structure contains.
+A <a href="/windows/desktop/api/projectedfslib/ne-projectedfslib-prj_ext_info_type">PRJ_EXT_INFO</a> value describing what kind of extended information this structure contains.
 
 ### -field NextInfoOffset
 
@@ -67,4 +67,3 @@ Specifies the name of the target of a symbolic link.
 ## -remarks
 
 ## -see-also
-

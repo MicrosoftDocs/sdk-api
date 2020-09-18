@@ -50,17 +50,16 @@ api_name:
 
 ## -description
 
-Gets the HCURSOR used when the pointer is over an item while hot tracking is enabled. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/lvm-gethotcursor">LVM_GETHOTCURSOR</a> message explicitly.
+Gets the HCURSOR used when the pointer is over an item while hot tracking is enabled. You can use this macro or send the <a href="/windows/desktop/Controls/lvm-gethotcursor">LVM_GETHOTCURSOR</a> message explicitly.
 
 ## -parameters
 
 ### -param hwnd
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to a list-view control.
 
 ## -remarks
 
-A list-view control uses hot tracking and hover selection when the <a href="https://docs.microsoft.com/windows/desktop/Controls/extended-list-view-styles">LVS_EX_TRACKSELECT</a> style is set.
-
+A list-view control uses hot tracking and hover selection when the <a href="/windows/desktop/Controls/extended-list-view-styles">LVS_EX_TRACKSELECT</a> style is set.

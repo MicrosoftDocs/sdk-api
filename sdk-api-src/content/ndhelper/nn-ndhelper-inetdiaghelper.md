@@ -54,7 +54,7 @@ The <b>INetDiagHelper</b> interface provides methods that capture and provide in
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">INetDiagHelper</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>INetDiagHelper</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">INetDiagHelper</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>INetDiagHelper</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>INetDiagHelper</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/ndhelper/nf-ndhelper-inetdiaghelper-cancel">INetDiagHelper::Cancel</a>
+<a href="/windows/desktop/api/ndhelper/nf-ndhelper-inetdiaghelper-cancel">INetDiagHelper::Cancel</a>
 </td>
 <td align="left" width="63%">
 Cancels an ongoing diagnosis or repair. This method is required when building a Helper Class extension.
@@ -78,7 +78,7 @@ Cancels an ongoing diagnosis or repair. This method is required when building a 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/ndhelper/nf-ndhelper-inetdiaghelper-cleanup">INetDiagHelper::Cleanup</a>
+<a href="/windows/desktop/api/ndhelper/nf-ndhelper-inetdiaghelper-cleanup">INetDiagHelper::Cleanup</a>
 </td>
 <td align="left" width="63%">
 Allows NDF  to release resources. This method is required when building a Helper Class extension.
@@ -87,7 +87,7 @@ Allows NDF  to release resources. This method is required when building a Helper
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/ndhelper/nf-ndhelper-inetdiaghelper-getattributes">INetDiagHelper::GetAttributes</a>
+<a href="/windows/desktop/api/ndhelper/nf-ndhelper-inetdiaghelper-getattributes">INetDiagHelper::GetAttributes</a>
 </td>
 <td align="left" width="63%">
 Retrieves information from the helper class. This method is optional when building a Helper Class extension.
@@ -96,7 +96,7 @@ Retrieves information from the helper class. This method is optional when buildi
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/ndhelper/nf-ndhelper-inetdiaghelper-getcachetime">INetDiagHelper::GetCacheTime</a>
+<a href="/windows/desktop/api/ndhelper/nf-ndhelper-inetdiaghelper-getcachetime">INetDiagHelper::GetCacheTime</a>
 </td>
 <td align="left" width="63%">
 Retrieves information about the length of time results are kept in the cache. This method is optional when building a Helper Class extension.
@@ -105,7 +105,7 @@ Retrieves information about the length of time results are kept in the cache. Th
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/ndhelper/nf-ndhelper-inetdiaghelper-getdiagnosticsinfo">INetDiagHelper::GetDiagnosticsInfo</a>
+<a href="/windows/desktop/api/ndhelper/nf-ndhelper-inetdiaghelper-getdiagnosticsinfo">INetDiagHelper::GetDiagnosticsInfo</a>
 </td>
 <td align="left" width="63%">
 Retrieves time estimate and whether impersonation is necessary. This method is required when building a Helper Class extension.
@@ -114,7 +114,7 @@ Retrieves time estimate and whether impersonation is necessary. This method is r
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/ndhelper/nf-ndhelper-inetdiaghelper-getdownstreamhypotheses">INetDiagHelper::GetDownStreamHypotheses</a>
+<a href="/windows/desktop/api/ndhelper/nf-ndhelper-inetdiaghelper-getdownstreamhypotheses">INetDiagHelper::GetDownStreamHypotheses</a>
 </td>
 <td align="left" width="63%">
 Retrieves information about possible causes in downstream network components. This method is optional when building a Helper Class extension.
@@ -123,7 +123,7 @@ Retrieves information about possible causes in downstream network components. Th
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/ndhelper/nf-ndhelper-inetdiaghelper-gethigherhypotheses">INetDiagHelper::GetHigherHypotheses</a>
+<a href="/windows/desktop/api/ndhelper/nf-ndhelper-inetdiaghelper-gethigherhypotheses">INetDiagHelper::GetHigherHypotheses</a>
 </td>
 <td align="left" width="63%">
 Retrieves information about possible causes of high utilization in upstream network components. This method is optional when building a Helper Class extension.
@@ -132,7 +132,7 @@ Retrieves information about possible causes of high utilization in upstream netw
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/ndhelper/nf-ndhelper-inetdiaghelper-getkeyattributes">INetDiagHelper::GetKeyAttributes</a>
+<a href="/windows/desktop/api/ndhelper/nf-ndhelper-inetdiaghelper-getkeyattributes">INetDiagHelper::GetKeyAttributes</a>
 </td>
 <td align="left" width="63%">
 Retrieves information about key attributes of a helper class. This method is optional when building a Helper Class extension.
@@ -141,7 +141,7 @@ Retrieves information about key attributes of a helper class. This method is opt
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/ndhelper/nf-ndhelper-inetdiaghelper-getlifetime">INetDiagHelper::GetLifeTime</a>
+<a href="/windows/desktop/api/ndhelper/nf-ndhelper-inetdiaghelper-getlifetime">INetDiagHelper::GetLifeTime</a>
 </td>
 <td align="left" width="63%">
 Retrieves information about the life time of a helper class instance. This method is optional when building a Helper Class extension.
@@ -150,7 +150,7 @@ Retrieves information about the life time of a helper class instance. This metho
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/ndhelper/nf-ndhelper-inetdiaghelper-getlowerhypotheses">INetDiagHelper::GetLowerHypotheses</a>
+<a href="/windows/desktop/api/ndhelper/nf-ndhelper-inetdiaghelper-getlowerhypotheses">INetDiagHelper::GetLowerHypotheses</a>
 </td>
 <td align="left" width="63%">
 Retrieves information from local components about for possible causes of high utilization. This method is optional when building a Helper Class extension.
@@ -159,7 +159,7 @@ Retrieves information from local components about for possible causes of high ut
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/ndhelper/nf-ndhelper-inetdiaghelper-getrepairinfo">INetDiagHelper::GetRepairInfo</a>
+<a href="/windows/desktop/api/ndhelper/nf-ndhelper-inetdiaghelper-getrepairinfo">INetDiagHelper::GetRepairInfo</a>
 </td>
 <td align="left" width="63%">
 Retrieves information from the helper class about resolutions or workarounds. This method is optional when building a Helper Class extension.
@@ -168,7 +168,7 @@ Retrieves information from the helper class about resolutions or workarounds. Th
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/ndhelper/nf-ndhelper-inetdiaghelper-getupstreamhypotheses">INetDiagHelper::GetUpStreamHypotheses</a>
+<a href="/windows/desktop/api/ndhelper/nf-ndhelper-inetdiaghelper-getupstreamhypotheses">INetDiagHelper::GetUpStreamHypotheses</a>
 </td>
 <td align="left" width="63%">
 Retrieves information from the helper class about if it checks for high utilization. This method is optional when building a Helper Class extension.
@@ -177,7 +177,7 @@ Retrieves information from the helper class about if it checks for high utilizat
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/ndhelper/nf-ndhelper-inetdiaghelper-highutilization">INetDiagHelper::HighUtilization</a>
+<a href="/windows/desktop/api/ndhelper/nf-ndhelper-inetdiaghelper-highutilization">INetDiagHelper::HighUtilization</a>
 </td>
 <td align="left" width="63%">
 Allows the helper class to check for high utilization. This method is optional when building a Helper Class extension.
@@ -186,7 +186,7 @@ Allows the helper class to check for high utilization. This method is optional w
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/ndhelper/nf-ndhelper-inetdiaghelper-initialize">INetDiagHelper::Initialize</a>
+<a href="/windows/desktop/api/ndhelper/nf-ndhelper-inetdiaghelper-initialize">INetDiagHelper::Initialize</a>
 </td>
 <td align="left" width="63%">
 Sends key parameters to a helper class. This method is required when building a Helper Class extension.
@@ -195,7 +195,7 @@ Sends key parameters to a helper class. This method is required when building a 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/ndhelper/nf-ndhelper-inetdiaghelper-lowhealth">INetDiagHelper::LowHealth</a>
+<a href="/windows/desktop/api/ndhelper/nf-ndhelper-inetdiaghelper-lowhealth">INetDiagHelper::LowHealth</a>
 </td>
 <td align="left" width="63%">
 Determines whether the helper class is in low health. This method is required when building a Helper Class extension.
@@ -204,7 +204,7 @@ Determines whether the helper class is in low health. This method is required wh
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/ndhelper/nf-ndhelper-inetdiaghelper-repair">INetDiagHelper::Repair</a>
+<a href="/windows/desktop/api/ndhelper/nf-ndhelper-inetdiaghelper-repair">INetDiagHelper::Repair</a>
 </td>
 <td align="left" width="63%">
 Asks the helper class to perform the specified repair. This method is optional when building a Helper Class extension.
@@ -213,7 +213,7 @@ Asks the helper class to perform the specified repair. This method is optional w
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/ndhelper/nf-ndhelper-inetdiaghelper-setlifetime">INetDiagHelper::SetLifeTime</a>
+<a href="/windows/desktop/api/ndhelper/nf-ndhelper-inetdiaghelper-setlifetime">INetDiagHelper::SetLifeTime</a>
 </td>
 <td align="left" width="63%">
 Sets the start and end times of a problem instance. This method is optional when building a Helper Class extension.
@@ -222,7 +222,7 @@ Sets the start and end times of a problem instance. This method is optional when
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/ndhelper/nf-ndhelper-inetdiaghelper-validate">INetDiagHelper::Validate</a>
+<a href="/windows/desktop/api/ndhelper/nf-ndhelper-inetdiaghelper-validate">INetDiagHelper::Validate</a>
 </td>
 <td align="left" width="63%">
 Confirms that a previously diagnosed problem is fixed. This method is optional when building a Helper Class extension.
@@ -230,4 +230,3 @@ Confirms that a previously diagnosed problem is fixed. This method is optional w
 </td>
 </tr>
 </table>
-

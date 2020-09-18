@@ -70,7 +70,7 @@ Property ID of the  list from which to remove the entity specified by the <i>var
 </dl>
 </td>
 <td width="60%">
-Can also be removed using the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazapplicationgroup-deleteappmember">DeleteAppMember</a> method
+Can also be removed using the <a href="/windows/desktop/api/azroles/nf-azroles-iazapplicationgroup-deleteappmember">DeleteAppMember</a> method
 
 </td>
 </tr>
@@ -80,7 +80,7 @@ Can also be removed using the <a href="https://docs.microsoft.com/windows/deskto
 </dl>
 </td>
 <td width="60%">
-Can also be removed using the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazapplicationgroup-deleteappnonmember">DeleteAppNonMember</a> method
+Can also be removed using the <a href="/windows/desktop/api/azroles/nf-azroles-iazapplicationgroup-deleteappnonmember">DeleteAppNonMember</a> method
 
 </td>
 </tr>
@@ -90,7 +90,7 @@ Can also be removed using the <a href="https://docs.microsoft.com/windows/deskto
 </dl>
 </td>
 <td width="60%">
-Can also be removed using the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazapplicationgroup-deletemember">DeleteMember</a> method
+Can also be removed using the <a href="/windows/desktop/api/azroles/nf-azroles-iazapplicationgroup-deletemember">DeleteMember</a> method
 
 </td>
 </tr>
@@ -100,7 +100,7 @@ Can also be removed using the <a href="https://docs.microsoft.com/windows/deskto
 </dl>
 </td>
 <td width="60%">
-Can also be removed using the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazapplicationgroup-deletemembername">DeleteMemberName</a> method
+Can also be removed using the <a href="/windows/desktop/api/azroles/nf-azroles-iazapplicationgroup-deletemembername">DeleteMemberName</a> method
 
 </td>
 </tr>
@@ -110,7 +110,7 @@ Can also be removed using the <a href="https://docs.microsoft.com/windows/deskto
 </dl>
 </td>
 <td width="60%">
-Can also be removed using the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazapplicationgroup-deletenonmember">DeleteNonMember</a> method
+Can also be removed using the <a href="/windows/desktop/api/azroles/nf-azroles-iazapplicationgroup-deletenonmember">DeleteNonMember</a> method
 
 </td>
 </tr>
@@ -120,7 +120,7 @@ Can also be removed using the <a href="https://docs.microsoft.com/windows/deskto
 </dl>
 </td>
 <td width="60%">
-Can also be removed using the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazapplicationgroup-deletenonmembername">DeleteNonMemberName</a> method
+Can also be removed using the <a href="/windows/desktop/api/azroles/nf-azroles-iazapplicationgroup-deletenonmembername">DeleteNonMemberName</a> method
 
 </td>
 </tr>
@@ -132,7 +132,7 @@ The entity to remove from the list  specified by the <i>lPropId</i> parameter.
 
 The variant must be a <b>BSTR</b> variant.
 
-If AZ_PROP_GROUP_MEMBERS_NAME or AZ_PROP_GROUP_NON_MEMBERS_NAME is specified for the <i>lPropId</i> parameter, the string is the account name of the account to remove from the list. The account name must be in user principal name (UPN) format (for example, "someone@example.com"). If AZ_PROP_GROUP_APP_MEMBERS or AZ_PROP_GROUP_APP_NON_MEMBERS is specified for the <i>lPropId</i> parameter, the string is the  <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazapplicationgroup-get_name">Name</a> property of the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazapplicationgroup">IAzApplicationGroup</a> object to remove from the list.
+If AZ_PROP_GROUP_MEMBERS_NAME or AZ_PROP_GROUP_NON_MEMBERS_NAME is specified for the <i>lPropId</i> parameter, the string is the account name of the account to remove from the list. The account name must be in user principal name (UPN) format (for example, "someone@example.com"). If AZ_PROP_GROUP_APP_MEMBERS or AZ_PROP_GROUP_APP_NON_MEMBERS is specified for the <i>lPropId</i> parameter, the string is the  <a href="/windows/desktop/api/azroles/nf-azroles-iazapplicationgroup-get_name">Name</a> property of the <a href="/windows/desktop/api/azroles/nn-azroles-iazapplicationgroup">IAzApplicationGroup</a> object to remove from the list.
 
 ### -param varReserved [in, optional]
 
@@ -143,4 +143,3 @@ Reserved for future use.
  If the method succeeds, the method returns S_OK.
 
 Any other <b>HRESULT</b> value indicates that the operation failed.
-

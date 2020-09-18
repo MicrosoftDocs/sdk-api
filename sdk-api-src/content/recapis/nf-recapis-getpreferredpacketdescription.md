@@ -60,11 +60,11 @@ Handle to the recognizer.
 
 ### -param pPacketDescription
 
-Describes the content of the packets the recognizer uses. For more information, see the <a href="https://docs.microsoft.com/windows/desktop/api/tpcshrd/ns-tpcshrd-packet_description">PACKET_DESCRIPTION</a> structure.
+Describes the content of the packets the recognizer uses. For more information, see the <a href="/windows/desktop/api/tpcshrd/ns-tpcshrd-packet_description">PACKET_DESCRIPTION</a> structure.
 
-To retrieve the packet description, initialize the packet description with zeroes and call the <b>GetPreferredPacketDescription</b> function. The function populates the property and button counts, which you use to allocate space for the pPacketProperties and pguidButtons members of the <a href="https://docs.microsoft.com/windows/desktop/api/tpcshrd/ns-tpcshrd-packet_description">PACKET_DESCRIPTION</a> structure. Call the function again to populate the rest of the packet description.
+To retrieve the packet description, initialize the packet description with zeroes and call the <b>GetPreferredPacketDescription</b> function. The function populates the property and button counts, which you use to allocate space for the pPacketProperties and pguidButtons members of the <a href="/windows/desktop/api/tpcshrd/ns-tpcshrd-packet_description">PACKET_DESCRIPTION</a> structure. Call the function again to populate the rest of the packet description.
 
-The pguidButtons member of the <a href="https://docs.microsoft.com/windows/desktop/api/tpcshrd/ns-tpcshrd-packet_description">PACKET_DESCRIPTION</a> structure may be zero when <b>GetPreferredPacketDescription</b> returns. This means the packets have no button data, so this member does not have any pguidButtons allocated. In this case, the calling function should leave the pointer <b>NULL</b>.
+The pguidButtons member of the <a href="/windows/desktop/api/tpcshrd/ns-tpcshrd-packet_description">PACKET_DESCRIPTION</a> structure may be zero when <b>GetPreferredPacketDescription</b> returns. This means the packets have no button data, so this member does not have any pguidButtons allocated. In this case, the calling function should leave the pointer <b>NULL</b>.
 
 ## -returns
 
@@ -138,9 +138,8 @@ Typically, recognizers use the (x, y) coordinate properties and ignore the other
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/recapis/nf-recapis-addstroke">AddStroke Function</a>
+<a href="/windows/desktop/api/recapis/nf-recapis-addstroke">AddStroke Function</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tpcshrd/ns-tpcshrd-packet_description">PACKET_DESCRIPTION Structure</a>
-
+<a href="/windows/desktop/api/tpcshrd/ns-tpcshrd-packet_description">PACKET_DESCRIPTION Structure</a>

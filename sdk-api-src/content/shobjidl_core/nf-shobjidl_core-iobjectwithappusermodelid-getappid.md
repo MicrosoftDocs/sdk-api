@@ -68,21 +68,20 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -remarks
 
-This method can only retrieve an AppUserModelID explicitly set for the handler. If the handler did not register an explicit AppUserModelID and is relying on a system-assigned AppUserModelID, this method will not retrieve the AppUserModelID. For more information, see <a href="https://docs.microsoft.com/windows/desktop/shell/appids">Application User Model IDs (AppUserModelIDs)</a>.
+This method can only retrieve an AppUserModelID explicitly set for the handler. If the handler did not register an explicit AppUserModelID and is relying on a system-assigned AppUserModelID, this method will not retrieve the AppUserModelID. For more information, see <a href="/windows/desktop/shell/appids">Application User Model IDs (AppUserModelIDs)</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/shell/appids">Application User Model IDs (AppUserModelIDs)</a>
+<a href="/windows/desktop/shell/appids">Application User Model IDs (AppUserModelIDs)</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iobjectwithappusermodelid">IObjectWithAppUserModelID</a>
+<a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iobjectwithappusermodelid">IObjectWithAppUserModelID</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iobjectwithappusermodelid-setappid">IObjectWithAppUserModelID::SetAppID</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iobjectwithappusermodelid-setappid">IObjectWithAppUserModelID::SetAppID</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/shell/taskbar-extensions">Taskbar Extensions</a>
-
+<a href="/windows/desktop/shell/taskbar-extensions">Taskbar Extensions</a>

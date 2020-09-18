@@ -76,7 +76,6 @@ An optional pointer to a constant [DML_SCALE_BIAS](/windows/desktop/api/directml
 
 ### -field Min
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">FLOAT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">FLOAT</a></b>
 
 The minimum value, below which the operator replaces the value with <i>Min</i>.
-

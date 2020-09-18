@@ -56,8 +56,8 @@ api_name:
 
 The 
 <b>LINEEXTENSIONID</b> structure describes an extension identifier. Extension identifiers are used to identify service provider-specific extensions for line devices. Multiple functions use this structure, including the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linenegotiateapiversion">lineNegotiateAPIVersion</a> function and the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_linegetextensionid">TSPI_lineGetExtensionID</a> function.
+<a href="/windows/desktop/api/tapi/nf-tapi-linenegotiateapiversion">lineNegotiateAPIVersion</a> function and the 
+<a href="/windows/desktop/api/tspi/nf-tspi-tspi_linegetextensionid">TSPI_lineGetExtensionID</a> function.
 
 ## -struct-fields
 
@@ -85,9 +85,8 @@ Extension identifiers are generated using an SDK-provided generation utility.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_linegetextensionid">TSPI_lineGetExtensionID</a>
+<a href="/windows/desktop/api/tspi/nf-tspi-tspi_linegetextensionid">TSPI_lineGetExtensionID</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linenegotiateapiversion">lineNegotiateAPIVersion</a>
-
+<a href="/windows/desktop/api/tapi/nf-tapi-linenegotiateapiversion">lineNegotiateAPIVersion</a>

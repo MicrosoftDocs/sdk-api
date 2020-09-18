@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Determines if the specified word exists in <a href="https://docs.microsoft.com/windows/desktop/api/msime/nn-msime-ifedictionary">IFEDictionary</a>.
+Determines if the specified word exists in <a href="/windows/desktop/api/msime/nn-msime-ifedictionary">IFEDictionary</a>.
 
 ## -parameters
 
 ### -param pwrd [in]
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/msime/ns-msime-imewrd">IMEWRD</a> structure specifying the word to check.
+An <a href="/windows/desktop/api/msime/ns-msime-imewrd">IMEWRD</a> structure specifying the word to check.
 
 ## -returns
 
@@ -104,9 +104,8 @@ An unexpected error.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msime/nn-msime-ifedictionary">IFEDictionary</a>
+<a href="/windows/desktop/api/msime/nn-msime-ifedictionary">IFEDictionary</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msime/ns-msime-imewrd">IMEWRD</a>
-
+<a href="/windows/desktop/api/msime/ns-msime-imewrd">IMEWRD</a>

@@ -57,7 +57,7 @@ The <b>Properties</b> method retrieves the interface that is required to get or 
 
 ### -param ppProperties [out]
 
-Address of a variable that receives a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nn-portabledeviceapi-iportabledeviceproperties">IPortableDeviceProperties</a> interface that is used to get or set object properties. The caller must release this interface when it is done with it.
+Address of a variable that receives a pointer to an <a href="/windows/desktop/api/portabledeviceapi/nn-portabledeviceapi-iportabledeviceproperties">IPortableDeviceProperties</a> interface that is used to get or set object properties. The caller must release this interface when it is done with it.
 
 ## -returns
 
@@ -101,39 +101,38 @@ The retrieved interface is not specific to a particular object on the device; it
 
 #### Examples
 
-For an example of how to use this method, see <a href="https://docs.microsoft.com/windows/desktop/wpd_sdk/setting-properties-for-a-single-object">Setting Properties for a Single Object</a>.
+For an example of how to use this method, see <a href="/windows/desktop/wpd_sdk/setting-properties-for-a-single-object">Setting Properties for a Single Object</a>.
 
 <div class="code"></div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nn-portabledeviceapi-iportabledevicecontent">IPortableDeviceContent Interface</a>
+<a href="/windows/desktop/api/portabledeviceapi/nn-portabledeviceapi-iportabledevicecontent">IPortableDeviceContent Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/wpd_sdk/retrieving-content-object-properties">Retrieving Content-Object Properties</a>
+<a href="/windows/desktop/wpd_sdk/retrieving-content-object-properties">Retrieving Content-Object Properties</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/wpd_sdk/retrieving-properties-for-multiple-objects">Retrieving Properties for Multiple Objects</a>
+<a href="/windows/desktop/wpd_sdk/retrieving-properties-for-multiple-objects">Retrieving Properties for Multiple Objects</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/wpd_sdk/retrieving-the-rendering-capabilities-supported-by-a-device">Retrieving the Rendering Capabilities Supported by a Device</a>
+<a href="/windows/desktop/wpd_sdk/retrieving-the-rendering-capabilities-supported-by-a-device">Retrieving the Rendering Capabilities Supported by a Device</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/wpd_sdk/setting-properties-for-multiple-objects">Setting Properties for Multiple Objects</a>
+<a href="/windows/desktop/wpd_sdk/setting-properties-for-multiple-objects">Setting Properties for Multiple Objects</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/wpd_sdk/setting-properties-for-a-single-object">Setting Properties for a Single Object</a>
+<a href="/windows/desktop/wpd_sdk/setting-properties-for-a-single-object">Setting Properties for a Single Object</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/wpd_sdk/transferring-content-from-the-device-to-a-pc">Transferring Content from the Device to a PC</a>
+<a href="/windows/desktop/wpd_sdk/transferring-content-from-the-device-to-a-pc">Transferring Content from the Device to a PC</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/wpd_sdk/writing-content-object-properties">Writing Content-Object Properties</a>
-
+<a href="/windows/desktop/wpd_sdk/writing-content-object-properties">Writing Content-Object Properties</a>

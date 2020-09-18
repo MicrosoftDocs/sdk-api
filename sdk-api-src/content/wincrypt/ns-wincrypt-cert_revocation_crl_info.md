@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-Contains information updated by a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate revocation list</a> (CRL) revocation type handler. The <b>CERT_REVOCATION_CRL_INFO</b> structure is used with both base and delta CRLs.
+Contains information updated by a <a href="/windows/desktop/SecGloss/c-gly">certificate revocation list</a> (CRL) revocation type handler. The <b>CERT_REVOCATION_CRL_INFO</b> structure is used with both base and delta CRLs.
 
 ## -struct-fields
 
@@ -81,4 +81,3 @@ A pointer to a base CRL context.
 ### -field pDeltaCRLContext
 
 A pointer to a delta CRL context.
-

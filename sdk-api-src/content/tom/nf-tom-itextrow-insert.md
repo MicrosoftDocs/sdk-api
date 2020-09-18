@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Inserts a row, or rows, at the location identified by the associated <a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextrange2">ITextRange2</a> object.
+Inserts a row, or rows, at the location identified by the associated <a href="/windows/desktop/api/tom/nn-tom-itextrange2">ITextRange2</a> object.
 
 ## -parameters
 
@@ -62,11 +62,10 @@ The number of rows to insert.
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 If the method succeeds, it returns <b>NOERROR</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextrow">ITextRow</a>
-
+<a href="/windows/desktop/api/tom/nn-tom-itextrow">ITextRow</a>

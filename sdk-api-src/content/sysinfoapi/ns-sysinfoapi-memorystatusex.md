@@ -55,7 +55,7 @@ api_name:
 ## -description
 
 Contains information about the current state of both physical and virtual memory, including extended memory. The 
-<a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-globalmemorystatusex">GlobalMemoryStatusEx</a> function stores information in this structure.
+<a href="/windows/desktop/api/sysinfoapi/nf-sysinfoapi-globalmemorystatusex">GlobalMemoryStatusEx</a> function stores information in this structure.
 
 ## -struct-fields
 
@@ -63,7 +63,7 @@ Contains information about the current state of both physical and virtual memory
 
 The size of the 
 structure, in bytes. You must set this member before calling  
-<a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-globalmemorystatusex">GlobalMemoryStatusEx</a>.
+<a href="/windows/desktop/api/sysinfoapi/nf-sysinfoapi-globalmemorystatusex">GlobalMemoryStatusEx</a>.
 
 ### -field dwMemoryLoad
 
@@ -79,15 +79,15 @@ The amount of physical memory currently available, in bytes. This is the amount 
 
 ### -field ullTotalPageFile
 
-The current committed memory limit for the system or the current process, whichever is smaller, in bytes. To get the system-wide committed memory limit, call <a href="https://docs.microsoft.com/windows/desktop/api/psapi/nf-psapi-getperformanceinfo">GetPerformanceInfo</a>.
+The current committed memory limit for the system or the current process, whichever is smaller, in bytes. To get the system-wide committed memory limit, call <a href="/windows/desktop/api/psapi/nf-psapi-getperformanceinfo">GetPerformanceInfo</a>.
 
 ### -field ullAvailPageFile
 
-The maximum amount of memory the current process can commit, in bytes. This value is equal to or smaller than the system-wide available commit value. To calculate the system-wide available commit value, call <a href="https://docs.microsoft.com/windows/desktop/api/psapi/nf-psapi-getperformanceinfo">GetPerformanceInfo</a> and subtract the value of <b>CommitTotal</b> from the value of <b>CommitLimit</b>.
+The maximum amount of memory the current process can commit, in bytes. This value is equal to or smaller than the system-wide available commit value. To calculate the system-wide available commit value, call <a href="/windows/desktop/api/psapi/nf-psapi-getperformanceinfo">GetPerformanceInfo</a> and subtract the value of <b>CommitTotal</b> from the value of <b>CommitLimit</b>.
 
 ### -field ullTotalVirtual
 
-The size of the user-mode portion of the virtual address space of the calling process, in bytes. This value depends on the type of process, the type of processor, and the configuration of the operating system. For example, this value is approximately 2 GB for most 32-bit processes on an x86 processor and approximately 3 GB for 32-bit processes that are large address aware running on a system with <a href="https://docs.microsoft.com/windows/desktop/Memory/4-gigabyte-tuning">4-gigabyte tuning</a> enabled.
+The size of the user-mode portion of the virtual address space of the calling process, in bytes. This value depends on the type of process, the type of processor, and the configuration of the operating system. For example, this value is approximately 2 GB for most 32-bit processes on an x86 processor and approximately 3 GB for 32-bit processes that are large address aware running on a system with <a href="/windows/desktop/Memory/4-gigabyte-tuning">4-gigabyte tuning</a> enabled.
 
 ### -field ullAvailVirtual
 
@@ -107,15 +107,14 @@ The physical memory sizes returned include the memory from all nodes.
 #### Examples
 
 For an example, see the 
-<a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-globalmemorystatusex">GlobalMemoryStatusEx</a> function.
+<a href="/windows/desktop/api/sysinfoapi/nf-sysinfoapi-globalmemorystatusex">GlobalMemoryStatusEx</a> function.
 
 <div class="code"></div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-globalmemorystatusex">GlobalMemoryStatusEx</a>
+<a href="/windows/desktop/api/sysinfoapi/nf-sysinfoapi-globalmemorystatusex">GlobalMemoryStatusEx</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa965225(v=vs.85)">Memory Performance Information</a>
-
+<a href="/previous-versions/windows/desktop/legacy/aa965225(v=vs.85)">Memory Performance Information</a>

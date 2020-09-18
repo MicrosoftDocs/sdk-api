@@ -106,7 +106,7 @@ The blob part is private data.
 
 ### -field D3D_BLOB_ROOT_SIGNATURE
 
-The blob part is a root signature. Refer to <a href="https://docs.microsoft.com/windows/desktop/direct3d12/specifying-root-signatures-in-hlsl">Specifying Root Signatures in HLSL</a> for more information on using Direct3D12 with HLSL.
+The blob part is a root signature. Refer to <a href="/windows/desktop/direct3d12/specifying-root-signatures-in-hlsl">Specifying Root Signatures in HLSL</a> for more information on using Direct3D12 with HLSL.
 
 <div class="alert"><b>Note</b>  This value is supported by the D3dcompiler_47.dll or later version of the file.</div>
 <div> </div>
@@ -150,9 +150,8 @@ The blob part is a test compilation report.
 
 ## -remarks
 
-These values are passed to the <a href="https://docs.microsoft.com/windows/desktop/direct3dhlsl/d3dgetblobpart">D3DGetBlobPart</a> or  <a href="https://docs.microsoft.com/windows/desktop/direct3dhlsl/d3dsetblobpart">D3DSetBlobPart</a> function.
+These values are passed to the <a href="/windows/desktop/direct3dhlsl/d3dgetblobpart">D3DGetBlobPart</a> or  <a href="/windows/desktop/direct3dhlsl/d3dsetblobpart">D3DSetBlobPart</a> function.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3dhlsl/dx-graphics-d3dcompiler-reference-enums">Enumerations</a>
-
+<a href="/windows/desktop/direct3dhlsl/dx-graphics-d3dcompiler-reference-enums">Enumerations</a>

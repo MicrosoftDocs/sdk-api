@@ -64,12 +64,12 @@ An optional URI to use as the endpoint address for this service. If none is spec
 
 ### -param pPortType [in, optional]
 
-Reference to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-wsd_port_type">WSD_PORT_TYPE</a> structure that specifies the port type. 
+Reference to a <a href="/windows/desktop/api/wsdtypes/ns-wsdtypes-wsd_port_type">WSD_PORT_TYPE</a> structure that specifies the port type. 
 May be <b>NULL</b>. Specify only one of <i>pPortType</i> and <i>pPortName</i>.
 
 ### -param pPortName [in, optional]
 
-Reference to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdxmldom/ns-wsdxmldom-wsdxml_name">WSDXML_NAME</a> structure that specifies the type of the service, with associating the service with a specified port. Specify only one of <i>pPortType</i> and <i>pPortName</i>.
+Reference to a <a href="/windows/desktop/api/wsdxmldom/ns-wsdxmldom-wsdxml_name">WSDXML_NAME</a> structure that specifies the type of the service, with associating the service with a specified port. Specify only one of <i>pPortType</i> and <i>pPortName</i>.
 
 ### -param pAny [in, optional]
 
@@ -128,7 +128,7 @@ The length in characters of <i>pszServiceId</i> or <i>pszEndpointAddress</i> exc
 </dl>
 </td>
 <td width="60%">
-The method failed. It may have failed because the host has not been initialized, or the service specified by <i>pszServiceId</i> could not be found. Call <a href="https://docs.microsoft.com/windows/desktop/api/wsdhost/nf-wsdhost-iwsddevicehost-init">Init</a> to initialize a device host.
+The method failed. It may have failed because the host has not been initialized, or the service specified by <i>pszServiceId</i> could not be found. Call <a href="/windows/desktop/api/wsdhost/nf-wsdhost-iwsddevicehost-init">Init</a> to initialize a device host.
 
 </td>
 </tr>
@@ -147,9 +147,8 @@ Insufficient memory to complete the operation.
 
 ## -remarks
 
-When this method is called, the device adds a reference to the service object and calls its methods in response to request messages addressed to the service. Call the <a href="https://docs.microsoft.com/windows/desktop/api/wsdhost/nf-wsdhost-iwsddevicehost-removedynamicservice">RemoveDynamicService</a> method on the device host to release its reference to the service and stop calling methods on the service.
+When this method is called, the device adds a reference to the service object and calls its methods in response to request messages addressed to the service. Call the <a href="/windows/desktop/api/wsdhost/nf-wsdhost-iwsddevicehost-removedynamicservice">RemoveDynamicService</a> method on the device host to release its reference to the service and stop calling methods on the service.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wsdhost/nn-wsdhost-iwsddevicehost">IWSDDeviceHost</a>
-
+<a href="/windows/desktop/api/wsdhost/nn-wsdhost-iwsddevicehost">IWSDDeviceHost</a>

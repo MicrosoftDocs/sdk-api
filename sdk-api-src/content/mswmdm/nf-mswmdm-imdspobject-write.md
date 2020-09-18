@@ -57,7 +57,7 @@ The <b>Write</b> method writes data to the object at the current position within
 
 ### -param pData [in]
 
-Pointer to the buffer containing the data to write to the object. This parameter is encrypted and must be decrypted using <a href="https://docs.microsoft.com/previous-versions/bb231598(v=vs.85)">CSecureChannelServer::DecryptParam</a> with the MAC in <i>abMac</i>. See Remarks.
+Pointer to the buffer containing the data to write to the object. This parameter is encrypted and must be decrypted using <a href="/previous-versions/bb231598(v=vs.85)">CSecureChannelServer::DecryptParam</a> with the MAC in <i>abMac</i>. See Remarks.
 
 ### -param pdwSize [in, out]
 
@@ -76,31 +76,30 @@ The method returns an <b>HRESULT</b>. All the interface methods in Windows Media
 <li>Windows error codes converted to HRESULT values </li>
 <li>Windows Media Device Manager error codes </li>
 </ul>
-For an extensive list of possible error codes, see <a href="https://docs.microsoft.com/windows/desktop/WMDM/error-codes">Error Codes</a>.
+For an extensive list of possible error codes, see <a href="/windows/desktop/WMDM/error-codes">Error Codes</a>.
 
 ## -remarks
 
 The MAC used for encryption should include both <i>pData</i> and <i>pdwSize</i> in calls to <a href="/previous-versions/ms868515(v=msdn.10)">CSecureChannelServer::MACUpdate</a>.
 
-This method must be implemented. It must not return WMDM_E_NOTSUPPORTED or E_NOTIMPL. For more information, see <a href="https://docs.microsoft.com/windows/desktop/WMDM/mandatory-and-optional-interfaces">Mandatory and Optional Interfaces</a>.
+This method must be implemented. It must not return WMDM_E_NOTSUPPORTED or E_NOTIMPL. For more information, see <a href="/windows/desktop/WMDM/mandatory-and-optional-interfaces">Mandatory and Optional Interfaces</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/WMDM/encryption-and-decryption">Encryption and Decryption</a>
+<a href="/windows/desktop/WMDM/encryption-and-decryption">Encryption and Decryption</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-imdspobject">IMDSPObject Interface</a>
+<a href="/windows/desktop/api/mswmdm/nn-mswmdm-imdspobject">IMDSPObject Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-imdspobject-close">IMDSPObject::Close</a>
+<a href="/windows/desktop/api/mswmdm/nf-mswmdm-imdspobject-close">IMDSPObject::Close</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-imdspobject-open">IMDSPObject::Open</a>
+<a href="/windows/desktop/api/mswmdm/nf-mswmdm-imdspobject-open">IMDSPObject::Open</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-imdspobject-read">IMDSPObject::Read</a>
-
+<a href="/windows/desktop/api/mswmdm/nf-mswmdm-imdspobject-read">IMDSPObject::Read</a>

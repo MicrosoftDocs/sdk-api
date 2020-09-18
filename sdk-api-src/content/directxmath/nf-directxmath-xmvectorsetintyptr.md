@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Sets the <code>y</code> component of an <a href="https://docs.microsoft.com/windows/desktop/dxmath/xmvector-data-type">XMVECTOR</a> containing integer data, with a value
+Sets the <code>y</code> component of an <a href="/windows/desktop/dxmath/xmvector-data-type">XMVECTOR</a> containing integer data, with a value
   contained in an instance of uint32_t referred to by a pointer.
 
 ## -parameters
@@ -61,11 +61,11 @@ A valid 4D vector storing integer data.
 
 ### -param y [in]
 
-Pointer to a uint32_t containing the value to be stored in the <code>y</code> element of the <a href="https://docs.microsoft.com/windows/desktop/dxmath/xmvector-data-type">XMVECTOR Data Type</a>object <code>V</code>.
+Pointer to a uint32_t containing the value to be stored in the <code>y</code> element of the <a href="/windows/desktop/dxmath/xmvector-data-type">XMVECTOR Data Type</a>object <code>V</code>.
 
 ## -returns
 
-An instance of <a href="https://docs.microsoft.com/windows/desktop/dxmath/xmvector-data-type">XMVECTOR Data Type</a> whose <i>y</i> component has been set to the integer value pointed to by
+An instance of <a href="/windows/desktop/dxmath/xmvector-data-type">XMVECTOR Data Type</a> whose <i>y</i> component has been set to the integer value pointed to by
        the argument <i>y</i> of <code>XMVectorSetIntYPtr</code>. All other components of the returned <b>XMVECTOR Data Type</b>instance have the same value as those of the input vector <i>V</i>.
 
 ## -remarks
@@ -75,5 +75,4 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/dxmath/ovw-xnamath-reference-functions-accessors">DirectXMath Library Vector Accessor Functions</a>
-
+<a href="/windows/desktop/dxmath/ovw-xnamath-reference-functions-accessors">DirectXMath Library Vector Accessor Functions</a>

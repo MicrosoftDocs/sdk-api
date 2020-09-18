@@ -117,8 +117,8 @@ One or more of the following values that indicate an icon to display in the noti
                         
 
 <ul>
-<li>This flag can be used with all <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/ne-shellapi-shstockiconid">stock icons</a>.</li>
-<li>Applications that use older customized icons (NIIF_USER with <b>hIcon</b>) must provide a new SM_CXICON x SM_CYICON version in the tray icon specified in the <b>hIcon</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/ns-shellapi-notifyicondataa">NOTIFYICONDATA</a> structure. These icons are scaled down when they are displayed in the notification area.</li>
+<li>This flag can be used with all <a href="/windows/desktop/api/shellapi/ne-shellapi-shstockiconid">stock icons</a>.</li>
+<li>Applications that use older customized icons (NIIF_USER with <b>hIcon</b>) must provide a new SM_CXICON x SM_CYICON version in the tray icon specified in the <b>hIcon</b> member of the <a href="/windows/desktop/api/shellapi/ns-shellapi-notifyicondataa">NOTIFYICONDATA</a> structure. These icons are scaled down when they are displayed in the notification area.</li>
 <li>New customized icons (NIIF_USER with <b>hBalloonIcon</b>) must supply an SM_CXICON x SM_CYICON version in the supplied icon (<b>hBalloonIcon</b>).</li>
 </ul>
 
@@ -135,11 +135,10 @@ If the current user is not in quiet time, this flag has no effect.
 
 #### NIIF_ICON_MASK (0x0000000F)
 
-0x0000000F. <b>Windows XP</b> (<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb776779(v=vs.85)">Shell32.dll version 6.0</a><b>) and later</b>. Reserved.
+0x0000000F. <b>Windows XP</b> (<a href="/previous-versions/windows/desktop/legacy/bb776779(v=vs.85)">Shell32.dll version 6.0</a><b>) and later</b>. Reserved.
 
 ## -returns
 
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-

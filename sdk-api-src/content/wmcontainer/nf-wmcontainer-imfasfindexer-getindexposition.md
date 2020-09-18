@@ -57,7 +57,7 @@ Retrieves the offset of the index object from the start of the content.
 
 ### -param pIContentInfo [in]
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nn-wmcontainer-imfasfcontentinfo">IMFASFContentInfo</a> interface of the ContentInfo object that describes the content.
+Pointer to the <a href="/windows/desktop/api/wmcontainer/nn-wmcontainer-imfasfcontentinfo">IMFASFContentInfo</a> interface of the ContentInfo object that describes the content.
 
 ### -param pcbIndexOffset [out]
 
@@ -100,15 +100,14 @@ The method succeeded.
 
 The index continues from the offset retrieved by this method to the end of the file.
 
-You must call <a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfindexer-initialize">IMFASFIndexer::Initialize</a> to set up the indexer before calling this method.
+You must call <a href="/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfindexer-initialize">IMFASFIndexer::Initialize</a> to set up the indexer before calling this method.
 
-If the index is retrieved by using more than one call to <a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfindexer-getcompletedindex">IMFASFIndexer::GetCompletedIndex</a>, the position of individual index portions is equal to the index offset plus the offset of the portion within the index.
+If the index is retrieved by using more than one call to <a href="/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfindexer-getcompletedindex">IMFASFIndexer::GetCompletedIndex</a>, the position of individual index portions is equal to the index offset plus the offset of the portion within the index.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/asf-index-object">ASF Index Object</a>
+<a href="/windows/desktop/medfound/asf-index-object">ASF Index Object</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nn-wmcontainer-imfasfindexer">IMFASFIndexer</a>
-
+<a href="/windows/desktop/api/wmcontainer/nn-wmcontainer-imfasfindexer">IMFASFIndexer</a>

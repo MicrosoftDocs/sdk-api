@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Identifiers for properties of the <a href="https://docs.microsoft.com/windows/desktop/Direct2D/3d-transform">3D transform effect</a>.
+Identifiers for properties of the <a href="/windows/desktop/Direct2D/3d-transform">3D transform effect</a>.
 
 ## -enum-fields
 
@@ -97,4 +97,3 @@ Default value is Matrix4x4F(1, 0, 0, 0,
               0, 0, 0, 1).
 
 ### -field D2D1_3DTRANSFORM_PROP_FORCE_DWORD
-

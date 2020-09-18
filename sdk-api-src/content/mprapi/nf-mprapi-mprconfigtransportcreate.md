@@ -58,7 +58,7 @@ The
 ### -param hMprConfig [in]
 
 Handle to the router configuration to which to add the transport. Obtain this handle by calling 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mprconfigserverconnect">MprConfigServerConnect</a>.
+<a href="/windows/desktop/api/mprapi/nf-mprapi-mprconfigserverconnect">MprConfigServerConnect</a>.
 
 ### -param dwTransportId [in]
 
@@ -98,7 +98,7 @@ Pointer to a <b>null</b>-terminated Unicode string that specifies the name of th
 ### -param pGlobalInfo [in]
 
 Pointer to an information header that specifies global information for the transport. The router manager for the transport interprets this information. Use the 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/router-information-functions">Information Header Functions</a> to manipulate information headers.
+<a href="/windows/desktop/RRAS/router-information-functions">Information Header Functions</a> to manipulate information headers.
 
 ### -param dwGlobalInfoSize [in]
 
@@ -107,7 +107,7 @@ Specifies the size, in bytes, of the data pointed to by the <i>pGlobalInfo</i> p
 ### -param pClientInterfaceInfo [in, optional]
 
 Pointer to an information header that specifies default interface information for client routers. This information is used to configure dynamic interfaces for client routers for this transport. Use the 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/router-information-functions">Information Header Functions</a> to manipulate information headers. 
+<a href="/windows/desktop/RRAS/router-information-functions">Information Header Functions</a> to manipulate information headers. 
 
 
 
@@ -173,7 +173,7 @@ Insufficient resources to complete the operation.
 </td>
 <td width="60%">
 Use 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a> to retrieve the system error message that corresponds to the error code returned.
+<a href="/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a> to retrieve the system error message that corresponds to the error code returned.
 
 </td>
 </tr>
@@ -183,21 +183,20 @@ Use
 
 If the specified transport already exists, 
 <b>MprConfigTransportCreate</b> does the equivalent of an 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mprconfigtransportsetinfo">MprConfigTransportSetInfo</a> call using the supplied parameter values.
+<a href="/windows/desktop/api/mprapi/nf-mprapi-mprconfigtransportsetinfo">MprConfigTransportSetInfo</a> call using the supplied parameter values.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mprconfigserverconnect">MprConfigServerConnect</a>
+<a href="/windows/desktop/api/mprapi/nf-mprapi-mprconfigserverconnect">MprConfigServerConnect</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/router-configuration-functions">Router Configuration Functions</a>
+<a href="/windows/desktop/RRAS/router-configuration-functions">Router Configuration Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/router-management-reference">Router Management Reference</a>
-
+<a href="/windows/desktop/RRAS/router-management-reference">Router Management Reference</a>

@@ -50,17 +50,17 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[[This API may be altered or unavailable in subsequent versions of the operating system or product. Please use the <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/task-scheduler-2-0-interfaces">Task Scheduler 2.0 Interfaces</a> instead.] ]
+<p class="CCE_Message">[[This API may be altered or unavailable in subsequent versions of the operating system or product. Please use the <a href="/windows/desktop/TaskSchd/task-scheduler-2-0-interfaces">Task Scheduler 2.0 Interfaces</a> instead.] ]
 
 Provides the methods for accessing and setting triggers for a task. Triggers specify task start times, repetition criteria, and other parameters that control when a task is run.
 
-<b>ITaskTrigger</b> is the primary interface of the <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/t">task_trigger object</a>. To create a trigger object, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/mstask/nf-mstask-ischeduledworkitem-createtrigger">CreateTrigger</a> or 
-<a href="https://docs.microsoft.com/windows/desktop/api/mstask/nf-mstask-ischeduledworkitem-gettrigger">GetTrigger</a>.
+<b>ITaskTrigger</b> is the primary interface of the <a href="/windows/desktop/TaskSchd/t">task_trigger object</a>. To create a trigger object, call 
+<a href="/windows/desktop/api/mstask/nf-mstask-ischeduledworkitem-createtrigger">CreateTrigger</a> or 
+<a href="/windows/desktop/api/mstask/nf-mstask-ischeduledworkitem-gettrigger">GetTrigger</a>.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITaskTrigger</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITaskTrigger</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITaskTrigger</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITaskTrigger</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -75,7 +75,7 @@ The <b>ITaskTrigger</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mstask/nf-mstask-itasktrigger-gettrigger">GetTrigger</a>
+<a href="/windows/desktop/api/mstask/nf-mstask-itasktrigger-gettrigger">GetTrigger</a>
 </td>
 <td align="left" width="63%">
 Retrieves the current task trigger.
@@ -84,7 +84,7 @@ Retrieves the current task trigger.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mstask/nf-mstask-itasktrigger-gettriggerstring">GetTriggerString</a>
+<a href="/windows/desktop/api/mstask/nf-mstask-itasktrigger-gettriggerstring">GetTriggerString</a>
 </td>
 <td align="left" width="63%">
 Retrieves the current task trigger in the form of a string.
@@ -93,7 +93,7 @@ Retrieves the current task trigger in the form of a string.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mstask/nf-mstask-itasktrigger-settrigger">SetTrigger</a>
+<a href="/windows/desktop/api/mstask/nf-mstask-itasktrigger-settrigger">SetTrigger</a>
 </td>
 <td align="left" width="63%">
 Sets the task trigger values.
@@ -104,9 +104,8 @@ Sets the task trigger values.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mstask/nf-mstask-ischeduledworkitem-createtrigger">IScheduledWorkItem::CreateTrigger</a>
+<a href="/windows/desktop/api/mstask/nf-mstask-ischeduledworkitem-createtrigger">IScheduledWorkItem::CreateTrigger</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mstask/nf-mstask-ischeduledworkitem-gettrigger">IScheduledWorkItem::GetTrigger</a>
-
+<a href="/windows/desktop/api/mstask/nf-mstask-ischeduledworkitem-gettrigger">IScheduledWorkItem::GetTrigger</a>

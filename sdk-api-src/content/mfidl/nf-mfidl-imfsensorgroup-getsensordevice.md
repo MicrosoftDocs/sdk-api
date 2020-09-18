@@ -53,13 +53,13 @@ api_name:
 
 ## -description
 
-Gets the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfsensordevice">IMFSensorDevice</a> corresponding to a device in the sensor group.
+Gets the <a href="/windows/desktop/api/mfidl/nn-mfidl-imfsensordevice">IMFSensorDevice</a> corresponding to a device in the sensor group.
 
 ## -parameters
 
 ### -param dwIndex [in]
 
-The 0-based index of the device to be retrieved.  The index must be between 0 and the value returned by <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfsensorgroup-getsensordevicecount">GetSensorDeviceCount</a> - 1.
+The 0-based index of the device to be retrieved.  The index must be between 0 and the value returned by <a href="/windows/desktop/api/mfidl/nf-mfidl-imfsensorgroup-getsensordevicecount">GetSensorDeviceCount</a> - 1.
 
 ### -param ppDevice [out]
 
@@ -128,5 +128,4 @@ The term "device" in this context could refer to a physical device, a custom med
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfsensorgroup">IMFSensorGroup</a>
-
+<a href="/windows/desktop/api/mfidl/nn-mfidl-imfsensorgroup">IMFSensorGroup</a>

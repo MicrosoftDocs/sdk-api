@@ -270,5 +270,4 @@ If the function added is already in the list, it will be removed and inserted at
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/nf-bcrypt-bcryptremovecontextfunction">BCryptRemoveContextFunction</a>
-
+<a href="/windows/desktop/api/bcrypt/nf-bcrypt-bcryptremovecontextfunction">BCryptRemoveContextFunction</a>

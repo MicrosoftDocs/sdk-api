@@ -98,14 +98,13 @@ If a third-party DLL needs to keep track of a given packet and its progress thro
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dhcpssdk/ns-dhcpssdk-dhcp_callout_table">DHCP_CALLOUT_TABLE</a>
+<a href="/windows/desktop/api/dhcpssdk/ns-dhcpssdk-dhcp_callout_table">DHCP_CALLOUT_TABLE</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpssdk/nc-dhcpssdk-lpdhcp_entry_point_func">DhcpServerCalloutEntry</a>
+<a href="/previous-versions/windows/desktop/api/dhcpssdk/nc-dhcpssdk-lpdhcp_entry_point_func">DhcpServerCalloutEntry</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/dhcp/how-the-dhcp-server-api-operates">How the
+<a href="/previous-versions/windows/desktop/dhcp/how-the-dhcp-server-api-operates">How the
 		  DHCP Server API Operates</a>
-

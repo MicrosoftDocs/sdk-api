@@ -64,5 +64,4 @@ The data format used for a Remote Desktop Protocol (RDP) app container client sn
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rdpappcontainerclient/nf-rdpappcontainerclient-iremotedesktopclientactions-getsnapshot">GetSnapshot</a>
-
+<a href="/windows/desktop/api/rdpappcontainerclient/nf-rdpappcontainerclient-iremotedesktopclientactions-getsnapshot">GetSnapshot</a>

@@ -51,7 +51,7 @@ api_name:
 ## -description
 
 An application-defined callback function used with the 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-enumerateloadedmodules">EnumerateLoadedModules64</a> function.
+<a href="/windows/desktop/api/dbghelp/nf-dbghelp-enumerateloadedmodules">EnumerateLoadedModules64</a> function.
 
 The <b>PENUMLOADED_MODULES_CALLBACK64</b> and <b>PENUMLOADED_MODULES_CALLBACKW64</b> types define a pointer to this callback function. 
 <i>EnumerateLoadedModulesProc64</i> is a placeholder for the application-defined function name.
@@ -73,7 +73,7 @@ The size of the module, in bytes.
 ### -param UserContext [in, optional]
 
 Optional user-defined data. This value is passed from 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-enumerateloadedmodules">EnumerateLoadedModules64</a>.
+<a href="/windows/desktop/api/dbghelp/nf-dbghelp-enumerateloadedmodules">EnumerateLoadedModules64</a>.
 
 ## -returns
 
@@ -101,9 +101,8 @@ typedef BOOL (CALLBACK *PENUMLOADED_MODULES_CALLBACK)(
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Debug/dbghelp-functions">DbgHelp Functions</a>
+<a href="/windows/desktop/Debug/dbghelp-functions">DbgHelp Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-enumerateloadedmodules">EnumerateLoadedModules64</a>
-
+<a href="/windows/desktop/api/dbghelp/nf-dbghelp-enumerateloadedmodules">EnumerateLoadedModules64</a>

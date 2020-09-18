@@ -53,11 +53,11 @@ api_name:
 ## -description
 
 Describes the  progress of the cluster setup process. The 
-    <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nc-clusapi-pcluster_setup_progress_callback">ClusterSetupProgressCallback</a> function 
+    <a href="/windows/desktop/api/clusapi/nc-clusapi-pcluster_setup_progress_callback">ClusterSetupProgressCallback</a> function 
     uses this enumeration. The values of the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/ne-clusapi-cluster_setup_phase">CLUSTER_SETUP_PHASE</a> enumeration identify the current 
+    <a href="/windows/desktop/api/clusapi/ne-clusapi-cluster_setup_phase">CLUSTER_SETUP_PHASE</a> enumeration identify the current 
     phase of the cluster setup process. The values of the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/ne-clusapi-cluster_setup_phase_severity">CLUSTER_SETUP_PHASE_SEVERITY</a> enumeration 
+    <a href="/windows/desktop/api/clusapi/ne-clusapi-cluster_setup_phase_severity">CLUSTER_SETUP_PHASE_SEVERITY</a> enumeration 
     describe the  severity of the cluster setup process.
 
 ## -enum-fields
@@ -78,9 +78,8 @@ Indicates the end of a setup phase. Called once at the end of every setup phase.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-enumerations">Failover Cluster Enumerations</a>
+<a href="/previous-versions/windows/desktop/mscs/cluster-enumerations">Failover Cluster Enumerations</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nc-clusapi-pcluster_setup_progress_callback">PCLUSTER_SETUP_PROGRESS_CALLBACK</a>
-
+<a href="/windows/desktop/api/clusapi/nc-clusapi-pcluster_setup_progress_callback">PCLUSTER_SETUP_PROGRESS_CALLBACK</a>

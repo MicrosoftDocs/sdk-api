@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-Specifies whether the <a href="https://docs.microsoft.com/windows/desktop/api/opmapi/nn-opmapi-iopmvideooutput">IOPMVideoOutput</a> interface will use Output Protection Manager (OPM) semantics or Certified Output Protection Protocol (COPP) semantics.
+Specifies whether the <a href="/windows/desktop/api/opmapi/nn-opmapi-iopmvideooutput">IOPMVideoOutput</a> interface will use Output Protection Manager (OPM) semantics or Certified Output Protection Protocol (COPP) semantics.
 
 ## -enum-fields
 
@@ -68,13 +68,12 @@ The interface will use OPM semantics.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/opm-enumerations">OPM Enumerations</a>
+<a href="/windows/desktop/medfound/opm-enumerations">OPM Enumerations</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/opmapi/nf-opmapi-opmgetvideooutputsfromhmonitor">OPMGetVideoOutputsFromHMONITOR</a>
+<a href="/windows/desktop/api/opmapi/nf-opmapi-opmgetvideooutputsfromhmonitor">OPMGetVideoOutputsFromHMONITOR</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/opmapi/nf-opmapi-opmgetvideooutputsfromidirect3ddevice9object">OPMGetVideoOutputsFromIDirect3DDevice9Object</a>
-
+<a href="/windows/desktop/api/opmapi/nf-opmapi-opmgetvideooutputsfromidirect3ddevice9object">OPMGetVideoOutputsFromIDirect3DDevice9Object</a>

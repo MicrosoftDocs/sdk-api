@@ -58,7 +58,7 @@ The <b>IPSEC_PROPOSAL0</b> structure is used to store an IPsec quick mode propos
 
 ### -field lifetime
 
-Lifetime of the IPsec security association (SA) as specified by [IPSEC_SA_LIFETIME0](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_lifetime0). Cannot be zero.
+Lifetime of the IPsec security association (SA) as specified by [IPSEC_SA_LIFETIME0](/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_lifetime0). Cannot be zero.
 
 ### -field numSaTransforms
 
@@ -66,11 +66,11 @@ Number of IPsec SA transforms. The only possible values are 1 and 2. Use 2 only 
 
 ### -field saTransforms
 
-Array of IPsec SA transforms as specified by [IPSEC_SA_TRANSFORM0](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_transform0).
+Array of IPsec SA transforms as specified by [IPSEC_SA_TRANSFORM0](/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_transform0).
 
 ### -field pfsGroup
 
-Perfect forward secrecy (PFS) group of the IPsec SA as specified by [IPSEC_PFS_GROUP](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ne-ipsectypes-ipsec_pfs_group).
+Perfect forward secrecy (PFS) group of the IPsec SA as specified by [IPSEC_PFS_GROUP](/windows/desktop/api/ipsectypes/ne-ipsectypes-ipsec_pfs_group).
 
 ## -remarks
 
@@ -78,21 +78,20 @@ The proposal describes the
 various parameters of the IPsec SA that is potentially generated from this
 proposal.
 
-<b>IPSEC_PROPOSAL0</b> is a specific implementation of IPSEC_PROPOSAL. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a>  for more information.
+<b>IPSEC_PROPOSAL0</b> is a specific implementation of IPSEC_PROPOSAL. See <a href="/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a>  for more information.
 
 ## -see-also
 
-[IPSEC_PFS_GROUP](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ne-ipsectypes-ipsec_pfs_group)
+[IPSEC_PFS_GROUP](/windows/desktop/api/ipsectypes/ne-ipsectypes-ipsec_pfs_group)
 
 
 
-[IPSEC_SA_LIFETIME0](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_lifetime0)
+[IPSEC_SA_LIFETIME0](/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_lifetime0)
 
 
 
-[IPSEC_SA_TRANSFORM0](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_transform0)
+[IPSEC_SA_TRANSFORM0](/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_transform0)
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>
-
+<a href="/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>

@@ -50,11 +50,11 @@ api_name:
 
 ## -description
 
-The <code>IAMNetShowPreroll</code> interface sets and retrieves the preroll settings for the legacy Windows Media Player 6.4 source filter. The <a href="https://docs.microsoft.com/windows/desktop/DirectShow/windows-media-source-filter">Windows Media Source</a> filter implements this interface. The filter's default preroll time is five seconds.
+The <code>IAMNetShowPreroll</code> interface sets and retrieves the preroll settings for the legacy Windows Media Player 6.4 source filter. The <a href="/windows/desktop/DirectShow/windows-media-source-filter">Windows Media Source</a> filter implements this interface. The filter's default preroll time is five seconds.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAMNetShowPreroll</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IAMNetShowPreroll</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAMNetShowPreroll</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IAMNetShowPreroll</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IAMNetShowPreroll</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/qnetwork/nf-qnetwork-iamnetshowpreroll-get_preroll">get_Preroll</a>
+<a href="/windows/desktop/api/qnetwork/nf-qnetwork-iamnetshowpreroll-get_preroll">get_Preroll</a>
 </td>
 <td align="left" width="63%">
 Queries whether the filter is currently prerolling.
@@ -78,7 +78,7 @@ Queries whether the filter is currently prerolling.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/qnetwork/nf-qnetwork-iamnetshowpreroll-put_preroll">put_Preroll</a>
+<a href="/windows/desktop/api/qnetwork/nf-qnetwork-iamnetshowpreroll-put_preroll">put_Preroll</a>
 </td>
 <td align="left" width="63%">
 Specifies whether the filter should start prerolling.
@@ -100,5 +100,4 @@ To define the interface identifier, include the header file Initguid.h before Qn
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
-
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>

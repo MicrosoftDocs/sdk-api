@@ -61,13 +61,13 @@ A handle to the selected item in the scope pane.
 ### -param lpComponent [in]
 
 A pointer to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-icomponent">IComponent</a> interface on the selected object. <b>NULL</b> if the object selected is a folder (on the scope or result panes), and  
+<a href="/windows/desktop/api/mmc/nn-mmc-icomponent">IComponent</a> interface on the selected object. <b>NULL</b> if the object selected is a folder (on the scope or result panes), and  
 <b>IComponent</b> of the snap-in if it is a result pane leaf item.
 
 ### -param lpDataObject [in]
 
 A pointer to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a> interface on the data object.
+<a href="/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a> interface on the data object.
 
 ## -returns
 
@@ -76,11 +76,10 @@ This method can return one of these values.
 ## -remarks
 
 Items in the scope pane are owned by the console so there is no need to interact with the 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-icomponentdata">IComponentData</a> interface. The snap-in must implement 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-icomponent-compareobjects">IComponent::CompareObjects</a> or 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-icomponentdata-compareobjects">IComponentData::CompareObjects</a> to compare the data object with other data objects for existing property sheets.
+<a href="/windows/desktop/api/mmc/nn-mmc-icomponentdata">IComponentData</a> interface. The snap-in must implement 
+<a href="/windows/desktop/api/mmc/nf-mmc-icomponent-compareobjects">IComponent::CompareObjects</a> or 
+<a href="/windows/desktop/api/mmc/nf-mmc-icomponentdata-compareobjects">IComponentData::CompareObjects</a> to compare the data object with other data objects for existing property sheets.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-ipropertysheetprovider">IPropertySheetProvider</a>
-
+<a href="/windows/desktop/api/mmc/nn-mmc-ipropertysheetprovider">IPropertySheetProvider</a>

@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Retrieves the length, in characters, of a line in an edit or rich edit control. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/em-linelength">EM_LINELENGTH</a> message explicitly.
+Retrieves the length, in characters, of a line in an edit or rich edit control. You can use this macro or send the <a href="/windows/desktop/Controls/em-linelength">EM_LINELENGTH</a> message explicitly.
 
 ## -parameters
 
 ### -param hwndCtl
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the control.
 
@@ -68,5 +68,4 @@ The zero-based index of the line.
 
 ## -remarks
 
-For more information, see <a href="https://docs.microsoft.com/windows/desktop/Controls/em-linelength">EM_LINELENGTH</a>.
-
+For more information, see <a href="/windows/desktop/Controls/em-linelength">EM_LINELENGTH</a>.

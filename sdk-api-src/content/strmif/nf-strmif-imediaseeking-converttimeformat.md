@@ -61,7 +61,7 @@ Pointer to a variable that receives the converted time.
 
 ### -param pTargetFormat [in]
 
-Pointer to a GUID that specifies the target format. If <b>NULL</b>, the current format is used. See <a href="https://docs.microsoft.com/windows/desktop/DirectShow/time-format-guids">Time Format GUIDs</a>.
+Pointer to a GUID that specifies the target format. If <b>NULL</b>, the current format is used. See <a href="/windows/desktop/DirectShow/time-format-guids">Time Format GUIDs</a>.
 
 ### -param Source [in]
 
@@ -69,7 +69,7 @@ Time value to be converted.
 
 ### -param pSourceFormat [in]
 
-Pointer to a GUID that specifies the format to convert. If <b>NULL</b>, the current format is used. See <a href="https://docs.microsoft.com/windows/desktop/DirectShow/time-format-guids">Time Format GUIDs</a>.
+Pointer to a GUID that specifies the format to convert. If <b>NULL</b>, the current format is used. See <a href="/windows/desktop/DirectShow/time-format-guids">Time Format GUIDs</a>.
 
 ## -returns
 
@@ -128,9 +128,8 @@ Method is not supported.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-imediaseeking">IMediaSeeking Interface</a>
-
+<a href="/windows/desktop/api/strmif/nn-strmif-imediaseeking">IMediaSeeking Interface</a>

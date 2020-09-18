@@ -54,7 +54,7 @@ Applications use the methods of the <b>IDirectDrawGammaControl</b> interface to 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDirectDrawGammaControl</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDirectDrawGammaControl</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDirectDrawGammaControl</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDirectDrawGammaControl</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IDirectDrawGammaControl</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nf-ddraw-idirectdrawgammacontrol-getgammaramp">GetGammaRamp</a>
+<a href="/windows/desktop/api/ddraw/nf-ddraw-idirectdrawgammacontrol-getgammaramp">GetGammaRamp</a>
 </td>
 <td align="left" width="63%">
 Retrieves the red, green, and blue gamma ramps for the primary surface.
@@ -78,7 +78,7 @@ Retrieves the red, green, and blue gamma ramps for the primary surface.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nf-ddraw-idirectdrawgammacontrol-setgammaramp">SetGammaRamp</a>
+<a href="/windows/desktop/api/ddraw/nf-ddraw-idirectdrawgammacontrol-setgammaramp">SetGammaRamp</a>
 </td>
 <td align="left" width="63%">
 Sets the red, green, and blue gamma ramps for the primary surface.
@@ -90,7 +90,7 @@ Sets the red, green, and blue gamma ramps for the primary surface.
 
 ## -remarks
 
-The <b>IDirectDrawGammaControl</b> interface is supported by DirectDrawSurface objects. That is, you can retrieve a pointer to the <b>IDirectDrawGammaControl</b> interface by calling the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">IUnknown::QueryInterface</a> method of a DirectDrawSurface object and by specifying the IID_IDirectDrawGammaControl reference identifier in the <i>riid</i> parameter.
+The <b>IDirectDrawGammaControl</b> interface is supported by DirectDrawSurface objects. That is, you can retrieve a pointer to the <b>IDirectDrawGammaControl</b> interface by calling the <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">IUnknown::QueryInterface</a> method of a DirectDrawSurface object and by specifying the IID_IDirectDrawGammaControl reference identifier in the <i>riid</i> parameter.
 
 
 
@@ -104,4 +104,3 @@ You can use the LPDIRECTDRAWGAMMACONTROL data type to declare a variable that co
 typedef struct IDirectDrawGammaControl    FAR *LPDIRECTDRAWGAMMACONTROL;
 
 ```
-

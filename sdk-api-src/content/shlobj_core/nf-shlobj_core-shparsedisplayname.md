@@ -66,7 +66,7 @@ A pointer to a zero-terminated wide string that contains the display name to par
 
 ### -param pbc [in, optional]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ibindctx">IBindCtx</a>*</b>
+Type: <b><a href="/windows/desktop/api/objidl/nn-objidl-ibindctx">IBindCtx</a>*</b>
 
 A bind context that controls the parsing operation. This parameter is normally set to <b>NULL</b>.
 
@@ -74,19 +74,19 @@ A bind context that controls the parsing operation. This parameter is normally s
 
 Type: <b>PIDLIST_ABSOLUTE*</b>
 
-The address of a pointer to a variable of type <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> that receives the item identifier list for the object. If an error occurs, then this parameter is set to <b>NULL</b>.
+The address of a pointer to a variable of type <a href="/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> that receives the item identifier list for the object. If an error occurs, then this parameter is set to <b>NULL</b>.
 
 ### -param sfgaoIn [in]
 
 Type: <b>SFGAOF</b>
 
-A <b>ULONG</b> value that specifies the attributes to query. To query for one or more attributes, initialize this parameter with the flags that represent the attributes of interest. For a list of available SFGAO flags, see <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder-getattributesof">IShellFolder::GetAttributesOf</a>.
+A <b>ULONG</b> value that specifies the attributes to query. To query for one or more attributes, initialize this parameter with the flags that represent the attributes of interest. For a list of available SFGAO flags, see <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder-getattributesof">IShellFolder::GetAttributesOf</a>.
 
 ### -param psfgaoOut [out, optional]
 
 Type: <b>SFGAOF*</b>
 
-A pointer to a <b>ULONG</b>. On return, those attributes that are true for the object and were requested in <i>sfgaoIn</i> are set. An object's attribute flags can be zero or a combination of SFGAO flags. For a list of available SFGAO flags, see <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder-getattributesof">IShellFolder::GetAttributesOf</a>.
+A pointer to a <b>ULONG</b>. On return, those attributes that are true for the object and were requested in <i>sfgaoIn</i> are set. An object's attribute flags can be zero or a combination of SFGAO flags. For a list of available SFGAO flags, see <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder-getattributesof">IShellFolder::GetAttributesOf</a>.
 
 ## -returns
 
@@ -100,21 +100,20 @@ You should call this function from a background thread. Failure to do so could c
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ibindctx">IBindCtx</a>
+<a href="/windows/desktop/api/objidl/nn-objidl-ibindctx">IBindCtx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder-getattributesof">IShellFolder::GetAttributesOf</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder-getattributesof">IShellFolder::GetAttributesOf</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder-parsedisplayname">IShellFolder::ParseDisplayName</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder-parsedisplayname">IShellFolder::ParseDisplayName</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a>
+<a href="/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetpathfromidlista">SHGetPathFromIDList</a>
-
+<a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetpathfromidlista">SHGetPathFromIDList</a>

@@ -56,7 +56,7 @@ The <b>SetupDiGetClassBitmapIndex</b> function retrieves the index of the mini-i
 
 ### -param ClassGuid [in, optional]
 
-A pointer to the GUID of the <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-sp_devinfo_data">device setup class</a> for which to retrieve the mini-icon. This pointer is optional and can be <b>NULL</b>.
+A pointer to the GUID of the <a href="/windows/desktop/api/setupapi/ns-setupapi-sp_devinfo_data">device setup class</a> for which to retrieve the mini-icon. This pointer is optional and can be <b>NULL</b>.
 
 ### -param MiniIconIndex [out]
 
@@ -64,17 +64,16 @@ A pointer to a variable of type INT that receives the index of the mini-icon for
 
 ## -returns
 
-If there is a min-icon for the specified device setup class, <b>SetupDiGetClassBitmapIndex</b> returns <b>TRUE</b>. Otherwise, this function returns <b>FALSE</b> and the logged error can be retrieved with a call to <a href="https://msdn.microsoft.com/library/ms679360(VS.85).aspx">GetLastError</a>. If the <i>ClassGuid</i> parameter is <b>NULL</b>, or if there is no mini-icon for the specified class, the function returns <b>FALSE</b> and <a href="https://msdn.microsoft.com/library/ms679360(VS.85).aspx">GetLastError</a> returns ERROR_NO_DEVICE_ICON.
+If there is a min-icon for the specified device setup class, <b>SetupDiGetClassBitmapIndex</b> returns <b>TRUE</b>. Otherwise, this function returns <b>FALSE</b> and the logged error can be retrieved with a call to <a href="/windows/win32/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. If the <i>ClassGuid</i> parameter is <b>NULL</b>, or if there is no mini-icon for the specified class, the function returns <b>FALSE</b> and <a href="/windows/win32/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns ERROR_NO_DEVICE_ICON.
 
 ## -remarks
 
-For a list of the device setup class mini-icons and their corresponding indexes, see <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdidrawminiicon">SetupDiDrawMiniIcon</a>.
+For a list of the device setup class mini-icons and their corresponding indexes, see <a href="/windows/desktop/api/setupapi/nf-setupapi-setupdidrawminiicon">SetupDiDrawMiniIcon</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdidrawminiicon">SetupDiDrawMiniIcon</a>
+<a href="/windows/desktop/api/setupapi/nf-setupapi-setupdidrawminiicon">SetupDiDrawMiniIcon</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdiloadclassicon">SetupDiLoadClassIcon</a>
-
+<a href="/windows/desktop/api/setupapi/nf-setupapi-setupdiloadclassicon">SetupDiLoadClassIcon</a>

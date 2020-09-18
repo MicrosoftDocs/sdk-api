@@ -75,7 +75,7 @@ The handle of the  application window requesting the UI display.
 
 ### -param wlStartPage [in]
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ne-wlanapi-wl_display_pages">WL_DISPLAY_PAGES</a> value that specifies the active tab when the UI dialog box appears.
+A <a href="/windows/desktop/api/wlanapi/ne-wlanapi-wl_display_pages">WL_DISPLAY_PAGES</a> value that specifies the active tab when the UI dialog box appears.
 
 ### -param pReserved
 
@@ -83,7 +83,7 @@ Reserved for future use. Must be set to <b>NULL</b>.
 
 ### -param pWlanReasonCode [out]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/NativeWiFi/wlan-reason-code">WLAN_REASON_CODE</a> value that indicates why the UI display failed.
+A pointer to a <a href="/windows/desktop/NativeWiFi/wlan-reason-code">WLAN_REASON_CODE</a> value that indicates why the UI display failed.
 
 ## -returns
 
@@ -134,4 +134,3 @@ Various error codes.
 ## -remarks
 
 If <b>WlanUIEditProfile</b> returns ERROR_SUCCESS, any changes to the profile made in the UI will be saved in the profile store.
-

@@ -54,17 +54,17 @@ api_name:
 
 ## -description
 
-Stores user credential information  that was retrieved by the <a href="https://docs.microsoft.com/windows/desktop/api/davclnt/nc-davclnt-pfndavauthcallback">DavAuthCallback</a> callback function.
+Stores user credential information  that was retrieved by the <a href="/windows/desktop/api/davclnt/nc-davclnt-pfndavauthcallback">DavAuthCallback</a> callback function.
 
 ## -struct-fields
 
 ### -field AuthBlob
 
-If the <b>bAuthBlobValid</b> member is <b>TRUE</b>, this member is a <a href="https://docs.microsoft.com/windows/desktop/api/davclnt/ns-davclnt-dav_callback_auth_blob">DAV_CALLBACK_AUTH_BLOB</a> structure that contains the user credential information.
+If the <b>bAuthBlobValid</b> member is <b>TRUE</b>, this member is a <a href="/windows/desktop/api/davclnt/ns-davclnt-dav_callback_auth_blob">DAV_CALLBACK_AUTH_BLOB</a> structure that contains the user credential information.
 
 ### -field UNPBlob
 
-If the <b>bAuthBlobValid</b> member is <b>FALSE</b>, this member is a <a href="https://docs.microsoft.com/windows/desktop/api/davclnt/ns-davclnt-dav_callback_auth_unp">DAV_CALLBACK_AUTH_UNP</a> structure that contains the user credential information.
+If the <b>bAuthBlobValid</b> member is <b>FALSE</b>, this member is a <a href="/windows/desktop/api/davclnt/ns-davclnt-dav_callback_auth_unp">DAV_CALLBACK_AUTH_UNP</a> structure that contains the user credential information.
 
 ### -field bAuthBlobValid
 
@@ -72,25 +72,24 @@ If the <b>bAuthBlobValid</b> member is <b>FALSE</b>, this member is a <a href="h
 
 ### -field bSave
 
-<b>TRUE</b> if the credential information was written to the <a href="https://docs.microsoft.com/windows/desktop/SecAuthN/credential-manager">credential manager</a>, or <b>FALSE</b> otherwise.
+<b>TRUE</b> if the credential information was written to the <a href="/windows/desktop/SecAuthN/credential-manager">credential manager</a>, or <b>FALSE</b> otherwise.
 
 ## -remarks
 
-This structure is used by the <a href="https://docs.microsoft.com/windows/desktop/api/davclnt/nc-davclnt-pfndavauthcallback">DavAuthCallback</a> callback function.
+This structure is used by the <a href="/windows/desktop/api/davclnt/nc-davclnt-pfndavauthcallback">DavAuthCallback</a> callback function.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/davclnt/ns-davclnt-dav_callback_auth_blob">DAV_CALLBACK_AUTH_BLOB</a>
+<a href="/windows/desktop/api/davclnt/ns-davclnt-dav_callback_auth_blob">DAV_CALLBACK_AUTH_BLOB</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/davclnt/ns-davclnt-dav_callback_auth_unp">DAV_CALLBACK_AUTH_UNP</a>
+<a href="/windows/desktop/api/davclnt/ns-davclnt-dav_callback_auth_unp">DAV_CALLBACK_AUTH_UNP</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/davclnt/nc-davclnt-pfndavauthcallback">DavAuthCallback</a>
+<a href="/windows/desktop/api/davclnt/nc-davclnt-pfndavauthcallback">DavAuthCallback</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/davclnt/nc-davclnt-pfndavauthcallback_freecred">DavFreeCredCallback</a>
-
+<a href="/windows/desktop/api/davclnt/nc-davclnt-pfndavauthcallback_freecred">DavFreeCredCallback</a>

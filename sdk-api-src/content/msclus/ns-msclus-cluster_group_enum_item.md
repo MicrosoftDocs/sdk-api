@@ -56,7 +56,7 @@ api_name:
 ## -description
 
 Contains the properties of a cluster group. This structure  is used to enumerate cluster groups in the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-clustergroupenumex">ClusterGroupEnumEx</a> function.
+    <a href="/windows/desktop/api/clusapi/nf-clusapi-clustergroupenumex">ClusterGroupEnumEx</a> function.
 
 ## -struct-fields
 
@@ -118,4 +118,3 @@ The name of the cluster group.
 #### - IpszOwnerNode
 
 The name of the cluster node hosting the group.
-

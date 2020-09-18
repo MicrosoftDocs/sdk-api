@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-Creates a <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-size">Size</a> object and initializes its 
+Creates a <a href="/windows/desktop/api/gdiplustypes/nl-gdiplustypes-size">Size</a> object and initializes its 
 			<b>Width</b> and 
 			<b>Height</b> data members.
 
@@ -73,9 +73,8 @@ Integer that specifies the initial value of the
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-size">Size</a>
+<a href="/windows/desktop/api/gdiplustypes/nl-gdiplustypes-size">Size</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-class-size-constructors">Size Constructors</a>
-
+<a href="/windows/desktop/gdiplus/-gdiplus-class-size-constructors">Size Constructors</a>

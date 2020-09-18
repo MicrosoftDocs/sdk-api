@@ -58,25 +58,25 @@ Whether messages that are sent or received are streamed or buffered.
 
 Setting this flag means messages are delivered in chunks.  The start of the message
                     (opening tag, headers, and opening body tag) will be returned to the application
-                    when <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsreadmessagestart">WsReadMessageStart</a> completes.  It is up to the application to call
-                    <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsfillbody">WsFillBody</a> before reading each chunk of the message body.  The end of
-                    the message (closing body and envelope tags) will be read when <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsreadmessageend">WsReadMessageEnd</a>is called.
+                    when <a href="/windows/desktop/api/webservices/nf-webservices-wsreadmessagestart">WsReadMessageStart</a> completes.  It is up to the application to call
+                    <a href="/windows/desktop/api/webservices/nf-webservices-wsfillbody">WsFillBody</a> before reading each chunk of the message body.  The end of
+                    the message (closing body and envelope tags) will be read when <a href="/windows/desktop/api/webservices/nf-webservices-wsreadmessageend">WsReadMessageEnd</a>is called.
                 
 
 Not setting this flag means the entire message is read and buffered
-                    in memory before <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsreadmessagestart">WsReadMessageStart</a> indicates completion.
+                    in memory before <a href="/windows/desktop/api/webservices/nf-webservices-wsreadmessagestart">WsReadMessageStart</a> indicates completion.
 
 ### -field WS_STREAMED_OUTPUT_TRANSFER_MODE
 
 Setting this flag means messages are transmitted in chunks.  The start of the message (opening
-                    envelope tag, headers, and opening body tag) will be transmitted when <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wswritemessagestart">WsWriteMessageStart</a>is called.  It is up to the application to call <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsflushbody">WsFlushBody</a> after writing each chunk 
+                    envelope tag, headers, and opening body tag) will be transmitted when <a href="/windows/desktop/api/webservices/nf-webservices-wswritemessagestart">WsWriteMessageStart</a>is called.  It is up to the application to call <a href="/windows/desktop/api/webservices/nf-webservices-wsflushbody">WsFlushBody</a> after writing each chunk 
                     of the message body to cause the chunk to be transmitted.
-                    Any remaining body data will be transmitted when <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wswritemessageend">WsWriteMessageEnd</a> is called, along with
+                    Any remaining body data will be transmitted when <a href="/windows/desktop/api/webservices/nf-webservices-wswritemessageend">WsWriteMessageEnd</a> is called, along with
                     the end of the message (closing body and envelope tags).
                 
 
 Not setting this flag means the entire message is buffered in 
-                    memory and is only transmitted once <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wswritemessageend">WsWriteMessageEnd</a> is called.
+                    memory and is only transmitted once <a href="/windows/desktop/api/webservices/nf-webservices-wswritemessageend">WsWriteMessageEnd</a> is called.
 
 ### -field WS_BUFFERED_TRANSFER_MODE
 
@@ -84,7 +84,7 @@ Messages that are written or read are buffered.
                 
 
 This is equivalent to specifying neither
-                    <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_transfer_mode">WS_STREAMED_INPUT_TRANSFER_MODE</a> nor
+                    <a href="/windows/desktop/api/webservices/ne-webservices-ws_transfer_mode">WS_STREAMED_INPUT_TRANSFER_MODE</a> nor
                     <b>WS_STREAMED_OUTPUT_TRANSFER_MODE</b>.
 
 ### -field WS_STREAMED_TRANSFER_MODE
@@ -93,16 +93,15 @@ Messages that are written or read are streamed.
                 
 
 This is equivalent to specifying both
-                    <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_transfer_mode">WS_STREAMED_INPUT_TRANSFER_MODE</a> and
+                    <a href="/windows/desktop/api/webservices/ne-webservices-ws_transfer_mode">WS_STREAMED_INPUT_TRANSFER_MODE</a> and
                     <b>WS_STREAMED_OUTPUT_TRANSFER_MODE</b>.
 
 ## -remarks
 
 This value is specified for a channel using the 
-                <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_channel_property_id">WS_CHANNEL_PROPERTY_TRANSFER_MODE</a> channel property.
+                <a href="/windows/desktop/api/webservices/ne-webservices-ws_channel_property_id">WS_CHANNEL_PROPERTY_TRANSFER_MODE</a> channel property.
             
 
 The streaming programming model can be used regardless of which 
                 transfer mode is used.  In the case where streaming is not used, the calls
-                to the calls to <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsfillbody">WsFillBody</a> and <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsflushbody">WsFlushBody</a> are NOPs.
-
+                to the calls to <a href="/windows/desktop/api/webservices/nf-webservices-wsfillbody">WsFillBody</a> and <a href="/windows/desktop/api/webservices/nf-webservices-wsflushbody">WsFlushBody</a> are NOPs.

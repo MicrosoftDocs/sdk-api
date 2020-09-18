@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Specifies the type of acoustic environment that is simulated when audio is processed for an <a href="https://docs.microsoft.com/windows/desktop/api/spatialaudiohrtf/nn-spatialaudiohrtf-ispatialaudioobjectforhrtf">ISpatialAudioObjectForHrtf</a>.
+Specifies the type of acoustic environment that is simulated when audio is processed for an <a href="/windows/desktop/api/spatialaudiohrtf/nn-spatialaudiohrtf-ispatialaudioobjectforhrtf">ISpatialAudioObjectForHrtf</a>.
 
 ## -enum-fields
 
@@ -73,4 +73,3 @@ An outdoor space.
 ### -field SpatialAudioHrtfEnvironment_Average
 
 Reserved for Microsoft use. Apps should not use this value.
-

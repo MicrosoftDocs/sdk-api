@@ -51,13 +51,13 @@ api_name:
 
 ## -description
 
-Registers and unregisters filters, and locates filters in the registry. The <a href="https://docs.microsoft.com/windows/desktop/DirectShow/filter-mapper">Filter Mapper</a> helper object implements this interface.
+Registers and unregisters filters, and locates filters in the registry. The <a href="/windows/desktop/DirectShow/filter-mapper">Filter Mapper</a> helper object implements this interface.
 
-Filters use this interface to register and unregister themselves. When the filter graph manager builds a filter graph, it uses this interface to look up filters and determine their characteristics. Applications can also use this interface to look up filters. For more information, see <a href="https://docs.microsoft.com/windows/desktop/DirectShow/using-the-filter-mapper">Using the Filter Mapper</a> and <a href="https://docs.microsoft.com/windows/desktop/DirectShow/how-to-register-directshow-filters">How to Register DirectShow Filters</a>.
+Filters use this interface to register and unregister themselves. When the filter graph manager builds a filter graph, it uses this interface to look up filters and determine their characteristics. Applications can also use this interface to look up filters. For more information, see <a href="/windows/desktop/DirectShow/using-the-filter-mapper">Using the Filter Mapper</a> and <a href="/windows/desktop/DirectShow/how-to-register-directshow-filters">How to Register DirectShow Filters</a>.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFilterMapper2</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IFilterMapper2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFilterMapper2</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IFilterMapper2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,7 +72,7 @@ The <b>IFilterMapper2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ifiltermapper2-createcategory">CreateCategory</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-ifiltermapper2-createcategory">CreateCategory</a>
 </td>
 <td align="left" width="63%">
 Adds a new filter category to the registry.
@@ -81,7 +81,7 @@ Adds a new filter category to the registry.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ifiltermapper2-enummatchingfilters">EnumMatchingFilters</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-ifiltermapper2-enummatchingfilters">EnumMatchingFilters</a>
 </td>
 <td align="left" width="63%">
 Enumerates registered filters that meet specified requirements.
@@ -90,7 +90,7 @@ Enumerates registered filters that meet specified requirements.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ifiltermapper2-registerfilter">RegisterFilter</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-ifiltermapper2-registerfilter">RegisterFilter</a>
 </td>
 <td align="left" width="63%">
 Adds filter information to the registry.
@@ -99,7 +99,7 @@ Adds filter information to the registry.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ifiltermapper2-unregisterfilter">UnregisterFilter</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-ifiltermapper2-unregisterfilter">UnregisterFilter</a>
 </td>
 <td align="left" width="63%">
 Removes filter information from the registry.
@@ -107,4 +107,3 @@ Removes filter information from the registry.
 </td>
 </tr>
 </table>
-

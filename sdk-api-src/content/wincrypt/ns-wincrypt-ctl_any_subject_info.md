@@ -54,36 +54,35 @@ api_name:
 
 ## -description
 
-The <b>CTL_ANY_SUBJECT_INFO</b> structure contains a <b>SubjectAlgorithm</b> to be matched in the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate trust list</a> (CTL) and the <b>SubjectIdentifier</b> to be matched in one of the CTL entries in calls to 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certfindsubjectinctl">CertFindSubjectInCTL</a>.
+The <b>CTL_ANY_SUBJECT_INFO</b> structure contains a <b>SubjectAlgorithm</b> to be matched in the <a href="/windows/desktop/SecGloss/c-gly">certificate trust list</a> (CTL) and the <b>SubjectIdentifier</b> to be matched in one of the CTL entries in calls to 
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-certfindsubjectinctl">CertFindSubjectInCTL</a>.
 
 ## -struct-fields
 
 ### -field SubjectAlgorithm
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_algorithm_identifier">CRYPT_ALGORITHM_IDENTIFIER</a> structure containing the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly">object identifier</a> (OID) of an algorithm type and any associated additional parameters. The <b>pszObjId</b> can be set to <b>NULL</b> to exclude a <b>SubjectAlgorithm</b> comparison.
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-crypt_algorithm_identifier">CRYPT_ALGORITHM_IDENTIFIER</a> structure containing the <a href="/windows/desktop/SecGloss/o-gly">object identifier</a> (OID) of an algorithm type and any associated additional parameters. The <b>pszObjId</b> can be set to <b>NULL</b> to exclude a <b>SubjectAlgorithm</b> comparison.
 
 ### -field SubjectIdentifier
 
-<a href="https://docs.microsoft.com/windows/desktop/SecGloss/b-gly">BLOB</a> containing a unique identifier of the subject.
+<a href="/windows/desktop/SecGloss/b-gly">BLOB</a> containing a unique identifier of the subject.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_algorithm_identifier">CRYPT_ALGORITHM_IDENTIFIER</a>
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-crypt_algorithm_identifier">CRYPT_ALGORITHM_IDENTIFIER</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_INTEGER_BLOB</a>
+<a href="/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_INTEGER_BLOB</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-ctl_find_subject_para">CTL_FIND_SUBJECT_PARA</a>
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-ctl_find_subject_para">CTL_FIND_SUBJECT_PARA</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certfindctlinstore">CertFindCTLInStore</a>
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-certfindctlinstore">CertFindCTLInStore</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certfindsubjectinctl">CertFindSubjectInCTL</a>
-
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-certfindsubjectinctl">CertFindSubjectInCTL</a>

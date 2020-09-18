@@ -64,14 +64,14 @@ The <b>VSS_BACKUP_SCHEMA</b> enumeration is used by
 ### -field VSS_BS_UNDEFINED
 
 The writer supports a simple full backup and restoration of entire files (as defined by a 
-      <a href="https://docs.microsoft.com/windows/desktop/api/vss/ne-vss-vss_backup_type">VSS_BACKUP_TYPE</a> value of 
+      <a href="/windows/desktop/api/vss/ne-vss-vss_backup_type">VSS_BACKUP_TYPE</a> value of 
       <b>VSS_BT_FULL</b>). This backup scheme can be used as the basis of an incremental or 
       differential backup. This is the default value.
 
 ### -field VSS_BS_DIFFERENTIAL
 
 The writer supports differential backups (corresponding to the 
-      <a href="https://docs.microsoft.com/windows/desktop/api/vss/ne-vss-vss_backup_type">VSS_BACKUP_TYPE</a> value 
+      <a href="/windows/desktop/api/vss/ne-vss-vss_backup_type">VSS_BACKUP_TYPE</a> value 
       <b>VSS_BT_DIFFERENTIAL</b>). Files created or changed since the last full backup are saved. 
       Files are not marked as having been backed up.
       
@@ -83,7 +83,7 @@ This value is not supported for express writers.
 ### -field VSS_BS_INCREMENTAL
 
 The writer supports incremental backups (corresponding to the 
-      <a href="https://docs.microsoft.com/windows/desktop/api/vss/ne-vss-vss_backup_type">VSS_BACKUP_TYPE</a> value 
+      <a href="/windows/desktop/api/vss/ne-vss-vss_backup_type">VSS_BACKUP_TYPE</a> value 
       <b>VSS_BT_INCREMENTAL</b>). Files created or changed since the last full or incremental 
       backup are saved. Files are marked as having been backed up. 
       
@@ -104,12 +104,12 @@ This value is not supported for express writers.
 ### -field VSS_BS_LOG
 
 The writer supports backups that involve only the log files it manages (corresponding to a 
-      <a href="https://docs.microsoft.com/windows/desktop/api/vss/ne-vss-vss_backup_type">VSS_BACKUP_TYPE</a> value of 
+      <a href="/windows/desktop/api/vss/ne-vss-vss_backup_type">VSS_BACKUP_TYPE</a> value of 
       <b>VSS_BT_LOG</b>). This schema requires a writer to have added at least one file to at 
       least one component using the 
-      <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscreatewritermetadata-adddatabaselogfiles">IVssCreateWriterMetadata::AddDataBaseLogFiles</a> 
+      <a href="/windows/desktop/api/vswriter/nf-vswriter-ivsscreatewritermetadata-adddatabaselogfiles">IVssCreateWriterMetadata::AddDataBaseLogFiles</a> 
       method. Requesters retrieve log file information using the 
-      <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivsswmcomponent-getdatabaselogfile">IVssWMComponent::GetDatabaseLogFile</a> 
+      <a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivsswmcomponent-getdatabaselogfile">IVssWMComponent::GetDatabaseLogFile</a> 
       method.
 
 ### -field VSS_BS_COPY
@@ -125,10 +125,10 @@ Similar to the default backup schema (<b>VSS_BT_UNDEFINED</b>), the writer suppo
 A writer supports using the VSS time-stamp mechanism when evaluating if a file should be included in 
       differential or incremental operations (corresponding to <b>VSS_BT_DIFFERENTIAL</b> and 
       <b>VSS_BT_INCREMENTAL</b>, respectively) using the 
-      <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-getbackupstamp">IVssComponent::GetBackupStamp</a>, 
-      <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-getpreviousbackupstamp">IVssComponent::GetPreviousBackupStamp</a>, 
-      <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-setbackupstamp">IVssComponent::SetBackupStamp</a>, and 
-      <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-setpreviousbackupstamp">IVssBackupComponents::SetPreviousBackupStamp</a> 
+      <a href="/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-getbackupstamp">IVssComponent::GetBackupStamp</a>, 
+      <a href="/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-getpreviousbackupstamp">IVssComponent::GetPreviousBackupStamp</a>, 
+      <a href="/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-setbackupstamp">IVssComponent::SetBackupStamp</a>, and 
+      <a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-setpreviousbackupstamp">IVssBackupComponents::SetPreviousBackupStamp</a> 
       methods. 
       
 
@@ -141,9 +141,9 @@ This value is not supported for express writers.
 
 When implementing incremental or differential backups with differenced files, a writer can provide last 
       modification time information for files (using 
-      <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-adddifferencedfilesbylastmodifytime">IVssComponent::AddDifferencedFilesByLastModifyTime</a>). 
+      <a href="/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-adddifferencedfilesbylastmodifytime">IVssComponent::AddDifferencedFilesByLastModifyTime</a>). 
       A requester then can use 
-      <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-getdifferencedfile">IVssComponent::GetDifferencedFile</a> to 
+      <a href="/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-getdifferencedfile">IVssComponent::GetDifferencedFile</a> to 
       obtain candidate files and information about their last modification data. The requester can use this 
       information (along with any records about previous backup operations it maintains) to decide if a file should be 
       included in incremental and differential backups. 
@@ -164,15 +164,15 @@ Reserved for system use.
 ### -field VSS_BS_WRITER_SUPPORTS_NEW_TARGET
 
 The writer supports a requester changing the target for file restoration using 
-      <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-addnewtarget">IVssBackupComponents::AddNewTarget</a>. 
-      (See <a href="https://docs.microsoft.com/windows/desktop/VSS/non-default-backup-and-restore-locations">Non-Default Backup And Restore 
+      <a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-addnewtarget">IVssBackupComponents::AddNewTarget</a>. 
+      (See <a href="/windows/desktop/VSS/non-default-backup-and-restore-locations">Non-Default Backup And Restore 
       Locations</a> for more information.)
 
 This value is not supported for express writers.
 
 ### -field VSS_BS_WRITER_SUPPORTS_RESTORE_WITH_MOVE
 
-The writer supports running multiple writer instances with the same class ID, and it supports a requester moving a component to a different writer instance at restore time using <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponentsex-setselectedforrestoreex">IVssBackupComponentsEx::SetSelectedForRestoreEx</a>.
+The writer supports running multiple writer instances with the same class ID, and it supports a requester moving a component to a different writer instance at restore time using <a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponentsex-setselectedforrestoreex">IVssBackupComponentsEx::SetSelectedForRestoreEx</a>.
       
 
 This value is not supported for express writers.
@@ -187,7 +187,7 @@ The writer supports backing up data that is part of the system state, but that c
 
 ### -field VSS_BS_ROLLFORWARD_RESTORE
 
-The writer supports a requester setting a roll-forward restore point using <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponentsex2-setrollforward">IVssBackupComponentsEx2::SetRollForward</a>.
+The writer supports a requester setting a roll-forward restore point using <a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponentsex2-setrollforward">IVssBackupComponentsEx2::SetRollForward</a>.
 
 This value is not supported for express writers.
 
@@ -195,7 +195,7 @@ This value is not supported for express writers.
 
 ### -field VSS_BS_RESTORE_RENAME
 
-The writer supports a requester setting a restore name using <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponentsex2-setrestorename">IVssBackupComponentsEx2::SetRestoreName</a>.
+The writer supports a requester setting a restore name using <a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponentsex2-setrestorename">IVssBackupComponentsEx2::SetRestoreName</a>.
 
 This value is not supported for express writers.
 
@@ -203,7 +203,7 @@ This value is not supported for express writers.
 
 ### -field VSS_BS_AUTHORITATIVE_RESTORE
 
-The writer supports a requester setting authoritative restore using <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponentsex2-setauthoritativerestore">IVssBackupComponentsEx2::SetAuthoritativeRestore</a>.
+The writer supports a requester setting authoritative restore using <a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponentsex2-setauthoritativerestore">IVssBackupComponentsEx2::SetAuthoritativeRestore</a>.
 
 This value is not supported for express writers.
 
@@ -220,10 +220,10 @@ This value is not supported for express writers.
 ## -remarks
 
 Writer set their backup schemas with calls to 
-    <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscreatewritermetadata-setbackupschema">IVssCreateWriterMetadata::SetBackupSchema</a>.
+    <a href="/windows/desktop/api/vswriter/nf-vswriter-ivsscreatewritermetadata-setbackupschema">IVssCreateWriterMetadata::SetBackupSchema</a>.
 
 Requesters use 
-    <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssexaminewritermetadata-getbackupschema">IVssExamineWriterMetadata::GetBackupSchema</a> 
+    <a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssexaminewritermetadata-getbackupschema">IVssExamineWriterMetadata::GetBackupSchema</a> 
     to determine the backup schema that a writer supports.
 
 For a specific kind of backup operation to be supported, the writer must support the corresponding schema, and 
@@ -233,56 +233,55 @@ For example, to involve a writer in an incremental backup operation, the request
     <b>VSS_BT_INCREMENTAL</b>, and the writer should have a backup schema that includes <b>VSS_BS_INCREMENTAL</b>.
 
 A writer that does not support the backup schema corresponding to a requester's backup type should treat the backup operation that is being performed as if it were a default (full) backup. If the desired backup type is not supported by the writer's backup schema, the requester can either perform a full backup for this writer or exclude the writer from the backup operation. A requester can exclude a writer by selecting none of the writer's components (see 
-    <a href="https://docs.microsoft.com/windows/desktop/VSS/working-with-selectability-and-logical-paths">Working with Selectability and 
+    <a href="/windows/desktop/VSS/working-with-selectability-and-logical-paths">Working with Selectability and 
     Logical Paths</a>), or by disabling the writer (see 
-    <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-disablewriterclasses">IVssBackupComponents::DisableWriterClasses</a> or 
-    <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-disablewriterinstances">IVssBackupComponents::DisableWriterInstances</a>).
+    <a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-disablewriterclasses">IVssBackupComponents::DisableWriterClasses</a> or 
+    <a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-disablewriterinstances">IVssBackupComponents::DisableWriterInstances</a>).
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-setbackupstate">IVssBackupComponents::SetBackupState</a>
+<a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-setbackupstate">IVssBackupComponents::SetBackupState</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponentsex2-setauthoritativerestore">IVssBackupComponentsEx2::SetAuthoritativeRestore</a>
+<a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponentsex2-setauthoritativerestore">IVssBackupComponentsEx2::SetAuthoritativeRestore</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponentsex2-setrestorename">IVssBackupComponentsEx2::SetRestoreName</a>
+<a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponentsex2-setrestorename">IVssBackupComponentsEx2::SetRestoreName</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponentsex2-setrollforward">IVssBackupComponentsEx2::SetRollForward</a>
+<a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponentsex2-setrollforward">IVssBackupComponentsEx2::SetRollForward</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponentsex-setselectedforrestoreex">IVssBackupComponentsEx::SetSelectedForRestoreEx</a>
+<a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponentsex-setselectedforrestoreex">IVssBackupComponentsEx::SetSelectedForRestoreEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-adddifferencedfilesbylastmodifytime">IVssComponent::AddDifferencedFilesByLastModifyTime</a>
+<a href="/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-adddifferencedfilesbylastmodifytime">IVssComponent::AddDifferencedFilesByLastModifyTime</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-addpartialfile">IVssComponent::AddPartialFile</a>
+<a href="/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-addpartialfile">IVssComponent::AddPartialFile</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscreatewritermetadata-setbackupschema">IVssCreateWriterMetadata::SetBackupSchema</a>
+<a href="/windows/desktop/api/vswriter/nf-vswriter-ivsscreatewritermetadata-setbackupschema">IVssCreateWriterMetadata::SetBackupSchema</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssexaminewritermetadata-getbackupschema">IVssExamineWriterMetadata::GetBackupSchema</a>
+<a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssexaminewritermetadata-getbackupschema">IVssExamineWriterMetadata::GetBackupSchema</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/VSS/incremental-and-differential-backups">Incremental and Differential Backups</a>
+<a href="/windows/desktop/VSS/incremental-and-differential-backups">Incremental and Differential Backups</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/ne-vswriter-vss_component_flags">VSS_COMPONENT_FLAGS</a>
+<a href="/windows/desktop/api/vswriter/ne-vswriter-vss_component_flags">VSS_COMPONENT_FLAGS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/ne-vswriter-vss_usage_type">VSS_USAGE_TYPE</a>
-
+<a href="/windows/desktop/api/vswriter/ne-vswriter-vss_usage_type">VSS_USAGE_TYPE</a>

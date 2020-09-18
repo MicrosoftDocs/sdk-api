@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-The <b>EMRCREATEPALETTE</b> structure contains members for the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createpalette">CreatePalette</a> enhanced metafile record.
+The <b>EMRCREATEPALETTE</b> structure contains members for the <a href="/windows/desktop/api/wingdi/nf-wingdi-createpalette">CreatePalette</a> enhanced metafile record.
 
 ## -struct-fields
 
@@ -68,25 +68,24 @@ Index of palette in handle table.
 
 ### -field lgpl
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-logpalette">LOGPALETTE</a> structure that contains information about the palette. Note that <b>peFlags</b> members in the <a href="https://docs.microsoft.com/previous-versions/dd162769(v=vs.85)">PALETTEENTRY</a> structures do not contain any flags.
+A <a href="/windows/desktop/api/wingdi/ns-wingdi-logpalette">LOGPALETTE</a> structure that contains information about the palette. Note that <b>peFlags</b> members in the <a href="/previous-versions/dd162769(v=vs.85)">PALETTEENTRY</a> structures do not contain any flags.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createpalette">CreatePalette</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-createpalette">CreatePalette</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-logpalette">LOGPALETTE</a>
+<a href="/windows/desktop/api/wingdi/ns-wingdi-logpalette">LOGPALETTE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/metafile-structures">Metafile Structures</a>
+<a href="/windows/desktop/gdi/metafile-structures">Metafile Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/metafiles">Metafiles Overview</a>
+<a href="/windows/desktop/gdi/metafiles">Metafiles Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/dd162769(v=vs.85)">PALETTEENTRY</a>
-
+<a href="/previous-versions/dd162769(v=vs.85)">PALETTEENTRY</a>

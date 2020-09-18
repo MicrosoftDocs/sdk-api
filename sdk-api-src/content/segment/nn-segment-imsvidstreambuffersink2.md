@@ -57,7 +57,7 @@ The <b>IMSVidStreamBufferSink2</b> interface represents the Stream Buffer Sink f
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMSVidStreamBufferSink2</b> interface inherits from <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/msvidstreambuffersink">IMSVidStreamBufferSink</a>. <b>IMSVidStreamBufferSink2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMSVidStreamBufferSink2</b> interface inherits from <a href="/previous-versions/windows/desktop/mstv/msvidstreambuffersink">IMSVidStreamBufferSink</a>. <b>IMSVidStreamBufferSink2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,7 +72,7 @@ The <b>IMSVidStreamBufferSink2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidstreambuffersink2-unlockprofile">UnlockProfile</a>
+<a href="/windows/desktop/api/segment/nf-segment-imsvidstreambuffersink2-unlockprofile">UnlockProfile</a>
 </td>
 <td align="left" width="63%">
 Unlocks the stream buffer profile.
@@ -87,9 +87,8 @@ To declare the interface identifier (IID) for this interface, use the <b>__uuido
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/msvidstreambuffersink">IMSVidStreamBufferSink</a>
+<a href="/previous-versions/windows/desktop/mstv/msvidstreambuffersink">IMSVidStreamBufferSink</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/video-control-interfaces">Video Control Interfaces</a>
-
+<a href="/previous-versions/windows/desktop/mstv/video-control-interfaces">Video Control Interfaces</a>

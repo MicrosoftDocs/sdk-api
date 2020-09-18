@@ -42,7 +42,7 @@ f1_keywords:
 
 ## -description
 
-The **WSATHREADID** structure enables a provider to identify a thread on which asynchronous procedure calls (APCs) can be queued using the [**WPUQueueApc**](/windows/win32/api/ws2spi/nf-ws2spi-wpuqueueapc.md) function.
+The **WSATHREADID** structure enables a provider to identify a thread on which asynchronous procedure calls (APCs) can be queued using the [**WPUQueueApc**](./nf-ws2spi-wpuqueueapc.md) function.
 
 ## -struct-fields
 
@@ -70,4 +70,3 @@ Reserved.
    
 
 <b><a href="/windows/win32/api/ws2spi/nc-ws2spi-lpwspsend">LPWSPSend</a></b>
-

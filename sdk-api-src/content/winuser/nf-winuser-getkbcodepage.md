@@ -51,7 +51,7 @@ api_name:
 ## -description
 
 Retrieves the current code page.
-<div class="alert"><b>Note</b>  This function is provided only for compatibility with 16-bit versions of Windows. Applications should use the <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-getoemcp">GetOEMCP</a> function to retrieve the OEM code-page identifier for the system.</div><div> </div>
+<div class="alert"><b>Note</b>  This function is provided only for compatibility with 16-bit versions of Windows. Applications should use the <a href="/windows/desktop/api/winnls/nf-winnls-getoemcp">GetOEMCP</a> function to retrieve the OEM code-page identifier for the system.</div><div> </div>
 
 ## -parameters
 
@@ -59,7 +59,7 @@ Retrieves the current code page.
 
 Type: <b>UINT</b>
 
-The return value is an OEM code-page identifier, or it is the default identifier if the registry value is not readable. For a list of OEM code-page identifiers, see <a href="https://docs.microsoft.com/windows/desktop/Intl/code-page-identifiers">Code Page Identifiers</a>.
+The return value is an OEM code-page identifier, or it is the default identifier if the registry value is not readable. For a list of OEM code-page identifiers, see <a href="/windows/desktop/Intl/code-page-identifiers">Code Page Identifiers</a>.
 
 ## -see-also
 
@@ -67,17 +67,16 @@ The return value is an OEM code-page identifier, or it is the default identifier
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-getacp">GetACP</a>
+<a href="/windows/desktop/api/winnls/nf-winnls-getacp">GetACP</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-getoemcp">GetOEMCP</a>
+<a href="/windows/desktop/api/winnls/nf-winnls-getoemcp">GetOEMCP</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/inputdev/keyboard-input">Keyboard Input</a>
+<a href="/windows/desktop/inputdev/keyboard-input">Keyboard Input</a>
 
 
 
 <b>Reference</b>
-

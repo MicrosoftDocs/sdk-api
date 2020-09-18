@@ -75,17 +75,16 @@ Pointer to a location indicating the size of the memory block referenced by <i>l
 
 Returns zero if successful or an error otherwise.
 
-The argument <i>pavi</i> is a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/vfw/nn-vfw-iavistream">IAVIStream</a> interface.
+The argument <i>pavi</i> is a pointer to an <a href="/windows/desktop/api/vfw/nn-vfw-iavistream">IAVIStream</a> interface.
 
 ## -remarks
 
-Standard video stream handlers provide format information in a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-bitmapinfoheader">BITMAPINFOHEADER</a> structure. Standard audio stream handlers provide format information in a <a href="https://docs.microsoft.com/previous-versions/dd743663(v=vs.85)">PCMWAVEFORMAT</a> structure. Other data streams can use other structures that describe the stream data.
+Standard video stream handlers provide format information in a <a href="/windows/desktop/api/wingdi/ns-wingdi-bitmapinfoheader">BITMAPINFOHEADER</a> structure. Standard audio stream handlers provide format information in a <a href="/previous-versions/dd743663(v=vs.85)">PCMWAVEFORMAT</a> structure. Other data streams can use other structures that describe the stream data.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/avifile-functions">AVIFile Functions</a>
+<a href="/windows/desktop/Multimedia/avifile-functions">AVIFile Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/avifile-functions-and-macros">AVIFile Functions and Macros</a>
-
+<a href="/windows/desktop/Multimedia/avifile-functions-and-macros">AVIFile Functions and Macros</a>

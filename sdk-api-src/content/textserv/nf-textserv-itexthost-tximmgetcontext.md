@@ -68,7 +68,7 @@ The handle to the input context.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/textserv/nl-textserv-itexthost">ITextHost</a>
+<a href="/windows/desktop/api/textserv/nl-textserv-itexthost">ITextHost</a>
 
 
 
@@ -76,9 +76,8 @@ The handle to the input context.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/textserv/nf-textserv-itexthost-tximmreleasecontext">TxImmReleaseContext</a>
+<a href="/windows/desktop/api/textserv/nf-textserv-itexthost-tximmreleasecontext">TxImmReleaseContext</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Controls/windowless-rich-edit-controls">Windowless Rich Edit Controls</a>
-
+<a href="/windows/desktop/Controls/windowless-rich-edit-controls">Windowless Rich Edit Controls</a>

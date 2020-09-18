@@ -60,11 +60,10 @@ The <b>IsAlphaPixelFormat</b> method determines whether a specified pixel format
 
 Type: <b>PixelFormat</b>
 
-A <a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-constant-image-pixel-format-constants">PixelFormat</a> constant that specifies the pixel format to be tested.
+A <a href="/windows/desktop/gdiplus/-gdiplus-constant-image-pixel-format-constants">PixelFormat</a> constant that specifies the pixel format to be tested.
 
 ## -returns
 
 Type: <b>BOOL</b>
 
 If the pixel format has an alpha component, this method returns <b>TRUE</b>; otherwise, it returns <b>FALSE</b>.
-

@@ -123,5 +123,4 @@ The knowledge object contained in this object has changed since this object was 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-icorefragmentinspector">ICoreFragmentInspector Interface</a>
-
+<a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-icorefragmentinspector">ICoreFragmentInspector Interface</a>

@@ -56,7 +56,7 @@ api_name:
 
 The <b>CRYPT_XML_STATUS</b> structure returns information about the signature validation status, 
   summary status information about a <b>SignedInfo</b> element, or summary status information 
-  about an array of <b>Reference</b> elements. The <b>CRYPT_XML_STATUS</b> structure is used by the <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/nf-cryptxml-cryptxmlgetstatus">CryptXmlGetStatus</a> function.
+  about an array of <b>Reference</b> elements. The <b>CRYPT_XML_STATUS</b> structure is used by the <a href="/windows/desktop/api/cryptxml/nf-cryptxml-cryptxmlgetstatus">CryptXmlGetStatus</a> function.
 
 ## -struct-fields
 
@@ -228,4 +228,3 @@ The document is open for encoding.
 </td>
 </tr>
 </table>
-

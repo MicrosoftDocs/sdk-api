@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>CertFreeCTLContext</b> function frees a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate trust list</a> (CTL) <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">context</a> by decrementing its <a href="https://docs.microsoft.com/windows/desktop/SecGloss/r-gly">reference count</a>. When the reference count goes to zero, <b>CertFreeCTLContext</b> frees the memory used by a CTL context.
+The <b>CertFreeCTLContext</b> function frees a <a href="/windows/desktop/SecGloss/c-gly">certificate trust list</a> (CTL) <a href="/windows/desktop/SecGloss/c-gly">context</a> by decrementing its <a href="/windows/desktop/SecGloss/r-gly">reference count</a>. When the reference count goes to zero, <b>CertFreeCTLContext</b> frees the memory used by a CTL context.
 
 To free a context obtained by a get, duplicate, or create function, call the appropriate free function.  To free a context obtained by a find or enumerate function, either pass it in   as the previous context parameter to a subsequent invocation of the function, or call the appropriate free function.  For more information, see the  reference topic for the function that obtains the context.
 
@@ -59,7 +59,7 @@ To free a context obtained by a get, duplicate, or create function, call the app
 ### -param pCtlContext [in]
 
 A pointer to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-ctl_context">CTL_CONTEXT</a> to be freed.
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-ctl_context">CTL_CONTEXT</a> to be freed.
 
 ## -returns
 
@@ -67,13 +67,12 @@ The function always returns <b>TRUE</b>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-ctl_context">CTL_CONTEXT</a>
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-ctl_context">CTL_CONTEXT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certfreecrlcontext">CertFreeCRLContext</a>
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-certfreecrlcontext">CertFreeCRLContext</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">Certificate Trust List Functions</a>
-
+<a href="/windows/desktop/SecCrypto/cryptography-functions">Certificate Trust List Functions</a>

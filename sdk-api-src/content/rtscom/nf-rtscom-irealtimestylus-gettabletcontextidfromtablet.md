@@ -64,18 +64,18 @@ The unique identifier for the tablet context.
 
 ## -returns
 
-For a description of the return values, see <a href="https://docs.microsoft.com/windows/desktop/tablet/realtimestylus-classes-and-interfaces">RealTimeStylus Classes and Interfaces</a>.
+For a description of the return values, see <a href="/windows/desktop/tablet/realtimestylus-classes-and-interfaces">RealTimeStylus Classes and Interfaces</a>.
 
 ## -remarks
 
-A digitizer context identifier is specific to an <a href="https://docs.microsoft.com/windows/desktop/tablet/realtimestylus-class">RealTimeStylus Class</a> object. Two <b>RealTimeStylus Class</b> objects may have different context identifiers for the same digitizer object. A tablet context identifier is valid only while a <b>RealTimeStylus Class</b> object is enabled. If a <b>RealTimeStylus Class</b> object is disabled and then re-enabled, the TCID for each digitizer object might have a different value than it had when the <b>RealTimeStylus Class</b> object was first enabled.
+A digitizer context identifier is specific to an <a href="/windows/desktop/tablet/realtimestylus-class">RealTimeStylus Class</a> object. Two <b>RealTimeStylus Class</b> objects may have different context identifiers for the same digitizer object. A tablet context identifier is valid only while a <b>RealTimeStylus Class</b> object is enabled. If a <b>RealTimeStylus Class</b> object is disabled and then re-enabled, the TCID for each digitizer object might have a different value than it had when the <b>RealTimeStylus Class</b> object was first enabled.
 
-This method can be called even if the <a href="https://docs.microsoft.com/windows/desktop/tablet/realtimestylus-class">RealTimeStylus Class</a> object is not enabled as long as the <b>RealTimeStylus Class</b> has not finished processing data in the queue. This method can be called until the last asynchronous plug-in receives <a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nf-rtscom-istylusplugin-realtimestylusdisabled">IStylusPlugin::RealTimeStylusDisabled Method</a>.
+This method can be called even if the <a href="/windows/desktop/tablet/realtimestylus-class">RealTimeStylus Class</a> object is not enabled as long as the <b>RealTimeStylus Class</b> has not finished processing data in the queue. This method can be called until the last asynchronous plug-in receives <a href="/windows/desktop/api/rtscom/nf-rtscom-istylusplugin-realtimestylusdisabled">IStylusPlugin::RealTimeStylusDisabled Method</a>.
 
 
 #### Examples
 
-The following C++ example code gets a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinktablet">IInkTablet</a> object and uses that to get the tablet context identifier. Then it displays the names of all the tablets attached to the system in the debug output window.
+The following C++ example code gets a pointer to the <a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinktablet">IInkTablet</a> object and uses that to get the tablet context identifier. Then it displays the names of all the tablets attached to the system in the debug output window.
 
 
 ```cpp
@@ -114,13 +114,12 @@ if (SUCCEEDED(g_pRealTimeStylus->GetAllTabletContextIds(&ulTcidCount, &pTcids)))
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nn-rtscom-irealtimestylus">IRealTimeStylus</a>
+<a href="/windows/desktop/api/rtscom/nn-rtscom-irealtimestylus">IRealTimeStylus</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nf-rtscom-irealtimestylus-gettabletfromtabletcontextid">IRealTimeStylus::GetTabletFromTabletContextId Method</a>
+<a href="/windows/desktop/api/rtscom/nf-rtscom-irealtimestylus-gettabletfromtabletcontextid">IRealTimeStylus::GetTabletFromTabletContextId Method</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/tablet/realtimestylus-class">RealTimeStylus Class</a>
-
+<a href="/windows/desktop/tablet/realtimestylus-class">RealTimeStylus Class</a>

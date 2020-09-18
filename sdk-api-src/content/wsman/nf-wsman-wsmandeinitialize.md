@@ -56,7 +56,7 @@ Deinitializes the Windows Remote Management client stack. All operations must be
 
 ### -param apiHandle [in, out, optional]
 
-Specifies the API handle returned by a <a href="https://docs.microsoft.com/windows/desktop/api/wsman/nf-wsman-wsmaninitialize">WSManInitialize</a> call. This parameter cannot be <b>NULL</b>.
+Specifies the API handle returned by a <a href="/windows/desktop/api/wsman/nf-wsman-wsmaninitialize">WSManInitialize</a> call. This parameter cannot be <b>NULL</b>.
 
 ### -param flags
 
@@ -65,4 +65,3 @@ Reserved for future use. Must be zero.
 ## -returns
 
 This method returns zero on success. Otherwise, this method returns an error code.
-

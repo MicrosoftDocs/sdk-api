@@ -85,17 +85,17 @@ A pointer to the site name of the target computer. This parameter can be <b>NULL
 ### -param pComputerTarget [in]
 
 A pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/userenv/ns-userenv-rsop_target">RSOP_TARGET</a> structure that contains information about a computer. This parameter can be <b>NULL</b>, but if it is <b>NULL</b>, the <i>pUserTarget</i> parameter is required.
+<a href="/windows/desktop/api/userenv/ns-userenv-rsop_target">RSOP_TARGET</a> structure that contains information about a computer. This parameter can be <b>NULL</b>, but if it is <b>NULL</b>, the <i>pUserTarget</i> parameter is required.
 
 ### -param pUserTarget [in]
 
 A pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/userenv/ns-userenv-rsop_target">RSOP_TARGET</a> structure that contains information about a user. This parameter can be <b>NULL</b>, but if it is <b>NULL</b>, the <i>pComputerTarget</i> parameter is required.
+<a href="/windows/desktop/api/userenv/ns-userenv-rsop_target">RSOP_TARGET</a> structure that contains information about a user. This parameter can be <b>NULL</b>, but if it is <b>NULL</b>, the <i>pComputerTarget</i> parameter is required.
 
 ## -returns
 
 If the function succeeds, the return value is <b>ERROR_SUCCESS</b>. Otherwise, the function returns one of the system error codes. For a complete list of error codes, see 
-<a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">System Error Codes</a> or the header file WinError.h.
+<a href="/windows/desktop/Debug/system-error-codes">System Error Codes</a> or the header file WinError.h.
 
 ## -remarks
 
@@ -108,15 +108,14 @@ The policy extension must register this callback function at the registry key:<b
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/Policy/group-policy-functions">Group Policy
+<a href="/previous-versions/windows/desktop/Policy/group-policy-functions">Group Policy
     Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/Policy/about-group-policy">Group Policy
+<a href="/previous-versions/windows/desktop/Policy/about-group-policy">Group Policy
     Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/userenv/ns-userenv-rsop_target">RSOP_TARGET</a>
-
+<a href="/windows/desktop/api/userenv/ns-userenv-rsop_target">RSOP_TARGET</a>

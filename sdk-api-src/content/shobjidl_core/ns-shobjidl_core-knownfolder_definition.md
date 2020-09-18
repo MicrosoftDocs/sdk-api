@@ -56,9 +56,9 @@ Defines the specifics of a known folder.
 
 ### -field category
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ne-shobjidl_core-kf_category">KF_CATEGORY</a></b>
+Type: <b><a href="/windows/desktop/api/shobjidl_core/ne-shobjidl_core-kf_category">KF_CATEGORY</a></b>
 
-A single value from the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ne-shobjidl_core-kf_category">KF_CATEGORY</a> constants that classifies the folder as virtual, fixed, common, or per-user.
+A single value from the <a href="/windows/desktop/api/shobjidl_core/ne-shobjidl_core-kf_category">KF_CATEGORY</a> constants that classifies the folder as virtual, fixed, common, or per-user.
 
 ### -field pszName
 
@@ -74,9 +74,9 @@ A pointer to a short description of the known folder, stored as a null-terminate
 
 ### -field fidParent
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/shell/knownfolderid">KNOWNFOLDERID</a></b>
+Type: <b><a href="/windows/desktop/shell/knownfolderid">KNOWNFOLDERID</a></b>
 
-A <a href="https://docs.microsoft.com/windows/desktop/shell/knownfolderid">KNOWNFOLDERID</a> value that names another known folder to serve as the parent folder. Applies to common and per-user folders only. This value is used in conjunction with <b>pszRelativePath</b>. See <b>Remarks</b> for more details.
+A <a href="/windows/desktop/shell/knownfolderid">KNOWNFOLDERID</a> value that names another known folder to serve as the parent folder. Applies to common and per-user folders only. This value is used in conjunction with <b>pszRelativePath</b>. See <b>Remarks</b> for more details.
                         
                         
 
@@ -140,13 +140,13 @@ This information is not required for virtual folders.
 
 Type: <b>LPWSTR</b>
 
-Optional. A pointer to a <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/security-descriptor-definition-language">Security Descriptor Definition Language</a> format string. This is a null-terminated Unicode string that describes the default security descriptor that the folder receives when it is created. If this parameter is <b>NULL</b>, the new folder inherits the security descriptor of its parent. This is particularly useful for common folders that are accessed by all users.
+Optional. A pointer to a <a href="/windows/desktop/SecAuthZ/security-descriptor-definition-language">Security Descriptor Definition Language</a> format string. This is a null-terminated Unicode string that describes the default security descriptor that the folder receives when it is created. If this parameter is <b>NULL</b>, the new folder inherits the security descriptor of its parent. This is particularly useful for common folders that are accessed by all users.
 
 ### -field dwAttributes
 
 Type: <b>DWORD</b>
 
-Optional. Default file system attributes given to the folder when it is created. For example, the file could be hidden and read-only (FILE_ATTRIBUTE_HIDDEN and FILE_ATTRIBUTE_READONLY). For a complete list of possible values, see the <i>dwFlagsAndAttributes</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> function. Set to -1 if not needed.
+Optional. Default file system attributes given to the folder when it is created. For example, the file could be hidden and read-only (FILE_ATTRIBUTE_HIDDEN and FILE_ATTRIBUTE_READONLY). For a complete list of possible values, see the <i>dwFlagsAndAttributes</i> parameter of the <a href="/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> function. Set to -1 if not needed.
 
 ### -field kfdFlags
 
@@ -156,23 +156,22 @@ Optional. One of more values from the <a href="/windows/win32/api/shobjidl_core/
 
 ### -field ftidType
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/shell/foldertypeid">FOLDERTYPEID</a></b>
+Type: <b><a href="/windows/desktop/shell/foldertypeid">FOLDERTYPEID</a></b>
 
-One of the <a href="https://docs.microsoft.com/windows/desktop/shell/foldertypeid">FOLDERTYPEID</a> values that identifies the known folder type based on its contents (such as documents, music, or photographs). This value is a GUID.
+One of the <a href="/windows/desktop/shell/foldertypeid">FOLDERTYPEID</a> values that identifies the known folder type based on its contents (such as documents, music, or photographs). This value is a GUID.
 
 ## -remarks
 
-The <b>fidParent</b> and <b>pszRelativePath</b> values work together. For example, suppose you are defining a folder called MyNewFolder and want to create that folder as ...\&lt;Username&gt;\AppData\Local\MyApp\MyNewFolder. Provide <a href="https://docs.microsoft.com/windows/desktop/shell/knownfolderid">FOLDERID_LocalAppData</a> in <b>fidParent</b> to represent ...\&lt;Username&gt;\AppData\Local. Provide "\MyApp\MyNewFolder" in <b>pszRelativePath</b>.
+The <b>fidParent</b> and <b>pszRelativePath</b> values work together. For example, suppose you are defining a folder called MyNewFolder and want to create that folder as ...\&lt;Username&gt;\AppData\Local\MyApp\MyNewFolder. Provide <a href="/windows/desktop/shell/knownfolderid">FOLDERID_LocalAppData</a> in <b>fidParent</b> to represent ...\&lt;Username&gt;\AppData\Local. Provide "\MyApp\MyNewFolder" in <b>pszRelativePath</b>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iknownfolder-getfolderdefinition">IKnownFolder::GetFolderDefinition</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iknownfolder-getfolderdefinition">IKnownFolder::GetFolderDefinition</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iknownfoldermanager-registerfolder">IKnownFolderManager::RegisterFolder</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iknownfoldermanager-registerfolder">IKnownFolderManager::RegisterFolder</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd940364(v=vs.85)">Known Folders Sample</a>
-
+<a href="/previous-versions/windows/desktop/legacy/dd940364(v=vs.85)">Known Folders Sample</a>

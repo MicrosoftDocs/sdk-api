@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-The <code>GetCurrentProfile</code> method retrieves the current ASF profile from the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/wm-asf-writer-filter">WM ASF Writer</a> filter.
+The <code>GetCurrentProfile</code> method retrieves the current ASF profile from the <a href="/windows/desktop/DirectShow/wm-asf-writer-filter">WM ASF Writer</a> filter.
 
 ## -parameters
 
 ### -param ppProfile [out]
 
-Receives a pointer to the <a href="https://docs.microsoft.com/windows/desktop/wmformat/iwmprofile">IWMProfile</a> interface of the profile. The caller must release the interface.
+Receives a pointer to the <a href="/windows/desktop/wmformat/iwmprofile">IWMProfile</a> interface of the profile. The caller must release the interface.
 
 ## -returns
 
@@ -64,13 +64,12 @@ Returns S_OK if successful, or an <b>HRESULT</b> error code otherwise.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/creating-asf-files-in-directshow">Creating ASF Files in DirectShow</a>
+<a href="/windows/desktop/DirectShow/creating-asf-files-in-directshow">Creating ASF Files in DirectShow</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dshowasf/nn-dshowasf-iconfigasfwriter">IConfigAsfWriter Interface</a>
-
+<a href="/windows/desktop/api/dshowasf/nn-dshowasf-iconfigasfwriter">IConfigAsfWriter Interface</a>

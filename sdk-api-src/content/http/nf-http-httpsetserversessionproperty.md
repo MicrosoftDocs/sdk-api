@@ -60,7 +60,7 @@ The server session for which the property is set.
 
 ### -param Property [in]
 
-A member of the  <a href="https://docs.microsoft.com/windows/desktop/api/http/ne-http-http_server_property">HTTP_SERVER_PROPERTY</a> enumeration that describes the property type that is set. This can be one of the following.
+A member of the  <a href="/windows/desktop/api/http/ne-http-http_server_property">HTTP_SERVER_PROPERTY</a> enumeration that describes the property type that is set. This can be one of the following.
 
 <table>
 <tr>
@@ -95,7 +95,7 @@ Modifies or sets the server session connection timeout limits.
 <td width="60%">
 Modifies or sets the bandwidth throttling for the server session. By default, the HTTP Server API does not limit bandwidth. 
 
-<div class="alert"><b>Note</b>  This value maps to the generic <a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_qos_setting_info">HTTP_QOS_SETTING_INFO</a> structure with <b>QosType</b> set to <b>HttpQosSettingTypeBandwidth</b>. </div>
+<div class="alert"><b>Note</b>  This value maps to the generic <a href="/windows/desktop/api/http/ns-http-http_qos_setting_info">HTTP_QOS_SETTING_INFO</a> structure with <b>QosType</b> set to <b>HttpQosSettingTypeBandwidth</b>. </div>
 <div> </div>
 </td>
 </tr>
@@ -153,43 +153,43 @@ A pointer to the buffer that contains the property data.
 <tr>
 <td>HttpServerStateProperty</td>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_state_info">HTTP_STATE_INFO</a>
+<a href="/windows/desktop/api/http/ns-http-http_state_info">HTTP_STATE_INFO</a>
 </td>
 </tr>
 <tr>
 <td>HttpServerLoggingProperty</td>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_logging_info">HTTP_LOGGING_INFO</a>
+<a href="/windows/desktop/api/http/ns-http-http_logging_info">HTTP_LOGGING_INFO</a>
 </td>
 </tr>
 <tr>
 <td>HttpServerQosProperty</td>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_qos_setting_info">HTTP_QOS_SETTING_INFO</a>
+<a href="/windows/desktop/api/http/ns-http-http_qos_setting_info">HTTP_QOS_SETTING_INFO</a>
 </td>
 </tr>
 <tr>
 <td>HttpServerTimeoutsProperty</td>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_timeout_limit_info">HTTP_TIMEOUT_LIMIT_INFO</a>
+<a href="/windows/desktop/api/http/ns-http-http_timeout_limit_info">HTTP_TIMEOUT_LIMIT_INFO</a>
 </td>
 </tr>
 <tr>
 <td>HttpServerAuthenticationProperty</td>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_server_authentication_info">HTTP_SERVER_AUTHENTICATION_INFO</a>
+<a href="/windows/desktop/api/http/ns-http-http_server_authentication_info">HTTP_SERVER_AUTHENTICATION_INFO</a>
 </td>
 </tr>
 <tr>
 <td>HttpServerExtendedAuthenticationProperty</td>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_server_authentication_info">HTTP_SERVER_AUTHENTICATION_INFO</a>
+<a href="/windows/desktop/api/http/ns-http-http_server_authentication_info">HTTP_SERVER_AUTHENTICATION_INFO</a>
 </td>
 </tr>
 <tr>
 <td>HttpServerChannelBindProperty</td>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_channel_bind_info">HTTP_CHANNEL_BIND_INFO</a>
+<a href="/windows/desktop/api/http/ns-http-http_channel_bind_info">HTTP_CHANNEL_BIND_INFO</a>
 </td>
 </tr>
 </table>
@@ -232,27 +232,26 @@ The application does not have permission to set the server session properties. O
 
 ## -remarks
 
-Server sessions are top level configuration containers for configuration data that applies to all of the URL groups created under them. The server session is created with <a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpcreateserversession">HttpCreateServerSession</a>.
+Server sessions are top level configuration containers for configuration data that applies to all of the URL groups created under them. The server session is created with <a href="/windows/desktop/api/http/nf-http-httpcreateserversession">HttpCreateServerSession</a>.
 
-The <i>pPropertyInformation</i> parameter points to the configuration structure for the property type that is set. The <i>PropertyInformationLength</i> parameter specifies the size, in bytes, of the configuration structure. For example, when setting the <b>HttpServerTimeoutsProperty</b> the <i>pPropertyInformation</i> parameter must point to a buffer that is at least equal to the size of the <a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_timeout_limit_info">HTTP_TIMEOUT_LIMIT_INFO</a> structure.
+The <i>pPropertyInformation</i> parameter points to the configuration structure for the property type that is set. The <i>PropertyInformationLength</i> parameter specifies the size, in bytes, of the configuration structure. For example, when setting the <b>HttpServerTimeoutsProperty</b> the <i>pPropertyInformation</i> parameter must point to a buffer that is at least equal to the size of the <a href="/windows/desktop/api/http/ns-http-http_timeout_limit_info">HTTP_TIMEOUT_LIMIT_INFO</a> structure.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Http/http-server-api-version-2-0-functions">HTTP Server API Version 2.0 Functions</a>
+<a href="/windows/desktop/Http/http-server-api-version-2-0-functions">HTTP Server API Version 2.0 Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpcloseserversession">HttpCloseServerSession</a>
+<a href="/windows/desktop/api/http/nf-http-httpcloseserversession">HttpCloseServerSession</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpcreateserversession">HttpCreateServerSession</a>
+<a href="/windows/desktop/api/http/nf-http-httpcreateserversession">HttpCreateServerSession</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpqueryserversessionproperty">HttpQueryServerSessionProperty</a>
+<a href="/windows/desktop/api/http/nf-http-httpqueryserversessionproperty">HttpQueryServerSessionProperty</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpsetserversessionproperty">HttpSetServerSessionProperty</a>
-
+<a href="/windows/desktop/api/http/nf-http-httpsetserversessionproperty">HttpSetServerSessionProperty</a>

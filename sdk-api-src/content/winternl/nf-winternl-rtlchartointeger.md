@@ -74,7 +74,6 @@ If the function succeeds, the function returns <b>STATUS_SUCCESS</b>.
 
 ## -remarks
 
-When converting strings to integers the preferred function to use is <a href="https://docs.microsoft.com/previous-versions/visualstudio/visual-studio-2010/w4z2wdyc(v=vs.100)">strtol, wcstol</a>.
+When converting strings to integers the preferred function to use is <a href="/previous-versions/visualstudio/visual-studio-2010/w4z2wdyc(v=vs.100)">strtol, wcstol</a>.
 
-There is no import library for this function. Use <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> rather than linking to the function directly.
-
+There is no import library for this function. Use <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> rather than linking to the function directly.

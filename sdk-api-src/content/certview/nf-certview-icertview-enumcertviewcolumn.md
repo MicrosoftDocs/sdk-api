@@ -55,7 +55,7 @@ api_name:
 The <b>EnumCertViewColumn</b> method obtains an instance of a column-enumeration sequence for the database schema.
 
 Note that this enumeration sequence cannot be used to enumerate the column values, only the database schema. Use 
-<a href="https://docs.microsoft.com/windows/desktop/api/certview/nf-certview-ienumcertviewrow-enumcertviewcolumn">IEnumCERTVIEWROW::EnumCertViewColumn</a> if you need to enumerate the data values of the columns.
+<a href="/windows/desktop/api/certview/nf-certview-ienumcertviewrow-enumcertviewcolumn">IEnumCERTVIEWROW::EnumCertViewColumn</a> if you need to enumerate the data values of the columns.
 
 ## -parameters
 
@@ -112,32 +112,31 @@ Column information mask.
 
 ### -param ppenum [out]
 
-A pointer to a pointer of <a href="https://docs.microsoft.com/windows/desktop/api/certview/nn-certview-ienumcertviewcolumn">IEnumCERTVIEWCOLUMN</a> type. This method fails if the <i>ppenum</i> parameter is <b>NULL</b>.
+A pointer to a pointer of <a href="/windows/desktop/api/certview/nn-certview-ienumcertviewcolumn">IEnumCERTVIEWCOLUMN</a> type. This method fails if the <i>ppenum</i> parameter is <b>NULL</b>.
 
 ## -returns
 
 <h3>C++</h3>
- If the method succeeds, the method returns S_OK, and *<i>ppenum</i> is set to a pointer of <a href="https://docs.microsoft.com/windows/desktop/api/certview/nn-certview-ienumcertviewcolumn">IEnumCERTVIEWCOLUMN</a> type.
+ If the method succeeds, the method returns S_OK, and *<i>ppenum</i> is set to a pointer of <a href="/windows/desktop/api/certview/nn-certview-ienumcertviewcolumn">IEnumCERTVIEWCOLUMN</a> type.
 
-If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
+If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 <h3>VB</h3>
- The return value is an <a href="https://docs.microsoft.com/windows/desktop/api/certview/nn-certview-ienumcertviewcolumn">IEnumCERTVIEWCOLUMN</a> object.
+ The return value is an <a href="/windows/desktop/api/certview/nn-certview-ienumcertviewcolumn">IEnumCERTVIEWCOLUMN</a> object.
 
 ## -remarks
 
 The 
-<a href="https://docs.microsoft.com/windows/desktop/api/certview/nn-certview-ienumcertviewcolumn">IEnumCERTVIEWCOLUMN</a> object can be used to enumerate the view's columns and retrieve each column's information.
+<a href="/windows/desktop/api/certview/nn-certview-ienumcertviewcolumn">IEnumCERTVIEWCOLUMN</a> object can be used to enumerate the view's columns and retrieve each column's information.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certview/nn-certview-ienumcertviewcolumn">EnumCERTVIEWCOLUMN</a>
+<a href="/windows/desktop/api/certview/nn-certview-ienumcertviewcolumn">EnumCERTVIEWCOLUMN</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certview/nn-certview-icertview">ICertView</a>
+<a href="/windows/desktop/api/certview/nn-certview-icertview">ICertView</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certview/nn-certview-icertview2">ICertView2</a>
-
+<a href="/windows/desktop/api/certview/nn-certview-icertview2">ICertView2</a>

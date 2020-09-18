@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Creates a <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/ns-d2d1-d2d1_brush_properties">D2D1_BRUSH_PROPERTIES</a> structure.
+Creates a <a href="/windows/desktop/api/d2d1/ns-d2d1-d2d1_brush_properties">D2D1_BRUSH_PROPERTIES</a> structure.
 
 ## -parameters
 
@@ -62,17 +62,16 @@ The base opacity of the brush. The default value is 1.0.
 
 ### -param transform [in, ref]
 
-Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/Direct2D/d2d1-matrix-3x2-f">D2D1_MATRIX_3X2_F</a></b>
+Type: <b>const <a href="/windows/desktop/Direct2D/d2d1-matrix-3x2-f">D2D1_MATRIX_3X2_F</a></b>
 
-The transformation to apply to the brush. The default value is <a href="https://docs.microsoft.com/windows/desktop/api/d2d1helper/nf-d2d1helper-identitymatrix">D2D1::IdentityMatrix</a>.
+The transformation to apply to the brush. The default value is <a href="/windows/desktop/api/d2d1helper/nf-d2d1helper-identitymatrix">D2D1::IdentityMatrix</a>.
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1/ns-d2d1-d2d1_brush_properties">D2D1_BRUSH_PROPERTIES</a></b>
+Type: <b><a href="/windows/desktop/api/d2d1/ns-d2d1-d2d1_brush_properties">D2D1_BRUSH_PROPERTIES</a></b>
 
 The new brush properties structure.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1brush">ID2D1Brush</a>
-
+<a href="/windows/desktop/api/d2d1/nn-d2d1-id2d1brush">ID2D1Brush</a>

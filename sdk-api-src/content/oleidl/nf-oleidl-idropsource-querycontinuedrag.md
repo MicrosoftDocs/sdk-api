@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Determines whether a drag-and-drop operation should be continued, canceled, or completed. You do not call this method directly. The OLE <a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-dodragdrop">DoDragDrop</a> function calls this method during a drag-and-drop operation.
+Determines whether a drag-and-drop operation should be continued, canceled, or completed. You do not call this method directly. The OLE <a href="/windows/desktop/api/ole2/nf-ole2-dodragdrop">DoDragDrop</a> function calls this method during a drag-and-drop operation.
 
 ## -parameters
 
 ### -param fEscapePressed [in]
 
-Indicates whether the Esc key has been pressed since the previous call to <b>QueryContinueDrag</b> or to <a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-dodragdrop">DoDragDrop</a> if this is the first call to <b>QueryContinueDrag</b>. A <b>TRUE</b> value indicates the end user has pressed the escape key; a <b>FALSE</b> value indicates it has not been pressed.
+Indicates whether the Esc key has been pressed since the previous call to <b>QueryContinueDrag</b> or to <a href="/windows/desktop/api/ole2/nf-ole2-dodragdrop">DoDragDrop</a> if this is the first call to <b>QueryContinueDrag</b>. A <b>TRUE</b> value indicates the end user has pressed the escape key; a <b>FALSE</b> value indicates it has not been pressed.
 
 ### -param grfKeyState [in]
 
@@ -108,13 +108,12 @@ The drag operation should be canceled with no drop operation occurring. This res
 
 ## -remarks
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-dodragdrop">DoDragDrop</a> function calls <b>QueryContinueDrag</b> whenever it detects a change in the keyboard or mouse button state during a drag-and-drop operation. <b>QueryContinueDrag</b> must determine whether the drag-and-drop operation should be continued, canceled, or completed based on the contents of the parameters <i>grfKeyState</i> and <i>fEscapePressed</i>.
+The <a href="/windows/desktop/api/ole2/nf-ole2-dodragdrop">DoDragDrop</a> function calls <b>QueryContinueDrag</b> whenever it detects a change in the keyboard or mouse button state during a drag-and-drop operation. <b>QueryContinueDrag</b> must determine whether the drag-and-drop operation should be continued, canceled, or completed based on the contents of the parameters <i>grfKeyState</i> and <i>fEscapePressed</i>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-dodragdrop">DoDragDrop</a>
+<a href="/windows/desktop/api/ole2/nf-ole2-dodragdrop">DoDragDrop</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-idropsource">IDropSource</a>
-
+<a href="/windows/desktop/api/oleidl/nn-oleidl-idropsource">IDropSource</a>

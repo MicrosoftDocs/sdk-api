@@ -84,25 +84,24 @@ The offset to the intercharacter spacing array.
 
 ## -remarks
 
-The <b>EMRTEXT</b> structure is used as a member in the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-emrexttextouta">EMREXTTEXTOUT</a> and <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-emrpolytextouta">EMRPOLYTEXTOUT</a> structures.
+The <b>EMRTEXT</b> structure is used as a member in the <a href="/windows/desktop/api/wingdi/ns-wingdi-emrexttextouta">EMREXTTEXTOUT</a> and <a href="/windows/desktop/api/wingdi/ns-wingdi-emrpolytextouta">EMRPOLYTEXTOUT</a> structures.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-emr">EMR</a>
+<a href="/windows/desktop/api/wingdi/ns-wingdi-emr">EMR</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/metafile-structures">Metafile Structures</a>
+<a href="/windows/desktop/gdi/metafile-structures">Metafile Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/metafiles">Metafiles Overview</a>
+<a href="/windows/desktop/gdi/metafiles">Metafiles Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/dd162807(v=vs.85)">POINTL</a>
+<a href="/previous-versions/dd162807(v=vs.85)">POINTL</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/dd162907(v=vs.85)">RECTL</a>
-
+<a href="/previous-versions/dd162907(v=vs.85)">RECTL</a>

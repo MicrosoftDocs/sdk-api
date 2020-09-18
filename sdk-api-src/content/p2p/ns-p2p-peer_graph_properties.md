@@ -60,7 +60,7 @@ The <b>PEER_GRAPH_PROPERTIES</b> structure contains data about the policy of a p
 
 ### -field dwSize
 
-Specifies the size, in bytes, of this data structure.  The <b>dwSize</b> member must be set  to the size of <b>PEER_GRAPH_PROPERTIES</b> before calling <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergraphcreate">PeerGraphCreate</a>. This member is required. There is not a default value.
+Specifies the size, in bytes, of this data structure.  The <b>dwSize</b> member must be set  to the size of <b>PEER_GRAPH_PROPERTIES</b> before calling <a href="/windows/desktop/api/p2p/nf-p2p-peergraphcreate">PeerGraphCreate</a>. This member is required. There is not a default value.
 
 ### -field dwFlags
 
@@ -126,7 +126,7 @@ Specifies the number of seconds before a presence record  expires. The default v
 
 ### -field cPresenceMax
 
-Specifies how many presence records the Peer Infrastructure keeps in a peer graph at one time.   A node that has its presence published can be enumerated by all other nodes with  <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergraphenumnodes">PeerGraphEnumNodes</a>. Specify how presence records for users are published by specifying one of the values identified in the following table.
+Specifies how many presence records the Peer Infrastructure keeps in a peer graph at one time.   A node that has its presence published can be enumerated by all other nodes with  <a href="/windows/desktop/api/p2p/nf-p2p-peergraphenumnodes">PeerGraphEnumNodes</a>. Specify how presence records for users are published by specifying one of the values identified in the following table.
 
 <table>
 <tr>
@@ -149,9 +149,9 @@ Specifies how many presence records the Peer Infrastructure keeps in a peer grap
 
 ## -remarks
 
-An application can force the Peer Graphing Infrastructure to publish presence information by using <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergraphsetpresence">PeerGraphSetPresence</a>.
+An application can force the Peer Graphing Infrastructure to publish presence information by using <a href="/windows/desktop/api/p2p/nf-p2p-peergraphsetpresence">PeerGraphSetPresence</a>.
 
-Only specific  fields in the <b>PEER_GRAPH_PROPERTIES</b> can be updated when calling <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergraphsetproperties">PeerGraphSetProperties</a>. The following members can be updated:
+Only specific  fields in the <b>PEER_GRAPH_PROPERTIES</b> can be updated when calling <a href="/windows/desktop/api/p2p/nf-p2p-peergraphsetproperties">PeerGraphSetProperties</a>. The following members can be updated:
 
 <ul>
 <li><b>pwzFriendlyName</b></li>
@@ -163,13 +163,12 @@ The remaining members cannot be modified.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergraphcreate">PeerGraphCreate</a>
+<a href="/windows/desktop/api/p2p/nf-p2p-peergraphcreate">PeerGraphCreate</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergraphgetproperties">PeerGraphGetProperties</a>
+<a href="/windows/desktop/api/p2p/nf-p2p-peergraphgetproperties">PeerGraphGetProperties</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergraphsetproperties">PeerGraphSetProperties</a>
-
+<a href="/windows/desktop/api/p2p/nf-p2p-peergraphsetproperties">PeerGraphSetProperties</a>

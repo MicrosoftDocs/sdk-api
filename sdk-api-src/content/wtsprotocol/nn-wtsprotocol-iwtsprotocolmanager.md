@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[<b>IWTSProtocolManager</b> is no longer available for use as of Windows Server 2012. Instead, use <a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nn-wtsprotocol-iwrdsprotocolmanager">IWRdsProtocolManager</a>.]
+<p class="CCE_Message">[<b>IWTSProtocolManager</b> is no longer available for use as of Windows Server 2012. Instead, use <a href="/windows/desktop/api/wtsprotocol/nn-wtsprotocol-iwrdsprotocolmanager">IWRdsProtocolManager</a>.]
 
-Exposes methods that  the Remote Desktop Services service uses to communicate with the protocol provider. It is the only interface in the protocol provider for which the Remote Desktop Services service calls <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstanceex">CoCreateInstanceEx</a>. In addition, the first call the Remote Desktop Services service makes into the protocol provider is to the <a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nf-wtsprotocol-iwtsprotocolmanager-createlistener">CreateListener</a> method.
+Exposes methods that  the Remote Desktop Services service uses to communicate with the protocol provider. It is the only interface in the protocol provider for which the Remote Desktop Services service calls <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstanceex">CoCreateInstanceEx</a>. In addition, the first call the Remote Desktop Services service makes into the protocol provider is to the <a href="/windows/desktop/api/wtsprotocol/nf-wtsprotocol-iwtsprotocolmanager-createlistener">CreateListener</a> method.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWTSProtocolManager</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWTSProtocolManager</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWTSProtocolManager</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWTSProtocolManager</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,16 +71,16 @@ The <b>IWTSProtocolManager</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nf-wtsprotocol-iwtsprotocolmanager-createlistener">CreateListener</a>
+<a href="/windows/desktop/api/wtsprotocol/nf-wtsprotocol-iwtsprotocolmanager-createlistener">CreateListener</a>
 </td>
 <td align="left" width="63%">
-Requests the creation of an <a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nn-wtsprotocol-iwtsprotocollistener">IWTSProtocolListener</a> object that listens for incoming client connection requests.
+Requests the creation of an <a href="/windows/desktop/api/wtsprotocol/nn-wtsprotocol-iwtsprotocollistener">IWTSProtocolListener</a> object that listens for incoming client connection requests.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nf-wtsprotocol-iwtsprotocolmanager-notifyservicestatechange">NotifyServiceStateChange</a>
+<a href="/windows/desktop/api/wtsprotocol/nf-wtsprotocol-iwtsprotocolmanager-notifyservicestatechange">NotifyServiceStateChange</a>
 </td>
 <td align="left" width="63%">
 Notifies the protocol provider that the state of the Remote Desktop Services service is changing.
@@ -89,7 +89,7 @@ Notifies the protocol provider that the state of the Remote Desktop Services ser
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nf-wtsprotocol-iwtsprotocolmanager-notifysessionofservicestart">NotifySessionOfServiceStart</a>
+<a href="/windows/desktop/api/wtsprotocol/nf-wtsprotocol-iwtsprotocolmanager-notifysessionofservicestart">NotifySessionOfServiceStart</a>
 </td>
 <td align="left" width="63%">
 Notifies the protocol provider that the Remote Desktop Services service has started for a given session.
@@ -98,7 +98,7 @@ Notifies the protocol provider that the Remote Desktop Services service has star
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nf-wtsprotocol-iwtsprotocolmanager-notifysessionofservicestop">NotifySessionOfServiceStop</a>
+<a href="/windows/desktop/api/wtsprotocol/nf-wtsprotocol-iwtsprotocolmanager-notifysessionofservicestop">NotifySessionOfServiceStop</a>
 </td>
 <td align="left" width="63%">
 Notifies the protocol provider that the Remote Desktop Services service has stopped for a given session.
@@ -107,7 +107,7 @@ Notifies the protocol provider that the Remote Desktop Services service has stop
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nf-wtsprotocol-iwtsprotocolmanager-notifysessionstatechange">NotifySessionStateChange</a>
+<a href="/windows/desktop/api/wtsprotocol/nf-wtsprotocol-iwtsprotocolmanager-notifysessionstatechange">NotifySessionStateChange</a>
 </td>
 <td align="left" width="63%">
 Notifies the protocol provider of changes in the state of a session. 
@@ -115,4 +115,3 @@ Notifies the protocol provider of changes in the state of a session.
 </td>
 </tr>
 </table>
-

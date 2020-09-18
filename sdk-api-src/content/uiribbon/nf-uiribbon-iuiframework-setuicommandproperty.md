@@ -98,15 +98,14 @@ Returns S_OK if successful, otherwise an error value from the following list.
 
 ## -remarks
 
-A limited number of property keys can be set using <b>IUIFramework::SetUICommandProperty</b>. For those properties where <b>IUIFramework::SetUICommandProperty</b> returns <b>HRESULT_FROM_WIN32(ERROR_NOT_SUPPORTED)</b>, <a href="https://docs.microsoft.com/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-invalidateuicommand">IUIFramework::InvalidateUICommand</a> should be used instead.
+A limited number of property keys can be set using <b>IUIFramework::SetUICommandProperty</b>. For those properties where <b>IUIFramework::SetUICommandProperty</b> returns <b>HRESULT_FROM_WIN32(ERROR_NOT_SUPPORTED)</b>, <a href="/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-invalidateuicommand">IUIFramework::InvalidateUICommand</a> should be used instead.
 
-For more information on how to set a property key for a specific control, see the <a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-controls-entry">Windows Ribbon Framework Control Library</a> page for that control.
+For more information on how to set a property key for a specific control, see the <a href="/windows/desktop/windowsribbon/windowsribbon-controls-entry">Windows Ribbon Framework Control Library</a> page for that control.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiribbon/nn-uiribbon-iuiframework">IUIFramework</a>
+<a href="/windows/desktop/api/uiribbon/nn-uiribbon-iuiframework">IUIFramework</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-samples-entry">Windows Ribbon Framework Samples</a>
-
+<a href="/windows/desktop/windowsribbon/windowsribbon-samples-entry">Windows Ribbon Framework Samples</a>

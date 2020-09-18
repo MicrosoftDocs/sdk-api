@@ -170,26 +170,25 @@ Value: 0xC0AAB156
 This method validates that the multi-session type is compatible. The method succeeds if either
 
 <ul>
-<li>The list contains a single derived <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-imultisession">IMultisession</a> interface with <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-imultisession-put_inuse">IMultisession::put_InUse</a> set to VARIANT_TRUE and if the multi-session type is supported on the current media and supported by the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nn-imapi2fs-ifilesystemimage">IFileSystemImage</a> implementation.</li>
-<li>The list contains no derived <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-imultisession">IMultisession</a> interfaces whose <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-imultisession-put_inuse">IMultisession::put_InUse</a> property is set to VARIANT_TRUE, but contains at least one derived <b>IMultisession</b> that is supported on current media and supported by the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nn-imapi2fs-ifilesystemimage">IFileSystemImage</a> implementation.</li>
+<li>The list contains a single derived <a href="/windows/desktop/api/imapi2/nn-imapi2-imultisession">IMultisession</a> interface with <a href="/windows/desktop/api/imapi2/nf-imapi2-imultisession-put_inuse">IMultisession::put_InUse</a> set to VARIANT_TRUE and if the multi-session type is supported on the current media and supported by the <a href="/windows/desktop/api/imapi2fs/nn-imapi2fs-ifilesystemimage">IFileSystemImage</a> implementation.</li>
+<li>The list contains no derived <a href="/windows/desktop/api/imapi2/nn-imapi2-imultisession">IMultisession</a> interfaces whose <a href="/windows/desktop/api/imapi2/nf-imapi2-imultisession-put_inuse">IMultisession::put_InUse</a> property is set to VARIANT_TRUE, but contains at least one derived <b>IMultisession</b> that is supported on current media and supported by the <a href="/windows/desktop/api/imapi2fs/nn-imapi2fs-ifilesystemimage">IFileSystemImage</a> implementation.</li>
 </ul>
-Unless the media is overwritable (i.e. DVD+/-RW, BD-RE, etc..), this method will fail if the media is blank. Failure will also occur if the list contains more than one <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-imultisession">IMultisession</a> interface whose <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-imultisession-put_inuse">IMultisession::put_InUse</a> property is set to VARIANT_TRUE, or no derived <b>IMultisession</b> interface is supported by the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nn-imapi2fs-ifilesystemimage">IFileSystemImage</a> implementation. Currently, only the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-imultisessionsequential">IMultisessionSequential</a> interface which derives from <b>IMultisession</b> is supported by <b>IFileSystemImage</b> implementation.
+Unless the media is overwritable (i.e. DVD+/-RW, BD-RE, etc..), this method will fail if the media is blank. Failure will also occur if the list contains more than one <a href="/windows/desktop/api/imapi2/nn-imapi2-imultisession">IMultisession</a> interface whose <a href="/windows/desktop/api/imapi2/nf-imapi2-imultisession-put_inuse">IMultisession::put_InUse</a> property is set to VARIANT_TRUE, or no derived <b>IMultisession</b> interface is supported by the <a href="/windows/desktop/api/imapi2fs/nn-imapi2fs-ifilesystemimage">IFileSystemImage</a> implementation. Currently, only the <a href="/windows/desktop/api/imapi2/nn-imapi2-imultisessionsequential">IMultisessionSequential</a> interface which derives from <b>IMultisession</b> is supported by <b>IFileSystemImage</b> implementation.
 
-For an example, see <a href="https://docs.microsoft.com/windows/desktop/imapi/creating-a-multisession-disc">Creating a Multisession Disc</a>.
+For an example, see <a href="/windows/desktop/imapi/creating-a-multisession-disc">Creating a Multisession Disc</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2data-get_multisessioninterfaces">IDiscFormat2Data::get_MultisessionInterfaces</a>
+<a href="/windows/desktop/api/imapi2/nf-imapi2-idiscformat2data-get_multisessioninterfaces">IDiscFormat2Data::get_MultisessionInterfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nn-imapi2fs-ifilesystemimage">IFileSystemImage</a>
+<a href="/windows/desktop/api/imapi2fs/nn-imapi2fs-ifilesystemimage">IFileSystemImage</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-get_multisessioninterfaces">IFileSystemImage::get_MultisessionInterfaces</a>
+<a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-get_multisessioninterfaces">IFileSystemImage::get_MultisessionInterfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-imultisession">IMultisession</a>
-
+<a href="/windows/desktop/api/imapi2/nn-imapi2-imultisession">IMultisession</a>

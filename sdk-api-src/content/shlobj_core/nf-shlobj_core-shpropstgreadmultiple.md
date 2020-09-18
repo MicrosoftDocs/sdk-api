@@ -52,15 +52,15 @@ api_name:
 
 <p class="CCE_Message">[This function is available through Windows XP Service Pack 2 (SP2) and Windows Server 2003. It might be altered or unavailable in subsequent versions of Windows.]
 
-Wraps the <a href="https://docs.microsoft.com/windows/desktop/api/propidl/nf-propidl-ipropertystorage-readmultiple">IPropertyStorage::ReadMultiple</a> function to ensure that ANSI and Unicode translations are handled properly for deprecated property sets.
+Wraps the <a href="/windows/desktop/api/propidl/nf-propidl-ipropertystorage-readmultiple">IPropertyStorage::ReadMultiple</a> function to ensure that ANSI and Unicode translations are handled properly for deprecated property sets.
 
 ## -parameters
 
 ### -param pps [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/propidl/nn-propidl-ipropertystorage">IPropertyStorage</a>*</b>
+Type: <b><a href="/windows/desktop/api/propidl/nn-propidl-ipropertystorage">IPropertyStorage</a>*</b>
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/propidl/nn-propidl-ipropertystorage">IPropertyStorage</a> interface pointer that identifies the property store.
+An <a href="/windows/desktop/api/propidl/nn-propidl-ipropertystorage">IPropertyStorage</a> interface pointer that identifies the property store.
 
 ### -param uCodePage
 
@@ -82,13 +82,12 @@ An array of properties to be read.
 
 ### -param rgvar [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a>[]</b>
+Type: <b><a href="/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a>[]</b>
 
-An array of <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> types that, when this function returns successfully, receives the property values.
+An array of <a href="/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> types that, when this function returns successfully, receives the property values.
 
 ## -returns
 
 Type: <b>HRESULT</b>
 
 If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-

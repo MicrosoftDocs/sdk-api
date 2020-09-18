@@ -56,7 +56,7 @@ Opens the user access token associated with the specified user logon.
 
 ### -param LogonId [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-luid">LUID</a> structure that identifies the user for which to open the access token.
+A pointer to a <a href="/windows/desktop/api/winnt/ns-winnt-luid">LUID</a> structure that identifies the user for which to open the access token.
 
 ### -param *RetTokenHandle [out]
 
@@ -71,10 +71,9 @@ If the function fails, return an NTSTATUS error code that indicates the reason i
 ## -remarks
 
 A pointer to the <b>OpenTokenByLogonId</b> function is available in the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-lsa_secpkg_function_table">LSA_SECPKG_FUNCTION_TABLE</a> structure received by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spinitializefn">SpInitialize</a> function.
+<a href="/windows/desktop/api/ntsecpkg/ns-ntsecpkg-lsa_secpkg_function_table">LSA_SECPKG_FUNCTION_TABLE</a> structure received by the 
+<a href="/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spinitializefn">SpInitialize</a> function.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spinitializefn">SpInitialize</a>
-
+<a href="/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spinitializefn">SpInitialize</a>

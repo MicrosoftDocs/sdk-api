@@ -64,9 +64,9 @@ Size of this structure, in bytes.
 
 ### -field CounterNameTitleIndex
 
-Index of the counter's name in the title database. For details on using the index to retrieve the counter's name, see <a href="https://docs.microsoft.com/windows/desktop/PerfCtrs/retrieving-counter-names-and-explanations">Retrieving Counter Names and Help Text</a>.
+Index of the counter's name in the title database. For details on using the index to retrieve the counter's name, see <a href="/windows/desktop/PerfCtrs/retrieving-counter-names-and-explanations">Retrieving Counter Names and Help Text</a>.
 
-To set this value, providers add the counter's offset value defined in their symbol file to the <b>First Counter</b> registry value. For details, see <a href="https://docs.microsoft.com/windows/desktop/PerfCtrs/adding-counter-names-and-descriptions-to-the-registry">Adding Counter Names and Descriptions to the Registry</a> and <a href="https://docs.microsoft.com/windows/desktop/PerfCtrs/implementing-openperformancedata">Implementing the OpenPerformanceData function</a>.
+To set this value, providers add the counter's offset value defined in their symbol file to the <b>First Counter</b> registry value. For details, see <a href="/windows/desktop/PerfCtrs/adding-counter-names-and-descriptions-to-the-registry">Adding Counter Names and Descriptions to the Registry</a> and <a href="/windows/desktop/PerfCtrs/implementing-openperformancedata">Implementing the OpenPerformanceData function</a>.
 
 This value should be zero if the counter is a base counter (<b>CounterType</b> includes the PERF_COUNTER_BASE flag).
 
@@ -76,9 +76,9 @@ Reserved.
 
 ### -field CounterHelpTitleIndex
 
-Index to the counter's help text in the title database. For details on using the index to retrieve the counter's help text, see <a href="https://docs.microsoft.com/windows/desktop/PerfCtrs/retrieving-counter-names-and-explanations">Retrieving Counter Names and Help Text</a>.
+Index to the counter's help text in the title database. For details on using the index to retrieve the counter's help text, see <a href="/windows/desktop/PerfCtrs/retrieving-counter-names-and-explanations">Retrieving Counter Names and Help Text</a>.
 
-To set this value, providers add the counter's offset value defined in their symbol file to the <b>First Help</b> registry value. For details, see <a href="https://docs.microsoft.com/windows/desktop/PerfCtrs/adding-counter-names-and-descriptions-to-the-registry">Adding Counter Names and Descriptions to the Registry</a> and <a href="https://docs.microsoft.com/windows/desktop/PerfCtrs/implementing-openperformancedata">Implementing the OpenPerformanceData function</a>.
+To set this value, providers add the counter's offset value defined in their symbol file to the <b>First Help</b> registry value. For details, see <a href="/windows/desktop/PerfCtrs/adding-counter-names-and-descriptions-to-the-registry">Adding Counter Names and Descriptions to the Registry</a> and <a href="/windows/desktop/PerfCtrs/implementing-openperformancedata">Implementing the OpenPerformanceData function</a>.
 
 This value should be zero if the counter is a base counter (<b>CounterType</b> includes the PERF_COUNTER_BASE flag).
 
@@ -145,7 +145,7 @@ The counter data is provided for system designers.
 
 ### -field CounterType
 
-Type of counter. For a list of predefined counter types, see the Counter Types section of the <a href="https://technet.microsoft.com/library/3fb01419-b1ab-4f52-a9f8-09d5ebeb9ef2">Windows Server 2003 Deployment Kit</a>. Consumers use the counter type to determine how to calculate and display the counter value. Providers should limit their choice of counter types to the predefined list.
+Type of counter. For a list of predefined counter types, see the Counter Types section of the <a href="/previous-versions/windows/it-pro/windows-server-2003/cc776490(v=ws.10)">Windows Server 2003 Deployment Kit</a>. Consumers use the counter type to determine how to calculate and display the counter value. Providers should limit their choice of counter types to the predefined list.
 
 ### -field CounterSize
 
@@ -156,21 +156,20 @@ Currently, only DWORDs (4 bytes) and ULONGLONGs (8 bytes) are used to provide co
 ### -field CounterOffset
 
 Offset from the start of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winperf/ns-winperf-perf_counter_block">PERF_COUNTER_BLOCK</a> structure to the first byte of this counter. The location of the <b>PERF_COUNTER_BLOCK</b> structure within the <a href="https://docs.microsoft.com/windows/desktop/api/winperf/ns-winperf-perf_object_type">PERF_OBJECT_TYPE</a> block depends on if the object contains instances. For details, see <a href="https://docs.microsoft.com/windows/desktop/PerfCtrs/performance-data-format">Performance Data Format</a>.
+<a href="/windows/desktop/api/winperf/ns-winperf-perf_counter_block">PERF_COUNTER_BLOCK</a> structure to the first byte of this counter. The location of the <b>PERF_COUNTER_BLOCK</b> structure within the <a href="/windows/desktop/api/winperf/ns-winperf-perf_object_type">PERF_OBJECT_TYPE</a> block depends on if the object contains instances. For details, see <a href="/windows/desktop/PerfCtrs/performance-data-format">Performance Data Format</a>.
 
-Note that multiple counters can use the same raw data and point to the same offset in the <a href="https://docs.microsoft.com/windows/desktop/api/winperf/ns-winperf-perf_counter_block">PERF_COUNTER_BLOCK</a> block.
+Note that multiple counters can use the same raw data and point to the same offset in the <a href="/windows/desktop/api/winperf/ns-winperf-perf_counter_block">PERF_COUNTER_BLOCK</a> block.
 
 ## -remarks
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/winperf/ns-winperf-perf_object_type">PERF_OBJECT_TYPE</a> structure contains one or more counters. This structure defines each counter and gives the offset to its value.  These structures follow the <b>PERF_OBJECT_TYPE</b> structure in memory. For details, see <a href="https://docs.microsoft.com/windows/desktop/PerfCtrs/performance-data-format">Performance Data Format</a>.
+A <a href="/windows/desktop/api/winperf/ns-winperf-perf_object_type">PERF_OBJECT_TYPE</a> structure contains one or more counters. This structure defines each counter and gives the offset to its value.  These structures follow the <b>PERF_OBJECT_TYPE</b> structure in memory. For details, see <a href="/windows/desktop/PerfCtrs/performance-data-format">Performance Data Format</a>.
 
-Providers should provide their counters in the same order each time their counters are queried. If the counter uses a base counter in its calculation (the counter type includes the <b>PERF_COUNTER_FRACTION</b> flag), the base counter must follow this counter in the list of counters. If the counter type includes the <b>PERF_MULTI_COUNTER</b> flag, the second counter value must follow this counter's value in the <a href="https://docs.microsoft.com/windows/desktop/api/winperf/ns-winperf-perf_counter_block">PERF_COUNTER_BLOCK</a> block.
+Providers should provide their counters in the same order each time their counters are queried. If the counter uses a base counter in its calculation (the counter type includes the <b>PERF_COUNTER_FRACTION</b> flag), the base counter must follow this counter in the list of counters. If the counter type includes the <b>PERF_MULTI_COUNTER</b> flag, the second counter value must follow this counter's value in the <a href="/windows/desktop/api/winperf/ns-winperf-perf_counter_block">PERF_COUNTER_BLOCK</a> block.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winperf/ns-winperf-perf_counter_block">PERF_COUNTER_BLOCK</a>
+<a href="/windows/desktop/api/winperf/ns-winperf-perf_counter_block">PERF_COUNTER_BLOCK</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winperf/ns-winperf-perf_object_type">PERF_OBJECT_TYPE</a>
-
+<a href="/windows/desktop/api/winperf/ns-winperf-perf_object_type">PERF_OBJECT_TYPE</a>

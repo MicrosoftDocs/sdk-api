@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>CryptExportPublicKeyInfoFromBCryptKeyHandle</b> function exports the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">public key</a> information associated with a provider's corresponding  <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">private key</a>.
+The <b>CryptExportPublicKeyInfoFromBCryptKeyHandle</b> function exports the <a href="/windows/desktop/SecGloss/p-gly">public key</a> information associated with a provider's corresponding  <a href="/windows/desktop/SecGloss/p-gly">private key</a>.
 
 ## -parameters
 
@@ -75,7 +75,7 @@ This value can be a bitwise combination of the currently defined encoding types:
 
 ### -param pszPublicKeyObjId [in, optional]
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly">object identifier</a> (OID) that identifies the installable function to  use to export the key. If the high-order word of the OID is nonzero, <i>pszPublicKeyObjId</i> is a pointer to either an OID string such as "2.5.29.1" or an ASCII string such as "file." If the high-order word of the OID is zero, the low-order word specifies the integer identifier to be used as the object identifier.
+A pointer to the <a href="/windows/desktop/SecGloss/o-gly">object identifier</a> (OID) that identifies the installable function to  use to export the key. If the high-order word of the OID is nonzero, <i>pszPublicKeyObjId</i> is a pointer to either an OID string such as "2.5.29.1" or an ASCII string such as "file." If the high-order word of the OID is zero, the low-order word specifies the integer identifier to be used as the object identifier.
 
 ### -param dwFlags [in]
 
@@ -119,10 +119,10 @@ This parameter is reserved for future use and  must be set to <b>NULL</b>.
 ### -param pInfo [out, optional]
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_public_key_info">CERT_PUBLIC_KEY_INFO</a>  structure to receive the public key information to be exported.
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_public_key_info">CERT_PUBLIC_KEY_INFO</a>  structure to receive the public key information to be exported.
 
 This parameter can be <b>NULL</b> to set the size of this information for memory allocation purposes. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/retrieving-data-of-unknown-length">Retrieving Data of Unknown Length</a>.
+<a href="/windows/desktop/SecCrypto/retrieving-data-of-unknown-length">Retrieving Data of Unknown Length</a>.
 
 ### -param pcbInfo [in, out]
 
@@ -136,4 +136,3 @@ The function returns <b>TRUE</b> if it succeeds; otherwise, it returns <b>FALSE<
 
   If the <b>CryptExportPublicKeyInfoFromBCryptKeyHandle</b> function is unable to find an installable OID function for the OID specified by the <i>pszPublicKeyObjId</i> parameter, it attempts to export the key as a RSA Public Key (<b>szOID_RSA_RSA</b>).
  If the key is exported as a RSA Public Key, the values of the <i>dwFlags</i> and <i>pvAuxInfo</i> parameters are not used.
-

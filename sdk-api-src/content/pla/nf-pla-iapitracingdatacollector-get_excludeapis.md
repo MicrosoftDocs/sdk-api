@@ -60,13 +60,12 @@ This property is read/write.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nn-pla-iapitracingdatacollector">IApiTracingDataCollector</a>
+<a href="/previous-versions/windows/desktop/api/pla/nn-pla-iapitracingdatacollector">IApiTracingDataCollector</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-iapitracingdatacollector-get_includeapis">IApiTracingDataCollector::IncludeApis</a>
+<a href="/previous-versions/windows/desktop/api/pla/nf-pla-iapitracingdatacollector-get_includeapis">IApiTracingDataCollector::IncludeApis</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-iapitracingdatacollector-get_logapinamesonly">IApiTracingDataCollector::LogApiNamesOnly</a>
-
+<a href="/previous-versions/windows/desktop/api/pla/nf-pla-iapitracingdatacollector-get_logapinamesonly">IApiTracingDataCollector::LogApiNamesOnly</a>

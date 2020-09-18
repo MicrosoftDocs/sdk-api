@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-Contains information used to set the size and position of a header control. <b>HDLAYOUT</b> is used with the <a href="https://docs.microsoft.com/windows/desktop/Controls/hdm-layout">HDM_LAYOUT</a> message. This structure supersedes the 
+Contains information used to set the size and position of a header control. <b>HDLAYOUT</b> is used with the <a href="/windows/desktop/Controls/hdm-layout">HDM_LAYOUT</a> message. This structure supersedes the 
 			<b>HD_LAYOUT</b> structure.
 
 ## -struct-fields
@@ -67,7 +67,6 @@ Structure that contains the coordinates of a rectangle that the header control w
 
 ### -field pwpos
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-windowpos">WINDOWPOS</a>*</b>
+Type: <b><a href="/windows/desktop/api/winuser/ns-winuser-windowpos">WINDOWPOS</a>*</b>
 
 Structure that receives information about the appropriate size and position of the header control.
-

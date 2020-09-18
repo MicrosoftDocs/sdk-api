@@ -54,7 +54,7 @@ Provides methods for passing change notifications to alert the indexer that item
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISearchPersistentItemsChangedSink</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISearchPersistentItemsChangedSink</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISearchPersistentItemsChangedSink</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISearchPersistentItemsChangedSink</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ISearchPersistentItemsChangedSink</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nf-searchapi-isearchpersistentitemschangedsink-onitemschanged">OnItemsChanged</a>
+<a href="/windows/desktop/api/searchapi/nf-searchapi-isearchpersistentitemschangedsink-onitemschanged">OnItemsChanged</a>
 </td>
 <td align="left" width="63%">
 Notifies the indexer to index changed items.
@@ -79,7 +79,7 @@ Notifies the indexer to index changed items.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nf-searchapi-isearchpersistentitemschangedsink-startedmonitoringscope">StartedMonitoringScope</a>
+<a href="/windows/desktop/api/searchapi/nf-searchapi-isearchpersistentitemschangedsink-startedmonitoringscope">StartedMonitoringScope</a>
 </td>
 <td align="left" width="63%">
 Called by a notifications provider to notify the indexer to monitor changes to items within a specified hierarchical scope.
@@ -88,7 +88,7 @@ Called by a notifications provider to notify the indexer to monitor changes to i
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nf-searchapi-isearchpersistentitemschangedsink-stoppedmonitoringscope">StoppedMonitoringScope</a>
+<a href="/windows/desktop/api/searchapi/nf-searchapi-isearchpersistentitemschangedsink-stoppedmonitoringscope">StoppedMonitoringScope</a>
 </td>
 <td align="left" width="63%">
 Called by a notifications provider to notify the indexer to stop monitoring changes to items within a specified hierarchical scope.
@@ -104,9 +104,8 @@ Called by a notifications provider to notify the indexer to stop monitoring chan
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/search/-search-3x-wds-notifyingofchanges">Notifying the Index of Changes</a>
+<a href="/windows/desktop/search/-search-3x-wds-notifyingofchanges">Notifying the Index of Changes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/search/-search-indexing-process-overview">The Indexing Process</a>
-
+<a href="/windows/desktop/search/-search-indexing-process-overview">The Indexing Process</a>

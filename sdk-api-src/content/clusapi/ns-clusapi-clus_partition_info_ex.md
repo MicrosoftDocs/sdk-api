@@ -53,17 +53,17 @@ api_name:
 ## -description
 
 Describes a 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/s-gly">storage class resource</a> volume and file 
+    <a href="/previous-versions/windows/desktop/mscs/s-gly">storage class resource</a> volume and file 
     system. It is used as the data member of a 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clusprop_partition_info">CLUSPROP_PARTITION_INFO</a> structure and as the 
-    return value of some <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/control-codes">control code</a> operations.
+    <a href="/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clusprop_partition_info">CLUSPROP_PARTITION_INFO</a> structure and as the 
+    return value of some <a href="/previous-versions/windows/desktop/mscs/control-codes">control code</a> operations.
 
 ## -struct-fields
 
 ### -field dwFlags
 
 Flags that describes the storage class resource, enumerated by the 
-       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ne-clusapi-clusprop_piflags">CLUSPROP_PIFLAGS</a> enumeration.
+       <a href="/previous-versions/windows/desktop/api/clusapi/ne-clusapi-clusprop_piflags">CLUSPROP_PIFLAGS</a> enumeration.
 
 
 
@@ -82,15 +82,15 @@ The storage class resource is removable.
 #### CLUSPROP_PIFLAG_USABLE (4)
 
 The storage class resource is formatted with a file system that is usable by the 
-         <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-service">Cluster service</a>.
+         <a href="/previous-versions/windows/desktop/mscs/cluster-service">Cluster service</a>.
 
 
 
 #### CLUSPROP_PIFLAG_DEFAULT_QUORUM (8)
 
 The partition should be used to store quorum files if no partition is specified in the 
-         <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-setclusterquorumresource">SetClusterQuorumResource</a> function. For 
-         <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/physical-disk">Physical Disk</a> resources, the smallest NTFS partition 
+         <a href="/windows/desktop/api/clusapi/nf-clusapi-setclusterquorumresource">SetClusterQuorumResource</a> function. For 
+         <a href="/previous-versions/windows/desktop/mscs/physical-disk">Physical Disk</a> resources, the smallest NTFS partition 
          larger than 50MB automatically receives this flag.
 
 ### -field szDeviceName
@@ -167,5 +167,4 @@ The globally unique identifier associated with the volume.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/data-structures">Data Structures</a>
-
+<a href="/previous-versions/windows/desktop/mscs/data-structures">Data Structures</a>

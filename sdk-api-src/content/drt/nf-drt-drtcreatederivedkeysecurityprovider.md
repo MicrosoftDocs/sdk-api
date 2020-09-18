@@ -60,7 +60,7 @@ Pointer to the certificate that is the "root" portion of the chain. This is used
 
 ### -param pLocalCert [out]
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/drt/ns-drt-drt_security_provider">DRT_SECURITY_PROVIDER</a> module to be included in the <a href="https://docs.microsoft.com/windows/desktop/api/drt/ns-drt-drt_settings">DRT_SETTINGS</a> structure.
+Pointer to the <a href="/windows/desktop/api/drt/ns-drt-drt_security_provider">DRT_SECURITY_PROVIDER</a> module to be included in the <a href="/windows/desktop/api/drt/ns-drt-drt_settings">DRT_SETTINGS</a> structure.
 
 ### -param ppSecurityProvider
 
@@ -106,7 +106,7 @@ The system could not allocate memory for the security provider.
 <td width="60%">
 <ul>
 <li>The requested security algorithms are not available ( ie. BCRYPT_SHA256_ALGORITHM or  BCRYPT_AES_ALGORITHM).</li>
-<li>The <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/nf-bcrypt-bcryptopenalgorithmprovider">BCryptOpenAlgorithmProvider</a> operation failed.</li>
+<li>The <a href="/windows/desktop/api/bcrypt/nf-bcrypt-bcryptopenalgorithmprovider">BCryptOpenAlgorithmProvider</a> operation failed.</li>
 <li>The <i>dwProvType</i> parameter  indicates that the certificate provider is not AES capable.</li>
 </ul>
 </td>
@@ -130,17 +130,16 @@ The security provider created by this function is specific to the DRT it was cre
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/drt/ns-drt-drt_registration">DRT_REGISTRATION</a>
+<a href="/windows/desktop/api/drt/ns-drt-drt_registration">DRT_REGISTRATION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/drt/ns-drt-drt_settings">DRT_SETTINGS</a>
+<a href="/windows/desktop/api/drt/ns-drt-drt_settings">DRT_SETTINGS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/drt/nf-drt-drtcreatederivedkey">DrtCreateDerivedKey</a>
+<a href="/windows/desktop/api/drt/nf-drt-drtcreatederivedkey">DrtCreateDerivedKey</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/drt/nf-drt-drtdeletederivedkeysecurityprovider">DrtDeleteDerivedKeySecurityProvider</a>
-
+<a href="/windows/desktop/api/drt/nf-drt-drtdeletederivedkeysecurityprovider">DrtDeleteDerivedKeySecurityProvider</a>

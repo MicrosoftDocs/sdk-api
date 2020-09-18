@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use <a href="https://docs.microsoft.com/windows/desktop/search/-search-3x-wds-overview">Windows Search</a> for client side search and  <a href="https://www.microsoft.com/download/details.aspx?id=18914">Microsoft Search Server Express</a> for server side search.]
+<p class="CCE_Message">[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use <a href="/windows/desktop/search/-search-3x-wds-overview">Windows Search</a> for client side search and  <a href="https://www.microsoft.com/download/details.aspx?id=18914">Microsoft Search Server Express</a> for server side search.]
 
 The <b>DBCOMMANDOPENUM</b> enumerated type contains a list of the possible command operators for nodes in a command tree.
 
@@ -550,5 +550,4 @@ The <b>DBCOMMANDOPENUM</b> enumerated type contains a list of the possible comma
 
 The OLE DB Provider for Indexing Service does not support all the operators in this enumerated type. Indexing Service supports only elements in the list designated by the comment "// Indexing Service".
 
-For information about individual operators, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/indexsrv/data-manipulation-operators">Data Manipulation Operators</a>.
-
+For information about individual operators, see <a href="/previous-versions/windows/desktop/indexsrv/data-manipulation-operators">Data Manipulation Operators</a>.

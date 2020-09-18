@@ -163,10 +163,9 @@ vlv.lpContextID = vlvResp.lpContextID;
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/how-to-search-using-vlv">How to Search
+<a href="/windows/desktop/ADSI/how-to-search-using-vlv">How to Search
   Using VLV</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-idirectorysearch">IDirectorySearch</a>
-
+<a href="/windows/desktop/api/iads/nn-iads-idirectorysearch">IDirectorySearch</a>

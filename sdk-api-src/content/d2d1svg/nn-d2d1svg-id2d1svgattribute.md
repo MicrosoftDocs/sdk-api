@@ -54,7 +54,7 @@ Interface describing an SVG attribute.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID2D1SvgAttribute</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1resource">ID2D1Resource</a>. <b>ID2D1SvgAttribute</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID2D1SvgAttribute</b> interface inherits from <a href="/windows/desktop/api/d2d1/nn-d2d1-id2d1resource">ID2D1Resource</a>. <b>ID2D1SvgAttribute</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ID2D1SvgAttribute</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1svg/nf-d2d1svg-id2d1svgattribute-clone">Clone</a>
+<a href="/windows/desktop/api/d2d1svg/nf-d2d1svg-id2d1svgattribute-clone">Clone</a>
 </td>
 <td align="left" width="63%">
 Creates a clone of this attribute value. On creation, the cloned attribute is not set on any element.
@@ -78,7 +78,7 @@ Creates a clone of this attribute value. On creation, the cloned attribute is no
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1svg/nf-d2d1svg-id2d1svgattribute-getelement">GetElement</a>
+<a href="/windows/desktop/api/d2d1svg/nf-d2d1svg-id2d1svgattribute-getelement">GetElement</a>
 </td>
 <td align="left" width="63%">
 Returns the element on which this attribute is set. Returns null if the attribute is not set on any element.
@@ -86,4 +86,3 @@ Returns the element on which this attribute is set. Returns null if the attribut
 </td>
 </tr>
 </table>
-

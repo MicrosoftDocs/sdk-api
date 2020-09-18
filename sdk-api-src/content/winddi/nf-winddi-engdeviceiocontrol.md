@@ -60,7 +60,7 @@ Handle to the device that is to perform the operation.
 
 ### -param dwIoControlCode [in]
 
-Specifies the control code for the operation. The I/O controls are listed and described in full in <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/index">Video Miniport Driver I/O Control Codes</a>.
+Specifies the control code for the operation. The I/O controls are listed and described in full in <a href="/windows-hardware/drivers/ddi/content/index">Video Miniport Driver I/O Control Codes</a>.
 
 ### -param lpInBuffer [in, optional]
 
@@ -92,5 +92,4 @@ The return value is a 32-bit Win32 API-defined error code.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/video/ns-video-_video_request_packet">VIDEO_REQUEST_PACKET</a>
-
+<a href="/windows-hardware/drivers/ddi/content/video/ns-video-_video_request_packet">VIDEO_REQUEST_PACKET</a>

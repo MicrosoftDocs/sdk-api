@@ -108,7 +108,7 @@ If <b>TRUE</b>, the <b>current_next_indicator</b> bit in the header must match t
 
 ### -field fNext
 
-Specifies a value for the <b>current_next_indicator</b> bit. You can use the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mpeg2structs/ne-mpeg2structs-mpeg_current_next_bit">MPEG_CURRENT_NEXT_BIT</a> enumeration type to specify this value.
+Specifies a value for the <b>current_next_indicator</b> bit. You can use the <a href="/previous-versions/windows/desktop/api/mpeg2structs/ne-mpeg2structs-mpeg_current_next_bit">MPEG_CURRENT_NEXT_BIT</a> enumeration type to specify this value.
 
 ### -field fSpecifyDsmccOptions
 
@@ -116,7 +116,7 @@ If <b>TRUE</b>, the <b>Dsmcc</b> member contains additional filtering criteria f
 
 ### -field Dsmcc
 
-Specifies a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mpeg2structs/ns-mpeg2structs-dsmcc_filter_options">DSMCC_FILTER_OPTIONS</a> structure that contains additional filtering criteria for the DSM-CC portions of the section header.
+Specifies a <a href="/previous-versions/windows/desktop/api/mpeg2structs/ns-mpeg2structs-dsmcc_filter_options">DSMCC_FILTER_OPTIONS</a> structure that contains additional filtering criteria for the DSM-CC portions of the section header.
 
 ### -field fSpecifyAtscOptions
 
@@ -124,9 +124,8 @@ If <b>TRUE</b>, the <b>Atsc</b> member contains additional filtering criteria. O
 
 ### -field Atsc
 
-Specifies an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mpeg2structs/ns-mpeg2structs-atsc_filter_options">ATSC_FILTER_OPTIONS</a> structure that contains additional filtering criteria.
+Specifies an <a href="/previous-versions/windows/desktop/api/mpeg2structs/ns-mpeg2structs-atsc_filter_options">ATSC_FILTER_OPTIONS</a> structure that contains additional filtering criteria.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/bda-structures">BDA Structures</a>
-
+<a href="/previous-versions/windows/desktop/mstv/bda-structures">BDA Structures</a>

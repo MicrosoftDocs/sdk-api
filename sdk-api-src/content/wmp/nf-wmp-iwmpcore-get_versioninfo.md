@@ -86,5 +86,4 @@ The returned string has the following format: "<i>X</i>.0.0.<i>YYYY</i>" where <
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpcore">IWMPCore Interface</a>
-
+<a href="/windows/desktop/api/wmp/nn-wmp-iwmpcore">IWMPCore Interface</a>

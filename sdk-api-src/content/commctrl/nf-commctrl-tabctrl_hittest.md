@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Determines which tab, if any, is at a specified screen position. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/tcm-hittest">TCM_HITTEST</a> message explicitly.
+Determines which tab, if any, is at a specified screen position. You can use this macro or send the <a href="/windows/desktop/Controls/tcm-hittest">TCM_HITTEST</a> message explicitly.
 
 ## -parameters
 
 ### -param hwndTC
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 Handle to the tab control.
 
@@ -64,5 +64,4 @@ Handle to the tab control.
 
 Type: <b>LPTCHITTESTINFO</b>
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-tchittestinfo">TCHITTESTINFO</a> structure that specifies the screen position to test.
-
+Pointer to a <a href="/windows/desktop/api/commctrl/ns-commctrl-tchittestinfo">TCHITTESTINFO</a> structure that specifies the screen position to test.

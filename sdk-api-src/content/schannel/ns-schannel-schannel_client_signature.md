@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-Specifies a client signature when a call to the <a href="https://docs.microsoft.com/windows/desktop/api/rrascfg/nn-rrascfg-ieapproviderconfig">InitializeSecurityContext (Schannel)</a> function cannot access the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">private key</a> for a client certificate (in this case, the function returns <b>SEC_I_SIGNATURE_NEEDED</b>).
+Specifies a client signature when a call to the <a href="/windows/desktop/api/rrascfg/nn-rrascfg-ieapproviderconfig">InitializeSecurityContext (Schannel)</a> function cannot access the <a href="/windows/desktop/SecGloss/p-gly">private key</a> for a client certificate (in this case, the function returns <b>SEC_I_SIGNATURE_NEEDED</b>).
 
 ## -struct-fields
 
@@ -64,7 +64,7 @@ The size, in bytes, of this structure.
 
 ### -field aiHash
 
-The ID of the algorithm used to compute the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/h-gly">hash</a> of the certificate.
+The ID of the algorithm used to compute the <a href="/windows/desktop/SecGloss/h-gly">hash</a> of the certificate.
 
 ### -field cbHash
 
@@ -80,5 +80,4 @@ An array of byte values that specify the certificate thumbprint.
 
 ## -remarks
 
-Add a client signature to a client context by using this structure as the value of the <i>pInput</i> parameter in a call to the <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-applycontroltoken">ApplyControlToken</a> function.
-
+Add a client signature to a client context by using this structure as the value of the <i>pInput</i> parameter in a call to the <a href="/windows/desktop/api/sspi/nf-sspi-applycontroltoken">ApplyControlToken</a> function.

@@ -56,7 +56,7 @@ Creates a DRM transcryptor object.
 
 ### -param ppTranscryptor [out]
 
-Address of a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmdrmtranscryptor">IWMDRMTranscryptor</a> interface of the newly created DRM transcryptor object.
+Address of a pointer to the <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmdrmtranscryptor">IWMDRMTranscryptor</a> interface of the newly created DRM transcryptor object.
 
 ## -returns
 
@@ -93,5 +93,4 @@ The function is unable to allocate memory for the new object.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/wmformat/functions">Functions</a>
-
+<a href="/windows/desktop/wmformat/functions">Functions</a>

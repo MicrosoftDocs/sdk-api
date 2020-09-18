@@ -53,13 +53,13 @@ api_name:
 ## -description
 
 Identifies the type of information that will be written to the minidump file by the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/nf-minidumpapiset-minidumpwritedump">MiniDumpWriteDump</a> function.<div class="alert"><b>Important</b>  <p class="note">The minidump code has evolved greatly over the years since its inception.  Many of the 
+    <a href="/windows/desktop/api/minidumpapiset/nf-minidumpapiset-minidumpwritedump">MiniDumpWriteDump</a> function.<div class="alert"><b>Important</b>  <p class="note">The minidump code has evolved greatly over the years since its inception.  Many of the 
      constants listed on this page were added later and are not available in all versions of DbgHelp.dll. 
      Those that did not exist in the original code are labeled accordingly along with the version of DbgHelp.dll that 
      they first were implemented in. The listed version numbers corresponds to the 
      Debugging Tools For Windows releases and do not 
      apply to copies of DbgHelp.dll that are integrated into Windows. See 
-     <a href="https://docs.microsoft.com/windows/desktop/Debug/dbghelp-versions">DbgHelp Versions</a> for more details.
+     <a href="/windows/desktop/Debug/dbghelp-versions">DbgHelp Versions</a> for more details.
 
 </div>
 <div> </div>
@@ -75,7 +75,7 @@ Include just the information necessary to capture stack traces for all existing 
 Include the data sections from all loaded modules. This results in the inclusion of global variables, which 
       can make the minidump file significantly larger. For per-module control, use the 
       <b>ModuleWriteDataSeg</b> enumeration value from 
-      <a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ne-minidumpapiset-module_write_flags">MODULE_WRITE_FLAGS</a>.
+      <a href="/windows/desktop/api/minidumpapiset/ne-minidumpapiset-module_write_flags">MODULE_WRITE_FLAGS</a>.
 
 ### -field MiniDumpWithFullMemory
 
@@ -170,7 +170,7 @@ Include thread state information. For more information, see
 
 Include all code and code-related sections from loaded modules to capture executable content. For 
       per-module control, use the <b>ModuleWriteCodeSegs</b> enumeration value from 
-      <a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ne-minidumpapiset-module_write_flags">MODULE_WRITE_FLAGS</a>.
+      <a href="/windows/desktop/api/minidumpapiset/ne-minidumpapiset-module_write_flags">MODULE_WRITE_FLAGS</a>.
       
 
 <b>DbgHelp 6.1 and earlier:  </b>This value is not supported.
@@ -194,7 +194,7 @@ Scans the virtual address space for <b>PAGE_WRITECOPY</b> memory to be included.
 ### -field MiniDumpIgnoreInaccessibleMemory
 
 If you specify <b>MiniDumpWithFullMemory</b>, the 
-       <a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/nf-minidumpapiset-minidumpwritedump">MiniDumpWriteDump</a> function will fail if the 
+       <a href="/windows/desktop/api/minidumpapiset/nf-minidumpapiset-minidumpwritedump">MiniDumpWriteDump</a> function will fail if the 
        function cannot read the memory regions; however, if you include 
        <b>MiniDumpIgnoreInaccessibleMemory</b>, the 
        <b>MiniDumpWriteDump</b> function will ignore the memory 
@@ -235,5 +235,4 @@ Indicates which flags are valid.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/nf-minidumpapiset-minidumpwritedump">MiniDumpWriteDump</a>
-
+<a href="/windows/desktop/api/minidumpapiset/nf-minidumpapiset-minidumpwritedump">MiniDumpWriteDump</a>

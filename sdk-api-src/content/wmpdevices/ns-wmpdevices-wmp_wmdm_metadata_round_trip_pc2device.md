@@ -66,5 +66,4 @@ The index of the first value to retrieve. This value is always zero for the firs
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/WMP/windows-media-device-manager-device-extensions-for-metadata-transfer">Windows Media Device Manager Device Extensions for Metadata Transfer</a>
-
+<a href="/windows/desktop/WMP/windows-media-device-manager-device-extensions-for-metadata-transfer">Windows Media Device Manager Device Extensions for Metadata Transfer</a>

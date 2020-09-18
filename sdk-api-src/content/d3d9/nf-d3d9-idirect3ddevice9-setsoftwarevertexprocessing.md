@@ -57,7 +57,7 @@ Use this method to switch between software and hardware vertex processing.
 
 ### -param bSoftware [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
 
 <b>TRUE</b> to specify software vertex processing; <b>FALSE</b> to specify hardware vertex processing.
 
@@ -69,7 +69,7 @@ If the method succeeds, the return value is D3D_OK. If the method fails, the ret
 
 ## -remarks
 
-The restrictions for changing modes are as follows (also refer to the notes on the <a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3dcreate">D3DCREATE</a> constants):
+The restrictions for changing modes are as follows (also refer to the notes on the <a href="/windows/desktop/direct3d9/d3dcreate">D3DCREATE</a> constants):
 
 <ul>
 <li>If a device is created with D3DCREATE_SOFTWARE_VERTEXPROCESSING, the vertex processing will be done in software and cannot be changed.</li>
@@ -82,9 +82,8 @@ In Direct3D 9, use <b>SetSoftwareVertexProcessing</b> instead. This new API is n
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3ddevice9">IDirect3DDevice9</a>
+<a href="/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3ddevice9">IDirect3DDevice9</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-getsoftwarevertexprocessing">IDirect3DDevice9::GetSoftwareVertexProcessing</a>
-
+<a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-getsoftwarevertexprocessing">IDirect3DDevice9::GetSoftwareVertexProcessing</a>

@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Provides information about an <a href="https://docs.microsoft.com/windows/desktop/api/spatialaudiometadata/nn-spatialaudiometadata-ispatialaudiometadataitems">ISpatialAudioMetadataItems</a> object. Get a copy of this structure by calling <a href="https://docs.microsoft.com/windows/desktop/api/spatialaudiometadata/nf-spatialaudiometadata-ispatialaudiometadataitems-getinfo">GetInfo</a>.
+Provides information about an <a href="/windows/desktop/api/spatialaudiometadata/nn-spatialaudiometadata-ispatialaudiometadataitems">ISpatialAudioMetadataItems</a> object. Get a copy of this structure by calling <a href="/windows/desktop/api/spatialaudiometadata/nf-spatialaudiometadata-ispatialaudiometadataitems-getinfo">GetInfo</a>.
 
 ## -struct-fields
 
@@ -77,4 +77,3 @@ The size of the largest command value defined by the metadata format.
 ### -field MaxItemCount
 
 ### -field MaxValueBufferLength
-

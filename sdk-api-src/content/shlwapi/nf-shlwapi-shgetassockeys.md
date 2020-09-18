@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Retrieves an array of class subkeys associated with an <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nn-shlwapi-iqueryassociations">IQueryAssociations</a> object.
+Retrieves an array of class subkeys associated with an <a href="/windows/desktop/api/shlwapi/nn-shlwapi-iqueryassociations">IQueryAssociations</a> object.
 
 ## -parameters
 
 ### -param pqa [in]
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nn-shlwapi-iqueryassociations">IQueryAssociations</a> interface pointer to the object you're interested in.
+A <a href="/windows/desktop/api/shlwapi/nn-shlwapi-iqueryassociations">IQueryAssociations</a> interface pointer to the object you're interested in.
 
 ### -param rgKeys [out]
 
@@ -69,4 +69,3 @@ The number of elements in the <i>rgKeys</i> array. If you are interested in only
 ## -returns
 
 The number of subkeys inserted into the array.
-

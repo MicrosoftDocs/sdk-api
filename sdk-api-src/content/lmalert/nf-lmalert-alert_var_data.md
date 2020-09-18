@@ -52,9 +52,9 @@ api_name:
 
 The 
 				<b>ALERT_VAR_DATA</b> macro returns a pointer to the variable-length portion of an alert message. Variable-length data can follow an 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmalert/ns-lmalert-admin_other_info">ADMIN_OTHER_INFO</a>, a 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmalert/ns-lmalert-print_other_info">PRINT_OTHER_INFO</a>, or a 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmalert/ns-lmalert-user_other_info">USER_OTHER_INFO</a> structure.
+<a href="/windows/desktop/api/lmalert/ns-lmalert-admin_other_info">ADMIN_OTHER_INFO</a>, a 
+<a href="/windows/desktop/api/lmalert/ns-lmalert-print_other_info">PRINT_OTHER_INFO</a>, or a 
+<a href="/windows/desktop/api/lmalert/ns-lmalert-user_other_info">USER_OTHER_INFO</a> structure.
 
 ## -parameters
 
@@ -64,8 +64,8 @@ Pointer to an
 <b>ADMIN_OTHER_INFO</b>, a 
 <b>PRINT_OTHER_INFO</b>, or a 
 <b>USER_OTHER_INFO</b> structure that was specified in a call to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmalert/nf-lmalert-netalertraise">NetAlertRaise</a> function or the 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmalert/nf-lmalert-netalertraiseex">NetAlertRaiseEx</a> function.
+<a href="/windows/desktop/api/lmalert/nf-lmalert-netalertraise">NetAlertRaise</a> function or the 
+<a href="/windows/desktop/api/lmalert/nf-lmalert-netalertraiseex">NetAlertRaiseEx</a> function.
 
 ## -remarks
 
@@ -83,45 +83,44 @@ The
 
 
 See 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmalert/nf-lmalert-netalertraise">NetAlertRaise</a> and 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmalert/nf-lmalert-netalertraiseex">NetAlertRaiseEx</a> for code samples that use the 
+<a href="/windows/desktop/api/lmalert/nf-lmalert-netalertraise">NetAlertRaise</a> and 
+<a href="/windows/desktop/api/lmalert/nf-lmalert-netalertraiseex">NetAlertRaiseEx</a> for code samples that use the 
 <b>ALERT_VAR_DATA</b> macro to retrieve a pointer to the variable-length data in an alert message.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmalert/ns-lmalert-admin_other_info">ADMIN_OTHER_INFO</a>
+<a href="/windows/desktop/api/lmalert/ns-lmalert-admin_other_info">ADMIN_OTHER_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmalert/nf-lmalert-alert_other_info">ALERT_OTHER_INFO</a>
+<a href="/windows/desktop/api/lmalert/nf-lmalert-alert_other_info">ALERT_OTHER_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/alert-functions">Alert Functions</a>
+<a href="/windows/desktop/NetMgmt/alert-functions">Alert Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmalert/nf-lmalert-netalertraise">NetAlertRaise</a>
+<a href="/windows/desktop/api/lmalert/nf-lmalert-netalertraise">NetAlertRaise</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmalert/nf-lmalert-netalertraiseex">NetAlertRaiseEx</a>
+<a href="/windows/desktop/api/lmalert/nf-lmalert-netalertraiseex">NetAlertRaiseEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management-macros">Network
+<a href="/windows/desktop/NetMgmt/network-management-macros">Network
 		  Management Macros</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management">Network Management
+<a href="/windows/desktop/NetMgmt/network-management">Network Management
 		  Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmalert/ns-lmalert-print_other_info">PRINT_OTHER_INFO</a>
+<a href="/windows/desktop/api/lmalert/ns-lmalert-print_other_info">PRINT_OTHER_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmalert/ns-lmalert-user_other_info">USER_OTHER_INFO</a>
-
+<a href="/windows/desktop/api/lmalert/ns-lmalert-user_other_info">USER_OTHER_INFO</a>

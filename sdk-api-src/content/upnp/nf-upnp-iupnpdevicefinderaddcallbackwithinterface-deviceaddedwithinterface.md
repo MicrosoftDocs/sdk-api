@@ -57,11 +57,11 @@ The <b>DeviceAddedWithInterface</b> method is invoked by the UPnP framework to n
 ### -param lFindData [in]
 
 Specifies the search for which the UPnP framework is returning results. The value of <i>lFindData</i> is the value returned to the caller by 
-<a href="https://docs.microsoft.com/windows/desktop/api/upnp/nf-upnp-iupnpdevicefinder-createasyncfind">IUPnPDeviceFinder::CreateAsyncFind</a>.
+<a href="/windows/desktop/api/upnp/nf-upnp-iupnpdevicefinder-createasyncfind">IUPnPDeviceFinder::CreateAsyncFind</a>.
 
 ### -param pDevice [in]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/upnp/nn-upnp-iupnpdevice">IUPnPDevice</a> object that contains the new device.
+Pointer to a <a href="/windows/desktop/api/upnp/nn-upnp-iupnpdevice">IUPnPDevice</a> object that contains the new device.
 
 ### -param pguidInterface [in]
 
@@ -73,13 +73,12 @@ If the method succeeds, the return value is S_OK. Otherwise, the method returns 
 
 ## -remarks
 
-The UPnP framework will query to see if the <a href="https://docs.microsoft.com/windows/desktop/api/upnp/nn-upnp-iupnpdevicefinderaddcallbackwithinterface">IUPnPDeviceFinderAddCallbackWithInterface</a> interface exists. If you have implemented the interface, the UPnP framework will call the <b>DeviceAddedWithInterface</b> method.  Otherwise, the UPnP framework will call the <a href="https://docs.microsoft.com/windows/desktop/api/upnp/nf-upnp-iupnpdevicefindercallback-deviceadded">IUPnPDeviceFinderCallback::DeviceAdded</a> method.
+The UPnP framework will query to see if the <a href="/windows/desktop/api/upnp/nn-upnp-iupnpdevicefinderaddcallbackwithinterface">IUPnPDeviceFinderAddCallbackWithInterface</a> interface exists. If you have implemented the interface, the UPnP framework will call the <b>DeviceAddedWithInterface</b> method.  Otherwise, the UPnP framework will call the <a href="/windows/desktop/api/upnp/nf-upnp-iupnpdevicefindercallback-deviceadded">IUPnPDeviceFinderCallback::DeviceAdded</a> method.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/upnp/nn-upnp-iupnpdevicefinder">IUPnPDeviceFinder</a>
+<a href="/windows/desktop/api/upnp/nn-upnp-iupnpdevicefinder">IUPnPDeviceFinder</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/upnp/nn-upnp-iupnpdevicefinderaddcallbackwithinterface">IUPnPDeviceFinderAddCallbackWithInterface</a>
-
+<a href="/windows/desktop/api/upnp/nn-upnp-iupnpdevicefinderaddcallbackwithinterface">IUPnPDeviceFinderAddCallbackWithInterface</a>

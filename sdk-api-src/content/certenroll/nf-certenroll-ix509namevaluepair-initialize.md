@@ -66,21 +66,20 @@ A <b>BSTR</b> variable that contains the value.
 
 If the function succeeds, the function returns <b>S_OK</b>.
 
-If the function fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
+If the function fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 ## -remarks
 
-You can call the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509namevaluepair-get_name">Name</a> and <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509namevaluepair-get_value">Value</a> properties to retrieve the values initialized by calling this method.
+You can call the <a href="/windows/desktop/api/certenroll/nf-certenroll-ix509namevaluepair-get_name">Name</a> and <a href="/windows/desktop/api/certenroll/nf-certenroll-ix509namevaluepair-get_value">Value</a> properties to retrieve the values initialized by calling this method.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509namevaluepair">IX509NameValuePair</a>
+<a href="/windows/desktop/api/certenroll/nn-certenroll-ix509namevaluepair">IX509NameValuePair</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509namevaluepair-get_name">Name</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-ix509namevaluepair-get_name">Name</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509namevaluepair-get_value">Value</a>
-
+<a href="/windows/desktop/api/certenroll/nf-certenroll-ix509namevaluepair-get_value">Value</a>

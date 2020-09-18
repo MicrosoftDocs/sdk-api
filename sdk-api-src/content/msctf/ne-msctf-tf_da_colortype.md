@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-Elements of the <b>TF_DA_COLORTYPE</b> enumeration specify the format of the color contained in the <a href="https://docs.microsoft.com/windows/desktop/api/msctf/ns-msctf-tf_da_color">TF_DA_COLOR</a> structure.
+Elements of the <b>TF_DA_COLORTYPE</b> enumeration specify the format of the color contained in the <a href="/windows/desktop/api/msctf/ns-msctf-tf_da_color">TF_DA_COLOR</a> structure.
 
 ## -enum-fields
 
@@ -62,7 +62,7 @@ The structure contains no color data.
 
 ### -field TF_CT_SYSCOLOR
 
-The color is specified as a system color index. For more information about the system color indexes, see <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getsyscolor">GetSysColor</a>.
+The color is specified as a system color index. For more information about the system color indexes, see <a href="/windows/desktop/api/winuser/nf-winuser-getsyscolor">GetSysColor</a>.
 
 ### -field TF_CT_COLORREF
 
@@ -70,10 +70,9 @@ The color is specified as an RGB value.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getsyscolor">GetSysColor</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-getsyscolor">GetSysColor</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/ns-msctf-tf_da_color">TF_DA_COLOR
+<a href="/windows/desktop/api/msctf/ns-msctf-tf_da_color">TF_DA_COLOR
       </a>
-

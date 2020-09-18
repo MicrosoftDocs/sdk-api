@@ -50,11 +50,11 @@ api_name:
 
 ## -description
 
-The <b>ITfPropertyStore</b> interface is implemented by a text service and used by the TSF manager to provide non-static property values. An instance of this interface is passed to <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfproperty-setvaluestore">ITfProperty::SetValueStore</a>.
+The <b>ITfPropertyStore</b> interface is implemented by a text service and used by the TSF manager to provide non-static property values. An instance of this interface is passed to <a href="/windows/desktop/api/msctf/nf-msctf-itfproperty-setvaluestore">ITfProperty::SetValueStore</a>.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfPropertyStore</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfPropertyStore</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfPropertyStore</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfPropertyStore</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ITfPropertyStore</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfpropertystore-clone">Clone</a>
+<a href="/windows/desktop/api/msctf/nf-msctf-itfpropertystore-clone">Clone</a>
 </td>
 <td align="left" width="63%">
 Creates an exact copy of the property store object.
@@ -78,7 +78,7 @@ Creates an exact copy of the property store object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfpropertystore-divide">Divide</a>
+<a href="/windows/desktop/api/msctf/nf-msctf-itfpropertystore-divide">Divide</a>
 </td>
 <td align="left" width="63%">
 Called when the text covered by the property is split into two ranges.
@@ -87,7 +87,7 @@ Called when the text covered by the property is split into two ranges.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfpropertystore-getdata">GetData</a>
+<a href="/windows/desktop/api/msctf/nf-msctf-itfpropertystore-getdata">GetData</a>
 </td>
 <td align="left" width="63%">
 Obtains the property store data.
@@ -96,7 +96,7 @@ Obtains the property store data.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfpropertystore-getdatatype">GetDataType</a>
+<a href="/windows/desktop/api/msctf/nf-msctf-itfpropertystore-getdatatype">GetDataType</a>
 </td>
 <td align="left" width="63%">
 This method is reserved, but must be implemented.
@@ -105,7 +105,7 @@ This method is reserved, but must be implemented.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfpropertystore-getpropertyrangecreator">GetPropertyRangeCreator</a>
+<a href="/windows/desktop/api/msctf/nf-msctf-itfpropertystore-getpropertyrangecreator">GetPropertyRangeCreator</a>
 </td>
 <td align="left" width="63%">
 Obtains the class identifier of the property store owner.
@@ -114,7 +114,7 @@ Obtains the class identifier of the property store owner.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfpropertystore-gettype">GetType</a>
+<a href="/windows/desktop/api/msctf/nf-msctf-itfpropertystore-gettype">GetType</a>
 </td>
 <td align="left" width="63%">
 Obtains the property identifier.
@@ -123,7 +123,7 @@ Obtains the property identifier.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfpropertystore-ontextupdated">OnTextUpdated</a>
+<a href="/windows/desktop/api/msctf/nf-msctf-itfpropertystore-ontextupdated">OnTextUpdated</a>
 </td>
 <td align="left" width="63%">
 Called when the text that the property store applies to is modified.
@@ -132,7 +132,7 @@ Called when the text that the property store applies to is modified.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfpropertystore-serialize">Serialize</a>
+<a href="/windows/desktop/api/msctf/nf-msctf-itfpropertystore-serialize">Serialize</a>
 </td>
 <td align="left" width="63%">
 Called to write the property store data into a stream for serialization.
@@ -141,7 +141,7 @@ Called to write the property store data into a stream for serialization.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfpropertystore-shrink">Shrink</a>
+<a href="/windows/desktop/api/msctf/nf-msctf-itfpropertystore-shrink">Shrink</a>
 </td>
 <td align="left" width="63%">
 Called when the text that the property store applies to is truncated.
@@ -152,10 +152,9 @@ Called when the text that the property store applies to is truncated.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfproperty-setvaluestore">ITfProperty::SetValueStore
+<a href="/windows/desktop/api/msctf/nf-msctf-itfproperty-setvaluestore">ITfProperty::SetValueStore
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
-
+<a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>

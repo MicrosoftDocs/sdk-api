@@ -59,10 +59,10 @@ Verifies that a Policy Alternative is compatible
 
 ### -param policy [in]
 
-A pointer to a  <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-policy">WS_POLICY</a> object  containing the alternative.
+A pointer to a  <a href="/windows/desktop/wsw/ws-policy">WS_POLICY</a> object  containing the alternative.
                 
-                    <div class="alert"><b>Note</b>  Each <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_metadata_endpoint">WS_METADATA_ENDPOINT</a> that is returned from 
-                    <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsgetmetadataendpoints">WsGetMetadataEndpoints</a> contains a policy object.
+                    <div class="alert"><b>Note</b>  Each <a href="/windows/desktop/api/webservices/ns-webservices-ws_metadata_endpoint">WS_METADATA_ENDPOINT</a> that is returned from 
+                    <a href="/windows/desktop/api/webservices/nf-webservices-wsgetmetadataendpoints">WsGetMetadataEndpoints</a> contains a policy object.
                 </div>
 <div> </div>
 
@@ -70,7 +70,7 @@ A pointer to a  <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-polic
 
 Specifies the zero-based index that identifies the alternative to use within the policy
                     object.  The number of alternatives present in the policy object can be obtained
-                    using <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsgetpolicyalternativecount">WsGetPolicyAlternativeCount</a>.
+                    using <a href="/windows/desktop/api/webservices/nf-webservices-wsgetpolicyalternativecount">WsGetPolicyAlternativeCount</a>.
 
 ### -param policyConstraints [in]
 
@@ -81,7 +81,7 @@ A pointer to
 
 <div class="alert"><b>Note</b>  If a property constraint is not specified the
                     default constraint value for that particular property is used.
-                See <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_policy_constraints">WS_POLICY_CONSTRAINTS</a> for more information.</div>
+                See <a href="/windows/desktop/api/webservices/ns-webservices-ws_policy_constraints">WS_POLICY_CONSTRAINTS</a> for more information.</div>
 <div> </div>
 
 ### -param matchRequired [in]
@@ -96,14 +96,14 @@ Indicates whether a match is required or not.
 
 ### -param heap [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/wsw/heap">Heap</a> object used to store any data requiring allocation
+A pointer to a <a href="/windows/desktop/wsw/heap">Heap</a> object used to store any data requiring allocation
                    beyond the specified constraint. <div class="alert"><b>Note</b>  For example pointer types within the constraint "out" fields is allocated using this Heap.
                 </div>
 <div> </div>
 
 ### -param error [in, optional]
 
-A  pointer to a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-error">WS_ERROR</a> object where additional information about the error should be stored if the function fails.
+A  pointer to a <a href="/windows/desktop/wsw/ws-error">WS_ERROR</a> object where additional information about the error should be stored if the function fails.
 
 ## -returns
 
@@ -203,4 +203,3 @@ The content of the <b>out</b> field of these structures
 
 </div>
 <div> </div>
-

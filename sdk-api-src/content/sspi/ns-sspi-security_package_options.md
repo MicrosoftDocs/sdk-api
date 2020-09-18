@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-Specifies information about a security package. This structure is used by the <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-addsecuritypackagea">AddSecurityPackage</a> function.
+Specifies information about a security package. This structure is used by the <a href="/windows/desktop/api/sspi/nf-sspi-addsecuritypackagea">AddSecurityPackage</a> function.
 
 ## -struct-fields
 
@@ -89,7 +89,7 @@ The package type is not known.
 </dl>
 </td>
 <td width="60%">
-The security package is an <a href="https://docs.microsoft.com/windows/desktop/SecAuthN/lsa-authentication">LSA authentication</a> package.
+The security package is an <a href="/windows/desktop/SecAuthN/lsa-authentication">LSA authentication</a> package.
 
 </td>
 </tr>
@@ -100,7 +100,7 @@ The security package is an <a href="https://docs.microsoft.com/windows/desktop/S
 </dl>
 </td>
 <td width="60%">
-The security package is a <a href="https://docs.microsoft.com/windows/desktop/Rpc/security-support-provider-interface-sspi-">Security Support Provider Interface</a> (SSPI) package.
+The security package is a <a href="/windows/desktop/Rpc/security-support-provider-interface-sspi-">Security Support Provider Interface</a> (SSPI) package.
 
 </td>
 </tr>
@@ -117,4 +117,3 @@ The size, in bytes, of a digital signature for this security package.
 ### -field Signature
 
 A digital signature for this security package.
-

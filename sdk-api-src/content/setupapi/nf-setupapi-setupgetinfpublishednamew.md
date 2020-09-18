@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-The <b>SetupGetInfPublishedName</b> function retrieves the fully qualified file name (directory path and file name) of an <a href="https://docs.microsoft.com/windows-hardware/drivers/install/overview-of-inf-files">INF file</a> in the system INF file directory that corresponds to a specified INF file in the driver store or a specified INF file in the system INF file directory.
+The <b>SetupGetInfPublishedName</b> function retrieves the fully qualified file name (directory path and file name) of an <a href="/windows-hardware/drivers/install/overview-of-inf-files">INF file</a> in the system INF file directory that corresponds to a specified INF file in the driver store or a specified INF file in the system INF file directory.
 
 ## -parameters
 
@@ -74,19 +74,19 @@ A pointer to a DWORD-typed variable that receives the size, in characters, of th
 
 ## -returns
 
-If <b>SetupGetInfPublishedName</b> succeeds, the function returns <b>TRUE</b>; otherwise, the function returns <b>FALSE</b>. To obtain extended error information, call <a href="https://msdn.microsoft.com/library/ms679360.aspx">GetLastError</a>.
+If <b>SetupGetInfPublishedName</b> succeeds, the function returns <b>TRUE</b>; otherwise, the function returns <b>FALSE</b>. To obtain extended error information, call <a href="/windows/win32/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-If the size, in characters, of the fully qualified file name of the requested INF file, including a null-terminator, is greater than <i>ReturnBufferSize</i>, the function will fail, and a call to <a href="https://msdn.microsoft.com/library/ms679360.aspx">GetLastError</a> will return ERROR_INSUFFICIENT_BUFFER.
+If the size, in characters, of the fully qualified file name of the requested INF file, including a null-terminator, is greater than <i>ReturnBufferSize</i>, the function will fail, and a call to <a href="/windows/win32/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> will return ERROR_INSUFFICIENT_BUFFER.
 
 ## -remarks
 
 To determine the size of the return buffer that is required to contain the fully qualified file name of the specified INF file in the system INF directory, call <b>SetupGetInfPublishedName</b> and set <i>ReturnBuffer</i> to <b>NULL</b>, <i>ReturnBufferSize</i> to zero, and supply <i>RequiredSize</i>. <b>SetupGetInfPublishedName</b> will return the required buffer size in <i>RequiredSize</i>.
 
-When device installation preinstalls a <a href="https://docs.microsoft.com/previous-versions/windows/hardware/difxapi/driverpackagepreinstall">driver package</a> in the driver store, it creates two copies of the driver package INF file. Device installation adds one copy to the system INF directory and assigns that copy of the INF file a unique <i>published file name</i> of the form <i>OEMnnn.inf</i>. Device installation adds a second copy of the INF file to the driver store and assigns that copy the original INF file name.
+When device installation preinstalls a <a href="/previous-versions/windows/hardware/difxapi/driverpackagepreinstall">driver package</a> in the driver store, it creates two copies of the driver package INF file. Device installation adds one copy to the system INF directory and assigns that copy of the INF file a unique <i>published file name</i> of the form <i>OEMnnn.inf</i>. Device installation adds a second copy of the INF file to the driver store and assigns that copy the original INF file name.
 
 <b>SetupGetInfPublishedName</b> returns the fully qualified file name of the INF file in the system INF file directory that matches the INF file, if any, that is supplied by <i>DriverStoreLocation</i>. <i>DriverStoreLocation </i>must specify the fully qualified file name of an INF file in the driver store or must specify the file name, and optionally the directory path, of an INF file in the system INF directory. For example, assume that the INF file for a driver package is <i>myinf.inf</i>, and that for this driver package, device installation installs the INF file <i>OEM1.inf</i> in the system INF directory C:<i>\Windows\inf</i>. Further assume that device installation installs the corresponding INF file copy C:<i>\windows\system32\driverstore\filerepository\myinf_12345678\myinf.inf</i> in the driver store. In this case, the function returns C:<i>\Windows\inf\OEM1.inf</i> if <i>DriverStoreLocation</i> supplies one of the following strings: C:<i>\windows\system32\driverstore\filerepository\myinf_12345678\myinf.inf, OEM1.inf</i>, or C:<i>\Windows\inf\OEM1.inf.</i>
 
-Call the <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupgetinfdriverstorelocationa">SetupGetInfDriverStoreLocation</a> function to retrieve the fully qualified file name of an INF file in the driver store that corresponds to a specified INF file in the system INF file directory or a specified file in the driver store.
+Call the <a href="/windows/desktop/api/setupapi/nf-setupapi-setupgetinfdriverstorelocationa">SetupGetInfDriverStoreLocation</a> function to retrieve the fully qualified file name of an INF file in the driver store that corresponds to a specified INF file in the system INF file directory or a specified file in the driver store.
 
 
 
@@ -97,5 +97,4 @@ Call the <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-set
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupgetinfdriverstorelocationa">SetupGetInfDriverStoreLocation</a>
-
+<a href="/windows/desktop/api/setupapi/nf-setupapi-setupgetinfdriverstorelocationa">SetupGetInfDriverStoreLocation</a>

@@ -93,9 +93,8 @@ The value of <i>pKeep</i> is not valid. For example, it may be <b>NULL</b>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-ipicture">IPicture</a>
+<a href="/windows/desktop/api/ocidl/nn-ocidl-ipicture">IPicture</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-ipicture-put_keeporiginalformat">IPicture::put_KeepOriginalFormat</a>
-
+<a href="/windows/desktop/api/ocidl/nf-ocidl-ipicture-put_keeporiginalformat">IPicture::put_KeepOriginalFormat</a>

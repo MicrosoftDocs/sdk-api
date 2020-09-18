@@ -50,21 +50,21 @@ api_name:
 
 ## -description
 
-Closes down communication with the specified <a href="https://docs.microsoft.com/windows/desktop/wsw/service-host">service host</a>.
+Closes down communication with the specified <a href="/windows/desktop/wsw/service-host">service host</a>.
 
 ## -parameters
 
 ### -param serviceHost [in]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-service-host">WS_SERVICE_HOST</a> structure that represents the service host to be closed.
+Pointer to a <a href="/windows/desktop/wsw/ws-service-host">WS_SERVICE_HOST</a> structure that represents the service host to be closed.
 
 ### -param asyncContext [in, optional]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_async_context">WS_ASYNC_CONTEXT</a> structure containing information for invoking the function asynchronously. Pass <b>NULL</b> to invoke the function synchronously.
+Pointer to a <a href="/windows/desktop/api/webservices/ns-webservices-ws_async_context">WS_ASYNC_CONTEXT</a> structure containing information for invoking the function asynchronously. Pass <b>NULL</b> to invoke the function synchronously.
 
 ### -param error [in, optional]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-error">WS_ERROR</a> structure  that receives additional error information if the function fails.
+Pointer to a <a href="/windows/desktop/wsw/ws-error">WS_ERROR</a> structure  that receives additional error information if the function fails.
 
 ## -returns
 
@@ -153,4 +153,3 @@ This function may return other errors not listed above.
 
 This has implications for endpoints configured to run with session-based channel bindings. If a client has an open session with a service on such an endpoint, the 
                 closure will not complete until the client closes the session with the service.
-

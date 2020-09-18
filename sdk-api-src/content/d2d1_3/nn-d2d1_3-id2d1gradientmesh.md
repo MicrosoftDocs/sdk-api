@@ -52,11 +52,11 @@ api_name:
 ## -description
 
 Represents a device-dependent representation of a gradient mesh composed of patches. 
-  Use the <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3/nf-d2d1_3-id2d1devicecontext2-creategradientmesh">ID2D1DeviceContext2::CreateGradientMesh method</a> to create an instance of ID2D1GradientMesh.
+  Use the <a href="/windows/desktop/api/d2d1_3/nf-d2d1_3-id2d1devicecontext2-creategradientmesh">ID2D1DeviceContext2::CreateGradientMesh method</a> to create an instance of ID2D1GradientMesh.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID2D1GradientMesh</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1resource">ID2D1Resource</a>. <b>ID2D1GradientMesh</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID2D1GradientMesh</b> interface inherits from <a href="/windows/desktop/api/d2d1/nn-d2d1-id2d1resource">ID2D1Resource</a>. <b>ID2D1GradientMesh</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>ID2D1GradientMesh</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3/nf-d2d1_3-id2d1gradientmesh-getpatchcount">GetPatchCount</a>
+<a href="/windows/desktop/api/d2d1_3/nf-d2d1_3-id2d1gradientmesh-getpatchcount">GetPatchCount</a>
 </td>
 <td align="left" width="63%">
 Returns the number of patches that make up this gradient mesh.
@@ -80,7 +80,7 @@ Returns the number of patches that make up this gradient mesh.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3/nf-d2d1_3-id2d1gradientmesh-getpatches">GetPatches</a>
+<a href="/windows/desktop/api/d2d1_3/nf-d2d1_3-id2d1gradientmesh-getpatches">GetPatches</a>
 </td>
 <td align="left" width="63%">
 Returns a subset of the patches that make up this gradient mesh.
@@ -91,5 +91,4 @@ Returns a subset of the patches that make up this gradient mesh.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1resource">ID2D1Resource</a>
-
+<a href="/windows/desktop/api/d2d1/nn-d2d1-id2d1resource">ID2D1Resource</a>

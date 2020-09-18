@@ -53,7 +53,7 @@ api_name:
 
 ## -description
 
-Gets or sets a Boolean value that indicates that the task may be terminated by the Task Scheduler service using  <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-terminateprocess">TerminateProcess</a>. The service will try to close the running task by sending the <a href="https://docs.microsoft.com/windows/desktop/winmsg/wm-close">WM_CLOSE</a> notification, and if the  task does not respond, the task will be terminated only if this property is set to true.
+Gets or sets a Boolean value that indicates that the task may be terminated by the Task Scheduler service using  <a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-terminateprocess">TerminateProcess</a>. The service will try to close the running task by sending the <a href="/windows/desktop/winmsg/wm-close">WM_CLOSE</a> notification, and if the  task does not respond, the task will be terminated only if this property is set to true.
 
 This property is read/write.
 
@@ -61,17 +61,16 @@ This property is read/write.
 
 ## -remarks
 
-When reading or writing XML for a task, this setting is specified in the <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/taskschedulerschema-allowhardterminate-settingstype-element">AllowHardTerminate</a> element of the Task Scheduler schema.
+When reading or writing XML for a task, this setting is specified in the <a href="/windows/desktop/TaskSchd/taskschedulerschema-allowhardterminate-settingstype-element">AllowHardTerminate</a> element of the Task Scheduler schema.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nn-taskschd-itasksettings">ITaskSettings</a>
+<a href="/windows/desktop/api/taskschd/nn-taskschd-itasksettings">ITaskSettings</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/TaskSchd/task-scheduler-start-page">Task Scheduler</a>
+<a href="/windows/desktop/TaskSchd/task-scheduler-start-page">Task Scheduler</a>
 
 
 
 TaskSettings
-

@@ -53,7 +53,7 @@ api_name:
 
 <p class="CCE_Message">[This method is no longer available for use as of Windows Server 2008 and Windows Vista.]
 
-The <b>addNameValuePairToRequestWStr</b> method adds an unauthenticated name-value string pair to the request. This method was first defined in the <a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nn-xenroll-ienroll4">IEnroll4</a> interface.
+The <b>addNameValuePairToRequestWStr</b> method adds an unauthenticated name-value string pair to the request. This method was first defined in the <a href="/windows/desktop/api/xenroll/nn-xenroll-ienroll4">IEnroll4</a> interface.
 
 ## -parameters
 
@@ -71,9 +71,8 @@ A pointer to a null-terminated wide character string that represents the value p
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nn-xenroll-ienroll4">IEnroll</a>
+<a href="/windows/desktop/api/xenroll/nn-xenroll-ienroll4">IEnroll</a>
 
 
 
 <b>IEnroll4</b>
-

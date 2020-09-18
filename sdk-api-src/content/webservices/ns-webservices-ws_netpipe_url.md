@@ -58,7 +58,7 @@ The URL subtype for specifying an net.pipe URL.
 
 ### -field url
 
-The base type from which this URL subtype and all other URL subtypes derive. The <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_url_scheme_type">WS_URL_SCHEME_TYPE</a> is <b>WS_URL_NETPIPE_SCHEME_TYPE</b>.
+The base type from which this URL subtype and all other URL subtypes derive. The <a href="/windows/desktop/api/webservices/ne-webservices-ws_url_scheme_type">WS_URL_SCHEME_TYPE</a> is <b>WS_URL_NETPIPE_SCHEME_TYPE</b>.
 
 ### -field host
 
@@ -86,21 +86,20 @@ The fragment.
 
 ## -remarks
 
-If used with the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsdecodeurl">WsDecodeUrl</a> field, <b>portAsString</b> is a zero-length string if no port is specified in <b>url</b>.
+If used with the <a href="/windows/desktop/api/webservices/nf-webservices-wsdecodeurl">WsDecodeUrl</a> field, <b>portAsString</b> is a zero-length string if no port is specified in <b>url</b>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_https_url">WS_HTTPS_URL</a>
+<a href="/windows/desktop/api/webservices/ns-webservices-ws_https_url">WS_HTTPS_URL</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_http_url">WS_HTTP_URL</a>
+<a href="/windows/desktop/api/webservices/ns-webservices-ws_http_url">WS_HTTP_URL</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_nettcp_url">WS_NETTCP_URL</a>
+<a href="/windows/desktop/api/webservices/ns-webservices-ws_nettcp_url">WS_NETTCP_URL</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_soapudp_url">WS_SOAPUDP_URL</a>
-
+<a href="/windows/desktop/api/webservices/ns-webservices-ws_soapudp_url">WS_SOAPUDP_URL</a>

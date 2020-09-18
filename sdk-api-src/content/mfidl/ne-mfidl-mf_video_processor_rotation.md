@@ -66,9 +66,8 @@ Rotate the image to the correct viewing orientation.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfvideoprocessorcontrol-setrotation">IMFVideoProcessorControl::SetRotation</a>
+<a href="/windows/desktop/api/mfidl/nf-mfidl-imfvideoprocessorcontrol-setrotation">IMFVideoProcessorControl::SetRotation</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>
-
+<a href="/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>

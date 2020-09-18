@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Gets an <a href="https://docs.microsoft.com/windows/desktop/api/propidl/nn-propidl-ipropertysetstorage">IPropertySetStorage</a> through which the properties of the image can be accessed.
+Gets an <a href="/windows/desktop/api/propidl/nn-propidl-ipropertysetstorage">IPropertySetStorage</a> through which the properties of the image can be accessed.
 
 ## -parameters
 
@@ -62,9 +62,9 @@ Not used, set to 0.
 
 ### -param ppPropSet [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/propidl/nn-propidl-ipropertysetstorage">IPropertySetStorage</a>**</b>
+Type: <b><a href="/windows/desktop/api/propidl/nn-propidl-ipropertysetstorage">IPropertySetStorage</a>**</b>
 
-The address of a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/propidl/nn-propidl-ipropertysetstorage">IPropertySetStorage</a> interface.
+The address of a pointer to the <a href="/windows/desktop/api/propidl/nn-propidl-ipropertysetstorage">IPropertySetStorage</a> interface.
 
 ## -returns
 
@@ -101,4 +101,3 @@ The <i>ppPropSet</i> pointer is not valid.
 </td>
 </tr>
 </table>
-

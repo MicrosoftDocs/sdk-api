@@ -54,7 +54,7 @@ api_name:
 
 Not supported.
 
-Implemented only as a stub that calls the <a href="https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-internetsetoptiona">InternetSetOption</a> function; <b>InternetSetOptionEx</b> has no functionality of its own. Do not use this function at this time.
+Implemented only as a stub that calls the <a href="/windows/desktop/api/wininet/nf-wininet-internetsetoptiona">InternetSetOption</a> function; <b>InternetSetOptionEx</b> has no functionality of its own. Do not use this function at this time.
 
 ## -parameters
 
@@ -84,7 +84,7 @@ This function does not return a value.
 
 ## -remarks
 
-<div class="alert"><b>Note</b>  WinINet does not support server implementations. In addition, it should not be used from a service.  For server implementations or services use <a href="https://docs.microsoft.com/windows/desktop/WinHttp/winhttp-start-page">Microsoft Windows HTTP Services (WinHTTP)</a>.</div>
+<div class="alert"><b>Note</b>  WinINet does not support server implementations. In addition, it should not be used from a service.  For server implementations or services use <a href="/windows/desktop/WinHttp/winhttp-start-page">Microsoft Windows HTTP Services (WinHTTP)</a>.</div>
 <div> </div>
 
 
@@ -95,5 +95,4 @@ This function does not return a value.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-internetsetoptiona">InternetSetOption</a>
-
+<a href="/windows/desktop/api/wininet/nf-wininet-internetsetoptiona">InternetSetOption</a>

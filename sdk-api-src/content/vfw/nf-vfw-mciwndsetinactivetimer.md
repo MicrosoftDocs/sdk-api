@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>MCIWndSetInactiveTimer</b> macro sets the update period used by MCIWnd to update the trackbar in the MCIWnd window, update position information displayed in the window title bar, and send notification messages to the parent window when the MCIWnd window is inactive. You can use this macro or explicitly send the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/mciwndm-setinactivetimer">MCIWNDM_SETINACTIVETIMER</a> message.
+The <b>MCIWndSetInactiveTimer</b> macro sets the update period used by MCIWnd to update the trackbar in the MCIWnd window, update position information displayed in the window title bar, and send notification messages to the parent window when the MCIWnd window is inactive. You can use this macro or explicitly send the <a href="/windows/desktop/Multimedia/mciwndm-setinactivetimer">MCIWNDM_SETINACTIVETIMER</a> message.
 
 ## -parameters
 
@@ -61,4 +61,3 @@ Handle of the MCIWnd window.
 ### -param inactive
 
 Update period, in milliseconds. The default is 2000 milliseconds.
-

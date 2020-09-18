@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Describes I3DL2 (Interactive 3D Audio Rendering Guidelines Level 2.0) parameters for use in the <a href="https://docs.microsoft.com/windows/desktop/api/xaudio2fx/nf-xaudio2fx-reverbconverti3dl2tonative">ReverbConvertI3DL2ToNative</a> function.
+Describes I3DL2 (Interactive 3D Audio Rendering Guidelines Level 2.0) parameters for use in the <a href="/windows/desktop/api/xaudio2fx/nf-xaudio2fx-reverbconverti3dl2tonative">ReverbConvertI3DL2ToNative</a> function.
 
 ## -struct-fields
 
@@ -108,7 +108,7 @@ Reference high frequency. Allowable values in Hz are from 20.0 to 20000.0.
 
 ## -remarks
 
-There are many preset values defined for the <b>XAUDIO2FX_REVERB_I3DL2_PARAMETERS</b> structure. For more information, see <a href="https://docs.microsoft.com/windows/desktop/xaudio2/xaudio2fx-i3dl2-preset">XAUDIO2FX_I3DL2_PRESET</a>.
+There are many preset values defined for the <b>XAUDIO2FX_REVERB_I3DL2_PARAMETERS</b> structure. For more information, see <a href="/windows/desktop/xaudio2/xaudio2fx-i3dl2-preset">XAUDIO2FX_I3DL2_PRESET</a>.
 
 
 
@@ -117,17 +117,16 @@ Windows 10 (XAudio2.9); Windows 8, Windows Phone 8 (XAudio 2.8); DirectX SDK
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xaudio2fx/nf-xaudio2fx-reverbconverti3dl2tonative">ReverbConvertI3DL2ToNative</a>
+<a href="/windows/desktop/api/xaudio2fx/nf-xaudio2fx-reverbconverti3dl2tonative">ReverbConvertI3DL2ToNative</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/xaudio2/xapo-overview">XAPO Overview</a>
+<a href="/windows/desktop/xaudio2/xapo-overview">XAPO Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/xaudio2/xaudio2fx-i3dl2-preset">XAUDIO2FX_I3DL2_PRESET</a>
+<a href="/windows/desktop/xaudio2/xaudio2fx-i3dl2-preset">XAUDIO2FX_I3DL2_PRESET</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/xaudio2/structures">XAudio Structures</a>
-
+<a href="/windows/desktop/xaudio2/structures">XAudio Structures</a>

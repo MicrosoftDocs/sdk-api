@@ -66,7 +66,7 @@ A pointer to a <b>BSTR</b> that describes the policy module.
 <h3>C++</h3>
  If the method succeeds, the method returns S_OK.
 
-If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
+If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 <h3>VB</h3>
  Returns a string that describes the policy module and its function.
@@ -111,9 +111,8 @@ STDMETHODIMP CCertPolicy::GetDescription(
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certpol/nn-certpol-icertpolicy">ICertPolicy</a>
+<a href="/windows/desktop/api/certpol/nn-certpol-icertpolicy">ICertPolicy</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certpol/nn-certpol-icertpolicy2">ICertPolicy2</a>
-
+<a href="/windows/desktop/api/certpol/nn-certpol-icertpolicy2">ICertPolicy2</a>

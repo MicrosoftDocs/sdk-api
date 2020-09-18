@@ -69,9 +69,9 @@ A value, in screen coordinates, that specifies the vertical location of the uppe
 ### -param plSelected [out]
 
 A value that specifies the ICommandID value (as passed to 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-icontextmenucallback-additem">IContextMenuCallback::AddItem</a>) of the selected menu item. If this is zero, either none of the context menu items were selected or the selected context menu item was added by an extension. If an extension item was selected, 
+<a href="/windows/desktop/api/mmc/nf-mmc-icontextmenucallback-additem">IContextMenuCallback::AddItem</a>) of the selected menu item. If this is zero, either none of the context menu items were selected or the selected context menu item was added by an extension. If an extension item was selected, 
 ShowContextMenu notifies the extension by calling 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-iextendcontextmenu-command">IExtendContextMenu::Command</a>.
+<a href="/windows/desktop/api/mmc/nf-mmc-iextendcontextmenu-command">IExtendContextMenu::Command</a>.
 
 ## -returns
 
@@ -80,9 +80,8 @@ This method can return one of these values.
 ## -remarks
 
 ShowContextMenu automatically clears the context menu after that displays it. A best practice is to call 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-icontextmenuprovider-emptymenulist">IContextMenuProvider::EmptyMenuList</a> before beginning to build a context menu.
+<a href="/windows/desktop/api/mmc/nf-mmc-icontextmenuprovider-emptymenulist">IContextMenuProvider::EmptyMenuList</a> before beginning to build a context menu.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-icontextmenuprovider">IContextMenuProvider</a>
-
+<a href="/windows/desktop/api/mmc/nn-mmc-icontextmenuprovider">IContextMenuProvider</a>

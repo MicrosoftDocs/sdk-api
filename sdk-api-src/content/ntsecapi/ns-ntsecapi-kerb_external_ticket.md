@@ -56,39 +56,39 @@ api_name:
 
 The <b>KERB_EXTERNAL_TICKET</b> structure contains information about an external ticket.
 
-An external ticket is a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/k-gly">Kerberos</a> ticket exported to external users. The Kerberos ticket is defined in Internet <a href="http://www.ietf.org/rfc/rfc4120.txt">RFC 4120</a>. For more information, see <a href="https://www.ietf.org/">http://www.ietf.org</a>. This structure is used by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-kerb_retrieve_tkt_response">KERB_RETRIEVE_TKT_RESPONSE</a> structure.
+An external ticket is a <a href="/windows/desktop/SecGloss/k-gly">Kerberos</a> ticket exported to external users. The Kerberos ticket is defined in Internet <a href="http://www.ietf.org/rfc/rfc4120.txt">RFC 4120</a>. For more information, see <a href="https://www.ietf.org/">http://www.ietf.org</a>. This structure is used by the 
+<a href="/windows/desktop/api/ntsecapi/ns-ntsecapi-kerb_retrieve_tkt_response">KERB_RETRIEVE_TKT_RESPONSE</a> structure.
 
 ## -struct-fields
 
 ### -field ServiceName
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-kerb_external_name">KERB_EXTERNAL_NAME</a> structure that contains a multiple part, canonical, returned service name.
+A <a href="/windows/desktop/api/ntsecapi/ns-ntsecapi-kerb_external_name">KERB_EXTERNAL_NAME</a> structure that contains a multiple part, canonical, returned service name.
 
 ### -field TargetName
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-kerb_external_name">KERB_EXTERNAL_NAME</a> structure that contains the multiple part <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">service principal name</a> (SPN).
+A <a href="/windows/desktop/api/ntsecapi/ns-ntsecapi-kerb_external_name">KERB_EXTERNAL_NAME</a> structure that contains the multiple part <a href="/windows/desktop/SecGloss/s-gly">service principal name</a> (SPN).
 
 ### -field ClientName
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-kerb_external_name">KERB_EXTERNAL_NAME</a> structure that contains the client name in the ticket. This name is relative to the current domain.
+A <a href="/windows/desktop/api/ntsecapi/ns-ntsecapi-kerb_external_name">KERB_EXTERNAL_NAME</a> structure that contains the client name in the ticket. This name is relative to the current domain.
 
 ### -field DomainName
 
 A
-						<a href="https://docs.microsoft.com/windows/desktop/api/subauth/ns-subauth-unicode_string">UNICODE_STRING</a> that contains the name of the domain that corresponds to the <b>ServiceName</b> member. This is the domain that issued the ticket.
+						<a href="/windows/desktop/api/subauth/ns-subauth-unicode_string">UNICODE_STRING</a> that contains the name of the domain that corresponds to the <b>ServiceName</b> member. This is the domain that issued the ticket.
 
 ### -field TargetDomainName
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/subauth/ns-subauth-unicode_string">UNICODE_STRING</a> that contains the name of the domain in which the ticket is valid. For an interdomain ticket, this is the destination domain.
+A <a href="/windows/desktop/api/subauth/ns-subauth-unicode_string">UNICODE_STRING</a> that contains the name of the domain in which the ticket is valid. For an interdomain ticket, this is the destination domain.
 
 ### -field AltTargetDomainName
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/subauth/ns-subauth-unicode_string">UNICODE_STRING</a> that contains a synonym for the destination domain. Every domain has two names: a DNS name and a NetBIOS name. If the name returned in the ticket is different from the name used to request the ticket (the Kerberos <a href="https://docs.microsoft.com/windows/desktop/SecGloss/k-gly">Key Distribution Center</a> (KDC) may do name mapping), this string contains the original name.
+A <a href="/windows/desktop/api/subauth/ns-subauth-unicode_string">UNICODE_STRING</a> that contains a synonym for the destination domain. Every domain has two names: a DNS name and a NetBIOS name. If the name returned in the ticket is different from the name used to request the ticket (the Kerberos <a href="/windows/desktop/SecGloss/k-gly">Key Distribution Center</a> (KDC) may do name mapping), this string contains the original name.
 
 ### -field SessionKey
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-kerb_crypto_key">KERB_CRYPTO_KEY</a> structure that contains the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">session key</a> for the ticket.
+A <a href="/windows/desktop/api/ntsecapi/ns-ntsecapi-kerb_crypto_key">KERB_CRYPTO_KEY</a> structure that contains the <a href="/windows/desktop/SecGloss/s-gly">session key</a> for the ticket.
 
 ### -field TicketFlags
 
@@ -176,7 +176,7 @@ Indicates to the ticket-granting server that a postdated ticket can be issued ba
 </dl>
 </td>
 <td width="60%">
-The target of the ticket is trusted by the directory service for delegation. Thus, the clients may delegate their <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">credentials</a> to the server, which lets the server act as the client when talking to other services.
+The target of the ticket is trusted by the directory service for delegation. Thus, the clients may delegate their <a href="/windows/desktop/SecGloss/c-gly">credentials</a> to the server, which lets the server act as the client when talking to other services.
 
 </td>
 </tr>
@@ -231,7 +231,7 @@ The ticket is a proxy.
 </dl>
 </td>
 <td width="60%">
-The ticket is renewable. If this flag is set, the time limit for renewing the ticket is set in the <b>RenewTime</b> member of a <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-kerb_ticket_cache_info">KERB_TICKET_CACHE_INFO</a> structure. A renewable ticket can be used to obtain a replacement ticket that expires at a later date.
+The ticket is renewable. If this flag is set, the time limit for renewing the ticket is set in the <b>RenewTime</b> member of a <a href="/windows/desktop/api/ntsecapi/ns-ntsecapi-kerb_ticket_cache_info">KERB_TICKET_CACHE_INFO</a> structure. A renewable ticket can be used to obtain a replacement ticket that expires at a later date.
 
 </td>
 </tr>
@@ -265,23 +265,23 @@ Reserved for future use. Set this member to zero.
 
 ### -field KeyExpirationTime
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure that contains the time at which the key expires.
+A <a href="/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure that contains the time at which the key expires.
 
 ### -field StartTime
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure that contains the time at which the ticket becomes valid.
+A <a href="/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure that contains the time at which the ticket becomes valid.
 
 ### -field EndTime
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure that contains the time at which the ticket expires.
+A <a href="/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure that contains the time at which the ticket expires.
 
 ### -field RenewUntil
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure that contains the latest time a ticket can be renewed. Renewal requests sent after this time will be rejected.
+A <a href="/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure that contains the latest time a ticket can be renewed. Renewal requests sent after this time will be rejected.
 
 ### -field TimeSkew
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure that contains the measured time difference between the current time on the computer issuing the ticket and the computer where the ticket will be used.
+A <a href="/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure that contains the measured time difference between the current time on the computer issuing the ticket and the computer where the ticket will be used.
 
 ### -field EncodedTicketSize
 
@@ -289,5 +289,4 @@ The size, in bytes, of the encoded ticket.
 
 ### -field EncodedTicket
 
-A buffer that contains the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">Abstract Syntax Notation One</a> (ASN.1)-encoded ticket.
-
+A buffer that contains the <a href="/windows/desktop/SecGloss/a-gly">Abstract Syntax Notation One</a> (ASN.1)-encoded ticket.

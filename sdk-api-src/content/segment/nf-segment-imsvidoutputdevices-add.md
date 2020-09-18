@@ -56,7 +56,7 @@ The <b>Add</b> method adds an output device to the collection.
 
 ### -param pDB [in]
 
-Specifies a pointer to the device's <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/msvidoutputdevice">IMSVidOutputDevice</a> interface.
+Specifies a pointer to the device's <a href="/previous-versions/windows/desktop/mstv/msvidoutputdevice">IMSVidOutputDevice</a> interface.
 
 ## -returns
 
@@ -115,9 +115,8 @@ NULL pointer argument.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/msvidoutputdevices">IMSVidOutputDevices Interface</a>
+<a href="/previous-versions/windows/desktop/mstv/msvidoutputdevices">IMSVidOutputDevices Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidoutputdevices-remove">IMSVidOutputDevices::Remove</a>
-
+<a href="/windows/desktop/api/segment/nf-segment-imsvidoutputdevices-remove">IMSVidOutputDevices::Remove</a>

@@ -56,7 +56,7 @@ The <b>put_PreferredComponentTypes</b> method sets the collection of <b>Componen
 
 ### -param ComponentTypes [in]
 
-Pointer to an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-icomponenttypes">IComponentTypes</a> interface that contains the collection of ComponentType objects.
+Pointer to an <a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-icomponenttypes">IComponentTypes</a> interface that contains the collection of ComponentType objects.
 
 ## -returns
 
@@ -68,9 +68,8 @@ Applications create a list of preferred component types by instantiating an empt
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-ituner">ITuner Interface</a>
-
+<a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-ituner">ITuner Interface</a>

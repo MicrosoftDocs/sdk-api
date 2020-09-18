@@ -88,13 +88,13 @@ A boolean value used when the new content specified in <i>pszUrl</i> is loaded i
 
 Type: <b>DWORD</b>
 
-A flag or flags from the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ne-shobjidl_core-nwmf">NWMF</a> enumeration that provide situational information about the call to open the new window. This value can be 0 if no flags are needed.
+A flag or flags from the <a href="/windows/desktop/api/shobjidl_core/ne-shobjidl_core-nwmf">NWMF</a> enumeration that provide situational information about the call to open the new window. This value can be 0 if no flags are needed.
 
 ### -param dwUserActionTime [in]
 
 Type: <b>DWORD</b>
 
-The tick count when the last user action occurred. To find out how long ago the action occurred, call <a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-gettickcount">GetTickCount</a> and compare the result with the value in this parameter.
+The tick count when the last user action occurred. To find out how long ago the action occurred, call <a href="/windows/desktop/api/sysinfoapi/nf-sysinfoapi-gettickcount">GetTickCount</a> and compare the result with the value in this parameter.
 
 ## -returns
 
@@ -136,9 +136,8 @@ Block display of the window.
 </dl>
 </td>
 <td width="60%">
-When you implement <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-inewwindowmanager">INewWindowManager</a> for a hosted <a href="https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa752040(v=vs.85)">WebBrowser</a> control, this value instructs the WebBrowser control to use the default implementation.
+When you implement <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-inewwindowmanager">INewWindowManager</a> for a hosted <a href="/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa752040(v=vs.85)">WebBrowser</a> control, this value instructs the WebBrowser control to use the default implementation.
 
 </td>
 </tr>
 </table>
-

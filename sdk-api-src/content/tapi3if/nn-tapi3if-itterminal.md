@@ -52,23 +52,23 @@ api_name:
 
 The 
 <b>ITTerminal</b> interface is the base interface for a 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/terminal-object">Terminal object</a>. This object, and the interface, is available only when an MSP exists. It provides methods that allow an application to obtain information such as terminal class and media supported. The following methods create the 
+<a href="/windows/desktop/Tapi/terminal-object">Terminal object</a>. This object, and the interface, is available only when an MSP exists. It provides methods that allow an application to obtain information such as terminal class and media supported. The following methods create the 
 <b>ITTerminal</b> interface:
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itbasiccallcontrol2-requestterminal">ITBasicCallControl2::RequestTerminal</a>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itbasiccallcontrol2-requestterminal">ITBasicCallControl2::RequestTerminal</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itterminalsupport-createterminal">ITTerminalSupport::CreateTerminal</a>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itterminalsupport-createterminal">ITTerminalSupport::CreateTerminal</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-ienumterminal-next">IEnumTerminal::Next</a>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-ienumterminal-next">IEnumTerminal::Next</a>
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITTerminal</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ITTerminal</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITTerminal</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ITTerminal</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -83,27 +83,27 @@ The <b>ITTerminal</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itterminal-get_direction">get_Direction</a>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itterminal-get_direction">get_Direction</a>
 </td>
 <td align="left" width="63%">
 Gets the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/ne-tapi3if-terminal_direction">TERMINAL_DIRECTION</a> descriptor of the media stream direction for the terminal.
+<a href="/windows/desktop/api/tapi3if/ne-tapi3if-terminal_direction">TERMINAL_DIRECTION</a> descriptor of the media stream direction for the terminal.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itterminal-get_mediatype">get_MediaType</a>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itterminal-get_mediatype">get_MediaType</a>
 </td>
 <td align="left" width="63%">
 Gets the 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/tapimediatype--constants">media type</a> supported by the terminal.
+<a href="/windows/desktop/Tapi/tapimediatype--constants">media type</a> supported by the terminal.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itterminal-get_name">get_Name</a>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itterminal-get_name">get_Name</a>
 </td>
 <td align="left" width="63%">
 Gets a descriptive name of the terminal.
@@ -112,31 +112,31 @@ Gets a descriptive name of the terminal.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itterminal-get_state">get_State</a>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itterminal-get_state">get_State</a>
 </td>
 <td align="left" width="63%">
 Gets a 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/ne-tapi3if-terminal_state">TERMINAL_STATE</a> descriptor of the terminal's current state.
+<a href="/windows/desktop/api/tapi3if/ne-tapi3if-terminal_state">TERMINAL_STATE</a> descriptor of the terminal's current state.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itterminal-get_terminalclass">get_TerminalClass</a>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itterminal-get_terminalclass">get_TerminalClass</a>
 </td>
 <td align="left" width="63%">
 Gets the 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/terminal-class">terminal class</a> of the terminal.
+<a href="/windows/desktop/Tapi/terminal-class">terminal class</a> of the terminal.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itterminal-get_terminaltype">get_TerminalType</a>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itterminal-get_terminaltype">get_TerminalType</a>
 </td>
 <td align="left" width="63%">
 Gets the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/ne-tapi3if-terminal_type">TERMINAL_TYPE</a> descriptor of the terminal's type.
+<a href="/windows/desktop/api/tapi3if/ne-tapi3if-terminal_type">TERMINAL_TYPE</a> descriptor of the terminal's type.
 
 </td>
 </tr>
@@ -144,13 +144,12 @@ Gets the
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/terminal-object">Terminal Object</a>
+<a href="/windows/desktop/Tapi/terminal-object">Terminal Object</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/terminal-object-interfaces">Terminal Object Interfaces</a>
-
+<a href="/windows/desktop/Tapi/terminal-object-interfaces">Terminal Object Interfaces</a>

@@ -73,9 +73,8 @@ Returns the number of characters printed. Returns zero upon failure.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netsh/nf-netsh-printmessage">PrintMessage</a>
+<a href="/previous-versions/windows/desktop/api/netsh/nf-netsh-printmessage">PrintMessage</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netsh/nf-netsh-printmessagefrommodule">PrintMessageFromModule</a>
-
+<a href="/previous-versions/windows/desktop/api/netsh/nf-netsh-printmessagefrommodule">PrintMessageFromModule</a>

@@ -54,7 +54,7 @@ Exposes methods that update the queue of tasks for Remote Desktop Connection Bro
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITsSbTaskPlugin</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/sbtsv/nn-sbtsv-itssbplugin">ITsSbPlugin</a>. <b>ITsSbTaskPlugin</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITsSbTaskPlugin</b> interface inherits from <a href="/windows/desktop/api/sbtsv/nn-sbtsv-itssbplugin">ITsSbPlugin</a>. <b>ITsSbTaskPlugin</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ITsSbTaskPlugin</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/sbtsv/nf-sbtsv-itssbtaskplugin-initializetaskplugin">InitializeTaskPlugin</a>
+<a href="/windows/desktop/api/sbtsv/nf-sbtsv-itssbtaskplugin-initializetaskplugin">InitializeTaskPlugin</a>
 </td>
 <td align="left" width="63%">
 Initializes a task that is in the queue of a Remote Desktop Connection Broker plugin.
@@ -78,7 +78,7 @@ Initializes a task that is in the queue of a Remote Desktop Connection Broker pl
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/sbtsv/nf-sbtsv-itssbtaskplugin-settaskqueue">SetTaskQueue</a>
+<a href="/windows/desktop/api/sbtsv/nf-sbtsv-itssbtaskplugin-settaskqueue">SetTaskQueue</a>
 </td>
 <td align="left" width="63%">
 Updates a task in the queue of  a Remote Desktop Connection Broker plugin.
@@ -89,9 +89,8 @@ Updates a task in the queue of  a Remote Desktop Connection Broker plugin.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sbtsv/nn-sbtsv-itssbplugin">ITsSbPlugin</a>
+<a href="/windows/desktop/api/sbtsv/nn-sbtsv-itssbplugin">ITsSbPlugin</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/TermServ/remote-desktop-virtualization-interfaces">Remote Desktop Virtualization Interfaces</a>
-
+<a href="/windows/desktop/TermServ/remote-desktop-virtualization-interfaces">Remote Desktop Virtualization Interfaces</a>

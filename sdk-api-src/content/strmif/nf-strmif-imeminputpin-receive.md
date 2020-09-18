@@ -57,7 +57,7 @@ The <code>Receive</code> method receives the next media sample in the stream.
 
 ### -param pSample [in]
 
-Pointer to the sample's <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-imediasample">IMediaSample</a> interface.
+Pointer to the sample's <a href="/windows/desktop/api/strmif/nn-strmif-imediasample">IMediaSample</a> interface.
 
 ## -returns
 
@@ -145,22 +145,21 @@ This method is synchronous and possibly blocking. The pin does one of the follow
 <li>Returns immediately and processes the sample in a worker thread.</li>
 <li>Processes the sample before returning.</li>
 </ul>
-In the last case, the method might block indefinitely. If this might happen, the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-imeminputpin-receivecanblock">IMemInputPin::ReceiveCanBlock</a> method returns S_OK.
+In the last case, the method might block indefinitely. If this might happen, the <a href="/windows/desktop/api/strmif/nf-strmif-imeminputpin-receivecanblock">IMemInputPin::ReceiveCanBlock</a> method returns S_OK.
 
-If the pin uses a worker thread to process the sample, it holds a reference count on the sample. In any case, the output pin cannot directly re-use this sample. It must call the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-imemallocator-getbuffer">IMemAllocator::GetBuffer</a> method to obtain a new sample.
+If the pin uses a worker thread to process the sample, it holds a reference count on the sample. In any case, the output pin cannot directly re-use this sample. It must call the <a href="/windows/desktop/api/strmif/nf-strmif-imemallocator-getbuffer">IMemAllocator::GetBuffer</a> method to obtain a new sample.
 
 If this method returns S_FALSE or an error code, the upstream filter should stop sending samples until the graph stops or completes a flush operation. Typical reasons for an S_FALSE return value include:
 
 <ul>
 <li>The downstream pin is flushing; that is, it received a <b>BeginFlush</b> call and has not yet received an <b>EndFlush</b> call.</li>
-<li>The downstream filter detected the end of the stream. (See <a href="https://docs.microsoft.com/windows/desktop/DirectShow/end-of-stream-notifications">End-of-Stream Notifications</a>.)</li>
+<li>The downstream filter detected the end of the stream. (See <a href="/windows/desktop/DirectShow/end-of-stream-notifications">End-of-Stream Notifications</a>.)</li>
 </ul>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-imeminputpin">IMemInputPin Interface</a>
-
+<a href="/windows/desktop/api/strmif/nn-strmif-imeminputpin">IMemInputPin Interface</a>

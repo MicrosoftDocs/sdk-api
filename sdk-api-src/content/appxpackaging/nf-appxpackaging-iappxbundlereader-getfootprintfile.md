@@ -56,13 +56,13 @@ Retrieves the specified type of footprint file from the bundle.
 
 ### -param fileType [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/ne-appxpackaging-appx_bundle_footprint_file_type">APPX_BUNDLE_FOOTPRINT_FILE_TYPE</a></b>
+Type: <b><a href="/windows/desktop/api/appxpackaging/ne-appxpackaging-appx_bundle_footprint_file_type">APPX_BUNDLE_FOOTPRINT_FILE_TYPE</a></b>
 
 The type of footprint file to be retrieved.
 
 ### -param footprintFile [out, retval]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxfile">IAppxFile</a>**</b>
+Type: <b><a href="/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxfile">IAppxFile</a>**</b>
 
 The file object that corresponds to the footprint file of <i>fileType</i>.
 
@@ -84,7 +84,7 @@ If the method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an error c
 </dl>
 </td>
 <td width="60%">
-The <i>fileType</i> parameter is not a valid value in the <a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/ne-appxpackaging-appx_bundle_footprint_file_type">APPX_BUNDLE_FOOTPRINT_FILE_TYPE</a> enumeration.
+The <i>fileType</i> parameter is not a valid value in the <a href="/windows/desktop/api/appxpackaging/ne-appxpackaging-appx_bundle_footprint_file_type">APPX_BUNDLE_FOOTPRINT_FILE_TYPE</a> enumeration.
 
 </td>
 </tr>
@@ -98,7 +98,7 @@ The <i>fileType</i> parameter is not a valid value in the <a href="https://docs.
 The bundle doesn't contain a footprint file of the specified type.
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxbundlereader-getfootprintfile">GetFootprintFile</a> can return this error for the <a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/ne-appxpackaging-appx_bundle_footprint_file_type">APPX_BUNDLE_FOOTPRINT_FILE_TYPE_SIGNATURE</a> type.
+<a href="/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxbundlereader-getfootprintfile">GetFootprintFile</a> can return this error for the <a href="/windows/desktop/api/appxpackaging/ne-appxpackaging-appx_bundle_footprint_file_type">APPX_BUNDLE_FOOTPRINT_FILE_TYPE_SIGNATURE</a> type.
 
 </td>
 </tr>
@@ -106,5 +106,4 @@ The bundle doesn't contain a footprint file of the specified type.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxbundlereader">IAppxBundleReader</a>
-
+<a href="/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxbundlereader">IAppxBundleReader</a>

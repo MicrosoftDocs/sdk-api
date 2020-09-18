@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-Gets a <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/ne-wuapi-downloadphase">DownloadPhase</a> enumeration value that specifies the phase of the download that is currently in progress.
+Gets a <a href="/windows/desktop/api/wuapi/ne-wuapi-downloadphase">DownloadPhase</a> enumeration value that specifies the phase of the download that is currently in progress.
 
 This property is read-only.
 
@@ -59,5 +59,4 @@ This property is read-only.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-idownloadprogress">IDownloadProgress</a>
-
+<a href="/windows/desktop/api/wuapi/nn-wuapi-idownloadprogress">IDownloadProgress</a>

@@ -56,7 +56,7 @@ Initializes an asynchronous operation that subscribes to a collection of notific
 
 ### -param pOperations [in]
 
-Pointer to an array of references to <a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-wsd_operation">WSD_OPERATION</a> structures that specify the operations of which to subscribe.
+Pointer to an array of references to <a href="/windows/desktop/api/wsdtypes/ns-wsdtypes-wsd_operation">WSD_OPERATION</a> structures that specify the operations of which to subscribe.
 
 ### -param dwOperationCount [in]
 
@@ -68,7 +68,7 @@ Anonymous data passed to a client eventing callback function. This data is used 
 
 ### -param pExpires [in]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-wsd_eventing_expires">WSD_EVENTING_EXPIRES</a> structure that specifies the requested duration for the subscription.
+Pointer to a <a href="/windows/desktop/api/wsdtypes/ns-wsdtypes-wsd_eventing_expires">WSD_EVENTING_EXPIRES</a> structure that specifies the requested duration for the subscription.
 
 ### -param pAny [in]
 
@@ -80,11 +80,11 @@ Anonymous data passed to <i>pAsyncCallback</i> when the callback is called.  Thi
 
 ### -param pAsyncCallback [in]
 
-Reference to an <a href="https://docs.microsoft.com/windows/desktop/api/wsdclient/nn-wsdclient-iwsdasynccallback">IWSDAsyncCallback</a> object that performs the message callback status notifications.  This parameter is optional.
+Reference to an <a href="/windows/desktop/api/wsdclient/nn-wsdclient-iwsdasynccallback">IWSDAsyncCallback</a> object that performs the message callback status notifications.  This parameter is optional.
 
 ### -param ppResult [out]
 
-Pointer to a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/wsdclient/nn-wsdclient-iwsdasyncresult">IWSDAsyncResult</a> interface that will represent the result of the requests upon completion.
+Pointer to a pointer to an <a href="/windows/desktop/api/wsdclient/nn-wsdclient-iwsdasyncresult">IWSDAsyncResult</a> interface that will represent the result of the requests upon completion.
 
 ## -returns
 
@@ -94,9 +94,8 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 This method is designed to be exclusively called by generated proxy code.
 
-The method is asynchronous and will return immediately.    The caller should subsequently call <a href="https://docs.microsoft.com/windows/desktop/api/wsdclient/nf-wsdclient-iwsdserviceproxyeventing-endsubscribetomultipleoperations">EndSubscribeToMultipleOperations</a>.
+The method is asynchronous and will return immediately.    The caller should subsequently call <a href="/windows/desktop/api/wsdclient/nf-wsdclient-iwsdserviceproxyeventing-endsubscribetomultipleoperations">EndSubscribeToMultipleOperations</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wsdclient/nn-wsdclient-iwsdserviceproxyeventing">IWSDServiceProxyEventing</a>
-
+<a href="/windows/desktop/api/wsdclient/nn-wsdclient-iwsdserviceproxyeventing">IWSDServiceProxyEventing</a>

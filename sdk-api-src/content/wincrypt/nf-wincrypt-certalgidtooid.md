@@ -50,9 +50,9 @@ api_name:
 
 ## -description
 
-Use the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptfindoidinfo">CryptFindOIDInfo</a> function instead of this function because <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/alg-id">ALG_ID</a> identifiers are no longer supported in CNG. Use the <b>CRYPT_OID_INFO_CNG_ALGID_KEY</b> value in the <i>dwKeyType</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptfindoidinfo">CryptFindOIDInfo</a> function instead.
+Use the <a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptfindoidinfo">CryptFindOIDInfo</a> function instead of this function because <a href="/windows/desktop/SecCrypto/alg-id">ALG_ID</a> identifiers are no longer supported in CNG. Use the <b>CRYPT_OID_INFO_CNG_ALGID_KEY</b> value in the <i>dwKeyType</i> parameter of the <a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptfindoidinfo">CryptFindOIDInfo</a> function instead.
 
-<b>Windows Server 2003 and Windows XP:  </b>The <b>CertAlgIdToOID</b> function converts a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">CryptoAPI</a> algorithm identifier (<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/alg-id">ALG_ID</a>) to an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">Abstract Syntax Notation One</a> (ASN.1) <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly">object identifier</a> (OID) string.
+<b>Windows Server 2003 and Windows XP:  </b>The <b>CertAlgIdToOID</b> function converts a <a href="/windows/desktop/SecGloss/c-gly">CryptoAPI</a> algorithm identifier (<a href="/windows/desktop/SecCrypto/alg-id">ALG_ID</a>) to an <a href="/windows/desktop/SecGloss/a-gly">Abstract Syntax Notation One</a> (ASN.1) <a href="/windows/desktop/SecGloss/o-gly">object identifier</a> (OID) string.
 
 ## -parameters
 
@@ -68,5 +68,4 @@ If no OID string corresponds to the algorithm identifier, the function returns <
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">Data Conversion Functions</a>
-
+<a href="/windows/desktop/SecCrypto/cryptography-functions">Data Conversion Functions</a>

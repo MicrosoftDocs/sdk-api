@@ -64,17 +64,16 @@ A byte array containing  the 128 bit identifier.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-file_id_descriptor">FILE_ID_DESCRIPTOR</a>
+<a href="/windows/desktop/api/winbase/ns-winbase-file_id_descriptor">FILE_ID_DESCRIPTOR</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-file_id_extd_dir_info">FILE_ID_EXTD_DIR_INFO</a>
+<a href="/windows/desktop/api/winbase/ns-winbase-file_id_extd_dir_info">FILE_ID_EXTD_DIR_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-file_id_info">FILE_ID_INFO</a>
+<a href="/windows/desktop/api/winbase/ns-winbase-file_id_info">FILE_ID_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/file-management-structures">File Management Structures</a>
-
+<a href="/windows/desktop/FileIO/file-management-structures">File Management Structures</a>

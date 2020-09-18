@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-This enumeration is used by the <a href="https://docs.microsoft.com/windows/desktop/api/wdsclientapi/nf-wdsclientapi-wdsclilog">WdsCliLog</a> function.
+This enumeration is used by the <a href="/windows/desktop/api/wdsclientapi/nf-wdsclientapi-wdsclilog">WdsCliLog</a> function.
 
 ## -enum-fields
 
@@ -69,4 +69,3 @@ The event severity is warning level.
 ### -field WDS_LOG_LEVEL_INFO
 
 The event severity is information level.
-

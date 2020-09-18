@@ -115,11 +115,11 @@ The media source.
 A GUID that identifies the attribute to retrieve. If the <i>dwStreamIndex</i> parameter equals  <b>MF_SOURCE_READER_MEDIASOURCE</b>, <i>guidAttribute</i> can specify one of the following:
 
 <ul>
-<li>A presentation descriptor attribute. For a list of values, see <a href="https://docs.microsoft.com/windows/desktop/medfound/presentation-descriptor-attributes">Presentation Descriptor Attributes</a>.</li>
+<li>A presentation descriptor attribute. For a list of values, see <a href="/windows/desktop/medfound/presentation-descriptor-attributes">Presentation Descriptor Attributes</a>.</li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/medfound/mf-source-reader-mediasource-characteristics">MF_SOURCE_READER_MEDIASOURCE_CHARACTERISTICS</a>. Use this value to get characteristics flags from the media source.</li>
+<a href="/windows/desktop/medfound/mf-source-reader-mediasource-characteristics">MF_SOURCE_READER_MEDIASOURCE_CHARACTERISTICS</a>. Use this value to get characteristics flags from the media source.</li>
 </ul>
-Otherwise, if the <i>dwStreamIndex</i> parameter specifies a stream, <i>guidAttribute</i> specifies a stream descriptor attribute. For a list of values, see <a href="https://docs.microsoft.com/windows/desktop/medfound/stream-descriptor-attributes">Stream Descriptor Attributes</a>.
+Otherwise, if the <i>dwStreamIndex</i> parameter specifies a stream, <i>guidAttribute</i> specifies a stream descriptor attribute. For a list of values, see <a href="/windows/desktop/medfound/stream-descriptor-attributes">Stream Descriptor Attributes</a>.
 
 ### -param pvarAttribute [out]
 
@@ -135,13 +135,12 @@ This interface is available on Windows Vista if Platform Update Supplement for 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfreadwrite/nn-mfreadwrite-imfsourcereader">IMFSourceReader</a>
+<a href="/windows/desktop/api/mfreadwrite/nn-mfreadwrite-imfsourcereader">IMFSourceReader</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-attributes">Media Foundation Attributes</a>
+<a href="/windows/desktop/medfound/media-foundation-attributes">Media Foundation Attributes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/source-reader">Source Reader</a>
-
+<a href="/windows/desktop/medfound/source-reader">Source Reader</a>

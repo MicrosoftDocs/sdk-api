@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-Contains information about an authentication identity. The <b>SEC_WINNT_AUTH_IDENTITY_EX2</b> structure contains authentication data that is provided to the <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-acquirecredentialshandlea">AcquireCredentialsHandle</a> function.
+Contains information about an authentication identity. The <b>SEC_WINNT_AUTH_IDENTITY_EX2</b> structure contains authentication data that is provided to the <a href="/windows/desktop/api/sspi/nf-sspi-acquirecredentialshandlea">AcquireCredentialsHandle</a> function.
 
 ## -struct-fields
 
@@ -92,7 +92,7 @@ The size, in bytes, of the domain name string.
 
 The offset from the beginning of the structure to the beginning of the packed credentials.
 
-The packed credential is a <a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-sec_winnt_auth_packed_credentials">SEC_WINNT_AUTH_PACKED_CREDENTIALS</a> structure that contains a credential type that uniquely specifies the credential type.
+The packed credential is a <a href="/windows/desktop/api/sspi/ns-sspi-sec_winnt_auth_packed_credentials">SEC_WINNT_AUTH_PACKED_CREDENTIALS</a> structure that contains a credential type that uniquely specifies the credential type.
 
 ### -field PackedCredentialsLength
 
@@ -100,7 +100,7 @@ The size, in bytes, of the packed credentials string.
 
 ### -field Flags
 
-An <b>unsigned long</b> flag that indicates the type used by negotiable <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security packages</a>.
+An <b>unsigned long</b> flag that indicates the type used by negotiable <a href="/windows/desktop/SecGloss/s-gly">security packages</a>.
 
 <table>
 <tr>
@@ -125,7 +125,7 @@ All data is in one buffer.
 </dl>
 </td>
 <td width="60%">
-Used with the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/k-gly">Kerberos</a> <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security support provider</a> (SSP). Credentials are for identity only. The Kerberos package is directed to not include authorization data in the ticket.
+Used with the <a href="/windows/desktop/SecGloss/k-gly">Kerberos</a> <a href="/windows/desktop/SecGloss/s-gly">security support provider</a> (SSP). Credentials are for identity only. The Kerberos package is directed to not include authorization data in the ticket.
 
 </td>
 </tr>
@@ -171,7 +171,7 @@ When the credential type is password, the presence of this flag specifies that t
 </dl>
 </td>
 <td width="60%">
-The structure is encrypted by the <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-sspiencryptauthidentity">SspiEncryptAuthIdentity</a> function or by  the <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-sspiencryptauthidentityex">SspiEncryptAuthIdentityEx</a> function with the SEC_WINNT_AUTH_IDENTITY_ENCRYPT_SAME_PROCESS option. It can only be decrypted by the same process.
+The structure is encrypted by the <a href="/windows/desktop/api/sspi/nf-sspi-sspiencryptauthidentity">SspiEncryptAuthIdentity</a> function or by  the <a href="/windows/desktop/api/sspi/nf-sspi-sspiencryptauthidentityex">SspiEncryptAuthIdentityEx</a> function with the SEC_WINNT_AUTH_IDENTITY_ENCRYPT_SAME_PROCESS option. It can only be decrypted by the same process.
 
 <b>Windows Server 2008 R2 and Windows 7:  </b>This flag is not supported.
 
@@ -184,7 +184,7 @@ The structure is encrypted by the <a href="https://docs.microsoft.com/windows/de
 </dl>
 </td>
 <td width="60%">
-The structure is encrypted by the <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-sspiencryptauthidentityex">SspiEncryptAuthIdentityEx</a> function with the SEC_WINNT_AUTH_IDENTITY_ENCRYPT_SAME_LOGON option under the SYSTEM security context. It can only be decrypted by a thread running as SYSTEM.
+The structure is encrypted by the <a href="/windows/desktop/api/sspi/nf-sspi-sspiencryptauthidentityex">SspiEncryptAuthIdentityEx</a> function with the SEC_WINNT_AUTH_IDENTITY_ENCRYPT_SAME_LOGON option under the SYSTEM security context. It can only be decrypted by a thread running as SYSTEM.
 
 <b>Windows Server 2008 R2 and Windows 7:  </b>This flag is not supported.
 
@@ -197,7 +197,7 @@ The structure is encrypted by the <a href="https://docs.microsoft.com/windows/de
 </dl>
 </td>
 <td width="60%">
-The structure is encrypted by the <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-sspiencryptauthidentityex">SspiEncryptAuthIdentityEx</a> function with the SEC_WINNT_AUTH_IDENTITY_ENCRYPT_SAME_LOGON option under a non-SYSTEM security context. It can only be decrypted by a thread running in the same logon session in which it was encrypted.
+The structure is encrypted by the <a href="/windows/desktop/api/sspi/nf-sspi-sspiencryptauthidentityex">SspiEncryptAuthIdentityEx</a> function with the SEC_WINNT_AUTH_IDENTITY_ENCRYPT_SAME_LOGON option under a non-SYSTEM security context. It can only be decrypted by a thread running in the same logon session in which it was encrypted.
 
 <b>Windows Server 2008 R2 and Windows 7:  </b>This flag is not supported.
 
@@ -226,18 +226,17 @@ The size, in bytes, of the supported package list.
 
 ## -remarks
 
-This authentication identity buffer can be returned from several credential APIs, for example, the <a href="https://docs.microsoft.com/windows/desktop/api/credentialprovider/nf-credentialprovider-icredentialprovidercredential-getserialization">GetSerialization</a> method and the <a href="https://docs.microsoft.com/windows/desktop/api/wincred/nf-wincred-creduipromptforwindowscredentialsa">CredUIPromptForWindowsCredential</a> and <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-sspipromptforcredentialsa">SspiPromptForCredentials</a> functions.
+This authentication identity buffer can be returned from several credential APIs, for example, the <a href="/windows/desktop/api/credentialprovider/nf-credentialprovider-icredentialprovidercredential-getserialization">GetSerialization</a> method and the <a href="/windows/desktop/api/wincred/nf-wincred-creduipromptforwindowscredentialsa">CredUIPromptForWindowsCredential</a> and <a href="/windows/desktop/api/sspi/nf-sspi-sspipromptforcredentialsa">SspiPromptForCredentials</a> functions.
 
-The structure describes a header of the authentication identity buffer and the data is appended at the end of the structure. Although the buffer size is specified by the <b>cbStructureLength</b> member, the actual buffer size can be larger or smaller than <b>cbStructureLength</b>. Some functions, such as <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-sspivalidateauthidentity">SspiValidateAuthIdentity</a>, take a pointer, but not the buffer size, to the identity structure as input. As a result, those functions can validate the internal buffer data but cannot verify the buffer size. This can result in reading or writing data outside of the buffer range. To avoid buffer overruns when handling an untrusted identity buffer, applications should call <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-sspiunmarshalauthidentity">SspiUnmarshalAuthIdentity</a> to obtain a pointer to an identity structure with a validated size and then pass that pointer to the functions.
+The structure describes a header of the authentication identity buffer and the data is appended at the end of the structure. Although the buffer size is specified by the <b>cbStructureLength</b> member, the actual buffer size can be larger or smaller than <b>cbStructureLength</b>. Some functions, such as <a href="/windows/desktop/api/sspi/nf-sspi-sspivalidateauthidentity">SspiValidateAuthIdentity</a>, take a pointer, but not the buffer size, to the identity structure as input. As a result, those functions can validate the internal buffer data but cannot verify the buffer size. This can result in reading or writing data outside of the buffer range. To avoid buffer overruns when handling an untrusted identity buffer, applications should call <a href="/windows/desktop/api/sspi/nf-sspi-sspiunmarshalauthidentity">SspiUnmarshalAuthIdentity</a> to obtain a pointer to an identity structure with a validated size and then pass that pointer to the functions.
 
-The <b>SEC_WINNT_AUTH_IDENTITY_EX2</b> structure can be returned by <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-querycontextattributesa">QueryContextAttributes(CredSSP)</a> and consumed by <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-acquirecredentialshandlea">AcquireCredentialsHandle(CredSSP)</a>, <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsalogonuser">LsaLogonUser</a>, and other identity provider interfaces.
+The <b>SEC_WINNT_AUTH_IDENTITY_EX2</b> structure can be returned by <a href="/windows/desktop/api/sspi/nf-sspi-querycontextattributesa">QueryContextAttributes(CredSSP)</a> and consumed by <a href="/windows/desktop/api/sspi/nf-sspi-acquirecredentialshandlea">AcquireCredentialsHandle(CredSSP)</a>, <a href="/windows/desktop/api/ntsecapi/nf-ntsecapi-lsalogonuser">LsaLogonUser</a>, and other identity provider interfaces.
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-sec_winnt_auth_packed_credentials">SEC_WINNT_AUTH_PACKED_CREDENTIALS</a> can contain a password credential type, defined as SEC_WINNT_AUTH_DATA_TYPE_PASSWORD. This credential type describes password credentials of a domain user as well as other online identities. Applications must define _SEC_WINNT_AUTH_TYPES to compile code that references this credential type as well as other definitions of the <b>SEC_WINNT_AUTH_PACKED_CREDENTIALS</b> structure.
+<a href="/windows/desktop/api/sspi/ns-sspi-sec_winnt_auth_packed_credentials">SEC_WINNT_AUTH_PACKED_CREDENTIALS</a> can contain a password credential type, defined as SEC_WINNT_AUTH_DATA_TYPE_PASSWORD. This credential type describes password credentials of a domain user as well as other online identities. Applications must define _SEC_WINNT_AUTH_TYPES to compile code that references this credential type as well as other definitions of the <b>SEC_WINNT_AUTH_PACKED_CREDENTIALS</b> structure.
 
-Applications should not query or set the <b>Flags</b> member directly. Use the   <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-sspiisauthidentityencrypted">SspiIsAuthIdentityEncrypted</a>,  <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-sspiencryptauthidentityex">SspiEncryptAuthIdentityEx</a>, and  <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-sspidecryptauthidentityex">SspiDecryptAuthIdentityEx</a> functions to manage the encryption and decryption of the <b>SEC_WINNT_AUTH_IDENTITY_EX2</b> structure.
+Applications should not query or set the <b>Flags</b> member directly. Use the   <a href="/windows/desktop/api/sspi/nf-sspi-sspiisauthidentityencrypted">SspiIsAuthIdentityEncrypted</a>,  <a href="/windows/desktop/api/sspi/nf-sspi-sspiencryptauthidentityex">SspiEncryptAuthIdentityEx</a>, and  <a href="/windows/desktop/api/sspi/nf-sspi-sspidecryptauthidentityex">SspiDecryptAuthIdentityEx</a> functions to manage the encryption and decryption of the <b>SEC_WINNT_AUTH_IDENTITY_EX2</b> structure.
 
 Identity providers must explicitly check or set SEC_WINNT_AUTH_IDENTITY_FLAGS_ID_PROVIDER and the domain name fields to differentiate their password credential from a domain password and another identity provider's password.
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/wincred/nf-wincred-credpackauthenticationbuffera">CredPackAuthenticationBuffer</a> function  can be called with the CRED_PACK_ID_PROVIDER_CREDENTIALS option to create a <b>SEC_WINNT_AUTH_IDENTITY_EX2</b> structure with the authentication data of SEC_WINNT_AUTH_DATA_TYPE_PASSWORD credential type, a <b>Flags</b> member that contains the SEC_WINNT_AUTH_IDENTITY_FLAGS_ID_PROVIDER value, and a <b>DomainOffset</b> member set to the provider name.
-
+The <a href="/windows/desktop/api/wincred/nf-wincred-credpackauthenticationbuffera">CredPackAuthenticationBuffer</a> function  can be called with the CRED_PACK_ID_PROVIDER_CREDENTIALS option to create a <b>SEC_WINNT_AUTH_IDENTITY_EX2</b> structure with the authentication data of SEC_WINNT_AUTH_DATA_TYPE_PASSWORD credential type, a <b>Flags</b> member that contains the SEC_WINNT_AUTH_IDENTITY_FLAGS_ID_PROVIDER value, and a <b>DomainOffset</b> member set to the provider name.

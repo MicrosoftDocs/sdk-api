@@ -68,5 +68,4 @@ Implement this method if you want to display a property page to the user to adju
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/effects/nn-effects-iwmpeffects">IWMPEffects Interface</a>
-
+<a href="/windows/desktop/api/effects/nn-effects-iwmpeffects">IWMPEffects Interface</a>

@@ -73,8 +73,8 @@ Sync Center calls this method in the following scenarios.
                 
 
 <ul>
-<li>When the user selects the item in the handler's folder and launches its <b>Enable</b> task, but only if the item has not set the <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/ne-syncmgr-syncmgr_handler_policies">SYNCMGR_IPM_PREVENT_ENABLE</a> flag. If the handler supports the <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrsyncitem-getobject">SYNCMGR_OBJECTID_QueryBeforeEnable</a> object, this method is only called if the UI operation was successful.</li>
-<li>When the user selects the item in the handler's folder and launches its <b>Disable</b> task, but only if the item has not set the <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/ne-syncmgr-syncmgr_handler_policies">SYNCMGR_IPM_PREVENT_DISABLE</a> flag. If the handler supports the <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrhandler-getobject">SYNCMGR_OBJECTID_QueryBeforeDisable</a> object, this method is only called if the UI operation was successful.</li>
+<li>When the user selects the item in the handler's folder and launches its <b>Enable</b> task, but only if the item has not set the <a href="/windows/desktop/api/syncmgr/ne-syncmgr-syncmgr_handler_policies">SYNCMGR_IPM_PREVENT_ENABLE</a> flag. If the handler supports the <a href="/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrsyncitem-getobject">SYNCMGR_OBJECTID_QueryBeforeEnable</a> object, this method is only called if the UI operation was successful.</li>
+<li>When the user selects the item in the handler's folder and launches its <b>Disable</b> task, but only if the item has not set the <a href="/windows/desktop/api/syncmgr/ne-syncmgr-syncmgr_handler_policies">SYNCMGR_IPM_PREVENT_DISABLE</a> flag. If the handler supports the <a href="/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrhandler-getobject">SYNCMGR_OBJECTID_QueryBeforeDisable</a> object, this method is only called if the UI operation was successful.</li>
 </ul>
 If the handler does not need to perform any actions when it is activated, it can return either S_OK or E_NOTIMPL as shown in the example below.
 
@@ -93,4 +93,3 @@ STDMETHODIMP CMyDeviceSyncItem::Enable(__in BOOL fEnable)
 }
 
 ```
-

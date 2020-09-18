@@ -119,21 +119,20 @@ The <b>Flush</b> method discards all queued samples and cancels all pending samp
 
 This method can complete either synchronously or asynchronously.
 
-If you provide a callback pointer when you create the source reader, the method is asynchronous. Otherwise, the method is synchronous. For more information about the setting the callback pointer, see <a href="https://docs.microsoft.com/windows/desktop/medfound/mf-source-reader-async-callback">MF_SOURCE_READER_ASYNC_CALLBACK</a>.
+If you provide a callback pointer when you create the source reader, the method is asynchronous. Otherwise, the method is synchronous. For more information about the setting the callback pointer, see <a href="/windows/desktop/medfound/mf-source-reader-async-callback">MF_SOURCE_READER_ASYNC_CALLBACK</a>.
 
 In synchronous mode, the method blocks until the operation is complete.
 
-In asynchronous mode, the application's <a href="https://docs.microsoft.com/windows/desktop/api/mfreadwrite/nf-mfreadwrite-imfsourcereadercallback-onflush">IMFSourceReaderCallback::OnFlush</a> method is called when the flush operation completes. While a flush operation is pending, the <a href="https://docs.microsoft.com/windows/desktop/api/mfreadwrite/nf-mfreadwrite-imfsourcereader-readsample">IMFSourceReader::ReadSample</a> method returns <b>MF_E_NOTACCEPTING</b>.
+In asynchronous mode, the application's <a href="/windows/desktop/api/mfreadwrite/nf-mfreadwrite-imfsourcereadercallback-onflush">IMFSourceReaderCallback::OnFlush</a> method is called when the flush operation completes. While a flush operation is pending, the <a href="/windows/desktop/api/mfreadwrite/nf-mfreadwrite-imfsourcereader-readsample">IMFSourceReader::ReadSample</a> method returns <b>MF_E_NOTACCEPTING</b>.
 
-<div class="alert"><b>Note</b>  In Windows 7, there was a bug in the implementation of this method, which causes <a href="https://docs.microsoft.com/windows/desktop/api/mfreadwrite/nf-mfreadwrite-imfsourcereadercallback-onflush">OnFlush</a> to be called before the flush operation completes. A hotfix is available that fixes this bug. For more information, see <a href="https://support.microsoft.com/help/979567">http://support.microsoft.com/kb/979567</a>.</div>
+<div class="alert"><b>Note</b>  In Windows 7, there was a bug in the implementation of this method, which causes <a href="/windows/desktop/api/mfreadwrite/nf-mfreadwrite-imfsourcereadercallback-onflush">OnFlush</a> to be called before the flush operation completes. A hotfix is available that fixes this bug. For more information, see <a href="https://support.microsoft.com/help/979567">http://support.microsoft.com/kb/979567</a>.</div>
 <div> </div>
 This interface is available on Windows Vista if Platform Update Supplement for Windows Vista is installed.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfreadwrite/nn-mfreadwrite-imfsourcereader">IMFSourceReader</a>
+<a href="/windows/desktop/api/mfreadwrite/nn-mfreadwrite-imfsourcereader">IMFSourceReader</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/source-reader">Source Reader</a>
-
+<a href="/windows/desktop/medfound/source-reader">Source Reader</a>

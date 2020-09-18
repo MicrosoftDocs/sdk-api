@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-Adds, deletes, or replaces a resource in a portable executable (PE) file. There are some restrictions on resource updates in files that contain Resource Configuration (RC Config) data: <a href="https://docs.microsoft.com/windows/desktop/Intl/mui-resource-management">language-neutral</a> (LN) files and language-specific resource (.mui) files.
+Adds, deletes, or replaces a resource in a portable executable (PE) file. There are some restrictions on resource updates in files that contain Resource Configuration (RC Config) data: <a href="/windows/desktop/Intl/mui-resource-management">language-neutral</a> (LN) files and language-specific resource (.mui) files.
 
 ## -parameters
 
@@ -60,35 +60,35 @@ Adds, deletes, or replaces a resource in a portable executable (PE) file. There 
 
 Type: <b>HANDLE</b>
 
-A module handle returned by the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-beginupdateresourcea">BeginUpdateResource</a> function, referencing the file to be updated.
+A module handle returned by the <a href="/windows/desktop/api/winbase/nf-winbase-beginupdateresourcea">BeginUpdateResource</a> function, referencing the file to be updated.
 
 ### -param lpType [in]
 
 Type: <b>LPCTSTR</b>
 
-The resource type to be updated. Alternatively, rather than a pointer, this parameter can be <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-makeintresourcea">MAKEINTRESOURCE</a>(ID), where ID is an integer value representing a predefined resource type. If the first character of the string is a pound sign (#), then the remaining characters represent a 
+The resource type to be updated. Alternatively, rather than a pointer, this parameter can be <a href="/windows/desktop/api/winuser/nf-winuser-makeintresourcea">MAKEINTRESOURCE</a>(ID), where ID is an integer value representing a predefined resource type. If the first character of the string is a pound sign (#), then the remaining characters represent a 
 
 decimal number that specifies the integer identifier of the resource type. For example, the string "#258" represents the identifier 258. 
 
-For a list of predefined resource types, see <a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-programming-guide-resources-types">Resource Types</a>.
+For a list of predefined resource types, see <a href="/windows/desktop/direct3d10/d3d10-graphics-programming-guide-resources-types">Resource Types</a>.
 
 ### -param lpName [in]
 
 Type: <b>LPCTSTR</b>
 
-The name of the resource to be updated. Alternatively, rather than a pointer, this parameter can be <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-makeintresourcea">MAKEINTRESOURCE</a>(ID), where ID is a resource ID. When creating a new resource do not use a string that begins with a '#' character for this parameter.
+The name of the resource to be updated. Alternatively, rather than a pointer, this parameter can be <a href="/windows/desktop/api/winuser/nf-winuser-makeintresourcea">MAKEINTRESOURCE</a>(ID), where ID is a resource ID. When creating a new resource do not use a string that begins with a '#' character for this parameter.
 
 ### -param wLanguage [in]
 
 Type: <b>WORD</b>
 
-The <a href="https://docs.microsoft.com/windows/desktop/Intl/language-identifiers">language identifier</a> of the resource to be updated. For a list of the primary language identifiers and sublanguage identifiers that make up a language identifier, see the <a href="https://docs.microsoft.com/windows/desktop/api/winnt/nf-winnt-makelangid">MAKELANGID</a>  macro.
+The <a href="/windows/desktop/Intl/language-identifiers">language identifier</a> of the resource to be updated. For a list of the primary language identifiers and sublanguage identifiers that make up a language identifier, see the <a href="/windows/desktop/api/winnt/nf-winnt-makelangid">MAKELANGID</a>  macro.
 
 ### -param lpData [in, optional]
 
 Type: <b>LPVOID</b>
 
-The resource data to be inserted into the file indicated by <i>hUpdate</i>. If the resource is one of the predefined types, the data must be valid and properly aligned. Note that this is the raw binary data to be stored in the file indicated by <i>hUpdate</i>, not the data provided by <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-loadicona">LoadIcon</a>, <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-loadstringa">LoadString</a>, or other resource-specific load functions. All data containing strings or text must be in Unicode format. <i>lpData</i> must not point to ANSI data.
+The resource data to be inserted into the file indicated by <i>hUpdate</i>. If the resource is one of the predefined types, the data must be valid and properly aligned. Note that this is the raw binary data to be stored in the file indicated by <i>hUpdate</i>, not the data provided by <a href="/windows/desktop/api/winuser/nf-winuser-loadicona">LoadIcon</a>, <a href="/windows/desktop/api/winuser/nf-winuser-loadstringa">LoadString</a>, or other resource-specific load functions. All data containing strings or text must be in Unicode format. <i>lpData</i> must not point to ANSI data.
 
     				
 
@@ -104,13 +104,13 @@ The size, in bytes, of the resource data at <i>lpData</i>.
 
 Type: <b>BOOL</b>
 
-Returns <b>TRUE</b> if successful or <b>FALSE</b> otherwise. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+Returns <b>TRUE</b> if successful or <b>FALSE</b> otherwise. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
 It is recommended that the resource file is not loaded before this function is called. However, if that file is already loaded, it will not cause an error to be returned.
 
-An application can use <b>UpdateResource</b> repeatedly to make changes to the resource data. Each call to <b>UpdateResource</b> contributes to an internal list of additions, deletions, and replacements but does not actually write the data to the file indicated by <i>hUpdate</i>. The application must use the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-endupdateresourcea">EndUpdateResource</a> function to write the accumulated changes to the file.
+An application can use <b>UpdateResource</b> repeatedly to make changes to the resource data. Each call to <b>UpdateResource</b> contributes to an internal list of additions, deletions, and replacements but does not actually write the data to the file indicated by <i>hUpdate</i>. The application must use the <a href="/windows/desktop/api/winbase/nf-winbase-endupdateresourcea">EndUpdateResource</a> function to write the accumulated changes to the file.
 
 This function can update resources within modules that contain both code and resources.
 
@@ -170,7 +170,7 @@ This function can update resources within modules that contain both code and res
 
 #### Examples
 
-For an example, see <a href="https://docs.microsoft.com/windows/desktop/menurc/using-resources">Updating Resources</a>.
+For an example, see <a href="/windows/desktop/menurc/using-resources">Updating Resources</a>.
 
 <div class="code"></div>
 
@@ -182,7 +182,7 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/menurc/u
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-beginupdateresourcea">BeginUpdateResource</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-beginupdateresourcea">BeginUpdateResource</a>
 
 
 
@@ -190,27 +190,27 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/menurc/u
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-endupdateresourcea">EndUpdateResource</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-endupdateresourcea">EndUpdateResource</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-loadicona">LoadIcon</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-loadicona">LoadIcon</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-loadstringa">LoadString</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-loadstringa">LoadString</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-lockresource">LockResource</a>
+<a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-lockresource">LockResource</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-makeintresourcea">MAKEINTRESOURCE</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-makeintresourcea">MAKEINTRESOURCE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/nf-winnt-makelangid">MAKELANGID</a>
+<a href="/windows/desktop/api/winnt/nf-winnt-makelangid">MAKELANGID</a>
 
 
 
@@ -222,9 +222,8 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/menurc/u
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/menurc/resources">Resources</a>
+<a href="/windows/desktop/menurc/resources">Resources</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-sizeofresource">SizeofResource</a>
-
+<a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-sizeofresource">SizeofResource</a>

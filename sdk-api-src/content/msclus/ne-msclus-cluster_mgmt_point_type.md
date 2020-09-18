@@ -55,7 +55,7 @@ api_name:
 
 Specifies the type of the management point for the cluster.
 
-<b>CLUSTER_MGMT_POINT_TYPE</b> is used as a possible value in the <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-createcluster">CreateCluster</a> configuration structure.
+<b>CLUSTER_MGMT_POINT_TYPE</b> is used as a possible value in the <a href="/windows/desktop/api/clusapi/nf-clusapi-createcluster">CreateCluster</a> configuration structure.
 
 ## -enum-fields
 
@@ -79,13 +79,12 @@ The management point type is cluster name object (CNO) only.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clusapi/ns-clusapi-cluster_ip_entry">CLUSTER_IP_ENTRY</a>
+<a href="/windows/desktop/api/clusapi/ns-clusapi-cluster_ip_entry">CLUSTER_IP_ENTRY</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-createcluster">CreateCluster</a>
+<a href="/windows/desktop/api/clusapi/nf-clusapi-createcluster">CreateCluster</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/utility-structures">Utility structures</a>
-
+<a href="/previous-versions/windows/desktop/mscs/utility-structures">Utility structures</a>

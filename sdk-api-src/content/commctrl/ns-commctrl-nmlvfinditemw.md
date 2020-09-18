@@ -56,16 +56,16 @@ api_name:
 
 ## -description
 
-Contains information the owner needs to find items requested by a <a href="https://docs.microsoft.com/windows/desktop/Controls/list-view-controls-overview">virtual list-view</a> control. This structure is used with the <a href="https://docs.microsoft.com/windows/desktop/Controls/lvn-odfinditem">LVN_ODFINDITEM</a> notification code.
+Contains information the owner needs to find items requested by a <a href="/windows/desktop/Controls/list-view-controls-overview">virtual list-view</a> control. This structure is used with the <a href="/windows/desktop/Controls/lvn-odfinditem">LVN_ODFINDITEM</a> notification code.
 
 ## -struct-fields
 
 ### -field hdr
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a></b>
+Type: <b><a href="/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a></b>
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a> structure that contains information on this notification code.
+<a href="/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a> structure that contains information on this notification code.
 
 ### -field iStart
 
@@ -75,13 +75,12 @@ Index of the item at which the search will start.
 
 ### -field lvfi
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-lvfindinfoa">LVFINDINFO</a></b>
+Type: <b><a href="/windows/desktop/api/commctrl/ns-commctrl-lvfindinfoa">LVFINDINFO</a></b>
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-lvfindinfoa">LVFINDINFO</a> structure that contains information necessary to perform a search.
+<a href="/windows/desktop/api/commctrl/ns-commctrl-lvfindinfoa">LVFINDINFO</a> structure that contains information necessary to perform a search.
 
 ## -remarks
 
 > [!NOTE]
 > The commctrl.h header defines NMLVFINDITEM as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

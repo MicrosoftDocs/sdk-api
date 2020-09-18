@@ -56,7 +56,7 @@ Gets the application user model identifier.
 
 ### -param appUserModelId [out, retval]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPWSTR</a>*</b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">LPWSTR</a>*</b>
 
 The user model identifier.
 
@@ -68,11 +68,11 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -remarks
 
-The caller must free the memory allocated for <i>appUserModelId</i> using the <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a> function.
+The caller must free the memory allocated for <i>appUserModelId</i> using the <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a> function.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/shell/appids">Application User Model IDs</a>
+<a href="/windows/desktop/shell/appids">Application User Model IDs</a>
 
 
 
@@ -80,9 +80,8 @@ The caller must free the memory allocated for <i>appUserModelId</i> using the <a
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxmanifestapplication">IAppxManifestApplication</a>
+<a href="/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxmanifestapplication">IAppxManifestApplication</a>
 
 
 
 <b>Reference</b>
-

@@ -52,8 +52,8 @@ api_name:
 
 The 
 <b>get_Language</b> method retrieves the 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/dependency-language">Language</a> property of the 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/error-object">Error</a> object. This function returns the <b>LANGID</b> of the error.
+<a href="/windows/desktop/Msi/dependency-language">Language</a> property of the 
+<a href="/windows/desktop/Msi/error-object">Error</a> object. This function returns the <b>LANGID</b> of the error.
 
 ## -parameters
 
@@ -96,9 +96,8 @@ The function succeeded.
 
 ## -remarks
 
-The function returns -1 unless the error is of type msmErrorLanguageUnsupported or msmErrorLanguageFailed. You can determine the type of error by calling <a href="https://docs.microsoft.com/windows/desktop/api/mergemod/nf-mergemod-imsmerror-get_type">IMsmError::get_Type</a>.
+The function returns -1 unless the error is of type msmErrorLanguageUnsupported or msmErrorLanguageFailed. You can determine the type of error by calling <a href="/windows/desktop/api/mergemod/nf-mergemod-imsmerror-get_type">IMsmError::get_Type</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/merge-module-automation">Merge Module Automation</a>
-
+<a href="/windows/desktop/Msi/merge-module-automation">Merge Module Automation</a>

@@ -54,7 +54,7 @@ Exposes methods that manage synchronizing conflicts. Implement this interface to
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISyncMgrResolutionHandler</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISyncMgrResolutionHandler</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISyncMgrResolutionHandler</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISyncMgrResolutionHandler</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ISyncMgrResolutionHandler</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrresolutionhandler-keepitems">KeepItems</a>
+<a href="/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrresolutionhandler-keepitems">KeepItems</a>
 </td>
 <td align="left" width="63%">
 Keeps the Shell items that are passed in.
@@ -78,7 +78,7 @@ Keeps the Shell items that are passed in.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrresolutionhandler-keepother">KeepOther</a>
+<a href="/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrresolutionhandler-keepother">KeepOther</a>
 </td>
 <td align="left" width="63%">
 Replaces the versions in conflict with a different Shell item that is usually a merged version of the originals.
@@ -87,7 +87,7 @@ Replaces the versions in conflict with a different Shell item that is usually a 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrresolutionhandler-keeprecent">KeepRecent</a>
+<a href="/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrresolutionhandler-keeprecent">KeepRecent</a>
 </td>
 <td align="left" width="63%">
 Keeps the more recent copy.
@@ -96,7 +96,7 @@ Keeps the more recent copy.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrresolutionhandler-queryabilities">QueryAbilities</a>
+<a href="/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrresolutionhandler-queryabilities">QueryAbilities</a>
 </td>
 <td align="left" width="63%">
 Determines what options the conflict presenter will display.
@@ -105,12 +105,11 @@ Determines what options the conflict presenter will display.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrresolutionhandler-removefromsyncset">RemoveFromSyncSet</a>
+<a href="/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrresolutionhandler-removefromsyncset">RemoveFromSyncSet</a>
 </td>
 <td align="left" width="63%">
-Deletes the conflict and removes the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a>  from synchronization.
+Deletes the conflict and removes the <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a>  from synchronization.
 
 </td>
 </tr>
 </table>
-

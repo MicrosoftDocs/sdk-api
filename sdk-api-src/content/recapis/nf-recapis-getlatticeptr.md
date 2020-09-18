@@ -152,5 +152,4 @@ An invalid argument was received.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/tablet/recognizer-lattice-structure">Recognizer Lattice Structure</a>
-
+<a href="/windows/desktop/tablet/recognizer-lattice-structure">Recognizer Lattice Structure</a>

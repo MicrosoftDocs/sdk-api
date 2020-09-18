@@ -64,7 +64,7 @@ The locale.
 
 ### -param pszDesc [out]
 
-A pointer to the string pointer for the description. This string must be released by the caller using the <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a> function.
+A pointer to the string pointer for the description. This string must be released by the caller using the <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a> function.
 
 ## -returns
 
@@ -101,5 +101,4 @@ There is no description string for <i>rcatid</i> with the specified locale.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/comcat/nn-comcat-icatinformation">ICatInformation</a>
-
+<a href="/windows/desktop/api/comcat/nn-comcat-icatinformation">ICatInformation</a>

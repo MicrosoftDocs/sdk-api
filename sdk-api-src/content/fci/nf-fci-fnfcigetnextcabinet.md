@@ -56,7 +56,7 @@ The <b>FNFCIGETNEXTCABINET</b> macro provides the declaration for the applicatio
 
 ### -param fn
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/fci/ns-fci-ccab">CCAB</a> structure to provide the parameters for the creation of a new cabinet.
+Pointer to a <a href="/windows/desktop/api/fci/ns-fci-ccab">CCAB</a> structure to provide the parameters for the creation of a new cabinet.
 
 
 #### - cbPrevCab
@@ -70,7 +70,7 @@ Pointer to an application-defined value.
 
 ## -remarks
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/fci/ns-fci-ccab">CCAB</a> structure referenced by this function is relevant to the most recently completed cabinet. However, with each successful operation the  <i>iCab</i> field contained within this structure will have incremented by 1. Additionally, the next cabinet will be created using the fields in this structure.  The szCab, in particular, should be modified as necessary. In particular, the <i>szCab</i> field, which specifies the cabinet name, should be changed for each cabinet.
+The <a href="/windows/desktop/api/fci/ns-fci-ccab">CCAB</a> structure referenced by this function is relevant to the most recently completed cabinet. However, with each successful operation the  <i>iCab</i> field contained within this structure will have incremented by 1. Additionally, the next cabinet will be created using the fields in this structure.  The szCab, in particular, should be modified as necessary. In particular, the <i>szCab</i> field, which specifies the cabinet name, should be changed for each cabinet.
 
 When creating multiple cabinets, typically the <i>iCab</i> field is used to create the name.
 
@@ -98,5 +98,4 @@ FNFCIGETNEXTCABINET(fnGetNextCabinet)
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fci/nf-fci-fcicreate">FCICreate</a>
-
+<a href="/windows/desktop/api/fci/nf-fci-fcicreate">FCICreate</a>

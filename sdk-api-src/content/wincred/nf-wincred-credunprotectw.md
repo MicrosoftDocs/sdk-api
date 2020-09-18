@@ -55,7 +55,7 @@ api_name:
 
 ## -description
 
-The <b>CredUnprotect</b> function decrypts credentials that were previously encrypted by using the <a href="https://docs.microsoft.com/windows/desktop/api/wincred/nf-wincred-credprotecta">CredProtect</a> function. The credentials must have been encrypted in the same security context in which <b>CredUnprotect</b> is called.
+The <b>CredUnprotect</b> function decrypts credentials that were previously encrypted by using the <a href="/windows/desktop/api/wincred/nf-wincred-credprotecta">CredProtect</a> function. The credentials must have been encrypted in the same security context in which <b>CredUnprotect</b> is called.
 
 ## -parameters
 
@@ -84,7 +84,7 @@ The size, in characters of the <i>pszCredentials</i> buffer. On output, if the <
 <b>TRUE</b> if the function succeeds; otherwise, <b>FALSE</b>.
 
 For extended error information, call the 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function. The following table shows common values for the <b>GetLastError</b> function.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function. The following table shows common values for the <b>GetLastError</b> function.
 
 <table>
 <tr>
@@ -121,4 +121,3 @@ The <i>pszCredentials</i> buffer was of insufficient size.
 
 > [!NOTE]
 > The wincred.h header defines CredUnprotect as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

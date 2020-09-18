@@ -53,16 +53,16 @@ api_name:
 ## -description
 
 Contains information 
-    about a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resources">resource</a> that is being brought online or taken offline. 
+    about a <a href="/previous-versions/windows/desktop/mscs/resources">resource</a> that is being brought online or taken offline. 
     This structure is used as a parameter to the callback function 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/nc-resapi-pset_resource_status_routine">SetResourceStatus</a>.
+    <a href="/previous-versions/windows/desktop/api/resapi/nc-resapi-pset_resource_status_routine">SetResourceStatus</a>.
 
 ## -struct-fields
 
 ### -field ResourceState
 
 A value describing the state of a resource enumerated by the 
-       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ne-clusapi-cluster_resource_state">CLUSTER_RESOURCE_STATE</a> enumeration.  The possible values for this member are as follows:
+       <a href="/previous-versions/windows/desktop/api/clusapi/ne-clusapi-cluster_resource_state">CLUSTER_RESOURCE_STATE</a> enumeration.  The possible values for this member are as follows:
 
 
 
@@ -70,7 +70,7 @@ A value describing the state of a resource enumerated by the
 
 An error occurred while trying to retrieve the state, typically because the server is no longer available. 
          For more information, the caller should call the function 
-         <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+         <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -105,7 +105,7 @@ The resource is in the process of being taken offline.
 
 ### -field CheckPoint
 
-A value set by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resource-dlls">resource DLL</a> to flag a status 
+A value set by the <a href="/previous-versions/windows/desktop/mscs/resource-dlls">resource DLL</a> to flag a status 
       report as new.
 
 ### -field WaitHint
@@ -125,30 +125,29 @@ Resource DLLs typically set the <b>ResourceState</b> member to
      should be greater than the previous value reported for <b>CheckPoint</b>.
 
 Resource DLLs initially set <b>CheckPoint</b> to zero, then increment it by 1 for each call 
-     to <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/nc-resapi-pset_resource_status_routine">SetResourceStatus</a>. 
-     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resource-monitor">Resource Monitors</a> detect new status reports by comparing 
+     to <a href="/previous-versions/windows/desktop/api/resapi/nc-resapi-pset_resource_status_routine">SetResourceStatus</a>. 
+     <a href="/previous-versions/windows/desktop/mscs/resource-monitor">Resource Monitors</a> detect new status reports by comparing 
      the current value of <b>CheckPoint</b> to the previous value. If the value has changed, the 
      Resource Monitor reads the new status information.
 
 Before returning the <b>ClusterResourceUnknown</b> state in the 
      <b>ResourceState</b> member, a resource DLL should call the function 
-     <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-setlasterror">SetLastError</a>.
+     <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-setlasterror">SetLastError</a>.
 
 Resource DLLs set the <b>EventHandle</b> member to a handle that is signaled when a 
      resource fails.
 
 For more information, see 
-     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/implementing-resource-dlls">Implementing Resource DLLs</a>.
+     <a href="/previous-versions/windows/desktop/mscs/implementing-resource-dlls">Implementing Resource DLLs</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ne-clusapi-cluster_resource_state">CLUSTER_RESOURCE_STATE</a>
+<a href="/previous-versions/windows/desktop/api/clusapi/ne-clusapi-cluster_resource_state">CLUSTER_RESOURCE_STATE</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resource-dll-structures">Resource DLL Structures</a>
+<a href="/previous-versions/windows/desktop/mscs/resource-dll-structures">Resource DLL Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/nc-resapi-pset_resource_status_routine">SetResourceStatus</a>
-
+<a href="/previous-versions/windows/desktop/api/resapi/nc-resapi-pset_resource_status_routine">SetResourceStatus</a>

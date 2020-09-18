@@ -57,7 +57,7 @@ Retrieves a property value stored by the device on the computer. (These are not 
 
 ### -param pszPnPDeviceID [in]
 
-Pointer to a null-terminated string that contains the device's Plug and Play ID. You can retrieve a list of Plug and Play names of all devices that are connected to the computer by calling <a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledevicemanager-getdevices">GetDevices</a>.
+Pointer to a null-terminated string that contains the device's Plug and Play ID. You can retrieve a list of Plug and Play names of all devices that are connected to the computer by calling <a href="/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledevicemanager-getdevices">GetDevices</a>.
 
 ### -param pszDevicePropertyName [in]
 
@@ -123,13 +123,12 @@ At least one of the required arguments was a <b>NULL</b> pointer.
 
 These property values are stored on device installation, or stored by a device during operation so that they can be persisted across connection sessions. An application must know the exact name of the property, which is specified by the device itself; therefore, this method is intended to be used by device developers who are creating their own applications.
 
-To get Windows Portable Devices properties from the device object, call <a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledeviceproperties-getvalues">IPortableDeviceProperties::GetValues</a>, and specify the device object with <b>WPD_DEVICE_OBJECT_ID</b>.
+To get Windows Portable Devices properties from the device object, call <a href="/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledeviceproperties-getvalues">IPortableDeviceProperties::GetValues</a>, and specify the device object with <b>WPD_DEVICE_OBJECT_ID</b>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nn-portabledeviceapi-iportabledevicemanager">IPortableDeviceManager Interface</a>
+<a href="/windows/desktop/api/portabledeviceapi/nn-portabledeviceapi-iportabledevicemanager">IPortableDeviceManager Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledevicemanager-getdevices">IPortableDeviceManager::GetDevices</a>
-
+<a href="/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledevicemanager-getdevices">IPortableDeviceManager::GetDevices</a>

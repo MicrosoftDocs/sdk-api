@@ -52,22 +52,21 @@ api_name:
 
 The 
 <b>CMSPCallBase</b> class provides a generic implementation of the call object. It supports the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itstreamcontrol">ITStreamControl</a> interface. It serves as a simple base class that maintains the stream list. This class is defined in MSPcall.h.
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itstreamcontrol">ITStreamControl</a> interface. It serves as a simple base class that maintains the stream list. This class is defined in MSPcall.h.
 <ul>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/cmspcallbase-members">CMSPCallBase Members</a>
+<a href="/windows/desktop/Tapi/cmspcallbase-members">CMSPCallBase Members</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/cmspcallbase-mspi-methods-implemented">CMSPCallBase MSPI Methods Implemented</a>
+<a href="/windows/desktop/Tapi/cmspcallbase-mspi-methods-implemented">CMSPCallBase MSPI Methods Implemented</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/cmspcallbase-public-methods-called-by-mspaddress-object">CMSPCallBase Public Methods, Called By MSPAddress Object</a>
+<a href="/windows/desktop/Tapi/cmspcallbase-public-methods-called-by-mspaddress-object">CMSPCallBase Public Methods, Called By MSPAddress Object</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/cmspcallbase-public-methods-called-by-mspstream-object">CMSPCallBase Public Methods, Called by MSPStream Object</a>
+<a href="/windows/desktop/Tapi/cmspcallbase-public-methods-called-by-mspstream-object">CMSPCallBase Public Methods, Called by MSPStream Object</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/cmspcallbase-pure-virtual-methods">CMSPCallBase Pure Virtual Methods</a>
+<a href="/windows/desktop/Tapi/cmspcallbase-pure-virtual-methods">CMSPCallBase Pure Virtual Methods</a>
 </li>
 </ul><b xmlns:loc="http://microsoft.com/wdcml/l10n">CMSPCallBase</b> has these types of members:
-

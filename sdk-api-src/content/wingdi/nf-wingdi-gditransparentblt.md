@@ -54,7 +54,7 @@ api_name:
 ## -description
 
 The <b>GdiTransparentBlt</b> function performs a bit-block transfer of the color data corresponding to a rectangle of pixels from the specified source device context into a destination device context.
-<div class="alert"><b>Note</b>  This function is the same as <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-transparentblt">TransparentBlt</a>.</div><div> </div>
+<div class="alert"><b>Note</b>  This function is the same as <a href="/windows/desktop/api/wingdi/nf-wingdi-transparentblt">TransparentBlt</a>.</div><div> </div>
 
 ## -parameters
 
@@ -112,41 +112,40 @@ If the function fails, the return value is <b>FALSE</b>.
 
 The <b>GdiTransparentBlt</b> function works with compatible bitmaps (DDBs).
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-transparentblt">GdiTransparentBlt</a> function supports all formats of source bitmaps. However, for 32 bpp bitmaps, it just copies the alpha value over. Use <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-alphablend">AlphaBlend</a> to specify 32 bits-per-pixel bitmaps with transparency.
+The <a href="/windows/desktop/api/wingdi/nf-wingdi-transparentblt">GdiTransparentBlt</a> function supports all formats of source bitmaps. However, for 32 bpp bitmaps, it just copies the alpha value over. Use <a href="/windows/desktop/api/wingdi/nf-wingdi-alphablend">AlphaBlend</a> to specify 32 bits-per-pixel bitmaps with transparency.
 
-If the source and destination rectangles are not the same size, the source bitmap is stretched to match the destination rectangle. When the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-setstretchbltmode">SetStretchBltMode</a> function is used, the <i>iStretchMode</i> modes of BLACKONWHITE and WHITEONBLACK are converted to COLORONCOLOR for the <b>GdiTransparentBlt</b> function.
+If the source and destination rectangles are not the same size, the source bitmap is stretched to match the destination rectangle. When the <a href="/windows/desktop/api/wingdi/nf-wingdi-setstretchbltmode">SetStretchBltMode</a> function is used, the <i>iStretchMode</i> modes of BLACKONWHITE and WHITEONBLACK are converted to COLORONCOLOR for the <b>GdiTransparentBlt</b> function.
 
 The destination device context specifies the transformation type for the destination coordinates. The source device context specifies the transformation type for the source coordinates.
 
 <b>GdiTransparentBlt</b> does not mirror a bitmap if either the width or height, of either the source or destination, is negative.
 
-When used in a multiple monitor system, both <i>hdcSrc</i> and <i>hdcDest</i> must refer to the same device or the function will fail. To transfer data between DCs for different devices, convert the memory bitmap to a DIB by calling <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getdibits">GetDIBits</a>. To display the DIB to the second device, call <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-setdibits">SetDIBits</a> or <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-stretchdibits">StretchDIBits</a>.
+When used in a multiple monitor system, both <i>hdcSrc</i> and <i>hdcDest</i> must refer to the same device or the function will fail. To transfer data between DCs for different devices, convert the memory bitmap to a DIB by calling <a href="/windows/desktop/api/wingdi/nf-wingdi-getdibits">GetDIBits</a>. To display the DIB to the second device, call <a href="/windows/desktop/api/wingdi/nf-wingdi-setdibits">SetDIBits</a> or <a href="/windows/desktop/api/wingdi/nf-wingdi-stretchdibits">StretchDIBits</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-alphablend">AlphaBlend</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-alphablend">AlphaBlend</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/bitmap-functions">Bitmap Functions</a>
+<a href="/windows/desktop/gdi/bitmap-functions">Bitmap Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/bitmaps">Bitmaps Overview</a>
+<a href="/windows/desktop/gdi/bitmaps">Bitmaps Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getdibits">GetDIBits</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-getdibits">GetDIBits</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-setdibits">SetDIBits</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-setdibits">SetDIBits</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-setstretchbltmode">SetStretchBltMode</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-setstretchbltmode">SetStretchBltMode</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-stretchdibits">StretchDIBits</a>
-
+<a href="/windows/desktop/api/wingdi/nf-wingdi-stretchdibits">StretchDIBits</a>

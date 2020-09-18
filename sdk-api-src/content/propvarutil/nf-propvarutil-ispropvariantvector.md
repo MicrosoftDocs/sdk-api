@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Specifies whether a <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structure has a vector type.
+Specifies whether a <a href="/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structure has a vector type.
 
 ## -parameters
 
@@ -58,15 +58,14 @@ Specifies whether a <a href="https://docs.microsoft.com/windows/desktop/api/prop
 
 Type: <b>REFPROPVARIANT</b>
 
-Reference to the <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structure being queried.
+Reference to the <a href="/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structure being queried.
 
 ## -returns
 
 Type: <b>BOOL</b>
 
-Returns <b>TRUE</b> if <i>propvar</i> is a VT_ARRAY | VT_VECTOR <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a>; otherwise, <b>FALSE</b>.
+Returns <b>TRUE</b> if <i>propvar</i> is a VT_ARRAY | VT_VECTOR <a href="/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a>; otherwise, <b>FALSE</b>.
 
 ## -remarks
 
 This is an inline function, with its source code provided in the header. It is not included in any .dll or .lib file.
-

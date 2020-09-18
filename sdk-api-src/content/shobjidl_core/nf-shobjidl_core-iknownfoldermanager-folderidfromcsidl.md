@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Gets the <a href="https://docs.microsoft.com/windows/desktop/shell/knownfolderid">KNOWNFOLDERID</a> that is the equivalent of a legacy <a href="https://docs.microsoft.com/windows/desktop/shell/csidl">CSIDL</a> value.
+Gets the <a href="/windows/desktop/shell/knownfolderid">KNOWNFOLDERID</a> that is the equivalent of a legacy <a href="/windows/desktop/shell/csidl">CSIDL</a> value.
 
 ## -parameters
 
@@ -58,13 +58,13 @@ Gets the <a href="https://docs.microsoft.com/windows/desktop/shell/knownfolderid
 
 Type: <b>int</b>
 
-The <a href="https://docs.microsoft.com/windows/desktop/shell/csidl">CSIDL</a> value.
+The <a href="/windows/desktop/shell/csidl">CSIDL</a> value.
 
 ### -param pfid [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/shell/knownfolderid">KNOWNFOLDERID</a>*</b>
+Type: <b><a href="/windows/desktop/shell/knownfolderid">KNOWNFOLDERID</a>*</b>
 
-When this method returns, contains a pointer to the <a href="https://docs.microsoft.com/windows/desktop/shell/knownfolderid">KNOWNFOLDERID</a>. This pointer is passed uninitialized.
+When this method returns, contains a pointer to the <a href="/windows/desktop/shell/knownfolderid">KNOWNFOLDERID</a>. This pointer is passed uninitialized.
 
 ## -returns
 
@@ -78,13 +78,12 @@ To call this method, the caller must have at least User privileges.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iknownfoldermanager">IKnownFolderManager</a>
+<a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iknownfoldermanager">IKnownFolderManager</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iknownfoldermanager-folderidtocsidl">IKnownFolderManager::FolderIdToCsidl</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iknownfoldermanager-folderidtocsidl">IKnownFolderManager::FolderIdToCsidl</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd940364(v=vs.85)">Known Folders Sample</a>
-
+<a href="/previous-versions/windows/desktop/legacy/dd940364(v=vs.85)">Known Folders Sample</a>

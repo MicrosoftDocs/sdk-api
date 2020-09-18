@@ -94,9 +94,8 @@ All channels within a stream will use the same speaker configuration, although t
 
 ## -see-also
 
-[DVD_KaraokeAttributes Structure](https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-dvd_karaokeattributes)
+[DVD_KaraokeAttributes Structure](/windows/desktop/api/strmif/ns-strmif-dvd_karaokeattributes)
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/directshow-enumerated-types">DirectShow Enumerated Types</a>
-
+<a href="/windows/desktop/DirectShow/directshow-enumerated-types">DirectShow Enumerated Types</a>

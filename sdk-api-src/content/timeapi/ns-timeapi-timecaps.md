@@ -69,17 +69,16 @@ The maximum supported resolution, in milliseconds.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/multimedia-timer-structures">Multimedia Timer Structures</a>
+<a href="/windows/desktop/Multimedia/multimedia-timer-structures">Multimedia Timer Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/multimedia-timers">Multimedia Timers</a>
+<a href="/windows/desktop/Multimedia/multimedia-timers">Multimedia Timers</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/timer-resolution">Timer Resolution</a>
+<a href="/windows/desktop/Multimedia/timer-resolution">Timer Resolution</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/timeapi/nf-timeapi-timegetdevcaps">timeGetDevCaps</a>
-
+<a href="/windows/desktop/api/timeapi/nf-timeapi-timegetdevcaps">timeGetDevCaps</a>

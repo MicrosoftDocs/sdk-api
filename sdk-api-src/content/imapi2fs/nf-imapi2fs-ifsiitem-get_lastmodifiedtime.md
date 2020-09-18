@@ -66,15 +66,14 @@ S_OK is returned on success, but other success codes may be returned as a result
 
 When implementing this method, a few things should be taken into consideration:
 
-UDFS (UDF) will use the value provided by <a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifsiitem-put_lastmodifiedtime">IFsiItem::put_LastModifiedTime</a> as both the <i>CreationTime</i> and <i>LastModifiedTime</i>.
+UDFS (UDF) will use the value provided by <a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ifsiitem-put_lastmodifiedtime">IFsiItem::put_LastModifiedTime</a> as both the <i>CreationTime</i> and <i>LastModifiedTime</i>.
 
 CDFS (ISO 9660) uses the date/time of recording as the <i>CreationTime</i> and <i>LastModifiedTime</i>. As a result, CDFS sets the value of <i>LastModifiedTime</i> to 0.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nn-imapi2fs-ifsiitem">IFsiItem</a>
+<a href="/windows/desktop/api/imapi2fs/nn-imapi2fs-ifsiitem">IFsiItem</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifsiitem-put_lastmodifiedtime">IFsiItem::put_LastModifiedTime</a>
-
+<a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ifsiitem-put_lastmodifiedtime">IFsiItem::put_LastModifiedTime</a>

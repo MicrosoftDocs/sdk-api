@@ -58,7 +58,7 @@ Attempts to retrieve a window handle from a Component Object Model (COM) object 
 
 ### -param punk [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>*</b>
+Type: <b><a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>*</b>
 
 A pointer to the COM object from which this function will attempt to obtain a window handle.
 
@@ -76,8 +76,7 @@ Returns S_OK if a window handle was successfully returned, or a COM error code o
 
 ## -remarks
 
-This function attempts to retrieve the window handle by calling <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-iolewindow-getwindow">IOleWindow::GetWindow</a>, <a href="https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms537095(v=vs.85)">IInternetSecurityMgrSite::GetWindow</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellview">IShellView::GetWindow</a>. It is possible that future versions of <b>IUnknown_GetWindow</b> may attempt additional interfaces.
+This function attempts to retrieve the window handle by calling <a href="/windows/desktop/api/oleidl/nf-oleidl-iolewindow-getwindow">IOleWindow::GetWindow</a>, <a href="/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms537095(v=vs.85)">IInternetSecurityMgrSite::GetWindow</a>, and <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellview">IShellView::GetWindow</a>. It is possible that future versions of <b>IUnknown_GetWindow</b> may attempt additional interfaces.
 
-<div class="alert"><b>Note</b>  The query for <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellview">IShellView</a> is theoretically unnecessary because <b>IShellView</b> derives from <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-iolewindow">IOleWindow</a>. The function explicitly queries for this interface because some objects implement <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> incorrectly and fail to respond to a query for the base interface.</div>
+<div class="alert"><b>Note</b>  The query for <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellview">IShellView</a> is theoretically unnecessary because <b>IShellView</b> derives from <a href="/windows/desktop/api/oleidl/nn-oleidl-iolewindow">IOleWindow</a>. The function explicitly queries for this interface because some objects implement <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> incorrectly and fail to respond to a query for the base interface.</div>
 <div> </div>
-

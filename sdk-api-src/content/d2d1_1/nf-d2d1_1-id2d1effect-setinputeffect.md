@@ -52,7 +52,7 @@ api_name:
 
 Sets the given input effect by index. 
 
-This method gets the output of the given effect and then passes the output image to the <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1effect-setinput">SetInput</a> method.
+This method gets the output of the given effect and then passes the output image to the <a href="/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1effect-setinput">SetInput</a> method.
 
 ## -parameters
 
@@ -70,17 +70,16 @@ Whether to invalidate the graph at the location of the effect input
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1devicecontext-createeffect">ID2D1DeviceContext::CreateEffect</a>
+<a href="/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1devicecontext-createeffect">ID2D1DeviceContext::CreateEffect</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1effect">ID2D1Effect</a>
+<a href="/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1effect">ID2D1Effect</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1effect-getoutput">ID2D1Effect::GetOutput</a>
+<a href="/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1effect-getoutput">ID2D1Effect::GetOutput</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1image">ID2D1Image</a>
-
+<a href="/windows/desktop/api/d2d1/nn-d2d1-id2d1image">ID2D1Image</a>

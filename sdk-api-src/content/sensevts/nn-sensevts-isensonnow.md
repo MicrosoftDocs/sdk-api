@@ -55,7 +55,7 @@ The
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISensOnNow</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ISensOnNow</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISensOnNow</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ISensOnNow</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>ISensOnNow</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/sensevts/nf-sensevts-isensonnow-batterylow">BatteryLow</a>
+<a href="/windows/desktop/api/sensevts/nf-sensevts-isensonnow-batterylow">BatteryLow</a>
 </td>
 <td align="left" width="63%">
 Battery power is low.
@@ -79,7 +79,7 @@ Battery power is low.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/sensevts/nf-sensevts-isensonnow-onacpower">OnACPower</a>
+<a href="/windows/desktop/api/sensevts/nf-sensevts-isensonnow-onacpower">OnACPower</a>
 </td>
 <td align="left" width="63%">
 Switched to AC power.
@@ -88,7 +88,7 @@ Switched to AC power.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/sensevts/nf-sensevts-isensonnow-onbatterypower">OnBatteryPower</a>
+<a href="/windows/desktop/api/sensevts/nf-sensevts-isensonnow-onbatterypower">OnBatteryPower</a>
 </td>
 <td align="left" width="63%">
 Switched to Battery power.
@@ -99,13 +99,12 @@ Switched to Battery power.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Sens/about-system-event-notification-service">About System Event Notification Service</a>
+<a href="/windows/desktop/Sens/about-system-event-notification-service">About System Event Notification Service</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sensevts/nn-sensevts-isenslogon">ISensLogon</a>
+<a href="/windows/desktop/api/sensevts/nn-sensevts-isenslogon">ISensLogon</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sensevts/nn-sensevts-isensnetwork">ISensNetwork</a>
-
+<a href="/windows/desktop/api/sensevts/nn-sensevts-isensnetwork">ISensNetwork</a>

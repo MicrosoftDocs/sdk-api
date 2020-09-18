@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Removes and optionally returns an <a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nn-rtscom-istylusasyncplugin">IStylusAsyncPlugin</a> with the specified index in the asynchronous plug-in collection.
+Removes and optionally returns an <a href="/windows/desktop/api/rtscom/nn-rtscom-istylusasyncplugin">IStylusAsyncPlugin</a> with the specified index in the asynchronous plug-in collection.
 
 ## -parameters
 
@@ -64,25 +64,24 @@ A pointer to the plug-in to remove. If you are not interested in receiving the p
 
 ## -returns
 
-For a description of the return values, see <a href="https://docs.microsoft.com/windows/desktop/tablet/realtimestylus-classes-and-interfaces">RealTimeStylus Classes and Interfaces</a>.
+For a description of the return values, see <a href="/windows/desktop/tablet/realtimestylus-classes-and-interfaces">RealTimeStylus Classes and Interfaces</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nn-rtscom-irealtimestylus">IRealTimeStylus</a>
+<a href="/windows/desktop/api/rtscom/nn-rtscom-irealtimestylus">IRealTimeStylus</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nf-rtscom-irealtimestylus-removeallstylusasyncplugins">IRealTimeStylus::RemoveAllStylusAsyncPlugins Method</a>
+<a href="/windows/desktop/api/rtscom/nf-rtscom-irealtimestylus-removeallstylusasyncplugins">IRealTimeStylus::RemoveAllStylusAsyncPlugins Method</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nf-rtscom-irealtimestylus-removestylussyncplugin">IRealTimeStylus::RemoveStylusSyncPlugin Method</a>
+<a href="/windows/desktop/api/rtscom/nf-rtscom-irealtimestylus-removestylussyncplugin">IRealTimeStylus::RemoveStylusSyncPlugin Method</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nn-rtscom-istylusasyncplugin">IStylusAsyncPlugin</a>
+<a href="/windows/desktop/api/rtscom/nn-rtscom-istylusasyncplugin">IStylusAsyncPlugin</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/tablet/realtimestylus-class">RealTimeStylus Class</a>
-
+<a href="/windows/desktop/tablet/realtimestylus-class">RealTimeStylus Class</a>

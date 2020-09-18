@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-The <b>CreateCAConfiguration</b> method creates a new <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certification authority</a> (CA) configuration and adds it to the configuration set.
+The <b>CreateCAConfiguration</b> method creates a new <a href="/windows/desktop/SecGloss/c-gly">certification authority</a> (CA) configuration and adds it to the configuration set.
 
 ## -parameters
 
 ### -param bstrIdentifier [in]
 
-A string that contains a name for the new <a href="https://docs.microsoft.com/windows/desktop/api/certadm/nn-certadm-iocspcaconfiguration">IOCSPCAConfiguration</a> object.
+A string that contains a name for the new <a href="/windows/desktop/api/certadm/nn-certadm-iocspcaconfiguration">IOCSPCAConfiguration</a> object.
 
 ### -param varCACert [in]
 
@@ -64,23 +64,22 @@ An X.509 CA certificate.
 
 ### -param ppVal [out]
 
-The address of a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/certadm/nn-certadm-iocspcaconfiguration">IOCSPCAConfiguration</a> interface for the newly created object.
+The address of a pointer to an <a href="/windows/desktop/api/certadm/nn-certadm-iocspcaconfiguration">IOCSPCAConfiguration</a> interface for the newly created object.
 
 ## -returns
 
 <h3>C++</h3>
 If the method succeeds, it returns <b>S_OK</b>.
 
-If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
+If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 
 
 <h3>VB</h3>
 An 
-<a href="https://docs.microsoft.com/windows/desktop/api/certadm/nn-certadm-iocspcaconfiguration">IOCSPCAConfiguration</a>
+<a href="/windows/desktop/api/certadm/nn-certadm-iocspcaconfiguration">IOCSPCAConfiguration</a>
  interface for the newly created object.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certadm/nn-certadm-iocspcaconfigurationcollection">IOCSPCAConfigurationCollection</a>
-
+<a href="/windows/desktop/api/certadm/nn-certadm-iocspcaconfigurationcollection">IOCSPCAConfigurationCollection</a>

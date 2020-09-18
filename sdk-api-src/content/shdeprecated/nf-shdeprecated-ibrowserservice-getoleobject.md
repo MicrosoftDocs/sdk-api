@@ -51,19 +51,18 @@ api_name:
 
 ## -description
 
-Deprecated. Retrieves an <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-ioleobject">IOleObject</a> for the browser.
+Deprecated. Retrieves an <a href="/windows/desktop/api/oleidl/nn-oleidl-ioleobject">IOleObject</a> for the browser.
 
 ## -parameters
 
 ### -param ppobjv [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-ioleobject">IOleObject</a>**</b>
+Type: <b><a href="/windows/desktop/api/oleidl/nn-oleidl-ioleobject">IOleObject</a>**</b>
 
-The address that receives a pointer to the retrieved <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-ioleobject">IOleObject</a>.
+The address that receives a pointer to the retrieved <a href="/windows/desktop/api/oleidl/nn-oleidl-ioleobject">IOleObject</a>.
 
 ## -returns
 
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-

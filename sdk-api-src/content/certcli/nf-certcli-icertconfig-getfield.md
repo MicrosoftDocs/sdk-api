@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-The <b>GetField</b> method gets a specific field from the current record of the configuration database. This method was first defined in the <a href="https://docs.microsoft.com/windows/desktop/api/certcli/nn-certcli-icertconfig">ICertConfig</a> interface.
+The <b>GetField</b> method gets a specific field from the current record of the configuration database. This method was first defined in the <a href="/windows/desktop/api/certcli/nn-certcli-icertconfig">ICertConfig</a> interface.
 
 ## -parameters
 
@@ -171,8 +171,8 @@ Organizational unit.
 </dl>
 </td>
 <td width="60%">
-CA name that is <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">sanitized</a> according to the rules described in 
-<a href="https://docs.microsoft.com/windows/desktop/api/certcli/nf-certcli-icertconfig-getconfig">GetConfig</a>.
+CA name that is <a href="/windows/desktop/SecGloss/s-gly">sanitized</a> according to the rules described in 
+<a href="/windows/desktop/api/certcli/nf-certcli-icertconfig-getconfig">GetConfig</a>.
 
 </td>
 </tr>
@@ -183,7 +183,7 @@ CA name that is <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-g
 </td>
 <td width="60%">
 CA name that is sanitized and shortened according to the rules described in 
-<a href="https://docs.microsoft.com/windows/desktop/api/certcli/nf-certcli-icertconfig-getconfig">GetConfig</a>.
+<a href="/windows/desktop/api/certcli/nf-certcli-icertconfig-getconfig">GetConfig</a>.
 
 </td>
 </tr>
@@ -204,7 +204,7 @@ Reference computer name.
 </td>
 <td width="60%">
 SanitizedShortName, but with the '!xxx' sequences, as described in 
-<a href="https://docs.microsoft.com/windows/desktop/api/certcli/nf-certcli-icertconfig-getconfig">GetConfig</a>, translated back into the original text.
+<a href="/windows/desktop/api/certcli/nf-certcli-icertconfig-getconfig">GetConfig</a>, translated back into the original text.
 
 </td>
 </tr>
@@ -214,7 +214,7 @@ SanitizedShortName, but with the '!xxx' sequences, as described in
 </dl>
 </td>
 <td width="60%">
-Name of the file that contains the CA certificate (also known as the CA <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">signature certificate</a>); this may or may not be a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/r-gly">root certificate</a>.
+Name of the file that contains the CA certificate (also known as the CA <a href="/windows/desktop/SecGloss/s-gly">signature certificate</a>); this may or may not be a <a href="/windows/desktop/SecGloss/r-gly">root certificate</a>.
 
 </td>
 </tr>
@@ -244,14 +244,14 @@ An array of certificate enrollment Web service URLs for a specific CA configurat
 
 ### -param pstrOut [out, retval]
 
-A pointer to a <b>BSTR</b> that receives the data from the field. When you have finished using the <b>BSTR</b>, free <i>pbstrOut</i> by calling the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a> function.
+A pointer to a <b>BSTR</b> that receives the data from the field. When you have finished using the <b>BSTR</b>, free <i>pbstrOut</i> by calling the <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a> function.
 
 ## -returns
 
 <h3>C++</h3>
  If the method succeeds, the method returns S_OK.
 
-If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
+If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 <h3>VB</h3>
  The return value is a string that represents the data for the field.
@@ -301,9 +301,8 @@ error:
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certcli/nn-certcli-icertconfig2">CCertConfig</a>
+<a href="/windows/desktop/api/certcli/nn-certcli-icertconfig2">CCertConfig</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certcli/nn-certcli-icertconfig">ICertConfig</a>
-
+<a href="/windows/desktop/api/certcli/nn-certcli-icertconfig">ICertConfig</a>

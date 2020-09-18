@@ -54,9 +54,9 @@ api_name:
 
 The type for specifying a certificate credential that is to be
 supplied by a callback to the application.  This callback is invoked
-to get the certificate during <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsopenchannel">WsOpenChannel</a> on the client
-side and during <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsopenlistener">WsOpenListener</a> on the server side.  It is
-always invoked <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_callback_model">short</a>.
+to get the certificate during <a href="/windows/desktop/api/webservices/nf-webservices-wsopenchannel">WsOpenChannel</a> on the client
+side and during <a href="/windows/desktop/api/webservices/nf-webservices-wsopenlistener">WsOpenListener</a> on the server side.  It is
+always invoked <a href="/windows/desktop/api/webservices/ne-webservices-ws_callback_model">short</a>.
 
 ## -struct-fields
 
@@ -75,4 +75,3 @@ The state to be passed when invoking the callback.
 ### -field certIssuerListNotificationCallback
 
 ### -field certIssuerListNotificationCallbackState
-

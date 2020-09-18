@@ -62,21 +62,21 @@ Writes an event that contains a string as its data.
 ### -param RegHandle [in]
 
 Registration handle of the provider. The handle comes from 
-      <a href="https://docs.microsoft.com/windows/desktop/api/evntprov/nf-evntprov-eventregister">EventRegister</a>.
+      <a href="/windows/desktop/api/evntprov/nf-evntprov-eventregister">EventRegister</a>.
 
 ### -param Level [in]
 
 Level of detail included in the event. If the provider uses a manifest to define the event, set this value 
       to the same level defined in the manifest. If the event is not defined in a manifest, set this value to 0 to 
       ensure the event is written, otherwise, the event is written based on the level rule defined in 
-      <a href="https://docs.microsoft.com/windows/desktop/ETW/enabletraceex-func">EnableTraceEx</a>.
+      <a href="/windows/desktop/ETW/enabletraceex-func">EnableTraceEx</a>.
 
 ### -param Keyword [in]
 
 Bitmask that specifies the event category. If the provider uses a manifest to define the event, set this 
       value to the same keyword mask defined in the manifest. If the event is not defined in a manifest, set this 
       value to 0 to ensure the event is written, otherwise, the event is written based on the keyword rules defined 
-      in <a href="https://docs.microsoft.com/windows/desktop/ETW/enabletraceex-func">EnableTraceEx</a>.
+      in <a href="/windows/desktop/ETW/enabletraceex-func">EnableTraceEx</a>.
 
 ### -param String [in]
 
@@ -165,25 +165,24 @@ The real-time playback file is full. Events are not logged to the session until 
 ## -remarks
 
 The provider does not need a manifest to use this function to write the event, unlike the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/evntprov/nf-evntprov-eventwrite">EventWrite</a> function which does require a manifest. 
+    <a href="/windows/desktop/api/evntprov/nf-evntprov-eventwrite">EventWrite</a> function which does require a manifest. 
     Consumers also do not need a manifest to consume events written with this function.
 
 This function gets the acitivity identifier from the thread local storage, if set.
 
 ETW decides based on the level and keyword mask whether  the event is written to a session (for details, see 
-    <a href="https://docs.microsoft.com/windows/desktop/ETW/enabletraceex-func">EnableTraceEx</a>).
+    <a href="/windows/desktop/ETW/enabletraceex-func">EnableTraceEx</a>).
 
 This function cannot be used to write events to the Admin or Operational channels.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/ETW/enabletraceex-func">EnableTraceEx</a>
+<a href="/windows/desktop/ETW/enabletraceex-func">EnableTraceEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/evntprov/nf-evntprov-eventwrite">EventWrite</a>
+<a href="/windows/desktop/api/evntprov/nf-evntprov-eventwrite">EventWrite</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/evntprov/nf-evntprov-eventwritetransfer">EventWriteTransfer</a>
-
+<a href="/windows/desktop/api/evntprov/nf-evntprov-eventwritetransfer">EventWriteTransfer</a>

@@ -50,13 +50,12 @@ api_name:
 
 ## -description
 
-Gets the index of the topmost visible item when in list or report view. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/controls/lvm-gettopindex">LVM_GETTOPINDEX</a> message explicitly.
+Gets the index of the topmost visible item when in list or report view. You can use this macro or send the <a href="/windows/desktop/controls/lvm-gettopindex">LVM_GETTOPINDEX</a> message explicitly.
 
 ## -parameters
 
 ### -param hwndLV
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the list-view control.
-

@@ -60,7 +60,7 @@ The
 
 Index number of the partial file. The value of this parameter is an integer from 0 
       to <i>n</i>–1 inclusive, where <i>n</i> is the total number of partial files associated with a given component. The value of <i>n</i> is returned by 
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-getpartialfilecount">IVssComponent::GetPartialFileCount</a>.
+<a href="/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-getpartialfilecount">IVssComponent::GetPartialFileCount</a>.
 
 ### -param pbstrPath [out]
 
@@ -149,7 +149,7 @@ The caller is not in the correct state (either backup or restore) for the operat
 </td>
 <td width="60%">
 The XML document is not valid. Check the event log for details. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
+<a href="/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
 
 </td>
 </tr>
@@ -168,7 +168,7 @@ The specified item was not found.
 
 ## -remarks
 
-The caller should free the memory held by the <i>pbstrPath</i>, <i>pbstrFilename</i>, <i>pbstrRange</i>, and <i>pbstrMetadata</i> parameters by calling <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a>.
+The caller should free the memory held by the <i>pbstrPath</i>, <i>pbstrFilename</i>, <i>pbstrRange</i>, and <i>pbstrMetadata</i> parameters by calling <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a>.
 
 A range indicates a subsection of a given file that is to be backed up, independent of the rest of the file.
 
@@ -187,24 +187,23 @@ A ranges file must be a binary file with the following format:
 A ranges file should have been backed up along with the partial file and typically is restored to the same location that it was backed up from.
 
 However, the location to which a ranges file is restored might be altered by the requester, which uses 
-<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-setrangesfilepath">IVssBackupComponents::SetRangesFilePath</a> to indicate this and to update the Backup Components Document so that <i>pbstrRanges</i> indicates the correct ranges file.
+<a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-setrangesfilepath">IVssBackupComponents::SetRangesFilePath</a> to indicate this and to update the Backup Components Document so that <i>pbstrRanges</i> indicates the correct ranges file.
 
 A requester would use the ranges information returned by 
 <b>GetPartialFile</b> to restore the backed-up sections to the appropriate location within the copy of the file on disk at restore time.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-setrangesfilepath">IVssBackupComponents::SetRangesFilePath</a>
+<a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-setrangesfilepath">IVssBackupComponents::SetRangesFilePath</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-ivsscomponent">IVssComponent</a>
+<a href="/windows/desktop/api/vswriter/nl-vswriter-ivsscomponent">IVssComponent</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-addpartialfile">IVssComponent::AddPartialFile</a>
+<a href="/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-addpartialfile">IVssComponent::AddPartialFile</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-getpartialfilecount">IVssComponent::GetPartialFileCount</a>
-
+<a href="/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-getpartialfilecount">IVssComponent::GetPartialFileCount</a>

@@ -62,5 +62,4 @@ GUID identifying the type of script commands in a script stream. Always set to W
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/wmformat/structures">Structures</a>
-
+<a href="/windows/desktop/wmformat/structures">Structures</a>

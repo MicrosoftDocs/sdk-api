@@ -50,7 +50,7 @@ Creates a lifetime tracker associated with an application-defined callback; the 
 
 ### -param pOwner [in]
 
-Type: **[ID3D12LifetimeOwner](/windows/win32/api/d3d12/nn-d3d12-id3d12lifetimeowner)\***
+Type: **[ID3D12LifetimeOwner](./nn-d3d12-id3d12lifetimeowner.md)\***
 
 A pointer to an **ID3D12LifetimeOwner** interface representing the application-defined callback.
 
@@ -71,4 +71,3 @@ A pointer to a memory block that receives the requested interface pointer to the
 ## -remarks
 
 ## -see-also
-

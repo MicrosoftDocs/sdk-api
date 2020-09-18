@@ -50,19 +50,18 @@ api_name:
 
 ## -description
 
-Retrieves the destination <a href="https://docs.microsoft.com/windows/desktop/api/structuredquery/nn-structuredquery-ientity">IEntity</a> object of the relationship. The destination of a relationshipo corresponds to the type of a property.
+Retrieves the destination <a href="/windows/desktop/api/structuredquery/nn-structuredquery-ientity">IEntity</a> object of the relationship. The destination of a relationshipo corresponds to the type of a property.
 
 ## -parameters
 
 ### -param pDestinationEntity [out, retval]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/structuredquery/nn-structuredquery-ientity">IEntity</a>**</b>
+Type: <b><a href="/windows/desktop/api/structuredquery/nn-structuredquery-ientity">IEntity</a>**</b>
 
-Receives the address of a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/structuredquery/nn-structuredquery-ientity">IEntity</a> object, or <b>NULL</b> if the relationship is not real. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/structuredquery/nf-structuredquery-irelationship-isreal">IRelationship::IsReal</a>.
+Receives the address of a pointer to an <a href="/windows/desktop/api/structuredquery/nn-structuredquery-ientity">IEntity</a> object, or <b>NULL</b> if the relationship is not real. For more information, see <a href="/windows/desktop/api/structuredquery/nf-structuredquery-irelationship-isreal">IRelationship::IsReal</a>.
 
 ## -returns
 
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-

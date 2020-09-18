@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-The <b>SetTable</b> method  specifies which Certificate Services database table is used for subsequent calls to  the methods of the <a href="https://docs.microsoft.com/windows/desktop/api/certview/nn-certview-icertview2">ICertView2</a> interface.
+The <b>SetTable</b> method  specifies which Certificate Services database table is used for subsequent calls to  the methods of the <a href="/windows/desktop/api/certview/nn-certview-icertview2">ICertView2</a> interface.
 
 ## -parameters
 
@@ -76,7 +76,7 @@ Specifies the Certificate Services database table to use for subsequent calls. T
 </dl>
 </td>
 <td width="60%">
-The <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">attributes</a> table is used for subsequent calls.
+The <a href="/windows/desktop/SecGloss/a-gly">attributes</a> table is used for subsequent calls.
 
 </td>
 </tr>
@@ -86,7 +86,7 @@ The <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">attribut
 </dl>
 </td>
 <td width="60%">
-The <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate revocation list</a> (CRL) table is used for subsequent calls.
+The <a href="/windows/desktop/SecGloss/c-gly">certificate revocation list</a> (CRL) table is used for subsequent calls.
 
 </td>
 </tr>
@@ -117,12 +117,12 @@ The table of pending requests, denied requests, issued certificates, and revoked
 <h3>VB</h3>
  If the method succeeds, the method returns S_OK.
 
-If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
+If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 ## -remarks
 
 Before calling the <b>SetTable</b> method, it is necessary to establish a connection with a Certificate Services server by calling the 
-<a href="https://docs.microsoft.com/windows/desktop/api/certview/nf-certview-icertview-openconnection">OpenConnection</a> method first. After the <b>OpenConnection</b> and <b>SetTable</b> calls are made, subsequent calls to the <a href="https://docs.microsoft.com/windows/desktop/api/certview/nn-certview-icertview2">ICertView2</a> interface methods will use the Certificate Services database table specified by the <b>SetTable</b> method.
+<a href="/windows/desktop/api/certview/nf-certview-icertview-openconnection">OpenConnection</a> method first. After the <b>OpenConnection</b> and <b>SetTable</b> calls are made, subsequent calls to the <a href="/windows/desktop/api/certview/nn-certview-icertview2">ICertView2</a> interface methods will use the Certificate Services database table specified by the <b>SetTable</b> method.
 
 If the <b>SetTable</b> method is not called, then the default table  CVRC_TABLE_REQCERT is used.
 
@@ -141,4 +141,3 @@ if (FAILED(hr))
     exit(1);  // Or other error action.
 }
 ```
-

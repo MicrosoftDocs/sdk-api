@@ -64,11 +64,11 @@ The size, in bytes, of this data structure.
 
 ### -field hCryptProv
 
-The provider used to do the recipient key encryption and export. If <b>hCryptProv</b> is <b>NULL</b>, the provider specified in <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cmsg_enveloped_encode_info">CMSG_ENVELOPED_ENCODE_INFO</a> is used.
+The provider used to do the recipient key encryption and export. If <b>hCryptProv</b> is <b>NULL</b>, the provider specified in <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cmsg_enveloped_encode_info">CMSG_ENVELOPED_ENCODE_INFO</a> is used.
 
 ### -field pMailList
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cmsg_mail_list_recipient_info">CMSG_MAIL_LIST_RECIPIENT_INFO</a> structure.
+A pointer to a <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cmsg_mail_list_recipient_info">CMSG_MAIL_LIST_RECIPIENT_INFO</a> structure.
 
 ### -field dwRecipientIndex
 
@@ -87,4 +87,3 @@ Handle of the key encryption key. Used with <b>dwKeyChoice</b> set to CMSG_MAIL_
 ### -field DUMMYUNIONNAME.pvKeyEncryptionKey
 
 A pointer to a void. Reserved for future use.
-

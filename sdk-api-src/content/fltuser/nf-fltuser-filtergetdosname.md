@@ -98,17 +98,16 @@ Size, in wide characters, of the buffer that <i>lpDosName </i>points to.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/aa363904.aspx">DefineDosDevice</a>
+<a href="/windows/win32/api/fileapi/nf-fileapi-definedosdevicew">DefineDosDevice</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/nf-fltkernel-fltgetvolumename">FltGetVolumeName</a>
+<a href="/windows-hardware/drivers/ddi/content/fltkernel/nf-fltkernel-fltgetvolumename">FltGetVolumeName</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-ioqueryfiledosdevicename">IoQueryFileDosDeviceName</a>
+<a href="/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-ioqueryfiledosdevicename">IoQueryFileDosDeviceName</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/aa365461(VS.85).aspx">QueryDosDevice</a>
-
+<a href="/windows/win32/api/fileapi/nf-fileapi-querydosdevicew">QueryDosDevice</a>

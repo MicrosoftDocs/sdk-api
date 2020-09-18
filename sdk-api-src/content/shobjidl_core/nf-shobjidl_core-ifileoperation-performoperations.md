@@ -58,21 +58,20 @@ Executes all selected operations.
 
 Type: <b>HRESULT</b>
 
-Returns S_OK if successful, or an error value otherwise. Note that if the operation was canceled by the user, this method can still return a success code. Use the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifileoperation-getanyoperationsaborted">GetAnyOperationsAborted</a> method to determine if this was the case.
+Returns S_OK if successful, or an error value otherwise. Note that if the operation was canceled by the user, this method can still return a success code. Use the <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifileoperation-getanyoperationsaborted">GetAnyOperationsAborted</a> method to determine if this was the case.
 
 ## -remarks
 
-This method is called last to execute those actions that have been specified earlier by calling their individual methods. For instance, <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifileoperation-renameitem">RenameItem</a> does not rename the item, it simply sets the parameters. The actual renaming is done when you call <b>PerformOperations</b>.
+This method is called last to execute those actions that have been specified earlier by calling their individual methods. For instance, <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifileoperation-renameitem">RenameItem</a> does not rename the item, it simply sets the parameters. The actual renaming is done when you call <b>PerformOperations</b>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifileoperationprogresssink-finishoperations">FinishOperations</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifileoperationprogresssink-finishoperations">FinishOperations</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifileoperation">IFileOperation</a>
+<a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifileoperation">IFileOperation</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifileoperationprogresssink-startoperations">StartOperations</a>
-
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifileoperationprogresssink-startoperations">StartOperations</a>

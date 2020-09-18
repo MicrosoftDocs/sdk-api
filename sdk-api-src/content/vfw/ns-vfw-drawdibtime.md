@@ -52,21 +52,21 @@ api_name:
 
 ## -description
 
-The <b>DRAWDIBTIME</b> structure contains elapsed timing information for performing a set of DrawDib operations. The <a href="https://docs.microsoft.com/windows/desktop/api/vfw/nf-vfw-drawdibtime">DrawDibTime</a> function resets the count and the elapsed time value for each operation each time it is called.
+The <b>DRAWDIBTIME</b> structure contains elapsed timing information for performing a set of DrawDib operations. The <a href="/windows/desktop/api/vfw/nf-vfw-drawdibtime">DrawDibTime</a> function resets the count and the elapsed time value for each operation each time it is called.
 
 ## -struct-fields
 
 ### -field timeCount
 
-Number of times the following operations have been performed since <a href="https://docs.microsoft.com/windows/desktop/api/vfw/nf-vfw-drawdibtime">DrawDibTime</a> was last called:
+Number of times the following operations have been performed since <a href="/windows/desktop/api/vfw/nf-vfw-drawdibtime">DrawDibTime</a> was last called:
 
 <ul>
 <li>Draw a bitmap on the screen.</li>
 <li>Decompress a bitmap.</li>
 <li>Dither a bitmap.</li>
 <li>Stretch a bitmap.</li>
-<li>Transfer bitmap data by using the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-bitblt">BitBlt</a> function.</li>
-<li>Transfer bitmap data by using the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-setdibits">SetDIBits</a> function.</li>
+<li>Transfer bitmap data by using the <a href="/windows/desktop/api/wingdi/nf-wingdi-bitblt">BitBlt</a> function.</li>
+<li>Transfer bitmap data by using the <a href="/windows/desktop/api/wingdi/nf-wingdi-setdibits">SetDIBits</a> function.</li>
 </ul>
 
 ### -field timeDraw
@@ -87,25 +87,24 @@ Time to stretch bitmaps.
 
 ### -field timeBlt
 
-Time to transfer bitmaps by using the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-bitblt">BitBlt</a> function.
+Time to transfer bitmaps by using the <a href="/windows/desktop/api/wingdi/nf-wingdi-bitblt">BitBlt</a> function.
 
 ### -field timeSetDIBits
 
-Time to transfer bitmaps by using the <a href="https://msdn.microsoft.com/library/ms532281.aspx">SetDIBits</a> function.
+Time to transfer bitmaps by using the <a href="/previous-versions//ms532281(v=vs.85)">SetDIBits</a> function.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/drawdib">DrawDib</a>
+<a href="/windows/desktop/Multimedia/drawdib">DrawDib</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/drawdib-structures">DrawDib Structures</a>
+<a href="/windows/desktop/Multimedia/drawdib-structures">DrawDib Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vfw/nf-vfw-drawdibtime">DrawDibTime</a>
+<a href="/windows/desktop/api/vfw/nf-vfw-drawdibtime">DrawDibTime</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms532281.aspx">SetDIBits</a>
-
+<a href="/previous-versions//ms532281(v=vs.85)">SetDIBits</a>

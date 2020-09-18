@@ -51,10 +51,10 @@ api_name:
 ## -description
 
 Describes 
-    a signed large integer. It is used as an entry in a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/value-lists">value list</a> 
+    a signed large integer. It is used as an entry in a <a href="/previous-versions/windows/desktop/mscs/value-lists">value list</a> 
     and consists of:
 <ul>
-<li>A <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clusprop_value">CLUSPROP_VALUE</a> structure indicating the format 
+<li>A <a href="/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clusprop_value">CLUSPROP_VALUE</a> structure indicating the format 
      and type of the integer value.</li>
 <li>Assigned large integer value.</li>
 </ul>
@@ -67,14 +67,14 @@ Signed large integer value.
 
 ### -field CLUSPROP_VALUE
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clusprop_value">CLUSPROP_VALUE</a> structure with a  <b>cbLength</b> field indicating 
+<a href="/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clusprop_value">CLUSPROP_VALUE</a> structure with a  <b>cbLength</b> field indicating 
        the count of bytes in the <b>li</b> member.
 
 ## -remarks
 
 Use caution when referencing large integer values in <b>DWORD</b>-aligned structures such 
-     as value lists, <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/property-lists">property lists</a>, and 
-     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/parameter-blocks">parameter blocks</a>. For Windows Server for Itanium-based 
+     as value lists, <a href="/previous-versions/windows/desktop/mscs/property-lists">property lists</a>, and 
+     <a href="/previous-versions/windows/desktop/mscs/parameter-blocks">parameter blocks</a>. For Windows Server for Itanium-based 
      systems, a naturally-aligned large integer value always begins on an address ending in 0h or 8h. 
      <b>DWORD</b>-alignment can cause large values to begin on unaligned boundaries (addresses 
      ending in 4h or Ch), which will cause an alignment fault when the data is read or written. You can avoid 
@@ -83,17 +83,16 @@ Use caution when referencing large integer values in <b>DWORD</b>-aligned struct
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clusprop_syntax">CLUSPROP_SYNTAX</a>
+<a href="/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clusprop_syntax">CLUSPROP_SYNTAX</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clusprop_value">CLUSPROP_VALUE</a>
+<a href="/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clusprop_value">CLUSPROP_VALUE</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/data-structures">Data structures</a>
+<a href="/previous-versions/windows/desktop/mscs/data-structures">Data structures</a>
 
 
 
 <a href="/windows/win32/api/winnt/ns-winnt-large_integer~r1">LARGE_INTEGER</a>
-

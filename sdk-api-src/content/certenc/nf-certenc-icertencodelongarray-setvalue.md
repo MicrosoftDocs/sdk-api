@@ -54,7 +54,7 @@ api_name:
 The <b>SetValue</b> method sets a <b>Long</b> value at the specified index of the <b>Long</b> array.
 
  You must call 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenc/nf-certenc-icertencodelongarray-reset">ICertEncodeLongArray::Reset</a> before calling <b>SetValue</b> for the first time.
+<a href="/windows/desktop/api/certenc/nf-certenc-icertencodelongarray-reset">ICertEncodeLongArray::Reset</a> before calling <b>SetValue</b> for the first time.
 
 ## -parameters
 
@@ -71,17 +71,16 @@ Specifies the <b>Long</b> value to set.
 <h3>VB</h3>
  If the method succeeds, the method returns S_OK.
 
-If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
+If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenc/nn-certenc-icertencodelongarray">ICertEncodeLongArray</a>
+<a href="/windows/desktop/api/certenc/nn-certenc-icertencodelongarray">ICertEncodeLongArray</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenc/nf-certenc-icertencodelongarray-getvalue">ICertEncodeLongArray::GetValue</a>
+<a href="/windows/desktop/api/certenc/nf-certenc-icertencodelongarray-getvalue">ICertEncodeLongArray::GetValue</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenc/nf-certenc-icertencodelongarray-reset">ICertEncodeLongArray::Reset</a>
-
+<a href="/windows/desktop/api/certenc/nf-certenc-icertencodelongarray-reset">ICertEncodeLongArray::Reset</a>

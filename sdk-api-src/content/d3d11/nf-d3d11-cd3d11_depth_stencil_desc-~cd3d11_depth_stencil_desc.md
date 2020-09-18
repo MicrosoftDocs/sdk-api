@@ -51,11 +51,10 @@ api_name:
 
 ## -description
 
-Destroys an instance of a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/jj151632(v=vs.85)">CD3D11_DEPTH_STENCIL_DESC</a> structure.
+Destroys an instance of a <a href="/previous-versions/windows/desktop/legacy/jj151632(v=vs.85)">CD3D11_DEPTH_STENCIL_DESC</a> structure.
 
 ## -parameters
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/jj151632(v=vs.85)">CD3D11_DEPTH_STENCIL_DESC</a>
-
+<a href="/previous-versions/windows/desktop/legacy/jj151632(v=vs.85)">CD3D11_DEPTH_STENCIL_DESC</a>

@@ -57,7 +57,7 @@ The <b>IWMPPlugin</b> interface is implemented by the plug-in. It manages the co
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMPPlugin</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWMPPlugin</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMPPlugin</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWMPPlugin</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,7 +72,7 @@ The <b>IWMPPlugin</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmpservices/nf-wmpservices-iwmpplugin-advisewmpservices">AdviseWMPServices</a>
+<a href="/windows/desktop/api/wmpservices/nf-wmpservices-iwmpplugin-advisewmpservices">AdviseWMPServices</a>
 </td>
 <td align="left" width="63%">
 Receives a pointer to a Windows Media Player interface that contains methods that provide stream state information.
@@ -81,7 +81,7 @@ Receives a pointer to a Windows Media Player interface that contains methods tha
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmpservices/nf-wmpservices-iwmpplugin-getcaps">GetCaps</a>
+<a href="/windows/desktop/api/wmpservices/nf-wmpservices-iwmpplugin-getcaps">GetCaps</a>
 </td>
 <td align="left" width="63%">
 Sets a value that specifies whether the plug-in requires the input format and output format to be identical.
@@ -90,7 +90,7 @@ Sets a value that specifies whether the plug-in requires the input format and ou
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmpservices/nf-wmpservices-iwmpplugin-getid">GetID</a>
+<a href="/windows/desktop/api/wmpservices/nf-wmpservices-iwmpplugin-getid">GetID</a>
 </td>
 <td align="left" width="63%">
 Returns the Class ID of the plug-in.
@@ -99,7 +99,7 @@ Returns the Class ID of the plug-in.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmpservices/nf-wmpservices-iwmpplugin-init">Init</a>
+<a href="/windows/desktop/api/wmpservices/nf-wmpservices-iwmpplugin-init">Init</a>
 </td>
 <td align="left" width="63%">
 Receives a playback context identifier.
@@ -108,7 +108,7 @@ Receives a playback context identifier.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmpservices/nf-wmpservices-iwmpplugin-shutdown">Shutdown</a>
+<a href="/windows/desktop/api/wmpservices/nf-wmpservices-iwmpplugin-shutdown">Shutdown</a>
 </td>
 <td align="left" width="63%">
 Executes when Windows Media Player shuts down the plug-in.
@@ -117,7 +117,7 @@ Executes when Windows Media Player shuts down the plug-in.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmpservices/nf-wmpservices-iwmpplugin-unadvisewmpservices">UnAdviseWMPServices</a>
+<a href="/windows/desktop/api/wmpservices/nf-wmpservices-iwmpplugin-unadvisewmpservices">UnAdviseWMPServices</a>
 </td>
 <td align="left" width="63%">
 Executes when Windows Media Player releases the pointer provided in <b>AdviseWMPServices</b>.
@@ -128,5 +128,4 @@ Executes when Windows Media Player releases the pointer provided in <b>AdviseWMP
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/WMP/dsp-plug-in-interfaces">DSP Plug-in Interfaces</a>
-
+<a href="/windows/desktop/WMP/dsp-plug-in-interfaces">DSP Plug-in Interfaces</a>

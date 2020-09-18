@@ -57,5 +57,4 @@ The <b>PathGradientBrush::GetGraphicsPath</b> method is not implemented in Windo
 
 ### -param path
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/gdipluspath/nl-gdipluspath-graphicspath">GraphicsPath</a>*</b>
-
+Type: <b><a href="/windows/desktop/api/gdipluspath/nl-gdipluspath-graphicspath">GraphicsPath</a>*</b>

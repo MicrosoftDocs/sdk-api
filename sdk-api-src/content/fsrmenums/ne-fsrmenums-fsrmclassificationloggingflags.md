@@ -78,5 +78,4 @@ Logs to the System event log errors that occurred during classification.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmpipeline/nf-fsrmpipeline-ifsrmclassificationmanager-get_logging">IFsrmClassificationManager.Logging</a>
-
+<a href="/previous-versions/windows/desktop/api/fsrmpipeline/nf-fsrmpipeline-ifsrmclassificationmanager-get_logging">IFsrmClassificationManager.Logging</a>

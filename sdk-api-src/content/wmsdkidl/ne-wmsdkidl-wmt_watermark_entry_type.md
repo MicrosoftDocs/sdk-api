@@ -66,9 +66,8 @@ Identifies a watermarking DMO for video.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/wmformat/enumeration-types">Enumeration Types</a>
+<a href="/windows/desktop/wmformat/enumeration-types">Enumeration Types</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/wmformat/watermarking-support">Watermarking Support</a>
-
+<a href="/windows/desktop/wmformat/watermarking-support">Watermarking Support</a>

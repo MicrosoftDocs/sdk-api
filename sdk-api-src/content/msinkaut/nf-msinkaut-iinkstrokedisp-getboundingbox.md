@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-Retrieves the bounding box in <b>ink space</b> coordinates for either all of the strokes in an <a href="https://docs.microsoft.com/windows/desktop/tablet/inkdisp-class">InkDisp</a> object, an individual stroke, or an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)">InkStrokes</a> collection.
+Retrieves the bounding box in <b>ink space</b> coordinates for either all of the strokes in an <a href="/windows/desktop/tablet/inkdisp-class">InkDisp</a> object, an individual stroke, or an <a href="/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)">InkStrokes</a> collection.
 
 ## -parameters
 
@@ -59,13 +59,13 @@ Retrieves the bounding box in <b>ink space</b> coordinates for either all of the
 
 Optional. Specifies the stroke characteristics to use to calculate the bounding box. The default value is -1, indicating that all characteristics of a stroke are used to specify the bounding box. 
 
-For more details about the use of stroke characteristics to calculate a bounding box, see the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/ne-msinkaut-inkboundingboxmode">BoundingBoxMode</a> enumeration type.
+For more details about the use of stroke characteristics to calculate a bounding box, see the <a href="/windows/desktop/api/msinkaut/ne-msinkaut-inkboundingboxmode">BoundingBoxMode</a> enumeration type.
 
 ### -param Rectangle [out, retval]
 
-When this method returns, contains a pointer to the rectangle that defines the bounding box of an <a href="https://docs.microsoft.com/windows/desktop/tablet/inkdisp-class">InkDisp</a> object, an <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkstrokedisp">IInkStrokeDisp</a> object, or an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)">InkStrokes</a> collection.
+When this method returns, contains a pointer to the rectangle that defines the bounding box of an <a href="/windows/desktop/tablet/inkdisp-class">InkDisp</a> object, an <a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinkstrokedisp">IInkStrokeDisp</a> object, or an <a href="/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)">InkStrokes</a> collection.
 
-<div class="alert"><b>Note</b>  For an <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkstrokedisp">IInkStrokeDisp</a> object, the returned bounding box is a copy of the strokes bounding box, so altering the returned bounding box does not affect the strokes location.</div>
+<div class="alert"><b>Note</b>  For an <a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinkstrokedisp">IInkStrokeDisp</a> object, the returned bounding box is a copy of the strokes bounding box, so altering the returned bounding box does not affect the strokes location.</div>
 <div> </div>
 
 ## -returns
@@ -128,7 +128,7 @@ Unexpected parameter or property type.
 </dl>
 </td>
 <td width="60%">
-The <a href="https://docs.microsoft.com/windows/desktop/tablet/inkrectangle-class">InkRectangle</a> object is not registered.
+The <a href="/windows/desktop/tablet/inkrectangle-class">InkRectangle</a> object is not registered.
 
 </td>
 </tr>
@@ -136,7 +136,7 @@ The <a href="https://docs.microsoft.com/windows/desktop/tablet/inkrectangle-clas
 
 ## -remarks
 
-When the bounding box is affected by the pen width, then this width is scaled appropriately for the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkrenderer-class">InkRenderer</a>'s view transform. To do this, the pen width is multiplied by the square root of the determinant of the view transform.
+When the bounding box is affected by the pen width, then this width is scaled appropriately for the <a href="/windows/desktop/tablet/inkrenderer-class">InkRenderer</a>'s view transform. To do this, the pen width is multiplied by the square root of the determinant of the view transform.
 
 <div class="alert"><b>Note</b>  In Windows Vista and later versions, <b>GetBoundingBox Method</b> does not take the width of the stroke into account.</div>
 <div> </div>
@@ -145,13 +145,12 @@ When the bounding box is affected by the pen width, then this width is scaled ap
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkstrokedisp">IInkStrokeDisp Interface</a>
+<a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinkstrokedisp">IInkStrokeDisp Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/ne-msinkaut-inkboundingboxmode">InkBoundingBoxMode Enumeration</a>
+<a href="/windows/desktop/api/msinkaut/ne-msinkaut-inkboundingboxmode">InkBoundingBoxMode Enumeration</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/tablet/inkrectangle-class">InkRectangle Class</a>
-
+<a href="/windows/desktop/tablet/inkrectangle-class">InkRectangle Class</a>

@@ -56,7 +56,7 @@ The <b>EngMapFontFileFD</b> function maps a font file into system memory, if nec
 
 ### -param iFile [in]
 
-Caller-supplied pointer to a value that identifies the font file to be mapped. This pointer must have been received previously as input to <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvloadfontfile">DrvLoadFontFile</a>.
+Caller-supplied pointer to a value that identifies the font file to be mapped. This pointer must have been received previously as input to <a href="/windows/desktop/api/winddi/nf-winddi-drvloadfontfile">DrvLoadFontFile</a>.
 
 ### -param ppjBuf [out]
 
@@ -76,9 +76,8 @@ The <b>EngMapFontFileFD</b> function is provided so font drivers can map a font 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvloadfontfile">DrvLoadFontFile</a>
+<a href="/windows/desktop/api/winddi/nf-winddi-drvloadfontfile">DrvLoadFontFile</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engunmapfontfilefd">EngUnmapFontFileFD</a>
-
+<a href="/windows/desktop/api/winddi/nf-winddi-engunmapfontfilefd">EngUnmapFontFileFD</a>

@@ -70,5 +70,4 @@ Defines values for the type of mouse buttons.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/rdp/windows-desktop-sharing-enumerations">Windows Desktop Sharing Enumerations</a>
-
+<a href="/previous-versions/windows/desktop/rdp/windows-desktop-sharing-enumerations">Windows Desktop Sharing Enumerations</a>

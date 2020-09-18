@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>capSetScrollPos</b> macro defines the portion of the video frame to display in the capture window. This message sets the upper left corner of the client area of the capture window to the coordinates of a specified pixel within the video frame. You can use this macro or explicitly call the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/wm-cap-set-scroll">WM_CAP_SET_SCROLL</a> message.
+The <b>capSetScrollPos</b> macro defines the portion of the video frame to display in the capture window. This message sets the upper left corner of the client area of the capture window to the coordinates of a specified pixel within the video frame. You can use this macro or explicitly call the <a href="/windows/desktop/Multimedia/wm-cap-set-scroll">WM_CAP_SET_SCROLL</a> message.
 
 ## -parameters
 
@@ -68,9 +68,8 @@ The scroll position affects the image in both preview and overlay modes.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-capture">Video Capture</a>
+<a href="/windows/desktop/Multimedia/video-capture">Video Capture</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-capture-macros">Video Capture Macros</a>
-
+<a href="/windows/desktop/Multimedia/video-capture-macros">Video Capture Macros</a>

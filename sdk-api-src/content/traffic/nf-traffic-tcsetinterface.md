@@ -58,12 +58,12 @@ The
 ### -param IfcHandle [in]
 
 Handle associated with the interface to be set. This handle is obtained by a previous call to the 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/traffic/nf-traffic-tcopeninterfacea">TcOpenInterface</a> function.
+<a href="/previous-versions/windows/desktop/api/traffic/nf-traffic-tcopeninterfacea">TcOpenInterface</a> function.
 
 ### -param pGuidParam [in]
 
 Pointer to the globally unique identifier (GUID) that corresponds to the parameter to be set. A list of available GUIDs can be found in 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/qos/guid">GUID</a>.
+<a href="/previous-versions/windows/desktop/qos/guid">GUID</a>.
 
 ### -param BufferSize [in]
 
@@ -152,14 +152,13 @@ The device did not register for this GUID.
 
 <div class="alert"><b>Note</b>  Use of the 
 <b>TcSetInterface</b> function requires administrative privilege. The list of GUIDs that can be set is explained in 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/qos/guid">GUID</a>.</div>
+<a href="/previous-versions/windows/desktop/qos/guid">GUID</a>.</div>
 <div> </div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/qos/guid">GUID</a>
+<a href="/previous-versions/windows/desktop/qos/guid">GUID</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/traffic/nf-traffic-tcopeninterfacea">TcOpenInterface</a>
-
+<a href="/previous-versions/windows/desktop/api/traffic/nf-traffic-tcopeninterfacea">TcOpenInterface</a>

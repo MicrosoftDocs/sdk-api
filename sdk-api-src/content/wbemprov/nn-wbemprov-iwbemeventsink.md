@@ -52,11 +52,11 @@ api_name:
 
 The 
 <b>IWbemEventSink</b> interface initiates communication with an event provider using a restricted set of queries. This interface extends 
-<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/iwbemobjectsink">IWbemObjectSink</a>, providing new methods dealing with security and performance. For more information about using this interface, see <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/writing-an-event-provider">Writing an Event Provider</a> and <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/securing-wmi-events">Securing WMI Events</a>.
+<a href="/windows/desktop/WmiSdk/iwbemobjectsink">IWbemObjectSink</a>, providing new methods dealing with security and performance. For more information about using this interface, see <a href="/windows/desktop/WmiSdk/writing-an-event-provider">Writing an Event Provider</a> and <a href="/windows/desktop/WmiSdk/securing-wmi-events">Securing WMI Events</a>.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWbemEventSink</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWbemEventSink</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWbemEventSink</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWbemEventSink</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>IWbemEventSink</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemprov/nf-wbemprov-iwbemeventsink-getrestrictedsink">GetRestrictedSink</a>
+<a href="/windows/desktop/api/wbemprov/nf-wbemprov-iwbemeventsink-getrestrictedsink">GetRestrictedSink</a>
 </td>
 <td align="left" width="63%">
 Called by the consumer to set up restricted event queries.
@@ -80,7 +80,7 @@ Called by the consumer to set up restricted event queries.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemprov/nf-wbemprov-iwbemeventsink-isactive">IsActive</a>
+<a href="/windows/desktop/api/wbemprov/nf-wbemprov-iwbemeventsink-isactive">IsActive</a>
 </td>
 <td align="left" width="63%">
 Checks status of event sink.
@@ -89,7 +89,7 @@ Checks status of event sink.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemprov/nf-wbemprov-iwbemeventsink-setbatchingparameters">SetBatchingParameters</a>
+<a href="/windows/desktop/api/wbemprov/nf-wbemprov-iwbemeventsink-setbatchingparameters">SetBatchingParameters</a>
 </td>
 <td align="left" width="63%">
 Called by the consumer to set batching parameters.
@@ -98,7 +98,7 @@ Called by the consumer to set batching parameters.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemprov/nf-wbemprov-iwbemeventsink-setsinksecurity">SetSinkSecurity</a>
+<a href="/windows/desktop/api/wbemprov/nf-wbemprov-iwbemeventsink-setsinksecurity">SetSinkSecurity</a>
 </td>
 <td align="left" width="63%">
 Used to update the security descriptor on an event sink.
@@ -109,11 +109,10 @@ Used to update the security descriptor on an event sink.
 
 ## -remarks
 
-When implementing an event subscription sink (<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/iwbemobjectsink">IWbemObjectSink</a> or <b>IWbemEventSink</b>), do  not call into WMI from within the  methods on the sink object.  For example, calling <a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemservices-cancelasynccall">IWbemServices::CancelAsyncCall</a> to cancel the sink  from within an implementation of <a href="https://docs.microsoft.com/windows/desktop/api/wbemprov/nf-wbemprov-iwbemeventsink-setsinksecurity">IWbemEventSink::SetSinkSecurity</a> can interfere with the WMI state. To cancel an event subscription, set a flag and call <b>IWbemServices::CancelAsyncCall</b> from another thread or object. For implementations that are not related to an event sink, such as object, enum, and query retrievals, you can call back into WMI.
+When implementing an event subscription sink (<a href="/windows/desktop/WmiSdk/iwbemobjectsink">IWbemObjectSink</a> or <b>IWbemEventSink</b>), do  not call into WMI from within the  methods on the sink object.  For example, calling <a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemservices-cancelasynccall">IWbemServices::CancelAsyncCall</a> to cancel the sink  from within an implementation of <a href="/windows/desktop/api/wbemprov/nf-wbemprov-iwbemeventsink-setsinksecurity">IWbemEventSink::SetSinkSecurity</a> can interfere with the WMI state. To cancel an event subscription, set a flag and call <b>IWbemServices::CancelAsyncCall</b> from another thread or object. For implementations that are not related to an event sink, such as object, enum, and query retrievals, you can call back into WMI.
 
 Sink implementations should process the event notification within 100 MSEC because the WMI thread that delivers the event notification cannot do other work until the sink object has completed processing. If the notification requires a large amount of processing, the sink can use an internal queue for another thread to handle the processing.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/com-api-for-wmi">COM API for WMI</a>
-
+<a href="/windows/desktop/WmiSdk/com-api-for-wmi">COM API for WMI</a>

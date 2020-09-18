@@ -56,7 +56,7 @@ Provides a hint to the implementation about the pattern in which records will be
 
 ### -param policy [in]
 
-The pattern in which records will most often be read. For more information, see the <a href="https://docs.microsoft.com/windows/desktop/api/txlogpub/ne-txlogpub-record_reading_policy">RECORD_READING_POLICY</a> enumeration.
+The pattern in which records will most often be read. For more information, see the <a href="/windows/desktop/api/txlogpub/ne-txlogpub-record_reading_policy">RECORD_READING_POLICY</a> enumeration.
 
 ## -returns
 
@@ -64,13 +64,12 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -remarks
 
-Not all implementations of <a href="https://docs.microsoft.com/windows/desktop/api/txlogpub/nn-txlogpub-ilog">ILog</a> will be optimized for reading records in a particular pattern. An implementation may choose to ignore this request and return S_OK.
+Not all implementations of <a href="/windows/desktop/api/txlogpub/nn-txlogpub-ilog">ILog</a> will be optimized for reading records in a particular pattern. An implementation may choose to ignore this request and return S_OK.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/txlogpub/nn-txlogpub-ilog">ILog</a>
+<a href="/windows/desktop/api/txlogpub/nn-txlogpub-ilog">ILog</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/txlogpub/ne-txlogpub-record_reading_policy">RECORD_READING_POLICY</a>
-
+<a href="/windows/desktop/api/txlogpub/ne-txlogpub-record_reading_policy">RECORD_READING_POLICY</a>

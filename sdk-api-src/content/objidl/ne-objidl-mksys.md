@@ -98,5 +98,4 @@ Indicates the system's elevation moniker class.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-imoniker-issystemmoniker">IMoniker::IsSystemMoniker</a>
-
+<a href="/windows/desktop/api/objidl/nf-objidl-imoniker-issystemmoniker">IMoniker::IsSystemMoniker</a>

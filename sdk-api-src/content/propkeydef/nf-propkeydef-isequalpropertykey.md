@@ -50,17 +50,17 @@ api_name:
 
 ## -description
 
-Compares the members of two <a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ns-wtypes-propertykey">PROPERTYKEY</a> structures and returns whether they are equal.
+Compares the members of two <a href="/windows/desktop/api/wtypes/ns-wtypes-propertykey">PROPERTYKEY</a> structures and returns whether they are equal.
 
 ## -parameters
 
 ### -param a
 
-The first <a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ns-wtypes-propertykey">PROPERTYKEY</a>.
+The first <a href="/windows/desktop/api/wtypes/ns-wtypes-propertykey">PROPERTYKEY</a>.
 
 ### -param b
 
-The second <a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ns-wtypes-propertykey">PROPERTYKEY</a>.
+The second <a href="/windows/desktop/api/wtypes/ns-wtypes-propertykey">PROPERTYKEY</a>.
 
 ## -remarks
 
@@ -71,4 +71,3 @@ The <b>IsEqualPropertyKey</b> macro is defined as follows.
 ```
 #define IsEqualPropertyKey(a, b)   (((a).pid == (b).pid) && IsEqualIID((a).fmtid, (b).fmtid) )
 ```
-

@@ -54,13 +54,13 @@ api_name:
 
 ## -description
 
- The <b>EAP_CONFIG_INPUT_FIELD_ARRAY</b> structure contains a set of <a href="https://docs.microsoft.com/windows/desktop/api/eaptypes/ns-eaptypes-eap_config_input_field_data">EAP_CONFIG_INPUT_FIELD_DATA</a>   structures that collectively contain the user input field data obtained from the user.
+ The <b>EAP_CONFIG_INPUT_FIELD_ARRAY</b> structure contains a set of <a href="/windows/desktop/api/eaptypes/ns-eaptypes-eap_config_input_field_data">EAP_CONFIG_INPUT_FIELD_DATA</a>   structures that collectively contain the user input field data obtained from the user.
 
 ## -struct-fields
 
 ### -field dwVersion
 
-The version of the <a href="https://docs.microsoft.com/windows/desktop/api/eaptypes/ns-eaptypes-eap_config_input_field_data">EAP_CONFIG_INPUT_FIELD_DATA</a>   structures pointed to by  <b>pFields</b>.
+The version of the <a href="/windows/desktop/api/eaptypes/ns-eaptypes-eap_config_input_field_data">EAP_CONFIG_INPUT_FIELD_DATA</a>   structures pointed to by  <b>pFields</b>.
 
 <table>
 <tr>
@@ -90,7 +90,7 @@ The version of the EAP credentials supplied by the user.
 
 ### -field pFields
 
-Pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/eaptypes/ns-eaptypes-eap_config_input_field_data">EAP_CONFIG_INPUT_FIELD_DATA</a> structures that contain specific user input data obtained from an EAP configuration dialog box.
+Pointer to an array of <a href="/windows/desktop/api/eaptypes/ns-eaptypes-eap_config_input_field_data">EAP_CONFIG_INPUT_FIELD_DATA</a> structures that contain specific user input data obtained from an EAP configuration dialog box.
 
 
 #### - dwSize
@@ -103,9 +103,8 @@ The <b>EAP_CONFIG_INPUT_FIELD_ARRAY</b> structure can be employed to support Sin
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/eaptypes/ns-eaptypes-eap_config_input_field_data">EAP_CONFIG_INPUT_FIELD_DATA</a>
+<a href="/windows/desktop/api/eaptypes/ns-eaptypes-eap_config_input_field_data">EAP_CONFIG_INPUT_FIELD_DATA</a>
 
 
 
 [SSO and PLAP](/windows/win32/eaphost/understanding-sso-and-plap)
-

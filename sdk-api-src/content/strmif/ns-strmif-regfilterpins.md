@@ -88,19 +88,18 @@ Number of media types supported by this pin.
 
 ### -field lpMediaType
 
-Pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-regpintypes">REGPINTYPES</a> structures, of size <b>nMediaTypes</b>.
+Pointer to an array of <a href="/windows/desktop/api/strmif/ns-strmif-regpintypes">REGPINTYPES</a> structures, of size <b>nMediaTypes</b>.
 
 ## -remarks
 
-This structure is used in the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ifiltermapper2">IFilterMapper2</a> interface for filter registration. If you use this structure, set the <b>dwVersion</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-regfilter2">REGFILTER2</a> structure to 1. If you need to register a medium or pin category for the pin, use the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-regfilterpins2">REGFILTERPINS2</a> structure instead. In that case, set the <b>REGFILTER2</b> structure's <b>dwVersion</b> member to 2.
+This structure is used in the <a href="/windows/desktop/api/strmif/nn-strmif-ifiltermapper2">IFilterMapper2</a> interface for filter registration. If you use this structure, set the <b>dwVersion</b> member of the <a href="/windows/desktop/api/strmif/ns-strmif-regfilter2">REGFILTER2</a> structure to 1. If you need to register a medium or pin category for the pin, use the <a href="/windows/desktop/api/strmif/ns-strmif-regfilterpins2">REGFILTERPINS2</a> structure instead. In that case, set the <b>REGFILTER2</b> structure's <b>dwVersion</b> member to 2.
 
-The equivalent <b>AMOVIESETUP_PIN</b> type is used in class factory templates (<a href="https://docs.microsoft.com/windows/desktop/DirectShow/cfactorytemplate">CFactoryTemplate</a>).
+The equivalent <b>AMOVIESETUP_PIN</b> type is used in class factory templates (<a href="/windows/desktop/DirectShow/cfactorytemplate">CFactoryTemplate</a>).
 
 The <b>strName</b>, <b>clsConnectsToFilter</b>, and <b>strConnectsToPin</b> members are obsolete. Their values are not added to the registry.
 
-For more information, see <a href="https://docs.microsoft.com/windows/desktop/DirectShow/how-to-register-directshow-filters">How to Register DirectShow Filters</a>.
+For more information, see <a href="/windows/desktop/DirectShow/how-to-register-directshow-filters">How to Register DirectShow Filters</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/directshow-structures">DirectShow Structures</a>
-
+<a href="/windows/desktop/DirectShow/directshow-structures">DirectShow Structures</a>

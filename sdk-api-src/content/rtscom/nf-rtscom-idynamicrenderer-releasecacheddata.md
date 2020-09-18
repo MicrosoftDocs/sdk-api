@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Releases specified stroke data from the temporal data held by <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms701168(v=vs.85)">DynamicRenderer Class</a>.
+Releases specified stroke data from the temporal data held by <a href="/previous-versions/windows/desktop/legacy/ms701168(v=vs.85)">DynamicRenderer Class</a>.
 
 ## -parameters
 
@@ -60,28 +60,27 @@ The identifier for the stroke.
 
 ## -returns
 
-For a description of the return values, see <a href="https://docs.microsoft.com/windows/desktop/tablet/realtimestylus-classes-and-interfaces">RealTimeStylus Classes and Interfaces</a>.
+For a description of the return values, see <a href="/windows/desktop/tablet/realtimestylus-classes-and-interfaces">RealTimeStylus Classes and Interfaces</a>.
 
 ## -remarks
 
-This method is used only when the <a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nf-rtscom-idynamicrenderer-get_datacacheenabled">IDynamicRenderer::DataCacheEnabled Property</a> property is set to <b>true</b>.
+This method is used only when the <a href="/windows/desktop/api/rtscom/nf-rtscom-idynamicrenderer-get_datacacheenabled">IDynamicRenderer::DataCacheEnabled Property</a> property is set to <b>true</b>.
 
-The <b>IDynamicRenderer::ReleaseCachedData Method</b> method enables you to release the specified stroke data from the temporal data held by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms701168(v=vs.85)">DynamicRenderer Class</a> object.
+The <b>IDynamicRenderer::ReleaseCachedData Method</b> method enables you to release the specified stroke data from the temporal data held by the <a href="/previous-versions/windows/desktop/legacy/ms701168(v=vs.85)">DynamicRenderer Class</a> object.
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms701168(v=vs.85)">DynamicRenderer Class</a> strokes can be placed in a cache, so they can be redrawn by calling the <a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nf-rtscom-idynamicrenderer-refresh">IDynamicRenderer::Refresh Method</a> method. After the strokes are collected, release them from the cache by calling the <b>IDynamicRenderer::ReleaseCachedData Method</b> method. Generally, the release occurs in the <a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nf-rtscom-istylusplugin-customstylusdataadded">IStylusPlugin::CustomStylusDataAdded Method</a> method.
+<a href="/previous-versions/windows/desktop/legacy/ms701168(v=vs.85)">DynamicRenderer Class</a> strokes can be placed in a cache, so they can be redrawn by calling the <a href="/windows/desktop/api/rtscom/nf-rtscom-idynamicrenderer-refresh">IDynamicRenderer::Refresh Method</a> method. After the strokes are collected, release them from the cache by calling the <b>IDynamicRenderer::ReleaseCachedData Method</b> method. Generally, the release occurs in the <a href="/windows/desktop/api/rtscom/nf-rtscom-istylusplugin-customstylusdataadded">IStylusPlugin::CustomStylusDataAdded Method</a> method.
 
 <i>strokeId</i> cannot accept a value of less than zero.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nf-rtscom-idynamicrenderer-draw">Draw Method</a>
+<a href="/windows/desktop/api/rtscom/nf-rtscom-idynamicrenderer-draw">Draw Method</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms701168(v=vs.85)">DynamicRenderer Class</a>
+<a href="/previous-versions/windows/desktop/legacy/ms701168(v=vs.85)">DynamicRenderer Class</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nn-rtscom-idynamicrenderer">IDynamicRenderer Interface</a>
-
+<a href="/windows/desktop/api/rtscom/nn-rtscom-idynamicrenderer">IDynamicRenderer Interface</a>

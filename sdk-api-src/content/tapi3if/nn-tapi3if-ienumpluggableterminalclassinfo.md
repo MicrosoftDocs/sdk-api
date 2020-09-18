@@ -52,8 +52,8 @@ api_name:
 
 The 
 <b>IEnumPluggableTerminalClassInfo</b> interface provides COM-standard enumeration methods for the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itpluggableterminalclassinfo">ITPluggableTerminalClassInfo</a> interface. The 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itterminalsupport2-enumeratepluggableterminalclasses">ITTerminalSupport2::EnumeratePluggableTerminalClasses</a> method returns a pointer to 
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itpluggableterminalclassinfo">ITPluggableTerminalClassInfo</a> interface. The 
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itterminalsupport2-enumeratepluggableterminalclasses">ITTerminalSupport2::EnumeratePluggableTerminalClasses</a> method returns a pointer to 
 <b>IEnumPluggableTerminalClassInfo</b>.
 
 The 
@@ -61,7 +61,7 @@ The
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumPluggableTerminalClassInfo</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEnumPluggableTerminalClassInfo</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumPluggableTerminalClassInfo</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEnumPluggableTerminalClassInfo</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -76,7 +76,7 @@ The <b>IEnumPluggableTerminalClassInfo</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-ienumpluggableterminalclassinfo-clone">Clone</a>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-ienumpluggableterminalclassinfo-clone">Clone</a>
 </td>
 <td align="left" width="63%">
 Creates another enumerator that contains the same enumeration state as the current one.
@@ -85,7 +85,7 @@ Creates another enumerator that contains the same enumeration state as the curre
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-ienumpluggableterminalclassinfo-next">Next</a>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-ienumpluggableterminalclassinfo-next">Next</a>
 </td>
 <td align="left" width="63%">
 Gets the next specified number of elements in the enumeration sequence.
@@ -94,7 +94,7 @@ Gets the next specified number of elements in the enumeration sequence.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-ienumpluggableterminalclassinfo-reset">Reset</a>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-ienumpluggableterminalclassinfo-reset">Reset</a>
 </td>
 <td align="left" width="63%">
 Resets the enumeration sequence to the beginning.
@@ -103,7 +103,7 @@ Resets the enumeration sequence to the beginning.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-ienumpluggableterminalclassinfo-skip">Skip</a>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-ienumpluggableterminalclassinfo-skip">Skip</a>
 </td>
 <td align="left" width="63%">
 Skips over the next specified number of elements in the enumeration sequence.
@@ -114,13 +114,12 @@ Skips over the next specified number of elements in the enumeration sequence.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itpluggableterminalclassinfo">ITPluggableTerminalClassInfo</a>
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itpluggableterminalclassinfo">ITPluggableTerminalClassInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itterminalsupport2-enumeratepluggableterminalclasses">ITTerminalSupport2::EnumeratePluggableTerminalClasses</a>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itterminalsupport2-enumeratepluggableterminalclasses">ITTerminalSupport2::EnumeratePluggableTerminalClasses</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/terminal-class">Terminal Class</a>
-
+<a href="/windows/desktop/Tapi/terminal-class">Terminal Class</a>

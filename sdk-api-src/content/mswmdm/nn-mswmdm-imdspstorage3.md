@@ -50,11 +50,11 @@ api_name:
 
 ## -description
 
-The <b>IMDSPStorage3</b> interface extends <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-imdspstorage2">IMDSPStorage2</a> by supporting metadata. This interface is optional. Service providers must implement this interface only if they are going to support metadata. If the device parameter <i>UseMetadataViews</i> is set to 1, this interface must be implemented and the <b>GetMetadata</b> method becomes mandatory, although <b>SetMetadata</b> is still optional. For more information, see <a href="https://docs.microsoft.com/windows/desktop/WMDM/device-parameters">Device Parameters</a>.
+The <b>IMDSPStorage3</b> interface extends <a href="/windows/desktop/api/mswmdm/nn-mswmdm-imdspstorage2">IMDSPStorage2</a> by supporting metadata. This interface is optional. Service providers must implement this interface only if they are going to support metadata. If the device parameter <i>UseMetadataViews</i> is set to 1, this interface must be implemented and the <b>GetMetadata</b> method becomes mandatory, although <b>SetMetadata</b> is still optional. For more information, see <a href="/windows/desktop/WMDM/device-parameters">Device Parameters</a>.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMDSPStorage3</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-imdspstorage2">IMDSPStorage2</a>. <b>IMDSPStorage3</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMDSPStorage3</b> interface inherits from <a href="/windows/desktop/api/mswmdm/nn-mswmdm-imdspstorage2">IMDSPStorage2</a>. <b>IMDSPStorage3</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IMDSPStorage3</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-imdspstorage3-getmetadata">GetMetadata</a>
+<a href="/windows/desktop/api/mswmdm/nf-mswmdm-imdspstorage3-getmetadata">GetMetadata</a>
 </td>
 <td align="left" width="63%">
 Retrieves metadata from the service provider.
@@ -78,7 +78,7 @@ Retrieves metadata from the service provider.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-imdspstorage3-setmetadata">SetMetadata</a>
+<a href="/windows/desktop/api/mswmdm/nf-mswmdm-imdspstorage3-setmetadata">SetMetadata</a>
 </td>
 <td align="left" width="63%">
 Provides the metadata associated with a specified content.
@@ -89,17 +89,16 @@ Provides the metadata associated with a specified content.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-imdspstorage">IMDSPStorage Interface</a>
+<a href="/windows/desktop/api/mswmdm/nn-mswmdm-imdspstorage">IMDSPStorage Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-imdspstorage2">IMDSPStorage2 Interface</a>
+<a href="/windows/desktop/api/mswmdm/nn-mswmdm-imdspstorage2">IMDSPStorage2 Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-imdspstorage4">IMDSPStorage4 Interface</a>
+<a href="/windows/desktop/api/mswmdm/nn-mswmdm-imdspstorage4">IMDSPStorage4 Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WMDM/interfaces-for-service-providers">Interfaces for Service Providers</a>
-
+<a href="/windows/desktop/WMDM/interfaces-for-service-providers">Interfaces for Service Providers</a>

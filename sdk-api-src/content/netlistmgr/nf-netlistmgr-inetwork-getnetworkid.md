@@ -70,5 +70,4 @@ Calling  <b>GetNetworkId</b> will return S_OK even if the network requested has 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/netlistmgr/nn-netlistmgr-inetwork">INetwork</a>
-
+<a href="/windows/desktop/api/netlistmgr/nn-netlistmgr-inetwork">INetwork</a>

@@ -66,7 +66,7 @@ A handle to the process. This handle must have the <b>PROCESS_SET_INFORMATION</b
 
 ### -param ProcessInformationClass [in]
 
-A member of the [PROCESS_INFORMATION_CLASS](/windows/win32/api/processthreadsapi/ne-processthreadsapi-process_information_class) enumeration specifying the kind of information to retrieve.
+A member of the [PROCESS_INFORMATION_CLASS](./ne-processthreadsapi-process_information_class.md) enumeration specifying the kind of information to retrieve.
 
 ### -param ProcessInformation
 
@@ -83,7 +83,7 @@ If the <i>ProcessInformationClass</i> parameter is
 
 If the <i>ProcessInformationClass</i> parameter is 
        <b>ProcessProtectionLevelInfo</b>, this parameter must point to a 
-       <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/ns-processthreadsapi-process_protection_level_information">PROCESS_PROTECTION_LEVEL_INFORMATION</a> structure.
+       <a href="/windows/desktop/api/processthreadsapi/ns-processthreadsapi-process_protection_level_information">PROCESS_PROTECTION_LEVEL_INFORMATION</a> structure.
 
 If the <i>ProcessInformationClass</i> parameter is 
        <b>ProcessLeapSecondInfo</b>, this parameter must point to a 
@@ -122,11 +122,11 @@ If the <i>ProcessInformationClass</i> parameter is
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-      <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+      <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-getthreadinformation">GetThreadInformation</a>
+<a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-getthreadinformation">GetThreadInformation</a>
 
 
 
@@ -134,9 +134,8 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/mt767996(v=vs.85)">PROCESS_INFORMATION_CLASS</a>
+<a href="/previous-versions/mt767996(v=vs.85)">PROCESS_INFORMATION_CLASS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-setprocessinformation">SetProcessInformation</a>
-
+<a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-setprocessinformation">SetProcessInformation</a>

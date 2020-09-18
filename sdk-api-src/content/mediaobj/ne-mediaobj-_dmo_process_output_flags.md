@@ -60,9 +60,8 @@ Discard the output when the pointer to the output buffer is <b>NULL</b>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/dmo-enumerated-types">DMO Enumerated Types</a>
+<a href="/windows/desktop/DirectShow/dmo-enumerated-types">DMO Enumerated Types</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mediaobj/nf-mediaobj-imediaobject-processoutput">IMediaObject::ProcessOutput</a>
-
+<a href="/windows/desktop/api/mediaobj/nf-mediaobj-imediaobject-processoutput">IMediaObject::ProcessOutput</a>

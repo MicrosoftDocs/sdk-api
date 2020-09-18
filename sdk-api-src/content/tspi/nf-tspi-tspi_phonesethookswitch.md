@@ -66,42 +66,41 @@ The handle to the phone containing the hookswitch devices whose modes are to be 
 ### -param dwHookSwitchDevs
 
 The device(s) whose hookswitch mode is to be set. This parameter uses one of the 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/phonehookswitchdev--constants">PHONEHOOKSWITCHDEV_ constants</a>.
+<a href="/windows/desktop/Tapi/phonehookswitchdev--constants">PHONEHOOKSWITCHDEV_ constants</a>.
 
 ### -param dwHookSwitchMode
 
 The hookswitch mode to set. This parameter can have only one of the 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/phonehookswitchmode--constants">PHONEHOOKSWITCHMODE_ constants</a>.
+<a href="/windows/desktop/Tapi/phonehookswitchmode--constants">PHONEHOOKSWITCHMODE_ constants</a>.
 
 ## -returns
 
 Returns <i>dwRequestID</i> or an error number if an error occurs. The <i>lResult</i> actual parameter of the corresponding 
-<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nc-tspi-async_completion">ASYNC_COMPLETION</a> is zero if the function succeeds or it is an error number if an error occurs. Possible return values are as follows:
+<a href="/windows/desktop/api/tspi/nc-tspi-async_completion">ASYNC_COMPLETION</a> is zero if the function succeeds or it is an error number if an error occurs. Possible return values are as follows:
 
 PHONEERR_INVALPHONEHANDLE, PHONEERR_NOMEM, PHONEERR_INVALHOOKSWITCHDEV, PHONEERR_RESOURCEUNAVAIL, PHONEERR_INVALHOOKSWITCHMODE, PHONEERR_OPERATIONFAILED, PHONEERR_INVALPHONESTATE, PHONEERR_OPERATIONUNAVAIL.
 
 ## -remarks
 
 The hookswitch mode is changed to the indicated setting for all devices specified. If different settings are desired, this function can be invoked multiple times with a different set of parameters. A 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms725262(v=vs.85)">PHONE_STATE</a> message is sent to the application after the hookswitch state has changed.
+<a href="/previous-versions/windows/desktop/legacy/ms725262(v=vs.85)">PHONE_STATE</a> message is sent to the application after the hookswitch state has changed.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/phonehookswitchdev--constants">PHONEHOOKSWITCHDEV_ Constants</a>
+<a href="/windows/desktop/Tapi/phonehookswitchdev--constants">PHONEHOOKSWITCHDEV_ Constants</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/phonehookswitchmode--constants">PHONEHOOKSWITCHMODE_ Constants</a>
+<a href="/windows/desktop/Tapi/phonehookswitchmode--constants">PHONEHOOKSWITCHMODE_ Constants</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-phonestatus">PHONESTATUS</a>
+<a href="/windows/desktop/api/tapi/ns-tapi-phonestatus">PHONESTATUS</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms725262(v=vs.85)">PHONE_STATE</a>
+<a href="/previous-versions/windows/desktop/legacy/ms725262(v=vs.85)">PHONE_STATE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_phonegethookswitch">TSPI_phoneGetHookSwitch</a>
-
+<a href="/windows/desktop/api/tspi/nf-tspi-tspi_phonegethookswitch">TSPI_phoneGetHookSwitch</a>

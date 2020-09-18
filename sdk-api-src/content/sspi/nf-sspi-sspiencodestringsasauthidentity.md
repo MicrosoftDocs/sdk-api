@@ -64,17 +64,16 @@ The domain name associated with the identity to encode.
 
 ### -param pszPackedCredentialsString [in]
 
-An encoded string version of a <a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-sec_winnt_auth_identity_ex2">SEC_WINNT_AUTH_IDENTITY_EX2</a> structure that specifies the user's credentials.
+An encoded string version of a <a href="/windows/desktop/api/sspi/ns-sspi-sec_winnt_auth_identity_ex2">SEC_WINNT_AUTH_IDENTITY_EX2</a> structure that specifies the user's credentials.
 
 ### -param ppAuthIdentity [out]
 
 A pointer to the encoded identity structure.
 
-When you have finished using this structure, free it by calling the <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-sspifreeauthidentity">SspiFreeAuthIdentity</a> function.
+When you have finished using this structure, free it by calling the <a href="/windows/desktop/api/sspi/nf-sspi-sspifreeauthidentity">SspiFreeAuthIdentity</a> function.
 
 ## -returns
 
 If the function succeeds, it returns <b>SEC_E_OK</b>.
 
 If the function fails, it returns a nonzero error code.
-

@@ -91,7 +91,7 @@ If the <b>SL_BRT_DATA</b> value  is set, setting <b>SL_BRT_COMMIT</b> puts the c
 
 ### -param eDataType [in]
 
-A pointer to a value of the <a href="https://docs.microsoft.com/windows/desktop/api/slpublic/ne-slpublic-sldatatype">SLDATATYPE</a> enumeration that specifies the type of data in the <i>pbValue</i> buffer.
+A pointer to a value of the <a href="/windows/desktop/api/slpublic/ne-slpublic-sldatatype">SLDATATYPE</a> enumeration that specifies the type of data in the <i>pbValue</i> buffer.
 
 ### -param cbValue [in, optional]
 
@@ -103,13 +103,13 @@ A pointer to an array of <b>BYTE</b> values that specify the value associated wi
 
 Some name-value pairs allow this parameter to be <b>NULL</b>. In this case, the existing value of the name-value pair is deleted.
 
-When you have finished using this array, free it by calling the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localfree">LocalFree</a> function.
+When you have finished using this array, free it by calling the <a href="/windows/desktop/api/winbase/nf-winbase-localfree">LocalFree</a> function.
 
 ## -returns
 
  If the method succeeds, it returns <b>S_OK</b>.
 
-If the method fails, it returns an error code. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
+If the method fails, it returns an error code. For a list of common error codes, see <a href="/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 This function can return the following values defined in Winerror.h and Slerror.h.
 
@@ -191,4 +191,3 @@ The name specified by the <i>pwszValueName</i> parameter is not supported.
 </td>
 </tr>
 </table>
-

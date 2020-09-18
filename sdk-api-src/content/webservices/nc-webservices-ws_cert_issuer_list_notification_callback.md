@@ -56,8 +56,8 @@ the server may optionally send such an issuer list to help the client
 choose a certificate.
             
 
-This callback is an optional part of the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_custom_cert_credential">WS_CUSTOM_CERT_CREDENTIAL</a>.  
-If the (possibly <b>NULL</b>) certificate returned by the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nc-webservices-ws_get_cert_callback">WS_GET_CERT_CALLBACK</a> is
+This callback is an optional part of the <a href="/windows/desktop/api/webservices/ns-webservices-ws_custom_cert_credential">WS_CUSTOM_CERT_CREDENTIAL</a>.  
+If the (possibly <b>NULL</b>) certificate returned by the <a href="/windows/desktop/api/webservices/nc-webservices-ws_get_cert_callback">WS_GET_CERT_CALLBACK</a> is
 accepted by the server, then this callback is never invoked.  If the
 server rejects it and sends back an issuer list, then this callback
 will be invoked.  The client may then choose a certificate based on
@@ -72,7 +72,7 @@ duration of the callback.
 
 ### -param *certIssuerListNotificationCallbackState [in]
 
-State that was specified along with this callback in the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_custom_cert_credential">WS_CUSTOM_CERT_CREDENTIAL</a>.
+State that was specified along with this callback in the <a href="/windows/desktop/api/webservices/ns-webservices-ws_custom_cert_credential">WS_CUSTOM_CERT_CREDENTIAL</a>.
 
 ### -param *issuerList [in]
 
@@ -85,4 +85,3 @@ Specifies where additional error information should be stored if the function fa
 ## -returns
 
 This callback function does not return a value.
-

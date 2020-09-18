@@ -175,7 +175,7 @@ The network address family identifier is not valid.
  
 
 <div class="alert"><b>Note</b>  For a list of valid error codes, see 
-<a href="https://docs.microsoft.com/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
+<a href="/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
 <div> </div>
 
 ## -remarks
@@ -185,10 +185,10 @@ The
 <a href="/windows/win32/rpc/rpcdce/ns-rpcdce-uuid">UUID</a>. In this case, the returned binding contains a nil UUID. If the provided <i>StringBinding</i> parameter does not contain an endpoint field, the returned <i>Binding</i> parameter is a partially-bound binding handle. If the provided <i>StringBinding</i> parameter contains an endpoint field, the endpoint is considered to be a well-known endpoint. If the provided <i>StringBinding</i> parameter does not contain a host address field, the returned <i>Binding</i> parameter references the local host.
 
 An application creates a string binding by calling the 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcstringbindingcompose">RpcStringBindingCompose</a> function or by providing a character-string constant. The creation of a string binding by this method does not involve contact with the server. Success or failure of the API will not indicate server availability.
+<a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcstringbindingcompose">RpcStringBindingCompose</a> function or by providing a character-string constant. The creation of a string binding by this method does not involve contact with the server. Success or failure of the API will not indicate server availability.
 
 When an application is finished using the <i>Binding</i> parameter, the application should call the 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcbindingfree">RpcBindingFree</a> function to release the memory used by the binding handle.
+<a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcbindingfree">RpcBindingFree</a> function to release the memory used by the binding handle.
 
 
 
@@ -199,17 +199,16 @@ When an application is finished using the <i>Binding</i> parameter, the applicat
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcbindingcopy">RpcBindingCopy</a>
+<a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcbindingcopy">RpcBindingCopy</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcbindingfree">RpcBindingFree</a>
+<a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcbindingfree">RpcBindingFree</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcbindingtostringbinding">RpcBindingToStringBinding</a>
+<a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcbindingtostringbinding">RpcBindingToStringBinding</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcstringbindingcompose">RpcStringBindingCompose</a>
-
+<a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcstringbindingcompose">RpcStringBindingCompose</a>

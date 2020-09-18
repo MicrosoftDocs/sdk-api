@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Sets the search folder icon size, as specified. The default settings are based on the <code>FolderTypeID</code> which is set by the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-isearchfolderitemfactory-setfoldertypeid">ISearchFolderItemFactory::SetFolderTypeID</a> method.
+Sets the search folder icon size, as specified. The default settings are based on the <code>FolderTypeID</code> which is set by the <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-isearchfolderitemfactory-setfoldertypeid">ISearchFolderItemFactory::SetFolderTypeID</a> method.
 
 ## -parameters
 
@@ -65,4 +65,3 @@ The icon size.
 Type: <b>HRESULT</b>
 
 Returns a success value if successful, or an error value otherwise.
-

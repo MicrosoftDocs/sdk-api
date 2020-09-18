@@ -52,7 +52,7 @@ api_name:
 
 The 
 <b>QOS_SERVICE_LEVEL</b> enum is used by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itbasiccallcontrol-setqos">ITBasicCallControl::SetQOS</a> method to indicate quality of service requirements for a call.
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itbasiccallcontrol-setqos">ITBasicCallControl::SetQOS</a> method to indicate quality of service requirements for a call.
 
 ## -enum-fields
 
@@ -70,9 +70,8 @@ Quality of service level desired is "best effort."
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itbasiccallcontrol-setqos">ITBasicCallControl::SetQOS</a>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itbasiccallcontrol-setqos">ITBasicCallControl::SetQOS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itqosevent">ITQOSEvent</a>
-
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itqosevent">ITQOSEvent</a>

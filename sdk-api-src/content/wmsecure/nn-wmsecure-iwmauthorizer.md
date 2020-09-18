@@ -57,7 +57,7 @@ Provides access to certificates.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMAuthorizer</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWMAuthorizer</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMAuthorizer</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWMAuthorizer</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,7 +72,7 @@ The <b>IWMAuthorizer</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsecure/nf-wmsecure-iwmauthorizer-getcert">GetCert</a>
+<a href="/windows/desktop/api/wmsecure/nf-wmsecure-iwmauthorizer-getcert">GetCert</a>
 </td>
 <td align="left" width="63%">
 Retrieves the specified certificate.
@@ -81,7 +81,7 @@ Retrieves the specified certificate.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsecure/nf-wmsecure-iwmauthorizer-getcertcount">GetCertCount</a>
+<a href="/windows/desktop/api/wmsecure/nf-wmsecure-iwmauthorizer-getcertcount">GetCertCount</a>
 </td>
 <td align="left" width="63%">
 Retrieves the number of certificates.
@@ -90,7 +90,7 @@ Retrieves the number of certificates.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsecure/nf-wmsecure-iwmauthorizer-getshareddata">GetSharedData</a>
+<a href="/windows/desktop/api/wmsecure/nf-wmsecure-iwmauthorizer-getshareddata">GetSharedData</a>
 </td>
 <td align="left" width="63%">
 Retrieves shared  data for the specified certificate.
@@ -98,4 +98,3 @@ Retrieves shared  data for the specified certificate.
 </td>
 </tr>
 </table>
-

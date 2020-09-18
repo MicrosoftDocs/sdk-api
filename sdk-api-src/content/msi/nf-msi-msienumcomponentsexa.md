@@ -55,7 +55,7 @@ api_name:
 The <b>MsiEnumComponentsEx</b> function enumerates installed components. The function retrieves the component code for one component each time it is called. The component code is the string GUID unique to the component, version, and language. 
 
 
-<b><a href="https://docs.microsoft.com/windows/desktop/Msi/not-supported-in-windows-installer-4-5">Windows Installer 4.5 or earlier</a>:  </b>Not supported. This function is available beginning with Windows Installer 5.0.
+<b><a href="/windows/desktop/Msi/not-supported-in-windows-installer-4-5">Windows Installer 4.5 or earlier</a>:  </b>Not supported. This function is available beginning with Windows Installer 5.0.
 
 ## -parameters
 
@@ -254,7 +254,7 @@ This parameter can be set to <b>NULL</b> only if <i>szSid</i> is also <b>NULL</b
 
 ## -returns
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msienumproductsexa">MsiEnumProductsEx</a> function returns one of the following values.
+The <a href="/windows/desktop/api/msi/nf-msi-msienumproductsexa">MsiEnumProductsEx</a> function returns one of the following values.
 
 <table>
 <tr>
@@ -344,4 +344,3 @@ The function failed.
 
 > [!NOTE]
 > The msi.h header defines MsiEnumComponentsEx as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

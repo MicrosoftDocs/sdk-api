@@ -65,7 +65,7 @@ Specifies a device context. If the current pixel format for the window reference
 
 If the function succeeds, the return value is <b>TRUE</b>.
 
-If the function fails, the return value is <b>FALSE</b>. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+If the function fails, the return value is <b>FALSE</b>. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
@@ -75,9 +75,8 @@ With multithread applications, flush the drawing commands in any other threads d
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/OpenGL/opengl-on-windows-nt--windows-2000--and-windows-95-98">OpenGL on Windows</a>
+<a href="/windows/desktop/OpenGL/opengl-on-windows-nt--windows-2000--and-windows-95-98">OpenGL on Windows</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/OpenGL/win32-functions">Windows Functions</a>
-
+<a href="/windows/desktop/OpenGL/win32-functions">Windows Functions</a>

@@ -57,7 +57,7 @@ The <b>Move</b> method moves one or more objects from one location on the device
 
 ### -param pObjectIDs [in]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/wpd_sdk/iportabledevicepropvariantcollection">IPortableDevicePropVariantCollection</a> interface that holds one or more null-terminated strings (type VT_LPWSTR) specifying the object IDs of the objects to be moved.
+Pointer to an <a href="/windows/desktop/wpd_sdk/iportabledevicepropvariantcollection">IPortableDevicePropVariantCollection</a> interface that holds one or more null-terminated strings (type VT_LPWSTR) specifying the object IDs of the objects to be moved.
 
 ### -param pszDestinationFolderObjectID [in]
 
@@ -131,15 +131,14 @@ If the specified device supports move operations on a functional storage, the <i
 
 #### Examples
 
-For an example of how to use this method, see <a href="https://docs.microsoft.com/windows/desktop/wpd_sdk/moving-content-on-the-device">Moving Content on the Device</a>.
+For an example of how to use this method, see <a href="/windows/desktop/wpd_sdk/moving-content-on-the-device">Moving Content on the Device</a>.
 
 <div class="code"></div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nn-portabledeviceapi-iportabledevicecontent">IPortableDeviceContent Interface</a>
+<a href="/windows/desktop/api/portabledeviceapi/nn-portabledeviceapi-iportabledevicecontent">IPortableDeviceContent Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/wpd_sdk/moving-content-on-the-device">Moving Content on the Device</a>
-
+<a href="/windows/desktop/wpd_sdk/moving-content-on-the-device">Moving Content on the Device</a>

@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>GetDevice</b> method retrieves an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wmlss/nn-wmlss-iwindowsmedialibrarysharingdevice">IWindowsMediaLibrarySharingDevice</a> interface that represents an individual media device.
+The <b>GetDevice</b> method retrieves an <a href="/previous-versions/windows/desktop/api/wmlss/nn-wmlss-iwindowsmedialibrarysharingdevice">IWindowsMediaLibrarySharingDevice</a> interface that represents an individual media device.
 
 ## -parameters
 
@@ -60,7 +60,7 @@ A <b>BSTR</b> that specifies the device ID.
 
 ### -param device [out]
 
-A pointer to a variable that receives a pointer to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wmlss/nn-wmlss-iwindowsmedialibrarysharingdevice">IWindowsMediaLibrarySharingDevice</a> interface.
+A pointer to a variable that receives a pointer to the <a href="/previous-versions/windows/desktop/api/wmlss/nn-wmlss-iwindowsmedialibrarysharingdevice">IWindowsMediaLibrarySharingDevice</a> interface.
 
 ## -returns
 
@@ -83,4 +83,3 @@ The method succeeded.
 </td>
 </tr>
 </table>
-

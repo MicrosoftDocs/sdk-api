@@ -50,11 +50,11 @@ api_name:
 
 ## -description
 
-Extends the  <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nn-uiautomationcore-itextrangeprovider">ITextRangeProvider</a> interface to enable Microsoft UI Automation providers to invoke context menus.
+Extends the  <a href="/windows/desktop/api/uiautomationcore/nn-uiautomationcore-itextrangeprovider">ITextRangeProvider</a> interface to enable Microsoft UI Automation providers to invoke context menus.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITextRangeProvider2</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nn-uiautomationcore-itextrangeprovider">ITextRangeProvider</a>. <b>ITextRangeProvider2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITextRangeProvider2</b> interface inherits from <a href="/windows/desktop/api/uiautomationcore/nn-uiautomationcore-itextrangeprovider">ITextRangeProvider</a>. <b>ITextRangeProvider2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ITextRangeProvider2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nf-uiautomationcore-itextrangeprovider2-showcontextmenu">ShowContextMenu</a>
+<a href="/windows/desktop/api/uiautomationcore/nf-uiautomationcore-itextrangeprovider2-showcontextmenu">ShowContextMenu</a>
 </td>
 <td align="left" width="63%">
 Programmatically invokes a context menu on the target element.
@@ -84,9 +84,8 @@ Programmatically invokes a context menu on the target element.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nn-uiautomationcore-itextrangeprovider">ITextRangeProvider</a>
+<a href="/windows/desktop/api/uiautomationcore/nn-uiautomationcore-itextrangeprovider">ITextRangeProvider</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-providersoverview">UI Automation Providers Overview</a>
-
+<a href="/windows/desktop/WinAuto/uiauto-providersoverview">UI Automation Providers Overview</a>

@@ -61,7 +61,7 @@ An application-defined DWORD_PTR cookie that uniquely identifies this instance o
 
 ### -param lpAllocInfo [in]
 
-Specifies the [VMRALLOCATIONINFO](https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-vmrallocationinfo) structure. See Remarks.
+Specifies the [VMRALLOCATIONINFO](/windows/desktop/api/strmif/ns-strmif-vmrallocationinfo) structure. See Remarks.
 
 ### -param lpdwActualBuffers [in]
 
@@ -117,19 +117,18 @@ One or more members of the BITMAPINFOHEADER structure specified by <i>lpAllocInf
 
 ## -remarks
 
-Before calling <b>AllocateSurface</b> explicitly, a client application should call <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ivmrsurfaceallocator-freesurface">IVMRSurfaceAllocator::FreeSurface</a> to be sure that the DirectDraw decoding surface front buffer is <b>NULL</b>. If it is not <b>NULL</b> at the time an application calls <b>AllocateSurface</b>, the debug version of quartz.dll will cause an assertion.
+Before calling <b>AllocateSurface</b> explicitly, a client application should call <a href="/windows/desktop/api/strmif/nf-strmif-ivmrsurfaceallocator-freesurface">IVMRSurfaceAllocator::FreeSurface</a> to be sure that the DirectDraw decoding surface front buffer is <b>NULL</b>. If it is not <b>NULL</b> at the time an application calls <b>AllocateSurface</b>, the debug version of quartz.dll will cause an assertion.
 
 When implementing this method in a custom allocator-presenter, you must examine the value of <i>lpAllocInfo</i>-&gt;lpHdr-&gt;biBitCount. If biBitCount is zero, then you must set it to the pixel depth for the current display. If BiBitCount is left at zero, the surface allocation will fail and a new (default) VMR will be created.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ivmrsurfaceallocator">IVMRSurfaceAllocator Interface</a>
+<a href="/windows/desktop/api/strmif/nn-strmif-ivmrsurfaceallocator">IVMRSurfaceAllocator Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/using-the-video-mixing-renderer">Using the Video Mixing Renderer</a>
-
+<a href="/windows/desktop/DirectShow/using-the-video-mixing-renderer">Using the Video Mixing Renderer</a>

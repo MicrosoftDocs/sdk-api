@@ -52,7 +52,7 @@ api_name:
 
 The 
 <b>Apply</b> method writes to persistent storage the changes made by calls to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/nf-sdoias-isdo-putproperty">ISdo::PutProperty</a> method.
+<a href="/windows/desktop/api/sdoias/nf-sdoias-isdo-putproperty">ISdo::PutProperty</a> method.
 
 ## -parameters
 
@@ -65,18 +65,17 @@ If the method fails, the return value is one of the following error codes.
 ## -remarks
 
 To cancel changes made by 
-<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/nf-sdoias-isdo-putproperty">ISdo::PutProperty</a>, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/nf-sdoias-isdo-restore">ISdo::Restore</a>.
+<a href="/windows/desktop/api/sdoias/nf-sdoias-isdo-putproperty">ISdo::PutProperty</a>, call 
+<a href="/windows/desktop/api/sdoias/nf-sdoias-isdo-restore">ISdo::Restore</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/nn-sdoias-isdo">ISdo</a>
+<a href="/windows/desktop/api/sdoias/nn-sdoias-isdo">ISdo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/nf-sdoias-isdo-putproperty">ISdo::PutProperty</a>
+<a href="/windows/desktop/api/sdoias/nf-sdoias-isdo-putproperty">ISdo::PutProperty</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/nf-sdoias-isdo-restore">ISdo::Restore</a>
-
+<a href="/windows/desktop/api/sdoias/nf-sdoias-isdo-restore">ISdo::Restore</a>

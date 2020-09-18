@@ -61,7 +61,7 @@ Zero-based index of an output stream on the DMO.
 
 ### -param pdwFlags [out]
 
-Pointer to a variable that receives a bitwise combination of zero or more <a href="https://docs.microsoft.com/windows/desktop/api/mediaobj/ne-mediaobj-_dmo_output_stream_info_flags">DMO_OUTPUT_STREAM_INFO_FLAGS</a> flags.
+Pointer to a variable that receives a bitwise combination of zero or more <a href="/windows/desktop/api/mediaobj/ne-mediaobj-_dmo_output_stream_info_flags">DMO_OUTPUT_STREAM_INFO_FLAGS</a> flags.
 
 ## -returns
 
@@ -109,5 +109,4 @@ Success
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mediaobj/nn-mediaobj-imediaobject">IMediaObject Interface</a>
-
+<a href="/windows/desktop/api/mediaobj/nn-mediaobj-imediaobject">IMediaObject Interface</a>

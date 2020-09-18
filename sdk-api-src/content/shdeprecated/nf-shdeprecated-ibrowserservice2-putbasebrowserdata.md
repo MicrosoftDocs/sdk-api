@@ -59,5 +59,4 @@ Deprecated. Gets a structure that allows read/write access to protected members 
 
 Type: <b>LPBASEBROWSERDATA</b>
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/shdeprecated/ns-shdeprecated-basebrowserdatalh">BASEBROWSERDATA</a> structure.
-
+A pointer to a <a href="/windows/desktop/api/shdeprecated/ns-shdeprecated-basebrowserdatalh">BASEBROWSERDATA</a> structure.

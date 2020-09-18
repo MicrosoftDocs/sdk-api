@@ -56,9 +56,8 @@ Enables the debug layer.
 
 ## -remarks
 
-This method is identical to <a href="https://docs.microsoft.com/windows/desktop/api/d3d12sdklayers/nf-d3d12sdklayers-id3d12debug-enabledebuglayer">ID3D12Debug::EnableDebugLayer</a>.
+This method is identical to <a href="/windows/desktop/api/d3d12sdklayers/nf-d3d12sdklayers-id3d12debug-enabledebuglayer">ID3D12Debug::EnableDebugLayer</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d12sdklayers/nn-d3d12sdklayers-id3d12debug1">ID3D12Debug1</a>
-
+<a href="/windows/desktop/api/d3d12sdklayers/nn-d3d12sdklayers-id3d12debug1">ID3D12Debug1</a>

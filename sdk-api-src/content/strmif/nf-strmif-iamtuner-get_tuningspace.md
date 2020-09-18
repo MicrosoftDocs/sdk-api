@@ -65,13 +65,12 @@ Returns an <b>HRESULT</b> value.
 
 ## -remarks
 
-The application defines the value retrieved by this method; it is set through a call to <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamtuner-put_tuningspace">IAMTuner::put_TuningSpace</a>.
+The application defines the value retrieved by this method; it is set through a call to <a href="/windows/desktop/api/strmif/nf-strmif-iamtuner-put_tuningspace">IAMTuner::put_TuningSpace</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iamtuner">IAMTuner Interface</a>
-
+<a href="/windows/desktop/api/strmif/nn-strmif-iamtuner">IAMTuner Interface</a>

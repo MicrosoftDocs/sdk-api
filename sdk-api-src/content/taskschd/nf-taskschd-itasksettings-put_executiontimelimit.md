@@ -64,13 +64,12 @@ The format for this string is PnYnMnDTnHnMnS, where nY is the number of years, n
 
 <div class="alert"><b>Note</b>  If a task is started on demand, the ExecutionTimeLimit setting is bypassed.  Therefore, a task that is started on demand will not be terminated if it exceeds the ExecutionTimeLimit.</div>
 <div> </div>
-When reading or writing XML for a task, this setting is specified in the <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/taskschedulerschema-executiontimelimit-settingstype-element">ExecutionTimeLimit</a> element of the Task Scheduler schema.
+When reading or writing XML for a task, this setting is specified in the <a href="/windows/desktop/TaskSchd/taskschedulerschema-executiontimelimit-settingstype-element">ExecutionTimeLimit</a> element of the Task Scheduler schema.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nn-taskschd-itasksettings">ITaskSettings</a>
+<a href="/windows/desktop/api/taskschd/nn-taskschd-itasksettings">ITaskSettings</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/TaskSchd/task-scheduler-start-page">Task Scheduler</a>
-
+<a href="/windows/desktop/TaskSchd/task-scheduler-start-page">Task Scheduler</a>

@@ -51,16 +51,15 @@ api_name:
 ## -description
 
 The <b>Skip</b> method skips a specified number 
-   of <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-statstg">STATSTG</a> structures in the enumeration 
+   of <a href="/windows/desktop/api/objidl/ns-objidl-statstg">STATSTG</a> structures in the enumeration 
    sequence.
 
 ## -parameters
 
 ### -param celt
 
-The number of <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-statstg">STATSTG</a> structures to skip.
+The number of <a href="/windows/desktop/api/objidl/ns-objidl-statstg">STATSTG</a> structures to skip.
 
 ## -returns
 
 This method supports the following return values:
-

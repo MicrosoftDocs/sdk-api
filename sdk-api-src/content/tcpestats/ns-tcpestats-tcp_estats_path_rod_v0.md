@@ -417,7 +417,7 @@ The <b>TCP_ESTATS_PATH_ROD_v0</b> structure is used as part of the TCP extended 
 
 The <b>TCP_ESTATS_PATH_ROD_v0</b> is defined as version 0 of the structure for  read-only dynamic information on network path measurementfor a TCP connection.  This information is available after the connection has been established.
 
-The <b>TCP_ESTATS_PATH_ROD_v0</b> structure is retrieved by calls to  the <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-getpertcp6connectionestats">GetPerTcp6ConnectionEStats</a> or <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-getpertcpconnectionestats">GetPerTcpConnectionEStats</a> functions when <b>TcpConnectionEstatsPath</b> is passed in the <i>EstatsType</i> parameter. Extended TCP statistics need to be enabled to retrieve this structure.
+The <b>TCP_ESTATS_PATH_ROD_v0</b> structure is retrieved by calls to  the <a href="/windows/desktop/api/iphlpapi/nf-iphlpapi-getpertcp6connectionestats">GetPerTcp6ConnectionEStats</a> or <a href="/windows/desktop/api/iphlpapi/nf-iphlpapi-getpertcpconnectionestats">GetPerTcpConnectionEStats</a> functions when <b>TcpConnectionEstatsPath</b> is passed in the <i>EstatsType</i> parameter. Extended TCP statistics need to be enabled to retrieve this structure.
 
 The path MTU discovery and maximum segment size are discussed in detail in the IETF RFC 1191 on Path MTU discovery. For more information, see <a href="http://tools.ietf.org/html/rfc1191">http://www.ietf.org/rfc/rfc1191.txt</a>.
 
@@ -852,21 +852,20 @@ tcpEStatsStackSpuriousRtoDetected
 
 
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/tcpestats/ns-tcpestats-tcp_estats_fine_rtt_rod_v0">TCP_ESTATS_FINE_RTT_ROD_v0</a> structure has members that provide similar data to the <b>RttVar</b>, <b>MaxRtt</b>, <b>MinRtt</b>, and <b>SumRtt</b> members of the <b>TCP_ESTATS_PATH_ROD_v0</b> structure. However, the time is reported in microseconds for the similar members of the <b>TCP_ESTATS_FINE_RTT_ROD_v0</b> structure.
+The <a href="/windows/desktop/api/tcpestats/ns-tcpestats-tcp_estats_fine_rtt_rod_v0">TCP_ESTATS_FINE_RTT_ROD_v0</a> structure has members that provide similar data to the <b>RttVar</b>, <b>MaxRtt</b>, <b>MinRtt</b>, and <b>SumRtt</b> members of the <b>TCP_ESTATS_PATH_ROD_v0</b> structure. However, the time is reported in microseconds for the similar members of the <b>TCP_ESTATS_FINE_RTT_ROD_v0</b> structure.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-getpertcp6connectionestats">GetPerTcp6ConnectionEStats</a>
+<a href="/windows/desktop/api/iphlpapi/nf-iphlpapi-getpertcp6connectionestats">GetPerTcp6ConnectionEStats</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-getpertcpconnectionestats">GetPerTcpConnectionEStats</a>
+<a href="/windows/desktop/api/iphlpapi/nf-iphlpapi-getpertcpconnectionestats">GetPerTcpConnectionEStats</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tcpestats/ns-tcpestats-tcp_estats_fine_rtt_rod_v0">TCP_ESTATS_FINE_RTT_ROD_v0</a>
+<a href="/windows/desktop/api/tcpestats/ns-tcpestats-tcp_estats_fine_rtt_rod_v0">TCP_ESTATS_FINE_RTT_ROD_v0</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tcpestats/ne-tcpestats-tcp_estats_type">TCP_ESTATS_TYPE</a>
-
+<a href="/windows/desktop/api/tcpestats/ne-tcpestats-tcp_estats_type">TCP_ESTATS_TYPE</a>

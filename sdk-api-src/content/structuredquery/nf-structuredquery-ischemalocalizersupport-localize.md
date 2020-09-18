@@ -64,11 +64,10 @@ Pointer to a null-terminated Unicode string to be localized. It may be in one of
 
 Type: <b>LPWSTR*</b>
 
-Returns a null-terminated Unicode string that is the localized string. The calling application must free the returned string by calling <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a>. If the method does not succeed, this parameter is set to <b>NULL</b>.
+Returns a null-terminated Unicode string that is the localized string. The calling application must free the returned string by calling <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a>. If the method does not succeed, this parameter is set to <b>NULL</b>.
 
 ## -returns
 
 Type: <b>HRESULT</b>
 
 Returns S_OK if successful, or S_FALSE otherwise.
-

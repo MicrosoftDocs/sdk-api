@@ -58,7 +58,7 @@ node enumeration handle.
 
 ### -param hNodeEnum [in]
 
-The handle to a node enumeration that was retrieved by the   <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-clusternodeopenenumex">ClusterNodeOpenEnumEx</a> function. A valid handle is required. This parameter cannot be <b>NULL</b>.
+The handle to a node enumeration that was retrieved by the   <a href="/windows/desktop/api/clusapi/nf-clusapi-clusternodeopenenumex">ClusterNodeOpenEnumEx</a> function. A valid handle is required. This parameter cannot be <b>NULL</b>.
 
 ## -returns
 
@@ -66,5 +66,4 @@ The number of objects that are associated with the enumeration handle.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/node-management-functions">Node Management Functions</a>
-
+<a href="/previous-versions/windows/desktop/mscs/node-management-functions">Node Management Functions</a>

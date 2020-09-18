@@ -60,7 +60,7 @@ The size of the *pCreationParameters* parameter structure, in bytes.
 
 ### -param pProtectedResourceSession
 
-A [ID3D12ProtectedResourceSession](/windows/win32/api/d3d12/nn-d3d12-id3d12protectedresourcesession) for managing access to protected resources.
+A [ID3D12ProtectedResourceSession](../d3d12/nn-d3d12-id3d12protectedresourcesession.md) for managing access to protected resources.
 
 ### -param riid
 
@@ -77,4 +77,3 @@ This method returns an HRESULT.
 ## -remarks
 
 ## -see-also
-

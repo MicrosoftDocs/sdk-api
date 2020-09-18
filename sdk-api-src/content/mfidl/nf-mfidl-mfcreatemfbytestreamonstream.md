@@ -60,7 +60,7 @@ A pointer to the <b>IStream</b> interface.
 
 ### -param ppByteStream [out]
 
-Receives a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfbytestream">IMFByteStream</a> interface. The caller must release the interface.
+Receives a pointer to the <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfbytestream">IMFByteStream</a> interface. The caller must release the interface.
 
 ## -returns
 
@@ -68,9 +68,8 @@ Returns an <b>HRESULT</b> value.
 
 ## -remarks
 
-This function enables applications to pass an <b>IStream</b> object to a Media Foundation API that takes an <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfbytestream">IMFByteStream</a> pointer.
+This function enables applications to pass an <b>IStream</b> object to a Media Foundation API that takes an <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfbytestream">IMFByteStream</a> pointer.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>
-
+<a href="/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>

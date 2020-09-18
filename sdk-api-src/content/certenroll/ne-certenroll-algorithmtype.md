@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-The <b>AlgorithmType</b> enumeration type specifies the intended purpose of a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">cryptographic algorithm</a> supported by a cryptographic provider. Algorithms are typically classified by use into the following general categories:<ul>
+The <b>AlgorithmType</b> enumeration type specifies the intended purpose of a <a href="/windows/desktop/SecGloss/c-gly">cryptographic algorithm</a> supported by a cryptographic provider. Algorithms are typically classified by use into the following general categories:<ul>
 <li>Signing</li>
 <li>Hashing</li>
 <li>Asymmetric encryption</li>
 <li>Symmetric encryption</li>
 <li>Key exchange</li>
-</ul> This enumeration is used in the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icspalgorithm">ICspAlgorithm</a> interface.
+</ul> This enumeration is used in the <a href="/windows/desktop/api/certenroll/nn-certenroll-icspalgorithm">ICspAlgorithm</a> interface.
 
 ## -enum-fields
 
@@ -66,23 +66,23 @@ The algorithm type is not defined.
 
 ### -field XCN_BCRYPT_CIPHER_INTERFACE
 
-The algorithm is used for symmetric encryption. This includes the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/r-gly">RC2</a>, <a href="https://docs.microsoft.com/windows/desktop/SecGloss/r-gly">RC4</a>, <a href="https://docs.microsoft.com/windows/desktop/SecGloss/d-gly">Data Encryption Standard</a> (DES), 3DED, and <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">AES</a> algorithms.
+The algorithm is used for symmetric encryption. This includes the <a href="/windows/desktop/SecGloss/r-gly">RC2</a>, <a href="/windows/desktop/SecGloss/r-gly">RC4</a>, <a href="/windows/desktop/SecGloss/d-gly">Data Encryption Standard</a> (DES), 3DED, and <a href="/windows/desktop/SecGloss/a-gly">AES</a> algorithms.
 
 ### -field XCN_BCRYPT_HASH_INTERFACE
 
-The algorithm is used for hashing. This includes the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/m-gly">MD2</a>, <a href="https://docs.microsoft.com/windows/desktop/SecGloss/m-gly">MD4</a>, SHA1, SHA256, SHA384, SHA512 MAC, and <a href="https://docs.microsoft.com/windows/desktop/SecGloss/h-gly">Hash-Based Message Authentication Code</a> (HMAC) hash algorithms.
+The algorithm is used for hashing. This includes the <a href="/windows/desktop/SecGloss/m-gly">MD2</a>, <a href="/windows/desktop/SecGloss/m-gly">MD4</a>, SHA1, SHA256, SHA384, SHA512 MAC, and <a href="/windows/desktop/SecGloss/h-gly">Hash-Based Message Authentication Code</a> (HMAC) hash algorithms.
 
 ### -field XCN_BCRYPT_ASYMMETRIC_ENCRYPTION_INTERFACE
 
-The algorithm is used for <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">public key</a> encryption. This includes RSA.
+The algorithm is used for <a href="/windows/desktop/SecGloss/p-gly">public key</a> encryption. This includes RSA.
 
 ### -field XCN_BCRYPT_SIGNATURE_INTERFACE
 
-The algorithm is used for signing. This includes the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/r-gly">RSA</a> algorithm, <a href="https://docs.microsoft.com/windows/desktop/SecGloss/d-gly">Digital Signature Algorithm</a> (DSA), and ECDSA algorithm.
+The algorithm is used for signing. This includes the <a href="/windows/desktop/SecGloss/r-gly">RSA</a> algorithm, <a href="/windows/desktop/SecGloss/d-gly">Digital Signature Algorithm</a> (DSA), and ECDSA algorithm.
 
 ### -field XCN_BCRYPT_SECRET_AGREEMENT_INTERFACE
 
-The algorithm is used for key exchange. This includes the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/d-gly">Diffie-Hellman algorithm</a> and ECDH algorithm.
+The algorithm is used for key exchange. This includes the <a href="/windows/desktop/SecGloss/d-gly">Diffie-Hellman algorithm</a> and ECDH algorithm.
 
 ### -field XCN_BCRYPT_RNG_INTERFACE
 
@@ -92,13 +92,12 @@ The algorithm is used to generate a random number.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/ne-certenroll-algorithmoperationflags">AlgorithmOperationFlags</a>
+<a href="/windows/desktop/api/certenroll/ne-certenroll-algorithmoperationflags">AlgorithmOperationFlags</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SecCertEnroll/certenroll-enumerations">CertEnroll Enumerations</a>
+<a href="/windows/desktop/SecCertEnroll/certenroll-enumerations">CertEnroll Enumerations</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SecCertEnroll/certenroll-interfaces">CertEnroll Interfaces</a>
-
+<a href="/windows/desktop/SecCertEnroll/certenroll-interfaces">CertEnroll Interfaces</a>

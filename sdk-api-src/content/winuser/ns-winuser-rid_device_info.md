@@ -111,35 +111,34 @@ Data comes from an HID that is not a keyboard or a mouse.
 
 ### -field DUMMYUNIONNAME.mouse
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-rid_device_info_mouse">RID_DEVICE_INFO_MOUSE</a></b>
+Type: <b><a href="/windows/desktop/api/winuser/ns-winuser-rid_device_info_mouse">RID_DEVICE_INFO_MOUSE</a></b>
 
-If <b>dwType</b> is <b>RIM_TYPEMOUSE</b>, this is the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-rid_device_info_mouse">RID_DEVICE_INFO_MOUSE</a> structure that defines the mouse.
+If <b>dwType</b> is <b>RIM_TYPEMOUSE</b>, this is the <a href="/windows/desktop/api/winuser/ns-winuser-rid_device_info_mouse">RID_DEVICE_INFO_MOUSE</a> structure that defines the mouse.
 
 ### -field DUMMYUNIONNAME.keyboard
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-rid_device_info_keyboard">RID_DEVICE_INFO_KEYBOARD</a></b>
+Type: <b><a href="/windows/desktop/api/winuser/ns-winuser-rid_device_info_keyboard">RID_DEVICE_INFO_KEYBOARD</a></b>
 
-If <b>dwType</b> is <b>RIM_TYPEKEYBOARD</b>, this is the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-rid_device_info_keyboard">RID_DEVICE_INFO_KEYBOARD</a> structure that defines the keyboard.
+If <b>dwType</b> is <b>RIM_TYPEKEYBOARD</b>, this is the <a href="/windows/desktop/api/winuser/ns-winuser-rid_device_info_keyboard">RID_DEVICE_INFO_KEYBOARD</a> structure that defines the keyboard.
 
 ### -field DUMMYUNIONNAME.hid
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-rid_device_info_hid">RID_DEVICE_INFO_HID</a></b>
+Type: <b><a href="/windows/desktop/api/winuser/ns-winuser-rid_device_info_hid">RID_DEVICE_INFO_HID</a></b>
 
-If <b>dwType</b> is <b>RIM_TYPEHID</b>, this is the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-rid_device_info_hid">RID_DEVICE_INFO_HID</a> structure that defines the HID device.
+If <b>dwType</b> is <b>RIM_TYPEHID</b>, this is the <a href="/windows/desktop/api/winuser/ns-winuser-rid_device_info_hid">RID_DEVICE_INFO_HID</a> structure that defines the HID device.
 
 ## -see-also
 
 <b>Conceptual</b>
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getrawinputdeviceinfoa">GetRawInputDeviceInfo</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-getrawinputdeviceinfoa">GetRawInputDeviceInfo</a>
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-rid_device_info_hid">RID_DEVICE_INFO_HID</a>
+<a href="/windows/desktop/api/winuser/ns-winuser-rid_device_info_hid">RID_DEVICE_INFO_HID</a>
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-rid_device_info_keyboard">RID_DEVICE_INFO_KEYBOARD</a>
+<a href="/windows/desktop/api/winuser/ns-winuser-rid_device_info_keyboard">RID_DEVICE_INFO_KEYBOARD</a>
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-rid_device_info_mouse">RID_DEVICE_INFO_MOUSE</a>
+<a href="/windows/desktop/api/winuser/ns-winuser-rid_device_info_mouse">RID_DEVICE_INFO_MOUSE</a>
 
-<a href="https://docs.microsoft.com/windows/desktop/inputdev/raw-input">Raw Input</a>
+<a href="/windows/desktop/inputdev/raw-input">Raw Input</a>
 
 <b>Reference</b>
-

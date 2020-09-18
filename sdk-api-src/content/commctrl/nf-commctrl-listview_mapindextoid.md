@@ -50,19 +50,19 @@ api_name:
 
 ## -description
 
-Maps the index of an item to a unique ID. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/lvm-mapindextoid">LVM_MAPINDEXTOID</a> message explicitly.
+Maps the index of an item to a unique ID. You can use this macro or send the <a href="/windows/desktop/Controls/lvm-mapindextoid">LVM_MAPINDEXTOID</a> message explicitly.
 
 ## -parameters
 
 ### -param hwnd
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the list-view control.
 
 ### -param index
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 A <b>UINT</b> that contains the index of an item.
 
@@ -73,10 +73,9 @@ List-view controls internally track items by index. This can present problems be
 You can use this macro to tag an item with an ID when you create the item. You use this ID to guarantee uniqueness during the existence of the list-view control.   
 		
 
-To uniquely identify an item, take the index that is returned from a call such as <a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-icomponent-getdisplayinfo">IComponent::GetDisplayInfo</a> and call <a href="https://docs.microsoft.com/windows/desktop/Controls/lvm-mapindextoid">LVM_MAPINDEXTOID</a>. The return value is a unique ID.
+To uniquely identify an item, take the index that is returned from a call such as <a href="/windows/desktop/api/mmc/nf-mmc-icomponent-getdisplayinfo">IComponent::GetDisplayInfo</a> and call <a href="/windows/desktop/Controls/lvm-mapindextoid">LVM_MAPINDEXTOID</a>. The return value is a unique ID.
 		
 
 <div class="alert"><b>Note</b>  In a multithreaded environment, you can only be sure the correct index is returned on the thread that hosts the list-view control, not on background threads.</div>
 <div> </div>
-To use <b>ListView_MapIndexToID</b>, specify Comctl32.dll version 6 in the manifest. For more information on manifests, see <a href="https://docs.microsoft.com/windows/desktop/Controls/cookbook-overview">Enabling Visual Styles</a>.
-
+To use <b>ListView_MapIndexToID</b>, specify Comctl32.dll version 6 in the manifest. For more information on manifests, see <a href="/windows/desktop/Controls/cookbook-overview">Enabling Visual Styles</a>.

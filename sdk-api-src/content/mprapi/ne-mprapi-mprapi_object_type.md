@@ -54,41 +54,40 @@ api_name:
 
 ## -description
 
-The <b>MPRAPI_OBJECT_TYPE</b> enumeration specifies the structure type in  a <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-mprapi_object_header">MPRAPI_OBJECT_HEADER</a> structure.
+The <b>MPRAPI_OBJECT_TYPE</b> enumeration specifies the structure type in  a <a href="/windows/desktop/api/mprapi/ns-mprapi-mprapi_object_header">MPRAPI_OBJECT_HEADER</a> structure.
 
 ## -enum-fields
 
 ### -field MPRAPI_OBJECT_TYPE_RAS_CONNECTION_OBJECT
 
-The structure is a <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-ras_connection_ex">RAS_CONNECTION_EX</a> structure.
+The structure is a <a href="/windows/desktop/api/mprapi/ns-mprapi-ras_connection_ex">RAS_CONNECTION_EX</a> structure.
 
 ### -field MPRAPI_OBJECT_TYPE_MPR_SERVER_OBJECT
 
-The structure is a <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-mpr_server_ex0">MPR_SERVER_EX</a> structure.
+The structure is a <a href="/windows/desktop/api/mprapi/ns-mprapi-mpr_server_ex0">MPR_SERVER_EX</a> structure.
 
 ### -field MPRAPI_OBJECT_TYPE_MPR_SERVER_SET_CONFIG_OBJECT
 
-The structure is a <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-mpr_server_set_config_ex0">MPR_SERVER_SET_CONFIG_EX</a> structure.
+The structure is a <a href="/windows/desktop/api/mprapi/ns-mprapi-mpr_server_set_config_ex0">MPR_SERVER_SET_CONFIG_EX</a> structure.
 
 ### -field MPRAPI_OBJECT_TYPE_AUTH_VALIDATION_OBJECT
 
-The structure is a <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-auth_validation_ex">AUTH_VALIDATION_EX</a> structure.
+The structure is a <a href="/windows/desktop/api/mprapi/ns-mprapi-auth_validation_ex">AUTH_VALIDATION_EX</a> structure.
 
 ### -field MPRAPI_OBJECT_TYPE_UPDATE_CONNECTION_OBJECT
 
-The structure is a [RAS_UPDATE_CONNECTION](https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-ras_update_connection) structure.
+The structure is a [RAS_UPDATE_CONNECTION](/windows/desktop/api/mprapi/ns-mprapi-ras_update_connection) structure.
 
 ### -field MPRAPI_OBJECT_TYPE_IF_CUSTOM_CONFIG_OBJECT
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-mprapi_object_header">MPRAPI_OBJECT_HEADER</a>
+<a href="/windows/desktop/api/mprapi/ns-mprapi-mprapi_object_header">MPRAPI_OBJECT_HEADER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/router-management-enumerations">Router Management Enumerated Types</a>
+<a href="/windows/desktop/RRAS/router-management-enumerations">Router Management Enumerated Types</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/router-management-reference">Router Management Reference</a>
-
+<a href="/windows/desktop/RRAS/router-management-reference">Router Management Reference</a>

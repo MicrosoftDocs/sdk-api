@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-An optional type description used with <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_type">WS_DECIMAL_TYPE</a>.
+An optional type description used with <a href="/windows/desktop/api/webservices/ne-webservices-ws_type">WS_DECIMAL_TYPE</a>.
                 It is used to specify constraints on the set of values
                 which can be deserialized.
 
@@ -65,4 +65,3 @@ The minimum value.
 ### -field maxValue
 
 The maximum value.
-

@@ -54,7 +54,7 @@ The <b>ITfCandidateListUIElement</b> interface is implemented by a text service 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfCandidateListUIElement</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfCandidateListUIElement</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfCandidateListUIElement</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfCandidateListUIElement</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ITfCandidateListUIElement</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcandidatelistuielement-getcount">GetCount</a>
+<a href="/windows/desktop/api/msctf/nf-msctf-itfcandidatelistuielement-getcount">GetCount</a>
 </td>
 <td align="left" width="63%">
 Returns the count of the candidate strings.
@@ -78,7 +78,7 @@ Returns the count of the candidate strings.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcandidatelistuielement-getcurrentpage">GetCurrentPage</a>
+<a href="/windows/desktop/api/msctf/nf-msctf-itfcandidatelistuielement-getcurrentpage">GetCurrentPage</a>
 </td>
 <td align="left" width="63%">
 Returns the current page.
@@ -87,7 +87,7 @@ Returns the current page.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcandidatelistuielement-getdocumentmgr">GetDocumentMgr</a>
+<a href="/windows/desktop/api/msctf/nf-msctf-itfcandidatelistuielement-getdocumentmgr">GetDocumentMgr</a>
 </td>
 <td align="left" width="63%">
 Returns the target document manager of this UI.
@@ -96,7 +96,7 @@ Returns the target document manager of this UI.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d63afb41-0276-4bc9-af4d-319d39de519d">GetPageIndex</a>
+<a href="/previous-versions/aa381512(v=vs.85)">GetPageIndex</a>
 </td>
 <td align="left" width="63%">
 Returns the page index of the list.
@@ -105,7 +105,7 @@ Returns the page index of the list.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcandidatelistuielement-getselection">GetSelection</a>
+<a href="/windows/desktop/api/msctf/nf-msctf-itfcandidatelistuielement-getselection">GetSelection</a>
 </td>
 <td align="left" width="63%">
 Returns the current selection of the candidate list.
@@ -114,7 +114,7 @@ Returns the current selection of the candidate list.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcandidatelistuielement-getstring">GetString</a>
+<a href="/windows/desktop/api/msctf/nf-msctf-itfcandidatelistuielement-getstring">GetString</a>
 </td>
 <td align="left" width="63%">
 Returns the string of the index.
@@ -123,7 +123,7 @@ Returns the string of the index.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcandidatelistuielement-getupdatedflags">GetUpdatedFlags</a>
+<a href="/windows/desktop/api/msctf/nf-msctf-itfcandidatelistuielement-getupdatedflags">GetUpdatedFlags</a>
 </td>
 <td align="left" width="63%">
 Returns the flag that tells which part of this element was updated.
@@ -132,7 +132,7 @@ Returns the flag that tells which part of this element was updated.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcandidatelistuielement-setpageindex">SetPageIndex</a>
+<a href="/windows/desktop/api/msctf/nf-msctf-itfcandidatelistuielement-setpageindex">SetPageIndex</a>
 </td>
 <td align="left" width="63%">
 Set the page index.
@@ -140,4 +140,3 @@ Set the page index.
 </td>
 </tr>
 </table>
-

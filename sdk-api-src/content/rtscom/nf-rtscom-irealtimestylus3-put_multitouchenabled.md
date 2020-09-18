@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-Indicates whether the <a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nn-rtscom-irealtimestylus3">IRealTimeStylus3</a> object has multitouch input enabled.
+Indicates whether the <a href="/windows/desktop/api/rtscom/nn-rtscom-irealtimestylus3">IRealTimeStylus3</a> object has multitouch input enabled.
 
 This property is read/write.
 
@@ -82,7 +82,7 @@ The following table lists the defined opt-in options for multitouch.
 
 #### Examples
 
-The following example demonstrates how to enable multitouch using the <a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nn-rtscom-irealtimestylus3">RealTimeStylus3</a> interface.
+The following example demonstrates how to enable multitouch using the <a href="/windows/desktop/api/rtscom/nn-rtscom-irealtimestylus3">RealTimeStylus3</a> interface.
 
 
 ```cpp
@@ -129,5 +129,4 @@ The following example shows how to explicitly set the TABLET_ENABLE_MULTITOUCHDA
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nn-rtscom-irealtimestylus3">IRealTimeStylus3</a>
-
+<a href="/windows/desktop/api/rtscom/nn-rtscom-irealtimestylus3">IRealTimeStylus3</a>

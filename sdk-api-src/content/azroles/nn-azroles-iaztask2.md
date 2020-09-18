@@ -50,5 +50,4 @@ api_name:
 
 ## -description
 
-The <b>IAzTask2</b> interface extends the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iaztask">IAzTask</a> interface with a method that returns the role assignments associated with the task.
-
+The <b>IAzTask2</b> interface extends the <a href="/windows/desktop/api/azroles/nn-azroles-iaztask">IAzTask</a> interface with a method that returns the role assignments associated with the task.

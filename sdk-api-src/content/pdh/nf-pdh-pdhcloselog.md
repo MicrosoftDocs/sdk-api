@@ -57,7 +57,7 @@ Closes the specified log file.
 ### -param hLog [in]
 
 Handle to the log file to be closed. This handle is returned by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhopenloga">PdhOpenLog</a> function.
+<a href="/windows/desktop/api/pdh/nf-pdh-pdhopenloga">PdhOpenLog</a> function.
 
 ### -param dwFlags [in]
 
@@ -76,7 +76,7 @@ You can specify the following flag.
 </dl>
 </td>
 <td width="60%">
-Closes the query associated with the specified log file handle. See the <i>hQuery</i> parameter of <a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhopenloga">PdhOpenLog</a>.
+Closes the query associated with the specified log file handle. See the <i>hQuery</i> parameter of <a href="/windows/desktop/api/pdh/nf-pdh-pdhopenloga">PdhOpenLog</a>.
 
 </td>
 </tr>
@@ -88,8 +88,8 @@ If the function succeeds, it returns ERROR_SUCCESS and closes and deletes the qu
 						
 
 If the function fails, the return value is a 
-<a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a> or a 
-<a href="https://docs.microsoft.com/windows/desktop/PerfCtrs/pdh-error-codes">PDH error code</a>. The following is a possible value.
+<a href="/windows/desktop/Debug/system-error-codes">system error code</a> or a 
+<a href="/windows/desktop/PerfCtrs/pdh-error-codes">PDH error code</a>. The following is a possible value.
 
 <table>
 <tr>
@@ -111,9 +111,8 @@ The log file handle is not valid.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhbindinputdatasourcea">PdhBindInputDataSource</a>
+<a href="/windows/desktop/api/pdh/nf-pdh-pdhbindinputdatasourcea">PdhBindInputDataSource</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhopenloga">PdhOpenLog</a>
-
+<a href="/windows/desktop/api/pdh/nf-pdh-pdhopenloga">PdhOpenLog</a>

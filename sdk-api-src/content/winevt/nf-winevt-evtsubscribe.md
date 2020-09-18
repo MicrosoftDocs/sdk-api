@@ -59,7 +59,7 @@ Creates a subscription that will receive current and future events from a channe
 
 ### -param Session [in]
 
-A remote session handle that the <a href="https://docs.microsoft.com/windows/desktop/api/winevt/nf-winevt-evtopensession">EvtOpenSession</a> function returns. Set to <b>NULL</b> to subscribe to events on the local computer.
+A remote session handle that the <a href="/windows/desktop/api/winevt/nf-winevt-evtopensession">EvtOpenSession</a> function returns. Set to <b>NULL</b> to subscribe to events on the local computer.
 
 ### -param SignalEvent [in]
 
@@ -75,7 +75,7 @@ A query that specifies the types of events that you want the subscription servic
 
 ### -param Bookmark [in]
 
-A handle to a bookmark that identifies the starting point for the subscription.  To get a bookmark handle, call the <a href="https://docs.microsoft.com/windows/desktop/api/winevt/nf-winevt-evtcreatebookmark">EvtCreateBookmark</a> function.  You must set this parameter if the <i>Flags</i> parameter contains the EvtSubscribeStartAfterBookmark flag; otherwise, <b>NULL</b>.
+A handle to a bookmark that identifies the starting point for the subscription.  To get a bookmark handle, call the <a href="/windows/desktop/api/winevt/nf-winevt-evtcreatebookmark">EvtCreateBookmark</a> function.  You must set this parameter if the <i>Flags</i> parameter contains the EvtSubscribeStartAfterBookmark flag; otherwise, <b>NULL</b>.
 
 ### -param Context [in]
 
@@ -83,36 +83,35 @@ A caller-defined context value that the subscription service will pass to the sp
 
 ### -param Callback [in]
 
-Pointer to your <a href="https://docs.microsoft.com/windows/desktop/api/winevt/nc-winevt-evt_subscribe_callback">EVT_SUBSCRIBE_CALLBACK</a> callback function that will receive the subscription events. This parameter must be <b>NULL</b> if the <i>SignalEvent</i> parameter is not <b>NULL</b>.
+Pointer to your <a href="/windows/desktop/api/winevt/nc-winevt-evt_subscribe_callback">EVT_SUBSCRIBE_CALLBACK</a> callback function that will receive the subscription events. This parameter must be <b>NULL</b> if the <i>SignalEvent</i> parameter is not <b>NULL</b>.
 
 ### -param Flags [in]
 
-One or more flags that specify when to start subscribing to events. For example, if you specify EvtSubscribeStartAtOldestRecord, the service will retrieve all current and future events that match your query criteria; however, if you specify EvtSubscribeToFutureEvents, the service returns only future events that match your query criteria. For possible values, see the <a href="https://docs.microsoft.com/windows/desktop/api/winevt/ne-winevt-evt_subscribe_flags">EVT_SUBSCRIBE_FLAGS</a> enumeration.
+One or more flags that specify when to start subscribing to events. For example, if you specify EvtSubscribeStartAtOldestRecord, the service will retrieve all current and future events that match your query criteria; however, if you specify EvtSubscribeToFutureEvents, the service returns only future events that match your query criteria. For possible values, see the <a href="/windows/desktop/api/winevt/ne-winevt-evt_subscribe_flags">EVT_SUBSCRIBE_FLAGS</a> enumeration.
 
 ## -returns
 
-A handle to the subscription if successful; otherwise, <b>NULL</b>. If the function returns <b>NULL</b>, call the <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function to get the error code. You must call the <a href="https://docs.microsoft.com/windows/desktop/api/winevt/nf-winevt-evtclose">EvtClose</a> function with the subscription handle when done.
+A handle to the subscription if successful; otherwise, <b>NULL</b>. If the function returns <b>NULL</b>, call the <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function to get the error code. You must call the <a href="/windows/desktop/api/winevt/nf-winevt-evtclose">EvtClose</a> function with the subscription handle when done.
 
 ## -remarks
 
- To cancel the subscription, pass the returned subscription handle to the <a href="https://docs.microsoft.com/windows/desktop/api/winevt/nf-winevt-evtclose">EvtClose</a> function.
+ To cancel the subscription, pass the returned subscription handle to the <a href="/windows/desktop/api/winevt/nf-winevt-evtclose">EvtClose</a> function.
 
 There are two subscription models: the poll model and the push model. In the push model, you implement a subscription callback and set the <i>Callback</i> parameter to your implementation. The service will call your callback for each event that matches your query criteria (or if an error occurs).
 
-In the poll model, you create an event object that the service signals. When signaled, you call the <a href="https://docs.microsoft.com/windows/desktop/api/winevt/nf-winevt-evtnext">EvtNext</a> function using the subscription handle to enumerate the events. You must call the <a href="https://docs.microsoft.com/windows/desktop/api/winevt/nf-winevt-evtclose">EvtClose</a> function on each event that you enumerate. You then reset the object and wait for the service to signal again. This process repeats until you cancel the subscription.
+In the poll model, you create an event object that the service signals. When signaled, you call the <a href="/windows/desktop/api/winevt/nf-winevt-evtnext">EvtNext</a> function using the subscription handle to enumerate the events. You must call the <a href="/windows/desktop/api/winevt/nf-winevt-evtclose">EvtClose</a> function on each event that you enumerate. You then reset the object and wait for the service to signal again. This process repeats until you cancel the subscription.
 
 
 #### Examples
 
-For an example that shows how to use this function, see <a href="https://docs.microsoft.com/windows/desktop/WES/subscribing-to-events">Subscribing to Events</a>.
+For an example that shows how to use this function, see <a href="/windows/desktop/WES/subscribing-to-events">Subscribing to Events</a>.
 
 <div class="code"></div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winevt/nc-winevt-evt_subscribe_callback">EVT_SUBSCRIBE_CALLBACK</a>
+<a href="/windows/desktop/api/winevt/nc-winevt-evt_subscribe_callback">EVT_SUBSCRIBE_CALLBACK</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winevt/nf-winevt-evtquery">EvtQuery</a>
-
+<a href="/windows/desktop/api/winevt/nf-winevt-evtquery">EvtQuery</a>

@@ -52,7 +52,7 @@ api_name:
 ## -description
 
 Contains the output for the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_get_retrieval_pointers">FSCTL_GET_RETRIEVAL_POINTERS</a> control code.
+<a href="/windows/desktop/api/winioctl/ni-winioctl-fsctl_get_retrieval_pointers">FSCTL_GET_RETRIEVAL_POINTERS</a> control code.
 
 ## -struct-fields
 
@@ -76,23 +76,22 @@ Array of <b>Extents</b> structures. For the number of members in the array, see 
 
 #### NextVcn
 
-The VCN at which the next extent begins. This value minus either <b>StartingVcn</b> (for the first <b>Extents</b> array member) or the <b>NextVcn</b> of the previous member of the array (for all other <b>Extents</b> array members) is the length, in clusters, of the current extent. The length is an input to the <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_move_file">FSCTL_MOVE_FILE</a> operation.
+The VCN at which the next extent begins. This value minus either <b>StartingVcn</b> (for the first <b>Extents</b> array member) or the <b>NextVcn</b> of the previous member of the array (for all other <b>Extents</b> array members) is the length, in clusters, of the current extent. The length is an input to the <a href="/windows/desktop/api/winioctl/ni-winioctl-fsctl_move_file">FSCTL_MOVE_FILE</a> operation.
 
 
 
 #### Lcn
 
-The LCN at which the current extent begins on the volume. This value is an input to the <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_move_file">FSCTL_MOVE_FILE</a> operation. On the NTFS file system, the value (LONGLONG) –1 indicates either a compression unit that is partially allocated, or an unallocated region of a sparse file.
+The LCN at which the current extent begins on the volume. This value is an input to the <a href="/windows/desktop/api/winioctl/ni-winioctl-fsctl_move_file">FSCTL_MOVE_FILE</a> operation. On the NTFS file system, the value (LONGLONG) –1 indicates either a compression unit that is partially allocated, or an unallocated region of a sparse file.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/defragmenting-files">Defragmentation</a>
+<a href="/windows/desktop/FileIO/defragmenting-files">Defragmentation</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_get_retrieval_pointers">FSCTL_GET_RETRIEVAL_POINTERS</a>
+<a href="/windows/desktop/api/winioctl/ni-winioctl-fsctl_get_retrieval_pointers">FSCTL_GET_RETRIEVAL_POINTERS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_move_file">FSCTL_MOVE_FILE</a>
-
+<a href="/windows/desktop/api/winioctl/ni-winioctl-fsctl_move_file">FSCTL_MOVE_FILE</a>

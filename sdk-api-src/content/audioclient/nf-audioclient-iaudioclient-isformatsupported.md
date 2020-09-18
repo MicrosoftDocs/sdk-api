@@ -168,29 +168,28 @@ The Windows audio service is not running.
 
 ## -remarks
 
-This method provides a way for a client to determine, before calling <a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nf-audioclient-iaudioclient-initialize">IAudioClient::Initialize</a>, whether the audio engine supports a particular stream format.
+This method provides a way for a client to determine, before calling <a href="/windows/desktop/api/audioclient/nf-audioclient-iaudioclient-initialize">IAudioClient::Initialize</a>, whether the audio engine supports a particular stream format.
 
 For exclusive mode, <b>IsFormatSupported</b> returns S_OK if the audio endpoint device supports the caller-specified format, or it returns AUDCLNT_E_UNSUPPORTED_FORMAT if the device does not support the format. The <i>ppClosestMatch</i> parameter can be <b>NULL</b>. If it is not <b>NULL</b>, the method writes <b>NULL</b> to <i>*ppClosestMatch</i>.
 
 For shared mode, if the audio engine supports the caller-specified format, <b>IsFormatSupported</b> sets <b>*ppClosestMatch</b> to <b>NULL</b> and returns S_OK. If the audio engine does not support the caller-specified format but does support a similar format, the method retrieves the similar format through the <i>ppClosestMatch</i> parameter and returns S_FALSE. If the audio engine does not support the caller-specified format or any similar format, the method sets  <i>*ppClosestMatch</i> to <b>NULL</b> and returns AUDCLNT_E_UNSUPPORTED_FORMAT.
 
-In shared mode, the audio engine always supports the mix format, which the client can obtain by calling the <a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nf-audioclient-iaudioclient-getmixformat">IAudioClient::GetMixFormat</a> method. In addition, the audio engine might support similar formats that have the same sample rate and number of channels as the mix format but differ in the representation of audio sample values. The audio engine represents sample values internally as floating-point numbers, but if the caller-specified format represents sample values as integers, the audio engine typically can convert between the integer sample values and its internal floating-point representation.
+In shared mode, the audio engine always supports the mix format, which the client can obtain by calling the <a href="/windows/desktop/api/audioclient/nf-audioclient-iaudioclient-getmixformat">IAudioClient::GetMixFormat</a> method. In addition, the audio engine might support similar formats that have the same sample rate and number of channels as the mix format but differ in the representation of audio sample values. The audio engine represents sample values internally as floating-point numbers, but if the caller-specified format represents sample values as integers, the audio engine typically can convert between the integer sample values and its internal floating-point representation.
 
 The audio engine might be able to support an even wider range of shared-mode formats if the installation package for the audio device includes a local effects (LFX) audio processing object (APO) that can handle format conversions. An LFX APO is a software module that performs device-specific processing of an audio stream. The audio graph builder in the Windows audio service inserts the LFX APO into the stream between each client and the audio engine. When a client calls the <b>IsFormatSupported</b> method and the method determines that an LFX APO is installed for use with the device, the method directs the query to the LFX APO, which indicates whether it supports the caller-specified format.
 
 For example, a particular LFX APO might accept a 6-channel surround sound stream from a client and convert the stream to a stereo format that can be played through headphones. Typically, an LFX APO supports only client formats with sample rates that match the sample rate of the mix format.
 
-For more information about APOs, see the white papers titled "Custom Audio Effects in Windows Vista" and "Reusing the Windows Vista Audio System Effects" at the <a href="https://www.microsoft.com/whdc/device/audio/default.mspx">Audio Device Technologies for Windows</a> website. For more information about the <b>IsFormatSupported</b> method, see <a href="https://docs.microsoft.com/windows/desktop/CoreAudio/device-formats">Device Formats</a>.
+For more information about APOs, see the white papers titled "Custom Audio Effects in Windows Vista" and "Reusing the Windows Vista Audio System Effects" at the <a href="https://www.microsoft.com/whdc/device/audio/default.mspx">Audio Device Technologies for Windows</a> website. For more information about the <b>IsFormatSupported</b> method, see <a href="/windows/desktop/CoreAudio/device-formats">Device Formats</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nn-audioclient-iaudioclient">IAudioClient Interface</a>
+<a href="/windows/desktop/api/audioclient/nn-audioclient-iaudioclient">IAudioClient Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nf-audioclient-iaudioclient-getmixformat">IAudioClient::GetMixFormat</a>
+<a href="/windows/desktop/api/audioclient/nf-audioclient-iaudioclient-getmixformat">IAudioClient::GetMixFormat</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nf-audioclient-iaudioclient-initialize">IAudioClient::Initialize</a>
-
+<a href="/windows/desktop/api/audioclient/nf-audioclient-iaudioclient-initialize">IAudioClient::Initialize</a>

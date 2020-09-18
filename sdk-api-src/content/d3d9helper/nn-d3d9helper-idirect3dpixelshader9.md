@@ -55,7 +55,7 @@ Applications use the methods of the IDirect3DPixelShader9 interface to encapsula
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDirect3DPixelShader9</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDirect3DPixelShader9</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDirect3DPixelShader9</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDirect3DPixelShader9</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>IDirect3DPixelShader9</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3dpixelshader9-getdevice">GetDevice</a>
+<a href="/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3dpixelshader9-getdevice">GetDevice</a>
 </td>
 <td align="left" width="63%">
 Gets the device.
@@ -79,7 +79,7 @@ Gets the device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3dpixelshader9-getfunction">GetFunction</a>
+<a href="/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3dpixelshader9-getfunction">GetFunction</a>
 </td>
 <td align="left" width="63%">
 Gets a pointer to the shader data.
@@ -101,5 +101,4 @@ typedef struct IDirect3DPixelShader9 *LPDIRECT3DPIXELSHADER9, *PDIRECT3DPIXELSHA
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3d9/dx9-graphics-reference-d3d-interfaces">Direct3D Interfaces</a>
-
+<a href="/windows/desktop/direct3d9/dx9-graphics-reference-d3d-interfaces">Direct3D Interfaces</a>

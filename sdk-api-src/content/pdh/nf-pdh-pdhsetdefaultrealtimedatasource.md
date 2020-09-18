@@ -93,8 +93,8 @@ If the function succeeds, it returns ERROR_SUCCESS.
 						
 
 If the function fails, the return value is a 
-<a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a> or a 
-<a href="https://docs.microsoft.com/windows/desktop/PerfCtrs/pdh-error-codes">PDH error code</a>. The following is a possible value.
+<a href="/windows/desktop/Debug/system-error-codes">system error code</a> or a 
+<a href="/windows/desktop/PerfCtrs/pdh-error-codes">PDH error code</a>. The following is a possible value.
 
 <table>
 <tr>
@@ -122,5 +122,4 @@ If you want to query real-time data from WMI, you must call <b>PdhSetDefaultReal
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhselectdatasourcea">PdhSelectDataSource</a>
-
+<a href="/windows/desktop/api/pdh/nf-pdh-pdhselectdatasourcea">PdhSelectDataSource</a>

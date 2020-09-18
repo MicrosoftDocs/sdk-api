@@ -56,7 +56,7 @@ Saves an object to the specified stream.
 
 ### -param pStm [in]
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a> pointer to the stream into which the object should be saved.
+An <a href="/windows/desktop/api/objidl/nn-objidl-istream">IStream</a> pointer to the stream into which the object should be saved.
 
 ### -param fClearDirty [in]
 
@@ -89,7 +89,7 @@ The method completed successfully.
 </dl>
 </td>
 <td width="60%">
-The object could not save itself to the stream. This error could indicate, for example, that the object contains another object that is not serializable to a stream or that an <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-isequentialstream-write">ISequentialStream::Write</a> call returned STG_E_CANTSAVE.
+The object could not save itself to the stream. This error could indicate, for example, that the object contains another object that is not serializable to a stream or that an <a href="/windows/desktop/api/objidl/nf-objidl-isequentialstream-write">ISequentialStream::Write</a> call returned STG_E_CANTSAVE.
 
 </td>
 </tr>
@@ -110,7 +110,7 @@ The object could not be saved because there is no space left on the storage devi
 
 <b>IPersistStreamInit::Save</b> saves an object into the specified stream and indicates whether the object should reset its dirty flag.
 
-The seek pointer is positioned at the location in the stream at which the object should begin writing its data. The object calls the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-isequentialstream-write">ISequentialStream::Write</a> method to write its data.
+The seek pointer is positioned at the location in the stream at which the object should begin writing its data. The object calls the <a href="/windows/desktop/api/objidl/nf-objidl-isequentialstream-write">ISequentialStream::Write</a> method to write its data.
 
 On exit, the seek pointer must be positioned immediately past the object data. The position of the seek pointer is undefined if an error returns.
 
@@ -121,5 +121,4 @@ The <b>IPersistStreamInit::Save</b> method can read from, write to, and seek in 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-ipersiststreaminit">IPersistStreamInit</a>
-
+<a href="/windows/desktop/api/ocidl/nn-ocidl-ipersiststreaminit">IPersistStreamInit</a>

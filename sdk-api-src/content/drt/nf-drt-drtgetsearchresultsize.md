@@ -56,7 +56,7 @@ The <b>DrtGetSearchResultSize</b> function returns the size of the next availabl
 
 ### -param hSearchContext [in]
 
-Handle to the search context to close. This parameter is returned by the <a href="https://docs.microsoft.com/windows/desktop/api/drt/nf-drt-drtstartsearch">DrtStartSearch</a> function.
+Handle to the search context to close. This parameter is returned by the <a href="/windows/desktop/api/drt/nf-drt-drtstartsearch">DrtStartSearch</a> function.
 
 ### -param pulSearchResultSize [out]
 
@@ -141,9 +141,8 @@ The search is still in progress.
 
 ## -remarks
 
-The application will receive S_OK and continue to loop using the <b>DrtGetSearchResultSize</b> and <a href="https://docs.microsoft.com/windows/desktop/api/drt/nf-drt-drtgetsearchresult">DrtGetSearchResult</a> functions as long as the queue contains the search results. When the queue is empty the <b>DrtGetSearchResult</b> function will return DRT_E_SEARCH_IN_PROGRESS or DRT_E_NO_MORE.
+The application will receive S_OK and continue to loop using the <b>DrtGetSearchResultSize</b> and <a href="/windows/desktop/api/drt/nf-drt-drtgetsearchresult">DrtGetSearchResult</a> functions as long as the queue contains the search results. When the queue is empty the <b>DrtGetSearchResult</b> function will return DRT_E_SEARCH_IN_PROGRESS or DRT_E_NO_MORE.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/drt/nf-drt-drtstartsearch">DrtStartSearch</a>
-
+<a href="/windows/desktop/api/drt/nf-drt-drtstartsearch">DrtStartSearch</a>

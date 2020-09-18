@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-The <b>CM_Delete_Class_Key</b> function removes the specified installed <a href="https://docs.microsoft.com/windows-hardware/drivers/">device class</a> from the system.
+The <b>CM_Delete_Class_Key</b> function removes the specified installed <a href="/windows-hardware/drivers/">device class</a> from the system.
 
 ## -parameters
 
@@ -82,7 +82,7 @@ Delete the class and all of its subkeys.
 
 #### CM_DELETE_CLASS_INTERFACE (available only in Windows Vista and later)
 
-Indicates that <i>ClassGuid</i> specifies a <a href="https://msdn.microsoft.com/C989D2D3-E8DE-4D64-86EE-3D3B3906390D">device interface class</a> and not a <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-sp_devinfo_data">device setup class</a>.
+Indicates that <i>ClassGuid</i> specifies a <a href="https://msdn.microsoft.com/C989D2D3-E8DE-4D64-86EE-3D3B3906390D">device interface class</a> and not a <a href="/windows/desktop/api/setupapi/ns-setupapi-sp_devinfo_data">device setup class</a>.
 
 ## -returns
 
@@ -90,5 +90,4 @@ If the operation succeeds, the function returns CR_SUCCESS. Otherwise, it return
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_open_class_keyw">CM_Open_Class_Key</a>
-
+<a href="/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_open_class_keyw">CM_Open_Class_Key</a>

@@ -56,7 +56,7 @@ The <b>GetEASEventCodeLen</b> method returns the size of the EAS event code.
 
 ### -param pbVal [out]
 
-Receives the size of the EAS event code, in bytes. To get the event code, allocate a buffer of this size and call <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/atscpsipparser/nf-atscpsipparser-iscte_eas-geteaseventcode">ISCTE_EAS::GetEASEventCode</a>.
+Receives the size of the EAS event code, in bytes. To get the event code, allocate a buffer of this size and call <a href="/previous-versions/windows/desktop/api/atscpsipparser/nf-atscpsipparser-iscte_eas-geteaseventcode">ISCTE_EAS::GetEASEventCode</a>.
 
 ## -returns
 
@@ -74,7 +74,7 @@ The method returns an <b>HRESULT</b>. Possible values include, but are not limit
 </dl>
 </td>
 <td width="60%">
-The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/atscpsipparser/nf-atscpsipparser-iscte_eas-initialize">ISCTE_EAS::Initialize</a> method was not called.
+The <a href="/previous-versions/windows/desktop/api/atscpsipparser/nf-atscpsipparser-iscte_eas-initialize">ISCTE_EAS::Initialize</a> method was not called.
 
 </td>
 </tr>
@@ -93,5 +93,4 @@ The method succeeded.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/atscpsipparser/nn-atscpsipparser-iscte_eas">ISCTE_EAS Interface</a>
-
+<a href="/previous-versions/windows/desktop/api/atscpsipparser/nn-atscpsipparser-iscte_eas">ISCTE_EAS Interface</a>

@@ -60,9 +60,8 @@ This property is read/write.
 
 ## -remarks
 
-When the maximum number of samples is reached, PLA switches to a new log file and continues logging if the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorset-get_segment">IDataCollectorSet::Segment</a> property is VARIANT_TRUE; otherwise, PLA stops logging.
+When the maximum number of samples is reached, PLA switches to a new log file and continues logging if the <a href="/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorset-get_segment">IDataCollectorSet::Segment</a> property is VARIANT_TRUE; otherwise, PLA stops logging.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nn-pla-iperformancecounterdatacollector">IPerformanceCounterDataCollector</a>
-
+<a href="/previous-versions/windows/desktop/api/pla/nn-pla-iperformancecounterdatacollector">IPerformanceCounterDataCollector</a>

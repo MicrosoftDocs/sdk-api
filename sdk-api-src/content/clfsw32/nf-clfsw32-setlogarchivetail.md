@@ -56,13 +56,13 @@ Sets the last archived log sequence number (LSN) or <i>archive tail</i> of an ar
 
 ### -param hLog [in]
 
-A handle to the log that is obtained from <a href="https://docs.microsoft.com/windows/desktop/api/clfsw32/nf-clfsw32-createlogfile">CreateLogFile</a>.  
+A handle to the log that is obtained from <a href="/windows/desktop/api/clfsw32/nf-clfsw32-createlogfile">CreateLogFile</a>.  
 
 The log handle can refer to a dedicated or multiplexed log.
 
 ### -param plsnArchiveTail [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/clfs/ns-clfs-cls_lsn">CLFS_LSN</a> structure that specifies a valid physical LSN in the log.
+A pointer to a <a href="/windows/desktop/api/clfs/ns-clfs-cls_lsn">CLFS_LSN</a> structure that specifies a valid physical LSN in the log.
 
 
 <div class="alert"><b>Note</b>  For handles to both a physical log or a log stream, <i>plsnArchiveTail</i> is a physical LSN, because it refers to a record address in the physical log.</div>
@@ -78,31 +78,30 @@ If the function succeeds, the return value is nonzero.
 						
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. 
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. 
 
 The following  list identifies the possible error codes:
 
 ## -remarks
 
-If there are any archive contexts obtained from <a href="https://docs.microsoft.com/windows/desktop/api/clfsw32/nf-clfsw32-preparelogarchive">PrepareLogArchive</a> that are not terminated with <a href="https://docs.microsoft.com/windows/desktop/api/clfsw32/nf-clfsw32-terminatelogarchive">TerminateLogArchive</a>, the change does not take effect until all archives are complete. While there are outstanding archive contexts, only the greatest archive tail is applied.
+If there are any archive contexts obtained from <a href="/windows/desktop/api/clfsw32/nf-clfsw32-preparelogarchive">PrepareLogArchive</a> that are not terminated with <a href="/windows/desktop/api/clfsw32/nf-clfsw32-terminatelogarchive">TerminateLogArchive</a>, the change does not take effect until all archives are complete. While there are outstanding archive contexts, only the greatest archive tail is applied.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clfs/ns-clfs-cls_lsn">CLFS_LSN</a>
+<a href="/windows/desktop/api/clfs/ns-clfs-cls_lsn">CLFS_LSN</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/clfs/common-log-file-system-functions">Common Log File System Functions</a>
+<a href="/previous-versions/windows/desktop/clfs/common-log-file-system-functions">Common Log File System Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a>
+<a href="/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clfsw32/nf-clfsw32-removelogcontainer">RemoveLogContainer</a>
+<a href="/windows/desktop/api/clfsw32/nf-clfsw32-removelogcontainer">RemoveLogContainer</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clfsw32/nf-clfsw32-removelogcontainerset">RemoveLogContainerSet</a>
-
+<a href="/windows/desktop/api/clfsw32/nf-clfsw32-removelogcontainerset">RemoveLogContainerSet</a>

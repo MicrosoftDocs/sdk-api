@@ -55,21 +55,21 @@ api_name:
 
 ## -description
 
-Deprecated. Data used in <a href="/windows/win32/api/shdeprecated/nf-shdeprecated-ibrowserservice2-_gettoolbaritem">IBrowserService2::_GetToolbarItem</a>, <a href="https://docs.microsoft.com/windows/desktop/api/shdeprecated/nf-shdeprecated-ibrowserservice2-v_maygetnexttoolbarfocus">IBrowserService2::v_MayGetNextToolbarFocus</a>, and <a href="/windows/win32/api/shdeprecated/nf-shdeprecated-ibrowserservice2-_setfocus">IBrowserService2::_SetFocus</a> to define a toolbar item.
+Deprecated. Data used in <a href="/windows/win32/api/shdeprecated/nf-shdeprecated-ibrowserservice2-_gettoolbaritem">IBrowserService2::_GetToolbarItem</a>, <a href="/windows/desktop/api/shdeprecated/nf-shdeprecated-ibrowserservice2-v_maygetnexttoolbarfocus">IBrowserService2::v_MayGetNextToolbarFocus</a>, and <a href="/windows/win32/api/shdeprecated/nf-shdeprecated-ibrowserservice2-_setfocus">IBrowserService2::_SetFocus</a> to define a toolbar item.
 
 ## -struct-fields
 
 ### -field ptbar
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-idockingwindow">IDockingWindow</a>*</b>
+Type: <b><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-idockingwindow">IDockingWindow</a>*</b>
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-idockingwindow">IDockingWindow</a> of the item's particular toolbar.
+The <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-idockingwindow">IDockingWindow</a> of the item's particular toolbar.
 
 ### -field rcBorderTool
 
-Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/cc136564(v=vs.85)">BORDERWIDTHS</a></b>
+Type: <b><a href="/previous-versions/windows/desktop/legacy/cc136564(v=vs.85)">BORDERWIDTHS</a></b>
 
-A <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/cc136564(v=vs.85)">BORDERWIDTHS</a> structure that contains the dimensions of the item, including its borders.
+A <a href="/previous-versions/windows/desktop/legacy/cc136564(v=vs.85)">BORDERWIDTHS</a> structure that contains the dimensions of the item, including its borders.
 
 ### -field pwszItem
 
@@ -88,4 +88,3 @@ Type: <b>BOOL</b>
 Type: <b>HMONITOR</b>
 
 The handle of the monitor on which the toolbar item appears.
-

@@ -66,7 +66,7 @@ The object type. This parameter can be OBJ_BRUSH or OBJ_PEN.
 
 ### -param lpFunc [in]
 
-A pointer to the application-defined callback function. For more information about the callback function, see the <a href="https://docs.microsoft.com/previous-versions/dd162686(v=vs.85)">EnumObjectsProc</a> function.
+A pointer to the application-defined callback function. For more information about the callback function, see the <a href="/previous-versions/dd162686(v=vs.85)">EnumObjectsProc</a> function.
 
 ### -param lParam [in]
 
@@ -80,17 +80,16 @@ If the objects cannot be enumerated (for example, there are too many objects), t
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/device-context-functions">Device Context Functions</a>
+<a href="/windows/desktop/gdi/device-context-functions">Device Context Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/device-contexts">Device Contexts Overview</a>
+<a href="/windows/desktop/gdi/device-contexts">Device Contexts Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/dd162686(v=vs.85)">EnumObjectsProc</a>
+<a href="/previous-versions/dd162686(v=vs.85)">EnumObjectsProc</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getobject">GetObject</a>
-
+<a href="/windows/desktop/api/wingdi/nf-wingdi-getobject">GetObject</a>

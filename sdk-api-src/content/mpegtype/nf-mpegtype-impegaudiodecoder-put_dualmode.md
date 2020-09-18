@@ -114,5 +114,4 @@ This method is useful for karaoke discs in Video CD (VCD) format that have two m
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mpegtype/nn-mpegtype-impegaudiodecoder">IMpegAudioDecoder</a>
-
+<a href="/windows/desktop/api/mpegtype/nn-mpegtype-impegaudiodecoder">IMpegAudioDecoder</a>

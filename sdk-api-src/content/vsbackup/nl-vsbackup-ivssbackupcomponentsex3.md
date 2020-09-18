@@ -54,13 +54,13 @@ Defines additional methods that
     requesters can use to perform LUN resynchronization and return extended writer status information.
 
 To obtain an instance of the <b>IVssBackupComponentsEx3</b> 
-   interface, call the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> method of the 
-   <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nl-vsbackup-ivssbackupcomponents">IVssBackupComponents</a> interface, and pass 
+   interface, call the <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> method of the 
+   <a href="/windows/desktop/api/vsbackup/nl-vsbackup-ivssbackupcomponents">IVssBackupComponents</a> interface, and pass 
    the <b>IID_IVssBackupComponentsEx3</b> constant as the interface identifier (IID) parameter.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVssBackupComponentsEx3</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nl-vsbackup-ivssbackupcomponentsex2">IVssBackupComponentsEx2</a>, <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nl-vsbackup-ivssbackupcomponentsex">IVssBackupComponentsEx</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nl-vsbackup-ivssbackupcomponents">IVssBackupComponents</a>. <b>IVssBackupComponentsEx3</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVssBackupComponentsEx3</b> interface inherits from <a href="/windows/desktop/api/vsbackup/nl-vsbackup-ivssbackupcomponentsex2">IVssBackupComponentsEx2</a>, <a href="/windows/desktop/api/vsbackup/nl-vsbackup-ivssbackupcomponentsex">IVssBackupComponentsEx</a>, and <a href="/windows/desktop/api/vsbackup/nl-vsbackup-ivssbackupcomponents">IVssBackupComponents</a>. <b>IVssBackupComponentsEx3</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -75,7 +75,7 @@ The <b>IVssBackupComponentsEx3</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponentsex3-addsnapshottorecoveryset">AddSnapshotToRecoverySet</a>
+<a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponentsex3-addsnapshottorecoveryset">AddSnapshotToRecoverySet</a>
 </td>
 <td align="left" width="63%">
 Specifies the volumes to be included in a LUN resynchronization operation. This method is supported only on Windows server operating systems.
@@ -84,7 +84,7 @@ Specifies the volumes to be included in a LUN resynchronization operation. This 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponentsex3-getsessionid">GetSessionId</a>
+<a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponentsex3-getsessionid">GetSessionId</a>
 </td>
 <td align="left" width="63%">
 Returns the requester's session identifier.
@@ -93,7 +93,7 @@ Returns the requester's session identifier.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponentsex3-getwriterstatusex">GetWriterStatusEx</a>
+<a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponentsex3-getwriterstatusex">GetWriterStatusEx</a>
 </td>
 <td align="left" width="63%">
 Returns extended status information for the specified writer.
@@ -102,7 +102,7 @@ Returns extended status information for the specified writer.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponentsex3-recoverset">RecoverSet</a>
+<a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponentsex3-recoverset">RecoverSet</a>
 </td>
 <td align="left" width="63%">
 Initiates a LUN resynchronization operation. This method is supported only on Windows server operating systems.
@@ -113,13 +113,12 @@ Initiates a LUN resynchronization operation. This method is supported only on Wi
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nl-vsbackup-ivssbackupcomponents">IVssBackupComponents</a>
+<a href="/windows/desktop/api/vsbackup/nl-vsbackup-ivssbackupcomponents">IVssBackupComponents</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nl-vsbackup-ivssbackupcomponentsex">IVssBackupComponentsEx</a>
+<a href="/windows/desktop/api/vsbackup/nl-vsbackup-ivssbackupcomponentsex">IVssBackupComponentsEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nl-vsbackup-ivssbackupcomponentsex2">IVssBackupComponentsEx2</a>
-
+<a href="/windows/desktop/api/vsbackup/nl-vsbackup-ivssbackupcomponentsex2">IVssBackupComponentsEx2</a>

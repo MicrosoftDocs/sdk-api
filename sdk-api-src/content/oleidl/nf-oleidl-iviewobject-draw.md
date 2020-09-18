@@ -56,11 +56,11 @@ Draws a representation of an object onto the specified device context.
 
 ### -param dwDrawAspect [in]
 
-Specifies the aspect to be drawn, that is, how the object is to be represented. Representations include content, an icon, a thumbnail, or a printed document. Valid values are taken from the enumerations <a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ne-wtypes-dvaspect">DVASPECT</a> and <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/ne-ocidl-dvaspect2">DVASPECT2</a>. Note that newer objects and containers that support optimized drawing interfaces support the <b>DVASPECT2</b> enumeration values. Older objects and containers that do not support optimized drawing interfaces may not support <b>DVASPECT2</b>. Windowless objects allow only <b>DVASPECT</b>_CONTENT, <b>DVASPECT</b>_OPAQUE, and <b>DVASPECT</b>_TRANSPARENT.
+Specifies the aspect to be drawn, that is, how the object is to be represented. Representations include content, an icon, a thumbnail, or a printed document. Valid values are taken from the enumerations <a href="/windows/desktop/api/wtypes/ne-wtypes-dvaspect">DVASPECT</a> and <a href="/windows/desktop/api/ocidl/ne-ocidl-dvaspect2">DVASPECT2</a>. Note that newer objects and containers that support optimized drawing interfaces support the <b>DVASPECT2</b> enumeration values. Older objects and containers that do not support optimized drawing interfaces may not support <b>DVASPECT2</b>. Windowless objects allow only <b>DVASPECT</b>_CONTENT, <b>DVASPECT</b>_OPAQUE, and <b>DVASPECT</b>_TRANSPARENT.
 
 ### -param lindex [in]
 
-Portion of the object that is of interest for the draw operation. Its interpretation varies depending on the value in the dwAspect parameter. See the <a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ne-wtypes-dvaspect">DVASPECT</a> enumeration for more information.
+Portion of the object that is of interest for the draw operation. Its interpretation varies depending on the value in the dwAspect parameter. See the <a href="/windows/desktop/api/wtypes/ne-wtypes-dvaspect">DVASPECT</a> enumeration for more information.
 
 ### -param pvAspect [in]
 
@@ -68,7 +68,7 @@ Pointer to additional information in a <a href="/windows/win32/api/ocidl/ns-ocid
 
 ### -param ptd [in]
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-dvtargetdevice">DVTARGETDEVICE</a> structure that describes the device for which the object is to be rendered. If <b>NULL</b>, the view should be rendered for the default target device (typically the display). A value other than <b>NULL</b> is interpreted in conjunction with <i>hdcTargetDev</i> and <i>hdcDraw</i>. For example, if <i>hdcDraw</i> specifies a printer as the device context, the <i>ptd</i> parameter points to a structure describing that printer device. The data may actually be printed if <i>hdcTargetDev</i> is a valid value or it may be displayed in print preview mode if <i>hdcTargetDev</i> is <b>NULL</b>.
+Pointer to the <a href="/windows/desktop/api/objidl/ns-objidl-dvtargetdevice">DVTARGETDEVICE</a> structure that describes the device for which the object is to be rendered. If <b>NULL</b>, the view should be rendered for the default target device (typically the display). A value other than <b>NULL</b> is interpreted in conjunction with <i>hdcTargetDev</i> and <i>hdcDraw</i>. For example, if <i>hdcDraw</i> specifies a printer as the device context, the <i>ptd</i> parameter points to a structure describing that printer device. The data may actually be printed if <i>hdcTargetDev</i> is a valid value or it may be displayed in print preview mode if <i>hdcTargetDev</i> is <b>NULL</b>.
 
 ### -param hdcTargetDev [in]
 
@@ -181,28 +181,28 @@ Invalid rectangle.
 
 A container application issues a call to <b>IViewObject::Draw</b> to create a representation of a contained object. This method draws the specified piece (<i>lindex</i>) of the specified view (<i>dwAspect</i> and <i>pvAspect</i>) on the specified device context (<i>hdcDraw</i>). Formatting, fonts, and other rendering decisions are made on the basis of the target device specified by the ptd parameter.
 
-There is a relationship between the <i>dwDrawAspect</i> value and the <i>lprcbounds</i> value. The <i>lprcbounds</i> value specifies the rectangle on <i>hdcDraw</i> into which the drawing is to be mapped. For <a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ne-wtypes-dvaspect">DVASPECT</a>_THUMBNAIL, <b>DVASPECT</b>_ICON, and <b>DVASPECT</b>_SMALLICON, the object draws whatever it wants to draw, and it maps it into the space given in the best way. Some objects might scale to fit while some might scale to fit but preserve the aspect ratio. In addition, some might scale so the drawing appears at full width, but the bottom is cropped. The container can suggest a size via <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleobject-setextent">IOleObject::SetExtent</a>, but it has no control over the rendering size. In the case of <b>DVASPECT</b>_CONTENT, the <b>IViewObject::Draw</b> implementation should either use the extents given by <b>IOleObject::SetExtent</b> or use the bounding rectangle given in the <i>lprcBounds</i> parameter.
+There is a relationship between the <i>dwDrawAspect</i> value and the <i>lprcbounds</i> value. The <i>lprcbounds</i> value specifies the rectangle on <i>hdcDraw</i> into which the drawing is to be mapped. For <a href="/windows/desktop/api/wtypes/ne-wtypes-dvaspect">DVASPECT</a>_THUMBNAIL, <b>DVASPECT</b>_ICON, and <b>DVASPECT</b>_SMALLICON, the object draws whatever it wants to draw, and it maps it into the space given in the best way. Some objects might scale to fit while some might scale to fit but preserve the aspect ratio. In addition, some might scale so the drawing appears at full width, but the bottom is cropped. The container can suggest a size via <a href="/windows/desktop/api/oleidl/nf-oleidl-ioleobject-setextent">IOleObject::SetExtent</a>, but it has no control over the rendering size. In the case of <b>DVASPECT</b>_CONTENT, the <b>IViewObject::Draw</b> implementation should either use the extents given by <b>IOleObject::SetExtent</b> or use the bounding rectangle given in the <i>lprcBounds</i> parameter.
 
 For newer objects that support optimized drawing techniques and for windowless objects, this method should be used as follows:
 
 <ul>
-<li>New drawing aspects are supported in <i>dwAspect</i> as defined in <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/ne-ocidl-dvaspect2">DVASPECT2</a>.</li>
+<li>New drawing aspects are supported in <i>dwAspect</i> as defined in <a href="/windows/desktop/api/ocidl/ne-ocidl-dvaspect2">DVASPECT2</a>.</li>
 <li>The pvAspect parameter can be used to pass additional information allowing drawing optimizations through the <a href="/windows/win32/api/ocidl/ns-ocidl-dvaspectinfo">DVASPECTINFO</a> structure.</li>
-<li>The <b>IViewObject::Draw</b> method can be called to redraw a windowless in-place active object by setting the <i>lrpcBounds</i> parameter to <b>NULL</b>. In every other situation, <b>NULL</b> is an illegal value and should result in an E_INVALIDARG error code. A windowless object uses the rectangle passed by the activation verb or calls <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleinplaceobject-setobjectrects">IOleInPlaceObject::SetObjectRects</a> instead of using this parameter. If the container passes a non-<b>NULL</b> value to a windowless object, the object should render the requested aspect into the specified device context and rectangle. A container can request this from a windowless object to render a second, non-active view of the object or to print the object. See the <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-ioleinplacesitewindowless">IOleInPlaceSiteWindowless</a> interface for more information on drawing windowless objects.</li>
-<li>For windowless objects, the <i>dwAspect</i> parameter only allows the <a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ne-wtypes-dvaspect">DVASPECT</a>_CONTENT, <b>DVASPECT</b>_OPAQUE, and <b>DVASPECT</b>_TRANSPARENT aspects.</li>
+<li>The <b>IViewObject::Draw</b> method can be called to redraw a windowless in-place active object by setting the <i>lrpcBounds</i> parameter to <b>NULL</b>. In every other situation, <b>NULL</b> is an illegal value and should result in an E_INVALIDARG error code. A windowless object uses the rectangle passed by the activation verb or calls <a href="/windows/desktop/api/oleidl/nf-oleidl-ioleinplaceobject-setobjectrects">IOleInPlaceObject::SetObjectRects</a> instead of using this parameter. If the container passes a non-<b>NULL</b> value to a windowless object, the object should render the requested aspect into the specified device context and rectangle. A container can request this from a windowless object to render a second, non-active view of the object or to print the object. See the <a href="/windows/desktop/api/ocidl/nn-ocidl-ioleinplacesitewindowless">IOleInPlaceSiteWindowless</a> interface for more information on drawing windowless objects.</li>
+<li>For windowless objects, the <i>dwAspect</i> parameter only allows the <a href="/windows/desktop/api/wtypes/ne-wtypes-dvaspect">DVASPECT</a>_CONTENT, <b>DVASPECT</b>_OPAQUE, and <b>DVASPECT</b>_TRANSPARENT aspects.</li>
 <li>For a windowless object, the hdcDraw parameter should be in MM_TEXT mapping mode with its logical coordinates matching the client coordinates of the containing window. For a windowless object, the device context should be in the same state as the one normally passed by a WM_PAINT message.</li>
 </ul>
 To maintain compatibility with older objects and containers that do not support drawing optimizations, all objects, rectangular or not, are required to maintain an origin and a rectangular extent. This allows the container to still consider all its embedded objects as rectangles and to pass them appropriate rendering rectangles in <b>Draw</b>.
 
-An object's extent depends on the drawing aspect. For non-rectangular objects, the extent should be the size of a rectangle covering the entire aspect. By convention, the origin of an object is the top-left corner of the rectangle of the <a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ne-wtypes-dvaspect">DVASPECT</a>_CONTENT aspect. In other words, the origin always coincides with the top-left corner of the rectangle maintained by the object's site, even for a non-rectangular object.
+An object's extent depends on the drawing aspect. For non-rectangular objects, the extent should be the size of a rectangle covering the entire aspect. By convention, the origin of an object is the top-left corner of the rectangle of the <a href="/windows/desktop/api/wtypes/ne-wtypes-dvaspect">DVASPECT</a>_CONTENT aspect. In other words, the origin always coincides with the top-left corner of the rectangle maintained by the object's site, even for a non-rectangular object.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ne-wtypes-dvaspect">DVASPECT</a>
+<a href="/windows/desktop/api/wtypes/ne-wtypes-dvaspect">DVASPECT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/ne-ocidl-dvaspect2">DVASPECT2</a>
+<a href="/windows/desktop/api/ocidl/ne-ocidl-dvaspect2">DVASPECT2</a>
 
 
 
@@ -210,13 +210,12 @@ An object's extent depends on the drawing aspect. For non-rectangular objects, t
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-ioleinplacesitewindowless">IOleInPlaceSiteWindowless</a>
+<a href="/windows/desktop/api/ocidl/nn-ocidl-ioleinplacesitewindowless">IOleInPlaceSiteWindowless</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-iviewobject">IViewObject</a>
+<a href="/windows/desktop/api/oleidl/nn-oleidl-iviewobject">IViewObject</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ole/nf-ole-oledraw">OleDraw</a>
-
+<a href="/windows/desktop/api/ole/nf-ole-oledraw">OleDraw</a>

@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-Contains the wallpaper display options. Used with members of the <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nn-shlobj_core-iactivedesktop">IActiveDesktop</a> interface.
+Contains the wallpaper display options. Used with members of the <a href="/windows/desktop/api/shlobj_core/nn-shlobj_core-iactivedesktop">IActiveDesktop</a> interface.
 
 ## -struct-fields
 
@@ -109,4 +109,3 @@ The wallpaper style; one of the following values:
 #### WPSTYLE_MAX
 
 The maximum legitimate value of these flags, used for validation purposes.
-

@@ -75,7 +75,7 @@ When this function returns, contains the text range that the node spans.
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 Returns S_OK if successful or an error value otherwise.
 
@@ -83,4 +83,3 @@ Returns S_OK if successful or an error value otherwise.
 
 As an example of how this function might be used, 
 a client can pass in an embedded hyperlink control and receive the range of text that it spans.
-

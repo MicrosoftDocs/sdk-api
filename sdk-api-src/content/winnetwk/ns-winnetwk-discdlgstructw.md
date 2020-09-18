@@ -58,7 +58,7 @@ api_name:
 
 The
 				<b>DISCDLGSTRUCT</b> structure is used in the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnetwk/nf-winnetwk-wnetdisconnectdialog1a">WNetDisconnectDialog1</a> function. The structure contains required information for the disconnect attempt.
+<a href="/windows/desktop/api/winnetwk/nf-winnetwk-wnetdisconnectdialog1a">WNetDisconnectDialog1</a> function. The structure contains required information for the disconnect attempt.
 
 ## -struct-fields
 
@@ -129,18 +129,17 @@ This situation typically occurs when the user has files open over the connection
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnetwk/nf-winnetwk-wnetdisconnectdialog1a">WNetDisconnectDialog1</a>
+<a href="/windows/desktop/api/winnetwk/nf-winnetwk-wnetdisconnectdialog1a">WNetDisconnectDialog1</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WNet/windows-networking-wnet-">Windows Networking (WNet) Overview</a>
+<a href="/windows/desktop/WNet/windows-networking-wnet-">Windows Networking (WNet) Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WNet/windows-networking-structures">Windows Networking Structures</a>
+<a href="/windows/desktop/WNet/windows-networking-structures">Windows Networking Structures</a>
 
 ## -remarks
 
 > [!NOTE]
 > The winnetwk.h header defines DISCDLGSTRUCT as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

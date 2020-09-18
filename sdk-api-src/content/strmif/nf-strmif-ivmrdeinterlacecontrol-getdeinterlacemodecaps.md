@@ -57,15 +57,15 @@ The <b>GetDeinterlaceModeCaps</b> method retrieves the capabilities of a specifi
 
 ### -param lpDeinterlaceMode [in]
 
-Pointer to a GUID that identifies the deinterlacing mode. Call the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ivmrdeinterlacecontrol-getnumberofdeinterlacemodes">GetNumberOfDeinterlaceModes</a> method to obtain a list of GUIDs supported by the driver.
+Pointer to a GUID that identifies the deinterlacing mode. Call the <a href="/windows/desktop/api/strmif/nf-strmif-ivmrdeinterlacecontrol-getnumberofdeinterlacemodes">GetNumberOfDeinterlaceModes</a> method to obtain a list of GUIDs supported by the driver.
 
 ### -param lpVideoDescription [in]
 
-Pointer to a [VMRVideoDesc](https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-vmrvideodesc) structure describing the video to deinterlace. Set the <b>dwSize</b> member of the structure before calling the method.
+Pointer to a [VMRVideoDesc](/windows/desktop/api/strmif/ns-strmif-vmrvideodesc) structure describing the video to deinterlace. Set the <b>dwSize</b> member of the structure before calling the method.
 
 ### -param lpDeinterlaceCaps [out]
 
-Pointer to a [VMRDeinterlaceCaps](https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-vmrdeinterlacecaps) structure. Set the <b>dwSize</b> member of the structure before calling the method. The method fills the structure with information about the specified deinterlacing mode.
+Pointer to a [VMRDeinterlaceCaps](/windows/desktop/api/strmif/ns-strmif-vmrdeinterlacecaps) structure. Set the <b>dwSize</b> member of the structure before calling the method. The method fills the structure with information about the specified deinterlacing mode.
 
 ## -returns
 
@@ -146,17 +146,16 @@ The VMR is not in mixer mode.
 
 ## -remarks
 
-The method returns [VMRVideoDesc](https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-vmrvideodesc) and [VMRDeinterlaceCaps](https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-vmrdeinterlacecaps) structures.
+The method returns [VMRVideoDesc](/windows/desktop/api/strmif/ns-strmif-vmrvideodesc) and [VMRDeinterlaceCaps](/windows/desktop/api/strmif/ns-strmif-vmrdeinterlacecaps) structures.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ivmrdeinterlacecontrol">IVMRDeinterlaceControl Interface</a>
+<a href="/windows/desktop/api/strmif/nn-strmif-ivmrdeinterlacecontrol">IVMRDeinterlaceControl Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/using-the-video-mixing-renderer">Using the Video Mixing Renderer</a>
-
+<a href="/windows/desktop/DirectShow/using-the-video-mixing-renderer">Using the Video Mixing Renderer</a>

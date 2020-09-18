@@ -89,9 +89,8 @@ The local node bootstrapped, but found no other nodes in the cloud. This can als
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/P2PSdk/pnrp-and-wsalookupservicenext">PNRP and WSALookupServiceNext</a>
+<a href="/windows/desktop/P2PSdk/pnrp-and-wsalookupservicenext">PNRP and WSALookupServiceNext</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/pnrpns/ns-pnrpns-pnrpcloudinfo">PNRPCLOUDINFO</a>
-
+<a href="/windows/desktop/api/pnrpns/ns-pnrpns-pnrpcloudinfo">PNRPCLOUDINFO</a>

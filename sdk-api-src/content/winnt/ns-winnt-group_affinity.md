@@ -72,13 +72,12 @@ This member is reserved.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-cache_relationship">CACHE_RELATIONSHIP</a>
+<a href="/windows/desktop/api/winnt/ns-winnt-cache_relationship">CACHE_RELATIONSHIP</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-numa_node_relationship">NUMA_NODE_RELATIONSHIP</a>
+<a href="/windows/desktop/api/winnt/ns-winnt-numa_node_relationship">NUMA_NODE_RELATIONSHIP</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-processor_relationship">PROCESSOR_RELATIONSHIP</a>
-
+<a href="/windows/desktop/api/winnt/ns-winnt-processor_relationship">PROCESSOR_RELATIONSHIP</a>

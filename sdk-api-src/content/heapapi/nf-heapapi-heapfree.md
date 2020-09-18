@@ -57,21 +57,21 @@ api_name:
 ## -description
 
 Frees a memory block allocated from a heap by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/heapapi/nf-heapapi-heapalloc">HeapAlloc</a> or 
-<a href="https://docs.microsoft.com/windows/desktop/api/heapapi/nf-heapapi-heaprealloc">HeapReAlloc</a> function.
+<a href="/windows/desktop/api/heapapi/nf-heapapi-heapalloc">HeapAlloc</a> or 
+<a href="/windows/desktop/api/heapapi/nf-heapapi-heaprealloc">HeapReAlloc</a> function.
 
 ## -parameters
 
 ### -param hHeap [in]
 
 A handle to the heap whose memory block is to be freed. This handle is returned by either the 
-<a href="https://docs.microsoft.com/windows/desktop/api/heapapi/nf-heapapi-heapcreate">HeapCreate</a> or 
-<a href="https://docs.microsoft.com/windows/desktop/api/heapapi/nf-heapapi-getprocessheap">GetProcessHeap</a> function.
+<a href="/windows/desktop/api/heapapi/nf-heapapi-heapcreate">HeapCreate</a> or 
+<a href="/windows/desktop/api/heapapi/nf-heapapi-getprocessheap">GetProcessHeap</a> function.
 
 ### -param dwFlags [in]
 
 The heap free options. Specifying the following value overrides the corresponding value specified in the <i>flOptions</i> parameter when the heap was created by using the 
-<a href="https://docs.microsoft.com/windows/desktop/api/heapapi/nf-heapapi-heapcreate">HeapCreate</a> function. 
+<a href="/windows/desktop/api/heapapi/nf-heapapi-heapcreate">HeapCreate</a> function. 
 
 
 
@@ -89,7 +89,7 @@ The heap free options. Specifying the following value overrides the correspondin
 <td width="60%">
 Serialized access will not be used. For more information, see Remarks.
 
-To ensure that serialized access is disabled for all calls to this function, specify <b>HEAP_NO_SERIALIZE</b> in the call to <a href="https://docs.microsoft.com/windows/desktop/api/heapapi/nf-heapapi-heapcreate">HeapCreate</a>. In this case, it is not necessary to additionally specify <b>HEAP_NO_SERIALIZE</b> in this function call.
+To ensure that serialized access is disabled for all calls to this function, specify <b>HEAP_NO_SERIALIZE</b> in the call to <a href="/windows/desktop/api/heapapi/nf-heapapi-heapcreate">HeapCreate</a>. In this case, it is not necessary to additionally specify <b>HEAP_NO_SERIALIZE</b> in this function call.
 
 Do not specify this value when accessing the process heap. The system may create additional threads within the application's process, such as a CTRL+C handler, that simultaneously access the process heap.
 
@@ -100,21 +100,21 @@ Do not specify this value when accessing the process heap. The system may create
 ### -param lpMem [in]
 
 A pointer to the memory block to be freed. This pointer is returned by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/heapapi/nf-heapapi-heapalloc">HeapAlloc</a> or 
-<a href="https://docs.microsoft.com/windows/desktop/api/heapapi/nf-heapapi-heaprealloc">HeapReAlloc</a> function. If this pointer is <b>NULL</b>, the behavior is undefined.
+<a href="/windows/desktop/api/heapapi/nf-heapapi-heapalloc">HeapAlloc</a> or 
+<a href="/windows/desktop/api/heapapi/nf-heapapi-heaprealloc">HeapReAlloc</a> function. If this pointer is <b>NULL</b>, the behavior is undefined.
 
 ## -returns
 
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. An application can call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> for extended error information.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> for extended error information.
 
 ## -remarks
 
 You should not refer in any way to memory that has been freed by 
 <b>HeapFree</b>. After that memory is freed, any information that may have been in it is gone forever. If you require information, do not free memory containing the information. Function calls that return information about memory (such as 
-<a href="https://docs.microsoft.com/windows/desktop/api/heapapi/nf-heapapi-heapsize">HeapSize</a>) may not be used with freed memory, as they may return bogus data. Calling <b>HeapFree</b> twice with the same pointer can cause heap corruption, resulting in subsequent calls to <a href="https://docs.microsoft.com/windows/desktop/api/heapapi/nf-heapapi-heapalloc">HeapAlloc</a> returning the same pointer twice.
+<a href="/windows/desktop/api/heapapi/nf-heapapi-heapsize">HeapSize</a>) may not be used with freed memory, as they may return bogus data. Calling <b>HeapFree</b> twice with the same pointer can cause heap corruption, resulting in subsequent calls to <a href="/windows/desktop/api/heapapi/nf-heapapi-heapalloc">HeapAlloc</a> returning the same pointer twice.
 
 Serialization ensures mutual exclusion when two or more threads attempt to simultaneously allocate or free blocks from the same heap. There is a small performance cost to serialization, but it must be used whenever multiple threads allocate and free memory from the same heap. Setting the <b>HEAP_NO_SERIALIZE</b> value eliminates mutual exclusion on the heap. Without serialization, two or more threads that use the same heap handle might attempt to allocate or free memory simultaneously, likely causing corruption in the heap. The <b>HEAP_NO_SERIALIZE</b> value can, therefore, be safely used only in the following situations:
 
@@ -126,24 +126,23 @@ Serialization ensures mutual exclusion when two or more threads attempt to simul
 
 #### Examples
 
-For an example, see <a href="https://docs.microsoft.com/windows/desktop/Memory/getting-process-heaps">Getting Process Heaps</a>.
+For an example, see <a href="/windows/desktop/Memory/getting-process-heaps">Getting Process Heaps</a>.
 
 <div class="code"></div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Memory/heap-functions">Heap Functions</a>
+<a href="/windows/desktop/Memory/heap-functions">Heap Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/heapapi/nf-heapapi-heapalloc">HeapAlloc</a>
+<a href="/windows/desktop/api/heapapi/nf-heapapi-heapalloc">HeapAlloc</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/heapapi/nf-heapapi-heaprealloc">HeapReAlloc</a>
+<a href="/windows/desktop/api/heapapi/nf-heapapi-heaprealloc">HeapReAlloc</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Memory/memory-management-functions">Memory
+<a href="/windows/desktop/Memory/memory-management-functions">Memory
     Management Functions</a>
-

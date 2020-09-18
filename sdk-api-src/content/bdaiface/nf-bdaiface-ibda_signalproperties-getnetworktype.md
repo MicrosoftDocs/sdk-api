@@ -69,9 +69,8 @@ If the method succeeds, it returns S_OK. If it fails, it returns an error code.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nn-bdaiface-ibda_signalproperties">IBDA_SignalProperties Interface</a>
+<a href="/windows/desktop/api/bdaiface/nn-bdaiface-ibda_signalproperties">IBDA_SignalProperties Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nf-bdaiface-ibda_signalproperties-putnetworktype">PutNetworkType</a>
-
+<a href="/windows/desktop/api/bdaiface/nf-bdaiface-ibda_signalproperties-putnetworktype">PutNetworkType</a>

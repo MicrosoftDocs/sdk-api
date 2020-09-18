@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Sets the height of items in a list box. If the list box has the <a href="https://docs.microsoft.com/windows/desktop/Controls/list-box-styles">LBS_OWNERDRAWVARIABLE</a> style, this macro sets the height of the specified item; otherwise, it sets the height of all items. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/lb-setitemheight">LB_SETITEMHEIGHT</a> message explicitly.
+Sets the height of items in a list box. If the list box has the <a href="/windows/desktop/Controls/list-box-styles">LBS_OWNERDRAWVARIABLE</a> style, this macro sets the height of the specified item; otherwise, it sets the height of all items. You can use this macro or send the <a href="/windows/desktop/Controls/lb-setitemheight">LB_SETITEMHEIGHT</a> message explicitly.
 
 ## -parameters
 
 ### -param hwndCtl
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the control.
 
@@ -64,15 +64,14 @@ A handle to the control.
 
 Type: <b>int</b>
 
-The zero-based index of the item. If the list box does not have the <a href="https://docs.microsoft.com/windows/desktop/Controls/list-box-styles">LBS_OWNERDRAWVARIABLE</a> style, set this parameter to zero.
+The zero-based index of the item. If the list box does not have the <a href="/windows/desktop/Controls/list-box-styles">LBS_OWNERDRAWVARIABLE</a> style, set this parameter to zero.
 
 ### -param cy
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPARAM</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">LPARAM</a></b>
 
 The height of the item or items, in pixels.
 
 ## -remarks
 
-For more information, see <a href="https://docs.microsoft.com/windows/desktop/Controls/lb-setitemheight">LB_SETITEMHEIGHT</a>.
-
+For more information, see <a href="/windows/desktop/Controls/lb-setitemheight">LB_SETITEMHEIGHT</a>.

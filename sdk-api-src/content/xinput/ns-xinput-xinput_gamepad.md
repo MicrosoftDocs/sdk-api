@@ -155,7 +155,7 @@ Right thumbstick y-axis value. The value is between -32768 and 32767.
 
 ## -remarks
 
-This structure is used by the <a href="https://docs.microsoft.com/windows/desktop/api/xinput/ns-xinput-xinput_state">XINPUT_STATE</a> structure when polling for changes in the state of the controller.
+This structure is used by the <a href="/windows/desktop/api/xinput/ns-xinput-xinput_state">XINPUT_STATE</a> structure when polling for changes in the state of the controller.
 
 
 
@@ -167,13 +167,12 @@ The constant XINPUT_GAMEPAD_TRIGGER_THRESHOLD may be used as the value which <i>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xinput/ns-xinput-xinput_state">XINPUT_STATE</a>
+<a href="/windows/desktop/api/xinput/ns-xinput-xinput_state">XINPUT_STATE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/xinput/structures">XInput Structures</a>
+<a href="/windows/desktop/xinput/structures">XInput Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xinput/nf-xinput-xinputgetstate">XInputGetfState</a>
-
+<a href="/windows/desktop/api/xinput/nf-xinput-xinputgetstate">XInputGetfState</a>

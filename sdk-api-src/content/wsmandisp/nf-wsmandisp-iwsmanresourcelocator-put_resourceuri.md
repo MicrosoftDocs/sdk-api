@@ -53,7 +53,7 @@ api_name:
 
 ## -description
 
-The <a href="https://docs.microsoft.com/windows/desktop/WinRM/windows-remote-management-glossary">resource URI</a> of the requested resource. This property can contain only the path, not a query string for specific instances.
+The <a href="/windows/desktop/WinRM/windows-remote-management-glossary">resource URI</a> of the requested resource. This property can contain only the path, not a query string for specific instances.
 
 This property is read/write.
 
@@ -61,21 +61,20 @@ This property is read/write.
 
 ## -remarks
 
-<a href="https://docs.microsoft.com/windows/desktop/WinRM/resourcelocator">ResourceLocator</a> is the corresponding scripting object for the <a href="https://docs.microsoft.com/windows/desktop/api/wsmandisp/nn-wsmandisp-iwsmanresourcelocator">IWSManResourceLocator</a> interface.
+<a href="/windows/desktop/WinRM/resourcelocator">ResourceLocator</a> is the corresponding scripting object for the <a href="/windows/desktop/api/wsmandisp/nn-wsmandisp-iwsmanresourcelocator">IWSManResourceLocator</a> interface.
 
 The following is an example of a proper path for  <b>ResourceURI</b>.
 
 <pre class="syntax" xml:space="preserve"><code>"http://schemas.microsoft.com/wbem/wsman/1/wmi/root/cimv2/Win32_Service"</code></pre>
-The following path does not work because it  contains a key for a specific instance. Use the <a href="https://docs.microsoft.com/windows/desktop/api/wsmandisp/nf-wsmandisp-iwsmanresourcelocator-addselector">IWSManResourceLocator::AddSelector</a> method to specify a particular instance.
+The following path does not work because it  contains a key for a specific instance. Use the <a href="/windows/desktop/api/wsmandisp/nf-wsmandisp-iwsmanresourcelocator-addselector">IWSManResourceLocator::AddSelector</a> method to specify a particular instance.
 
 <pre class="syntax" xml:space="preserve"><code>"http://schemas.microsoft.com/wbem/wsman/1/wmi/root/cimv2/Win32_Service?Name=winmgmt"</code></pre>
-The corresponding scripting method is <a href="https://docs.microsoft.com/windows/desktop/WinRM/resourcelocator-resourceuri">ResourceLocator.ResourceURI</a>.
+The corresponding scripting method is <a href="/windows/desktop/WinRM/resourcelocator-resourceuri">ResourceLocator.ResourceURI</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wsmandisp/nn-wsmandisp-iwsmanresourcelocator">IWSManResourceLocator</a>
+<a href="/windows/desktop/api/wsmandisp/nn-wsmandisp-iwsmanresourcelocator">IWSManResourceLocator</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WinRM/resourcelocator-resourceuri">ResourceLocator.ResourceURI</a>
-
+<a href="/windows/desktop/WinRM/resourcelocator-resourceuri">ResourceLocator.ResourceURI</a>

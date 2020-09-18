@@ -57,7 +57,7 @@ Gets the number of frames that the system is allowed to queue for rendering.
 
 ### -param pMaxLatency [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a>*</b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a>*</b>
 
 This value is set to the number of frames that can be queued for render.  
       This value defaults to 3, but can range from 1 to 16.
@@ -66,7 +66,7 @@ This value is set to the number of frames that can be queued for render.
 
 Type: <b><a href="/windows/win32/com/structure-of-com-error-codes">HRESULT</a></b>
 
-Returns S_OK if successful; otherwise, returns one of the following members of the <a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3derr">D3DERR</a> enumerated type:
+Returns S_OK if successful; otherwise, returns one of the following members of the <a href="/windows/desktop/direct3d9/d3derr">D3DERR</a> enumerated type:
 
 <ul>
 <li><b>D3DERR_DEVICELOST</b></li>
@@ -87,13 +87,12 @@ Frame latency is the number of frames that are allowed to be stored in a queue b
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3ddxgi/d3d10-graphics-reference-dxgi-interfaces">DXGI Interfaces</a>
+<a href="/windows/desktop/direct3ddxgi/d3d10-graphics-reference-dxgi-interfaces">DXGI Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nn-dxgi-idxgidevice1">IDXGIDevice1</a>
+<a href="/windows/desktop/api/dxgi/nn-dxgi-idxgidevice1">IDXGIDevice1</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nf-dxgi-idxgidevice1-setmaximumframelatency">IDXGIDevice1::SetMaximumFrameLatency</a>
-
+<a href="/windows/desktop/api/dxgi/nf-dxgi-idxgidevice1-setmaximumframelatency">IDXGIDevice1::SetMaximumFrameLatency</a>

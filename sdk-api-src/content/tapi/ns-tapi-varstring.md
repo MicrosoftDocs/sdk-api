@@ -74,7 +74,7 @@ Size of the portion of this data structure that contains useful information, in 
 ### -field dwStringFormat
 
 Format of the string. This member uses one of the 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/stringformat--constants">STRINGFORMAT_ Constants</a>.
+<a href="/windows/desktop/Tapi/stringformat--constants">STRINGFORMAT_ Constants</a>.
 
 ### -field dwStringSize
 
@@ -95,4 +95,3 @@ If a string cannot be returned in a variable structure, the <b>dwStringSize</b> 
 <li><b>dwStringOffset</b> is nonzero and <b>dwStringSize</b> is zero.</li>
 <li><b>dwStringOffset</b> is nonzero, <b>dwStringSize</b> is 1, and the byte at the given offset is zero.</li>
 </ul>
-

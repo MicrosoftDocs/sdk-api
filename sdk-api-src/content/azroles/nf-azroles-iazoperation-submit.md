@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-The <b>Submit</b> method persists changes made to the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazoperation">IAzOperation</a> object.
+The <b>Submit</b> method persists changes made to the <a href="/windows/desktop/api/azroles/nn-azroles-iazoperation">IAzOperation</a> object.
 
 ## -parameters
 
@@ -65,5 +65,4 @@ Reserved for future use.
 
 ## -remarks
 
-Any additions or modifications to an <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazoperation">IAzOperation</a> object are not persisted until the <b>Submit</b> method is called.
-
+Any additions or modifications to an <a href="/windows/desktop/api/azroles/nn-azroles-iazoperation">IAzOperation</a> object are not persisted until the <b>Submit</b> method is called.

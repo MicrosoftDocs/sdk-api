@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Specifies the type of information that an object should store in the <a href="https://docs.microsoft.com/windows/desktop/api/docobj/ns-docobj-olecmdtext">OLECMDTEXT</a> structure passed in <a href="https://docs.microsoft.com/windows/desktop/api/docobj/nf-docobj-iolecommandtarget-querystatus">IOleCommandTarget::QueryStatus</a>. One value from this enumeration is stored the <b>cmdtextf</b> member of the <b>OLECMDTEXT</b> structure to indicate the desired information.
+Specifies the type of information that an object should store in the <a href="/windows/desktop/api/docobj/ns-docobj-olecmdtext">OLECMDTEXT</a> structure passed in <a href="/windows/desktop/api/docobj/nf-docobj-iolecommandtarget-querystatus">IOleCommandTarget::QueryStatus</a>. One value from this enumeration is stored the <b>cmdtextf</b> member of the <b>OLECMDTEXT</b> structure to indicate the desired information.
 
 ## -enum-fields
 
@@ -68,9 +68,8 @@ The object should provide a localized status string for the command.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/docobj/nf-docobj-iolecommandtarget-querystatus">IOleCommandTarget::QueryStatus</a>
+<a href="/windows/desktop/api/docobj/nf-docobj-iolecommandtarget-querystatus">IOleCommandTarget::QueryStatus</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/docobj/ns-docobj-olecmdtext">OLECMDTEXT</a>
-
+<a href="/windows/desktop/api/docobj/ns-docobj-olecmdtext">OLECMDTEXT</a>

@@ -74,5 +74,4 @@ The frame buffer header information provided by this callback is read-only. You 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mftransform/nn-mftransform-imfdevicetransformcallback">IMFDeviceTransformCallback</a>
-
+<a href="/windows/desktop/api/mftransform/nn-mftransform-imfdevicetransformcallback">IMFDeviceTransformCallback</a>

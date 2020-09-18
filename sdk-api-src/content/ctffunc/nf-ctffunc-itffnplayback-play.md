@@ -56,7 +56,7 @@ Causes the audio data for a range of text to be played.
 
 ### -param pRange [in]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfrange">ITfRange</a> object that covers the text to play the audio data for. This range object is obtained by calling <a href="https://docs.microsoft.com/windows/desktop/api/ctffunc/nf-ctffunc-itffnplayback-queryrange">ITfFnPlayBack::QueryRange</a>.
+Pointer to an <a href="/windows/desktop/api/msctf/nn-msctf-itfrange">ITfRange</a> object that covers the text to play the audio data for. This range object is obtained by calling <a href="/windows/desktop/api/ctffunc/nf-ctffunc-itffnplayback-queryrange">ITfFnPlayBack::QueryRange</a>.
 
 If the range has zero length, the range played is expanded to cover the entire spoken phrase. If the range has a nonzero length, the range played is expanded to include the entire word, or words, that the range partially covers.
 
@@ -106,15 +106,14 @@ A memory allocation failure occurred.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ctffunc/nn-ctffunc-itffnplayback">ITfFnPlayBack</a>
+<a href="/windows/desktop/api/ctffunc/nn-ctffunc-itffnplayback">ITfFnPlayBack</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ctffunc/nf-ctffunc-itffnplayback-queryrange">ITfFnPlayBack::QueryRange
+<a href="/windows/desktop/api/ctffunc/nf-ctffunc-itffnplayback-queryrange">ITfFnPlayBack::QueryRange
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfrange">ITfRange
+<a href="/windows/desktop/api/msctf/nn-msctf-itfrange">ITfRange
       </a>
-

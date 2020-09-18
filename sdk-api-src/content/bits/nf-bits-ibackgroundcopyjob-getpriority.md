@@ -93,9 +93,8 @@ The <i>pPriority</i> parameter cannot be <b>NULL</b>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits/ne-bits-bg_job_priority">BG_JOB_PRIORITY</a>
+<a href="/windows/desktop/api/bits/ne-bits-bg_job_priority">BG_JOB_PRIORITY</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-setpriority">IBackgroundCopyJob::SetPriority</a>
-
+<a href="/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-setpriority">IBackgroundCopyJob::SetPriority</a>

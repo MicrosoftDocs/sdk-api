@@ -51,11 +51,11 @@ api_name:
 ## -description
 
 The <b>IMsmConfigurableItem</b> interface manages a single row from the 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/moduleconfiguration-table">ModuleConfiguration table</a>. This is a single configurable "attribute" from the module. The interface consists of read-only properties, one for each column in the ModuleConfiguration table.
+<a href="/windows/desktop/Msi/moduleconfiguration-table">ModuleConfiguration table</a>. This is a single configurable "attribute" from the module. The interface consists of read-only properties, one for each column in the ModuleConfiguration table.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMsmConfigurableItem</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IMsmConfigurableItem</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMsmConfigurableItem</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IMsmConfigurableItem</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,101 +70,101 @@ The <b>IMsmConfigurableItem</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mergemod/nf-mergemod-imsmconfigurableitem-get_attributes">get_Attributes</a>
+<a href="/windows/desktop/api/mergemod/nf-mergemod-imsmconfigurableitem-get_attributes">get_Attributes</a>
 </td>
 <td align="left" width="63%">
 Retrieves the 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/configurableitem-attributes">Attributes</a> property.
+<a href="/windows/desktop/Msi/configurableitem-attributes">Attributes</a> property.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mergemod/nf-mergemod-imsmconfigurableitem-get_context">get_Context</a>
+<a href="/windows/desktop/api/mergemod/nf-mergemod-imsmconfigurableitem-get_context">get_Context</a>
 </td>
 <td align="left" width="63%">
 Retrieves the 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/configurableitem-context">Context</a> property.
+<a href="/windows/desktop/Msi/configurableitem-context">Context</a> property.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mergemod/nf-mergemod-imsmconfigurableitem-get_defaultvalue">get_DefaultValue</a>
+<a href="/windows/desktop/api/mergemod/nf-mergemod-imsmconfigurableitem-get_defaultvalue">get_DefaultValue</a>
 </td>
 <td align="left" width="63%">
 Retrieves the 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/configurableitem-defaultvalue">DefaultValue</a> property.
+<a href="/windows/desktop/Msi/configurableitem-defaultvalue">DefaultValue</a> property.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mergemod/nf-mergemod-imsmconfigurableitem-get_description">get_Description</a>
+<a href="/windows/desktop/api/mergemod/nf-mergemod-imsmconfigurableitem-get_description">get_Description</a>
 </td>
 <td align="left" width="63%">
 Retrieves 
-the <a href="https://docs.microsoft.com/windows/desktop/Msi/configurableitem-description">Description</a> property.
+the <a href="/windows/desktop/Msi/configurableitem-description">Description</a> property.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mergemod/nf-mergemod-imsmconfigurableitem-get_displayname">get_DisplayName</a>
+<a href="/windows/desktop/api/mergemod/nf-mergemod-imsmconfigurableitem-get_displayname">get_DisplayName</a>
 </td>
 <td align="left" width="63%">
 Retrieves the 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/configurableitem-displayname">DisplayName</a> property. 
+<a href="/windows/desktop/Msi/configurableitem-displayname">DisplayName</a> property. 
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mergemod/nf-mergemod-imsmconfigurableitem-get_format">get_Format</a>
+<a href="/windows/desktop/api/mergemod/nf-mergemod-imsmconfigurableitem-get_format">get_Format</a>
 </td>
 <td align="left" width="63%">
 Retrieves the 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/configurableitem-format">Format</a> property.
+<a href="/windows/desktop/Msi/configurableitem-format">Format</a> property.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mergemod/nf-mergemod-imsmconfigurableitem-get_helpkeyword">get_HelpKeyword</a>
+<a href="/windows/desktop/api/mergemod/nf-mergemod-imsmconfigurableitem-get_helpkeyword">get_HelpKeyword</a>
 </td>
 <td align="left" width="63%">
 Retrieves the 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/configurableitem-helpkeyword">HelpKeyword</a> property.
+<a href="/windows/desktop/Msi/configurableitem-helpkeyword">HelpKeyword</a> property.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mergemod/nf-mergemod-imsmconfigurableitem-get_helplocation">get_HelpLocation</a>
+<a href="/windows/desktop/api/mergemod/nf-mergemod-imsmconfigurableitem-get_helplocation">get_HelpLocation</a>
 </td>
 <td align="left" width="63%">
 Retrieves the 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/configurableitem-helplocation">HelpLocation</a> property.
+<a href="/windows/desktop/Msi/configurableitem-helplocation">HelpLocation</a> property.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mergemod/nf-mergemod-imsmconfigurableitem-get_name">get_Name</a>
+<a href="/windows/desktop/api/mergemod/nf-mergemod-imsmconfigurableitem-get_name">get_Name</a>
 </td>
 <td align="left" width="63%">
 Retrieves the 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/configurableitem-name">Name</a> property. 
+<a href="/windows/desktop/Msi/configurableitem-name">Name</a> property. 
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mergemod/nf-mergemod-imsmconfigurableitem-get_type">get_Type</a>
+<a href="/windows/desktop/api/mergemod/nf-mergemod-imsmconfigurableitem-get_type">get_Type</a>
 </td>
 <td align="left" width="63%">
 Retrieves the 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/configurableitem-type">Type</a> property.
+<a href="/windows/desktop/Msi/configurableitem-type">Type</a> property.
 
 </td>
 </tr>
@@ -172,9 +172,8 @@ Retrieves the
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/merge-module-automation">Merge Module Automation</a>
-
+<a href="/windows/desktop/Msi/merge-module-automation">Merge Module Automation</a>

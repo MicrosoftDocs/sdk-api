@@ -106,9 +106,8 @@ The system is unable to load mapper string description.
 
 ## -remarks
 
-If there are output buffers that have been sent by using the <a href="https://docs.microsoft.com/previous-versions/dd798474(v=vs.85)">midiOutLongMsg</a> function and have not been returned to the application, the close operation will fail. To mark all pending buffers as being done, use the <a href="https://docs.microsoft.com/previous-versions/dd798479(v=vs.85)">midiOutReset</a> function.
+If there are output buffers that have been sent by using the <a href="/previous-versions/dd798474(v=vs.85)">midiOutLongMsg</a> function and have not been returned to the application, the close operation will fail. To mark all pending buffers as being done, use the <a href="/previous-versions/dd798479(v=vs.85)">midiOutReset</a> function.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/midi-functions">MIDI Functions</a>
-
+<a href="/windows/desktop/Multimedia/midi-functions">MIDI Functions</a>

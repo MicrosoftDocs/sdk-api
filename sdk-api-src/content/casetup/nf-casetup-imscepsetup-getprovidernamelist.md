@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>GetProviderNameList</b> method gets the list of <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">cryptographic service providers</a> (CSPs) that provide asymmetric key signature and exchange algorithms on the computer.
+The <b>GetProviderNameList</b> method gets the list of <a href="/windows/desktop/SecGloss/c-gly">cryptographic service providers</a> (CSPs) that provide asymmetric key signature and exchange algorithms on the computer.
 
 ## -parameters
 
@@ -64,5 +64,4 @@ A pointer to a <b>VARIANT</b>  array of <b>VT_BSTR</b> types, where each string 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/casetup/nn-casetup-imscepsetup">IMSCEPSetup</a>
-
+<a href="/windows/desktop/api/casetup/nn-casetup-imscepsetup">IMSCEPSetup</a>

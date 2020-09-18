@@ -56,11 +56,11 @@ The <b>DrvSwapBuffers</b> function displays the contents of the window's associa
 
 ### -param pso
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-surfobj">SURFOBJ</a> structure that identifies the target surface to be modified for display.
+Pointer to the <a href="/windows/desktop/api/winddi/ns-winddi-surfobj">SURFOBJ</a> structure that identifies the target surface to be modified for display.
 
 ### -param pwo
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-wndobj">WNDOBJ</a> structure that defines the region on the target surface with which the back buffer will be swapped.
+Pointer to the <a href="/windows/desktop/api/winddi/ns-winddi-wndobj">WNDOBJ</a> structure that defines the region on the target surface with which the back buffer will be swapped.
 
 ## -returns
 
@@ -74,5 +74,4 @@ This function is required if the driver supports a pixel format with double buff
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvdescribepixelformat">DrvDescribePixelFormat</a>
-
+<a href="/windows/desktop/api/winddi/nf-winddi-drvdescribepixelformat">DrvDescribePixelFormat</a>

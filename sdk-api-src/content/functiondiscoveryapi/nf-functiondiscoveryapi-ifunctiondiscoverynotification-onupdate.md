@@ -66,7 +66,7 @@ The context registered for change notification. The type <b>FDQUERYCONTEXT</b> i
 
 ### -param pIFunctionInstance [in]
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryapi/nn-functiondiscoveryapi-ifunctioninstance">IFunctionInstance</a> interface pointer that represents the function instance being affected by the update.
+An <a href="/windows/desktop/api/functiondiscoveryapi/nn-functiondiscoveryapi-ifunctioninstance">IFunctionInstance</a> interface pointer that represents the function instance being affected by the update.
 
 ## -returns
 
@@ -107,12 +107,12 @@ Do not call <b>Release</b> on the query object from this method. Doing so could 
 
 All notifications passed to Function Discovery by providers are queued and returned to the client one by one. Callbacks are synchronized so that a client will only receive one notification at a time.
 
-Because other <a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryapi/nn-functiondiscoveryapi-ifunctiondiscoverynotification">IFunctionDiscoveryNotification</a> method calls may be made in other threads, any changes made to the thread state during the call  must be restored before exiting the method.
+Because other <a href="/windows/desktop/api/functiondiscoveryapi/nn-functiondiscoveryapi-ifunctiondiscoverynotification">IFunctionDiscoveryNotification</a> method calls may be made in other threads, any changes made to the thread state during the call  must be restored before exiting the method.
 
 
 #### Examples
 
-The following code shows an OnUpdate handler implementation. The <b>CMyNotificationListener</b> class is defined in the <a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryapi/nn-functiondiscoveryapi-ifunctiondiscoverynotification">IFunctionDiscoveryNotification</a> topic.
+The following code shows an OnUpdate handler implementation. The <b>CMyNotificationListener</b> class is defined in the <a href="/windows/desktop/api/functiondiscoveryapi/nn-functiondiscoveryapi-ifunctiondiscoverynotification">IFunctionDiscoveryNotification</a> topic.
 
 
 ```cpp
@@ -143,5 +143,4 @@ HRESULT STDMETHODCALLTYPE CMyNotificationListener::OnUpdate(
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryapi/nn-functiondiscoveryapi-ifunctiondiscoverynotification">IFunctionDiscoveryNotification</a>
-
+<a href="/windows/desktop/api/functiondiscoveryapi/nn-functiondiscoveryapi-ifunctiondiscoverynotification">IFunctionDiscoveryNotification</a>

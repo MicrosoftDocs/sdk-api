@@ -98,5 +98,4 @@ The number of elements (not length) in bytes. Used for arrays and binary or stri
 
 ### -field Type
 
-The type of the data in the structure. Use a value from the <a href="https://docs.microsoft.com/windows/desktop/api/evcoll/ne-evcoll-ec_variant_type">EC_VARIANT_TYPE</a> enumeration to specify the type. When the type is specified, you can use any of the union members to access the  actual value. For example, if the type is <b>EcVarTypeDateTime</b>, then the value is <b>DateTimeVal</b> in the <b>EC_VARIANT</b> structure.
-
+The type of the data in the structure. Use a value from the <a href="/windows/desktop/api/evcoll/ne-evcoll-ec_variant_type">EC_VARIANT_TYPE</a> enumeration to specify the type. When the type is specified, you can use any of the union members to access the  actual value. For example, if the type is <b>EcVarTypeDateTime</b>, then the value is <b>DateTimeVal</b> in the <b>EC_VARIANT</b> structure.

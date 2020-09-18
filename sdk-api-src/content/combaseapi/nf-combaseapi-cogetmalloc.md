@@ -55,7 +55,7 @@ api_name:
 
 ## -description
 
-Retrieves a pointer to the default OLE task memory allocator (which supports the system implementation of the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imalloc">IMalloc</a> interface) so applications can call its methods to manage memory.
+Retrieves a pointer to the default OLE task memory allocator (which supports the system implementation of the <a href="/windows/desktop/api/objidl/nn-objidl-imalloc">IMalloc</a> interface) so applications can call its methods to manage memory.
 
 ## -parameters
 
@@ -73,13 +73,12 @@ This function can return the standard return values S_OK, E_INVALIDARG, and E_OU
 
 ## -remarks
 
-The pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imalloc">IMalloc</a> interface pointer received through the <i>ppMalloc</i> parameter cannot be used from a remote process; each process must have its own allocator.
+The pointer to the <a href="/windows/desktop/api/objidl/nn-objidl-imalloc">IMalloc</a> interface pointer received through the <i>ppMalloc</i> parameter cannot be used from a remote process; each process must have its own allocator.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemalloc">CoTaskMemAlloc</a>
+<a href="/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemalloc">CoTaskMemAlloc</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imalloc">IMalloc</a>
-
+<a href="/windows/desktop/api/objidl/nn-objidl-imalloc">IMalloc</a>

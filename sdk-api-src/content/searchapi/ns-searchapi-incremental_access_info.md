@@ -64,7 +64,6 @@ Size of the file in bytes.
 
 ### -field ftLastModifiedTime
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a></b>
+Type: <b><a href="/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a></b>
 
 Last time the file was modified.
-

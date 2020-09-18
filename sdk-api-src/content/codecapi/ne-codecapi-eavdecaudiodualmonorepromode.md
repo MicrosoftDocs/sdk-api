@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Specifies how the decoder reproduces dual mono audio. This enumeration is used with the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/avdecaudiodualmonorepromode-property">AVDecAudioDualMonoReproMode</a> property.
+Specifies how the decoder reproduces dual mono audio. This enumeration is used with the <a href="/windows/desktop/DirectShow/avdecaudiodualmonorepromode-property">AVDecAudioDualMonoReproMode</a> property.
 
 ## -enum-fields
 
@@ -72,9 +72,8 @@ Mix Ch1 and Ch2 and output the mix to the left and right speakers.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/codec-api-enumerations">Codec API Enumerations</a>
+<a href="/windows/desktop/DirectShow/codec-api-enumerations">Codec API Enumerations</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-icodecapi">ICodecAPI Interface</a>
-
+<a href="/windows/desktop/api/strmif/nn-strmif-icodecapi">ICodecAPI Interface</a>

@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Called to update the status of a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resources">resource</a>. 
+Called to update the status of a <a href="/previous-versions/windows/desktop/mscs/resources">resource</a>. 
     The <b>PSET_RESOURCE_STATUS_ROUTINE_EX</b> type defines a pointer to this function.
 
 ## -parameters
@@ -59,18 +59,18 @@ Called to update the status of a <a href="https://docs.microsoft.com/previous-ve
 
 A handle to the resource to be updated. The <i>ResourceHandle</i> parameter should 
        contain the same handle that is used for the <i>ResourceHandle</i> parameter in the 
-       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/nc-resapi-popen_v2_routine">OpenV2</a> entry point for this resource.
+       <a href="/previous-versions/windows/desktop/api/resapi/nc-resapi-popen_v2_routine">OpenV2</a> entry point for this resource.
 
 ### -param ResourceStatus
 
-A pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/ns-resapi-resource_status_ex">RESOURCE_STATUS_EX</a> structure that 
+A pointer to a <a href="/previous-versions/windows/desktop/api/resapi/ns-resapi-resource_status_ex">RESOURCE_STATUS_EX</a> structure that 
        contains information about the resource's state.
 
 ## -returns
 
 One of 
        the following values of the 
-       <a href="https://docs.microsoft.com/windows/desktop/api/resapi/ne-resapi-resource_exit_state">RESOURCE_EXIT_STATE</a> enumeration.
+       <a href="/windows/desktop/api/resapi/ne-resapi-resource_exit_state">RESOURCE_EXIT_STATE</a> enumeration.
 
 <table>
 <tr>
@@ -86,8 +86,8 @@ One of
 </td>
 <td width="60%">
 The resource has not been terminated. Worker threads can  continue 
-         <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/nc-resapi-ponline_v2_routine">OnlineV2</a> and 
-         <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/nc-resapi-poffline_v2_routine">OfflineV2</a> operations for the resource.
+         <a href="/previous-versions/windows/desktop/api/resapi/nc-resapi-ponline_v2_routine">OnlineV2</a> and 
+         <a href="/previous-versions/windows/desktop/api/resapi/nc-resapi-poffline_v2_routine">OfflineV2</a> operations for the resource.
 
 </td>
 </tr>
@@ -100,8 +100,8 @@ The resource has not been terminated. Worker threads can  continue
 </td>
 <td width="60%">
 The resource has been terminated. Callers should end 
-         <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/nc-resapi-ponline_v2_routine">OnlineV2</a> or 
-         <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/nc-resapi-poffline_v2_routine">OfflineV2</a> operations and immediately terminate all worker 
+         <a href="/previous-versions/windows/desktop/api/resapi/nc-resapi-ponline_v2_routine">OnlineV2</a> or 
+         <a href="/previous-versions/windows/desktop/api/resapi/nc-resapi-poffline_v2_routine">OfflineV2</a> operations and immediately terminate all worker 
          threads that are assigned to the resource.
 
 </td>
@@ -110,5 +110,4 @@ The resource has been terminated. Callers should end
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resource-dll-callback-functions">Resource DLL Callback Functions</a>
-
+<a href="/previous-versions/windows/desktop/mscs/resource-dll-callback-functions">Resource DLL Callback Functions</a>

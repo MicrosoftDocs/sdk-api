@@ -58,5 +58,4 @@ This interface is currently undefined.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextdocument2-getdisplays">ITextDocument2::GetDisplays</a>
-
+<a href="/windows/desktop/api/tom/nf-tom-itextdocument2-getdisplays">ITextDocument2::GetDisplays</a>

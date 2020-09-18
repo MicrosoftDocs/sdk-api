@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Sets the configuration parameters for the Microsoft DirectShow <a href="https://docs.microsoft.com/windows/desktop/DirectShow/enhanced-video-renderer-filter">Enhanced Video Renderer Filter</a> (EVR).
+Sets the configuration parameters for the Microsoft DirectShow <a href="/windows/desktop/DirectShow/enhanced-video-renderer-filter">Enhanced Video Renderer Filter</a> (EVR).
 
 ## -parameters
 
@@ -93,13 +93,12 @@ Invalid argument.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/enhanced-video-renderer-filter">Enhanced Video Renderer Filter</a>
+<a href="/windows/desktop/DirectShow/enhanced-video-renderer-filter">Enhanced Video Renderer Filter</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/evr/nn-evr-ievrfilterconfigex">IEVRFilterConfigEx</a>
+<a href="/windows/desktop/api/evr/nn-evr-ievrfilterconfigex">IEVRFilterConfigEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/video-quality-management">Video Quality Management</a>
-
+<a href="/windows/desktop/medfound/video-quality-management">Video Quality Management</a>

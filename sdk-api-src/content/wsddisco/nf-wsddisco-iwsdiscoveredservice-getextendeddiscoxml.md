@@ -56,11 +56,11 @@ Retrieves custom or extensible data provided in the header or body of the SOAP m
 
 ### -param ppHeaderAny [out]
 
-Custom data added to the header portion of the SOAP message. For details, see <a href="https://docs.microsoft.com/windows/desktop/api/wsdxmldom/ns-wsdxmldom-wsdxml_element">WSDXML_ELEMENT</a>. Do not deallocate the output structure.
+Custom data added to the header portion of the SOAP message. For details, see <a href="/windows/desktop/api/wsdxmldom/ns-wsdxmldom-wsdxml_element">WSDXML_ELEMENT</a>. Do not deallocate the output structure.
 
 ### -param ppBodyAny [out]
 
-Custom data added to the body portion of the SOAP message. For details, see <a href="https://docs.microsoft.com/windows/desktop/api/wsdxmldom/ns-wsdxmldom-wsdxml_element">WSDXML_ELEMENT</a>. Do not deallocate the output structure.
+Custom data added to the body portion of the SOAP message. For details, see <a href="/windows/desktop/api/wsdxmldom/ns-wsdxmldom-wsdxml_element">WSDXML_ELEMENT</a>. Do not deallocate the output structure.
 
 ## -returns
 
@@ -93,9 +93,8 @@ Method completed successfully.
 
 Some devices may add custom data to the header and body portions of the SOAP message to convey additional information in the discovery phase.
 
-The resulting pointer values are  only valid for the lifetime of the <a href="https://docs.microsoft.com/windows/desktop/api/wsddisco/nn-wsddisco-iwsdiscoveredservice">IWSDiscoveredService</a> object.
+The resulting pointer values are  only valid for the lifetime of the <a href="/windows/desktop/api/wsddisco/nn-wsddisco-iwsdiscoveredservice">IWSDiscoveredService</a> object.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wsddisco/nn-wsddisco-iwsdiscoveredservice">IWSDiscoveredService</a>
-
+<a href="/windows/desktop/api/wsddisco/nn-wsddisco-iwsdiscoveredservice">IWSDiscoveredService</a>

@@ -51,7 +51,7 @@ api_name:
 ## -description
 
 The <b>FwpmIPsecTunnelAdd0</b> function adds a new Internet Protocol Security (IPsec) tunnel mode policy to the system.
-<div class="alert"><b>Note</b>  <b>FwpmIPsecTunnelAdd0</b> is the specific implementation of FwpmIPsecTunnelAdd used in Windows Vista. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information. For Windows 7, <a href="https://docs.microsoft.com/windows/desktop/api/fwpmu/nf-fwpmu-fwpmipsectunneladd1">FwpmIPsecTunnelAdd1</a> is available. For Windows 8, <a href="https://docs.microsoft.com/windows/desktop/api/fwpmu/nf-fwpmu-fwpmipsectunneladd2">FwpmIPsecTunnelAdd2</a> is available.</div><div> </div>
+<div class="alert"><b>Note</b>  <b>FwpmIPsecTunnelAdd0</b> is the specific implementation of FwpmIPsecTunnelAdd used in Windows Vista. See <a href="/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information. For Windows 7, <a href="/windows/desktop/api/fwpmu/nf-fwpmu-fwpmipsectunneladd1">FwpmIPsecTunnelAdd1</a> is available. For Windows 8, <a href="/windows/desktop/api/fwpmu/nf-fwpmu-fwpmipsectunneladd2">FwpmIPsecTunnelAdd2</a> is available.</div><div> </div>
 
 ## -parameters
 
@@ -59,7 +59,7 @@ The <b>FwpmIPsecTunnelAdd0</b> function adds a new Internet Protocol Security (I
 
 Type: <b>HANDLE</b>
 
-A handle for an open session to the filter engine. Call <a href="https://docs.microsoft.com/windows/desktop/api/fwpmu/nf-fwpmu-fwpmengineopen0">FwpmEngineOpen0</a> to open a session to the filter engine.
+A handle for an open session to the filter engine. Call <a href="/windows/desktop/api/fwpmu/nf-fwpmu-fwpmengineopen0">FwpmEngineOpen0</a> to open a session to the filter engine.
 
 ### -param flags [in]
 
@@ -86,13 +86,13 @@ Adds a point-to-point tunnel to the system.
 
 ### -param mainModePolicy [in, optional]
 
-Type: [FWPM_PROVIDER_CONTEXT0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_provider_context0)*</b>
+Type: [FWPM_PROVIDER_CONTEXT0](/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_provider_context0)*</b>
 
 The Main Mode policy for the IPsec tunnel.
 
 ### -param tunnelPolicy [in]
 
-Type: [FWPM_PROVIDER_CONTEXT0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_provider_context0)*</b>
+Type: [FWPM_PROVIDER_CONTEXT0](/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_provider_context0)*</b>
 
 The Quick Mode policy for the IPsec tunnel.
 
@@ -104,13 +104,13 @@ Number of filter conditions present in the <i>filterConditions</i> parameter.
 
 ### -param filterConditions [in]
 
-Type: [FWPM_FILTER_CONDITION0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_filter_condition0)*</b>
+Type: [FWPM_FILTER_CONDITION0](/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_filter_condition0)*</b>
 
 Array of filter conditions that describe the traffic which should be tunneled by IPsec.
 
 ### -param sd [in, optional]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-security_descriptor">PSECURITY_DESCRIPTOR</a></b>
+Type: <b><a href="/windows/desktop/api/winnt/ns-winnt-security_descriptor">PSECURITY_DESCRIPTOR</a></b>
 
 The security information associated with the IPsec tunnel.
 
@@ -156,7 +156,7 @@ FWPM_TUNNEL_FLAG_POINT_TO_POINT was not set and conditions other than local/remo
 </dl>
 </td>
 <td width="60%">
-A Windows Filtering Platform (WFP) specific error. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-error-codes">WFP Error Codes</a> for details.
+A Windows Filtering Platform (WFP) specific error. See <a href="/windows/desktop/FWP/wfp-error-codes">WFP Error Codes</a> for details.
 
 </td>
 </tr>
@@ -177,13 +177,12 @@ Failure to communicate with the remote or local firewall engine.
 ## -remarks
 
 This function cannot be called from within a read-only transaction. It will fail
-with <b>FWP_E_INCOMPATIBLE_TXN</b>. See <a href="https://docs.microsoft.com/windows/desktop/FWP/object-management">Object Management</a> for more information about transactions.
+with <b>FWP_E_INCOMPATIBLE_TXN</b>. See <a href="/windows/desktop/FWP/object-management">Object Management</a> for more information about transactions.
 
 ## -see-also
 
-[FWPM_FILTER_CONDITION0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_filter_condition0)
+[FWPM_FILTER_CONDITION0](/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_filter_condition0)
 
 
 
-[FWPM_PROVIDER_CONTEXT0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_provider_context0)
-
+[FWPM_PROVIDER_CONTEXT0](/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_provider_context0)

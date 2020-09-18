@@ -55,7 +55,7 @@ api_name:
 ## -description
 
 The 
-<b>TAPE_GET_MEDIA_PARAMETERS</b> structure describes the tape in the tape drive. It is used by the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-gettapeparameters">GetTapeParameters</a>function.
+<b>TAPE_GET_MEDIA_PARAMETERS</b> structure describes the tape in the tape drive. It is used by the <a href="/windows/desktop/api/winbase/nf-winbase-gettapeparameters">GetTapeParameters</a>function.
 
 ## -struct-fields
 
@@ -82,9 +82,8 @@ If this member is <b>TRUE</b>, the tape is write-protected. Otherwise, it is not
 ## -remarks
 
 The 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-gettapeparameters">GetTapeParameters</a> function fills the <b>Remaining</b> and <b>Capacity</b> members with estimates of the tape remaining in the current tape partition and the total capacity of the current tape partition.
+<a href="/windows/desktop/api/winbase/nf-winbase-gettapeparameters">GetTapeParameters</a> function fills the <b>Remaining</b> and <b>Capacity</b> members with estimates of the tape remaining in the current tape partition and the total capacity of the current tape partition.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-gettapeparameters">GetTapeParameters</a>
-
+<a href="/windows/desktop/api/winbase/nf-winbase-gettapeparameters">GetTapeParameters</a>

@@ -54,11 +54,11 @@ api_name:
 
 Initiates an assessment.
 
-To retrieve this interface, call the <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance">CoCreateInstance</a> function. Use __uuidof(CInitiateWinSAT) as the class identifier and __uuidof(IInitiateWinSATAssessment) as the interface identifier.
+To retrieve this interface, call the <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance">CoCreateInstance</a> function. Use __uuidof(CInitiateWinSAT) as the class identifier and __uuidof(IInitiateWinSATAssessment) as the interface identifier.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IInitiateWinSATAssessment</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IInitiateWinSATAssessment</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IInitiateWinSATAssessment</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IInitiateWinSATAssessment</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -73,7 +73,7 @@ The <b>IInitiateWinSATAssessment</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/winsatcominterfacei/nf-winsatcominterfacei-iinitiatewinsatassessment-cancelassessment">CancelAssessment</a>
+<a href="/windows/desktop/api/winsatcominterfacei/nf-winsatcominterfacei-iinitiatewinsatassessment-cancelassessment">CancelAssessment</a>
 </td>
 <td align="left" width="63%">
 Cancels a currently running assessment.
@@ -82,7 +82,7 @@ Cancels a currently running assessment.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/winsatcominterfacei/nf-winsatcominterfacei-iinitiatewinsatassessment-initiateassessment">InitiateAssessment</a>
+<a href="/windows/desktop/api/winsatcominterfacei/nf-winsatcominterfacei-iinitiatewinsatassessment-initiateassessment">InitiateAssessment</a>
 </td>
 <td align="left" width="63%">
 Initiates an ad hoc assessment.
@@ -91,7 +91,7 @@ Initiates an ad hoc assessment.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/winsatcominterfacei/nf-winsatcominterfacei-iinitiatewinsatassessment-initiateformalassessment">InitiateFormalAssessment</a>
+<a href="/windows/desktop/api/winsatcominterfacei/nf-winsatcominterfacei-iinitiatewinsatassessment-initiateformalassessment">InitiateFormalAssessment</a>
 </td>
 <td align="left" width="63%">
 Initiates a formal assessment.
@@ -99,4 +99,3 @@ Initiates a formal assessment.
 </td>
 </tr>
 </table>
-

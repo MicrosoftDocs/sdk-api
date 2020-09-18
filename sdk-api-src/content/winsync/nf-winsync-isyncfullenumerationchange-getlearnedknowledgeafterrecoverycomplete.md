@@ -115,5 +115,4 @@ Recovery synchronization is not in process.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncfullenumerationchange">ISyncFullEnumerationChange</a>
-
+<a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncfullenumerationchange">ISyncFullEnumerationChange</a>

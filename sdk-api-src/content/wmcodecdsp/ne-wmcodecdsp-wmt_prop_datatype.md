@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Defines the data types used for the codec and DSP properties that are accessed by using the methods of the <a href="https://docs.microsoft.com/windows/desktop/api/wmcodecdsp/nn-wmcodecdsp-iwmcodecprops">IWMCodecProps</a> interface.
+Defines the data types used for the codec and DSP properties that are accessed by using the methods of the <a href="/windows/desktop/api/wmcodecdsp/nn-wmcodecdsp-iwmcodecprops">IWMCodecProps</a> interface.
 
 ## -enum-fields
 
@@ -88,5 +88,4 @@ Most properties are accessed by using the methods of the <b>IPropertyBag</b> int
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>
-
+<a href="/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>

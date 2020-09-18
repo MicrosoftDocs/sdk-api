@@ -65,8 +65,8 @@ Disables the DLL_THREAD_ATTACH and DLL_THREAD_DETACH notifications for the speci
 ### -param hLibModule [in]
 
 A handle to the DLL module for which the DLL_THREAD_ATTACH and DLL_THREAD_DETACH notifications are to be disabled. The 
-<a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a>, <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibraryexa">LoadLibraryEx</a>,  or 
-<a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getmodulehandlea">GetModuleHandle</a> function returns this handle. Note that you cannot call <b>GetModuleHandle</b> with NULL because this returns the base address of the executable image, not the DLL image.
+<a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a>, <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibraryexa">LoadLibraryEx</a>,  or 
+<a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-getmodulehandlea">GetModuleHandle</a> function returns this handle. Note that you cannot call <b>GetModuleHandle</b> with NULL because this returns the base address of the executable image, not the DLL image.
 
 ## -returns
 
@@ -74,7 +74,7 @@ If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. The 
 <b>DisableThreadLibraryCalls</b> function fails if the DLL specified by <i>hModule</i> has active static thread local storage, or if <i>hModule</i> is an invalid module handle. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
@@ -84,17 +84,16 @@ The
 
 Do not call this function from a DLL that is linked to the static C run-time library (CRT). The static CRT requires DLL_THREAD_ATTACH and DLL_THREAD_DETATCH notifications to function properly.
 
-This function does not perform any optimizations if static [Thread Local Storage (TLS)](https://docs.microsoft.com/en-us/windows/win32/procthread/thread-local-storage) is enabled. Static TLS is enabled when using **thread_local** variables, **__declspec( thread )** variables, or function-local **static**.
+This function does not perform any optimizations if static [Thread Local Storage (TLS)](/windows/win32/procthread/thread-local-storage) is enabled. Static TLS is enabled when using **thread_local** variables, **__declspec( thread )** variables, or function-local **static**.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Dlls/dynamic-link-library-entry-point-function">Dynamic-Link Library Entry-Point Function</a>
+<a href="/windows/desktop/Dlls/dynamic-link-library-entry-point-function">Dynamic-Link Library Entry-Point Function</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Dlls/dynamic-link-library-functions">Dynamic-Link Library Functions</a>
+<a href="/windows/desktop/Dlls/dynamic-link-library-functions">Dynamic-Link Library Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-freelibraryandexitthread">FreeLibraryAndExitThread</a>
-
+<a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-freelibraryandexitthread">FreeLibraryAndExitThread</a>

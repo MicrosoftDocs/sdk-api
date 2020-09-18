@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>capGetAudioFormatSize</b> macro obtains the size of the audio format. You can use this macro or explicitly call the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/wm-cap-get-audioformat">WM_CAP_GET_AUDIOFORMAT</a> message.
+The <b>capGetAudioFormatSize</b> macro obtains the size of the audio format. You can use this macro or explicitly call the <a href="/windows/desktop/Multimedia/wm-cap-get-audioformat">WM_CAP_GET_AUDIOFORMAT</a> message.
 
 ## -parameters
 
@@ -64,9 +64,8 @@ Because compressed audio formats vary in size requirements applications must fir
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-capture">Video Capture</a>
+<a href="/windows/desktop/Multimedia/video-capture">Video Capture</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-capture-macros">Video Capture Macros</a>
-
+<a href="/windows/desktop/Multimedia/video-capture-macros">Video Capture Macros</a>

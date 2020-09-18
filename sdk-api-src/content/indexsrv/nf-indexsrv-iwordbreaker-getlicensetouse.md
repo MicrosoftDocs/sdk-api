@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Gets a pointer to the license information for this implementation of the <a href="https://docs.microsoft.com/windows/desktop/api/indexsrv/nn-indexsrv-iwordbreaker">IWordBreaker</a> interface.
+Gets a pointer to the license information for this implementation of the <a href="/windows/desktop/api/indexsrv/nn-indexsrv-iwordbreaker">IWordBreaker</a> interface.
 
 ## -parameters
 
@@ -58,11 +58,10 @@ Gets a pointer to the license information for this implementation of the <a href
 
 Type: <b>WCHAR const**</b>
 
-Pointer to a variable that receives a pointer to the license information for this <a href="https://docs.microsoft.com/windows/desktop/api/indexsrv/nn-indexsrv-iwordbreaker">IWordBreaker</a> implementation.
+Pointer to a variable that receives a pointer to the license information for this <a href="/windows/desktop/api/indexsrv/nn-indexsrv-iwordbreaker">IWordBreaker</a> implementation.
 
 ## -returns
 
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-

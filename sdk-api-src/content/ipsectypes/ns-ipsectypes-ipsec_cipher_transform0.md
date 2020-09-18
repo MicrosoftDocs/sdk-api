@@ -58,7 +58,7 @@ The <b>IPSEC_CIPHER_TRANSFORM0</b> structure is used to store encryption specifi
 
 ### -field cipherTransformId
 
-The identifier of the encryption algorithm as specified by [IPSEC_CIPHER_TRANSFORM_ID0](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_cipher_transform_id0).
+The identifier of the encryption algorithm as specified by [IPSEC_CIPHER_TRANSFORM_ID0](/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_cipher_transform_id0).
 
 Possible values:
 
@@ -177,13 +177,12 @@ Unused parameter, always set this to <b>NULL</b>.
 
 ## -remarks
 
-<b>IPSEC_CIPHER_TRANSFORM0</b> is a specific implementation of IPSEC_CIPHER_TRANSFORM. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a>  for more information.
+<b>IPSEC_CIPHER_TRANSFORM0</b> is a specific implementation of IPSEC_CIPHER_TRANSFORM. See <a href="/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a>  for more information.
 
 ## -see-also
 
-[IPSEC_CIPHER_TRANSFORM_ID0](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_cipher_transform_id0)
+[IPSEC_CIPHER_TRANSFORM_ID0](/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_cipher_transform_id0)
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>
-
+<a href="/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>

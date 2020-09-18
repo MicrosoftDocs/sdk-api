@@ -50,19 +50,19 @@ api_name:
 
 ## -description
 
-Formats <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">credentials</a> to be stored in a user object.
+Formats <a href="/windows/desktop/SecGloss/c-gly">credentials</a> to be stored in a user object.
 
 ## -parameters
 
 ### -param Credentials [in]
 
 Pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-secbuffer">SecBuffer</a> structure containing the credentials to be formatted.
+<a href="/windows/desktop/api/sspi/ns-sspi-secbuffer">SecBuffer</a> structure containing the credentials to be formatted.
 
 ### -param FormattedCredentials [out]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-secbuffer">SecBuffer</a> structure containing the formatted credentials. Allocate memory for the structure using the 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa374721(v=vs.85)">AllocateHeap</a> function.
+Pointer to a <a href="/windows/desktop/api/sspi/ns-sspi-secbuffer">SecBuffer</a> structure containing the formatted credentials. Allocate memory for the structure using the 
+<a href="/previous-versions/windows/desktop/legacy/aa374721(v=vs.85)">AllocateHeap</a> function.
 
 ## -returns
 
@@ -75,18 +75,17 @@ If the function fails, return an <b>NTSTATUS</b> code that indicates the reason 
 SSP/APs must implement the <b>SpFormatCredentials</b> function; however, the actual name given to the implementation is up to the developer.
 
 A pointer to the <b>SpFormatCredentials</b> function is available in the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-secpkg_user_function_table">SECPKG_USER_FUNCTION_TABLE</a> structure received from the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spusermodeinitializefn">SpUserModeInitialize</a> function.
+<a href="/windows/desktop/api/ntsecpkg/ns-ntsecpkg-secpkg_user_function_table">SECPKG_USER_FUNCTION_TABLE</a> structure received from the 
+<a href="/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spusermodeinitializefn">SpUserModeInitialize</a> function.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-lsa_allocate_lsa_heap">AllocateHeap</a>
+<a href="/windows/desktop/api/ntsecpkg/nc-ntsecpkg-lsa_allocate_lsa_heap">AllocateHeap</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-secpkg_user_function_table">SECPKG_USER_FUNCTION_TABLE</a>
+<a href="/windows/desktop/api/ntsecpkg/ns-ntsecpkg-secpkg_user_function_table">SECPKG_USER_FUNCTION_TABLE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spusermodeinitializefn">SpUserModeInitialize</a>
-
+<a href="/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spusermodeinitializefn">SpUserModeInitialize</a>

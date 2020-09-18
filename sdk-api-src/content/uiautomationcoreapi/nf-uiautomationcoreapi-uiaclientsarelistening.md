@@ -60,7 +60,6 @@ Gets a value that indicates whether any client application is subscribed to Micr
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
 
 <b>TRUE</b> if a client has subscribed to events; otherwise <b>FALSE</b>.
-

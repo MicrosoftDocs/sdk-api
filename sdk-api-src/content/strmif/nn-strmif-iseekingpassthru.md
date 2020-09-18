@@ -51,13 +51,13 @@ api_name:
 
 ## -description
 
-The <code>ISeekingPassThru</code> interface creates a helper object that implements seeking for one-input filters. Filters can use this interface to implement the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-imediaseeking">IMediaSeeking</a> and <a href="https://docs.microsoft.com/windows/desktop/api/control/nn-control-imediaposition">IMediaPosition</a> interfaces. For more information, see <a href="https://docs.microsoft.com/windows/desktop/DirectShow/cpospassthru">CPosPassThru</a>.
+The <code>ISeekingPassThru</code> interface creates a helper object that implements seeking for one-input filters. Filters can use this interface to implement the <a href="/windows/desktop/api/strmif/nn-strmif-imediaseeking">IMediaSeeking</a> and <a href="/windows/desktop/api/control/nn-control-imediaposition">IMediaPosition</a> interfaces. For more information, see <a href="/windows/desktop/DirectShow/cpospassthru">CPosPassThru</a>.
 
 Applications do not use this interface.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISeekingPassThru</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISeekingPassThru</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISeekingPassThru</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISeekingPassThru</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,7 +72,7 @@ The <b>ISeekingPassThru</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iseekingpassthru-init">Init</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-iseekingpassthru-init">Init</a>
 </td>
 <td align="left" width="63%">
 Initializes the seeking helper object.
@@ -83,5 +83,4 @@ Initializes the seeking helper object.
 
 ## -remarks
 
-To obtain this interface, call <b>CoCreateInstance</b> with CLSID_SeekingPassThru. You can also use the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/createpospassthru">CreatePosPassThru</a> function in the base class library.
-
+To obtain this interface, call <b>CoCreateInstance</b> with CLSID_SeekingPassThru. You can also use the <a href="/windows/desktop/DirectShow/createpospassthru">CreatePosPassThru</a> function in the base class library.

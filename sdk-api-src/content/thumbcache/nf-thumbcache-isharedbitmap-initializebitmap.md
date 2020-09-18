@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Initializes a new <a href="https://docs.microsoft.com/windows/desktop/api/thumbcache/nn-thumbcache-isharedbitmap">ISharedBitmap</a> object with a given bitmap.
+Initializes a new <a href="/windows/desktop/api/thumbcache/nn-thumbcache-isharedbitmap">ISharedBitmap</a> object with a given bitmap.
 
 ## -parameters
 
@@ -58,7 +58,7 @@ Initializes a new <a href="https://docs.microsoft.com/windows/desktop/api/thumbc
 
 Type: <b>HBITMAP</b>
 
-A handle to the bitmap with which to initialize a new <a href="https://docs.microsoft.com/windows/desktop/api/thumbcache/nn-thumbcache-isharedbitmap">ISharedBitmap</a> object. The bitmap must be a DIB.
+A handle to the bitmap with which to initialize a new <a href="/windows/desktop/api/thumbcache/nn-thumbcache-isharedbitmap">ISharedBitmap</a> object. The bitmap must be a DIB.
 
 ### -param wtsAT [in]
 
@@ -92,5 +92,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -remarks
 
-When an <a href="https://docs.microsoft.com/windows/desktop/api/thumbcache/nn-thumbcache-isharedbitmap">ISharedBitmap</a> object is instantiated by the client (as opposed to being returned by the <a href="https://docs.microsoft.com/windows/desktop/api/thumbcache/nf-thumbcache-ithumbnailcache-getthumbnailbyid">IThumbnailCache::GetThumbnailByID</a> or <a href="https://docs.microsoft.com/windows/desktop/api/thumbcache/nf-thumbcache-ithumbnailcache-getthumbnail">IThumbnailCache::GetThumbnail</a> methods), the underlying bitmap will not reside in shared memory.
-
+When an <a href="/windows/desktop/api/thumbcache/nn-thumbcache-isharedbitmap">ISharedBitmap</a> object is instantiated by the client (as opposed to being returned by the <a href="/windows/desktop/api/thumbcache/nf-thumbcache-ithumbnailcache-getthumbnailbyid">IThumbnailCache::GetThumbnailByID</a> or <a href="/windows/desktop/api/thumbcache/nf-thumbcache-ithumbnailcache-getthumbnail">IThumbnailCache::GetThumbnail</a> methods), the underlying bitmap will not reside in shared memory.

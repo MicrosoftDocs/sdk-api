@@ -86,9 +86,8 @@ Prior to resizing buffers you must release all outstanding DCs.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3ddxgi/d3d10-graphics-reference-dxgi-interfaces">DXGI Interfaces</a>
+<a href="/windows/desktop/direct3ddxgi/d3d10-graphics-reference-dxgi-interfaces">DXGI Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nn-dxgi-idxgisurface1">IDXGISurface1</a>
-
+<a href="/windows/desktop/api/dxgi/nn-dxgi-idxgisurface1">IDXGISurface1</a>

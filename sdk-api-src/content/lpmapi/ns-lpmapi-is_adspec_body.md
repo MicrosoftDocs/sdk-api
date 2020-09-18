@@ -57,7 +57,7 @@ The
 
 ### -field adspec_mh
 
-Main header information and length, expressed as an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lpmapi/ns-lpmapi-intservmainhdr">IntServMainHdr</a> structure.
+Main header information and length, expressed as an <a href="/previous-versions/windows/desktop/api/lpmapi/ns-lpmapi-intservmainhdr">IntServMainHdr</a> structure.
 
 ### -field adspec_genparms
 
@@ -69,5 +69,4 @@ The variable-length fragments that follow the <b>adspec_genparams</b> member can
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lpmapi/ns-lpmapi-intservmainhdr">IntServMainHdr</a>
-
+<a href="/previous-versions/windows/desktop/api/lpmapi/ns-lpmapi-intservmainhdr">IntServMainHdr</a>

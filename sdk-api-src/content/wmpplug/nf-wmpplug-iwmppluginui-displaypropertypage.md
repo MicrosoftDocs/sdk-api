@@ -70,5 +70,4 @@ This method is called by Windows Media Player only for plug-ins that provide a p
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmpplug/nn-wmpplug-iwmppluginui">IWMPPluginUI Interface</a>
-
+<a href="/windows/desktop/api/wmpplug/nn-wmpplug-iwmppluginui">IWMPPluginUI Interface</a>

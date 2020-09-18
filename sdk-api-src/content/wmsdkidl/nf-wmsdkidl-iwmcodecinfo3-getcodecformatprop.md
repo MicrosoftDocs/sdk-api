@@ -80,11 +80,11 @@ GUID identifying the major type of digital media. This must be one of the follow
 
 ### -param dwCodecIndex [in]
 
-<b>DWORD</b> containing the codec index ranging from zero to one less than the number of supported codecs of the type specified by <i>guidType</i>. To retrieve the number of individual codecs supporting a major type, use the <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmcodecinfo-getcodecinfocount">IWMCodecInfo::GetCodecInfoCount</a> method.
+<b>DWORD</b> containing the codec index ranging from zero to one less than the number of supported codecs of the type specified by <i>guidType</i>. To retrieve the number of individual codecs supporting a major type, use the <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmcodecinfo-getcodecinfocount">IWMCodecInfo::GetCodecInfoCount</a> method.
 
 ### -param dwFormatIndex [in]
 
-<b>DWORD</b> containing the format index ranging from zero to one less than the number of supported formats. To retrieve the number of individual formats supported by a codec, use the <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmcodecinfo-getcodecformatcount">IWMCodecInfo::GetCodecFormatCount</a> method.
+<b>DWORD</b> containing the format index ranging from zero to one less than the number of supported formats. To retrieve the number of individual formats supported by a codec, use the <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmcodecinfo-getcodecformatcount">IWMCodecInfo::GetCodecFormatCount</a> method.
 
 ### -param pszName [in]
 
@@ -104,7 +104,7 @@ Currently only one codec format property is supported; it is listed in the follo
 <tr>
 <td>g_wszSpeechCaps</td>
 <td><b>WMT_TYPE_DWORD</b></td>
-<td>The value is one from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wmsdkidl/ne-wmsdkidl-wmt_musicspeech_class_mode">WMT_MUSICSPEECH_CLASS_MODE</a> enumeration type indicating the supported mode of the format. This property applies only to the Windows Media Audio 9 Voice codec.</td>
+<td>The value is one from the <a href="/previous-versions/windows/desktop/api/wmsdkidl/ne-wmsdkidl-wmt_musicspeech_class_mode">WMT_MUSICSPEECH_CLASS_MODE</a> enumeration type indicating the supported mode of the format. This property applies only to the Windows Media Audio 9 Voice codec.</td>
 </tr>
 </table>
 
@@ -167,5 +167,4 @@ You should make two calls to <b>GetCodecFormatProp</b> for each property you wan
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmcodecinfo3">IWMCodecInfo3 Interface</a>
-
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmcodecinfo3">IWMCodecInfo3 Interface</a>

@@ -54,7 +54,7 @@ Used to get the transaction resource pool.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITransactionProperty</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITransactionProperty</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITransactionProperty</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITransactionProperty</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ITransactionProperty</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-itransactionproperty-gettransactionresourcepool">GetTransactionResourcePool</a>
+<a href="/windows/desktop/api/comsvcs/nf-comsvcs-itransactionproperty-gettransactionresourcepool">GetTransactionResourcePool</a>
 </td>
 <td align="left" width="63%">
 Retrieves the resource pool that is associated with this context's transaction.
@@ -80,5 +80,4 @@ Retrieves the resource pool that is associated with this context's transaction.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-itransactionresourcepool">ITransactionResourcePool</a>
-
+<a href="/windows/desktop/api/comsvcs/nn-comsvcs-itransactionresourcepool">ITransactionResourcePool</a>

@@ -83,7 +83,7 @@ Specifies the information level of the data. This parameter can be one of the fo
 </td>
 <td width="60%">
 Return the message alias. The <i>bufptr</i> parameter points to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmmsg/ns-lmmsg-msg_info_0">MSG_INFO_0</a> structure.
+<a href="/windows/desktop/api/lmmsg/ns-lmmsg-msg_info_0">MSG_INFO_0</a> structure.
 
 </td>
 </tr>
@@ -94,7 +94,7 @@ Return the message alias. The <i>bufptr</i> parameter points to a
 </td>
 <td width="60%">
 Return the message alias. The <i>bufptr</i> parameter points to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmmsg/ns-lmmsg-msg_info_1">MSG_INFO_1</a> structure. This level exists only for compatibility. Message forwarding is not supported.
+<a href="/windows/desktop/api/lmmsg/ns-lmmsg-msg_info_1">MSG_INFO_1</a> structure. This level exists only for compatibility. Message forwarding is not supported.
 
 </td>
 </tr>
@@ -103,9 +103,9 @@ Return the message alias. The <i>bufptr</i> parameter points to a
 ### -param bufptr [out]
 
 Pointer to the buffer that receives the data. The format of this data depends on the value of the <i>level</i> parameter. This buffer is allocated by the system and must be freed using the 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmapibuf/nf-lmapibuf-netapibufferfree">NetApiBufferFree</a> function. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management-function-buffers">Network Management Function Buffers</a> and 
-<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management-function-buffer-lengths">Network Management Function Buffer Lengths</a>.
+<a href="/windows/desktop/api/lmapibuf/nf-lmapibuf-netapibufferfree">NetApiBufferFree</a> function. For more information, see 
+<a href="/windows/desktop/NetMgmt/network-management-function-buffers">Network Management Function Buffers</a> and 
+<a href="/windows/desktop/NetMgmt/network-management-function-buffer-lengths">Network Management Function Buffer Lengths</a>.
 
 ## -returns
 
@@ -193,32 +193,31 @@ Only members of the Administrators local group can successfully execute the
 <b>NetMessageNameGetInfo</b> function on a remote server.
 
 To list all the message aliases in a message name table, you can call the 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmmsg/nf-lmmsg-netmessagenameenum">NetMessageNameEnum</a> function.
+<a href="/windows/desktop/api/lmmsg/nf-lmmsg-netmessagenameenum">NetMessageNameEnum</a> function.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmmsg/ns-lmmsg-msg_info_0">MSG_INFO_0</a>
+<a href="/windows/desktop/api/lmmsg/ns-lmmsg-msg_info_0">MSG_INFO_0</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmmsg/ns-lmmsg-msg_info_1">MSG_INFO_1</a>
+<a href="/windows/desktop/api/lmmsg/ns-lmmsg-msg_info_1">MSG_INFO_1</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/message-functions">Message
+<a href="/windows/desktop/NetMgmt/message-functions">Message
 		  Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmmsg/nf-lmmsg-netmessagenameenum">NetMessageNameEnum</a>
+<a href="/windows/desktop/api/lmmsg/nf-lmmsg-netmessagenameenum">NetMessageNameEnum</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management-functions">Network
+<a href="/windows/desktop/NetMgmt/network-management-functions">Network
 		  Management Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management">Network Management
+<a href="/windows/desktop/NetMgmt/network-management">Network Management
 		  Overview</a>
-

@@ -222,7 +222,7 @@ unused
 
 ### -param pContext
 
-Contains a value that the caller passed in a call to the <b>DxApi</b> function along with a specific function identifier. For more information about function identifiers, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dxapi/nf-dxapi-dxapi">DxApi</a>.
+Contains a value that the caller passed in a call to the <b>DxApi</b> function along with a specific function identifier. For more information about function identifiers, see <a href="/windows-hardware/drivers/ddi/content/dxapi/nf-dxapi-dxapi">DxApi</a>.
 
 ### -param dwParam1
 
@@ -238,65 +238,64 @@ Unused.
 
 ## -remarks
 
-A video capture driver supplies a <i>NotifyCallback</i> callback function to the DirectDraw runtime when the video capture driver calls the runtime's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dxapi/nf-dxapi-dxapi">DxApi</a> function. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/display/notify-callback-functions-in-a-video-capture-driver">Notify Callback Functions in a Video Capture Driver</a>.
+A video capture driver supplies a <i>NotifyCallback</i> callback function to the DirectDraw runtime when the video capture driver calls the runtime's <a href="/windows-hardware/drivers/ddi/content/dxapi/nf-dxapi-dxapi">DxApi</a> function. For more information, see <a href="/windows-hardware/drivers/display/notify-callback-functions-in-a-video-capture-driver">Notify Callback Functions in a Video Capture Driver</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ddkmapi/ns-ddkmapi-ddopendirectdrawin">DDOPENDIRECTDRAWIN</a>
+<a href="/windows/desktop/api/ddkmapi/ns-ddkmapi-ddopendirectdrawin">DDOPENDIRECTDRAWIN</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ddkmapi/ns-ddkmapi-ddopendirectdrawout">DDOPENDIRECTDRAWOUT</a>
+<a href="/windows/desktop/api/ddkmapi/ns-ddkmapi-ddopendirectdrawout">DDOPENDIRECTDRAWOUT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ddkmapi/ns-ddkmapi-ddopensurfacein">DDOPENSURFACEIN</a>
+<a href="/windows/desktop/api/ddkmapi/ns-ddkmapi-ddopensurfacein">DDOPENSURFACEIN</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ddkmapi/ns-ddkmapi-ddopensurfaceout">DDOPENSURFACEOUT</a>
+<a href="/windows/desktop/api/ddkmapi/ns-ddkmapi-ddopensurfaceout">DDOPENSURFACEOUT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ddkmapi/ns-ddkmapi-ddopenvideoportin">DDOPENVIDEOPORTIN</a>
+<a href="/windows/desktop/api/ddkmapi/ns-ddkmapi-ddopenvideoportin">DDOPENVIDEOPORTIN</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ddkmapi/ns-ddkmapi-ddopenvideoportout">DDOPENVIDEOPORTOUT</a>
+<a href="/windows/desktop/api/ddkmapi/ns-ddkmapi-ddopenvideoportout">DDOPENVIDEOPORTOUT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ddkmapi/ns-ddkmapi-ddopenvpcapturedevicein">DDOPENVPCAPTUREDEVICEIN</a>
+<a href="/windows/desktop/api/ddkmapi/ns-ddkmapi-ddopenvpcapturedevicein">DDOPENVPCAPTUREDEVICEIN</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ddkmapi/ns-ddkmapi-ddopenvpcapturedeviceout">DDOPENVPCAPTUREDEVICEOUT</a>
+<a href="/windows/desktop/api/ddkmapi/ns-ddkmapi-ddopenvpcapturedeviceout">DDOPENVPCAPTUREDEVICEOUT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ddkmapi/ns-ddkmapi-ddregistercallback">DDREGISTERCALLBACK</a>
+<a href="/windows/desktop/api/ddkmapi/ns-ddkmapi-ddregistercallback">DDREGISTERCALLBACK</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff550702(v=vs.85)">DD_DXAPI_OPENDIRECTDRAW</a>
+<a href="/previous-versions/windows/hardware/drivers/ff550702(v=vs.85)">DD_DXAPI_OPENDIRECTDRAW</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff550711(v=vs.85)">DD_DXAPI_OPENSURFACE</a>
+<a href="/previous-versions/windows/hardware/drivers/ff550711(v=vs.85)">DD_DXAPI_OPENSURFACE</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff551498(v=vs.85)">DD_DXAPI_OPENVIDEOPORT</a>
+<a href="/previous-versions/windows/hardware/drivers/ff551498(v=vs.85)">DD_DXAPI_OPENVIDEOPORT</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff551500(v=vs.85)">DD_DXAPI_OPENVPCAPTUREDEVICE</a>
+<a href="/previous-versions/windows/hardware/drivers/ff551500(v=vs.85)">DD_DXAPI_OPENVPCAPTUREDEVICE</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff551502(v=vs.85)">DD_DXAPI_REGISTER_CALLBACK</a>
+<a href="/previous-versions/windows/hardware/drivers/ff551502(v=vs.85)">DD_DXAPI_REGISTER_CALLBACK</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dxapi/nf-dxapi-dxapi">DxApi</a>
-
+<a href="/windows-hardware/drivers/ddi/content/dxapi/nf-dxapi-dxapi">DxApi</a>

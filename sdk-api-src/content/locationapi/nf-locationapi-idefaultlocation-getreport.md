@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[The Win32 Location API is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use the <a href="https://docs.microsoft.com/uwp/api/windows.devices.geolocation">Windows.Devices.Geolocation</a>API.
+<p class="CCE_Message">[The Win32 Location API is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use the <a href="/uwp/api/windows.devices.geolocation">Windows.Devices.Geolocation</a>API.
 ]
 
 Retrieves the specified report type from the default location provider.
@@ -63,7 +63,7 @@ Retrieves the specified report type from the default location provider.
 
 ### -param ppLocationReport [out]
 
-The address of a pointer to <a href="https://docs.microsoft.com/windows/desktop/api/locationapi/nn-locationapi-ilocationreport">ILocationReport</a> that receives the specified location report from the default location provider.
+The address of a pointer to <a href="/windows/desktop/api/locationapi/nn-locationapi-ilocationreport">ILocationReport</a> that receives the specified location report from the default location provider.
 
 ## -returns
 
@@ -123,19 +123,18 @@ No data is available. This may be due to a lack of default location data in the 
 
 ## -remarks
 
-<a href="https://docs.microsoft.com/windows/desktop/api/locationapi/nn-locationapi-ilocationreport">ILocationReport</a> is the base interface for specific location report types. The actual interface you use for <i>ppLocationReport</i> must match the type you specified through <i>reportType</i>.
+<a href="/windows/desktop/api/locationapi/nn-locationapi-ilocationreport">ILocationReport</a> is the base interface for specific location report types. The actual interface you use for <i>ppLocationReport</i> must match the type you specified through <i>reportType</i>.
 
 A call to <b>IDefaultLocation::GetReport</b> may result in a notification being displayed in the taskbar, and a Location Activity event being logged in Event Viewer, if it is the application's first use of location.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/visualstudio">About Location Notifications</a>
+<a href="/previous-versions/visualstudio">About Location Notifications</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/visualstudio">About Logging Location Activity</a>
+<a href="/previous-versions/visualstudio">About Logging Location Activity</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/locationapi/nn-locationapi-idefaultlocation">IDefaultLocation</a>
-
+<a href="/windows/desktop/api/locationapi/nn-locationapi-idefaultlocation">IDefaultLocation</a>

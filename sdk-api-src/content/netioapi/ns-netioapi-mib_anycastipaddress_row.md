@@ -83,25 +83,24 @@ Note that the <i>Netioapi.h</i> header file is automatically included in the <i>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-createanycastipaddressentry">CreateAnycastIpAddressEntry</a>
+<a href="/windows/desktop/api/netioapi/nf-netioapi-createanycastipaddressentry">CreateAnycastIpAddressEntry</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-deleteanycastipaddressentry">DeleteAnycastIpAddressEntry</a>
+<a href="/windows/desktop/api/netioapi/nf-netioapi-deleteanycastipaddressentry">DeleteAnycastIpAddressEntry</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-getanycastipaddressentry">GetAnycastIpAddressEntry</a>
+<a href="/windows/desktop/api/netioapi/nf-netioapi-getanycastipaddressentry">GetAnycastIpAddressEntry</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-getanycastipaddresstable">GetAnycastIpAddressTable</a>
+<a href="/windows/desktop/api/netioapi/nf-netioapi-getanycastipaddresstable">GetAnycastIpAddressTable</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-mib_anycastipaddress_table">MIB_ANYCASTIPADDRESS_TABLE</a>
+<a href="/windows/desktop/api/netioapi/ns-netioapi-mib_anycastipaddress_table">MIB_ANYCASTIPADDRESS_TABLE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ws2ipdef/ns-ws2ipdef-sockaddr_inet">SOCKADDR_INET</a>
-
+<a href="/windows/desktop/api/ws2ipdef/ns-ws2ipdef-sockaddr_inet">SOCKADDR_INET</a>

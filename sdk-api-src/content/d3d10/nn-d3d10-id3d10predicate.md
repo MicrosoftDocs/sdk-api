@@ -55,7 +55,7 @@ A predicate interface determines whether geometry should be processed depending 
 
 ## -remarks
 
-A predicate can be created with <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nf-d3d10-id3d10device-createpredicate">ID3D10Device::CreatePredicate</a>, and used with <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nf-d3d10-id3d10device-setpredication">ID3D10Device::SetPredication</a>.
+A predicate can be created with <a href="/windows/desktop/api/d3d10/nf-d3d10-id3d10device-createpredicate">ID3D10Device::CreatePredicate</a>, and used with <a href="/windows/desktop/api/d3d10/nf-d3d10-id3d10device-setpredication">ID3D10Device::SetPredication</a>.
 
 There are two types of predicates in Direct3D 10: stream-output-overflow predicates and occlusion predicates. Stream-output-overflow predicates will cause any geometry residing in stream-output buffers that were overflowed to not be processed. Occlusion predicates will cause any geometry that did not have a single sample pass the depth/stencil tests to not be processed.
 
@@ -63,9 +63,8 @@ For an example of occlusion-predicated rendering, see <a href="https://msdn.micr
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-reference-d3d10-core-interfaces">Core Interfaces</a>
+<a href="/windows/desktop/direct3d10/d3d10-graphics-reference-d3d10-core-interfaces">Core Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nn-d3d10-id3d10query">ID3D10Query</a>
-
+<a href="/windows/desktop/api/d3d10/nn-d3d10-id3d10query">ID3D10Query</a>

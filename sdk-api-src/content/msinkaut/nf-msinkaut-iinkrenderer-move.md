@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-Applies a translation to the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkrenderer-getviewtransform">view transform</a> in ink space coordinates.
+Applies a translation to the <a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkrenderer-getviewtransform">view transform</a> in ink space coordinates.
 
 ## -parameters
 
@@ -73,5 +73,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/tablet/inkrenderer-class">InkRenderer Class</a>
-
+<a href="/windows/desktop/tablet/inkrenderer-class">InkRenderer Class</a>

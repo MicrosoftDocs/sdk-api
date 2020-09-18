@@ -62,7 +62,7 @@ Reference time, in 100-nanosecond units.
 
 ### -field timecode
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/getting-timecode-from-the-device">TIMECODE</a> structure.
+<a href="/windows/desktop/DirectShow/getting-timecode-from-the-device">TIMECODE</a> structure.
 
 ### -field dwUser
 
@@ -185,9 +185,8 @@ The upper 16 bits in <b>dwFlags</b> are reserved; set to zero.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/directshow-structures">DirectShow Structures</a>
+<a href="/windows/desktop/DirectShow/directshow-structures">DirectShow Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamtimecodereader-gettimecode">IAMTimecodeReader::GetTimecode</a>
-
+<a href="/windows/desktop/api/strmif/nf-strmif-iamtimecodereader-gettimecode">IAMTimecodeReader::GetTimecode</a>

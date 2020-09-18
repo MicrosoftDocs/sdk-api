@@ -54,10 +54,10 @@ api_name:
 
 The 
 <b>MMC_BUTTON_STATE</b> enumeration defines the possible states of buttons available in MMC. These values are used in the <i>nState</i> parameter of 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-iconsoleverb-getverbstate">IConsoleVerb::GetVerbState</a>, 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-iconsoleverb-setverbstate">IConsoleVerb::SetVerbState</a>, 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-itoolbar-getbuttonstate">IToolbar::GetButtonState</a>, and 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-itoolbar-setbuttonstate">IToolbar::SetButtonState</a>.
+<a href="/windows/desktop/api/mmc/nf-mmc-iconsoleverb-getverbstate">IConsoleVerb::GetVerbState</a>, 
+<a href="/windows/desktop/api/mmc/nf-mmc-iconsoleverb-setverbstate">IConsoleVerb::SetVerbState</a>, 
+<a href="/windows/desktop/api/mmc/nf-mmc-itoolbar-getbuttonstate">IToolbar::GetButtonState</a>, and 
+<a href="/windows/desktop/api/mmc/nf-mmc-itoolbar-setbuttonstate">IToolbar::SetButtonState</a>.
 
 ## -enum-fields
 
@@ -80,4 +80,3 @@ The button appears dimmed.
 ### -field BUTTONPRESSED
 
 The button is being pressed.
-

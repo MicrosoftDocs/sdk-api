@@ -55,7 +55,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="https://docs.microsoft.com/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Defines the set of object status values for a drive.
 
@@ -67,11 +67,11 @@ The status of the drive cannot be determined.
 
 ### -field VDS_DRS_ONLINE
 
-The drive is available and in use. The <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv-vds_health">VDS_HEALTH</a> value associated with this drive status can be any value except <b>VDS_H_FAILED</b>.
+The drive is available and in use. The <a href="/windows/desktop/api/vdshwprv/ne-vdshwprv-vds_health">VDS_HEALTH</a> value associated with this drive status can be any value except <b>VDS_H_FAILED</b>.
 
 ### -field VDS_DRS_NOT_READY
 
-The drive is busy. The <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv-vds_health">VDS_HEALTH</a> value can be any value except <b>VDS_H_FAILED</b>.
+The drive is busy. The <a href="/windows/desktop/api/vdshwprv/ne-vdshwprv-vds_health">VDS_HEALTH</a> value can be any value except <b>VDS_H_FAILED</b>.
 
 ### -field VDS_DRS_OFFLINE
 
@@ -79,11 +79,11 @@ The drive is physically present but has been removed from its RAID group or stor
 
 When this drive status is set, a <b>VDS_NF_DRIVE_REMOVED</b> notification is sent.
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv-vds_health">VDS_HEALTH</a> value can be any value.
+The <a href="/windows/desktop/api/vdshwprv/ne-vdshwprv-vds_health">VDS_HEALTH</a> value can be any value.
 
 ### -field VDS_DRS_FAILED
 
-The drive has failed. The <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv-vds_health">VDS_HEALTH</a> value should be <b>VDS_H_FAILED</b> or <b>VDS_H_FAILING</b>.
+The drive has failed. The <a href="/windows/desktop/api/vdshwprv/ne-vdshwprv-vds_health">VDS_HEALTH</a> value should be <b>VDS_H_FAILED</b> or <b>VDS_H_FAILING</b>.
 
 ### -field VDS_DRS_REMOVED
 
@@ -93,7 +93,7 @@ The drive has been physically unplugged from the subsystem. When this status is 
 
 ## -remarks
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdsdrive-setstatus">IVdsDrive::SetStatus</a>method passes a <b>VDS_DRIVE_STATUS</b> value as an argument to set the status of a drive, and  the <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_drive_prop">VDS_DRIVE_PROP</a> structure includes a <b>VDS_DRIVE_STATUS</b> value as a member to indicate the current status.
+The <a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdsdrive-setstatus">IVdsDrive::SetStatus</a>method passes a <b>VDS_DRIVE_STATUS</b> value as an argument to set the status of a drive, and  the <a href="/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_drive_prop">VDS_DRIVE_PROP</a> structure includes a <b>VDS_DRIVE_STATUS</b> value as a member to indicate the current status.
 
 If your application encounters a <b>VDS_DRIVE_STATUS</b> value that it does not recognize, it should display the drive status as unknown. It should not attempt to map the unrecognized drive status to another drive status.
 
@@ -102,13 +102,12 @@ If your application encounters a <b>VDS_DRIVE_STATUS</b> value that it does not 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdsdrive-setstatus">IVdsDrive::SetStatus</a>
+<a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdsdrive-setstatus">IVdsDrive::SetStatus</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/VDS/vds-enumerations">VDS Enumerations</a>
+<a href="/windows/desktop/VDS/vds-enumerations">VDS Enumerations</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_drive_prop">VDS_DRIVE_PROP</a>
-
+<a href="/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_drive_prop">VDS_DRIVE_PROP</a>

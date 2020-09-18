@@ -60,7 +60,7 @@ If the local computer is a node in a cluster,
 <b>SetComputerName</b> sets NetBIOS name of the local computer, not that of the cluster virtual server.
 
 To set the DNS host name or the DNS domain name, call the 
-<a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-setcomputernameexa">SetComputerNameEx</a> function.
+<a href="/windows/desktop/api/sysinfoapi/nf-sysinfoapi-setcomputernameexa">SetComputerNameEx</a> function.
 
 ## -parameters
 
@@ -79,7 +79,7 @@ The standard character set includes letters, numbers, and the following symbols:
 If the function succeeds, the return value is a nonzero value.
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
@@ -94,21 +94,20 @@ Applications using this function must have administrator rights.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/SysInfo/computer-names">Computer Names</a>
+<a href="/windows/desktop/SysInfo/computer-names">Computer Names</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getcomputernamea">GetComputerName</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-getcomputernamea">GetComputerName</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getcomputernameexa">GetComputerNameEx</a>
+<a href="/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getcomputernameexa">GetComputerNameEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-setcomputernameexa">SetComputerNameEx</a>
+<a href="/windows/desktop/api/sysinfoapi/nf-sysinfoapi-setcomputernameexa">SetComputerNameEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SysInfo/system-information-functions">System Information Functions</a>
-
+<a href="/windows/desktop/SysInfo/system-information-functions">System Information Functions</a>

@@ -51,10 +51,10 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[The <a href="https://docs.microsoft.com/windows/desktop/api/provider/nl-provider-provider">Provider</a> class 
+<p class="CCE_Message">[The <a href="/windows/desktop/api/provider/nl-provider-provider">Provider</a> class 
     is part of the WMI Provider Framework which is now considered in final state, and no further development, 
     enhancements, or updates will be available for non-security related issues affecting these libraries. The 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/wmi_v2/windows-management-infrastructure">MI APIs</a> should be used for all new 
+    <a href="/previous-versions/windows/desktop/wmi_v2/windows-management-infrastructure">MI APIs</a> should be used for all new 
     development.]
 
 The <b>MakeLocalPath</b> method builds a full instance path from a relative path.
@@ -67,9 +67,8 @@ Relative path used to build the full path.
 
 ## -returns
 
-Returns the full path in <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/chstring">CHString</a> format.
+Returns the full path in <a href="/windows/desktop/WmiSdk/chstring">CHString</a> format.
 
 ## -remarks
 
-Consider using <a href="https://docs.microsoft.com/windows/desktop/api/provider/nf-provider-provider-getlocalinstancepath">Provider::GetLocalInstancePath</a> before using this method.
-
+Consider using <a href="/windows/desktop/api/provider/nf-provider-provider-getlocalinstancepath">Provider::GetLocalInstancePath</a> before using this method.

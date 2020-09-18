@@ -72,9 +72,8 @@ If <i>cb</i> is zero, <b>Alloc</b> allocates a zero-length item and returns a va
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemalloc">CoTaskMemAlloc</a>
+<a href="/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemalloc">CoTaskMemAlloc</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imalloc">IMalloc</a>
-
+<a href="/windows/desktop/api/objidl/nn-objidl-imalloc">IMalloc</a>

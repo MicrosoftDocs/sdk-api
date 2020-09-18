@@ -64,7 +64,7 @@ A pointer to a variable that  contains the index value of the next column refere
 <h3>C++</h3>
  If the method succeeds, the method returns S_OK and the next column in the column-enumeration sequence is now being referenced. If there are no more columns to enumerate, the method returns S_FALSE, and the <i>pIndex</i> parameter is set to a value of –1.
 
-If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
+If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 <h3>VB</h3>
  The return value is the index value of the column that is now referenced by the column-enumeration sequence. If there are no more columns to enumerate, the return value is –1.
@@ -75,15 +75,15 @@ Upon successful completion of this method, the information in the column can be 
 
 <ul>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/certview/nf-certview-ienumcertviewcolumn-getname">IEnumCERTVIEWCOLUMN::GetName</a>: Retrieves the nonlocalized name of the column.</li>
+<a href="/windows/desktop/api/certview/nf-certview-ienumcertviewcolumn-getname">IEnumCERTVIEWCOLUMN::GetName</a>: Retrieves the nonlocalized name of the column.</li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/certview/nf-certview-ienumcertviewcolumn-getdisplayname">IEnumCERTVIEWCOLUMN::GetDisplayName</a>: Retrieves the localized name of the column.</li>
+<a href="/windows/desktop/api/certview/nf-certview-ienumcertviewcolumn-getdisplayname">IEnumCERTVIEWCOLUMN::GetDisplayName</a>: Retrieves the localized name of the column.</li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/certview/nf-certview-ienumcertviewcolumn-getvalue">IEnumCERTVIEWCOLUMN::GetValue</a>: Retrieves the data in the column.</li>
+<a href="/windows/desktop/api/certview/nf-certview-ienumcertviewcolumn-getvalue">IEnumCERTVIEWCOLUMN::GetValue</a>: Retrieves the data in the column.</li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/certview/nf-certview-ienumcertviewcolumn-gettype">IEnumCERTVIEWCOLUMN::GetType</a>: Retrieves the type of data in the column.</li>
+<a href="/windows/desktop/api/certview/nf-certview-ienumcertviewcolumn-gettype">IEnumCERTVIEWCOLUMN::GetType</a>: Retrieves the type of data in the column.</li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/certview/nf-certview-ienumcertviewcolumn-getmaxlength">IEnumCERTVIEWCOLUMN::GetMaxLength</a>: Retrieves the maximum length, in bytes, of the column.</li>
+<a href="/windows/desktop/api/certview/nf-certview-ienumcertviewcolumn-getmaxlength">IEnumCERTVIEWCOLUMN::GetMaxLength</a>: Retrieves the maximum length, in bytes, of the column.</li>
 </ul>
 
 #### Examples
@@ -177,25 +177,24 @@ if (NULL != bstrColName)
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certview/nn-certview-ienumcertviewcolumn">IEnumCERTVIEWCOLUMN</a>
+<a href="/windows/desktop/api/certview/nn-certview-ienumcertviewcolumn">IEnumCERTVIEWCOLUMN</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certview/nf-certview-ienumcertviewcolumn-getdisplayname">IEnumCERTVIEWCOLUMN::GetDisplayName</a>
+<a href="/windows/desktop/api/certview/nf-certview-ienumcertviewcolumn-getdisplayname">IEnumCERTVIEWCOLUMN::GetDisplayName</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certview/nf-certview-ienumcertviewcolumn-getmaxlength">IEnumCERTVIEWCOLUMN::GetMaxLength</a>
+<a href="/windows/desktop/api/certview/nf-certview-ienumcertviewcolumn-getmaxlength">IEnumCERTVIEWCOLUMN::GetMaxLength</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certview/nf-certview-ienumcertviewcolumn-getname">IEnumCERTVIEWCOLUMN::GetName</a>
+<a href="/windows/desktop/api/certview/nf-certview-ienumcertviewcolumn-getname">IEnumCERTVIEWCOLUMN::GetName</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certview/nf-certview-ienumcertviewcolumn-gettype">IEnumCERTVIEWCOLUMN::GetType</a>
+<a href="/windows/desktop/api/certview/nf-certview-ienumcertviewcolumn-gettype">IEnumCERTVIEWCOLUMN::GetType</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certview/nf-certview-ienumcertviewcolumn-getvalue">IEnumCERTVIEWCOLUMN::GetValue</a>
-
+<a href="/windows/desktop/api/certview/nf-certview-ienumcertviewcolumn-getvalue">IEnumCERTVIEWCOLUMN::GetValue</a>

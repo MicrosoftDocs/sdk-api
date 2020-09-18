@@ -62,15 +62,15 @@ Pointer to a constant string that specifies the DNS or NetBIOS name of the remot
 ### -param BufferPtr [out]
 
 Pointer to the address that receives the 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmremutl/ns-lmremutl-time_of_day_info">TIME_OF_DAY_INFO</a> information structure. This buffer is allocated by the system and must be freed using the 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmapibuf/nf-lmapibuf-netapibufferfree">NetApiBufferFree</a> function.
+<a href="/windows/desktop/api/lmremutl/ns-lmremutl-time_of_day_info">TIME_OF_DAY_INFO</a> information structure. This buffer is allocated by the system and must be freed using the 
+<a href="/windows/desktop/api/lmapibuf/nf-lmapibuf-netapibufferfree">NetApiBufferFree</a> function.
 
 ## -returns
 
 If the function succeeds, the return value is NERR_Success.
 
 If the function fails, the return value is a system error code. For a list of error codes, see 
-<a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">System Error Codes</a>.
+<a href="/windows/desktop/Debug/system-error-codes">System Error Codes</a>.
 
 ## -remarks
 
@@ -82,7 +82,7 @@ No special group membership is required to successfully execute the
 
 The following code sample demonstrates how to retrieve and print the current date and time with a call to the 
 <b>NetRemoteTOD</b> function. To do this, the sample uses the 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmremutl/ns-lmremutl-time_of_day_info">TIME_OF_DAY_INFO</a> structure. Finally, the sample frees the memory allocated for the information buffer.
+<a href="/windows/desktop/api/lmremutl/ns-lmremutl-time_of_day_info">TIME_OF_DAY_INFO</a> structure. Finally, the sample frees the memory allocated for the information buffer.
 
 
 ```cpp
@@ -145,20 +145,19 @@ int wmain(int argc, wchar_t *argv[])
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management-functions">Network
+<a href="/windows/desktop/NetMgmt/network-management-functions">Network
 		  Management Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management">Network Management
+<a href="/windows/desktop/NetMgmt/network-management">Network Management
 		  Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/remote-utility-functions">Remote
+<a href="/windows/desktop/NetMgmt/remote-utility-functions">Remote
 		  Utility Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmremutl/ns-lmremutl-time_of_day_info">TIME_OF_DAY_INFO</a>
-
+<a href="/windows/desktop/api/lmremutl/ns-lmremutl-time_of_day_info">TIME_OF_DAY_INFO</a>

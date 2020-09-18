@@ -122,7 +122,7 @@ The buffer was not valid.
  
 
 <div class="alert"><b>Note</b>  For a list of valid error codes, see 
-<a href="https://docs.microsoft.com/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
+<a href="/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
 <div> </div>
 
 ## -remarks
@@ -132,9 +132,8 @@ The
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/midles/nf-midles-mesencodefixedbufferhandlecreate">MesEncodeFixedBufferHandleCreate</a>
+<a href="/windows/desktop/api/midles/nf-midles-mesencodefixedbufferhandlecreate">MesEncodeFixedBufferHandleCreate</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/midles/nf-midles-meshandlefree">MesHandleFree</a>
-
+<a href="/windows/desktop/api/midles/nf-midles-meshandlefree">MesHandleFree</a>

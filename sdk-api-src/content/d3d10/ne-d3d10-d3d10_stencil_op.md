@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The stencil operations that can be performed during <a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d10-graphics-programming-guide-output-merger-stage">depth-stencil</a> testing.
+The stencil operations that can be performed during <a href="/windows/desktop/direct3d11/d3d10-graphics-programming-guide-output-merger-stage">depth-stencil</a> testing.
 
 ## -enum-fields
 
@@ -64,7 +64,7 @@ Set the stencil data to 0.
 
 ### -field D3D10_STENCIL_OP_REPLACE
 
-Set the stencil data to the reference value set by calling <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nf-d3d10-id3d10device-omsetdepthstencilstate">ID3D10Device::OMSetDepthStencilState</a>.
+Set the stencil data to the reference value set by calling <a href="/windows/desktop/api/d3d10/nf-d3d10-id3d10device-omsetdepthstencilstate">ID3D10Device::OMSetDepthStencilState</a>.
 
 ### -field D3D10_STENCIL_OP_INCR_SAT
 
@@ -88,5 +88,4 @@ Increment the stencil value by 1, and wrap the result if necessary.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-reference-d3d10-core-enums">Core Enumerations</a>
-
+<a href="/windows/desktop/direct3d10/d3d10-graphics-reference-d3d10-core-enums">Core Enumerations</a>

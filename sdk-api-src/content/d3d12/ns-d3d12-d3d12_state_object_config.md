@@ -56,9 +56,8 @@ Defines general properties of a state object.
 
 ### -field Flags
 
-A value from the <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_state_object_flags">D3D12_STATE_OBJECT_FLAGS</a> flags enumeration that specifies the requirements for the state object.
+A value from the <a href="/windows/desktop/api/d3d12/ne-d3d12-d3d12_state_object_flags">D3D12_STATE_OBJECT_FLAGS</a> flags enumeration that specifies the requirements for the state object.
 
 ## -remarks
 
 The presence of this subobject in a state object is optional.  If present, all exports in the state object must be associated with the same subobject (or one with a matching definition).  This consistency requirement does not apply across existing collections that are included in a larger state object.
-

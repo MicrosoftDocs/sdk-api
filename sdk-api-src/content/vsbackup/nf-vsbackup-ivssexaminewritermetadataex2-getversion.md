@@ -113,7 +113,7 @@ The caller is out of memory or other system resources.
 </td>
 <td width="60%">
 Unexpected error. The error code is logged in the error log file. For more information, see 
-        <a href="https://docs.microsoft.com/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
+        <a href="/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
 
 <b>Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:  </b>This value is not supported until Windows Server 2008 R2 and Windows 7. E_UNEXPECTED is used instead.
 
@@ -123,17 +123,16 @@ Unexpected error. The error code is logged in the error log file. For more infor
 
 ## -remarks
 
-The <b>GetVersion</b> method returns nonzero results only if the writer was initialized by calling the <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-cvsswriterex-initializeex">CVssWriterEx::InitializeEx</a> method and explicit version information was specified. If the writer is initialized by calling the <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-initialize">CVssWriter::Initialize</a> method, or if no version information was specified in the call to the <b>CVssWriterEx::InitializeEx</b> method, the <b>GetVersion</b> method returns zero in the <i>pdwMajorVersion</i> and <i>pdwMinorVersion</i> parameters.
+The <b>GetVersion</b> method returns nonzero results only if the writer was initialized by calling the <a href="/windows/desktop/api/vswriter/nf-vswriter-cvsswriterex-initializeex">CVssWriterEx::InitializeEx</a> method and explicit version information was specified. If the writer is initialized by calling the <a href="/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-initialize">CVssWriter::Initialize</a> method, or if no version information was specified in the call to the <b>CVssWriterEx::InitializeEx</b> method, the <b>GetVersion</b> method returns zero in the <i>pdwMajorVersion</i> and <i>pdwMinorVersion</i> parameters.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-initialize">CVssWriter::Initialize</a>
+<a href="/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-initialize">CVssWriter::Initialize</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-cvsswriterex-initializeex">CVssWriterEx::InitializeEx</a>
+<a href="/windows/desktop/api/vswriter/nf-vswriter-cvsswriterex-initializeex">CVssWriterEx::InitializeEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nl-vsbackup-ivssexaminewritermetadataex2">IVssExamineWriterMetadataEx2</a>
-
+<a href="/windows/desktop/api/vsbackup/nl-vsbackup-ivssexaminewritermetadataex2">IVssExamineWriterMetadataEx2</a>

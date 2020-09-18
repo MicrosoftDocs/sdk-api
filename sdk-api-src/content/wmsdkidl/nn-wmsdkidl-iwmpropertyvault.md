@@ -56,7 +56,7 @@ The <b>IWMPropertyVault</b> interface provides methods to store and retrieve pro
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMPropertyVault</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWMPropertyVault</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMPropertyVault</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWMPropertyVault</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>IWMPropertyVault</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmpropertyvault-clear">Clear</a>
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmpropertyvault-clear">Clear</a>
 </td>
 <td align="left" width="63%">
 Removes all items from the property vault.
@@ -80,7 +80,7 @@ Removes all items from the property vault.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmpropertyvault-copypropertiesfrom">CopyPropertiesFrom</a>
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmpropertyvault-copypropertiesfrom">CopyPropertiesFrom</a>
 </td>
 <td align="left" width="63%">
 Copies all of the properties from another property vault.
@@ -89,7 +89,7 @@ Copies all of the properties from another property vault.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmpropertyvault-getpropertybyindex">GetPropertyByIndex</a>
+<a href="/previous-versions/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmpropertyvault-getpropertybyindex">GetPropertyByIndex</a>
 </td>
 <td align="left" width="63%">
 Retrieves a property from the vault by its index value.
@@ -98,7 +98,7 @@ Retrieves a property from the vault by its index value.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmpropertyvault-getpropertybyname">GetPropertyByName</a>
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmpropertyvault-getpropertybyname">GetPropertyByName</a>
 </td>
 <td align="left" width="63%">
 Retrieves a property from the vault by its name.
@@ -107,7 +107,7 @@ Retrieves a property from the vault by its name.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmpropertyvault-getpropertycount">GetPropertyCount</a>
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmpropertyvault-getpropertycount">GetPropertyCount</a>
 </td>
 <td align="left" width="63%">
 Retrieves the total number of properties in the vault.
@@ -116,7 +116,7 @@ Retrieves the total number of properties in the vault.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmpropertyvault-setproperty">SetProperty</a>
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmpropertyvault-setproperty">SetProperty</a>
 </td>
 <td align="left" width="63%">
 Adds a property to the vault, or changes the value of an existing property.
@@ -133,40 +133,39 @@ The following interfaces can be obtained by using the QueryInterface method of t
 </tr>
 <tr>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmmediaprops">IWMMediaProps</a>
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmmediaprops">IWMMediaProps</a>
 </td>
 <td>IID_IWMMediaProps</td>
 </tr>
 <tr>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmstreamconfig">IWMStreamConfig</a>
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmstreamconfig">IWMStreamConfig</a>
 </td>
 <td>IID_IWMStreamConfig</td>
 </tr>
 <tr>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmstreamconfig2">IWMStreamConfig2</a>
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmstreamconfig2">IWMStreamConfig2</a>
 </td>
 <td>IID_IWMStreamConfig2</td>
 </tr>
 <tr>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmstreamconfig3">IWMStreamConfig3</a>
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmstreamconfig3">IWMStreamConfig3</a>
 </td>
 <td>IID_IWMStreamConfig3</td>
 </tr>
 <tr>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmvideomediaprops">IWMVideoMediaProps</a> (on video streams only)</td>
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmvideomediaprops">IWMVideoMediaProps</a> (on video streams only)</td>
 <td>IID_IWMVideoMediaProps</td>
 </tr>
 </table>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/wmformat/interfaces">Interfaces</a>
+<a href="/windows/desktop/wmformat/interfaces">Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/wmformat/stream-configuration-object">Stream Configuration Object</a>
-
+<a href="/windows/desktop/wmformat/stream-configuration-object">Stream Configuration Object</a>

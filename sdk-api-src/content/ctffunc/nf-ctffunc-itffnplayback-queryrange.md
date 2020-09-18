@@ -56,11 +56,11 @@ Obtains the range of text for a word or phrase that contains audio data.
 
 ### -param pRange [in]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfrange">ITfRange</a> object that covers all or part of the text that contains audio data.
+Pointer to an <a href="/windows/desktop/api/msctf/nn-msctf-itfrange">ITfRange</a> object that covers all or part of the text that contains audio data.
 
 ### -param ppNewRange [out]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfrange">ITfRange</a> pointer that receives a range object that covers all of the text that contains audio data. If there is no audio data for the text covered by <i>pRange</i>, this parameters receives <b>NULL</b>. In this case, the method returns S_OK, so the caller must verify that this parameter is not <b>NULL</b> before using the pointer.
+Pointer to an <a href="/windows/desktop/api/msctf/nn-msctf-itfrange">ITfRange</a> pointer that receives a range object that covers all of the text that contains audio data. If there is no audio data for the text covered by <i>pRange</i>, this parameters receives <b>NULL</b>. In this case, the method returns S_OK, so the caller must verify that this parameter is not <b>NULL</b> before using the pointer.
 
 ### -param pfPlayable [out]
 
@@ -116,10 +116,9 @@ The current implementation of this method is simple. It clones <i>pRange</i>, pl
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ctffunc/nn-ctffunc-itffnplayback">ITfFnPlayBack</a>
+<a href="/windows/desktop/api/ctffunc/nn-ctffunc-itffnplayback">ITfFnPlayBack</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfrange">ITfRange
+<a href="/windows/desktop/api/msctf/nn-msctf-itfrange">ITfRange
       </a>
-

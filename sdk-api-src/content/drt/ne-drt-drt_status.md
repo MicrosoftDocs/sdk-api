@@ -70,13 +70,12 @@ The local node does not have network connectivity.
 
 ### -field DRT_FAULTED
 
-A critical error has occurred in the local DRT instance. The <a href="https://docs.microsoft.com/windows/desktop/api/drt/nf-drt-drtclose">DrtClose</a> function must be called, after which  an attempt to re-open the DRT can be made.
+A critical error has occurred in the local DRT instance. The <a href="/windows/desktop/api/drt/nf-drt-drtclose">DrtClose</a> function must be called, after which  an attempt to re-open the DRT can be made.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/drt/nf-drt-drtclose">DrtClose</a>
+<a href="/windows/desktop/api/drt/nf-drt-drtclose">DrtClose</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/drt/nf-drt-drtopen">DrtOpen</a>
-
+<a href="/windows/desktop/api/drt/nf-drt-drtopen">DrtOpen</a>

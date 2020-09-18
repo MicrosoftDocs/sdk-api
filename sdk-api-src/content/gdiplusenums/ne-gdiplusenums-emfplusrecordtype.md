@@ -58,11 +58,11 @@ The <b>EmfPlusRecordType</b> enumeration identifies metafile record types used i
 <li>Elements in the third group have the prefix EmfPlusRecordType and identify EMF+ records.</li>
 </ul>WMF and EMF records can be displayed by Windows GDI+ and by Windows Graphics Device Interface (GDI). EMF+ records can be displayed by GDI+ but not by GDI.
 
-Elements that have the WmfRecordType prefix are analogous to constants (defined in Wingdi.h) that have the prefix META_. For example, the element <b><b>WmfRecordTypeSetBkColor</b></b> is analogous to the constant META_SETBKCOLOR. For more information about WMF files, see <a href="https://docs.microsoft.com/windows/desktop/gdi/windows-format-metafiles">Windows-Format Metafiles</a>.
+Elements that have the WmfRecordType prefix are analogous to constants (defined in Wingdi.h) that have the prefix META_. For example, the element <b><b>WmfRecordTypeSetBkColor</b></b> is analogous to the constant META_SETBKCOLOR. For more information about WMF files, see <a href="/windows/desktop/gdi/windows-format-metafiles">Windows-Format Metafiles</a>.
 
-Elements that have the EmfRecordType prefix are analogous to constants (defined in Wingdi.h) that have the prefix EMR_. For example, the element <b><b>EmfRecordTypePolygon</b></b> is analogous to the constant EMR_POLYGON. For more information about EMR constants, see <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-emr">EMR</a>.
+Elements that have the EmfRecordType prefix are analogous to constants (defined in Wingdi.h) that have the prefix EMR_. For example, the element <b><b>EmfRecordTypePolygon</b></b> is analogous to the constant EMR_POLYGON. For more information about EMR constants, see <a href="/windows/desktop/api/wingdi/ns-wingdi-emr">EMR</a>.
 
-Elements that have the EmfPlusRecordType prefix are specific to GDI+. Most of those elements correspond to methods of the <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics">Graphics</a> class. The remaining elements identify the header, the end of the file, and other sections of the metafile. The Constants section of this topic shows the correspondence between the EMF+ record types and the methods of the <b>Graphics</b> class.
+Elements that have the EmfPlusRecordType prefix are specific to GDI+. Most of those elements correspond to methods of the <a href="/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics">Graphics</a> class. The remaining elements identify the header, the end of the file, and other sections of the metafile. The Constants section of this topic shows the correspondence between the EMF+ record types and the methods of the <b>Graphics</b> class.
 
 ## -enum-fields
 
@@ -484,11 +484,11 @@ Identifies a record that marks the last EMF+ record of a metafile.
 
 ### -field EmfPlusRecordTypeComment
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-addmetafilecomment">Graphics::AddMetafileComment</a>
+<a href="/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-addmetafilecomment">Graphics::AddMetafileComment</a>
 
 ### -field EmfPlusRecordTypeGetDC
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-gethdc">Graphics::GetHDC</a>
+<a href="/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-gethdc">Graphics::GetHDC</a>
 
 ### -field EmfPlusRecordTypeMultiFormatStart
 
@@ -506,187 +506,187 @@ Identifies the end of a multiple-format block.
 
 ### -field EmfPlusRecordTypeClear
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-clear">Graphics::Clear</a>
+<a href="/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-clear">Graphics::Clear</a>
 
 ### -field EmfPlusRecordTypeFillRects
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-fillrectangles(inconstbrush_inconstrect_inint)">FillRectangles Methods</a>
+<a href="/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-fillrectangles(inconstbrush_inconstrect_inint)">FillRectangles Methods</a>
 
 ### -field EmfPlusRecordTypeDrawRects
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-drawrectangles(inconstpen_inconstrect_inint)">DrawRectangles Methods</a>
+<a href="/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-drawrectangles(inconstpen_inconstrect_inint)">DrawRectangles Methods</a>
 
 ### -field EmfPlusRecordTypeFillPolygon
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-fillpolygon(inconstbrush_inconstpointf_inint_infillmode)">FillPolygon Methods</a>
+<a href="/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-fillpolygon(inconstbrush_inconstpointf_inint_infillmode)">FillPolygon Methods</a>
 
 ### -field EmfPlusRecordTypeDrawLines
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-drawlines(inconstpen_inconstpoint_inint)">DrawLines Methods</a>
+<a href="/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-drawlines(inconstpen_inconstpoint_inint)">DrawLines Methods</a>
 
 ### -field EmfPlusRecordTypeFillEllipse
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-fillellipse(inconstbrush_inconstrect_)">FillEllipse Methods</a>
+<a href="/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-fillellipse(inconstbrush_inconstrect_)">FillEllipse Methods</a>
 
 ### -field EmfPlusRecordTypeDrawEllipse
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-drawellipse(inconstpen_inconstrect_)">DrawEllipse Methods</a>
+<a href="/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-drawellipse(inconstpen_inconstrect_)">DrawEllipse Methods</a>
 
 ### -field EmfPlusRecordTypeFillPie
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-fillpie(inconstbrush_inconstrect__inreal_inreal)">FillPie Methods</a>
+<a href="/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-fillpie(inconstbrush_inconstrect__inreal_inreal)">FillPie Methods</a>
 
 ### -field EmfPlusRecordTypeDrawPie
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-drawpie(inconstpen_inconstrect__inreal_inreal)">DrawPie Methods</a>
+<a href="/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-drawpie(inconstpen_inconstrect__inreal_inreal)">DrawPie Methods</a>
 
 ### -field EmfPlusRecordTypeDrawArc
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-drawarc(inconstpen_inconstrectf__inreal_inreal)">DrawArc Methods</a>
+<a href="/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-drawarc(inconstpen_inconstrectf__inreal_inreal)">DrawArc Methods</a>
 
 ### -field EmfPlusRecordTypeFillRegion
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-fillregion">Graphics::FillRegion</a>
+<a href="/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-fillregion">Graphics::FillRegion</a>
 
 ### -field EmfPlusRecordTypeFillPath
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-fillpath">Graphics::FillPath</a>
+<a href="/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-fillpath">Graphics::FillPath</a>
 
 ### -field EmfPlusRecordTypeDrawPath
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-drawpath">Graphics::DrawPath</a>
+<a href="/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-drawpath">Graphics::DrawPath</a>
 
 ### -field EmfPlusRecordTypeFillClosedCurve
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-fillclosedcurve(inconstbrush_inconstpointf_inint_infillmode_inreal)">FillClosedCurve Methods</a>
+<a href="/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-fillclosedcurve(inconstbrush_inconstpointf_inint_infillmode_inreal)">FillClosedCurve Methods</a>
 
 ### -field EmfPlusRecordTypeDrawClosedCurve
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-drawclosedcurve(inconstpen_inconstpointf_inint_inreal)">DrawClosedCurve Methods</a>
+<a href="/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-drawclosedcurve(inconstpen_inconstpointf_inint_inreal)">DrawClosedCurve Methods</a>
 
 ### -field EmfPlusRecordTypeDrawCurve
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-drawcurve(inconstpen_inconstpointf_inint_inint_inint_inreal)">DrawCurve Methods</a>
+<a href="/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-drawcurve(inconstpen_inconstpointf_inint_inint_inint_inreal)">DrawCurve Methods</a>
 
 ### -field EmfPlusRecordTypeDrawBeziers
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-drawbeziers(inconstpen_inconstpoint_inint)">DrawBeziers Methods</a>
+<a href="/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-drawbeziers(inconstpen_inconstpoint_inint)">DrawBeziers Methods</a>
 
 ### -field EmfPlusRecordTypeDrawImage
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-drawimage(inimage_inconstpointf_inint)">DrawImage Methods</a> (all methods that do not receive an array of destination points)
+<a href="/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-drawimage(inimage_inconstpointf_inint)">DrawImage Methods</a> (all methods that do not receive an array of destination points)
 
 ### -field EmfPlusRecordTypeDrawImagePoints
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-drawimage(inimage_inconstpointf_inint)">DrawImage Methods</a> (all methods that receive an array of destination points)
+<a href="/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-drawimage(inimage_inconstpointf_inint)">DrawImage Methods</a> (all methods that receive an array of destination points)
 
 ### -field EmfPlusRecordTypeDrawString
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-drawstring(constwchar_int_constfont_constpointf__constbrush)">DrawString Methods</a>
+<a href="/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-drawstring(constwchar_int_constfont_constpointf__constbrush)">DrawString Methods</a>
 
 ### -field EmfPlusRecordTypeSetRenderingOrigin
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-setrenderingorigin">Graphics::SetRenderingOrigin</a>
+<a href="/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-setrenderingorigin">Graphics::SetRenderingOrigin</a>
 
 ### -field EmfPlusRecordTypeSetAntiAliasMode
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-setsmoothingmode">Graphics::SetSmoothingMode</a>
+<a href="/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-setsmoothingmode">Graphics::SetSmoothingMode</a>
 
 ### -field EmfPlusRecordTypeSetTextRenderingHint
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-settextrenderinghint">Graphics::SetTextRenderingHint</a>
+<a href="/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-settextrenderinghint">Graphics::SetTextRenderingHint</a>
 
 ### -field EmfPlusRecordTypeSetTextContrast
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-settextcontrast">Graphics::SetTextContrast</a>
+<a href="/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-settextcontrast">Graphics::SetTextContrast</a>
 
 ### -field EmfPlusRecordTypeSetInterpolationMode
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-setinterpolationmode">Graphics::SetInterpolationMode</a>
+<a href="/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-setinterpolationmode">Graphics::SetInterpolationMode</a>
 
 ### -field EmfPlusRecordTypeSetPixelOffsetMode
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-setpixeloffsetmode">Graphics::SetPixelOffsetMode</a>
+<a href="/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-setpixeloffsetmode">Graphics::SetPixelOffsetMode</a>
 
 ### -field EmfPlusRecordTypeSetCompositingMode
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-setcompositingmode">Graphics::SetCompositingMode</a>
+<a href="/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-setcompositingmode">Graphics::SetCompositingMode</a>
 
 ### -field EmfPlusRecordTypeSetCompositingQuality
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-setcompositingquality">Graphics::SetCompositingQuality</a>
+<a href="/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-setcompositingquality">Graphics::SetCompositingQuality</a>
 
 ### -field EmfPlusRecordTypeSave
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-save">Graphics::Save</a>
+<a href="/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-save">Graphics::Save</a>
 
 ### -field EmfPlusRecordTypeRestore
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-restore">Graphics::Restore</a>
+<a href="/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-restore">Graphics::Restore</a>
 
 ### -field EmfPlusRecordTypeBeginContainer
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-begincontainer(inconstrect__inconstrect__inunit)">Graphics::BeginContainer</a>
+<a href="/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-begincontainer(inconstrect__inconstrect__inunit)">Graphics::BeginContainer</a>
 
 ### -field EmfPlusRecordTypeBeginContainerNoParams
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-begincontainer(inconstrect__inconstrect__inunit)">Graphics::BeginContainer</a>
+<a href="/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-begincontainer(inconstrect__inconstrect__inunit)">Graphics::BeginContainer</a>
 
 ### -field EmfPlusRecordTypeEndContainer
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-endcontainer">Graphics::EndContainer</a>
+<a href="/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-endcontainer">Graphics::EndContainer</a>
 
 ### -field EmfPlusRecordTypeSetWorldTransform
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-settransform">Graphics::SetTransform</a>
+<a href="/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-settransform">Graphics::SetTransform</a>
 
 ### -field EmfPlusRecordTypeResetWorldTransform
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-resettransform">Graphics::ResetTransform</a>
+<a href="/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-resettransform">Graphics::ResetTransform</a>
 
 ### -field EmfPlusRecordTypeMultiplyWorldTransform
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-multiplytransform">Graphics::MultiplyTransform</a>
+<a href="/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-multiplytransform">Graphics::MultiplyTransform</a>
 
 ### -field EmfPlusRecordTypeTranslateWorldTransform
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-translatetransform">Graphics::TranslateTransform</a>
+<a href="/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-translatetransform">Graphics::TranslateTransform</a>
 
 ### -field EmfPlusRecordTypeScaleWorldTransform
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-scaletransform">Graphics::ScaleTransform</a>
+<a href="/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-scaletransform">Graphics::ScaleTransform</a>
 
 ### -field EmfPlusRecordTypeRotateWorldTransform
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-rotatetransform">Graphics::RotateTransform</a>
+<a href="/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-rotatetransform">Graphics::RotateTransform</a>
 
 ### -field EmfPlusRecordTypeSetPageTransform
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-setpagescale">Graphics::SetPageScale</a> and <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-setpageunit">Graphics::SetPageUnit</a>
+<a href="/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-setpagescale">Graphics::SetPageScale</a> and <a href="/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-setpageunit">Graphics::SetPageUnit</a>
 
 ### -field EmfPlusRecordTypeResetClip
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-resetclip">Graphics::ResetClip</a>
+<a href="/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-resetclip">Graphics::ResetClip</a>
 
 ### -field EmfPlusRecordTypeSetClipRect
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-setclip(inconstrect__incombinemode)">Graphics::SetClip</a> and <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-setclip(inconstrectf__incombinemode)">Graphics::SetClip</a>
+<a href="/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-setclip(inconstrect__incombinemode)">Graphics::SetClip</a> and <a href="/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-setclip(inconstrectf__incombinemode)">Graphics::SetClip</a>
 
 ### -field EmfPlusRecordTypeSetClipPath
 
-<a href="https://docs.microsoft.com/previous-versions/ms535824(v=vs.85)">Graphics::SetClip</a>
+<a href="/previous-versions/ms535824(v=vs.85)">Graphics::SetClip</a>
 
 ### -field EmfPlusRecordTypeSetClipRegion
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-setclip(inhrgn_incombinemode)">Graphics::SetClip</a>
+<a href="/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-setclip(inhrgn_incombinemode)">Graphics::SetClip</a>
 
 ### -field EmfPlusRecordTypeOffsetClip
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-translateclip(inint_inint)">TranslateClip Methods</a>
+<a href="/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-translateclip(inint_inint)">TranslateClip Methods</a>
 
 ### -field EmfPlusRecordTypeDrawDriverString
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-drawdriverstring">Graphics::DrawDriverString</a>
+<a href="/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-drawdriverstring">Graphics::DrawDriverString</a>
 
 ### -field EmfPlusRecordTypeStrokeFillPath
 
@@ -703,4 +703,3 @@ Identifies the end of a multiple-format block.
 ### -field EmfPlusRecordTypeMin
 
 #### - EmfPlusRecordTypeSetGammaValue
-

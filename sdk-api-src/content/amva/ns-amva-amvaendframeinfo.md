@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-The <b>AMVAEndFrameInfo</b> structure contains information  for the <a href="https://docs.microsoft.com/windows/desktop/api/videoacc/nf-videoacc-iamvideoaccelerator-endframe">IAMVideoAccelerator::EndFrame</a> method.
+The <b>AMVAEndFrameInfo</b> structure contains information  for the <a href="/windows/desktop/api/videoacc/nf-videoacc-iamvideoaccelerator-endframe">IAMVideoAccelerator::EndFrame</a> method.
 
 ## -struct-fields
 
@@ -66,7 +66,7 @@ Size, in bytes, of the buffer that <b>pMiscData</b> points to. The value must be
 
 Pointer to a buffer that contains data for the video accelerator.
 
-This buffer must contain a <b>WORD</b> value equal equal to the same surface index that passed to the corresponding <a href="https://docs.microsoft.com/windows/desktop/api/videoacc/nf-videoacc-iamvideoaccelerator-beginframe">IAMVideoAccelerator::BeginFrame</a> method.
+This buffer must contain a <b>WORD</b> value equal equal to the same surface index that passed to the corresponding <a href="/windows/desktop/api/videoacc/nf-videoacc-iamvideoaccelerator-beginframe">IAMVideoAccelerator::BeginFrame</a> method.
 
 ## -remarks
 
@@ -74,9 +74,8 @@ The buffer pointed to by <b>pMiscData</b> cannot contain pointer values, because
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/directshow-structures">DirectShow Structures</a>
+<a href="/windows/desktop/DirectShow/directshow-structures">DirectShow Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/videoacc/nf-videoacc-iamvideoaccelerator-endframe">IAMVideoAccelerator::EndFrame</a>
-
+<a href="/windows/desktop/api/videoacc/nf-videoacc-iamvideoaccelerator-endframe">IAMVideoAccelerator::EndFrame</a>

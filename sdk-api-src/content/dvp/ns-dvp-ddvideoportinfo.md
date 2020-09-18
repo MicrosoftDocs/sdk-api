@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-The DDVIDEOPORTINFO structure describes how the driver should transfer video data to a surface (or to surfaces); DDVIDEOPORTINFO is a member of the <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_videoport_local">DD_VIDEOPORT_LOCAL</a> structure.
+The DDVIDEOPORTINFO structure describes how the driver should transfer video data to a surface (or to surfaces); DDVIDEOPORTINFO is a member of the <a href="/windows/desktop/api/ddrawint/ns-ddrawint-dd_videoport_local">DD_VIDEOPORT_LOCAL</a> structure.
 
 ## -struct-fields
 
@@ -105,7 +105,7 @@ DDVP_CROP
 
 </td>
 <td>
-The driver should crop both the video and <a href="https://docs.microsoft.com/windows-hardware/drivers/">VBI</a> data using the rectangle in the <b>rCrop</b> member.
+The driver should crop both the video and <a href="/windows-hardware/drivers/">VBI</a> data using the rectangle in the <b>rCrop</b> member.
 
 </td>
 </tr>
@@ -215,7 +215,7 @@ DDVP_VBICONVERT
 
 </td>
 <td>
-The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksmedia/ns-ksmedia-_ddpixelformat">DDPIXELFORMAT</a> structure to which the <b>lpddpfVBIOutputFormat</b> member points contains data that should be used to convert the data within the vertical blanking interval.
+The <a href="/windows-hardware/drivers/ddi/content/ksmedia/ns-ksmedia-_ddpixelformat">DDPIXELFORMAT</a> structure to which the <b>lpddpfVBIOutputFormat</b> member points contains data that should be used to convert the data within the vertical blanking interval.
 
 </td>
 </tr>
@@ -233,7 +233,7 @@ Data within the vertical blanking interval should not be scaled.
 
 ### -field rCrop
 
-Specifies a <a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-rect">RECT</a> structure that specifies a cropping rectangle in pixels. This member contains a valid rectangle when the DDVP_CROP flag is set in the <b>dwVPFlags</b> member.
+Specifies a <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> structure that specifies a cropping rectangle in pixels. This member contains a valid rectangle when the DDVP_CROP flag is set in the <b>dwVPFlags</b> member.
 
 ### -field dwPrescaleWidth
 
@@ -245,7 +245,7 @@ Specifies the height in pixels to which the video and VBI data should be prescal
 
 ### -field lpddpfInputFormat
 
-Points to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksmedia/ns-ksmedia-_ddpixelformat">DDPIXELFORMAT</a> structure that specifies the format of the video data to be written to the <a href="https://docs.microsoft.com/windows-hardware/drivers/">video port extensions (VPE)</a> object. This format can be different from the target surface format if the VPE object performs a conversion.
+Points to a <a href="/windows-hardware/drivers/ddi/content/ksmedia/ns-ksmedia-_ddpixelformat">DDPIXELFORMAT</a> structure that specifies the format of the video data to be written to the <a href="/windows-hardware/drivers/">video port extensions (VPE)</a> object. This format can be different from the target surface format if the VPE object performs a conversion.
 
 ### -field lpddpfVBIInputFormat
 
@@ -273,9 +273,8 @@ All members of this structure are set by the client and the driver should never 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksmedia/ns-ksmedia-_ddpixelformat">DDPIXELFORMAT</a>
+<a href="/windows-hardware/drivers/ddi/content/ksmedia/ns-ksmedia-_ddpixelformat">DDPIXELFORMAT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_videoport_local">DD_VIDEOPORT_LOCAL</a>
-
+<a href="/windows/desktop/api/ddrawint/ns-ddrawint-dd_videoport_local">DD_VIDEOPORT_LOCAL</a>

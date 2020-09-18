@@ -56,7 +56,7 @@ Retrieves the type of media in the disc device.
 
 ### -param value [out]
 
-Type of media in the disc device. For possible values, see the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/ne-imapi2-imapi_media_physical_type">IMAPI_MEDIA_PHYSICAL_TYPE</a>enumeration type.
+Type of media in the disc device. For possible values, see the <a href="/windows/desktop/api/imapi2/ne-imapi2-imapi_media_physical_type">IMAPI_MEDIA_PHYSICAL_TYPE</a>enumeration type.
 
 ## -returns
 
@@ -359,13 +359,12 @@ Value: 0xC0AA0210
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2-get_supportedmediatypes">IDiscFormat2::get_SupportedMediaTypes</a>
+<a href="/windows/desktop/api/imapi2/nf-imapi2-idiscformat2-get_supportedmediatypes">IDiscFormat2::get_SupportedMediaTypes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-idiscformat2rawcd">IDiscFormat2RawCD</a>
+<a href="/windows/desktop/api/imapi2/nn-imapi2-idiscformat2rawcd">IDiscFormat2RawCD</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/ne-imapi2-imapi_media_physical_type">IMAPI_MEDIA_PHYSICAL_TYPE</a>
-
+<a href="/windows/desktop/api/imapi2/ne-imapi2-imapi_media_physical_type">IMAPI_MEDIA_PHYSICAL_TYPE</a>

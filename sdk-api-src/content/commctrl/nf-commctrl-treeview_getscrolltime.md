@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Retrieves the maximum scroll time for the tree-view control. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/tvm-getscrolltime">TVM_GETSCROLLTIME</a> message explicitly.
+Retrieves the maximum scroll time for the tree-view control. You can use this macro or send the <a href="/windows/desktop/Controls/tvm-getscrolltime">TVM_GETSCROLLTIME</a> message explicitly.
 
 ## -parameters
 
 ### -param hwnd
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 Handle to the tree-view control.
 
@@ -66,5 +66,4 @@ The maximum scroll time is the longest amount of time that a scroll operation ca
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-treeview_setscrolltime">TreeView_SetScrollTime</a>
-
+<a href="/windows/desktop/api/commctrl/nf-commctrl-treeview_setscrolltime">TreeView_SetScrollTime</a>

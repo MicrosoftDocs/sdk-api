@@ -52,22 +52,21 @@ api_name:
 ## -description
 
 The <b>Graphics::GetPixelOffsetMode</b> method gets the pixel offset mode currently set for this 
-			<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics">Graphics</a> object.
+			<a href="/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics">Graphics</a> object.
 
 ## -parameters
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/gdiplusenums/ne-gdiplusenums-pixeloffsetmode">PixelOffsetMode</a></b>
+Type: <b><a href="/windows/desktop/api/gdiplusenums/ne-gdiplusenums-pixeloffsetmode">PixelOffsetMode</a></b>
 
-This method returns an element of the <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusenums/ne-gdiplusenums-pixeloffsetmode">PixelOffsetMode</a> enumeration that indicates the pixel offset mode currently set for this 
-						<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics">Graphics</a> object.
+This method returns an element of the <a href="/windows/desktop/api/gdiplusenums/ne-gdiplusenums-pixeloffsetmode">PixelOffsetMode</a> enumeration that indicates the pixel offset mode currently set for this 
+						<a href="/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics">Graphics</a> object.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics">Graphics</a>
+<a href="/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics">Graphics</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusenums/ne-gdiplusenums-pixeloffsetmode">PixelOffsetMode</a>
-
+<a href="/windows/desktop/api/gdiplusenums/ne-gdiplusenums-pixeloffsetmode">PixelOffsetMode</a>

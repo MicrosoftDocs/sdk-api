@@ -70,8 +70,8 @@ A temporary resource is scratch memory that is only used during the execution of
 
 The size of the temporary and persistent resources varies per operator. Call
     [IDMLDispatchable::GetBindingProperties](/windows/desktop/api/directml/nf-directml-idmldispatchable-getbindingproperties) to query the required size, in bytes, of the persistent and temporary
-    resources for this compiled operator. See <a href="https://docs.microsoft.com/windows/desktop/api/directml/nf-directml-idmlbindingtable-bindtemporaryresource">IDMLBindingTable::BindTemporaryResource</a> and
-    <a href="https://docs.microsoft.com/windows/desktop/api/directml/nf-directml-idmlbindingtable-bindpersistentresource">IDMLBindingTable::BindPersistentResource</a> for more information on binding temporary and persistent resources.
+    resources for this compiled operator. See <a href="/windows/desktop/api/directml/nf-directml-idmlbindingtable-bindtemporaryresource">IDMLBindingTable::BindTemporaryResource</a> and
+    <a href="/windows/desktop/api/directml/nf-directml-idmlbindingtable-bindpersistentresource">IDMLBindingTable::BindPersistentResource</a> for more information on binding temporary and persistent resources.
 
 All methods on this interface are thread-safe.
 
@@ -80,4 +80,3 @@ All methods on this interface are thread-safe.
 [Binding in DirectML](/windows/desktop/direct3d12/dml-binding)
 
 [IDMLDispatchable](/windows/desktop/api/directml/nn-directml-idmldispatchable)
-

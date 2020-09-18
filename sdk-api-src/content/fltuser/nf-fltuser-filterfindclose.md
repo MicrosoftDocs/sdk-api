@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-The <b>FilterFindClose</b> function closes the specified minifilter search handle. The <a href="https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filterfindfirst">FilterFindFirst</a> and <a href="https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filterfindnext">FilterFindNext</a> functions use this search handle to locate minifilters.
+The <b>FilterFindClose</b> function closes the specified minifilter search handle. The <a href="/windows/desktop/api/fltuser/nf-fltuser-filterfindfirst">FilterFindFirst</a> and <a href="/windows/desktop/api/fltuser/nf-fltuser-filterfindnext">FilterFindNext</a> functions use this search handle to locate minifilters.
 
 ## -parameters
 
 ### -param hFilterFind [in]
 
-Minifilter search handle to close. This handle must have been opened by a previous call to <a href="https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filterfindfirst">FilterFindFirst</a>.
+Minifilter search handle to close. This handle must have been opened by a previous call to <a href="/windows/desktop/api/fltuser/nf-fltuser-filterfindfirst">FilterFindFirst</a>.
 
 ## -returns
 
@@ -64,23 +64,22 @@ Minifilter search handle to close. This handle must have been opened by a previo
 
 ## -remarks
 
-After the <b>FilterFindClose</b> function is called, the minifilter search handle specified by the <i>hFilterFind</i> parameter cannot be used in subsequent calls to <a href="https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filterfindnext">FilterFindNext</a> or <b>FilterFindClose</b>. 
+After the <b>FilterFindClose</b> function is called, the minifilter search handle specified by the <i>hFilterFind</i> parameter cannot be used in subsequent calls to <a href="/windows/desktop/api/fltuser/nf-fltuser-filterfindnext">FilterFindNext</a> or <b>FilterFindClose</b>. 
 
-Use <b>FilterFindClose</b> to close handles returned by calls to <a href="https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filterfindfirst">FilterFindFirst</a>. Use <a href="https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filterclose">FilterClose</a> to close handles returned by calls to <a href="https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filtercreate">FilterCreate</a>.
+Use <b>FilterFindClose</b> to close handles returned by calls to <a href="/windows/desktop/api/fltuser/nf-fltuser-filterfindfirst">FilterFindFirst</a>. Use <a href="/windows/desktop/api/fltuser/nf-fltuser-filterclose">FilterClose</a> to close handles returned by calls to <a href="/windows/desktop/api/fltuser/nf-fltuser-filtercreate">FilterCreate</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filterclose">FilterClose</a>
+<a href="/windows/desktop/api/fltuser/nf-fltuser-filterclose">FilterClose</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filtercreate">FilterCreate</a>
+<a href="/windows/desktop/api/fltuser/nf-fltuser-filtercreate">FilterCreate</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filterfindfirst">FilterFindFirst</a>
+<a href="/windows/desktop/api/fltuser/nf-fltuser-filterfindfirst">FilterFindFirst</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filterfindnext">FilterFindNext</a>
-
+<a href="/windows/desktop/api/fltuser/nf-fltuser-filterfindnext">FilterFindNext</a>

@@ -54,8 +54,8 @@ api_name:
     section. Support for this function was removed in Windows Server 2008 and this function does nothing and returns 
     <b>ERROR_CALL_NOT_IMPLEMENTED</b>.]
 
-Creates a backup of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-database">cluster database</a> and 
-    all registry <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/checkpointing">checkpoints</a>.
+Creates a backup of the <a href="/previous-versions/windows/desktop/mscs/cluster-database">cluster database</a> and 
+    all registry <a href="/previous-versions/windows/desktop/mscs/checkpointing">checkpoints</a>.
 
 ## -parameters
 
@@ -75,25 +75,25 @@ Null-terminated Unicode string specifying the path to where the backup should be
 If the function succeeds, it returns <b>ERROR_SUCCESS</b>.
 
 If the function fails, it returns one of the 
-       <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error codes</a>.
+       <a href="/windows/desktop/Debug/system-error-codes">system error codes</a>.
 
 ## -remarks
 
 Ideally, the specified path should be a path visible to all cluster 
-     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/nodes">nodes</a>, such as a UNC path. At minimum, the path must be visible to 
-     the node that currently owns the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/quorum-resource">quorum resource</a>. Do not 
+     <a href="/previous-versions/windows/desktop/mscs/nodes">nodes</a>, such as a UNC path. At minimum, the path must be visible to 
+     the node that currently owns the <a href="/previous-versions/windows/desktop/mscs/quorum-resource">quorum resource</a>. Do not 
      include a filename in the path or the function will fail, returning <b>ERROR_DIRECTORY</b>. 
      The path can include a trailing backslash.
 
 One way to ensure that an appropriate path exists is to create a temporary network share, as follows:
 
 <ul>
-<li>Call the function <a href="https://docs.microsoft.com/windows/desktop/api/lmshare/nf-lmshare-netshareadd">NetShareAdd</a> to create a temporary 
+<li>Call the function <a href="/windows/desktop/api/lmshare/nf-lmshare-netshareadd">NetShareAdd</a> to create a temporary 
       network share. All cluster nodes must have write access to this share.</li>
 <li>Call <b>BackupClusterDatabase</b>, specifying 
       the temporary share in the <i>lpszPathName</i> parameter.</li>
 <li>Copy the backup files (see below) to one or more safe storage locations.</li>
-<li>Call the function <a href="https://docs.microsoft.com/windows/desktop/api/lmshare/nf-lmshare-netsharedel">NetShareDel</a> to delete the 
+<li>Call the function <a href="/windows/desktop/api/lmshare/nf-lmshare-netsharedel">NetShareDel</a> to delete the 
       share.</li>
 </ul>
 The backup contains the following files.
@@ -166,9 +166,9 @@ If possible, make multiple copies of the backup directory on different media and
 #### Examples
 
 The following example illustrates a static backup routine. For a more complete example 
-     incorporating <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/nf-clusapi-restoreclusterdatabase">RestoreClusterDatabase</a>, see 
-     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/backing-up-and-restoring-the-cluster-configuration">Backing Up and Restoring the Cluster Configuration</a>. 
-     This example uses the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusdocex-h">ClusDocEx.h</a> header file defined in the 
+     incorporating <a href="/previous-versions/windows/desktop/api/clusapi/nf-clusapi-restoreclusterdatabase">RestoreClusterDatabase</a>, see 
+     <a href="/previous-versions/windows/desktop/mscs/backing-up-and-restoring-the-cluster-configuration">Backing Up and Restoring the Cluster Configuration</a>. 
+     This example uses the <a href="/previous-versions/windows/desktop/mscs/clusdocex-h">ClusDocEx.h</a> header file defined in the 
      Failover Cluster documentation.
 
 
@@ -207,9 +207,8 @@ int main( void )
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/backup-and-restore-functions">Backup and Restore Functions</a>
+<a href="/previous-versions/windows/desktop/mscs/backup-and-restore-functions">Backup and Restore Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/nf-clusapi-restoreclusterdatabase">RestoreClusterDatabase</a>
-
+<a href="/previous-versions/windows/desktop/api/clusapi/nf-clusapi-restoreclusterdatabase">RestoreClusterDatabase</a>

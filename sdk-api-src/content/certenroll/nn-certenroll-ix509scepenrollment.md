@@ -54,7 +54,7 @@ X.509 Simple Computer Enrollment Protocol Interface
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IX509SCEPEnrollment</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IX509SCEPEnrollment</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IX509SCEPEnrollment</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IX509SCEPEnrollment</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -70,7 +70,7 @@ The <b>IX509SCEPEnrollment</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509scepenrollment-createrequestmessage">CreateRequestMessage</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-ix509scepenrollment-createrequestmessage">CreateRequestMessage</a>
 </td>
 <td align="left" width="63%">
 Create a PKCS10 request message with a challenge password.
@@ -79,7 +79,7 @@ Create a PKCS10 request message with a challenge password.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509scepenrollment-createretrievecertificatemessage">CreateRetrieveCertificateMessage</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-ix509scepenrollment-createretrievecertificatemessage">CreateRetrieveCertificateMessage</a>
 </td>
 <td align="left" width="63%">
 Retrieve a previously issued certificate.
@@ -88,7 +88,7 @@ Retrieve a previously issued certificate.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509scepenrollment-createretrievependingmessage">CreateRetrievePendingMessage</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-ix509scepenrollment-createretrievependingmessage">CreateRetrievePendingMessage</a>
 </td>
 <td align="left" width="63%">
 Create a message for certificate polling (manual enrollment).
@@ -97,7 +97,7 @@ Create a message for certificate polling (manual enrollment).
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509scepenrollment-deleterequest">DeleteRequest</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-ix509scepenrollment-deleterequest">DeleteRequest</a>
 </td>
 <td align="left" width="63%">
 Delete the any certificates or keys created for the request.
@@ -106,7 +106,7 @@ Delete the any certificates or keys created for the request.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509scepenrollment-initialize">Initialize</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-ix509scepenrollment-initialize">Initialize</a>
 </td>
 <td align="left" width="63%">
 Initialize the instance in preparation for a new request.
@@ -115,7 +115,7 @@ Initialize the instance in preparation for a new request.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509scepenrollment-initializeforpending">InitializeForPending</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-ix509scepenrollment-initializeforpending">InitializeForPending</a>
 </td>
 <td align="left" width="63%">
 Initialize the instance to prepare to generate a message to either retrieve an issued certificate, or install a response for a previous request by the issuer.
@@ -124,7 +124,7 @@ Initialize the instance to prepare to generate a message to either retrieve an i
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509scepenrollment-processresponsemessage">ProcessResponseMessage</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-ix509scepenrollment-processresponsemessage">ProcessResponseMessage</a>
 </td>
 <td align="left" width="63%">
 Process a response message and return the disposition of the message.
@@ -142,7 +142,7 @@ Process a response message and return the disposition of the message.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509scepenrollment-get_certificate">Certificate</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-ix509scepenrollment-get_certificate">Certificate</a>
 
 
 </td>
@@ -158,7 +158,7 @@ Gets the certificate for the request.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509scepenrollment-get_certificatefriendlyname">CertificateFriendlyName</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-ix509scepenrollment-get_certificatefriendlyname">CertificateFriendlyName</a>
 
 
 </td>
@@ -174,7 +174,7 @@ Gets or sets the friendly name for the certificate.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509scepenrollment-get_failinfo">FailInfo</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-ix509scepenrollment-get_failinfo">FailInfo</a>
 
 
 </td>
@@ -183,14 +183,14 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-Gets information when the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509scepenrollment-processresponsemessage">ProcessResponseMessage</a> method detects a failed environment.
+Gets information when the <a href="/windows/desktop/api/certenroll/nf-certenroll-ix509scepenrollment-processresponsemessage">ProcessResponseMessage</a> method detects a failed environment.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509scepenrollment-get_oldcertificate">OldCertificate</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-ix509scepenrollment-get_oldcertificate">OldCertificate</a>
 
 
 </td>
@@ -206,7 +206,7 @@ Gets or sets an old certificate that a request is intended to replace.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509scepenrollment-get_request">Request</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-ix509scepenrollment-get_request">Request</a>
 
 
 </td>
@@ -222,7 +222,7 @@ Gets the inner PKCS10 request.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509scepenrollment-put_servercapabilities">ServerCapabilities</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-ix509scepenrollment-put_servercapabilities">ServerCapabilities</a>
 
 
 </td>
@@ -238,7 +238,7 @@ Sets the hash and encryption algorithms to use for the request.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509scepenrollment-get_signercertificate">SignerCertificate</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-ix509scepenrollment-get_signercertificate">SignerCertificate</a>
 
 
 </td>
@@ -254,7 +254,7 @@ Gets or sets the signer certificate for the request.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509scepenrollment-put_silent">Silent</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-ix509scepenrollment-put_silent">Silent</a>
 
 
 </td>
@@ -270,7 +270,7 @@ Gets or sets whether to display UI during the request.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509scepenrollment-get_status">Status</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-ix509scepenrollment-get_status">Status</a>
 
 
 </td>
@@ -286,7 +286,7 @@ Gets the status of the request.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509scepenrollment-get_transactionid">TransactionId</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-ix509scepenrollment-get_transactionid">TransactionId</a>
 
 
 </td>
@@ -300,4 +300,3 @@ Gets or sets the transaction id for the request.
 </td>
 </tr>
 </table>
-

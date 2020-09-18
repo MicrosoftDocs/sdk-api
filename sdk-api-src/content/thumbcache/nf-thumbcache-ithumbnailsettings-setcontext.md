@@ -52,15 +52,15 @@ api_name:
 
 Enables a thumbnail provider to return a thumbnail specific to the user's context.
 
-Initially, a thumbnail provider receives a request for a thumbnail image through a call to the <a href="https://docs.microsoft.com/windows/desktop/api/thumbcache/nf-thumbcache-ithumbnailcache-getthumbnail">IThumbnailCache::GetThumbnail</a> method. In response, before the provider calls <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iextractimage-extract">IExtractImage::Extract</a> or <a href="https://docs.microsoft.com/windows/desktop/api/thumbcache/nf-thumbcache-ithumbnailprovider-getthumbnail">IThumbnailProvider::GetThumbnail</a>, the thumbnail cache can call <b>IThumbnailSettings::SetContext</b> to ensure that the thumbnail that is returned is appropriate to the user's context. For example, the provider could detect the new <b>WTS_APPSTYLE</b> flag and return a thumbnail that conforms to the Windows 8 UI guidelines.
+Initially, a thumbnail provider receives a request for a thumbnail image through a call to the <a href="/windows/desktop/api/thumbcache/nf-thumbcache-ithumbnailcache-getthumbnail">IThumbnailCache::GetThumbnail</a> method. In response, before the provider calls <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iextractimage-extract">IExtractImage::Extract</a> or <a href="/windows/desktop/api/thumbcache/nf-thumbcache-ithumbnailprovider-getthumbnail">IThumbnailProvider::GetThumbnail</a>, the thumbnail cache can call <b>IThumbnailSettings::SetContext</b> to ensure that the thumbnail that is returned is appropriate to the user's context. For example, the provider could detect the new <b>WTS_APPSTYLE</b> flag and return a thumbnail that conforms to the Windows 8 UI guidelines.
 
 ## -parameters
 
 ### -param dwContext [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/thumbcache/ne-thumbcache-wts_contextflags">WTS_CONTEXTFLAGS</a></b>
+Type: <b><a href="/windows/desktop/api/thumbcache/ne-thumbcache-wts_contextflags">WTS_CONTEXTFLAGS</a></b>
 
-One or more flags that specify the context. This value is based on the <a href="https://docs.microsoft.com/windows/desktop/api/thumbcache/ne-thumbcache-wts_flags">WTS_FLAGS</a> values that are received by the thumbnail provider through the call to <a href="https://docs.microsoft.com/windows/desktop/api/thumbcache/nf-thumbcache-ithumbnailprovider-getthumbnail">IThumbnailProvider::GetThumbnail</a>.
+One or more flags that specify the context. This value is based on the <a href="/windows/desktop/api/thumbcache/ne-thumbcache-wts_flags">WTS_FLAGS</a> values that are received by the thumbnail provider through the call to <a href="/windows/desktop/api/thumbcache/nf-thumbcache-ithumbnailprovider-getthumbnail">IThumbnailProvider::GetThumbnail</a>.
 
 ## -returns
 
@@ -70,5 +70,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/thumbcache/nn-thumbcache-ithumbnailsettings">IThumbnailSettings</a>
-
+<a href="/windows/desktop/api/thumbcache/nn-thumbcache-ithumbnailsettings">IThumbnailSettings</a>

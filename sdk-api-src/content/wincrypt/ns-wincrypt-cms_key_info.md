@@ -64,7 +64,7 @@ The size, in bytes, of this structure.
 
 ### -field Algid
 
-One of the <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/alg-id">ALG_ID</a> values that identifies the algorithm for the key to be converted.
+One of the <a href="/windows/desktop/SecCrypto/alg-id">ALG_ID</a> values that identifies the algorithm for the key to be converted.
 
 ### -field pbOID
 
@@ -73,4 +73,3 @@ The address of a buffer that contains additional public information. This member
 ### -field cbOID
 
 The size, in bytes, of the <b>pbOID</b> buffer. This member should be zero if <b>pbOID</b> is not used.
-

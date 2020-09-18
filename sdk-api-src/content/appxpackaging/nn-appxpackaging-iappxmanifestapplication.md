@@ -54,7 +54,7 @@ Provides access to attribute values of the application.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAppxManifestApplication</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAppxManifestApplication</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAppxManifestApplication</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAppxManifestApplication</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IAppxManifestApplication</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxmanifestapplication-getappusermodelid">GetAppUserModelId</a>
+<a href="/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxmanifestapplication-getappusermodelid">GetAppUserModelId</a>
 </td>
 <td align="left" width="63%">
 Gets the application user model identifier.
@@ -78,7 +78,7 @@ Gets the application user model identifier.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxmanifestapplication-getstringvalue">GetStringValue</a>
+<a href="/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxmanifestapplication-getstringvalue">GetStringValue</a>
 </td>
 <td align="left" width="63%">
 Gets the value of a string element in the application metadata section of the manifest.
@@ -89,9 +89,8 @@ Gets the value of a string element in the application metadata section of the ma
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxmanifestapplicationsenumerator">IAppxManifestApplicationsEnumerator</a>
+<a href="/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxmanifestapplicationsenumerator">IAppxManifestApplicationsEnumerator</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxmanifestreader">IAppxManifestReader</a>
-
+<a href="/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxmanifestreader">IAppxManifestReader</a>

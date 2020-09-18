@@ -116,7 +116,7 @@ Maximum value for testing purposes.
 
 ### -param callback [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/networkisolation/nc-networkisolation-pac_changes_callback_fn">PAC_CHANGES_CALLBACK_FN</a></b>
+Type: <b><a href="/windows/desktop/api/networkisolation/nc-networkisolation-pac_changes_callback_fn">PAC_CHANGES_CALLBACK_FN</a></b>
 
 Function pointer that will be invoked when a notification is ready for delivery.
 
@@ -140,9 +140,8 @@ Returns ERROR_SUCCESS if successful, or an error value otherwise.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nf-netfw-networkisolationunregisterforappcontainerchanges">NetworkIsolationUnregisterForAppContainerChanges</a>
+<a href="/previous-versions/windows/desktop/api/netfw/nf-netfw-networkisolationunregisterforappcontainerchanges">NetworkIsolationUnregisterForAppContainerChanges</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/networkisolation/nc-networkisolation-pac_changes_callback_fn">PAC_CHANGES_CALLBACK_FN</a>
-
+<a href="/windows/desktop/api/networkisolation/nc-networkisolation-pac_changes_callback_fn">PAC_CHANGES_CALLBACK_FN</a>

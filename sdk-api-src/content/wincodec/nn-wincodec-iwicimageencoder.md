@@ -50,11 +50,11 @@ api_name:
 
 ## -description
 
-Encodes <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1image">ID2D1Image</a> interfaces to an <a href="https://docs.microsoft.com/windows/desktop/wic/-wic-imp-iwicbitmapencoder">IWICBitmapEncoder</a>.  The input images can be larger than the maximum device texture size.
+Encodes <a href="/windows/desktop/api/d2d1/nn-d2d1-id2d1image">ID2D1Image</a> interfaces to an <a href="/windows/desktop/wic/-wic-imp-iwicbitmapencoder">IWICBitmapEncoder</a>.  The input images can be larger than the maximum device texture size.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWICImageEncoder</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWICImageEncoder</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWICImageEncoder</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWICImageEncoder</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,25 +69,25 @@ The <b>IWICImageEncoder</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicimageencoder-writeframe">WriteFrame</a>
+<a href="/windows/desktop/api/wincodec/nf-wincodec-iwicimageencoder-writeframe">WriteFrame</a>
 </td>
 <td align="left" width="63%">
-Encodes the image to the frame given by the <a href="https://docs.microsoft.com/windows/desktop/wic/-wic-imp-iwicbitmapframeencode">IWICBitmapFrameEncode</a>.
+Encodes the image to the frame given by the <a href="/windows/desktop/wic/-wic-imp-iwicbitmapframeencode">IWICBitmapFrameEncode</a>.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicimageencoder-writeframethumbnail">WriteFrameThumbnail</a>
+<a href="/windows/desktop/api/wincodec/nf-wincodec-iwicimageencoder-writeframethumbnail">WriteFrameThumbnail</a>
 </td>
 <td align="left" width="63%">
-Encodes the image as a thumbnail to the frame given by the <a href="https://docs.microsoft.com/windows/desktop/wic/-wic-imp-iwicbitmapframeencode">IWICBitmapFrameEncode</a>. 
+Encodes the image as a thumbnail to the frame given by the <a href="/windows/desktop/wic/-wic-imp-iwicbitmapframeencode">IWICBitmapFrameEncode</a>. 
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicimageencoder-writethumbnail">WriteThumbnail</a>
+<a href="/windows/desktop/api/wincodec/nf-wincodec-iwicimageencoder-writethumbnail">WriteThumbnail</a>
 </td>
 <td align="left" width="63%">
 Encodes the given image as the thumbnail to the given WIC bitmap encoder.
@@ -95,4 +95,3 @@ Encodes the given image as the thumbnail to the given WIC bitmap encoder.
 </td>
 </tr>
 </table>
-

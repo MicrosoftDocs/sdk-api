@@ -83,9 +83,8 @@ When client applications that are assistive technologies handle one of these eve
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationelement3">IUIAutomationElement3</a>
+<a href="/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationelement3">IUIAutomationElement3</a>
 
 
 
 <b>Reference</b>
-

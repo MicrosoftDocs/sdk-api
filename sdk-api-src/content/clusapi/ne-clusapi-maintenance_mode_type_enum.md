@@ -72,13 +72,12 @@ Indicates the server has released ownership of the storage resource.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clusapi/ns-clusapi-clus_maintenance_mode_infoex">CLUS_MAINTENANCE_MODE_INFOEX</a>
+<a href="/windows/desktop/api/clusapi/ns-clusapi-clus_maintenance_mode_infoex">CLUS_MAINTENANCE_MODE_INFOEX</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-enumerations">Failover Cluster Enumerations</a>
+<a href="/previous-versions/windows/desktop/mscs/cluster-enumerations">Failover Cluster Enumerations</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/maintenancemode">MaintenanceMode</a>
-
+<a href="/previous-versions/windows/desktop/mscs/maintenancemode">MaintenanceMode</a>

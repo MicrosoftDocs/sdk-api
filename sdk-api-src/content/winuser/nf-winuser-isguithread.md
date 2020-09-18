@@ -79,5 +79,4 @@ If <i>bConvert</i> is <b>TRUE</b> and the function cannot successfully convert t
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/winmsg/windows">Windows Overview</a>
-
+<a href="/windows/desktop/winmsg/windows">Windows Overview</a>

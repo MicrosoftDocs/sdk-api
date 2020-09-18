@@ -54,9 +54,9 @@ Enumerates names.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumNames</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEnumNames</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumNames</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEnumNames</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxinboundroutingextension-methods-vb">Methods</a></li>
+<li><a href="/previous-versions/windows/desktop/fax/-mfax-faxinboundroutingextension-methods-vb">Methods</a></li>
 </ul>
 
 ## -members
@@ -69,7 +69,7 @@ The <b>IEnumNames</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-ienumnames-clone">Clone</a>
+<a href="/windows/desktop/api/comsvcs/nf-comsvcs-ienumnames-clone">Clone</a>
 </td>
 <td align="left" width="63%">
 Creates an enumerator that contains the same enumeration state as the current one.
@@ -78,7 +78,7 @@ Creates an enumerator that contains the same enumeration state as the current on
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-ienumnames-next">Next</a>
+<a href="/windows/desktop/api/comsvcs/nf-comsvcs-ienumnames-next">Next</a>
 </td>
 <td align="left" width="63%">
 Retrieves the specified number of items in the enumeration sequence.
@@ -87,7 +87,7 @@ Retrieves the specified number of items in the enumeration sequence.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-ienumnames-reset">Reset</a>
+<a href="/windows/desktop/api/comsvcs/nf-comsvcs-ienumnames-reset">Reset</a>
 </td>
 <td align="left" width="63%">
 Resets the enumeration sequence to the beginning.
@@ -96,7 +96,7 @@ Resets the enumeration sequence to the beginning.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-ienumnames-skip">Skip</a>
+<a href="/windows/desktop/api/comsvcs/nf-comsvcs-ienumnames-skip">Skip</a>
 </td>
 <td align="left" width="63%">
 Skips over the specified number of items in the enumeration sequence.
@@ -107,5 +107,4 @@ Skips over the specified number of items in the enumeration sequence.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-icontextproperties">IContextProperties</a>
-
+<a href="/windows/desktop/api/comsvcs/nn-comsvcs-icontextproperties">IContextProperties</a>

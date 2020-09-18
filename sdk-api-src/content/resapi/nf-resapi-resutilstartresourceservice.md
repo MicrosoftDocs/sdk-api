@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Starts a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/s-gly">service</a>. The <b>PRESUTIL_START_RESOURCE_SERVICE</b> type defines a pointer to this function.
+Starts a <a href="/previous-versions/windows/desktop/mscs/s-gly">service</a>. The <b>PRESUTIL_START_RESOURCE_SERVICE</b> type defines a pointer to this function.
 
 ## -parameters
 
@@ -60,14 +60,14 @@ Null-terminated Unicode string containing the name of the service to start.
 
 ### -param phServiceHandle [out]
 
-Optional pointer to a handle in which the handle to the started service is returned. This handle must be closed either by a call to the cluster utility function  <a href="https://docs.microsoft.com/windows/desktop/api/resapi/nf-resapi-resutilstopservice">ResUtilStopService</a> or the function  <a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-closeservicehandle">CloseServiceHandle</a>.
+Optional pointer to a handle in which the handle to the started service is returned. This handle must be closed either by a call to the cluster utility function  <a href="/windows/desktop/api/resapi/nf-resapi-resutilstopservice">ResUtilStopService</a> or the function  <a href="/windows/desktop/api/winsvc/nf-winsvc-closeservicehandle">CloseServiceHandle</a>.
 
 ## -returns
 
 If the operation succeeds, the function returns <b>ERROR_SUCCESS</b>.
 
 If the operation fails, 
-the function returns a <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a>. The following is a possible error code.
+the function returns a <a href="/windows/desktop/Debug/system-error-codes">system error code</a>. The following is a possible error code.
 
 <table>
 <tr>
@@ -89,9 +89,8 @@ The service was not started.
 
 ## -remarks
 
-The  <b>ResUtilStartResourceService</b> utility function encapsulates the necessary calls to the service control manager, providing a convenient way to start services in the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/c-gly">cluster</a>. Using  <b>ResUtilStartResourceService</b> is optional. If the service to be started requires specific access restrictions or other special handling, use the service control manager functions instead.
+The  <b>ResUtilStartResourceService</b> utility function encapsulates the necessary calls to the service control manager, providing a convenient way to start services in the <a href="/previous-versions/windows/desktop/mscs/c-gly">cluster</a>. Using  <b>ResUtilStartResourceService</b> is optional. If the service to be started requires specific access restrictions or other special handling, use the service control manager functions instead.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/resapi/nf-resapi-resutilstopservice">ResUtilStopService</a>
-
+<a href="/windows/desktop/api/resapi/nf-resapi-resutilstopservice">ResUtilStopService</a>

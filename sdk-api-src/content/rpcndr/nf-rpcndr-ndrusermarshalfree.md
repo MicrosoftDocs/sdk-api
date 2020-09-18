@@ -56,7 +56,7 @@ The <b>NdrUserMarshalFree</b> function frees the user marshal object.
 
 ### -param pStubMsg [in, out]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/rpcndr/ns-rpcndr-midl_stub_message">MIDL_STUB_MESSAGE</a> structure that maintains the current status of the RPC stub. Structure is for internal use only; do not modify.
+Pointer to a <a href="/windows/desktop/api/rpcndr/ns-rpcndr-midl_stub_message">MIDL_STUB_MESSAGE</a> structure that maintains the current status of the RPC stub. Structure is for internal use only; do not modify.
 
 ### -param pMemory [in]
 
@@ -69,4 +69,3 @@ Pointer's format string description.
 ## -remarks
 
 You should never free the top level object, it is freed by the system.
-

@@ -59,11 +59,11 @@ Resets a Listener object so it can be reused.
 
 ### -param listener [in]
 
-A pointer to the <b>Listener</b> object to reset.  The pointer must reference a valid <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-listener">WS_LISTENER</a>.
+A pointer to the <b>Listener</b> object to reset.  The pointer must reference a valid <a href="/windows/desktop/wsw/ws-listener">WS_LISTENER</a>.
 
 ### -param error [in, optional]
 
-A  pointer to a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-error">WS_ERROR</a> object where additional information about the error should be stored if the function fails.
+A  pointer to a <a href="/windows/desktop/wsw/ws-error">WS_ERROR</a> object where additional information about the error should be stored if the function fails.
 
 ## -returns
 
@@ -91,4 +91,3 @@ The listener was in an inappropriate state.
 ## -remarks
 
 Before reusing a listener, this function should be called.
-

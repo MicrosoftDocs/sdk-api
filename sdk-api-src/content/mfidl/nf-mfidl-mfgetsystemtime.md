@@ -60,9 +60,8 @@ Returns the system time, in 100-nanosecond units.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/mftime">MFTIME</a>
+<a href="/windows/desktop/medfound/mftime">MFTIME</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>
-
+<a href="/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>

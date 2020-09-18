@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-Creates an instance of the <a href="https://docs.microsoft.com/windows/desktop/api/xapobase/nl-xapobase-cxapoparametersbase">CXAPOParametersBase</a> class.
+Creates an instance of the <a href="/windows/desktop/api/xapobase/nl-xapobase-cxapoparametersbase">CXAPOParametersBase</a> class.
 
 ## -parameters
 
@@ -59,7 +59,7 @@ Creates an instance of the <a href="https://docs.microsoft.com/windows/desktop/a
 
 Type: <b>const XAPO_REGISTRATION_PROPERTIES*</b>
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/xapo/ns-xapo-xapo_registration_properties">XAPO_REGISTRATION_PROPERTIES</a> structure that contains the registration properties for the XAPO.
+A pointer to an <a href="/windows/desktop/api/xapo/ns-xapo-xapo_registration_properties">XAPO_REGISTRATION_PROPERTIES</a> structure that contains the registration properties for the XAPO.
 
 ### -param pParameterBlocks
 
@@ -77,15 +77,15 @@ Size of a parameter block in <i>pParameterBlocks</i>.
 
 Type: <b>BOOL</b>
 
-If TRUE, indicates <a href="https://docs.microsoft.com/windows/desktop/api/xapo/nf-xapo-ixapo-process">IXAPO::Process</a> produces data to be returned by <a href="https://docs.microsoft.com/windows/desktop/api/xapo/nf-xapo-ixapoparameters-getparameters">IXAPOParameters::GetParameters</a> and disallows calls to <a href="https://docs.microsoft.com/windows/desktop/api/xapo/nf-xapo-ixapoparameters-setparameters">IXAPOParameters::SetParameters</a>.
+If TRUE, indicates <a href="/windows/desktop/api/xapo/nf-xapo-ixapo-process">IXAPO::Process</a> produces data to be returned by <a href="/windows/desktop/api/xapo/nf-xapo-ixapoparameters-getparameters">IXAPOParameters::GetParameters</a> and disallows calls to <a href="/windows/desktop/api/xapo/nf-xapo-ixapoparameters-setparameters">IXAPOParameters::SetParameters</a>.
 
 ## -remarks
 
-All process parameter blocks in <i>pParameterBlocks</i> must be initialized to the same default value before there is a call to the <a href="https://docs.microsoft.com/windows/desktop/api/xapo/nf-xapo-ixapo-process">IXAPO::Process</a>, <a href="https://docs.microsoft.com/windows/desktop/api/xapo/nf-xapo-ixapoparameters-getparameters">IXAPOParameters::GetParameters</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/xapo/nf-xapo-ixapoparameters-setparameters">IXAPOParameters::SetParameters</a> methods. Usually this initialization should be handled in <a href="https://docs.microsoft.com/windows/desktop/api/xapo/nf-xapo-ixapo-initialize">IXAPO::Initialize</a> or in <a href="https://docs.microsoft.com/windows/desktop/api/xapo/nf-xapo-ixapo-lockforprocess">IXAPO::LockForProcess</a>.
+All process parameter blocks in <i>pParameterBlocks</i> must be initialized to the same default value before there is a call to the <a href="/windows/desktop/api/xapo/nf-xapo-ixapo-process">IXAPO::Process</a>, <a href="/windows/desktop/api/xapo/nf-xapo-ixapoparameters-getparameters">IXAPOParameters::GetParameters</a>, and <a href="/windows/desktop/api/xapo/nf-xapo-ixapoparameters-setparameters">IXAPOParameters::SetParameters</a> methods. Usually this initialization should be handled in <a href="/windows/desktop/api/xapo/nf-xapo-ixapo-initialize">IXAPO::Initialize</a> or in <a href="/windows/desktop/api/xapo/nf-xapo-ixapo-lockforprocess">IXAPO::LockForProcess</a>.
 
 
 
-The object created by this <a href="https://docs.microsoft.com/windows/desktop/api/xapobase/nl-xapobase-cxapoparametersbase">CXAPOParametersBase</a> will have a reference count of 1.
+The object created by this <a href="/windows/desktop/api/xapobase/nl-xapobase-cxapoparametersbase">CXAPOParametersBase</a> will have a reference count of 1.
 
 
 
@@ -94,5 +94,4 @@ Windows 10 (XAudio2.9); Windows 8, Windows Phone 8 (XAudio 2.8); DirectX SDK
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xapobase/nl-xapobase-cxapoparametersbase">CXAPOParametersBase</a>
-
+<a href="/windows/desktop/api/xapobase/nl-xapobase-cxapoparametersbase">CXAPOParametersBase</a>

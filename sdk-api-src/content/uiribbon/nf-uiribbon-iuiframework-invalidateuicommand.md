@@ -63,9 +63,9 @@ The ID for the Command, which is specified in the markup resource file.
 
 ### -param flags [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/uiribbon/ne-uiribbon-ui_invalidations">UI_INVALIDATIONS</a></b>
+Type: <b><a href="/windows/desktop/api/uiribbon/ne-uiribbon-ui_invalidations">UI_INVALIDATIONS</a></b>
 
-Identifies which <a href="https://docs.microsoft.com/windows/desktop/api/uiribbon/ne-uiribbon-ui_invalidations">aspect</a> of a command to invalidate.
+Identifies which <a href="/windows/desktop/api/uiribbon/ne-uiribbon-ui_invalidations">aspect</a> of a command to invalidate.
 					
 
 <div class="alert"><b>Note</b>  Passing <b>UI_INVALIDATIONS_ALLPROPERTIES</b> invalidates all properties bound to a command, including value and state.
@@ -116,19 +116,18 @@ After invalidation, the framework queries the host application for the resource 
 When a Command value is invalidated (<i>flags</i> contains UI_INVALIDATIONS_VALUE) the value of <i>key</i> is <b>NULL</b>.
 
 If <b>IUIFramework::InvalidateUICommand</b> is called multiple times
-				and the <a href="https://docs.microsoft.com/windows/desktop/api/uiribbon/ne-uiribbon-ui_invalidations">UI_INVALIDATIONS</a> 
+				and the <a href="/windows/desktop/api/uiribbon/ne-uiribbon-ui_invalidations">UI_INVALIDATIONS</a> 
 				value passed in each call specifies overlapping properties, such as <b>UI_INVALIDATIONS_STATE</b> 
 				and <b>UI_INVALIDATIONS_ALLPROPERTIES</b>, then only one callback to the host application is created.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiribbon/nn-uiribbon-iuiframework">IUIFramework</a>
+<a href="/windows/desktop/api/uiribbon/nn-uiribbon-iuiframework">IUIFramework</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiribbon/ne-uiribbon-ui_invalidations">UI_INVALIDATIONS</a>
+<a href="/windows/desktop/api/uiribbon/ne-uiribbon-ui_invalidations">UI_INVALIDATIONS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-samples-entry">Windows Ribbon Framework Samples</a>
-
+<a href="/windows/desktop/windowsribbon/windowsribbon-samples-entry">Windows Ribbon Framework Samples</a>

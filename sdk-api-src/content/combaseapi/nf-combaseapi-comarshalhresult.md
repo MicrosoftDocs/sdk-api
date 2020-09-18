@@ -54,13 +54,13 @@ api_name:
 
 ## -description
 
-Marshals an <b>HRESULT</b> to the specified stream, from which it can be unmarshaled using the <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-counmarshalhresult">CoUnmarshalHresult</a> function.
+Marshals an <b>HRESULT</b> to the specified stream, from which it can be unmarshaled using the <a href="/windows/desktop/api/combaseapi/nf-combaseapi-counmarshalhresult">CoUnmarshalHresult</a> function.
 
 ## -parameters
 
 ### -param pstm [in]
 
-A pointer to the marshaling stream. See <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a>.
+A pointer to the marshaling stream. See <a href="/windows/desktop/api/objidl/nn-objidl-istream">IStream</a>.
 
 ### -param hresult [in]
 
@@ -112,20 +112,19 @@ The medium is full.
 
 ## -remarks
 
-An <b>HRESULT</b> is process-specific, so an <b>HRESULT</b> that is valid in one process might not be valid in another. If you are writing your own implementation of <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imarshal">IMarshal</a> and need to marshal an <b>HRESULT</b> from one process to another, either as a parameter or a return code, you must call this function. In other circumstances, you will have no need to call this function.
+An <b>HRESULT</b> is process-specific, so an <b>HRESULT</b> that is valid in one process might not be valid in another. If you are writing your own implementation of <a href="/windows/desktop/api/objidl/nn-objidl-imarshal">IMarshal</a> and need to marshal an <b>HRESULT</b> from one process to another, either as a parameter or a return code, you must call this function. In other circumstances, you will have no need to call this function.
 
 This function performs the following tasks:
 
 <ol>
 <li>Writes an <b>HRESULT</b> to a stream.</li>
-<li>Returns an <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a> pointer to that stream.</li>
+<li>Returns an <a href="/windows/desktop/api/objidl/nn-objidl-istream">IStream</a> pointer to that stream.</li>
 </ol>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-counmarshalhresult">CoUnmarshalHresult</a>
+<a href="/windows/desktop/api/combaseapi/nf-combaseapi-counmarshalhresult">CoUnmarshalHresult</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a>
-
+<a href="/windows/desktop/api/objidl/nn-objidl-istream">IStream</a>

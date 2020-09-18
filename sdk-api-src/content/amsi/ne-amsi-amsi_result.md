@@ -80,5 +80,4 @@ The antimalware provider may return a result between 1 and 32767, inclusive, as 
 
 Results within the range of <b>AMSI_RESULT_BLOCKED_BY_ADMIN_START</b> and <b>AMSI_RESULT_BLOCKED_BY_ADMIN_END</b> values (inclusive) are officially blocked by the admin specified policy. In these cases, the script in question will be blocked from executing. The range is large to accommodate future additions in functionality.
 
-Any return result equal to or larger than 32768 is considered malware,  and the content should be blocked. An app should use <a href="https://docs.microsoft.com/windows/desktop/api/amsi/nf-amsi-amsiresultismalware">AmsiResultIsMalware</a> to determine if this is the case.
-
+Any return result equal to or larger than 32768 is considered malware,  and the content should be blocked. An app should use <a href="/windows/desktop/api/amsi/nf-amsi-amsiresultismalware">AmsiResultIsMalware</a> to determine if this is the case.

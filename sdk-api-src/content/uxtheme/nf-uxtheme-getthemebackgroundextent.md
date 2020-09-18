@@ -61,11 +61,11 @@ Calculates the size and location of the background, defined by the visual style,
 
 Type: <b>HTHEME</b>
 
-Handle to a window's specified theme data. Use <a href="https://docs.microsoft.com/windows/desktop/api/uxtheme/nf-uxtheme-openthemedata">OpenThemeData</a> to create an HTHEME.
+Handle to a window's specified theme data. Use <a href="/windows/desktop/api/uxtheme/nf-uxtheme-openthemedata">OpenThemeData</a> to create an HTHEME.
 
 ### -param hdc [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HDC</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HDC</a></b>
 
 HDC to use when drawing. This parameter may be set to <b>NULL</b>.
 
@@ -73,19 +73,19 @@ HDC to use when drawing. This parameter may be set to <b>NULL</b>.
 
 Type: <b>int</b>
 
-Value of type <b>int</b> that specifies the part that contains the content. See <a href="https://docs.microsoft.com/windows/desktop/Controls/parts-and-states">Parts and States</a>.
+Value of type <b>int</b> that specifies the part that contains the content. See <a href="/windows/desktop/Controls/parts-and-states">Parts and States</a>.
 
 ### -param iStateId [in]
 
 Type: <b>int</b>
 
-Value of type <b>int</b> that specifies the state of the part that contains the content. See <a href="https://docs.microsoft.com/windows/desktop/Controls/parts-and-states">Parts and States</a>.
+Value of type <b>int</b> that specifies the state of the part that contains the content. See <a href="/windows/desktop/Controls/parts-and-states">Parts and States</a>.
 
 ### -param pContentRect [in]
 
 Type: <b>LPCRECT</b>
 
-Pointer to a <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> structure that contains the content background rectangle, in logical coordinates. This rectangle is returned from <a href="https://docs.microsoft.com/windows/desktop/api/uxtheme/nf-uxtheme-getthemebackgroundcontentrect">GetThemeBackgroundContentRect</a>.
+Pointer to a <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> structure that contains the content background rectangle, in logical coordinates. This rectangle is returned from <a href="/windows/desktop/api/uxtheme/nf-uxtheme-getthemebackgroundcontentrect">GetThemeBackgroundContentRect</a>.
 
 ### -param pExtentRect [out]
 
@@ -95,7 +95,7 @@ Pointer to a <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> struc
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
@@ -105,13 +105,12 @@ A theme can define a content area within each background image. This is the area
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uxtheme/nf-uxtheme-getthemebackgroundcontentrect">GetThemeBackgroundContentRect</a>
+<a href="/windows/desktop/api/uxtheme/nf-uxtheme-getthemebackgroundcontentrect">GetThemeBackgroundContentRect</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Controls/property-typedefs">Property Identifiers</a>
+<a href="/windows/desktop/Controls/property-typedefs">Property Identifiers</a>
 
 
 
 <b>Reference</b>
-

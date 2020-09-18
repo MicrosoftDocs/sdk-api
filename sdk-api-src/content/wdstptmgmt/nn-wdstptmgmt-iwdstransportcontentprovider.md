@@ -50,5 +50,4 @@ api_name:
 
 ## -description
 
-Used to describe a content provider. A collection of objects of an <b>IWdsTransportContentProvider</b> interface can be obtained from the <a href="https://docs.microsoft.com/windows/desktop/api/wdstptmgmt/nf-wdstptmgmt-iwdstransportsetupmanager2-get_contentproviders">IWdsTransportSetupManager2::ContentProviders</a> property.
-
+Used to describe a content provider. A collection of objects of an <b>IWdsTransportContentProvider</b> interface can be obtained from the <a href="/windows/desktop/api/wdstptmgmt/nf-wdstptmgmt-iwdstransportsetupmanager2-get_contentproviders">IWdsTransportSetupManager2::ContentProviders</a> property.

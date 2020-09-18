@@ -53,14 +53,14 @@ api_name:
 ## -description
 
 Defines the computer account types under which a command action (see 
-    <a href="https://docs.microsoft.com/windows/desktop/api/fsrmenums/ne-fsrmenums-fsrmactiontype">FsrmActionType</a>) can run.
+    <a href="/windows/desktop/api/fsrmenums/ne-fsrmenums-fsrmactiontype">FsrmActionType</a>) can run.
 
 ## -enum-fields
 
 ### -field FsrmAccountType_Unknown
 
 The account type is unknown. Do not use this value to set the 
-      <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrm/nf-fsrm-ifsrmactioncommand-get_account">IFsrmActionCommand::Account</a> property.
+      <a href="/previous-versions/windows/desktop/api/fsrm/nf-fsrm-ifsrmactioncommand-get_account">IFsrmActionCommand::Account</a> property.
 
 ### -field FsrmAccountType_NetworkService
 
@@ -93,17 +93,16 @@ Run the command or pipeline module under the account that FSRM selects. This is 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/fsrm-enumerations">FSRM Enumerations</a>
+<a href="/previous-versions/windows/desktop/fsrm/fsrm-enumerations">FSRM Enumerations</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fsrmenums/ne-fsrmenums-fsrmactiontype">FsrmActionType</a>
+<a href="/windows/desktop/api/fsrmenums/ne-fsrmenums-fsrmactiontype">FsrmActionType</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrm/nf-fsrm-ifsrmactioncommand-get_account">IFsrmActionCommand.Account</a>
+<a href="/previous-versions/windows/desktop/api/fsrm/nf-fsrm-ifsrmactioncommand-get_account">IFsrmActionCommand.Account</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmpipeline/nf-fsrmpipeline-ifsrmpipelinemoduledefinition-get_account">IFsrmPipelineModuleDefinition.Account</a>
-
+<a href="/previous-versions/windows/desktop/api/fsrmpipeline/nf-fsrmpipeline-ifsrmpipelinemoduledefinition-get_account">IFsrmPipelineModuleDefinition.Account</a>

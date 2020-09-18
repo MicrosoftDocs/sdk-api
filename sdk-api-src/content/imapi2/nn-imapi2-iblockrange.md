@@ -50,11 +50,11 @@ api_name:
 
 ## -description
 
-Use this interface to retrieve information about a single continuous range of sectors on the media. This interface is typically used together with the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-iblockrangelist">IBlockRangeList</a> interface to describe a collection of sector ranges.
+Use this interface to retrieve information about a single continuous range of sectors on the media. This interface is typically used together with the <a href="/windows/desktop/api/imapi2/nn-imapi2-iblockrangelist">IBlockRangeList</a> interface to describe a collection of sector ranges.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBlockRange</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IBlockRange</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBlockRange</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IBlockRange</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IBlockRange</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-iblockrange-get_endlba">get_EndLba</a>
+<a href="/windows/desktop/api/imapi2/nf-imapi2-iblockrange-get_endlba">get_EndLba</a>
 </td>
 <td align="left" width="63%">
 Retrieves the end sector in the range.
@@ -78,7 +78,7 @@ Retrieves the end sector in the range.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-iblockrange-get_startlba">get_StartLba</a>
+<a href="/windows/desktop/api/imapi2/nf-imapi2-iblockrange-get_startlba">get_StartLba</a>
 </td>
 <td align="left" width="63%">
 Retrieves the start sector in the range.
@@ -89,13 +89,12 @@ Retrieves the start sector in the range.
 
 ## -remarks
 
-The values returned by the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-iblockrange-get_startlba">IBlockRange::get_StartLba</a> and <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-iblockrange-get_endlba">IBlockRange::get_EndLba</a> methods define an inclusive range, i.e. both the start and end sectors belong to the range.
+The values returned by the <a href="/windows/desktop/api/imapi2/nf-imapi2-iblockrange-get_startlba">IBlockRange::get_StartLba</a> and <a href="/windows/desktop/api/imapi2/nf-imapi2-iblockrange-get_endlba">IBlockRange::get_EndLba</a> methods define an inclusive range, i.e. both the start and end sectors belong to the range.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-iblockrangelist">IBlockRangeList</a>
+<a href="/windows/desktop/api/imapi2/nn-imapi2-iblockrangelist">IBlockRangeList</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
-
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>

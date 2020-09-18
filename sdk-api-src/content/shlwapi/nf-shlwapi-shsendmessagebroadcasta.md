@@ -86,7 +86,7 @@ The return value is not meaningful.
 
 ## -remarks
 
-<b>SHSendMessageBroadcast</b> is equivalent to <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-sendmessage">SendMessage</a> with <b>HWND_BROADCAST</b>. To avoid causing the Shell to become unresponsive in the case where there could be a window in the system that is not responding to messages, use <b>SHSendMessageBroadcast</b>.
+<b>SHSendMessageBroadcast</b> is equivalent to <a href="/windows/desktop/api/winuser/nf-winuser-sendmessage">SendMessage</a> with <b>HWND_BROADCAST</b>. To avoid causing the Shell to become unresponsive in the case where there could be a window in the system that is not responding to messages, use <b>SHSendMessageBroadcast</b>.
 
 <b>SHSendMessageBroadcast</b> is not exported by name. <b>SHSendMessageBroadcastA</b> is exported from Shlwapi.dll as ordinal 432. <b>SHSendMessageBroadcastW</b> is exported from Shlwapi.dll as ordinal 433.
 
@@ -95,4 +95,3 @@ The return value is not meaningful.
 
 > [!NOTE]
 > The shlwapi.h header defines SHSendMessageBroadcast as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

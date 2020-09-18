@@ -55,7 +55,7 @@ api_name:
 <p class="CCE_Message">[This method is no longer available for use as of Windows Server 2008 and Windows Vista.]
 
 The <b>Reset</b> method returns the 
-certificate enrollment control  object to its initial <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">state</a> and thereby allows reuse of the control. This method was first defined in the <a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nn-xenroll-ienroll2">IEnroll2</a> interface.
+certificate enrollment control  object to its initial <a href="/windows/desktop/SecGloss/s-gly">state</a> and thereby allows reuse of the control. This method was first defined in the <a href="/windows/desktop/api/xenroll/nn-xenroll-ienroll2">IEnroll2</a> interface.
 
 ## -parameters
 
@@ -65,13 +65,12 @@ The return value is an <b>HRESULT</b>. A value of S_OK indicates success.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nn-xenroll-ienroll2">IEnroll2</a>
+<a href="/windows/desktop/api/xenroll/nn-xenroll-ienroll2">IEnroll2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nn-xenroll-ienroll4">IEnroll3</a>
+<a href="/windows/desktop/api/xenroll/nn-xenroll-ienroll4">IEnroll3</a>
 
 
 
 <b>IEnroll4</b>
-

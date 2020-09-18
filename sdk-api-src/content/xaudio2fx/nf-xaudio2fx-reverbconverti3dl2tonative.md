@@ -56,11 +56,11 @@ Inline function that converts I3DL2 (Interactive 3D Audio Rendering Guidelines L
 
 ### -param pI3DL2 [in]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/xaudio2fx/ns-xaudio2fx-xaudio2fx_reverb_i3dl2_parameters">XAUDIO2FX_REVERB_I3DL2_PARAMETERS</a> structure containing the I3DL2 parameters to convert. There are many preset values defined for the <b>XAUDIO2FX_REVERB_I3DL2_PARAMETERS</b> structure; for more information, see <a href="https://docs.microsoft.com/windows/desktop/xaudio2/xaudio2fx-i3dl2-preset">XAUDIO2FX_I3DL2_PRESET</a>.
+Pointer to a <a href="/windows/desktop/api/xaudio2fx/ns-xaudio2fx-xaudio2fx_reverb_i3dl2_parameters">XAUDIO2FX_REVERB_I3DL2_PARAMETERS</a> structure containing the I3DL2 parameters to convert. There are many preset values defined for the <b>XAUDIO2FX_REVERB_I3DL2_PARAMETERS</b> structure; for more information, see <a href="/windows/desktop/xaudio2/xaudio2fx-i3dl2-preset">XAUDIO2FX_I3DL2_PRESET</a>.
 
 ### -param pNative [in, out]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/xaudio2fx/ns-xaudio2fx-xaudio2fx_reverb_parameters">XAUDIO2FX_REVERB_PARAMETERS</a> structure that will receive the native parameters that are equivalent to the I3DL2 parameters.
+Pointer to a <a href="/windows/desktop/api/xaudio2fx/ns-xaudio2fx-xaudio2fx_reverb_parameters">XAUDIO2FX_REVERB_PARAMETERS</a> structure that will receive the native parameters that are equivalent to the I3DL2 parameters.
 
 ### -param sevenDotOneReverb
 
@@ -76,13 +76,12 @@ Windows 10 (XAudio2.9); Windows 8, Windows Phone 8 (XAudio 2.8); DirectX SDK
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/xaudio2/xaudio2fx-i3dl2-preset">XAUDIO2FX_I3DL2_PRESET</a>
+<a href="/windows/desktop/xaudio2/xaudio2fx-i3dl2-preset">XAUDIO2FX_I3DL2_PRESET</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xaudio2fx/ns-xaudio2fx-xaudio2fx_reverb_i3dl2_parameters">XAUDIO2FX_REVERB_I3DL2_PARAMETERS</a>
+<a href="/windows/desktop/api/xaudio2fx/ns-xaudio2fx-xaudio2fx_reverb_i3dl2_parameters">XAUDIO2FX_REVERB_I3DL2_PARAMETERS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/xaudio2/functions">XAudio2::Functions</a>
-
+<a href="/windows/desktop/xaudio2/functions">XAudio2::Functions</a>

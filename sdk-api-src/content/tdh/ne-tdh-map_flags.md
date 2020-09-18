@@ -58,23 +58,23 @@ Defines constant values that indicate if the map is a value map, bitmap, or patt
 
 ### -field EVENTMAP_INFO_FLAG_MANIFEST_VALUEMAP
 
-The manifest value map maps integer values to strings. For details, see the <a href="https://docs.microsoft.com/windows/desktop/WES/eventmanifestschema-maptype-complextype">MapType</a> complex type.
+The manifest value map maps integer values to strings. For details, see the <a href="/windows/desktop/WES/eventmanifestschema-maptype-complextype">MapType</a> complex type.
 
 ### -field EVENTMAP_INFO_FLAG_MANIFEST_BITMAP
 
-The manifest value map maps bit values to strings. For details, see the <a href="https://docs.microsoft.com/windows/desktop/WES/eventmanifestschema-maptype-complextype">MapType</a> complex type.
+The manifest value map maps bit values to strings. For details, see the <a href="/windows/desktop/WES/eventmanifestschema-maptype-complextype">MapType</a> complex type.
 
 ### -field EVENTMAP_INFO_FLAG_MANIFEST_PATTERNMAP
 
-The manifest value map uses regular expressions to map one name to another name. For details, see the <a href="https://docs.microsoft.com/windows/desktop/WES/eventmanifestschema-patternmaptype-complextype">PatternMapType</a> complex type.
+The manifest value map uses regular expressions to map one name to another name. For details, see the <a href="/windows/desktop/WES/eventmanifestschema-patternmaptype-complextype">PatternMapType</a> complex type.
 
 ### -field EVENTMAP_INFO_FLAG_WBEM_VALUEMAP
 
-The WMI value map maps integer values to strings. For details, see <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/value-map">ValueMap and Value Qualifiers</a>.
+The WMI value map maps integer values to strings. For details, see <a href="/windows/desktop/WmiSdk/value-map">ValueMap and Value Qualifiers</a>.
 
 ### -field EVENTMAP_INFO_FLAG_WBEM_BITMAP
 
-The WMI value map maps bit values to strings. For details, see <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/bitmap-and-bitvalues">BitMap and BitValue Qualifiers</a>.
+The WMI value map maps bit values to strings. For details, see <a href="/windows/desktop/WmiSdk/bitmap-and-bitvalues">BitMap and BitValue Qualifiers</a>.
 
 ### -field EVENTMAP_INFO_FLAG_WBEM_FLAG
 
@@ -126,5 +126,4 @@ uint32  Data6;</code></pre>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tdh/ns-tdh-event_map_info">EVENT_MAP_INFO</a>
-
+<a href="/windows/desktop/api/tdh/ns-tdh-event_map_info">EVENT_MAP_INFO</a>

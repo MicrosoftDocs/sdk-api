@@ -50,16 +50,16 @@ api_name:
 
 ## -description
 
-Establishes a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resources">resource</a> as the 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/quorum-resource">quorum resource</a> for a 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/c-gly">cluster</a>. The <b>PCLUSAPI_SET_CLUSTER_QUORUM_RESOURCE</b> type defines a pointer to this function.
+Establishes a <a href="/previous-versions/windows/desktop/mscs/resources">resource</a> as the 
+    <a href="/previous-versions/windows/desktop/mscs/quorum-resource">quorum resource</a> for a 
+    <a href="/previous-versions/windows/desktop/mscs/c-gly">cluster</a>. The <b>PCLUSAPI_SET_CLUSTER_QUORUM_RESOURCE</b> type defines a pointer to this function.
 
 ## -parameters
 
 ### -param hResource [in]
 
 Handle to the new quorum resource; or the existing 
-       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/quorum-resource">quorum resource</a> when 
+       <a href="/previous-versions/windows/desktop/mscs/quorum-resource">quorum resource</a> when 
        <i>dwMaxQuoLogSize</i> is 
        <b>CLUS_NODE_MAJORITY_QUORUM</b>.
 
@@ -76,9 +76,9 @@ Determines the drive letter and path that the Cluster service will use to mainta
 <li>If <b>NULL</b>, the Cluster service will use a default partition and a default path 
         name (see below).</li>
 </ul>
-The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-service">Cluster service</a> uses the partition flagged as 
+The <a href="/previous-versions/windows/desktop/mscs/cluster-service">Cluster service</a> uses the partition flagged as 
        <b>CLUSPROP_PIFLAG_DEFAULT_QUORUM</b> as the default partition (see 
-       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clusprop_partition_info">CLUSPROP_PARTITION_INFO</a>), or, if the flag 
+       <a href="/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clusprop_partition_info">CLUSPROP_PARTITION_INFO</a>), or, if the flag 
        cannot be found, the first available NTFS partition on the new quorum resource.
 
 For the default path name, the Cluster service uses the previous path name if one exists; otherwise it uses 
@@ -86,7 +86,7 @@ For the default path name, the Cluster service uses the previous path name if on
 
 ### -param dwMaxQuoLogSize [in]
 
-The quorum type value. Specify one of the three constants listed. When you specify <b>CLUS_NODE_MAJORITY_QUORUM</b>, <i> hResource</i> must refer to the existing <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/quorum-resource">quorum resource</a>.
+The quorum type value. Specify one of the three constants listed. When you specify <b>CLUS_NODE_MAJORITY_QUORUM</b>, <i> hResource</i> must refer to the existing <a href="/previous-versions/windows/desktop/mscs/quorum-resource">quorum resource</a>.
 
 
 
@@ -105,7 +105,7 @@ The quorum type value. Specify one of the three constants listed. When you speci
 If the operation succeeds, the function returns <b>ERROR_SUCCESS</b> (0).
 
 If the operation fails, the function returns a 
-       <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a>. The following is a possible error 
+       <a href="/windows/desktop/Debug/system-error-codes">system error code</a>. The following is a possible error 
        code.
 
 <table>
@@ -131,9 +131,8 @@ The quorum resource is not online.
 
 Do not call <b>SetClusterQuorumResource</b> from 
      a resource DLL. For more information, see 
-     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/function-calls-to-avoid-in-resource-dlls">Function Calls to Avoid in Resource DLLs</a>.
+     <a href="/previous-versions/windows/desktop/mscs/function-calls-to-avoid-in-resource-dlls">Function Calls to Avoid in Resource DLLs</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-getclusterquorumresource">GetClusterQuorumResource</a>
-
+<a href="/windows/desktop/api/clusapi/nf-clusapi-getclusterquorumresource">GetClusterQuorumResource</a>

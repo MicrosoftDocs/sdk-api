@@ -61,17 +61,17 @@ Enumerates all top-level windows associated with the specified desktop. It passe
 ### -param hDesktop [in, optional]
 
 A handle to the desktop whose top-level windows are to be enumerated. This handle is returned by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createdesktopa">CreateDesktop</a>, 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getthreaddesktop">GetThreadDesktop</a>, <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-opendesktopa">OpenDesktop</a>, or 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-openinputdesktop">OpenInputDesktop</a> function, and must have the <b>DESKTOP_READOBJECTS</b> access right. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/winstation/desktop-security-and-access-rights">Desktop Security and Access Rights</a>.
+<a href="/windows/desktop/api/winuser/nf-winuser-createdesktopa">CreateDesktop</a>, 
+<a href="/windows/desktop/api/winuser/nf-winuser-getthreaddesktop">GetThreadDesktop</a>, <a href="/windows/desktop/api/winuser/nf-winuser-opendesktopa">OpenDesktop</a>, or 
+<a href="/windows/desktop/api/winuser/nf-winuser-openinputdesktop">OpenInputDesktop</a> function, and must have the <b>DESKTOP_READOBJECTS</b> access right. For more information, see 
+<a href="/windows/desktop/winstation/desktop-security-and-access-rights">Desktop Security and Access Rights</a>.
 
 If this parameter is NULL, the current desktop is used.
 
 ### -param lpfn [in]
 
 A pointer to an application-defined 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms633498(v=vs.85)">EnumWindowsProc</a> callback function.
+<a href="/previous-versions/windows/desktop/legacy/ms633498(v=vs.85)">EnumWindowsProc</a> callback function.
 
 ### -param lParam [in]
 
@@ -82,11 +82,11 @@ An application-defined value to be passed to the callback function.
 If the function fails or is unable to perform the enumeration, the return value is zero.
 
 To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-You must ensure that the callback function sets <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-setlasterror">SetLastError</a> if it fails.
+You must ensure that the callback function sets <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-setlasterror">SetLastError</a> if it fails.
 
-<b>Windows Server 2003 and Windows XP/2000:  </b>If there are no windows on the desktop, <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns <b>ERROR_INVALID_HANDLE</b>.
+<b>Windows Server 2003 and Windows XP/2000:  </b>If there are no windows on the desktop, <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns <b>ERROR_INVALID_HANDLE</b>.
 
 ## -remarks
 
@@ -95,25 +95,24 @@ The
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createdesktopa">CreateDesktop</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-createdesktopa">CreateDesktop</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/winstation/desktops">Desktops</a>
+<a href="/windows/desktop/winstation/desktops">Desktops</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms633498(v=vs.85)">EnumWindowsProc</a>
+<a href="/previous-versions/windows/desktop/legacy/ms633498(v=vs.85)">EnumWindowsProc</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getthreaddesktop">GetThreadDesktop</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-getthreaddesktop">GetThreadDesktop</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-opendesktopa">OpenDesktop</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-opendesktopa">OpenDesktop</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/winstation/window-station-and-desktop-functions">Window Station and Desktop Functions</a>
-
+<a href="/windows/desktop/winstation/window-station-and-desktop-functions">Window Station and Desktop Functions</a>

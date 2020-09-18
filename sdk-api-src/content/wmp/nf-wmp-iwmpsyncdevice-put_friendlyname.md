@@ -99,9 +99,8 @@ The friendly name is the string that is displayed in the Windows Media Player us
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpsyncdevice">IWMPSyncDevice Interface</a>
+<a href="/windows/desktop/api/wmp/nn-wmp-iwmpsyncdevice">IWMPSyncDevice Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpsyncdevice-get_friendlyname">IWMPSyncDevice::get_friendlyName</a>
-
+<a href="/windows/desktop/api/wmp/nf-wmp-iwmpsyncdevice-get_friendlyname">IWMPSyncDevice::get_friendlyName</a>

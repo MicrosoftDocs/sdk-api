@@ -62,7 +62,7 @@ The SOCKADDR structure is a generic structure that specifies a transport address
 
 The address family for the transport address. For more information about supported address
      families, see 
-     <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/mt808757(v=vs.85)">WSK Address Families</a>.
+     <a href="/previous-versions/windows/hardware/drivers/mt808757(v=vs.85)">WSK Address Families</a>.
 
 ### -field sa_data
 
@@ -73,7 +73,7 @@ An array of 14 bytes that contains the transport address data.
 The SOCKADDR structure is large enough to contain a transport address for most address families. For a
     structure that is guaranteed to be large enough to contain a transport address for all possible address
     families, see 
-    [SOCKADDR_STORAGE](/windows/win32/api/ws2def/ns-ws2def-sockaddr_storage_lh).
+    [SOCKADDR_STORAGE](./ns-ws2def-sockaddr_storage_lh.md).
 
 A WSK application typically does not access the 
     <b>sa_data</b> member directly. Instead, a pointer to a SOCKADDR structure is normally cast to a pointer
@@ -81,49 +81,48 @@ A WSK application typically does not access the
 
 ## -see-also
 
-[SOCKADDR_STORAGE](/windows/win32/api/ws2def/ns-ws2def-sockaddr_storage_lh)
+[SOCKADDR_STORAGE](./ns-ws2def-sockaddr_storage_lh.md)
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wsk/ns-wsk-_wsk_datagram_indication">WSK_DATAGRAM_INDICATION</a>
+<a href="/windows-hardware/drivers/ddi/content/wsk/ns-wsk-_wsk_datagram_indication">WSK_DATAGRAM_INDICATION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wsk/nc-wsk-pfn_wsk_accept">WskAccept</a>
+<a href="/windows-hardware/drivers/ddi/content/wsk/nc-wsk-pfn_wsk_accept">WskAccept</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wsk/nc-wsk-pfn_wsk_accept_event">WskAcceptEvent</a>
+<a href="/windows-hardware/drivers/ddi/content/wsk/nc-wsk-pfn_wsk_accept_event">WskAcceptEvent</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wsk/nc-wsk-pfn_wsk_bind">WskBind</a>
+<a href="/windows-hardware/drivers/ddi/content/wsk/nc-wsk-pfn_wsk_bind">WskBind</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wsk/nc-wsk-pfn_wsk_connect">WskConnect</a>
+<a href="/windows-hardware/drivers/ddi/content/wsk/nc-wsk-pfn_wsk_connect">WskConnect</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wsk/nc-wsk-pfn_wsk_get_local_address">WskGetLocalAddress</a>
+<a href="/windows-hardware/drivers/ddi/content/wsk/nc-wsk-pfn_wsk_get_local_address">WskGetLocalAddress</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wsk/nc-wsk-pfn_wsk_get_remote_address">WskGetRemoteAddress</a>
+<a href="/windows-hardware/drivers/ddi/content/wsk/nc-wsk-pfn_wsk_get_remote_address">WskGetRemoteAddress</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wsk/nc-wsk-pfn_wsk_inspect_event">WskInspectEvent</a>
+<a href="/windows-hardware/drivers/ddi/content/wsk/nc-wsk-pfn_wsk_inspect_event">WskInspectEvent</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wsk/nc-wsk-pfn_wsk_receive_from">WskReceiveFrom</a>
+<a href="/windows-hardware/drivers/ddi/content/wsk/nc-wsk-pfn_wsk_receive_from">WskReceiveFrom</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wsk/nc-wsk-pfn_wsk_send_to">WskSendTo</a>
+<a href="/windows-hardware/drivers/ddi/content/wsk/nc-wsk-pfn_wsk_send_to">WskSendTo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wsk/nc-wsk-pfn_wsk_socket_connect">WskSocketConnect</a>
-
+<a href="/windows-hardware/drivers/ddi/content/wsk/nc-wsk-pfn_wsk_socket_connect">WskSocketConnect</a>

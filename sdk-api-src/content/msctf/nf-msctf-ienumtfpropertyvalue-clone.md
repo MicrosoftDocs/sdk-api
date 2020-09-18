@@ -56,7 +56,7 @@ Creates a copy of the enumerator object.
 
 ### -param ppEnum [out]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-ienumtfpropertyvalue">IEnumTfPropertyValue</a> interface pointer that receives the new enumerator.
+Pointer to an <a href="/windows/desktop/api/msctf/nn-msctf-ienumtfpropertyvalue">IEnumTfPropertyValue</a> interface pointer that receives the new enumerator.
 
 ## -returns
 
@@ -105,4 +105,3 @@ The method is not implemented.
 ## -see-also
 
 [IEnumTfPropertyValue interface](nn-msctf-ienumtfpropertyvalue.md), [TF_PROPERTYVAL structure](ns-msctf-tf_propertyval.md)
-

@@ -51,7 +51,7 @@ api_name:
 ## -description
 
 Writes a series of characters encoded as UTF-8 to an element or attribute.
-      To write characters to an attribute value, call <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wswritestartattribute">WsWriteStartAttribute</a> first.
+      To write characters to an attribute value, call <a href="/windows/desktop/api/webservices/nf-webservices-wswritestartattribute">WsWriteStartAttribute</a> first.
       Only whitespace characters may be written at the root of an xml document unless the
         <b>WS_XML_WRITER_PROPERTY_ALLOW_FRAGMENT</b> has been set to <b>TRUE</b>.
 
@@ -59,7 +59,7 @@ Writes a series of characters encoded as UTF-8 to an element or attribute.
 
 ### -param writer [in]
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-xml-writer">WS_XML_WRITER</a> object to which the characters are written.  The pointer must reference a valid <b>XML Writer</b> object.
+A pointer to the <a href="/windows/desktop/wsw/ws-xml-writer">WS_XML_WRITER</a> object to which the characters are written.  The pointer must reference a valid <b>XML Writer</b> object.
 
 ### -param bytes
 
@@ -71,7 +71,7 @@ The number of bytes to write.
 
 ### -param error [in, optional]
 
-A  pointer to a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-error">WS_ERROR</a> object where additional information about the error should be stored if the function fails.
+A  pointer to a <a href="/windows/desktop/wsw/ws-error">WS_ERROR</a> object where additional information about the error should be stored if the function fails.
 
 ## -returns
 
@@ -108,5 +108,4 @@ The operation is not allowed due to the current state of the object.
 
 ## -remarks
 
-<b>WsWriteCharsUtf8</b> can be called more than once between <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wswritestartattribute">WsWriteStartAttribute</a> and <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wswriteendattribute">WsWriteEndAttribute</a>.  It cannot be combined with <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wswritechars">WsWriteChars</a>, <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wswritebytes">WsWriteBytes</a>, <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wswritevalue">WsWriteValue</a> or <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wswritetext">WsWriteText</a>when writing an attribute.
-
+<b>WsWriteCharsUtf8</b> can be called more than once between <a href="/windows/desktop/api/webservices/nf-webservices-wswritestartattribute">WsWriteStartAttribute</a> and <a href="/windows/desktop/api/webservices/nf-webservices-wswriteendattribute">WsWriteEndAttribute</a>.  It cannot be combined with <a href="/windows/desktop/api/webservices/nf-webservices-wswritechars">WsWriteChars</a>, <a href="/windows/desktop/api/webservices/nf-webservices-wswritebytes">WsWriteBytes</a>, <a href="/windows/desktop/api/webservices/nf-webservices-wswritevalue">WsWriteValue</a> or <a href="/windows/desktop/api/webservices/nf-webservices-wswritetext">WsWriteText</a>when writing an attribute.

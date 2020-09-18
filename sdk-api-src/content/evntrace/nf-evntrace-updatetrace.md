@@ -59,14 +59,14 @@ The
 			
 
 The 
-<a href="https://docs.microsoft.com/windows/desktop/ETW/controltrace">ControlTrace</a> function supersedes this function.
+<a href="/windows/desktop/ETW/controltrace">ControlTrace</a> function supersedes this function.
 
 ## -parameters
 
 ### -param a [in]
 
 Handle to the event tracing session to update, or <b>NULL</b>. You must specify <i>SessionHandle</i> if <i>SessionName</i> is <b>NULL</b>. However, ETW ignores the handle if <i>SessionName</i> is not <b>NULL</b>. The handle is returned by the 
-<a href="https://docs.microsoft.com/windows/desktop/ETW/starttrace">StartTrace</a> function.
+<a href="/windows/desktop/ETW/starttrace">StartTrace</a> function.
 
 ### -param b [in]
 
@@ -78,7 +78,7 @@ To specify the NT Kernel Logger session, set <i>SessionName</i> to <b>KERNEL_LOG
 
 Pointer to an 
 initialized 
-<a href="https://docs.microsoft.com/windows/desktop/ETW/event-trace-properties">EVENT_TRACE_PROPERTIES</a> structure. 
+<a href="/windows/desktop/ETW/event-trace-properties">EVENT_TRACE_PROPERTIES</a> structure. 
 
 On input, the members must specify the new values for the properties to update. For information on which properties you can update, see Remarks.
 
@@ -120,25 +120,24 @@ On input, the members must specify the new values for the properties to update. 
 
 For private logger sessions, you can only update <b>LogFileNameOffset</b> and <b>FlushTimer</b>.
 
-If you are using a newly initialized <a href="https://docs.microsoft.com/windows/desktop/ETW/event-trace-properties">EVENT_TRACE_PROPERTIES</a> structure, the only members you need to specify, other than the members you are updating, are <b>Wnode.BufferSize</b>, <b>Wnode.Guid</b>, and <b>Wnode.Flags</b>.
+If you are using a newly initialized <a href="/windows/desktop/ETW/event-trace-properties">EVENT_TRACE_PROPERTIES</a> structure, the only members you need to specify, other than the members you are updating, are <b>Wnode.BufferSize</b>, <b>Wnode.Guid</b>, and <b>Wnode.Flags</b>.
 
-If you use the property structure you passed to <a href="https://docs.microsoft.com/windows/desktop/ETW/starttrace">StartTrace</a>, make sure the  <b>LogFileNameOffset</b> member is 0 unless you are changing the log file name.
+If you use the property structure you passed to <a href="/windows/desktop/ETW/starttrace">StartTrace</a>, make sure the  <b>LogFileNameOffset</b> member is 0 unless you are changing the log file name.
 
-If you call the <a href="https://docs.microsoft.com/windows/desktop/ETW/controltrace">ControlTrace</a> function to query the current session properties and then update those properties to update the session, make sure you set <b>LogFileNameOffset</b> to 0 (unless you are changing the log file name) and set <a href="https://docs.microsoft.com/windows/desktop/ETW/event-trace-properties">EVENT_TRACE_PROPERTIES.Wnode.Flags</a> to <b>WNODE_FLAG_TRACED_GUID</b>.
+If you call the <a href="/windows/desktop/ETW/controltrace">ControlTrace</a> function to query the current session properties and then update those properties to update the session, make sure you set <b>LogFileNameOffset</b> to 0 (unless you are changing the log file name) and set <a href="/windows/desktop/ETW/event-trace-properties">EVENT_TRACE_PROPERTIES.Wnode.Flags</a> to <b>WNODE_FLAG_TRACED_GUID</b>.
 
 To obtain the property settings and session statistics for an event tracing session, call the 
-<a href="https://docs.microsoft.com/windows/desktop/ETW/controltrace">ControlTrace</a> function.
+<a href="/windows/desktop/ETW/controltrace">ControlTrace</a> function.
 
 
 #### Examples
 
 For an example that uses 
 <b>UpdateTrace</b>, see 
-<a href="https://docs.microsoft.com/windows/desktop/ETW/updating-an-event-tracing-session">Updating an Event Tracing Session</a>.
+<a href="/windows/desktop/ETW/updating-an-event-tracing-session">Updating an Event Tracing Session</a>.
 
 <div class="code"></div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/ETW/controltrace">ControlTrace</a>
-
+<a href="/windows/desktop/ETW/controltrace">ControlTrace</a>
