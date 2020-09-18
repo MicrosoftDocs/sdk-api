@@ -49,12 +49,9 @@ api_name:
  - DHCPV4_FAILOVER_CLIENT_INFO
 ---
 
-# DHCPV4_FAILOVER_CLIENT_INFO structure
-
-
 ## -description
 
- The <b>DHCPV4_FAILOVER_CLIENT_INFO</b> structure defines DHCP server scope statistics that are part of a failover relationship.
+The <b>DHCPV4_FAILOVER_CLIENT_INFO</b> structure defines DHCP server scope statistics that are part of a failover relationship.
 
 ## -struct-fields
 
@@ -88,7 +85,7 @@ Pointer to a null-terminated Unicode string that represents the description of t
 
 ### -field bClientType
 
-Value that specifies the DHCPv4 client type. The possible values are below:
+Value that specifies the DHCPv4 client type. The possible values are below.
 
 <table>
 <tr>
@@ -165,7 +162,7 @@ Backward compatibility for manual addressing.
 
 ### -field AddressState
 
-Value that specifies various states of the IPv4 address. The LSB is bit 0 and the MSB is bit 7. The possible values are below:
+Value that specifies various states of the IPv4 address. The LSB is bit 0 and the MSB is bit 7. The possible values are below.
 
 BIT 0 and BIT 1 signify the DHCPv4 client IPv4 address state, as shown in the following table.
 
@@ -366,17 +363,13 @@ Time, in seconds, since the partner server last updated the DHCPv4 client lease.
 
 ### -field BndMsgStatus
 
+Reserved. Do not use.
+
 ### -field PolicyName
 
 Pointer to a null-terminated Unicode string that represents the DHCP server policy name that resulted in the IPv4 address assignment to the DHCPv4 client in the lease.
 
 ### -field Flags
-
-### -field bndMsgStatus
-
-Reserved. Do not use.
-
-### -field flags
 
 Reserved. Do not use.
 

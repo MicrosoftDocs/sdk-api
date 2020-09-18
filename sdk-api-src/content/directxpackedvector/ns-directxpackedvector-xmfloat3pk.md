@@ -45,14 +45,10 @@ api_name:
  - XMFLOAT3PK
 ---
 
-# XMFLOAT3PK structure
-
-
 ## -description
 
 Describes a 3D vector with X and Y components stored as 11 bit floating point number, and Z
 	component stored as a 10 bit floating-point value.
-    
 
 For a list of additional functionality, such as constructors and operators, available using
 	<code>XMFLOAT3PK</code> when programming in C++, see <a href="https://docs.microsoft.com/windows/desktop/dxmath/ovw-xmfloat3pk-extensions">XMFLOAT3PK Extensions</a>.
@@ -62,18 +58,6 @@ For a list of additional functionality, such as constructors and operators, avai
 ### -field v
 
 Unsigned 32-bit integer representing the 3D vector.
-
-### -field XMFLOAT3PK
-
-TBD
-
-### -field operator uint32_t
-
-TBD
-
-### -field operator=
-
-TBD
 
 ### -field xe : 5
 
@@ -104,15 +88,10 @@ The 5-bit mantissa for the z component.
 There are no sign bits. This means all partial-precision numbers are positive. The z
 	    component is stored in the most significant bits, and the x component is stored in the
 	    least significant bits like this:
-	
-
 
 ```
-
-  (Z10Y11X11): [31] ZZZZZzzz zzYYYYYy yyyyyXXX XXxxxxxx [0]
-
+(Z10Y11X11): [31] ZZZZZzzz zzYYYYYy yyyyyXXX XXxxxxxx [0]
 ```
-
 
 Or in detail:
      

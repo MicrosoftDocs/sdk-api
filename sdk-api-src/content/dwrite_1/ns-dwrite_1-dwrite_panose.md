@@ -45,20 +45,23 @@ api_name:
  - DWRITE_PANOSE
 ---
 
-# DWRITE_PANOSE structure
-
-
 ## -description
 
 The <b>DWRITE_PANOSE</b> union describes typeface classification values that you use with <a href="/windows/win32/api/dwrite_1/nf-dwrite_1-idwritefont1-getpanose">IDWriteFont1::GetPanose</a> to select and match the font.
 
 ## -struct-fields
 
+### -field values
+
+A 10-byte array of typeface classification values.
+
 ### -field familyKind
 
 A <a href="/windows/win32/api/dwrite_1/ne-dwrite_1-dwrite_panose_family">DWRITE_PANOSE_FAMILY</a>-typed value that specifies the typeface classification values to get.
 
 ### -field text
+
+The text structure.
 
 ### -field text.familyKind
 
@@ -102,6 +105,8 @@ A <a href="/windows/win32/api/dwrite_1/ne-dwrite_1-dwrite_panose_xheight">DWRITE
 
 ### -field script
 
+The script structure.
+
 ### -field script.familyKind
 
 The <a href="/windows/win32/api/dwrite_1/ne-dwrite_1-dwrite_panose_family">DWRITE_PANOSE_FAMILY_SCRIPT</a> value (3) that specifies script typeface classification.
@@ -143,6 +148,8 @@ A <a href="/windows/win32/api/dwrite_1/ne-dwrite_1-dwrite_panose_finials">DWRITE
 A <a href="/windows/win32/api/dwrite_1/ne-dwrite_1-dwrite_panose_xascent">DWRITE_PANOSE_XASCENT</a>-typed value that specifies the relative size of lowercase letters.
 
 ### -field decorative
+
+The decorative structure.
 
 ### -field decorative.familyKind
 
@@ -186,6 +193,8 @@ A <a href="/windows/win32/api/dwrite_1/ne-dwrite_1-dwrite_panose_character_range
 
 ### -field symbol
 
+The symbol structure.
+
 ### -field symbol.familyKind
 
 The <a href="/windows/win32/api/dwrite_1/ne-dwrite_1-dwrite_panose_family">DWRITE_PANOSE_FAMILY_SYMBOL</a> value (5) that specifies symbol typeface classification.
@@ -225,10 +234,6 @@ A <a href="/windows/win32/api/dwrite_1/ne-dwrite_1-dwrite_panose_symbol_aspect_r
 ### -field symbol.aspectRatio211
 
 A <a href="/windows/win32/api/dwrite_1/ne-dwrite_1-dwrite_panose_symbol_aspect_ratio">DWRITE_PANOSE_SYMBOL_ASPECT_RATIO</a>-typed value that specifies the aspect ratio 211 of the symbol typeface.
-
-### -field values [10]
-
-A 10-byte array of typeface classification values.
 
 ## -remarks
 

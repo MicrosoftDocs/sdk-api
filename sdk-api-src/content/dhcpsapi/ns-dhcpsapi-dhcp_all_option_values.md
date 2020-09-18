@@ -49,9 +49,6 @@ api_name:
  - DHCP_ALL_OPTION_VALUES
 ---
 
-# DHCP_ALL_OPTION_VALUES structure
-
-
 ## -description
 
 The <b>DHCP_ALL_OPTION_VALUES</b> structure defines the set of all option values defined on a DHCP server, organized according to class/vendor pairing.
@@ -68,49 +65,20 @@ Specifies the number of elements in <b>Options</b>.
 
 ### -field ClassName
 
-### -field VendorName
-
-### -field IsVendor
-
-### -field OptionsArray
-
-### -field size_is
-
-### -field size_is.NumElements
-
-### -field Options
-
- 
-
-
-
-
-#### - *Options
-
-Pointer to a list of structures that contain the option values for specific class/vendor pairs. The structure is defined as follows.
-
-
-
-#### ClassName
-
 Unicode string that contains the name of the DHCP class for the option list.
 
-
-
-#### VendorName
+### -field VendorName
 
 Unicode string that contains the name of the vendor for the option list.
 
-
-
-#### IsVendor
+### -field IsVendor
 
 Specifies whether or not this set of options is vendor-specific. This value is <b>TRUE</b> if it is, and <b>FALSE</b> if it is not.
 
-
-
-#### OptionsArray
-
+### -field OptionsArray
 
 <a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_option_value_array">DHCP_OPTION_VALUE_ARRAY</a> structure that contains the option values for the specified vendor/class pair.
 
+### -field Options
+
+Pointer to a list of structures that contain the option values for specific class/vendor pairs. The structure is defined as follows.

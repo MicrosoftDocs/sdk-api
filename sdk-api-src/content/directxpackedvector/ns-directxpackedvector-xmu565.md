@@ -45,9 +45,6 @@ api_name:
  - XMU565
 ---
 
-# XMU565 structure
-
-
 ## -description
 
 A 3D vector with x- and z- components represented as 5-bit unsigned integer values, 
@@ -61,18 +58,6 @@ For a list of more functionality such as constructors and operators that are ava
 ### -field v
 
 Unsigned short representing the 3D vector.
-
-### -field XMU565
-
-TBD
-
-### -field operator uint16_t
-
-TBD
-
-### -field operator=
-
-TBD
 
 ### -field x : 5
 

@@ -44,47 +44,27 @@ api_name:
  - XMFLOAT4X4.operator =
 ---
 
-# XMFLOAT4X4::operator-assign
-
-
 ## -description
 
-Assigns the vector component data from one instance of <code>XMFLOAT4X4</code> to the current
-	instance of <code>XMFLOAT4X4</code>.
-    
+Assigns the vector component data from one instance of <code>XMFLOAT4X4</code> to the current instance of <code>XMFLOAT4X4</code>.
 
-This operator assigns the vector component data from one instance of <a href="https://msdn.microsoft.com/92991b18-60a5-41ec-85de-690ac6e5f1e2">XMFLOAT4X4</a> to the current instance of <code>XMFLOAT4X4</code>.
-<div class="alert"><b>Note</b>  This operator is only available under C++.
-    </div><div> </div>
+This operator assigns the vector component data from one instance of <a href="/windows/win32/api/directxmath/ns-directxmath-xmfloat4x4">XMFLOAT4X4</a> to the current instance of <code>XMFLOAT4X4</code>.
+
+> [!NOTE]
+> This operator is available only under C++.
 
 ## -parameters
 
 ### -param arg1
 
-TBD
-
-
-
-
-#### - Float4x4 [ref]
-
 Instance of <code>XMFLOAT4X4</code> used to update the current <code>XMFLOAT4X4</code>structure.
 
 ## -returns
 
- The current instance of
-	    <code>XMFLOAT4X4</code> whose vector component data has been updated to match those of the
-	    <code>XMFLOAT4X4</code> instance specified by the <b>Float4X4</b> argument.
+The current instance of <code>XMFLOAT4X4</code> whose vector component data has been updated to match those of the <code>XMFLOAT4X4</code> instance specified by the <b>Float4X4</b> argument.
 
 ## -see-also
 
-<b>Reference</b>
-
-
-
 <a href="https://msdn.microsoft.com/92991b18-60a5-41ec-85de-690ac6e5f1e2">XMFLOAT4X4</a>
 
-
-
 <a href="https://msdn.microsoft.com/e52712dc-2d94-4bc1-a0e8-2ea274bc3062">XMFLOAT4X4 Operators</a>
-

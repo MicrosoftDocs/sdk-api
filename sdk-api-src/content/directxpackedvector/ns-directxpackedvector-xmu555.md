@@ -45,16 +45,10 @@ api_name:
  - XMU555
 ---
 
-# XMU555 structure
-
-
 ## -description
 
 A 4D vector with x-,y-, and z- components represented as 5 bit unsigned integer values, and
 	the w-component as a 1 bit integer value.
-    
-
-
 
 For a list of additional functionality such as constructors and operators that are available
 	using <code>XMU555</code> when you are programming in C++, see <a href="https://docs.microsoft.com/windows/desktop/dxmath/ovw-xmu555-extensions">XMU555 Extensions</a>.
@@ -64,18 +58,6 @@ For a list of additional functionality such as constructors and operators that a
 ### -field v
 
 Unsigned short representing the 4D vector.
-
-### -field XMU555
-
-TBD
-
-### -field operator uint16_t
-
-TBD
-
-### -field operator=
-
-TBD
 
 ### -field w : 1
 

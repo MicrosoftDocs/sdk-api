@@ -44,9 +44,6 @@ api_name:
  - BoundingFrustum.Intersects
 ---
 
-# BoundingFrustum::Intersects(FXMVECTOR,FXMVECTOR,float &)
-
-
 ## -description
 
 Test the [BoundingFrustum](/windows/win32/api/directxcollision/ns-directxcollision-boundingfrustum) for intersection with a ray.
@@ -55,7 +52,7 @@ Test the [BoundingFrustum](/windows/win32/api/directxcollision/ns-directxcollisi
 
 ### -param rayOrigin
 
-TBD
+The origin of the ray.
 
 ### -param Direction [in]
 
@@ -64,11 +61,6 @@ The direction of the ray.
 ### -param Dist [out, ref]
 
 The length of the ray.
-
-
-#### - Origin [in]
-
-The origin of the ray.
 
 ## -returns
 

@@ -49,9 +49,6 @@ api_name:
  - DHCP_ALL_OPTIONS
 ---
 
-# DHCP_ALL_OPTIONS structure
-
-
 ## -description
 
 The <b>DHCP_ALL_OPTIONS</b> structure defines the set of all options available on a DHCP server.
@@ -72,41 +69,16 @@ Specifies the number of vendor options listed in <b>VendorOptions</b>.
 
 ### -field Option
 
-### -field VendorName
-
-### -field ClassName
-
-### -field size_is
-
-### -field size_is.NumVendorOptions
-
-### -field VendorOptions
-
- 
-
-
-
-
-#### - *VendorOptions
-
-Pointer to a list of structures that contain the following fields.
-
-
-
-#### Option
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_option">DHCP_OPTION</a> structure that contains specific information describing the option.
 
-
-
-#### VendorName
+### -field VendorName
 
 Unicode string that contains the name of the vendor for the option.
 
-
-
-#### ClassName
+### -field ClassName
 
 Unicode string that contains the name of the DHCP class for the option.
 
+### -field VendorOptions
+
+Pointer to a list of structures that contain the following fields.

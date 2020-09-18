@@ -45,14 +45,10 @@ api_name:
  - XMFLOAT3SE
 ---
 
-# XMFLOAT3SE structure
-
-
 ## -description
 
 Describes a 3D vector of three floating-point components with 9 bit mantissas, each sharing
 	the same 5-bit exponent.
-    
 
 For a list of additional functionality such as constructors and operators that are available
 	using <code>XMFLOAT3SE</code> when you are programming in C++, see <a href="https://docs.microsoft.com/windows/desktop/dxmath/ovw-xmfloat3se-extensions">XMFLOAT3SE Extensions</a>.
@@ -62,18 +58,6 @@ For a list of additional functionality such as constructors and operators that a
 ### -field v
 
 Unsigned 32-bit integer representing the 3D vector.
-
-### -field XMFLOAT3SE
-
-TBD
-
-### -field operator uint32_t
-
-TBD
-
-### -field operator=
-
-TBD
 
 ### -field e : 5
 

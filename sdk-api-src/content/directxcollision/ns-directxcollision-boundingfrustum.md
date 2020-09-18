@@ -45,9 +45,6 @@ api_name:
  - BoundingFrustum
 ---
 
-# BoundingFrustum structure
-
-
 ## -description
 
 A bounding frustum object.
@@ -89,47 +86,6 @@ The distance of the near plane of the <b>BoundingFrustum</b> from its origin.
 ### -field Far
 
 The distance of the far plane from the origin of the <b>BoundingFrustum</b>.
-
-### -field operator=
-
-TBD
-
-### -field BoundingFrustum
-
-Creates an instance of <b>BoundingFrustum</b>.
-
-### -field Transform
-
-Transforms the <b>BoundingFrustum</b>.
-
-### -field GetCorners
-
-Gets the corners making up the <b>BoundingFrustum</b>.
-
-### -field Contains
-
-Tests whether the <b>BoundingFrustum</b> contains a specified object.
-
-### -field Intersects
-
-Tests the <b>BoundingFrustum</b> for intersection with another object.
-
-### -field ContainedBy
-
-Tests whether the <b>BoundingFrustum</b> is contained by the specified frustum.
-
-### -field GetPlanes
-
-Gets the planes making up the <b>BoundingFrustum</b>.
-
-### -field CreateFromMatrix
-
-Creates a <b>BoundingFrustum</b> from the specified projection matrix.
-
-
-#### - op_Assignment
-
-Copies values from another <b>BoundingFrustum</b>.
 
 ## -remarks
 

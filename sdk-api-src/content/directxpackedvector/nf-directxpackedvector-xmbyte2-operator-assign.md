@@ -45,9 +45,6 @@ api_name:
  - XMBYTE2.operator =
 ---
 
-# XMBYTE2::operator-assign
-
-
 ## -description
 
 Assigns the vector component data from one instance of <code>XMBYTE2</code> to the current instance of <code>XMBYTE2</code>.
@@ -59,13 +56,6 @@ This operator assigns the vector component data from one instance of <a href="ht
 ## -parameters
 
 ### -param arg1
-
-TBD
-
-
-
-
-#### - Byte2 [ref]
 
 Instance of <code>XMBYTE2</code> used to update the current <code>XMBYTE2</code> structure.
 

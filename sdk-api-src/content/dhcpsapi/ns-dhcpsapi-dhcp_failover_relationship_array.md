@@ -49,9 +49,6 @@ api_name:
  - DHCP_FAILOVER_RELATIONSHIP_ARRAY
 ---
 
-# DHCP_FAILOVER_RELATIONSHIP_ARRAY structure
-
-
 ## -description
 
 The <b>DHCP_FAILOVER_RELATIONSHIP_ARRAY</b> structure defines an array of DHCPv4 failover relationships between partner servers.
@@ -60,19 +57,12 @@ The <b>DHCP_FAILOVER_RELATIONSHIP_ARRAY</b> structure defines an array of DHCPv4
 
 ### -field NumElements
 
+Integer that specifies the number of DHCPv4 failover relationships in <b>pRelationships.</b>
+
 ### -field pRelationships
 
 Pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_failover_relationship">DHCP_FAILOVER_RELATIONSHIP</a>  structures.
 
-### -field pRelationships.size_is
-
-### -field pRelationships.size_is.NumElements
-
-### -field numElements
-
-Integer that specifies the number of DHCPv4 failover relationships in <b>pRelationships.</b>
-
 ## -see-also
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpv4failoverenumrelationship">DhcpV4FailoverEnumRelationship</a>
-

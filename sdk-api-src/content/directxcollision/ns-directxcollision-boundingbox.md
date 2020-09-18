@@ -45,9 +45,6 @@ api_name:
  - BoundingBox
 ---
 
-# BoundingBox structure
-
-
 ## -description
 
 A bounding axis-aligned object.
@@ -66,51 +63,6 @@ The center of the BoundingBox.
 
 The extents of the BoundingBox.
 
-### -field operator=
-
-TBD
-
-### -field BoundingBox
-
-Creates an instance of the <code>BoundingBox</code> class.
-
-### -field Transform
-
-Transforms the BoundingBox.
-
-### -field GetCorners
-
-Retrieves the corners of the BoundingBox.
-
-### -field Contains
-
-Tests whether the BoundingBox contains a specified object.
-
-### -field Intersects
-
-Tests the BoundingBox for intersection with another object.
-
-### -field ContainedBy
-
-Tests whether the <b>BoundingBox</b> is contained by the specified frustum.
-
-### -field CreateMerged
-
-Creates a BoundingBox large enough to contains two specified BoundBox intances.
-
-### -field CreateFromSphere
-
-Creates a BoundingBox large enough to contain the a specified BoundingSphere.
-
-### -field CreateFromPoints
-
-Creates a BoundingBox from points.
-
-
-#### - op_Assignment
-
-Copies values from another BoundingBox.
-
 ## -remarks
 
 <h3><a id="Platform_Requirements"></a><a id="platform_requirements"></a><a id="PLATFORM_REQUIREMENTS"></a>Platform Requirements</h3>
@@ -121,4 +73,3 @@ Use DirectX.
 ## -see-also
 
 <a href="https://docs.microsoft.com/windows/desktop/dxmath/ovw-directxmath-classes">DirectXMath Library Classes</a>
-

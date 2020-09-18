@@ -45,9 +45,6 @@ api_name:
  - XMU555.operator =
 ---
 
-# XMU555::operator-assign(XMU555 &&)
-
-
 ## -description
 
 Assigns the vector component data from one instance of <code>XMU555</code> to the current
@@ -59,13 +56,6 @@ This operator assigns the vector component data from one instance of <a href="ht
 ## -parameters
 
 ### -param arg1
-
-TBD
-
-
-
-
-#### - U555 [ref]
 
 Instance of <code>XMU555</code> used to update the current <code>XMU555</code>structure.
 

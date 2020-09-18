@@ -45,15 +45,9 @@ api_name:
  - XMUNIBBLE4
 ---
 
-# XMUNIBBLE4 structure
-
-
 ## -description
 
 A 4D vector with four unsigned 4-bit integer components.
-    
-
-
 
 For a list of additional functionality such as constructors and operators that are available
 	using <code>XMUNIBBLE4</code> when you are programming in C++, see <a href="https://docs.microsoft.com/windows/desktop/dxmath/ovw-xmunibble4-extensions">XMUNIBBLE4 Extensions</a>.
@@ -63,18 +57,6 @@ For a list of additional functionality such as constructors and operators that a
 ### -field v
 
 Unsigned short representing the 4D vector in a packed format.
-
-### -field XMUNIBBLE4
-
-TBD
-
-### -field operator uint16_t
-
-TBD
-
-### -field operator=
-
-TBD
 
 ### -field w : 4
 

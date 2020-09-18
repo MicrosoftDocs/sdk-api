@@ -49,12 +49,11 @@ api_name:
  - DRT_EVENT_DATA
 ---
 
-# DRT_EVENT_DATA structure
-
-
 ## -description
 
 The <b>DRT_EVENT_DATA</b> structure contains the event data returned by calling <a href="https://docs.microsoft.com/windows/desktop/api/drt/nf-drt-drtgeteventdata">DrtGetEventData</a> after an application receives an event signal on the <i>hEvent</i> passed into <a href="https://docs.microsoft.com/windows/desktop/api/drt/nf-drt-drtopen">DrtOpen</a>.
+
+Contains an unnamed union that contains a structure that defines a change in the leaf set, the state of a locally registered key, or the state of the local DRT instance.
 
 ## -struct-fields
 
@@ -72,109 +71,52 @@ Pointer to the context data passed to the API that generated the event.  For exa
 
 ### -field leafsetKeyChange
 
-### -field leafsetKeyChange.change
-
-### -field leafsetKeyChange.localKey
-
-### -field leafsetKeyChange.remoteKey
-
-### -field registrationStateChange
-
-### -field registrationStateChange.state
-
-### -field registrationStateChange.localKey
-
-### -field statusChange
-
-### -field statusChange.status
-
-### -field statusChange.bootstrapAddresses
-
-### -field statusChange.bootstrapAddresses.cntAddress
-
-### -field statusChange.bootstrapAddresses.pAddresses
-
- 
-
-
-
-
-#### - ( unnamed union )
-
-Union that contains a structure that defines a change in the leaf set, the state of a locally registered key, or the state of the local DRT instance.
-
-
-
-#### leafsetKeyChange
-
 This structure appears when the event has been raised to signal a change in a leaf set of a locally registered key; the <b>type</b> field of the <b>DRT_EVENT_DATA</b> structure is set to DRT_EVENT_LEAFSET_KEY_CHANGED.
 
-
-
-##### change
+### -field leafsetKeyChange.change
 
 Specifies the type of key change that has occurred.
 
-
-
-##### localKey
+### -field leafsetKeyChange.localKey
 
 Specifies the local key associated with the leaf set that has changed.
 
-
-
-##### remoteKey
+### -field leafsetKeyChange.remoteKey
 
 Specifies the remote key that changed.
 
-
-
-#### registrationStateChange
+### -field registrationStateChange
 
 This structure appears when the event has been raised to signal a change in a local key registration; the <b>type</b>  field of the <b>DRT_EVENT_DATA</b> structure is set to DRT_EVENT_REGISTRATION_STATE_CHANGED.
 
-
-
-##### state
+### -field registrationStateChange.state
 
 Specifies the type of registration state change that has occurred.
 
-
-
-##### localKey
+### -field registrationStateChange.localKey
 
 Specifies the local key associated with the registration that has changed.
 
-
-
-#### statusChange
+### -field statusChange
 
 This structure appears when the event has been raised to signal a state change in the local DRT instance; the <b>type</b> field of the <b>DRT_EVENT_DATA</b> structure is set to DRT_EVENT_STATUS_CHANGED.
 
-
-
-##### status
+### -field statusChange.status
 
 Contains the current <a href="https://docs.microsoft.com/windows/desktop/api/drt/ne-drt-drt_status">DRT_STATUS</a> of the  local DRT instance.
 
-
-
-##### bootstrapAddresses
+### -field statusChange.bootstrapAddresses
 
 This structure contains the addresses returned by the bootstrap provider when the DRT attempts to join the mesh. This structure is completed only when the DRT transitions to the DRT_ALONE state. The contents of this structure can be used to diagnose connectivity issues between the local DRT instance and other nodes already present in the mesh.
 
-
-
-###### cntAddress
+### -field statusChange.bootstrapAddresses.cntAddress
 
 Contains the number of addresses in <b>pAddresses</b>.
 
-
-
-###### pAddresses
+### -field statusChange.bootstrapAddresses.pAddresses
 
 Contains an array of addresses returned by the bootstrap provider.
-
+ 
 ## -see-also
 
 <a href="https://docs.microsoft.com/windows/desktop/api/drt/ne-drt-drt_event_type">DRT_EVENT_TYPE</a>
