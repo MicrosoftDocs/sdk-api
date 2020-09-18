@@ -398,7 +398,7 @@ A value that specifies if the IP interface support neighbor discovery.
 
 Type: <b>BOOLEAN</b>
 
-A value that specifies if the IP interface support neighbor discovery.
+A value that specifies if the IP interface support router discovery.
 
 ### -field ReachableTime
 
