@@ -45,9 +45,6 @@ api_name:
  - BoundingSphere
 ---
 
-# BoundingSphere structure
-
-
 ## -description
 
 A bounding sphere object.
@@ -61,58 +58,6 @@ The center of the <b>BoundingSphere</b>.
 ### -field Radius
 
 The radius of the <b>BoundingSphere</b>.
-
-### -field operator=
-
-TBD
-
-### -field BoundingSphere
-
-Creates an instance of the **BoundingSphere** class.
-
-### -field Transform
-
-Transforms the <b>BoundingSphere</b>
-
-### -field Contains
-
-Tests whether the <b>BoundingSphere</b> contains a specified object.
-
-### -field Intersects
-
-Tests the <b>BoundingSphere</b> for intersection with an object.
-
-### -field ContainedBy
-
-Tests whether the <b>BoundingSphere</b> is contained by the specified frustum.
-
-### -field CreateMerged
-
-Creates a <b>BoundingSphere</b> that contains the two specified <b>BoundingSphere</b> objects.
-
-### -field CreateFromBoundingBox
-
-Creates a <b>BoundingSphere</b> containing the specified [BoundingBox](/windows/win32/api/directxcollision/ns-directxcollision-boundingbox).
-
-### -field CreateFromPoints
-
-Creates a new <b>BoundingSphere</b> from a list of points.
-
-### -field CreateFromFrustum
-
-TBD 
-
-
-
-
-##### - DirectX.BoundingSphere
-
-Creates an instance of the <b>BoundingSphere</b> class.
-
-
-#### - op_Assignment
-
-Initializes the <b>BoundingSphere</b> with values from a specified <b>BoundingSphere</b>
 
 ## -remarks
 

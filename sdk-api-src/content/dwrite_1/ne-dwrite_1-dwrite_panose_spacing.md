@@ -45,9 +45,6 @@ api_name:
  - DWRITE_PANOSE_SPACING
 ---
 
-# DWRITE_PANOSE_SPACING enumeration
-
-
 ## -description
 
 The <b>DWRITE_PANOSE_SPACING</b> enumeration contains values that specify character spacing (monospace versus proportional).
@@ -67,8 +64,6 @@ No fit for spacing.
 Spacing is proportional.
 
 ### -field DWRITE_PANOSE_SPACING_MONOSPACED
-
-#### - DWRITE_PANOSE_SPACING_
 
 Spacing is monospace.
 

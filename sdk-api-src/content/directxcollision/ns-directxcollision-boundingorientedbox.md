@@ -45,9 +45,6 @@ api_name:
  - BoundingOrientedBox
 ---
 
-# BoundingOrientedBox structure
-
-
 ## -description
 
 An oriented bounding box object.
@@ -69,47 +66,6 @@ The extents of the <b>BoundingOrientedBox</b>.
 ### -field Orientation
 
 The orientation of the <b>BoundingOrientedBox</b> represented as a quaternion.
-
-### -field operator=
-
-TBD
-
-### -field BoundingOrientedBox
-
-Creates an instance of <b>BoundingOrientedBox</b>.
-
-### -field Transform
-
-Transforms the <b>BoundingOrientedBox</b>.
-
-### -field GetCorners
-
-Retrieves the corners of the <b>BoundingOrientedBox</b>.
-
-### -field Contains
-
-Tests whether the <b>BoundingOrientedBox</b> contains another object.
-
-### -field Intersects
-
-Tests the <b>BoundingOrientedBox</b> for intersection with another object.
-
-### -field ContainedBy
-
-Tests whether the <b>BoundingOrientedBox</b> is contained by a frustum.
-
-### -field CreateFromBoundingBox
-
-Creates a <b>BoundingOrientedBox</b> from a [BoundingBox](/windows/win32/api/directxcollision/ns-directxcollision-boundingbox).
-
-### -field CreateFromPoints
-
-Creates a <b>BoundingOrientedBox</b> from a collection of points.
-
-
-#### - op_Assignment
-
-Copies values from another <b>BoundingOrientedBox</b>.
 
 ## -remarks
 

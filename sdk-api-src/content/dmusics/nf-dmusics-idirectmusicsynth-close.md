@@ -45,14 +45,9 @@ api_name:
  - IDirectMusicSynth.Close
 ---
 
-# IDirectMusicSynth::Close
-
-
 ## -description
 
 The <code>Close</code> method closes a DirectMusic "port", which is a DirectMusic term for a device that sends or receives music data.
-
-## -parameters
 
 ## -returns
 

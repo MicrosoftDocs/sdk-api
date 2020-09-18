@@ -47,9 +47,6 @@ api_name:
  - AM_DVDCOPY_TITLEKEY
 ---
 
-# AM_DVDCOPY_TITLEKEY structure
-
-
 ## -description
 
 Specifies the DVD title key from the current content.
@@ -60,23 +57,14 @@ Specifies the DVD title key from the current content.
 
 Key flags.
 
-### -field Reserved1
-
 ### -field TitleKey
 
 Title key.
 
-### -field Reserved2
-
- 
-
-
-
-
-#### - Reserved
+### -field Reserved
 
 Reserved.
-
+ 
 ## -remarks
 
 The AM_PROPERTY_DVDCOPY_TITLE_KEY property uses this structure.

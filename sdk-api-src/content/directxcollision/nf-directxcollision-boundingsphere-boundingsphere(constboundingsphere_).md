@@ -44,25 +44,15 @@ api_name:
  - BoundingSphere.DirectX.BoundingSphere
 ---
 
-# BoundingSphere::BoundingSphere(const BoundingSphere &)
-
-
 ## -description
 
 Creates an instance of the BoundingSphere class.
 
 ## -parameters
 
-### -param arg1
+### -param arg1 [in, ref]
 
-TBD
-
-
-
-
-#### - sp [in, ref]
-
-The BoundingSphere to use to initialize the new BoundingSphere.
+The BoundingSphere to use to initialize this BoundingSphere.
 
 ## -remarks
 

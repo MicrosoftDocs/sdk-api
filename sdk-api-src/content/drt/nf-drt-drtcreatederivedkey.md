@@ -45,9 +45,6 @@ api_name:
  - DrtCreateDerivedKey
 ---
 
-# DrtCreateDerivedKey function
-
-
 ## -description
 
 The <b>DrtCreateDerivedKey</b> function creates a key that can be utilized by <a href="https://docs.microsoft.com/windows/desktop/api/drt/nf-drt-drtregisterkey">DrtRegisterKey</a> when the DRT is using a derived key security provider.
@@ -61,11 +58,6 @@ Pointer to the certificate that is the "local" portion of the chain.  The root o
 ### -param pKey [out]
 
 Pointer to the created key.
-
-
-#### - pRootCert [in]
-
-Pointer to the certificate that is the "root" portion of the chain. The local cert must be signed by a chain of certificates including the root cert.  This root cert will be used to verify certificates presented by other members of the mesh.
 
 ## -returns
 

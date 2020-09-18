@@ -45,25 +45,17 @@ api_name:
  - XMDEC4.operator =
 ---
 
-# XMDEC4::operator uint32_t
-
-
 ## -description
 
 Assigns the vector component data packed in an instance of <code>uint32_t</code> to the current
 	instance of <code>XMDEC4</code>.
     
-
 This operator assigns the vector component data packed in an instance of <code>uint32_t</code> to
 	the current instance of <a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmdec4">XMDEC4</a>.
 <div class="alert"><b>Note</b>  This operator is only available under C++.
     </div><div> </div>
 
 ## -parameters
-
-#### - Packed
-
-The values of four vector components in a packed format.
 
 ## -returns
 

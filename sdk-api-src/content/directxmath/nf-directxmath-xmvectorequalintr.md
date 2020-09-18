@@ -45,9 +45,6 @@ api_name:
  - XMVectorEqualIntR
 ---
 
-# XMVectorEqualIntR function
-
-
 ## -description
 
 Performs a per-component test for equality of two vectors, treating each component as an unsigned integer. In addition, this function sets a comparison value that can be examined using functions such as <a href="https://docs.microsoft.com/windows/desktop/api/directxmath/nf-directxmath-xmcomparisonalltrue">XMComparisonAllTrue</a>.
@@ -60,16 +57,11 @@ Pointer to a <b>uint32_t</b> comparison value that can be examined using functio
 
 ### -param V
 
-TBD
+First vector to compare.
 
 ### -param V2 [in]
 
 Second vector to compare.
-
-
-#### - V1 [in]
-
-First vector to compare.
 
 ## -returns
 

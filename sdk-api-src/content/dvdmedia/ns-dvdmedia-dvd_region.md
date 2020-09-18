@@ -49,9 +49,6 @@ api_name:
  - DVD_REGION
 ---
 
-# DVD_REGION structure
-
-
 ## -description
 
 Identifies the DVD region as reported by the local system components.
@@ -71,13 +68,6 @@ Contains information about the region from the decoder.
 Contains information about region from DVD drive.
 
 ### -field ResetCount
-
- 
-
-
-
-
-#### - Reserved
 
 Reserved.
 

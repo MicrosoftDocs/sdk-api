@@ -49,9 +49,6 @@ api_name:
  - DRT_SETTINGS
 ---
 
-# DRT_SETTINGS structure
-
-
 ## -description
 
 The <b>DRT_SETTINGS</b> structure contains the settings utilized by the local Distributed Routing Table.
@@ -93,13 +90,11 @@ Pointer to the security provider specified for use. An instance of the Derived K
 
 ### -field pBootstrapProvider
 
+Pointer to the Bootstrap Provider specified for use. An instance of the PNRP Bootstrap Provider can be obtained by calling <a href="https://docs.microsoft.com/windows/desktop/api/drt/nf-drt-drtcreatepnrpbootstrapresolver">DrtCreatePnrpBootstrapResolver</a>.
+
 ### -field eSecurityMode
 
 Specifies the security mode that the DRT should operate under. All nodes participating in a DRT mesh must use the same security mode.
-
-### -field pBootStrapProvider
-
-Pointer to the Bootstrap Provider specified for use. An instance of the PNRP Bootstrap Provider can be obtained by calling <a href="https://docs.microsoft.com/windows/desktop/api/drt/nf-drt-drtcreatepnrpbootstrapresolver">DrtCreatePnrpBootstrapResolver</a>.
 
 ## -see-also
 

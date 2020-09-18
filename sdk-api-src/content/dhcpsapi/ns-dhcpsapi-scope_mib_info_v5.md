@@ -49,9 +49,6 @@ api_name:
  - SCOPE_MIB_INFO_V5
 ---
 
-# SCOPE_MIB_INFO_V5 structure
-
-
 ## -description
 
 The <b>SCOPE_MIB_INFO_V5</b> structure contains information about a specific DHCP scope.
@@ -64,6 +61,8 @@ The <b>SCOPE_MIB_INFO_V5</b> structure contains information about a specific DHC
 
 ### -field NumAddressesInuse
 
+The number of IP addresses in the scope that are currently assigned to DHCP clients.
+
 ### -field NumAddressesFree
 
 The number of IP addresses in the scope that are not currently  assigned to DHCP clients.
@@ -72,15 +71,8 @@ The number of IP addresses in the scope that are not currently  assigned to DHCP
 
 The number of IP addresses in the scope that have been offered to DHCP clients but have not yet received REQUEST messages.
 
-### -field NumAddressesInUse
-
-The number of IP addresses in the scope that are currently assigned to DHCP clients.
-
 ## -see-also
 
 <a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_mib_info_v5">DHCP_MIB_INFO_V5</a>
 
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpgetmibinfov5">DhcpGetMibInfoV5</a>
-

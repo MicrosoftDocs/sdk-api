@@ -45,16 +45,13 @@ api_name:
  - IDirectInputJoyConfig8.DeleteType
 ---
 
-# IDirectInputJoyConfig8::DeleteType
-
-
 ## -description
 
 The <b>IDirectInputJoyConfig8::DeleteType </b>method removes information about a joystick type. Use this method with caution; it is the caller's responsibility to ensure that no joystick refers to the deleted type.
 
 ## -parameters
 
-#### - pwszTypeName
+### -param arg1
 
 Points to the name of the type. The name of the type cannot exceed MAX_PATH characters, including the terminating null character. Also, the name cannot begin with a "#" character. Types beginning with "#" are reserved by DirectInput.
 

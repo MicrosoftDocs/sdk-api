@@ -49,9 +49,6 @@ api_name:
  - DRT_SEARCH_RESULT
 ---
 
-# DRT_SEARCH_RESULT structure
-
-
 ## -description
 
 The <b>DRT_SEARCH_RESULT</b> contains the registration entry and the type of match of the search result returned by <a href="https://docs.microsoft.com/windows/desktop/api/drt/nf-drt-drtgetsearchresult">DrtGetSearchResult</a> when the <i>hEvent</i> passed into  <a href="https://docs.microsoft.com/windows/desktop/api/drt/nf-drt-drtstartsearch">DrtStartSearch</a> is signaled.
@@ -73,11 +70,6 @@ Pointer to the context data passed to the <a href="https://docs.microsoft.com/wi
 ### -field registration
 
 Contains the registration result.
-
-
-#### - addressList
-
-The address that the DRT protocol is bound to on the node that corresponds to the search result. This structure can be used to debug connectivity issues between nodes.
 
 ## -see-also
 

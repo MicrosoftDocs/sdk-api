@@ -49,9 +49,6 @@ api_name:
  - DHCP_FAILOVER_STATISTICS
 ---
 
-# DHCP_FAILOVER_STATISTICS structure
-
-
 ## -description
 
 The <b>DHCP_FAILOVER_STATISTICS</b> structure defines DHCP server scope statistics that are part of a failover relationship.
@@ -60,47 +57,32 @@ The <b>DHCP_FAILOVER_STATISTICS</b> structure defines DHCP server scope statisti
 
 ### -field NumAddr
 
+Value that specifies the total number of addresses in a DHCPv4 scope that are part of a failover relationship.
+
 ### -field AddrFree
-
-### -field AddrInUse
-
-### -field PartnerAddrFree
-
-### -field ThisAddrFree
-
-### -field PartnerAddrInUse
-
-### -field ThisAddrInUse
-
-### -field addrFree
 
 Value that specifies the total number of free IPv4 addresses that can be leased out to clients in a DHCPv4 scope that are part of a failover relationship.
 
-### -field addrInUse
+### -field AddrInUse
 
 Value that specifies the total number of IPv4 addresses that are leased out to clients in a DHCPv4 scope that are part of a failover relationship.
 
-### -field numAddr
-
-Value that specifies the total number of addresses in a DHCPv4 scope that are part of a failover relationship.
-
-### -field partnerAddrFree
+### -field PartnerAddrFree
 
 Value that specifies the number of free IPv4 addresses on the partner server that can be leased out to clients in a DHCPv4 scope that are part of a failover relationship.
 
-### -field partnerAddrInUse
-
-Value that specifies the number of IPv4 addresses on the partner server that are leased out to clients in a DHCPv4 scope that are part of a failover relationship.
-
-### -field thisAddrFree
+### -field ThisAddrFree
 
 Value that specifies the number of free IPv4 addresses on the local server that can be leased out to clients in a DHCPv4 scope that are part of a failover relationship.
 
-### -field thisAddrInUse
+### -field PartnerAddrInUse
+
+Value that specifies the number of IPv4 addresses on the partner server that are leased out to clients in a DHCPv4 scope that are part of a failover relationship.
+
+### -field ThisAddrInUse
 
 Value that specifies the number of IPv4 addresses on the local server that are leased out to clients in a DHCPv4 scope that are part of a failover relationship.
 
 ## -see-also
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpv4failovergetscopestatistics">DhcpV4FailoverGetScopeStatistics</a>
-

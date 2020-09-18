@@ -68,45 +68,24 @@ Integer that specifies the number of elements in <b>Options</b>.
 
 ### -field PolicyName
 
+Pointer to a null-terminated Unicode string that represents the DHCP server policy name for the option set. <b>NULL</b> if none exists.
+
 ### -field VendorName
+
+Pointer to a null-terminated Unicode string that represents the vendor name  for the option set. <b>NULL</b> if none exists.
 
 ### -field IsVendor
 
+<b>TRUE</b> if the option set is vendor-specific. Otherwise, it is <b>FALSE</b>.
+
 ### -field OptionsArray
 
-### -field size_is
-
-### -field size_is.NumElements
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_option_value_array">DHCP_OPTION_VALUE_ARRAY</a> structure that contains the set of all option values for the specified vendor/policy pair.
 
 ### -field Options
 
 Pointer to an array of structures that contain the set of all option values for specific vendor/policy pairs. There is one element per pair.
 
-
-
-#### PolicyName
-
-Pointer to a null-terminated Unicode string that represents the DHCP server policy name for the option set. <b>NULL</b> if none exists.
-
-
-
-#### VendorName
-
-Pointer to a null-terminated Unicode string that represents the vendor name  for the option set. <b>NULL</b> if none exists.
-
-
-
-#### IsVendor
-
-<b>TRUE</b> if the option set is vendor-specific. Otherwise, it is <b>FALSE</b>.
-
-
-
-#### OptionsArray
-
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_option_value_array">DHCP_OPTION_VALUE_ARRAY</a> structure that contains the set of all option values for the specified vendor/policy pair.
-
 ## -see-also
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpv4getalloptionvalues">DhcpV4GetAllOptionValues</a>
-

@@ -49,9 +49,6 @@ api_name:
  - DHCP_ADDR_PATTERN
 ---
 
-# DHCP_ADDR_PATTERN structure
-
-
 ## -description
 
 The <b>DHCP_ADDR_PATTERN</b> structure contains the information regarding the link-layer address/pattern.
@@ -68,6 +65,8 @@ If <b>TRUE</b>, the hardware type member (<b>HWType</b>) will be matched; if <b>
 
 ### -field IsWildcard
 
+If <b>TRUE</b>, <b>Pattern</b> contains a wildcard pattern; if <b>FALSE</b>, <b>Pattern</b> contains a hardware address.
+
 ### -field Length
 
 8-bit integer value that contains the length of the pattern, in bytes.
@@ -75,8 +74,3 @@ If <b>TRUE</b>, the hardware type member (<b>HWType</b>) will be matched; if <b>
 ### -field Pattern
 
 Array of BYTE values that contain the pattern or hardware address.
-
-### -field IsWildCard
-
-If <b>TRUE</b>, <b>Pattern</b> contains a wildcard pattern; if <b>FALSE</b>, <b>Pattern</b> contains a hardware address.
-

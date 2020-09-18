@@ -45,16 +45,13 @@ api_name:
  - IDirectDrawSurface7.GetLOD
 ---
 
-# IDirectDrawSurface7::GetLOD
-
-
 ## -description
 
 Retrieves the maximum level of detail (LOD) currently set for a managed mipmap surface. This method succeeds only on managed textures.
 
 ## -parameters
 
-#### - lpdwMaxLOD [out]
+### -param arg1 [out]
 
 A pointer to a variable that receives the maximum LOD value if the call succeeds.
 
