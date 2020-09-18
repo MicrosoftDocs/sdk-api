@@ -81,6 +81,10 @@ The client network address is reported by the RDP client itself when it connects
     cannot be discovered, the client can report the only IP address it has, which may be the ISP assigned address. 
     Because the address may not be the actual network address, it should not be used as a form of client 
     authentication.
+    
+    The ClientAddress is also not available in the following cases:
+    - If the connection is established through a Remote Desktop Gateway
+    - If the connection is originated by the "Microsoft Remote Desktop" Store App
 
 ## -see-also
 
