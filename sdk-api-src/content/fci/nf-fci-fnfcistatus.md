@@ -45,9 +45,6 @@ api_name:
  - FNFCISTATUS
 ---
 
-# FNFCISTATUS macro
-
-
 ## -description
 
 The <b>FNFCISTATUS</b> macro provides the declaration for the application-defined callback function to update the user.
@@ -83,74 +80,6 @@ Indicates the type of status update. Possible values include:
 </tr>
 </table>
  
-
-
-#### - cb1
-
-Indicates a status specific value. Possible values include:
-
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td>statusFile0x00
-
-</td>
-<td>Size of the compressed block.</td>
-</tr>
-<tr>
-<td>statusFolder0x01
-
-</td>
-<td>Amount of a folder copied to a cabinet thus far.</td>
-</tr>
-<tr>
-<td>statusCabinet0x02
-
-</td>
-<td>Estimated cabinet size.</td>
-</tr>
-</table>
- 
-
-
-#### - cb2
-
-Specifies a status specific value. Possible values include:
-
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td>statusFile0x00
-
-</td>
-<td>Size of the uncompressed block.</td>
-</tr>
-<tr>
-<td>statusFolder0x01
-
-</td>
-<td>Total size of the folder.</td>
-</tr>
-<tr>
-<td>statusCabinet0x02
-
-</td>
-<td>Actual cabinet size.</td>
-</tr>
-</table>
- 
-
-
-#### - pv
-
-Pointer to an application-defined value.
-
 ## -remarks
 
 If  <i>typeStatus</i> equals <b>statusCabinet</b> the returned value indicates the desired size for the cabinet file.  FCI updates the maximum cabinet size remaining using this returned value. This allows a client to generate multiple cabinets per disk, and have FCI limit the size accordingly.

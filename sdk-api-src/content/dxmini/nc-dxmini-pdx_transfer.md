@@ -45,9 +45,6 @@ api_name:
  - DxTransfer
 ---
 
-# PDX_TRANSFER callback function
-
-
 ## -description
 
 The<i> DxTransfer</i> callback function informs the driver to bus master data from a surface to the buffer specified in the memory descriptor list (MDL).
@@ -55,23 +52,12 @@ The<i> DxTransfer</i> callback function informs the driver to bus master data fr
 ## -parameters
 
 ### -param Arg1
-
-### -param Arg2
-
-### -param Arg3
-
-#### - HwDeviceExtension
-
 Points to the miniport driver's device extension.
 
-
-#### - TransferInInfo
-
+### -param Arg2
 Points to a <a href="/windows/desktop/api/dxmini/ns-dxmini-ddtransferininfo">DDTRANSFERININFO</a> structure that contains the transfer information for the surface.
 
-
-#### - TransferOutInfo
-
+### -param Arg3
 Points to a <a href="/windows/desktop/api/dxmini/ns-dxmini-ddtransferoutinfo">DDTRANSFEROUTINFO</a> structure that contains the polarity of the field being captured.
 
 ## -returns
@@ -84,8 +70,7 @@ The MDL is defined in <a href="/windows-hardware/drivers/">WDM</a> documentation
 
 As shown in the following code sample, the video miniport driver can use the pointer to the MDL in the <b>lpDestMDL</b> member of the DDTRANSFERININFO structure at the <i>TransferInInfo</i> parameter to bus master data to the physical memory pages that make up a scattered buffer:
 
-
-```
+```cpp
 DWORD 
 DxTransfer(
     DEVICE_EXT *pDeviceExt, 
@@ -114,7 +99,6 @@ DxTransfer(
 }
 ```
 
-
 See the <a href="/windows-hardware/drivers/kernel/mm-bad-pointer">ADDRESS_AND_SIZE_TO_SPAN_PAGES</a>, <a href="/windows-hardware/drivers/ddi/content/wdm/nf-wdm-mmgetmdlbytecount">MmGetMdlByteCount</a>, <a href="/windows-hardware/drivers/kernel/mm-bad-pointer">MmGetMdlPfnArray</a>, and <a href="/windows-hardware/drivers/kernel/mm-bad-pointer">MmGetMdlVirtualAddress</a> kernel-mode macros for more information.
 
 <i>DxTransfer</i> is called at hardware interrupt time. This means the driver cannot wait for a previous bus master to complete and it cannot call any functions that are not safe to call at interrupt time (that is, most of them).
@@ -125,22 +109,12 @@ In addition, the driver should not fail the call just because the hardware is cu
 
 <a href="/windows-hardware/drivers/kernel/mm-bad-pointer">ADDRESS_AND_SIZE_TO_SPAN_PAGES</a>
 
-
-
 <a href="/windows/desktop/api/dxmini/ns-dxmini-ddtransferininfo">DDTRANSFERININFO</a>
-
-
 
 <a href="/windows/desktop/api/dxmini/ns-dxmini-ddtransferoutinfo">DDTRANSFEROUTINFO</a>
 
-
-
 <a href="/windows-hardware/drivers/ddi/content/wdm/nf-wdm-mmgetmdlbytecount">MmGetMdlByteCount</a>
 
-
-
 <a href="/windows-hardware/drivers/kernel/mm-bad-pointer">MmGetMdlPfnArray</a>
-
-
 
 <a href="/windows-hardware/drivers/kernel/mm-bad-pointer">MmGetMdlVirtualAddress</a>

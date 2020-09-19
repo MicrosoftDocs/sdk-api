@@ -49,9 +49,6 @@ api_name:
  - FAX_SEND
 ---
 
-# FAX_SEND structure
-
-
 ## -description
 
 The <b>FAX_SEND</b> structure contains information about an outbound fax document. The structure contains the name of the file that holds the fax data stream, the name and telephone number of the calling device, and the name and telephone number of the receiving device.
@@ -94,8 +91,6 @@ Type: <b>LPWSTR</b>
 
 Pointer to a null-terminated Unicode character string that specifies the telephone number of the device that will receive the outbound fax document. This is the telephone number that the FSP will dial.
 
-
-
 If you specify the <b>CallHandle</b> member, the <b>ReceiverNumber</b> member must be <b>NULL</b>.
 
 ### -field Branding
@@ -110,7 +105,7 @@ Type: <b>HCALL</b>
 
 Reserved; must be set to <b>NULL</b>.
 
-### -field Reserved [3]
+### -field Reserved
 
 Type: <b>DWORD</b>
 
@@ -126,18 +121,10 @@ The FSP can also use the reformatted data to add a brand to the fax transmission
 
 <a href="/windows/desktop/api/faxdev/ns-faxdev-fax_dev_status">FAX_DEV_STATUS</a>
 
-
-
 <a href="/previous-versions/windows/desktop/fax/-mfax-fax-service-provider-structures">Fax Service Provider Structures</a>
-
-
 
 <a href="/previous-versions/windows/desktop/api/faxdev/nf-faxdev-faxdevsend">FaxDevSend</a>
 
-
-
 <a href="/windows/desktop/Tapi/line-callstate">LINE_CALLSTATE</a>
-
-
 
 <a href="/previous-versions/windows/desktop/fax/-mfax-using-the-fax-service-provider-api">Using the Fax Service Provider API</a>

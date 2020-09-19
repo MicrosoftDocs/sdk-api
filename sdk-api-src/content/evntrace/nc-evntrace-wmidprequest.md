@@ -45,13 +45,9 @@ api_name:
  - ControlCallback
 ---
 
-# WMIDPREQUEST callback function
-
-
 ## -description
 
 Providers implement this function to receive enable or disable notification requests from controllers. 
-			
 
 The <b>WMIDPREQUEST</b> type defines a pointer to this callback function. <b>ControlCallback</b> is a placeholder for the application-defined function name.
 
@@ -60,8 +56,6 @@ The <b>WMIDPREQUEST</b> type defines a pointer to this callback function. <b>Con
 ### -param RequestCode [in]
 
 Request code. Specify one of the following values. 
-
-
 
 <table>
 <tr>
@@ -92,23 +86,17 @@ Disables the provider.
 
 ### -param RequestContext
 
-### -param *BufferSize
+Provider-defined context. The provider uses the <i>RequestContext</i> parameter of  
+<a href="/windows/desktop/ETW/registertraceguids">RegisterTraceGuids</a> to specify the context.
+
+### -param BufferSize
+
+Reserved for internal use.
 
 ### -param Buffer [in]
 
 Pointer to a 
 <a href="/windows/desktop/ETW/wnode-header">WNODE_HEADER</a> structure that contains information about the event tracing session for which the provider is being enabled or disabled.
-
-
-#### - Context [in]
-
-Provider-defined context. The provider uses the <i>RequestContext</i> parameter of  
-<a href="/windows/desktop/ETW/registertraceguids">RegisterTraceGuids</a> to specify the context.
-
-
-#### - Reserved [in]
-
-Reserved for internal use.
 
 ## -returns
 
@@ -129,7 +117,7 @@ You also need to retrieve the session handle in this callback for future calls. 
 Your callback function must not call anything that may incur LoadLibrary (more specifically, anything that requires a loader lock). 
 
 
-#### Examples
+## Examples
 
 For an example implementation of a 
 <b>ControlCallback</b> function, see 

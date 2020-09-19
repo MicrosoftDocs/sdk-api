@@ -45,9 +45,6 @@ api_name:
  - FNFCIGETNEXTCABINET
 ---
 
-# FNFCIGETNEXTCABINET macro
-
-
 ## -description
 
 The <b>FNFCIGETNEXTCABINET</b> macro provides the declaration for the application-defined callback function to request information for the next cabinet.
@@ -57,16 +54,6 @@ The <b>FNFCIGETNEXTCABINET</b> macro provides the declaration for the applicatio
 ### -param fn
 
 Pointer to a <a href="/windows/desktop/api/fci/ns-fci-ccab">CCAB</a> structure to provide the parameters for the creation of a new cabinet.
-
-
-#### - cbPrevCab
-
-Size, in bytes, of the previous cabinet.
-
-
-#### - pv
-
-Pointer to an application-defined value.
 
 ## -remarks
 

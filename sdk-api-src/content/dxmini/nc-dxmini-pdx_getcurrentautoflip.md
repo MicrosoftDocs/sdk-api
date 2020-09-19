@@ -45,9 +45,6 @@ api_name:
  - DxGetCurrentAutoflip
 ---
 
-# PDX_GETCURRENTAUTOFLIP callback function
-
-
 ## -description
 
 The<i> DxGetCurrentAutoflip</i> callback function is called when the device is hardware autoflipping and a client of the video miniport driver wants to know which surface is receiving the current field of video data for capture purposes.
@@ -55,24 +52,13 @@ The<i> DxGetCurrentAutoflip</i> callback function is called when the device is h
 ## -parameters
 
 ### -param Arg1
+Points to the miniport driver's device extension.
 
 ### -param Arg2
-
-### -param Arg3
-
-#### - GetCurrentAutoflipInInfo
-
 Points to the <a href="/windows/desktop/api/dxmini/ns-dxmini-ddgetcurrentautoflipininfo">DDGETCURRENTAUTOFLIPININFO</a> structure that contains the VPE object information.
 
-
-#### - GetCurrentAutoflipOutInfo
-
+### -param Arg3
 Points to the <a href="/windows/desktop/api/dxmini/ns-dxmini-ddgetcurrentautoflipoutinfo">DDGETCURRENTAUTOFLIPOUTINFO</a> structure that contains the surface information.
-
-
-#### - HwDeviceExtension
-
-Points to the miniport driver's device extension.
 
 ## -returns
 
@@ -85,7 +71,5 @@ The <i>DxGetCurrentAutoflip</i> function returns the current index in the autofl
 ## -see-also
 
 <a href="/windows/desktop/api/dxmini/ns-dxmini-ddgetcurrentautoflipininfo">DDGETCURRENTAUTOFLIPININFO</a>
-
-
 
 <a href="/windows/desktop/api/dxmini/ns-dxmini-ddgetcurrentautoflipoutinfo">DDGETCURRENTAUTOFLIPOUTINFO</a>

@@ -45,9 +45,6 @@ api_name:
  - FNFCIFILEPLACED
 ---
 
-# FNFCIFILEPLACED macro
-
-
 ## -description
 
 The <b>FNFCIFILEPLACED</b> macro provides the declaration for the application-defined callback function to notify when a file is placed in the cabinet.
@@ -57,23 +54,3 @@ The <b>FNFCIFILEPLACED</b> macro provides the declaration for the application-de
 ### -param fn
 
 Pointer to the <a href="/windows/desktop/api/fci/ns-fci-ccab">CCAB</a> structure containing the parameters of the cabinet on which the file has been stored.
-
-
-#### - cbFile
-
-The length of the file in bytes.
-
-
-#### - fContinuation
-
-A boolean value that is <b>TRUE</b> if the data added is a segment of a continued file.
-
-
-#### - pszFile [in]
-
-The name of the file in the cabinet.
-
-
-#### - pv
-
-Pointer to an application-defined value.

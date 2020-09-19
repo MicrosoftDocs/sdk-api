@@ -45,9 +45,6 @@ api_name:
  - FaxRouteMethod
 ---
 
-# PFAXROUTEMETHOD callback function
-
-
 ## -description
 
 The <b>FaxRouteMethod</b> function is a placeholder for a function name defined by the fax routing extension DLL. This function executes a defined fax routing procedure.
@@ -56,37 +53,29 @@ The fax routing extension DLL can export multiple fax routing methods. The fax r
 
 ## -parameters
 
-### -param *
-
 ### -param Arg1
 
-#### - FailureData [out]
+Type: <b>const <a href="https://msdn.microsoft.com/9cd01636-3b89-4b75-a3ef-317dd4b43c7a">FAX_ROUTE</a>*</b>
+
+Pointer to a <a href="https://msdn.microsoft.com/9cd01636-3b89-4b75-a3ef-317dd4b43c7a">FAX_ROUTE</a> structure that contains information about the received fax document.
+
+### -param Arg2
 
 Type: <b>PVOID*</b>
 
 Pointer to a variable that receives a pointer to a buffer that contains retry information for the fax routing method. This parameter can be equal to <b>NULL</b>. For more information, see the following Remarks section.
 
-
-#### - FailureDataSize [out]
+### -param Arg3
 
 Type: <b>LPDWORD</b>
 
 Pointer to an unsigned <b>DWORD</b> variable that receives the size, in bytes, of the buffer pointed to by the <i>FailureData</i> parameter.
-
-
-#### - FaxRoute [in]
-
-Type: <b>const <a href="https://msdn.microsoft.com/9cd01636-3b89-4b75-a3ef-317dd4b43c7a">FAX_ROUTE</a>*</b>
-
-Pointer to a <a href="https://msdn.microsoft.com/9cd01636-3b89-4b75-a3ef-317dd4b43c7a">FAX_ROUTE</a> structure that contains information about the received fax document.
 
 ## -returns
 
 Type: <b>BOOL</b>
 
 If the function succeeds, the return value is a nonzero value.
-
-                    
 
 If the function fails, the return value is zero. To get extended error information, the fax service calls <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>, described in MSDN.
 

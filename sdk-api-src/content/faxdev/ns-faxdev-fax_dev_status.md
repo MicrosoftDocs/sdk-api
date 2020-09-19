@@ -49,9 +49,6 @@ api_name:
  - FAX_DEV_STATUS
 ---
 
-# FAX_DEV_STATUS structure
-
-
 ## -description
 
 The <b>FAX_DEV_STATUS</b> structure contains status and identification information about an individual active fax operation.
@@ -69,8 +66,6 @@ Specifies the size, in bytes, of the <b>FAX_DEV_STATUS</b> structure. Before res
 Type: <b>DWORD</b>
 
 Specifies a fax status code or value. This can be a predefined fax status code (shown following), one of the TAPI <a href="/windows/desktop/Tapi/lineerr--constants">LINEERR_ Constants</a> error codes, or a value that the FSP defines. If the status identifier is provider-defined, the FSP must also supply a value for the <b>StringId</b> member. Following are the predefined fax status codes.
-
-
 
 <table class="clsStd">
 <tr>
@@ -146,9 +141,6 @@ Specifies a fax status code or value. This can be a predefined fax status code (
 <td>The FSP cannot complete the call because the telephone number is blocked or reserved, for example, a call to 911 or another emergency number. </td>
 </tr>
 </table>
- 
-
-
 
 The fax status codes FS_BAD_ADDRESS, FS_CALL_BLACKLISTED and FS_USER_ABORT will result in no retry attempts. The fax status code FS_LINE_UNAVAILABLE will result in an immediate retry attempt in the case when the line is unavailable because the service lost the connection to the device (TAPI sent LINE_CLOSE, and the FSP reported FS_LINE_UNAVAILABLE). The retry depends on whether the device is detected back online.  All other fax status codes will result in allowing the fax service to manage retry attempts.
 
@@ -184,28 +176,14 @@ Pointer to a null-terminated Unicode character string that identifies the callin
 Type: <b>LPWSTR</b>
 
 Pointer to a null-terminated Unicode character string that specifies the routing string for an inbound fax. The string must be of the form:
-				
-
-
 
 <code>Canonical-Phone-Number[|Additional-Routing-Info]</code>
 
-
-
 where <code>Canonical-Phone-Number</code> is defined in the <a href="/windows/desktop/Tapi/address-ovr">Address</a> topic of the TAPI documentation (see the Canonical Address subheading); and <code>Additional-Routing-Info</code> is the <i>subaddress</i> of a Canonical Address, and uses the subaddress format.
-				
-
-
 
 For DID routing, append the specific DID digits to the telephone number prefix. The DID address must be the canonical telephone number that corresponds to the fully qualified telephone number that the sender would have dialed. 
-                
-
-
 
 If there is additional routing information, for example, subaddressing or DTMF tones, separate it from the canonical telephone number by a vertical bar character as indicated in the TAPI specification. You can specify multiple recipients.
-                
-
-
 
 For more information, see the Dialable Address and Canonical Address subheadings in the Address topic of the TAPI documentation.
 
@@ -215,7 +193,7 @@ Type: <b>DWORD</b>
 
 Specifies one of the Win32 <a href="/windows/desktop/Debug/system-error-codes">System Error Codes [Base]</a> that the FSP should use to report an error that occurs. The FSP should set this value to NO_ERROR when it is running and after a fax job completes normally.
 
-### -field Reserved [3]
+### -field Reserved
 
 Type: <b>DWORD</b>
 
@@ -231,18 +209,10 @@ The fax service allocates the memory for the strings pointed to by the <b>CSI</b
 
 <a href="/previous-versions/windows/desktop/fax/-mfax-fax-service-provider-structures">Fax Service Provider Structures</a>
 
-
-
 <a href="/previous-versions/windows/desktop/api/faxdev/nf-faxdev-faxdevreceive">FaxDevReceive</a>
-
-
 
 <a href="/previous-versions/windows/desktop/api/faxdev/nf-faxdev-faxdevreportstatus">FaxDevReportStatus</a>
 
-
-
 <a href="/previous-versions/windows/desktop/api/faxdev/nf-faxdev-faxdevsend">FaxDevSend</a>
-
-
 
 <a href="/previous-versions/windows/desktop/fax/-mfax-using-the-fax-service-provider-api">Using the Fax Service Provider API</a>

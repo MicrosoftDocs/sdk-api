@@ -47,38 +47,26 @@ api_name:
  - EAP_ATTRIBUTE
 ---
 
-# EAP_ATTRIBUTE structure
-
-
 ## -description
 
- The <b>EAP_ATTRIBUTE</b> structure contains an EAP attribute.
+The <b>EAP_ATTRIBUTE</b> structure contains an EAP attribute.
 
 ## -struct-fields
 
 ### -field eaType
 
+An <a href="/windows/desktop/api/eaptypes/ne-eaptypes-eap_attribute_type">EAP_ATTRIBUTE_TYPE</a> enumeration value that describes the type of the EAP attribute value supplied in <b>pValue</b>.
+
 ### -field dwLength
 
 The size, in bytes, of <b>pValue</b>.
-
-### -field pValue.size_is
-
-### -field pValue.size_is.dwLength
 
 ### -field pValue
 
 Pointer to a byte buffer that contains the data value of the attribute.
 
-
-#### - eapType
-
-An <a href="/windows/desktop/api/eaptypes/ne-eaptypes-eap_attribute_type">EAP_ATTRIBUTE_TYPE</a> enumeration value that describes the type of the EAP attribute value supplied in <b>pValue</b>.
-
 ## -see-also
 
 [Common EAPHost API Structures](/windows/win32/eaphost/common-eap-host-api-structures)
-
-
 
 <a href="/windows/desktop/api/eaptypes/ns-eaptypes-eap_attributes">EAP_ATTRIBUTES</a>

@@ -45,32 +45,21 @@ api_name:
  - DxEnableIRQ
 ---
 
-# PDX_ENABLEIRQ callback function
-
-
 ## -description
 
-The<i> DxEnableIRQ</i> callback function indicates to the video miniport driver which IRQs should be enabled or disabled.
+The <i>DxEnableIRQ</i> callback function indicates to the video miniport driver which IRQs should be enabled or disabled.
 
 ## -parameters
 
 ### -param Arg1
 
+Points to the miniport driver's device extension.
+
 ### -param Arg2
-
-### -param Arg3
-
-#### - EnableIrqInfo
 
 Points to the <a href="/windows/desktop/api/dxmini/ns-dxmini-ddenableirqinfo">DDENABLEIRQINFO</a> structure that contains the information required to enable interrupts.
 
-
-#### - HwDeviceExtension
-
-Points to the miniport driver's device extension.
-
-
-#### - lpOutput
+### -param Arg3
 
 Reserved for system use.
 

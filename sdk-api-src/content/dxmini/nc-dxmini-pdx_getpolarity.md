@@ -45,9 +45,6 @@ api_name:
  - DxGetPolarity
 ---
 
-# PDX_GETPOLARITY callback function
-
-
 ## -description
 
 The<i> DxGetPolarity</i> callback function returns the polarity (even or odd) of the current field being written by the <a href="/windows-hardware/drivers/">video port extensions (VPE)</a> object.
@@ -56,23 +53,15 @@ The<i> DxGetPolarity</i> callback function returns the polarity (even or odd) of
 
 ### -param Arg1
 
+Points to the miniport driver's device extension.
+
 ### -param Arg2
-
-### -param Arg3
-
-#### - GetPolarityInInfo
 
 Points to a <a href="/windows/desktop/api/dxmini/ns-dxmini-ddgetpolarityininfo">DDGETPOLARITYININFO</a> structure that contains the VPE object from which to get the polarity information.
 
-
-#### - GetPolarityOutInfo
+### -param Arg3
 
 Points to a <a href="/windows/desktop/api/dxmini/ns-dxmini-ddgetpolarityoutinfo">DDGETPOLARITYOUTINFO</a> structure that contains the polarity information for the specified VPE object.
-
-
-#### - HwDeviceExtension
-
-Points to the miniport driver's device extension.
 
 ## -returns
 
@@ -85,7 +74,5 @@ The <a href="/windows/desktop/api/dxmini/ns-dxmini-ddgetpolarityininfo">DDGETPOL
 ## -see-also
 
 <a href="/windows/desktop/api/dxmini/ns-dxmini-ddgetpolarityininfo">DDGETPOLARITYININFO</a>
-
-
 
 <a href="/windows/desktop/api/dxmini/ns-dxmini-ddgetpolarityoutinfo">DDGETPOLARITYOUTINFO</a>

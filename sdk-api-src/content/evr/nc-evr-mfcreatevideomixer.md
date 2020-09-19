@@ -45,9 +45,6 @@ api_name:
  - MFCreateVideoMixer
 ---
 
-# MFCreateVideoMixer callback function
-
-
 ## -description
 
 Creates the default video mixer for the enhanced video renderer (EVR).
@@ -67,8 +64,6 @@ Interface identifier (IID) of the video device interface that will be used for p
 IID of the requested interface on the video mixer.  The video mixer exposes the <a href="/windows/desktop/api/mftransform/nn-mftransform-imftransform">IMFTransform</a> interface.
 
 ### -param ppv
-
-#### - ppVideoMixer
 
 Receives a pointer to the requested interface. The caller must release the interface.
 

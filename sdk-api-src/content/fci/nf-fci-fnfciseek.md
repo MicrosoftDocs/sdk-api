@@ -45,9 +45,6 @@ api_name:
  - FNFCISEEK
 ---
 
-# FNFCISEEK macro
-
-
 ## -description
 
 The <b>FNFCISEEK</b> macro provides the declaration for the application-defined callback function to move a file pointer to the specified location in an FCI context.
@@ -58,33 +55,11 @@ The <b>FNFCISEEK</b> macro provides the declaration for the application-defined 
 
 An application-defined value used to identify the open file.
 
-
-#### - dist
-
-The number of bytes to move the file pointer.
-
-
-#### - err
-
-Pointer to the error code value. This value will be used to provide extended error information in the <a href="/windows/desktop/api/fdi_fci_types/ns-fdi_fci_types-erf">ERF</a> structure used to create the FCI context.
-
-
-#### - pv
-
-Pointer to an application-defined value.
-
-
-#### - seektype
-
-The starting point for the file pointer to move.
-
 ## -remarks
 
 The function accepts parameters similar to <a href="https://msdn.microsoft.com/library/ms235323(VS.80).aspx">_lseek</a> with the addition to <i>err</i> and <i>pv</i>.
 
-
-#### Examples
-
+## Examples
 
 ```cpp
 FNFCISEEK(fnFileSeek)
@@ -102,7 +77,6 @@ FNFCISEEK(fnFileSeek)
 
     return iResult;
 }
-
 ```
 
 ## -see-also

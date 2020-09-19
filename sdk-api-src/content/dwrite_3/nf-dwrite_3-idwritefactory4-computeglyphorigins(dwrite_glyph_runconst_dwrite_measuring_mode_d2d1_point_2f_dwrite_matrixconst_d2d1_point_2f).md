@@ -46,9 +46,6 @@ api_name:
  - IDWriteFactory4.ComputeGlyphOrigins
 ---
 
-# IDWriteFactory4::ComputeGlyphOrigins(DWRITE_GLYPH_RUN const,DWRITE_MEASURING_MODE,D2D1_POINT_2F,DWRITE_MATRIX const,D2D1_POINT_2F)
-
-
 ## -description
 
 Converts glyph run placements to glyph origins.
@@ -61,29 +58,15 @@ Type: <b><a href="/windows/win32/api/dwrite/ns-dwrite-dwrite_glyph_run">DWRITE_G
 
 Structure containing the properties of the glyph run.
 
-### -param measuringMode
-
-Type: <b><a href="/windows/win32/api/dcommon/ne-dcommon-dwrite_measuring_mode">DWRITE_MEASURING_MODE</a></b>
-
-The measuring method for glyphs in the run, used with the other properties to determine the rendering mode.
-
 ### -param baselineOrigin
 
 Type: <b><a href="/windows/win32/Direct2D/d2d1-point-2f">D2D1_POINT_2F</a></b>
 
 The position of the baseline origin, in DIPs, relative to the upper-left corner of the DIB.
 
-### -param worldAndDpiTransform [in, optional]
+### -param glyphOrigins
 
-Type: <b><a href="/windows/win32/api/dwrite/ns-dwrite-dwrite_matrix">DWRITE_MATRIX</a></b>
-
-World transform multiplied by any DPI scaling. 
-          This is needed to compute glyph positions if the run contains color glyphs and the measuring mode is not <a href="/windows/win32/api/dcommon/ne-dcommon-dwrite_measuring_mode">DWRITE_MEASURING_MODE_NATURAL</a>. 
-          If this parameter is NULL, and identity transform is assumed.
-
-### -param glyphOrigins [out]
-
-Type: <b><a href="/windows/win32/Direct2D/d2d1-point-2f">D2D1_POINT_2F</a>*</b>
+Type: [out] <b><a href="/windows/win32/Direct2D/d2d1-point-2f">D2D1_POINT_2F</a>*</b>
 
 On return contains the glyph origins for the glyphrun.
 

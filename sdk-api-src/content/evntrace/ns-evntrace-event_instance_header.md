@@ -49,13 +49,9 @@ api_name:
  - EVENT_INSTANCE_HEADER
 ---
 
-# EVENT_INSTANCE_HEADER structure
-
-
 ## -description
 
-The 
-<b>EVENT_INSTANCE_HEADER</b> structure contains standard event tracing information common to all events. The structure also contains registration handles for the event trace class and related parent event, which you use to trace instances of a transaction or hierarchical relationships between related events.
+The <b>EVENT_INSTANCE_HEADER</b> structure contains standard event tracing information common to all events. The structure also contains registration handles for the event trace class and related parent event, which you use to trace instances of a transaction or hierarchical relationships between related events.
 
 ## -struct-fields
 
@@ -66,11 +62,15 @@ Total number of bytes of the event. <b>Size</b> must include the size of the
 
 ### -field DUMMYUNIONNAME
 
+A union of various structures and members.
+
 ### -field DUMMYUNIONNAME.FieldTypeFlags
 
 Reserved.
 
 ### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME
+
+Reserved.
 
 ### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME.HeaderType
 
@@ -82,11 +82,15 @@ Reserved.
 
 ### -field DUMMYUNIONNAME2
 
+A union of Class in two forms.
+
 ### -field DUMMYUNIONNAME2.Version
 
 This is a roll-up of the members of <b>Class</b>. The low-order byte contains the Type, the next byte contains the Level, and the last two bytes contain the version.
 
 ### -field DUMMYUNIONNAME2.Class
+
+The Class structure.
 
 ### -field DUMMYUNIONNAME2.Class.Type
 
@@ -188,7 +192,6 @@ Start event. Use to trace the initial state of a multi-step event.
 </td>
 </tr>
 </table>
- 
 
 If your event trace class GUID supports multiple event types, consumers will use the event type to determine the event and how to interpret its contents.
 
@@ -268,9 +271,6 @@ Indicates the version of the event trace class that you are using to log the eve
 
 On output, identifies the thread that generated the event. 
 
-
-
-
 Note that on Windows 2000, <b>ThreadId</b> was a <b>ULONGLONG</b> value.
 
 ### -field ProcessId
@@ -300,7 +300,11 @@ On output, contains the event trace instance identifier associated with <b>Paren
 
 ### -field DUMMYUNIONNAME3
 
+A union of structs and members.
+
 ### -field DUMMYUNIONNAME3.DUMMYSTRUCTNAME
+
+A structure containing the following members.
 
 ### -field DUMMYUNIONNAME3.DUMMYSTRUCTNAME.KernelTime
 
@@ -316,7 +320,11 @@ For private sessions, the elapsed execution time for user-mode instructions, in 
 
 ### -field DUMMYUNIONNAME3.DUMMYSTRUCTNAME2
 
+A union of structs and members.
+
 ### -field DUMMYUNIONNAME3.DUMMYSTRUCTNAME2.EventId
+
+The event identifier.
 
 ### -field DUMMYUNIONNAME3.DUMMYSTRUCTNAME2.Flags
 

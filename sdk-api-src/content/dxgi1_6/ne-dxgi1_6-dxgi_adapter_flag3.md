@@ -45,9 +45,6 @@ api_name:
  - DXGI_ADAPTER_FLAG3
 ---
 
-# DXGI_ADAPTER_FLAG3 enumeration
-
-
 ## -description
 
 Identifies the type of DXGI adapter.
@@ -89,10 +86,7 @@ Specifies that the adapter claims keyed mutex conformance. This signals a strong
 
 ### -field DXGI_ADAPTER_FLAG3_FORCE_DWORD
 
-#### - DXGI_ADAPTER_FLAG_FORCE_DWORD
-
-Forces this enumeration to compile to 32 bits in size. Without this value, some compilers would allow this enumeration to compile 
-            to a size other than 32 bits. This value is not used.
+Forces this enumeration to compile to 32 bits in size. Without this value, some compilers would allow this enumeration to compile to a size other than 32 bits. This value is not used.
 
 ## -remarks
 

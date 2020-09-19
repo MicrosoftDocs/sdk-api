@@ -45,9 +45,6 @@ api_name:
  - DXGI_OUTPUT_DESC1
 ---
 
-# DXGI_OUTPUT_DESC1 structure
-
-
 ## -description
 
 Describes an output or physical connection between the adapter (video card) and a device, including additional information about color capabilities and connection type.
@@ -146,13 +143,6 @@ Type: <b>FLOAT</b>
 The maximum luminance, in nits, that the display attached to this output is capable of rendering; unlike MaxLuminance, this value is valid for a color that fills the entire area of the
 	  panel. Content should not exceed this value across the entire panel for optimal rendering. This value will usually come from the EDID of the corresponding display or sometimes from an
 	  override.
-
-
-#### - InternalOutput
-
-Type: <b>BOOL</b>
-
-True if this output is attached to an internal/integrated display panel; otherwise, false.
 
 ## -remarks
 

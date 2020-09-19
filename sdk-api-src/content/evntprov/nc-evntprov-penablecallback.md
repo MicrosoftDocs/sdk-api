@@ -45,13 +45,9 @@ api_name:
  - PENABLECALLBACK
 ---
 
-# PENABLECALLBACK callback function
-
-
 ## -description
 
 Providers implement this function to receive enable or disable notification requests. 
-			
 
 The <b>PENABLECALLBACK</b> type defines a pointer to this callback function. <b>EnableCallback</b> is a placeholder for the application-defined function name.
 
@@ -124,6 +120,11 @@ This value is passed in the <i>MatchAnyKeyword</i> parameter of the
 
 ### -param MatchAllKeyword
 
+This bitmask is optional. This mask further restricts the category of  events that the provider writes. 
+
+This value is passed in the <i>MatchAllKeywords</i> parameter of the 
+<a href="/windows/desktop/ETW/enabletraceex-func">EnableTraceEx</a> function.
+
 ### -param FilterData [in, optional]
 
 A list of filter data that one or more sessions passed to the provider. A session can specify only one filter but the list will contain filters from all sessions that used filter data to enable the provider.
@@ -133,14 +134,6 @@ The filter data is valid only within the callback, so providers should make a lo
 ### -param CallbackContext [in, optional]
 
 Context of the callback defined when the provider called <a href="/windows/desktop/api/evntprov/nf-evntprov-eventregister">EventRegister</a> to register itself.
-
-
-#### - MatchAllKeywords [in]
-
-This bitmask is optional. This mask further restricts the category of  events that the provider writes. 
-
-This value is passed in the <i>MatchAllKeywords</i> parameter of the 
-<a href="/windows/desktop/ETW/enabletraceex-func">EnableTraceEx</a> function.
 
 ## -remarks
 

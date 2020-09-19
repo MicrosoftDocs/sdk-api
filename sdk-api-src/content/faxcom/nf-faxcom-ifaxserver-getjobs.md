@@ -46,20 +46,13 @@ api_name:
  - IFaxServer.GetJobs
 ---
 
-# IFaxServer::GetJobs
-
-
 ## -description
 
 The <b>GetJobs</b> method creates and initializes a <a href="/previous-versions/windows/desktop/fax/-mfax-faxjobs-object-visual-basic-">FaxJobs</a> object for a specified <a href="/previous-versions/windows/desktop/fax/-mfax-faxserver-client">FaxServer</a> object. The <a href="/previous-versions/windows/desktop/fax/-mfax-faxjobs">FaxJobs</a> object allows enumeration of the current queued jobs for the connected fax server.
 
 ## -parameters
 
-### -param retval
-
-TBD
-
-### -param retVal [out]
+### -param retval [out]
 
 Type: <b>VARIANT*</b>
 

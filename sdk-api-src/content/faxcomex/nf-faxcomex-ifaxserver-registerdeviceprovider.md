@@ -43,11 +43,7 @@ api_location:
  - Fxscomex.dll
 api_name:
  - IFaxServer.RegisterDeviceProvider
- - IFaxServer.RegisterDeviceProvider
 ---
-
-# IFaxServer::RegisterDeviceProvider
-
 
 ## -description
 
@@ -75,20 +71,15 @@ Null-terminated string that contains the fully qualified path and file name of t
 
 ### -param TspName
 
-TBD
+Type: <b>BSTR</b>
+
+Null-terminated string that contains the name of the telephony service provider associated with the devices for the FSP.
 
 ### -param lFSPIVersion
 
 Type: <b>long</b>
 
 A <b>long</b> value that indicates the version of the FSP. Should be equal to 0x00010000.
-
-
-#### - bstrTempName
-
-Type: <b>BSTR</b>
-
-Null-terminated string that contains the name of the telephony service provider associated with the devices for the FSP.
 
 ## -returns
 

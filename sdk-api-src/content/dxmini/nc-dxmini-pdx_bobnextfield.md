@@ -45,9 +45,6 @@ api_name:
  - DxBobNextField
 ---
 
-# PDX_BOBNEXTFIELD callback function
-
-
 ## -description
 
 The <i>DxBobNextField</i> callback function bobs the next field of interleaved data.
@@ -56,21 +53,13 @@ The <i>DxBobNextField</i> callback function bobs the next field of interleaved d
 
 ### -param Arg1
 
+Points to the miniport driver's device extension.
+
 ### -param Arg2
-
-### -param Arg3
-
-#### - BobNextFieldInfo
 
 Points to a <a href="/windows/desktop/api/dxmini/ns-dxmini-ddbobnextfieldinfo">DDBOBNEXTFIELDINFO</a> structure that contains the bob information for the surface.
 
-
-#### - HwDeviceExtension
-
-Points to the miniport driver's device extension.
-
-
-#### - lpOutput
+### -param Arg3
 
 Reserved for system use.
 
@@ -78,14 +67,9 @@ Reserved for system use.
 
 <i>DxBobNextField</i> returns DX_OK if it succeeds; otherwise, it returns one of the following error values:
 
-
 <a href="/windows-hardware/drivers/display/return-values-for-directdraw">DXERR_GENERIC</a>
 
-
-
 <a href="/windows-hardware/drivers/display/return-values-for-directdraw">DXERR_OUTOFCAPS</a>
-
-
 
 <a href="/windows-hardware/drivers/display/return-values-for-directdraw">DXERR_UNSUPPORTED</a>
 
@@ -96,7 +80,5 @@ When data is interleaved, the driver's <a href="/windows/desktop/api/ddrawint/nc
 ## -see-also
 
 <a href="/windows/desktop/api/dxmini/ns-dxmini-ddbobnextfieldinfo">DDBOBNEXTFIELDINFO</a>
-
-
 
 <a href="/windows/desktop/api/ddrawint/nc-ddrawint-pdd_surfcb_flip">DdFlip</a>

@@ -45,9 +45,6 @@ api_name:
  - FNFCIGETOPENINFO
 ---
 
-# FNFCIGETOPENINFO macro
-
-
 ## -description
 
 The <b>FNFCIGETOPENINFO</b> macro provides the declaration for the application-defined callback function to open a file and retrieve file date, time, and attribute.
@@ -56,80 +53,13 @@ The <b>FNFCIGETOPENINFO</b> macro provides the declaration for the application-d
 
 ### -param fn [in]
 
- The complete filename.
-
-
-#### - err
-
-Pointer to the error code value. This value will be used to provide extended error information in the <a href="/windows/desktop/api/fdi_fci_types/ns-fdi_fci_types-erf">ERF</a> structure used to create the FCI context.
-
-
-#### - pattribs
-
-The file attributes. For possible values and their descriptions, see File Attributes.
-
-
-#### - pdate
-
- The MS-DOS date. The date is a packed value with the following format:
-
-<table>
-<tr>
-<th>Bits</th>
-<th>Description</th>
-</tr>
-<tr>
-<td>0-4</td>
-<td>Day of the Month (1-31)</td>
-</tr>
-<tr>
-<td>5-8</td>
-<td>Month (1 = January, 2 = Feburary, etc.)</td>
-</tr>
-<tr>
-<td>9-15</td>
-<td>Year Offset from 1980 (add 1980 to value to get current date)</td>
-</tr>
-</table>
- 
-
-
-#### - ptime
-
-The MS-DOS time. The time is a packed value with the following format:
-
-<table>
-<tr>
-<th>Bits</th>
-<th>Description</th>
-</tr>
-<tr>
-<td>0-4</td>
-<td>Second divided by 2</td>
-</tr>
-<tr>
-<td>5-8</td>
-<td>Minute (0-59)</td>
-</tr>
-<tr>
-<td>9-15</td>
-<td>Hour (0-23 on a 24-hour clock)</td>
-</tr>
-</table>
- 
-
-
-#### - pv
-
-Pointer to an application-defined value.
+The complete filename.
 
 ## -remarks
 
 The function should open the file using the file open function compatible with those passed into <a href="/windows/desktop/api/fci/nf-fci-fcicreate">FCICreate</a>.
 
-
-#### Examples
-
+## Examples
 
 ```cpp
 FNFCIGETOPENINFO(fnGetOpenInfo)
@@ -158,7 +88,6 @@ FNFCIGETOPENINFO(fnGetOpenInfo)
 
     return (INT_PTR)hFile;
 }
-
 ```
 
 ## -see-also

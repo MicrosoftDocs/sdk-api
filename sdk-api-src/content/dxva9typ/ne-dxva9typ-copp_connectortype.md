@@ -47,9 +47,6 @@ api_name:
  - COPP_ConnectorType
 ---
 
-# COPP_ConnectorType enumeration
-
-
 ## -description
 
 Specifies the type of physical connector.
@@ -103,34 +100,6 @@ Internal connector. This flag can be combined with the other flags. This flag in
 ### -field COPP_ConnectorType_ForceDWORD
 
 Reserved. Do not use.
-
-
-#### - COPP_ConnectorType_DisplayPortEmbedded
-
-An embedded display port that connects internally to a display device. Also known as an <i>integrated</i> display port.
-
-Applications should not enable High-Bandwidth Digital Content Protection (HDCP)  for embedded display ports.
-
-
-#### - COPP_ConnectorType_DisplayPortExternal
-
-A display port that connects externally to a display device
-
-
-#### - COPP_ConnectorType_SDI
-
-Serial digital image connector.
-          
-
-
-#### - COPP_ConnectorType_UDIEmbedded
-
-An embedded UDI that connects internally to a display device. Also known as an <i>integrated</i> UDI.
-
-
-#### - COPP_ConnectorType_UDIExternal
-
-A Unified Display Interface (UDI) that connects externally to a display device.
 
 ## -remarks
 

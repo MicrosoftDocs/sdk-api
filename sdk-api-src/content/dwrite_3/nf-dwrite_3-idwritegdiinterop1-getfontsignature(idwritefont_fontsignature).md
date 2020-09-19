@@ -45,9 +45,6 @@ api_name:
  - IDWriteGdiInterop1.GetFontSignature
 ---
 
-# IDWriteGdiInterop1::GetFontSignature(IDWriteFont,FONTSIGNATURE)
-
-
 ## -description
 
 Reads the font signature from the given font.
@@ -56,20 +53,15 @@ Reads the font signature from the given font.
 
 ### -param font
 
-TBD
-
-### -param fontSignature [out]
-
-Type: <b>FONTSIGNATURE*</b>
-
-Font signature from the OS/2 table, ulUnicodeRange and ulCodePageRange.
-
-
-#### - fontFace [in]
-
 Type: <b><a href="/windows/win32/api/dwrite/nn-dwrite-idwritefont">IDWriteFont</a>*</b>
 
 Font to read font signature from.
+
+### -param fontSignature
+
+Type: [out] <b>FONTSIGNATURE*</b>
+
+Font signature from the OS/2 table, ulUnicodeRange, and ulCodePageRange.
 
 ## -returns
 
@@ -80,4 +72,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -see-also
 
 <a href="/windows/win32/api/dwrite_3/nn-dwrite_3-idwritegdiinterop1">IDWriteGdiInterop1</a>
-

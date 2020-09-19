@@ -45,9 +45,6 @@ api_name:
  - CCAB
 ---
 
-# CCAB structure
-
-
 ## -description
 
 The <b>CCAB</b> structure contains cabinet information.
@@ -62,7 +59,9 @@ The maximum size, in bytes, of a cabinet  created by FCI.
 
 The maximum size, in bytes, that  a folder will contain before a new folder is created.
 
-### -field cbReserveCFHeader
+## -field cbReserveCFHeader
+
+The size, in bytes, of the CFHeader reserve area. Possible value range is 0-60,000.
 
 ### -field cbReserveCFFolder
 
@@ -82,6 +81,8 @@ The maximum size, in bytes, of a cabinet  created by FCI.
 
 ### -field fFailOnIncompressible
 
+TBD
+
 ### -field setID
 
 A value that represents the association between a collection of linked cabinet files.
@@ -97,11 +98,6 @@ The name of the cabinet.
 ### -field szCabPath
 
 The full path that indicates where to create the cabinet.
-
-
-#### - cbReservesCFHeader
-
-The size, in bytes, of the CFHeader reserve area. Possible value range is 0-60,000.
 
 ## -see-also
 

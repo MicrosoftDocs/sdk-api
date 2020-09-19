@@ -43,11 +43,7 @@ api_location:
  - Fxscomex.dll
 api_name:
  - IFaxOutboundRoutingRules.ItemByCountryAndArea
- - IFaxOutboundRoutingRules.ItemByCountryAndArea
 ---
-
-# IFaxOutboundRoutingRules::ItemByCountryAndArea
-
 
 ## -description
 
@@ -68,13 +64,6 @@ Type: <b>long</b>
 A <b>long</b> value that specifies the area code of the outbound routing rule to retrieve. Specifying <a href="/previous-versions/windows/desktop/api/faxcomex/ne-faxcomex-fax_routing_rule_code_enum">frrcANY_CODE</a> will return a rule for any area code within the specified country/region code.
 
 ### -param pFaxOutboundRoutingRule
-
-TBD
-
-
-
-
-#### - FaxOutboundRoutingRule
 
 Type: <b><a href="/previous-versions/windows/desktop/fax/-mfax-faxoutboundroutingrule">FaxOutboundRoutingRule</a>**</b>
 

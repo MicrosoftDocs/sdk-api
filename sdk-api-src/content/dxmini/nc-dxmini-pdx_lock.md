@@ -45,9 +45,6 @@ api_name:
  - DxLock
 ---
 
-# PDX_LOCK callback function
-
-
 ## -description
 
 The<i> DxLock</i> callback function is called when a client of the video miniport driver wants access to the frame buffer.
@@ -55,23 +52,12 @@ The<i> DxLock</i> callback function is called when a client of the video minipor
 ## -parameters
 
 ### -param Arg1
-
-### -param Arg2
-
-### -param Arg3
-
-#### - HwDeviceExtension
-
 Points to the miniport driver's device extension.
 
-
-#### - LockInInfo
-
+### -param Arg2
 Points to a <a href="/windows/desktop/api/dxmini/ns-dxmini-ddlockininfo">DDLOCKININFO</a> structure that contains the surface information for the lock.
 
-
-#### - LockOutInfo
-
+### -param Arg3
 Points to a <a href="/windows/desktop/api/dxmini/ns-dxmini-ddlockoutinfo">DDLOCKOUTINFO</a> structure that contains the surface in the frame buffer.
 
 ## -returns
@@ -85,7 +71,5 @@ The <a href="/windows/desktop/api/dxmini/ns-dxmini-ddlockininfo">DDLOCKININFO</a
 ## -see-also
 
 <a href="/windows/desktop/api/dxmini/ns-dxmini-ddlockininfo">DDLOCKININFO</a>
-
-
 
 <a href="/windows/desktop/api/dxmini/ns-dxmini-ddlockoutinfo">DDLOCKOUTINFO</a>

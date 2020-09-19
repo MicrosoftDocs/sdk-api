@@ -45,9 +45,6 @@ api_name:
  - FNFCIOPEN
 ---
 
-# FNFCIOPEN macro
-
-
 ## -description
 
 The <b>FNFCIOPEN</b> macro provides the declaration for the application-defined callback function to open a file in an FCI context.
@@ -58,34 +55,11 @@ The <b>FNFCIOPEN</b> macro provides the declaration for the application-defined 
 
 The name of the file.
 
-
-#### - err
-
-Pointer to the error code value. 
-
-This value will be used to provide extended error information in the <a href="/windows/desktop/api/fdi_fci_types/ns-fdi_fci_types-erf">ERF</a> structure used to create the FCI context.
-
-
-#### - oflag
-
-Specifies the type of operations allowed.
-
-
-#### - pmode
-
-Specifies the permission mode.
-
-
-#### - pv
-
-Pointer to an application-defined value.
-
 ## -remarks
 
 The function accepts parameters similar to <a href="https://msdn.microsoft.com/library/z0kc8e3z(VS.71).aspx">_open</a>.
 
-
-#### Examples
+## Examples
 
 
 ```cpp

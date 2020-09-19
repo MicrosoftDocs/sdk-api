@@ -47,12 +47,9 @@ api_name:
  - EAP_ATTRIBUTE_TYPE
 ---
 
-# EAP_ATTRIBUTE_TYPE enumeration
-
-
 ## -description
 
- The <b>EAP_ATTRIBUTE_TYPE</b> enumeration defines the set of possible EAP attribute types available on an authenticating entity.
+The <b>EAP_ATTRIBUTE_TYPE</b> enumeration defines the set of possible EAP attribute types available on an authenticating entity.
 
 Further details for values in this enumerated type are obtained by referring to one of the following references: 
 <a href="https://www.ietf.org/rfc/rfc2865.txt">RFC 2865</a>, 
@@ -95,6 +92,10 @@ Specifies the IP address of the Network Access Server (NAS) that is requesting u
 <a href="https://www.ietf.org/rfc/rfc2865.txt">RFC 2865</a>.
 
 ### -field eatNASPort
+
+Specifies the physical or virtual private network (VPN) through which the user is connecting to the NAS. Note that this value is not a port number in the sense of TCP or UDP. The <b>pValue</b> member  of  
+<a href="/windows/desktop/api/eaptypes/ns-eaptypes-eap_attribute">EAP_ATTRIBUTE</a> for this type points to a byte string. For more information, see 
+<a href="https://www.ietf.org/rfc/rfc2865.txt">RFC 2865</a>.
 
 ### -field eatServiceType
 
@@ -232,8 +233,7 @@ Specifies a value that is provided to the NAS by the authentication provider. Th
 
 Specifies a field for vendor-supplied extended attributes. 
 
-This field is used to store Microsoft Point-to-Point Encryption (MPPE) keys consumed by the <a href="/previous-versions/windows/embedded/ms890287(v=msdn.10)">802.1X</a> supplicant. For more information, see 
-<a href="https://www.ietf.org/rfc/rfc2865.txt">RFC 2865</a>.
+This field is used to store Microsoft Point-to-Point Encryption (MPPE) keys consumed by the <a href="/previous-versions/windows/embedded/ms890287(v=msdn.10)">802.1X</a> supplicant. For more information, see <a href="https://www.ietf.org/rfc/rfc2865.txt">RFC 2865</a>.
 
 The following table shows the structure of the data pointed to by the <b>pValue</b> member  of  
 <a href="/windows/desktop/api/eaptypes/ns-eaptypes-eap_attribute">EAP_ATTRIBUTE</a> for this type. 
@@ -289,7 +289,6 @@ The following table shows the structure of the data pointed to by the <b>pValue<
 <li>For MPPE receive keys used on a server, this field contains the first 32 bytes (bytes 0-31) of the MSK.</li>
 </ul>
 
-
 </td>
 </tr>
 <tr>
@@ -300,7 +299,6 @@ The following table shows the structure of the data pointed to by the <b>pValue<
 </td>
 </tr>
 </table>
- 
 
 This attribute type is consumed by 802.1X supplicants.
 
@@ -680,6 +678,8 @@ This attribute type is exported  by PEAP methods and consumed by PPP client supp
 
 ### -field eatFastRoamedSession
 
+TBD
+
 ### -field eatEAPTLV
 
 An EAP-TLV attribute. This attribute type is used to handle statement of health (SoH) requests and SoH responses from the server. 
@@ -770,6 +770,8 @@ This attribute type is exported by EAPHost and PEAP methods, and consumed by PPP
 
 ### -field eatCertificateThumbprint
 
+TBD
+
 ### -field eatPeerId
 
 The peer identity provided in the identity response message (EAP-Response/Identity). This identity may be different than the peer identity authenticated by the EAP method.   The <b>pValue</b> member  of  
@@ -800,24 +802,14 @@ This attribute type is exported by EAP methods and consumed by supplicants.
 
 ### -field eatSessionId
 
-Windows Vista with SP1 or later: An attribute type which carries the session identity
+Windows Vista with SP1 or later: An attribute type that carries the session identity.
 
 ### -field eatReserved
 
 Not used.
 
-### -field v1_enum
-
-### -field eatNASport
-
-Specifies the physical or virtual private network (VPN) through which the user is connecting to the NAS. Note that this value is not a port number in the sense of TCP or UDP. The <b>pValue</b> member  of  
-<a href="/windows/desktop/api/eaptypes/ns-eaptypes-eap_attribute">EAP_ATTRIBUTE</a> for this type points to a byte string. For more information, see 
-<a href="https://www.ietf.org/rfc/rfc2865.txt">RFC 2865</a>.
-
 ## -see-also
 
 [About EAP Attributes](/windows/win32/eaphost/about-eap-attributes)
-
-
 
 <a href="/previous-versions/windows/it-pro/windows-server-2003/cc757996(v=ws.10)">PEAP</a>

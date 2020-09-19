@@ -46,9 +46,6 @@ api_name:
  - IFaxServer.UnregisterInboundRoutingExtension
 ---
 
-# IFaxServer::UnregisterInboundRoutingExtension
-
-
 ## -description
 
 The <b>IFaxServer::UnregisterInboundRoutingExtension</b> method unregisters an existing inbound routing extension. Unregistration will take place only after the fax server is restarted.
@@ -56,13 +53,6 @@ The <b>IFaxServer::UnregisterInboundRoutingExtension</b> method unregisters an e
 ## -parameters
 
 ### -param bstrExtensionUniqueName
-
-TBD
-
-
-
-
-#### - bstrExtensionName
 
 Type: <b>BSTR</b>
 

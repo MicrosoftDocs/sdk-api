@@ -46,20 +46,13 @@ api_name:
  - IFaxServer.GetPorts
 ---
 
-# IFaxServer::GetPorts
-
-
 ## -description
 
 The <b>GetPorts</b> method creates and initializes a <a href="/previous-versions/windows/desktop/fax/-mfax-faxports">FaxPorts</a> object for a specified <a href="/previous-versions/windows/desktop/fax/-mfax-faxserver-client">FaxServer</a> object. The FaxPorts object allows enumeration of fax port configuration information for the connected fax server.
 
 ## -parameters
 
-### -param retval
-
-TBD
-
-### -param retVal [out]
+### -param retval [out]
 
 Type: <b>VARIANT*</b>
 

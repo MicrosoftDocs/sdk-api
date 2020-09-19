@@ -49,9 +49,6 @@ api_name:
  - FAX_RECEIVE
 ---
 
-# FAX_RECEIVE structure
-
-
 ## -description
 
 The <b>FAX_RECEIVE</b> structure contains information about an inbound fax document. This information includes the name of the file that will receive the fax data stream, and the name and telephone number of the receiving device.
@@ -82,7 +79,7 @@ Type: <b>LPWSTR</b>
 
 Pointer to a null-terminated Unicode character string that specifies the telephone number of the receiving device. The FSP will send the number to the remote sending device after the receiving device receives an inbound fax. For more information, see the following Remarks section.
 
-### -field Reserved [4]
+### -field Reserved
 
 Type: <b>DWORD</b>
 

@@ -46,29 +46,19 @@ api_name:
  - IFaxServer.GetExtensionProperty
 ---
 
-# IFaxServer::GetExtensionProperty
-
-
 ## -description
 
 The <b>IFaxServer::GetExtensionProperty</b> method retrieves an extension configuration property stored at the server level.
 
 ## -parameters
 
-### -param bstrGUID [in]
+### -param bstrGUID
 
-Type: <b>BSTR</b>
+Type: [in] <b>BSTR</b>
 
 Specifies a string GUID that uniquely identifies the data to be retrieved.
 
-### -param pvProperty
-
-TBD
-
-
-
-
-#### - vProperty [out]
+### -param pvProperty [out]
 
 Type: <b>VARIANT*</b>
 
