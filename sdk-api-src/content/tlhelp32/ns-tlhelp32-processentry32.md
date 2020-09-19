@@ -94,7 +94,7 @@ The base priority of any threads created by this process.
 
 ### -field dwFlags
 
-This member is no longer used, and is always set to zero.
+This member is no longer used and is always set to zero.
 
 ### -field szExeFile
 
